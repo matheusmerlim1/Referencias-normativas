@@ -1,0 +1,123 @@
+{
+ "id": "PETROBRAS-N-2568",
+ "titulo": "Petrobras N-2568 Rev. C (09/2019) — Revestimentos metálicos anticorrosivos depositados por aspersão térmica",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Seleção e aplicação de revestimentos metálicos aspergidos (alumínio, zinco, liga zinco-alumínio, aço inoxidável, cerâmicos) pelos processos a chama ou a arco elétrico, em peças de aço expostas a meio corrosivo — na fabricação, montagem e manutenção de tubulações e equipamentos. Também chamado de metalização (TSA quando é alumínio). Traz requisitos da contratada, preparo, aplicação, qualificação de procedimento e pessoal, selagem, controle em campo e reparo.",
+   "valores": [],
+   "figuras": ["esquemas/aspersao-termica-camadas.svg"]
+  },
+  {
+   "titulo": "Antes de começar — geometria e soldas",
+   "item": "4.2–4.3",
+   "texto": "Soldas sem escória, respingo, mordedura ou porosidade (não é preciso esmerilhar o reforço). Cantos vivos arredondados ou recortados (SSPC PA Guide 11). Curvas e concavidades pequenas não metalizam bem. Internos de vasos e torres retirados ou com acesso previsto; mascarar o que não deve ser revestido. Área revestida que vá receber solda tem o revestimento removido em volta da futura solda.",
+   "valores": [
+    {"parametro": "Raio mínimo de canto vivo", "valor": "≥ 2,0 mm", "item": "4.2.1 c)", "cota": "esquemas/aspersao-termica-camadas.svg#raio-canto"},
+    {"parametro": "Diâmetro abaixo do qual curvas/concavidades metalizam mal", "valor": "< 100 mm", "item": "4.2.1 Nota 2", "cota": "esquemas/aspersao-termica-camadas.svg#raio-canto"},
+    {"parametro": "Remoção do revestimento em volta de futura solda", "valor": "25 mm a 30 mm", "item": "4.3.1", "cota": "esquemas/aspersao-termica-camadas.svg#afastamento-solda"},
+    {"parametro": "Extremidade do revestimento de Al ou inox até junta a soldar", "valor": "25 mm a 30 mm", "item": "5.2.3 Nota", "cota": "esquemas/aspersao-termica-camadas.svg#afastamento-solda"}
+   ]
+  },
+  {
+   "titulo": "Pré-limpeza e jateamento final",
+   "item": "5.1–5.2",
+   "texto": "Pré-limpeza (recomendada) com hidrojato com detergente ou jato convencional; sem areia. Abrasivo recirculado é inspecionado com lupa e peneirado; no jato final, reutilização limitada (só externo; nunca interno de equipamentos/tubos). Jato final só com superfície acima do orvalho e UR controlada (pirômetro de contato e higrômetro); ar comprimido testado (ASTM D4285). Grau de limpeza: Sa 3 para interno e sempre que o processo for a chama; Sa 2½ ou Sa 3 no externo com arco. Sais solúveis (ISO 8502-6/-9) e poeira (ISO 8502-3, até rating 2) amostrados pela Tabela 1.",
+   "valores": [
+    {"parametro": "Desgaste máximo do bico de jato", "valor": "50 % do diâmetro interno", "item": "4.1.6"},
+    {"parametro": "Pressão do hidrojato de pré-limpeza", "valor": "> 200 MPa (água quente 50–70 °C opcional)", "item": "5.1.2 a)", "nota": "prática recomendada"},
+    {"parametro": "Intervalo máx. entre pré-limpeza e jato final (superfície contaminada)", "valor": "24 h", "item": "5.1 Nota 1", "nota": "prática recomendada"},
+    {"parametro": "Temperatura da superfície para jatear", "valor": "≥ ponto de orvalho + 3 °C", "item": "5.2.1.1", "cota": "esquemas/pintura-condicoes-aplicacao.svg#margem-orvalho"},
+    {"parametro": "UR máxima para o jato final", "valor": "90 % (ambiente confinado: admite-se acima se a umidade local for controlada)", "item": "5.2.1.1", "cota": "esquemas/pintura-condicoes-aplicacao.svg#ur-max"},
+    {"parametro": "Pressão mínima no bico (abrasivo de óxido de alumínio)", "valor": "85 psi", "item": "5.2.2.1 e)"},
+    {"parametro": "Teste do ar comprimido", "valor": "antes de cada jornada; recomendado após 15 min; a cada parada > 20 min", "item": "5.2.2.2"},
+    {"parametro": "Reutilização do abrasivo (jato final, externo)", "valor": "no máx. 3 vezes; óleo testado ao menos 1 vez por dia", "item": "5.2.5.3.1"},
+    {"parametro": "Sais solúveis máx. antes da aspersão", "valor": "5 µg/cm²", "item": "5.2.8.1"},
+    {"parametro": "Amostragem de sais/poeira — área metalizada", "valor": "até 100 m²: 1; 100–250 m²: 2; acima de 250 m²: 2 a cada 300 m²", "item": "Tab. 1"},
+    {"parametro": "Tempo de jato numa região", "valor": "3 s a 4 s", "item": "5.2.10.2", "nota": "prática recomendada"},
+    {"parametro": "Ângulo do jato abrasivo", "valor": "90° ± 30°", "item": "5.2.11.1", "cota": "esquemas/aspersao-termica-camadas.svg#angulo"},
+    {"parametro": "Distância do bico de jato ao aço", "valor": "100 mm a 200 mm", "item": "5.2.11.2", "cota": "esquemas/aspersao-termica-camadas.svg#distancia-pistola"},
+    {"parametro": "Rugosidade (Ry, pico–vale)", "valor": "65 µm a 120 µm", "item": "5.2.12", "cota": "esquemas/aspersao-termica-camadas.svg#perfil"},
+    {"parametro": "Área de cada medida de rugosidade (5 leituras: centro + diagonais)", "valor": "200 mm × 200 mm", "item": "5.2.13.3", "cota": "esquemas/pintura-preparo-superficie.svg#quadrado-lado"}
+   ],
+   "figuras": ["esquemas/aspersao-termica-camadas.svg", "esquemas/pintura-preparo-superficie.svg"]
+  },
+  {
+   "titulo": "Aplicação do revestimento",
+   "item": "5.3",
+   "texto": "Usa-se sempre arco elétrico (melhor aderência e produtividade); chama só para reparos localizados, acesso difícil (com autorização) ou cordões circunferenciais em pipe shop/barco de lançamento. Arame limpo, sem revestimento externo, desenrolando sem torcer; amostra de cada lote guardada. Alumínio ≥ 99,5 % (ISO 14919 3.2 / AWS W-Al-1350); zinco Zn 99,99 (code 2.2 não aceito) ou liga ZnAl15. Pré-aquecimento da área inicial; em offshore C5-M com UR alta, aspergir logo após o jato ou pré-aquecer. Passes cruzados (com arames grossos, passes paralelos com sobreposição). Tudo terminado dentro do intervalo máximo após o jato; uma amostra de produção por componente/fração de área.",
+   "valores": [
+    {"parametro": "Pureza do alumínio", "valor": "≥ 99,5 %", "item": "5.3.4.2.1"},
+    {"parametro": "Liga zinco-alumínio (ZnAl15)", "valor": "Zn 84–86 %, Al 14–16 %", "item": "Tab. 4"},
+    {"parametro": "Amostra de consumível guardada", "valor": "12 meses", "item": "5.3.4.1.4"},
+    {"parametro": "Pré-aquecimento — área inicial e temperatura", "valor": "0,1 m² a 0,2 m², 100 °C a 120 °C", "item": "5.3.5.2.2"},
+    {"parametro": "Pré-aquecimento quando não se asperge logo após o jato (C5-M, UR > 90 %)", "valor": "acima de 50 °C", "item": "5.3.5.2.3 b)"},
+    {"parametro": "Arames grossos (passes paralelos recomendados)", "valor": "Ø 3,2 mm e 4,8 mm", "item": "5.3.6 Nota", "nota": "diâmetro de consumível, não cota da peça"},
+    {"parametro": "Ângulo do jato de metal fundido", "valor": "90° ± 30° (nunca abaixo de 60°)", "item": "5.3.6.3", "cota": "esquemas/aspersao-termica-camadas.svg#angulo"},
+    {"parametro": "Distância bico–peça sem dado do fabricante — chama", "valor": "130 mm a 180 mm", "item": "5.3.6.3 a)", "cota": "esquemas/aspersao-termica-camadas.svg#distancia-pistola"},
+    {"parametro": "Distância bico–peça sem dado do fabricante — arco", "valor": "150 mm a 200 mm", "item": "5.3.6.3 b)", "cota": "esquemas/aspersao-termica-camadas.svg#distancia-pistola"},
+    {"parametro": "Tempo máx. do fim do jato ao fim da aspersão", "valor": "6 h (mais só em espaço confinado com controle ambiental e aprovação)", "item": "5.3.8"},
+    {"parametro": "Amostra de ensaio de produção", "valor": "150 mm × 150 mm por componente até 30 m² (e por fração de 30 m²)", "item": "5.3.9.2", "cota": "esquemas/chapa-fita-dimensoes.svg#comprimento"}
+   ]
+  },
+  {
+   "titulo": "Qualificação — espessura, dobramento e adesão",
+   "item": "7.3",
+   "texto": "Exame visual com lupa 7–10×: sem descascar, trincar, empolar ou pites até o substrato. Espessura medida por método magnético/indutivo (ISO 2178) ao longo de linhas em cantoneira, chapa e tubo, 5 pontos por linha; avaliação pela média (Tabela 8): entre os limites, aprovado; faixa intermediária exige ensaio de talhadeira ou tração. Dobramento a 180° em mandril: trincas finas são aceitas, desplacamento reprova (marginal reprova arco e plasma). Adesão com equipamento autoalinhante (ASTM D4541 tipos III a VI ou NBR 15877), cola de cura rápida em gel, sem aquecer a cola; pelo menos 5 pinos por placa (4 a 90° em tubo).",
+   "valores": [
+    {"parametro": "Defeito superficial máx. no RAAT", "valor": "Ø 1 mm e altura 1 mm", "item": "7.3.1", "cota": "esquemas/aspersao-termica-camadas.svg#metalizacao"},
+    {"parametro": "Espaçamento das leituras de espessura na linha", "valor": "80 mm", "item": "7.3.2.2", "cota": "esquemas/pintura-preparo-superficie.svg#intervalo"},
+    {"parametro": "Distância entre linhas (cantoneira/chapa)", "valor": "50 mm (tubo: linhas a 90°)", "item": "7.3.2.2", "cota": "esquemas/pintura-preparo-superficie.svg#intervalo"},
+    {"parametro": "Espessura média — aprovado", "valor": "225 µm a 400 µm", "item": "Tab. 8", "cota": "esquemas/aspersao-termica-camadas.svg#metalizacao"},
+    {"parametro": "Espessura média — reprovado", "valor": "< 225 µm ou > 500 µm; nenhum valor individual < 200 µm", "item": "Tab. 8", "cota": "esquemas/aspersao-termica-camadas.svg#metalizacao"},
+    {"parametro": "Espessura média — sujeita a talhadeira ou tração", "valor": "400 µm a 500 µm", "item": "Tab. 8", "cota": "esquemas/aspersao-termica-camadas.svg#metalizacao"},
+    {"parametro": "Cantos vivos, extremidades e curvas de raio até 10 mm", "valor": "média 225–350 µm, nenhum valor > 400 µm", "item": "Tab. 8 Nota 2", "cota": "esquemas/aspersao-termica-camadas.svg#metalizacao"},
+    {"parametro": "Mandril do ensaio de dobramento", "valor": "Ø 13 mm, dobra a 180°", "item": "7.3.3", "cota": "esquemas/aspersao-termica-camadas.svg#raio-canto"},
+    {"parametro": "Célula de carga mín. para o ensaio de qualificação", "valor": "35 MPa", "item": "7.3.4.2 Nota 2"},
+    {"parametro": "Adesão — alumínio / ZnAl15 (arco)", "valor": "mín. individual 7 MPa; média ≥ 10 MPa", "item": "Tab. 10"},
+    {"parametro": "Adesão — zinco (arco)", "valor": "mín. individual 5 MPa; média ≥ 7 MPa", "item": "Tab. 10"},
+    {"parametro": "Adesão — aço inoxidável (arco)", "valor": "mín. individual 10 MPa; média ≥ 14 MPa", "item": "Tab. 10"},
+    {"parametro": "Adesão — processo a chama (mín. individual)", "valor": "Al e ZnAl 7 MPa; Zn 5 MPa; inox 10 MPa", "item": "Tab. 10"},
+    {"parametro": "Placa de adesão (Figura 8) — lado", "valor": "500 mm", "item": "Fig. 8", "cota": "esquemas/aspersao-termica-camadas.svg#ensaio-placa", "nota": "lido da figura"},
+    {"parametro": "Placa de adesão — afastamento dos pinos à borda", "valor": "50 mm", "item": "Fig. 8", "cota": "esquemas/aspersao-termica-camadas.svg#ensaio-borda", "nota": "lido da figura"}
+   ],
+   "figuras": ["esquemas/aspersao-termica-camadas.svg"]
+  },
+  {
+   "titulo": "Selante e topcoat",
+   "item": "8",
+   "texto": "Selar é obrigatório (exceto quando o equipamento é liberado com vapor). Selar logo que o aço esfriar perto da temperatura indicada; se houver suspeita de umidade, aquecer antes (de preferência pelo lado oposto). Selante e acabamento conforme o ambiente: epóxi poliamina/poliamida de baixo COV até 93 °C (picos de 120 °C); silicone de cura ambiente entre 120 e 500 °C; epóxi + poliuretano acrílico na zona de maré. Alumínio metalizado não é pintado — só identificação de cor fina; zinco metalizado pode receber esquema epóxi espesso após selado. Com pull-off em campo, selar só depois do ensaio.",
+   "valores": [
+    {"parametro": "Selar — temperatura do substrato", "valor": "próxima a 60 °C (tubos semi-automatizados: abaixo de 60 °C)", "item": "8.2"},
+    {"parametro": "Selar — prazo máximo após a aspersão", "valor": "8 h (zinco) / 24 h (alumínio)", "item": "8.2"},
+    {"parametro": "Aquecimento para tirar umidade antes de selar", "valor": "60 °C a 100 °C (chama neutra)", "item": "8.3"},
+    {"parametro": "Selante (1ª demão) — EPS", "valor": "25 µm a 35 µm", "item": "Tab. 11 a 14", "cota": "esquemas/aspersao-termica-camadas.svg#selante"},
+    {"parametro": "Topcoat epóxi (até 93 °C, só imersão ou cor)", "valor": "35 µm a 45 µm", "item": "Tab. 11", "cota": "esquemas/aspersao-termica-camadas.svg#topcoat"},
+    {"parametro": "Topcoat silicone (120 a 500 °C)", "valor": "25 µm a 35 µm", "item": "Tab. 12", "cota": "esquemas/aspersao-termica-camadas.svg#topcoat"},
+    {"parametro": "Topcoat PU acrílico alifático (zona de maré; esquema sobre zinco)", "valor": "45 µm a 65 µm", "item": "Tab. 13 / Tab. 14", "cota": "esquemas/aspersao-termica-camadas.svg#topcoat"},
+    {"parametro": "Intermediária epóxi sobre zinco metalizado", "valor": "200 µm a 350 µm", "item": "Tab. 14", "cota": "esquemas/aspersao-termica-camadas.svg#pintura-total"},
+    {"parametro": "Selante epóxi novolac (com aprovação)", "valor": "até 150 °C", "item": "Tab. 11 nota de rodapé"},
+    {"parametro": "Baixo COV", "valor": "voláteis < 250 g/L", "item": "Tab. 11 Nota 1"},
+    {"parametro": "Área para verificar a selagem pela espessura", "valor": "10 cm²", "item": "8.5"},
+    {"parametro": "Alumínio — pintura de identificação sobre o selado", "valor": "máx. 75 µm; total selante + topcoat ≤ 110 µm", "item": "8.6.1", "cota": "esquemas/aspersao-termica-camadas.svg#pintura-total"},
+    {"parametro": "Selagem máx. com proteção catódica (submarino)", "valor": "35 µm", "item": "8.6.2", "cota": "esquemas/aspersao-termica-camadas.svg#selante"}
+   ],
+   "figuras": ["esquemas/aspersao-termica-camadas.svg"]
+  },
+  {
+   "titulo": "Controle em campo e reparo",
+   "item": "9–10",
+   "texto": "Em campo repetem-se os controles de consumíveis, equipamentos, ambiente, pré-aquecimento, superfície e processo. Espessura em áreas pequenas com cabeçote magnético pontual (mín. 3 medições; acima do especificado → ensaio de talhadeira, SSPC C23.00 Apêndice B); cada medida é a média de 5 leituras numa pequena área. Pull-off reprovado: repetir com 2 pinos opostos afastados do ponto; se passarem, mais 2; se falharem, rejeitar a área. Em tubos finos, pinos curvos que acompanhem a superfície. Reparo do ponto de ensaio em pequeno raio; dano que reduza muito a espessura ou exponha o aço exige remover e reaplicar, com faixa de transição; corrosão vermelha em área pequena pode ser lixada e pintada com epóxi.",
+   "valores": [
+    {"parametro": "Área de cada medida de espessura (média de 5 leituras)", "valor": "9 cm²", "item": "9.8.2 Nota"},
+    {"parametro": "Pull-off de campo reprovado — distância dos 2 pinos extras", "valor": "1 m do ponto anterior (menor em áreas pequenas, com aprovação)", "item": "9.8.3", "cota": "esquemas/pintura-execucao-campo.svg#reteste"},
+    {"parametro": "Tubos com pino curvo no pull-off", "valor": "Ø externo ≤ 4\" (100 mm)", "item": "9.8.3.3.2.3", "nota": "faixa de aplicação; o pino acompanha a curvatura"},
+    {"parametro": "Reparo após ensaio de adesão — raio", "valor": "2 cm em torno do pino", "item": "10.1.1", "cota": "esquemas/aspersao-termica-camadas.svg#raio-reparo"},
+    {"parametro": "Perda de espessura que exige novo jato (falha coesiva) / remoção (dano em operação)", "valor": "> 50 % do especificado", "item": "10.1.1 b) / 10.3.1"},
+    {"parametro": "Faixa de transição revestimento novo/existente", "valor": "5 cm a 7,5 cm", "item": "10.3.2", "cota": "esquemas/aspersao-termica-camadas.svg#transicao"},
+    {"parametro": "Corrosão vermelha — lixar em volta do dano", "valor": "2 cm além da borda; lixa 200 mesh; 2 demãos epóxi de 100 µm", "item": "10.3.4", "cota": "esquemas/aspersao-termica-camadas.svg#transicao"}
+   ]
+  }
+ ]
+}

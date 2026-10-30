@@ -1,0 +1,59 @@
+{
+ "id": "PETROBRAS-N-1550",
+ "titulo": "Petrobras N-1550 Rev. G (11/2022) — Pintura externa de estruturas metálicas em aço carbono de instalações terrestres",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Escolha do esquema de pintura externa de estruturas de aço carbono em terra: berços de equipamentos, galpões, pipe-racks, pisos, plataformas, guarda-corpos, passadiços e escadas, estruturas de equipamentos (fora da N-2913), torres de telecomunicação e de tocha. Suportes de tubulação (patins, berços) seguem a N-442; aço galvanizado, a N-1021.",
+   "valores": [
+    {"parametro": "Prazo para implantar a revisão", "valor": "180 dias após a publicação", "item": "1.3"}
+   ]
+  },
+  {
+   "titulo": "Condições gerais",
+   "item": "3",
+   "texto": "Shop primer removido antes do esquema (salvo garantia do fabricante). Retoque repete o esquema; sem jato possível, ferramenta mecânica SSPC-SP 11 com perfil mínimo. Intervalo entre demãos é o de repintura da tinta anterior (vencido → N-13). Inspeção prévia (NBR 14847/15185, ISO 8501-1; estrutura já pintada: ASTM D610 e N-9) e desengraxe só onde preciso. Hidrojato em manutenção; obra nova só com abrasivo. Em obra nova, rolo só em pisos, plataformas, guarda-corpos, passadiços e escadas. Stripe coat a trincha em soldas, cantos, frestas e bordas a cada demão.",
+   "valores": [
+    {"parametro": "Perfil mínimo com ferramenta mecânica (SSPC-SP 11)", "valor": "50 µm", "item": "3.2", "cota": "esquemas/pintura-esquema-camadas.svg#perfil"},
+    {"parametro": "Grau de limpeza mínimo", "valor": "Sa 2½ / WAB-2 / WJ-2", "item": "Tab. 1"},
+    {"parametro": "Perfil de rugosidade", "valor": "50 µm a 100 µm", "item": "Tab. 1", "cota": "esquemas/pintura-esquema-camadas.svg#perfil"},
+    {"parametro": "Acabamento antiderrapante (tinta da N-2943) — EPS mín.", "valor": "500 µm", "item": "3.9", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"}
+   ],
+   "figuras": ["esquemas/pintura-execucao-campo.svg"]
+  },
+  {
+   "titulo": "Condição 1 — ambiente normal",
+   "item": "4.1",
+   "texto": "Ambiente seco ou úmido, com ou sem salinidade ou gases de enxofre: fundo epóxi-fosfato de zinco de alta espessura N-2630 (ou epóxi sem solvente N-2680) e acabamento poliuretano acrílico N-2677, a rolo, trincha ou pistola sem ar.",
+   "valores": [
+    {"parametro": "Fundo N-2630 ou N-2680 (EPS mín.)", "valor": "100 µm", "item": "4.1.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Intervalo até o acabamento", "valor": "N-2630: 16 h a 48 h; N-2680: 12 h a 120 h", "item": "4.1.1"},
+    {"parametro": "Acabamento N-2677 (EPS mín.)", "valor": "70 µm", "item": "4.1.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Condição 2 — alta agressividade",
+   "item": "4.2",
+   "texto": "Vapores ácidos ou alcalinos e orla marítima: fundo epóxi rico em zinco N-1277 e acabamento poliaspártico da N-2943; lavar entre demãos com água doce.",
+   "valores": [
+    {"parametro": "Faixa considerada agressiva", "valor": "até 500 m da praia (ou ventos do mar com areia/névoa salina)", "item": "4.2 Nota"},
+    {"parametro": "Lavagem entre demãos", "valor": "água doce a 1 000–3 000 psi", "item": "4.2 Nota"},
+    {"parametro": "Fundo N-1277 (EPS mín.)", "valor": "70 µm", "item": "4.2.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Acabamento poliaspártico N-2943 (EPS mín.)", "valor": "150 µm", "item": "4.2.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"}
+   ]
+  },
+  {
+   "titulo": "Condição 3 — estrutura com proteção contra fogo",
+   "item": "4.3",
+   "texto": "Antes do fireproofing (N-1756) aplica-se uma demão de N-2680; o fireproofing entra dentro do intervalo de repintura dessa tinta (com epóxi intumescente anticorrosivo, a N-2680 é dispensável). Se for preciso cor de sinalização: sobre cimentício, duas demãos de N-2677 a pistola, a 1ª diluída para selar os poros; sobre epóxi intumescente, uma demão de N-2677. O pull-off desta condição é feito antes do fireproofing (N-13).",
+   "valores": [
+    {"parametro": "N-2680 sob o fireproofing (EPS)", "valor": "150 µm", "item": "4.3.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Diluição da 1ª demão de N-2677 sobre cimentício", "valor": "≈ 10 %", "item": "4.3.2 a)"},
+    {"parametro": "Intervalo mín. entre demãos de N-2677 sobre cimentício", "valor": "8 h", "item": "4.3.2 a)"},
+    {"parametro": "Acabamento N-2677 sobre fireproofing (EPS mín. final)", "valor": "70 µm", "item": "4.3.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"}
+   ]
+  }
+ ]
+}

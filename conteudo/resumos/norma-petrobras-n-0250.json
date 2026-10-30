@@ -1,0 +1,115 @@
+{
+ "id": "PETROBRAS-N-0250",
+ "titulo": "Petrobras N-0250 Rev. J (05/2017) — Montagem de isolamento térmico a alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Condições gerais de montagem",
+   "item": "4.2–4.11",
+   "texto": "Materiais guardados fora do piso e conforme o fabricante; isolante higroscópico molhado é descartado. Preferir montar com o equipamento frio; não montar sob chuva nem sobre superfície molhada, oxidada ou oleosa. A chapa de proteção é instalada na mesma jornada (ou o isolante fica coberto). Só se começa depois do teste de pressão (ou deixando soldas, flanges e roscas expostas), da pintura anticorrosiva seca ao toque (N-2, N-442 ou N-2913) e do teste dos traços de aquecimento. Isolante rígido quebrado não é usado. Soldas de dispositivos de fixação pela N-133 (pinos podem ser stud welding qualificado ASME IX, ou colados a frio em reparo).",
+   "valores": []
+  },
+  {
+   "titulo": "Formato, juntas e chapa de proteção",
+   "item": "4.12–4.26",
+   "texto": "O formato do isolante (calha, segmento, placa, tubo, manta, feltro de lamelas, painel) depende do diâmetro (Tabela 1). Juntas de todas as camadas rejuntadas com cimento isolante (rígido) ou comprimidas (flexível). Isolante rígido leva juntas de expansão com espaçamento máximo pela temperatura e tipo de aço (Tabela 2), preenchidas com material flexível. Chapas de alumínio sobrepostas de modo a escorrer a água; emendas expostas vedadas com selante não secativo. Cintas amarradas com selos deixando ponta livre. Em multicamada quente, a cinta da 1ª camada é inox. Junto a flanges, afastar o isolamento para tirar os parafusos; trecho exposto longo recebe isolamento removível. Terminações protegidas com massa asfáltica ou alumínio. Furos de dreno na geratriz inferior de trechos horizontais.",
+   "valores": [
+    {"parametro": "Formato — Ø < 100 mm (NPS 4)", "valor": "rígido: calha; flexível: tubo ou manta", "item": "Tab. 1", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante", "nota": "faixa de diâmetro do tubo"},
+    {"parametro": "Formato — Ø 900 a 2 500 mm (NPS 36 a 100)", "valor": "rígido: placa; flexível: feltro de lamelas, painel ou manta", "item": "Tab. 1", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante", "nota": "faixa de diâmetro do tubo/equipamento"},
+    {"parametro": "Largura da junta de expansão", "valor": "20 mm a 25 mm", "item": "4.14", "cota": "esquemas/isolamento-termico-tubulacao.svg#junta-expansao"},
+    {"parametro": "Espaçamento máx. das juntas de expansão — 100 °C", "valor": "23 m (ferrítico) / 14 m (austenítico)", "item": "Tab. 2", "cota": "esquemas/isolamento-termico-tubulacao.svg#junta-expansao"},
+    {"parametro": "Espaçamento máx. das juntas de expansão — 200 °C", "valor": "8,0 m / 6,0 m", "item": "Tab. 2", "cota": "esquemas/isolamento-termico-tubulacao.svg#junta-expansao"},
+    {"parametro": "Espaçamento máx. das juntas de expansão — 300 °C", "valor": "5,0 m / 3,5 m", "item": "Tab. 2", "cota": "esquemas/isolamento-termico-tubulacao.svg#junta-expansao"},
+    {"parametro": "Espaçamento máx. das juntas de expansão — 400 °C", "valor": "4,0 m / 2,5 m", "item": "Tab. 2", "cota": "esquemas/isolamento-termico-tubulacao.svg#junta-expansao"},
+    {"parametro": "Espaçamento máx. das juntas de expansão — 500 °C", "valor": "3,0 m / 2,0 m", "item": "Tab. 2", "cota": "esquemas/isolamento-termico-tubulacao.svg#junta-expansao"},
+    {"parametro": "Sobreposição mín. das chapas de alumínio (longitudinal e circunferencial)", "valor": "50 mm", "item": "4.15", "cota": "esquemas/isolamento-termico-tubulacao.svg#sobreposicao"},
+    {"parametro": "Comprimento livre mín. da cinta após o selo", "valor": "25 mm", "item": "4.16", "cota": "esquemas/isolamento-termico-tubulacao.svg#cinta-sobreposicao"},
+    {"parametro": "Cinta inox na 1ª camada (multicamada)", "valor": "operação > 350 °C", "item": "4.17"},
+    {"parametro": "Distância flange–isolamento", "valor": "1,2 × comprimento do parafuso, não menos que 130 mm", "item": "4.20.1", "cota": "esquemas/isolamento-termico-tubulacao.svg#distancia-flange", "nota": "prática recomendada"},
+    {"parametro": "Trecho exposto que exige isolamento removível", "valor": "> 300 mm", "item": "4.20.2", "cota": "esquemas/isolamento-termico-tubulacao.svg#distancia-flange"},
+    {"parametro": "Terminação — massa asfáltica / alumínio", "valor": "até 90 °C / até 600 °C", "item": "4.20.3"},
+    {"parametro": "Furo de dreno na chapa de proteção", "valor": "Ø 10 mm", "item": "4.26", "cota": "esquemas/isolamento-termico-tubulacao.svg#furo-dreno"},
+    {"parametro": "Distância máx. entre furos de dreno", "valor": "6 m, a partir do meio do vão entre suportes", "item": "4.26", "cota": "esquemas/isolamento-termico-tubulacao.svg#espacamento-dreno"}
+   ],
+   "figuras": ["esquemas/isolamento-termico-tubulacao.svg"]
+  },
+  {
+   "titulo": "Tubulações — isolante rígido e flexível",
+   "item": "5.1.1–5.1.2",
+   "texto": "Cada camada rígida é amarrada com arame ou cinta galvanizada perto das pontas de cada peça (arame em tubo pequeno, cinta nos maiores e sempre em materiais frágeis como vidro celular, PU e PIR). Em trechos inclinados instalam-se anéis de sustentação, espaçados conforme a temperatura (Tabela 4), e acima de flanges, curvas e derivações. Traço de vapor fica dentro do isolamento sem preencher os vazios. Isolante flexível com chapa de alumínio: dois arames perto das pontas e um no meio.",
+   "valores": [
+    {"parametro": "Afastamento do arame/cinta à extremidade da peça", "valor": "50 mm", "item": "5.1.1.3 / 5.1.2.1 b)", "cota": "esquemas/isolamento-termico-tubulacao.svg#fixacao-extremidade"},
+    {"parametro": "Fixação até NPS 6", "valor": "arame Ø 1,25 mm (BWG 18)", "item": "Tab. 3", "cota": "esquemas/isolamento-termico-tubulacao.svg#fixacao-extremidade"},
+    {"parametro": "Fixação acima de NPS 6 (e materiais frágeis)", "valor": "cinta de 12,7 mm (1/2\")", "item": "Tab. 3", "cota": "esquemas/isolamento-termico-tubulacao.svg#fixacao-extremidade"},
+    {"parametro": "Camadas intermediárias com cinta (multicamada)", "valor": "Ø externo ≥ 250 mm (e a última camada)", "item": "Tab. 3 Nota 1", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante", "nota": "faixa de diâmetro"},
+    {"parametro": "Inclinação que exige anéis de sustentação", "valor": "≥ 45° com a horizontal", "item": "5.1.1.6"},
+    {"parametro": "Anel acima de curva/tê/derivação quando o trecho acima passa de", "valor": "4,5 m", "item": "5.1.1.6 c) d)", "cota": "esquemas/isolamento-termico-tubulacao.svg#espacamento-dreno"},
+    {"parametro": "Espaçamento dos anéis (nº de calhas) — até 100 °C / 101–200 / 201–260 / 261–370 / 371–650 / > 650 °C", "valor": "8 / 5 / 4 / 3 / 2 / 1", "item": "Tab. 4"}
+   ]
+  },
+  {
+   "titulo": "Tubulações — chapa de proteção",
+   "item": "5.1.3–5.1.8",
+   "texto": "Isolante rígido: alumínio corrugado com barreira ou liso (com papel kraft betumado) com espessura pelo diâmetro (Tabela 5); cintas de alumínio ou inox (Tabela 6), uma perto de cada sobreposição e duas entre elas. Isolante flexível: alumínio liso, PEAD ou alumínio extrudado (Tabela 7); chapa lisa fixada com parafusos autoatarraxantes nas sobreposições longitudinais, com as circunferenciais desencontradas. Sobreposição longitudinal de tubo horizontal na posição 4 h ou 8 h; em tubo vertical, protegida do vento. Bordas da chapa lisa frisadas. Conexões: cimento isolante e chapa em gomos (ou massa asfáltica com tela). Válvulas e flanges: caixas bipartidas removíveis ou jaquetas. Tubo enterrado: só isolante rígido, chapa com barreira ou polímero, com impermeabilização além do trecho enterrado.",
+   "valores": [
+    {"parametro": "Alumínio corrugado classe B tipo I — espessura", "valor": "0,15 mm (até NPS 12) / 0,40 mm (> NPS 12)", "item": "Tab. 5", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa", "nota": "evitar 0,15 mm onde há granizo"},
+    {"parametro": "Alumínio liso classe A (rígido ou flexível) — espessura", "valor": "0,50 mm (até NPS 8) / 0,80 mm (NPS 8 a 24) / 1 mm (> NPS 24)", "item": "Tab. 5 / Tab. 7", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa"},
+    {"parametro": "PEAD sobre isolante flexível — espessura", "valor": "3 mm (até NPS 4) / 4 mm (NPS 4 a 8)", "item": "Tab. 7", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa"},
+    {"parametro": "Alumínio extrudado (> NPS 8) — espessura", "valor": "1,2 mm", "item": "Tab. 7", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa"},
+    {"parametro": "Cinta da chapa — largura", "valor": "alumínio 12,7 mm (até NPS 12) / 19 mm (NPS 12 a 24); inox 12,7 mm (> NPS 24)", "item": "Tab. 6", "cota": "esquemas/isolamento-termico-tubulacao.svg#espacamento-cintas"},
+    {"parametro": "Cinta junto à sobreposição — distância da extremidade", "valor": "10 mm", "item": "5.1.3.2 a)", "cota": "esquemas/isolamento-termico-tubulacao.svg#cinta-sobreposicao"},
+    {"parametro": "Parafusos nas sobreposições longitudinais (chapa lisa)", "valor": "a cada 150 mm", "item": "5.1.4.2", "cota": "esquemas/isolamento-termico-tubulacao.svg#espacamento-cintas"},
+    {"parametro": "Defasagem das sobreposições circunferenciais", "valor": "90° (isolamento até Ø 200 mm) / 45° (maior)", "item": "5.1.4.2", "cota": "esquemas/isolamento-termico-tubulacao.svg#sobreposicao-long"},
+    {"parametro": "Posição da sobreposição longitudinal (tubo horizontal)", "valor": "4 h ou 8 h", "item": "5.1.3.3 / 5.1.4.3", "cota": "esquemas/isolamento-termico-tubulacao.svg#sobreposicao-long"},
+    {"parametro": "Cimento isolante em conexões", "valor": "camada de 3 mm", "item": "5.1.5.1.2", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante"},
+    {"parametro": "Caixa removível de válvula/flange — chapa", "valor": "mín. 0,80 mm", "item": "5.1.6 a)", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa"},
+    {"parametro": "Tubo enterrado — chapa com barreira", "valor": "mín. 0,80 mm", "item": "5.1.7.2", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa"},
+    {"parametro": "Impermeabilização além de cada ponta do trecho enterrado", "valor": "≥ 1 000 mm", "item": "5.1.7.5", "cota": "esquemas/isolamento-termico-tubulacao.svg#impermeabilizacao"}
+   ],
+   "figuras": ["esquemas/isolamento-termico-tubulacao.svg"]
+  },
+  {
+   "titulo": "Vasos de pressão e trocadores",
+   "item": "5.2",
+   "texto": "Juntas circunferenciais das peças defasadas de 1/3 do comprimento e as longitudinais (entre camadas) de meia largura. Cascos (horizontais e verticais) têm um anel junto a cada tampo para amarrar as cintas do isolamento do tampo. Cascos grandes: cintas espaçadas ancoradas em suportes; camadas internas também com cintas. Cintas da chapa: uma perto de cada sobreposição e uma intermediária. Vasos quentes de grande perímetro levam molas nas cintas da última camada e da chapa. Isolante flexível em vasos verticais fixado por pinos com clips (sem compactar por vibração). Tampos: cintas espaçadas no maior diâmetro; tampo inferior de vaso com saia pode usar arame em grampos soldados em malha triangular; proteção em chapa lisa selada, jaqueta ou massa asfáltica. Boleado flangeado de trocador: caixa removível.",
+   "valores": [
+    {"parametro": "Anel de amarração junto ao tampo — afastamento da solda tampo–casco", "valor": "300 mm (vaso com saia sem fireproofing: 300 mm abaixo da solda inferior)", "item": "5.2.1.1 b) / 5.2.2.1 b)", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#anel-tampo"},
+    {"parametro": "Casco Ø > 1 800 mm — cintas", "valor": "12,7 mm, espaçadas de 300 mm, suportes a no máx. 6 000 mm", "item": "5.2.1.1 e)", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas"},
+    {"parametro": "Camadas internas — cintas", "valor": "12,7 mm a cada 300 mm", "item": "5.2.1.1 f)", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas"},
+    {"parametro": "Cinta intermediária da chapa no casco — espaçamento", "valor": "≈ 430 mm (e 10 mm da sobreposição)", "item": "5.2.1.1 j)", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas"},
+    {"parametro": "Mola nas cintas — vaso com perímetro > 6 000 mm e operação > 150 °C", "valor": "1 a cada 6 000 mm de perímetro", "item": "5.2.2.1 c)", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas"},
+    {"parametro": "Tampos — cintas", "valor": "12,7 mm, espaçamento máx. 300 mm no maior diâmetro", "item": "5.2.4.2", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas"},
+    {"parametro": "Tampo inferior com saia — malha triangular dos grampos", "valor": "300 mm de lado, arame Ø 1,25 mm", "item": "5.2.4.4", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas"},
+    {"parametro": "Chapa lisa de tampo / boleado — espessura", "valor": "1 mm", "item": "5.2.4.5 / 5.2.5.3", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa"},
+    {"parametro": "Anéis de reforço — prolongamento sob a chapa", "valor": "75 mm", "item": "5.2.6.2", "cota": "esquemas/isolamento-termico-tubulacao.svg#sobreposicao"}
+   ],
+   "figuras": ["esquemas/isolamento-termico-vaso-tanque.svg"]
+  },
+  {
+   "titulo": "Tanques de armazenamento",
+   "item": "5.3",
+   "texto": "Vento forte, muita chuva ou operação a partir de 100 °C → alternativa 2 (flexível com telhas trapezoidais); nos demais casos, estudo econômico. Alternativa 1: isolante rígido apoiado numa chapa de sustentação segmentada, vergalhões verticais soldados ao costado, barras galvanizadas, impermeabilização asfáltica no anel do fundo e no 1º anel de isolante, cintas com folga para dilatação e chapa de alumínio presa com parafusos e clips S. Alternativa 2: barras de sustentação soldadas em anéis espaçados com segmentos defasados, pinos de ancoragem em malha e telhas trapezoidais de alumínio. Teto: rígido sobre vergalhões, cintas, e camadas alternadas de impermeabilizante asfáltico e feltro. Interferências de escadas/plataformas vedadas e reforçadas com chapa lisa.",
+   "valores": [
+    {"parametro": "Alt. 1 — altura da chapa de sustentação acima do fundo", "valor": "500 mm (segmentos de 2 000–3 000 mm, folgas de 100 mm)", "item": "5.3.1.2", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#altura-sustentacao"},
+    {"parametro": "Alt. 1 — vergalhões de fixação", "valor": "12,7 mm, espaçados até 6 000 mm, soldados a cada 1 800 mm", "item": "5.3.1.3", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas-tanque"},
+    {"parametro": "Alt. 1 — barras de sustentação", "valor": "38 mm × 3,2 mm galvanizadas", "item": "5.3.1.4", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#altura-sustentacao"},
+    {"parametro": "Impermeabilizante asfáltico (anel do fundo e 1º anel)", "valor": "6 mm seco; no 1º anel até 200 mm de altura mín.", "item": "5.3.1.6 / 5.3.1.7", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#impermeabilizacao"},
+    {"parametro": "Alt. 1 — cinta livre para dilatação", "valor": "100 mm", "item": "5.3.1.9", "cota": "esquemas/isolamento-termico-tubulacao.svg#cinta-sobreposicao"},
+    {"parametro": "Alt. 1 — cintas do isolamento", "valor": "a cada 300 mm; 1ª a 250 mm da chapa de sustentação/fundo", "item": "5.3.1.10", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#primeira-cinta"},
+    {"parametro": "Alt. 1 — chapa de proteção", "valor": "0,80 mm, sobreposição 50 mm", "item": "5.3.1.11", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#sobreposicao-chapa"},
+    {"parametro": "Alt. 1 — parafusos / clips S", "valor": "parafusos a cada 150 mm; clips a cada 1 000 mm", "item": "5.3.1.12 / 5.3.1.13", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas-tanque"},
+    {"parametro": "Alt. 2 — barra de sustentação inferior", "valor": "38 mm × 4,8 mm a 500 mm do fundo (segmentos 2 700–3 600 mm)", "item": "5.3.2.2", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#altura-sustentacao"},
+    {"parametro": "Alt. 2 — anéis de barras (espaçamento vertical)", "valor": "1 470 mm", "item": "5.3.2.3", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas-tanque"},
+    {"parametro": "Alt. 2 — suportes das barras (circunferencial)", "valor": "900 mm a 1 200 mm", "item": "5.3.2.4", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas-tanque"},
+    {"parametro": "Alt. 2 — pinos de ancoragem", "valor": "malha de 300 mm × 300 mm", "item": "5.3.2.5", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas-tanque"},
+    {"parametro": "Alt. 2 — sobreposição das telhas", "valor": "200 mm circunferencial / 65 mm longitudinal", "item": "5.3.2.7", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#sobreposicao-chapa"},
+    {"parametro": "Alt. 2 — parafusos das telhas", "valor": "330 mm (circunferencial) / 290 mm (longitudinal)", "item": "5.3.2.8", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas-tanque"},
+    {"parametro": "Reforço em interferências — chapa lisa", "valor": "0,8 mm", "item": "5.3.2.11", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa"},
+    {"parametro": "Teto — vergalhões", "valor": "12,7 mm a cada 3 000 mm, soldados a cada 1 500 mm", "item": "5.3.3.2", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas-tanque"},
+    {"parametro": "Teto — cintas", "valor": "12,7 mm a cada 450 mm", "item": "5.3.3.3", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas-tanque"},
+    {"parametro": "Teto — impermeabilizante e feltro", "valor": "2 × 3 mm úmido; feltro sobreposto 50 mm, 2ª camada defasada 60°", "item": "5.3.3.5", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#sobreposicao-chapa"},
+    {"parametro": "Bombas/turbinas — caixa removível", "valor": "chapa lisa 0,80 mm", "item": "5.4.1 a)", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa"}
+   ],
+   "figuras": ["esquemas/isolamento-termico-vaso-tanque.svg"]
+  }
+ ]
+}

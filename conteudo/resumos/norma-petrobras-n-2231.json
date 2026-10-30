@@ -1,0 +1,71 @@
+{
+ "id": "PETROBRAS-N-2231",
+ "titulo": "Petrobras N-2231 Rev. E (03/2017) — Tinta de etil-silicato de zinco-alumínio (especificação)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Especifica, para recebimento em laboratório, a tinta de etil silicato de zinco-alumínio bicomponente: componente A = pasta de zinco e alumínio; componente B = solução de etil silicato. É usada como proteção anticorrosiva de superfícies quentes (é o esquema da condição 2 da N-2 e de outras normas de alta temperatura).",
+   "valores": [
+    {"parametro": "Temperatura de serviço", "valor": "até 500 °C", "item": "1.2"}
+   ]
+  },
+  {
+   "titulo": "Embalagem, armazenamento e marcação",
+   "item": "3",
+   "texto": "Componente A como pasta dispersa e sem grumos, em lata cilíndrica; componente B em embalagem que preserve o produto; vedação que não contamine. Recipientes íntegros e com o conteúdo declarado (NBR 15442). Rótulo (não na tampa) com a norma, nome da tinta, componente A ou B, diluente, quantidade em litros e kg, fabricante, lote, validade e proporção de mistura em massa e volume. Diluição só conforme o fabricante.",
+   "valores": [
+    {"parametro": "Estabilidade em armazenagem (recipiente fechado)", "valor": "mín. 6 meses abaixo de 40 °C", "item": "3.4.1"},
+    {"parametro": "Revalidação", "valor": "até 2 períodos adicionais de 3 meses (refazendo os ensaios, conforme N-13)", "item": "3.4.2"}
+   ]
+  },
+  {
+   "titulo": "Requisitos do produto pronto (Tabela 1)",
+   "item": "4.1–4.2",
+   "texto": "Componentes sem sedimento duro (no máximo fundo fácil de homogeneizar à mão). Depois de misturados A e B, o produto tem de atender a massa específica, sólidos, secagem, teor de pigmentos, pot life e consistência da Tabela 1. Para rendimento teórico considera-se o teor de sólidos por volume indicado na Nota 2.",
+   "valores": [
+    {"parametro": "Partículas grosseiras retidas na malha de 45 µm (comp. A)", "valor": "≤ 3 %", "item": "4.1.1"},
+    {"parametro": "Massa específica mín.", "valor": "1,90 g/cm³", "item": "Tab. 1"},
+    {"parametro": "Sólidos por massa mín.", "valor": "65 %", "item": "Tab. 1"},
+    {"parametro": "Secagem ao toque máx. (película 65–75 µm)", "valor": "20 min", "item": "Tab. 1"},
+    {"parametro": "Secagem para manuseio / à pressão máx. (película 65–75 µm)", "valor": "2 h", "item": "Tab. 1"},
+    {"parametro": "Teor de pigmentos mín.", "valor": "60 %", "item": "Tab. 1"},
+    {"parametro": "Pot life mín.", "valor": "2 h", "item": "Tab. 1"},
+    {"parametro": "Consistência", "valor": "60 a 70 KU", "item": "Tab. 1"},
+    {"parametro": "Sólidos por volume para rendimento teórico", "valor": "50 %", "item": "Tab. 1 Nota 2"},
+    {"parametro": "Cura para ensaio de sólidos por massa", "valor": "24 h a 25 ± 2 °C + 180 min a 105 ± 1 °C", "item": "4.2.3"}
+   ]
+  },
+  {
+   "titulo": "Película seca (Tabela 2)",
+   "item": "4.3",
+   "texto": "Ensaios na película curada: aderência por tração, névoa salina, umidade 100 %, teor de zinco metálico (calculado pela fórmula da nota) e choque térmico — cada um com a espessura de película definida na tabela.",
+   "valores": [
+    {"parametro": "Aderência mín. (película 200–240 µm)", "valor": "10 MPa", "item": "Tab. 2", "cota": "esquemas/tinta-painel-ensaio.svg#pelicula"},
+    {"parametro": "Névoa salina (película 65–75 µm)", "valor": "480 h", "item": "Tab. 2", "cota": "esquemas/tinta-painel-ensaio.svg#pelicula"},
+    {"parametro": "Umidade relativa 100 % (película 65–75 µm)", "valor": "480 h", "item": "Tab. 2", "cota": "esquemas/tinta-painel-ensaio.svg#pelicula"},
+    {"parametro": "Zinco metálico na película seca mín.", "valor": "75 % em massa", "item": "Tab. 2"},
+    {"parametro": "Choque térmico — película", "valor": "100 µm a 140 µm", "item": "Tab. 2", "cota": "esquemas/tinta-painel-ensaio.svg#pelicula"}
+   ],
+   "figuras": ["esquemas/tinta-painel-ensaio.svg"]
+  },
+  {
+   "titulo": "Corpos de prova e ensaios",
+   "item": "5.2",
+   "texto": "Tinta aplicada (de preferência a pistola) direto sobre chapa AISI 1020 jateada ao metal branco; pelo menos três corpos de prova por ensaio; ensaios 7 dias após a aplicação, com os painéis em ambiente controlado; bordas e verso protegidos. Choque térmico: aquecimento em degraus até 500 °C, inspeção a cada patamar, resfriamento brusco com jato de água e 24 h de névoa salina — sem descascar, trincar, empolar, descolorir ou perder aderência e sem corrosão do aço. Névoa salina com um entalhe central paralelo ao lado maior; avanço de corrosão pela ISO 4628-8; após o ensaio, sem bolhas, corrosão ou penetração no entalhe. Aderência em dois pontos de pelo menos dois corpos de prova.",
+   "valores": [
+    {"parametro": "Preparo da chapa de ensaio", "valor": "Sa 3", "item": "5.2.2.1"},
+    {"parametro": "Perfil de ancoragem da chapa", "valor": "50 µm a 70 µm", "item": "5.2.2.1", "cota": "esquemas/pintura-esquema-camadas.svg#perfil"},
+    {"parametro": "Chapa de ensaio — dimensões", "valor": "150 mm × 100 mm", "item": "5.2.2.1", "cota": "esquemas/tinta-painel-ensaio.svg#comprimento"},
+    {"parametro": "Chapa de ensaio — espessura mín.", "valor": "4 mm", "item": "5.2.2.1", "cota": "esquemas/tinta-painel-ensaio.svg#espessura"},
+    {"parametro": "Cura dos painéis antes dos ensaios", "valor": "7 dias a 25 ± 2 °C e UR 60 ± 5 %", "item": "5.2.2.4"},
+    {"parametro": "Ciclo de choque térmico (mínimos)", "valor": "200 °C 8 h → 300 °C 8 h → 400 °C 8 h → 500 °C 16 h", "item": "5.2.2.6"},
+    {"parametro": "Faixa desconsiderada junto às extremidades (choque térmico)", "valor": "6 mm", "item": "5.2.2.7", "cota": "esquemas/tinta-painel-ensaio.svg#faixa-borda"},
+    {"parametro": "Entalhe da névoa salina — largura", "valor": "0,5 mm a 2 mm", "item": "5.2.2.8", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-largura"},
+    {"parametro": "Entalhe — distância às bordas superior e inferior", "valor": "30 mm", "item": "5.2.2.8", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-distancia"},
+    {"parametro": "Reprovação no pull-off", "valor": "falha A/B (qualquer proporção) abaixo de 15 MPa", "item": "5.2.2.12"}
+   ],
+   "figuras": ["esquemas/tinta-painel-ensaio.svg"]
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "id": "PETROBRAS-N-0009",
+ "titulo": "Petrobras N-0009 Rev. J (03/2022) — Tratamento de superfícies de aço com jato abrasivo e hidrojateamento",
+ "secoes": [
+  {
+   "titulo": "Escopo e processos",
+   "item": "1, 3.1–3.5",
+   "texto": "Define como preparar superfícies de aço para pintura por jateamento abrasivo seco, jateamento abrasivo úmido (água e abrasivo misturados dentro do equipamento) e hidrojateamento a ultra-alta pressão, com ou sem abrasivo. Areia não é abrasivo aceito. Hidrojato sem abrasivo só limpa — não abre perfil de ancoragem; com abrasivo, abre perfil e tira carepa aderente (aço de grau A ou B).",
+   "valores": [
+    {"parametro": "Pressão do hidrojateamento (ultra-alta)", "valor": "acima de 210 MPa (30 000 psi)", "item": "3.4 / 3.5"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg"]
+  },
+  {
+   "titulo": "Graus de intemperismo (condição inicial)",
+   "item": "3.6.1–3.6.2",
+   "texto": "Aço sem pintura: A (carepa intacta, quase sem corrosão), B (carepa começando a soltar), C (carepa já saiu ou sai raspando, alguns alvéolos), D (corrosão alveolar severa). Aço pintado: graus 8, 6, 4, 2 e 0 conforme a fração da área com corrosão, bolhas ou tinta solta (critério da ASTM D610, considerando a distribuição dos pontos).",
+   "valores": [
+    {"parametro": "Grau 8 — área afetada", "valor": "< 0,1 %", "item": "3.6.2"},
+    {"parametro": "Grau 6 — área afetada", "valor": "< 1 %", "item": "3.6.2"},
+    {"parametro": "Grau 4 — área afetada", "valor": "até 10 %", "item": "3.6.2"},
+    {"parametro": "Grau 2 — área afetada", "valor": "até 33 %", "item": "3.6.2"},
+    {"parametro": "Grau 0 — área afetada", "valor": "> 50 %", "item": "3.6.2"}
+   ]
+  },
+  {
+   "titulo": "Graus de preparação",
+   "item": "3.6.3–3.6.5",
+   "texto": "Jato seco (ISO 8501-1): Sa 1 ligeiro, Sa 2 comercial, Sa 2½ metal quase branco (só manchas tênues), Sa 3 metal branco; Sa 1 e Sa 2 não se aplicam a aço grau A. Jato úmido: WAB-1 (metal branco), WAB-2 (quase branco), WAB-3 (comercial), WAB-4 (brush-off, fica o que está bem aderido). Hidrojato: WJ-1 (limpo até o metal, fosco), WJ-2, WJ-3 e WJ-4 (só solto removido). A tolerância de manchas é avaliada em cada unidade de área quadrada. A cor do aço hidrojateado é fosca, levemente amarelada, diferente do jato seco.",
+   "valores": [
+    {"parametro": "Unidade de área para avaliar manchas (WAB/WJ)", "valor": "≈ 5 800 mm² — quadrado de 76 mm × 76 mm (3 in × 3 in)", "item": "3.6.4 / 3.6.5", "cota": "esquemas/pintura-preparo-superficie.svg#quadrado-lado"},
+    {"parametro": "WAB-2 e WJ-2 — manchas admitidas", "valor": "até 5 % de cada unidade de área", "item": "3.6.4 / 3.6.5"},
+    {"parametro": "WAB-3 e WJ-3 — manchas admitidas", "valor": "até 33 % de cada unidade de área", "item": "3.6.4 / 3.6.5"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg"]
+  },
+  {
+   "titulo": "Flash rust e inibidor",
+   "item": "3.7, 4.2",
+   "texto": "Oxidação superficial após jato úmido ou hidrojato: leve (L, fina, ainda se vê a superfície; mancha pouco um pano branco), moderada (M, encobre a superfície) e severa (H, laranja a marrom, solta no pano). Se a pintura não for imediata, usa-se inibidor de flash rust (alcalino, solúvel em água, sem enxágue e compatível com o esquema), sobre superfície já sem sais, óleo e partículas.",
+   "valores": [
+    {"parametro": "Proteção mínima do inibidor (ambiente CX, ISO 12944-2)", "valor": "24 h", "item": "4.2.2 a)"},
+    {"parametro": "Temperatura da superfície para aplicar o inibidor", "valor": "15 °C a 50 °C", "item": "4.2.2 b)"},
+    {"parametro": "pH da solução diluída do inibidor", "valor": "8 a 10", "item": "4.2.2 d)"}
+   ]
+  },
+  {
+   "titulo": "Execução",
+   "item": "4.1, 4.3–4.9",
+   "texto": "Areia seca ou úmida é proibida no Brasil (Portaria 99 e NR-15). O procedimento informa grau de preparo, limpeza prévia (NBR 15158), equipamento, abrasivo e granulometria, qualidade da água, inibidor, condutividade do abrasivo, limpeza final, teor de sais (NBR 16761) e EPIs/EPCs. Sequência: tirar terra e cimento; remover óleo, graxa e sais; tratar imperfeições no padrão P3 (ISO 8501-3); jatear até o grau e o perfil do esquema; limpar o pó (seco) ou lavar com água doce (úmido/hidrojato). Ar comprimido isento de água e óleo (ASTM D4285, uma vez por turno). Pintar o quanto antes; após jato úmido ou hidrojato só se pinta sobre flash rust leve — moderado ou severo exige novo tratamento.",
+   "valores": [
+    {"parametro": "Não iniciar jato seco — superfície abaixo de", "valor": "ponto de orvalho + 3 °C", "item": "4.7", "cota": "esquemas/pintura-condicoes-aplicacao.svg#margem-orvalho"},
+    {"parametro": "Não iniciar jato seco — UR acima de", "valor": "85 %", "item": "4.7", "cota": "esquemas/pintura-condicoes-aplicacao.svg#ur-max"},
+    {"parametro": "Verificação do ar comprimido", "valor": "no mínimo 1 vez por turno", "item": "4.5"},
+    {"parametro": "Flash rust máximo para pintar", "valor": "leve (L)", "item": "4.9"}
+   ],
+   "figuras": ["esquemas/pintura-condicoes-aplicacao.svg"]
+  },
+  {
+   "titulo": "Inspeção antes do jato (Tabela 1)",
+   "item": "5, Tab. 1",
+   "texto": "Antes de jatear: imperfeições no padrão P3, superfície sem óleo/graxa/sais, registro do grau de intemperismo, granulometria do abrasivo novo (NBR 16267 ou boletim) e do reutilizado (tem de dar o perfil especificado; repor abrasivo novo), abrasivo sem impurezas, sem óleo (ASTM D7393) e granalha sem oxidação, ar comprimido sem óleo/água e condições ambientais.",
+   "valores": [
+    {"parametro": "Condutividade máxima do abrasivo (ASTM D4940)", "valor": "1 000 µS/cm", "item": "Tab. 1"},
+    {"parametro": "Água para jato úmido/hidrojato — pH", "valor": "6,0 a 9,5", "item": "Tab. 1"},
+    {"parametro": "Água para jato úmido/hidrojato — condutividade máx.", "valor": "100 µS/cm (acima, só se o teor de sais na superfície ficar dentro do critério)", "item": "Tab. 1 Nota 2"},
+    {"parametro": "Condições ambientais antes do jato seco", "valor": "UR < 85 %; superfície ≥ ponto de orvalho + 3 °C", "item": "Tab. 1"}
+   ]
+  },
+  {
+   "titulo": "Inspeção após o jato (Tabela 2)",
+   "item": "5, Tab. 2",
+   "texto": "Depois do preparo: superfície limpa e no máximo flash rust leve, grau de preparo comparado ao padrão visual (ISO 8501-1, WAB, WJ), perfil de rugosidade (fita réplica ISO 8503-5, rugosímetro de agulha NBR 15488 ou stylus ISO 8503-4, parâmetro Rz/Ry5, perfil angular), pó (ISO 8502-3) e sais solúveis imediatamente antes do primer. O valor do perfil e o grau de limpeza vêm da norma do esquema (lista da N-13) ou da especificação aprovada.",
+   "valores": [
+    {"parametro": "Perfil de rugosidade — 1ª medição", "valor": "no primeiro m² (ou primeiro metro linear de tubo/perfil)", "item": "Tab. 2 Nota 1", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Perfil de rugosidade — frequência seguinte", "valor": "a cada 30 m² ou 30 m lineares", "item": "Tab. 2 Nota 1", "cota": "esquemas/pintura-preparo-superficie.svg#intervalo"},
+    {"parametro": "Pó — máximo (ISO 8502-3)", "valor": "classe 2; teste a cada 30 m² ou 30 m lineares", "item": "Tab. 2 Nota 4", "cota": "esquemas/pintura-preparo-superficie.svg#intervalo"},
+    {"parametro": "Sais solúveis máx. — dutos enterrados/submersos e interno de equipamentos e tubulações", "valor": "2 µg/cm²", "item": "Tab. 2"},
+    {"parametro": "Sais solúveis máx. — região atmosférica", "valor": "5 µg/cm²", "item": "Tab. 2"},
+    {"parametro": "Medição de sais — imerso, enterrado ou submerso", "valor": "1 a cada 20 m² ou 20 m lineares", "item": "Tab. 2 Nota 5", "cota": "esquemas/pintura-preparo-superficie.svg#intervalo"},
+    {"parametro": "Medição de sais — atmosfera marinha/offshore", "valor": "1 a cada 25 m² ou 25 m lineares", "item": "Tab. 2 Nota 5", "cota": "esquemas/pintura-preparo-superficie.svg#intervalo"},
+    {"parametro": "Medição de sais — terrestre fora da orla", "valor": "1 a cada 50 m² ou 50 m lineares", "item": "Tab. 2 Nota 5", "cota": "esquemas/pintura-preparo-superficie.svg#intervalo"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg"]
+  }
+ ]
+}

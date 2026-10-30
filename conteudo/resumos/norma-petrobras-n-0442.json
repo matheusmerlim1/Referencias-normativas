@@ -1,0 +1,58 @@
+{
+ "id": "PETROBRAS-N-0442",
+ "titulo": "Petrobras N-0442 Rev. S (10/2024) — Revestimento externo de tubulação em instalações terrestres",
+ "secoes": [
+  {
+   "titulo": "Condições gerais",
+   "item": "3",
+   "texto": "Esquemas de pintura externa de tubulação em terra, escolhidos por isolamento térmico e temperatura de operação. Retoque repete o esquema; se não houver como jatear (justificado), ferramenta mecânica SSPC-SP 11 com perfil mínimo; retoque de manutenção externo com epóxi-alumínio N-2288, exceto nas condições 2, 3, 5 e 7. Aço galvanizado segue a N-1021. Inspeção prévia (NBR 14847/15185, ISO 8501-1, ASTM D610) e desengraxe só onde houver óleo. Hidrojato só em manutenção (obra nova só com abrasivo). Soldas e trechos apoiados nos suportes pintados a trincha (exceto N-2231). Cores de identificação pela N-1219. Pull-off após cura total (critério da Tabela A.1). Depois da pintura, proteção complementar nas regiões críticas — flanges, válvulas, suportes, parafusos, drenos, vents, frestas — com as tecnologias do Anexo C da N-2943.",
+   "valores": [
+    {"parametro": "Perfil mínimo com ferramenta mecânica (retoque, SSPC-SP 11)", "valor": "50 µm", "item": "3.2", "cota": "esquemas/pintura-esquema-camadas.svg#perfil"},
+    {"parametro": "Grau de limpeza mínimo", "valor": "Sa 2½ / WAB-2 / WJ-2", "item": "Tab. 1"},
+    {"parametro": "Perfil de rugosidade", "valor": "50 µm a 100 µm", "item": "Tab. 1", "cota": "esquemas/pintura-esquema-camadas.svg#perfil"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg"]
+  },
+  {
+   "titulo": "Sem isolamento — condições 1 a 4",
+   "item": "4.1",
+   "texto": "Condição 1 (0 a 80 °C): fundo epóxi N-2630 (ou N-2680) + PU acrílico N-2677. Condição 2 (acima de 80 até 150 °C): demão única de epóxi novolac N-2912 tipo II. Condição 3 (acima de 150 até 500 °C, ou steam-out): opção 1 N-2231 em demão única com agitação mecânica; opção 2 duas demãos do revestimento de alta temperatura do Anexo E da N-2943. Condição 4 (orla marítima, píer, área industrial agressiva, 0 a 80 °C): fundo epóxi rico em zinco N-1277 + intermediária epóxi N-2628 + PU N-2677 (opção 1) ou N-1277 + poliaspártico do Anexo G da N-2943 (opção 2); lavar entre demãos com água doce.",
+   "valores": [
+    {"parametro": "Cond. 1 — fundo N-2630 ou N-2680 (EPS mín.)", "valor": "150 µm", "item": "4.1.1.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Cond. 1 — intervalo N-2630", "valor": "16 h a 48 h (N-2680: 12 h a 120 h)", "item": "4.1.1.1"},
+    {"parametro": "Cond. 1 e 4 (opção 1) — acabamento N-2677", "valor": "70 µm", "item": "4.1.1.2 / 4.1.4.1", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"},
+    {"parametro": "Cond. 2 — N-2912 tipo II (EPS mín.)", "valor": "400 µm", "item": "4.1.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Cond. 3 opção 1 — N-2231 (EPS mín.)", "valor": "100 µm", "item": "4.1.3 a)", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Cond. 3 opção 2 — N-2943 Anexo E (EPS mín. por demão, 2 demãos)", "valor": "150 µm", "item": "4.1.3 b)", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Cond. 4 — faixa considerada agressiva", "valor": "até 500 m da praia (ou área industrial agressiva além disso)", "item": "4.1.4 Nota"},
+    {"parametro": "Cond. 4 — lavagem entre demãos", "valor": "água doce, mín. 3 000 psi", "item": "4.1.4 Nota"},
+    {"parametro": "Cond. 4 — fundo N-1277 (EPS mín.)", "valor": "100 µm; intervalo 18 h a 24 h", "item": "4.1.4.1 / 4.1.4.2", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Cond. 4 opção 1 — intermediária N-2628 (EPS mín.)", "valor": "200 µm; intervalo 16 h a 48 h", "item": "4.1.4.1", "cota": "esquemas/pintura-esquema-camadas.svg#intermediaria"},
+    {"parametro": "Cond. 4 opção 2 — acabamento poliaspártico N-2943 Anexo G (EPS mín.)", "valor": "200 µm", "item": "4.1.4.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Com isolamento — condições 5 a 7",
+   "item": "4.2",
+   "texto": "Condição 5 (-45 a 150 °C): demão única de epóxi novolac N-2912 tipo I. Condição 6 (acima de 150 até 500 °C em serviço contínuo): sem pintura. Condição 7 (acima de 150 até 500 °C intermitente/cíclico, risco de CUI): duas demãos do revestimento de alta temperatura do Anexo E da N-2943.",
+   "valores": [
+    {"parametro": "Cond. 5 — N-2912 tipo I (EPS mín.)", "valor": "300 µm", "item": "4.2.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Cond. 7 — N-2943 Anexo E (EPS mín. por demão, 2 demãos)", "valor": "150 µm", "item": "4.2.4", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"}
+   ]
+  },
+  {
+   "titulo": "Pull-off — Tabela A.1",
+   "item": "Anexo A",
+   "texto": "Tensão mínima de tração por condição, para preparo Sa 2½; acima de 20 MPa aceita-se qualquer tipo de falha. Equipamento e adesivo devem alcançar pelo menos 20 % acima da mínima. Com N-2677 na cor alumínio, a mínima cai.",
+   "valores": [
+    {"parametro": "Cond. 1 e 1 alternativa", "valor": "8 MPa mín. (falha B/C); acima de 10 MPa só falha B", "item": "Tab. A.1"},
+    {"parametro": "Cond. 1 com N-2677 alumínio", "valor": "5 MPa mín.", "item": "Tab. A.1 Nota 3"},
+    {"parametro": "Cond. 2 e 5 (N-2912)", "valor": "15 MPa mín., sem falha A/B", "item": "Tab. A.1"},
+    {"parametro": "Cond. 3 opção 1 (N-2231)", "valor": "5 MPa mín., sem falha A/B", "item": "Tab. A.1"},
+    {"parametro": "Cond. 3 opção 2 e 7 (N-2943 Anexo E)", "valor": "2 MPa mín., sem falha A/B", "item": "Tab. A.1"},
+    {"parametro": "Cond. 4 opções 1 e 2", "valor": "7 MPa mín. (falhas listadas)", "item": "Tab. A.1"}
+   ]
+  }
+ ]
+}

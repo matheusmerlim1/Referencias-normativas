@@ -1,0 +1,71 @@
+{
+ "id": "PETROBRAS-N-0896",
+ "titulo": "Petrobras N-0896 Rev. F (04/2016) — Montagem de isolamento térmico a baixa temperatura",
+ "secoes": [
+  {
+   "titulo": "Condições gerais",
+   "item": "4",
+   "texto": "Montagem de isolamento de linhas e equipamentos frios, em que a barreira de vapor é essencial para evitar condensação. Procedimento de aplicação qualificado. Não remover isolamento de equipamento frio em operação; se for preciso, envolver logo com filme plástico. Poliuretano projetado ou injetado só em condições atmosféricas controladas. Peças de interferência (calços de suporte, apoios) com a mesma espessura do isolamento e material de alta densidade. Terminações junto a flanges, válvulas e bocais chanfradas e impermeabilizadas. Barreira de vapor em manta asfáltica elastomérica aluminizada autoadesiva (ou duas demãos de impermeabilizante com tecido de vidro em geometria irregular).",
+   "valores": [
+    {"parametro": "Folga mín. entre o isolamento e superfícies vizinhas", "valor": "100 mm", "item": "4.7", "cota": "esquemas/isolamento-termico-tubulacao.svg#distancia-flange", "nota": "prática recomendada"},
+    {"parametro": "Filme de proteção ao remover isolamento", "valor": "polietileno 0,10 mm a 0,15 mm", "item": "4.13", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa"},
+    {"parametro": "PU projetado/injetado — condições", "valor": "UR < 85 %; ambiente > 10 °C; vento < 9 km/h (projeção); superfície 20–50 °C", "item": "4.15"},
+    {"parametro": "Peça de interferência — comprimento", "valor": "4 × espessura do isolante, mín. 300 mm", "item": "4.19", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante"},
+    {"parametro": "Peça de interferência — densidade mín. (PU/PIR)", "valor": "150 kg/m³", "item": "4.19.2"},
+    {"parametro": "Cinta — ponta livre após o selo / sobra para reaperto", "valor": "25 mm / 100 mm de cada lado", "item": "4.22", "cota": "esquemas/isolamento-termico-tubulacao.svg#cinta-sobreposicao"},
+    {"parametro": "Terminação — chanfro e barreira sobre o chanfro", "valor": "45°; barreira 50 mm para cada lado", "item": "4.23", "cota": "esquemas/isolamento-termico-tubulacao.svg#impermeabilizacao"},
+    {"parametro": "Barreira de vapor — espessura", "valor": "3 mm", "item": "4.24.1 / 4.24.2", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa"},
+    {"parametro": "Sobreposição mín. da chapa de proteção", "valor": "50 mm", "item": "4.25.1", "cota": "esquemas/isolamento-termico-tubulacao.svg#sobreposicao"}
+   ],
+   "figuras": ["esquemas/isolamento-termico-tubulacao.svg"]
+  },
+  {
+   "titulo": "Isolante pré-moldado — tubulação e vasos",
+   "item": "5",
+   "texto": "Juntas longitudinais desencontradas entre camadas; juntas de contração ao longo da linha. Última camada fixada com fita filamentosa e arame galvanizado ou cinta inox perto das pontas de cada peça. Em trechos verticais a chapa de cima cobre a de baixo, com clips S. Vasos: cintas e selos inox sobre fita, impermeabilizante cobrindo a 1ª camada, chapa corrugada ou lisa com sobreposição maior e cintas inox; vaso vertical com anéis de sustentação e juntas de contração preenchidas com espuma elastomérica comprimida.",
+   "valores": [
+    {"parametro": "Juntas de contração em tubulação", "valor": "a cada 25 m", "item": "5.1.5", "cota": "esquemas/isolamento-termico-tubulacao.svg#junta-expansao"},
+    {"parametro": "Fixação — afastamento das extremidades da peça", "valor": "50 mm", "item": "5.1.6", "cota": "esquemas/isolamento-termico-tubulacao.svg#fixacao-extremidade"},
+    {"parametro": "Fixação até NPS 12 / acima", "valor": "arame Ø 1,65 mm (BWG 16) / cinta inox 12,7 mm", "item": "Tab. 1", "cota": "esquemas/isolamento-termico-tubulacao.svg#fixacao-extremidade"},
+    {"parametro": "Clips S em trechos verticais (> 45°)", "valor": "a cada 300 mm, mín. 2 a 180°", "item": "5.1.8.1", "cota": "esquemas/isolamento-termico-tubulacao.svg#espacamento-cintas"},
+    {"parametro": "Cinta nas chapas inicial e final", "valor": "a 25 mm da extremidade", "item": "5.1.8 Nota", "cota": "esquemas/isolamento-termico-tubulacao.svg#cinta-sobreposicao"},
+    {"parametro": "Impermeabilizante sobre a 1ª camada (tampos)", "valor": "3 mm úmido", "item": "5.3.5", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa"},
+    {"parametro": "Barreira do removível sobre a do equipamento / prolongamento sob a chapa", "valor": "50 mm / 100 mm", "item": "5.4.2 / 5.4.3", "cota": "esquemas/isolamento-termico-tubulacao.svg#sobreposicao"},
+    {"parametro": "Vaso horizontal — chapa de proteção", "valor": "corrugada 0,40 mm ou lisa 0,8 mm", "item": "5.5.3", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa"},
+    {"parametro": "Vaso horizontal — sobreposição das chapas", "valor": "75 mm", "item": "5.5.3.1", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#sobreposicao-chapa"},
+    {"parametro": "Vaso horizontal — cintas intermediárias", "valor": "espaçamento máx. 530 mm, 12,7 mm", "item": "5.5.3.3", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas"},
+    {"parametro": "Vaso vertical — anéis de sustentação", "valor": "máx. 8 000 mm; último a 300 mm da solda do tampo e 600 mm da solda da saia", "item": "5.6.2", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#anel-tampo"},
+    {"parametro": "Junta de contração do vaso vertical", "valor": "25 mm (espuma de 50 mm comprimida)", "item": "5.6.3", "cota": "esquemas/isolamento-termico-tubulacao.svg#junta-expansao"},
+    {"parametro": "Clips S nas sobreposições circunferenciais", "valor": "a cada 600 mm", "item": "5.6.6.2", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas"}
+   ],
+   "figuras": ["esquemas/isolamento-termico-vaso-tanque.svg"]
+  },
+  {
+   "titulo": "Poliuretano projetado e injetado",
+   "item": "6–7",
+   "texto": "PU projetado em passes descendentes até a espessura total, guiado por mestras; por anel completo, de cima para baixo. Barreira de vapor no mesmo dia (ou metade num dia, com emenda sobreposta). Tanques: junta de contração no 1º anel, chapa lisa embaixo e telha ondulada acima, cintas inox com expansores. PU injetado: tubo envolvido em filme, camisa de proteção rebitada e selada.",
+   "valores": [
+    {"parametro": "Espessura por passe (após expansão)", "valor": "10 mm a 25 mm", "item": "6.1.2 a) / 6.3.2 b)", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante"},
+    {"parametro": "Emenda da barreira entre jornadas", "valor": "200 mm", "item": "6.1.3 b)", "cota": "esquemas/isolamento-termico-tubulacao.svg#sobreposicao"},
+    {"parametro": "Mestras — base / comprimento", "valor": "100 mm / 1 000 mm; altura 10 mm menor que a espessura", "item": "6.3.3", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante"},
+    {"parametro": "Tanque — chapa lisa 1,0 mm até", "valor": "1 700 mm do fundo; acima, telha ondulada com sobreposição ≥ 100 mm", "item": "6.3.14", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#sobreposicao-chapa"},
+    {"parametro": "Tanque — cintas da proteção", "valor": "19 mm, 430–450 mm na vertical, expansor a cada 6 000 mm", "item": "6.3.17", "cota": "esquemas/isolamento-termico-vaso-tanque.svg#espacamento-cintas-tanque"},
+    {"parametro": "PU injetado — rebites nas sobreposições", "valor": "máx. 150 mm; sobreposição 50 mm", "item": "7.1.2", "cota": "esquemas/isolamento-termico-tubulacao.svg#sobreposicao"}
+   ]
+  },
+  {
+   "titulo": "Inspeção e aceitação",
+   "item": "8–9",
+   "texto": "Barreira de vapor em impermeabilizante: espessura medida em amostra recortada; fora da faixa, repetir em 4 pontos e reaplicar. PU projetado: qualificação em painel, controle diário em painel pequeno. PU injetado: tubo de prova, caixa diária, teste de percussão e retirada de blocos ao longo da linha. Termografia sem pontos frios nem condensação.",
+   "valores": [
+    {"parametro": "Barreira de vapor — espessura aceita", "valor": "100 % a 130 % do projeto", "item": "9.1.1", "cota": "esquemas/isolamento-termico-tubulacao.svg#chapa"},
+    {"parametro": "Medições da barreira", "valor": "2 até 200 m², +1 a cada 200 m²; tubulação 1 a cada 200 m", "item": "8.1.2"},
+    {"parametro": "Reteste da barreira (equipamento) — pontos afastados", "valor": "4 pontos a 300 mm entre si", "item": "9.1.1.1 a)", "cota": "esquemas/pintura-execucao-campo.svg#reteste"},
+    {"parametro": "PU projetado — qualificação", "valor": "painel 1,2 m × 1,2 m com 100 mm; espessuras aceitas 100–120 mm", "item": "8.2.1 / 9.2.1", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante"},
+    {"parametro": "PU injetado — vazios superficiais máx.", "valor": "8 mm", "item": "9.3.1 b)", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante"},
+    {"parametro": "Teste de percussão", "valor": "martelo de borracha 250 g em ≥ 20 % da área", "item": "8.3.5"},
+    {"parametro": "Termografia — temperatura superficial", "valor": "não inferior em mais de 5 % à de projeto, sem condensação", "item": "9.4"}
+   ]
+  }
+ ]
+}

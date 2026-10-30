@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-label="Pintura e jateamento — condições ambientais de aplicação">
+<title>Pintura e jateamento — condições ambientais de aplicação (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Pintura e jateamento — condições ambientais de aplicação</text>
+<text x="250" y="52" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) temperatura da superfície (substrato)</text>
+<rect x="150" y="70" width="18" height="290" fill="#666" fill-opacity="0.12" stroke="#666" stroke-width="1.5"/>
+<circle cx="159" cy="372" r="16" fill="#c33" fill-opacity="0.3" stroke="#c33" stroke-width="1.5"/>
+<rect x="154" y="230" width="10" height="140" fill="#c33" fill-opacity="0.6" stroke="#c33" stroke-width="0"/>
+<line x1="140" y1="100" x2="260" y2="100" stroke="#666" stroke-width="1.2"/>
+<line x1="140" y1="150" x2="260" y2="150" stroke="#666" stroke-width="1.2"/>
+<line x1="140" y1="230" x2="260" y2="230" stroke="#666" stroke-width="1.2"/>
+<line x1="140" y1="270" x2="260" y2="270" stroke="#666" stroke-width="1.2"/>
+<line x1="140" y1="320" x2="260" y2="320" stroke="#666" stroke-width="1.2" stroke-dasharray="5 3"/>
+<g id="cota-temp-sup-max" class="cota"><text x="268" y="104" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">limite superior da superfície</text></g>
+<g id="cota-temp-sup-max-zinco" class="cota"><text x="268" y="154" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">limite superior — silicato de zinco</text></g>
+<text x="268" y="234" text-anchor="start" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">superfície no momento da aplicação</text>
+<text x="268" y="274" text-anchor="start" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">mínimo admitido na superfície</text>
+<text x="268" y="324" text-anchor="start" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ponto de orvalho do ar (calculado)</text>
+<g id="cota-margem-orvalho" class="cota"><line x1="120" y1="320" x2="120" y2="270" stroke="#666" stroke-width="1.2"/><polygon points="120.0,270.0 123.5,279.0 116.5,279.0" fill="#666"/><polygon points="120.0,320.0 116.5,311.0 123.5,311.0" fill="#666"/><text x="114" y="299" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">margem</text></g>
+<text x="268" y="362" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">abaixo do mínimo há risco de condensação sobre o aço</text>
+<text x="750" y="52" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) ar ambiente</text>
+<rect x="560" y="80" width="16" height="230" fill="#666" fill-opacity="0.12" stroke="#666" stroke-width="1.5"/>
+<circle cx="568" cy="322" r="14" fill="#c33" fill-opacity="0.3" stroke="#c33" stroke-width="1.5"/>
+<rect x="563" y="240" width="6" height="80" fill="#c33" fill-opacity="0.6" stroke="#c33" stroke-width="0"/>
+<line x1="548" y1="260" x2="600" y2="260" stroke="#666" stroke-width="1.2"/>
+<g id="cota-temp-amb-min" class="cota"><text x="545" y="255" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ambiente mínimo</text></g>
+<text x="568" y="345" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">termômetro</text>
+<path d="M710,230 A110,110 0 0 1 930,230" fill="none" stroke="#999" stroke-width="10"/>
+<path d="M915.3,175.0 A110,110 0 0 1 930,230" fill="none" stroke="#c33" stroke-width="10"/>
+<path d="M875.0,134.7 A110,110 0 0 1 915.3,175.0" fill="none" stroke="#2a7" stroke-width="4"/>
+<line x1="820" y1="230" x2="923.2627944162882" y2="170.0" stroke="#666" stroke-width="2"/>
+<circle cx="820" cy="230" r="5" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<text x="820" y="252" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">umidade relativa do ar (higrômetro)</text>
+<g id="cota-ur-max" class="cota"><text x="929.2627944162882" y="171.0" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">UR máxima</text></g>
+<g id="cota-ur-faixa-zinco" class="cota"><text x="871.0" y="110.73720558371176" text-anchor="middle" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">faixa de UR — silicato de zinco</text></g>
+<text x="936" y="232" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">não pintar</text>
+<text x="800" y="300" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">sem chuva, névoa, nevoeiro ou bruma — nem previsão deles</text>
+<text x="800" y="320" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">medir antes de começar e repetir durante o serviço</text>
+<text x="12" y="412" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

@@ -269,7 +269,14 @@ Lotes 1–7 feitos (30/out): todo valor geométrico tem cota e todo resumo tem d
    Limitação: 5 normas (N-1758, 1728, 2200, 0108, 1742) têm fonte subset deslocada nas FIGURAS ("9iOYXODV" = "Válvulas":
    código = glifo; ASCII +29; acentos na ordem Mac: i→á, m→ã, o→ç…) — legendas/texto dessas figuras saem embaralhados.
    FALTA: RESUMOS PRÓPRIOS (público) por lote de assunto, 1 agente por vez; ler texto com
-   `python -P ferramentas/texto_norma.py PETROBRAS-N-0013 [pág-ini pág-fim]` (--paginas = tamanho). Lote P1 = pintura (em curso).
+   `python -P ferramentas/texto_norma.py PETROBRAS-N-0013 [pág-ini pág-fim]` (--paginas = tamanho).
+   >>> RETOMAR AQUI: Lote P1 pintura — 9/35 resumos feitos (N-0013, 0009, 0002, 2231, 2568, 0442, 1550, 0250, 0896; +8 SVG
+   pintura-esquema-camadas, pintura-condicoes-aplicacao, pintura-execucao-campo, pintura-preparo-superficie, tinta-painel-ensaio,
+   aspersao-termica-camadas, isolamento-termico-tubulacao, isolamento-termico-vaso-tanque). Faltam 26: N-0550 0894 1021 1192 1277
+   1374 1503 1618 1661 1707 1735 1841 1890 1910 1951 2037 2104 2238 2328 2432 2785 2841 2843 2911 2913 2943 (dicas: 1277/1661/1841
+   → tinta-painel-ensaio; 0550/0894/1618 → isolamento-*; 2238/2328/2432/2911 precisam desenho de duto/junta de campo;
+   1890/1910/1951 desenho de refratário). Depois: lotes P2 tubulação, P3 solda/inspeção, P4 equipamentos, P5 elétrica,
+   P6 estruturas/segurança, P7 desenho/geral. Commit + push ao fim de cada lote (só caminhos próprios).
 4. Backlog antigo (baixa prioridade; detalhes em HISTORICO.md): ficha vaso-pressao migrar de VIII-1 2001 para 2007; UCS-66, UG-37;
    B16.9/B16.11/B36.19M; NR-13 tubulações; ISO 4759/4042; MSS SP-44, API 6AF; NBR 6409/ISO 1302; IPE/W/cantoneiras; composição
    química das specs SA/SB; aba "Acervo" no site; fichas de pintura (N-xxxx/SSPC) e andaime.

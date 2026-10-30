@@ -1,0 +1,133 @@
+{
+ "id": "PETROBRAS-N-0013",
+ "titulo": "Petrobras N-0013 Rev. M (03/2022) — Requisitos técnicos para serviços de pintura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Norma-mãe dos serviços de pintura da Petrobras: diz como aplicar e controlar a qualidade dos esquemas definidos nas normas específicas (equipamentos N-2, tubulação N-442 e N-2843, galvanizados e não ferrosos N-1021, embarcações N-1192, unidades marítimas N-1374, estruturas N-1550, máquinas N-1735 etc.). Cobre também armazenamento, recebimento de tintas e diluentes e segurança. Pigmentos com cromo VI ou chumbo são proibidos.",
+   "valores": [
+    {"parametro": "Prazo para implantar a revisão", "valor": "180 dias após a publicação (ou plano de implantação registrado)", "item": "1.5"}
+   ]
+  },
+  {
+   "titulo": "Mão de obra, procedimentos e calibração",
+   "item": "4.1–4.4",
+   "texto": "Os pintores seguem plano de treinamento (base ABNT NBR 16378) e são treinados no procedimento do serviço por inspetor de pintura nível 1 experiente ou nível 2. O procedimento de aplicação lista esquema, tintas, sequência, preparo, controle de qualidade e retoque; o de inspeção traz amostragem, instrumentos e critérios. Instrumentos só com calibração válida, de laboratório da RBC/INMETRO ou equivalente ISO 17025.",
+   "valores": [
+    {"parametro": "Experiência do inspetor nível 1 que ministra o treinamento", "valor": "24 meses comprovados (ou nível 2)", "item": "4.1.3"},
+    {"parametro": "Reciclagem no procedimento de pintura", "valor": "no mínimo anual", "item": "4.1.4"}
+   ]
+  },
+  {
+   "titulo": "Armazenamento e validade das tintas",
+   "item": "4.5–4.6",
+   "texto": "Depósito coberto, ventilado, exclusivo, protegido do sol e de centelhas, com combate a incêndio; sai primeiro o material mais antigo. Tinta vencida e não revalidada fica segregada. Tinta revalidada não pode ser usada em superfícies internas, quentes, com condensação ou imersas; nos demais casos pode ser revalidada pelo fabricante, com autorização escrita da Petrobras e registro no relatório de inspeção.",
+   "valores": [
+    {"parametro": "Empilhamento máximo (sem orientação da FISPQ) — galões / baldes / tambores de 200 L", "valor": "20 / 5 / 3", "item": "4.5.2", "nota": "prática recomendada"},
+    {"parametro": "Superfície externa quente em que tinta revalidada é proibida", "valor": "acima de 80 °C", "item": "4.6.2 b)"},
+    {"parametro": "Número máximo de revalidações", "valor": "2", "item": "4.6.3"}
+   ]
+  },
+  {
+   "titulo": "Preparo, mistura e diluição",
+   "item": "4.7–4.8",
+   "texto": "O preparo segue a N-9 e o grau de limpeza definido no esquema. Faces usinadas de flanges são protegidas do jato. A tinta é homogeneizada no recipiente original, por misturador mecânico (tintas ricas em zinco sempre mecânico); não se mistura com fluxo de ar, não se adiciona nada fora do boletim técnico e só se dilui com o diluente do fabricante, dentro do limite do boletim, registrando a diluição. Respeitar tempo de indução e pot life das tintas bicomponentes; tinta com nata ou pele em lata recém-aberta é rejeitada.",
+   "valores": [
+    {"parametro": "Mistura manual admitida", "valor": "recipiente de até 3,6 L (tintas com alumínio: sempre manual)", "item": "4.8.3"}
+   ]
+  },
+  {
+   "titulo": "Aplicação — regras gerais",
+   "item": "4.9",
+   "texto": "Esquema todo de um mesmo fabricante, inclusive entre fábrica e campo. Shop primer é removido antes do esquema, salvo garantia do fabricante. Junto a bordas que serão soldadas fica uma faixa sem pintura, tratada depois da solda e dos testes. Frestas são vedadas (solda, massa epóxi). Antes de cada demão a superfície é limpa de poeira. Demão de reforço (stripe coat) a trincha em soldas, cantos vivos, cavidades, flanges e bordas — uma a menos que o total de demãos (ou uma, em sistema de demão única); não se faz reforço com tinta inorgânica rica em zinco. Regiões soldadas na montagem recebem jato Sa 2½ (ou WAB-2 / hidrojato com abrasivo; na impossibilidade, SSPC-SP 11) e a mesma tinta de fundo. Epóxi com intervalo de repintura vencido tem a demão anterior lixada/jateada para quebrar o brilho. Em manutenção só se remove pintura sem aderência, chanfrando as bordas da pintura antiga.",
+   "valores": [
+    {"parametro": "Faixa sem pintura de cada lado da borda a soldar", "valor": "5 cm", "item": "4.9.4", "cota": "esquemas/pintura-execucao-campo.svg#faixa-solda"},
+    {"parametro": "Temperatura ambiente mínima para aplicar tinta", "valor": "5 °C (tintas que secam só por evaporação de solvente: 2 °C)", "item": "4.9.8", "cota": "esquemas/pintura-condicoes-aplicacao.svg#temp-amb-min"},
+    {"parametro": "Temperatura ambiente que não pode ser atingida antes da secagem à pressão", "valor": "0 °C", "item": "4.9.8.1"},
+    {"parametro": "Temperatura mínima da superfície", "valor": "ponto de orvalho + 3 °C", "item": "4.9.8.2", "cota": "esquemas/pintura-condicoes-aplicacao.svg#margem-orvalho"},
+    {"parametro": "Temperatura máxima da superfície", "valor": "52 °C (etil silicato de zinco: 40 °C)", "item": "4.9.8.2", "cota": "esquemas/pintura-condicoes-aplicacao.svg#temp-sup-max"},
+    {"parametro": "Umidade relativa máxima", "valor": "85 %", "item": "4.9.8.3", "cota": "esquemas/pintura-condicoes-aplicacao.svg#ur-max"},
+    {"parametro": "UR para etil silicato de zinco (cura)", "valor": "entre 60 % e 85 %", "item": "4.9.8.3 Nota 1", "cota": "esquemas/pintura-condicoes-aplicacao.svg#ur-faixa-zinco"},
+    {"parametro": "Revestimento de demão única em que o reforço é um dos passes", "valor": "espessura ≥ 2 000 µm (poliureias, PU elastomérico)", "item": "4.9.9.3", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Lavagem de tinta rica em zinco (N-1661) com repintura vencida", "valor": "água doce a 1 500–3 000 psi", "item": "4.9.17 Nota"},
+    {"parametro": "Teste da pintura antiga mantida — ângulo máximo da espátula", "valor": "45°", "item": "4.9.22 Nota", "nota": "ângulo de ensaio manual de aderência, não cota de peça"}
+   ],
+   "figuras": ["esquemas/pintura-condicoes-aplicacao.svg", "esquemas/pintura-execucao-campo.svg"]
+  },
+  {
+   "titulo": "Tintas ricas em zinco e epóxi sem solvente",
+   "item": "5.1",
+   "texto": "Tintas ricas em zinco (N-1277, N-1661, N-1841, N-2231): mistura uniforme, peneiramento e aplicação com agitação mecânica contínua; as de etil silicato não vão a trincha nem rolo e não são retocadas com o mesmo produto — o retoque é com epóxi-zinco N-1277 até a temperatura limite, acima dela refaz-se o esquema. Epóxi sem solvente (N-2629, N-2680, N-2912 tipos II e III): a 2ª demão de preferência assim que a 1ª estiver seca ao toque.",
+   "valores": [
+    {"parametro": "Peneira após mistura (zinco)", "valor": "nº 80 a nº 100", "item": "5.1.1.2"},
+    {"parametro": "Retoque de etil silicato com N-1277 permitido até", "valor": "120 °C de operação (acima: remover e refazer)", "item": "5.1.1.5"}
+   ]
+  },
+  {
+   "titulo": "Processos de aplicação",
+   "item": "5.2",
+   "texto": "Preferência pela pistola sem ar (airless), sobretudo para tintas de alto teor de sólidos ou tixotrópicas; tintas de pot life curto exigem equipamento de mistura no bico (plural component). Pistola convencional só com ar seco e sem óleo (filtros de sílica-gel e carvão), longe de vento forte. Pistola perpendicular à superfície e a distância constante. Trincha de fibra natural para reforço e retoques. Rolo de lã de carneiro de pelo curto, demãos cruzadas, começando por cima.",
+   "valores": [
+    {"parametro": "Airless indicada para tintas com sólidos", "valor": "80 % ou mais (ou sem solvente)", "item": "5.2.1.1"},
+    {"parametro": "Sobreposição entre passes (airless e convencional)", "valor": "50 % da largura do passe", "item": "5.2.1.6 / 5.2.2.9", "cota": "esquemas/pintura-execucao-campo.svg#sobreposicao-passe"},
+    {"parametro": "Pot life que exige mistura automática no bico (e veta rolo em grandes áreas)", "valor": "abaixo de 30 min", "item": "5.2.1.7 / 5.2.4.5"},
+    {"parametro": "Largura máxima da trincha", "valor": "125 mm (5\")", "item": "5.2.3.3", "cota": "esquemas/pintura-execucao-campo.svg#trincha"},
+    {"parametro": "Sobreposição mínima entre faixas de rolo", "valor": "5 cm", "item": "5.2.4.3", "cota": "esquemas/pintura-execucao-campo.svg#sobreposicao"}
+   ]
+  },
+  {
+   "titulo": "Inspeção",
+   "item": "6",
+   "texto": "Inspetores certificados pela N-2941 registram tudo no relatório de inspeção (RIP) e as não conformidades em RNC. Confere-se certificado e validade de cada lote de tinta, limpeza e grau de preparo (padrão visual original, sem cópias), perfil de rugosidade (N-9), umidade e temperaturas (antes de começar e de hora em hora, em cada frente), defeitos de película, EPU durante a aplicação, EPS depois do tempo mínimo de repintura (NBR 10443), descontinuidade (NBR 16172) e aderência por tração (NBR 15877 ou ASTM D4541 métodos D/E). Teste de salinidade (Bresle, NBR 16761) antes de cada demão.",
+   "valores": [
+    {"parametro": "Intervalo de registro de UR e temperaturas", "valor": "1 hora", "item": "6.4.2"},
+    {"parametro": "EPU em tubulação — no mínimo 1 medição a cada", "valor": "10 m (ou fração)", "item": "6.6.2", "cota": "esquemas/pintura-preparo-superficie.svg#intervalo"},
+    {"parametro": "EPU nos demais itens — nº de medições", "valor": "20 % do valor numérico da área pintada em m²", "item": "6.6.3"},
+    {"parametro": "EPS em tubulação — no mínimo 1 medição a cada", "valor": "25 m (ou fração)", "item": "6.7.2", "cota": "esquemas/pintura-preparo-superficie.svg#intervalo"},
+    {"parametro": "EPS nos demais itens — nº de medições", "valor": "10 % do valor numérico da área pintada em m²", "item": "6.7.3"},
+    {"parametro": "Descontinuidade via úmida (esponja)", "valor": "67,5 V, revestimentos ≤ 300 µm", "item": "6.8 a)", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Descontinuidade via seca", "valor": "500 V a 5 000 V para 300 µm a 1 000 µm; acima de 1 000 µm, > 5 000 V", "item": "6.8 b)", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Réplica para teste de aderência — dimensões mínimas", "valor": "0,5 m × 0,5 m", "item": "6.9.2 Nota 2", "cota": "esquemas/chapa-fita-dimensoes.svg#comprimento"},
+    {"parametro": "Réplica — espessura", "valor": "6 mm", "item": "6.9.2 Nota 2", "cota": "esquemas/chapa-fita-dimensoes.svg#espessura"},
+    {"parametro": "Pull-off em tubulação — no mínimo 1 teste a cada", "valor": "100 m (ou fração)", "item": "6.9.2.1", "cota": "esquemas/pintura-preparo-superficie.svg#intervalo"},
+    {"parametro": "Pull-off nos demais itens — nº de testes", "valor": "1 % do valor numérico da área pintada em m² (mín. 1)", "item": "6.9.2.2"},
+    {"parametro": "Salinidade em local agressivo — antecedência máxima", "valor": "1 hora antes da aplicação", "item": "6.10.4"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg", "esquemas/pintura-preparo-superficie.svg"]
+  },
+  {
+   "titulo": "Critérios de aceitação",
+   "item": "7",
+   "texto": "Nenhuma medida de EPS abaixo do mínimo do esquema: a área é mapeada e recebe demão extra ou compensação na seguinte (etil silicato de zinco: remover e refazer). EPU abaixo do calculado é corrigida na hora. Sem descontinuidades (porosidades mapeadas, retocadas e retestadas). Defeito que expõe o aço é sempre reparado. Pull-off reprovado: repetir em 4 pontos opostos ao redor; se os 4 passam, repara-se e aprova; se um falha, rejeita-se toda a pintura daquela inspeção. Tensões mínimas de pull-off por esquema estão na Tabela A.1 (várias remetem à norma do esquema).",
+   "valores": [
+    {"parametro": "EPU mínima", "valor": "EPS × 100 / sólidos por volume (%)", "item": "7.6.1", "cota": "esquemas/pintura-esquema-camadas.svg#epu"},
+    {"parametro": "Excesso aceito de EPS por demão", "valor": "até 40 % acima do previsto (acima: consultar fabricante)", "item": "7.7.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Excesso aceito — etil silicato de zinco (N-1661, N-2231)", "valor": "até 20 % acima da espessura mínima", "item": "7.7.2", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Reteste de pull-off — distância dos 4 pontos ao ponto reprovado", "valor": "300 mm", "item": "7.9.2", "cota": "esquemas/pintura-execucao-campo.svg#reteste"},
+    {"parametro": "Reparo após reteste aprovado — raio da área", "valor": "200 mm em torno de cada falha", "item": "7.9.3 Nota", "cota": "esquemas/pintura-execucao-campo.svg#raio-reparo"},
+    {"parametro": "Sais solúveis máx. — dutos/estruturas enterrados ou submersos", "valor": "2 µg/cm²", "item": "7.10.1.1"},
+    {"parametro": "Sais solúveis máx. — interno de equipamentos/tubulações, submerso ou sob isolamento", "valor": "3 µg/cm²", "item": "7.10.1.2"},
+    {"parametro": "Sais solúveis máx. — demais casos", "valor": "5 µg/cm²", "item": "7.10.1.3"},
+    {"parametro": "N-2680 — temperatura mínima da superfície (sem restrição de orvalho/UR)", "valor": "10 °C", "item": "7.4 e)"}
+   ],
+   "figuras": ["esquemas/pintura-execucao-campo.svg"]
+  },
+  {
+   "titulo": "Tabela A.1 — tensão mínima no pull-off",
+   "item": "Anexo A",
+   "texto": "Tensão mínima de tração por esquema e tipo de falha permitida; acima de 20 MPa qualquer tipo de falha é aceito. O equipamento e o adesivo devem alcançar pelo menos 20 % acima da tensão mínima. Para N-2, N-442, N-1021, N-1374, N-2037, N-2104 e N-2913 vale a tabela da própria norma.",
+   "valores": [
+    {"parametro": "N-1192 interno de tanque de carga (N-2680 2 × 160 µm ou N-2912 II 450 µm)", "valor": "12 MPa mín., sem falha A/B", "item": "Tab. A.1"},
+    {"parametro": "N-1550 condições 1 e 2", "valor": "8 MPa mín., falha B/C", "item": "Tab. A.1", "nota": "com N-2677 alumínio o mínimo cai para 5 MPa (Nota 4)"},
+    {"parametro": "N-1550 condição 3 (antes do fireproofing)", "valor": "12 MPa mín., sem falha A/B", "item": "Tab. A.1"},
+    {"parametro": "N-1735 condições 1 e 2", "valor": "8 MPa mín.", "item": "Tab. A.1"},
+    {"parametro": "N-1735 condições 3, 6 e 7", "valor": "12 MPa mín., sem falha A/B", "item": "Tab. A.1"},
+    {"parametro": "N-1735 condição 4 — N-2231 100 µm", "valor": "5 MPa mín.", "item": "Tab. A.1"},
+    {"parametro": "N-1735 revestimento para CUI (2 × 150 µm)", "valor": "2 MPa mín.", "item": "Tab. A.1"},
+    {"parametro": "N-1735 condição 5 — superfície com condensação permanente (300 µm)", "valor": "7,0 MPa mín.", "item": "Tab. A.1"},
+    {"parametro": "N-2843 condições 1 a 3 (N-2912, 150 a 400 µm)", "valor": "12 MPa mín., sem falha A/B", "item": "Tab. A.1"}
+   ]
+  }
+ ]
+}
