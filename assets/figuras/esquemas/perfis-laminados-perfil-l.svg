@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" width="760" height="600" role="img" aria-label="Cantoneira L (AISC) — d, b, t, x, y">
+<title>Cantoneira L (AISC) — d, b, t, x, y (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Cantoneira L (AISC) — d, b, t, x, y</text>
+<path class="s" d="M180,200 L212,200 L212,430 L500,430 L500,462 L180,462 z"/>
+<line class="c" x1="120" y1="400" x2="540" y2="400"/>
+<line class="c" x1="250" y1="160" x2="250" y2="520"/>
+<text x="544" y="405">x</text>
+<text x="106" y="405">x</text>
+<text x="256" y="172">y</text>
+<text x="256" y="526">y</text>
+<g id="cota-d" class="cota"><line class="e" x1="177" y1="200" x2="114" y2="200"/><line class="e" x1="177" y1="462" x2="114" y2="462"/><line class="d" x1="120" y1="200" x2="120" y2="462" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="113" y="335">d</text></g>
+<g id="cota-b" class="cota"><line class="e" x1="180" y1="465" x2="180" y2="521"/><line class="e" x1="500" y1="465" x2="500" y2="521"/><line class="d" x1="180" y1="515" x2="500" y2="515" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="380" y="533">b</text></g>
+<g id="cota-t" class="cota"><line class="e" x1="503" y1="430" x2="566" y2="430"/><line class="e" x1="503" y1="462" x2="566" y2="462"/><line class="d" x1="560" y1="404" x2="560" y2="430" marker-end="url(#a)"/><line class="d" x1="560" y1="488" x2="560" y2="462" marker-end="url(#a)"/><line class="d" x1="560" y1="430" x2="560" y2="462"/><text x="570" y="452">t</text></g>
+<g id="cota-x" class="cota"><line class="d" x1="180" y1="330" x2="250" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="232" y="322">x</text></g>
+<g id="cota-y" class="cota"><line class="d" x1="330" y1="462" x2="330" y2="400" marker-start="url(#a)" marker-end="url(#a)"/><text x="336" y="438">y</text></g>
+<text class="n" x="560" y="200">d = aba menor; b = aba maior</text>
+<text class="n" x="560" y="218">t = espessura</text>
+<text class="n" x="560" y="242">x, y = face externa →</text>
+<text class="n" x="560" y="260">centroide</text>
+<text class="n" x="560" y="284">z–z: eixo de menor inércia</text>
+<text class="n" x="560" y="302">(Iz, rz; inclinado — tan α)</text>
+<text class="n" x="20" y="588">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

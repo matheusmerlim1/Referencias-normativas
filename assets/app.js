@@ -363,7 +363,9 @@
     let t = TXT.get(f);
     if (!t) TXT.set(f, t = {
       titulo: semAcento(f.titulo + (f.norma ? " " + f.norma : "")),
-      chaves: semAcento((f.palavras_chave || []).concat((f.tabelas || []).map(x => x.titulo), (f.definicoes || []).map(d => d.termo)).join(" | ")),
+      chaves: semAcento((f.palavras_chave || []).concat((f.tabelas || []).map(x => x.titulo), (f.definicoes || []).map(d => d.termo),
+        // consulta-tabela: nomes das linhas sem espaços (ex. "w100x19.3 w4x13", "heb100") para achar o perfil pela busca geral
+        f.calculadora === "consulta-tabela" ? (f.tabelas || []).flatMap(t => t.linhas.map(l => l.filter(v => typeof v === "string").map(v => v.replace(/\s+/g, "").replace(/,/g, ".")).join(" "))) : []).join(" | ")),
       resumo: semAcento([f.resumo, f.categoria, f.assunto, f.escopo].join(" ")),
     });
     return t;
@@ -1050,7 +1052,12 @@
       const rs = ehNorma && RESUMOS[f.norma];
       const secsAchado = rs ? (rs.secoes || []).map((s, i) => [s, i]).filter(([s]) => termos.some(alt => contem(txtSecao(s), alt))).map(([, i]) => i) : [];
       if (secsAchado.length) est.resAbertos = new Set(secsAchado);
-      if (comAchado.length || !ehNorma) { est.aba = "req"; est.abertos = new Set(comAchado.map(g => g.id)); }
+      // consulta-tabela e a busca é o nome de uma linha (ex. "W4x13", "HEB 200"): abrir direto na Consulta rápida
+      const qc = semAcento(q).replace(/\s+/g, "").replace(/[×*]/g, "x").replace(/,/g, ".");
+      const nomeDeLinha = f.calculadora === "consulta-tabela" && /\d/.test(qc) && (f.tabelas || []).some(t => t.consulta !== false &&
+        t.linhas.some(l => l.some(v => typeof v === "string" && semAcento(v).replace(/\s+/g, "").replace(/,/g, ".").includes(qc))));
+      if (nomeDeLinha) est.aba = "calc";
+      else if (comAchado.length || !ehNorma) { est.aba = "req"; est.abertos = new Set(comAchado.map(g => g.id)); }
       else if (secsAchado.length) est.aba = "res";
       else if (comTexto) { est.aba = "txt"; est.txt = { q, k: -1, auto: true }; } // sem item achado: procurar no texto
     }
@@ -1493,7 +1500,7 @@
 
     atual = { f, q, est, irTexto: null };
     if (est.aba === "txt" && comTexto) montarTexto(document.getElementById("conteudo-aba"), f.norma, est);
-    if (est.aba === "calc" && temCalc) CALCULADORAS[f.calculadora](document.getElementById("calc"), f);
+    if (est.aba === "calc" && temCalc) CALCULADORAS[f.calculadora](document.getElementById("calc"), f, q);
     const primeiro = app.querySelector("tr.destaque");
     if (primeiro && (est.aba === "req" || est.aba === "tem" || est.aba === "res")) primeiro.scrollIntoView({ block: "center" });
   }
@@ -1912,15 +1919,36 @@
 
   /* Consulta genérica a tabelas da ficha: filtros pelas chaves de "chave" (ex. classe) + valor da 1ª coluna (ex. NPS).
      Rótulos opcionais em f.consulta = {"rotulos": {"classe": "Classe de pressão"}, "linha": "NPS"}. */
-  CALCULADORAS["consulta-tabela"] = function (el, f) {
+  CALCULADORAS["consulta-tabela"] = function (el, f, q) {
     const tabs = (f.tabelas || []).filter(t => t.consulta !== false); // "consulta": false = só exibida na ficha
     const cfg = f.consulta || {};
     const chaves = [...new Set(tabs.flatMap(t => Object.keys(t.chave || {})))];
     const opcoes = k => [...new Set(tabs.map(t => t.chave?.[k]).filter(v => v != null))]
       .sort((a, b) => String(a).localeCompare(String(b), "pt", { numeric: true }));
     const rotulo = k => cfg.rotulos?.[k] || k;
+    // busca por nome ou medida em todas as tabelas (ignora os filtros): "w100x19" acha W100X19.3; "100" acha toda linha
+    // com alguma medida 100 (ou 100,x); nomes comparados sem espaços, "×"/"*" = "x", vírgula = ponto, "19,0" = "19"
+    const compacto = s => semAcento(s).replace(/\s+/g, "").replace(/[×*]/g, "x").replace(/,/g, ".").replace(/\.0+(?=x|$)/g, "");
+    const termoBusca = qb => { const termo = compacto(qb); return { termo, n: /^\d+(\.\d+)?$/.test(termo) ? Number(termo) : null }; };
+    // 3 = no nome/texto da célula; 2 = medida igual; 1 = mesma parte inteira (só se o termo não tem decimal)
+    const nivelCel = (v, { termo, n }) => typeof v === "string" ? (compacto(v).includes(termo) ? 3 : 0)
+      : typeof v === "number" && n != null ? (v === n ? 2 : !termo.includes(".") && Math.trunc(v) === n ? 1 : 0) : 0;
+    function achar(qb) {
+      const tb = termoBusca(qb);
+      if (!tb.termo) return [];
+      const res = [];
+      for (const t of tabs) for (const l of t.linhas) {
+        const niveis = l.map(v => nivelCel(v, tb));
+        const nivel = Math.max(...niveis);
+        if (nivel) res.push({ t, l, nivel, cols: niveis.map((x, k) => x && k ? k : 0).filter(Boolean) });
+      }
+      return res.sort((a, b) => b.nivel - a.nivel);
+    }
     el.innerHTML = `<h2 style="margin-top:0">${esc(cfg.titulo || "Consulta rápida")}</h2>
       <p class="meta">${esc(cfg.ajuda || "Escolha os filtros; aparecem todas as cotas da linha em cada tabela da norma.")}</p>
+      <div class="entradas"><label class="ct-busca">Buscar por nome ou medida (todas as séries)
+        <input type="search" id="ct-busca" placeholder="ex.: W100x19, W4x13, HEB 200, 100" autocomplete="off"></label></div>
+      <div id="ct-achados"></div>
       <div class="entradas">
         ${chaves.map(k => `<label>${esc(rotulo(k))}<select data-chave="${esc(k)}">${opcoes(k).map(v => `<option>${esc(v)}</option>`).join("")}</select></label>`).join("")}
         <label>${esc(cfg.linha || "Linha")}<select id="ct-linha"></select></label>
@@ -1948,7 +1976,8 @@
       const blocos = filtradas().map(t => {
         const l = t.linhas.find(x => String(x[0]) === alvo);
         if (!l) return "";
-        const kpis = `<div class="kpis" style="grid-template-columns:repeat(auto-fill,minmax(170px,1fr))">${t.colunas.slice(1).map((c, i) => { const a = attrCotaCel(t, i + 1, l); return `<div class="kpi${a ? " com-cota" : ""}"${a}${a ? ' title="Ver esta cota no esquema"' : ""}><div class="r">${esc(c)}</div><div class="n">${esc(l[i + 1] ?? "—")}</div></div>`; }).join("")}</div>`;
+        const tb = termoBusca(entBusca.value);
+        const kpis = `<div class="kpis" style="grid-template-columns:repeat(auto-fill,minmax(170px,1fr))">${t.colunas.slice(1).map((c, i) => { const a = attrCotaCel(t, i + 1, l); return `<div class="kpi${a ? " com-cota" : ""}${tb.termo && nivelCel(l[i + 1], tb) ? " ct-casa" : ""}"${a}${a ? ' title="Ver esta cota no esquema"' : ""}><div class="r">${esc(c)}</div><div class="n">${esc(l[i + 1] ?? "—")}</div></div>`; }).join("")}</div>`;
         // desenho repetido entre blocos: só no 1º; nos seguintes, rótulo que rola até ele
         const novas = [], ancoras = new Set();
         for (const fig of figurasDaTabela(f, t)) {
@@ -1971,9 +2000,48 @@
       fig.scrollIntoView({ behavior: "smooth", block: "center" });
       fig.classList.remove("ct-destaque"); void fig.offsetWidth; fig.classList.add("ct-destaque");
     });
+    // resultados da busca: lista série · linha · medidas que batem; clicar escolhe os filtros e a linha
+    const entBusca = el.querySelector("#ct-busca"), divAchados = el.querySelector("#ct-achados");
+    const LIM_ACHADOS = 200;
+    let achados = [];
+    const listarAchados = tudo => {
+      const qb = entBusca.value.trim();
+      achados = achar(qb);
+      if (!qb) { divAchados.innerHTML = ""; return; }
+      if (!achados.length) { divAchados.innerHTML = `<p class="meta">Nada com “${esc(qb)}”.</p>`; return; }
+      const vis = tudo ? achados : achados.slice(0, LIM_ACHADOS);
+      const serie = t => Object.values(t.chave || {}).join(" · ") || t.titulo;
+      divAchados.innerHTML = `<p class="meta">${achados.length} linha(s) com “${esc(qb)}” — clique para ver todas as medidas.</p>
+        <div class="tabela-wrap ct-achados"><table class="req"><thead><tr><th>${esc(cfg.linha || "Linha")}</th><th>Série / tabela</th><th>Medidas que batem</th></tr></thead>
+        <tbody>${vis.map(({ t, l, cols }, i) => `<tr data-ct-achado="${i}"><td class="valor">${esc(l[0])}${typeof l[1] === "string" ? ` <span class="meta">(${esc(l[1])})</span>` : ""}</td>
+          <td>${esc(serie(t))}</td><td>${cols.filter(k => !(k === 1 && typeof l[1] === "string")).map(k => `${esc(t.colunas[k])} = <b>${esc(l[k])}</b>`).join(" · ") || "—"}</td></tr>`).join("")}
+        ${vis.length < achados.length ? `<tr><td colspan="3"><button type="button" class="botao" data-ct-todos>Mostrar todas (${achados.length})</button></td></tr>` : ""}</tbody></table></div>`;
+    };
+    // mostra o achado i embaixo (filtros e linha escolhidos); rolar = clique do usuário
+    const escolher = (i, rolar) => {
+      const tr = divAchados.querySelector(`tr[data-ct-achado="${i}"]`);
+      const { t, l } = achados[i];
+      for (const s of sels) { atualizarChaves(); const v = t.chave?.[s.dataset.chave]; if (v != null) s.value = String(v); }
+      atualizarChaves(); atualizarLinhas();
+      selLinha.value = String(l[0]);
+      mostrar();
+      divAchados.querySelectorAll("tr.cota-sel").forEach(x => x.classList.remove("cota-sel"));
+      tr?.classList.add("cota-sel");
+      if (rolar) el.querySelector("#ct-saida").scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    const buscarNaConsulta = () => { listarAchados(); achados.length ? escolher(0, false) : mostrar(); };
+    divAchados.addEventListener("click", e => {
+      if (e.target.closest("[data-ct-todos]")) { listarAchados(true); return; }
+      const tr = e.target.closest("tr[data-ct-achado]");
+      if (tr) escolher(+tr.dataset.ctAchado, true);
+    });
+    let esperaBusca;
+    entBusca.addEventListener("input", () => { clearTimeout(esperaBusca); esperaBusca = setTimeout(buscarNaConsulta, 150); });
     sels.forEach(s => s.addEventListener("input", () => { atualizarChaves(); atualizarLinhas(); mostrar(); }));
     selLinha.addEventListener("input", mostrar);
     atualizarChaves(); atualizarLinhas(); mostrar();
+    // veio da busca geral (ex. "W4x13"): já abre com a busca preenchida, se ela acha alguma linha
+    if (q && achar(q).length) { entBusca.value = q; buscarNaConsulta(); }
   };
 
   function desenhoEscada(H, n, h, g, ang) {

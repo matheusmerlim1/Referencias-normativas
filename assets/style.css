@@ -186,6 +186,12 @@ table.req tr.destaque td { background: var(--acento-suave); }
 .kpi { background: var(--superficie-2); border-radius: 8px; padding: 8px 10px; }
 .kpi .r { font-size: .75rem; color: var(--texto-2); }
 .kpi .n { font-size: 1.15rem; font-weight: 700; }
+/* consulta-tabela: busca por nome ou medida em todas as séries */
+.calc .ct-busca { grid-column: 1 / -1; max-width: 520px; }
+.ct-achados { max-height: 360px; overflow: auto; margin-bottom: 16px; }
+.ct-achados tr[data-ct-achado] { cursor: pointer; }
+.ct-achados tr[data-ct-achado]:hover > td, .ct-achados tr.cota-sel > td { background: var(--acento-suave); }
+.kpis .kpi.ct-casa { box-shadow: inset 0 0 0 2px var(--acento); }
 /* desenho com as cotas ao lado do resultado da consulta (campo "figuras" da tabela) */
 .ct-com-fig { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 12px; align-items: start; }
 .ct-figs { display: flex; flex-direction: column; gap: 8px; }
