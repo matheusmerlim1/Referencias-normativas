@@ -444,6 +444,11 @@ Backlog:
   - 30/out: REPOSITÓRIO PÚBLICO criado e enviado: https://github.com/matheusmerlim1/Referencias-normativas (branch main; 1º commit
     c2d79d0 = camada pública; autor git matheusmerlim1). Antes de cada commit: build + `verificar_autossuficiente.py --publico` = 0.
     Resumos: 714/779 (faltam ~65: ABS/BV/IACS/IOGP/ISA…, agente em curso). Depois: desenhos próprios com cotas nos resumos (só 78 têm cota).
+  - 30/out: resumos 779/779 (commit 76007e2); GitHub Pages no ar (https://matheusmerlim1.github.io/Referencias-normativas/).
+    COTAS NOS RESUMOS por lotes (1 agente): LOTE 1 FEITO (aae2ef7: acessos/ergonomia/NRs, 212 valores, +18 SVG). PAUSADO a pedido do
+    usuário. Faltavam ~1 030 valores dimensionais sem cota em ~307 resumos. Próximos: lote 2 içamento (DNV-ST-E273/E271, DNV 2.22,
+    ABS-LIFT, NBR 8400, NORSOK R-002, B30.x, ISO 3266, NBR lingadas); lote 3 tubulação/flange/solda (B31.3, B16.5/16.25/16.47/16.20,
+    AWS D1.1, API RP 14E, VIII-1); depois o resto por uso. Sem valores no SVG; build + --publico = 0 antes de cada commit.
   - PRÓXIMO: (a) terminar o que os 4 agentes não terminaram; (b) RESUMOS próprios por norma (conteudo/resumos/<slug>.json, texto
     REESCRITO + valores/itens + esquemas) — 779 normas, por lotes de ~2–4 agentes, prioridade: as 91 citadas nas temáticas
     (NRs, B16.5, B31.3, AWS D1.1, ISO 898…), depois por órgão; ler o texto em dados/textos (local) e escrever com palavras próprias;
