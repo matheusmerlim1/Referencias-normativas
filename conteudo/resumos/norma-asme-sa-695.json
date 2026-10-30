@@ -1,0 +1,67 @@
+{
+ "id": "ASME-SA-695",
+ "titulo": "SA-695 — Barras redondas de aço carbono laminadas a quente para aplicações de potência fluida",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 3",
+   "texto": "Barras redondas de aço carbono laminadas a quente, qualidade especial, com propriedades mecânicas, para aplicações hidráulicas/pneumáticas (potência fluida). Tipo B, graus 35 e 40. Bitolas menores são compradas por especificação de acabado a frio. Requisitos gerais pela SA-29.",
+   "valores": [
+    {
+     "parametro": "Diâmetro mínimo",
+     "valor": "3,0 in [76 mm]",
+     "item": "3.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Proibida adição de chumbo.",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx.",
+     "valor": "1,10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,040 % / 0,050 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,15–0,35 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2, 8.1.2",
+   "texto": "Escoamento a 0,5 % de extensão sob carga. Alongamento reduzido em 1 ponto por polegada de diâmetro acima de 3,0 in, até 3 pontos.",
+   "valores": [
+    {
+     "parametro": "Grau 35 — Su / Sy mín. / along.",
+     "valor": "60 ksi (415) / 35 ksi (240) / 21 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 40 — Su / Sy mín. / along.",
+     "valor": "70 ksi (485) / 40 ksi (275) / 17 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "11",
+   "texto": "Número da corrida estampado numa ponta de cada barra."
+  }
+ ]
+}

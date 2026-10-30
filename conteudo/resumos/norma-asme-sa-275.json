@@ -1,0 +1,26 @@
+{
+ "id": "ASME-SA-275",
+ "titulo": "SA-275 — Método de ensaio por partículas magnéticas em forjados de aço",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimento de exame por partículas magnéticas de forjados de aço, para resultados consistentes. Não fixa critérios de aceitação — estes vêm da especificação do produto ASME. Só corrente contínua ou alternada retificada (meia onda ou onda completa); corrente alternada não é admitida por detectar mal descontinuidades subsuperficiais."
+  },
+  {
+   "titulo": "Pessoal e equipamento",
+   "item": "5, 7, 8",
+   "texto": "Inspetores qualificados e certificados conforme prática acordada. Partículas ferromagnéticas finas, secas ou em suspensão (via úmida, inclusive fluorescentes)."
+  },
+  {
+   "titulo": "Execução",
+   "item": "9 a 12",
+   "texto": "Superfície limpa e seca (a sensibilidade depende do estado da superfície). Magnetização por passagem de corrente na peça ou por campo induzido (condutor central, bobina, eletrodos), em duas direções aproximadamente perpendiculares. Partículas aplicadas durante a magnetização (método contínuo) ou depois (residual). Desmagnetização quando especificada."
+  },
+  {
+   "titulo": "Avaliação",
+   "item": "13, 15",
+   "texto": "Indicações classificadas pela forma e orientação; a aceitação segue a especificação ASME do produto."
+  }
+ ]
+}

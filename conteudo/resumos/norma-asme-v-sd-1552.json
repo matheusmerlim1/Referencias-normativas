@@ -1,0 +1,23 @@
+{
+ "id": "ASME-V-SD-1552",
+ "titulo": "Seção V, SD-1552 — Enxofre em produtos de petróleo (método de alta temperatura)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Três procedimentos para enxofre total em produtos de petróleo e concentrados de aditivos, por pirólise em alta temperatura (dois com detecção por iodato). Artigo normativo adotado pela ASME Seção V (Ensaios Não Destrutivos), aplicável quando o Código ou o pedido o invoca.",
+   "valores": [
+    {
+     "parametro": "Faixa de ebulição das amostras",
+     "valor": "acima de 177 °C (350 °F)",
+     "item": "1.1"
+    },
+    {
+     "parametro": "Teor mínimo de S aplicável",
+     "valor": "0,06 % em massa",
+     "item": "1.1"
+    }
+   ]
+  }
+ ]
+}

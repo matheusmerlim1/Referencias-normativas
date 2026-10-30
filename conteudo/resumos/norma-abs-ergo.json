@@ -1,0 +1,496 @@
+{
+ "id": "ABS-ERGO",
+ "titulo": "ABS Guide for Ergonomic Notations (2021) — notações ERGO de ergonomia para embarcações e unidades offshore",
+ "secoes": [
+  {
+   "titulo": "Escopo, notações e documentação",
+   "item": "Seções 1–3",
+   "texto": "Guia opcional da ABS: quem cumpre os critérios recebe notações ERGO (acessos, válvulas, manutenção). Define o processo de verificação do projeto, vistorias anuais e o que fazer em alterações; desvios precisam de justificativa. A seção 2 lista os planos a submeter. Os critérios de dimensões estão na seção 4 e as medidas vêm em mm com polegadas.",
+   "valores": []
+  },
+  {
+   "titulo": "Escadas",
+   "item": "4/1",
+   "texto": "Escadas para desníveis acima do limite de rampa, com inclinação moderada, patamares no topo, na base, nas mudanças de direção e a intervalos regulares de altura. Espelho e piso uniformes com bocel antiderrapante, largura conforme o sentido do tráfego e pé-direito livre. Corrimão a partir de três degraus, de seção redonda; lado aberto com corrimão em dois níveis.",
+   "valores": [
+    {
+     "parametro": "Inclinação",
+     "valor": "38° a 45°",
+     "item": "4/1.1",
+     "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo"
+    },
+    {
+     "parametro": "Desnível acima do qual se usa escada",
+     "valor": "> 600 mm",
+     "item": "4/1.1",
+     "cota": "esquemas/escada-degraus-angulo-tipo.svg#desnivel"
+    },
+    {
+     "parametro": "Espelho",
+     "valor": "≤ 230 mm",
+     "item": "4/1.3",
+     "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+     "parametro": "Piso (com bocel de 25 mm)",
+     "valor": "280 mm",
+     "item": "4/1.3",
+     "cota": "esquemas/escada-degraus-degrau.svg#t"
+    },
+    {
+     "parametro": "Atrito do bocel molhado",
+     "valor": "COF ≥ 0,6",
+     "item": "4/1.3"
+    },
+    {
+     "parametro": "Largura — um sentido / dois sentidos",
+     "valor": "≥ 700 mm / ≥ 900 mm",
+     "item": "4/1.3",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Patamar no topo/base e em mudança de direção",
+     "valor": "≥ 915 mm de comprimento",
+     "item": "4/1.2",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
+    },
+    {
+     "parametro": "Patamar em rota de maca",
+     "valor": "≥ 1525 mm",
+     "item": "4/1.2.5"
+    },
+    {
+     "parametro": "Altura entre patamares",
+     "valor": "≤ 3500 mm",
+     "item": "4/1.2.2",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+     "parametro": "Pé-direito",
+     "valor": "≥ 2130 mm",
+     "item": "4/1.4",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#e"
+    },
+    {
+     "parametro": "Altura do corrimão no bocel",
+     "valor": "915 mm a 1000 mm",
+     "item": "4/1.6",
+     "cota": "esquemas/escada-degraus-corrimao.svg#a"
+    },
+    {
+     "parametro": "Diâmetro do corrimão",
+     "valor": "40 mm a 50 mm",
+     "item": "4/1.6",
+     "cota": "esquemas/escada-degraus-corrimao.svg#diametro"
+    },
+    {
+     "parametro": "Folga do corrimão à antepara",
+     "valor": "≥ 75 mm",
+     "item": "4/1.6",
+     "cota": "esquemas/escada-degraus-corrimao.svg#folga"
+    }
+   ]
+  },
+  {
+   "titulo": "Passarelas e rampas",
+   "item": "4/2",
+   "texto": "Passarela sem obstáculos no espaço de passagem, com largura conforme uso e rotas de fuga, rampas pouco inclinadas e grating com abertura limitada. Guarda-corpo onde o desnível passa do limite, rodapé em superfícies elevadas. Cargas mínimas e flecha como em normas de máquinas.",
+   "valores": [
+    {
+     "parametro": "Rampa para pessoal / para material manual",
+     "valor": "≤ 15° / ≤ 5°",
+     "item": "4/2.3",
+     "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"
+    },
+    {
+     "parametro": "Largura — uma pessoa / duas vias / rota de fuga",
+     "valor": "≥ 710 / ≥ 915 / ≥ 1120 mm",
+     "item": "4/2.3",
+     "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+     "parametro": "Pé-direito",
+     "valor": "≥ 2130 mm",
+     "item": "4/2.1",
+     "cota": "esquemas/passarela-gabarito.svg#pe-direito"
+    },
+    {
+     "parametro": "Abertura do grating — com/sem pessoas abaixo",
+     "valor": "< 22 mm / < 35 mm",
+     "item": "4/2.3.1",
+     "cota": "esquemas/passarela-piso-grating.svg#abertura"
+    },
+    {
+     "parametro": "Carga uniforme / concentrada",
+     "valor": "2,0 kN/m² / 1,5 kN em 200 × 200 mm",
+     "item": "4/2.2.2",
+     "cota": "esquemas/passarela-cargas-flecha.svg#area-pontual"
+    },
+    {
+     "parametro": "Flecha / desnível entre painéis",
+     "valor": "≤ L/200 / ≤ 4 mm",
+     "item": "4/2.2.2",
+     "cota": "esquemas/passarela-cargas-flecha.svg#flecha"
+    },
+    {
+     "parametro": "Guarda-corpo obrigatório",
+     "valor": "desnível ≥ 600 mm",
+     "item": "4/2.1",
+     "cota": "esquemas/passarela-protecao-queda.svg#desnivel-gc"
+    }
+   ]
+  },
+  {
+   "titulo": "Escadas verticais e inclinadas",
+   "item": "4/3",
+   "texto": "Escada vertical (80° a 90°) para desníveis abruptos; trabalho com as duas mãos exige plataforma. Barras igualmente espaçadas, uma alinhada com cada piso de chegada, soldadas passantes. Espaço para os pés atrás e espaço livre à frente. Lances longos pedem plataforma intermediária, com degraus escalonados. Degraus individuais embutidos só para alturas pequenas. Escada inclinada (45° a 60°) com degraus, corrimãos dos dois lados e patamares.",
+   "valores": [
+    {
+     "parametro": "Ângulo da escada vertical",
+     "valor": "80° a 90°; desvio ≤ 2°",
+     "item": "4/3.1",
+     "cota": "esquemas/escada-marinheiro-angulo.svg#angulo"
+    },
+    {
+     "parametro": "Desnível que exige escada ou rampa",
+     "valor": "> 300 mm",
+     "item": "4/3.1",
+     "cota": "esquemas/escada-marinheiro-angulo.svg#desnivel"
+    },
+    {
+     "parametro": "Alcance a partir da escada",
+     "valor": "≤ 965 mm",
+     "item": "4/3.3.1",
+     "cota": "esquemas/escada-marinheiro-angulo.svg#alcance"
+    },
+    {
+     "parametro": "Largura entre montantes",
+     "valor": "400 mm a 450 mm",
+     "item": "4/3.7",
+     "cota": "esquemas/escada-marinheiro-vista-frontal.svg#largura"
+    },
+    {
+     "parametro": "Espaçamento das barras",
+     "valor": "275 mm a 300 mm",
+     "item": "4/3.4",
+     "cota": "esquemas/escada-marinheiro-vista-frontal.svg#espacamento"
+    },
+    {
+     "parametro": "Barra — redonda / quadrada",
+     "valor": "Ø 25 mm / 25 × 25 mm",
+     "item": "4/3.4",
+     "cota": "esquemas/escada-marinheiro-vista-frontal.svg#diametro-barra"
+    },
+    {
+     "parametro": "Espaço para os pés atrás",
+     "valor": "175 mm a 200 mm",
+     "item": "4/3.3.2",
+     "cota": "esquemas/escada-marinheiro-vista-lateral.svg#toe"
+    },
+    {
+     "parametro": "Espaço livre à frente",
+     "valor": "≥ 750 mm (600 mm junto a aberturas)",
+     "item": "4/3.3.2",
+     "cota": "esquemas/escada-marinheiro-vista-lateral.svg#espaco-frente"
+    },
+    {
+     "parametro": "Distância entre suportes",
+     "valor": "≤ 2,5 m",
+     "item": "4/3.7",
+     "cota": "esquemas/escada-marinheiro-vista-frontal.svg#suportes"
+    },
+    {
+     "parametro": "Carga de projeto",
+     "valor": "≥ 90 kg concentrados + peso próprio",
+     "item": "4/3.2"
+    },
+    {
+     "parametro": "Lance sem plataforma",
+     "valor": "≤ 6,0 m",
+     "item": "4/3.5",
+     "cota": "esquemas/escada-marinheiro-plataformas.svg#lance-unico"
+    },
+    {
+     "parametro": "Plataforma intermediária — largura / profundidade",
+     "valor": "≥ 925 mm / ≥ 750 mm",
+     "item": "4/3.5",
+     "cota": "esquemas/escada-marinheiro-plataformas.svg#plat-largura"
+    },
+    {
+     "parametro": "Separação escada–plataforma",
+     "valor": "150 mm a 300 mm",
+     "item": "4/3.5",
+     "cota": "esquemas/escada-marinheiro-plataformas.svg#sep-plataforma"
+    },
+    {
+     "parametro": "Montantes acima da chegada",
+     "valor": "≥ 1350 mm",
+     "item": "4/3.7",
+     "cota": "esquemas/escada-marinheiro-saida-topo.svg#montantes-acima"
+    },
+    {
+     "parametro": "Degraus individuais — altura máx.",
+     "valor": "≤ 3,6 m",
+     "item": "4/3.8",
+     "cota": "esquemas/escada-marinheiro-degraus-individuais.svg#altura-max"
+    },
+    {
+     "parametro": "Degraus individuais — largura / profundidade",
+     "valor": "400–450 mm / 175–200 mm",
+     "item": "4/3.8",
+     "cota": "esquemas/escada-marinheiro-degraus-individuais.svg#largura"
+    },
+    {
+     "parametro": "Escada inclinada — ângulo",
+     "valor": "45° a 60°",
+     "item": "4/3.9",
+     "cota": "esquemas/escada-marinheiro-inclinada.svg#angulo"
+    },
+    {
+     "parametro": "Escada inclinada — espaçamento / profundidade",
+     "valor": "200–300 mm / ≥ 100 mm",
+     "item": "4/3.9",
+     "cota": "esquemas/escada-marinheiro-inclinada.svg#espacamento"
+    },
+    {
+     "parametro": "Escada inclinada — largura entre corrimãos",
+     "valor": "450 mm a 560 mm",
+     "item": "4/3.9",
+     "cota": "esquemas/escada-marinheiro-inclinada.svg#largura"
+    },
+    {
+     "parametro": "Escada inclinada — lance contínuo",
+     "valor": "≤ 6 m",
+     "item": "4/3.9",
+     "cota": "esquemas/escada-marinheiro-inclinada.svg#altura-lance"
+    }
+   ]
+  },
+  {
+   "titulo": "Guarda-corpos e dispositivos de escalada",
+   "item": "4/4",
+   "texto": "Guarda-corpo com corrimão redondo, barra intermediária e rodapé quase rente ao piso; montantes espaçados e frestas pequenas entre trechos. Bordas de convés com balaustrada de vãos limitados; corrente ou cabo não servem. Corrimão de tempestade nos corredores. Gaiola em escadas altas, trava-quedas em escadas ainda mais altas, cancela ou portão autofechante na chegada (corrente proibida).",
+   "valores": [
+    {
+     "parametro": "Carga na barra superior",
+     "valor": "≥ 90 kg em qualquer direção",
+     "item": "4/2.2.1"
+    },
+    {
+     "parametro": "Altura do guarda-corpo",
+     "valor": "1070 mm",
+     "item": "4/4.2",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+     "parametro": "Barra intermediária — passarela / sobre rodapé",
+     "valor": "500 mm / 425 mm",
+     "item": "4/4.2",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#intermediario"
+    },
+    {
+     "parametro": "Rodapé",
+     "valor": "100 mm; folga ao piso ≤ 6 mm",
+     "item": "4/4.2",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+     "parametro": "Montantes — passarela / borda de convés",
+     "valor": "≤ 2,4 m / ≤ 1525 mm",
+     "item": "4/4.4",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#montantes"
+    },
+    {
+     "parametro": "Borda de convés — vão inferior / entre barras",
+     "valor": "≤ 230 mm / ≤ 380 mm",
+     "item": "4/4.4"
+    },
+    {
+     "parametro": "Corrimão de tempestade",
+     "valor": "865 mm a 965 mm",
+     "item": "4/4.3.2",
+     "cota": "esquemas/guarda-corpo-corte-borda.svg#storm"
+    },
+    {
+     "parametro": "Gaiola exigida",
+     "valor": "escada > 4,5 m",
+     "item": "4/4.5",
+     "cota": "esquemas/escada-marinheiro-gaiola.svg#altura-exige"
+    },
+    {
+     "parametro": "Início da gaiola",
+     "valor": "2200 mm a 2500 mm",
+     "item": "4/4.5",
+     "cota": "esquemas/escada-marinheiro-gaiola.svg#inicio"
+    },
+    {
+     "parametro": "Raio dos arcos / espaçamento",
+     "valor": "350 mm / ≤ 1200 mm",
+     "item": "4/4.5",
+     "cota": "esquemas/escada-marinheiro-gaiola.svg#raio"
+    },
+    {
+     "parametro": "Trava-quedas exigido",
+     "valor": "escada > 6,1 m",
+     "item": "4/4.6",
+     "cota": "esquemas/escada-marinheiro-trava-quedas.svg#altura-exige"
+    },
+    {
+     "parametro": "Cancela/portão exigido",
+     "valor": "elevação ≥ 760 mm",
+     "item": "4/4.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Quedas secundárias",
+   "item": "4/5",
+   "texto": "Quando a base da escada fica perto de outra borda com queda alta, acrescenta-se guarda-corpo vertical ao lado da escada, e o uso de corrente no acesso é substituído por portão ou cancela.",
+   "valores": [
+    {
+     "parametro": "Proximidade de outro ponto de queda",
+     "valor": "< 1,83 m com queda > 4,6 m",
+     "item": "4/5.2",
+     "cota": "esquemas/escada-marinheiro-protecao-borda.svg#dist-borda"
+    },
+    {
+     "parametro": "Guarda-corpo vertical — largura para cada lado",
+     "valor": "≥ 1220 mm",
+     "item": "4/5.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Plataformas de trabalho",
+   "item": "4/6",
+   "texto": "Tamanho suficiente para a tarefa e as ferramentas; guarda-corpo acima do desnível limite; mesmas cargas e flecha de passarelas.",
+   "valores": [
+    {
+     "parametro": "Largura / comprimento",
+     "valor": "≥ 750 mm / ≥ 925 mm (só em pé: 380 / 450 mm)",
+     "item": "4/6.2.2",
+     "cota": "esquemas/passarela-plataforma-trabalho-cotas.svg#plat-largura"
+    }
+   ]
+  },
+  {
+   "titulo": "Alças, escotilhas e portas",
+   "item": "4/7–4/9",
+   "texto": "Alças dimensionadas para luvas grossas, junto a escadas e aberturas. Escotilhas verticais e horizontais com dimensões mínimas; tampas pesadas com auxílio de abertura; abertura alta pede degrau. Portas e escotilhas de fuga abrem por uma pessoa, dos dois lados, sem chave.",
+   "valores": [
+    {
+     "parametro": "Alça — largura / altura / Ø da barra",
+     "valor": "300–350 mm / 100 mm / 25 mm",
+     "item": "4/7.2"
+    },
+    {
+     "parametro": "Alça de saída de escada acima da plataforma",
+     "valor": "≥ 1270 mm",
+     "item": "4/7.2",
+     "cota": "esquemas/escada-marinheiro-saida-topo.svg#alca"
+    },
+    {
+     "parametro": "Tampa de escotilha que pede auxílio",
+     "valor": "> 11 kg",
+     "item": "4/8.2"
+    },
+    {
+     "parametro": "Escotilha vertical",
+     "valor": "≥ 1000 mm × 800 mm; peitoril ≤ 600 mm",
+     "item": "4/8.3"
+    },
+    {
+     "parametro": "Escotilha horizontal no convés",
+     "valor": "≥ 810 mm; escada a ≤ 50 mm da borda",
+     "item": "4/8.5",
+     "cota": "esquemas/escada-marinheiro-saida-topo.svg#escotilha"
+    },
+    {
+     "parametro": "Porta da tripulação",
+     "valor": "vão ≥ 710 mm; altura ≥ 1980 mm",
+     "item": "4/9.2.2",
+     "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#porta-largura"
+    },
+    {
+     "parametro": "Escotilha de fuga — redonda / retangular",
+     "valor": "Ø ≥ 670 mm / ≥ 670 × 330 mm",
+     "item": "4/9.3",
+     "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#escotilha"
+    }
+   ]
+  },
+  {
+   "titulo": "Válvulas manuais",
+   "item": "4/10",
+   "texto": "Válvulas classificadas pela criticidade (1 essencial, 2 manutenção rotineira, 3 eventual); a categoria define acesso e posição. Válvula de emergência nunca sob grating. Fecham girando no sentido horário, têm identificação, folgas para mão e chave, esforço e número de voltas limitados. Volante pequeno para uma mão e grande para duas, evitando a faixa intermediária. Alavanca vertical ou horizontal conforme a altura. Válvulas acima da cabeça com torque menor; operadas de escada, só com uma mão e ao alcance.",
+   "valores": [
+    {
+     "parametro": "Folga em volta do volante",
+     "valor": "≥ 75 mm",
+     "item": "4/10.3.5"
+    },
+    {
+     "parametro": "Folga para chave em flange acessado de um lado",
+     "valor": "≥ 300 mm",
+     "item": "4/10.3.5"
+    },
+    {
+     "parametro": "Folga dos dois lados do tubo para trabalho",
+     "valor": "≥ 760 mm",
+     "item": "4/10.3.5"
+    },
+    {
+     "parametro": "Força para iniciar a abertura",
+     "valor": "≤ 450 N",
+     "item": "4/10.3.6"
+    },
+    {
+     "parametro": "Diâmetro do aro do volante",
+     "valor": "20 mm a 40 mm",
+     "item": "4/10.3.8"
+    },
+    {
+     "parametro": "Voltas para abrir/fechar",
+     "valor": "≤ 100, a 15–60 rpm",
+     "item": "4/10.3.9"
+    },
+    {
+     "parametro": "Volante — uma mão / duas mãos",
+     "valor": "< 100 mm / > 150 mm",
+     "item": "4/10.4.1"
+    },
+    {
+     "parametro": "Torque que exige auxílio",
+     "valor": "> 54 N·m (volante > 600 mm)",
+     "item": "4/10.4.1"
+    },
+    {
+     "parametro": "Alavanca de haste vertical",
+     "valor": "entre 760 mm e 1270 mm do piso",
+     "item": "4/10.4.2"
+    },
+    {
+     "parametro": "Válvula acima da cabeça — torque / volante",
+     "valor": "≤ 27 N·m / ≤ 510 mm",
+     "item": "4/10.5.1"
+    },
+    {
+     "parametro": "Válvula operada de escada — alcance",
+     "valor": "≤ 610 mm à frente ou 1220 mm ao lado",
+     "item": "4/10.5.5"
+    },
+    {
+     "parametro": "Plataforma elevada",
+     "valor": "≥ 1830 mm: volante dentro do guarda-corpo",
+     "item": "4/10.5.6"
+    }
+   ]
+  },
+  {
+   "titulo": "Acesso para manutenção",
+   "item": "4/11",
+   "texto": "A posição e o acesso dos equipamentos saem de uma análise de criticidade da manutenção (categorias 1 a 3), garantindo espaço para remover peças e trabalhar com segurança.",
+   "valores": []
+  }
+ ]
+}

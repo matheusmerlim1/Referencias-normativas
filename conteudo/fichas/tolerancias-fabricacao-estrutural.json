@@ -1,0 +1,1779 @@
+{
+  "id": "tolerancias-fabricacao-estrutural",
+  "titulo": "Tolerâncias de fabricação estrutural (jaqueta / plataforma fixa)",
+  "categoria": "Estruturas e fabricação",
+  "resumo": "Tolerâncias dimensionais finais e regras de fabricação de estruturas tubulares offshore pela API RP 2A-WSD (22ª ed., 2014): posição e retilineidade de pernas da jaqueta e do deck, contraventamentos, vigas, escadas/patamares, estacas (retilineidade, esquadro, comprimento, segmentos), emendas e posição de soldas longitudinais, detalhamento de nós (joint can, stub, gap, overlap), preparação de solda em nós tubulares (Fig. 14.1), acessórios temporários, transições cônicas, instalação do deck e extensão de END.",
+  "palavras_chave": [
+    "tolerância",
+    "tolerâncias",
+    "tolerância de fabricação",
+    "fabrication tolerance",
+    "fabrication tolerances",
+    "tolerância dimensional",
+    "dimensional tolerance",
+    "API RP 2A",
+    "API 2A",
+    "RP 2A-WSD",
+    "2A-WSD",
+    "plataforma fixa",
+    "fixed offshore platform",
+    "jaqueta",
+    "jacket",
+    "perna da jaqueta",
+    "jacket leg",
+    "coluna",
+    "column",
+    "deck",
+    "convés",
+    "tubular",
+    "estrutura tubular",
+    "tubular joint",
+    "nó tubular",
+    "junta tubular",
+    "chord",
+    "brace",
+    "contraventamento",
+    "bracing",
+    "can",
+    "joint can",
+    "chord can",
+    "stub",
+    "brace stub",
+    "emenda",
+    "splice",
+    "emenda de viga",
+    "beam splice",
+    "solda longitudinal",
+    "longitudinal seam",
+    "seam weld",
+    "solda circunferencial",
+    "girth weld",
+    "circumferential weld",
+    "retilineidade",
+    "straightness",
+    "empeno",
+    "desvio de retilineidade",
+    "ovalização",
+    "out-of-roundness",
+    "roundness",
+    "circunferência",
+    "desalinhamento",
+    "misalignment",
+    "offset",
+    "fora de linha",
+    "out of line",
+    "esquadro",
+    "out of square",
+    "diagonal",
+    "nivelamento",
+    "level",
+    "prumo",
+    "plumb",
+    "elevação",
+    "elevation",
+    "estaca",
+    "pile",
+    "piles",
+    "segmento de estaca",
+    "cutoff",
+    "sobra de corte",
+    "espessura mínima de estaca",
+    "pile wall thickness",
+    "chanfro",
+    "bevel",
+    "abertura de raiz",
+    "root opening",
+    "fresta",
+    "gap",
+    "overlap",
+    "sobreposição",
+    "ângulo diedro",
+    "dihedral angle",
+    "perfil de solda",
+    "weld profile",
+    "solda de selagem",
+    "seal weld",
+    "baixo hidrogênio",
+    "low hydrogen",
+    "acessório temporário",
+    "temporary attachment",
+    "olhal de içamento",
+    "lifting eye",
+    "rasgo",
+    "slot",
+    "slotted member",
+    "gusset",
+    "cone",
+    "transição cônica",
+    "conical transition",
+    "conicidade",
+    "taper",
+    "1:4",
+    "viga do deck",
+    "deck beam",
+    "cap beam",
+    "grating",
+    "patamar",
+    "landing",
+    "END",
+    "NDE",
+    "NDT",
+    "ultrassom",
+    "UT",
+    "fit-up",
+    "montagem",
+    "assembly",
+    "fabricação",
+    "fabrication",
+    "offshore",
+    "ISO 13920",
+    "tolerância geral",
+    "general tolerance",
+    "classe B",
+    "classe BF",
+    "planicidade",
+    "flatness",
+    "paralelismo",
+    "tolerância angular"
+  ],
+  "relacionadas": [
+    "passarela-plataforma-rampa",
+    "escada-degraus",
+    "guarda-corpo",
+    "solda-estrutural"
+  ],
+  "figuras": [
+    {
+      "arquivo": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — jaqueta: distância entre eixos de colunas adjacentes, diagonais da planta, retilineidade da perna, elevação do topo e posições de joint cans, braces e mudanças de espessura",
+      "norma": "API-RP-2A",
+      "item": "Esquema",
+      "pagina": 140,
+      "grupo": [
+        "Tolerâncias finais — pernas/colunas da jaqueta e do deck",
+        "Tolerâncias finais — contraventamentos (bracing)"
+      ],
+      "nota": "Valores/símbolos transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — vigas do deck e cap beams (eixo na extremidade, desalinhamento ao longo do eixo), distância entre emendas de vigas, elevação e nivelamento do deck, patamares e comprimento das lingas de içamento",
+      "norma": "API-RP-2A",
+      "item": "Esquema",
+      "pagina": 141,
+      "grupo": [
+        "Tolerâncias finais — vigas do deck e cap beams",
+        "Tolerâncias finais — grating, guarda-corpo, escadas",
+        "Emendas e posição de soldas longitudinais",
+        "Montagem e instalação"
+      ],
+      "nota": "Valores/símbolos transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — estaca tubular: segmento mínimo, defasagem das soldas longitudinais, retilineidade, esquadro da extremidade chanfrada, comprimento, sobra para corte, D e t",
+      "norma": "API-RP-2A",
+      "item": "Esquema",
+      "pagina": 141,
+      "grupo": "Estacas (piles) — fabricação",
+      "nota": "Valores/símbolos transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/tolerancias-fabricacao-estrutural-acessorios-temporarios.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — remoção de acessórios temporários: corte acima do metal de base (áreas críticas e a pintar) ou logo acima da solda (demais áreas)",
+      "norma": "API-RP-2A",
+      "item": "Esquema",
+      "pagina": 142,
+      "grupo": [
+        "Acessórios temporários (temporary attachments)",
+        "Estacas (piles) — fabricação"
+      ],
+      "nota": "Valores/símbolos transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ISO 13920: comprimento nominal l das dimensões lineares (Tabela 1); tolerância ± t pela classe A a D",
+      "norma": "ISO-13920",
+      "item": "Esquema",
+      "pagina": 6,
+      "grupo": "Tolerâncias gerais de construções soldadas — ISO 13920"
+    },
+    {
+      "arquivo": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — nó tubular: extensão do joint can, comprimento do brace stub, conicidade de transição, gap, overlap, excentricidade, afastamento da solda longitudinal e rasgo para gusset com furo de alívio",
+      "norma": "API-RP-2A",
+      "pagina": 89,
+      "grupo": [
+        "Detalhamento de nós tubulares (can, stub, gap, overlap)",
+        "Emendas e posição de soldas longitudinais"
+      ],
+      "item": "Esquema"
+    },
+    {
+      "arquivo": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — solda de nó tubular de um lado só: ângulo diedro local Ψ, ângulo do chanfro b, abertura de raiz G, garganta T, espessura do brace, desvio do perfil e solda de selagem",
+      "norma": "API-RP-2A",
+      "pagina": 139,
+      "grupo": [
+        "Preparação de solda em nós tubulares (Fig. 14.1)",
+        "Soldagem — limites de procedimento"
+      ],
+      "item": "Esquema"
+    },
+    {
+      "arquivo": "esquemas/tolerancias-fabricacao-estrutural-transicao-conica.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — transição cônica entre tubos: semiângulo α do vértice do cone (entre a geratriz e o eixo), diâmetro D e espessura t",
+      "norma": "API-RP-2A",
+      "pagina": 81,
+      "grupo": "Transições cônicas",
+      "item": "Esquema"
+    },
+    {
+      "arquivo": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ISO 13920: comprimento l do lado MENOR do ângulo e desvio angular Δα (Tabela 2); retilineidade com régua e planicidade hm sobre o lado maior (Tabela 3)",
+      "norma": "ISO-13920",
+      "pagina": 8,
+      "grupo": "Tolerâncias gerais de construções soldadas — ISO 13920",
+      "item": "Esquema"
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Normas de referência para fabricação",
+      "parametro": "Fabricação (exceto soldagem) — norma base",
+      "valor": "AISC 335-89, salvo especificação em contrário nesta RP",
+      "norma": "API-RP-2A",
+      "item": "14.1.1",
+      "pagina": 137
+    },
+    {
+      "grupo": "Normas de referência para fabricação",
+      "parametro": "Tolerâncias não listadas na API RP 2A",
+      "valor": "Conforme AISC 335-89",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.1",
+      "pagina": 140,
+      "nota": "Cada membro deve ser posicionado com precisão dentro das tolerâncias finais de 14.1.5."
+    },
+    {
+      "grupo": "Normas de referência para fabricação",
+      "parametro": "Tolerâncias de vigas de alma cheia soldadas (plate girders)",
+      "valor": "Conforme AWS D1.1/D1.1M:2010, salvo quando requisitos de serviço exigirem controle mais severo",
+      "norma": "API-RP-2A",
+      "item": "14.1.4.1",
+      "pagina": 139,
+      "nota": "Desempeno/reparo por aquecimento localizado: avaliar o efeito nas propriedades do material; procedimento aprovado pelo proprietário."
+    },
+    {
+      "grupo": "Normas de referência para fabricação",
+      "parametro": "Emendas de tubo (pipe splices)",
+      "valor": "Conforme API 2B (shall); tubo usado como viga também segue 14.1.2.2",
+      "norma": "API-RP-2A",
+      "item": "14.1.2.1",
+      "pagina": 137
+    },
+    {
+      "grupo": "Normas de referência para fabricação",
+      "parametro": "Ovalização (roundness) e circunferência de estacas",
+      "valor": "Conforme API 2B (shall)",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.9.6",
+      "pagina": 142,
+      "nota": "A API RP 2A não traz os valores numéricos de ovalização/circunferência: eles estão na API Spec 2B (não incorporada a esta ficha)."
+    },
+    {
+      "grupo": "Normas de referência para fabricação",
+      "parametro": "Soldagem e qualificação de procedimentos",
+      "valor": "AWS D1.1/D1.1M:2010 (shall); procedimentos escritos para todo o trabalho, mesmo pré-qualificados",
+      "norma": "API-RP-2A",
+      "item": "13.1.1 / 13.1.2",
+      "pagina": 134
+    },
+    {
+      "grupo": "Emendas e posição de soldas longitudinais",
+      "parametro": "Emenda de vigas — distância entre emendas",
+      "valor": "Não mais próximas que 2 × a altura da viga ou 1 m (3 ft), o que for MENOR",
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.2.2",
+      "pagina": 137,
+      "nota": "Só segmentos de mesma seção; emenda de penetração total (AWS D1.1). Em áreas críticas à integridade, a posição das emendas deve ser especificada pelo projetista.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#emenda-vigas"
+    },
+    {
+      "grupo": "Emendas e posição de soldas longitudinais",
+      "parametro": "Joint can — defasagem das soldas longitudinais (para o brace não cair sobre a solda)",
+      "valor": "Defasar no mínimo 300 mm (12 in.); caso contrário, defasar no mínimo 90°",
+      "min": 300,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.2.3",
+      "pagina": 137,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#defasagem-long"
+    },
+    {
+      "grupo": "Emendas e posição de soldas longitudinais",
+      "parametro": "Solda longitudinal do chord — afastamento dos braces que chegam",
+      "valor": "Pelo menos 300 mm (12 in.)",
+      "min": 300,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "7.2.5",
+      "pagina": 87,
+      "nota": "Ver Figura 7.3.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#defasagem-long"
+    },
+    {
+      "grupo": "Emendas e posição de soldas longitudinais",
+      "parametro": "Solda longitudinal do brace — posição",
+      "valor": "Próxima ao calcanhar da coroa (crown heel) do nó",
+      "norma": "API-RP-2A",
+      "item": "7.2.5",
+      "pagina": 87
+    },
+    {
+      "grupo": "Emendas e posição de soldas longitudinais",
+      "parametro": "Solda circunferencial (girth weld) de chord can longo — posição",
+      "valor": "Em interseção de brace pouco carregado, entre as posições de sela (saddle) e coroa (crown)",
+      "norma": "API-RP-2A",
+      "item": "7.2.5",
+      "pagina": 87,
+      "nota": "Ver Figura 7.2 (can girth weld)."
+    },
+    {
+      "grupo": "Emendas e posição de soldas longitudinais",
+      "parametro": "Membro com rasgo (slot) para gusset — distância do fim do rasgo a qualquer solda circunferencial",
+      "valor": "300 mm (12 in.) ou 12 × espessura de parede do membro, o que for MAIOR",
+      "min": 300,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.3.6",
+      "pagina": 138,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#rasgo-solda"
+    },
+    {
+      "grupo": "Emendas e posição de soldas longitudinais",
+      "parametro": "Membro com rasgo — furo de alívio no fim do rasgo",
+      "valor": "Furado ou cortado e esmerilhado liso, Ø ≥ largura do rasgo + 3 mm (1/8 in.); borda do gusset que passa pelo rasgo esmerilhada em meia-cana",
+      "norma": "API-RP-2A",
+      "item": "14.1.3.6",
+      "pagina": 138,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#furo-alivio"
+    },
+    {
+      "grupo": "Detalhamento de nós tubulares (can, stub, gap, overlap)",
+      "parametro": "Chord can (espessura maior ou aço especial) — extensão além da borda externa do brace",
+      "valor": "Mínimo D/4 (D = diâmetro do chord) ou 300 mm (12 in.), o que for MAIOR",
+      "min": 300,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "7.2.5",
+      "pagina": 87,
+      "nota": "Pode ser necessário can mais longo para não reduzir a capacidade do nó (7.3.5). A medida NÃO inclui o trecho da transição de espessura 1:4.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#can"
+    },
+    {
+      "grupo": "Detalhamento de nós tubulares (can, stub, gap, overlap)",
+      "parametro": "Brace stub (espessura maior ou aço especial) — comprimento",
+      "valor": "Mínimo 1 diâmetro do brace (d) ou 600 mm (24 in.), o que for MAIOR",
+      "min": 600,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "7.2.5",
+      "pagina": 87,
+      "nota": "NÃO inclui o trecho da transição de espessura 1:4.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#stub"
+    },
+    {
+      "grupo": "Detalhamento de nós tubulares (can, stub, gap, overlap)",
+      "parametro": "Transição de espessura (can/stub)",
+      "valor": "Conicidade 1:4",
+      "norma": "API-RP-2A",
+      "item": "7.2.5",
+      "pagina": 87,
+      "nota": "Onde fadiga é importante, a transição pelo lado interno pode gerar trincas por dentro, difíceis de inspecionar. Figuras 7.2 e 7.3 mostram 1:4 também nos stubs.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#conicidade"
+    },
+    {
+      "grupo": "Detalhamento de nós tubulares (can, stub, gap, overlap)",
+      "parametro": "Gap nominal mínimo entre braces adjacentes (no plano ou fora do plano)",
+      "valor": "50 mm (2 in.)",
+      "min": 50,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "7.2.5",
+      "pagina": 87,
+      "nota": "Evitar sobreposição das soldas nos pés (toes) do nó.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#gap"
+    },
+    {
+      "grupo": "Detalhamento de nós tubulares (can, stub, gap, overlap)",
+      "parametro": "Overlap entre braces sobrepostos",
+      "valor": "Preferencialmente ≥ d/4 (d = diâmetro do brace passante) ou 150 mm (6 in.), o que for MAIOR — medido ao longo do eixo do membro passante",
+      "min": 150,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "7.2.5",
+      "pagina": 87,
+      "nota": "Comentário B.7.2.5: o mínimo preferencial não é regra rígida; overlaps pequenos são analisáveis e soldáveis, mas dificultam inspeção em serviço.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#overlap"
+    },
+    {
+      "grupo": "Detalhamento de nós tubulares (can, stub, gap, overlap)",
+      "parametro": "Braces sobrepostos com espessuras nominais diferindo mais de 10 %",
+      "valor": "O de maior espessura é o brace passante, totalmente soldado ao chord; com overlap substancial, o de maior diâmetro é o passante (pode precisar de stub de ponta com espessura ≥ à do brace que sobrepõe)",
+      "norma": "API-RP-2A",
+      "item": "7.2.5",
+      "pagina": 87
+    },
+    {
+      "grupo": "Detalhamento de nós tubulares (can, stub, gap, overlap)",
+      "parametro": "Excentricidade do eixo do brace em relação ao centro do chord (nó fora do plano)",
+      "valor": "D/4 máx.",
+      "norma": "API-RP-2A",
+      "item": "7.2.5, Figura 7.3",
+      "pagina": 90,
+      "nota": "Valor lido da FIGURA 7.3 (cota 'D/4 max.'), não consta do texto.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#excentricidade"
+    },
+    {
+      "grupo": "Detalhamento de nós tubulares (can, stub, gap, overlap)",
+      "parametro": "Sequência de montagem do nó — membro passante",
+      "valor": "Em nó X, o de maior diâmetro passa; entre membros secundários: o de maior espessura de parede passa, demais por ordem decrescente de espessura; mesma espessura → o de maior diâmetro; mesmos D e t → qualquer um (salvo designação do projetista)",
+      "norma": "API-RP-2A",
+      "item": "14.1.3.2",
+      "pagina": 138
+    },
+    {
+      "grupo": "Preparação de solda em nós tubulares (Fig. 14.1)",
+      "parametro": "Tipo de solda em interseções e topos",
+      "valor": "Penetração total (CJP), salvo especificação em contrário — inclusive interseções 'ocultas' (braces sobrepostos, enrijecedores passantes)",
+      "norma": "API-RP-2A",
+      "item": "13.3.2",
+      "pagina": 136
+    },
+    {
+      "grupo": "Preparação de solda em nós tubulares (Fig. 14.1)",
+      "parametro": "Chanfro de membro que chega ao nó (acesso de um lado só)",
+      "valor": "Chanfro em bisel 'feather edge', sem face de raiz (root face); abertura de raiz conforme detalhado (Figura 14.1)",
+      "norma": "API-RP-2A",
+      "item": "14.1.3.3",
+      "pagina": 138
+    },
+    {
+      "grupo": "Preparação de solda em nós tubulares (Fig. 14.1)",
+      "parametro": "Tolerância do ângulo de chanfro",
+      "valor": "+5°",
+      "unidade": "°",
+      "norma": "API-RP-2A",
+      "item": "14.1.3.3",
+      "pagina": 138,
+      "nota": "Tolerância só positiva, como escrito na norma.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#angulo-chanfro"
+    },
+    {
+      "grupo": "Preparação de solda em nós tubulares (Fig. 14.1)",
+      "parametro": "Fresta apertada / larga demais após o ponteamento (fit-up)",
+      "valor": "Apertada: abrir por goivagem a arco até as dimensões da Fig. 14.1; larga: amanteigar (build-up) conforme AWS D1.1/D1.1M:2010, 5.22.4, e 13.3.3",
+      "norma": "API-RP-2A",
+      "item": "14.1.3.3",
+      "pagina": 138,
+      "nota": "Pela 13.3.3, procedimento e aceitação do build-up de raiz larga devem ser aprovados pelo engenheiro/inspetor do proprietário."
+    },
+    {
+      "grupo": "Preparação de solda em nós tubulares (Fig. 14.1)",
+      "parametro": "Abertura de raiz G × ângulo do chanfro b",
+      "valor": "b > 90°: 0 a 3/16 in (0 a 4,8 mm); b = 45° a 90°: 1/16 a 3/16 in (1,6 a 4,8 mm); b < 45°: 1/8 a 1/4 in (3,2 a 6,4 mm) — inclui tolerância",
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.3, Figura 14.1",
+      "pagina": 139,
+      "nota": "Lido da tabela inserida na FIGURA 14.1 (ver tabela abaixo).",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#G"
+    },
+    {
+      "grupo": "Preparação de solda em nós tubulares (Fig. 14.1)",
+      "parametro": "Garganta mínima T × ângulo diedro local a",
+      "valor": "a = 50° a 135°: 1,25 t; 35° a 50°: 1,50 t; < 35°: 1,75 t; > 135°: ver Seção B-B (t = espessura do brace)",
+      "norma": "API-RP-2A",
+      "item": "14.1.3, Figura 14.1",
+      "pagina": 139,
+      "nota": "Lido da tabela inserida na FIGURA 14.1.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#garganta"
+    },
+    {
+      "grupo": "Preparação de solda em nós tubulares (Fig. 14.1)",
+      "parametro": "Seção A-A (a = 90° a 135°) — ângulo do chanfro",
+      "valor": "45° mín.",
+      "unidade": "°",
+      "norma": "API-RP-2A",
+      "item": "14.1.3, Figura 14.1",
+      "pagina": 139,
+      "nota": "Lido da FIGURA 14.1.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#angulo-chanfro"
+    },
+    {
+      "grupo": "Preparação de solda em nós tubulares (Fig. 14.1)",
+      "parametro": "Seção B-B (a > 135°)",
+      "valor": "Chanfro 45° mín.; completar até a espessura total, exceto que T não precisa exceder 1,75 t",
+      "norma": "API-RP-2A",
+      "item": "14.1.3, Figura 14.1",
+      "pagina": 139,
+      "nota": "Lido da FIGURA 14.1.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#angulo-chanfro"
+    },
+    {
+      "grupo": "Preparação de solda em nós tubulares (Fig. 14.1)",
+      "parametro": "Seção C-C (a = 30° a 90°)",
+      "valor": "Ângulo do chanfro b = a/2; abertura de raiz G conforme tabela",
+      "norma": "API-RP-2A",
+      "item": "14.1.3, Figura 14.1",
+      "pagina": 139,
+      "nota": "Lido da FIGURA 14.1.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#angulo-chanfro"
+    },
+    {
+      "grupo": "Preparação de solda em nós tubulares (Fig. 14.1)",
+      "parametro": "Seção C-C alternativa — solda de apoio (back-up) na raiz",
+      "valor": "Abertura mín. 1/16 in. (1,6 mm), máx. 1/4 in. (6,4 mm); ângulo 15° mín.; solda de apoio não sujeita a inspeção",
+      "min": 1.6,
+      "max": 6.4,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.3, Figura 14.1",
+      "pagina": 139,
+      "nota": "Lido da FIGURA 14.1. Defeitos na solda de apoio/raiz fora da garganta teórica (T mín.) não são motivo de rejeição (16.4.3.4.5).",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#G"
+    },
+    {
+      "grupo": "Preparação de solda em nós tubulares (Fig. 14.1)",
+      "parametro": "Ângulo diedro local pequeno",
+      "valor": "Detalhes especiais quando a < 30°, demonstrados em juntas-amostra ou mock-ups",
+      "max": 30,
+      "unidade": "°",
+      "norma": "API-RP-2A",
+      "item": "14.1.3.5",
+      "pagina": 138,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#diedro"
+    },
+    {
+      "grupo": "Preparação de solda em nós tubulares (Fig. 14.1)",
+      "parametro": "Controle de perfil de solda (quando considerado na fadiga) — desvio do perfil",
+      "valor": "Não mais profundo que 1 mm (0.04 in.) em relação a um disco fino de diâmetro ≥ espessura do brace na solda",
+      "max": 1,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.3.4",
+      "pagina": 138,
+      "nota": "Camada de acabamento côncava (Fig. 14.1); esmerilhamento permitido, com marcas finais transversais ao eixo da solda; pés da solda (brace e chord) com 100 % de MT.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#desvio-perfil"
+    },
+    {
+      "grupo": "Soldagem — limites de procedimento",
+      "parametro": "Processo de baixo hidrogênio obrigatório (exceto passe de raiz)",
+      "valor": "Aço com escoamento nominal ≥ 280 MPa (40 ksi) ou garganta > 13 mm (1/2 in.) → baixo hidrogênio (< 15 ml/100 g)",
+      "norma": "API-RP-2A",
+      "item": "13.1.3.1",
+      "pagina": 134
+    },
+    {
+      "grupo": "Soldagem — limites de procedimento",
+      "parametro": "Passes de acabamento em progressão descendente (downhill)",
+      "valor": "Proibidos com aporte < 1000 kJ/m (25 kJ/in.), salvo qualificação por dureza da ZTA; dureza máx. 325 HV10",
+      "norma": "API-RP-2A",
+      "item": "13.1.3.4",
+      "pagina": 134
+    },
+    {
+      "grupo": "Soldagem — limites de procedimento",
+      "parametro": "Proteção contra vento / GMAW",
+      "valor": "Processos com gás de proteção externo: com proteção contra vento; GMAW provado por testes (AWS D1.1 Cl. 4); curto-circuito só em soldas secundárias e passes de raiz qualificados",
+      "norma": "API-RP-2A",
+      "item": "13.1.3.2 / 13.1.3.3",
+      "pagina": 134
+    },
+    {
+      "grupo": "Soldagem — limites de procedimento",
+      "parametro": "Charpy do metal de solda — tolerância de um corpo de prova (1 de 3)",
+      "valor": "Pode ser 7 J (5 ft-lb) menor que a média exigida sem reteste",
+      "norma": "API-RP-2A",
+      "item": "13.2.2, Tabela 13.1",
+      "pagina": 135,
+      "nota": "Temperaturas e energias médias na tabela 'Tabela 13.1' abaixo."
+    },
+    {
+      "grupo": "Soldagem — limites de procedimento",
+      "parametro": "Solda de selagem (seal weld) de superfícies em contato (faying surfaces)",
+      "valor": "Não menor que 3 mm (1/8 in.), mas não precisa exceder 5 mm (3/16 in.), independentemente da espessura",
+      "min": 3,
+      "max": 5,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "13.3.4",
+      "pagina": 136,
+      "nota": "Filete contínuo; pré-aquecimento mínimo da AWS D1.1/D1.1M:2010, Tabela 3.2 ou Anexo I.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#selagem"
+    },
+    {
+      "grupo": "Soldagem — limites de procedimento",
+      "parametro": "Abertura de arco (arc strike)",
+      "valor": "Somente dentro do chanfro; procedimento de reparo para aberturas acidentais fora do chanfro",
+      "norma": "API-RP-2A",
+      "item": "13.3.7",
+      "pagina": 136
+    },
+    {
+      "grupo": "Tolerâncias finais — pernas/colunas da jaqueta e do deck",
+      "parametro": "Distância entre eixos de colunas adjacentes — planos críticos para a montagem no campo (topo da jaqueta, base das colunas do deck)",
+      "valor": "± 10 mm (3/8 in.) da cota líquida do desenho",
+      "min": -10,
+      "max": 10,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.2.1",
+      "pagina": 140,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#dist-colunas"
+    },
+    {
+      "grupo": "Tolerâncias finais — pernas/colunas da jaqueta e do deck",
+      "parametro": "Distância entre eixos de colunas adjacentes — em todos os níveis do deck",
+      "valor": "± 13 mm (1/2 in.); pode ser aplicada a pontos de trabalho no diâmetro externo das colunas",
+      "min": -13,
+      "max": 13,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.2.1",
+      "pagina": 140,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#dist-colunas"
+    },
+    {
+      "grupo": "Tolerâncias finais — pernas/colunas da jaqueta e do deck",
+      "parametro": "Distância entre eixos de colunas adjacentes — demais planos da jaqueta",
+      "valor": "Pode ser aumentada para ± 19 mm (3/4 in.); pode ser aplicada a pontos de trabalho no diâmetro externo das colunas",
+      "min": -19,
+      "max": 19,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.2.1",
+      "pagina": 140,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#dist-colunas"
+    },
+    {
+      "grupo": "Tolerâncias finais — pernas/colunas da jaqueta e do deck",
+      "parametro": "Diagonais de planta retangular",
+      "valor": "Iguais dentro de 19 mm (3/4 in.)",
+      "max": 19,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.2.1",
+      "pagina": 140,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#diagonais"
+    },
+    {
+      "grupo": "Tolerâncias finais — pernas/colunas da jaqueta e do deck",
+      "parametro": "Retilineidade das colunas da jaqueta — desvio total",
+      "valor": "Menor que 10 mm (3/8 in.)",
+      "max": 10,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.2.2",
+      "pagina": 140,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#retilineidade"
+    },
+    {
+      "grupo": "Tolerâncias finais — pernas/colunas da jaqueta e do deck",
+      "parametro": "Retilineidade das colunas da jaqueta — por trecho",
+      "valor": "Não mais que 3 mm (1/8 in.) em qualquer trecho de 3 m (10 ft)",
+      "max": 3,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.2.2",
+      "pagina": 140,
+      "nota": "Fabricar a jaqueta sobre superfície plana e nivelada; verificar o calçamento (blocking) com frequência; coluna que recalcar deve ser recalçada ao plano das demais.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#retilineidade"
+    },
+    {
+      "grupo": "Tolerâncias finais — pernas/colunas da jaqueta e do deck",
+      "parametro": "Topo das colunas da jaqueta — elevação",
+      "valor": "± 13 mm (1/2 in.) da elevação de desenho",
+      "min": -13,
+      "max": 13,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.2.2",
+      "pagina": 140,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#elev-topo"
+    },
+    {
+      "grupo": "Tolerâncias finais — pernas/colunas da jaqueta e do deck",
+      "parametro": "Posição das extremidades dos joint cans de parede grossa (pernas da jaqueta e do deck)",
+      "valor": "± 25 mm (1 in.) das cotas de desenho",
+      "min": -25,
+      "max": 25,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.2.3",
+      "pagina": 140,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#joint-can"
+    },
+    {
+      "grupo": "Tolerâncias finais — pernas/colunas da jaqueta e do deck",
+      "parametro": "Posição de outras mudanças de espessura nas pernas da jaqueta / colunas do deck",
+      "valor": "± 50 mm (2 in.) das cotas de desenho",
+      "min": -50,
+      "max": 50,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.2.3",
+      "pagina": 140,
+      "nota": "Na 21ª ed. (11.1.5.b) o texto era ±2 in. (51 mm).",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#mudanca-espessura"
+    },
+    {
+      "grupo": "Tolerâncias finais — contraventamentos (bracing)",
+      "parametro": "Braces num plano horizontal — posição vertical",
+      "valor": "± 13 mm (1/2 in.) da cota de desenho",
+      "min": -13,
+      "max": 13,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.3",
+      "pagina": 140,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#brace-horizontal"
+    },
+    {
+      "grupo": "Tolerâncias finais — contraventamentos (bracing)",
+      "parametro": "Posição de mudanças de espessura de parede nos braces",
+      "valor": "± 25 mm (1 in.) das cotas de desenho",
+      "min": -25,
+      "max": 25,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.3",
+      "pagina": 140,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#mud-esp-brace"
+    },
+    {
+      "grupo": "Tolerâncias finais — contraventamentos (bracing)",
+      "parametro": "Demais braces com pontos extremos cotados — posição dos pontos",
+      "valor": "± 13 mm (1/2 in.) da cota planejada",
+      "min": -13,
+      "max": 13,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.3",
+      "pagina": 140,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#pontos-brace"
+    },
+    {
+      "grupo": "Tolerâncias finais — vigas do deck e cap beams",
+      "parametro": "Vigas do deck — eixo nas extremidades",
+      "valor": "Dentro de 13 mm (1/2 in.) da locação de desenho",
+      "max": 13,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.4",
+      "pagina": 141,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#extremidade"
+    },
+    {
+      "grupo": "Tolerâncias finais — vigas do deck e cap beams",
+      "parametro": "Vigas do deck — desalinhamento ao longo do eixo (out of line)",
+      "valor": "Máx. 19 mm (3/4 in.) na horizontal ou 13 mm (1/2 in.) na vertical, em qualquer ponto",
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.4",
+      "pagina": 141,
+      "nota": "Mesas superiores niveladas (ou na inclinação especificada) e almas a prumo; diferenças de altura/nível de mesa por tolerância de laminação são aceitáveis; distorção de solda deve ser corrigida/compensada.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#out-of-line"
+    },
+    {
+      "grupo": "Tolerâncias finais — vigas do deck e cap beams",
+      "parametro": "Cap beams — eixo nas extremidades",
+      "valor": "± 13 mm (1/2 in.) da cota de desenho",
+      "min": -13,
+      "max": 13,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.5",
+      "pagina": 141,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#extremidade"
+    },
+    {
+      "grupo": "Tolerâncias finais — vigas do deck e cap beams",
+      "parametro": "Cap beams — desalinhamento ao longo do eixo (out of line)",
+      "valor": "Máx. 10 mm (3/8 in.) na horizontal ou 6 mm (1/4 in.) na vertical",
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.5",
+      "pagina": 141,
+      "nota": "Mesas superiores niveladas e almas a prumo; diferença de altura por tolerância de laminação compensada com calços entre cap beam e coluna.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#out-of-line"
+    },
+    {
+      "grupo": "Tolerâncias finais — grating, guarda-corpo, escadas",
+      "parametro": "Emendas de grating",
+      "valor": "Somente sobre apoios, salvo detalhe específico do projetista",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.6",
+      "pagina": 141
+    },
+    {
+      "grupo": "Tolerâncias finais — grating, guarda-corpo, escadas",
+      "parametro": "Guarda-corpo / cercas — corrimão superior",
+      "valor": "Reto e nivelado 'a olho' (to the eye) depois de montado",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.7",
+      "pagina": 141,
+      "nota": "Critério visual, sem valor numérico."
+    },
+    {
+      "grupo": "Tolerâncias finais — grating, guarda-corpo, escadas",
+      "parametro": "Patamares e escadas — elevação dos patamares e locação horizontal",
+      "valor": "Dentro de 76 mm (3 in.) das cotas de desenho",
+      "max": 76,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.8",
+      "pagina": 141,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#patamar"
+    },
+    {
+      "grupo": "Estacas (piles) — fabricação",
+      "parametro": "Comprimento mínimo de segmento de tubo na fabricação de estacas",
+      "valor": "1 diâmetro do tubo ou 1 m (3 ft), o que for MENOR",
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.9.1",
+      "pagina": 141,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#segmento"
+    },
+    {
+      "grupo": "Estacas (piles) — fabricação",
+      "parametro": "Soldas longitudinais de segmentos adjacentes de estaca — defasagem",
+      "valor": "90° no mínimo",
+      "min": 90,
+      "unidade": "°",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.9.1",
+      "pagina": 141,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#defasagem"
+    },
+    {
+      "grupo": "Estacas (piles) — fabricação",
+      "parametro": "Retilineidade — por trecho de 3 m",
+      "valor": "Desvio máx. 3 mm (1/8 in.) em qualquer trecho de 3 m (10 ft)",
+      "max": 3,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.9.2",
+      "pagina": 141,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#retilineidade"
+    },
+    {
+      "grupo": "Estacas (piles) — fabricação",
+      "parametro": "Retilineidade — comprimento total (> 3 m)",
+      "valor": "3 mm × (comprimento total em m / 3 m) [USC: 0.125 in. × (comprimento total em ft / 10 ft)], sem exceder 10 mm (3/8 in.) em qualquer trecho de 12 m (40 ft)",
+      "max": 10,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.9.2",
+      "pagina": 141,
+      "nota": "Fórmula USC equivalente entre colchetes. Verificação com fio esticado (taut wire) ao longo do tubo, repetida em no mínimo três posições radiais (14.1.5.9.3).",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#retilineidade"
+    },
+    {
+      "grupo": "Estacas (piles) — fabricação",
+      "parametro": "Esquadro da face de raiz das extremidades chanfradas (out of square)",
+      "valor": "Máx. 5 mm/m (1/16 in./ft) do diâmetro, limitado a 6 mm (1/4 in.)",
+      "max": 6,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.5.9.4",
+      "pagina": 142,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#esquadro"
+    },
+    {
+      "grupo": "Estacas (piles) — fabricação",
+      "parametro": "Comprimento das seções de estaca e do conjunto total",
+      "valor": "± 0,5 % do comprimento de desenho, salvo especificação em contrário",
+      "unidade": "%",
+      "min": -0.5,
+      "max": 0.5,
+      "norma": "API-RP-2A",
+      "item": "14.1.5.9.5",
+      "pagina": 142,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#comprimento"
+    },
+    {
+      "grupo": "Estacas (piles) — fabricação",
+      "parametro": "Sobra para corte (cutoff allowance) por seção cravada",
+      "valor": "Normalmente 0,5 m a 1,5 m (2 ft a 5 ft) por seção",
+      "min": 500,
+      "max": 1500,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "9.11",
+      "pagina": 115,
+      "nota": "Para remover o material danificado pelo martelo; cortar em elevação de fácil acesso.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#sobra"
+    },
+    {
+      "grupo": "Estacas (piles) — fabricação",
+      "parametro": "Espessura mínima de parede — cravação dura prevista (820 golpes/m = 250 golpes/ft)",
+      "valor": "t = 6,35 + D/100 (SI, mm) | t = 0,25 + D/100 (USC, in.)",
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "9.10.6, Eq. (9.1)/(9.2)",
+      "pagina": 113,
+      "nota": "Valores para diâmetros usuais na Tabela 9.2. Pode ser relaxado se experiência ou análise mostrar que a estaca não será danificada.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#t"
+    },
+    {
+      "grupo": "Estacas (piles) — fabricação",
+      "parametro": "Remoção de olhais de içamento / lugs de estaca",
+      "valor": "Corte a maçarico a 6 mm (1/4 in.) da superfície da estaca e esmerilhar liso",
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "15.5.3",
+      "pagina": 152,
+      "nota": "Toda a carga suspensa deve ser considerada num único olhal/lug ao apoiar a estaca no topo da jaqueta.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-acessorios-temporarios.svg#corte-demais"
+    },
+    {
+      "grupo": "Estacas (piles) — fabricação",
+      "parametro": "Soldas de campo de seções adicionais (add-on)",
+      "valor": "Alinhar e inspecionar o chanfro para garantir penetração total antes de soldar (abrir por esmerilhamento/goivagem se preciso); soldagem conforme Seção 13; END conforme Seção 16",
+      "norma": "API-RP-2A",
+      "item": "15.5.4",
+      "pagina": 152
+    },
+    {
+      "grupo": "Acessórios temporários (temporary attachments)",
+      "parametro": "Método de remoção proibido",
+      "valor": "Não remover a marteladas nem por goivagem a arco (arc-air gouging)",
+      "norma": "API-RP-2A",
+      "item": "14.1.7.2",
+      "pagina": 142,
+      "nota": "Soldar acessórios temporários com o mesmo cuidado e procedimento das soldas permanentes (13.3.9)."
+    },
+    {
+      "grupo": "Acessórios temporários (temporary attachments)",
+      "parametro": "Remoção em joint cans de perna, sleeves de saia, joint cans de brace, stubs e anéis de reforço",
+      "valor": "Cortar a maçarico a 3 mm (1/8 in.) acima do metal de base e esmerilhar mecanicamente faceado (flush) com o metal de base",
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.7.2",
+      "pagina": 142,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-acessorios-temporarios.svg#corte-critico"
+    },
+    {
+      "grupo": "Acessórios temporários (temporary attachments)",
+      "parametro": "Remoção em áreas a pintar",
+      "valor": "Mesmo método (corte 3 mm acima + esmerilhamento flush), antes da pintura",
+      "norma": "API-RP-2A",
+      "item": "14.1.7.3",
+      "pagina": 142,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-acessorios-temporarios.svg#corte-critico"
+    },
+    {
+      "grupo": "Acessórios temporários (temporary attachments)",
+      "parametro": "Remoção nas demais áreas",
+      "valor": "Corte a maçarico logo acima da solda do acessório (máx. 6 mm (1/4 in.) acima da solda); o aço remanescente deve ser totalmente selado com solda",
+      "max": 6,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "14.1.7.4",
+      "pagina": 142,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-acessorios-temporarios.svg#corte-demais"
+    },
+    {
+      "grupo": "Acessórios temporários (temporary attachments)",
+      "parametro": "Acessórios de auxílio à emenda de pernas, braces, sleeves, estacas, condutores",
+      "valor": "Remover até acabamento liso e faceado (smooth flush finish)",
+      "norma": "API-RP-2A",
+      "item": "14.1.7.5",
+      "pagina": 142
+    },
+    {
+      "grupo": "Transições cônicas",
+      "parametro": "Ângulo α (metade do ângulo do vértice do cone) sem anel de reforço",
+      "valor": "Limitado pela Tabela 6.3 em função de D/t (ex.: D/t = 60 → 10,5° normal / 5,8° extrema; D/t = 12 → 22,5° / 12,8°)",
+      "unidade": "°",
+      "norma": "API-RP-2A",
+      "item": "6.4, Tabela 6.3",
+      "pagina": 81,
+      "nota": "Tabela derivada para cone e cilindro de mesma espessura e Fy ≤ 415 MPa (60 ksi). Fora desses limites: aumentar espessura na junção ou anel de reforço. Cones com ângulo do vértice < 60° podem ser tratados como cilindro equivalente de diâmetro D/cos α (6.4.1.3).",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-transicao-conica.svg#alfa"
+    },
+    {
+      "grupo": "Montagem e instalação",
+      "parametro": "Elevação do deck instalado",
+      "valor": "Não variar mais que ± 76 mm (3 in.) da elevação de projeto, salvo especificação em contrário",
+      "min": -76,
+      "max": 76,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "15.6.4",
+      "pagina": 157,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#elev-deck"
+    },
+    {
+      "grupo": "Montagem e instalação",
+      "parametro": "Nivelamento final do deck",
+      "valor": "Dentro de 13 mm (1/2 in.) do nível",
+      "max": 13,
+      "unidade": "mm",
+      "norma": "API-RP-2A",
+      "item": "15.6.4",
+      "pagina": 157,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#nivelamento"
+    },
+    {
+      "grupo": "Montagem e instalação",
+      "parametro": "Nivelamento da jaqueta no fundo",
+      "valor": "Dentro das tolerâncias do plano de instalação, antes de cravar as estacas",
+      "norma": "API-RP-2A",
+      "item": "15.4.4",
+      "pagina": 150,
+      "nota": "Sem valor numérico na RP; evitar nivelar após cravar todas as estacas."
+    },
+    {
+      "grupo": "Montagem e instalação",
+      "parametro": "Içamento — variação de comprimento das lingas para valer os fatores de carga de 5.4.2.3",
+      "valor": "± 0,25 % do comprimento nominal da linga, ou 38 mm (1.5 in.); e tolerâncias de fabricação dentro de 14.1.5",
+      "norma": "API-RP-2A",
+      "item": "5.4.2.5",
+      "pagina": 64,
+      "nota": "O texto não diz se vale o maior ou o menor dos dois limites. Se excedido, fazer análise detalhada da redistribuição de forças.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#linga"
+    },
+    {
+      "grupo": "Montagem e instalação",
+      "parametro": "Içamento — diferença total entre a linga mais longa e a mais curta",
+      "valor": "Não maior que 0,5 % do comprimento da linga ou 75 mm (3 in.)",
+      "norma": "API-RP-2A",
+      "item": "5.4.2.5",
+      "pagina": 65,
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#diferenca-lingas"
+    },
+    {
+      "grupo": "Inspeção dimensional e de solda",
+      "parametro": "Inspeção de fabricação — o que verificar",
+      "valor": "Em todas as fases (pré-fabricação, calandragem, conformação, soldagem, montagem, erection): detalhes de junta, perfis de solda, dimensões, alinhamento, tolerâncias, orientação",
+      "norma": "API-RP-2A",
+      "item": "16.4.2",
+      "pagina": 160,
+      "nota": "Pernas da jaqueta e sleeves de estaca: verificar folga interna e, se possível, passar gabarito (drift) de comprimento nominal. Atenção especial aos pontos de acoplamento no campo (topo das pernas)."
+    },
+    {
+      "grupo": "Inspeção dimensional e de solda",
+      "parametro": "Fit-up (preparação antes de soldar)",
+      "valor": "100 % inspecionado visualmente quanto às tolerâncias antes da soldagem",
+      "norma": "API-RP-2A",
+      "item": "16.4.3.3.3",
+      "pagina": 161
+    },
+    {
+      "grupo": "Inspeção dimensional e de solda",
+      "parametro": "Inspeção visual durante a soldagem — passes mínimos",
+      "valor": "Raiz, segundo passe (hot pass) e acabamento (cap)",
+      "norma": "API-RP-2A",
+      "item": "16.4.3.3.4",
+      "pagina": 161
+    },
+    {
+      "grupo": "Inspeção dimensional e de solda",
+      "parametro": "Extensão mínima de END (Tabela 16.1)",
+      "valor": "Tubulares: solda longitudinal 10 % (UT ou RT), circunferencial e cruzamento L×C 100 %; nós tubulares 100 % UT; ver tabela",
+      "norma": "API-RP-2A",
+      "item": "16.4.3.3.5, Tabela 16.1",
+      "pagina": 162,
+      "nota": "Inspeção parcial = 10 % de CADA peça (não 100 % de 10 % das peças), mínimo três segmentos aleatórios; incluir áreas suspeitas (pontos de solda)."
+    },
+    {
+      "grupo": "Tolerâncias gerais de construções soldadas — ISO 13920",
+      "parametro": "Escopo e uso",
+      "valor": "Tolerâncias gerais de dimensões lineares e angulares, forma e posição de peças soldadas em 4 classes (A, B, C, D para dimensões; E, F, G, H para retilineidade/planicidade/paralelismo), pela precisão usual de oficina; a escolha da classe segue os requisitos funcionais; tolerância indicada no desenho prevalece; princípio da independência (ISO 8015)",
+      "norma": "ISO-13920",
+      "item": "1",
+      "pagina": 5,
+      "nota": "Desenho sem tolerância individual e sem referência a tolerância geral é considerado incompleto (exceto dimensões provisórias)."
+    },
+    {
+      "grupo": "Tolerâncias gerais de construções soldadas — ISO 13920",
+      "parametro": "Indicação no desenho",
+      "valor": "Classe da Tabela 1/2 (ex. ISO 13920-B) ou combinada com a da Tabela 3 (ex. ISO 13920-BE), na área apropriada do desenho",
+      "norma": "ISO-13920",
+      "item": "5",
+      "pagina": 9
+    },
+    {
+      "grupo": "Tolerâncias gerais de construções soldadas — ISO 13920",
+      "parametro": "Dimensões lineares (Tabela 1)",
+      "valor": "Ex.: 2 < l ≤ 30 mm: ±1 (todas as classes); 1000 < l ≤ 2000 mm: A ±3, B ±4, C ±8, D ±12; 4000 < l ≤ 8000 mm: A ±5, B ±8, C ±14, D ±21",
+      "norma": "ISO-13920",
+      "item": "4.1, Tabela 1",
+      "pagina": 6,
+      "nota": "Ver tabela \"ISO 13920 — Tabela 1\". Conferida na imagem (a faixa 2–30 mm é célula única ±1).",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l"
+    },
+    {
+      "grupo": "Tolerâncias gerais de construções soldadas — ISO 13920",
+      "parametro": "Dimensões angulares (Tabela 2)",
+      "valor": "Pelo comprimento do lado MENOR do ângulo: l ≤ 400 / 400–1000 / > 1000 mm — A ±20′/±15′/±10′; B ±45′/±30′/±20′; C ±1°/±45′/±30′; D ±1°30′/±1°15′/±1°",
+      "norma": "ISO-13920",
+      "item": "4.2, Tabela 2",
+      "pagina": 7,
+      "nota": "Equivalente em mm/m (tangente × comprimento do lado menor em m): A 6/4,5/3; B 13/9/6; C 18/13/9; D 26/22/18. O lado pode ir até um ponto de referência indicado no desenho (Figura 1).",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#l-angulo"
+    },
+    {
+      "grupo": "Tolerâncias gerais de construções soldadas — ISO 13920",
+      "parametro": "Retilineidade, planicidade e paralelismo (Tabela 3)",
+      "valor": "Pelo lado MAIOR da superfície; ex. 1000 < l ≤ 2000 mm: E 2, F 4,5, G 9, H 14 mm; 4000 < l ≤ 8000 mm: E 4, F 8, G 16, H 26 mm",
+      "norma": "ISO-13920",
+      "item": "4.3, Tabela 3",
+      "pagina": 9,
+      "nota": "Vale para dimensões totais da peça soldada/conjunto/estrutura e para trechos cotados. Coaxialidade, simetria etc. não são cobertas — indicar pela ISO 1101.",
+      "cota": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#retilineidade"
+    },
+    {
+      "grupo": "Tolerâncias gerais de construções soldadas — ISO 13920",
+      "parametro": "Medição",
+      "valor": "Réguas graduadas, trenas, réguas, esquadros, paquímetros (ISO 13385-1/-2), relógios comparadores (ISO 463); ângulo medido tangente à peça, longe da zona afetada pela solda; retilineidade/planicidade: alinhar régua ou plano para minimizar a maior distância e verificar hmáx − hmín ≤ t",
+      "norma": "ISO-13920",
+      "item": "6.1–6.3",
+      "pagina": 9,
+      "nota": "Sol forte ou temperatura incomum podem influenciar a medida."
+    }
+  ],
+  "tabelas": [
+    {
+      "id": "api2a-fig14-1-abertura-raiz",
+      "titulo": "Fig. 14.1 — Abertura de raiz G × ângulo do chanfro b (juntas tubulares de um lado só, SMAW)",
+      "norma": "API-RP-2A",
+      "item": "14.1.3, Figura 14.1",
+      "pagina": 139,
+      "unidade": "in / mm",
+      "colunas": [
+        "Ângulo do chanfro b",
+        "G (in.)",
+        "G (mm)"
+      ],
+      "linhas": [
+        [
+          "Acima de 90°",
+          "0 a 3/16",
+          "0 a 4,8"
+        ],
+        [
+          "45° a 90°",
+          "1/16 a 3/16",
+          "1,6 a 4,8"
+        ],
+        [
+          "Abaixo de 45°",
+          "1/8 a 1/4",
+          "3,2 a 6,4"
+        ]
+      ],
+      "nota": "Lido da tabela inserida na FIGURA 14.1. Nota da norma: 'Includes tolerance'.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg"
+      ],
+      "cotas": {
+        "Ângulo do chanfro b": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#angulo-chanfro",
+        "G (in.)": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#G",
+        "G (mm)": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#G"
+      }
+    },
+    {
+      "id": "api2a-fig14-1-garganta-min",
+      "titulo": "Fig. 14.1 — Garganta mínima T × ângulo diedro local a",
+      "norma": "API-RP-2A",
+      "item": "14.1.3, Figura 14.1",
+      "pagina": 139,
+      "colunas": [
+        "Ângulo diedro a",
+        "T mín."
+      ],
+      "linhas": [
+        [
+          "50° a 135°",
+          "1,25 t"
+        ],
+        [
+          "35° a 50°",
+          "1,50 t"
+        ],
+        [
+          "Abaixo de 35°",
+          "1,75 t"
+        ],
+        [
+          "Acima de 135°",
+          "Ver Seção B-B"
+        ]
+      ],
+      "nota": "Lido da tabela inserida na FIGURA 14.1; t = espessura da parede do brace.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg"
+      ],
+      "cotas": {
+        "Ângulo diedro a": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#diedro",
+        "T mín.": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#garganta"
+      }
+    },
+    {
+      "id": "api2a-tab9-2-espessura-estaca",
+      "titulo": "Tabela 9.2 — Espessura mínima de parede de estaca (cravação dura)",
+      "norma": "API-RP-2A",
+      "item": "9.10.6, Tabela 9.2",
+      "pagina": 114,
+      "unidade": "mm (in.)",
+      "colunas": [
+        "Diâmetro da estaca mm (in.)",
+        "Espessura nominal t mm (in.)"
+      ],
+      "linhas": [
+        [
+          "610 (24)",
+          "13 (1/2)"
+        ],
+        [
+          "762 (30)",
+          "14 (9/16)"
+        ],
+        [
+          "914 (36)",
+          "16 (5/8)"
+        ],
+        [
+          "1067 (42)",
+          "17 (11/16)"
+        ],
+        [
+          "1219 (48)",
+          "19 (3/4)"
+        ],
+        [
+          "1524 (60)",
+          "22 (7/8)"
+        ],
+        [
+          "1829 (72)",
+          "25 (1)"
+        ],
+        [
+          "2134 (84)",
+          "28 (1.125)"
+        ],
+        [
+          "2438 (96)",
+          "31 (1.25)"
+        ],
+        [
+          "2743 (108)",
+          "34 (1.375)"
+        ],
+        [
+          "3048 (120)",
+          "37 (1.50)"
+        ]
+      ],
+      "nota": "Aplica-se quando se prevê cravação dura sustentada (820 golpes/m = 250 golpes/ft com o maior martelo). Ver Eq. (9.1)/(9.2).",
+      "consulta": false,
+      "figuras": [
+        "esquemas/tolerancias-fabricacao-estrutural-estacas.svg"
+      ],
+      "cotas": {
+        "Diâmetro da estaca mm (in.)": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#D",
+        "Espessura nominal t mm (in.)": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#t"
+      }
+    },
+    {
+      "id": "api2a-tab6-3-angulo-cone",
+      "titulo": "Tabela 6.3 — Ângulo limite α de transições cônicas (sem reforço)",
+      "norma": "API-RP-2A",
+      "item": "6.4, Tabela 6.3",
+      "pagina": 81,
+      "unidade": "graus",
+      "colunas": [
+        "D/t",
+        "α — condição normal (fa + fb) = 0,6 Fy",
+        "α — condição extrema (fa + fb) = 0,8 Fy"
+      ],
+      "linhas": [
+        [
+          "60",
+          10.5,
+          5.8
+        ],
+        [
+          "48",
+          11.7,
+          6.5
+        ],
+        [
+          "36",
+          13.5,
+          7.5
+        ],
+        [
+          "24",
+          16.4,
+          9.1
+        ],
+        [
+          "18",
+          18.7,
+          10.5
+        ],
+        [
+          "12",
+          22.5,
+          12.8
+        ]
+      ],
+      "nota": "α = metade do ângulo do vértice do cone. Derivada para espessuras iguais de cone e cilindro e Fy ≤ 415 MPa (60 ksi).",
+      "consulta": false,
+      "figuras": [
+        "esquemas/tolerancias-fabricacao-estrutural-transicao-conica.svg"
+      ],
+      "cotas": {
+        "D/t": "esquemas/tolerancias-fabricacao-estrutural-transicao-conica.svg#D",
+        "α — condição normal (fa + fb) = 0,6 Fy": "esquemas/tolerancias-fabricacao-estrutural-transicao-conica.svg#alfa",
+        "α — condição extrema (fa + fb) = 0,8 Fy": "esquemas/tolerancias-fabricacao-estrutural-transicao-conica.svg#alfa"
+      }
+    },
+    {
+      "id": "api2a-tab13-1-charpy",
+      "titulo": "Tabela 13.1 — Ensaio de impacto do metal de solda (qualificação de procedimento)",
+      "norma": "API-RP-2A",
+      "item": "13.2.2, Tabela 13.1",
+      "pagina": 135,
+      "colunas": [
+        "Grupo do aço",
+        "Classe",
+        "Temperatura de ensaio °C (°F)",
+        "Média do metal de solda J (ft-lb)"
+      ],
+      "linhas": [
+        [
+          "I",
+          "C",
+          "–18 (0)",
+          "27 (20)"
+        ],
+        [
+          "I",
+          "B",
+          "–18 (0)",
+          "27 (20)"
+        ],
+        [
+          "I",
+          "A",
+          "–29 (–20)",
+          "27 (20)"
+        ],
+        [
+          "II",
+          "C",
+          "–18 (0)",
+          "27 (20)"
+        ],
+        [
+          "II",
+          "B",
+          "–29 (–20)",
+          "27 (20)"
+        ],
+        [
+          "II",
+          "A",
+          "–40 (–40)",
+          "34 (25)"
+        ],
+        [
+          "III",
+          "A",
+          "–40 (–40)",
+          "40 (30)"
+        ]
+      ],
+      "nota": "Um corpo de prova (1 de 3) pode ficar 7 J (5 ft-lb) abaixo sem reteste. Grupos/classes de aço conforme Tabelas 11.1 a 11.3.",
+      "consulta": false
+    },
+    {
+      "id": "api2a-tab16-1-end",
+      "titulo": "Tabela 16.1 — Extensão mínima recomendada de END",
+      "norma": "API-RP-2A",
+      "item": "16.4.3.3.5, Tabela 16.1",
+      "pagina": 162,
+      "colunas": [
+        "Caso",
+        "Extensão %",
+        "Método"
+      ],
+      "linhas": [
+        [
+          "Tubulares — solda longitudinal (L)",
+          "10 (a)",
+          "UT ou RT"
+        ],
+        [
+          "Tubulares — solda circunferencial (C)",
+          "100",
+          "UT ou RT"
+        ],
+        [
+          "Tubulares — interseção de L e C",
+          "100",
+          "UT ou RT"
+        ],
+        [
+          "Nós tubulares — soldas brace-chord principais",
+          "100",
+          "UT"
+        ],
+        [
+          "Nós tubulares — soldas brace-brace principais",
+          "100",
+          "UT"
+        ],
+        [
+          "Guias de condutor",
+          "10 (a)",
+          "UT (ou MT) (b)"
+        ],
+        [
+          "Contraventamento secundário e subconjuntos (splash zone, mudline, boat landings etc.)",
+          "10 (a)",
+          "UT (ou MT) (b)"
+        ],
+        [
+          "Solda de ligação de secundários/subconjuntos aos membros principais",
+          "100",
+          "UT ou MT"
+        ],
+        [
+          "Deck — todas as soldas primárias de penetração total",
+          "100",
+          "UT ou RT"
+        ],
+        [
+          "Deck — todas as soldas de penetração parcial",
+          "100",
+          "Visual (c)"
+        ],
+        [
+          "Deck — todas as soldas de filete",
+          "100",
+          "Visual (c)"
+        ]
+      ],
+      "nota": "(a) 10 % de cada peça, mín. três segmentos aleatórios, incluindo áreas suspeitas; se houver rejeição, ampliar até determinar a extensão e corrigir a causa. (b) MT aceitável se previsto em projeto/especificação. (c) Pode incluir MT e/ou PT.",
+      "consulta": false
+    },
+    {
+      "id": "iso13920-tab1-linear",
+      "titulo": "ISO 13920 — Tabela 1: tolerâncias de dimensões lineares (mm)",
+      "norma": "ISO-13920",
+      "item": "4.1, Tabela 1",
+      "pagina": 6,
+      "unidade": "mm",
+      "colunas": [
+        "Classe",
+        "2–30",
+        ">30–120",
+        ">120–400",
+        ">400–1000",
+        ">1000–2000",
+        ">2000–4000",
+        ">4000–8000",
+        ">8000–12000",
+        ">12000–16000",
+        ">16000–20000",
+        ">20000"
+      ],
+      "linhas": [
+        [
+          "A",
+          "±1",
+          "±1",
+          "±1",
+          "±2",
+          "±3",
+          "±4",
+          "±5",
+          "±6",
+          "±7",
+          "±8",
+          "±9"
+        ],
+        [
+          "B",
+          "±1",
+          "±2",
+          "±2",
+          "±3",
+          "±4",
+          "±6",
+          "±8",
+          "±10",
+          "±12",
+          "±14",
+          "±16"
+        ],
+        [
+          "C",
+          "±1",
+          "±3",
+          "±4",
+          "±6",
+          "±8",
+          "±11",
+          "±14",
+          "±18",
+          "±21",
+          "±24",
+          "±27"
+        ],
+        [
+          "D",
+          "±1",
+          "±4",
+          "±7",
+          "±9",
+          "±12",
+          "±16",
+          "±21",
+          "±27",
+          "±32",
+          "±36",
+          "±40"
+        ]
+      ],
+      "nota": "Faixa de comprimento nominal l (mm). Conferida na imagem: 2–30 mm é ±1 para todas as classes.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg"
+      ],
+      "cotas": {
+        "2–30": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l",
+        ">30–120": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l",
+        ">120–400": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l",
+        ">400–1000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l",
+        ">1000–2000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l",
+        ">2000–4000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l",
+        ">4000–8000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l",
+        ">8000–12000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l",
+        ">12000–16000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l",
+        ">16000–20000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l",
+        ">20000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l"
+      }
+    },
+    {
+      "id": "iso13920-tab2-angular",
+      "titulo": "ISO 13920 — Tabela 2: tolerâncias angulares",
+      "norma": "ISO-13920",
+      "item": "4.2, Tabela 2",
+      "pagina": 7,
+      "unidade": "graus / mm/m",
+      "colunas": [
+        "Classe",
+        "l ≤ 400 mm",
+        "400 < l ≤ 1000 mm",
+        "l > 1000 mm",
+        "l ≤ 400 (mm/m)",
+        "400–1000 (mm/m)",
+        "> 1000 (mm/m)"
+      ],
+      "linhas": [
+        [
+          "A",
+          "±20'",
+          "±15'",
+          "±10'",
+          "±6",
+          "±4,5",
+          "±3"
+        ],
+        [
+          "B",
+          "±45'",
+          "±30'",
+          "±20'",
+          "±13",
+          "±9",
+          "±6"
+        ],
+        [
+          "C",
+          "±1°",
+          "±45'",
+          "±30'",
+          "±18",
+          "±13",
+          "±9"
+        ],
+        [
+          "D",
+          "±1°30'",
+          "±1°15'",
+          "±1°",
+          "±26",
+          "±22",
+          "±18"
+        ]
+      ],
+      "nota": "l = comprimento do lado MENOR do ângulo. mm/m = tangente da tolerância × comprimento (m) do lado menor.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg"
+      ],
+      "cotas": {
+        "l ≤ 400 mm": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#dalfa",
+        "400 < l ≤ 1000 mm": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#dalfa",
+        "l > 1000 mm": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#dalfa",
+        "l ≤ 400 (mm/m)": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#dalfa",
+        "400–1000 (mm/m)": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#dalfa",
+        "> 1000 (mm/m)": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#dalfa"
+      }
+    },
+    {
+      "id": "iso13920-tab3-forma",
+      "titulo": "ISO 13920 — Tabela 3: retilineidade, planicidade e paralelismo (mm)",
+      "norma": "ISO-13920",
+      "item": "4.3, Tabela 3",
+      "pagina": 9,
+      "unidade": "mm",
+      "colunas": [
+        "Classe",
+        ">30–120",
+        ">120–400",
+        ">400–1000",
+        ">1000–2000",
+        ">2000–4000",
+        ">4000–8000",
+        ">8000–12000",
+        ">12000–16000",
+        ">16000–20000",
+        ">20000"
+      ],
+      "linhas": [
+        [
+          "E",
+          0.5,
+          1,
+          1.5,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          "F",
+          1,
+          1.5,
+          3,
+          4.5,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16
+        ],
+        [
+          "G",
+          1.5,
+          3,
+          5.5,
+          9,
+          11,
+          16,
+          20,
+          22,
+          25,
+          25
+        ],
+        [
+          "H",
+          2.5,
+          5,
+          9,
+          14,
+          18,
+          26,
+          32,
+          36,
+          40,
+          40
+        ]
+      ],
+      "nota": "l = lado MAIOR da superfície.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg"
+      ],
+      "cotas": {
+        ">30–120": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#retilineidade",
+        ">120–400": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#retilineidade",
+        ">400–1000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#retilineidade",
+        ">1000–2000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#retilineidade",
+        ">2000–4000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#retilineidade",
+        ">4000–8000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#retilineidade",
+        ">8000–12000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#retilineidade",
+        ">12000–16000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#retilineidade",
+        ">16000–20000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#retilineidade",
+        ">20000": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#retilineidade"
+      }
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "atencao",
+      "texto": "Escopo: API RP 2A-WSD é para PLATAFORMAS FIXAS offshore (jaquetas tubulares e decks). Para estruturas metálicas em geral (skids, módulos, suportes, prédios) as tolerâncias vêm de outras normas — ISO 13920, AWS D1.1, EN 1090-2, AISC 303 — que ainda NÃO têm valores nesta base. Tolerâncias não listadas na RP 2A remetem à AISC 335-89 (14.1.5.1)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Ovalização (out-of-roundness), circunferência e emendas de tubos fabricados (cans) NÃO têm valores na RP 2A: ela remete à API Spec 2B (14.1.2.1 e 14.1.5.9.6), que não está nesta ficha. Não confundir 'diagonais iguais dentro de 19 mm' ou 'retilineidade' com ovalização."
+    },
+    {
+      "tipo": "info",
+      "texto": "Fonte principal: API RP 2A-WSD 22ª ed. (nov/2014), completa (324 págs). Unidades SI primárias com USC entre parênteses; pelo Prefácio, em caso de divergência valem as unidades SI. A 21ª ed. (dez/2000, com Errata/Suplementos 1–3 até out/2007) tinha in. como unidade primária."
+    },
+    {
+      "tipo": "info",
+      "texto": "Renumeração 21ª → 22ª ed.: Soldagem 10 → 13; Fabricação 11 → 14 (11.1.5 'Final Fabrication Tolerances' → 14.1.5; 11.1.5.b → 14.1.5.2; 11.1.5.i → 14.1.5.9); Instalação 12 → 15; Inspeção 13 → 16; Detalhamento de nós 4.2.5 → 7.2.5; Fundações 6 → 9 (na 22ª a parte geotécnica foi para a API 2GEO)."
+    },
+    {
+      "tipo": "info",
+      "texto": "Diferenças 21ª × 22ª ed. nos valores de fabricação: os valores numéricos são os mesmos, mudando só a unidade primária e algumas conversões — mudanças de espessura em pernas: ±2 in. (51 mm) → ±50 mm (2 in.); rasgo para gusset: 12 in. (305 mm) → 300 mm (12 in.); fórmula de retilineidade de estacas só em USC na 21ª. Referências atualizadas: AISC 8ª ed. → AISC 335-89; AWS D1.1-2002 → D1.1/D1.1M:2010; pré-aquecimento de solda de selagem 'Table 3.2 or Annex XI' → 'Table 3.2 or Annex I'; ovalização de estacas 'Sections 4.2 and 4.3 of API Spec 2B' → 'API 2B'. Vários 'should' viraram 'shall' (13.1.1, 13.3.9, 14.1.2.1, 14.1.5.9.6)."
+    },
+    {
+      "tipo": "info",
+      "texto": "Comentário B.7.2.5: as dimensões de can e stub não mudaram em relação à 21ª, mas a medida passou a NÃO incluir as transições de espessura (1:4); o critério de overlap foi simplificado para facilitar a medição na fabricação. Can mínimo pode reduzir a capacidade do nó (7.3.5) — o projetista pode alongar o can para evitar a redução."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Tolerâncias de colunas da jaqueta: a mais apertada (±10 mm) vale só nos planos críticos de acoplamento no campo (topo da jaqueta / base das colunas do deck); nos níveis do deck ±13 mm e nos demais planos da jaqueta ±19 mm. A retilineidade (10 mm total, 3 mm a cada 3 m) é a mesma para colunas da jaqueta e para estacas — estas com o limite adicional de 10 mm em qualquer trecho de 12 m."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Figura 14.1: escolha a abertura de raiz G pelo ângulo do chanfro b (que, na Seção C-C, é a/2) e a garganta mínima T pelo ângulo diedro local a; a < 30° exige detalhe especial com mock-up (14.1.3.5)."
+    },
+    {
+      "tipo": "dica",
+      "texto": "ISO 13920 é a tolerância geral mais usada em desenho de caldeiraria/estrutura soldada fora do escopo da API RP 2A: indique a classe no carimbo (ex. 'ISO 13920-BF'). Classe B/F é a usual de oficina; A/E para peças que se montam com precisão. Para estrutura de prédio/ponte em aço, ver também AWS D1.1 7.22 (ficha de solda)."
+    }
+  ]
+}

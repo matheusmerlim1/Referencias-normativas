@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SFA-5.32",
+ "titulo": "SFA-5.32 — Gases de proteção para soldagem (AWS A5.32)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Classificação de gases de proteção (fornecidos como gás ou líquido; sempre usados como gás) para processos de soldagem a arco com proteção gasosa (manual, semiautomático, mecanizado)."
+  },
+  {
+   "titulo": "Pureza e ponto de orvalho",
+   "item": "Tabela 1",
+   "texto": "Por gás componente (pureza mín. / umidade máx. / ponto de orvalho máx.).",
+   "valores": [
+    {
+     "parametro": "Argônio SG-A",
+     "valor": "99,997 % / 10,5 ppm / −76 °F (−60 °C)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "CO2 SG-C",
+     "valor": "99,8 % / 32 ppm / −60 °F (−51 °C)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Hélio SG-He",
+     "valor": "99,995 % / 15 ppm / −71 °F (−57 °C)",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Misturas",
+   "item": "Tabela 4",
+   "texto": "Classificação SG-(componentes)-(teor do componente menor).",
+   "valores": [
+    {
+     "parametro": "SG-AC-25",
+     "valor": "75 % Ar + 25 % CO2",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "SG-AO-2",
+     "valor": "98 % Ar + 2 % O2",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "SG-AHe-10",
+     "valor": "90 % Ar + 10 % He",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "SG-AH-5",
+     "valor": "95 % Ar + 5 % H2",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabela 2, 8",
+   "texto": "Pureza e ponto de orvalho para gás simples; também composição para misturas. Falha → dois retestes, ambos aprovados."
+  }
+ ]
+}

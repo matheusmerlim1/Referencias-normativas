@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SA-530",
+ "titulo": "SA-530 — Requisitos gerais para tubos (pipe) de aço carbono e liga para serviço especial",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns às especificações de tubos (SA-106, 335, 369, 524, 426 e outras): fabricação, química, ensaios mecânicos, dimensões e massa, reparo, retratamento, achatamento, hidrostático e marcação. A especificação do produto prevalece em conflito."
+  },
+  {
+   "titulo": "Ensaios mecânicos",
+   "item": "5, 6",
+   "texto": "Ensaios conforme Anexo A2 da SA-370, em temperatura ambiente; escoamento por 0,2 % de deformação permanente ou 0,5 % de extensão sob carga; corpos reduzidos só se faltar material."
+  },
+  {
+   "titulo": "Achatamento",
+   "item": "19",
+   "texto": "Tubo sem costura ou centrifugado: amostra de ≥ 2 1/2 in [63 mm] achatada a frio em duas etapas (ductilidade até a distância H; depois sanidade).",
+   "valores": [
+    {
+     "parametro": "Comprimento mín. da amostra",
+     "valor": "2 1/2 in [63 mm]",
+     "item": "19.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Teste hidrostático",
+   "item": "20",
+   "texto": "Cada tubo testado a uma pressão que gere tensão na parede de pelo menos uma fração do escoamento mínimo, calculada por P = 2St/D.",
+   "valores": [
+    {
+     "parametro": "Tensão mín. de teste — aço carbono e ferrítico",
+     "valor": "60 % do Sy mínimo",
+     "item": "20.1"
+    },
+    {
+     "parametro": "Tensão mín. de teste — austenítico",
+     "valor": "50 % do Sy mínimo",
+     "item": "20.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões, reparo e marcação",
+   "item": "12, 15, 24",
+   "texto": "Dimensões e massas pelas ANSI B36.10 e B36.19; tolerâncias de parede, diâmetro e retilineidade nas Tabelas 1 a 3. Reparo por solda de defeitos admitido nas condições da norma. Cada tubo marcado com fabricante, especificação, grau e dimensões."
+  }
+ ]
+}

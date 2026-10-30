@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SFA-5.16",
+ "titulo": "SFA-5.16 — Arames e varetas de titânio e ligas de titânio (AWS A5.16)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos e varetas de titânio e ligas de titânio para TIG, MIG e plasma."
+  },
+  {
+   "titulo": "Classificações e composição",
+   "item": "Tabela 1",
+   "texto": "ERTi-1 a ERTi-4 (não ligados, por teor de O), ERTi-5 (Ti-6Al-4V), ERTi-7 (Ti-Pd) e outros; equivalência com a edição de 1990.",
+   "valores": [
+    {
+     "parametro": "ERTi-1 — C / O / N / H / Fe máx.",
+     "valor": "0,03 / 0,03–0,10 / 0,012 / 0,005 / 0,08 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "ERTi-2 — C / O / N / H / Fe máx.",
+     "valor": "0,03 / 0,08–0,16 / 0,015 / 0,008 / 0,12 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "ERTi-3 — O",
+     "valor": "0,13–0,20 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "—",
+   "texto": "Classificação pela composição química do arame/vareta (amostras protegidas contra contaminação por O, N e H)."
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "NBR-8403",
+ "titulo": "ABNT NBR 8403:1984 — Aplicação de linhas em desenhos — Tipos de linhas — Larguras das linhas",
+ "secoes": [
+  {"titulo": "Larguras", "item": "2–3.3",
+   "texto": "Larguras de linha escalonadas na razão dos formatos de papel, para que reduções e ampliações mantenham o padrão. A mesma largura é mantida em todas as vistas de uma peça na mesma escala. Canetas técnicas identificadas por cor.",
+   "valores": [
+    {"parametro": "Série de larguras", "valor": "0,13; 0,18; 0,25; 0,35; 0,50; 0,70; 1,00; 1,40; 2,00 mm", "item": "3.1.2", "nota": "0,13 e 0,18 só para originais reproduzidos em escala natural"},
+    {"parametro": "Relação larga / estreita", "valor": "≥ 2", "item": "3.1.1"},
+    {"parametro": "Espaçamento entre linhas paralelas (e hachuras)", "valor": "≥ 2 × a linha mais larga; recomendado ≥ 0,70 mm", "item": "3.2"},
+    {"parametro": "Cores de caneta — 0,13 / 0,18 / 0,25 / 0,35", "valor": "lilás / vermelha / branca / amarela", "item": "3.3"},
+    {"parametro": "Cores de caneta — 0,50 / 0,70 / 1,00 / 1,40 / 2,00", "valor": "marrom / azul / laranja / verde / cinza", "item": "3.3"}
+   ]},
+  {"titulo": "Tipos de linha e uso", "item": "3.4",
+   "texto": "Cada tipo de linha tem uso definido.",
+   "valores": [
+    {"parametro": "A — contínua larga", "valor": "contornos e arestas visíveis", "item": "3.4"},
+    {"parametro": "B — contínua estreita", "valor": "interseções imaginárias, cotas, auxiliares, chamadas, seções rebatidas, centros curtos", "item": "3.4"},
+    {"parametro": "C — contínua estreita à mão livre / D — ziguezague", "valor": "limites de vistas ou cortes parciais (D para desenho por máquina)", "item": "3.4"},
+    {"parametro": "E — tracejada larga / F — tracejada estreita", "valor": "contornos e arestas não visíveis", "item": "3.4"},
+    {"parametro": "G — traço e ponto estreita", "valor": "linhas de centro, simetria, trajetórias", "item": "3.4"},
+    {"parametro": "H — traço e ponto estreita, larga nas pontas e mudanças de direção", "valor": "planos de corte", "item": "3.4"},
+    {"parametro": "J — traço e ponto larga", "valor": "superfícies com indicação especial", "item": "3.4"},
+    {"parametro": "K — traço e dois pontos estreita", "valor": "peças adjacentes, posição-limite de peças móveis", "item": "3.4"}
+   ]}
+ ]
+}

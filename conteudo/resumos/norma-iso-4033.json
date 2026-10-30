@@ -1,0 +1,33 @@
+{
+ "id": "ISO-4033",
+ "titulo": "ISO 4033:2012 — Porcas sextavadas altas (estilo 2), graus A e B",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso",
+   "item": "1",
+   "texto": "Porcas sextavadas mais altas que as normais, M5 a M36, grau A até M16 e B acima; só em aço, classes 8, 9, 10 e 12 (ISO 898-2), rosca 6H.",
+   "valores": [],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-porca-sextavada-iso.svg"
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "Tab. 1",
+   "texto": "Mesma chave da porca normal, altura maior.",
+   "valores": [
+    {
+     "parametro": "M12 — altura máx. / mín.",
+     "valor": "12,0 / 11,57 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-porca-sextavada-iso.svg#m"
+    },
+    {
+     "parametro": "M20 — altura máx.",
+     "valor": "20,3 mm",
+     "item": "Tab. 1"
+    }
+   ]
+  }
+ ]
+}

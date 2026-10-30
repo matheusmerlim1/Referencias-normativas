@@ -1,0 +1,45 @@
+{
+ "id": "ASME-SA-577",
+ "titulo": "SA-577 — Exame ultrassônico por feixe angular de chapas de aço",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimento de ultrassom com feixe angular e critério de aceitação para detectar descontinuidades internas não laminares e imperfeições superficiais em chapas de aço. Complementa especificações que exigem ultrassom de feixe reto."
+  },
+  {
+   "titulo": "Calibração",
+   "item": "5 a 8",
+   "texto": "Linearidade de amplitude verificada em bloco IIW; frequência a mais alta que permita a detecção. Entalhe de calibração com geometria acordada, profundidade proporcional à espessura; curva DAC.",
+   "valores": [
+    {
+     "parametro": "Profundidade do entalhe",
+     "valor": "3 % da espessura da chapa",
+     "item": "7.1"
+    },
+    {
+     "parametro": "Comprimento mín. do entalhe",
+     "valor": "1 in [25 mm]",
+     "item": "7.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Exame",
+   "item": "9",
+   "texto": "Varre-se uma face principal em malha perpendicular e paralela à laminação, com acoplante (água, óleo, glicerina).",
+   "valores": [
+    {
+     "parametro": "Espaçamento da malha",
+     "valor": "9 in [225 mm]",
+     "item": "9.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Aceitação e marcação",
+   "item": "10, 13",
+   "texto": "Indicação igual ou maior que a DAC é inaceitável, salvo exploração adicional favorável. Chapa aceita marcada 'UT A 577' num canto."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SB-425",
+ "titulo": "SB-425 — Barras e vergalhões de ligas Ni-Fe-Cr-Mo-Cu (Incoloy 825)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras redondas, quadradas, sextavadas e retangulares, acabadas a quente ou trefiladas a frio, das ligas N08825 e N08221."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela de química",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N08825 — Ni / Cr / Fe mín.",
+     "valor": "38,0–46,0 % / 19,5–23,5 % / 22,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N08825 — Mo / Cu / Ti",
+     "valor": "2,5–3,5 % / 1,5–3,0 % / 0,6–1,2 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N08221 — Mo / C máx.",
+     "valor": "5,0–6,5 % / 0,025 %",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín. (não se aplica abaixo de 3/32 in).",
+   "valores": [
+    {
+     "parametro": "N08825 recozida",
+     "valor": "85 ksi (586) / 35 ksi (241) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08221 recozida",
+     "valor": "79 ksi (544) / 34 ksi (235) / 30 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

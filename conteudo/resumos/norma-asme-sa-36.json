@@ -1,0 +1,87 @@
+{
+ "id": "ASME-SA-36",
+ "titulo": "SA-36 — Aço carbono estrutural",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Perfis, chapas e barras de aço carbono de qualidade estrutural para construções rebitadas, parafusadas ou soldadas de pontes, edifícios e estruturas em geral. Requisitos gerais de fornecimento conforme SA-6."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "6",
+   "texto": "Chapas e barras acima de 1/2 in [12,5 mm] e perfis fora do Grupo 1 devem ser de aço semiacalmado ou acalmado."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "C máximo cresce com a espessura; P e S iguais para todos os produtos.",
+   "valores": [
+    {
+     "parametro": "Perfis — C máx.",
+     "valor": "0,26 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Chapas — C máx.",
+     "valor": "0,25 % (até 1 1/2 in [40 mm]) a 0,29 % (> 4 in [100 mm])",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Barras — C máx.",
+     "valor": "0,26 % (até 3/4 in [20 mm]) a 0,29 % (> 4 in [100 mm])",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Chapas — Mn",
+     "valor": "0,80–1,20 % (3/4 a 2 1/2 in) / 0,85–1,20 % (> 2 1/2 in)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,04 % / 0,05 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Cu mín. quando pedido aço ao cobre",
+     "valor": "0,20 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Valores para chapas, perfis e barras.",
+   "valores": [
+    {
+     "parametro": "Su",
+     "valor": "58–80 ksi [400–550 MPa]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Limite de escoamento mín.",
+     "valor": "36 ksi [250 MPa]",
+     "item": "Tabela 3",
+     "nota": "32 ksi [220 MPa] para chapas acima de 8 in [200 mm]"
+    },
+    {
+     "parametro": "Alongamento mín. em 200 mm",
+     "valor": "20 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm — chapas e barras / perfis",
+     "valor": "23 % / 21 %",
+     "item": "Tabela 3",
+     "nota": "Chapas com mais de 24 in [600 mm] de largura: redução de 2 pontos"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "Suplementares",
+   "texto": "Só quando pedidos: Charpy V (S5), Charpy em perfis com local alternativo (S30) e proibição de aço efervescente/capeado (S97)."
+  }
+ ]
+}

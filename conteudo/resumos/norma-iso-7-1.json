@@ -1,0 +1,57 @@
+{
+ "id": "ISO-7-1",
+ "titulo": "ISO 7-1:1994 — Roscas de tubo com vedação na rosca (R/Rc/Rp) — Parte 1: Dimensões, tolerâncias e designação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Roscas de tubo de vedação, 1/16 a 6, estanques pelo aperto entre rosca externa cônica e interna cônica ou paralela, com vedante apropriado. Rosca externa paralela não serve para vedar. Verificação por calibres na ISO 7-2.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "1/16 a 6",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Definições",
+   "item": "3",
+   "texto": "Diâmetro de calibre (diâmetro maior no plano de calibre), cone maior, plano de calibre, comprimento de calibre, plano de referência, rosca completa, incompleta, de saída, rosca útil, folga de ajuste e de aperto (wrenching allowance).",
+   "valores": []
+  },
+  {
+   "titulo": "Símbolos e dimensões",
+   "item": "4–6, Tab. 1",
+   "texto": "R = externa cônica; Rc = interna cônica; Rp = interna paralela. Tabela com fios por polegada, passo, altura, diâmetros no plano de calibre, comprimento de calibre e tolerâncias, folgas e comprimentos úteis mínimos (valores convertidos de polegada com 1 in = 25,4 mm).",
+   "valores": [
+    {
+     "parametro": "Altura do perfil",
+     "valor": "h = 0,640327·P",
+     "item": "4"
+    },
+    {
+     "parametro": "Fios por polegada — 1/16 e 1/8 / 1/4 e 3/8 / 1/2 e 3/4 / 1 a 6",
+     "valor": "28 / 19 / 14 / 11",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Diâmetro de calibre — 1/2 / 1 / 2",
+     "valor": "20,955 / 33,249 / 59,614 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Comprimento de calibre — 1/2 / 1 / 2",
+     "valor": "8,2 / 10,4 / 15,9 mm",
+     "item": "Tab. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "7",
+   "texto": "'Rosca de tubo ISO 7' + símbolo (R, Rc, Rp) + tamanho; LH para rosca à esquerda.",
+   "valores": []
+  }
+ ]
+}

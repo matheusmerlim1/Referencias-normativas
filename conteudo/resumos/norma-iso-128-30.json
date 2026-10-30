@@ -1,0 +1,24 @@
+{
+ "id": "ISO-128-30",
+ "titulo": "ISO 128-30:2001 (BS ISO 128-30) — Desenho técnico — Princípios gerais de representação — Parte 30: Convenções básicas para vistas",
+ "secoes": [
+  {
+   "titulo": "Escopo e regras gerais",
+   "item": "1–4",
+   "texto": "Convenções de vistas para desenhos técnicos (adequadas à microcópia). Vista principal = a mais informativa (posição de funcionamento, fabricação ou montagem). Demais vistas por projeção ou identificadas por letra maiúscula junto à seta de referência e repetida acima da vista; letras sempre na direção de leitura.",
+   "valores": []
+  },
+  {
+   "titulo": "Escolha de vistas",
+   "item": "5",
+   "texto": "Mínimo de vistas (e cortes) suficiente para definir o objeto sem ambiguidade; evitar contornos ocultos e repetição de detalhes.",
+   "valores": []
+  },
+  {
+   "titulo": "Vistas parciais e posições especiais",
+   "item": "6–7, Anexo C",
+   "texto": "Vista parcial limitada por linha contínua estreita em ziguezague (tipo 01.1.19); peças simétricas desenhadas em fração, com dois traços curtos paralelos perpendiculares à linha de simetria em cada extremidade; vista girada permitida com seta em arco. Seta de referência e altura das letras no Anexo C.",
+   "valores": []
+  }
+ ]
+}

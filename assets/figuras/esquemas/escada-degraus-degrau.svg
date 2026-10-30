@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" role="img" aria-label="Escada de degraus — degrau (perfil)">
+<title>Escada de degraus — degrau (perfil)</title>
+<text x="12" y="22" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Escada de degraus — degrau (perfil)</text>
+<line x1="60" y1="420" x2="200" y2="420" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="67" y1="421" x2="60" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="77" y1="421" x2="70" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="87" y1="421" x2="80" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="97" y1="421" x2="90" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="107" y1="421" x2="100" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="117" y1="421" x2="110" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="127" y1="421" x2="120" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="137" y1="421" x2="130" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="147" y1="421" x2="140" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="157" y1="421" x2="150" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="167" y1="421" x2="160" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="177" y1="421" x2="170" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="187" y1="421" x2="180" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="197" y1="421" x2="190" y2="428" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<rect x="180" y="310" width="200" height="14" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="2"/>
+<rect x="350" y="200" width="200" height="14" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="2"/>
+<rect x="520" y="90" width="200" height="14" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="2"/>
+<line x1="202" y1="420" x2="202" y2="324" stroke="#666" stroke-width="1.2" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="372" y1="310" x2="372" y2="214" stroke="#666" stroke-width="1.2" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="542" y1="200" x2="542" y2="104" stroke="#666" stroke-width="1.2" stroke-dasharray="5 4" stroke-linecap="round"/>
+<text x="560" y="160" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">espelho (se houver)</text>
+<line x1="150" y1="330" x2="700" y2="-24" stroke="#666" stroke-width="1" stroke-dasharray="8 4" stroke-linecap="round"/>
+<text x="640" y="30" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">linha de passo</text>
+<rect x="180" y="306" width="30" height="4" rx="0" fill="#333" fill-opacity="0.25" stroke="#666" stroke-width="0.8"/>
+<g id="cota-h" class="cota"><line x1="347" y1="200" x2="330" y2="200" stroke="#666" stroke-width="1"/><line x1="335" y1="310" x2="335" y2="200" stroke="#666" stroke-width="1.2"/><polygon points="335,310 331.5,301 338.5,301" fill="#666"/><polygon points="335,200 338.5,209 331.5,209" fill="#666"/><text x="329" y="259" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">h</text></g>
+<g id="cota-g" class="cota"><line x1="180" y1="307" x2="180" y2="175" stroke="#666" stroke-width="1"/><line x1="350" y1="197" x2="350" y2="175" stroke="#666" stroke-width="1"/><line x1="180" y1="180" x2="350" y2="180" stroke="#666" stroke-width="1.2"/><polygon points="180,180 189,176.5 189,183.5" fill="#666"/><polygon points="350,180 341,183.5 341,176.5" fill="#666"/><text x="265" y="174" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">g</text></g>
+<g id="cota-t" class="cota"><line x1="350" y1="217" x2="350" y2="241" stroke="#666" stroke-width="1"/><line x1="550" y1="217" x2="550" y2="241" stroke="#666" stroke-width="1"/><line x1="350" y1="236" x2="550" y2="236" stroke="#666" stroke-width="1.2"/><polygon points="350,236 359,232.5 359,239.5" fill="#666"/><polygon points="550,236 541,239.5 541,232.5" fill="#666"/><text x="450" y="252" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">t</text></g>
+<g id="cota-r" class="cota"><line x1="350" y1="217" x2="350" y2="350" stroke="#666" stroke-width="1"/><line x1="380" y1="327" x2="380" y2="350" stroke="#666" stroke-width="1"/><line x1="350" y1="345" x2="380" y2="345" stroke="#666" stroke-width="1.2"/><polygon points="350,345 359,341.5 359,348.5" fill="#666"/><polygon points="380,345 371,348.5 371,341.5" fill="#666"/><text x="365" y="361" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">r</text></g>
+<g id="cota-bocel" class="cota"><line x1="520" y1="87" x2="520" y2="61" stroke="#666" stroke-width="1"/><line x1="542" y1="101" x2="542" y2="61" stroke="#666" stroke-width="1"/><line x1="520" y1="66" x2="542" y2="66" stroke="#666" stroke-width="1.2"/><polygon points="520,66 511,69.5 511,62.5" fill="#666"/><polygon points="542,66 551,62.5 551,69.5" fill="#666"/><line x1="506" y1="66" x2="520" y2="66" stroke="#666" stroke-width="1.2"/><line x1="542" y1="66" x2="556" y2="66" stroke="#666" stroke-width="1.2"/><text x="531" y="60" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">bocel</text></g>
+<g id="cota-faixa" class="cota"><line x1="180" y1="290" x2="210" y2="290" stroke="#666" stroke-width="1.2"/><polygon points="180,290 189,286.5 189,293.5" fill="#666"/><polygon points="210,290 201,293.5 201,286.5" fill="#666"/><text x="195" y="284" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">faixa</text></g>
+<g id="cota-passo" class="cota"><line x1="348.4" y1="197.5" x2="322.8" y2="158" stroke="#666" stroke-width="1"/><line x1="518.4" y1="87.5" x2="492.8" y2="48" stroke="#666" stroke-width="1"/><line x1="325.6" y1="162.2" x2="495.6" y2="52.2" stroke="#666" stroke-width="1.2"/><polygon points="325.6,162.2 331.2,154.4 335,160.3" fill="#666"/><polygon points="495.6,52.2 489.9,60 486.1,54.2" fill="#666"/><text x="395" y="115" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">g + 2h</text></g>
+<text x="12" y="472" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo, sem escala — não é desenho da norma.</text>
+</svg>

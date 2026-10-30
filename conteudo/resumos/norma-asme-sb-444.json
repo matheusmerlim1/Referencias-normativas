@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SB-444",
+ "titulo": "SB-444 — Tubos sem costura de ligas Ni-Cr-Mo-Nb (Inconel 625) e Ni-Cr-Mo-Si",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe e tube) sem costura trabalhados a frio das ligas N06625 (Grau 1 recozido; Grau 2 solubilizado) e N06219. Requisitos gerais pela SB-829."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela de química",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N06625 — Cr / Mo / Nb+Ta",
+     "valor": "20,0–23,0 % / 8,0–10,0 % / 3,15–4,15 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N06625 — C máx. / Fe máx.",
+     "valor": "0,10 % / 5,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N06219 — Cr / Mo / Si",
+     "valor": "18,0–22,0 % / 7,0–9,0 % / 0,70–1,10 %",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N06625 Grau 1 (recozido)",
+     "valor": "120 ksi (827) / 60 ksi (414) / 30 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06625 Grau 2 (solubilizado)",
+     "valor": "100 ksi (690) / 40 ksi (276) / 30 %",
+     "item": "Tabela 1"
+    }
+   ]
+  }
+ ]
+}

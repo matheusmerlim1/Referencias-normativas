@@ -1,0 +1,45 @@
+{
+ "id": "ASME-SB-443",
+ "titulo": "SB-443 — Chapas, folhas e tiras de ligas Ni-Cr-Mo-Nb (Inconel 625) e Ni-Cr-Mo-Si",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras laminadas das ligas N06625 e N06219. A N06625 é fornecida em Grau 1 (recozida, serviço até 1100 °F / 593 °C) e Grau 2 (solubilizada, para fluência acima disso)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela de química",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N06625 — Cr / Mo / Nb+Ta",
+     "valor": "20,0–23,0 % / 8,0–10,0 % / 3,15–4,15 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N06625 — C máx. / Fe máx.",
+     "valor": "0,10 % / 5,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N06219 — Cr / Mo / Si",
+     "valor": "18,0–22,0 % / 7,0–9,0 % / 0,70–1,10 %",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Grau 1 (recozido) — Su mín. / Sy mín. / alongamento.",
+   "valores": [
+    {
+     "parametro": "N06625 folha e tira laminadas a frio",
+     "valor": "120 ksi (827) / 60 ksi (414) / 30 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

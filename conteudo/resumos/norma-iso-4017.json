@@ -1,0 +1,52 @@
+{
+ "id": "ISO-4017",
+ "titulo": "ISO 4017:2011 — Parafusos de cabeça sextavada rosqueados até a cabeça, graus A e B",
+ "secoes": [
+  {
+   "titulo": "Escopo e grau",
+   "item": "1; Tab. 3",
+   "texto": "Parafusos sextavados com rosca em todo o comprimento, M1,6 a M64. Grau A (tolerâncias finas) para diâmetros e comprimentos menores; grau B acima. Para rosca parcial, ver ISO 4014.",
+   "valores": [
+    {
+     "parametro": "Grau A",
+     "valor": "d ≤ M24 e l ≤ 10 d ou 150 mm (o menor)",
+     "item": "1"
+    }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg"
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "Tab. 1–2",
+   "texto": "Abertura de chave, altura da cabeça, diâmetro mínimo entre cantos e de assento, raio sob a cabeça e altura do colar; tabela completa na ficha parafusos-porcas-arruelas.",
+   "valores": [
+    {
+     "parametro": "M12 — chave s / cabeça k",
+     "valor": "18 / 7,5 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg#s"
+    },
+    {
+     "parametro": "M12 — e mín. (A / B)",
+     "valor": "20,03 / 19,85 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg#e"
+    },
+    {
+     "parametro": "M20 — chave s / cabeça k",
+     "valor": "30 / 12,5 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg#k"
+    }
+   ]
+  },
+  {
+   "titulo": "Especificação",
+   "item": "4",
+   "texto": "Aço classes 5.6, 8.8, 9.8 e 10.9 (3 a 39 mm), inox A2/A4-70 até 24 mm e A2/A4-50 até 39 mm, ou não ferrosos; rosca 6g.",
+   "valores": []
+  }
+ ]
+}

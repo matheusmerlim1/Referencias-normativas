@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" role="img" aria-label="Anel RTJ tipo R (ASME B16.20) — perfil octogonal e oval">
+<title>Anel RTJ tipo R (ASME B16.20) — perfil octogonal e oval (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Anel RTJ tipo R (ASME B16.20) — perfil octogonal e oval</text>
+<text class="b" x="60" y="70">(a) Octogonal</text>
+<path class="s" d="M160,140 L240,140 L270,200 L270,260 L240,320 L160,320 L130,260 L130,200 z"/>
+<g id="cota-A" class="cota"><line class="e" x1="130" y1="323" x2="130" y2="356"/><line class="e" x1="270" y1="323" x2="270" y2="356"/><line class="d" x1="130" y1="350" x2="270" y2="350" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="200" y="368">A — largura</text></g>
+<g id="cota-H" class="cota"><line class="e" x1="273" y1="140" x2="316" y2="140"/><line class="e" x1="273" y1="320" x2="316" y2="320"/><line class="d" x1="310" y1="140" x2="310" y2="320" marker-start="url(#a)" marker-end="url(#a)"/><text x="317" y="235">H — altura</text></g>
+<g id="cota-C" class="cota"><line class="e" x1="160" y1="137" x2="160" y2="109"/><line class="e" x1="240" y1="137" x2="240" y2="109"/><line class="d" x1="160" y1="115" x2="240" y2="115" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="200" y="108">C — face plana</text></g>
+<g id="cota-ang" class="cota"><path class="d" d="M240,190 A50,50 0 0,0 259.5,186" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="254" y="213.6">ângulo dos flancos</text></g>
+<g id="cota-R1" class="cota"><line class="d" x1="60" y1="165" x2="130" y2="230" marker-end="url(#a)"/><text class="en" x="56" y="170">R1</text></g>
+<text class="b" x="520" y="70">(b) Oval</text>
+<path class="s" d="M600,140 Q600,320 660,320 Q720,320 720,140 Q720,120 660,120 Q600,120 600,140 z"/>
+<g id="cota-B" class="cota"><line class="e" x1="723" y1="120" x2="766" y2="120"/><line class="e" x1="723" y1="320" x2="766" y2="320"/><line class="d" x1="760" y1="120" x2="760" y2="320" marker-start="url(#a)" marker-end="url(#a)"/><text x="767" y="225">B — altura</text></g>
+<g id="cota-A-oval" class="cota"><line class="e" x1="600" y1="323" x2="600" y2="356"/><line class="e" x1="720" y1="323" x2="720" y2="356"/><line class="d" x1="600" y1="350" x2="720" y2="350" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="660" y="368">A</text></g>
+<text class="n" x="60" y="420">Nº do anel (R…) por NPS e classe: tabela da ficha; marcação com R + nº na periferia do flange.</text>
+<text class="n" x="20" y="448">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

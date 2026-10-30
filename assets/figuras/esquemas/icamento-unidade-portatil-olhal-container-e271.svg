@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Olhal de container offshore — grandezas da verificação simplificada (DNV-ST-E271)">
+<title>Olhal de container offshore — grandezas da verificação simplificada (DNV-ST-E271) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Olhal de container offshore — grandezas da verificação simplificada (DNV-ST-E271)</text>
+<path class="s" d="M90,390 L90,370 L132.3,167.5 A110,110 0 0 1 347.7,167.5 L390,370 L390,390 z"/>
+<circle class="w" cx="240" cy="190" r="42"/>
+<circle class="sl" cx="240" cy="182" r="34"/>
+<rect x="50" y="390" width="380" height="14" fill="url(#hach)" stroke="#666" stroke-width="1"/>
+<g id="cota-DH" class="cota"><line class="e" x1="198" y1="193" x2="198" y2="261"/><line class="e" x1="282" y1="193" x2="282" y2="261"/><line class="d" x1="198" y1="255" x2="282" y2="255" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="240" y="273">DH</text></g>
+<g id="cota-H" class="cota"><line class="d" x1="240" y1="190" x2="295" y2="94.7" marker-start="url(#a)" marker-end="url(#a)"/><text x="300" y="128">H</text></g>
+<g id="cota-folga" class="cota"><line class="d" x1="180" y1="295" x2="208" y2="205" marker-end="url(#a)"/><text class="m" x="180" y="300">folga pino × furo</text></g>
+<text class="n m" x="180" y="318">(pino Dpin)</text>
+<rect class="s" x="600" y="80" width="40" height="310"/>
+<path class="wd" d="M600,390 L588,390 L600,378 z"/>
+<path class="wd" d="M640,390 L652,390 L640,378 z"/>
+<line class="g" x1="550" y1="390" x2="690" y2="390"/>
+<g id="cota-t" class="cota"><line class="d" x1="574" y1="270" x2="600" y2="270" marker-end="url(#a)"/><line class="d" x1="666" y1="270" x2="640" y2="270" marker-end="url(#a)"/><line class="d" x1="600" y1="270" x2="640" y2="270"/><text x="670" y="275">t</text></g>
+<text class="n m" x="240" y="62">H = menor distância do centro do furo à borda</text>
+<text class="b m" x="620" y="425">Vista lateral</text>
+<text class="n" x="20" y="438">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

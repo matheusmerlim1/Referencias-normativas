@@ -1,0 +1,28 @@
+{
+ "id": "ASME-SFA-5.01",
+ "titulo": "SFA-5.01 — Diretrizes para aquisição de metais de adição (AWS A5.01)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Documento que, junto com a especificação AWS do consumível, padroniza o pedido de metal de adição: classificação (da especificação AWS), classificação do lote (Seção 5), nível de ensaios (cronogramas de ensaio) e certificação."
+  },
+  {
+   "titulo": "Classificação de lote e cronogramas",
+   "item": "5, Tabela 2",
+   "texto": "Define classes de lote (de 'conforme fabricante' a lote controlado por corrida/matéria-prima) e cronogramas de ensaio (I a K…) que dizem quais ensaios de cada especificação devem ser feitos no lote fornecido.",
+   "valores": [
+    {
+     "parametro": "Cronograma I",
+     "valor": "ensaios exigidos pela especificação de classificação, conforme Tabela 2",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Uso",
+   "item": "—",
+   "texto": "O comprador escolhe no pedido a classe de lote e o cronograma; o fornecedor certifica a conformidade nesse nível."
+  }
+ ]
+}

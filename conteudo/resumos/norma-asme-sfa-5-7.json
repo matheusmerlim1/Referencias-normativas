@@ -1,0 +1,28 @@
+{
+ "id": "ASME-SFA-5.7",
+ "titulo": "SFA-5.7 — Varetas e arames nus de cobre e ligas de cobre (AWS A5.7)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Varetas e arames nus de cobre e ligas de cobre para soldagem a plasma, MIG/MAG (GMAW) e TIG (GTAW)."
+  },
+  {
+   "titulo": "Classificações e composição",
+   "item": "Tabela 1",
+   "texto": "ERCu (cobre), ERCuSi-A (bronze ao silício), ERCuSn-A/C (bronze fosforoso), ERCuNi (cupro-níquel), ERCuAl-A1/A2/A3 (bronze de alumínio), ERCuNiAl, ERCuMnNiAl. Classificação pela composição do arame.",
+   "valores": [
+    {
+     "parametro": "ERCu — Cu mín. / Sn máx. / Mn máx.",
+     "valor": "98,0 % / 1,0 % / 0,50 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "—",
+   "texto": "Análise química do arame; propriedades do metal depositado apenas como informação."
+  }
+ ]
+}

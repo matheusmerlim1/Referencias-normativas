@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-label="Desvio do cabo em relação à ranhura do tambor (α1, α2)">
+<title>Desvio do cabo em relação à ranhura do tambor (α1, α2) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Desvio do cabo em relação à ranhura do tambor (α1, α2)</text>
+<rect class="sl" x="100" y="250" width="560" height="80"/>
+<path d="M110,250 A11,11 0 0 0 132,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M132,250 A11,11 0 0 0 154,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M154,250 A11,11 0 0 0 176,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M176,250 A11,11 0 0 0 198,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M198,250 A11,11 0 0 0 220,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M220,250 A11,11 0 0 0 242,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M242,250 A11,11 0 0 0 264,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M264,250 A11,11 0 0 0 286,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M286,250 A11,11 0 0 0 308,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M308,250 A11,11 0 0 0 330,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M330,250 A11,11 0 0 0 352,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M352,250 A11,11 0 0 0 374,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M374,250 A11,11 0 0 0 396,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M396,250 A11,11 0 0 0 418,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M418,250 A11,11 0 0 0 440,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M440,250 A11,11 0 0 0 462,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M462,250 A11,11 0 0 0 484,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M484,250 A11,11 0 0 0 506,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M506,250 A11,11 0 0 0 528,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M528,250 A11,11 0 0 0 550,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M550,250 A11,11 0 0 0 572,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M572,250 A11,11 0 0 0 594,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M594,250 A11,11 0 0 0 616,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M616,250 A11,11 0 0 0 638,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<path d="M638,250 A11,11 0 0 0 660,250" fill="none" stroke="#666" stroke-width="1.2"/>
+<line class="c" x1="380" y1="250" x2="380" y2="60"/>
+<line x1="380" y1="250" x2="320" y2="70" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="380" y1="250" x2="440" y2="70" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<g id="cota-alfa1" class="cota"><path class="d" d="M380,110 A140,140 0 0,0 335.7,117.2" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="354.4" y="97.1">α1</text></g>
+<g id="cota-alfa2" class="cota"><path class="d" d="M424.3,117.2 A140,140 0 0,0 380,110" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="405.6" y="97.1">α2</text></g>
+<text class="n m" x="380" y="360">tambor ranhurado (planta) — cabo indo para a polia nos dois extremos do tambor</text>
+<text class="n" x="20" y="408">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

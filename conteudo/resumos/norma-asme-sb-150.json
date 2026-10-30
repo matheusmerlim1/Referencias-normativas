@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SB-150",
+ "titulo": "SB-150 — Barras, vergalhões e perfis de bronze de alumínio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras e perfis de bronze de alumínio (UNS C61300, C61400, C61900, C62300, C62400, C63000, C63020, C63200, C64200, C64210). Material para forjamento a quente é de outra norma. Requisitos gerais pela SB-249."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "C63020 é temperado e revenido para dureza mínima.",
+   "valores": [
+    {
+     "parametro": "C63020 — têmpera",
+     "valor": "1550/1650 °F (850/900 °C), 2 h mín., água",
+     "item": "5.1.1"
+    },
+    {
+     "parametro": "C63020 — dureza mín.",
+     "valor": "26 HRC",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Al por liga:",
+   "valores": [
+    {
+     "parametro": "C61400",
+     "valor": "6,0–8,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C62300",
+     "valor": "8,5–10,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C63000",
+     "valor": "9,0–11,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C64200",
+     "valor": "6,3–7,6 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades e ensaios",
+   "item": "8, 9, Tabelas 2 e 3",
+   "texto": "Su, escoamento a 0,5 % de extensão e alongamento por liga, têmpera e bitola (Tabela 2); dureza Rockwell para C64200/C64210 (Tabela 3). Ensaio de nitrato mercuroso quando pedido."
+  }
+ ]
+}

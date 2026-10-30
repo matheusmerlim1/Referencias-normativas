@@ -1,0 +1,1233 @@
+{
+ "id": "NR-12",
+ "titulo": "NR-12 — Segurança no trabalho em máquinas e equipamentos",
+ "secoes": [
+  {
+   "titulo": "Princípios gerais",
+   "item": "12.1",
+   "texto": "A NR-12 fixa medidas mínimas de proteção para projetar, fabricar, vender e usar máquinas e equipamentos, novos ou usados, em qualquer atividade. 'Utilização' abrange do transporte e montagem até a desmontagem e o descarte. Ficam de fora máquinas movidas a força humana ou animal, peças de museu, eletrodomésticos, equipamentos estáticos, ferramentas portáteis elétricas conforme norma tipo C e máquinas certificadas pelo INMETRO. A proteção segue a ordem: coletiva, depois administrativa e, por último, individual. Máquinas conformes à ISO 13849-1/-2 (comandos de segurança) e robôs conformes à ISO 10218-1/-2 e ISO/TS 15066 são aceitos como atendendo à NR.",
+   "valores": [
+    {
+     "parametro": "Ordem de prioridade das medidas de proteção",
+     "valor": "1) coletivas; 2) administrativas/organização do trabalho; 3) individuais",
+     "item": "12.1.8"
+    },
+    {
+     "parametro": "Marco de referência para máquinas existentes",
+     "valor": "NR-12 da Portaria SIT 197, de 17/12/2010 (DOU 24/12/2010), e normas técnicas da época de fabricação",
+     "item": "12.1.9.2"
+    },
+    {
+     "parametro": "Partes de comando relacionadas à segurança — presunção de conformidade",
+     "valor": "NBR ISO 13849-1 e -2",
+     "item": "12.1.11"
+    },
+    {
+     "parametro": "Sistemas robóticos — presunção de conformidade",
+     "valor": "ABNT ISO 10218-1, ISO 10218-2 e ISO/TS 15066",
+     "item": "12.1.12"
+    }
+   ]
+  },
+  {
+   "titulo": "Arranjo físico e instalações",
+   "item": "12.2",
+   "texto": "Áreas de circulação são demarcadas e mantidas livres, e o espaço entre máquinas deve permitir operar, manter e limpar com segurança. O piso suporta as cargas e não oferece risco. Máquinas fixas não podem tombar nem se deslocar sozinhas; as instaladas após 2010 seguem as instruções de fundação e fixação do fabricante ou projeto de profissional habilitado. Não pode haver carga suspensa passando sobre trabalhadores.",
+   "valores": [
+    {
+     "parametro": "Máquinas móveis com rodízios",
+     "valor": "≥ 2 rodízios com trava",
+     "item": "12.2.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Instalações e dispositivos elétricos",
+   "item": "12.3",
+   "texto": "Os circuitos de comando e potência devem evitar choque, incêndio e explosão, com aterramento das partes metálicas que possam ficar energizadas e proteção extra onde houver água ou agentes corrosivos. Cabos ficam protegidos contra dano mecânico, calor e óleo, longe de partes móveis e feitos de material que não propague fogo. Quadros ficam fechados, sinalizados, limpos e com grau de proteção adequado; há proteção contra sobrecorrente e, quando necessário, contra sobretensão e falta/inversão de fase. Baterias ficam fixas, acessíveis do solo ou de plataforma e com o polo positivo protegido.",
+   "valores": [
+    {
+     "parametro": "Proibições",
+     "valor": "chave geral como partida/parada; chave tipo faca; partes energizadas expostas",
+     "item": "12.3.8"
+    }
+   ]
+  },
+  {
+   "titulo": "Dispositivos de partida, acionamento e parada",
+   "item": "12.4",
+   "texto": "Os comandos ficam fora da zona de perigo, podem ser desligados por outra pessoa em emergência, evitam acionamento involuntário e dificultam a burla; a máquina não parte sozinha ao ser energizada. O comando bimanual exige as duas mãos quase ao mesmo tempo, só mantém o ciclo enquanto ambos estão pressionados e só rearma depois de soltos os dois; há um bimanual por operador exposto. Máquinas com vários modos de operação têm seletor bloqueável, e partidas de conjuntos grandes são precedidas de alarme. Se a análise de risco pedir, o circuito de partida do motor deve ser redundante e monitorado.",
+   "valores": [
+    {
+     "parametro": "Simultaneidade do comando bimanual",
+     "valor": "≤ 0,5 s entre os dois atuadores",
+     "item": "12.4.3 a)"
+    },
+    {
+     "parametro": "Tensão da interface de operação (máquinas fabricadas a partir de 24/03/2012)",
+     "valor": "extrabaixa tensão: ≤ 25 V CA ou ≤ 60 V CC",
+     "item": "12.4.13 b)"
+    },
+    {
+     "parametro": "Interface de máquinas fabricadas até 24/03/2012",
+     "valor": "≤ 25 V CA ou ≤ 60 V CC quando a apreciação de risco indicar proteção contra choque (ou outra medida normalizada)",
+     "item": "12.4.13.1 b) e 12.4.13.1.1"
+    },
+    {
+     "parametro": "Vários bimanuais simultâneos",
+     "valor": "seletor bloqueável do nº de dispositivos e sinal luminoso de funcionamento",
+     "item": "12.4.7.1 a 12.4.7.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Sistemas de segurança",
+   "item": "12.5",
+   "texto": "Toda zona de perigo recebe proteção fixa, proteção móvel intertravada ou dispositivo de segurança, escolhidos pela categoria exigida na apreciação de risco e sob responsabilidade de profissional habilitado. Proteção fixa só sai com ferramenta; se o acesso for necessário mais de uma vez por turno, a proteção deve ser móvel e intertravada, com bloqueio quando a zona fica acessível antes de o perigo cessar. Fechar a proteção não pode, sozinho, dar partida. Transmissões de força são protegidas por todos os lados, e proteções de material vazado respeitam as distâncias de segurança normalizadas. Se alguém puder ficar dentro da área protegida, exige-se detecção de presença ou rearme manual com visão total da zona, além de parada de emergência interna.",
+   "valores": [
+    {
+     "parametro": "Acesso à zona de perigo que exige proteção móvel",
+     "valor": "mais de 1 vez por turno de trabalho",
+     "item": "12.5.6"
+    },
+    {
+     "parametro": "Intertravamento em série na mesma interface",
+     "valor": "permitido conforme ISO/TR 24119",
+     "item": "12.5.6.1"
+    },
+    {
+     "parametro": "Rearme quando não há visão completa da zona",
+     "valor": "detecção de presença ou duplo rearme (ida obrigatória à zona)",
+     "item": "12.5.13.2"
+    },
+    {
+     "parametro": "Escada com risco de alcance de zona perigosa pelos espelhos",
+     "valor": "proteção no fundo dos degraus (espelho fechado)",
+     "item": "12.5.15"
+    }
+   ]
+  },
+  {
+   "titulo": "Dispositivos de parada de emergência",
+   "item": "12.6",
+   "texto": "Toda máquina tem ao menos uma parada de emergência, visível, de fácil acesso e desobstruída, que prevalece sobre os outros comandos e funciona em qualquer modo. Ela é medida complementar, nunca substitui a proteção, e não pode ser usada para dar partida. O acionador fica retido até ser destravado intencionalmente, e o religamento exige rearme manual após corrigida a causa. Em cabos de emergência, a chave trabalha tracionada (atua se o cabo romper ou afrouxar) e todo o cabo deve ser visível do ponto de rearme. Máquinas autopropelidas e aquelas em que a parada não reduz o risco são dispensadas.",
+   "valores": [
+    {
+     "parametro": "Quantidade mínima",
+     "valor": "≥ 1 dispositivo de parada de emergência por máquina",
+     "item": "12.6.1"
+    },
+    {
+     "parametro": "Espaçamento entre chaves de emergência a cabo",
+     "valor": "máximo recomendado pelo fabricante",
+     "item": "12.6.6 c)"
+    }
+   ]
+  },
+  {
+   "titulo": "Componentes pressurizados",
+   "item": "12.7",
+   "texto": "Mangueiras e tubulações sob pressão são protegidas contra impacto e posicionadas para que ruptura ou vazamento não atinjam pessoas; mangueiras indicam a pressão máxima de trabalho. O sistema não pode exceder a pressão máxima nem gerar perigo com queda de pressão, e a pressão residual de acumuladores não pode causar risco ao isolar as energias. Pneus são despressurizados (retirando o núcleo da válvula) antes da desmontagem e inflados dentro de gaiola.",
+   "valores": [
+    {
+     "parametro": "Força máxima considerada segura em partes móveis",
+     "valor": "≤ 150 N",
+     "item": "12.7.8"
+    },
+    {
+     "parametro": "Pressão de contato máxima considerada segura",
+     "valor": "≤ 50 N/cm²",
+     "item": "12.7.8"
+    },
+    {
+     "parametro": "Energia máxima considerada segura",
+     "valor": "≤ 10 J",
+     "item": "12.7.8"
+    },
+    {
+     "parametro": "Sistemas de dois estágios de pressão — fase de aproximação",
+     "valor": "mesmos limites: 150 N, 50 N/cm², 10 J",
+     "item": "12.7.8.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Transportadores de materiais",
+   "item": "12.8",
+   "texto": "Pontos de esmagamento, agarramento e aprisionamento acessíveis em transportadores contínuos são protegidos. Correias altas exigem passarela lateral em toda a extensão. É proibido parar o transportador por reversão de movimento e circular sobre partes móveis não projetadas para isso. Transportadores acessíveis têm parada de emergência ao longo do percurso, e correias com risco de desalinhamento ou sobrecarga têm dispositivos que as desligam. Ninguém fica sob carga suspensa.",
+   "valores": [
+    {
+     "parametro": "Correia alta dispensada de proteção (sem pessoas na zona de perigo)",
+     "valor": "borda da correia > 2,70 m do piso",
+     "item": "12.8.1.1"
+    },
+    {
+     "parametro": "Correia alta — passarelas",
+     "valor": "borda > 2,70 m do piso: passarelas nos dois lados, em toda a extensão",
+     "item": "12.8.2"
+    },
+    {
+     "parametro": "Passarela em um só lado",
+     "valor": "correia com largura ≤ 762 mm (30 in), com plataforma móvel para intervenções",
+     "item": "12.8.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Aspectos ergonômicos e riscos adicionais",
+   "item": "12.9 e 12.10",
+   "texto": "O trabalho em máquinas segue a NR-17, e as máquinas novas seguem as normas ergonômicas aplicáveis. São riscos adicionais a controlar: agentes químicos e biológicos, radiações, vibração, ruído, calor, inflamáveis e explosivos e superfícies quentes. Superfícies acima do limiar de queimadura recebem isolamento, barreira ou redução de temperatura.",
+   "valores": []
+  },
+  {
+   "titulo": "Manutenção, inspeção, ajuste, reparo e limpeza",
+   "item": "12.11",
+   "texto": "A manutenção segue a forma e a periodicidade do fabricante e é registrada (intervenção, data, serviço, peças, condição de segurança e responsável), com registro disponível a trabalhadores, CIPA, SESMT e fiscalização. Intervenções são feitas com a máquina parada, energias isoladas e descarregadas, bloqueio com etiqueta (data, hora, motivo e responsável) e travas mecânicas contra queda de partes basculantes. Quando for preciso acessar a zona de perigo com a máquina em movimento, usa-se modo de manutenção selecionável e bloqueável, com comando de ação continuada e velocidade reduzida ou movimento limitado. ENDs entram quando o fabricante indicar, e peças defeituosas de segurança são trocadas de imediato por originais ou equivalentes.",
+   "valores": [
+    {
+     "parametro": "Dados mínimos do registro de manutenção",
+     "valor": "7: intervenção; data; serviço; peças; condições de segurança; conclusão sobre a segurança; responsável",
+     "item": "12.11.2"
+    },
+    {
+     "parametro": "Etiqueta de bloqueio",
+     "valor": "horário e data do bloqueio, motivo da manutenção e nome do responsável",
+     "item": "12.11.3 b)"
+    }
+   ]
+  },
+  {
+   "titulo": "Sinalização",
+   "item": "12.12",
+   "texto": "Máquinas e instalações têm sinalização de segurança (cores, símbolos, textos, sinais luminosos e sonoros) visível, destacada e compreensível, em português, indicando o risco e a parte da máquina — não basta escrever 'perigo'. Alarmes ativos anunciam partida, parada ou sobrevelocidade sem ambiguidade. Cada máquina tem placa indelével de identificação.",
+   "valores": [
+    {
+     "parametro": "Placa — máquinas fabricadas a partir de 24/12/2011",
+     "valor": "razão social, CNPJ e endereço; tipo, modelo e capacidade; nº de série e ano; registro no CREA; peso da máquina",
+     "item": "12.12.7"
+    },
+    {
+     "parametro": "Placa — máquinas fabricadas antes de 24/12/2011",
+     "valor": "tipo, modelo e capacidade; nº de série ou identificação dada pela empresa",
+     "item": "12.12.7.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Manuais",
+   "item": "12.13",
+   "texto": "O fabricante ou importador entrega manual em português, claro e ilustrado, com os avisos de segurança destacados, disponível no local de uso. Se o manual sumir, o empregador o reconstitui sob responsabilidade de profissional qualificado ou habilitado; ME/EPP podem substituí-lo por ficha de informação para máquinas antigas.",
+   "valores": [
+    {
+     "parametro": "Conteúdo mínimo (máquinas de 24/06/2012 até a vigência do item)",
+     "valor": "16 tópicos: identificação, normas de projeto, diagramas, uso previsto, riscos e emissões, medidas de segurança, limites, manutenção, emergência, vida útil etc.",
+     "item": "12.13.4 a)–p)"
+    },
+    {
+     "parametro": "Corte de data para ficha de informação em ME/EPP",
+     "valor": "máquinas fabricadas antes de 24/06/2012",
+     "item": "12.13.5.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Procedimentos de trabalho e segurança",
+   "item": "12.14",
+   "texto": "Cada máquina tem procedimentos padronizados, derivados da apreciação de risco, que complementam mas não substituem as proteções coletivas. No início do turno ou após nova preparação, o operador faz inspeção rápida (sem registro obrigatório) e interrompe o trabalho se achar anomalia. Serviços de risco que não sejam operação são feitos sob supervisão e anuência de profissional habilitado ou qualificado.",
+   "valores": [
+    {
+     "parametro": "Inspeção rotineira do operador",
+     "valor": "no início de cada turno ou após nova preparação da máquina",
+     "item": "12.14.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Projeto, fabricação, comercialização e cessão",
+   "item": "12.15",
+   "texto": "Máquinas projetadas desde a Portaria 197/2010 devem ser intrinsecamente seguras em todas as fases de vida, sem permitir montagem errada (ex.: sentido de rotação) e com meios de içamento e transporte. É proibido fabricar, importar, vender, leiloar, alugar ou ceder máquina que não cumpra a NR-12.",
+   "valores": []
+  },
+  {
+   "titulo": "Capacitação",
+   "item": "12.16",
+   "texto": "Só opera ou intervém quem for habilitado, qualificado ou capacitado e autorizado. A capacitação é anterior à função, gratuita, dentro da jornada, com carga horária definida pelo empregador e conteúdo do Anexo II, sob supervisão de profissional habilitado. Vale apenas para o empregador que a promoveu, com exceções para ME/EPP capacitados em escola profissional oficial. Há reciclagem sempre que mudam máquina, método ou processo, e a função fica anotada no registro e na CTPS.",
+   "valores": [
+    {
+     "parametro": "Experiência aceita como capacitação (até a vigência da NR)",
+     "valor": "≥ 2 anos comprovados na atividade + reciclagem",
+     "item": "12.16.7"
+    },
+    {
+     "parametro": "Cartão de identificação do operador de autopropelida",
+     "valor": "nome, função e foto; renovado no máximo a cada 1 ano com exame médico",
+     "item": "12.16.10"
+    },
+    {
+     "parametro": "Curso de operador de injetora",
+     "valor": "≥ 8 h por tipo de máquina do Anexo IX",
+     "item": "12.16.11"
+    },
+    {
+     "parametro": "Instrutor do curso de injetora",
+     "valor": "formação técnica de nível médio, conhecimento de máquinas de plástico e de normas, capacitação específica",
+     "item": "12.16.11.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Outros requisitos e disposições finais",
+   "item": "12.17 e 12.18",
+   "texto": "Ferramentas e acessórios devem ser adequados à operação, e é proibido levar ferramenta no bolso. Máquinas rebocadas têm engate padronizado, apoio para barras pesadas e engate feito com o equipamento calçado. Os anexos prevalecem sobre a parte geral para as máquinas que tratam. O empregador mantém lista atualizada das máquinas e a documentação disponível para CIPA, sindicato e fiscalização; autopropelidas agroflorestais seguem o Anexo XI.",
+   "valores": []
+  },
+  {
+   "titulo": "Anexo I — Detectores de presença optoeletrônicos (cortina de luz)",
+   "item": "Anexo I",
+   "texto": "A cortina de luz deve ficar a uma distância mínima da zona de perigo que dê tempo de a máquina parar antes de a mão chegar, calculada pela ISO 13855 como velocidade de aproximação vezes tempo total de parada mais uma distância adicional que depende da resolução da cortina. A área de detecção não pode deixar espaço morto entre a cortina e a máquina. Em dobradeiras hidráulicas, a cortina multizona exige procedimento conforme EN 12622, testes a cada troca de ferramenta e no início do turno e pedal de três posições.",
+   "valores": [
+    {
+     "parametro": "Fórmula da distância mínima (aproximação perpendicular)",
+     "valor": "S = K × T + C (S em mm; K em mm/s; T em s; C em mm)",
+     "item": "Anexo I, A.1",
+     "cota": "esquemas/resumo-nr-12-cortina-de-luz.svg#S"
+    },
+    {
+     "parametro": "K — cortina horizontal",
+     "valor": "1 600 mm/s",
+     "item": "Anexo I, A.1.1"
+    },
+    {
+     "parametro": "K — cortina vertical com S ≤ 500 mm",
+     "valor": "2 000 mm/s",
+     "item": "Anexo I, A.1.1"
+    },
+    {
+     "parametro": "K — cortina vertical com S > 500 mm",
+     "valor": "1 600 mm/s (pode ser usado)",
+     "item": "Anexo I, A.1.1"
+    },
+    {
+     "parametro": "C — capacidade de detecção ≤ 14 mm",
+     "valor": "0 mm",
+     "item": "Anexo I, A, Quadro I",
+     "cota": "esquemas/resumo-nr-12-cortina-de-luz.svg#C"
+    },
+    {
+     "parametro": "C — capacidade de detecção > 14 mm e ≤ 20 mm",
+     "valor": "80 mm",
+     "item": "Anexo I, A, Quadro I",
+     "cota": "esquemas/resumo-nr-12-cortina-de-luz.svg#C"
+    },
+    {
+     "parametro": "C — capacidade de detecção > 20 mm e ≤ 30 mm",
+     "valor": "130 mm",
+     "item": "Anexo I, A, Quadro I",
+     "cota": "esquemas/resumo-nr-12-cortina-de-luz.svg#C"
+    },
+    {
+     "parametro": "C — capacidade de detecção > 30 mm e ≤ 40 mm",
+     "valor": "240 mm",
+     "item": "Anexo I, A, Quadro I",
+     "cota": "esquemas/resumo-nr-12-cortina-de-luz.svg#C"
+    },
+    {
+     "parametro": "C — capacidade de detecção > 40 mm",
+     "valor": "850 mm",
+     "item": "Anexo I, A, Quadro I",
+     "cota": "esquemas/resumo-nr-12-cortina-de-luz.svg#C"
+    },
+    {
+     "parametro": "Pedal de 3 posições (dobradeira com AOPD multizona)",
+     "valor": "1ª = parar; 2ª = operar; 3ª = parada de emergência (passa por ponto de pressão)",
+     "item": "Anexo I, B.2"
+    },
+    {
+     "parametro": "Força para levar o pedal à 3ª posição",
+     "valor": "≤ 350 N",
+     "item": "Anexo I, B.2.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-12-cortina-de-luz.svg"
+   ]
+  },
+  {
+   "titulo": "Anexo II — Conteúdo da capacitação",
+   "item": "Anexo II",
+   "texto": "O curso de operador tem parte teórica e prática e cobre: riscos de cada máquina e suas proteções, como e quando uma proteção pode ser retirada e por quem, o que fazer se ela falhar, método seguro, permissão de trabalho e bloqueio para limpeza e manutenção. Para autopropelidas, somam-se noções de trânsito e de legislação, EPC/EPI, inspeção, sinalização, emergência e primeiros socorros; a parte prática é supervisionada e documentada, podendo ser feita na própria máquina.",
+   "valores": [
+    {
+     "parametro": "Tópicos mínimos — operador de máquina",
+     "valor": "9 (alíneas a a i)",
+     "item": "Anexo II, 1"
+    },
+    {
+     "parametro": "Tópicos adicionais — autopropelidas",
+     "valor": "8 (alíneas a a h)",
+     "item": "Anexo II, 1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo III — Meios de acesso: regras gerais e escolha pelo ângulo",
+   "item": "Anexo III, 1 a 5",
+   "texto": "Todo ponto de operação, abastecimento, ajuste e manutenção habitual deve ter acesso fixo e seguro: elevador, rampa, passarela, plataforma ou escada de degraus. A escada tipo marinheiro só entra quando os outros meios forem tecnicamente inviáveis. Para manutenção eventual valem plataformas móveis ou elevatórias estáveis. O tipo de acesso é escolhido pela inclinação; pisos e degraus são antiderrapantes, desobstruídos e dimensionados para os esforços. Máquinas que atendem às normas técnicas de acesso vigentes em 30/07/2019 ficam dispensadas do anexo.",
+   "valores": [
+    {
+     "parametro": "Rampa — faixa de inclinação",
+     "valor": "0° a 20° (com peças transversais na faixa de 10° a 20°)",
+     "item": "Anexo III, 2 e Figura 1",
+     "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo"
+    },
+    {
+     "parametro": "Escada com espelho — ângulo de lance",
+     "valor": "20° a 45° (preferencial 30° a 38°)",
+     "item": "Anexo III, 2 e Figura 1",
+     "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo-com-espelho"
+    },
+    {
+     "parametro": "Escada sem espelho — ângulo de lance",
+     "valor": "45° a 75° (preferencial 45° a 60°)",
+     "item": "Anexo III, 2 e Figura 1",
+     "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo-sem-espelho"
+    },
+    {
+     "parametro": "Escada tipo marinheiro — ângulo de lance",
+     "valor": "75° a 90°",
+     "item": "Anexo III, 2 e Figura 1; Anexo IV"
+    },
+    {
+     "parametro": "Dispensa por norma técnica de acesso",
+     "valor": "normas vigentes em 30/07/2019 (ou substitutas)",
+     "item": "Anexo III, 1.6"
+    }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-angulo-tipo.svg"
+   ]
+  },
+  {
+   "titulo": "Anexo III — Rampas",
+   "item": "Anexo III, 6",
+   "texto": "Quando for preciso mais aderência, rampas inclinadas entre 10° e 20° recebem ripas transversais horizontais. Rampas mais inclinadas que 20° são proibidas; as anteriores ao item adotam medida equivalente.",
+   "valores": [
+    {
+     "parametro": "Inclinação que pede peças transversais",
+     "valor": "10° a 20°",
+     "item": "Anexo III, 6",
+     "cota": "esquemas/resumo-nr-12-rampa-pecas-transversais.svg#alfa"
+    },
+    {
+     "parametro": "Espaçamento entre peças transversais (T)",
+     "valor": "0,40 m a 0,50 m",
+     "item": "Anexo III, 6",
+     "cota": "esquemas/resumo-nr-12-rampa-pecas-transversais.svg#T"
+    },
+    {
+     "parametro": "Altura das peças transversais (h)",
+     "valor": "0,01 m a 0,02 m",
+     "item": "Anexo III, 6",
+     "cota": "esquemas/resumo-nr-12-rampa-pecas-transversais.svg#h"
+    },
+    {
+     "parametro": "Inclinação máxima da rampa",
+     "valor": "≤ 20° (acima disso é proibido)",
+     "item": "Anexo III, 6.1",
+     "cota": "esquemas/resumo-nr-12-rampa-pecas-transversais.svg#alfa"
+    }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-12-rampa-pecas-transversais.svg"
+   ]
+  },
+  {
+   "titulo": "Anexo III — Proteção contra quedas (guarda-corpo)",
+   "item": "Anexo III, 7 a 9",
+   "texto": "Passarelas, plataformas, rampas e escadas de degraus têm guarda-corpo resistente às intempéries e aos esforços, com travessão superior sem superfície plana, travessão intermediário e rodapé. Se houver risco de queda de objetos, o vão é fechado por painel ou tela. Plataformas de abastecimento ou que acumulam sujeira podem usar a alternativa da Figura 3, com barra superior mais baixa. Escada marinheiro e elevador não seguem este item.",
+   "valores": [
+    {
+     "parametro": "Travessão superior — altura",
+     "valor": "1,10 m a 1,20 m, em toda a extensão e dos dois lados",
+     "item": "Anexo III, 7 c)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#b"
+    },
+    {
+     "parametro": "Travessão superior — meios de acesso anteriores a 24/12/2010",
+     "valor": "≥ 1,00 m",
+     "item": "Anexo III, 7.1",
+     "cota": "esquemas/escada-degraus-corrimao.svg#b"
+    },
+    {
+     "parametro": "Travessão intermediário — altura",
+     "valor": "0,70 m",
+     "item": "Anexo III, 7 e)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#intermediario"
+    },
+    {
+     "parametro": "Rodapé — altura",
+     "valor": "≥ 0,20 m",
+     "item": "Anexo III, 7 e)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#rodape"
+    },
+    {
+     "parametro": "Alternativa (Figura 3) — barra superior H",
+     "valor": "1 000 mm a 1 100 mm",
+     "item": "Anexo III, 9 e Figura 3",
+     "cota": "esquemas/escada-degraus-corrimao.svg#b"
+    },
+    {
+     "parametro": "Alternativa (Figura 3) — barra intermediária e vãos",
+     "valor": "a 0,5 H; vão livre ≤ 500 mm entre barras (leitura da figura)",
+     "item": "Anexo III, Figura 3",
+     "cota": "esquemas/escada-degraus-corrimao.svg#intermediario"
+    },
+    {
+     "parametro": "Alternativa (Figura 3) — rodapé",
+     "valor": "topo ≥ 75 mm acima da plataforma; folga ≤ 50 mm (leitura da figura)",
+     "item": "Anexo III, Figura 3",
+     "cota": "esquemas/escada-degraus-corrimao.svg#rodape"
+    },
+    {
+     "parametro": "Alternativa (Figura 3) — diâmetro da barra superior",
+     "valor": "25 mm a 38 mm (leitura da figura)",
+     "item": "Anexo III, Figura 3",
+     "cota": "esquemas/escada-degraus-corrimao.svg#diametro"
+    },
+    {
+     "parametro": "Alternativa (Figura 3) — afastamento das barras à borda",
+     "valor": "≤ 50 mm (leitura da figura)",
+     "item": "Anexo III, Figura 3"
+    }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-corrimao.svg"
+   ]
+  },
+  {
+   "titulo": "Anexo III — Passarelas e plataformas",
+   "item": "Anexo III, 10",
+   "texto": "Passarelas, plataformas e rampas têm largura útil mínima e drenagem quando necessário. A largura pode ser reduzida em trechos curtos, em espaços restritos por tubos ou cabos e em instalações anteriores a 2010.",
+   "valores": [
+    {
+     "parametro": "Largura útil mínima",
+     "valor": "≥ 0,60 m",
+     "item": "Anexo III, 10 a)",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Largura útil reduzida (comprimento < 2,00 m ou espaço restrito)",
+     "valor": "≥ 0,50 m",
+     "item": "Anexo III, 10.1",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Largura útil — instaladas antes de 24/12/2010",
+     "valor": "≥ 0,50 m",
+     "item": "Anexo III, 10.2",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-largura-corte.svg"
+   ]
+  },
+  {
+   "titulo": "Anexo III — Escadas de degraus sem espelho",
+   "item": "Anexo III, 11",
+   "texto": "Degraus e lances são uniformes, nivelados e sem saliências; o passo deve atender a uma relação entre profundidade livre e altura do degrau, e um degrau não pode recuar em relação ao de cima.",
+   "valores": [
+    {
+     "parametro": "Largura útil mínima",
+     "valor": "≥ 0,60 m",
+     "item": "Anexo III, 11 a)",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Largura útil — lance único com altura < 1,50 m",
+     "valor": "≥ 0,50 m",
+     "item": "Anexo III, 11.1",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Profundidade mínima do degrau",
+     "valor": "≥ 0,15 m",
+     "item": "Anexo III, 11 b)",
+     "cota": "esquemas/escada-degraus-degrau.svg#t"
+    },
+    {
+     "parametro": "Altura máxima entre degraus (h)",
+     "valor": "≤ 0,25 m",
+     "item": "Anexo III, 11 d)",
+     "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+     "parametro": "Plataforma de descanso — intervalo máximo de altura",
+     "valor": "≤ 3,00 m (largura útil ≥ 0,60 m)",
+     "item": "Anexo III, 11 e)",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+     "parametro": "Projeção de um degrau sobre o outro (r)",
+     "valor": "≥ 0 m",
+     "item": "Anexo III, 11 f)",
+     "cota": "esquemas/escada-degraus-degrau.svg#r"
+    },
+    {
+     "parametro": "Relação do passo (g = profundidade livre)",
+     "valor": "600 mm ≤ g + 2h ≤ 660 mm",
+     "item": "Anexo III, 11 g)",
+     "cota": "esquemas/escada-degraus-degrau.svg#passo"
+    },
+    {
+     "parametro": "Escadas anteriores a 24/12/2010",
+     "valor": "largura útil ≥ 0,50 m (mantido o descanso a cada 3 m)",
+     "item": "Anexo III, 11.2",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-largura-corte.svg",
+    "esquemas/escada-degraus-degrau.svg",
+    "esquemas/escada-degraus-lance-patamar.svg"
+   ]
+  },
+  {
+   "titulo": "Anexo III — Escadas de degraus com espelho",
+   "item": "Anexo III, 12",
+   "texto": "Valem as mesmas exigências de uniformidade, com degrau mais profundo e altura de espelho dentro de uma faixa.",
+   "valores": [
+    {
+     "parametro": "Largura útil mínima",
+     "valor": "≥ 0,60 m",
+     "item": "Anexo III, 12 a)",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Largura útil — lance único com altura < 1,50 m",
+     "valor": "≥ 0,50 m",
+     "item": "Anexo III, 12.1",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Profundidade mínima do degrau",
+     "valor": "≥ 0,20 m",
+     "item": "Anexo III, 12 b)",
+     "cota": "esquemas/escada-degraus-degrau.svg#t"
+    },
+    {
+     "parametro": "Altura entre degraus (h)",
+     "valor": "0,20 m a 0,25 m",
+     "item": "Anexo III, 12 d)",
+     "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+     "parametro": "Plataforma de descanso — intervalo máximo de altura",
+     "valor": "≤ 3,00 m (largura útil ≥ 0,60 m)",
+     "item": "Anexo III, 12 e)",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+     "parametro": "Escadas anteriores a 24/12/2010",
+     "valor": "largura útil ≥ 0,50 m (mantido o descanso a cada 3 m)",
+     "item": "Anexo III, 12.2",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-largura-corte.svg",
+    "esquemas/escada-degraus-degrau.svg",
+    "esquemas/escada-degraus-lance-patamar.svg"
+   ]
+  },
+  {
+   "titulo": "Anexo III — Escada fixa tipo marinheiro",
+   "item": "Anexo III, 13",
+   "texto": "A escada vertical é resistente, protegida contra corrosão quando exposta e tem barras com superfície que evita escorregar. Acima de certa altura exige gaiola, e lances longos são divididos por plataformas de descanso com lances desencontrados. Os montantes ou um corrimão continuam acima do piso de chegada para apoio na saída.",
+   "valores": [
+    {
+     "parametro": "Largura",
+     "valor": "0,40 m a 0,60 m",
+     "item": "Anexo III, 13 e)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#largura"
+    },
+    {
+     "parametro": "Espaçamento entre barras horizontais",
+     "valor": "0,25 m a 0,30 m",
+     "item": "Anexo III, 13 h)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#espacamento"
+    },
+    {
+     "parametro": "Piso até a primeira barra",
+     "valor": "≤ 0,55 m",
+     "item": "Anexo III, 13 i)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#primeira-barra"
+    },
+    {
+     "parametro": "Distância à estrutura de fixação",
+     "valor": "≥ 0,15 m",
+     "item": "Anexo III, 13 j)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#afastamento"
+    },
+    {
+     "parametro": "Diâmetro ou espessura das barras",
+     "valor": "0,025 m a 0,038 m",
+     "item": "Anexo III, 13 k)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#diametro-barra"
+    },
+    {
+     "parametro": "Altura máxima — lance único",
+     "valor": "10,00 m",
+     "item": "Anexo III, 13 f)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#altura-total"
+    },
+    {
+     "parametro": "Altura máxima entre plataformas (vários lances)",
+     "valor": "6,00 m",
+     "item": "Anexo III, 13 g)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#lance"
+    },
+    {
+     "parametro": "Distância entre eixos de lances consecutivos",
+     "valor": "≥ 0,70 m",
+     "item": "Anexo III, 13 g)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#eixos"
+    },
+    {
+     "parametro": "Corrimão ou prolongamento dos montantes acima do piso de saída",
+     "valor": "1,10 m a 1,20 m",
+     "item": "Anexo III, 13 d)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#prolongamento"
+    },
+    {
+     "parametro": "Altura de escada que exige gaiola",
+     "valor": "> 3,50 m",
+     "item": "Anexo III, 13 c)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#altura-total"
+    },
+    {
+     "parametro": "Início da gaiola",
+     "valor": "a partir de 2,0 m do piso",
+     "item": "Anexo III, 13 c)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#gaiola-inicio"
+    },
+    {
+     "parametro": "Gaiola acima do piso de saída",
+     "valor": "1,10 m a 1,20 m",
+     "item": "Anexo III, 13 c)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#gaiola-saida"
+    },
+    {
+     "parametro": "Diâmetro da gaiola",
+     "valor": "0,65 m a 0,80 m",
+     "item": "Anexo III, 13.1",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#gaiola-diametro"
+    },
+    {
+     "parametro": "Gaiola opção a) — barras verticais",
+     "valor": "espaçamento ≤ 0,30 m entre si",
+     "item": "Anexo III, 13.1 a)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#gaiola-barras"
+    },
+    {
+     "parametro": "Gaiola opção a) — distância entre arcos",
+     "valor": "≤ 1,50 m",
+     "item": "Anexo III, 13.1 a)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#gaiola-arcos"
+    },
+    {
+     "parametro": "Gaiola opção b) — vão entre arcos",
+     "valor": "≤ 0,30 m, com barra vertical de sustentação",
+     "item": "Anexo III, 13.1 b)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#gaiola-arcos"
+    }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-12-escada-fixa-vertical.svg"
+   ]
+  },
+  {
+   "titulo": "Anexo IV — Glossário",
+   "item": "Anexo IV",
+   "texto": "Define os termos usados na NR (apreciação de risco, burla, categorias de segurança, AOPD, CLP de segurança, tipos de intertravamento, distância de segurança etc.). As categorias B, 1, 2, 3 e 4 da NBR 14153 medem o comportamento do comando diante de falhas; a ISO 13849-1 usa níveis de desempenho PL a–e, e máquinas que adotam PL não são consideradas irregulares só por isso. As distâncias de segurança remetem à ISO 13857.",
+   "valores": [
+    {
+     "parametro": "Categorias de segurança (NBR 14153)",
+     "valor": "B, 1, 2, 3 e 4 — da 3 em diante um defeito isolado não tira a função de segurança",
+     "item": "Anexo IV, Categoria"
+    },
+    {
+     "parametro": "Níveis de desempenho (ISO 13849-1)",
+     "valor": "PL a a e",
+     "item": "Anexo IV, Categoria"
+    },
+    {
+     "parametro": "Graus de proteção IP — 1º dígito 1/2/3/4",
+     "valor": "objetos sólidos > 50 mm / > 12 mm / > 2,5 mm / > 1 mm",
+     "item": "Anexo IV, Grau de proteção - IP"
+    },
+    {
+     "parametro": "Trator agrícola (definição)",
+     "valor": "≥ 2 eixos e massa sem lastro > 600 kg",
+     "item": "Anexo IV, Trator agrícola"
+    },
+    {
+     "parametro": "Trator agrícola estreito (definição)",
+     "valor": "bitola traseira ≤ 1 280 mm e peso bruto > 600 kg",
+     "item": "Anexo IV, Trator agrícola estreito"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo V — Motosserras",
+   "item": "Anexo V",
+   "texto": "Motosserras e motopodas têm freio de corrente, pino pega-corrente, protetores das duas mãos e trava do acelerador, além de aviso permanente de que o mau uso causa acidentes graves. Fabricantes informam ruído e vibração nos manuais e oferecem treinamento pelos revendedores. Motosserra a combustão é proibida em local fechado ou mal ventilado.",
+   "valores": [
+    {
+     "parametro": "Dispositivos obrigatórios",
+     "valor": "5: freio de corrente; pino pega-corrente; protetor da mão direita; protetor da mão esquerda; trava do acelerador",
+     "item": "Anexo V, 1"
+    },
+    {
+     "parametro": "Treinamento do operador",
+     "valor": "≥ 8 h",
+     "item": "Anexo V, 4.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo VI — Panificação e confeitaria",
+   "item": "Anexo VI",
+   "texto": "Amassadeiras, batedeiras, cilindros, modeladoras, laminadoras, fatiadoras e moinhos de farinha de rosca têm proteções móveis intertravadas com duplo canal, monitoradas por interface de segurança categoria 3 ou superior (dois dispositivos quando mecânicos), e o movimento perigoso deve parar rapidamente ao abrir a proteção. O número de botões de emergência depende do porte; fatiadora e moinho dispensam emergência. ME/EPP do setor dispensam a demarcação do item 12.2.1.",
+   "valores": [
+    {
+     "parametro": "Amassadeira classe 1",
+     "valor": "bacia ≥ 13 L e < 70 L (1 botão de emergência)",
+     "item": "Anexo VI, 2.1 a) e 2.7 a)"
+    },
+    {
+     "parametro": "Amassadeira classe 2",
+     "valor": "bacia ≥ 70 L (≥ 2 botões de emergência)",
+     "item": "Anexo VI, 2.1 b) e 2.7 b)"
+    },
+    {
+     "parametro": "Amassadeira excluída da NR (certificada INMETRO)",
+     "valor": "bacia < 13 L",
+     "item": "Anexo VI, 2.1 c)"
+    },
+    {
+     "parametro": "Batedeira classe 1 / classe 2",
+     "valor": "bacia > 5 L e ≤ 18 L / > 18 L",
+     "item": "Anexo VI, 3.1"
+    },
+    {
+     "parametro": "Tempo máximo de parada ao abrir a proteção (amassadeira, batedeira, modeladora, laminadora, fatiadora, cilindro com esteira)",
+     "valor": "≤ 2 s",
+     "item": "Anexo VI, 2.6, 3.4, 4.2, 6.2.1.2, 7.2.1.2, 8.2.3"
+    },
+    {
+     "parametro": "Amassadeiras existentes — tempo de parada por desgaste",
+     "valor": "≤ 2,5 s",
+     "item": "Anexo VI, 2.6.1"
+    },
+    {
+     "parametro": "Cilindro sovador — tolerância das proteções",
+     "valor": "±25 mm (lineares); ±2,5° (angulares)",
+     "item": "Anexo VI, 4.3"
+    },
+    {
+     "parametro": "Cilindro sovador — botões de emergência",
+     "valor": "2",
+     "item": "Anexo VI, 4.6"
+    },
+    {
+     "parametro": "Fatiadora — dispensa de proteção na descarga",
+     "valor": "distância entre lâminas ≤ 12 mm",
+     "item": "Anexo VI, 8.2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo VII — Açougue, mercearia, bares e restaurantes",
+   "item": "Anexo VII",
+   "texto": "Serra de fita para carnes tem a fita enclausurada fora da área de corte, empurrador articulado rígido, guia regulável, mesa móvel com limitador de curso, manípulos com anteparo e ao menos uma parada de emergência. Amaciador de bife e moedor de carne têm o mecanismo enclausurado e bocais de alimentação e descarga que não deixam a mão alcançar os cilindros ou a rosca; ambos dispensam emergência e comando em extrabaixa tensão.",
+   "valores": [
+    {
+     "parametro": "Serra de fita — mesa móvel obrigatória (fabricadas desde 24/06/2011)",
+     "valor": "exceto serras com altura de corte ≤ 250 mm",
+     "item": "Anexo VII, 2.5"
+    },
+    {
+     "parametro": "Serra de fita — tempo de parada ao abrir a proteção",
+     "valor": "≤ 2 s",
+     "item": "Anexo VII, 2.9"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo VIII — Prensas e similares",
+   "item": "Anexo VIII",
+   "texto": "Prensas (mecânicas, servoacionadas, hidráulicas, pneumáticas) e similares (guilhotinas, dobradeiras, dispositivos hidráulicos/pneumáticos, recalcadoras, martelos de forja, enfardadeiras) só operam com zona de prensagem enclausurada, ferramenta fechada ou cortina de luz tipo 4 com comando bimanual; prensas de engate por chaveta ou fuso só com enclausuramento ou ferramenta fechada. Válvulas de comando de freio-embreagem e blocos hidráulicos são de segurança, redundantes, com monitoramento dinâmico e rearme manual após falha. É proibido fabricar ou vender prensa de engate por chaveta, e o retrofit exige projeto com ART.",
+   "valores": [
+    {
+     "parametro": "Categoria dos sistemas de segurança de prensas (intertravamento, cortina, válvulas)",
+     "valor": "categoria 4 (NBR 14153)",
+     "item": "Anexo VIII, 2.1.3, 2.4, 2.5.1"
+    },
+    {
+     "parametro": "Cortina de luz em prensas",
+     "valor": "tipo 4 (IEC 61496-1:2006), com redundância e autoteste, conjugada com bimanual",
+     "item": "Anexo VIII, 2.1 c)"
+    },
+    {
+     "parametro": "Prensa pneumática — retenção contra queda do martelo",
+     "valor": "conjunto martelo + ferramenta > 15 kg",
+     "item": "Anexo VIII, 2.4.6"
+    },
+    {
+     "parametro": "Dobradeira — capacidade de detecção da AOPD multizona",
+     "valor": "14 mm, até 2,5 mm atrás do plano de dobra e ≥ 15 mm à frente",
+     "item": "Anexo VIII, 4.1.2.1.1 e 4.1.2.1.1.2"
+    },
+    {
+     "parametro": "Dobradeira — velocidade máxima em blanking/muting",
+     "valor": "≤ 10 mm/s",
+     "item": "Anexo VIII, 4.1.2.1.1.3 e 4.1.2.1.1.6"
+    },
+    {
+     "parametro": "Dobradeira — muting permitido a partir de",
+     "valor": "distância punção–chapa ≤ 10 mm",
+     "item": "Anexo VIII, 4.1.2.1.1.4"
+    },
+    {
+     "parametro": "Dobradeira — modo especial (dobra de caixa) desativa sozinho",
+     "valor": "a cada energização, troca de modo/programa ou em até 8 h de operação",
+     "item": "Anexo VIII, 4.1.2.1.1.8.1"
+    },
+    {
+     "parametro": "Dobradeira — encosto traseiro mecanizado: zona de segurança",
+     "valor": "≥ 50 mm entre encosto e ferramenta inferior",
+     "item": "Anexo VIII, 4.1.2.2"
+    },
+    {
+     "parametro": "Dobradeira — encosto traseiro: alternativas",
+     "valor": "velocidade ≤ 2 m/min; ou força ≤ 150 N; ou basculamento com aproximação ≥ 5 mm acima da ferramenta",
+     "item": "Anexo VIII, 4.1.2.2 a)–c)"
+    },
+    {
+     "parametro": "Dobradeira — teste de escorregamento",
+     "valor": "no máximo a cada 30 h de uso contínuo e/ou a cada energização (monitoramento ≥ categoria 2)",
+     "item": "Anexo VIII, 4.1.2.4"
+    },
+    {
+     "parametro": "Dobradeira — garantia de velocidade lenta no blanking",
+     "valor": "sistema ≥ categoria 3",
+     "item": "Anexo VIII, 4.1.2.5"
+    },
+    {
+     "parametro": "Dispositivo pneumático com face frontal aberta",
+     "valor": "abertura ≤ 50 cm em qualquer direção",
+     "item": "Anexo VIII, 5.3.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo IX — Injetoras de plástico",
+   "item": "Anexo IX",
+   "texto": "A área do molde é fechada por portas intertravadas, com dois dispositivos mecânicos (ou um sem contato) monitorados, atuando no comando e na potência, e com trava mecânica autorregulável que segura a placa móvel ao abrir a porta. Máquinas a partir de 01/06/2016 seguem a NBR 13536:2016 (importadas, EN 201). O cilindro de plastificação quente tem proteção fixa e o bico tem proteção intertravada. Máquinas grandes exigem travas adicionais nas portas, detecção de pessoa entre porta e molde e botões de emergência dentro da área do molde; máquinas verticais têm dois dispositivos de retenção da placa.",
+   "valores": [
+    {
+     "parametro": "Proteção fixa no cilindro de plastificação",
+     "valor": "partes com temperatura de trabalho > 80 °C",
+     "item": "Anexo IX, 1.2.3.1"
+    },
+    {
+     "parametro": "Injetora elétrica — esforço suportado pelo bloqueio da porta",
+     "valor": "até 1 000 N",
+     "item": "Anexo IX, 1.2.1.8.4.1 b)"
+    },
+    {
+     "parametro": "Injetora de grande porte (definição)",
+     "valor": "distância entre tirantes (ou equivalente) > 1,2 m, ou pessoa cabe entre porta e zona perigosa",
+     "item": "Anexo IX, 1.2.6.1"
+    },
+    {
+     "parametro": "Fechamento vertical — retenção mecânica obrigatória",
+     "valor": "placa > 800 mm com curso de abertura > 500 mm",
+     "item": "Anexo IX, 1.2.7.2"
+    },
+    {
+     "parametro": "Norma para injetoras fabricadas a partir de 01/06/2016",
+     "valor": "ABNT NBR 13536:2016 (importadas: EN 201)",
+     "item": "Anexo IX, 1.2.1.6.3.1 e 1.2.1.6.3.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo X — Máquinas para calçados e afins",
+   "item": "Anexo X",
+   "texto": "Traz requisitos por máquina (balancins, cambrê, pregar salto, prato rotativo, montar bico, alta frequência, injetoras de carrossel etc.), em geral com bimanual monitorado, proteções intertravadas, limitação de força na aproximação e pedais protegidos acessíveis só por um pé e uma direção. Máquinas sem menção a parada de emergência ficam dispensadas dela.",
+   "valores": [
+    {
+     "parametro": "Balancim jacaré — comando",
+     "valor": "bimanual junto ao braço, interface categoria 4",
+     "item": "Anexo X, 2.1 a)"
+    },
+    {
+     "parametro": "Balancim jacaré — força para mover o braço",
+     "valor": "≤ 50 N",
+     "item": "Anexo X, 2.1 b)"
+    },
+    {
+     "parametro": "Balancim jacaré — altura do piso à superfície de corte",
+     "valor": "1 000 mm ± 30 mm",
+     "item": "Anexo X, 2.1 c)"
+    },
+    {
+     "parametro": "Prato rotativo (dublar) — folga do dispositivo de restrição ao platô",
+     "valor": "≤ 4 mm",
+     "item": "Anexo X, 10.1 d)"
+    },
+    {
+     "parametro": "Máquina de chanfrar cortes — espaçamento guia–matriz de corte",
+     "valor": "≤ 4 mm",
+     "item": "Anexo X, 25.1 c)"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo XI — Máquinas agrícolas e florestais",
+   "item": "Anexo XI",
+   "texto": "Máquinas e implementos agroflorestais e de armazenagem trazem as proteções de fábrica. Autopropelidas têm estrutura contra capotagem (EPC) e cinto, proteção contra queda de objetos quando houver risco, faróis, buzina, retrovisor e alarme de ré; a tomada de potência dos tratores é coberta. Os acessos seguem regras próprias de degraus, corrimãos com três pontos de contato e plataformas, que repetem em boa parte as do Anexo III.",
+   "valores": [
+    {
+     "parametro": "Acesso obrigatório ao posto de operação",
+     "valor": "altura do solo ao posto > 0,55 m",
+     "item": "Anexo XI, 15.3"
+    },
+    {
+     "parametro": "Acesso obrigatório — construção com aplicação agroflorestal",
+     "valor": "> 0,60 m",
+     "item": "Anexo XI, 15.4"
+    },
+    {
+     "parametro": "Acesso obrigatório — colhedoras de arroz, de esteira ou autonivelantes",
+     "valor": "> 0,70 m",
+     "item": "Anexo XI, 15.5"
+    },
+    {
+     "parametro": "Rampa 10° a 20° — espaçamento das peças transversais",
+     "valor": "0,40 m",
+     "item": "Anexo XI, 15.10",
+     "cota": "esquemas/resumo-nr-12-rampa-pecas-transversais.svg#T"
+    },
+    {
+     "parametro": "Plataforma de inspeção de plantadeira — largura útil",
+     "valor": "≥ 0,3 m",
+     "item": "Anexo XI, 15.12.1"
+    },
+    {
+     "parametro": "Escada de degraus sem espelho — projeção entre degraus",
+     "valor": "≥ 0,01 m",
+     "item": "Anexo XI, 15.14 f)",
+     "cota": "esquemas/escada-degraus-degrau.svg#r"
+    },
+    {
+     "parametro": "Plataforma de descanso de escadas",
+     "valor": "0,60 m a 0,80 m de largura, a cada ≤ 3,00 m de altura",
+     "item": "Anexo XI, 15.13 e) e 15.14 e)",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+     "parametro": "Corrimão/manípulo — seção",
+     "valor": "0,025 m a 0,038 m",
+     "item": "Anexo XI, 15.21 b)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#diametro"
+    },
+    {
+     "parametro": "Corrimão/manípulo — extremidade inferior",
+     "valor": "≤ 1 600 mm do solo",
+     "item": "Anexo XI, 15.21 c)"
+    },
+    {
+     "parametro": "Corrimão/manípulo — folga para a mão",
+     "valor": "≥ 0,050 m",
+     "item": "Anexo XI, 15.21 d)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#folga"
+    },
+    {
+     "parametro": "Manípulo no topo do acesso",
+     "valor": "altura 0,85 m a 1,10 m; comprimento ≥ 0,15 m",
+     "item": "Anexo XI, 15.21 e) e f)"
+    },
+    {
+     "parametro": "Apoio de mão — distância a articulações",
+     "valor": "≥ 0,30 m",
+     "item": "Anexo XI, 15.21.1"
+    },
+    {
+     "parametro": "Escada de acesso ao posto — inclinação",
+     "valor": "70° a 90°; abaixo de 70°: 2B + G ≤ 700 mm",
+     "item": "Anexo XI, 15.22 a) e b)"
+    },
+    {
+     "parametro": "Primeiro degrau — colhedoras de arroz/esteira/autonivelantes",
+     "valor": "≤ 700 mm do solo",
+     "item": "Anexo XI, 15.22.1 g)"
+    },
+    {
+     "parametro": "Primeiro degrau — construção com aplicação agroflorestal",
+     "valor": "≤ 600 mm do solo",
+     "item": "Anexo XI, 15.22.1 h)"
+    },
+    {
+     "parametro": "Plataformas secundárias de colhedoras — barra superior",
+     "valor": "1 m a 1,1 m (só com a máquina parada)",
+     "item": "Anexo XI, 15.23.1"
+    },
+    {
+     "parametro": "Bocal de abastecimento",
+     "valor": "≤ 1,5 m acima do apoio do operador",
+     "item": "Anexo XI, 15.25"
+    },
+    {
+     "parametro": "Microtratores com exclusões do Quadro II",
+     "valor": "peso bruto < 600 kg",
+     "item": "Anexo XI, Quadro II"
+    }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-12-rampa-pecas-transversais.svg",
+    "esquemas/escada-degraus-degrau.svg",
+    "esquemas/escada-degraus-lance-patamar.svg",
+    "esquemas/escada-degraus-corrimao.svg"
+   ]
+  },
+  {
+   "titulo": "Anexo XII — Equipamentos de guindar para elevar pessoas",
+   "item": "Anexo XII",
+   "texto": "Cobre cesta aérea (veicular), cesto acoplado a guindaste e cesto suspenso por equipamento de guindar. Cestas e cestos acoplados têm comandos em cima e embaixo que voltam ao neutro, emergência nos dois, válvulas de retenção/holding, indicador de inclinação, nivelamento automático da caçamba e ancoragem para cinto; perto de rede energizada exigem isolamento conforme NBR 16092. O cesto suspenso só é usado quando PTA, cesta aérea ou cesto acoplado forem inviáveis ou mais arriscados, com laudo e ART, planejamento formal, supervisão de segurança, teste de içamento a cada turno e içamento só por cabo de aço — nunca corrente ou fibra.",
+   "valores": [
+    {
+     "parametro": "Altura nominal de trabalho (definição)",
+     "valor": "altura do fundo da caçamba ao solo na elevação máxima + 1,5 m",
+     "item": "Anexo XII, 1"
+    },
+    {
+     "parametro": "Plataforma metálica — altura do guarda-corpo",
+     "valor": "≥ 990 mm",
+     "item": "Anexo XII, 2.2.2 a), 3.2.2 a) e 4.18 b)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#b"
+    },
+    {
+     "parametro": "Isolamento — trabalho em rede > 1 000 V",
+     "valor": "cesta aérea isolada, categoria A, B ou C (NBR 16092:2012)",
+     "item": "Anexo XII, 2.4 e 3.3"
+    },
+    {
+     "parametro": "Isolamento — rede ≤ 1 000 V",
+     "valor": "caçamba com isolação própria e cuba isolante (liner)",
+     "item": "Anexo XII, 2.5 e 3.4"
+    },
+    {
+     "parametro": "Cestas não isoladas — dispensa de nivelamento ativo",
+     "valor": "até 10 anos de uso a contar da vigência do anexo",
+     "item": "Anexo XII, 2.3.1"
+    },
+    {
+     "parametro": "Comunicação de transferência de propriedade da cesta aérea",
+     "valor": "30 dias",
+     "item": "Anexo XII, 2.16"
+    },
+    {
+     "parametro": "Cesto acoplado — oscilação máxima do nível",
+     "valor": "≤ 5° em relação à horizontal",
+     "item": "Anexo XII, 3.1 q)"
+    },
+    {
+     "parametro": "Drenagem do piso — abertura máxima",
+     "valor": "não passar esfera de Ø 15 mm",
+     "item": "Anexo XII, 3.2.2 c) e 4.18 c)"
+    },
+    {
+     "parametro": "Degrau de entrada da plataforma",
+     "valor": "quando o desnível de acesso > 0,55 m",
+     "item": "Anexo XII, 3.2.2 d)"
+    },
+    {
+     "parametro": "Ensaio do conjunto guindaste + cesto acoplado",
+     "valor": "1,5 × capacidade nominal, no centro da caçamba, na posição de máximo momento",
+     "item": "Anexo XII, 3.12"
+    },
+    {
+     "parametro": "Cesto suspenso — carga total içada",
+     "valor": "≤ 50 % da capacidade nominal do equipamento de guindar",
+     "item": "Anexo XII, 4.6"
+    },
+    {
+     "parametro": "Cesto suspenso — coeficiente de segurança da estrutura da caçamba",
+     "valor": "5",
+     "item": "Anexo XII, 4.17 a)"
+    },
+    {
+     "parametro": "Cesto suspenso — coeficiente do sistema de suspensão com 1 ponto",
+     "valor": "7",
+     "item": "Anexo XII, 4.17 b)"
+    },
+    {
+     "parametro": "Cesto suspenso — coeficiente do sistema de suspensão com ≥ 2 pontos",
+     "valor": "5",
+     "item": "Anexo XII, 4.17 c)"
+    },
+    {
+     "parametro": "Cesto suspenso — capacidade mínima da caçamba",
+     "valor": "≥ 136 kg",
+     "item": "Anexo XII, 4.18 a)"
+    },
+    {
+     "parametro": "Cesto suspenso — barra interna de apoio das mãos",
+     "valor": "altura ≥ 990 mm; projeção interna ≥ 50 mm",
+     "item": "Anexo XII, 4.18 f)"
+    },
+    {
+     "parametro": "Cesto suspenso — inclinação máxima da caçamba",
+     "valor": "≤ 10° fora da horizontal",
+     "item": "Anexo XII, 4.23"
+    },
+    {
+     "parametro": "Alarme do anemômetro (guindaste e grua)",
+     "valor": "vento ≥ 35 km/h",
+     "item": "Anexo XII, 4.26 a) e 4.27 k)"
+    },
+    {
+     "parametro": "Velocidade vertical máxima do cesto suspenso",
+     "valor": "≤ 30 m/min",
+     "item": "Anexo XII, 4.26 k) e 4.27 q)"
+    },
+    {
+     "parametro": "Teste de içamento do cesto suspenso",
+     "valor": "a cada turno e após mudança de local, configuração ou operador, com a carga prevista e no momento máximo",
+     "item": "Anexo XII, 4.13 e 4.15"
+    },
+    {
+     "parametro": "Inspeção da caçamba, suspensão e pontos de fixação",
+     "valor": "≥ 1 vez por dia, antes do uso, com registro",
+     "item": "Anexo XII, 4.31 e 4.33"
+    },
+    {
+     "parametro": "Equipe mínima",
+     "valor": "ocupante(s), operador do guindaste, sinaleiro e supervisor",
+     "item": "Anexo XII, 4.30"
+    },
+    {
+     "parametro": "Guarda da documentação do anexo",
+     "valor": "≥ 5 anos",
+     "item": "Anexo XII, 6"
+    }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-corrimao.svg"
+   ]
+  }
+ ]
+}

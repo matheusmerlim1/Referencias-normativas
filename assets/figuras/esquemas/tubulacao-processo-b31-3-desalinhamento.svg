@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="Alinhamento interno (ASME B31.3) — desalinhamento, usinagem com transição, tm">
+<title>Alinhamento interno (ASME B31.3) — desalinhamento, usinagem com transição, tm (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Alinhamento interno (ASME B31.3) — desalinhamento, usinagem com transição, tm</text>
+<path class="s" d="M60,200 L420,200 L420,300 L60,300 z"/>
+<path class="s" d="M440,220 L840,220 L840,340 L560,340 L520,300 L440,300 z"/>
+<line class="h" x1="400" y1="300" x2="600" y2="300"/>
+<g id="cota-desalinhamento" class="cota"><line class="d" x1="430" y1="274" x2="430" y2="300" marker-end="url(#a)"/><line class="d" x1="430" y1="366" x2="430" y2="340" marker-end="url(#a)"/><line class="d" x1="430" y1="300" x2="430" y2="340"/><text class="m" x="440" y="380">desalinhamento interno (antes da usinagem)</text></g>
+<g id="cota-transicao" class="cota"><line class="d" x1="640" y1="375" x2="540" y2="322" marker-end="url(#a)"/><text x="640" y="380">transição (ângulo máx.)</text></g>
+<g id="cota-tm" class="cota"><line class="d" x1="480" y1="220" x2="480" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text x="486" y="170">tm — espessura remanescente ≥ mínima</text></g>
+<g id="cota-t-espessa" class="cota"><line class="e" x1="843" y1="220" x2="871" y2="220"/><line class="e" x1="843" y1="340" x2="871" y2="340"/><line class="d" x1="865" y1="220" x2="865" y2="340" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="880" y="380">parede mais espessa</text></g>
+<g id="cota-t-fina" class="cota"><line class="e" x1="57" y1="200" x2="29" y2="200"/><line class="e" x1="57" y1="300" x2="29" y2="300"/><line class="d" x1="35" y1="200" x2="35" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text x="42" y="255">parede mais fina</text></g>
+<text class="n" x="20" y="408">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

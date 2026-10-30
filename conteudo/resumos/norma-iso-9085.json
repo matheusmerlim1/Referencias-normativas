@@ -1,0 +1,18 @@
+{
+ "id": "ISO-9085",
+ "titulo": "ISO 9085:2002 — Capacidade de carga de engrenagens retas e helicoidais — Aplicação a engrenagens industriais",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Método simplificado e uniforme, derivado da ISO 6336, para calcular resistência ao pitting e à flexão de engrenagens industriais retas e helicoidais, para comparar projetos. Não cobre deformação plástica, micropitting, scuffing, esmagamento de camada, desgaste, vibração severa, falhas de aro ou cubo, dentes forjados ou sinterizados, nem contato ruim. Resultados devem ser confirmados pela experiência.",
+   "valores": []
+  },
+  {
+   "titulo": "Conteúdo",
+   "item": "4–7",
+   "texto": "Dados de entrada, fatores de carga (KA, Kv, KHβ, KHα), pitting (ZH, ZE, Zε, Zβ, σH lim, ZNT, ZL·Zv·ZR, ZW, ZX) e flexão (YF, YS, Yβ, σF lim, YNT, Yδ, YR, YX) com valores simplificados. Desvios do método devem constar do relatório de cálculo.",
+   "valores": []
+  }
+ ]
+}

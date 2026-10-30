@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SB-705",
+ "titulo": "SB-705 — Tubos (pipe) soldados de ligas N06625, N06219 e N08825",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe) soldados recozidos das ligas N06625, N06219 e N08825 para serviço corrosivo geral."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N06625 — Ni mín. / Cr / Mo / Nb+Ta / Fe máx.",
+     "valor": "58,0 % / 20,0–23,0 % / 8,0–10,0 % / 3,15–4,15 % / 5,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06219 — Cr / Mo / Fe",
+     "valor": "18,0–22,0 % / 7,0–9,0 % / 2,0–4,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N08825 — Ni / Cr / Mo / Fe mín.",
+     "valor": "38,0–46,0 % / 19,5–23,5 % / 2,5–3,5 % / 22,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N06625 (Grau 1, recozida)",
+     "valor": "120 000 psi (827) / 60 000 psi (414) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N06219",
+     "valor": "96 000 psi (660) / 39 000 psi (270) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08825",
+     "valor": "85 000 psi (586) / 35 000 psi (240) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N06625 Grau 2 (solubilizada)",
+     "valor": "100 000 psi (690) / 40 000 psi (276) / 30 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

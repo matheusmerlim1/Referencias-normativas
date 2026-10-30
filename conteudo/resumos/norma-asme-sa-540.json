@@ -1,0 +1,43 @@
+{
+ "id": "ASME-SA-540",
+ "titulo": "SA-540 — Parafusaria de aço liga para aplicações especiais (nuclear e outras)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Material de parafusaria de aço liga, qualidade normal ou especial, para aplicações nucleares e especiais: barras laminadas ou forjadas, tubos sem costura, barras furadas e ocos forjados para parafusos, estojos, arruelas e porcas. Graus B21 (Cr-Mo-V), B22 (4142-H), B23 (E-4340-H), B24 (4340 mod.) e B24V, em várias classes de resistência."
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4, 5",
+   "texto": "Laminado ou forjado a quente, ou acabado a frio. Fornecido recozido (só para usinagem; depois precisa de têmpera e revenimento) ou temperado em líquido e revenido (e eventualmente aliviado)."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2, 8",
+   "texto": "Su mín. / Sy mín. / alongamento / redução de área / dureza; Charpy a +10 °F (−12,2 °C) conforme classe.",
+   "valores": [
+    {
+     "parametro": "B21, até 2 in",
+     "valor": "120 ksi / 105 ksi / 15 % / 50 % / 241–285 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "B21, 2 a 6 in",
+     "valor": "115 ksi / 100 ksi / 15 % / 50 % / 248–302 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Dureza máx. no estado recozido",
+     "valor": "235 HB",
+     "item": "8.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Superfície e marcação",
+   "item": "12, 17",
+   "texto": "Material limpo, sem carepa. Barras abaixo de 2 in [50 mm] em feixes etiquetados com especificação, grau e corrida."
+  }
+ ]
+}

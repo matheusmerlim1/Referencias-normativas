@@ -1,0 +1,82 @@
+{
+ "id": "DIN-6885-1",
+ "titulo": "DIN 6885 Folha 1:1968 — Uniões de arraste sem conicidade — Chavetas paralelas, rasgos, forma alta",
+ "secoes": [
+  {
+   "titulo": "Tipos e designação",
+   "item": "Folha 1",
+   "texto": "Chavetas paralelas de forma alta em vários tipos de extremidade (tipos A, B… com ponta arredondada ou reta; E e F com furos para parafuso de fixação e de extração). Designação pelo tipo, b × h × comprimento.",
+   "valores": [
+    {
+     "parametro": "Exemplo",
+     "valor": "Chaveta paralela A 12 × 8 × 56 DIN 6885",
+     "item": "Folha 1",
+     "nota": "cópia OCR — conferir"
+    },
+    {
+     "parametro": "Tipos combinados",
+     "valor": "AB = uma ponta arredondada e outra reta",
+     "item": "nota 2"
+    },
+    {
+     "parametro": "Furos de extração",
+     "valor": "tipos A e B só com pedido (letra S); E e F a partir de 12 × 8 vêm com eles, salvo pedido sem (oS)",
+     "item": "notas 1 e 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "Tabela",
+   "texto": "Por faixa de diâmetro do eixo: seção b × h da chaveta, chanfro/raio, profundidades do rasgo no eixo (t1) e no cubo (t2, com variante com sobremedida para ajuste por usinagem final), raio de fundo, comprimentos padronizados e parafusos de fixação.",
+   "valores": []
+  },
+  {
+   "titulo": "Tolerâncias dos rasgos",
+   "item": "notas",
+   "texto": "As zonas indicadas valem para rasgos fresados; outras precisam ser indicadas.",
+   "valores": [
+    {
+     "parametro": "Ajuste de largura do rasgo (fresado) — caso normal",
+     "valor": "zonas de tolerância classe IT9 (P9, N9, JS9 conforme o tipo de ajuste)",
+     "item": "nota 5",
+     "nota": "atribuição eixo/cubo por tipo de ajuste na tabela — conferir"
+    },
+    {
+     "parametro": "Rasgo brochado",
+     "valor": "recomenda-se IT8 (P8, N8, JS8 no lugar de P9, N9, JS9)",
+     "item": "nota 5"
+    },
+    {
+     "parametro": "Ajuste deslizante",
+     "valor": "rasgo do eixo H9; rasgo do cubo D10",
+     "item": "nota 5"
+    }
+   ]
+  },
+  {
+   "titulo": "Material",
+   "item": "Folha 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "h até 25 mm",
+     "valor": "St 50-1K (DIN 1652)",
+     "item": "Folha 1"
+    },
+    {
+     "parametro": "h acima de 25 mm",
+     "valor": "St 60-2K (DIN 1652)",
+     "item": "Folha 1",
+     "nota": "outros aços por acordo"
+    }
+   ]
+  },
+  {
+   "titulo": "Mudanças da edição",
+   "item": "Notas explicativas",
+   "texto": "Profundidades de rasgo ajustadas ao projeto ISO; zona J9 do rasgo do cubo trocada por JS9; furos de fixação dos tipos E e F deslocados para perto de uma das pontas.",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SA-29",
+ "titulo": "SA-29 — Requisitos gerais para barras de aço carbono e liga, laminadas a quente e acabadas a frio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns a barras de aço carbono e liga, laminadas a quente ou acabadas a frio, cobertas por várias especificações ASTM (A108, A322, A434, A675, A695, A739…). Traz as tabelas de designação de graus e composição química (série SAE/AISI) usadas por essas especificações."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "4, Tabelas 1 e 2",
+   "texto": "A composição segue o pedido ou a especificação do produto; as Tabelas 1 (carbono) e 2 (liga) listam os graus usuais. Exemplos de graus não ressulfurados (análise de corrida):",
+   "valores": [
+    {
+     "parametro": "1018 — C / Mn",
+     "valor": "0,15–0,20 % / 0,60–0,90 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "1020 — C / Mn",
+     "valor": "0,18–0,23 % / 0,30–0,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "1045 — C / Mn",
+     "valor": "0,43–0,50 % / 0,60–0,90 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Aços carbono não ressulfurados — P máx. / S máx.",
+     "valor": "0,040 % / 0,050 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Tamanho de grão",
+   "item": "5",
+   "texto": "Grão austenítico grosso ou fino pode ser especificado (ASTM E112, 70 % da área). O grão fino pode ser comprovado pela análise do elemento refinador.",
+   "valores": [
+    {
+     "parametro": "Grão grosso",
+     "valor": "nº 1 a 5 (exclusive)",
+     "item": "5.1.1"
+    },
+    {
+     "parametro": "Grão fino",
+     "valor": "nº 5 ou maior",
+     "item": "5.1.2"
+    },
+    {
+     "parametro": "Al para dispensar ensaio de grão fino",
+     "valor": "≥ 0,020 % Al total ou ≥ 0,015 % Al solúvel em ácido",
+     "item": "5.1.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios, acabamento e marcação",
+   "item": "6 a 13",
+   "texto": "Corpos de prova e ensaios mecânicos conforme a especificação do produto e A370; variações dimensionais nos Anexos A1/A2; barras tratadas podem ser retratadas e reensaiadas. Feixes identificados com fabricante, pedido, designação ASTM, grau e corrida."
+  }
+ ]
+}

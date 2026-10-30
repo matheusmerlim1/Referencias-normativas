@@ -1,0 +1,53 @@
+{
+ "id": "ASME-SA-609",
+ "titulo": "SA-609 — Exame ultrassônico de fundidos de aço carbono, baixa liga e inoxidável martensítico",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimentos e padrões de ultrassom pulso-eco, feixe longitudinal, para fundidos de aço carbono, baixa liga e inoxidável martensítico tratados termicamente. Usado quando o pedido ou a especificação o exige."
+  },
+  {
+   "titulo": "Condições",
+   "item": "4 a 7",
+   "texto": "Fundido com pelo menos austenitização antes do exame; superfícies preparadas. Cada passada do cabeçote sobrepõe a anterior.",
+   "valores": [
+    {
+     "parametro": "Sobreposição mín. das passadas",
+     "valor": "10 % da largura do transdutor",
+     "item": "7.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Procedimento (Método B)",
+   "item": "11 a 16",
+   "texto": "Aparelho de 1 a 5 MHz com manutenção semestral; blocos de calibração conforme espessura; varredura guiada por malha.",
+   "valores": [
+    {
+     "parametro": "Frequência do aparelho",
+     "valor": "1 a 5 MHz",
+     "item": "12.1"
+    },
+    {
+     "parametro": "Malha de varredura",
+     "valor": "12 × 12 in [300 × 300 mm]",
+     "item": "16.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Aceitação",
+   "item": "10, 18, Tabelas 2 a 4",
+   "texto": "Pela diversidade de fundidos, o nível de qualidade é acordado entre as partes (Tabela 2, níveis de rejeição). No método de feixe longitudinal com DAC, indicações acima da linha de referência são avaliadas por área e agrupamento (Tabelas 3 e 4).",
+   "valores": [
+    {
+     "parametro": "Linha de referência de rejeição",
+     "valor": "furo de 0,5 in [13 mm]",
+     "item": "18.1",
+     "nota": "conferir: leitura do texto de 18.1"
+    }
+   ]
+  }
+ ]
+}

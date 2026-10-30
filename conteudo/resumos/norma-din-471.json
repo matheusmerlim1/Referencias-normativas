@@ -1,0 +1,47 @@
+{
+ "id": "DIN-471",
+ "titulo": "DIN 471:1981 — Anéis de retenção (circlips) para eixos — Tipo normal e pesado",
+ "secoes": [
+  {
+   "titulo": "Conceito e símbolos",
+   "item": "1–2",
+   "texto": "Anel elástico externo montado em canal no eixo para fixação axial de peças. Símbolos: d1 eixo, d2 canal, d3 diâmetro interno do anel livre, s espessura, d4 diâmetro de montagem, d5 furos de alicate, E módulo, FN capacidade de carga do canal, FR do anel.",
+   "valores": []
+  },
+  {
+   "titulo": "Dimensões e dados de projeto",
+   "item": "3",
+   "texto": "Tabelas por diâmetro de eixo para tipo normal e pesado: anel (s, d3, altura, furos), canal (d2, largura m, profundidade, distância mínima à ponta n) e capacidades de carga axial FN e FR. Dados suplementares só para aço mola DIN 17222.",
+   "valores": []
+  },
+  {
+   "titulo": "Material e acabamento",
+   "item": "4–5",
+   "texto": "Aço mola C67, C75 ou Ck75 (DIN 17222), sem rebarbas, normalmente protegido contra corrosão.",
+   "valores": [
+    {
+     "parametro": "Dureza — anéis menores",
+     "valor": "470 a 580 HV (47 a 54 HRC)",
+     "item": "4, Tab. 3",
+     "nota": "faixas de diâmetro de cada dureza ilegíveis — conferir"
+    },
+    {
+     "parametro": "Dureza — faixa intermediária",
+     "valor": "435 a 530 HV (44 a 51 HRC)",
+     "item": "4, Tab. 3"
+    },
+    {
+     "parametro": "Dureza — anéis maiores",
+     "valor": "390 a 470 HV (40 a 47 HRC)",
+     "item": "4, Tab. 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "3",
+   "texto": "Ex. da norma: eixo 40 mm, espessura 1,75 mm → Anel de retenção DIN 471 – 40 × 1,75 (acrescenta-se o código de acabamento, ex. A3K, se diferente).",
+   "valores": []
+  }
+ ]
+}

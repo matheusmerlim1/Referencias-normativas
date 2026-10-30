@@ -1,0 +1,37 @@
+{
+ "id": "DIN-267-10",
+ "titulo": "DIN 267-10:1988 — Fixadores — Condições técnicas de fornecimento — Peças galvanizadas a quente",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Condições de fornecimento de fixadores (principalmente parafusos e porcas) M6 a M36 rosca grossa, galvanizados por imersão a quente (tZn), para que o conjunto parafuso/porca funcione após a galvanização. Cor acinzentada é própria do processo e não indica proteção inferior. Requisitos do revestimento pela DIN 50976.",
+   "valores": []
+  },
+  {
+   "titulo": "Rosca do parafuso",
+   "item": "4, Tab. 1–2",
+   "texto": "Rosca do parafuso feita com afastamento fundamental 'a' (folga) antes de galvanizar, para caber o zinco; não pode ser repassada depois. Tab. 1: afastamentos e espessura mínima de camada; Tab. 2: limites da rosca antes da galvanização (DIN 13-14/15).",
+   "valores": []
+  },
+  {
+   "titulo": "Porcas",
+   "item": "5",
+   "texto": "Rosca da porca aberta (ou repassada) depois de galvanizar, com sobremedida; por isso não há relação fixa entre espessura de zinco e rosca da porca.",
+   "valores": []
+  },
+  {
+   "titulo": "Cargas mínimas",
+   "item": "6, Tab. 3–4",
+   "texto": "Cargas mínimas de ruptura e de prova calculadas com Rm e Sp da ISO 898 sobre a seção da rosca reduzida (d2 mín., d3 mín.).",
+   "valores": [
+    {
+     "parametro": "Valores",
+     "valor": "Tabelas 3 e 4 por rosca e classe",
+     "item": "Tab. 3–4",
+     "nota": "não transcritos — conferir"
+    }
+   ]
+  }
+ ]
+}

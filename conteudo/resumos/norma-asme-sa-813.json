@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SA-813",
+ "titulo": "SA-813 — Tubos de aço austenítico soldados, solda simples ou dupla, para montagem e alinhamento",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de aço inoxidável austenítico com costura reta, solda simples ou dupla, em duas classes (SW e DW), com qualidade de montagem e alinhamento ('fit-up'), para alta temperatura e serviço corrosivo geral. Requisitos gerais pela SA-530. Alguns graus (TP304, TP304L, TP347) são aceitos por códigos em baixa temperatura sem ensaio Charpy."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4",
+   "texto": "Soldagem por máquina ou automática, de um ou dos dois lados, penetração total, sem metal de adição; reparo da solda com metal de adição compatível permitido nas condições da norma."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "TP304, TP304H, TP309S, TP310S, TP316, TP321, TP347 — Su / Sy mín.",
+     "valor": "75 ksi [515] / 30 ksi [205]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "TP304L, TP316L — Su / Sy mín.",
+     "valor": "70 ksi [485] / 25 ksi [170]",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "11 a 13",
+   "texto": "Tubos de solda dupla (DW) têm as duas pontas examinadas visualmente para confirmar fusão completa. Tração: 1 por lote até 100 tubos (2 acima). Marcação inclui identificação do fabricante e a classe."
+  }
+ ]
+}

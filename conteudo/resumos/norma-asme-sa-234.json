@@ -1,0 +1,110 @@
+{
+ "id": "ASME-SA-234",
+ "titulo": "SA-234 — Conexões de aço carbono e liga forjadas/conformadas para temperatura moderada e alta",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Conexões (curvas, tês, reduções, tampões…) de aço carbono e liga, sem costura ou soldadas, nas dimensões da ASME B16.9, B16.11, MSS SP-79 e SP-95, para tubulação e vasos sob pressão. Não cobre conexões fundidas (ver SA-216/SA-217). Requisitos gerais pela SA-960."
+  },
+  {
+   "titulo": "Materiais e fabricação",
+   "item": "5, 6",
+   "texto": "Matéria-prima: aço acalmado em forjados, barras, chapas, tubos sem costura ou soldados com metal de adição. Conformação por martelamento, prensagem, perfuração, extrusão, recalque, laminação, curvamento, solda ou usinagem. Conexões até NPS 4 podem ser usinadas de barra."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "7",
+   "texto": "Após conformação a quente, resfriamento não mais rápido que ao ar calmo. WPB, WPC e WPR com conformação final entre 1150 °F [620 °C] e 1800 °F [980 °C] podem dispensar tratamento, nas condições da norma; os demais conforme a SA-960."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "WPB",
+     "valor": "C 0,30 máx.; Mn 0,29–1,06; P 0,050; S 0,058; Si 0,10 mín.; Cr, Ni, Cu 0,40 máx.; Mo 0,15 máx.; V 0,08 máx. %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "WPC",
+     "valor": "C 0,35 máx.; demais como WPB",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "WP1",
+     "valor": "C 0,28 máx.; Mn 0,30–0,90; Si 0,10–0,50; Mo 0,44–0,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "WP11 CL1",
+     "valor": "C 0,05–0,15; Mn 0,30–0,60; P/S 0,030; Si 0,50–1,00; Cr 1,00–1,50; Mo 0,44–0,65 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2, 10",
+   "texto": "Su (faixa) / Sy mín.; dureza máxima se ensaiada.",
+   "valores": [
+    {
+     "parametro": "WPB",
+     "valor": "60–85 ksi [415–585] / 35 ksi [240]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WPC, WP11 CL2, WP12 CL2",
+     "valor": "70–95 ksi [485–655] / 40 ksi [275]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WP1",
+     "valor": "55–80 ksi [380–550] / 30 ksi [205]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WP11 CL1, WP22 CL1, WP5 CL1, WP9 CL1",
+     "valor": "60–85 ksi [415–585] / 30 ksi [205]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WP11 CL3, WP22 CL3, WP5 CL3, WP9 CL3",
+     "valor": "75–100 ksi [520–690] / 45 ksi [310]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WP91",
+     "valor": "85–110 ksi [585–760] / 60 ksi [415]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WP911",
+     "valor": "90–120 ksi [620–840] / 64 ksi [440]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. (tira, parede ≥ 5/16 in) — long. / transv.",
+     "valor": "30 % / 20 % (exceto WPR, WP91, WP911)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Dureza máx. — WP5, WP9, WPR / WP91, WP911 / demais",
+     "valor": "217 / 248 / 197 HB",
+     "item": "10.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "9 a 18",
+   "texto": "Um ensaio de tração por lote; hidrostático, qualidade superficial e reparo por solda conforme SA-960. Cada conexão marcada conforme MSS SP-25 (fabricante, grau, espessura/schedule, tamanho)."
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "S1…",
+   "texto": "Exames adicionais (ex.: ensaios não destrutivos, dureza S57 da SA-960) e conexões fora de padrão (S58 da SA-960)."
+  }
+ ]
+}

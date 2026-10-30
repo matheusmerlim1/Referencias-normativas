@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 600" width="940" height="600" role="img" aria-label="Chanfro simples para solda de topo (ASME B16.25) — ângulo, nariz, t, A, B e usinagem C para anel de backing">
+<title>Chanfro simples para solda de topo (ASME B16.25) — ângulo, nariz, t, A, B e usinagem C para anel de backing (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Chanfro simples para solda de topo (ASME B16.25) — ângulo, nariz, t, A, B e usinagem C para anel de backing</text>
+<text class="b" x="60" y="70">(a) Sem anel de backing</text>
+<path class="s" d="M80,230 L332.3,230 L380,286 L380,300 L80,300 z"/>
+<line class="c" x1="60" y1="420" x2="420" y2="420"/>
+<text class="n" x="424" y="424">eixo</text>
+<line class="e" x1="380" y1="286" x2="380" y2="190"/>
+<g id="cota-angulo" class="cota"><path class="d" d="M380,196 A90,90 0 0,0 325.2,214.6" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="344.6" y="186.8">ângulo do chanfro</text></g>
+<g id="cota-nariz" class="cota"><line class="d" x1="381" y1="260" x2="381" y2="286" marker-end="url(#a)"/><line class="d" x1="381" y1="326" x2="381" y2="300" marker-end="url(#a)"/><line class="d" x1="381" y1="286" x2="381" y2="300"/><text x="410" y="298">nariz (face de raiz)</text></g>
+<g id="cota-t" class="cota"><line class="e" x1="77" y1="230" x2="44" y2="230"/><line class="e" x1="77" y1="300" x2="44" y2="300"/><line class="d" x1="50" y1="230" x2="50" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text x="57" y="270">t</text></g>
+<g id="cota-A" class="cota"><line class="d" x1="140" y1="230" x2="140" y2="420" marker-start="url(#a)" marker-end="url(#a)"/><text x="146" y="360">A/2 (Ø ext. na extremidade)</text></g>
+<g id="cota-B" class="cota"><line class="d" x1="280" y1="300" x2="280" y2="420" marker-start="url(#a)" marker-end="url(#a)"/><text x="286" y="400">B/2 (Ø int.)</text></g>
+<text class="b" x="520" y="70">(b) Usinagem interna p/ anel de backing</text>
+<path class="s" d="M520,230 L812.3,230 L860,286 L860,292 L750,292 L730,300 L520,300 z"/>
+<rect class="r" x="760" y="292" width="140" height="22"/>
+<text class="n m" x="830" y="334">anel</text>
+<line class="c" x1="510" y1="420" x2="900" y2="420"/>
+<g id="cota-rebaixo" class="cota"><line class="e" x1="750" y1="289" x2="750" y2="206"/><line class="e" x1="860" y1="289" x2="860" y2="206"/><line class="d" x1="750" y1="212" x2="860" y2="212" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="805" y="204">comprimento do rebaixo</text></g>
+<g id="cota-transicao" class="cota"><line class="d" x1="560" y1="355" x2="738" y2="297" marker-end="url(#a)"/><text x="560" y="360">transição interna (ângulo máx.)</text></g>
+<g id="cota-C" class="cota"><line class="d" x1="800" y1="292" x2="800" y2="420" marker-start="url(#a)" marker-end="url(#a)"/><text x="806" y="390">C/2 (Ø usinado)</text></g>
+<text class="b" x="520" y="470">(c) Anel cônico: rebaixo em cone</text>
+<path class="sl" d="M520,520 L760,520 L800,510 L860,510 L860,530 L520,530 z"/>
+<g id="cota-cone" class="cota"><path class="d" d="M820,520 A60,60 0 0,0 818.2,505.5" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="837.4" y="515.5">ângulo do cone</text></g>
+<g id="cota-cone-comp" class="cota"><line class="d" x1="734" y1="529" x2="760" y2="529" marker-end="url(#a)"/><line class="d" x1="826" y1="529" x2="800" y2="529" marker-end="url(#a)"/><line class="d" x1="760" y1="529" x2="800" y2="529"/><text class="en" x="700" y="548">comprimento do cone</text></g>
+<text class="n" x="20" y="588">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

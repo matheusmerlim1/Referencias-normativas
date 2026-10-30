@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="900" height="540" role="img" aria-label="Solda de nó tubular feita de um lado só — ângulo diedro Ψ, chanfro b, abertura de raiz G e garganta T">
+<title>Solda de nó tubular feita de um lado só — ângulo diedro Ψ, chanfro b, abertura de raiz G e garganta T (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Solda de nó tubular feita de um lado só — ângulo diedro Ψ, chanfro b, abertura de raiz G e garganta T</text>
+<rect class="s" x="40" y="380" width="560" height="50"/>
+<text class="n" x="50" y="455">parede do chord</text>
+<path class="s" d="M260,368 L334.8,330.4 L449.8,131.2 L410,108.2 z"/>
+<text class="n en" x="400" y="100.2">parede do brace</text>
+<path class="r" d="M260,368 L260,380 L430,380 L384.8,350.4 L334.8,330.4 z"/>
+<line class="h" x1="306.2" y1="380" x2="349.8" y2="304.4"/>
+<line class="e" x1="306.2" y1="380" x2="506.2" y2="380"/>
+<g id="cota-diedro" class="cota"><path class="d" d="M381.2,250.1 A150,150 0 0,1 456.2,380" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="457.7" y="297.5">Ψ — ângulo diedro local</text></g>
+<g id="cota-G" class="cota"><line class="d" x1="261" y1="342" x2="261" y2="368" marker-end="url(#a)"/><line class="d" x1="261" y1="406" x2="261" y2="380" marker-end="url(#a)"/><line class="d" x1="261" y1="368" x2="261" y2="380"/><text class="en" x="220" y="420">G — abertura de raiz</text></g>
+<g id="cota-angulo-chanfro" class="cota"><path class="d" d="M287.5,320.4 A55,55 0 0,1 309.1,343.3" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="314.5" y="321.5">b — chanfro</text></g>
+<g id="cota-garganta" class="cota"><line class="d" x1="260" y1="368" x2="407.4" y2="365.2" marker-start="url(#a)" marker-end="url(#a)"/><text x="427.4" y="335.2">T — garganta</text></g>
+<g id="cota-tb" class="cota"><line class="d" x1="360" y1="194.8" x2="399.8" y2="217.8" marker-start="url(#a)" marker-end="url(#a)"/><text x="419.8" y="222.8">t (brace)</text></g>
+<g id="cota-desvio-perfil" class="cota"><line class="d" x1="620" y1="225" x2="411.4" y2="361.2" marker-end="url(#a)"/><text x="620" y="230">desvio do perfil da solda (disco)</text></g>
+<text class="b" x="620" y="330">Solda de selagem (faying surfaces):</text>
+<rect class="s" x="640" y="400" width="220" height="16"/>
+<rect class="s" x="640" y="380" width="130" height="20"/>
+<path class="r" d="M770,400 L786,400 L770,384 z"/>
+<g id="cota-selagem" class="cota"><line class="e" x1="770" y1="419" x2="770" y2="442"/><line class="e" x1="786" y1="419" x2="786" y2="442"/><line class="d" x1="744" y1="436" x2="770" y2="436" marker-end="url(#a)"/><line class="d" x1="812" y1="436" x2="786" y2="436" marker-end="url(#a)"/><line class="d" x1="770" y1="436" x2="786" y2="436"/><text class="m" x="820" y="470">tamanho</text></g>
+<text class="n" x="20" y="528">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

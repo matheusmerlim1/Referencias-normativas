@@ -1,0 +1,54 @@
+{
+ "id": "NBR-15526",
+ "titulo": "ABNT NBR 15526:2007 — Redes de distribuição interna para gases combustíveis em instalações residenciais e comerciais — Projeto e execução",
+ "secoes": [
+  {"titulo": "Escopo e definições", "item": "1, 3",
+   "texto": "Projeto e execução de redes internas de gás natural, GLP e ar-GLP em edificações residenciais e comerciais, do limite da propriedade até os pontos de utilização. Termos: potência computada (soma das potências máximas dos aparelhos do trecho), fator de simultaneidade e potência adotada (computada × fator), prumada individual/coletiva, tubo-luva, válvulas de alívio e bloqueio.",
+   "valores": [
+    {"parametro": "Pressão máxima da rede interna", "valor": "150 kPa", "item": "3.24, 6.2"}
+   ]},
+  {"titulo": "Materiais", "item": "5",
+   "texto": "Tubos de aço-carbono (NBR 5580 classe média, NBR 5590 classe normal, API 5L grau A ≥ SCH 40), cobre rígido sem costura, cobre flexível, polietileno (enterrado) e multicamadas; conexões, válvulas, reguladores, medidores e dispositivos de segurança normalizados.",
+   "valores": [
+    {"parametro": "Cobre rígido — espessura mínima", "valor": "0,8 mm (NBR 13206)", "item": "5.2 b)"},
+    {"parametro": "Faixa de trabalho dos manômetros", "valor": "20 % a 80 % do fundo de escala", "item": "5.9"}
+   ]},
+  {"titulo": "Dimensionamento", "item": "6, Anexo B",
+   "texto": "Levantamento das potências dos aparelhos (tabela com valores típicos de fogões etc.), fator de simultaneidade, cálculo da vazão e perda de carga por trecho com fórmulas próprias para pressões até 7,5 kPa e acima de 7,5 kPa.",
+   "valores": [
+    {"parametro": "Pressão dentro das unidades habitacionais", "valor": "≤ 7,5 kPa", "item": "6.2"},
+    {"parametro": "Oscilação a verificar no ponto de utilização", "valor": "+15 % / −25 % da pressão nominal", "item": "6.3"},
+    {"parametro": "Perda de carga — aparelhos ligados direto na rede", "valor": "≤ 10 % da pressão de operação", "item": "6.3 a)"},
+    {"parametro": "Perda de carga — rede que alimenta regulador", "valor": "≤ 30 % da pressão", "item": "6.3 b)"}
+   ]},
+  {"titulo": "Construção e montagem", "item": "7.1–7.4",
+   "texto": "Traçado verificado antes da execução; tubulações aparentes, embutidas ou enterradas com afastamentos de instalações elétricas e outras utilidades (eletroduto de proteção nos cruzamentos); juntas roscadas, soldadas (aço, cobre por brasagem/solda capilar, PE por termofusão/eletrofusão) ou por compressão.",
+   "valores": [
+    {"parametro": "Afastamento da tubulação enterrada de outras utilidades", "valor": "≥ 0,30 m", "item": "7.3.4"},
+    {"parametro": "Profundidade — sem tráfego / com tráfego de veículos", "valor": "≥ 0,30 m / ≥ 0,50 m acima da geratriz superior", "item": "7.3.4", "nota": "se não der, proteger com laje ou tubo-luva"},
+    {"parametro": "Afastamento de entrada de energia ≥ 15 kV (tubo metálico enterrado)", "valor": "≥ 5 m", "item": "7.3.4"},
+    {"parametro": "Proteção da instalação elétrica no cruzamento", "valor": "eletroduto por 500 mm para cada lado", "item": "7.3.2"},
+    {"parametro": "Solda capilar em cobre", "valor": "só até 7,5 kPa; metal de adição com fusão > 200 °C", "item": "7.4.2.2 b)", "nota": "conferir o valor exato do ponto de fusão"}
+   ]},
+  {"titulo": "Reguladores e dispositivos de segurança", "item": "7.6–7.7",
+   "texto": "Proteção contra sobrepressão escolhida pela pressão de entrada e vazão: alívio pleno, bloqueio por sobrepressão, limitador, regulador ativo + monitor ou duplo diafragma. Bloqueio por subpressão protege contra falta de gás.",
+   "valores": [
+    {"parametro": "Pressão máxima admissível a jusante — PS ≤ 7,5 kPa", "valor": "PS × 3 (até 14,0 kPa)", "item": "7.7"},
+    {"parametro": "PS de 7,5 a 35 kPa", "valor": "PS × 2,7 (até 94,5 kPa)", "item": "7.7"},
+    {"parametro": "Bloqueio por subpressão", "valor": "25 % a 30 % abaixo da pressão nominal do regulador", "item": "7.7.3"},
+    {"parametro": "Duplo diafragma — pressão de saída em falha", "valor": "≤ 20 % acima da ajustada", "item": "7.7.6"}
+   ]},
+  {"titulo": "Ensaio de estanqueidade e comissionamento", "item": "8",
+   "texto": "Duas etapas com ar comprimido ou gás inerte: rede exposta após montagem, e rede completa com equipamentos na pressão de operação. Laudo antes da purga; depois purga com inerte e admissão do gás.",
+   "valores": [
+    {"parametro": "1ª etapa — pressão mínima", "valor": "600 kPa", "item": "8.1.1 a)"},
+    {"parametro": "1ª etapa — duração", "valor": "volume hidráulico (m³) × 214 min, mínimo 15 min (+15 min de estabilização)", "item": "8.1.2", "nota": "há também um teto de tempo — conferir"},
+    {"parametro": "2ª etapa — duração", "valor": "≥ 5 min (1 min de estabilização)", "item": "8.1.2"},
+    {"parametro": "Incrementos de pressurização", "valor": "≤ 10 % da pressão de ensaio", "item": "8.1.3 c)"},
+    {"parametro": "Manômetro de ensaio", "valor": "leitura entre 20 % e 80 % da escala; divisões ≤ 1 % do fundo", "item": "8.1.2"}
+   ]},
+  {"titulo": "Descomissionamento, aparelhos e conversão", "item": "9–11",
+   "texto": "Drenagem do gás para retirar a rede de operação e recomissionamento; instalação dos aparelhos; requisitos para converter a rede para outro gás.",
+   "valores": []}
+ ]
+}

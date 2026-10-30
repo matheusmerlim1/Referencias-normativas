@@ -1,0 +1,46 @@
+{
+ "id": "DIN-934",
+ "titulo": "DIN 934:1987 — Porcas sextavadas com rosca métrica grossa e fina — Graus A e B",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Porca sextavada comum M1 a M160, grau A até M16 e B acima. Recomenda-se, para novos projetos, porcas ISO 4032 (grossa) ou ISO 8673/8674 (fina), pois as classes revisadas da ISO 898-2 só se aplicam a estas porcas de M5 a M39 com cargas de prova próprias. Na Alemanha seguiam em uso as aberturas antigas para M10, M12, M14 e M22.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M1 a M160",
+     "item": "1"
+    },
+    {
+     "parametro": "Altura mínima de aperto",
+     "valor": "m' ≥ 0,8 m",
+     "item": "2"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos",
+   "item": "3",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Classes — aço",
+     "valor": "até M39: 6, 8 ou 10; acima a combinar",
+     "item": "3",
+     "nota": "cópia OCR — conferir"
+    },
+    {
+     "parametro": "Abertura ≤ 4 mm",
+     "valor": "tolerância h12 em vez de h13 (desvio da ISO 4759-1)",
+     "item": "Tab., nota 2"
+    },
+    {
+     "parametro": "Tolerâncias",
+     "valor": "ISO 4759-1, grau A até M16 e B acima",
+     "item": "3"
+    }
+   ]
+  }
+ ]
+}

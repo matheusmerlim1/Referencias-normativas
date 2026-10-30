@@ -1,0 +1,82 @@
+{
+ "id": "ASME-SA-553",
+ "titulo": "SA-553 — Chapas de aço 8 e 9 % níquel temperadas em água e revenidas para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço com 9 % Ni (Tipo I) ou 8 % Ni (Tipo II), temperadas em água e revenidas, para vasos de pressão soldados (serviço criogênico). Requisitos gerais pela SA-20."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Aço acalmado de grão fino. Toda chapa (e peças aquecidas para conformação, depois da conformação) é austenitizada, temperada em água e revenida.",
+   "valores": [
+    {
+     "parametro": "Faixa de austenitização",
+     "valor": "1475 a 1700 °F [800 a 925 °C]",
+     "item": "5.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,13 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx.",
+     "valor": "0,90 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,15–0,40 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni — Tipo I / II",
+     "valor": "8,50–9,50 % / 7,50–8,50 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su",
+     "valor": "100 a 120 ksi [690–825 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "85 ksi [585 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm",
+     "valor": "20,0 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação e suplementares",
+   "item": "9",
+   "texto": "Marcação da SA-20 estampada ou pintada conforme a espessura. Suplementares da SA-20 quando pedidos."
+  }
+ ]
+}

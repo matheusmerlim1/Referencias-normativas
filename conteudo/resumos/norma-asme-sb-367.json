@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SB-367",
+ "titulo": "SB-367 — Fundidos de titânio e ligas de titânio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Peças fundidas de titânio e ligas de titânio para aplicações industriais resistentes à corrosão (não para itens de prateleira). Graus C-2, C-3, C-5, C-6, C-12, Ti-Pd 7B, 8A, 16, 17, 18, C-38 e outros."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N máx. / C máx. / H máx. (maioria)",
+     "valor": "0,05 % / 0,10 % / 0,015 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela S6-1",
+   "texto": "Quando pedidas (suplementar S6): Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "C-2",
+     "valor": "50 ksi (345) / 40 ksi (275) / 15 %",
+     "item": "Tabela S6-1"
+    },
+    {
+     "parametro": "C-3",
+     "valor": "65 ksi (450) / 55 ksi (380) / 12 %",
+     "item": "Tabela S6-1"
+    },
+    {
+     "parametro": "C-5 (Ti-6Al-4V)",
+     "valor": "130 ksi (895) / 120 ksi (825) / 6 %",
+     "item": "Tabela S6-1"
+    },
+    {
+     "parametro": "C-12",
+     "valor": "70 ksi (483) / 50 ksi (345) / 8 %",
+     "item": "Tabela S6-1"
+    }
+   ]
+  }
+ ]
+}

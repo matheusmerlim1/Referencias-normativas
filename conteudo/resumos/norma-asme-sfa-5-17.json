@@ -1,0 +1,77 @@
+{
+ "id": "ASME-SFA-5.17",
+ "titulo": "SFA-5.17 — Arames e fluxos de aço carbono para arco submerso (AWS A5.17)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Eletrodos (arames sólidos e compostos) e fluxos de aço carbono para soldagem a arco submerso (SAW). O fluxo é classificado em combinação com um arame: FXXX-EXXX."
+  },
+  {
+   "titulo": "Classificações",
+   "item": "—",
+   "texto": "Fluxo F6 ou F7 (Su mín. 60/70 ksi), condição (A como soldado, P com TTAT), temperatura do Charpy (dígito) e arame (EL… baixo Mn, EM… médio Mn, EH… alto Mn; sufixo K = acalmado ao Si; EC = composto). 'S' indica fluxo de escória britada."
+  },
+  {
+   "titulo": "Composição química do arame",
+   "item": "Tabelas 1 e 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "EL8 — C máx. / Mn",
+     "valor": "0,10 % / 0,25–0,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "EM12K — C / Mn / Si",
+     "valor": "0,05–0,15 % / 0,80–1,25 % / 0,10–0,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx. / Cu máx.",
+     "valor": "0,030 % / 0,030 % / 0,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "EC1 (composto, metal de solda) — C / Mn / Si máx.",
+     "valor": "0,15 / 1,80 / 0,90 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas do metal de solda",
+   "item": "Tabela de tração",
+   "texto": "Su / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "F6XX-EXXX",
+     "valor": "60 000–80 000 psi / 48 000 psi / 22 %",
+     "item": "Tabela de tração"
+    },
+    {
+     "parametro": "F7XX-EXXX",
+     "valor": "70 000–95 000 psi / 58 000 psi / 22 %",
+     "item": "Tabela de tração"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabelas 3 e 7",
+   "texto": "Arames sólidos: só análise química do arame. Combinação fluxo-arame: análise do metal de solda, radiografia, tração e Charpy. Hidrogênio difusível opcional.",
+   "valores": [
+    {
+     "parametro": "Hidrogênio difusível (opcional) — H16 / H8 / H4",
+     "valor": "16,0 / 8,0 / 4,0 mL/100 g",
+     "item": "Tabela 7"
+    },
+    {
+     "parametro": "H2 (opcional)",
+     "valor": "2,0 mL/100 g",
+     "item": "Tabela 7"
+    }
+   ]
+  }
+ ]
+}

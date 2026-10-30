@@ -1,0 +1,23 @@
+{
+ "id": "ASME-SB-EN-1706",
+ "titulo": "SB/EN 1706 — Fundidos de alumínio e ligas de alumínio: composição química e propriedades mecânicas (norma europeia)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "Capa ASME",
+   "texto": "Especificação europeia adotada pela ASME (Seção II Parte B), idêntica à BS EN 1706:1998, com os requisitos adicionais da folha de rosto; nenhuma outra edição aprovada para uso ASME. O texto da norma de origem não está reproduzido no volume do acervo."
+  },
+  {
+   "titulo": "Requisitos adicionais ASME",
+   "item": "Capa ASME",
+   "texto": "Peças marcadas com designação SB/EN e liga, número do modelo, data de fundição e fundidor. Impregnação, se permitida, com material Classe 1 da MIL-I-17536C e procedimento MIL-STD-276A; proibido soldar após impregnar.",
+   "valores": [
+    {
+     "parametro": "Altura mín. das letras de marcação",
+     "valor": "5/16 in (8 mm)",
+     "item": "1.1"
+    }
+   ]
+  }
+ ]
+}

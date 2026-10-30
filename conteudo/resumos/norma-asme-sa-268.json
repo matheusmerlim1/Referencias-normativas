@@ -1,0 +1,87 @@
+{
+ "id": "ASME-SA-268",
+ "titulo": "SA-268 — Tubos de aço inoxidável ferrítico e martensítico, com e sem costura, para serviço geral",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de parede nominal de aço inoxidável 'cromo puro' (ferromagnéticos) para resistência geral à corrosão e alta temperatura. TP410 e S41500 endurecem por tratamento térmico; os ferríticos de alto cromo podem ficar frágeis (fragilidade ao entalhe) se resfriados lentamente. Requisitos gerais pela SA-1016."
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "6, 7",
+   "texto": "Sem costura ou soldado sem metal de adição. Tratamento final por reaquecimento e resfriamento adequado ao grau.",
+   "valores": [
+    {
+     "parametro": "Tratamento final — graus em geral",
+     "valor": "≥ 1200 °F [650 °C]",
+     "item": "7.1"
+    },
+    {
+     "parametro": "Tratamento final — S41500 (martensítico)",
+     "valor": "≥ 950 °F [510 °C]",
+     "item": "7.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 3 e 5",
+   "texto": "Su mín. / Sy mín. / alongamento mín. / dureza máx.",
+   "valores": [
+    {
+     "parametro": "TP405, TP410",
+     "valor": "60 ksi [415] / 30 ksi [205] / 20 % / 207 HB, 95 HRB",
+     "item": "Tabelas 3 e 5"
+    },
+    {
+     "parametro": "TP430",
+     "valor": "60 ksi [415] / 35 ksi [240] / 20 % / 190 HB, 90 HRB",
+     "item": "Tabelas 3 e 5"
+    },
+    {
+     "parametro": "TP409",
+     "valor": "55 ksi [380] / 25 ksi [170] / 20 % / 207 HB, 95 HRB",
+     "item": "Tabelas 3 e 5"
+    },
+    {
+     "parametro": "TP439",
+     "valor": "60 ksi [415] / 30 ksi [205] / 20 % / 190 HB, 90 HRB",
+     "item": "Tabelas 3 e 5"
+    },
+    {
+     "parametro": "TP446-1",
+     "valor": "70 ksi [485] / 40 ksi [275] / 18 % / 207 HB",
+     "item": "Tabelas 3 e 5"
+    },
+    {
+     "parametro": "S41500",
+     "valor": "115 ksi [795] / 90 ksi [620] / 15 % / 295 HB, 32 HRC",
+     "item": "Tabelas 3 e 5"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "9, 14, 15",
+   "texto": "Análise de produto por corrida; tração (1 por lote até 50 tubos; 2 acima); alargamento em tubos sem costura (expansão mín. do diâmetro interno de 10 %); cada tubo passa por teste hidrostático ou ensaio elétrico não destrutivo.",
+   "valores": [
+    {
+     "parametro": "Expansão mín. no alargamento",
+     "valor": "10 % do diâmetro interno",
+     "item": "14.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Limites por grau na Tabela 1 (Cr de cerca de 11 a 30 %, conforme o tipo)."
+  },
+  {
+   "titulo": "Marcação",
+   "item": "16",
+   "texto": "Marcação da SA-1016 indicando se o tubo é sem costura ou soldado."
+  }
+ ]
+}

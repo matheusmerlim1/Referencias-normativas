@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SB-466",
+ "titulo": "SB-466 — Tubos sem costura de cobre-níquel (pipe e tube)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura de cobre-níquel em barras retas para engenharia geral, ligas C70400, C70600, C70620, C71000, C71500, C71520 e C72200; C70620 e C71520 são versões para soldagem posterior."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C70400 — Ni / Fe / Mn",
+     "valor": "4,8–6,2 % / 1,3–1,7 % / 0,30–0,8 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C70600 — Ni / Fe / Mn máx.",
+     "valor": "9,0–11,0 % / 1,0–1,8 % / 1,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C70620 — Cu mín. / Pb máx.",
+     "valor": "86,5 % / 0,02 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Recozido mole (O60) — Su mín. / Sy mín. / dureza máx. 30T.",
+   "valores": [
+    {
+     "parametro": "C70400",
+     "valor": "37 ksi (255) / 12 ksi (85) / 45",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C70600, C70620",
+     "valor": "38 ksi (260) / 13 ksi (90) / 45",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C71000",
+     "valor": "45 ksi (310) / 16 ksi (110) / 48",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C71500, C71520",
+     "valor": "52 ksi (345) / 18 ksi (125) / 51",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C72200",
+     "valor": "40 ksi (275) / 14 ksi (95) / 45",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

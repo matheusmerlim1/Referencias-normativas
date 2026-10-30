@@ -1,0 +1,23 @@
+{
+ "id": "ASME-SB-548",
+ "titulo": "SB-548 — Método de inspeção ultrassônica de chapas de alumínio para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Inspeção ultrassônica pulso-eco de chapas de liga de alumínio para fabricação de vasos de pressão, para detectar descontinuidades internas grosseiras paralelas à superfície laminada (trincas, rupturas, duplas laminações).",
+   "valores": [
+    {
+     "parametro": "Espessura mínima coberta",
+     "valor": "0,500 in (12,7 mm)",
+     "item": "1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Aplicação",
+   "item": "1",
+   "texto": "Usado quando a especificação do produto ou o pedido exigem ultrassom; os critérios de aceitação seguem a norma e o acordo entre as partes."
+  }
+ ]
+}

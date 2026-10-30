@@ -1,0 +1,30 @@
+{
+ "id": "ISO-3601-3",
+ "titulo": "ISO 3601-3:2005 — Sistemas fluidomecânicos — O-rings — Parte 3: Critérios de aceitação de qualidade",
+ "secoes": [
+  {
+   "titulo": "Escopo e defeitos",
+   "item": "1–3",
+   "texto": "Critérios de aceitação de O-rings das ISO 3601-1 e ISO 16031 (inclusive aeroespaciais): definição e classificação das imperfeições de superfície (ex. 'backrind': retração em U ou W junto à linha de rebarba) e limites de tamanho.",
+   "valores": []
+  },
+  {
+   "titulo": "Graus de qualidade",
+   "item": "4–5, Tab. 1–3",
+   "texto": "Grau N (uso geral), S (especial) e CS (serviço crítico); seleção conforme a aplicação. Limites de profundidade e extensão de cada imperfeição por faixa de seção.",
+   "valores": [
+    {
+     "parametro": "Graus",
+     "valor": "N / S / CS",
+     "item": "4"
+    },
+    {
+     "parametro": "Limites por imperfeição",
+     "valor": "Tabelas 1 (N), 2 (S) e 3 (CS)",
+     "item": "Tab. 1–3",
+     "nota": "valores não transcritos"
+    }
+   ]
+  }
+ ]
+}

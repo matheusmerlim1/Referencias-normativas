@@ -1,0 +1,87 @@
+{
+ "id": "ASME-SA-232",
+ "titulo": "SA-232 — Arame de aço Cr-V de qualidade para molas de válvula",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Arame redondo de aço cromo-vanádio da mais alta qualidade, uniforme, para molas de válvula e outras molas sujeitas a fadiga em temperatura moderadamente elevada. Recozido e trefilado a frio ou temperado em óleo."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "Inclui tolerância da análise de produto.",
+   "valores": [
+    {
+     "parametro": "C",
+     "valor": "0,48–0,53 % (± 0,02)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Mn",
+     "valor": "0,70–0,90 % (± 0,03)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,020 % / 0,035 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,15–0,35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Cr",
+     "valor": "0,80–1,10 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "V mín.",
+     "valor": "0,15 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas (temperado em óleo)",
+   "item": "Tabela 1",
+   "texto": "Mesmos limites de tração por diâmetro do arame SA-231.",
+   "valores": [
+    {
+     "parametro": "Ø 0,50 mm — Su",
+     "valor": "2060–2260 MPa",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ø 2,50 mm — Su / redução de área mín.",
+     "valor": "1720–1860 MPa / 45 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ø 12,00 mm — Su / redução de área mín.",
+     "valor": "1320–1460 MPa / 40 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Qualidade superficial e tolerâncias",
+   "item": "7, Tabela 3",
+   "texto": "Superfície livre de pites, marcas de fieira, riscos e outras imperfeições (exigência maior que a do arame comum).",
+   "valores": [
+    {
+     "parametro": "Tolerância de Ø — até 2,0 mm",
+     "valor": "± 0,02 mm",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "— acima de 9,00 mm",
+     "valor": "± 0,05 mm",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

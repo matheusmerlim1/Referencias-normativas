@@ -1,0 +1,92 @@
+{
+ "id": "ASME-SA-542",
+ "titulo": "SA-542 — Chapas de aço liga Cr-Mo e Cr-Mo-V temperadas e revenidas para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço 2 1/4Cr-1Mo (Tipos A e B) e Cr-Mo-V (Tipos C, D, E), temperadas e revenidas, para vasos de pressão soldados. O Tipo B é o A com limites mais restritos de C, P, S e Ni. Cinco classes de resistência (1, 2, 3, 4, 4a); o Tipo E só nas classes 4 e 4a. Requisitos gerais pela SA-20."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Aço acalmado de grão fino; austenitização, têmpera em líquido (spray ou imersão) e revenimento.",
+   "valores": [
+    {
+     "parametro": "Tipo D — austenitização mín.",
+     "valor": "1650 °F [900 °C]",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Análise de corrida.",
+   "valores": [
+    {
+     "parametro": "C — A / B, D / C, E",
+     "valor": "0,15 máx. / 0,11–0,15 / 0,10–0,15 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn",
+     "valor": "0,30–0,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cr — A, B, D / C, E",
+     "valor": "2,00–2,50 % / 2,75–3,25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mo",
+     "valor": "0,90–1,10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cu máx. — A / B, C, E / D",
+     "valor": "0,40 / 0,25 / 0,20 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "Classe 1",
+     "valor": "105–125 ksi [725–860] / 85 ksi [585] / 14 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 2",
+     "valor": "115–135 ksi [795–930] / 100 ksi [690] / 13 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 3",
+     "valor": "95–115 ksi [655–795] / 75 ksi [515] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 4",
+     "valor": "85–110 ksi [586–760] / 55 ksi [380] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 4a",
+     "valor": "85–110 ksi [585–760] / 60 ksi [415] / 18 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "Suplementares",
+   "texto": "Opcionais padronizados da SA-20, só quando pedidos."
+  }
+ ]
+}

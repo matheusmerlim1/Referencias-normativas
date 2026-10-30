@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SB-572",
+ "titulo": "SB-572 — Barras e vergalhões de ligas resistentes ao calor (N06002, N06230, N12160, R30556)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras das ligas N06002, N06230, N12160 e R30556 para serviço resistente ao calor e corrosivo geral, solubilizadas e decapadas ou descascadas."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela de química",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N06002 — Fe / Cr / Mo / Co",
+     "valor": "17,0–20,0 % / 20,5–23,0 % / 8,0–10,0 % / 0,5–2,5 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N06230 — Cr / Fe máx.",
+     "valor": "20,0–24,0 % / 3,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N12160 — Cr / Co",
+     "valor": "26,0–30,0 % / 27,0–33,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "R30556 — Ni / Cr / Co",
+     "valor": "19,0–22,5 % / 21,0–23,0 % / 16,0–21,0 %",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N06002",
+     "valor": "95 ksi (660) / 35 ksi (240) / 35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N06230",
+     "valor": "110 ksi (760) / 45 ksi (310) / 40 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N12160",
+     "valor": "90 ksi (620) / 35 ksi (240) / 40 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "R30556",
+     "valor": "100 ksi (690) / 45 ksi (310) / 40 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

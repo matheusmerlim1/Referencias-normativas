@@ -1,0 +1,70 @@
+{
+ "id": "ASME-SA-451",
+ "titulo": "SA-451 — Tubos de aço austenítico fundidos por centrifugação para alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de aço austenítico fundidos por centrifugação para serviço de alta temperatura, corrosivo ou nuclear (graus CPF3, CPF3A, CPF3M, CPF8, CPF8A, CPF8M, CPF8C, CPF10MC, CPH8, CPH10, CPH20, CPK20, CPE20N). Suplementares opcionais."
+  },
+  {
+   "titulo": "Tratamento térmico e usinagem",
+   "item": "5, Tabela 2",
+   "texto": "Solubilização com patamar por espessura e têmpera em água (ou resfriamento rápido). Superfícies interna e externa usinadas.",
+   "valores": [
+    {
+     "parametro": "CPF3, CPF8, CPF3M, CPF8M — temperatura / patamar",
+     "valor": "1900 °F [1040 °C] / 1 h por in",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "CPF8C, CPF10MC",
+     "valor": "1950 °F [1065 °C] / 2 h por in",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "CPH8, CPH10, CPH20, CPK20",
+     "valor": "2100 °F [1150 °C] / 1 h por in",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Rugosidade máx. usinada",
+     "valor": "250 µin [6,35 µm] Ra",
+     "item": "5.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "CPF3, CPF8",
+     "valor": "70 ksi (485) / 30 ksi (205) / 35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "CPF3A, CPF8A",
+     "valor": "77 ksi (535) / 35 ksi (240) / 35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "CPF3M, CPF8M",
+     "valor": "70 ksi (485) / 30 ksi (205) / 30 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "CPH8",
+     "valor": "65 ksi (448) / 28 ksi (195) / 30 %",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Hidrostático e qualidade",
+   "item": "8, 9",
+   "texto": "Cada tubo testado hidrostaticamente (SA-530), podendo ser adiado; a fundição responde pelo desempenho no teste posterior. Superfície livre de trincas e rasgos a quente."
+  }
+ ]
+}

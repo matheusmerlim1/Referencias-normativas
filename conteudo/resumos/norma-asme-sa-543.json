@@ -1,0 +1,88 @@
+{
+ "id": "ASME-SA-543",
+ "titulo": "SA-543 — Chapas de aço liga Ni-Cr-Mo temperadas e revenidas para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço níquel-cromo-molibdênio temperadas e revenidas para vasos de pressão soldados e outros equipamentos, normalmente para espessuras de 2 in [50 mm] ou mais. Tipos B e C; Classes 1, 2 e 3. Requisitos gerais pela SA-20."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Austenitização, têmpera em líquido e revenimento; chapas acima de 4 in [100 mm] recebem normalização ou têmpera prévia.",
+   "valores": [
+    {
+     "parametro": "Revenimento mín.",
+     "valor": "1100 °F [595 °C], patamar ≥ 1/2 h por in [1,2 min/mm], mín. 1/2 h",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Tratamento prévio (> 4 in)",
+     "valor": "normalização ou têmpera de 1650 a 1850 °F",
+     "item": "5.2",
+     "nota": "limite em °C truncado na extração"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx. — B / C",
+     "valor": "0,20 % / 0,18 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx.",
+     "valor": "0,40 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,020 % / 0,020 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si (corrida)",
+     "valor": "0,15–0,40 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni (corrida) — B / C",
+     "valor": "2,25–4,00 % / 2,00–3,50 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "Classe 1",
+     "valor": "105–125 ksi [725–860] / 85 ksi [585] / 14 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 2",
+     "valor": "115–135 ksi [795–930] / 100 ksi [690] / 14 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 3",
+     "valor": "90–115 ksi [620–795] / 70 ksi [485] / 16 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "Suplementares",
+   "texto": "Opcionais padronizados da SA-20, só quando pedidos."
+  }
+ ]
+}

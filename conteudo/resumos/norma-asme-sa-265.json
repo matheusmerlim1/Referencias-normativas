@@ -1,0 +1,55 @@
+{
+ "id": "ASME-SA-265",
+ "titulo": "SA-265 — Chapas de aço cladeadas com níquel e ligas de níquel",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapa composta (cladeada): base de aço carbono ou baixa liga com uma camada de níquel ou liga à base de níquel unida metalurgicamente, de forma contínua e integral, em uma ou nas duas faces. Uso principal em vasos de pressão. Também pode ser usada em outras estruturas onde a resistência à corrosão da liga é essencial. Requisitos de fornecimento da chapa-base pela SA-20 (ou SA-6)."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "5",
+   "texto": "O aço é elaborado em forno elétrico, Siemens-Martin ou conversor a oxigênio (com refusão opcional). A união do revestimento pode ser feita por qualquer método que gere chapa conforme (laminação, explosão, solda etc.). Tratamento térmico conforme acordo e a especificação da base."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "6",
+   "texto": "Combinação de revestimento e base livre, por acordo. O revestimento segue a química da especificação da liga (SB-127, 162, 168, 333, 409, 424, 443, 463, 575, 582, 625 ou outra acordada). A base segue a especificação ASTM de aço para vaso de pressão escolhida."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "7",
+   "texto": "A tração é feita na chapa composta quando a espessura total ≤ 1 1/2 in e a base tem Su mín. ≤ 70 000 psi [485 MPa] e Sy mín. ≤ 40 000 psi [275 MPa]; o resultado não pode ficar abaixo do mínimo da base. Fora dessas condições, ensaia-se só a base. Cisalhamento da interface ou ensaio de aderência, quando pedidos.",
+   "valores": [
+    {
+     "parametro": "Resistência ao cisalhamento mín. da interface (se pedida)",
+     "valor": "20 000 psi [140 MPa]",
+     "item": "7.2.1"
+    },
+    {
+     "parametro": "Espessura mín. do revestimento p/ ensaio de cisalhamento",
+     "valor": "0,075 in [1,9 mm]",
+     "item": "7.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção da aderência",
+   "item": "13",
+   "texto": "O revestimento deve estar aderido em toda a área. Chapas finas são inspecionadas visualmente; a partir de 3/8 in, por ultrassom (SA-578). Regiões sem aderência vistas a olho são mapeadas por ultrassom.",
+   "valores": [
+    {
+     "parametro": "Espessura total a partir da qual o ultrassom é obrigatório",
+     "valor": "3/8 in [10 mm]",
+     "item": "13.2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo e marcação",
+   "item": "14, 17",
+   "texto": "O fabricante pode reparar defeitos do revestimento por solda, com procedimento e soldadores qualificados e exame posterior. Marcação conforme a especificação da base, acrescida da identificação do revestimento."
+  }
+ ]
+}

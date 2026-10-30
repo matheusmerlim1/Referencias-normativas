@@ -1,0 +1,31 @@
+{
+ "id": "ASME-SA-960",
+ "titulo": "SA-960 — Requisitos gerais para conexões de aço forjadas/conformadas para tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns às especificações de conexões de aço para tubulação (SA-234, 403, 420, 815 e outras): material, fabricação, tratamento térmico, química, ensaios, hidrostático, reparo e marcação; mais um grupo de requisitos suplementares (ex.: S57 dureza, S58 conexões fora de padrão)."
+  },
+  {
+   "titulo": "Material e fabricação",
+   "item": "5, 6",
+   "texto": "Forjados, barras, chapas e tubos; aços ferríticos totalmente acalmados. Peças cilíndricas ocas até NPS 4 podem ser usinadas de barra ou tubo sem costura, com o eixo paralelo ao da matéria-prima."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "7",
+   "texto": "Quando exigido pela especificação do produto: recozimento pleno, normalização, normalização e revenimento, têmpera e revenimento, alívio de tensões ou solubilização, com os procedimentos definidos."
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "8 a 13",
+   "texto": "Química (A751); ensaios mecânicos pela A370, com corpo de prova representando material da mesma corrida e carga de forno até certa espessura. A conexão deve suportar o hidrostático do tubo equivalente; o teste só é feito quando pedido."
+  },
+  {
+   "titulo": "Reparo e marcação",
+   "item": "16, 19",
+   "texto": "O comprador pode exigir aprovação prévia de reparos por solda (suplementar). Cada peça marcada com designação ASTM, grau, classe, organização certificadora, corrida e dimensões."
+  }
+ ]
+}

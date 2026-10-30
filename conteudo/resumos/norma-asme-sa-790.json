@@ -1,0 +1,61 @@
+{
+ "id": "ASME-SA-790",
+ "titulo": "SA-790 — Tubos (pipe) de aço inoxidável duplex com e sem costura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe) de aço inoxidável ferrítico/austenítico (duplex), sem costura ou com costura reta, para serviço corrosivo geral com ênfase em corrosão sob tensão. Fragilizam em exposição longa a temperatura elevada. Requisitos gerais pela SA-999."
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "6, Tabela 1",
+   "texto": "Sem costura ou soldado automaticamente sem metal de adição; acabado a quente ou a frio; decapado. Solubilização com resfriamento rápido.",
+   "valores": [
+    {
+     "parametro": "S31803 e S32205 — solubilização",
+     "valor": "1870–2010 °F [1020–1100 °C], resfriamento rápido ao ar ou água",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "S31200",
+     "valor": "1920–2010 °F [1050–1100 °C], resfriamento em água",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín. / dureza máx.",
+   "valores": [
+    {
+     "parametro": "S31803",
+     "valor": "90 ksi [620] / 65 ksi [450] / 25 % / 290 HB, 30 HRC",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "S32205",
+     "valor": "95 ksi [655] / 65 ksi [450] / 25 % / 290 HB, 30 HRC",
+     "item": "Tabela 3",
+     "nota": "na SA-789 (tubing) o Sy mín. do S32205 é 70 ksi [485]"
+    },
+    {
+     "parametro": "S31500",
+     "valor": "92 ksi [630] / 64 ksi [440] / 30 % / 290 HB",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "S32550",
+     "valor": "110 ksi [760] / 80 ksi [550] / 15 % / 297 HB, 31 HRC",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e reparo",
+   "item": "13 a 15",
+   "texto": "Tração (1 por lote até 100 tubos; 2 acima); cada tubo com hidrostático ou ensaio elétrico (SA-999). Reparo da solda com metal de adição admitido em tubo soldado ≥ NPS 6 e parede ≥ 0,188 in [4,8 mm], nas condições da norma."
+  }
+ ]
+}

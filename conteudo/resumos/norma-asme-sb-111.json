@@ -1,0 +1,67 @@
+{
+ "id": "ASME-SB-111",
+ "titulo": "SB-111 — Tubos sem costura de cobre e ligas de cobre para condensadores e trocadores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura e material para virolas de cobre e ligas de cobre (latão almirantado, alumínio-latão, bronze de alumínio, cupro-níquel etc.) para condensadores de superfície, evaporadores e trocadores de calor.",
+   "valores": [
+    {
+     "parametro": "Diâmetro máx.",
+     "valor": "3 1/8 in (80 mm)",
+     "item": "1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição e têmperas",
+   "item": "6, 7",
+   "texto": "Composição por liga na Tabela 1. Têmperas recozida (O61) e trefiladas (H55, H80) conforme a liga."
+  },
+  {
+   "titulo": "Propriedades mecânicas (Código ASME)",
+   "item": "8, Tabelas 2 e 3",
+   "texto": "Su mín. / Sy mín. (ksi e MPa).",
+   "valores": [
+    {
+     "parametro": "C44300/C44400/C44500 (almirantado) O61",
+     "valor": "45 ksi (310) / 15 ksi (105)",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "C68700 (alumínio-latão) O61",
+     "valor": "50 ksi (345) / 18 ksi (125)",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "C70600 (90-10 Cu-Ni) O61",
+     "valor": "40 ksi (275) / 15 ksi (105)",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "C61300/C61400 (bronze de alumínio) O61",
+     "valor": "70 ksi (480) / 30 ksi (205)",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "Cobres C10100–C14200 H55",
+     "valor": "36 ksi (250) / 30 ksi (205)",
+     "item": "Tabelas 2 e 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "9 a 13",
+   "texto": "Tamanho de grão em recozidos, expansão, achatamento em 3 pontos, tensão residual (latões, ligas sujeitas a corrosão sob tensão) e correntes parasitas em cada tubo.",
+   "valores": [
+    {
+     "parametro": "Expansão mín. — C23000 / C28000 / almirantado / C68700",
+     "valor": "20 % / 15 % / 20 % / 20 % do diâmetro",
+     "item": "Tabela 4"
+    }
+   ]
+  }
+ ]
+}

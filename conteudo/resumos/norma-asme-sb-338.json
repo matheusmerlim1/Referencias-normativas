@@ -1,0 +1,70 @@
+{
+ "id": "ASME-SB-338",
+ "titulo": "SB-338 — Tubos sem costura e soldados de titânio e ligas de titânio para condensadores e trocadores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de titânio e ligas de titânio (28 graus: não ligados 1, 2, 2H, 3; Ti-Pd 7, 7H, 11; Ti-3Al-2,5V grau 9; graus 12, 13 e outros) para condensadores, evaporadores e trocadores de calor."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N máx. / C máx. / H máx.",
+     "valor": "0,03 % / 0,08 % / 0,015 % (graus 1, 2)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Fe máx. / O máx. — Grau 1",
+     "valor": "0,20 % / 0,18 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Fe máx. / O máx. — Grau 2",
+     "valor": "0,30 % / 0,25 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín.–máx. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "Grau 1 (Ti puro)",
+     "valor": "35 ksi (240) / 20–45 ksi (138–310) / 24 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 2 (Ti puro)",
+     "valor": "50 ksi (345) / 40–65 ksi (275–450) / 20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 3 (Ti puro)",
+     "valor": "65 ksi (450) / 55–80 ksi (380–550) / 18 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 7 (Ti-Pd)",
+     "valor": "50 ksi (345) / 40–65 ksi (275–450) / 20 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau 9 (Ti-3Al-2,5V) recozido",
+     "valor": "90 ksi (620) / 70 ksi (483) / 15 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau 9 trabalhado a frio e aliviado",
+     "valor": "125 ksi (860) / 105 ksi (725) / 10 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

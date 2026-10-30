@@ -1,0 +1,92 @@
+{
+ "id": "ASME-SA-649",
+ "titulo": "SA-649 — Rolos forjados para máquinas de papelão ondulado",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Dois tipos de rolos de máquinas de papelão ondulado, com corpo e munhões forjados; munhões aparafusados ou montados por interferência, com solda de vedação opcional na interface. Corpos de aço C-Mn ou baixa liga, em várias classes."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4",
+   "texto": "Corpo forjado maciço e depois furado; munhões forjados maciços ou recalcados de segmentos de tarugo/barra; tratamento térmico para propriedades."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Classe 1A — C / Mn",
+     "valor": "0,45–0,60 % / 0,55–1,05 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Classe 2 — C máx. / Mn",
+     "valor": "0,55 % / 0,50–0,90 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Classe 3 — C máx. / Mn",
+     "valor": "0,35 % / 0,40–0,70 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Classe 5 — C / Mn",
+     "valor": "0,50–0,60 % / 0,90–1,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,025 % / 0,025 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Sy mín. / Su mín. / alongamento / redução de área.",
+   "valores": [
+    {
+     "parametro": "Classes 1A, 1B, 5 — Grau 1",
+     "valor": "130 ksi [890] / 150 ksi [1030] / 12,0 % / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classes 1A, 1B, 5 — Grau 2",
+     "valor": "65 ksi [450] / 100 ksi [690] / 14,0 % / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 2",
+     "valor": "37,5 ksi [260] / 75 ksi [515] / 20,0 % / 50 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classes 3 e 4",
+     "valor": "30 ksi [205] / 60 ksi [415] / 22,0 % / 55 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "8, 9",
+   "texto": "Partículas magnéticas em toda a superfície do rolo, inclusive a solda de vedação; teste hidrostático do conjunto usinado.",
+   "valores": [
+    {
+     "parametro": "Pressão de teste hidrostático",
+     "valor": "1 1/2 × PMTA (informada pelo comprador)",
+     "item": "9.1"
+    },
+    {
+     "parametro": "Temperatura mín. recomendada do teste",
+     "valor": "70 °F [21 °C]",
+     "item": "9.2"
+    }
+   ]
+  }
+ ]
+}

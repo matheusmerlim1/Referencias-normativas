@@ -1,0 +1,62 @@
+{
+ "id": "ASME-SB-43",
+ "titulo": "SB-43 — Tubos (pipe) de latão vermelho sem costura, tamanhos padronizados",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura de latão vermelho (UNS C23000), regulares e extrafortes. Recozido (O61) para hidráulica e alimentação de caldeira; trefilado (H58) para uso geral."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "5",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Cu",
+     "valor": "84,0 a 86,0 %",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Pb máx. / Fe máx.",
+     "valor": "0,05 % / 0,05 %",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Zn",
+     "valor": "restante",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "O61 — Su / Sy mín. / alongamento",
+     "valor": "40,0 ksi / 12,0 ksi / 35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "H58 — Su / Sy mín.",
+     "valor": "40,0 ksi / 18,0 ksi",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "8 a 10",
+   "texto": "Expansão do tubo recozido, ensaio de nitrato mercuroso (tensões residuais) e correntes parasitas.",
+   "valores": [
+    {
+     "parametro": "Expansão mín. (O61)",
+     "valor": "25 % do diâmetro externo",
+     "item": "8.1"
+    }
+   ]
+  }
+ ]
+}

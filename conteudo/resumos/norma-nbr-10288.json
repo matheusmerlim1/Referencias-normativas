@@ -1,0 +1,38 @@
+{
+ "id": "NBR-10288",
+ "titulo": "ABNT NBR 10288:1994 — Cilindro de aço para gases comprimidos — Ensaio hidrostático pelo método da expansão direta",
+ "secoes": [
+  {"titulo": "Objetivo", "item": "1",
+   "texto": "Método de ensaio hidrostático por expansão direta para cilindros de aço (com ou sem costura) de gases comprimidos inspecionados pela NBR 12274, para decidir se entram ou continuam em serviço. Exige muito cuidado; só é recomendado quando não for possível o método da camisa d'água (NBR 13243). Não se aplica a cilindros de GLP.",
+   "valores": []},
+  {"titulo": "Definições", "item": "3",
+   "texto": "Expansão total (ET): aumento de volume do cilindro da pressão atmosférica até a pressão de ensaio. Expansão permanente (EP): aumento de volume que fica depois de aliviar. Expansão elástica (EE) = ET − EP. Expansão permanente percentual = EP/ET. Compressibilidade da água: a água se comprime pela presença de ar dissolvido e isso entra no cálculo.",
+   "valores": []},
+  {"titulo": "Aparelhagem", "item": "4",
+   "texto": "Bomba de alta pressão, válvulas, reservatório, bureta graduada em cm³ e manômetro (registrador opcional).",
+   "valores": [
+    {"parametro": "Tubulações e conexões", "valor": "≥ 2 × a pressão máxima do ensaio", "item": "4.2.1"},
+    {"parametro": "Manômetro — exatidão e resolução", "valor": "± 1 % e ≤ 1 % da pressão máxima de ensaio", "item": "4.2.2"},
+    {"parametro": "Pino limitador do manômetro", "valor": "removido ou 12 mm abaixo do zero", "item": "4.2.2 c)"},
+    {"parametro": "Erro de leitura para pressões de ensaio de 30,0 a 33,4 MPa", "valor": "± 2,0 MPa", "item": "4.2.2, Nota"},
+    {"parametro": "Bureta", "valor": "exatidão ± 1 % da expansão total esperada", "item": "4.2.3"}
+   ]},
+  {"titulo": "Execução", "item": "5",
+   "texto": "Pesar o cilindro vazio e cheio, eliminar todo ar não dissolvido e vazamentos, pressurizar em etapas, manter a pressão, devolver a água à bureta e ler as expansões; corrigir o volume pela compressibilidade da água (fator K por temperatura).",
+   "valores": [
+    {"parametro": "Calibração do manômetro", "valor": "a cada 180 dias ou após dano (padrão rastreado ao INMETRO)", "item": "5.2.1"},
+    {"parametro": "Temperatura da água", "valor": "uniforme entre 7 °C e 40 °C", "item": "5.2.6"},
+    {"parametro": "1ª etapa de pressurização", "valor": "≈ 75 % da pressão final, sem chegar a 90 %", "item": "5.5.1"},
+    {"parametro": "Tempo na pressão de ensaio", "valor": "≥ 30 s", "item": "5.5.4"},
+    {"parametro": "Repetição por falha de equipamento", "valor": "com pressão maior em 10 % ou 0,7 MPa, o que for menor", "item": "5.5"},
+    {"parametro": "Fator K de compressibilidade — 10 / 20 / 26 °C", "valor": "0,04812 / 0,04654 / 0,04594", "item": "Tabela (6)"}
+   ]},
+  {"titulo": "Resultados e marcação", "item": "6",
+   "texto": "Aprova-se pela expansão permanente percentual; rejeita-se se a expansão elástica atingir o limite do fabricante. Cilindro aprovado recebe na calota mês/ano do ensaio e o sinete da empresa.",
+   "valores": [
+    {"parametro": "Critério de aceitação", "valor": "EP% ≤ 10 %", "item": "6.1.1"},
+    {"parametro": "Rejeição por expansão elástica", "valor": "EE ≥ valor indicado pelo fabricante", "item": "6.1.2"},
+    {"parametro": "Altura mínima das marcas estampadas", "valor": "6 mm", "item": "6.2.2"}
+   ]}
+ ]
+}

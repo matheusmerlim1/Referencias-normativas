@@ -1,0 +1,62 @@
+{
+ "id": "ASME-SA-409",
+ "titulo": "SA-409 — Tubos de aço austenítico soldados por fusão, parede leve, de grande diâmetro",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de aço inoxidável austenítico Cr-Ni, parede leve, soldados por fusão elétrica com costura reta ou helicoidal, para serviço corrosivo ou de alta temperatura. Requisitos gerais pela SA-530.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "NPS 14 a 30, Schedule 5S e 10S",
+     "item": "1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "5",
+   "texto": "Soldagem elétrica manual (soldador e procedimento qualificados pela ASME IX) ou automática; metal de adição pela especificação AWS do grau. Graus H e S30815 com grão ASTM nº 7 ou mais grosso."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3, 7",
+   "texto": "Chapa conforme a Tabela 3; tração transversal à solda com o mesmo Su mínimo da chapa.",
+   "valores": [
+    {
+     "parametro": "TP304, TP316, TP321, TP347 — Su / Sy mín.",
+     "valor": "75 ksi [515] / 30 ksi [205]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "TP304L, TP316L — Su / Sy mín.",
+     "valor": "70 ksi [485] / 25 ksi [170]",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "8, 14, 15",
+   "texto": "Um ensaio de tração transversal da solda por lote (lote até 200 ft [60 m]); dois dobramentos guiados (face e raiz). Sem equipamento hidrostático, pode-se testar com ar/gás e espuma.",
+   "valores": [
+    {
+     "parametro": "Dobramento — defeito máx. admitido",
+     "valor": "1/8 in [3 mm] em qualquer direção",
+     "item": "14.2"
+    },
+    {
+     "parametro": "Teste pneumático alternativo",
+     "valor": "100 psi [700 kPa] + solução de bolhas",
+     "item": "15.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "18",
+   "texto": "Identificação a até 12 in [300 mm] da ponta de cada tubo."
+  }
+ ]
+}

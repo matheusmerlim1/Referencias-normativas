@@ -1,0 +1,52 @@
+{
+ "id": "NBR-14646",
+ "titulo": "ABNT NBR 14646:2001 — Tolerâncias geométricas — Requisitos de máximo e de mínimo material",
+ "secoes": [
+  {
+   "titulo": "Definições",
+   "item": "3",
+   "texto": "Dimensão efetiva local (entre dois pontos opostos); dimensão de ajuste (menor elemento perfeito circunscrito a um externo, maior inscrito num interno); condição e dimensão de máximo material MMC/MMS (eixo no maior diâmetro, furo no menor); de mínimo material LMC/LMS; condição virtual (contorno perfeito gerado por MMS + tolerância geométrica com o símbolo Ⓜ — é a medida do calibrador funcional); condição e dimensão virtual de mínimo material LMVC/LMVS.",
+   "valores": [
+    {
+     "parametro": "LMVS — eixos",
+     "valor": "LMS − tolerância geométrica",
+     "item": "3.10"
+    },
+    {
+     "parametro": "LMVS — furos",
+     "valor": "LMS + tolerância geométrica",
+     "item": "3.10"
+    }
+   ]
+  },
+  {
+   "titulo": "Princípio de máximo material (MMR)",
+   "item": "4–5",
+   "texto": "Indicado pelo Ⓜ após o valor da tolerância (no elemento tolerado e/ou na referência). Aplica-se a eixos e planos médios e liga dimensão e tolerância geométrica: o elemento não pode violar a condição virtual; quando a peça real se afasta do máximo material (furo maior, pino menor), a diferença soma-se à tolerância geométrica — 'tolerância bônus', útil para montagem garantida e calibradores passa. O ganho numa peça independe da peça que se monta com ela.",
+   "valores": [
+    {
+     "parametro": "Condição virtual — eixo",
+     "valor": "MMS + tolerância geométrica",
+     "item": "3.7, 5"
+    },
+    {
+     "parametro": "Condição virtual — furo",
+     "valor": "MMS − tolerância geométrica",
+     "item": "3.7, 5"
+    }
+   ]
+  },
+  {
+   "titulo": "Exemplos e tolerância zero",
+   "item": "6–8",
+   "texto": "Aplicações em retitude de eixo, paralelismo, perpendicularidade de furo, inclinação de rasgo, posição de grupos de furos e pinos (inclusive em relação a furo de referência) e coaxialidade; tolerância geométrica zero no máximo material (0 Ⓜ), em que toda a variação vem da tolerância dimensional.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisito de mínimo material (LMR)",
+   "item": "9–10",
+   "texto": "Indicado por Ⓛ após o valor no quadro: permite aumentar a tolerância geométrica quando o elemento se afasta da condição de mínimo material. Aplicado ao elemento tolerado, a condição virtual de mínimo material (LMVC) deve ficar inteiramente dentro do material; aplicado à referência, o limite de forma perfeita no mínimo material pode flutuar dentro do material da referência. Exemplos na seção 10.",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "ASME-SFA-5.29",
+ "titulo": "SFA-5.29 — Eletrodos tubulares de aço baixa liga para FCAW (AWS A5.29)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos tubulares de aço baixa liga para FCAW, com ou sem gás; só o ferro passa de 10,5 % no metal depositado. Alma metálica fica na A5.28."
+  },
+  {
+   "titulo": "Classificações e composição",
+   "item": "Tabela 7",
+   "texto": "EXXTX-X com designador do metal de solda (A1, B1–B9, Ni1–Ni3, D1–D3, K1–K9, W2, G).",
+   "valores": [
+    {
+     "parametro": "A1 (Mo) — C / Mn / Si máx. / Mo",
+     "valor": "0,12 / 1,25 / 0,80 % / 0,40–0,65 %",
+     "item": "Tabela 7"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,030 % / 0,030 %",
+     "item": "Tabela 7"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabelas 3 e 9",
+   "texto": "Análise química, radiografia, tração, Charpy (quando exigido) e filete, por classificação; hidrogênio difusível opcional.",
+   "valores": [
+    {
+     "parametro": "Hidrogênio difusível — H16 / H8 / H4",
+     "valor": "16,0 / 8,0 / 4,0 mL/100 g",
+     "item": "Tabela 9"
+    }
+   ]
+  }
+ ]
+}

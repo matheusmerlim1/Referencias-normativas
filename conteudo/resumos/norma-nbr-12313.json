@@ -1,0 +1,48 @@
+{
+ "id": "NBR-12313",
+ "titulo": "ABNT NBR 12313:2000 — Sistema de combustão — Controle e segurança para utilização de gases combustíveis em processos de baixa e alta temperatura",
+ "secoes": [
+  {"titulo": "Objetivo e campo", "item": "1",
+   "texto": "Requisitos mínimos de segurança de sistemas de combustão a gás na partida, operação e parada de equipamentos comerciais e industriais (fornos, estufas, secadores) com chama parcial ou totalmente confinada. Gases: natural, manufaturado, GLP e mistura GLP/ar. Não especifica fabricação de queimadores nem alívio de explosão. Dispositivos de segurança devem ser próprios para gás, com atestado de desempenho, e mantidos funcionando pelo operador.",
+   "valores": []},
+  {"titulo": "Definições principais", "item": "2",
+   "texto": "Bloqueio duplo e descarga (duas válvulas automáticas em série com válvula de descarga normalmente aberta entre elas); bloqueio de segurança (fecha o gás e corta a ignição); controle de proteção de chama; pilotos contínuo, interrompido e alternativo; pré-purga; comprovação de estanqueidade por desvio (by-pass) em equipamentos multiqueimador; controle alto/baixo e modulante.",
+   "valores": [
+    {"parametro": "Equipamento de alta temperatura", "valor": "opera continuamente com paredes > 750 °C", "item": "2.13"},
+    {"parametro": "Equipamento de baixa temperatura", "valor": "≤ 750 °C", "item": "2.14", "nota": "operação cíclica/esporádica em alta segue os requisitos de baixa"}
+   ]},
+  {"titulo": "Suprimento de gás", "item": "3.1",
+   "texto": "Tubulação sem flutuação de pressão nem vibração, com meios de purga, sem by-pass de dispositivos de segurança, identificada como gás, com drenos de condensado e pontas não usadas tamponadas. Filtro logo após a válvula principal de bloqueio manual. Descargas para o exterior ventilado (gás leve: sem aberturas acima; gás pesado: sem aberturas abaixo). Regulador dedicado e pressostatos de alta e baixa sem válvulas entre a linha e o sensor.",
+   "valores": [
+    {"parametro": "Perda de carga entre entrada de gás e cada consumidor", "valor": "≤ 20 %", "item": "3.1 a)"},
+    {"parametro": "Malha do filtro", "valor": "orifícios ≤ 20 µm", "item": "3.1.1.2"},
+    {"parametro": "Velocidade máxima do gás", "valor": "45 m/s", "item": "3.1.2.2"},
+    {"parametro": "Velocidade no trecho com tomadas de impulso do regulador", "valor": "≤ 20 m/s", "item": "3.1.5.2.2"},
+    {"parametro": "Regulador — variação da pressão a jusante", "valor": "≤ 10 % da pressão de ajuste", "item": "3.1.5.2.1"},
+    {"parametro": "Regulador — pressão sem fluxo", "valor": "≤ 30 % acima da pressão de ajuste", "item": "3.1.5.2.1"},
+    {"parametro": "Dispensa de pressostato de alta (uma das condições)", "valor": "perda no regulador < 30 % da pressão mínima de saída (Δp < 0,3 Ps)", "item": "3.1.6.1.1"},
+    {"parametro": "Ajuste do pressostato de baixa", "valor": "no máximo 20 % abaixo da menor pressão normal", "item": "3.1.6.2.5"}
+   ]},
+  {"titulo": "Ar de combustão e eletricidade", "item": "3.2–3.3",
+   "texto": "Falha de ar em queimador de ar forçado/induzido provoca bloqueio; fluxo de ar comprovado por pressão estática ou diferencial e contato do ventilador; tomada de ar longe de gases recirculados. Queda e retorno de energia não podem criar condição insegura.",
+   "valores": []},
+  {"titulo": "Partida, chama e bloqueio", "item": "4.1",
+   "texto": "Pré-purga com ar antes de cada tentativa de ignição, chama de partida limitada, períodos de ignição e de estabelecimento curtos, supervisão de chama com bloqueio em caso de falha e válvulas de bloqueio automático em série (descarga automática para comprovação de estanqueidade em queimadores grandes).",
+   "valores": [
+    {"parametro": "Pré-purga — volume", "valor": "≥ 5 trocas do volume interno (câmara, dutos, chaminé)", "item": "4.1.3"},
+    {"parametro": "Pré-purga — vazão de ar", "valor": "≥ 25 % da vazão máxima (de preferência máxima)", "item": "4.1.3"},
+    {"parametro": "Pré-purga — concentração", "valor": "< 25 % do LII do gás em toda a câmara e chaminé", "item": "4.1.3"},
+    {"parametro": "Chama de partida (caso b)", "valor": "≤ 100 000 kcal/h (120 kW) durante a ignição", "item": "4.1.3.4.2 b)"},
+    {"parametro": "Período de ignição da chama de partida", "valor": "≤ 7 s (até 15 s para ar natural < 300 000 kcal/h)", "item": "4.1.3.4.3"},
+    {"parametro": "Estabelecimento da chama principal", "valor": "≤ 3 s com válvula de abertura rápida (lenta: até 1/3 do tempo de abertura)", "item": "4.1.3"},
+    {"parametro": "Resposta à falha de chama piloto (termoelemento)", "valor": "≤ 30 s", "item": "4.1"},
+    {"parametro": "Válvula de descarga automática — uso", "valor": "comprovação de estanqueidade em queimador > 1 000 000 kcal/h (1 200 kW)", "item": "4.1.7.1"}
+   ]},
+  {"titulo": "Anexos — fluxogramas e by-pass", "item": "Anexos A–C",
+   "texto": "Fluxogramas e sequências típicas de partida para equipamento de baixa temperatura com um queimador e de alta temperatura com múltiplos queimadores; cálculo do orifício de restrição da comprovação de estanqueidade por desvio.",
+   "valores": [
+    {"parametro": "Tempo de pressurização típico no by-pass", "valor": "45 s a 180 s", "item": "B.4.1.1 b)"},
+    {"parametro": "Gráfico do orifício — validade", "valor": "10 a 150 s; pressostato de baixa a 50–80 % da pressão; até 50 mbar", "item": "Anexo B"}
+   ]}
+ ]
+}

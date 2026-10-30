@@ -1,0 +1,91 @@
+{
+ "id": "ASME-SA-214",
+ "titulo": "SA-214 — Tubos de aço carbono soldados por resistência elétrica para trocadores de calor e condensadores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos ERW de aço carbono, de espessura mínima, para trocadores de calor, condensadores e equipamentos similares. O comprador especifica diâmetro externo e espessura mínima (nunca o diâmetro interno). Requisitos gerais pela SA-450.",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo usual",
+     "valor": "até 3 in [76,2 mm]",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "5, 6",
+   "texto": "Soldagem por resistência elétrica; após a solda todo tubo é tratado e resfriado ao ar ou em câmara de atmosfera controlada; trefilados a frio são tratados após o último passe. Tubo acabado sem carepa.",
+   "valores": [
+    {
+     "parametro": "Tratamento após soldagem",
+     "valor": "≥ 1650 °F [900 °C]",
+     "item": "6.1"
+    },
+    {
+     "parametro": "Tratamento após trefilação",
+     "valor": "≥ 1200 °F [650 °C]",
+     "item": "6.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "7",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,18 %",
+     "item": "7.1"
+    },
+    {
+     "parametro": "Mn",
+     "valor": "0,27–0,63 %",
+     "item": "7.1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "7.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "9",
+   "texto": "Controle por dureza.",
+   "valores": [
+    {
+     "parametro": "Dureza máx.",
+     "valor": "72 HRB",
+     "item": "9.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "8, 10",
+   "texto": "Achatamento, flangeamento e dureza em 2 tubos por lote; achatamento reverso (solda) a cada comprimento fixo de tubo acabado.",
+   "valores": [
+    {
+     "parametro": "Achatamento reverso",
+     "valor": "1 ensaio a cada 1500 ft [450 m]",
+     "item": "10.3"
+    },
+    {
+     "parametro": "Análise de produto (a pedido)",
+     "valor": "1 tubo por 250 peças",
+     "item": "8.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "12",
+   "texto": "Além da marcação da SA-450, 'ERW' em cada tubo ou na etiqueta do feixe."
+  }
+ ]
+}

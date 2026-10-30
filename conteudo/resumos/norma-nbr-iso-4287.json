@@ -1,0 +1,73 @@
+{
+ "id": "NBR-ISO-4287",
+ "titulo": "ABNT NBR ISO 4287:2002 — Especificações geométricas do produto (GPS) — Rugosidade: Método do perfil — Termos, definições e parâmetros",
+ "secoes": [
+  {
+   "titulo": "Objetivo",
+   "item": "1",
+   "texto": "Termos, definições e parâmetros para avaliar o acabamento superficial pelo método do perfil (instrumentos de contato). Parâmetros com prefixo P (perfil primário), R (rugosidade) e W (ondulação).",
+   "valores": []
+  },
+  {
+   "titulo": "Perfis e comprimentos",
+   "item": "3.1",
+   "texto": "Perfil total traçado pelo apalpador; perfil primário após o filtro λs; perfil de rugosidade após remover componentes longos com o filtro λc; perfil de ondulação entre λc e λf, retirada antes a forma nominal por mínimos quadrados (filtros pela ISO 11562; relação λc/λs pela ISO 3274). Linha média de cada perfil; comprimento de amostragem (lp, lr, lw) e comprimento de avaliação ln, que pode conter vários de amostragem (valores padronizados na ISO 4288).",
+   "valores": []
+  },
+  {
+   "titulo": "Termos geométricos",
+   "item": "3.2",
+   "texto": "Ordenada Z(x), inclinação local, altura de pico Zp, profundidade de vale Zv, elemento do perfil (um pico e o vale vizinho) com altura Zt e largura Xs, comprimento portante Ml(c) no nível c.",
+   "valores": []
+  },
+  {
+   "titulo": "Parâmetros de amplitude",
+   "item": "4.1–4.2",
+   "texto": "Pico e vale definidos no comprimento de amostragem (exceto os 'totais', no de avaliação).",
+   "valores": [
+    {
+     "parametro": "Rp / Rv",
+     "valor": "maior altura de pico / maior profundidade de vale na amostragem",
+     "item": "4.1.1–4.1.2"
+    },
+    {
+     "parametro": "Rz",
+     "valor": "altura máxima do perfil = Rp + Rv na amostragem",
+     "item": "4.1.3",
+     "nota": "na antiga ISO 4287-1:1984, Rz era a altura das irregularidades em dez pontos — cuidado com instrumentos antigos"
+    },
+    {
+     "parametro": "Rc",
+     "valor": "altura média dos elementos do perfil",
+     "item": "4.1.4"
+    },
+    {
+     "parametro": "Rt",
+     "valor": "altura total no comprimento de avaliação (em condições padronizadas Pz = Pt; preferir Pt)",
+     "item": "4.1.5"
+    },
+    {
+     "parametro": "Ra",
+     "valor": "média aritmética dos valores absolutos das ordenadas: Ra = (1/l)·∫|Z(x)|dx",
+     "item": "4.2.1"
+    },
+    {
+     "parametro": "Rq",
+     "valor": "média quadrática: Rq = √((1/l)·∫Z²dx)",
+     "item": "4.2.2"
+    },
+    {
+     "parametro": "Rsk / Rku",
+     "valor": "assimetria (skewness) e achatamento (kurtosis) da distribuição das ordenadas; sensíveis a picos ou vales isolados",
+     "item": "4.2.3–4.2.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Espaçamento, híbridos e curvas",
+   "item": "4.3–4.5",
+   "texto": "RSm: largura média dos elementos do perfil; RΔq: inclinação quadrática média (depende muito da resolução); razão material Rmr(c), curva da razão portante, diferença de altura entre níveis Rδc, razão portante relativa e curva de distribuição de amplitudes.",
+   "valores": []
+  }
+ ]
+}

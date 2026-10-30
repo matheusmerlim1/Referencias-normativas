@@ -1,0 +1,48 @@
+{
+ "id": "ASME-SA-194",
+ "titulo": "ASME SA-194 — Porcas de aço carbono e liga para alta pressão e/ou alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo e requisitos comuns",
+   "item": "1; 3; 5",
+   "texto": "Porcas de aço carbono, liga e inox martensítico, e também de inox austenítico, para serviço de alta pressão, alta temperatura ou ambos. Graus com prefixo 8 ou 9 são austeníticos; os demais (1, 2, 2H, 2HM, 3, 4, 6, 7, 7M, 16) são ferríticos. Não se troca de grau sem autorização do comprador. Requisitos comuns vêm da A962; revestimento só se pedido. Corresponde à ASTM A194.",
+   "valores": [
+    {"parametro": "Faixa — carbono, liga, martensítico", "valor": "1/4 a 4 in; M6 a M100", "item": "1.1"},
+    {"parametro": "Faixa — austenítico", "valor": "a partir de 1/4 in / M6", "item": "1.1"}
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "6",
+   "texto": "Graus temperados e revenidos têm temperatura mínima de revenimento. 2HM e 7M (dureza limitada) recebem alívio final depois de toda usinagem e roscamento. Austeníticos são solubilizados.",
+   "valores": [
+    {"parametro": "Revenimento mín. — 2H", "valor": "455 °C (850 °F)", "item": "6.4"},
+    {"parametro": "Revenimento mín. — 2HM / 7M", "valor": "620 °C (1150 °F)", "item": "6.4"},
+    {"parametro": "Revenimento mín. — 4, 6, 7", "valor": "595 °C (1100 °F)", "item": "6.4"},
+    {"parametro": "Revenimento mín. — 16", "valor": "650 °C (1200 °F)", "item": "6.4"},
+    {"parametro": "Tempo no revenimento — 6 e 6F", "valor": "≥ 1 h", "item": "6.4.1"}
+   ]
+  },
+  {
+   "titulo": "Dureza e carga de prova",
+   "item": "7; Tabelas 2, 3 e 6",
+   "texto": "Toda porca deve atender à faixa de dureza do grau. Amostras de alguns graus passam por tratamento simulado e mantêm dureza mínima. A carga de prova (polegada em mandril roscado; métrica em cone de 120°) depende do grau e de ser sextavada ou pesada. Tabelas de carga por rosca na ficha parafusos-porcas-arruelas.",
+   "valores": [
+    {"parametro": "Dureza 2H (até 1 1/2 in / M36)", "valor": "248 a 352 HB (24–38 HRC)", "item": "Tabela 2"},
+    {"parametro": "Dureza 2HM e 7M", "valor": "159 a 237 HB (≤ 22 HRC)", "item": "Tabela 2"},
+    {"parametro": "Dureza 8 e variantes solubilizadas", "valor": "126 a 300 HB", "item": "Tabela 2"},
+    {"parametro": "Tensão de prova 2H — pesada / sextavada (polegada)", "valor": "175 / 150 ksi", "item": "Tabela 3"},
+    {"parametro": "Carga de prova 2H pesada — 1 in-8", "valor": "106 000 lbf", "item": "Tabela 3"},
+    {"parametro": "Tensão de prova 2H — pesada / sextavada (métrica)", "valor": "1 205 / 1 035 MPa", "item": "Tabela 6"}
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "8",
+   "texto": "Sextavada ou sextavada pesada pela B18.2.2 (polegada) ou B18.2.4.6M (métrica). Se nada for dito, usa-se a série pesada, com chanfro duplo ou face de assento.",
+   "valores": [
+    {"parametro": "Série padrão", "valor": "sextavada pesada", "item": "8.1"}
+   ]
+  }
+ ]
+}

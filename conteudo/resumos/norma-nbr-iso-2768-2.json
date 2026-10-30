@@ -1,0 +1,55 @@
+{
+ "id": "NBR-ISO-2768-2",
+ "titulo": "ABNT NBR ISO 2768-2:2001 — Tolerâncias gerais geométricas",
+ "secoes": [
+  {
+   "titulo": "Escopo e indicação",
+   "item": "1; 6",
+   "texto": "Tolerâncias geométricas gerais em três classes (H, K, L), combinadas com a parte 1 na legenda (ex.: \"NBR ISO 2768-mK\", com \"-E\" para exigir envoltória). Com a parte 2, ângulos retos implícitos seguem a perpendicularidade, não a tolerância angular.",
+   "valores": [
+    {
+     "parametro": "Exemplo",
+     "valor": "NBR ISO 2768-mK",
+     "item": "6"
+    }
+   ]
+  },
+  {
+   "titulo": "Características cobertas",
+   "item": "5",
+   "texto": "Retitude, planeza, perpendicularidade, simetria e batimento circular têm tabela. Circularidade fica limitada pela tolerância do diâmetro e pelo batimento; paralelismo pela maior entre tolerância dimensional e de forma. Cilindricidade, perfil, angularidade, coaxialidade, posição e batimento total não têm tolerância geral.",
+   "valores": []
+  },
+  {
+   "titulo": "Valores",
+   "item": "Tab. 1–4",
+   "texto": "Retitude e planeza por comprimento; perpendicularidade pelo lado menor; simetria pelo comprimento.",
+   "valores": [
+    {
+     "parametro": "Retitude/planeza 100–300 mm — H/K/L",
+     "valor": "0,2 / 0,4 / 0,8 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#retitude"
+    },
+    {
+     "parametro": "Perpendicularidade, lado até 100 mm — H/K/L",
+     "valor": "0,2 / 0,4 / 0,6 mm",
+     "item": "Tab. 2",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#perpendicularidade"
+    },
+    {
+     "parametro": "Simetria 300–1000 mm — H/K/L",
+     "valor": "0,5 / 0,8 / 1,5 mm",
+     "item": "Tab. 3",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#simetria"
+    },
+    {
+     "parametro": "Batimento circular — H/K/L",
+     "valor": "0,1 / 0,2 / 0,5 mm",
+     "item": "Tab. 4",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso2768-exemplo-desenho.svg#batimento"
+    }
+   ]
+  }
+ ]
+}

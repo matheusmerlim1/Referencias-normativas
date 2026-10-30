@@ -1,0 +1,74 @@
+{
+ "id": "ISO-13628-7",
+ "titulo": "ISO 13628-7:2005 — Petróleo e gás — Projeto e operação de sistemas de produção submarinos — Parte 7: Sistemas de riser de completação/workover",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Requisitos de projeto, análise, materiais, fabricação, ensaios e operação de risers de completação/workover (C/WO) operados a partir de unidade flutuante, de aço baixa liga (titânio, compósitos e flexíveis fora). Vale para sistemas novos e pode ser aplicada a modificações, operação e reutilização. A cláusula 1 lista os equipamentos abrangidos.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos do sistema e funcionais",
+   "item": "4–5",
+   "texto": "Modos de operação (Tab. 1), normas de cada equipamento (Tab. 2), medidas contra deriva/drive-off da sonda (Tab. 3–4), diâmetros de passagem (drift, Tab. 5), módulos do sistema de controle (Tab. 6), classes de pressão e temperatura.",
+   "valores": [
+    {
+     "parametro": "Classes de pressão interna de projeto",
+     "valor": "34,5 / 69,0 / 103,5 / 138,0 MPa (5 000 / 10 000 / 15 000 / 20 000 psi)",
+     "item": "Tab. 7"
+    },
+    {
+     "parametro": "Pressão de projeto",
+     "valor": "≥ pressão máxima de trabalho em qualquer ponto; usar a diferença entre pressão interna e externa",
+     "item": "6"
+    }
+   ]
+  },
+  {
+   "titulo": "Projeto",
+   "item": "6",
+   "texto": "Projeto por tensões admissíveis com fatores de projeto Fd por condição de carga, verificação de ruptura por pressão (Fb), colapso (Fhb), flambagem, fadiga (curvas S-N com fatores de segurança), ângulos de juntas flexíveis (Tab. 12) e redução de propriedades em temperatura (Tab. 10).",
+   "valores": [
+    {
+     "parametro": "Fd — operação normal / ensaio de pressão em serviço",
+     "valor": "0,67 (espessura corroída)",
+     "item": "Tab. 11"
+    },
+    {
+     "parametro": "Fd — operação extrema / temporária",
+     "valor": "0,80",
+     "item": "Tab. 11"
+    },
+    {
+     "parametro": "Fd — acidental (sobrevivência)",
+     "valor": "1,00",
+     "item": "Tab. 11"
+    },
+    {
+     "parametro": "Fd — montagem/desmontagem e teste hidrostático de fábrica (FAT)",
+     "valor": "0,90 (valores reais de projeto)",
+     "item": "Tab. 11"
+    },
+    {
+     "parametro": "Pressão mínima de ruptura do tubo",
+     "valor": "pb,min = 1,1·t1·(σy + σu)/(Do − t1)",
+     "item": "6, Eq. 10",
+     "nota": "reconstruída do texto extraído — conferir"
+    },
+    {
+     "parametro": "Fatores de ruptura Fb",
+     "valor": "0,60 / 0,90 conforme a condição",
+     "item": "Tab. 13",
+     "nota": "conferir associação"
+    }
+   ]
+  },
+  {
+   "titulo": "Materiais, ensaios, operação e documentação",
+   "item": "7–11",
+   "texto": "Requisitos de aço-carbono e baixa liga (Tab. 15), soldagem e END; ensaios de fábrica (FAT) e de sistema; operação, inspeção, manutenção, reavaliação e monitoramento; documentação de projeto e operação.",
+   "valores": []
+  }
+ ]
+}

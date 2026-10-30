@@ -1,0 +1,72 @@
+{
+ "id": "ASME-SF-568M",
+ "titulo": "SF-568M — Fixadores métricos de aço carbono e liga com rosca externa",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafusos, parafusos de cabeça e estojos métricos de aço carbono e liga, M1.6 a M100, em nove classes de propriedade (4.6, 4.8, 5.8, 8.8, 8.8.3, 9.8, 10.9, 10.9.3, 12.9) para engenharia geral. As classes .3 são resistentes à corrosão atmosférica."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4",
+   "texto": "Aço de Siemens-Martin, oxigênio ou forno elétrico; cabeça por recalque ou extrusão (outros métodos só por acordo). Classes 8.8 e acima temperadas e revenidas.",
+   "valores": [
+    {
+     "parametro": "Revenimento mín. — 8.8 e 10.9",
+     "valor": "425 °C",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabelas 1 e 2",
+   "texto": "Por classe e tipo de aço (médio carbono, baixo carbono martensítico ao boro, liga).",
+   "valores": [
+    {
+     "parametro": "8.8 aço médio carbono — C mín. / máx.",
+     "valor": "0,25 % / 0,55 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "10.9 aço liga médio carbono — C mín. / máx.",
+     "valor": "0,20 % / 0,55 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Tensão de prova / Sy / Su (MPa) / alongamento / redução de área / dureza.",
+   "valores": [
+    {
+     "parametro": "4.6 (M5–M100)",
+     "valor": "225 / 240 / 400; 22 %; 35 %; B67–B95",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "4.8 (M1.6–M16)",
+     "valor": "310 / 340 / 420; 14 %; 35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "8.8 (M20–M80)",
+     "valor": "600 / 660 / 830; 12 %; 35 %; C23–C34",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "10.9 (M5–M100)",
+     "valor": "830 / 940 / 1040; 9 %; 35 %; C33–C39",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "12, Tabela 7",
+   "texto": "Parafusos a partir de M5 marcados com a classe de propriedade e o fabricante (menores que M5 dispensam)."
+  }
+ ]
+}

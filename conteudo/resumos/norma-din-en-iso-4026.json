@@ -1,0 +1,41 @@
+{
+ "id": "DIN-EN-ISO-4026",
+ "titulo": "DIN EN ISO 4026:2004 — Parafusos sem cabeça com sextavado interno e ponta plana (ISO 4026:2003)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafusos de fixação com sextavado interno e ponta plana (cone truncado), grau A, M1,6 a M24. Substitui a DIN 913:1980. Mudanças: tolerâncias de abertura, classes de dureza no lugar de classes de resistência para inox, limites de defeitos superficiais para aço, tolerância de rosca da classe 45H e nova designação.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M1,6, M2, M2,5, M3, M4, M5, M6, M8, M10, M12, M16, M20, M24",
+     "item": "3"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos",
+   "item": "4",
+   "texto": "Propriedades: aço pela ISO 898-5, inox pela ISO 3506-3; tolerâncias ISO 4759-1; defeitos ISO 6157-1; revestimentos ISO 4042 e ISO 10683.",
+   "valores": [
+    {
+     "parametro": "Classes — aço",
+     "valor": "45H",
+     "item": "4"
+    },
+    {
+     "parametro": "Classes — inox",
+     "valor": "A1-12H; A2-21H, A3-21H; A4-21H, A5-21H",
+     "item": "4"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "5",
+   "texto": "Ex. da norma: M6, l = 12 mm, classe 45H → ISO 4026 – M6 × 12 – 45H.",
+   "valores": []
+  }
+ ]
+}

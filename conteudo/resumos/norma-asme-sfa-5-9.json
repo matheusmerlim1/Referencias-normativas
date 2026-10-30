@@ -1,0 +1,48 @@
+{
+ "id": "ASME-SFA-5.9",
+ "titulo": "SFA-5.9 — Arames, fitas e varetas nus de aço inoxidável para soldagem (AWS A5.9)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Arames, fitas, eletrodos tubulares de alma metálica e cordoalhas nus de aço inoxidável (Cr ≥ 10,5 %) para MIG/MAG, TIG, arco submerso e outros processos de fusão."
+  },
+  {
+   "titulo": "Classificações",
+   "item": "Tabela 1",
+   "texto": "Prefixo ER (arame/vareta), EQ (fita), EC (alma metálica); número da liga (ER308L, ER316L, ER2209…); sufixos L (baixo C), H (alto C), Si (silício elevado)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Ordem: C máx.; Cr; Ni; Mo; Mn; Si.",
+   "valores": [
+    {
+     "parametro": "ER308L",
+     "valor": "0,03; 19,5–22,0; 9,0–11,0; 0,75 máx.; 1,0–2,5; 0,30–0,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "ER316L",
+     "valor": "0,03; 18,0–20,0; 11,0–14,0; 2,0–3,0; 1,0–2,5; 0,30–0,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "ER2209 (duplex)",
+     "valor": "0,03; 21,5–23,5; 7,5–9,5; 2,5–3,5; 0,50–2,00; 0,90 máx.; N 0,08–0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,03 % / 0,03 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "—",
+   "texto": "Classificação pela composição química do arame (ou do metal depositado, para alma metálica); propriedades mecânicas não são requisito de classificação."
+  }
+ ]
+}

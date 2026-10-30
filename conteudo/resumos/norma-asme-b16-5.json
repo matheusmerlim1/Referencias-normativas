@@ -1,0 +1,102 @@
+{
+ "id": "ASME-B16.5",
+ "titulo": "ASME B16.5 — Flanges e acessórios flangeados de tubulação (NPS 1/2 a 24)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Cobre flanges e acessórios flangeados de aço e ligas, com seus ratings de pressão–temperatura, materiais, dimensões, tolerâncias, marcação e ensaios. Diâmetros maiores ficam na ASME B16.47. As tabelas dimensionais completas (por classe e NPS) estão na ficha flange-asme-b16-5.",
+   "valores": [
+    {"parametro": "Faixa de diâmetros", "valor": "NPS 1/2 a NPS 24 (Classe 2500: até NPS 12)", "item": "1.1"},
+    {"parametro": "Classes de pressão", "valor": "150, 300, 400, 600, 900, 1500 e 2500", "item": "1.9.1"}
+   ]
+  },
+  {
+   "titulo": "Ratings de pressão–temperatura",
+   "item": "2",
+   "texto": "O rating é a pressão manométrica máxima admitida numa temperatura, para cada grupo de material e classe. Pode-se interpolar entre temperaturas, mas não entre classes. Numa junta com flanges diferentes vale o menor rating. O rating supõe parafusos e juntas adequados e boa montagem. Abaixo de −29 °C não se ganha pressão. Em temperatura alta, cargas externas e gradientes favorecem vazamento.",
+   "valores": [
+    {"parametro": "Grupo 1.1 (aço carbono, ex. A105) a −29…38 °C — Classe 150", "valor": "19,6 bar", "item": "Tabela 2-1.1"},
+    {"parametro": "Grupo 1.1 a −29…38 °C — Classe 300 / 600", "valor": "51,1 / 102,1 bar", "item": "Tabela 2-1.1"},
+    {"parametro": "Grupo 1.1 a −29…38 °C — Classe 900 / 1500 / 2500", "valor": "153,2 / 255,3 / 425,5 bar", "item": "Tabela 2-1.1"},
+    {"parametro": "Grupo 1.1 a 200 °C — Classe 150 / 300", "valor": "13,8 / 43,8 bar", "item": "Tabela 2-1.1"},
+    {"parametro": "Junta com ratings diferentes", "valor": "vale o menor dos dois", "item": "2.3.2"},
+    {"parametro": "Temperatura abaixo de −29 °C", "valor": "rating ≤ o de −29 °C", "item": "2.4"},
+    {"parametro": "Atenção a vazamento em alta temperatura", "valor": "> 200 °C (Classe 150); > 400 °C (demais)", "item": "2.5.2"},
+    {"parametro": "Teste hidrostático do sistema", "valor": "≤ 1,5 × rating a 38 °C, arredondado ao 1 bar acima", "item": "2.6"},
+    {"parametro": "Base do cubo WN", "valor": "tubo com SMYS 276 MPa (40 ksi)", "item": "2.7"}
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "4",
+   "texto": "Cada peça traz fabricante, especificação e grau do material (fundidos também a corrida), classe, a identificação da norma e o NPS. A temperatura não é obrigatória; se marcada, vai junto com o rating correspondente. Flanges de anel (RTJ) levam a letra R e o número do anel na borda.",
+   "valores": [
+    {"parametro": "Marcação de flange RTJ", "valor": "\"R\" + nº do anel, na periferia", "item": "4.2.7"}
+   ]
+  },
+  {
+   "titulo": "Materiais, parafusos e juntas",
+   "item": "5",
+   "texto": "Os materiais aceitos estão na Tabela 1A, agrupados para os ratings. Chapa e barra só servem para flange cego ou de redução sem cubo; peças soldadas a partir de partes não são aceitas. Os parafusos são classificados em alta, média e baixa resistência; os de baixa só servem para classes baixas e juntas brandas. Anéis RTJ seguem a B16.20; outras juntas, o Apêndice B. O usuário responde por exigência de tenacidade a baixa temperatura.",
+   "valores": [
+    {"parametro": "Parafuso de alta resistência (qualquer junta)", "valor": "tensão admissível ≥ à do A193 B7 (ex. B7, B16, L7, A540)", "item": "5.3.2; Tabela 1B"},
+    {"parametro": "Parafuso de baixa resistência", "valor": "SMYS ≤ 206 MPa: só Classes 150 e 300", "item": "5.3.4"},
+    {"parametro": "Parafuso de aço carbono de baixa resistência — limites", "valor": "não usar acima de 200 °C nem abaixo de −29 °C", "item": "5.3.4; Tabela 1B"},
+    {"parametro": "Classe 150 com RTJ ou espiralada", "valor": "preferir flange WN ou lap joint", "item": "5.4.3"},
+    {"parametro": "Grupo 1.1 — exemplos", "valor": "A105, A216 WCB, A350 LF2, A516 Gr. 70", "item": "Tabela 1A / 2-1.1"}
+   ]
+  },
+  {
+   "titulo": "Faces, acabamento e furação",
+   "item": "6",
+   "texto": "A espessura mínima do flange é garantida antes; o ressalto (ou macho, lingueta) é somado a ela. Face plana é permitida em qualquer classe. O acabamento é serrilhado e avaliado por comparação visual. Imperfeições radiais têm limite em tabela. Os furos são em número múltiplo de 4 e ficam fora das linhas de centro. Assento de porca paralelo à face. O comprimento tabelado de estojo inclui duas porcas pesadas, sem as pontas.",
+   "valores": [
+    {"parametro": "Altura do ressalto — Classes 150 e 300", "valor": "2 mm", "item": "6.4.1", "cota": "esquemas/flange-asme-b16-5-faces.svg#ressalto"},
+    {"parametro": "Altura do ressalto — Classes 400 a 2500", "valor": "7 mm", "item": "6.4.1", "cota": "esquemas/flange-asme-b16-5-faces.svg#ressalto"},
+    {"parametro": "Acabamento serrilhado (RF)", "valor": "Ra 3,2 a 6,3 µm; 1,8 a 2,2 ranhuras/mm", "item": "6.4.5.3", "cota": "esquemas/flange-asme-b16-5-faces.svg#acabamento"},
+    {"parametro": "Acabamento do canal RTJ", "valor": "Ra ≤ 1,6 µm", "item": "6.4.5.2"},
+    {"parametro": "Distância entre imperfeições na face", "valor": "≥ 4 × a maior projeção radial", "item": "6.4.6", "cota": "esquemas/flange-asme-b16-5-imperfeicoes-face-b16-47.svg#projecao"},
+    {"parametro": "Número de furos", "valor": "múltiplo de 4, a cavaleiro das linhas de centro", "item": "6.5", "cota": "esquemas/flange-asme-b16-5-furacao-b16-5.svg#n"},
+    {"parametro": "Paralelismo do assento das porcas", "valor": "dentro de 1°", "item": "6.6", "cota": "esquemas/flange-asme-b16-5-furacao-b16-5.svg#spot-face"}
+   ]
+  },
+  {
+   "titulo": "Tolerâncias",
+   "item": "7",
+   "texto": "Tolerâncias de espessura, diâmetros de ressalto e de cubo, furos, comprimento pelo cubo e furação. A espessura do flange só tem tolerância positiva.",
+   "valores": [
+    {"parametro": "Espessura tf", "valor": "NPS ≤ 18: +3,0/−0; NPS ≥ 20: +5,0/−0 mm", "item": "7.4", "cota": "esquemas/flange-asme-b16-5-tipos-flange.svg#tf"},
+    {"parametro": "Ø do ressalto", "valor": "RF 2 mm: ± 1,0 mm; RF 7 mm: ± 0,5 mm", "item": "7.3", "cota": "esquemas/flange-asme-b16-5-faces.svg#D-ressalto"},
+    {"parametro": "Perpendicularidade face × furo", "valor": "NPS ≤ 5: 1°; NPS ≥ 6: 0,5°", "item": "7.3 (e)", "cota": "esquemas/flange-asme-b16-5-faces.svg#perpendicularidade"},
+    {"parametro": "Ø externo da ponta WN", "valor": "NPS ≤ 5: +2/−1 mm; NPS ≥ 6: +4/−1 mm", "item": "7.5.1", "cota": "esquemas/flange-asme-b16-5-tipos-flange.svg#Ah"},
+    {"parametro": "Ø interno da ponta WN", "valor": "NPS ≤ 10: ± 1,0; 12–18: ± 1,5; ≥ 20: +3,0/−1,5 mm", "item": "7.5.2", "cota": "esquemas/flange-asme-b16-5-tipos-flange.svg#B-WN"},
+    {"parametro": "Parede na ponta de solda", "valor": "≥ 87,5 % da nominal do tubo", "item": "7.5.4", "cota": "esquemas/flange-asme-b16-5-tipos-flange.svg#espessura-ponta"},
+    {"parametro": "Comprimento pelo cubo (WN)", "valor": "NPS ≤ 4: ± 1,5; 5–10: +1,5/−3,0; ≥ 12: +3,0/−5,0 mm", "item": "7.6", "cota": "esquemas/flange-asme-b16-5-tipos-flange.svg#Y-WN"},
+    {"parametro": "Encaixe SW (NPS 1/2 a 3)", "valor": "± 0,25 mm", "item": "7.7.3", "cota": "esquemas/flange-asme-b16-5-tipos-flange.svg#D"},
+    {"parametro": "Círculo de furação", "valor": "± 1,5 mm", "item": "7.8.1", "cota": "esquemas/flange-asme-b16-5-furacao-b16-5.svg#W"},
+    {"parametro": "Entre furos adjacentes", "valor": "± 0,8 mm", "item": "7.8.2", "cota": "esquemas/flange-asme-b16-5-furacao-b16-5.svg#furos-adjacentes"},
+    {"parametro": "Excentricidade furação × face", "valor": "NPS ≤ 2½: 0,8 mm; ≥ 3: 1,5 mm", "item": "7.8.3", "cota": "esquemas/flange-asme-b16-5-furacao-b16-5.svg#concentricidade"}
+   ]
+  },
+  {
+   "titulo": "Teste de pressão",
+   "item": "8",
+   "texto": "Flanges soltos não precisam de teste. Acessórios flangeados passam por teste de casco com água ou querosene, sem vazamento visível, por um tempo que cresce com o diâmetro.",
+   "valores": [
+    {"parametro": "Pressão do teste de casco", "valor": "≥ 1,5 × rating a 38 °C", "item": "8.2"},
+    {"parametro": "Duração", "valor": "60 s (NPS ≤ 2); 120 s (2½–8); 180 s (≥ 10)", "item": "8.2"},
+    {"parametro": "Temperatura do fluido de teste", "valor": "≤ 50 °C", "item": "8.2.3"}
+   ]
+  },
+  {
+   "titulo": "Tabelas dimensionais",
+   "item": "Tabelas 7 a 22",
+   "texto": "Para cada classe há uma tabela de furação (círculo de furos, nº e Ø de furos, Ø de estojo, comprimento) e uma de dimensões do flange (Ø externo, espessura mínima, cubo, comprimentos, furos). Dimensões de faces em tabela própria; canais RTJ em outra. Consulta completa na ficha flange-asme-b16-5.",
+   "valores": [
+    {"parametro": "Exemplo — Classe 150, NPS 2: Ø externo / tf mín.", "valor": "150 mm / 17,5 mm", "item": "Tabela 8"},
+    {"parametro": "Exemplo — Classe 150, NPS 6: Ø externo / tf mín.", "valor": "280 mm / 23,9 mm", "item": "Tabela 8"}
+   ]
+  }
+ ]
+}

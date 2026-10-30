@@ -1,0 +1,87 @@
+{
+ "id": "ASME-SA-426",
+ "titulo": "SA-426 — Tubos de aço liga fundidos por centrifugação para alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de aço liga ferrítico fundidos por centrifugação para alta pressão e alta temperatura (graus CP1, CP2, CP5, CP5b, CP9, CP11, CP12, CP15, CP21, CP22, CPCA15). Suplementares S1–S12 opcionais."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Normalizado e revenido ou resfriado em líquido e revenido, após a peça esfriar abaixo da transformação.",
+   "valores": [
+    {
+     "parametro": "Revenimento mín. — graus em geral",
+     "valor": "1250 °F [677 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Revenimento mín. — CP1, CP2, CP11, CP12, CP15",
+     "valor": "1100 °F [595 °C]",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "CP11",
+     "valor": "C 0,05–0,20; Mn 0,30–0,80; P 0,040; S 0,045; Si 0,60 máx.; Cr 1,00–1,50; Mo 0,44–0,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "CP22",
+     "valor": "C 0,05–0,15; Mn 0,30–0,70; Si 0,60 máx.; Cr 2,00–2,75; Mo 0,90–1,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "CPCA15",
+     "valor": "C 0,15 máx.; Mn 1,00 máx.; Si 1,50 máx.; Cr 11,5–14,0; Mo 0,50 máx. %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "CP1",
+     "valor": "65 000 psi (450) / 35 000 psi (240) / 24 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "CP11, CP22",
+     "valor": "70 000 psi (485) / 40 000 psi (275) / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "CP5, CP9",
+     "valor": "90 000 psi (620) / 60 000 psi (415) / 18 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "CPCA15",
+     "valor": "90 000 psi (620) / 65 000 psi (450) / 18 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Demais",
+     "valor": "60 000 psi (415) / 30 000 psi (205)",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Hidrostático e marcação",
+   "item": "11, 16",
+   "texto": "Cada tubo testado hidrostaticamente (SA-530); se adiado por acordo, marcar 'NH'. Marcação com fabricante, especificação e grau."
+  }
+ ]
+}

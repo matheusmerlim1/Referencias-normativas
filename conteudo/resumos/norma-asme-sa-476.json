@@ -1,0 +1,89 @@
+{
+ "id": "ASME-SA-476",
+ "titulo": "SA-476 — Fundidos de ferro nodular para rolos secadores de máquinas de papel",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Peças de ferro fundido dúctil para rolos secadores sob pressão de fábricas de papel.",
+   "valores": [
+    {
+     "parametro": "Temperatura máx. de serviço",
+     "valor": "450 °F [230 °C]",
+     "item": "1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Alívio de tensões opcional.",
+   "valores": [
+    {
+     "parametro": "Temperatura máx. de alívio",
+     "valor": "1200 °F [650 °C]",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "6",
+   "texto": "Carbono equivalente = C total + 0,3 (Si + P).",
+   "valores": [
+    {
+     "parametro": "C total mín.",
+     "valor": "3,0 %",
+     "item": "6.1"
+    },
+    {
+     "parametro": "Si máx.",
+     "valor": "3,0 %",
+     "item": "6.1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,08 % / 0,05 %",
+     "item": "6.1"
+    },
+    {
+     "parametro": "Carbono equivalente",
+     "valor": "3,8 a 4,5",
+     "item": "6.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1, 7.3",
+   "texto": "Uma tração por peça, de bloco 'Y' ou outro corpo de prova padronizado.",
+   "valores": [
+    {
+     "parametro": "Su mín.",
+     "valor": "80 ksi [555 MPa]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "60 ksi [415 MPa]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Alongamento mín. — bloco de 1 in / 3 in",
+     "valor": "3,0 % / 1,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Dureza mín.",
+     "valor": "201 HB",
+     "item": "7.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo e marcação",
+   "item": "11, 14",
+   "texto": "Peças que vazam no teste hidrostático podem ser reparadas com plugues roscados, com limites de espessura, raio e distância entre plugues (Tabelas 3 a 5). Marcação: fabricante e especificação."
+  }
+ ]
+}

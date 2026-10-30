@@ -1,0 +1,40 @@
+{
+ "id": "DIN-914",
+ "titulo": "DIN 914:1980 — Parafusos sem cabeça com sextavado interno e ponta cônica (ISO 4027 modificada)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafusos de fixação (set screws) com sextavado interno e ponta cônica, grau de produto A, M1,6 a M24, adotando a ISO 4027 com alterações nacionais (áreas sombreadas). Valem também as DIN 267.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M1,6 a M24",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões e designação",
+   "item": "2",
+   "texto": "Ponta cônica com ângulo de 90° a 120° conforme o comprimento; rosca incompleta ≤ 2P.",
+   "valores": [
+    {
+     "parametro": "Classe padrão de dureza",
+     "valor": "45H (DIN ISO 898-5)",
+     "item": "2"
+    },
+    {
+     "parametro": "Designação",
+     "valor": "Parafuso sem cabeça DIN 914 – M6 × 12 – 45H",
+     "item": "2"
+    },
+    {
+     "parametro": "Grau F (até M2,5)",
+     "valor": "pode ser pedido, acrescentando F (ex. DIN 914 – M2 × 4 – 45H – F)",
+     "item": "2"
+    }
+   ]
+  }
+ ]
+}

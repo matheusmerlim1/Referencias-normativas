@@ -1,0 +1,33 @@
+{
+ "id": "DIN-1025-1",
+ "titulo": "DIN 1025-1:1995 — Perfis I laminados de mesas inclinadas (série I)",
+ "secoes": [
+  {
+   "titulo": "Escopo e dados",
+   "item": "1; Tab. 1",
+   "texto": "Dimensões, massa e propriedades estáticas dos perfis I de mesa inclinada (I 80 a I 550). Os raios de concordância seguem r1 = s. Tabela completa na ficha perfis-laminados.",
+   "valores": [
+    {
+     "parametro": "I 200 — h / b / s / t",
+     "valor": "200 / 90 / 7,5 / 11,3 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/perfis-laminados-perfil-i.svg#h"
+    },
+    {
+     "parametro": "I 200 — massa / Ix / Wx",
+     "valor": "26,2 kg/m / 2140 cm⁴ / 214 cm³",
+     "item": "Tab. 1"
+    }
+   ],
+   "figuras": [
+    "esquemas/perfis-laminados-perfil-i.svg"
+   ]
+  },
+  {
+   "titulo": "Tolerâncias",
+   "item": "5",
+   "texto": "Pela EN 10024 (perfis I de mesa inclinada).",
+   "valores": []
+  }
+ ]
+}

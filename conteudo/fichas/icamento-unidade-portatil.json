@@ -1,0 +1,3633 @@
+{
+  "id": "icamento-unidade-portatil",
+  "titulo": "Içamento — unidade portátil / skid offshore (olhais e estrutura)",
+  "categoria": "Içamento",
+  "resumo": "Projeto de unidade içada offshore (skid, módulo, cesta, tanque, container): classe operacional, cargas de projeto (DF, SKL, RSF), tensões admissíveis, olhais (geometria, material, solda), teste de carga e a interface com manilha e lingada, conforme DNV-ST-E273 (POU), DNV-ST-E271 (containers), NORSOK R-002 e DNV-OS-H205.",
+  "palavras_chave": [
+    "içamento",
+    "içar",
+    "olhal",
+    "olhais",
+    "olhal de içamento",
+    "padeye",
+    "pad eye",
+    "lifting lug",
+    "lifting point",
+    "ponto de içamento",
+    "skid",
+    "módulo",
+    "unidade portátil",
+    "portable offshore unit",
+    "POU",
+    "container offshore",
+    "offshore container",
+    "cesta",
+    "cargo basket",
+    "tanque",
+    "DNV 2.7-3",
+    "DNV 2.7-1",
+    "2.7-3",
+    "2.7-1",
+    "ST-E273",
+    "ST-E271",
+    "DNV-ST-E273",
+    "DNV-ST-E271",
+    "NORSOK R-002",
+    "DNV-OS-H205",
+    "carga de projeto",
+    "design load",
+    "DAF",
+    "fator dinâmico",
+    "fator de amplificação dinâmica",
+    "dynamic amplification factor",
+    "design factor",
+    "DF",
+    "skew load",
+    "SKL",
+    "RSF",
+    "RSL",
+    "resultant sling force",
+    "MGW",
+    "massa bruta",
+    "rating",
+    "tara",
+    "tare",
+    "payload",
+    "carga útil",
+    "teste de carga",
+    "proof load",
+    "prova de carga",
+    "load test",
+    "teste de içamento",
+    "drop test",
+    "ensaio de queda",
+    "manilha",
+    "shackle",
+    "lingada",
+    "sling",
+    "sling set",
+    "lifting set",
+    "ângulo da lingada",
+    "sling angle",
+    "elo mestre",
+    "master link",
+    "forerunner",
+    "cheek plate",
+    "chapa de reforço",
+    "R60",
+    "R45",
+    "R30",
+    "R00",
+    "classe operacional",
+    "WLL",
+    "MBL",
+    "Charpy",
+    "Z25",
+    "temperatura de projeto",
+    "placa de identificação",
+    "data plate",
+    "inspection plate",
+    "placa de inspeção",
+    "clima temperado",
+    "temperate climate",
+    "tabela de olhal",
+    "padeye dimensions",
+    "desenho de arranjo de içamento",
+    "lifting arrangement drawing",
+    "estrutura primária",
+    "primary structure",
+    "estrutura secundária"
+  ],
+  "relacionadas": [
+    "lingadas-acessorios"
+  ],
+  "figuras": [
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-inclinacao-cabo-guindaste.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — inclinação do cabo do guindaste com a vertical a considerar no projeto (R60: 20°; R45: 15°; R30: 10°; R00: 5°) e 3 % de carga fora do plano aplicada na manilha (tolerâncias de fabricação).",
+      "norma": "DNV-ST-E273",
+      "item": "Esquema",
+      "pagina": 40,
+      "grupo": "Cargas de projeto (içamento)",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-olhal-regras-dnv.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — olhal em vista frontal e lateral com a manilha: R ≥ DH (raio externo ≥ Ø do furo); t no furo ≥ 75 % da largura interna da manilha; com carga fora do plano > 10 %, Ø pino ≥ 94 % do Ø furo (E273); folga pino/furo ≤ 6 % do Ø do pino (E271); resultante da lingada no plano do olhal ± 2° (NORSOK).",
+      "norma": "DNV-ST-E273",
+      "item": "Esquema",
+      "pagina": 44,
+      "grupo": "Olhais (padeyes)",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-bolsas-empilhadeira.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — bolsas de empilhadeira: abertura mínima 200 mm × 90 mm; distância entre centros (E273 Tab. 3-6): L < 6 m → 25 % de L, mín. 900 mm; 6 ≤ L ≤ 12 m → 25 % de L, máx. 2 050 mm (carregado) ou 15 % de L (vazio); 12 < L ≤ 18 m → 2 050 mm (só vazio); L > 18 m → sem bolsas. Container (E271): ≥ 900 mm, não precisa passar de 2 050 mm.",
+      "norma": "DNV-ST-E273",
+      "item": "Esquema",
+      "pagina": 45,
+      "grupo": "Estrutura e materiais",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — lingada de 4 pernas: ângulo ν da perna com a vertical — POU 30° a 45°, container normalmente 45° (nunca > 45°), NORSOK 15° a 45°; elo mestre interno ≥ 270 × 140 mm (recomendado); com a lingada deitada sobre o lado longo, o elo mestre fica a ≤ 1,3 m acima do fundo da unidade.",
+      "norma": "DNV-ST-E273",
+      "item": "Esquema",
+      "pagina": 64,
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-munhao.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — munhão (trunnion) com a lingada/grommet de diâmetro D: largura de apoio ≥ 1,3 × D (limitado a 1,25D + 25 mm); com superfície de contato curva, tipicamente 1,15 × D.",
+      "norma": "DNV-OS-H205",
+      "item": "Esquema",
+      "pagina": 35,
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-manilha-en13889.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — manilhas reta (dee) e curva (bow) EN 13889 com as cotas da Tabela D-1 da DNV-ST-E271: Ø do pino, largura interna no pino e comprimento interno (dee / bow).",
+      "norma": "DNV-ST-E271",
+      "item": "Esquema",
+      "pagina": 74,
+      "grupo": "Olhais (padeyes)"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-olhal-container-e271.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — olhal de container: Ø do furo DH, menor distância H do centro do furo à borda, espessura t e folga pino × furo (verificação de arrancamento e de contato).",
+      "norma": "DNV-ST-E271",
+      "item": "Esquema",
+      "pagina": 75,
+      "grupo": "Olhais (padeyes)"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — interface olhal × manilha × lingada: espessura tp × largura interna ws, furo dh × pino d (folga), raio R, comprimento interno C da manilha; em planta, desvio da resultante e carga fora do plano do olhal.",
+      "norma": "NORSOK-R-002",
+      "item": "Esquema",
+      "pagina": 228,
+      "grupo": "Lingada (interface olhal–manilha–lingada)"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-charpy-escoamento.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — forma da exigência de energia Charpy-V em função do limite de escoamento: patamar inferior, variação linear e patamar superior (valores na ficha).",
+      "norma": "DNV-ST-E273",
+      "item": "Esquema",
+      "pagina": 31,
+      "grupo": "Estrutura e materiais"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-tipos-pou.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — tipos de POU: A com estrutura primária (crash frame), B skid sem crash frame, C sem skid (vaso, carretel), D caixa/cabine, E demais.",
+      "norma": "DNV-ST-E273",
+      "item": "Esquema",
+      "pagina": 11,
+      "grupo": "Classificação e definições"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-ponto-mais-carregado.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ponto mais carregado B em planta (distâncias a1, a2, L A-B, b1, b2, L B-C até o CG; diagonal entre olhais) e em elevação (altura h do gancho, ângulos α das pernas com a vertical).",
+      "norma": "NORSOK-R-002",
+      "item": "Esquema",
+      "pagina": 183,
+      "grupo": "Cargas de projeto (içamento)"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-icamento-2-pontos.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — içamento em 2 pontos: pernas b1 e b2 com ângulos αB e αC da vertical, altura h do gancho, CG a L1 do ponto B e L2 do ponto C.",
+      "norma": "NORSOK-R-002",
+      "item": "Esquema",
+      "pagina": 185,
+      "grupo": "Cargas de projeto (içamento)"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-olhal-solda-reforco.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — olhal tipo 2: trecho efetivo L_eff da solda da chapa de reforço no contorno de raio Rb (lado oposto à carga).",
+      "norma": "NORSOK-R-002",
+      "item": "Esquema",
+      "pagina": 234,
+      "grupo": "Tensões admissíveis / critérios"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-olhal-tipo0-norsok.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — olhal tipo 0 (conexão direta, sem manilha): espessura t, Ø do furo d, raio externo R, altura h do centro do furo, comprimento da base L, altura K do trecho reto, ângulo α da carga e aresta do furo arredondada.",
+      "norma": "NORSOK-R-002",
+      "item": "Esquema",
+      "pagina": 229,
+      "grupo": "Olhais (padeyes)"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-olhal-tipo1-norsok.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — olhal tipo 1 (chapa simples) com a manilha: tp, dh, R, h, L, k; largura interna ws e pino d da manilha (colunas da Tabela J.2).",
+      "norma": "NORSOK-R-002",
+      "item": "Esquema",
+      "pagina": 229,
+      "grupo": "Olhais (padeyes)"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-olhal-tipo2-norsok.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — olhal tipo 2 (chapas de reforço nos dois lados): tp, tc, dh, R, Rb, h, L, k e garganta a da solda das chapas (colunas da Tabela J.3).",
+      "norma": "NORSOK-R-002",
+      "item": "Esquema",
+      "pagina": 230,
+      "grupo": "Olhais (padeyes)"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-olhal-tipo3-norsok.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — olhal tipo 3 (boss soldado parcialmente): tp, tb, dh, R, Rb, h, L, k (colunas da Tabela J.4).",
+      "norma": "NORSOK-R-002",
+      "item": "Esquema",
+      "pagina": 231,
+      "grupo": "Olhais (padeyes)"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-queda-estabilidade.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ensaio de queda: unidade inclinada (inclinação, desnível entre cantos) caindo livremente da altura de queda; estabilidade: ângulo de tombamento.",
+      "norma": "DNV-ST-E271",
+      "item": "Esquema",
+      "pagina": 86,
+      "grupo": "Teste de carga, inspeção e marcação"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-placa-marcacao.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — campos da placa de informação da POU e alturas de caracteres da placa e das marcações; faixa de cor no perímetro do teto do container.",
+      "norma": "DNV-ST-E273",
+      "item": "Esquema",
+      "pagina": 60,
+      "grupo": "Teste de carga, inspeção e marcação"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-lingada-4-pernas-forerunner.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — lingada de 4 pernas com forerunner: elo mestre (comprimento e largura internos), forerunner, conjunto quádruplo, pernas com ângulo β da vertical, Ø da perna e manilhas nos olhais.",
+      "norma": "DNV-ST-E271",
+      "item": "Esquema",
+      "pagina": 78,
+      "grupo": "Lingada (interface olhal–manilha–lingada)"
+    },
+    {
+      "arquivo": "esquemas/icamento-unidade-portatil-container-estrutura.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — container/POU: espessuras mínimas (montante de canto, estrutura primária, secundária, face externa da longarina inferior t); flecha no ensaio × vão do membro; proteção superior (abertura da grade, área de aplicação da carga).",
+      "norma": "DNV-ST-E271",
+      "item": "Esquema",
+      "pagina": 25,
+      "grupo": "Estrutura e materiais"
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "MGW — massa bruta máxima",
+      "valor": "MGW = T + P (t); T = tara (massa da unidade vazia com acessórios e outfitting do transporte), P = payload (carga útil máxima)",
+      "norma": "DNV-ST-E273",
+      "item": "3.4.9; Tabela 1-3",
+      "pagina": 37,
+      "nota": "T e P obtidos por pesagem ou por estimativa razoavelmente conservadora. Definições de T e P na Tabela 1-3."
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "POU — limite usual de MGW",
+      "valor": "MGW normalmente não deve exceder 100 t (acima: fatores definidos caso a caso pela DNV)",
+      "max": 100,
+      "unidade": "t",
+      "norma": "DNV-ST-E273",
+      "item": "1.4.3 (+ GN2)",
+      "pagina": 17,
+      "nota": "Limite de 100 t no corpo de 1.4.3; GN2: acima de 100 t, caso a caso."
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Tipos de POU",
+      "valor": "A = com estrutura primária (skid com crash frame, ex. MGW > 25 t ou transporte único); B = skid sem crash frame; C = sem skid/estrutura própria (árvore de natal, carretel, vaso com pés); D = caixa/cabine de casco resistente (stressed skin); E = demais (ex. ferramenta de içamento dedicada fixada à carga)",
+      "norma": "DNV-ST-E273",
+      "item": "1.1.6",
+      "pagina": 12
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Container offshore × POU",
+      "valor": "Container offshore: MGW ≤ 25 000 kg, uso repetido, com estrutura externa (outer framework) e olhais → certificar pela DNV-ST-E271, não pela E273",
+      "max": 25000,
+      "unidade": "kg",
+      "norma": "DNV-ST-E273",
+      "item": "1.4.4; 1.3.1",
+      "pagina": 18
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Container offshore — definição",
+      "valor": "Unidade portátil com massa bruta máxima ≤ 25 000 kg, uso repetido, manuseada em mar aberto; unidades para instalação (não transporte repetido) ou sem estrutura externa com olhais não são containers (podem ser POU pela E273)",
+      "max": 25000,
+      "unidade": "kg",
+      "norma": "DNV-ST-E271",
+      "item": "1.5.1",
+      "pagina": 11
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "R (rating) — container",
+      "valor": "R = massa bruta máxima do container incluindo equipamento permanente e carga, em kg, EXCLUINDO a lingada; P = R − T",
+      "norma": "DNV-ST-E271",
+      "item": "1.6",
+      "pagina": 13,
+      "nota": "A massa da lingada (S) não entra em R."
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Classe operacional R60",
+      "valor": "Içamento entre embarcação/plataforma com Hs máx. = 6,0 m",
+      "max": 6.0,
+      "unidade": "m (Hs)",
+      "norma": "DNV-ST-E273",
+      "item": "3.3.3",
+      "pagina": 33
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Classe operacional R45",
+      "valor": "Içamento entre embarcação/plataforma com Hs máx. = 4,5 m",
+      "max": 4.5,
+      "unidade": "m (Hs)",
+      "norma": "DNV-ST-E273",
+      "item": "3.3.3",
+      "pagina": 33
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Classe operacional R30",
+      "valor": "Içamento entre embarcação/plataforma com Hs máx. = 3,0 m",
+      "max": 3.0,
+      "unidade": "m (Hs)",
+      "norma": "DNV-ST-E273",
+      "item": "3.3.3",
+      "pagina": 34
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Classe operacional R00",
+      "valor": "Içamento em terra, águas abrigadas e a bordo (mesma embarcação/plataforma), NÃO entre embarcação e plataforma",
+      "norma": "DNV-ST-E273",
+      "item": "3.3.3",
+      "pagina": 34
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Notações adicionais",
+      "valor": "Sxx = uso submarino (xx = Hs limite em decímetros, ex. S13); SXX = sem Hs pré-definida; SE = transporte/evento único; RT = só transporte marítimo. Ex.: DNV 2.7-3 R45-SXX-SE",
+      "norma": "DNV-ST-E273",
+      "item": "3.3.3",
+      "pagina": 34
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Classe recomendada (DNV-ST-N001)",
+      "valor": "R00 normalmente aceitável para içamento em terra/abrigado/a bordo; R30 para içamento offshore entre embarcação/plataforma; R45 recomendada se possível Hs > 3,0 m",
+      "norma": "DNV-ST-E273",
+      "item": "1.3.3",
+      "pagina": 16
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Grupos NORSOK de unidades portáteis",
+      "valor": "F1 container offshore (≤ 25 000 kg); F2 container de serviço; F3 POU tipo A da E273 (≤ 100 t); F4 heavy lift (≥ 50 t) e submarino; F5 objetos içados (inclui POU tipos B, C, D, E)",
+      "norma": "NORSOK-R-002",
+      "item": "F.2, Tabela F.1; F.5",
+      "pagina": 173,
+      "nota": "Tabela F.1; F.5: tipos B, C, D e E → grupo F5."
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "POU na plataforma continental norueguesa",
+      "valor": "Só unidades projetadas para classe operacional R60 são aceitas, mesmo se o uso for em mar menos severo",
+      "norma": "NORSOK-R-002",
+      "item": "F.5; F.7.1",
+      "pagina": 174,
+      "nota": "F.5; F.7.1: POU tipos B–E, também só R60."
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Carga de projeto em ar (POU)",
+      "valor": "F_Air = DF × MGW × g  [kN] (F = maior entre F_Air, F_Sub e F_D)",
+      "norma": "DNV-ST-E273",
+      "item": "3.5.1",
+      "pagina": 38,
+      "calc": [
+        "e273:F"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "DF — classe R60",
+      "valor": "MGW < 50 t: DF = 1,4 + 0,8 × √(50/MGW); MGW ≥ 50 t: DF = 2,2",
+      "min": 2.2,
+      "norma": "DNV-ST-E273",
+      "item": "3.5.1, Tabela 3-5",
+      "pagina": 38,
+      "calc": [
+        "e273:DF_R60"
+      ],
+      "nota": "min = valor para MGW ≥ 50 t; abaixo de 50 t usar a fórmula."
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "DF — classe R45",
+      "valor": "MGW < 50 t: DF = 1,4 + 0,6 × √(50/MGW); MGW ≥ 50 t: DF = 2,0",
+      "min": 2.0,
+      "norma": "DNV-ST-E273",
+      "item": "3.5.1, Tabela 3-5",
+      "pagina": 38,
+      "calc": [
+        "e273:DF_R45"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "DF — classe R30",
+      "valor": "MGW < 50 t: DF = 1,4 + 0,4 × √(50/MGW); MGW ≥ 50 t: DF = 1,8",
+      "min": 1.8,
+      "norma": "DNV-ST-E273",
+      "item": "3.5.1, Tabela 3-5",
+      "pagina": 38,
+      "calc": [
+        "e273:DF_R30"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "DF — classe R00",
+      "valor": "MGW < 50 t: DF = 1,4 + 0,1 × √(50/MGW); MGW ≥ 50 t: DF = 1,5",
+      "min": 1.5,
+      "norma": "DNV-ST-E273",
+      "item": "3.5.1, Tabela 3-5",
+      "pagina": 38,
+      "calc": [
+        "e273:DF_R00"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Carga de projeto submarina",
+      "valor": "F_Sub = 2,5 × MGW × g normalmente adequado (ver 3.11)",
+      "min": 2.5,
+      "norma": "DNV-ST-E273",
+      "item": "3.5.1",
+      "pagina": 38,
+      "calc": [
+        "e273:F_sub"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Carga de projeto por carga dinâmica calculada (tipo E)",
+      "valor": "F_D = 1,4 × F_Dyn",
+      "min": 1.4,
+      "norma": "DNV-ST-E273",
+      "item": "3.5.2",
+      "pagina": 38,
+      "calc": [
+        "e273:FD"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Içamento em 2 pontos / lingada frouxa",
+      "valor": "Verificar com ao menos uma lingada frouxa/inativa: carga de projeto da estrutura = 0,6 × F",
+      "min": 0.6,
+      "norma": "DNV-ST-E273",
+      "item": "3.5.4",
+      "pagina": 39,
+      "calc": [
+        "e273:dois_pontos"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-icamento-2-pontos.svg#alfaB"
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "RSF — olhal único (1 ponto)",
+      "valor": "RSF = 1,2 × F",
+      "min": 1.2,
+      "norma": "DNV-ST-E273",
+      "item": "3.5.5",
+      "pagina": 39,
+      "calc": [
+        "e273:RSF_1"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "RSF — 2, 3 ou 4 pernas sem balancim (ν ≥ 30°)",
+      "valor": "RSF = 1,2 × SKL × PL × F / cos(ν)",
+      "norma": "DNV-ST-E273",
+      "item": "3.5.5",
+      "pagina": 39,
+      "calc": [
+        "e273:RSF"
+      ],
+      "nota": "ν = ângulo da perna com a vertical. Equação válida só para 2, 3 e 4 pernas com ν ≥ 30°; para ν < 30°, mais de 4 pernas ou balancim usar a equação com PL_SKL.",
+      "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#nu"
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "SKL — fator de skew, lingada de 4 pernas",
+      "valor": "SKL ≥ 1,33 (lingadas casadas, matched slings)",
+      "min": 1.33,
+      "norma": "DNV-ST-E273",
+      "item": "3.5.5",
+      "pagina": 39,
+      "calc": [
+        "e273:SKL4"
+      ],
+      "nota": "Tolerâncias de lingadas casadas: EN 13414-1."
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "SKL — lingada de 2 ou 3 pernas",
+      "valor": "SKL ≥ 1,1",
+      "min": 1.1,
+      "norma": "DNV-ST-E273",
+      "item": "3.5.5",
+      "pagina": 39,
+      "calc": [
+        "e273:SKL23"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "PL — fração de F no olhal mais carregado",
+      "valor": "4 pernas duplamente simétrica, sem incerteza significativa no CG: PL = 0,25 (25 %)",
+      "min": 0.25,
+      "norma": "DNV-ST-E273",
+      "item": "3.5.5 GN2",
+      "pagina": 39,
+      "calc": [
+        "e273:PL4"
+      ],
+      "nota": "Caso geral: PL considerando a posição mais extrema do CG (cálculo quase-estático)."
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "RSF — > 4 pernas, balancim ou ν < 30°",
+      "valor": "RSF = 1,2 × PL_SKL × F / cos(ν); PL_SKL inclui CG extremo, geometria, tolerância de comprimento das pernas e inclinação máx. do cabo do guindaste",
+      "norma": "DNV-ST-E273",
+      "item": "3.5.5",
+      "pagina": 40,
+      "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#nu"
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Carga fora do plano (tolerâncias de fabricação)",
+      "valor": "3 % de carga fora do plano aplicada no ponto de ação da lingada (manilha)",
+      "min": 0.03,
+      "norma": "DNV-ST-E273",
+      "item": "3.5.6 B)",
+      "pagina": 40,
+      "calc": [
+        "e273:fora_plano"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-inclinacao-cabo-guindaste.svg#fora-plano"
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Inclinação mínima do cabo do guindaste a considerar",
+      "valor": "R60: 20°; R45: 15°; R30: 10°; R00: 5°",
+      "norma": "DNV-ST-E273",
+      "item": "3.5.6 C)",
+      "pagina": 40,
+      "nota": "Pode ser desprezada para lingadas de 3 e 4 pernas sem pernas frouxas (GN1). Se C) é incluído, B) (3 %) pode ser desprezado; A) (ângulo lingada × plano do olhal) sempre somado.",
+      "cota": "esquemas/icamento-unidade-portatil-inclinacao-cabo-guindaste.svg#inclinacao"
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Empilhadeira — carga de projeto",
+      "valor": "F_F = 1,65 × MGW × g (só vazio: 1,65 × T × g)",
+      "min": 1.65,
+      "norma": "DNV-ST-E273",
+      "item": "3.5.7",
+      "pagina": 41
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Impacto horizontal (montantes e longarinas inferiores)",
+      "valor": "R60 e R45: F_HI = 0,08 × carga de teste (Tabela 5-2); R30 e R00: F_HI = 0,05 × carga de teste; demais estruturas externas: F_HIR = 0,6 × F_HI",
+      "norma": "DNV-ST-E273",
+      "item": "3.6.2",
+      "pagina": 41,
+      "nota": "Unidade transportada isolada ou de transporte único: 50 % de F_HI e F_HIR. Pode ser desprezado em R00 que não é içada offshore. Tipo B: só no skid/longarina inferior."
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Impacto vertical (borda inferior)",
+      "valor": "F_VI = 0,08 × carga de teste (Tabela 5-2); R45/R60: resistir à queda sobre um canto (teste 5.3 ou cálculo)",
+      "norma": "DNV-ST-E273",
+      "item": "3.6.3",
+      "pagina": 42
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Estabilidade antes do içamento (ângulo de tombamento)",
+      "valor": "R60: 30°; R45: 23°; R30: 15°; R00: 15°",
+      "norma": "DNV-ST-E273",
+      "item": "3.4.8",
+      "pagina": 37,
+      "nota": "Se não atendido: procedimento operacional com inclinação máx. admissível ≤ 1/2 do ângulo de projeto, marcada na unidade.",
+      "cota": "esquemas/icamento-unidade-portatil-queda-estabilidade.svg#tombamento"
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Transporte único sem teste de carga",
+      "valor": "Dispensa o teste de içamento se as cargas de projeto de içamento forem multiplicadas por 1,3",
+      "min": 1.3,
+      "norma": "DNV-ST-E273",
+      "item": "5.2.5",
+      "pagina": 56,
+      "calc": [
+        "e273:fator_SE"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Carga de projeto da estrutura (container)",
+      "valor": "F_L = 2,5 × R × g; carga interna F_i = (2,5 × R − T) × g",
+      "min": 2.5,
+      "norma": "DNV-ST-E271",
+      "item": "4.2.3.1",
+      "pagina": 27,
+      "calc": [
+        "e271:FL"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Carga vertical total nos olhais (container)",
+      "valor": "F_p = 3 × R × g, distribuída igualmente entre (n − 1) olhais; no cálculo 2 ≤ n ≤ 4",
+      "min": 3.0,
+      "norma": "DNV-ST-E271",
+      "item": "4.2.3.1",
+      "pagina": 27,
+      "calc": [
+        "e271:Fp"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "RSL — força resultante da lingada por olhal (container)",
+      "valor": "RSL = 3 × R × g / [(n − 1) × cos v]; v = ângulo da perna com a vertical, assumido 45° salvo se especificado menor",
+      "norma": "DNV-ST-E271",
+      "item": "4.2.3.1",
+      "pagina": 27,
+      "calc": [
+        "e271:RSL"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#nu"
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Container com olhal único",
+      "valor": "F_p = 5 × R × g (aprovação especial)",
+      "min": 5.0,
+      "norma": "DNV-ST-E271",
+      "item": "4.2.3.1",
+      "pagina": 27,
+      "calc": [
+        "e271:Fp1"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Empilhadeira — container",
+      "valor": "F_F = 1,6 × (R + S) × g; só vazio: 1,6 × (T + S) × g (S = massa da lingada)",
+      "min": 1.6,
+      "norma": "DNV-ST-E271",
+      "item": "4.2.3.2",
+      "pagina": 28
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Impacto horizontal — container",
+      "valor": "F_HI = 0,25 × R × g (montantes de canto e longarinas laterais inferiores); 0,15 × R × g (demais membros laterais, incl. longarinas superiores); σe ≤ C (aço: Re); flecha ≤ ln/250 (ln = comprimento total do montante/longarina; demais membros: menor aresta da parede)",
+      "norma": "DNV-ST-E271",
+      "item": "4.2.4.1",
+      "pagina": 28
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Impacto vertical — container",
+      "valor": "F_VI = 0,25 × R × g no meio do vão das longarinas inferiores; σe ≤ C; flecha ≤ ln/250 (ln = comprimento total da longarina)",
+      "norma": "DNV-ST-E271",
+      "item": "4.2.4.2",
+      "pagina": 29
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Estabilidade — container",
+      "valor": "Resistir a 30° de inclinação em qualquer direção sem tombar",
+      "min": 30,
+      "unidade": "°",
+      "norma": "DNV-ST-E271",
+      "item": "4.1.2",
+      "pagina": 24,
+      "cota": "esquemas/icamento-unidade-portatil-queda-estabilidade.svg#tombamento"
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "WLL do conjunto (objeto F5)",
+      "valor": "WLL = W × WCF; WCF = 1,03 (pesado, célula ±3 %); 1,1 (cálculo detalhado com desenhos atualizados); ≥ 1,2 (menos atualizado; ≥ 1,5 para demolição)",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.2.3.2, Tabela F.3",
+      "pagina": 178
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Fator de envelope do CG (WCOG)",
+      "valor": "1,0 (pesado ou distribuição simples); 1,1 (não pesado ou distribuição complexa)",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.2.3.3",
+      "pagina": 178
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "SKL — NORSOK",
+      "valor": "4 pontos em um gancho sem balancim (hiperestático): 1,25; 4 pontos com 1 ou 2 balancins flutuantes: 1,10; tandem / 4 pontos isostático: 1,00; 3 pontos ou menos: 1,00",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.2.3.4, Tabela F.4",
+      "pagina": 179,
+      "nota": "Válido com pernas dentro da tolerância e configuração aproximadamente simétrica com ângulo ≤ 45° da vertical."
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "DAF — em terra / a bordo (WLL ≤ 50 t)",
+      "valor": "DAF = 1,5",
+      "min": 1.5,
+      "norma": "NORSOK-R-002",
+      "item": "F.7.2.3.5 (F.2-0)",
+      "pagina": 179,
+      "calc": [
+        "norsok:DAF_onboard"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "DAF — içamento offboard (WLL ≤ 50 t)",
+      "valor": "DAF = 1,09 + 0,41 × √(50 / WLL)",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.2.3.5 (F.2-1)",
+      "pagina": 179,
+      "calc": [
+        "norsok:DAF_offboard"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "DAF — WLL > 50 t",
+      "valor": "DAF = 1,7 − 0,004 × WLL (redução linear de 1,5 em 50 t a 1,3 em 100 t)",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.2.3.5 (F.2-2)",
+      "pagina": 179
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "DF — fator de projeto NORSOK (γp × γc)",
+      "valor": "Pontos de içamento e elementos críticos únicos: 1,34 × 1,25 = 1,68; acessórios (balancim, manilhas, lingadas): 1,68; elementos principais que suportam o ponto: 1,34 × 1,10 = 1,48; demais elementos: 1,34",
+      "min": 1.68,
+      "norma": "NORSOK-R-002",
+      "item": "F.7.2.3.8, Tabela F.5",
+      "pagina": 181,
+      "calc": [
+        "norsok:DF_olhal"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Reação vertical no ponto mais carregado (P_LP)",
+      "valor": "4 pontos simétrico: P_LP ≈ WLL × b1 × a1 × WCOG × SKL × DAF / (L_A-B × L_B-C); 2 pontos: P_LP ≈ WLL × WCOG × SKL × DAF × L2/(L1 + L2); 1 ponto: P_LP ≈ WLL × DAF",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.3.1 (F.4), (F.6), (F.7)",
+      "pagina": 184,
+      "nota": "4 pontos não simétrico: análise detalhada.",
+      "cota": "esquemas/icamento-unidade-portatil-ponto-mais-carregado.svg#LAB"
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Carga de projeto do olhal (NORSOK)",
+      "valor": "P_P = P_LP × DF / cos α_R",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.5 (F.12)",
+      "pagina": 187,
+      "calc": [
+        "norsok:Pp"
+      ]
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Carga lateral mínima no olhal (NORSOK)",
+      "valor": "0,05 × P_P (desvio de 3°) aplicada no centro do arco da manilha",
+      "min": 0.05,
+      "norma": "NORSOK-R-002",
+      "item": "F.7.5",
+      "pagina": 187,
+      "calc": [
+        "norsok:lateral"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg#fora-plano"
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "DAF — tabela DNV-OS-H205 (SHL ≤ 100 t)",
+      "valor": "Em terra: 1,10; abrigado: 1,07 + 0,05 × √(100/SHL); offshore: 1 + 0,25 × √(100/SHL)",
+      "norma": "DNV-OS-H205",
+      "item": "3.2.2.4, Tabela 3-1",
+      "pagina": 18,
+      "nota": "Objetos < 3 t: assumir 3 t. Mínimos para içamento em ar fora de condições adversas."
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Fator de consequência γc (H205)",
+      "valor": "Pontos de içamento e fixações: 1,3; equipamento de içamento não testado: 1,3; elementos principais que suportam o ponto: 1,15; demais: 1,0. Fator de carga γf normalmente 1,3",
+      "norma": "DNV-OS-H205",
+      "item": "5.1.2, Tabela 5-1",
+      "pagina": 34
+    },
+    {
+      "grupo": "Tensões admissíveis / critérios",
+      "parametro": "Tensão admissível (von Mises)",
+      "valor": "σe ≤ σea = 0,85 × Re (também para cargas de impacto)",
+      "max": 0.85,
+      "norma": "DNV-ST-E273",
+      "item": "3.4.3",
+      "pagina": 35,
+      "calc": [
+        "e273:sigma_adm"
+      ],
+      "nota": "Em FE, picos locais acima de σea podem ser aceitos se a estrutura adjacente redistribuir (GN1)."
+    },
+    {
+      "grupo": "Tensões admissíveis / critérios",
+      "parametro": "Alternativa AISC-ASD (tensões principais)",
+      "valor": "Tração: 0,6 × Re; tração + flexão em viga: 0,66 × Re; cisalhamento: 0,4 × Re",
+      "norma": "DNV-ST-E273",
+      "item": "3.4.3 GN3",
+      "pagina": 36
+    },
+    {
+      "grupo": "Tensões admissíveis / critérios",
+      "parametro": "Flambagem",
+      "valor": "Fator de utilização máximo 0,85",
+      "max": 0.85,
+      "norma": "DNV-ST-E273",
+      "item": "3.4.4",
+      "pagina": 36
+    },
+    {
+      "grupo": "Tensões admissíveis / critérios",
+      "parametro": "Tensão admissível na solda",
+      "valor": "σea = 0,85 × Re (Re = menor do metal de base; para filete em aço não precisa ser tomado < 355 MPa)",
+      "norma": "DNV-ST-E273",
+      "item": "3.4.5",
+      "pagina": 36
+    },
+    {
+      "grupo": "Tensões admissíveis / critérios",
+      "parametro": "Utilização máx. — solda de filete",
+      "valor": "Evento único: 0,8; múltiplos eventos: 0,6",
+      "max": 0.8,
+      "norma": "DNV-ST-E273",
+      "item": "3.4.5, Tabela 3-4",
+      "pagina": 36
+    },
+    {
+      "grupo": "Tensões admissíveis / critérios",
+      "parametro": "Utilização máx. — penetração parcial",
+      "valor": "Evento único: 1,0; múltiplos eventos: 0,8",
+      "max": 1.0,
+      "norma": "DNV-ST-E273",
+      "item": "3.4.5, Tabela 3-4",
+      "pagina": 36
+    },
+    {
+      "grupo": "Tensões admissíveis / critérios",
+      "parametro": "Tensão admissível — container",
+      "valor": "σe ≤ 0,85 × C (aço: C = Re; alumínio: C = Rp0,2 ≤ 0,7 × Rm; na solda/ZTA: escoamento da ZTA)",
+      "max": 0.85,
+      "norma": "DNV-ST-E271",
+      "item": "4.2.1",
+      "pagina": 26,
+      "calc": [
+        "e271:sigma_adm"
+      ]
+    },
+    {
+      "grupo": "Tensões admissíveis / critérios",
+      "parametro": "Tensão de pico no furo do olhal (container)",
+      "valor": "Tensão concentrada (hot spot) na borda do furo ≤ 2 × Re na carga de projeto",
+      "max": 2.0,
+      "norma": "DNV-ST-E271",
+      "item": "4.4.1",
+      "pagina": 30
+    },
+    {
+      "grupo": "Tensões admissíveis / critérios",
+      "parametro": "Resistência de cálculo do olhal (NORSOK, LRFD)",
+      "valor": "fd = fy / γRm; γRm = 1,15 (olhal, estrutura e solda de penetração total); 1,3 (filete, penetração parcial, parafusos)",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.5.2; F.7.2.3.7",
+      "pagina": 233
+    },
+    {
+      "grupo": "Tensões admissíveis / critérios",
+      "parametro": "Arrancamento e esmagamento (NORSOK)",
+      "valor": "Arrancamento: fy/(√3 × γRm) ≥ P_P/(2 × A_sh); esmagamento no furo: 1,5 × fy/γRm ≥ P_P/(t_eff × d)",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.5.3; J.2.5.4",
+      "pagina": 233,
+      "nota": "A_sh tipo 1 = (R − dh/2) × tp; tipo 2 soma 2 × (Rb − dh/2) × tc das chapas de reforço; tipo 3 (boss) = (Rb − dh/2) × tb. t_eff (J.2.5.4): tipo 1 = tp; tipo 2 = tp + 2·tc; tipo 3 (boss) = tb."
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Tipo de ponto de içamento",
+      "valor": "Usar olhais (padeye); outros (ex. munhões/padears) só com segurança igual e considerando desconexão acidental",
+      "norma": "DNV-ST-E273",
+      "item": "3.8.1",
+      "pagina": 43
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Posição dos olhais",
+      "valor": "Não ultrapassar os limites verticais da unidade; cargas iguais nas pernas; sem risco de enroscar a lingada",
+      "norma": "DNV-ST-E273",
+      "item": "3.8.3",
+      "pagina": 44
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Raio externo da chapa principal",
+      "valor": "Raio externo ≥ diâmetro do furo do pino",
+      "min": 1.0,
+      "norma": "DNV-ST-E273",
+      "item": "3.8.4",
+      "pagina": 44,
+      "calc": [
+        "e273:raio_furo"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-olhal-regras-dnv.svg#R"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Espessura no furo × manilha",
+      "valor": "Espessura do olhal no furo (incl. chapas de reforço) ≥ 75 % da largura interna da manilha adequada à RSF",
+      "min": 0.75,
+      "norma": "DNV-ST-E273",
+      "item": "3.8.4",
+      "pagina": 44,
+      "calc": [
+        "e273:esp_manilha"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-olhal-regras-dnv.svg#t"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Furo × pino da manilha",
+      "valor": "Diferença furo − pino a menor possível, considerando o Ø máx. do pino com tolerância; com carga fora do plano > 10 %: Ø pino ≥ 94 % do Ø furo (recomendado)",
+      "min": 0.94,
+      "norma": "DNV-ST-E273",
+      "item": "3.8.4",
+      "pagina": 44,
+      "calc": [
+        "e273:pino_furo"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-olhal-regras-dnv.svg#DH"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhal — esmagamento (Dpin ≥ 0,94 DH)",
+      "valor": "σe ≥ 0,045 × √(RSF × E / (DH × t))",
+      "norma": "DNV-ST-E273",
+      "item": "App. A.3",
+      "pagina": 71,
+      "nota": "RSF em N, E = 210 000 MPa, t = espessura total no furo incl. chapas de reforço; σe aqui = tensão admissível (0,85 Re).",
+      "cota": "esquemas/icamento-unidade-portatil-olhal-regras-dnv.svg#DH"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhal — esmagamento (Dpin < 0,94 DH)",
+      "valor": "σe ≥ 0,18 × √(RSF × (1/Dpin − 1/DH) × E / t)",
+      "norma": "DNV-ST-E273",
+      "item": "App. A.3",
+      "pagina": 72,
+      "cota": "esquemas/icamento-unidade-portatil-olhal-regras-dnv.svg#DH"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhal — arrancamento (tear out)",
+      "valor": "σe ≥ 2 × RSF / [(2 × Rpad − DH) × t]; Rpad = (Rpl × tpl + 2 × Rch × tch) / t",
+      "norma": "DNV-ST-E273",
+      "item": "App. A.4; A.2",
+      "pagina": 72,
+      "nota": "Rpad definido em A.2.",
+      "cota": "esquemas/icamento-unidade-portatil-olhal-regras-dnv.svg#R"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Solda das chapas de reforço (cheek plates)",
+      "valor": "σe ≥ RSF × tch / (t × Dch × a × UF) — filete em todo o contorno, a = garganta, UF da Tabela 3-4",
+      "norma": "DNV-ST-E273",
+      "item": "App. A.5",
+      "pagina": 72
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhal — tensão combinada",
+      "valor": "Seções abaixo do furo: von Mises ≤ σe (cisalhamento/axial uniformes, flexão elástica)",
+      "norma": "DNV-ST-E273",
+      "item": "App. A.6",
+      "pagina": 72
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhal de rosca (eye bolt)",
+      "valor": "Só transporte único, caso a caso; resistência última ≥ 3 × RSF; derating angular conforme fabricante; rosca travada",
+      "min": 3.0,
+      "norma": "DNV-ST-E273",
+      "item": "3.8.5",
+      "pagina": 44
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Cantoneiras ISO (ISO 1161)",
+      "valor": "Podem existir para amarração, mas NÃO podem ser usadas para içamento offshore",
+      "norma": "DNV-ST-E273",
+      "item": "3.9.1",
+      "pagina": 44
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Material dos pontos de içamento",
+      "valor": "Aço especial ou primário (DNV-OS-C101); chapa com tração na espessura: EN 10164 qualidade Z25 ou superior",
+      "norma": "DNV-ST-E273",
+      "item": "3.2.4",
+      "pagina": 32
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Solda dos olhais",
+      "valor": "Soldas que transmitem tração: penetração total (recomendada também para cisalhamento); filete/parcial só evento único ou caso a caso",
+      "norma": "DNV-ST-E273",
+      "item": "3.2.4",
+      "pagina": 32
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Pinos e parafusos de olhais",
+      "valor": "ISO 898 ou equivalente; Charpy ≥ 42 J a −20 °C (quando o tamanho permitir); pinos EN 10083; certificado individual de cada parafuso/pino de olhal",
+      "min": 42,
+      "unidade": "J",
+      "norma": "DNV-ST-E273",
+      "item": "3.2.5",
+      "pagina": 32
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhais — limites e alinhamento (container)",
+      "valor": "Não ultrapassar as laterais (pode ultrapassar o topo); alinhados com a lingada para o centro de içamento, tolerância ± 2,5°",
+      "max": 2.5,
+      "unidade": "°",
+      "norma": "DNV-ST-E271",
+      "item": "4.4.1",
+      "pagina": 30,
+      "calc": [
+        "e271:alinhamento"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg#desvio-plano"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Diagonais entre centros dos olhais",
+      "valor": "Diferença ≤ 0,2 % do comprimento nominal da diagonal ou 5 mm (o maior)",
+      "norma": "DNV-ST-E271",
+      "item": "4.4.1",
+      "pagina": 30,
+      "cota": "esquemas/icamento-unidade-portatil-ponto-mais-carregado.svg#diagonal"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Folga pino/furo (container)",
+      "valor": "Folga entre pino da manilha e furo ≤ 6 % do diâmetro do pino",
+      "max": 0.06,
+      "norma": "DNV-ST-E271",
+      "item": "4.4.1",
+      "pagina": 30,
+      "calc": [
+        "e271:folga"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-olhal-container-e271.svg#folga"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Espessura no furo (container)",
+      "valor": "≥ 75 % da largura interna da manilha; se menor, chapas de reforço soldadas ou bucha/tubo de parede grossa",
+      "min": 0.75,
+      "norma": "DNV-ST-E271",
+      "item": "4.4.1",
+      "pagina": 30,
+      "calc": [
+        "e271:esp_manilha"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-olhal-container-e271.svg#t"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Solda olhal × estrutura (container)",
+      "valor": "Penetração total sempre; força na espessura (direção z) exige chapa com propriedade na espessura",
+      "norma": "DNV-ST-E271",
+      "item": "4.3.1; 4.4.1",
+      "pagina": 29,
+      "nota": "Requisito de 4.3.1, repetido em 4.4.1. Z25 em 3.1.2.1."
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhal — arrancamento (container)",
+      "valor": "Re ≥ 3 × RSL / (2 × H × t − DH × t)",
+      "norma": "DNV-ST-E271",
+      "item": "App. D.3, eq. 1",
+      "pagina": 75,
+      "nota": "H = menor distância do centro do furo à borda; fator de concentração 3. Chapas de reforço soldadas em filete NÃO contam na eq. 1.",
+      "cota": "esquemas/icamento-unidade-portatil-olhal-container-e271.svg#H"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhal — tensão de contato (container)",
+      "valor": "Re ≥ 23,7 × √(RSL / (DH × t))",
+      "norma": "DNV-ST-E271",
+      "item": "App. D.3, eq. 2",
+      "pagina": 75,
+      "nota": "Cilindros concêntricos com 6 % de diferença de diâmetro; pode usar espessura total com chapas de reforço.",
+      "cota": "esquemas/icamento-unidade-portatil-olhal-container-e271.svg#DH"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Ordem de projeto",
+      "valor": "Definir a manilha antes de desenhar o olhal (pino, largura e comprimento internos, espaço para pino com porca e contrapino)",
+      "norma": "DNV-ST-E271",
+      "item": "App. D.2",
+      "pagina": 74
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Orientação do olhal (NORSOK)",
+      "valor": "Resultante da lingada no plano do olhal, ± 2°",
+      "max": 2,
+      "unidade": "°",
+      "norma": "NORSOK-R-002",
+      "item": "F.1.1",
+      "pagina": 170,
+      "calc": [
+        "norsok:alinhamento"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg#desvio-plano"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhal — material na espessura (NORSOK)",
+      "valor": "Documentar propriedade na espessura (aço Z ou UT de laminação) quando houver tração na espessura; preferir olhal passante (slot) soldado na alma",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.2",
+      "pagina": 225
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhal parafusado (NORSOK)",
+      "valor": "Parafusos mín. M12; transmitir por cisalhamento (sem atrito) ou parafusos verticais em tração",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.2",
+      "pagina": 226
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Acabamento do olhal (NORSOK)",
+      "valor": "Borda externa esmerilhada (se não usinada); furo furado ou usinado",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.4",
+      "pagina": 228
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Alinhamento e espessura (H205)",
+      "valor": "Olhais normalmente alinhados com a força no plano da chapa principal; tração na espessura com aço de propriedade garantida, tensão ≤ 50 % da admissível (GN)",
+      "norma": "DNV-OS-H205",
+      "item": "5.1.4.4; 5.1.4.6",
+      "pagina": 34,
+      "nota": "Ver 5.1.4.6 e o GN.",
+      "cota": "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg#desvio-plano"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Chapas de reforço (guia)",
+      "valor": "Olhais acima de 2 000 kg: chapas de reforço soldadas (não boss único) para reduzir a folga com a manilha",
+      "norma": "GUIA-PADEYE-TP2016",
+      "item": "p. 1",
+      "pagina": 1,
+      "nota": "Guia de fabricante (Technik Design), não norma."
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Material e solda (guia)",
+      "valor": "Aço S355J2 (EN 10025) com certificado 3.1 (EN 10204); solda de penetração total; chapa horizontal tracionada em grau Z (EMZ)",
+      "norma": "GUIA-PADEYE-TP2016",
+      "item": "p. 1",
+      "pagina": 1,
+      "nota": "Guia, não norma. O texto do guia escreve 'S335J2' (erro de digitação)."
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Temperatura de projeto TD (POU)",
+      "valor": "TD ≤ menor média diária (estatística) do ar no local; subsea: considerar também a menor temperatura da água; sem designação: TD = −20 °C",
+      "unidade": "°C",
+      "norma": "DNV-ST-E273",
+      "item": "3.2.1",
+      "pagina": 30
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Temperatura de projeto TD (container)",
+      "valor": "TD não maior que a menor média diária do local e não maior que −20 °C",
+      "max": -20,
+      "unidade": "°C",
+      "norma": "DNV-ST-E271",
+      "item": "4.1.5",
+      "pagina": 26,
+      "nota": "A frase seguinte, truncada na própria norma, remete ao App. J: containers usados só entre 36° N e 36° S (e águas australianas) podem ter TD ≤ 0 °C (não maior que a menor média diária); lingada continua TD ≤ −20 °C; marcar 'ONLY TO BE USED IN TEMPERATE CLIMATES' (≥ 75 mm) e placa 'Design Temperature: 0°C'."
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Espessura mínima — estrutura secundária metálica",
+      "valor": "t = 2 mm (POU tipo D: caso a caso)",
+      "min": 2,
+      "unidade": "mm",
+      "norma": "DNV-ST-E273",
+      "item": "3.2.2",
+      "pagina": 30,
+      "cota": "esquemas/icamento-unidade-portatil-container-estrutura.svg#t-secundaria"
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Espessura mínima — container: montantes de canto e longarinas inferiores (face externa)",
+      "valor": "t ≥ 6 mm (4 mm se R < 1000 kg)",
+      "min": 6,
+      "unidade": "mm",
+      "norma": "DNV-ST-E271",
+      "item": "4.2.5",
+      "pagina": 29,
+      "cota": "esquemas/icamento-unidade-portatil-container-estrutura.svg#t-montante"
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Espessura mínima — container: demais estrutura primária / secundária",
+      "valor": "Demais estrutura primária: t ≥ 4 mm; estrutura secundária: 2 mm",
+      "min": 4,
+      "unidade": "mm",
+      "norma": "DNV-ST-E271",
+      "item": "4.2.5",
+      "pagina": 29,
+      "cota": "esquemas/icamento-unidade-portatil-container-estrutura.svg#t-primaria"
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Charpy — energia mínima (estrutura primária)",
+      "valor": "Média de 3 CPs longitudinais conforme Figura 3-1: 27 J até Re = 270 N/mm²; cresce linearmente até 42 J em Re = 420 N/mm²; 42 J acima",
+      "min": 27,
+      "unidade": "J",
+      "norma": "DNV-ST-E273",
+      "item": "3.2.3, Figura 3-1",
+      "pagina": 31,
+      "nota": "Valores lidos da FIGURA 3-1. CP transversal: 2/3; valor individual ≥ 70 % da média; CP 10×7,5: 5/6; 10×5: 2/3. 42 J é o patamar exigido a partir de Re = 420 N/mm² (não é valor máximo)."
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Charpy — isenções",
+      "valor": "Aço normalizado, acalmado, grão fino, Re ≤ 345 N/mm², t ≤ 25 mm e temperatura mín. de operação ≥ 0 °C; aço inox austenítico",
+      "norma": "DNV-ST-E273",
+      "item": "3.2.3",
+      "pagina": 31
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Limite de resistência do aço",
+      "valor": "Não usar aço com envelhecimento nem com Re mín. > 690 N/mm²",
+      "max": 690,
+      "unidade": "N/mm²",
+      "norma": "DNV-ST-E273",
+      "item": "3.2.3",
+      "pagina": 31
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Limite de resistência do aço (container)",
+      "valor": "Aço de extra alta resistência com Re > 500 N/mm² não deve ser usado; aço acalmado e não envelhecível",
+      "max": 500,
+      "unidade": "N/mm²",
+      "norma": "DNV-ST-E271",
+      "item": "3.1.1",
+      "pagina": 19
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Chapa com tração na espessura (container)",
+      "valor": "EN 10164 qualidade Z25 ou melhor",
+      "norma": "DNV-ST-E271",
+      "item": "3.1.2.1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Certificado de material",
+      "valor": "Estrutura primária: certificado 3.1 (EN 10204) com rastreabilidade; secundária: 2.2",
+      "norma": "DNV-ST-E273",
+      "item": "4.2",
+      "pagina": 50
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Não metálicos",
+      "valor": "Madeira, compensado, plástico reforçado: proibidos na estrutura primária",
+      "norma": "DNV-ST-E273",
+      "item": "3.2.7",
+      "pagina": 32
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Flecha no teste (container)",
+      "valor": "Nenhuma flecha durante o teste > 1/300 do vão do membro",
+      "max": 0.003333,
+      "norma": "DNV-ST-E271",
+      "item": "4.6.3.2",
+      "pagina": 37,
+      "nota": "max = 1/300.",
+      "cota": "esquemas/icamento-unidade-portatil-container-estrutura.svg#flecha"
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Ensaios não destrutivos — critérios de aceitação",
+      "valor": "Visual EN ISO 5817 nível B; MT EN ISO 23278 nível 1; LP EN ISO 23277 nível 1; UT EN ISO 11666 nível 2; RX ISO 10675-1 nível 1",
+      "norma": "DNV-ST-E273",
+      "item": "4.4.4, Tabela 4-2",
+      "pagina": 52,
+      "nota": "Reparo: reinspecionar a solda reparada + 100 mm de cada lado com o mesmo método."
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "END das soldas (container)",
+      "valor": "Primária essencial/não redundante: visual 100 %, MT 100 % (obrigatórios); UT 100 % nos olhais e 20 % demais, RX 10 % — colunas III/IV a critério do surveyor. Primária não essencial: 100/20/20/10 %. Secundária: visual 100 %, spot",
+      "norma": "DNV-ST-E271",
+      "item": "5.2.3, Tabela 5-1",
+      "pagina": 41,
+      "nota": "MT 100 % não se aplica às soldas garfo × chapa de piso (nota 3). END após o teste de produção."
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Teste de içamento por todos os pontos — MGW ≤ 25 t",
+      "valor": "Carga total de teste = menor entre F e 2,5 × MGW × g",
+      "max": 2.5,
+      "norma": "DNV-ST-E273",
+      "item": "5.2.3, Tabela 5-2",
+      "pagina": 56,
+      "calc": [
+        "e273:teste"
+      ]
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Teste de içamento — 25 t < MGW ≤ 50 t",
+      "valor": "[1 − 0,01 × (MGW − 25)] × F (MGW numérico em t)",
+      "norma": "DNV-ST-E273",
+      "item": "5.2.3, Tabela 5-2",
+      "pagina": 56,
+      "calc": [
+        "e273:teste"
+      ]
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Teste de içamento — 50 t < MGW ≤ 100 t",
+      "valor": "0,75 × F (acima de 100 t: acordar com a DNV); MGW substituído por F_Dyn quando aplicável",
+      "min": 0.75,
+      "norma": "DNV-ST-E273",
+      "item": "5.2.3, Tabela 5-2",
+      "pagina": 56,
+      "calc": [
+        "e273:teste"
+      ]
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Teste em 2 pontos (diagonal)",
+      "valor": "Carga de teste = menor entre 0,6 × F e 1,5 × MGW × g; sem deformação permanente; assimétrico: as duas diagonais",
+      "norma": "DNV-ST-E273",
+      "item": "5.2.4",
+      "pagina": 56,
+      "calc": [
+        "e273:teste_2p"
+      ]
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Execução do teste",
+      "valor": "Lingada no ângulo de projeto; içar lentamente sem aceleração; manter 5 min antes das medições",
+      "min": 5,
+      "unidade": "min",
+      "norma": "DNV-ST-E273",
+      "item": "5.2.1",
+      "pagina": 55
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Aceitação do teste",
+      "valor": "Visual em todas as soldas da estrutura primária + END em ≥ 20 % das mais solicitadas; sem defeitos e sem deformação permanente",
+      "min": 20,
+      "unidade": "%",
+      "norma": "DNV-ST-E273",
+      "item": "5.2.2",
+      "pagina": 55
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Ensaio de queda / descida (POU R60/R45)",
+      "valor": "Inclinação ≥ 5° (desnível dos cantos não precisa > 400 mm); queda livre ≥ 5 cm (≥ 1 m/s) ou descida a ≥ 1,5 m/s; com carga = P",
+      "norma": "DNV-ST-E273",
+      "item": "5.3.2–5.3.4",
+      "pagina": 57,
+      "cota": "esquemas/icamento-unidade-portatil-queda-estabilidade.svg#inclinacao"
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Teste de produção (série)",
+      "valor": "1–5 un.: 1; 6–10: 2; 11–20: 3; 21–40: 4; > 40: 10 % (inclui o protótipo)",
+      "norma": "DNV-ST-E273",
+      "item": "5.4.1, Tabela 5-3",
+      "pagina": 57
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Teste de içamento — container (todos os pontos)",
+      "valor": "Massa bruta total de 2,5 × R (massa interna (2,5 × R) − T); manter 5 min; flecha ≤ 1/300 do vão",
+      "min": 2.5,
+      "norma": "DNV-ST-E271",
+      "item": "4.6.3.1; 4.6.3.2",
+      "pagina": 37,
+      "calc": [
+        "e271:teste"
+      ]
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Teste em 2 pontos — container",
+      "valor": "Dois olhais diagonais com massa total de 1,5 × R; assimétrico: duas diagonais",
+      "min": 1.5,
+      "norma": "DNV-ST-E271",
+      "item": "4.6.3.3",
+      "pagina": 37,
+      "calc": [
+        "e271:teste_2p"
+      ]
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Calibração do teste (container)",
+      "valor": "Célula de carga calibrada anualmente (EN ISO 7500-1) com exatidão ± 2 %; blocos calibrados a cada 2 anos",
+      "norma": "DNV-ST-E271",
+      "item": "4.6.2.2",
+      "pagina": 37
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Inspeção periódica (POU)",
+      "valor": "≤ 12 meses: visual (sufixo V); ≤ 48 meses: END dos pontos de içamento + visual (VN); após reparo/alteração substancial: teste de carga + END + visual (T)",
+      "norma": "DNV-ST-E273",
+      "item": "8.2.1, Tabela 8-1",
+      "pagina": 69,
+      "nota": "Quando há teste de carga, END e visual são feitos depois do teste."
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Marcação de segurança",
+      "valor": "Em no mínimo 2 locais, caracteres contrastantes ≥ 50 mm: classe 2.7-3, MGW (e tara/payload ou F_Dyn), 'Operational restrictions' se houver procedimento, 'Empty Lift Only' em garfos só vazio",
+      "min": 50,
+      "unidade": "mm",
+      "norma": "DNV-ST-E273",
+      "item": "6.2",
+      "pagina": 59,
+      "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#caracteres"
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Ângulo da perna com a vertical (POU)",
+      "valor": "Normalmente entre 30° e 45° para lingadas de 2, 3 e 4 pernas (outros ângulos caso a caso)",
+      "min": 30,
+      "max": 45,
+      "unidade": "°",
+      "norma": "DNV-ST-E273",
+      "item": "7.3.1",
+      "pagina": 64,
+      "calc": [
+        "e273:angulo"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#nu"
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Ângulo da perna com a vertical (container)",
+      "valor": "Normalmente 45° (menores permitidos); NUNCA maior que 45°. Lingada de 4 pernas dimensionada como de 3 pernas",
+      "max": 45,
+      "unidade": "°",
+      "norma": "DNV-ST-E271",
+      "item": "8.3",
+      "pagina": 51,
+      "calc": [
+        "e271:angulo"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#nu"
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Ângulo de trabalho (NORSOK)",
+      "valor": "Entre 15° e 45° da vertical; abaixo de 15° considerar toda a carga em uma perna (salvo tolerâncias de comprimento e CG controladas)",
+      "min": 15,
+      "max": 45,
+      "unidade": "°",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.2.1",
+      "pagina": 176,
+      "calc": [
+        "norsok:angulo"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#nu"
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "MBL mínimo da perna de lingada (POU)",
+      "valor": "MBL ≥ 2,0 × RSF (MBL já reduzido por terminal e curvatura; forerunner: RSF de olhal único)",
+      "min": 2.0,
+      "norma": "DNV-ST-E273",
+      "item": "7.3.2",
+      "pagina": 64,
+      "calc": [
+        "e273:MBL"
+      ]
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "WLL mínimo da manilha (POU)",
+      "valor": "WLL ≥ 2,25 / SF × RSF / g  [t], SF = MBL/WLL da manilha limitado a 6; WLL ≥ carga estática da unidade",
+      "norma": "DNV-ST-E273",
+      "item": "7.3.3",
+      "pagina": 65,
+      "calc": [
+        "e273:WLL_manilha"
+      ]
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Manilha com carga fora do plano (POU)",
+      "valor": "Sem dado do fabricante e ângulo fora do plano > 2°: WLL ≥ (2,15 + 0,05 × ang) / SF × RSF / g",
+      "norma": "DNV-ST-E273",
+      "item": "7.3.3 GN",
+      "pagina": 65,
+      "calc": [
+        "e273:WLL_manilha_fp"
+      ],
+      "cota": "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg#fora-plano"
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Elo mestre (POU)",
+      "valor": "Resistência compatível com MBL e geometria da lingada, ou WLL pela fórmula da manilha usando RSF de olhal único (1,2 × F); WLL ≥ carga estática",
+      "norma": "DNV-ST-E273",
+      "item": "7.3.5",
+      "pagina": 66,
+      "calc": [
+        "e273:WLL_elo"
+      ]
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Elo mestre — dimensão interna recomendada",
+      "valor": "Mínimo 270 × 140 mm",
+      "min": 270,
+      "unidade": "mm",
+      "norma": "DNV-ST-E273",
+      "item": "7.3.1 GN1",
+      "pagina": 64,
+      "cota": "esquemas/icamento-unidade-portatil-lingada-4-pernas-forerunner.svg#elo-comprimento"
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Alcance da lingada",
+      "valor": "Elo superior/mestre deve alcançar até ≤ 1,3 m acima do fundo da unidade com a lingada sobre o lado longo",
+      "max": 1300,
+      "unidade": "mm",
+      "norma": "DNV-ST-E273",
+      "item": "7.3.1",
+      "pagina": 64,
+      "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#alcance"
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Fixação da manilha",
+      "valor": "Lingadas presas por manilhas nos olhais; pino da manilha travado contra abertura",
+      "norma": "DNV-ST-E273",
+      "item": "7.1",
+      "pagina": 63
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Lingada E271 em POU",
+      "valor": "Pode-se usar lingada certificada pela E271 para MGW igual ou maior, mas normalmente não se as manilhas tiverem carga fora do plano",
+      "norma": "DNV-ST-E273",
+      "item": "7.1",
+      "pagina": 63
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Balancim (spreader bar)",
+      "valor": "Não adequado para içamento offshore sem precauções especiais; normalmente limitado à classe R30; incluído no teste de carga",
+      "norma": "DNV-ST-E273",
+      "item": "7.3.4",
+      "pagina": 65
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Charpy dos componentes da lingada",
+      "valor": "Correntes, elos, manilhas: Charpy-V a TD, média ≥ 42 J (solda: 27 J na linha de fusão); certificado 3.1",
+      "min": 42,
+      "unidade": "J",
+      "norma": "DNV-ST-E273",
+      "item": "7.4",
+      "pagina": 66
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "WLLmin da lingada (container)",
+      "valor": "Pela Tabela 8-1 (rating × fator de majoração); até 2 000 kg: 7,00 t; interpolar ratings intermediários",
+      "norma": "DNV-ST-E271",
+      "item": "8.3.1, Tabela 8-1",
+      "pagina": 52,
+      "calc": [
+        "e271:WLLmin"
+      ]
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "WLL de manilha / componente de perna (container)",
+      "valor": "4 pernas: WLLmin/(3 × cos β); 2 pernas: WLLmin/(2 × cos β); 1 perna, forerunner e elo mestre: WLLmin",
+      "norma": "DNV-ST-E271",
+      "item": "8.3.1.2, Tabela 8-3; 8.3.1.1, Tabela 8-2",
+      "pagina": 54,
+      "calc": [
+        "e271:WLL_perna"
+      ],
+      "nota": "Lingada padrão (Tabela 8-2): β = 45°. Elo mestre/forerunner = WLLmin.",
+      "cota": "esquemas/icamento-unidade-portatil-lingada-4-pernas-forerunner.svg#beta"
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Manilhas (container)",
+      "valor": "EN 13889 ou EN 1677-1; carga de ruptura ≥ 5 × WLL; tolerância do Ø do pino −1/+3 %; tipo parafuso com porca sextavada e contrapino — manilha de pino roscado proibida",
+      "min": 5,
+      "norma": "DNV-ST-E271",
+      "item": "8.3.2.3",
+      "pagina": 55
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Cabos e correntes (container)",
+      "valor": "Corrente EN 818-4 grau 8; cabo de aço EN 13414-1, grau 1770 ou 1960, 6×19 ou 6×36, olhais com sapatilha e luva prensada (EN 13411-3)",
+      "norma": "DNV-ST-E271",
+      "item": "8.3.2.1; 8.3.2.2",
+      "pagina": 55
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "MBL da manilha (NORSOK)",
+      "valor": "MBL ≥ P_LP × γRm × DF / cos α_B; γRm = 1,8; WLL ≥ MBL/SF do fabricante e ≥ força estática na perna",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.3.2 (F.8)",
+      "pagina": 185,
+      "calc": [
+        "norsok:MBL_manilha"
+      ]
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "MBL da perna (NORSOK)",
+      "valor": "MBL ≥ P_LP × γRm × DF / (cos α_B × γe); γRm cabo 2,0, corrente 1,8, fibra 2,8; γe luva prensada 0,9, trançado 0,8, corrente 1,0",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.3.3 (F.9); F.7.2.3.6–7",
+      "pagina": 186,
+      "calc": [
+        "norsok:MBL_perna"
+      ],
+      "nota": "γe e γRm: F.7.2.3.6–7."
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "MBL do elo mestre (NORSOK)",
+      "valor": "MBL ≥ WLL × DAF × DF × γRm",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.3.4 (F.10)",
+      "pagina": 186
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Diâmetro mínimo (NORSOK, objetos F5)",
+      "valor": "Cabo de aço ≥ 13 mm; corrente ≥ 8 mm",
+      "min": 13,
+      "unidade": "mm",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.2.1",
+      "pagina": 176,
+      "cota": "esquemas/icamento-unidade-portatil-lingada-4-pernas-forerunner.svg#d-perna"
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Manilhas offboard (NORSOK)",
+      "valor": "Grau 8 (EN 1677-1) ou Grade B (RR-C-271); arco e pino com Charpy ≥ 42 J a −20 °C; tipo parafuso com porca e contrapino",
+      "min": 42,
+      "unidade": "J",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.2.4.4",
+      "pagina": 182
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Arranjo de içamento (NORSOK)",
+      "valor": "Usar 2 ou 3 pontos se possível (> 4 evitar); elo superior a ≤ 1,3 m acima do convés; > 25 t: dois elos superiores",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.2.1",
+      "pagina": 175,
+      "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#alcance"
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Estrutura primária essencial (A) — POU",
+      "valor": "Olhais (lift points) e todas as juntas complexas que participam da resistência global (cálculo) da POU no transporte marítimo e no içamento (e empilhadeira, se aplicável)",
+      "norma": "DNV-ST-E273",
+      "item": "1.4.6 A",
+      "pagina": 18,
+      "nota": "GN: junta complexa = geometria e tipo de solda que geram alta restrição e estado triaxial de tensões. A categoria (essencial / não essencial / secundária) define a extensão de END (Tabela 4-1, 4.4.1) e o tipo de solda (penetração total em membros essenciais e não redundantes)."
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Estrutura primária não essencial (B) — POU",
+      "valor": "Demais partes que contribuem para a resistência global não incluídas em A; pontos de peação (lashing); bolsas de garfo; vigas/painéis de piso que distribuem carga; suportes de tanques; suportes de equipamentos principais",
+      "norma": "DNV-ST-E273",
+      "item": "1.4.6 B",
+      "pagina": 18,
+      "nota": "GN: suportes de equipamento com massa ≤ 1000 kg podem normalmente ser tratados como estrutura secundária — exceto equipamentos especiais (críticos ou de geometria incomum), que continuam primários mesmo abaixo de 1000 kg."
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Estrutura secundária — POU",
+      "valor": "Partes que não são essencialmente portantes: portas, painéis de parede e teto, suportes de equipamentos secundários, enrijecedores e corrugações não estruturais, componentes só de proteção e/ou guia",
+      "norma": "DNV-ST-E273",
+      "item": "1.4.7",
+      "pagina": 19
+    },
+    {
+      "grupo": "Classificação e definições",
+      "parametro": "Lingada (lifting set) — definição (POU)",
+      "valor": "Itens de equipamento de içamento integrados que ligam a POU ao equipamento de içamento: manilhas, ganchos, destorcedores, soquetes, correntes, elos, anéis e cabos de aço",
+      "norma": "DNV-ST-E273",
+      "item": "1.4.10",
+      "pagina": 19,
+      "nota": "Detalhes de lingadas e acessórios: ver ficha \"lingadas-acessorios\"."
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Container só para clima temperado — área (App. J)",
+      "valor": "Somente containers usados EXCLUSIVAMENTE entre 36° Norte e 36° Sul e em águas australianas; certificado vale só nessa área",
+      "norma": "DNV-ST-E271",
+      "item": "App. J, J.1–J.2",
+      "pagina": 104,
+      "nota": "Alternativa à regra geral de TD ≤ −20 °C (4.1.5). A marcação exigida deve permanecer enquanto o container for usado como offshore (o J.1 remete a \"[N.4]\" — remissão errada na norma; a marcação está em J.4)."
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Temperatura de projeto TD — clima temperado (App. J)",
+      "valor": "TD da estrutura ≤ menor temperatura média diária (estatística) da área de operação e não maior que 0 °C; lingada: TD ≤ −20 °C (inalterada)",
+      "max": 0,
+      "unidade": "°C",
+      "norma": "DNV-ST-E271",
+      "item": "App. J, J.3",
+      "pagina": 104,
+      "nota": "GN: áreas dentro da faixa com média diária mínima abaixo de 0 °C no inverno devem cumprir 4.1.5 (TD ≤ −20 °C)."
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Bolsas de empilhadeira (POU) — abertura mínima",
+      "valor": "200 mm × 90 mm",
+      "norma": "DNV-ST-E273",
+      "item": "3.9.3 A)",
+      "pagina": 45,
+      "nota": "Bolsas com topo e laterais fechados (D); atravessando a base ou presas a ela — se presas sob as longarinas, usar chapas defletoras (C).",
+      "cota": "esquemas/icamento-unidade-portatil-bolsas-empilhadeira.svg#abertura-largura"
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Bolsas de empilhadeira (POU) — distância entre centros",
+      "valor": "L < 6 m: 25 % de L, mín. 900 mm (carregado) ou 900 mm (vazio); 6 ≤ L ≤ 12 m: 25 % de L, máx. 2 050 mm (carregado) ou 15 % de L (vazio); 12 < L ≤ 18 m: 2 050 mm (só vazio); L > 18 m: sem bolsas",
+      "norma": "DNV-ST-E273",
+      "item": "3.9.3; Tabela 3-6",
+      "pagina": 45,
+      "nota": "Recomendação (guidance note 1). Aberturas no fundo da bolsa não são permitidas sobre as longarinas laterais nem a menos de 200 mm delas (F).",
+      "cota": "esquemas/icamento-unidade-portatil-bolsas-empilhadeira.svg#distancia-centros"
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Bolsas de empilhadeira (container) — abertura e distância",
+      "valor": "Abertura mín. 200 mm × 90 mm; distância entre centros ≥ 900 mm (quando possível), não precisando passar de 2 050 mm",
+      "norma": "DNV-ST-E271",
+      "item": "4.4.6",
+      "pagina": 31,
+      "cota": "esquemas/icamento-unidade-portatil-bolsas-empilhadeira.svg#distancia-centros"
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Proteção superior — quando exigida",
+      "valor": "Containers de estrutura aberta (sem paredes e teto) e containers abertos com equipamentos/acessórios internos fixos (risco de o gancho ou a lingada enganchar)",
+      "norma": "DNV-ST-E271",
+      "item": "4.1.4",
+      "pagina": 25
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Proteção superior — aberturas",
+      "valor": "Grade ou proteção rígida: abertura ≤ 1 500 mm²; redes e cintas: ≤ 50 × 50 mm",
+      "norma": "DNV-ST-E271",
+      "item": "4.1.4",
+      "pagina": 25,
+      "cota": "esquemas/icamento-unidade-portatil-container-estrutura.svg#abertura-protecao"
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Proteção superior — carga de projeto",
+      "valor": "Rígida: 3 kN distribuídos em 600 × 300 mm em qualquer posição, com superfície antiderrapante; flexível: carga central 0,03·R·g, entre 1 kN e 3 kN",
+      "norma": "DNV-ST-E271",
+      "item": "4.1.4",
+      "pagina": 25,
+      "nota": "Posicionar o mais alto possível (normalmente não abaixo da mesa inferior das vigas do topo); em cestas longas, cobrir no mínimo entre os olhais e 1 m além deles; flexível → marcar \"Not for personnel access\".",
+      "cota": "esquemas/icamento-unidade-portatil-container-estrutura.svg#area-carga"
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Convés intermediário de carga",
+      "valor": "FT = 0,5 × P × ψ × g, com ψ = 3,0 (carga uniformemente distribuída)",
+      "norma": "DNV-ST-E271",
+      "item": "4.4.2",
+      "pagina": 30,
+      "nota": "Fórmula lida da imagem. Pode ser ajustada se o convés for só para cargas dedicadas com outra distribuição."
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Empilhamento",
+      "valor": "No máximo 2 níveis (em terra ou na instalação offshore); guias de empilhamento impedem deslocamento lateral e tombamento — considerar inclinação estática de 15° e vento",
+      "norma": "DNV-ST-E271",
+      "item": "4.4.3",
+      "pagina": 31
+    },
+    {
+      "grupo": "Estrutura e materiais",
+      "parametro": "Cantos ISO",
+      "valor": "Podem existir para reforço/amarração, mas NÃO içar offshore com manilhas nos cantos ISO",
+      "norma": "DNV-ST-E271",
+      "item": "4.4.4",
+      "pagina": 31
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Marcação \"ONLY TO BE USED IN TEMPERATE CLIMATES\" (App. J)",
+      "valor": "Texto em destaque e indelével, cor contrastante, caracteres ≥ 75 mm, no mesmo lado do container que a placa de informação",
+      "min": 75,
+      "unidade": "mm",
+      "norma": "DNV-ST-E271",
+      "item": "App. J, J.4",
+      "pagina": 104,
+      "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#caracteres"
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Placa de dados — clima temperado (App. J)",
+      "valor": "Além de 7.2: cabeçalho \"OFFSHORE CONTAINER DATA PLATE / DNV GL 2.7-1 – TEMPERATE CLIMATES\" e \"Design Temperature: 0°C\"; caracteres ≥ 4 mm; a placa não pode ser removida",
+      "min": 4,
+      "unidade": "mm",
+      "norma": "DNV-ST-E271",
+      "item": "App. J, J.5",
+      "pagina": 104
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Marcação de segurança — perímetro do teto (container)",
+      "valor": "Fechado: faixa de cor contrastante sólida ≥ 100 mm de largura em todo o perímetro do teto (se o teto é rebaixado, ao menos a face superior do trilho superior); aberto/framed: trilhos superiores hachurados em cor contrastante ou em cor clara sólida",
+      "min": 100,
+      "unidade": "mm",
+      "norma": "DNV-ST-E271",
+      "item": "6.1 a)–b)",
+      "pagina": 45,
+      "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#faixa-teto"
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "\"Empty Lift Only\" — bolsas de garfo só para vazio (container)",
+      "valor": "Escrito junto a cada par de bolsas de garfo, caracteres ≥ 50 mm",
+      "min": 50,
+      "unidade": "mm",
+      "norma": "DNV-ST-E271",
+      "item": "6.1",
+      "pagina": 45,
+      "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#caracteres"
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "\"ALUMINIUM CONTAINER\" (container de alumínio)",
+      "valor": "Nos quatro lados, letras ≥ 75 mm; outras marcações de segurança exigidas pela DNV GL: caracteres ≥ 50 mm",
+      "min": 75,
+      "unidade": "mm",
+      "norma": "DNV-ST-E271",
+      "item": "6.1",
+      "pagina": 45,
+      "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#caracteres"
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Nº de série do fabricante (container)",
+      "valor": "Soldado na estrutura, caracteres ≥ 50 mm",
+      "min": 50,
+      "unidade": "mm",
+      "norma": "DNV-ST-E271",
+      "item": "6.2",
+      "pagina": 45,
+      "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#caracteres"
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Nº do container (proprietário)",
+      "valor": "Identificação única; em todos os lados, cor contrastante, caracteres ≥ 75 mm; no teto (se houver) ≥ 300 mm (ou menor se faltar espaço), sublinhado para evitar leitura errada",
+      "min": 75,
+      "unidade": "mm",
+      "norma": "DNV-ST-E271",
+      "item": "6.2",
+      "pagina": 45,
+      "nota": "Troca de número (ou de proprietário): mudar a marcação, trocar a placa de inspeção e revisar o certificado. Massas (MGW, tara, payload em kg): caracteres ≥ 50 mm (6.3).",
+      "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#caracteres"
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Ensaio de impacto vertical (container)",
+      "valor": "Com massa interna = P; container inclinado de modo que as vigas inferiores ligadas ao canto mais baixo formem ≥ 5° com o piso (desnível máx. necessário 400 mm); piso de concreto/rígido (pode ter pranchas ≤ 50 mm); canto de menor rigidez. Alt. 1 — queda livre ≥ 5 cm (velocidade ≥ 1 m/s) com gancho de liberação rápida; Alt. 2 — descida a velocidade constante ≥ 1,5 m/s. Aceitação: sem dano permanente significativo (pequenas trincas em solda e deformações menores podem ser reparadas)",
+      "norma": "DNV-ST-E271",
+      "item": "4.6.4; 4.6.4.1; 4.6.4.2",
+      "pagina": 38,
+      "nota": "Só um dos dois ensaios é exigido. GN: na descida por guindaste o cabo/gancho amortecem o impacto, por isso a velocidade deve ser maior.",
+      "cota": "esquemas/icamento-unidade-portatil-queda-estabilidade.svg#queda"
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Placas de informação e de inspeção — geral (POU)",
+      "valor": "Placa de informação obrigatória; placa de inspeção obrigatória se a POU fizer vários transportes por mais de 1 ano (podem ser combinadas). Material resistente à corrosão, fixação contra remoção acidental/não autorizada, externa numa porta ou em local de destaque, legível por pessoa ao lado da POU. Placas e rebites de alumínio são proibidos. Texto em inglês (2ª língua opcional), marcação permanente com caracteres ≥ 4 mm",
+      "min": 4,
+      "unidade": "mm",
+      "norma": "DNV-ST-E273",
+      "item": "6.4.1",
+      "pagina": 59,
+      "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#caracteres-placa"
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Placa de informação — conteúdo (POU)",
+      "valor": "Cabeçalho \"PORTABLE OFFSHORE UNIT – DNV 2.7-3\"; A) tipo de POU e classe operacional; B) fabricante; C) mês/ano de fabricação; D) nº de série; E) nº de identificação do proprietário; F) MGW (t/kg) ou F_Dyn; G) tara; H) payload (e payload de deck intermediário) ou carga dinâmica máxima; I) ângulo(s) de lingada de projeto e outras premissas da lingada; J) temperatura de projeto; K) restrições operacionais/procedimento; L) nº do certificado DNV; M) carimbo do vistoriador DNV",
+      "norma": "DNV-ST-E273",
+      "item": "6.4.2, Figura 6-1",
+      "pagina": 60,
+      "nota": "Formato recomendado na Figura 6-1 (MGW \"kg at __° sling angle to vertical\")."
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Placa de inspeção — conteúdo (POU)",
+      "valor": "Cabeçalho \"INSPECTION DATA - PORTABLE OFFSHORE UNIT – DNV 2.7-3\"; 1) nº do certificado DNV; 2) nº de identificação do proprietário; 3) nome do proprietário; 4) telefone(s) internacional(is) do proprietário; 5) data da última inspeção. NÃO informar a data da próxima inspeção; espaço para registrar no mínimo 9 inspeções",
+      "min": 9,
+      "norma": "DNV-ST-E273",
+      "item": "6.4.3, Figura 6-2",
+      "pagina": 61,
+      "nota": "GN1: a placa é a evidência primária do status de certificação — POU com menos de 30 dias de validade do certificado não deve ser embarcada sem acordo prévio. Balancim certificado como parte integrante da lingada da POU também recebe placa de inspeção. Opcional (6.5): quadrado preto fosco ≥ 400 × 400 mm para destino/risco da carga."
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Placas de dados e de inspeção — geral (container)",
+      "valor": "Ambas obrigatórias (podem ser combinadas); material resistente à corrosão, fixação externa contra remoção, numa porta de extremidade ou local de destaque; rebites de alumínio proibidos; inglês; caracteres ≥ 4 mm. Placa de dados não pode ser removida (se ilegível, trocar por idêntica); placa de inspeção pode ser trocada quando acabar o espaço",
+      "min": 4,
+      "unidade": "mm",
+      "norma": "DNV-ST-E271",
+      "item": "7.1",
+      "pagina": 47,
+      "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#caracteres-placa"
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Placa de dados — conteúdo (container)",
+      "valor": "Cabeçalho \"OFFSHORE CONTAINER DATA PLATE / DNV GL 2.7-1\" (pode combinar com EN 12079-1); a) fabricante; b) mês/ano de fabricação; c) nº de série; d) MGW (kg) no ângulo de lingada de projeto; e) tara (kg); f) payload (kg) e de deck intermediário; g) nº do certificado e punção DNV GL (5.6); h) temperatura de projeto",
+      "norma": "DNV-ST-E271",
+      "item": "7.2, Figura 7-1",
+      "pagina": 47,
+      "nota": "Formato recomendado na Figura 7-1."
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Placa de inspeção — conteúdo (container)",
+      "valor": "Cabeçalho \"OFFSHORE CONTAINER INSPECTION PLATE / DNV GL 2.7-1\" (pode combinar com EN 12079-3); a) nº do container do proprietário; b) nome do proprietário; c) data da última inspeção. Sem data da próxima inspeção; espaço para no mínimo 9 inspeções",
+      "min": 9,
+      "norma": "DNV-ST-E271",
+      "item": "7.3",
+      "pagina": 48
+    },
+    {
+      "grupo": "Teste de carga, inspeção e marcação",
+      "parametro": "Ensaio de içamento pelas bolsas de empilhadeira (open top ≥ 6,5 m)",
+      "valor": "Carga uniforme total 1,6·(R + S)·g, içado do chão pelas bolsas; flecha ≤ 1/300 do vão; sem deformação permanente ou dano",
+      "norma": "DNV-ST-E271",
+      "item": "4.6.5",
+      "pagina": 38
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhal tipo 0 (conexão direta, sem manilha) — furo (NORSOK)",
+      "valor": "Borda do furo de fixação (d) esmerilhada lisa com raio de 3 mm nas arestas, para reduzir a tensão de contato; ângulo de carga −90° ≤ α ≤ 90°",
+      "min": 3,
+      "max": 3,
+      "unidade": "mm",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.4, Figura J.5; Tabela J.1",
+      "pagina": 229,
+      "nota": "Ângulo de carga lido da Figura J.5 (imagem). Dimensões padrão na tabela \"NORSOK J.1\".",
+      "cota": "esquemas/icamento-unidade-portatil-olhal-tipo0-norsok.svg#raio-borda"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhal tipo 1 (chapa simples) — proporções (NORSOK)",
+      "valor": "dh,min = 1,03·d + 2 (d = Ø do pino da manilha); 1,3·dh < R < 1,8·dh; 0,75·ws ≤ tp ≤ 0,9·(ws − 3) (ws = largura interna da manilha no pino); 2,2·dh ≤ h ≤ 2,4·dh; 2,4·h ≤ L ≤ 2,7·h; furo máx. = dh,min + 5 %; −90° ≤ α ≤ 90°",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.4, Figura J.6",
+      "pagina": 229,
+      "nota": "Valores lidos da Figura J.6 (imagem). Dimensões padrão na tabela \"NORSOK J.2\".",
+      "cota": "esquemas/icamento-unidade-portatil-olhal-tipo1-norsok.svg#dh"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhal tipo 2 (chapas de reforço/cheek plates) — proporções (NORSOK)",
+      "valor": "dh,min = 1,03·d + 2; 1,0·dh < Rb < 1,5·dh; R = Rb + tc; 0,4·ws < tp < 0,6·ws; 0,75·ws ≤ tp + 2·tc ≤ 0,9·(ws − 3); 2,2·dh ≤ h ≤ 2,4·dh; 2,4·h ≤ L ≤ 2,7·h; furo máx. = dh,min + 5 %; −90° ≤ α ≤ 90°",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.4, Figura J.7",
+      "pagina": 230,
+      "nota": "Valores lidos da Figura J.7 (imagem); a = garganta da solda das cheek plates. Dimensões padrão na tabela \"NORSOK J.3\".",
+      "cota": "esquemas/icamento-unidade-portatil-olhal-tipo2-norsok.svg#Rb"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Olhal tipo 3 (boss soldado parcialmente) — proporções (NORSOK)",
+      "valor": "dh,min = 1,03·d + 2; 1,3·dh < Rb < 1,5·dh; 0,4·ws < tp < 0,6·ws; 0,75·ws < tb < 0,9·(ws − 3) (tb = espessura do boss); 2,2·dh ≤ h ≤ 2,4·dh; 2,4·h ≤ L ≤ 2,7·h; furo máx. = dh,min + 5 %; −90° ≤ α ≤ 90°",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.4, Figura J.8",
+      "pagina": 231,
+      "nota": "Valores lidos da Figura J.8 (imagem). Dimensões padrão na tabela \"NORSOK J.4\".",
+      "cota": "esquemas/icamento-unidade-portatil-olhal-tipo3-norsok.svg#Rb"
+    },
+    {
+      "grupo": "Olhais (padeyes)",
+      "parametro": "Tabelas J.1–J.4 — uso (NORSOK)",
+      "valor": "As dimensões padrão servem para compatibilizar o olhal com as dimensões das manilhas padrão; o cálculo de prova de resistência (proof of competence) é obrigatório adicionalmente",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.4, notas das Tabelas J.1–J.4",
+      "pagina": 230,
+      "cota": "esquemas/icamento-unidade-portatil-olhal-tipo1-norsok.svg#h"
+    },
+    {
+      "grupo": "Tensões admissíveis / critérios",
+      "parametro": "Solda das chapas de reforço — olhal tipo 2 (NORSOK)",
+      "valor": "f_d = f_y / (√3·γRm) ≥ τEd; L_eff = (2/3)·2·π·Rb (2/3 da circunferência); P_cp = Pp·tc / (tp + 2·tc) por chapa; τEd = P_cp / (L_eff·a) = Pp·tc / (tp + 2·tc) × 3 / (4·π·Rb·a); a = garganta nominal do filete",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.5.5 (J.8)–(J.11), Figura J.11",
+      "pagina": 234,
+      "nota": "Distribuição de força proporcional às espessuras de chapa e cheek plates. √3 de (J.8) lido da imagem (o texto extraído perde o radical).",
+      "cota": "esquemas/icamento-unidade-portatil-olhal-solda-reforco.svg#Leff"
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Desenho de arranjo de içamento — conteúdo mínimo (NORSOK)",
+      "valor": "Obrigatório; informar (não limitado a): peso líquido/bruto; GA do arranjo com geometria da carga, CoG e lingada; WLL da lingada completa (SEM DAF = peso máx. do objeto); WLL e MBL de cada componente; ângulos de trabalho (perna × vertical); especificação de lingas e manilhas; especificação de material; requisitos de certificado; limitações operacionais; comprimentos das lingas e tolerâncias de fabricação; normas aplicáveis",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.2.4.1",
+      "pagina": 181
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Forerunner — MBL mínimo (NORSOK)",
+      "valor": "MBL ≥ WLL × DAF × DF × γRm / γe; selecionar do catálogo do fornecedor pelo MBL",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.3.5 (F.11)",
+      "pagina": 186,
+      "nota": "A norma rotula o resultado de (F.11) como \"MBL_ML\" (mesmo símbolo do elo mestre em F.10) — o requisito é do forerunner. γRm e γe em F.7.2.3.7 e F.7.2.3.6."
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Munhão (trunnion) — largura para a lingada",
+      "valor": "≥ 1,3 × D (limitado a 1,25D + 25 mm), D = diâmetro nominal da lingada/grommet; com superfície de contato curva, tipicamente 1,15 × D",
+      "norma": "DNV-OS-H205",
+      "item": "5.1.4.7",
+      "pagina": 35,
+      "nota": "Considera a ovalização da lingada sob carga (guidance note).",
+      "cota": "esquemas/icamento-unidade-portatil-munhao.svg#largura-apoio"
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Charpy dos componentes da lingada (container)",
+      "valor": "Correntes, elos, manilhas e acoplamentos: Charpy-V na temperatura de projeto TD, média ≥ 42 J; componentes soldados (corrente, elos): entalhe na linha de fusão, média ≥ 27 J",
+      "norma": "DNV-ST-E271",
+      "item": "8.4",
+      "pagina": 56,
+      "nota": "Materiais com certificado EN 10204 tipo 3.1 (sapatilhas e virolas: tipo 2.2)."
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Charpy — correntes e elos offboard (NORSOK)",
+      "valor": "Ensaio a ≤ −20 °C ou à temperatura de projeto (a menor): média ≥ 42 J; elos soldados com entalhe na linha de fusão: média ≥ 27 J",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.2.4.5; F.7.2.4.6",
+      "pagina": 182
+    },
+    {
+      "grupo": "Lingada (interface olhal–manilha–lingada)",
+      "parametro": "Seleção alternativa de lingada — RDAF",
+      "valor": "Lingadas EN 13414-1 (cabo) ou EN 818-4 grau 8 (corrente) para objetos do Grupo F5 com fator RDAF = 0,73 + 0,27 × √(50 / peso içado [t]); WLLmin = RDAF × peso",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.6, eq. (F.13); Tabela F.6",
+      "pagina": 187,
+      "nota": "Raiz quadrada confirmada pelos valores da Tabela F.6 (ex. 2 t → 2,08). Até 1,5 t: WLLmin = 4,0 t. Tabela completa na aba Tabelas."
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Reação no ponto mais carregado — içamento em 3 pontos (NORSOK)",
+      "valor": "P_LP ≈ WLL × B′ × W_COG × SKL × DAF / B″ (3 pontos não simétrico, b1 > b2 e a1 > a2; ponto B mais carregado)",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.3.1 (F.5), Figura F.6",
+      "pagina": 184,
+      "nota": "B′ e B″ são cotas definidas na Figura F.6 (imagem). Para 4 pontos não simétrico a norma recomenda análise mais detalhada.",
+      "cota": "esquemas/icamento-unidade-portatil-ponto-mais-carregado.svg#LBC"
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Transporte marítimo — cargas de projeto (sem dados do navio)",
+      "valor": "Horizontal FH = MGW × g em qualquer direção, combinada com FVmax = 1,3 × MGW × g e FVmin = 0,7 × MGW × g; vento horizontal 1,0 kN/m²",
+      "norma": "DNV-ST-E273",
+      "item": "3.7.2",
+      "pagina": 42,
+      "nota": "Fórmulas lidas da imagem. Com dados de movimento do navio, usar as acelerações reais com fatores de projeto conforme 3.4.3."
+    },
+    {
+      "grupo": "Cargas de projeto (içamento)",
+      "parametro": "Pontos de amarração (lashing) — cargas",
+      "valor": "MGW + acelerações de 3.7.2, nº e posição dos pontos, faixa de direções, atrito zero com o convés (0,3 se só convés de madeira) e fator de projeto 1,3",
+      "norma": "DNV-ST-E273",
+      "item": "3.7.3 A)–E)",
+      "pagina": 43,
+      "nota": "Recomenda-se marcar no POU a carga admissível (sem o fator 1,3) e as direções permitidas. Projeto da peação (seafastening) fora do escopo."
+    }
+  ],
+  "tabelas": [
+    {
+      "id": "e273-df",
+      "titulo": "Fator de projeto DF por classe operacional",
+      "norma": "DNV-ST-E273",
+      "item": "3.5.1, Tabela 3-5",
+      "pagina": 38,
+      "unidade": "—",
+      "colunas": [
+        "Classe",
+        "MGW < 50 t",
+        "MGW ≥ 50 t"
+      ],
+      "linhas": [
+        [
+          "R60",
+          "1,4 + 0,8 × √(50/MGW)",
+          2.2
+        ],
+        [
+          "R45",
+          "1,4 + 0,6 × √(50/MGW)",
+          2.0
+        ],
+        [
+          "R30",
+          "1,4 + 0,4 × √(50/MGW)",
+          1.8
+        ],
+        [
+          "R00",
+          "1,4 + 0,1 × √(50/MGW)",
+          1.5
+        ]
+      ],
+      "consulta": false
+    },
+    {
+      "id": "e273-classe-max",
+      "titulo": "Classe operacional máxima recomendada (içamento offshore entre embarcação/plataforma)",
+      "norma": "DNV-ST-E273",
+      "item": "3.3.4, Tabela 3-3",
+      "pagina": 34,
+      "colunas": [
+        "Tipo / risco",
+        "MGW ≤ limite",
+        "MGW > limite",
+        "Limite de MGW (t)"
+      ],
+      "linhas": [
+        [
+          "A / baixo",
+          "R60",
+          "R45",
+          25
+        ],
+        [
+          "A / alto",
+          "R45",
+          "R30",
+          25
+        ],
+        [
+          "B / baixo",
+          "R60",
+          "R45",
+          15
+        ],
+        [
+          "B / alto",
+          "R45",
+          "R30",
+          15
+        ],
+        [
+          "C / alto (a)",
+          "R45",
+          "R30",
+          15
+        ],
+        [
+          "D / alto ou baixo (b)",
+          "R45",
+          "R30",
+          10
+        ],
+        [
+          "E / baixo",
+          "R60",
+          "R45",
+          15
+        ],
+        [
+          "E / alto",
+          "R45",
+          "R30",
+          15
+        ]
+      ],
+      "nota": "a) tipo C normalmente risco 'alto'. b) D pode ser R60 (R45 se MGW > 10 t) com risco baixo documentado. c) Classe menor sempre permitida. Unidades só içadas a bordo/em terra: R00.",
+      "consulta": false
+    },
+    {
+      "id": "e273-esp-min",
+      "titulo": "Espessura mínima de material (POU)",
+      "norma": "DNV-ST-E273",
+      "item": "3.2.2, Tabela 3-1",
+      "pagina": 30,
+      "unidade": "mm",
+      "colunas": [
+        "MGW",
+        "Transporte único — estrutura externa",
+        "Transporte único — outros",
+        "Múltiplos — estrutura externa",
+        "Múltiplos — outros"
+      ],
+      "linhas": [
+        [
+          "0 a 1 t",
+          3,
+          3,
+          4,
+          4
+        ],
+        [
+          "> 1 a 25 t",
+          5,
+          4,
+          6,
+          4
+        ],
+        [
+          "> 25 t",
+          6,
+          5,
+          8,
+          6
+        ]
+      ],
+      "nota": "Estrutura externa (outer framework) = base, montantes etc. sujeitos a impacto e no caminho principal de carga. Secundária metálica: 2 mm.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/icamento-unidade-portatil-container-estrutura.svg"
+      ],
+      "cotas": {
+        "Transporte único — estrutura externa": "esquemas/icamento-unidade-portatil-container-estrutura.svg#t",
+        "Transporte único — outros": "esquemas/icamento-unidade-portatil-container-estrutura.svg#t",
+        "Múltiplos — estrutura externa": "esquemas/icamento-unidade-portatil-container-estrutura.svg#t",
+        "Múltiplos — outros": "esquemas/icamento-unidade-portatil-container-estrutura.svg#t"
+      }
+    },
+    {
+      "id": "e273-charpy-temp",
+      "titulo": "Temperatura do ensaio Charpy — estrutura primária",
+      "norma": "DNV-ST-E273",
+      "item": "3.2.3, Tabela 3-2",
+      "pagina": 31,
+      "unidade": "°C",
+      "colunas": [
+        "Espessura t (mm)",
+        "Temperatura de ensaio"
+      ],
+      "linhas": [
+        [
+          "t ≤ 6",
+          "dispensado"
+        ],
+        [
+          "6 < t ≤ 12",
+          "TD + 10"
+        ],
+        [
+          "12 < t ≤ 25",
+          "TD"
+        ],
+        [
+          "25 < t ≤ 50",
+          "TD − 20"
+        ]
+      ],
+      "nota": "E271 Tabela 3-1: t ≤ 12: TD + 10; 12 < t ≤ 25: TD; t > 25: TD − 20 (t < 6 mm dispensado). t > 50 mm ou Re > 500: DNV-OS-B101.",
+      "consulta": false
+    },
+    {
+      "id": "e273-end",
+      "titulo": "Extensão de END nas soldas estruturais (POU)",
+      "norma": "DNV-ST-E273",
+      "item": "4.4.1, Tabela 4-1",
+      "pagina": 51,
+      "unidade": "%",
+      "colunas": [
+        "Membro / junta",
+        "Visual",
+        "MT (ou LP)",
+        "UT",
+        "RX"
+      ],
+      "linhas": [
+        [
+          "Primária essencial — topo",
+          "100",
+          "100",
+          "—",
+          "100"
+        ],
+        [
+          "Primária essencial — T penetração total",
+          "100",
+          "100",
+          "100",
+          "—"
+        ],
+        [
+          "Primária essencial — T filete/parcial",
+          "100",
+          "100",
+          "—",
+          "—"
+        ],
+        [
+          "Primária outra — topo",
+          "100",
+          "20",
+          "—",
+          "10"
+        ],
+        [
+          "Primária outra — T penetração total",
+          "100",
+          "20",
+          "20",
+          "—"
+        ],
+        [
+          "Primária outra — T filete/parcial",
+          "100",
+          "20",
+          "—",
+          "—"
+        ],
+        [
+          "Secundária — todas",
+          "100",
+          "spot",
+          "spot",
+          "spot"
+        ]
+      ],
+      "nota": "END após o teste de produção. Spot = 2–5 % a critério do inspetor. RX pode ser substituído por UT mediante acordo. Colunas lidas da tabela (extração de texto conferida).",
+      "consulta": false
+    },
+    {
+      "id": "e273-teste",
+      "titulo": "Carga total de teste — içamento por todos os pontos (POU)",
+      "norma": "DNV-ST-E273",
+      "item": "5.2.3, Tabela 5-2",
+      "pagina": 56,
+      "colunas": [
+        "MGW",
+        "Carga de teste"
+      ],
+      "linhas": [
+        [
+          "≤ 25 t",
+          "mín(F; 2,5 × MGW × g)"
+        ],
+        [
+          "25 a 50 t",
+          "[1 − 0,01 × (MGW − 25)] × F"
+        ],
+        [
+          "50 a 100 t",
+          "0,75 × F"
+        ],
+        [
+          "> 100 t",
+          "acordar com a DNV"
+        ]
+      ],
+      "nota": "MGW numérico em t; substituir MGW por F_Dyn quando aplicável. Teste em 2 pontos: mín(0,6 F; 1,5 × MGW × g) (5.2.4).",
+      "consulta": false
+    },
+    {
+      "id": "e273-extensao-testes",
+      "titulo": "Extensão dos testes de protótipo (POU)",
+      "norma": "DNV-ST-E273",
+      "item": "5.1, Tabela 5-1",
+      "pagina": 55,
+      "colunas": [
+        "Classe",
+        "Teste de içamento",
+        "2 pontos",
+        "Queda"
+      ],
+      "linhas": [
+        [
+          "R60 e R45",
+          "Sim",
+          "Sim",
+          "ver 3.6.3"
+        ],
+        [
+          "R30",
+          "Sim",
+          "Não",
+          "Não"
+        ],
+        [
+          "R00",
+          "Sim",
+          "Não",
+          "Não"
+        ],
+        [
+          "R60-SE",
+          "Sim (1)",
+          "Sim (1)",
+          "ver 3.6.3"
+        ],
+        [
+          "R45-SE",
+          "Sim (1)",
+          "Não",
+          "Não"
+        ],
+        [
+          "R30-SE",
+          "Sim (1)",
+          "Não",
+          "Não"
+        ],
+        [
+          "R00-SE",
+          "Sim (1)",
+          "Não",
+          "Não"
+        ]
+      ],
+      "nota": "(1) Pode ser substituído pelo fator adicional 1,3 nas cargas de projeto (5.2.5).",
+      "consulta": false
+    },
+    {
+      "id": "e273-diam-lingada",
+      "titulo": "Diâmetro mínimo da lingada (POU, manuseio offshore)",
+      "norma": "DNV-ST-E273",
+      "item": "7.3.2, Tabela 7-1",
+      "pagina": 64,
+      "unidade": "mm",
+      "colunas": [
+        "Classe",
+        "Cabo — evento único",
+        "Cabo — uso múltiplo",
+        "Corrente — evento único",
+        "Corrente — uso múltiplo"
+      ],
+      "linhas": [
+        [
+          "R60",
+          13,
+          16,
+          8,
+          10
+        ],
+        [
+          "R45",
+          11,
+          13,
+          7,
+          8
+        ],
+        [
+          "R30",
+          9,
+          11,
+          6,
+          7
+        ],
+        [
+          "R00",
+          9,
+          11,
+          6,
+          7
+        ]
+      ],
+      "nota": "Limites de evento único podem valer para ≤ 10 transportes, com reinspeção antes de cada um.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/icamento-unidade-portatil-lingada-4-pernas-forerunner.svg"
+      ],
+      "cotas": {
+        "Cabo — evento único": "esquemas/icamento-unidade-portatil-lingada-4-pernas-forerunner.svg#d-perna",
+        "Cabo — uso múltiplo": "esquemas/icamento-unidade-portatil-lingada-4-pernas-forerunner.svg#d-perna",
+        "Corrente — evento único": "esquemas/icamento-unidade-portatil-lingada-4-pernas-forerunner.svg#d-perna",
+        "Corrente — uso múltiplo": "esquemas/icamento-unidade-portatil-lingada-4-pernas-forerunner.svg#d-perna"
+      }
+    },
+    {
+      "id": "e271-wllmin",
+      "titulo": "WLL mínimo da lingada × rating do container",
+      "norma": "DNV-ST-E271",
+      "item": "8.3.1, Tabela 8-1",
+      "pagina": 52,
+      "unidade": "t",
+      "colunas": [
+        "Rating R (kg)",
+        "Fator de majoração",
+        "WLLmin (t)"
+      ],
+      "linhas": [
+        [
+          500,
+          "—",
+          7.0
+        ],
+        [
+          1000,
+          "—",
+          7.0
+        ],
+        [
+          1500,
+          "—",
+          7.0
+        ],
+        [
+          2000,
+          3.5,
+          7.0
+        ],
+        [
+          2500,
+          2.88,
+          7.2
+        ],
+        [
+          3000,
+          2.6,
+          7.8
+        ],
+        [
+          3500,
+          2.403,
+          8.41
+        ],
+        [
+          4000,
+          2.207,
+          8.83
+        ],
+        [
+          4500,
+          2.067,
+          9.3
+        ],
+        [
+          5000,
+          1.96,
+          9.8
+        ],
+        [
+          5500,
+          1.873,
+          10.3
+        ],
+        [
+          6000,
+          1.766,
+          10.6
+        ],
+        [
+          6500,
+          1.733,
+          11.26
+        ],
+        [
+          7000,
+          1.7,
+          11.9
+        ],
+        [
+          7500,
+          1.666,
+          12.5
+        ],
+        [
+          8000,
+          1.633,
+          13.07
+        ],
+        [
+          8500,
+          1.6,
+          13.6
+        ],
+        [
+          9000,
+          1.567,
+          14.1
+        ],
+        [
+          9500,
+          1.534,
+          14.57
+        ],
+        [
+          10000,
+          1.501,
+          15.01
+        ],
+        [
+          10500,
+          1.479,
+          15.53
+        ],
+        [
+          11000,
+          1.457,
+          16.02
+        ],
+        [
+          11500,
+          1.435,
+          16.5
+        ],
+        [
+          12000,
+          1.413,
+          16.95
+        ],
+        [
+          12500,
+          1.391,
+          17.38
+        ],
+        [
+          13000,
+          1.368,
+          17.79
+        ],
+        [
+          13500,
+          1.346,
+          18.18
+        ],
+        [
+          14000,
+          1.324,
+          18.54
+        ],
+        [
+          14500,
+          1.302,
+          18.88
+        ],
+        [
+          15000,
+          1.28,
+          19.2
+        ],
+        [
+          15500,
+          1.267,
+          19.64
+        ],
+        [
+          16000,
+          1.254,
+          20.06
+        ],
+        [
+          16500,
+          1.24,
+          20.47
+        ],
+        [
+          17000,
+          1.227,
+          20.86
+        ],
+        [
+          17500,
+          1.214,
+          21.24
+        ],
+        [
+          18000,
+          1.201,
+          21.61
+        ],
+        [
+          18500,
+          1.188,
+          21.97
+        ],
+        [
+          19000,
+          1.174,
+          22.31
+        ],
+        [
+          19500,
+          1.161,
+          22.64
+        ],
+        [
+          20000,
+          1.148,
+          22.96
+        ],
+        [
+          20500,
+          1.143,
+          23.44
+        ],
+        [
+          21000,
+          1.139,
+          23.92
+        ],
+        [
+          21500,
+          1.135,
+          24.39
+        ],
+        [
+          22000,
+          1.13,
+          24.86
+        ],
+        [
+          22500,
+          1.126,
+          25.33
+        ],
+        [
+          23000,
+          1.121,
+          25.79
+        ],
+        [
+          23500,
+          1.117,
+          26.25
+        ],
+        [
+          24000,
+          1.112,
+          26.7
+        ],
+        [
+          24500,
+          1.108,
+          27.15
+        ],
+        [
+          25000,
+          1.104,
+          27.59
+        ]
+      ],
+      "nota": "Interpolar ratings intermediários. WLLmin vale para todos os componentes antes da divisão por n × cos β.",
+      "consulta": false
+    },
+    {
+      "id": "e271-manilhas",
+      "titulo": "Manilhas padrão EN 13889 (para dimensionar o olhal)",
+      "norma": "DNV-ST-E271",
+      "item": "App. D.2, Tabela D-1",
+      "pagina": 74,
+      "unidade": "mm",
+      "colunas": [
+        "WLL nominal (t)",
+        "Ø do pino",
+        "Largura interna no pino",
+        "Comprimento interno (dee)",
+        "Comprimento interno (bow)"
+      ],
+      "linhas": [
+        [
+          3.25,
+          19,
+          27,
+          47,
+          57
+        ],
+        [
+          4.75,
+          22,
+          31,
+          52,
+          65
+        ],
+        [
+          6.5,
+          25,
+          36,
+          65,
+          76
+        ],
+        [
+          8.5,
+          28,
+          43,
+          74,
+          88
+        ],
+        [
+          9.5,
+          32,
+          46.5,
+          83,
+          101
+        ],
+        [
+          12,
+          35,
+          51.5,
+          87,
+          108
+        ],
+        [
+          13.5,
+          38,
+          57,
+          104,
+          126
+        ],
+        [
+          17,
+          42,
+          60,
+          115,
+          139
+        ],
+        [
+          25,
+          50,
+          74,
+          139,
+          168
+        ]
+      ],
+      "nota": "Furo máx. pela E271 4.4.1: folga ≤ 6 % do Ø do pino (furo ≤ 1,06 × Ø pino). Tolerância do pino: −1/+3 % (8.3.2.3 — requisito); a nota da tabela cita −0/+3 % atribuindo a 8.3.2.3 (erro interno da norma). Espessura no furo ≥ 75 % da largura interna (4.4.1; E273 3.8.4).",
+      "consulta": false,
+      "figuras": [
+        "esquemas/icamento-unidade-portatil-manilha-en13889.svg"
+      ],
+      "cotas": {
+        "Ø do pino": "esquemas/icamento-unidade-portatil-manilha-en13889.svg#pino",
+        "Largura interna no pino": "esquemas/icamento-unidade-portatil-manilha-en13889.svg#largura-interna",
+        "Comprimento interno (dee)": "esquemas/icamento-unidade-portatil-manilha-en13889.svg#comprimento-dee",
+        "Comprimento interno (bow)": "esquemas/icamento-unidade-portatil-manilha-en13889.svg#comprimento-bow"
+      }
+    },
+    {
+      "id": "h205-daf",
+      "titulo": "Fator de amplificação dinâmica (DNV-OS-H205)",
+      "norma": "DNV-OS-H205",
+      "item": "3.2.2.4, Tabela 3-1",
+      "pagina": 18,
+      "unidade": "—",
+      "colunas": [
+        "SHL (carga estática no gancho)",
+        "Em terra",
+        "Abrigado (inshore)",
+        "Offshore"
+      ],
+      "linhas": [
+        [
+          "3 – 100 t",
+          "1,10",
+          "1,07 + 0,05 × √(100/SHL)",
+          "1 + 0,25 × √(100/SHL)"
+        ],
+        [
+          "100 – 300 t",
+          "1,05",
+          "1,12",
+          "1,25"
+        ],
+        [
+          "300 – 1000 t",
+          "1,05",
+          "1,10",
+          "1,20"
+        ],
+        [
+          "1000 – 2500 t",
+          "1,03",
+          "1,08",
+          "1,15"
+        ],
+        [
+          "> 2500 t",
+          "1,03",
+          "1,05",
+          "1,10"
+        ]
+      ],
+      "nota": "Objetos < 3 t: usar 3 t. Linha 3–100 t lida da imagem da tabela (fórmulas não extraíveis como texto).",
+      "consulta": false
+    },
+    {
+      "id": "norsok-j1-olhal-tipo0",
+      "titulo": "Olhal tipo 0 — conexão direta (sem manilha)",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.4, Tabela J.1",
+      "pagina": 229,
+      "unidade": "mm",
+      "colunas": [
+        "WLL do olhal (t)",
+        "t",
+        "d",
+        "R",
+        "h",
+        "L",
+        "K"
+      ],
+      "linhas": [
+        [
+          "1,0",
+          12,
+          30,
+          27,
+          30,
+          80,
+          15
+        ],
+        [
+          "2,0",
+          15,
+          40,
+          38,
+          40,
+          110,
+          15
+        ]
+      ],
+      "nota": "Furo d com raio de 3 mm nas arestas. Cálculo de prova de resistência obrigatório. Conferido na imagem. Base (J.2.4): fy mínimo 355 N/mm²; geometria de manilhas Dee/Bow conforme EN 13889 e US Fed. Spec. RR-C-271 — com aço de fy menor, as dimensões não valem.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/icamento-unidade-portatil-olhal-tipo0-norsok.svg"
+      ],
+      "cotas": {
+        "t": "esquemas/icamento-unidade-portatil-olhal-tipo0-norsok.svg#t",
+        "d": "esquemas/icamento-unidade-portatil-olhal-tipo0-norsok.svg#d",
+        "R": "esquemas/icamento-unidade-portatil-olhal-tipo0-norsok.svg#R",
+        "h": "esquemas/icamento-unidade-portatil-olhal-tipo0-norsok.svg#h",
+        "L": "esquemas/icamento-unidade-portatil-olhal-tipo0-norsok.svg#L",
+        "K": "esquemas/icamento-unidade-portatil-olhal-tipo0-norsok.svg#K"
+      }
+    },
+    {
+      "id": "norsok-j2-olhal-tipo1",
+      "titulo": "Olhal tipo 1 — chapa simples (por WLL da manilha)",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.4, Tabela J.2",
+      "pagina": 230,
+      "unidade": "mm",
+      "colunas": [
+        "WLL da manilha (t)",
+        "tp",
+        "dh",
+        "R",
+        "h",
+        "L",
+        "k"
+      ],
+      "linhas": [
+        [
+          "1,0",
+          14,
+          14,
+          20,
+          30,
+          80,
+          14
+        ],
+        [
+          "1,5",
+          15,
+          15,
+          20,
+          35,
+          85,
+          15
+        ],
+        [
+          "2,0",
+          18,
+          19,
+          26,
+          45,
+          110,
+          18
+        ],
+        [
+          "3,25",
+          22,
+          22,
+          30,
+          50,
+          125,
+          22
+        ],
+        [
+          "4,75",
+          25,
+          25,
+          35,
+          60,
+          140,
+          25
+        ],
+        [
+          "6,5",
+          30,
+          28,
+          38,
+          65,
+          160,
+          30
+        ],
+        [
+          "8,5",
+          35,
+          32,
+          42,
+          70,
+          180,
+          35
+        ],
+        [
+          "9,5",
+          35,
+          36,
+          47,
+          80,
+          200,
+          3
+        ]
+      ],
+      "nota": "Linha 9,5 t: k = 3 como impresso na norma (provável erro tipográfico; nas demais linhas k = tp, i.e. seria 35). Conferido na imagem. Dimensões para compatibilizar com manilhas padrão; cálculo de resistência obrigatório. Base (J.2.4): fy mínimo 355 N/mm²; geometria de manilhas Dee/Bow conforme EN 13889 e US Fed. Spec. RR-C-271 — com aço de fy menor, as dimensões não valem.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/icamento-unidade-portatil-olhal-tipo1-norsok.svg"
+      ],
+      "cotas": {
+        "tp": "esquemas/icamento-unidade-portatil-olhal-tipo1-norsok.svg#tp",
+        "dh": "esquemas/icamento-unidade-portatil-olhal-tipo1-norsok.svg#dh",
+        "R": "esquemas/icamento-unidade-portatil-olhal-tipo1-norsok.svg#R",
+        "h": "esquemas/icamento-unidade-portatil-olhal-tipo1-norsok.svg#h",
+        "L": "esquemas/icamento-unidade-portatil-olhal-tipo1-norsok.svg#L",
+        "k": "esquemas/icamento-unidade-portatil-olhal-tipo1-norsok.svg#k"
+      }
+    },
+    {
+      "id": "norsok-j3-olhal-tipo2",
+      "titulo": "Olhal tipo 2 — chapas de reforço nos dois lados (por WLL da manilha)",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.4, Tabela J.3",
+      "pagina": 230,
+      "unidade": "mm",
+      "colunas": [
+        "WLL da manilha (t)",
+        "tp",
+        "dh",
+        "R",
+        "h",
+        "L",
+        "k",
+        "Rb",
+        "tc",
+        "a (garganta)"
+      ],
+      "linhas": [
+        [
+          "8,5",
+          20,
+          32,
+          50,
+          70,
+          175,
+          20,
+          42,
+          8,
+          5
+        ],
+        [
+          "9,5",
+          25,
+          36,
+          55,
+          80,
+          200,
+          20,
+          47,
+          8,
+          5
+        ],
+        [
+          "12",
+          25,
+          39,
+          60,
+          88,
+          220,
+          25,
+          52,
+          8,
+          5
+        ],
+        [
+          "13,5",
+          25,
+          43,
+          66,
+          95,
+          236,
+          25,
+          56,
+          10,
+          7
+        ],
+        [
+          "17",
+          30,
+          47,
+          71,
+          103,
+          258,
+          30,
+          61,
+          10,
+          7
+        ],
+        [
+          "25",
+          35,
+          55,
+          84,
+          121,
+          302,
+          35,
+          72,
+          12,
+          7
+        ],
+        [
+          "35",
+          40,
+          62,
+          96,
+          136,
+          341,
+          40,
+          81,
+          15,
+          7
+        ],
+        [
+          "42",
+          50,
+          70,
+          106,
+          154,
+          385,
+          50,
+          91,
+          15,
+          10
+        ],
+        [
+          "55",
+          50,
+          75,
+          118,
+          165,
+          410,
+          50,
+          98,
+          20,
+          10
+        ]
+      ],
+      "nota": "Conferido na imagem. Cálculo de resistência obrigatório (solda das cheek plates: J.2.5.5). Base (J.2.4): fy mínimo 355 N/mm²; geometria de manilhas Dee/Bow conforme EN 13889 e US Fed. Spec. RR-C-271 — com aço de fy menor, as dimensões não valem. t_eff no esmagamento (J.2.5.4): tipo 1 = tp; tipo 2 = tp + 2·tc; tipo 3 = tb.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/icamento-unidade-portatil-olhal-tipo2-norsok.svg",
+        "esquemas/icamento-unidade-portatil-olhal-solda-reforco.svg"
+      ],
+      "cotas": {
+        "tp": "esquemas/icamento-unidade-portatil-olhal-tipo2-norsok.svg#tp",
+        "dh": "esquemas/icamento-unidade-portatil-olhal-tipo2-norsok.svg#dh",
+        "R": "esquemas/icamento-unidade-portatil-olhal-tipo2-norsok.svg#R",
+        "h": "esquemas/icamento-unidade-portatil-olhal-tipo2-norsok.svg#h",
+        "L": "esquemas/icamento-unidade-portatil-olhal-tipo2-norsok.svg#L",
+        "k": "esquemas/icamento-unidade-portatil-olhal-tipo2-norsok.svg#k",
+        "Rb": "esquemas/icamento-unidade-portatil-olhal-tipo2-norsok.svg#Rb",
+        "tc": "esquemas/icamento-unidade-portatil-olhal-tipo2-norsok.svg#tc",
+        "a (garganta)": "esquemas/icamento-unidade-portatil-olhal-tipo2-norsok.svg#a"
+      }
+    },
+    {
+      "id": "norsok-j4-olhal-tipo3",
+      "titulo": "Olhal tipo 3 — boss soldado parcialmente (por WLL da manilha)",
+      "norma": "NORSOK-R-002",
+      "item": "J.2.4, Tabela J.4",
+      "pagina": 231,
+      "unidade": "mm",
+      "colunas": [
+        "WLL da manilha (t)",
+        "tp",
+        "dh",
+        "R",
+        "h",
+        "L",
+        "k",
+        "Rb",
+        "tb"
+      ],
+      "linhas": [
+        [
+          "12",
+          25,
+          39,
+          60,
+          88,
+          220,
+          25,
+          52,
+          41
+        ],
+        [
+          "13,5",
+          25,
+          43,
+          66,
+          95,
+          236,
+          25,
+          56,
+          45
+        ],
+        [
+          "17",
+          30,
+          47,
+          71,
+          103,
+          258,
+          30,
+          61,
+          50
+        ],
+        [
+          "25",
+          35,
+          55,
+          84,
+          121,
+          302,
+          35,
+          72,
+          60
+        ],
+        [
+          "35",
+          40,
+          62,
+          96,
+          136,
+          341,
+          40,
+          81,
+          70
+        ],
+        [
+          "42",
+          50,
+          70,
+          106,
+          154,
+          385,
+          50,
+          91,
+          80
+        ],
+        [
+          "55",
+          50,
+          75,
+          118,
+          165,
+          410,
+          50,
+          98,
+          90
+        ]
+      ],
+      "nota": "Conferido na imagem. Cálculo de resistência obrigatório. Base (J.2.4): fy mínimo 355 N/mm²; geometria de manilhas Dee/Bow conforme EN 13889 e US Fed. Spec. RR-C-271 — com aço de fy menor, as dimensões não valem. A Fig. J.8 não cota R (só Rb, raio do boss); os valores de R e Rb desta tabela são os mesmos da Tab. J.3 (tipo 2), onde R = Rb + tc (Fig. J.7).",
+      "consulta": false,
+      "figuras": [
+        "esquemas/icamento-unidade-portatil-olhal-tipo3-norsok.svg"
+      ],
+      "cotas": {
+        "tp": "esquemas/icamento-unidade-portatil-olhal-tipo3-norsok.svg#tp",
+        "dh": "esquemas/icamento-unidade-portatil-olhal-tipo3-norsok.svg#dh",
+        "R": "esquemas/icamento-unidade-portatil-olhal-tipo3-norsok.svg#R",
+        "h": "esquemas/icamento-unidade-portatil-olhal-tipo3-norsok.svg#h",
+        "L": "esquemas/icamento-unidade-portatil-olhal-tipo3-norsok.svg#L",
+        "k": "esquemas/icamento-unidade-portatil-olhal-tipo3-norsok.svg#k",
+        "Rb": "esquemas/icamento-unidade-portatil-olhal-tipo3-norsok.svg#Rb",
+        "tb": "esquemas/icamento-unidade-portatil-olhal-tipo3-norsok.svg#tb"
+      }
+    },
+    {
+      "id": "norsok-r002-tF6-rdaf",
+      "titulo": "NORSOK R-002 — RDAF e WLL mínimo da lingada por peso içado",
+      "norma": "NORSOK-R-002",
+      "item": "Tabela F.6",
+      "pagina": 188,
+      "unidade": "t",
+      "chave": {},
+      "consulta": false,
+      "colunas": [
+        "Peso içado (t)",
+        "RDAF",
+        "WLLmin (t)"
+      ],
+      "linhas": [
+        [
+          "0,5",
+          "—",
+          4.0
+        ],
+        [
+          "1,0",
+          "—",
+          4.0
+        ],
+        [
+          "1,5",
+          "—",
+          4.0
+        ],
+        [
+          "2",
+          2.08,
+          4.16
+        ],
+        [
+          "4",
+          1.68,
+          6.74
+        ],
+        [
+          "6",
+          1.51,
+          9.06
+        ],
+        [
+          "8",
+          1.41,
+          11.24
+        ],
+        [
+          "10",
+          1.33,
+          13.34
+        ],
+        [
+          "12",
+          1.28,
+          15.37
+        ],
+        [
+          "14",
+          1.24,
+          17.36
+        ],
+        [
+          "16",
+          1.21,
+          19.32
+        ],
+        [
+          "18",
+          1.18,
+          21.24
+        ],
+        [
+          "20",
+          1.16,
+          23.14
+        ],
+        [
+          "22",
+          1.14,
+          25.01
+        ],
+        [
+          "24",
+          1.12,
+          26.87
+        ],
+        [
+          "26",
+          1.1,
+          28.71
+        ],
+        [
+          "28",
+          1.09,
+          30.54
+        ],
+        [
+          "30",
+          1.08,
+          32.36
+        ],
+        [
+          "32",
+          1.07,
+          34.16
+        ],
+        [
+          "34",
+          1.06,
+          35.95
+        ],
+        [
+          "36",
+          1.05,
+          37.74
+        ],
+        [
+          "38",
+          1.04,
+          39.51
+        ],
+        [
+          "40",
+          1.03,
+          41.27
+        ],
+        [
+          "42",
+          1.02,
+          43.03
+        ],
+        [
+          "44",
+          1.02,
+          44.78
+        ],
+        [
+          "46",
+          1.01,
+          46.53
+        ],
+        [
+          "48",
+          1.01,
+          48.27
+        ],
+        [
+          "50",
+          1.0,
+          50.0
+        ]
+      ],
+      "nota": "Objetos do Grupo F5 com lingadas EN 13414-1 / EN 818-4 grau 8 (F.7.6)."
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "info",
+      "texto": "Escopo: POU (DNV-ST-E273) = skid, módulo, pacote, árvore, carretel, cabine ou ferramenta de içamento transportados e içados offshore (uso único ou repetido, MGW normalmente ≤ 100 t). Container offshore (DNV-ST-E271) = unidade de uso repetido com MGW ≤ 25 t e estrutura externa com olhais — se a unidade se enquadra como container, a E273 não se aplica (E273 1.3.1). A DNV decide em caso de dúvida (E273 1.1.1 GN1). Unidades certificadas pela E273 são 'cargo units', não acessórios de içamento (1.3.4)."
+    },
+    {
+      "tipo": "info",
+      "texto": "Edição usada da E273: abril/2016 com emenda de maio/2022 (cópia em T:\\ENG\\Literature\\00 - Miscellaneous\\DNV-ST-E273(PROJETO DE SKID).pdf). A cópia em referencias/ é a emenda de out/2021; a emenda 2022 só atualizou a lista de símbolos e o rebranding — conteúdo técnico igual."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Fatores diferentes por norma (não misturar): E273 usa F = DF × MGW × g (DF de 1,5 a ~3,2 para 10 t) e RSF = 1,2 × SKL × PL × F / cos ν, com tensão admissível 0,85 Re. E271 usa Fp = 3 × R × g repartida em (n − 1) olhais (4 olhais = 3 trabalhando) e RSL = Fp/((n − 1) cos v), também com 0,85 Re, e verificação de pico no furo ≤ 2 Re. NORSOK R-002 (Anexo F) é LRFD: P_P = P_LP × DF / cos α com DAF, SKL, WCOG, WCF e resistência fy/1,15. Exemplo 10 t, 4 olhais, 45°: RSF E273 R60 ≈ 177 kN; RSL E271 ≈ 139 kN; P_P NORSOK offboard ≈ 146 kN (premissas: WCOG = 1,0, SKL = 1,25, DF = 1,68, W = WLL; com WCOG = 1,1 dá ≈ 161 kN). SKL de 4 pernas: E273 3.5.5 exige no mínimo 1,33; NORSOK Tabela F.4 usa 1,25."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Ângulo da lingada: E271 proíbe pernas com mais de 45° da vertical; E273 recomenda 30°–45° e sua fórmula de RSF só vale para ν ≥ 30°; NORSOK aceita 15°–45° (abaixo de 15°, toda a carga numa perna)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Folga pino/furo: E271 limita a folga a 6 % do Ø do pino (obrigatório); E273 só pede diferença 'a menor possível' e recomenda pino ≥ 94 % do furo quando a carga fora do plano é > 10 %. Tolerância do pino: E271 8.3.2.3 (requisito) = −1/+3 %; a nota da Tabela D-1 cita −0/+3 % — divergência interna da norma; vale 8.3.2.3."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Alinhamento do olhal com a lingada: E271 ± 2,5° (tolerância de fabricação); NORSOK ± 2°; E273 trata pela carga fora do plano (3 % + ângulo de projeto, 3.5.6). Aço: E273 proíbe Re > 690 N/mm²; E271 proíbe Re > 500 N/mm². Diâmetro mínimo de lingada: E273 Tabela 7-1 (9–16 mm cabo conforme classe) × NORSOK ≥ 13 mm cabo / ≥ 8 mm corrente."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "NORSOK R-002 F.5: na plataforma continental norueguesa só se aceitam POU projetadas para R60. POU tipos B–E entram no grupo F5 (objetos içados). Pela E273 Tabela 3-3, tipo A de risco alto com MGW > 25 t tem classe máxima R30, tipos B/C/E acima de 15 t e D acima de 10 t ficam em R45/R30 — essas POU, na prática, não são aceitas na plataforma continental norueguesa."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Escolha a manilha antes de desenhar o olhal (E271 App. D.2): pela Tabela D-1, uma manilha de 8,5 t (pino 28 mm, largura interna 43 mm) exige olhal com espessura no furo ≥ 32,3 mm (75 %) — use chapas de reforço (cheek plates) se a chapa principal for mais fina — e furo ≤ 28 × 1,06 = 29,7 mm (E271)."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Manilhas do tipo parafuso com porca e contrapino: obrigatório na E271 8.3.2.3 ('shall'); recomendado na NORSOK F.7.2.4.4 ('should' — 'screw pin shackles should not be used'). Olhal com rosca (eye bolt) só em POU de transporte único (E273 3.8.5). Cantoneiras ISO nunca para içamento offshore."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Temperatura de projeto: E273 usa TD = menor média diária local (−20 °C só sem designação); E271 exige TD ≤ −20 °C, exceto App. J (36° N–36° S, TD ≤ 0 °C, lingada ainda −20 °C); NORSOK exige manilhas offboard com Charpy 42 J a −20 °C. DAF em terra: H205 = 1,10, mas NORSOK nunca < 1,5 para acessórios até 50 t (F.2-0) e E273 R00 DF ≥ 1,5 — H205 é para operações marítimas planejadas, não para equipamento de uso repetido."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Furo do olhal — NORSOK × E271/E273: as Tabelas J.2–J.4 da NORSOK usam dh,min = 1,03·d + 2 (Fig. J.6–J.8); ex. manilha 8,5 t → dh = 32 mm, folga ≈ 14 %. Isso não atende a folga ≤ 6 % do Ø do pino da E271 4.4.1 (pino 28 mm → furo ≤ 29,7 mm) e fica abaixo dos 94 % recomendados pela E273 3.8.4 (28/32 = 0,875 → esmagamento pela fórmula A.3). Para container offshore, dimensionar o furo pela E271."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Olhal com boss: o guia TP2016 diz que acima de 2000 kg devem ser usadas chapas de reforço (cheek plates) e não um boss simples; a NORSOK Tabela J.4 traz olhal com boss (tipo 3) como padrão de 12 a 55 t. O guia não é norma — prevalece a NORSOK/DNV aplicável."
+    },
+    {
+      "tipo": "info",
+      "texto": "Carga do teste de içamento: E271 4.6.3.2 = massa total 2,5 × R, sempre; E273 Tabela 5-2 = o maior entre F e 2,5·MGW·g, com redução acima de 25 t."
+    }
+  ]
+}

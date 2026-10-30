@@ -1,0 +1,31 @@
+{
+ "id": "ASME-SA-788",
+ "titulo": "SA-788 — Requisitos gerais para forjados de aço",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns às especificações de forjados de aço (SA-266, 336, 372, 508, 541, 723, 765 e outras): fusão, forjamento, resfriamento, química, tratamento térmico, ensaios mecânicos, retratamento, reparo e marcação; a especificação do produto prevalece."
+  },
+  {
+   "titulo": "Fusão e forjamento",
+   "item": "5 a 7",
+   "texto": "Forno elétrico, conversor a oxigênio, indução a vácuo (VIM) ou Siemens-Martin, com desgaseificação/refino e refusão (ESR, VAR) opcionais. Após forjar, resfriamento sem danos e, nos ferríticos, com transformação substancial da austenita antes do tratamento."
+  },
+  {
+   "titulo": "Química e tratamento térmico",
+   "item": "8, 9",
+   "texto": "Análise de corrida pelo produtor do aço; análise de produto conforme a norma. Tratamento conforme a especificação do produto, com registro da temperatura do forno."
+  },
+  {
+   "titulo": "Ensaios e retratamento",
+   "item": "10, 11",
+   "texto": "Ensaios pela SA-370 (dureza comparativa pela A833 aceita). Forjados reprovados podem ser retratados e reensaiados."
+  },
+  {
+   "titulo": "Reparo",
+   "item": "12",
+   "texto": "Reparo por solda não é permitido, salvo autorização expressa na especificação do produto."
+  }
+ ]
+}

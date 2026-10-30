@@ -1,0 +1,57 @@
+{
+ "id": "ASME-SA-1010",
+ "titulo": "SA-1010 — Chapas, folhas e tiras de aço inoxidável martensítico de maior resistência",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Aço inoxidável martensítico (UNS S41003, ~11 % Cr) para aplicações estruturais, arquitetônicas, vasos de pressão e resistentes ao calor; propriedades em geral obtidas por revenimento. Graus 40 e 50. Requisitos gerais pela SA-480."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Revenido para atender às propriedades; antes do revenimento, o aço está laminado, normalizado ou temperado.",
+   "valores": [
+    {
+     "parametro": "Temperatura máx. de revenimento",
+     "valor": "1400 °F [760 °C]",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "S41003, valores máximos salvo faixa.",
+   "valores": [
+    {
+     "parametro": "C / Mn / P / S / Si",
+     "valor": "0,030 / 1,50 / 0,040 / 0,030 / 1,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cr / Ni / N",
+     "valor": "10,5–12,5 / 1,50 / 0,030 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Sy mín. / Su mín. / alongamento mín. / dureza máx.",
+   "valores": [
+    {
+     "parametro": "Grau 40",
+     "valor": "40 ksi [275] / 66 ksi [455] / 18 % / 223 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 50",
+     "valor": "50 ksi [350] / 70 ksi [485] / 18 % / 223 HB",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

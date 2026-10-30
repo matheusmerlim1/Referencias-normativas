@@ -1,0 +1,22 @@
+{
+ "id": "NR-23",
+ "titulo": "NR-23 — Proteção contra incêndios",
+ "secoes": [
+  {
+   "titulo": "Prevenção e informação",
+   "item": "23.1",
+   "texto": "O empregador adota a prevenção de incêndio exigida pela legislação estadual e pelas normas técnicas, e informa os trabalhadores sobre o uso dos equipamentos de combate, a evacuação segura e os alarmes existentes. A redação atual da NR-23 não traz dimensões nem quantidades: elas vêm da regulamentação estadual.",
+   "valores": [
+    {"parametro": "Critérios de projeto (extintores, hidrantes, saídas)", "valor": "legislação estadual e normas técnicas aplicáveis", "item": "23.1"}
+   ]
+  },
+  {
+   "titulo": "Saídas de emergência",
+   "item": "23.2–23.5",
+   "texto": "As saídas devem existir em número e posição que permitam deixar o local depressa e com segurança. Aberturas, saídas e rotas são sinalizadas com placas ou sinais luminosos indicando a direção. Nenhuma saída pode ficar trancada à chave ou presa durante o expediente; travas só se abrirem facilmente pelo lado de dentro.",
+   "valores": [
+    {"parametro": "Saída de emergência durante a jornada", "valor": "nunca trancada à chave nem presa; trava só com abertura fácil por dentro", "item": "23.4–23.5"}
+   ]
+  }
+ ]
+}

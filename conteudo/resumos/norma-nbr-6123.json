@@ -1,0 +1,92 @@
+{
+ "id": "NBR-6123",
+ "titulo": "ABNT NBR 6123:1988 (Errata 2:2013) — Forças devidas ao vento em edificações",
+ "secoes": [
+  {"titulo": "Objetivo", "item": "1",
+   "texto": "Define como considerar as forças estáticas e dinâmicas do vento no cálculo de edificações. Formas, dimensões ou locais fora do comum pedem estudo específico (túnel de vento). As forças são calculadas à parte para vedações e suas fixações, para partes da estrutura e para a estrutura como um todo.",
+   "valores": []},
+  {"titulo": "Roteiro do cálculo estático", "item": "4.2",
+   "texto": "Parte-se da velocidade básica do local, corrige-se por três fatores (relevo, rugosidade/altura/dimensão e estatístico), obtém-se a pressão dinâmica e multiplica-se pelos coeficientes aerodinâmicos e pela área.",
+   "valores": [
+    {"parametro": "Velocidade característica", "valor": "Vk = V0 · S1 · S2 · S3", "item": "4.2 b)"},
+    {"parametro": "Pressão dinâmica", "valor": "q = 0,613 · Vk² (q em N/m², Vk em m/s)", "item": "4.2 c)"},
+    {"parametro": "Pressão efetiva num ponto", "valor": "Δp = (cpe − cpi) · q", "item": "4.2.1"},
+    {"parametro": "Força num elemento plano", "valor": "F = (Ce − Ci) · q · A", "item": "4.2.2"},
+    {"parametro": "Força de arrasto", "valor": "Fa = Ca · q · Ae (Ae = área de sombra)", "item": "4.2.3"}
+   ]},
+  {"titulo": "Velocidade básica V0", "item": "5.1",
+   "texto": "Rajada de 3 s com recorrência média de 50 anos, a 10 m de altura, em campo aberto e plano. Obtida do mapa de isopletas do Brasil (intervalos de 5 m/s); admite-se que possa vir de qualquer direção.",
+   "valores": [
+    {"parametro": "Definição de V0", "valor": "rajada de 3 s, excedida 1 vez em 50 anos, a 10 m, terreno aberto", "item": "5.1"}
+   ]},
+  {"titulo": "Fator topográfico S1", "item": "5.2",
+   "texto": "Considera o relevo. No topo de taludes e morros (ponto B) o fator cresce com a inclinação e diminui com a altura z sobre o terreno; entre pontos, interpolar.",
+   "valores": [
+    {"parametro": "Terreno plano ou pouco acidentado", "valor": "S1 = 1,0", "item": "5.2 a)"},
+    {"parametro": "Talude/morro — ponto B, θ ≤ 3°", "valor": "S1 = 1,0", "item": "5.2 b)"},
+    {"parametro": "Talude/morro — ponto B, 6° ≤ θ ≤ 17°", "valor": "S1(z) = 1,0 + (2,5 − z/d)·tg(θ − 3°) ≥ 1", "item": "5.2 b)"},
+    {"parametro": "Talude/morro — ponto B, θ ≥ 45°", "valor": "S1(z) = 1,0 + (2,5 − z/d)·0,31 ≥ 1", "item": "5.2 b)"},
+    {"parametro": "Vales profundos protegidos", "valor": "S1 = 0,9", "item": "5.2 c)"}
+   ]},
+  {"titulo": "Fator S2 — rugosidade, dimensão e altura", "item": "5.3",
+   "texto": "Cinco categorias de terreno (I mar/lagos … V centros de grandes cidades) e três classes de edificação pela maior dimensão da superfície frontal (rajada de 3, 5 ou 10 s). S2 cresce com a altura até zg. Vedações usam S2 do topo, classe A.",
+   "valores": [
+    {"parametro": "Fórmula", "valor": "S2 = b · Fr · (z/10)^p (Fr sempre o da categoria II)", "item": "5.3.3"},
+    {"parametro": "Classe A / B / C", "valor": "maior dimensão ≤ 20 m (e vedações) / 20 a 50 m / > 50 m", "item": "5.3.2"},
+    {"parametro": "Cota média dos obstáculos — cat. II / III / IV / V", "valor": "≤ 1,0 m / 3,0 m / 10 m / ≥ 25 m", "item": "5.3.1"},
+    {"parametro": "zg (cat. I a V)", "valor": "250 / 300 / 350 / 420 / 500 m", "item": "Tab. 1, 5.5.2"},
+    {"parametro": "z0 (cat. I a V)", "valor": "0,005 / 0,07 / 0,30 / 1,0 / 2,5 m", "item": "5.5.2"},
+    {"parametro": "Cat. II — b / Fr / p (classe A)", "valor": "1,00 / 1,00 / 0,085", "item": "Tab. 1"},
+    {"parametro": "Fr cat. II — classes A / B / C", "valor": "1,00 / 0,98 / 0,95", "item": "Tab. 1"},
+    {"parametro": "S2 a 10 m, classe A — cat. I / II / III / IV / V", "valor": "1,10 / 1,00 / 0,94 / 0,86 / 0,74", "item": "Tab. 2"},
+    {"parametro": "S2 até 5 m, classe A — cat. I / II / III / IV / V", "valor": "1,06 / 0,94 / 0,88 / 0,79 / 0,74", "item": "Tab. 2"}
+   ]},
+  {"titulo": "Fator estatístico S3", "item": "5.4",
+   "texto": "Ajusta a segurança à importância e à vida útil. V0 tem 63 % de chance de ser atingida em 50 anos. O Anexo B dá S3 para outras probabilidades e períodos.",
+   "valores": [
+    {"parametro": "Grupo 1 — hospitais, bombeiros, centrais de comunicação", "valor": "S3 = 1,10", "item": "Tab. 3"},
+    {"parametro": "Grupo 2 — hotéis, residências, comércio e indústria de alta ocupação", "valor": "S3 = 1,00", "item": "Tab. 3"},
+    {"parametro": "Grupo 3 — instalações de baixa ocupação (depósitos, silos)", "valor": "S3 = 0,95", "item": "Tab. 3"},
+    {"parametro": "Grupo 4 — vedações (telhas, vidros, painéis)", "valor": "S3 = 0,88", "item": "Tab. 3"},
+    {"parametro": "Grupo 5 — temporárias e estruturas em construção", "valor": "S3 = 0,83", "item": "Tab. 3"}
+   ]},
+  {"titulo": "Coeficientes de pressão externa e de forma", "item": "6.1",
+   "texto": "Tabelas 4 a 8 dão Ce e cpe para paredes e telhados (uma água, duas águas, múltiplos) de planta retangular; Tabela 9 para cilindros (Re > 420 000). Zonas junto a arestas têm sucções altas (cpe médio) usadas só para vedações e fixações.",
+   "valores": [
+    {"parametro": "Número de Reynolds", "valor": "Re = 70 000 · Vk · d (m/s, m)", "item": "6.1.4"},
+    {"parametro": "Paredes, 1 ≤ a/b ≤ 3/2 — vento 0°: A1/B1, A2/B2, C, D", "valor": "−0,8 / −0,5 / +0,7 / −0,4", "item": "Tab. 4", "nota": "só a 1ª linha da tabela foi legível no texto; demais relações a/b e alturas — conferir"}
+   ]},
+  {"titulo": "Pressão interna", "item": "6.2",
+   "texto": "Depende da permeabilidade das faces e de aberturas dominantes. Lajes de concreto e alvenaria sem aberturas são impermeáveis; o resto é permeável.",
+   "valores": [
+    {"parametro": "Permeabilidade típica (moradia/escritório fechados)", "valor": "0,01 % a 0,05 %", "item": "6.2.3"},
+    {"parametro": "Duas faces opostas permeáveis — vento na face permeável / impermeável", "valor": "cpi = +0,2 / −0,3", "item": "6.2.5 a)"},
+    {"parametro": "Quatro faces igualmente permeáveis", "valor": "cpi = −0,3 ou 0 (o mais nocivo)", "item": "6.2.5 b)"},
+    {"parametro": "Abertura dominante a barlavento — proporção 1 / 1,5 / 2 / 3 / ≥ 6", "valor": "cpi = +0,1 / +0,3 / +0,5 / +0,6 / +0,8", "item": "6.2.5 c)"},
+    {"parametro": "Abertura dominante em zona de alta sucção — proporção 0,25 / 0,5 / 0,75 / 1 / 1,5 / ≥ 3", "valor": "cpi = −0,4 / −0,5 / −0,6 / −0,7 / −0,8 / −0,9", "item": "6.2.5 c)"},
+    {"parametro": "Edificação estanque com janelas fixas", "valor": "cpi = −0,2 ou 0", "item": "6.2.6"},
+    {"parametro": "Cilindro de topo aberto — h/d ≥ 0,3 / < 0,3", "valor": "cpi = −0,8 / −0,5", "item": "6.2.10"}
+   ]},
+  {"titulo": "Arrasto, atrito, turbulência e excentricidade", "item": "6.3–6.6",
+   "texto": "Ca de edificações paralelepipédicas por gráfico (Fig. 4 baixa turbulência; Fig. 5 alta turbulência) e de corpos de seção constante pela Tabela 10. Atrito só conta em edificações muito alongadas. Em vento de alta turbulência a sucção a sotavento cai a 2/3. Torção por excentricidade da força.",
+   "valores": [
+    {"parametro": "Atrito considerado quando", "valor": "l2/h ou l2/l1 > 4", "item": "6.4.2"},
+    {"parametro": "Cf' — sem nervuras / ondulações / nervuras retangulares", "valor": "0,01 / 0,02 / 0,04", "item": "6.4.3"},
+    {"parametro": "Alta turbulência — distância de vizinhança (altura até 40 / 55 / 70 / 80 m)", "valor": "500 / 1000 / 2000 / 3000 m", "item": "6.5.3", "nota": "e altura ≤ 2× a média das vizinhas"},
+    {"parametro": "Excentricidade — sem / com efeito de vizinhança", "valor": "e = 0,075 a (e 0,075 b) / 0,15 a (e 0,15 b)", "item": "6.6.2"}
+   ]},
+  {"titulo": "Barras, reticulados, muros e coberturas isoladas", "item": "7–8",
+   "texto": "Coeficientes de força para barras prismáticas (fator K para comprimento finito), fios e cabos, reticulados planos e múltiplos, torres reticuladas, muros e placas, e coberturas isoladas de uma ou duas águas (Tabelas 10 a 18).",
+   "valores": []},
+  {"titulo": "Efeitos dinâmicos", "item": "9",
+   "texto": "Estruturas com período fundamental acima de 1 s, principalmente pouco amortecidas, exigem cálculo da resposta flutuante (modelo contínuo simplificado para altura < 150 m, ou modelo discreto). Inclui resposta transversal e aceleração para conforto.",
+   "valores": [
+    {"parametro": "Velocidade de projeto (média de 10 min, 10 m, cat. II)", "valor": "Vp = 0,69 · V0 · S1 · S3", "item": "9.2.1"},
+    {"parametro": "Dispensa de análise dinâmica", "valor": "período fundamental T1 ≤ 1 s", "item": "9.1"},
+    {"parametro": "Modelo contínuo simplificado — limite de altura", "valor": "< 150 m, apoiada só na base", "item": "9.2.2.1"}
+   ]},
+  {"titulo": "Anexos", "item": "Anexos A–I",
+   "texto": "A: S2 para intervalos de 3 s a 1 h; B: S3 para outras probabilidades; C: isopletas; D: pressão interna em casos gerais; E e F: coeficientes para outras formas e casos especiais; G: efeitos de vizinhança; I: exemplos de cálculo dinâmico.",
+   "valores": []}
+ ]
+}

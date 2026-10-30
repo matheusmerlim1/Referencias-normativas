@@ -1,0 +1,287 @@
+{
+  "id": "guincho",
+  "titulo": "Guincho (winch) de tambor",
+  "categoria": "Içamento e movimentação de carga",
+  "resumo": "Guinchos de tambor (base fixa, acionamento elétrico, hidráulico ou a motor) pela ASME B30.7-2016: marcação, tambor (D/d, flange, voltas mínimas), freios, controles, fator de projeto do cabo, ensaio de carga e critérios de descarte do cabo.",
+  "palavras_chave": [
+    "guincho",
+    "winch",
+    "tambor",
+    "drum",
+    "ASME B30.7",
+    "cabo de aço",
+    "wire rope",
+    "D/d",
+    "freio",
+    "brake",
+    "catraca",
+    "pawl",
+    "capstan",
+    "cabrestante",
+    "line pull",
+    "tração no cabo",
+    "voltas no tambor",
+    "descarte do cabo",
+    "arames rompidos",
+    "rotation-resistant",
+    "antigiratório"
+  ],
+  "relacionadas": [
+    "lingadas-acessorios",
+    "icamento-unidade-portatil"
+  ],
+  "figuras": [
+    {
+      "arquivo": "esquemas/guincho-tambor-dd-flange.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — tambor do guincho: diâmetro primitivo da 1ª camada D ≥ 15 × d (Ø do cabo de aço); flange ultrapassa a camada superior em ≥ ½ d e não menos que 13 mm (0,5 in); no mínimo 2 voltas completas no tambor; marcação: Ø do barril, comprimento, Ø da flange e Ø do cabo.",
+      "norma": "ASME-B30.7",
+      "item": "Esquema",
+      "pagina": 18,
+      "grupo": [
+        "Tambor e ancoragem do cabo",
+        "Classificação e marcação"
+      ],
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/guincho-comandos-forcas-cursos.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — comandos: alavanca manual com força ≤ 156 N (35 lb) e curso ≤ 356 mm (14 in) do neutro (dupla ação) ou ≤ 610 mm (24 in) (simples); pedal com 36 N (8 lb) a 222 N (50 lb) e curso ≤ 254 mm (10 in); freio ≥ 125 % da carga nominal; proteções para 90 kg (200 lb).",
+      "norma": "ASME-B30.7",
+      "item": "Esquema",
+      "pagina": 19,
+      "grupo": "Freios, controles e proteções",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/guincho-descarte-cabo-6d.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — janela de 6 diâmetros para contar arames rompidos: cabo de trabalho 6 distribuídos em 6 d ou 3 numa perna; antigiratório 2 em 6 d e 4 em 30 d; descartar também com redução do Ø nominal > 5 %.",
+      "norma": "ASME-B30.7",
+      "item": "Esquema",
+      "pagina": 22,
+      "grupo": "Ensaio, inspeção e descarte do cabo",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/guincho-tipos.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — tipos de guincho abrangidos: com cabrestante, de tambor único e de três tambores com giro acoplado.",
+      "norma": "ASME-B30.7",
+      "item": "Esquema",
+      "pagina": 16,
+      "grupo": "Classificação e marcação"
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Classificação e marcação",
+      "parametro": "Capacidade nominal (rating)",
+      "valor": "Tração total recomendada pelo fabricante, a uma velocidade especificada, num tambor de dado tamanho e nº de camadas; o fabricante fornece a tração por camada para um Ø de cabo especificado",
+      "norma": "ASME-B30.7",
+      "item": "7-1.1.2; 7-1.1.4",
+      "pagina": 18
+    },
+    {
+      "grupo": "Classificação e marcação",
+      "parametro": "Marcação (por tambor)",
+      "valor": "Capacidade; tamanho do tambor (Ø do barril, comprimento, Ø da flange); Ø do(s) cabo(s); velocidade do cabo na carga nominal e camada especificada; potência requerida",
+      "norma": "ASME-B30.7",
+      "item": "7-1.1.3",
+      "pagina": 18,
+      "cota": "esquemas/guincho-tambor-dd-flange.svg#diametro-flange"
+    },
+    {
+      "grupo": "Classificação e marcação",
+      "parametro": "Projeto e solda",
+      "valor": "Projetado para os esforços em todas as condições previstas, até a capacidade do fabricante; solda conforme ANSI/AWS D14.3",
+      "norma": "ASME-B30.7",
+      "item": "7-1.2.1",
+      "pagina": 18
+    },
+    {
+      "grupo": "Tambor e ancoragem do cabo",
+      "parametro": "Diâmetro do tambor (D/d)",
+      "valor": "Diâmetro primitivo da 1ª camada ≥ 15 × Ø nominal do cabo de aço (outros materiais: conforme fabricante ou pessoa qualificada)",
+      "min": 15,
+      "unidade": "× d",
+      "norma": "ASME-B30.7",
+      "item": "7-1.2.2 (d)",
+      "pagina": 18,
+      "cota": "esquemas/guincho-tambor-dd-flange.svg#D"
+    },
+    {
+      "grupo": "Tambor e ancoragem do cabo",
+      "parametro": "Altura da flange do tambor",
+      "valor": "A flange deve ultrapassar a camada superior em ≥ ½ Ø do cabo, e não menos que 13 mm (0,5 in), durante a operação",
+      "min": 13,
+      "unidade": "mm",
+      "norma": "ASME-B30.7",
+      "item": "7-1.2.2 (c)",
+      "pagina": 18,
+      "cota": "esquemas/guincho-tambor-dd-flange.svg#flange"
+    },
+    {
+      "grupo": "Tambor e ancoragem do cabo",
+      "parametro": "Ancoragem do cabo no tambor",
+      "valor": "Modo aprovado pelo fabricante; deve segurar a tração nominal com no mínimo 2 voltas completas no tambor",
+      "min": 2,
+      "unidade": "voltas",
+      "norma": "ASME-B30.7",
+      "item": "7-1.2.2 (b)",
+      "pagina": 18
+    },
+    {
+      "grupo": "Tambor e ancoragem do cabo",
+      "parametro": "Voltas mínimas em operação",
+      "valor": "Comprimento do cabo tal que fiquem sempre ≥ 2 voltas completas no tambor em toda a faixa de movimento",
+      "min": 2,
+      "unidade": "voltas",
+      "norma": "ASME-B30.7",
+      "item": "7-1.2.5 (c)",
+      "pagina": 19
+    },
+    {
+      "grupo": "Tambor e ancoragem do cabo",
+      "parametro": "Retenção sem operador",
+      "valor": "Guincho que segura carga sem operador: dispositivo mecânico de retenção além do freio (ex. catraca/pawl) capaz de segurar a carga nominal",
+      "norma": "ASME-B30.7",
+      "item": "7-1.2.2 (e)",
+      "pagina": 18
+    },
+    {
+      "grupo": "Freios, controles e proteções",
+      "parametro": "Freio",
+      "valor": "Pelo menos um freio capaz de segurar ≥ 125 % da carga nominal no ponto de aplicação; remoto: freio de aplicação automática; enrolamento por cima e por baixo simultâneos: 125 % nos dois sentidos; meio de controlar a velocidade do tambor; ajuste para desgaste",
+      "min": 125,
+      "unidade": "%",
+      "norma": "ASME-B30.7",
+      "item": "7-1.2.3",
+      "pagina": 18
+    },
+    {
+      "grupo": "Freios, controles e proteções",
+      "parametro": "Proteções",
+      "valor": "Partes móveis expostas protegidas; proteção deve suportar uma pessoa de 90 kg (200 lb) sem deformação permanente, salvo onde for improvável pisarem",
+      "min": 90,
+      "unidade": "kg",
+      "norma": "ASME-B30.7",
+      "item": "7-1.2.4",
+      "pagina": 18
+    },
+    {
+      "grupo": "Freios, controles e proteções",
+      "parametro": "Forças e cursos nos comandos",
+      "valor": "Alavanca manual ≤ 156 N (35 lb); pedal entre 36 N (8 lb) e 222 N (50 lb); curso da alavanca ≤ 356 mm (14 in) do neutro (dupla ação) e ≤ 610 mm (24 in) (simples); curso do pedal ≤ 254 mm (10 in)",
+      "norma": "ASME-B30.7",
+      "item": "7-1.2.7",
+      "pagina": 19,
+      "cota": "esquemas/guincho-comandos-forcas-cursos.svg#curso-alavanca"
+    },
+    {
+      "grupo": "Freios, controles e proteções",
+      "parametro": "Controles",
+      "valor": "Função e sentido marcados; ao alcance do operador; elétrico: desliga motores na falta de energia e só religa com o comando no neutro; remoto: movimento para se o sinal falhar; comandos do motor voltam ao neutro",
+      "norma": "ASME-B30.7",
+      "item": "7-1.2.6",
+      "pagina": 19
+    },
+    {
+      "grupo": "Freios, controles e proteções",
+      "parametro": "Embreagens e chave geral",
+      "valor": "Motor a combustão: embreagem para desacoplar, ao alcance do operador; embreagem de garras não pode desacoplar sob carga; elétrico: chave/disjuntor geral blindado com bloqueio na posição aberta",
+      "norma": "ASME-B30.7",
+      "item": "7-1.2.8; 7-1.2.9; 7-1.2.11",
+      "pagina": 19
+    },
+    {
+      "grupo": "Freios, controles e proteções",
+      "parametro": "Ancoragem e instalação",
+      "valor": "Fixações e ancoragens do guincho são responsabilidade do usuário e projetadas por pessoa qualificada; instalar de modo a permitir enrolamento correto do cabo",
+      "norma": "ASME-B30.7",
+      "item": "7-1.3.1; 7-1.3.2",
+      "pagina": 19
+    },
+    {
+      "grupo": "Cabo do guincho",
+      "parametro": "Fator de projeto do cabo",
+      "valor": "Cabo comum ≥ 3,5; cabo antigiratório (rotation-resistant) ≥ 5 (pode ser modificado pelo usuário conforme 7-3.2.2(c)); calculado sobre a força mínima de ruptura publicada",
+      "min": 3.5,
+      "unidade": "—",
+      "norma": "ASME-B30.7",
+      "item": "7-1.2.5 (d)(e)",
+      "pagina": 19
+    },
+    {
+      "grupo": "Cabo do guincho",
+      "parametro": "Alma do cabo em calor",
+      "valor": "Onde a temperatura pode danificar alma de fibra, usar alma de aço independente (IWRC) ou outra resistente",
+      "norma": "ASME-B30.7",
+      "item": "7-1.2.5 (f)",
+      "pagina": 19
+    },
+    {
+      "grupo": "Ensaio, inspeção e descarte do cabo",
+      "parametro": "Ensaio de carga (guincho novo)",
+      "valor": "Pelo fabricante final: carga entre 110 % e 125 % da carga nominal (salvo recomendação do fabricante/pessoa qualificada), com ≥ 5 voltas no tambor, segurada pelo(s) freio(s); relatório escrito",
+      "min": 110,
+      "max": 125,
+      "unidade": "%",
+      "norma": "ASME-B30.7",
+      "item": "7-2.2.2 (a)",
+      "pagina": 21,
+      "nota": "Alterado/reparado: pessoa qualificada decide se precisa de ensaio (b)."
+    },
+    {
+      "grupo": "Ensaio, inspeção e descarte do cabo",
+      "parametro": "Ensaio operacional",
+      "valor": "Rotação do tambor, embreagens, freios, catracas, limitadores; sem carga, da velocidade mínima à máxima",
+      "norma": "ASME-B30.7",
+      "item": "7-2.2.1",
+      "pagina": 21
+    },
+    {
+      "grupo": "Ensaio, inspeção e descarte do cabo",
+      "parametro": "Inspeção do cabo",
+      "valor": "Visual a cada dia de trabalho antes do uso; inspeção ao menos mensal com relatório datado; atenção a trechos ocultos (sobre polias); cabo parado ≥ 1 mês: inspeção antes de voltar ao serviço, com relatório",
+      "norma": "ASME-B30.7",
+      "item": "7-2.4.2",
+      "pagina": 22
+    },
+    {
+      "grupo": "Ensaio, inspeção e descarte do cabo",
+      "parametro": "Descarte do cabo — arames rompidos",
+      "valor": "Cabo de trabalho: 6 arames rompidos distribuídos em 6 diâmetros, ou 3 numa perna em 6 diâmetros; antigiratório: 2 em 6 diâmetros e 4 em 30 diâmetros; 1 arame externo rompido no contato com a alma que saiu da estrutura",
+      "norma": "ASME-B30.7",
+      "item": "7-2.4.3 (b)(1)(2)",
+      "pagina": 22,
+      "cota": "esquemas/guincho-descarte-cabo-6d.svg#6d"
+    },
+    {
+      "grupo": "Ensaio, inspeção e descarte do cabo",
+      "parametro": "Descarte do cabo — outros critérios",
+      "valor": "Protrusão da alma; dobra, amassamento, gaiola de passarinho ou distorção; dano por calor; redução de Ø por perda de suporte da alma ou corrosão; redução do Ø nominal > 5 %; desvio só com aprovação escrita do fabricante do cabo",
+      "max": 5,
+      "unidade": "%",
+      "norma": "ASME-B30.7",
+      "item": "7-2.4.3 (b)(3)–(7); (c)",
+      "pagina": 23,
+      "cota": "esquemas/guincho-descarte-cabo-6d.svg#d"
+    },
+    {
+      "grupo": "Ensaio, inspeção e descarte do cabo",
+      "parametro": "Troca do cabo",
+      "valor": "Atingido um critério, pode terminar o turno a critério da pessoa qualificada; trocar antes do próximo turno; cabo novo de mesmo tamanho, grau e construção (salvo recomendação do fabricante/pessoa qualificada)",
+      "norma": "ASME-B30.7",
+      "item": "7-2.4.3 (a)(e)",
+      "pagina": 22
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "info",
+      "texto": "Fonte: ASME B30.7-2016 (Winches). Guinchos de base fixa; guinchos montados em guindastes e talhas têm volumes próprios da série B30. Fixação do guincho na estrutura é responsabilidade do usuário (7-1.3.1)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Ensaio de carga: guincho (B30.7) 110–125 % da carga nominal com o freio segurando; balancim (B30.20) 125 %; o freio deve segurar ≥ 125 % — portanto o ensaio no limite superior também verifica o freio. Fator de projeto do cabo do guincho: 3,5 (5 se antigiratório)."
+    }
+  ]
+}

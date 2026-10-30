@@ -1,0 +1,66 @@
+{
+ "id": "ISO-4753",
+ "titulo": "ISO 4753:1999 — Fixadores — Pontas de peças com rosca métrica ISO externa",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Forma e dimensões recomendadas das pontas de parafusos e peças com rosca métrica externa, com símbolo para cada tipo (a usar nas especificações). Valem para fixadores normalizados ou não.",
+   "valores": []
+  },
+  {
+   "titulo": "Tipos de ponta",
+   "item": "3.1–3.2",
+   "texto": "Incluídas no comprimento nominal: como laminada (RL), chanfrada (CH), arredondada (RN), plana (FL), pino curto (SD), pino longo (LD), cônica (CN), cone truncado (TC), copo (CP), raspadora (SC). Outras ficam fora do comprimento nominal.",
+   "valores": [
+    {
+     "parametro": "Raio da ponta arredondada",
+     "valor": "re ≈ 1,4d",
+     "item": "Fig. 1"
+    },
+    {
+     "parametro": "Rosca incompleta",
+     "valor": "u ≤ 2P",
+     "item": "Fig. 1, Nota 2"
+    },
+    {
+     "parametro": "Ângulo de 45°",
+     "valor": "vale só abaixo do diâmetro menor para FL, SD, LD e CP",
+     "item": "Fig. 1, Nota 3"
+    },
+    {
+     "parametro": "Cone de parafusos curtos",
+     "valor": "120° ± 2° (ver ISO 4027)",
+     "item": "Fig. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3, Tab. 1–4",
+   "texto": "Tabela por diâmetro: dp (ponta plana, h14), dt (cone truncado), dz (copo), comprimentos z1 (pino curto) e z2 (pino longo).",
+   "valores": [
+    {
+     "parametro": "M6 — dp / dz / z1 / z2",
+     "valor": "4 / 3 / 1,5 / 3 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "M10 — dp / dz / z1 / z2",
+     "valor": "7 / 6 / 2,5 / 5 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "M12 — dp / dz / z1 / z2",
+     "valor": "8,5 / 8 / 3 / 6 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "M16 — dp / dz / z1 / z2",
+     "valor": "12 / 10 / 4 / 8 mm",
+     "item": "Tab. 1"
+    }
+   ]
+  }
+ ]
+}

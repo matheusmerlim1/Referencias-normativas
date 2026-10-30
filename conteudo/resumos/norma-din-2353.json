@@ -1,0 +1,45 @@
+{
+ "id": "DIN-2353",
+ "titulo": "DIN 2353 — Conexões para tubo com anilha (catálogo HSME DIN-3)",
+ "secoes": [
+  {
+   "titulo": "Conteúdo",
+   "item": "—",
+   "texto": "Catálogo de fabricante (não é o texto da DIN 2353): conexões com anel de corte DIN 2353 / ISO 8434-1 para tubo métrico de 4 a 42 mm, válvulas de retenção e de esfera, com códigos equivalentes de outros fabricantes e tipos (uniões, cotovelos, tês, conectores machos BSPP/BSPT/NPT/métrico, banjos).",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo do tubo",
+     "valor": "4 a 42 mm",
+     "item": "Capa"
+    }
+   ]
+  },
+  {
+   "titulo": "Materiais",
+   "item": "Materiais",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Inox 316 (1.4571)",
+     "valor": "–60 a +400 °C",
+     "item": "Materiais"
+    },
+    {
+     "parametro": "Aço",
+     "valor": "–40 a +120 °C",
+     "item": "Materiais"
+    },
+    {
+     "parametro": "Latão",
+     "valor": "–60 a +175 °C",
+     "item": "Materiais"
+    },
+    {
+     "parametro": "Vedação NBR / FKM / PTFE",
+     "valor": "–35 a +100 / –25 a +200 / –60 a +240 °C",
+     "item": "Materiais"
+    }
+   ]
+  }
+ ]
+}

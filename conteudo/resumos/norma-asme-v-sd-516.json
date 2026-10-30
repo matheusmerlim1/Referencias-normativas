@@ -1,0 +1,18 @@
+{
+ "id": "ASME-V-SD-516",
+ "titulo": "Seção V, SD-516 — Sulfato em água (método turbidimétrico)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Método turbidimétrico para sulfato em água potável, subterrânea e superficial. Artigo normativo adotado pela ASME Seção V (Ensaios Não Destrutivos), aplicável quando o Código ou o pedido o invoca.",
+   "valores": [
+    {
+     "parametro": "Faixa de medição",
+     "valor": "1 a 40 mg/L de SO4",
+     "item": "1.1"
+    }
+   ]
+  }
+ ]
+}

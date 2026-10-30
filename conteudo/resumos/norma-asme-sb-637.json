@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SB-637",
+ "titulo": "SB-637 — Barras, forjados e material de forjamento de ligas de níquel endurecíveis por precipitação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras, forjados e material para forjamento de ligas de níquel endurecíveis por precipitação para alta temperatura: N07252, N07001 (Waspaloy), N07718 (Inconel 718), N07080 (Nimonic 80A) e outras da Tabela 1."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N07252 — C",
+     "valor": "0,10–0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N07001 — C",
+     "valor": "0,03–0,10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N07718 — C máx. / Mn máx. / Si máx.",
+     "valor": "0,08 % / 0,35 % / 0,35 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades",
+   "item": "Tabelas",
+   "texto": "Propriedades obtidas por solubilização e envelhecimento, com requisitos de tração e ruptura por fluência por liga nas tabelas da especificação."
+  }
+ ]
+}

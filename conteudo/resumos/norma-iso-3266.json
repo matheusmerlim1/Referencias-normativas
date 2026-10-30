@@ -1,0 +1,152 @@
+{
+ "id": "ISO-3266",
+ "titulo": "ISO 3266:2010 — Olhais roscados forjados grau 4 para içamento geral",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Olhais roscados (eyebolts) forjados de aço grau 4, de M8 a M100 × 6, para içamento geral. A Tabela 2 dá dimensões e a Tabela 4, WLL axial e inclinado e forças de ensaio por tamanho (ver ficha lingadas-acessorios).",
+   "valores": [
+    {
+     "parametro": "Faixa de tamanhos",
+     "valor": "M8 a M100 × 6",
+     "item": "1"
+    },
+    {
+     "parametro": "WLL axial",
+     "valor": "0,2 t (M8) a 50 t (M100 × 6)",
+     "item": "Tab. 2"
+    }
+   ],
+   "figuras": [
+    "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg"
+   ]
+  },
+  {
+   "titulo": "Dimensões, tolerâncias e rosca",
+   "item": "5–6",
+   "texto": "O olho tem tolerância de circularidade no diâmetro interno e de simetria. Rosca métrica grossa com tolerância 6g, saída de rosca arredondada e colar rebaixado, cujo diâmetro fica um pouco abaixo do diâmetro menor da rosca.",
+   "valores": [
+    {
+     "parametro": "Circularidade do diâmetro interno do olho",
+     "valor": "+5 %",
+     "item": "5",
+     "cota": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#E"
+    },
+    {
+     "parametro": "Simetria no diâmetro F",
+     "valor": "5 %",
+     "item": "5",
+     "cota": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#F"
+    },
+    {
+     "parametro": "Classe da rosca",
+     "valor": "ISO 261 grossa, 6g",
+     "item": "6"
+    },
+    {
+     "parametro": "Diâmetro do rebaixo dg",
+     "valor": "diâmetro menor da rosca − 0,3 mm",
+     "item": "6",
+     "cota": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#dg"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e material",
+   "item": "7–8",
+   "texto": "Forjado numa peça só, sem solda; face do colar usinada no esquadro e rosca concêntrica. Aço acalmado de grão fino, com limites baixos de enxofre e fósforo e tenacidade a frio.",
+   "valores": [
+    {
+     "parametro": "Enxofre (corrida / produto)",
+     "valor": "≤ 0,025 % / ≤ 0,04 %",
+     "item": "8"
+    },
+    {
+     "parametro": "Fósforo (corrida / produto)",
+     "valor": "≤ 0,030 % / ≤ 0,04 %",
+     "item": "8"
+    },
+    {
+     "parametro": "Alumínio total",
+     "valor": "≥ 0,025 %",
+     "item": "8"
+    },
+    {
+     "parametro": "Charpy médio a −20 °C",
+     "valor": "≥ 27 J (individual ≥ 2/3 da média)",
+     "item": "8.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico e dureza",
+   "item": "9–10",
+   "texto": "Temperado e revenido, ou normalizado, antes da prova, com revenimento mínimo; dureza máxima limitada.",
+   "valores": [
+    {
+     "parametro": "Revenimento",
+     "valor": "≥ 475 °C",
+     "item": "9"
+    },
+    {
+     "parametro": "Dureza máxima",
+     "valor": "214 HBW ou 96 HRB",
+     "item": "10.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Carga inclinada",
+   "item": "11",
+   "texto": "A WLL marcada vale para tração axial. Em par de olhais com perna inclinada até 45°, a capacidade do par é uma fração maior que a de um só. O olho deve ficar no plano da lingada; calços para alinhar são limitados.",
+   "valores": [
+    {
+     "parametro": "Par de olhais, 0 < β ≤ 45°",
+     "valor": "1,4 × WLL",
+     "item": "11",
+     "cota": "esquemas/lingadas-acessorios-eyebolt-iso3266-carga.svg#beta"
+    },
+    {
+     "parametro": "Alinhamento do olho com a lingada",
+     "valor": "± 5°",
+     "item": "11"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "12–13",
+   "texto": "Ensaios de tipo: deformação sob forças axial e inclinada, sem deformação permanente apreciável, e ruptura acima do mínimo tabelado. Na fabricação, prova em cada peça (ou amostragem), END de superfície e ruptura de amostras por lote, com lote máximo por tamanho.",
+   "valores": [
+    {
+     "parametro": "Deformação do diâmetro do olho no ensaio",
+     "valor": "≤ 0,5 %",
+     "item": "12.2"
+    },
+    {
+     "parametro": "Lote — M8–M20 / M24–M48 / M52–M100",
+     "valor": "≤ 1000 / ≤ 500 / ≤ 200",
+     "item": "13.3.1, Tab. 5"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação, registros e uso",
+   "item": "14–15; Anexo A",
+   "texto": "Marca do fabricante, tamanho, WLL axial e rastreabilidade. Registros guardados por tempo longo. Uso: furo roscado limpo e com comprimento de rosca suficiente, colar assentado, carga inclinada reduzida; inspecionar marcação, rosca, olho e corpo antes de usar. Fora de uma faixa de temperatura, consultar o fabricante.",
+   "valores": [
+    {
+     "parametro": "Guarda de registros",
+     "valor": "≥ 10 anos",
+     "item": "15"
+    },
+    {
+     "parametro": "Faixa de temperatura sem consulta",
+     "valor": "−20 °C a 200 °C",
+     "item": "A.1"
+    }
+   ]
+  }
+ ]
+}

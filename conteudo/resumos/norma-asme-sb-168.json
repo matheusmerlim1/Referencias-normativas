@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SB-168",
+ "titulo": "SB-168 — Chapas, folhas e tiras de ligas Ni-Cr-Fe e Ni-Cr-Co-Mo",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras laminadas das ligas N06600, N06601, N06603, N06690, N06693, N06025, N06045 e N06617."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela de química",
+   "texto": "Ligas Ni-Cr-Fe e Ni-Cr-Co-Mo.",
+   "valores": [
+    {
+     "parametro": "N06600 — Ni mín. / Cr / Fe",
+     "valor": "72,0 % / 14,0–17,0 % / 6,0–10,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N06601 — Ni / Cr / Fe",
+     "valor": "58,0–63,0 % / 21,0–25,0 % / restante",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N06617 — Ni mín. / Cr / Co / Mo",
+     "valor": "44,5 % / 20,0–24,0 % / 10,0–15,0 % / 8,0–10,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N06690 — Ni mín. / Cr / Fe",
+     "valor": "58,0 % / 27,0–31,0 % / 7,0–11,0 %",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Chapa laminada a quente — Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N06600 recozida",
+     "valor": "80 000 psi (550) / 35 000 psi (240) / 30 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N06600 como laminada",
+     "valor": "85 000 psi (586) / 35 000 psi (240) / 30 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N06601 recozida",
+     "valor": "80 000 psi (550) / 30 000 psi (205) / 30 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N06603 recozida",
+     "valor": "94 000 psi (650) / 43 000 psi (300) / 25 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "ASME-SB-434",
+ "titulo": "SB-434 — Chapas, folhas e tiras de ligas Ni-Mo-Cr-Fe (N10003, N10242)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras das ligas N10003 e N10242 para serviço corrosivo geral; laminadas, recozidas e decapadas."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N10003 — Mo / Cr / Fe máx.",
+     "valor": "15,0–18,0 % / 6,0–8,0 % / 5,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N10003 — C",
+     "valor": "0,04–0,08 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N10242 — Mo / Cr / Fe máx.",
+     "valor": "24,0–26,0 % / 7,0–9,0 % / 2,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N10242 — C máx.",
+     "valor": "0,03 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.; grão máximo para folhas recozidas na Tabela 3.",
+   "valores": [
+    {
+     "parametro": "N10003",
+     "valor": "100 ksi (690) / 40 ksi (280) / 40 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N10242",
+     "valor": "105 ksi (725) / 45 ksi (310) / 40 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

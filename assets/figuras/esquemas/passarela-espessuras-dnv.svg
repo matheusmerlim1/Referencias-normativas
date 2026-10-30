@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" width="820" height="420" role="img" aria-label="Painel de piso em aço — espessuras de chapa, reforçador e viga (corte)">
+<title>Painel de piso em aço — espessuras de chapa, reforçador e viga (corte)</title>
+<text x="12" y="22" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Painel de piso em aço — espessuras de chapa, reforçador e viga (corte)</text>
+<rect x="110" y="120" width="650" height="12" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<rect x="176" y="132" width="8" height="70" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<rect x="160" y="202" width="40" height="8" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<rect x="376" y="132" width="8" height="70" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<rect x="360" y="202" width="40" height="8" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<rect x="576" y="132" width="8" height="70" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<rect x="560" y="202" width="40" height="8" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<rect x="470" y="132" width="12" height="170" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<rect x="436" y="302" width="80" height="12" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<text x="380" y="330" text-anchor="middle" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">reforçadores</text>
+<text x="530" y="350" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">viga principal</text>
+<g id="cota-t-chapa" class="cota"><line x1="107" y1="132" x2="90" y2="132" stroke="#666" stroke-width="1"/><line x1="107" y1="120" x2="90" y2="120" stroke="#666" stroke-width="1"/><line x1="95" y1="132" x2="95" y2="120" stroke="#666" stroke-width="1.2"/><polygon points="95,132 98.5,141 91.5,141" fill="#666"/><polygon points="95,120 91.5,111 98.5,111" fill="#666"/><line x1="95" y1="146" x2="95" y2="132" stroke="#666" stroke-width="1.2"/><line x1="95" y1="120" x2="95" y2="106" stroke="#666" stroke-width="1.2"/><text x="87" y="130" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">t chapa</text></g>
+<g id="cota-t-reforcador" class="cota"><line x1="250" y1="260" x2="184" y2="170" stroke="#666" stroke-width="1.2"/><polygon points="184,170 192.1,175.2 186.5,179.3" fill="#666"/><text x="254" y="264" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">t reforçador</text></g>
+<g id="cota-t-viga" class="cota"><line x1="600" y1="250" x2="482" y2="250" stroke="#666" stroke-width="1.2"/><polygon points="482,250 491,246.5 491,253.5" fill="#666"/><text x="604" y="254" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">t viga (alma/mesa)</text></g>
+<text x="12" y="412" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo, sem escala — não é desenho da norma.</text>
+</svg>

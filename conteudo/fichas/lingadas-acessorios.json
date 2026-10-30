@@ -1,0 +1,3779 @@
+{
+  "id": "lingadas-acessorios",
+  "titulo": "Lingadas e acessórios de içamento (cabos, lingas, cintas, correntes, manilhas)",
+  "categoria": "Içamento",
+  "resumo": "Consulta sobre lingas de cabo de aço, cable-laid/grommets, correntes grau 8, cintas planas e acessórios (manilhas, eyebolts, ganchos, elos, grampos, soquetes): definições, fatores de modo e de ângulo, tabelas de CMT, marcação, certificação, inspeção e critérios de descarte, e a interface com a lingada certificada offshore (DNV-ST-E273/E271, NORSOK R-002).",
+  "palavras_chave": [
+    "linga",
+    "lingada",
+    "laço",
+    "sling",
+    "wire rope sling",
+    "cabo de aço",
+    "wire rope",
+    "cable laid",
+    "grommet",
+    "cinta",
+    "cinta plana",
+    "webbing",
+    "webbing sling",
+    "roundsling",
+    "cinta tubular",
+    "corrente",
+    "corrente grau 8",
+    "grade 8",
+    "chain sling",
+    "linga de corrente",
+    "manilha",
+    "shackle",
+    "bow shackle",
+    "screw pin",
+    "bolt type",
+    "olhal",
+    "eye",
+    "eyebolt",
+    "olhal de içamento",
+    "swivel hoist ring",
+    "esticador",
+    "turnbuckle",
+    "sapatilho",
+    "thimble",
+    "prensado",
+    "presilha",
+    "ferrule",
+    "soquete",
+    "soquete de cunha",
+    "wedge socket",
+    "grampo",
+    "grampo pesado",
+    "clip",
+    "wire rope clip",
+    "gancho",
+    "hook",
+    "trava do gancho",
+    "latch",
+    "elo mestre",
+    "master link",
+    "anel de carga",
+    "destorcedor",
+    "swivel",
+    "moitão",
+    "rigging block",
+    "dinamômetro",
+    "load cell",
+    "WLL",
+    "CMT",
+    "CMTE",
+    "carga de trabalho",
+    "rated load",
+    "MBL",
+    "carga de ruptura",
+    "CRM",
+    "fator de segurança",
+    "design factor",
+    "fator de uso",
+    "ângulo",
+    "ângulo da perna",
+    "sling angle",
+    "choker",
+    "forca",
+    "enforcado",
+    "cesto",
+    "cesta",
+    "basket",
+    "inspeção",
+    "inspeção periódica",
+    "descarte",
+    "rejeição",
+    "critério de remoção",
+    "removal criteria",
+    "arames partidos",
+    "broken wires",
+    "marcação",
+    "plaqueta",
+    "tag",
+    "certificado",
+    "certificate",
+    "carga de prova",
+    "proof load",
+    "código de cores",
+    "R_DAF",
+    "offboard lift",
+    "rigging",
+    "amarração",
+    "forerunner",
+    "ISO 3266",
+    "olhal roscado",
+    "olhal de suspensão",
+    "olhal forjado",
+    "DIN 580",
+    "grau 4",
+    "ASME B30.20",
+    "balancim",
+    "spreader beam",
+    "lifting beam",
+    "below-the-hook",
+    "abaixo do gancho",
+    "ASME BTH-1",
+    "lifter",
+    "viga de içamento",
+    "API 9A",
+    "diâmetro do cabo",
+    "tolerância do cabo"
+  ],
+  "relacionadas": [
+    "icamento-unidade-portatil"
+  ],
+  "figuras": [
+    {
+      "arquivo": "esquemas/lingadas-acessorios-diametro-cabo.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — diâmetro do cabo medido no círculo circunscrito (paquímetro sobre as coroas das pernas). Tolerância NBR 6327 (d ≥ 8 mm): +5 %/0 (pernas só de arame ou alma de polímero), +7 %/0 (pernas com alma de fibra); API 9A: −0 % a +5 % (polegadas), −1 % a +4 % (mm), medir a ≥ 1,52 m da ponta.",
+      "norma": "NBR-6327",
+      "item": "Esquema",
+      "pagina": 7,
+      "grupo": "Cabo de aço e laços",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-imca-medicao-pinos.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — medição do comprimento nominal L1 da linga cable-laid: entre os lados internos dos olhais, nos pontos de apoio sobre dois pinos de Ø conforme a Tabela 1, sob tração de 3 % da CRBL; tolerância ±1,5 d; pares casados ≤ 0,5 d.",
+      "norma": "IMCA-M179",
+      "item": "Esquema",
+      "pagina": 5,
+      "grupo": "Cabo de aço e laços",
+      "nota": "Valores/símbolos transcritos desta ficha (2.2 e Tabela 1); desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-olhal-cinta-gancho.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — olhal de cinta plana no gancho: comprimento do olhal ≥ 3,5 × espessura máx. do gancho (e); ângulo no olhal ≤ 20°; apoio essencialmente reto (largura < 150 mm: raio de curvatura ≥ 1,5 × largura); no máx. 2 pares de olhais no mesmo gancho.",
+      "norma": "NBR-15637-1",
+      "item": "Esquema",
+      "pagina": 26,
+      "grupo": "Cintas e roundslings (código de cores)",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-gancho-angulos-remocao.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — gancho com duas pernas no assento: ângulo incluído ≤ 90°, cada perna ≤ 45° com o eixo (acima disso ou > 2 pernas, anel coletor); remoção com aumento da abertura da garganta de 5 % (máx. 1/4 in = 6 mm) ou desgaste > 10 % da seção; em manilha/elo com várias lingas, ângulo incluído ≤ 120°.",
+      "norma": "ASME-B30.10",
+      "item": "Esquema",
+      "pagina": 22,
+      "grupo": [
+        "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+        "Inspeção, critérios de descarte e remoção"
+      ],
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-eyebolt-engajamento-angulo.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — eyebolt em furo cego roscado em aço: engajamento efetivo ≥ 1,5 × Ø do parafuso; furo passante com espessura < 1 Ø → porca sob a carga; carga angular (com ombro) 0–5° 100 %, 6–15° 55 %, 16–90° 25 %; par de olhais ISO 3266 com 0 < β ≤ 45°: 1,4 × WLL, olho no plano da linga ± 5°.",
+      "norma": "ASME-B30.26",
+      "item": "Esquema",
+      "pagina": 27,
+      "grupo": [
+        "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+        "Olhal roscado forjado (eyebolt) — ISO 3266"
+      ],
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-arames-partidos-6d.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — janela de 6 d para contar arames partidos no laço de cabo: inspeção completa se > 5 % dos arames em 6 d; substituir com 10 arames em 6 d, 5 numa mesma perna em 6 d (não p/ 6x7), > 1 interno em 6 d, 3 ou mais agrupados, ou redução de 10 % do Ø.",
+      "norma": "NBR-13543",
+      "item": "Esquema",
+      "pagina": 9,
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-cintas-modos-amarracao.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — cintas planas: modos de amarração (vertical, forca, cesto vertical, 2 pernas/cesto inclinado, 3 e 4 pernas), ângulo β das pernas com a vertical e ângulo da forca.",
+      "norma": "NBR-15637-1",
+      "item": "Esquema",
+      "pagina": 14,
+      "grupo": "Cintas e roundslings (código de cores)"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-angulo-perna-carga.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — linga de corrente: a carga em cada perna cresce com o ângulo β da vertical; pernas quase verticais devem ser evitadas e acima do limite o uso é proibido.",
+      "norma": "NBR-15516-2",
+      "item": "Esquema",
+      "pagina": 11,
+      "grupo": "Fatores de modo e ângulo"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-manilha-carga-lateral.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — manilha com carga lateral: ângulo da carga em relação ao eixo da manilha (em linha, inclinada, perpendicular); a redução da carga nominal por faixa está na tabela.",
+      "norma": "ASME-B30.26",
+      "item": "Esquema",
+      "pagina": 21,
+      "grupo": "Fatores de modo e ângulo"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-grampos-montagem.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — grampos de cabo: sela na parte viva e U na parte morta; distância B do último grampo à ponta, espaçamento L, comprimento A da parte morta e Ø d do cabo.",
+      "norma": "NBR-11900-4",
+      "item": "Esquema",
+      "pagina": 17,
+      "grupo": "Terminais (prensado, soquete, grampos)"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-angulo-carga-horizontal.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ângulo de carga da perna com a horizontal e ângulo incluído entre pernas no corpo da manilha/elo.",
+      "norma": "ASME-B30.26",
+      "item": "Esquema",
+      "pagina": 20,
+      "grupo": [
+        "Fatores de modo e ângulo",
+        "Definições e terminologia (WLL, MBL, SF, modos de amarração)"
+      ]
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — lingas de corrente de 1, 2, 3 e 4 pernas: β = ângulo da perna com a vertical; α = ângulo entre pernas opostas.",
+      "norma": "NBR-15516-1",
+      "item": "Esquema",
+      "pagina": 22,
+      "grupo": "Fatores de modo e ângulo"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-cabo-torcao-medicao.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — cabo de aço: tipos de torção (regular/lang, direita/esquerda), passo do cabo, diâmetro d medido sobre as coroas (círculo circunscrito) e longe da ponta amarrada.",
+      "norma": "API-9A",
+      "item": "Esquema",
+      "pagina": 29,
+      "grupo": "Cabo de aço e laços"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-cable-laid-olhal.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — linga cable-laid: comprimento L1 entre os extremos dos olhais, olhal h × w, diâmetro d e cauda das pontas após o último tuck da emenda.",
+      "norma": "IMCA-M179",
+      "item": "Esquema",
+      "pagina": 5,
+      "grupo": "Cabo de aço e laços"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-soquete-cunha.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — soquete de cunha montado: corpo, cunha, pino, parte viva alinhada e parte morta; ângulos α (cunha) e β (corpo); comprimento de contato P; Ø d do cabo.",
+      "norma": "NBR-11900-2",
+      "item": "Esquema",
+      "pagina": 8,
+      "grupo": "Terminais (prensado, soquete, grampos)"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-linga-corrente-2-pernas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — linga de corrente de 2 pernas: anel de carga principal, dispositivos de ligação, corrente e ganchos; comprimento da perna entre as partes internas dos terminais.",
+      "norma": "NBR-15516-1",
+      "item": "Esquema",
+      "pagina": 9,
+      "grupo": "Correntes grau 8"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-cinta-plana-largura-raio-gancho.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — cinta plana: largura b, espessura s, etiqueta; gancho com assento de raio pequeno acomoda mal o olhal da cinta.",
+      "norma": "NBR-15637-1",
+      "item": "Esquema",
+      "pagina": 11,
+      "grupo": "Cintas e roundslings (código de cores)"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-eyebolt-tipos-instalacao.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — eyebolts: com ombro, sem ombro (só em linha), furo passante com porca e carga angular medida a partir da vertical.",
+      "norma": "ASME-B30.26",
+      "item": "Esquema",
+      "pagina": 23,
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-desgaste-elos.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — desgaste entre elos: medir d1 e d2 na seção de contato A-A e comparar a média com o Ø nominal dn.",
+      "norma": "NBR-15516-2",
+      "item": "Esquema",
+      "pagina": 18,
+      "grupo": "Inspeção, critérios de descarte e remoção"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-lingada-4-pernas-forerunner.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — lingada de 4 pernas com forerunner: elo mestre, forerunner, conjunto quádruplo, pernas com ângulo β da vertical e manilhas.",
+      "norma": "DNV-ST-E271",
+      "item": "Esquema",
+      "pagina": 78,
+      "grupo": "Lingada certificada offshore (E273/E271/NORSOK)"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-plaqueta-lingada.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — plaqueta de identificação da lingada: octogonal para corrente, redonda para cabo de aço; campos e altura dos caracteres.",
+      "norma": "DNV-ST-E271",
+      "item": "Esquema",
+      "pagina": 58,
+      "grupo": "Lingada certificada offshore (E273/E271/NORSOK)"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — olhal roscado forjado: E (Ø interno do olho), F (Ø da seção do olho), B (Ø do colar), d (rosca), dg (Ø do fuste), H (altura do colar à ponta), r (raio de alívio), s (colar ao 1º filete).",
+      "norma": "ISO-3266",
+      "item": "Esquema",
+      "pagina": 14,
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-eyebolt-iso3266-carga.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — carga axial Fa de um olhal e par de olhais com carga inclinada Fβ (β = ângulo com a vertical).",
+      "norma": "ISO-3266",
+      "item": "Esquema",
+      "pagina": 12,
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266"
+    },
+    {
+      "arquivo": "esquemas/lingadas-acessorios-trechos-prova-pl.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — trechos de linga de corrente que recebem a carga de prova: PL1 (perna), PL2 (anel de 2 pernas), PL3 (elo intermediário), PL4 (anel de 3 e 4 pernas).",
+      "norma": "NBR-15516-1",
+      "item": "Esquema",
+      "pagina": 20,
+      "grupo": "Correntes grau 8"
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Definições e terminologia (WLL, MBL, SF, modos de amarração)",
+      "parametro": "Rated load / WLL (carga de trabalho)",
+      "valor": "Carga de trabalho máxima admissível estabelecida pelo fabricante do acessório; 'rated capacity' e 'working load limit (WLL)' são sinônimos",
+      "norma": "ASME-B30.26",
+      "item": "26-0.2",
+      "pagina": 17
+    },
+    {
+      "grupo": "Definições e terminologia (WLL, MBL, SF, modos de amarração)",
+      "parametro": "Design factor (fator de projeto)",
+      "valor": "Razão entre a resistência nominal ou mínima à ruptura e a carga nominal (rated load) do acessório",
+      "norma": "ASME-B30.26",
+      "item": "26-0.2",
+      "pagina": 16
+    },
+    {
+      "grupo": "Definições e terminologia (WLL, MBL, SF, modos de amarração)",
+      "parametro": "Ângulo de carga (angle of loading)",
+      "valor": "Ângulo AGUDO entre a HORIZONTAL e a perna da lingada ('horizontal angle'); há multiplicador de tensão também em aplicações não verticais",
+      "norma": "ASME-B30.26",
+      "item": "26-0.2; Fig. 26-1.9.1-1",
+      "pagina": 16,
+      "nota": "Atenção: ASME mede o ângulo a partir da HORIZONTAL; DNV, NORSOK e NBR medem a partir da VERTICAL.",
+      "cota": "esquemas/lingadas-acessorios-angulo-carga-horizontal.svg#angulo-horizontal"
+    },
+    {
+      "grupo": "Definições e terminologia (WLL, MBL, SF, modos de amarração)",
+      "parametro": "Serviço normal / severo / especial",
+      "valor": "Normal: cargas ≤ carga nominal; severo: normal + condições anormais de amarração ou operação; especial: outro, aprovado por pessoa qualificada",
+      "norma": "ASME-B30.26",
+      "item": "26-0.2",
+      "pagina": 16
+    },
+    {
+      "grupo": "Definições e terminologia (WLL, MBL, SF, modos de amarração)",
+      "parametro": "Forca (choker hitch)",
+      "valor": "A linga passa em volta da carga e através de um olhal/terminal; o outro olhal fica no equipamento de içamento",
+      "norma": "ASME-B30.26",
+      "item": "26-0.2",
+      "pagina": 16
+    },
+    {
+      "grupo": "Definições e terminologia (WLL, MBL, SF, modos de amarração)",
+      "parametro": "Parte viva / parte morta (live end / dead end)",
+      "valor": "Viva = trecho tracionado sob carga; morta = trecho não tracionado (cauda) do cabo no grampo/soquete",
+      "norma": "ASME-B30.26",
+      "item": "26-0.2",
+      "pagina": 16
+    },
+    {
+      "grupo": "Definições e terminologia (WLL, MBL, SF, modos de amarração)",
+      "parametro": "CMT / CMTE / FU / FS (cintas)",
+      "valor": "CMT = carga máxima de trabalho nominal em elevação vertical; CMTE = CMT × FU (fator de uso do modo de amarração); FS = nº mínimo de vezes que o componente deve resistir acima do CMT",
+      "norma": "NBR-15637-1",
+      "item": "3.12–3.15",
+      "pagina": 9
+    },
+    {
+      "grupo": "Definições e terminologia (WLL, MBL, SF, modos de amarração)",
+      "parametro": "Inspeção × inspeção completa (correntes)",
+      "valor": "Inspeção = verificação visual de dano/deterioração óbvia; inspeção completa = visual por pessoa qualificada complementada, se necessário, por END",
+      "norma": "NBR-15516-2",
+      "item": "3.1; 3.2",
+      "pagina": 5
+    },
+    {
+      "grupo": "Definições e terminologia (WLL, MBL, SF, modos de amarração)",
+      "parametro": "Comprimento da linga de corrente",
+      "valor": "Comprimento efetivo entre as partes internas dos terminais inferior e superior; tamanho nominal = Ø nominal da corrente",
+      "norma": "NBR-15516-1",
+      "item": "4.2; 4.3",
+      "pagina": 11,
+      "cota": "esquemas/lingadas-acessorios-linga-corrente-2-pernas.svg#comprimento"
+    },
+    {
+      "grupo": "Definições e terminologia (WLL, MBL, SF, modos de amarração)",
+      "parametro": "Lifting set / lingada (DNV)",
+      "valor": "Itens de equipamento de içamento integrados que ligam a unidade ao guindaste: manilhas, ganchos, destorcedores, soquetes, correntes, elos, anéis, cabos",
+      "norma": "DNV-ST-E273",
+      "item": "1.4.10",
+      "pagina": 19,
+      "nota": "Ver ficha 'icamento-unidade-portatil' para o dimensionamento da lingada (MBL, WLL da manilha, ângulos de projeto)."
+    },
+    {
+      "grupo": "Definições e terminologia (WLL, MBL, SF, modos de amarração)",
+      "parametro": "Modos de amarração (laços de cabo)",
+      "valor": "Fixação direta, forca, forca com duas voltas, cesta e cesta com duas voltas — para laço simples, conjunto de dois laços e laço sem fim",
+      "norma": "NBR-13543",
+      "item": "3; Tabela 1",
+      "pagina": 3,
+      "nota": "Tabela 1 é ilustrada (figuras); não traz fatores numéricos."
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Multiplicador de tensão pelo ângulo com a horizontal (ASME)",
+      "valor": "90° → 1,000; 60° → 1,155; 45° → 1,414; 30° → 2,000",
+      "norma": "ASME-B30.26",
+      "item": "Fig. 26-1.9.1-1; 26-2.9.1-1; 26-4.9.1-1",
+      "pagina": 20,
+      "nota": "Tabela dentro das figuras (vale para manilhas, acessórios ajustáveis e elos/anéis). Ver tabela 'B30.26 — multiplicador'.",
+      "cota": "esquemas/lingadas-acessorios-angulo-carga-horizontal.svg#angulo-horizontal"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Ângulo incluído máximo em manilha / elo / anel (ASME)",
+      "valor": "Várias lingas no corpo da manilha ou num elo/anel: ângulo incluído ≤ 120°; ângulo horizontal de carga em elos/anéis/conjuntos de elo mestre ≥ 30° (salvo aprovação de pessoa qualificada)",
+      "max": 120,
+      "unidade": "°",
+      "norma": "ASME-B30.26",
+      "item": "26-1.9.4(k); 26-4.9.4.1(f)(g); 26-4.9.4.2(f)–(h)",
+      "pagina": 21,
+      "cota": "esquemas/lingadas-acessorios-angulo-carga-horizontal.svg#angulo-incluido"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Carga lateral em manilha — redução da carga nominal (ASME)",
+      "valor": "0–5° (em linha): sem redução; 6–45°: −30 %; 46–90°: −50 %; > 90°: não recomendado (consultar fabricante)",
+      "norma": "ASME-B30.26",
+      "item": "26-1.9.4(g); Fig. 26-1.9.4-2",
+      "pagina": 21,
+      "nota": "Valores da tabela da Figura 26-1.9.4-2.",
+      "cota": "esquemas/lingadas-acessorios-manilha-carga-lateral.svg#angulo-lateral"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Olhal de içamento (eyebolt) — carga angular (ASME)",
+      "valor": "Só eyebolt COM ombro pode receber carga angular: 0–5° → 100 %; 6–15° → 55 %; 16–90° → 25 % da carga nominal (ângulo a partir da vertical/eixo); sem ombro: só carga em linha",
+      "norma": "ASME-B30.26",
+      "item": "26-2.9.4.2(e)(f); Fig. 26-2.1.1-2",
+      "pagina": 23,
+      "nota": "Percentuais lidos da Figura 26-2.1.1-2 (texto vetorial da figura). Plano do olhal alinhado com a direção do puxão (26-2.9.4.2(g)).",
+      "cota": "esquemas/lingadas-acessorios-eyebolt-tipos-instalacao.svg#angulo"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Ganchos — ângulo das pernas (ASME B30.10)",
+      "valor": "Várias pernas no assento do gancho: ângulo incluído ≤ 90° (ou conforme fabricante); perna ≤ 45° com o eixo do gancho; acima de 2 pernas ou > 45°, usar anel coletor (elo ou manilha). Proibido carga lateral, traseira ou na ponta",
+      "max": 45,
+      "unidade": "°",
+      "norma": "ASME-B30.10",
+      "item": "10-1.11.1 (c)–(f)",
+      "pagina": 22,
+      "nota": "O max = 45° refere-se ao ângulo da perna com o eixo do gancho; o limite de 90° é do ângulo incluído entre pernas.",
+      "cota": "esquemas/lingadas-acessorios-gancho-angulos-remocao.svg#angulo-incluido"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Linga de corrente — CMT pelo método uniforme",
+      "valor": "2 pernas: 1,4 × CMT de 1 perna (β 0–45° com a vertical); 1,0 × (β 45–60°). 3 e 4 pernas: 2,1 × (β 0–45°); 1,5 × (β 45–60°)",
+      "norma": "NBR-15516-1",
+      "item": "10.2.2",
+      "pagina": 15,
+      "nota": "Valores arredondados para baixo em 1 casa decimal. Em 3 pernas o ângulo entre pernas = 2β; em 4 pernas, entre pernas diagonalmente opostas.",
+      "cota": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Linga de corrente — CMT pelo método trigonométrico",
+      "valor": "2 pernas: CMT = 2 × CMT(1 perna) × cos β; 3 e 4 pernas: CMT = 3 × CMT(1 perna) × cos β (4 pernas: 4 × … só se garantida distribuição uniforme)",
+      "norma": "NBR-15516-1",
+      "item": "10.2.3",
+      "pagina": 15,
+      "nota": "Classificação nominal = CMT a 90° entre pernas (45° com a vertical) (10.3). Anel de carga de linga 'uniforme' não serve necessariamente para linga 'trigonométrica'.",
+      "cota": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Linga de corrente — ângulos de uso",
+      "valor": "Evitar β < 15° com a vertical (risco de desequilíbrio); NUNCA usar β > 60°; laço de corrente envolvendo caixas/tambores (ganchos formando laço): β ≤ 30°",
+      "max": 60,
+      "unidade": "°",
+      "norma": "NBR-15516-2",
+      "item": "A.1.3.3; Fig. A.1",
+      "pagina": 10,
+      "nota": "Limite de 60° na nota da Figura A.1.",
+      "cota": "esquemas/lingadas-acessorios-angulo-perna-carga.svg#beta"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Linga de corrente — forca",
+      "valor": "CMT da linga em forca ≤ 80 % do valor marcado",
+      "max": 80,
+      "unidade": "%",
+      "norma": "NBR-15516-2",
+      "item": "A.1.3.4 b)",
+      "pagina": 12
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Linga de corrente — carregamento simétrico",
+      "valor": "Considerado simétrico só se: carga < 80 % da CMT; ângulos com a vertical não todos < 15°; ângulos com a vertical a até 15° entre si; (3/4 pernas) ângulos no plano a até 15° entre si. Senão: pessoa qualificada classifica, ou usar 1/2 da CMT marcada",
+      "norma": "NBR-15516-2",
+      "item": "A.1.3.5",
+      "pagina": 14,
+      "cota": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Linga de corrente — menos pernas em uso",
+      "valor": "2 pernas usando 1: × 1/2; 3 ou 4 pernas usando 2: × 2/3; 3 ou 4 pernas usando 1: × 1/3. Pernas não usadas presas no anel principal",
+      "norma": "NBR-15516-2",
+      "item": "A.1.3.7; Tabela A.2",
+      "pagina": 16,
+      "cota": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Cintas planas — fatores de uso FU",
+      "valor": "Vertical 1; forca 0,8; cesto vertical 2; cesto β 7–45° 1,4; cesto β 46–60° 1; 2 pernas β 7–45° 1,4 / 46–60° 1; 3 e 4 pernas β 7–45° 2,1 / 46–60° 1,5",
+      "norma": "NBR-15637-1",
+      "item": "5.6, Tabela 3",
+      "pagina": 14,
+      "nota": "Para carregamento simétrico. Tolerância do ângulo de trabalho 'vertical' até +6°. Ver figura e tabela 'Cintas — CMT por cor e modo'.",
+      "cota": "esquemas/lingadas-acessorios-cintas-modos-amarracao.svg#beta"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Laço de cabo — ângulo da forca",
+      "valor": "Deixar o ângulo da forca formar-se naturalmente (≈ 45° ou maior); forçar o olhal para baixo sobrecarrega o laço",
+      "norma": "NBR-13543",
+      "item": "4.2.1 e); Figura 2",
+      "pagina": 5,
+      "nota": "Ângulo lido da Figura 2.",
+      "cota": "esquemas/lingadas-acessorios-cintas-modos-amarracao.svg#angulo-forca"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Grommet/linga cable-laid — fator de dobramento EB",
+      "valor": "EB = 1 − 0,5/√(D/d) (D = menor Ø sobre o qual o corpo é dobrado; d = Ø da linga). Se EB < ET, usar EB no lugar de ET (não somam). Nunca apoiar em raio < 0,5d",
+      "norma": "IMCA-M179",
+      "item": "3.4",
+      "pagina": 8
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Designação do cabo de aço",
+      "valor": "Diâmetro; construção; composição da perna; tipo de alma; torção; acabamento; categoria de resistência — ex.: 13,0 mm, 6 x 25F, AACI, TRD, polido, 1770 N/mm²",
+      "norma": "NBR-6327",
+      "item": "4.3",
+      "pagina": 6
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Sentido e tipo de torção",
+      "valor": "Regular à direita (sZ, TRD), regular à esquerda (zS, TRE), lang à direita (zZ, TLD), lang à esquerda (sS, TLE)",
+      "norma": "NBR-6327",
+      "item": "4.2.8",
+      "pagina": 6
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Tolerância do diâmetro do cabo",
+      "valor": "d ≥ 8 mm: +5 % / 0 (pernas só de arame ou alma de polímero) e +7 % / 0 (pernas com alma de fibra); ver tabela para d < 8 mm",
+      "norma": "NBR-6327",
+      "item": "4.4.1.2; Tabela 2",
+      "pagina": 7,
+      "nota": "Diferença entre 2 medições: tabela 'NBR 6327 — tolerâncias'.",
+      "cota": "esquemas/lingadas-acessorios-diametro-cabo.svg#d"
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Passo do cabo",
+      "valor": "6 x 7: ≤ 8 d; demais: ≤ 7,25 d; pernas perfiladas (triangulares): ≤ 10 d",
+      "norma": "NBR-6327",
+      "item": "4.4.2",
+      "pagina": 7,
+      "cota": "esquemas/lingadas-acessorios-cabo-torcao-medicao.svg#passo"
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Carga de ruptura mínima do cabo (Fmin)",
+      "valor": "Conforme Tabelas C.1 a C.14 (por classe, diâmetro e categoria) ou conforme o fabricante",
+      "norma": "NBR-6327",
+      "item": "4.5.1",
+      "pagina": 7,
+      "nota": "Tabelas C.x não transcritas nesta ficha."
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Laço de cabo — antes do içamento",
+      "valor": "Verificar massa da carga; laços nos pontos projetados ou sobre o CG; acessórios de ligação (ganchos/manilhas) acima do CG; carga sem partes soltas",
+      "norma": "NBR-13543",
+      "item": "4.1.2–4.1.6",
+      "pagina": 2
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Laço com trançado manual × carga que gira",
+      "valor": "Não usar laços com trançado manual (tipo 3, NBR 11900) se a carga puder girar",
+      "norma": "NBR-13543",
+      "item": "4.1.8",
+      "pagina": 4
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Canto vivo",
+      "valor": "Não dobrar o laço em cantos vivos (raio < Ø do cabo); usar calhas/protetores. Cabo dobrado sobre o próprio diâmetro pode perder 50 % da resistência",
+      "norma": "NBR-13543",
+      "item": "4.2.1 d), Notas 1–2",
+      "pagina": 4
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Forca com laço de cabo",
+      "valor": "Usar sapatilho ou estribo no olhal quando possível e gancho corrediço; não usar forca para girar/arrastar carga sem cuidados (pode exigir redução da carga de trabalho); não dobrar o laço junto à presilha/trançado",
+      "norma": "NBR-13543",
+      "item": "4.2.1 e), f), h)",
+      "pagina": 4
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Compatibilidade manilha × sapatilho",
+      "valor": "Intercambialidade teórica: 0,757·ds < dm < 1,27·ds (dm = Ø da manilha, ds = tamanho do sapatilho)",
+      "norma": "NBR-13543",
+      "item": "4.2.2; Anexo A, Tabela A.1, Nota 1",
+      "pagina": 11,
+      "nota": "A matriz completa de compatibilidade (X e •) está na Tabela A.1."
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Temperatura (laço de cabo)",
+      "valor": "Acima de 100 °C: consultar o fabricante",
+      "max": 100,
+      "unidade": "°C",
+      "norma": "NBR-13543",
+      "item": "4.4 f)",
+      "pagina": 8
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Cable-laid sling — construção (IMCA)",
+      "valor": "6 cabos unitários sobre 1 cabo central; Ø do cabo central 12 % a 25 % maior que o dos externos; passo do cabo 6 a 7,5 × Ø nominal; cabos unitários de 6 ou 8 pernas com alma de aço; proibido cabo compactado",
+      "norma": "IMCA-M179",
+      "item": "2.1; 2.3",
+      "pagina": 5
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Cable-laid sling — comprimento (IMCA)",
+      "valor": "Comprimento nominal medido com tração de 3 % do CRBL; tolerância ±1,5 d; pares casados: diferença ≤ 0,5 d; marcar linha longitudinal após a medição",
+      "norma": "IMCA-M179",
+      "item": "2.2; Tabela 1",
+      "pagina": 5,
+      "nota": "Diâmetros de pino de medição: tabela 'IMCA — pinos'.",
+      "cota": "esquemas/lingadas-acessorios-cable-laid-olhal.svg#L1"
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Cable-laid sling — rating (IMCA)",
+      "valor": "CRBL = ΣFmin × CL / K (CL = 0,85; K = 9,81); CSBL = CRBL × ET (ET = 0,75 para trançado manual); WLL = CSBL / f, f ≥ 2,25",
+      "norma": "IMCA-M179",
+      "item": "3.1–3.3",
+      "pagina": 7
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Grommet — rating (IMCA)",
+      "valor": "CGBL = 12 × Fmin × CL / K (núcleo descontado); WLL = CGBL × EB / f, f ≥ 2,25; marcar em vermelho a junta/tuck (a ~0,25 do comprimento) e nunca dobrar nesse ponto",
+      "norma": "IMCA-M179",
+      "item": "5.1; 6.1; 6.2",
+      "pagina": 12
+    },
+    {
+      "grupo": "Cabo de aço e laços",
+      "parametro": "Tolerância de diâmetro do cabo (API 9A)",
+      "valor": "Diâmetro nominal em polegadas: −0 % a +5 %; em mm: −1 % a +4 %; medido no círculo circunscrito, a ≥ 1,52 m (5 ft) da ponta amarrada, com paquímetro; em dúvida sobre o sobrediâmetro, medir sob tração de 10 % a 20 % da resistência nominal",
+      "norma": "API-9A",
+      "item": "5.4.1; 5.4.2",
+      "pagina": 30,
+      "nota": "5.4.1 e Figura 2: modo correto de medir. Edição antiga (24ª, 1995), voltada a cabos da indústria do petróleo.",
+      "cota": "esquemas/lingadas-acessorios-cabo-torcao-medicao.svg#d"
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Grampo e soquete de cunha — eficiência mínima (ASME)",
+      "valor": "Sem fator de projeto convencional; eficiência mínima de terminação 80 % da força de ruptura mínima publicada do cabo. Carga nominal da montagem = f(MBF do cabo, 80 %, fator de projeto da aplicação)",
+      "min": 80,
+      "unidade": "%",
+      "norma": "ASME-B30.26",
+      "item": "26-3.2; 26-3.3",
+      "pagina": 29
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Montagem de grampos (ASME)",
+      "valor": "Grampo U: sela na parte VIVA, U na parte morta; nº mínimo, espaçamento, retorno (turn-back) e torque conforme fabricante; carregar até a carga de trabalho esperada e REAPERTAR ao torque após descarregar",
+      "norma": "ASME-B30.26",
+      "item": "26-3.1.3",
+      "pagina": 29,
+      "cota": "esquemas/lingadas-acessorios-grampos-montagem.svg#B"
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Grampos não devem fabricar lingas (ASME)",
+      "valor": "Grampos de cabo não devem ser usados para fabricar lingas (exceções na ASME B30.9); não devem tocar a carga",
+      "norma": "ASME-B30.26",
+      "item": "26-3.9.4.1 (b), (f)",
+      "pagina": 33
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Montagem de soquete de cunha (ASME)",
+      "valor": "Parte viva alinhada com o pino; cunha compatível com o corpo (NUNCA trocar cunhas entre fabricantes/modelos); cauda presa conforme fabricante, sem prender a parte morta à viva; carregar para assentar a cunha antes do uso; não carregar lateralmente; evitar impactos",
+      "norma": "ASME-B30.26",
+      "item": "26-3.1.4; 26-3.9.4.2",
+      "pagina": 29
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Carga de prova — grampos/soquetes (ASME)",
+      "valor": "Se exigida: 40 % a 50 % da força de ruptura mínima do cabo, aplicada à montagem; reapertar grampos após a prova",
+      "min": 40,
+      "max": 50,
+      "unidade": "%",
+      "norma": "ASME-B30.26",
+      "item": "26-3.4",
+      "pagina": 32
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Grampo leve — restrição (NBR)",
+      "valor": "NÃO pode ser usado em içamento de cargas; só esforços pequenos (prateleiras leves, guarda-corpos); carga de trabalho ≤ 10 % da CRM do cabo",
+      "max": 10,
+      "unidade": "%",
+      "norma": "NBR-11900-4",
+      "item": "A.1",
+      "pagina": 15
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Grampo pesado — restrição (NBR)",
+      "valor": "Só movimentações horizontais, cabos estáticos (estais) e fixação da extremidade do cabo em equipamento de elevação; NÃO pode ser usado na confecção de linga de cabo de aço",
+      "norma": "NBR-11900-4",
+      "item": "B.1",
+      "pagina": 17
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Montagem de grampos (NBR)",
+      "valor": "Base na parte viva, U na parte morta; 1º grampo junto à ponta da parte morta, a ≥ B (largura do corpo do grampo) da extremidade; 2º junto ao olhal/sapatilho; demais equidistantes entre os dois; apertar alternadamente até o torque da tabela; grampo de tamanho = Ø do cabo (intermediário: o maior seguinte)",
+      "norma": "NBR-11900-4",
+      "item": "A.3; B.2",
+      "pagina": 17,
+      "nota": "Grampo leve: espaçamento L ≈ 6 × Ø do cabo (A.3). Ver Figura B.1.",
+      "cota": "esquemas/lingadas-acessorios-grampos-montagem.svg#B"
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Grampo pesado — desempenho (NBR)",
+      "valor": "Olhal com grampos pesados: ≥ 80 % da CRM do cabo por 5 min com escorregamento ≤ 1 mm; fadiga ≥ 20 000 ciclos (15–30 % CRM)",
+      "min": 80,
+      "unidade": "%",
+      "norma": "NBR-11900-4",
+      "item": "6.1; 6.2",
+      "pagina": 12
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Soquete de cunha — construção (NBR)",
+      "valor": "Parte viva perpendicular ao eixo do pino e alinhada com o lado do pino; diferença entre ângulos da cunha (α) e do corpo (β) ≤ 2; comprimento de contato cunha–corpo P ≥ 4,3 × Ø do cabo; pino com contrapino",
+      "norma": "NBR-11900-2",
+      "item": "4.1 a)–d); 4.2",
+      "pagina": 9,
+      "nota": "A norma imprime 'não pode ser maior do que 2' sem unidade (presumivelmente graus). Projeto 1: β = 14 ± 0,5° (A.2); Projeto 2: β = 15 ± 1° (B.2).",
+      "cota": "esquemas/lingadas-acessorios-soquete-cunha.svg#P"
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Soquete de cunha — eficiência e Charpy (NBR)",
+      "valor": "Eficiência ≥ 80 % da CRM do cabo; Charpy a −20 °C: aço (corpo e pino) média ≥ 27 J, individual ≥ 18 J; ferro fundido nodular média ≥ 12 J, individual ≥ 9 J",
+      "norma": "NBR-11900-2",
+      "item": "5.4; 5.5; 6.2.5",
+      "pagina": 10,
+      "nota": "Temperatura de ensaio em 6.2.5. Prova de fabricação: 40 % da CRM do cabo de maior resistência (6.3.1)."
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Soquete de cunha — montagem/uso (NBR)",
+      "valor": "Não misturar corpo e cunha de fabricantes/projetos diferentes; remontar só encurtando o cabo; assentar a cunha com ~10 % da CMR do cabo antes do serviço; cauda (parte morta) presa com grampo pesado ou amarração — medida X ≤ 75 % do comprimento da cunha",
+      "norma": "NBR-11900-2",
+      "item": "C.2.3; C.2.4; C.2.9; C.2.10",
+      "pagina": 19,
+      "nota": "Ver C.2.9 e C.2.10/Figura C.2."
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Soquete de cunha — ensaio de segurança da cunha",
+      "valor": "Após o assentamento inicial, nenhum movimento relativo entre cabo e terminal durante 2 min",
+      "norma": "NBR-11900-2",
+      "item": "5.1",
+      "pagina": 9
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Soquete de cunha — carga de prova / deformação",
+      "valor": "Nenhuma dimensão dos braços do corpo e do pino pode variar mais de 2 %; após a carga, o pino deve girar livremente",
+      "norma": "NBR-11900-2",
+      "item": "5.2",
+      "pagina": 10
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Soquete de cunha — fadiga",
+      "valor": "Sem trincas no corpo e no pino após 75 000 ciclos; sem deformação permanente nos olhais do pino",
+      "norma": "NBR-11900-2",
+      "item": "5.3",
+      "pagina": 10
+    },
+    {
+      "grupo": "Terminais (prensado, soquete, grampos)",
+      "parametro": "Soquete de cunha — ensaio de tipo",
+      "valor": "2 amostras de cada tamanho, montadas no cabo de maior carga de ruptura mínima; ordem: segurança da cunha → deformação → fadiga → eficiência (máquina NBR ISO 7500-1)",
+      "norma": "NBR-11900-2",
+      "item": "6.2",
+      "pagina": 10
+    },
+    {
+      "grupo": "Correntes grau 8",
+      "parametro": "Construção da linga de corrente",
+      "valor": "Elo em forma de pera NÃO pode ser terminal; dispositivo mecânico de ligação com capacidade ≥ da corrente; projeto sem desconexão não intencional",
+      "norma": "NBR-15516-1",
+      "item": "5.2; 5.3; 6.4",
+      "pagina": 12
+    },
+    {
+      "grupo": "Correntes grau 8",
+      "parametro": "Tolerância de comprimento (corrente)",
+      "valor": "Perna: comprimento nominal + 20 passos de elo; diferença entre pernas (sob força igual) ≤ 10 mm até 2 m, + 5 mm por metro acima de 2 m",
+      "norma": "NBR-15516-1",
+      "item": "6.5",
+      "pagina": 12,
+      "nota": "'+ 20 passos do elo' é o texto literal da norma — valor implausível (corrente 10 mm → ~600 mm); confirmar com o fabricante/edição vigente antes de usar.",
+      "cota": "esquemas/lingadas-acessorios-linga-corrente-2-pernas.svg#comprimento"
+    },
+    {
+      "grupo": "Correntes grau 8",
+      "parametro": "Componentes grau 8 — temperatura",
+      "valor": "Componentes podem ser usados até 400 °C sem alterar as propriedades quando de volta à temperatura ambiente",
+      "max": 400,
+      "unidade": "°C",
+      "norma": "NBR-15516-1",
+      "item": "7.2.2",
+      "pagina": 13,
+      "nota": "A redução de CMT por temperatura em uso está na Tabela A.1 da NBR 15516-2."
+    },
+    {
+      "grupo": "Correntes grau 8",
+      "parametro": "Linga de 1 perna",
+      "valor": "CMT = CMT da corrente usada",
+      "norma": "NBR-15516-1",
+      "item": "10.1",
+      "pagina": 14
+    },
+    {
+      "grupo": "Correntes grau 8",
+      "parametro": "Carga de prova da linga de corrente",
+      "valor": "Quando exigida: cada seção a 2 × sua CMT (fatores PL da Tabela 4); depois exame por pessoa qualificada. Corrente NBR ISO 3076 já provada a 60 % da carga de ruptura mínima",
+      "norma": "NBR-15516-1",
+      "item": "8.2; 11.1; 11.2; Tabela 4",
+      "pagina": 19,
+      "cota": "esquemas/lingadas-acessorios-trechos-prova-pl.svg#PL1"
+    },
+    {
+      "grupo": "Correntes grau 8",
+      "parametro": "Temperatura de uso (corrente grau 8)",
+      "valor": "Sem redução de −40 °C a 200 °C; 200–300 °C: 90 %; 300–400 °C: 75 %; > 400 °C: não permissível (retirar e enviar ao fabricante). Abaixo de −40 °C: consultar o fabricante",
+      "norma": "NBR-15516-2",
+      "item": "A.1.1.2.1; Tabela A.1",
+      "pagina": 8
+    },
+    {
+      "grupo": "Correntes grau 8",
+      "parametro": "Ambiente ácido (grau 8)",
+      "valor": "Não usar grau 8 imersa em ácido ou exposta a vapores ácidos; não galvanizar nem fazer deposição eletrolítica sem aprovação do fabricante",
+      "norma": "NBR-15516-2",
+      "item": "A.1.1.2.2.1",
+      "pagina": 9
+    },
+    {
+      "grupo": "Correntes grau 8",
+      "parametro": "Condições excepcionalmente perigosas",
+      "valor": "Atividades oceânicas (offshore), içamento de pessoas e cargas perigosas (metal fundido, corrosivos, físseis): grau de perigo avaliado por pessoa qualificada e CMT ajustada",
+      "norma": "NBR-15516-2",
+      "item": "A.1.1.3",
+      "pagina": 9,
+      "nota": "A classificação das normas de linga pressupõe ausência dessas condições — offshore, ver DNV/NORSOK."
+    },
+    {
+      "grupo": "Correntes grau 8",
+      "parametro": "Reparo de linga de corrente",
+      "valor": "Trocar qualquer elo de uma perna → trocar toda a corrente da perna; reparo soldado só pelo fabricante (topo por resistência) com prova a 2 × CMT após tratamento térmico; esmerilhar entalhes sem reduzir > 10 % da espessura nominal",
+      "norma": "NBR-15516-2",
+      "item": "A.2.3",
+      "pagina": 18
+    },
+    {
+      "grupo": "Cintas e roundslings (código de cores)",
+      "parametro": "Faixas de temperatura (cintas)",
+      "valor": "Poliéster (PES): −40 °C a +100 °C; poliamida (PA): −20 °C a +100 °C; polipropileno (PP): −20 °C a +80 °C",
+      "norma": "NBR-15637-1",
+      "item": "1.4; A.1.1.3",
+      "pagina": 7,
+      "nota": "Gelo (umidade) corta e enrijece a cinta."
+    },
+    {
+      "grupo": "Cintas e roundslings (código de cores)",
+      "parametro": "Código de cores por CMT (cinta plana)",
+      "valor": "1 t violeta; 2 t verde; 3 t amarela; 4 t cinza; 5 t vermelha; 6 t marrom; 8 t azul; 10 t laranja; > 10 t laranja",
+      "norma": "NBR-15637-1",
+      "item": "5.6; Tabela 3",
+      "pagina": 14,
+      "nota": "Outras capacidades não podem usar essas cores."
+    },
+    {
+      "grupo": "Cintas e roundslings (código de cores)",
+      "parametro": "Cor da etiqueta = material",
+      "valor": "Poliamida: verde; poliéster: azul; polipropileno: marrom",
+      "norma": "NBR-15637-1",
+      "item": "8.2.2",
+      "pagina": 23
+    },
+    {
+      "grupo": "Cintas e roundslings (código de cores)",
+      "parametro": "Fator de segurança (cinta)",
+      "valor": "Verificação: a cinta deve resistir a 7 × CMT (sem acessórios metálicos) ou 4 × CMT (com acessórios metálicos)",
+      "norma": "NBR-15637-1",
+      "item": "5.8.3; 5.9.2",
+      "pagina": 15
+    },
+    {
+      "grupo": "Cintas e roundslings (código de cores)",
+      "parametro": "Resistência química",
+      "valor": "PES: resiste à maioria dos ácidos minerais, atacado por álcalis; PA: imune a álcalis, atacada por ácidos minerais; PP: pouco afetado por ácidos e álcalis (exceto solventes). Evitar acessórios grau 8 em meio ácido",
+      "norma": "NBR-15637-1",
+      "item": "A.1.1.2",
+      "pagina": 25
+    },
+    {
+      "grupo": "Cintas e roundslings (código de cores)",
+      "parametro": "Olhal da cinta × gancho",
+      "valor": "Comprimento do olhal ≥ 3,5 × espessura máxima do gancho; ângulo no olhal ≤ 20°; apoio essencialmente reto — se a largura < 150 mm, raio de curvatura ≥ 1,5 × largura; no máx. 2 pares de olhais no mesmo gancho",
+      "norma": "NBR-15637-1",
+      "item": "A.1.3.2",
+      "pagina": 26,
+      "nota": "Figura A.1: gancho com raio < 0,75 × largura acomoda mal a cinta.",
+      "cota": "esquemas/lingadas-acessorios-olhal-cinta-gancho.svg#comprimento-olhal"
+    },
+    {
+      "grupo": "Cintas e roundslings (código de cores)",
+      "parametro": "Boas práticas (cintas)",
+      "valor": "Sem torção nem nós; não emendar cintas; costura fora do gancho; proteger de cantos vivos e abrasão; usar cintas aos pares com balancim; cabo-guia não metálico preferencialmente acima de 4,5 m em percursos longos",
+      "norma": "NBR-15637-1",
+      "item": "A.1.3.5; A.1.3.7–A.1.3.9",
+      "pagina": 27
+    },
+    {
+      "grupo": "Cintas e roundslings (código de cores)",
+      "parametro": "Roundslings (cintas tubulares)",
+      "valor": "Não cobertas pela NBR 15637-1 (só cintas planas) — parte da série NBR 15637 não disponível no acervo",
+      "norma": "NBR-15637-1",
+      "item": "1.1; 1.5",
+      "pagina": 7
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Manilha — fator de projeto (ASME)",
+      "valor": "Até 150 t (136 t métricas) de carga nominal: ≥ 5; acima de 150 t: ≥ 4",
+      "norma": "ASME-B30.26",
+      "item": "26-1.2",
+      "pagina": 18
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Manilha — carga de prova (ASME)",
+      "valor": "Não obrigatória (salvo pedido do comprador). Até 150 t: 2 a 2,2 × carga nominal; acima de 150 t: 1,33 a 2 ×",
+      "norma": "ASME-B30.26",
+      "item": "26-1.4",
+      "pagina": 18,
+      "nota": "26-1.4.2: ver o texto completo da norma (aba Texto completo)."
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Manilha — tipos (ASME)",
+      "valor": "Corpo âncora (curva), corrente (reta) ou para cinta sintética; pino roscado (screw pin) ou com porca e contrapino (bolt type). Manilha de pino redondo (só contrapino) fora do escopo",
+      "norma": "ASME-B30.26",
+      "item": "26-1.1.1",
+      "pagina": 18
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Manilha — práticas de uso (ASME)",
+      "valor": "Rosca do pino toda engajada e ombro encostado; carga centrada no corpo (bow); não aplicar várias pernas sobre o pino; em forca, o pino vai no olhal que estrangula; instalação de longo prazo: bolt type (ou pino travado); não montar de forma que o pino desenrosque",
+      "norma": "ASME-B30.26",
+      "item": "26-1.9.4",
+      "pagina": 20
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Manilha — temperatura (ASME)",
+      "valor": "Acima de 204 °C ou abaixo de −40 °C: consultar fabricante/pessoa qualificada",
+      "norma": "ASME-B30.26",
+      "item": "26-1.6.1",
+      "pagina": 19
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Acessórios ajustáveis — fator de projeto e prova (ASME)",
+      "valor": "Esticadores, eyebolts, eye nuts, swivel hoist rings: fator de projeto ≥ 5; carga de prova (se exigida) ≥ 2 × carga nominal; reparos de swivel hoist rings com buchas/rolamentos devem ser provados",
+      "norma": "ASME-B30.26",
+      "item": "26-2.2; 26-2.4",
+      "pagina": 22
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Eyebolt / swivel hoist ring — engajamento de rosca (ASME)",
+      "valor": "Furo cego roscado em aço: engajamento efetivo ≥ 1,5 × Ø do parafuso; furo passante roscado com espessura < 1 Ø: porca sob a carga; swivel: flange totalmente apoiada, SEM arruelas/espaçadores, torque do fabricante",
+      "norma": "ASME-B30.26",
+      "item": "26-2.9.4.2 (b)–(d); 26-2.9.4.4",
+      "pagina": 27,
+      "cota": "esquemas/lingadas-acessorios-eyebolt-engajamento-angulo.svg#engajamento"
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Temperaturas — ajustáveis (ASME)",
+      "valor": "Ajustáveis em geral: 204 °C / −40 °C; swivel hoist rings: 204 °C / −29 °C; eyebolts de aço carbono: 135 °C / −1 °C (fora disso consultar)",
+      "norma": "ASME-B30.26",
+      "item": "26-2.6.1",
+      "pagina": 22
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Elos, conjuntos de elo mestre, anéis e destorcedores (ASME)",
+      "valor": "Fator de projeto ≥ 5; prova: elos/anéis/destorcedores ≥ 2 × carga nominal; elos e anéis SOLDADOS e conjuntos de elo mestre: prova obrigatória antes do 1º uso (elos de acoplamento à carga nominal do conjunto; elo mestre a 2 ×)",
+      "norma": "ASME-B30.26",
+      "item": "26-4.2; 26-4.4",
+      "pagina": 34
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Destorcedor (swivel) — uso (ASME)",
+      "valor": "Acessório de posicionamento: não girar sob carga; só carga em linha",
+      "norma": "ASME-B30.26",
+      "item": "26-4.9.4.3",
+      "pagina": 37
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Conjunto de elo mestre — carga assimétrica (ASME)",
+      "valor": "Carregamento não simétrico exige análise por pessoa qualificada para não sobrecarregar elos de acoplamento",
+      "norma": "ASME-B30.26",
+      "item": "26-4.9.4.2 (i)",
+      "pagina": 37
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Moitão (rigging block) e dinamômetro (LID) (ASME)",
+      "valor": "Moitão: fator de projeto ≥ 4, prova 1,5 a 2 ×, consultar acima de 66 °C ou abaixo de −18 °C; carga nominal = carga no acessório principal (não o puxão da linha). LID: fator de projeto ≥ 4; calibração dentro de ±2 % da carga máxima do LID, com registro; LID: prova ≥ 2 × a carga nominal (26-6.4.2); consultar fabricante acima de 40 °C ou abaixo de −10 °C (26-6.6.1)",
+      "norma": "ASME-B30.26",
+      "item": "26-5.2–26-5.6; 26-6.2; 26-6.8.2",
+      "pagina": 39,
+      "nota": "LID: 26-6.2, 26-6.4.2, 26-6.6.1 e 26-6.8.2."
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Gancho — carga de prova (ASME B30.10)",
+      "valor": "Quando usada: 200 % da carga nominal até 50 t (short tons); decresce para 193 % (60 t) … 133 % a partir de 150 t; aumento permanente da abertura da garganta ≤ 1 % ou 0,02 in (0,5 mm), o que for maior",
+      "norma": "ASME-B30.10",
+      "item": "10-1.7; Tabela 10-1.7-1",
+      "pagina": 19,
+      "nota": "Ver tabela 'B30.10 — prova de ganchos'. Fator de projeto do gancho = o do equipamento do qual faz parte (10-1.5)."
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Gancho — identificação (ASME B30.10)",
+      "valor": "Identificação do fabricante e carga nominal forjadas, fundidas ou estampadas em área de baixa tensão e sem desgaste",
+      "norma": "ASME-B30.10",
+      "item": "10-1.8",
+      "pagina": 20
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Gancho com trava (latch) (ASME B30.10)",
+      "valor": "A trava só retém lingas frouxas; não é dispositivo anti-desengate; a carga não pode ficar apoiada no dispositivo que fecha a garganta; ganchos autotravantes devem estar travados em uso",
+      "norma": "ASME-B30.10",
+      "item": "10-1.11.1 (g)–(m)",
+      "pagina": 22
+    },
+    {
+      "grupo": "Marcação e certificação",
+      "parametro": "Marcação — manilha (ASME)",
+      "valor": "Corpo: fabricante, carga nominal, tamanho; pino: fabricante e grau/material/carga nominal; usuário mantém legível",
+      "norma": "ASME-B30.26",
+      "item": "26-1.5",
+      "pagina": 19
+    },
+    {
+      "grupo": "Marcação e certificação",
+      "parametro": "Marcação — ajustáveis, grampos, soquetes, elos (ASME)",
+      "valor": "Esticador/eyebolt/eye nut: fabricante, tamanho ou carga nominal (grau p/ eyebolt de liga); swivel hoist ring: fabricante, carga nominal, TORQUE; grampo (sela): fabricante e tamanho; soquete e cunha: fabricante, tamanho, modelo; elos/anéis/destorcedores: fabricante, tamanho ou carga nominal, grau",
+      "norma": "ASME-B30.26",
+      "item": "26-2.5; 26-3.5; 26-4.5",
+      "pagina": 22
+    },
+    {
+      "grupo": "Marcação e certificação",
+      "parametro": "Marcação — grampo NBR",
+      "valor": "Em relevo no corpo: tamanho nominal (TN), marca do fabricante; grampo pesado: letra 'P'",
+      "norma": "NBR-11900-4",
+      "item": "9",
+      "pagina": 13,
+      "nota": "Exemplos de marcação nas Figuras 3 e 4: ver o texto completo da norma (aba Texto completo)."
+    },
+    {
+      "grupo": "Marcação e certificação",
+      "parametro": "Marcação — soquete de cunha NBR",
+      "valor": "Corpo e cunha: marca do fabricante, faixa de TN, código de rastreabilidade do lote; pino: marca e lote (e faixa de TN se intercambiável)",
+      "norma": "NBR-11900-2",
+      "item": "7.2; Tabela 1",
+      "pagina": 13
+    },
+    {
+      "grupo": "Marcação e certificação",
+      "parametro": "Certificado — linga de corrente grau 8",
+      "valor": "Datado: fabricante/montador; nº de identificação; configuração; Ø nominal e grau 8; comprimento; CMT; CT (se aplicável); declaração de prova de produção; se provada: quem provou e valores; senão: quem fez a inspeção visual",
+      "norma": "NBR-15516-1",
+      "item": "12",
+      "pagina": 20,
+      "nota": "Ver o texto completo da norma (aba Texto completo)."
+    },
+    {
+      "grupo": "Marcação e certificação",
+      "parametro": "Marcação — linga de corrente grau 8",
+      "valor": "Plaqueta metálica no anel principal (ou elo adjacente) ou no próprio anel: CMT (kg ou t) — 1 perna; 'CMT 0° a 90° (0° a 45° com a vertical)' (uniforme, opcional 2ª CMT 90–120°) ou 'CMT a 90° (45°)' (trigonométrico); nº de identificação; grau 8; montadora; nº de pernas; Ø (opcional)",
+      "norma": "NBR-15516-1",
+      "item": "13.1–13.4",
+      "pagina": 21,
+      "nota": "Perdida a plaqueta: usar só a classificação de plaqueta remanescente; sem plaqueta, retirar de uso (13.5)."
+    },
+    {
+      "grupo": "Marcação e certificação",
+      "parametro": "Etiqueta — cinta plana",
+      "valor": "Parte A (interna): rastreabilidade; Parte B (exposta): material, comprimento, fabricante, rastreabilidade, modelo, CMT para todos os modos (Figura 4), data; etiqueta ≥ 35 mm (livre da costura) × ≥ 25 mm. Multi-pernas: ângulo máximo com a vertical na etiqueta",
+      "min": 35,
+      "unidade": "mm",
+      "norma": "NBR-15637-1",
+      "item": "8.2.3–8.2.5; 8.3",
+      "pagina": 23,
+      "cota": "esquemas/lingadas-acessorios-cinta-plana-largura-raio-gancho.svg#etiqueta"
+    },
+    {
+      "grupo": "Marcação e certificação",
+      "parametro": "Documentação — cinta plana",
+      "valor": "Fabricante; CMT nos modos de uso (e faixa de ângulos para multi-pernas); tipo, olhal, acessório, nº de pernas e comprimento; 'cinta plana'; material e temperatura limite; cuidados com cantos vivos; nº da norma; ensaios; rastreabilidade; instruções de uso",
+      "norma": "NBR-15637-1",
+      "item": "9",
+      "pagina": 24
+    },
+    {
+      "grupo": "Marcação e certificação",
+      "parametro": "Certificados — cable laid (IMCA)",
+      "valor": "Para cada linga/grommet: certificado de ensaio de consolidação (App. 2), de conformidade dimensional (App. 3A/3B) e de exame (App. 4, válido por no máximo 6 meses). Marcação: nº de identificação único; linga com linha longitudinal; grommet com tinta vermelha na junta",
+      "norma": "IMCA-M179",
+      "item": "7; 8",
+      "pagina": 13
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Inspeção de acessórios — frequências (ASME B30.26)",
+      "valor": "Inicial: antes do uso (novos, alterados, reparados). Frequente: visual a cada turno antes do uso. Periódica: intervalo ≤ 1 ano — normal anual; severo mensal a trimestral; especial conforme pessoa qualificada. Registros escritos não exigidos",
+      "norma": "ASME-B30.26",
+      "item": "26-1.8.2–26-1.8.4",
+      "pagina": 19,
+      "nota": "Mesmo texto para ajustáveis (26-2.8), compressão (26-3.8), elos (26-4.8) e moitões (26-5.8)."
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Critérios de remoção — manilhas (ASME)",
+      "valor": "Identificação ausente/ilegível; dano por calor (respingo, abertura de arco); pites/corrosão excessivos; componentes dobrados, torcidos, alongados, trincados; entalhes excessivos; redução de 10 % da dimensão original/catálogo em qualquer ponto do corpo ou pino; pino sem engajamento completo; rosca danificada; solda/modificação não autorizada",
+      "max": 10,
+      "unidade": "%",
+      "norma": "ASME-B30.26",
+      "item": "26-1.8.5",
+      "pagina": 19,
+      "nota": "Elos/anéis/destorcedores, ajustáveis e grampos/soquetes: mesmos 10 % (26-4.8.5, 26-2.8.5, 26-3.8.5)."
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Critérios de remoção — grampos e soquetes (ASME)",
+      "valor": "Além dos gerais: componentes substituídos sem autorização; nº insuficiente de grampos; grampos mal apertados; cabo danificado; escorregamento do cabo; montagem incorreta",
+      "norma": "ASME-B30.26",
+      "item": "26-3.8.5",
+      "pagina": 33
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Critérios de remoção — dinamômetro (LID) (ASME)",
+      "valor": "Dentro da zona sensora: NENHUMA redução da dimensão original/de catálogo; fora da zona sensora: redução de 5 %; display ilegível; componentes danificados",
+      "max": 5,
+      "unidade": "%",
+      "norma": "ASME-B30.26",
+      "item": "26-6.8.6 (f)–(i)",
+      "pagina": 49
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Gancho — inspeção (ASME B30.10)",
+      "valor": "Frequente: normal mensal; pesado semanal a mensal; severo diário a semanal. Periódica: ≤ 1 ano — normal anual; pesado semestral; severo trimestral; registros escritos exigidos na periódica",
+      "norma": "ASME-B30.10",
+      "item": "10-1.10.3; 10-1.10.4",
+      "pagina": 20
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Gancho — critérios de remoção (ASME B30.10)",
+      "valor": "Identificação ilegível; pites/corrosão; trincas, entalhes; desgaste > 10 % da seção original (ou do pino); qualquer flexão/torção visível fora do plano; aumento da abertura da garganta de 5 % (máx. 1/4 in = 6 mm); autotravante que não trava; trava inoperante; calor/solda/alteração não autorizada",
+      "norma": "ASME-B30.10",
+      "item": "10-1.10.5",
+      "pagina": 21,
+      "nota": "Reparo por esmerilhamento longitudinal sem reduzir dimensão > 10 % (10-1.10.6).",
+      "cota": "esquemas/lingadas-acessorios-gancho-angulos-remocao.svg#abertura-garganta"
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Laço de cabo — inspeção (NBR)",
+      "valor": "Visual antes de cada série de movimentações e a intervalos durante a série; inspeção completa por pessoa qualificada a intervalos ≤ 6 meses (menores se o serviço exigir)",
+      "max": 6,
+      "unidade": "meses",
+      "norma": "NBR-13543",
+      "item": "5.1; 5.3",
+      "pagina": 8,
+      "nota": "Visual procura: arames partidos, distorção, danos no trançado/presilha/acessórios, desgaste, calor, corrosão (5.2)."
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Laço de cabo — arames partidos distribuídos (NBR)",
+      "valor": "Retirar p/ inspeção completa se arames partidos visíveis em 6 d > 5 % dos arames do cabo. Substituir se: 10 arames partidos em 6 d (não p/ 6x7); 5 arames numa mesma perna em 6 d (não p/ 6x7); > 1 arame partido no interior em 6 d",
+      "norma": "NBR-13543",
+      "item": "5.4.1.2",
+      "pagina": 9,
+      "cota": "esquemas/lingadas-acessorios-arames-partidos-6d.svg#6d"
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Laço de cabo — rupturas localizadas (NBR)",
+      "valor": "Descartar com 3 ou mais arames partidos agrupados, ou arames partidos na união cabo–presilha acima de: 6 x 19 → 1; 6 x 37 → 2",
+      "norma": "NBR-13543",
+      "item": "5.4.1.3; Tabela 2",
+      "pagina": 9,
+      "cota": "esquemas/lingadas-acessorios-arames-partidos-6d.svg#6d"
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Laço de cabo — diâmetro, corrosão, deformação, calor (NBR)",
+      "valor": "Substituir com redução de 10 % do diâmetro nominal; descartar com dobra (nó), amassamento ou colapso da alma; suspeita de corrosão interna ou sob o amarrilho, descoloração/perda de lubrificação/arco elétrico → retirar e inspeção completa",
+      "max": 10,
+      "unidade": "%",
+      "norma": "NBR-13543",
+      "item": "5.4.2–5.4.5",
+      "pagina": 9,
+      "cota": "esquemas/lingadas-acessorios-diametro-cabo.svg#d"
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Laço de cabo — acessórios, presilhas, trançados (NBR)",
+      "valor": "Verificar: abertura/trinca do gancho; desgaste do anel ou fechamento do sapatilho; trincas, amassamento ou deslizamento da presilha; ruptura da base do olhal (pino grande demais); arames partidos no olhal (pino pequeno sem sapatilho)",
+      "norma": "NBR-13543",
+      "item": "5.4.6",
+      "pagina": 10
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Linga de corrente — retirar de serviço (NBR)",
+      "valor": "Marcação ilegível; terminais incompatíveis; corrente alongada/elos que não articulam; desgaste: média (d1 + d2)/2 < 0,9 × dn; cortes, entalhes, trincas, corrosão, descoloração por calor, elos dobrados; abertura de gancho aumentada > 10 % do nominal ou trava saindo",
+      "norma": "NBR-15516-2",
+      "item": "A.2.1",
+      "pagina": 17,
+      "nota": "Plaqueta perdida sem marcação no anel → retirar de serviço.",
+      "cota": "esquemas/lingadas-acessorios-desgaste-elos.svg#d1"
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Linga de corrente — inspeção completa (NBR)",
+      "valor": "Por pessoa qualificada a intervalos ≤ 12 meses (menores se necessário), com registro; limpar sem ácido, sobreaquecimento ou remoção de metal",
+      "max": 12,
+      "unidade": "meses",
+      "norma": "NBR-15516-2",
+      "item": "A.2.2",
+      "pagina": 17
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Cinta — defeitos e inspeção (NBR)",
+      "valor": "Desfiamento localizado; cortes transversais/longitudinais e na costura/olhais; ataque químico (descamação, amolecimento); dano por calor/fricção (fibras lisas, brilhantes, fundidas); acessórios deformados/trincados. Inspeção ao menos 1 vez por ano, com registro (NR-11); cinta sem identificação não pode ser usada",
+      "norma": "NBR-15637-1",
+      "item": "A.2.2; A.2.3; A.1.2.3",
+      "pagina": 29
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Soquete de cunha — inspeção em uso (NBR)",
+      "valor": "Inspecionar junto com o cabo: cabo junto ao corpo (NBR ISO 4309), trincas e deformação das alças, assentamento da cunha, pino/rosca/contrapino; examinar tudo a cada desmontagem; cunha, corpo ou pino danificado → substituir o soquete",
+      "norma": "NBR-11900-2",
+      "item": "C.3",
+      "pagina": 21,
+      "nota": "Ver C.3.2 c)–d) e C.3.3."
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Cable-laid — exame e descarte (IMCA)",
+      "valor": "Inspeção antes de cada uso; exame completo por pessoa competente INDEPENDENTE do dono a cada ≤ 6 meses em uso, antes de armazenagem longa e ao voltar de armazenagem > 6 meses. Retirar se arames partidos em 6 d > 5 % dos arames do cabo unitário; 3+ arames agrupados → avaliação; descartar com dobra, amassamento, colapso da alma; manter registro de içamentos",
+      "max": 6,
+      "unidade": "meses",
+      "norma": "IMCA-M179",
+      "item": "9.2; 10; App. 5",
+      "pagina": 15
+    },
+    {
+      "grupo": "Inspeção, critérios de descarte e remoção",
+      "parametro": "Equipamento de içamento de sonda — categorias (API RP 8B)",
+      "valor": "Cat. I: observação em operação, visual diária; Cat. II: I + corrosão, deformação, componentes soltos, lubrificação, trincas externas; Cat. III: II + END de áreas críticas (pode exigir desmontagem); Cat. IV: III + desmontagem e END de todos os componentes primários. Frequências sugeridas na Tabela 1 (diária a 5 anos conforme equipamento)",
+      "norma": "API-RP-8B",
+      "item": "5.3.2; Tabela 1",
+      "pagina": 12,
+      "nota": "Aplica-se a equipamento de içamento de perfuração (ganchos, elevadores, elos de elevador), não a lingadas."
+    },
+    {
+      "grupo": "Lingada certificada offshore (E273/E271/NORSOK)",
+      "parametro": "Certificado da linga (POU, DNV-ST-E273)",
+      "valor": "Fabricante; data (AAAA-MM-DD); nº do certificado; aprovação de tipo DNV; descrição com identificação única de cada componente; Ø e comprimento; MBL; data de fabricação/recertificação; confirmação de conformidade; assinatura DNV (ou fabricante com MSA). Cabo: grau dos terminais e do cabo + norma; corrente: grau + norma; linga com montagem travada: certificados das manilhas",
+      "norma": "DNV-ST-E273",
+      "item": "7.5.1; 7.5.2",
+      "pagina": 66,
+      "nota": "Certificados de material 3.1 (EN 10204) para correntes, manilhas, elos e cabos; 2.2 para sapatilhos e presilhas (7.4)."
+    },
+    {
+      "grupo": "Lingada certificada offshore (E273/E271/NORSOK)",
+      "parametro": "Certificado de componente (DNV-ST-E273)",
+      "valor": "Correntes, manilhas, elos mestre e acoplamentos: fabricante; data; nº; WLL; razão MBL/WLL mínima garantida; aprovação de tipo; descrição; norma; certificados de material; resultados de ensaios; identificação única; assinatura",
+      "norma": "DNV-ST-E273",
+      "item": "7.5.3",
+      "pagina": 67
+    },
+    {
+      "grupo": "Lingada certificada offshore (E273/E271/NORSOK)",
+      "parametro": "Marcação da lingada (DNV-ST-E273)",
+      "valor": "Manilhas com identificação única indelével (GN: punção de baixa tensão ≥ 5 mm na parte reta junto ao olho); plaqueta presa permanentemente ao conjunto superior com: CE (se aplicável); 'DNV 2.7-3'; nº do certificado/identificação; nº de pernas; Ø da corrente/cabo; MGW máxima e classe operacional da POU; ângulo máximo das pernas com a vertical; identificação de cada manilha. Duas lingas de 2 pernas usadas como 4 pernas: ambas marcadas como 4 pernas",
+      "norma": "DNV-ST-E273",
+      "item": "7.6",
+      "pagina": 67
+    },
+    {
+      "grupo": "Lingada certificada offshore (E273/E271/NORSOK)",
+      "parametro": "Certificado da linga (container, DNV-ST-E271)",
+      "valor": "Como na E273, mas com WLL e ângulo de projeto com a vertical (multi-pernas). WLL certificado/marcado = máxima classificação de container em que a linga pode ser usada, no ângulo dado (não é necessariamente igual à MGW do container)",
+      "norma": "DNV-ST-E271",
+      "item": "8.5; 8.5.1",
+      "pagina": 56,
+      "nota": "Ver 8.5.1 (final) e 8.5.2.",
+      "cota": "esquemas/lingadas-acessorios-lingada-4-pernas-forerunner.svg#beta"
+    },
+    {
+      "grupo": "Lingada certificada offshore (E273/E271/NORSOK)",
+      "parametro": "Plaqueta da lingada (container, DNV-ST-E271)",
+      "valor": "Metálica, gravada/estampada; OCTOGONAL para corrente grau 8 e REDONDA para cabo de aço; caracteres ≥ 4 mm; presa ao conjunto superior. Conteúdo: CE; 'DNV GL 2.7-1'; nº do certificado/identificação; nº de pernas; Ø; WLL da lingada; ângulo máx. com a vertical; identificação de cada manilha",
+      "min": 4,
+      "unidade": "mm",
+      "norma": "DNV-ST-E271",
+      "item": "8.6",
+      "pagina": 57,
+      "cota": "esquemas/lingadas-acessorios-plaqueta-lingada.svg#caracteres"
+    },
+    {
+      "grupo": "Lingada certificada offshore (E273/E271/NORSOK)",
+      "parametro": "Inspeção periódica da lingada (container)",
+      "valor": "Intervalo ≤ 1 ano conforme Tabela 9-2 (12 meses: visual 'V'; 48 meses: END ou prova em componentes e pernas de corrente 'VN/T'); após verificação, conferir a marcação (8.6). Prova antes de END e visual. Manilhas sem montagem travada podem ser inspecionadas separadamente",
+      "max": 12,
+      "unidade": "meses",
+      "norma": "DNV-ST-E271",
+      "item": "9.3.1; Tabela 9-2",
+      "pagina": 62,
+      "nota": "O container tem cronograma próprio (Tabela 9-1)."
+    },
+    {
+      "grupo": "Lingada certificada offshore (E273/E271/NORSOK)",
+      "parametro": "Prova de pernas de corrente (container)",
+      "valor": "2 × WLL de uma perna classificada pela EN 818-4 (Tabela 3), ±2 %, sem choque, mantida ≥ 2,5 min antes das medições; END por partículas magnéticas nos componentes (exceto pernas de cabo)",
+      "norma": "DNV-ST-E271",
+      "item": "9.3.2; 9.3.3",
+      "pagina": 63
+    },
+    {
+      "grupo": "Lingada certificada offshore (E273/E271/NORSOK)",
+      "parametro": "Marcação da lingada (NORSOK)",
+      "valor": "Marca do fabricante; nº/letras que ligam a linga ao certificado (Anexo C); WLL (conforme a norma); marcação legal (ex. CE); 'offboard lift'; referência ao desenho de rigging com os ângulos especificados. Plaqueta e fixação resistentes à corrosão, massa total < 70 g",
+      "max": 70,
+      "unidade": "g",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.4",
+      "pagina": 186
+    },
+    {
+      "grupo": "Lingada certificada offshore (E273/E271/NORSOK)",
+      "parametro": "Seleção alternativa de lingada (NORSOK, objetos F5)",
+      "valor": "Em vez do cálculo detalhado: lingas de cabo EN 13414-1 ou de corrente EN 818-4 grau 8 com fator de redução dinâmica R_DAF = 0,73 + 0,27 × √(50 / peso içado); WLLmin da lingada pela Tabela F.6",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.6 (F.13)",
+      "pagina": 187,
+      "nota": "√ da fórmula conferido com a Tabela F.6 (ex.: 2 t → 2,08). Ver tabela 'NORSOK F.6'."
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Gancho — temperatura de uso (ASME B30.10)",
+      "valor": "Consultar fabricante para uso acima de 400 °F (204 °C) ou abaixo de −40 °F (−40 °C)",
+      "min": -40,
+      "max": 204,
+      "unidade": "°C",
+      "norma": "ASME-B30.10",
+      "item": "10-1.9.1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Manilhas, olhais, ganchos e elos (ASME B30.26 / B30.10)",
+      "parametro": "Soquete de cunha (wedge socket) — temperatura (ASME B30.26)",
+      "valor": "Consultar fabricante acima de 400 °F (204 °C) ou abaixo de −4 °F (−20 °C)",
+      "min": -20,
+      "max": 204,
+      "unidade": "°C",
+      "norma": "ASME-B30.26",
+      "item": "26-3.6.1",
+      "pagina": 32,
+      "nota": "Grampos de cabo: 204 °C / −40 °C (ver nota de erros de impressão)."
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Escopo e tamanhos",
+      "valor": "Olhais forjados grau 4 para içamento geral, M8 a M100 × 6, WLL axial de 0,2 t a 50 t (Tabela 2)",
+      "norma": "ISO-3266",
+      "item": "1; Tabela 2",
+      "pagina": 15,
+      "nota": "Ver tabelas \"ISO 3266 — Tabela 2\" (dimensões) e \"Tabela 4\" (propriedades mecânicas)."
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Tolerâncias do olho",
+      "valor": "Desvio local de circularidade de +5 % no diâmetro interno E; tolerância de simetria de 5 % no diâmetro F",
+      "norma": "ISO-3266",
+      "item": "5",
+      "pagina": 13,
+      "cota": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#E"
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Rosca",
+      "valor": "ISO 261 passo grosso, classe de tolerância 6g (ISO 965-1); dg = diâmetro menor da rosca − 0,3 mm; saída de rosca com raio e colar rebaixado",
+      "norma": "ISO-3266",
+      "item": "6, Figura 2",
+      "pagina": 15,
+      "cota": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#dg"
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Fabricação",
+      "valor": "Forjado em peça única, sem solda; face inferior do colar usinada perpendicular ao eixo; rosca concêntrica com o colar",
+      "norma": "ISO-3266",
+      "item": "7",
+      "pagina": 16
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Material — S e P",
+      "valor": "Enxofre ≤ 0,025 % (corrida) / 0,04 % (produto); fósforo ≤ 0,030 % / 0,04 %; aço acalmado, grão austenítico 5 ou mais fino (ISO 643); Al total ≥ 0,025 % (orientação)",
+      "norma": "ISO-3266",
+      "item": "8.2, Tabela 3",
+      "pagina": 16
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Charpy",
+      "valor": "Média de 3 CPs a −20 °C ≥ 27 J; nenhum individual < 2/3 da média mínima; todos os tamanhos (CP de material equivalente se o olhal for pequeno)",
+      "min": 27,
+      "unidade": "J",
+      "norma": "ISO-3266",
+      "item": "8.3",
+      "pagina": 16
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Tratamento térmico",
+      "valor": "Têmpera acima de AC3 e revenimento, ou normalização acima de AC3, antes da prova; revenimento ≥ 475 °C (efeito ≥ 475 °C por 1 h)",
+      "min": 475,
+      "unidade": "°C",
+      "norma": "ISO-3266",
+      "item": "9",
+      "pagina": 17
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Dureza máxima",
+      "valor": "≤ 214 HBW ou ≤ 96 HRB",
+      "norma": "ISO-3266",
+      "item": "10.1",
+      "pagina": 17
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Carga inclinada (par de olhais)",
+      "valor": "Par com 0 < β ≤ 45°: carga máxima de trabalho do par = 1,4 × WLL; olhos no plano da linga com tolerância de ± 5°; calços ≤ metade do passo da rosca; nunca apertar demais para alinhar",
+      "norma": "ISO-3266",
+      "item": "11, Tabela 4 (nota a)",
+      "pagina": 18,
+      "nota": "β = ângulo da perna com a vertical (Figura 1). Para 3 ou mais olhais, consultar pessoa competente.",
+      "cota": "esquemas/lingadas-acessorios-eyebolt-iso3266-carga.svg#beta"
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Ensaio de deformação (tipo)",
+      "valor": "3 amostras às forças das colunas 3 (axial) e 6 (inclinada) da Tabela 4; deformação do diâmetro do olho ≤ 0,5 % e nenhuma no corpo roscado; dispositivo de ensaio com Ø ≤ 50 % de E",
+      "max": 0.5,
+      "unidade": "%",
+      "norma": "ISO-3266",
+      "item": "12.1; 12.2",
+      "pagina": 18,
+      "nota": "12.1: Ø do dispositivo."
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Ensaio de ruptura (tipo e lote)",
+      "valor": "Carga de ruptura axial ≥ mínimo da Tabela 4 (3 amostras no tipo; 1 por lote — se falhar, mais 2 e ambas passam)",
+      "norma": "ISO-3266",
+      "item": "12.3; 13.3.2",
+      "pagina": 19
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Prova de fabricação e END",
+      "valor": "Cada olhal (ou 3 % do lote, conforme opção 13.3.3) suporta a força de prova da Tabela 4; partículas magnéticas ou líquido penetrante (EN 10228-1/-2): indicações > 2 mm não permitidas em áreas tracionadas",
+      "max": 2,
+      "unidade": "mm",
+      "norma": "ISO-3266",
+      "item": "13.1; 13.2; 13.3.3",
+      "pagina": 19,
+      "nota": "13.3.3: opção a) prova em 100 % + END em 3 %; b) END em 100 % + prova em 3 %."
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Tamanho do lote",
+      "valor": "M8–M20: até 1000; M24–M48: até 500; M52–M100: até 200",
+      "norma": "ISO-3266",
+      "item": "13.3.1, Tabela 5",
+      "pagina": 20
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Marcação",
+      "valor": "Fabricante; tamanho nominal (ex. 24); WLL axial (ex. WLL 2,5 t); código de rastreabilidade",
+      "norma": "ISO-3266",
+      "item": "14",
+      "pagina": 20
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Registros do fabricante",
+      "valor": "Guardar por ≥ 10 anos após a última declaração (material, tratamento, dimensões, ensaios); declaração por remessa com norma, quantidade, rastreabilidade, WLL (t) e força de prova (kN)",
+      "norma": "ISO-3266",
+      "item": "15.1; 15.2",
+      "pagina": 21
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Uso — temperatura",
+      "valor": "Consultar o fabricante fora de −20 °C a 200 °C (informativo)",
+      "min": -20,
+      "max": 200,
+      "unidade": "°C",
+      "norma": "ISO-3266",
+      "item": "Anexo A, A.1",
+      "pagina": 22,
+      "nota": "Também 8.3."
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Uso — montagem",
+      "valor": "WLL marcada só para carga axial; inclinada com redução da Tabela 4 e no plano do olho ± 5°; furo roscado limpo, compatível e com comprimento suficiente; colar totalmente assentado; olhal único com carga que gira: gancho giratório; NÃO passar a linga direto pelos olhais nem pelas manilhas dos olhais (Fig. A.3)",
+      "norma": "ISO-3266",
+      "item": "Anexo A, A.1; A.2",
+      "pagina": 22,
+      "nota": "Ver Figuras A.2/A.3.",
+      "cota": "esquemas/lingadas-acessorios-eyebolt-iso3266-carga.svg#beta"
+    },
+    {
+      "grupo": "Olhal roscado forjado (eyebolt) — ISO 3266",
+      "parametro": "Inspeção",
+      "valor": "Marcação legível; rosca sem desgaste, corrosão, dano ou detritos; sem corpo torto, olho deformado, diâmetro reduzido no rebaixo, entalhes, trincas ou corrosão",
+      "norma": "ISO-3266",
+      "item": "Anexo A, A.3",
+      "pagina": 22
+    },
+    {
+      "grupo": "Balancim e dispositivos abaixo do gancho — ASME B30.20",
+      "parametro": "Escopo (Cap. 20-1)",
+      "valor": "Dispositivos estruturais e mecânicos abaixo do gancho: lifters de suporte (balancins, spreader/lifting beams), de pressão por indentação e por atrito; classificação, marcação, construção, inspeção, ensaio, manutenção e operação",
+      "norma": "ASME-B30.20",
+      "item": "20-1.1",
+      "pagina": 29,
+      "nota": "Cap. 20-2 vácuo, 20-3 eletroímãs, 20-4/20-5 grapples — ver índice do documento."
+    },
+    {
+      "grupo": "Balancim e dispositivos abaixo do gancho — ASME B30.20",
+      "parametro": "Projeto",
+      "valor": "Projetado por (ou sob supervisão direta de) pessoa qualificada, pela ASME BTH-1, para carga nominal + peso próprio; Design Category B (resistência estática) e Service Class conforme o nº de ciclos — Category A só se a pessoa qualificada demonstrar cargas previsíveis ≤ capacidade, condições bem definidas, serviço não severo e ciclos ≤ Service Class 0",
+      "norma": "ASME-B30.20",
+      "item": "20-1.2.2",
+      "pagina": 29
+    },
+    {
+      "grupo": "Balancim e dispositivos abaixo do gancho — ASME B30.20",
+      "parametro": "Solda e componentes",
+      "valor": "Solda conforme AWS D14.1 e ASME BTH-1; lingas conforme ASME B30.9, ganchos B30.10, acessórios B30.26; alteração/re-classificação só aprovada pelo fabricante ou pessoa qualificada, com novo ensaio (20-1.3.8)",
+      "norma": "ASME-B30.20",
+      "item": "20-1.2.2 (a)–(g)",
+      "pagina": 30
+    },
+    {
+      "grupo": "Balancim e dispositivos abaixo do gancho — ASME B30.20",
+      "parametro": "Marcação",
+      "valor": "Carga nominal legível na estrutura (e em cada lifter destacável); fabricante e endereço, nº de série, peso se > 45 kg (100 lb), corrente/tensão quando aplicável, BTH-1 Design Category e Service Class; etiquetas de segurança (ANSI Z535.4)",
+      "norma": "ASME-B30.20",
+      "item": "20-1.2.1",
+      "pagina": 29,
+      "nota": "Reparados/alterados: identificação do reparador e dados alterados (20-1.2.1 c)."
+    },
+    {
+      "grupo": "Balancim e dispositivos abaixo do gancho — ASME B30.20",
+      "parametro": "Inspeção frequente (visual, sem registro)",
+      "valor": "Serviço normal: mensal; pesado: semanal a mensal; severo: diário a semanal; especial: antes e depois de cada uso, conforme pessoa qualificada",
+      "norma": "ASME-B30.20",
+      "item": "20-1.3.1 (b)(2); Tabela 20-1.3.3-1",
+      "pagina": 30,
+      "nota": "Itens: deformação, trincas, desgaste; proteções/fixadores/batentes/placas soltos ou faltando; mecanismos de retenção e liberação."
+    },
+    {
+      "grupo": "Balancim e dispositivos abaixo do gancho — ASME B30.20",
+      "parametro": "Inspeção periódica (com registro)",
+      "valor": "Serviço normal: anual; pesado: semestral; severo: trimestral; especial: antes do 1º uso e conforme pessoa qualificada",
+      "norma": "ASME-B30.20",
+      "item": "20-1.3.1 (b)(3); 20-1.3.4",
+      "pagina": 30,
+      "nota": "20-1.3.4: parafusos soltos, engrenagens/polias/rolamentos/correntes, desgaste em pinos e pontos de pega, etiquetas."
+    },
+    {
+      "grupo": "Balancim e dispositivos abaixo do gancho — ASME B30.20",
+      "parametro": "Dispositivo parado",
+      "valor": "Parado 1 mês a 1 ano: inspeção frequente antes de voltar; parado ≥ 1 ano: inspeção periódica",
+      "norma": "ASME-B30.20",
+      "item": "20-1.3.5",
+      "pagina": 32
+    },
+    {
+      "grupo": "Balancim e dispositivos abaixo do gancho — ASME B30.20",
+      "parametro": "Ensaio de carga",
+      "valor": "Antes do 1º uso (novo, alterado ou reparado) — recomendado (should); se feito: carga nominal ≤ 80 % da maior carga sustentada no ensaio; carga de ensaio ≤ 125 % da carga nominal (salvo recomendação do fabricante); depois, inspeção visual de deformação e trincas; relatório escrito da pessoa qualificada",
+      "max": 125,
+      "unidade": "%",
+      "norma": "ASME-B30.20",
+      "item": "20-1.3.8.2",
+      "pagina": 32,
+      "nota": "80 % e 125 % levam à mesma relação: ensaio = 1,25 × carga nominal."
+    },
+    {
+      "grupo": "Balancim e dispositivos abaixo do gancho — ASME B30.20",
+      "parametro": "Operação",
+      "valor": "Não exceder a carga nominal do dispositivo nem a capacidade do equipamento de içamento com o peso combinado de carga + dispositivo + acessórios; sem puxão lateral ou arraste salvo autorização da pessoa qualificada; não passar carga sobre pessoas; não deixar carga suspensa",
+      "norma": "ASME-B30.20",
+      "item": "20-1.4.2 (a)(6); 20-1.4.4",
+      "pagina": 33
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Terminação por emenda (splice) — cable-laid",
+      "valor": "Pontas dos cabos externos após o último tuck ≥ 3 × diâmetro; comprimento livre (não deformado) entre emendas ≥ 15d; método A ≥ 5 tucks, método B ≥ 6 tucks",
+      "norma": "IMCA-M179",
+      "item": "4",
+      "pagina": 9,
+      "cota": "esquemas/lingadas-acessorios-cable-laid-olhal.svg#cauda"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Grommet — tolerâncias e proporções",
+      "valor": "Tolerância de fabricação da circunferência ±3,0d (efetivamente 1,5d); pares casados 1,0d (efetivamente 0,5d); circunferência ≥ 5 × passo de torção do cabo; amarração (seizing) ≥ 2 × diâmetro; dimensão h ≥ 2w",
+      "norma": "IMCA-M179",
+      "item": "5.1; 5.2 (h ≥ 2w também em 2.2)",
+      "pagina": 10,
+      "cota": "esquemas/lingadas-acessorios-cable-laid-olhal.svg#h"
+    },
+    {
+      "grupo": "Fatores de modo e ângulo",
+      "parametro": "Olhal da linga dobrado sobre diâmetro menor que d",
+      "valor": "Se o olhal da linga for dobrado sobre diâmetro menor que d, é necessário reduzir a capacidade (derating)",
+      "norma": "IMCA-M179",
+      "item": "3.4, Nota 2",
+      "pagina": 8
+    }
+  ],
+  "tabelas": [
+    {
+      "id": "nbr15516-1-t2-uniforme",
+      "titulo": "Linga de corrente grau 8 — CMT (t) pelo método uniforme",
+      "norma": "NBR-15516-1",
+      "item": "10.2.2, Tabela 2",
+      "pagina": 17,
+      "unidade": "t",
+      "colunas": [
+        "Ø nominal da corrente (mm)",
+        "1 perna",
+        "2 pernas β 0–45°",
+        "2 pernas β 45–60°",
+        "3 e 4 pernas β 0–45°",
+        "3 e 4 pernas β 45–60°"
+      ],
+      "linhas": [
+        [
+          6,
+          1.1,
+          1.5,
+          1.1,
+          2.3,
+          1.6
+        ],
+        [
+          7,
+          1.5,
+          2.1,
+          1.5,
+          3.1,
+          2.2
+        ],
+        [
+          8,
+          2,
+          2.8,
+          2,
+          4.2,
+          3
+        ],
+        [
+          10,
+          3.2,
+          4.4,
+          3.2,
+          6.7,
+          4.8
+        ],
+        [
+          13,
+          5.4,
+          7.5,
+          5.4,
+          11.3,
+          8.1
+        ],
+        [
+          16,
+          8,
+          11.2,
+          8,
+          16.8,
+          12
+        ],
+        [
+          18,
+          10,
+          14,
+          10,
+          21,
+          15
+        ],
+        [
+          19,
+          11.5,
+          16.1,
+          11.5,
+          24.1,
+          17.2
+        ],
+        [
+          20,
+          12.5,
+          17.5,
+          12.5,
+          26.2,
+          18.7
+        ],
+        [
+          22,
+          15.5,
+          21.7,
+          15.5,
+          32.5,
+          23.2
+        ],
+        [
+          23,
+          16.9,
+          23.6,
+          16.9,
+          35.4,
+          25.3
+        ],
+        [
+          25,
+          20,
+          28,
+          20,
+          42,
+          30
+        ],
+        [
+          26,
+          21.6,
+          30.2,
+          21.6,
+          45.3,
+          32.4
+        ],
+        [
+          28,
+          25,
+          35,
+          25,
+          52.5,
+          37.5
+        ],
+        [
+          32,
+          32,
+          44.8,
+          32,
+          67.2,
+          48
+        ],
+        [
+          36,
+          40,
+          56,
+          40,
+          84,
+          60
+        ],
+        [
+          40,
+          50,
+          70,
+          50,
+          105,
+          75
+        ],
+        [
+          45,
+          63,
+          88.2,
+          63,
+          132.3,
+          94.5
+        ]
+      ],
+      "nota": "β = ângulo da perna com a vertical (0–45° ↔ 0–90° entre pernas; 45–60° ↔ 90–120°). Valores multi-pernas = 1 perna × fator (1,4 / 1,0 / 2,1 / 1,5), arredondados para baixo — conferidos.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg"
+      ],
+      "cotas": {
+        "2 pernas β 0–45°": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta",
+        "2 pernas β 45–60°": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta",
+        "3 e 4 pernas β 0–45°": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta",
+        "3 e 4 pernas β 45–60°": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta"
+      }
+    },
+    {
+      "id": "nbr15516-1-t3-trigonometrico",
+      "titulo": "Linga de corrente grau 8 — CMT (t) pelo método trigonométrico",
+      "norma": "NBR-15516-1",
+      "item": "10.2.3, Tabela 3",
+      "pagina": 18,
+      "unidade": "t",
+      "colunas": [
+        "Ø nominal da corrente (mm)",
+        "1 perna",
+        "2 pernas β 15°",
+        "2 pernas β 30°",
+        "2 pernas β 45°",
+        "2 pernas β 60°",
+        "3/4 pernas β 15°",
+        "3/4 pernas β 30°",
+        "3/4 pernas β 45°",
+        "3/4 pernas β 60°"
+      ],
+      "linhas": [
+        [
+          6,
+          1.1,
+          2.1,
+          1.9,
+          1.5,
+          1.1,
+          3.1,
+          2.8,
+          2.3,
+          1.6
+        ],
+        [
+          7,
+          1.5,
+          2.8,
+          2.5,
+          2.1,
+          1.5,
+          4.3,
+          3.8,
+          3.1,
+          2.2
+        ],
+        [
+          8,
+          2,
+          3.8,
+          3.4,
+          2.8,
+          2,
+          5.7,
+          5.1,
+          4.2,
+          3
+        ],
+        [
+          10,
+          3.2,
+          6.1,
+          5.5,
+          4.5,
+          3.2,
+          9.2,
+          8.3,
+          6.7,
+          4.8
+        ],
+        [
+          13,
+          5.4,
+          10.4,
+          9.3,
+          7.6,
+          5.4,
+          15.6,
+          14,
+          11.4,
+          8.1
+        ],
+        [
+          16,
+          8,
+          15.4,
+          13.8,
+          11.3,
+          8,
+          23.1,
+          20.7,
+          16.9,
+          12
+        ],
+        [
+          18,
+          10,
+          19.3,
+          17.3,
+          14.1,
+          10,
+          28.9,
+          25.9,
+          21.2,
+          15
+        ],
+        [
+          19,
+          11.5,
+          22.2,
+          19.9,
+          16.2,
+          11.5,
+          33.3,
+          29.8,
+          24.3,
+          17.2
+        ],
+        [
+          20,
+          12.5,
+          24.1,
+          21.6,
+          17.6,
+          12.5,
+          36.2,
+          32.4,
+          26.5,
+          18.7
+        ],
+        [
+          22,
+          15.5,
+          29.9,
+          26.8,
+          21.9,
+          15.5,
+          44.9,
+          40.2,
+          32.8,
+          23.2
+        ],
+        [
+          23,
+          16.9,
+          32.6,
+          29.2,
+          23.9,
+          16.9,
+          48.9,
+          43.9,
+          35.8,
+          25.3
+        ],
+        [
+          25,
+          20,
+          38.6,
+          34.6,
+          28.2,
+          20,
+          57.9,
+          51.9,
+          42.4,
+          30
+        ],
+        [
+          26,
+          21.6,
+          41.7,
+          37.4,
+          30.5,
+          21.6,
+          62.5,
+          56.1,
+          45.8,
+          32.4
+        ],
+        [
+          28,
+          25,
+          48.2,
+          43.3,
+          35.3,
+          25,
+          72.4,
+          64.9,
+          53,
+          37.5
+        ],
+        [
+          32,
+          32,
+          61.8,
+          55.4,
+          45.2,
+          32,
+          92.7,
+          83.1,
+          67.8,
+          48
+        ],
+        [
+          36,
+          40,
+          77.2,
+          69.2,
+          56.5,
+          40,
+          115.9,
+          103.9,
+          84.8,
+          60
+        ],
+        [
+          40,
+          50,
+          96.5,
+          86.6,
+          70.7,
+          50,
+          144.8,
+          129.9,
+          106,
+          75
+        ],
+        [
+          45,
+          63,
+          121.7,
+          109.1,
+          89.6,
+          63,
+          182.5,
+          163.6,
+          133.6,
+          94.5
+        ]
+      ],
+      "nota": "β com a vertical (α entre pernas = 2β: 30°, 60°, 90°, 120°). Conferido: 2·CMT·cos β e 3·CMT·cos β arredondados para baixo. EXCEÇÃO: Ø 45, 2 pernas, β 45° impresso '89,6' (conferido na imagem) — o cálculo dá 89,0; provável erro de impressão. Linga de 4 pernas com distribuição garantida pode usar 4·CMT·cos β (não tabelado).",
+      "consulta": false,
+      "figuras": [
+        "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg"
+      ],
+      "cotas": {
+        "2 pernas β 15°": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta",
+        "2 pernas β 30°": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta",
+        "2 pernas β 45°": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta",
+        "2 pernas β 60°": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta",
+        "3/4 pernas β 15°": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta",
+        "3/4 pernas β 30°": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta",
+        "3/4 pernas β 45°": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta",
+        "3/4 pernas β 60°": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta"
+      }
+    },
+    {
+      "id": "nbr15516-2-ta1-temperatura",
+      "titulo": "Linga de corrente — CMT (%) × temperatura",
+      "norma": "NBR-15516-2",
+      "item": "A.1.1.2.1, Tabela A.1",
+      "pagina": 8,
+      "unidade": "% da CMT",
+      "colunas": [
+        "Grau",
+        "−40 < t ≤ 200 °C",
+        "200 < t ≤ 300 °C",
+        "300 < t ≤ 400 °C",
+        "400 < t ≤ 475 °C",
+        "t ≥ 475 °C"
+      ],
+      "linhas": [
+        [
+          "4",
+          100,
+          100,
+          75,
+          50,
+          "não permissível"
+        ],
+        [
+          "8",
+          100,
+          90,
+          75,
+          "não permissível",
+          "não permissível"
+        ]
+      ],
+      "nota": "Sem redução permanente ao voltar à temperatura normal. Acima do máximo: retirar de serviço e enviar ao fabricante. Conferido na imagem.",
+      "consulta": false
+    },
+    {
+      "id": "nbr15516-2-ta2-pernas",
+      "titulo": "Linga de corrente — fator sobre a CMT marcada usando menos pernas",
+      "norma": "NBR-15516-2",
+      "item": "A.1.3.7, Tabela A.2",
+      "pagina": 16,
+      "unidade": "—",
+      "colunas": [
+        "Tipo de linga",
+        "Pernas usadas",
+        "Fator sobre a CMT marcada"
+      ],
+      "linhas": [
+        [
+          "2 pernas",
+          "1",
+          "1/2"
+        ],
+        [
+          "3 e 4 pernas",
+          "2",
+          "2/3"
+        ],
+        [
+          "3 e 4 pernas",
+          "1",
+          "1/3"
+        ]
+      ],
+      "consulta": false
+    },
+    {
+      "id": "nbr15637-1-t3-cintas",
+      "titulo": "Cintas planas — CMT efetiva (t) por cor e modo de amarração",
+      "norma": "NBR-15637-1",
+      "item": "5.6, Tabela 3",
+      "pagina": 14,
+      "unidade": "t",
+      "colunas": [
+        "CMT (t)",
+        "Cor",
+        "Vertical FU 1",
+        "Forca FU 0,8",
+        "Cesto vertical FU 2",
+        "Cesto β 7–45° FU 1,4",
+        "Cesto β 46–60° FU 1",
+        "2 pernas β 7–45° FU 1,4",
+        "2 pernas β 46–60° FU 1",
+        "3/4 pernas β 7–45° FU 2,1",
+        "3/4 pernas β 46–60° FU 1,5"
+      ],
+      "linhas": [
+        [
+          1,
+          "Violeta",
+          1,
+          0.8,
+          2,
+          1.4,
+          1,
+          1.4,
+          1,
+          2.1,
+          1.5
+        ],
+        [
+          2,
+          "Verde",
+          2,
+          1.6,
+          4,
+          2.8,
+          2,
+          2.8,
+          2,
+          4.2,
+          3
+        ],
+        [
+          3,
+          "Amarela",
+          3,
+          2.4,
+          6,
+          4.2,
+          3,
+          4.2,
+          3,
+          6.3,
+          4.5
+        ],
+        [
+          4,
+          "Cinza",
+          4,
+          3.2,
+          8,
+          5.6,
+          4,
+          5.6,
+          4,
+          8.4,
+          6
+        ],
+        [
+          5,
+          "Vermelha",
+          5,
+          4,
+          10,
+          7,
+          5,
+          7,
+          5,
+          10.5,
+          7.5
+        ],
+        [
+          6,
+          "Marrom",
+          6,
+          4.8,
+          12,
+          8.4,
+          6,
+          8.4,
+          6,
+          12.6,
+          9
+        ],
+        [
+          8,
+          "Azul",
+          8,
+          6.4,
+          16,
+          11.2,
+          8,
+          11.2,
+          8,
+          16.8,
+          12
+        ],
+        [
+          10,
+          "Laranja",
+          10,
+          8,
+          20,
+          14,
+          10,
+          14,
+          10,
+          21,
+          15
+        ],
+        [
+          "> 10",
+          "Laranja",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b"
+        ]
+      ],
+      "nota": "FU para carregamento simétrico; tolerância do 'vertical' até +6°. Acima de 10 t todas laranja, com o FU do modo. Conferido com a imagem da tabela (a nota 'b' não tem texto impresso).",
+      "consulta": false,
+      "figuras": [
+        "esquemas/lingadas-acessorios-cintas-modos-amarracao.svg"
+      ],
+      "cotas": {
+        "Cesto β 7–45° FU 1,4": "esquemas/lingadas-acessorios-cintas-modos-amarracao.svg#beta",
+        "Cesto β 46–60° FU 1": "esquemas/lingadas-acessorios-cintas-modos-amarracao.svg#beta",
+        "2 pernas β 7–45° FU 1,4": "esquemas/lingadas-acessorios-cintas-modos-amarracao.svg#beta",
+        "2 pernas β 46–60° FU 1": "esquemas/lingadas-acessorios-cintas-modos-amarracao.svg#beta",
+        "3/4 pernas β 7–45° FU 2,1": "esquemas/lingadas-acessorios-cintas-modos-amarracao.svg#beta",
+        "3/4 pernas β 46–60° FU 1,5": "esquemas/lingadas-acessorios-cintas-modos-amarracao.svg#beta"
+      }
+    },
+    {
+      "id": "nbr11900-4-ta1-grampo-leve",
+      "titulo": "Grampo tipo U LEVE — quantidade e torque (NÃO usar em içamento)",
+      "norma": "NBR-11900-4",
+      "item": "A.2, Tabela A.1",
+      "pagina": 15,
+      "unidade": "—",
+      "colunas": [
+        "Tamanho nominal (mm)",
+        "Torque de aperto (N·m)",
+        "Quantidade de grampos"
+      ],
+      "linhas": [
+        [
+          5,
+          2.0,
+          3
+        ],
+        [
+          6.5,
+          3.5,
+          3
+        ],
+        [
+          8,
+          6.0,
+          4
+        ],
+        [
+          10,
+          9.0,
+          4
+        ],
+        [
+          12,
+          20,
+          4
+        ],
+        [
+          13,
+          33,
+          4
+        ],
+        [
+          16,
+          49,
+          4
+        ],
+        [
+          19,
+          68,
+          5
+        ],
+        [
+          22,
+          107,
+          5
+        ],
+        [
+          26,
+          147,
+          5
+        ],
+        [
+          30,
+          212,
+          6
+        ],
+        [
+          34,
+          296,
+          6
+        ],
+        [
+          40,
+          363,
+          6
+        ]
+      ],
+      "nota": "Espaçamento ≈ 6 × Ø do cabo; carga de trabalho ≤ 10 % da CRM.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/lingadas-acessorios-grampos-montagem.svg"
+      ],
+      "cotas": {
+        "Tamanho nominal (mm)": "esquemas/lingadas-acessorios-grampos-montagem.svg#d"
+      }
+    },
+    {
+      "id": "nbr11900-4-tb1-grampo-pesado",
+      "titulo": "Grampo tipo U PESADO — quantidade, torque e parte morta",
+      "norma": "NBR-11900-4",
+      "item": "B.3, Tabela B.1",
+      "pagina": 19,
+      "unidade": "—",
+      "colunas": [
+        "Tamanho (pol.)",
+        "Ø nominal (mm)",
+        "Torque de aperto (N·m)",
+        "Comprimento da parte morta (mm)",
+        "Quantidade mínima de grampos"
+      ],
+      "linhas": [
+        [
+          "1/8",
+          "3 – 4",
+          6.1,
+          85,
+          2
+        ],
+        [
+          "3/16",
+          "5",
+          10.2,
+          95,
+          2
+        ],
+        [
+          "1/4",
+          "6 – 7",
+          20.3,
+          120,
+          2
+        ],
+        [
+          "5/16",
+          "8",
+          40.7,
+          133,
+          3
+        ],
+        [
+          "3/8",
+          "9 – 10",
+          61.0,
+          165,
+          3
+        ],
+        [
+          "7/16",
+          "11 – 12",
+          88,
+          178,
+          3
+        ],
+        [
+          "1/2",
+          "13",
+          88,
+          292,
+          3
+        ],
+        [
+          "5/8",
+          "16",
+          129,
+          305,
+          3
+        ],
+        [
+          "3/4",
+          "18 – 20",
+          176,
+          460,
+          4
+        ],
+        [
+          "7/8",
+          "22",
+          305,
+          480,
+          4
+        ],
+        [
+          "1",
+          "24 – 25",
+          305,
+          660,
+          5
+        ],
+        [
+          "1.1/8",
+          "28 – 30",
+          305,
+          860,
+          6
+        ],
+        [
+          "1.1/4",
+          "32 – 34",
+          488,
+          1120,
+          7
+        ],
+        [
+          "1.3/8",
+          "36",
+          488,
+          1120,
+          7
+        ],
+        [
+          "1.1/2",
+          "38 – 40",
+          488,
+          1370,
+          8
+        ],
+        [
+          "1.5/8",
+          "41 – 42",
+          583,
+          1470,
+          8
+        ],
+        [
+          "1.3/4",
+          "44 – 46",
+          800,
+          1550,
+          8
+        ],
+        [
+          "2",
+          "48 – 52",
+          1017,
+          1800,
+          8
+        ],
+        [
+          "2.3/4",
+          "68 – 72",
+          1017,
+          2540,
+          10
+        ],
+        [
+          "3",
+          "75 – 78",
+          1627,
+          2690,
+          10
+        ],
+        [
+          "3.1/2",
+          "89 – 90",
+          1627,
+          3780,
+          12
+        ]
+      ],
+      "nota": "Torques para roscas limpas, secas, sem lubrificação. Mais grampos → aumentar a parte morta proporcionalmente. A tabela não traz 2.1/4 e 2.1/2 pol. (existem na Tabela 2 de dimensões). Conferido na imagem.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/lingadas-acessorios-grampos-montagem.svg"
+      ],
+      "cotas": {
+        "Ø nominal (mm)": "esquemas/lingadas-acessorios-grampos-montagem.svg#d",
+        "Comprimento da parte morta (mm)": "esquemas/lingadas-acessorios-grampos-montagem.svg#A"
+      }
+    },
+    {
+      "id": "b3026-multiplicador-angulo",
+      "titulo": "ASME B30.26 — multiplicador de tensão × ângulo com a horizontal",
+      "norma": "ASME-B30.26",
+      "item": "Fig. 26-1.9.1-1",
+      "pagina": 20,
+      "unidade": "—",
+      "colunas": [
+        "Ângulo com a horizontal (°)",
+        "Multiplicador de tensão"
+      ],
+      "linhas": [
+        [
+          90,
+          1.0
+        ],
+        [
+          60,
+          1.155
+        ],
+        [
+          45,
+          1.414
+        ],
+        [
+          30,
+          2.0
+        ]
+      ],
+      "nota": "Mesma tabela nas Figs. 26-2.9.1-1 e 26-4.9.1-1. Ângulo medido da HORIZONTAL.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/lingadas-acessorios-angulo-carga-horizontal.svg"
+      ],
+      "cotas": {
+        "Ângulo com a horizontal (°)": "esquemas/lingadas-acessorios-angulo-carga-horizontal.svg#angulo-horizontal"
+      }
+    },
+    {
+      "id": "b3026-carga-lateral-manilha",
+      "titulo": "ASME B30.26 — redução da carga nominal da manilha com carga lateral",
+      "norma": "ASME-B30.26",
+      "item": "Fig. 26-1.9.4-2",
+      "pagina": 21,
+      "unidade": "—",
+      "colunas": [
+        "Ângulo de carga lateral (°)",
+        "Redução da carga nominal"
+      ],
+      "linhas": [
+        [
+          "0 a 5 (em linha)",
+          "nenhuma"
+        ],
+        [
+          "6 a 45",
+          "30 %"
+        ],
+        [
+          "46 a 90",
+          "50 %"
+        ],
+        [
+          "> 90",
+          "não recomendado — consultar fabricante"
+        ]
+      ],
+      "consulta": false,
+      "figuras": [
+        "esquemas/lingadas-acessorios-manilha-carga-lateral.svg"
+      ],
+      "cotas": {
+        "Ângulo de carga lateral (°)": "esquemas/lingadas-acessorios-manilha-carga-lateral.svg#angulo-lateral"
+      }
+    },
+    {
+      "id": "b3026-eyebolt-angular",
+      "titulo": "ASME B30.26 — eyebolt com ombro: % da carga nominal × ângulo",
+      "norma": "ASME-B30.26",
+      "item": "Fig. 26-2.1.1-2",
+      "pagina": 23,
+      "unidade": "%",
+      "colunas": [
+        "Ângulo (°)",
+        "% da carga nominal"
+      ],
+      "linhas": [
+        [
+          "0–5",
+          100
+        ],
+        [
+          "6–15",
+          55
+        ],
+        [
+          "16–90",
+          25
+        ]
+      ],
+      "nota": "Lido da figura (texto vetorial). Eyebolt sem ombro: só carga em linha.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/lingadas-acessorios-eyebolt-tipos-instalacao.svg",
+        "esquemas/lingadas-acessorios-eyebolt-engajamento-angulo.svg"
+      ],
+      "cotas": {
+        "Ângulo (°)": "esquemas/lingadas-acessorios-eyebolt-tipos-instalacao.svg#angulo"
+      }
+    },
+    {
+      "id": "b3010-prova-ganchos",
+      "titulo": "ASME B30.10 — carga de prova de ganchos",
+      "norma": "ASME-B30.10",
+      "item": "10-1.7, Tabela 10-1.7-1",
+      "pagina": 20,
+      "unidade": "—",
+      "colunas": [
+        "Carga nominal (short tons)",
+        "Carga nominal (kg)",
+        "Prova (% da nominal)",
+        "Prova mín. (short tons)",
+        "Prova mín. (kN)"
+      ],
+      "linhas": [
+        [
+          0.5,
+          453.6,
+          200,
+          1,
+          8.9
+        ],
+        [
+          1,
+          907.2,
+          200,
+          2,
+          17.8
+        ],
+        [
+          5,
+          4536,
+          200,
+          10,
+          89
+        ],
+        [
+          10,
+          9072,
+          200,
+          20,
+          178
+        ],
+        [
+          15,
+          13608,
+          200,
+          30,
+          267
+        ],
+        [
+          20,
+          18144,
+          200,
+          40,
+          356
+        ],
+        [
+          25,
+          22680,
+          200,
+          50,
+          445
+        ],
+        [
+          30,
+          27216,
+          200,
+          60,
+          534
+        ],
+        [
+          35,
+          31752,
+          200,
+          70,
+          623
+        ],
+        [
+          40,
+          36288,
+          200,
+          80,
+          712
+        ],
+        [
+          45,
+          40824,
+          200,
+          90,
+          801
+        ],
+        [
+          50,
+          45360,
+          200,
+          100,
+          890
+        ],
+        [
+          60,
+          54432,
+          193,
+          116,
+          1032.5
+        ],
+        [
+          75,
+          68040,
+          183,
+          137,
+          1219
+        ],
+        [
+          100,
+          90720,
+          166,
+          166,
+          1477
+        ],
+        [
+          125,
+          113400,
+          150,
+          188,
+          1673
+        ],
+        [
+          150,
+          136080,
+          133,
+          200,
+          1780
+        ],
+        [
+          175,
+          158760,
+          133,
+          233,
+          2074
+        ],
+        [
+          200,
+          181440,
+          133,
+          266,
+          2367
+        ],
+        [
+          250,
+          226800,
+          133,
+          333,
+          2964
+        ],
+        [
+          300,
+          272160,
+          133,
+          399,
+          3551
+        ],
+        [
+          350,
+          317520,
+          133,
+          465,
+          4139
+        ],
+        [
+          400,
+          362880,
+          133,
+          532,
+          4735
+        ],
+        [
+          450,
+          408240,
+          133,
+          598,
+          5322
+        ],
+        [
+          500,
+          453600,
+          133,
+          665,
+          5919
+        ],
+        [
+          "> 500",
+          "> 453 600",
+          133,
+          "—",
+          "—"
+        ]
+      ],
+      "nota": "1 short ton = 2 000 lb (8,9 kN). Carga não tabelada: usar a classificação imediatamente inferior para o %.",
+      "consulta": false
+    },
+    {
+      "id": "nbr6327-tolerancia-diametro",
+      "titulo": "Cabo de aço — tolerância de diâmetro e diferença entre medições (% do Ø nominal)",
+      "norma": "NBR-6327",
+      "item": "4.4.1.2–4.4.1.3, Tabelas 2 e 3",
+      "pagina": 7,
+      "unidade": "%",
+      "colunas": [
+        "Ø nominal d (mm)",
+        "Tolerância — pernas só de arame / alma polímero",
+        "Tolerância — pernas com alma de fibra",
+        "Dif. entre 2 medições — arame/polímero",
+        "Dif. entre 2 medições — alma de fibra"
+      ],
+      "linhas": [
+        [
+          "2 ≤ d < 4",
+          "+8 / 0",
+          "—",
+          7,
+          "—"
+        ],
+        [
+          "4 ≤ d < 6",
+          "+7 / 0",
+          "+9 / 0",
+          6,
+          8
+        ],
+        [
+          "6 ≤ d < 8",
+          "+6 / 0",
+          "+8 / 0",
+          5,
+          7
+        ],
+        [
+          "≥ 8",
+          "+5 / 0",
+          "+7 / 0",
+          4,
+          6
+        ]
+      ],
+      "nota": "Alma de fibra nas pernas: ex. 6 x 24 AF. Documento usado = Projeto ABNT NBR 6327:2006.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/lingadas-acessorios-diametro-cabo.svg"
+      ],
+      "cotas": {
+        "Ø nominal d (mm)": "esquemas/lingadas-acessorios-diametro-cabo.svg#d"
+      }
+    },
+    {
+      "id": "imca-m179-pinos",
+      "titulo": "IMCA M179 — diâmetro do pino para medição de comprimento (cable laid)",
+      "norma": "IMCA-M179",
+      "item": "2.2, Tabela 1 (e 5.2, Tabela 2)",
+      "pagina": 6,
+      "unidade": "mm",
+      "colunas": [
+        "Ø do cabo cable-laid (mm)",
+        "Ø do pino (mm)"
+      ],
+      "linhas": [
+        [
+          "100–150",
+          250
+        ],
+        [
+          "151–250",
+          500
+        ],
+        [
+          "251–375",
+          750
+        ],
+        [
+          "376–500",
+          1000
+        ]
+      ],
+      "consulta": false,
+      "figuras": [
+        "esquemas/lingadas-acessorios-imca-medicao-pinos.svg",
+        "esquemas/lingadas-acessorios-cable-laid-olhal.svg"
+      ],
+      "cotas": {
+        "Ø do cabo cable-laid (mm)": "esquemas/lingadas-acessorios-imca-medicao-pinos.svg#d",
+        "Ø do pino (mm)": "esquemas/lingadas-acessorios-imca-medicao-pinos.svg#pino"
+      }
+    },
+    {
+      "id": "e271-t9-2-lingada",
+      "titulo": "DNV-ST-E271 — cronograma de exame e testes da lingada de container",
+      "norma": "DNV-ST-E271",
+      "item": "9.3.1, Tabela 9-2",
+      "pagina": 63,
+      "unidade": "—",
+      "colunas": [
+        "Intervalo",
+        "Aplicável a",
+        "Prova de carga",
+        "END",
+        "Visual",
+        "Sufixo na plaqueta"
+      ],
+      "linhas": [
+        [
+          "≤ 12 meses",
+          "Lingada completa",
+          "NA",
+          "NA",
+          "Sim",
+          "V"
+        ],
+        [
+          "≤ 48 meses",
+          "Componentes e elos de junção (exceto pernas)",
+          "END ou prova",
+          "END ou prova",
+          "Sim",
+          "VN ou T"
+        ],
+        [
+          "≤ 48 meses",
+          "Pernas de corrente",
+          "END ou prova",
+          "END ou prova",
+          "Sim",
+          "VN ou T"
+        ],
+        [
+          "≤ 48 meses",
+          "Manilhas",
+          "NA",
+          "NA",
+          "Sim",
+          "V"
+        ],
+        [
+          "≤ 48 meses",
+          "Pernas de cabo de aço",
+          "NA",
+          "NA",
+          "Sim",
+          "NA"
+        ],
+        [
+          "Após reparo/alteração substancial",
+          "Lingada completa",
+          "Sim",
+          "Sim",
+          "Sim",
+          "T"
+        ]
+      ],
+      "nota": "Prova conforme normas aplicáveis; END nas pernas de corrente: elos terminais + 10 % do comprimento (local definido pela visual). T = prova + END + visual; VN = END + visual; V = só visual. Conferido na imagem.",
+      "consulta": false
+    },
+    {
+      "id": "norsok-f6-wllmin",
+      "titulo": "NORSOK R-002 — R_DAF e WLLmin da lingada (seleção alternativa, objetos F5)",
+      "norma": "NORSOK-R-002",
+      "item": "F.7.6, Tabela F.6",
+      "pagina": 188,
+      "unidade": "t",
+      "colunas": [
+        "Peso içado (t)",
+        "R_DAF",
+        "WLLmin da lingada (t)"
+      ],
+      "linhas": [
+        [
+          "0,5",
+          "—",
+          4.0
+        ],
+        [
+          "1,0",
+          "—",
+          4.0
+        ],
+        [
+          "1,5",
+          "—",
+          4.0
+        ],
+        [
+          2,
+          2.08,
+          4.16
+        ],
+        [
+          4,
+          1.68,
+          6.74
+        ],
+        [
+          6,
+          1.51,
+          9.06
+        ],
+        [
+          8,
+          1.41,
+          11.24
+        ],
+        [
+          10,
+          1.33,
+          13.34
+        ],
+        [
+          12,
+          1.28,
+          15.37
+        ],
+        [
+          14,
+          1.24,
+          17.36
+        ],
+        [
+          16,
+          1.21,
+          19.32
+        ],
+        [
+          18,
+          1.18,
+          21.24
+        ],
+        [
+          20,
+          1.16,
+          23.14
+        ],
+        [
+          22,
+          1.14,
+          25.01
+        ],
+        [
+          24,
+          1.12,
+          26.87
+        ],
+        [
+          26,
+          1.1,
+          28.71
+        ],
+        [
+          28,
+          1.09,
+          30.54
+        ],
+        [
+          30,
+          1.08,
+          32.36
+        ],
+        [
+          32,
+          1.07,
+          34.16
+        ],
+        [
+          34,
+          1.06,
+          35.95
+        ],
+        [
+          36,
+          1.05,
+          37.74
+        ],
+        [
+          38,
+          1.04,
+          39.51
+        ],
+        [
+          40,
+          1.03,
+          41.27
+        ],
+        [
+          42,
+          1.02,
+          43.03
+        ],
+        [
+          44,
+          1.02,
+          44.78
+        ],
+        [
+          46,
+          1.01,
+          46.53
+        ],
+        [
+          48,
+          1.01,
+          48.27
+        ],
+        [
+          50,
+          1.0,
+          50.0
+        ]
+      ],
+      "nota": "R_DAF = 0,73 + 0,27·√(50/peso) (F.13). Lingas EN 13414-1 (cabo) ou EN 818-4 grau 8 (corrente). Tabela intitulada 'Enhancement factor'.",
+      "consulta": false
+    },
+    {
+      "id": "iso3266-tab2-dim",
+      "titulo": "ISO 3266 — Tabela 2: dimensões do olhal roscado forjado",
+      "norma": "ISO-3266",
+      "item": "Tabela 2",
+      "pagina": 15,
+      "unidade": "mm",
+      "colunas": [
+        "d (rosca)",
+        "WLL axial (t)",
+        "E mín. (20√WLL)",
+        "H (1,5d)",
+        "F máx. (14√WLL)",
+        "r mín.",
+        "B mín. ((26√WLL)+5)",
+        "s (0,25d)"
+      ],
+      "linhas": [
+        [
+          "M8",
+          0.2,
+          9,
+          12,
+          6,
+          1,
+          17,
+          2
+        ],
+        [
+          "M10",
+          0.32,
+          11,
+          15,
+          8,
+          1,
+          20,
+          3
+        ],
+        [
+          "M12",
+          0.4,
+          13,
+          18,
+          9,
+          1,
+          21,
+          3
+        ],
+        [
+          "M16",
+          0.8,
+          18,
+          24,
+          13,
+          1,
+          28,
+          4
+        ],
+        [
+          "M20",
+          1.6,
+          25,
+          30,
+          18,
+          1,
+          38,
+          5
+        ],
+        [
+          "M24",
+          2.5,
+          32,
+          36,
+          22,
+          2,
+          46,
+          6
+        ],
+        [
+          "M30",
+          4,
+          40,
+          45,
+          28,
+          2,
+          57,
+          8
+        ],
+        [
+          "M36",
+          6.3,
+          50,
+          54,
+          35,
+          3,
+          70,
+          9
+        ],
+        [
+          "M42",
+          8,
+          57,
+          63,
+          40,
+          3,
+          79,
+          11
+        ],
+        [
+          "M48",
+          10,
+          63,
+          72,
+          44,
+          3,
+          87,
+          12
+        ],
+        [
+          "M52",
+          12.5,
+          71,
+          78,
+          49,
+          3,
+          97,
+          13
+        ],
+        [
+          "M56",
+          16,
+          80,
+          84,
+          56,
+          4,
+          109,
+          14
+        ],
+        [
+          "M64",
+          20,
+          89,
+          96,
+          63,
+          4,
+          121,
+          16
+        ],
+        [
+          "M72 × 6",
+          25,
+          100,
+          108,
+          70,
+          4,
+          135,
+          18
+        ],
+        [
+          "M80 × 6",
+          32,
+          113,
+          120,
+          79,
+          4,
+          152,
+          20
+        ],
+        [
+          "M90 × 6",
+          40,
+          126,
+          135,
+          89,
+          5,
+          169,
+          23
+        ],
+        [
+          "M100 × 6",
+          50,
+          141,
+          150,
+          99,
+          5,
+          189,
+          25
+        ]
+      ],
+      "nota": "E = Ø interno do olho; H = altura do colar à ponta da rosca; F = Ø da seção do olho; r = raio do rebaixo; B = Ø do colar; s = distância do colar à 1ª rosca. Mín./máx. conferidos na imagem da tabela. M8–M64 passo grosso; M72 a M100 passo 6.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg"
+      ],
+      "cotas": {
+        "d (rosca)": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#d",
+        "E mín. (20√WLL)": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#E",
+        "H (1,5d)": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#H",
+        "F máx. (14√WLL)": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#F",
+        "r mín.": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#r",
+        "B mín. ((26√WLL)+5)": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#B",
+        "s (0,25d)": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#s"
+      }
+    },
+    {
+      "id": "iso3266-tab4-mec",
+      "titulo": "ISO 3266 — Tabela 4: propriedades mecânicas",
+      "norma": "ISO-3266",
+      "item": "Tabela 4",
+      "pagina": 18,
+      "unidade": "t / kN",
+      "colunas": [
+        "d (rosca)",
+        "WLL axial (t)",
+        "Prova axial (kN)",
+        "Ruptura axial mín. (kN)",
+        "Par 0<β≤45° — carga máx. (t) = 1,4 WLL",
+        "Par β=45° — prova (kN)",
+        "Par β=45° — ruptura mín. (kN)"
+      ],
+      "linhas": [
+        [
+          "M8",
+          0.2,
+          4,
+          8,
+          0.28,
+          5.6,
+          11.2
+        ],
+        [
+          "M10",
+          0.32,
+          6.4,
+          12.5,
+          0.44,
+          9,
+          18
+        ],
+        [
+          "M12",
+          0.4,
+          8,
+          16,
+          0.56,
+          11.2,
+          22.4
+        ],
+        [
+          "M16",
+          0.8,
+          16,
+          32,
+          1.12,
+          22.4,
+          44.8
+        ],
+        [
+          "M20",
+          1.6,
+          32,
+          63,
+          2.24,
+          44.8,
+          89.6
+        ],
+        [
+          "M24",
+          2.5,
+          50,
+          100,
+          3.5,
+          70,
+          140
+        ],
+        [
+          "M30",
+          4,
+          80,
+          160,
+          5.6,
+          112,
+          224
+        ],
+        [
+          "M36",
+          6.3,
+          125,
+          250,
+          8.82,
+          176.4,
+          352.8
+        ],
+        [
+          "M42",
+          8,
+          160,
+          320,
+          11.2,
+          224,
+          448
+        ],
+        [
+          "M48",
+          10,
+          200,
+          400,
+          14,
+          280,
+          560
+        ],
+        [
+          "M52",
+          12.5,
+          250,
+          500,
+          17.5,
+          350,
+          700
+        ],
+        [
+          "M56",
+          16,
+          320,
+          630,
+          22.4,
+          448,
+          896
+        ],
+        [
+          "M64",
+          20,
+          400,
+          800,
+          28,
+          560,
+          1120
+        ],
+        [
+          "M72 × 6",
+          25,
+          500,
+          1000,
+          35,
+          700,
+          1400
+        ],
+        [
+          "M80 × 6",
+          32,
+          630,
+          1250,
+          44.8,
+          896,
+          1792
+        ],
+        [
+          "M90 × 6",
+          40,
+          800,
+          1600,
+          56,
+          1120,
+          2240
+        ],
+        [
+          "M100 × 6",
+          50,
+          1000,
+          2000,
+          70,
+          1400,
+          2800
+        ]
+      ],
+      "nota": "Colunas 5 a 7 para um PAR de olhais com carga inclinada, colares assentados e olhos no plano da linga (± 5°).",
+      "consulta": false,
+      "figuras": [
+        "esquemas/lingadas-acessorios-eyebolt-iso3266-carga.svg",
+        "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg"
+      ],
+      "cotas": {
+        "d (rosca)": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#d",
+        "Par 0<β≤45° — carga máx. (t) = 1,4 WLL": "esquemas/lingadas-acessorios-eyebolt-iso3266-carga.svg#beta",
+        "Par β=45° — prova (kN)": "esquemas/lingadas-acessorios-eyebolt-iso3266-carga.svg#beta",
+        "Par β=45° — ruptura mín. (kN)": "esquemas/lingadas-acessorios-eyebolt-iso3266-carga.svg#beta"
+      }
+    },
+    {
+      "id": "nbr15516-1-t4",
+      "titulo": "Linga de corrente grau 8 — fatores para carga de prova por seção",
+      "norma": "NBR-15516-1",
+      "item": "Tabela 4",
+      "pagina": 19,
+      "unidade": "× carga da corrente",
+      "chave": {},
+      "consulta": false,
+      "colunas": [
+        "Seção (Figura 6)",
+        "Uniforme — CMT",
+        "Uniforme — fator de prova (2 × CMT)",
+        "Trigonométrico — CMT",
+        "Trigonométrico — fator de prova (2 × CMT)"
+      ],
+      "linhas": [
+        [
+          "PL1",
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          "PL2",
+          1.4,
+          2.8,
+          2,
+          4
+        ],
+        [
+          "PL3",
+          2,
+          4,
+          2,
+          4
+        ],
+        [
+          "PL4",
+          2.1,
+          4.2,
+          "3 (a)",
+          "6 (b)"
+        ]
+      ],
+      "nota": "(a)/(b): linga de 4 pernas classificada pela nota de 10.2.3.2 → CMT 4 e fator 8. Carga de prova em kN = CMT da corrente × fator (11.2); só quando acordado ou exigido (11.1).",
+      "figuras": [
+        "esquemas/lingadas-acessorios-trechos-prova-pl.svg"
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "atencao",
+      "texto": "Referência do ângulo: ASME B30.26 mede o ângulo de carga a partir da HORIZONTAL (multiplicador 2,0 a 30° da horizontal; mínimo 30° da horizontal em elos/anéis); NBR 15516/15637, DNV-ST-E273/E271 e NORSOK medem a partir da VERTICAL (β). 30° com a horizontal = 60° com a vertical. ASME B30.10 limita a perna a 45° do eixo do gancho e 90° incluídos; B30.26 admite 120° incluídos em manilha/elo; NBR 15516-2 proíbe β > 60°; DNV projeta lingadas de POU/container normalmente entre 30° e 45° (ver ficha de içamento)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Fatores de segurança/projeto diferem por produto e norma: manilhas ASME ≥ 5 (≤ 150 t) e ≥ 4 (> 150 t); acessórios ajustáveis e elos ≥ 5; moitões e LIDs ≥ 4; grampos/soquetes: eficiência ≥ 80 % (sem fator convencional); cintas: ruptura ≥ 7 × CMT (4 × com acessórios); cable-laid IMCA: f ≥ 2,25 sobre a carga de ruptura calculada (com CL 0,85 e ET 0,75/EB). Em içamento offshore a lingada é dimensionada por MBL com DAF/DF/γ (NORSOK F.7.3, DNV-ST-E273 7.3) — não basta a WLL de catálogo."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Intervalos de inspeção completa: laços de cabo NBR 13543 e cable-laid IMCA ≤ 6 meses; correntes NBR 15516-2 ≤ 12 meses; cintas NBR 15637-1 ≥ 1×/ano; acessórios ASME B30.26 e ganchos B30.10 ≤ 1 ano (severo: mensal a trimestral); lingada de container DNV ≤ 12 meses, com END ou prova a cada 48 meses (Tabela 9-2). Vale o mais restritivo aplicável ao contrato/regulamento (NR-11 exige registro para cintas)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Critério de abertura de gancho: ASME B30.10 remove com aumento de 5 % da garganta (máx. 6 mm); NBR 15516-2 (ganchos de linga de corrente) admite até 10 % do nominal. Desgaste/redução: 10 % da dimensão (ASME B30.26, B30.10, NBR 13543 para Ø do cabo); corrente: média (d1+d2)/2 ≥ 0,9 dn."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Grampos de cabo: ASME B30.26 diz que não devem ser usados para fabricar lingas (exceções na B30.9); NBR 11900-4 proíbe grampo pesado na confecção de linga e grampo leve em qualquer içamento (carga ≤ 10 % da CRM). Para lingas use olhal prensado (presilha) ou trançado — ver NBR 13541 (sem texto no acervo) / NBR 11900-3."
+    },
+    {
+      "tipo": "info",
+      "texto": "Forca (choker) reduz a capacidade a 80 % tanto para corrente (NBR 15516-2 A.1.3.4) quanto para cinta (FU 0,8, NBR 15637-1). NBR 13543 não dá fator numérico para laço de cabo em forca, só exige ângulo natural (≈ 45° ou maior) e cita possível redução da carga de trabalho."
+    },
+    {
+      "tipo": "info",
+      "texto": "NBR 13541-1 (2013) e NBR 13541-2 (2012) — lingas de cabo de aço — estão no acervo só como imagem (sem texto): precisam de OCR antes de extrair valores (fatores de modo, tabelas de CMT, critérios de descarte). NBR 11900-3 (olhal com presilha) também está sem texto."
+    },
+    {
+      "tipo": "info",
+      "texto": "Lingada certificada offshore: dimensionamento (ângulos de projeto, MBL da perna, WLL de manilha, elo mestre, Charpy dos componentes) está na ficha 'icamento-unidade-portatil'. Aqui ficam certificados, marcação, inspeção periódica e a seleção alternativa NORSOK (R_DAF / Tabela F.6)."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Erros/ambiguidades das próprias normas: ASME B30.26 26-3.6.1(a) imprime '−40°F (−4°C)' para grampos (−40 °F = −40 °C); NBR 15516-1 Tabela 3 imprime 89,6 t (Ø 45, 2 pernas, β 45°) onde o cálculo dá 89,0 t; NBR 11900-2 4.1 b) dá a diferença α−β 'não maior do que 2' sem unidade; NORSOK (F.11) rotula o forerunner como 'MBL_ML'."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Charpy de acessórios: NBR 11900-2 (5.5/6.2.5) pede média ≥ 27 J e individual ≥ 18 J a −20 °C; DNV-ST-E271 8.4 e E273 7.4 pedem média ≥ 42 J à temperatura de projeto TD para correntes, elos, manilhas e acoplamentos. Para uso offshore, vale o critério DNV."
+    },
+    {
+      "tipo": "info",
+      "texto": "Registros de inspeção: ASME B30.26 — 'written records are not required', exceto LID; ASME B30.10 inspeção periódica — registros escritos obrigatórios; NBR 15516-2 A.2.2 — manter registros; IMCA M179 §10 — registro de cada içamento."
+    },
+    {
+      "tipo": "info",
+      "texto": "Carga assimétrica: NBR 15516-2 A.1.3.5 admite como alternativa considerar a linga com metade da CMT marcada; ASME B30.26 26-4.9.4.2(i) exige análise por pessoa qualificada."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Olhal roscado com carga inclinada — ISO 3266 × ASME B30.26: a ISO 3266 (grau 4, métrico) admite um PAR com 0 < β ≤ 45° levando 1,4 × WLL no total (≈ 0,7 WLL por olhal), com o olho no plano da linga ± 5°; a ASME B30.26 só aceita carga angular em eyebolt COM ombro e reduz a 55 % (6–15°) e 25 % (16–90°) da carga nominal por olhal. Prova: ISO ≈ 2 × WLL·g (cálculo a partir da Tabela 4, ex. 2,5 t → 50 kN); ASME ≥ 2 × carga nominal (se exigida). Temperatura: ISO −20 °C a 200 °C; ASME (aço carbono) −1 °C a 135 °C. Use a regra do fabricante/da norma do olhal efetivamente comprado."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Ensaio de carga difere por produto: balancim/dispositivo abaixo do gancho (ASME B30.20 20-1.3.8.2) = 125 % da carga nominal (recomendado, não obrigatório); acessórios ajustáveis/eyebolts (ASME B30.26) prova ≥ 2 × carga nominal quando exigida; olhal ISO 3266 ≈ 2 × WLL; unidades portáteis offshore (DNV-ST-E273/E271) ensaiadas com 2,5 × a massa (ver ficha de içamento). O balancim projetado pela ASME BTH-1 precisa indicar na placa a Design Category e a Service Class."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Tolerância de diâmetro do cabo diverge: NBR 6327 (d ≥ 8 mm) +5 % / 0 (alma de aço ou polímero) e +7 % / 0 (alma de fibra) — nunca abaixo do nominal; API 9A (cabo métrico) −1 % a +4 % e (cabo em polegadas) −0 % a +5 %. Na compra, especifique a norma do cabo."
+    }
+  ]
+}

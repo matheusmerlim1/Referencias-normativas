@@ -1,0 +1,77 @@
+{
+ "id": "ASME-SA-675",
+ "titulo": "SA-675 — Barras de aço carbono laminadas a quente, qualidade especial, por propriedades mecânicas",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras e pequenos perfis de aço carbono laminados a quente, qualidade especial, fornecidos por propriedades mecânicas, para construção em geral. Nove graus de resistência (45 a 90 ksi [310 a 620 MPa]). Requisitos gerais pela SA-29."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1, 7.2",
+   "texto": "Só P, S (e Cu se aço ao cobre) são limitados; chumbo pode ser adicionado (sufixo 'L').",
+   "valores": [
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,040 % / 0,050 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cu mín. (aço ao cobre)",
+     "valor": "0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Pb (quando adicionado)",
+     "valor": "0,15–0,35 %",
+     "item": "7.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su / limite de escoamento mín. / alongamento mín. em 200 mm / 50 mm.",
+   "valores": [
+    {
+     "parametro": "Grau 45",
+     "valor": "45–55 ksi [310–380] / 22,5 ksi [155] / 27 % / 33 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 60",
+     "valor": "60–72 ksi [415–495] / 30 ksi [205] / 21 % / 22 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 70",
+     "valor": "70–85 ksi [485–585] / 35 ksi [240] / 14 % / 18 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 80",
+     "valor": "80 ksi [550] mín. / 40 ksi [275] / 13 % / 17 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 90",
+     "valor": "90 ksi [620] mín. / 55 ksi [380] / 10 % / 14 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "8, Tabela 3",
+   "texto": "Perfis com menos de 1 in² [645 mm²] e barras abaixo de 1/2 in [12,5 mm] dispensam tração pelo fabricante. Dobramento com relação diâmetro/espessura crescente com a bitola e o grau.",
+   "valores": [
+    {
+     "parametro": "Grau 45 — dobramento até 3/4 in",
+     "valor": "plano (sobre si mesmo)",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

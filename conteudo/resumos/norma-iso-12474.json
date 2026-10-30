@@ -1,0 +1,58 @@
+{
+ "id": "ISO-12474",
+ "titulo": "ISO 12474:2010 — Parafusos de cabeça cilíndrica com sextavado interno e rosca métrica fina",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Versão de rosca fina da ISO 4762: parafuso Allen cilíndrico, d de 8 a 36 mm, grau de produto A. Massas no Anexo A.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M8 × 1 a M36 × 3 (d de 8 a 36 mm)",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3, Tab. 1",
+   "texto": "Tabela por rosca fina com b, dk, k, s, t, comprimentos comerciais, ls e lg, no mesmo formato da ISO 4762.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos e normas de referência",
+   "item": "4, Tab. 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Tolerância de rosca",
+     "valor": "5g6g para 12.9; 6g para as demais",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Classes — inox",
+     "valor": "d < 24 mm: A2-70, A3-70, A4-70, A5-70; 24 ≤ d ≤ 36 mm: A4-50, A5-50",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Classes — aço",
+     "valor": "8.8, 10.9, 12.9 (ISO 898-1)",
+     "item": "Tab. 2",
+     "nota": "conferir na tabela"
+    },
+    {
+     "parametro": "Tolerâncias",
+     "valor": "ISO 4759-1, grau A",
+     "item": "Tab. 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "5",
+   "texto": "Ex.: ISO 12474 – M12 × 1,5 × 80 – 12.9.",
+   "valores": []
+  }
+ ]
+}

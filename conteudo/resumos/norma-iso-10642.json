@@ -1,0 +1,55 @@
+{
+ "id": "ISO-10642",
+ "titulo": "ISO 10642:2019 (BS EN ISO 10642) — Parafusos de cabeça escareada com sextavado interno",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafuso escareado (cabeça chata a 90°) com sextavado interno, aço e inox, rosca grossa M2 a M20, grau A, com capacidade de carga reduzida pela cabeça e pela penetração do sextavado (carga mínima de ruptura na Tabela 5).",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M2 a M20, grau A",
+     "item": "1",
+     "nota": "OCR 'MZ' interpretado como M2 — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões e calibração da cabeça",
+   "item": "4",
+   "texto": "Dimensões da cabeça escareada, sextavado, comprimentos; verificação da altura de protrusão da cabeça com calibre.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos e normas de referência",
+   "item": "5–6, Tab. 5",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Classes — aço",
+     "valor": "8.8, 10.9, 12.9 (marcação 08.8, 010.9, 012.9)",
+     "item": "5"
+    },
+    {
+     "parametro": "Classes — inox",
+     "valor": "A2/A4-50, -70, -80 (marcação A2-070 etc.)",
+     "item": "5",
+     "nota": "OCR ruim — conferir"
+    },
+    {
+     "parametro": "Carga de ruptura mínima",
+     "valor": "reduzida, por rosca e classe (Tab. 5)",
+     "item": "Tab. 5",
+     "nota": "valores não transcritos"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "7",
+   "texto": "Ex.: M12 × 40, classe 10.9 → ISO 10642 – M12 × 40 – 10.9.",
+   "valores": []
+  }
+ ]
+}

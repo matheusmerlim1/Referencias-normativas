@@ -1,0 +1,109 @@
+{
+ "id": "ASME-SA-592",
+ "titulo": "SA-592 — Conexões e peças forjadas de aço baixa liga temperado e revenido de alta resistência para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Conexões e peças forjadas de aço baixa liga, temperadas e revenidas, de alta resistência, para vasos de pressão (graus análogos aos da SA-517). Fusão pela SA-788.",
+   "valores": [
+    {
+     "parametro": "Espessura máx. — Grau A",
+     "valor": "1 1/2 in [38 mm]",
+     "item": "1.1"
+    },
+    {
+     "parametro": "Espessura máx. — Graus E e F",
+     "valor": "3 3/4 in [95 mm] (4 in [102 mm] como tratado)",
+     "item": "1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4, 5",
+   "texto": "Aço totalmente acalmado de grão fino. Após forjar, resfriamento para transformar a austenita; depois austenitização, têmpera em líquido e revenimento.",
+   "valores": [
+    {
+     "parametro": "Grão",
+     "valor": "ASTM nº 5 ou mais fino",
+     "item": "4.2"
+    },
+    {
+     "parametro": "Austenitização mín.",
+     "valor": "1650 °F [900 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Revenimento mín.",
+     "valor": "1150 °F [620 °C]",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "A — C / Mn / Si",
+     "valor": "0,15–0,21 % / 0,80–1,10 % / 0,40–0,80 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "E — C / Mn",
+     "valor": "0,12–0,20 % / 0,40–0,70 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "F — C / Mn",
+     "valor": "0,10–0,20 % / 0,60–1,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,025 % / 0,025 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2, 7.1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Até 2 1/2 in [65 mm] — Su / Sy mín.",
+     "valor": "115 000 a 135 000 psi [795 a 930 MPa] / 100 000 psi [690 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "2 1/2 a 4 in — Su / Sy mín.",
+     "valor": "105 000 a 135 000 psi [725 a 930 MPa] / 90 000 psi [620 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento / redução de área mín. — até 2 1/2 in",
+     "valor": "18 % / 45 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento / redução de área mín. — 2 1/2 a 4 in",
+     "valor": "17 % / 40 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Charpy — expansão lateral mín.",
+     "valor": "0,015 in (15 mils) [0,38 mm]",
+     "item": "7.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo e marcação",
+   "item": "8, 9",
+   "texto": "Reparo por solda só com aprovação do comprador; marcação conforme SA-788."
+  }
+ ]
+}

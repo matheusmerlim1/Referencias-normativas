@@ -1,0 +1,67 @@
+{
+ "id": "ASME-SB-516",
+ "titulo": "SB-516 — Tubos soldados de ligas Ni-Cr-Fe (N06600, N06025, N06045)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos soldados das ligas N06600, N06025 e N06045 para caldeiras, trocadores e condensadores, em serviço corrosivo em baixa ou alta temperatura.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "1/8 a 5 in (3,18 a 127 mm) DE; parede 0,015 a 0,500 in (0,38 a 12,70 mm)",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N06600 — Ni mín. / Cr / Fe",
+     "valor": "72,0 % / 14,0–17,0 % / 6,0–10,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06025 — Cr / Fe / C",
+     "valor": "24,0–26,0 % / 8,0–11,0 % / 0,15–0,25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06045 — Ni mín. / Cr / Fe / Si",
+     "valor": "45,0 % / 26,0–29,0 % / 21,0–25,0 % / 2,5–3,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N06600",
+     "valor": "80 000 psi (550) / 35 000 psi (240) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N06025",
+     "valor": "94 000 psi (650) / 43 000 psi (300) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N06045",
+     "valor": "90 000 psi (620) / 35 000 psi (240) / 30 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "7",
+   "texto": "Flangeamento em cada ponta de um tubo por lote; ensaio não destrutivo conforme a norma."
+  }
+ ]
+}

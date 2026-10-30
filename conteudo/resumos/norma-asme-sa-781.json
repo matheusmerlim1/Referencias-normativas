@@ -1,0 +1,26 @@
+{
+ "id": "ASME-SA-781",
+ "titulo": "SA-781 — Requisitos gerais comuns para fundidos de aço e liga para uso industrial",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras obrigatórias comuns a várias especificações de fundidos de aço (A27, SA-747 e outras); a especificação do produto prevalece."
+  },
+  {
+   "titulo": "Fabricação e química",
+   "item": "4, 5",
+   "texto": "Forno Siemens-Martin ou elétrico (AOD opcional). Análise de cada corrida (A751)."
+  },
+  {
+   "titulo": "Tração e qualidade",
+   "item": "6, 8",
+   "texto": "A exigência de tração varia por produto; quando exigida, corpos de blocos de teste padronizados (dimensões do anexo). Superfície livre de areia, carepa, trincas e rasgos a quente (exame visual)."
+  },
+  {
+   "titulo": "Reparo",
+   "item": "9",
+   "texto": "Reparo por solda conforme a especificação do produto, com procedimento e soldadores qualificados."
+  }
+ ]
+}

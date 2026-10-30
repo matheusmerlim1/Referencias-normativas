@@ -1,0 +1,162 @@
+{
+ "id": "NR-20",
+ "titulo": "NR-20 — Segurança e saúde no trabalho com inflamáveis e combustíveis",
+ "secoes": [
+  {
+   "titulo": "Introdução e abrangência",
+   "item": "20.1–20.2",
+   "texto": "A NR-20 trata da gestão de SST contra acidentes na extração, produção, armazenamento, transferência, manuseio e manipulação de inflamáveis e de líquidos combustíveis, em todo o ciclo da instalação (projeto, construção, operação, manutenção, inspeção e desativação). Adicional de insalubridade ou periculosidade continua regido pelas NR-15 e NR-16. Não vale para plataformas e apoio offshore de petróleo (NR-37) nem para casas unifamiliares.",
+   "valores": []
+  },
+  {
+   "titulo": "Definições de inflamáveis e combustíveis",
+   "item": "20.3",
+   "texto": "A separação entre inflamável e combustível é feita pelo ponto de fulgor. Um líquido acima do limite que for armazenado ou transferido aquecido até o seu ponto de fulgor passa a ser tratado como inflamável.",
+   "valores": [
+    {"parametro": "Líquido inflamável", "valor": "ponto de fulgor ≤ 60 °C", "item": "20.3.1"},
+    {"parametro": "Líquido combustível", "valor": "ponto de fulgor > 60 °C e ≤ 93 °C", "item": "20.3.3"},
+    {"parametro": "Gás inflamável", "valor": "inflama com o ar a 20 °C e 101,3 kPa", "item": "20.3.2"},
+    {"parametro": "Líquido com fulgor > 60 °C aquecido até o ponto de fulgor", "valor": "equiparado a inflamável", "item": "20.3.1.1"}
+   ]
+  },
+  {
+   "titulo": "Classificação das instalações",
+   "item": "20.4 e Tabela 1",
+   "texto": "As instalações são de classe I, II ou III pela atividade ou pela capacidade de armazenamento (permanente ou transitória). A atividade prevalece sobre a capacidade, salvo quando a capacidade é muito grande; se a instalação guarda líquidos e gases e cai em classes diferentes, vale a maior. Instalações pequenas e o varejo de recipientes fechados têm regras próprias no Anexo II.",
+   "valores": [
+    {"parametro": "Classe I — atividade", "valor": "postos de serviço; distribuição canalizada de gás com PMTA ≤ 18,0 kgf/cm²", "item": "Tabela 1"},
+    {"parametro": "Classe I — capacidade", "valor": "gases inflamáveis > 2 t até 60 t; líquidos inflamáveis/combustíveis > 10 m³ até 5 000 m³", "item": "Tabela 1"},
+    {"parametro": "Classe II — atividade", "valor": "engarrafadoras de gás; transporte dutoviário; distribuição canalizada de gás com PMTA > 18,0 kgf/cm²", "item": "Tabela 1"},
+    {"parametro": "Classe II — capacidade", "valor": "gases > 60 t até 600 t; líquidos > 5 000 m³ até 50 000 m³", "item": "Tabela 1"},
+    {"parametro": "Classe III — atividade", "valor": "refinarias; processamento de gás natural; petroquímicas; usinas de etanol", "item": "Tabela 1"},
+    {"parametro": "Classe III — capacidade", "valor": "gases > 600 t; líquidos > 50 000 m³", "item": "Tabela 1"},
+    {"parametro": "Capacidade que prevalece sobre a atividade", "valor": "> 250 000 m³ de líquidos e/ou > 3 000 t de gases", "item": "20.4.1.1.1"}
+   ]
+  },
+  {
+   "titulo": "Projeto da instalação",
+   "item": "20.5",
+   "texto": "O projeto (por profissional habilitado) segue NRs e normas nacionais, ou internacionais na falta delas. Para classes I a III inclui, em português: manual de operações, planta de locação, dados de segurança dos produtos (FDS), especificação dos equipamentos críticos, desenhos dos sistemas de segurança e classificação de áreas para escolha dos equipamentos elétricos. Respeita as distâncias de segurança das normas nacionais e prevê meios de interromper a escalada de vazamento, incêndio ou explosão. Instalações existentes são revistas por análise de risco; mudanças que afetem a segurança exigem projeto com análise de risco. Na transferência e no enchimento, o projeto controla emissão de vapores e eletricidade estática.",
+   "valores": []
+  },
+  {
+   "titulo": "Prontuário da instalação",
+   "item": "20.6",
+   "texto": "Mantido pelo empregador, com índice, reúne projeto, plano de inspeção e manutenção, análises de risco, plano de prevenção e controle de vazamentos/incêndios/explosões e emissões fugitivas, e plano de resposta a emergências. Pode ficar em partes ou em sistema eletrônico, desde que o índice diga onde está cada documento. Fica disponível às autoridades e aos trabalhadores (análises de risco, exceto dados comerciais confidenciais).",
+   "valores": []
+  },
+  {
+   "titulo": "Análise de riscos",
+   "item": "20.7",
+   "texto": "Obrigatória para classes I a III nas operações com processo. Feita por equipe multidisciplinar que inclua pelo menos um trabalhador experiente na instalação; para classes II e III, coordenada por profissional habilitado, que escolhe e justifica a metodologia (ex.: What-if, HAZOP, FMEA, árvores de falhas/eventos, análise quantitativa). Revisada no prazo indicado pela própria análise, após mudança significativa, a pedido do SESMT/CIPA ou após acidentes. Recomendações têm prazo e responsável; atrasos são justificados por escrito.",
+   "valores": [
+    {"parametro": "Metodologia mínima — classe I", "valor": "Análise Preliminar de Perigos/Riscos (APP/APR)", "item": "20.7.3"},
+    {"parametro": "Equipe de análise — participação mínima", "valor": "≥ 1 trabalhador com experiência na instalação analisada", "item": "20.7.2.2"}
+   ]
+  },
+  {
+   "titulo": "Construção, montagem e segurança operacional",
+   "item": "20.8–20.9",
+   "texto": "Construção e montagem seguem o projeto e as normas; inspeções, testes e comissionamento são documentados; equipamentos são identificados e sinalizados. Procedimentos operacionais de SST são escritos, divulgados e atualizados; em classes II e III com unidades de processo cobrem pré-operação, operação normal, temporária e de emergência, parada normal e de emergência e pós-emergência. Em processo contínuo e na classe III, o efetivo é dimensionado com critérios documentados.",
+   "valores": [
+    {"parametro": "Revisão dos procedimentos operacionais — classes I e II", "valor": "no máximo a cada 3 anos (ou antes, por mudança, análise de risco, acidente ou pedido da CIPA/SESMT)", "item": "20.9.2"},
+    {"parametro": "Revisão dos procedimentos operacionais — classe III", "valor": "no máximo a cada 5 anos (ou antes, nas mesmas situações)", "item": "20.9.2"}
+   ]
+  },
+  {
+   "titulo": "Manutenção, inspeção e permissão de trabalho",
+   "item": "20.10–20.11",
+   "texto": "Classes I a III têm plano de inspeção e manutenção documentado (tipos de intervenção, procedimentos, cronograma anual, responsáveis, equipamentos críticos, EPC e EPI, inclusive a rede de água de incêndio), com periodicidade baseada em normas, fabricante, relatórios de inspeção, análises de risco e agressividade do ambiente; executado por pessoal capacitado e supervisionado. Atividades não rotineiras exigem permissão de trabalho baseada em análise de risco: trabalho a quente, espaço confinado, bloqueio e etiquetagem, altura, eletricidade e outros casos de boa prática; as rotineiras, instrução de trabalho. Paradas de manutenção consideram SST. Inspeções periódicas de SST seguem cronograma, com recomendações rastreadas e relatórios disponíveis.",
+   "valores": [
+    {"parametro": "Solda e corte com gás inflamável — mangueiras", "valor": "dispositivo contra retrocesso de chama na saída do cilindro e na entrada do maçarico", "item": "20.10.10"}
+   ]
+  },
+  {
+   "titulo": "Capacitação dos trabalhadores",
+   "item": "20.12 e Anexo I",
+   "texto": "A capacitação é paga pelo empregador e feita no expediente. O curso depende da atividade, da classe e de o trabalhador entrar na área e ter contato com o processo: quem não entra recebe só informação sobre perigos e emergência; quem entra sem contato direto faz o curso de Iniciação; os demais fazem Básico, Intermediário, Avançado I ou II ou Específico (os quatro primeiros com prática no sistema de combate a incêndio). Passar de um nível para o seguinte pede complementação. Instrutores com proficiência; Avançados e Específico com responsável técnico habilitado; certificado só com aproveitamento satisfatório; material didático e sistema de identificação da capacitação de cada trabalhador.",
+   "valores": [
+    {"parametro": "Curso de Iniciação", "valor": "3 h", "item": "Anexo I, a)"},
+    {"parametro": "Atividade específica, pontual e de curta duração — Básico", "valor": "classe I: 4 h; classe II: 6 h; classe III: 8 h", "item": "Anexo I, Tabela 1"},
+    {"parametro": "Manutenção e inspeção — Intermediário", "valor": "classe I: 12 h; classe II: 14 h; classe III: 16 h", "item": "Anexo I, Tabela 1"},
+    {"parametro": "Operação e atendimento a emergências", "valor": "classe I: Intermediário 12 h; classe II: Avançado I 20 h; classe III: Avançado II 32 h", "item": "Anexo I, Tabela 1"},
+    {"parametro": "Profissionais de SST — curso Específico", "valor": "classe II: 14 h; classe III: 16 h", "item": "Anexo I, Tabela 1", "nota": "Para a classe I a tabela não indica carga (célula em branco no texto extraído)."},
+    {"parametro": "Complementação Básico → Intermediário; Intermediário → Avançado I; Avançado I → Avançado II", "valor": "8 h cada, com prática", "item": "20.12.6–20.12.8"},
+    {"parametro": "Atualização — Básico", "valor": "a cada 3 anos, 4 h", "item": "Anexo I, Tabela 2"},
+    {"parametro": "Atualização — Intermediário", "valor": "classe I: a cada 3 anos; classes II e III: a cada 2 anos; 4 h", "item": "Anexo I, Tabela 2"},
+    {"parametro": "Atualização — Avançado I", "valor": "a cada 2 anos, 4 h", "item": "Anexo I, Tabela 2"},
+    {"parametro": "Atualização — Avançado II", "valor": "anual, 4 h", "item": "Anexo I, Tabela 2"},
+    {"parametro": "Atualização extra — modificação significativa", "valor": "em até 30 dias", "item": "20.12.9.1 b)"},
+    {"parametro": "Atualização extra — ferido por explosão ou queimadura de 2º/3º grau com internação", "valor": "em até 45 dias", "item": "20.12.9.1 c)"},
+    {"parametro": "Atualização extra — morte de trabalhador", "valor": "em até 90 dias", "item": "20.12.9.1 d)"}
+   ]
+  },
+  {
+   "titulo": "Controle de fontes de ignição",
+   "item": "20.13",
+   "texto": "Instalações e equipamentos elétricos (fixos, móveis, portáteis, rádios, ferramentas) e o SPDA em áreas classificadas seguem a NR-10. Há medidas contra geração e acúmulo de eletricidade estática; trabalho com chama, calor ou faísca em área com atmosfera inflamável exige permissão de trabalho; a proibição de fontes de ignição é sinalizada; veículos que circulam nessas áreas são adequados e bem conservados.",
+   "valores": []
+  },
+  {
+   "titulo": "Vazamentos, incêndios, explosões e emissões fugitivas",
+   "item": "20.14",
+   "texto": "O empregador mantém plano de prevenção e controle de vazamentos, derramamentos, incêndios e explosões e de identificação e controle de emissões fugitivas (selos de bombas, gaxetas, flanges, drenos), revisado após inspeções/análises, mudanças ou ocorrências. Tanques de inflamáveis e combustíveis têm contenção dimensionada pelas normas nacionais; dentro da bacia de contenção não se guarda nada, salvo durante manutenção/inspeção. Esferas de gás têm testes periódicos dos sistemas de segurança.",
+   "valores": []
+  },
+  {
+   "titulo": "Plano de resposta a emergências",
+   "item": "20.15",
+   "texto": "Pode ser o mesmo documento do plano de prevenção. Traz base normativa, responsáveis, cenários tirados da análise de riscos, procedimento por cenário e cronograma e registro de simulados. Se um acidente puder ultrapassar os limites da instalação, inclui proteção da comunidade (alerta, isolamento, acionamento de autoridades). É avaliado após simulados e ocorrências reais. A brigada passa por exame médico específico (incluindo fatores psicossociais) e a participação é voluntária, salvo se inerente à função.",
+   "valores": [
+    {"parametro": "Exercício simulado", "valor": "no mínimo anual, no horário de trabalho (mais frequente se houver falhas ou a análise de risco pedir)", "item": "20.15.5"}
+   ]
+  },
+  {
+   "titulo": "Comunicação de ocorrências",
+   "item": "20.16",
+   "texto": "Vazamento, incêndio ou explosão com inflamáveis que cause morte, ferimento por explosão ou queimadura de 2º/3º grau com internação, ou que exija acionamento de grande porte do plano de emergência, é comunicado à fiscalização do trabalho e ao sindicato predominante (por ofício ou meio eletrônico), com dados da empresa, descrição, vítimas, investigação, consequências e medidas tomadas. Depois, faz-se relatório de investigação com causas básicas e medidas preventivas, mantido no local.",
+   "valores": [
+    {"parametro": "Prazo de comunicação", "valor": "até o 2º dia útil após a ocorrência", "item": "20.16.1.1"}
+   ]
+  },
+  {
+   "titulo": "Contratante e contratadas",
+   "item": "20.17",
+   "texto": "Ambas respondem pela NR. Os empregados das contratadas recebem proteção no mínimo igual à dos da contratante, que avalia o desempenho de SST dos serviços e informa riscos e procedimentos de emergência. A contratada cumpre as exigências da contratante e das NRs e garante a participação dos seus empregados nas capacitações.",
+   "valores": []
+  },
+  {
+   "titulo": "Anexo II — Exceções à classificação",
+   "item": "Anexo II",
+   "texto": "Instalações pequenas e o comércio de recipientes fechados até 20 L ficam fora da Tabela 1, mas incluem no programa de riscos o inventário dos produtos, os riscos específicos, os planos de prevenção e as medidas de emergência, e treinam trabalhadores no curso Básico. Depósitos separados por parede da fabricação/envase podem usar limites maiores; acima deles, exigem análise de risco e plano de emergência conforme a NR.",
+   "valores": [
+    {"parametro": "Faixa de instalação pequena (exceção)", "valor": "gases > 1 t até 2 t; líquidos > 1 m³ até 10 m³", "item": "Anexo II, 1"},
+    {"parametro": "Instalação pequena — treinados no Básico", "valor": "≥ 3 trabalhadores envolvidos", "item": "Anexo II, 1.1"},
+    {"parametro": "Varejo/atacado de recipientes fechados até 20 L — limites", "valor": "líquidos até 5 000 m³; gases até 600 t", "item": "Anexo II, 2"},
+    {"parametro": "Varejo/atacado — treinados no Básico: > 1 t até 5 t e/ou > 1 m³ até 9 m³", "valor": "mínimo 2", "item": "Anexo II, Tabela 3"},
+    {"parametro": "Varejo/atacado — > 5 t até 10 t e/ou > 9 m³ até 42 m³", "valor": "mínimo 3", "item": "Anexo II, Tabela 3"},
+    {"parametro": "Varejo/atacado — > 10 t até 20 t e/ou > 42 m³ até 84 m³", "valor": "mínimo 4", "item": "Anexo II, Tabela 3"},
+    {"parametro": "Varejo/atacado — acima disso", "valor": "+2 trabalhadores para cada 20 t e/ou 84 m³ adicionais", "item": "Anexo II, Tabela 3"},
+    {"parametro": "Depósito de recipientes até 20 L separado por parede da fabricação — limites", "valor": "líquidos até 10 000 m³; gases até 1 200 t", "item": "Anexo II, 3"}
+   ]
+  },
+  {
+   "titulo": "Anexo III — Tanques de inflamáveis dentro de edifícios",
+   "item": "Anexo III",
+   "texto": "Dentro de edifícios só se admite tanque enterrado de óleo diesel ou biodiesel. Exceção: tanque de superfície de diesel/biodiesel para gerador de emergência, continuidade operacional ou bomba de incêndio, quando comprovadamente não puder ser enterrado nem ficar fora da projeção do prédio. Nesse caso, com projeto e APR de profissional habilitado: no térreo, subsolo ou pilotis, em área exclusiva; com contenção de vazamento; em recinto resistente ao fogo com porta corta-fogo; tanque metálico; aprovação da autoridade; detecção e combate automáticos; sem bloquear saídas e sistemas de incêndio; protegido de choques e fontes de calor; estrutura protegida contra incêndio; ventilação e alívio de pressão. O responsável pelo edifício designa responsável técnico; quem opera e abastece faz o curso Intermediário. Tanques enterrados seguem quase todas essas exigências. Não se aplica a instalações industriais com tanques aéreos.",
+   "valores": [
+    {"parametro": "Resistência ao fogo das paredes do recinto do tanque", "valor": "≥ 2 h, com porta corta-fogo", "item": "Anexo III, 2.1 c)"},
+    {"parametro": "Volume máximo por tanque e por recinto", "valor": "5 000 L", "item": "Anexo III, 2.1 d)"},
+    {"parametro": "Volume máximo por edifício", "valor": "10 000 L (mesmo com edifícios interligados)", "item": "Anexo III, 2.1 d)"},
+    {"parametro": "Tanque acoplado ao gerador", "valor": "fora dos limites de volume da alínea d)", "item": "Anexo III, 2.1.1"},
+    {"parametro": "Capacitação de quem opera, inspeciona, mantém e abastece", "valor": "curso Intermediário", "item": "Anexo III, 2.3"}
+   ]
+  },
+  {
+   "titulo": "Glossário (destaques)",
+   "item": "Glossário",
+   "texto": "Área classificada: onde há ou pode haver atmosfera explosiva, exigindo equipamento elétrico especial. Distância de segurança: distância horizontal livre mínima para limitar danos de incêndio ou explosão. Emissões fugitivas: liberações contínuas ou intermitentes em operação normal (selos, gaxetas, flanges, drenos). Edifício: construção com pavimentos para atividades humanas, não industrial. Processo contínuo: produção ininterrupta 24 h em turnos. Recinto: área delimitada por paredes e teto resistentes ao fogo. Tanque acoplado: tanque que faz parte do grupo gerador.",
+   "valores": []
+  }
+ ]
+}

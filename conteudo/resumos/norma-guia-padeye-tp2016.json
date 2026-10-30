@@ -1,0 +1,70 @@
+{
+ "id": "GUIA-PADEYE-TP2016",
+ "titulo": "Padeye Design Guidelines TP2016-001 Rev01 (guia de fabricante, não norma)",
+ "secoes": [
+  {
+   "titulo": "Finalidade",
+   "item": "p. 1",
+   "texto": "Guia comercial de projeto de olhais de içamento baseado nas regras DNV e na prática da indústria. Não substitui o cálculo: todo olhal deve ser calculado, idealmente verificado por terceiro, e testado após fabricado.",
+   "valores": []
+  },
+  {
+   "titulo": "Geometria e manilha",
+   "item": "p. 1",
+   "texto": "O furo combina com a manilha (de parafuso com porca e contrapino); folga do pino e espessura no furo seguem as regras DNV. Olhal simétrico para içamento reto; assimétrico para içamentos multipontos (contêiner, quadro), apontando para o centro de içamento. Acima de certa capacidade, chapas de reforço soldadas (não bucha única) reduzem a folga.",
+   "valores": [
+    {
+     "parametro": "Folga pino–furo",
+     "valor": "≤ 6 % do Ø do pino",
+     "item": "p. 1",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-container-e271.svg#folga"
+    },
+    {
+     "parametro": "Espessura no furo",
+     "valor": "≥ 75 % da largura interna da manilha",
+     "item": "p. 1",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-container-e271.svg#t"
+    },
+    {
+     "parametro": "Desalinhamento admissível",
+     "valor": "2,5°",
+     "item": "p. 1"
+    },
+    {
+     "parametro": "Ângulo típico de carga (assimétrico)",
+     "valor": "30°",
+     "item": "p. 1"
+    },
+    {
+     "parametro": "Capacidade que exige chapas de reforço",
+     "valor": "> 2 000 kg",
+     "item": "p. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Material e solda",
+   "item": "p. 1",
+   "texto": "Aço estrutural de grau tenaz com certificado 3.1, solda de penetração total na estrutura primária, preferindo atravessar o membro; chapa horizontal tracionada exige qualidade Z.",
+   "valores": [
+    {
+     "parametro": "Material",
+     "valor": "S355J2 (EN 10025), certificado 3.1",
+     "item": "p. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Tamanhos típicos",
+   "item": "p. 2–3",
+   "texto": "Desenhos de olhais de 500 kg a 35 000 kg compatíveis com manilhas Crosby e Green Pin; ao dimensionar, considerar carga bruta, ensaio, fator dinâmico, arrasto e água retida.",
+   "valores": [
+    {
+     "parametro": "Faixa de capacidades",
+     "valor": "500 kg a 35 000 kg",
+     "item": "p. 2–3"
+    }
+   ]
+  }
+ ]
+}

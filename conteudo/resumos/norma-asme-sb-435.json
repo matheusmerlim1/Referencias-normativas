@@ -1,0 +1,66 @@
+{
+ "id": "ASME-SB-435",
+ "titulo": "SB-435 — Chapas, folhas e tiras de ligas resistentes ao calor (N06002, N06230, N12160, R30556)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras laminadas das ligas N06002 (Hastelloy X), N06230, N12160 e R30556 para serviço resistente ao calor e corrosivo geral; recozidas e decapadas."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N06002 — Fe / Cr / Mo / Co",
+     "valor": "17,0–20,0 % / 20,5–23,0 % / 8,0–10,0 % / 0,5–2,5 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06230 — Cr / W",
+     "valor": "20,0–24,0 % / 13,0–15,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "R30556 — Ni / Co / Cr",
+     "valor": "19,0–22,5 % / 16,0–21,0 % / 21,0–23,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N12160 — Cr / Co",
+     "valor": "26,0–30,0 % / 27,0–33,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N06002",
+     "valor": "95 ksi (655) / 35 ksi (240) / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N06230",
+     "valor": "110 ksi (760) / 45 ksi (310) / 40 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "R30556",
+     "valor": "100 ksi (690) / 45 ksi (310) / 40 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N12160",
+     "valor": "90 ksi (670) / 35 ksi (240) / 40 %",
+     "item": "Tabela 2",
+     "nota": "equivalência em MPa como na norma"
+    }
+   ]
+  }
+ ]
+}

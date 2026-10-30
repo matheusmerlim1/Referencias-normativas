@@ -1,0 +1,30 @@
+{
+ "id": "DIN-3017-2",
+ "titulo": "DIN 3017-2:2002 — Abraçadeiras de mangueira — Parte 2: Com orelhas de aperto",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Abraçadeiras com orelhas de aperto e parafuso, usadas principalmente para fixar mangueiras em tubulações. Formas B1 (inteiriça) e B2 (duas peças).",
+   "valores": []
+  },
+  {
+   "titulo": "Dimensões e designação",
+   "item": "3, Tab. 1",
+   "texto": "Só as dimensões indicadas são obrigatórias. Diâmetro nominal escolhido em passos de 1 mm (B1) ou 2 mm (B2); maiores por acordo. Parafusos M3 a M5 podem ser de cabeça cilíndrica com fenda cruzada ou sextavada com flange.",
+   "valores": [
+    {
+     "parametro": "Exemplo",
+     "valor": "Abraçadeira DIN 3017 – B1 – 58 × 15 – W1 – 2",
+     "item": "3"
+    }
+   ]
+  },
+  {
+   "titulo": "Materiais e execução",
+   "item": "4–5, Tab. 2",
+   "texto": "Materiais por código W (Tab. 2; outros por acordo indicando o número do material); arestas pela DIN ISO 13715 e rebarba pela DIN 9830; proteção por grau de superfície (grau 3 incluído, grau 1 eliminado).",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SA-696",
+ "titulo": "SA-696 — Barras de aço carbono laminadas a quente e acabadas a frio para componentes sob pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 3",
+   "texto": "Barras de aço carbono de qualidade especial, retas, laminadas a quente ou acabadas a frio, com propriedades mecânicas, para fabricar componentes de tubulação e outras partes sob pressão (usinagem, solda, conformação a quente, rosca). Graus B e C. Requisitos gerais pela SA-29."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Proibida adição de P, S ou Pb. Para cada 0,01 % de C abaixo do máximo, +0,06 % de Mn acima do máximo.",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,32 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx.",
+     "valor": "1,04 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,045 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,15 a 0,35 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2, 8.1.2",
+   "texto": "Alongamento reduzido em 1 ponto por polegada de diâmetro acima de 2,0 in, até 3 pontos.",
+   "valores": [
+    {
+     "parametro": "Grau B — Su / Sy mín.",
+     "valor": "60 ksi (415) / 35 ksi (240)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau C — Su / Sy mín.",
+     "valor": "70 ksi (485) / 40 ksi (275)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm — B / C",
+     "valor": "20,0 % / 18,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 200 mm — B / C (barras de 1 1/2 in em seção plena)",
+     "valor": "17,0 % / 15,0 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

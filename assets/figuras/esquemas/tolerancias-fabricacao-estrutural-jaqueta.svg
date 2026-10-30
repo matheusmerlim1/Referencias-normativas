@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580" role="img" aria-label="Jaqueta — distância entre colunas, diagonais, retilineidade e posições ao longo da perna">
+<title>Jaqueta — distância entre colunas, diagonais, retilineidade e posições ao longo da perna (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Jaqueta — distância entre colunas, diagonais, retilineidade e posições ao longo da perna</text>
+<text class="b" x="60" y="70">Planta (eixos das colunas)</text>
+<circle class="s" cx="100" cy="170" r="22"/>
+<circle class="s" cx="320" cy="170" r="22"/>
+<circle class="s" cx="100" cy="390" r="22"/>
+<circle class="s" cx="320" cy="390" r="22"/>
+<line class="h" x1="100" y1="170" x2="320" y2="390"/>
+<line class="h" x1="320" y1="170" x2="100" y2="390"/>
+<g id="cota-dist-colunas" class="cota"><line class="e" x1="100" y1="167" x2="100" y2="119"/><line class="e" x1="320" y1="167" x2="320" y2="119"/><line class="d" x1="100" y1="125" x2="320" y2="125" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="210" y="118">distância entre eixos (colunas adjacentes)</text></g>
+<g id="cota-diagonais" class="cota"><line class="d" x1="150" y1="445" x2="170" y2="210" marker-end="url(#a)"/><text x="150" y="450">diagonais (comparar)</text></g>
+<text class="b" x="520" y="70">Elevação de uma perna</text>
+<path class="s" d="M520,520 Q560,300 540,90"/>
+<path class="g" d="M548,520 Q588,300 568,90"/>
+<line class="c" x1="540" y1="90" x2="540" y2="520"/>
+<g id="cota-retilineidade" class="cota"><line class="d" x1="522" y1="300" x2="548" y2="300" marker-end="url(#a)"/><line class="d" x1="601" y1="300" x2="575" y2="300" marker-end="url(#a)"/><line class="d" x1="548" y1="300" x2="575" y2="300"/><text x="600" y="330">desvio de retilineidade</text></g>
+<g id="cota-elev-topo" class="cota"><line class="d" x1="600" y1="90" x2="560" y2="90" marker-end="url(#a)"/><text x="600" y="95">topo: elevação</text></g>
+<rect class="r" x="538" y="160" width="40" height="70"/>
+<g id="cota-joint-can" class="cota"><line class="e" x1="517" y1="160" x2="474" y2="160"/><line class="e" x1="517" y1="230" x2="474" y2="230"/><line class="d" x1="480" y1="160" x2="480" y2="230" marker-start="url(#a)" marker-end="url(#a)"/><text x="600" y="200">extremidades do joint can</text></g>
+<line class="s" x1="578" y1="270" x2="880" y2="270"/>
+<line class="s" x1="578" y1="282" x2="880" y2="282"/>
+<g id="cota-brace-horizontal" class="cota"><line class="d" x1="600" y1="250" x2="700" y2="270" marker-end="url(#a)"/><text x="600" y="255">brace horizontal: posição vertical</text></g>
+<g id="cota-mudanca-espessura" class="cota"><line class="d" x1="600" y1="435" x2="566" y2="420" marker-end="url(#a)"/><text x="600" y="440">outras mudanças de espessura: posição</text></g>
+<g id="cota-mud-esp-brace" class="cota"><line class="d" x1="890" y1="305" x2="760" y2="283" marker-end="url(#a)"/><text class="en" x="890" y="310">mudança de espessura no brace</text></g>
+<g id="cota-pontos-brace" class="cota"><line class="d" x1="890" y1="375" x2="574" y2="360" marker-end="url(#a)"/><text class="en" x="890" y="380">pontos extremos de outros braces</text></g>
+<text class="n" x="20" y="568">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

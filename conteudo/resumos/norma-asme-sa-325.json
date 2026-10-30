@@ -1,0 +1,46 @@
+{
+ "id": "ASME-SA-325",
+ "titulo": "ASME SA-325 — Parafusos estruturais de aço temperado e revenido (120/105 ksi)",
+ "secoes": [
+  {
+   "titulo": "Escopo e tipos",
+   "item": "1",
+   "texto": "Parafusos estruturais temperados e revenidos para ligações de estruturas de aço, usados conforme a especificação de juntas do RCSC. Tipo 1 é de aço médio carbono, carbono-boro ou baixa liga; o tipo 3 é de aço patinável, que pode ficar sem pintura. O tipo 2 foi retirado. Para uso geral ou diâmetros maiores existe a A449. Corresponde à ASTM A325; dimensões pela ASME B18.2.6.",
+   "valores": [
+    {"parametro": "Faixa de diâmetros", "valor": "1/2 a 1 1/2 in", "item": "1.3"},
+    {"parametro": "Resistência à tração mín. — até 1 in", "valor": "120 ksi", "item": "1.1"},
+    {"parametro": "Resistência à tração mín. — > 1 a 1 1/2 in", "valor": "105 ksi", "item": "1.1"}
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 3 e 4",
+   "texto": "Ensaios na peça inteira: tração e carga de prova (por alongamento ou pelo método alternativo de escoamento) e faixa de dureza. Parafusos muito curtos são aceitos só pela dureza. Cargas por rosca na ficha parafusos-porcas-arruelas.",
+   "valores": [
+    {"parametro": "Tensão de prova — até 1 in / > 1 in", "valor": "85 / 74 ksi", "item": "Tabela 4"},
+    {"parametro": "Dureza — 1/2 a 1 in", "valor": "253 a 319 HB (25–34 HRC)", "item": "Tabela 3"},
+    {"parametro": "Dureza — 1 1/8 a 1 1/2 in", "valor": "223 a 286 HB (19–30 HRC)", "item": "Tabela 3"},
+    {"parametro": "Só ensaio de dureza", "valor": "comprimento < 3D", "item": "Tabela 3"},
+    {"parametro": "Carga mín. de tração — 3/4-10 UNC", "valor": "40 100 lbf", "item": "Tabela 4"}
+   ]
+  },
+  {
+   "titulo": "Capacidade de rotação (galvanizado)",
+   "item": "Tabela 5",
+   "texto": "Parafusos galvanizados e lubrificados passam por ensaio de rotação da porca sem romper, com ângulo que cresce com a relação comprimento/diâmetro.",
+   "valores": [
+    {"parametro": "Rotação de ensaio — L ≤ 4D", "valor": "240° (2/3 de volta)", "item": "Tabela 5", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#L"},
+    {"parametro": "Rotação — 4D < L ≤ 8D / 8D < L ≤ 12D", "valor": "360° / 420°", "item": "Tabela 5"}
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "16",
+   "texto": "A marcação vai no topo da cabeça, em relevo ou rebaixo, com identificação do fabricante e do tipo. Parafuso sem marcação correta é rejeitado.",
+   "valores": [
+    {"parametro": "Tipo 1", "valor": "\"A 325\" (pode ter 3 traços radiais a 120°)", "item": "16.2.1"},
+    {"parametro": "Tipo 3 (patinável)", "valor": "\"A 325\" sublinhado", "item": "16.2.2"}
+   ]
+  }
+ ]
+}

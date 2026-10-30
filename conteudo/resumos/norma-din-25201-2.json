@@ -1,0 +1,43 @@
+{
+ "id": "DIN-25201-2",
+ "titulo": "DIN 25201-2:2006 — Diretriz de projeto para veículos ferroviários e componentes — Uniões parafusadas — Parte 2: Projeto",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Projeto de uniões parafusadas com parafusos e porcas de aço (DIN EN ISO 898-1 e DIN EN 20898-2) em veículos ferroviários; com restrições de material, vale também para outros fixadores. Classificação das uniões e categorias na Parte 1; elementos permitidos pelas DIN 25200 e 25201-4.",
+   "valores": []
+  },
+  {
+   "titulo": "Princípios",
+   "item": "4",
+   "texto": "A força de pré-tensão de montagem FM é o que garante transmitir de forma duradoura as cargas estáticas e dinâmicas, minimizando a amplitude de tensão no parafuso e a perda de pré-tensão por assentamento.",
+   "valores": []
+  },
+  {
+   "titulo": "Parâmetros de projeto",
+   "item": "5",
+   "texto": "Dimensões e tolerâncias das peças unidas, comprimento de aperto (deve ser suficiente para manter a deformação elástica da haste — relação recomendada na norma) e flexibilidade da união.",
+   "valores": [
+    {
+     "parametro": "Comprimento de aperto lK",
+     "valor": "relação mínima lK/d recomendada",
+     "item": "5.2",
+     "nota": "valor não legível no texto — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Escolha dos elementos",
+   "item": "6",
+   "texto": "Acesso das ferramentas de aperto, rosca, material, cabeça, porcas, arruelas (mínimas possíveis), elementos de travamento contra perda (porcas com elemento de bloqueio pela DIN EN ISO 2320) e revestimentos com faixa de coeficiente de atrito definida e estreita.",
+   "valores": []
+  },
+  {
+   "titulo": "Dimensionamento",
+   "item": "7, Anexos A–C",
+   "texto": "Influências: profundidade de rosca engajada mínima (torques pela VDI 2230-1 só valem com as profundidades mínimas da figura), coeficientes de atrito, classe de risco, método de aperto (torque, ângulo, pré-tensão, alongamento) e classe de aparafusamento, redundância (mais parafusos que o necessário, caminho de carga alternativo). Pré-dimensionamento de diâmetros (Anexo A), exemplos de indicação em documentos (Anexo B) e valores orientativos de pré-tensão e torque (Anexo C).",
+   "valores": []
+  }
+ ]
+}

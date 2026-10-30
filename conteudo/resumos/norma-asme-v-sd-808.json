@@ -1,0 +1,18 @@
+{
+ "id": "ASME-V-SD-808",
+ "titulo": "Seção V, SD-808 — Cloro em produtos de petróleo (método da bomba)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Determinação de cloro em óleos lubrificantes e graxas (novos e usados, com aditivos) e concentrados de aditivos; supõe ausência de outros halogênios. Artigo normativo adotado pela ASME Seção V (Ensaios Não Destrutivos), aplicável quando o Código ou o pedido o invoca.",
+   "valores": [
+    {
+     "parametro": "Faixa de aplicação",
+     "valor": "0,1 a 50 % de cloro",
+     "item": "1.1"
+    }
+   ]
+  }
+ ]
+}

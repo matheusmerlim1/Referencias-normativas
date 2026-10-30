@@ -1,0 +1,161 @@
+{
+ "id": "API-RP-14E",
+ "titulo": "API RP 14E — Projeto e instalação de tubulação de plataformas de produção offshore",
+ "secoes": [
+  {
+   "titulo": "Escopo e mudança de classe de pressão",
+   "item": "1",
+   "texto": "Prática para tubulação de processo de plataformas de produção, apoiada na B31.3. Ao longo do processo a pressão cai em estágios e os componentes podem ter classe menor. Cada componente deve aguentar a maior pressão possível sobre ele ou ser protegido por alívio; válvulas de bloqueio sob válvulas de alívio ficam travadas abertas. Também trata de corrosão (perda de massa, H2S, cloretos).",
+   "valores": [
+    {
+     "parametro": "Ajuste de válvula de alívio",
+     "valor": "≤ pressão de projeto do sistema",
+     "item": "1.6; Fig. 1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Materiais de tubo",
+   "item": "2.1",
+   "texto": "Em hidrocarboneto não corrosivo usam-se mais o A106 Gr. B e o API 5L Gr. B, preferindo sem costura. Graus mais resistentes (X46, X52) reduzem a parede, mas pedem procedimento de solda especial e supervisão.",
+   "valores": [
+    {
+     "parametro": "Tubos mais usados (não corrosivo)",
+     "valor": "ASTM A106 Gr. B e API 5L Gr. B",
+     "item": "2.1 a"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensionamento de linhas de líquido",
+   "item": "2.3",
+   "texto": "Líquido entre vasos tem velocidade máxima para evitar vaporização antes da válvula de controle e mínima para não depositar areia. Sucção de bomba tem velocidades menores que o recalque, conforme tabela. O recalque fica a 1 ou 2 diâmetros acima do bocal da bomba.",
+   "valores": [
+    {
+     "parametro": "Velocidade máxima de líquido",
+     "valor": "15 ft/s (≈ 4,6 m/s)",
+     "item": "2.3 a"
+    },
+    {
+     "parametro": "Velocidade mínima de líquido",
+     "valor": "3 ft/s (≈ 0,9 m/s)",
+     "item": "2.3 a"
+    },
+    {
+     "parametro": "Velocidade de líquido",
+     "valor": "V = 0,012·Q / d² (ft/s; Q em bbl/d; d em in)",
+     "item": "2.3 a, Eq. 2.1",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#ID"
+    },
+    {
+     "parametro": "Recalque de bomba",
+     "valor": "≤ 3 × a velocidade de sucção",
+     "item": "2.3 b"
+    }
+   ]
+  },
+  {
+   "titulo": "Gás monofásico",
+   "item": "2.4",
+   "texto": "A perda de carga é calculada por equação geral ou empírica. Velocidade alta pode gerar ruído, mas não é um limite rígido: arranjo e escolha de válvulas resolvem.",
+   "valores": [
+    {
+     "parametro": "Velocidade de gás a partir da qual pode haver ruído",
+     "valor": "60 ft/s (≈ 18 m/s) — não é limite absoluto",
+     "item": "2.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Bifásico gás–líquido e velocidade erosional",
+   "item": "2.5",
+   "texto": "A velocidade de mistura não deve passar da velocidade erosional, dada por uma constante empírica dividida pela raiz da densidade da mistura. A constante é menor com sólidos e maior com corrosão controlada. Com valores altos ou sólidos, monitorar espessura e instalar sondas de areia e tês cegos. Uma velocidade mínima evita golfadas.",
+   "valores": [
+    {
+     "parametro": "Velocidade erosional",
+     "valor": "Ve = c / √ρm (ft/s; ρm em lb/ft³)",
+     "item": "2.5 a, Eq. 2.14"
+    },
+    {
+     "parametro": "c sem sólidos — contínuo / intermitente",
+     "valor": "100 / 125",
+     "item": "2.5 a"
+    },
+    {
+     "parametro": "c com corrosão controlada — contínuo / intermitente",
+     "valor": "150 a 200 / até 250",
+     "item": "2.5 a"
+    },
+    {
+     "parametro": "Trecho reto a jusante de choke (com sólidos)",
+     "valor": "≥ 3 ft",
+     "item": "2.5 a"
+    },
+    {
+     "parametro": "Velocidade mínima bifásica",
+     "valor": "≈ 10 ft/s (≈ 3 m/s)",
+     "item": "2.5 b"
+    }
+   ]
+  },
+  {
+   "titulo": "Espessura de parede",
+   "item": "2.6",
+   "texto": "A espessura vem da pressão e temperatura de operação pela equação da B31.3, mais sobre-espessura de corrosão e resistência mecânica. Tubo fino de pequeno diâmetro falha por vibração e corrosão, por isso há schedule mínimo; niples totalmente roscados não devem ser usados.",
+   "valores": [
+    {
+     "parametro": "Sobre-espessura mínima recomendada (aço carbono)",
+     "valor": "0,050 in (≈ 1,3 mm)",
+     "item": "2.6",
+     "nota": "Colunas do item 2.6 c embaralhadas no OCR; reordenadas por nós — conferir na norma."
+    },
+    {
+     "parametro": "Espessura de pressão",
+     "valor": "t = P·Do / [2·(S·E + P·Y)]",
+     "item": "2.6 a, Eq. 2.19",
+     "nota": "Colunas do item 2.6 c embaralhadas no OCR; reordenadas por nós — conferir na norma."
+    },
+    {
+     "parametro": "Niples de hidrocarboneto ≤ 3/4 in",
+     "valor": "Sch 160 mín.",
+     "item": "2.6 c",
+     "nota": "Colunas do item 2.6 c embaralhadas no OCR; reordenadas por nós — conferir na norma."
+    },
+    {
+     "parametro": "Tubo de hidrocarboneto ≤ 3 in",
+     "valor": "Sch 80 mín.",
+     "item": "2.6 c",
+     "nota": "Colunas do item 2.6 c embaralhadas no OCR; reordenadas por nós — conferir na norma."
+    }
+   ]
+  },
+  {
+   "titulo": "Tipos de junta",
+   "item": "2.7",
+   "texto": "Linhas maiores são soldadas de topo. Linhas pequenas usam encaixe soldado em serviços mais severos (pressão, temperatura, vibração, glicol); rosca fica para casos menos exigentes.",
+   "valores": [
+    {
+     "parametro": "Solda de topo — hidrocarboneto",
+     "valor": "Ø ≥ 2 in",
+     "item": "2.7"
+    },
+    {
+     "parametro": "Solda de topo — utilidades pressurizadas",
+     "valor": "Ø ≥ 3 in",
+     "item": "2.7"
+    },
+    {
+     "parametro": "Encaixe soldado obrigatório (Ø ≤ 1½ in)",
+     "valor": "acima de classe 600, acima de 200 °F, com vibração ou glicol",
+     "item": "2.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Válvulas, conexões e demais seções",
+   "item": "3 a 6",
+   "texto": "Orienta a escolha de válvulas (esfera, gaveta, macho, borboleta, globo, retenção, agulha) e seus materiais, de conexões e flanges, e trata de projeto de sistemas específicos, instalação, testes e isolamento.",
+   "valores": []
+  }
+ ]
+}

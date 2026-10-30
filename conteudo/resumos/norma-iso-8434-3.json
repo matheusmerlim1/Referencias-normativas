@@ -1,0 +1,35 @@
+{
+ "id": "ISO-8434-3",
+ "titulo": "ISO 8434-3:1995 — Conexões metálicas de tubos — Parte 3: Conexões com vedação frontal por O-ring (ORFS)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Conexões de aço com vedação frontal por O-ring, para tubos (diâmetro externo) ou mangueiras (diâmetro interno) de 6 a 38 mm, baseadas na SAE J1453, com roscas unificadas em polegada (ISO 725). Estanques de vácuo de 6,5 kPa absoluto até as pressões da Tabela 1. Tubo métrico ou em polegada trocando a luva (Anexo C).",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "6 a 38 mm",
+     "item": "1"
+    },
+    {
+     "parametro": "Vácuo admissível",
+     "valor": "6,5 kPa (0,065 bar) absoluto",
+     "item": "1"
+    },
+    {
+     "parametro": "Pressões de trabalho",
+     "valor": "Tabela 1",
+     "item": "Tab. 1",
+     "nota": "valores não extraídos — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Estrutura comum da série",
+   "item": "3–14",
+   "texto": "Materiais (corpos, porcas, anéis, O-rings), requisitos de pressão/temperatura, designação dos conectores, requisitos dos tubos, aberturas de chave e tolerâncias, projeto (passagens, ângulos, contornos, pórticos e pontas roscadas com vedação), roscas, fabricação (acabamento, cantos), instruções de montagem, informações de compra e marcação. Inclui ensaio de desempenho e qualificação.",
+   "valores": []
+  }
+ ]
+}

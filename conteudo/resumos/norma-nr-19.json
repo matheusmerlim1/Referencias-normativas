@@ -1,0 +1,115 @@
+{
+ "id": "NR-19",
+ "titulo": "NR-19 — Explosivos",
+ "secoes": [
+  {
+   "titulo": "Disposições gerais",
+   "item": "19.1",
+   "texto": "Explosivo é a substância que, iniciada, se decompõe muito depressa, liberando muito calor e gerando pressão súbita. Fabricação, uso, importação, exportação, tráfego e comércio seguem a legislação do Exército (R-105). É proibido fabricar explosivos dentro do perímetro urbano. As quantidades máximas em fabricação e armazenagem seguem as tabelas do Anexo II; depósitos com barricada podem ter as distâncias reduzidas à metade. O programa de riscos das empresas que fabricam ou usam explosivos inclui avaliação e controle de incêndio e explosão.",
+   "valores": [
+    {"parametro": "Depósito barricado", "valor": "distâncias do Anexo II reduzidas à metade", "item": "19.1.4.1"}
+   ]
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "19.2",
+   "texto": "Só fabrica quem tem Título de Registro do Exército. O terreno é cercado e separa fabricação, armazenagem e administração. Locais de fabricação: bem conservados e ventilados, paredes e teto incombustíveis, piso antiestático, equipamentos aterrados e instalação elétrica especial se preciso, combate a incêndio simples e com água suficiente, sem material combustível. No manuseio é proibido usar ferramenta que faça faísca ou aqueça por atrito, fumar, usar calçado com pregos ou metal externo e manter objetos alheios à tarefa.",
+   "valores": [
+    {"parametro": "Encartuchamento e semelhantes — ocupação do local isolado", "valor": "≤ 4 trabalhadores ao mesmo tempo", "item": "19.2.2.1"},
+    {"parametro": "Matéria-prima explosiva no posto de manuseio", "valor": "≤ quantidade para 4 h de trabalho", "item": "19.2.5"}
+   ]
+  },
+  {
+   "titulo": "Armazenamento",
+   "item": "19.3",
+   "texto": "Depósitos de explosivos são incombustíveis, em terreno firme, seco e livre de enchente, ventilados e sinalizados por fora, com ocupação e empilhamento limitados. Não se guardam juntos iniciadores e explosivos, pólvoras e outros explosivos, ou fogos com pólvoras e explosivos; nem explosivos em casas, estábulos, silos, galpões, oficinas ou lojas.",
+   "valores": [
+    {"parametro": "Ocupação máxima da área do depósito", "valor": "60 %", "item": "19.3.1 c)"},
+    {"parametro": "Altura máxima de empilhamento", "valor": "2 m", "item": "19.3.1 c)"},
+    {"parametro": "Folga entre o topo da pilha e o teto", "valor": "1 m", "item": "19.3.1 c)", "nota": "O texto diz \"e uma entre o teto e o topo\"; lido como 1 metro."}
+   ]
+  },
+  {
+   "titulo": "Transporte",
+   "item": "19.4",
+   "texto": "Transporte terrestre segue a regulamentação de produtos perigosos dos Transportes; aquaviário, a Marinha; aéreo, a Aeronáutica. Embalagem regulamentar, embarque e desembarque acompanhados por fiscal habilitado, equipamentos verificados, veículo sinalizado (bandeirolas vermelhas ou placas), carga fixada e protegida de umidade e sol, munições, pólvoras, explosivos, iniciadores e pirotécnicos separados; nada de bater, arrastar ou jogar volumes; sem chama ou faísca. Carga e descarga de dia e com tempo bom; à noite, só com iluminação elétrica (lanternas, holofotes).",
+   "valores": []
+  },
+  {
+   "titulo": "Anexo I — Fogos de artifício: instalações",
+   "item": "Anexo I, 1–4",
+   "texto": "Vale para fábricas e comércio de fogos e artefatos pirotécnicos, incluindo produção de pólvora negra e alumínio pirotécnico. Instalações seguem a NR-08 e o R-105. Cercas aterradas, sinalizadas e separando administração, depósitos e fabricação. Pavilhões com conforto térmico e iluminação, placa com atividade, nº máximo de pessoas, encarregado e carga máxima de explosivo; pisos lisos, laváveis e antiestáticos, cantos arredondados, bancadas antiestáticas com bordas, mínimo de prateleiras. Instalação elétrica independente e à prova de explosão; máquinas aterradas. Projetos aprovados pelo Exército são comunicados ao MTE antes da obra.",
+   "valores": [
+    {"parametro": "Placas de advertência na cerca", "valor": "a cada ≤ 100 m", "item": "Anexo I, 4.2 b)"},
+    {"parametro": "Largura das vias internas de transporte", "valor": "≥ 1,20 m", "item": "Anexo I, 4.3 a)"},
+    {"parametro": "Faixa sem vegetação rasteira em volta de depósitos e pavilhões", "valor": "≥ 20 m", "item": "Anexo I, 4.4"},
+    {"parametro": "Pavilhão de pólvora branca — lâmina d'água sobre o piso", "valor": "0,10 m", "item": "Anexo I, 4.7.1 d)"},
+    {"parametro": "Pavilhão de pólvora branca — cocho de alvenaria na entrada", "valor": "1 m de largura, com lâmina d'água de 0,10 m", "item": "Anexo I, 4.7.1 e)"}
+   ]
+  },
+  {
+   "titulo": "Anexo I — Programa de riscos, CIPA e responsável técnico",
+   "item": "Anexo I, 5–7",
+   "texto": "O programa de prevenção de riscos (feito por profissional de SST, responsável técnico e responsáveis legais) tem documento estratégico, inventário de riscos (com inventário de produtos químicos, relatórios de acidentes e de monitoramento), plano de ação anual e planos específicos — incluindo o Plano de Emergência e Combate a Incêndio e Explosão, enviado à Defesa Civil e aos Bombeiros. A CIPA (ou comissão indicada) inspeciona os postos com o responsável técnico e registra os resultados. Toda empresa tem responsável técnico habilitado, com horário contratual registrado, cujo nome aparece em rótulos e anúncios.",
+   "valores": [
+    {"parametro": "Revisão do inventário geral de riscos", "valor": "no mínimo anual", "item": "Anexo I, 5.2.2"},
+    {"parametro": "Plano de emergência — simulado e revisão", "valor": "anual, com CIPA e todos os trabalhadores", "item": "Anexo I, 5.2.4.2"},
+    {"parametro": "Inspeção da CIPA nos postos de trabalho", "valor": "no mínimo mensal", "item": "Anexo I, 6.1"},
+    {"parametro": "Treinamento da CIPA", "valor": "anual, incluindo riscos com explosivos", "item": "Anexo I, 6.4"}
+   ]
+  },
+  {
+   "titulo": "Anexo I — Locais de trabalho, transporte interno e EPI",
+   "item": "Anexo I, 8–10",
+   "texto": "Locais limpos e só com o necessário; limpeza de calçados na entrada; procedimentos operacionais afixados no pavilhão; carga de explosivo e lotação definidas pelo responsável técnico; sem fontes de ignição; ferramentas de aço inox ou material que dificulte faísca. Portas abertas para fora e travadas abertas durante a jornada. Trabalho sentado sempre que possível (assentos pela NR-17). Reserva de água para uso imediato e umedecimento. Depósitos de pólvora negra, produtos acabados e bombas medem temperatura e umidade diariamente, com registro. Transporte interno com regras do responsável técnico, animais sem ferradura e carrinhos antichoque e antifaísca. Uniforme de algodão ou tecido antiestático fornecido e lavado pela empresa; calçado antiestático sem metal externo (impermeável onde há lâmina d'água).",
+   "valores": [
+    {"parametro": "Pausa quando não é possível trabalhar sentado", "valor": "≥ 15 min a cada 2 h, com assento para descanso", "item": "Anexo I, 8.7.2"},
+    {"parametro": "Medição de temperatura e umidade nos depósitos", "valor": "diária, com registro", "item": "Anexo I, 8.9"},
+    {"parametro": "Lavagem de uniforme (pólvora negra, branca e cores)", "valor": "semanal, pela empresa", "item": "Anexo I, 10.2.2"}
+   ]
+  },
+  {
+   "titulo": "Anexo I — Acesso, resíduos, higiene e conforto",
+   "item": "Anexo I, 11–13",
+   "texto": "Portaria permanente com vigia treinado, que barra pessoas, veículos e materiais fora das regras; itinerário de veículos definido, escapamento com corta-chamas e não voltado para pavilhões, carga e descarga com motor desligado. Coleta seletiva de resíduos, guarda segura longe dos pavilhões e destruição conforme R-105 sob o responsável técnico. Sanitários por sexo (NR-24) distribuídos pela fábrica; vestiários com chuveiro e armário para entrar na área só de uniforme; vestiário próprio para quem lida com alumínio em pó e pólvora negra. Água potável em recipiente não metálico (bebedouro fora do pavilhão, à sombra), sem copo metálico ou coletivo. Refeitório fora da produção; proibido comer nos pavilhões.",
+   "valores": [
+    {"parametro": "Distância máxima do posto de trabalho ao sanitário", "valor": "120 m", "item": "Anexo I, 13.1"},
+    {"parametro": "Vestiário de quem manuseia alumínio em pó e pólvora negra — distância ao pavilhão", "valor": "≤ 50 m", "item": "Anexo I, 13.2.1"}
+   ]
+  },
+  {
+   "titulo": "Anexo I — Treinamento, acidentes e qualidade",
+   "item": "Anexo I, 14–16",
+   "texto": "Treinamento contínuo sobre riscos, programa de prevenção, plano de emergência, procedimentos e EPI, com registro de conteúdo, carga horária e presença. Acidentes e incidentes com explosivos são comunicados a sindicatos, à fiscalização do trabalho e ao Exército e analisados por comissão (responsável técnico, CIPA, SST), com causas, medidas e cronograma.",
+   "valores": [
+    {"parametro": "Treinamento", "valor": "na admissão, em mudança de função/processo/material e no mínimo anual", "item": "Anexo I, 14.1.1"},
+    {"parametro": "Comunicação de acidente/incidente com explosivo", "valor": "em até 48 h", "item": "Anexo I, 15.1"},
+    {"parametro": "Guarda dos certificados de qualidade da matéria-prima", "valor": "≥ 2 anos", "item": "Anexo I, 16.1"}
+   ]
+  },
+  {
+   "titulo": "Anexo I — Comercialização e disposições finais",
+   "item": "Anexo I, 17–30",
+   "texto": "No comércio de fogos é proibido fabricar, testar, montar ou desmontar fogos; montagem de espetáculos só em local isolado próprio. Quantidades máximas: fogos de uso permitido, conforme órgão estadual/municipal; de uso restrito, conforme R-105. Proteção contra incêndio pela NR-23; fogos longe de inflamáveis, oxidantes e corrosivos, fora de móveis fechados, na embalagem original com rótulo em português; prateleiras e balcões sinalizados com proibição de fumar. É proibida remuneração por produtividade, uso de matéria-prima vetada pelo Exército, terceirização para quem não cumpre a norma e testes nos pavilhões ou por pessoa não treinada (teste de produto novo só com o responsável técnico).",
+   "valores": [
+    {"parametro": "Idade mínima na fabricação de fogos e no manuseio de suas matérias-primas", "valor": "18 anos (menores só na cartonagem sem explosivo ou no administrativo fora da área de risco)", "item": "Anexo I, 28–29"}
+   ]
+  },
+  {
+   "titulo": "Anexo II — Tabelas de quantidades-distâncias",
+   "item": "Anexo II",
+   "texto": "A tabela depende do tipo de material: munições não precisam de tabela (risco é de incêndio); pólvoras químicas, pirotécnicos sem risco significativo e produtos químicos com risco só de fogo usam a Tabela 1; iniciadores, a Tabela 2; explosivos de ruptura, pirotécnicos com explosão em massa e produtos químicos guardados junto de materiais com que formam mistura explosiva (só entre depósitos), a Tabela 3; pirotécnicos com perigo de fogo e pequeno risco de explosão, a Tabela 4. Valores = distância mínima em metros por faixa de peso líquido em kg.",
+   "valores": [
+    {"parametro": "Tabela 1 — faixa (kg) → edifícios habitados / ferrovias / rodovias / entre depósitos ou oficinas (m)", "valor": "0–450 → 25/25/25/15; 451–2 250 → 35/35/35/25; 2 251–4 500 → 45/45/45/30; 4 501–9 000 → 60/60/60/40; 9 001–18 100 → 70/70/70/50; 18 001–31 750 → 80/80/80/55; 31 751–45 350 → 90/90/90/60; 45 351–90 700 → 115/115/115/75; 90 701–136 000 → 110/110/110/75; 136 001–181 400 → 150/150/150/100; 181 401–226 800 → 180/180/180/120", "item": "Anexo II, Tabela 1", "nota": "Transcrito como no texto: \"18.001\" (sobrepõe a faixa anterior) e 115 m seguido de 110 m estão assim na norma — conferir."},
+    {"parametro": "Tabela 1 — quantidade máxima no mesmo local", "valor": "226 800 kg", "item": "Anexo II, Tabela 1"},
+    {"parametro": "Tabela 2 (iniciadores) — faixa (kg) → habitados / ferrovias / rodovias / entre depósitos (m)", "valor": "0–20 → 75/45/22/20; 21–100 → 140/90/43/30; 101–200 → 220/135/70/45; 201–500 → 260/160/80/65; 501–900 → 300/180/95/90; 901–2 200 → 370/220/110/90; 2 201–4 500 → 460/280/140/90; 4 501–6 800 → 500/300/150/90; 6 801–9 000 → 530/320/160/90", "item": "Anexo II, Tabela 2"},
+    {"parametro": "Tabela 2 — quantidade máxima no mesmo local", "valor": "9 000 kg", "item": "Anexo II, Tabela 2"},
+    {"parametro": "Tabela 3 (ruptura, explosão em massa) — faixa (kg) → habitados / rodovias / ferrovias / entre depósitos (m), até 30 780 kg", "valor": "0–20 → 90/15/30/20; 21–50 → 120/25/45/30; 51–90 → 145/35/70/30; 91–140 → 170/50/100/30; 141–170 → 180/60/115/40; 171–230 → 200/70/135/40; 231–270 → 210/75/145/40; 271–320 → 220/80/160/40; 321–360 → 230/85/165/40; 361–410 → 240/90/180/44; 411–460 → 250/95/185/50; 461–680 → 285/100/195/60; 681–910 → 310/110/220/60; 911–1 350 → 355/120/235/70; 1 351–1 720 → 385/130/255/70; 1 721–2 270 → 420/135/270/80; 2 271–2 720 → 445/145/285/80; 2 721–3 180 → 470/150/295/90; 3 181–3 630 → 490/150/300/90; 3 631–4 090 → 510/155/310/100; 4 091–4 540 → 530/160/315/100; 4 541–6 810 → 545/160/325/110; 6 811–9 080 → 595/175/355/120; 9 081–11 350 → 610/190/385/130; 11 351–13 620 → 610/205/410/140; 13 621–15 890 → 610/220/435/150; 15 891–18 160 → 610/230/460/160; 18 161–20 430 → 610/240/485/160; 20 431–22 700 → 610/255/505/170; 22 701–24 970 → 610/265/525/180; 24 971–27 240 → 610/275/550/180; 27 241–29 510 → 610/285/565/190; 29 511–30 780 → 610/295/585/190", "item": "Anexo II, Tabela 3", "nota": "Ordem das colunas conforme o cabeçalho extraído (rodovias antes de ferrovias), diferente das Tabelas 1, 2 e 4 — conferir."},
+    {"parametro": "Tabela 3 — faixa (kg) → habitados / rodovias / ferrovias / entre depósitos (m), acima de 34 050 kg", "valor": "34 051–36 320 → 610/310/615/210; 36 321–38 590 → 610/315/625/210; 38 591–40 860 → 610/320/640/220; 40 861–43 130 → 610/325/645/220; 43 131–45 400 → 610/330/655/230; 45 401–56 750 → 610/330/660/260; 56 751–68 100 → 610/345/685/290; 68 101–79 450 → 610/355/710/320; 79 451–90 800 → 620/370/735/350; 90 801–102 150 → 640/380/760/380; 102 151–113 500 → 660/390/780/410", "item": "Anexo II, Tabela 3", "nota": "A faixa 31 781–34 050 kg aparece no texto extraído sem os valores — conferir na norma."},
+    {"parametro": "Tabela 3 — quantidade máxima no mesmo local", "valor": "113 500 kg", "item": "Anexo II, Tabela 3"},
+    {"parametro": "Tabela 4 (pirotécnicos com risco de fogo) — faixa (kg) → habitados / ferrovias / rodovias / entre depósitos (m)", "valor": "0–180 → 61/61/31/21; 181–270 → 64/61/31/21; 271–360 → 77/61/31/21; 361–450 → 89/61/31/21; 451–900 → 140/71/36/24; 901–1 360 → 181/91/46/30; 1 361–1 810 → 215/108/54/36; 1 811–2 260 → 244/122/61/41; 2 261–2 720 → 269/135/66/45; 2 721–3 620 → 311/156/78/82; 3 621–4 530 → 345/173/87/58; 4 531–6 800 → 407/204/102/68; 6 801–9 070 → 455/228/114/76; 9 071–13 600 → 526/264/132/88; 13 601–18 140 → 581/291/146/97; 18 141–22 670 → 628/314/157/105; 22 671–27 210 → 668/334/167/111; 27 211–36 280 → 735/368/184/123; 36 281–45 350 → 793/397/198/132; 45 351–68 020 → 907/454/227/151; 68 021–90 700 → 999/500/250/167; 90 701–113 370 → 1 076 (habitados)", "item": "Anexo II, Tabela 4", "nota": "\"82\" entre depósitos na faixa 2 721–3 620 está assim no texto (foge da sequência); na última faixa só saiu o valor de edifícios habitados — conferir."},
+    {"parametro": "Tabela 4 — quantidade máxima no mesmo local", "valor": "113 370 kg", "item": "Anexo II, Tabela 4"}
+   ]
+  }
+ ]
+}

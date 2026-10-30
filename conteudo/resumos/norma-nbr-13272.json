@@ -1,0 +1,15 @@
+{
+ "id": "NBR-13272",
+ "titulo": "ABNT NBR 13272:1999 — Desenho técnico — Elaboração das listas de itens",
+ "secoes": [
+  {"titulo": "Requisitos gerais", "item": "4",
+   "texto": "Contorno externo da lista em linha contínua larga (tipo A) e divisões de colunas e linhas em contínua estreita (tipo B), conforme NBR 8403; escrita pela NBR 8402.",
+   "valores": []},
+  {"titulo": "Posição e colunas", "item": "5.1–5.2",
+   "texto": "A lista pode estar no desenho — no mesmo sentido de leitura, logo acima ou à esquerda da legenda — ou ser documento separado com o mesmo número do desenho. Colunas mínimas: nº de referência do item (igual ao balão do desenho, NBR 13273), denominação (designação normalizada quando houver), quantidade (total para um conjunto), referência (desenho ou norma de peças não totalmente representadas) e material (tipo e dimensões). Podem ser acrescentadas colunas como código de estoque, unidade, condição de fornecimento e observações.",
+   "valores": []},
+  {"titulo": "Registro dos itens", "item": "5.3",
+   "texto": "Itens registrados em linhas na mesma sequência dos números de referência; quando a lista está no desenho, a sequência vai de baixo para cima.",
+   "valores": []}
+ ]
+}

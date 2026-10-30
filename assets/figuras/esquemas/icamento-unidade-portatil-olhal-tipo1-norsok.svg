@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" width="880" height="520" role="img" aria-label="Olhal tipo 1 — chapa simples, com manilha (NORSOK R-002, Anexo J)">
+<title>Olhal tipo 1 — chapa simples, com manilha (NORSOK R-002, Anexo J) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Olhal tipo 1 — chapa simples, com manilha (NORSOK R-002, Anexo J)</text>
+<rect x="80" y="390" width="360" height="14" fill="url(#hach)" stroke="#666" stroke-width="1"/>
+<path class="s" d="M110,390 L110,345 L166,190.8 A100,100 0 0 1 354,190.8 L410,345 L410,390 z"/>
+<circle class="w" cx="260" cy="225" r="40"/>
+<line class="c" x1="140" y1="225" x2="380" y2="225"/>
+<line class="c" x1="260" y1="105" x2="260" y2="410"/>
+<g id="cota-L" class="cota"><line class="e" x1="110" y1="393" x2="110" y2="441"/><line class="e" x1="410" y1="393" x2="410" y2="441"/><line class="d" x1="110" y1="435" x2="410" y2="435" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="260" y="430">L</text></g>
+<g id="cota-h" class="cota"><line class="e" x1="413" y1="390" x2="461" y2="390"/><line class="e" x1="413" y1="225" x2="461" y2="225"/><line class="d" x1="455" y1="390" x2="455" y2="225" marker-start="url(#a)" marker-end="url(#a)"/><text x="462" y="312.5">h</text></g>
+<g id="cota-k" class="cota"><line class="e" x1="107" y1="390" x2="64" y2="390"/><line class="e" x1="107" y1="345" x2="64" y2="345"/><line class="d" x1="70" y1="390" x2="70" y2="345" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="63" y="372.5">k</text></g>
+<g id="cota-dh" class="cota"><line class="d" x1="225.4" y1="245" x2="294.6" y2="205" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="260" y="283">dh</text></g>
+<g id="cota-R" class="cota"><line class="d" x1="120" y1="125" x2="195.7" y2="148.4" marker-end="url(#a)"/><text class="en" x="116" y="130">R</text></g>
+<rect class="s" x="669" y="125" width="42" height="265"/>
+<path class="wd" d="M669,390 L657,390 L669,378 z"/>
+<path class="wd" d="M711,390 L723,390 L711,378 z"/>
+<line class="g" x1="620" y1="390" x2="760" y2="390"/>
+<path class="g" d="M644,259 L644,105 A46,46 0 0 1 736,105 L736,259"/>
+<path class="g" d="M658,259 L658,105 A32,32 0 0 1 722,105 L722,259"/>
+<rect class="sl" x="628" y="208" width="124" height="34"/>
+<g id="cota-tp" class="cota"><line class="d" x1="669" y1="330" x2="711" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text x="740" y="335">tp</text></g>
+<g id="cota-ws" class="cota"><line class="d" x1="658" y1="120" x2="722" y2="120" marker-start="url(#a)" marker-end="url(#a)"/><text x="752" y="125">ws</text></g>
+<g id="cota-d" class="cota"><line class="e" x1="755" y1="208" x2="778" y2="208"/><line class="e" x1="755" y1="242" x2="778" y2="242"/><line class="d" x1="772" y1="182" x2="772" y2="208" marker-end="url(#a)"/><line class="d" x1="772" y1="268" x2="772" y2="242" marker-end="url(#a)"/><line class="d" x1="772" y1="208" x2="772" y2="242"/><text x="779" y="230">d (pino)</text></g>
+<text class="b m" x="690" y="430">Vista lateral com a manilha</text>
+<text class="b m" x="260" y="470">Vista frontal</text>
+<text class="n" x="20" y="508">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

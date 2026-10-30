@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SFA-5.14",
+ "titulo": "SFA-5.14 — Arames, fitas e varetas nus de níquel e ligas de níquel (AWS A5.14)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos nus, fitas e varetas de níquel e ligas de níquel (Ni maior que qualquer outro elemento) para soldagem."
+  },
+  {
+   "titulo": "Classificações e composição",
+   "item": "Tabela 1",
+   "texto": "Ex.: ERNi-1 (níquel), ERNiCu-7 (Monel), ERNiCr-3 (tipo 82), ERNiCrMo-3 (tipo 625), ERNiCrMo-4 (tipo C-276), ERNiCrMo-7, com equivalências ISO (SNi…).",
+   "valores": [
+    {
+     "parametro": "ERNi-1 — Ni mín. / Ti / Al máx.",
+     "valor": "93,0 % / 2,0–3,5 % / 1,5 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "ERNi-1 — C máx. / Fe máx. / Mn máx.",
+     "valor": "0,15 % / 1,0 % / 1,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Equivalências",
+     "valor": "ERNiCr-3 ↔ SNi6082; ERNiCrMo-3 ↔ SNi6625; ERNiCrMo-4 ↔ SNi6276",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "—",
+   "texto": "Classificação pela composição do arame/fita."
+  }
+ ]
+}

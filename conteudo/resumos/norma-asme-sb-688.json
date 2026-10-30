@@ -1,0 +1,75 @@
+{
+ "id": "ASME-SB-688",
+ "titulo": "SB-688 — Chapas, folhas e tiras de ligas Cr-Ni-Mo-Fe (N08366, N08367)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras das ligas N08366 e N08367 para serviço corrosivo e resistente ao calor."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela de química",
+   "texto": "Ligas Cr-Ni-Mo-Fe superausteníticas (AL-6XN = N08367).",
+   "valores": [
+    {
+     "parametro": "Cr",
+     "valor": "20,00–22,00 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "Ni",
+     "valor": "23,50–25,50 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "Mo",
+     "valor": "6,00–7,00 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N08367 — N",
+     "valor": "0,18–0,25 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "C máx. — N08366 / N08367",
+     "valor": "0,035 % / 0,030 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "Cu máx. (N08367)",
+     "valor": "0,75 %",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N08366 — Su / Sy mín.",
+     "valor": "75 ksi (515) / 35 ksi (240)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08367 até 3/16 in (4,8 mm) — Su / Sy mín.",
+     "valor": "100 ksi (690) / 45 ksi (310)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08367 acima de 3/16 in — Su mín.",
+     "valor": "95 ksi (655)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín.",
+     "valor": "30 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

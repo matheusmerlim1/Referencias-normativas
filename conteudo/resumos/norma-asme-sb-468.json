@@ -1,0 +1,62 @@
+{
+ "id": "ASME-SB-468",
+ "titulo": "SB-468 — Tubos soldados de ligas N08020, N08024 e N08026 para caldeiras e trocadores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos soldados das ligas N08020, N08024 e N08026 para caldeiras, trocadores e condensadores, em serviço corrosivo em baixa ou alta temperatura.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "1/8 a 5 in (3,18 a 127 mm) DE; parede 0,015 a 0,500 in (0,38 a 12,70 mm)",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Ligas da família 'Alloy 20'.",
+   "valores": [
+    {
+     "parametro": "N08020 — Ni / Cr / Mo",
+     "valor": "32,00–38,00 % / 19,00–21,00 % / 2,00–3,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N08020 — C máx.",
+     "valor": "0,07 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N08024 — Ni / Cr / Mo",
+     "valor": "35,00–40,00 % / 22,50–25,00 % / 3,50–5,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N08026 — Ni / Cr / Mo",
+     "valor": "33,00–37,20 % / 22,00–26,00 % / 5,00–6,70 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su mín. / Sy mín.",
+     "valor": "80 ksi (551) / 35 ksi (241)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm",
+     "valor": "30,0 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

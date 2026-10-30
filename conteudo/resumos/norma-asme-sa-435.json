@@ -1,0 +1,57 @@
+{
+ "id": "ASME-SA-435",
+ "titulo": "SA-435 — Exame ultrassônico por feixe reto de chapas de aço",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimento e critério de aceitação do ultrassom pulso-eco, feixe reto, em chapas de aço carbono e liga totalmente acalmado, para garantir ausência de descontinuidades internas grosseiras (vazios de rechupe, rupturas, dupla laminação).",
+   "valores": [
+    {
+     "parametro": "Espessura mínima coberta",
+     "valor": "1/2 in [12,5 mm]",
+     "item": "1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Procedimento",
+   "item": "3 a 5",
+   "texto": "Equipamento e pessoal do fabricante; superfície limpa e lisa; exame por uma das faces principais.",
+   "valores": [
+    {
+     "parametro": "Frequência nominal recomendada",
+     "valor": "2 1/4 MHz (abaixo de 1 MHz só com acordo)",
+     "item": "5.2"
+    },
+    {
+     "parametro": "Calibração do eco de fundo",
+     "valor": "50 a 75 % da escala plena em área sã",
+     "item": "5.3"
+    },
+    {
+     "parametro": "Varredura na calibração",
+     "valor": "≥ 1T ou 6 in [150 mm], o maior",
+     "item": "5.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Aceitação",
+   "item": "6",
+   "texto": "Rejeita-se indicação com perda total do eco de fundo que não caiba num círculo de diâmetro definido; o fabricante pode discutir reparo com o comprador antes de rejeitar.",
+   "valores": [
+    {
+     "parametro": "Círculo-limite da perda total do eco de fundo",
+     "valor": "3 in [75 mm] ou metade da espessura, o maior",
+     "item": "6.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "7",
+   "texto": "Chapa aceita marcada 'UT 435' junto à marcação da especificação do material."
+  }
+ ]
+}

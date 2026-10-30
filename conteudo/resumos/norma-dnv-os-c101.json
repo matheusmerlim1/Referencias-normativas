@@ -1,0 +1,178 @@
+{
+ "id": "DNV-OS-C101",
+ "titulo": "DNV-OS-C101 (Jul/2024, emenda Jul/2025) — Projeto estrutural de unidades offshore",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "Ch.1 Sec.1",
+   "texto": "Critérios e orientações para o projeto estrutural de unidades offshore de aço (cascos, conveses, módulos, acessos), pelo método dos estados-limite (LRFD), com o WSD como alternativa. Define termos como temperatura de projeto (menor ou igual à menor média diária do ar no local, LMDAT) e temperatura de serviço de cada parte.",
+   "valores": []
+  },
+  {
+   "titulo": "Princípios de projeto",
+   "item": "Ch.2 Sec.1",
+   "texto": "Verificam-se estados-limite último, de fadiga, acidental e de serviço. As cargas características são majoradas por fatores parciais conforme a combinação (permanentes e variáveis predominantes, ou ambientais predominantes) e a resistência é minorada. No WSD, compara-se a tensão a uma fração do escoamento. Meios de acesso seguros a toda a estrutura, descritos num manual de acesso, e escadas/plataformas planejadas desde o início.",
+   "valores": [
+    {
+     "parametro": "γf — combinação a) G / Q / E / D",
+     "valor": "1,2 / 1,2 / 0,7 / 1,0",
+     "item": "Ch.2 Sec.1 Tab. 1"
+    },
+    {
+     "parametro": "γf — combinação b) G / Q / E / D",
+     "valor": "1,0 / 1,0 / 1,2 / 1,0",
+     "item": "Ch.2 Sec.1 Tab. 1"
+    },
+    {
+     "parametro": "γf em FLS e ALS",
+     "valor": "1,0",
+     "item": "Ch.2 Sec.1 Tab. 1"
+    },
+    {
+     "parametro": "γm — ULS / ALS",
+     "valor": "1,15 / 1,0",
+     "item": "Ch.2 Sec.1 Tab. 2"
+    },
+    {
+     "parametro": "WSD — η0 estático / com dinâmico / FLS-ALS",
+     "valor": "0,70 / 0,80 / 1,0",
+     "item": "Ch.2 Sec.1 Tab. 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Cargas de projeto",
+   "item": "Ch.2 Sec.2",
+   "texto": "Cargas permanentes, variáveis, ambientais e de deformação. Em convés, o projetista define a carga variável por área, respeitando mínimos da Tabela 1 dados em massa por área e massa concentrada; a pressão de projeto multiplica pela aceleração vertical local (simplificação conservadora: 1,3 g). Diferenças de temperatura pequenas entre elementos podem ser desprezadas.",
+   "valores": [
+    {
+     "parametro": "Armazenagem e lay down",
+     "valor": "q = 1,2 t/m²; PU = 1,8 t",
+     "item": "Ch.2 Sec.2 Tab. 1 a)"
+    },
+    {
+     "parametro": "Área entre equipamentos",
+     "valor": "0,4 t/m²",
+     "item": "Tab. 1 c)"
+    },
+    {
+     "parametro": "Passarelas, escadas, plataformas",
+     "valor": "0,35 t/m²; PU = 0,35 t",
+     "item": "Tab. 1 d)"
+    },
+    {
+     "parametro": "Passarelas e escadas só de inspeção",
+     "valor": "0,25 t/m²; PU = 0,25 t",
+     "item": "Tab. 1 f)"
+    },
+    {
+     "parametro": "Plataformas em praça de máquinas",
+     "valor": "0,8 t/m²; PU = 0,8 t",
+     "item": "Tab. 1 g)"
+    },
+    {
+     "parametro": "Área da carga concentrada",
+     "valor": "100 × 100 mm",
+     "item": "Tab. 1, nota 2",
+     "cota": "esquemas/passarela-cargas-flecha.svg#area-pontual"
+    },
+    {
+     "parametro": "Carga de roda",
+     "valor": "em 300 × 300 mm",
+     "item": "Tab. 1, nota 1",
+     "cota": "esquemas/passarela-cargas-flecha.svg#area-roda"
+    },
+    {
+     "parametro": "Pressão simplificada",
+     "valor": "1,3·g·q",
+     "item": "Ch.2 Sec.2 [2.2.4]"
+    },
+    {
+     "parametro": "Diferença de temperatura desprezável",
+     "valor": "< 100 °C",
+     "item": "Ch.2 Sec.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Materiais e categorias estruturais",
+   "item": "Ch.2 Sec.3",
+   "texto": "A fabricação segue a DNV-OS-C401. A temperatura de serviço de cada membro depende de onde está (externo acima da linha d'água, submerso, interno aquecido ou não). A estrutura é classificada em especial, primária e secundária, o que define grau do aço, limites de espessura por temperatura (Tabela 3) e extensão de inspeção de soldas.",
+   "valores": [
+    {
+     "parametro": "Temperatura de serviço abaixo da linha d'água / áreas aquecidas",
+     "valor": "0 °C",
+     "item": "Ch.2 Sec.3 [1.2]"
+    },
+    {
+     "parametro": "Faixa junto ao costado tratada como externa",
+     "valor": "600 mm",
+     "item": "Ch.2 Sec.3 [1.2.2]"
+    },
+    {
+     "parametro": "Abaixo de −20 °C",
+     "valor": "limites de espessura avaliados à parte",
+     "item": "Ch.2 Sec.3 Tab. 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Resistência (ULS, FLS, SLS)",
+   "item": "Ch.2 Sec.4",
+   "texto": "Espessuras mínimas de chapa, reforçadores e vigas conforme a categoria e o escoamento; pressão lateral mínima. Flecha de vigas limitada por critério funcional. Na fadiga, a vida calculada usa fatores de projeto (DFF) maiores onde inspecionar ou reparar é difícil e na zona de respingo.",
+   "valores": [
+    {
+     "parametro": "Espessura mínima de chapa",
+     "valor": "t = 15,3·t0/√ReH; t0 = 5 mm (secundária) / 7 mm (primária)",
+     "item": "Ch.2 Sec.4 [3.2.2]",
+     "cota": "esquemas/passarela-espessuras-dnv.svg#t-chapa"
+    },
+    {
+     "parametro": "Reforçadores — alma e mesa",
+     "valor": "4,0 mm (secundária) / 6,0 mm (primária)",
+     "item": "[3.2.3]",
+     "cota": "esquemas/passarela-espessuras-dnv.svg#t-reforcador"
+    },
+    {
+     "parametro": "Vigas principais — alma e mesa",
+     "valor": "7,0 mm (secundária) / 8,0 mm (primária)",
+     "item": "[3.2.4]",
+     "cota": "esquemas/passarela-espessuras-dnv.svg#t-viga"
+    },
+    {
+     "parametro": "Pressão lateral mínima",
+     "valor": "2,5 kN/m²",
+     "item": "[3.3.1]"
+    },
+    {
+     "parametro": "Flecha de vigas",
+     "valor": "S/200",
+     "item": "[3.7]",
+     "cota": "esquemas/passarela-cargas-flecha.svg#flecha"
+    },
+    {
+     "parametro": "DFF — externo acessível / áreas sem acesso",
+     "valor": "1 / 3",
+     "item": "Ch.2 Sec.4 Tab. 10"
+    },
+    {
+     "parametro": "DFF na zona de respingo (inspeção no local)",
+     "valor": "3",
+     "item": "Tab. 10, nota 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Soldas, parafusos e equipamentos do casco",
+   "item": "Ch.2 Sec.5–6",
+   "texto": "Dimensionamento de soldas (penetração total, parcial, filete) e ligações parafusadas; parafusos em áreas muito frias pedem avaliação especial. Estruturas de apoio de equipamentos do casco. Guarda-corpos não têm carga própria aqui: a proteção da tripulação segue a Convenção de Linhas de Carga (ICLL).",
+   "valores": [
+    {
+     "parametro": "Parafusos com avaliação especial",
+     "valor": "LMDAT ≤ −20 °C",
+     "item": "Ch.2 Sec.5 [4.4.3]"
+    }
+   ]
+  }
+ ]
+}

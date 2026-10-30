@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" aria-label="Piso de passarela/plataforma — aberturas, desnível e frestas">
+<title>Piso de passarela/plataforma — aberturas, desnível e frestas</title>
+<defs><pattern id="hz" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+<text x="12" y="22" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Piso de passarela/plataforma — aberturas, desnível e frestas</text>
+<line x1="50" y1="70" x2="50" y2="230" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="78" y1="70" x2="78" y2="230" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="106" y1="70" x2="106" y2="230" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="134" y1="70" x2="134" y2="230" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="162" y1="70" x2="162" y2="230" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="190" y1="70" x2="190" y2="230" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="218" y1="70" x2="218" y2="230" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="246" y1="70" x2="246" y2="230" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="50" y1="70" x2="246" y2="70" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="50" y1="110" x2="246" y2="110" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="50" y1="150" x2="246" y2="150" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="50" y1="190" x2="246" y2="190" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="50" y1="230" x2="246" y2="230" stroke="#666" stroke-width="1.2" fill="none"/>
+<circle cx="92" cy="130" r="11" fill="#666" stroke="none"/>
+<text x="148" y="256" text-anchor="middle" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">abertura do piso (planta)</text>
+<line x1="78" y1="70" x2="78" y2="54" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="106" y1="70" x2="106" y2="54" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="78" y1="60" x2="106" y2="60" stroke="#666" stroke-width="1.2" fill="none"/>
+<polygon points="106.0,60.0 97.0,63.5 97.0,56.5" fill="#666"/>
+<polygon points="78.0,60.0 87.0,56.5 87.0,63.5" fill="#666"/>
+<text x="92.0" y="54" text-anchor="middle" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">a</text>
+<line x1="246" y1="110" x2="271" y2="110" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="246" y1="150" x2="271" y2="150" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="265" y1="110" x2="265" y2="150" stroke="#666" stroke-width="1.2" fill="none"/>
+<polygon points="265.0,150.0 261.5,141.0 268.5,141.0" fill="#666"/>
+<polygon points="265.0,110.0 268.5,119.0 261.5,119.0" fill="#666"/>
+<text x="271" y="134.0" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">c</text>
+<rect x="50" y="330" width="120" height="16" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<rect x="190" y="324" width="120" height="16" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<line x1="170" y1="346" x2="170" y2="376" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="190" y1="346" x2="190" y2="376" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="170" y1="370" x2="190" y2="370" stroke="#666" stroke-width="1.2" fill="none"/>
+<polygon points="190.0,370.0 181.0,373.5 181.0,366.5" fill="#666"/>
+<polygon points="170.0,370.0 179.0,366.5 179.0,373.5" fill="#666"/>
+<text x="180.0" y="386" text-anchor="middle" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">f</text>
+<line x1="312" y1="330" x2="346" y2="330" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="312" y1="324" x2="346" y2="324" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="340" y1="330" x2="340" y2="324" stroke="#666" stroke-width="1.2" fill="none"/>
+<polygon points="340.0,324.0 343.5,333.0 336.5,333.0" fill="#666"/>
+<polygon points="340.0,330.0 336.5,321.0 343.5,321.0" fill="#666"/>
+<text x="346" y="330" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Δ</text>
+<text x="180" y="304" text-anchor="middle" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">pisos adjacentes (corte)</text>
+<rect x="50" y="440" width="160" height="14" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<rect x="270" y="380" width="30" height="100" rx="0" fill="url(#hz)" stroke="#666" stroke-width="1.2"/>
+<line x1="210" y1="454" x2="210" y2="506" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="270" y1="454" x2="270" y2="506" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="210" y1="500" x2="270" y2="500" stroke="#666" stroke-width="1.2" fill="none"/>
+<polygon points="270.0,500.0 261.0,503.5 261.0,496.5" fill="#666"/>
+<polygon points="210.0,500.0 219.0,496.5 219.0,503.5" fill="#666"/>
+<text x="240.0" y="516" text-anchor="middle" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">g</text>
+<text x="170" y="432" text-anchor="middle" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">plataforma → estrutura adjacente</text>
+<text x="420" y="60" text-anchor="start" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">a — abertura máxima do piso / grating:</text>
+<text x="420" y="78" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ABS: &lt; 35 mm; &lt; 22 mm se houver pessoas abaixo</text>
+<text x="420" y="96" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ISO 14122-2: não pode passar esfera de Ø 35 mm;</text>
+<text x="420" y="114" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">      sobre local com pessoas trabalhando: Ø 20 mm</text>
+<text x="420" y="132" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">      e c (comprimento da abertura) ≤ 100 mm</text>
+<text x="420" y="150" text-anchor="start" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Δ — desnível entre topos de pisos vizinhos:</text>
+<text x="420" y="168" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ISO 14122-2: ≤ 4 mm (também sob carga, 4.2.5)</text>
+<text x="420" y="186" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ABS: painel carregado × adjacente ≤ 4 mm</text>
+<text x="420" y="204" text-anchor="start" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">f — fresta entre pisos adjacentes:</text>
+<text x="420" y="222" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ISO 14122-2: &lt; 20 mm</text>
+<text x="420" y="240" text-anchor="start" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">g — fresta entre plataforma e estrutura (ISO 14122-2):</text>
+<text x="420" y="258" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">&gt; 20 mm: rodapé ≥ 100 mm ou fechar a ≤ 20 mm</text>
+<text x="420" y="276" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">&gt; 20 e ≤ 120 mm: rodapé ≥ 100 mm (localmente ≥ 50 mm junto a obstrução)</text>
+<text x="420" y="294" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">120 a 180 mm: rodapé + corrimão de 900 a 1100 mm</text>
+<text x="420" y="312" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">&gt; 180 mm: guarda-corpo (ISO 14122-3)</text>
+<text x="420" y="330" text-anchor="start" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Atrito: COF ≥ 0,6 medido molhado (ABS, ASTM)</text>
+<text x="12" y="552" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo, sem escala — não é desenho da norma. Valores transcritos dos requisitos da ficha.</text>
+</svg>

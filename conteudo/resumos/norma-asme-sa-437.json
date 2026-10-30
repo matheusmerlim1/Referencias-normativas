@@ -1,0 +1,82 @@
+{
+ "id": "ASME-SA-437",
+ "titulo": "SA-437 — Parafusos de aço liga com tratamento especial para alta temperatura (turbinas)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Material para parafusaria (barras, parafusos, porcas, estojos, arruelas) de aço liga com tratamento térmico especial para alta temperatura em turbinas a vapor, a gás e usos semelhantes. Não é para uso geral. Graus B4B, B4C (12 % Cr) e B4D. Requisitos comuns pela SA-962."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "6",
+   "texto": "B4B e B4C: austenitização, têmpera em líquido e revenimento acima da temperatura de operação. Roscas feitas depois do tratamento.",
+   "valores": [
+    {
+     "parametro": "B4B/B4C — austenitização",
+     "valor": "1875 a 1925 °F [1025 a 1050 °C], têmpera abaixo de 600 °F [316 °C]",
+     "item": "6.1"
+    },
+    {
+     "parametro": "B4B/B4C — revenimento",
+     "valor": "≥ 100 °F [55 °C] acima da temperatura de operação e ≥ 1150 °F [620 °C]",
+     "item": "6.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "B4B, B4C",
+     "valor": "C 0,20–0,25; Mn 0,50–1,00; P 0,025; S 0,025; Si 0,20–0,50; Ni 0,50–1,00; Cr 11,00–12,50 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "B4D — C / Mn",
+     "valor": "0,36–0,44 % / 0,45–0,70 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 1, 3 a 5",
+   "texto": "Su mín. / Sy mín. / alongamento / redução de área.",
+   "valores": [
+    {
+     "parametro": "B4B",
+     "valor": "145 ksi [1000] / 105 ksi [720] / 13 % / 30 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "B4C",
+     "valor": "115 ksi [790] / 85 ksi [585] / 18 % / 50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "B4D até 2 1/2 in [65 mm]",
+     "valor": "125 ksi [860] / 105 ksi [720] / 18 % / 50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "B4D acima de 4 até 7 in [100 a 180 mm]",
+     "valor": "100 ksi [690] / 85 ksi [585] / 16 % / 45 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Charpy mín. — B4B / B4C / B4D",
+     "valor": "10 ft·lbf [14 J] / 25 [34 J] / 25 [34 J]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Dureza máx. parafusos — B4B / B4C / B4D",
+     "valor": "331 / 277 / 302 HB",
+     "item": "Tabela 4"
+    }
+   ]
+  }
+ ]
+}

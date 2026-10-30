@@ -1,0 +1,80 @@
+{
+ "id": "ASME-SA-283",
+ "titulo": "SA-283 — Chapas de aço carbono de baixa e média resistência",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço carbono de qualidade estrutural para uso geral, graus A, B, C e D. Requisitos de fornecimento pela SA-6; para soldar, ver Apêndice X3 da SA-6."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Análise de corrida.",
+   "valores": [
+    {
+     "parametro": "C máx. — A / B / C / D",
+     "valor": "0,14 / 0,17 / 0,24 / 0,27 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx.",
+     "valor": "0,90 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,04 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si — até 1 1/2 in [40 mm] / acima",
+     "valor": "0,40 % máx. / 0,15–0,40 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cu mín. (aço ao cobre)",
+     "valor": "0,20 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Chapas com mais de 24 in [600 mm] de largura: alongamento reduzido em 2 pontos.",
+   "valores": [
+    {
+     "parametro": "Grau A — Su / Sy mín.",
+     "valor": "45–60 ksi [310–415 MPa] / 24 ksi [165 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau B — Su / Sy mín.",
+     "valor": "50–65 ksi [345–450 MPa] / 27 ksi [185 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau C — Su / Sy mín.",
+     "valor": "55–75 ksi [380–515 MPa] / 30 ksi [205 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau D — Su / Sy mín.",
+     "valor": "60–80 ksi [415–550 MPa] / 33 ksi [230 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 200 mm — A / B / C / D",
+     "valor": "27 / 25 / 22 / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm — A / B / C / D",
+     "valor": "30 / 28 / 25 / 23 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SA-480",
+ "titulo": "SA-480 — Requisitos gerais para chapas, folhas e tiras laminadas de aço inoxidável e resistente ao calor",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns às especificações de produtos planos de inoxidável (SA-240, 263, 264, 265, 666, 693 e outras): fabricação, análise de corrida e de produto, acabamentos, bordas de tiras, tratamento térmico, ensaios, reparo por solda e tolerâncias dimensionais. A especificação do produto prevalece em conflito."
+  },
+  {
+   "titulo": "Fabricação e química",
+   "item": "5 a 7",
+   "texto": "Aço de forno elétrico a arco, de indução ou outro adequado. Análise de cada corrida pelo produtor; o comprador pode fazer análise de produto com as tolerâncias da Tabela A1.1."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "15, Tabela A1.2",
+   "texto": "Ciclos de tratamento separados (não substituídos por ciclos de processo). Austeníticos solubilizados para atender às propriedades.",
+   "valores": [
+    {
+     "parametro": "Austeníticos Cr-Ni em geral — temperatura mín.",
+     "valor": "1900 °F [1040 °C]",
+     "item": "Tabela A1.2"
+    },
+    {
+     "parametro": "304H, 309H, 310H, 316H, 321H, 347H, 348H",
+     "valor": "1900 °F [1040 °C]",
+     "item": "Tabela A1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Bordas, reparo e tolerâncias",
+   "item": "14, 21, Anexos A2/A3",
+   "texto": "Tiras laminadas a frio com tipos de borda definidos (nº 1 laminada, redonda ou quadrada etc.). Reparo de defeitos superficiais de chapa por solda permitido salvo proibição. Anexos com tolerâncias de espessura, largura, comprimento, planeza, diâmetro, massa, flecha e corte a maçarico, em polegadas (A2) e SI (A3)."
+  }
+ ]
+}

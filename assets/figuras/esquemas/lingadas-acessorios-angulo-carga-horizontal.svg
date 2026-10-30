@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" role="img" aria-label="Ângulo de carga com a horizontal e ângulo incluído entre pernas">
+<title>Ângulo de carga com a horizontal e ângulo incluído entre pernas (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Ângulo de carga com a horizontal e ângulo incluído entre pernas</text>
+<circle class="g" cx="380" cy="90" r="14"/>
+<line x1="380" y1="90" x2="130" y2="320" stroke="#666" stroke-width="5" stroke-linecap="round"/>
+<line x1="380" y1="90" x2="630" y2="320" stroke="#666" stroke-width="5" stroke-linecap="round"/>
+<rect class="sl" x="100" y="320" width="560" height="60"/>
+<text class="n m" x="380" y="355">carga</text>
+<line class="h" x1="430" y1="320" x2="670" y2="320"/>
+<g id="cota-angulo-horizontal" class="cota"><path class="d" d="M549,245.5 A110,110 0 0,0 520,320" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="490.3" y="270.5">ângulo com a horizontal</text></g>
+<g id="cota-angulo-incluido" class="cota"><path class="d" d="M431.5,137.4 A70,70 0 0,1 328.5,137.4" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="380" y="190">ângulo incluído</text></g>
+<text class="n m" x="380" y="415">tensão na perna = (carga da perna em linha) × multiplicador do ângulo</text>
+<text class="n" x="20" y="438">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

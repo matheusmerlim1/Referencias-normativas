@@ -1,0 +1,83 @@
+{
+ "id": "NBR-15516-1",
+ "titulo": "ABNT NBR 15516-1:2008 — Lingas de corrente grau 8: requisitos e ensaios",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1–4",
+   "texto": "Lingas de corrente de elos curtos grau 8, de uma a quatro pernas e sem fim. Comprimento é medido entre os pontos internos de apoio dos terminais; o tamanho é o diâmetro nominal da corrente.",
+   "valores": [
+    {
+     "parametro": "Comprimento da linga",
+     "valor": "entre apoios internos dos terminais",
+     "item": "4.2",
+     "cota": "esquemas/lingadas-acessorios-linga-corrente-2-pernas.svg#comprimento"
+    }
+   ]
+  },
+  {
+   "titulo": "Construção e componentes",
+   "item": "5–7",
+   "texto": "O elo em forma de pera não pode ser terminal; elos de ligação mecânicos têm capacidade igual à da corrente e não se abrem sozinhos. Componentes grau 8 aguentam aquecimento sem perder propriedade ao esfriar. A tolerância de comprimento de pernas é pequena.",
+   "valores": [
+    {
+     "parametro": "Diferença de comprimento entre pernas",
+     "valor": "≤ 10 mm até 2 m; +5 mm por metro acima",
+     "item": "6.5"
+    },
+    {
+     "parametro": "Temperatura que não altera as propriedades",
+     "valor": "até 400 °C",
+     "item": "7.2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Carga de trabalho (CMT)",
+   "item": "10",
+   "texto": "Uma perna = CMT da corrente. Multipernas por dois métodos: uniforme (fatores fixos por faixa de ângulo) ou trigonométrico (cosseno do ângulo), sendo que quatro pernas contam como três salvo distribuição garantida. Tabelas 2 e 3 dão a CMT por diâmetro (ver ficha lingadas-acessorios).",
+   "valores": [
+    {
+     "parametro": "Uniforme — 2 pernas, β 0–45° / 45–60°",
+     "valor": "1,4 / 1,0 × CMT de 1 perna",
+     "item": "10.2.2",
+     "cota": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta"
+    },
+    {
+     "parametro": "Uniforme — 3 e 4 pernas, β 0–45° / 45–60°",
+     "valor": "2,1 / 1,5 × CMT",
+     "item": "10.2.2"
+    },
+    {
+     "parametro": "Trigonométrico — 2 / 3–4 pernas",
+     "valor": "2 × CMT × cos β / 3 × CMT × cos β",
+     "item": "10.2.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "8; 11",
+   "texto": "Quando exigida, cada trecho da linga é provado ao dobro da sua CMT (fatores por seção da Tabela 4) e depois examinado. A corrente já vem provada a uma fração da sua ruptura.",
+   "valores": [
+    {
+     "parametro": "Carga de prova",
+     "valor": "2 × CMT de cada seção",
+     "item": "11.1; Tab. 4",
+     "cota": "esquemas/lingadas-acessorios-trechos-prova-pl.svg#PL1"
+    },
+    {
+     "parametro": "Prova da corrente (NBR ISO 3076)",
+     "valor": "60 % da carga de ruptura mínima",
+     "item": "8.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Certificado e marcação",
+   "item": "12–13",
+   "texto": "Certificado datado com fabricante, identificação, configuração, diâmetro, grau, comprimento, CMT e declaração de prova. Plaqueta metálica no anel principal com a CMT e a faixa de ângulos.",
+   "valores": []
+  }
+ ]
+}

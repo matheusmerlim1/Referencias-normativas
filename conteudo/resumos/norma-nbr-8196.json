@@ -1,0 +1,20 @@
+{
+ "id": "NBR-8196",
+ "titulo": "ABNT NBR 8196:1999 — Desenho técnico — Emprego de escalas",
+ "secoes": [
+  {"titulo": "Designação da escala", "item": "1–4",
+   "texto": "Como indicar escalas em desenho técnico. Escreve-se 'ESCALA' (ou 'ESC.') seguida da relação. A escala geral fica na legenda; outras escalas usadas na mesma folha vão junto do detalhe ou vista a que se referem, e a legenda as menciona.",
+   "valores": [
+    {"parametro": "Natural", "valor": "ESCALA 1:1", "item": "4.1 a)"},
+    {"parametro": "Ampliação", "valor": "ESCALA X:1 (X > 1)", "item": "4.1 b)"},
+    {"parametro": "Redução", "valor": "ESCALA 1:X (X > 1)", "item": "4.1 c)"}
+   ]},
+  {"titulo": "Escalas recomendadas", "item": "5",
+   "texto": "A escala depende da complexidade do objeto e da finalidade; deve permitir interpretação fácil e clara.",
+   "valores": [
+    {"parametro": "Redução", "valor": "1:2, 1:5, 1:10", "item": "Tab. 1"},
+    {"parametro": "Ampliação", "valor": "2:1, 5:1, 10:1", "item": "Tab. 1"},
+    {"parametro": "Outras", "valor": "as da tabela multiplicadas ou divididas por potências de 10 (ex. 1:20, 1:50, 1:100, 20:1)", "item": "Tab. 1, Nota"}
+   ]}
+ ]
+}

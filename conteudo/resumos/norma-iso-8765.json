@@ -1,0 +1,63 @@
+{
+ "id": "ISO-8765",
+ "titulo": "ISO 8765:1999 (BS EN ISO 8765:2001) — Parafusos sextavados com haste e rosca métrica fina — Graus A e B",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Versão de rosca fina da ISO 4014: parafuso sextavado com haste lisa, rosca fina M8 × 1 a M64 × 4.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "d = 8 a 64 mm",
+     "item": "1"
+    },
+    {
+     "parametro": "Grau A / B",
+     "valor": "A: d ≤ 24 mm e l ≤ 10d ou 150 mm; B: acima disso",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3, Tab. 1–2",
+   "texto": "Mesma estrutura de tabela da ISO 4014 (b, c, da, ds, dw, e, k, r, s, ls/lg por comprimento) para roscas finas preferenciais e não preferenciais.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos e normas de referência",
+   "item": "4, Tab. 3",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Tolerância de rosca",
+     "valor": "6g",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Classes — aço",
+     "valor": "d ≤ 39 mm: 5.6, 8.8, 10.9; acima a combinar",
+     "item": "Tab. 3",
+     "nota": "OCR — conferir"
+    },
+    {
+     "parametro": "Classes — inox",
+     "valor": "d ≤ 24: A2-70, A4-70; 24–39 mm: A2-50, A4-50",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Tolerâncias",
+     "valor": "ISO 4759-1",
+     "item": "Tab. 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "5",
+   "texto": "Ex.: ISO 8765 – M12 × 1,5 × 80 – 8.8.",
+   "valores": []
+  }
+ ]
+}

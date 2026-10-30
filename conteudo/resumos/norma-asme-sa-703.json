@@ -1,0 +1,36 @@
+{
+ "id": "ASME-SA-703",
+ "titulo": "SA-703 — Requisitos gerais para fundidos de aço para partes sob pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns às especificações de fundidos de aço para partes sob pressão (SA-216, 217, 351, 352, 487 e outras): fusão, tratamento, química, tração, reparo por solda, qualidade, teste hidrostático, marcação e um grande conjunto de requisitos suplementares (END, Charpy, CE etc.)."
+  },
+  {
+   "titulo": "Fabricação e química",
+   "item": "4, 5",
+   "texto": "Forno Siemens-Martin ou elétrico, com refino AOD opcional. Fundidos ferríticos e martensíticos resfriam após o vazamento até transformação substancial antes do tratamento. Análise de cada corrida (A751)."
+  },
+  {
+   "titulo": "Tração",
+   "item": "7",
+   "texto": "Um ensaio de tração por corrida, em barras vazadas em blocos especiais da mesma corrida (em microfusão, no mesmo tipo de molde), tratadas junto com as peças."
+  },
+  {
+   "titulo": "Reparo, qualidade e flanges",
+   "item": "8 a 10",
+   "texto": "Reparo por solda conforme a especificação do produto, com procedimento e soldadores qualificados. Superfície livre de areia aderida, carepa, trincas e rasgos a quente (exame visual). Ao retirar o flange para fazer ponta de solda, descontinuidades reveladas são tratadas por acordo."
+  },
+  {
+   "titulo": "Teste hidrostático",
+   "item": "11",
+   "texto": "Cada peça testada após a usinagem com a pressão de teste de corpo da ASME B16.5 para o rating de projeto; sem vazamentos."
+  },
+  {
+   "titulo": "Marcação",
+   "item": "17",
+   "texto": "Símbolo do grau (WCB, WC9, CF8M…), número da corrida e identificação do fabricante."
+  }
+ ]
+}

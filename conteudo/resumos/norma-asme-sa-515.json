@@ -1,0 +1,85 @@
+{
+ "id": "ASME-SA-515",
+ "titulo": "SA-515 — Chapas de aço carbono-silício para vasos de pressão em temperatura intermediária e alta",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço carbono-silício para caldeiras soldadas e vasos de pressão em temperatura intermediária e alta. Graus 60, 65 e 70 [415, 450, 485]. Requisitos gerais pela SA-20."
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4, 5",
+   "texto": "Aço acalmado em prática de grão austenítico grosso. Até 2 in [50 mm], em geral como laminada (normalização/alívio opcionais); acima, normalizada."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx. até 1 in [25 mm] — 60 / 65 / 70",
+     "valor": "0,24 / 0,28 / 0,31 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C máx. acima de 4 in — 60 / 65 / 70",
+     "valor": "0,31 / 0,33 / 0,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx. (corrida) — 60, 65 / 70",
+     "valor": "0,90 % / 1,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si (corrida)",
+     "valor": "0,15–0,40 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau 60 — Su / Sy mín.",
+     "valor": "60–80 ksi [415–550] / 32 ksi [220]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 65 — Su / Sy mín.",
+     "valor": "65–85 ksi [450–585] / 35 ksi [240]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 70 — Su / Sy mín.",
+     "valor": "70–90 ksi [485–620] / 38 ksi [260]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. 200 mm — 60 / 65 / 70",
+     "valor": "21 / 19 / 17 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. 50 mm — 60 / 65 / 70",
+     "valor": "25 / 23 / 21 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "Suplementares",
+   "texto": "Opcionais padronizados da SA-20 (tratamento a vácuo, análise de produto, TTAT simulado, Charpy, queda de peso, tração a quente, ultrassom A435/A577/A578, partículas magnéticas, aço desoxidado ao carbono sob vácuo), só quando pedidos."
+  }
+ ]
+}

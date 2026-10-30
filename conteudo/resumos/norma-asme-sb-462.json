@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SB-462",
+ "titulo": "SB-462 — Flanges, conexões forjadas e válvulas de ligas de níquel resistentes à corrosão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Flanges, conexões forjadas, válvulas e peças forjadas ou laminadas de ligas resistentes à corrosão em alta temperatura: N06030, N06035, N06022, N06200, N06059, N06686, N08020, N08024, N08026, N08367, N10276, N10665, N10675, N10629, N08031, N06045, N06025 e R20033."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N08367 — Ni",
+     "valor": "23,50–25,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "R20033 — C máx.",
+     "valor": "0,015 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento / redução de área.",
+   "valores": [
+    {
+     "parametro": "N08020, N08024, N08026",
+     "valor": "80 ksi (551) / 35 ksi (241) / 30,0 % / 50,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08367",
+     "valor": "95 ksi (655) / 45 ksi (310) / 30,0 % / 50,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "R20033",
+     "valor": "109 ksi (750) / 55 ksi (380) / 40,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N06022",
+     "valor": "100 ksi (690) / 45 ksi (310) / 45 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N06030",
+     "valor": "85 ksi (586) / 35 ksi (241) / 30 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

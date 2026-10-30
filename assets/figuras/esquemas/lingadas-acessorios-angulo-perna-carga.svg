@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 460" width="820" height="460" role="img" aria-label="Linga de corrente — carga na perna cresce com o ângulo β da vertical">
+<title>Linga de corrente — carga na perna cresce com o ângulo β da vertical (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Linga de corrente — carga na perna cresce com o ângulo β da vertical</text>
+<line class="c" x1="410" y1="90" x2="410" y2="400"/>
+<line x1="410" y1="90" x2="332.4" y2="379.8" stroke="#666" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 5"/>
+<line x1="410" y1="90" x2="487.6" y2="379.8" stroke="#666" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 5"/>
+<line x1="410" y1="90" x2="260" y2="349.8" stroke="#666" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 5"/>
+<line x1="410" y1="90" x2="560" y2="349.8" stroke="#666" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 5"/>
+<line x1="410" y1="90" x2="197.9" y2="302.1" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="410" y1="90" x2="622.1" y2="302.1" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="410" y1="90" x2="150.2" y2="240" stroke="#b03a2e" stroke-width="3" stroke-linecap="round"/>
+<line x1="410" y1="90" x2="669.8" y2="240" stroke="#b03a2e" stroke-width="3" stroke-linecap="round"/>
+<path d="M410,90 L695.8,255 A330,330 0 0 0 740,90 Z" fill="#b03a2e" fill-opacity=".12" stroke="none"/>
+<path d="M410,90 L124.2,255 A330,330 0 0 1 80,90 Z" fill="#b03a2e" fill-opacity=".12" stroke="none"/>
+<text class="b m" x="710" y="150">nunca usar</text>
+<text class="b m" x="110" y="150">nunca usar</text>
+<g id="cota-beta" class="cota"><path class="d" d="M523.1,203.1 A160,160 0 0,1 410,250" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="478.9" y="261.3">β</text></g>
+<text class="n m" x="440" y="430">perna quase vertical: evitar (desequilíbrio); acima do limite: proibido</text>
+<path class="g" d="M410,55 L410,85 A14,14 0 1 1 384,79" style="stroke-width:5"/>
+<text class="n" x="20" y="448">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

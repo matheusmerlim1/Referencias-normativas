@@ -1,0 +1,82 @@
+{
+ "id": "ASME-SA-449",
+ "titulo": "SA-449 — Parafusos e estojos de aço temperado e revenido para uso geral",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafusos e estojos de aço temperado e revenido para aplicações gerais de alta resistência. Tipo 1: aço médio carbono, 1/4 a 3 in. Tipo 2: martensita de baixo ou médio carbono (aço acalmado de grão fino)."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4, 5",
+   "texto": "Têmpera em líquido a partir de acima da transformação e revenimento. Zincagem a quente ou mecânica exige porcas com rosca sobremedida.",
+   "valores": [
+    {
+     "parametro": "Revenimento mín.",
+     "valor": "800 °F (425 °C)",
+     "item": "4.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Análise de corrida; proibidos Bi, Se, Te, Pb.",
+   "valores": [
+    {
+     "parametro": "Tipo 1 — C / Mn mín.",
+     "valor": "0,28–0,55 % / 0,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Tipo 2 — C / Mn mín. / B mín.",
+     "valor": "0,15–0,38 % / 0,70 % / 0,0005 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,040 % / 0,050 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 5",
+   "texto": "Corpo usinado: Su mín. / Sy mín. / alongamento em 4D / redução de área.",
+   "valores": [
+    {
+     "parametro": "Até 1 in",
+     "valor": "120 000 psi (825) / 92 000 psi (635) / 14 % / 35 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Acima de 1 até 1 1/2 in",
+     "valor": "105 000 psi (725) / 81 000 psi (560) / 14 % / 35 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Acima de 1 1/2 até 3 in",
+     "valor": "90 000 psi (620) / 58 000 psi (400) / 14 % / 35 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Dureza — até 1 in",
+     "valor": "255–321 HB (25–34 HRC)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Dureza — 1 1/2 a 3 in",
+     "valor": "183–235 HB",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "7, 15",
+   "texto": "Peças curtas (< 3d; estojos < 4d) só por dureza; demais ensaiadas em tamanho natural (carga de tração e de prova, Tabelas 3 e 4). Cabeças e uma ponta dos estojos com identificação do fabricante e do tipo."
+  }
+ ]
+}

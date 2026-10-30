@@ -1,0 +1,72 @@
+{
+ "id": "ASME-SA-688",
+ "titulo": "SA-688 — Tubos soldados de aço inoxidável austenítico para aquecedores de água de alimentação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos soldados de aço inoxidável austenítico, retos ou curvados em U, para aquecedores tubulares de água de alimentação. Requisitos gerais pela SA-1016.",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo",
+     "valor": "5/8 a 1 in [15,9 a 25,4 mm]",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Espessura mín. (média ou mínima)",
+     "valor": "0,028 in [0,7 mm]",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "6 a 9",
+   "texto": "Soldagem automática sem metal de adição, trabalho a frio da solda (e do metal-base) antes do tratamento final; lubrificantes removidos antes do recozimento. Solubilização seguida de resfriamento rápido; tubos decapados (ácido nítrico + fluorídrico) e lavados.",
+   "valores": [
+    {
+     "parametro": "Solubilização mín. (exceto N08367, N08926)",
+     "valor": "1900 °F [1040 °C], resfriamento rápido abaixo de 700 °F [370 °C]",
+     "item": "8.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "304, 316",
+     "valor": "75 ksi [515] / 30 ksi [205] / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "304L, 316L",
+     "valor": "70 ksi [485] / 25 ksi [175] / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "304N, 316N",
+     "valor": "80 ksi [550] / 35 ksi [240] / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "XM-29 (S24000)",
+     "valor": "100 ksi [690] / 55 ksi [380] / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "S31254 (t ≤ 0,187 in)",
+     "valor": "100 ksi [690] / 45 ksi [310] / 35 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "11, 13",
+   "texto": "Tração (1 por lote até 50 tubos); ensaio de corrosão (SA-262) em amostra de 1 in [25,4 mm] da curva de menor raio tratada e de cada lote de tubos retos. Cada tubo marcado com o número da corrida."
+  }
+ ]
+}

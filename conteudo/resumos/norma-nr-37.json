@@ -1,0 +1,974 @@
+{
+ "id": "NR-37",
+ "titulo": "NR-37 — Segurança e saúde em plataformas de petróleo",
+ "secoes": [
+  {
+   "titulo": "Objetivo e campo de aplicação",
+   "item": "37.1–37.2",
+   "texto": "Fixa requisitos de segurança, saúde e vivência a bordo de plataformas de petróleo que operam em águas jurisdicionais brasileiras, nacionais ou estrangeiras, e também das Unidades de Manutenção e Segurança (UMS) ligadas por gangway. Plataformas interligadas com circulação de pessoas contam como uma só instalação. Não alcança embarcações de apoio, sísmica ou mergulho.",
+   "valores": [
+    {
+     "parametro": "Operação temporária de plataforma/UMS estrangeira sob regras internacionais e classe",
+     "valor": "até 6 meses em AJB",
+     "item": "37.2.3"
+    },
+    {
+     "parametro": "Intervalo entre operações temporárias que anula essa exceção",
+     "valor": "< 3 meses",
+     "item": "37.2.3.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Responsabilidades e direitos",
+   "item": "37.3–37.4",
+   "texto": "A operadora da instalação garante transporte gratuito à fiscalização e ao representante sindical, dá aos terceirizados as mesmas condições dos próprios empregados, controla quem embarca e aprova previamente ordens de serviço e permissões das contratadas. A operadora do contrato audita a da instalação. O trabalhador leva seus remédios de uso contínuo com receita e pode interromper a tarefa diante de risco grave e iminente.",
+   "valores": [
+    {
+     "parametro": "Registro de acesso, permanência e desembarque",
+     "valor": "guardado por ≥ 12 meses",
+     "item": "37.3.1 d)"
+    }
+   ]
+  },
+  {
+   "titulo": "PGR e análise de riscos das instalações",
+   "item": "37.5",
+   "texto": "Operadora e prestadoras permanentes fazem PGR por plataforma, ajustando limites de exposição ao regime de embarque. O PGR conversa com a análise de riscos de processo exigida pela ANP, cujos cenários e recomendações são divulgados a bordo. A análise é refeita ao mudar locação ou operadora, ao instalar módulos temporários, antes de modificações e após incidentes; recomendações têm cronograma e responsáveis. Lava-olhos e chuveiros de emergência são definidos a partir dessas análises.",
+   "valores": [
+    {
+     "parametro": "Revisão ou revalidação da análise de riscos das instalações e processos",
+     "valor": "no máximo a cada 5 anos",
+     "item": "37.5.8.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Atenção à saúde a bordo",
+   "item": "37.6",
+   "texto": "Cada empresa permanente tem PCMSO por plataforma (dispensado nas desabitadas). Há assistência gratuita, remoção aeromédica conforme o médico regulador, programas de saúde e prevenção de assédio. Quem usa cesta de transferência tem avaliação específica no ASO. A plataforma habitada tem profissional de saúde embarcado, enfermaria e telemedicina permanente; falta de remédio de uso contínuo leva ao fornecimento imediato ou ao desembarque.",
+   "valores": [
+    {
+     "parametro": "Aeronave EVAM — prontidão para decolar após acionamento",
+     "valor": "até 30 min (acima disso, justificar)",
+     "item": "37.6.2 b) II"
+    },
+    {
+     "parametro": "Aeronave EVAM — prazo máximo absoluto para decolagem",
+     "valor": "45 min",
+     "item": "37.6.2 b) II"
+    },
+    {
+     "parametro": "Profissional de saúde — 31 a 250 trabalhadores",
+     "valor": "1 (técnico de enfermagem supervisionado, enfermeiro ou médico)",
+     "item": "37.6.5 a) I"
+    },
+    {
+     "parametro": "Profissional de saúde — 251 a 400 trabalhadores",
+     "valor": "+1 profissional, ao menos um de nível superior",
+     "item": "37.6.5 a) II"
+    },
+    {
+     "parametro": "Profissional de saúde — acima de 400 trabalhadores",
+     "valor": "+1 profissional",
+     "item": "37.6.5 a) III"
+    }
+   ]
+  },
+  {
+   "titulo": "SESMT",
+   "item": "37.7",
+   "texto": "Operadora e prestadoras mantêm SESMT em terra (pela NR-04, somando empregados de terra e de bordo) e a bordo. A bordo, os técnicos de segurança cumprem a jornada embarcados e só atuam em segurança; turnos noturnos numerosos exigem um deles presente. O cálculo usa a média do trimestre anterior; aumentos temporários curtos são cobertos por profissionais adicionais.",
+   "valores": [
+    {
+     "parametro": "Operadora — população que exige SESMT a bordo",
+     "valor": "≥ 25 pessoas (próprios + terceiros)",
+     "item": "37.7.3.1"
+    },
+    {
+     "parametro": "Operadora — técnicos de segurança a bordo",
+     "valor": "1 para cada 50 embarcados ou fração",
+     "item": "37.7.3.1.1"
+    },
+    {
+     "parametro": "Troca de um técnico por engenheiro de segurança",
+     "valor": "permitida quando exigidos ≥ 3 técnicos",
+     "item": "37.7.3.1.1.1"
+    },
+    {
+     "parametro": "Prestadora — técnico de segurança a bordo",
+     "valor": "com ≥ 50 empregados embarcados",
+     "item": "37.7.3.2"
+    },
+    {
+     "parametro": "Prestadora — técnicos adicionais",
+     "valor": "+1 para cada 50 ou fração a partir de 100 empregados",
+     "item": "37.7.3.2.1"
+    },
+    {
+     "parametro": "Turno noturno que exige profissional de segurança da operadora",
+     "valor": "≥ 50 trabalhadores",
+     "item": "37.7.3.4.1"
+    },
+    {
+     "parametro": "Turno noturno menor — antecedência de planejamento",
+     "valor": "24 h",
+     "item": "37.7.3.4.1.1"
+    },
+    {
+     "parametro": "Substituição sem atualizar o SESMT — férias/afastamentos",
+     "valor": "até 60 dias",
+     "item": "37.7.3.4.2 a)"
+    },
+    {
+     "parametro": "Substituição para atividades na base",
+     "valor": "até 180 dias, em ciclos > 3 anos",
+     "item": "37.7.3.4.2 b)"
+    },
+    {
+     "parametro": "Aumento temporário excluído da média do SESMT",
+     "valor": "< 3 meses e ≥ 25 trabalhadores",
+     "item": "37.7.4"
+    }
+   ]
+  },
+  {
+   "titulo": "CIPLAT",
+   "item": "37.8",
+   "texto": "Operadora e prestadoras permanentes formam CIPLAT por plataforma, dimensionada por turma de embarque, com eleitos e indicados em paridade; preside o empregado de maior nível a bordo. Reuniões mensais a bordo (remoto permitido) cobrem todas as turmas, e as decisões são divulgadas. O eleito não pode ser transferido sem concordar.",
+   "valores": [
+    {
+     "parametro": "Turma com eleição de representantes",
+     "valor": "≥ 8 empregados",
+     "item": "37.8.2"
+    },
+    {
+     "parametro": "Representantes eleitos por turma",
+     "valor": "1 titular + 1 suplente",
+     "item": "37.8.2.1"
+    },
+    {
+     "parametro": "Contrato a bordo que só exige nomeado (sem CIPLAT)",
+     "valor": "≤ 12 meses",
+     "item": "37.8.4"
+    },
+    {
+     "parametro": "Comunicação das decisões às prestadoras ausentes",
+     "valor": "até 3 dias úteis após a ata",
+     "item": "37.8.10.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Capacitação e treinamentos",
+   "item": "37.9",
+   "texto": "Treinamentos ocorrem na jornada, à custa da empresa, com material em português (e em inglês para estrangeiros) e instrutor com formação e experiência. O programa inclui briefing a cada embarque, treinamento básico antes do primeiro embarque, avançado para quem atua na área operacional, eventual (após acidentes graves, paradas, comissionamento, retorno de afastamento) e DDS diário. Básico, avançado e eventual têm engenheiro de segurança como responsável.",
+   "valores": [
+    {
+     "parametro": "Instrutor — experiência mínima na atividade",
+     "valor": "2 anos",
+     "item": "37.9.2 c)"
+    },
+    {
+     "parametro": "Treinamento básico — carga mínima",
+     "valor": "6 h, antes do 1º embarque",
+     "item": "37.9.6.3"
+    },
+    {
+     "parametro": "Treinamento avançado — carga mínima",
+     "valor": "8 h",
+     "item": "37.9.6.5"
+    },
+    {
+     "parametro": "Treinamento avançado — prática a bordo",
+     "valor": "≥ 1 h",
+     "item": "37.9.6.5 i)"
+    },
+    {
+     "parametro": "Treinamento eventual — retorno de afastamento",
+     "valor": "> 90 dias",
+     "item": "37.9.6.4 e)"
+    },
+    {
+     "parametro": "Reciclagem do básico e do avançado",
+     "valor": "≥ 4 h a cada 5 anos",
+     "item": "37.9.6.6"
+    },
+    {
+     "parametro": "Reciclagem antecipada — retorno de afastamento",
+     "valor": "> 180 dias",
+     "item": "37.9.6.6 b)"
+    }
+   ]
+  },
+  {
+   "titulo": "Comissionamento, modificação, reparo e descomissionamento",
+   "item": "37.10",
+   "texto": "Aplica-se também a NR-34. Em operação simultânea, esses serviços exigem análise de risco, permissões de trabalho e acompanhamento por profissional de segurança dedicado. Paradas, acoplamento de UMS e aumento de lotação são comunicados com antecedência à inspeção; em emergência com vivência precária, o trabalhador pode recusar a tarefa e desembarca no descanso.",
+   "valores": [
+    {
+     "parametro": "Comunicação prévia de paradas, UMS ou aumento de lotação",
+     "valor": "≥ 30 dias de antecedência",
+     "item": "37.10.2"
+    },
+    {
+     "parametro": "Guarda do comprovante de ciência dos trabalhadores",
+     "valor": "até 1 ano após a campanha",
+     "item": "37.10.2.1"
+    },
+    {
+     "parametro": "Comunicado de descomissionamento",
+     "valor": "até 30 dias antes do fim das operações",
+     "item": "37.10.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Acesso à plataforma",
+   "item": "37.11",
+   "texto": "O transporte normal é por helicóptero; embarcação só dentro de limites de distância e de mar, ou em evacuação. Ninguém embarca sem ASO válido disponível. A transferência mar-plataforma é por gangway, cesta ou atracadouro, de dia, com colete, mãos livres e consentimento do trabalhador; cordas e cabos são proibidos. A cesta é homologada, nunca leva material nem é a primeira carga do dia do guindaste. A gangway tem corrimão, fechamento lateral, alarmes ou vigia e procedimento de interrupção.",
+   "valores": [
+    {
+     "parametro": "Transporte por embarcação — distância máxima",
+     "valor": "≤ 35 milhas náuticas",
+     "item": "37.11.1.2 b)"
+    },
+    {
+     "parametro": "Limites de mar e vento (embarcação, cesta e atracadouro)",
+     "valor": "onda ≤ 2,70 m e vento ≤ 27 nós",
+     "item": "37.11.1.2 d); 37.11.5 a); 37.11.6.1 a)"
+    },
+    {
+     "parametro": "Interdição do helideque que permite evacuar não essenciais por mar",
+     "valor": "> 24 h",
+     "item": "37.11.1.2 e)"
+    },
+    {
+     "parametro": "Cesta — visibilidade mínima",
+     "valor": "> 3 km",
+     "item": "37.11.5 b)"
+    },
+    {
+     "parametro": "Cesta — balanço (roll) máximo em plataforma flutuante",
+     "valor": "3°",
+     "item": "37.11.5 c)"
+    },
+    {
+     "parametro": "Teste do guindaste antes da cesta — carga de teste",
+     "valor": "≥ 2 × a capacidade da cesta",
+     "item": "37.11.5.5 c)"
+    },
+    {
+     "parametro": "Atracadouro — corrente máxima",
+     "valor": "≤ 1,5 nó",
+     "item": "37.11.6.1 a)"
+    },
+    {
+     "parametro": "Registro das condições de mar no atracadouro",
+     "valor": "guardado por ≥ 1 ano",
+     "item": "37.11.6.1 b)"
+    },
+    {
+     "parametro": "Gangway — inclinação máxima da escada/rampa de acesso",
+     "valor": "30° com a horizontal, com dispositivo rotativo",
+     "item": "37.11.7 j)"
+    }
+   ]
+  },
+  {
+   "titulo": "Vivência a bordo — disposições gerais",
+   "item": "37.12.1–37.12.3",
+   "texto": "A vivência segue a NR-37 e as regras do Ministério da Saúde/ANVISA, não a NR-24. A plataforma habitada tem alojamentos, sanitários, refeitório, cozinha, lavanderia, recreação, leitura, internet e espaço para exercício. O iluminamento segue a NBR IEC 61892-2 (método NHO 11), e o projeto deve reduzir ruído e vibração e facilitar a fuga.",
+   "valores": [
+    {
+     "parametro": "Ruído nos leitos de camarotes e módulos",
+     "valor": "≤ 60 dB(A)",
+     "item": "37.12.3.2"
+    },
+    {
+     "parametro": "Ruído que já exige medidas preventivas nos leitos",
+     "valor": "≥ 55 dB(A)",
+     "item": "37.12.3.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Instalações sanitárias",
+   "item": "37.12.4",
+   "texto": "Sanitários têm água canalizada (quente nos chuveiros), separação por sexo, porta com escape, piso antiderrapante com caimento, exaustão, lixeira sem contato e tomada junto ao lavatório. Os coletivos ficam perto dos postos, não se comunicam com refeitório e camarotes e têm cabines privativas. Banheiro químico é proibido; se todo o esgotamento parar e não voltar logo, a produção para e a plataforma é desembarcada, ficando só o mínimo.",
+   "valores": [
+    {
+     "parametro": "Área mínima por vaso sanitário",
+     "valor": "1,00 m²",
+     "item": "37.12.4.1 a)"
+    },
+    {
+     "parametro": "Plataforma que exige banheiro próximo à meia-nau",
+     "valor": "maior dimensão do deck principal > 200 m",
+     "item": "37.12.4.2 d)"
+    },
+    {
+     "parametro": "Vaso e lavatório coletivos",
+     "valor": "1 para cada 15 trabalhadores ou fração (turno de maior efetivo)",
+     "item": "37.12.4.3"
+    },
+    {
+     "parametro": "Mictórios no lugar de vasos (masculino)",
+     "valor": "até 50 %, mantendo ≥ 2 vasos",
+     "item": "37.12.4.3.1"
+    },
+    {
+     "parametro": "Chuveiro coletivo",
+     "valor": "1 para cada 30 trabalhadores ou fração",
+     "item": "37.12.4.4"
+    },
+    {
+     "parametro": "Vaso — espaço frontal livre",
+     "valor": "≥ 0,80 m de largura × 0,60 m de profundidade",
+     "item": "37.12.4.5 a)"
+    },
+    {
+     "parametro": "Cabine de vaso — divisórias",
+     "valor": "altura ≥ 1,90 m; bordo inferior ≤ 0,15 m do piso",
+     "item": "37.12.4.5.1 a)"
+    },
+    {
+     "parametro": "Mictórios — espaçamento entre divisórias",
+     "valor": "0,60 m",
+     "item": "37.12.4.6 a)"
+    },
+    {
+     "parametro": "Lavatórios junto à retirada de EPI",
+     "valor": "2",
+     "item": "37.12.4.7.2"
+    },
+    {
+     "parametro": "Box de chuveiro — rebaixo mínimo",
+     "valor": "0,05 m",
+     "item": "37.12.4.8 c)"
+    },
+    {
+     "parametro": "Crivo do chuveiro — altura mínima",
+     "valor": "2 m do piso",
+     "item": "37.12.4.8 k)"
+    },
+    {
+     "parametro": "Água tratada para sanitários",
+     "valor": "≥ 60 L/dia por trabalhador",
+     "item": "37.12.4.9"
+    },
+    {
+     "parametro": "Esgotamento inoperante — prazo para iniciar parada e desembarque",
+     "valor": "> 3 h sem restabelecer",
+     "item": "37.12.4.10.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Refeitório e refeições",
+   "item": "37.12.5",
+   "texto": "Plataforma habitada tem refeitório isolado de áreas de trabalho e sanitários, com piso e paredes laváveis, água potável, protetor salivar e álcool em gel; em flutuantes, mesas com borda e assentos fixos. Não pode virar depósito, e não se come em áreas com exposição a agentes. Na desabitada, basta local isolado com aquecimento de refeição, lavatório e água.",
+   "valores": [
+    {
+     "parametro": "Área mínima do refeitório",
+     "valor": "1,50 m² por usuário",
+     "item": "37.12.5.2 b)"
+    },
+    {
+     "parametro": "Mesas e assentos",
+     "valor": "para 1/3 dos empregados do turno de maior efetivo",
+     "item": "37.12.5.2 b)"
+    },
+    {
+     "parametro": "Corredor principal",
+     "valor": "0,75 m de largura",
+     "item": "37.12.5.2 c)"
+    },
+    {
+     "parametro": "Corredor secundário até os assentos",
+     "valor": "0,55 m de largura",
+     "item": "37.12.5.2 c)"
+    },
+    {
+     "parametro": "Lavatório do refeitório",
+     "valor": "1 para cada 30 assentos",
+     "item": "37.12.5.3"
+    },
+    {
+     "parametro": "Permanência em plataforma desabitada sem local de refeição",
+     "valor": "≤ 4 h",
+     "item": "37.12.5.5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Cozinha",
+   "item": "37.12.6",
+   "texto": "Segue as normas da ANVISA: paredes e piso laváveis, exaustão com coifa inox, bancadas inox, áreas separadas para carnes, peixes, aves e saladas, lavatório exclusivo e manta abafa-fogo. Liga-se ao refeitório por passa-pratos ou portas distintas. A câmara fria abre por dentro e tem botão de emergência.",
+   "valores": [
+    {
+     "parametro": "Sanitários exclusivos da cozinha",
+     "valor": "1 vaso e 1 lavatório para cada 10 trabalhadores da cozinha ou fração",
+     "item": "37.12.6.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Camarotes e módulos de acomodação temporária",
+   "item": "37.12.7",
+   "texto": "Camarotes usam materiais marítimos resistentes ao fogo e termoacústicos, são separados por sexo, têm sanitário privativo, tomadas identificadas, iluminação de emergência e vibração abaixo do nível de ação da NR-09. Não podem ter abertura direta para máquinas, cozinha ou lavanderia, nem tubulação de vapor passando por dentro. O dormitório tem armário individual, mesa, telefone, TV e guarda de coletes. Módulos temporários exigem autorização, classe A-60, apoios antivibração e saída alternativa; transbordo para dormir em outra plataforma é vedado.",
+   "figuras": [
+    "esquemas/resumo-nr-37-camarote.svg"
+   ],
+   "valores": [
+    {
+     "parametro": "Ocupação máxima",
+     "valor": "4 pessoas (4 leitos)",
+     "item": "37.12.7.1 f); 37.12.7.2 a)"
+    },
+    {
+     "parametro": "Pé-direito com beliche",
+     "valor": "≥ 2,40 m",
+     "item": "37.12.7.1 g)",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#pe-direito"
+    },
+    {
+     "parametro": "Pé-direito só com camas simples",
+     "valor": "≥ 2,20 m",
+     "item": "37.12.7.1 g)",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#pe-direito"
+    },
+    {
+     "parametro": "Área do dormitório",
+     "valor": "≥ 3,60 m² por pessoa",
+     "item": "37.12.7.1 h)"
+    },
+    {
+     "parametro": "Área no módulo de acomodação temporária",
+     "valor": "≥ 3,00 m² por pessoa",
+     "item": "37.12.7.1 h)"
+    },
+    {
+     "parametro": "Área total de dormitório individual ou duplo",
+     "valor": "≥ 7,50 m²",
+     "item": "37.12.7.1 h)"
+    },
+    {
+     "parametro": "Porta — altura mínima",
+     "valor": "2,10 m",
+     "item": "37.12.7.1 k)",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#porta-altura"
+    },
+    {
+     "parametro": "Porta — largura mínima",
+     "valor": "0,80 m",
+     "item": "37.12.7.1 k)",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#porta-largura"
+    },
+    {
+     "parametro": "Painel de escape da porta",
+     "valor": "0,60 m × 0,80 m",
+     "item": "37.12.7.1 k)",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#painel-escape"
+    },
+    {
+     "parametro": "Tensão nas tomadas",
+     "valor": "127 V ou 220 V, identificadas",
+     "item": "37.12.7.1 n)"
+    },
+    {
+     "parametro": "Manta antichamas",
+     "valor": "≥ 1 por ocupante",
+     "item": "37.12.7.1 p)"
+    },
+    {
+     "parametro": "Circulação de acesso aos alojamentos — largura mínima",
+     "valor": "1,20 m",
+     "item": "37.12.7.1.4",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#circulacao"
+    },
+    {
+     "parametro": "Distância horizontal entre leitos",
+     "valor": "≥ 0,60 m",
+     "item": "37.12.7.2 a)",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#distancia-leitos"
+    },
+    {
+     "parametro": "Armário individual — volume mínimo",
+     "valor": "0,5 m³, com ≥ 3 compartimentos",
+     "item": "37.12.7.2 b)"
+    },
+    {
+     "parametro": "Televisão do dormitório",
+     "valor": "> 26 polegadas",
+     "item": "37.12.7.2 e)"
+    },
+    {
+     "parametro": "Cama — colchão mínimo (comprimento)",
+     "valor": "1,88 m",
+     "item": "37.12.7.3 a)",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#colchao-comprimento"
+    },
+    {
+     "parametro": "Cama — colchão mínimo (largura)",
+     "valor": "0,78 m",
+     "item": "37.12.7.3 a)",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#colchao-largura"
+    },
+    {
+     "parametro": "Altura do topo do colchão ao piso",
+     "valor": "≥ 0,40 m",
+     "item": "37.12.7.3 b)",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#cama-altura"
+    },
+    {
+     "parametro": "Colchão — densidade mínima",
+     "valor": "33",
+     "item": "37.12.7.3 c)"
+    },
+    {
+     "parametro": "Colchão — validade sem prazo do fabricante",
+     "valor": "5 anos da fabricação",
+     "item": "37.12.7.3 c)"
+    },
+    {
+     "parametro": "Travesseiro — troca e dimensões mínimas",
+     "valor": "a cada 2 anos; 55 cm × 35 cm × 10 cm",
+     "item": "37.12.7.3 d)"
+    },
+    {
+     "parametro": "Beliche — camas sobrepostas",
+     "valor": "no máximo 2",
+     "item": "37.12.7.3.1 a)"
+    },
+    {
+     "parametro": "Beliche — vão livre entre camas",
+     "valor": "≥ 0,90 m (topo do colchão inferior ao estrado superior)",
+     "item": "37.12.7.3.1 a)",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#beliche-livre"
+    },
+    {
+     "parametro": "Beliche — vão livre da cama superior ao teto",
+     "valor": "≥ 0,90 m",
+     "item": "37.12.7.3.1 b)",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#beliche-teto"
+    },
+    {
+     "parametro": "Beliche — proteção lateral da cama superior",
+     "valor": "até a metade do comprimento (também na inferior em flutuantes)",
+     "item": "37.12.7.3.1 c); 37.12.7.3.1.1",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#protecao-lateral"
+    },
+    {
+     "parametro": "Troca de roupa de cama",
+     "valor": "a cada 5 dias e a cada troca de ocupante",
+     "item": "37.12.7.7 c)"
+    },
+    {
+     "parametro": "Troca de roupa de banho",
+     "valor": "a cada 3 dias",
+     "item": "37.12.7.7 c)"
+    },
+    {
+     "parametro": "Ocupantes em camarotes provisórios + módulos temporários",
+     "valor": "≤ 25 % da capacidade dos camarotes permanentes",
+     "item": "37.12.7.9"
+    }
+   ]
+  },
+  {
+   "titulo": "Lavanderia e bem-estar",
+   "item": "37.12.8–37.12.11",
+   "texto": "A lavanderia é dimensionada pelos turnos e pela lotação, isolada acusticamente, ventilada e lava roupa de trabalho separada das demais. A plataforma habitada tem academia climatizada, recreação, biblioteca, wi-fi nas áreas de vivência e camarotes, sala de internet e telefones privativos. Instalações extras existentes (cinema, quadra, piscina, sauna) só são desativadas por acordo tripartite.",
+   "valores": [
+    {
+     "parametro": "Computadores na sala de internet (com wi-fi)",
+     "valor": "1 para cada 50 trabalhadores em folga ou fração",
+     "item": "37.12.9.1 e)"
+    },
+    {
+     "parametro": "Computadores sem wi-fi viável",
+     "valor": "1 para cada 15 trabalhadores em folga ou fração",
+     "item": "37.12.9.1.1"
+    },
+    {
+     "parametro": "Telefones privativos para ligação externa",
+     "valor": "1 para cada 50 a bordo ou fração (1/15 sem wi-fi)",
+     "item": "37.12.9.2; 37.12.9.2.1"
+    },
+    {
+     "parametro": "Ligação externa gratuita",
+     "valor": "≥ 15 min por dia",
+     "item": "37.12.9.2 a)"
+    }
+   ]
+  },
+  {
+   "titulo": "Alimentação e água potável",
+   "item": "37.13",
+   "texto": "Alimentação gratuita, balanceada, com cardápio de nutricionista e dietas por prescrição; a hotelaria segue ANVISA e ISO 22000. Manipuladores fazem o curso do Anexo I. Água potável e fresca é fornecida no casario e nas áreas de trabalho, com laudo de potabilidade afixado; utensílios não são compartilhados sem higienização. Víveres ficam fora do piso, e o gerente inspeciona estoques, cozinha e pragas.",
+   "valores": [
+    {
+     "parametro": "Água potável e fresca",
+     "valor": "≥ 250 mL por hora por trabalhador",
+     "item": "37.13.3"
+    },
+    {
+     "parametro": "Inspeção de víveres, água, cozinha e pragas",
+     "valor": "semanal",
+     "item": "37.13.7"
+    },
+    {
+     "parametro": "Desinsetização e desratização",
+     "valor": "no mínimo semestral",
+     "item": "37.13.8"
+    }
+   ]
+  },
+  {
+   "titulo": "Climatização",
+   "item": "37.14",
+   "texto": "A plataforma habitada mantém climatização contínua nas áreas de vivência e nos postos que exigem atenção, com qualidade do ar pelos critérios da ANVISA e avaliação dos poluentes que possam chegar à captação. Ar contaminado com risco grave leva à retirada das pessoas e ao PRE. Camarotes têm controle individual de temperatura, aletas ajustáveis e baixo ruído.",
+   "valores": [
+    {
+     "parametro": "Limpeza e manutenção de aparelhos individuais",
+     "valor": "anual",
+     "item": "37.14.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Sinalização",
+   "item": "37.15",
+   "texto": "Segue a NR-26 com ajustes: código de cores exposto em quadros, sinalização também em inglês se houver estrangeiros, sinalização de emergência pela NBR 16820, cores pela NBR 7195 e tubulações pela NBR 6493. Rede de incêndio é pintada em toda a extensão; a pressão máxima de operação é indicada nos pontos de dreno e amostragem. Fontes radioativas levam o trifólio.",
+   "valores": [
+    {
+     "parametro": "Faixas de identificação de tubulação — espaçamento máximo",
+     "valor": "15 m",
+     "item": "37.15.4.1.1 c)"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeções de segurança e saúde a bordo",
+   "item": "37.16",
+   "texto": "O SESMT de bordo faz inspeções planejadas, com participação de membro eleito da CIPLAT, e registra local, participantes, pendências, não conformidades, recomendações e prazos. O responsável pela plataforma assina e aprova o cronograma, e o relatório vai à reunião seguinte da CIPLAT.",
+   "valores": [
+    {
+     "parametro": "Inspeção de SST da plataforma",
+     "valor": "mensal, conforme cronograma anual",
+     "item": "37.16.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeções, manutenção e permissão de trabalho",
+   "item": "37.17",
+   "texto": "Há planos de inspeção e manutenção com lista de itens, cronograma, medidas de segurança e responsáveis, priorizando os elementos críticos. Equipamento com não conformidade impeditiva não opera. Drones seguem ANAC/DECEA/ANATEL e entram na análise de risco. Trabalhos em área operacional exigem PT emitida pelo responsável da área, assinada pela equipe e limitada à atividade; tarefas rotineiras com procedimento podem dispensá-la. Andaimes seguem a NR-34.",
+   "valores": [
+    {
+     "parametro": "Revalidação de PT",
+     "valor": "a cada turno, sem mudança de condições e com aprovação do novo responsável e do profissional de segurança",
+     "item": "37.17.8.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Procedimentos operacionais e efetivo",
+   "item": "37.18",
+   "texto": "Procedimentos cobrem comissionamento, partida, operação, parada (inclusive de emergência), retorno e descomissionamento, seguindo projeto e manuais. O efetivo mínimo é dimensionado e documentado considerando capacitação, postos, turnos e supervisão, e a organização do trabalho atende à NR-17.",
+   "valores": [
+    {
+     "parametro": "Reavaliação dos procedimentos operacionais",
+     "valor": "no mínimo a cada 2 anos",
+     "item": "37.18.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Instalações elétricas",
+   "item": "37.19",
+   "texto": "Vale a NR-10; no que ela não tratar, normas nacionais, internacionais ou o Código MODU. Estrangeiros só atuam com formação reconhecida por habilitado. Plataforma com continuidade metálica atestada dispensa as medições de SPDA. Alta tensão exige o curso do Anexo III."
+  },
+  {
+   "titulo": "Movimentação de cargas e guindastes",
+   "item": "37.20",
+   "texto": "Equipamentos motorizados são projetados por habilitado, têm prontuário e são certificados por profissional com CREA em período não maior que o do fabricante. O operador inspeciona antes de operar e registra anomalias no fim do turno. Toda movimentação com guindaste tem sinaleiro identificado e supervisor; acessórios são verificados a cada jornada. A operação depende do vento (Tabela 1), e cabos de fibra natural só servem como cabo-guia.",
+   "valores": [
+    {
+     "parametro": "Reciclagem de sinaleiro/guindasteiro",
+     "valor": "8 h",
+     "item": "37.20.4.2.3"
+    },
+    {
+     "parametro": "Afastamento que exige reciclagem",
+     "valor": "≥ 180 dias",
+     "item": "37.20.4.2.3 a)"
+    },
+    {
+     "parametro": "Vento 0 a 38 km/h",
+     "valor": "todas as operações permitidas",
+     "item": "37.20.4.10.1, Tabela 1"
+    },
+    {
+     "parametro": "Vento 39 a 49 km/h",
+     "valor": "alarme a partir de 39 km/h; operações ordinárias param; só operações assistidas (inclusive com embarcações)",
+     "item": "37.20.4.10.1, Tabela 1"
+    },
+    {
+     "parametro": "Vento 50 a 61 km/h",
+     "valor": "só operações assistidas dentro da própria plataforma",
+     "item": "37.20.4.10.1, Tabela 1"
+    },
+    {
+     "parametro": "Vento acima de 61 km/h",
+     "valor": "todas as operações interrompidas",
+     "item": "37.20.4.10.1, Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Substâncias perigosas",
+   "item": "37.21",
+   "texto": "Ficam em compartimento exclusivo com saída direta para área aberta, longe de acomodações, sala de controle e rotas de fuga, segregadas por compatibilidade (IMDG). O paiol de inflamáveis é resistente ao fogo, sem centelha, com detecção, extintor, exaustão, contenção e placas de aviso; prateleiras são metálicas. Cilindros ficam em pé, fixos, com capacete, separados cheios de vazios e nunca na cozinha ou refeitório. FISPQ ficam disponíveis no local."
+  },
+  {
+   "titulo": "Caldeiras, vasos de pressão e tubulações",
+   "item": "37.22",
+   "texto": "Vale a NR-13, com exceções: na plataforma não se exige prédio separado nem ventilação permanente não bloqueável para caldeira em ambiente fechado, e vasos navais de embarcação convertida, com classe e sem ligação ao processo, ficam fora. A inspeção inicial do vaso é feita já interligado; em módulos, pode ser feita antes do içamento, dentro de prazo, com acompanhamento do içamento e teste de estanqueidade depois.",
+   "valores": [
+    {
+     "parametro": "Operador estrangeiro de caldeira/unidade de processo — experiência",
+     "valor": "treinamento + estágio, ou treinamento + experiência > 2 anos",
+     "item": "37.22.4"
+    },
+    {
+     "parametro": "Prazo para interligar módulo inspecionado antes do içamento",
+     "valor": "≤ 1 ano",
+     "item": "37.22.6.2.1"
+    },
+    {
+     "parametro": "Prazo com acompanhamento de habilitado da operadora",
+     "valor": "≤ 2 anos",
+     "item": "37.22.6.2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Detecção e alarme de incêndio e gases",
+   "item": "37.23",
+   "texto": "Detecção fixa contínua de fogo, gases tóxicos e inflamáveis, com projeto baseado em estudo de dispersão e ligada a parada de emergência, despressurização e combate. Botoeiras vermelhas tipo quebre o vidro; alarmes sonoros e visuais em todo local ocupado. Detectores são testados, ligados à energia de emergência, e só podem ser bloqueados com autorização e procedimento. Há detectores na captação de ar (redundantes) e de H₂ na sala de baterias.",
+   "valores": [
+    {
+     "parametro": "Botoeira de alarme — distância máxima a percorrer",
+     "valor": "30 m",
+     "item": "37.23.3.1"
+    },
+    {
+     "parametro": "Sinalização das botoeiras nos corredores",
+     "valor": "a cada 15 m ou desvio",
+     "item": "37.23.3.1"
+    },
+    {
+     "parametro": "Ruído que exige também sinal luminoso de alarme",
+     "valor": "> 90 dB(A)",
+     "item": "37.23.6.1"
+    },
+    {
+     "parametro": "Detectores portáteis a bordo",
+     "valor": "≥ 2 (CH₄, H₂S, O₂, CO e COV)",
+     "item": "37.23.11"
+    }
+   ]
+  },
+  {
+   "titulo": "Prevenção de vazamentos, incêndios e explosões",
+   "item": "37.24",
+   "texto": "Medidas desde o projeto para prevenir e mitigar, revistas após incidentes, inspeções ou pedidos do SESMT e da CIPLAT. Tanques e vasos com inflamáveis têm contenção (sem uso como depósito). Áreas classificadas são marcadas em planta pela NBR IEC 60079, com equipamentos certificados (elétricos) ou avaliados pela ISO 80079-36/37 (mecânicos). Em semissubmersível, nada ligado ao processo dentro de colunas ou pontoons.",
+   "valores": [
+    {
+     "parametro": "O₂ no gás gerado por queima (gás inerte)",
+     "valor": "≤ 5 % (v/v)",
+     "item": "37.24.12"
+    },
+    {
+     "parametro": "O₂ no interior dos tanques de carga",
+     "valor": "≤ 8 % (v/v)",
+     "item": "37.24.12"
+    }
+   ]
+  },
+  {
+   "titulo": "Proteção e combate a incêndio",
+   "item": "37.25",
+   "texto": "Segue NORMAM-01 e ISO 13702. Exige detecção, parada de processo, energia de emergência, extintores, brigada, EPI, rotas e iluminação de emergência. A rede de água tem duas motobombas independentes da energia principal, testadas por curva, e hidrantes inspecionados. Extintores certificados INMETRO, visíveis, fora de escadas e de trás de portas. Rotas de fuga sinalizadas e livres, portas abrindo no sentido da fuga, sem porta de enrolar; baterias em compartimento próprio ventilado.",
+   "valores": [
+    {
+     "parametro": "Hidrantes e redes — inspeção",
+     "valor": "mensal",
+     "item": "37.25.6.1.4"
+    },
+    {
+     "parametro": "Motobombas de incêndio",
+     "valor": "≥ 2 conjuntos, independentes do sistema elétrico principal",
+     "item": "37.25.6.1.5"
+    },
+    {
+     "parametro": "Teste de desempenho das bombas de incêndio (curva H × Q)",
+     "valor": "anual",
+     "item": "37.25.6.1.6"
+    },
+    {
+     "parametro": "Extintor portátil — altura máxima do topo",
+     "valor": "1,60 m do piso",
+     "item": "37.25.7.4.4"
+    },
+    {
+     "parametro": "Rota de fuga principal — largura mínima",
+     "valor": "1,20 m",
+     "item": "37.25.8.2 e)"
+    },
+    {
+     "parametro": "Rota de fuga secundária — largura mínima",
+     "valor": "0,70 m",
+     "item": "37.25.8.2 e)"
+    },
+    {
+     "parametro": "Compartimento que admite porta ejetável no lugar de passagem de emergência",
+     "valor": "< 16 m²",
+     "item": "37.25.8.4.3.1"
+    },
+    {
+     "parametro": "Porta de acesso a escada — vão livre",
+     "valor": "≥ largura da rota de fuga atendida",
+     "item": "37.25.8.4.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Radiações ionizantes",
+   "item": "37.26",
+   "texto": "Prioriza métodos sem fonte radioativa; quando houver, empresas licenciadas pela CNEN, serviço de radioproteção, supervisor certificado e plano de radioproteção por plataforma integrado ao PGR, PCMSO e PRE. Expostos acima dos limites são afastados; feridas impedem o trabalho com radiação. Materiais radioativos naturais (NORM) são monitorados em tubos, tanques, separadores e vents, com descontaminação antes de entrar no casario.",
+   "valores": [
+    {
+     "parametro": "Avaliação do plano de radioproteção",
+     "valor": "anual, na revisão do PGR e após acidente/emergência",
+     "item": "37.26.4.10.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Drenagem, resíduos e queimador",
+   "item": "37.27",
+   "texto": "Resíduos seguem a NR-25; drenos e vents não podem contaminar a plataforma, e drenos de flutuantes funcionam com qualquer mar. O flare tem ignição remota, detecção de piloto apagado e posição que mantém ruído, calor e vibração dentro dos limites; é proibido acendê-lo com guindaste ou improviso. Água oleosa tem monitoramento de H₂S biogênico, e rejeitos NORM ficam em local segregado, sinalizado e inventariado."
+  },
+  {
+   "titulo": "Plano de Resposta a Emergências (PRE)",
+   "item": "37.28",
+   "texto": "Feito a partir das análises de risco, com cenários, procedimentos (inclusive médicos e de helicóptero), recursos, comunicação, simulados e EPI. A tabela de postos de emergência fica visível. Durante pousos e decolagens há meios de resgate prontos.",
+   "valores": [
+    {
+     "parametro": "Equipes de resposta a emergência",
+     "valor": "≥ 20 % do POB, em todos os turnos",
+     "item": "37.28.4 a)"
+    }
+   ]
+  },
+  {
+   "titulo": "Comunicação e investigação de incidentes",
+   "item": "37.29",
+   "texto": "Doenças ocupacionais, acidentes graves, fatais e outros incidentes (critério da ANP) são comunicados à inspeção pelo formulário do Anexo VI; o sindicato é avisado e pode indicar membro para a investigação. O relatório traz metodologia, causas, medidas e cronograma. Em acidente fatal, isola-se o local até manifestação da inspeção.",
+   "valores": [
+    {
+     "parametro": "Comunicação do incidente à inspeção",
+     "valor": "até o 2º dia útil",
+     "item": "37.29.1.1"
+    },
+    {
+     "parametro": "Comunicação ao sindicato (grave ou fatal)",
+     "valor": "até 72 h",
+     "item": "37.29.2"
+    },
+    {
+     "parametro": "Prazo do sindicato para indicar representante",
+     "valor": "72 h após a comunicação",
+     "item": "37.29.2.1"
+    },
+    {
+     "parametro": "Relatório de investigação à inspeção",
+     "valor": "até 60 dias",
+     "item": "37.29.3"
+    },
+    {
+     "parametro": "Manifestação da inspeção após acidente fatal",
+     "valor": "até 72 h do protocolo",
+     "item": "37.29.6.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Declaração da Instalação Marítima (DIM) e documentação",
+   "item": "37.30–37.31",
+   "texto": "A DIM informa operadora, localização, tipo de operação, datas e lotação máxima, protocolada antes de começar a operar e atualizada quando algo muda. A documentação fica a bordo (ou na sede, se desabitada), em português e também em inglês quando houver estrangeiros, e é reavaliada se a operadora mudar.",
+   "valores": [
+    {
+     "parametro": "Protocolo da DIM",
+     "valor": "≥ 90 dias antes do início (perfuração, fim da ancoragem ou fim da montagem)",
+     "item": "37.30.3"
+    },
+    {
+     "parametro": "Atualização da DIM",
+     "valor": "até 30 dias após a mudança",
+     "item": "37.30.3.1"
+    },
+    {
+     "parametro": "Mudança de locação por emergência — atualização",
+     "valor": "até 7 dias corridos",
+     "item": "37.30.3.2.1"
+    },
+    {
+     "parametro": "Guarda dos documentos",
+     "valor": "5 anos",
+     "item": "37.31.1 a)"
+    },
+    {
+     "parametro": "Operação temporária com documentos só em inglês",
+     "valor": "até 6 meses em AJB",
+     "item": "37.31.1.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexos — cursos obrigatórios",
+   "item": "Anexos I, III, IV e V",
+   "texto": "Os anexos fixam a carga mínima e o conteúdo: manipuladores de alimentos (higiene, contaminação, pragas, EPI); alta tensão (organização, riscos, trabalho em linha viva); curso básico de movimentação de cargas e pessoas (equipamentos, acessórios, inspeção, sinalização, tabelas); e complementar para guindasteiros (operação, dispositivos, tabelas e ângulos, condições de mar, prática a bordo). O Anexo II traz o símbolo de radiação e o VI o formulário de comunicação de incidente.",
+   "valores": [
+    {
+     "parametro": "Curso básico para manipuladores de alimentos",
+     "valor": "≥ 12 h",
+     "item": "Anexo I"
+    },
+    {
+     "parametro": "Curso complementar — alta tensão",
+     "valor": "≥ 16 h",
+     "item": "Anexo III"
+    },
+    {
+     "parametro": "Curso básico — movimentação de cargas e transporte de pessoas",
+     "valor": "≥ 20 h",
+     "item": "Anexo IV"
+    },
+    {
+     "parametro": "Curso complementar — operadores de guindaste",
+     "valor": "≥ 20 h",
+     "item": "Anexo V"
+    }
+   ]
+  },
+  {
+   "titulo": "Glossário (termos principais)",
+   "item": "Glossário",
+   "texto": "Define operadora da instalação (gere a plataforma) e do contrato (detém a concessão com a ANP); POB (total de pessoas a bordo); plataforma desabitada (sem tripulação permanente); alojamento (camarote, camarote provisório ou módulo temporário, com sanitário privativo); operação simultânea; rota de fuga; NORM; e profissional legalmente habilitado, trabalhador capacitado e qualificado."
+  }
+ ]
+}

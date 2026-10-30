@@ -1,0 +1,29 @@
+{
+ "id": "NBR-6492",
+ "titulo": "ABNT NBR 6492:1994 — Representação de projetos de arquitetura",
+ "secoes": [
+  {"titulo": "Objetivo e definições", "item": "1, 3",
+   "texto": "Representação gráfica de projetos de arquitetura (não trata de critérios de projeto, que são de outras normas e da legislação municipal/estadual). Define planta de situação, de locação/implantação e de edificação, corte, fachada, elevações, detalhes ou ampliações, escala, programa de necessidades, memorial justificativo, discriminação técnica, especificação, lista de materiais e orçamento.",
+   "valores": []},
+  {"titulo": "Folhas, legenda e cópias", "item": "4",
+   "texto": "Formatos da série A; legenda (carimbo) com informações mínimas, outras informações e indicação do norte/ventos próximas dele. Cópias dobradas em A4 deixando o carimbo visível e a aba de fixação.",
+   "valores": [
+    {"parametro": "Formato final dobrado", "valor": "A4", "item": "4.4.1"},
+    {"parametro": "Dobras verticais (a partir da direita)", "valor": "de 185 mm; a parte final dobrada ao meio", "item": "4.4.3.1"},
+    {"parametro": "Dobras horizontais", "valor": "de 297 mm", "item": "4.4.3.2"}
+   ]},
+  {"titulo": "Fases do projeto", "item": "5.1",
+   "texto": "Levantamento/programa, estudo preliminar, anteprojeto e projeto executivo, cada fase com documentos típicos, eventuais e escala.",
+   "valores": [
+    {"parametro": "Escala — estudo preliminar e anteprojeto", "valor": "1:100 ou maior para a edificação (escalas menores com ampliações setoriais em programas grandes)", "item": "5.1.2.3, 5.1.3.3"}
+   ]},
+  {"titulo": "Elementos e convenções", "item": "5.2–5.3, Anexo",
+   "texto": "Peças gráficas (plantas, cortes, fachadas, planta de teto refletido, detalhes, esquadrias com nomenclatura P e J, quadro de acabamentos) e peças escritas. O anexo traz convenções de linhas, escrita, cotas, níveis, hachuras de materiais (alvenaria em corte etc.).",
+   "valores": [
+    {"parametro": "Unidade das cotas", "valor": "m para dimensões ≥ 1 m; cm abaixo de 1 m; mm escritos como expoente", "item": "Anexo A-9"},
+    {"parametro": "Algarismos das cotas", "valor": "altura 3 mm, a 1,5 mm da linha de cota", "item": "Anexo A-9"},
+    {"parametro": "Folga das linhas de chamada", "valor": "param a 2 mm do elemento", "item": "Anexo A-9", "nota": "texto parcial — conferir"},
+    {"parametro": "Entrelinhas mínimas / letras de coordenadas", "valor": "2 mm / altura 3 mm", "item": "Anexo"}
+   ]}
+ ]
+}

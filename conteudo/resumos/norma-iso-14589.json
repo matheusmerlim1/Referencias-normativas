@@ -1,0 +1,36 @@
+{
+ "id": "ISO-14589",
+ "titulo": "ISO 14589:2000 (DS/EN ISO 14589) — Rebites cegos — Ensaios mecânicos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Métodos de ensaio mecânico de rebites cegos à temperatura de 10 °C a 35 °C.",
+   "valores": [
+    {
+     "parametro": "Ensaios",
+     "valor": "cisalhamento e tração (3); retenção da cabeça da haste (4); expulsão da haste antes da montagem (5); carga de ruptura da haste (6)",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Cisalhamento e tração",
+   "item": "3",
+   "texto": "Rebite montado em dispositivo de chapas com furo e espessura definidos; carga aplicada até a ruptura; registro do valor e do modo de falha.",
+   "valores": []
+  },
+  {
+   "titulo": "Retenção da cabeça da haste",
+   "item": "4",
+   "texto": "Verifica se a cabeça da haste fica presa no corpo após a montagem.",
+   "valores": []
+  },
+  {
+   "titulo": "Expulsão e ruptura da haste",
+   "item": "5–6",
+   "texto": "Força para expulsar a haste do rebite ainda não montado e força que rompe a haste na montagem, comparadas com a norma de produto.",
+   "valores": []
+  }
+ ]
+}

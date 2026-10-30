@@ -1,0 +1,77 @@
+{
+ "id": "ASME-SA-612",
+ "titulo": "SA-612 — Chapas de aço carbono de alta resistência para vasos de pressão em temperatura moderada e baixa",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço carbono-manganês-silício acalmado para vasos de pressão soldados em temperatura moderada e baixa. Requisitos gerais pela SA-20.",
+   "valores": [
+    {
+     "parametro": "Espessura máx.",
+     "valor": "1 in [25 mm]",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4, 5",
+   "texto": "Aço acalmado de grão fino; fornecida em geral como laminada (normalização e/ou alívio opcionais)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx. (corrida)",
+     "valor": "0,25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn (corrida)",
+     "valor": "1,00–1,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,025 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si (corrida)",
+     "valor": "0,15–0,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cu máx. / Ni máx. (corrida)",
+     "valor": "0,35 % / 0,25 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Até 0,5 in [12,5 mm] — Su / Sy mín.",
+     "valor": "83–105 ksi [570–725] / 50 ksi [345]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "0,5 a 1 in — Su / Sy mín.",
+     "valor": "81–101 ksi [560–695] / 50 ksi [345]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. 200 mm / 50 mm",
+     "valor": "16 % / 22 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

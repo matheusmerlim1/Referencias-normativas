@@ -1,0 +1,97 @@
+{
+ "id": "ASME-SA-266",
+ "titulo": "SA-266 — Forjados de aço carbono para componentes de vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Forjados de aço carbono, em quatro graus (1 a 4; antes 'Classes'), para caldeiras, vasos de pressão e equipamentos associados. Fusão e requisitos gerais pela SA-788."
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4 a 6",
+   "texto": "Forjado a quente o mais próximo possível da forma final; superfícies usinadas como indicado pelo comprador. Após forjar, o resfriamento deve completar a transformação. Tratamento: recozimento, normalização ou normalização e revenimento (têmpera líquida e revenimento por acordo).",
+   "valores": [
+    {
+     "parametro": "Temperatura mín. de revenimento",
+     "valor": "1100 °F [595 °C]",
+     "item": "6.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx. — Graus 1 e 2 / 3 / 4",
+     "valor": "0,30 / 0,35 / 0,30 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn — Graus 1 e 2",
+     "valor": "0,40–1,05 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn — Graus 3 e 4",
+     "valor": "0,80–1,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,025 % / 0,025 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,15–0,35 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Usar o maior corpo de prova de tração possível (A370).",
+   "valores": [
+    {
+     "parametro": "Grau 1 — Su / Sy mín.",
+     "valor": "60–85 ksi [415–585 MPa] / 30 ksi [205 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Graus 2 e 4 — Su / Sy mín.",
+     "valor": "70–95 ksi [485–655 MPa] / 36 ksi [250 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 3 — Su / Sy mín.",
+     "valor": "75–100 ksi [515–690 MPa] / 37,5 ksi [260 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. — 1 / 2 e 4 / 3",
+     "valor": "23 / 20 / 19 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Redução de área mín. — 1 / 2 e 4 / 3",
+     "valor": "38 / 33 / 30 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo e marcação",
+   "item": "9, 11",
+   "texto": "Reparo por solda só com autorização do comprador, com soldadores e procedimento qualificados. Marcação conforme SA-788 mais grau e identificação."
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "S1…",
+   "texto": "Opcionais: desbaste e furação prévios, ensaios mecânicos em local definido, limites de elementos (S11, S12), ultrassom, partículas magnéticas e outros."
+  }
+ ]
+}

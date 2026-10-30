@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 500" width="860" height="500" role="img" aria-label="Tensão admissível (Tabelas 1A/1B) — o menor dos critérios em cada temperatura">
+<title>Tensão admissível (Tabelas 1A/1B) — o menor dos critérios em cada temperatura (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Tensão admissível (Tabelas 1A/1B) — o menor dos critérios em cada temperatura</text>
+<line class="g" x1="100" y1="380" x2="740" y2="380"/>
+<line class="g" x1="100" y1="380" x2="100" y2="80"/>
+<line class="d" x1="730" y1="380" x2="750" y2="380" marker-end="url(#a)"/>
+<line class="d" x1="100" y1="90" x2="100" y2="70" marker-end="url(#a)"/>
+<text class="n en" x="740" y="410">temperatura</text>
+<text class="n" x="70" y="230.0" transform="rotate(-90 70 230.0)" text-anchor="middle">tensão</text>
+<path class="h" d="M100,180 C350,185 500,195 740,230"/>
+<text class="n en" x="735" y="220">resistência à tração / fator</text>
+<path class="h" d="M100,140 C300,160 480,200 740,260"/>
+<text class="n en" x="735" y="272">2/3 do escoamento</text>
+<path class="h" d="M430,100 C500,200 580,320 740,360"/>
+<text class="n" x="445" y="110">critérios de fluência</text>
+<path d="M100,180 C300,184 430,192 530,220 C580,290 660,340 740,360" fill="none" stroke="#b03a2e" stroke-width="3"/>
+<text class="b" x="220" y="165">S = menor dos critérios</text>
+<text class="n m" x="420" y="435">tubo com costura: os mesmos critérios multiplicados pelo fator de junta</text>
+<text class="n" x="20" y="488">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

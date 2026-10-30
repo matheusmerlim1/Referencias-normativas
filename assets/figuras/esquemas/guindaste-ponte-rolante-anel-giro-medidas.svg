@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 460" width="860" height="460" role="img" aria-label="Anel (rolamento) de giro — medidas a, b, c, e, diâmetro da pista e parafusos">
+<title>Anel (rolamento) de giro — medidas a, b, c, e, diâmetro da pista e parafusos (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Anel (rolamento) de giro — medidas a, b, c, e, diâmetro da pista e parafusos</text>
+<rect class="sl" x="120" y="140" width="200" height="50"/>
+<rect class="sl" x="320" y="190" width="200" height="50"/>
+<circle class="s" cx="320" cy="190" r="14"/>
+<rect class="s" x="160" y="80" width="18" height="170"/>
+<rect class="s" x="470" y="130" width="18" height="170"/>
+<rect class="s" x="140" y="70" width="58" height="12"/>
+<rect class="s" x="450" y="300" width="58" height="12"/>
+<rect class="h" x="80" y="250" width="280" height="16"/>
+<rect class="h" x="300" y="120" width="280" height="16"/>
+<line class="c" x1="320" y1="60" x2="320" y2="380"/>
+<g id="cota-a" class="cota"><line class="d" x1="169" y1="360" x2="320" y2="360" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="245" y="352">a</text></g>
+<g id="cota-b" class="cota"><line class="d" x1="320" y1="360" x2="479" y2="360" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="400" y="352">b</text></g>
+<g id="cota-c" class="cota"><line class="e" x1="120" y1="137" x2="120" y2="104"/><line class="e" x1="169" y1="137" x2="169" y2="104"/><line class="d" x1="120" y1="110" x2="169" y2="110" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="144.5" y="103">c</text></g>
+<g id="cota-e" class="cota"><line class="e" x1="123" y1="140" x2="151" y2="140"/><line class="e" x1="123" y1="190" x2="151" y2="190"/><line class="d" x1="145" y1="140" x2="145" y2="190" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="138" y="170">e</text></g>
+<g id="cota-comprimento-parafuso" class="cota"><line class="e" x1="163" y1="82" x2="206" y2="82"/><line class="e" x1="163" y1="250" x2="206" y2="250"/><line class="d" x1="200" y1="82" x2="200" y2="250" marker-start="url(#a)" marker-end="url(#a)"/><text x="40" y="300">comprimento efetivo do parafuso</text></g>
+<g id="cota-D" class="cota"><line class="d" x1="640" y1="215" x2="320" y2="190" marker-end="url(#a)"/><text x="644" y="220">D = Ø da pista</text></g>
+<line class="d" x1="600" y1="100" x2="600" y2="170" marker-end="url(#a)"/>
+<text class="b" x="610" y="110">FA</text>
+<line class="d" x1="640" y1="260" x2="700" y2="260" marker-end="url(#a)"/>
+<text class="b" x="705" y="265">FR</text>
+<text class="n" x="20" y="448">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

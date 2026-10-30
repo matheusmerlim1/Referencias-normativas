@@ -1,0 +1,107 @@
+{
+ "id": "NORSOK-L-005",
+ "titulo": "NORSOK L-005 (ed. 2, 2006) — Conexões flangeadas compactas (CFC)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Requisitos gerais de projeto e fabricação de conexões flangeadas compactas para tubulações e equipamentos de óleo e gás, e uma norma de produto (flange NCF5 com anel de vedação IX).",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos fundamentais",
+   "item": "4",
+   "texto": "Matéria-prima forjada (ensaios a T/3 longitudinal e transversal), HIP aceito, fundidos com END. Segurança estrutural comparável ao tubo: verificar escoamento, estanqueidade e fadiga, considerando perda de pré-carga. Faces de vedação protegidas da corrosão; sobre-espessura e faixa de temperatura definidas pelo comprador. Vazamento máximo declarado em taxa de hélio (EN 1779). Designação e marcação.",
+   "valores": [
+    {
+     "parametro": "Retirada de amostra de forjado",
+     "valor": "posição T/3",
+     "item": "4.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Princípio do NCF5",
+   "item": "5.1; 5.3",
+   "texto": "Projetado pela ASME VIII Div. 2 (Ap. 4 e 6) para tubulação de processo. Face levemente convexa com o ponto alto (heel) junto ao furo e uma cunha externa; ao apertar, o anel IX é comprimido radialmente e a face fecha até contato face a face, protegendo a vedação e os estojos de cargas cíclicas.",
+   "valores": [],
+   "figuras": [
+    "esquemas/flange-asme-b16-5-norsok-l005-funcionamento.svg"
+   ]
+  },
+  {
+   "titulo": "Classes e tamanhos",
+   "item": "5.4; Tab. 2–3",
+   "texto": "Classes equivalentes às ASME, do CL 150 ao CL 2500; tamanhos de DN 15 a DN 1200 conforme a classe. Algumas dimensões coincidem com a classe acima, e o flange é marcado com a maior. Dimensões dos flanges de pescoço (WN) nas Tabelas A.1–A.6 (ver ficha flange-asme-b16-5).",
+   "valores": [
+    {
+     "parametro": "CL 150 / 300 / 600 / 900",
+     "valor": "PN 20 / 50 / 110 / 150",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Tamanhos",
+     "valor": "DN 15 a DN 1200 (NPS ½–48)",
+     "item": "Tab. 3"
+    }
+   ],
+   "figuras": [
+    "esquemas/flange-asme-b16-5-norsok-l005-perfil.svg"
+   ]
+  },
+  {
+   "titulo": "Acabamento e anel IX",
+   "item": "5.13",
+   "texto": "Rugosidade fina nas regiões de vedação e no heel. Anel IX em aço carbono, duplex, 17-4PH ou liga de níquel, identificado pela cor do revestimento de PTFE e com faixa de temperatura por material.",
+   "valores": [
+    {
+     "parametro": "Ra — canaleta IX e heel / face / furos",
+     "valor": "0,8 / 1,6 / 12,5 µm",
+     "item": "5.13"
+    },
+    {
+     "parametro": "Anel IX — faces de vedação",
+     "valor": "Ra ≤ 0,8 µm",
+     "item": "5.13.5"
+    },
+    {
+     "parametro": "Anel aço carbono / duplex / 17-4PH",
+     "valor": "azul / amarelo / laranja; −50 a +250 °C",
+     "item": "5.13"
+    }
+   ]
+  },
+  {
+   "titulo": "Montagem e torque",
+   "item": "5.14; Tab. 8",
+   "texto": "Primeiro aproxima-se as faces em cruz com torque baixo até o heel encostar; depois aperta-se em sequência diagonal em etapas até a pré-carga final. A pré-carga visa uma fração alta do escoamento do estojo, com mínimo após relaxação. A Tabela 8 dá torque (atrito 0,12) e pressão do tensionador. Na desmontagem, soltar pouco por vez em cruz e não usar abridor comum.",
+   "valores": [
+    {
+     "parametro": "Aproximação",
+     "valor": "≈ 10 % do torque final",
+     "item": "5.14"
+    },
+    {
+     "parametro": "1ª etapa com uma ferramenta",
+     "valor": "≤ 30 % da pré-carga",
+     "item": "5.14.8"
+    },
+    {
+     "parametro": "Pré-carga alvo / mínima após relaxação",
+     "valor": "75 % / 70 % do escoamento",
+     "item": "5.14.11.1"
+    },
+    {
+     "parametro": "Tensionador",
+     "valor": "95 % do escoamento",
+     "item": "Tab. 8"
+    },
+    {
+     "parametro": "Desmontagem",
+     "valor": "1/6 de volta por vez",
+     "item": "5.14.10"
+    }
+   ]
+  }
+ ]
+}

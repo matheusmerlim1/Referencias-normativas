@@ -1,0 +1,90 @@
+{
+ "id": "NBR-15516-2",
+ "titulo": "ABNT NBR 15516-2:2008 — Lingas de corrente: uso, manutenção e inspeção",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1–3",
+   "texto": "Orienta uso, manutenção e inspeção de lingas de corrente. Distingue a inspeção visual corriqueira da inspeção completa, feita por pessoa qualificada com outros meios se preciso.",
+   "valores": []
+  },
+  {
+   "titulo": "Temperatura e ambiente",
+   "item": "A.1.1",
+   "texto": "Grau 8 dispensa redução em temperaturas moderadas; acima delas a CMT cai por faixas até ser proibido; frio extremo, consultar o fabricante. Não usar em ácido nem galvanizar sem o fabricante. Offshore, içamento de pessoas e cargas perigosas pedem avaliação e redução da CMT.",
+   "valores": [
+    {
+     "parametro": "Sem redução",
+     "valor": "−40 °C a 200 °C",
+     "item": "A.1.1.2.1, Tab. A.1"
+    },
+    {
+     "parametro": "200–300 °C / 300–400 °C",
+     "valor": "90 % / 75 % da CMT",
+     "item": "Tab. A.1"
+    },
+    {
+     "parametro": "Acima de 400 °C",
+     "valor": "não permitido",
+     "item": "Tab. A.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Uso",
+   "item": "A.1.3",
+   "texto": "Ângulo das pernas nem muito pequeno nem acima do limite; laço em volta de volumes com ângulo menor. Forca reduz a capacidade. A carga só é simétrica se atender a vários critérios; senão, reduz-se a CMT. Usando menos pernas que as da linga, aplica-se fator e prendem-se as soltas no anel.",
+   "valores": [
+    {
+     "parametro": "Ângulo com a vertical",
+     "valor": "evitar < 15°; nunca > 60°; em laço ≤ 30°",
+     "item": "A.1.3.3",
+     "cota": "esquemas/lingadas-acessorios-linga-corrente-pernas-beta.svg#beta"
+    },
+    {
+     "parametro": "Forca",
+     "valor": "≤ 80 % da CMT marcada",
+     "item": "A.1.3.4"
+    },
+    {
+     "parametro": "Carga assimétrica sem avaliação",
+     "valor": "1/2 da CMT",
+     "item": "A.1.3.5"
+    },
+    {
+     "parametro": "Menos pernas: 1 de 2 / 2 de 3–4 / 1 de 3–4",
+     "valor": "× 1/2 / × 2/3 / × 1/3",
+     "item": "A.1.3.7, Tab. A.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção e descarte",
+   "item": "A.2",
+   "texto": "Inspeção completa periódica registrada, limpando sem ácido nem calor. Retirar com marcação ilegível, terminais errados, corrente alongada ou rígida, desgaste do elo além do limite, cortes, trincas, corrosão, deformação ou sinais de calor. Troca de elo implica trocar a corrente da perna; solda só pelo fabricante, com nova prova; entalhes podem ser esmerilhados com perda limitada.",
+   "valores": [
+    {
+     "parametro": "Inspeção completa",
+     "valor": "≤ 12 meses",
+     "item": "A.2.2"
+    },
+    {
+     "parametro": "Desgaste do elo",
+     "valor": "(d1 + d2)/2 < 0,9 dn → retirar",
+     "item": "A.2",
+     "cota": "esquemas/lingadas-acessorios-desgaste-elos.svg#dn"
+    },
+    {
+     "parametro": "Esmerilhamento de entalhes",
+     "valor": "≤ 10 % da espessura",
+     "item": "A.2.3"
+    },
+    {
+     "parametro": "Prova após reparo soldado",
+     "valor": "2 × CMT",
+     "item": "A.2.3"
+    }
+   ]
+  }
+ ]
+}

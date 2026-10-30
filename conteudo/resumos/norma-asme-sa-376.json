@@ -1,0 +1,70 @@
+{
+ "id": "ASME-SA-376",
+ "titulo": "SA-376 — Tubos sem costura de aço austenítico para centrais de alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura de aço inoxidável austenítico para serviço em alta temperatura em centrais (usinas). Inclui graus H e com nitrogênio (304N, 316N). Suplementares S1–S10 opcionais. Requisitos gerais pela SA-999."
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "6",
+   "texto": "Acabado a quente ou a frio; sempre fornecido tratado (graus H com solubilização separada, sem substituição por tratamento em processo)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Ordem: C; Mn; P; S; Si; Ni; Cr (máx. salvo faixas).",
+   "valores": [
+    {
+     "parametro": "TP304",
+     "valor": "C 0,08; Mn 2,00; P 0,045; S 0,030; Si 0,75; Ni 8,00–11,0; Cr 18,0–20,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "TP304H",
+     "valor": "C 0,04–0,10; demais como TP304",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "TP304N — N",
+     "valor": "0,10–0,16 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín. long. / transv.",
+   "valores": [
+    {
+     "parametro": "TP304, TP304H, TP316, TP316H, TP347, TP348 e outros",
+     "valor": "75 ksi [515] / 30 ksi [205] / 35 % / 25 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "TP304N, TP316N",
+     "valor": "80 ksi [550] / 35 ksi [240] / 35 % / 25 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "TP321, TP321H — parede ≤ 3/8 in",
+     "valor": "75 ksi [515] / 30 ksi [205]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "TP321, TP321H — parede > 3/8 in",
+     "valor": "70 ksi [480] / 25 ksi [170]",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "11, 12, 14",
+   "texto": "Cada tubo com hidrostático ou ensaio elétrico não destrutivo (a partir de NPS 24 o hidrostático pode ser dispensado por acordo); tração em 1 % dos tubos do lote. Marcação inclui schedule ANSI e número da corrida."
+  }
+ ]
+}

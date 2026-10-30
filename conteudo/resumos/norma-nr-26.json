@@ -1,0 +1,36 @@
+{
+ "id": "NR-26",
+ "titulo": "NR-26 — Sinalização de segurança",
+ "secoes": [
+  {
+   "titulo": "Cores de segurança",
+   "item": "26.1",
+   "texto": "Cores servem para indicar e advertir riscos: identificar equipamentos de segurança, delimitar áreas, identificar tubulações de líquidos e gases. Seguem as normas técnicas oficiais (a NR não traz a tabela de cores), não substituem outras medidas de prevenção e devem ser usadas com moderação para não distrair nem confundir.",
+   "valores": [
+    {"parametro": "Padrão de cores (equipamentos, áreas, tubulações)", "valor": "normas técnicas oficiais (a NR não lista as cores)", "item": "26.1.2"}
+   ]
+  },
+  {
+   "titulo": "Classificação de produtos químicos",
+   "item": "26.2.1",
+   "texto": "Todo produto químico usado no trabalho é classificado quanto aos perigos pelo GHS da ONU, com base em lista harmonizada (nacional ou, na falta, internacional) ou em ensaios.",
+   "valores": [
+    {"parametro": "Sistema de classificação", "valor": "GHS (ONU)", "item": "26.2.1"}
+   ]
+  },
+  {
+   "titulo": "Rotulagem preventiva",
+   "item": "26.2.2",
+   "texto": "Produto perigoso leva rótulo GHS na embalagem, com identificação e composição, pictogramas, palavra de advertência, frases de perigo e de precaução e informações complementares. Produto não perigoso tem rótulo simplificado (nome, aviso de que não é classificado como perigoso e cuidados). Saneantes registrados na ANVISA ficam dispensados dessa rotulagem.",
+   "valores": [
+    {"parametro": "Elementos do rótulo de produto perigoso", "valor": "identificação/composição; pictograma(s); palavra de advertência; frase(s) de perigo; frase(s) de precaução; informações suplementares", "item": "26.2.2.2"}
+   ]
+  },
+  {
+   "titulo": "Ficha com dados de segurança (FDS) e treinamento",
+   "item": "26.2.3–26.2.4",
+   "texto": "Fabricante ou importador prepara a FDS no formato GHS para todo produto perigoso (e para o não perigoso cujo uso gere risco). Em misturas, a ficha indica nome e concentração das substâncias perigosas acima dos valores de corte do GHS e das que têm limite de exposição. O empregador garante acesso às fichas e treina os trabalhadores para entender rótulo e FDS, riscos, uso seguro e emergência.",
+   "valores": []
+  }
+ ]
+}

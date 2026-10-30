@@ -1,0 +1,120 @@
+{
+ "id": "ISO-898-1",
+ "titulo": "ISO 898-1:2013 — Propriedades mecânicas de parafusos e prisioneiros de aço carbono e aço liga",
+ "secoes": [
+  {
+   "titulo": "Escopo e temperatura",
+   "item": "1",
+   "texto": "Parafusos, parafusos-prisioneiros e estojos de aço carbono e ligado, rosca métrica grossa de M1,6 a M39 e fina de M8×1 a M39×3. Propriedades verificadas à temperatura ambiente; uso normal em faixa ampla; fora dela, consultar especialista.",
+   "valores": [
+    {
+     "parametro": "Uso usual",
+     "valor": "−50 °C a +150 °C (máx. 300 °C com consulta)",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação das classes",
+   "item": "5; Tab. 1",
+   "texto": "Dois números: o primeiro é a resistência nominal à tração dividida por 100; o segundo, dez vezes a razão escoamento/resistência. Zero à esquerda indica capacidade de carga reduzida (cabeça baixa, haste rebaixada). Classes de 4.6 a 12.9; 9.8 só até 16 mm.",
+   "valores": [
+    {
+     "parametro": "Exemplo 8.8",
+     "valor": "Rm 800 MPa; escoamento 640 MPa",
+     "item": "5"
+    }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-marcacao-classe.svg"
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "7; Tab. 3",
+   "texto": "Para cada classe: resistência mínima, escoamento (ou Rpf no ensaio do parafuso inteiro), tensão de prova, alongamento, estricção, dureza e tenacidade a frio. Tabela completa na ficha parafusos-porcas-arruelas.",
+   "valores": [
+    {
+     "parametro": "4.6 — Rm / ReL / prova",
+     "valor": "400 / 240 / 225 MPa",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "8.8 (d ≤ 16) — Rm / Rp0,2 / prova",
+     "valor": "800 / 640 / 580 MPa",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "8.8 (d > 16) — Rm / Rp0,2 / prova",
+     "valor": "830 / 660 / 600 MPa",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "10.9 — Rm / Rp0,2 / prova",
+     "valor": "1040 / 940 / 830 MPa",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "12.9 — Rm / Rp0,2 / prova",
+     "valor": "1220 / 1100 / 970 MPa",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Dureza 8.8 (d ≤ 16)",
+     "valor": "250–320 HV",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Charpy a −20 °C (5.6, 8.8, 9.8, 10.9)",
+     "valor": "≥ 27 J (d ≥ 16 mm)",
+     "item": "Tab. 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Cargas de ruptura e de prova",
+   "item": "9.1; Tab. 4–7",
+   "texto": "As cargas mínimas de ruptura e de prova por rosca saem da área resistente nominal vezes a tensão da classe. Galvanização a fogo com rosca sobremedida reduz esses valores em tamanhos pequenos (ISO 10684).",
+   "valores": [
+    {
+     "parametro": "Área resistente",
+     "valor": "As = (π/4)·((d2 + d3)/2)², d3 = d1 − H/6",
+     "item": "9.1.6.1.1",
+     "cota": "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg#As"
+    },
+    {
+     "parametro": "M12 — As",
+     "valor": "84,3 mm²",
+     "item": "Tab. 4",
+     "cota": "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg#d"
+    },
+    {
+     "parametro": "M12 classe 8.8 — Fm,min / Fp",
+     "valor": "67 400 / 48 900 N",
+     "item": "Tab. 4–5"
+    },
+    {
+     "parametro": "M12 classe 10.9 — Fm,min / Fp",
+     "valor": "87 700 / 70 000 N",
+     "item": "Tab. 4–5"
+    },
+    {
+     "parametro": "M20 classe 8.8 — Fm,min / Fp",
+     "valor": "203 000 / 147 000 N",
+     "item": "Tab. 4–5"
+    },
+    {
+     "parametro": "M12×1,5 classe 8.8 — Fm,min / Fp",
+     "valor": "70 500 / 51 100 N",
+     "item": "Tab. 6–7"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios, marcação",
+   "item": "8–10",
+   "texto": "Ensaios em parafuso inteiro (tração, prova, cunha, dureza, descarbonetação, revenimento, impacto) ou em corpo usinado. Parafusos a partir de certo diâmetro são marcados na cabeça com a classe e o fabricante.",
+   "valores": []
+  }
+ ]
+}

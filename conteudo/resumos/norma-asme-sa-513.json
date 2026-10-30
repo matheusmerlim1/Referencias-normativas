@@ -1,0 +1,70 @@
+{
+ "id": "ASME-SA-513",
+ "titulo": "SA-513 — Tubos mecânicos de aço carbono e liga soldados por resistência elétrica",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos mecânicos ERW de aço carbono e liga, de aço laminado a quente ou a frio, redondos, quadrados, retangulares e de formas especiais."
+  },
+  {
+   "titulo": "Tipos e condições",
+   "item": "12",
+   "texto": "Tipo 1 (AWHR) soldado de laminado a quente; 2 (AWCR) de laminado a frio; 3 (SDHR) e 4 (SDCR) trefilados sem mandril; 5 (MD) trefilado com mandril; 6 (SSID) diâmetro interno liso especial. Condições térmicas: sem tratamento final, aliviado, recozido ou normalizado."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabelas 1 e 2",
+   "texto": "Se o grau não for especificado, pode-se fornecer MT 1010 a MT 1020.",
+   "valores": [
+    {
+     "parametro": "MT 1010 — C / Mn",
+     "valor": "0,05–0,15 % / 0,30–0,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "MT 1020 — C / Mn",
+     "valor": "0,15–0,25 % / 0,30–0,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "MT X 1020 — C / Mn",
+     "valor": "0,15–0,25 % / 0,70–1,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "S5, Tabela S5.1",
+   "texto": "Propriedades só quando pedidas (suplementar S5). Exemplos 'como soldado' (Sy mín. / Su mín. / alongamento / dureza mín. HRB):",
+   "valores": [
+    {
+     "parametro": "1010",
+     "valor": "32 ksi (221) / 45 ksi (310) / 15 % / 55 HRB",
+     "item": "Tabela S5.1"
+    },
+    {
+     "parametro": "1020",
+     "valor": "38 ksi (262) / 52 ksi (359) / 12 % / 62 HRB",
+     "item": "Tabela S5.1"
+    },
+    {
+     "parametro": "1026",
+     "valor": "45 ksi (310) / 62 ksi (427) / 12 % / 68 HRB",
+     "item": "Tabela S5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Tolerâncias e revestimento",
+   "item": "Tabelas 4 a 16, 14",
+   "texto": "Tolerâncias de diâmetro, parede, comprimento, esquadro de corte, raios de canto e torção por tipo. Óleo protetor quando pedido."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "ASME-VIII-1-UCS",
+ "titulo": "ASME VIII Div. 1 — Parte UCS: vasos de aço carbono e baixa liga",
+ "secoes": [
+  {
+   "titulo": "Materiais",
+   "item": "UCS-5 a UCS-12",
+   "texto": "Aço carbono e baixa liga sob pressão devem ser de especificação da Seção II listada na Tabela UCS-23. Aço com teor de carbono alto não pode ser soldado nem cortado a oxigênio.",
+   "valores": [
+    {"parametro": "Carbono máximo para construção soldada / corte a oxigênio", "valor": "0,35 % (análise de corrida)", "item": "UCS-5(b)"}
+   ]
+  },
+  {
+   "titulo": "Radiografia por espessura",
+   "item": "UCS-57",
+   "texto": "Além da UW-11, juntas de topo de aço carbono e baixa liga exigem radiografia total acima de uma espessura que depende do P-No.",
+   "valores": [
+    {"parametro": "P-No. 1 (grupos 1–3)", "valor": "> 32 mm (1 1/4 in)", "item": "Tabela UCS-57", "cota": "esquemas/vaso-pressao-asme-viii-desalinhamento-reforco.svg#t"},
+    {"parametro": "P-No. 3 / 10A / 10F", "valor": "> 19 mm (3/4 in)", "item": "Tabela UCS-57"},
+    {"parametro": "P-No. 4 / 9A, 9B / 10B, 10C", "valor": "> 16 mm (5/8 in)", "item": "Tabela UCS-57"},
+    {"parametro": "P-No. 5A, 5B", "valor": "qualquer espessura", "item": "Tabela UCS-57"}
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico após soldagem",
+   "item": "UCS-56",
+   "texto": "A Tabela UCS-56 fixa temperatura mínima e tempo de patamar por P-No. e espessura nominal, com isenções em notas. O ciclo controla a entrada no forno, as taxas de aquecimento e resfriamento e a uniformidade. As isenções não valem quando o TTAT é exigência de serviço.",
+   "valores": [
+    {"parametro": "P-No. 1 — temperatura mínima", "valor": "593 °C (1 100 °F)", "item": "Tabela UCS-56", "cota": "esquemas/vaso-pressao-asme-viii-ttat-ciclo.svg#temp"},
+    {"parametro": "P-No. 1 — patamar", "valor": "1 h/25 mm, mín. 15 min até 50 mm; acima: 2 h + 15 min por 25 mm além de 50 mm", "item": "Tabela UCS-56", "cota": "esquemas/vaso-pressao-asme-viii-ttat-ciclo.svg#patamar"},
+    {"parametro": "P-No. 1 — TTAT obrigatório", "valor": "> 38 mm; ou > 32 mm sem pré-aquecimento mín. de 93 °C", "item": "Tabela UCS-56, nota (2)"},
+    {"parametro": "Temperatura do forno na entrada", "valor": "≤ 427 °C (800 °F)", "item": "UCS-56(d)(1)", "cota": "esquemas/vaso-pressao-asme-viii-ttat-ciclo.svg#entrada"},
+    {"parametro": "Aquecimento acima de 427 °C", "valor": "≤ 222 °C/h ÷ espessura máx. (in), nunca > 222 °C/h", "item": "UCS-56(d)(2)", "cota": "esquemas/vaso-pressao-asme-viii-ttat-ciclo.svg#taxa"},
+    {"parametro": "Uniformidade no patamar", "valor": "≤ 83 °C entre o ponto mais quente e o mais frio", "item": "UCS-56(d)(3)"},
+    {"parametro": "Resfriamento acima de 427 °C", "valor": "≤ 278 °C/h ÷ espessura máx. (in), nunca > 278 °C/h; abaixo, ao ar calmo", "item": "UCS-56(d)(5)", "cota": "esquemas/vaso-pressao-asme-viii-ttat-ciclo.svg#resfr"}
+   ]
+  },
+  {
+   "titulo": "Baixa temperatura (MDMT) e ensaio de impacto",
+   "item": "UCS-66; UCS-67",
+   "texto": "A Figura UCS-66 dá, para cada curva de material e espessura, a MDMT abaixo da qual é preciso ensaio de impacto. Se o componente trabalha com tensão bem abaixo da admissível, a MDMT sem ensaio pode ser reduzida pelas figuras UCS-66.1 e 66.2, até um piso. A isenção não garante que o material passaria no ensaio.",
+   "valores": [
+    {"parametro": "Piso da redução de MDMT por razão de tensões", "valor": "−48 °C (−55 °F)", "item": "UCS-66(b)"}
+   ]
+  },
+  {
+   "titulo": "Conformação a frio",
+   "item": "UCS-79",
+   "texto": "Peças conformadas a frio com alongamento de fibra alto precisam de tratamento térmico se houver condição agravante: serviço letal, material com ensaio de impacto, chapa grossa, grande redução de espessura ou conformação em temperatura intermediária.",
+   "valores": [
+    {"parametro": "Alongamento de fibra que pode exigir TT", "valor": "> 5 % do estado laminado", "item": "UCS-79(d)"},
+    {"parametro": "Espessura antes da conformação (agravante)", "valor": "> 16 mm (5/8 in)", "item": "UCS-79(d)(3)"},
+    {"parametro": "Redução de espessura pela conformação (agravante)", "valor": "> 10 %", "item": "UCS-79(d)(4)"},
+    {"parametro": "Temperatura de conformação (agravante)", "valor": "121 a 482 °C (250 a 900 °F)", "item": "UCS-79(d)(5)"},
+    {"parametro": "P-No. 1 grupos 1 e 2 sem nenhum agravante", "valor": "alongamento de fibra até 40 % sem TT", "item": "UCS-79(d)"},
+    {"parametro": "Alongamento de fibra — dupla curvatura / curvatura simples", "valor": "75·t/Rf·(1 − Rf/Ro) / 50·t/Rf·(1 − Rf/Ro) (%)", "item": "UCS-79(d)"}
+   ]
+  }
+ ]
+}

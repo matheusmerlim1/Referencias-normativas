@@ -1,0 +1,82 @@
+{
+ "id": "ASME-SA-450",
+ "titulo": "SA-450 — Requisitos gerais para tubos (tubing) de aço carbono, ferrítico e austenítico",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns às especificações de tubos de caldeira, trocador e similares (SA-178, 179, 192, 210, 213, 214, 249, 334, 423 e outras): química, tração, massa e tolerâncias, ensaios de achatamento, achatamento reverso, alargamento, flangeamento, dureza, hidrostático, pneumático sob água e ensaio elétrico, reparo e marcação."
+  },
+  {
+   "titulo": "Tolerâncias e massa",
+   "item": "6, Tabelas 1 a 4",
+   "texto": "Massa calculada pela espessura mínima com fórmula da norma; variações de massa, espessura, diâmetro e comprimento tabeladas."
+  },
+  {
+   "titulo": "Ensaios mecânicos",
+   "item": "16 a 21",
+   "texto": "Ensaios conforme Anexo A2 da SA-370, em temperatura ambiente.",
+   "valores": [
+    {
+     "parametro": "Achatamento — amostra sem costura / soldado",
+     "valor": "≥ 2 1/2 in [63 mm] / ≥ 4 in [100 mm]",
+     "item": "17.1"
+    },
+    {
+     "parametro": "Alargamento — ângulo da ferramenta",
+     "valor": "60°",
+     "item": "19.1"
+    },
+    {
+     "parametro": "Alargamento — expansão mín. (DI/DE = 0,9) aço C e ferrítico / austenítico",
+     "valor": "21 % / 15 %",
+     "item": "Tabela 5",
+     "nota": "ordem das colunas lida do cabeçalho da SA-1016 (mesma tabela)"
+    },
+    {
+     "parametro": "Alargamento — expansão mín. (DI/DE = 0,5) aço C e ferrítico / austenítico",
+     "valor": "39 % / 28 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Largura mín. do flange — DE até 2 1/2 in / 2 1/2 a 3 3/4 / 3 3/4 a 8 in",
+     "valor": "15 % / 12 1/2 % / 10 % do DE",
+     "item": "Tabela 6"
+    }
+   ]
+  },
+  {
+   "titulo": "Teste hidrostático",
+   "item": "22, Tabela 7",
+   "texto": "Cada tubo testado com P = 32 000 t/D (psi) [P = 220,6 t/D, MPa], limitada aos valores da Tabela 7 por diâmetro; alternativas: pneumático sob água ou ensaio elétrico.",
+   "valores": [
+    {
+     "parametro": "Pressão máx. exigida — DE < 1 in",
+     "valor": "1000 psi [7 MPa]",
+     "item": "Tabela 7"
+    },
+    {
+     "parametro": "Pressão máx. exigida — DE 1 a 1 1/2 in",
+     "valor": "1500 psi [10 MPa]",
+     "item": "Tabela 7"
+    },
+    {
+     "parametro": "Pressão máx. exigida — DE 1 1/2 a 2 in",
+     "valor": "2000 psi [14 MPa]",
+     "item": "Tabela 7"
+    },
+    {
+     "parametro": "Pneumático sob água — pressão",
+     "valor": "150 psi",
+     "item": "23.1",
+     "nota": "valor em SI truncado na extração"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio não destrutivo, reparo e marcação",
+   "item": "12, 24, 28",
+   "texto": "END elétrico (E213, E309, E426, E570) quando pedido. Reparo por solda de defeitos do metal-base só com aprovação do comprador. Cada tubo estampado com fabricante, especificação e grau."
+  }
+ ]
+}

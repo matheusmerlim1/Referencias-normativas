@@ -1,0 +1,105 @@
+{
+ "id": "BV-NR445-C",
+ "titulo": "BV NR445 Parte C (jun/2025) — Regras de classificação de unidades offshore: instalações",
+ "secoes": [
+  {
+   "titulo": "Organização",
+   "item": "Parte C",
+   "texto": "Parte das regras do Bureau Veritas para classificar unidades offshore que trata das instalações: máquinas e tubulações (cap. 1), elétrica (cap. 2), controle e automação (cap. 3), segurança contra incêndio, áreas classificadas, fuga e salvatagem (cap. 4) e sustentabilidade/habitabilidade (cap. 5). Remete às regras de navios do BV e às convenções IMO (MODU Code, SOLAS) onde aplicáveis.",
+   "valores": []
+  },
+  {
+   "titulo": "Máquinas e tubulações",
+   "item": "Cap. 1",
+   "texto": "Requisitos gerais de máquinas, motores diesel, equipamentos de pressão, turbinas a vapor e a gás, engrenagens, sistemas de tubulação, propulsores, refrigeração, sistemas de autoelevação e testes a bordo. Componentes pressurizados passam por teste hidrostático com pressão acima da de projeto.",
+   "valores": [
+    {
+     "parametro": "Teste hidrostático típico",
+     "valor": "1,5 × pressão de projeto",
+     "item": "Cap. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Instalações elétricas",
+   "item": "Cap. 2",
+   "texto": "Projeto do sistema, máquinas girantes, transformadores, conversores, baterias, quadros, cabos, localização e instalação, alta tensão, comunicação e alarmes, equipamentos em áreas classificadas (zonas 0, 1 e 2) e testes, incluindo resistência de isolamento. A fonte de emergência alimenta iluminação, bombas de incêndio, detecção e comunicações por tempo mínimo, com fonte transitória enquanto ela parte.",
+   "valores": [
+    {
+     "parametro": "Fonte de emergência — iluminação, bomba de incêndio, detecção",
+     "valor": "18 h",
+     "item": "Cap. 2 Sec. 3, Tab. 2"
+    },
+    {
+     "parametro": "Fonte transitória",
+     "valor": "0,5 h",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Sinalização de estrutura offshore",
+     "valor": "96 h",
+     "item": "Tab. 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Controle e automação",
+   "item": "Cap. 3",
+   "texto": "Projeto, sistemas computadorizados, construção, instalação e ensaios de sistemas de controle; requisitos para praça de máquinas desatendida (notação AUTO).",
+   "valores": []
+  },
+  {
+   "titulo": "Segurança: arranjo, áreas classificadas e fogo",
+   "item": "Cap. 4 Sec. 2–7",
+   "texto": "Arranjo da unidade separando áreas de risco das de vivência; classificação de áreas perigosas; proteção estrutural contra incêndio (divisões A, B, C); detecção, alarme e controles; combate a incêndio com bombas, rede de água e sistemas fixos; integridade estrutural sob fogo.",
+   "valores": []
+  },
+  {
+   "titulo": "Fuga e evacuação",
+   "item": "Cap. 4 Sec. 8",
+   "texto": "Alarme geral de emergência. Toda área tem ao menos duas rotas de fuga bem separadas, desobstruídas, com portas abrindo no sentido da fuga (exceto camarotes); elevador não conta. Escadas preferidas a escadas verticais; rotas dimensionadas para maca e equipamento de combate a incêndio. Largura mínima com corrimão de um lado; rotas largas com corrimão dos dois lados. Marcação luminosa ou fotoluminescente baixa ao longo da rota. Em sondas, uma rota protegida da radiação térmica da plataforma de perfuração.",
+   "valores": [
+    {
+     "parametro": "Rotas de fuga por espaço",
+     "valor": "≥ 2, bem separadas",
+     "item": "Sec. 8 [2.1.1]"
+    },
+    {
+     "parametro": "Largura livre de escadas e corredores de fuga",
+     "valor": "≥ 700 mm, corrimão de um lado",
+     "item": "Sec. 8 [2.1.6]"
+    },
+    {
+     "parametro": "Corrimão dos dois lados",
+     "valor": "largura ≥ 1800 mm",
+     "item": "Sec. 8 [2.1.6]"
+    },
+    {
+     "parametro": "Marcação baixa da rota",
+     "valor": "≤ 300 mm acima do piso",
+     "item": "Sec. 8 [2.2.1] g)"
+    },
+    {
+     "parametro": "Radiação máxima na rota protegida (sonda)",
+     "valor": "2,5 kW/m²",
+     "item": "Sec. 8 [2.1.5]"
+    }
+   ],
+   "figuras": [
+    "esquemas/habitabilidade-portas-rotas-cotas.svg"
+   ]
+  },
+  {
+   "titulo": "Plano de incêndio, helideque e salvatagem",
+   "item": "Cap. 4 Sec. 9–12",
+   "texto": "Plano de combate a incêndio, instalações de helicóptero (iluminação, combate a incêndio), sistemas de segurança contra incêndio e notação adicional de salvatagem (LSA).",
+   "valores": []
+  },
+  {
+   "titulo": "Sustentabilidade e habitabilidade",
+   "item": "Cap. 5",
+   "texto": "Notações SUSTAINABILITY-1 e -2: critérios de conforto e habitabilidade do bloco de acomodação e estações de controle (ruído, vibração, clima, iluminação, espaços), além de aspectos ambientais.",
+   "valores": []
+  }
+ ]
+}

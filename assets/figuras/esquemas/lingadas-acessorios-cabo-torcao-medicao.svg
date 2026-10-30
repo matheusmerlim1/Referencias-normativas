@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-label="Cabo de aço — tipos de torção, passo e medição do diâmetro">
+<title>Cabo de aço — tipos de torção, passo e medição do diâmetro (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Cabo de aço — tipos de torção, passo e medição do diâmetro</text>
+<rect class="sl" x="40" y="88" width="170" height="44"/>
+<line x1="-4" y1="132" x2="22" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl0)"/>
+<line x1="18" y1="132" x2="44" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl0)"/>
+<line x1="40" y1="132" x2="66" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl0)"/>
+<line x1="62" y1="132" x2="88" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl0)"/>
+<line x1="84" y1="132" x2="110" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl0)"/>
+<line x1="106" y1="132" x2="132" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl0)"/>
+<line x1="128" y1="132" x2="154" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl0)"/>
+<line x1="150" y1="132" x2="176" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl0)"/>
+<line x1="172" y1="132" x2="198" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl0)"/>
+<line x1="194" y1="132" x2="220" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl0)"/>
+<line x1="216" y1="132" x2="242" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl0)"/>
+<clipPath id="cl0"><rect x="40" y="88" width="170" height="44"/></clipPath>
+<text class="n m" x="125" y="160">regular à direita</text>
+<rect class="sl" x="255" y="88" width="170" height="44"/>
+<line x1="211" y1="132" x2="185" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl1)"/>
+<line x1="233" y1="132" x2="207" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl1)"/>
+<line x1="255" y1="132" x2="229" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl1)"/>
+<line x1="277" y1="132" x2="251" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl1)"/>
+<line x1="299" y1="132" x2="273" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl1)"/>
+<line x1="321" y1="132" x2="295" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl1)"/>
+<line x1="343" y1="132" x2="317" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl1)"/>
+<line x1="365" y1="132" x2="339" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl1)"/>
+<line x1="387" y1="132" x2="361" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl1)"/>
+<line x1="409" y1="132" x2="383" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl1)"/>
+<line x1="431" y1="132" x2="405" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl1)"/>
+<clipPath id="cl1"><rect x="255" y="88" width="170" height="44"/></clipPath>
+<text class="n m" x="340" y="160">regular à esquerda</text>
+<rect class="sl" x="470" y="88" width="170" height="44"/>
+<line x1="426" y1="132" x2="452" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl2)"/>
+<line x1="448" y1="132" x2="474" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl2)"/>
+<line x1="470" y1="132" x2="496" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl2)"/>
+<line x1="492" y1="132" x2="518" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl2)"/>
+<line x1="514" y1="132" x2="540" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl2)"/>
+<line x1="536" y1="132" x2="562" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl2)"/>
+<line x1="558" y1="132" x2="584" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl2)"/>
+<line x1="580" y1="132" x2="606" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl2)"/>
+<line x1="602" y1="132" x2="628" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl2)"/>
+<line x1="624" y1="132" x2="650" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl2)"/>
+<line x1="646" y1="132" x2="672" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl2)"/>
+<clipPath id="cl2"><rect x="470" y="88" width="170" height="44"/></clipPath>
+<text class="n m" x="555" y="160">lang à direita</text>
+<rect class="sl" x="685" y="88" width="170" height="44"/>
+<line x1="641" y1="132" x2="615" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl3)"/>
+<line x1="663" y1="132" x2="637" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl3)"/>
+<line x1="685" y1="132" x2="659" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl3)"/>
+<line x1="707" y1="132" x2="681" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl3)"/>
+<line x1="729" y1="132" x2="703" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl3)"/>
+<line x1="751" y1="132" x2="725" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl3)"/>
+<line x1="773" y1="132" x2="747" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl3)"/>
+<line x1="795" y1="132" x2="769" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl3)"/>
+<line x1="817" y1="132" x2="791" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl3)"/>
+<line x1="839" y1="132" x2="813" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl3)"/>
+<line x1="861" y1="132" x2="835" y2="88" stroke="#666" stroke-width="1.5" clip-path="url(#cl3)"/>
+<clipPath id="cl3"><rect x="685" y="88" width="170" height="44"/></clipPath>
+<text class="n m" x="770" y="160">lang à esquerda</text>
+<rect class="sl" x="60" y="230" width="380" height="44"/>
+<path d="M60,274 C80,250 100,240 123,230" fill="none" stroke="#666" stroke-width="2"/>
+<path d="M123,274 C143,250 163,240 186,230" fill="none" stroke="#666" stroke-width="2"/>
+<path d="M186,274 C206,250 226,240 249,230" fill="none" stroke="#666" stroke-width="2"/>
+<path d="M249,274 C269,250 289,240 312,230" fill="none" stroke="#666" stroke-width="2"/>
+<path d="M312,274 C332,250 352,240 375,230" fill="none" stroke="#666" stroke-width="2"/>
+<path d="M375,274 C395,250 415,240 438,230" fill="none" stroke="#666" stroke-width="2"/>
+<path d="M438,274 C458,250 478,240 501,230" fill="none" stroke="#666" stroke-width="2"/>
+<g id="cota-passo" class="cota"><line class="e" x1="123" y1="227" x2="123" y2="199"/><line class="e" x1="312" y1="227" x2="312" y2="199"/><line class="d" x1="123" y1="205" x2="312" y2="205" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="217.5" y="198">passo (uma volta completa de uma perna)</text></g>
+<g id="cota-d" class="cota"><line class="e" x1="443" y1="230" x2="466" y2="230"/><line class="e" x1="443" y1="274" x2="466" y2="274"/><line class="d" x1="460" y1="230" x2="460" y2="274" marker-start="url(#a)" marker-end="url(#a)"/><text x="467" y="257">d</text></g>
+<circle class="sl" cx="678" cy="320" r="18"/>
+<circle class="sl" cx="664" cy="344.2" r="18"/>
+<circle class="sl" cx="636" cy="344.2" r="18"/>
+<circle class="sl" cx="622" cy="320" r="18"/>
+<circle class="sl" cx="636" cy="295.8" r="18"/>
+<circle class="sl" cx="664" cy="295.8" r="18"/>
+<circle class="sl" cx="650" cy="320" r="10"/>
+<circle class="h" cx="650" cy="320" r="46"/>
+<rect class="s" x="580" y="274" width="12" height="92"/>
+<rect class="s" x="708" y="274" width="12" height="92"/>
+<text class="n m" x="650" y="395">certo: sobre as coroas (círculo circunscrito)</text>
+<g id="cota-distancia-ponta" class="cota"><line class="d" x1="120" y1="325" x2="60" y2="252" marker-end="url(#a)"/><text x="124" y="330">medir longe da ponta amarrada</text></g>
+<text class="n" x="20" y="428">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

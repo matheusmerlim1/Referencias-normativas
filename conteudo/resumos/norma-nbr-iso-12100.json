@@ -1,0 +1,30 @@
+{
+ "id": "NBR-ISO-12100",
+ "titulo": "ABNT NBR ISO 12100:2013 — Segurança de máquinas — Princípios gerais de projeto — Apreciação e redução de riscos",
+ "secoes": [
+  {"titulo": "Escopo e estratégia", "item": "1–4",
+   "texto": "Norma básica (tipo A) de segurança de máquinas: terminologia, princípios e método para o projetista chegar a uma máquina segura. Etapas: (a) limites da máquina, incluindo uso devido e mau uso razoavelmente previsível; (b) identificação de perigos e situações perigosas; (c) estimativa do risco; (d) avaliação e decisão sobre reduzir; (e) eliminação do perigo ou redução do risco. As etapas a–d formam a apreciação de riscos; a e, a redução; o ciclo se repete até risco adequado. Parte-se do pressuposto de que todo perigo presente acaba causando dano se nada for feito; medidas no projeto são preferíveis às do usuário.",
+   "valores": []},
+  {"titulo": "Apreciação de riscos", "item": "5",
+   "texto": "Informações de entrada (especificação, normas, histórico de acidentes, ergonomia); limites de uso, espaço, tempo (vida útil) e outros; identificação sistemática dos perigos em todas as fases do ciclo de vida e tarefas (Anexo B: mecânicos, elétricos, térmicos, ruído, vibração, radiação, materiais/substâncias, ergonômicos, ambientais e combinações). Estimativa do risco pela gravidade do dano e pela probabilidade de ocorrência (exposição, ocorrência do evento perigoso, possibilidade de evitar), usando medições padronizadas para emissões quando houver. Avaliação: decidir se o risco foi adequadamente reduzido, comparando com máquinas semelhantes quando aplicável.",
+   "valores": [
+    {"parametro": "Elementos do risco", "valor": "gravidade do dano × probabilidade (exposição, ocorrência do evento, possibilidade de evitar ou limitar o dano)", "item": "5.5.2"}
+   ]},
+  {"titulo": "Redução de riscos — método de três passos", "item": "6.1",
+   "texto": "Ordem obrigatória das medidas. Informação para uso nunca substitui as medidas dos passos 1 e 2.",
+   "valores": [
+    {"parametro": "Passo 1", "valor": "medidas de segurança inerentes ao projeto — única etapa que elimina o perigo", "item": "6.1"},
+    {"parametro": "Passo 2", "valor": "proteções de segurança e medidas de proteção complementares", "item": "6.1"},
+    {"parametro": "Passo 3", "valor": "informação para uso (riscos residuais, procedimentos, treinamento, EPI)", "item": "6.1"}
+   ]},
+  {"titulo": "Projeto inerentemente seguro", "item": "6.2",
+   "texto": "Fatores geométricos (visibilidade das zonas perigosas a partir do comando, evitar pontos de esmagamento/cisalhamento, cantos vivos) e físicos (limitar força, massa, velocidade, energia, ruído); conhecimento técnico geral (tensões, materiais); tecnologias apropriadas; ação mecânica positiva; estabilidade; facilidade de manutenção; ergonomia; perigos elétricos, pneumáticos e hidráulicos; sistemas de comando seguros (partida, parada, modos, falhas); minimizar exposição a perigos por confiabilidade, automação de carga e descarga e pontos de ajuste fora das zonas perigosas.",
+   "valores": []},
+  {"titulo": "Proteções e medidas complementares", "item": "6.3",
+   "texto": "Seleção de proteções (fixas, móveis com intertravamento, ajustáveis) e dispositivos de proteção (sensores, comandos bimanuais etc.) conforme a necessidade de acesso à zona perigosa; requisitos de construção dessas proteções; redução de emissões (ruído, vibração, substâncias, radiação); medidas complementares como parada de emergência, meios de resgate de pessoas presas, isolamento e dissipação de energia, manuseio seguro de máquinas e peças pesadas, acesso seguro.",
+   "valores": []},
+  {"titulo": "Informações para uso e documentação", "item": "6.4–7",
+   "texto": "Sinais e avisos, marcações e pictogramas na máquina, manual de instruções completo (transporte, instalação, uso, manutenção, desmontagem, riscos residuais). Documentar a apreciação: máquina, limites, perigos, estimativas, medidas adotadas, riscos residuais e normas usadas.",
+   "valores": []}
+ ]
+}

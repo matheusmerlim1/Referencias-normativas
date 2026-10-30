@@ -1,0 +1,105 @@
+{
+ "id": "ASME-SA-106",
+ "titulo": "SA-106 — Tubos sem costura de aço carbono para alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura de aço carbono para serviço em alta temperatura, NPS 1/8 a NPS 48, espessuras da ASME B36.10; aptos a curvamento, flangeamento e solda. Em temperaturas altas deve-se considerar a grafitização. Para enrolar apertado ou curvar a frio, prefere-se o Grau A. Requisitos gerais pela SA-530."
+  },
+  {
+   "titulo": "Graus e fabricação",
+   "item": "4, 5",
+   "texto": "Graus A, B e C. Aço acalmado; tubos até NPS 1 1/2 podem ser acabados a quente ou trefilados a frio; NPS 2 e acima, em geral acabados a quente. Tubo acabado a quente dispensa tratamento térmico; o trefilado a frio é tratado após o último passe.",
+   "valores": [
+    {
+     "parametro": "Tratamento após trefilação a frio",
+     "valor": "≥ 1200 °F (650 °C)",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Para cada 0,01 % de C abaixo do máximo, +0,06 % de Mn acima do máximo, até 1,35 %.",
+   "valores": [
+    {
+     "parametro": "Grau A — C máx. / Mn",
+     "valor": "0,25 % / 0,27–0,93 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau B — C máx. / Mn",
+     "valor": "0,30 % / 0,29–1,06 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau C — C máx. / Mn",
+     "valor": "0,35 % / 0,29–1,06 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx. / Si mín.",
+     "valor": "0,035 % / 0,035 % / 0,10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cr, Cu, Ni / Mo / V máx.",
+     "valor": "0,40 % cada / 0,15 % / 0,08 %",
+     "item": "Tabela 1",
+     "nota": "Soma dos cinco ≤ 1 %"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau A — Su / Sy mín.",
+     "valor": "48 000 psi (330 MPa) / 30 000 psi (205 MPa)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau B — Su / Sy mín.",
+     "valor": "60 000 psi (415 MPa) / 35 000 psi (240 MPa)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau C — Su / Sy mín.",
+     "valor": "70 000 psi (485 MPa) / 40 000 psi (275 MPa)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm, corpo redondo — long. / transv.",
+     "valor": "A: 28/20 %; B: 22/12 %; C: 20/12 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. básico (tira transversal / seção plena) — long. / transv.",
+     "valor": "A: 35/25 %; B: 30/16,5 %; C: 30/16,5 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e inspeção",
+   "item": "9 a 14",
+   "texto": "Dobramento a frio a 90° (mandril de 12 × diâmetro nominal) para NPS ≤ 2; achatamento acima de NPS 2 em amostra ≥ 2 1/2 in (63,5 mm); teste hidrostático em cada tubo ou, se o comprador pedir, ensaio elétrico não destrutivo (E213, E309 ou E570) como alternativa. Análise de produto, a pedido: 2 tubos por lote.",
+   "valores": [
+    {
+     "parametro": "Lote para análise de produto",
+     "valor": "400 comprimentos (< NPS 6) / 200 comprimentos (≥ NPS 6)",
+     "item": "9.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "S1–S4",
+   "texto": "Opcionais para aplicações mais exigentes (ensaios adicionais), só quando pedidos."
+  }
+ ]
+}

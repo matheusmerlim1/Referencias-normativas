@@ -1,0 +1,225 @@
+{
+ "id": "ISO-14122-2",
+ "titulo": "ISO 14122-2:2016 — Acessos permanentes a máquinas: plataformas de trabalho e passarelas",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Trata de plataformas de trabalho e passarelas não motorizadas que fazem parte de máquinas estacionárias, inclusive partes ajustáveis (dobráveis, deslizantes). Vale também para plataformas da edificação cuja função principal é dar acesso à máquina. Usa-se junto com a ISO 14122-1 (escolha do acesso) e a 14122-3 (escadas e guarda-corpos). Não cobre elevadores, escadas rolantes nem outros meios motorizados.",
+   "valores": []
+  },
+  {
+   "titulo": "Definições",
+   "item": "3",
+   "texto": "Piso (flooring) é o conjunto de elementos em contato com o calçado. Passarela é a superfície usada para ir de um ponto a outro; plataforma de trabalho é a superfície horizontal onde se opera, inspeciona ou mantém. Chapa de fechamento (baseboard) tapa a fresta entre plataforma e estrutura vizinha; rodapé (toe-plate) é a chapa vertical que impede queda de objetos. Gabarito de acesso é o espaço livre de obstáculos; pé-direito é a altura livre acima da linha de passo.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos gerais",
+   "item": "4.1",
+   "texto": "A estrutura e os materiais devem resistir às condições previsíveis de uso, evitar queda de objetos e permitir retirar partes da máquina sem desmontar guarda-corpos ou pisos. As superfícies precisam ser antiderrapantes de forma durável, impedir queda de pessoas, permitir saída rápida e resgate, e ter corrimãos que a pessoa use por instinto.",
+   "valores": []
+  },
+  {
+   "titulo": "Localização",
+   "item": "4.2.1",
+   "texto": "Sempre que possível, afastar plataformas de substâncias nocivas e de acúmulo de material que faça escorregar. Contra peças móveis, superfícies quentes ou partes energizadas, usar proteções (ISO 14120) ou distâncias de segurança (ISO 13857). A altura de trabalho deve ser ergonômica.",
+   "valores": [
+    {
+     "parametro": "Zona de trabalho ergonômica acima do piso da plataforma",
+     "valor": "500 mm a 1700 mm (quando possível)",
+     "item": "4.2.1",
+     "cota": "esquemas/passarela-plataforma-trabalho-cotas.svg#zona-trabalho"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões: largura e pé-direito",
+   "item": "4.2.2",
+   "texto": "A largura e o comprimento livres dependem da tarefa, do transporte de ferramentas e peças e do número de pessoas que se cruzam. A norma dá mínimos de largura e de altura livre; tubos e bandejas podem estreitar a passagem junto ao piso ou na altura da cabeça. Se a passarela for rota de fuga, vale a regulamentação de saída de emergência. Um degrau isolado só é aceito quando não cabe escada nem rampa.",
+   "valores": [
+    {
+     "parametro": "Largura livre da passarela",
+     "valor": "≥ 800 mm",
+     "item": "4.2.2",
+     "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+     "parametro": "Largura livre com passagem/cruzamento frequente de várias pessoas",
+     "valor": "≥ 1000 mm",
+     "item": "4.2.2",
+     "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+     "parametro": "Largura livre reduzida (uso ocasional ou restrição da máquina)",
+     "valor": "≥ 600 mm",
+     "item": "4.2.2",
+     "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+     "parametro": "Largura livre em trecho curto (< 2000 mm)",
+     "valor": "≥ 500 mm",
+     "item": "4.2.2",
+     "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+     "parametro": "Largura junto ao piso ou à cabeça com tubos/bandejas",
+     "valor": "≥ 500 mm (no piso, redução até 200 mm de altura)",
+     "item": "4.2.2",
+     "cota": "esquemas/passarela-gabarito.svg#largura-reduzida"
+    },
+    {
+     "parametro": "Pé-direito livre",
+     "valor": "≥ 2100 mm",
+     "item": "4.2.2",
+     "cota": "esquemas/passarela-gabarito.svg#pe-direito"
+    },
+    {
+     "parametro": "Pé-direito sob obstáculo que cruza (ex. tubo)",
+     "valor": "≥ 1900 mm, com acolchoamento e sinalização",
+     "item": "4.2.2",
+     "cota": "esquemas/passarela-gabarito.svg#pe-direito-reduzido"
+    },
+    {
+     "parametro": "Degrau isolado em passarela",
+     "valor": "150 mm a 300 mm de altura, bem visível",
+     "item": "4.2.2",
+     "cota": "esquemas/passarela-rampa-angulo.svg#desnivel"
+    }
+   ]
+  },
+  {
+   "titulo": "Proteção contra queda",
+   "item": "4.2.3",
+   "texto": "Onde houver risco de queda acima de um certo desnível, ou de afundar em material ou estrutura frágil (tremonha, telhado de vidro), instala-se guarda-corpo conforme a ISO 14122-3.",
+   "valores": [
+    {
+     "parametro": "Desnível que exige guarda-corpo",
+     "valor": "≥ 500 mm",
+     "item": "4.2.3",
+     "cota": "esquemas/passarela-protecao-queda.svg#desnivel-gc"
+    }
+   ]
+  },
+  {
+   "titulo": "Piso",
+   "item": "4.2.4",
+   "texto": "Aberturas para tubos só quando não houver outra rota. O piso deve drenar líquidos e evitar acúmulo de sujeira, neve e gelo (grating e chapas conformadas são recomendados). Pisos vizinhos ficam praticamente nivelados. As aberturas do piso limitam a passagem de uma esfera de ensaio; acima de pessoas trabalhando, o limite é menor, e se a queda de objetos for o risco dominante o piso não deve ter aberturas. Peças de piso removíveis são travadas e suas fixações, inspecionáveis.",
+   "valores": [
+    {
+     "parametro": "Desnível entre topos de pisos adjacentes",
+     "valor": "≤ 4 mm",
+     "item": "4.2.4.4",
+     "cota": "esquemas/passarela-piso-grating.svg#desnivel-pisos"
+    },
+    {
+     "parametro": "Fresta entre pisos adjacentes",
+     "valor": "< 20 mm",
+     "item": "4.2.4.4"
+    },
+    {
+     "parametro": "Abertura do piso (passarela/plataforma)",
+     "valor": "não passa esfera Ø 35 mm",
+     "item": "4.2.4.5.1",
+     "cota": "esquemas/passarela-piso-grating.svg#abertura"
+    },
+    {
+     "parametro": "Abertura do piso acima de local com pessoas",
+     "valor": "não passa esfera Ø 20 mm; comprimento ≤ 100 mm",
+     "item": "4.2.4.5.1",
+     "cota": "esquemas/passarela-piso-grating.svg#abertura"
+    }
+   ]
+  },
+  {
+   "titulo": "Frestas junto à estrutura vizinha e rodapé",
+   "item": "4.2.4.5.2",
+   "texto": "A fresta entre a plataforma e uma estrutura ao lado é tratada por faixas: pequena, fecha-se ou põe-se rodapé; intermediária, rodapé mais corrimão; grande, guarda-corpo completo. Junto a uma obstrução (tubo) o rodapé pode ser rebaixado localmente.",
+   "valores": [
+    {
+     "parametro": "Fresta > 20 mm e ≤ 120 mm",
+     "valor": "rodapé ≥ 100 mm ou fechar a ≤ 20 mm",
+     "item": "4.2.4.5.2",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+     "parametro": "Rodapé rebaixado junto a obstrução",
+     "valor": "≥ 50 mm",
+     "item": "4.2.4.5.2",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#rodape-reduzido"
+    },
+    {
+     "parametro": "Fresta de 120 mm a 180 mm",
+     "valor": "rodapé + corrimão a 900–1100 mm",
+     "item": "4.2.4.5.2 a)",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+     "parametro": "Fresta > 180 mm",
+     "valor": "guarda-corpo completo (ISO 14122-3)",
+     "item": "4.2.4.5.2",
+     "cota": "esquemas/passarela-protecao-queda.svg#fresta-estrutura"
+    }
+   ]
+  },
+  {
+   "titulo": "Rampas",
+   "item": "4.2.4.7",
+   "texto": "Em rampas moderadamente inclinadas, nervuras transversais dão apoio ao pé.",
+   "valores": [
+    {
+     "parametro": "Nervuras em rampa de 10° a 20° — espaçamento",
+     "valor": "400 mm a 500 mm",
+     "item": "4.2.4.7",
+     "cota": "esquemas/passarela-rampa-angulo.svg#T"
+    },
+    {
+     "parametro": "Nervuras — altura e largura",
+     "valor": "10 mm a 20 mm cada",
+     "item": "4.2.4.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Cargas de projeto e flecha",
+   "item": "4.2.5",
+   "texto": "O projetista define a carga considerando pessoas, ferramentas, peças, impacto e depósitos de fluido, neve ou gelo, respeitando mínimos de carga distribuída e concentrada. A flecha do piso e a diferença de nível entre painel carregado e vizinho descarregado são limitadas; a dinâmica e os movimentos laterais não podem desequilibrar o usuário. Resistência e rigidez se comprovam por cálculo ou ensaio.",
+   "valores": [
+    {
+     "parametro": "Carga uniformemente distribuída mínima",
+     "valor": "2 kN/m²",
+     "item": "4.2.5"
+    },
+    {
+     "parametro": "Carga concentrada mínima",
+     "valor": "1,5 kN sobre 200 mm × 200 mm, na posição mais desfavorável",
+     "item": "4.2.5",
+     "cota": "esquemas/passarela-cargas-flecha.svg#area-pontual"
+    },
+    {
+     "parametro": "Flecha do piso sob carga de projeto",
+     "valor": "≤ vão/200",
+     "item": "4.2.5",
+     "cota": "esquemas/passarela-cargas-flecha.svg#flecha"
+    },
+    {
+     "parametro": "Desnível entre piso carregado e vizinho descarregado",
+     "valor": "≤ 4 mm",
+     "item": "4.2.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Plataformas e passarelas móveis",
+   "item": "4.2.6",
+   "texto": "Partes dobráveis, deslizantes ou reguláveis só quando o acesso fixo não for viável. Ficam presas ao acesso fixo, travadas em uso e guardadas, sem pontos de esmagamento, com esforço manual dentro dos limites da EN 1005-2/-3, e não podem bloquear passagem nem criar espaço confinado.",
+   "valores": []
+  },
+  {
+   "titulo": "Informações para uso e anexo",
+   "item": "5; Anexo A",
+   "texto": "O fabricante explica nas instruções como travar as partes móveis nas posições de uso e de guarda. O anexo informativo lista métodos nacionais de medir resistência ao escorregamento (França, Alemanha, Reino Unido), já que não havia norma internacional.",
+   "valores": []
+  }
+ ]
+}

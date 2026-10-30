@@ -1,0 +1,340 @@
+{
+ "id": "NR-35",
+ "titulo": "NR-35 — Trabalho em altura",
+ "secoes": [
+  {
+   "titulo": "Objetivo e campo de aplicação",
+   "item": "35.1 e 35.2",
+   "texto": "A NR-35 trata do planejamento, organização e execução do trabalho em altura para proteger quem o faz direta ou indiretamente. Vale para toda atividade com risco de queda acima de um desnível mínimo em relação ao nível inferior.",
+   "valores": [
+    {
+     "parametro": "Trabalho em altura (gatilho da NR)",
+     "valor": "diferença de nível > 2,0 m do nível inferior, com risco de queda",
+     "item": "35.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Responsabilidades",
+   "item": "35.3",
+   "texto": "A organização implanta as medidas, garante análise de risco (AR) e, quando cabível, permissão de trabalho (PT), escreve procedimentos para as tarefas rotineiras, divulga as instruções à equipe, avalia o local antes de começar, acompanha as contratadas, suspende o trabalho diante de risco não previsto e autoriza formalmente os trabalhadores. O trabalhador cumpre a norma e os procedimentos.",
+   "valores": [
+    {
+     "parametro": "Guarda da documentação da NR-35",
+     "valor": "≥ 5 anos (salvo prazo específico em outra NR)",
+     "item": "35.3.1 j)"
+    }
+   ]
+  },
+  {
+   "titulo": "Autorização, capacitação e aptidão",
+   "item": "35.4",
+   "texto": "Só trabalha em altura quem está capacitado, apto pela avaliação de saúde e autorizado formalmente; a autorização fica nos registros do empregado e há meio de saber a qualquer momento seu alcance. A capacitação é teórica e prática, com treinamento inicial, periódico e eventual, dado por instrutores proficientes sob responsabilidade de profissional qualificado ou habilitado em segurança. A aptidão consta do ASO, considerando doenças que causem mal súbito e fatores psicossociais.",
+   "valores": [
+    {
+     "parametro": "Treinamento inicial — carga mínima",
+     "valor": "8 h, antes de começar a atividade",
+     "item": "35.4.2.1"
+    },
+    {
+     "parametro": "Treinamento periódico",
+     "valor": "a cada 2 anos, ≥ 8 h",
+     "item": "35.4.2.2"
+    },
+    {
+     "parametro": "Conteúdo mínimo do treinamento inicial",
+     "valor": "7 tópicos: normas; AR e condições impeditivas; riscos e controles; proteção coletiva; EPI (seleção, inspeção, conservação, limites); acidentes típicos; emergência, resgate e primeiros socorros",
+     "item": "35.4.2.1 a)–g)"
+    }
+   ]
+  },
+  {
+   "titulo": "Planejamento, análise de risco e permissão de trabalho",
+   "item": "35.5",
+   "texto": "O planejamento segue a hierarquia: evitar o trabalho em altura; se não der, eliminar o risco de queda; se não der, reduzir as consequências da queda. Todo trabalho em altura tem supervisão (forma definida na AR) e AR prévia, que cobre entorno, isolamento, ancoragens, clima, seleção dos sistemas de proteção, queda de materiais, trabalhos simultâneos, riscos adicionais, condições impeditivas, resgate e comunicação. Tarefas rotineiras podem ter a AR dentro do procedimento; as não rotineiras exigem PT, emitida, aprovada, disponível no local e arquivada ao final.",
+   "valores": [
+    {
+     "parametro": "Itens que a AR deve considerar",
+     "valor": "13 (alíneas a a m do 35.5.5.1)",
+     "item": "35.5.5.1"
+    },
+    {
+     "parametro": "Validade da PT",
+     "valor": "duração da atividade, limitada ao turno ou jornada; revalidável se nada mudar",
+     "item": "35.5.8.2"
+    },
+    {
+     "parametro": "Conteúdo da PT",
+     "valor": "requisitos mínimos, medidas da AR e relação de todos os envolvidos",
+     "item": "35.5.8.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Sistemas de proteção contra quedas (SPQ)",
+   "item": "35.6",
+   "texto": "Quando o trabalho em altura não pode ser evitado, usa-se SPQ adequado à tarefa, escolhido pela AR por profissional qualificado ou habilitado em segurança, resistente à força máxima de uma queda, conforme normas técnicas e com elementos compatíveis. A prioridade é a proteção coletiva (projetada por profissional habilitado); a individual (SPIQ) entra quando a coletiva é inviável, incompleta ou em emergência. O SPIQ pode ser de restrição, retenção de queda, posicionamento ou acesso por cordas; na retenção e no acesso por cordas o EPI é o cinturão paraquedista. Elementos com defeito ou que sofreram queda são descartados.",
+   "valores": [
+    {
+     "parametro": "Força de impacto máxima transmitida ao trabalhador",
+     "valor": "6 kN",
+     "item": "35.6.7 e 35.6.11 d)"
+    },
+    {
+     "parametro": "Inspeção do SPIQ — inicial",
+     "valor": "entre o recebimento e o 1º uso",
+     "item": "35.6.6.1"
+    },
+    {
+     "parametro": "Inspeção do SPIQ — rotineira",
+     "valor": "antes de cada início de trabalho (visual e tátil)",
+     "item": "35.6.6.2"
+    },
+    {
+     "parametro": "Inspeção do SPIQ — periódica",
+     "valor": "no mínimo a cada 12 meses (menos, conforme uso ou agentes agressivos)",
+     "item": "35.6.6.3"
+    },
+    {
+     "parametro": "Inspeções a registrar",
+     "valor": "inicial, periódica e rotineira com elemento recusado",
+     "item": "35.6.6.4"
+    },
+    {
+     "parametro": "Talabarte para retenção de queda (a partir de 02/01/2026)",
+     "valor": "talabarte integrado com absorvedor de energia",
+     "item": "35.6.9.1.1"
+    },
+    {
+     "parametro": "Restrição de talabarte",
+     "valor": "não ligar a outro talabarte/extensor nem usar com nós ou laços, salvo indicação do fabricante",
+     "item": "35.6.11.1.1"
+    },
+    {
+     "parametro": "Aspectos da AR para o SPIQ",
+     "valor": "conexão contínua; queda livre; fator de queda; impacto ≤ 6 kN; zona livre de queda; compatibilidade",
+     "item": "35.6.11"
+    }
+   ]
+  },
+  {
+   "titulo": "Emergência e salvamento",
+   "item": "35.7",
+   "texto": "A organização mantém procedimentos de resposta a emergências em altura, considerando perigos do resgate, tamanho da equipe, tempo estimado de resgate e técnicas e equipamentos que reduzam o tempo de suspensão inerte. Os cenários passam por AR. A equipe de resgate é capacitada em salvamento e primeiros socorros e tem aptidão física e mental; se for interna, a organização define conteúdo e carga horária.",
+   "valores": []
+  },
+  {
+   "titulo": "Glossário — termos-chave",
+   "item": "Glossário",
+   "texto": "Fator de queda é a razão entre a altura da queda e o comprimento do equipamento que a detém. Distância de queda livre vai do início da queda ao início da retenção; distância de frenagem é a percorrida enquanto o absorvedor atua. Zona livre de queda (redação a partir de 2026) é o espaço mínimo abaixo da ancoragem (talabarte) ou dos pés (trava-quedas) para não bater em obstáculo ou no chão. Supervisão pode ser presencial, semipresencial ou remota.",
+   "valores": [
+    {
+     "parametro": "Inspeção periódica (definição)",
+     "valor": "intervalo não superior a 12 meses",
+     "item": "Glossário"
+    }
+   ]
+  },
+  {
+   "titulo": "Acesso por cordas",
+   "item": "Anexo I",
+   "texto": "Acesso por cordas usa cordas para subir, descer, deslocar-se e se posicionar, normalmente com dois sistemas independentes (acesso e segurança). Não vale para lazer, arboricultura, resgate de terceiros e espeleologia. O trabalho segue procedimentos de norma técnica, com trabalhadores certificados (dispensados dos treinamentos gerais) e equipe com supervisor. Cordas e equipamentos auxiliares são certificados, inspecionados e descartados se danificados; há plano de resgate por frente de trabalho e a equipe sabe se autorresgatar.",
+   "valores": [
+    {
+     "parametro": "Equipe mínima",
+     "valor": "2 trabalhadores, um deles supervisor",
+     "item": "Anexo I, 3.1 c)"
+    },
+    {
+     "parametro": "Cordas conectadas ao trabalhador",
+     "valor": "≥ 2, em ancoragens independentes (1 só se a AR mostrar risco maior e houver medidas equivalentes)",
+     "item": "Anexo I, 3.2 e 3.2.1"
+    },
+    {
+     "parametro": "Inspeção periódica de cordas e equipamentos",
+     "valor": "no máximo a cada 6 meses (além de antes de cada uso)",
+     "item": "Anexo I, 4.3.1"
+    },
+    {
+     "parametro": "Vento que interrompe o trabalho",
+     "valor": "> 40 km/h",
+     "item": "Anexo I, 6.1"
+    },
+    {
+     "parametro": "Faixa de vento com autorização especial",
+     "valor": "> 40 km/h e < 46 km/h: justificativa assinada, AR complementar multidisciplinar, medidas extras e operação assistida pelo supervisor",
+     "item": "Anexo I, 6.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Sistemas de ancoragem",
+   "item": "Anexo II",
+   "texto": "O anexo cobre ancoragens para retenção de queda, restrição, posicionamento e acesso por cordas (não para proteção coletiva, equipamentos de acesso ou transporte). O ponto de ancoragem pode estar na própria estrutura, numa ancoragem estrutural fixa ou num dispositivo removível; a estrutura resiste à força máxima aplicável. Ancoragens estruturais e fixações são projetadas por profissional habilitado e marcadas; dispositivos são certificados, fabricados por norma nacional ou projetados por profissional habilitado. Sistemas permanentes têm projeto e instalação sob profissional habilitado; temporários têm pontos definidos por ele ou escolhidos por trabalhador capacitado e autorizado.",
+   "valores": [
+    {
+     "parametro": "Marcação do ponto de ancoragem estrutural",
+     "valor": "fabricante; lote/série; nº máximo de trabalhadores conectados ou força máxima aplicável",
+     "item": "Anexo II, 3.2.1"
+    },
+    {
+     "parametro": "Ponto existente sem marcação nem dados",
+     "valor": "ensaio sob profissional habilitado e nova marcação",
+     "item": "Anexo II, 3.2.1.1.1"
+    },
+    {
+     "parametro": "Inspeção inicial do sistema de ancoragem",
+     "valor": "após instalação, alteração ou mudança de local",
+     "item": "Anexo II, 4.1.1"
+    },
+    {
+     "parametro": "Inspeção periódica do sistema de ancoragem",
+     "valor": "≤ 12 meses",
+     "item": "Anexo II, 4.1.2"
+    },
+    {
+     "parametro": "Dimensionamento do projeto",
+     "valor": "força de impacto (quedas simultâneas ou sequenciais), esforços em cada parte e zona livre de queda",
+     "item": "Anexo II, 5.1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Escadas de uso individual — aplicação e planejamento",
+   "item": "Anexo III, 1 a 4",
+   "texto": "O Anexo III (em vigor desde 02/01/2026) trata de escadas de uso individual usadas como acesso ou posto de trabalho em altura: fixa vertical, portátil de encosto (fixa ou extensível) e portátil autossustentável. Escadas de uso coletivo ficam fora. O uso é precedido de AR que escolhe o equipamento mais seguro e ergonômico, e o trabalhador recebe a capacitação da NR-35 incluindo o uso seguro de escadas. Para acesso fixo, a escolha segue a hierarquia: acesso direto do piso, rampa ou escada coletiva, escada de inclinação elevada e, por último, escada fixa vertical (só com inviabilidade técnica comprovada).",
+   "valores": [
+    {
+     "parametro": "Escada de inclinação elevada (definição)",
+     "valor": "fixa, mais de 60° até 75°, com degraus",
+     "item": "Anexo III, Glossário",
+     "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo-sem-espelho"
+    },
+    {
+     "parametro": "Escada fixa vertical (definição)",
+     "valor": "fixa, mais de 75° até 90°, com degraus",
+     "item": "Anexo III, Glossário"
+    },
+    {
+     "parametro": "Contato de 3 pontos (definição)",
+     "valor": "2 pés + 1 mão ou 2 mãos + 1 pé na escada",
+     "item": "Anexo III, Glossário"
+    }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-angulo-tipo.svg"
+   ]
+  },
+  {
+   "titulo": "Escadas de uso individual — requisitos gerais",
+   "item": "Anexo III, 5.1",
+   "texto": "A escada é certificada, fabricada por norma nacional sob profissional habilitado ou projetada por ele. Resiste às cargas, não fere o usuário, passa por inspeção inicial e periódica e, se de madeira, tem peças aplainadas e só verniz transparente. Escada com defeito sai de uso; o reparo é feito pelo fabricante, empresa especializada ou trabalhador capacitado, e só volta após inspeção.",
+   "valores": [
+    {
+     "parametro": "Usuários simultâneos",
+     "valor": "1 por vez, salvo indicação do fabricante/projetista",
+     "item": "Anexo III, 5.1.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Escada fixa vertical de uso individual",
+   "item": "Anexo III, 5.2.1",
+   "texto": "Escada externa usa material resistente às intempéries. Tem SPQ conforme 35.6 e projeto de profissional habilitado (dimensões, resistência, acessos e SPQ). Em escadas já instaladas usadas só como acesso, a AR avalia se cabe SPIQ; com incompatibilidade atestada, o SPQ pode ser dispensado. Acima de certa altura há plataformas de descanso laterais ou basculantes.",
+   "valores": [
+    {
+     "parametro": "Largura",
+     "valor": "0,4 m a 0,6 m",
+     "item": "Anexo III, 5.2.1.1 b)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#largura"
+    },
+    {
+     "parametro": "Espaçamento entre degraus",
+     "valor": "0,25 m a 0,3 m",
+     "item": "Anexo III, 5.2.1.1 c)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#espacamento"
+    },
+    {
+     "parametro": "Corrimão ou montantes acima do piso de saída/plataforma",
+     "valor": "1,10 m a 1,20 m",
+     "item": "Anexo III, 5.2.1.1 d)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#prolongamento"
+    },
+    {
+     "parametro": "Distância da escada à estrutura",
+     "valor": "≥ 0,15 m",
+     "item": "Anexo III, 5.2.1.1 e)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#afastamento"
+    },
+    {
+     "parametro": "Altura acima da qual exige plataformas de descanso",
+     "valor": "> 10,00 m",
+     "item": "Anexo III, 5.2.1.2",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#altura-total"
+    },
+    {
+     "parametro": "Distância máxima entre plataformas de descanso",
+     "valor": "6,00 m",
+     "item": "Anexo III, 5.2.1.2.1",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#lance"
+    }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-12-escada-fixa-vertical.svg"
+   ]
+  },
+  {
+   "titulo": "Escadas portáteis de uso individual",
+   "item": "Anexo III, 5.2.2",
+   "texto": "Escada portátil serve para serviços de pequeno porte e acessos temporários. Sobe-se e desce-se com contato de 3 pontos; se no posto de trabalho não for possível mantê-lo, usa-se SPQ. A organização tem procedimento de uso e manutenção (carga máxima, usuários, limitações) e a escada tem marcação do fabricante, sapatas antiderrapantes e transporte que não a danifique. A escada de encosto é escolhida pela carga, pelos esforços do SPQ e pelo resgate, inspecionada no recebimento, antes do uso e periodicamente, e não fica perto de portas, circulação ou aberturas sem proteção.",
+   "valores": [
+    {
+     "parametro": "Marcação mínima (a partir de 04/01/2027)",
+     "valor": "fabricante e CNPJ; mês/ano ou nº de série; peso; inclinação de uso (se não óbvia); carga máxima; isolamento elétrico (se houver)",
+     "item": "Anexo III, 5.2.2.4"
+    },
+    {
+     "parametro": "Escada de encosto como acesso — ultrapassar o nível superior",
+     "valor": "≥ 1 m",
+     "item": "Anexo III, 5.2.2.7.4",
+     "cota": "esquemas/resumo-nr-18-escada-extensivel.svg#ultrapassar"
+    },
+    {
+     "parametro": "Escada de encosto — comprimento máximo",
+     "valor": "7 m",
+     "item": "Anexo III, 5.2.2.7.5",
+     "cota": "esquemas/resumo-nr-18-escada-extensivel.svg#comprimento"
+    },
+    {
+     "parametro": "Extensível — fixação",
+     "valor": "em mais de 1 ponto (ou 1 ponto em estrutura estável, de preferência no topo; sem fixação só com SPIQ independente)",
+     "item": "Anexo III, 5.2.2.8.1"
+    },
+    {
+     "parametro": "Extensível — limitador de curso",
+     "valor": "no 4º vão a partir da catraca",
+     "item": "Anexo III, 5.2.2.8.2"
+    },
+    {
+     "parametro": "Extensível sem limitador — sobreposição mínima entre lances",
+     "valor": "1 m, totalmente estendida",
+     "item": "Anexo III, 5.2.2.8.2.1",
+     "cota": "esquemas/resumo-nr-18-escada-extensivel.svg#sobreposicao"
+    },
+    {
+     "parametro": "Autossustentável — comprimento máximo fechada",
+     "valor": "6 m",
+     "item": "Anexo III, 5.2.2.9.3"
+    },
+    {
+     "parametro": "Autossustentável — uso",
+     "valor": "só com limitadores operantes na abertura máxima e posições do fabricante",
+     "item": "Anexo III, 5.2.2.9.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-18-escada-extensivel.svg"
+   ]
+  }
+ ]
+}

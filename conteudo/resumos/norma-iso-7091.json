@@ -1,0 +1,34 @@
+{
+ "id": "ISO-7091",
+ "titulo": "ISO 7091:2000 — Arruelas lisas, série normal, grau C",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Arruelas lisas de tolerâncias largas (grau C), dureza 100 HV, M1,6 a M64, para parafusos e porcas de grau C até as classes 6.8 e 6; furo um pouco maior que o do grau A.",
+   "valores": [],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-arruela-lisa-iso.svg"
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "Tab. 1–2",
+   "texto": "Mesmo diâmetro externo e espessura nominal da série normal grau A, furo maior.",
+   "valores": [
+    {
+     "parametro": "M12 — furo / Ø externo / espessura",
+     "valor": "13,5 / 24 / 2,5 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-arruela-lisa-iso.svg#d1"
+    },
+    {
+     "parametro": "M20 — furo / Ø externo / espessura",
+     "valor": "22 / 37 / 3 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-arruela-lisa-iso.svg#d2"
+    }
+   ]
+  }
+ ]
+}

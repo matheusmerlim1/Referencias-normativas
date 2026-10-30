@@ -1,0 +1,46 @@
+{
+ "id": "ISO-286-1",
+ "titulo": "ISO 286-1:2010 (BS EN ISO 286-1) — GPS — Sistema de códigos ISO para tolerâncias de tamanhos lineares — Parte 1: Bases de tolerâncias, afastamentos e ajustes",
+ "secoes": [
+  {
+   "titulo": "Escopo e termos",
+   "item": "1–3",
+   "texto": "Sistema ISO de tolerâncias e ajustes para elementos de tamanho (cilindros, pares de planos paralelos): tamanho nominal (antigo 'tamanho básico'), afastamentos superior e inferior, tolerância padronizada (grau IT), afastamento fundamental (letras), classe de tolerância, ajustes com folga, com interferência e incertos, folga e interferência mínimas/máximas.",
+   "valores": [
+    {
+     "parametro": "Sistema furo-base",
+     "valor": "afastamento fundamental do furo = 0 (furo H); ex. H7/h6, H6/k5, H6/p4",
+     "item": "3.4.1.1"
+    },
+    {
+     "parametro": "Sistema eixo-base",
+     "valor": "afastamento fundamental do eixo = 0 (eixo h); ex. h6/G7, h6/H6, h6/M6",
+     "item": "3.4.1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Sistema de códigos",
+   "item": "4, Tab. 1–3",
+   "texto": "Graus IT01 a IT18 (Tab. 1, tamanhos até 3 150 mm); afastamentos fundamentais A…ZC (furos, maiúsculas) e a…zc (eixos, minúsculas) — Tabelas 2 e 3. Classe = letra + número (ex. H7, g6). Regras de leitura e escrita; seleção recomendada de classes.",
+   "valores": [
+    {
+     "parametro": "Progressão dos graus",
+     "valor": "de IT6 a IT18, a tolerância é multiplicada por 10 a cada cinco graus",
+     "item": "4.1, Nota 2"
+    },
+    {
+     "parametro": "Restrições",
+     "valor": "afastamentos A e B não usados para tamanhos ≤ 1 mm",
+     "item": "4.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ajustes",
+   "item": "5",
+   "texto": "Determinação de um ajuste (folga/interferência máx. e mín.) a partir das classes do furo e do eixo; escolha preferencial do sistema furo-base.",
+   "valores": []
+  }
+ ]
+}

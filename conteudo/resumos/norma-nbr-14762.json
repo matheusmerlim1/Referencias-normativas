@@ -1,0 +1,87 @@
+{
+ "id": "NBR-14762",
+ "titulo": "ABNT NBR 14762:2010 — Dimensionamento de estruturas de aço constituídas por perfis formados a frio",
+ "secoes": [
+  {"titulo": "Escopo", "item": "1",
+   "texto": "Dimensionamento, à temperatura ambiente e por estados-limites, de perfis de aço dobrados a frio (chapas ou tiras de aço-carbono ou baixa liga), ligados por parafusos ou solda, em estruturas de edifícios. Tubos circulares e ligações com parte mais fina acima de 4,75 mm seguem a NBR 8800.",
+   "valores": []},
+  {"titulo": "Materiais", "item": "4",
+   "texto": "Usar aços de qualidade estrutural aptos ao trabalho a frio. As propriedades de cálculo são as mesmas da NBR 8800. O ganho de resistência do dobramento pode ser considerado pelo Anexo B.",
+   "valores": [
+    {"parametro": "Relação mínima fu/fy do aço", "valor": "≥ 1,08", "item": "4.1.1", "nota": "há também exigência de alongamento mínimo — conferir o valor"},
+    {"parametro": "Chapas finas NBR 6649/6650 — CF-26 / CF-28 / CF-30", "valor": "fy 260 / 280 / 300 MPa; fu 400–410 / 440 / 490 MPa", "item": "Tab. 1", "nota": "CF-30 só laminada a quente"},
+    {"parametro": "E / G / Poisson", "valor": "200 000 MPa / 77 000 MPa / 0,3", "item": "4.6"},
+    {"parametro": "Dilatação térmica / massa específica", "valor": "1,2 × 10⁻⁵ /°C / 7 850 kg/m³", "item": "4.6"}
+   ]},
+  {"titulo": "Segurança, ações e combinações", "item": "5–7",
+   "texto": "Mesmos critérios da NBR 8681 e da NBR 8800: coeficientes de ponderação das ações (Tab. 2), fatores ψ0, ψ1, ψ2 (Tab. 3) e combinações últimas e de serviço. Os coeficientes de resistência γ vêm junto de cada expressão; no ELS γm = 1,00.",
+   "valores": [
+    {"parametro": "γm no estado-limite de serviço", "valor": "1,00", "item": "7.3"}
+   ]},
+  {"titulo": "Análise e métodos de dimensionamento", "item": "8",
+   "texto": "Análise elástica conforme os critérios de deslocabilidade da NBR 8800. A flambagem local entra por três caminhos: método da largura efetiva (MLE), método da seção efetiva (MSE) ou método da resistência direta (MRD, Anexo C). Casos não cobertos podem ser resolvidos por ensaios (Seção 11).",
+   "valores": []},
+  {"titulo": "Limites de largura/espessura", "item": "9.1.2",
+   "texto": "Relação b/t máxima de cada elemento, sem contar enrijecedores intermediários.",
+   "valores": [
+    {"parametro": "Elemento AA com enrijecedor de borda simples", "valor": "(b/t)máx = 60", "item": "Tab. 4"},
+    {"parametro": "Elemento AA ligado a alma e mesa (Is ≥ Ia) / alma de U não enrijecido comprimida", "valor": "(b/t)máx = 90", "item": "Tab. 4"},
+    {"parametro": "Elemento com as duas bordas em elementos AA", "valor": "(b/t)máx = 500", "item": "Tab. 4"},
+    {"parametro": "Alma de viga sem enrijecedores transversais", "valor": "(b/t)máx = 200", "item": "Tab. 4"},
+    {"parametro": "Alma de viga com enrijecedores só nos apoios", "valor": "(b/t)máx = 260", "item": "Tab. 4"}
+   ]},
+  {"titulo": "Tração", "item": "9.6",
+   "texto": "Menor entre escoamento da seção bruta, ruptura da seção líquida fora da ligação e ruptura na ligação (com coeficiente Ct de shear lag).",
+   "valores": [
+    {"parametro": "Escoamento da seção bruta", "valor": "Nt,Rd = A·fy / 1,10", "item": "9.6.2 a)"},
+    {"parametro": "Ruptura fora da ligação", "valor": "Nt,Rd = An0·fu / 1,35", "item": "9.6.2 b)"},
+    {"parametro": "Ruptura na ligação", "valor": "Nt,Rd = Ct·An·fu / 1,65", "item": "9.6.2 c)"},
+    {"parametro": "Área líquida (furação em zigue-zague)", "valor": "An = 0,9·(A − nf·df·t + Σ t·s²/4g)", "item": "9.6.2"}
+   ]},
+  {"titulo": "Compressão", "item": "9.7",
+   "texto": "Verificam-se flambagem global (flexão, torção, flexo-torção) com área efetiva e flambagem distorcional nas seções abertas.",
+   "valores": [
+    {"parametro": "Flambagem global", "valor": "Nc,Rd = χ·Aef·fy / 1,20", "item": "9.7.2"},
+    {"parametro": "χ (λ0 ≤ 1,5 / > 1,5)", "valor": "0,658^(λ0²) / 0,877/λ0²", "item": "9.7.2"},
+    {"parametro": "Flambagem distorcional", "valor": "Nc,Rd = χdist·A·fy / 1,20; χdist = 1 para λdist ≤ 0,561", "item": "9.7.3"},
+    {"parametro": "Esbeltez máxima KL/r", "valor": "200", "item": "9.7.4"},
+    {"parametro": "Barra composta com presilhas — esbeltez de cada perfil", "valor": "< metade da esbeltez máxima do conjunto", "item": "9.7.5 a)"},
+    {"parametro": "Travejamento em treliça — esbeltez das barras do travejamento", "valor": "< 140", "item": "9.7.5 b)"}
+   ]},
+  {"titulo": "Flexão e cortante", "item": "9.8",
+   "texto": "Momento resistente pelo início de escoamento da seção efetiva, pela flambagem lateral com torção e pela distorcional; cortante pela esbeltez da alma; interação momento-cortante.",
+   "valores": [
+    {"parametro": "Início de escoamento da seção efetiva", "valor": "MRd = Wef·fy / 1,10", "item": "9.8.2.1"},
+    {"parametro": "MSE — sem redução", "valor": "Wef = W para λp ≤ 0,673", "item": "9.8.2.1 b)"},
+    {"parametro": "Interação sem enrijecedores de alma", "valor": "(MSd/MRd)² + (VSd/VRd)² ≤ 1,0", "item": "9.8.4"}
+   ]},
+  {"titulo": "Ligações", "item": "10",
+   "texto": "Ligações dimensionadas pelos esforços, com mínimo para barras axiais. Soldas e parafusos aqui valem para chapa mais fina até 4,75 mm.",
+   "valores": [
+    {"parametro": "Ligação de barra axial — resistência mínima", "valor": "50 % da força axial resistente da barra", "item": "10.1 a)"},
+    {"parametro": "Solda de topo — tração/compressão", "valor": "FRd = L·tef·fy / 1,10", "item": "10.2.2 a)"},
+    {"parametro": "Solda de topo — cisalhamento", "valor": "menor de L·tef·0,6fw/1,25 e L·tef·0,6fy/1,10", "item": "10.2.2 b)"},
+    {"parametro": "Furo-padrão — d < 12,5 mm / d ≥ 12,5 mm", "valor": "d + 0,8 / d + 1,5 mm", "item": "Tab. 15"},
+    {"parametro": "Furo alargado — d < 12,5 / ≥ 12,5", "valor": "d + 1,5 / d + 5 mm", "item": "Tab. 15"},
+    {"parametro": "Furo muito alongado", "valor": "(d + folga) × 2,5d", "item": "Tab. 15"},
+    {"parametro": "Distância livre entre bordas de furos adjacentes", "valor": "≥ 2d", "item": "10.3.3.1"},
+    {"parametro": "Distância livre da borda do furo à extremidade", "valor": "≥ d", "item": "10.3.3.1"},
+    {"parametro": "Espaçamento máximo em cobrejunta comprimida", "valor": "< 1,37·t·√(E/fy)", "item": "10.3.3.2"},
+    {"parametro": "Rasgamento entre furos ou até a borda", "valor": "FRd = t·e·fu / 1,45", "item": "10.3.4"},
+    {"parametro": "Pressão de contato", "valor": "FRd = αe·d·t·fu / 1,55", "item": "10.3.5"},
+    {"parametro": "Colapso por rasgamento (bloco)", "valor": "menor de (0,6Agv·fy + Ant·fu)/1,65 e (0,6Anv·fu + Ant·fu)/1,65", "item": "10.4"}
+   ]},
+  {"titulo": "Deslocamentos máximos", "item": "Anexo A",
+   "texto": "Mesmos limites práticos da NBR 8800 para ELS. A contraflecha pode ser descontada até a flecha das permanentes. Em galpões com alvenaria, limitar a fissura na base da parede.",
+   "valores": [
+    {"parametro": "Vigas de cobertura / de piso / que suportam pilares", "valor": "L/250 / L/350 / L/500", "item": "Tab. A.1"},
+    {"parametro": "Travessas de fechamento e terças", "valor": "L/180 e L/120 (conforme a nota da tabela)", "item": "Tab. A.1", "nota": "conferir qual limite vale para cada direção/carga"},
+    {"parametro": "Galpão — topo do pilar / nível da viga de rolamento", "valor": "H/300 / H/400", "item": "Tab. A.1"},
+    {"parametro": "Edifício de 2+ pavimentos — topo / entre pisos", "valor": "H/400 / h/500", "item": "Tab. A.1"},
+    {"parametro": "Fissura na base de parede de alvenaria", "valor": "≤ 1,5 mm", "item": "A.3.4"}
+   ]},
+  {"titulo": "Anexos", "item": "Anexos B–G",
+   "texto": "B: aumento de fy pelo trabalho a frio; C: método da resistência direta; D: forças concentradas em almas sem enrijecedor; E: momento de flambagem lateral elástica; F: barras com painel ligado à mesa tracionada (terças com telha); G: vigas mistas.",
+   "valores": []}
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "id": "NBR-IEC-60947-1",
+ "titulo": "Projeto ABNT NBR IEC 60947-1 (nov/2005) — Dispositivos de manobra e comando de baixa tensão — Parte 1: Regras gerais",
+ "secoes": [
+  {"titulo": "Objetivo", "item": "1",
+   "texto": "Regras gerais comuns a dispositivos de manobra e comando de baixa tensão (disjuntores, contatores, chaves seccionadoras, relés etc.), aplicadas quando a norma do produto (60947-2, -3, -4-1…) as invoca: definições, características, informações, condições de serviço, construção, desempenho e ensaios. Painéis (conjuntos) seguem a NBR IEC 60439.",
+   "valores": []},
+  {"titulo": "Características", "item": "4",
+   "texto": "Tensões nominais (operação Ue, isolamento Ui, impulso Uimp), correntes (térmica convencional Ith, nominal de emprego Ie), capacidades de estabelecimento e interrupção, corrente suportável de curta duração, regimes de carga (8 h, contínuo, intermitente periódico, temporário, periódico) e categorias de emprego.",
+   "valores": [
+    {"parametro": "AC-1", "valor": "cargas não indutivas ou pouco indutivas, fornos a resistência", "item": "Anexo A"},
+    {"parametro": "AC-3", "valor": "motores de gaiola: partida e desligamento em regime", "item": "Anexo A"},
+    {"parametro": "AC-4", "valor": "motores de gaiola: partida, reversão e impulsos", "item": "Anexo A"},
+    {"parametro": "AC-20 a AC-23 (chaves, 60947-3)", "valor": "manobra em vazio; resistiva; mista; motores/altamente indutiva", "item": "Anexo A"},
+    {"parametro": "AC-5a/5b, AC-6a/6b", "valor": "lâmpadas de descarga/incandescentes; transformadores/bancos de capacitores", "item": "Anexo A"}
+   ]},
+  {"titulo": "Condições normais de serviço", "item": "6",
+   "texto": "Condições de referência para funcionamento; outras (Anexo B) exigem acordo fabricante–usuário. Ambiente definido também pelo grau de poluição.",
+   "valores": [
+    {"parametro": "Temperatura ambiente", "valor": "≤ +40 °C, média 24 h ≤ +35 °C; mínimo −5 °C", "item": "6.1.1"},
+    {"parametro": "Altitude máxima", "valor": "2 000 m", "item": "6.1.2"},
+    {"parametro": "Umidade relativa", "valor": "≤ 50 % a 40 °C (ex. 90 % a 20 °C)", "item": "6.1.3.1"}
+   ]},
+  {"titulo": "Construção e desempenho", "item": "7",
+   "texto": "Materiais, partes condutoras, distâncias de isolação e escoamento, órgãos de manobra, indicação de posição, bornes, aterramento, invólucros; limites de aquecimento, propriedades dielétricas, capacidade de manobra, EMC.",
+   "valores": [
+    {"parametro": "Aquecimento de bornes — cobre nu / latão nu", "valor": "60 K / 65 K", "item": "Tab. 2"},
+    {"parametro": "Bornes estanhados / prateados ou niquelados", "valor": "65 K / 70 K", "item": "Tab. 2"},
+    {"parametro": "Órgãos de manobra — metálicos / não metálicos", "valor": "15 K / 25 K", "item": "Tab. 3"}
+   ]},
+  {"titulo": "Ensaios", "item": "8",
+   "texto": "Ensaios de tipo, de rotina e por amostragem: bornes (torque de aperto Tab. 4, flexão e tração de condutores), aquecimento com condutores de ensaio (Tab. 9–11), dielétricos (impulso Tab. 12, frequência industrial Tab. 12A), distâncias mínimas no ar (Tab. 13) e de escoamento (Tab. 15), estabelecimento/interrupção com fator de potência definido (Tab. 16), eletrodutos e EMC (Tab. 23–24).",
+   "valores": []}
+ ]
+}

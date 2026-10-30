@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SB-861",
+ "titulo": "SB-861 — Tubos (pipe) sem costura de titânio e ligas de titânio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe) de titânio e ligas de titânio em 34 graus (não ligados 1, 2, 2H, 3; Ti-6Al-4V grau 5; Ti-Pd 7, 7H, 11; Ti-3Al-2,5V grau 9; graus 12, 13 e outros) para serviço corrosivo e em temperatura elevada."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela de química",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N máx. / C máx. — graus 1, 2",
+     "valor": "0,03 % / 0,08 %",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 5",
+   "texto": "Su mín. / Sy mín.–máx. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "Grau 1 (Ti puro)",
+     "valor": "35 ksi (240) / 20–45 ksi (138–310) / 24 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Grau 2 (Ti puro)",
+     "valor": "50 ksi (345) / 40–65 ksi (275–450) / 20 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Grau 3 (Ti puro)",
+     "valor": "65 ksi (450) / 55–80 ksi (380–550) / 18 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Grau 5 (Ti-6Al-4V) — Su / Sy mín.",
+     "valor": "130 ksi (895) / 120 ksi",
+     "item": "Tabela 5"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "ISO-6336-2",
+ "titulo": "ISO 6336-2:2006 (corr. 2008) — Capacidade de carga de engrenagens cilíndricas — Parte 2: Cálculo da durabilidade superficial (pitting)",
+ "secoes": [
+  {
+   "titulo": "Princípio",
+   "item": "4–5",
+   "texto": "Compara a tensão de contato calculada σH (tensão nominal no ponto primitivo σH0 × fatores de carga e de contato) com a tensão admissível σHP derivada do limite de fadiga do material σH lim e de fatores de vida, lubrificação, rugosidade, encruamento e tamanho; coeficiente de segurança SH = σHG/σH ≥ SH mín.",
+   "valores": [
+    {
+     "parametro": "Tensão de contato",
+     "valor": "σH = ZB(ou ZD)·σH0·√(KA·Kv·KHβ·KHα)",
+     "item": "5",
+     "nota": "forma usual; conferir notação exata"
+    },
+    {
+     "parametro": "Fatores geométricos",
+     "valor": "ZH (zona), ZB/ZD (contato simples), ZE (elasticidade), Zε (razão de contato), Zβ (hélice)",
+     "item": "6–9"
+    },
+    {
+     "parametro": "Zε conservador",
+     "valor": "1,0 para dentes retos com razão de contato < 2,0",
+     "item": "8"
+    },
+    {
+     "parametro": "ZD",
+     "valor": "só calculado se u < 1,5; =1 para engrenagens internas",
+     "item": "6"
+    }
+   ]
+  },
+  {
+   "titulo": "Resistência admissível",
+   "item": "10–14",
+   "texto": "σH lim por material (Parte 5); fator de vida ZNT (ex. aços temperados: 1,0 a 5×10⁷ ou 10⁹ ciclos, 0,85 a 1,0 em 10¹⁰); fatores de lubrificação ZL, velocidade Zv e rugosidade ZR; encruamento ZW; tamanho ZX.",
+   "valores": [
+    {
+     "parametro": "ZNT em 10¹⁰ ciclos",
+     "valor": "0,85 a 1,0 (menor valor para serviço crítico)",
+     "item": "11"
+    },
+    {
+     "parametro": "Faixa estática",
+     "valor": "ZL = Zv = ZR = 1,0; ZW = 1,0",
+     "item": "12–13"
+    }
+   ]
+  }
+ ]
+}

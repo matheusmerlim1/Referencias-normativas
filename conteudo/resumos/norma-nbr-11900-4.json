@@ -1,0 +1,54 @@
+{
+ "id": "NBR-11900-4",
+ "titulo": "ABNT NBR 11900-4:2020 — Terminais para cabo de aço: grampo leve e grampo pesado",
+ "secoes": [
+  {
+   "titulo": "Tipos e restrições",
+   "item": "Anexos A–B",
+   "texto": "Grampo leve (tipo U) só para esforços pequenos — nunca para içar. Grampo pesado serve para estais, movimentos horizontais e fixação da ponta do cabo em equipamento de elevação, mas não para fazer lingas.",
+   "valores": [
+    {
+     "parametro": "Carga de trabalho com grampo leve",
+     "valor": "≤ 10 % da CRM do cabo",
+     "item": "A.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Montagem",
+   "item": "A.3; B.2",
+   "texto": "Base (sela) na parte viva e U na parte morta. Primeiro grampo perto da ponta, segundo junto ao sapatilho, os demais igualmente espaçados; apertar alternadamente até o torque tabelado. Tamanho do grampo igual ao Ø do cabo (intermediário: o maior seguinte). A Tabela B.1 dá quantidade, torque e comprimento da parte morta por diâmetro.",
+   "valores": [
+    {
+     "parametro": "Distância do 1º grampo à ponta",
+     "valor": "≥ B (largura do corpo)",
+     "item": "A.3",
+     "cota": "esquemas/lingadas-acessorios-grampos-montagem.svg#B"
+    },
+    {
+     "parametro": "Grampo pesado 1/4\" (6–7 mm)",
+     "valor": "2 grampos, 20,3 N·m, 120 mm de parte morta",
+     "item": "Tab. B.1",
+     "cota": "esquemas/lingadas-acessorios-grampos-montagem.svg#L"
+    }
+   ]
+  },
+  {
+   "titulo": "Desempenho e marcação",
+   "item": "6; 9",
+   "texto": "Olhal feito com grampos pesados resiste a fração alta da ruptura do cabo quase sem escorregar e passa em fadiga. Grampo marcado em relevo com tamanho e fabricante; o pesado leva a letra P.",
+   "valores": [
+    {
+     "parametro": "Carga do olhal com grampos pesados",
+     "valor": "≥ 80 % da CRM por 5 min, escorregamento ≤ 1 mm",
+     "item": "6.1"
+    },
+    {
+     "parametro": "Fadiga",
+     "valor": "≥ 20 000 ciclos (15–30 % CRM)",
+     "item": "6.2"
+    }
+   ]
+  }
+ ]
+}

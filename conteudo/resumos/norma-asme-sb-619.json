@@ -1,0 +1,33 @@
+{
+ "id": "ASME-SB-619",
+ "titulo": "SB-619 — Tubos soldados de níquel e ligas de níquel-cobalto (pipe)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe) soldados de ligas de níquel e níquel-cobalto: Ni-Mo (N10001, N10665, N10675, N10629, N10624, N10242), Ni-Cr-Mo (N10276, N06022, N06035, N06059…), Ni-Cr-Fe-Mo (N06007, N06975, N06985, N06030), resistentes ao calor (N06002, N06230, R30556, N12160) e N08320, N08031, entre outras."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N10001",
+     "valor": "100 ksi (690) / 45 ksi (310) / 40 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N10665, N10675, N10629",
+     "valor": "110 ksi (760) / 51 ksi (350) / 40 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N10624",
+     "valor": "104 ksi (720) / 46 ksi (320) / 40 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

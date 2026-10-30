@@ -1,0 +1,401 @@
+{
+ "id": "NBR-8800",
+ "titulo": "ABNT NBR 8800:2008 — Projeto de estruturas de aço e de estruturas mistas de aço e concreto de edifícios",
+ "secoes": [
+  {
+   "titulo": "Escopo e método",
+   "item": "1, 4.6",
+   "texto": "Norma brasileira de projeto de estruturas de aço (perfis laminados e soldados) e mistas aço-concreto de edifícios, pelo método dos estados-limites: as ações são majoradas, as resistências são minoradas, e verificam-se os estados-limites últimos (ELU, colapso) e de serviço (ELS, deslocamentos e vibrações). Perfis formados a frio seguem a NBR 14762.",
+   "valores": []
+  },
+  {
+   "titulo": "Propriedades do aço para cálculo",
+   "item": "4.5.2.9",
+   "texto": "Valores fixos adotados para todos os aços estruturais da norma.",
+   "valores": [
+    {
+     "parametro": "Módulo de elasticidade E",
+     "valor": "200 000 MPa",
+     "item": "4.5.2.9 a)"
+    },
+    {
+     "parametro": "Coeficiente de Poisson",
+     "valor": "0,3",
+     "item": "4.5.2.9 b)"
+    },
+    {
+     "parametro": "Módulo de elasticidade transversal G",
+     "valor": "77 000 MPa",
+     "item": "4.5.2.9 c)"
+    },
+    {
+     "parametro": "Coeficiente de dilatação térmica",
+     "valor": "1,2 × 10⁻⁵ /°C",
+     "item": "4.5.2.9 d)"
+    },
+    {
+     "parametro": "Massa específica do aço",
+     "valor": "7 850 kg/m³",
+     "item": "4.5.2.9 e)"
+    },
+    {
+     "parametro": "Concreto de densidade normal — fck",
+     "valor": "20 MPa a 50 MPa; Ecs = 0,85 Eci",
+     "item": "4.5.3.1"
+    },
+    {
+     "parametro": "Aços NBR 7007 (exemplos)",
+     "valor": "MR 250: fy 250 / fu 400–560 MPa; AR 350: 350 / 450 MPa; AR 415: 415 / 520 MPa",
+     "item": "Tab. A.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ações e combinações",
+   "item": "4.7",
+   "texto": "Ações permanentes (peso próprio, empuxos, retração), variáveis (uso, vento pela NBR 6123, temperatura) e excepcionais. Cada combinação última soma as permanentes majoradas, a variável principal majorada e as demais variáveis reduzidas por ψ0. Nas combinações de serviço o coeficiente de ponderação é 1,0 e usam-se ψ1 (frequente) e ψ2 (quase permanente).",
+   "valores": [
+    {
+     "parametro": "Combinação última normal",
+     "valor": "Fd = Σ γg·FG + γq1·FQ1 + Σ γqj·ψ0j·FQj",
+     "item": "4.7.7.2.1"
+    },
+    {
+     "parametro": "γg — peso próprio de estrutura metálica (normal / especial / excepcional)",
+     "valor": "1,25 / 1,15 / 1,10 (favorável: 1,00)",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "γg — elementos construtivos em geral e equipamentos (normal)",
+     "valor": "1,50 (favorável: 1,00)",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "γg — permanentes agrupadas (normal)",
+     "valor": "1,35 se uso > 5 kN/m²; 1,40 caso contrário",
+     "item": "Tab. 1, nota c"
+    },
+    {
+     "parametro": "γq — vento / temperatura / demais variáveis (normal)",
+     "valor": "1,40 / 1,20 / 1,50",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "ψ0 / ψ1 / ψ2 — vento",
+     "valor": "0,6 / 0,3 / 0",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "ψ0 / ψ1 / ψ2 — uso sem predominância de cargas fixas (residencial)",
+     "valor": "0,5 / 0,4 / 0,3",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "ψ0 / ψ1 / ψ2 — escritórios, acesso público",
+     "valor": "0,7 / 0,6 / 0,4",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "ψ0 / ψ1 / ψ2 — depósitos, oficinas, sobrecarga de cobertura",
+     "valor": "0,8 / 0,7 / 0,6",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "ψ0 / ψ1 / ψ2 — vigas de rolamento de pontes rolantes",
+     "valor": "1,0 / 0,8 / 0,5",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Variação de temperatura recomendada",
+     "valor": "60 % da diferença entre médias máx. e mín. do local, mínimo 10 °C",
+     "item": "4.7.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Resistências de cálculo",
+   "item": "4.8",
+   "texto": "A resistência de cálculo é a característica dividida pelo coeficiente γm. Para o aço há dois coeficientes: um para escoamento e instabilidade, outro para ruptura.",
+   "valores": [
+    {
+     "parametro": "γa1 (escoamento/flambagem) — normal / excepcional",
+     "valor": "1,10 / 1,00",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "γa2 (ruptura) — normal / excepcional",
+     "valor": "1,35 / 1,15",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "γc concreto — normal / construção / excepcional",
+     "valor": "1,40 / 1,20 / 1,20",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "γs armadura — normal / excepcional",
+     "valor": "1,15 / 1,00",
+     "item": "Tab. 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Estabilidade e análise",
+   "item": "4.9",
+   "texto": "A estrutura é classificada pela relação entre deslocamento lateral de 2ª e de 1ª ordem (pode ser aproximada pelo coeficiente B2). Imperfeições geométricas e de material entram na análise conforme a classe.",
+   "valores": [
+    {
+     "parametro": "Pequena deslocabilidade",
+     "valor": "relação 2ª/1ª ordem ≤ 1,1",
+     "item": "4.9.4.2"
+    },
+    {
+     "parametro": "Média deslocabilidade",
+     "valor": "> 1,1 e ≤ 1,4",
+     "item": "4.9.4.3"
+    },
+    {
+     "parametro": "Grande deslocabilidade",
+     "valor": "> 1,4",
+     "item": "4.9.4.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Barras tracionadas",
+   "item": "5.2",
+   "texto": "A força resistente é a menor entre escoamento da seção bruta e ruptura da seção líquida efetiva (área líquida × coeficiente de redução Ct). Há regras próprias para barras com pino e barras rosqueadas.",
+   "valores": [
+    {
+     "parametro": "Escoamento da seção bruta",
+     "valor": "Nt,Rd = Ag·fy / γa1",
+     "item": "5.2.2 a)"
+    },
+    {
+     "parametro": "Ruptura da seção líquida",
+     "valor": "Nt,Rd = Ae·fu / γa2",
+     "item": "5.2.2 b)"
+    },
+    {
+     "parametro": "Esbeltez máxima recomendada L/r",
+     "valor": "300 (exceto tirantes de barra redonda pré-tensionados)",
+     "item": "5.2.8.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Barras comprimidas",
+   "item": "5.3",
+   "texto": "A resistência à compressão usa o fator de redução χ (flambagem global) e o fator Q (flambagem local, Anexo F), em função do índice de esbeltez reduzido λ0.",
+   "valores": [
+    {
+     "parametro": "Força resistente",
+     "valor": "Nc,Rd = χ·Q·Ag·fy / γa1",
+     "item": "5.3.2"
+    },
+    {
+     "parametro": "Esbeltez reduzida",
+     "valor": "λ0 = √(Q·Ag·fy / Ne)",
+     "item": "5.3.3.2",
+     "nota": "Ne = força de flambagem elástica (Anexo E)"
+    },
+    {
+     "parametro": "χ para λ0 ≤ 1,5",
+     "valor": "χ = 0,658^(λ0²)",
+     "item": "5.3.3.1"
+    },
+    {
+     "parametro": "χ para λ0 > 1,5",
+     "valor": "χ = 0,877 / λ0²",
+     "item": "5.3.3.1"
+    },
+    {
+     "parametro": "Esbeltez máxima KL/r",
+     "valor": "200",
+     "item": "5.3.4.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Flexão, cortante e esforços combinados",
+   "item": "5.1.2, 5.4, 5.5",
+   "texto": "As seções são compactas, semicompactas ou esbeltas conforme a esbeltez dos elementos comprimidos (λ comparado a λp e λr). O momento resistente considera escoamento, flambagem local da mesa e da alma e flambagem lateral com torção (Anexos G e H). O cortante segue a esbeltez da alma (5.4.3). Flexo-compressão por equação de interação (5.5.1).",
+   "valores": []
+  },
+  {
+   "titulo": "Soldas",
+   "item": "6.2",
+   "texto": "Áreas efetivas de soldas de penetração e filete, resistência pelo metal-base e pelo metal de solda, e limites de tamanho do filete.",
+   "valores": [
+    {
+     "parametro": "Perna mínima do filete — metal-base ≤ 6,35 mm",
+     "valor": "3 mm",
+     "item": "Tab. 10",
+     "nota": "filete executado em um passe"
+    },
+    {
+     "parametro": "Perna mínima — > 6,35 até 12,5 mm",
+     "valor": "5 mm",
+     "item": "Tab. 10"
+    },
+    {
+     "parametro": "Perna mínima — > 12,5 até 19 mm",
+     "valor": "6 mm",
+     "item": "Tab. 10"
+    },
+    {
+     "parametro": "Perna mínima — > 19 mm",
+     "valor": "8 mm",
+     "item": "Tab. 10"
+    },
+    {
+     "parametro": "Perna máxima ao longo de borda com t < 6,35 mm",
+     "valor": "≤ espessura do material",
+     "item": "6.2.6.2.2 a)"
+    }
+   ]
+  },
+  {
+   "titulo": "Parafusos — furação, espaçamentos e bordas",
+   "item": "6.3",
+   "texto": "Parafusos comuns (A307) e de alta resistência (A325, A490), em ligação por contato ou por atrito. Furos padrão, alargados e alongados com dimensões máximas tabeladas; espaçamentos e distâncias às bordas limitados.",
+   "valores": [
+    {
+     "parametro": "Furo-padrão (db ≤ 24 mm)",
+     "valor": "db + 1,5 mm",
+     "item": "Tab. 12",
+     "nota": "texto da tabela sai embaralhado na extração — conferir os demais tipos de furo"
+    },
+    {
+     "parametro": "Espaçamento mínimo entre centros de furos",
+     "valor": "2,7 db (preferível 3 db); distância livre entre furos ≥ db",
+     "item": "6.3.9"
+    },
+    {
+     "parametro": "Espaçamento máximo — elementos pintados ou sem corrosão",
+     "valor": "24 t (parte menos espessa) e ≤ 300 mm",
+     "item": "6.3.10 a)"
+    },
+    {
+     "parametro": "Espaçamento máximo — aço patinável sem pintura",
+     "valor": "14 t e ≤ 180 mm",
+     "item": "6.3.10 b)"
+    },
+    {
+     "parametro": "Distância mínima furo-padrão à borda",
+     "valor": "Tabela 14 por diâmetro (db de 1/2 a 1 1/4 pol e 16 a 36 mm); acima de 36 mm: 1,75 db (borda cortada com serra/tesoura) e 1,25 db (borda laminada ou a maçarico)",
+     "item": "6.3.11.1, Tab. 14",
+     "nota": "valores por diâmetro não legíveis no texto extraído — conferir; borda laminada pode ser reduzida de 3 mm se a força ≤ 25 % da resistente"
+    },
+    {
+     "parametro": "Distância máxima parafuso-borda",
+     "valor": "12 t e ≤ 150 mm",
+     "item": "6.3.12"
+    }
+   ]
+  },
+  {
+   "titulo": "Parafusos de alta resistência — montagem e inspeção",
+   "item": "6.7",
+   "texto": "Parafusos ASTM A325/A490 com dimensões ASME B18.2.6, porcas hexagonais pesadas e arruelas ASTM F436. Ligações sujeitas a deslizamento prejudicial ou cargas repetidas devem ser por atrito, com protensão inicial controlada (giro da porca, chave calibrada ou indicador direto).",
+   "valores": []
+  },
+  {
+   "titulo": "Deslocamentos máximos (ELS)",
+   "item": "Anexo C",
+   "texto": "Limites de flecha e deslocamento lateral para combinações de serviço, com referência a uma viga biapoiada (L = vão; H = altura total; h = altura do andar).",
+   "valores": [
+    {
+     "parametro": "Travessas de fechamento",
+     "valor": "L/180 (vertical) e L/120 (horizontal)",
+     "item": "Tab. C.1",
+     "nota": "conferir a associação das notas da tabela"
+    },
+    {
+     "parametro": "Terças de cobertura",
+     "valor": "L/180 e L/120",
+     "item": "Tab. C.1",
+     "nota": "conferir"
+    },
+    {
+     "parametro": "Vigas de cobertura",
+     "valor": "L/250",
+     "item": "Tab. C.1"
+    },
+    {
+     "parametro": "Vigas de piso",
+     "valor": "L/350",
+     "item": "Tab. C.1"
+    },
+    {
+     "parametro": "Vigas que suportam pilares",
+     "valor": "L/500",
+     "item": "Tab. C.1"
+    },
+    {
+     "parametro": "Viga de rolamento — ponte < 200 kN / ≥ 200 kN / siderúrgica ≥ 200 kN (vertical)",
+     "valor": "L/600 / L/800 / L/1000",
+     "item": "Tab. C.1"
+    },
+    {
+     "parametro": "Viga de rolamento — horizontal (comum / siderúrgica)",
+     "valor": "L/400 / L/600",
+     "item": "Tab. C.1"
+    },
+    {
+     "parametro": "Galpão de 1 pavimento — topo dos pilares / nível da viga de rolamento",
+     "valor": "H/300 / H/400",
+     "item": "Tab. C.1"
+    },
+    {
+     "parametro": "Edifício de 2 ou mais pavimentos — topo / entre pisos",
+     "valor": "H/400 / h/500",
+     "item": "Tab. C.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação, montagem e controle",
+   "item": "12",
+   "texto": "Requisitos de fabricação, pintura de fábrica, montagem, tolerâncias e inspeção. Tolerâncias de montagem referidas a pontos e linhas de trabalho das barras.",
+   "valores": [
+    {
+     "parametro": "Prumo de pilar de peça única",
+     "valor": "desvio ≤ 1:500",
+     "item": "12.3.3.1.1"
+    },
+    {
+     "parametro": "Pilar junto a poço de elevador (20 primeiros andares)",
+     "valor": "≤ 25 mm",
+     "item": "12.3.3.1.1 a)"
+    },
+    {
+     "parametro": "Pilar de fachada (20 primeiros andares)",
+     "valor": "≤ 25 mm para fora e ≤ 50 mm para dentro; paralelo à fachada ≤ 50 mm",
+     "item": "12.3.3.1.1 b), d)"
+    },
+    {
+     "parametro": "Elevação de barra ligada a pilar (vs. emenda usinada acima)",
+     "valor": "+5 mm / −8 mm",
+     "item": "12.3.3.1.2 b)"
+    },
+    {
+     "parametro": "Barra em balanço — variação angular da linha de trabalho",
+     "valor": "≤ 1/500",
+     "item": "12.3.3.1.2 e)"
+    },
+    {
+     "parametro": "Peças ajustáveis — posição em altura",
+     "valor": "10 mm",
+     "item": "12.3.3.1.3 a)"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexos de projeto",
+   "item": "Anexos B–Q",
+   "texto": "B: ações de uso e pontes rolantes; D: amplificação de esforços (B1, B2); E: flambagem elástica e coeficientes K; F: flambagem local (fator Q); G/H: momento resistente de vigas de alma não esbelta/esbelta; I: aberturas em almas; K: fadiga; L e M: vibração de pisos e por vento; N: durabilidade frente à corrosão; O, P, Q: vigas, pilares e lajes mistas de aço e concreto.",
+   "valores": []
+  }
+ ]
+}

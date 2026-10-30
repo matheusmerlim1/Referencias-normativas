@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SB-167",
+ "titulo": "SB-167 — Tubos sem costura de ligas Ni-Cr-Fe e Ni-Cr-Co-Mo",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe e tube) sem costura de ligas níquel-cromo-ferro (N06600, N06601, N06603, N06690, N06693, N06025, N06045) e N06617, trabalhados a frio e recozidos, a quente e recozidos ou acabados a quente, para resistência à corrosão e ao calor."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela de química",
+   "texto": "Ligas Ni-Cr-Fe e Ni-Cr-Co-Mo.",
+   "valores": [
+    {
+     "parametro": "N06600 — Ni mín. / Cr / Fe",
+     "valor": "72,0 % / 14,0–17,0 % / 6,0–10,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N06601 — Ni / Cr / Fe",
+     "valor": "58,0–63,0 % / 21,0–25,0 % / restante",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N06617 — Ni mín. / Cr / Co / Mo",
+     "valor": "44,5 % / 20,0–24,0 % / 10,0–15,0 % / 8,0–10,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N06690 — Ni mín. / Cr / Fe",
+     "valor": "58,0 % / 27,0–31,0 % / 7,0–11,0 %",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "N06600 — Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "Trabalhado a quente (ou e recozido), DE até 5 in",
+     "valor": "80 000 psi (550) / 30 000 psi (205) / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Trabalhado a quente, DE acima de 5 in",
+     "valor": "75 000 psi (515) / 25 000 psi (170) / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Trabalhado a frio e recozido, DE até 5 in",
+     "valor": "80 000 psi (550) / 35 000 psi (240) / 30 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

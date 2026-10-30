@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SB-649",
+ "titulo": "SB-649 — Barras e arames de ligas Ni-Fe-Cr-Mo-Cu baixo carbono (904L e similares)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras e arames das ligas N08904, N08925, N08031, N08926 e R20033."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Aços inoxidáveis superausteníticos / ligas Ni-Fe-Cr-Mo-Cu(-N).",
+   "valores": [
+    {
+     "parametro": "C máx. — N08904 / N08031 / R20033",
+     "valor": "0,020 % / 0,015 % / 0,015 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni — N08904 / N08925 / N08031",
+     "valor": "23,00–28,00 % / 24,00–26,00 % / 30,0–32,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Recozido, acabado a quente ou a frio — Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N08904",
+     "valor": "71 000 psi (490) / 31 000 psi (220) / 35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N08925",
+     "valor": "87 000 psi (600) / 43 000 psi (300) / 40 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N08031",
+     "valor": "94 000 psi (650) / 40 000 psi (270) / 40 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

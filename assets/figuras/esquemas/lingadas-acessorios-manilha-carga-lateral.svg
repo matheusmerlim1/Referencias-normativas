@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" width="760" height="560" role="img" aria-label="Manilha — carga lateral (ângulo com o eixo da manilha)">
+<title>Manilha — carga lateral (ângulo com o eixo da manilha) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Manilha — carga lateral (ângulo com o eixo da manilha)</text>
+<path d="M250,110 L250,270 A50,50 0 0 0 350,270 L350,110" fill="none" stroke="#666" stroke-width="16" stroke-linecap="round"/>
+<rect class="s" x="220" y="95" width="160" height="22"/>
+<line class="c" x1="300" y1="70" x2="300" y2="420"/>
+<line class="d" x1="300" y1="320" x2="300" y2="500" marker-end="url(#a)"/>
+<line class="d" x1="300" y1="320" x2="427.3" y2="447.3" marker-end="url(#a)"/>
+<line class="d" x1="300" y1="320" x2="480" y2="320" marker-end="url(#a)"/>
+<text class="n m" x="300" y="515">em linha</text>
+<text class="n" x="490" y="400">inclinada</text>
+<text class="n" x="535" y="325">perpendicular</text>
+<g id="cota-angulo-lateral" class="cota"><path class="d" d="M384.9,404.9 A120,120 0 0,1 300,440" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="357.4" y="463.6">ângulo da carga lateral</text></g>
+<text class="n" x="520" y="120">redução da carga nominal por faixa</text>
+<text class="n" x="520" y="138">de ângulo (valores na ficha);</text>
+<text class="n" x="520" y="156">além da perpendicular: não recomendado</text>
+<text class="n" x="20" y="548">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

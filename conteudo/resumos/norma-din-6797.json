@@ -1,0 +1,45 @@
+{
+ "id": "DIN-6797",
+ "titulo": "DIN 6797:1988 — Arruelas dentadas",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Arruelas dentadas (tipos de dentes conforme a norma, ex. tipo A) cuja função principal é dar continuidade elétrica entre peças pintadas ou protegidas, com as pontas dobradas penetrando no revestimento. Como trava contra afrouxamento de fixadores de classe baixa, a eficácia deve ser verificada na aplicação.",
+   "valores": []
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "2",
+   "texto": "Por tamanho nominal (≈ diâmetro do parafuso): diâmetros interno e externo, espessura, número mínimo de dentes e massa por 1 000 peças.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos e designação",
+   "item": "3–4",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Material",
+     "valor": "aço mola FSt (DIN 17221 ou DIN 17222)",
+     "item": "3.1"
+    },
+    {
+     "parametro": "Dureza",
+     "valor": "350 a 425 HV 10",
+     "item": "3.2"
+    },
+    {
+     "parametro": "Proteção superficial",
+     "valor": "a critério do fabricante (ex. fosfatizado e oleado, enegrecido e oleado)",
+     "item": "3.4"
+    },
+    {
+     "parametro": "Designação",
+     "valor": "Arruela dentada DIN 6797 – A 8,4 – FSt; rosca esquerda: acrescentar LH",
+     "item": "4"
+    }
+   ]
+  }
+ ]
+}

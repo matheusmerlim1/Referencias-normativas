@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Olhal roscado (eyebolt) — engajamento de rosca e carga angular">
+<title>Olhal roscado (eyebolt) — engajamento de rosca e carga angular</title>
+<style>
+.o{stroke:#666;stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.k{stroke:#666;stroke-width:3;fill:none;stroke-linecap:round}
+.f{fill:#999;fill-opacity:.25;stroke:#666;stroke-width:1.6}
+.w{fill:#999;fill-opacity:.08;stroke:#666;stroke-width:1.6}
+.h{fill:url(#hz);stroke:#666;stroke-width:1.4}
+.c{stroke:#666;stroke-width:1;fill:none;stroke-dasharray:12 4 2 4}
+.x{stroke:#666;stroke-width:1.3;fill:none;stroke-dasharray:6 4}
+.t{stroke:#666;stroke-width:1.1;fill:none}
+.dim{stroke:#666;stroke-width:1.2;fill:none;marker-start:url(#a);marker-end:url(#a)}
+.ar{stroke:#666;stroke-width:2;fill:none;marker-end:url(#a)}
+.r{stroke:#666;stroke-width:9;fill:none;stroke-linecap:round;stroke-linejoin:round}
+text{font-family:Arial,Helvetica,sans-serif;font-size:13px;fill:#333;stroke:#fff;stroke-width:3px;paint-order:stroke;stroke-linejoin:round}
+.s{font-size:11.5px}.b{font-weight:bold}.ti{font-size:15px;font-weight:bold}.n{font-size:11px;font-style:italic}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L10,5 L0,9 z" fill="#666"/></marker>
+<pattern id="hz" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern>
+</defs>
+<text class="ti" x="12.0" y="24.0" text-anchor="start">Olhal roscado (eyebolt) — engajamento de rosca e carga angular</text>
+<rect class="h" x="70" y="270" width="300" height="120" />
+<rect class="w" x="190" y="270" width="60" height="90" />
+<rect class="f" x="196" y="248" width="48" height="108" />
+<rect class="f" x="160" y="230" width="120" height="20" />
+<circle class="f" cx="220.0" cy="178.0" r="50" />
+<circle class="w" cx="220.0" cy="178.0" r="27" />
+<line class="c" x1="220.0" y1="110.0" x2="220.0" y2="410.0" />
+<g id="cota-engajamento" class="cota"><line class="t" x1="250.0" y1="270.0" x2="405.0" y2="270.0" /><line class="t" x1="250.0" y1="356.0" x2="405.0" y2="356.0" /><line class="dim" x1="398.0" y1="270.0" x2="398.0" y2="356.0" /><text x="392.0" y="318.0" text-anchor="end" font-size="13px">engajamento efetivo</text></g>
+<g id="cota-d" class="cota"><line class="t" x1="190.0" y1="360.0" x2="190.0" y2="422.0" /><line class="t" x1="250.0" y1="360.0" x2="250.0" y2="422.0" /><line class="dim" x1="190.0" y1="414.0" x2="250.0" y2="414.0" /><text class="s" x="260.0" y="420.0" text-anchor="start">d (Ø do parafuso)</text></g>
+<text class="s" x="70.0" y="462.0" text-anchor="start">furo cego roscado em aço: engajamento efetivo ≥ 1,5 × Ø do parafuso</text>
+<circle class="o" cx="610.0" cy="330.0" r="22" />
+<line class="o" x1="610.0" y1="352.0" x2="610.0" y2="410.0" style="stroke-width:10"/>
+<line class="t" x1="610.0" y1="330.0" x2="625.3" y2="155.7" />
+<line class="t" x1="610.0" y1="330.0" x2="655.3" y2="161.0" />
+<line class="t" x1="610.0" y1="330.0" x2="785.0" y2="330.0" />
+<line class="c" x1="610.0" y1="330.0" x2="610.0" y2="140.0" />
+<text x="604.0" y="150.0" text-anchor="end">0–5°: 100 %</text>
+<text x="642.0" y="162.0" text-anchor="start">6–15°: 55 %</text>
+<text x="705.0" y="270.0" text-anchor="start">16–90°: 25 %</text>
+<text class="s" x="610.0" y="435.0" text-anchor="middle">ASME B30.26: só eyebolt COM ombro;</text>
+<text class="s" x="610.0" y="451.0" text-anchor="middle">% da carga nominal; sem ombro: só em linha</text>
+<text class="b" x="30.0" y="58.0" text-anchor="start" font-size="12.5px">ASME B30.26 26-2.9.4.2: furo passante roscado com espessura &lt; 1 Ø → porca sob a carga</text>
+<text class="b" x="30.0" y="78.0" text-anchor="start" font-size="12.5px">ISO 3266 (par de olhais, 0 &lt; β ≤ 45°): carga máxima do par = 1,4 × WLL; olhos no plano da linga ± 5°</text>
+<text class="n" x="790" y="492" text-anchor="end">Esquema ilustrativo, fora de escala (não é desenho da norma) — valores transcritos da ficha</text>
+</svg>

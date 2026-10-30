@@ -1,0 +1,79 @@
+{
+ "id": "ASME-SA-358",
+ "titulo": "SA-358 — Tubos de aço austenítico Cr-Ni soldados por fusão elétrica para alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos soldados por fusão elétrica (com metal de adição) de aço inoxidável austenítico, a partir de chapa SA-240, para serviço corrosivo e/ou em alta temperatura. Requisitos gerais pela SA-999. Uso previsto sob ASME III ou VIII-1, por fabricantes com certificado ASME."
+  },
+  {
+   "titulo": "Classes",
+   "item": "1.3",
+   "texto": "Classe 1: solda dupla com metal de adição em todos os passes, radiografia total. Classe 2: solda dupla, sem radiografia. Classe 3: solda simples com metal de adição em todos os passes, radiografia total. Classe 4: como a 3, mas com regra própria para o passe exposto. Classe 5: solda dupla com radiografia por amostragem.",
+   "valores": [
+    {
+     "parametro": "Radiografia Classe 5 (spot)",
+     "valor": "≥ 12 in [300 mm] de filme por 50 ft [15 m] de solda",
+     "item": "16.2"
+    },
+    {
+     "parametro": "Norma da radiografia (Classes 1, 3, 4)",
+     "valor": "ASME VIII, UW-51",
+     "item": "16.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "6",
+   "texto": "Juntas de topo de penetração total, solda simples ou dupla, procedimento pela ASME IX. Solubilização após a solda; graus H com solubilização separada.",
+   "valores": [
+    {
+     "parametro": "Solubilização mín. — graus em geral",
+     "valor": "1900 °F [1040 °C]",
+     "item": "6.3.1"
+    },
+    {
+     "parametro": "S31254, S31266, S32654, S32050",
+     "valor": "2100 °F [1150 °C]",
+     "item": "6.3.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Química e tração",
+   "item": "7, 12",
+   "texto": "Chapa conforme SA-240; metal de adição pela especificação AWS correspondente. Tração transversal à solda com Su ≥ mínimo da chapa.",
+   "valores": [
+    {
+     "parametro": "Análise de produto",
+     "valor": "1 por lote de 500 ft [150 m]",
+     "item": "11.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "13, 15",
+   "texto": "Dois dobramentos guiados transversais (face e raiz; lado para paredes 3/8 a 3/4 in) e tração transversal por lote (lote máx. de 200 ft [60 m], mesma faixa de 3/16 in de espessura).",
+   "valores": [
+    {
+     "parametro": "Retilineidade (régua de 10 ft / 3 m)",
+     "valor": "1/8 in [3 mm]",
+     "item": "8.1.3"
+    },
+    {
+     "parametro": "Espessura mín. em qualquer ponto",
+     "valor": "nominal − 0,01 in [0,3 mm]",
+     "item": "8.1.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "18",
+   "texto": "Marcação da SA-999 + especificação e grau da chapa e classe do tubo."
+  }
+ ]
+}

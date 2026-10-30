@@ -1,0 +1,101 @@
+{
+ "id": "API-9A",
+ "titulo": "API Spec 9A — Cabos de aço (edição 1995)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Especificação de cabos de aço para a indústria do petróleo: cabos de içamento e perfuração, cabos de amarração, linhas de torpedo, arame e cordoalha de medição de poço, cordoalhas e cabos de estai e estruturais. Define material dos arames, ensaios, fabricação, tolerâncias, embalagem, marcação e inspeção. Edição antiga, mantida como referência.",
+   "valores": []
+  },
+  {
+   "titulo": "Arames e ensaios",
+   "item": "3; 4",
+   "texto": "Os arames têm requisitos de tração e de torção por grau e diâmetro. No ensaio de torção aplica-se uma tração leve tabelada e conta-se as voltas até romper num comprimento padrão; se as garras ficarem a outra distância, o número de voltas é corrigido na proporção. Cabo com arame galvanizado no diâmetro final tem resistência nominal menor que o cabo de arame liso.",
+   "valores": [
+    {
+     "parametro": "Comprimento de referência no ensaio de torção",
+     "valor": "203 mm (8 in)",
+     "item": "4.5.4"
+    },
+    {
+     "parametro": "Correção de voltas para outra distância entre garras",
+     "valor": "TA = TL × LA / 8 in",
+     "item": "4.5.5, eq. (1)"
+    },
+    {
+     "parametro": "Peso de tração no ensaio de torção",
+     "valor": "entre o mínimo da Tabela 3 e o dobro dele",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Resistência de cabo com arame galvanizado no diâmetro final",
+     "valor": "90 % da do cabo de arame liso",
+     "item": "4.6.5"
+    },
+    {
+     "parametro": "Soquete do corpo de prova de ruptura",
+     "valor": "6,35 mm (1/4 in) maior que o Ø do cabo (recomendado)",
+     "item": "4.6.6"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tolerâncias",
+   "item": "5",
+   "texto": "Emendas de arames dentro de uma perna ficam espaçadas por uma distância mínima ligada ao diâmetro do cabo. O cabo vem normalmente pré-formado, sem as pernas abrirem ao soltar o amarrilho. O diâmetro tem tolerância só positiva (medido pelo círculo circunscrito, longe da ponta), e o comprimento tem tolerância conforme seja crítico ou não.",
+   "valores": [
+    {
+     "parametro": "Distância mínima entre emendas de arame numa perna",
+     "valor": "J = 240 × D",
+     "item": "5.1, eq. (2)",
+     "nota": "O texto (OCR da edição 1995) traz só \"J = 240\" — a forma 240 × D é leitura nossa da definição de D; conferir na norma."
+    },
+    {
+     "parametro": "Tolerância de diâmetro — nominal em polegadas",
+     "valor": "−0 % a +5 %",
+     "item": "5.4.2",
+     "cota": "esquemas/lingadas-acessorios-cabo-torcao-medicao.svg#d"
+    },
+    {
+     "parametro": "Tolerância de diâmetro — nominal em mm",
+     "valor": "−1 % a +4 %",
+     "item": "5.4.2",
+     "cota": "esquemas/lingadas-acessorios-cabo-torcao-medicao.svg#d"
+    },
+    {
+     "parametro": "Medição sob tração (em caso de dúvida)",
+     "valor": "10 % a 20 % da resistência nominal",
+     "item": "5.4.2"
+    },
+    {
+     "parametro": "Ponto de medição",
+     "valor": "≥ 1,52 m da ponta amarrada",
+     "item": "5.4.1",
+     "cota": "esquemas/lingadas-acessorios-cabo-torcao-medicao.svg#distancia-ponta"
+    },
+    {
+     "parametro": "Comprimento crítico ≤ 400 m",
+     "valor": "−0 a +5 %",
+     "item": "5.7.1"
+    },
+    {
+     "parametro": "Comprimento crítico > 400 m",
+     "valor": "+20 m + 20 m a cada 1000 m adicionais",
+     "item": "5.7.1"
+    },
+    {
+     "parametro": "Comprimento não crítico ≤ 400 m",
+     "valor": "± 2,5 %",
+     "item": "5.7.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Cabos especiais",
+   "item": "5.9",
+   "texto": "Cabos revestidos ou preenchidos com plástico protegem contra corrosão e desgaste, mas são mais difíceis de inspecionar; a resistência nominal é a do cabo antes do revestimento.",
+   "valores": []
+  }
+ ]
+}

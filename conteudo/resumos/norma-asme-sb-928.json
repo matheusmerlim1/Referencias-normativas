@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SB-928",
+ "titulo": "SB-928 — Chapas e folhas de ligas de alumínio de alto magnésio para uso marítimo",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Folhas planas, em bobina e chapas de ligas de alumínio de alto magnésio (série 5xxx: 5059, 5083, 5086, 5383, 5456…), acabamento de laminação, para ambientes marítimos e similares; têmperas H116 e H321 com resistência à esfoliação e à corrosão intergranular."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "5083 — Mg / Mn / Cr",
+     "valor": "4,0–4,9 % / 0,40–1,0 % / 0,05–0,25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "5059 — Mg / Mn / Zn",
+     "valor": "5,0–6,0 % / 0,6–1,2 % / 0,4–0,9 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "5083-H116, 0,063 a 1,500 in",
+     "valor": "44,0 ksi / 31,0 ksi / 10–12 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "5083-H116, 1,501 a 3,000 in",
+     "valor": "41,0 ksi / 29,0 ksi / 12 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "5059-H116, até 0,787 in",
+     "valor": "54,0 ksi / 39,0 ksi / 10 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "id": "ASME-SA-335",
+ "titulo": "SA-335 — Tubos sem costura de aço liga ferrítico para alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura de aço liga ferrítico (até 10 % Cr), parede nominal ou mínima, para alta temperatura; aptos a curvamento, flangeamento (vanstone) e solda por fusão. Graus P1, P2, P5, P9, P11, P12, P22, P23, P91, P92, P122, P911… Requisitos gerais pela SA-999."
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "5, Tabela 2",
+   "texto": "Acabado a quente ou trefilado a frio; P2 e P12 em prática de grão grosso. Todo tubo é reaquecido e tratado (recozimento, normalização e revenimento ou recozimento subcrítico).",
+   "valores": [
+    {
+     "parametro": "P1 — revenimento mín. (N+R)",
+     "valor": "1200 °F [650 °C]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "P2, P5, P22 — revenimento mín. (N+R)",
+     "valor": "1250 °F [675 °C]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "P91 — normalização / revenimento",
+     "valor": "1900–1975 °F [1040–1080 °C] / 1350–1470 °F [730–800 °C]",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Ordem: C; Mn; P; S; Si; Cr; Mo.",
+   "valores": [
+    {
+     "parametro": "P11",
+     "valor": "C 0,05–0,15; Mn 0,30–0,60; P 0,025; S 0,025; Si 0,50–1,00; Cr 1,00–1,50; Mo 0,44–0,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P22",
+     "valor": "C 0,05–0,15; Mn 0,30–0,60; P 0,025; S 0,025; Si 0,50 máx.; Cr 1,90–2,60; Mo 0,87–1,13 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P5",
+     "valor": "C 0,15 máx.; Mn 0,30–0,60; Si 0,50 máx.; Cr 4,00–6,00; Mo 0,45–0,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P91",
+     "valor": "C 0,08–0,12; Mn 0,30–0,60; P 0,020; S 0,010; Si 0,20–0,50; Cr 8,00–9,50; Mo 0,85–1,05; V 0,18–0,25; N 0,030–0,070; Nb 0,06–0,10 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 3 e 4, 9.3",
+   "texto": "Su mín. / Sy mín.",
+   "valores": [
+    {
+     "parametro": "P1, P2",
+     "valor": "55 ksi [380] / 30 ksi [205]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "P12",
+     "valor": "60 ksi [415] / 32 ksi [220]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "P23",
+     "valor": "74 ksi [510] / 58 ksi [400]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "P91",
+     "valor": "85 ksi [585] / 60 ksi [415]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "P92, P911",
+     "valor": "90 ksi [620] / 64 ksi [440]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Demais (P5, P9, P11, P22…)",
+     "valor": "60 ksi [415] / 30 ksi [205]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Alongamento mín. (tira) — maioria long. / transv.",
+     "valor": "30 % / 20 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Dureza máx. P91, P92, P911, P122",
+     "valor": "250 HB / 265 HV [25 HRC]",
+     "item": "9.3"
+    },
+    {
+     "parametro": "Dureza máx. P23",
+     "valor": "220 HB",
+     "item": "9.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "11 a 13",
+   "texto": "Hidrostático em cada tubo, ou ensaio não destrutivo (E213, E309, E570) a critério do fabricante; tração, achatamento/dureza/dobramento em 5 % dos tubos do lote (mín. 1 em forno intermitente, 2 em contínuo)."
+  },
+  {
+   "titulo": "Marcação",
+   "item": "15",
+   "texto": "Marcação da SA-999 + comprimento e símbolo 'S' (sem costura), entre outros."
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "id": "ASME-B30.26",
+ "titulo": "ASME B30.26 — Acessórios de movimentação de carga (rigging hardware)",
+ "secoes": [
+  {
+   "titulo": "Definições",
+   "item": "26-0.2",
+   "texto": "Carga nominal (WLL) é o máximo de trabalho fixado pelo fabricante. Fator de projeto é a razão entre a ruptura e a carga nominal. O ângulo de carga é medido entre a perna e a horizontal; quanto menor, maior a tração na perna. Serviço normal fica dentro da carga nominal; severo inclui condições anormais; especial depende de pessoa qualificada.",
+   "valores": [
+    {"parametro": "Multiplicador de tração por ângulo com a horizontal", "valor": "90°: 1,000; 60°: 1,155; 45°: 1,414; 30°: 2,000", "item": "Fig. 26-1.9.1-1", "cota": "esquemas/lingadas-acessorios-angulo-carga-horizontal.svg#angulo-horizontal"}
+   ]
+  },
+  {
+   "titulo": "Manilhas",
+   "item": "26-1",
+   "texto": "Corpo curvo, reto ou para cinta, com pino roscado ou com porca e contrapino. Fator de projeto mínimo; prova só se pedida. Marcação no corpo e no pino. A carga fica centrada no corpo; carga lateral reduz a capacidade; várias pernas só no corpo com ângulo limitado. Em instalação longa, usar pino com porca. Fora de uma faixa de temperatura, consultar o fabricante.",
+   "valores": [
+    {"parametro": "Fator de projeto — até 150 t / acima", "valor": "≥ 5 / ≥ 4", "item": "26-1.2"},
+    {"parametro": "Carga de prova (se pedida) — até 150 t / acima", "valor": "2 a 2,2 × / 1,33 a 2 × a nominal", "item": "26-1.4"},
+    {"parametro": "Carga lateral 6–45° / 46–90°", "valor": "−30 % / −50 % da nominal; > 90° não recomendado", "item": "Fig. 26-1.9.4-2", "cota": "esquemas/lingadas-acessorios-manilha-carga-lateral.svg#angulo-lateral"},
+    {"parametro": "Ângulo incluído entre lingas no corpo", "valor": "≤ 120°", "item": "26-1.9.4 (k)", "cota": "esquemas/lingadas-acessorios-angulo-carga-horizontal.svg#angulo-incluido"},
+    {"parametro": "Temperatura sem consulta", "valor": "−40 °C a 204 °C", "item": "26-1.6.1"},
+    {"parametro": "Redução de dimensão que retira a manilha", "valor": "10 % em qualquer ponto do corpo ou pino", "item": "26-1.8.5"}
+   ]
+  },
+  {
+   "titulo": "Acessórios ajustáveis (esticadores, olhais, hoist rings)",
+   "item": "26-2",
+   "texto": "Fator de projeto e prova mínimos. Olhal sem ombro só trabalha em linha; com ombro, a capacidade cai com o ângulo. A rosca precisa de engajamento mínimo; furo passante fino pede porca. Hoist ring giratório apoia a flange toda, sem arruelas, com o torque do fabricante, que vem marcado nele.",
+   "valores": [
+    {"parametro": "Fator de projeto / prova", "valor": "≥ 5 / ≥ 2 × a nominal", "item": "26-2.2; 26-2.4"},
+    {"parametro": "Olhal com ombro — carga angular", "valor": "0–5°: 100 %; 6–15°: 55 %; 16–90°: 25 %", "item": "Fig. 26-2.1.1-2", "cota": "esquemas/lingadas-acessorios-eyebolt-tipos-instalacao.svg#angulo"},
+    {"parametro": "Engajamento de rosca em aço (furo cego)", "valor": "≥ 1,5 × Ø", "item": "26-2.9.4.2", "cota": "esquemas/lingadas-acessorios-eyebolt-engajamento-angulo.svg#engajamento"},
+    {"parametro": "Temperatura — olhal de aço carbono", "valor": "−1 °C a 135 °C", "item": "26-2.6.1"},
+    {"parametro": "Temperatura — hoist ring giratório", "valor": "−29 °C a 204 °C", "item": "26-2.6.1"}
+   ]
+  },
+  {
+   "titulo": "Grampos de cabo e soquetes de cunha",
+   "item": "26-3",
+   "texto": "Não têm fator de projeto próprio: valem pela eficiência da terminação sobre a ruptura do cabo. Grampo em U com a sela na parte viva, quantidade e torque do fabricante, reaperto depois da primeira carga; grampos não servem para fabricar lingas. No soquete, a parte viva alinhada com o pino e a cunha do mesmo fabricante e modelo.",
+   "valores": [
+    {"parametro": "Eficiência mínima da terminação", "valor": "80 % da ruptura mínima do cabo", "item": "26-3.2"},
+    {"parametro": "Carga de prova da montagem (se pedida)", "valor": "40 % a 50 % da ruptura do cabo", "item": "26-3.4"},
+    {"parametro": "Posição do grampo U", "valor": "sela na parte viva", "item": "26-3.1.3", "cota": "esquemas/lingadas-acessorios-grampos-montagem.svg#B"},
+    {"parametro": "Temperatura do soquete de cunha sem consulta", "valor": "−20 °C a 204 °C", "item": "26-3.6.1"}
+   ]
+  },
+  {
+   "titulo": "Elos, anéis, elos mestres e destorcedores",
+   "item": "26-4",
+   "texto": "Fator de projeto e prova mínimos; elos soldados e conjuntos de elo mestre são provados antes do primeiro uso. Ângulo das pernas limitado; carga assimétrica pede análise. Destorcedor só posiciona: não gira sob carga e só trabalha em linha.",
+   "valores": [
+    {"parametro": "Fator de projeto / prova", "valor": "≥ 5 / ≥ 2 × a nominal", "item": "26-4.2; 26-4.4"},
+    {"parametro": "Ângulo horizontal mínimo em elos e anéis", "valor": "≥ 30°", "item": "26-4.9.4"}
+   ]
+  },
+  {
+   "titulo": "Moitões e dinamômetros",
+   "item": "26-5; 26-6",
+   "texto": "O moitão é avaliado pela carga no acessório principal, não pela força na linha. O dinamômetro é calibrado com registro e sai de uso com qualquer perda de material na zona sensora.",
+   "valores": [
+    {"parametro": "Moitão — fator de projeto / prova", "valor": "≥ 4 / 1,5 a 2 ×", "item": "26-5"},
+    {"parametro": "Dinamômetro — fator de projeto / calibração", "valor": "≥ 4 / ± 2 % da capacidade", "item": "26-6"},
+    {"parametro": "Dinamômetro — redução fora da zona sensora", "valor": "5 % retira de uso", "item": "26-6.8.6"}
+   ]
+  },
+  {
+   "titulo": "Inspeção",
+   "item": "26-1.8",
+   "texto": "Inspeção inicial antes do uso, frequente visual a cada turno e periódica com intervalo até um ano conforme o serviço. Registros escritos não são exigidos.",
+   "valores": [
+    {"parametro": "Periódica — normal / severo", "valor": "anual / mensal a trimestral", "item": "26-1.8.4"}
+   ]
+  }
+ ]
+}

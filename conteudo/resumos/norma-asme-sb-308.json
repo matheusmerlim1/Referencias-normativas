@@ -1,0 +1,55 @@
+{
+ "id": "ASME-SB-308",
+ "titulo": "SB-308 — Perfis estruturais padronizados extrudados de alumínio 6061-T6",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Perfis estruturais padronizados extrudados de liga 6061-T6: vigas I, H, canais, cantoneiras, tês e zês. Outros perfis/ligas pela SB-221."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Liga 6061.",
+   "valores": [
+    {
+     "parametro": "Si / Mg",
+     "valor": "0,40–0,8 % / 0,8–1,2 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cu / Cr",
+     "valor": "0,15–0,40 % / 0,04–0,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Fe máx. / Mn máx. / Zn máx.",
+     "valor": "0,7 % / 0,15 % / 0,25 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su mín.",
+     "valor": "38,0 ksi [260 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "35,0 ksi [240 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm",
+     "valor": "10 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

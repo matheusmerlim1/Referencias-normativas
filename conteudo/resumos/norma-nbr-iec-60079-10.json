@@ -1,0 +1,39 @@
+{
+ "id": "NBR-IEC-60079-10",
+ "titulo": "ABNT NBR IEC 60079-10:2006 — Equipamentos elétricos para atmosferas explosivas — Parte 10: Classificação de áreas",
+ "secoes": [
+  {"titulo": "Objetivo", "item": "1",
+   "texto": "Classificação de áreas com gases ou vapores inflamáveis misturados ao ar em condições atmosféricas normais, para escolher e instalar corretamente os equipamentos. Não cobre minas com grisu, fábricas de explosivos, poeiras e fibras combustíveis (outra parte da série), falhas catastróficas, ambientes médicos, névoas de risco imprevisível e residências.",
+   "valores": []},
+  {"titulo": "Definições", "item": "2",
+   "texto": "Atmosfera explosiva de gás; área classificada e não classificada; fonte de risco; taxa de liberação; operação normal (inclui partida e parada e pequenos vazamentos de selos — rupturas que exigem reparo urgente não são operação normal); limites inferior e superior de inflamabilidade (LII/LSI); ponto de fulgor; temperatura de ignição; extensão da zona (distância da fonte até a diluição abaixo do LII).",
+   "valores": [
+    {"parametro": "Zona 0", "valor": "atmosfera explosiva contínua, por longos períodos ou frequente", "item": "2.5.1"},
+    {"parametro": "Zona 1", "valor": "pode ocorrer ocasionalmente em operação normal", "item": "2.5.2"},
+    {"parametro": "Zona 2", "valor": "não prevista em operação normal; se ocorrer, por curto período", "item": "2.5.3"},
+    {"parametro": "Graus de fonte de risco", "valor": "contínuo (frequente/longo), primário (periódico/ocasional em operação normal), secundário (fora da operação normal, raro e curto)", "item": "2.7"}
+   ]},
+  {"titulo": "Princípios de segurança", "item": "3",
+   "texto": "Projetar para que liberações e áreas classificadas sejam as menores possíveis; eliminar a atmosfera explosiva ou a fonte de ignição, e se não der, reduzir a probabilidade de coincidirem. Zonas 0 e 1 devem ser minimizadas — a planta deve ser majoritariamente zona 2 ou não classificada. Nenhuma modificação sem rever a classificação; manutenção fora do normal controlada por permissão de trabalho.",
+   "valores": []},
+  {"titulo": "Procedimento", "item": "4",
+   "texto": "Feita por equipe que conhece materiais, processo e equipamentos, a partir dos P&IDs e leiautes iniciais, revisada ao longo da vida da planta. Identificar fontes de risco em cada equipamento (tanques, bombas, tubulações, vasos), seu grau, taxa de liberação e fatores que definem a extensão.",
+   "valores": [
+    {"parametro": "Grau → zona usual", "valor": "contínuo → zona 0; primário → zona 1; secundário → zona 2 (ajustado pela ventilação)", "item": "4.3, Nota 1"},
+    {"parametro": "Zonas sobrepostas", "valor": "prevalece a classificação mais severa; atenção a grupo de gás e classe de temperatura diferentes", "item": "4.3, Nota 2"},
+    {"parametro": "Gás mais leve que o ar", "valor": "densidade relativa < 0,8", "item": "4.4.4, Nota 1"},
+    {"parametro": "Gás mais pesado que o ar", "valor": "densidade relativa > 1,2 (entre 0,8 e 1,2 considerar os dois casos)", "item": "4.4.4, Nota 1"},
+    {"parametro": "Fatores da extensão", "valor": "taxa de liberação, LII (menor LII → zona maior), ventilação, densidade, obstáculos, topografia", "item": "4.4"}
+   ]},
+  {"titulo": "Ventilação", "item": "5, Anexo B",
+   "texto": "Natural ou artificial (geral ou local). O grau de ventilação (alto, médio, baixo) e sua disponibilidade (boa, razoável, pobre), combinados com o grau da fonte, definem o tipo de zona (Tab. B.1). Método quantitativo pelo volume hipotético Vz em que a concentração média fica abaixo de uma fração do LII.",
+   "valores": [
+    {"parametro": "Vento mínimo para áreas externas", "valor": "0,5 m/s", "item": "B.4"},
+    {"parametro": "Fator de segurança k — fonte contínua/primária", "valor": "0,25 (Vz com concentração ≤ 0,25 LII)", "item": "Anexo B", "nota": "fonte secundária usa 0,5"},
+    {"parametro": "Ventilação alta (extensão desprezível)", "valor": "quando Vz < 0,1 m³", "item": "Anexo B"}
+   ]},
+  {"titulo": "Documentação", "item": "6",
+   "texto": "Registrar a classificação: desenhos em planta e elevação com tipo e extensão das zonas, folhas de dados dos materiais (ponto de fulgor, LII, densidade, temperatura de ignição, grupo e classe de temperatura) e lista das fontes de risco.",
+   "valores": []}
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "id": "DIN-931-1",
+ "titulo": "DIN 931-1:1987 — Parafusos sextavados com haste, M1,6 a M39 — Graus A e B",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafuso sextavado parcialmente roscado (com haste lisa), grau A até M24 e comprimento ≤ 10d ou 150 mm, grau B acima. Usada junto com a ISO 4014 (DIN ISO 4014) e prevista para ser retirada (a DIN EN ISO 4014 a substitui). Diferenças em relação à ISO nas notas explicativas.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M1,6 a M39",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões e requisitos",
+   "item": "2–4",
+   "texto": "Tabela com abertura s, altura k, diâmetros e comprimentos; grau A acima da linha escalonada, B abaixo; ponta K conforme DIN 78 (até M4 pode ser sem chanfro); rosca incompleta ≤ 2P. Requisitos de material e classes pela DIN ISO 898-1 / DIN 267.",
+   "valores": []
+  }
+ ]
+}

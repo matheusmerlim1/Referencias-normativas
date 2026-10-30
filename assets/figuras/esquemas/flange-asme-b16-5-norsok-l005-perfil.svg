@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 680" width="1080" height="680" role="img" aria-label="Flange compacto NORSOK L-005 WN — corte (A, B, DW3, HW5, X, Y) e detalhe da face/canal IX">
+<title>Flange compacto NORSOK L-005 WN — corte (A, B, DW3, HW5, X, Y) e detalhe da face/canal IX (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Flange compacto NORSOK L-005 WN — corte (A, B, DW3, HW5, X, Y) e detalhe da face/canal IX</text>
+<line class="c" x1="260" y1="90" x2="260" y2="520"/>
+<path class="s" d="M310,470 L310,140 L350,140 L350,310 Q352,350 390,360 L490,360 L490,470 z"/>
+<path class="s" d="M210,470 L210,140 L170,140 L170,310 Q168,350 130,360 L30,360 L30,470 z"/>
+<rect class="w" x="420" y="360" width="22" height="110"/>
+<rect class="w" x="78" y="360" width="22" height="110"/>
+<g id="cota-A" class="cota"><line class="e" x1="170" y1="137" x2="170" y2="104"/><line class="e" x1="350" y1="137" x2="350" y2="104"/><line class="d" x1="170" y1="110" x2="350" y2="110" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="260" y="103">ØA</text></g>
+<g id="cota-B" class="cota"><line class="d" x1="210" y1="170" x2="310" y2="170" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="260" y="164">ØB</text></g>
+<g id="cota-DW3" class="cota"><line class="e" x1="30" y1="473" x2="30" y2="536"/><line class="e" x1="490" y1="473" x2="490" y2="536"/><line class="d" x1="30" y1="530" x2="490" y2="530" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="260" y="548">ØDW3</text></g>
+<g id="cota-HW5" class="cota"><line class="e" x1="493" y1="140" x2="536" y2="140"/><line class="e" x1="493" y1="470" x2="536" y2="470"/><line class="d" x1="530" y1="140" x2="530" y2="470" marker-start="url(#a)" marker-end="url(#a)"/><text x="537" y="310">HW5</text></g>
+<g id="cota-X" class="cota"><line class="d" x1="409" y1="360" x2="409" y2="305" marker-start="url(#a)" marker-end="url(#a)"/><text x="430" y="320">X</text></g>
+<g id="cota-Y" class="cota"><line class="d" x1="324" y1="229" x2="350" y2="229" marker-end="url(#a)"/><line class="d" x1="390" y1="229" x2="364" y2="229" marker-end="url(#a)"/><line class="d" x1="350" y1="229" x2="364" y2="229"/><text x="380" y="225">Y</text></g>
+<g id="cota-transicao" class="cota"><line class="d" x1="380" y1="265" x2="360" y2="342" marker-end="url(#a)"/><text x="380" y="270">transição elíptica</text></g>
+<g id="cota-BCD" class="cota"><line class="e" x1="89" y1="473" x2="89" y2="506"/><line class="e" x1="431" y1="473" x2="431" y2="506"/><line class="d" x1="89" y1="500" x2="431" y2="500" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="260" y="518">BCD</text></g>
+<g id="cota-L" class="cota"><line class="d" x1="530" y1="405" x2="442" y2="410" marker-end="url(#a)"/><text x="534" y="410">ØL</text></g>
+<text class="b" x="560" y="120">Detalhe da face e do canal do anel IX</text>
+<path class="s" d="M560,470 L620,470 L640,430 L660,470 L890,456 Q900,454 902,442 L920,240 L560,240 z"/>
+<line class="h" x1="560" y1="470" x2="940" y2="470"/>
+<g id="cota-E1" class="cota"><line class="e" x1="583" y1="470" x2="606" y2="470"/><line class="e" x1="583" y1="430" x2="606" y2="430"/><line class="d" x1="600" y1="470" x2="600" y2="430" marker-start="url(#a)" marker-end="url(#a)"/><text x="607" y="455">E1</text></g>
+<g id="cota-DA1" class="cota"><line class="d" x1="540" y1="500" x2="620" y2="500" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="580" y="520">DA1 (até o eixo)</text></g>
+<g id="cota-DA3" class="cota"><line class="d" x1="540" y1="540" x2="660" y2="540" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="620" y="560">DA3</text></g>
+<g id="cota-alfaA2" class="cota"><path class="d" d="M610,470 A50,50 0 0,1 638.1,425.1" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="604" y="440">αA2</text></g>
+<g id="cota-R1" class="cota"><line class="d" x1="680" y1="375" x2="640" y2="432" marker-end="url(#a)"/><text x="684" y="380">R1</text></g>
+<g id="cota-R2" class="cota"><line class="d" x1="590" y1="385" x2="620" y2="468" marker-end="url(#a)"/><text class="en" x="586" y="390">R2</text></g>
+<g id="cota-DW1" class="cota"><line class="d" x1="540" y1="580" x2="700" y2="580" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="640" y="600">DW1</text></g>
+<g id="cota-E2" class="cota"><line class="d" x1="699" y1="494" x2="699" y2="468" marker-end="url(#a)"/><line class="d" x1="699" y1="414" x2="699" y2="440" marker-end="url(#a)"/><line class="d" x1="699" y1="468" x2="699" y2="440"/><text x="710" y="430">E2</text></g>
+<g id="cota-alfaB1" class="cota"><path class="d" d="M860,470 A200,200 0 0,0 859.5,456" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="889.9" y="467">αB1</text></g>
+<g id="cota-DW2" class="cota"><line class="d" x1="540" y1="220" x2="890" y2="220" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="720" y="214">DW2</text></g>
+<g id="cota-HW3" class="cota"><line class="e" x1="923" y1="240" x2="966" y2="240"/><line class="e" x1="923" y1="470" x2="966" y2="470"/><line class="d" x1="960" y1="240" x2="960" y2="470" marker-start="url(#a)" marker-end="url(#a)"/><text x="967" y="360">HW3</text></g>
+<g id="cota-alfaB2" class="cota"><path class="d" d="M902,392 A50,50 0 0,1 907.2,392.3" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="905.5" y="381.1">αB2</text></g>
+<g id="cota-R3" class="cota"><line class="d" x1="950" y1="495" x2="900" y2="452" marker-end="url(#a)"/><text x="954" y="500">R3</text></g>
+<g id="cota-canaleta" class="cota"><line class="d" x1="560" y1="635" x2="640" y2="450" marker-end="url(#a)"/><text x="560" y="640">rugosidade: canal IX, heel e face — ver ficha</text></g>
+<text class="n" x="20" y="668">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

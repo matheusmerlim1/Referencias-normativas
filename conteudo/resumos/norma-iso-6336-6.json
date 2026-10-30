@@ -1,0 +1,18 @@
+{
+ "id": "ISO-6336-6",
+ "titulo": "ISO 6336-6:2006 — Capacidade de carga de engrenagens cilíndricas — Parte 6: Cálculo da vida em serviço sob carga variável",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1–4",
+   "texto": "Cálculo da vida (ou segurança) de engrenagens sob espectro de carga variável, a partir dos métodos das Partes 2 e 3 e da curva S-N do material. Determinação dos espectros de carga/tensão e uso adequado do fator de aplicação.",
+   "valores": []
+  },
+  {
+   "titulo": "Cálculo",
+   "item": "5, Anexos",
+   "texto": "Regra de Palmgren-Miner de dano acumulado sobre os blocos do espectro (tensão × número de ciclos), comparado ao dano admissível; obtenção do coeficiente de segurança equivalente. Anexos com exemplos.",
+   "valores": []
+  }
+ ]
+}

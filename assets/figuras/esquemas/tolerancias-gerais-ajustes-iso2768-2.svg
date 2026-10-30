@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380" role="img" aria-label="NBR ISO 2768-2 — retitude/planeza, perpendicularidade e simetria">
+<title>NBR ISO 2768-2 — retitude/planeza, perpendicularidade e simetria</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2;stroke-linejoin:round}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2.2;stroke-linejoin:round}
+  .w{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .z{fill:#2e86c1;fill-opacity:.18;stroke:#2e86c1;stroke-width:1.4;stroke-dasharray:6 4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:1}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.4;stroke-dasharray:7 5}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .p{font-size:14px}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .r{text-anchor:end}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+<text class="t m" x="480" y="30">NBR ISO 2768-2 — tolerâncias geométricas gerais (classes H, K, L = valor de t)</text>
+<text class="m b" x="160" y="62">Tabela 1 — retitude e planeza</text>
+<path class="s" d="M40,140 C80,128 120,150 160,136 C200,124 240,146 280,134 L280,200 L40,200 Z"/>
+<g id="cota-retitude" class="cota"><path class="z" d="M30,126 L300,126"/><path class="z" d="M30,150 L300,150"/><path class="d" d="M300,126 L300,150" marker-start="url(#a)" marker-end="url(#a)"/><text class="b" x="306" y="143">t</text></g>
+<g id="cota-comprimento" class="cota"><path class="e" d="M40,200 L40,240"/><path class="e" d="M280,200 L280,240"/><path class="d" d="M40,232 L280,232" marker-start="url(#a)" marker-end="url(#a)"/><text class="m p" x="160" y="254">comprimento nominal</text></g>
+<text class="m b" x="480" y="62">Tabela 2 — perpendicularidade</text>
+<path class="s" d="M380,230 L600,230 L600,200 L420,200 L420,100 L380,100 Z"/>
+<g id="cota-perpendicularidade" class="cota"><path class="z" d="M380,96 L410,96 L410,230 L380,230 Z"/><path class="e" d="M380,96 L380,80"/><path class="e" d="M410,96 L410,80"/><path class="d" d="M350,86 L380,86" marker-end="url(#a)"/><path class="d" d="M440,86 L410,86" marker-end="url(#a)"/><text class="b" x="444" y="82">t</text></g>
+<g id="cota-lado-maior" class="cota"><path class="e" d="M600,230 L600,262"/><path class="e" d="M380,230 L380,262"/><path class="d" d="M380,255 L600,255" marker-start="url(#a)" marker-end="url(#a)"/><text class="m p" x="490" y="278">lado maior = referência</text></g>
+<g id="cota-lado-menor" class="cota"><path class="e" d="M380,100 L350,100"/><path class="d" d="M355,100 L355,230" marker-start="url(#a)" marker-end="url(#a)"/><text class="p" x="345" y="165" text-anchor="middle" transform="rotate(-90 345 165)">lado menor</text></g>
+<text class="m b" x="810" y="62">Tabela 3 — simetria</text>
+<path class="s" d="M660,110 L960,110 L960,220 L660,220 Z"/>
+<path class="g" d="M660,140 L740,140 L740,190 L660,190" style="fill:#fff"/>
+<path class="c" d="M650,165 L975,165"/>
+<g id="cota-simetria" class="cota"><path class="z" d="M650,158 L760,158 L760,172 L650,172 Z"/><path class="e" d="M790,100 L752,158"/><text class="n" x="796" y="86">t (centrada no plano médio</text><text class="n" x="796" y="102">do elemento de referência)</text></g>
+<g id="cota-comprimento-simetria" class="cota"><path class="e" d="M660,220 L660,262"/><path class="e" d="M960,220 L960,262"/><path class="d" d="M660,255 L960,255" marker-start="url(#a)" marker-end="url(#a)"/><text class="m n" x="810" y="278">comprimento nominal (maior elemento = referência)</text></g>
+<text class="p" x="40" y="320">t = valor tabelado para a classe H, K ou L. Planeza: maior lado da superfície (ou diâmetro). Perpendicularidade: o lado MAIOR é a</text>
+<text class="p" x="40" y="340">referência e entra-se na tabela pelo lado MENOR. Simetria: o maior dos dois elementos é a referência. Exemplos da norma: Figura B.5.</text>
+
+<text class="n" x="500" y="368" text-anchor="middle">Esquema ilustrativo, fora de escala (não é desenho da norma) — rótulos = colunas da tabela</text>
+</svg>

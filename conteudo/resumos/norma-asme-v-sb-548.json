@@ -1,0 +1,18 @@
+{
+ "id": "ASME-V-SB-548",
+ "titulo": "Seção V, SB-548 — Ultrassom de chapas de alumínio para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Inspeção ultrassônica pulso-eco de chapas de liga de alumínio para vasos de pressão, para detectar descontinuidades grosseiras paralelas à superfície (trincas, rupturas, dupla laminação). Artigo normativo adotado pela ASME Seção V (Ensaios Não Destrutivos), aplicável quando o Código ou o pedido o invoca.",
+   "valores": [
+    {
+     "parametro": "Espessura mínima coberta",
+     "valor": "0,500 in (12,7 mm)",
+     "item": "1.1"
+    }
+   ]
+  }
+ ]
+}

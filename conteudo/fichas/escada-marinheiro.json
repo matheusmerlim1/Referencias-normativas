@@ -1,0 +1,2626 @@
+{
+  "id": "escada-marinheiro",
+  "titulo": "Escada marinheiro (fixa vertical)",
+  "categoria": "Acessos e circulação",
+  "resumo": "Escada fixa vertical (tipo marinheiro, 75°–90°) com barras/degraus horizontais, para acesso a máquinas, plataformas, tanques e estruturas offshore. Reúne largura, espaçamento das barras, afastamentos, altura máxima de lance, plataformas de descanso, gaiola de proteção, trava-quedas (linha de vida vertical), degraus individuais embutidos e escada inclinada (45°–60°) conforme NR-12, NR-18, NR-34, ABS e desenho padrão Equinor/Peregrino.",
+  "palavras_chave": [
+    "escada marinheiro",
+    "escada de marinheiro",
+    "marinheiro",
+    "escada vertical",
+    "escada fixa vertical",
+    "escada tipo marinheiro",
+    "gaiola",
+    "gaiola de proteção",
+    "guarda-corpo de escada vertical",
+    "arco de gaiola",
+    "trava-quedas",
+    "trava quedas",
+    "linha de vida vertical",
+    "trilho trava-quedas",
+    "SPIQ",
+    "plataforma de descanso",
+    "patamar de descanso",
+    "barra",
+    "barras horizontais",
+    "degrau embutido",
+    "degraus individuais",
+    "grampo",
+    "escada de grampos",
+    "montante",
+    "longarina",
+    "portão de segurança",
+    "cancela",
+    "ladder",
+    "vertical ladder",
+    "fixed ladder",
+    "caged ladder",
+    "safety cage",
+    "ladder cage",
+    "hoop",
+    "rung",
+    "rungs",
+    "stringer",
+    "climber safety rail",
+    "fall arrester",
+    "individual rung ladder",
+    "inclined ladder",
+    "ship ladder",
+    "safety gate",
+    "drop bar",
+    "staggered ladder",
+    "landing",
+    "NR-35",
+    "NR 35",
+    "trabalho em altura",
+    "escada de uso individual",
+    "SPQ",
+    "SPCQ",
+    "linha de vida",
+    "ancoragem",
+    "ponto de ancoragem",
+    "zona livre de queda",
+    "ZLQ",
+    "fator de queda",
+    "cinturão paraquedista",
+    "talabarte",
+    "absorvedor de energia",
+    "plataforma basculante",
+    "fall protection",
+    "lifeline",
+    "anchor point",
+    "DNV",
+    "DNV-OS-C101",
+    "PMA",
+    "permanent means of access",
+    "offshore"
+  ],
+  "relacionadas": [
+    "escada-degraus",
+    "guarda-corpo",
+    "passarela-plataforma-rampa",
+    "escada-portatil",
+    "ancoragem-linha-de-vida"
+  ],
+  "calculadora": "escada-marinheiro",
+  "figuras": [
+    {
+      "arquivo": "esquemas/escada-marinheiro-angulo.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ângulo α do lance (com o quadrante das faixas de meio de acesso), desnível, alcance a partir do eixo e desvio (skew) na vista frontal.",
+      "norma": "NR-12",
+      "item": "Esquema",
+      "pagina": 33,
+      "grupo": [
+        "Quando usar / ângulo"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Anexo III, Figura 1). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-marinheiro-vista-frontal.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — vista frontal: largura entre montantes, eixos dos montantes, espaçamento das barras, piso → 1ª barra, seção da barra e do montante, suportes e obstrução lateral.",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Esquema",
+      "pagina": 1,
+      "grupo": [
+        "Largura",
+        "Barras (degraus) — espaçamento",
+        "Barras (degraus) — seção e acabamento",
+        "Fixação e cargas",
+        "Afastamentos e espaço livre"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Front view / Section A-A). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-marinheiro-vista-lateral.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — vista lateral: eixo da barra → estrutura (espaço para os pés), dorso do montante → estrutura, espaço livre à frente e pé-direito.",
+      "norma": "ABS-ERGO",
+      "item": "Esquema",
+      "pagina": 23,
+      "grupo": [
+        "Afastamentos e espaço livre"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Sec. 4, 3.7, Figura 3). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-marinheiro-saida-topo.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — saída no topo: montantes acima do piso, passagem (step across), altura do portão; detalhe de escotilha com alça.",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Esquema",
+      "pagina": 1,
+      "grupo": [
+        "Saída no topo"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Detail 1). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-marinheiro-gaiola.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — gaiola: altura da escada, início da gaiola, gaiola acima do piso, espaçamento dos arcos; planta com R, Ø, barra → centro e barras verticais.",
+      "norma": "ABS-ERGO",
+      "item": "Esquema",
+      "pagina": 34,
+      "grupo": [
+        "Gaiola de proteção"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Sec. 4, 4.5, Figuras 13 e 14). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-marinheiro-plataformas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — lances escalonados com plataforma de descanso (altura total, entre plataformas, eixos, separação, borda) e plantas da plataforma ao lado da escada e da abertura atravessada pela escada.",
+      "norma": "ABS-ERGO",
+      "item": "Esquema",
+      "pagina": 25,
+      "grupo": [
+        "Altura do lance e plataformas de descanso"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Sec. 4, 3.7, Figuras 5 e 6). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-marinheiro-trava-quedas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — trava-quedas: início e topo do trilho, folga B do eixo do trilho ao montante, altura da escada, seção do trilho e distância à superfície oposta.",
+      "norma": "ABS-ERGO",
+      "item": "Esquema",
+      "pagina": 36,
+      "grupo": [
+        "Trava-quedas / linha de vida vertical"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Sec. 4, 4.6, Figura 15). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-marinheiro-protecao-borda.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — escada junto à borda do convés com guarda-corpo vertical: distância à borda e vão até o topo da escada.",
+      "norma": "ABS-ERGO",
+      "item": "Esquema",
+      "pagina": 39,
+      "grupo": [
+        "Proteção contra queda secundária (base da escada)"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Sec. 4, 5.2.1, Tabela 3, Figuras 16 e 17). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-marinheiro-degraus-individuais.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — degraus individuais: largura, espaçamento, batente lateral, altura vencida, profundidade (afastamento da parede) e escada em D.",
+      "norma": "ABS-ERGO",
+      "item": "Esquema",
+      "pagina": 27,
+      "grupo": [
+        "Degraus individuais (embutidos)"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Sec. 4, 3.8, Figura 7). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-marinheiro-inclinada.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — escada inclinada: ângulo α, espaçamento e profundidade dos degraus, altura e Ø do corrimão, altura do lance, altura livre, patamar, montantes acima do patamar e largura entre corrimãos.",
+      "norma": "ABS-ERGO",
+      "item": "Esquema",
+      "pagina": 29,
+      "grupo": [
+        "Escada inclinada (45°–60°)"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Sec. 4, 3.9, Figuras 8, 9 e 10). Sem valores: o site escreve o valor do requisito na cota destacada."
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Condição de uso (máquinas)",
+      "valor": "Só na impossibilidade técnica de elevador, rampa, passarela, plataforma ou escada de degraus",
+      "norma": "NR-12",
+      "item": "Anexo III, 1.3",
+      "pagina": 33
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Ângulo de lance — escada tipo marinheiro",
+      "valor": "75° a 90°, elementos horizontais são barras ou travessas",
+      "min": 75,
+      "max": 90,
+      "unidade": "°",
+      "norma": "NR-12",
+      "item": "Anexo IV (Glossário) / Anexo III, Figura 1 (E)",
+      "pagina": 49,
+      "cota": "esquemas/escada-marinheiro-angulo.svg#angulo"
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Ângulo — escada fixa tipo vertical",
+      "valor": "75° a 90°",
+      "min": 75,
+      "max": 90,
+      "unidade": "°",
+      "norma": "NR-18",
+      "item": "18.8.2 c)",
+      "pagina": 16,
+      "cota": "esquemas/escada-marinheiro-angulo.svg#angulo"
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Ângulo — escada vertical (vertical ladder)",
+      "valor": "80° a 90°",
+      "min": 80,
+      "max": 90,
+      "unidade": "°",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.1 Tabela 2 / Figura 3 (E)",
+      "pagina": 21,
+      "cota": "esquemas/escada-marinheiro-angulo.svg#angulo"
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Desvio angular (skew) da escada",
+      "valor": "≤ 2°",
+      "max": 2,
+      "unidade": "°",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 3 (H)",
+      "pagina": 23,
+      "cota": "esquemas/escada-marinheiro-angulo.svg#desvio"
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Desnível que exige escada vertical, inclinada ou rampa",
+      "valor": "> 300 mm (também para passar sobre tubos/obstáculos baixos)",
+      "min": 300,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.1",
+      "pagina": 21,
+      "cota": "esquemas/escada-marinheiro-angulo.svg#desnivel"
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Trabalho com as duas mãos",
+      "valor": "Não executar a partir da escada vertical — prover plataforma de trabalho",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.5 ii)",
+      "pagina": 22
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Alcance a partir da escada",
+      "valor": "Distância do eixo da escada ao objeto a alcançar ≤ 965 mm",
+      "max": 965,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.3.1 ii)",
+      "pagina": 22,
+      "cota": "esquemas/escada-marinheiro-angulo.svg#alcance"
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Quando usar escada vertical",
+      "valor": "Quando não houver espaço para escada de degraus ou rampa; não é meio primário de fuga (só acesso/fuga secundários, acessos pouco usados)",
+      "norma": "ASTM-F1166",
+      "item": "11.1.2.3 / 11.4.1.6",
+      "pagina": 93
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Ângulo de inclinação — escada vertical",
+      "valor": "75° a 90° com a horizontal; preferido 90°",
+      "min": 75,
+      "max": 90,
+      "unidade": "°",
+      "norma": "ASTM-F1166",
+      "item": "11.4.1.5 / Tabela 22",
+      "pagina": 105,
+      "cota": "esquemas/escada-marinheiro-angulo.svg#angulo"
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Alcance a partir da escada",
+      "valor": "Distância do eixo da escada a qualquer objeto a alcançar ≤ 965 mm (38 in.)",
+      "max": 965,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.4.1.3",
+      "pagina": 103,
+      "cota": "esquemas/escada-marinheiro-angulo.svg#alcance"
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Trabalho com as duas mãos",
+      "valor": "Escada vertical não é adequada: prover plataforma de trabalho (ou ponto de ancoragem para o trabalhador se prender)",
+      "norma": "ASTM-F1166",
+      "item": "11.4.1.4 / 11.4.1.7",
+      "pagina": 103
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Fixação e orientação",
+      "valor": "Fixada em estrutura permanente (nunca em objeto removível); usuário de frente para a estrutura; barreira no lado de trás se puder ser escalada pelo lado errado",
+      "norma": "ASTM-F1166",
+      "item": "11.4.1.1 / 11.4.1.2 / 11.4.1.8",
+      "pagina": 103
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Escada vertical para escotilha de convés como rota de fuga",
+      "valor": "Não usar, exceto em embarcações < 19,8 m (65 ft) ou como no máximo um dos meios de fuga do compartimento",
+      "norma": "ASTM-F1166",
+      "item": "11.1.4.2",
+      "pagina": 93
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Campo de aplicação do Anexo III (trabalho em altura)",
+      "valor": "Escadas de uso individual; não alcança as escadas de uso coletivo; não altera requisitos das demais NRs no campo de cada uma",
+      "norma": "NR-35",
+      "item": "Anexo III, 2.1, 2.1.1 e 2.2",
+      "pagina": 16,
+      "nota": "Anexo III vigente desde 02/01/2026 (Portaria MTE 1.860/2025). Em acesso a máquinas continua valendo a NR-12; em obra, a NR-18."
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Ângulo — escada fixa vertical",
+      "valor": "Mais de 75° até 90°, elementos horizontais são degraus",
+      "min": 75,
+      "max": 90,
+      "unidade": "°",
+      "norma": "NR-35",
+      "item": "Anexo III, Glossário",
+      "pagina": 21,
+      "nota": "Entre mais de 60° e 75° a NR-35 chama de 'escada de inclinação elevada'. Limite exclusivo: 'mais de 75°' — pela NR-35, 75° exatos é 'inclinação elevada', enquanto NR-12 Anexo III, NR-18 18.8.2 c) e ASTM incluem 75° na escada vertical.",
+      "cota": "esquemas/escada-marinheiro-angulo.svg#angulo"
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Hierarquia na escolha do meio de acesso fixo",
+      "valor": "a) acesso direto do solo ou piso; b) rampa ou escada de uso coletivo; c) escada de inclinação elevada; d) escada fixa vertical",
+      "norma": "NR-35",
+      "item": "Anexo III, 4.1.2",
+      "pagina": 17,
+      "nota": "Item com 'linha de corte' (Portaria MTE 1.860/2025, art. 2º) — a regra de transição não está no texto da NR; consultar a Portaria."
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Condição de uso da escada fixa vertical de uso individual",
+      "valor": "Só em caso de comprovada inviabilidade técnica de outros meios de acesso",
+      "norma": "NR-35",
+      "item": "Anexo III, 4.1.2.1",
+      "pagina": 17,
+      "nota": "Item com 'linha de corte' (Portaria MTE 1.860/2025, art. 2º) — a regra de transição não está no texto da NR; consultar a Portaria."
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Análise de risco prévia",
+      "valor": "Uso de escada como meio de acesso ou posto de trabalho em altura precedido de AR (itens 35.5.2 e 35.5.5), considerando o equipamento de acesso mais adequado (segurança e ergonomia)",
+      "norma": "NR-35",
+      "item": "Anexo III, 4.1.1 e 4.1.1.1",
+      "pagina": 16
+    },
+    {
+      "grupo": "Quando usar / ângulo",
+      "parametro": "Número de usuários simultâneos",
+      "valor": "Uma pessoa de cada vez, exceto quando o fabricante ou projetista especificar uso simultâneo",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.1.3",
+      "pagina": 17
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura da escada",
+      "valor": "0,40 m a 0,60 m",
+      "min": 400,
+      "max": 600,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 e)",
+      "pagina": 39,
+      "calc": [
+        "nr12:largura"
+      ],
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#largura"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura da escada",
+      "valor": "0,4 m a 0,6 m",
+      "min": 400,
+      "max": 600,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.2 c)",
+      "pagina": 16,
+      "calc": [
+        "nr18:largura"
+      ],
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#largura"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Separação entre montantes (stringer separation)",
+      "valor": "400 mm a 450 mm",
+      "min": 400,
+      "max": 450,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 3 (I) / Figura 4 (A)",
+      "pagina": 23,
+      "nota": "Com trilho/cabo trava-quedas e sem gaiola: 225–250 mm de cada lado do trilho (Figura 15 B).",
+      "calc": [
+        "abs:largura"
+      ],
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#largura"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura entre montantes",
+      "valor": "400 mm (300 a 400 mm admissível só em área local)",
+      "min": 300,
+      "max": 400,
+      "unidade": "mm",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Seção B-B / Nota 12",
+      "pagina": 1,
+      "nota": "Lido do desenho (cota da seção B-B).",
+      "calc": [
+        "eqn:largura"
+      ],
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#largura"
+    },
+    {
+      "grupo": "Barras (degraus) — espaçamento",
+      "parametro": "Espaçamento entre barras horizontais",
+      "valor": "0,25 m a 0,30 m",
+      "min": 250,
+      "max": 300,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 h)",
+      "pagina": 39,
+      "calc": [
+        "nr12:passo"
+      ],
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#espacamento"
+    },
+    {
+      "grupo": "Barras (degraus) — espaçamento",
+      "parametro": "Espaçamento uniforme dos degraus",
+      "valor": "0,25 m a 0,3 m",
+      "min": 250,
+      "max": 300,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.2 g)",
+      "pagina": 16,
+      "calc": [
+        "nr18:passo"
+      ],
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#espacamento"
+    },
+    {
+      "grupo": "Barras (degraus) — espaçamento",
+      "parametro": "Distância entre barras (rungs), iguais em todo o lance",
+      "valor": "≥ 275 mm e ≤ 300 mm",
+      "min": 275,
+      "max": 300,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.4 i) / Figura 3 (G)",
+      "pagina": 23,
+      "calc": [
+        "abs:passo"
+      ],
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#espacamento"
+    },
+    {
+      "grupo": "Barras (degraus) — espaçamento",
+      "parametro": "Espaçamento entre barras (RS), todas iguais",
+      "valor": "mín. 250 / máx. 300 mm",
+      "min": 250,
+      "max": 300,
+      "unidade": "mm",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Front view",
+      "pagina": 1,
+      "nota": "Lido do desenho.",
+      "calc": [
+        "eqn:passo"
+      ],
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#espacamento"
+    },
+    {
+      "grupo": "Barras (degraus) — espaçamento",
+      "parametro": "Piso até a primeira barra",
+      "valor": "≤ 0,55 m",
+      "max": 550,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 i)",
+      "pagina": 39,
+      "calc": [
+        "nr12:primeira"
+      ],
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#primeira-barra"
+    },
+    {
+      "grupo": "Barras (degraus) — espaçamento",
+      "parametro": "Piso até a primeira barra",
+      "valor": "≤ 0,4 m",
+      "max": 400,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.2 i)",
+      "pagina": 17,
+      "calc": [
+        "nr18:primeira"
+      ],
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#primeira-barra"
+    },
+    {
+      "grupo": "Barras (degraus) — espaçamento",
+      "parametro": "Piso até a primeira barra",
+      "valor": "mín. 180 / máx. 290 mm, sem exceder o espaçamento entre duas barras",
+      "min": 180,
+      "max": 290,
+      "unidade": "mm",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Front view / Nota 11",
+      "pagina": 1,
+      "nota": "Cota lida do desenho; condição na Nota 11.",
+      "calc": [
+        "eqn:primeira"
+      ],
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#primeira-barra"
+    },
+    {
+      "grupo": "Barras (degraus) — espaçamento",
+      "parametro": "Barra alinhada com o piso de chegada",
+      "valor": "Uma barra nivelada com cada plataforma/convés de embarque ou desembarque",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.4 iv)",
+      "pagina": 22
+    },
+    {
+      "grupo": "Barras (degraus) — espaçamento",
+      "parametro": "Barra superior na saída",
+      "valor": "Nivelada com o topo do gradeamento/plataforma (T.O. grating/platf./rung); sem bocel no gradeamento",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Detail 1 / Nota 8B",
+      "pagina": 1,
+      "nota": "Lido do desenho."
+    },
+    {
+      "grupo": "Barras (degraus) — seção e acabamento",
+      "parametro": "Diâmetro ou espessura das barras",
+      "valor": "0,025 m a 0,038 m",
+      "min": 25,
+      "max": 38,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 k)",
+      "pagina": 39,
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#diametro-barra"
+    },
+    {
+      "grupo": "Barras (degraus) — seção e acabamento",
+      "parametro": "Seção da barra (rung) — escada vertical",
+      "valor": "Quadrada 25 × 25 mm (aresta para cima) ou redonda Ø 25 mm",
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.4 ii) / Figura 3 (F)",
+      "pagina": 23,
+      "nota": "No PDF o primeiro número da barra quadrada e da redonda está ausente (\"mm (1.0 in.) × 25 mm\"); 25 mm deduzido de 1.0 in. As Figuras 4 e 7 dão barra quadrada 22 × 22 mm e redonda Ø 25 mm.",
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#diametro-barra"
+    },
+    {
+      "grupo": "Barras (degraus) — seção e acabamento",
+      "parametro": "Seção da barra (rung) — escada escalonada/degraus individuais",
+      "valor": "Quadrada 22 × 22 mm (aresta para cima) ou redonda Ø 25 mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 4 (E) / Figura 7 (C)",
+      "pagina": 24,
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#diametro-barra"
+    },
+    {
+      "grupo": "Barras (degraus) — seção e acabamento",
+      "parametro": "Perfil da barra",
+      "valor": "Perfil de alumínio Hydro HMA5239 (25 × 27), antiderrapante no topo",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Front view / Section A-A",
+      "pagina": 1,
+      "nota": "Lido do desenho.",
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#diametro-barra"
+    },
+    {
+      "grupo": "Barras (degraus) — seção e acabamento",
+      "parametro": "Superfície das barras",
+      "valor": "Superfícies, formas ou ranhuras que previnam deslizamento",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 l)",
+      "pagina": 39
+    },
+    {
+      "grupo": "Barras (degraus) — seção e acabamento",
+      "parametro": "Atrito das barras (molhado)",
+      "valor": "COF ≥ 0,6",
+      "min": 0.6,
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.1",
+      "pagina": 21
+    },
+    {
+      "grupo": "Barras (degraus) — seção e acabamento",
+      "parametro": "Fixação da barra no montante",
+      "valor": "Barra passante pelo montante e soldada com solda contínua dupla",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.4 iii)",
+      "pagina": 22
+    },
+    {
+      "grupo": "Barras (degraus) — seção e acabamento",
+      "parametro": "Material",
+      "valor": "Materiais ou revestimentos resistentes a intempéries e corrosão (ambiente externo ou corrosivo)",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 b)",
+      "pagina": 39
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Distância da escada à estrutura onde é fixada",
+      "valor": "≥ 0,15 m",
+      "min": 150,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 j)",
+      "pagina": 39,
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#toe"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Distância da escada à estrutura onde é fixada",
+      "valor": "≥ 0,15 m",
+      "min": 150,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.2 j)",
+      "pagina": 17,
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#toe"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Espaço para os pés atrás da escada (toe space)",
+      "valor": "175 mm a 200 mm",
+      "min": 175,
+      "max": 200,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.3.2 iii) / Figura 3 (B)",
+      "pagina": 22,
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#toe"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Espaço livre à frente da escada (área de subida)",
+      "valor": "≥ 750 mm (≥ 600 mm junto a aberturas)",
+      "min": 750,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.3.2 ii) / Figura 3 (C)",
+      "pagina": 22,
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#espaco-frente"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Obstrução parcial — frente e atrás da escada",
+      "valor": "Frente da escada ao eixo da barra: 600 mm; atrás da escada ao eixo da barra: 150 mm",
+      "min": 150,
+      "unidade": "mm",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Nota 10",
+      "pagina": 1,
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#espaco-frente"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Altura livre sobre a escada / plataforma",
+      "valor": "2130 mm (Figura 3 A) — o texto 3.3.2 i) diz mínimo 2500 mm (84.0 in.)",
+      "min": 2130,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.3.2 i) / Figura 3 (A)",
+      "pagina": 22,
+      "nota": "Inconsistência interna do ABS: 84.0 in. = 2134 mm, o que confirma 2130 mm; 2500 mm parece erro de digitação. Adote 2130 mm ou, por segurança, 2500 mm.",
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#pe-direito"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Interferência",
+      "valor": "Nada pode invadir o espaço de subida (caixas elétricas, válvulas, atuadores, tubulação) nem impedir abertura de escotilhas, portas e gradeamentos",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.3.1 iii) e iv)",
+      "pagina": 22
+    },
+    {
+      "grupo": "Fixação e cargas",
+      "parametro": "Resistência",
+      "valor": "Dimensionamento, construção e fixação seguros, suportando os esforços solicitantes",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 a)",
+      "pagina": 39
+    },
+    {
+      "grupo": "Fixação e cargas",
+      "parametro": "Fixação",
+      "valor": "Na base, a cada 3 m, e no topo",
+      "max": 3000,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.2 h)",
+      "pagina": 17,
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#suportes"
+    },
+    {
+      "grupo": "Fixação e cargas",
+      "parametro": "Distância entre fixações/suportes da escada",
+      "valor": "≤ 2,5 m",
+      "max": 2500,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 3 (D)",
+      "pagina": 23,
+      "nota": "A escada vertical permanente deve ser fixada a estrutura permanente (3.3.1 i).",
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#suportes"
+    },
+    {
+      "grupo": "Fixação e cargas",
+      "parametro": "Carga de projeto — escada vertical",
+      "valor": "Conforme uso previsto, mas ≥ carga concentrada de 90 kg (200 lbs); somar o peso da escada e acessórios no cálculo de montantes e fixações",
+      "min": 90,
+      "unidade": "kg",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.2 ii)",
+      "pagina": 22
+    },
+    {
+      "grupo": "Fixação e cargas",
+      "parametro": "Montante (stringer) em função do vão entre suportes",
+      "valor": "Vão 2400–6000 mm: cantoneira L 130 × 65 × 8; vão < 2400 mm: barra chata FB 100 × 10",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Nota 6",
+      "pagina": 1,
+      "nota": "Suportes: chapa PL8 316L; parafusos M16/M12 × 50 DIN 933 com porca DIN 934, contraporca DIN 7967 e arruela DIN 125A, tudo A4 (Supp. Type 1–4).",
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#suportes"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Altura máxima — lance único",
+      "valor": "10,00 m",
+      "max": 10000,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 f)",
+      "pagina": 39,
+      "calc": [
+        "nr12:lance_unico"
+      ],
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#lance-unico"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Altura máxima entre plataformas de descanso (múltiplos lances)",
+      "valor": "6,00 m",
+      "max": 6000,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 g)",
+      "pagina": 39,
+      "calc": [
+        "nr12:entre_plataformas"
+      ],
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#entre-plataformas"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Lances consecutivos — distância entre eixos paralelos",
+      "valor": "≥ 0,70 m",
+      "min": 700,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 g)",
+      "pagina": 39,
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#eixos"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Altura máxima — lance único",
+      "valor": "10 m",
+      "max": 10000,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.2 d)",
+      "pagina": 16,
+      "calc": [
+        "nr18:lance_unico"
+      ],
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#lance-unico"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Altura máxima entre plataformas de descanso (múltiplos lances)",
+      "valor": "6 m",
+      "max": 6000,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.2 e)",
+      "pagina": 16,
+      "calc": [
+        "nr18:entre_plataformas"
+      ],
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#entre-plataformas"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Plataforma de descanso — dimensões mínimas",
+      "valor": "0,6 m × 0,6 m, com proteção contra quedas (18.9.4.1 ou 18.9.4.2)",
+      "min": 600,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.2 f)",
+      "pagina": 16,
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#plat-largura"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Lances em eixos paralelos — distância entre eixos",
+      "valor": "≥ 0,7 m",
+      "min": 700,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.2 k)",
+      "pagina": 17,
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#eixos"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Patamar intermediário de descanso (escada ≥ 6 m)",
+      "valor": "Um para cada lance de 9 m, protegido por guarda-corpo e rodapé",
+      "max": 9000,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.3.11 b)",
+      "pagina": 9,
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#entre-plataformas"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Altura máxima da escada sem plataforma intermediária",
+      "valor": "≤ 6,0 m (acima disso, plataforma intermediária/de ligação)",
+      "max": 6000,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.5 i) / Figura 3 (J)",
+      "pagina": 22,
+      "calc": [
+        "abs:entre_plataformas"
+      ],
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#lance-unico"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Altura máxima — lance único (sem plataforma intermediária)",
+      "valor": "9000 mm",
+      "max": 9000,
+      "unidade": "mm",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Nota 7",
+      "pagina": 1,
+      "calc": [
+        "eqn:lance_unico"
+      ],
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#lance-unico"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Altura máxima entre plataformas (quando há plataforma intermediária)",
+      "valor": "6000 mm",
+      "max": 6000,
+      "unidade": "mm",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Nota 7",
+      "pagina": 1,
+      "calc": [
+        "eqn:entre_plataformas"
+      ],
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#entre-plataformas"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Escada escalonada — separação horizontal entre as duas escadas (montante a montante)",
+      "valor": "≥ 225 mm e ≤ 450 mm",
+      "min": 225,
+      "max": 450,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 4 (B)",
+      "pagina": 24,
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#sep-escadas"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Plataforma de patamar/intermediária — largura",
+      "valor": "≥ 925 mm",
+      "min": 925,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 4 (G) / Figura 5 (B)",
+      "pagina": 24,
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#plat-largura"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Plataforma (escada de lado) — profundidade",
+      "valor": "≥ 750 mm",
+      "min": 750,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 5 (A)",
+      "pagina": 25,
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#plat-prof"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Separação horizontal escada–plataforma",
+      "valor": "≥ 150 mm e ≤ 300 mm",
+      "min": 150,
+      "max": 300,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figuras 4 (F), 5 (D) e 6 (F)",
+      "pagina": 25,
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#sep-plataforma"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Escada escalonada — escada até a borda da plataforma",
+      "valor": "≥ 75 mm e ≤ 150 mm",
+      "min": 75,
+      "max": 150,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 4 (H)",
+      "pagina": 24,
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#borda"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Escada atravessando a plataforma — abertura e área livre",
+      "valor": "Abertura ≥ 750 mm; frente da escada ao fundo da abertura ≥ 750 mm; área livre em frente: profundidade ≥ 750 mm × largura ≥ 925 mm; largura adicional da plataforma em patamar intermediário ≥ 925 mm (Fig. 6 E)",
+      "min": 750,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 6 (A–E)",
+      "pagina": 26,
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#abertura"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Eixo da escada (barras/corrimão) à plataforma ou estrutura de suporte",
+      "valor": "≥ 200 mm",
+      "min": 200,
+      "unidade": "mm",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Section A-A / Detail 1",
+      "pagina": 1,
+      "nota": "Lido do desenho.",
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#sep-plataforma"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Altura máxima de lance contínuo",
+      "valor": "≤ 9,14 m (30 ft); acima disso, patamares intermediários e lances separados de mesmo comprimento",
+      "max": 9140,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.4.5",
+      "pagina": 105,
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#lance-unico"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Plataforma intermediária — área livre",
+      "valor": "≥ 762 mm (30 in.) à frente da escada e ≥ 457 mm (18 in.) de cada lado do eixo; guarda-corpo e rodapé em todos os lados que não dão acesso à escada",
+      "min": 762,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.4.7 / 11.4.7.1",
+      "pagina": 106,
+      "nota": "Ver Fig. 94.",
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#plat-prof"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Separação escada–plataforma lateral",
+      "valor": "Da borda do montante à plataforma ≤ 305 mm (12 in.), preferida 152 mm (6 in.); barra da escada no nível do piso da plataforma",
+      "max": 305,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.4.7.2",
+      "pagina": 106,
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#sep-plataforma"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Separação entre duas escadas (montante a montante) via plataforma intermediária",
+      "valor": "≤ 457 mm (18 in.)",
+      "max": 457,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.4.7.3",
+      "pagina": 107,
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#sep-escadas"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Escada atravessando plataforma — plataforma adicional",
+      "valor": "Abertura conforme Fig. 95; se a plataforma for base de outro lance: plataforma adicional de 915 mm (36 in.) de largura × 1524 mm (60 in.) de profundidade",
+      "min": 915,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.4.7.4",
+      "pagina": 107
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Altura acima da qual exige plataformas de descanso",
+      "valor": "Escada com mais de 10,00 m de altura deve ter plataformas de descanso",
+      "unidade": "mm",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.1.2",
+      "pagina": 18,
+      "nota": "Gatilho: plataformas exigidas acima de 10,00 m (não é limite de altura). Item com 'linha de corte' (Portaria MTE 1.860/2025, art. 2º) — a regra de transição não está no texto da NR; consultar a Portaria.",
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#lance-unico"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Distância máxima entre duas plataformas de descanso",
+      "valor": "no máximo 6,00 m",
+      "max": 6000,
+      "unidade": "mm",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.1.2.1",
+      "pagina": 18,
+      "nota": "Item com 'linha de corte' (Portaria MTE 1.860/2025, art. 2º) — a regra de transição não está no texto da NR; consultar a Portaria.",
+      "cota": "esquemas/escada-marinheiro-plataformas.svg#entre-plataformas"
+    },
+    {
+      "grupo": "Altura do lance e plataformas de descanso",
+      "parametro": "Tipo de plataforma de descanso",
+      "valor": "Projetadas lateralmente ou basculantes",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.1.2.2",
+      "pagina": 18,
+      "nota": "A NR-35 não dá dimensões da plataforma (NR-18 18.8.6.2 f): mín. 0,6 m × 0,6 m)."
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Corrimão ou prolongamento dos montantes acima do piso de saída",
+      "valor": "1,10 m a 1,20 m acima da plataforma de descanso ou piso superior",
+      "min": 1100,
+      "max": 1200,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 d)",
+      "pagina": 39,
+      "calc": [
+        "nr12:saida"
+      ],
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#montantes-acima"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Corrimão ou prolongamento dos montantes acima do piso de saída",
+      "valor": "1,1 m a 1,2 m",
+      "min": 1100,
+      "max": 1200,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.2 b)",
+      "pagina": 16,
+      "calc": [
+        "nr18:saida"
+      ],
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#montantes-acima"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Alças/pegas na chegada (bocas de visita, passagens)",
+      "valor": "≥ 1070 mm acima da plataforma de chegada",
+      "min": 1070,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.6",
+      "pagina": 23,
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#montantes-acima"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Altura dos montantes acima da plataforma (escada escalonada)",
+      "valor": "≥ 1350 mm",
+      "min": 1350,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 4 (D)",
+      "pagina": 24,
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#montantes-acima"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Corrimão de saída acima do piso",
+      "valor": "1100 mm (tubo do corrimão superior Ø 55 × 4)",
+      "min": 1100,
+      "unidade": "mm",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Front view / Section A-A",
+      "pagina": 1,
+      "nota": "Lido do desenho.",
+      "calc": [
+        "eqn:saida"
+      ],
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#montantes-acima"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Cancela basculante (drop bar) ou portão",
+      "valor": "Obrigatório em escadas que atendem elevações ≥ 760 mm; correntes não são permitidas",
+      "min": 760,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.7 (págs. 37–38) e 5.3 (pág. 43)",
+      "pagina": 37,
+      "nota": "Acesso lateral: articula no lado da escada; acesso frontal: articula à direita (olhando da plataforma). Não pode passar da borda da plataforma."
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Portão de segurança autofechante",
+      "valor": "Cobrir toda a largura entre montantes, abrir para longe de quem sobe, resistir a 90 kg na vertical e horizontal",
+      "min": 90,
+      "unidade": "kg",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.8",
+      "pagina": 38
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Portão de segurança",
+      "valor": "Obrigatório em todas as aberturas de escada, abrindo para a passarela/plataforma; largura 720 mm (Hydro Aluminium)",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Nota 5 / Seção D1-D1",
+      "pagina": 1
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Guarda-corpo do item 7 (travessões e rodapé)",
+      "valor": "Escada fixa tipo marinheiro dispensada do item 7 do Anexo III",
+      "norma": "NR-12",
+      "item": "Anexo III, 7.2",
+      "pagina": 35
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Altura da escada a partir da qual exige gaiola",
+      "valor": "> 3,50 m",
+      "min": 3500,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 c)",
+      "pagina": 39,
+      "calc": [
+        "nr12:gaiola_se"
+      ],
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#altura-exige"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Início da gaiola",
+      "valor": "A partir de 2,0 m do piso",
+      "min": 2000,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 c)",
+      "pagina": 39,
+      "calc": [
+        "nr12:gaiola_inicio"
+      ],
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#inicio"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Gaiola acima da plataforma/piso superior",
+      "valor": "Ultrapassar em pelo menos 1,10 m a 1,20 m",
+      "min": 1100,
+      "max": 1200,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13 c)",
+      "pagina": 39,
+      "calc": [
+        "nr12:gaiola_topo"
+      ],
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#acima"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Diâmetro da gaiola",
+      "valor": "0,65 m a 0,80 m",
+      "min": 650,
+      "max": 800,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13.1",
+      "pagina": 39,
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#diametro"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Barras verticais e arcos (opção a)",
+      "valor": "Barras verticais a no máx. 0,30 m entre si e arcos a no máx. 1,50 m",
+      "max": 1500,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13.1 a)",
+      "pagina": 40,
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#barras"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Arcos (opção b)",
+      "valor": "Vãos entre arcos de no máx. 0,30 m, com barra vertical de sustentação",
+      "max": 300,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 13.1 b)",
+      "pagina": 40,
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#arcos"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Gaiola — escada com 6 m ou mais",
+      "valor": "A partir de 2 m acima da base até 1 m acima da última superfície de trabalho",
+      "min": 2000,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.3.11 a)",
+      "pagina": 9,
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#inicio"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Altura da escada a partir da qual exige gaiola",
+      "valor": "> 4,5 m; também ≤ 4,5 m se houver risco de queda a nível abaixo da base (ex.: até 1825 mm da borda do convés)",
+      "min": 4500,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.5 i) e vi)",
+      "pagina": 34,
+      "calc": [
+        "abs:gaiola_se"
+      ],
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#altura-exige"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Início da gaiola (acima do piso)",
+      "valor": "≥ 2200 mm e ≤ 2500 mm",
+      "min": 2200,
+      "max": 2500,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 14 (A)",
+      "pagina": 35,
+      "calc": [
+        "abs:gaiola_inicio"
+      ],
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#inicio"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Gaiola acima do piso de chegada (topo e patamares intermediários)",
+      "valor": "1400 mm; no patamar intermediário a gaiola fica aberta do lado do patamar",
+      "min": 1400,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.5 iv) e v)",
+      "pagina": 34,
+      "calc": [
+        "abs:gaiola_topo"
+      ],
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#acima"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Eixo da barra até o centro do raio dos arcos",
+      "valor": "350 mm",
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 13 (A)",
+      "pagina": 34,
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#centro"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Raio dos arcos",
+      "valor": "350 mm (arco inferior: 425 mm)",
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 13 (B)",
+      "pagina": 34,
+      "nota": "Ou atender normas do Estado de bandeira. Barras verticais da gaiola a 40°/40°/10° (desenho da Figura 13).",
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#raio"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Espaçamento vertical entre arcos",
+      "valor": "≤ 1200 mm (Figura 13 C); 1140 a 1220 mm (Figura 14 B)",
+      "min": 1140,
+      "max": 1200,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 13 (C) / Figura 14 (B)",
+      "pagina": 35,
+      "nota": "Faixa que atende às Figuras 13 e 14 ao mesmo tempo.",
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#arcos"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Altura da escada a partir da qual exige gaiola",
+      "valor": "> 3000 mm",
+      "min": 3000,
+      "unidade": "mm",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Nota 7",
+      "pagina": 1,
+      "calc": [
+        "eqn:gaiola_se"
+      ],
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#altura-exige"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Início da gaiola (acima do piso)",
+      "valor": "2200 mm mín. / 3000 mm máx.",
+      "min": 2200,
+      "max": 3000,
+      "unidade": "mm",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Front view",
+      "pagina": 1,
+      "nota": "Lido do desenho.",
+      "calc": [
+        "eqn:gaiola_inicio"
+      ],
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#inicio"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Geometria da gaiola",
+      "valor": "Raio 360 mm, centro a 350 mm da linha das barras; montantes verticais a cada 45°; arcos a no máx. 1500 mm; arcos PL 8 × 50, montantes PL 5 × 50",
+      "max": 1500,
+      "unidade": "mm",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Seção C-C / Section A-A",
+      "pagina": 1,
+      "nota": "Lido do desenho. Saída frontal (D1-D1) com gaiola aberta e portão de 720 mm.",
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#raio"
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Uso obrigatório de SPIQ",
+      "valor": "Escada fixa vertical com altura > 2 m",
+      "min": 2000,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.3",
+      "pagina": 17,
+      "nota": "SPIQ = sistema de ancoragem + elemento de ligação + EPI, conforme NR-35 (Glossário).",
+      "calc": [
+        "nr18:trava_quedas_se"
+      ],
+      "cota": "esquemas/escada-marinheiro-trava-quedas.svg#altura-exige"
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Altura a partir da qual exige trilho/cabo trava-quedas",
+      "valor": "> 6,1 m",
+      "min": 6100,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.5 ii)",
+      "pagina": 34,
+      "nota": "Obrigatório também em toda escada permanente em mastros, kingposts e estruturas similares (4.6 i).",
+      "calc": [
+        "abs:trava_quedas_se"
+      ],
+      "cota": "esquemas/escada-marinheiro-trava-quedas.svg#altura-exige"
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Trilho trava-quedas — material",
+      "valor": "Barra chata de aço inoxidável com dois trava-quedas deslizantes",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.6 ii)",
+      "pagina": 36
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Saída no topo com trava-quedas",
+      "valor": "Montantes projetados para acessar o patamar sem desconectar o trava-quedas",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.6 iii)",
+      "pagina": 36
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Início do trilho trava-quedas (acima do piso)",
+      "valor": "≥ 900 mm e ≤ 950 mm",
+      "min": 900,
+      "max": 950,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 15 (A)",
+      "pagina": 36,
+      "cota": "esquemas/escada-marinheiro-trava-quedas.svg#inicio-trilho"
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Folga interna do eixo do trilho trava-quedas a cada montante (B) / a cada corrimão superior (C)",
+      "valor": "B: 225 mm a 250 mm de cada lado (montantes a ~450–500 mm); C: 380 mm de cada lado",
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 15 (B) e (C)",
+      "pagina": 36,
+      "nota": "Escada com trava-quedas e sem gaiola. Cotas medidas do eixo do trilho, de cada lado (desenho da Figura 15). A norma não traz ≥/≤ em B; leitura como faixa 225–250.",
+      "min": 225,
+      "max": 250,
+      "cota": "esquemas/escada-marinheiro-trava-quedas.svg#folga-trilho"
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Topo do trilho e corrimão acima do piso superior",
+      "valor": "≥ 1070 mm",
+      "min": 1070,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 15 (D)",
+      "pagina": 37,
+      "cota": "esquemas/escada-marinheiro-trava-quedas.svg#topo-trilho"
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Distância à superfície vertical oposta",
+      "valor": "≥ 175 mm e ≤ 200 mm",
+      "min": 175,
+      "max": 200,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 15 (E)",
+      "pagina": 37,
+      "cota": "esquemas/escada-marinheiro-trava-quedas.svg#superficie-oposta"
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Degelo",
+      "valor": "Prover meios de degelo para guarda-corpos e dispositivos de segurança do escalador",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.1",
+      "pagina": 32
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Altura a partir da qual exige proteção positiva contra queda",
+      "valor": "> 6,1 m (20 ft), ou onde a queda possa ser ao mar, sobre equipamento ou outro convés; gaiola sozinha não conta",
+      "min": 6100,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.6.1",
+      "pagina": 107,
+      "cota": "esquemas/escada-marinheiro-trava-quedas.svg#altura-exige"
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Tipo de trava-quedas",
+      "valor": "Preferido: barra chata 6 mm (¼ in.) × 50 mm (2 in.); trilho dentado e cabo aceitáveis; 2 trava-quedas deslizantes por dispositivo; guarda dos cintos junto à escada",
+      "norma": "ASTM-F1166",
+      "item": "11.6.3",
+      "pagina": 107,
+      "cota": "esquemas/escada-marinheiro-trava-quedas.svg#trilho-secao"
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Dimensões com trava-quedas",
+      "valor": "Conforme Fig. 98 'Ladder and Climber Safety Device Dimensions'",
+      "norma": "ASTM-F1166",
+      "item": "11.6.2",
+      "pagina": 107
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Sistema de proteção contra quedas (SPQ)",
+      "valor": "Obrigatório em toda escada fixa vertical de uso individual, conforme item 35.6 e subitens",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.1.1 f)",
+      "pagina": 18,
+      "nota": "O Anexo III não cita gaiola. Pelo 35.6.3, SPIQ é exigido quando o SPCQ não for possível ou não oferecer proteção completa."
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Escadas existentes usadas só como meio de acesso",
+      "valor": "A AR deve avaliar a compatibilidade do SPIQ; com incompatibilidade comprovada (atestada por profissional qualificado ou PLH em segurança do trabalho) pode ser dispensada a alínea f) (SPQ)",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.1.1.1 e 5.2.1.1.2",
+      "pagina": 18,
+      "nota": "Vale para escadas já instaladas ou com projeto em execução na entrada em vigor do anexo (02/01/2026)."
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Força de impacto máxima transmitida ao trabalhador",
+      "valor": "no máximo 6 kN",
+      "max": 6,
+      "unidade": "kN",
+      "norma": "NR-35",
+      "item": "35.6.7 e 35.6.11 d)",
+      "pagina": 6
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "EPI de retenção de queda",
+      "valor": "Cinturão tipo paraquedista conectado ao elemento de engate para retenção de queda indicado pelo fabricante; se o elemento de ligação for talabarte, talabarte integrado com absorvedor de energia",
+      "norma": "NR-35",
+      "item": "35.6.9, 35.6.9.1 e 35.6.9.1.1",
+      "pagina": 6,
+      "nota": "Redação do 35.6.9.1.1 vigente a partir de 02/01/2026."
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Trava-queda deslizante guiado",
+      "valor": "Seguir o fabricante quanto à compatibilidade com a linha de vida vertical e ao comprimento máximo dos extensores",
+      "norma": "NR-35",
+      "item": "35.6.10",
+      "pagina": 6
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Itens da AR para o SPIQ",
+      "valor": "Conexão permanente durante a exposição; distância de queda livre; fator de queda; impacto ≤ 6 kN; zona livre de queda; compatibilidade entre elementos. Trava-quedas posicionado para restringir a queda livre e evitar colisão com estrutura inferior",
+      "norma": "NR-35",
+      "item": "35.6.11 e 35.6.11.1",
+      "pagina": 6
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Zona livre de queda (ZLQ) — definição",
+      "valor": "Espaço mínimo abaixo do ponto de ancoragem (talabarte) ou abaixo dos pés do usuário (trava-quedas) para evitar choque com estrutura, obstáculo ou solo após a queda",
+      "norma": "NR-35",
+      "item": "Glossário",
+      "pagina": 10,
+      "nota": "Redação vigente a partir de 02/01/2026. A NR-35 não dá valor numérico: vem do fabricante/projeto (Anexo II, 5.1.1 c)."
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Inspeção periódica do SPIQ",
+      "valor": "No mínimo uma vez a cada 12 meses (inicial, rotineira e periódica)",
+      "max": 12,
+      "unidade": "meses",
+      "norma": "NR-35",
+      "item": "35.6.6 e 35.6.6.3",
+      "pagina": 5
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Sistema de ancoragem (linha de vida) permanente",
+      "valor": "Projeto e instalação sob responsabilidade de profissional legalmente habilitado; inspeção inicial após instalação/alteração e periódica ≤ 12 meses",
+      "norma": "NR-35",
+      "item": "Anexo II, 4.1.1, 4.1.2 e 4.3",
+      "pagina": 15
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Dimensionamento do sistema de ancoragem",
+      "valor": "Força de impacto de retenção (impactos simultâneos ou sequenciais), esforços em cada parte do sistema e zona livre de queda necessária",
+      "norma": "NR-35",
+      "item": "Anexo II, 5.1.1",
+      "pagina": 15
+    },
+    {
+      "grupo": "Trava-quedas / linha de vida vertical",
+      "parametro": "Marcação dos pontos de ancoragem estrutural",
+      "valor": "Fabricante; lote/série (rastreabilidade); nº máximo de trabalhadores conectados simultaneamente ou força máxima aplicável",
+      "norma": "NR-35",
+      "item": "Anexo II, 3.2.1",
+      "pagina": 14,
+      "nota": "Pontos já instalados sem marcação: reconstituir; sem informação, ensaiar sob PLH e marcar (3.2.1.1 e 3.2.1.1.1)."
+    },
+    {
+      "grupo": "Proteção contra queda secundária (base da escada)",
+      "parametro": "Quando exigir proteção adicional",
+      "valor": "Escada a menos de 1,83 m de outro ponto de queda (borda, porão, convés inferior), queda potencial > 4,6 m e sem proteção ativa (gaiola não conta)",
+      "max": 1830,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 5.1",
+      "pagina": 38,
+      "cota": "esquemas/escada-marinheiro-protecao-borda.svg#dist-borda"
+    },
+    {
+      "grupo": "Proteção contra queda secundária (base da escada)",
+      "parametro": "Guarda-corpo vertical — escada sem gaiola nem trava-quedas",
+      "valor": "Até 760 mm do topo da escada; ≥ 1220 mm para cada lado do eixo; vãos entre travessas ≤ 460 mm (Fig. 16: travessa superior–intermediária ≤ 380 mm; rodapé 100 mm); a ≤ 1830 mm da escada",
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 5.2.1, Tabela 3, Figuras 16 e 17",
+      "pagina": 39,
+      "cota": "esquemas/escada-marinheiro-protecao-borda.svg#gc-folga"
+    },
+    {
+      "grupo": "Proteção contra queda secundária (base da escada)",
+      "parametro": "Guarda-corpo vertical — escada com gaiola e sem trava-quedas",
+      "valor": "Até 760 mm da borda inferior da gaiola; ≥ 1220 mm para cada lado do eixo; vãos ≤ 460 mm; a 1830 mm da escada; gaiola a 2130 mm da plataforma",
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 5.2.2, Tabela 4, Figura 18",
+      "pagina": 42,
+      "nota": "Escada móvel (ex.: lateral de cabine de guindaste): o guarda-corpo continua até 600 mm de cada lado do eixo nos limites de curso (5.2.3).",
+      "cota": "esquemas/escada-marinheiro-protecao-borda.svg#gc-folga"
+    },
+    {
+      "grupo": "Proteção contra queda secundária (base da escada)",
+      "parametro": "Escada perto de borda de convés",
+      "valor": "Evitar a < 1829 mm (72 in.) da borda; se a escada estiver a < 1829 mm, > 610 mm acima da superfície adjacente e a queda total puder exceder 6,1 m (ou ao mar, qualquer altura), prover proteção contra queda (trilho, guarda-corpo estendido ou gaiola — Figs. 99 a 102)",
+      "max": 1829,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.7.1",
+      "pagina": 107,
+      "cota": "esquemas/escada-marinheiro-protecao-borda.svg#dist-borda"
+    },
+    {
+      "grupo": "Degraus individuais (embutidos)",
+      "parametro": "Altura máxima vencida",
+      "valor": "≤ 3,6 m",
+      "max": 3600,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.8 i)",
+      "pagina": 27,
+      "nota": "Degraus fixados diretamente na antepara, tanque ou estrutura; cada um deve suportar o escalador e as cargas de projeto (3.8 ii).",
+      "cota": "esquemas/escada-marinheiro-degraus-individuais.svg#altura-max"
+    },
+    {
+      "grupo": "Degraus individuais (embutidos)",
+      "parametro": "Largura do degrau",
+      "valor": "≥ 400 mm e ≤ 450 mm",
+      "min": 400,
+      "max": 450,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 7 (A)",
+      "pagina": 27,
+      "cota": "esquemas/escada-marinheiro-degraus-individuais.svg#largura"
+    },
+    {
+      "grupo": "Degraus individuais (embutidos)",
+      "parametro": "Profundidade (afastamento da parede)",
+      "valor": "≥ 175 mm e ≤ 200 mm",
+      "min": 175,
+      "max": 200,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 7 (B)",
+      "pagina": 27,
+      "cota": "esquemas/escada-marinheiro-degraus-individuais.svg#profundidade"
+    },
+    {
+      "grupo": "Degraus individuais (embutidos)",
+      "parametro": "Espaçamento entre degraus",
+      "valor": "≥ 275 mm e ≤ 300 mm, iguais em todo o lance",
+      "min": 275,
+      "max": 300,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 7 (D)",
+      "pagina": 27,
+      "cota": "esquemas/escada-marinheiro-degraus-individuais.svg#espacamento"
+    },
+    {
+      "grupo": "Degraus individuais (embutidos)",
+      "parametro": "Batente lateral contra escorregamento do pé",
+      "valor": "50 mm de altura",
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.8 iii) / Figura 7 (E)",
+      "pagina": 27,
+      "cota": "esquemas/escada-marinheiro-degraus-individuais.svg#batente"
+    },
+    {
+      "grupo": "Degraus individuais (embutidos)",
+      "parametro": "Degraus individuais (barras fixadas na estrutura)",
+      "valor": "Só para desnível ≤ 3,66 m (12 ft), com as dimensões das barras de 11.4.2; preferencialmente circulares, Ø ≥ 25 mm (1.0 in.)",
+      "max": 3660,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.9.1",
+      "pagina": 108,
+      "cota": "esquemas/escada-marinheiro-degraus-individuais.svg#altura-max"
+    },
+    {
+      "grupo": "Degraus individuais (embutidos)",
+      "parametro": "Escada em D (D-ring)",
+      "valor": "Só onde não couber escada comum (ex.: paiol de amarras) e com aprovação do contratante; dimensões da Fig. 106",
+      "norma": "ASTM-F1166",
+      "item": "11.10.1",
+      "pagina": 108,
+      "cota": "esquemas/escada-marinheiro-degraus-individuais.svg#d-ring"
+    },
+    {
+      "grupo": "Escada inclinada (45°–60°)",
+      "parametro": "Ângulo de inclinação",
+      "valor": "45° a 60°",
+      "min": 45,
+      "max": 60,
+      "unidade": "°",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Tabela 2 / Figura 8 (F)",
+      "pagina": 21,
+      "cota": "esquemas/escada-marinheiro-inclinada.svg#angulo"
+    },
+    {
+      "grupo": "Escada inclinada (45°–60°)",
+      "parametro": "Espaçamento dos degraus",
+      "valor": "≥ 200 mm e ≤ 300 mm, iguais em todo o lance",
+      "min": 200,
+      "max": 300,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.9.2 i) / Figura 8 (C)",
+      "pagina": 29,
+      "cota": "esquemas/escada-marinheiro-inclinada.svg#espacamento"
+    },
+    {
+      "grupo": "Escada inclinada (45°–60°)",
+      "parametro": "Profundidade do degrau",
+      "valor": "≥ 100 mm (barra quadrada opcional)",
+      "min": 100,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 8 (D)",
+      "pagina": 29,
+      "nota": "Barra quadrada com aresta para cima; degrau inteiro paralelo ao piso; degraus passantes nos montantes com solda contínua dupla (3.9.2).",
+      "cota": "esquemas/escada-marinheiro-inclinada.svg#profundidade"
+    },
+    {
+      "grupo": "Escada inclinada (45°–60°)",
+      "parametro": "Largura entre corrimãos",
+      "valor": "≥ 450 mm e ≤ 560 mm",
+      "min": 450,
+      "max": 560,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 8 (E)",
+      "pagina": 29,
+      "cota": "esquemas/escada-marinheiro-inclinada.svg#largura"
+    },
+    {
+      "grupo": "Escada inclinada (45°–60°)",
+      "parametro": "Altura do corrimão (medida na borda do degrau)",
+      "valor": "≥ 915 mm e ≤ 1000 mm",
+      "min": 915,
+      "max": 1000,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 8 (B)",
+      "pagina": 29,
+      "cota": "esquemas/escada-marinheiro-inclinada.svg#corrimao-altura"
+    },
+    {
+      "grupo": "Escada inclinada (45°–60°)",
+      "parametro": "Corrimão — diâmetro e folga",
+      "valor": "Seção circular Ø 40 a 50 mm; folga ≥ 75 mm até antepara/obstáculo",
+      "min": 40,
+      "max": 50,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.9.3 / Figura 8 (A)",
+      "pagina": 28,
+      "cota": "esquemas/escada-marinheiro-inclinada.svg#diametro"
+    },
+    {
+      "grupo": "Escada inclinada (45°–60°)",
+      "parametro": "Altura contínua máxima do lance",
+      "valor": "≤ 6 m",
+      "max": 6000,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 9 (B e C)",
+      "pagina": 30,
+      "cota": "esquemas/escada-marinheiro-inclinada.svg#altura-lance"
+    },
+    {
+      "grupo": "Escada inclinada (45°–60°)",
+      "parametro": "Altura livre / obstrução sobre a escada",
+      "valor": "Altura livre 2130 mm; obstrução vertical acima da escada 2030 mm",
+      "min": 2030,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 9 (A e H)",
+      "pagina": 30,
+      "cota": "esquemas/escada-marinheiro-inclinada.svg#altura-livre"
+    },
+    {
+      "grupo": "Escada inclinada (45°–60°)",
+      "parametro": "Montantes acima do patamar",
+      "valor": "≥ 1350 mm; guarda-corpo do patamar 1070 mm",
+      "min": 1350,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 9 (I e J)",
+      "pagina": 30,
+      "nota": "Figura 9 (desenho): convés ao patamar inferior ≥ 2,5 m (D); guarda-corpo do patamar com travessa intermediária a 535 mm e superior a mais 535 mm (E, F = 1070 mm).",
+      "cota": "esquemas/escada-marinheiro-inclinada.svg#montantes-acima"
+    },
+    {
+      "grupo": "Escada inclinada (45°–60°)",
+      "parametro": "Patamar",
+      "valor": "Comprimento ≥ 975 mm; largura ≥ 600 mm no último lance; se dá acesso a outro lance, largura ≥ 2× a largura da escada",
+      "min": 975,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 10 (A e B)",
+      "pagina": 31,
+      "cota": "esquemas/escada-marinheiro-inclinada.svg#patamar"
+    },
+    {
+      "grupo": "Escada inclinada (45°–60°)",
+      "parametro": "Patamar em mudança de direção com maca",
+      "valor": "1525 mm de comprimento",
+      "min": 1525,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.9.1 i)",
+      "pagina": 28,
+      "cota": "esquemas/escada-marinheiro-inclinada.svg#patamar"
+    },
+    {
+      "grupo": "Escada inclinada (45°–60°)",
+      "parametro": "Carga de projeto",
+      "valor": "≥ 3 × a carga normal prevista; corrimão ≥ 90 kg em qualquer ponto e direção",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.2 i) e iii)",
+      "pagina": 22
+    },
+    {
+      "grupo": "Escada inclinada (45°–60°)",
+      "parametro": "Escada inclinada 50°–75° (inclined stairs)",
+      "valor": "Não deve ser usada",
+      "min": 50,
+      "max": 75,
+      "unidade": "°",
+      "norma": "ASTM-F1166",
+      "item": "11.1.3 / Tabela 22",
+      "pagina": 93,
+      "nota": "Tabela 22: 'Inclined Stairs 50°–75° — Do Not Use'.",
+      "cota": "esquemas/escada-marinheiro-inclinada.svg#angulo"
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Soldas",
+      "valor": "Filete de 4 mm ou penetração parcial de 4 mm, salvo indicação; soldas esmerilhadas rentes na região do gradeamento",
+      "unidade": "mm",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Notas 2 e 4",
+      "pagina": 1
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Categoria de inspeção",
+      "valor": "Cat. III para aço secundário; Cat. II para aço secundário soldado contra aço primário",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Nota 3",
+      "pagina": 1
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Gradeamento e bocel da plataforma",
+      "valor": "Gradeamento S41×100/35×5 ou 135×5, grau 355, galvanizado; bocel do painel com revestimento antiderrapante (sem bocel na saída frontal)",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Nota 8",
+      "pagina": 1
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Categoria de inspeção de solda (escadas marinheiro)",
+      "valor": "Categoria III — Secundária (visual 100%; MT/UT por amostragem 2–5%)",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Adendo, Tabela 1 (pág. 4) e Tabela 2 (pág. 5)",
+      "pagina": 5,
+      "nota": "Desenho padrão de escada marinheiro do FPSO Peregrino: PE-FD-06-S-ST-20008-001 (substitui YYYY-01-00001)."
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Inspeção e manutenção",
+      "valor": "Inspeção inicial e periódica; retirar de uso se houver defeito que comprometa o desempenho; reparo pelo fabricante, empresa especializada ou trabalhador capacitado, liberada após inspeção",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.1.2 c), 5.1.4, 5.1.4.1 e 5.1.4.1.1",
+      "pagina": 17
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Gaiola acima do piso de chegada",
+      "valor": "1100 mm (arco superior no nível do corrimão de saída)",
+      "min": 1100,
+      "unidade": "mm",
+      "norma": "EQN-VERTICAL-LADDER",
+      "item": "Section A-A / Front view",
+      "pagina": 1,
+      "nota": "Lido do desenho.",
+      "calc": [
+        "eqn:gaiola_topo"
+      ],
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#acima"
+    },
+    {
+      "grupo": "Barras (degraus) — espaçamento",
+      "parametro": "Espaçamento entre barras (eixo a eixo), todas iguais — FPSO Peregrino",
+      "valor": "≤ 305 mm",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Typical caged ladder detail",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "max": 305,
+      "calc": [
+        "fpso:passo"
+      ],
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#espacamento"
+    },
+    {
+      "grupo": "Barras (degraus) — espaçamento",
+      "parametro": "Espaçamento entre barras (eixo a eixo)",
+      "valor": "279 mm (11 in.) a 305 mm (12 in.), igual em todo o lance da base à barra do topo; mesmo passo em lances múltiplos",
+      "min": 279,
+      "max": 305,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.4.2.2 / 11.4.2.3 / Fig. 93 (B)",
+      "pagina": 105,
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#espacamento"
+    },
+    {
+      "grupo": "Barras (degraus) — espaçamento",
+      "parametro": "Barra do topo",
+      "valor": "Nivelada com o piso de chegada (ou com a plataforma lateral de passagem)",
+      "norma": "ASTM-F1166",
+      "item": "11.4.3",
+      "pagina": 105
+    },
+    {
+      "grupo": "Barras (degraus) — espaçamento",
+      "parametro": "Espaçamento entre os degraus",
+      "valor": "entre 0,25 m e 0,3 m",
+      "min": 250,
+      "max": 300,
+      "unidade": "mm",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.1.1 c)",
+      "pagina": 18,
+      "nota": "A NR-35 não fixa a distância do piso à primeira barra (NR-12: ≤ 0,55 m; NR-18: ≤ 0,4 m).",
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#espacamento"
+    },
+    {
+      "grupo": "Barras (degraus) — seção e acabamento",
+      "parametro": "Barra (degrau) — FPSO Peregrino",
+      "valor": "Barra quadrada 22 mm",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Typical caged ladder detail",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "min": 22,
+      "max": 22,
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#diametro-barra"
+    },
+    {
+      "grupo": "Barras (degraus) — seção e acabamento",
+      "parametro": "Seção da barra",
+      "valor": "Tubo circular Ø nominal 25 mm (1 in.) ou tubo quadrado com face plana de 25 mm; preferencialmente com revestimento antiderrapante",
+      "min": 25,
+      "max": 25,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.4.2.1 / Fig. 93 (A)",
+      "pagina": 105,
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#diametro-barra"
+    },
+    {
+      "grupo": "Barras (degraus) — seção e acabamento",
+      "parametro": "Montante (stringer)",
+      "valor": "Tubo, Ø nominal preferido 40 mm (1.5 in.); Fig. 93 (C): 40 a 51 mm; não usar barra chata",
+      "min": 40,
+      "max": 51,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.4.4.1 / 11.4.4.3 / Fig. 93 (C)",
+      "pagina": 105,
+      "nota": "Faixa 40–51 mm lido da tabela da Fig. 93 (imagem, não texto extraível).",
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#montante"
+    },
+    {
+      "grupo": "Barras (degraus) — seção e acabamento",
+      "parametro": "Material (escada externa)",
+      "valor": "Materiais resistentes às intempéries",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.1.1 a)",
+      "pagina": 18
+    },
+    {
+      "grupo": "Barras (degraus) — seção e acabamento",
+      "parametro": "Materiais e acabamento",
+      "valor": "Não podem causar lesões ao usuário durante o uso; se de madeira, peças aplainadas em todas as faces e revestimento (se houver) transparente",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.1.2 b) e d)",
+      "pagina": 17,
+      "nota": "A NR-35 não fixa diâmetro nem seção da barra (NR-12: 25–38 mm)."
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Montantes — FPSO Peregrino",
+      "valor": "Tubo Ø49 × 5; eixos a 203 + 203 = 406 mm",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Typical caged ladder detail",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "min": 406,
+      "max": 406,
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#largura-eixos"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Comprimento da barra (largura útil)",
+      "valor": "≥ 406 mm (16 in.); preferido 457 mm (18 in.)",
+      "min": 406,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.4.2.4 / Fig. 93 (D)",
+      "pagina": 105,
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#largura"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Separação entre montantes (face interna)",
+      "valor": "≥ 406 mm (16 in.); preferida 457 mm (18 in.)",
+      "min": 406,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.4.4.2",
+      "pagina": 105,
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#largura"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura da escada",
+      "valor": "entre 0,4 m e 0,6 m",
+      "min": 400,
+      "max": 600,
+      "unidade": "mm",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.1.1 b)",
+      "pagina": 18,
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#largura"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Espaço livre à frente da escada (eixo à obstrução) — FPSO Peregrino",
+      "valor": "762 mm",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Section A-A",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "min": 762,
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#espaco-frente"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Eixo da barra à obstrução atrás da escada — FPSO Peregrino",
+      "valor": "178 mm mín. / 203 mm máx. (preferido)",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Section A-A",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "min": 178,
+      "max": 203,
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#toe"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Folga entre o dorso do montante e a obstrução — FPSO Peregrino",
+      "valor": "≥ 102 mm",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Section A-A",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "min": 102,
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#folga-montante"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Obstrução lateral mais próxima (do eixo) — FPSO Peregrino",
+      "valor": "≥ 381 mm de cada lado",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Typical caged ladder detail",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "min": 381,
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#espaco-lateral"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Espaço livre de subida — largura (E)",
+      "valor": "≥ 762 mm (30 in.); nenhum obstáculo mais perto do eixo da escada que essa linha, dos dois lados",
+      "min": 762,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 93 (E)",
+      "pagina": 104,
+      "nota": "Lido da tabela da Fig. 93 (imagem, não texto extraível).",
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#espaco-lateral"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Espaço livre no lado de subida — profundidade (G)",
+      "valor": "≥ 762 mm (30 in.)",
+      "min": 762,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 93 (G)",
+      "pagina": 104,
+      "nota": "Lido da tabela da Fig. 93 (imagem, não texto extraível).",
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#espaco-frente"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Folga atrás da escada (F, eixo da barra à obstrução)",
+      "valor": "≥ 178 mm (7 in.); recomendado 203 mm (8 in.)",
+      "min": 178,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 93 (F)",
+      "pagina": 104,
+      "nota": "Lido da tabela da Fig. 93 (imagem, não texto extraível).",
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#toe"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Folga atrás do montante (K)",
+      "valor": "≥ 102 mm (4 in.)",
+      "min": 102,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 93 (K)",
+      "pagina": 104,
+      "nota": "Lido da tabela da Fig. 93 (imagem, não texto extraível).",
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#folga-montante"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Pé-direito sobre a escada (J)",
+      "valor": "≥ 2032 mm (80 in.); recomendado 2134 mm (84 in.)",
+      "min": 2032,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 93 (J)",
+      "pagina": 104,
+      "nota": "Lido da tabela da Fig. 93 (imagem, não texto extraível).",
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#pe-direito"
+    },
+    {
+      "grupo": "Afastamentos e espaço livre",
+      "parametro": "Distância da escada à estrutura onde é fixada",
+      "valor": "no mínimo 0,15 m",
+      "min": 150,
+      "unidade": "mm",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.1.1 e)",
+      "pagina": 18,
+      "cota": "esquemas/escada-marinheiro-vista-lateral.svg#toe"
+    },
+    {
+      "grupo": "Fixação e cargas",
+      "parametro": "Espaçamento entre suportes da escada — FPSO Peregrino",
+      "valor": "2438 mm mín. / 3658 mm máx.",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Section A-A",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "min": 2438,
+      "max": 3658,
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#suportes"
+    },
+    {
+      "grupo": "Fixação e cargas",
+      "parametro": "Primeiro suporte acima do piso — FPSO Peregrino",
+      "valor": "1219 mm mín. / 1524 mm máx.",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Section A-A",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "min": 1219,
+      "max": 1524,
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#primeiro-suporte"
+    },
+    {
+      "grupo": "Fixação e cargas",
+      "parametro": "Espaçamento entre suportes da escada",
+      "valor": "2440 mm (96 in.) preferido / 3660 mm (120 in.) máx.",
+      "max": 3660,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 96",
+      "pagina": 108,
+      "nota": "Lido da figura (não do texto). A figura escreve '3660 mm (120 in)', mas 120 in = 3048 mm e 3660 mm = 144 in; adotado o valor em mm.",
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#suportes"
+    },
+    {
+      "grupo": "Fixação e cargas",
+      "parametro": "Primeiro suporte acima do piso",
+      "valor": "1220 mm (48 in.) preferido / 1830 mm (72 in.) máx.",
+      "max": 1830,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 96",
+      "pagina": 108,
+      "nota": "Lido da figura (não do texto).",
+      "cota": "esquemas/escada-marinheiro-vista-frontal.svg#primeiro-suporte"
+    },
+    {
+      "grupo": "Fixação e cargas",
+      "parametro": "Resistência",
+      "valor": "Resistir às cargas aplicadas",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.1.2 a)",
+      "pagina": 17
+    },
+    {
+      "grupo": "Fixação e cargas",
+      "parametro": "Projeto",
+      "valor": "Projeto elaborado por profissional legalmente habilitado, considerando dimensões, resistências, segurança nos acessos e o SPQ selecionado",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.1.1 g)",
+      "pagina": 18,
+      "nota": "Alternativas gerais do 5.1.1: escada certificada conforme normas técnicas, fabricada conforme normas nacionais sob responsabilidade de PLH, ou projetada por PLH."
+    },
+    {
+      "parametro": "Arranjo de escadas verticais no projeto (PMA, offshore)",
+      "valor": "Arranjo de acesso e arranjo estrutural de stairs, ladders, platforms and handrails devem (should — recomendação) ser incorporados no início do projeto; meios de acesso descritos no access manual",
+      "item": "Ch.2 Sec.1 [3.1.3] e [3.1.4]",
+      "pagina": 20,
+      "nota": "A DNV-OS-C101 não traz carga nem cotas de escada vertical (ladder): a Tabela 1 de cargas de convés cobre só walkways, staircases e platforms. Interpretação (não da norma): se a escada for verificada em LRFD, a carga característica (ex. 90 kg ABS) entra como Q com γf = 1.2 (Ch.2 Sec.1 Tabela 1).",
+      "grupo": "Fixação e cargas",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Barra superior — FPSO Peregrino",
+      "valor": "Nivelada com o topo do piso (T.O. deck = T.O. rung)",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Typical caged ladder detail",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino)."
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Montantes acima do piso de chegada — FPSO Peregrino",
+      "valor": "1372 mm, abertos a 305 mm de cada lado do eixo",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Typical caged ladder detail",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "min": 1372,
+      "calc": [
+        "fpso:saida"
+      ],
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#montantes-acima"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Portão de segurança autofechante — altura — FPSO Peregrino",
+      "valor": "965 mm mín. / 1168 mm máx. acima do piso",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Typical caged ladder detail",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "min": 965,
+      "max": 1168,
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#portao"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Passagem da escada para a plataforma (step across) — FPSO Peregrino",
+      "valor": "64 mm mín. / 305 mm máx.",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Section A-A",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "min": 64,
+      "max": 305,
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#passagem"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Altura dos montantes acima do piso de chegada (H)",
+      "valor": "≥ 1067 mm (42 in.)",
+      "min": 1067,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 93 (H)",
+      "pagina": 104,
+      "nota": "Lido da tabela da Fig. 93 (imagem, não texto extraível).",
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#montantes-acima"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Montantes acima de patamares/plataformas intermediárias (lances múltiplos)",
+      "valor": "1372 mm (54 in.)",
+      "min": 1372,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.4.4.4",
+      "pagina": 105,
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#montantes-acima"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Passagem da escada para o piso (step across, L)",
+      "valor": "64 mm (2.5 in.) a 203 mm (8 in.)",
+      "min": 64,
+      "max": 203,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 93 (L)",
+      "pagina": 104,
+      "nota": "Lido da tabela da Fig. 93 (imagem, não texto extraível).",
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#passagem"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Portão autofechante no topo",
+      "valor": "Obrigatório onde se passa por entre os montantes; cobre toda a largura; topo a 965 mm (38 in.) a 1041 mm (41 in.) acima do piso; abre para o lado oposto ao usuário; não usar corrente/cabo",
+      "min": 965,
+      "max": 1041,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.4.6.1 / 11.4.6.2",
+      "pagina": 106
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Portão — resistência",
+      "valor": "Resistir ao peso de uma pessoa de 91 kg (200 lb) na vertical e na horizontal",
+      "min": 91,
+      "unidade": "kg",
+      "norma": "ASTM-F1166",
+      "item": "11.4.6.3",
+      "pagina": 106
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Alças / pegas onde não há montantes (escotilha, transição)",
+      "valor": "Ø 16 mm (0.625 in.) a 25 mm (1.0 in.); folga de 100 mm (4.0 in.) até a superfície de fixação",
+      "min": 16,
+      "max": 25,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.8.1",
+      "pagina": 108,
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#alca"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Escotilha superior acessada por escada",
+      "valor": "Borda da abertura a ≤ 203 mm (8 in.) da face da barra",
+      "max": 203,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.14.3",
+      "pagina": 115,
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#escotilha"
+    },
+    {
+      "grupo": "Saída no topo",
+      "parametro": "Corrimão ou continuação dos montantes acima do piso superior/plataforma de descanso",
+      "valor": "altura entre 1,10 m e 1,20 m",
+      "min": 1100,
+      "max": 1200,
+      "unidade": "mm",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.1.1 d)",
+      "pagina": 18,
+      "cota": "esquemas/escada-marinheiro-saida-topo.svg#montantes-acima"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Início da gaiola (acima do piso) — FPSO Peregrino",
+      "valor": "2134 mm",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Section A-A",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "min": 2134,
+      "calc": [
+        "fpso:gaiola_inicio"
+      ],
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#inicio"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Gaiola acima do piso de chegada — FPSO Peregrino",
+      "valor": "1372 mm",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Section A-A",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "min": 1372,
+      "calc": [
+        "fpso:gaiola_topo"
+      ],
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#acima"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Espaçamento dos arcos — FPSO Peregrino",
+      "valor": "Iguais em todo o comprimento, o mais próximo possível de 1219 mm",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Section A-A",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#arcos"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Geometria da gaiola — FPSO Peregrino",
+      "valor": "Raio R343 (arco inferior R445), centro a 352 mm do eixo das barras; barras verticais 40×6 a 40°/40°/10°; arcos de barra 120×6 (topo/base) e 65×6 (intermediários)",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20008-001, Sections Top / Middle / Bottom",
+      "pagina": 8,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20008-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#raio"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Altura da escada a partir da qual exige gaiola",
+      "valor": "> 4,57 m (15 ft)",
+      "min": 4570,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.5.1.1",
+      "pagina": 107,
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#altura-exige"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Início da gaiola (acima do piso)",
+      "valor": "2,13 m (7 ft)",
+      "min": 2130,
+      "max": 2130,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.5.1.1",
+      "pagina": 107,
+      "nota": "A Fig. 96 cota 2134 mm (84 in).",
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#inicio"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Gaiola acima do piso de chegada (topo)",
+      "valor": "1067 mm (42 in.) acima do convés superior",
+      "min": 1067,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.5.1.1",
+      "pagina": 107,
+      "nota": "A Fig. 96 cota 1066 mm.",
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#acima"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Gaiola em patamar intermediário",
+      "valor": "1372 mm (54 in.) acima do patamar, aberta do lado do patamar",
+      "min": 1372,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.5.1.2",
+      "pagina": 107,
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#acima"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Geometria da gaiola (Fig. 97)",
+      "valor": "Centro do arco a 352 mm (13 7/8 in.) do plano dos montantes; 1ª barra vertical a 184 mm (7¼ in.) desse plano; raio interno 343 mm (13½ in.) no topo e no meio, 445 mm (17½ in.) na base; barras verticais 38 × 6 mm a 10°/40°/40°; arcos 102 × 6 mm (topo e base) e 51 × 6 mm (meio)",
+      "norma": "ASTM-F1166",
+      "item": "11.5.2 / Fig. 97",
+      "pagina": 109,
+      "nota": "Lido da figura (não do texto). Cotas iguais nas três vistas, exceto o raio da base (445 mm) e o arco do meio (51 × 6 mm).",
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#raio"
+    },
+    {
+      "grupo": "Gaiola de proteção",
+      "parametro": "Espaçamento dos arcos",
+      "valor": "Iguais em toda a gaiola, o mais próximo possível de 1220 mm (48 in.)",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 96",
+      "pagina": 108,
+      "nota": "Lido da figura (não do texto).",
+      "cota": "esquemas/escada-marinheiro-gaiola.svg#arcos"
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "atencao",
+      "texto": "Escolha a norma pelo contexto: NR-12 para acesso a máquinas e equipamentos (só quando não couber escada de degraus, rampa ou plataforma — item 1.3); NR-18/NR-34 para obra e estaleiro; ABS e o desenho padrão Equinor/Peregrino para unidades offshore. Quando mais de uma se aplicar, adote o valor mais restritivo. NR-35 Anexo III (2025): escadas fixas verticais de uso individual em trabalho em altura em geral, sem alterar a NR-12/NR-18 nos respectivos campos (item 2.2)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Padrão do FPSO Peregrino (PE-FD-06-S-ST-20008-001) diverge das normas: passo de 305 mm (máx. 300 mm na NR-12 13 h), NR-18 18.8.6.2 g) e ABS Fig. 3 G); barra quadrada de 22 mm (NR-12 13 k) pede 25–38 mm; o ABS aceita 22 mm nas Figuras 4 e 7); gaiola iniciando a 2134 mm (ABS e Peregrino II: ≥ 2200 mm). Em reparo/modificação no FPSO, alinhar com a Equinor qual critério prevalece."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "ASTM F1166 × demais: passo 279–305 mm (NR-12/NR-18 até 300 mm; ABS 275–300 mm) — 280 a 300 mm atende a todas; barra Ø 25 mm (o padrão Peregrino usa quadrada de 22 mm); largura entre montantes ≥ 406 mm, pref. 457 mm (NR-12 0,40–0,60 m; ABS 400–450 mm). As cotas da Fig. 93/96/97 da F1166 coincidem com o desenho do FPSO Peregrino 20008-001 (762 mm à frente, 178/203 mm atrás, 102 mm atrás do montante, step across 64 mm mín., suportes 2438/3658 mm, gaiola R343/R445); diferem o step across máximo (F1166 203 mm × Peregrino 305 mm), o portão (965–1041 mm × 965–1168 mm) e o 1º suporte (F1166 1830 mm máx. × Peregrino 1524 mm)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Gaiola — limites divergentes: obrigatória acima de 3,0 m (Equinor), 3,5 m (NR-12), 4,5 m (ABS) ou ≥ 6 m (NR-34). Início: 2,0 m (NR-12/NR-34), 2,2–2,5 m (ABS), 2,2–3,0 m (Equinor). Acima do topo: 1,10–1,20 m (NR-12), 1,0 m (NR-34), 1400 mm (ABS), 1100 mm (Equinor). Para atender a todas: gaiola acima de 3,0 m de altura, iniciando entre 2,2 e 2,5 m, ultrapassando o topo em 1,40 m, Ø 0,70–0,72 m e arcos a ≤ 1,2 m. A NR-12 dá 1,10–1,20 m acima do piso superior; os 1,40 m do ABS ficam acima dessa faixa se ela for lida como máximo. O padrão do FPSO Peregrino inicia a gaiola a 2134 mm e a estende 1372 mm acima do piso. ASTM F1166: gaiola acima de 4,57 m, início a 2,13 m (Fig. 96: 2134 mm), 1067 mm acima do convés superior e 1372 mm acima de patamar intermediário — o padrão do FPSO Peregrino (2134 / 1372 mm) coincide com a F1166."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Primeira barra e espaçamento: NR-12 permite até 0,55 m do piso, NR-18 até 0,40 m e Equinor 180–290 mm. O espaçamento entre barras vai de 250–300 mm (NR-12/NR-18/Equinor) a 275–300 mm (ABS) — 280 a 300 mm atende a todas."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Altura de lance: NR-12/NR-18 permitem 10 m em lance único e 6 m entre plataformas; NR-34 exige patamar a cada 9 m; ABS limita a 6,0 m sem plataforma; Equinor 9 m sem plataforma / 6 m com. Trava-quedas: NR-18 exige SPIQ acima de 2 m; ABS exige trilho/cabo acima de 6,1 m. ASTM F1166: lance contínuo ≤ 9,14 m e proteção positiva (trilho/cabo) acima de 6,1 m; gaiola sozinha não conta como proteção. NR-35 Anexo III: plataformas de descanso obrigatórias acima de 10,00 m, a no máximo 6,00 m entre si, laterais ou basculantes; SPQ obrigatório em escada fixa vertical de uso individual (a NR-35 se aplica acima de 2,0 m — 35.2.1); em escada existente (ou com projeto em execução) usada só como acesso, o SPQ (alínea f do 5.2.1.1) pode ser dispensado se comprovada a incompatibilidade do SPIQ (5.2.1.1.2)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "NR-35 Anexo III (Portaria MTE 1.860/2025, vigente desde 02/01/2026) × NR-12/NR-18: as cotas coincidem — largura 0,4–0,6 m, passo 0,25–0,30 m, saída 1,10–1,20 m, afastamento ≥ 0,15 m, plataforma acima de 10 m e a cada ≤ 6 m. Diferenças: (1) a NR-35 só admite escada fixa vertical com inviabilidade técnica comprovada de outro acesso (4.1.2.1; a NR-12 1.3 tem regra parecida para máquinas); (2) exige SPQ conforme 35.6 em toda escada fixa vertical de uso individual — a NR-18 exige SPIQ acima de 2 m, a NR-12 pede gaiola acima de 3,5 m; a NR-35 não menciona gaiola nem diz se ela conta como SPCQ (a ASTM F1166 diz que gaiola sozinha não é proteção); (3) não fixa primeira barra, seção da barra, gaiola nem dimensões da plataforma de descanso; (4) exige projeto por PLH (5.2.1.1 g). O anexo NÃO se aplica a escadas de uso coletivo (2.1.1) e não altera as demais NRs no campo de cada uma (2.2): em máquina vale a NR-12, em obra a NR-18, em estaleiro a NR-34."
+    },
+    {
+      "tipo": "info",
+      "texto": "ABS Ergonomic Notations: o texto 3.3.2 i) pede altura livre de 2500 mm, mas a Figura 3 (A) dá 2130 mm, e ambos convertem para 84.0 in. (= 2134 mm). Na Figura 3 (F) o número em mm da barra está faltando na norma (\"mm (1.0 in.)\") — interpretado como 25 mm."
+    },
+    {
+      "tipo": "info",
+      "texto": "NR-12 Anexo XI (máquinas agrícolas/florestais estacionárias), item 15.15 e 15.15.1, repete os mesmos requisitos do Anexo III item 13 e 13.1. A NR-37 (plataformas de petróleo) não traz requisitos dimensionais de escada vertical — só permite escadas fixas para transferência de pessoal (37.11.4.3.1 e 37.11.4.4)."
+    },
+    {
+      "tipo": "info",
+      "texto": "Desenho EQN-VERTICAL-LADDER: desenho padrão Cameron para a sonda Peregrino II (doc. Statoil C140-CS-N-XG-0160-01, rev. 02Z, as built 2016), que remete à ISO 14122-4 (2004) 4.7.1.2 para a gaiola estendida. Cotas lidas do desenho vetorial."
+    },
+    {
+      "tipo": "info",
+      "texto": "Catálogo de fabricante (ABS Safety, \"ABS Fixed Vertical Ladder SL1-XXX\", em 02 - Brochures) — apenas referência, não é requisito: segundo o fabricante, DIN EN ISO 14122-4 / DIN 18799-1 exigem proteção contra quedas a partir de 3 m de altura de queda; acima de 10 m em lance único só trava-quedas EN 353-1; fixação superior a no máx. 560 mm abaixo da saída; fixações a no máx. 1960 mm na vertical, em pares; eixo da barra a ≥ 185 mm da parede e borda frontal a ≥ 200 mm; carga de cálculo 3 kN por montante (6 kN por escada)."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Para dimensionar: nº de vãos = altura ÷ espaçamento (arredondar para cima com espaçamento entre 280 e 300 mm), barras iguais e a última nivelada com o piso de chegada. Verifique se a altura exige gaiola, trava-quedas ou plataforma intermediária. Use a calculadora abaixo."
+    }
+  ],
+  "calculadora_perfis": {
+    "nr12": "NR-12 — máquinas e equipamentos",
+    "nr18": "NR-18 — construção",
+    "abs": "ABS — offshore (ERGO)",
+    "eqn": "Equinor — padrão Peregrino II",
+    "fpso": "FPSO — padrão Equinor/Maersk Peregrino"
+  }
+}

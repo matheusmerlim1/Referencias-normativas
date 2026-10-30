@@ -1,0 +1,95 @@
+{
+ "id": "NBR-6158",
+ "titulo": "ABNT NBR 6158:1995 — Sistema de tolerâncias e ajustes (equivalente à ISO 286-1/-2)",
+ "secoes": [
+  {
+   "titulo": "Conceitos",
+   "item": "3",
+   "texto": "Dimensão nominal, afastamentos superior e inferior, tolerância (diferença entre eles) e linha zero. O afastamento fundamental é o mais próximo da linha zero e fixa a posição do campo; o outro sai somando ou subtraindo o grau IT. Sistema furo-base (furo H, afastamento inferior nulo) é o mais usado; no eixo-base o eixo é h.",
+   "valores": [
+    {
+     "parametro": "Segundo afastamento do eixo",
+     "valor": "ei = es − IT (ou es = ei + IT)",
+     "item": "3.6",
+     "cota": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#ei"
+    },
+    {
+     "parametro": "Segundo afastamento do furo",
+     "valor": "EI = ES − IT (ou ES = EI + IT)",
+     "item": "3.6",
+     "cota": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#EI"
+    },
+    {
+     "parametro": "Furo H / eixo h",
+     "valor": "EI = 0 / es = 0",
+     "item": "3.11"
+    },
+    {
+     "parametro": "js / JS",
+     "valor": "± IT/2",
+     "item": "Tab. 2",
+     "cota": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#js"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "4.2",
+   "texto": "Letra maiúscula para furo, minúscula para eixo, seguida do grau (ex.: 32 H7, 100 g6); ajuste escrito furo/eixo (52 H7/g6).",
+   "valores": [
+    {
+     "parametro": "Exemplo de ajuste",
+     "valor": "52 H7/g6",
+     "item": "4.2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Interpretação",
+   "item": "4.3",
+   "texto": "Sem a indicação de princípio de independência (ISO 8015), vale o requisito de envoltória: o elemento deve caber no cilindro perfeito de máximo material. Em ajustes, pode-se marcar o símbolo Ⓔ após a tolerância.",
+   "valores": []
+  },
+  {
+   "titulo": "Graus de tolerância IT",
+   "item": "Tab. 1",
+   "texto": "Dezoito graus, de IT1 (mais fino) a IT18, crescendo com a dimensão nominal até 3150 mm. Tabela completa na ficha tolerancias-gerais-ajustes.",
+   "valores": [
+    {
+     "parametro": "IT7 — 18–30 / 30–50 / 50–80 mm",
+     "valor": "21 / 25 / 30 µm",
+     "item": "Tab. 1",
+     "cota": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT"
+    },
+    {
+     "parametro": "IT6 — 18–30 / 30–50 mm",
+     "valor": "13 / 16 µm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "IT11 — 30–50 mm",
+     "valor": "160 µm",
+     "item": "Tab. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Afastamentos fundamentais e ajustes",
+   "item": "Tab. 2; 5",
+   "texto": "A Tabela 2 dá os afastamentos fundamentais dos eixos por letra e faixa. Combinando-os com o grau IT obtêm-se os ajustes com folga (H7/f7, H7/g6, H7/h6, H8/e8, H9/d9, H11/c11…), incertos (H7/k6, m6, n6) e com interferência (H7/p6, r6, s6).",
+   "valores": [
+    {
+     "parametro": "Ajuste com folga típico",
+     "valor": "H7/g6",
+     "item": "5",
+     "cota": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+    },
+    {
+     "parametro": "Ajuste com interferência típico",
+     "valor": "H7/s6",
+     "item": "5"
+    }
+   ]
+  }
+ ]
+}

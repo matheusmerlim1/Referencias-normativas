@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SFA-5.26",
+ "titulo": "SFA-5.26 — Eletrodos de aço carbono e baixa liga para soldagem eletrogás (AWS A5.26)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Eletrodos sólidos e compostos (tubulares fluxados e de alma metálica) de aço carbono e baixa liga para soldagem eletrogás, com gás de proteção externo ou autoprotegidos."
+  },
+  {
+   "titulo": "Classificações e composição",
+   "item": "Tabelas 1 e 4",
+   "texto": "EGXXS-X (sólidos) e EGXXT-X (compostos); XX = Su e temperatura do Charpy.",
+   "valores": [
+    {
+     "parametro": "EGXXS-1 — C / Mn / Si",
+     "valor": "0,07–0,19 % / 0,90–1,40 % / 0,30–0,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "EGXXS-2 — C máx. / Mn",
+     "valor": "0,07 % / 0,90–1,40 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "EG6XT-1 (metal de solda) — Mn máx. / Si máx.",
+     "valor": "1,7 % / 0,50 %",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabela 5",
+   "texto": "Análise química (arame ou metal de solda), radiografia, tração e Charpy conforme classificação (classificações 'Z' sem Charpy)."
+  }
+ ]
+}

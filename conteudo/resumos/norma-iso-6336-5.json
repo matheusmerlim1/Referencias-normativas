@@ -1,0 +1,30 @@
+{
+ "id": "ISO-6336-5",
+ "titulo": "ISO 6336-5:2003 — Capacidade de carga de engrenagens cilíndricas — Parte 5: Resistência e qualidade dos materiais",
+ "secoes": [
+  {
+   "titulo": "Escopo e métodos",
+   "item": "1–4",
+   "texto": "Limites de fadiga de contato σH lim e de flexão σF lim de materiais de engrenagens (aços normalizados, beneficiados, cementados, nitretados, temperados por indução/chama, ferros fundidos) e requisitos de qualidade do material e tratamento térmico. Método A por ensaio; Método B por gráficos padronizados.",
+   "valores": []
+  },
+  {
+   "titulo": "Valores padronizados — Método B",
+   "item": "5",
+   "texto": "Gráficos de σH lim e σF lim em função da dureza superficial para cada tipo de material, em três níveis de qualidade: ML (mínima), MQ (normal da indústria) e ME (alta, exige controle rigoroso).",
+   "valores": [
+    {
+     "parametro": "Níveis de qualidade",
+     "valor": "ML / MQ / ME",
+     "item": "5"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos de qualidade",
+   "item": "6",
+   "texto": "Para cada nível: análise química, processo de fusão (ME: forno elétrico ou equivalente), propriedades mecânicas, grau de redução/forjamento, inclusões, ensaio de trincas internas (acordado), tamanho de grão, dureza do núcleo, camada endurecida, austenita retida etc.",
+   "valores": []
+  }
+ ]
+}

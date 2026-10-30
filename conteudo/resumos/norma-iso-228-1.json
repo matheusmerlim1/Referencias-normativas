@@ -1,0 +1,57 @@
+{
+ "id": "ISO-228-1",
+ "titulo": "ISO 228-1:2000 — Roscas de tubo sem vedação na rosca (G) — Parte 1: Dimensões, tolerâncias e designação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Rosca paralela de fixação (G), tamanhos 1/16 a 6, interna e externa. Não veda pela rosca: a estanqueidade, se necessária, vem de junta ou anel comprimido fora da rosca. Rosca de vedação na ISO 7-1; verificação na ISO 228-2.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "1/16 a 6",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Perfil e dimensões",
+   "item": "3–4, Tab. 1",
+   "texto": "Perfil igual ao da rosca paralela da ISO 7-1 (cristas e fundos arredondados); interna e externa paralelas; à direita salvo indicação. Cristas normalmente truncadas dentro da tolerância.",
+   "valores": [
+    {
+     "parametro": "Diâmetro de flanco",
+     "valor": "d2 = D2 = d − 0,640327·P",
+     "item": "3"
+    },
+    {
+     "parametro": "Diâmetro menor",
+     "valor": "d1 = D1 = d − 1,280654·P",
+     "item": "3"
+    },
+    {
+     "parametro": "Classe A (externa)",
+     "valor": "tolerância de flanco toda negativa, igual à da rosca interna",
+     "item": "4"
+    },
+    {
+     "parametro": "Classe B (externa)",
+     "valor": "toda negativa, o dobro da interna",
+     "item": "4"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "5",
+   "texto": "'Rosca de tubo ISO 228 – G' + tamanho; externa acrescenta A ou B; à esquerda acrescenta LH.",
+   "valores": [
+    {
+     "parametro": "Exemplos",
+     "valor": "interna: ISO 228 – G 1 1/2; externa: ISO 228 – G 1 1/2 A ou B",
+     "item": "5"
+    }
+   ]
+  }
+ ]
+}

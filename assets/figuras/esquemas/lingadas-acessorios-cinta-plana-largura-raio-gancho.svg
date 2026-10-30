@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" width="860" height="400" role="img" aria-label="Cinta plana — largura b, espessura s, etiqueta e raio do gancho">
+<title>Cinta plana — largura b, espessura s, etiqueta e raio do gancho (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Cinta plana — largura b, espessura s, etiqueta e raio do gancho</text>
+<rect class="sl" x="40" y="120" width="380" height="70"/>
+<line x1="40" y1="155" x2="420" y2="155" stroke="#666" stroke-width="1" stroke-dasharray="3 3"/>
+<g id="cota-b" class="cota"><line class="e" x1="43" y1="120" x2="71" y2="120"/><line class="e" x1="43" y1="190" x2="71" y2="190"/><line class="d" x1="65" y1="120" x2="65" y2="190" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="58" y="160">b</text></g>
+<rect class="w" x="180" y="135" width="70" height="40"/>
+<text class="n m" x="215" y="160">etiqueta</text>
+<g id="cota-etiqueta" class="cota"><line class="e" x1="180" y1="132" x2="180" y2="107"/><line class="e" x1="250" y1="132" x2="250" y2="107"/><line class="d" x1="180" y1="113" x2="250" y2="113" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="215" y="106">etiqueta</text></g>
+<rect class="s" x="480" y="140" width="300" height="14"/>
+<g id="cota-s" class="cota"><line class="e" x1="793" y1="140" x2="811" y2="140"/><line class="e" x1="793" y1="154" x2="811" y2="154"/><line class="d" x1="805" y1="114" x2="805" y2="140" marker-end="url(#a)"/><line class="d" x1="805" y1="180" x2="805" y2="154" marker-end="url(#a)"/><line class="d" x1="805" y1="140" x2="805" y2="154"/><text x="812" y="152">s</text></g>
+<text class="n m" x="630" y="130">seção</text>
+<path d="M640,220 L640,300 A30,30 0 1 1 580,288" fill="none" stroke="#666" stroke-width="10"/>
+<line x1="610" y1="326" x2="550" y2="326" stroke="#8c8c8c" stroke-opacity=".55" stroke-width="34" stroke-linecap="butt"/>
+<g id="cota-raio-gancho" class="cota"><line class="d" x1="660" y1="185" x2="610" y2="300" marker-end="url(#a)"/><text class="m" x="660" y="190">raio do assento do gancho</text></g>
+<text class="n m" x="240" y="280">assento do gancho menor que a largura</text>
+<text class="n m" x="240" y="298">da cinta: o olhal fica mal acomodado</text>
+<text class="n" x="20" y="388">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

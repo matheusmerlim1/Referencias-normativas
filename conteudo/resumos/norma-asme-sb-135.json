@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SB-135",
+ "titulo": "SB-135 — Tubos sem costura de latão vermelho (C23000)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura redondos, retangulares e quadrados de latão vermelho UNS C23000 (85 Cu / 15 Zn nominal), em barras retas."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Cu",
+     "valor": "84,0–86,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Pb máx. / Fe máx.",
+     "valor": "0,05 % / 0,05 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Zn",
+     "valor": "restante",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Têmperas e propriedades",
+   "item": "7, 8, Tabela 2",
+   "texto": "Recozido leve (O50) e mole (O60) controlados por grão e dureza Rockwell; trefilados por tração.",
+   "valores": [
+    {
+     "parametro": "O60, parede até 0,045 in — dureza máx. / grão",
+     "valor": "36 HR30T / 0,025–0,060 mm",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "9 a 11",
+   "texto": "Expansão (tubo redondo recozido), nitrato mercuroso (tensões residuais) e ensaio não destrutivo (correntes parasitas ou outro escolhido pelo fabricante)."
+  }
+ ]
+}

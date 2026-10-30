@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SA-47",
+ "titulo": "SA-47 — Fundidos de ferro maleável ferrítico",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Peças fundidas de ferro maleável ferrítico para engenharia geral, da temperatura ambiente até cerca de 400 °C (750 °F). As propriedades são verificadas em barras de ensaio fundidas separadamente, do mesmo lote de ferro."
+  },
+  {
+   "titulo": "Graus e propriedades mecânicas",
+   "item": "4, Tabela 1",
+   "texto": "Um grau em polegadas (32510) e seu equivalente métrico (22010).",
+   "valores": [
+    {
+     "parametro": "Su mín.",
+     "valor": "50 000 psi [340 MPa]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Limite de escoamento mín.",
+     "valor": "32 500 psi [220 MPa]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm",
+     "valor": "10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Dureza típica máx.",
+     "valor": "156 HB",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição e microestrutura",
+   "item": "6, 8",
+   "texto": "A química fica a critério da fundição, desde que gere a estrutura e as propriedades exigidas. Estrutura: nódulos de carbono revenido em matriz ferrítica, sem excesso de perlita, carbonetos maciços ou grafita primária."
+  },
+  {
+   "titulo": "Inspeção",
+   "item": "9 a 11",
+   "texto": "Peças inspecionadas visualmente (trincas, rechupes, areia aderida, gotas frias); ensaios de sanidade só se pedidos. Não se admite reparo por solda nesta versão ASME.",
+   "valores": [
+    {
+     "parametro": "Tolerância dimensional — até 1 in [25 mm]",
+     "valor": "± 0,03 in [0,8 mm]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Tolerância dimensional — 1 a 6 in [25 a 150 mm]",
+     "valor": "± 0,06 in [1,6 mm]",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "S1–S6",
+   "texto": "Opcionais: condições especiais, ressaltos de ensaio, ensaios destrutivos, corpos de prova usinados da peça, zincagem a quente e marcação para compras governamentais."
+  }
+ ]
+}

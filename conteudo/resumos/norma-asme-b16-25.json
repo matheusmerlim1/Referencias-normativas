@@ -1,0 +1,65 @@
+{
+ "id": "ASME-B16.25",
+ "titulo": "ASME B16.25 — Extremidades para solda de topo (chanfros)",
+ "secoes": [
+  {
+   "titulo": "Escopo e unidades",
+   "item": "1",
+   "texto": "Define a preparação das pontas de componentes de tubulação para solda de topo: chanfros, perfil externo e interno de peças de parede grossa e preparação interna para soldar sem anel, com anel partido ou contínuo, com inserto consumível ou com raiz em GTAW. Vale para qualquer metal com procedimento qualificável. Valores em SI e em polegadas são sistemas independentes: misturar os dois é não conformidade. Tabelas por NPS na ficha tubulacao-processo.",
+   "valores": []
+  },
+  {
+   "titulo": "Envelope de transição",
+   "item": "2; Fig. 2-1",
+   "texto": "Quando a peça é mais grossa que o tubo, o perfil perto da ponta deve ficar dentro de um envelope: inclinação limitada por fora e por dentro, raios mínimos e espessura máxima na extremidade. O reforço de solda permitido pelo código pode ultrapassar o envelope.",
+   "valores": [
+    {"parametro": "Espessura mínima na extremidade", "valor": "1,0 × tmin", "item": "Fig. 2-1", "cota": "esquemas/tubulacao-processo-b16-25-envelope-transicao.svg#tmin"},
+    {"parametro": "Espessura máxima (pedido por parede mínima)", "valor": "maior entre tmin + 4 mm e 1,15·tmin", "item": "5.4", "cota": "esquemas/tubulacao-processo-b16-25-envelope-transicao.svg#tmax"},
+    {"parametro": "Espessura máxima (pedido por parede nominal)", "valor": "maior entre tmin + 4 mm e 1,10 × parede nominal", "item": "5.4"},
+    {"parametro": "tmin de tubo com tolerância −12,5 %", "valor": "0,875 × parede nominal", "item": "Fig. 2-1, Nota (4)"},
+    {"parametro": "Inclinação externa", "valor": "≤ 30° numa faixa de 1,5·tmin; até 45° junto à superfície; raios ≥ 0,05·tmin", "item": "Fig. 2-1", "cota": "esquemas/tubulacao-processo-b16-25-envelope-transicao.svg#ext"},
+    {"parametro": "Inclinação interna", "valor": "≤ 1:3 dentro de 2·tmin a partir da face de raiz", "item": "Fig. 2-1", "cota": "esquemas/tubulacao-processo-b16-25-envelope-transicao.svg#int"}
+   ]
+  },
+  {
+   "titulo": "Chanfros para solda comum",
+   "item": "3.1; Figs. 3.1-1 e 3.1-2",
+   "texto": "Parede fina vai em esquadro. Paredes médias levam V simples com nariz. Paredes grossas levam chanfro composto, que fecha o ângulo a partir de certa altura para reduzir o volume de solda. Com anel de backing, a ponta recebe rebaixo interno usinado.",
+   "valores": [
+    {"parametro": "Parede ≤ 3 mm", "valor": "esquadro ou chanfro leve", "item": "3.1(a)", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#t"},
+    {"parametro": "Parede > 3 até 22 mm — ângulo", "valor": "37,5° ± 2,5°", "item": "3.1(b)", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#angulo"},
+    {"parametro": "Nariz (face de raiz)", "valor": "1,6 ± 0,8 mm", "item": "Figs. 3.1-1 e 3.1-2", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#nariz"},
+    {"parametro": "Parede > 22 mm — chanfro composto", "valor": "37,5° ± 2,5° nos primeiros 19 ± 2 mm; acima, 10° ± 2,5°", "item": "3.1(c)", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-acima-22mm.svg#altura-37"},
+    {"parametro": "Rebaixo para anel retangular", "valor": "≥ 13 mm de comprimento; transição ≤ 30°", "item": "Fig. 3.1-1 (b)(c)", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#rebaixo"},
+    {"parametro": "Rebaixo para anel cônico", "valor": "cone de 10°, ≥ 6 mm", "item": "Fig. 3.1-1 (d)", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#cone"}
+   ]
+  },
+  {
+   "titulo": "Chanfros para raiz em GTAW",
+   "item": "3.2; Figs. 3.2-1 a 3.2-3",
+   "texto": "Para raiz em TIG o perfil muda com a parede: V simples nas paredes médias e chanfro em J (ou U) nas maiores, com nariz mais alto e rebaixo interno para alinhar.",
+   "valores": [
+    {"parametro": "Parede > 3 até 10 mm", "valor": "37,5° ± 2,5°; nariz 1,6 ± 0,8 mm", "item": "3.2(b)", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-gtaw.svg#angulo-37"},
+    {"parametro": "Parede > 10 até 25 mm — chanfro J", "valor": "20° ± 2,5°", "item": "3.2(c)", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-gtaw.svg#angulo-20"},
+    {"parametro": "Nariz (land) GTAW", "valor": "2 ± 0,4 mm", "item": "Figs. 3.2-2 e 3.2-3", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-gtaw.svg#land"},
+    {"parametro": "Raio do J (tipo B)", "valor": "5 mm", "item": "Fig. 3.2-2", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-gtaw.svg#raio"},
+    {"parametro": "Parede > 25 mm", "valor": "20° numa altura de 19 a 25 mm; acima, 10° ± 2,5°", "item": "3.2(d)", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-gtaw.svg#altura"}
+   ]
+  },
+  {
+   "titulo": "Diâmetro interno usinado (C) e tolerâncias",
+   "item": "4; 5",
+   "texto": "O furo C para anel contínuo é calculado a partir do diâmetro externo, descontando a tolerância negativa e duas paredes mínimas. A tabela 3.3-1 usa as tolerâncias típicas de A106/A335; para outro tubo, recalcular. Em tubo de schedule baixo pode faltar parede para usinar o assento.",
+   "valores": [
+    {"parametro": "Equação geral de C", "valor": "C = A − tol. negativa do Ø ext. − 2·tmin − 0,25 mm", "item": "4.2", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#C"},
+    {"parametro": "C para A106 (NPS 2–48) / A335 (NPS 2–12)", "valor": "C = A − 0,79 − 2 × 0,875·t − 0,25 mm", "item": "4.2"},
+    {"parametro": "Tolerância de C — anel contínuo", "valor": "+0,25 / −0 mm", "item": "5.2"},
+    {"parametro": "Tolerância de C — chanfros GTAW", "valor": "+0,25 / −1,02 mm", "item": "5.2", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-gtaw.svg#C"},
+    {"parametro": "Ø externo na ponta — NPS ≤ 1½", "valor": "± 0,4 mm", "item": "5.3", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#A"},
+    {"parametro": "Ø externo na ponta — NPS 2 a 5", "valor": "+2,5 / −0,79 mm", "item": "5.3"},
+    {"parametro": "Ø externo na ponta — NPS ≥ 6", "valor": "+4,0 / −0,79 mm", "item": "5.3"},
+    {"parametro": "Usinagem para anel contínuo", "valor": "não prevista para parede ≤ 3,17 mm", "item": "Tabela 3.3-1, Nota (3)"}
+   ]
+  }
+ ]
+}

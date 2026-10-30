@@ -1,0 +1,43 @@
+{
+ "id": "NBR-IEC-60439-1",
+ "titulo": "ABNT NBR IEC 60439-1:2003 — Conjuntos de manobra e controle de baixa tensão — Parte 1: Conjuntos com ensaio de tipo totalmente testados (TTA) e parcialmente testados (PTTA)",
+ "secoes": [
+  {"titulo": "Objetivo", "item": "1",
+   "texto": "Requisitos de painéis (conjuntos) de manobra e controle de baixa tensão, estacionários ou móveis, com ou sem invólucro, para geração, transmissão, distribuição e conversão de energia e comando de cargas; inclui condições especiais (navios, ferrovias, máquinas-ferramenta, içamento, atmosferas explosivas) com requisitos extras. TTA = conjunto que repete um tipo ensaiado; PTTA = contém arranjos não ensaiados, validados por cálculo/extrapolação. Substituída pela série IEC/NBR 61439.",
+   "valores": [
+    {"parametro": "Tensão nominal abrangida", "valor": "≤ 1 000 V CA (frequência ≤ 1 000 Hz) ou ≤ 1 500 V CC", "item": "1.1"}
+   ]},
+  {"titulo": "Características e informações", "item": "4–5",
+   "texto": "Tensões nominais (operação, isolamento, impulso), correntes nominais, corrente suportável de curta duração e de crista, frequência e fator de diversidade. O fabricante informa tudo em placa e documentação.",
+   "valores": [
+    {"parametro": "Fator de diversidade — 2 e 3 circuitos principais", "valor": "0,9", "item": "Tab. 1"},
+    {"parametro": "4 e 5 circuitos", "valor": "0,8", "item": "Tab. 1"},
+    {"parametro": "6 a 9 circuitos", "valor": "0,7", "item": "Tab. 1"},
+    {"parametro": "10 ou mais circuitos", "valor": "0,6", "item": "Tab. 1"}
+   ]},
+  {"titulo": "Construção e elevação de temperatura", "item": "7.1–7.3",
+   "texto": "Projeto mecânico, invólucro com grau IP declarado e limites de aquecimento das partes.",
+   "valores": [
+    {"parametro": "Terminais para condutores isolados externos", "valor": "70 K", "item": "Tab. 2"},
+    {"parametro": "Manoplas — metal / isolante", "valor": "15 K / 25 K (internas pouco usadas: +10 K)", "item": "Tab. 2"},
+    {"parametro": "Invólucros acessíveis — metal / isolante", "valor": "30 K / 40 K (+10 K se não forem tocados na operação)", "item": "Tab. 2"}
+   ]},
+  {"titulo": "Proteção contra choque e curto-circuito", "item": "7.4–7.5",
+   "texto": "Proteção básica e supletiva, condutores de proteção dimensionados (Tab. 3), continuidade do circuito de proteção; corrente suportável de curto-circuito e fator n entre crista e eficaz (Tab. 4); seleção de condutores entre barramento e dispositivo (Tab. 5).",
+   "valores": []},
+  {"titulo": "Separação interna (formas)", "item": "7.7",
+   "texto": "Barreiras ou divisões dão proteção contra toque em partes perigosas das unidades vizinhas (≥ IPXXB) e contra passagem de sólidos entre unidades (≥ IP2X). A forma é acordada entre fabricante e usuário.",
+   "valores": [
+    {"parametro": "Forma 1", "valor": "sem separação", "item": "7.7"},
+    {"parametro": "Forma 2 (a/b)", "valor": "barramentos separados das unidades funcionais (b: terminais também separados do barramento)", "item": "7.7"},
+    {"parametro": "Forma 3 (a/b)", "valor": "barramento separado e unidades funcionais separadas entre si; terminais separados das unidades (b: também do barramento)", "item": "7.7"},
+    {"parametro": "Forma 4 (a/b)", "valor": "como a 3, com os terminais de cada unidade separados entre si (a: no mesmo compartimento da unidade; b: em compartimento próprio)", "item": "7.7"}
+   ]},
+  {"titulo": "Componentes, conexões, EMC", "item": "7.6–7.11",
+   "texto": "Instalação de dispositivos (posições de partes extraíveis — Tab. 6), barramentos e condutores isolados, circuitos para eletrônicos, compatibilidade eletromagnética e tipos de conexão das unidades funcionais (fixas, removíveis, extraíveis).",
+   "valores": []},
+  {"titulo": "Ensaios", "item": "8, Tab. 7",
+   "texto": "Ensaios de tipo (elevação de temperatura, dielétrico, curto-circuito, eficácia do circuito de proteção, distâncias de isolação e escoamento, funcionamento mecânico, grau IP, EMC) e ensaios de rotina (inspeção, dielétrico, proteção). Tabelas de condutores de ensaio, tensões suportáveis (Tab. 13), distâncias de isolação no ar (Tab. 14) e de escoamento (Tab. 16).",
+   "valores": []}
+ ]
+}

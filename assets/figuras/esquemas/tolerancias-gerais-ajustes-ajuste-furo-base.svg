@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" width="960" height="430" role="img" aria-label="Ajuste furo-base — ES, EI, es, ei, folga e interferência">
+<title>Ajuste furo-base — ES, EI, es, ei, folga e interferência</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2;stroke-linejoin:round}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2.2;stroke-linejoin:round}
+  .w{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .z{fill:#2e86c1;fill-opacity:.18;stroke:#2e86c1;stroke-width:1.4;stroke-dasharray:6 4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:1}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.4;stroke-dasharray:7 5}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .p{font-size:14px}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .r{text-anchor:end}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+<text class="t m" x="470" y="30">Ajuste no sistema furo-base (NBR 6158) — colunas das tabelas de ajuste</text>
+<text class="m b" x="240" y="62">a) com folga (ex. H7/f7, H7/g6, H8/e8)</text>
+<path class="g" d="M40,230 L460,230"/>
+<text class="n" x="390" y="248">linha zero</text>
+<rect x="100" y="170" width="90" height="60" style="fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2"/>
+<text class="m p" x="145" y="204">furo H</text>
+<g id="cota-ES" class="cota"><path class="d" d="M90,230 L90,170" marker-start="url(#a)" marker-end="url(#a)"/><text class="r b" x="84" y="200">ES</text></g>
+<g id="cota-EI" class="cota"><text class="r p" x="84" y="248">EI = 0</text></g>
+<rect x="255" y="260" width="80" height="45" style="fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2"/>
+<text class="m p" x="295" y="287.5">eixo</text>
+<path class="h" d="M335,260 L385,260"/>
+<path class="h" d="M335,305 L385,305"/>
+<g id="cota-es" class="cota"><path class="d" d="M350,230 L350,260" marker-end="url(#a)"/><text class="b r" x="340" y="250.0">es</text></g>
+<g id="cota-ei" class="cota"><path class="d" d="M380,230 L380,305" marker-end="url(#a)"/><text class="b" x="388" y="272.5">ei</text></g>
+<path class="h" d="M190,170 L240,170"/>
+<path class="h" d="M210,305 L255,305"/>
+<path class="h" d="M225,260 L255,260"/>
+<g id="cota-folga-max" class="cota"><path class="d" d="M215,170 L215,305" marker-start="url(#a)" marker-end="url(#a)"/><text class="b r" x="208" y="285">1</text></g>
+<g id="cota-folga-min" class="cota"><path class="d" d="M240,230 L240,260" marker-start="url(#a)" marker-end="url(#a)"/><text class="b" x="245" y="251">2</text></g>
+<text class="m b" x="700" y="62">b) com interferência (ex. H7/r6, H7/s6)</text>
+<path class="g" d="M500,230 L920,230"/>
+<text class="n" x="850" y="248">linha zero</text>
+<rect x="560" y="170" width="90" height="60" style="fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2"/>
+<text class="m p" x="605" y="204">furo H</text>
+<g id="cota-ES-b" class="cota"><path class="d" d="M550,230 L550,170" marker-start="url(#a)" marker-end="url(#a)"/><text class="r b" x="544" y="200">ES</text></g>
+<g id="cota-EI-b" class="cota"><text class="r p" x="544" y="248">EI = 0</text></g>
+<rect x="715" y="90" width="80" height="45" style="fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2"/>
+<text class="m p" x="755" y="117.5">eixo</text>
+<path class="h" d="M795,90 L845,90"/>
+<path class="h" d="M795,135 L845,135"/>
+<g id="cota-es-b" class="cota"><path class="d" d="M810,230 L810,90" marker-end="url(#a)"/><text class="b r" x="800" y="165.0">es</text></g>
+<g id="cota-ei-b" class="cota"><path class="d" d="M840,230 L840,135" marker-end="url(#a)"/><text class="b" x="848" y="187.5">ei</text></g>
+<path class="h" d="M650,170 L700,170"/>
+<path class="h" d="M670,135 L715,135"/>
+<path class="h" d="M685,90 L715,90"/>
+<g id="cota-folga-max-b" class="cota"><path class="d" d="M675,170 L675,135" marker-start="url(#a)" marker-end="url(#a)"/><text class="b r" x="666" y="157.5">1</text></g>
+<g id="cota-folga-min-b" class="cota"><path class="d" d="M700,230 L700,90" marker-start="url(#a)" marker-end="url(#a)"/><text class="b" x="706" y="182.0">2</text></g>
+<text class="p" x="40" y="350">1 = Folga máx. (+) / interferência mín. (−) = ES − ei</text>
+<text class="p" x="40" y="370">2 = Folga mín. (+) / interferência máx. (−) = EI − es  (EI = 0 no furo H; valor negativo = interferência)</text>
+<text class="p" x="40" y="390">es, ei do eixo: Tabela 2 (afastamento fundamental) e IT da Tabela 1; ES do furo H = IT do grau.</text>
+
+<text class="n" x="480" y="418" text-anchor="middle">Esquema ilustrativo, fora de escala (não é desenho da norma) — rótulos = colunas da tabela</text>
+</svg>

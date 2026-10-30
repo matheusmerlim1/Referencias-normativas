@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" role="img" aria-label="Moitão de uma polia — carga presa ao cabo × carga presa ao moitão">
+<title>Moitão de uma polia — carga presa ao cabo × carga presa ao moitão (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Moitão de uma polia — carga presa ao cabo × carga presa ao moitão</text>
+<circle class="sl" cx="200" cy="150" r="45"/>
+<line x1="155" y1="150" x2="155" y2="70" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="245" y1="150" x2="245" y2="330" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<rect class="s" x="220" y="330" width="50" height="40"/>
+<text class="n m" x="200" y="400">carga no cabo que passa na polia</text>
+<circle class="sl" cx="540" cy="250" r="45"/>
+<line x1="495" y1="250" x2="495" y2="70" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="585" y1="250" x2="585" y2="70" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<path d="M495,250 A45,45 0 0 0 585,250" fill="none" stroke="#666" stroke-width="3"/>
+<line class="g" x1="540" y1="250" x2="540" y2="320"/>
+<rect class="s" x="515" y="320" width="50" height="40"/>
+<text class="n m" x="540" y="400">carga presa ao moitão (dois ramos)</text>
+<text class="n" x="20" y="428">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

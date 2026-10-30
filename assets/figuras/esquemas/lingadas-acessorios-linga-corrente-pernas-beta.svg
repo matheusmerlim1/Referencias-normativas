@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-label="Lingas de corrente de 1, 2, 3 e 4 pernas — ângulos β e α">
+<title>Lingas de corrente de 1, 2, 3 e 4 pernas — ângulos β e α (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Lingas de corrente de 1, 2, 3 e 4 pernas — ângulos β e α</text>
+<ellipse cx="100" cy="68" rx="14" ry="22" transform="rotate(0 100 68)" fill="none" stroke="#666" stroke-width="5"/>
+<line x1="100" y1="90" x2="100" y2="300" stroke="#666" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4"/>
+<path class="g" d="M108,302 L108,326 A11.2,11.2 0 1 1 87.2,321.2" style="stroke-width:5"/>
+<line class="c" x1="100" y1="90" x2="100" y2="300"/>
+<text class="b m" x="100" y="370">1 perna</text>
+<ellipse cx="330" cy="68" rx="14" ry="22" transform="rotate(0 330 68)" fill="none" stroke="#666" stroke-width="5"/>
+<line x1="330" y1="90" x2="250" y2="300" stroke="#666" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4"/>
+<path class="g" d="M258,302 L258,326 A11.2,11.2 0 1 1 237.2,321.2" style="stroke-width:5"/>
+<line x1="330" y1="90" x2="410" y2="300" stroke="#666" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4"/>
+<path class="g" d="M418,302 L418,326 A11.2,11.2 0 1 1 397.2,321.2" style="stroke-width:5"/>
+<line class="c" x1="330" y1="90" x2="330" y2="300"/>
+<g id="cota-beta" class="cota"><path class="d" d="M372.7,202.1 A120,120 0 0,1 330,210" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="355.3" y="232.7">β</text></g>
+<g id="cota-alfa" class="cota"><path class="d" d="M354.9,155.4 A70,70 0 0,1 305.1,155.4" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="330" y="183">α</text></g>
+<text class="b m" x="330" y="370">2 pernas</text>
+<ellipse cx="560" cy="68" rx="14" ry="22" transform="rotate(0 560 68)" fill="none" stroke="#666" stroke-width="5"/>
+<line x1="560" y1="90" x2="480" y2="300" stroke="#666" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4"/>
+<path class="g" d="M488,302 L488,326 A11.2,11.2 0 1 1 467.2,321.2" style="stroke-width:5"/>
+<line x1="560" y1="90" x2="560" y2="300" stroke="#666" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4"/>
+<path class="g" d="M568,302 L568,326 A11.2,11.2 0 1 1 547.2,321.2" style="stroke-width:5"/>
+<line x1="560" y1="90" x2="640" y2="300" stroke="#666" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4"/>
+<path class="g" d="M648,302 L648,326 A11.2,11.2 0 1 1 627.2,321.2" style="stroke-width:5"/>
+<line class="c" x1="560" y1="90" x2="560" y2="300"/>
+<text class="b m" x="560" y="370">3 pernas</text>
+<ellipse cx="790" cy="68" rx="14" ry="22" transform="rotate(0 790 68)" fill="none" stroke="#666" stroke-width="5"/>
+<line x1="790" y1="90" x2="710" y2="300" stroke="#666" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4"/>
+<path class="g" d="M718,302 L718,326 A11.2,11.2 0 1 1 697.2,321.2" style="stroke-width:5"/>
+<line x1="790" y1="90" x2="763.3" y2="300" stroke="#666" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4"/>
+<path class="g" d="M771.3,302 L771.3,326 A11.2,11.2 0 1 1 750.5,321.2" style="stroke-width:5"/>
+<line x1="790" y1="90" x2="816.7" y2="300" stroke="#666" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4"/>
+<path class="g" d="M824.7,302 L824.7,326 A11.2,11.2 0 1 1 803.9,321.2" style="stroke-width:5"/>
+<line x1="790" y1="90" x2="870" y2="300" stroke="#666" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4"/>
+<path class="g" d="M878,302 L878,326 A11.2,11.2 0 1 1 857.2,321.2" style="stroke-width:5"/>
+<line class="c" x1="790" y1="90" x2="790" y2="300"/>
+<text class="b m" x="790" y="370">4 pernas</text>
+<text class="n m" x="450" y="400">β = ângulo da perna com a vertical; α = ângulo entre pernas opostas</text>
+<text class="n" x="20" y="428">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

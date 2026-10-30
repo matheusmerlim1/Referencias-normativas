@@ -1,0 +1,49 @@
+{
+ "id": "ISO-898-5",
+ "titulo": "ISO 898-5:2012 — Propriedades mecânicas de fixadores de aço — Parte 5: Parafusos sem cabeça (set screws) com classes de dureza",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Propriedades de parafusos de fixação sem cabeça e similares de aço-carbono ou ligado, ensaiados entre 10 °C e 35 °C, classificados por dureza e destinados só a esforço de compressão (não a tração).",
+   "valores": [
+    {
+     "parametro": "Temperatura de uso usual",
+     "valor": "−50 °C a +150 °C (até 300 °C com avaliação de metalurgista)",
+     "item": "1, Nota"
+    }
+   ]
+  },
+  {
+   "titulo": "Classes de dureza",
+   "item": "5, Tab. 1",
+   "texto": "A classe é indicada pela dureza Vickers mínima ÷ 10 seguida de H.",
+   "valores": [
+    {
+     "parametro": "14H / 22H / 33H / 45H",
+     "valor": "HV mín. 140 / 220 / 330 / 450",
+     "item": "Tab. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Materiais",
+   "item": "6, Tab. 2",
+   "texto": "Limites de composição por classe; 14H em aço-carbono sem tratamento térmico obrigatório; classes mais altas temperadas e revenidas. Chumbo até 0,35 % admitido.",
+   "valores": [
+    {
+     "parametro": "14H — C máx. / P máx. / S máx.",
+     "valor": "0,50 % / 0,11 % / 0,15 %",
+     "item": "Tab. 2",
+     "nota": "leitura de OCR — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades e ensaios",
+   "item": "7–9",
+   "texto": "Dureza (Vickers, Brinell ou Rockwell), descarbonetação e carbonetação, e torque de prova para parafusos de sextavado ou hexalobular interno da classe 45H.",
+   "valores": []
+  }
+ ]
+}

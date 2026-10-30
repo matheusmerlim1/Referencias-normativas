@@ -1,0 +1,6382 @@
+{
+  "id": "tolerancias-gerais-ajustes",
+  "titulo": "Tolerâncias gerais, ajustes e corte térmico",
+  "categoria": "Estruturas e fabricação",
+  "resumo": "Tolerâncias gerais lineares, angulares e geométricas (NBR ISO 2768-1/-2: classes f/m/c/v e H/K/L), graus IT e ajustes furo-base usuais (NBR 6158 = ISO 286: H7/g6, H7/k6, H7/p6…) e qualidade e tolerâncias de corte térmico (ISO 9013). Consulta por tabela e faixa de dimensão.",
+  "palavras_chave": [
+    "tolerância geral",
+    "ISO 2768",
+    "2768-m",
+    "2768-mK",
+    "tolerância dimensional",
+    "afastamento",
+    "general tolerance",
+    "planeza",
+    "retitude",
+    "perpendicularidade",
+    "simetria",
+    "batimento",
+    "flatness",
+    "straightness",
+    "ajuste",
+    "fit",
+    "H7",
+    "g6",
+    "h6",
+    "k6",
+    "p6",
+    "H7/g6",
+    "furo-base",
+    "eixo-base",
+    "IT",
+    "grau de tolerância",
+    "ISO 286",
+    "NBR 6158",
+    "folga",
+    "interferência",
+    "corte térmico",
+    "oxicorte",
+    "plasma",
+    "laser",
+    "ISO 9013",
+    "thermal cut",
+    "rugosidade de corte",
+    "Rz5",
+    "sobremetal"
+  ],
+  "relacionadas": [
+    "tolerancias-fabricacao-estrutural",
+    "solda-estrutural",
+    "parafusos-porcas-arruelas",
+    "norma-asme-p30-1",
+    "norma-asme-pcc-2",
+    "norma-asme-y14-5"
+  ],
+  "calculadora": "consulta-tabela",
+  "consulta": {
+    "titulo": "Consulta de tolerância",
+    "rotulos": {
+      "consulta": "Tabela",
+      "ajuste": "Ajuste"
+    },
+    "linha": "Faixa",
+    "ajuda": "Escolha a tabela (e o ajuste, quando for o caso) e a faixa de dimensão ou espessura."
+  },
+  "figuras": [
+    {
+      "arquivo": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — o que cada tabela da NBR ISO 2768-1 tolera: dimensão nominal ± t (Tabela 1), raio externo r e altura do chanfro (Tabela 2, cantos quebrados), ângulo α ± Δα pelo comprimento do menor lado (Tabela 3).",
+      "norma": "NBR-ISO-2768-1",
+      "item": "Esquema",
+      "pagina": 3,
+      "grupo": "Tolerâncias gerais (NBR ISO 2768)"
+    },
+    {
+      "arquivo": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — tolerâncias geométricas gerais da NBR ISO 2768-2: retitude/planeza × comprimento nominal (Tabela 1), perpendicularidade × lado menor, com o lado maior como referência (Tabela 2), simetria × comprimento nominal (Tabela 3); t = valor da classe H, K ou L.",
+      "norma": "NBR-ISO-2768-2",
+      "item": "Esquema",
+      "pagina": 2,
+      "grupo": "Tolerâncias gerais (NBR ISO 2768)"
+    },
+    {
+      "arquivo": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ajuste furo-base: furo H com EI = 0 e ES; eixo com es e ei; (1) folga máx. / interferência mín. = ES − ei; (2) folga mín. / interferência máx. = EI − es — as colunas das tabelas de ajuste.",
+      "norma": "NBR-6158",
+      "item": "Esquema",
+      "pagina": 10,
+      "grupo": "Tolerâncias e ajustes (NBR 6158 / ISO 286)"
+    },
+    {
+      "arquivo": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ISO 9013: tolerância u na face de corte reduzida de Δa nas arestas (a = espessura), Rz5 = média de 5 alturas Zt, pontos de medição (distância do início do corte, espaçamento) e faixas 1 a 5 de u em função de a",
+      "norma": "ISO-9013",
+      "pagina": 14,
+      "grupo": "Corte térmico (ISO 9013)",
+      "item": "Esquema"
+    },
+    {
+      "arquivo": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ISO 9013: peça cortada para montagem (A = cota de montagem, dimensão nominal, afastamento) e peça com acabamento (sobremetal Bz)",
+      "norma": "ISO-9013",
+      "pagina": 26,
+      "grupo": "Corte térmico (ISO 9013)",
+      "item": "Esquema"
+    },
+    {
+      "arquivo": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — NBR 6158: afastamentos ES/EI (furo) e es/ei (eixo) em relação à linha zero, IT = largura do campo, posições A…ZC / a…zc e JS/js = ±IT/2",
+      "norma": "NBR-6158",
+      "pagina": 4,
+      "grupo": "Tolerâncias e ajustes (NBR 6158 / ISO 286)",
+      "item": "Esquema"
+    },
+    {
+      "arquivo": "esquemas/tolerancias-gerais-ajustes-iso2768-exemplo-desenho.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — indicação \"ISO 2768-mH\" no desenho (cotas sem tolerância individual) e batimento circular radial/axial medido com relógio",
+      "norma": "NBR-ISO-2768-2",
+      "pagina": 9,
+      "grupo": "Tolerâncias gerais (NBR ISO 2768)",
+      "item": "Esquema"
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Tolerâncias gerais (NBR ISO 2768)",
+      "parametro": "Indicação no desenho",
+      "valor": "Na legenda: \"NBR ISO 2768-m\" (classe f, m, c ou v). Com a parte 2: \"NBR ISO 2768-mK\"; só geométrica: \"NBR ISO 2768-K\"; com envolvente: \"NBR ISO 2768-mK-E\"",
+      "norma": "NBR-ISO-2768-1",
+      "item": "5; 2768-2 6",
+      "pagina": 3
+    },
+    {
+      "grupo": "Tolerâncias gerais (NBR ISO 2768)",
+      "parametro": "Aplicação",
+      "valor": "Dimensões lineares e angulares SEM tolerância individual, de peças usinadas ou de chapa; não vale para dimensões auxiliares (entre parênteses) nem teoricamente exatas (emolduradas)",
+      "norma": "NBR-ISO-2768-1",
+      "item": "1",
+      "pagina": 2
+    },
+    {
+      "grupo": "Tolerâncias gerais (NBR ISO 2768)",
+      "parametro": "Superfície bruta × usinada",
+      "valor": "Para dimensão entre superfície não acabada e acabada (ex. fundido/forjado) aplica-se a MAIOR das duas tolerâncias gerais",
+      "norma": "NBR-ISO-2768-1",
+      "item": "2",
+      "pagina": 2
+    },
+    {
+      "grupo": "Tolerâncias gerais (NBR ISO 2768)",
+      "parametro": "Classe média m — exemplos",
+      "valor": "Até 6 mm ±0,1; 6–30 ±0,2; 30–120 ±0,3; 120–400 ±0,5; 400–1 000 ±0,8; 1 000–2 000 ±1,2; 2 000–4 000 ±2",
+      "norma": "NBR-ISO-2768-1",
+      "item": "Tabela 1",
+      "pagina": 3,
+      "cota": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#linear"
+    },
+    {
+      "grupo": "Tolerâncias gerais (NBR ISO 2768)",
+      "parametro": "Rejeição",
+      "valor": "Peças fora da tolerância geral não devem ser rejeitadas automaticamente se a função não for comprometida",
+      "norma": "NBR-ISO-2768-1",
+      "item": "6",
+      "pagina": 3
+    },
+    {
+      "grupo": "Tolerâncias gerais (NBR ISO 2768)",
+      "parametro": "Características com tolerância geral (parte 2)",
+      "valor": "Retitude, planeza, perpendicularidade, simetria e batimento circular (tabelas); circularidade = tolerância do diâmetro, limitada pelo batimento; paralelismo = maior entre tolerância dimensional e de planeza/retitude",
+      "norma": "NBR-ISO-2768-2",
+      "item": "5.1–5.2",
+      "pagina": 2
+    },
+    {
+      "grupo": "Tolerâncias gerais (NBR ISO 2768)",
+      "parametro": "Sem tolerância geral",
+      "valor": "Cilindricidade, perfil de linha qualquer, angularidade, coaxialidade, posição e batimento total — indicar individualmente se necessário",
+      "norma": "NBR-ISO-2768-2",
+      "item": "2",
+      "pagina": 2
+    },
+    {
+      "grupo": "Tolerâncias gerais (NBR ISO 2768)",
+      "parametro": "Batimento circular (radial, axial)",
+      "valor": "H 0,1 mm; K 0,2 mm; L 0,5 mm",
+      "norma": "NBR-ISO-2768-2",
+      "item": "Tabela 4",
+      "pagina": 4,
+      "cota": "esquemas/tolerancias-gerais-ajustes-iso2768-exemplo-desenho.svg#batimento"
+    },
+    {
+      "grupo": "Tolerâncias gerais (NBR ISO 2768)",
+      "parametro": "Ângulo reto com a parte 2",
+      "valor": "Com \"mK\", a tolerância angular da parte 1 não se aplica aos ângulos retos implícitos — vale a de perpendicularidade",
+      "norma": "NBR-ISO-2768-2",
+      "item": "6",
+      "pagina": 4,
+      "cota": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#perpendicularidade"
+    },
+    {
+      "grupo": "Tolerâncias e ajustes (NBR 6158 / ISO 286)",
+      "parametro": "Designação",
+      "valor": "Dimensão + classe: 32 H7; 100 g6. Ajuste: 52 H7/g6 (furo/eixo). Letra MAIÚSCULA = furo, minúscula = eixo; número = grau IT",
+      "norma": "NBR-6158",
+      "item": "4.2.1; 4.2.2",
+      "pagina": 7
+    },
+    {
+      "grupo": "Tolerâncias e ajustes (NBR 6158 / ISO 286)",
+      "parametro": "Sistema furo-base",
+      "valor": "Furo H (afastamento inferior EI = 0) e eixos de várias letras — o mais usual; eixo-base: eixo h (es = 0)",
+      "norma": "NBR-6158",
+      "item": "3.11",
+      "pagina": 7,
+      "cota": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#EI"
+    },
+    {
+      "grupo": "Tolerâncias e ajustes (NBR 6158 / ISO 286)",
+      "parametro": "Segundo afastamento",
+      "valor": "ei = es − IT (ou es = ei + IT) para eixos; EI = ES − IT (ou ES = EI + IT) para furos",
+      "norma": "NBR-6158",
+      "item": "3.6 (notas)",
+      "pagina": 4,
+      "cota": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT"
+    },
+    {
+      "grupo": "Tolerâncias e ajustes (NBR 6158 / ISO 286)",
+      "parametro": "js / JS",
+      "valor": "Afastamentos simétricos ±IT/2",
+      "norma": "NBR-6158",
+      "item": "Tabela 2",
+      "pagina": 10,
+      "cota": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#js"
+    },
+    {
+      "grupo": "Tolerâncias e ajustes (NBR 6158 / ISO 286)",
+      "parametro": "Requisito de envolvente",
+      "valor": "Elementos com função de ajuste: símbolo Ⓔ após a tolerância (forma perfeita no máximo material)",
+      "norma": "NBR-6158",
+      "item": "4.3.3",
+      "pagina": 8
+    },
+    {
+      "grupo": "Tolerâncias e ajustes (NBR 6158 / ISO 286)",
+      "parametro": "Desenho SEM \"Tolerância conforme ISO 8015\"",
+      "valor": "Tolerâncias interpretadas pelo cilindro perfeito imaginário (exigência de envoltória): para furos, o diâmetro do maior cilindro perfeito imaginário envolvido pelo furo; para eixos, o critério correspondente — ver o texto completo do 4.3.4 a)/b) da norma (aba Texto completo)",
+      "norma": "NBR-6158",
+      "item": "4.3.4",
+      "pagina": 8,
+      "nota": "Com a anotação \"Tolerância conforme ISO 8015\" vale o princípio da independência (4.3.3 pede Ⓔ onde houver ajuste). O restante do texto do 4.3.4 não sai na extração de texto desta cópia — ver o texto completo da norma (aba Texto completo)."
+    },
+    {
+      "grupo": "Corte térmico (ISO 9013)",
+      "parametro": "Escopo",
+      "valor": "Classificação de cortes térmicos: chama 3–300 mm, plasma 0,5–150 mm, laser 0,5–32 mm",
+      "norma": "ISO-9013",
+      "item": "1",
+      "pagina": 9
+    },
+    {
+      "grupo": "Corte térmico (ISO 9013)",
+      "parametro": "Medição — nº de pontos (sem requisito especificado)",
+      "valor": "u: duas vezes três medições, espaçadas de 20 mm, em cada metro de corte; Rz5: uma medição em cada metro de corte",
+      "norma": "ISO-9013",
+      "item": "6.2.2.2",
+      "pagina": 19,
+      "nota": "Nº e localização dos pontos definidos pelo fabricante; os valores acima valem quando não houver requisito. Valor no limite superior da faixa ou duvidoso → medições suplementares no mesmo nº de pontos adicionais (6.2.2.1).",
+      "cota": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#medicao-20"
+    },
+    {
+      "grupo": "Corte térmico (ISO 9013)",
+      "parametro": "Medição — zona de u (redução Δa)",
+      "valor": "u é determinado na face de corte reduzida de Δa (Tabela 3) a partir das arestas superior e inferior (Figura 6)",
+      "norma": "ISO-9013",
+      "item": "6.2.2.3; Tabela 3",
+      "pagina": 19,
+      "nota": "A redução existe para descontar a fusão da aresta superior. Δa: ≤ 3 mm → 0,1 a; > 3–6 → 0,3; > 6–10 → 0,6; > 10–20 → 1; > 20–40 → 1,5; > 40–100 → 2; > 100–150 → 3; > 150–200 → 5; > 200–250 → 8; > 250–300 → 10 mm (tabela na aba Tabelas).",
+      "cota": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#delta-a"
+    },
+    {
+      "grupo": "Corte térmico (ISO 9013)",
+      "parametro": "Medição — Rz5",
+      "valor": "Medir a 15 mm do início do corte, no sentido de avanço, no ponto de maior rugosidade, conforme ISO 4288 com aparelho da ISO 3274; espessura < 2 mm: medir a 1/2 da espessura a partir da aresta superior",
+      "norma": "ISO-9013",
+      "item": "6.2.2.3; 6.2.3",
+      "pagina": 19,
+      "nota": "Espessura < 2 mm: o procedimento de medição de u deve ser acordado. Furação (piercing), início e fim do corte são excluídos das medições (6.2.3).",
+      "cota": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#medicao-15"
+    },
+    {
+      "grupo": "Corte térmico (ISO 9013)",
+      "parametro": "Qualidade da superfície",
+      "valor": "Perpendicularidade/angularidade u (faixas 1–5, Tabela 4) e altura média do perfil Rz5 (faixas 1–4, Tabela 5), indicadas na ordem u, Rz5 (\"0\" quando não fixado); opcionais: arraste n, fusão da aresta superior r, escória na aresta inferior",
+      "norma": "ISO-9013",
+      "item": "7.1; 7.2.1",
+      "pagina": 20,
+      "nota": "Falhas isoladas (goivas, gotas de fusão no início do corte, resíduos de óxido) não entram na avaliação. Cortes multiflanco (Y, duplo V, duplo HV): cada face avaliada separadamente (7.2.1). Rz5 = Tabela 5.",
+      "cota": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#u"
+    },
+    {
+      "grupo": "Corte térmico (ISO 9013)",
+      "parametro": "Designação",
+      "valor": "\"Thermal cut ISO 9013-312:2017\" = u faixa 3, Rz5 faixa 1, classe dimensional 2; no desenho, símbolo ISO 1302 (Figura 16); na legenda/carimbo: \"ISO 9013-342\" (u faixa 3, Rz5 faixa 4, classe 2)",
+      "norma": "ISO-9013",
+      "item": "9; 10.2",
+      "pagina": 28,
+      "nota": "Ordem da designação (item 9, alíneas a–e): \"Thermal cut\", ISO 9013:2017, faixa u (1–5), faixa Rz5 (1–4), classe dimensional (1–2). Exemplos no item 10.2."
+    },
+    {
+      "grupo": "Corte térmico (ISO 9013)",
+      "parametro": "Classe alcançável por processo",
+      "valor": "Laser (até 32 mm): classe 1; oxicorte e plasma: classe 2",
+      "norma": "ISO-9013",
+      "item": "Anexo A, Tabela A.1",
+      "pagina": 29,
+      "nota": "Valores típicos, com máquina em manutenção e operador treinado; não valem no início e fim do corte."
+    },
+    {
+      "grupo": "Corte térmico (ISO 9013)",
+      "parametro": "Peça para montagem",
+      "valor": "Dimensão real do corte = maior dimensão em cotas externas e menor em internas; dimensão nominal = cota de montagem reduzida do afastamento",
+      "norma": "ISO-9013",
+      "item": "8.2.1",
+      "pagina": 26,
+      "cota": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#A"
+    }
+  ],
+  "tabelas": [
+    {
+      "id": "iso2768-1-t1",
+      "titulo": "Tolerância geral — dimensões lineares (exceto cantos quebrados)",
+      "norma": "NBR-ISO-2768-1",
+      "item": "Tabela 1",
+      "pagina": 3,
+      "unidade": "mm",
+      "chave": {
+        "consulta": "ISO 2768-1 — lineares"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "f — fino",
+        "m — médio",
+        "c — grosso",
+        "v — muito grosso"
+      ],
+      "linhas": [
+        [
+          "0,5–3",
+          "±0,05",
+          "±0,1",
+          "±0,2",
+          "—"
+        ],
+        [
+          "3–6",
+          "±0,05",
+          "±0,1",
+          "±0,3",
+          "±0,5"
+        ],
+        [
+          "6–30",
+          "±0,1",
+          "±0,2",
+          "±0,5",
+          "±1"
+        ],
+        [
+          "30–120",
+          "±0,15",
+          "±0,3",
+          "±0,8",
+          "±1,5"
+        ],
+        [
+          "120–400",
+          "±0,2",
+          "±0,5",
+          "±1,2",
+          "±2,5"
+        ],
+        [
+          "400–1 000",
+          "±0,3",
+          "±0,8",
+          "±2",
+          "±4"
+        ],
+        [
+          "1 000–2 000",
+          "±0,5",
+          "±1,2",
+          "±3",
+          "±6"
+        ],
+        [
+          "2 000–4 000",
+          "—",
+          "±2",
+          "±4",
+          "±8"
+        ]
+      ],
+      "nota": "Faixas: de 0,5 até 3; acima de 3 até 6; … (o limite superior é inclusivo). Abaixo de 0,5 mm a tolerância deve ser indicada junto à dimensão.",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg"
+      ],
+      "cotas": {
+        "f — fino": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#linear",
+        "m — médio": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#linear",
+        "c — grosso": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#linear",
+        "v — muito grosso": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#linear"
+      }
+    },
+    {
+      "id": "iso2768-1-t2",
+      "titulo": "Tolerância geral — cantos quebrados (raios externos e altura de chanfros)",
+      "norma": "NBR-ISO-2768-1",
+      "item": "Tabela 2",
+      "pagina": 3,
+      "unidade": "mm",
+      "chave": {
+        "consulta": "ISO 2768-1 — raios e chanfros"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "f e m",
+        "c e v"
+      ],
+      "linhas": [
+        [
+          "0,5–3",
+          "±0,2",
+          "±0,4"
+        ],
+        [
+          "3–6",
+          "±0,5",
+          "±1"
+        ],
+        [
+          "acima de 6",
+          "±1",
+          "±2"
+        ]
+      ],
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg"
+      ],
+      "cotas": {
+        "f e m": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#chanfro",
+        "c e v": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#chanfro"
+      }
+    },
+    {
+      "id": "iso2768-1-t3",
+      "titulo": "Tolerância geral — dimensões angulares",
+      "norma": "NBR-ISO-2768-1",
+      "item": "Tabela 3",
+      "pagina": 4,
+      "unidade": "° ′",
+      "chave": {
+        "consulta": "ISO 2768-1 — ângulos"
+      },
+      "colunas": [
+        "Comprimento do menor lado (mm)",
+        "f e m",
+        "c — grosso",
+        "v — muito grosso"
+      ],
+      "linhas": [
+        [
+          "até 10",
+          "±1°",
+          "±1°30′",
+          "±3°"
+        ],
+        [
+          "10–50",
+          "±0°30′",
+          "±1°",
+          "±2°"
+        ],
+        [
+          "50–120",
+          "±0°20′",
+          "±0°30′",
+          "±1°"
+        ],
+        [
+          "120–400",
+          "±0°10′",
+          "±0°15′",
+          "±0°30′"
+        ],
+        [
+          "acima de 400",
+          "±0°5′",
+          "±0°10′",
+          "±0°20′"
+        ]
+      ],
+      "nota": "Controla só a orientação geral das linhas (não o erro de forma).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg"
+      ],
+      "cotas": {
+        "Comprimento do menor lado (mm)": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#lado-menor",
+        "f e m": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#angulo",
+        "c — grosso": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#angulo",
+        "v — muito grosso": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#angulo"
+      }
+    },
+    {
+      "id": "iso2768-2-t1",
+      "titulo": "Tolerância geral — retitude e planeza",
+      "norma": "NBR-ISO-2768-2",
+      "item": "Tabela 1",
+      "pagina": 2,
+      "unidade": "mm",
+      "chave": {
+        "consulta": "ISO 2768-2 — retitude e planeza"
+      },
+      "colunas": [
+        "Comprimento nominal (mm)",
+        "H",
+        "K",
+        "L"
+      ],
+      "linhas": [
+        [
+          "até 10",
+          0.02,
+          0.05,
+          0.1
+        ],
+        [
+          "10–30",
+          0.05,
+          0.1,
+          0.2
+        ],
+        [
+          "30–100",
+          0.1,
+          0.2,
+          0.4
+        ],
+        [
+          "100–300",
+          0.2,
+          0.4,
+          0.8
+        ],
+        [
+          "300–1 000",
+          0.3,
+          0.6,
+          1.2
+        ],
+        [
+          "1 000–3 000",
+          0.4,
+          0.8,
+          1.6
+        ]
+      ],
+      "nota": "Retitude: comprimento da linha; planeza: maior lado da superfície ou diâmetro (5.1.1).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg"
+      ],
+      "cotas": {
+        "Comprimento nominal (mm)": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#comprimento",
+        "H": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#retitude",
+        "K": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#retitude",
+        "L": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#retitude"
+      }
+    },
+    {
+      "id": "iso2768-2-t2",
+      "titulo": "Tolerância geral — perpendicularidade",
+      "norma": "NBR-ISO-2768-2",
+      "item": "Tabela 2",
+      "pagina": 3,
+      "unidade": "mm",
+      "chave": {
+        "consulta": "ISO 2768-2 — perpendicularidade"
+      },
+      "colunas": [
+        "Lado menor (mm)",
+        "H",
+        "K",
+        "L"
+      ],
+      "linhas": [
+        [
+          "até 100",
+          0.2,
+          0.4,
+          0.6
+        ],
+        [
+          "100–300",
+          0.3,
+          0.6,
+          1
+        ],
+        [
+          "300–1 000",
+          0.4,
+          0.8,
+          1.5
+        ],
+        [
+          "1 000–3 000",
+          0.5,
+          1,
+          2
+        ]
+      ],
+      "nota": "O maior dos dois lados é a referência (5.2.3).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg"
+      ],
+      "cotas": {
+        "Lado menor (mm)": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#lado-menor",
+        "H": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#perpendicularidade",
+        "K": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#perpendicularidade",
+        "L": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#perpendicularidade"
+      }
+    },
+    {
+      "id": "iso2768-2-t3",
+      "titulo": "Tolerância geral — simetria",
+      "norma": "NBR-ISO-2768-2",
+      "item": "Tabela 3",
+      "pagina": 3,
+      "unidade": "mm",
+      "chave": {
+        "consulta": "ISO 2768-2 — simetria"
+      },
+      "colunas": [
+        "Comprimento nominal (mm)",
+        "H",
+        "K",
+        "L"
+      ],
+      "linhas": [
+        [
+          "até 100",
+          0.5,
+          0.6,
+          0.6
+        ],
+        [
+          "100–300",
+          0.5,
+          0.6,
+          1
+        ],
+        [
+          "300–1 000",
+          0.5,
+          0.8,
+          1.5
+        ],
+        [
+          "1 000–3 000",
+          0.5,
+          1,
+          2
+        ]
+      ],
+      "nota": "Células mescladas na norma: H = 0,5 em todas as faixas; K = 0,6 até 300 mm (conferido na imagem).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg"
+      ],
+      "cotas": {
+        "Comprimento nominal (mm)": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#comprimento-simetria",
+        "H": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#simetria",
+        "K": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#simetria",
+        "L": "esquemas/tolerancias-gerais-ajustes-iso2768-2.svg#simetria"
+      }
+    },
+    {
+      "id": "nbr6158-t1-it",
+      "titulo": "Graus de tolerância-padrão IT1 a IT18",
+      "norma": "NBR-6158",
+      "item": "Tabela 1",
+      "pagina": 9,
+      "unidade": "µm (IT1–IT11) / mm (IT12–IT18)",
+      "chave": {
+        "consulta": "NBR 6158 — graus IT"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "IT1 (µm)",
+        "IT2 (µm)",
+        "IT3 (µm)",
+        "IT4 (µm)",
+        "IT5 (µm)",
+        "IT6 (µm)",
+        "IT7 (µm)",
+        "IT8 (µm)",
+        "IT9 (µm)",
+        "IT10 (µm)",
+        "IT11 (µm)",
+        "IT12 (mm)",
+        "IT13 (mm)",
+        "IT14 (mm)",
+        "IT15 (mm)",
+        "IT16 (mm)",
+        "IT17 (mm)",
+        "IT18 (mm)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          0.8,
+          1.2,
+          2,
+          3,
+          4,
+          6,
+          10,
+          14,
+          25,
+          40,
+          60,
+          0.1,
+          0.14,
+          0.25,
+          0.4,
+          0.6,
+          1,
+          1.4
+        ],
+        [
+          "3–6",
+          1,
+          1.5,
+          2.5,
+          4,
+          5,
+          8,
+          12,
+          18,
+          30,
+          48,
+          75,
+          0.12,
+          0.18,
+          0.3,
+          0.48,
+          0.75,
+          1.2,
+          1.8
+        ],
+        [
+          "6–10",
+          1,
+          1.5,
+          2.5,
+          4,
+          6,
+          9,
+          15,
+          22,
+          36,
+          58,
+          90,
+          0.15,
+          0.22,
+          0.36,
+          0.58,
+          0.9,
+          1.5,
+          2.2
+        ],
+        [
+          "10–18",
+          1.2,
+          2,
+          3,
+          5,
+          8,
+          11,
+          18,
+          27,
+          43,
+          70,
+          110,
+          0.18,
+          0.27,
+          0.43,
+          0.7,
+          1.1,
+          1.8,
+          2.7
+        ],
+        [
+          "18–30",
+          1.5,
+          2.5,
+          4,
+          6,
+          9,
+          13,
+          21,
+          33,
+          52,
+          84,
+          130,
+          0.21,
+          0.33,
+          0.52,
+          0.84,
+          1.3,
+          2.1,
+          3.3
+        ],
+        [
+          "30–50",
+          1.5,
+          2.5,
+          4,
+          7,
+          11,
+          16,
+          25,
+          39,
+          62,
+          100,
+          160,
+          0.25,
+          0.39,
+          0.62,
+          1,
+          1.6,
+          2.5,
+          3.9
+        ],
+        [
+          "50–80",
+          2,
+          3,
+          5,
+          8,
+          13,
+          19,
+          30,
+          46,
+          74,
+          120,
+          190,
+          0.3,
+          0.46,
+          0.74,
+          1.2,
+          1.9,
+          3,
+          4.6
+        ],
+        [
+          "80–120",
+          2.5,
+          4,
+          6,
+          10,
+          15,
+          22,
+          35,
+          54,
+          87,
+          140,
+          220,
+          0.35,
+          0.54,
+          0.87,
+          1.4,
+          2.2,
+          3.5,
+          5.4
+        ],
+        [
+          "120–180",
+          3.5,
+          5,
+          8,
+          12,
+          18,
+          25,
+          40,
+          63,
+          100,
+          160,
+          250,
+          0.4,
+          0.63,
+          1,
+          1.6,
+          2.5,
+          4,
+          6.3
+        ],
+        [
+          "180–250",
+          4.5,
+          7,
+          10,
+          14,
+          20,
+          29,
+          46,
+          72,
+          115,
+          185,
+          290,
+          0.46,
+          0.72,
+          1.15,
+          1.85,
+          2.9,
+          4.6,
+          7.2
+        ],
+        [
+          "250–315",
+          6,
+          8,
+          12,
+          16,
+          23,
+          32,
+          52,
+          81,
+          130,
+          210,
+          320,
+          0.52,
+          0.81,
+          1.3,
+          2.1,
+          3.2,
+          5.2,
+          8.1
+        ],
+        [
+          "315–400",
+          7,
+          9,
+          13,
+          18,
+          25,
+          36,
+          57,
+          89,
+          140,
+          230,
+          360,
+          0.57,
+          0.89,
+          1.4,
+          2.3,
+          3.6,
+          5.7,
+          8.9
+        ],
+        [
+          "400–500",
+          8,
+          10,
+          15,
+          20,
+          27,
+          40,
+          63,
+          97,
+          155,
+          250,
+          400,
+          0.63,
+          0.97,
+          1.55,
+          2.5,
+          4,
+          6.3,
+          9.7
+        ],
+        [
+          "500–630",
+          9,
+          11,
+          16,
+          22,
+          32,
+          44,
+          70,
+          110,
+          175,
+          280,
+          440,
+          0.7,
+          1.1,
+          1.75,
+          2.8,
+          4.4,
+          7,
+          11
+        ],
+        [
+          "630–800",
+          10,
+          13,
+          18,
+          25,
+          36,
+          50,
+          80,
+          125,
+          200,
+          320,
+          500,
+          0.8,
+          1.25,
+          2,
+          3.2,
+          5,
+          8,
+          12.5
+        ],
+        [
+          "800–1000",
+          11,
+          15,
+          21,
+          28,
+          40,
+          56,
+          90,
+          140,
+          230,
+          360,
+          560,
+          0.9,
+          1.4,
+          2.3,
+          3.6,
+          5.6,
+          9,
+          14
+        ],
+        [
+          "1000–1250",
+          13,
+          18,
+          24,
+          33,
+          47,
+          66,
+          105,
+          165,
+          260,
+          420,
+          660,
+          1.05,
+          1.65,
+          2.6,
+          4.2,
+          6.6,
+          10.5,
+          16.5
+        ],
+        [
+          "1250–1600",
+          15,
+          21,
+          29,
+          39,
+          55,
+          78,
+          125,
+          195,
+          310,
+          500,
+          780,
+          1.25,
+          1.95,
+          3.1,
+          5,
+          7.8,
+          12.5,
+          19.5
+        ],
+        [
+          "1600–2000",
+          18,
+          25,
+          35,
+          46,
+          65,
+          92,
+          150,
+          230,
+          370,
+          600,
+          920,
+          1.5,
+          2.3,
+          3.7,
+          6,
+          9.2,
+          15,
+          23
+        ],
+        [
+          "2000–2500",
+          22,
+          30,
+          41,
+          55,
+          78,
+          110,
+          175,
+          280,
+          440,
+          700,
+          1100,
+          1.75,
+          2.8,
+          4.4,
+          7,
+          11,
+          17.5,
+          28
+        ],
+        [
+          "2500–3150",
+          26,
+          36,
+          50,
+          68,
+          96,
+          135,
+          210,
+          330,
+          540,
+          860,
+          1350,
+          2.1,
+          3.3,
+          5.4,
+          8.6,
+          13.5,
+          21,
+          33
+        ]
+      ],
+      "nota": "Faixa: acima de … até … inclusive. IT1–IT5 acima de 500 mm: uso experimental. IT14–IT18 não usar para dimensões ≤ 1 mm.",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg"
+      ],
+      "cotas": {
+        "IT1 (µm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT2 (µm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT3 (µm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT4 (µm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT5 (µm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT6 (µm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT7 (µm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT8 (µm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT9 (µm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT10 (µm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT11 (µm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT12 (mm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT13 (mm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT14 (mm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT15 (mm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT16 (mm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT17 (mm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT",
+        "IT18 (mm)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#IT"
+      }
+    },
+    {
+      "id": "nbr6158-t2-afast-eixos",
+      "titulo": "Afastamentos fundamentais para eixos (letras usuais, até 500 mm)",
+      "norma": "NBR-6158",
+      "item": "Tabela 2",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — afastamento fundamental (eixos)"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "c — es",
+        "d — es",
+        "e — es",
+        "f — es",
+        "g — es",
+        "h — es",
+        "k — ei (IT4 a IT7)",
+        "m — ei",
+        "n — ei",
+        "p — ei",
+        "r — ei",
+        "s — ei"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          -60,
+          -20,
+          -14,
+          -6,
+          -2,
+          0,
+          0,
+          2,
+          4,
+          6,
+          10,
+          14
+        ],
+        [
+          "3–6",
+          -70,
+          -30,
+          -20,
+          -10,
+          -4,
+          0,
+          1,
+          4,
+          8,
+          12,
+          15,
+          19
+        ],
+        [
+          "6–10",
+          -80,
+          -40,
+          -25,
+          -13,
+          -5,
+          0,
+          1,
+          6,
+          10,
+          15,
+          19,
+          23
+        ],
+        [
+          "10–14",
+          -95,
+          -50,
+          -32,
+          -16,
+          -6,
+          0,
+          1,
+          7,
+          12,
+          18,
+          23,
+          28
+        ],
+        [
+          "14–18",
+          -95,
+          -50,
+          -32,
+          -16,
+          -6,
+          0,
+          1,
+          7,
+          12,
+          18,
+          23,
+          28
+        ],
+        [
+          "18–24",
+          -110,
+          -65,
+          -40,
+          -20,
+          -7,
+          0,
+          2,
+          8,
+          15,
+          22,
+          28,
+          35
+        ],
+        [
+          "24–30",
+          -110,
+          -65,
+          -40,
+          -20,
+          -7,
+          0,
+          2,
+          8,
+          15,
+          22,
+          28,
+          35
+        ],
+        [
+          "30–40",
+          -120,
+          -80,
+          -50,
+          -25,
+          -9,
+          0,
+          2,
+          9,
+          17,
+          26,
+          34,
+          43
+        ],
+        [
+          "40–50",
+          -130,
+          -80,
+          -50,
+          -25,
+          -9,
+          0,
+          2,
+          9,
+          17,
+          26,
+          34,
+          43
+        ],
+        [
+          "50–65",
+          -140,
+          -100,
+          -60,
+          -30,
+          -10,
+          0,
+          2,
+          11,
+          20,
+          32,
+          41,
+          53
+        ],
+        [
+          "65–80",
+          -150,
+          -100,
+          -60,
+          -30,
+          -10,
+          0,
+          2,
+          11,
+          20,
+          32,
+          43,
+          59
+        ],
+        [
+          "80–100",
+          -170,
+          -120,
+          -72,
+          -36,
+          -12,
+          0,
+          3,
+          13,
+          23,
+          37,
+          51,
+          71
+        ],
+        [
+          "100–120",
+          -180,
+          -120,
+          -72,
+          -36,
+          -12,
+          0,
+          3,
+          13,
+          23,
+          37,
+          54,
+          79
+        ],
+        [
+          "120–140",
+          -200,
+          -145,
+          -85,
+          -43,
+          -14,
+          0,
+          3,
+          15,
+          27,
+          43,
+          63,
+          92
+        ],
+        [
+          "140–160",
+          -210,
+          -145,
+          -85,
+          -43,
+          -14,
+          0,
+          3,
+          15,
+          27,
+          43,
+          65,
+          100
+        ],
+        [
+          "160–180",
+          -230,
+          -145,
+          -85,
+          -43,
+          -14,
+          0,
+          3,
+          15,
+          27,
+          43,
+          68,
+          108
+        ],
+        [
+          "180–200",
+          -240,
+          -170,
+          -100,
+          -50,
+          -15,
+          0,
+          4,
+          17,
+          31,
+          50,
+          77,
+          122
+        ],
+        [
+          "200–225",
+          -260,
+          -170,
+          -100,
+          -50,
+          -15,
+          0,
+          4,
+          17,
+          31,
+          50,
+          80,
+          130
+        ],
+        [
+          "225–250",
+          -280,
+          -170,
+          -100,
+          -50,
+          -15,
+          0,
+          4,
+          17,
+          31,
+          50,
+          84,
+          140
+        ],
+        [
+          "250–280",
+          -300,
+          -190,
+          -110,
+          -56,
+          -17,
+          0,
+          4,
+          20,
+          34,
+          56,
+          94,
+          158
+        ],
+        [
+          "280–315",
+          -330,
+          -190,
+          -110,
+          -56,
+          -17,
+          0,
+          4,
+          20,
+          34,
+          56,
+          98,
+          170
+        ],
+        [
+          "315–355",
+          -360,
+          -210,
+          -125,
+          -62,
+          -18,
+          0,
+          4,
+          21,
+          37,
+          62,
+          108,
+          190
+        ],
+        [
+          "355–400",
+          -400,
+          -210,
+          -125,
+          -62,
+          -18,
+          0,
+          4,
+          21,
+          37,
+          62,
+          114,
+          208
+        ],
+        [
+          "400–450",
+          -440,
+          -230,
+          -135,
+          -68,
+          -20,
+          0,
+          5,
+          23,
+          40,
+          68,
+          126,
+          232
+        ],
+        [
+          "450–500",
+          -480,
+          -230,
+          -135,
+          -68,
+          -20,
+          0,
+          5,
+          23,
+          40,
+          68,
+          132,
+          252
+        ]
+      ],
+      "nota": "Lidos da imagem da Tabela 2 (células mescladas). c…h: afastamento SUPERIOR es (ei = es − IT); k…s: afastamento INFERIOR ei (es = ei + IT). k fora de IT4–IT7: ei = 0. js = ±IT/2. Letras não listadas (a, b, cd, ef, fg, j, t…zc) e dimensões > 500 mm: Tabela 2 completa.",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg"
+      ],
+      "cotas": {
+        "c — es": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#es",
+        "d — es": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#es",
+        "e — es": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#es",
+        "f — es": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#es",
+        "g — es": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#es",
+        "h — es": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#es",
+        "k — ei (IT4 a IT7)": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#ei",
+        "m — ei": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#ei",
+        "n — ei": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#ei",
+        "p — ei": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#ei",
+        "r — ei": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#ei",
+        "s — ei": "esquemas/tolerancias-gerais-ajustes-nbr6158-campos.svg#ei"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h7f7",
+      "titulo": "Ajuste H7/f7 — furo-base (folga)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H7/f7"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H7 — ES",
+        "Furo H7 — EI",
+        "Eixo f7 — es",
+        "Eixo f7 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+10",
+          0,
+          "-6",
+          "-16",
+          "+26",
+          "+6"
+        ],
+        [
+          "3–6",
+          "+12",
+          0,
+          "-10",
+          "-22",
+          "+34",
+          "+10"
+        ],
+        [
+          "6–10",
+          "+15",
+          0,
+          "-13",
+          "-28",
+          "+43",
+          "+13"
+        ],
+        [
+          "10–14",
+          "+18",
+          0,
+          "-16",
+          "-34",
+          "+52",
+          "+16"
+        ],
+        [
+          "14–18",
+          "+18",
+          0,
+          "-16",
+          "-34",
+          "+52",
+          "+16"
+        ],
+        [
+          "18–24",
+          "+21",
+          0,
+          "-20",
+          "-41",
+          "+62",
+          "+20"
+        ],
+        [
+          "24–30",
+          "+21",
+          0,
+          "-20",
+          "-41",
+          "+62",
+          "+20"
+        ],
+        [
+          "30–40",
+          "+25",
+          0,
+          "-25",
+          "-50",
+          "+75",
+          "+25"
+        ],
+        [
+          "40–50",
+          "+25",
+          0,
+          "-25",
+          "-50",
+          "+75",
+          "+25"
+        ],
+        [
+          "50–65",
+          "+30",
+          0,
+          "-30",
+          "-60",
+          "+90",
+          "+30"
+        ],
+        [
+          "65–80",
+          "+30",
+          0,
+          "-30",
+          "-60",
+          "+90",
+          "+30"
+        ],
+        [
+          "80–100",
+          "+35",
+          0,
+          "-36",
+          "-71",
+          "+106",
+          "+36"
+        ],
+        [
+          "100–120",
+          "+35",
+          0,
+          "-36",
+          "-71",
+          "+106",
+          "+36"
+        ],
+        [
+          "120–140",
+          "+40",
+          0,
+          "-43",
+          "-83",
+          "+123",
+          "+43"
+        ],
+        [
+          "140–160",
+          "+40",
+          0,
+          "-43",
+          "-83",
+          "+123",
+          "+43"
+        ],
+        [
+          "160–180",
+          "+40",
+          0,
+          "-43",
+          "-83",
+          "+123",
+          "+43"
+        ],
+        [
+          "180–200",
+          "+46",
+          0,
+          "-50",
+          "-96",
+          "+142",
+          "+50"
+        ],
+        [
+          "200–225",
+          "+46",
+          0,
+          "-50",
+          "-96",
+          "+142",
+          "+50"
+        ],
+        [
+          "225–250",
+          "+46",
+          0,
+          "-50",
+          "-96",
+          "+142",
+          "+50"
+        ],
+        [
+          "250–280",
+          "+52",
+          0,
+          "-56",
+          "-108",
+          "+160",
+          "+56"
+        ],
+        [
+          "280–315",
+          "+52",
+          0,
+          "-56",
+          "-108",
+          "+160",
+          "+56"
+        ],
+        [
+          "315–355",
+          "+57",
+          0,
+          "-62",
+          "-119",
+          "+176",
+          "+62"
+        ],
+        [
+          "355–400",
+          "+57",
+          0,
+          "-62",
+          "-119",
+          "+176",
+          "+62"
+        ],
+        [
+          "400–450",
+          "+63",
+          0,
+          "-68",
+          "-131",
+          "+194",
+          "+68"
+        ],
+        [
+          "450–500",
+          "+63",
+          0,
+          "-68",
+          "-131",
+          "+194",
+          "+68"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT7; eixo f → es da Tabela 2, ei = es − IT7 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H7 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H7 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo f7 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo f7 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h7g6",
+      "titulo": "Ajuste H7/g6 — furo-base (folga)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H7/g6"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H7 — ES",
+        "Furo H7 — EI",
+        "Eixo g6 — es",
+        "Eixo g6 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+10",
+          0,
+          "-2",
+          "-8",
+          "+18",
+          "+2"
+        ],
+        [
+          "3–6",
+          "+12",
+          0,
+          "-4",
+          "-12",
+          "+24",
+          "+4"
+        ],
+        [
+          "6–10",
+          "+15",
+          0,
+          "-5",
+          "-14",
+          "+29",
+          "+5"
+        ],
+        [
+          "10–14",
+          "+18",
+          0,
+          "-6",
+          "-17",
+          "+35",
+          "+6"
+        ],
+        [
+          "14–18",
+          "+18",
+          0,
+          "-6",
+          "-17",
+          "+35",
+          "+6"
+        ],
+        [
+          "18–24",
+          "+21",
+          0,
+          "-7",
+          "-20",
+          "+41",
+          "+7"
+        ],
+        [
+          "24–30",
+          "+21",
+          0,
+          "-7",
+          "-20",
+          "+41",
+          "+7"
+        ],
+        [
+          "30–40",
+          "+25",
+          0,
+          "-9",
+          "-25",
+          "+50",
+          "+9"
+        ],
+        [
+          "40–50",
+          "+25",
+          0,
+          "-9",
+          "-25",
+          "+50",
+          "+9"
+        ],
+        [
+          "50–65",
+          "+30",
+          0,
+          "-10",
+          "-29",
+          "+59",
+          "+10"
+        ],
+        [
+          "65–80",
+          "+30",
+          0,
+          "-10",
+          "-29",
+          "+59",
+          "+10"
+        ],
+        [
+          "80–100",
+          "+35",
+          0,
+          "-12",
+          "-34",
+          "+69",
+          "+12"
+        ],
+        [
+          "100–120",
+          "+35",
+          0,
+          "-12",
+          "-34",
+          "+69",
+          "+12"
+        ],
+        [
+          "120–140",
+          "+40",
+          0,
+          "-14",
+          "-39",
+          "+79",
+          "+14"
+        ],
+        [
+          "140–160",
+          "+40",
+          0,
+          "-14",
+          "-39",
+          "+79",
+          "+14"
+        ],
+        [
+          "160–180",
+          "+40",
+          0,
+          "-14",
+          "-39",
+          "+79",
+          "+14"
+        ],
+        [
+          "180–200",
+          "+46",
+          0,
+          "-15",
+          "-44",
+          "+90",
+          "+15"
+        ],
+        [
+          "200–225",
+          "+46",
+          0,
+          "-15",
+          "-44",
+          "+90",
+          "+15"
+        ],
+        [
+          "225–250",
+          "+46",
+          0,
+          "-15",
+          "-44",
+          "+90",
+          "+15"
+        ],
+        [
+          "250–280",
+          "+52",
+          0,
+          "-17",
+          "-49",
+          "+101",
+          "+17"
+        ],
+        [
+          "280–315",
+          "+52",
+          0,
+          "-17",
+          "-49",
+          "+101",
+          "+17"
+        ],
+        [
+          "315–355",
+          "+57",
+          0,
+          "-18",
+          "-54",
+          "+111",
+          "+18"
+        ],
+        [
+          "355–400",
+          "+57",
+          0,
+          "-18",
+          "-54",
+          "+111",
+          "+18"
+        ],
+        [
+          "400–450",
+          "+63",
+          0,
+          "-20",
+          "-60",
+          "+123",
+          "+20"
+        ],
+        [
+          "450–500",
+          "+63",
+          0,
+          "-20",
+          "-60",
+          "+123",
+          "+20"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT7; eixo g → es da Tabela 2, ei = es − IT6 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H7 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H7 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo g6 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo g6 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h7h6",
+      "titulo": "Ajuste H7/h6 — furo-base (folga)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H7/h6"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H7 — ES",
+        "Furo H7 — EI",
+        "Eixo h6 — es",
+        "Eixo h6 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+10",
+          0,
+          0,
+          "-6",
+          "+16",
+          "+0"
+        ],
+        [
+          "3–6",
+          "+12",
+          0,
+          0,
+          "-8",
+          "+20",
+          "+0"
+        ],
+        [
+          "6–10",
+          "+15",
+          0,
+          0,
+          "-9",
+          "+24",
+          "+0"
+        ],
+        [
+          "10–14",
+          "+18",
+          0,
+          0,
+          "-11",
+          "+29",
+          "+0"
+        ],
+        [
+          "14–18",
+          "+18",
+          0,
+          0,
+          "-11",
+          "+29",
+          "+0"
+        ],
+        [
+          "18–24",
+          "+21",
+          0,
+          0,
+          "-13",
+          "+34",
+          "+0"
+        ],
+        [
+          "24–30",
+          "+21",
+          0,
+          0,
+          "-13",
+          "+34",
+          "+0"
+        ],
+        [
+          "30–40",
+          "+25",
+          0,
+          0,
+          "-16",
+          "+41",
+          "+0"
+        ],
+        [
+          "40–50",
+          "+25",
+          0,
+          0,
+          "-16",
+          "+41",
+          "+0"
+        ],
+        [
+          "50–65",
+          "+30",
+          0,
+          0,
+          "-19",
+          "+49",
+          "+0"
+        ],
+        [
+          "65–80",
+          "+30",
+          0,
+          0,
+          "-19",
+          "+49",
+          "+0"
+        ],
+        [
+          "80–100",
+          "+35",
+          0,
+          0,
+          "-22",
+          "+57",
+          "+0"
+        ],
+        [
+          "100–120",
+          "+35",
+          0,
+          0,
+          "-22",
+          "+57",
+          "+0"
+        ],
+        [
+          "120–140",
+          "+40",
+          0,
+          0,
+          "-25",
+          "+65",
+          "+0"
+        ],
+        [
+          "140–160",
+          "+40",
+          0,
+          0,
+          "-25",
+          "+65",
+          "+0"
+        ],
+        [
+          "160–180",
+          "+40",
+          0,
+          0,
+          "-25",
+          "+65",
+          "+0"
+        ],
+        [
+          "180–200",
+          "+46",
+          0,
+          0,
+          "-29",
+          "+75",
+          "+0"
+        ],
+        [
+          "200–225",
+          "+46",
+          0,
+          0,
+          "-29",
+          "+75",
+          "+0"
+        ],
+        [
+          "225–250",
+          "+46",
+          0,
+          0,
+          "-29",
+          "+75",
+          "+0"
+        ],
+        [
+          "250–280",
+          "+52",
+          0,
+          0,
+          "-32",
+          "+84",
+          "+0"
+        ],
+        [
+          "280–315",
+          "+52",
+          0,
+          0,
+          "-32",
+          "+84",
+          "+0"
+        ],
+        [
+          "315–355",
+          "+57",
+          0,
+          0,
+          "-36",
+          "+93",
+          "+0"
+        ],
+        [
+          "355–400",
+          "+57",
+          0,
+          0,
+          "-36",
+          "+93",
+          "+0"
+        ],
+        [
+          "400–450",
+          "+63",
+          0,
+          0,
+          "-40",
+          "+103",
+          "+0"
+        ],
+        [
+          "450–500",
+          "+63",
+          0,
+          0,
+          "-40",
+          "+103",
+          "+0"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT7; eixo h → es da Tabela 2, ei = es − IT6 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H7 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H7 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo h6 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo h6 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h7k6",
+      "titulo": "Ajuste H7/k6 — furo-base (incerto/transição)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H7/k6"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H7 — ES",
+        "Furo H7 — EI",
+        "Eixo k6 — es",
+        "Eixo k6 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+10",
+          0,
+          "+6",
+          0,
+          "+10",
+          "-6"
+        ],
+        [
+          "3–6",
+          "+12",
+          0,
+          "+9",
+          "+1",
+          "+11",
+          "-9"
+        ],
+        [
+          "6–10",
+          "+15",
+          0,
+          "+10",
+          "+1",
+          "+14",
+          "-10"
+        ],
+        [
+          "10–14",
+          "+18",
+          0,
+          "+12",
+          "+1",
+          "+17",
+          "-12"
+        ],
+        [
+          "14–18",
+          "+18",
+          0,
+          "+12",
+          "+1",
+          "+17",
+          "-12"
+        ],
+        [
+          "18–24",
+          "+21",
+          0,
+          "+15",
+          "+2",
+          "+19",
+          "-15"
+        ],
+        [
+          "24–30",
+          "+21",
+          0,
+          "+15",
+          "+2",
+          "+19",
+          "-15"
+        ],
+        [
+          "30–40",
+          "+25",
+          0,
+          "+18",
+          "+2",
+          "+23",
+          "-18"
+        ],
+        [
+          "40–50",
+          "+25",
+          0,
+          "+18",
+          "+2",
+          "+23",
+          "-18"
+        ],
+        [
+          "50–65",
+          "+30",
+          0,
+          "+21",
+          "+2",
+          "+28",
+          "-21"
+        ],
+        [
+          "65–80",
+          "+30",
+          0,
+          "+21",
+          "+2",
+          "+28",
+          "-21"
+        ],
+        [
+          "80–100",
+          "+35",
+          0,
+          "+25",
+          "+3",
+          "+32",
+          "-25"
+        ],
+        [
+          "100–120",
+          "+35",
+          0,
+          "+25",
+          "+3",
+          "+32",
+          "-25"
+        ],
+        [
+          "120–140",
+          "+40",
+          0,
+          "+28",
+          "+3",
+          "+37",
+          "-28"
+        ],
+        [
+          "140–160",
+          "+40",
+          0,
+          "+28",
+          "+3",
+          "+37",
+          "-28"
+        ],
+        [
+          "160–180",
+          "+40",
+          0,
+          "+28",
+          "+3",
+          "+37",
+          "-28"
+        ],
+        [
+          "180–200",
+          "+46",
+          0,
+          "+33",
+          "+4",
+          "+42",
+          "-33"
+        ],
+        [
+          "200–225",
+          "+46",
+          0,
+          "+33",
+          "+4",
+          "+42",
+          "-33"
+        ],
+        [
+          "225–250",
+          "+46",
+          0,
+          "+33",
+          "+4",
+          "+42",
+          "-33"
+        ],
+        [
+          "250–280",
+          "+52",
+          0,
+          "+36",
+          "+4",
+          "+48",
+          "-36"
+        ],
+        [
+          "280–315",
+          "+52",
+          0,
+          "+36",
+          "+4",
+          "+48",
+          "-36"
+        ],
+        [
+          "315–355",
+          "+57",
+          0,
+          "+40",
+          "+4",
+          "+53",
+          "-40"
+        ],
+        [
+          "355–400",
+          "+57",
+          0,
+          "+40",
+          "+4",
+          "+53",
+          "-40"
+        ],
+        [
+          "400–450",
+          "+63",
+          0,
+          "+45",
+          "+5",
+          "+58",
+          "-45"
+        ],
+        [
+          "450–500",
+          "+63",
+          0,
+          "+45",
+          "+5",
+          "+58",
+          "-45"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT7; eixo k → ei da Tabela 2, es = ei + IT6 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H7 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H7 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo k6 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo k6 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h7m6",
+      "titulo": "Ajuste H7/m6 — furo-base (incerto/transição)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H7/m6"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H7 — ES",
+        "Furo H7 — EI",
+        "Eixo m6 — es",
+        "Eixo m6 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+10",
+          0,
+          "+8",
+          "+2",
+          "+8",
+          "-8"
+        ],
+        [
+          "3–6",
+          "+12",
+          0,
+          "+12",
+          "+4",
+          "+8",
+          "-12"
+        ],
+        [
+          "6–10",
+          "+15",
+          0,
+          "+15",
+          "+6",
+          "+9",
+          "-15"
+        ],
+        [
+          "10–14",
+          "+18",
+          0,
+          "+18",
+          "+7",
+          "+11",
+          "-18"
+        ],
+        [
+          "14–18",
+          "+18",
+          0,
+          "+18",
+          "+7",
+          "+11",
+          "-18"
+        ],
+        [
+          "18–24",
+          "+21",
+          0,
+          "+21",
+          "+8",
+          "+13",
+          "-21"
+        ],
+        [
+          "24–30",
+          "+21",
+          0,
+          "+21",
+          "+8",
+          "+13",
+          "-21"
+        ],
+        [
+          "30–40",
+          "+25",
+          0,
+          "+25",
+          "+9",
+          "+16",
+          "-25"
+        ],
+        [
+          "40–50",
+          "+25",
+          0,
+          "+25",
+          "+9",
+          "+16",
+          "-25"
+        ],
+        [
+          "50–65",
+          "+30",
+          0,
+          "+30",
+          "+11",
+          "+19",
+          "-30"
+        ],
+        [
+          "65–80",
+          "+30",
+          0,
+          "+30",
+          "+11",
+          "+19",
+          "-30"
+        ],
+        [
+          "80–100",
+          "+35",
+          0,
+          "+35",
+          "+13",
+          "+22",
+          "-35"
+        ],
+        [
+          "100–120",
+          "+35",
+          0,
+          "+35",
+          "+13",
+          "+22",
+          "-35"
+        ],
+        [
+          "120–140",
+          "+40",
+          0,
+          "+40",
+          "+15",
+          "+25",
+          "-40"
+        ],
+        [
+          "140–160",
+          "+40",
+          0,
+          "+40",
+          "+15",
+          "+25",
+          "-40"
+        ],
+        [
+          "160–180",
+          "+40",
+          0,
+          "+40",
+          "+15",
+          "+25",
+          "-40"
+        ],
+        [
+          "180–200",
+          "+46",
+          0,
+          "+46",
+          "+17",
+          "+29",
+          "-46"
+        ],
+        [
+          "200–225",
+          "+46",
+          0,
+          "+46",
+          "+17",
+          "+29",
+          "-46"
+        ],
+        [
+          "225–250",
+          "+46",
+          0,
+          "+46",
+          "+17",
+          "+29",
+          "-46"
+        ],
+        [
+          "250–280",
+          "+52",
+          0,
+          "+52",
+          "+20",
+          "+32",
+          "-52"
+        ],
+        [
+          "280–315",
+          "+52",
+          0,
+          "+52",
+          "+20",
+          "+32",
+          "-52"
+        ],
+        [
+          "315–355",
+          "+57",
+          0,
+          "+57",
+          "+21",
+          "+36",
+          "-57"
+        ],
+        [
+          "355–400",
+          "+57",
+          0,
+          "+57",
+          "+21",
+          "+36",
+          "-57"
+        ],
+        [
+          "400–450",
+          "+63",
+          0,
+          "+63",
+          "+23",
+          "+40",
+          "-63"
+        ],
+        [
+          "450–500",
+          "+63",
+          0,
+          "+63",
+          "+23",
+          "+40",
+          "-63"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT7; eixo m → ei da Tabela 2, es = ei + IT6 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H7 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H7 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo m6 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo m6 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h7n6",
+      "titulo": "Ajuste H7/n6 — furo-base (incerto/transição)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H7/n6"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H7 — ES",
+        "Furo H7 — EI",
+        "Eixo n6 — es",
+        "Eixo n6 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+10",
+          0,
+          "+10",
+          "+4",
+          "+6",
+          "-10"
+        ],
+        [
+          "3–6",
+          "+12",
+          0,
+          "+16",
+          "+8",
+          "+4",
+          "-16"
+        ],
+        [
+          "6–10",
+          "+15",
+          0,
+          "+19",
+          "+10",
+          "+5",
+          "-19"
+        ],
+        [
+          "10–14",
+          "+18",
+          0,
+          "+23",
+          "+12",
+          "+6",
+          "-23"
+        ],
+        [
+          "14–18",
+          "+18",
+          0,
+          "+23",
+          "+12",
+          "+6",
+          "-23"
+        ],
+        [
+          "18–24",
+          "+21",
+          0,
+          "+28",
+          "+15",
+          "+6",
+          "-28"
+        ],
+        [
+          "24–30",
+          "+21",
+          0,
+          "+28",
+          "+15",
+          "+6",
+          "-28"
+        ],
+        [
+          "30–40",
+          "+25",
+          0,
+          "+33",
+          "+17",
+          "+8",
+          "-33"
+        ],
+        [
+          "40–50",
+          "+25",
+          0,
+          "+33",
+          "+17",
+          "+8",
+          "-33"
+        ],
+        [
+          "50–65",
+          "+30",
+          0,
+          "+39",
+          "+20",
+          "+10",
+          "-39"
+        ],
+        [
+          "65–80",
+          "+30",
+          0,
+          "+39",
+          "+20",
+          "+10",
+          "-39"
+        ],
+        [
+          "80–100",
+          "+35",
+          0,
+          "+45",
+          "+23",
+          "+12",
+          "-45"
+        ],
+        [
+          "100–120",
+          "+35",
+          0,
+          "+45",
+          "+23",
+          "+12",
+          "-45"
+        ],
+        [
+          "120–140",
+          "+40",
+          0,
+          "+52",
+          "+27",
+          "+13",
+          "-52"
+        ],
+        [
+          "140–160",
+          "+40",
+          0,
+          "+52",
+          "+27",
+          "+13",
+          "-52"
+        ],
+        [
+          "160–180",
+          "+40",
+          0,
+          "+52",
+          "+27",
+          "+13",
+          "-52"
+        ],
+        [
+          "180–200",
+          "+46",
+          0,
+          "+60",
+          "+31",
+          "+15",
+          "-60"
+        ],
+        [
+          "200–225",
+          "+46",
+          0,
+          "+60",
+          "+31",
+          "+15",
+          "-60"
+        ],
+        [
+          "225–250",
+          "+46",
+          0,
+          "+60",
+          "+31",
+          "+15",
+          "-60"
+        ],
+        [
+          "250–280",
+          "+52",
+          0,
+          "+66",
+          "+34",
+          "+18",
+          "-66"
+        ],
+        [
+          "280–315",
+          "+52",
+          0,
+          "+66",
+          "+34",
+          "+18",
+          "-66"
+        ],
+        [
+          "315–355",
+          "+57",
+          0,
+          "+73",
+          "+37",
+          "+20",
+          "-73"
+        ],
+        [
+          "355–400",
+          "+57",
+          0,
+          "+73",
+          "+37",
+          "+20",
+          "-73"
+        ],
+        [
+          "400–450",
+          "+63",
+          0,
+          "+80",
+          "+40",
+          "+23",
+          "-80"
+        ],
+        [
+          "450–500",
+          "+63",
+          0,
+          "+80",
+          "+40",
+          "+23",
+          "-80"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT7; eixo n → ei da Tabela 2, es = ei + IT6 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H7 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H7 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo n6 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo n6 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h7p6",
+      "titulo": "Ajuste H7/p6 — furo-base (incerto/transição)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H7/p6"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H7 — ES",
+        "Furo H7 — EI",
+        "Eixo p6 — es",
+        "Eixo p6 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+10",
+          0,
+          "+12",
+          "+6",
+          "+4",
+          "-12"
+        ],
+        [
+          "3–6",
+          "+12",
+          0,
+          "+20",
+          "+12",
+          "+0",
+          "-20"
+        ],
+        [
+          "6–10",
+          "+15",
+          0,
+          "+24",
+          "+15",
+          "+0",
+          "-24"
+        ],
+        [
+          "10–14",
+          "+18",
+          0,
+          "+29",
+          "+18",
+          "+0",
+          "-29"
+        ],
+        [
+          "14–18",
+          "+18",
+          0,
+          "+29",
+          "+18",
+          "+0",
+          "-29"
+        ],
+        [
+          "18–24",
+          "+21",
+          0,
+          "+35",
+          "+22",
+          "-1",
+          "-35"
+        ],
+        [
+          "24–30",
+          "+21",
+          0,
+          "+35",
+          "+22",
+          "-1",
+          "-35"
+        ],
+        [
+          "30–40",
+          "+25",
+          0,
+          "+42",
+          "+26",
+          "-1",
+          "-42"
+        ],
+        [
+          "40–50",
+          "+25",
+          0,
+          "+42",
+          "+26",
+          "-1",
+          "-42"
+        ],
+        [
+          "50–65",
+          "+30",
+          0,
+          "+51",
+          "+32",
+          "-2",
+          "-51"
+        ],
+        [
+          "65–80",
+          "+30",
+          0,
+          "+51",
+          "+32",
+          "-2",
+          "-51"
+        ],
+        [
+          "80–100",
+          "+35",
+          0,
+          "+59",
+          "+37",
+          "-2",
+          "-59"
+        ],
+        [
+          "100–120",
+          "+35",
+          0,
+          "+59",
+          "+37",
+          "-2",
+          "-59"
+        ],
+        [
+          "120–140",
+          "+40",
+          0,
+          "+68",
+          "+43",
+          "-3",
+          "-68"
+        ],
+        [
+          "140–160",
+          "+40",
+          0,
+          "+68",
+          "+43",
+          "-3",
+          "-68"
+        ],
+        [
+          "160–180",
+          "+40",
+          0,
+          "+68",
+          "+43",
+          "-3",
+          "-68"
+        ],
+        [
+          "180–200",
+          "+46",
+          0,
+          "+79",
+          "+50",
+          "-4",
+          "-79"
+        ],
+        [
+          "200–225",
+          "+46",
+          0,
+          "+79",
+          "+50",
+          "-4",
+          "-79"
+        ],
+        [
+          "225–250",
+          "+46",
+          0,
+          "+79",
+          "+50",
+          "-4",
+          "-79"
+        ],
+        [
+          "250–280",
+          "+52",
+          0,
+          "+88",
+          "+56",
+          "-4",
+          "-88"
+        ],
+        [
+          "280–315",
+          "+52",
+          0,
+          "+88",
+          "+56",
+          "-4",
+          "-88"
+        ],
+        [
+          "315–355",
+          "+57",
+          0,
+          "+98",
+          "+62",
+          "-5",
+          "-98"
+        ],
+        [
+          "355–400",
+          "+57",
+          0,
+          "+98",
+          "+62",
+          "-5",
+          "-98"
+        ],
+        [
+          "400–450",
+          "+63",
+          0,
+          "+108",
+          "+68",
+          "-5",
+          "-108"
+        ],
+        [
+          "450–500",
+          "+63",
+          0,
+          "+108",
+          "+68",
+          "-5",
+          "-108"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT7; eixo p → ei da Tabela 2, es = ei + IT6 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H7 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H7 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo p6 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo p6 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h7r6",
+      "titulo": "Ajuste H7/r6 — furo-base (interferência)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H7/r6"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H7 — ES",
+        "Furo H7 — EI",
+        "Eixo r6 — es",
+        "Eixo r6 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+10",
+          0,
+          "+16",
+          "+10",
+          "+0",
+          "-16"
+        ],
+        [
+          "3–6",
+          "+12",
+          0,
+          "+23",
+          "+15",
+          "-3",
+          "-23"
+        ],
+        [
+          "6–10",
+          "+15",
+          0,
+          "+28",
+          "+19",
+          "-4",
+          "-28"
+        ],
+        [
+          "10–14",
+          "+18",
+          0,
+          "+34",
+          "+23",
+          "-5",
+          "-34"
+        ],
+        [
+          "14–18",
+          "+18",
+          0,
+          "+34",
+          "+23",
+          "-5",
+          "-34"
+        ],
+        [
+          "18–24",
+          "+21",
+          0,
+          "+41",
+          "+28",
+          "-7",
+          "-41"
+        ],
+        [
+          "24–30",
+          "+21",
+          0,
+          "+41",
+          "+28",
+          "-7",
+          "-41"
+        ],
+        [
+          "30–40",
+          "+25",
+          0,
+          "+50",
+          "+34",
+          "-9",
+          "-50"
+        ],
+        [
+          "40–50",
+          "+25",
+          0,
+          "+50",
+          "+34",
+          "-9",
+          "-50"
+        ],
+        [
+          "50–65",
+          "+30",
+          0,
+          "+60",
+          "+41",
+          "-11",
+          "-60"
+        ],
+        [
+          "65–80",
+          "+30",
+          0,
+          "+62",
+          "+43",
+          "-13",
+          "-62"
+        ],
+        [
+          "80–100",
+          "+35",
+          0,
+          "+73",
+          "+51",
+          "-16",
+          "-73"
+        ],
+        [
+          "100–120",
+          "+35",
+          0,
+          "+76",
+          "+54",
+          "-19",
+          "-76"
+        ],
+        [
+          "120–140",
+          "+40",
+          0,
+          "+88",
+          "+63",
+          "-23",
+          "-88"
+        ],
+        [
+          "140–160",
+          "+40",
+          0,
+          "+90",
+          "+65",
+          "-25",
+          "-90"
+        ],
+        [
+          "160–180",
+          "+40",
+          0,
+          "+93",
+          "+68",
+          "-28",
+          "-93"
+        ],
+        [
+          "180–200",
+          "+46",
+          0,
+          "+106",
+          "+77",
+          "-31",
+          "-106"
+        ],
+        [
+          "200–225",
+          "+46",
+          0,
+          "+109",
+          "+80",
+          "-34",
+          "-109"
+        ],
+        [
+          "225–250",
+          "+46",
+          0,
+          "+113",
+          "+84",
+          "-38",
+          "-113"
+        ],
+        [
+          "250–280",
+          "+52",
+          0,
+          "+126",
+          "+94",
+          "-42",
+          "-126"
+        ],
+        [
+          "280–315",
+          "+52",
+          0,
+          "+130",
+          "+98",
+          "-46",
+          "-130"
+        ],
+        [
+          "315–355",
+          "+57",
+          0,
+          "+144",
+          "+108",
+          "-51",
+          "-144"
+        ],
+        [
+          "355–400",
+          "+57",
+          0,
+          "+150",
+          "+114",
+          "-57",
+          "-150"
+        ],
+        [
+          "400–450",
+          "+63",
+          0,
+          "+166",
+          "+126",
+          "-63",
+          "-166"
+        ],
+        [
+          "450–500",
+          "+63",
+          0,
+          "+172",
+          "+132",
+          "-69",
+          "-172"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT7; eixo r → ei da Tabela 2, es = ei + IT6 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H7 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H7 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo r6 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo r6 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h7s6",
+      "titulo": "Ajuste H7/s6 — furo-base (interferência)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H7/s6"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H7 — ES",
+        "Furo H7 — EI",
+        "Eixo s6 — es",
+        "Eixo s6 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+10",
+          0,
+          "+20",
+          "+14",
+          "-4",
+          "-20"
+        ],
+        [
+          "3–6",
+          "+12",
+          0,
+          "+27",
+          "+19",
+          "-7",
+          "-27"
+        ],
+        [
+          "6–10",
+          "+15",
+          0,
+          "+32",
+          "+23",
+          "-8",
+          "-32"
+        ],
+        [
+          "10–14",
+          "+18",
+          0,
+          "+39",
+          "+28",
+          "-10",
+          "-39"
+        ],
+        [
+          "14–18",
+          "+18",
+          0,
+          "+39",
+          "+28",
+          "-10",
+          "-39"
+        ],
+        [
+          "18–24",
+          "+21",
+          0,
+          "+48",
+          "+35",
+          "-14",
+          "-48"
+        ],
+        [
+          "24–30",
+          "+21",
+          0,
+          "+48",
+          "+35",
+          "-14",
+          "-48"
+        ],
+        [
+          "30–40",
+          "+25",
+          0,
+          "+59",
+          "+43",
+          "-18",
+          "-59"
+        ],
+        [
+          "40–50",
+          "+25",
+          0,
+          "+59",
+          "+43",
+          "-18",
+          "-59"
+        ],
+        [
+          "50–65",
+          "+30",
+          0,
+          "+72",
+          "+53",
+          "-23",
+          "-72"
+        ],
+        [
+          "65–80",
+          "+30",
+          0,
+          "+78",
+          "+59",
+          "-29",
+          "-78"
+        ],
+        [
+          "80–100",
+          "+35",
+          0,
+          "+93",
+          "+71",
+          "-36",
+          "-93"
+        ],
+        [
+          "100–120",
+          "+35",
+          0,
+          "+101",
+          "+79",
+          "-44",
+          "-101"
+        ],
+        [
+          "120–140",
+          "+40",
+          0,
+          "+117",
+          "+92",
+          "-52",
+          "-117"
+        ],
+        [
+          "140–160",
+          "+40",
+          0,
+          "+125",
+          "+100",
+          "-60",
+          "-125"
+        ],
+        [
+          "160–180",
+          "+40",
+          0,
+          "+133",
+          "+108",
+          "-68",
+          "-133"
+        ],
+        [
+          "180–200",
+          "+46",
+          0,
+          "+151",
+          "+122",
+          "-76",
+          "-151"
+        ],
+        [
+          "200–225",
+          "+46",
+          0,
+          "+159",
+          "+130",
+          "-84",
+          "-159"
+        ],
+        [
+          "225–250",
+          "+46",
+          0,
+          "+169",
+          "+140",
+          "-94",
+          "-169"
+        ],
+        [
+          "250–280",
+          "+52",
+          0,
+          "+190",
+          "+158",
+          "-106",
+          "-190"
+        ],
+        [
+          "280–315",
+          "+52",
+          0,
+          "+202",
+          "+170",
+          "-118",
+          "-202"
+        ],
+        [
+          "315–355",
+          "+57",
+          0,
+          "+226",
+          "+190",
+          "-133",
+          "-226"
+        ],
+        [
+          "355–400",
+          "+57",
+          0,
+          "+244",
+          "+208",
+          "-151",
+          "-244"
+        ],
+        [
+          "400–450",
+          "+63",
+          0,
+          "+272",
+          "+232",
+          "-169",
+          "-272"
+        ],
+        [
+          "450–500",
+          "+63",
+          0,
+          "+292",
+          "+252",
+          "-189",
+          "-292"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT7; eixo s → ei da Tabela 2, es = ei + IT6 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H7 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H7 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo s6 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo s6 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h8f7",
+      "titulo": "Ajuste H8/f7 — furo-base (folga)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H8/f7"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H8 — ES",
+        "Furo H8 — EI",
+        "Eixo f7 — es",
+        "Eixo f7 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+14",
+          0,
+          "-6",
+          "-16",
+          "+30",
+          "+6"
+        ],
+        [
+          "3–6",
+          "+18",
+          0,
+          "-10",
+          "-22",
+          "+40",
+          "+10"
+        ],
+        [
+          "6–10",
+          "+22",
+          0,
+          "-13",
+          "-28",
+          "+50",
+          "+13"
+        ],
+        [
+          "10–14",
+          "+27",
+          0,
+          "-16",
+          "-34",
+          "+61",
+          "+16"
+        ],
+        [
+          "14–18",
+          "+27",
+          0,
+          "-16",
+          "-34",
+          "+61",
+          "+16"
+        ],
+        [
+          "18–24",
+          "+33",
+          0,
+          "-20",
+          "-41",
+          "+74",
+          "+20"
+        ],
+        [
+          "24–30",
+          "+33",
+          0,
+          "-20",
+          "-41",
+          "+74",
+          "+20"
+        ],
+        [
+          "30–40",
+          "+39",
+          0,
+          "-25",
+          "-50",
+          "+89",
+          "+25"
+        ],
+        [
+          "40–50",
+          "+39",
+          0,
+          "-25",
+          "-50",
+          "+89",
+          "+25"
+        ],
+        [
+          "50–65",
+          "+46",
+          0,
+          "-30",
+          "-60",
+          "+106",
+          "+30"
+        ],
+        [
+          "65–80",
+          "+46",
+          0,
+          "-30",
+          "-60",
+          "+106",
+          "+30"
+        ],
+        [
+          "80–100",
+          "+54",
+          0,
+          "-36",
+          "-71",
+          "+125",
+          "+36"
+        ],
+        [
+          "100–120",
+          "+54",
+          0,
+          "-36",
+          "-71",
+          "+125",
+          "+36"
+        ],
+        [
+          "120–140",
+          "+63",
+          0,
+          "-43",
+          "-83",
+          "+146",
+          "+43"
+        ],
+        [
+          "140–160",
+          "+63",
+          0,
+          "-43",
+          "-83",
+          "+146",
+          "+43"
+        ],
+        [
+          "160–180",
+          "+63",
+          0,
+          "-43",
+          "-83",
+          "+146",
+          "+43"
+        ],
+        [
+          "180–200",
+          "+72",
+          0,
+          "-50",
+          "-96",
+          "+168",
+          "+50"
+        ],
+        [
+          "200–225",
+          "+72",
+          0,
+          "-50",
+          "-96",
+          "+168",
+          "+50"
+        ],
+        [
+          "225–250",
+          "+72",
+          0,
+          "-50",
+          "-96",
+          "+168",
+          "+50"
+        ],
+        [
+          "250–280",
+          "+81",
+          0,
+          "-56",
+          "-108",
+          "+189",
+          "+56"
+        ],
+        [
+          "280–315",
+          "+81",
+          0,
+          "-56",
+          "-108",
+          "+189",
+          "+56"
+        ],
+        [
+          "315–355",
+          "+89",
+          0,
+          "-62",
+          "-119",
+          "+208",
+          "+62"
+        ],
+        [
+          "355–400",
+          "+89",
+          0,
+          "-62",
+          "-119",
+          "+208",
+          "+62"
+        ],
+        [
+          "400–450",
+          "+97",
+          0,
+          "-68",
+          "-131",
+          "+228",
+          "+68"
+        ],
+        [
+          "450–500",
+          "+97",
+          0,
+          "-68",
+          "-131",
+          "+228",
+          "+68"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT8; eixo f → es da Tabela 2, ei = es − IT7 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H8 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H8 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo f7 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo f7 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h8h7",
+      "titulo": "Ajuste H8/h7 — furo-base (folga)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H8/h7"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H8 — ES",
+        "Furo H8 — EI",
+        "Eixo h7 — es",
+        "Eixo h7 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+14",
+          0,
+          0,
+          "-10",
+          "+24",
+          "+0"
+        ],
+        [
+          "3–6",
+          "+18",
+          0,
+          0,
+          "-12",
+          "+30",
+          "+0"
+        ],
+        [
+          "6–10",
+          "+22",
+          0,
+          0,
+          "-15",
+          "+37",
+          "+0"
+        ],
+        [
+          "10–14",
+          "+27",
+          0,
+          0,
+          "-18",
+          "+45",
+          "+0"
+        ],
+        [
+          "14–18",
+          "+27",
+          0,
+          0,
+          "-18",
+          "+45",
+          "+0"
+        ],
+        [
+          "18–24",
+          "+33",
+          0,
+          0,
+          "-21",
+          "+54",
+          "+0"
+        ],
+        [
+          "24–30",
+          "+33",
+          0,
+          0,
+          "-21",
+          "+54",
+          "+0"
+        ],
+        [
+          "30–40",
+          "+39",
+          0,
+          0,
+          "-25",
+          "+64",
+          "+0"
+        ],
+        [
+          "40–50",
+          "+39",
+          0,
+          0,
+          "-25",
+          "+64",
+          "+0"
+        ],
+        [
+          "50–65",
+          "+46",
+          0,
+          0,
+          "-30",
+          "+76",
+          "+0"
+        ],
+        [
+          "65–80",
+          "+46",
+          0,
+          0,
+          "-30",
+          "+76",
+          "+0"
+        ],
+        [
+          "80–100",
+          "+54",
+          0,
+          0,
+          "-35",
+          "+89",
+          "+0"
+        ],
+        [
+          "100–120",
+          "+54",
+          0,
+          0,
+          "-35",
+          "+89",
+          "+0"
+        ],
+        [
+          "120–140",
+          "+63",
+          0,
+          0,
+          "-40",
+          "+103",
+          "+0"
+        ],
+        [
+          "140–160",
+          "+63",
+          0,
+          0,
+          "-40",
+          "+103",
+          "+0"
+        ],
+        [
+          "160–180",
+          "+63",
+          0,
+          0,
+          "-40",
+          "+103",
+          "+0"
+        ],
+        [
+          "180–200",
+          "+72",
+          0,
+          0,
+          "-46",
+          "+118",
+          "+0"
+        ],
+        [
+          "200–225",
+          "+72",
+          0,
+          0,
+          "-46",
+          "+118",
+          "+0"
+        ],
+        [
+          "225–250",
+          "+72",
+          0,
+          0,
+          "-46",
+          "+118",
+          "+0"
+        ],
+        [
+          "250–280",
+          "+81",
+          0,
+          0,
+          "-52",
+          "+133",
+          "+0"
+        ],
+        [
+          "280–315",
+          "+81",
+          0,
+          0,
+          "-52",
+          "+133",
+          "+0"
+        ],
+        [
+          "315–355",
+          "+89",
+          0,
+          0,
+          "-57",
+          "+146",
+          "+0"
+        ],
+        [
+          "355–400",
+          "+89",
+          0,
+          0,
+          "-57",
+          "+146",
+          "+0"
+        ],
+        [
+          "400–450",
+          "+97",
+          0,
+          0,
+          "-63",
+          "+160",
+          "+0"
+        ],
+        [
+          "450–500",
+          "+97",
+          0,
+          0,
+          "-63",
+          "+160",
+          "+0"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT8; eixo h → es da Tabela 2, ei = es − IT7 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H8 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H8 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo h7 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo h7 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h8e8",
+      "titulo": "Ajuste H8/e8 — furo-base (folga)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H8/e8"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H8 — ES",
+        "Furo H8 — EI",
+        "Eixo e8 — es",
+        "Eixo e8 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+14",
+          0,
+          "-14",
+          "-28",
+          "+42",
+          "+14"
+        ],
+        [
+          "3–6",
+          "+18",
+          0,
+          "-20",
+          "-38",
+          "+56",
+          "+20"
+        ],
+        [
+          "6–10",
+          "+22",
+          0,
+          "-25",
+          "-47",
+          "+69",
+          "+25"
+        ],
+        [
+          "10–14",
+          "+27",
+          0,
+          "-32",
+          "-59",
+          "+86",
+          "+32"
+        ],
+        [
+          "14–18",
+          "+27",
+          0,
+          "-32",
+          "-59",
+          "+86",
+          "+32"
+        ],
+        [
+          "18–24",
+          "+33",
+          0,
+          "-40",
+          "-73",
+          "+106",
+          "+40"
+        ],
+        [
+          "24–30",
+          "+33",
+          0,
+          "-40",
+          "-73",
+          "+106",
+          "+40"
+        ],
+        [
+          "30–40",
+          "+39",
+          0,
+          "-50",
+          "-89",
+          "+128",
+          "+50"
+        ],
+        [
+          "40–50",
+          "+39",
+          0,
+          "-50",
+          "-89",
+          "+128",
+          "+50"
+        ],
+        [
+          "50–65",
+          "+46",
+          0,
+          "-60",
+          "-106",
+          "+152",
+          "+60"
+        ],
+        [
+          "65–80",
+          "+46",
+          0,
+          "-60",
+          "-106",
+          "+152",
+          "+60"
+        ],
+        [
+          "80–100",
+          "+54",
+          0,
+          "-72",
+          "-126",
+          "+180",
+          "+72"
+        ],
+        [
+          "100–120",
+          "+54",
+          0,
+          "-72",
+          "-126",
+          "+180",
+          "+72"
+        ],
+        [
+          "120–140",
+          "+63",
+          0,
+          "-85",
+          "-148",
+          "+211",
+          "+85"
+        ],
+        [
+          "140–160",
+          "+63",
+          0,
+          "-85",
+          "-148",
+          "+211",
+          "+85"
+        ],
+        [
+          "160–180",
+          "+63",
+          0,
+          "-85",
+          "-148",
+          "+211",
+          "+85"
+        ],
+        [
+          "180–200",
+          "+72",
+          0,
+          "-100",
+          "-172",
+          "+244",
+          "+100"
+        ],
+        [
+          "200–225",
+          "+72",
+          0,
+          "-100",
+          "-172",
+          "+244",
+          "+100"
+        ],
+        [
+          "225–250",
+          "+72",
+          0,
+          "-100",
+          "-172",
+          "+244",
+          "+100"
+        ],
+        [
+          "250–280",
+          "+81",
+          0,
+          "-110",
+          "-191",
+          "+272",
+          "+110"
+        ],
+        [
+          "280–315",
+          "+81",
+          0,
+          "-110",
+          "-191",
+          "+272",
+          "+110"
+        ],
+        [
+          "315–355",
+          "+89",
+          0,
+          "-125",
+          "-214",
+          "+303",
+          "+125"
+        ],
+        [
+          "355–400",
+          "+89",
+          0,
+          "-125",
+          "-214",
+          "+303",
+          "+125"
+        ],
+        [
+          "400–450",
+          "+97",
+          0,
+          "-135",
+          "-232",
+          "+329",
+          "+135"
+        ],
+        [
+          "450–500",
+          "+97",
+          0,
+          "-135",
+          "-232",
+          "+329",
+          "+135"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT8; eixo e → es da Tabela 2, ei = es − IT8 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H8 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H8 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo e8 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo e8 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h9d9",
+      "titulo": "Ajuste H9/d9 — furo-base (folga)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H9/d9"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H9 — ES",
+        "Furo H9 — EI",
+        "Eixo d9 — es",
+        "Eixo d9 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+25",
+          0,
+          "-20",
+          "-45",
+          "+70",
+          "+20"
+        ],
+        [
+          "3–6",
+          "+30",
+          0,
+          "-30",
+          "-60",
+          "+90",
+          "+30"
+        ],
+        [
+          "6–10",
+          "+36",
+          0,
+          "-40",
+          "-76",
+          "+112",
+          "+40"
+        ],
+        [
+          "10–14",
+          "+43",
+          0,
+          "-50",
+          "-93",
+          "+136",
+          "+50"
+        ],
+        [
+          "14–18",
+          "+43",
+          0,
+          "-50",
+          "-93",
+          "+136",
+          "+50"
+        ],
+        [
+          "18–24",
+          "+52",
+          0,
+          "-65",
+          "-117",
+          "+169",
+          "+65"
+        ],
+        [
+          "24–30",
+          "+52",
+          0,
+          "-65",
+          "-117",
+          "+169",
+          "+65"
+        ],
+        [
+          "30–40",
+          "+62",
+          0,
+          "-80",
+          "-142",
+          "+204",
+          "+80"
+        ],
+        [
+          "40–50",
+          "+62",
+          0,
+          "-80",
+          "-142",
+          "+204",
+          "+80"
+        ],
+        [
+          "50–65",
+          "+74",
+          0,
+          "-100",
+          "-174",
+          "+248",
+          "+100"
+        ],
+        [
+          "65–80",
+          "+74",
+          0,
+          "-100",
+          "-174",
+          "+248",
+          "+100"
+        ],
+        [
+          "80–100",
+          "+87",
+          0,
+          "-120",
+          "-207",
+          "+294",
+          "+120"
+        ],
+        [
+          "100–120",
+          "+87",
+          0,
+          "-120",
+          "-207",
+          "+294",
+          "+120"
+        ],
+        [
+          "120–140",
+          "+100",
+          0,
+          "-145",
+          "-245",
+          "+345",
+          "+145"
+        ],
+        [
+          "140–160",
+          "+100",
+          0,
+          "-145",
+          "-245",
+          "+345",
+          "+145"
+        ],
+        [
+          "160–180",
+          "+100",
+          0,
+          "-145",
+          "-245",
+          "+345",
+          "+145"
+        ],
+        [
+          "180–200",
+          "+115",
+          0,
+          "-170",
+          "-285",
+          "+400",
+          "+170"
+        ],
+        [
+          "200–225",
+          "+115",
+          0,
+          "-170",
+          "-285",
+          "+400",
+          "+170"
+        ],
+        [
+          "225–250",
+          "+115",
+          0,
+          "-170",
+          "-285",
+          "+400",
+          "+170"
+        ],
+        [
+          "250–280",
+          "+130",
+          0,
+          "-190",
+          "-320",
+          "+450",
+          "+190"
+        ],
+        [
+          "280–315",
+          "+130",
+          0,
+          "-190",
+          "-320",
+          "+450",
+          "+190"
+        ],
+        [
+          "315–355",
+          "+140",
+          0,
+          "-210",
+          "-350",
+          "+490",
+          "+210"
+        ],
+        [
+          "355–400",
+          "+140",
+          0,
+          "-210",
+          "-350",
+          "+490",
+          "+210"
+        ],
+        [
+          "400–450",
+          "+155",
+          0,
+          "-230",
+          "-385",
+          "+540",
+          "+230"
+        ],
+        [
+          "450–500",
+          "+155",
+          0,
+          "-230",
+          "-385",
+          "+540",
+          "+230"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT9; eixo d → es da Tabela 2, ei = es − IT9 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H9 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H9 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo d9 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo d9 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h11c11",
+      "titulo": "Ajuste H11/c11 — furo-base (folga)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H11/c11"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H11 — ES",
+        "Furo H11 — EI",
+        "Eixo c11 — es",
+        "Eixo c11 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+60",
+          0,
+          "-60",
+          "-120",
+          "+180",
+          "+60"
+        ],
+        [
+          "3–6",
+          "+75",
+          0,
+          "-70",
+          "-145",
+          "+220",
+          "+70"
+        ],
+        [
+          "6–10",
+          "+90",
+          0,
+          "-80",
+          "-170",
+          "+260",
+          "+80"
+        ],
+        [
+          "10–14",
+          "+110",
+          0,
+          "-95",
+          "-205",
+          "+315",
+          "+95"
+        ],
+        [
+          "14–18",
+          "+110",
+          0,
+          "-95",
+          "-205",
+          "+315",
+          "+95"
+        ],
+        [
+          "18–24",
+          "+130",
+          0,
+          "-110",
+          "-240",
+          "+370",
+          "+110"
+        ],
+        [
+          "24–30",
+          "+130",
+          0,
+          "-110",
+          "-240",
+          "+370",
+          "+110"
+        ],
+        [
+          "30–40",
+          "+160",
+          0,
+          "-120",
+          "-280",
+          "+440",
+          "+120"
+        ],
+        [
+          "40–50",
+          "+160",
+          0,
+          "-130",
+          "-290",
+          "+450",
+          "+130"
+        ],
+        [
+          "50–65",
+          "+190",
+          0,
+          "-140",
+          "-330",
+          "+520",
+          "+140"
+        ],
+        [
+          "65–80",
+          "+190",
+          0,
+          "-150",
+          "-340",
+          "+530",
+          "+150"
+        ],
+        [
+          "80–100",
+          "+220",
+          0,
+          "-170",
+          "-390",
+          "+610",
+          "+170"
+        ],
+        [
+          "100–120",
+          "+220",
+          0,
+          "-180",
+          "-400",
+          "+620",
+          "+180"
+        ],
+        [
+          "120–140",
+          "+250",
+          0,
+          "-200",
+          "-450",
+          "+700",
+          "+200"
+        ],
+        [
+          "140–160",
+          "+250",
+          0,
+          "-210",
+          "-460",
+          "+710",
+          "+210"
+        ],
+        [
+          "160–180",
+          "+250",
+          0,
+          "-230",
+          "-480",
+          "+730",
+          "+230"
+        ],
+        [
+          "180–200",
+          "+290",
+          0,
+          "-240",
+          "-530",
+          "+820",
+          "+240"
+        ],
+        [
+          "200–225",
+          "+290",
+          0,
+          "-260",
+          "-550",
+          "+840",
+          "+260"
+        ],
+        [
+          "225–250",
+          "+290",
+          0,
+          "-280",
+          "-570",
+          "+860",
+          "+280"
+        ],
+        [
+          "250–280",
+          "+320",
+          0,
+          "-300",
+          "-620",
+          "+940",
+          "+300"
+        ],
+        [
+          "280–315",
+          "+320",
+          0,
+          "-330",
+          "-650",
+          "+970",
+          "+330"
+        ],
+        [
+          "315–355",
+          "+360",
+          0,
+          "-360",
+          "-720",
+          "+1080",
+          "+360"
+        ],
+        [
+          "355–400",
+          "+360",
+          0,
+          "-400",
+          "-760",
+          "+1120",
+          "+400"
+        ],
+        [
+          "400–450",
+          "+400",
+          0,
+          "-440",
+          "-840",
+          "+1240",
+          "+440"
+        ],
+        [
+          "450–500",
+          "+400",
+          0,
+          "-480",
+          "-880",
+          "+1280",
+          "+480"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT11; eixo c → es da Tabela 2, ei = es − IT11 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H11 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H11 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo c11 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo c11 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h11h11",
+      "titulo": "Ajuste H11/h11 — furo-base (folga)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H11/h11"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H11 — ES",
+        "Furo H11 — EI",
+        "Eixo h11 — es",
+        "Eixo h11 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+60",
+          0,
+          0,
+          "-60",
+          "+120",
+          "+0"
+        ],
+        [
+          "3–6",
+          "+75",
+          0,
+          0,
+          "-75",
+          "+150",
+          "+0"
+        ],
+        [
+          "6–10",
+          "+90",
+          0,
+          0,
+          "-90",
+          "+180",
+          "+0"
+        ],
+        [
+          "10–14",
+          "+110",
+          0,
+          0,
+          "-110",
+          "+220",
+          "+0"
+        ],
+        [
+          "14–18",
+          "+110",
+          0,
+          0,
+          "-110",
+          "+220",
+          "+0"
+        ],
+        [
+          "18–24",
+          "+130",
+          0,
+          0,
+          "-130",
+          "+260",
+          "+0"
+        ],
+        [
+          "24–30",
+          "+130",
+          0,
+          0,
+          "-130",
+          "+260",
+          "+0"
+        ],
+        [
+          "30–40",
+          "+160",
+          0,
+          0,
+          "-160",
+          "+320",
+          "+0"
+        ],
+        [
+          "40–50",
+          "+160",
+          0,
+          0,
+          "-160",
+          "+320",
+          "+0"
+        ],
+        [
+          "50–65",
+          "+190",
+          0,
+          0,
+          "-190",
+          "+380",
+          "+0"
+        ],
+        [
+          "65–80",
+          "+190",
+          0,
+          0,
+          "-190",
+          "+380",
+          "+0"
+        ],
+        [
+          "80–100",
+          "+220",
+          0,
+          0,
+          "-220",
+          "+440",
+          "+0"
+        ],
+        [
+          "100–120",
+          "+220",
+          0,
+          0,
+          "-220",
+          "+440",
+          "+0"
+        ],
+        [
+          "120–140",
+          "+250",
+          0,
+          0,
+          "-250",
+          "+500",
+          "+0"
+        ],
+        [
+          "140–160",
+          "+250",
+          0,
+          0,
+          "-250",
+          "+500",
+          "+0"
+        ],
+        [
+          "160–180",
+          "+250",
+          0,
+          0,
+          "-250",
+          "+500",
+          "+0"
+        ],
+        [
+          "180–200",
+          "+290",
+          0,
+          0,
+          "-290",
+          "+580",
+          "+0"
+        ],
+        [
+          "200–225",
+          "+290",
+          0,
+          0,
+          "-290",
+          "+580",
+          "+0"
+        ],
+        [
+          "225–250",
+          "+290",
+          0,
+          0,
+          "-290",
+          "+580",
+          "+0"
+        ],
+        [
+          "250–280",
+          "+320",
+          0,
+          0,
+          "-320",
+          "+640",
+          "+0"
+        ],
+        [
+          "280–315",
+          "+320",
+          0,
+          0,
+          "-320",
+          "+640",
+          "+0"
+        ],
+        [
+          "315–355",
+          "+360",
+          0,
+          0,
+          "-360",
+          "+720",
+          "+0"
+        ],
+        [
+          "355–400",
+          "+360",
+          0,
+          0,
+          "-360",
+          "+720",
+          "+0"
+        ],
+        [
+          "400–450",
+          "+400",
+          0,
+          0,
+          "-400",
+          "+800",
+          "+0"
+        ],
+        [
+          "450–500",
+          "+400",
+          0,
+          0,
+          "-400",
+          "+800",
+          "+0"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT11; eixo h → es da Tabela 2, ei = es − IT11 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H11 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H11 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo h11 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo h11 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "nbr6158-ajuste-h6h5",
+      "titulo": "Ajuste H6/h5 — furo-base (folga)",
+      "norma": "NBR-6158",
+      "item": "Tabelas 1 e 2; 3.6 (ei = es − IT)",
+      "pagina": 10,
+      "unidade": "µm",
+      "chave": {
+        "consulta": "NBR 6158 — ajustes (furo-base)",
+        "ajuste": "H6/h5"
+      },
+      "colunas": [
+        "Dimensão nominal (mm)",
+        "Furo H6 — ES",
+        "Furo H6 — EI",
+        "Eixo h5 — es",
+        "Eixo h5 — ei",
+        "Folga máx. (+) / interferência mín. (−)",
+        "Folga mín. (+) / interferência máx. (−)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "+6",
+          0,
+          0,
+          "-4",
+          "+10",
+          "+0"
+        ],
+        [
+          "3–6",
+          "+8",
+          0,
+          0,
+          "-5",
+          "+13",
+          "+0"
+        ],
+        [
+          "6–10",
+          "+9",
+          0,
+          0,
+          "-6",
+          "+15",
+          "+0"
+        ],
+        [
+          "10–14",
+          "+11",
+          0,
+          0,
+          "-8",
+          "+19",
+          "+0"
+        ],
+        [
+          "14–18",
+          "+11",
+          0,
+          0,
+          "-8",
+          "+19",
+          "+0"
+        ],
+        [
+          "18–24",
+          "+13",
+          0,
+          0,
+          "-9",
+          "+22",
+          "+0"
+        ],
+        [
+          "24–30",
+          "+13",
+          0,
+          0,
+          "-9",
+          "+22",
+          "+0"
+        ],
+        [
+          "30–40",
+          "+16",
+          0,
+          0,
+          "-11",
+          "+27",
+          "+0"
+        ],
+        [
+          "40–50",
+          "+16",
+          0,
+          0,
+          "-11",
+          "+27",
+          "+0"
+        ],
+        [
+          "50–65",
+          "+19",
+          0,
+          0,
+          "-13",
+          "+32",
+          "+0"
+        ],
+        [
+          "65–80",
+          "+19",
+          0,
+          0,
+          "-13",
+          "+32",
+          "+0"
+        ],
+        [
+          "80–100",
+          "+22",
+          0,
+          0,
+          "-15",
+          "+37",
+          "+0"
+        ],
+        [
+          "100–120",
+          "+22",
+          0,
+          0,
+          "-15",
+          "+37",
+          "+0"
+        ],
+        [
+          "120–140",
+          "+25",
+          0,
+          0,
+          "-18",
+          "+43",
+          "+0"
+        ],
+        [
+          "140–160",
+          "+25",
+          0,
+          0,
+          "-18",
+          "+43",
+          "+0"
+        ],
+        [
+          "160–180",
+          "+25",
+          0,
+          0,
+          "-18",
+          "+43",
+          "+0"
+        ],
+        [
+          "180–200",
+          "+29",
+          0,
+          0,
+          "-20",
+          "+49",
+          "+0"
+        ],
+        [
+          "200–225",
+          "+29",
+          0,
+          0,
+          "-20",
+          "+49",
+          "+0"
+        ],
+        [
+          "225–250",
+          "+29",
+          0,
+          0,
+          "-20",
+          "+49",
+          "+0"
+        ],
+        [
+          "250–280",
+          "+32",
+          0,
+          0,
+          "-23",
+          "+55",
+          "+0"
+        ],
+        [
+          "280–315",
+          "+32",
+          0,
+          0,
+          "-23",
+          "+55",
+          "+0"
+        ],
+        [
+          "315–355",
+          "+36",
+          0,
+          0,
+          "-25",
+          "+61",
+          "+0"
+        ],
+        [
+          "355–400",
+          "+36",
+          0,
+          0,
+          "-25",
+          "+61",
+          "+0"
+        ],
+        [
+          "400–450",
+          "+40",
+          0,
+          0,
+          "-27",
+          "+67",
+          "+0"
+        ],
+        [
+          "450–500",
+          "+40",
+          0,
+          0,
+          "-27",
+          "+67",
+          "+0"
+        ]
+      ],
+      "nota": "Calculado pelas regras da norma: furo H → EI = 0, ES = IT6; eixo h → es da Tabela 2, ei = es − IT5 (Tabela 1). Folga máx. = ES − ei; folga mín. = EI − es (negativo = interferência). Conferido contra as tabelas de afastamentos limites da norma (ex. g6 na Tabela 30).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg"
+      ],
+      "cotas": {
+        "Furo H6 — ES": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ES",
+        "Furo H6 — EI": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#EI",
+        "Eixo h5 — es": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#es",
+        "Eixo h5 — ei": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#ei",
+        "Folga máx. (+) / interferência mín. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-max",
+        "Folga mín. (+) / interferência máx. (−)": "esquemas/tolerancias-gerais-ajustes-ajuste-furo-base.svg#folga-min"
+      }
+    },
+    {
+      "id": "iso9013-t6",
+      "titulo": "Corte térmico — afastamentos limites das dimensões nominais, classe 1",
+      "norma": "ISO-9013",
+      "item": "Tabela 6",
+      "pagina": 24,
+      "unidade": "mm",
+      "chave": {
+        "consulta": "ISO 9013 — classe 1 (corte térmico)"
+      },
+      "colunas": [
+        "Espessura da peça a (mm)",
+        "Dim. nominal 0–3 mm",
+        "Dim. nominal 3–10 mm",
+        "Dim. nominal 10–35 mm",
+        "Dim. nominal 35–125 mm",
+        "Dim. nominal 125–315 mm",
+        "Dim. nominal 315–1 000 mm",
+        "Dim. nominal 1 000–2 000 mm",
+        "Dim. nominal 2 000–4 000 mm",
+        "Dim. nominal 4 000–6 000 mm",
+        "Dim. nominal 6 000–8 000 mm"
+      ],
+      "linhas": [
+        [
+          "0–1",
+          "±0,075",
+          "±0,10",
+          "±0,10",
+          "±0,20",
+          "±0,20",
+          "±0,30",
+          "±0,40",
+          "±0,65",
+          "±0,90",
+          "±1,60"
+        ],
+        [
+          "1–3,15",
+          "±0,10",
+          "±0,15",
+          "±0,20",
+          "±0,25",
+          "±0,25",
+          "±0,35",
+          "±0,40",
+          "±0,65",
+          "±1,00",
+          "±1,75"
+        ],
+        [
+          "3,15–6,3",
+          "±0,20",
+          "±0,20",
+          "±0,25",
+          "±0,25",
+          "±0,30",
+          "±0,40",
+          "±0,45",
+          "±0,70",
+          "±1,10",
+          "±1,90"
+        ],
+        [
+          "6,3–10",
+          "—",
+          "±0,25",
+          "±0,30",
+          "±0,30",
+          "±0,35",
+          "±0,45",
+          "±0,55",
+          "±0,75",
+          "±1,25",
+          "±2,20"
+        ],
+        [
+          "10–15",
+          "—",
+          "±0,30",
+          "±0,35",
+          "±0,40",
+          "±0,45",
+          "±0,55",
+          "±0,65",
+          "±0,85",
+          "±1,50",
+          "±2,50"
+        ],
+        [
+          "15–20",
+          "—",
+          "±0,40",
+          "±0,40",
+          "±0,45",
+          "±0,55",
+          "±0,75",
+          "±0,85",
+          "±1,2",
+          "±1,90",
+          "±2,80"
+        ],
+        [
+          "20–25",
+          "—",
+          "±0,45",
+          "±0,50",
+          "±0,60",
+          "±0,70",
+          "±0,90",
+          "±1,10",
+          "±1,60",
+          "±2,40",
+          "±3,25"
+        ],
+        [
+          "25–32",
+          "—",
+          "—",
+          "±0,70",
+          "±0,70",
+          "±0,80",
+          "±1,0",
+          "±1,6",
+          "±2,25",
+          "±3,00",
+          "±4,00"
+        ],
+        [
+          "32–50",
+          "—",
+          "—",
+          "±0,7",
+          "±0,70",
+          "±0,8",
+          "±1,0",
+          "±1,6",
+          "±2,5",
+          "±3,8",
+          "±5,0"
+        ],
+        [
+          "50–100",
+          "—",
+          "—",
+          "±1,3",
+          "±1,3",
+          "±1,4",
+          "±1,7",
+          "±2,2",
+          "±3,1",
+          "±4,4",
+          "±5,6"
+        ],
+        [
+          "100–150",
+          "—",
+          "—",
+          "±1,9",
+          "±2,0",
+          "±2,1",
+          "±2,3",
+          "±2,9",
+          "±3,8",
+          "±5,1",
+          "±6,3"
+        ],
+        [
+          "150–200",
+          "—",
+          "—",
+          "±2,6",
+          "±2,7",
+          "±2,7",
+          "±3,0",
+          "±3,6",
+          "±4,5",
+          "±5,7",
+          "±7,0"
+        ],
+        [
+          "200–250",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "±3,7",
+          "±4,2",
+          "±5,2",
+          "±6,4",
+          "±7,7"
+        ],
+        [
+          "250–300",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "±4,4",
+          "±4,9",
+          "±5,9",
+          "±7,1",
+          "±8,4"
+        ]
+      ],
+      "nota": "Só para cortes a chama e plasma com relação comprimento:largura ≤ 4:1 e perímetro de corte ≥ 350 mm (8.1). Não incluem o desvio de perpendicularidade/angularidade u.",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg",
+        "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg"
+      ],
+      "cotas": {
+        "Espessura da peça a (mm)": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#a",
+        "Dim. nominal 0–3 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 3–10 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 10–35 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 35–125 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 125–315 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 315–1 000 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 1 000–2 000 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 2 000–4 000 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 4 000–6 000 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 6 000–8 000 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento"
+      }
+    },
+    {
+      "id": "iso9013-t7",
+      "titulo": "Corte térmico — afastamentos limites das dimensões nominais, classe 2",
+      "norma": "ISO-9013",
+      "item": "Tabela 7",
+      "pagina": 25,
+      "unidade": "mm",
+      "chave": {
+        "consulta": "ISO 9013 — classe 2 (corte térmico)"
+      },
+      "colunas": [
+        "Espessura da peça a (mm)",
+        "Dim. nominal 0–3 mm",
+        "Dim. nominal 3–10 mm",
+        "Dim. nominal 10–35 mm",
+        "Dim. nominal 35–125 mm",
+        "Dim. nominal 125–315 mm",
+        "Dim. nominal 315–1 000 mm",
+        "Dim. nominal 1 000–2 000 mm",
+        "Dim. nominal 2 000–4 000 mm",
+        "Dim. nominal 4 000–6 000 mm",
+        "Dim. nominal 6 000–8 000 mm"
+      ],
+      "linhas": [
+        [
+          "0–1",
+          "±0,5",
+          "±0,6",
+          "±0,6",
+          "±0,7",
+          "±0,7",
+          "±0,8",
+          "±0,9",
+          "±0,9",
+          "—",
+          "—"
+        ],
+        [
+          "1–3,15",
+          "±0,6",
+          "±0,6",
+          "±0,7",
+          "±0,7",
+          "±0,8",
+          "±0,9",
+          "±1",
+          "±1,1",
+          "±1,4",
+          "±1,4"
+        ],
+        [
+          "3,15–6,3",
+          "±0,7",
+          "±0,8",
+          "±0,9",
+          "±0,9",
+          "±1,1",
+          "±1,2",
+          "±1,3",
+          "±1,3",
+          "±1,6",
+          "±1,6"
+        ],
+        [
+          "6,3–10",
+          "—",
+          "±1",
+          "±1,1",
+          "±1,3",
+          "±1,4",
+          "±1,5",
+          "±1,6",
+          "±1,7",
+          "±1,9",
+          "±2"
+        ],
+        [
+          "10–15",
+          "—",
+          "±1,8",
+          "±1,8",
+          "±1,8",
+          "±1,9",
+          "±2,3",
+          "±3",
+          "±4,2",
+          "±4,3",
+          "±4,5"
+        ],
+        [
+          "15–20",
+          "—",
+          "±1,8",
+          "±1,8",
+          "±1,8",
+          "±1,9",
+          "±2,3",
+          "±3",
+          "±4,2",
+          "±4,3",
+          "±4,5"
+        ],
+        [
+          "20–25",
+          "—",
+          "±1,8",
+          "±1,8",
+          "±1,8",
+          "±1,9",
+          "±2,3",
+          "±3",
+          "±4,2",
+          "±4,3",
+          "±4,5"
+        ],
+        [
+          "25–32",
+          "—",
+          "±1,8",
+          "±1,8",
+          "±1,8",
+          "±1,9",
+          "±2,3",
+          "±3",
+          "±4,2",
+          "±4,3",
+          "±4,5"
+        ],
+        [
+          "32–50",
+          "—",
+          "±1,8",
+          "±1,8",
+          "±1,8",
+          "±1,9",
+          "±2,3",
+          "±3",
+          "±4,2",
+          "±4,3",
+          "±4,5"
+        ],
+        [
+          "50–100",
+          "—",
+          "—",
+          "±2,5",
+          "±2,5",
+          "±2,6",
+          "±3",
+          "±3,7",
+          "±4,9",
+          "±5,3",
+          "±5,6"
+        ],
+        [
+          "100–150",
+          "—",
+          "—",
+          "±3,2",
+          "±3,3",
+          "±3,4",
+          "±3,7",
+          "±4,4",
+          "±5,7",
+          "±6,1",
+          "±6,4"
+        ],
+        [
+          "150–200",
+          "—",
+          "—",
+          "±4",
+          "±4",
+          "±4,1",
+          "±4,5",
+          "±5,2",
+          "±6,4",
+          "±6,8",
+          "±7,1"
+        ],
+        [
+          "200–250",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "±5,2",
+          "±5,9",
+          "±7,2",
+          "±7,6",
+          "±7,9"
+        ],
+        [
+          "250–300",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "±6",
+          "±6,7",
+          "±7,9",
+          "±8,3",
+          "±8,6"
+        ]
+      ],
+      "nota": "Só para cortes a chama e plasma com relação comprimento:largura ≤ 4:1 e perímetro de corte ≥ 350 mm (8.1). Não incluem o desvio de perpendicularidade/angularidade u.",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg",
+        "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg"
+      ],
+      "cotas": {
+        "Espessura da peça a (mm)": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#a",
+        "Dim. nominal 0–3 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 3–10 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 10–35 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 35–125 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 125–315 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 315–1 000 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 1 000–2 000 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 2 000–4 000 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 4 000–6 000 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento",
+        "Dim. nominal 6 000–8 000 mm": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#afastamento"
+      }
+    },
+    {
+      "id": "iso9013-t3",
+      "titulo": "Corte térmico — redução Δa da zona de medição de u",
+      "norma": "ISO-9013",
+      "item": "Tabela 3",
+      "pagina": 19,
+      "unidade": "mm (a = espessura do corte)",
+      "chave": {
+        "consulta": "ISO 9013 — Δa (zona de medição de u)"
+      },
+      "colunas": [
+        "Espessura do corte a (mm)",
+        "Δa (mm)"
+      ],
+      "linhas": [
+        [
+          "até 3",
+          "0,1 a"
+        ],
+        [
+          "3–6",
+          0.3
+        ],
+        [
+          "6–10",
+          0.6
+        ],
+        [
+          "10–20",
+          1
+        ],
+        [
+          "20–40",
+          1.5
+        ],
+        [
+          "40–100",
+          2
+        ],
+        [
+          "100–150",
+          3
+        ],
+        [
+          "150–200",
+          5
+        ],
+        [
+          "200–250",
+          8
+        ],
+        [
+          "250–300",
+          10
+        ]
+      ],
+      "nota": "Faixas da norma: ≤3; >3 ≤6; >6 ≤10 … >250 ≤300. Δa é descontado a partir das arestas superior e inferior da face de corte (6.2.2.3, Figura 6).",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg"
+      ],
+      "cotas": {
+        "Espessura do corte a (mm)": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#a",
+        "Δa (mm)": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#delta-a"
+      }
+    },
+    {
+      "id": "iso9013-t4",
+      "titulo": "Corte térmico — faixas de perpendicularidade/angularidade u",
+      "norma": "ISO-9013",
+      "item": "Tabela 4",
+      "pagina": 20,
+      "unidade": "mm (a = espessura em mm)",
+      "chave": {
+        "consulta": "ISO 9013 — qualidade do corte (u, Rz5)"
+      },
+      "colunas": [
+        "Faixa",
+        "u (mm)",
+        "Rz5 (µm)"
+      ],
+      "linhas": [
+        [
+          "1",
+          "0,05 + 0,003 a",
+          "10 + 0,6 a"
+        ],
+        [
+          "2",
+          "0,15 + 0,007 a",
+          "40 + 0,8 a"
+        ],
+        [
+          "3",
+          "0,4 + 0,01 a",
+          "70 + 1,2 a"
+        ],
+        [
+          "4",
+          "0,8 + 0,02 a",
+          "110 + 1,8 a"
+        ],
+        [
+          "5",
+          "1,2 + 0,035 a",
+          "—"
+        ]
+      ],
+      "nota": "u: Tabela 4; Rz5: Tabela 5. Designação: ISO 9013-<faixa u><faixa Rz5><classe> — ex. ISO 9013-342 = u faixa 3, Rz5 faixa 4, classe 2.",
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg"
+      ],
+      "cotas": {
+        "u (mm)": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#u",
+        "Rz5 (µm)": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#Rz5"
+      }
+    },
+    {
+      "id": "iso9013-t8",
+      "titulo": "Corte térmico — sobremetal de usinagem Bz por face",
+      "norma": "ISO-9013",
+      "item": "Tabela 8",
+      "pagina": 27,
+      "unidade": "mm",
+      "consulta": false,
+      "chave": {},
+      "colunas": [
+        "Espessura a (mm)",
+        "Bz (mm)"
+      ],
+      "linhas": [
+        [
+          "2–20",
+          2
+        ],
+        [
+          "20–50",
+          3
+        ],
+        [
+          "50–80",
+          5
+        ],
+        [
+          "acima de 80",
+          7
+        ]
+      ],
+      "figuras": [
+        "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg"
+      ],
+      "cotas": {
+        "Espessura a (mm)": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#a",
+        "Bz (mm)": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#Bz"
+      }
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "atencao",
+      "texto": "ISO 2768 vale para usinagem e chapa; para estruturas soldadas use a ISO 13920 e para corte térmico a ISO 9013 (ver ficha de tolerâncias de fabricação estrutural). A tolerância geral só se aplica se o desenho citar a norma e a classe."
+    },
+    {
+      "tipo": "info",
+      "texto": "Ajustes: limites calculados com as regras da NBR 6158 (Tabela 1 + Tabela 2; ei = es − IT) e conferidos com as tabelas de afastamentos limites da norma. Tabela 2 lida da imagem (células mescladas). Edições: NBR ISO 2768-1/-2:2001 (= ISO 2768:1989), NBR 6158:1995, ISO 9013:2017."
+    }
+  ]
+}

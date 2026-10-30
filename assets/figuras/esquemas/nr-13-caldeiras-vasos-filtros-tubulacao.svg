@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380" role="img" aria-label="Filtro em linha (componente de tubulação) × filtro tipo vaso">
+<title>Filtro em linha (componente de tubulação) × filtro tipo vaso (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Filtro em linha (componente de tubulação) × filtro tipo vaso</text>
+<text class="b" x="40" y="70">(a) Filtro em linha (tipo Y / cesto)</text>
+<rect class="s" x="40" y="170" width="120" height="24"/>
+<rect class="s" x="260" y="170" width="120" height="24"/>
+<rect class="s" x="160" y="160" width="100" height="44"/>
+<path class="s" d="M190,204 L230,204 L250,260 L210,260 z"/>
+<text class="n" x="60" y="300">fabricado por norma de componente de tubulação:</text>
+<text class="n" x="60" y="320">segue as regras de tubulação</text>
+<text class="b" x="480" y="70">(b) Filtro tipo vaso (casco + tampo)</text>
+<rect class="s" x="600" y="110" width="140" height="200"/>
+<path class="s" d="M600,110 Q670,80 740,110"/>
+<path class="s" d="M600,310 Q670,340 740,310"/>
+<rect class="s" x="500" y="170" width="100" height="24"/>
+<rect class="s" x="740" y="240" width="100" height="24"/>
+<text class="n" x="480" y="345">projetado por código de vaso: enquadramento como vaso (13.2.1)</text>
+<text class="n" x="20" y="368">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

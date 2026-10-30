@@ -1,0 +1,30 @@
+{
+ "id": "ISO-8434-6",
+ "titulo": "ISO/DIS 8434-6:2007 — Conexões metálicas de tubos — Parte 6: Conectores de cone 60° com ou sem O-ring (projeto)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Projeto de norma: conectores de cone 60° e niples para brasagem, com ou sem vedação por O-ring, de aço, para tubos de 6 a 50 mm (ou mangueiras tamanho 5 a 51); pontas roscadas pela ISO 1179 e ISO 6149. Ensaios pela ISO 19879.",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo do tubo",
+     "valor": "6 a 50 mm",
+     "item": "1"
+    },
+    {
+     "parametro": "Pressões de trabalho",
+     "valor": "Tabela 1",
+     "item": "Tab. 1",
+     "nota": "valores não extraídos — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Estrutura comum da série",
+   "item": "3–14",
+   "texto": "Materiais (corpos, porcas, anéis, O-rings), requisitos de pressão/temperatura, designação dos conectores, requisitos dos tubos, aberturas de chave e tolerâncias, projeto (passagens, ângulos, contornos, pórticos e pontas roscadas com vedação), roscas, fabricação (acabamento, cantos), instruções de montagem, informações de compra e marcação. Inclui ensaio de desempenho e qualificação.",
+   "valores": []
+  }
+ ]
+}

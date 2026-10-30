@@ -1,0 +1,45 @@
+{
+ "id": "ASME-SA-578",
+ "titulo": "SA-578 — Exame ultrassônico por feixe reto de chapas de aço lisas e cladeadas para aplicações especiais",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimento e critérios de aceitação do ultrassom pulso-eco por feixe reto em chapas de aço carbono e liga, lisas ou cladeadas, para aplicações especiais. Detecta descontinuidades paralelas à superfície laminada. Três níveis de aceitação (A, B, C); suplementares para chapa cladeada e procedimentos alternativos. Pessoal qualificado pela SNT-TC-1A ou equivalente.",
+   "valores": [
+    {
+     "parametro": "Espessura mínima coberta",
+     "valor": "3/8 in [10 mm]",
+     "item": "1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Procedimento e registro",
+   "item": "4 a 6",
+   "texto": "Linearidade verificada em bloco IIW; exame em área livre de interferências. Registram-se todas as descontinuidades com perda total do eco de fundo e, em chapas a partir de 3/4 in [20 mm], também outras indicações relevantes."
+  },
+  {
+   "titulo": "Aceitação",
+   "item": "7 a 9",
+   "texto": "Níveis A e B: rejeita-se área com perda contínua total do eco de fundo, com indicações no mesmo plano, que não caiba num círculo-limite; no Nível B, descontinuidades menores próximas também reprovam se não estiverem afastadas o suficiente. O Nível C é o mais restritivo.",
+   "valores": [
+    {
+     "parametro": "Círculo-limite (Níveis A e B)",
+     "valor": "3 in [75 mm] ou metade da espessura, o maior",
+     "item": "7.1 / 8.1"
+    },
+    {
+     "parametro": "Separação mínima no Nível B",
+     "valor": "≥ maior diâmetro da descontinuidade maior",
+     "item": "8.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "12",
+   "texto": "Chapa aceita marcada 'UT A 578 — A' (ou B, C) num canto, conforme o nível."
+  }
+ ]
+}

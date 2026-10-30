@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SB-626",
+ "titulo": "SB-626 — Tubos (tube) soldados de níquel e ligas de níquel-cobalto",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos soldados das mesmas famílias de ligas de níquel e níquel-cobalto da SB-619/SB-622 (Ni-Mo, Ni-Cr-Mo, Ni-Cr-Fe-Mo, resistentes ao calor, N08320, N08031 e outras)."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N10001",
+     "valor": "100 ksi (690) / 45 ksi (310) / 40 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N10665, N10675, N10629",
+     "valor": "110 ksi (760) / 51 ksi (350) / 40 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N10624",
+     "valor": "104 ksi (720) / 46 ksi (320) / 40 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N10242 — Su mín.",
+     "valor": "105 ksi",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "ISO-7379",
+ "titulo": "ISO 7379:1983 — Parafusos com ressalto (espiga retificada) e sextavado interno",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafuso de cabeça cilíndrica com sextavado interno e ressalto (espiga) cilíndrico de precisão, usado como eixo/guia; a rosca tem diâmetro menor que o ressalto. A norma alerta para limitação no ensaio de tração (cláusula 5).",
+   "valores": [
+    {
+     "parametro": "Faixa de diâmetro do ressalto",
+     "valor": "6,5 a 25 mm",
+     "item": "1",
+     "nota": "OCR '65 to 25' — conferir o menor valor"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3",
+   "texto": "Tabela por diâmetro do ressalto: rosca correspondente, cabeça, sextavado, comprimentos do ressalto e da rosca.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos e normas de referência",
+   "item": "5",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Material",
+     "valor": "aço (ISO 898)",
+     "item": "5"
+    },
+    {
+     "parametro": "Tolerância do ressalto",
+     "valor": "classe de tolerância indicada na tabela de requisitos",
+     "item": "5",
+     "nota": "ilegível no OCR — conferir"
+    },
+    {
+     "parametro": "Rugosidade do ressalto",
+     "valor": "Ra 0,8 µm (ISO 1302); tolerâncias valem antes da eletrodeposição",
+     "item": "5"
+    },
+    {
+     "parametro": "Tolerância de rosca",
+     "valor": "5g6g",
+     "item": "5",
+     "nota": "OCR '59 - 69' — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "6",
+   "texto": "Ex. da norma: ressalto ds = 10 mm (rosca M8), comprimento 40 mm.",
+   "valores": []
+  }
+ ]
+}

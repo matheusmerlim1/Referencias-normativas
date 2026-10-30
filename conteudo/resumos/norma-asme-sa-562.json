@@ -1,0 +1,89 @@
+{
+ "id": "ASME-SA-562",
+ "titulo": "SA-562 — Chapas de aço carbono-manganês-titânio para vasos com revestimento vitrificado",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço carbono com titânio para vasos de pressão soldados revestidos de vidro (esmaltados) ou usos em que carboneto de ferro livre prejudicaria o revestimento; exige razão mínima Ti/C. Requisitos gerais pela SA-20.",
+   "valores": [
+    {
+     "parametro": "Espessura máx.",
+     "valor": "2 in [50 mm]",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "4, 5",
+   "texto": "Aço acalmado. Refino de grão por normalização ou aquecimento uniforme para conformação a quente.",
+   "valores": [
+    {
+     "parametro": "Temperatura mín.",
+     "valor": "1600 °F [870 °C], patamar ≥ 1 h/in [2,4 min/mm]",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,12 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx. (corrida)",
+     "valor": "1,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,040 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,15–0,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cu máx.",
+     "valor": "0,15 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ti mín.",
+     "valor": "4 × C",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su",
+     "valor": "55–75 ksi [380–515 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "30 ksi [205 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. 200 mm / 50 mm",
+     "valor": "22 % / 26 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

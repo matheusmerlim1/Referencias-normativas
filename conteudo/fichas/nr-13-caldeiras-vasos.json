@@ -1,0 +1,1246 @@
+{
+  "id": "nr-13-caldeiras-vasos",
+  "titulo": "NR-13 — caldeiras, vasos de pressão, tubulações e tanques",
+  "categoria": "Tubulação e flanges",
+  "resumo": "Enquadramento, categorias (caldeiras A/B; vasos I–V por classe de fluido × P·V), dispositivos de segurança, placa e prontuário, instalação, capacitação de operadores e prazos máximos de inspeção (com e sem SPIE) de caldeiras, vasos, tubulações e tanques metálicos.",
+  "palavras_chave": [
+    "NR-13",
+    "NR13",
+    "caldeira",
+    "vaso de pressão",
+    "pressure vessel",
+    "boiler",
+    "categoria",
+    "classe de fluido",
+    "P.V",
+    "PV",
+    "potencial de risco",
+    "PMTA",
+    "MAWP",
+    "teste hidrostático",
+    "TH",
+    "hydrostatic test",
+    "prontuário",
+    "placa de identificação",
+    "nameplate",
+    "registro de segurança",
+    "SPIE",
+    "inspeção de segurança",
+    "prazo de inspeção",
+    "inspeção periódica",
+    "exame interno",
+    "exame externo",
+    "válvula de segurança",
+    "PSV",
+    "DCBI",
+    "profissional habilitado",
+    "PH",
+    "operador de caldeira",
+    "casa de caldeiras",
+    "SIS",
+    "SIL",
+    "SGC",
+    "BMS",
+    "INI",
+    "inspeção não intrusiva",
+    "tanque",
+    "tubulação",
+    "RGI",
+    "risco grave e iminente",
+    "vida remanescente",
+    "FFS",
+    "adequação ao uso"
+  ],
+  "relacionadas": [
+    "vaso-pressao-asme-viii",
+    "tubulacao-processo",
+    "flange-asme-b16-5",
+    "norma-asme-i-2007",
+    "norma-asme-viii-1-2007"
+  ],
+  "figuras": [
+    {
+      "arquivo": "esquemas/nr-13-caldeiras-vasos-tanque-abrangido.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — tanque metálico de armazenamento abrangido (13.2.1 f): de superfície, fundo apoiado no solo, Ø externo e capacidade nominal acima dos limites da ficha, fluido classe A ou B",
+      "norma": "NR-13",
+      "item": "Esquema",
+      "pagina": 2,
+      "grupo": [
+        "Campo de aplicação (enquadramento)",
+        "Tanques metálicos de armazenamento"
+      ],
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/nr-13-caldeiras-vasos-instalacao-caldeira.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — caldeira em ambiente aberto: afastamento mínimo de outras instalações, depósitos de combustível, limite de terceiros e vias públicas; duas saídas em direções distintas",
+      "norma": "NR-13",
+      "item": "Esquema",
+      "pagina": 8,
+      "grupo": "Instalação",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/nr-13-caldeiras-vasos-dispensas-dimensao.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — dispensas por dimensão (13.2.2): vaso de pequeno diâmetro interno e tubo de instrumentação de pequeno DN",
+      "norma": "NR-13",
+      "pagina": 3,
+      "grupo": "Campo de aplicação (enquadramento)",
+      "item": "Esquema"
+    },
+    {
+      "arquivo": "esquemas/nr-13-caldeiras-vasos-categorias-vasos.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — categoria do vaso (I a V) a partir da classe de fluido (A a D) e do grupo de potencial de risco P·V (G1 a G5) — valores na tabela da ficha",
+      "norma": "NR-13",
+      "pagina": 16,
+      "grupo": "Categorias de caldeiras e vasos",
+      "item": "Esquema"
+    },
+    {
+      "arquivo": "esquemas/nr-13-caldeiras-vasos-prazos-inspecao.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — linha do tempo das inspeções do vaso: inicial, exames externo e interno periódicos (prazos por categoria e SPIE, na tabela da ficha) e extraordinária",
+      "norma": "NR-13",
+      "pagina": 20,
+      "grupo": "Inspeção de vasos de pressão",
+      "item": "Esquema"
+    },
+    {
+      "arquivo": "esquemas/nr-13-caldeiras-vasos-filtros-tubulacao.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — filtro em linha fabricado por norma de componente de tubulação (regras de tubulação) × filtro tipo vaso projetado por código de vaso",
+      "norma": "NR-13-PR",
+      "pagina": 7,
+      "grupo": "Campo de aplicação (enquadramento)",
+      "item": "Esquema"
+    },
+    {
+      "arquivo": "esquemas/nr-13-caldeiras-vasos-vasos-maquinas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — vasos separados na sucção e na descarga de máquinas (separadores, amortecedores de pulsação) — enquadrados se atenderem 13.2.1",
+      "norma": "NR-13-PR",
+      "pagina": 5,
+      "grupo": "Campo de aplicação (enquadramento)",
+      "item": "Esquema"
+    },
+    {
+      "arquivo": "esquemas/nr-13-caldeiras-vasos-placa-identificacao.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — placa de identificação de vaso seriado: campos mínimos, selo e altura mínima dos caracteres",
+      "norma": "NR-13-PR",
+      "pagina": 15,
+      "grupo": "Placa de identificação e documentação",
+      "item": "Esquema"
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Caldeiras abrangidas",
+      "valor": "Todas as caldeiras a vapor das categorias A e B (13.4.1.1 e 13.4.1.2)",
+      "norma": "NR-13",
+      "item": "13.2.1 a)",
+      "pagina": 1
+    },
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Vasos de pressão abrangidos — por P·V",
+      "valor": "P·V > 8, com P = pressão máxima de operação em kPa (em módulo) e V = volume interno em m³",
+      "norma": "NR-13",
+      "item": "13.2.1 b)",
+      "pagina": 1,
+      "nota": "Atenção às unidades: aqui P em kPa; na classificação de risco (13.5.1.2 c) P em MPa."
+    },
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Vasos de pressão abrangidos — fluido classe A",
+      "valor": "Qualquer vaso com fluido classe A, independente das dimensões e do produto P·V",
+      "norma": "NR-13",
+      "item": "13.2.1 c)",
+      "pagina": 1
+    },
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Recipientes móveis abrangidos",
+      "valor": "P·V > 8 ou com fluido classe A",
+      "norma": "NR-13",
+      "item": "13.2.1 d)",
+      "pagina": 2
+    },
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Tubulações abrangidas",
+      "valor": "Tubulações ou sistemas ligados a caldeiras ou vasos categorizados, que contenham fluidos de classe A ou B",
+      "norma": "NR-13",
+      "item": "13.2.1 e)",
+      "pagina": 2
+    },
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Tanques metálicos abrangidos",
+      "valor": "De superfície, não enterrados, fundo apoiado no solo, Ø externo > 3 m, capacidade nominal > 20 000 L, com fluidos de classe A ou B",
+      "norma": "NR-13",
+      "item": "13.2.1 f)",
+      "pagina": 2,
+      "nota": "Não se enquadram (Perguntas e Respostas, Pergunta 31): tanques não metálicos, com fluidos C ou D, enterrados, de embarcações e plataformas marítimas, suspensos por pernas, instalados em plataformas, de produtos intermediários de processo.",
+      "cota": "esquemas/nr-13-caldeiras-vasos-tanque-abrangido.svg#D-tanque"
+    },
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Equipamentos só com inspeção por PH + manutenção (dispensados do resto da NR)",
+      "valor": "Recipientes transportáveis e extintores; GLP < 500 L certificados INMETRO; vasos para ocupação humana; vasos de sistemas auxiliares de pacote de máquinas; vasos só a vácuo < 5 kPa; dutos; fornos e serpentinas; trocadores de placas gaxetadas; geradores de vapor fora dos códigos de vasos; redes públicas de gás",
+      "norma": "NR-13",
+      "item": "13.2.2 a)–h), j), k), m)",
+      "pagina": 2,
+      "nota": "Pacote de máquinas = vaso de sistema auxiliar de arrefecimento, lubrificação ou selagem, EXCETO reservatório de ar comprimido de compressores (Perguntas e Respostas, Pergunta 2)."
+    },
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Dispensa (13.2.2) — vaso de pequeno diâmetro",
+      "valor": "Ø interno < 150 mm, fluidos B, C ou D, com P·V > 8 (P em kPa, V em m³)",
+      "max": 150,
+      "unidade": "mm",
+      "norma": "NR-13",
+      "item": "13.2.2 i)",
+      "pagina": 2,
+      "nota": "Dispensa do restante da NR, mas com inspeção por PH e manutenção (13.2.2).",
+      "cota": "esquemas/nr-13-caldeiras-vasos-dispensas-dimensao.svg#Di-vaso"
+    },
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Dispensa (13.2.2) — vácuo",
+      "valor": "Vasos sujeitos apenas a vácuo < 5 kPa em módulo, qualquer classe de fluido",
+      "norma": "NR-13",
+      "item": "13.2.2 e)",
+      "pagina": 2,
+      "nota": "Dispensa do restante da NR, mas com inspeção por PH e manutenção (13.2.2)."
+    },
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Dispensa (13.2.2) — tubos de instrumentação",
+      "valor": "DN ≤ 12,7 mm com fluidos classe A ou B",
+      "max": 12.7,
+      "unidade": "mm",
+      "norma": "NR-13",
+      "item": "13.2.2 l)",
+      "pagina": 2,
+      "nota": "Perguntas e Respostas Pergunta 34: tubo schedule (B36.10M) → NPS ½ (DN 15); tubo padrão OD (ASTM A269/A270, DIN) → ½ in (12,7 mm). Dispensa do restante da NR, mas com inspeção por PH e manutenção (13.2.2).",
+      "cota": "esquemas/nr-13-caldeiras-vasos-dispensas-dimensao.svg#DN-instr"
+    },
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Dispensa (13.2.2) — vasos de PRFV",
+      "valor": "Fluidos A ou B com V > 160 L e pressão interna máx. de operação > 50 kPa; ou a vácuo > 5 kPa com V > 160 L e P·V > 8",
+      "norma": "NR-13",
+      "item": "13.2.2 n), o)",
+      "pagina": 2,
+      "nota": "Vasos de PRFV fora das alíneas n/o estão excluídos de TODA a NR-13 (Perguntas e Respostas, Pergunta 25). Dispensa do restante da NR, mas com inspeção por PH e manutenção (13.2.2)."
+    },
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Filtros como componente de tubulação",
+      "valor": "Filtros fabricados por normas de componentes de tubulação (ex. ASME B16.34) podem ser tratados como tubulação, não como vaso; idem filtro de pequeno diâmetro suportado pela tubulação, mesmo feito por norma de vaso",
+      "norma": "NR-13-PR",
+      "item": "Perguntas 3 e 4",
+      "pagina": 7
+    },
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Não são vasos de pressão",
+      "valor": "Câmaras de combustão, bombas, compressores, turbinas, geradores e motores",
+      "norma": "NR-13-PR",
+      "item": "Pergunta 14",
+      "pagina": 11
+    },
+    {
+      "grupo": "Campo de aplicação (enquadramento)",
+      "parametro": "Vasos que SÃO enquadrados (13.2.1), mesmo junto a máquinas",
+      "valor": "Amortecedores de pulsação e separadores na sucção/descarga de compressores, amortecedores de bomba, vasos e permutadores interestágios, condensadores/evaporadores de chiller, separador ar-óleo, acumulador hidráulico",
+      "norma": "NR-13-PR",
+      "item": "Pergunta 2",
+      "pagina": 4
+    },
+    {
+      "grupo": "Categorias de caldeiras e vasos",
+      "parametro": "Caldeira categoria A",
+      "valor": "Pressão de operação ≥ 1 960 kPa (19,98 kgf/cm²) e volume > 100 L",
+      "min": 1960,
+      "unidade": "kPa",
+      "norma": "NR-13",
+      "item": "13.4.1.2 a)",
+      "pagina": 6,
+      "nota": "Pressão de operação para categorizar = PMTA da caldeira (Perguntas e Respostas, Pergunta 8)."
+    },
+    {
+      "grupo": "Categorias de caldeiras e vasos",
+      "parametro": "Caldeira categoria B",
+      "valor": "60 kPa (0,61 kgf/cm²) < pressão de operação < 1 960 kPa, volume interno > 100 L e P·V > 6 (P em kPa, V em m³)",
+      "min": 60,
+      "max": 1960,
+      "unidade": "kPa",
+      "norma": "NR-13",
+      "item": "13.4.1.2 b)",
+      "pagina": 6
+    },
+    {
+      "grupo": "Categorias de caldeiras e vasos",
+      "parametro": "Classe de fluido A",
+      "valor": "Inflamáveis; combustíveis a T ≥ 200 °C; tóxicos com limite de tolerância ≤ 20 ppm; hidrogênio; acetileno",
+      "norma": "NR-13",
+      "item": "13.5.1.2 a)",
+      "pagina": 15
+    },
+    {
+      "grupo": "Categorias de caldeiras e vasos",
+      "parametro": "Classe de fluido B",
+      "valor": "Combustíveis a T < 200 °C; tóxicos com limite de tolerância > 20 ppm",
+      "norma": "NR-13",
+      "item": "13.5.1.2 a)",
+      "pagina": 15
+    },
+    {
+      "grupo": "Categorias de caldeiras e vasos",
+      "parametro": "Classe de fluido C",
+      "valor": "Vapor de água, gases asfixiantes simples, ar comprimido",
+      "norma": "NR-13",
+      "item": "13.5.1.2 a)",
+      "pagina": 15
+    },
+    {
+      "grupo": "Categorias de caldeiras e vasos",
+      "parametro": "Classe de fluido D",
+      "valor": "Outro fluido não enquadrado em A, B ou C",
+      "norma": "NR-13",
+      "item": "13.5.1.2 a)",
+      "pagina": 15
+    },
+    {
+      "grupo": "Categorias de caldeiras e vasos",
+      "parametro": "Mistura de fluidos",
+      "valor": "Classificar pelo fluido de maior risco (toxicidade, inflamabilidade, concentração)",
+      "norma": "NR-13",
+      "item": "13.5.1.2 b)",
+      "pagina": 15
+    },
+    {
+      "grupo": "Categorias de caldeiras e vasos",
+      "parametro": "Grupos de potencial de risco (P·V, P em MPa, V em m³)",
+      "valor": "G1: P·V ≥ 100; G2: 30 ≤ P·V < 100; G3: 2,5 ≤ P·V < 30; G4: 1 ≤ P·V < 2,5; G5: P·V < 1",
+      "norma": "NR-13",
+      "item": "13.5.1.2 c)",
+      "pagina": 15,
+      "nota": "1 MPa = 10,197 kgf/cm² (nota b da tabela). Categoria = cruzamento classe × grupo — tabela na aba Tabelas."
+    },
+    {
+      "grupo": "Categorias de caldeiras e vasos",
+      "parametro": "Pressão máxima de operação (para categorizar)",
+      "valor": "Maior pressão em condições normais de processo prevista no prontuário; se não houver, usar a PMTA",
+      "norma": "NR-13",
+      "item": "13.8 Glossário",
+      "pagina": 31
+    },
+    {
+      "grupo": "Categorias de caldeiras e vasos",
+      "parametro": "Volume (para categorizar)",
+      "valor": "Volume interno útil, excluindo acessórios internos, enchimentos e catalisadores",
+      "norma": "NR-13",
+      "item": "13.8 Glossário",
+      "pagina": 33
+    },
+    {
+      "grupo": "Dispositivos de segurança e instrumentos",
+      "parametro": "Caldeira — válvula de segurança",
+      "valor": "Pressão de abertura ≤ PMTA, considerando aberturas escalonadas e tolerâncias de calibração do código de projeto",
+      "norma": "NR-13",
+      "item": "13.4.1.3 a)",
+      "pagina": 6
+    },
+    {
+      "grupo": "Dispositivos de segurança e instrumentos",
+      "parametro": "Caldeira — demais itens obrigatórios",
+      "valor": "Indicador da pressão do vapor; injetor/alimentação de água independente (combustível sólido não atomizado ou queima em suspensão); drenagem rápida (recuperação de álcalis); controle automático de nível com intertravamento",
+      "norma": "NR-13",
+      "item": "13.4.1.3 b)–e)",
+      "pagina": 6
+    },
+    {
+      "grupo": "Dispositivos de segurança e instrumentos",
+      "parametro": "Vaso — dispositivo de segurança",
+      "valor": "Válvula de segurança ou outro dispositivo com abertura ≤ PMTA, no vaso ou no sistema que o inclui; vasos a vácuo: dispositivo ou outros meios previstos no projeto",
+      "norma": "NR-13",
+      "item": "13.5.1.3 a), b)",
+      "pagina": 16,
+      "nota": "\"Outros meios\" para vácuo: quebra-vácuo, disco de ruptura, coluna de líquido (sifão, dimensionado e testado antes da instalação) ou projeto para vácuo total/parcial (Perguntas e Respostas, Pergunta 13)."
+    },
+    {
+      "grupo": "Dispositivos de segurança e instrumentos",
+      "parametro": "Vaso — DCBI e indicador de pressão",
+      "valor": "Sistema formal contra bloqueio inadvertido do dispositivo de segurança (no mínimo dispositivo físico + sinalização de advertência) e indicador da pressão de operação",
+      "norma": "NR-13",
+      "item": "13.5.1.3 c), d)",
+      "pagina": 16
+    },
+    {
+      "grupo": "Dispositivos de segurança e instrumentos",
+      "parametro": "Abertura escalonada de válvulas de segurança",
+      "valor": "Calibração diferenciada de múltiplas válvulas prevista no código de projeto, podendo abrir ACIMA da PMTA conforme vazões de alívio em cenários distintos",
+      "norma": "NR-13",
+      "item": "13.8 Glossário",
+      "pagina": 28
+    },
+    {
+      "grupo": "Dispositivos de segurança e instrumentos",
+      "parametro": "Tubulações e tanques — dispositivos",
+      "valor": "Conforme o código de projeto ou estudo de cenários de falha; tubulação com indicador de pressão conforme P&ID; tanque com proteção contra sobrepressão e vácuo e instrumentação de controle",
+      "norma": "NR-13",
+      "item": "13.6.1.2; 13.6.1.3; 13.7.1.2; 13.7.1.3",
+      "pagina": 22
+    },
+    {
+      "grupo": "Placa de identificação e documentação",
+      "parametro": "Placa de caldeira — conteúdo mínimo",
+      "valor": "Fabricante; nº de ordem; ano de fabricação; PMTA; pressão de TH de fabricação; capacidade de produção de vapor; área de superfície de aquecimento; código de projeto e ano de edição",
+      "norma": "NR-13",
+      "item": "13.4.1.4",
+      "pagina": 6,
+      "nota": "Além da placa: categoria e nº de identificação em local visível (13.4.1.5). Importado seriado certificado INMETRO: nome do importador no lugar do fabricante (Perguntas e Respostas, Pergunta 7)."
+    },
+    {
+      "grupo": "Placa de identificação e documentação",
+      "parametro": "Placa de vaso — conteúdo mínimo",
+      "valor": "Fabricante; nº de identificação; ano de fabricação; PMTA; pressão de TH de fabricação; código de projeto e ano de edição",
+      "norma": "NR-13",
+      "item": "13.5.1.4",
+      "pagina": 16,
+      "nota": "Além da placa: categoria e nº de identificação em local visível (13.5.1.5)."
+    },
+    {
+      "grupo": "Placa de identificação e documentação",
+      "parametro": "Placa de vaso seriado certificado INMETRO",
+      "valor": "Fonte ≥ 4 mm; fabricante/importador, nº de série, mês e ano, PMTA interna e/ou externa com temperatura, pressão de ensaio hidrostático, temperaturas mín./máx. de projeto do metal, código e ano, nº de rastreabilidade no OCP + selo INMETRO com nº de registro",
+      "min": 4,
+      "unidade": "mm",
+      "norma": "NR-13-PR",
+      "item": "Pergunta 29",
+      "pagina": 15,
+      "cota": "esquemas/nr-13-caldeiras-vasos-placa-identificacao.svg#letra"
+    },
+    {
+      "grupo": "Placa de identificação e documentação",
+      "parametro": "Prontuário de vaso — conteúdo",
+      "valor": "Código e ano; materiais; procedimentos de fabricação/montagem/inspeção final; metodologia da PMTA; desenhos; pressão máx. de operação; registros do TH; características funcionais; dados dos dispositivos de segurança; ano de fabricação; categoria",
+      "norma": "NR-13",
+      "item": "13.5.1.6 a)",
+      "pagina": 17,
+      "nota": "Metodologia da PMTA: ASME I / VIII-1 → memória de cálculo; VIII-2 → relatório de análise de tensões; PMTA por ensaio destrutivo (UG-101, UCD-101) → relatório do ensaio de prova (Perguntas e Respostas, Pergunta 22)."
+    },
+    {
+      "grupo": "Placa de identificação e documentação",
+      "parametro": "Documentação do vaso no estabelecimento",
+      "valor": "Prontuário; Registro de Segurança; projeto de alteração/reparo; relatórios de inspeção; certificados de calibração dos dispositivos de segurança",
+      "norma": "NR-13",
+      "item": "13.5.1.6",
+      "pagina": 17
+    },
+    {
+      "grupo": "Placa de identificação e documentação",
+      "parametro": "Documentação da caldeira no estabelecimento",
+      "valor": "Prontuário (inclui categoria e dados p/ vida útil); Registro de Segurança; projeto de instalação; projeto de alteração/reparo; relatórios de inspeção; certificados de calibração dos dispositivos de segurança",
+      "norma": "NR-13",
+      "item": "13.4.1.6",
+      "pagina": 6
+    },
+    {
+      "grupo": "Placa de identificação e documentação",
+      "parametro": "Prontuário extraviado",
+      "valor": "Reconstituir pelo empregador, com responsabilidade do fabricante ou de PH — imprescindíveis: características funcionais/premissas de projeto, dados dos dispositivos de segurança e memória de cálculo da PMTA",
+      "norma": "NR-13",
+      "item": "13.4.1.7; 13.5.1.7",
+      "pagina": 7
+    },
+    {
+      "grupo": "Placa de identificação e documentação",
+      "parametro": "Vaso sem código de projeto (instalado antes da NR)",
+      "valor": "PMTA atribuída por PH a partir dos dados operacionais; inspeção externa a cada 1 ano e interna a cada 3 anos; plano de ação para inspeção extraordinária especial",
+      "norma": "NR-13",
+      "item": "13.5.1.7.1; 13.5.1.7.2",
+      "pagina": 17
+    },
+    {
+      "grupo": "Placa de identificação e documentação",
+      "parametro": "Proibição sem código de projeto",
+      "valor": "Proibido fabricar, importar, comercializar, alugar ou utilizar caldeiras e vasos sem o código de projeto declarado no prontuário e indicado na placa",
+      "norma": "NR-13",
+      "item": "13.3.7",
+      "pagina": 5
+    },
+    {
+      "grupo": "Placa de identificação e documentação",
+      "parametro": "Relatório de inspeção — prazo de emissão",
+      "valor": "Caldeiras e vasos: até 60 dias (90 dias em parada geral de manutenção); tubulações: 30 dias (linha individual) / 90 dias (sistema); tanques: 90 dias",
+      "norma": "NR-13",
+      "item": "13.4.4.14; 13.5.4.13; 13.6.3.9.1; 13.7.3.6.1",
+      "pagina": 21,
+      "nota": "Condição operacional anotada no Registro de Segurança imediatamente após a inspeção."
+    },
+    {
+      "grupo": "Placa de identificação e documentação",
+      "parametro": "Relatório de inspeção de vaso — conteúdo mínimo",
+      "valor": "Identificação, categoria, fluidos, tipo de vaso e de inspeção, datas, exames e testes, fotos das anomalias internas, resultados, recomendações, parecer conclusivo até a próxima inspeção, data prevista da próxima, nome/assinatura/registro do PH",
+      "norma": "NR-13",
+      "item": "13.5.4.14",
+      "pagina": 21,
+      "nota": "Pode ser eletrônico com assinatura digital validada por AC (13.5.4.14.1)."
+    },
+    {
+      "grupo": "Instalação",
+      "parametro": "Caldeira em ambiente aberto — afastamentos",
+      "valor": "≥ 3,0 m de outras instalações, de depósitos de combustível (exceto reservatórios de partida até 2 000 L), do limite de terceiros e de vias públicas",
+      "min": 3000,
+      "unidade": "mm",
+      "norma": "NR-13",
+      "item": "13.4.2.3 a)",
+      "pagina": 8,
+      "cota": "esquemas/nr-13-caldeiras-vasos-instalacao-caldeira.svg#afastamento"
+    },
+    {
+      "grupo": "Instalação",
+      "parametro": "Casa de caldeiras (ambiente fechado)",
+      "valor": "Prédio separado, de material resistente ao fogo; só uma parede adjacente a outras instalações, as demais a ≥ 3,0 m; ventilação permanente não bloqueável; sensor de gás (caldeira a gás); uso exclusivo",
+      "min": 3000,
+      "unidade": "mm",
+      "norma": "NR-13",
+      "item": "13.4.2.4 a), c)–e)",
+      "pagina": 8,
+      "cota": "esquemas/nr-13-caldeiras-vasos-instalacao-caldeira.svg#afastamento2"
+    },
+    {
+      "grupo": "Instalação",
+      "parametro": "Área/casa de caldeiras — saídas e acesso",
+      "valor": "≥ 2 saídas amplas, desobstruídas, sinalizadas, em direções distintas; acesso fácil e seguro (guarda-corpo vazado com vãos que impeçam queda); exaustão dos gases; iluminação e iluminação de emergência",
+      "norma": "NR-13",
+      "item": "13.4.2.3 b)–f); 13.4.2.4 b), f)–h)",
+      "pagina": 8
+    },
+    {
+      "grupo": "Instalação",
+      "parametro": "Caldeira categoria A — sala de controle",
+      "valor": "Painel de instrumentos instalado em sala de controle",
+      "norma": "NR-13",
+      "item": "13.4.2.6",
+      "pagina": 9
+    },
+    {
+      "grupo": "Instalação",
+      "parametro": "Instalação de vasos",
+      "valor": "Drenos, respiros, bocas de visita e indicadores facilmente acessíveis; ≥ 2 saídas em direções distintas, acesso seguro, iluminação e iluminação de emergência (ambiente aberto ou fechado); ventilação permanente (fechado)",
+      "norma": "NR-13",
+      "item": "13.5.2.1–13.5.2.3",
+      "pagina": 18
+    },
+    {
+      "grupo": "Instalação",
+      "parametro": "Projeto alternativo de instalação",
+      "valor": "Quando não for possível atender aos requisitos de instalação: medidas complementares de segurança (caldeiras: comunicar previamente o sindicato)",
+      "norma": "NR-13",
+      "item": "13.4.2.5; 13.5.2.5",
+      "pagina": 9
+    },
+    {
+      "grupo": "Operação e capacitação de pessoal",
+      "parametro": "Manual de operação",
+      "valor": "Caldeiras: todas; vasos: categorias I e II — em português, com partida/parada, rotina, emergência e segurança/saúde/meio ambiente",
+      "norma": "NR-13",
+      "item": "13.4.3.1; 13.5.3.1",
+      "pagina": 9
+    },
+    {
+      "grupo": "Operação e capacitação de pessoal",
+      "parametro": "Treinamento de operador de caldeira",
+      "valor": "Presencial, mín. 40 h, supervisionado por PH; pré-requisito: ensino médio",
+      "min": 40,
+      "unidade": "h",
+      "norma": "NR-13",
+      "item": "Anexo I, A1.2–A1.3",
+      "pagina": 34
+    },
+    {
+      "grupo": "Operação e capacitação de pessoal",
+      "parametro": "Prática supervisionada — operador de caldeira",
+      "valor": "Categoria A: mín. 80 h; categoria B: mín. 60 h, na própria caldeira que irá operar, após todo o conteúdo teórico",
+      "norma": "NR-13",
+      "item": "Anexo I, A1.5; A1.8",
+      "pagina": 34
+    },
+    {
+      "grupo": "Operação e capacitação de pessoal",
+      "parametro": "Operador de unidade de processo (vasos cat. I ou II)",
+      "valor": "Treinamento presencial mín. 40 h + prática supervisionada de 300 h em unidade com vasos cat. I ou II",
+      "norma": "NR-13",
+      "item": "Anexo I, B1.4; B1.6",
+      "pagina": 38
+    },
+    {
+      "grupo": "Operação e capacitação de pessoal",
+      "parametro": "Reciclagem do operador de caldeira",
+      "valor": "Quando houver modificação na caldeira, acidente/incidente de alto potencial ou recorrência de incidentes",
+      "norma": "NR-13",
+      "item": "Anexo I, A1.7",
+      "pagina": 34
+    },
+    {
+      "grupo": "Operação e capacitação de pessoal",
+      "parametro": "Inibição provisória de instrumentos e controles",
+      "valor": "Permitida se prevista em procedimento formal, ou com justificativa documentada, análise técnica e contingências do responsável técnico do processo, com anuência do PH",
+      "norma": "NR-13",
+      "item": "13.4.3.2.1; 13.5.3.2.1",
+      "pagina": 9
+    },
+    {
+      "grupo": "Operação e capacitação de pessoal",
+      "parametro": "Profissional Habilitado (PH)",
+      "valor": "Engenheiro com competência legal para projeto, operação, manutenção e inspeção de caldeiras, vasos, tubulações e tanques; certificação voluntária por OPC acreditado (reavaliação a cada 30 meses, recertificação a cada 60 meses)",
+      "norma": "NR-13",
+      "item": "13.3.2; Anexo III",
+      "pagina": 3,
+      "nota": "Certificação: Anexo III."
+    },
+    {
+      "grupo": "Inspeção de caldeiras",
+      "parametro": "Inspeção inicial de caldeira",
+      "valor": "Caldeira nova, no local definitivo, antes de operar: exame interno + teste de estanqueidade + exame externo",
+      "norma": "NR-13",
+      "item": "13.4.4.2",
+      "pagina": 10
+    },
+    {
+      "grupo": "Inspeção de caldeiras",
+      "parametro": "Periódica — caldeiras SEM SPIE",
+      "valor": "Cat. A e B: 12 meses; recuperação de álcalis: 15 meses; cat. A: 24 meses se aos 12 meses forem testadas as pressões de abertura das válvulas de segurança",
+      "norma": "NR-13",
+      "item": "13.4.4.4",
+      "pagina": 10
+    },
+    {
+      "grupo": "Inspeção de caldeiras",
+      "parametro": "Periódica — caldeiras COM SPIE",
+      "valor": "Recuperação de álcalis: 24 meses; cat. B: 24 meses; cat. A: 30 meses",
+      "norma": "NR-13",
+      "item": "13.4.4.5",
+      "pagina": 10
+    },
+    {
+      "grupo": "Inspeção de caldeiras",
+      "parametro": "Caldeira cat. A com SIS",
+      "valor": "Inspeção interna até 48 meses (SPIE certificado, análise SIL, SIS auditado, controle de deterioração); válvulas de segurança testadas na pressão de abertura a cada 12 meses",
+      "norma": "NR-13",
+      "item": "13.4.4.6; 13.4.4.9.2",
+      "pagina": 10,
+      "nota": "Teste anual das válvulas: 13.4.4.9.2."
+    },
+    {
+      "grupo": "Inspeção de caldeiras",
+      "parametro": "Caldeira cat. B com SGC (BMS)",
+      "valor": "Inspeção interna até 30 meses, operando de forma contínua, em automático sem opção manual; comunicar MTE e sindicato até 30 dias após o comissionamento",
+      "norma": "NR-13",
+      "item": "13.4.4.7; 13.4.4.7.1",
+      "pagina": 11,
+      "nota": "Operação contínua = > 95 % do tempo dos prazos de 13.4.4.5 (Glossário)."
+    },
+    {
+      "grupo": "Inspeção de caldeiras",
+      "parametro": "SGC de caldeira cat. B nova — funções",
+      "valor": "Líquido/gás: nível baixo de água, purga e acendimento, estanqueidade das válvulas de bloqueio, pressão alta/baixa do combustível, falha de chama; sólido: controle automático de nível e geração de vapor; todas: válvula de segurança redundante, descarga de fundo automática, redundância no painel, registro de alarmes",
+      "norma": "NR-13",
+      "item": "13.4.4.7.2–13.4.4.7.4",
+      "pagina": 12
+    },
+    {
+      "grupo": "Inspeção de caldeiras",
+      "parametro": "Avaliação de vida remanescente",
+      "valor": "No máximo ao completar 25 anos de uso, na inspeção seguinte: avaliação de integridade mais abrangente → vida remanescente e novos prazos",
+      "norma": "NR-13",
+      "item": "13.4.4.8",
+      "pagina": 13
+    },
+    {
+      "grupo": "Inspeção de caldeiras",
+      "parametro": "Válvulas de segurança de caldeira — calibração",
+      "valor": "Desmontar, inspecionar e calibrar em prazo ≤ ao da inspeção periódica da caldeira; válvulas soldadas: testadas em campo no mesmo limite",
+      "norma": "NR-13",
+      "item": "13.4.4.9; 13.4.4.9.1",
+      "pagina": 13
+    },
+    {
+      "grupo": "Inspeção de caldeiras",
+      "parametro": "Válvulas de caldeira cat. B — acionamento manual",
+      "valor": "Sem tratamento de água: acionar a alavanca ≥ 1 vez por mês (exceto fluido térmico); com água tratada: quando houver condição anormal",
+      "norma": "NR-13",
+      "item": "13.4.4.10",
+      "pagina": 13,
+      "nota": "Condição anormal = qualquer condição que possa travar a válvula, ex. arraste de espuma (carryover) (Perguntas e Respostas, Pergunta 23)."
+    },
+    {
+      "grupo": "Inspeção de caldeiras",
+      "parametro": "Válvulas de segurança de caldeira — teste de acumulação",
+      "valor": "Além dos testes de 13.4.4.9 e 13.4.4.10, as válvulas de segurança de caldeiras podem ser submetidas a testes de acumulação, a critério do PH",
+      "norma": "NR-13",
+      "item": "13.4.4.11",
+      "pagina": 13,
+      "nota": "Facultativo (não há prazo fixado na norma)."
+    },
+    {
+      "grupo": "Inspeção de caldeiras",
+      "parametro": "Inspeção extraordinária de caldeira",
+      "valor": "Dano por acidente; alteração ou reparo importante; inativa por mais de 6 meses; mudança de local",
+      "norma": "NR-13",
+      "item": "13.4.4.12",
+      "pagina": 13,
+      "nota": "Caldeira de termelétrica em prontidão (stand-by) mantida em condições de projeto não é \"inativa\" (Perguntas e Respostas, Pergunta 24)."
+    },
+    {
+      "grupo": "Inspeção de caldeiras",
+      "parametro": "Teste hidrostático (TH) de caldeira",
+      "valor": "Obrigatório na fabricação, com laudo de PH e pressão de teste na placa; sem comprovação: fabricada a partir da Portaria 594/2014 → TH na inspeção inicial; anterior → a critério do PH, até a próxima periódica interna",
+      "norma": "NR-13",
+      "item": "13.4.4.3; 13.4.4.3.1",
+      "pagina": 10
+    },
+    {
+      "grupo": "Inspeção de caldeiras",
+      "parametro": "Postergação por força maior",
+      "valor": "Até 6 meses do prazo da inspeção periódica da caldeira, com justificativa formal, análise técnica de PH e comunicação ao sindicato",
+      "norma": "NR-13",
+      "item": "13.3.1.1; 13.3.1.1.1",
+      "pagina": 3
+    },
+    {
+      "grupo": "Inspeção de vasos de pressão",
+      "parametro": "Inspeção inicial de vaso",
+      "valor": "Vaso novo, no local definitivo, antes de operar: exames externo e interno",
+      "norma": "NR-13",
+      "item": "13.5.4.2",
+      "pagina": 19
+    },
+    {
+      "grupo": "Inspeção de vasos de pressão",
+      "parametro": "Dispensa da inspeção inicial",
+      "valor": "Vasos cat. IV ou V de série, certificados INMETRO, com válvula de segurança calibrada de fábrica e instalados conforme o fabricante (prazo periódico conta da data de instalação, anotada no Registro)",
+      "norma": "NR-13",
+      "item": "13.5.4.4; 13.5.4.4.1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Inspeção de vasos de pressão",
+      "parametro": "Teste hidrostático (TH) de vaso",
+      "valor": "Obrigatório na fabricação, com laudo de PH e pressão de teste na placa; sem comprovação: fabricado a partir da Portaria 594/2014 → TH na inspeção inicial; anterior → a critério do PH, até a próxima periódica interna",
+      "norma": "NR-13",
+      "item": "13.5.4.3; 13.5.4.3.1",
+      "pagina": 19,
+      "nota": "Ensaio pneumático ou hidropneumático de fabricação conforme o código equivale ao TH (Pergunta 21). Vaso importado com TH no exterior: novo TH no Brasil, salvo encomenda com especificação do proprietário aprovada por seu RT ou seriado INMETRO (Pergunta 12) — Perguntas e Respostas."
+    },
+    {
+      "grupo": "Inspeção de vasos de pressão",
+      "parametro": "Periódica — vasos SEM SPIE (externo / interno)",
+      "valor": "Cat. I: 1 / 3 anos; II: 2 / 4; III: 3 / 6; IV: 4 / 8; V: 5 / 10 anos",
+      "norma": "NR-13",
+      "item": "13.5.4.5 a)",
+      "pagina": 20,
+      "nota": "Tabela na aba Tabelas."
+    },
+    {
+      "grupo": "Inspeção de vasos de pressão",
+      "parametro": "Periódica — vasos COM SPIE (externo / interno)",
+      "valor": "Cat. I: 3 / 6 anos; II: 4 / 8; III: 5 / 10; IV: 6 / 12; V: 7 anos / a critério",
+      "norma": "NR-13",
+      "item": "13.5.4.5 b)",
+      "pagina": 20
+    },
+    {
+      "grupo": "Inspeção de vasos de pressão",
+      "parametro": "Sem acesso visual",
+      "valor": "Vasos sem acesso para exame interno ou externo: outros END e metodologias de integridade, a critério do PH",
+      "norma": "NR-13",
+      "item": "13.5.4.6",
+      "pagina": 20
+    },
+    {
+      "grupo": "Inspeção de vasos de pressão",
+      "parametro": "Inspeção não intrusiva (INI)",
+      "valor": "Empresas com SPIE certificado, vasos cat. I e II: INI pela ABNT NBR 16455, seguida de exame visual interno em até 50 % do intervalo de 13.5.4.5 b), contado da data da INI",
+      "norma": "NR-13",
+      "item": "13.5.4.7; 13.5.4.7.1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Inspeção de vasos de pressão",
+      "parametro": "Vasos com enchimento ou catalisador",
+      "valor": "Exame interno pode coincidir com a troca do enchimento/catalisador, se precedido de estudo de PH com tecnologias alternativas de avaliação de integridade",
+      "norma": "NR-13",
+      "item": "13.5.4.8",
+      "pagina": 21
+    },
+    {
+      "grupo": "Inspeção de vasos de pressão",
+      "parametro": "Vasos a T < 0 °C sem deterioração",
+      "valor": "Exame interno a cada 20 anos e externo a cada 2 anos",
+      "norma": "NR-13",
+      "item": "13.5.4.9",
+      "pagina": 21
+    },
+    {
+      "grupo": "Inspeção de vasos de pressão",
+      "parametro": "Válvulas de segurança de vaso",
+      "valor": "Desmontar, inspecionar e calibrar em prazo ≤ ao da inspeção periódica INTERNA do vaso protegido",
+      "norma": "NR-13",
+      "item": "13.5.4.10",
+      "pagina": 21
+    },
+    {
+      "grupo": "Inspeção de vasos de pressão",
+      "parametro": "Inspeção extraordinária de vaso",
+      "valor": "Dano por acidente; reparo ou alteração importante; inativo por mais de 12 meses; mudança de local (exceto vasos móveis)",
+      "norma": "NR-13",
+      "item": "13.5.4.11",
+      "pagina": 21
+    },
+    {
+      "grupo": "Inspeção de vasos de pressão",
+      "parametro": "SPIE — equipamentos novos e cancelamento",
+      "valor": "Equipamentos novos só usam prazos estendidos após auditoria de alteração de perfil pelo OCP; com SPIE cancelado, os prazos já fixados valem até a próxima inspeção, depois valem os prazos sem SPIE",
+      "norma": "NR-13-PR",
+      "item": "Perguntas 19 e 20",
+      "pagina": 12
+    },
+    {
+      "grupo": "Tubulações",
+      "parametro": "Programa e plano de inspeção",
+      "valor": "Considerar fluidos, pressão e temperatura de trabalho, mecanismos de dano previsíveis e consequências de falha",
+      "norma": "NR-13",
+      "item": "13.6.1.1",
+      "pagina": 22
+    },
+    {
+      "grupo": "Tubulações",
+      "parametro": "Intervalo de inspeção de tubulações",
+      "valor": "Prazo da inspeção interna do vaso ou caldeira mais crítico interligado; ampliação pelo programa do PH limitada a +100 % desse prazo e a 10 anos",
+      "max": 10,
+      "unidade": "anos",
+      "norma": "NR-13",
+      "item": "13.6.3.3",
+      "pagina": 24
+    },
+    {
+      "grupo": "Tubulações",
+      "parametro": "Programação por sistema",
+      "valor": "Intervalo = o da linha mais crítica do sistema",
+      "norma": "NR-13",
+      "item": "13.6.3.5",
+      "pagina": 24
+    },
+    {
+      "grupo": "Tubulações",
+      "parametro": "Inspeção extraordinária de tubulação",
+      "valor": "Dano por acidente; reparo provisório ou alteração significativa; inativa por mais de 24 meses",
+      "norma": "NR-13",
+      "item": "13.6.3.7",
+      "pagina": 24
+    },
+    {
+      "grupo": "Tubulações",
+      "parametro": "Documentação de tubulações",
+      "valor": "Especificações; fluxograma de engenharia (P&ID) com identificação de linhas e acessórios; projetos de alteração/reparo; relatórios; Registro de Segurança (vazamentos grandes, incêndios, explosões)",
+      "norma": "NR-13",
+      "item": "13.6.1.4; 13.6.1.4.1",
+      "pagina": 23
+    },
+    {
+      "grupo": "Tubulações",
+      "parametro": "Identificação de tubulações",
+      "valor": "Padronização formal do estabelecimento e sinalização conforme NR-26",
+      "norma": "NR-13",
+      "item": "13.6.2.3",
+      "pagina": 23
+    },
+    {
+      "grupo": "Tanques metálicos de armazenamento",
+      "parametro": "Intervalo de inspeção de tanques",
+      "valor": "Programa do empregador, sem exceder os prazos da ABNT NBR 17505-2",
+      "norma": "NR-13",
+      "item": "13.7.3.3",
+      "pagina": 27
+    },
+    {
+      "grupo": "Tanques metálicos de armazenamento",
+      "parametro": "Inspeção extraordinária de tanque",
+      "valor": "Dano por acidente; reparo provisório ou alteração significativa; inativo por mais de 24 meses; mudança de local",
+      "norma": "NR-13",
+      "item": "13.7.3.5",
+      "pagina": 27
+    },
+    {
+      "grupo": "Tanques metálicos de armazenamento",
+      "parametro": "Documentação de tanques",
+      "valor": "Folhas de dados; desenho geral; projetos de alteração/reparo; relatórios de inspeção; Registro de Segurança",
+      "norma": "NR-13",
+      "item": "13.7.1.4",
+      "pagina": 25
+    },
+    {
+      "grupo": "Tanques metálicos de armazenamento",
+      "parametro": "Operação de tanques",
+      "valor": "Dispositivos contra sobrepressão e vácuo e corta-chamas e instrumentação mantidos por plano de manutenção; identificação padronizada",
+      "norma": "NR-13",
+      "item": "13.7.2.1–13.7.2.3",
+      "pagina": 26
+    },
+    {
+      "grupo": "SPIE — certificação do Serviço Próprio de Inspeção (Anexo II)",
+      "parametro": "Quando é exigido",
+      "valor": "Antes de aplicar os períodos especiais entre inspeções (13.4.4.5 caldeiras, 13.5.4.5 b) vasos, 13.6.3.3 tubulações, 13.7.3.3 tanques), o SPIE da empresa deve ser certificado",
+      "norma": "NR-13",
+      "item": "Anexo II, caput",
+      "pagina": 41,
+      "nota": "Também é condição para: caldeira cat. A com SIS — inspeção interna até 48 meses (13.4.4.6.2 a)) e INI em vasos cat. I e II (13.5.4.7)."
+    },
+    {
+      "grupo": "SPIE — certificação do Serviço Próprio de Inspeção (Anexo II)",
+      "parametro": "Organização do SPIE",
+      "valor": "Serviço da própria empresa organizado como setor, seção, departamento, divisão ou equivalente",
+      "norma": "NR-13",
+      "item": "Anexo II, caput",
+      "pagina": 41
+    },
+    {
+      "grupo": "SPIE — certificação do Serviço Próprio de Inspeção (Anexo II)",
+      "parametro": "Quem certifica",
+      "valor": "Organismo de Certificação de Produto (OCP) acreditado pela Cgcre/INMETRO, por meio de auditorias programadas que verificam os requisitos mínimos a) a h)",
+      "norma": "NR-13",
+      "item": "Anexo II, caput",
+      "pagina": 41,
+      "nota": "A certificação de SPIE e sua manutenção seguem Regulamento específico do INMETRO (Anexo II)."
+    },
+    {
+      "grupo": "SPIE — certificação do Serviço Próprio de Inspeção (Anexo II)",
+      "parametro": "a) Pessoal próprio",
+      "valor": "Pessoal próprio da empresa onde estão instalados os equipamentos, com dedicação EXCLUSIVA a inspeção, avaliação de integridade e vida residual, com formação, qualificação e treinamento compatíveis",
+      "norma": "NR-13",
+      "item": "Anexo II a)",
+      "pagina": 41,
+      "nota": "Ver o texto completo da norma (aba Texto completo)."
+    },
+    {
+      "grupo": "SPIE — certificação do Serviço Próprio de Inspeção (Anexo II)",
+      "parametro": "b) Mão de obra contratada",
+      "valor": "Ensaios não destrutivos: pessoal certificado segundo a regulamentação vigente; outros serviços eventuais: selecionado e avaliado por critérios semelhantes aos da mão de obra própria",
+      "norma": "NR-13",
+      "item": "Anexo II b)",
+      "pagina": 42
+    },
+    {
+      "grupo": "SPIE — certificação do Serviço Próprio de Inspeção (Anexo II)",
+      "parametro": "c) Responsável pelo SPIE",
+      "valor": "Responsável pelo gerenciamento do serviço de inspeção formalmente designado para a função",
+      "norma": "NR-13",
+      "item": "Anexo II c)",
+      "pagina": 42
+    },
+    {
+      "grupo": "SPIE — certificação do Serviço Próprio de Inspeção (Anexo II)",
+      "parametro": "d) Profissional Habilitado",
+      "valor": "Pelo menos 1 (um) PH",
+      "norma": "NR-13",
+      "item": "Anexo II d)",
+      "pagina": 42
+    },
+    {
+      "grupo": "SPIE — certificação do Serviço Próprio de Inspeção (Anexo II)",
+      "parametro": "e) Arquivo técnico",
+      "valor": "Condições para manter arquivo técnico atualizado para atender a NR-13 e mecanismos de distribuição de informações quando requeridas",
+      "norma": "NR-13",
+      "item": "Anexo II e)",
+      "pagina": 42
+    },
+    {
+      "grupo": "SPIE — certificação do Serviço Próprio de Inspeção (Anexo II)",
+      "parametro": "f) Procedimentos",
+      "valor": "Procedimentos escritos para as principais atividades executadas",
+      "norma": "NR-13",
+      "item": "Anexo II f)",
+      "pagina": 42
+    },
+    {
+      "grupo": "SPIE — certificação do Serviço Próprio de Inspeção (Anexo II)",
+      "parametro": "g) Aparelhagem",
+      "valor": "Aparelhagem condizente com a execução das atividades propostas",
+      "norma": "NR-13",
+      "item": "Anexo II g)",
+      "pagina": 42
+    },
+    {
+      "grupo": "SPIE — certificação do Serviço Próprio de Inspeção (Anexo II)",
+      "parametro": "h) Programação de inspeção",
+      "valor": "Cumprimento mínimo da programação de inspeção",
+      "norma": "NR-13",
+      "item": "Anexo II h)",
+      "pagina": 42,
+      "nota": "A norma não fixa percentual mínimo; o critério fica no Regulamento do INMETRO."
+    },
+    {
+      "grupo": "Disposições gerais (RGI, reparos, acidentes)",
+      "parametro": "Risco Grave e Iminente (RGI) — situações",
+      "valor": "Operar sem dispositivos de segurança; atraso na inspeção periódica de caldeira; bloquear dispositivo de segurança sem justificativa técnica; caldeira sem controle de nível de água; operar com deterioração e recomendação de retirada; caldeira operada por trabalhador sem Anexo I",
+      "norma": "NR-13",
+      "item": "13.3.1",
+      "pagina": 3
+    },
+    {
+      "grupo": "Disposições gerais (RGI, reparos, acidentes)",
+      "parametro": "Reparos e alterações",
+      "valor": "Respeitar código de projeto e pós-construção (materiais, procedimentos, controle de qualidade, qualificação de pessoal); sem código conhecido, respeitar a concepção original; projeto prévio de PH quando mudar condições de projeto ou comprometer a segurança",
+      "norma": "NR-13",
+      "item": "13.3.3–13.3.3.4",
+      "pagina": 4
+    },
+    {
+      "grupo": "Disposições gerais (RGI, reparos, acidentes)",
+      "parametro": "Soldagem ou mandrilamento em partes pressurizadas",
+      "valor": "Exames ou testes de controle de qualidade com parâmetros definidos pelo PH, por normas/códigos aplicáveis",
+      "norma": "NR-13",
+      "item": "13.3.3.5",
+      "pagina": 4
+    },
+    {
+      "grupo": "Disposições gerais (RGI, reparos, acidentes)",
+      "parametro": "Comunicação de acidente",
+      "valor": "Vazamento, incêndio ou explosão com morte, internação ou grande proporção: comunicar MTE e sindicato até o 2º dia útil",
+      "norma": "NR-13",
+      "item": "13.3.6; 13.3.6.1",
+      "pagina": 4
+    },
+    {
+      "grupo": "Disposições gerais (RGI, reparos, acidentes)",
+      "parametro": "Inspeção extraordinária especial (vaso sem código)",
+      "valor": "Levantamento dimensional de partes sem equação de código; caracterização de materiais (ou menores limites dos códigos); avaliação de integridade (FFS etc.); sobre-espessura de corrosão; reforços por projeto de alteração",
+      "norma": "NR-13",
+      "item": "13.8 Glossário",
+      "pagina": 30
+    },
+    {
+      "grupo": "Disposições gerais (RGI, reparos, acidentes)",
+      "parametro": "Adequação ao uso (FFS)",
+      "valor": "Estudo de engenharia por código, ex. API 579-1/ASME FFS-1, para operar equipamento com desgaste conhecido por tempo determinado",
+      "norma": "NR-13",
+      "item": "13.8 Glossário",
+      "pagina": 28
+    }
+  ],
+  "tabelas": [
+    {
+      "id": "nr13-categorias-vasos",
+      "titulo": "Categorias de vasos de pressão",
+      "norma": "NR-13",
+      "item": "13.5.1.2 d)",
+      "pagina": 16,
+      "unidade": "",
+      "chave": {},
+      "consulta": false,
+      "colunas": [
+        "Classe de fluido",
+        "G1: P·V ≥ 100",
+        "G2: 30 ≤ P·V < 100",
+        "G3: 2,5 ≤ P·V < 30",
+        "G4: 1 ≤ P·V < 2,5",
+        "G5: P·V < 1"
+      ],
+      "linhas": [
+        [
+          "A — inflamáveis; combustíveis ≥ 200 °C; tóxicos ≤ 20 ppm; H₂; acetileno",
+          "I",
+          "I",
+          "II",
+          "III",
+          "III"
+        ],
+        [
+          "B — combustíveis < 200 °C; tóxicos > 20 ppm",
+          "I",
+          "II",
+          "III",
+          "IV",
+          "IV"
+        ],
+        [
+          "C — vapor de água; asfixiantes simples; ar comprimido",
+          "I",
+          "II",
+          "III",
+          "IV",
+          "V"
+        ],
+        [
+          "D — outro fluido",
+          "II",
+          "III",
+          "IV",
+          "V",
+          "V"
+        ]
+      ],
+      "nota": "P = pressão máxima de operação em MPa (em módulo); V = volume em m³; 1 MPa = 10,197 kgf/cm².",
+      "figuras": [
+        "esquemas/nr-13-caldeiras-vasos-categorias-vasos.svg"
+      ]
+    },
+    {
+      "id": "nr13-prazos-vasos",
+      "titulo": "Prazos máximos de inspeção periódica de vasos",
+      "norma": "NR-13",
+      "item": "13.5.4.5",
+      "pagina": 20,
+      "unidade": "anos",
+      "chave": {},
+      "consulta": false,
+      "colunas": [
+        "Categoria",
+        "Externo — sem SPIE",
+        "Interno — sem SPIE",
+        "Externo — com SPIE",
+        "Interno — com SPIE"
+      ],
+      "linhas": [
+        [
+          "I",
+          1,
+          3,
+          3,
+          6
+        ],
+        [
+          "II",
+          2,
+          4,
+          4,
+          8
+        ],
+        [
+          "III",
+          3,
+          6,
+          5,
+          10
+        ],
+        [
+          "IV",
+          4,
+          8,
+          6,
+          12
+        ],
+        [
+          "V",
+          5,
+          10,
+          7,
+          "a critério"
+        ]
+      ],
+      "nota": "SPIE certificado conforme Anexo II. Tubulações: prazo interno do vaso/caldeira mais crítico interligado, ampliável até +100 % (máx. 10 anos) — 13.6.3.3.",
+      "figuras": [
+        "esquemas/nr-13-caldeiras-vasos-prazos-inspecao.svg"
+      ]
+    },
+    {
+      "id": "nr13-prazos-caldeiras",
+      "titulo": "Prazos máximos de inspeção periódica de caldeiras",
+      "norma": "NR-13",
+      "item": "13.4.4.4 a 13.4.4.7",
+      "pagina": 10,
+      "unidade": "meses",
+      "chave": {},
+      "consulta": false,
+      "colunas": [
+        "Caldeira",
+        "Sem SPIE",
+        "Com SPIE",
+        "Com SPIE + SIS (interna)",
+        "Com SGC (interna)"
+      ],
+      "linhas": [
+        [
+          "Categoria A",
+          "12 (24 se testar as PSV aos 12)",
+          30,
+          48,
+          "—"
+        ],
+        [
+          "Categoria B",
+          12,
+          24,
+          "—",
+          30
+        ],
+        [
+          "Recuperação de álcalis",
+          15,
+          24,
+          "—",
+          "—"
+        ]
+      ],
+      "nota": "SIS: 13.4.4.6; SGC: 13.4.4.7, operação contínua, em automático."
+    },
+    {
+      "id": "nr13-sil",
+      "titulo": "Nível de Integridade de Segurança (SIL)",
+      "norma": "NR-13",
+      "item": "13.8 Glossário",
+      "pagina": 31,
+      "unidade": "",
+      "chave": {},
+      "consulta": false,
+      "colunas": [
+        "SIL",
+        "Probabilidade de falha na demanda",
+        "Fator de redução de risco"
+      ],
+      "linhas": [
+        [
+          "4",
+          "< 10⁻⁴",
+          "> 10 000"
+        ],
+        [
+          "3",
+          "≥ 10⁻⁴ a < 10⁻³",
+          "> 1 000 a ≤ 10 000"
+        ],
+        [
+          "2",
+          "≥ 10⁻³ a < 10⁻²",
+          "> 100 a ≤ 1 000"
+        ],
+        [
+          "1",
+          "≥ 10⁻² a < 10⁻¹",
+          "> 10 a ≤ 100"
+        ]
+      ]
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "atencao",
+      "texto": "Duas unidades diferentes de P·V na mesma norma: no ENQUADRAMENTO (13.2.1 b, 13.2.2 i/o) P em kPa (vaso entra se P·V > 8); na CATEGORIA (13.5.1.2 c) P em MPa. Ex.: 1 MPa × 0,01 m³ → 10 kPa·m³ (enquadrado), mas P·V = 0,01 → grupo 5."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Redação usada: NR-13 com alterações até a Portaria SEPRT 915/2019 (texto do acervo). Conferir no site do MTE se há revisão posterior antes de usar em documento oficial."
+    },
+    {
+      "tipo": "info",
+      "texto": "Perguntas e Respostas sobre a NR-13 (MTE, rev. 15/02/2019) usadas como interpretação oficial — marcadas com a norma NR-13-PR."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Projeto mecânico do vaso (espessuras, TH pelo código, PMTA): ver a ficha ASME VIII. A NR-13 só exige que o TH de fabricação conste da placa e do prontuário."
+    }
+  ]
+}

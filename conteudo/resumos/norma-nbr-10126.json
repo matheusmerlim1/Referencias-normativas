@@ -1,0 +1,36 @@
+{
+ "id": "NBR-10126",
+ "titulo": "ABNT NBR 10126:1987 — Cotagem em desenho técnico",
+ "secoes": [
+  {
+   "titulo": "Princípios",
+   "item": "1–3",
+   "texto": "Regras gerais de cotagem para todo desenho técnico. Cota = representação de uma característica do elemento por linhas, símbolos, notas e valor numérico. Toda dimensão necessária vai direto no desenho, na vista que mostra o elemento com mais clareza. Mesma unidade (mm) sem símbolo em todo o desenho. Cada elemento definido por uma só cota (exceto estágios intermediários de fabricação ou cotas auxiliares). Não especificar processos de fabricação ou inspeção, salvo quando indispensáveis. Cotas funcionais escritas diretamente; as não funcionais onde for mais prático para produção e inspeção.",
+   "valores": []
+  },
+  {
+   "titulo": "Execução",
+   "item": "4",
+   "texto": "Linhas auxiliares e de cota em contínua estreita, com pequeno afastamento do contorno e ultrapassando a linha de cota; evitar cruzamentos (se ocorrerem, não interromper). Limites da linha de cota por setas ou traços oblíquos, do mesmo tamanho em todo o desenho. Algarismos legíveis também em microfilme. Dois métodos de leitura, um só por desenho: cotas acima e paralelas à linha de cota, legíveis da base ou da direita; ou todas lidas da base da folha. Símbolos antes do valor.",
+   "valores": [
+    {
+     "parametro": "Símbolos",
+     "valor": "Ø diâmetro; Ø ESF diâmetro esférico; R raio; R ESF raio esférico; □ quadrado (Ø e □ podem ser omitidos quando a forma estiver evidente)",
+     "item": "4.4.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Disposição",
+   "item": "5",
+   "texto": "Cotagem em cadeia (cotas em série — acumula tolerâncias), por elemento de referência (em paralelo ou aditiva, a partir de uma origem; a aditiva economiza espaço), combinada e por coordenadas (tabela de X/Y para muitos furos).",
+   "valores": []
+  },
+  {
+   "titulo": "Indicações especiais",
+   "item": "6",
+   "texto": "Cordas, arcos, ângulos e raios; elementos equidistantes simplificados (n × passo = total); elementos repetidos; chanfros e escareados; cotagem em vista de meia-peça simétrica com a linha de cota passando um pouco além do eixo; área ou trecho limitado de superfície indicado por linha traço e ponto larga paralela à face.",
+   "valores": []
+  }
+ ]
+}

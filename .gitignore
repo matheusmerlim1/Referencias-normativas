@@ -1,0 +1,34 @@
+# Projeto Uva — CAMADA LOCAL (conteúdo das normas, protegido por direito autoral): NÃO versionar.
+# O site usa estes arquivos se existirem (dados/dados_local.js); sem eles abre a camada pública (dados/dados.js).
+# Ver "REPOSITÓRIO PÚBLICO NO GITHUB" no CLAUDE.md. Conferir antes de cada commit:
+#   python -P ferramentas/verificar_autossuficiente.py --publico
+
+# PDFs originais e cópias OCR
+referencias/
+
+# texto completo das normas e índice de busca no texto
+dados/textos/
+dados/busca/
+# build completo (fichas de norma, recortes)
+dados/dados_local.js
+# títulos de seções/tabelas/figuras extraídos dos PDFs (indexar_referencias.py)
+dados/indice.js
+
+# fichas por documento (recortes e itens transcritos)
+conteudo/docs/
+conteudo/fichas/norma-*.json
+# escopo/definições/referências copiados do texto das normas (info_normas.py)
+conteudo/normas_info.json
+# escopos transcritos (em inglês) do texto das normas — só o separar_normas.py lê
+conteudo/escopo_manual_agente.json
+
+# imagens tiradas das normas (recortes, páginas inteiras, tabelas ASME II)
+assets/figuras/docs/
+assets/figuras/tem/
+assets/figuras/asme-ii/
+/assets/figuras/*.png
+/assets/figuras/*.jpg
+
+# Python
+__pycache__/
+*.pyc

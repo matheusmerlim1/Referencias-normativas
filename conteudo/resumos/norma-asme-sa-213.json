@@ -1,0 +1,124 @@
+{
+ "id": "ASME-SA-213",
+ "titulo": "SA-213 — Tubos sem costura de aço ferrítico e austenítico para caldeiras, superaquecedores e trocadores de calor",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura de espessura mínima, de aços liga ferríticos (T2, T5, T9, T11, T12, T22, T23, T91, T92, T122…) e inoxidáveis austeníticos (TP304, TP316, TP321, TP347…), para caldeiras, superaquecedores e trocadores de calor. Os graus 'H' são versões para alta temperatura. Requisitos gerais pela SA-450.",
+   "valores": [
+    {
+     "parametro": "Faixa usual",
+     "valor": "1/8 in [3,2 mm] DI a 5 in [127 mm] DE; parede mín. 0,015 a 0,500 in [0,4 a 12,7 mm]",
+     "item": "1.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "5, 6",
+   "texto": "Sem costura, acabado a quente ou a frio (TP347HFG só a frio). Ferríticos (exceto T5c, T23, T91, T92, T122, com regras próprias) fornecidos recozidos, recozidos isotermicamente ou normalizados e revenidos; austeníticos sempre tratados termicamente.",
+   "valores": [
+    {
+     "parametro": "Revenimento mín. — T5, T5b, T9, T21, T22",
+     "valor": "1250 °F [675 °C]",
+     "item": "6.1"
+    },
+    {
+     "parametro": "Revenimento mín. — T11, T17",
+     "valor": "1200 °F [650 °C]",
+     "item": "6.1"
+    },
+    {
+     "parametro": "Tamanho de grão — 304H, 316H, 321, 347H, 348H, 310HCbN",
+     "valor": "ASTM nº 7 ou mais grosso",
+     "item": "5.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química (graus usuais)",
+   "item": "Tabela 1",
+   "texto": "Ordem dos valores: C; Mn; P máx.; S máx.; Si; Cr; Mo.",
+   "valores": [
+    {
+     "parametro": "T11",
+     "valor": "C 0,05–0,15; Mn 0,30–0,60; P 0,025; S 0,025; Si 0,50–1,00; Cr 1,00–1,50; Mo 0,44–0,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "T22",
+     "valor": "C 0,05–0,15; Mn 0,30–0,60; P 0,025; S 0,025; Si 0,50 máx.; Cr 1,90–2,60; Mo 0,87–1,13 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "T91",
+     "valor": "C 0,08–0,12; Mn 0,30–0,60; P 0,020; S 0,010; Si 0,20–0,50; Cr 8,00–9,50; Mo 0,85–1,05; V 0,18–0,25; N 0,030–0,070; Ni 0,40 máx. %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 5, 10",
+   "texto": "Su mín. / Sy mín. / alongamento mín. em 50 mm.",
+   "valores": [
+    {
+     "parametro": "T91",
+     "valor": "85 ksi [585] / 60 ksi [415] / 20 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "T92",
+     "valor": "90 ksi [620] / 64 ksi [440] / 20 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "T23",
+     "valor": "74 ksi [510] / 58 ksi [400] / 20 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Demais ferríticos (T11, T22…)",
+     "valor": "60 ksi [415] / 30 ksi [205] / 30 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "TP304, TP304H, TP316, TP321",
+     "valor": "75 ksi [515] / 30 ksi [205] / 35 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "TP304L, TP316L",
+     "valor": "70 ksi [485] / 25 ksi [170] / 35 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Dureza máx. — T91, T92, T122",
+     "valor": "250 HB / 265 HV (25 HRC)",
+     "item": "10.1.1"
+    },
+    {
+     "parametro": "Dureza máx. — demais ferríticos",
+     "valor": "163 HB / 170 HV (85 HRB)",
+     "item": "10.1.3"
+    },
+    {
+     "parametro": "Dureza máx. — austeníticos em geral",
+     "valor": "192 HB / 200 HV (90 HRB)",
+     "item": "10.2.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "11, 12",
+   "texto": "Tração: 1 por lote de até 50 tubos (2 acima); achatamento e alargamento nas pontas de um tubo por lote; cada tubo passa por teste hidrostático ou ensaio elétrico não destrutivo, à escolha do fabricante salvo pedido."
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "S1–S4",
+   "texto": "Tubos com alívio de tensões para serviço corrosivo, tratamento de estabilização, tubos não desempenados e ensaio de corrosão intergranular."
+  }
+ ]
+}

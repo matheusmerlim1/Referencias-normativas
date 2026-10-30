@@ -1,0 +1,90 @@
+{
+ "id": "ASME-SA-557",
+ "titulo": "SA-557 — Tubos de aço carbono soldados por resistência elétrica para aquecedores de água de alimentação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos ERW de aço carbono, espessura mínima, inclusive curvados em U quando pedido, para aquecedores tubulares de água de alimentação. Graus A2, B2 e C2. Requisitos gerais pela SA-450.",
+   "valores": [
+    {
+     "parametro": "Espessura mínima",
+     "valor": "≥ 0,045 in [1,1 mm]",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Diâmetro externo (mm)",
+     "valor": "15,9 a 31,8 mm",
+     "item": "1.2",
+     "nota": "o texto extraído traz '1/8 to 1 1/4 in' com [15,9 a 31,8 mm]; em polegadas, 15,9 mm = 5/8 in — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "5, 6, 7",
+   "texto": "Aço totalmente acalmado; após a solda, normalização e resfriamento ao ar ou em zona de resfriamento de forno contínuo; trefilados recebem novo tratamento. Tubo sem carepa (filme fino de óxido aceito).",
+   "valores": [
+    {
+     "parametro": "Normalização mín.",
+     "valor": "1600 °F [860 °C]",
+     "item": "5.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "A2 — C máx. / Mn",
+     "valor": "0,18 % / 0,27–0,63 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "B2 — C máx. / Mn",
+     "valor": "0,30 % / 0,27–0,93 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C2 — C máx. / Mn",
+     "valor": "0,35 % / 0,27–1,06 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín. / dureza máx.",
+   "valores": [
+    {
+     "parametro": "A2",
+     "valor": "47 ksi [325] / 26 ksi [180] / 35 % / 72 HRB",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "B2",
+     "valor": "60 ksi [415] / 37 ksi [255] / 30 % / 79 HRB",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "C2",
+     "valor": "70 ksi [485] / 40 ksi [275] / 30 % / 89 HRB",
+     "item": "Tabelas 2 e 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "11, 13",
+   "texto": "Tração (1 por lote até 50 tubos; 2 acima); achatamento e flangeamento por lote de 125 tubos. Marcação da SA-450 sem símbolos estampados ou laminados na superfície do tubo."
+  }
+ ]
+}

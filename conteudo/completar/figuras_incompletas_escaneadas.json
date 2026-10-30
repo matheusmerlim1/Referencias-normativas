@@ -1,0 +1,260 @@
+{
+ "faltando": [
+  {
+   "norma": "ISO-286-1",
+   "pagina": 33,
+   "legenda": "Tabela 5 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ISO-286-1-2010.pdf",
+   "forcar": true,
+   "motivo": "tabela continua abaixo do recorte"
+  },
+  {
+   "norma": "ISO-286-1",
+   "pagina": 29,
+   "legenda": "Tabela 2 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ISO-286-1-2010.pdf",
+   "forcar": true,
+   "motivo": "colunas à direita fora do recorte"
+  },
+  {
+   "norma": "ISO-9085",
+   "pagina": 36,
+   "legenda": "Tabela 5 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ISO-9085-2002.pdf",
+   "forcar": true,
+   "motivo": "tabela continua abaixo"
+  },
+  {
+   "norma": "ISO-9085",
+   "pagina": 50,
+   "legenda": "Tabela 9 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ISO-9085-2002.pdf",
+   "forcar": true,
+   "motivo": "tabela continua abaixo"
+  },
+  {
+   "norma": "ISO-9085",
+   "pagina": 58,
+   "legenda": "Tabela C.2 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ISO-9085-2002.pdf",
+   "forcar": true,
+   "motivo": "tabela continua abaixo"
+  },
+  {
+   "norma": "API-5CT",
+   "pagina": 261,
+   "legenda": "Tabela E.80 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/API-5CT-2005.pdf",
+   "forcar": true,
+   "motivo": "linhas finais fora"
+  },
+  {
+   "norma": "API-5CT",
+   "pagina": 264,
+   "legenda": "Tabela E.81 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/API-5CT-2005.pdf",
+   "forcar": true,
+   "motivo": "linhas finais fora"
+  },
+  {
+   "norma": "API-5CT",
+   "pagina": 290,
+   "legenda": "Tabela H.1 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/API-5CT-2005.pdf",
+   "forcar": true,
+   "motivo": "linhas finais fora"
+  },
+  {
+   "norma": "ISO-724",
+   "pagina": 4,
+   "legenda": "Tabela 1 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ISO-724-1993.pdf",
+   "forcar": true,
+   "motivo": "coluna direita da tabela fora"
+  },
+  {
+   "norma": "API-610",
+   "pagina": 19,
+   "legenda": "Tabela 1 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/API-610-2010.pdf",
+   "forcar": true,
+   "motivo": "colunas à esquerda (tipo de bomba) fora"
+  },
+  {
+   "norma": "ISO-4042",
+   "pagina": 61,
+   "legenda": "Tabela F.4 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ISO-4042-2018.pdf",
+   "forcar": true,
+   "motivo": "tabela continua abaixo"
+  },
+  {
+   "norma": "ISO-4042",
+   "pagina": 59,
+   "legenda": "Tabela F.1 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ISO-4042-2018.pdf",
+   "forcar": true,
+   "motivo": "diagrama da tabela cortado à direita"
+  },
+  {
+   "norma": "NBR-15526",
+   "pagina": 22,
+   "legenda": "Tabela 2, Tabela 3 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/NBR-15526-2007.pdf",
+   "forcar": true,
+   "motivo": "última linha fora"
+  },
+  {
+   "norma": "API-16C",
+   "pagina": 47,
+   "legenda": "Tabela 9.14.3 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/API-16C.pdf",
+   "forcar": true,
+   "motivo": "desenho 9.14.5 abaixo fora do recorte"
+  },
+  {
+   "norma": "API-16C",
+   "pagina": 45,
+   "legenda": "Tabela 9.11.2 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/API-16C.pdf",
+   "forcar": true,
+   "motivo": "recorte só com título/cabeçalho"
+  },
+  {
+   "norma": "ASME-B16.11",
+   "pagina": 20,
+   "legenda": "Tabela I2 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ASME-B16.11-2001.pdf",
+   "forcar": true,
+   "motivo": "desenhos das conexões acima da tabela fora"
+  },
+  {
+   "norma": "ASME-B16.11",
+   "pagina": 21,
+   "legenda": "Tabela 13 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ASME-B16.11-2001.pdf",
+   "forcar": true,
+   "motivo": "desenhos acima da tabela fora"
+  },
+  {
+   "norma": "ASME-B16.11",
+   "pagina": 22,
+   "legenda": "Tabela 14 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ASME-B16.11-2001.pdf",
+   "forcar": true,
+   "motivo": "desenhos acima da tabela fora"
+  },
+  {
+   "norma": "ASME-B18.3.1M",
+   "pagina": 14,
+   "legenda": "Tabela 4 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ASME-B18.3.1M-1986.pdf",
+   "forcar": true,
+   "motivo": "desenhos dos calibres acima da tabela fora"
+  },
+  {
+   "norma": "ASME-B18.3.1M",
+   "pagina": 15,
+   "legenda": "Tabela 5 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ASME-B18.3.1M-1986.pdf",
+   "forcar": true,
+   "motivo": "desenhos acima da tabela fora"
+  },
+  {
+   "norma": "DIN-3964",
+   "pagina": 2,
+   "legenda": "Tabela 2. — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/DIN-3964-1980.pdf",
+   "forcar": true,
+   "motivo": "última linha fora"
+  },
+  {
+   "norma": "ISO-4014",
+   "pagina": 14,
+   "legenda": "Tabela 3 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ISO-4014-2001.pdf",
+   "forcar": true,
+   "motivo": "linhas finais (acabamento/aceitação) fora"
+  },
+  {
+   "norma": "ASTM-E8M",
+   "pagina": 20,
+   "legenda": "Tabela X1.1 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ASTM-E8M.pdf",
+   "forcar": true,
+   "motivo": "corpo da tabela fora (só notas recortadas)"
+  },
+  {
+   "norma": "ASME-B18.3",
+   "pagina": 3,
+   "legenda": "Tabela 14 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ASME-B18.3-2012.pdf",
+   "forcar": true,
+   "motivo": "desenhos de pontas (flat/oval/cup/cone/half dog) fora"
+  },
+  {
+   "norma": "ASME-B18.3",
+   "pagina": 5,
+   "legenda": "Tabela 14 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/ASME-B18.3-2012.pdf",
+   "forcar": true,
+   "motivo": "recorte só com título; notas e tabela de incrementos fora"
+  },
+  {
+   "norma": "NBR-13541-2",
+   "pagina": 28,
+   "legenda": "Tabela A.1 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/NBR-13541-2-2012.pdf",
+   "forcar": true,
+   "motivo": "linhas finais fora"
+  },
+  {
+   "norma": "NBR-13541-2",
+   "pagina": 29,
+   "legenda": "Tabela B.1 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/NBR-13541-2-2012.pdf",
+   "forcar": true,
+   "motivo": "recorte só com cabeçalho; desenhos e fórmulas fora"
+  },
+  {
+   "norma": "NBR-13541-2",
+   "pagina": 32,
+   "legenda": "Tabela B.2 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/NBR-13541-2-2012.pdf",
+   "forcar": true,
+   "motivo": "última linha fora"
+  },
+  {
+   "norma": "API-RP-520-I",
+   "pagina": 79,
+   "legenda": "Tabela D-1 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/API-RP-520-2002.pdf",
+   "forcar": true,
+   "motivo": "linhas da tabela abaixo fora"
+  },
+  {
+   "norma": "NBR-IEC-60079-10",
+   "pagina": 32,
+   "legenda": "Tabela B.3 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/NBR-IEC-60079-10-2006.pdf",
+   "forcar": true,
+   "motivo": "corpo da tabela fora (só cabeçalho)"
+  },
+  {
+   "norma": "NBR-12274",
+   "pagina": 13,
+   "legenda": "Tabela C.1 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/NBR-12274.pdf",
+   "forcar": true,
+   "motivo": "corpo da tabela fora"
+  },
+  {
+   "norma": "API-10D",
+   "pagina": 21,
+   "legenda": "Tabela C-1 — página completa (o recorte pegou só parte)",
+   "arquivo_ocr": "referencias/ocr/API-10D-1995.pdf",
+   "forcar": true,
+   "motivo": "tabela continua abaixo"
+  }
+ ]
+}

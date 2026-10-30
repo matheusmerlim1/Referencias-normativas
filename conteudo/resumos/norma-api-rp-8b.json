@@ -1,0 +1,53 @@
+{
+ "id": "API-RP-8B",
+ "titulo": "API RP 8B — Inspeção, manutenção, reparo e remanufatura de equipamento de içamento de sonda",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Orienta a inspeção, manutenção, reparo e remanufatura de equipamentos de içamento de perfuração e produção feitos pela API 8A, API 8C ou ISO 13535: polias do bloco de coroamento, catarinas e blocos de gancho, ganchos, elos e elevadores, swivels, top drives, power subs, spiders usados como elevador, âncoras de linha morta, compensadores e ferramentas de descida quando usadas para içar.",
+   "valores": []
+  },
+  {
+   "titulo": "Categorias de inspeção",
+   "item": "5.3.2",
+   "texto": "Quatro níveis cumulativos. I: observar em operação e olhar diariamente trincas, folgas, alongamento, desgaste e objetos que possam cair. II: soma corrosão, deformação, peças soltas, lubrificação e trincas externas. III: soma END das áreas críticas, podendo desmontar. IV: desmontagem completa e END de todos os componentes principais de carga, em oficina. Antes de III e IV, limpar tinta, graxa e carepa.",
+   "valores": []
+  },
+  {
+   "titulo": "Frequência de inspeção",
+   "item": "5.3.3; Tabela 1",
+   "texto": "O dono monta o plano pela experiência, recomendação do fabricante e fatores como ambiente, ciclos de carga e tempo de operação, ou adota a Tabela 1, que associa cada equipamento à categoria por intervalo (diário até plurianual). Antes e depois de operações críticas (revestimento pesado, jarring, tubo preso, frio extremo) faz-se inspeção equivalente à III ou IV.",
+   "valores": [
+    {"parametro": "Intervalos da Tabela 1", "valor": "diário, semanal, mensal, trimestral, semestral, anual, bienal, 5 anos", "item": "Tabela 1"},
+    {"parametro": "Inspeção extraordinária", "valor": "nível III ou IV antes e depois de operação crítica", "item": "5.3.3.2"}
+   ]
+  },
+  {
+   "titulo": "Remanufatura e inspeção de soldas",
+   "item": "5.3.4; 6; 7",
+   "texto": "Solda em componente principal de carga é examinada após esmerilhar, depois de esfriar com espera mínima e em serviço. Usa-se pelo menos dois métodos entre PM/LP, UT (ou RT equivalente) e prova de carga seguida de END superficial.",
+   "valores": [
+    {"parametro": "Espera para END após soldar", "valor": "≥ 24 h após atingir a temperatura ambiente", "item": "5.3.4.1 (b)"},
+    {"parametro": "Métodos mínimos após remanufatura por solda", "valor": "2 entre PM/LP, UT/RT e prova de carga", "item": "5.3.4.2"}
+   ]
+  },
+  {
+   "titulo": "Ensaios de carga",
+   "item": "8",
+   "texto": "Ensaio de desempenho verifica função com cargas até a nominal, em quantos ciclos forem necessários. Prova de carga é feita uma vez só, após fabricar ou remanufaturar, porque sobrecarga acumula dano de fadiga, e é seguida de END superficial.",
+   "valores": [
+    {"parametro": "Carga de prova", "valor": "1,5 × a carga nominal", "item": "8.3"},
+    {"parametro": "Duração da prova", "valor": "≥ 5 min, um único ciclo", "item": "8.3"},
+    {"parametro": "END após prova (material sujeito a trinca retardada)", "valor": "não antes de 24 h", "item": "8.3"},
+    {"parametro": "Ensaio de desempenho", "valor": "até a carga nominal, sem exceder", "item": "8.2"}
+   ]
+  },
+  {
+   "titulo": "Registros",
+   "item": "9",
+   "texto": "Cada equipamento tem um dossiê com descrição, número de série, capacidade, desenhos com materiais e temperatura mínima dos componentes críticos, plano de inspeção, defeitos reparáveis e histórico de atividades.",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SA-1011",
+ "titulo": "SA-1011 — Chapas finas e tiras de aço carbono, estrutural e ARBL laminadas a quente",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 4",
+   "texto": "Chapas finas e tiras laminadas a quente, em bobinas e cortadas: aço comercial (CS), de estampagem (DS), estrutural (SS), alta resistência e baixa liga (HSLAS) e HSLAS-F. Requisitos gerais pela SA-568 (chapa) e SA-749 (tira)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabelas 1 e 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "CS Tipo A — C / Mn / P / S máx.",
+     "valor": "0,10 % / 0,60 % / 0,030 % / 0,035 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "SS Grau 30 — C / Mn / P / S máx.",
+     "valor": "0,25 % / 0,90 % / 0,035 % / 0,04 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "8, Tabelas 3 e 4",
+   "texto": "CS/DS: propriedades típicas não obrigatórias e dobramento de 180° sobre si mesmo sem trincas. SS e HSLAS: mínimos obrigatórios (alongamento cai com a espessura).",
+   "valores": [
+    {
+     "parametro": "CS — Sy típico / alongamento",
+     "valor": "30 a 50 ksi [205 a 340] / ≥ 25 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "SS Grau 30 — Sy / Su mín.",
+     "valor": "30 ksi [205] / 49 ksi [340]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "SS Grau 36 Tipo 1 — Sy / Su mín.",
+     "valor": "36 ksi [250] / 53 ksi [365]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "SS Grau 50 — Sy / Su mín.",
+     "valor": "50 ksi [340] / 65 ksi [450]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "HSLAS Grau 45 Classe 1 — Sy / Su mín.",
+     "valor": "45 ksi [310] / 60 ksi [410]",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "12",
+   "texto": "Conforme SA-568 (chapa) ou SA-749 (tira), com a designação pedida."
+  }
+ ]
+}

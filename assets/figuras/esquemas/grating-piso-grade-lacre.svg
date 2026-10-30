@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440" width="700" height="440" role="img" aria-label="Grade de piso — posição dos lacres no corpo de prova (planta)">
+<title>Grade de piso — posição dos lacres no corpo de prova (planta)</title>
+<text x="12" y="22" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Grade de piso — posição dos lacres no corpo de prova (planta)</text>
+<rect x="120" y="80" width="360" height="300" rx="0" fill="none" stroke="#666" stroke-width="2"/>
+<line x1="120" y1="90" x2="480" y2="90" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="110" x2="480" y2="110" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="130" x2="480" y2="130" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="150" x2="480" y2="150" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="170" x2="480" y2="170" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="190" x2="480" y2="190" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="210" x2="480" y2="210" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="230" x2="480" y2="230" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="250" x2="480" y2="250" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="270" x2="480" y2="270" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="290" x2="480" y2="290" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="310" x2="480" y2="310" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="330" x2="480" y2="330" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="350" x2="480" y2="350" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="120" y1="370" x2="480" y2="370" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<rect x="190" y="130" width="220" height="200" rx="0" fill="none" stroke="#666" stroke-width="1.5" stroke-dasharray="6 4"/>
+<circle cx="190" cy="130" r="7" stroke="#666" stroke-width="2" fill="#666" fill-opacity="0.25"/>
+<circle cx="410" cy="130" r="7" stroke="#666" stroke-width="2" fill="#666" fill-opacity="0.25"/>
+<circle cx="190" cy="330" r="7" stroke="#666" stroke-width="2" fill="#666" fill-opacity="0.25"/>
+<circle cx="410" cy="330" r="7" stroke="#666" stroke-width="2" fill="#666" fill-opacity="0.25"/>
+<g id="cota-lacre-a" class="cota"><line x1="190" y1="127" x2="190" y2="105" stroke="#666" stroke-width="1"/><line x1="410" y1="127" x2="410" y2="105" stroke="#666" stroke-width="1"/><line x1="190" y1="110" x2="410" y2="110" stroke="#666" stroke-width="1.2"/><polygon points="190,110 199,106.5 199,113.5" fill="#666"/><polygon points="410,110 401,113.5 401,106.5" fill="#666"/><text x="300" y="104" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">lacres (lado maior)</text></g>
+<g id="cota-lacre-b" class="cota"><line x1="413" y1="330" x2="525" y2="330" stroke="#666" stroke-width="1"/><line x1="413" y1="130" x2="525" y2="130" stroke="#666" stroke-width="1"/><line x1="520" y1="330" x2="520" y2="130" stroke="#666" stroke-width="1.2"/><polygon points="520,330 516.5,321 523.5,321" fill="#666"/><polygon points="520,130 523.5,139 516.5,139" fill="#666"/><text x="526" y="234" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">lacres (lado menor)</text></g>
+<text x="12" y="432" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo, sem escala — não é desenho da norma.</text>
+</svg>

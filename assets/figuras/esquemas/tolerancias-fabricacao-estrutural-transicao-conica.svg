@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="Transição cônica entre tubos — semiângulo α do cone, D e t">
+<title>Transição cônica entre tubos — semiângulo α do cone, D e t (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Transição cônica entre tubos — semiângulo α do cone, D e t</text>
+<path class="s" d="M60,140 L380,140 L540,190 L840,190 L840,280 L540,280 L380,330 L60,330 z"/>
+<line class="c" x1="40" y1="235" x2="860" y2="235"/>
+<line class="e" x1="380" y1="140" x2="540" y2="140"/>
+<g id="cota-alfa" class="cota"><path class="d" d="M490,140 A110,110 0 0,1 485,172.8" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="506.5" y="164.3">α</text></g>
+<g id="cota-D" class="cota"><line class="e" x1="117" y1="140" x2="74" y2="140"/><line class="e" x1="117" y1="330" x2="74" y2="330"/><line class="d" x1="80" y1="140" x2="80" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text x="87" y="240">D</text></g>
+<g id="cota-t" class="cota"><line class="d" x1="200" y1="114" x2="200" y2="140" marker-end="url(#a)"/><line class="d" x1="200" y1="180" x2="200" y2="154" marker-end="url(#a)"/><line class="d" x1="200" y1="140" x2="200" y2="154"/><text x="220" y="125">t</text></g>
+<line class="e" x1="60" y1="154" x2="380" y2="154"/>
+<text class="n" x="20" y="408">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

@@ -1,0 +1,70 @@
+{
+ "id": "ASME-SB-575",
+ "titulo": "SB-575 — Chapas, folhas e tiras de ligas Ni-Cr-Mo baixo carbono (C-276, C-22, 59, 686…)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras das ligas N10276, N06022, N06455, N06035, N06058, N06059, N06200, N06210 e N06686 para serviço corrosivo geral."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Ligas Ni-Cr-Mo baixo carbono (família 'Hastelloy C').",
+   "valores": [
+    {
+     "parametro": "N10276 (C-276) — Mo / Cr",
+     "valor": "15,0–17,0 % / 14,5–16,5 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06022 (C-22) — Mo / Cr",
+     "valor": "12,5–14,5 % / 20,0–22,5 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06035 — Mo / Cr",
+     "valor": "7,60–9,00 % / 32,25–34,25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06059 — Mo",
+     "valor": "15,0–16,5 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06686 — Mo",
+     "valor": "15,0–17,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.; dureza máx. 100 HRB nas ligas indicadas.",
+   "valores": [
+    {
+     "parametro": "N10276",
+     "valor": "100 000 psi (690) / 41 000 psi (283) / 40 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N06022",
+     "valor": "100 000 psi (690) / 45 000 psi (310) / 45 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N06035",
+     "valor": "85 000 psi (586) / 35 000 psi (241) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N06455",
+     "valor": "100 000 psi (690) / 40 000 psi (276) / 40 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "id": "NBR-14039",
+ "titulo": "ABNT NBR 14039:2005 — Instalações elétricas de média tensão de 1,0 kV a 36,2 kV",
+ "secoes": [
+  {"titulo": "Objetivo e campo", "item": "1, 3",
+   "texto": "Sistema de projeto e execução de instalações de média tensão, em frequência industrial, para segurança e continuidade: geração, distribuição e utilização a partir do ponto de entrega da concessionária (ANEEL) ou de fonte própria. Define origem da instalação, subestação de entrada, transformadora e unitária.",
+   "valores": [
+    {"parametro": "Faixa de tensão nominal", "valor": "1,0 kV a 36,2 kV", "item": "1.1"}
+   ]},
+  {"titulo": "Características gerais", "item": "4",
+   "texto": "Potência de alimentação, esquemas de aterramento, influências externas (Tab. 24: códigos AE, AD… com IP exigido) e compatibilidade entre componentes.",
+   "valores": []},
+  {"titulo": "Proteção para segurança", "item": "5",
+   "texto": "Contra contatos diretos por isolação, barreiras, obstáculos e distância (Tabelas 20 e 21); contra contatos indiretos por aterramento, equipotencialização e seccionamento automático (que protege também a integridade do aterramento); limites de tensão de contato (Tab. 22, situação 1 interna e 2 externa); temperaturas de superfície (Tab. 23); sobrecorrentes, sobretensões, mínima/máxima tensão e falta de fase.",
+   "valores": [
+    {"parametro": "Distâncias mínimas fase-terra e fase-fase por tensão (3 a 34,5 kV)", "valor": "Tabela 21 (ex.: 13,8 kV — ensaio 34 kV; impulso 95 kV)", "item": "Tab. 21", "nota": "distâncias em mm ilegíveis no OCR — conferir"}
+   ]},
+  {"titulo": "Seleção e instalação de componentes", "item": "6",
+   "texto": "Capacidade de condução dos cabos para vida satisfatória, queda de tensão calculada com a corrente de projeto, aterramento e condutores de proteção.",
+   "valores": [
+    {"parametro": "Queda de tensão máxima (origem → ponto de utilização)", "valor": "≤ 5 %", "item": "6.2.7.1"},
+    {"parametro": "Resistência de aterramento recomendada", "valor": "ordem de 10 Ω", "item": "6.4.1.2, Nota", "nota": "o arranjo do aterramento importa mais que o valor"},
+    {"parametro": "Eletrodo de aterramento", "valor": "malha sob o piso ou, no mínimo, anel no perímetro da edificação", "item": "6.4.2.2.1"}
+   ]},
+  {"titulo": "Verificação final", "item": "7",
+   "texto": "Inspeção visual (incluindo acessibilidade e distâncias entre fase e neutro) e ensaios (continuidade, isolamento, sequência de fases, proteções) antes de energizar.",
+   "valores": []},
+  {"titulo": "Subestações", "item": "9",
+   "texto": "Abrigadas (no nível do solo, acima ou subterrâneas) ou ao tempo, de construção definitiva e incombustível, com esquema geral disponível, placas em português, corredores de manobra amplos, aberturas de ventilação protegidas contra chuva e corpos estranhos, cabos subterrâneos em eletroduto metálico pesado no trecho exposto, anteparos nas partes vivas. Subterrâneas totalmente impermeáveis. Ao tempo: cerca/tela contra aproximação de pessoas e placas 'Perigo de morte'.",
+   "valores": [
+    {"parametro": "Líquido isolante inflamável — volume que exige medidas especiais", "valor": "> 100 L", "item": "9.1.12"},
+    {"parametro": "Tela de proteção externa (subestação ao tempo)", "valor": "malha ≤ 50 mm, aço zincado", "item": "9.3.2.2"},
+    {"parametro": "Folga da proteção ao solo", "valor": "≤ 10 cm", "item": "9.3.2.4"},
+    {"parametro": "Afastamento das partes vivas (equipamento em local acessível)", "valor": "≥ 40 cm", "item": "9.1.4 a)", "nota": "contexto do item ilegível — conferir"}
+   ]}
+ ]
+}

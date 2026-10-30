@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SFA-5.3",
+ "titulo": "SFA-5.3 — Eletrodos revestidos de alumínio e ligas de alumínio (AWS A5.3)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos revestidos de alumínio e ligas de alumínio para soldagem SMAW."
+  },
+  {
+   "titulo": "Classificações e química da alma",
+   "item": "Tabela 1",
+   "texto": "E1100, E3003 e E4043, pela composição da alma.",
+   "valores": [
+    {
+     "parametro": "E1100 — Al mín. / Cu",
+     "valor": "99,00 % / 0,05–0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "E3003 — Mn / Cu",
+     "valor": "1,0–1,5 % / 0,05–0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "E4043 — Si",
+     "valor": "4,5–6,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Be máx.",
+     "valor": "0,0008 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 4",
+   "texto": "Ensaio em junta soldada (fratura pode ocorrer no metal-base ou na solda).",
+   "valores": [
+    {
+     "parametro": "E1100 — Su mín.",
+     "valor": "12 000 psi (80 MPa)",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "E3003 e E4043 — Su mín.",
+     "valor": "14 000 psi (95 MPa)",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabela 2, 9",
+   "texto": "Análise química em todos os diâmetros; tração e dobramento em diâmetros definidos (ex.: 5/32 in / 4,0 mm). Chapa de teste pré-aquecida antes de soldar."
+  }
+ ]
+}

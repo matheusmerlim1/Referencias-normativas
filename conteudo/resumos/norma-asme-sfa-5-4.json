@@ -1,0 +1,92 @@
+{
+ "id": "ASME-SFA-5.4",
+ "titulo": "SFA-5.4 — Eletrodos revestidos de aço inoxidável para SMAW (AWS A5.4)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos revestidos de aço inoxidável para soldagem SMAW, cujo metal depositado tem Cr ≥ 10,5 % e ferro como elemento principal."
+  },
+  {
+   "titulo": "Classificações",
+   "item": "2, Tabela 3",
+   "texto": "Designação EXXX-XX: o número indica a liga (E308, E308L, E309, E316L, E2209…) e o sufixo, o tipo de revestimento/corrente (-15 só CC+; -16 e -17 CA ou CC+; -26). Eletrodos com dupla classificação podem ser marcados, ex., E308/E308L-XX.",
+   "valores": [
+    {
+     "parametro": "Cr mínimo do metal depositado",
+     "valor": "10,5 %",
+     "item": "1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química do metal depositado",
+   "item": "Tabela 1",
+   "texto": "Ordem: C máx.; Cr; Ni; Mo máx./faixa; Mn; Si máx.",
+   "valores": [
+    {
+     "parametro": "E308-XX",
+     "valor": "0,08; 18,0–21,0; 9,0–11,0; 0,75; 0,5–2,5; 1,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "E308L-XX",
+     "valor": "0,04; 18,0–21,0; 9,0–11,0; 0,75; 0,5–2,5; 1,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "E316L-XX",
+     "valor": "0,04; 17,0–20,0; 11,0–14,0; 2,0–3,0; 0,5–2,5; 1,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "E209-XX (Cr / Ni / Mn / N)",
+     "valor": "20,5–24,0 / 9,5–12,0 / 4,0–7,0 / 0,10–0,30 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas do metal depositado",
+   "item": "Tabela 6",
+   "texto": "Su mín. / alongamento mín. (sem tratamento térmico, salvo indicação).",
+   "valores": [
+    {
+     "parametro": "E308, E308H",
+     "valor": "80 ksi (550) / 35 %",
+     "item": "Tabela 6"
+    },
+    {
+     "parametro": "E308L",
+     "valor": "75 ksi (520) / 35 %",
+     "item": "Tabela 6"
+    },
+    {
+     "parametro": "E309L",
+     "valor": "75 ksi (520) / 30 %",
+     "item": "Tabela 6"
+    },
+    {
+     "parametro": "E316L",
+     "valor": "70 ksi (490) / 30 %",
+     "item": "Tabela 6"
+    },
+    {
+     "parametro": "E2209 (duplex)",
+     "valor": "100 ksi (690) / 20 %",
+     "item": "Tabela 6"
+    },
+    {
+     "parametro": "E307",
+     "valor": "85 ksi (590) / 30 %",
+     "item": "Tabela 6"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabela 4",
+   "texto": "Por classificação, diâmetro e tipo de corrente: análise química, radiografia, tração do metal depositado e filete, em posições definidas."
+  }
+ ]
+}

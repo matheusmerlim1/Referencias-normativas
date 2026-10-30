@@ -1,0 +1,101 @@
+{
+ "id": "ASME-SA-307",
+ "titulo": "SA-307 — Parafusos e estojos de aço carbono, 60 000 psi de resistência",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafusos e estojos de aço carbono de 1/4 a 4 in (6,35 a 104 mm) em três graus: A (uso geral), B (juntas flangeadas de tubulação com flanges de ferro fundido) e C (chumbadores sem cabeça, retos ou dobrados, com propriedades da SA-36)."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4",
+   "texto": "Cabeças forjadas a quente ou a frio, ou usinadas de barra; roscas laminadas ou cortadas. Cabeças não sextavadas forjadas a frio recebem alívio de tensões. Zincagem a quente ou mecânica quando pedida."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Graus A e B (análise de corrida); Grau C segue a SA-36 para barras. Aço ressulfurado não é rejeitado por S na análise de produto.",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,29 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx.",
+     "valor": "0,90 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx.",
+     "valor": "0,04 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "S máx. — Grau A / B",
+     "valor": "0,15 % / 0,05 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 a 4",
+   "texto": "Até 1 1/2 in, ensaio em tamanho natural (carga mínima pela área resistente da rosca); acima, de preferência também.",
+   "valores": [
+    {
+     "parametro": "Grau A — Su mín.",
+     "valor": "60 ksi (415 MPa)",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Grau B — Su",
+     "valor": "60–100 ksi (415–690 MPa)",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Grau C — Su",
+     "valor": "58–80 ksi (400–550 MPa)",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Grau C — Sy mín.",
+     "valor": "36 ksi",
+     "item": "Tabela 4",
+     "nota": "Na extração o equivalente em MPa saiu '(50)'; conferir — a SA-36 dá 250 MPa"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm — A / B / C",
+     "valor": "18 / 18 / 23 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Dureza — Grau A (comprimento < 3d)",
+     "valor": "121–241 HB (69–100 HRB)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Dureza — Grau B (comprimento < 3d)",
+     "valor": "121–212 HB (69–95 HRB)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Carga mín. Grau A — 1/2-13 UNC",
+     "valor": "8 500 lbf",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Carga mín. Grau A — 1-8 UNC",
+     "valor": "36 350 lbf",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção e marcação",
+   "item": "Tabela 5, 13",
+   "texto": "Roscas zincadas inspecionadas por amostragem (ex.: lote de 501 a 1 200 → amostra de 80, aceitação 7). Cabeças e uma ponta dos estojos marcadas com o identificador do fabricante e o grau."
+  }
+ ]
+}

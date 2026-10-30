@@ -1,0 +1,48 @@
+{
+ "id": "ASME-SFA-5.8",
+ "titulo": "SFA-5.8 — Metais de adição para brasagem e solda-brasagem (AWS A5.8)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Metais de adição para brasagem e solda-brasagem, com ou sem fluxo, em todas as atmosferas, inclusive para serviço a vácuo. Prefixo 'B' = brasagem; 'RB' = também solda-brasagem; 'BV' = serviço a vácuo."
+  },
+  {
+   "titulo": "Classificações e composição",
+   "item": "Tabelas 1 a 6",
+   "texto": "Famílias: prata (BAg), ouro (BAu), alumínio-silício (BAlSi) e magnésio, cobre/cobre-zinco/cobre-fósforo (BCu, RBCuZn, BCuP), níquel e cobalto (BNi, BCo) e metais para vácuo (BV, graus 1 e 2).",
+   "valores": [
+    {
+     "parametro": "BAg-1 — Ag / Cu / Zn / Cd",
+     "valor": "44,0–46,0 / 14,0–16,0 / 14,0–18,0 / 23,0–25,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "BAu-2 — Au",
+     "valor": "79,5–80,5 % (Cu restante)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "BAlSi-2 — Si",
+     "valor": "6,8–8,2 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "BCu-1 — Cu mín.",
+     "valor": "99,90 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "BNi-1 — Cr / B / Si / Fe / C",
+     "valor": "13,0–15,0 / 2,75–3,50 / 4,0–5,0 / 4,0–5,0 / 0,60–0,90 %",
+     "item": "Tabela 5"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "—",
+   "texto": "Classificação pela composição química; faixas de solidus/liquidus e temperaturas de brasagem informadas nas tabelas da especificação."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 630" width="760" height="630" role="img" aria-label="Perfil I de mesas inclinadas (DIN 1025-1) — h, b, s, t, r1, r2">
+<title>Perfil I de mesas inclinadas (DIN 1025-1) — h, b, s, t, r1, r2 (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Perfil I de mesas inclinadas (DIN 1025-1) — h, b, s, t, r1, r2</text>
+<path class="s" d="M205,110 L395,110 L395,115 Q395,122 388,124.3 L324,144.9 Q308,150 308,166 L308,434 Q308,450 324,455.1 L388,475.7 Q395,478 395,485 L395,490 L205,490 L205,485 Q205,478 212,475.7 L276,455.1 Q292,450 292,434 L292,166 Q292,150 276,144.9 L212,124.3 Q205,122 205,115 z"/>
+<line class="c" x1="165" y1="300" x2="435" y2="300"/>
+<line class="c" x1="300" y1="70" x2="300" y2="530"/>
+<text x="439" y="305">x</text>
+<text x="151" y="305">x</text>
+<text x="306" y="80">y</text>
+<text x="306" y="536">y</text>
+<g id="cota-h" class="cota"><line class="e" x1="202" y1="110" x2="139" y2="110"/><line class="e" x1="202" y1="490" x2="139" y2="490"/><line class="d" x1="145" y1="110" x2="145" y2="490" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="138" y="305">h</text></g>
+<g id="cota-b" class="cota"><line class="e" x1="205" y1="493" x2="205" y2="541"/><line class="e" x1="395" y1="493" x2="395" y2="541"/><line class="d" x1="205" y1="535" x2="395" y2="535" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="300" y="553">b</text></g>
+<g id="cota-s" class="cota"><line class="d" x1="266" y1="380" x2="292" y2="380" marker-end="url(#a)"/><line class="d" x1="334" y1="380" x2="308" y2="380" marker-end="url(#a)"/><line class="d" x1="292" y1="380" x2="308" y2="380"/><text x="344" y="376">s</text></g>
+<line class="h" x1="347.5" y1="60" x2="347.5" y2="106"/>
+<text class="n" x="351.5" y="72">b/4</text>
+<g id="cota-t" class="cota"><line class="d" x1="347.5" y1="84" x2="347.5" y2="110" marker-end="url(#a)"/><line class="d" x1="347.5" y1="163.3" x2="347.5" y2="137.3" marker-end="url(#a)"/><line class="d" x1="347.5" y1="110" x2="347.5" y2="137.3"/><text x="381.5" y="132">t</text></g>
+<g id="cota-r1" class="cota"><line class="d" x1="410" y1="395" x2="312.8" y2="445.2" marker-end="url(#a)"/><text x="414" y="400">r1</text></g>
+<g id="cota-r2" class="cota"><line class="d" x1="435" y1="435" x2="393" y2="476.4" marker-end="url(#a)"/><text x="439" y="440">r2</text></g>
+<line class="d" x1="435" y1="240" x2="367.5" y2="131.9" marker-end="url(#a)"/>
+<text class="n" x="439" y="245">face interna da mesa inclinada</text>
+<text class="n" x="520" y="360">t = espessura da mesa medida a b/4</text>
+<text class="n" x="520" y="380">da borda; r1 = raio alma–mesa;</text>
+<text class="n" x="520" y="400">r2 = raio da ponta da mesa</text>
+<text class="n" x="20" y="618">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SB-161",
+ "titulo": "SB-161 — Tubos sem costura de níquel (Níquel 200 e 201)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe e tube) sem costura de níquel N02200 e N02201, trabalhados a frio, nas condições da Tabela 1."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "N02200 (níquel 200) e N02201 (níquel 201, baixo carbono).",
+   "valores": [
+    {
+     "parametro": "Ni mín.",
+     "valor": "99,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Cu máx. / Fe máx. / Mn máx.",
+     "valor": "0,25 % / 0,40 % / 0,35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C máx. — N02200 / N02201",
+     "valor": "0,15 % / 0,02 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "Recozido até 5 in de DE — N02200",
+     "valor": "55 000 psi (380) / 15 000 psi (105) / 35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Recozido até 5 in de DE — N02201",
+     "valor": "50 000 psi (345) / 12 000 psi (80) / 35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Recozido acima de 5 in — N02200 / N02201",
+     "valor": "55 000 / 50 000 psi; Sy 12 000 / 10 000 psi; 40 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Aliviado — N02200 / N02201 (Su)",
+     "valor": "65 000 psi (450) / 60 000 psi (415)",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "6",
+   "texto": "Tubos que vazarem no teste hidrostático são rejeitados."
+  }
+ ]
+}

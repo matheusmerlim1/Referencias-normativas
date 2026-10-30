@@ -1,0 +1,733 @@
+{
+  "id": "escada-portatil",
+  "titulo": "Escada portátil (de mão, extensível, de abrir)",
+  "categoria": "Acessos e circulação",
+  "resumo": "Escadas portáteis de uso individual: de encosto (de mão/simples), extensível e autossustentável (de abrir, dupla, cavalete). Reúne escolha, comprimentos máximos, ultrapassagem do piso, limitador de curso, sobreposição, apoio, contato de 3 pontos, inspeção e marcação conforme NR-35 Anexo III (2025), NR-18 e NR-34.",
+  "palavras_chave": [
+    "escada portátil",
+    "escada portatil",
+    "escadas portáteis",
+    "escada de mão",
+    "escada de mao",
+    "escada simples",
+    "escada de encosto",
+    "escada extensível",
+    "escada extensivel",
+    "escada de abrir",
+    "escada dupla",
+    "escada cavalete",
+    "cavalete",
+    "escada autossustentável",
+    "escada autoportante",
+    "escada tesoura",
+    "escada de uso individual",
+    "limitador de curso",
+    "catraca",
+    "sobreposição",
+    "sapata antiderrapante",
+    "sapata",
+    "contato de 3 pontos",
+    "três pontos de apoio",
+    "montante único",
+    "marcação da escada",
+    "NR-35",
+    "NR 35",
+    "trabalho em altura",
+    "portable ladder",
+    "ladder",
+    "extension ladder",
+    "step ladder",
+    "stepladder",
+    "leaning ladder",
+    "trestle ladder",
+    "A-frame ladder",
+    "three points of contact",
+    "ladder feet",
+    "overlap"
+  ],
+  "relacionadas": [
+    "escada-marinheiro",
+    "escada-degraus",
+    "guarda-corpo",
+    "passarela-plataforma-rampa",
+    "ancoragem-linha-de-vida"
+  ],
+  "figuras": [
+    {
+      "arquivo": "esquemas/escada-portatil-encosto-cotas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — escada de encosto/extensível apoiada no nível superior: ângulo α, comprimento, trecho acima do nível superior, afastamento da base, espaçamento dos degraus, sobreposição entre lances e limitador de curso.",
+      "norma": "NR-35",
+      "item": "Esquema",
+      "pagina": 20,
+      "grupo": [
+        "Escopo, classificação e escolha",
+        "Construção, degraus e certificação",
+        "Escada de encosto (de mão / simples)",
+        "Escada extensível"
+      ],
+      "nota": "Desenho próprio. Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-portatil-autossustentavel-cotas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — escada autossustentável fechada (comprimento) e aberta com limitadores de abertura.",
+      "norma": "NR-35",
+      "item": "Esquema",
+      "pagina": 21,
+      "grupo": [
+        "Escada autossustentável (de abrir / dupla / cavalete)"
+      ],
+      "nota": "Desenho próprio. Sem valores: o site escreve o valor do requisito na cota destacada."
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Escopo, classificação e escolha",
+      "parametro": "Classificação das escadas de uso individual",
+      "valor": "Escada fixa vertical, escada portátil de encosto fixo ou extensível e escada portátil autossustentável; as não classificadas seguem os requisitos gerais do item 5.1",
+      "norma": "NR-35",
+      "item": "Anexo III, 3.1 e 3.2",
+      "pagina": 16,
+      "nota": "Anexo III vigente desde 02/01/2026 (Portaria MTE 1.860/2025). Escada fixa vertical: ver ficha Escada marinheiro."
+    },
+    {
+      "grupo": "Escopo, classificação e escolha",
+      "parametro": "Escadas de uso coletivo",
+      "valor": "O Anexo III não alcança as escadas de uso coletivo",
+      "norma": "NR-35",
+      "item": "Anexo III, 2.1.1",
+      "pagina": 16
+    },
+    {
+      "grupo": "Escopo, classificação e escolha",
+      "parametro": "Escada portátil — definição",
+      "valor": "Escada que pode ser transportada e montada com a mão",
+      "norma": "NR-35",
+      "item": "Anexo III, Glossário",
+      "pagina": 21
+    },
+    {
+      "grupo": "Escopo, classificação e escolha",
+      "parametro": "Escada portátil — definições (obra)",
+      "valor": "Escada portátil = escada de mão transportável; de uso individual = de mão com lance único; dupla = de abrir, cavalete ou autossustentável; extensível = estendida em mais de um lance",
+      "norma": "NR-18",
+      "item": "Glossário",
+      "pagina": 52
+    },
+    {
+      "grupo": "Escopo, classificação e escolha",
+      "parametro": "Análise de risco prévia",
+      "valor": "Uso de escada como meio de acesso ou posto de trabalho em altura precedido de AR (itens 35.5.2 e 35.5.5), considerando o equipamento de acesso mais adequado (segurança e ergonomia)",
+      "norma": "NR-35",
+      "item": "Anexo III, 4.1.1 e 4.1.1.1",
+      "pagina": 16
+    },
+    {
+      "grupo": "Escopo, classificação e escolha",
+      "parametro": "Seleção do tipo de escada portátil",
+      "valor": "Considerar a característica da escada e se a tarefa pode ser feita com segurança",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.1",
+      "pagina": 19
+    },
+    {
+      "grupo": "Escopo, classificação e escolha",
+      "parametro": "Seleção do tipo de escada portátil (obra)",
+      "valor": "Considerar a característica da escada e se a tarefa pode ser feita com segurança",
+      "norma": "NR-18",
+      "item": "18.8.6.5",
+      "pagina": 17
+    },
+    {
+      "grupo": "Escopo, classificação e escolha",
+      "parametro": "Uso restrito",
+      "valor": "Serviços de pequeno porte e acessos temporários",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.1.1",
+      "pagina": 19,
+      "nota": "Serviços de pequeno porte: tarefas de menor complexidade, simples execução e mínimo planejamento (Glossário)."
+    },
+    {
+      "grupo": "Escopo, classificação e escolha",
+      "parametro": "Uso restrito — escada de mão (obra)",
+      "valor": "Serviços de pequeno porte e acessos temporários",
+      "norma": "NR-18",
+      "item": "18.8.6.15",
+      "pagina": 18
+    },
+    {
+      "grupo": "Escopo, classificação e escolha",
+      "parametro": "Uso restrito — escada de mão (estaleiro)",
+      "valor": "Acessos provisórios e serviços de pequeno porte",
+      "norma": "NR-34",
+      "item": "34.6.3.6",
+      "pagina": 8
+    },
+    {
+      "grupo": "Escopo, classificação e escolha",
+      "parametro": "Ângulo — escadas móveis (obra)",
+      "valor": "Entre 50° e 75°, ou conforme recomendações do fabricante",
+      "min": 50,
+      "max": 75,
+      "unidade": "°",
+      "norma": "NR-18",
+      "item": "18.8.2 b)",
+      "pagina": 16,
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#angulo"
+    },
+    {
+      "grupo": "Escopo, classificação e escolha",
+      "parametro": "Escada dupla — transposição de nível (obra)",
+      "valor": "Só para atividades compatíveis; proibida para transposição de nível",
+      "norma": "NR-18",
+      "item": "18.8.6.17",
+      "pagina": 18,
+      "nota": "A NR-35 não traz essa proibição para a autossustentável."
+    },
+    {
+      "grupo": "Escopo, classificação e escolha",
+      "parametro": "Capacitação",
+      "valor": "Trabalhador capacitado conforme capítulo 35.4 (treinamento inicial ≥ 8 h, periódico a cada 2 anos ≥ 8 h), incluindo a utilização segura de escada de uso individual",
+      "norma": "NR-35",
+      "item": "Anexo III, 4.2.1 e 4.2.1.1",
+      "pagina": 17,
+      "nota": "Cargas horárias do 35.4.2.1 e 35.4.2.2."
+    },
+    {
+      "grupo": "Construção, degraus e certificação",
+      "parametro": "Conformidade da escada",
+      "valor": "Atender a um: a) certificada conforme normas técnicas; b) fabricada conforme normas técnicas nacionais vigentes sob responsabilidade de PLH; ou c) projetada por PLH com referência nas normas técnicas nacionais",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.1.1",
+      "pagina": 17
+    },
+    {
+      "grupo": "Construção, degraus e certificação",
+      "parametro": "Resistência e acabamento",
+      "valor": "Resistir às cargas aplicadas; materiais e acabamento que não causem lesões ao usuário",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.1.2 a) e b)",
+      "pagina": 17
+    },
+    {
+      "grupo": "Construção, degraus e certificação",
+      "parametro": "Escada de madeira",
+      "valor": "Peças aplainadas em todas as faces; revestimento, se houver, transparente (para ver defeitos)",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.1.2 d)",
+      "pagina": 17
+    },
+    {
+      "grupo": "Construção, degraus e certificação",
+      "parametro": "Escada de madeira (obra)",
+      "valor": "Sem farpas, saliências ou emendas",
+      "norma": "NR-18",
+      "item": "18.8.6.4",
+      "pagina": 17
+    },
+    {
+      "grupo": "Construção, degraus e certificação",
+      "parametro": "Madeira (estaleiro)",
+      "valor": "Seca, de boa qualidade, sem nós e rachaduras que comprometam a resistência; vedado pintar para encobrir imperfeições",
+      "norma": "NR-34",
+      "item": "34.6.3.3",
+      "pagina": 8
+    },
+    {
+      "grupo": "Construção, degraus e certificação",
+      "parametro": "Escada de madeira em trabalho a quente (estaleiro)",
+      "valor": "Vedada",
+      "norma": "NR-34",
+      "item": "34.6.3.4",
+      "pagina": 8
+    },
+    {
+      "grupo": "Construção, degraus e certificação",
+      "parametro": "Espaçamento entre degraus (obra)",
+      "valor": "Uniforme, de 0,25 m a 0,3 m",
+      "min": 250,
+      "max": 300,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.7 a)",
+      "pagina": 17,
+      "nota": "A NR-35 não fixa espaçamento de degraus de escada portátil.",
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#espacamento"
+    },
+    {
+      "grupo": "Construção, degraus e certificação",
+      "parametro": "Espaçamento entre degraus — escada de mão (estaleiro)",
+      "valor": "Uniforme, entre 25 cm e 30 cm",
+      "min": 250,
+      "max": 300,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.3.6 a)",
+      "pagina": 8,
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#espacamento"
+    },
+    {
+      "grupo": "Construção, degraus e certificação",
+      "parametro": "Degraus (obra)",
+      "valor": "Antiderrapantes; na escada de mão, fixados aos montantes por meios que garantam rigidez",
+      "norma": "NR-18",
+      "item": "18.8.6.7 b) e 18.8.6.13 c)",
+      "pagina": 17
+    },
+    {
+      "grupo": "Construção, degraus e certificação",
+      "parametro": "Degraus (estaleiro)",
+      "valor": "Antiderrapantes",
+      "norma": "NR-34",
+      "item": "34.6.3.6 d)",
+      "pagina": 8
+    },
+    {
+      "grupo": "Construção, degraus e certificação",
+      "parametro": "Montante único",
+      "valor": "Proibido o uso de escada de mão com montante único",
+      "norma": "NR-18",
+      "item": "18.8.6.14",
+      "pagina": 18
+    },
+    {
+      "grupo": "Construção, degraus e certificação",
+      "parametro": "Montante único (estaleiro)",
+      "valor": "Proibida escada de mão com montante único",
+      "norma": "NR-34",
+      "item": "34.6.3.7",
+      "pagina": 8
+    },
+    {
+      "grupo": "Escada de encosto (de mão / simples)",
+      "parametro": "Comprimento máximo — escada portátil de encosto",
+      "valor": "no máximo 7 m",
+      "max": 7000,
+      "unidade": "mm",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.7.5",
+      "pagina": 20,
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#comprimento"
+    },
+    {
+      "grupo": "Escada de encosto (de mão / simples)",
+      "parametro": "Extensão máxima — escada de mão (obra)",
+      "valor": "no máximo 7 m",
+      "max": 7000,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.13 a)",
+      "pagina": 18,
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#comprimento"
+    },
+    {
+      "grupo": "Escada de encosto (de mão / simples)",
+      "parametro": "Extensão máxima — escada de mão (estaleiro)",
+      "valor": "até sete metros",
+      "max": 7000,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.3.6 a)",
+      "pagina": 8,
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#comprimento"
+    },
+    {
+      "grupo": "Escada de encosto (de mão / simples)",
+      "parametro": "Ultrapassar o nível superior (uso como acesso)",
+      "valor": "no mínimo 1 m",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.7.4",
+      "pagina": 20,
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#ultrapassar"
+    },
+    {
+      "grupo": "Escada de encosto (de mão / simples)",
+      "parametro": "Ultrapassar o piso superior — escada de mão (obra)",
+      "valor": "pelo menos 1 m",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.13 b)",
+      "pagina": 18,
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#ultrapassar"
+    },
+    {
+      "grupo": "Escada de encosto (de mão / simples)",
+      "parametro": "Ultrapassar o piso superior — escada de mão (estaleiro)",
+      "valor": "um metro",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.3.6 b)",
+      "pagina": 8,
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#ultrapassar"
+    },
+    {
+      "grupo": "Escada de encosto (de mão / simples)",
+      "parametro": "Seleção da escada de encosto",
+      "valor": "Pela carga do fabricante/projetista (trabalhador + equipamentos + materiais), pelos esforços do SPQ e pelas situações de resgate",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.7.1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Escada de encosto (de mão / simples)",
+      "parametro": "Seleção da escada portátil (obra)",
+      "valor": "Pela carga projetada, pelos esforços do SPQ e pelas situações de resgate",
+      "norma": "NR-18",
+      "item": "18.8.6.6",
+      "pagina": 17
+    },
+    {
+      "grupo": "Escada de encosto (de mão / simples)",
+      "parametro": "Local de colocação",
+      "valor": "Vedada perto de portas, áreas de circulação, aberturas ou vãos, exceto com medidas de prevenção",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.7.3",
+      "pagina": 20
+    },
+    {
+      "grupo": "Escada de encosto (de mão / simples)",
+      "parametro": "Local de colocação (obra)",
+      "valor": "Proibida perto de portas, áreas de circulação, aberturas e vãos e onde haja risco de queda de objetos, exceto com medidas de prevenção (área isolada e sinalizada); proibida em estruturas sem resistência e junto a redes/equipamentos elétricos energizados desprotegidos",
+      "norma": "NR-18",
+      "item": "18.8.6.8 e 18.8.6.9",
+      "pagina": 17
+    },
+    {
+      "grupo": "Escada de encosto (de mão / simples)",
+      "parametro": "Local de colocação (estaleiro)",
+      "valor": "Vedada perto de portas, áreas de circulação, aberturas e vãos e onde haja risco de queda de objetos; proibida junto a redes e equipamentos elétricos desprotegidos",
+      "norma": "NR-34",
+      "item": "34.6.3.7 e 34.6.3.8",
+      "pagina": 8,
+      "nota": "Sem exceção na NR-34; NR-35 e NR-18 admitem com medidas de prevenção (ver nota de divergências)."
+    },
+    {
+      "grupo": "Escada extensível",
+      "parametro": "Fixação",
+      "valor": "Fixada em mais de um ponto; guias e travas assegurando o travamento entre as partes deslizantes",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.8.1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Escada extensível",
+      "parametro": "Fixação — impossibilidade de mais de um ponto",
+      "valor": "Fixar em estrutura resistente e estável em pelo menos um ponto, de preferência no nível superior",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.8.1.1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Escada extensível",
+      "parametro": "Dispensa de fixação",
+      "valor": "Só em situações especiais em que a escada não possa se deslocar (geometria, apoios, outras medidas), com o trabalhador conectado a SPIQ independente",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.8.1.2",
+      "pagina": 20
+    },
+    {
+      "grupo": "Escada extensível",
+      "parametro": "Fixação (obra)",
+      "valor": "Em estrutura resistente e estável em pelo menos um ponto, de preferência no nível superior",
+      "norma": "NR-18",
+      "item": "18.8.6.18 c)",
+      "pagina": 18
+    },
+    {
+      "grupo": "Escada extensível",
+      "parametro": "Dispositivo limitador de curso",
+      "valor": "No quarto vão a partir da catraca",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.8.2",
+      "pagina": 20,
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#limitador"
+    },
+    {
+      "grupo": "Escada extensível",
+      "parametro": "Sobreposição mínima entre lances (sem limitador de curso)",
+      "valor": "mínimo 1 m, quando totalmente estendida",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.8.2.1",
+      "pagina": 20,
+      "nota": "Por mecanismo alternativo que assegure a sobreposição.",
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#sobreposicao"
+    },
+    {
+      "grupo": "Escada extensível",
+      "parametro": "Limitador de curso / sobreposição (obra)",
+      "valor": "Limitador no quarto vão a contar da catraca, ou conforme o fabricante; sem limitador, sobreposição ≥ 1 m quando estendida",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.18 a) e b)",
+      "pagina": 18,
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#sobreposicao"
+    },
+    {
+      "grupo": "Escada extensível",
+      "parametro": "Limitador de curso / sobreposição (estaleiro)",
+      "valor": "Limitador no quarto vão a contar da catraca; sem limitador, sobreposição ≥ 1 m quando estendida",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.3.10",
+      "pagina": 8,
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#sobreposicao"
+    },
+    {
+      "grupo": "Escada extensível",
+      "parametro": "Afastamento da base (obra)",
+      "valor": "Base apoiada a uma distância entre 1/5 e 1/3 da altura",
+      "norma": "NR-18",
+      "item": "18.8.6.18 d)",
+      "pagina": 18,
+      "nota": "A NR-35 não fixa o afastamento da base nem o ângulo da escada de encosto.",
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#afastamento-base"
+    },
+    {
+      "grupo": "Escada extensível",
+      "parametro": "Ultrapassar o nível superior (obra)",
+      "valor": "pelo menos 1 m, quando usada para acesso",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.18 e)",
+      "pagina": 18,
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#ultrapassar"
+    },
+    {
+      "grupo": "Escada extensível",
+      "parametro": "Extensível com mais de 7 m (obra)",
+      "valor": "Sistema de travamento (tirante ou vareta de segurança) para os montantes não ficarem soltos",
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.19",
+      "pagina": 18,
+      "nota": "Gatilho: a exigência vale para extensível com MAIS de 7 m (não é comprimento mínimo).",
+      "cota": "esquemas/escada-portatil-encosto-cotas.svg#comprimento"
+    },
+    {
+      "grupo": "Escada autossustentável (de abrir / dupla / cavalete)",
+      "parametro": "Comprimento máximo fechada",
+      "valor": "no máximo 6 m",
+      "max": 6000,
+      "unidade": "mm",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.9.3",
+      "pagina": 21,
+      "cota": "esquemas/escada-portatil-autossustentavel-cotas.svg#comprimento-fechada"
+    },
+    {
+      "grupo": "Escada autossustentável (de abrir / dupla / cavalete)",
+      "parametro": "Comprimento máximo fechada — escada dupla (obra)",
+      "valor": "no máximo 6 m",
+      "max": 6000,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.16 a)",
+      "pagina": 18,
+      "cota": "esquemas/escada-portatil-autossustentavel-cotas.svg#comprimento-fechada"
+    },
+    {
+      "grupo": "Escada autossustentável (de abrir / dupla / cavalete)",
+      "parametro": "Comprimento máximo fechada — escada de abrir (estaleiro)",
+      "valor": "seis metros",
+      "max": 6000,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.3.9",
+      "pagina": 8,
+      "nota": "Também: rígida, estável e com dispositivos que mantenham abertura constante.",
+      "cota": "esquemas/escada-portatil-autossustentavel-cotas.svg#comprimento-fechada"
+    },
+    {
+      "grupo": "Escada autossustentável (de abrir / dupla / cavalete)",
+      "parametro": "Limitadores de abertura",
+      "valor": "Usar somente com os limitadores operantes na abertura máxima e nas posições indicadas pelo fabricante",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.9.1",
+      "pagina": 21
+    },
+    {
+      "grupo": "Escada autossustentável (de abrir / dupla / cavalete)",
+      "parametro": "Limitadores de abertura (obra)",
+      "valor": "Limitadores de abertura operantes e nas posições indicadas pelo fabricante",
+      "norma": "NR-18",
+      "item": "18.8.6.16 b)",
+      "pagina": 18
+    },
+    {
+      "grupo": "Escada autossustentável (de abrir / dupla / cavalete)",
+      "parametro": "Ferramentas e materiais",
+      "valor": "Não podem comprometer a estabilidade; se apoiados na escada, protegidos contra queda acidental",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.9.2",
+      "pagina": 21
+    },
+    {
+      "grupo": "Escada autossustentável (de abrir / dupla / cavalete)",
+      "parametro": "Estabilidade com ferramentas e materiais (obra)",
+      "valor": "Estabilidade garantida durante o uso de ferramentas e materiais",
+      "norma": "NR-18",
+      "item": "18.8.6.16 c)",
+      "pagina": 18
+    },
+    {
+      "grupo": "Uso: apoio, contato de 3 pontos e SPQ",
+      "parametro": "Contato de 3 pontos na subida e descida",
+      "valor": "Trabalhador apoiado em 3 pontos (dois pés e uma mão, ou duas mãos e um pé)",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.1.2 e Glossário",
+      "pagina": 19,
+      "nota": "Definição no Glossário."
+    },
+    {
+      "grupo": "Uso: apoio, contato de 3 pontos e SPQ",
+      "parametro": "Contato de 3 pontos (obra)",
+      "valor": "Apoiado em três pontos durante subida e descida",
+      "norma": "NR-18",
+      "item": "18.8.6.11",
+      "pagina": 17
+    },
+    {
+      "grupo": "Uso: apoio, contato de 3 pontos e SPQ",
+      "parametro": "Escada como posto de trabalho sem 3 pontos de contato",
+      "valor": "Usar SPQ conforme item 35.6 e subitens",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.1.3",
+      "pagina": 19
+    },
+    {
+      "grupo": "Uso: apoio, contato de 3 pontos e SPQ",
+      "parametro": "Transporte de materiais (obra)",
+      "valor": "Por meio adequado quando a escada exige as mãos como apoio",
+      "norma": "NR-18",
+      "item": "18.8.5",
+      "pagina": 16
+    },
+    {
+      "grupo": "Uso: apoio, contato de 3 pontos e SPQ",
+      "parametro": "Número de usuários",
+      "valor": "Uma pessoa de cada vez, exceto quando o fabricante ou projetista especificar uso simultâneo",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.1.3",
+      "pagina": 17
+    },
+    {
+      "grupo": "Uso: apoio, contato de 3 pontos e SPQ",
+      "parametro": "Número de usuários (obra)",
+      "valor": "Uma pessoa de cada vez, exceto quando o fabricante especificar uso simultâneo",
+      "norma": "NR-18",
+      "item": "18.8.6.10",
+      "pagina": 17
+    },
+    {
+      "grupo": "Uso: apoio, contato de 3 pontos e SPQ",
+      "parametro": "Apoio e antiescorregamento",
+      "valor": "Apoiada em piso estável, com bases (sapatas) antiderrapantes ou outra medida que impeça o escorregamento",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.5",
+      "pagina": 19
+    },
+    {
+      "grupo": "Uso: apoio, contato de 3 pontos e SPQ",
+      "parametro": "Apoio e antiescorregamento (obra)",
+      "valor": "Apoiada em piso resistente; fixada nos apoios ou com dispositivo que impeça o escorregamento; sapatas antiderrapantes",
+      "norma": "NR-18",
+      "item": "18.8.6.7 c) e d) e 18.8.6.12",
+      "pagina": 17
+    },
+    {
+      "grupo": "Uso: apoio, contato de 3 pontos e SPQ",
+      "parametro": "Apoio e antiescorregamento (estaleiro)",
+      "valor": "Fixada nos pisos inferior e superior ou com dispositivo antiescorregamento; apoiada em piso resistente",
+      "norma": "NR-34",
+      "item": "34.6.3.6 c) e e)",
+      "pagina": 8
+    },
+    {
+      "grupo": "Uso: apoio, contato de 3 pontos e SPQ",
+      "parametro": "Transporte da escada em racks",
+      "valor": "Acondicionada de forma a evitar danos à estrutura",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.6",
+      "pagina": 19
+    },
+    {
+      "grupo": "Inspeção, manutenção, procedimento e marcação",
+      "parametro": "Inspeção — requisito geral",
+      "valor": "Inspeção inicial e periódica",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.1.2 c)",
+      "pagina": 17
+    },
+    {
+      "grupo": "Inspeção, manutenção, procedimento e marcação",
+      "parametro": "Inspeção — escada de encosto",
+      "valor": "No recebimento ou liberação inicial; antes do uso; e periodicamente conforme o fabricante ou projetista",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.7.2",
+      "pagina": 20
+    },
+    {
+      "grupo": "Inspeção, manutenção, procedimento e marcação",
+      "parametro": "Retirada de uso e reparo",
+      "valor": "Retirar de uso se houver defeito que comprometa o desempenho; reparo pelo fabricante, empresa especializada ou trabalhador capacitado; liberar após inspeção do responsável",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.1.4, 5.1.4.1 e 5.1.4.1.1",
+      "pagina": 17
+    },
+    {
+      "grupo": "Inspeção, manutenção, procedimento e marcação",
+      "parametro": "Procedimento operacional de uso e manutenção",
+      "valor": "Obrigatório; conter orientações de uso e manutenção, nº máximo de usuários simultâneos (quando aplicável), carga máxima suportada e limitações de uso",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.2 e 5.2.2.3",
+      "pagina": 19
+    },
+    {
+      "grupo": "Inspeção, manutenção, procedimento e marcação",
+      "parametro": "Marcação do fabricante",
+      "valor": "Sempre visível, com dados do fabricante; não se aplica à escada fabricada sob responsabilidade da própria organização",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.2.1 e 5.2.2.2.2",
+      "pagina": 19
+    },
+    {
+      "grupo": "Inspeção, manutenção, procedimento e marcação",
+      "parametro": "Conteúdo mínimo da marcação",
+      "valor": "Fabricante (nome empresarial e CNPJ); mês/ano de fabricação e/ou nº de série; peso da escada; inclinação de uso seguro (se não for óbvia); carga máxima suportada; isolamento elétrico, se houver",
+      "norma": "NR-35",
+      "item": "Anexo III, 5.2.2.4",
+      "pagina": 19,
+      "nota": "Exigível a partir de 04/01/2027."
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "atencao",
+      "texto": "Escolha a norma pelo contexto: NR-35 Anexo III (Portaria MTE 1.860/2025, vigente desde 02/01/2026) vale para escadas de uso individual em qualquer trabalho em altura (diferença de nível > 2,0 m — 35.2.1) e não altera as demais NRs no campo de cada uma (2.2); NR-18 para obra; NR-34 para estaleiro. Os valores principais coincidem: encosto/de mão ≤ 7 m, ultrapassar o piso superior ≥ 1 m, de abrir ≤ 6 m fechada, limitador no 4º vão a partir da catraca ou sobreposição ≥ 1 m, contato de 3 pontos, uma pessoa por vez."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Divergências NR-35 × NR-18: (1) a NR-35 pede a extensível fixada em MAIS DE UM ponto (5.2.2.8.1 a), aceitando um ponto só na impossibilidade; a NR-18 pede pelo menos um ponto (18.8.6.18 c); (2) a NR-18 admite extensível com mais de 7 m, com tirante ou vareta de travamento (18.8.6.19), enquanto a NR-35 limita a escada portátil de encosto a 7 m (5.2.2.7.5) — a extensível está classificada como escada de encosto (3.1 e título do 5.2.2.8), então, por INTERPRETAÇÃO (5.2.2.7.5 não cita a extensível nem diz se é o comprimento estendido), em trabalho em altura geral adote 7 m também para a extensível — em obra vale a NR-18 18.8.6.19 (NR-35 2.2); (3) só a NR-18/NR-34 fixam espaçamento de degraus (0,25–0,30 m) e só a NR-18 fixa o afastamento da base (1/5 a 1/3 da altura); (4) a NR-18 proíbe usar escada dupla para transpor nível (18.8.6.17) — a NR-35 não diz isso; (5) só a NR-35 exige procedimento operacional e marcação com CNPJ, peso, carga máxima e inclinação (marcação exigível a partir de 04/01/2027). (6) Local de colocação: a NR-34 (34.6.3.8) VEDA a escada de mão perto de portas, áreas de circulação, aberturas e vãos sem exceção; a NR-35 (5.2.2.7.3) e a NR-18 (18.8.6.8 a) admitem 'exceto quando adotadas medidas de prevenção'."
+    },
+    {
+      "tipo": "info",
+      "texto": "Inconsistência dentro da NR-18: base a 1/5–1/3 da altura (18.8.6.18 d) corresponde a ângulos de aprox. 71,6° (1/3) a 78,7° (1/5) com o piso (cálculo, não está na norma; premissa: afastamento horizontal / altura vertical — se 'altura' for o comprimento da escada, dá 70,5° a 78,5°), mas 18.8.2 b) limita escadas móveis a 50°–75° 'ou de acordo com as recomendações do fabricante'. Siga a inclinação de uso seguro indicada pelo fabricante (marcação exigida pela NR-35 5.2.2.4 d)."
+    },
+    {
+      "tipo": "info",
+      "texto": "Linha de corte: alguns itens do Anexo III (4.1.2, 4.1.2.1, 5.2.1.2 e 5.2.1.2.1) remetem ao art. 2º da Portaria MTE 1.860/2025 para a regra de transição, que não está no texto consolidado da NR. O Anexo III antigo da NR-35 (Escadas) foi revogado pela Portaria MTE 3.903/2023; os arquivos 'NR-35 - Trabalho em Altura.pdf' (até 2019) e o Manual consolidado (2018) são versões superadas — não usar como fonte."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Antes de usar: AR (ou procedimento, se rotineiro) que justifique a escada frente a outro equipamento de acesso; escada certificada ou com projeto/fabricação sob PLH; marcação legível; inspeção antes do uso; sapatas em piso estável; extensível amarrada no topo e ultrapassando 1 m; se o trabalho exigir as duas mãos (sem 3 pontos), usar SPQ (35.6) ou avaliar outro equipamento de acesso (plataforma, andaime — 4.1.1.1)."
+    }
+  ]
+}

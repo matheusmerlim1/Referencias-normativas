@@ -1,0 +1,53 @@
+{
+ "id": "NBR-13715-2",
+ "titulo": "ABNT NBR 13715-2:2008 (versão corrigida 2009) — Estruturas oceânicas — Amarras — Parte 2: Requisitos e métodos de ensaio",
+ "secoes": [
+  {"titulo": "Escopo e série", "item": "1–5",
+   "texto": "Requisitos e ensaios de amarras (correntes) para ancoragem de unidades flutuantes offshore. A série tem 8 partes (aprovação do fornecedor e materiais na Parte 1; acessórios como manilha-sapatilho e tornel nas demais); definições na NBR 15103. Fabricante e material conforme a Parte 1.",
+   "valores": []},
+  {"titulo": "Elos e fabricação", "item": "6.1–6.3",
+   "texto": "Desenhos dos elos (comum ou alongado, com ou sem malhete, elo final) submetidos à aprovação. A marca do malhete fixa sua posição sem criar entalhe. Fabricação por solda de topo por contato em processo contínuo e tratamento térmico em forno contínuo (não estacionário). Registros de aquecimento, solda e tratamento disponíveis ao vistoriador.",
+   "valores": [
+    {"parametro": "Elos comuns de emenda (substituição de defeituosos)", "valor": "máx. 3 a cada 100 m", "item": "6.2"}
+   ]},
+  {"titulo": "Cargas de prova e de ruptura", "item": "6.5, Tab. 1",
+   "texto": "A Tabela 1 dá, por diâmetro (70 a 122 mm na parte legível), cargas de prova e de ruptura dos graus R3, R3S e R4, massa linear e comprimento de cinco elos. Exemplo de linha: d = 100 mm.",
+   "valores": [
+    {"parametro": "d = 100 mm — R3: prova / ruptura", "valor": "5 328 / 8 028 kN", "item": "Tab. 1"},
+    {"parametro": "d = 100 mm — R3S: prova / ruptura", "valor": "6 480 / 8 964 kN", "item": "Tab. 1"},
+    {"parametro": "d = 100 mm — R4: prova / ruptura", "valor": "7 776 / 9 864 kN", "item": "Tab. 1"},
+    {"parametro": "Massa linear — com / sem malhete", "valor": "0,0219·d² / 0,0202·d² kg/m (d em mm)", "item": "Tab. 1"},
+    {"parametro": "Comprimento de 5 elos", "valor": "22·d (mín.) a 22,55·d (máx.)", "item": "Tab. 1"},
+    {"parametro": "Carga de prova de amarra sem malhete", "valor": "70 % da carga de ruptura (todos os graus)", "item": "Tab. 1, nota a"}
+   ]},
+  {"titulo": "Dimensões e tolerâncias", "item": "6.7",
+   "texto": "Forma conforme Figura 1 ou desenho aprovado. Tolerância de diâmetro só para menos na curva com área preservada; na região da solda, consideração especial.",
+   "valores": [
+    {"parametro": "Diâmetro — tolerância para mais", "valor": "+5 % de d", "item": "Tab. 2"},
+    {"parametro": "Diâmetro — para menos na curva (40–84 / 84–122 mm)", "valor": "−2 / −3 mm", "item": "Tab. 2"},
+    {"parametro": "Diâmetro — para menos em outras regiões", "valor": "0", "item": "Tab. 2"},
+    {"parametro": "Comprimento de cinco elos", "valor": "+2,5 %, nunca negativo", "item": "6.7.3"},
+    {"parametro": "Demais dimensões", "valor": "± 2,5 %", "item": "6.7.4"},
+    {"parametro": "Malhete — descentralização / desvio angular", "valor": "≤ 10 % de d / ≤ 4° de 90°", "item": "6.7.5"}
+   ]},
+  {"titulo": "Solda de malhetes e elos de emenda", "item": "6.8–6.9",
+   "texto": "Malhete soldado aceito em R3 e R3S (R4 só com aprovação especial), soldado antes do tratamento térmico, numa só ponta (lado oposto à solda de topo), por soldador qualificado com consumível de baixo hidrogênio. Elo de emenda feito por procedimento aprovado, com elo-gêmeo para ensaio, sem afetar os vizinhos.",
+   "valores": [
+    {"parametro": "Mordedura máxima na solda do malhete", "valor": "1 mm", "item": "6.8.6"},
+    {"parametro": "Solda de malhete com LP/PM", "valor": "≥ 10 % por seção de amarra", "item": "6.8.7"},
+    {"parametro": "Temperatura máxima dos elos adjacentes ao elo de emenda", "valor": "250 °C", "item": "6.9"}
+   ]},
+  {"titulo": "Ensaios e inspeção", "item": "7",
+   "texto": "Após o tratamento térmico final, na presença de vistoriador e sem carepa ou pintura: carga de prova em 100 % do comprimento, ruptura em amostra de ≥ 3 elos (frequência da Tab. 4), END em todos os elos e ensaios mecânicos (1 tração + 9 Charpy V por conjunto, propriedades da Parte 1).",
+   "valores": [
+    {"parametro": "Sobrecarga admitida na prova", "valor": "até +10 % do valor da Tab. 1", "item": "7.2"},
+    {"parametro": "Deformação plástica após prova (sem malhete)", "valor": "≤ 2,5 %", "item": "7.2"},
+    {"parametro": "Partículas magnéticas", "valor": "100 % dos elos (região da solda e das mordaças)", "item": "7.4.2"},
+    {"parametro": "Ultrassom", "valor": "100 % das soldas de topo", "item": "7.4.3"},
+    {"parametro": "Alongar trecho curto de 5 elos", "valor": "carga até 10 % acima da prova", "item": "7.6.1"}
+   ]},
+  {"titulo": "Reparos e marcação", "item": "7.6–9",
+   "texto": "Elos com defeito são cortados e substituídos por elo de emenda; defeitos superficiais removidos por esmerilhamento dentro dos limites. Cada seção e cada elo de emenda recebem marcação de identificação.",
+   "valores": []}
+ ]
+}

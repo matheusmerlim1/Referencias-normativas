@@ -1,0 +1,57 @@
+{
+ "id": "ISO-6022",
+ "titulo": "ISO 6022:2006 — Cilindros hidráulicos de haste simples, série 25 MPa (250 bar) — Dimensões de montagem",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Dimensões de montagem para intercambiabilidade de cilindros hidráulicos de 25 MPa (250 bar), sem restringir o projeto.",
+   "valores": [
+    {
+     "parametro": "Pressão nominal",
+     "valor": "25 MPa (250 bar)",
+     "item": "1"
+    },
+    {
+     "parametro": "Camisas cobertas",
+     "valor": "50, 63, 80, 100, 125, 140, 160, 180, 200, 250, 320 mm",
+     "item": "4"
+    }
+   ]
+  },
+  {
+   "titulo": "Montagens",
+   "item": "6",
+   "texto": "Tipos: MF3 flange circular dianteira; MF4 flange circular traseira; MP3 olhal fixo; MP4 olhal removível; MP5 olhal fixo com rótula; MP6 olhal removível com rótula; MT4 munhão intermediário (fixo ou móvel). Algumas cotas (ZJ, WF, WC, ZP, XC, XD, XO, XN, XV) têm tolerância dependente do curso (Tab. 6).",
+   "valores": []
+  },
+  {
+   "titulo": "Tolerância de curso",
+   "item": "Tab. 7",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Curso ≤ 1 250 mm",
+     "valor": "+2 / 0 mm",
+     "item": "Tab. 7"
+    },
+    {
+     "parametro": "1 250 < curso ≤ 3 150 mm",
+     "valor": "+5 / 0 mm",
+     "item": "Tab. 7"
+    },
+    {
+     "parametro": "3 150 < curso ≤ 8 000 mm",
+     "valor": "+8 / 0 mm",
+     "item": "Tab. 7"
+    }
+   ]
+  },
+  {
+   "titulo": "Haste e identificação",
+   "item": "7–8",
+   "texto": "Haste com rosca macho com ressalto; pontas pela ISO 4395; acessórios pela ISO 8132.",
+   "valores": []
+  }
+ ]
+}

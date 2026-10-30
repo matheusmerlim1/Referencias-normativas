@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 520" width="940" height="520" role="img" aria-label="Parafuso estrutural sextavado pesado (ASME B18.2.6) — E, F, G, H, R, LT, Y, L">
+<title>Parafuso estrutural sextavado pesado (ASME B18.2.6) — E, F, G, H, R, LT, Y, L (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Parafuso estrutural sextavado pesado (ASME B18.2.6) — E, F, G, H, R, LT, Y, L</text>
+<rect class="s" x="110" y="150" width="200" height="70"/>
+<line class="e" x1="160" y1="150" x2="160" y2="220"/>
+<line class="e" x1="260" y1="150" x2="260" y2="220"/>
+<rect class="sl" x="160" y="220" width="100" height="230"/>
+<line class="e" x1="160" y1="380" x2="260" y2="386"/>
+<line class="e" x1="160" y1="394" x2="260" y2="400"/>
+<line class="e" x1="160" y1="408" x2="260" y2="414"/>
+<line class="e" x1="160" y1="422" x2="260" y2="428"/>
+<line class="e" x1="160" y1="436" x2="260" y2="442"/>
+<line class="c" x1="210" y1="100" x2="210" y2="500"/>
+<g id="cota-H" class="cota"><line class="e" x1="313" y1="150" x2="346" y2="150"/><line class="e" x1="313" y1="220" x2="346" y2="220"/><line class="d" x1="340" y1="150" x2="340" y2="220" marker-start="url(#a)" marker-end="url(#a)"/><text x="347" y="190">H</text></g>
+<g id="cota-E" class="cota"><line class="d" x1="160" y1="280" x2="260" y2="280" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="210" y="272">E</text></g>
+<g id="cota-R" class="cota"><line class="d" x1="340" y1="255" x2="260" y2="226" marker-end="url(#a)"/><text x="344" y="260">R</text></g>
+<g id="cota-LT" class="cota"><line class="e" x1="263" y1="380" x2="306" y2="380"/><line class="e" x1="263" y1="450" x2="306" y2="450"/><line class="d" x1="300" y1="380" x2="300" y2="450" marker-start="url(#a)" marker-end="url(#a)"/><text x="307" y="420">LT</text></g>
+<g id="cota-Y" class="cota"><line class="e" x1="263" y1="350" x2="346" y2="350"/><line class="e" x1="263" y1="380" x2="346" y2="380"/><line class="d" x1="340" y1="324" x2="340" y2="350" marker-end="url(#a)"/><line class="d" x1="340" y1="406" x2="340" y2="380" marker-end="url(#a)"/><line class="d" x1="340" y1="350" x2="340" y2="380"/><text x="350" y="360">Y</text></g>
+<g id="cota-L" class="cota"><line class="e" x1="107" y1="220" x2="74" y2="220"/><line class="e" x1="107" y1="450" x2="74" y2="450"/><line class="d" x1="80" y1="220" x2="80" y2="450" marker-start="url(#a)" marker-end="url(#a)"/><text x="87" y="340">L</text></g>
+<path class="s" d="M740,287.7 L640,345.5 L540,287.7 L540,172.3 L640,114.5 L740,172.3 z"/>
+<g id="cota-F" class="cota"><line class="d" x1="540" y1="230" x2="740" y2="230" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="640" y="222">F</text></g>
+<g id="cota-G" class="cota"><line class="e" x1="643" y1="114.5" x2="786" y2="114.5"/><line class="e" x1="643" y1="345.5" x2="786" y2="345.5"/><line class="d" x1="780" y1="114.5" x2="780" y2="345.5" marker-start="url(#a)" marker-end="url(#a)"/><text x="787" y="235">G</text></g>
+<text class="n" x="520" y="420">face de assento com chanfro; marcação no topo da cabeça</text>
+<g id="cota-batimento" class="cota"><line class="d" x1="330" y1="135" x2="270" y2="220" marker-end="url(#a)"/><text x="330" y="140">batimento da face de assento</text></g>
+<text class="n" x="20" y="508">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

@@ -1,0 +1,31 @@
+{
+ "id": "DIN-7337",
+ "titulo": "DIN 7337:1991 — Rebites cegos com haste de ruptura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Dimensões, material, projeto, resistência, acabamento e ensaios de rebites cegos (pop) autotravantes com haste de ruptura, fornecidos com a haste montada. Tipos de cabeça conforme a norma (ex. tipo A).",
+   "valores": []
+  },
+  {
+   "titulo": "Materiais e acabamento",
+   "item": "4–5",
+   "texto": "Combinações de corpo e haste da Tabela 3 (alumínio, aço, cobre, bronze, inox A2), aço conforme DIN 2391/1654; acabamento natural de preferência; AQL para lotes com peças fora do padrão.",
+   "valores": []
+  },
+  {
+   "titulo": "Designação e ensaios",
+   "item": "6–7",
+   "texto": "Designação: Rebite DIN 7337 – tipo/diâmetro × comprimento – material do corpo – material da haste – acabamento (ex. DIN 7337 – A4 × 8 – Al – St – A1P). Ensaios de cisalhamento e tração com dispositivos dos Anexos A e B (Tab. 6–7).",
+   "valores": [
+    {
+     "parametro": "Resistências ao cisalhamento e tração",
+     "valor": "Tabelas 6 e 7",
+     "item": "7.3",
+     "nota": "valores não legíveis — conferir"
+    }
+   ]
+  }
+ ]
+}

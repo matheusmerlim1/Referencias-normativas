@@ -1,0 +1,75 @@
+{
+ "id": "ASME-SB-61",
+ "titulo": "SB-61 — Fundidos de bronze para vapor (bronze de válvula)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Bronze de alta qualidade para vapor/válvulas (UNS C92200) em peças fundidas de válvulas, flanges e conexões, em geral fabricadas para estoque."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Liga UNS C92200; elementos principais (residuais limitados na mesma tabela).",
+   "valores": [
+    {
+     "parametro": "Cu",
+     "valor": "86,0–90,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Sn",
+     "valor": "5,5–6,5 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Pb",
+     "valor": "1,0–2,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Zn",
+     "valor": "3,0–5,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni (incl. Co) máx.",
+     "valor": "1,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Fe máx.",
+     "valor": "0,25 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Determinadas em barras de ensaio fundidas à parte; escoamento a 0,5 % de extensão sob carga.",
+   "valores": [
+    {
+     "parametro": "Su mín.",
+     "valor": "34 ksi (235 MPa)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "16 ksi (110 MPa)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm",
+     "valor": "24 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo e marcação",
+   "item": "6, 10",
+   "texto": "Peças não podem ser tamponadas, soldadas, refundidas localmente ou impregnadas. Válvulas, flanges e conexões marcadas conforme MSS SP-25."
+  }
+ ]
+}

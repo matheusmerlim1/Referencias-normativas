@@ -1,0 +1,62 @@
+{
+ "id": "NBR-15280-2",
+ "titulo": "ABNT NBR 15280-2:2014 — Dutos terrestres — Parte 2: Construção e montagem",
+ "secoes": [
+  {"titulo": "Requisitos gerais", "item": "1–4",
+   "texto": "Construção e montagem de oleodutos e gasodutos terrestres (projeto pela Parte 1 ou NBR 12712), sempre por procedimentos executivos escritos com equipamentos, critérios de segurança, meio ambiente e qualidade, inspeção e projeto executivo de detalhamento.",
+   "valores": []},
+  {"titulo": "Materiais, faixa e vala", "item": "5.1–5.6",
+   "texto": "Inspeção de recebimento e armazenamento; locação da faixa; abertura da pista e da vala com levantamento topográfico do fundo, fundo regular e sem pontas de rocha; berço de solo selecionado ou sacos de areia; escoramento conforme NR-18; material escavado sem obstruir terceiros.",
+   "valores": [
+    {"parametro": "Berço de material fino (D/e > 50)", "valor": "camada de 20 cm sem pedras e raízes", "item": "5.5.1 f)"},
+    {"parametro": "Sobrelargura/profundidade da vala em curvas (área rural)", "valor": "≥ 30 cm", "item": "5.5.8"},
+    {"parametro": "Apoios de sacos de areia (só D/e < 50)", "valor": "espaçamento ≤ 3 m", "item": "5.5.9.3 b)"},
+    {"parametro": "Corte de pontas de rocha abaixo do duto", "valor": "≥ 20 cm", "item": "5.5.9", "nota": "texto cortado — conferir condições"}
+   ]},
+  {"titulo": "Curvamento de tubos", "item": "5.7",
+   "texto": "Curva a frio conforme Parte 1 (oleodutos) ou NBR 12712 (gasodutos); por indução conforme NBR 15273. O raio mínimo é qualificado num tubo revestido com golpes progressivos até enrugamento ou dano ao revestimento; ovalização e enrugamento dentro dos limites (enrugamento pelo B31.4/B31.8).",
+   "valores": [
+    {"parametro": "Placa do pig calibrador", "valor": "DP = 0,975·D − 2e", "item": "5.7"},
+    {"parametro": "Redução de espessura no curvamento", "valor": "≤ 2,5 % abaixo do mínimo da norma do tubo", "item": "5.7.4 b)", "nota": "texto parcial — conferir"}
+   ]},
+  {"titulo": "Soldagem e inspeção", "item": "5.9–5.10",
+   "texto": "Soldagem e bisel conforme ASME B31.4 (óleo) ou B31.8 (gás); procedimento qualificado pela API 1104 (componentes: ASME IX). Ajuste com gabarito, limpeza interna antes do acoplamento. END e aceitação pelo B31.4/B31.8 e API 1104; ultrassom mecanizado com registro digital (ASTM E1961); gamagrafia com aviso à comunidade e controle de radiação.",
+   "valores": [
+    {"parametro": "Remoção de solda circunferencial", "valor": "corte de anel ≥ 100 mm com a solda no meio", "item": "5.9.5"},
+    {"parametro": "Faixa esmerilhada/escovada junto ao bisel", "valor": "≥ 50 mm, interna e externa", "item": "5.9.6"},
+    {"parametro": "Solda longitudinal do tubo", "valor": "fora de ± 10° da geratriz inferior", "item": "5.9.7"},
+    {"parametro": "Mossa ou entalhe no bisel", "valor": "≤ 2 mm (acima, remover)", "item": "5.9.9"},
+    {"parametro": "Faixa limpa de cada lado da junta", "valor": "≥ 20 mm", "item": "5.9.11"},
+    {"parametro": "Remoção após goivagem com eletrodo de carvão", "valor": "≥ 1 mm", "item": "5.9.13"}
+   ]},
+  {"titulo": "Revestimento, abaixamento e cobertura", "item": "5.11–5.16",
+   "texto": "Revestimento de juntas de campo e reparos; abaixamento sem danificar o revestimento; cobertura logo após o abaixamento; restauração da faixa, sinalização e cruzamentos/travessias.",
+   "valores": [
+    {"parametro": "1ª camada de cobertura", "valor": "solo solto sem pedras até 30 cm acima da geratriz superior", "item": "5.13.2"},
+    {"parametro": "Pedras no restante do reaterro", "valor": "≤ 15 cm", "item": "5.13.2"}
+   ]},
+  {"titulo": "Limpeza, enchimento e calibração", "item": "6",
+   "texto": "Passagem de pigs para remover carepa e detritos, enchimento com água de qualidade controlada e pig calibrador com placa que não pode sair amassada.",
+   "valores": []},
+  {"titulo": "Teste hidrostático", "item": "7",
+   "texto": "Primeiro resistência mecânica, depois estanqueidade, com instrumentos calibrados (balança de peso morto, registradores, totalizador de vazão). Verifica-se ar residual pelo gráfico P × V. O gráfico deve ficar linear: o escoamento dos tubos não pode ser atingido.",
+   "valores": [
+    {"parametro": "Taxa de pressurização", "valor": "≤ 1 bar/min", "item": "7.4.2, 7.4.3.2"},
+    {"parametro": "Ar residual máximo", "valor": "0,2 % do volume do trecho (ΔVar ≤ 0,002·Vi)", "item": "7.4.2 e)"},
+    {"parametro": "Patamar inicial", "valor": "50 % da pressão de teste por ≥ 24 h", "item": "7.4.3.1"},
+    {"parametro": "Acima de 70 % da pressão de teste", "valor": "incrementos de 1 bar a intervalos ≥ 3 min", "item": "7.4.3.4"},
+    {"parametro": "Estabilização no topo", "valor": "30 min", "item": "7.4.3.6"},
+    {"parametro": "Faixa de controle durante o teste", "valor": "± 0,5 % da pressão de teste", "item": "7.4.3.7"},
+    {"parametro": "Duração do teste de resistência", "valor": "4 h contínuas", "item": "7.4.3.8"},
+    {"parametro": "Limite de linearidade P × V", "valor": "volume dobra para 1 bar (2ΔV por ΔP) ou desvio de 0,2 % do volume", "item": "7.4.5"},
+    {"parametro": "Duração do teste de estanqueidade", "valor": "≥ 24 h, sem injetar ou purgar água", "item": "7.5.3–7.5.4"},
+    {"parametro": "Resolução dos instrumentos", "valor": "registrador 0,07 bar; manômetro 0,5 bar (2º terço da escala); temperatura 0,1 °C", "item": "7.3"},
+    {"parametro": "Válvula de alívio", "valor": "ajustada a ≤ 5 % acima da pressão máxima prevista no ponto", "item": "7.3", "nota": "texto parcial — conferir"}
+   ]},
+  {"titulo": "Condicionamento, inspeção do revestimento e documentação", "item": "8–10",
+   "texto": "Após o teste: esvaziamento, pré-secagem, limpeza, montagem de componentes, secagem final e inertização. Inspeção do revestimento enterrado (ex. DCVG) após pelo menos um mês da cobertura. Documentação 'como construído', relatórios de teste e pig geométrico, certificados, procedimentos e registros de END.",
+   "valores": [
+    {"parametro": "Inspeção do revestimento após cobertura", "valor": "≥ 1 mês depois", "item": "9.1"}
+   ]}
+ ]
+}

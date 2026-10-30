@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SA-691",
+ "titulo": "SA-691 — Tubos de aço carbono e liga soldados por fusão elétrica para alta pressão e alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de aço carbono e liga soldados por fusão elétrica com metal de adição, feitos de chapa de qualidade para vaso de pressão (SA-204, 299, 387, 537 etc.), para alta pressão em alta temperatura. O grau indica a chapa (ex.: CM-65, CMSH-70, 1/2CR, 1CR, 1 1/4CR, 2 1/4CR, 5CR, 9CR, 91); a classe, o tratamento e os exames. Requisitos gerais pela SA-530."
+  },
+  {
+   "titulo": "Classes",
+   "item": "1.3",
+   "texto": "A classe tem dois dígitos: o primeiro indica o tratamento térmico do tubo (1 nenhum; 2 alívio de tensões; 3 normalizado; 4 normalizado e revenido; 5 temperado e revenido; 6/7 com endurecimento por precipitação) e o segundo indica os exames (0 nenhum; 1 radiografia; 2 radiografia e teste de pressão; 3 só teste de pressão). Ex.: Classe 22 = aliviado, radiografado e testado."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5, Tabela 2",
+   "texto": "Faixas por grau (TTAT / normalização máx. / revenimento):",
+   "valores": [
+    {
+     "parametro": "CM-65, CM-70, CM-75 (SA-204)",
+     "valor": "TTAT 1100–1200 °F (590–650 °C); normalização máx. 1700 °F (925 °C)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "1/2CR, 1CR (SA-387)",
+     "valor": "TTAT 1100–1300/1350 °F (590–705/730 °C); normalização máx. 1850 °F (1010 °C); revenimento 1150–1375 °F (620–745 °C)",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "7 a 9, 13",
+   "texto": "Análise de produto da chapa e do metal de solda; uma tração transversal à solda por lote (Su ≥ mínimo da chapa); radiografia total nas classes X1 e X2 (ASME VIII). Marcação por tinta resistente ao calor ou punções de baixa tensão."
+  }
+ ]
+}

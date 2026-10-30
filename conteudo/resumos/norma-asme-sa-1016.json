@@ -1,0 +1,55 @@
+{
+ "id": "ASME-SA-1016",
+ "titulo": "SA-1016 — Requisitos gerais para tubos (tubing) de aço ferrítico liga, austenítico e inoxidável",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns às especificações de tubos de caldeira, superaquecedor e trocador de aço ferrítico liga, austenítico e inoxidável (SA-209, 213, 249, 250, 268, 688, 789, 803 e outras): química, tração, massa e tolerâncias, ensaios de achatamento, achatamento e dobramento reversos, alargamento, flangeamento, dureza, END, hidrostático e pneumático, reparo e marcação."
+  },
+  {
+   "titulo": "Ensaios mecânicos",
+   "item": "18 a 24",
+   "texto": "Ensaios pela A370 em temperatura ambiente.",
+   "valores": [
+    {
+     "parametro": "Achatamento — amostra sem costura / soldado",
+     "valor": "≥ 2 1/2 in [60 mm] / ≥ 4 in [100 mm]",
+     "item": "19.1"
+    },
+    {
+     "parametro": "Dobramento reverso — mandril máx.",
+     "valor": "4 × espessura",
+     "item": "21.1"
+    },
+    {
+     "parametro": "Alargamento — ângulo da ferramenta",
+     "valor": "60°",
+     "item": "22.1"
+    },
+    {
+     "parametro": "Alargamento — expansão mín. (DI/DE = 0,9) ferrítico / austenítico",
+     "valor": "21 % / 15 %",
+     "item": "Tabela 5"
+    }
+   ]
+  },
+  {
+   "titulo": "END e hidrostático",
+   "item": "25 a 27",
+   "texto": "Cada tubo passa por END elétrico (E213, E309, E426 ou E570); o hidrostático pode substituí-lo quando pedido, com P = 32 000 t/D (psi). Teste pneumático sob água quando exigido.",
+   "valores": [
+    {
+     "parametro": "Pneumático sob água",
+     "valor": "150 psi",
+     "item": "27.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo e marcação",
+   "item": "14, 31",
+   "texto": "Reparo por solda do metal-base só com aprovação do comprador. Cada tubo marcado com fabricante, especificação e grau."
+  }
+ ]
+}

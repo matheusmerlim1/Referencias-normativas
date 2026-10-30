@@ -1,0 +1,79 @@
+{
+ "id": "ASME-SFA-5.18",
+ "titulo": "SFA-5.18 — Arames e varetas de aço carbono para soldagem com proteção gasosa (AWS A5.18)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos de aço carbono (sólidos, compostos encordoados e de alma metálica) e varetas sólidas para MIG/MAG (GMAW), TIG (GTAW) e plasma (PAW)."
+  },
+  {
+   "titulo": "Classificações",
+   "item": "—",
+   "texto": "ER70S-X (A5.18M: ER48S-X) para arames sólidos; E70C-X para alma metálica. Os dígitos dão o Su mínimo; o sufixo, a composição/desoxidação."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabelas 1 e 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "ER70S-6 — C / Mn / Si (máx.)",
+     "valor": "0,15 / 1,85 / 1,15 %",
+     "item": "Tabela 1",
+     "nota": "limites inferiores não legíveis na extração; conferir"
+    },
+    {
+     "parametro": "ER70S-2 — Ti / Zr / Al",
+     "valor": "0,05–0,15 / 0,02–0,12 / 0,05–0,15 %",
+     "item": "Tabela 1",
+     "nota": "atribuição por posição; conferir"
+    },
+    {
+     "parametro": "E70C-3X (metal de solda) — C / Mn / Si máx.",
+     "valor": "0,12 / 1,75 / 0,90 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas (como soldado)",
+   "item": "Tabelas 3 e 4",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "ER70S-2, -3, -4, -6, -7, -G — Su / Sy mín. / along.",
+     "valor": "70 000 psi (480) / 58 000 psi (400) / 22 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Charpy ER70S-2, ER70S-6",
+     "valor": "média 20 ft·lbf a −20 °F [27 J a −30 °C]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Charpy ER70S-3",
+     "valor": "20 ft·lbf a 0 °F [27 J a −20 °C]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Charpy ER70S-4",
+     "valor": "não exigido",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabelas 5 e 7",
+   "texto": "Análise química do arame, radiografia, tração, dobramento e Charpy conforme a classificação; hidrogênio difusível opcional.",
+   "valores": [
+    {
+     "parametro": "Hidrogênio difusível (opcional) — H16 / H8 / H4",
+     "valor": "16,0 / 8,0 / 4,0 mL/100 g",
+     "item": "Tabela 7"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "id": "DIN-6885",
+ "titulo": "DIN 6885 Folhas 1–3 — Chavetas paralelas e rasgos (original alemão)",
+ "secoes": [
+  {
+   "titulo": "Conteúdo",
+   "item": "Folhas 1–3",
+   "texto": "Originais em alemão: Folha 1 forma alta (mesmo conteúdo da tradução DIN 6885-1), Folha 2 forma alta para máquinas-ferramenta, Folha 3 forma baixa. Tabelas por diâmetro de eixo com seção b × h, profundidades dos rasgos, comprimentos e parafusos.",
+   "valores": []
+  },
+  {
+   "titulo": "Tolerâncias e material",
+   "item": "notas",
+   "texto": "Mesmas regras da Folha 1: rasgos fresados em IT9, brochados em IT8; J9 do cubo passou a JS9; St 50-1K até h = 25 mm (DIN 1652).",
+   "valores": [
+    {
+     "parametro": "Rasgos brochados",
+     "valor": "P8, N8, JS8 no lugar de P9, N9, JS9",
+     "item": "nota 5",
+     "nota": "cópia OCR — conferir"
+    }
+   ]
+  }
+ ]
+}

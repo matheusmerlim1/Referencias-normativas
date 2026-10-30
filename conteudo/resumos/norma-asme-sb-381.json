@@ -1,0 +1,55 @@
+{
+ "id": "ASME-SB-381",
+ "titulo": "SB-381 — Forjados de titânio e ligas de titânio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Forjados recozidos de titânio e ligas de titânio em 39 graus (F-1 a F-4 não ligados, F-5 Ti-6Al-4V, F-7 Ti-Pd, F-9, F-12 e outros)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N máx. / C máx. / H máx. (F-1, F-2)",
+     "valor": "0,03 % / 0,08 % / 0,015 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Fe máx. — F-1 / F-2 / F-4",
+     "valor": "0,20 / 0,30 / 0,50 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1",
+   "texto": "Su mín. / Sy mín. / alongamento em 4D / redução de área.",
+   "valores": [
+    {
+     "parametro": "F-1",
+     "valor": "35 ksi (240) / 20 ksi (138) / 24 % / 30 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "F-2",
+     "valor": "50 ksi (345) / 40 ksi (275) / 20 % / 30 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "F-4",
+     "valor": "80 ksi (550) / 70 ksi (483) / 15 % / 25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "F-5 (Ti-6Al-4V)",
+     "valor": "130 ksi (895) / 120 ksi (828) / 10 % / 25 %",
+     "item": "Tabela 1"
+    }
+   ]
+  }
+ ]
+}

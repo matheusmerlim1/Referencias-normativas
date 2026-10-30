@@ -1,0 +1,968 @@
+{
+ "id": "NR-18",
+ "titulo": "NR-18 — Segurança e saúde no trabalho na indústria da construção",
+ "secoes": [
+  {
+   "titulo": "Objetivo e campo de aplicação",
+   "item": "18.1–18.2",
+   "texto": "A norma organiza o planejamento e as medidas de prevenção nos canteiros da construção civil. Vale para as atividades da seção F da CNAE e também para demolição, reparo, pintura, limpeza e manutenção de edifícios e de obras de urbanização."
+  },
+  {
+   "titulo": "Responsabilidades e PGR do canteiro",
+   "item": "18.3–18.4",
+   "texto": "Ninguém entra no canteiro sem as proteções previstas, e a obra é comunicada à inspeção do trabalho antes de começar. Todo canteiro tem PGR, feito por profissional habilitado em segurança, que reúne os projetos de área de vivência, elétrica provisória, proteções coletivas, SPIQ e a lista de EPI. Soluções alternativas às proteções coletivas são admitidas para construtoras registradas no CONFEA/CREA, com procedimento, análise de risco, permissão de trabalho e memória de cálculo.",
+   "valores": [
+    {
+     "parametro": "Canteiro em que o PGR pode ser feito por profissional qualificado (e não habilitado)",
+     "valor": "altura ≤ 7 m e no máximo 10 trabalhadores",
+     "item": "18.4.2.1"
+    },
+    {
+     "parametro": "Comunicação prévia da obra",
+     "valor": "antes do início das atividades, em sistema da SIT",
+     "item": "18.3.1 b)"
+    }
+   ]
+  },
+  {
+   "titulo": "Áreas de vivência",
+   "item": "18.5",
+   "texto": "O canteiro deve ter instalação sanitária, vestiário, local de refeição e, havendo alojados, alojamento com cozinha, lavanderia e lazer; no que couber, aplica-se a NR-24. Água potável e fresca deve ficar perto dos postos, sem copo coletivo. Nas frentes de trabalho valem sanitário (pode ser químico, com higienização diária) e local de refeição protegido.",
+   "valores": [
+    {
+     "parametro": "Conjunto sanitário (lavatório, bacia sifonada com assento e tampo, mictório)",
+     "valor": "1 para cada 20 trabalhadores ou fração",
+     "item": "18.5.3"
+    },
+    {
+     "parametro": "Chuveiro",
+     "valor": "1 para cada 10 trabalhadores ou fração",
+     "item": "18.5.3"
+    },
+    {
+     "parametro": "Deslocamento máximo do posto até a instalação sanitária",
+     "valor": "≤ 150 m",
+     "item": "18.5.5"
+    },
+    {
+     "parametro": "Bebedouro ou equivalente",
+     "valor": "1 para cada 25 trabalhadores ou fração",
+     "item": "18.5.6"
+    },
+    {
+     "parametro": "Distância máxima do posto ao bebedouro",
+     "valor": "≤ 100 m na horizontal e ≤ 15 m na vertical",
+     "item": "18.5.6.1"
+    },
+    {
+     "parametro": "Frente de trabalho — bacia sifonada e lavatório",
+     "valor": "1 conjunto para cada 20 trabalhadores ou fração",
+     "item": "18.5.7 a)"
+    }
+   ]
+  },
+  {
+   "titulo": "Instalações elétricas",
+   "item": "18.6",
+   "texto": "As instalações provisórias e definitivas seguem a NR-10 e um projeto de profissional habilitado. Não pode haver parte viva acessível; os condutores ficam protegidos e fora das passagens, e os de equipamentos móveis ou portáteis têm isolação dupla ou reforçada. Exigem-se aterramento de proteção com laudos periódicos, DR nos casos das normas técnicas, quadros identificados e com acesso livre, seccionamento por circuito, plugue e tomada para equipamentos móveis e SPDA no canteiro (dispensável só com laudo). Em montagem metálica, a estrutura é aterrada desde o início."
+  },
+  {
+   "titulo": "Demolição, escavação, fundação e desmonte de rocha",
+   "item": "18.7.1–18.7.2",
+   "texto": "Demolição exige plano assinado por profissional habilitado, cobrindo redes, vizinhos, entulho, aberturas, poeira e trânsito. Escavações seguem projeto e ficam sinalizadas e isoladas; acima de certa profundidade só começam com liberação do habilitado e precisam de talude ou escoramento e de escada ou rampa para fuga. Tubulão escavado à mão tem limites de profundidade e diâmetro, plano de resgate, sarilho com dupla trava e ventilação; tubulão a ar comprimido é proibido. Desmonte a fogo exige plano de fogo por detonação e blaster.",
+   "valores": [
+    {
+     "parametro": "Profundidade de escavação que exige liberação do profissional habilitado",
+     "valor": "> 1,25 m",
+     "item": "18.7.2.3"
+    },
+    {
+     "parametro": "Profundidade de escavação que exige talude/escoramento em projeto e escada ou rampa de fuga",
+     "valor": "> 1,25 m",
+     "item": "18.7.2.8"
+    },
+    {
+     "parametro": "Faixa livre de cargas na borda da escavação",
+     "valor": "≥ 1 m",
+     "item": "18.7.2.7"
+    },
+    {
+     "parametro": "Inspeção dos escoramentos",
+     "valor": "diária",
+     "item": "18.7.2.11"
+    },
+    {
+     "parametro": "Tubulão escavado manualmente — profundidade máxima",
+     "valor": "15 m",
+     "item": "18.7.2.16"
+    },
+    {
+     "parametro": "Tubulão manual — sondagem ou estudo geotécnico obrigatório",
+     "valor": "profundidade > 3 m",
+     "item": "18.7.2.17 b)"
+    },
+    {
+     "parametro": "Tubulão manual — diâmetro mínimo",
+     "valor": "0,9 m",
+     "item": "18.7.2.17 c)"
+    },
+    {
+     "parametro": "Sarilho — rodapé na base",
+     "valor": "0,2 m",
+     "item": "18.7.2.22 a)"
+    },
+    {
+     "parametro": "Sarilho — afastamento da borda do tubulão",
+     "valor": "≥ 0,5 m",
+     "item": "18.7.2.22 a)"
+    },
+    {
+     "parametro": "Corda do balde — voltas mínimas no tambor",
+     "valor": "6 voltas em qualquer posição",
+     "item": "18.7.2.22 e)"
+    },
+    {
+     "parametro": "Fundação por tubulão de ar comprimido",
+     "valor": "proibida",
+     "item": "18.7.2.23"
+    }
+   ]
+  },
+  {
+   "titulo": "Carpintaria, armação, concreto e estruturas metálicas",
+   "item": "18.7.3–18.7.5",
+   "texto": "Áreas de carpintaria e armação têm piso firme e antiderrapante, cobertura, lâmpadas protegidas e limpeza diária. Feixes de vergalhão içados são amarrados, armações são escoradas e pontas expostas protegidas. Fôrmas e escoramentos seguem projeto com a ordem de retirada; concretagem é supervisionada e isolada, e na protensão ninguém fica atrás do macaco. Montagem metálica fica sob profissional habilitado, com SPIQ e acessos previstos no PGR."
+  },
+  {
+   "titulo": "Trabalho a quente",
+   "item": "18.7.6",
+   "texto": "Solda, goivagem, esmerilhamento e corte pedem análise de risco específica quando há combustível por perto ou a área não é isolada; pode ser exigido um observador treinado em combate a incêndio. Antes, o local é inspecionado e limpo; durante, há proteção contra respingos e combate a incêndio à mão; depois, nova inspeção. Gases exigem reguladores calibrados, válvula contra retrocesso no oxiacetileno, cilindros em pé, fixos, com capacete e longe de calor; cilindros em espaço confinado e adaptadores entre cilindro e regulador são proibidos."
+  },
+  {
+   "titulo": "Impermeabilização",
+   "item": "18.7.7",
+   "texto": "O reservatório de aquecimento tem identificação do fabricante, manual, tampa com respiro e termômetro, e fica em local ventilado, nivelado e sinalizado. Produtos e cilindros ficam em depósito separado. É proibido aquecer à lenha ou mover o equipamento com tampa destravada.",
+   "valores": [
+    {
+     "parametro": "Cilindro de gás do aquecedor — capacidade mínima",
+     "valor": "8 kg",
+     "item": "18.7.7.5 a)"
+    },
+    {
+     "parametro": "Distância mínima cilindro–equipamento de aquecimento",
+     "valor": "3 m",
+     "item": "18.7.7.5 b)"
+    },
+    {
+     "parametro": "Cilindro que deve ficar sobre rodas",
+     "valor": "capacidade ≥ 45 kg",
+     "item": "18.7.7.5 c)"
+    },
+    {
+     "parametro": "Mangueira/tubo flexível — comprimento mínimo",
+     "valor": "5 m",
+     "item": "18.7.7.5 d)"
+    },
+    {
+     "parametro": "Inspeção de vazamento do sistema a gás",
+     "valor": "a cada intervenção",
+     "item": "18.7.7.6"
+    }
+   ]
+  },
+  {
+   "titulo": "Telhados e coberturas",
+   "item": "18.7.8",
+   "texto": "Acima de certa altura com risco de queda aplica-se a NR-35, e o acesso ao SPIQ do telhado não pode expor a queda. Não se trabalha sobre superfície frágil ou escorregadia, com chuva ou vento forte, sobre equipamento que emite gases, nem com carga concentrada sem autorização do habilitado.",
+   "valores": [
+    {
+     "parametro": "Altura a partir da qual vale a NR-35 em telhados",
+     "valor": "> 2 m",
+     "item": "18.7.8.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Escadas, rampas e passarelas — regras gerais",
+   "item": "18.8.1–18.8.5",
+   "texto": "Desníveis acima de um limite pedem escada ou rampa, e vãos com risco de queda pedem passarela. Todos são dimensionados para as cargas. Quando a escada exige as mãos para subir, o material vai por outro meio.",
+   "figuras": [
+    "esquemas/escada-degraus-angulo-tipo.svg"
+   ],
+   "valores": [
+    {
+     "parametro": "Desnível que obriga escada ou rampa",
+     "valor": "> 0,4 m",
+     "item": "18.8.1",
+     "cota": "esquemas/escada-degraus-angulo-tipo.svg#desnivel"
+    },
+    {
+     "parametro": "Rampa — inclinação",
+     "valor": "< 15°",
+     "item": "18.8.2 a)"
+    },
+    {
+     "parametro": "Escada móvel — ângulo",
+     "valor": "50° a 75° (ou conforme o fabricante)",
+     "item": "18.8.2 b)",
+     "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo"
+    },
+    {
+     "parametro": "Escada fixa vertical — ângulo",
+     "valor": "75° a 90°",
+     "item": "18.8.2 c)",
+     "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo-sem-espelho"
+    }
+   ]
+  },
+  {
+   "titulo": "Escada fixa de uso coletivo",
+   "item": "18.8.6.1",
+   "texto": "É dimensionada pelo fluxo de pessoas, tem proteção contra quedas nos lados (guarda-corpo do 18.9.4), piso completo e antiderrapante e fica bem fixada nas pontas. Os degraus têm altura uniforme e há patamares intermediários com a largura da escada.",
+   "figuras": [
+    "esquemas/escada-degraus-largura-corte.svg",
+    "esquemas/escada-degraus-degrau.svg",
+    "esquemas/escada-degraus-lance-patamar.svg"
+   ],
+   "valores": [
+    {
+     "parametro": "Largura mínima",
+     "valor": "0,8 m",
+     "item": "18.8.6.1 c)",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Altura máxima entre degraus (uniforme)",
+     "valor": "≤ 0,2 m",
+     "item": "18.8.6.1 d)",
+     "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+     "parametro": "Patamar intermediário — intervalo máximo de altura",
+     "valor": "a cada 2,9 m",
+     "item": "18.8.6.1 e)",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+     "parametro": "Patamar — dimensões",
+     "valor": "largura igual à da escada e comprimento ≥ largura",
+     "item": "18.8.6.1 e)",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
+    }
+   ]
+  },
+  {
+   "titulo": "Escada fixa vertical",
+   "item": "18.8.6.2–18.8.6.3",
+   "texto": "Escada tipo marinheiro deve resistir aos esforços, ter degraus uniformes e ser fixada na base, em intervalos e no topo. Lances longos são divididos por plataformas de descanso protegidas; lances paralelos ficam afastados entre eixos. Acima de uma altura, o uso de SPIQ é obrigatório.",
+   "figuras": [
+    "esquemas/resumo-nr-12-escada-fixa-vertical.svg"
+   ],
+   "valores": [
+    {
+     "parametro": "Corrimão ou prolongamento dos montantes acima do piso de saída",
+     "valor": "1,1 m a 1,2 m",
+     "item": "18.8.6.2 b)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#prolongamento"
+    },
+    {
+     "parametro": "Largura",
+     "valor": "0,4 m a 0,6 m",
+     "item": "18.8.6.2 c)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#largura"
+    },
+    {
+     "parametro": "Altura máxima — lance único",
+     "valor": "10 m",
+     "item": "18.8.6.2 d)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#altura-total"
+    },
+    {
+     "parametro": "Altura máxima entre plataformas de descanso (vários lances)",
+     "valor": "6 m",
+     "item": "18.8.6.2 e)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#lance"
+    },
+    {
+     "parametro": "Plataforma de descanso — dimensões mínimas",
+     "valor": "0,6 m × 0,6 m, com proteção contra quedas",
+     "item": "18.8.6.2 f)"
+    },
+    {
+     "parametro": "Espaçamento uniforme dos degraus",
+     "valor": "0,25 m a 0,3 m",
+     "item": "18.8.6.2 g)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#espacamento"
+    },
+    {
+     "parametro": "Fixação",
+     "valor": "na base, a cada 3 m e no topo",
+     "item": "18.8.6.2 h)"
+    },
+    {
+     "parametro": "Piso até a primeira barra",
+     "valor": "≤ 0,4 m",
+     "item": "18.8.6.2 i)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#primeira-barra"
+    },
+    {
+     "parametro": "Distância à estrutura onde é fixada",
+     "valor": "≥ 0,15 m",
+     "item": "18.8.6.2 j)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#afastamento"
+    },
+    {
+     "parametro": "Lances em eixos paralelos — distância entre eixos",
+     "valor": "≥ 0,7 m",
+     "item": "18.8.6.2 k)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#eixos"
+    },
+    {
+     "parametro": "Altura a partir da qual o SPIQ é obrigatório",
+     "valor": "> 2 m",
+     "item": "18.8.6.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Escadas portáteis",
+   "item": "18.8.6.4–18.8.6.19",
+   "texto": "A escolha considera a carga, os esforços do sistema anti-queda e o resgate. Degraus antiderrapantes, apoio em piso firme e dispositivo contra escorregamento são obrigatórios; uma pessoa por vez, salvo indicação do fabricante, sempre com três pontos de apoio. Não se usa perto de portas ou passagens sem isolamento, em estrutura fraca ou junto a rede energizada. Escada de mão de montante único é proibida; escada dupla não serve para mudar de nível.",
+   "figuras": [
+    "esquemas/resumo-nr-18-escada-extensivel.svg"
+   ],
+   "valores": [
+    {
+     "parametro": "Espaçamento uniforme entre degraus",
+     "valor": "0,25 m a 0,3 m",
+     "item": "18.8.6.7 a)"
+    },
+    {
+     "parametro": "Escada de mão — comprimento máximo",
+     "valor": "7 m",
+     "item": "18.8.6.13 a)"
+    },
+    {
+     "parametro": "Escada de mão — ultrapassar o piso superior",
+     "valor": "≥ 1 m",
+     "item": "18.8.6.13 b)",
+     "cota": "esquemas/resumo-nr-18-escada-extensivel.svg#ultrapassar"
+    },
+    {
+     "parametro": "Escada dupla (cavalete) — comprimento máximo fechada",
+     "valor": "6 m",
+     "item": "18.8.6.16 a)"
+    },
+    {
+     "parametro": "Escada extensível — limitador de curso",
+     "valor": "no 4º vão a partir da catraca (ou conforme o fabricante)",
+     "item": "18.8.6.18 a)"
+    },
+    {
+     "parametro": "Escada extensível sem limitador — sobreposição mínima",
+     "valor": "1 m",
+     "item": "18.8.6.18 b)",
+     "cota": "esquemas/resumo-nr-18-escada-extensivel.svg#sobreposicao"
+    },
+    {
+     "parametro": "Escada extensível — afastamento da base",
+     "valor": "entre 1/5 e 1/3 da altura",
+     "item": "18.8.6.18 d)",
+     "cota": "esquemas/resumo-nr-18-escada-extensivel.svg#afastamento-base"
+    },
+    {
+     "parametro": "Escada extensível de acesso — ultrapassar o nível superior",
+     "valor": "≥ 1 m",
+     "item": "18.8.6.18 e)",
+     "cota": "esquemas/resumo-nr-18-escada-extensivel.svg#ultrapassar"
+    },
+    {
+     "parametro": "Escada extensível que exige tirante/vareta de travamento",
+     "valor": "comprimento > 7 m",
+     "item": "18.8.6.19",
+     "cota": "esquemas/resumo-nr-18-escada-extensivel.svg#comprimento"
+    }
+   ]
+  },
+  {
+   "titulo": "Rampas e passarelas",
+   "item": "18.8.7",
+   "texto": "São dimensionadas pelo vão e pela carga, têm proteção contra quedas em todo o contorno, piso completo antiderrapante e fixação firme nas pontas. Rampas mais inclinadas recebem travessas para apoio dos pés.",
+   "figuras": [
+    "esquemas/escada-degraus-largura-corte.svg"
+   ],
+   "valores": [
+    {
+     "parametro": "Largura mínima",
+     "valor": "0,8 m",
+     "item": "18.8.7.1 c)",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Inclinação que exige peças transversais",
+     "valor": "> 6°",
+     "item": "18.8.7.2"
+    },
+    {
+     "parametro": "Espaçamento máximo das peças transversais",
+     "valor": "0,4 m",
+     "item": "18.8.7.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Proteção contra queda de altura",
+   "item": "18.9",
+   "texto": "Onde houver risco de queda de pessoas ou de material, instala-se proteção coletiva projetada por habilitado. Aberturas no piso recebem tampa travada ou guarda-corpo; poços de elevador ficam fechados até as portas definitivas. A periferia é protegida desde a concretagem da primeira laje, com fechamento total ou com guarda-corpo, travessões, rodapé e tela. Plataformas de proteção e redes (EN 1263) seguem projeto.",
+   "figuras": [
+    "esquemas/escada-degraus-corrimao.svg"
+   ],
+   "valores": [
+    {
+     "parametro": "Fechamento total da periferia — altura mínima",
+     "valor": "1,2 m",
+     "item": "18.9.4.1"
+    },
+    {
+     "parametro": "Guarda-corpo — travessão superior",
+     "valor": "1,2 m de altura",
+     "item": "18.9.4.2 a)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#b"
+    },
+    {
+     "parametro": "Travessão superior — carga horizontal",
+     "valor": "90 kgf/m, deflexão ≤ 0,076 m",
+     "item": "18.9.4.2 a)"
+    },
+    {
+     "parametro": "Travessão intermediário",
+     "valor": "0,7 m de altura; carga horizontal 66 kgf/m",
+     "item": "18.9.4.2 b)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#intermediario"
+    },
+    {
+     "parametro": "Rodapé",
+     "valor": "≥ 0,15 m, rente ao piso; carga horizontal 22 kgf/m",
+     "item": "18.9.4.2 c)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#rodape"
+    },
+    {
+     "parametro": "Vãos entre travessas",
+     "valor": "fechados com tela ou similar",
+     "item": "18.9.4.2 d)"
+    },
+    {
+     "parametro": "Rede de segurança — inspeção",
+     "valor": "semanal",
+     "item": "18.9.4.4.5"
+    },
+    {
+     "parametro": "Rede na periferia — barreira associada contra queda de material",
+     "valor": "altura ≥ 1,2 m",
+     "item": "18.9.4.4.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Máquinas, serra circular e máquinas autopropelidas",
+   "item": "18.10.1.1–18.10.1.14",
+   "texto": "Máquinas seguem a NR-12; as estacionárias ficam cobertas e iluminadas. A serra circular é projetada por habilitado, com coifa, dispositivo contra travamento do disco e retrocesso da peça, regulagem de altura, coletor de serragem e empurrador. Máquinas autopropelidas têm proteções, retrovisor, alarme de ré e travamento; não se sustentam só pelos cilindros hidráulicos em manutenção, e pneus são calibrados dentro de gaiola. Obras altas exigem transporte vertical motorizado de material.",
+   "valores": [
+    {
+     "parametro": "Altura da obra que obriga transporte vertical motorizado de materiais",
+     "valor": "≥ 10 m",
+     "item": "18.10.1.4"
+    },
+    {
+     "parametro": "Máquina autopropelida que exige cabine climatizada e protegida",
+     "valor": "tara > 4 500 kg",
+     "item": "18.10.1.13"
+    },
+    {
+     "parametro": "Cabine climatizada — pavimentadoras, alimentadores de asfalto, fresadoras e máquinas de textura/cura novas",
+     "valor": "exigida a partir de 06/01/2026",
+     "item": "18.10.1.13 Obs. 2"
+    },
+    {
+     "parametro": "Máquina autopropelida com posto protegido (sem exigir climatização)",
+     "valor": "tara ≤ 4 500 kg",
+     "item": "18.10.1.14"
+    }
+   ]
+  },
+  {
+   "titulo": "Equipamentos de guindar (gruas, guindastes, pórticos)",
+   "item": "18.10.1.15–18.10.1.41",
+   "texto": "São usados conforme o fabricante e um plano de cargas assinado por habilitado, com área de atuação, interferências, acessórios, listas de verificação e medidas contra colisão entre equipamentos. Têm limitadores de carga, altura e momento, alarmes, trava no gancho e proteção contra escape do cabo; a cabine é climatizada, com tabela de cargas em português. É proibido içar peso desconhecido, arrastar, içar inclinado, transportar pessoas (salvo resgate ou NR-12) e operar com mau tempo. Gruas têm regras próprias de vento, distâncias e laudo estrutural.",
+   "valores": [
+    {
+     "parametro": "Laudo de aterramento do equipamento de guindar",
+     "valor": "atualizado semestralmente",
+     "item": "18.10.1.23 h)"
+    },
+    {
+     "parametro": "Inspeção do equipamento, acessórios e plataformas de carga",
+     "valor": "diária, com lista de verificação",
+     "item": "18.10.1.32"
+    },
+    {
+     "parametro": "Grua — alarme automático de vento",
+     "valor": "ventos > 42 km/h",
+     "item": "18.10.1.33 j)"
+    },
+    {
+     "parametro": "Grua — operação com vento acima de 42 km/h",
+     "valor": "só com análise de risco e permissão de trabalho",
+     "item": "18.10.1.34 a)"
+    },
+    {
+     "parametro": "Grua — vento que proíbe a operação",
+     "valor": "> 72 km/h",
+     "item": "18.10.1.34 b)"
+    },
+    {
+     "parametro": "Grua — distância mínima da lança e do cabo a obstáculos",
+     "valor": "3 m (menos, só com análise de risco do habilitado)",
+     "item": "18.10.1.34 c)"
+    },
+    {
+     "parametro": "Grua — laudo estrutural/operacional",
+     "valor": "na periodicidade do fabricante ou até 20 anos de uso",
+     "item": "18.10.1.40 b)"
+    },
+    {
+     "parametro": "Grua com mais de 20 anos — periodicidade do laudo",
+     "valor": "a cada 2 anos",
+     "item": "18.10.1.40 c)"
+    },
+    {
+     "parametro": "Sanitário para o operador da grua — distância máxima",
+     "valor": "50 m do posto",
+     "item": "18.10.1.41"
+    },
+    {
+     "parametro": "Sem sanitário próximo — pausas mínimas para o operador",
+     "valor": "4 intervalos por turno",
+     "item": "18.10.1.41.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Grua de pequeno porte e guincho de coluna",
+   "item": "18.10.1.42–18.10.1.45",
+   "texto": "A grua de pequeno porte é definida por limites de alcance, capacidade e altura; tem comando em baixa tensão, emergência, limitadores, alarmes e SPIQ, e não pode ter giro restrito nem giro manual. O guincho de coluna tem capacidade limitada, análise de risco, fixação em projeto, tambor nivelado e protegido e comando em baixa tensão com botão de emergência.",
+   "valores": [
+    {
+     "parametro": "Grua de pequeno porte — raio máximo da lança",
+     "valor": "6 m",
+     "item": "18.10.1.42 a)"
+    },
+    {
+     "parametro": "Grua de pequeno porte — capacidade máxima",
+     "valor": "≤ 500 kg",
+     "item": "18.10.1.42 b)"
+    },
+    {
+     "parametro": "Grua de pequeno porte — altura máxima da torre acima da laje",
+     "valor": "6 m",
+     "item": "18.10.1.42 c)"
+    },
+    {
+     "parametro": "Grua de pequeno porte / guincho de coluna — tensão máxima do comando",
+     "valor": "24 V",
+     "item": "18.10.1.43 a); 18.10.1.45 f)"
+    },
+    {
+     "parametro": "Grua de pequeno porte — giro mínimo da lança",
+     "valor": "≥ 180° (motorizado)",
+     "item": "18.10.1.44"
+    },
+    {
+     "parametro": "Guincho de coluna — capacidade máxima",
+     "valor": "≤ 500 kg",
+     "item": "18.10.1.45 a)"
+    }
+   ]
+  },
+  {
+   "titulo": "Ferramentas",
+   "item": "18.10.2",
+   "texto": "Ferramentas são vistoriadas antes do uso e operadas por pessoal treinado. Elétricas portáteis têm duplo isolamento e disco próprio para cada material; pneumáticas têm partida protegida e válvula que fecha ao soltar; ferramentas de fixação a pólvora ou gás não se usam em atmosfera inflamável nem com pessoas perto. Ferramentas manuais são fornecidas pelo empregador, não ficam em passagens e, em eletricidade, são isoladas."
+  },
+  {
+   "titulo": "Elevadores de obra",
+   "item": "18.11",
+   "texto": "Elevadores de materiais e pessoas são dimensionados por habilitado conforme norma técnica; elevador de cabo único sem atender às normas é proibido. A torre fica perto da fachada, tem cancelas com intertravamento monitorado e base fechada. A cabine tem porta, horímetro, indicação de capacidade, freio de emergência contra queda livre, fim de curso e bloqueio contra sobrecarga. Pessoas e materiais não viajam juntos, salvo com barreira física.",
+   "valores": [
+    {
+     "parametro": "Teste dos freios de emergência — laudo",
+     "valor": "no máximo a cada 90 dias",
+     "item": "18.11.7 c)"
+    },
+    {
+     "parametro": "Distância máxima entre face da cabine e face da edificação",
+     "valor": "0,2 m",
+     "item": "18.11.12"
+    },
+    {
+     "parametro": "Cancela de acesso à torre — altura mínima",
+     "valor": "1,8 m",
+     "item": "18.11.13"
+    },
+    {
+     "parametro": "Fechamento da base da torre — altura mínima",
+     "valor": "2,0 m",
+     "item": "18.11.14"
+    },
+    {
+     "parametro": "Altura livre sobre a rampa de acesso",
+     "valor": "≥ 2 m",
+     "item": "18.11.16"
+    },
+    {
+     "parametro": "Barreira entre passageiros e carga — altura mínima",
+     "valor": "1,8 m, com intertravamento",
+     "item": "18.11.17"
+    },
+    {
+     "parametro": "Obra que exige elevador de passageiros",
+     "valor": "altura ≥ 24 m",
+     "item": "18.11.21"
+    },
+    {
+     "parametro": "Instalação do elevador de passageiros",
+     "valor": "a partir de no máximo 15 m de deslocamento vertical",
+     "item": "18.11.21.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Andaimes — regras gerais",
+   "item": "18.12.1–18.12.12",
+   "texto": "Andaimes são projetados e fabricados por empresas registradas, vêm com manual em português, têm guarda-corpo em todo o contorno (exceto a face de trabalho), piso completo e travado e liberação formal de uso. Montagem e desmontagem são feitas por pessoal treinado, com SPIQ e área isolada. Andaime de madeira só por impossibilidade técnica; não se usa escada sobre o piso do andaime. Edifícios altos recebem ancoragens permanentes para manutenção de fachada.",
+   "valores": [
+    {
+     "parametro": "Altura que exige acesso seguro ao andaime",
+     "valor": "> 0,4 m",
+     "item": "18.12.1 e)"
+    },
+    {
+     "parametro": "Torre única dispensada de projeto de montagem",
+     "valor": "altura < 4 × menor dimensão da base",
+     "item": "18.12.2.1"
+    },
+    {
+     "parametro": "Torre não estaiada nem fixada — altura máxima",
+     "valor": "4 × menor dimensão da base",
+     "item": "18.12.3"
+    },
+    {
+     "parametro": "Plataforma sobre cavaletes — proibida quando",
+     "valor": "altura > 1,5 m ou largura < 0,9 m",
+     "item": "18.12.11"
+    },
+    {
+     "parametro": "Edificação que exige ancoragens para manutenção de fachada",
+     "valor": "altura ≥ 12 m a partir do térreo",
+     "item": "18.12.12"
+    },
+    {
+     "parametro": "Dispositivo de ancoragem de fachada — carga de trabalho mínima",
+     "valor": "1 500 kgf",
+     "item": "18.12.12.2 b)"
+    }
+   ]
+  },
+  {
+   "titulo": "Andaime simplesmente apoiado",
+   "item": "18.12.13–18.12.17",
+   "texto": "Apoia-se em sapatas niveladas sobre base rígida e é amarrado à estrutura quando preciso. Na fachada é revestido por tela. Com rodízios, só em piso plano e com travas; nunca se desloca com gente em cima.",
+   "valores": [
+    {
+     "parametro": "Piso de trabalho que exige acesso por escada",
+     "valor": "> 1 m de altura",
+     "item": "18.12.14"
+    },
+    {
+     "parametro": "Escada de mão incorporada — largura mínima",
+     "valor": "0,4 m",
+     "item": "18.12.14 a)"
+    },
+    {
+     "parametro": "Escada de mão incorporada — espaçamento entre degraus",
+     "valor": "0,25 m a 0,3 m",
+     "item": "18.12.14 a)"
+    },
+    {
+     "parametro": "Escada de uso coletivo incorporada — largura mínima",
+     "valor": "0,6 m, com corrimão",
+     "item": "18.12.14 b)"
+    },
+    {
+     "parametro": "Tela na fachada — extensão",
+     "valor": "da 1ª plataforma até 2 m acima da última",
+     "item": "18.12.15.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Andaime suspenso e cadeira suspensa",
+   "item": "18.12.18–18.12.28; 18.12.43–18.12.47",
+   "texto": "Fixações e estruturas de apoio do andaime suspenso seguem projeto e suportam folga sobre os esforços; apoio em platibanda ou beiral exige laudo. O andaime tem placa de identificação, pontos de sustentação independentes, ancoragem própria para o SPIQ e suspensão por cabo de aço verificada diariamente. Contrapesos têm peso marcado e são fixados. Proibidos: balanço, interligação e transporte alheio ao serviço. A cadeira suspensa só quando não cabe andaime, com dupla trava e SPIQ ancorado à parte.",
+   "valores": [
+    {
+     "parametro": "Fixação e sustentação do andaime suspenso — capacidade",
+     "valor": "≥ 3 × os esforços solicitantes",
+     "item": "18.12.18"
+    },
+    {
+     "parametro": "Pontos de sustentação independentes",
+     "valor": "mínimo 4",
+     "item": "18.12.21 c)"
+    },
+    {
+     "parametro": "Largura útil mínima da plataforma",
+     "valor": "0,65 m",
+     "item": "18.12.21 f)"
+    },
+    {
+     "parametro": "Andaime suspenso manual — comprimento máximo do piso",
+     "valor": "8 m",
+     "item": "18.12.26"
+    },
+    {
+     "parametro": "Andaime motorizado — inclinação que bloqueia o movimento",
+     "valor": "> 15°",
+     "item": "18.12.28 d)"
+    }
+   ]
+  },
+  {
+   "titulo": "Plataforma de cremalheira e PEMT",
+   "item": "18.12.29–18.12.42",
+   "texto": "A plataforma de cremalheira tem limites de percurso, motofreio, freio de segurança, botoeira de pressão contínua, emergência, alarme sonoro e nivelamento; os operadores usam SPIQ independente. A PEMT segue o fabricante, tem nivelamento, descida de emergência, alarme e horímetro, é inspecionada a cada turno e não é usada como guindaste nem com escadas sobre ela; todos a bordo usam SPIQ.",
+   "valores": [
+    {
+     "parametro": "Cremalheira — capacidade mínima do piso e extensões",
+     "valor": "150 kgf/m²",
+     "item": "18.12.29 h)"
+    },
+    {
+     "parametro": "Cremalheira — ancoragem obrigatória",
+     "valor": "a partir de 9 m de altura",
+     "item": "18.12.29 m)"
+    },
+    {
+     "parametro": "PEMT — inspeção visual e teste funcional",
+     "valor": "antes do uso diário ou a cada turno",
+     "item": "18.12.38"
+    }
+   ]
+  },
+  {
+   "titulo": "Sinalização e capacitação",
+   "item": "18.13–18.14",
+   "texto": "O canteiro é sinalizado (saídas, riscos, EPI, áreas de içamento, tráfego e produtos perigosos); em áreas com veículos e cargas usa-se vestimenta de alta visibilidade. A capacitação segue a NR-01 e o Anexo I; o treinamento básico é presencial e os treinamentos têm avaliação, exceto o inicial."
+  },
+  {
+   "titulo": "Serviços em flutuantes",
+   "item": "18.15",
+   "texto": "Plataformas flutuantes são registradas na Capitania, têm guarda-corpo (balaustrada) conforme NORMAM-02, piso antiderrapante, salvatagem e combate a incêndio. Com risco de queda na água usa-se colete homologado (retardante de chama em trabalho a quente) e botas com elástico.",
+   "valores": [
+    {
+     "parametro": "Coletes salva-vidas",
+     "valor": "no mínimo um por pessoa a bordo",
+     "item": "18.15.8"
+    },
+    {
+     "parametro": "Trabalhadores capacitados em salvamento e primeiros socorros",
+     "valor": "2 para cada 20 trabalhadores ou fração",
+     "item": "18.15.12"
+    }
+   ]
+  },
+  {
+   "titulo": "Disposições gerais",
+   "item": "18.16",
+   "texto": "Prevenção segue a hierarquia da NR-01; levantamento de carga segue a NR-17. Materiais são estocados sem bloquear passagens nem saídas; inflamáveis e tóxicos ficam isolados e sinalizados. O canteiro tem prevenção de incêndio, saídas sinalizadas e destrancadas, limpeza, entulho removido por calha fechada, tapume e galeria sobre o passeio. Madeira de escadas e proteções é seca e sem nós. Acidente fatal é comunicado de imediato e o local fica isolado.",
+   "valores": [
+    {
+     "parametro": "Tapume — altura mínima",
+     "valor": "2 m",
+     "item": "18.16.18"
+    },
+    {
+     "parametro": "Galeria sobre o passeio — obrigatória",
+     "valor": "obra com mais de 2 pavimentos no alinhamento do logradouro",
+     "item": "18.16.19"
+    },
+    {
+     "parametro": "Liberação do local de acidente fatal pela inspeção",
+     "valor": "até 72 h após o protocolo da comunicação",
+     "item": "18.16.23 c)"
+    }
+   ]
+  },
+  {
+   "titulo": "Disposições transitórias — tubulões hiperbáricos",
+   "item": "18.17",
+   "texto": "O PCMAT anterior vale até o fim da obra. Para tubulões com pressão hiperbárica em andamento, exigem-se comunicação com a campânula, planos de emergência e descompressão, gerador e compressores de reserva, ambulância UTI enquanto houver trabalhador comprimido, avaliação médica e permanência no canteiro após a descompressão.",
+   "valores": [
+    {
+     "parametro": "Câmara hiperbárica — teste hidrostático",
+     "valor": "a cada 5 anos",
+     "item": "18.17.6 e)"
+    },
+    {
+     "parametro": "Câmara hiperbárica — teste do sistema contra incêndio",
+     "valor": "a cada 6 meses",
+     "item": "18.17.6 e)"
+    },
+    {
+     "parametro": "Câmara hiperbárica — revisão preventiva",
+     "valor": "anual",
+     "item": "18.17.6 e)"
+    },
+    {
+     "parametro": "Campânula — laudo estrutural",
+     "valor": "atualizado a cada 5 anos",
+     "item": "18.17.8 a)"
+    },
+    {
+     "parametro": "Compressores por campânula",
+     "valor": "2, em paralelo, com entrada automática",
+     "item": "18.17.9"
+    },
+    {
+     "parametro": "Encarregados de ar comprimido por frente",
+     "valor": "mínimo 3",
+     "item": "18.17.13"
+    },
+    {
+     "parametro": "Avaliação médica antes da entrada",
+     "valor": "até 2 h antes",
+     "item": "18.17.15"
+    },
+    {
+     "parametro": "Permanência no canteiro após a descompressão",
+     "valor": "≥ 2 h",
+     "item": "18.17.16"
+    },
+    {
+     "parametro": "Entrada no tubulão após uso de explosivos",
+     "valor": "só após 6 h de ventilação forçada",
+     "item": "18.17.18"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo I — Capacitação (carga horária e periodicidade)",
+   "item": "Anexo I, Quadro 1",
+   "texto": "O quadro fixa a carga mínima do treinamento inicial e a reciclagem por função. Operadores de grua e guindaste passam ainda por estágio supervisionado, dispensável para quem já tem experiência comprovada.",
+   "valores": [
+    {
+     "parametro": "Básico em segurança do trabalho",
+     "valor": "4 h inicial; 4 h a cada 2 anos",
+     "item": "Anexo I, Quadro 1"
+    },
+    {
+     "parametro": "Operador de grua",
+     "valor": "80 h (≥ 40 h práticas)",
+     "item": "Anexo I, Quadro 1"
+    },
+    {
+     "parametro": "Operador de guindaste",
+     "valor": "120 h (≥ 80 h práticas)",
+     "item": "Anexo I, Quadro 1"
+    },
+    {
+     "parametro": "Operador de equipamentos de guindar",
+     "valor": "carga a critério do empregador (≥ 50 % prática); reciclagem a cada 2 anos",
+     "item": "Anexo I, Quadro 1"
+    },
+    {
+     "parametro": "Sinaleiro/amarrador de cargas",
+     "valor": "16 h; reciclagem a cada 2 anos",
+     "item": "Anexo I, Quadro 1"
+    },
+    {
+     "parametro": "Operador de elevador",
+     "valor": "16 h; 4 h anual",
+     "item": "Anexo I, Quadro 1"
+    },
+    {
+     "parametro": "Montagem e manutenção de elevadores",
+     "valor": "a critério do empregador; reciclagem anual",
+     "item": "Anexo I, Quadro 1"
+    },
+    {
+     "parametro": "Operador de PEMT",
+     "valor": "4 h; 4 h a cada 2 anos",
+     "item": "Anexo I, Quadro 1"
+    },
+    {
+     "parametro": "Encarregado de ar comprimido",
+     "valor": "16 h",
+     "item": "Anexo I, Quadro 1"
+    },
+    {
+     "parametro": "Resgate e remoção em tubulão",
+     "valor": "8 h",
+     "item": "Anexo I, Quadro 1"
+    },
+    {
+     "parametro": "Impermeabilização",
+     "valor": "4 h",
+     "item": "Anexo I, Quadro 1"
+    },
+    {
+     "parametro": "Cadeira suspensa",
+     "valor": "16 h (≥ 8 h práticas); 8 h anual",
+     "item": "Anexo I, Quadro 1"
+    },
+    {
+     "parametro": "Escavação manual de tubulão",
+     "valor": "24 h (≥ 8 h práticas); 8 h anual",
+     "item": "Anexo I, Quadro 1"
+    },
+    {
+     "parametro": "Estágio supervisionado — operador de grua/guindaste",
+     "valor": "≥ 90 dias",
+     "item": "Anexo I, 1.2"
+    },
+    {
+     "parametro": "Dispensa do estágio — experiência comprovada",
+     "valor": "≥ 6 meses na função",
+     "item": "Anexo I, 1.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo II — Cabos de aço e de fibra sintética",
+   "item": "Anexo II",
+   "texto": "Cabos seguem as normas técnicas, são rastreáveis, sem emendas nem pernas partidas, e fixados com dispositivos que evitem deslizamento. O cabo do SPIQ e o da cadeira suspensa são exclusivos de cada uso, e a fibra da linha de vida deve ser compatível com o trava-quedas. Polipropileno é proibido no cabo de fibra.",
+   "valores": [
+    {
+     "parametro": "Cabo de aço — carga de ruptura mínima",
+     "valor": "5 × a carga máxima de trabalho",
+     "item": "Anexo II, 3"
+    },
+    {
+     "parametro": "Cabo de aço — resistência mínima à tração dos fios",
+     "valor": "160 kgf/mm²",
+     "item": "Anexo II, 3"
+    },
+    {
+     "parametro": "Cabo de fibra sintética — carga de ruptura mínima sem terminais",
+     "valor": "22 kN (3 capas ou capa e alma)",
+     "item": "Anexo II, 11"
+    }
+   ]
+  },
+  {
+   "titulo": "Glossário (termos principais)",
+   "item": "Glossário",
+   "texto": "Define, entre outros: SPIQ (ancoragem + elemento de ligação + EPI, conforme NR-35); PEMT; grua, grua ascensional e automontante; andaime simplesmente apoiado e suspenso; cadeira suspensa; plataformas de proteção primária (1ª laje), secundária (acima) e terciária (abaixo); escada portátil de uso individual, dupla e extensível; profissional legalmente habilitado (registrado em conselho) e qualificado (com curso reconhecido)."
+  }
+ ]
+}

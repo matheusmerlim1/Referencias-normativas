@@ -1,0 +1,31 @@
+{
+ "id": "ASME-SA-484",
+ "titulo": "SA-484 — Requisitos gerais para barras, tarugos e forjados de aço inoxidável",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns a barras, perfis, forjados e semiacabados para forjamento de aço inoxidável (exceto arame) das especificações SA-276, 314, 473, 479, 564, 565, 638, 705 e outras: identificação, condições e acabamentos, química, lotes, retratamento, tolerâncias e embalagem."
+  },
+  {
+   "titulo": "Condições e acabamentos",
+   "item": "5",
+   "texto": "Material laminado a quente, extrudado, forjado, forjado e usinado, recozido, trabalhado a frio ou tratado (normalizado e revenido, temperado e revenido), conforme a especificação do produto; barras acabadas a quente, torneadas, trefiladas, retificadas etc."
+  },
+  {
+   "titulo": "Química e lotes",
+   "item": "6, 9",
+   "texto": "Análise de corrida (A751); análise de produto com tolerâncias da Tabela 1. Lote para análise de produto = tudo da mesma corrida."
+  },
+  {
+   "titulo": "Retratamento e identificação",
+   "item": "4, 11",
+   "texto": "Lote reprovado por tratamento inadequado pode ser retratado e reensaiado. Barras e perfis marcados ou etiquetados com fabricante, pedido, especificação, corrida, grau, condição e dimensões."
+  },
+  {
+   "titulo": "Tolerâncias",
+   "item": "Tabelas 2 a 18",
+   "texto": "Variações de bitola, comprimento, retilineidade, ângulo e torção para barras laminadas e acabadas a frio, cantoneiras, canais, tês e perfis extrudados."
+  }
+ ]
+}

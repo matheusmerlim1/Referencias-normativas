@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" width="820" height="520" role="img" aria-label="Lingada de 4 pernas com forerunner — componentes, ângulo e diâmetros">
+<title>Lingada de 4 pernas com forerunner — componentes, ângulo e diâmetros (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Lingada de 4 pernas com forerunner — componentes, ângulo e diâmetros</text>
+<ellipse cx="380" cy="90" rx="26" ry="44" fill="none" stroke="#666" stroke-width="7"/>
+<g id="cota-elo-comprimento" class="cota"><line class="e" x1="423" y1="50" x2="438" y2="50"/><line class="e" x1="423" y1="130" x2="438" y2="130"/><line class="d" x1="432" y1="50" x2="432" y2="130" marker-start="url(#a)" marker-end="url(#a)"/><text x="450" y="94">comprimento interno do elo</text></g>
+<g id="cota-elo-largura" class="cota"><line class="d" x1="335" y1="150" x2="361" y2="150" marker-end="url(#a)"/><line class="d" x1="425" y1="150" x2="399" y2="150" marker-end="url(#a)"/><line class="d" x1="361" y1="150" x2="399" y2="150"/><text class="en" x="330" y="168">largura interna do elo</text></g>
+<line x1="380" y1="134" x2="380" y2="226" stroke="#8a6d3b" stroke-width="7" stroke-opacity=".6"/>
+<text class="n" x="394" y="196">forerunner</text>
+<ellipse cx="380" cy="250" rx="18" ry="26" fill="none" stroke="#666" stroke-width="5"/>
+<text class="n" x="410" y="254">conjunto quádruplo (elo mestre + intermediários)</text>
+<line x1="380" y1="276" x2="120" y2="420" stroke="#666" stroke-width="4" stroke-dasharray="9 4"/>
+<circle class="g" cx="120" cy="430" r="9"/>
+<rect class="s" x="80" y="440" width="80" height="10"/>
+<line x1="380" y1="276" x2="290" y2="450" stroke="#666" stroke-width="4" stroke-dasharray="9 4"/>
+<circle class="g" cx="290" cy="460" r="9"/>
+<rect class="s" x="250" y="470" width="80" height="10"/>
+<line x1="380" y1="276" x2="470" y2="450" stroke="#666" stroke-width="4" stroke-dasharray="9 4"/>
+<circle class="g" cx="470" cy="460" r="9"/>
+<rect class="s" x="430" y="470" width="80" height="10"/>
+<line x1="380" y1="276" x2="640" y2="420" stroke="#666" stroke-width="4" stroke-dasharray="9 4"/>
+<circle class="g" cx="640" cy="430" r="9"/>
+<rect class="s" x="600" y="440" width="80" height="10"/>
+<text class="n m" x="120" y="472">manilha no olhal</text>
+<line class="c" x1="380" y1="276" x2="380" y2="450"/>
+<g id="cota-beta" class="cota"><path class="d" d="M476.2,329.3 A110,110 0 0,1 380,386" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="446" y="393">β</text></g>
+<g id="cota-d-perna" class="cota"><line class="d" x1="600" y1="295" x2="510" y2="348" marker-end="url(#a)"/><text x="604" y="300">Ø da perna (corrente / cabo)</text></g>
+<text class="n" x="20" y="508">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

@@ -1,0 +1,422 @@
+{
+ "id": "DNV-ST-E273",
+ "titulo": "DNV-ST-E273 (2.7-3) — Unidades portáteis offshore (POU)",
+ "secoes": [
+  {
+   "titulo": "Escopo e tipos",
+   "item": "1.3–1.4",
+   "texto": "Certificação de unidades portáteis (módulos, skids, tanques, carretéis, equipamentos) içadas em operações offshore. Contêineres de uso repetido com estrutura externa ficam na E271. As POU são divididas em tipos conforme a estrutura própria (A com estrutura primária e proteção; B skid sem proteção; C sem skid; D caixas/tanques; E carga dinâmica calculada). Acima de certa massa bruta os fatores são decididos caso a caso.",
+   "valores": [
+    {
+     "parametro": "Massa bruta usual máxima (MGW)",
+     "valor": "≤ 100 t (acima: caso a caso)",
+     "item": "1.4.3"
+    },
+    {
+     "parametro": "Contêiner offshore (vai para a E271)",
+     "valor": "MGW ≤ 25 000 kg, uso repetido",
+     "item": "1.4.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/icamento-unidade-portatil-tipos-pou.svg"
+   ]
+  },
+  {
+   "titulo": "Classes operacionais",
+   "item": "3.3",
+   "texto": "A classe indica a altura significativa de onda (Hs) máxima para içar entre embarcação e plataforma; dela dependem fatores de carga, inclinação do cabo e ensaios. Sufixos indicam uso submarino, evento único ou só transporte. Para içamento offshore normal recomenda-se ao menos R30.",
+   "valores": [
+    {
+     "parametro": "R60 / R45 / R30",
+     "valor": "Hs até 6,0 / 4,5 / 3,0 m",
+     "item": "3.3.3"
+    },
+    {
+     "parametro": "R00",
+     "valor": "só em terra, águas abrigadas ou a bordo",
+     "item": "3.3.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Materiais e estrutura",
+   "item": "3.2",
+   "texto": "A temperatura de projeto é a menor média diária do local (sem informação, −20 °C). Estrutura primária com tenacidade Charpy que cresce com o escoamento do aço; alguns aços finos e o inox austenítico ficam isentos. Não usar aço de escoamento muito alto nem madeira/plástico na estrutura primária. Pontos de içamento em aço especial ou primário, com propriedade na espessura quando tracionados nessa direção. Espessuras mínimas pela Tabela 3-1.",
+   "valores": [
+    {
+     "parametro": "Temperatura de projeto sem designação",
+     "valor": "−20 °C",
+     "item": "3.2.1"
+    },
+    {
+     "parametro": "Espessura mínima da estrutura secundária metálica",
+     "valor": "2 mm",
+     "item": "3.2.2, Tab. 3-1",
+     "cota": "esquemas/icamento-unidade-portatil-container-estrutura.svg#t-secundaria"
+    },
+    {
+     "parametro": "Charpy médio, estrutura primária",
+     "valor": "27 J (Re ≤ 270 MPa) → 42 J (Re ≥ 420 MPa), linear",
+     "item": "3.2.3, Fig. 3-1"
+    },
+    {
+     "parametro": "Escoamento máximo admitido",
+     "valor": "Re ≤ 690 N/mm²",
+     "item": "3.2.3"
+    },
+    {
+     "parametro": "Chapa tracionada na espessura",
+     "valor": "EN 10164 Z25 ou melhor",
+     "item": "3.2.4"
+    },
+    {
+     "parametro": "Pinos/parafusos de olhal — Charpy",
+     "valor": "≥ 42 J a −20 °C",
+     "item": "3.2.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Critérios de projeto",
+   "item": "3.4",
+   "texto": "Tensão equivalente de von Mises limitada a uma fração do escoamento (inclusive em impacto), com alternativa no formato ASD. Flambagem e solda têm fatores de utilização próprios. Antes do içamento, a unidade não pode tombar até um ângulo que depende da classe.",
+   "valores": [
+    {
+     "parametro": "Tensão admissível (von Mises)",
+     "valor": "0,85 Re",
+     "item": "3.4.3"
+    },
+    {
+     "parametro": "Alternativa ASD — tração / flexão / cisalhamento",
+     "valor": "0,6 / 0,66 / 0,4 Re",
+     "item": "3.4.3"
+    },
+    {
+     "parametro": "Utilização máx. em flambagem",
+     "valor": "0,85",
+     "item": "3.4.4"
+    },
+    {
+     "parametro": "Filete — utilização (evento único / repetido)",
+     "valor": "0,8 / 0,6",
+     "item": "3.4.5, Tab. 3-4"
+    },
+    {
+     "parametro": "Penetração parcial — utilização",
+     "valor": "1,0 / 0,8",
+     "item": "3.4.5, Tab. 3-4"
+    },
+    {
+     "parametro": "Ângulo de estabilidade R60/R45/R30/R00",
+     "valor": "30° / 23° / 15° / 15°",
+     "item": "3.4.8",
+     "cota": "esquemas/icamento-unidade-portatil-queda-estabilidade.svg#tombamento"
+    }
+   ]
+  },
+  {
+   "titulo": "Cargas de içamento",
+   "item": "3.5",
+   "texto": "A carga de projeto é a massa bruta vezes um fator dinâmico que depende da classe e diminui com a massa até um patamar. Para submarino há fator fixo. A força em cada olhal (RSF) multiplica a carga de projeto por fatores de desvio de lingada (skew), fração no olhal mais carregado e ângulo da perna. Verifica-se também lingada frouxa em içamento de dois pontos, carga fora do plano e inclinação do cabo do guindaste.",
+   "valores": [
+    {
+     "parametro": "DF (MGW ≥ 50 t) R60/R45/R30/R00",
+     "valor": "2,2 / 2,0 / 1,8 / 1,5",
+     "item": "3.5.1, Tab. 3-5"
+    },
+    {
+     "parametro": "DF (MGW < 50 t)",
+     "valor": "1,4 + k·√(50/MGW), k = 0,8 / 0,6 / 0,4 / 0,1",
+     "item": "3.5.1, Tab. 3-5"
+    },
+    {
+     "parametro": "Carga submarina",
+     "valor": "2,5 × MGW × g",
+     "item": "3.5.1"
+    },
+    {
+     "parametro": "Carga dinâmica calculada (tipo E)",
+     "valor": "1,4 × F_Dyn",
+     "item": "3.5.2"
+    },
+    {
+     "parametro": "Lingada frouxa (2 pontos)",
+     "valor": "0,6 F",
+     "item": "3.5.4",
+     "cota": "esquemas/icamento-unidade-portatil-icamento-2-pontos.svg#alfaB"
+    },
+    {
+     "parametro": "RSF — olhal único",
+     "valor": "1,2 F",
+     "item": "3.5.5"
+    },
+    {
+     "parametro": "RSF — 2 a 4 pernas, ν ≥ 30°",
+     "valor": "1,2 × SKL × PL × F / cos ν",
+     "item": "3.5.5",
+     "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#nu"
+    },
+    {
+     "parametro": "SKL — 4 pernas / 2–3 pernas",
+     "valor": "≥ 1,33 / ≥ 1,1",
+     "item": "3.5.5"
+    },
+    {
+     "parametro": "PL — 4 pernas duplamente simétrica",
+     "valor": "0,25",
+     "item": "3.5.5"
+    },
+    {
+     "parametro": "Carga fora do plano (tolerâncias)",
+     "valor": "3 %",
+     "item": "3.5.6",
+     "cota": "esquemas/icamento-unidade-portatil-inclinacao-cabo-guindaste.svg#fora-plano"
+    },
+    {
+     "parametro": "Inclinação do cabo R60/R45/R30/R00",
+     "valor": "20° / 15° / 10° / 5°",
+     "item": "3.5.6",
+     "cota": "esquemas/icamento-unidade-portatil-inclinacao-cabo-guindaste.svg#inclinacao"
+    },
+    {
+     "parametro": "Empilhadeira",
+     "valor": "1,65 × MGW × g",
+     "item": "3.5.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Impacto",
+   "item": "3.6",
+   "texto": "Montantes e longarinas inferiores resistem a uma fração da carga de teste aplicada horizontalmente; a borda inferior, a uma fração vertical. Classes altas devem suportar queda sobre um canto.",
+   "valores": [
+    {
+     "parametro": "Impacto horizontal R60/R45",
+     "valor": "0,08 × carga de teste",
+     "item": "3.6.2"
+    },
+    {
+     "parametro": "Impacto horizontal R30/R00",
+     "valor": "0,05 × carga de teste",
+     "item": "3.6.2"
+    },
+    {
+     "parametro": "Demais estruturas externas",
+     "valor": "0,6 × impacto horizontal",
+     "item": "3.6.2"
+    },
+    {
+     "parametro": "Impacto vertical",
+     "valor": "0,08 × carga de teste",
+     "item": "3.6.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Transporte marítimo e amarração",
+   "item": "3.7",
+   "texto": "Sem dados do navio, adotam-se acelerações padrão em qualquer direção, com vento. Pontos de amarração são dimensionados para essas cargas com atrito nulo e fator de projeto.",
+   "valores": [
+    {
+     "parametro": "Força horizontal",
+     "valor": "MGW × g",
+     "item": "3.7.2"
+    },
+    {
+     "parametro": "Força vertical máx. / mín.",
+     "valor": "1,3 / 0,7 × MGW × g",
+     "item": "3.7.2"
+    },
+    {
+     "parametro": "Pressão de vento",
+     "valor": "1,0 kN/m²",
+     "item": "3.7.2"
+    },
+    {
+     "parametro": "Fator de projeto da amarração",
+     "valor": "1,3 (atrito 0; 0,3 com convés de madeira)",
+     "item": "3.7.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Olhais",
+   "item": "3.8–3.9",
+   "texto": "Preferir olhais de chapa; munhões só com segurança equivalente. Olhais dentro do contorno da unidade e posicionados para dividir a carga igualmente. Regras geométricas: raio externo, espessura em relação à manilha e folga pino–furo. Verificações de esmagamento, arrancamento, solda de reforços e tensão combinada no Apêndice A. Olhais roscados só em evento único. Cantos ISO não servem para içamento offshore. Bolsas de empilhadeira têm abertura e distâncias mínimas.",
+   "valores": [
+    {
+     "parametro": "Raio externo da chapa",
+     "valor": "≥ Ø do furo",
+     "item": "3.8.4",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-regras-dnv.svg#R"
+    },
+    {
+     "parametro": "Espessura no furo",
+     "valor": "≥ 75 % da largura interna da manilha",
+     "item": "3.8.4",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-regras-dnv.svg#t"
+    },
+    {
+     "parametro": "Pino × furo com carga fora do plano > 10 %",
+     "valor": "Ø pino ≥ 94 % Ø furo (recomendado)",
+     "item": "3.8.4",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-regras-dnv.svg#DH"
+    },
+    {
+     "parametro": "Olhal roscado — resistência última",
+     "valor": "≥ 3 × RSF",
+     "item": "3.8.5"
+    },
+    {
+     "parametro": "Abertura mínima da bolsa de empilhadeira",
+     "valor": "200 mm × 90 mm",
+     "item": "3.9.3",
+     "cota": "esquemas/icamento-unidade-portatil-bolsas-empilhadeira.svg#abertura-largura"
+    },
+    {
+     "parametro": "Distância entre bolsas (L < 6 m)",
+     "valor": "25 % de L, mín. 900 mm",
+     "item": "3.9.3, Tab. 3-6",
+     "cota": "esquemas/icamento-unidade-portatil-bolsas-empilhadeira.svg#distancia-centros"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e END",
+   "item": "4",
+   "texto": "Estrutura primária com certificado 3.1 e rastreabilidade; secundária, 2.2. Extensão de ensaios não destrutivos pela Tabela 4-1 e aceitação por normas ISO.",
+   "valores": [
+    {
+     "parametro": "Aceitação visual / MT / PT / UT / RX",
+     "valor": "ISO 5817 B / 23278 nível 1 / 23277 nível 1 / 11666 nível 2 / 10675-1 nível 1",
+     "item": "4.4.4, Tab. 4-2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "5",
+   "texto": "O protótipo é içado por todos os pontos com uma carga que decresce com a massa, e diagonalmente por dois pontos; mantém-se a carga alguns minutos e depois se inspecionam as soldas. Classes R60/R45 passam por ensaio de queda ou descida rápida. Em série, ensaia-se uma fração das unidades. Transporte único pode dispensar o teste com cargas majoradas.",
+   "valores": [
+    {
+     "parametro": "Teste por todos os pontos, MGW ≤ 25 t",
+     "valor": "menor de F e 2,5 × MGW × g",
+     "item": "5.2.3, Tab. 5-2"
+    },
+    {
+     "parametro": "Teste, 25 < MGW ≤ 50 t / 50 < MGW ≤ 100 t",
+     "valor": "[1 − 0,01(MGW − 25)] F / 0,75 F",
+     "item": "5.2.3, Tab. 5-2"
+    },
+    {
+     "parametro": "Teste em 2 pontos (diagonal)",
+     "valor": "menor de 0,6 F e 1,5 × MGW × g",
+     "item": "5.2.4"
+    },
+    {
+     "parametro": "Tempo sob carga",
+     "valor": "5 min",
+     "item": "5.2.1"
+    },
+    {
+     "parametro": "END após teste",
+     "valor": "≥ 20 % das soldas mais solicitadas",
+     "item": "5.2.2"
+    },
+    {
+     "parametro": "Ensaio de queda",
+     "valor": "inclinação ≥ 5°, queda ≥ 5 cm ou descida ≥ 1,5 m/s",
+     "item": "5.3",
+     "cota": "esquemas/icamento-unidade-portatil-queda-estabilidade.svg#queda"
+    },
+    {
+     "parametro": "Série: unidades ensaiadas",
+     "valor": "1–5: 1; 6–10: 2; 11–20: 3; 21–40: 4; > 40: 10 %",
+     "item": "5.4.1, Tab. 5-3"
+    },
+    {
+     "parametro": "Transporte único sem teste",
+     "valor": "cargas de içamento × 1,3",
+     "item": "5.2.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação e placas",
+   "item": "6",
+   "texto": "Marcação de segurança em dois lados, com classe e massa bruta. Placa de informação sempre; placa de inspeção quando a unidade circula por mais de um ano.",
+   "valores": [
+    {
+     "parametro": "Altura dos caracteres",
+     "valor": "≥ 50 mm, em ≥ 2 lugares",
+     "item": "6",
+     "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#caracteres"
+    }
+   ]
+  },
+  {
+   "titulo": "Lingada",
+   "item": "7",
+   "texto": "Lingada presa por manilhas com pino travado, normalmente com pernas entre 30° e 45°. A carga de ruptura da perna e o WLL da manilha derivam da RSF; manilha com carga fora do plano tem fator extra. Elo mestre de tamanho que caiba no gancho e lingada que alcance perto da base. Balancim, só com cuidados e normalmente até R30. Componentes com Charpy e certificado 3.1.",
+   "valores": [
+    {
+     "parametro": "Ângulo da perna com a vertical",
+     "valor": "30° a 45°",
+     "item": "7.3.1",
+     "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#nu"
+    },
+    {
+     "parametro": "Alcance do elo mestre",
+     "valor": "≤ 1,3 m acima da base",
+     "item": "7.3.1",
+     "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#alcance"
+    },
+    {
+     "parametro": "Elo mestre — abertura interna recomendada",
+     "valor": "270 × 140 mm",
+     "item": "7.3.1",
+     "cota": "esquemas/icamento-unidade-portatil-lingada-4-pernas-forerunner.svg#elo-comprimento"
+    },
+    {
+     "parametro": "MBL da perna",
+     "valor": "≥ 2,0 × RSF",
+     "item": "7.3.2"
+    },
+    {
+     "parametro": "WLL da manilha",
+     "valor": "≥ 2,25 / SF × RSF / g (SF ≤ 6)",
+     "item": "7.3.3"
+    },
+    {
+     "parametro": "Manilha fora do plano (> 2°)",
+     "valor": "(2,15 + 0,05·ângulo) / SF × RSF / g",
+     "item": "7.3.3",
+     "cota": "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg#fora-plano"
+    },
+    {
+     "parametro": "Charpy dos componentes",
+     "valor": "≥ 42 J a TD (solda 27 J)",
+     "item": "7.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção periódica",
+   "item": "8",
+   "texto": "Inspeção visual anual, ensaio não destrutivo dos olhais a cada quatro anos e, após reparo importante, novo teste de carga.",
+   "valores": [
+    {
+     "parametro": "Visual",
+     "valor": "≤ 12 meses",
+     "item": "8.2.1"
+    },
+    {
+     "parametro": "END dos pontos de içamento + visual",
+     "valor": "≤ 48 meses",
+     "item": "8.2.1"
+    }
+   ]
+  }
+ ]
+}

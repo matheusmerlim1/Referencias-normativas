@@ -1,0 +1,54 @@
+{
+ "id": "ISO-10683",
+ "titulo": "ISO 10683:2014 — Fixadores — Revestimentos de zinco lamelar aplicados não eletroliticamente",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Revestimentos de zinco lamelar (dispersão de lamelas de zinco, em geral com alumínio) em fixadores de aço, com ou sem Cr(VI), com ou sem top coat e lubrificante; para fixadores métricos, outras roscas e peças não roscadas. Muito usado em fixadores de alta resistência (≥ 1 000 MPa) para evitar fragilização por hidrogênio. Não trata soldabilidade, pintabilidade nem zinco mecânico.",
+   "valores": []
+  },
+  {
+   "titulo": "Corrosão",
+   "item": "5",
+   "texto": "A resistência à corrosão tem precedência sobre a espessura. Categorias padronizadas de névoa salina neutra sem corrosão do metal-base; Kesternich quando pedido.",
+   "valores": [
+    {
+     "parametro": "Categorias NSS (exemplos da norma)",
+     "valor": "ex. 240 h, 480 h, 960 h",
+     "item": "Tab. 1",
+     "nota": "lista completa — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões e calibração",
+   "item": "6",
+   "texto": "Revestimento deve caber na folga da rosca (Anexo B). Rosca externa revestida pode ser calibrada com torque limitado.",
+   "valores": [
+    {
+     "parametro": "Torque máximo para calibrar rosca revestida",
+     "valor": "0,001·d³ N·m (d em mm)",
+     "item": "6.2, Tab. 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "9",
+   "texto": "Código flZn (flZnL com lubrificante integral) / Cr(VI): yc com, nc sem / top coat (TL, Tn…) / lubrificante / tempo NSS.",
+   "valores": [
+    {
+     "parametro": "Exemplo",
+     "valor": "… – flZn/x/x/x/240h/x",
+     "item": "9.1"
+    },
+    {
+     "parametro": "Exemplo sem Cr(VI) com lubrificante integral",
+     "valor": "… – flZnL/nc/x/x/480h/x",
+     "item": "9.1"
+    }
+   ]
+  }
+ ]
+}

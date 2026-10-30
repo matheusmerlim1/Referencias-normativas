@@ -1,0 +1,38 @@
+{
+ "id": "ASME-B30.10",
+ "titulo": "ASME B30.10 — Ganchos (segurança)",
+ "secoes": [
+  {
+   "titulo": "Prova, identificação e temperatura",
+   "item": "10-1.7 a 10-1.9",
+   "texto": "Quando o gancho é provado, a carga de prova é uma porcentagem da nominal que cai com a capacidade; depois da prova a abertura da garganta quase não pode crescer. O gancho leva a marca do fabricante e a carga nominal em área pouco solicitada. Fora de uma faixa de temperatura, consulta-se o fabricante.",
+   "valores": [
+    {"parametro": "Carga de prova — até 50 t", "valor": "200 % da nominal", "item": "Tabela 10-1.7-1"},
+    {"parametro": "Carga de prova — 150 t ou mais", "valor": "133 % da nominal", "item": "Tabela 10-1.7-1"},
+    {"parametro": "Aumento permanente da garganta após prova", "valor": "≤ maior entre 1 % e 0,5 mm", "item": "10-1.7"},
+    {"parametro": "Temperatura que exige consulta ao fabricante", "valor": "> 204 °C ou < −40 °C", "item": "10-1.9.1"}
+   ]
+  },
+  {
+   "titulo": "Inspeção e remoção",
+   "item": "10-1.10",
+   "texto": "Inspeção frequente e periódica com intervalo conforme o regime de uso; a periódica tem registro. O gancho é retirado se a marcação sumir, houver trinca, entalhe, corrosão, desgaste, flexão ou torção, abertura da garganta, trava inoperante ou se tiver sido aquecido, soldado ou alterado.",
+   "valores": [
+    {"parametro": "Inspeção frequente", "valor": "normal mensal; pesado semanal a mensal; severo diário a semanal", "item": "10-1.10.3"},
+    {"parametro": "Inspeção periódica", "valor": "normal anual; pesado semestral; severo trimestral", "item": "10-1.10.4"},
+    {"parametro": "Desgaste que retira o gancho", "valor": "> 10 % da seção original", "item": "10-1.10.5"},
+    {"parametro": "Abertura da garganta que retira o gancho", "valor": "5 % (máx. 6 mm)", "item": "10-1.10.5", "cota": "esquemas/lingadas-acessorios-gancho-angulos-remocao.svg#abertura-garganta"}
+   ]
+  },
+  {
+   "titulo": "Uso",
+   "item": "10-1.11",
+   "texto": "A carga fica no assento do gancho, nunca na ponta, de lado ou de costas. Várias pernas no gancho têm ângulo limitado; acima disso, usar anel coletor. A trava só segura linga frouxa e não impede desengate; ganchos autotravantes ficam travados.",
+   "valores": [
+    {"parametro": "Ângulo incluído entre pernas no gancho", "valor": "≤ 90°", "item": "10-1.11.1", "cota": "esquemas/lingadas-acessorios-gancho-angulos-remocao.svg#angulo-incluido"},
+    {"parametro": "Ângulo de cada perna com o eixo do gancho", "valor": "≤ 45°", "item": "10-1.11.1", "cota": "esquemas/lingadas-acessorios-gancho-angulos-remocao.svg#angulo-perna"},
+    {"parametro": "Mais de 2 pernas ou > 45°", "valor": "usar anel coletor (elo ou manilha)", "item": "10-1.11.1"}
+   ]
+  }
+ ]
+}

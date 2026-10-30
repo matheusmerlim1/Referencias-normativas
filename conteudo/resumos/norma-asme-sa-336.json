@@ -1,0 +1,43 @@
+{
+ "id": "ASME-SA-336",
+ "titulo": "SA-336 — Forjados de aço liga para partes sob pressão e alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Forjados de aço ferrítico (baixa liga Cr-Mo: F1, F5, F9, F11, F12, F21, F22, F22V, F91…) e austenítico (F304, F316, F321, F347…) para caldeiras, vasos de pressão, peças de alta temperatura e equipamentos associados. Graus da SA-335 também podem ser pedidos por esta especificação. Fusão e forjamento conforme SA-788."
+  },
+  {
+   "titulo": "Usinagem",
+   "item": "5",
+   "texto": "Vasos forjados para vapor têm a superfície interna usinada ou retificada; vasos não aquecidos, conforme a norma."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "6",
+   "texto": "Ferríticos: recozidos ou normalizados e revenidos (têmpera líquida e revenimento por acordo); F22V normalizado e revenido ou temperado e revenido. Austeníticos: solubilizados.",
+   "valores": [
+    {
+     "parametro": "F22V — austenitização mín.",
+     "valor": "1650 °F [900 °C]",
+     "item": "6.1"
+    },
+    {
+     "parametro": "F91 — normalização",
+     "valor": "1900 a 2000 °F [1040 a 1095 °C]",
+     "item": "6.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição e propriedades",
+   "item": "7, 8, Tabelas 1 e 2",
+   "texto": "Química de corrida pela Tabela 1, análise de produto por corrida (SA-788). Propriedades mecânicas da Tabela 2, com o maior corpo de prova possível, eixo paralelo à direção principal de trabalho. As tabelas não saíram legíveis por coluna na extração; consultar a especificação para os valores por grau."
+  },
+  {
+   "titulo": "Grão, reparo e marcação",
+   "item": "9, 11, 12",
+   "texto": "Graus H austeníticos com tamanho de grão verificado. Reparo por solda só com aprovação do comprador. Marcação da SA-788 seguida de letra da condição (A recozido, N normalizado e revenido, Q temperado e revenido etc.)."
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "id": "ASME-SA-516",
+ "titulo": "SA-516 — Chapas de aço carbono para vasos de pressão em temperatura moderada e baixa",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço carbono para vasos de pressão soldados onde a tenacidade ao entalhe é importante. Graus 55, 60, 65 e 70 [380, 415, 450, 485]. Requisitos gerais pela SA-20 (inclusive chapas de bobina).",
+   "valores": [
+    {
+     "parametro": "Espessura máx. usual — Grau 55 / 60, 65, 70",
+     "valor": "12 in [305 mm] / 8 in [205 mm]",
+     "item": "1.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4, 5",
+   "texto": "Aço acalmado de grão austenítico fino. Até 1,50 in [40 mm], em geral como laminada (normalização/alívio opcionais); acima, normalizada. Com Charpy exigido até 1 1/2 in, normaliza-se salvo pedido diferente. Resfriamento acelerado admitido com aprovação, seguido de revenimento.",
+   "valores": [
+    {
+     "parametro": "Espessura acima da qual a normalização é obrigatória",
+     "valor": "1,50 in [40 mm]",
+     "item": "5.2"
+    },
+    {
+     "parametro": "Revenimento após resfriamento acelerado",
+     "valor": "1100 a 1300 °F [595 a 705 °C]",
+     "item": "5.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Para cada 0,01 % de C abaixo do máximo, +0,06 % de Mn acima do máximo, até 1,50 % (corrida).",
+   "valores": [
+    {
+     "parametro": "C máx. até 1/2 in [12,5 mm] — 55 / 60 / 65 / 70",
+     "valor": "0,18 / 0,21 / 0,24 / 0,27 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C máx. 1/2 a 2 in — 55 / 60 / 65 / 70",
+     "valor": "0,20 / 0,23 / 0,26 / 0,28 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C máx. 2 a 4 in — 55 / 60 / 65 / 70",
+     "valor": "0,22 / 0,25 / 0,28 / 0,30 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn (corrida) acima de 1/2 in — 55 / 60, 65, 70",
+     "valor": "0,60–1,20 % / 0,85–1,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si (corrida)",
+     "valor": "0,15–0,40 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau 55 — Su / Sy mín.",
+     "valor": "55–75 ksi [380–515] / 30 ksi [205]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 60 — Su / Sy mín.",
+     "valor": "60–80 ksi [415–550] / 32 ksi [220]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 65 — Su / Sy mín.",
+     "valor": "65–85 ksi [450–585] / 35 ksi [240]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 70 — Su / Sy mín.",
+     "valor": "70–90 ksi [485–620] / 38 ksi [260]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. 200 mm — 55 / 60 / 65 / 70",
+     "valor": "23 / 21 / 19 / 17 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. 50 mm — 55 / 60 / 65 / 70",
+     "valor": "27 / 25 / 23 / 21 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "Suplementares",
+   "texto": "Os da SA-20 (S1–S12, S17) e o adicional S54 para serviço com ácido fluorídrico (alquilação): chapa normalizada, CE = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15 limitado, V e Nb limitados, eletrodos de baixo hidrogênio e marcação 'HF-N'.",
+   "valores": [
+    {
+     "parametro": "S54 — CE máx. até 1 in [25 mm] / acima",
+     "valor": "0,43 / 0,45",
+     "item": "S54.2"
+    },
+    {
+     "parametro": "S54 — V máx. / Nb máx. / V+Nb máx.",
+     "valor": "0,02 % / 0,02 % / 0,03 %",
+     "item": "S54.4"
+    },
+    {
+     "parametro": "S54 — Ni+Cu máx.",
+     "valor": "0,15 %",
+     "item": "S54.5"
+    },
+    {
+     "parametro": "S54 — C mín.",
+     "valor": "0,18 %",
+     "item": "S54.6"
+    }
+   ]
+  }
+ ]
+}

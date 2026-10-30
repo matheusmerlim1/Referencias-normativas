@@ -1,0 +1,68 @@
+{
+ "id": "ASME-SB-42",
+ "titulo": "SB-42 — Tubos (pipe) de cobre sem costura, tamanhos padronizados",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de cobre sem costura em todos os tamanhos nominais, regulares e extrafortes, para hidráulica predial, linhas de alimentação de caldeira e usos semelhantes."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "5, Tabela 1",
+   "texto": "Cobres C10200 (sem oxigênio), C12000 ou C12200 (desoxidado com P).",
+   "valores": [
+    {
+     "parametro": "Cu (incl. Ag) mín.",
+     "valor": "99,9 %",
+     "item": "5.1"
+    },
+    {
+     "parametro": "C10200 — Cu mín. / O máx.",
+     "valor": "99,95 % / 10 ppm",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C12200 — P",
+     "valor": "0,015 a 0,040 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Têmperas e propriedades",
+   "item": "6, Tabela 2",
+   "texto": "O61 (recozido), H55 (levemente trefilado) ou H80 (trefilado duro).",
+   "valores": [
+    {
+     "parametro": "O61 — Su / Sy mín.",
+     "valor": "30 ksi (294) / 9 ksi (88)",
+     "item": "Tabela 2",
+     "nota": "valor em MPa como na norma"
+    },
+    {
+     "parametro": "H80 (1/8–2 in) — Su / Sy mín.",
+     "valor": "45 ksi (310) / 40 ksi (280)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "H55 (2–12 in) — Su / Sy mín.",
+     "valor": "36 ksi (250) / 30 ksi (210)",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "7 a 9",
+   "texto": "Expansão do tubo recozido, exame micrográfico (sem óxido cuproso) e ensaio por correntes parasitas.",
+   "valores": [
+    {
+     "parametro": "Expansão mín. (recozido)",
+     "valor": "25 % do diâmetro externo",
+     "item": "7.1"
+    }
+   ]
+  }
+ ]
+}

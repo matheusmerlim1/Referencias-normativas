@@ -1,0 +1,33 @@
+{
+ "id": "NBR-7500",
+ "titulo": "ABNT NBR 7500:2003 + Emd.1:2004 — Identificação para o transporte terrestre, manuseio, movimentação e armazenamento de produtos",
+ "secoes": [
+  {"titulo": "Objetivo", "item": "1",
+   "texto": "Simbologia convencional e dimensões para produtos perigosos (rótulos de risco, painéis de segurança, rótulos e placas especiais) e símbolos de manuseio e armazenamento de embalagens, em todos os modais terrestres e intermodais. Nome de embarque, classe e nº ONU vêm da regulamentação do Ministério dos Transportes (Portaria 204/1997, à época).",
+   "valores": []},
+  {"titulo": "Rótulos de risco", "item": "4.2–4.4",
+   "texto": "Losango dividido ao meio: metade superior com o símbolo, inferior com o número da classe/subclasse (e texto da natureza do risco, quando houver). Rótulos de risco subsidiário sem número da classe. Podem ser ampliados ou reduzidos mantendo proporção; cores conforme Anexo D, símbolos e textos em preto (com exceções); moldura contrastante se o fundo não contrastar. Modulação dos símbolos no Anexo B.",
+   "valores": [
+    {"parametro": "Rótulo da classe 7 (radioativos)", "valor": "250 × 250 mm com linha preta em toda a borda", "item": "4.3, Nota 2"},
+    {"parametro": "Números no rótulo padrão de 100 × 100 mm", "valor": "≈ 30 mm de altura e 5 mm de traço", "item": "Anexo"}
+   ]},
+  {"titulo": "Painel de segurança", "item": "4.5",
+   "texto": "Painel alaranjado com números pretos indeléveis (pode ser refletivo); verso de painéis removíveis não pode identificar outro produto. Em cima, o número de risco; embaixo, o número ONU.",
+   "valores": [
+    {"parametro": "Borda do painel", "valor": "preta, 10 mm", "item": "4.5.1.5"},
+    {"parametro": "Número de risco", "valor": "até 3 algarismos (1º = risco principal; demais = subsidiários; 0 se não houver)", "item": "4.5.2"},
+    {"parametro": "Letra X antes do número de risco", "valor": "proibido usar água no produto", "item": "4.5.2.3"},
+    {"parametro": "Algarismo repetido", "valor": "risco intensificado (ex. 30 inflamável; 33 muito inflamável)", "item": "4.5.2.5"},
+    {"parametro": "Número ONU", "valor": "4 algarismos, parte inferior", "item": "4.5.3"}
+   ]},
+  {"titulo": "Símbolos de manuseio e placas especiais", "item": "5",
+   "texto": "Símbolos de manuseio e armazenamento de embalagens, rótulos especiais e placas especiais (área de manuseio de explosivos no transporte ferroviário, transporte a temperatura elevada).",
+   "valores": [
+    {"parametro": "Placa de área de explosivos (ferroviário)", "valor": "branca com letras pretas, 400 mm × … (conferir)", "item": "5.3.1"},
+    {"parametro": "Placa triangular (vermelha e branca)", "valor": "triângulo equilátero de 300 mm de lado", "item": "Anexo"}
+   ]},
+  {"titulo": "Identificação de veículos e embalagens", "item": "6",
+   "texto": "A granel com um produto: painel com nº de risco e ONU na frente (lado do motorista), na traseira e nas laterais (do centro para trás), e rótulos de risco na traseira e laterais. Vários produtos do mesmo risco: painéis lisos na frente e traseira e painéis numerados por compartimento nas laterais. Combustíveis (álcool, diesel, gasolina, querosene) compartimentados têm regra própria; mistura com metanol acrescenta 6 ao número de risco. Veículo vazio não descontaminado mantém a sinalização. Rótulos e painéis não usados devem ser retirados ou cobertos.",
+   "valores": []}
+ ]
+}

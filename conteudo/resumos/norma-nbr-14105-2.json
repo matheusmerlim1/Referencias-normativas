@@ -1,0 +1,45 @@
+{
+ "id": "NBR-14105-2",
+ "titulo": "ABNT NBR 14105-2:2015 — Medidores de pressão — Parte 2: Medidores digitais de pressão — Requisitos de fabricação, classificação, ensaios e utilização",
+ "secoes": [
+  {"titulo": "Escopo", "item": "1, 3",
+   "texto": "Critérios de fabricação, classificação (faixa e classe de exatidão), ensaios, calibração, seleção, instalação e uso de manômetros, vacuômetros e manovacuômetros digitais.",
+   "valores": [
+    {"parametro": "Temperatura de referência (calibração)", "valor": "(20 ± 2) °C", "item": "3.13, 9.3.2"}
+   ]},
+  {"titulo": "Classificação", "item": "4",
+   "texto": "Por faixa de pressão e por classe de exatidão. O erro máximo pode ser expresso em % da amplitude da faixa (erro constante em toda a escala) ou em % da indicação (classes com sufixo R, erro proporcional à leitura). Ex.: faixa de 100 kPa e 0,10 % — da faixa, erro de 0,10 kPa em qualquer ponto; da indicação, 0,01 kPa a 10 kPa.",
+   "valores": [
+    {"parametro": "Baixa / alta pressão — gás", "valor": "≤ 2,5 MPa / > 2,5 MPa", "item": "Tab. 1"},
+    {"parametro": "Baixa / alta pressão — líquido", "valor": "≤ 6,0 MPa / > 6,0 MPa", "item": "Tab. 1"},
+    {"parametro": "Classes 5A / 4A / 3A / 2A / A / B", "valor": "± 0,05 / 0,10 / 0,25 / 0,5 / 1 / 2 %", "item": "Tab. 2"},
+    {"parametro": "Classes 5AR, 4AR… (sufixo R)", "valor": "mesmos limites, em % da indicação", "item": "Tab. 2"}
+   ]},
+  {"titulo": "Construção", "item": "5",
+   "texto": "Unidades de pressão do SI e usuais; mostradores LCD, LED ou VFD; sensores piezorresistivo, capacitivo, piezoelétrico, indutivo/LVDT ou de frequência de ressonância; alimentação elétrica especificada.",
+   "valores": []},
+  {"titulo": "Exatidão e condições ambientais", "item": "6",
+   "texto": "Não linearidade (mínimos quadrados, extremos ou zero), histerese, compensação de temperatura ambiente, estabilidade, limites de temperatura de serviço e armazenamento e grau de proteção IP (NBR IEC 60529).",
+   "valores": [
+    {"parametro": "Histerese máxima", "valor": "≤ erro máximo admissível da classe, a 20 °C", "item": "6.2"}
+   ]},
+  {"titulo": "Marcação e usos especiais", "item": "7",
+   "texto": "Fabricante, faixa, unidade, classe (recomendada na caixa) e identificações para uso específico, oxigênio (isento de óleo) e área classificada.",
+   "valores": []},
+  {"titulo": "Ensaios de vibração", "item": "8",
+   "texto": "Ensaio exploratório e de resistência à vibração, separado nos três eixos ortogonais, com o instrumento firmemente fixado.",
+   "valores": []},
+  {"titulo": "Calibração", "item": "9",
+   "texto": "Padrão (balança de pressão ou manômetro de referência) escolhido pela classe do instrumento. Pressurizar ao máximo para checar estanqueidade, aliviar, calibrar em carregamento e descarregamento nos mesmos pontos, repetir pelo menos um ciclo; frequência conforme uso e cuidados.",
+   "valores": [
+    {"parametro": "Oscilação de temperatura durante calibração", "valor": "≤ 1 °C", "item": "9.3.2"},
+    {"parametro": "Pontos mínimos — classes 5A a 2A (e R)", "valor": "10", "item": "Tab. 5"},
+    {"parametro": "Pontos mínimos — classes A, B (e R)", "valor": "5", "item": "Tab. 5"}
+   ]},
+  {"titulo": "Limpeza, seleção, instalação e segurança", "item": "10–13",
+   "texto": "Limpeza para serviços especiais; seleção considerando faixa, fluido, pressão pulsante, temperatura do processo e coluna de líquido; embalagem que preserve a exatidão; confirmação periódica da classe por pessoal competente.",
+   "valores": [
+    {"parametro": "Temperatura de armazenamento antes da instalação", "valor": "−40 °C a +70 °C, local seco e limpo", "item": "12.4"}
+   ]}
+ ]
+}

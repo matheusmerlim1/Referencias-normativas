@@ -1,0 +1,2576 @@
+{
+  "id": "habitabilidade-plataforma",
+  "titulo": "Habitabilidade — áreas de vivência, alojamento e conforto (plataformas e instalações)",
+  "categoria": "Segurança do trabalho e habitabilidade",
+  "resumo": "Valores de projeto para camarotes, beliches, sanitários, refeitório, lavanderia, água potável, iluminação, ruído, clima interior, vibração e rotas de fuga em plataformas offshore (NR-37) e instalações em terra (NR-24, NR-17), com referências ASTM F1166, NBR ISO/CIE 8995-1, NBR 10152, NR-15 e ABS.",
+  "palavras_chave": [
+    "habitabilidade",
+    "habitability",
+    "área de vivência",
+    "areas de vivencia",
+    "alojamento",
+    "accommodation",
+    "camarote",
+    "cabin",
+    "stateroom",
+    "beliche",
+    "bunk",
+    "berth",
+    "cama",
+    "colchão",
+    "pé-direito",
+    "pe direito",
+    "ceiling height",
+    "headroom",
+    "dormitório",
+    "quarto",
+    "sanitário",
+    "banheiro",
+    "vaso sanitário",
+    "mictório",
+    "chuveiro",
+    "lavatório",
+    "toilet",
+    "shower",
+    "vestiário",
+    "armário",
+    "locker",
+    "refeitório",
+    "mess room",
+    "cozinha",
+    "galley",
+    "lavanderia",
+    "laundry",
+    "água potável",
+    "potable water",
+    "bebedouro",
+    "iluminação",
+    "iluminância",
+    "lux",
+    "lighting",
+    "ruído",
+    "noise",
+    "dB(A)",
+    "conforto acústico",
+    "temperatura",
+    "climatização",
+    "HVAC",
+    "umidade",
+    "vibração",
+    "vibration",
+    "corpo inteiro",
+    "whole-body vibration",
+    "rota de fuga",
+    "escape route",
+    "extintor",
+    "enfermaria",
+    "NR-37",
+    "NR-24",
+    "NR-17",
+    "NR-15",
+    "plataforma",
+    "FPSO",
+    "offshore",
+    "módulo de acomodação temporária",
+    "MLC"
+  ],
+  "relacionadas": [
+    "passarela-plataforma-rampa",
+    "escada-degraus",
+    "escada-marinheiro",
+    "guarda-corpo",
+    "norma-nr-37",
+    "norma-nr-24",
+    "norma-nr-17",
+    "norma-nr-15",
+    "norma-astm-f1166",
+    "norma-abs-ergo",
+    "norma-nbr-iso-cie-8995-1",
+    "norma-nbr-10152",
+    "norma-bv-nr445-c"
+  ],
+  "figuras": [
+    {
+      "arquivo": "esquemas/habitabilidade-camarote-cotas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — corte do camarote com beliche e cama (pé-direito, altura da cama, vão entre camas, cama superior → teto, proteção lateral, distância entre leitos) e planta (colchão, área por pessoa).",
+      "norma": "NR-37",
+      "item": "Esquema",
+      "pagina": 29,
+      "grupo": [
+        "Camarote / dormitório — dimensões",
+        "Camarote — cama, beliche e mobiliário"
+      ],
+      "nota": "Desenho próprio. Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/habitabilidade-portas-rotas-cotas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — porta (altura e largura do vão, painel de escape), largura da rota de fuga, altura do topo do extintor e Ø da escotilha de escape.",
+      "norma": "NR-37",
+      "item": "Esquema",
+      "pagina": 29,
+      "grupo": [
+        "Camarote / dormitório — dimensões",
+        "Rotas de fuga, portas e extintores"
+      ],
+      "nota": "Desenho próprio. Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/habitabilidade-sanitarios-cotas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — cabine de vaso (área, espaço frontal, círculo livre), divisória (altura e folga ao piso), espaçamento de mictórios e segmento de lavatório coletivo, box de chuveiro (largura, rebaixo, altura do crivo).",
+      "norma": "NR-37",
+      "item": "Esquema",
+      "pagina": 24,
+      "grupo": [
+        "Instalações sanitárias — dimensões e componentes"
+      ],
+      "nota": "Desenho próprio. Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/habitabilidade-armarios-refeitorio-cotas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — armário (altura, largura, profundidade), área de vestiário por trabalhador e planta de refeitório (corredores principal e secundário, área por usuário).",
+      "norma": "NR-24",
+      "item": "Esquema",
+      "pagina": 5,
+      "grupo": [
+        "Vestiário e armários",
+        "Refeitório, cozinha e lavanderia"
+      ],
+      "nota": "Desenho próprio. Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/habitabilidade-ruido-zonas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — zonas de exposição ao ruído em função do nível sonoro e da duração (A a E), sem escala nem valores.",
+      "norma": "ASTM-F1166",
+      "item": "Esquema",
+      "pagina": 164,
+      "grupo": [
+        "Ruído"
+      ],
+      "nota": "Desenho próprio, qualitativo, no lugar do gráfico da norma; os limites numéricos estão nos requisitos."
+    },
+    {
+      "arquivo": "esquemas/habitabilidade-vibracao-zonas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — zona de precaução à saúde para vibração de corpo inteiro, entre duas curvas de aceleração × duração, sem escala nem valores.",
+      "norma": "ASTM-F1166",
+      "item": "Esquema",
+      "pagina": 168,
+      "grupo": [
+        "Clima interior, ventilação e vibração"
+      ],
+      "nota": "Desenho próprio, qualitativo, no lugar do gráfico da norma; os limites numéricos estão nos requisitos."
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Aplicação e composição das áreas de vivência",
+      "parametro": "NR-24 em plataformas",
+      "valor": "Condições de vivência a bordo reguladas pela NR-37 e pelas regulamentações do Ministério da Saúde e da ANVISA — NÃO se aplicam os dispositivos da NR-24",
+      "norma": "NR-37",
+      "item": "37.12.1",
+      "pagina": 21
+    },
+    {
+      "grupo": "Aplicação e composição das áreas de vivência",
+      "parametro": "Áreas de vivência obrigatórias (plataforma habitada)",
+      "valor": "a) alojamentos; b) instalações sanitárias; c) refeitório; d) cozinha; e) lavanderia; f) sala de recreação; g) sala de leitura; h) sala de internet; i) espaço para atividade física",
+      "norma": "NR-37",
+      "item": "37.12.2",
+      "pagina": 21,
+      "nota": "A sala de leitura pode ser compartilhada com a de internet se separadas para concentração/estudo (37.12.2.1)."
+    },
+    {
+      "grupo": "Aplicação e composição das áreas de vivência",
+      "parametro": "Critérios de projeto das áreas de vivência",
+      "valor": "Requisitos de SST; bem-estar dos embarcados; mitigar exposição a ruído, vibrações e substâncias perigosas acima dos limites de tolerância; facilidade de abandono em emergência",
+      "norma": "NR-37",
+      "item": "37.12.3.1",
+      "pagina": 22
+    },
+    {
+      "grupo": "Aplicação e composição das áreas de vivência",
+      "parametro": "Alojamento (definição NR-37)",
+      "valor": "Local para repouso composto de dormitório e instalação sanitária privativa: camarotes, camarotes provisórios e módulos de acomodação temporária",
+      "norma": "NR-37",
+      "item": "Glossário — Alojamento",
+      "pagina": 80
+    },
+    {
+      "grupo": "Aplicação e composição das áreas de vivência",
+      "parametro": "Alojamento (definição NR-24)",
+      "valor": "Conjunto de espaços composto de dormitório, instalações sanitárias, refeitório, áreas de vivência e local para lavagem e secagem de roupas, para hospedagem temporária",
+      "norma": "NR-24",
+      "item": "24.7.1",
+      "pagina": 7
+    },
+    {
+      "grupo": "Aplicação e composição das áreas de vivência",
+      "parametro": "Base de dimensionamento (NR-24)",
+      "valor": "Número de trabalhadores usuários do turno com maior contingente",
+      "norma": "NR-24",
+      "item": "24.1.1",
+      "pagina": 1
+    },
+    {
+      "grupo": "Aplicação e composição das áreas de vivência",
+      "parametro": "Camarotes provisórios + módulos de acomodação temporária",
+      "valor": "≤ 25% do quantitativo máximo de trabalhadores dos camarotes permanentes",
+      "max": 25,
+      "unidade": "%",
+      "norma": "NR-37",
+      "item": "37.12.7.9",
+      "pagina": 33,
+      "nota": "Observar a NORMAM-01/DPC para os equipamentos de salvatagem."
+    },
+    {
+      "grupo": "Aplicação e composição das áreas de vivência",
+      "parametro": "Módulo de acomodação temporária — anteparas, piso e teto",
+      "valor": "Material classe A-60 (Código MODU); apoios resilientes contra ruído e vibração; antecâmara; saída de emergência alternativa",
+      "norma": "NR-37",
+      "item": "37.12.7.4.3 b), c), f), i)",
+      "pagina": 32
+    },
+    {
+      "grupo": "Aplicação e composição das áreas de vivência",
+      "parametro": "Pernoite em outra plataforma",
+      "valor": "Vedado o transbordo de trabalhadores do POB de uma plataforma para pernoite em alojamento de outra, para suprir falta de acomodações",
+      "norma": "NR-37",
+      "item": "37.12.7.10",
+      "pagina": 33
+    },
+    {
+      "grupo": "Aplicação e composição das áreas de vivência",
+      "parametro": "Habitabilidade — classe BV (notação SUSTAINABILITY-1)",
+      "valor": "Bloco de acomodação e estações de controle do casco conforme critérios de navio de passageiros da Maritime Labour Convention 2006, Regulation 3.1, Standard A3.1",
+      "norma": "BV-NR445-C",
+      "item": "Ch 5, Sec 2, 4.1.1",
+      "pagina": 486,
+      "nota": "Ruído e vibração: notações COMF-HEALTH-NOISE-2 e COMF-HEALTH-VIB-2 (Pt A, Ch 1, Sec 2, [8.4.3]) — 4.2.1/4.2.2. Valores não transcritos aqui (estão nas regras referenciadas, fora do acervo)."
+    },
+    {
+      "grupo": "Aplicação e composição das áreas de vivência",
+      "parametro": "Habitabilidade — classe BV (notação SUSTAINABILITY-2)",
+      "valor": "Bloco de acomodação e estações de controle do casco conforme NR467 Pt F, Ch 6, Sec 6, como aplicável a navios de passageiros",
+      "norma": "BV-NR445-C",
+      "item": "Ch 5, Sec 3, 2.1.1",
+      "pagina": 488
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Ocupação máxima do camarote",
+      "valor": "No máximo quatro pessoas",
+      "max": 4,
+      "unidade": "pessoas",
+      "norma": "NR-37",
+      "item": "37.12.7.1 f)",
+      "pagina": 29
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Pé-direito do camarote — com beliches",
+      "valor": "No mínimo 2,40 m",
+      "min": 2400,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.12.7.1 g)",
+      "pagina": 29,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#pe-direito"
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Pé-direito do camarote — só camas simples",
+      "valor": "No mínimo 2,20 m",
+      "min": 2200,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.12.7.1 g)",
+      "pagina": 29,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#pe-direito"
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Área do dormitório por pessoa",
+      "valor": "Mínimo 3,60 m² por pessoa",
+      "min": 3.6,
+      "unidade": "m²/pessoa",
+      "norma": "NR-37",
+      "item": "37.12.7.1 h)",
+      "pagina": 29,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#area"
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Área por pessoa — módulo de acomodação temporária",
+      "valor": "Mínimo 3,00 m² por pessoa",
+      "min": 3.0,
+      "unidade": "m²/pessoa",
+      "norma": "NR-37",
+      "item": "37.12.7.1 h)",
+      "pagina": 29,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#area"
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Área total — dormitório individual ou duplo",
+      "valor": "Área total mínima de 7,50 m²",
+      "min": 7.5,
+      "unidade": "m²",
+      "norma": "NR-37",
+      "item": "37.12.7.1 h)",
+      "pagina": 29,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#area"
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Porta do camarote",
+      "valor": "Altura mínima 2,10 m e largura mínima 0,80 m, com dispositivo para mantê-la aberta e painel de escape 0,60 m x 0,80 m",
+      "min": 800,
+      "unidade": "mm (largura)",
+      "norma": "NR-37",
+      "item": "37.12.7.1 k)",
+      "pagina": 29,
+      "nota": "Plataformas em operação/construção antes da vigência: portas com largura < 0,80 m podem ser ejetáveis em vez do painel de escape (37.12.7.1.1).",
+      "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#porta-altura"
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Instalação sanitária do camarote",
+      "valor": "Privativa, adjacente ao dormitório: vaso, compartimento de chuveiro e lavatório, com armário, gavetas individuais, secador de toalhas e alça de apoio",
+      "norma": "NR-37",
+      "item": "37.12.7.1 j)",
+      "pagina": 29
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Circulação de acesso aos alojamentos",
+      "valor": "Largura mínima de 1,20 m",
+      "min": 1200,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.12.7.1.4",
+      "pagina": 30,
+      "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#rota"
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Isolamento do camarote",
+      "valor": "Sem aberturas diretas para praça de máquinas, carga, cozinha, paiol, lavanderias, poço de elevador ou sanitários coletivos; tubulações de vapor/gases fora dos alojamentos e corredores (salvo inviabilidade, isoladas)",
+      "norma": "NR-37",
+      "item": "37.12.7.1.2 e 37.12.7.1.3",
+      "pagina": 30
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Tomadas no camarote",
+      "valor": "Tensão de 127 ou 220 volts, identificadas",
+      "norma": "NR-37",
+      "item": "37.12.7.1 n)",
+      "pagina": 30
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Manta antichamas",
+      "valor": "Mínimo uma peça por ocupante",
+      "norma": "NR-37",
+      "item": "37.12.7.1 p)",
+      "pagina": 30
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Vibração de corpo inteiro no camarote",
+      "valor": "Inferior ao nível de ação para exposição diária à vibração de corpo inteiro do Anexo I (Vibração) da NR-09",
+      "norma": "NR-37",
+      "item": "37.12.7.1 m)",
+      "pagina": 29
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Quarto de dormitório (NR-24) — capacidade",
+      "valor": "Capacidade máxima para 8 (oito) trabalhadores",
+      "max": 8,
+      "unidade": "pessoas",
+      "norma": "NR-24",
+      "item": "24.7.3 e)",
+      "pagina": 7
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Quarto de dormitório (NR-24) — área",
+      "valor": "Mínimo 3,00 m² por cama simples ou 4,50 m² por beliche, incluídas circulação e armário",
+      "norma": "NR-24",
+      "item": "24.7.3 g)",
+      "pagina": 7,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#area"
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Pé-direito (NR-24, na falta de código de obras)",
+      "valor": "Mínimo 2,50 m",
+      "min": 2500,
+      "unidade": "mm",
+      "norma": "NR-24",
+      "item": "24.9.7.1",
+      "pagina": 10,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#pe-direito"
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Pé-direito em quarto de dormitório com beliche (NR-24)",
+      "valor": "Mínimo 3,00 m",
+      "min": 3000,
+      "unidade": "mm",
+      "norma": "NR-24",
+      "item": "24.9.7.1",
+      "pagina": 10,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#pe-direito"
+    },
+    {
+      "grupo": "Camarote / dormitório — dimensões",
+      "parametro": "Pé-livre em passarelas (headroom) — ABS",
+      "valor": "≥ 2130 mm (84 in.)",
+      "min": 2130,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.1 iv)",
+      "pagina": 19,
+      "nota": "Altura livre de circulação (walkways), não pé-direito de camarote — citada aqui só para comparação.",
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#pe-direito"
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Leitos por dormitório",
+      "valor": "No máximo quatro leitos",
+      "max": 4,
+      "unidade": "leitos",
+      "norma": "NR-37",
+      "item": "37.12.7.2 a)",
+      "pagina": 30
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Distância horizontal entre leitos",
+      "valor": "No mínimo 0,60 m",
+      "min": 600,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.12.7.2 a)",
+      "pagina": 30,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#entre-leitos"
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Armário individual",
+      "valor": "Com tranca e chave, volume mínimo de 0,5 m³, gaveta, prateleira, cabides e ≥ 3 compartimentos (higiene; roupas/pertences; EPI e bolsa)",
+      "min": 0.5,
+      "unidade": "m³",
+      "norma": "NR-37",
+      "item": "37.12.7.2 b)",
+      "pagina": 30
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Televisão no camarote",
+      "valor": "Dimensão superior a 26 polegadas (com telefone)",
+      "norma": "NR-37",
+      "item": "37.12.7.2 e)",
+      "pagina": 30
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Colchão (dimensões internas da cama)",
+      "valor": "Comportar colchão de solteiro de, no mínimo, 1,88 m x 0,78 m",
+      "norma": "NR-37",
+      "item": "37.12.7.3 a)",
+      "pagina": 31,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#colchao"
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Altura da cama",
+      "valor": "Mínimo 0,40 m, da face superior do colchão ao piso",
+      "min": 400,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.12.7.3 b)",
+      "pagina": 31,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#altura-cama"
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Colchão",
+      "valor": "Antialérgico, densidade mínima 33; validade do fabricante ou 5 anos da fabricação",
+      "norma": "NR-37",
+      "item": "37.12.7.3 c)",
+      "pagina": 31
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Travesseiro",
+      "valor": "Viscoelástico ou similar, trocado a cada 2 anos, mínimo 55 cm x 35 cm x 10 cm",
+      "norma": "NR-37",
+      "item": "37.12.7.3 d)",
+      "pagina": 31
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Beliche — nº de camas",
+      "valor": "Limitado a duas camas",
+      "max": 2,
+      "unidade": "camas",
+      "norma": "NR-37",
+      "item": "37.12.7.3.1 a)",
+      "pagina": 31
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Beliche — vão entre camas",
+      "valor": "Distância livre mínima 0,90 m, do topo do colchão de baixo ao estrado da cama de cima",
+      "min": 900,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.12.7.3.1 a)",
+      "pagina": 31,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#vao-camas"
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Beliche — vão da cama superior ao teto",
+      "valor": "Distância livre mínima 0,90 m, do teto ao topo do colchão superior",
+      "min": 900,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.12.7.3.1 b)",
+      "pagina": 31,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#vao-teto"
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Beliche — proteção e acesso",
+      "valor": "Proteção lateral na cama superior até a metade do comprimento; escada rígida fixada com degraus antiderrapantes e alça; estrados impermeáveis. Em plataforma flutuante, proteção lateral também na cama inferior",
+      "norma": "NR-37",
+      "item": "37.12.7.3.1 c)–e) e 37.12.7.3.1.1",
+      "pagina": 31,
+      "cota": "esquemas/habitabilidade-camarote-cotas.svg#protecao"
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Beliche (NR-24)",
+      "valor": "Vedado 3 ou mais camas na mesma vertical; cama superior com proteção lateral e escada fixas à estrutura",
+      "max": 2,
+      "unidade": "camas na vertical",
+      "norma": "NR-24",
+      "item": "24.7.3 a) e 24.7.3.1",
+      "pagina": 7
+    },
+    {
+      "grupo": "Camarote — cama, beliche e mobiliário",
+      "parametro": "Troca de roupa de cama e banho",
+      "valor": "Cama a cada 5 dias; banho a cada 3 dias; e sempre que trocar o ocupante",
+      "norma": "NR-37",
+      "item": "37.12.7.7 c)",
+      "pagina": 32
+    },
+    {
+      "grupo": "Instalações sanitárias — proporções",
+      "parametro": "Vasos e lavatórios coletivos (plataforma)",
+      "valor": "Mínimo 1 vaso sanitário e 1 lavatório para cada 15 trabalhadores ou fração, no turno de maior efetivo, distribuídos pelos pisos/decks",
+      "norma": "NR-37",
+      "item": "37.12.4.3",
+      "pagina": 23
+    },
+    {
+      "grupo": "Instalações sanitárias — proporções",
+      "parametro": "Substituição por mictórios (masculino)",
+      "valor": "Até 50% dos vasos por mictórios, assegurados no mínimo dois vasos",
+      "max": 50,
+      "unidade": "%",
+      "norma": "NR-37",
+      "item": "37.12.4.3.1",
+      "pagina": 23
+    },
+    {
+      "grupo": "Instalações sanitárias — proporções",
+      "parametro": "Chuveiros coletivos (plataforma)",
+      "valor": "1 para cada 30 trabalhadores ou fração, no turno de maior efetivo",
+      "norma": "NR-37",
+      "item": "37.12.4.4",
+      "pagina": 24
+    },
+    {
+      "grupo": "Instalações sanitárias — proporções",
+      "parametro": "Sanitários exclusivos da cozinha",
+      "valor": "1 vaso e 1 lavatório para cada 10 trabalhadores da cozinha ou fração (por sexo e turno de maior efetivo)",
+      "norma": "NR-37",
+      "item": "37.12.6.5",
+      "pagina": 28
+    },
+    {
+      "grupo": "Instalações sanitárias — proporções",
+      "parametro": "Banheiro a meia-nau",
+      "valor": "Plataforma com maior dimensão do deck principal acima de 200 m: banheiro o mais próximo possível da meia-nau, em área não classificada",
+      "norma": "NR-37",
+      "item": "37.12.4.2 d)",
+      "pagina": 23
+    },
+    {
+      "grupo": "Instalações sanitárias — proporções",
+      "parametro": "Lavatórios junto ao local de retirada de EPI",
+      "valor": "2 lavatórios coletivos próximos ao casario",
+      "norma": "NR-37",
+      "item": "37.12.4.7.2",
+      "pagina": 24
+    },
+    {
+      "grupo": "Instalações sanitárias — proporções",
+      "parametro": "Instalações sanitárias (NR-24)",
+      "valor": "Mínimo uma instalação sanitária (bacia + lavatório) para cada 20 trabalhadores ou fração, separadas por sexo",
+      "norma": "NR-24",
+      "item": "24.2.2",
+      "pagina": 2
+    },
+    {
+      "grupo": "Instalações sanitárias — proporções",
+      "parametro": "Lavatórios com material infectante/tóxico/poeira (NR-24)",
+      "valor": "1 lavatório para cada 10 trabalhadores",
+      "norma": "NR-24",
+      "item": "24.2.2.1",
+      "pagina": 2
+    },
+    {
+      "grupo": "Instalações sanitárias — proporções",
+      "parametro": "Mictórios (NR-24, construídos a partir de 24/09/2019)",
+      "valor": "1 para cada 20 trabalhadores ou fração até 100; 1 para cada 50 ou fração no que exceder",
+      "norma": "NR-24",
+      "item": "24.2.1.1 b)",
+      "pagina": 2
+    },
+    {
+      "grupo": "Instalações sanitárias — proporções",
+      "parametro": "Chuveiros (NR-24)",
+      "valor": "1 para cada 10 trabalhadores (material infectante, tóxico, irritante, aerodispersóides); 1 para cada 20 (poeira, esforço físico, calor intenso)",
+      "norma": "NR-24",
+      "item": "24.3.5",
+      "pagina": 3
+    },
+    {
+      "grupo": "Instalações sanitárias — proporções",
+      "parametro": "Sanitário com chuveiro no alojamento (NR-24)",
+      "valor": "1 instalação sanitária com chuveiro para cada 10 trabalhadores hospedados ou fração",
+      "norma": "NR-24",
+      "item": "24.7.2 c)",
+      "pagina": 7
+    },
+    {
+      "grupo": "Instalações sanitárias — proporções",
+      "parametro": "Distância dormitório–sanitário (NR-24)",
+      "valor": "Máximo 50 m, por passagem com piso lavável e cobertura (se o sanitário não for integrado ao dormitório)",
+      "max": 50000,
+      "unidade": "mm",
+      "norma": "NR-24",
+      "item": "24.7.2.1",
+      "pagina": 7
+    },
+    {
+      "grupo": "Instalações sanitárias — dimensões e componentes",
+      "parametro": "Área por vaso sanitário",
+      "valor": "Área mínima de 1,00 m² para cada vaso sanitário",
+      "min": 1.0,
+      "unidade": "m²",
+      "norma": "NR-37",
+      "item": "37.12.4.1 a)",
+      "pagina": 22,
+      "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#area-vaso"
+    },
+    {
+      "grupo": "Instalações sanitárias — dimensões e componentes",
+      "parametro": "Espaço frontal livre do vaso",
+      "valor": "Mínimo 0,80 m de largura e 0,60 m de profundidade",
+      "norma": "NR-37",
+      "item": "37.12.4.5 a)",
+      "pagina": 24,
+      "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#espaco-frontal"
+    },
+    {
+      "grupo": "Instalações sanitárias — dimensões e componentes",
+      "parametro": "Cabine de vaso coletiva — divisórias",
+      "valor": "Altura mínima 1,90 m; bordo inferior a no máximo 0,15 m do piso",
+      "norma": "NR-37",
+      "item": "37.12.4.5.1 a)",
+      "pagina": 24,
+      "nota": "Alças de apoio em plataformas flutuantes (37.12.4.5.1 c).",
+      "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#divisoria"
+    },
+    {
+      "grupo": "Instalações sanitárias — dimensões e componentes",
+      "parametro": "Mictórios — espaçamento",
+      "valor": "Compartimentos individuais com divisórias, espaçamento de 0,60 m; tipo cuba; descarga provocada ou automática",
+      "min": 600,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.12.4.6",
+      "pagina": 24,
+      "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#mictorio"
+    },
+    {
+      "grupo": "Instalações sanitárias — dimensões e componentes",
+      "parametro": "Box de chuveiro — rebaixo",
+      "valor": "Tento ou rebaixo com desnível mínimo de 0,05 m em relação ao piso",
+      "min": 50,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.12.4.8 c)",
+      "pagina": 25,
+      "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#rebaixo"
+    },
+    {
+      "grupo": "Instalações sanitárias — dimensões e componentes",
+      "parametro": "Chuveiro — altura do crivo",
+      "valor": "Altura mínima de 2 m do piso (pode ser móvel e ajustável)",
+      "min": 2000,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.12.4.8 k)",
+      "pagina": 25,
+      "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#crivo"
+    },
+    {
+      "grupo": "Instalações sanitárias — dimensões e componentes",
+      "parametro": "Box de chuveiro — outros",
+      "valor": "Alças de apoio (exceto plataformas fixas); registros de metal à meia altura; resistência blindada em chuveiros e aquecedores de toalha",
+      "norma": "NR-37",
+      "item": "37.12.4.8 i), j) e 37.12.4.8.1",
+      "pagina": 25
+    },
+    {
+      "grupo": "Instalações sanitárias — dimensões e componentes",
+      "parametro": "Requisitos gerais das instalações sanitárias",
+      "valor": "Água canalizada; água quente nos chuveiros; separadas por sexo; porta ejetável ou com painel de escape (NORMAM-01); piso antiderrapante com caimento; exaustão para fora da área de vivência; tomada junto aos lavatórios",
+      "norma": "NR-37",
+      "item": "37.12.4.1",
+      "pagina": 22
+    },
+    {
+      "grupo": "Instalações sanitárias — dimensões e componentes",
+      "parametro": "Banheiro químico",
+      "valor": "Vedado (inclusive no módulo temporário); se o esgotamento de todas as instalações ficar inoperante por mais de 3 horas: iniciar parada da produção e desembarque, ficando só o contingente mínimo (com banheiro químico)",
+      "max": 3,
+      "unidade": "h",
+      "norma": "NR-37",
+      "item": "37.12.4.10 e 37.12.4.10.1",
+      "pagina": 25
+    },
+    {
+      "grupo": "Instalações sanitárias — dimensões e componentes",
+      "parametro": "Compartimento de bacia (NR-24)",
+      "valor": "Na falta de código de obras: área livre de pelo menos 0,60 m de diâmetro entre a borda frontal da bacia e a porta fechada",
+      "min": 600,
+      "unidade": "mm",
+      "norma": "NR-24",
+      "item": "24.3.1 e)",
+      "pagina": 3,
+      "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#diametro-livre"
+    },
+    {
+      "grupo": "Instalações sanitárias — dimensões e componentes",
+      "parametro": "Mictório calha coletiva (NR-24)",
+      "valor": "Cada segmento de no mínimo 0,60 m = 1 unidade (com anteparo); 0,80 m sem anteparo",
+      "norma": "NR-24",
+      "item": "24.3.2.1 e 24.3.2.2",
+      "pagina": 3,
+      "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#mictorio"
+    },
+    {
+      "grupo": "Instalações sanitárias — dimensões e componentes",
+      "parametro": "Lavatório calha/tampo coletivo (NR-24)",
+      "valor": "Cada segmento de 0,60 m corresponde a uma unidade",
+      "norma": "NR-24",
+      "item": "24.3.3",
+      "pagina": 3,
+      "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#lavatorio"
+    },
+    {
+      "grupo": "Instalações sanitárias — dimensões e componentes",
+      "parametro": "Box de chuveiro (NR-24)",
+      "valor": "Na falta de código de obras: no mínimo 0,80 m por 0,80 m; água quente e fria",
+      "min": 800,
+      "unidade": "mm",
+      "norma": "NR-24",
+      "item": "24.3.6 c), f)",
+      "pagina": 4,
+      "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#box"
+    },
+    {
+      "grupo": "Vestiário e armários",
+      "parametro": "Área de vestiário por trabalhador (até 750)",
+      "valor": "Área mínima por trabalhador = 1,5 − (nº de trabalhadores / 1000)",
+      "unidade": "m²/trabalhador",
+      "norma": "NR-24",
+      "item": "24.4.2",
+      "pagina": 4,
+      "cota": "esquemas/habitabilidade-armarios-refeitorio-cotas.svg#area-vestiario"
+    },
+    {
+      "grupo": "Vestiário e armários",
+      "parametro": "Área de vestiário (> 750 trabalhadores)",
+      "valor": "No mínimo 0,75 m² por trabalhador",
+      "min": 0.75,
+      "unidade": "m²/trabalhador",
+      "norma": "NR-24",
+      "item": "24.4.2.1",
+      "pagina": 4,
+      "cota": "esquemas/habitabilidade-armarios-refeitorio-cotas.svg#area-vestiario"
+    },
+    {
+      "grupo": "Vestiário e armários",
+      "parametro": "Armário simples — dimensões mínimas",
+      "valor": "0,40 m de altura, 0,30 m de largura e 0,40 m de profundidade",
+      "norma": "NR-24",
+      "item": "24.4.6",
+      "pagina": 5,
+      "cota": "esquemas/habitabilidade-armarios-refeitorio-cotas.svg#armario-altura"
+    },
+    {
+      "grupo": "Vestiário e armários",
+      "parametro": "Armário de compartimentos duplos",
+      "valor": "0,80 m x 0,30 m x 0,40 m (prateleira: dois compartimentos de 0,40 m de altura) ou 0,80 m x 0,50 m x 0,40 m (divisão vertical: compartimentos de 0,25 m de largura)",
+      "norma": "NR-24",
+      "item": "24.4.6.1",
+      "pagina": 5,
+      "cota": "esquemas/habitabilidade-armarios-refeitorio-cotas.svg#armario-altura"
+    },
+    {
+      "grupo": "Refeitório, cozinha e lavanderia",
+      "parametro": "Refeitório — área por usuário",
+      "valor": "Área mínima de 1,50 m² por usuário",
+      "min": 1.5,
+      "unidade": "m²/usuário",
+      "norma": "NR-37",
+      "item": "37.12.5.2 b)",
+      "pagina": 26,
+      "cota": "esquemas/habitabilidade-armarios-refeitorio-cotas.svg#area-refeitorio"
+    },
+    {
+      "grupo": "Refeitório, cozinha e lavanderia",
+      "parametro": "Refeitório — mesas e assentos",
+      "valor": "Para 1/3 do total de empregados do turno de maior efetivo",
+      "norma": "NR-37",
+      "item": "37.12.5.2 b)",
+      "pagina": 26
+    },
+    {
+      "grupo": "Refeitório, cozinha e lavanderia",
+      "parametro": "Refeitório — corredor principal",
+      "valor": "Largura de 0,75 m",
+      "min": 750,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.12.5.2 c)",
+      "pagina": 26,
+      "cota": "esquemas/habitabilidade-armarios-refeitorio-cotas.svg#corredor-principal"
+    },
+    {
+      "grupo": "Refeitório, cozinha e lavanderia",
+      "parametro": "Refeitório — corredor secundário (acesso aos assentos)",
+      "valor": "Largura de 0,55 m",
+      "min": 550,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.12.5.2 c)",
+      "pagina": 26,
+      "cota": "esquemas/habitabilidade-armarios-refeitorio-cotas.svg#corredor-secundario"
+    },
+    {
+      "grupo": "Refeitório, cozinha e lavanderia",
+      "parametro": "Refeitório — lavatório",
+      "valor": "Pelo menos um na entrada ou no interior, 1 para cada 30 assentos (além dos de 37.12.4.3)",
+      "norma": "NR-37",
+      "item": "37.12.5.3",
+      "pagina": 26
+    },
+    {
+      "grupo": "Refeitório, cozinha e lavanderia",
+      "parametro": "Refeitório em plataforma flutuante",
+      "valor": "Mesas com ressalto arredondado nas bordas; bancos/cadeiras fixos ou com pés de alto atrito",
+      "norma": "NR-37",
+      "item": "37.12.5.2.1",
+      "pagina": 26
+    },
+    {
+      "grupo": "Refeitório, cozinha e lavanderia",
+      "parametro": "Permanência em plataforma desabitada sem local de refeição",
+      "valor": "No máximo 4 horas",
+      "max": 4,
+      "unidade": "h",
+      "norma": "NR-37",
+      "item": "37.12.5.5.1",
+      "pagina": 27
+    },
+    {
+      "grupo": "Refeitório, cozinha e lavanderia",
+      "parametro": "Cozinha ↔ refeitório",
+      "valor": "Interligados por passa-pratos ou portas distintas (servir / devolver utensílios)",
+      "norma": "NR-37",
+      "item": "37.12.6.3",
+      "pagina": 28
+    },
+    {
+      "grupo": "Refeitório, cozinha e lavanderia",
+      "parametro": "Câmara de refrigeração",
+      "valor": "Botoeira de emergência no interior e abertura pelo lado interno",
+      "norma": "NR-37",
+      "item": "37.12.6.8",
+      "pagina": 29
+    },
+    {
+      "grupo": "Refeitório, cozinha e lavanderia",
+      "parametro": "Lavanderia",
+      "valor": "Dimensionada pelos turnos e lotação; área isolada acusticamente; exaustão e ventilação; água tratada; roupas de trabalho lavadas separadamente",
+      "norma": "NR-37",
+      "item": "37.12.8.1.1 e 37.12.8.2",
+      "pagina": 33
+    },
+    {
+      "grupo": "Refeitório, cozinha e lavanderia",
+      "parametro": "Local de refeições (NR-24) — até 30 trabalhadores",
+      "valor": "Destinado ou adaptado; arejado; assentos e mesas/balcões para todos os usuários; meios de aquecer refeição e água potável nas proximidades",
+      "norma": "NR-24",
+      "item": "24.5.2 e 24.5.2.1",
+      "pagina": 5
+    },
+    {
+      "grupo": "Refeitório, cozinha e lavanderia",
+      "parametro": "Refeitório (NR-24) — mais de 30 trabalhadores",
+      "valor": "Fora da área de trabalho; piso e paredes laváveis; ventilação/exaustão (salvo climatizado); lavatórios; assentos e mesas para os usuários; aquecimento de refeições",
+      "norma": "NR-24",
+      "item": "24.5.3",
+      "pagina": 6
+    },
+    {
+      "grupo": "Refeitório, cozinha e lavanderia",
+      "parametro": "Câmara frigorífica (NR-24)",
+      "valor": "Abertura da porta pelo lado interno, mesmo trancada pelo exterior",
+      "norma": "NR-24",
+      "item": "24.6.2",
+      "pagina": 6
+    },
+    {
+      "grupo": "Água potável",
+      "parametro": "Água tratada para instalações sanitárias",
+      "valor": "No mínimo 60 litros diários por trabalhador",
+      "min": 60,
+      "unidade": "L/dia·trabalhador",
+      "norma": "NR-37",
+      "item": "37.12.4.9",
+      "pagina": 25
+    },
+    {
+      "grupo": "Água potável",
+      "parametro": "Água potável e fresca (casario e áreas operacionais)",
+      "valor": "No mínimo ¼ litro (250 ml) por hora para cada trabalhador",
+      "min": 250,
+      "unidade": "ml/h·trabalhador",
+      "norma": "NR-37",
+      "item": "37.13.3",
+      "pagina": 35
+    },
+    {
+      "grupo": "Água potável",
+      "parametro": "Laudo de potabilidade",
+      "valor": "Por profissional habilitado, afixado em quadro de aviso próximo ao refeitório",
+      "norma": "NR-37",
+      "item": "37.13.3.3",
+      "pagina": 36
+    },
+    {
+      "grupo": "Água potável",
+      "parametro": "Desinsetização e desratização",
+      "valor": "No mínimo semestralmente",
+      "norma": "NR-37",
+      "item": "37.13.8",
+      "pagina": 37
+    },
+    {
+      "grupo": "Água potável",
+      "parametro": "Bebedouros (NR-24)",
+      "valor": "No mínimo 1 para cada grupo de 50 trabalhadores ou fração (ou sistema equivalente); proibido copo coletivo",
+      "norma": "NR-24",
+      "item": "24.9.1 e 24.9.1.1",
+      "pagina": 9
+    },
+    {
+      "grupo": "Bem-estar, comunicação e saúde a bordo",
+      "parametro": "Computadores na sala de internet (com wi-fi)",
+      "valor": "No mínimo 1 para cada 50 trabalhadores ou fração em período de folga",
+      "norma": "NR-37",
+      "item": "37.12.9.1 e)",
+      "pagina": 34
+    },
+    {
+      "grupo": "Bem-estar, comunicação e saúde a bordo",
+      "parametro": "Computadores (sem wi-fi viável)",
+      "valor": "No mínimo 1 para cada 15 trabalhadores ou fração em folga",
+      "norma": "NR-37",
+      "item": "37.12.9.1.1",
+      "pagina": 34
+    },
+    {
+      "grupo": "Bem-estar, comunicação e saúde a bordo",
+      "parametro": "Telefones para ligação externa",
+      "valor": "1 aparelho para cada 50 trabalhadores ou fração (1 para cada 15 se não houver wi-fi); mínimo 15 minutos/dia de ligação gratuita",
+      "norma": "NR-37",
+      "item": "37.12.9.2 e 37.12.9.2.1",
+      "pagina": 34
+    },
+    {
+      "grupo": "Bem-estar, comunicação e saúde a bordo",
+      "parametro": "Sala de atividade física",
+      "valor": "Dimensionada para os embarcados em folga; piso apropriado; guarda de anilhas/barras; climatizada",
+      "norma": "NR-37",
+      "item": "37.12.9.3",
+      "pagina": 34
+    },
+    {
+      "grupo": "Bem-estar, comunicação e saúde a bordo",
+      "parametro": "Profissional de saúde a bordo",
+      "valor": "31 a 250 trabalhadores: técnico de enfermagem (supervisionado), enfermeiro ou médico; 251 a 400: +1 profissional (ao menos um de nível superior); acima de 401: +1 profissional",
+      "norma": "NR-37",
+      "item": "37.6.5 a)",
+      "pagina": 7
+    },
+    {
+      "grupo": "Bem-estar, comunicação e saúde a bordo",
+      "parametro": "Enfermaria",
+      "valor": "Conforme Capítulo 9 da NORMAM-01/DPC e NR-32; telemedicina com médicos em terra a qualquer hora do dia ou da noite",
+      "norma": "NR-37",
+      "item": "37.6.5 b), c)",
+      "pagina": 7
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Iluminamento — plataformas (NR-37)",
+      "valor": "Métodos e níveis mínimos da ABNT NBR IEC 61892-2, garantindo nível mínimo nos planos da tarefa conforme a NHO 11 (Fundacentro, 2018)",
+      "norma": "NR-37",
+      "item": "37.12.2.3",
+      "pagina": 22
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Iluminamento — locais de trabalho internos (NR-17)",
+      "valor": "Níveis mínimos da NHO 11 (Fundacentro) — Avaliação dos níveis de iluminamento em ambientes internos de trabalho, versão 2018",
+      "norma": "NR-17",
+      "item": "17.8.3",
+      "pagina": 8
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Projeto da iluminação (NR-17)",
+      "valor": "Evitar ofuscamento, reflexos incômodos, sombras e contrastes excessivos",
+      "norma": "NR-17",
+      "item": "17.8.2",
+      "pagina": 8
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Iluminância mantida — conceito (NBR 8995-1)",
+      "valor": "Valores da Seção 5 são iluminâncias mantidas na área da tarefa; a média não pode ficar abaixo deles, independentemente da idade e condições da instalação",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "4.3.1",
+      "pagina": 12
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Refeitório/cantinas",
+      "valor": "Em = 200 lux; UGRL 22; Ra 80",
+      "min": 200,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Vestiários, banheiros, toaletes",
+      "valor": "Em = 200 lux; UGRL 25; Ra 80",
+      "min": 200,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Enfermaria",
+      "valor": "Em = 500 lux; UGRL 19; Ra 80",
+      "min": 500,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Salas para exercícios físicos",
+      "valor": "Em = 300 lux; UGRL 22; Ra 80",
+      "min": 300,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Áreas de circulação e corredores",
+      "valor": "Em = 100 lux; UGRL 28; Ra 40",
+      "min": 100,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Escadas",
+      "valor": "Em = 150 lux; UGRL 25; Ra 40",
+      "min": 150,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Cozinha (restaurantes e hotéis)",
+      "valor": "Em = 500 lux; UGRL 22; Ra 80",
+      "min": 500,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 24",
+      "pagina": 27
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Escritórios — escrever, teclar, ler, processar dados",
+      "valor": "Em = 500 lux; UGRL 19; Ra 80",
+      "min": 500,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 22",
+      "pagina": 27,
+      "nota": "Trabalho com VDT: ver 4.10."
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Lavanderias — lavagem e passar roupas",
+      "valor": "Em = 300 lux; UGRL 25; Ra 80",
+      "min": 300,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 12",
+      "pagina": 23
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Salas de controle (subestações/usinas)",
+      "valor": "Em = 500 lux; UGRL 16; Ra 80",
+      "min": 500,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 16",
+      "pagina": 25,
+      "nota": "Painéis frequentemente na vertical; dimerização pode ser necessária."
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Salas de máquinas",
+      "valor": "Em = 200 lux; UGRL 25; Ra 80",
+      "min": 200,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 16",
+      "pagina": 25
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Instalações de processamento operadas remotamente (ind. química)",
+      "valor": "Em = 50 lux; UGRL —; Ra 20",
+      "min": 50,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 6",
+      "pagina": 21,
+      "nota": "Cores de segurança devem ser reconhecíveis."
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Processamento com intervenção manual limitada (ind. química)",
+      "valor": "Em = 150 lux; UGRL 28; Ra 40",
+      "min": 150,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 6",
+      "pagina": 21
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Processamento com trabalho manual constante (ind. química)",
+      "valor": "Em = 300 lux; UGRL 25; Ra 80",
+      "min": 300,
+      "unidade": "lux",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 6",
+      "pagina": 22
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Níveis de iluminação — navios e estruturas marítimas",
+      "valor": "Conforme Tabela 38 (preferido/mínimo, lux)",
+      "norma": "ASTM-F1166",
+      "item": "14.3.5",
+      "pagina": 165,
+      "nota": "Ver tabela 'ASTM F1166 — Tabela 38'."
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Razão de luminância no campo de visão",
+      "valor": "Máximo 5:1 entre duas fontes; superfícies foscas em consoles/painéis; evitar superfícies polidas a menos de 60° do campo visual",
+      "norma": "ASTM-F1166",
+      "item": "14.3.1",
+      "pagina": 165
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Iluminação noturna (adaptação ao escuro)",
+      "valor": "Branca de baixo nível dimerizável até zero (preferível ao vermelho); compatível com NVD: espectro ≤ 600 nm",
+      "norma": "ASTM-F1166",
+      "item": "14.3.4",
+      "pagina": 165
+    },
+    {
+      "grupo": "Iluminação",
+      "parametro": "Camarote — iluminação",
+      "valor": "Nível mínimo de iluminamento geral e difuso + iluminação de emergência; mesa com iluminação auxiliar; cama com iluminação complementar e tomada",
+      "norma": "NR-37",
+      "item": "37.12.7.1 o), 37.12.7.2 d), 37.12.7.3 f)",
+      "pagina": 30
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "Ruído nos leitos de camarotes e módulos temporários",
+      "valor": "Não superior a 60 dB (A); a partir de 55 dB (A) adotar medidas preventivas",
+      "max": 60,
+      "unidade": "dB(A)",
+      "norma": "NR-37",
+      "item": "37.12.3.2",
+      "pagina": 22
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "Sinal luminoso de alarme",
+      "valor": "Obrigatório nas áreas com ruído contínuo ou intermitente acima de 90 dB (A)",
+      "norma": "NR-37",
+      "item": "37.23.6.1",
+      "pagina": 54
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "Conforto acústico — ambientes com atenção constante (NR-17)",
+      "valor": "Ruído de fundo pelos valores de referência das normas técnicas oficiais; nos demais casos até 65 dB(A), LAeq, circuito Slow (S)",
+      "max": 65,
+      "unidade": "dB(A)",
+      "norma": "NR-17",
+      "item": "17.8.4.1.1 e 17.8.4.1.2",
+      "pagina": 8,
+      "nota": "A norma técnica oficial para ambientes internos é a NBR 10152 (valores nesta ficha) — a NR-17 não a cita pelo número."
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "Limite de tolerância — ruído contínuo 8 h (NR-15)",
+      "valor": "85 dB(A) para 8 horas de exposição diária",
+      "max": 85,
+      "unidade": "dB(A)",
+      "norma": "NR-15",
+      "item": "Anexo 1, Quadro",
+      "pagina": 2,
+      "nota": "Ver tabela NR-15 Anexo 1. Medição com circuito A e resposta lenta (SLOW)."
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "Exposição sem proteção adequada (NR-15)",
+      "valor": "Não permitida acima de 115 dB(A) — risco grave e iminente",
+      "max": 115,
+      "unidade": "dB(A)",
+      "norma": "NR-15",
+      "item": "Anexo 1, itens 5 e 7",
+      "pagina": 3
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "Ruído de impacto (NR-15)",
+      "valor": "Limite 130 dB (linear) ou 120 dB(C) em resposta rápida (FAST); risco grave e iminente acima de 140 dB (linear) ou 130 dB(C)",
+      "norma": "NR-15",
+      "item": "Anexo 2, itens 2 a 4",
+      "pagina": 4
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "Ruído máximo por espaço — navios e estruturas marítimas",
+      "valor": "Conforme Tabela 36 (máximo/preferido, dB(A)) — ex.: cabines 60/50; refeitório 65/55; hospital 60/45",
+      "norma": "ASTM-F1166",
+      "item": "14.1.1 e Tabela 36",
+      "pagina": 163
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "Exposição máxima com proteção (Zona A)",
+      "valor": "Ninguém exposto acima de 120 dB(A) nem a Leq(24) acima de 105 dB(A), mesmo com protetor",
+      "max": 120,
+      "unidade": "dB(A)",
+      "norma": "ASTM-F1166",
+      "item": "14.1.2.1",
+      "pagina": 162
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "Exposição sem proteção (Zona E)",
+      "valor": "< 8 h: máximo 84 dB(A); > 8 h em área ruidosa: Leq(24) ≤ 80 dB(A) e ao menos 1/3 das 24 h em ambiente ≤ 75 dB(A)",
+      "max": 84,
+      "unidade": "dB(A)",
+      "norma": "ASTM-F1166",
+      "item": "14.1.2.5",
+      "pagina": 162
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "Alternativa à Fig. 142",
+      "valor": "Leq(24) pessoal ≤ 80 dB(A); com protetor auricular: máximo 4 h contínuas ou 8 h no total por dia",
+      "max": 80,
+      "unidade": "dB(A)",
+      "norma": "ASTM-F1166",
+      "item": "14.1.2.6",
+      "pagina": 163
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "Área de alto ruído (High Noise Area)",
+      "valor": "Acima de 84 dB(A): classificar, sinalizar com placa DANGER em cada entrada e afastar controles/estações de trabalho",
+      "max": 84,
+      "unidade": "dB(A)",
+      "norma": "ASTM-F1166",
+      "item": "14.1.4 e 14.1.5",
+      "pagina": 163
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "Atenuação mínima de protetores",
+      "valor": "Plugue 20 dB(A); concha 30 dB(A); plugue + concha 35 dB(A)",
+      "norma": "ASTM-F1166",
+      "item": "14.1.3, Tabela 37",
+      "pagina": 164
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "NBR 10152 — dormitórios (residências)",
+      "valor": "RLAeq 35 dB; RLASmax 40 dB; RLNC 30",
+      "max": 35,
+      "unidade": "dB",
+      "norma": "NBR-10152",
+      "item": "10, Tabela 3",
+      "pagina": 20
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "NBR 10152 — quartos de hotel (individuais ou suítes)",
+      "valor": "RLAeq 40 dB; RLASmax 45 dB; RLNC 35",
+      "max": 40,
+      "unidade": "dB",
+      "norma": "NBR-10152",
+      "item": "10, Tabela 3",
+      "pagina": 19
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "NBR 10152 — enfermarias (clínicas e hospitais)",
+      "valor": "RLAeq 40 dB; RLASmax 45 dB; RLNC 35",
+      "max": 40,
+      "unidade": "dB",
+      "norma": "NBR-10152",
+      "item": "10, Tabela 3",
+      "pagina": 18
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "NBR 10152 — restaurantes",
+      "valor": "RLAeq 45 dB; RLASmax 50 dB; RLNC 40",
+      "max": 45,
+      "unidade": "dB",
+      "norma": "NBR-10152",
+      "item": "10, Tabela 3",
+      "pagina": 18
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "NBR 10152 — escritórios privativos",
+      "valor": "RLAeq 40 dB; RLASmax 45 dB; RLNC 35",
+      "max": 40,
+      "unidade": "dB",
+      "norma": "NBR-10152",
+      "item": "10, Tabela 3",
+      "pagina": 19
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "NBR 10152 — escritórios coletivos (open plan)",
+      "valor": "RLAeq 45 dB; RLASmax 50 dB; RLNC 40",
+      "max": 45,
+      "unidade": "dB",
+      "norma": "NBR-10152",
+      "item": "10, Tabela 3",
+      "pagina": 19
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "NBR 10152 — salas de reunião",
+      "valor": "RLAeq 35 dB; RLASmax 40 dB; RLNC 30",
+      "max": 35,
+      "unidade": "dB",
+      "norma": "NBR-10152",
+      "item": "10, Tabela 3",
+      "pagina": 19
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "NBR 10152 — academias de ginástica",
+      "valor": "RLAeq 45 dB; RLASmax 50 dB; RLNC 40",
+      "max": 45,
+      "unidade": "dB",
+      "norma": "NBR-10152",
+      "item": "10, Tabela 3",
+      "pagina": 19
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "NBR 10152 — cozinhas e lavanderias",
+      "valor": "RLAeq 50 dB; RLASmax 55 dB; RLNC 45",
+      "max": 50,
+      "unidade": "dB",
+      "norma": "NBR-10152",
+      "item": "10, Tabela 3",
+      "pagina": 20
+    },
+    {
+      "grupo": "Ruído",
+      "parametro": "NBR 10152 — tolerância na avaliação",
+      "valor": "Ambiente adequado se níveis ≤ valores da Tabela 3, admitida tolerância de até 5 dB (RLAeq e RLASmax) e até 5 (RLNC)",
+      "norma": "NBR-10152",
+      "item": "10",
+      "pagina": 18
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Climatização (plataforma habitada)",
+      "valor": "Sistema de climatização para áreas de vivência e locais com solicitação intelectual e atenção constantes, em funcionamento contínuo com trabalhadores a bordo; qualidade do ar pela ANVISA/MS",
+      "norma": "NR-37",
+      "item": "37.14.1, 37.14.1.1 e 37.14.1.1.1",
+      "pagina": 37
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Climatização do camarote",
+      "valor": "Controle individual de temperatura; aletas ajustáveis na insuflação; baixo ruído e vibração",
+      "norma": "NR-37",
+      "item": "37.14.3",
+      "pagina": 38
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Ar-condicionado individual — manutenção",
+      "valor": "Limpeza e manutenção anual por profissional qualificado",
+      "norma": "NR-37",
+      "item": "37.14.4",
+      "pagina": 38
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Temperatura — ambientes climatizados (NR-17)",
+      "valor": "Faixa de temperatura do ar entre 18 e 25 °C",
+      "min": 18,
+      "max": 25,
+      "unidade": "°C",
+      "norma": "NR-17",
+      "item": "17.8.4.2",
+      "pagina": 8,
+      "nota": "Aplica-se a locais com solicitação intelectual e atenção constantes (17.8.4). Evitar correntes de ar diretas sobre o trabalhador (17.8.4.2.1)."
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Espaço tripulado (manned space)",
+      "valor": "Ocupado continuamente por mais de 20 min — só nesses espaços há requisito de clima interior",
+      "norma": "ASTM-F1166",
+      "item": "14.2.1",
+      "pagina": 163
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Temperatura — HVAC",
+      "valor": "Temperatura ajustada de 22 ± 1 °C; preferível faixa ajustável de 18 °C a 26,5 °C com termostato individual por espaço",
+      "min": 18,
+      "max": 26.5,
+      "unidade": "°C",
+      "norma": "ASTM-F1166",
+      "item": "14.2.2",
+      "pagina": 163
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Gradiente vertical de temperatura",
+      "valor": "Entre 100 mm e 1702 mm acima do piso: máximo 5,5 °C (preferido 3 °C)",
+      "max": 5.5,
+      "unidade": "°C",
+      "norma": "ASTM-F1166",
+      "item": "14.2.2.1",
+      "pagina": 163
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Gradiente horizontal em dormitórios (berthing)",
+      "valor": "Antepara junto ao leito × ar médio: menos de 10 °C",
+      "max": 10,
+      "unidade": "°C",
+      "norma": "ASTM-F1166",
+      "item": "14.2.2.2",
+      "pagina": 163
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Umidade relativa",
+      "valor": "30 % mínimo a 70 % máximo; preferido 40 a 45 %",
+      "min": 30,
+      "max": 70,
+      "unidade": "%",
+      "norma": "ASTM-F1166",
+      "item": "14.2.3",
+      "pagina": 163
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Meta de projeto temperatura/umidade",
+      "valor": "21 °C e 45 %",
+      "norma": "ASTM-F1166",
+      "item": "14.2.4",
+      "pagina": 164
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Velocidade do ar",
+      "valor": "Máximo 0,5 m/s (30 m/min) em qualquer ponto; com resfriamento localizado < 60 m/min; com papéis soltos preferível 0,33 m/s (20 m/min)",
+      "max": 0.5,
+      "unidade": "m/s",
+      "norma": "ASTM-F1166",
+      "item": "14.2.5.1",
+      "pagina": 164
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Ar de ventilação (espaço pequeno ≤ 4,25 m³/pessoa)",
+      "valor": "Mínimo 0,85 m³/min por pessoa, cerca de 2/3 ar externo; espaços fechados: ao menos 6 trocas completas por hora",
+      "norma": "ASTM-F1166",
+      "item": "14.2.5.2",
+      "pagina": 164,
+      "nota": "Espaços maiores: curvas da Fig. 143 (não transcritas)."
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Vibração contínua de corpo inteiro (Tipo IV)",
+      "valor": "RMS ponderada ≤ 0,4 m/s² (preferido 0,315 m/s²), 0,5 a 80 Hz, em cada eixo x, y, z",
+      "max": 0.4,
+      "unidade": "m/s²",
+      "norma": "ASTM-F1166",
+      "item": "14.4.5",
+      "pagina": 168
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Vibração — conforto (Tipos III e IV)",
+      "valor": "RMS ponderada combinada nos três eixos ≤ 0,315 m/s²",
+      "max": 0.315,
+      "unidade": "m/s²",
+      "norma": "ASTM-F1166",
+      "item": "14.4.6",
+      "pagina": 168
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Vibração — percepção",
+      "valor": "RMS ponderada combinada nos três eixos abaixo de 0,015 m/s²",
+      "max": 0.015,
+      "unidade": "m/s²",
+      "norma": "ASTM-F1166",
+      "item": "14.4.7",
+      "pagina": 168
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Enjoo (motion sickness)",
+      "valor": "MSDV < 0,3 m/s^1,5 (taxa de enjoo < 10 %)",
+      "norma": "ASTM-F1166",
+      "item": "14.4.8",
+      "pagina": 168
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Vibração com choque ocasional (Tipo II)",
+      "valor": "Fator de crista ≤ 9: fora da zona 'Health Risks are LIKELY' da Fig. 145; > 9: VDV ≤ 21 m/s^1,75 por dia",
+      "norma": "ASTM-F1166",
+      "item": "14.4.3",
+      "pagina": 167
+    },
+    {
+      "grupo": "Clima interior, ventilação e vibração",
+      "parametro": "Choques repetidos (Tipo I)",
+      "valor": "Impactos ≤ 4 G: Sed ≤ 0,5 MPa (alto risco acima de 0,8 MPa); > 4 G (militar): Sed(8) ≤ 4,7 MPa (preferido 3,9 MPa)",
+      "norma": "ASTM-F1166",
+      "item": "14.4.2.2 e 14.4.2.3",
+      "pagina": 167
+    },
+    {
+      "grupo": "Rotas de fuga, portas e extintores",
+      "parametro": "Rota de fuga — largura",
+      "valor": "Mínimo 1,20 m (principal) e 0,70 m (secundária)",
+      "min": 700,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.25.8.2 e)",
+      "pagina": 61,
+      "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#rota"
+    },
+    {
+      "grupo": "Rotas de fuga, portas e extintores",
+      "parametro": "Rota de fuga — sinalização e iluminação",
+      "valor": "Placas fotoluminescentes/luminosas (NBR 16820) ou sinalização no piso/rodapé; iluminação de emergência; desobstruída e contínua",
+      "norma": "NR-37",
+      "item": "37.25.8.2",
+      "pagina": 61
+    },
+    {
+      "grupo": "Rotas de fuga, portas e extintores",
+      "parametro": "Portas de rotas de fuga principais",
+      "valor": "Visíveis, desobstruídas, abrindo no sentido de fuga (exceto deslizantes); proibidas portas de enrolar",
+      "norma": "NR-37",
+      "item": "37.25.8.4 e 37.25.8.4.2",
+      "pagina": 62
+    },
+    {
+      "grupo": "Rotas de fuga, portas e extintores",
+      "parametro": "Porta que abre para dentro",
+      "valor": "Passagem de emergência abrindo para fora (dimensões da NORMAM-01); compartimentos < 16 m²: porta ejetável como alternativa",
+      "norma": "NR-37",
+      "item": "37.25.8.4.3 e 37.25.8.4.3.1",
+      "pagina": 62
+    },
+    {
+      "grupo": "Rotas de fuga, portas e extintores",
+      "parametro": "Porta de acesso a escada",
+      "valor": "Vão livre com no mínimo a largura da rota de fuga atendida",
+      "norma": "NR-37",
+      "item": "37.25.8.4.4",
+      "pagina": 62,
+      "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#porta-largura"
+    },
+    {
+      "grupo": "Rotas de fuga, portas e extintores",
+      "parametro": "Extintor portátil — altura",
+      "valor": "Parte superior a no máximo 1,60 m do piso",
+      "max": 1600,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.25.7.4.4",
+      "pagina": 61,
+      "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#extintor"
+    },
+    {
+      "grupo": "Rotas de fuga, portas e extintores",
+      "parametro": "Extintor portátil — localização",
+      "valor": "Fácil visualização e acesso; vedado em escadas, antecâmaras de escadas e atrás de portas; local sinalizado (NBR 16820)",
+      "norma": "NR-37",
+      "item": "37.25.7.4.1 a 37.25.7.4.3",
+      "pagina": 61
+    },
+    {
+      "grupo": "Rotas de fuga, portas e extintores",
+      "parametro": "Porta de uso da tripulação (não de emergência) — ABS",
+      "valor": "Vão livre de largura ≥ 710 mm (28 in.); altura do piso ao topo da porta ≥ 1980 mm (78 in.)",
+      "min": 710,
+      "unidade": "mm (largura)",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 9.2.2",
+      "pagina": 53,
+      "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#porta-largura"
+    },
+    {
+      "grupo": "Rotas de fuga, portas e extintores",
+      "parametro": "Portas/escotilhas de escape — ABS",
+      "valor": "Operáveis por uma pessoa, dos dois lados, no claro e no escuro, com uma mão; sem chave/ferramenta; portas de acomodação (exceto camarotes), escadas, corredores e controle abrem no sentido da fuga",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 9.2.1 e 9.2.3",
+      "pagina": 53
+    },
+    {
+      "grupo": "Rotas de fuga, portas e extintores",
+      "parametro": "Escotilha de convés (deck scuttle) de escape — ABS",
+      "valor": "Redonda ≥ 670 mm de diâmetro; retangular ≥ 670 mm x 330 mm; abertura sem chave/ferramenta e trava na posição aberta",
+      "min": 670,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 9.3",
+      "pagina": 54,
+      "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#escotilha"
+    }
+  ],
+  "tabelas": [
+    {
+      "id": "astm-f1166-tab36-ruido",
+      "titulo": "ASTM F1166 — Tabela 36: níveis máximos de ruído por espaço (navios e estruturas marítimas)",
+      "norma": "ASTM-F1166",
+      "item": "14.1.1, Tabela 36",
+      "pagina": 163,
+      "unidade": "dB(A)",
+      "colunas": [
+        "Espaço",
+        "Limite máximo dB(A)",
+        "Limite preferido dB(A)"
+      ],
+      "linhas": [
+        [
+          "Work spaces — Machinery space (continuously manned)",
+          90,
+          84
+        ],
+        [
+          "Work spaces — Machinery space (not continuously manned)",
+          110,
+          95
+        ],
+        [
+          "Work spaces — Machinery control rooms",
+          75,
+          65
+        ],
+        [
+          "Work spaces — Workshops",
+          84,
+          75
+        ],
+        [
+          "Work spaces — Non-specified spaces",
+          95,
+          84
+        ],
+        [
+          "Work spaces — Control Rooms and Offices",
+          70,
+          65
+        ],
+        [
+          "Work spaces — Open Deck Areas (Cargo Handling)",
+          95,
+          80
+        ],
+        [
+          "Work spaces — Fan Rooms",
+          100,
+          84
+        ],
+        [
+          "Navigation — Navigation bridge and chartroom",
+          65,
+          55
+        ],
+        [
+          "Navigation — Listening post, including bridge wings and windows",
+          70,
+          60
+        ],
+        [
+          "Navigation — Radio rooms",
+          60,
+          55
+        ],
+        [
+          "Navigation — Radar room/areas",
+          65,
+          55
+        ],
+        [
+          "Navigation — Ship's Offices",
+          75,
+          60
+        ],
+        [
+          "Accommodation — Cabins",
+          60,
+          50
+        ],
+        [
+          "Accommodation — Hospitals, dental, first aid centers",
+          60,
+          45
+        ],
+        [
+          "Accommodation — Mess rooms",
+          65,
+          55
+        ],
+        [
+          "Accommodation — Indoor recreation rooms",
+          65,
+          50
+        ],
+        [
+          "Accommodation — Open deck recreation areas",
+          84,
+          75
+        ],
+        [
+          "Accommodation — Offices",
+          65,
+          55
+        ],
+        [
+          "Accommodation — Gym",
+          75,
+          65
+        ],
+        [
+          "Service — Galleys",
+          75,
+          65
+        ],
+        [
+          "Service — Serving lines, pantries, storerooms",
+          84,
+          70
+        ],
+        [
+          "Service — Laundries",
+          84,
+          75
+        ],
+        [
+          "Normally unoccupied spaces — Spaces not specified",
+          90,
+          84
+        ]
+      ],
+      "nota": "Nota 1 da tabela: espaços acima de 84 dB(A) exigem protetor auditivo (Fig. 142). Medição conforme IMO A.468(XII). Pareamento das colunas conferido na imagem.",
+      "consulta": false
+    },
+    {
+      "id": "astm-f1166-tab38-iluminacao",
+      "titulo": "ASTM F1166 — Tabela 38: níveis de iluminação para navios e estruturas marítimas",
+      "norma": "ASTM-F1166",
+      "item": "14.3.5, Tabela 38",
+      "pagina": 166,
+      "unidade": "lux",
+      "colunas": [
+        "Área de trabalho ou tarefa",
+        "Preferido (lux)",
+        "Mínimo (lux)"
+      ],
+      "linhas": [
+        [
+          "Assembly (Bench Work) — Course Work Detail",
+          540,
+          325
+        ],
+        [
+          "Assembly (Bench Work) — Medium Work Detail",
+          810,
+          540
+        ],
+        [
+          "Assembly (Bench Work) — Precise Work Detail",
+          3230,
+          2155
+        ],
+        [
+          "Bakery",
+          540,
+          325
+        ],
+        [
+          "Battery Room",
+          300,
+          200
+        ],
+        [
+          "Bridge",
+          "—",
+          325
+        ],
+        [
+          "Business Machine Operation",
+          1075,
+          540
+        ],
+        [
+          "Cargo Handling (Weather Decks)",
+          "—",
+          150
+        ],
+        [
+          "Chart Room — General Lighting",
+          "—",
+          150
+        ],
+        [
+          "Chart Room — On Chart Table",
+          1075,
+          810
+        ],
+        [
+          "Control Rooms — General Lighting",
+          540,
+          "—"
+        ],
+        [
+          "Control Rooms — Computer Work",
+          300,
+          "—"
+        ],
+        [
+          "Control Rooms — Consoles (front)",
+          540,
+          325
+        ],
+        [
+          "Control Rooms — Consoles (rear)",
+          325,
+          110
+        ],
+        [
+          "Compressor/Pump/Generator",
+          300,
+          200
+        ],
+        [
+          "Crane Cab",
+          540,
+          400
+        ],
+        [
+          "Electrical Equip Testing",
+          540,
+          325
+        ],
+        [
+          "Elevators",
+          325,
+          215
+        ],
+        [
+          "Emergency Lighting",
+          55,
+          30
+        ],
+        [
+          "Emergency Generator Room",
+          340,
+          "—"
+        ],
+        [
+          "Escape Trunks",
+          "—",
+          30
+        ],
+        [
+          "Fan Room",
+          "—",
+          150
+        ],
+        [
+          "Fire Pump Room",
+          300,
+          200
+        ],
+        [
+          "Food Storage — Non-refrigerated",
+          "—",
+          200
+        ],
+        [
+          "Food Storage — Refrigerated",
+          "—",
+          100
+        ],
+        [
+          "Galley",
+          755,
+          540
+        ],
+        [
+          "Gyro Room",
+          "—",
+          200
+        ],
+        [
+          "HVAC Room",
+          300,
+          200
+        ],
+        [
+          "Instrument Shop",
+          540,
+          325
+        ],
+        [
+          "Laundry — General",
+          "—",
+          540
+        ],
+        [
+          "Laundry — Hand Pressing",
+          "—",
+          1395
+        ],
+        [
+          "Lay Down Areas",
+          "—",
+          200
+        ],
+        [
+          "Laboratory",
+          540,
+          360
+        ],
+        [
+          "Library",
+          "—",
+          540
+        ],
+        [
+          "Loading/Off-loading Area",
+          "—",
+          150
+        ],
+        [
+          "Lounges",
+          "—",
+          300
+        ],
+        [
+          "Manifold Area",
+          "—",
+          100
+        ],
+        [
+          "Machinery Room (1ª linha)",
+          "—",
+          200
+        ],
+        [
+          "Machine Shop — General Lighting",
+          540,
+          325
+        ],
+        [
+          "Machine Shop — Fine Bench Work",
+          1075,
+          745
+        ],
+        [
+          "Maintenance Platform",
+          "—",
+          200
+        ],
+        [
+          "Machinery Room (2ª linha)",
+          "—",
+          150
+        ],
+        [
+          "Mess Room (Cafeteria)",
+          "—",
+          300
+        ],
+        [
+          "Muster Station",
+          "—",
+          200
+        ],
+        [
+          "Medical Space — Waiting Area",
+          755,
+          540
+        ],
+        [
+          "Medical Space — Exam/Treatment Room",
+          1075,
+          810
+        ],
+        [
+          "Missile Facilities — General Inspection",
+          540,
+          325
+        ],
+        [
+          "Missile Facilities — Repair and Service",
+          1075,
+          540
+        ],
+        [
+          "Missile Facilities — Storage Areas",
+          215,
+          215
+        ],
+        [
+          "Offices — General",
+          755,
+          540
+        ],
+        [
+          "Offices — Computer Workstation",
+          540,
+          300
+        ],
+        [
+          "Offices — Ordinary Visual Tasks",
+          540,
+          325
+        ],
+        [
+          "Paint Room — General",
+          "—",
+          325
+        ],
+        [
+          "Paint Room — Color Matching",
+          "—",
+          2155
+        ],
+        [
+          "Pump Room",
+          340,
+          225
+        ],
+        [
+          "Purifier Room (Water or Oil)",
+          500,
+          "—"
+        ],
+        [
+          "Passageways (walkways)",
+          215,
+          150
+        ],
+        [
+          "Pump Rows, Valves",
+          200,
+          "—"
+        ],
+        [
+          "Radar Room",
+          "—",
+          200
+        ],
+        [
+          "Radio Room",
+          "—",
+          540
+        ],
+        [
+          "Reading — Large Print",
+          325,
+          110
+        ],
+        [
+          "Reading — News Print",
+          540,
+          325
+        ],
+        [
+          "Reading — Small Type/Prolong Reading",
+          755,
+          540
+        ],
+        [
+          "Recreation Rooms",
+          "—",
+          300
+        ],
+        [
+          "Repair Rooms — General Lighting",
+          540,
+          325
+        ],
+        [
+          "Repair Rooms — Instrument Repair",
+          2155,
+          1075
+        ],
+        [
+          "Sanitary Spaces — General",
+          "—",
+          325
+        ],
+        [
+          "Sanitary Spaces — Sinks and Mirrors",
+          "—",
+          540
+        ],
+        [
+          "Sanitary Spaces — Toilets",
+          "—",
+          150
+        ],
+        [
+          "Service Areas (General)",
+          215,
+          110
+        ],
+        [
+          "Shaft Alley",
+          215,
+          110
+        ],
+        [
+          "Snack and Coffee Bar",
+          "—",
+          500
+        ],
+        [
+          "Stairs and Ladders",
+          215,
+          110
+        ],
+        [
+          "Ship Stores — General Warehouse",
+          110,
+          55
+        ],
+        [
+          "Ship Stores — Large Parts",
+          200,
+          "—"
+        ],
+        [
+          "Ship Stores — Small Parts",
+          300,
+          "—"
+        ],
+        [
+          "Ship Stores — Fine Parts",
+          540,
+          "—"
+        ],
+        [
+          "Steering Gear Room",
+          540,
+          300
+        ],
+        [
+          "Switchboards",
+          540,
+          325
+        ],
+        [
+          "Tanks",
+          215,
+          215
+        ],
+        [
+          "Welding/Mechanical Shop",
+          500,
+          "—"
+        ],
+        [
+          "Windlass Room",
+          "—",
+          100
+        ],
+        [
+          "Work and Repair Areas",
+          700,
+          "—"
+        ]
+      ],
+      "nota": "Valores em lux; a norma traz também foot-candles entre parênteses (omitidos). '—' = célula vazia. Linhas conferidas na imagem. Erros/curiosidades da própria tabela: Bridge '325 30)'; Offices General e Repair Rooms General trazem '540 (30)' (540 lux ≈ 50 fc); 'Machinery Room' aparece duas vezes (200 e 150 lux mínimos), mantidas como na norma.",
+      "consulta": false
+    },
+    {
+      "id": "nr15-anexo1-ruido",
+      "titulo": "NR-15 Anexo 1 — limites de tolerância para ruído contínuo ou intermitente",
+      "norma": "NR-15",
+      "item": "Anexo 1, Quadro",
+      "pagina": 2,
+      "unidade": "dB(A) · tempo",
+      "colunas": [
+        "Nível de ruído dB(A)",
+        "Máxima exposição diária permissível"
+      ],
+      "linhas": [
+        [
+          85,
+          "8 horas"
+        ],
+        [
+          86,
+          "7 horas"
+        ],
+        [
+          87,
+          "6 horas"
+        ],
+        [
+          88,
+          "5 horas"
+        ],
+        [
+          89,
+          "4 horas e 30 minutos"
+        ],
+        [
+          90,
+          "4 horas"
+        ],
+        [
+          91,
+          "3 horas e 30 minutos"
+        ],
+        [
+          92,
+          "3 horas"
+        ],
+        [
+          93,
+          "2 horas e 40 minutos"
+        ],
+        [
+          94,
+          "2 horas e 15 minutos"
+        ],
+        [
+          95,
+          "2 horas"
+        ],
+        [
+          96,
+          "1 hora e 45 minutos"
+        ],
+        [
+          98,
+          "1 hora e 15 minutos"
+        ],
+        [
+          100,
+          "1 hora"
+        ],
+        [
+          102,
+          "45 minutos"
+        ],
+        [
+          104,
+          "35 minutos"
+        ],
+        [
+          105,
+          "30 minutos"
+        ],
+        [
+          106,
+          "25 minutos"
+        ],
+        [
+          108,
+          "20 minutos"
+        ],
+        [
+          110,
+          "15 minutos"
+        ],
+        [
+          112,
+          "10 minutos"
+        ],
+        [
+          114,
+          "8 minutos"
+        ],
+        [
+          115,
+          "7 minutos"
+        ]
+      ],
+      "nota": "Nível intermediário: usar o tempo do nível imediatamente mais elevado (item 4). Exposições combinadas: Σ Cn/Tn ≤ 1 (item 6).",
+      "consulta": false
+    },
+    {
+      "id": "nbr8995-1-areas-gerais",
+      "titulo": "NBR ISO/CIE 8995-1 — Seção 5, item 1: áreas gerais da edificação (Em, UGRL, Ra)",
+      "norma": "NBR-ISO-CIE-8995-1",
+      "item": "Seção 5, item 1",
+      "pagina": 20,
+      "unidade": "lux",
+      "colunas": [
+        "Ambiente",
+        "Em (lux)",
+        "UGRL",
+        "Ra",
+        "Observações"
+      ],
+      "linhas": [
+        [
+          "Saguão de entrada",
+          100,
+          22,
+          60,
+          ""
+        ],
+        [
+          "Sala de espera",
+          200,
+          22,
+          80,
+          ""
+        ],
+        [
+          "Áreas de circulação e corredores",
+          100,
+          28,
+          40,
+          "Nas entradas e saídas, zona de transição."
+        ],
+        [
+          "Escadas, escadas rolantes e esteiras rolantes",
+          150,
+          25,
+          40,
+          ""
+        ],
+        [
+          "Rampas de carregamento",
+          150,
+          25,
+          40,
+          ""
+        ],
+        [
+          "Refeitório/Cantinas",
+          200,
+          22,
+          80,
+          ""
+        ],
+        [
+          "Salas de descanso",
+          100,
+          22,
+          80,
+          ""
+        ],
+        [
+          "Salas para exercícios físicos",
+          300,
+          22,
+          80,
+          ""
+        ],
+        [
+          "Vestiários, banheiros, toaletes",
+          200,
+          25,
+          80,
+          ""
+        ],
+        [
+          "Enfermaria",
+          500,
+          19,
+          80,
+          ""
+        ],
+        [
+          "Salas para atendimento médico",
+          500,
+          16,
+          90,
+          "Tcp no mínimo 4 000 K."
+        ],
+        [
+          "Estufas, sala dos disjuntores",
+          200,
+          25,
+          60,
+          ""
+        ],
+        [
+          "Correios, quadros de distribuição",
+          500,
+          19,
+          80,
+          ""
+        ],
+        [
+          "Depósito, estoques, câmara fria",
+          100,
+          25,
+          60,
+          "200 lux, se forem continuamente ocupados."
+        ],
+        [
+          "Expedição",
+          300,
+          25,
+          60,
+          ""
+        ],
+        [
+          "Estação de controle",
+          150,
+          22,
+          60,
+          "200 lux se forem continuamente ocupadas."
+        ]
+      ],
+      "nota": "Em = iluminância mantida na área da tarefa (4.3.1). Para ambiente não listado, adotar o de situação similar (Seção 5, coluna 1).",
+      "consulta": false
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "atencao",
+      "texto": "Plataforma offshore × instalação em terra: em plataformas de petróleo vale a NR-37 (cap. 37.12 a 37.14); o item 37.12.1 diz expressamente que os dispositivos da NR-24 NÃO se aplicam às condições de vivência a bordo. A NR-24 entra só em instalações em terra (canteiro, base de apoio, alojamento de obra)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Pé-direito: NR-37 exige 2,40 m em camarote com beliche e 2,20 m só com camas simples; a NR-24 (na falta de código de obras) pede 2,50 m em geral e 3,00 m em quarto com beliche. O ABS Ergonomic não fixa pé-direito de camarote — só a altura livre de passagem em passarelas (≥ 2130 mm) e portas de tripulação com 1980 mm até o topo e 710 mm de vão. Use a NR-37 a bordo e a NR-24 em terra."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Área de dormitório: NR-37 = 3,60 m²/pessoa (3,00 m² em módulo temporário; 7,50 m² totais em camarote individual ou duplo), até 4 pessoas por camarote. NR-24 = 3,00 m² por cama simples ou 4,50 m² por beliche (incluindo circulação e armário), até 8 por quarto. A NR-24 permite beliche de 2 camas; a NR-37 também limita a 2 camas e exige 0,90 m livres entre camas e entre a cama de cima e o teto."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Proporção de sanitários: NR-37 = 1 vaso + 1 lavatório / 15 trabalhadores e 1 chuveiro / 30 (turno de maior efetivo), e 1/10 para o pessoal da cozinha; NR-24 = 1 instalação / 20 trabalhadores, chuveiro 1/10 ou 1/20 conforme a atividade e, em alojamento, 1 sanitário com chuveiro / 10 hospedados."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Ruído em camarote: NR-37 limita a 60 dB(A) nos leitos (medidas preventivas a partir de 55 dB(A)); ASTM F1166 Tab. 36 dá 60 dB(A) máximo / 50 preferido para cabines; NBR 10152 (edificações) dá 35 dB para dormitórios e 40 dB para quartos de hotel. A NR-17 remete às normas técnicas oficiais (NBR 10152) e, nos demais casos, admite até 65 dB(A). O limite de 85 dB(A)/8 h da NR-15 é de INSALUBRIDADE, não de conforto; a ASTM F1166 usa 84 dB(A) como limite sem protetor."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Temperatura: NR-17 = 18 a 25 °C (ambientes climatizados com atenção constante); ASTM F1166 = 22 ± 1 °C, faixa ajustável preferível de 18 a 26,5 °C, umidade 30–70 % (preferido 40–45 %). A NR-37 não fixa número: exige climatização contínua, controle individual no camarote e qualidade do ar pela ANVISA."
+    },
+    {
+      "tipo": "info",
+      "texto": "Iluminação: a NR-37 (37.12.2.3) remete à ABNT NBR IEC 61892-2 e à NHO 11 da Fundacentro (2018), e a NR-17 (17.8.3) à NHO 11 — nenhuma das duas está no acervo. Como referência numérica foram trazidas a NBR ISO/CIE 8995-1 (edificações) e a Tabela 38 da ASTM F1166 (navios e estruturas marítimas)."
+    },
+    {
+      "tipo": "info",
+      "texto": "BV NR445 (notações SUSTAINABILITY-1/-2) remete a habitabilidade à MLC 2006 (Reg. 3.1, Norma A3.1) ou à NR467 Pt F e o ruído/vibração às notações COMF-HEALTH; esses documentos não estão no acervo. O ABS Guide for Crew Habitability on Offshore Installations, citado pela ASTM F1166 (14.3.8), também não está no acervo."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Para dimensionar sanitários, refeitório e chuveiros use o efetivo do turno de maior efetivo (NR-37 37.12.4.3 / 37.12.4.4; NR-24 24.1.1), e 'ou fração' significa arredondar para cima (ex.: 31 pessoas → 3 vasos a 1/15)."
+    }
+  ]
+}

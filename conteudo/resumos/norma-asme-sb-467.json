@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SB-467",
+ "titulo": "SB-467 — Tubos soldados de cobre-níquel (pipe)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe) soldados de cobre-níquel para engenharia geral: C70600 (90-10) e C71500 (70-30)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C70600 — Ni / Fe",
+     "valor": "9,0–11,0 % / 1,0–1,8 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C71500 — Ni / Fe",
+     "valor": "29,0–33,0 % / 0,40–1,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Pb / Zn / Mn / S / P máx.",
+     "valor": "0,05 / 1,0 / 1,0 / 0,02 / 0,02 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 a 4",
+   "texto": "Soldado e acabado, recozido (W061) — Su mín. / Sy mín. (0,5 %) / alongamento.",
+   "valores": [
+    {
+     "parametro": "C70600 até 4 1/2 in",
+     "valor": "40 ksi / 15 ksi / 25,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C70600 acima de 4 1/2 in",
+     "valor": "38 ksi / 13 ksi / 25,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C71500 até 4 1/2 in",
+     "valor": "50 ksi / 20 ksi / 30,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C71500 trefilado até 2 in",
+     "valor": "72 ksi / 50 ksi / 12–15 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "C70600 como soldado de tira recozida",
+     "valor": "45 ksi / 30 ksi",
+     "item": "Tabela 4"
+    }
+   ]
+  }
+ ]
+}

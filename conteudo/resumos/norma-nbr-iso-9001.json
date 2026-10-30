@@ -1,0 +1,26 @@
+{
+ "id": "NBR-ISO-9001",
+ "titulo": "ABNT NBR ISO 9001:2008 — Sistemas de gestão da qualidade — Requisitos",
+ "secoes": [
+  {"titulo": "Introdução e escopo", "item": "0–1",
+   "texto": "Requisitos de um sistema de gestão da qualidade (SGQ) para demonstrar capacidade de fornecer produto que atenda ao cliente e aos requisitos legais, e aumentar a satisfação do cliente. Abordagem de processos e ciclo PDCA; par consistente com a NBR ISO 9004 (orientação para melhoria de desempenho). Requisitos genéricos; exclusões só na seção 7 quando não afetam a capacidade de atender o cliente. Edição substituída pela 9001:2015.",
+   "valores": []},
+  {"titulo": "Sistema de gestão da qualidade", "item": "4",
+   "texto": "Estabelecer, documentar, implementar, manter e melhorar continuamente o SGQ: determinar processos, sequência e interação, critérios, recursos, monitoramento e ações; controlar processos terceirizados. Documentação: política e objetivos, manual da qualidade, procedimentos documentados exigidos, documentos e registros necessários; controle de documentos e de registros por procedimento.",
+   "valores": []},
+  {"titulo": "Responsabilidade da direção", "item": "5",
+   "texto": "Alta direção comprometida: comunica a importância dos requisitos do cliente e legais, define política e objetivos da qualidade, conduz análises críticas e assegura recursos. Foco no cliente, planejamento do SGQ, responsabilidades e autoridades, representante da direção, comunicação interna e análise crítica periódica com entradas e saídas definidas.",
+   "valores": []},
+  {"titulo": "Gestão de recursos", "item": "6",
+   "texto": "Prover recursos; pessoal competente (educação, treinamento, habilidade, experiência) com eficácia do treinamento avaliada e registros; infraestrutura (prédios, equipamentos, serviços de apoio); ambiente de trabalho adequado.",
+   "valores": []},
+  {"titulo": "Realização do produto", "item": "7",
+   "texto": "Planejamento da realização; processos relacionados a clientes (requisitos, análise crítica antes de assumir o compromisso, comunicação); projeto e desenvolvimento (planejamento, entradas, saídas, análise crítica, verificação, validação, controle de alterações); aquisição (seleção e avaliação de fornecedores com critérios e registros, informações de aquisição, verificação do produto adquirido); produção e serviço (condições controladas, validação de processos especiais, identificação e rastreabilidade, propriedade do cliente, preservação); controle de equipamentos de monitoramento e medição (calibração rastreável, ajuste, proteção, avaliação de resultados anteriores quando fora de calibração).",
+   "valores": []},
+  {"titulo": "Medição, análise e melhoria", "item": "8",
+   "texto": "Satisfação do cliente, auditoria interna em intervalos planejados (procedimento documentado), monitoramento de processos e produto, controle de produto não conforme (procedimento documentado), análise de dados (satisfação, conformidade, tendências, fornecedores) e melhoria contínua por ação corretiva e preventiva (procedimentos documentados).",
+   "valores": [
+    {"parametro": "Procedimentos documentados obrigatórios", "valor": "controle de documentos, controle de registros, auditoria interna, produto não conforme, ação corretiva, ação preventiva", "item": "4.2.3, 4.2.4, 8.2.2, 8.3, 8.5.2, 8.5.3"}
+   ]}
+ ]
+}

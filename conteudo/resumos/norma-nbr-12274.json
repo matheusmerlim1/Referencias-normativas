@@ -1,0 +1,45 @@
+{
+ "id": "NBR-12274",
+ "titulo": "ABNT NBR 12274:2003 (versão corrigida 2004) — Inspeção em cilindros de aço, sem costura, para gases",
+ "secoes": [
+  {"titulo": "Objetivo e campo", "item": "1, 3",
+   "texto": "Requisitos mínimos de inspeção e ensaio para um cilindro de aço sem costura de gás comprimido ou liquefeito voltar ao serviço, qualquer que seja a norma de fabricação. Não vale para acetileno nem GLP. Tipos de corrosão: generalizada (> 20 % da superfície), localizada (< 20 %), isolada (pontos até 10 mm, no máximo 1 por 500 mm²) e em linha.",
+   "valores": [
+    {"parametro": "Capacidade d'água abrangida", "valor": "até 150 dm³ (limite inferior ilegível no OCR — conferir)", "item": "1.3"}
+   ]},
+  {"titulo": "Inspeção a cada enchimento", "item": "4.2",
+   "texto": "Antes de encher: identificação, validade da última inspeção periódica, estado externo e da válvula, ensaio de som; cilindros marítimos sem válvula de pressão residual mínima têm verificações extras. Dúvida sobre conteúdo ou válvula obstruída segue 5.3 e Anexo B.",
+   "valores": [
+    {"parametro": "Ensaio de som", "valor": "batida com martelo de 250 g no corpo — som claro indica parede interna sã", "item": "4.2.2"}
+   ]},
+  {"titulo": "Periodicidade", "item": "4.3, Anexo A",
+   "texto": "Inspeção periódica nos intervalos máximos da Tabela A.1 por tipo de gás e aplicação (normal, marítima com ou sem válvula de pressão residual mínima — VPRM). Vale o intervalo menor se a norma de fabricação exigir. Registro guardado ao menos por um intervalo.",
+   "valores": [
+    {"parametro": "Gases permanentes (O2, Ar, N2…) — normal / marítimo c/ VPRM / s/ VPRM", "valor": "10 anos / 5 anos / 2 anos", "item": "Tab. A.1", "nota": "OCR '140 anos' interpretado como 10 — conferir"},
+    {"parametro": "Hidrogênio, ar comprimido, metano", "valor": "5 / 5 / 2 anos", "item": "Tab. A.1"},
+    {"parametro": "Monóxido de carbono, biogás, flúor", "valor": "3 / 3 / 2 anos", "item": "Tab. A.1"},
+    {"parametro": "Liquefeitos de alta pressão corrosivos (HCl, H2S)", "valor": "2 / 2 / 2 anos", "item": "Tab. A.1"}
+   ]},
+  {"titulo": "Roteiro da inspeção periódica", "item": "5.1–5.6",
+   "texto": "Identificação original gravada na calota (sem ela, condenar); remoção de tinta e sujeira; inspeção visual externa (fogo, mossas, cortes, corrosão — critérios do Anexo C); inspeção da válvula e troca se danificada; despressurização controlada (gases tóxicos/corrosivos só por empresa capacitada); inspeção interna com iluminação adequada (sem lâmpada em gás inflamável/oxidante), limpeza e reinspeção; massa; rosca do gargalo e colarinho.",
+   "valores": [
+    {"parametro": "Temperatura máxima do cilindro na limpeza interna", "valor": "300 °C", "item": "5.4.2.2.1"},
+    {"parametro": "Perda de massa em relação à tara", "valor": "> 5 % → rejeitar (salvo prova de espessura)", "item": "5.5.2"},
+    {"parametro": "Broca para desobstruir válvula", "valor": "Ø ≤ 3,2 mm", "item": "Anexo B, Nota 1"}
+   ]},
+  {"titulo": "Critérios de rejeição (Anexo C)", "item": "Anexo C",
+   "texto": "Defeitos avaliados por profundidade e extensão em relação à espessura e ao diâmetro; dúvida resolvida por ultrassom, gamagrafia, LP etc.",
+   "valores": [
+    {"parametro": "Mossa", "valor": "profundidade > 2 mm ou diâmetro < 30 × profundidade", "item": "Anexo C", "nota": "tabela de OCR — conferir"},
+    {"parametro": "Corte/goivagem", "valor": "profundidade > 5 % da espessura da parede", "item": "Anexo C", "nota": "conferir"},
+    {"parametro": "Corrosão generalizada ou localizada", "valor": "profundidade > 20 % da espessura original", "item": "Anexo C"},
+    {"parametro": "Ponto de corrosão isolado de Ø > 5 mm", "valor": "profundidade > 40 % da espessura original", "item": "Anexo C"},
+    {"parametro": "Corrosão em linha", "valor": "comprimento total maior que a circunferência do cilindro", "item": "Anexo C", "nota": "conferir"}
+   ]},
+  {"titulo": "Ensaio hidrostático e relatório", "item": "5.7–5.8",
+   "texto": "Pressão de ensaio = a marcada no cilindro ou na norma de fabricação. Cilindros que podem operar com sobrepressão de 10 % têm a expansão elástica registrada; se passar do limite do fabricante, perdem esse direito. Relatório (Anexo D) assinado, com 'aprovado' ou 'condenado' e o motivo da condenação.",
+   "valores": [
+    {"parametro": "Expansão permanente máxima", "valor": "≤ 10 % da expansão total", "item": "5.7.1"}
+   ]}
+ ]
+}

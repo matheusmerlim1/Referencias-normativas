@@ -1,0 +1,67 @@
+{
+ "id": "NBR-7007",
+ "titulo": "ABNT NBR 7007:2016 — Aço-carbono e microligado para barras e perfis laminados a quente estruturais",
+ "secoes": [
+  {
+   "titulo": "Graus",
+   "item": "4.1; Tab. 3",
+   "texto": "Cinco graus pelo escoamento mínimo, de uso geral a alta resistência, incluindo um resistente à corrosão atmosférica.",
+   "valores": [
+    {
+     "parametro": "BR 190 — fy / fu / along.",
+     "valor": "190 / ≥ 330 MPa / 22 %",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "MR 250",
+     "valor": "250 / 400–560 MPa / 20 %",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "AR 350",
+     "valor": "350 / ≥ 450 MPa / 18 %",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "AR 350 COR",
+     "valor": "350 / ≥ 485 MPa / 18 %",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "AR 415",
+     "valor": "415 / ≥ 520 MPa / 16 %",
+     "item": "Tab. 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição e soldabilidade",
+   "item": "4.2; Tab. 1",
+   "texto": "Limites de carbono e manganês e microligantes nos graus AR. Soldável por processos comuns se o carbono equivalente não passar do limite.",
+   "valores": [
+    {
+     "parametro": "C máx. — MR 250 / AR 350",
+     "valor": "0,23 %",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Carbono equivalente",
+     "valor": "CE = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15 ≤ 0,55 %",
+     "item": "4.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Amostragem e ensaio",
+   "item": "6",
+   "texto": "Corpo de prova de tração retirado da alma em perfis de mesa estreita e da mesa nos largos; ao menos um por corrida e bitola.",
+   "valores": [
+    {
+     "parametro": "Limite mesa estreita/larga",
+     "valor": "150 mm",
+     "item": "6.2"
+    }
+   ]
+  }
+ ]
+}

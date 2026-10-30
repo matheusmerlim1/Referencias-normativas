@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 520" width="940" height="520" role="img" aria-label="Flange compacto NORSOK L-005 — antes/depois do aperto (contato no heel) e sequência de pré-carga">
+<title>Flange compacto NORSOK L-005 — antes/depois do aperto (contato no heel) e sequência de pré-carga (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Flange compacto NORSOK L-005 — antes/depois do aperto (contato no heel) e sequência de pré-carga</text>
+<text class="b" x="60" y="70">(a) Antes do aperto</text>
+<path class="s" d="M60,120 L280,120 L280,193 L60,198 z"/>
+<path class="s" d="M60,330 L280,330 L280,207 L60,202 z"/>
+<rect class="r" x="110" y="192" width="26" height="16"/>
+<rect class="sl" x="230" y="110" width="14" height="230"/>
+<text class="n" x="66" y="360">heel (junto ao furo)</text>
+<text class="n" x="200" y="360">cunha externa</text>
+<text class="b" x="380" y="70">(b) Montado: faces em contato</text>
+<path class="s" d="M380,120 L600,120 L600,200 L380,198 z"/>
+<path class="s" d="M380,330 L600,330 L600,200 L380,202 z"/>
+<rect class="r" x="430" y="192" width="26" height="16"/>
+<rect class="sl" x="550" y="110" width="14" height="230"/>
+<text class="n" x="386" y="360">heel (junto ao furo)</text>
+<text class="n" x="520" y="360">cunha externa</text>
+<g id="cota-afastamento" class="cota"><line class="e" x1="283" y1="193" x2="316" y2="193"/><line class="e" x1="283" y1="207" x2="316" y2="207"/><line class="d" x1="310" y1="167" x2="310" y2="193" marker-end="url(#a)"/><line class="d" x1="310" y1="233" x2="310" y2="207" marker-end="url(#a)"/><line class="d" x1="310" y1="193" x2="310" y2="207"/><text x="330" y="180">afastamento inicial</text></g>
+<text class="b" x="700" y="70">(c) Sequência de aperto</text>
+<circle class="s" cx="780" cy="230" r="110"/>
+<circle class="w" cx="780" cy="230" r="45"/>
+<circle class="w" cx="780" cy="150" r="11"/>
+<text class="n m" x="780" y="131">1</text>
+<circle class="w" cx="836.6" cy="173.4" r="11"/>
+<text class="n m" x="853.5" y="161.5">5</text>
+<circle class="w" cx="860" cy="230" r="11"/>
+<text class="n m" x="884" y="235">3</text>
+<circle class="w" cx="836.6" cy="286.6" r="11"/>
+<text class="n m" x="853.5" y="308.5">7</text>
+<circle class="w" cx="780" cy="310" r="11"/>
+<text class="n m" x="780" y="339">2</text>
+<circle class="w" cx="723.4" cy="286.6" r="11"/>
+<text class="n m" x="706.5" y="308.5">6</text>
+<circle class="w" cx="700" cy="230" r="11"/>
+<text class="n m" x="676" y="235">4</text>
+<circle class="w" cx="723.4" cy="173.4" r="11"/>
+<text class="n m" x="706.5" y="161.5">8</text>
+<text class="n" x="660" y="380">ordem diagonal (cruzada); com 2 ou 4</text>
+<text class="n" x="660" y="400">ferramentas simultâneas — ver ficha</text>
+<text class="n" x="60" y="440">Anel IX entre as canaletas; a pré-carga fecha o afastamento e mantém o contato no heel.</text>
+<text class="n" x="20" y="508">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

@@ -1,0 +1,55 @@
+{
+ "id": "DIN-6921",
+ "titulo": "DIN 6921:1983 — Parafusos sextavados com flange",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafuso sextavado com flange (colar de apoio), grau A, rosca métrica grossa ou fina de 5 a 20 mm de diâmetro, baseado em norma internacional então em preparação, com acréscimos nacionais.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M5 a M20 (finas M8×1 a M20×1,5)",
+     "item": "1",
+     "nota": "cópia OCR — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "2–3",
+   "texto": "Diâmetro do flange, altura mínima de aperto k' (com abertura s mínima garantida nessa altura), raios e comprimentos; comprimentos intermediários permitidos mas a evitar.",
+   "valores": [
+    {
+     "parametro": "Diagonal mínima",
+     "valor": "e,mín = 1,12 × s,mín",
+     "item": "3"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos e designação",
+   "item": "4–5",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Classes — aço",
+     "valor": "8.8, 10.9, 12.9 (DIN ISO 898-1)",
+     "item": "4",
+     "nota": "cópia OCR — conferir"
+    },
+    {
+     "parametro": "Inox",
+     "valor": "A2-70 (DIN 267-11)",
+     "item": "4",
+     "nota": "cópia OCR — conferir"
+    },
+    {
+     "parametro": "Paralelismo das faces",
+     "valor": "dentro do campo h13 da abertura (desvio da DIN ISO 4759-1)",
+     "item": "4, nota"
+    }
+   ]
+  }
+ ]
+}

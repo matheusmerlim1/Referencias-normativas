@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380" role="img" aria-label="Linga cable-laid — comprimento L1, olhal (h × w), diâmetro d e cauda da emenda">
+<title>Linga cable-laid — comprimento L1, olhal (h × w), diâmetro d e cauda da emenda (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Linga cable-laid — comprimento L1, olhal (h × w), diâmetro d e cauda da emenda</text>
+<path d="M150,145 C100,145 70,165 70,190 C70,215 100,235 150,235 C200,235 230,202 270,198 L630,198 C670,202 700,235 750,235 C800,235 830,215 830,190 C830,165 800,145 750,145 C700,145 670,178 630,182 L270,182 C230,178 200,145 150,145" fill="none" stroke="#8a6d3b" stroke-opacity=".6" stroke-width="14"/>
+<rect class="s" x="260" y="175" width="60" height="30"/>
+<rect class="s" x="580" y="175" width="60" height="30"/>
+<g id="cota-L1" class="cota"><line class="e" x1="70" y1="193" x2="70" y2="306"/><line class="e" x1="830" y1="193" x2="830" y2="306"/><line class="d" x1="70" y1="300" x2="830" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="450" y="318">L1</text></g>
+<g id="cota-h" class="cota"><line class="e" x1="70" y1="142" x2="70" y2="104"/><line class="e" x1="260" y1="142" x2="260" y2="104"/><line class="d" x1="70" y1="110" x2="260" y2="110" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="165" y="103">h (olhal)</text></g>
+<g id="cota-w" class="cota"><line class="d" x1="150" y1="138" x2="150" y2="242" marker-start="url(#a)" marker-end="url(#a)"/><text x="165" y="195">w</text></g>
+<g id="cota-d" class="cota"><line class="d" x1="450" y1="156" x2="450" y2="182" marker-end="url(#a)"/><line class="d" x1="450" y1="224" x2="450" y2="198" marker-end="url(#a)"/><line class="d" x1="450" y1="182" x2="450" y2="198"/><text x="465" y="172">d</text></g>
+<g id="cota-cauda" class="cota"><line class="d" x1="360" y1="245" x2="320" y2="200" marker-end="url(#a)"/><text x="364" y="250">pontas após o último tuck (cauda)</text></g>
+<text class="n" x="20" y="368">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

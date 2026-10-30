@@ -1,0 +1,41 @@
+{
+ "id": "ISO-1234",
+ "titulo": "ISO 1234:1997 — Contrapinos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Características de contrapinos (cupilhas) de aço, latão, cobre, liga de alumínio e inox austenítico.",
+   "valores": []
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3, Tab. 1–2",
+   "texto": "Tamanho nominal = diâmetro do furo do contrapino. A Tabela 1 dá as dimensões por tamanho e a faixa de diâmetro do pino/parafuso (ou garfo) recomendada; a Tabela 2, comprimentos nominais e comerciais.",
+   "valores": [
+    {
+     "parametro": "Tamanhos nominais",
+     "valor": "0,6; 0,8; 1; 1,2; 1,6; 2; 2,5; 3,2; 4; 5; 6,3; 8; 10; 13; 16; 20",
+     "item": "Tab. 1",
+     "nota": "lista da edição — conferir extremos"
+    },
+    {
+     "parametro": "Tolerância do furo do contrapino",
+     "valor": "H13 até tamanho 1,2; H14 acima",
+     "item": "Tab. 1, nota 1"
+    },
+    {
+     "parametro": "Ferrovia ou esforço transversal alternado",
+     "valor": "usar o contrapino um tamanho acima",
+     "item": "Tab. 1, nota 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Material e designação",
+   "item": "4–5",
+   "texto": "Materiais e acabamentos (aço, CuZn, Cu, Al, inox A); revestimento ISO 4042 ou fosfatização ISO 9717. Designação: ISO 1234 – tamanho × comprimento – material.",
+   "valores": []
+  }
+ ]
+}

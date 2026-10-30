@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SB-551",
+ "titulo": "SB-551 — Tiras, folhas e chapas de zircônio e ligas de zircônio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tiras, folhas e chapas de zircônio em cinco graus (R60700, R60702, R60704, R60705, R60706)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "R60700 e R60702 — Zr+Hf mín.",
+     "valor": "99,2 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "R60705 e R60706 — Zr+Hf mín.",
+     "valor": "95,5 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Hf máx.",
+     "valor": "4,5 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "R60702",
+     "valor": "55 ksi (380) / 30 ksi (205) / 16 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "R60704",
+     "valor": "60 ksi (415) / 35 ksi (240) / 14 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "R60705",
+     "valor": "80 ksi (550) / 55 ksi (380) / 16 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "R60706",
+     "valor": "74 ksi (510) / 50 ksi (345)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "R60700 — Su máx. / Sy máx. / along. mín.",
+     "valor": "55 ksi (380) / 44 ksi (305) / 20 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

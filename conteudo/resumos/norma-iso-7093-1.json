@@ -1,0 +1,34 @@
+{
+ "id": "ISO-7093-1",
+ "titulo": "ISO 7093-1:2000 — Arruelas lisas, série larga, grau A",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Arruelas de diâmetro externo maior, M3 a M36, em 200 HV e 300 HV, para apertar peças de material macio ou com furo de folga grande (nesse caso, verificar a adequação).",
+   "valores": [],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-arruela-lisa-iso.svg"
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "Tab. 1–2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "M12 — furo / Ø externo / espessura",
+     "valor": "13 / 37 / 3 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-arruela-lisa-iso.svg#d2"
+    },
+    {
+     "parametro": "M20 — furo / Ø externo / espessura",
+     "valor": "21 / 60 / 4 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-arruela-lisa-iso.svg#h"
+    }
+   ]
+  }
+ ]
+}

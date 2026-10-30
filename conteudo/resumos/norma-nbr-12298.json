@@ -1,0 +1,19 @@
+{
+ "id": "NBR-12298",
+ "titulo": "ABNT NBR 12298:1995 — Representação de área de corte por meio de hachuras em desenho técnico",
+ "secoes": [
+  {"titulo": "Definição e hachura geral", "item": "1–4",
+   "texto": "Hachuras são linhas ou figuras que marcam as áreas cortadas (e, se preciso, o material). A hachura geral serve para qualquer material.",
+   "valores": []},
+  {"titulo": "Regras de traçado", "item": "5.1–5.11",
+   "texto": "Linha estreita (NBR 8403) inclinada a 45° em relação ao contorno principal ou ao eixo de simetria. Mesma direção em toda a peça (inclusive detalhes desenhados à parte e cortes por planos paralelos); peças adjacentes em conjuntos com direções opostas ou espaçamentos diferentes; peça composta (soldada, rebitada, colada) com direções diferentes por parte, mas igual quando mostrada num conjunto; elementos alinhados com linhas desencontradas. Espaçamento conforme o tamanho da área; áreas grandes podem ser hachuradas só junto ao contorno; interromper a hachura para inscrições; seções finas podem ser enegrecidas.",
+   "valores": [
+    {"parametro": "Ângulo da hachura", "valor": "45° em relação ao contorno ou eixo", "item": "5.2"},
+    {"parametro": "Espaçamento mínimo", "valor": "0,7 mm", "item": "5.7.1"},
+    {"parametro": "Folga entre seções enegrecidas adjacentes", "valor": "≥ 0,7 mm em branco", "item": "5.11.1"}
+   ]},
+  {"titulo": "Hachuras por material", "item": "5.12",
+   "texto": "Hachuras específicas podem indicar o material (tabela: elastômeros, vidros, cerâmica e rochas; líquidos; terra; e outros). Outras hachuras são permitidas se identificadas no desenho.",
+   "valores": []}
+ ]
+}

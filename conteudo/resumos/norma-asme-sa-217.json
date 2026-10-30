@@ -1,0 +1,102 @@
+{
+ "id": "ASME-SA-217",
+ "titulo": "SA-217 — Fundidos de aço inoxidável martensítico e aço liga para alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Peças fundidas para válvulas, flanges, conexões e outras partes sob pressão em alta temperatura e serviço corrosivo: um grau inoxidável martensítico (CA15) e nove graus de aço liga ferrítico (WC1, WC4, WC5, WC6, WC9, WC11, C5, C12, C12A). Os graus são soldáveis, mas não igualmente; o comprador define a técnica de soldagem. Fundidos de aço carbono ficam na SA-216. Requisitos gerais pela SA-703."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Sempre normalizados e revenidos, após a peça esfriar abaixo da faixa de transformação.",
+   "valores": [
+    {
+     "parametro": "Revenimento mín. — WC1, WC4, WC5, WC6, CA15",
+     "valor": "1100 °F [595 °C]",
+     "item": "5.2"
+    },
+    {
+     "parametro": "Revenimento mín. — WC9, C5, C12, WC11",
+     "valor": "1250 °F [675 °C]",
+     "item": "5.2"
+    },
+    {
+     "parametro": "Revenimento mín. — C12A",
+     "valor": "1350 °F [730 °C]",
+     "item": "5.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Ligas por família (C-Mo, Ni-Cr-Mo, Cr-Mo de 1,25 a 9 % Cr, 12 % Cr). A tabela não saiu legível na extração do texto; consultar a especificação para os limites por elemento."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su / Sy mín. / alongamento mín. em 50 mm / redução de área mín.",
+   "valores": [
+    {
+     "parametro": "WC1",
+     "valor": "65 a 90 ksi [450 a 620] / 35 ksi [240] / 24 % / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WC4, WC5, WC6, WC9",
+     "valor": "70 a 95 ksi [485 a 655] / 40 ksi [275] / 20 % / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WC11",
+     "valor": "80 a 105 ksi [550 a 725] / 50 ksi [345] / 18 % / 45 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C5, C12",
+     "valor": "90 a 115 ksi [620 a 795] / 60 ksi [415] / 18 % / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C12A",
+     "valor": "85 a 110 ksi [585 a 760] / 60 ksi [415] / 18 % / 45 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "CA15",
+     "valor": "90 a 115 ksi [620 a 795] / 65 ksi [450] / 18 % / 30 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo por solda",
+   "item": "9, Tabela 3",
+   "texto": "Procedimento e soldadores qualificados pela SA-488; reparos inspecionados como a peça e com pré-aquecimento mínimo.",
+   "valores": [
+    {
+     "parametro": "Pré-aquec. mín. WC1 — até 5/8 in / acima",
+     "valor": "50 °F [10 °C] / 250 °F [120 °C]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Pré-aquec. mín. WC4, WC5, WC6, WC11",
+     "valor": "300 °F [150 °C]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Pré-aquec. mín. WC9, C5, C12, C12A, CA15",
+     "valor": "400 °F [200 °C]",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "S1–S51",
+   "texto": "Elementos não especificados, ensaios destrutivos, dobramento, PM, RT, exame do chanfro de solda (S10), dureza, registro do forno, tratamento térmico e TTAT obrigatório de reparos (S51)."
+  }
+ ]
+}

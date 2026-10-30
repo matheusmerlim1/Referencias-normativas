@@ -1,0 +1,71 @@
+{
+ "id": "ISO-8434-1",
+ "titulo": "ISO 8434-1:2007 — Conexões metálicas de tubos para fluidomecânica e uso geral — Parte 1: Conectores de cone 24°",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Conectores de cone 24° com anel cortante e com cone de vedação por O-ring (DKO), para tubos ferrosos e não ferrosos de 4 a 42 mm de diâmetro externo, em hidráulica e uso geral. Para projetos novos de hidráulica, preferir vedação elastomérica nas pontas roscadas (9.6).",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo do tubo",
+     "valor": "4 a 42 mm",
+     "item": "1"
+    },
+    {
+     "parametro": "Temperatura (fluido à base de petróleo)",
+     "valor": "−40 °C a +120 °C",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Pressões de trabalho",
+   "item": "5, Tab. 1",
+   "texto": "Três séries: LL, L (leve) e S (pesada), com rosca da porca e pressão máxima por diâmetro de tubo.",
+   "valores": [
+    {
+     "parametro": "Série LL — tubos 4 a 8 mm",
+     "valor": "10 MPa (100 bar)",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Série L — tubos 6 a 12 mm",
+     "valor": "25 MPa (250 bar)",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Série L — tubo 42 mm",
+     "valor": "10 MPa (100 bar)",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Série S — tubos 6 a 12 mm",
+     "valor": "63 MPa (630 bar)",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Série S — tubos 16 a 25 mm",
+     "valor": "40 MPa (400 bar)",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Série S — tubos 30 e 38 mm",
+     "valor": "25 MPa (250 bar)",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Ensaio de prova",
+     "valor": "ISO 19879, cláusula 7",
+     "item": "5"
+    }
+   ]
+  },
+  {
+   "titulo": "Estrutura comum da série",
+   "item": "3–14",
+   "texto": "Materiais (corpos, porcas, anéis, O-rings), requisitos de pressão/temperatura, designação dos conectores, requisitos dos tubos, aberturas de chave e tolerâncias, projeto (passagens, ângulos, contornos, pórticos e pontas roscadas com vedação), roscas, fabricação (acabamento, cantos), instruções de montagem, informações de compra e marcação. Inclui ensaio de desempenho e qualificação.",
+   "valores": []
+  }
+ ]
+}

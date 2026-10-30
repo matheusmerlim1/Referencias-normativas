@@ -1,0 +1,429 @@
+{
+  "id": "ancoragem-linha-de-vida",
+  "titulo": "Ancoragem, linha de vida e trava-quedas",
+  "categoria": "Acessos e circulação",
+  "resumo": "Sistemas de proteção individual contra quedas: NR-35 (SPIQ, 6 kN, ZLQ, Anexo II), linha de vida horizontal flexível tipo C (NBR 16325-2: ensaios, deflexão, instalação, inspeção 12 meses), trava-queda retrátil (NBR 14628 e ANSI Z359.14) e cálculo da zona livre de queda.",
+  "palavras_chave": [
+    "ancoragem",
+    "linha de vida",
+    "lifeline",
+    "horizontal lifeline",
+    "HLL",
+    "trava-queda",
+    "trava-quedas",
+    "retrátil",
+    "SRL",
+    "SRD",
+    "self-retracting",
+    "fall arrest",
+    "retenção de queda",
+    "SPIQ",
+    "SPQ",
+    "zona livre de queda",
+    "ZLQ",
+    "fall clearance",
+    "fator de queda",
+    "fall factor",
+    "talabarte",
+    "lanyard",
+    "absorvedor de energia",
+    "cinturão paraquedista",
+    "harness",
+    "NBR 16325",
+    "NBR 14628",
+    "Z359",
+    "6 kN",
+    "ponto de ancoragem",
+    "anchorage"
+  ],
+  "relacionadas": [
+    "escada-marinheiro",
+    "guarda-corpo",
+    "escada-portatil",
+    "passarela-plataforma-rampa"
+  ],
+  "figuras": [
+    {
+      "arquivo": "esquemas/ancoragem-linha-de-vida-tipo-c.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — linha flexível entre ancoragens de extremidade e intermediária: vão, deflexão da linha com o ponto móvel carregado e deformação permanente da ancoragem.",
+      "norma": "NBR-16325-2",
+      "item": "Esquema",
+      "pagina": 10,
+      "grupo": [
+        "Linha de vida horizontal flexível (tipo C)"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Figura 3). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/ancoragem-linha-de-vida-zlq.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ZLQ = A + B + C abaixo do ponto de ancoragem; detalhe do fator de queda (queda livre ÷ talabarte).",
+      "norma": "NBR-16325-2",
+      "item": "Esquema",
+      "pagina": 35,
+      "grupo": [
+        "Conceitos e cálculo da ZLQ",
+        "Requisitos legais (NR-35)"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Figura C.1). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/ancoragem-linha-de-vida-retratil.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — trava-queda retrátil ancorado acima: queda livre até o travamento e distância de parada.",
+      "norma": "ANSI-Z359.14",
+      "item": "Esquema",
+      "pagina": 54,
+      "grupo": [
+        "Trava-queda retrátil"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Figura B2 (Anexo B)). Sem valores: o site escreve o valor do requisito na cota destacada."
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Requisitos legais (NR-35)",
+      "parametro": "Força de impacto máxima transmitida ao trabalhador",
+      "valor": "no máximo 6 kN",
+      "max": 6,
+      "unidade": "kN",
+      "norma": "NR-35",
+      "item": "35.6.7 e 35.6.11 d)",
+      "pagina": 6
+    },
+    {
+      "grupo": "Requisitos legais (NR-35)",
+      "parametro": "EPI de retenção de queda",
+      "valor": "Cinturão tipo paraquedista conectado ao elemento de engate para retenção de queda indicado pelo fabricante; se o elemento de ligação for talabarte, talabarte integrado com absorvedor de energia",
+      "norma": "NR-35",
+      "item": "35.6.9, 35.6.9.1 e 35.6.9.1.1",
+      "pagina": 6,
+      "nota": "Redação do 35.6.9.1.1 vigente a partir de 02/01/2026."
+    },
+    {
+      "grupo": "Requisitos legais (NR-35)",
+      "parametro": "Itens da AR para o SPIQ",
+      "valor": "Conexão permanente durante a exposição; distância de queda livre; fator de queda; impacto ≤ 6 kN; zona livre de queda; compatibilidade entre elementos. Trava-quedas posicionado para restringir a queda livre e evitar colisão com estrutura inferior",
+      "norma": "NR-35",
+      "item": "35.6.11 e 35.6.11.1",
+      "pagina": 6
+    },
+    {
+      "grupo": "Requisitos legais (NR-35)",
+      "parametro": "Zona livre de queda (ZLQ) — definição",
+      "valor": "Espaço mínimo abaixo do ponto de ancoragem (talabarte) ou abaixo dos pés do usuário (trava-quedas) para evitar choque com estrutura, obstáculo ou solo após a queda",
+      "norma": "NR-35",
+      "item": "Glossário",
+      "pagina": 10,
+      "nota": "Redação vigente a partir de 02/01/2026. A NR-35 não dá valor numérico: vem do fabricante/projeto (Anexo II, 5.1.1 c).",
+      "cota": "esquemas/ancoragem-linha-de-vida-zlq.svg#zlq"
+    },
+    {
+      "grupo": "Requisitos legais (NR-35)",
+      "parametro": "Inspeção periódica do SPIQ",
+      "valor": "No mínimo uma vez a cada 12 meses (inicial, rotineira e periódica)",
+      "max": 12,
+      "unidade": "meses",
+      "norma": "NR-35",
+      "item": "35.6.6 e 35.6.6.3",
+      "pagina": 5
+    },
+    {
+      "grupo": "Requisitos legais (NR-35)",
+      "parametro": "Sistema de ancoragem (linha de vida) permanente",
+      "valor": "Projeto e instalação sob responsabilidade de profissional legalmente habilitado; inspeção inicial após instalação/alteração e periódica ≤ 12 meses",
+      "norma": "NR-35",
+      "item": "Anexo II, 4.1.1, 4.1.2 e 4.3",
+      "pagina": 15
+    },
+    {
+      "grupo": "Requisitos legais (NR-35)",
+      "parametro": "Dimensionamento do sistema de ancoragem",
+      "valor": "Força de impacto de retenção (impactos simultâneos ou sequenciais), esforços em cada parte do sistema e zona livre de queda necessária",
+      "norma": "NR-35",
+      "item": "Anexo II, 5.1.1",
+      "pagina": 15
+    },
+    {
+      "grupo": "Requisitos legais (NR-35)",
+      "parametro": "Marcação dos pontos de ancoragem estrutural",
+      "valor": "Fabricante; lote/série (rastreabilidade); nº máximo de trabalhadores conectados simultaneamente ou força máxima aplicável",
+      "norma": "NR-35",
+      "item": "Anexo II, 3.2.1",
+      "pagina": 14,
+      "nota": "Pontos já instalados sem marcação: reconstituir; sem informação, ensaiar sob PLH e marcar (3.2.1.1 e 3.2.1.1.1)."
+    },
+    {
+      "grupo": "Conceitos e cálculo da ZLQ",
+      "parametro": "Fator de queda",
+      "valor": "Razão entre a distância de queda livre e o comprimento do talabarte (com conectores), nas mesmas unidades; varia de 0 a 2 — 0 boa segurança, ~1 atenção, ~2 alto risco de lesão. Ex.: 2 m de queda com talabarte de 1 m → fator 2",
+      "min": 0,
+      "max": 2,
+      "unidade": "—",
+      "norma": "NBR-16325-2",
+      "item": "3.12; C.1.3",
+      "pagina": 10,
+      "nota": "C.1.3: Anexo C, informativo.",
+      "cota": "esquemas/ancoragem-linha-de-vida-zlq.svg#queda-livre"
+    },
+    {
+      "grupo": "Conceitos e cálculo da ZLQ",
+      "parametro": "Zona livre de queda (ZLQ) — talabarte em linha horizontal",
+      "valor": "ZLQ = A + B + C medida a partir do ponto de ancoragem: A = variável (comprimento do componente de união + distância de frenagem/abertura do absorvedor + deflexão V da linha); B = 1,5 m (engate do cinturão aos pés); C = 1 m (espaço de segurança)",
+      "norma": "NBR-16325-2",
+      "item": "Anexo C, C.1.7, C.1.8, C.2, Figura C.1",
+      "pagina": 35,
+      "nota": "Na linha horizontal a deflexão é OBRIGATÓRIA no cálculo. Com trava-queda retrátil/deslizante os fatores podem ser outros (NBR 14626/14627/14628). Anexo informativo.",
+      "cota": "esquemas/ancoragem-linha-de-vida-zlq.svg#zlq"
+    },
+    {
+      "grupo": "Conceitos e cálculo da ZLQ",
+      "parametro": "Força máxima no trabalhador",
+      "valor": "O sistema pessoal de retenção (EPI + ancoragem) não pode gerar no trabalhador forças maiores que 6 kN",
+      "max": 6,
+      "unidade": "kN",
+      "norma": "NBR-16325-2",
+      "item": "Anexo A, A.1; 4.3.16",
+      "pagina": 28,
+      "nota": "4.3.16: dispositivos de conexão fora das normas de EPI."
+    },
+    {
+      "grupo": "Linha de vida horizontal flexível (tipo C)",
+      "parametro": "Escopo — tipo C",
+      "valor": "Dispositivos de ancoragem tipo C: linhas de vida flexíveis HORIZONTAIS (desvio ≤ 15° do plano horizontal entre ancoragens), permanentes ou temporárias, para uso com cinturão paraquedista; não cobre ancoragem estrutural nem tipos A, B, D (NBR 16325-1)",
+      "max": 15,
+      "unidade": "°",
+      "norma": "NBR-16325-2",
+      "item": "1; 3.11",
+      "pagina": 7
+    },
+    {
+      "grupo": "Linha de vida horizontal flexível (tipo C)",
+      "parametro": "Ensaio de força estática",
+      "valor": "(12 +1/0) kN aplicada por (3 +0,25/0) min junto à extremidade, sobre ancoragem intermediária e de canto, na entrada/saída e emendas, no centro do vão mais longo e do mais curto; elemento não metálico sem prova de durabilidade: (18 +1/0) kN; +1 kN por usuário adicional (ex.: 15 kN para 4 usuários, metálico); o ponto móvel não pode se desconectar",
+      "min": 12,
+      "unidade": "kN",
+      "norma": "NBR-16325-2",
+      "item": "4.4.1; 5.2",
+      "pagina": 17,
+      "nota": "Valores conferidos na imagem (o texto do PDF sai embaralhado)."
+    },
+    {
+      "grupo": "Linha de vida horizontal flexível (tipo C)",
+      "parametro": "Ensaio dinâmico — critérios",
+      "valor": "Forças nas ancoragens de extremidade e deflexão máxima dentro de ± 20 % do previsto pelo fabricante (cálculo ou ensaio); força máxima na ancoragem de extremidade ≤ 50 % da força mínima de ruptura da linha; a massa não pode cair nem tocar o solo; nenhuma parte pode romper",
+      "norma": "NBR-16325-2",
+      "item": "4.4.2",
+      "pagina": 17,
+      "nota": "Massa rígida de ensaio 100 kg ± 1 kg (4.2.2); com vários usuários: 200 kg para os dois primeiros e +100 kg por usuário adicional (5.3.4); após o ensaio, 300 kg (ou carga equivalente) por 3 min no vão (5.3.2.7).",
+      "cota": "esquemas/ancoragem-linha-de-vida-tipo-c.svg#deflexao"
+    },
+    {
+      "grupo": "Linha de vida horizontal flexível (tipo C)",
+      "parametro": "Deformação permanente",
+      "valor": "Partes de ancoragens de extremidade, intermediárias ou ponto móvel não projetadas para deformar: deformação permanente ≤ 10 mm na direção da carga",
+      "max": 10,
+      "unidade": "mm",
+      "norma": "NBR-16325-2",
+      "item": "4.4.3",
+      "pagina": 18,
+      "cota": "esquemas/ancoragem-linha-de-vida-tipo-c.svg#deformacao"
+    },
+    {
+      "grupo": "Linha de vida horizontal flexível (tipo C)",
+      "parametro": "Requisitos construtivos",
+      "valor": "Ponto móvel não pode se desconectar sem intenção (bloqueador de fim de linha; abertura só com 2 ações manuais deliberadas); sem rebarbas/arestas vivas; cabo galvanizado conforme NBR ISO 2408; grampos conforme NBR 11098/11099 com sapatilha; fibras sintéticas virgens ≥ 0,6 N/tex, sem polipropileno; conectores NBR 15837; desmontável para inspeção; elemento carregado por uma pessoa ≤ 25 kg",
+      "max": 25,
+      "unidade": "kg",
+      "norma": "NBR-16325-2",
+      "item": "4.3.1–4.3.18",
+      "pagina": 15
+    },
+    {
+      "grupo": "Linha de vida horizontal flexível (tipo C)",
+      "parametro": "Linha fixada em ancoragem intermediária",
+      "valor": "Se a linha for fixada para não deslizar numa ancoragem intermediária (de canto ou não), esta vira ancoragem de extremidade e cada vão é ensaiado como linha independente",
+      "norma": "NBR-16325-2",
+      "item": "4.3.14",
+      "pagina": 16
+    },
+    {
+      "grupo": "Linha de vida horizontal flexível (tipo C)",
+      "parametro": "Corrosão",
+      "valor": "Partes metálicas: névoa salina (5.5); sem corrosão do metal de base (embaçamento e carbonização branca aceitáveis); NÃO implica aptidão para ambiente marítimo",
+      "norma": "NBR-16325-2",
+      "item": "4.3.9",
+      "pagina": 16
+    },
+    {
+      "grupo": "Inspeção, instalação e documentação",
+      "parametro": "Instalação",
+      "valor": "Sob responsabilidade de profissional legalmente habilitado, com projeto específico; instalação por pessoa qualificada; verificar por cálculo ou ensaio; base/ancoragem estrutural compatível com as cargas dos ensaios dinâmicos; estruturas metálicas intermediárias pela NBR 8800/NBR 14762; avaliar aterramento/para-raios (NBR 5419)",
+      "norma": "NBR-16325-2",
+      "item": "Anexo A, A.1; A.2",
+      "pagina": 28,
+      "nota": "Anexo A informativo; A.2 e) trata de deflexão, contato com borda e ângulos."
+    },
+    {
+      "grupo": "Inspeção, instalação e documentação",
+      "parametro": "Documentação pós-instalação",
+      "valor": "Endereço e localização; responsável (PLH) e instalador; fabricante/tipo/modelo; fixação (fabricante, tensão e forças admissíveis); plano esquemático afixado no acesso (ex. ao telhado); declaração assinada pelo PLH com fotos das fixações que ficarão ocultas",
+      "norma": "NBR-16325-2",
+      "item": "Anexo A, A.3.2; A.3.3",
+      "pagina": 29,
+      "nota": "A.3.3 d)–f); modelo de plano na Figura A.1."
+    },
+    {
+      "grupo": "Inspeção, instalação e documentação",
+      "parametro": "Inspeção periódica",
+      "valor": "Pelo menos a cada 12 meses, conforme o fabricante; marcar a data da próxima inspeção na documentação e, se possível, no dispositivo; dispositivo reprovado etiquetado até correção ou remoção",
+      "max": 12,
+      "unidade": "meses",
+      "norma": "NBR-16325-2",
+      "item": "Anexo A, A.4.1; A.4.2",
+      "pagina": 32
+    },
+    {
+      "grupo": "Marcação e instruções",
+      "parametro": "Instruções do fabricante (seleção)",
+      "valor": "Deflexão máxima e deslocamento do ponto de ancoragem na retenção; ângulos máximos de chegada/saída nas intermediárias e em relação à horizontal; uso exclusivo para EPI (nunca para içar material); cargas máximas e direções transmitidas à estrutura; tensão de trabalho da linha, ajuste e verificação",
+      "norma": "NBR-16325-2",
+      "item": "7 ae)–ar); 8",
+      "pagina": 27
+    },
+    {
+      "grupo": "Trava-queda retrátil",
+      "parametro": "Ponto de ancoragem (definição)",
+      "valor": "Ponto com resistência mecânica superior a 15 kN, destinado a fixar o trava-queda retrátil",
+      "min": 15,
+      "unidade": "kN",
+      "norma": "NBR-14628",
+      "item": "3.7",
+      "pagina": 6
+    },
+    {
+      "grupo": "Trava-queda retrátil",
+      "parametro": "Linha retrátil",
+      "valor": "Cabo metálico (aço; não inox → galvanizado NBR ISO 2408), fita ou corda de fibra sintética virgem ≥ 0,6 N/tex (sem polipropileno); sistema de destorção; absorvedor integrado conforme NBR 14629; conectores NBR 15836",
+      "norma": "NBR-14628",
+      "item": "4.2",
+      "pagina": 7
+    },
+    {
+      "grupo": "Trava-queda retrátil",
+      "parametro": "Travamento",
+      "valor": "Após condicionamentos (calor 50 °C/85 % UR, frio −30 °C, umidade; opcionais poeira e óleo), com massa ≥ 5 kg, deve travar e permanecer travado",
+      "norma": "NBR-14628",
+      "item": "4.3; 5.1.1.1",
+      "pagina": 7,
+      "nota": "Condições das câmaras em 5.1.1.1."
+    },
+    {
+      "grupo": "Trava-queda retrátil",
+      "parametro": "Resistência estática",
+      "valor": "Linha de corda ou fita: ≥ 15 kN; linha de cabo metálico: ≥ 12 kN",
+      "min": 12,
+      "unidade": "kN",
+      "norma": "NBR-14628",
+      "item": "4.4",
+      "pagina": 8
+    },
+    {
+      "grupo": "Trava-queda retrátil",
+      "parametro": "Comportamento dinâmico",
+      "valor": "Massa rígida de 100 kg: força de frenagem Fmáx ≤ 6 kN e distância de parada H ≤ 2 m",
+      "max": 6,
+      "unidade": "kN",
+      "norma": "NBR-14628",
+      "item": "4.5",
+      "pagina": 8,
+      "cota": "esquemas/ancoragem-linha-de-vida-retratil.svg#parada"
+    },
+    {
+      "grupo": "Trava-queda retrátil",
+      "parametro": "Fadiga (opcional) e corrosão",
+      "valor": "Fadiga: 1000 ciclos (linha estendida 1 m, deslocada 300 mm, queda ≤ 2 m); corrosão: névoa salina 24 h + 1 h secagem + 24 h, sem corrosão que afete o funcionamento",
+      "norma": "NBR-14628",
+      "item": "4.6; 4.7; 5.4.2; 5.5",
+      "pagina": 8
+    },
+    {
+      "grupo": "Marcação e instruções",
+      "parametro": "Marcação do trava-queda retrátil",
+      "valor": "Em português, legível e indelével: pictograma \"LEIA O MANUAL\"; condições de uso (vertical, horizontal, inclinado); modelo e indicação de trava-queda retrátil; número da norma",
+      "norma": "NBR-14628",
+      "item": "6",
+      "pagina": 14
+    },
+    {
+      "grupo": "Trava-queda retrátil",
+      "parametro": "Classes de SRD (ANSI)",
+      "valor": "Classe 1: só ancoragem acima da cabeça, queda livre ≤ 610 mm (2 ft); Classe 2: quando não há ancoragem acima (ex. no nível dos pés), queda livre ≤ 1,8 m (6 ft) sobre aresta; capacidade do usuário 59 a 141 kg (130–310 lb)",
+      "norma": "ANSI-Z359.14",
+      "item": "1.1; 1.4",
+      "pagina": 12,
+      "cota": "esquemas/ancoragem-linha-de-vida-retratil.svg#queda-livre-srd"
+    },
+    {
+      "grupo": "Trava-queda retrátil",
+      "parametro": "Resistência estática (ANSI)",
+      "valor": "SRD ≥ 16 kN (3600 lb) sem romper; travamento (sem freio rotativo) ≥ 8 kN; fita da linha ≥ 20 kN (Classe 1) / 22,2 kN (Classe 2)",
+      "min": 16,
+      "unidade": "kN",
+      "norma": "ANSI-Z359.14",
+      "item": "3.2.1; 3.2.3; 3.1.6.1",
+      "pagina": 16
+    },
+    {
+      "grupo": "Trava-queda retrátil",
+      "parametro": "Desempenho dinâmico (ANSI)",
+      "valor": "Força máxima ≤ 8 kN; força média ≤ 6 kN (ambiente) / ≤ 7 kN (quente, frio, úmido); distância de parada ≤ 1067 mm (42 in) — Classe 2: medida e informada na etiqueta; indicador visual deve atuar",
+      "max": 8,
+      "unidade": "kN",
+      "norma": "ANSI-Z359.14",
+      "item": "3.3.1; 3.3.3",
+      "pagina": 16,
+      "cota": "esquemas/ancoragem-linha-de-vida-retratil.svg#parada"
+    },
+    {
+      "grupo": "Trava-queda retrátil",
+      "parametro": "Retração (ANSI)",
+      "valor": "Tensão de retração entre 5,55 N e 111,1 N; com o SRD recolhido, no máximo 610 mm de linha estendida (SRL/SRL-R) ou 1219 mm (Classe 2 e SRL-P)",
+      "norma": "ANSI-Z359.14",
+      "item": "3.5.1; 3.5.2",
+      "pagina": 17
+    },
+    {
+      "grupo": "Trava-queda retrátil",
+      "parametro": "SRL-R (resgate integrado) (ANSI)",
+      "valor": "Deve içar/baixar/segurar com 125 % da capacidade máxima e parar em ≤ 102 mm ao soltar o comando; acionamento motorizado não pode içar ≥ 250 % da capacidade; velocidade ≤ 0,6 m/s; estática 16 kN por 1 min",
+      "norma": "ANSI-Z359.14",
+      "item": "3.3.4",
+      "pagina": 17
+    },
+    {
+      "grupo": "Inspeção, instalação e documentação",
+      "parametro": "Inspeção (ANSI)",
+      "valor": "Pelo usuário antes de cada uso (inclui teste de travamento) e por pessoa competente diferente do usuário (intervalos pelo Anexo A); registros com identificação, data, inspetor e resultado; retirar de uso se o indicador atuou, não travar ao puxar rápido, ou após reter uma queda (etiquetar \"UNUSABLE\")",
+      "norma": "ANSI-Z359.14",
+      "item": "6.1.1–6.1.6",
+      "pagina": 43
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "atencao",
+      "texto": "Força máxima de retenção: NR-35 e NBR 16325-2/14628 limitam a 6 kN no trabalhador (NBR 14628: força de frenagem ≤ 6 kN com 100 kg); a ANSI Z359.14 aceita força MÁXIMA de 8 kN com força MÉDIA ≤ 6 kN — um retrátil só certificado pela ANSI pode não atender o limite brasileiro de 6 kN de pico. Distância de parada: NBR 14628 ≤ 2 m; ANSI ≤ 1067 mm (Classe 1)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Resistência do ponto de ancoragem diverge: NBR 14628 define ponto de ancoragem para retrátil com > 15 kN; NBR 16325-2 ensaia linha horizontal com 12 kN (+1 kN por usuário adicional; 18 kN se não metálico); ANSI Z359.14 pede SRD ≥ 16 kN. Linha de vida horizontal precisa de projeto por PLH (NR-35 Anexo II; NBR 16325-2 Anexo A) — a deflexão da linha aumenta a ZLQ e as forças nas extremidades."
+    },
+    {
+      "tipo": "info",
+      "texto": "Edições no acervo: NBR 16325-2:2014 (cópia 2016); NBR 14628:2010 (versão corrigida 2011 — o inventário marca 2016); ANSI/ASSP Z359.14-2021. NBR 16325-1 (tipos A, B, D), NBR 14626/14627 (trava-queda deslizante) e NBR 14629 (absorvedor) não estão nas referências."
+    },
+    {
+      "tipo": "dica",
+      "texto": "ZLQ rápida com talabarte em linha horizontal (Anexo C da NBR 16325-2): comprimento do talabarte + abertura do absorvedor (manual) + deflexão da linha (fabricante da linha) + 1,5 m + 1 m, medida a partir do ponto de ancoragem. Prefira ancoragem acima da cabeça (fator de queda baixo)."
+    }
+  ]
+}

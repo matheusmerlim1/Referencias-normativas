@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SB-446",
+ "titulo": "SB-446 — Barras e vergalhões de liga Ni-Cr-Mo-Nb (Inconel 625)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras trabalhadas a quente e vergalhões trabalhados a frio de N06625, em Grau 1 (recozido, serviço até 1100 °F / 593 °C) e Grau 2 (solubilizado, para fluência em temperatura maior)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx. / Mn máx. / Si máx.",
+     "valor": "0,10 % / 0,50 % / 0,50 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Cr",
+     "valor": "20,0–23,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Mo",
+     "valor": "8,0–10,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Nb + Ta",
+     "valor": "3,15–4,15 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Fe máx.",
+     "valor": "5,0 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "Grau 1, até 4 in (102 mm)",
+     "valor": "120 ksi / 60 ksi / 30 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 1, 4 a 10 in (102 a 254 mm)",
+     "valor": "110 ksi / 50 ksi / 25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 2, todas as bitolas",
+     "valor": "100 ksi / 40 ksi / 30 %",
+     "item": "Tabela 1"
+    }
+   ]
+  }
+ ]
+}

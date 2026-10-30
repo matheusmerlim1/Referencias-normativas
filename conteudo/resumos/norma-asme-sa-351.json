@@ -1,0 +1,102 @@
+{
+ "id": "ASME-SA-351",
+ "titulo": "SA-351 — Fundidos de aço austenítico e duplex para partes sob pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Peças fundidas austeníticas e austenítico-ferríticas (duplex) para válvulas, flanges, conexões e outras partes sob pressão. Fundidos de aço carbono → SA-216; baixa liga → SA-217. A escolha do grau para alta temperatura ou meio corrosivo é do comprador. Requisitos gerais pela SA-703."
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "5, 6, Tabela 1",
+   "texto": "Forno elétrico (refino AOD opcional). Tratamento de solubilização seguido de têmpera em água ou resfriamento rápido; HK30, HK40, HT30 e CT15C são usados como fundidos.",
+   "valores": [
+    {
+     "parametro": "CF3, CF3A, CF8, CF8A, CF3M — temperatura mín.",
+     "valor": "1900 °F [1040 °C]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "CF8M, CF3MA, CF3MN, CF8C, CD4MCu e outros",
+     "valor": "1950 °F [1065 °C]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "CN7M, CE8MN",
+     "valor": "2050 °F [1120 °C]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "CK20, CH8, CH20",
+     "valor": "2100 °F [1150 °C]",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química (graus usuais)",
+   "item": "Tabela 2",
+   "texto": "Valores máximos salvo faixas.",
+   "valores": [
+    {
+     "parametro": "CF8",
+     "valor": "C 0,08; Mn 1,50; Si 2,00; S 0,040; P 0,040; Cr 18,0–21,0; Ni 8,0–11,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "CF3",
+     "valor": "C 0,03; Si 2,00; Cr 17,0–21,0; Ni 8,0–12,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "CF8M",
+     "valor": "C 0,08; Si 1,50; Cr 18,0–21,0; Ni 9,0–12,0 % (+ Mo)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "CF3M",
+     "valor": "C 0,03; Si 1,50; Cr 17,0–21,0; Ni 9,0–13,0 % (+ Mo)",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín. em 50 mm.",
+   "valores": [
+    {
+     "parametro": "CF3, CF8",
+     "valor": "70 ksi [485] / 30 ksi [205] / 35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "CF3A, CF8A",
+     "valor": "77 ksi [530] / 35 ksi [240] / 35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "CF3M, CF8M",
+     "valor": "70 ksi [485] / 30 ksi [205] / 30 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "CF3MA",
+     "valor": "80 ksi [550] / 37 ksi [255] / 30 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "CF8C",
+     "valor": "70 ksi [485] / 30 ksi [205] / 30 %",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Qualidade e reparo",
+   "item": "9, 10",
+   "texto": "Superfície examinada visualmente, livre de areia, carepa, trincas e rasgos a quente. Reparos com procedimento e soldadores qualificados pela SA-488, inspecionados como a peça."
+  }
+ ]
+}

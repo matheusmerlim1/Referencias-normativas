@@ -1,0 +1,172 @@
+{
+ "id": "IMCA-M179",
+ "titulo": "IMCA M 179 (2005) — Uso de lingas e grommets de cabo trançado (cable-laid)",
+ "secoes": [
+  {
+   "titulo": "Construção da linga cable-laid",
+   "item": "2.1; 2.3",
+   "texto": "Seis cabos unitários torcidos em volta de um cabo central um pouco mais grosso, com passo controlado. Cabos unitários de 6 ou 8 pernas com alma de aço; cabo compactado não é aceito.",
+   "valores": [
+    {
+     "parametro": "Cabo central em relação aos externos",
+     "valor": "12 % a 25 % maior em Ø",
+     "item": "2.1"
+    },
+    {
+     "parametro": "Passo do cabo",
+     "valor": "6 a 7,5 × Ø nominal",
+     "item": "2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Comprimento e medição",
+   "item": "2.2; Tab. 1",
+   "texto": "O comprimento é medido com uma pequena tração e sobre pinos cujo diâmetro cresce com o da linga; depois marca-se uma linha longitudinal para revelar torção. Pares casados têm diferença de comprimento menor.",
+   "valores": [
+    {
+     "parametro": "Tração na medição",
+     "valor": "3 % do CRBL",
+     "item": "2.2"
+    },
+    {
+     "parametro": "Tolerância de comprimento",
+     "valor": "± 1,5 d",
+     "item": "2.2",
+     "cota": "esquemas/lingadas-acessorios-imca-medicao-pinos.svg#L1"
+    },
+    {
+     "parametro": "Diferença em par casado",
+     "valor": "≤ 0,5 d",
+     "item": "2.2"
+    },
+    {
+     "parametro": "Pino de medição — linga 100–150 / 151–250 / 251–375 mm",
+     "valor": "Ø 250 / 500 / 750 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/lingadas-acessorios-imca-medicao-pinos.svg#pino"
+    }
+   ]
+  },
+  {
+   "titulo": "Capacidade da linga",
+   "item": "3",
+   "texto": "A carga de ruptura calculada soma as cargas mínimas dos cabos unitários com um fator de trançamento; a da linga aplica a eficiência da emenda; o WLL divide por um fator de segurança mínimo. Dobrar o corpo sobre diâmetro pequeno reduz a capacidade (fator EB, que substitui a eficiência da emenda quando é menor).",
+   "valores": [
+    {
+     "parametro": "CRBL",
+     "valor": "ΣFmin × 0,85 / 9,81",
+     "item": "3.1"
+    },
+    {
+     "parametro": "Eficiência da emenda manual ET",
+     "valor": "0,75",
+     "item": "3.2"
+    },
+    {
+     "parametro": "Fator de segurança mínimo",
+     "valor": "2,25",
+     "item": "3.3"
+    },
+    {
+     "parametro": "Fator de dobramento EB",
+     "valor": "1 − 0,5/√(D/d); nunca raio < 0,5 d",
+     "item": "3.4"
+    },
+    {
+     "parametro": "Olhal dobrado sobre Ø < d",
+     "valor": "exige redução de capacidade",
+     "item": "3.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "item": "4",
+   "texto": "Pontas dos cabos após o último tuck com comprimento mínimo, trecho livre entre emendas e número mínimo de tucks conforme o método.",
+   "valores": [
+    {
+     "parametro": "Ponta após o último tuck",
+     "valor": "≥ 3 × Ø",
+     "item": "4"
+    },
+    {
+     "parametro": "Trecho livre entre emendas",
+     "valor": "≥ 15 d",
+     "item": "4",
+     "cota": "esquemas/lingadas-acessorios-cable-laid-olhal.svg#L1"
+    },
+    {
+     "parametro": "Tucks — método A / B",
+     "valor": "≥ 5 / ≥ 6",
+     "item": "4"
+    }
+   ],
+   "figuras": [
+    "esquemas/lingadas-acessorios-cable-laid-olhal.svg"
+   ]
+  },
+  {
+   "titulo": "Grommets",
+   "item": "5–6",
+   "texto": "Anel sem fim formado por um cabo enrolado seis vezes sobre si; a carga de ruptura conta doze pernas (núcleo descontado). Tolerâncias de circunferência e de par casado, circunferência mínima em passos, amarrações e junta pintada de vermelho, onde nunca se dobra.",
+   "valores": [
+    {
+     "parametro": "CGBL",
+     "valor": "12 × Fmin × 0,85 / 9,81",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Tolerância da circunferência",
+     "valor": "± 3,0 d (efetivo 1,5 d)",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Par casado",
+     "valor": "1,0 d (efetivo 0,5 d)",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Circunferência mínima",
+     "valor": "≥ 5 passos do cabo",
+     "item": "5.2"
+    },
+    {
+     "parametro": "Amarração (seizing)",
+     "valor": "≥ 2 × Ø",
+     "item": "5.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Certificados e marcação",
+   "item": "7–8",
+   "texto": "Cada peça tem certificados de consolidação, dimensional e de exame (com validade curta) e número de identificação; linga marcada com linha longitudinal e grommet com a junta em vermelho.",
+   "valores": [
+    {
+     "parametro": "Validade do certificado de exame",
+     "valor": "≤ 6 meses",
+     "item": "7"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção e descarte",
+   "item": "9–10; App. 5",
+   "texto": "Inspeção antes de cada uso e exame completo periódico por pessoa competente independente do proprietário, também antes e depois de armazenagem longa. Descartar com arames partidos acima do limite, dobras, amassamentos ou colapso da alma. Manter registro dos içamentos.",
+   "valores": [
+    {
+     "parametro": "Exame completo",
+     "valor": "≤ 6 meses em uso",
+     "item": "9.2"
+    },
+    {
+     "parametro": "Arames partidos em 6 d",
+     "valor": "> 5 % dos arames do cabo unitário → retirar",
+     "item": "10",
+     "cota": "esquemas/lingadas-acessorios-arames-partidos-6d.svg#6d"
+    }
+   ]
+  }
+ ]
+}

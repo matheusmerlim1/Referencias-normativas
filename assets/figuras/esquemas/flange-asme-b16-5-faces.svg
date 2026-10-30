@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 500" width="940" height="500" role="img" aria-label="Faces do flange (ASME B16.5) — ressalto RF, face plana, macho/fêmea, lingueta/ranhura e RTJ">
+<title>Faces do flange (ASME B16.5) — ressalto RF, face plana, macho/fêmea, lingueta/ranhura e RTJ (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Faces do flange (ASME B16.5) — ressalto RF, face plana, macho/fêmea, lingueta/ranhura e RTJ</text>
+<text class="b" x="40" y="70">(a) Ressalto (RF)</text>
+<rect class="s" x="170" y="170" width="40" height="160"/>
+<line class="c" x1="140" y1="330" x2="250" y2="330"/>
+<rect class="s" x="162" y="230" width="8" height="100"/>
+<g id="cota-ressalto" class="cota"><line class="d" x1="136" y1="229" x2="162" y2="229" marker-end="url(#a)"/><line class="d" x1="196" y1="229" x2="170" y2="229" marker-end="url(#a)"/><line class="d" x1="162" y1="229" x2="170" y2="229"/><text class="en" x="150" y="140">altura do ressalto</text></g>
+<line class="d" x1="140" y1="145" x2="165" y2="226" marker-end="url(#a)"/>
+<g id="cota-D-ressalto" class="cota"><line class="e" x1="165" y1="330" x2="198" y2="330"/><line class="e" x1="165" y1="230" x2="198" y2="230"/><line class="d" x1="192" y1="330" x2="192" y2="230" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="126" y="290">Ø do ressalto</text></g>
+<g id="cota-tf" class="cota"><line class="d" x1="170" y1="189" x2="210" y2="189" marker-start="url(#a)" marker-end="url(#a)"/><text x="220" y="200">tf (sem o ressalto)</text></g>
+<text class="b" x="320" y="70">(b) Face plana (FF)</text>
+<rect class="s" x="340" y="170" width="40" height="160"/>
+<line class="c" x1="310" y1="330" x2="420" y2="330"/>
+<g id="cota-perpendicularidade" class="cota"><path class="d" d="M340,200 A130,130 0 0,1 358.1,201.3" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="350.5" y="185.4">perpendicularidade face × furo</text></g>
+<text class="b" x="520" y="70">(c) Macho / fêmea</text>
+<rect class="s" x="540" y="170" width="40" height="160"/>
+<line class="c" x1="510" y1="330" x2="620" y2="330"/>
+<rect class="s" x="532" y="250" width="8" height="80"/>
+<rect class="s" x="630" y="170" width="40" height="160"/>
+<line class="c" x1="600" y1="330" x2="710" y2="330"/>
+<rect class="s" x="618" y="170" width="12" height="60"/>
+<rect class="s" x="618" y="310" width="12" height="20"/>
+<text class="b" x="760" y="70">(d) RTJ</text>
+<rect class="s" x="800" y="170" width="40" height="160"/>
+<line class="c" x1="770" y1="330" x2="880" y2="330"/>
+<path class="w" d="M800,210 L792,214 L792,234 L800,238 z"/>
+<path class="r" d="M786,214 L802,210 L802,238 L786,234 z"/>
+<text class="n" x="760" y="380">anel no canal</text>
+<g id="cota-acabamento" class="cota"><text x="40" y="420">acabamento da face: serrilhado (RF, FF) / liso (canais, lingueta) — Ra na ficha</text></g>
+<text class="n" x="20" y="488">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

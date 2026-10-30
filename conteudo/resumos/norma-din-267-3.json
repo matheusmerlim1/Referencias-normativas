@@ -1,0 +1,40 @@
+{
+ "id": "DIN-267-3",
+ "titulo": "DIN 267-3:1983 — Fixadores — Condições técnicas de fornecimento — Classes de propriedade de parafusos de aço — Conversão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tabela de conversão das classes antigas da DIN 267-3 (1967) e da DIN 267 (1960) para as classes da DIN ISO 898-1. As antigas não devem ser usadas em projetos novos; pedidos pela DIN 267-3 passam a seguir a DIN ISO 898-1 salvo acordo.",
+   "valores": []
+  },
+  {
+   "titulo": "Conversão",
+   "item": "Tabela",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Classes DIN 267-3 (1967)",
+     "valor": "3.6, 4.6, 4.8, 5.6, 5.8, 6.6, 6.8, 6.9, 8.8, 10.9, 12.9, 14.9",
+     "item": "Tabela"
+    },
+    {
+     "parametro": "Classes DIN ISO 898-1",
+     "valor": "3.6, 4.6, 4.8, 5.6, 5.8, 6.8, 8.8, 9.8, 10.9, 12.9",
+     "item": "Tabela"
+    },
+    {
+     "parametro": "Classes extintas",
+     "valor": "6.6, 6.9 e 14.9 (não constam na ISO 898-1)",
+     "item": "Texto"
+    },
+    {
+     "parametro": "Classes de 1960 (ex.)",
+     "valor": "4A … 6G, 8G, 10K, 12K",
+     "item": "Tabela",
+     "nota": "cópia OCR — conferir"
+    }
+   ]
+  }
+ ]
+}

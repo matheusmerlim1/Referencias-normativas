@@ -1,0 +1,93 @@
+{
+ "id": "DIN-5480-1",
+ "titulo": "DIN 5480-1:2006 — Eixos estriados com flancos evolventes referidos ao diâmetro de referência — Parte 1: Fundamentos",
+ "secoes": [
+  {
+   "titulo": "Escopo e princípios",
+   "item": "1",
+   "texto": "Uniões eixo–cubo estriadas (removíveis, deslizantes ou fixas) baseadas num diâmetro de referência independente do módulo, para casar com diâmetros padronizados de rolamentos. Não são intercambiáveis com as estrias ISO 4156 (baseadas no módulo). Centragem pelos flancos; pelo diâmetro só em exceções; deslocamento de perfil para atingir o diâmetro de referência.",
+   "valores": [
+    {
+     "parametro": "Ângulo de pressão",
+     "valor": "30°",
+     "item": "1"
+    },
+    {
+     "parametro": "Faixa de módulo",
+     "valor": "0,5 a 10 mm",
+     "item": "Introdução"
+    },
+    {
+     "parametro": "Número de dentes",
+     "valor": "6 a 82",
+     "item": "Introdução"
+    }
+   ]
+  },
+  {
+   "titulo": "Séries preferenciais",
+   "item": "5, Tab. 1–3",
+   "texto": "Tabela 1 (dB 6 a 58 mm) e 2 (60 a 500 mm) dão o número de dentes para cada par diâmetro de referência × módulo; os dentes são escolhidos para manter o deslocamento de perfil numa faixa limitada, evitando números primos.",
+   "valores": [
+    {
+     "parametro": "Módulos",
+     "valor": "0,5 – 0,6 – 0,75 – 0,8 – 1 – 1,25 – 1,5 – 1,75 – 2 – 2,5 – 3 – 4 – 5 – 6 – 8 – 10",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Deslocamento de perfil x1·m",
+     "valor": "–0,05·m a +0,45·m",
+     "item": "5"
+    }
+   ]
+  },
+  {
+   "titulo": "Perfil de referência",
+   "item": "6",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Pé do perfil hfP (uniões centradas nos flancos)",
+     "valor": "0,55·m",
+     "item": "6 / 7.1"
+    },
+    {
+     "parametro": "Raio de pé ρfP",
+     "valor": "0,16·m (usinagem com remoção de cavaco); 0,54·m (laminação a frio)",
+     "item": "6"
+    }
+   ]
+  },
+  {
+   "titulo": "Diâmetros",
+   "item": "7",
+   "texto": "Diâmetros de cabeça e de pé para uniões centradas nos flancos e no diâmetro (externo ou interno), com tolerâncias recomendadas (Tab. 5) e correções conforme o processo (fresagem, brochamento).",
+   "valores": []
+  },
+  {
+   "titulo": "Designação e desenho",
+   "item": "8–9",
+   "texto": "Designação: DIN 5480, N (cubo) ou W (eixo), A para centragem externa (demais códigos na norma), dB × m × z, tolerâncias. Desenho com quadro de dados, indicação de desvios individuais e limite estatístico de tolerância (STA).",
+   "valores": [
+    {
+     "parametro": "Exemplo",
+     "valor": "DIN 5480 – WA 17 × 1,25 × 6 (12) × h6 × 9e",
+     "item": "8"
+    }
+   ]
+  },
+  {
+   "titulo": "Sistema de ajuste",
+   "item": "10, Tab. 6–9",
+   "texto": "Ajuste vão/espessura de dente com afastamentos e tolerância total TG que inclui os desvios de forma efetivos; tipos de ajuste na Tabela 9.",
+   "valores": [
+    {
+     "parametro": "Ajuste de flanco usual",
+     "valor": "9H/9e",
+     "item": "Tab. 7",
+     "nota": "condição de uso de cada série — conferir"
+    }
+   ]
+  }
+ ]
+}

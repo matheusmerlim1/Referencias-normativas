@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SB-673",
+ "titulo": "SB-673 — Tubos (pipe) soldados de ligas N08904, N08925 e N08926",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe) soldados das ligas N08904 (904L), N08925 e N08926 para serviço corrosivo geral, nos schedules da Tabela 1."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,020 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Mn máx. — N08904 / N08925 / N08926",
+     "valor": "2,0 / 1,0 / 2,00 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N08904 solubilizada",
+     "valor": "71 ksi (490) / 31 ksi (220) / 35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N08925 solubilizada",
+     "valor": "87 ksi (600) / 43 ksi (300) / 40 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N08926 solubilizada",
+     "valor": "94 ksi (650) / 43 ksi (295) / 35 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "ISO-53",
+ "titulo": "ISO 53:1998 — Engrenagens cilíndricas de uso geral e pesado — Perfil básico de cremalheira",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Perfil básico de cremalheira para engrenagens cilíndricas evolventes externas e internas, módulos da ISO 54. Não considera o corte de altura de dentes internos (calcular caso a caso).",
+   "valores": []
+  },
+  {
+   "titulo": "Perfil padrão",
+   "item": "5, Tab. 2",
+   "texto": "Flancos retos inclinados no ângulo de pressão; na linha de referência a espessura do dente é igual ao vão (meio passo); linhas de cabeça e de pé paralelas à linha de referência; altura ativa = 2 × adendo; raio do pé definido pela folga.",
+   "valores": [
+    {
+     "parametro": "Ângulo de pressão",
+     "valor": "20°",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Passo",
+     "valor": "p = π·m",
+     "item": "5.2"
+    },
+    {
+     "parametro": "Adendo",
+     "valor": "ha = 1·m",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Folga c",
+     "valor": "entre 0,25 m e 0,40 m conforme o tipo",
+     "item": "5.9",
+     "nota": "valores da tabela — conferir"
+    },
+    {
+     "parametro": "Tipo D (pé com raio pleno)",
+     "valor": "dedendo 1,4 m, raio do pé 0,39 m (permite retífica)",
+     "item": "Anexo A"
+    }
+   ]
+  },
+  {
+   "titulo": "Tipos alternativos",
+   "item": "Anexo A",
+   "texto": "Tipo A recomendado para altos torques; tipos B e C e tipo D (dedendo aumentado, raio de pé pleno, permite acabamento) conforme a aplicação.",
+   "valores": []
+  }
+ ]
+}

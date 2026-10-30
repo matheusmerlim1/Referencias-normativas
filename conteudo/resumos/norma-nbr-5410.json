@@ -1,0 +1,68 @@
+{
+ "id": "NBR-5410",
+ "titulo": "ABNT NBR 5410:2004 — Instalações elétricas de baixa tensão",
+ "secoes": [
+  {"titulo": "Objetivo e campo", "item": "1",
+   "texto": "Condições para instalações de baixa tensão garantirem segurança de pessoas e animais, funcionamento e conservação de bens: edificações de qualquer uso, áreas externas, trailers, marinas, canteiros e instalações temporárias; instalações novas e reformas. Não se aplica a tração elétrica, veículos, embarcações e aeronaves, iluminação pública, redes de distribuição, SPDA (NBR 5419), minas e cercas eletrificadas.",
+   "valores": [
+    {"parametro": "Tensão abrangida", "valor": "≤ 1 000 V CA (< 400 Hz) ou ≤ 1 500 V CC", "item": "1.2.2 a)"}
+   ]},
+  {"titulo": "Princípios e características gerais", "item": "4",
+   "texto": "Determinação de potência de alimentação, esquemas de aterramento (TN-S, TN-C, TN-C-S, TT, IT), divisão em circuitos, influências externas codificadas (temperatura, água, sólidos, competência das pessoas BA, condições de fuga BD etc.) e compatibilidade.",
+   "valores": []},
+  {"titulo": "Proteção contra choques elétricos", "item": "5.1",
+   "texto": "Proteção básica (isolação, barreiras, invólucros) mais proteção supletiva (equipotencialização e seccionamento automático, isolação dupla, separação elétrica). DR de alta sensibilidade como proteção adicional. Esquema TN-C não admite DR sem antes separar neutro e PE.",
+   "valores": [
+    {"parametro": "Seccionamento máximo TN, situação 1 — Uo 127 / 220 / 400 V", "valor": "0,8 / 0,4 / 0,2 s", "item": "Tab. 25"},
+    {"parametro": "Seccionamento máximo TN, situação 2 — Uo 127 / 220 / 400 V", "valor": "0,35 / 0,20 / 0,05 s", "item": "Tab. 25"},
+    {"parametro": "DR adicional obrigatório", "valor": "IΔn ≤ 30 mA", "item": "5.1.3.2.1"},
+    {"parametro": "Circuitos com DR ≤ 30 mA", "valor": "banheira/chuveiro; tomadas externas; tomadas internas que alimentem o exterior; cozinhas, lavanderias, áreas de serviço, garagens e áreas molhadas", "item": "5.1.3.2.2", "nota": "tomadas até 32 A"}
+   ]},
+  {"titulo": "Passagens de operação e manutenção", "item": "5.1, Tab. 28",
+   "texto": "Locais de serviço elétrico com partes vivas sem proteção exigem passagens mínimas.",
+   "valores": [
+    {"parametro": "Partes vivas de um lado — largura / frente a manípulos", "valor": "1 000 mm / 700 mm", "item": "Tab. 28"},
+    {"parametro": "Partes vivas dos dois lados — manutenção c/ barreiras / s/ barreiras", "valor": "1 000 / 1 500 mm", "item": "Tab. 28", "nota": "operação e manutenção: 1 200 / 1 500 mm — conferir pareamento"}
+   ]},
+  {"titulo": "Efeitos térmicos, sobrecorrentes e sobretensões", "item": "5.2–5.5",
+   "texto": "Prevenção de incêndio e queimaduras; proteção contra sobrecarga e curto-circuito com coordenação condutor–dispositivo; seccionamento; proteção contra sobretensões (DPS) e contra quedas e faltas de tensão.",
+   "valores": []},
+  {"titulo": "Dimensionamento de condutores", "item": "6.2",
+   "texto": "A seção atende ao mesmo tempo: capacidade de condução corrigida (temperatura, agrupamento, harmônicas), proteção contra sobrecarga e curto, seccionamento automático, queda de tensão e seção mínima mecânica. Tipos de linha na Tabela 33.",
+   "valores": [
+    {"parametro": "Temperatura contínua / sobrecarga / curto — PVC ≤ 300 mm²", "valor": "70 / 100 / 160 °C", "item": "Tab. 35"},
+    {"parametro": "Temperatura contínua / sobrecarga / curto — EPR e XLPE", "valor": "90 / 130 / 250 °C", "item": "Tab. 35"},
+    {"parametro": "Seção mínima (Cu) — iluminação / força / sinalização-controle", "valor": "1,5 / 2,5 / 0,5 mm²", "item": "Tab. 47", "nota": "alumínio: 16 mm²; tomadas são circuitos de força"},
+    {"parametro": "Condutores nus — força / sinalização", "valor": "10 / 4 mm² Cu", "item": "Tab. 47"},
+    {"parametro": "Queda de tensão máxima — transformador próprio, entrega no trafo da concessionária ou gerador próprio", "valor": "7 %", "item": "6.2.7.1 a), b), d)"},
+    {"parametro": "Queda de tensão — entrega em tensão secundária", "valor": "5 % a partir do ponto de entrega", "item": "6.2.7.1 c)"},
+    {"parametro": "Queda de tensão nos circuitos terminais", "valor": "≤ 4 %", "item": "6.2.7.2"},
+    {"parametro": "Acréscimo para linhas principais > 100 m", "valor": "+0,005 % por metro além de 100 m", "item": "6.2.7.1, Nota 3", "nota": "com teto — conferir"}
+   ]},
+  {"titulo": "Aterramento e condutor de proteção", "item": "6.4",
+   "texto": "Eletrodo de aterramento preferencialmente nas fundações (armadura ou anel no perímetro), barramento de equipotencialização principal (BEP) e ligações equipotenciais.",
+   "valores": [
+    {"parametro": "PE — fase S ≤ 16 / 16 < S ≤ 35 / S > 35 mm²", "valor": "S / 16 / S/2", "item": "Tab. 58"},
+    {"parametro": "PE fora do cabo/conduto — com / sem proteção mecânica", "valor": "2,5 / 4 mm² Cu (16 mm² Al)", "item": "6.4.3.1.4"}
+   ]},
+  {"titulo": "Verificação final e manutenção", "item": "7–8",
+   "texto": "Antes de energizar: inspeção visual e ensaios (continuidade do PE, resistência de isolamento em CC, seccionamento automático, DR, tensão aplicada, polaridade). Manutenção periódica conforme complexidade, só por pessoas advertidas (BA4) ou qualificadas (BA5).",
+   "valores": [
+    {"parametro": "Isolamento — SELV/PELV (ensaio 250 V CC)", "valor": "≥ 0,25 MΩ", "item": "Tab. 60"},
+    {"parametro": "Isolamento — até 500 V (ensaio 500 V CC)", "valor": "≥ 0,5 MΩ", "item": "Tab. 60"},
+    {"parametro": "Isolamento — acima de 500 V (ensaio 1 000 V CC)", "valor": "≥ 1,0 MΩ", "item": "Tab. 60"}
+   ]},
+  {"titulo": "Locais específicos e residências", "item": "9",
+   "texto": "Banheiros (volumes), piscinas, saunas, canteiros, locais de habitação: previsão mínima de carga de iluminação e de tomadas; aquecedor de água ligado direto; equipamento acima de 10 A em circuito exclusivo.",
+   "valores": [
+    {"parametro": "Iluminação — cômodo ≤ 6 m²", "valor": "≥ 100 VA", "item": "9.5.2.1"},
+    {"parametro": "Iluminação — cômodo > 6 m²", "valor": "100 VA nos primeiros 6 m² + 60 VA a cada 4 m² inteiros", "item": "9.5.2.1"},
+    {"parametro": "Tomadas — cozinha, área de serviço, lavanderia", "valor": "1 a cada 3,5 m de perímetro", "item": "9.5.2.2.1 b)"},
+    {"parametro": "Tomadas — salas e dormitórios / demais > 6 m²", "valor": "1 a cada 5 m de perímetro", "item": "9.5.2.2.1 d), e)"},
+    {"parametro": "Tomadas — cômodo ≤ 6 m²", "valor": "≥ 1 (≤ 2,25 m²: pode ficar até 0,80 m da porta)", "item": "9.5.2.2.1 e)"},
+    {"parametro": "Potência de tomada — áreas molhadas", "valor": "600 VA nas 3 primeiras, 100 VA nas demais", "item": "9.5.2.2.2 a)"},
+    {"parametro": "Potência de tomada — demais cômodos", "valor": "≥ 100 VA", "item": "9.5.2.2.2 b)"},
+    {"parametro": "Circuito independente", "valor": "equipamento com corrente nominal > 10 A", "item": "9.5.3.1"}
+   ]}
+ ]
+}

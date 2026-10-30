@@ -1,0 +1,46 @@
+{
+ "id": "ISO-1496-2",
+ "titulo": "ISO 1496-2:1996 (+ Amd. 1) — Contêineres de carga série 1 — Especificação e ensaios — Parte 2: Contêineres térmicos",
+ "secoes": [
+  {
+   "titulo": "Escopo e classificação",
+   "item": "1–5",
+   "texto": "Especificação e ensaios de contêineres térmicos série 1 (refrigerados com refrigerante consumível, mecanicamente refrigerados, refrigerados e aquecidos, aquecidos, isotérmicos; com equipamento fixo ou removível, autônomo ou não) para transporte rodoviário, ferroviário e marítimo. Códigos de tipo 30 a 46.",
+   "valores": []
+  },
+  {
+   "titulo": "Dimensões e desempenho térmico",
+   "item": "6, Tab.",
+   "texto": "Para cada tipo e tamanho, vazamento térmico máximo (W/K) e temperaturas de projeto interna e externa.",
+   "valores": [
+    {
+     "parametro": "Vazamento térmico máx. — tipos 30/31/36, tamanhos 1D/1C/1B/1BBB/1A/1AAA",
+     "valor": "15 / 26 / 37 / 40 / 48 / 51 W/K",
+     "item": "6.3"
+    },
+    {
+     "parametro": "Tipos refrigerados (30, 31, 36) — temperaturas de projeto",
+     "valor": "interna −18 °C com externa +38 °C",
+     "item": "6.3"
+    },
+    {
+     "parametro": "Tipos aquecidos (32, 33, 38) — temperaturas de projeto",
+     "valor": "interna +16 °C com externa −20 °C",
+     "item": "6.3"
+    },
+    {
+     "parametro": "Isotérmico tipo 46",
+     "valor": "26 / 46 / 66 / 71 / 86 / 92 W/K (mesma ordem de tamanhos)",
+     "item": "6.3",
+     "nota": "leitura de tabela — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Projeto, ensaios e elétrica",
+   "item": "7–9, Anexos",
+   "texto": "Requisitos estruturais como na Parte 1 mais isolamento, drenos, entradas e saídas de ar, conexões de água de resfriamento; ensaios estruturais e térmicos (vazamento térmico em regime permanente, desempenho do equipamento); aspectos elétricos — tomada e plugue de quatro pinos 380/440 V, 50/60 Hz, 32 A, fases e equipamentos 220 V/dupla tensão.",
+   "valores": []
+  }
+ ]
+}

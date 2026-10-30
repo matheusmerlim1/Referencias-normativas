@@ -1,0 +1,28 @@
+{
+ "id": "ASME-SFA-5.24",
+ "titulo": "SFA-5.24 — Arames e varetas de zircônio e ligas de zircônio (AWS A5.24)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos e varetas de zircônio e ligas de zircônio para TIG, MIG e plasma."
+  },
+  {
+   "titulo": "Classificações e composição",
+   "item": "Tabela 1",
+   "texto": "ERZr2 (zircônio comercial), ERZr3 (Zr-Sn), ERZr4 (Zr-Nb).",
+   "valores": [
+    {
+     "parametro": "ERZr2 — Zr+Hf mín. / Hf máx. / Fe+Cr máx.",
+     "valor": "99,0 % / 4,5 % / 0,20 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "—",
+   "texto": "Classificação pela composição química do arame."
+  }
+ ]
+}

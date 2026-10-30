@@ -1,0 +1,48 @@
+{
+ "id": "ASME-SFA-5.12",
+ "titulo": "SFA-5.12 — Eletrodos de tungstênio e ligas de tungstênio para soldagem e corte TIG e plasma (AWS A5.12)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Eletrodos nus de tungstênio puro e com óxidos (céria, lantânia, tória, zircônia) para soldagem e corte TIG e plasma."
+  },
+  {
+   "titulo": "Classificações e composição",
+   "item": "Tabela 1",
+   "texto": "W mínimo por diferença e teor do óxido de dopagem; outros elementos ≤ 0,5 %.",
+   "valores": [
+    {
+     "parametro": "EWP (tungstênio puro) — W mín.",
+     "valor": "99,5 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "EWCe-2 — W mín. / CeO2",
+     "valor": "97,3 % / 1,8–2,2 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "EWLa-1 — W mín. / La2O3",
+     "valor": "98,3 % / 0,8–1,2 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "EWTh-2 — W mín. / ThO2",
+     "valor": "97,3 % / 1,7–2,2 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "EWZr-1 — W mín. / ZrO2",
+     "valor": "99,1 % / 0,15–0,40 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões e marcação",
+   "item": "—",
+   "texto": "Diâmetros e comprimentos padronizados com tolerâncias; identificação da classificação por cor na ponta do eletrodo e na embalagem."
+  }
+ ]
+}

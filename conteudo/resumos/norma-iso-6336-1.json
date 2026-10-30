@@ -1,0 +1,45 @@
+{
+ "id": "ISO-6336-1",
+ "titulo": "ISO 6336-1:2006 (corr. 2008) — Capacidade de carga de engrenagens cilíndricas retas e helicoidais — Parte 1: Princípios básicos e fatores de influência gerais",
+ "secoes": [
+  {
+   "titulo": "Escopo e princípios",
+   "item": "1–4",
+   "texto": "Base do método ISO de cálculo de engrenagens cilíndricas externas e internas: termos e símbolos, falhas cobertas (pitting na Parte 2, quebra do dente na Parte 3) e outras citadas (scuffing, desgaste, micropitting, deformação plástica). Métodos A (ensaio/medição completa), B (cálculo detalhado) e C/D (simplificados), em ordem decrescente de precisão.",
+   "valores": []
+  },
+  {
+   "titulo": "Fatores de carga",
+   "item": "5–8",
+   "texto": "A carga nominal tangencial é multiplicada pelos fatores que somam sobrecargas e má distribuição.",
+   "valores": [
+    {
+     "parametro": "Fator de aplicação KA",
+     "valor": "sobrecargas externas do acionador e da máquina acionada (Método A medido; Método B tabela/Anexo)",
+     "item": "5"
+    },
+    {
+     "parametro": "Fator dinâmico interno Kv",
+     "valor": "cargas dinâmicas internas (ressonância, erros de passo, massa, rigidez)",
+     "item": "6"
+    },
+    {
+     "parametro": "Fatores de face KHβ e KFβ",
+     "valor": "distribuição de carga ao longo da largura (deformações, desvios de hélice, abaulamento/alívio)",
+     "item": "7"
+    },
+    {
+     "parametro": "Fatores transversais KHα e KFα",
+     "valor": "distribuição entre pares de dentes em contato",
+     "item": "8"
+    }
+   ]
+  },
+  {
+   "titulo": "Rigidez e dados de engrenamento",
+   "item": "9",
+   "texto": "Rigidez de dente única e de engrenamento, usadas nos fatores dinâmicos e de distribuição. Anexos com correções de hélice e valores de referência.",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,509 @@
+{
+  "id": "grating-piso-grade",
+  "titulo": "Grating / grade de piso (PRFV)",
+  "categoria": "Acessos e circulação",
+  "resumo": "Grade de piso pultrudada em PRFV para óleo e gás (NBR 15708-3:2014): construção, classificação de resistência ao fogo (níveis 1, 2, 3) por local de uso, ensaios de tipo (fogo, carga a 130 °C), recebimento por lote, designação e marcação. Aberturas, cargas e flechas de grating em geral ficam na ficha de passarelas.",
+  "palavras_chave": [
+    "grating",
+    "grade de piso",
+    "grade",
+    "piso gradeado",
+    "PRFV",
+    "FRP",
+    "GRP",
+    "fiberglass grating",
+    "pultruded grating",
+    "pultrudado",
+    "compósito",
+    "NBR 15708-3",
+    "viga portante",
+    "bearing bar",
+    "viga de ligação",
+    "cross bar",
+    "vão resistente",
+    "span",
+    "resistência ao fogo",
+    "fire integrity",
+    "nível 1",
+    "nível 2",
+    "nível 3",
+    "L1",
+    "L2",
+    "L3",
+    "USCG",
+    "Barcol",
+    "antiderrapante"
+  ],
+  "relacionadas": [
+    "passarela-plataforma-rampa",
+    "escada-degraus",
+    "guarda-corpo"
+  ],
+  "figuras": [
+    {
+      "arquivo": "esquemas/grating-piso-grade-vao-vigas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — planta da grade sobre dois apoios (vão livre, vão resistente, vigas portantes e de ligação) e corte das vigas portantes (espaço entre abas, altura).",
+      "norma": "NBR-15708-3",
+      "item": "Esquema",
+      "pagina": 8,
+      "grupo": [
+        "Definições e escopo",
+        "Construção"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (3.2, Figura 1). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/grating-piso-grade-ensaio-estatico.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ensaio de carga estática: painel, vão resistente entre apoios, região de aplicação da carga e flecha.",
+      "norma": "NBR-15708-3",
+      "item": "Esquema",
+      "pagina": 13,
+      "grupo": [
+        "Ensaios de tipo"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (6.1.2, Figura 3). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/grating-piso-grade-lacre.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — corpo de prova envolvido em filme com quatro lacres nos vértices de um retângulo concêntrico.",
+      "norma": "NBR-15708-3",
+      "item": "Esquema",
+      "pagina": 18,
+      "grupo": [
+        "Relatórios, designação e marcação"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Anexo B, B.1, Figura B.1). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/grating-piso-grade-ensaio-fogo-cotas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ensaio de fogo: grade composta ao lado de grade de aço sobre vigas I, apoio nas extremidades, altura acima dos queimadores e queda livre do saco.",
+      "norma": "NBR-15708-3",
+      "item": "Esquema",
+      "pagina": 10,
+      "grupo": [
+        "Resistência ao fogo (classificação)"
+      ],
+      "nota": "Desenho próprio. Sem valores: o site escreve o valor do requisito na cota destacada."
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Definições e escopo",
+      "parametro": "Escopo",
+      "valor": "Principais características e métodos de ensaio de grade de piso em compósito pultrudado para a indústria do petróleo e gás natural",
+      "norma": "NBR-15708-3",
+      "item": "1",
+      "pagina": 7,
+      "nota": "Materiais conforme NBR 15708-1 (item 4) — a Parte 1 (materiais, ensaios e tolerâncias dimensionais) não está no acervo."
+    },
+    {
+      "grupo": "Definições e escopo",
+      "parametro": "Vão livre",
+      "valor": "Distância entre os dois pontos de apoio da estrutura",
+      "norma": "NBR-15708-3",
+      "item": "3.1",
+      "pagina": 7,
+      "cota": "esquemas/grating-piso-grade-vao-vigas.svg#vao-livre"
+    },
+    {
+      "grupo": "Definições e escopo",
+      "parametro": "Vão resistente",
+      "valor": "Dimensão da grade na direção das vigas portantes, correspondente ao menor vão livre",
+      "norma": "NBR-15708-3",
+      "item": "3.2, Figura 1",
+      "pagina": 7,
+      "cota": "esquemas/grating-piso-grade-vao-vigas.svg#vao-resistente"
+    },
+    {
+      "grupo": "Definições e escopo",
+      "parametro": "Viga de ligação",
+      "valor": "Viga secundária transversal que mantém em posição as vigas portantes",
+      "norma": "NBR-15708-3",
+      "item": "3.3, Figura 2",
+      "pagina": 8
+    },
+    {
+      "grupo": "Definições e escopo",
+      "parametro": "Viga portante",
+      "valor": "Principal elemento de resistência mecânica da grade, apoiado no menor vão livre",
+      "norma": "NBR-15708-3",
+      "item": "3.4, Figura 2",
+      "pagina": 8
+    },
+    {
+      "grupo": "Construção",
+      "parametro": "Construção da grade",
+      "valor": "Vigas portantes uniformemente espaçadas, mantidas em posição por vigas de ligação transversais chavetadas e coladas",
+      "norma": "NBR-15708-3",
+      "item": "5.1",
+      "pagina": 9
+    },
+    {
+      "grupo": "Construção",
+      "parametro": "Espaço livre entre as abas superiores",
+      "valor": "Não pode exceder 30 mm",
+      "max": 30,
+      "unidade": "mm",
+      "norma": "NBR-15708-3",
+      "item": "5.1",
+      "pagina": 9,
+      "cota": "esquemas/grating-piso-grade-vao-vigas.svg#espaco-abas"
+    },
+    {
+      "grupo": "Construção",
+      "parametro": "Alturas nominais recomendadas das vigas portantes",
+      "valor": "25 mm; 32 mm; 38 mm; 51 mm",
+      "norma": "NBR-15708-3",
+      "item": "5.1",
+      "pagina": 9,
+      "nota": "'51 mm' conferido na imagem (o OCR lê '5imm').",
+      "cota": "esquemas/grating-piso-grade-vao-vigas.svg#altura-viga"
+    },
+    {
+      "grupo": "Construção",
+      "parametro": "Superfície",
+      "valor": "Superfície de utilização áspera e antiderrapante",
+      "norma": "NBR-15708-3",
+      "item": "5.1",
+      "pagina": 9
+    },
+    {
+      "grupo": "Resistência ao fogo (classificação)",
+      "parametro": "Classificação ao fogo",
+      "valor": "Três níveis (1, 2 ou 3) pelos ensaios de 6.1.1; o uso de cada nível depende do local e serviço (Tabela A.1); a classificação vale para o modelo específico (material, dimensões e afastamento dos perfis, vão resistente em serviço)",
+      "norma": "NBR-15708-3",
+      "item": "5.2",
+      "pagina": 9,
+      "nota": "Ver tabela \"Tabela A.1 — nível de integridade por local\"."
+    },
+    {
+      "grupo": "Resistência ao fogo (classificação)",
+      "parametro": "Nível 3 — ensaio em pré-carga",
+      "valor": "Grade composta lado a lado com grade de aço similar (aço classificado para ≥ 4,5 kN/m² com fator de segurança 1,67); apoios em vigas I com aba ≥ 100 mm, 100 mm de apoio em cada extremidade; a meia altura do forno ou ≥ 300 mm acima dos queimadores; massa de 40 kg no meio do vão (caixa de areia com base quadrada de 0,09 m²); curva ISO 834-1; falha = flecha L/10; aprovado se a diferença entre as temperaturas do forno na falha do aço e do compósito for < 100 °C",
+      "norma": "NBR-15708-3",
+      "item": "6.1.1.1.1",
+      "pagina": 10,
+      "nota": "Corpos de prova: comprimento 300–350 mm; largura = vão máximo em serviço + 200 mm (6.1.1). Medição de flecha com precisão de ± 5 mm.",
+      "cota": "esquemas/grating-piso-grade-ensaio-fogo-cotas.svg#apoio"
+    },
+    {
+      "grupo": "Resistência ao fogo (classificação)",
+      "parametro": "Nível 3 — ensaio em pós-carga",
+      "valor": "Mesma montagem; curva ISO 834-1 por 60 min; após resfriar, massa de 40 kg no meio do vão; aprovado se a grade composta estiver intacta e não colapsar",
+      "norma": "NBR-15708-3",
+      "item": "6.1.1.1.2",
+      "pagina": 11
+    },
+    {
+      "grupo": "Resistência ao fogo (classificação)",
+      "parametro": "Nível 2",
+      "valor": "Atender ao nível 3 e, após o pós-carga, carregar em incrementos ≤ 20 kg (carga uniforme); aprovado se intacta sob ≥ 4,5 kN/m² ou ≥ a carga de falha da grade de aço, o que for menor",
+      "norma": "NBR-15708-3",
+      "item": "6.1.1.2",
+      "pagina": 11
+    },
+    {
+      "grupo": "Resistência ao fogo (classificação)",
+      "parametro": "Nível 1",
+      "valor": "Atender aos níveis 2 e 3; três corpos de prova, vão = comprimento − 200 mm; impacto único de saco de granalha de 40 kg em queda livre de 2 m no centro do vão; depois, carga uniforme do nível 2; aprovado se os três não falharem",
+      "norma": "NBR-15708-3",
+      "item": "6.1.1.3",
+      "pagina": 11,
+      "cota": "esquemas/grating-piso-grade-ensaio-fogo-cotas.svg#queda"
+    },
+    {
+      "grupo": "Ensaios de tipo",
+      "parametro": "Escopo do ensaio de tipo",
+      "valor": "Ensaios da NBR 15708-1:2013 Seção 6; repetir se mudar composição, processo ou projeto",
+      "norma": "NBR-15708-3",
+      "item": "6.1",
+      "pagina": 9
+    },
+    {
+      "grupo": "Ensaios de tipo",
+      "parametro": "Validade",
+      "valor": "Ensaios de resistência ao fogo e de carga estática a 130 °C (níveis 1, 2 e 3): validade de cinco anos; recertificação (mesma composição e processo) só com esses dois ensaios",
+      "norma": "NBR-15708-3",
+      "item": "6.1",
+      "pagina": 9,
+      "nota": "Grade para área sem requisito de integridade em incêndio: ensaio de carga estática à temperatura ambiente (ver Tabela A.1)."
+    },
+    {
+      "grupo": "Ensaios de tipo",
+      "parametro": "Carga estática a 130 °C — corpo de prova",
+      "valor": "Painel 1200 × 1200 mm (painéis menores não podem ser ensaiados), simplesmente apoiado em dois suportes transversais, vão resistente 1100 mm, sem fixação aos suportes",
+      "norma": "NBR-15708-3",
+      "item": "6.1.2, Figura 3",
+      "pagina": 12,
+      "cota": "esquemas/grating-piso-grade-ensaio-estatico.svg#painel"
+    },
+    {
+      "grupo": "Ensaios de tipo",
+      "parametro": "Carga estática a 130 °C — procedimento",
+      "valor": "Aquecer a 130 °C ± 5 °C por 30 min após estabilizar; aplicar 9 kN numa região de 200 mm × 50 mm por 30 min",
+      "norma": "NBR-15708-3",
+      "item": "6.1.2",
+      "pagina": 12,
+      "cota": "esquemas/grating-piso-grade-ensaio-estatico.svg#area-carga"
+    },
+    {
+      "grupo": "Ensaios de tipo",
+      "parametro": "Carga estática a 130 °C — critério",
+      "valor": "Flecha do vão livre após 30 min de carga ≤ 25 mm; sem exceder o limite, a amostra pode voltar ao estoque",
+      "max": 25,
+      "unidade": "mm",
+      "norma": "NBR-15708-3",
+      "item": "6.1.2",
+      "pagina": 13,
+      "cota": "esquemas/grating-piso-grade-ensaio-estatico.svg#flecha"
+    },
+    {
+      "grupo": "Inspeção de recebimento (lote)",
+      "parametro": "Inspeção de recebimento",
+      "valor": "Visual, dimensional e dureza Barcol; para níveis 1, 2 e 3, também o ensaio de carga estática a 130 °C (6.1.2)",
+      "norma": "NBR-15708-3",
+      "item": "6.2",
+      "pagina": 13
+    },
+    {
+      "grupo": "Inspeção de recebimento (lote)",
+      "parametro": "Amostragem",
+      "valor": "Amostras escolhidas aleatoriamente por representante do comprador, conforme Tabela 1; o ensaio de carga estática é feito em amostra única do lote",
+      "norma": "NBR-15708-3",
+      "item": "6.2.1, Tabela 1",
+      "pagina": 13,
+      "nota": "Ver tabela \"Tabela 1 — amostragem\"."
+    },
+    {
+      "grupo": "Inspeção de recebimento (lote)",
+      "parametro": "Visual, dimensional e Barcol",
+      "valor": "Verificar os requisitos da Seção 5; defeitos visuais e tolerâncias dimensionais pela NBR 15708-1:2013 Seção 5, em amostras originais intactas; Barcol conforme NBR 15708-1",
+      "norma": "NBR-15708-3",
+      "item": "6.2.2; 6.2.3; 6.2.4",
+      "pagina": 14
+    },
+    {
+      "grupo": "Relatórios, designação e marcação",
+      "parametro": "Relatórios",
+      "valor": "Ensaio de tipo: todos os relatórios da NBR 15708-1 e desta parte, com produto, fabricante, código da formulação (reforço e matriz) e dimensões do perfil; liberação: relatório de inspeção das grades e cópia completa dos desenhos de montagem",
+      "norma": "NBR-15708-3",
+      "item": "7.1; 7.2",
+      "pagina": 14
+    },
+    {
+      "grupo": "Relatórios, designação e marcação",
+      "parametro": "Designação",
+      "valor": "Nome; número da norma; classe de resistência ao fogo; altura e espaçamento das vigas portantes; espaçamento das vigas de ligação. Ex.: Grade de piso, ABNT NBR 15708-3, 38 mm x 25 mm x 150 mm",
+      "norma": "NBR-15708-3",
+      "item": "8",
+      "pagina": 15
+    },
+    {
+      "grupo": "Relatórios, designação e marcação",
+      "parametro": "Marcação",
+      "valor": "Identificação resistente ao ambiente com no mínimo: fabricante; número desta parte; código de rastreabilidade e ano; tipo de resina; nível de resistência ao fogo",
+      "norma": "NBR-15708-3",
+      "item": "9",
+      "pagina": 15
+    },
+    {
+      "grupo": "Relatórios, designação e marcação",
+      "parametro": "Lacre de corpos de prova (informativo)",
+      "valor": "Grade envolvida em filme de PVC com quatro lacres nos vértices de um quadrado concêntrico de 610 mm × 762 mm, cruzando o contato perfil / tarugo-chaveta",
+      "norma": "NBR-15708-3",
+      "item": "Anexo B, B.1, Figura B.1",
+      "pagina": 18,
+      "cota": "esquemas/grating-piso-grade-lacre.svg#lacre-a"
+    }
+  ],
+  "tabelas": [
+    {
+      "id": "nbr15708-3-tab1-amostragem",
+      "titulo": "NBR 15708-3 — Tabela 1: amostragem e aceitação",
+      "norma": "NBR-15708-3",
+      "item": "6.2.1, Tabela 1",
+      "pagina": 14,
+      "unidade": "peças",
+      "colunas": [
+        "Lote",
+        "Amostra",
+        "Aceitação",
+        "Rejeição"
+      ],
+      "linhas": [
+        [
+          "Até 90",
+          3,
+          0,
+          1
+        ],
+        [
+          "91 – 280",
+          13,
+          1,
+          2
+        ],
+        [
+          "281 – 500",
+          20,
+          2,
+          3
+        ],
+        [
+          "501 – 1 200",
+          32,
+          3,
+          4
+        ],
+        [
+          "1 201 – 3 200",
+          50,
+          5,
+          6
+        ],
+        [
+          "> 3 200",
+          "ISO 2859-1, nível 1, NQA = 4 %",
+          "",
+          ""
+        ]
+      ],
+      "nota": "Conferida na imagem. A norma imprime '1 201 – 3 00' (erro de digitação; a linha seguinte é '> 3 200').",
+      "consulta": false
+    },
+    {
+      "id": "nbr15708-3-tabA1-fogo",
+      "titulo": "NBR 15708-3 — Tabela A.1: nível de integridade ao fogo por local",
+      "norma": "NBR-15708-3",
+      "item": "Anexo A, Tabela A.1",
+      "pagina": 16,
+      "unidade": "",
+      "colunas": [
+        "Req.",
+        "Local",
+        "Serviço",
+        "Nível"
+      ],
+      "linhas": [
+        [
+          "1",
+          "Espaços de máquinas",
+          "Fuga, acesso para combate a incêndio, emergência ou resgate",
+          "1 (Nota 1)"
+        ],
+        [
+          "1",
+          "Espaços de máquinas",
+          "Demais passadiços, passarelas, escadas, plataformas",
+          "3"
+        ],
+        [
+          "2",
+          "Salas de bombas de carga",
+          "Todos os acessos",
+          "1"
+        ],
+        [
+          "3",
+          "Porões de carga",
+          "Fuga, combate a incêndio, emergência ou resgate",
+          "1"
+        ],
+        [
+          "3",
+          "Porões de carga",
+          "Demais acessos",
+          "N/A (Nota 5)"
+        ],
+        [
+          "4",
+          "Tanques de carga",
+          "Todos os acessos",
+          "N/A (Notas 2 e 5)"
+        ],
+        [
+          "5",
+          "Tanques de óleo combustível",
+          "Todos os acessos",
+          "N/A (Notas 2 e 5)"
+        ],
+        [
+          "6",
+          "Tanque de água de lastro",
+          "Todos os acessos",
+          "N/A (Notas 3 e 5)"
+        ],
+        [
+          "7",
+          "Compartimentos estanques, espaços vazios, fundos duplos, túneis",
+          "Todos os acessos",
+          "N/A (Notas 3 e 5)"
+        ],
+        [
+          "8",
+          "Acomodações, serviços e controle",
+          "Todos os acessos",
+          "1"
+        ],
+        [
+          "9",
+          "Embarque em botes / refúgio temporário em convés aberto",
+          "Todos os acessos",
+          "2"
+        ],
+        [
+          "10",
+          "Conveses abertos ou semiabertos",
+          "Fuga, combate a incêndio, emergência ou resgate",
+          "3 (Nota 4)"
+        ],
+        [
+          "10",
+          "Conveses abertos ou semiabertos",
+          "Demais acessos",
+          "N/A (Nota 5)"
+        ],
+        [
+          "11",
+          "Esferas e tanques de estocagem em terra",
+          "Todos os acessos",
+          "N/A (Notas 2 e 5)"
+        ],
+        [
+          "12",
+          "Outras áreas abertas ou semiabertas",
+          "Fuga, combate a incêndio, emergência ou resgate",
+          "3 (Nota 4)"
+        ],
+        [
+          "12",
+          "Outras áreas abertas ou semiabertas",
+          "Demais acessos",
+          "N/A (Nota 5)"
+        ],
+        [
+          "13",
+          "Outras áreas fechadas",
+          "Acessos que podem ser usados para fuga, combate a incêndio, emergência ou resgate",
+          "1"
+        ]
+      ],
+      "nota": "Conferida na imagem; texto resumido. Nota 1: espaço de máquinas sem combustão interna/queima/aquecimento/bombeamento de óleo e com ≤ 2,5 kg/m² de combustível pode usar nível 3. Nota 2: se previsto acesso durante incêndio → nível 1. Nota 3: idem → nível 3. Nota 4: convés com sistema de espuma → nível 1 nas rotas e áreas operacionais com espuma. Nota 5: exige os demais ensaios da norma.",
+      "consulta": false
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "info",
+      "texto": "Fonte: ABNT NBR 15708-3:2014 (3ª edição, cancela a 2011), escaneada; texto por OCR. Valores conferidos na imagem onde o OCR falhou. A norma NÃO fixa carga de uso, flecha em serviço nem malha (abertura) da grade — só a folga entre abas ≤ 30 mm e os ensaios de tipo."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Aberturas e cargas de grating em serviço estão na ficha 'Passarela, plataforma e rampa' (ABS, ISO 14122-2, ASTM F1166, DNV-OS-C101). Compare: a NBR 15708-3 limita a folga entre abas a 30 mm; o ensaio de carga é 9 kN em 200 × 50 mm a 130 °C, com flecha ≤ 25 mm no vão de 1100 mm — não é o mesmo critério das cargas de piso (ex. 2,0 kN/m² + 1,5 kN da ISO/ABS). A API RP 2A 14.1.5.6 pede emendas de grating só sobre apoios (ficha de tolerâncias)."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Na especificação de compra, informe: nível de resistência ao fogo pela Tabela A.1 (local e serviço), altura/espaçamento das vigas portantes e de ligação (designação, item 8) e o vão resistente de serviço — a classificação ao fogo só vale para aquele modelo e vão."
+    }
+  ]
+}

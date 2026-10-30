@@ -1,0 +1,2765 @@
+{
+  "id": "guindaste-ponte-rolante",
+  "titulo": "Guindaste (offshore e de pedestal) e ponte rolante",
+  "categoria": "Içamento e movimentação de carga",
+  "resumo": "Valores de projeto e inspeção de guindastes offshore/de pedestal e pontes rolantes: classificação (grupos de estrutura e mecanismos), fatores dinâmicos e de majoração, offlead/sidelead, vento, banda/trim, tensões admissíveis, cabos (FS, D/d), tambores, freios, rolamento de giro, ensaios de carga e certificação — NBR 8400, DNV 2.22, ABS Lifting Appliances 2021 e NR-11.",
+  "palavras_chave": [
+    "guindaste",
+    "ponte rolante",
+    "pórtico rolante",
+    "grua",
+    "crane",
+    "offshore crane",
+    "pedestal crane",
+    "overhead crane",
+    "gantry crane",
+    "lifting appliance",
+    "fator dinâmico",
+    "dynamic factor",
+    "VAF",
+    "vertical amplification factor",
+    "coeficiente de majoração",
+    "Mx",
+    "grupo do mecanismo",
+    "classe de utilização",
+    "FEM 1.001",
+    "offlead",
+    "sidelead",
+    "vento",
+    "wind",
+    "banda",
+    "trim",
+    "heel",
+    "list",
+    "SWL",
+    "carga de ensaio",
+    "proof load",
+    "load test",
+    "ensaio de carga",
+    "cabo de aço",
+    "wire rope",
+    "fator de segurança",
+    "safety factor",
+    "D/d",
+    "polia",
+    "sheave",
+    "tambor",
+    "drum",
+    "freio",
+    "brake",
+    "rolamento de giro",
+    "slewing ring",
+    "slewing bearing",
+    "pedestal",
+    "contraflecha",
+    "flecha",
+    "deflection",
+    "estabilidade",
+    "tombamento",
+    "NBR 8400",
+    "DNV 2.22",
+    "ABS",
+    "NR-11",
+    "içamento de pessoas",
+    "personnel lifting"
+  ],
+  "relacionadas": [
+    "guincho",
+    "lingadas-acessorios",
+    "icamento-unidade-portatil"
+  ],
+  "figuras": [
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-offlead-sidelead.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — offlead (cabo inclinado no plano da lança) e sidelead (lateral) na ponta da lança, com r, Htip, HW e Lvert. DNV: side lead = (W/100)·[2.5 + 0.1·r·n + Hsign]; off lead = maior de (W/1 000)·n²·r e ψ·W·(2.5 + 1.5 Hsign)/(HW + Lvert). ABS: fSV = (2.5 + 1.5 × Hsig)/Htip ≤ 0.30; side = 0.5 × offlead; mínimo 0.02 × VDL.",
+      "norma": "DNV-2.22",
+      "item": "Esquema",
+      "pagina": 65,
+      "grupo": "Cargas horizontais (aceleração, offlead/sidelead, choque)",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-banda-trim.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — banda (seção transversal) e trim (perfil). DNV Table 2-1: navio 5°/2°; barcaça e catamarã 3°/2°; semissubmersível 3°/3°; submersível e jack-up 1°/1°; Caso II ≥ 1.5 ×. ABS 5A: navio/barcaça 5°/2°; fixa/TLP/Spar 0.5°/0.5°; semissub 1.5°/1.5°; navio-sonda/FPSO 2.5°/1°. ABS 5B (lança no descanso): navios 15° + 5°; colunas estabilizadas 15°; autoelevatórias 10°.",
+      "norma": "DNV-2.22",
+      "item": "Esquema",
+      "pagina": 40,
+      "grupo": "Inclinação (banda/trim) e movimentos da embarcação",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-grampos-ponta-livre.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — terminação com grampos: no mínimo 3 grampos (tipo U proibido) e ponta livre ≥ 5 × Ø do cabo; eficiência do terminal ≥ 80 %; olhal trançado ≥ 5 passes (3 com perna inteira + 2 com meia perna).",
+      "norma": "DNV-2.22",
+      "item": "Esquema",
+      "pagina": 54,
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — tambor, polia e ranhura: flange ≥ 2.5 × d (DNV e ABS); Dp/d ≥ 18 (tambor e polias; ABS ≥ 20 em compensação; polias que não giram ≥ 10); ranhura com raio 0.53 d (0.52d a 0.57d); ranhura da polia 6 % a 8 % maior que o cabo; ângulo de desvio ≤ 3,5° (NBR 8400), guia se > 4°/2° (ABS); ≥ 3 voltas (DNV) / ≥ 5 voltas (ABS); camadas ≤ 3 (DNV).",
+      "norma": "DNV-2.22",
+      "item": "Esquema",
+      "pagina": 52,
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-pau-de-carga-ensaio.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — pau de carga no ensaio de prova: lança a até 15° com a horizontal (cargas até 10 t) e 25° (acima de 10 t), ou o menor ângulo aprovado no projeto, ou, se impraticáveis, o menor ângulo praticável.",
+      "norma": "ABS-LIFT-2021",
+      "item": "Esquema",
+      "pagina": 91,
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "nota": "Valores transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-nbr8400-de-dc.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — NBR 8400: diâmetro do cabo dc (dc = Q·√T, Tabela 27) e diâmetro de enrolamento De, medido no eixo do cabo, no tambor e na polia (De ≥ H1·H2·dc, Tabela 28).",
+      "norma": "NBR-8400",
+      "item": "Esquema",
+      "pagina": 34,
+      "grupo": [
+        "Polias e tambores (D/d, camadas, ângulos)",
+        "Cabos de aço — fator de segurança e seleção"
+      ]
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-planos-enrolamento.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ângulo entre os planos de enrolamento de duas polias consecutivas (abaixo de certo ângulo não conta como curva em S para H2).",
+      "norma": "NBR-8400",
+      "item": "Esquema",
+      "pagina": 34,
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)"
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-desvio-cabo-ranhura.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — desvio do cabo em relação à ranhura do tambor: ângulos α1 e α2 nos dois extremos.",
+      "norma": "DNV-2.22",
+      "item": "Esquema",
+      "pagina": 52,
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)"
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-parafusos-setores-giro.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — parafusamento do rolamento de giro por setores centrados na linha da lança, com parafuso intermediário entre setores.",
+      "norma": "ABS-LIFT-2021",
+      "item": "Esquema",
+      "pagina": 47,
+      "grupo": "Rolamento de giro, parafusos e pedestal"
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-guindaste-pedestal.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — guindaste de pedestal: pedestal, conjunto de giro, cabine, lança, moitão; raio, espessura t de membro e altura da marcação do SWL.",
+      "norma": "ABS-LIFT-2021",
+      "item": "Esquema",
+      "pagina": 36,
+      "grupo": "Classificação (grupo da estrutura e dos mecanismos)"
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-forca-lateral-roda.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ponte rolante: vão p, base de rodas a e força lateral λ nas rodas em função de p/a (forma da curva; valores na ficha).",
+      "norma": "DNV-2.22",
+      "item": "Esquema",
+      "pagina": 41,
+      "grupo": "Cargas horizontais (aceleração, offlead/sidelead, choque)"
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-vento-membros.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — vento em membros: perfil H e tubo de Ø D, ângulo α do vento com o eixo do membro.",
+      "norma": "DNV-2.22",
+      "item": "Esquema",
+      "pagina": 86,
+      "grupo": "Vento e temperatura"
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-roda-trilho.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — roda sobre trilho: largura ℓ do boleto, raio r, folgas f/2, largura útil b e Ø Dr da roda.",
+      "norma": "NBR-8400",
+      "item": "Esquema",
+      "pagina": 36,
+      "grupo": "Mecanismos (coeficientes, rodas)"
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-moitao-passagens.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — passagens do cabo que contam para H2: tambor, polia sem inversão e polia com inversão (curva em S).",
+      "norma": "NBR-8400",
+      "item": "Esquema",
+      "pagina": 35,
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)"
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-anel-giro-medidas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — anel de giro: medidas a, b, c, e, Ø D da pista, comprimento efetivo do parafuso e cargas FA e FR.",
+      "norma": "DNV-2.22",
+      "item": "Esquema",
+      "pagina": 47,
+      "grupo": "Rolamento de giro, parafusos e pedestal"
+    },
+    {
+      "arquivo": "esquemas/guindaste-ponte-rolante-moitao-swl.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — moitão de uma polia: carga presa ao cabo que passa na polia × carga presa ao moitão suspenso por dois ramos.",
+      "norma": "DNV-2.22",
+      "item": "Esquema",
+      "pagina": 88,
+      "grupo": "Gancho, moitão e acessórios (loose gear)"
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Classificação (grupo da estrutura e dos mecanismos)",
+      "parametro": "Classes de utilização da estrutura (nº convencional de ciclos de levantamento)",
+      "valor": "A: 6,3 × 10⁴ (ocasional, não regular); B: 2,0 × 10⁵ (regular, serviço intermitente); C: 6,3 × 10⁵ (regular, serviço intensivo); D: 2,0 × 10⁶ (intensivo severo, mais de um turno)",
+      "norma": "NBR-8400",
+      "item": "5.1.1, Tabela 1",
+      "pagina": 6,
+      "nota": "Turno = período de 8 h (3.6). Os ciclos não são garantia de vida do equipamento (nota b)."
+    },
+    {
+      "grupo": "Classificação (grupo da estrutura e dos mecanismos)",
+      "parametro": "Estados de carga (fração mínima p da carga máxima)",
+      "valor": "0 muito leve: P = 0; 1 leve: P = 1/3; 2 médio: P = 2/3; 3 pesado: P = 1",
+      "norma": "NBR-8400",
+      "item": "5.1.2, Tabela 2",
+      "pagina": 6,
+      "nota": "Para elementos da estrutura usa-se o estado de TENSÕES (Tabela 3), com as mesmas frações."
+    },
+    {
+      "grupo": "Classificação (grupo da estrutura e dos mecanismos)",
+      "parametro": "Grupo da estrutura (1 a 6) = classe de utilização × estado de carga",
+      "valor": "Ver Tabela 4 (6 grupos). O grupo define o coeficiente de majoração Mx",
+      "norma": "NBR-8400",
+      "item": "5.3, 5.4, Tabela 4",
+      "pagina": 8
+    },
+    {
+      "grupo": "Classificação (grupo da estrutura e dos mecanismos)",
+      "parametro": "Classes de funcionamento dos mecanismos (tempo médio diário tm)",
+      "valor": "V0,25: tm ≤ 0,5 h (≤ 800 h); V0,5: 0,5 < tm ≤ 1 (1600 h); V1: 1 < tm ≤ 2 (3200 h); V2: 2 < tm ≤ 4 (6300 h); V3: 4 < tm ≤ 8 (12500 h); V4: 8 < tm ≤ 16 (25000 h); V5: tm > 16 (50000 h)",
+      "norma": "NBR-8400",
+      "item": "6.1.1, Tabela 20",
+      "pagina": 26,
+      "nota": "Mecanismo não usado regularmente: tempo anual ÷ 250 dias (6.1.1)."
+    },
+    {
+      "grupo": "Classificação (grupo da estrutura e dos mecanismos)",
+      "parametro": "Estado de solicitação do mecanismo pela média cúbica K",
+      "valor": "K ≤ 0,53 → estado 1; 0,53 < K ≤ 0,67 → estado 2; 0,67 < K ≤ 0,85 → estado 3",
+      "norma": "NBR-8400",
+      "item": "6.1.3.3; Tabela 22",
+      "pagina": 26,
+      "nota": "K = (Σ Si³ ti / Σ ti)^(1/3) (6.1.3). Estados 1/2/3 ≡ p = 0, 1/3, 2/3 (Tabela 21)."
+    },
+    {
+      "grupo": "Classificação (grupo da estrutura e dos mecanismos)",
+      "parametro": "Grupo do mecanismo (1Bm, 1Am, 2m … 5m)",
+      "valor": "Tabela 23: classe de funcionamento × estado de solicitação",
+      "norma": "NBR-8400",
+      "item": "6.2, Tabela 23",
+      "pagina": 28
+    },
+    {
+      "grupo": "Classificação (grupo da estrutura e dos mecanismos)",
+      "parametro": "Mecanismos de tarefas perigosas (metal em fusão, químicos, corrosivos)",
+      "valor": "Classificar no grupo imediatamente superior",
+      "norma": "NBR-8400",
+      "item": "6.2",
+      "pagina": 26
+    },
+    {
+      "grupo": "Classificação (grupo da estrutura e dos mecanismos)",
+      "parametro": "Grupo de projeto à fadiga (FEM 1.001) — guindastes offshore",
+      "valor": "Guindaste offshore, guincho auxiliar (whip hoist): A5; guincho principal: A3",
+      "norma": "DNV-2.22",
+      "item": "3.4.1, Table 2-4",
+      "pagina": 45,
+      "nota": "Guidance note; terminologia FEM 1.001 3ª ed. rev. 1998. Outros exemplos na Tabela 2-4 (ponte de manutenção A3, oficina A4, contêiner A5, imã/caçamba A6–A8)."
+    },
+    {
+      "grupo": "Classificação (grupo da estrutura e dos mecanismos)",
+      "parametro": "Guindastes com SWL > 250 t — grupo à fadiga",
+      "valor": "Pode-se adotar a alternativa inferior ou um grupo abaixo, mas no mínimo A2",
+      "norma": "DNV-2.22",
+      "item": "Table 2-4",
+      "pagina": 45
+    },
+    {
+      "grupo": "Classificação (grupo da estrutura e dos mecanismos)",
+      "parametro": "Grupo do pedestal / adaptador do pedestal",
+      "valor": "Mesmo grupo do guindaste",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 4.5.1",
+      "pagina": 49
+    },
+    {
+      "grupo": "Classificação (grupo da estrutura e dos mecanismos)",
+      "parametro": "Tipos de guindaste pela capacidade (ABS)",
+      "valor": "Shipboard: SWL < 1570 kN (160 tf); Heavy lift: SWL ≥ 1570 kN (160 tf); operação em mar aberto ou com movimento relativo à outra embarcação → requisitos de guindaste offshore",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/7.1; 2-2/11.1",
+      "pagina": 53
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Casos de solicitação da estrutura",
+      "valor": "Caso I: serviço normal sem vento; Caso II: serviço normal com vento limite de serviço; Caso III: solicitações excepcionais",
+      "norma": "NBR-8400",
+      "item": "5.6",
+      "pagina": 13
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Caso I (estrutura)",
+      "valor": "Mx (SG + ψ SL + SH) — SH = os dois efeitos horizontais mais desfavoráveis, sem choque",
+      "norma": "NBR-8400",
+      "item": "5.6.1",
+      "pagina": 14
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Caso II (estrutura)",
+      "valor": "Mx (SG + ψ SL + SH) + SW",
+      "norma": "NBR-8400",
+      "item": "5.6.2",
+      "pagina": 14
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Caso III (estrutura) — maior das combinações",
+      "valor": "a) SG + SWmáx.; b) SG + SL + ST (choque); c) SG + ψρ1SL ou SG + ρ2SL (cargas de ensaio)",
+      "norma": "NBR-8400",
+      "item": "5.6.3.1",
+      "pagina": 15,
+      "nota": "A alínea c) só é útil quando a carga de serviço gera tensões de sentido oposto ao peso próprio e a carga de ensaio estático não passa de 1,5 vez a nominal."
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Assentamento da carga (SG e SL de sinais contrários)",
+      "valor": "Comparar SG − SL (ψ − 1)/2 com SG + ψSL e usar o mais desfavorável",
+      "norma": "NBR-8400",
+      "item": "5.5.2.1",
+      "pagina": 8,
+      "nota": "Na descida admite-se oscilação com metade da amplitude do levantamento (5.5.2.2)."
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Coeficiente de majoração Mx — equipamentos industriais",
+      "valor": "Grupos 1, 2, 3: 1; grupo 4: 1,06; grupo 5: 1,12; grupo 6: 1,20",
+      "norma": "NBR-8400",
+      "item": "5.7.1, Tabela 10",
+      "pagina": 15
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Coeficiente de majoração Mx — siderurgia, grupo 6",
+      "valor": "1,20 / 1,25 / 1,35 / 1,45 conforme o tipo de ponte/pórtico (Tabela 11)",
+      "norma": "NBR-8400",
+      "item": "5.7.2, Tabela 11",
+      "pagina": 16,
+      "nota": "Ex.: 1,45 para pontes estripadoras, forno poço, carregamento de forno, virador de forja. Grupos 1 a 5: mesmos valores da Tabela 10."
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Cargas concentradas em acessos, passadiços, cabinas e plataformas",
+      "valor": "3000 N (passadiço de manutenção com depósito de material); 1500 N (só passagem de pessoas); 300 N horizontal em guarda-corpos e corrimãos",
+      "norma": "NBR-8400",
+      "item": "5.5.5",
+      "pagina": 13
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Cargas em passadiços, cabinas e plataformas do guindaste",
+      "valor": "3000 N (passadiço/plataforma de manutenção onde se apoiam materiais); 300 N horizontal (para fora ou para dentro) em corrimão e rodapé",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 1.7.1",
+      "pagina": 42,
+      "nota": "Posição mais desfavorável; não entram na análise da estrutura principal, só nas ligações (1.7.2)."
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Casos de carga (DNV) — Caso I / Caso II",
+      "valor": "Caso I: SG + ψ·SL + SH; Caso II: SG + ψ·SL + SH + SW",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 2.2.1; 2.3.1",
+      "pagina": 42,
+      "nota": "Fórmulas lidas da imagem. SH: no máximo dois efeitos simultâneos, sem cargas de para-choque (2.2.3)."
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Casos de carga (DNV) — Caso III",
+      "valor": "IIIa: SG + SL + ST (para-choque); IIIb: SG + SM + SWmax (movimento da embarcação + vento fora de serviço)",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 2.4.2",
+      "pagina": 43,
+      "nota": "Fórmulas lidas da imagem. Para guindaste em terra SM = 0; guindaste coberto não considera IIIb."
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Condições de verificação da estrutura (ABS)",
+      "valor": "i) em serviço, carga no gancho; ii) fora de serviço, lança não apoiada no descanso; iii) fora de serviço, lança no descanso (boom rest)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/1.3",
+      "pagina": 40
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Fora de serviço — sismo ou vento extremo",
+      "valor": "Aumento de até 33% nas tensões admissíveis",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.1.2",
+      "pagina": 42,
+      "nota": "Não vale para pedestal/fundação/estrutura de apoio (2-2/5.15); vale para o descanso da lança (2-2/5.16)."
+    },
+    {
+      "grupo": "Cargas de projeto e casos de carga",
+      "parametro": "Tabela de carga (load chart)",
+      "valor": "SWL por incrementos de raio não superiores a 1.5 m (5 ft) ou ângulos de lança correspondentes; condições ambientais (Hs, vento), banda/trim, onboard/offboard, DST, nº de pernas do cabo, peso do gancho/moitão",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/1.5",
+      "pagina": 40,
+      "cota": "esquemas/guindaste-ponte-rolante-guindaste-pedestal.svg#raio"
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "Coeficiente dinâmico ψ — pontes e pórticos rolantes",
+      "valor": "1,15 (0 < vL ≤ 0,25 m/s); 1 + 0,6 vL (0,25 < vL < 1); 1,60 (vL ≥ 1)",
+      "norma": "NBR-8400",
+      "item": "5.5.2, Tabela 5",
+      "pagina": 10,
+      "nota": "vL = velocidade de elevação da carga (m/s)."
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "Coeficiente dinâmico ψ — guindastes com lança",
+      "valor": "1,15 (0 < vL ≤ 0,5 m/s); 1 + 0,3 vL (0,5 < vL < 1); 1,3 (vL ≥ 1)",
+      "norma": "NBR-8400",
+      "item": "5.5.2, Tabela 5",
+      "pagina": 10,
+      "nota": "Pórtico com balanço: trecho em balanço com ψ de guindaste com lança; trecho entre pernas com ψ de ponte rolante (5.5.2.2)."
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "Fator dinâmico ψ (fórmula geral)",
+      "valor": "ψ = 1 + VR·√(C / (W·g)) — C = rigidez no gancho (kN/m), W = carga de trabalho (kN), VR = velocidade relativa carga–gancho no içamento, g = 9.81 m/s²",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 1.3.2",
+      "pagina": 40,
+      "nota": "Fórmula lida da imagem. C calculado do gancho até o apoio do pedestal; E do cabo novo conforme o fabricante."
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "Acréscimo de ψ para caçamba (grab)",
+      "valor": "+20% caçamba autofechante (fechada pelo cabo de içamento); +30% caçamba com fechamento a motor",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 1.3.3",
+      "pagina": 40
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "ψ mínimo — guindaste offshore",
+      "valor": "ψ = 1.3 para 10 kN < W ≤ 2 500 kN; ψ = 1.1 para W > 5 000 kN; interpolação linear entre 2 500 e 5 000 kN",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.6 2.2.1",
+      "pagina": 64
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "Velocidade relativa VR (offshore)",
+      "valor": "VR = 0.5·VL + √(Vin² + Vt²); se 0.5·VL < VH, usar VH",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.6 2.2.1",
+      "pagina": 64,
+      "nota": "Fórmula lida da imagem. VL = velocidade de içamento estável; Vin = velocidade do convés do supply; Vt = velocidade da ponta da lança (unidade flutuante)."
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "Velocidade mínima de içamento (operação com supply boat)",
+      "valor": "VH = 0.1·(Hsign + 1) (m/s)",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.6 2.2.2",
+      "pagina": 64,
+      "nota": "Fórmula lida da imagem. Hsign = altura significativa de onda (m)."
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "Valores de VL e Vin (guindaste em navio-guindaste, semissubmersível, plataforma fixa)",
+      "valor": "VL = velocidade disponível ou 0.6 Hsign (a menor); Vin = 0.6 Hsign (0 < Hsign ≤ 3 m) ou [1.8 + 0.3 (Hsign – 3)] (Hsign > 3 m)",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.6 2.2.3",
+      "pagina": 64
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "Guindaste em barcaça/graneleiro (DWT 10 000 a 100 000 t)",
+      "valor": "Vin = 1/10·k·Hsign; Vt = 1/6·k·Hsign; k = 5.5 − DWT/20000",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.6 2.2.5",
+      "pagina": 65
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "VAF — guindaste de bordo (shipboard)",
+      "valor": "1.3 para SWL < 392 kN (40 tf); 1.366 − SWL/5884 para 392 kN ≤ SWL < 1570 kN (SWL em kN)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/7.3",
+      "pagina": 53,
+      "nota": "Condições amenas. Somar as acelerações da embarcação; se passarem de 0.07g, aplicar os requisitos de guindaste offshore."
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "VAF — guindaste offshore, içamento a bordo (onboard)",
+      "valor": "VAFonb = 1.373 − LL/5220 + av; não menor que 1.1 + av nem maior que 1.33 + av (LL em kN)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/9.3.1",
+      "pagina": 54,
+      "nota": "Fórmula lida da imagem. av = aceleração vertical em g (Tabela 3, 2-2/5.17)."
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "VAF — guindaste offshore, içamento de outra embarcação (offboard)",
+      "valor": "VAFoffb = 1 + vr·√(K / (g·LL)), não menor que VAFonb; vr = vh + √(vd² + vc²)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/9.3.2",
+      "pagina": 54,
+      "nota": "Fórmulas lidas da imagem. K = rigidez do gancho ao pedestal; vd e vc das Tabelas 6 e 7."
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "Velocidade mínima de içamento vhmin (offshore, ABS)",
+      "valor": "0.01 + 0.098 × Hsig (m/s) para Hsig ≤ 1.8 m; 0.067 × (Hsig + 1) (m/s) para Hsig > 1.8 m",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/9.3.2",
+      "pagina": 55
+    },
+    {
+      "grupo": "Fator dinâmico / amplificação vertical",
+      "parametro": "VAF — guindaste de carga pesada (heavy lift)",
+      "valor": "VAF = 1.1 (condições amenas; somar acelerações da embarcação; acima de 0.07g → requisitos offshore)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/11.3",
+      "pagina": 57
+    },
+    {
+      "grupo": "Cargas horizontais (aceleração, offlead/sidelead, choque)",
+      "parametro": "Esforço horizontal de aceleração/frenagem (translação/direção)",
+      "valor": "No mínimo 1/30 e no máximo 1/4 da carga sobre as rodas motoras",
+      "norma": "NBR-8400",
+      "item": "5.5.3.1",
+      "pagina": 9
+    },
+    {
+      "grupo": "Cargas horizontais (aceleração, offlead/sidelead, choque)",
+      "parametro": "Aceleração na ponta da lança (orientação/levantamento de lança)",
+      "valor": "0,1 m/s² a 0,6 m/s², com tempos de aceleração da ordem de 5 s a 10 s",
+      "norma": "NBR-8400",
+      "item": "5.5.3.1",
+      "pagina": 9
+    },
+    {
+      "grupo": "Cargas horizontais (aceleração, offlead/sidelead, choque)",
+      "parametro": "Choque contra para-choques — velocidade de referência",
+      "valor": "Não considerar abaixo de 0,7 m/s (carga oscilante); para-choque absorve a energia a 0,7 vt; acima de 1 m/s admite-se frenagem automática prévia",
+      "norma": "NBR-8400",
+      "item": "5.5.3.4",
+      "pagina": 11
+    },
+    {
+      "grupo": "Cargas horizontais (aceleração, offlead/sidelead, choque)",
+      "parametro": "Forças horizontais de translação (pontes e carros)",
+      "valor": "Normalmente 15% da carga vertical máxima em cada roda com freio ou motora",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 1.4.2",
+      "pagina": 40
+    },
+    {
+      "grupo": "Cargas horizontais (aceleração, offlead/sidelead, choque)",
+      "parametro": "Forças transversais ao trilho (reeling)",
+      "valor": "10% do peso da unidade que se desloca; ou força lateral λ × carga da roda (skew, Figura 2-1)",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 1.4.3",
+      "pagina": 41,
+      "cota": "esquemas/guindaste-ponte-rolante-forca-lateral-roda.svg#p"
+    },
+    {
+      "grupo": "Cargas horizontais (aceleração, offlead/sidelead, choque)",
+      "parametro": "Efeito de para-choque (DNV)",
+      "valor": "Energia a 0.7 × velocidade nominal; desprezar abaixo de 0.7 m/s",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 1.4.4",
+      "pagina": 41
+    },
+    {
+      "grupo": "Cargas horizontais (aceleração, offlead/sidelead, choque)",
+      "parametro": "Força lateral na ponta da lança (side lead) — offshore",
+      "valor": "(W/100)·[2.5 + 0.1·r·n + Hsign]",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.6 2.3.1",
+      "pagina": 65,
+      "cota": "esquemas/guindaste-ponte-rolante-offlead-sidelead.svg#r"
+    },
+    {
+      "grupo": "Cargas horizontais (aceleração, offlead/sidelead, choque)",
+      "parametro": "Força radial na ponta da lança (off lead) — offshore",
+      "valor": "Maior de: (W/1 000)·n²·r (carga suspensa) e ψ·W·(2.5 + 1.5 Hsign)/(HW + Lvert) (no içamento)",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.6 2.3.1",
+      "pagina": 65,
+      "nota": "Fórmula lida da imagem. HW = distância do pino da lança ao convés do supply; Lvert = distância vertical do pino da lança à polia da ponta.",
+      "cota": "esquemas/guindaste-ponte-rolante-offlead-sidelead.svg#r"
+    },
+    {
+      "grupo": "Cargas horizontais (aceleração, offlead/sidelead, choque)",
+      "parametro": "Offlead / sidelead (ABS, offboard) sem dados específicos",
+      "valor": "HLSV.offlead = VDL·fSV; HLSV.side = 0.5·HLSV.offlead; fSV = (2.5 + 1.5 × Hsig)/Htip, não maior que 0.30",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/9.3.2",
+      "pagina": 56,
+      "nota": "Fórmulas lidas da imagem. Htip = altura da ponta da lança ao convés que suporta a carga. Combinação com o movimento do próprio navio: HLcomb = √(HLSV² + HLLL²).",
+      "cota": "esquemas/guindaste-ponte-rolante-offlead-sidelead.svg#Htip"
+    },
+    {
+      "grupo": "Cargas horizontais (aceleração, offlead/sidelead, choque)",
+      "parametro": "Carga lateral mínima total na ponta da lança (ABS)",
+      "valor": "Não menor que 0.02 × VDL (shipboard, offshore e heavy lift)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/7.3; 2-2/9.3; 2-2/11.3",
+      "pagina": 53
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Pressão aerodinâmica (NBR 8400)",
+      "valor": "Pa = vw² / 1,6 (N/m², vw em m/s); força Fw = C·A·Pa",
+      "norma": "NBR-8400",
+      "item": "5.5.4.1",
+      "pagina": 12,
+      "nota": "Fórmula lida da imagem."
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Vento limite de serviço (0 a 20 m de altura)",
+      "valor": "20 m/s (72 km/h) → 250 N/m²",
+      "norma": "NBR-8400",
+      "item": "5.5.4.1, Tabela 7",
+      "pagina": 12
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Vento máximo fora de serviço",
+      "valor": "0 a 20 m: 36 m/s (130 km/h), 800 N/m²; 20 a 100 m: 42 m/s (150 km/h), 1100 N/m²; mais de 100 m: 46 m/s (165 km/h), 1300 N/m²",
+      "norma": "NBR-8400",
+      "item": "5.5.4.1, Tabela 7",
+      "pagina": 12
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Coeficiente aerodinâmico C",
+      "valor": "Treliça de perfis: 1,6; alma cheia/caixão: 1,6 (ℓ/h = 20), 1,4 (10), 1,3 (5), 1,2 (2); tubos: 1,2 (d√(Pa/10) ≤ 1) ou 0,7 (> 1)",
+      "norma": "NBR-8400",
+      "item": "Tabela 8",
+      "pagina": 13,
+      "nota": "Lido da imagem (relações da tabela). Viga protegida por outra: coeficiente de redução φ (Tabela 9 / Figura 5)."
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Torres treliçadas de seção quadrada — C' global",
+      "valor": "C' = 1,6 (1 + φ) vento perpendicular à face; C' = 1,76 (1 + φ) vento diagonal",
+      "norma": "NBR-8400",
+      "item": "5.5.4.1",
+      "pagina": 12
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Vento na carga suspensa (NBR 8400)",
+      "valor": "C = 1; área indicativa (cargas < 250 kN): 1 m² por 10 kN até 50 kN; 0,5 m² por 10 kN de 50 kN a 250 kN",
+      "norma": "NBR-8400",
+      "item": "5.5.4.1",
+      "pagina": 12
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Variação de temperatura (elementos que não dilatam livremente)",
+      "valor": "−10 °C a +50 °C",
+      "norma": "NBR-8400",
+      "item": "5.5.4.2",
+      "pagina": 13
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Arrastamento pelo vento",
+      "valor": "Vento máximo majorado de 10%; atrito nas rodas freadas 0,14; resistência ao rolamento 10 N/kN (rolamentos) e 15 N/kN (buchas); garras sobre trilho µ = 0,25",
+      "norma": "NBR-8400",
+      "item": "5.12",
+      "pagina": 21
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Força de vento (DNV App.A)",
+      "valor": "P = A·q·C·sin α; q = ρv²/2, ρ = 1.225 kg/m³",
+      "norma": "DNV-2.22",
+      "item": "App.A A.1.2.1",
+      "pagina": 85,
+      "nota": "Fórmula lida da imagem.",
+      "cota": "esquemas/guindaste-ponte-rolante-vento-membros.svg#alfa"
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Variação de q com a altura",
+      "valor": "q = q10 (0.9 + 0.01 H) — H em m",
+      "norma": "DNV-2.22",
+      "item": "App.A A.1.5.1",
+      "pagina": 87,
+      "nota": "Fórmula lida da imagem."
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Pressão de vento mínima q10 (DNV Table A-2)",
+      "valor": "Em serviço: ≈ 20 m/s → 250 N/m² (interior/abrigado, navio no porto); ≈ 24 m/s → 360 N/m² (offshore/mar aberto). Fora de serviço: ≈ 36 m/s → 800 N/m²; ≈ 44 m/s → 1200 N/m² (navio no mar)",
+      "norma": "DNV-2.22",
+      "item": "App.A Table A-2",
+      "pagina": 87
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Coeficiente C (DNV Table A-1)",
+      "valor": "Perfil de faces planas 2.0; tubo Ø < 0.3 m: 1.2; Ø ≥ 0.3 m: 0.7; treliça de perfis 1.8; treliça de tubos 1.1; treliça de sotavento: 2/3; carga: contêiner 1.2, outras formas 1.0",
+      "norma": "DNV-2.22",
+      "item": "App.A Table A-1",
+      "pagina": 86,
+      "cota": "esquemas/guindaste-ponte-rolante-vento-membros.svg#D"
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Vento na carga suspensa (DNV, Caso II)",
+      "valor": "Maior área exposta; C = 1.2 para contêineres e formas semelhantes, C = 1 para formas arbitrárias",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 2.3.3",
+      "pagina": 43
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Variação de temperatura (DNV)",
+      "valor": "Guindaste ao ar livre: flutuação não menor que 65°C (só se os membros não dilatam livremente)",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 1.6.4",
+      "pagina": 41
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Temperatura de projeto (DNV Table 1-1)",
+      "valor": "Shipboard/industrial: −10°C (extrema −30°C); offshore: −20°C (extrema −40°C); praça de máquinas: +10°C (0°C)",
+      "norma": "DNV-2.22",
+      "item": "Ch.1 Sec.1 3.3, Table 1-1",
+      "pagina": 16
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Velocidades de vento padrão (ABS)",
+      "valor": "Em serviço: 10.3 m/s (20 kn); fora de serviço com lança não apoiada: 36 m/s (70 kn); com lança apoiada: 51.5 m/s (100 kn)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.19.1",
+      "pagina": 50
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Pressão de vento (ABS)",
+      "valor": "P = Vk²·Cs / f, f = 1637 (kN/m², Vk em m/s); HLwind = P·A",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.19.2; 5.19.3",
+      "pagina": 50,
+      "nota": "Fórmula lida da imagem."
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Coeficiente de forma Cs (ABS Table 4)",
+      "valor": "Esférico 0.4; cilíndrico 0.5; superfície plana 1.0; perfis isolados 1.5; cabos 1.2; peças pequenas 1.4; lança treliçada (cada face) 1.25",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.19.2, Table 4",
+      "pagina": 51
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Área exposta da carga e de treliças (ABS)",
+      "valor": "ALL = 0.1215·LL^(2/3) (m², LL em kN); treliça aberta: 30% da área de bloco de cada face (60% de uma face para treliça dupla)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.19.3",
+      "pagina": 51,
+      "cota": "esquemas/guindaste-ponte-rolante-vento-membros.svg#D"
+    },
+    {
+      "grupo": "Vento e temperatura",
+      "parametro": "Temperatura de serviço de projeto (DST) baixa",
+      "valor": "DST abaixo de –10°C: fabricante demonstra por ensaio/análise que as máquinas operam na DST",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-6/15",
+      "pagina": 80
+    },
+    {
+      "grupo": "Inclinação (banda/trim) e movimentos da embarcação",
+      "parametro": "Banda e trim mínimos — águas paradas (DNV Table 2-1)",
+      "valor": "Navio: banda 5°, trim 2°; barcaça (L < 4B) e catamarã: 3°/2°; semissubmersível: 3°/3°; submersível e jack-up: 1°/1°",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 1.2.3, Table 2-1",
+      "pagina": 40,
+      "cota": "esquemas/guindaste-ponte-rolante-banda-trim.svg#banda"
+    },
+    {
+      "grupo": "Inclinação (banda/trim) e movimentos da embarcação",
+      "parametro": "Ângulos no Caso II (com vento)",
+      "valor": "Mínimo 1.5 vez os valores da Table 2-1",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 2.3.2",
+      "pagina": 43,
+      "cota": "esquemas/guindaste-ponte-rolante-banda-trim.svg#banda"
+    },
+    {
+      "grupo": "Inclinação (banda/trim) e movimentos da embarcação",
+      "parametro": "Inércia horizontal — unidade offshore móvel",
+      "valor": "Normalmente não precisa ser tomada maior que 0.5g",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 1.5.1",
+      "pagina": 41,
+      "nota": "Guidance note."
+    },
+    {
+      "grupo": "Inclinação (banda/trim) e movimentos da embarcação",
+      "parametro": "Banda/trim estáticos mínimos em serviço (ABS Table 5A)",
+      "valor": "Navio/barcaça em águas calmas: 5°/2°; plataforma fixa/TLP/Spar: 0.5°/0.5°; semissubmersível: 1.5°/1.5°; navio-sonda/FPSO: 2.5°/1°",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.21, Table 5A",
+      "pagina": 52,
+      "nota": "Carga lateral: HLSIA = L × sin√(list² + trim²) (fórmula lida da imagem).",
+      "cota": "esquemas/guindaste-ponte-rolante-banda-trim.svg#banda"
+    },
+    {
+      "grupo": "Inclinação (banda/trim) e movimentos da embarcação",
+      "parametro": "Inclinações com a lança no descanso (ABS Table 5B)",
+      "valor": "Unidades de superfície/navios: 15° banda e 5° trim simultâneos; colunas estabilizadas: 15° em qualquer direção; autoelevatórias: 10° em qualquer direção",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.21, Table 5B",
+      "pagina": 52,
+      "cota": "esquemas/guindaste-ponte-rolante-banda-trim.svg#banda"
+    },
+    {
+      "grupo": "Inclinação (banda/trim) e movimentos da embarcação",
+      "parametro": "Acelerações mínimas da embarcação (ABS Table 3)",
+      "valor": "Navio/barcaça em águas calmas e fixa: 0; TLP/Spar: av = Hsig/101.6 ≥ 0.07; semissub: av = Hsig²/133 ≥ 0.07; TLP/Spar/semissub: ah = Hsig/43.6 ≥ 0.03; navio-sonda/FPSO: av = Hsig²/77.5 ≥ 0.07, ah = Hsig^1.1/27 ≥ 0.03 (Hsig em m, acelerações em g)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.17, Table 3",
+      "pagina": 50,
+      "nota": "Tabela lida também na imagem (célula de ah comum a TLP/Spar e semissubmersível). Remete ao Anexo B da API Spec 2C 7ª ed."
+    },
+    {
+      "grupo": "Inclinação (banda/trim) e movimentos da embarcação",
+      "parametro": "Cargas devidas à aceleração (ABS)",
+      "valor": "VLDL = DL (1 + av); HLDL = DL·ah (no CG de cada componente); HLLL = VDL·ah (na ponta da lança)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.17",
+      "pagina": 49
+    },
+    {
+      "grupo": "Tensões admissíveis e coeficientes de segurança da estrutura",
+      "parametro": "Tensão admissível à tração/compressão (σe/σr < 0,7)",
+      "valor": "Caso I: σe/1,5; Caso II: σe/1,33; Caso III: σe/1,1",
+      "norma": "NBR-8400",
+      "item": "5.8.1.1, Tabela 12",
+      "pagina": 16,
+      "nota": "Para σe/σr > 0,7 usa-se a fórmula de 5.8.1.1. Sem patamar de escoamento: σe0,2."
+    },
+    {
+      "grupo": "Tensões admissíveis e coeficientes de segurança da estrutura",
+      "parametro": "Cisalhamento puro e tensão de comparação",
+      "valor": "τa = σa/√3; σcp = √(σx² + σy² − σxσy + 3τxy²) ≤ σa",
+      "norma": "NBR-8400",
+      "item": "5.8.1.2; 5.8.1.3",
+      "pagina": 15,
+      "nota": "Fórmulas lidas da imagem."
+    },
+    {
+      "grupo": "Tensões admissíveis e coeficientes de segurança da estrutura",
+      "parametro": "Fadiga — tensão admissível",
+      "valor": "σaf = 0,75 σ90% (coeficiente 4/3 sobre a tensão de 90% de sobrevivência)",
+      "norma": "NBR-8400",
+      "item": "5.10",
+      "pagina": 21
+    },
+    {
+      "grupo": "Tensões admissíveis e coeficientes de segurança da estrutura",
+      "parametro": "Coeficiente de segurança ao escoamento (DNV Table 2-2)",
+      "valor": "Análise elástica: 1.50 / 1.33 / 1.10 (Casos I/II/III); análise plástica: 1.69 / 1.51 / 1.25",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 3.2.1, Table 2-2",
+      "pagina": 44,
+      "nota": "Estados limites: fator de carga 1.30/1.16/0.96 × fator de material 1.15 (elástica) ou 1.30 (plástica). Se σy > 0.8σu, usar 0.8σu."
+    },
+    {
+      "grupo": "Tensões admissíveis e coeficientes de segurança da estrutura",
+      "parametro": "Coeficiente de segurança à flambagem (DNV Table 2-3)",
+      "valor": "Flambagem elástica: 1.86 / 1.66 / 1.38; elastoplástica: 1.69 / 1.51 / 1.25 (Casos I/II/III)",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 3.3, Table 2-3",
+      "pagina": 44
+    },
+    {
+      "grupo": "Tensões admissíveis e coeficientes de segurança da estrutura",
+      "parametro": "Fadiga (DNV)",
+      "valor": "Amplitude crítica (90% sobrevivência) ÷ 1.33; verificar no Caso I, sem vento",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 3.4.4; 3.4.5",
+      "pagina": 45
+    },
+    {
+      "grupo": "Tensões admissíveis e coeficientes de segurança da estrutura",
+      "parametro": "Tensão admissível (ABS)",
+      "valor": "F = Fy × Sc; para aços com escoamento ≤ 355 N/mm², Fy não maior que 72% da resistência mínima à tração",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.5",
+      "pagina": 43
+    },
+    {
+      "grupo": "Tensões admissíveis e coeficientes de segurança da estrutura",
+      "parametro": "Coeficientes Sc (ABS Table 1)",
+      "valor": "Tração 0.60 (bruta) / 0.45 (peça com pino, área líquida); cisalhamento 0.40; flexão 0.75 (barras maciças), 0.66 (seção compacta), 0.60 (não compacta); esmagamento 0.90; von Mises 0.75 (0.85 com MEF malha fina)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.3, Table 1",
+      "pagina": 42
+    },
+    {
+      "grupo": "Tensões admissíveis e coeficientes de segurança da estrutura",
+      "parametro": "Espessura mínima de membros estruturais (ABS)",
+      "valor": "Membros críticos: 6 mm (0.24 in) maciços; 4 mm (0.16 in) seções vazadas; menos solicitados: 4 mm",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/3.3",
+      "pagina": 41,
+      "nota": "Membros < 6 mm exigem revestimento de proteção especial (2-2/3.5).",
+      "cota": "esquemas/guindaste-ponte-rolante-guindaste-pedestal.svg#t-membro"
+    },
+    {
+      "grupo": "Estabilidade, contraflecha e flecha",
+      "parametro": "Estabilidade ao tombamento — majorações (Tabela 17)",
+      "valor": "Estática: carga nominal × 1,6 (horizontais 0, vento 0). Dinâmica em carga: 1,35 × carga + horizontais × 1 + vento de serviço × 1. Em vazio: −0,1 × carga. Vento máximo: vento × 1,1. Ruptura de eslinga: −0,3 × carga + horizontais sem carga + vento de serviço",
+      "norma": "NBR-8400",
+      "item": "5.11, Tabela 17",
+      "pagina": 22,
+      "nota": "Sem ψ, ξ ou Mx nos cálculos de estabilidade (5.11)."
+    },
+    {
+      "grupo": "Estabilidade, contraflecha e flecha",
+      "parametro": "Contraflecha das vigas principais",
+      "valor": "Igual à deflexão do peso próprio das vigas + 50% da soma do peso do carro e da carga máxima; opcional se < 5 mm ou 1/2000 do vão (o maior), ou viga de perfil simples",
+      "norma": "NBR-8400",
+      "item": "5.13",
+      "pagina": 21
+    },
+    {
+      "grupo": "Estabilidade, contraflecha e flecha",
+      "parametro": "Flecha admissível",
+      "valor": "Limitada só por considerações de uso; se o usuário quiser flecha limite, deve indicá-la na especificação",
+      "norma": "NBR-8400",
+      "item": "5.15.2, Nota",
+      "pagina": 25,
+      "nota": "A NBR 8400 NÃO fixa flecha admissível. DNV 2.22 e ABS também não (só deflexão do flange do rolamento de giro conforme o fabricante)."
+    },
+    {
+      "grupo": "Mecanismos (coeficientes, rodas)",
+      "parametro": "Casos de solicitação dos mecanismos — levantamento",
+      "valor": "Casos I e II: SMmáx = SML + SMF; Caso III: SMmáx. III = 1,6 (SML + SMF)",
+      "norma": "NBR-8400",
+      "item": "6.5.1",
+      "pagina": 29,
+      "nota": "Coeficiente 1,6 = limite prático de sobrecarga transmitida ao mecanismo de levantamento."
+    },
+    {
+      "grupo": "Mecanismos (coeficientes, rodas)",
+      "parametro": "Tensão admissível dos elementos de mecanismo (ruptura)",
+      "valor": "σa = σr / (q·FSr); FSr = 2,8 (Casos I e II), 2 (Caso III)",
+      "norma": "NBR-8400",
+      "item": "6.6.1, Tabela 25",
+      "pagina": 31,
+      "nota": "q e FSr acrescidos de 25% para ferro fundido cinzento. Na tração pura: 1,25 σt ≤ σa."
+    },
+    {
+      "grupo": "Mecanismos (coeficientes, rodas)",
+      "parametro": "Coeficiente q por grupo de mecanismo (Tabela 24)",
+      "valor": "1Bm 1; 1Am 1; 2m 1,12; 3m 1,25; 4m 1,40; 5m 1,60",
+      "norma": "NBR-8400",
+      "item": "Tabela 24",
+      "pagina": 31
+    },
+    {
+      "grupo": "Mecanismos (coeficientes, rodas)",
+      "parametro": "Coeficiente δ de fadiga dos mecanismos (Tabela 26)",
+      "valor": "1Bm 1; 1Am 1; 2m 1,06; 3m 1,12; 4m 1,18; 5m 1,25",
+      "norma": "NBR-8400",
+      "item": "6.6.3, Tabela 26",
+      "pagina": 32,
+      "nota": "Número de ciclos triplicado para peças do levantamento e da lança cuja falha faz perder o controle da carga (6.6.3)."
+    },
+    {
+      "grupo": "Mecanismos (coeficientes, rodas)",
+      "parametro": "Rodas — diâmetro de validade das fórmulas de pressão",
+      "valor": "Fórmulas válidas para rodas com diâmetro ≤ 1,250 m; Caso III: Fr/(b·Dr) ≤ 1,4 Plim",
+      "norma": "NBR-8400",
+      "item": "6.7.4, nota (13)",
+      "pagina": 33,
+      "cota": "esquemas/guindaste-ponte-rolante-roda-trilho.svg#Dr"
+    },
+    {
+      "grupo": "Mecanismos (coeficientes, rodas)",
+      "parametro": "Engrenagens (Classification Note 41.2) — coeficientes de segurança",
+      "valor": "Pé do dente 1.4; contato 1.0; scuffing 1.0",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.4.2, Table 3-1",
+      "pagina": 53
+    },
+    {
+      "grupo": "Mecanismos (coeficientes, rodas)",
+      "parametro": "Resposta dos comandos e velocidades mínimas (offshore, supply boat)",
+      "valor": "Velocidade mínima atingida em 2 s; giro a ¾ do raio máx., gancho vazio: 2 m/s; velocidade radial: 0.4 m/s",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.6 3.5.1; 3.5.2",
+      "pagina": 66
+    },
+    {
+      "grupo": "Mecanismos (coeficientes, rodas)",
+      "parametro": "Condições ambientais das máquinas (DNV)",
+      "valor": "Ar entre a temperatura de projeto e 35°C; dentro de casas de máquinas 5°C a 55°C; umidade até 96%; capacidade calculada a 40°C e 50% UR",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 1.1.1; 1.1.2",
+      "pagina": 50
+    },
+    {
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "parametro": "Diâmetro mínimo do cabo (NBR 8400)",
+      "valor": "dc = Q·√T (dc em mm, T em daN no Caso I; II se o vento atua)",
+      "norma": "NBR-8400",
+      "item": "6.7.2.1",
+      "pagina": 32,
+      "nota": "Fórmula lida da imagem. T inclui peso do cabo/moitão, atrito nas polias e acelerações > 10%; despreza inclinação das pernas < 45°. Válido para cabos com mais de 100 fios e 160 a 220 daN/mm².",
+      "cota": "esquemas/guindaste-ponte-rolante-nbr8400-de-dc.svg#dc"
+    },
+    {
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "parametro": "Coeficiente Q (Tabela 27) — cabo normal / não rotativo",
+      "valor": "1Bm 0,265/0,280; 1Am 0,280/0,300; 2m 0,300/0,335; 3m 0,335/0,375; 4m 0,375/0,425; 5m 0,425/0,475",
+      "norma": "NBR-8400",
+      "item": "6.7.2.1, Tabela 27",
+      "pagina": 34,
+      "nota": "Operações perigosas: Q do grupo imediatamente superior. Equipamentos desmontados com frequência (guindaste de obra): grupo imediatamente inferior, nunca abaixo de 1Bm (6.7.2).",
+      "cota": "esquemas/guindaste-ponte-rolante-nbr8400-de-dc.svg#dc"
+    },
+    {
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "parametro": "Caçambas — tração T de cálculo",
+      "valor": "Com repartição automática: 66% do peso da caçamba carregada ÷ nº de cabos (fechamento e suspensão); sem repartição: fechamento = peso total ÷ nº de cabos, suspensão = 66%",
+      "norma": "NBR-8400",
+      "item": "6.7.2.1",
+      "pagina": 33
+    },
+    {
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "parametro": "Fator de segurança do cabo (DNV) — cabo de movimento e estático",
+      "valor": "Maior de: SF = 2.3·ψ e SF = 10⁴/(0.885·SWL + 1910), este não menor que 3 nem precisando passar de 5 (SWL em kN); MBL B ≥ SF·S",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.5.3; 2.5.5",
+      "pagina": 54,
+      "nota": "Fórmulas lidas da imagem. Mesmo SF para içamento e lança (luffing) em lança suspensa por cabo."
+    },
+    {
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "parametro": "Perdas por polia no cálculo de S (DNV)",
+      "valor": "1.5% por polia com rolamento de esferas/rolos; 5% por polia com bucha",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.5.6",
+      "pagina": 54
+    },
+    {
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "parametro": "Construção mínima do cabo de movimento (DNV)",
+      "valor": "Pelo menos 114 fios (6 pernas × 19 fios); cabo de uma perna (whip): não rotativo ou destorcedor com rolamento",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.5.7",
+      "pagina": 54
+    },
+    {
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "parametro": "Terminais e grampos (DNV)",
+      "valor": "Grampos: no mínimo 3, ponta livre ≥ 5 × Ø do cabo, tipo U proibido; eficiência do terminal ≥ 80%; olhal trançado: ≥ 5 passes (3 com perna inteira + 2 com meia perna)",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.5.9; 2.5.10; 2.5.12",
+      "pagina": 54,
+      "cota": "esquemas/guindaste-ponte-rolante-grampos-ponta-livre.svg#ponta-livre"
+    },
+    {
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "parametro": "Ancoragem do cabo no tambor (DNV)",
+      "valor": "Com o atrito das voltas remanescentes (µ = 0.1), resistir à carga de ruptura do cabo",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.5.13; Sec.6 3.3.1",
+      "pagina": 55
+    },
+    {
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "parametro": "Fator de segurança do cabo (ABS) — guindaste de bordo",
+      "valor": "SWL < 98 kN: 5.0; 98 ≤ SWL < 588 kN: 5 − (SWL − 98)/490; 588 ≤ SWL < 1570 kN: 4 − (SWL − 588)/980 (cabo de içamento, lança e estático)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-4/3.1, Table 1",
+      "pagina": 72,
+      "nota": "Fórmulas lidas da imagem."
+    },
+    {
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "parametro": "Fator de segurança do cabo (ABS) — guindaste offshore",
+      "valor": "Cabo de movimento: maior de 10,000/(0.885·LL + 1910) [≤ 5.0] e 2.25 × VAF; estático/pendentes: maior de 10,000/(0.562·LL + 2444) [≤ 4.0] e 2.0 × VAF; nunca menor que 3.0 (LL em kN)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-4/3.1, Table 2",
+      "pagina": 72,
+      "nota": "Fórmulas lidas da imagem."
+    },
+    {
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "parametro": "Fator de segurança do cabo (ABS) — heavy lift",
+      "valor": "3.0 (içamento, lança, estático; auxiliar acima de 1570 kN); auxiliar abaixo de 1570 kN: Table 1",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-4/3.1, Table 3",
+      "pagina": 72,
+      "nota": "Se exigido ILO pelas autoridades: Table 1 para todos os cabos."
+    },
+    {
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "parametro": "Eficiência do sistema de cabos (ABS)",
+      "valor": "T = L/(N × E); E = (K^N − 1)/(K^S × N × (K − 1)); K ≥ 1.045 (polia com bucha de bronze), ≥ 1.02 (rolamento)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-4/3.3; 3.5",
+      "pagina": 73,
+      "nota": "Fórmulas lidas da imagem. Cabo estático: E = 1."
+    },
+    {
+      "grupo": "Cabos de aço — fator de segurança e seleção",
+      "parametro": "Emenda do cabo (ABS)",
+      "valor": "Olhal: ≥ 3 passes com perna inteira + 2 com meia perna; grampos parafusados não aceitos para emendar",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-4/7",
+      "pagina": 73
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Diâmetro mínimo de enrolamento (NBR 8400)",
+      "valor": "De ≥ H1 × H2 × dc",
+      "norma": "NBR-8400",
+      "item": "6.7.3",
+      "pagina": 33,
+      "nota": "De medido no eixo do cabo. O diâmetro de enrolamento pode ser mantido com cabo real até 25% maior que dc, se a tração não passar de T.",
+      "cota": "esquemas/guindaste-ponte-rolante-nbr8400-de-dc.svg#De-tambor"
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Coeficiente H1 (Tabela 28) — tambor / polia / polia de compensação (normal–não rotativo)",
+      "valor": "1Bm 16-16 / 16-18 / 14-16; 1Am 16-18 / 18-20 / 14-16; 2m 18-20 / 20-22,4 / 14-16; 3m 20-22,4 / 22,4-25 / 16-18; 4m 22,4-25 / 25-18 / 16-18; 5m 25-28 / 28-31,5 / 18-20",
+      "norma": "NBR-8400",
+      "item": "6.7.3.1, Tabela 28",
+      "pagina": 34,
+      "nota": "Conferido na imagem. Cabos 6 × 19: usar os valores de não rotativo. ATENÇÃO: polia, cabo não rotativo, grupo 4m está impresso '18' (a progressão indica 28) — confirmar.",
+      "cota": "esquemas/guindaste-ponte-rolante-nbr8400-de-dc.svg#De-tambor"
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Coeficiente H2 (Tabela 29)",
+      "valor": "WT ≤ 5: 1; 6 a 9: 1,12; ≥ 10: 1,25 — W = 1 tambor; 2 por polia sem inversão; 4 por polia com inversão (curva em S); 0 polia de compensação",
+      "norma": "NBR-8400",
+      "item": "6.7.3.2, Tabela 29",
+      "pagina": 34,
+      "nota": "Tambores e polias de compensação: H2 = 1. Planos de enrolamento a menos de 120° não contam como curva em S (Figura 14). Pesos W em 6.7.3.2."
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Ângulo de desvio cabo–ranhura do tambor (NBR 8400)",
+      "valor": "Máximo 3,5°",
+      "norma": "NBR-8400",
+      "item": "6.7.2.2",
+      "pagina": 33,
+      "cota": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg#desvio"
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Relação Dp/d — tambor (DNV)",
+      "valor": "Normalmente não menor que 18",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.2.1",
+      "pagina": 51,
+      "cota": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg#Dp"
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Camadas no tambor (DNV)",
+      "valor": "Comprimento para no máximo 3 camadas; mais de 3 só com alma de aço (IWRC) e (guia de enrolamento, ranhura, ângulo ≤ 2°, tambor bipartido ou tambor de tração); acima de 7: aprovação especial",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.2.2",
+      "pagina": 51
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Borda do flange do tambor (DNV)",
+      "valor": "Do centro da camada superior à borda: ≥ 2.5 × Ø do cabo (salvo guarda de cabo)",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.2.3",
+      "pagina": 52,
+      "cota": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg#flange-dnv"
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Ranhura do tambor (DNV)",
+      "valor": "Ângulos α1, α2 ≤ 4° (Figura 3-1); raio recomendado 0.53 d, entre 0.52d e 0.57d",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.2.3",
+      "pagina": 52,
+      "nota": "Guidance note; ângulo lido também da figura.",
+      "cota": "esquemas/guindaste-ponte-rolante-desvio-cabo-ranhura.svg#alfa1"
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Tensão circunferencial no tambor (DNV)",
+      "valor": "σh = C·S/(p·tav); C = 1 (1 camada), 1.75 (2 camadas); ≤ 85% do escoamento",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.2.7",
+      "pagina": 52,
+      "nota": "Fórmula lida da imagem. Guidance: 5 camadas ou mais, C = 3 normalmente aceito em operação submarina. Flange: ≤ 85% do escoamento (2.2.8)."
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Voltas mínimas no tambor (DNV)",
+      "valor": "Não menos de 3 voltas com o gancho na posição mais baixa",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.5.2",
+      "pagina": 54
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Relação Dp/d — polias (DNV)",
+      "valor": "Pelo menos 18; polias que não giram (equalizadoras): pelo menos 10",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.6.1",
+      "pagina": 55,
+      "cota": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg#Dp"
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Relação D/d — polias (ABS)",
+      "valor": "Cabo de movimento ≥ 18 (≥ 20 em compensação de movimento); cabo estático ≥ 10",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-5/3 v)",
+      "pagina": 75,
+      "cota": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg#Dp"
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Ranhura da polia (ABS)",
+      "valor": "Diâmetro interno da ranhura 6% a 8% maior que o cabo (aço); 3% a 27% (náilon fundido)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-5/3 vi)",
+      "pagina": 75,
+      "nota": "Polias de náilon tipo 6: tensões admissíveis limitadas a 30% da resistência do material (2-5/3 viii).",
+      "cota": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg#raio-ranhura"
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Tambor do guincho (ABS)",
+      "valor": "≥ 5 voltas completas no tambor; Dp ≥ 18 × Ø nominal (≥ 20 em compensação de movimento); guia de enrolamento se o ângulo de desvio > 4° (1 camada) ou > 2° (várias camadas)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-6/19.3.1",
+      "pagina": 80,
+      "cota": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg#Dp"
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Tensão circunferencial no tambor (ABS)",
+      "valor": "σhoop = Tstat × KL/(tdr × p) ≤ F com Sc = 0.85; KL = 1 / 1.8 / 2.3 / 2.7 / 3.0 para 1 / 2 / 3 / 4 / 5 camadas",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-6/19.3.2, Table 1",
+      "pagina": 81,
+      "nota": "Fórmula e tabela conferidas na imagem. Mais de 5 camadas: consideração especial. Tensão combinada: Sc = 0.66; acima de 10⁵ ciclos verificar fadiga (19.3.3)."
+    },
+    {
+      "grupo": "Polias e tambores (D/d, camadas, ângulos)",
+      "parametro": "Flange do tambor (ABS)",
+      "valor": "Estender-se ≥ 2.5 × Ø do cabo acima da camada externa",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-6/19.3.4",
+      "pagina": 82,
+      "cota": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg#flange-abs"
+    },
+    {
+      "grupo": "Freios",
+      "parametro": "Capacidade do freio mecânico (DNV)",
+      "valor": "Torque ≥ 80% acima do torque estático máximo; aumentar se ψ > 1.8; atrito de cálculo não maior que 0.3",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.3.5",
+      "pagina": 53
+    },
+    {
+      "grupo": "Freios",
+      "parametro": "Freio mecânico × freio operacional (offshore)",
+      "valor": "Não montar à frente da mesma transmissão do freio operacional; alternativa: +30% de capacidade da engrenagem",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.6 3.2.1",
+      "pagina": 65
+    },
+    {
+      "grupo": "Freios",
+      "parametro": "Freios dos guinchos (ABS)",
+      "valor": "Pelo menos um freio estático e um dinâmico; fail-safe; catraca/lingueta não serve como freio; atrito ≤ 0.3",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-6/19.5.1",
+      "pagina": 82
+    },
+    {
+      "grupo": "Freios",
+      "parametro": "Freio estático (ABS)",
+      "valor": "Segurar 1.5 vez o torque da tração do cabo (E = 1)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-6/19.5.3",
+      "pagina": 83
+    },
+    {
+      "grupo": "Freios",
+      "parametro": "Válvulas de bloqueio (lock valves) usadas como freio",
+      "valor": "Montadas direto no atuador, sem mangueira; pressão nominal ≥ 1.5 × pressão de trabalho (ou testadas a 1.5×)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-6/19.5.2",
+      "pagina": 83
+    },
+    {
+      "grupo": "Freios",
+      "parametro": "Estrutura de apoio do guincho (ABS)",
+      "valor": "Maior de: 2 × reações da tração máxima do cabo; reações com VAF / carga no plano da lança",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-6/19.7",
+      "pagina": 83
+    },
+    {
+      "grupo": "Rolamento de giro, parafusos e pedestal",
+      "parametro": "Parafusos do rolamento de giro — comprimento efetivo",
+      "valor": "Pelo menos 4.5 × Ø do parafuso",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 4.3.4",
+      "pagina": 47,
+      "cota": "esquemas/guindaste-ponte-rolante-anel-giro-medidas.svg#comprimento-parafuso"
+    },
+    {
+      "grupo": "Rolamento de giro, parafusos e pedestal",
+      "parametro": "Protensão dos parafusos do rolamento de giro (DNV)",
+      "valor": "Pelo menos 65%, normalmente não mais de 80% do escoamento do parafuso; até 90% se documentado por ensaio",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 4.3.5",
+      "pagina": 47
+    },
+    {
+      "grupo": "Rolamento de giro, parafusos e pedestal",
+      "parametro": "Capacidade última do rolamento de giro (anel + parafusos)",
+      "valor": "Relação capacidade/carga ≥ 1.5",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 4.3.8",
+      "pagina": 48
+    },
+    {
+      "grupo": "Rolamento de giro, parafusos e pedestal",
+      "parametro": "Material dos parafusos do anel de giro (offshore)",
+      "valor": "Escoamento acima de 940 N/mm² (classe ISO 10.9) normalmente não aceito",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.6 1.2.1",
+      "pagina": 64
+    },
+    {
+      "grupo": "Rolamento de giro, parafusos e pedestal",
+      "parametro": "Fator offshore SF1 para fundação, pedestal e rolamento (cabine acima do rolamento)",
+      "valor": "Capacidade até 2500 kN: SF1 ≥ 1.3; 2500 kN ou mais: SF1 ≥ 1.1",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.6 2.2.4",
+      "pagina": 65
+    },
+    {
+      "grupo": "Rolamento de giro, parafusos e pedestal",
+      "parametro": "Solda pedestal–flange e planicidade (DNV)",
+      "valor": "Solda de penetração total; planicidade conforme o fabricante do rolamento, sem massa niveladora",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 4.4.3; 4.4.4",
+      "pagina": 49
+    },
+    {
+      "grupo": "Rolamento de giro, parafusos e pedestal",
+      "parametro": "Carga no parafuso mais solicitado (ABS)",
+      "valor": "Pb = 4M/(N·D) − V/N, com M e V calculados com 3.75 vezes a carga vertical de projeto; tensão ≤ resistência à tração mínima do parafuso",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.13.3",
+      "pagina": 45,
+      "nota": "Fórmula lida da imagem."
+    },
+    {
+      "grupo": "Rolamento de giro, parafusos e pedestal",
+      "parametro": "Protensão dos parafusos do rolamento (ABS)",
+      "valor": "Não exceder 0.7 × escoamento (torque) ou 0.9 × escoamento (tensionador); medir alongamento em pelo menos 10% dos parafusos",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.13.3",
+      "pagina": 46
+    },
+    {
+      "grupo": "Rolamento de giro, parafusos e pedestal",
+      "parametro": "Parafusamento por setores (ABS)",
+      "valor": "Padrão uniforme de 360°; setores aceitos com ≥ 140°, centrados na linha da lança, e ao menos 1 parafuso no meio entre setores",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.13.4, Figura 2",
+      "pagina": 46,
+      "cota": "esquemas/guindaste-ponte-rolante-parafusos-setores-giro.svg#setor"
+    },
+    {
+      "grupo": "Rolamento de giro, parafusos e pedestal",
+      "parametro": "Fator de pedestal (ABS)",
+      "valor": "PF = 1.56 − LL/4000 (LL em kN); não maior que 1.5; não menor que 1.2 (offshore) ou 1.0 (heavy lift)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.15",
+      "pagina": 48,
+      "nota": "Sem chapa de reforço (doubler) entre pedestal e convés onde há tração. Pedestal sem o acréscimo de 33%."
+    },
+    {
+      "grupo": "Rolamento de giro, parafusos e pedestal",
+      "parametro": "Rolamento de giro — dureza da pista",
+      "valor": "Dureza em pelo menos 8 pontos igualmente distribuídos na circunferência",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-7/3.3",
+      "pagina": 89
+    },
+    {
+      "grupo": "Gancho, moitão e acessórios (loose gear)",
+      "parametro": "Carga de projeto de acessórios e caçambas (DNV)",
+      "valor": "Maior de 0.75 × ψ × SWL e SWL",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.8.4",
+      "pagina": 55
+    },
+    {
+      "grupo": "Gancho, moitão e acessórios (loose gear)",
+      "parametro": "Ganchos de guindaste offshore",
+      "valor": "DIN 15400 grupo de mecanismo 1 AM (principal) e 2M (auxiliar); trava de segurança obrigatória",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.8.5; 2.8.6",
+      "pagina": 55,
+      "nota": "Auxiliar pode ser 1 AM se a carga de projeto corresponde a Hs acima de 3 m."
+    },
+    {
+      "grupo": "Gancho, moitão e acessórios (loose gear)",
+      "parametro": "Fator de segurança de correntes (DNV)",
+      "valor": "Maior de 4 × 0.75ψ × SWL e 4 × SWL (contra a ruptura mínima)",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.3 2.9.1",
+      "pagina": 56
+    },
+    {
+      "grupo": "Gancho, moitão e acessórios (loose gear)",
+      "parametro": "Ensaio de prova de acessórios (ABS)",
+      "valor": "Corrente, anel, gancho, elo, manilha, destorcedor: 200% da SWL; moitão de 1 polia: 200%; moitão múltiplo ≤ 196 kN: 200%; 196–392 kN: SWL + 196 kN; > 392 kN: 150%",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-5/1.1",
+      "pagina": 74,
+      "nota": "END após o ensaio (DOE STD 1090, ASME B30.10, ASTM E709/E165)."
+    },
+    {
+      "grupo": "Gancho, moitão e acessórios (loose gear)",
+      "parametro": "Roletes de retenção (tub mounted)",
+      "valor": "Projeto para 1.2 × (carga viva + peso próprio)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/11.5",
+      "pagina": 58
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Ensaio dinâmico (NBR 8400)",
+      "valor": "ρ1 = 1,2 → 120% da carga nominal, todos os movimentos",
+      "norma": "NBR-8400",
+      "item": "5.15.1",
+      "pagina": 25
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Ensaio estático (NBR 8400)",
+      "valor": "ρ2 = 1,4 → 140% da carga nominal, sem vento; levantar a nominal a pequena altura e acrescentar o adicional sem choque",
+      "norma": "NBR-8400",
+      "item": "5.15.2",
+      "pagina": 25
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Carga de ensaio do guindaste (DNV Table 12-1)",
+      "valor": "SWL até 20 t: 25% acima da SWL; acima de 20 até 50 t: 5 t acima; acima de 50 t: 10% acima",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.12 2.3.1, Table 12-1",
+      "pagina": 81,
+      "nota": "Se ψ > 1.33, a SWL de referência é 0.75 × ψ × SWL."
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Guindaste hidráulico limitado pela válvula de alívio",
+      "valor": "Levantar a maior carga possível, em geral ≥ 10% acima da SWL",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.12 2.3.2",
+      "pagina": 81
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Pesos e dinamômetro (DNV)",
+      "valor": "Pesos móveis certificados no ensaio inicial e sempre que SWL > 15 t; dinamômetro: precisão +2%, leitura constante por ~5 min; calibração nos 12 meses anteriores",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.12 2.2.1–2.2.3",
+      "pagina": 81
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Ensaio de freios (DNV)",
+      "valor": "Com SWL, frear cada movimento da velocidade máxima até parar; içamento e lança: 3 paradas seguidas na descida",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.12 1.5.1",
+      "pagina": 80
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Raios de ensaio (DNV)",
+      "valor": "Raio máximo, mínimo e intermediário; carga içada, girada e basculada devagar",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.12 2.6.4; 2.6.5",
+      "pagina": 83
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Resistência de isolamento (DNV)",
+      "valor": "Mínimo 1 mega ohm nos circuitos",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.12 1.4.1",
+      "pagina": 80
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Moitões manuais com corrente",
+      "valor": "Carga de ensaio 50% acima da SWL",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.12 2.3.5",
+      "pagina": 82
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Carga de prova do guindaste (ABS Table 1)",
+      "valor": "Até 196 kN (20 tf): 25% acima; 196–490 kN: 49 kN (5 tf) acima; acima de 490 kN (50 tf): 10% acima — sobre a SWL (bordo/heavy lift e ensaios seguintes) ou sobre VL (offshore, ensaio original)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-7/5.1, Table 1",
+      "pagina": 89,
+      "nota": "Carga de prova ≥ ajuste de desligamento da proteção de sobrecarga."
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Referência VL do ensaio original offshore (ABS)",
+      "valor": "VL = 0.75 × VAF × SWL, com VAF ≥ 1.33",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-7/5.1, Table 1 nota 2",
+      "pagina": 90,
+      "nota": "O ensaio original não precisa exceder a carga de projeto dos freios do guincho (nota 4)."
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Execução do ensaio de prova (ABS)",
+      "valor": "Carga mantida por pelo menos 5 minutos; com VAF > 1.33 a carga de prova só é basculada (não içada nem girada) salvo confirmação do fabricante",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-7/5.3.2",
+      "pagina": 90
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Ensaios posteriores com limitador de carga (ABS)",
+      "valor": "Maior carga possível, nunca menor que a SWL do certificado",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-7/5.3.2(c)",
+      "pagina": 91
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Paus de carga (derricks) — ângulo no ensaio",
+      "valor": "Ângulo da lança com a horizontal (declarado no certificado do ensaio) não maior que 15° para cargas até 10 t inclusive e 25° para cargas acima de 10 t, ou o menor ângulo aprovado no projeto, ou, quando esses ângulos forem impraticáveis, o menor ângulo praticável",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-7/5.3.2(d)",
+      "pagina": 91,
+      "nota": "Salvo aprovação diferente, a carga de prova é aplicada içando pesos móveis; depois de içada, é girada o máximo possível nos dois sentidos, e todo o aparelho e acessórios são examinados quanto a dano ou deformação permanente (2-7/5.3.2(d) i)).",
+      "cota": "esquemas/guindaste-ponte-rolante-pau-de-carga-ensaio.svg#angulo-ensaio"
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "Frenagem dinâmica na vistoria inicial (ABS)",
+      "valor": "Ciclos com carga nominal e velocidade máxima por pelo menos 5 minutos",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-7/7.2 vii)",
+      "pagina": 93
+    },
+    {
+      "grupo": "Ensaios de carga e testes de recebimento",
+      "parametro": "END das soldas do pedestal (ABS)",
+      "valor": "Antes do ensaio: 100% volumétrico nas soldas de topo críticas e 100% superficial nas de filete críticas; depois: ≥ 10% superficial aleatório",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-7/7.2 i), iv)",
+      "pagina": 93,
+      "nota": "Guindaste em operação antes da entrega da unidade: ensaio de carga 30 dias antes da entrega (vi)."
+    },
+    {
+      "grupo": "Içamento de pessoas",
+      "parametro": "Capacidade para içamento de pessoas (DNV)",
+      "valor": "Não exceder 50% da capacidade para cargas no raio e onda considerados",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.9 4.1.1",
+      "pagina": 75
+    },
+    {
+      "grupo": "Içamento de pessoas",
+      "parametro": "Cabo e corrente no içamento de pessoas (DNV)",
+      "valor": "Cabo: fator de segurança mínimo 8; corrente: 6 (sobre a capacidade para pessoas)",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.9 5.2.1",
+      "pagina": 76
+    },
+    {
+      "grupo": "Içamento de pessoas",
+      "parametro": "Limites operacionais para içar pessoas (DNV)",
+      "valor": "Vento médio 10 m/s; Hs 2 m; luz do dia ou equivalente",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.9 6.2.1",
+      "pagina": 76
+    },
+    {
+      "grupo": "Içamento de pessoas",
+      "parametro": "Freios — içamento de pessoas",
+      "valor": "Dois freios mecânica e funcionalmente independentes, com teste separado",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.9 5.1.1; 5.1.2",
+      "pagina": 75
+    },
+    {
+      "grupo": "Içamento de pessoas",
+      "parametro": "SWL para pessoas (ABS)",
+      "valor": "Não exceder 50% da SWL para carga; guindaste dedicado: projeto com 2 vezes a SWL de pessoas; moitão dedicado: 2 vezes; acessórios: ensaio com 2 vezes a carga de prova",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-9/3; 2-9/5",
+      "pagina": 96
+    },
+    {
+      "grupo": "Inspeções, certificação e marcação",
+      "parametro": "Equipamentos de movimentação — cálculo e conservação",
+      "valor": "Guindastes, pontes rolantes, talhas, guinchos etc. calculados e construídos com garantias de resistência e segurança e conservados em perfeitas condições",
+      "norma": "NR-11",
+      "item": "11.1.3",
+      "pagina": 1
+    },
+    {
+      "grupo": "Inspeções, certificação e marcação",
+      "parametro": "Cabos, correntes, roldanas e ganchos",
+      "valor": "Inspecionados permanentemente, substituindo-se as partes defeituosas",
+      "norma": "NR-11",
+      "item": "11.1.3.1",
+      "pagina": 1
+    },
+    {
+      "grupo": "Inspeções, certificação e marcação",
+      "parametro": "Carga máxima de trabalho",
+      "valor": "Indicada em lugar visível em todo equipamento",
+      "norma": "NR-11",
+      "item": "11.1.3.2",
+      "pagina": 1
+    },
+    {
+      "grupo": "Inspeções, certificação e marcação",
+      "parametro": "Operador de equipamento motorizado",
+      "valor": "Treinamento específico; cartão de identificação com validade de 1 ano (revalidação com exame de saúde)",
+      "norma": "NR-11",
+      "item": "11.1.5; 11.1.6.1",
+      "pagina": 1
+    },
+    {
+      "grupo": "Inspeções, certificação e marcação",
+      "parametro": "Ensaio de carga periódico (DNV)",
+      "valor": "Antes do primeiro uso; após alteração/reparo de parte estrutural; e pelo menos 1 vez a cada 5 anos",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.12 2.1.1",
+      "pagina": 81
+    },
+    {
+      "grupo": "Inspeções, certificação e marcação",
+      "parametro": "Exame após o ensaio (DNV)",
+      "valor": "Exame completo de dano ou deformação permanente; reconectar e lacrar proteções de sobrecarga",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.12 2.4.1; 2.4.2",
+      "pagina": 82
+    },
+    {
+      "grupo": "Inspeções, certificação e marcação",
+      "parametro": "Marcação do guindaste (DNV)",
+      "valor": "Nº de referência e SWL em letras/algarismos de pelo menos 80 mm; raios de pelo menos 60 mm",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.12 4.2.5",
+      "pagina": 84,
+      "cota": "esquemas/guindaste-ponte-rolante-guindaste-pedestal.svg#caracteres"
+    },
+    {
+      "grupo": "Inspeções, certificação e marcação",
+      "parametro": "Certificado ABS",
+      "valor": "Certificado renovável, com endossos anuais, válido por 5 anos",
+      "norma": "ABS-LIFT-2021",
+      "item": "1-1/1 d)",
+      "pagina": 8,
+      "nota": "Vistorias Anual, Quadrienal e de Reteste: ver 7-9-45/1 das Regras ABS de Vistoria Após Construção (Parte 7) — 2-7/9."
+    },
+    {
+      "grupo": "Inspeções, certificação e marcação",
+      "parametro": "Suspensão do certificado ABS",
+      "valor": "Automática se a Vistoria Anual não for concluída no prazo; atraso de 3 meses ou mais exige vistoria de reteste",
+      "norma": "ABS-LIFT-2021",
+      "item": "1-2/1; 1-2/3",
+      "pagina": 12
+    },
+    {
+      "grupo": "Inspeções, certificação e marcação",
+      "parametro": "Exame pós-ensaio (ABS)",
+      "valor": "Fundação, polias e guias, cabos e terminais, máquinas/freios, ganchos (END em offshore/heavy lift/pessoas), giro e parafusos, pinos da lança",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-7/5.3.3",
+      "pagina": 91
+    },
+    {
+      "grupo": "Inspeções, certificação e marcação",
+      "parametro": "Marcação do guindaste (ABS)",
+      "valor": "SWL nas pernas do pórtico / pé da lança com ângulo mínimo ou raio e data do ensaio; letras de pelo menos 25 mm (1 in)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-7/5.11",
+      "pagina": 92
+    }
+  ],
+  "tabelas": [
+    {
+      "id": "nbr8400-t4-grupo-estrutura",
+      "titulo": "Grupo da estrutura (classe de utilização × estado de carga)",
+      "norma": "NBR-8400",
+      "item": "Tabela 4",
+      "pagina": 8,
+      "colunas": [
+        "Estado de carga (ou de tensões)",
+        "A (6,3 × 10⁴)",
+        "B (2,0 × 10⁵)",
+        "C (6,3 × 10⁵)",
+        "D (2,0 × 10⁶)"
+      ],
+      "linhas": [
+        [
+          "0 (muito leve) P = 0",
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          "1 (leve) P = 1/3",
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          "2 (médio) P = 2/3",
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          "3 (pesado) P = 1",
+          4,
+          5,
+          6,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "nbr8400-t23-grupo-mecanismo",
+      "titulo": "Grupo dos mecanismos (estado de solicitação × classe de funcionamento)",
+      "norma": "NBR-8400",
+      "item": "Tabela 23",
+      "pagina": 28,
+      "colunas": [
+        "Estado de solicitação",
+        "V0,25",
+        "V0,5",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V5"
+      ],
+      "linhas": [
+        [
+          "1",
+          "1Bm",
+          "1Bm",
+          "1Bm",
+          "1Am",
+          "2m",
+          "3m",
+          "4m"
+        ],
+        [
+          "2",
+          "1Bm",
+          "1Bm",
+          "1Am",
+          "2m",
+          "3m",
+          "4m",
+          "5m"
+        ],
+        [
+          "3",
+          "1Bm",
+          "1Am",
+          "2m",
+          "3m",
+          "4m",
+          "5m",
+          "5m"
+        ]
+      ]
+    },
+    {
+      "id": "nbr8400-t36-exemplos",
+      "titulo": "Exemplos de classificação da estrutura",
+      "norma": "NBR-8400",
+      "item": "Anexo A, Tabela 36",
+      "pagina": 43,
+      "colunas": [
+        "Tipo de equipamento",
+        "Classe de utilização",
+        "Estado de carga",
+        "Grupo"
+      ],
+      "linhas": [
+        [
+          "Ponte rolante para casa de força",
+          "A",
+          "0 - 1",
+          "1 - 2"
+        ],
+        [
+          "Ponte ou pórtico rolante para depósito de materiais",
+          "B - C",
+          "1 - 2",
+          "3 - 4 - 5"
+        ],
+        [
+          "Ponte, pórtico rolante ou guindaste com caçamba",
+          "B - C - D",
+          "3",
+          "5 - 6"
+        ],
+        [
+          "Ponte rolante para pátio de sucata ou com eletroímã",
+          "B - C",
+          "3",
+          "5 - 6"
+        ],
+        [
+          "Ponte rolante de panela, estripadora ou para forno poço",
+          "C - D",
+          "3",
+          "6"
+        ],
+        [
+          "Ponte rolante viradora, para forja",
+          "C - D",
+          "2 - 3",
+          "5 - 6"
+        ],
+        [
+          "Ponte, pórtico ou guindaste para montagem",
+          "A - B",
+          "1 - 2",
+          "2 - 3 - 4"
+        ],
+        [
+          "Pórtico rolante para contêiner",
+          "B - C",
+          "2",
+          "4 - 5"
+        ],
+        [
+          "Guindaste portuário com gancho",
+          "B - C",
+          "2",
+          "4 - 5"
+        ],
+        [
+          "Guindaste portuário com caçamba",
+          "B - C",
+          "3",
+          "5 - 6"
+        ],
+        [
+          "Guindaste para canteiro de obra",
+          "B - C",
+          "2",
+          "4 - 5"
+        ],
+        [
+          "Guindaste para desimpedimento em via férrea",
+          "A",
+          "1 - 2",
+          "2 - 3"
+        ],
+        [
+          "Guindaste para bordo de embarcações",
+          "B",
+          "2 - 3",
+          "4 - 5"
+        ],
+        [
+          "Derrick",
+          "A - B - C",
+          "2",
+          "3 - 4 - 5"
+        ],
+        [
+          "Monovia (conforme utilização)",
+          "-",
+          "-",
+          "1 a 6"
+        ]
+      ],
+      "nota": "Exemplos ilustrativos (A.5): cada caso deve ser estudado. Tabela 37 traz os exemplos para mecanismos."
+    },
+    {
+      "id": "nbr8400-t5-psi",
+      "titulo": "Coeficiente dinâmico ψ",
+      "norma": "NBR-8400",
+      "item": "Tabela 5",
+      "pagina": 10,
+      "colunas": [
+        "Equipamento",
+        "ψ",
+        "Velocidade de elevação vL (m/s)"
+      ],
+      "linhas": [
+        [
+          "Pontes ou pórticos rolantes",
+          "1,15",
+          "0 < vL ≤ 0,25"
+        ],
+        [
+          "Pontes ou pórticos rolantes",
+          "1 + 0,6 vL",
+          "0,25 < vL < 1"
+        ],
+        [
+          "Pontes ou pórticos rolantes",
+          "1,60",
+          "vL ≥ 1"
+        ],
+        [
+          "Guindaste com lanças",
+          "1,15",
+          "0 < vL ≤ 0,5"
+        ],
+        [
+          "Guindaste com lanças",
+          "1 + 0,3 vL",
+          "0,5 < vL < 1"
+        ],
+        [
+          "Guindaste com lanças",
+          "1,3",
+          "vL ≥ 1"
+        ]
+      ]
+    },
+    {
+      "id": "nbr8400-t6-aceleracao",
+      "titulo": "Tempos de aceleração e acelerações (indicativos)",
+      "norma": "NBR-8400",
+      "item": "Tabela 6",
+      "pagina": 11,
+      "unidade": "s; m/s²",
+      "colunas": [
+        "Velocidade (m/s)",
+        "Velocidade (m/min)",
+        "Lenta e média: tempo (s)",
+        "Lenta e média: aceleração (m/s²)",
+        "Média e alta: tempo (s)",
+        "Média e alta: aceleração (m/s²)",
+        "Alta, fortes acelerações: tempo (s)",
+        "Alta: aceleração (m/s²)"
+      ],
+      "linhas": [
+        [
+          "4,00",
+          "240",
+          "-",
+          "-",
+          "8,0",
+          "0,50",
+          "6,0",
+          "0,67"
+        ],
+        [
+          "3,15",
+          "189",
+          "-",
+          "-",
+          "7,1",
+          "0,44",
+          "5,4",
+          "0,58"
+        ],
+        [
+          "2,50",
+          "150",
+          "-",
+          "-",
+          "6,3",
+          "0,39",
+          "4,8",
+          "0,52"
+        ],
+        [
+          "2,00",
+          "120",
+          "9,1",
+          "0,22",
+          "5,6",
+          "0,35",
+          "4,2",
+          "0,47"
+        ],
+        [
+          "1,60",
+          "96",
+          "8,3",
+          "0,19",
+          "5,0",
+          "0,32",
+          "3,7",
+          "0,43"
+        ],
+        [
+          "1,00",
+          "60",
+          "6,6",
+          "0,15",
+          "4,0",
+          "0,25",
+          "3,0",
+          "0,33"
+        ],
+        [
+          "0,63",
+          "37,8",
+          "5,2",
+          "0,12",
+          "3,2",
+          "0,19",
+          "-",
+          "-"
+        ],
+        [
+          "0,40",
+          "24",
+          "4,1",
+          "0,098",
+          "2,5",
+          "0,16",
+          "-",
+          "-"
+        ],
+        [
+          "0,25",
+          "15",
+          "3,2",
+          "0,078",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "0,16",
+          "9,6",
+          "2,5",
+          "0,064",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "id": "nbr8400-t7-vento",
+      "titulo": "Pressão aerodinâmica (vento de serviço e fora de serviço)",
+      "norma": "NBR-8400",
+      "item": "Tabela 7",
+      "pagina": 12,
+      "colunas": [
+        "Altura ao solo (m)",
+        "Serviço: m/s",
+        "Serviço: km/h",
+        "Serviço: N/m²",
+        "Fora de serviço: m/s",
+        "Fora de serviço: km/h",
+        "Fora de serviço: N/m²"
+      ],
+      "linhas": [
+        [
+          "0 a 20",
+          20,
+          72,
+          250,
+          36,
+          130,
+          800
+        ],
+        [
+          "20 a 100",
+          20,
+          72,
+          250,
+          42,
+          150,
+          1100
+        ],
+        [
+          "Mais de 100",
+          20,
+          72,
+          250,
+          46,
+          165,
+          1300
+        ]
+      ],
+      "nota": "Conferida na imagem: o vento limite de serviço (20 m/s, 250 N/m²) é uma célula única para todas as alturas."
+    },
+    {
+      "id": "nbr8400-t17-estabilidade",
+      "titulo": "Condições de estabilidade ao tombamento — coeficientes de majoração",
+      "norma": "NBR-8400",
+      "item": "Tabela 17",
+      "pagina": 22,
+      "colunas": [
+        "Verificação",
+        "Carga nominal",
+        "Efeitos horizontais",
+        "Vento"
+      ],
+      "linhas": [
+        [
+          "Estática",
+          "1,6",
+          "0",
+          "0"
+        ],
+        [
+          "Dinâmica — em carga",
+          "1,35",
+          "1 (A)",
+          "1 (vento de serviço)"
+        ],
+        [
+          "Dinâmica — em vazio",
+          "- 0,1",
+          "1 (dois movimentos)",
+          "1 (vento de serviço)"
+        ],
+        [
+          "Vento máximo (tempestade)",
+          "0",
+          "0",
+          "1,1 (vento máximo)"
+        ],
+        [
+          "Ruptura de eslinga",
+          "- 0,3 (C)",
+          "1 (dois movimentos sem carga)",
+          "1 (vento de serviço)"
+        ]
+      ],
+      "nota": "(A) translação de posicionamento considerada à parte; choque: considerações dinâmicas. (C) salvo cálculo que justifique valor menor."
+    },
+    {
+      "id": "nbr8400-t27-q",
+      "titulo": "Valores mínimos de Q (dc = Q√T)",
+      "norma": "NBR-8400",
+      "item": "Tabela 27",
+      "pagina": 34,
+      "colunas": [
+        "Grupo de mecanismo",
+        "Cabo normal",
+        "Cabo não rotativo"
+      ],
+      "linhas": [
+        [
+          "1Bm",
+          "0,265",
+          "0,280"
+        ],
+        [
+          "1Am",
+          "0,280",
+          "0,300"
+        ],
+        [
+          "2m",
+          "0,300",
+          "0,335"
+        ],
+        [
+          "3m",
+          "0,335",
+          "0,375"
+        ],
+        [
+          "4m",
+          "0,375",
+          "0,425"
+        ],
+        [
+          "5m",
+          "0,425",
+          "0,475"
+        ]
+      ],
+      "figuras": [
+        "esquemas/guindaste-ponte-rolante-nbr8400-de-dc.svg"
+      ]
+    },
+    {
+      "id": "nbr8400-t28-h1",
+      "titulo": "Coeficiente H1 (De ≥ H1·H2·dc)",
+      "norma": "NBR-8400",
+      "item": "Tabela 28",
+      "pagina": 34,
+      "colunas": [
+        "Grupo",
+        "Tambor — normal",
+        "Tambor — não rotativo",
+        "Polia — normal",
+        "Polia — não rotativo",
+        "Compensação — normal",
+        "Compensação — não rotativo"
+      ],
+      "linhas": [
+        [
+          "1Bm",
+          "16",
+          "16",
+          "16",
+          "18",
+          "14",
+          "16"
+        ],
+        [
+          "1Am",
+          "16",
+          "18",
+          "18",
+          "20",
+          "14",
+          "16"
+        ],
+        [
+          "2m",
+          "18",
+          "20",
+          "20",
+          "22,4",
+          "14",
+          "16"
+        ],
+        [
+          "3m",
+          "20",
+          "22,4",
+          "22,4",
+          "25",
+          "16",
+          "18"
+        ],
+        [
+          "4m",
+          "22,4",
+          "25",
+          "25",
+          "18",
+          "16",
+          "18"
+        ],
+        [
+          "5m",
+          "25",
+          "28",
+          "28",
+          "31,5",
+          "18",
+          "20"
+        ]
+      ],
+      "nota": "Conferida na imagem. Polia/não rotativo/4m impresso '18' na norma (provável erro; a progressão sugere 28). Cabos 6 × 19: usar coluna de não rotativo.",
+      "figuras": [
+        "esquemas/guindaste-ponte-rolante-nbr8400-de-dc.svg",
+        "esquemas/guindaste-ponte-rolante-moitao-passagens.svg"
+      ]
+    },
+    {
+      "id": "dnv222-t2-1-banda-trim",
+      "titulo": "Banda e trim mínimos em águas paradas",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 Table 2-1",
+      "pagina": 40,
+      "colunas": [
+        "Tipo de embarcação",
+        "Banda (heel)",
+        "Trim"
+      ],
+      "linhas": [
+        [
+          "Navios e cascos tipo navio",
+          "5°",
+          "2°"
+        ],
+        [
+          "Barcaças (L < 4 × B) e catamarãs",
+          "3°",
+          "2°"
+        ],
+        [
+          "Semissubmersíveis",
+          "3°",
+          "3°"
+        ],
+        [
+          "Submersíveis e jack-ups",
+          "1°",
+          "1°"
+        ]
+      ],
+      "nota": "Caso II: 1.5 vez esses valores (2.3.2).",
+      "figuras": [
+        "esquemas/guindaste-ponte-rolante-banda-trim.svg"
+      ],
+      "cotas": {
+        "Banda (heel)": "esquemas/guindaste-ponte-rolante-banda-trim.svg#banda",
+        "Trim": "esquemas/guindaste-ponte-rolante-banda-trim.svg#trim"
+      }
+    },
+    {
+      "id": "dnv222-t2-2-escoamento",
+      "titulo": "Critérios de escoamento (fator de segurança)",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 Table 2-2",
+      "pagina": 44,
+      "colunas": [
+        "Método",
+        "Caso I",
+        "Caso II",
+        "Caso III"
+      ],
+      "linhas": [
+        [
+          "Fator de segurança — análise elástica",
+          "1.50",
+          "1.33",
+          "1.10"
+        ],
+        [
+          "Fator de segurança — análise plástica",
+          "1.69",
+          "1.51",
+          "1.25"
+        ],
+        [
+          "Tensão admissível — elástica",
+          "σy/1.50",
+          "σy/1.33",
+          "σy/1.10"
+        ],
+        [
+          "Estado limite — fator de carga",
+          "1.30",
+          "1.16",
+          "0.96"
+        ],
+        [
+          "Fator de material — elástica",
+          "1.15",
+          "1.15",
+          "1.15"
+        ],
+        [
+          "Fator de material — plástica",
+          "1.30",
+          "1.30",
+          "1.30"
+        ]
+      ]
+    },
+    {
+      "id": "dnv222-t2-4-grupo",
+      "titulo": "Classificação de grupo (FEM 1.001) — guia",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.2 Table 2-4",
+      "pagina": 44,
+      "colunas": [
+        "Guindaste",
+        "Uso",
+        "Grupo"
+      ],
+      "linhas": [
+        [
+          "Tempo de serviço excepcionalmente baixo (ex. guindaste de BOP)",
+          "-",
+          "A2"
+        ],
+        [
+          "Oficina e industriais com gancho",
+          "-",
+          "A4"
+        ],
+        [
+          "Pontes rolantes para manutenção",
+          "-",
+          "A3"
+        ],
+        [
+          "Pipe rack",
+          "gancho",
+          "A3"
+        ],
+        [
+          "Pipe rack",
+          "ímã",
+          "A6-A8"
+        ],
+        [
+          "Almoxarifado",
+          "-",
+          "A4"
+        ],
+        [
+          "Lança ou pórtico para contêiner",
+          "-",
+          "A5"
+        ],
+        [
+          "Cais e estaleiro (lança)",
+          "gancho",
+          "A5"
+        ],
+        [
+          "Cais e estaleiro (lança)",
+          "caçamba ou ímã",
+          "A6-A8"
+        ],
+        [
+          "Bordo: carga, provisões, mangueiras",
+          "gancho",
+          "A4"
+        ],
+        [
+          "Bordo",
+          "caçamba ou ímã",
+          "A5"
+        ],
+        [
+          "Offshore — guincho auxiliar (whip)",
+          "-",
+          "A5"
+        ],
+        [
+          "Offshore — guincho principal",
+          "-",
+          "A3"
+        ]
+      ],
+      "nota": "SWL > 250 t: alternativa inferior ou um grupo abaixo, mínimo A2."
+    },
+    {
+      "id": "dnv222-t12-1-ensaio",
+      "titulo": "Carga de ensaio de guindastes e paus de carga",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.12 Table 12-1",
+      "pagina": 81,
+      "colunas": [
+        "SWL",
+        "Carga de ensaio"
+      ],
+      "linhas": [
+        [
+          "Até 20 t",
+          "25% acima da SWL"
+        ],
+        [
+          "Acima de 20 até 50 t",
+          "5 t acima da SWL"
+        ],
+        [
+          "Acima de 50 t",
+          "10% acima da SWL"
+        ]
+      ],
+      "nota": "Se ψ > 1.33, SWL de referência = 0.75 × ψ × SWL."
+    },
+    {
+      "id": "dnv222-t12-2-acessorios",
+      "titulo": "Carga de ensaio de acessórios (loose gear)",
+      "norma": "DNV-2.22",
+      "item": "Ch.2 Sec.12 Table 12-2",
+      "pagina": 81,
+      "colunas": [
+        "Item",
+        "Faixa de SWL",
+        "Carga de ensaio (t)"
+      ],
+      "linhas": [
+        [
+          "Correntes, ganchos, manilhas, destorcedores",
+          "SWL ≤ 25 t",
+          "2 · SWL"
+        ],
+        [
+          "Correntes, ganchos, manilhas, destorcedores",
+          "SWL > 25 t",
+          "(1.22 · SWL) + 20"
+        ],
+        [
+          "Moitão de várias polias",
+          "SWL ≤ 25 t",
+          "2 · SWL"
+        ],
+        [
+          "Moitão de várias polias",
+          "25 t < SWL ≤ 160 t",
+          "(0.933 · SWL) + 27"
+        ],
+        [
+          "Moitão de várias polias",
+          "SWL > 160 t",
+          "1.1 · SWL"
+        ],
+        [
+          "Moitão de 1 polia",
+          "-",
+          "4 · SWL"
+        ],
+        [
+          "Balancins etc.",
+          "SWL ≤ 10 t",
+          "2 · SWL"
+        ],
+        [
+          "Balancins etc.",
+          "10 t < SWL ≤ 160 t",
+          "(1.04 · SWL) + 9.6"
+        ],
+        [
+          "Balancins etc.",
+          "SWL > 160 t",
+          "1.1 · SWL"
+        ]
+      ],
+      "nota": "Moitão de 1 polia: SWL = metade da resultante no olhal. ψ > 1.33: ver nota da Table 12-1."
+    },
+    {
+      "id": "abs-lift-t1-sc",
+      "titulo": "Coeficiente de tensão admissível Sc (F = Fy × Sc)",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/5.3, Table 1",
+      "pagina": 42,
+      "colunas": [
+        "Tipo de tensão",
+        "Sc"
+      ],
+      "linhas": [
+        [
+          "Tração — membros sem pino (área bruta)",
+          "0.60"
+        ],
+        [
+          "Tração — membros com pino (área líquida)",
+          "0.45"
+        ],
+        [
+          "Cisalhamento",
+          "0.40"
+        ],
+        [
+          "Flexão — barras redondas e quadradas maciças",
+          "0.75"
+        ],
+        [
+          "Flexão — seções compactas",
+          "0.66"
+        ],
+        [
+          "Flexão — seções não compactas",
+          "0.60"
+        ],
+        [
+          "Esmagamento (contato e pinos)",
+          "0.90"
+        ],
+        [
+          "Von Mises",
+          "0.75"
+        ],
+        [
+          "Von Mises — MEF malha fina, todas as cargas",
+          "0.85"
+        ]
+      ]
+    },
+    {
+      "id": "abs-lift-t6-vd",
+      "titulo": "Velocidade vertical do convés que suporta a carga, vd",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/9.3.2, Table 6",
+      "pagina": 55,
+      "colunas": [
+        "Içamento de/para",
+        "vd (m/s)"
+      ],
+      "linhas": [
+        [
+          "Estrutura apoiada no fundo",
+          "0"
+        ],
+        [
+          "Embarcação em movimento (supply), Hsig < 3 m",
+          "0.6 × Hsig"
+        ],
+        [
+          "Embarcação em movimento (supply), Hsig ≥ 3 m",
+          "0.9 + 0.3 × Hsig"
+        ]
+      ]
+    },
+    {
+      "id": "abs-lift-t7-vc",
+      "titulo": "Velocidade vertical da ponta da lança, vc",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-2/9.3.2, Table 7",
+      "pagina": 55,
+      "colunas": [
+        "Içamento de/para",
+        "vc (m/s)"
+      ],
+      "linhas": [
+        [
+          "Navio/barcaça em águas calmas e estrutura fixa",
+          "0"
+        ],
+        [
+          "TLP/Spar",
+          "0.05 × Hsig"
+        ],
+        [
+          "Semissubmersível",
+          "0.082 × Hsig²"
+        ],
+        [
+          "Navio-sonda/FPSO",
+          "0.164 × Hsig²"
+        ]
+      ]
+    },
+    {
+      "id": "abs-lift-t1-prova",
+      "titulo": "Carga de prova do guindaste montado",
+      "norma": "ABS-LIFT-2021",
+      "item": "2-7/5.1, Table 1",
+      "pagina": 89,
+      "colunas": [
+        "SWL no raio especificado",
+        "Bordo e heavy lift",
+        "Offshore — ensaio original",
+        "Ensaios posteriores"
+      ],
+      "linhas": [
+        [
+          "Até 196 kN (20 tf)",
+          "25% acima da SWL",
+          "25% acima de VL",
+          "25% acima da SWL"
+        ],
+        [
+          "196–490 kN (20–50 tf)",
+          "49 kN (5 tf) acima da SWL",
+          "49 kN (5 tf) acima de VL",
+          "49 kN (5 tf) acima da SWL"
+        ],
+        [
+          "Acima de 490 kN (50 tf)",
+          "10% acima da SWL",
+          "10% acima de VL",
+          "10% acima da SWL"
+        ]
+      ],
+      "nota": "VL = 0.75 × VAF × SWL, VAF ≥ 1.33 (nota 2). Carga de prova ≥ ajuste de desligamento da proteção de sobrecarga."
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "atencao",
+      "texto": "ENSAIO DE CARGA — as normas divergem bastante. NBR 8400 (5.15): ensaio dinâmico 120% e estático 140% da carga nominal (pontes/guindastes industriais). DNV 2.22 (Table 12-1) e ABS (2-7/5.1): +25% até 20 t (196 kN), +5 t (49 kN) de 20 a 50 t, +10% acima de 50 t — e, em guindaste offshore, a base é 0.75·ψ·SWL (DNV, se ψ > 1.33) ou VL = 0.75·VAF·SWL com VAF ≥ 1.33 (ABS, ensaio original). Use a norma exigida pelo contrato/certificadora; a NBR 8400 é a mais severa no estático."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "FATOR DINÂMICO: NBR 8400 dá ψ por velocidade de elevação (pontes 1,15–1,60; guindastes com lança 1,15–1,3). DNV calcula ψ = 1 + VR√(C/Wg) com mínimo offshore 1.3 (W ≤ 2 500 kN) a 1.1 (W > 5 000 kN). ABS chama de VAF: 1.3 (bordo, SWL < 392 kN), 1.373 − LL/5220 + av (offshore onboard), fórmula com vr e rigidez (offboard), 1.1 (heavy lift). Os valores não são intercambiáveis — use o fator e as tensões admissíveis da MESMA norma."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "CABO DE AÇO: a NBR 8400 não dá fator de segurança explícito — dimensiona pelo diâmetro mínimo dc = Q√T (Tabela 27). DNV 2.22: SF = maior de 2.3ψ e 10⁴/(0.885·SWL + 1910) [3 a 5]. ABS offshore: mesma fórmula com LL, mas 2.25 × VAF (movimento) e fórmula própria para cabos estáticos [≤ 4.0]; ABS bordo: 5 → 4 → 3 conforme a SWL; heavy lift 3.0. Içamento de pessoas: DNV exige SF 8 (corrente 6)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "D/d DE POLIAS E TAMBORES: NBR 8400 usa De ≥ H1·H2·dc com H1 de 14 a 31,5 conforme grupo e tipo de cabo (Tabela 28). DNV e ABS fixam Dp/d ≥ 18 (ABS: 20 em compensação de movimento; cabos estáticos/equalizadoras ≥ 10). Voltas mínimas no tambor: DNV 3, ABS 5."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "VENTO: NBR 8400 — serviço 20 m/s (250 N/m²), fora de serviço 36/42/46 m/s por faixa de altura, Pa = v²/1,6. DNV App.A — q = ρv²/2 com q10 de 250 (serviço abrigado), 360 (serviço offshore), 800 e 1200 N/m² (fora de serviço) e q = q10(0.9 + 0.01H). ABS — 10.3 m/s em serviço, 36 m/s (lança não apoiada) e 51.5 m/s (lança apoiada), P = V²·Cs/1637 kN/m². Os coeficientes de forma também diferem (C da NBR/DNV × Cs da ABS)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "BANDA/TRIM: DNV Table 2-1 (semissub 3°/3°, jack-up 1°/1°) e ABS Table 5A (semissub 1.5°/1.5°, FPSO 2.5°/1°, fixa/TLP 0.5°/0.5°) divergem; ambas dão 5°/2° para navio. Em FPSO, conferir o valor do contrato e a norma da certificadora."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "FREIOS E PARAFUSOS DE GIRO: DNV pede freio com torque 80% acima do estático (1,8×) e protensão dos parafusos do giro de 65–80% do escoamento (até 90% com ensaio); ABS pede freio estático 1.5× e protensão ≤ 0.7σy (torque) ou ≤ 0.9σy (tensionador). Ambas limitam o atrito de cálculo do freio a 0.3."
+    },
+    {
+      "tipo": "info",
+      "texto": "FLECHA ADMISSÍVEL: nenhuma das normas do acervo (NBR 8400, DNV 2.22, ABS 2021) fixa flecha máxima de viga de ponte rolante — a NBR 8400 (5.15.2, nota) deixa ao usuário especificá-la e exige contraflecha (5.13). Limites usuais (L/600, L/800…) vêm de CMAA 70 / FEM / especificações de cliente, que NÃO estão no acervo."
+    },
+    {
+      "tipo": "info",
+      "texto": "As tensões admissíveis da NBR 8400 (σe/1,5; /1,33; /1,1 — Tabela 12) coincidem com os fatores da DNV 2.22 (1.50/1.33/1.10 — Table 2-2). O ABS usa coeficientes Sc por tipo de tensão (0.60 tração, 0.66 flexão compacta…)."
+    },
+    {
+      "tipo": "info",
+      "texto": "Não estão no acervo: API Spec 2C (guindastes offshore — o ABS remete ao Anexo B da 7ª ed. para acelerações e velocidades), ASME B30.2 (pontes rolantes), B30.4 e B30.5 (guindastes móveis/pórtico), CMAA 70/74, NBR ISO 4301 / FEM 1.001. A DNV 2.22 (jun/2013) foi substituída pela DNVGL-ST-0378 — conferir a edição exigida."
+    },
+    {
+      "tipo": "info",
+      "texto": "NBR 8400 (1984) cita em 5.6.3 c) 'ensaios previstos em 5.1.5' — o item correto é 5.15 (Ensaios)."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Inspeção periódica: DNV 2.22 exige ensaio de carga pelo menos a cada 5 anos e após reparo estrutural; o certificado ABS vale 5 anos com endosso anual (vistorias Anual/Quadrienal/Reteste nas Regras ABS Parte 7, 7-9-45). A NR-11 exige inspeção permanente de cabos, correntes, roldanas e ganchos e a carga máxima visível. Para inspeção de equipamentos de içamento de sonda (não guindastes), ver API RP 8B."
+    }
+  ]
+}

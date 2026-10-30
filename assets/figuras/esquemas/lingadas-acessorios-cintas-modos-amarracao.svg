@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 460" width="980" height="460" role="img" aria-label="Cintas planas — modos de amarração e ângulo das pernas com a vertical">
+<title>Cintas planas — modos de amarração e ângulo das pernas com a vertical (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Cintas planas — modos de amarração e ângulo das pernas com a vertical</text>
+<path class="g" d="M90,60 L90,90 A14,14 0 1 1 64,84" style="stroke-width:5"/>
+<line x1="90" y1="95" x2="90" y2="300" stroke="#8c8c8c" stroke-opacity=".55" stroke-width="14" stroke-linecap="butt"/>
+<rect class="sl" x="35" y="300" width="110" height="50"/>
+<text class="n m" x="90" y="330">carga</text>
+<text class="b m" x="90" y="390">vertical</text>
+<path class="g" d="M250,60 L250,90 A14,14 0 1 1 224,84" style="stroke-width:5"/>
+<line x1="250" y1="95" x2="250" y2="230" stroke="#8c8c8c" stroke-opacity=".55" stroke-width="14" stroke-linecap="butt"/>
+<line x1="250" y1="230" x2="205" y2="325" stroke="#8c8c8c" stroke-opacity=".55" stroke-width="14" stroke-linecap="butt"/>
+<line x1="250" y1="230" x2="295" y2="325" stroke="#8c8c8c" stroke-opacity=".55" stroke-width="14" stroke-linecap="butt"/>
+<rect class="sl" x="195" y="300" width="110" height="50"/>
+<text class="n m" x="250" y="330">carga</text>
+<text class="b m" x="250" y="390">forca</text>
+<g id="cota-angulo-forca" class="cota"><path class="d" d="M271.4,275.2 A50,50 0 0,1 228.6,275.2" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="250" y="205">ângulo da forca</text></g>
+<path class="g" d="M420,60 L420,90 A14,14 0 1 1 394,84" style="stroke-width:5"/>
+<line x1="405" y1="100" x2="405" y2="300" stroke="#8c8c8c" stroke-opacity=".55" stroke-width="14" stroke-linecap="butt"/>
+<line x1="435" y1="100" x2="435" y2="300" stroke="#8c8c8c" stroke-opacity=".55" stroke-width="14" stroke-linecap="butt"/>
+<rect class="sl" x="365" y="300" width="110" height="50"/>
+<text class="n m" x="420" y="330">carga</text>
+<text class="b m" x="420" y="390">cesto vertical</text>
+<path class="g" d="M610,75 L610,105 A14,14 0 1 1 584,99" style="stroke-width:5"/>
+<line x1="610" y1="110" x2="545" y2="300" stroke="#8c8c8c" stroke-opacity=".55" stroke-width="14" stroke-linecap="butt"/>
+<line x1="610" y1="110" x2="675" y2="300" stroke="#8c8c8c" stroke-opacity=".55" stroke-width="14" stroke-linecap="butt"/>
+<rect class="sl" x="520" y="300" width="180" height="50"/>
+<text class="n m" x="610" y="330">carga</text>
+<line class="c" x1="610" y1="110" x2="610" y2="300"/>
+<g id="cota-beta" class="cota"><path class="d" d="M639.1,195.2 A90,90 0 0,1 610,200" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="627.7" y="221.5">β</text></g>
+<text class="b m" x="610" y="390">2 pernas / cesto inclinado</text>
+<path class="g" d="M850,75 L850,105 A14,14 0 1 1 824,99" style="stroke-width:5"/>
+<line x1="850" y1="110" x2="775" y2="300" stroke="#8c8c8c" stroke-opacity=".55" stroke-width="10" stroke-linecap="butt"/>
+<line x1="850" y1="110" x2="815" y2="300" stroke="#8c8c8c" stroke-opacity=".55" stroke-width="10" stroke-linecap="butt"/>
+<line x1="850" y1="110" x2="885" y2="300" stroke="#8c8c8c" stroke-opacity=".55" stroke-width="10" stroke-linecap="butt"/>
+<line x1="850" y1="110" x2="925" y2="300" stroke="#8c8c8c" stroke-opacity=".55" stroke-width="10" stroke-linecap="butt"/>
+<rect class="sl" x="760" y="300" width="180" height="50"/>
+<text class="n m" x="850" y="330">carga</text>
+<text class="b m" x="850" y="390">3 e 4 pernas</text>
+<text class="n m" x="490" y="425">β = ângulo de cada perna com a vertical; fator de uso e CMT efetiva por cor da cinta na tabela</text>
+<text class="n" x="20" y="448">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

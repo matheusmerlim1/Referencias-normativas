@@ -1,0 +1,92 @@
+{
+ "id": "ASME-SA-736",
+ "titulo": "SA-736 — Chapas de aço liga baixo carbono endurecível por envelhecimento (Ni-Cu-Cr-Mo-Nb) para vasos e tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço liga baixo carbono endurecível por envelhecimento para vasos de pressão soldados e componentes de tubulação: Grau A (Ni-Cu-Cr-Mo-Nb) e Grau C (Ni-Cu-Mn-Mo-Nb). Classe 1 = laminada e envelhecida (até 3/4 in [20 mm]); Classe 2 = normalizada e envelhecida (só Grau A); Classe 3 = temperada e envelhecida. Requisitos gerais pela SA-20."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Aço acalmado de grão fino.",
+   "valores": [
+    {
+     "parametro": "Classe 1 — envelhecimento",
+     "valor": "1000 a 1300 °F [540 a 705 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Classe 2 — normalização",
+     "valor": "1600 a 1700 °F [870 a 930 °C], depois envelhecimento",
+     "item": "5.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx. (corrida)",
+     "valor": "0,07 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn — A / C",
+     "valor": "0,40–0,70 % / 1,30–1,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,025 % / 0,025 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si máx.",
+     "valor": "0,40 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Escoamento mín. até 3/4 in [20 mm]:",
+   "valores": [
+    {
+     "parametro": "A Classe 1",
+     "valor": "80 ksi [550]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "A Classe 2",
+     "valor": "65 ksi [450]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "A Classe 3",
+     "valor": "75 ksi [515]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C Classe 1",
+     "valor": "90 ksi [620]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C Classe 3",
+     "valor": "85 ksi [585]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Su mín. — A Cl. 1 / C Cl. 1",
+     "valor": "90 ksi / 100 ksi",
+     "item": "1.2.1"
+    }
+   ]
+  }
+ ]
+}

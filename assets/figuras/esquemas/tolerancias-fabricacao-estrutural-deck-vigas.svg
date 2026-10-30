@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" width="900" height="640" role="img" aria-label="Vigas do deck / cap beams, emendas de vigas, deck instalado, patamares e lingas de içamento">
+<title>Vigas do deck / cap beams, emendas de vigas, deck instalado, patamares e lingas de içamento (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Vigas do deck / cap beams, emendas de vigas, deck instalado, patamares e lingas de içamento</text>
+<text class="b" x="40" y="70">Viga — eixo real × eixo de projeto (planta)</text>
+<line class="c" x1="60" y1="130" x2="840" y2="130"/>
+<path class="g" d="M60,140 Q450,90 840,128"/>
+<g id="cota-extremidade" class="cota"><line class="d" x1="61" y1="104" x2="61" y2="130" marker-end="url(#a)"/><line class="d" x1="61" y1="166" x2="61" y2="140" marker-end="url(#a)"/><line class="d" x1="61" y1="130" x2="61" y2="140"/><text x="70" y="170">eixo na extremidade</text></g>
+<g id="cota-out-of-line" class="cota"><line class="d" x1="450" y1="156" x2="450" y2="130" marker-end="url(#a)"/><line class="d" x1="450" y1="86" x2="450" y2="112" marker-end="url(#a)"/><line class="d" x1="450" y1="130" x2="450" y2="112"/><text x="470" y="90">desalinhamento ao longo do eixo</text></g>
+<text class="b" x="40" y="220">Emendas de vigas</text>
+<rect class="s" x="60" y="240" width="400" height="24"/>
+<line class="v" x1="160" y1="234" x2="160" y2="270"/>
+<line class="v" x1="340" y1="234" x2="340" y2="270"/>
+<g id="cota-emenda-vigas" class="cota"><line class="e" x1="160" y1="267" x2="160" y2="300"/><line class="e" x1="340" y1="267" x2="340" y2="300"/><line class="d" x1="160" y1="294" x2="340" y2="294" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="250" y="312">distância entre emendas</text></g>
+<text class="b" x="520" y="220">Deck instalado (elevação)</text>
+<line class="c" x1="520" y1="270" x2="860" y2="270"/>
+<text class="n en" x="860" y="262">elevação de projeto</text>
+<rect class="s" x="540" y="280" width="300" height="16"/>
+<g id="cota-elev-deck" class="cota"><line class="d" x1="851" y1="244" x2="851" y2="270" marker-end="url(#a)"/><line class="d" x1="851" y1="306" x2="851" y2="280" marker-end="url(#a)"/><line class="d" x1="851" y1="270" x2="851" y2="280"/><text class="en" x="840" y="320">elevação do deck</text></g>
+<g id="cota-nivelamento" class="cota"><line class="d" x1="540" y1="335" x2="600" y2="297" marker-end="url(#a)"/><text x="540" y="340">nivelamento final</text></g>
+<text class="b" x="40" y="400">Patamar / escada</text>
+<rect class="s" x="60" y="450" width="140" height="12"/>
+<line class="g" x1="200" y1="456" x2="320" y2="540"/>
+<line class="c" x1="40" y1="440" x2="220" y2="440"/>
+<g id="cota-patamar" class="cota"><line class="d" x1="211" y1="414" x2="211" y2="440" marker-end="url(#a)"/><line class="d" x1="211" y1="476" x2="211" y2="450" marker-end="url(#a)"/><line class="d" x1="211" y1="440" x2="211" y2="450"/><text x="230" y="430">elevação e locação do patamar</text></g>
+<text class="b" x="520" y="400">Lingas de içamento</text>
+<circle class="w" cx="690" cy="420" r="6"/>
+<line class="g" x1="690" y1="420" x2="560" y2="560"/>
+<line class="g" x1="690" y1="420" x2="830" y2="560"/>
+<rect class="s" x="540" y="560" width="310" height="16"/>
+<g id="cota-linga" class="cota"><line class="e" x1="692.2" y1="422" x2="712.7" y2="441.1"/><line class="e" x1="562.2" y1="562" x2="582.7" y2="581.1"/><line class="d" x1="708.3" y1="437" x2="578.3" y2="577" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="520" y="480">comprimento da linga</text></g>
+<g id="cota-diferenca-lingas" class="cota"><line class="d" x1="860" y1="475" x2="770" y2="495" marker-end="url(#a)"/><text class="en" x="860" y="480">diferença entre a mais longa e a mais curta</text></g>
+<text class="n" x="20" y="628">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

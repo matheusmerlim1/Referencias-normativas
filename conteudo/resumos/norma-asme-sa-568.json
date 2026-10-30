@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SA-568",
+ "titulo": "SA-568 — Requisitos gerais para chapas finas de aço carbono e ARBL laminadas a quente e a frio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns a chapas finas (bobinas e cortadas) de aço carbono e de alta resistência e baixa liga, laminadas a quente ou a frio, das especificações SA-414, A424, A606, A659, A794, SA-1008, SA-1011 etc.: fabricação, química, propriedades, tolerâncias, acabamento e marcação."
+  },
+  {
+   "titulo": "Fabricação e química",
+   "item": "4, 5",
+   "texto": "Laminado a quente é fornecido sem recozimento nem decapagem, salvo pedido. Linhas de quebra de bobina, estrias de estiramento e ondulações podem surgir no processamento — avisar o fabricante se forem prejudiciais. Composição pela especificação do produto ou pelos graus padronizados do Apêndice X2.",
+   "valores": [
+    {
+     "parametro": "Aço 1006 — C máx. / Mn máx. / P / S",
+     "valor": "0,08 % / 0,45 % / 0,030 % / 0,035 %",
+     "item": "Tabela X2.1"
+    },
+    {
+     "parametro": "Aço 1001 — C máx. / Mn máx.",
+     "valor": "0,01 % / 0,35 %",
+     "item": "Tabela X2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e tolerâncias",
+   "item": "6, 7, Anexos",
+   "texto": "Propriedades, número de corpos de prova e orientação conforme a especificação do produto (A370). Produto em espessura decimal; tolerâncias de espessura, largura, comprimento, planeza e esquadro nas tabelas e anexos."
+  },
+  {
+   "titulo": "Marcação",
+   "item": "15",
+   "texto": "No mínimo: fabricante, designação ASTM, massa, pedido do comprador e identificação do material."
+  }
+ ]
+}

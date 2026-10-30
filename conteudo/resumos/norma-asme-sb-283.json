@@ -1,0 +1,33 @@
+{
+ "id": "ASME-SB-283",
+ "titulo": "SB-283 — Forjados em matriz de cobre e ligas de cobre (prensados a quente)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Forjados em matriz prensados a quente de cobre e ligas de cobre: C11000, C14500, C14700, metal Muntz (C36500, C37000), latão de forjamento C37700, latões navais (C46400, C48200, C48500), bronzes e cupro-níquel, entre outros."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2, Tabela X3.1",
+   "texto": "Su mín. / escoamento mín. (0,5 %) / alongamento (exigidos para algumas ligas).",
+   "valores": [
+    {
+     "parametro": "C37700 até 1 1/2 in (38,1 mm), M10",
+     "valor": "50 ksi (345) / 18 ksi (124) / 25 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C37700 acima de 1 1/2 in — Su",
+     "valor": "46 ksi (317)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C11000 típico (informativo)",
+     "valor": "33 ksi (230) / 11 ksi (75) / 40 %",
+     "item": "Tabela X3.1"
+    }
+   ]
+  }
+ ]
+}

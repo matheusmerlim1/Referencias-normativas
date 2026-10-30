@@ -1,0 +1,53 @@
+{
+ "id": "NBR-ISO-2408",
+ "titulo": "ABNT NBR ISO 2408:2008 (versão corrigida 2009) — Cabos de aço para uso geral — Requisitos mínimos",
+ "secoes": [
+  {"titulo": "Escopo", "item": "1",
+   "texto": "Requisitos mínimos de fabricação e ensaio de cabos de aço de uso geral (inclui guindastes, guinchos e lingas), com tabelas de carga de ruptura mínima por diâmetro, classe e categoria. Não cobre cabos para petróleo e gás (ISO 10425), teleféricos, elevadores de passageiros e pesca.",
+   "valores": []},
+  {"titulo": "Materiais", "item": "4.1",
+   "texto": "Arames conforme o Anexo A (diâmetro, torção, zincagem — base ISO 2232). Alma de aço (cabo independente AACI ou perna AA), fibra natural tratada contra apodrecimento, fibra sintética, composta ou polímero sólido. Lubrificante conforme ISO 4346.",
+   "valores": [
+    {"parametro": "Categoria do cabo 1 570 — faixa dos arames", "valor": "1 370 a 1 770 N/mm²", "item": "Tab. 1"},
+    {"parametro": "Categoria 1 770 — arames", "valor": "1 570 a 1 960 N/mm²", "item": "Tab. 1"},
+    {"parametro": "Categoria 1 960 — arames", "valor": "1 770 a 2 160 N/mm²", "item": "Tab. 1"},
+    {"parametro": "Categoria 2 160 — arames", "valor": "1 960 a 2 160 N/mm²", "item": "Tab. 1"}
+   ]},
+  {"titulo": "Fabricação", "item": "4.2",
+   "texto": "Arames de uma perna com o mesmo sentido; folga entre pernas externas no cabo novo (exceto compactado); cabo uniforme, sem arames frouxos ou ondulação. Cabos pré-formados e/ou pós-formados salvo pedido em contrário. Acabamento polido, galvanizado classe B ou A (Zn95/Al5 permitido). Torção regular ou lang, à direita ou à esquerda (sZ, zS, zZ, sS) — especificada pelo comprador.",
+   "valores": [
+    {"parametro": "Emenda de arame > 0,4 mm", "valor": "por brasagem ou solda", "item": "4.2.2"},
+    {"parametro": "Classes cobertas", "valor": "6×7, 6×24AF, 6×37M, 6×19, 6×36, 8×19, 8×36, 6×25TS, 18×7, 34(M)×7, 35(W)×7", "item": "4.2.5"}
+   ]},
+  {"titulo": "Dimensões", "item": "4.4",
+   "texto": "O cabo é designado pelo diâmetro nominal; o diâmetro medido fica numa faixa só positiva em relação ao nominal (Tabela 2, por faixa de diâmetro e tipo de perna/alma), e a diferença entre medições tem limite (Tabela 3). Passo e comprimento entregue também são limitados.",
+   "valores": [
+    {"parametro": "Tolerância de diâmetro", "valor": "0 a +5 % … +9 % conforme diâmetro e tipo de alma", "item": "Tab. 2", "nota": "tabela de OCR parcial — conferir a faixa de cada diâmetro"},
+    {"parametro": "Passo do cabo 6×7", "valor": "≤ 8d", "item": "4.4.2"},
+    {"parametro": "Passo de cabos de pernas perfiladas (triangulares)", "valor": "≤ 10d", "item": "4.4.2"},
+    {"parametro": "Comprimento entregue — ≤ 400 m", "valor": "0 a +5 %", "item": "4.4.3"},
+    {"parametro": "Comprimento entregue — 400 a 1 000 m", "valor": "0 a +20 m", "item": "4.4.3"},
+    {"parametro": "Comprimento entregue — > 1 000 m", "valor": "0 a +2 %", "item": "4.4.3"}
+   ]},
+  {"titulo": "Carga de ruptura", "item": "4.5, Tab. 4",
+   "texto": "A carga de ruptura mínima Fmin vem das Tabelas C.1 a C.14 (ou é declarada pelo fabricante); diâmetros intermediários pela fórmula do Anexo D. O ensaio de ruptura deve dar Fm ≥ Fmin. Frequência de ensaio depende de o fabricante ter ISO 9001 certificada e de produzir em série; com ensaio de tipo, ensaio periódico a cada 20 lances de produção.",
+   "valores": [
+    {"parametro": "Fmin — 6×19 alma de fibra, Ø 10 mm (1 770 / 1 960 / 2 160)", "valor": "58,4 / 64,7 / 71,3 kN", "item": "Tab. C.6"},
+    {"parametro": "Fmin — 6×19 alma de fibra, Ø 8 mm (1 770 / 1 960 / 2 160)", "valor": "37,4 / 41,4 / 45,6 kN", "item": "Tab. C.6"},
+    {"parametro": "Massa aproximada 6×19 AF, Ø 10 mm", "valor": "35,9 kg/100 m", "item": "Tab. C.6"},
+    {"parametro": "Ensaio periódico com ensaio de tipo", "valor": "1 amostra a cada 20 lances de produção", "item": "4.5.1"}
+   ]},
+  {"titulo": "Métodos de verificação", "item": "5",
+   "texto": "Diâmetro: em trecho reto, sem tração ou com menos de 5 % de Fmin, em duas posições a ≥ 1 m, duas leituras a 90° do círculo circunscrito. Ruptura: Método 1 (medida, NBR ISO 3108), Método 2 (soma dos arames retirados do cabo × fator de perda), Método 3 (soma dos arames antes do encablamento × fator total de perda do ensaio de tipo). Se os métodos 2/3 não atingirem Fmin, refazer pelo Método 1.",
+   "valores": [
+    {"parametro": "Tração máxima na medição do diâmetro", "valor": "< 5 % de Fmin", "item": "5.3"},
+    {"parametro": "Comprimento livre mínimo no ensaio de ruptura", "valor": "maior de 600 mm ou 30d", "item": "5.4.1 b)"},
+    {"parametro": "Taxa de carga após 80 % de Fmin", "valor": "≤ 0,5 % de Fmin por segundo", "item": "5.4.1 c)"},
+    {"parametro": "Ensaio desconsiderado", "valor": "ruptura a até 6d da garra sem atingir Fmin", "item": "5.4.1 e)"},
+    {"parametro": "Reensaio", "valor": "3 ensaios extras; um deve atingir Fmin", "item": "5.4.1 f)"}
+   ]},
+  {"titulo": "Certificado, embalagem e anexos", "item": "6, Anexos A–G",
+   "texto": "Certificado com designação, Fmin e resultados; marcação na bobina/carretel. Anexos: A arames (tolerâncias, torções, zinco); B ensaio de tipo; C tabelas de Fmin e massa por classe; D fatores de carga de ruptura e de perda; E defeitos; F diâmetros métricos × polegadas; G comparação de categorias.",
+   "valores": []}
+ ]
+}

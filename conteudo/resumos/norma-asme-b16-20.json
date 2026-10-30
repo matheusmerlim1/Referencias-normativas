@@ -1,0 +1,47 @@
+{
+ "id": "ASME-B16.20",
+ "titulo": "ASME B16.20 — Juntas metálicas para flanges (anel RTJ, espiralada, encamisada, kammprofile)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Trata das juntas metálicas e semimetálicas usadas em flanges de tubulação: anéis de junta (tipos R, RX e BX), espiraladas, encamisadas e ranhuradas com cobertura (kammprofile). Servem para flanges B16.5, B16.47 e de cabeça de poço (API 6A / ISO 10423). As dimensões por classe e NPS estão nas tabelas da ficha flange-asme-b16-5.",
+   "valores": []
+  },
+  {
+   "titulo": "Anéis RTJ",
+   "item": "2",
+   "texto": "O anel tem que ser mais macio que o flange, para deformar e vedar sem marcar a canaleta. A tabela de durezas dá o máximo por material. O acabamento das faces de vedação é fino, mais ainda no tipo BX.",
+   "valores": [
+    {"parametro": "Dureza máx. — ferro doce / aço baixo carbono", "valor": "90 HB / 120 HB", "item": "Tabela 1"},
+    {"parametro": "Dureza máx. — 4–6Cr ½Mo / 410 / 304-316-347", "valor": "130 / 170 / 160 HB", "item": "Tabela 1"},
+    {"parametro": "Acabamento R e RX / BX", "valor": "≤ 1,6 µm (63 µin) / ≤ 0,8 µm (32 µin)", "item": "2.6", "cota": "esquemas/flange-asme-b16-5-anel-rtj.svg#H"}
+   ]
+  },
+  {
+   "titulo": "Juntas espiraladas",
+   "item": "3",
+   "texto": "Fita metálica em V enrolada com enchimento, com voltas iniciais e finais só de metal, soldadas a ponto. O anel centralizador externo é obrigatório. O anel interno é obrigatório com PTFE, normalmente com grafite e sempre em diâmetros e classes altos. A junta é dimensionada para chegar a uma espessura comprimida com tensão típica de parafuso. Marcação no anel externo e código de cores (borda = metal da espiral; listras = enchimento).",
+   "valores": [
+    {"parametro": "Espessura da fita", "valor": "0,15 a 0,23 mm", "item": "3.2.2", "cota": "esquemas/flange-asme-b16-5-junta-espiralada-b16-20.svg#espiral"},
+    {"parametro": "Voltas metálicas sem enchimento", "valor": "≥ 3 no início e no fim; soldas internas a ≤ 76 mm", "item": "3.2.3"},
+    {"parametro": "Espessura dos anéis centralizador e interno", "valor": "2,97 a 3,33 mm", "item": "3.2.4; 3.2.5", "cota": "esquemas/flange-asme-b16-5-junta-espiralada-b16-20.svg#anel-centralizador-esp"},
+    {"parametro": "Anel interno obrigatório (qualquer enchimento)", "valor": "NPS ≥ 24 Cl. 900; NPS ≥ 12 Cl. 1500; NPS ≥ 4 Cl. 2500", "item": "3.2.5"},
+    {"parametro": "Avanço do anel interno no furo do flange", "valor": "até 1,5 mm", "item": "3.2.5"},
+    {"parametro": "Espessura comprimida de projeto", "valor": "3,30 ± 0,13 mm com 207 MPa no parafuso (NPS ½–1, Cl. 150–600: 172 MPa)", "item": "3.2.6", "cota": "esquemas/flange-asme-b16-5-junta-espiralada-b16-20.svg#compressao"},
+    {"parametro": "Altura mínima das letras de marcação", "valor": "2,5 mm", "item": "3.4"}
+   ]
+  },
+  {
+   "titulo": "Juntas encamisadas e kammprofile",
+   "item": "4; 5",
+   "texto": "A encamisada tem enchimento macio dentro de uma camisa metálica fina. A kammprofile tem núcleo metálico com ranhuras concêntricas e uma camada fina de cobertura em cada face; o núcleo só pode ser soldado a partir de certo diâmetro.",
+   "valores": [
+    {"parametro": "Camisa / enchimento (encamisada)", "valor": "≥ 0,38 mm / ≥ 1,5 mm", "item": "4.2.2; 4.2.3", "cota": "esquemas/flange-asme-b16-5-junta-plana-b16-21.svg#camisa"},
+    {"parametro": "Núcleo kammprofile", "valor": "2,97 a 3,33 mm", "item": "5.2", "cota": "esquemas/flange-asme-b16-5-junta-plana-b16-21.svg#nucleo"},
+    {"parametro": "Cobertura por face (kammprofile)", "valor": "0,46 a 0,56 mm", "item": "5.2"},
+    {"parametro": "Núcleo soldado permitido", "valor": "só NPS ≥ 14", "item": "5.2"}
+   ]
+  }
+ ]
+}

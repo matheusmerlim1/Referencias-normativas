@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SB-804",
+ "titulo": "SB-804 — Tubos (pipe) soldados de ligas N08367 e N08926 (grandes diâmetros)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe) soldados das ligas N08367 e N08926 para serviço corrosivo geral; na prática comercial, a partir de 8 in de diâmetro nominal. Seis classes conforme tratamento e exames."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N08367 até 3/16 in",
+     "valor": "100 ksi (690) / 45 ksi (310) / 30 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N08367 acima de 3/16 in",
+     "valor": "95 ksi (655) / 45 ksi (310) / 30 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N08926 acima de 3/16 in",
+     "valor": "94 ksi (650) / 43 ksi (295) / 35 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Solda",
+   "item": "6.2",
+   "texto": "O metal de solda depositado deve ter teor de liga conforme a norma."
+  }
+ ]
+}

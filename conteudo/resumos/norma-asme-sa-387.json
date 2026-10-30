@@ -1,0 +1,149 @@
+{
+ "id": "ASME-SA-387",
+ "titulo": "SA-387 — Chapas de aço liga Cr-Mo para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço cromo-molibdênio para caldeiras e vasos de pressão soldados em alta temperatura. Cada grau tem Classe 1 e Classe 2 (exceto 21L e 22L, só Classe 1, e 91, só Classe 2). Requisitos gerais pela SA-20.",
+   "valores": [
+    {
+     "parametro": "Grau 2 (Cr / Mo nominais)",
+     "valor": "0,50 % / 0,50 %",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Grau 12",
+     "valor": "1,00 % / 0,50 %",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Grau 11",
+     "valor": "1,25 % / 0,50 %",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Graus 22, 22L",
+     "valor": "2,25 % / 1,00 %",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Graus 21, 21L",
+     "valor": "3,00 % / 1,00 %",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Grau 5",
+     "valor": "5,00 % / 0,50 %",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Graus 9 e 91",
+     "valor": "9,00 % / 1,00 %",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Aço acalmado. Recozimento, normalização e revenimento ou (se o comprador permitir) resfriamento acelerado e revenimento.",
+   "valores": [
+    {
+     "parametro": "Revenimento mín. — Graus 2, 12, 11",
+     "valor": "1150 °F [620 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "— Graus 22, 22L, 21, 21L, 9",
+     "valor": "1250 °F [675 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "— Grau 5",
+     "valor": "1300 °F [705 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Grau 91 — normalização / revenimento",
+     "valor": "1900–1975 °F [1040–1080 °C] / 1350–1470 °F [730–800 °C]",
+     "item": "5.1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Análise de corrida.",
+   "valores": [
+    {
+     "parametro": "C — Grau 11 / 22 / 91",
+     "valor": "0,05–0,17 / 0,05–0,15 / 0,08–0,12 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C máx. — 22L, 21L / 5, 9",
+     "valor": "0,10 % / 0,15 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn — Grau 2 / 11, 12 / demais",
+     "valor": "0,55–0,80 / 0,40–0,65 / 0,30–0,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. — maioria / 9 / 91",
+     "valor": "0,035 / 0,030 / 0,020 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 3",
+   "texto": "Su / Sy mín. / alongamento mín. em 50 mm.",
+   "valores": [
+    {
+     "parametro": "Classe 1 — Graus 2 e 12",
+     "valor": "55–80 ksi [380–550] / 33 ksi [230] / 22 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 1 — Grau 11",
+     "valor": "60–85 ksi [415–585] / 35 ksi [240] / 22 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 1 — Graus 22, 21, 5, 9, 21L, 22L",
+     "valor": "60–85 ksi [415–585] / 30 ksi [205] / 18 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 2 — Grau 11",
+     "valor": "75–100 ksi [515–690] / 45 ksi [310] / 22 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Classe 2 — Graus 22, 21, 5, 9",
+     "valor": "75–100 ksi [515–690] / 45 ksi [310] / 18 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Classe 2 — Grau 12",
+     "valor": "65–85 ksi [450–585] / 40 ksi [275] / 22 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau 91",
+     "valor": "85–110 ksi [585–760] / 60 ksi [415] / 18 %",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "9",
+   "texto": "Marcação da SA-20 + grau e classe; Grau 2 tem grão austenítico grosso."
+  }
+ ]
+}

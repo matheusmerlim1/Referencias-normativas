@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SB-160",
+ "titulo": "SB-160 — Barras e vergalhões de níquel (Níquel 200 e 201)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras de níquel (UNS N02200) e níquel baixo carbono (N02201), trabalhadas a quente ou a frio, nas condições da Tabela 1."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "N02200 (níquel 200) e N02201 (níquel 201, baixo carbono).",
+   "valores": [
+    {
+     "parametro": "Ni mín.",
+     "valor": "99,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Cu máx. / Fe máx. / Mn máx.",
+     "valor": "0,25 % / 0,40 % / 0,35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C máx. — N02200 / N02201",
+     "valor": "0,15 % / 0,02 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1",
+   "texto": "N02200 — Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "Trabalhado a frio, redondo até 1 in",
+     "valor": "80 000 psi (550) / 60 000 psi (415) / 10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Trabalhado a quente, todas as seções",
+     "valor": "60 000 psi (415) / 15 000 psi (105) / 35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Recozido — Su mín.",
+     "valor": "55 000 psi",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "16",
+   "texto": "Material ou embalagem identificado com especificação, liga, condição e corrida."
+  }
+ ]
+}

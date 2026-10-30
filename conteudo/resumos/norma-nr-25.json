@@ -1,0 +1,26 @@
+{
+ "id": "NR-25",
+ "titulo": "NR-25 — Resíduos industriais",
+ "secoes": [
+  {
+   "titulo": "Definição e redução",
+   "item": "25.1–25.2",
+   "texto": "Resíduo industrial é o que sai do processo industrial (sólido, líquido, gasoso ou misto) e, por suas propriedades, difere do lixo doméstico — cinzas, lodos, óleos, ácidos e álcalis, escórias, poeiras, borras, material dos sistemas antipoluição, efluentes e emissões. A empresa deve buscar gerar menos resíduo com a melhor prática disponível.",
+   "valores": []
+  },
+  {
+   "titulo": "Destinação e controle",
+   "item": "25.3",
+   "texto": "É proibido soltar no ambiente de trabalho contaminantes que afetem a saúde. Os sistemas de controle de emissões passam pela aprovação dos órgãos competentes. Resíduos sólidos e líquidos são coletados, acondicionados, armazenados, transportados, tratados e destinados pela empresa, com controle de risco em cada etapa. Resíduos muito tóxicos ou perigosos são destinados com apoio de entidades especializadas; radioativos seguem a CNEN; os de risco biológico, a legislação sanitária e ambiental.",
+   "valores": [
+    {"parametro": "Rejeito radioativo", "valor": "disposição conforme CNEN", "item": "25.3.3.1"}
+   ]
+  },
+  {
+   "titulo": "Capacitação",
+   "item": "25.5",
+   "texto": "Quem coleta, manuseia, armazena, transporta, trata ou dispõe resíduos recebe capacitação continuada sobre os riscos e as medidas de controle.",
+   "valores": []
+  }
+ ]
+}

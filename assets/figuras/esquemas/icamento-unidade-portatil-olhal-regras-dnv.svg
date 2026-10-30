@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 590" width="800" height="590" role="img" aria-label="Olhal (padeye) — regras geométricas DNV-ST-E273 3.8.4 / DNV-ST-E271 4.4.1">
+<title>Olhal (padeye) — regras geométricas DNV-ST-E273 3.8.4 / DNV-ST-E271 4.4.1</title>
+<style>
+.o{stroke:#666;stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.k{stroke:#666;stroke-width:3;fill:none;stroke-linecap:round}
+.f{fill:#999;fill-opacity:.25;stroke:#666;stroke-width:1.6}
+.w{fill:#999;fill-opacity:.08;stroke:#666;stroke-width:1.6}
+.h{fill:url(#hz);stroke:#666;stroke-width:1.4}
+.c{stroke:#666;stroke-width:1;fill:none;stroke-dasharray:12 4 2 4}
+.x{stroke:#666;stroke-width:1.3;fill:none;stroke-dasharray:6 4}
+.t{stroke:#666;stroke-width:1.1;fill:none}
+.dim{stroke:#666;stroke-width:1.2;fill:none;marker-start:url(#a);marker-end:url(#a)}
+.ar{stroke:#666;stroke-width:2;fill:none;marker-end:url(#a)}
+.r{stroke:#666;stroke-width:9;fill:none;stroke-linecap:round;stroke-linejoin:round}
+text{font-family:Arial,Helvetica,sans-serif;font-size:13px;fill:#333;stroke:#fff;stroke-width:3px;paint-order:stroke;stroke-linejoin:round}
+.s{font-size:11.5px}.b{font-weight:bold}.ti{font-size:15px;font-weight:bold}.n{font-size:11px;font-style:italic}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L10,5 L0,9 z" fill="#666"/></marker>
+<pattern id="hz" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern>
+</defs>
+<text class="ti" x="12.0" y="24.0" text-anchor="start">Olhal (padeye) — regras geométricas DNV-ST-E273 3.8.4 / DNV-ST-E271 4.4.1</text>
+<path class="f" d="M90,385 L124.5,238 A92,92 0 1,1 295.5,238 L330,385 Z" />
+<line class="o" x1="60.0" y1="385.0" x2="360.0" y2="385.0" />
+<circle class="w" cx="210.0" cy="205.0" r="40" />
+<circle class="h" cx="210.0" cy="205.0" r="33" />
+<line class="c" x1="100.0" y1="205.0" x2="320.0" y2="205.0" />
+<line class="c" x1="210.0" y1="90.0" x2="210.0" y2="395.0" />
+<g id="cota-R" class="cota"><line class="ar" x1="210.0" y1="205.0" x2="269.1" y2="134.5" /><text x="275.1" y="130.5" text-anchor="start">R (raio externo)</text></g>
+<g id="cota-DH" class="cota"><line class="t" x1="170.0" y1="205.0" x2="170.0" y2="285.0" /><line class="t" x1="250.0" y1="205.0" x2="250.0" y2="285.0" /><line class="dim" x1="170.0" y1="278.0" x2="250.0" y2="278.0" /><text x="210.0" y="271.0" text-anchor="middle" font-size="13px">DH (Ø do furo)</text></g>
+<text class="s" x="258.0" y="227.0" text-anchor="start">pino (Ø Dpin)</text>
+<text class="b" x="210.0" y="418.0" text-anchor="middle">Vista frontal</text>
+<rect class="f" x="475" y="110" width="30" height="275" />
+<line class="o" x1="440.0" y1="385.0" x2="545.0" y2="385.0" />
+<line class="k" x1="455.0" y1="150.0" x2="455.0" y2="260.0" />
+<line class="k" x1="525.0" y1="150.0" x2="525.0" y2="260.0" />
+<path class="k" d="M455,150 C455,60 525,60 525,150" />
+<rect class="h" x="440" y="197" width="100" height="16" />
+<g id="cota-t" class="cota"><line class="dim" x1="475.0" y1="345.0" x2="505.0" y2="345.0" /><text class="b" x="468.0" y="350.0" text-anchor="end">t</text></g>
+<g id="cota-largura-manilha" class="cota"><line class="t" x1="455.0" y1="260.0" x2="455.0" y2="300.0" /><line class="t" x1="525.0" y1="260.0" x2="525.0" y2="300.0" /><line class="dim" x1="455.0" y1="294.0" x2="525.0" y2="294.0" /><text x="490.0" y="318.0" text-anchor="middle" font-size="13px">largura interna da manilha</text></g>
+<text class="s" x="560.0" y="80.0" text-anchor="start">manilha</text>
+<text class="b" x="490.0" y="418.0" text-anchor="middle">Vista lateral (manilha no olhal)</text>
+<text class="b" x="30.0" y="460.0" text-anchor="start" font-size="12.5px">DNV-ST-E273 3.8.4: R ≥ DH (raio externo ≥ Ø do furo do pino); t no furo (com chapas de reforço) ≥ 75 % da largura</text>
+<text x="30.0" y="481.0" text-anchor="start" font-size="12.5px">  interna da manilha; furo − pino o menor possível; com carga fora do plano &gt; 10 %: Ø pino ≥ 94 % do Ø furo (recomendado)</text>
+<text class="b" x="30.0" y="502.0" text-anchor="start" font-size="12.5px">DNV-ST-E271 4.4.1 (container): folga entre pino e furo ≤ 6 % do Ø do pino; t ≥ 75 % da largura interna da manilha</text>
+<text x="30.0" y="523.0" text-anchor="start" font-size="12.5px">  (se menor: chapas de reforço soldadas ou bucha/tubo de parede grossa)</text>
+<text class="b" x="30.0" y="544.0" text-anchor="start" font-size="12.5px">NORSOK R-002 F.1.1: resultante da lingada no plano do olhal, ± 2°</text>
+<text class="n" x="790" y="582" text-anchor="end">Esquema ilustrativo, fora de escala (não é desenho da norma) — valores transcritos da ficha</text>
+</svg>

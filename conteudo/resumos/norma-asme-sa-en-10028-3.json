@@ -1,0 +1,23 @@
+{
+ "id": "ASME-SA-EN-10028-3",
+ "titulo": "SA/EN 10028-3 — Produtos planos de aço para fins de pressão: aços soldáveis de grão fino, normalizados",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "Capa ASME",
+   "texto": "Especificação estrangeira adotada pela ASME (Seção II Parte A) idêntica à BS EN 10028-3:1992, com os requisitos adicionais da folha de rosto; nenhuma outra edição é aprovada para uso ASME. O texto da norma de origem não está reproduzido no volume do acervo."
+  },
+  {
+   "titulo": "Requisitos adicionais ASME",
+   "item": "Capa ASME",
+   "texto": "Prefixo 'SA/' na marcação e documentos. Tratamento completo → marca 'MT'; chapas qualificadas por corpos de prova tratados → marca 'G'. Propriedades acima de 150 mm iguais às de 100–150 mm.",
+   "valores": [
+    {
+     "parametro": "Propriedades para espessura > 150 mm",
+     "valor": "iguais às da faixa 100–150 mm (Tabela 4)",
+     "item": "Capa, item 2"
+    }
+   ]
+  }
+ ]
+}

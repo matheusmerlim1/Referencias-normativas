@@ -1,0 +1,92 @@
+{
+ "id": "ASME-SA-225",
+ "titulo": "SA-225 — Chapas de aço liga Mn-V-Ni para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço liga manganês-vanádio-níquel, sobretudo para vasos de pressão soldados de camadas múltiplas (layered). Graus C e D. Requisitos gerais pela SA-20.",
+   "valores": [
+    {
+     "parametro": "Espessura máx. usual — Grau C / D",
+     "valor": "0,58 in [15 mm] / 6 in [150 mm]",
+     "item": "1.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4, 5",
+   "texto": "Aço acalmado de grão fino. Grau D sempre normalizado; Grau C normalizado acima de 2 in [50 mm] e, abaixo disso, em geral como laminado (normalização/alívio de tensões opcionais)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Análise de corrida.",
+   "valores": [
+    {
+     "parametro": "C máx. — C / D",
+     "valor": "0,25 % / 0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx. — C / D",
+     "valor": "1,60 % / 1,70 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si — C / D",
+     "valor": "0,15–0,40 % / 0,10–0,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "V — C / D",
+     "valor": "0,13–0,18 % / 0,10–0,18 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni",
+     "valor": "0,40–0,70 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau C — Su / Sy mín.",
+     "valor": "105–135 ksi [725–930 MPa] / 70 ksi [485 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau D até 3 in [75 mm] — Su / Sy mín.",
+     "valor": "80–105 ksi [550–725 MPa] / 60 ksi [415 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau D acima de 3 in — Su / Sy mín.",
+     "valor": "75–100 ksi [515–690 MPa] / 55 ksi [380 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm — C / D",
+     "valor": "20 % / 19 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "Suplementares",
+   "texto": "Os opcionais padronizados da SA-20 (ensaios adicionais, Charpy, ultrassom etc.), só quando pedidos."
+  }
+ ]
+}

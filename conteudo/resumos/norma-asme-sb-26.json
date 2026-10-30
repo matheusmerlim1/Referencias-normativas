@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SB-26",
+ "titulo": "SB-26 — Fundidos de liga de alumínio em areia",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Peças de liga de alumínio fundidas em areia, nas ligas e têmperas da Tabela 1 (designações ANSI H35.1 e UNS)."
+  },
+  {
+   "titulo": "Fabricação e tratamento",
+   "item": "6, 16, 17",
+   "texto": "O fundidor responde por peças usináveis às dimensões do desenho. Tratamento térmico conforme B597, sempre na peça inteira. Reparo só por processos acordados."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "7, Tabela 1",
+   "texto": "Determinada em amostras do vazamento ou das peças.",
+   "valores": [
+    {
+     "parametro": "356.0 — Si / Mg",
+     "valor": "6,5–7,5 % / 0,20–0,45 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "11, Tabelas 2 e 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín. em corpos de prova fundidos à parte.",
+   "valores": [
+    {
+     "parametro": "356.0-T6",
+     "valor": "30,0 ksi [205 MPa] / 20,0 ksi [140 MPa] / 3,0 %",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "356.0-F",
+     "valor": "19,0 ksi [130] / 9,5 ksi [65] / 2,0 %",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "201.0-T7",
+     "valor": "60,0 ksi [415] / 50,0 ksi [345] / 3,0 %",
+     "item": "Tabelas 2 e 3"
+    }
+   ]
+  }
+ ]
+}

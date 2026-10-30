@@ -1,0 +1,62 @@
+{
+ "id": "ASME-SB-515",
+ "titulo": "SB-515 — Tubos soldados de ligas Ni-Fe-Cr para caldeiras, trocadores e condensadores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos soldados das ligas N08120, N08800, N08810 e N08811 para caldeiras, trocadores e condensadores, em serviço corrosivo em baixa ou alta temperatura.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "1/8 a 5 in (3,18 a 127 mm) DE; parede 0,015 a 0,500 in (0,38 a 12,70 mm)",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela de química",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N08800/N08810/N08811 — Ni / Cr",
+     "valor": "30,0–35,0 % / 19,0–23,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N08800 — Fe mín.",
+     "valor": "39,5 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N08120 — Ni / Cr",
+     "valor": "35,0–39,0 % / 23,0–27,0 %",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N08120 recozida",
+     "valor": "90 000 psi (621) / 40 000 psi (276) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08800 recozida",
+     "valor": "75 000 psi (520) / 30 000 psi (205) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08810 (e N08811) recozida",
+     "valor": "65 000 psi (450) / 25 000 psi (170) / 30 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

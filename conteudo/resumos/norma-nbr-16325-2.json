@@ -1,0 +1,122 @@
+{
+ "id": "NBR-16325-2",
+ "titulo": "ABNT NBR 16325-2:2014 — Dispositivos de ancoragem tipo C (linhas de vida horizontais flexíveis)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Dispositivos de ancoragem tipo C: linhas de vida flexíveis horizontais (ou com pouca inclinação), permanentes ou temporárias, usadas por um ou mais trabalhadores com sistema de retenção de queda.",
+   "valores": [
+    {
+     "parametro": "Desvio máximo do plano horizontal",
+     "valor": "≤ 15°",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos construtivos",
+   "item": "4.3",
+   "texto": "O ponto móvel não se solta sem querer (bloqueador de fim de linha; abrir exige duas ações manuais). Sem arestas vivas. Cabo galvanizado, grampos com sapatilha, fibras sintéticas virgens sem polipropileno, conectores normalizados. Peças que um homem carrega têm peso limitado. Fixar a linha numa ancoragem intermediária a transforma em extremidade. Resistência à névoa salina não significa aptidão para ambiente marinho.",
+   "valores": [
+    {
+     "parametro": "Tenacidade mínima de fibras",
+     "valor": "≥ 0,6 N/tex",
+     "item": "4.3"
+    },
+    {
+     "parametro": "Peso de elemento carregado por uma pessoa",
+     "valor": "≤ 25 kg",
+     "item": "4.3"
+    },
+    {
+     "parametro": "Força máxima no trabalhador (sistema)",
+     "valor": "≤ 6 kN",
+     "item": "A.1; 4.3.16"
+    }
+   ]
+  },
+  {
+   "titulo": "Desempenho",
+   "item": "4.4",
+   "texto": "Ensaio estático em vários pontos (extremidade, intermediária, canto, emendas, meio dos vãos) com força mínima que cresce com usuários adicionais e é maior para elementos não metálicos sem prova de durabilidade. No ensaio dinâmico, forças e deflexão ficam perto do previsto pelo fabricante, a massa não toca o chão e nada rompe. Deformação permanente pequena em partes não projetadas para deformar.",
+   "valores": [
+    {
+     "parametro": "Força estática",
+     "valor": "12 kN por 3 min (+1 kN por usuário adicional)",
+     "item": "4.4.1"
+    },
+    {
+     "parametro": "Força estática — não metálico sem prova de durabilidade",
+     "valor": "18 kN",
+     "item": "4.4.1"
+    },
+    {
+     "parametro": "Dinâmico — desvio de força e deflexão vs. previsto",
+     "valor": "± 20 %",
+     "item": "4.4.2",
+     "cota": "esquemas/ancoragem-linha-de-vida-tipo-c.svg#deflexao"
+    },
+    {
+     "parametro": "Força na ancoragem de extremidade",
+     "valor": "≤ 50 % da ruptura da linha",
+     "item": "4.4.2"
+    },
+    {
+     "parametro": "Deformação permanente",
+     "valor": "≤ 10 mm",
+     "item": "4.4.3",
+     "cota": "esquemas/ancoragem-linha-de-vida-tipo-c.svg#deformacao"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação e instruções",
+   "item": "6–7",
+   "texto": "O fabricante informa deflexão máxima, deslocamento do ponto de ancoragem, ângulos admissíveis nas intermediárias, número de usuários, vãos e zona livre de queda necessária.",
+   "valores": []
+  },
+  {
+   "titulo": "Instalação, documentação e inspeção",
+   "item": "Anexo A",
+   "texto": "Projeto e responsabilidade de profissional habilitado; instalação por pessoa qualificada; base capaz de receber as forças do ensaio dinâmico; aterramento avaliado. Documentar local, responsáveis, modelo, fixações (com fotos das ocultas) e afixar plano no acesso. Inspeção periódica com data marcada; dispositivo reprovado é etiquetado.",
+   "valores": [
+    {
+     "parametro": "Inspeção periódica",
+     "valor": "≤ 12 meses",
+     "item": "A.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Fator de queda e zona livre de queda",
+   "item": "Anexo C",
+   "texto": "O fator de queda (queda livre ÷ comprimento do talabarte) vai de 0 a 2; quanto maior, pior. A zona livre de queda abaixo da ancoragem soma o comprimento do talabarte com a abertura do absorvedor e a deflexão da linha, a altura do engate do cinturão aos pés e uma margem de segurança.",
+   "valores": [
+    {
+     "parametro": "Fator de queda",
+     "valor": "0 a 2",
+     "item": "C"
+    },
+    {
+     "parametro": "ZLQ",
+     "valor": "A + B + C",
+     "item": "C.2",
+     "cota": "esquemas/ancoragem-linha-de-vida-zlq.svg#zlq"
+    },
+    {
+     "parametro": "B — engate do cinturão aos pés",
+     "valor": "1,5 m",
+     "item": "C.2",
+     "cota": "esquemas/ancoragem-linha-de-vida-zlq.svg#B"
+    },
+    {
+     "parametro": "C — espaço de segurança",
+     "valor": "1 m",
+     "item": "C.2",
+     "cota": "esquemas/ancoragem-linha-de-vida-zlq.svg#C"
+    }
+   ]
+  }
+ ]
+}

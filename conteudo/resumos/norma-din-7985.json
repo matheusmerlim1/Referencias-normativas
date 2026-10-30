@@ -1,0 +1,42 @@
+{
+ "id": "DIN-7985",
+ "titulo": "DIN 7985:1986 — Parafusos de cabeça cilíndrica abaulada com fenda cruzada",
+ "secoes": [
+  {
+   "titulo": "Dimensões",
+   "item": "1",
+   "texto": "Parafuso de cabeça cilíndrica abaulada (lentilha) com fenda cruzada H ou Z, M1,6 a M10, roscado até a cabeça (acima da linha escalonada) ou com parte lisa (abaixo; haste com diâmetro igual ao da rosca ou ≈ diâmetro de flanco). Se pedido roscado até a cabeça em comprimento abaixo da linha, acrescentar o símbolo A à designação.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M1,6 a M10",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos",
+   "item": "2",
+   "texto": "Requisitos gerais pela DIN 267-1.",
+   "valores": [
+    {
+     "parametro": "Tolerância de rosca",
+     "valor": "6g (permite revestimento normal pela DIN 267-9)",
+     "item": "2"
+    },
+    {
+     "parametro": "Classes",
+     "valor": "aço 4.8, 5.8, 8.8 (ISO 898-1); inox A2-70, A4-70; latão CuZn",
+     "item": "2",
+     "nota": "cópia OCR — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "3",
+   "texto": "Ex. da norma: M6, l = 20 mm, fenda tipo H, classe 4.8 → Parafuso DIN 7985 – M6 × 20 – H – 4.8. Variantes pela DIN 962; com rosca laminante pela DIN 7500.",
+   "valores": []
+  }
+ ]
+}

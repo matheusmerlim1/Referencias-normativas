@@ -1,0 +1,69 @@
+{
+ "id": "ASME-SB-148",
+ "titulo": "SB-148 — Fundidos de bronze de alumínio em areia",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Peças fundidas em areia de bronzes de alumínio, níquel-alumínio e manganês-níquel-alumínio (UNS C95200 a C95900)."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5, Tabela 4",
+   "texto": "C95800 para água do mar recebe recozimento de têmpera; outras ligas têm solubilização e recozimento sugeridos.",
+   "valores": [
+    {
+     "parametro": "C95800 — recozimento para água do mar",
+     "valor": "1250 ± 50 °F (675 ± 10 °C)",
+     "item": "5.1",
+     "nota": "equivalente em °C truncado na extração; conferir"
+    },
+    {
+     "parametro": "C95400 — solubilização",
+     "valor": "1600–1675 °F",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição nominal",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C95200 — Cu / Fe / Al",
+     "valor": "88,0 / 3,0 / 9,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C95400 — Cu / Fe / Al",
+     "valor": "85,0 / 4,0 / 11,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. em barras fundidas à parte.",
+   "valores": [
+    {
+     "parametro": "C95200",
+     "valor": "65 ksi (450) / 25 ksi (170)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "C95400 e C95410 como fundido",
+     "valor": "75 ksi (515) / 30 ksi (205)",
+     "item": "Tabela 3",
+     "nota": "atribuição de colunas por leitura sequencial; conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo",
+   "item": "8",
+   "texto": "As ligas são em geral soldáveis; reparos por solda conforme a norma."
+  }
+ ]
+}

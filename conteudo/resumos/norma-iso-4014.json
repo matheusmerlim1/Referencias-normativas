@@ -1,0 +1,99 @@
+{
+ "id": "ISO-4014",
+ "titulo": "ISO 4014:1999 (DIN EN ISO 4014:2001) — Parafusos sextavados com haste parcialmente roscada — Graus de produto A e B",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafuso de cabeça sextavada com haste lisa e rosca métrica grossa de M1,6 a M64. Faz parte da série ISO de fixadores sextavados externos (ISO 4014–4018, porcas ISO 4032–4036, flangeados, estruturais). Rosca até a cabeça fica na ISO 4017.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M1,6 a M64",
+     "item": "1"
+    },
+    {
+     "parametro": "Grau de produto A",
+     "valor": "M1,6 a M24 e comprimento ≤ 10d ou 150 mm (o menor)",
+     "item": "1"
+    },
+    {
+     "parametro": "Grau de produto B",
+     "valor": "acima de M24 ou comprimento > 10d ou 150 mm",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3, Tab. 1–2",
+   "texto": "Tabela 1 (roscas preferenciais) e 2 (não preferenciais) dão por rosca: passo, comprimento de rosca b (três faixas de comprimento: ≤ 125, 125–200, > 200 mm), chanfro c, diâmetros da, ds, dw, abertura e, altura da cabeça k, raio r e abertura de chave s, além dos comprimentos comerciais com ls e lg (haste lisa e comprimento de aperto). Símbolos pela ISO 225.",
+   "valores": [
+    {
+     "parametro": "Abertura de chave s (M8 / M10 / M12 / M16)",
+     "valor": "13 / 16 / 18 / 24 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Abertura de chave s (M20 / M24 / M30 / M36)",
+     "valor": "30 / 36 / 46 / 55 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Altura da cabeça k nominal (M12 / M16 / M20 / M24)",
+     "valor": "7,5 / 10 / 12,5 / 15 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Roscas não preferenciais",
+     "valor": "M3,5, M14, M18, M22, M27, M33, M39, M45, M52, M60",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Comprimento mínimo de aperto",
+     "valor": "lg,máx = l − b; ls,mín = lg,máx − 5P",
+     "item": "Tab. 1, notas"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos e normas de referência",
+   "item": "4, Tab. 3",
+   "texto": "Material, rosca, propriedades e acabamento remetem a outras normas.",
+   "valores": [
+    {
+     "parametro": "Tolerância de rosca",
+     "valor": "6g (ISO 965)",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Classes — aço (3 < d ≤ 39 mm)",
+     "valor": "5.6, 8.8, 9.8, 10.9 (ISO 898-1); acima de M39 a combinar",
+     "item": "Tab. 3",
+     "nota": "OCR da tabela — conferir limites exatos"
+    },
+    {
+     "parametro": "Classes — inox",
+     "valor": "d ≤ 24: A2-70, A4-70; 24 < d ≤ 39: A2-50, A4-50 (ISO 3506-1)",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Tolerâncias de forma/dimensão",
+     "valor": "ISO 4759-1",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Revestimentos",
+     "valor": "eletrolítico ISO 4042; lamelar de zinco ISO 10683",
+     "item": "Tab. 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "5",
+   "texto": "Ex.: parafuso sextavado ISO 4014 – M12 × 80 – 8.8 (rosca × comprimento – classe).",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "id": "ASME-SA-1017",
+ "titulo": "SA-1017 — Chapas de aço liga Cr-Mo-W para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço cromo-molibdênio-tungstênio para caldeiras e vasos de pressão soldados em temperatura elevada. Requisitos gerais pela SA-20.",
+   "valores": [
+    {
+     "parametro": "Grau 23 — Cr / Mo / W nominais",
+     "valor": "2,25 / 0,20 / 1,60 %",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Grau 911",
+     "valor": "9,00 / 1,00 / 1,00 %",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Grau 122",
+     "valor": "12,00 / 0,40 / 2,00 %",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "4, 5",
+   "texto": "Aço acalmado. Normalização e revenimento (graus 23 e 122 podem, com permissão, ter resfriamento acelerado).",
+   "valores": [
+    {
+     "parametro": "Normalização",
+     "valor": "1900 a 2000 °F [1040 a 1095 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Revenimento mín.",
+     "valor": "1350 °F [730 °C]",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C — 23 / 911 / 122",
+     "valor": "0,04–0,10 / 0,09–0,13 / 0,07–0,14 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn — 23 / 911 / 122",
+     "valor": "0,10–0,60 / 0,30–0,60 / 0,70 máx. %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2, 7.2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau 23 — Su / Sy mín. / along.",
+     "valor": "74 a 100 ksi [510 a 690] / 58 ksi [400] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 911",
+     "valor": "90 a 120 ksi [620 a 840] / 64 ksi [440] / 18 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau 122",
+     "valor": "90 ksi [620] mín. / 58 ksi [400] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Dureza máx. — 23 / 122",
+     "valor": "220 HB [97 HRB] / 250 HB [25 HRC]",
+     "item": "7.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "8",
+   "texto": "Além da SA-20, letra da condição: N (normalizado e revenido), Q (resfriamento acelerado e revenido), S (aliviado) ou A (recozido)."
+  }
+ ]
+}

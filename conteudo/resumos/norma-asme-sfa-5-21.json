@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SFA-5.21",
+ "titulo": "SFA-5.21 — Arames e varetas nus para revestimento superficial (AWS A5.21)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos e varetas nus (sólidos e tubulares) para revestimento duro/superficial. Não cobre combinações arame-fluxo de arco submerso."
+  },
+  {
+   "titulo": "Classificações e composição",
+   "item": "Tabelas 1 a 6",
+   "texto": "Famílias à base de ferro (ERFe…), cobalto e níquel (ERCoCr-A…), cobre (ERCuAl…) e carboneto de tungstênio (WC1–WC3).",
+   "valores": [
+    {
+     "parametro": "ERFe-1 — C / Mn / Si máx.",
+     "valor": "0,04–0,20 / 0,5–2,0 / 1,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "ERCoCr-A — C / Cr",
+     "valor": "0,9–1,4 % / 26–32 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "ERCuAl-A2 — Al / Fe",
+     "valor": "8,5–11,0 % / 0,5–1,5 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "WC1 — C / W mín.",
+     "valor": "3,6–4,2 % / 94,0 %",
+     "item": "Tabela 6"
+    }
+   ]
+  }
+ ]
+}

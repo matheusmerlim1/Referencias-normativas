@@ -1,0 +1,61 @@
+{
+ "id": "ASME-SB-407",
+ "titulo": "SB-407 — Tubos sem costura de ligas Ni-Fe-Cr (Incoloy 800, 800H, 800HT e outras)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe e tube) sem costura, trabalhados a frio ou acabados a quente e recozidos, das ligas N08120, N08800, N08801, N08810, N08811, N08890 e N06811. N08800 (Incoloy 800) é usada normalmente até 1100 °F (593 °C); N08120, N08810 e N08811 acima disso, onde se exige resistência à fluência e à ruptura."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela de química",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N08800/N08810/N08811 — Ni",
+     "valor": "30,0–35,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N08800/N08810/N08811 — Cr",
+     "valor": "19,0–23,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N08800 — Fe mín.",
+     "valor": "39,5 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "N08120 — Ni / Cr",
+     "valor": "35,0–39,0 % / 23,0–27,0 %",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N08120 recozida",
+     "valor": "90 000 psi (621) / 40 000 psi (276) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08800 trabalhada a frio e recozida",
+     "valor": "75 000 psi (520) / 30 000 psi (205) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08800 acabada a quente — Su mín.",
+     "valor": "65 000 psi",
+     "item": "Tabela 2",
+     "nota": "valor truncado na extração; conferir Sy"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "id": "NBR-7190-5",
+ "titulo": "ABNT NBR 7190-5:2022 — Projeto de estruturas de madeira — Parte 5: Ensaio de resistência e rigidez de ligações com conectores mecânicos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Método de ensaio para obter a resistência e a rigidez (módulo de deslizamento) de ligações de madeira com conectores mecânicos — pinos metálicos, cavilhas, parafusos, pregos, chapas de dentes estampados e anéis. Não detalha o procedimento próprio de cada tipo de conector.",
+   "valores": []
+  },
+  {
+   "titulo": "Condicionamento e corpos de prova",
+   "item": "3–4",
+   "texto": "A madeira e a ligação devem estar em umidade representativa do uso. Para comparar ligações entre si, condicionar em ambiente padrão. As ligações ensaiadas devem ter forma e dimensões realistas.",
+   "valores": [
+    {
+     "parametro": "Ambiente de condicionamento para comparação",
+     "valor": "20 °C e 65 % de umidade relativa",
+     "item": "3"
+    }
+   ]
+  },
+  {
+   "titulo": "Equipamento",
+   "item": "5",
+   "texto": "Máquina de ensaio, medidor de deslizamento e dispositivo que evite excentricidade e torção.",
+   "valores": [
+    {
+     "parametro": "Precisão das dimensões",
+     "valor": "0,1 mm",
+     "item": "5"
+    },
+    {
+     "parametro": "Precisão da máquina de força",
+     "valor": "± 1 % de Fest",
+     "item": "5 a)"
+    },
+    {
+     "parametro": "Precisão do medidor de deslizamento",
+     "valor": "± 0,01 mm",
+     "item": "5 b)"
+    }
+   ]
+  },
+  {
+   "titulo": "Carregamento",
+   "item": "6.1–6.2",
+   "texto": "Estima-se antes a força máxima Fest. Faz-se um ciclo de acomodação (sobe a 0,5 Fest, desce a 0,1 Fest) e depois carrega-se até a ruptura ou até 15 mm de deslizamento, primeiro com velocidade de força e acima de 0,7 Fest com velocidade de deslizamento.",
+   "valores": [
+    {
+     "parametro": "Ciclo inicial",
+     "valor": "0,5 Fest por 30 s → 0,1 Fest por 30 s → carga até ruptura",
+     "item": "6.2"
+    },
+    {
+     "parametro": "Velocidade abaixo de 0,7 Fest",
+     "valor": "0,2 Fest por minuto (± 25 %)",
+     "item": "6.2"
+    },
+    {
+     "parametro": "Acima de 0,7 Fest",
+     "valor": "deslizamento constante, atingindo o fim em mais 3 a 5 min",
+     "item": "6.2"
+    },
+    {
+     "parametro": "Fim do ensaio / Fmáx",
+     "valor": "força última ou deslizamento de 15 mm",
+     "item": "6.2, 6.4"
+    },
+    {
+     "parametro": "Reajuste de Fest",
+     "valor": "quando a média das Fmáx já obtidas desviar > 20 %",
+     "item": "6.6"
+    }
+   ]
+  },
+  {
+   "titulo": "Resultados",
+   "item": "6.3–6.5",
+   "texto": "Registram-se deslizamentos em pontos do ciclo e calculam-se deslizamentos inicial, elástico, acomodação e os módulos de deslizamento.",
+   "valores": [
+    {
+     "parametro": "Deslizamento inicial",
+     "valor": "ui = u05",
+     "item": "6.5 c)"
+    },
+    {
+     "parametro": "Deslizamento inicial modificado",
+     "valor": "ui,mod = 5/4·(u05 − u01)",
+     "item": "6.5 d)",
+     "nota": "fórmula reconstruída do texto extraído — conferir"
+    },
+    {
+     "parametro": "Módulo de deslizamento inicial",
+     "valor": "ki = 0,5·Fest / ui",
+     "item": "6.5 g)",
+     "nota": "conferir"
+    },
+    {
+     "parametro": "Módulo de deslizamento",
+     "valor": "ks = 0,5·Fest / ui,mod",
+     "item": "6.5 h)",
+     "nota": "conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Arranjos e relatório",
+   "item": "7–8",
+   "texto": "Três arranjos recomendados de ligação com pinos em corte duplo (força paralela às fibras; laterais normais e central paralela; central normal e laterais paralelas). O relatório informa espécie, densidade, conectores, dimensões, folgas, umidade, carregamento, resultados individuais, médias, desvios e modos de falha.",
+   "valores": []
+  }
+ ]
+}

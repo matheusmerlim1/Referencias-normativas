@@ -1,0 +1,80 @@
+{
+ "id": "ASME-SA-563",
+ "titulo": "SA-563 — Porcas de aço carbono e liga",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Porcas de aço carbono e liga para uso estrutural e mecânico geral em parafusos, estojos e peças roscadas. Oito graus: O, A, B, C, C3, D, DH, DH3 (C3 e DH3 resistentes à corrosão atmosférica). Apêndice X1 orienta a combinação porca-parafuso."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4",
+   "texto": "Porcas conformadas a frio ou a quente, prensadas, puncionadas ou usinadas de barra. DH e DH3 temperadas e revenidas."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabelas 1 e 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "O, A, B, C — C máx. / P máx. / S máx. (corrida)",
+     "valor": "0,55 % / 0,12 % / 0,15 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "D — C máx. / Mn mín. / P / S",
+     "valor": "0,55 % / 0,30 % / 0,04 % / 0,05 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "DH — C / Mn mín. / P / S",
+     "valor": "0,20–0,55 % / 0,60 % / 0,04 % / 0,05 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Tensão de prova (sem zinco / zincada) e dureza Brinell, porcas UNC.",
+   "valores": [
+    {
+     "parametro": "O sextavada 1/4 a 1 1/2 in",
+     "valor": "69 / 52 ksi; 103–302 HB",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "A sextavada 1/4 a 1 1/2 in",
+     "valor": "90 / 68 ksi; 116–302 HB",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "B sextavada 1/4 a 1 in",
+     "valor": "120 / 90 ksi; 121–302 HB",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "DH sextavada 1/4 a 1 1/2 in",
+     "valor": "150 / 150 ksi; 248–352 HB (C24–C38)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "C pesada 1/4 a 4 in",
+     "valor": "144 / 144 ksi; 143–352 HB",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "D pesada 1/4 a 4 in",
+     "valor": "150 / 150 ksi; 159–352 HB",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "14",
+   "texto": "Graus O, A e B não precisam de marcação individual salvo pedido; os demais são marcados com grau e fabricante."
+  }
+ ]
+}

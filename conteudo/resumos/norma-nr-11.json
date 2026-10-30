@@ -1,0 +1,347 @@
+{
+ "id": "NR-11",
+ "titulo": "NR-11 — Transporte, movimentação, armazenagem e manuseio de materiais",
+ "secoes": [
+  {
+   "titulo": "Elevadores, guindastes e transportadores",
+   "item": "11.1",
+   "texto": "Equipamentos de movimentação de cargas (elevadores, guindastes, pontes rolantes, talhas, empilhadeiras, guinchos, esteiras) precisam ser projetados com resistência adequada e mantidos em bom estado. Cabos, correntes, cordas, roldanas e ganchos são inspecionados de forma contínua e trocados quando defeituosos. Todo equipamento mostra, em local visível, a carga máxima de trabalho. Operador de equipamento motorizado recebe treinamento da empresa e usa cartão de identificação com foto durante o expediente.",
+   "valores": [
+    {
+     "parametro": "Poço de elevador/monta-cargas",
+     "valor": "cercado em toda a altura, salvo portas/cancelas dos pavimentos",
+     "item": "11.1.1"
+    },
+    {
+     "parametro": "Carga máxima de trabalho",
+     "valor": "indicada em lugar visível em todo equipamento",
+     "item": "11.1.3.2"
+    },
+    {
+     "parametro": "Carro manual de transporte",
+     "valor": "com protetor das mãos",
+     "item": "11.1.4"
+    },
+    {
+     "parametro": "Validade do cartão de identificação do operador",
+     "valor": "1 ano; renovação após exame de saúde completo pago pelo empregador",
+     "item": "11.1.6.1"
+    },
+    {
+     "parametro": "Sinal sonoro em equipamento motorizado",
+     "valor": "buzina obrigatória",
+     "item": "11.1.7"
+    },
+    {
+     "parametro": "Motor a combustão em local fechado sem ventilação",
+     "valor": "proibido, salvo com dispositivo neutralizador de gases",
+     "item": "11.1.10"
+    }
+   ]
+  },
+  {
+   "titulo": "Transporte manual de sacos",
+   "item": "11.2",
+   "texto": "Considera-se transporte manual de sacos quando um único trabalhador sustenta todo o peso, incluindo levantar e depositar a carga. Há limite de distância por saco; além dele, usa-se carrinho, vagonete ou tração mecânica. Carga e descarga manual em caminhão ou vagão tem sempre um ajudante. A altura das pilhas depende da resistência do piso, da embalagem e da estabilidade da pilha.",
+   "valores": [
+    {
+     "parametro": "Distância máxima de transporte manual de um saco",
+     "valor": "60,00 m",
+     "item": "11.2.2"
+    },
+    {
+     "parametro": "Vão máximo vencido por prancha com saco nas costas",
+     "valor": "transporte proibido sobre vãos de 1,00 m ou mais",
+     "item": "11.2.3"
+    },
+    {
+     "parametro": "Largura mínima da prancha",
+     "valor": "0,50 m",
+     "item": "11.2.3.1"
+    },
+    {
+     "parametro": "Carga/descarga manual em caminhão ou vagão",
+     "valor": "com auxílio de ajudante",
+     "item": "11.2.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Escada removível de madeira para empilhamento manual de sacos",
+   "item": "11.2.8",
+   "texto": "Quando não houver processo mecanizado, o empilhamento manual de sacos usa escada removível de madeira com lance único que termina num patamar. A escada é reforçada lateral e verticalmente, tem corrimão ou guarda-corpo lateral em toda a extensão e é trocada assim que apresentar defeito. O piso do armazém deve ser antiderrapante, sem aspereza, e os locais de carga e descarga, cobertos.",
+   "valores": [
+    {
+     "parametro": "Largura mínima da escada",
+     "valor": "1,00 m",
+     "item": "11.2.8 b)",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Patamar final — dimensões mínimas",
+     "valor": "1,00 m × 1,00 m",
+     "item": "11.2.8 b)",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
+    },
+    {
+     "parametro": "Altura máxima do patamar em relação ao solo",
+     "valor": "2,25 m",
+     "item": "11.2.8 b)",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#elevacao-patamar"
+    },
+    {
+     "parametro": "Altura máxima do espelho",
+     "valor": "0,15 m",
+     "item": "11.2.8 c)",
+     "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+     "parametro": "Largura mínima do piso do degrau",
+     "valor": "0,25 m",
+     "item": "11.2.8 c)",
+     "cota": "esquemas/escada-degraus-degrau.svg#g"
+    },
+    {
+     "parametro": "Altura do corrimão ou guarda-corpo lateral",
+     "valor": "1,00 m, em toda a extensão",
+     "item": "11.2.8 e)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#a"
+    }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-largura-corte.svg",
+    "esquemas/escada-degraus-lance-patamar.svg",
+    "esquemas/escada-degraus-degrau.svg",
+    "esquemas/escada-degraus-corrimao.svg"
+   ]
+  },
+  {
+   "titulo": "Armazenamento de materiais",
+   "item": "11.3",
+   "texto": "O peso armazenado não pode passar da capacidade calculada do piso. O material não pode bloquear portas, equipamentos de combate a incêndio, saídas de emergência, circulação nem iluminação, e cada tipo de material segue seus requisitos próprios.",
+   "valores": [
+    {
+     "parametro": "Afastamento do material empilhado às estruturas laterais do prédio",
+     "valor": "≥ 0,50 m",
+     "item": "11.3.3"
+    },
+    {
+     "parametro": "Carga armazenada",
+     "valor": "≤ capacidade de carga calculada do piso",
+     "item": "11.3.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Rochas ornamentais — princípios gerais e documentação (Anexo I)",
+   "item": "Anexo I, 1",
+   "texto": "O Anexo I regula movimentação, armazenagem e manuseio de chapas de rochas ornamentais (mármore, granito etc.). Cada equipamento é identificado e tem manual do fabricante; a empresa guarda registros de inspeção e manutenção e a nota fiscal ou o projeto do equipamento. Durante a movimentação de chapas, a circulação de pessoas na área é interrompida.",
+   "valores": [
+    {
+     "parametro": "Identificação do equipamento",
+     "valor": "identificação, carga máxima de trabalho, nome e CNPJ do fabricante e responsável técnico; carro porta-blocos e fueiros: só número e carga máxima",
+     "item": "Anexo I, 1.2.1 e 1.2.1.2"
+    },
+    {
+     "parametro": "Relatório de Inspeção de equipamento/elemento de sustentação",
+     "valor": "anual, por profissional legalmente habilitado, com ART",
+     "item": "Anexo I, 1.3.1"
+    },
+    {
+     "parametro": "Inspeção rotineira e manutenção",
+     "valor": "por profissional capacitado ou qualificado",
+     "item": "Anexo I, 1.3.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Fueiros e carros porta-blocos",
+   "item": "Anexo I, 2.1 e 2.2",
+   "texto": "As proteções laterais (\"L\" ou fueiros) têm trava contra saída acidental e são colocadas antes de soltar as enteras; só podem ser retiradas dentro do alojamento do tear e permanecem até sair a última chapa. Ninguém trabalha entre chapas, e não se retiram chapas de um só lado do carro para não desequilibrá-lo.",
+   "valores": [
+    {
+     "parametro": "Guias do carro porta-bloco para o \"L\"",
+     "valor": "≥ 2",
+     "item": "Anexo I, 2.1.1.1"
+    },
+    {
+     "parametro": "Fueiros por lado no bloco serrado (no tear)",
+     "valor": "≥ 3 de cada lado",
+     "item": "Anexo I, 2.1.3"
+    },
+    {
+     "parametro": "Operação do carro transportador/porta-bloco",
+     "valor": "≥ 2 pessoas capacitadas",
+     "item": "Anexo I, 2.2.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Pátio de estocagem e cavaletes",
+   "item": "Anexo I, 2.3 e 2.4",
+   "texto": "O piso do pátio é pavimentado, nivelado, sem saliências, antiderrapante e resistente, e a área de chapas fica coberta. Os cavaletes ficam sobre bases resistentes e impermeáveis, são mantidos pintados e sem corrosão, e cada par é travado ou amarrado entre si. É proibido usar prolongador em cavalete triangular, e a colocação/retirada de chapa exige um trabalhador em cada ponta.",
+   "valores": [
+    {
+     "parametro": "Altura mínima do cavalete",
+     "valor": "1,5 m",
+     "item": "Anexo I, 2.4.1 a)"
+    },
+    {
+     "parametro": "Largura máxima das seções do cavalete vertical",
+     "valor": "0,25 m",
+     "item": "Anexo I, 2.4.1 b)"
+    },
+    {
+     "parametro": "Comprimento máximo do cavalete vertical",
+     "valor": "6 m (peças das pontas mais reforçadas)",
+     "item": "Anexo I, 2.4.1 d)"
+    },
+    {
+     "parametro": "Espaço sinalizado entre extremos e laterais dos cavaletes",
+     "valor": "≥ 0,80 m",
+     "item": "Anexo I, 2.4.1 e)"
+    },
+    {
+     "parametro": "Distância cavalete–parede",
+     "valor": "≥ 0,5 m",
+     "item": "Anexo I, 2.4.1 f)"
+    },
+    {
+     "parametro": "Largura da circulação principal de pessoas (demarcada)",
+     "valor": "≥ 1,20 m",
+     "item": "Anexo I, 2.4.1 g)"
+    },
+    {
+     "parametro": "Trabalhadores na colocação/retirada de chapa",
+     "valor": "≥ 1 em cada extremidade da chapa",
+     "item": "Anexo I, 2.4.1 j)"
+    }
+   ]
+  },
+  {
+   "titulo": "Ventosas, cabos, cintas e garras",
+   "item": "Anexo I, 2.5 e 2.6",
+   "texto": "Na ventosa, a válvula direcional fica de fácil acesso, a mangueira tem contenção contra chicoteamento e fica fora das vias de circulação, e as borrachas têm manutenção periódica. É preciso procedimento para falta de energia. Os acessórios de içamento são dimensionados para a carga, com nota fiscal e certificado guardados no estabelecimento.",
+   "valores": [
+    {
+     "parametro": "Ventosa com vácuo por equipamento elétrico",
+     "valor": "alarme sonoro e visual de pressão fora do limite",
+     "item": "Anexo I, 2.5.2"
+    },
+    {
+     "parametro": "Movimentação com garra",
+     "valor": "1 chapa por vez",
+     "item": "Anexo I, 2.6.3"
+    },
+    {
+     "parametro": "Chapas em carro de transferência",
+     "valor": "amarradas com cinta ou equivalente",
+     "item": "Anexo I, 2.6.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Chapas fracionadas em marmorarias",
+   "item": "Anexo I, 3",
+   "texto": "Os pisos são projetados para as cargas usuais, com superfície firme, regular e antiderrapante, sem provocar trepidação nos carrinhos. Acima de certa inclinação o trecho passa a ser rampa, calculada por i = h × 100 / c (h = desnível, c = projeção horizontal). O equipamento de transporte de chapas fracionadas indica a capacidade e a carga vai amarrada a ele.",
+   "valores": [
+    {
+     "parametro": "Inclinação longitudinal máxima do piso",
+     "valor": "5 % (acima disso é rampa)",
+     "item": "Anexo I, 3.1.1.1"
+    },
+    {
+     "parametro": "Inclinação máxima de rampa",
+     "valor": "12,50 %",
+     "item": "Anexo I, 3.1.1.1.1.1"
+    },
+    {
+     "parametro": "Largura mínima das vias de movimentação",
+     "valor": "1,2 m",
+     "item": "Anexo I, 3.2"
+    },
+    {
+     "parametro": "Rodas do equipamento de chapas fracionadas",
+     "valor": "≥ 3",
+     "item": "Anexo I, 3.3"
+    },
+    {
+     "parametro": "Chapa fracionada (definição)",
+     "valor": "altura máxima de 1 m",
+     "item": "Anexo I, Glossário"
+    }
+   ]
+  },
+  {
+   "titulo": "Carga e descarga e contêineres",
+   "item": "Anexo I, 4",
+   "texto": "A carga e descarga tem área própria com sinalização horizontal e vertical e segue procedimento por tipo de carga. A área de uso de pistola pneumática é isolada. O contêiner deve ser iluminado; ninguém fica dentro dele enquanto a carga entra, e a amarração só é solta depois que a carga está estabilizada e com fixação primária.",
+   "valores": [
+    {
+     "parametro": "Permanência no contêiner durante a entrada da carga",
+     "valor": "proibida",
+     "item": "Anexo I, 4.6"
+    }
+   ]
+  },
+  {
+   "titulo": "Capacitação",
+   "item": "Anexo I, 5",
+   "texto": "Só trabalhador capacitado e autorizado movimenta, manuseia e armazena chapas. O curso é dado após a admissão, no horário de trabalho, pago pelo empregador, com material impresso, e seguido de período de orientação em serviço sob supervisão. Há reciclagem periódica e reciclagem extra quando muda a função, o método, o equipamento ou após afastamento longo.",
+   "valores": [
+    {
+     "parametro": "Orientação em serviço supervisionada",
+     "valor": "≥ 30 dias",
+     "item": "Anexo I, 5.3"
+    },
+    {
+     "parametro": "Turma teórica",
+     "valor": "≤ 40 participantes",
+     "item": "Anexo I, 5.4.1"
+    },
+    {
+     "parametro": "Turma prática",
+     "valor": "≤ 8 participantes por instrutor",
+     "item": "Anexo I, 5.4.2"
+    },
+    {
+     "parametro": "Reciclagem periódica",
+     "valor": "a cada 3 anos, ≥ 16 h (8 h do Módulo I + 8 h do Módulo III)",
+     "item": "Anexo I, 5.5"
+    },
+    {
+     "parametro": "Afastamento que exige nova capacitação",
+     "valor": "> 6 meses",
+     "item": "Anexo I, 5.6 c)"
+    },
+    {
+     "parametro": "Módulo I — saúde, segurança e higiene",
+     "valor": "16 h",
+     "item": "Anexo I, 5.7"
+    },
+    {
+     "parametro": "Módulo II — conteúdo do Anexo I",
+     "valor": "4 h",
+     "item": "Anexo I, 5.7"
+    },
+    {
+     "parametro": "Módulo III — operação de ponte rolante",
+     "valor": "16 h (8 h teóricas + 8 h práticas)",
+     "item": "Anexo I, 5.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Disposições gerais e glossário",
+   "item": "Anexo I, 6",
+   "texto": "Ao preparar ou retirar chapas do tear, impede-se a queda do quadro porta-lâminas. Chapas só ficam em cavaletes próprios, nunca apoiadas em paredes, colunas ou estruturas. As áreas de corte de fio diamantado (monofio/multifio) são isoladas e sinalizadas, e as bancadas suportam as cargas.",
+   "valores": [
+    {
+     "parametro": "Tear (definição)",
+     "valor": "4 colunas sustentando o quadro porta-lâminas",
+     "item": "Anexo I, Glossário"
+    }
+   ]
+  }
+ ]
+}

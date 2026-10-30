@@ -1,0 +1,94 @@
+{
+ "id": "DIN-EN-10083-3",
+ "titulo": "DIN EN 10083-3:2007 — Aços para beneficiamento — Parte 3: Condições técnicas de fornecimento para aços-liga",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Semiacabados, barras, fio-máquina, chatos largos, chapas/tiras laminadas a quente e forjados de aços-liga para têmpera e revenimento e para têmpera por chama ou indução, para peças de máquina. Propriedades mecânicas só para as dimensões da Tabela 8. Não vale para produtos trefilados/retificados (EN 10277).",
+   "valores": []
+  },
+  {
+   "titulo": "Classificação e composição",
+   "item": "4, 7.1, Tab. 3–4",
+   "texto": "Todos são aços especiais ligados. Grades ao Cr, CrMo, CrNiMo, NiCrMo, CrV e ao boro (ex. 41Cr4, 42CrMo4, 34CrNiMo6, 30CrNiMo8, 51CrV4, 30MnB5).",
+   "valores": [
+    {
+     "parametro": "42CrMo4 (1.7225)",
+     "valor": "C 0,38–0,45; Si ≤ 0,40; Mn 0,60–0,90; P ≤ 0,025; S ≤ 0,035; Cr 0,90–1,20; Mo 0,15–0,30 %",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "34CrNiMo6 (1.6582)",
+     "valor": "C 0,30–0,38; Mn 0,50–0,80; Cr 1,30–1,70; Mo 0,15–0,30; Ni 1,30–1,70 %",
+     "item": "Tab. 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Temperabilidade",
+   "item": "Tab. 5–6",
+   "texto": "Faixas Jominy (dureza HRC × distância) para grades +H (normal) e +HH (faixa restrita).",
+   "valores": []
+  },
+  {
+   "titulo": "Dureza de fornecimento",
+   "item": "Tab. 7",
+   "texto": "Dureza máxima HBW nas condições +S (tratado para cisalhamento) e +A (recozido).",
+   "valores": [
+    {
+     "parametro": "42CrMo4 — +S / +A",
+     "valor": "255 / 241 HBW",
+     "item": "Tab. 7"
+    },
+    {
+     "parametro": "34CrNiMo6 — +A",
+     "valor": "248 HBW (+S não aplicável)",
+     "item": "Tab. 7"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades beneficiado (+QT)",
+   "item": "Tab. 8",
+   "texto": "Re, Rm, A, Z e KV mínimos por faixa de seção (d ≤ 16, 16–40, 40–100, 100–160, 160–250 mm; chatos por espessura).",
+   "valores": [
+    {
+     "parametro": "42CrMo4, 40 < d ≤ 100 mm",
+     "valor": "Re ≥ 650 MPa; Rm 900–1 100 MPa; A ≥ 12 %; Z ≥ 50 %; KV ≥ 35 J",
+     "item": "Tab. 8",
+     "nota": "colunas da tabela desalinhadas no texto — conferir"
+    },
+    {
+     "parametro": "34CrNiMo6, 40 < d ≤ 100 mm",
+     "valor": "Re ≥ 800 MPa; Rm 1 000–1 200 MPa; A ≥ 11 %; Z ≥ 50 %; KV ≥ 45 J",
+     "item": "Tab. 8",
+     "nota": "conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Endurecimento superficial",
+   "item": "Tab. 9",
+   "texto": "Dureza superficial mínima após têmpera por chama/indução e alívio a 150–180 °C.",
+   "valores": [
+    {
+     "parametro": "42CrMo4",
+     "valor": "53 HRC mín.",
+     "item": "Tab. 9"
+    },
+    {
+     "parametro": "50CrMo4",
+     "valor": "58 HRC mín.",
+     "item": "Tab. 9"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e tratamento",
+   "item": "9–11, Anexos",
+   "texto": "Amostragem, métodos de ensaio, contraprovas; temperaturas de tratamento na Tabela 11; Anexo B compara com ISO 683-1 e designações nacionais antigas.",
+   "valores": []
+  }
+ ]
+}

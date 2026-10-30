@@ -1,0 +1,80 @@
+{
+ "id": "NBR-ISO-2768-1",
+ "titulo": "ABNT NBR ISO 2768-1:2001 — Tolerâncias gerais: dimensões lineares e angulares",
+ "secoes": [
+  {
+   "titulo": "Escopo e indicação",
+   "item": "1; 5",
+   "texto": "Tolerâncias para dimensões sem tolerância individual, em peças usinadas ou de chapa, em quatro classes: f (fina), m (média), c (grossa) e v (muito grossa). Indica-se na legenda, por exemplo \"NBR ISO 2768-m\". Não vale para dimensões auxiliares nem teoricamente exatas.",
+   "valores": [
+    {
+     "parametro": "Exemplo",
+     "valor": "NBR ISO 2768-m",
+     "item": "5"
+    }
+   ],
+   "figuras": [
+    "esquemas/tolerancias-gerais-ajustes-iso2768-exemplo-desenho.svg"
+   ]
+  },
+  {
+   "titulo": "Dimensões lineares",
+   "item": "Tab. 1",
+   "texto": "Afastamentos simétricos crescentes com a dimensão.",
+   "valores": [
+    {
+     "parametro": "Classe m — até 6 / 6–30 / 30–120 mm",
+     "valor": "± 0,1 / ± 0,2 / ± 0,3",
+     "item": "Tab. 1",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#linear"
+    },
+    {
+     "parametro": "Classe m — 120–400 / 400–1000 / 1000–2000 mm",
+     "valor": "± 0,5 / ± 0,8 / ± 1,2",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Classe f — 30–120 mm",
+     "valor": "± 0,15",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Classe c — 30–120 mm",
+     "valor": "± 0,8",
+     "item": "Tab. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Cantos quebrados e ângulos",
+   "item": "Tab. 2–3",
+   "texto": "Raios externos e chanfros têm tolerância própria; ângulos dependem do lado menor.",
+   "valores": [
+    {
+     "parametro": "Raio/chanfro acima de 6 mm — f/m / c/v",
+     "valor": "± 1 / ± 2 mm",
+     "item": "Tab. 2",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#raio"
+    },
+    {
+     "parametro": "Ângulo, lado até 10 mm — f/m",
+     "valor": "± 1°",
+     "item": "Tab. 3",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#angulo"
+    },
+    {
+     "parametro": "Ângulo, lado 50–120 mm — f/m",
+     "valor": "± 0°20′",
+     "item": "Tab. 3",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso2768-1.svg#lado-menor"
+    }
+   ]
+  },
+  {
+   "titulo": "Superfície bruta e rejeição",
+   "item": "2; 6",
+   "texto": "Entre superfície bruta e usinada vale a maior das tolerâncias gerais. Peça fora da tolerância geral não é rejeitada automaticamente se a função não ficar comprometida.",
+   "valores": []
+  }
+ ]
+}

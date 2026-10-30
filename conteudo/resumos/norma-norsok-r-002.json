@@ -1,0 +1,276 @@
+{
+ "id": "NORSOK-R-002",
+ "titulo": "NORSOK R-002 (2017+AC:2019) — Equipamentos de içamento",
+ "secoes": [
+  {
+   "titulo": "Escopo e organização",
+   "item": "1; Introdução",
+   "texto": "Requisitos de segurança para todo equipamento de içamento em instalações de petróleo (fixas e flutuantes) da plataforma continental norueguesa. O corpo (seções 4 e 5) traz exigências gerais; os anexos normativos tratam de grupos: A lançamento de botes e balsas, B filosofia de movimentação de cargas, C acessórios de içamento, D equipamentos da sonda, E elevadores, F unidades portáteis, G guindastes, H fundações e suspensões. Anexos I (cabo elástico), J (olhais e manilhas) e K (alto risco) são informativos.",
+   "valores": []
+  },
+  {
+   "titulo": "Segurança geral e análise de risco",
+   "item": "4",
+   "texto": "Metas de segurança, aptidão ao uso, integração da segurança no projeto (primeiro eliminar o perigo, depois proteger, por fim informar) e análise de risco documentada com limites, perigos, estimativa e avaliação. Tecnologia nova precisa de qualificação.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos comuns",
+   "item": "5",
+   "texto": "Equipamento adequado à tarefa, com materiais rastreáveis, proteção contra fogo e explosão em área classificada, ergonomia (posto do operador, acesso, iluminação, proteções, objetos que caem), ambiente marinho úmido, vento e movimentos da unidade flutuante. Inclui freios, limitadores, parada e descida de emergência, comunicação, hidráulica, EMC, ruído, fabricação, proteção anticorrosiva, dossiê técnico e marcação. Parafusos com travamento duplo.",
+   "valores": [
+    {
+     "parametro": "Umidade relativa de projeto",
+     "valor": "100 % (atmosfera marinha)",
+     "item": "5.5.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Acessórios de içamento",
+   "item": "Anexo C",
+   "texto": "Divide os acessórios em grupos (lingas de corrente, de fibra, de cabo, componentes soltos, balancins, porta-cargas, cabo do guindaste, cestas de pessoal…). Cada acessório é testado com carga de prova, ou amostras são rompidas, ou o projeto é verificado por terceiro. Temperatura mínima de operação e tenacidade com temperatura de ensaio que depende da espessura.",
+   "valores": [
+    {
+     "parametro": "Temperatura mínima de operação",
+     "valor": "−20 °C",
+     "item": "C.5"
+    },
+    {
+     "parametro": "Carga de prova",
+     "valor": "2 × WLL",
+     "item": "C.7.1"
+    },
+    {
+     "parametro": "Charpy — temperatura de ensaio",
+     "valor": "t ≤ 10 mm: dispensa; 10–50: TD+20 °C; 50–100: TD+10 °C; > 100: TD",
+     "item": "C.6, Tab. C.2"
+    },
+    {
+     "parametro": "Charpy — energia média mínima (C.6)",
+     "valor": "27 J",
+     "item": "C.6"
+    },
+    {
+     "parametro": "Unidades a ensaiar por série",
+     "valor": "1–5: 1; 6–10: 2; 11–20: 3; 21–40: 4; > 40: 10 %",
+     "item": "C.7, Tab. C.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Unidades portáteis — grupos",
+   "item": "Anexo F, F.1–F.6",
+   "texto": "Separa contêineres offshore (F1), contêineres de serviço (F2), unidades portáteis tipo A da E273 (F3), cargas pesadas e submarinas (F4) e objetos içados em geral (F5). Na Noruega, unidades portáteis devem ser projetadas para a classe R60.",
+   "valores": [
+    {
+     "parametro": "Contêiner offshore F1",
+     "valor": "≤ 25 000 kg",
+     "item": "F.2"
+    },
+    {
+     "parametro": "Unidade portátil F3",
+     "valor": "≤ 100 t; classe R60 obrigatória",
+     "item": "F.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Objetos içados (F5): cargas de projeto",
+   "item": "F.7.2",
+   "texto": "O WLL do conjunto é o peso multiplicado por um fator de incerteza de peso, que depende de quão bem o peso é conhecido. Somam-se fator de envelope do centro de gravidade, fator de desvio de lingada e fator dinâmico, este último dependente de onde se iça e do peso. A reação no ponto mais carregado sai da geometria dos pontos.",
+   "valores": [
+    {
+     "parametro": "Fator de peso WCF",
+     "valor": "1,03 (pesado) / 1,1 (cálculo detalhado) / ≥ 1,2 (≥ 1,5 demolição)",
+     "item": "F.7.2.3"
+    },
+    {
+     "parametro": "Fator de envelope do CG",
+     "valor": "1,0 (pesado ou simples) / 1,1",
+     "item": "F.7.2.3.3"
+    },
+    {
+     "parametro": "SKL — 4 pontos hiperestático / com balancim / isostático ou ≤ 3 pontos",
+     "valor": "1,25 / 1,10 / 1,00",
+     "item": "F.7.2.3.4"
+    },
+    {
+     "parametro": "DAF em terra / a bordo (WLL ≤ 50 t)",
+     "valor": "1,5",
+     "item": "F.7.2.3.5"
+    },
+    {
+     "parametro": "DAF offboard (WLL ≤ 50 t)",
+     "valor": "1,09 + 0,41 √(50/WLL)",
+     "item": "F.7.2.3.5"
+    },
+    {
+     "parametro": "DAF para WLL > 50 t",
+     "valor": "1,7 − 0,004 WLL (1,5 → 1,3 de 50 a 100 t)",
+     "item": "F.7.2.3.5"
+    },
+    {
+     "parametro": "Fator de projeto — ponto de içamento / acessórios",
+     "valor": "1,34 × 1,25 = 1,68",
+     "item": "F.7.2.3"
+    }
+   ],
+   "figuras": [
+    "esquemas/icamento-unidade-portatil-ponto-mais-carregado.svg"
+   ]
+  },
+  {
+   "titulo": "Lingada e arranjo de içamento",
+   "item": "F.7.2.1; F.7.3",
+   "texto": "Preferir 2 ou 3 pontos e evitar mais de 4. Pernas entre 15° e 45°; abaixo disso, tudo numa perna. Diâmetros mínimos de cabo e corrente. Manilhas de parafuso grau 8 com tenacidade. A carga mínima de ruptura de manilha, perna, elo mestre e forerunner sai da reação no ponto e de fatores de material e de terminal. Desenho de arranjo de içamento é obrigatório. Alternativa simplificada: lingas EN com fator de redução dinâmico tabelado.",
+   "valores": [
+    {
+     "parametro": "Ângulo da perna",
+     "valor": "15° a 45° da vertical",
+     "item": "F.7",
+     "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#nu"
+    },
+    {
+     "parametro": "Elo superior acima do convés",
+     "valor": "≤ 1,3 m (> 25 t: dois elos)",
+     "item": "F.7.2.1",
+     "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#alcance"
+    },
+    {
+     "parametro": "Diâmetro mínimo — cabo / corrente",
+     "valor": "≥ 13 mm / ≥ 8 mm",
+     "item": "F.7.2.1",
+     "cota": "esquemas/icamento-unidade-portatil-lingada-4-pernas-forerunner.svg#d-perna"
+    },
+    {
+     "parametro": "Manilhas e correntes — Charpy",
+     "valor": "≥ 42 J a −20 °C",
+     "item": "F.7.2.4"
+    },
+    {
+     "parametro": "Fator de material γRm — cabo / corrente / fibra / manilha",
+     "valor": "2,0 / 1,8 / 2,8 / 1,8",
+     "item": "F.7.3"
+    },
+    {
+     "parametro": "Eficiência do terminal γe — luva prensada / trançado / corrente",
+     "valor": "0,9 / 0,8 / 1,0",
+     "item": "F.7.3.3"
+    },
+    {
+     "parametro": "RDAF (seleção simplificada)",
+     "valor": "0,73 + 0,27 √(50/peso)",
+     "item": "F.7.6, Tab. F.6"
+    }
+   ]
+  },
+  {
+   "titulo": "Olhais (padeyes)",
+   "item": "F.7.5; Anexo J",
+   "texto": "Carga do olhal = reação do ponto × fator de projeto / cos do ângulo, mais carga lateral mínima. Resultante no plano do olhal. Resistência por arrancamento e esmagamento com fator de material. Borda esmerilhada, furo usinado; preferir olhal passante na alma; propriedade na espessura documentada. O Anexo J dá proporções e tabelas por WLL de manilha para quatro tipos: conexão direta, chapa simples, com chapas de reforço e com bucha (boss).",
+   "valores": [
+    {
+     "parametro": "Carga lateral mínima",
+     "valor": "0,05 × Pp (≈ 3°)",
+     "item": "F.7.5",
+     "cota": "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg#fora-plano"
+    },
+    {
+     "parametro": "Desvio da resultante em relação ao plano",
+     "valor": "± 2°",
+     "item": "F.1.1",
+     "cota": "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg#desvio-plano"
+    },
+    {
+     "parametro": "γRm — olhal e penetração total / filete e parafusos",
+     "valor": "1,15 / 1,3",
+     "item": "J.2.5"
+    },
+    {
+     "parametro": "Parafusos de olhal parafusado",
+     "valor": "≥ M12",
+     "item": "J.2.2"
+    },
+    {
+     "parametro": "Furo mínimo",
+     "valor": "dh = 1,03 d + 2",
+     "item": "J.2.4",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-tipo1-norsok.svg#dh"
+    },
+    {
+     "parametro": "Tipo 1 — raio externo",
+     "valor": "1,3 dh < R < 1,8 dh",
+     "item": "J.2.4",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-tipo1-norsok.svg#R"
+    },
+    {
+     "parametro": "Tipo 1 — espessura",
+     "valor": "0,75 ws ≤ tp ≤ 0,9 (ws − 3)",
+     "item": "J.2.4",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-tipo1-norsok.svg#tp"
+    },
+    {
+     "parametro": "Tipo 2 — raio das chapas de reforço",
+     "valor": "1,0 dh < Rb < 1,5 dh",
+     "item": "J.2.4",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-tipo2-norsok.svg#Rb"
+    },
+    {
+     "parametro": "Tipo 0 — raio nas arestas do furo",
+     "valor": "3 mm",
+     "item": "J.2.4",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-tipo0-norsok.svg#raio-borda"
+    }
+   ]
+  },
+  {
+   "titulo": "Guindastes, elevadores e sonda",
+   "item": "Anexos D, E, G",
+   "texto": "Requisitos adicionais por tipo: equipamentos de manuseio de tubos e sondagem, elevadores, guindastes móveis, de torre, giratórios, pontes rolantes, guindastes offshore (EN 13852-1), flutuantes, guinchos e talhas, empilhadeiras. Guindaste com sistema de operação de emergência, parada de emergência e chave geral.",
+   "valores": []
+  },
+  {
+   "titulo": "Fundações e suspensões",
+   "item": "Anexo H",
+   "texto": "Vigas-trilho (monovias), olhais de suspensão, suportes de polia e bases não são equipamentos de içamento, mas suportam-nos. Carga de projeto = peso próprio + SWL × DAF × DF, com fatores por criticidade. Inclinação mínima da instalação conforme o tipo de unidade. Monovia preferencialmente em perfil HEB inteiriço, com fator dinâmico decrescente com a capacidade, carga horizontal mínima, flecha limitada e batentes nas pontas.",
+   "valores": [
+    {
+     "parametro": "DF — elemento crítico único / principal / outros",
+     "valor": "1,68 / 1,48 / 1,34",
+     "item": "H.3, Tab. H.3"
+    },
+    {
+     "parametro": "Inclinação em terra",
+     "valor": "1°",
+     "item": "H.4.2"
+    },
+    {
+     "parametro": "Inclinação — fixa / semissub / barcaça / navio",
+     "valor": "1°/1°; 3°/3°; 3°/2°; 5°/2° (banda/trim)",
+     "item": "H.4.2, Tab. H.4"
+    },
+    {
+     "parametro": "DAF da monovia",
+     "valor": "1,5 até 1 t; 1,57 − 0,07 SWL de 1 a 6 t; 1,15 acima de 6 t",
+     "item": "H.5.2"
+    },
+    {
+     "parametro": "SWL mínimo da monovia",
+     "valor": "0,5 t",
+     "item": "H.5.2"
+    },
+    {
+     "parametro": "Carga horizontal",
+     "valor": "≥ 10 % de Pp",
+     "item": "H.5.2"
+    },
+    {
+     "parametro": "Flecha vertical — vão / balanço",
+     "valor": "≤ L/500 / ≤ L/250",
+     "item": "H.5.3"
+    }
+   ]
+  }
+ ]
+}

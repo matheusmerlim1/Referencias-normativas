@@ -1,0 +1,94 @@
+{
+ "id": "ASME-SA-311",
+ "titulo": "SA-311 — Barras de aço carbono trefiladas a frio e aliviadas, com requisitos de propriedades mecânicas",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 4",
+   "texto": "Barras de aço carbono trefiladas a frio e com alívio de tensões, fornecidas por propriedades mecânicas. Classe A (passes normais: redondas, quadradas, sextavadas e chatas) e Classe B (passes pesados, maior resistência: redondas e sextavadas); quatro graus de usinagem facilitada. Requisitos gerais pela SA-29. Suplementares S1–S6 opcionais.",
+   "valores": [
+    {
+     "parametro": "Graus da Classe A",
+     "valor": "1018, 1035, 1045, 1050, 1541, 1117, 1137, 1141, 1144",
+     "item": "4.1.1"
+    },
+    {
+     "parametro": "Graus da Classe B",
+     "valor": "1045, 1050, 1541, 1141, 1144",
+     "item": "4.1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Análise de corrida; proibida adição intencional de Bi, Se, Te ou Pb.",
+   "valores": [
+    {
+     "parametro": "1018 — C / Mn",
+     "valor": "0,15–0,20 % / 0,60–0,90 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "1045 — C / Mn",
+     "valor": "0,43–0,50 % / 0,60–0,90 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "1541 — C / Mn",
+     "valor": "0,36–0,44 % / 1,35–1,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "1144 — C / Mn / S",
+     "valor": "0,40–0,48 % / 1,35–1,65 % / 0,24–0,33 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx.",
+     "valor": "0,040 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "As propriedades caem com o diâmetro. Exemplo do grau 1018, Classe A (Su mín. / Sy mín. / alongamento / redução de área):",
+   "valores": [
+    {
+     "parametro": "1018, até 7/8 in [20 mm]",
+     "valor": "70 ksi [485] / 60 ksi [415] / 18 % / 40 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "1018, 7/8 a 1 1/4 in [20 a 30 mm]",
+     "valor": "65 ksi [450] / 55 ksi [380] / 16 % / 40 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "1018, 2 a 3 in [50 a 75 mm]",
+     "valor": "55 ksi [380] / 45 ksi [310] / 15 % / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "1035, até 7/8 in",
+     "valor": "85 ksi [590] / 75 ksi [520] / 13 % / 35 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "8",
+   "texto": "Pelo menos um ensaio de tração por lote (mesma corrida, bitola e carga de forno; em tratamento contínuo, até 25 t), corpo de prova longitudinal.",
+   "valores": [
+    {
+     "parametro": "Lote em tratamento contínuo",
+     "valor": "≤ 25 t [25 Mg] por bitola e corrida",
+     "item": "8.2"
+    }
+   ]
+  }
+ ]
+}

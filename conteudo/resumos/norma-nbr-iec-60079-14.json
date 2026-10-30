@@ -1,0 +1,38 @@
+{
+ "id": "NBR-IEC-60079-14",
+ "titulo": "ABNT NBR IEC 60079-14:2006 — Equipamentos elétricos para atmosferas explosivas — Parte 14: Instalações elétricas em áreas classificadas (exceto minas)",
+ "secoes": [
+  {"titulo": "Objetivo e definições", "item": "1, 3",
+   "texto": "Requisitos de projeto, seleção e montagem de instalações elétricas em áreas classificadas por gás (tradução da IEC 60079-14:2002), complementando as regras de instalação comuns. Define os tipos de proteção: à prova de explosão 'd', segurança aumentada 'e', segurança intrínseca 'i' (ia/ib) com parâmetros de entidade, pressurização 'p', proteção de zona 2 'n', e o tempo tE de motores 'e'.",
+   "valores": []},
+  {"titulo": "Requisitos gerais e documentação", "item": "4",
+   "texto": "Instalação de acordo com a classificação de área (NBR IEC 60079-10), documentação de classificação, certificados e instruções dos equipamentos, e garantia de conformidade dos equipamentos.",
+   "valores": []},
+  {"titulo": "Seleção por zona", "item": "5.2",
+   "texto": "Equipamento para zona mais severa serve nas menos severas.",
+   "valores": [
+    {"parametro": "Zona 0", "valor": "segurança intrínseca 'ia' (IEC 60079-11) com 12.3, ou equipamento conforme IEC 60079-26", "item": "5.2.1"},
+    {"parametro": "Zona 1", "valor": "equipamento de zona 0 ou tipos d, p, q, o, e, i, m", "item": "5.2.2"},
+    {"parametro": "Zona 2", "valor": "equipamento de zona 0/1, tipo 'n' (IEC 60079-15) ou industrial sem superfícies quentes, arcos ou centelhas em operação normal (avaliado por pessoa competente)", "item": "5.2.3"}
+   ]},
+  {"titulo": "Seleção por temperatura e grupo", "item": "5.3–5.4",
+   "texto": "A temperatura máxima de superfície do equipamento não pode alcançar a temperatura de ignição do gás. Grupo do equipamento compatível com a subdivisão do gás.",
+   "valores": [
+    {"parametro": "T1 / T2 / T3", "valor": "superfície ≤ 450 / 300 / 200 °C (gás com ignição acima desses valores)", "item": "Tab. 1"},
+    {"parametro": "T4 / T5 / T6", "valor": "≤ 135 / 100 / 85 °C", "item": "Tab. 1"},
+    {"parametro": "Temperatura ambiente sem marcação", "valor": "−20 °C a +40 °C", "item": "5.3"},
+    {"parametro": "Equipamento simples em circuito IS", "valor": "pode ser considerado T4 se Po ≤ 1,3 W", "item": "5.3"},
+    {"parametro": "Gás IIA / IIB / IIC — equipamento aceito", "valor": "IIA, IIB ou IIC / IIB ou IIC / só IIC", "item": "Tab. 2"},
+    {"parametro": "Tipos e, m, p, q", "valor": "grupo II (sem subdivisão); d e i exigem IIA/IIB/IIC", "item": "5.4"}
+   ]},
+  {"titulo": "Proteção contra riscos de ignição", "item": "6–8",
+   "texto": "Partes energizadas e massas, equipotencialização, eletricidade estática, raios, radiação eletromagnética, proteção catódica; proteção elétrica contra sobrecarga e curto; desligamento de emergência fora da área classificada (equipamentos que precisam continuar operando em circuito separado) e meios de isolamento de cada circuito, incluindo o neutro, com sinalização e bloqueio contra religação.",
+   "valores": []},
+  {"titulo": "Fiação", "item": "9",
+   "texto": "Cabos com cobertura (termoplástica, termofixa, elastomérica ou isolação mineral com capa metálica) para equipamentos fixos em zonas 1 e 2; cabos de zona 0 conforme seção 12; regras para condutores de alumínio, emendas, aberturas não usadas e sistemas de eletrodutos com unidades seladoras.",
+   "valores": []},
+  {"titulo": "Requisitos por tipo de proteção", "item": "10–13",
+   "texto": "'d': juntas flangeadas afastadas de barreiras sólidas (Tab. 3 por grupo), proteção das juntas, prensa-cabos e eletrodutos selados, motores com inversor. 'e': invólucros IP (IEC 60034-5/NBR IEC 60529), motores gaiola com proteção térmica que desligue dentro de tE com rotor bloqueado (partida difícil exige proteção especial), fiação e aquecedores resistivos. 'i': circuitos IS em zonas 1/2 e 0 (só ia), verificação de entidade (Uo, Io, Po, Co, Lo × cabo e equipamento), separação de circuitos não IS. 'p': dutos, ações em falha de pressurização (Tab. 6), purga, salas pressurizadas e casas de analisadores.",
+   "valores": []}
+ ]
+}

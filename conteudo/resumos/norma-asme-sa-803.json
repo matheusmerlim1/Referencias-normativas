@@ -1,0 +1,67 @@
+{
+ "id": "ASME-SA-803",
+ "titulo": "SA-803 — Tubos soldados de aço inoxidável ferrítico para aquecedores de água de alimentação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos soldados de aço inoxidável ferrítico, retos ou curvados em U, para aquecedores tubulares de água de alimentação. Requisitos gerais pela SA-1016.",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo",
+     "valor": "5/8 a 1 in [15,9 a 25,4 mm]",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "6 a 8, 14",
+   "texto": "Soldagem automática de laminado plano sem metal de adição; evitar contaminação por Cu, Pb, Hg, Zn, cloretos ou S. Lubrificantes removidos antes do recozimento; recozimento e resfriamento adequados ao grau; decapagem nítrico-fluorídrica.",
+   "valores": [
+    {
+     "parametro": "Temperatura mín. de recozimento",
+     "valor": "1200 °F [650 °C]",
+     "item": "8.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "TP409",
+     "valor": "55 ksi [380] / 30 ksi [205] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "TP439",
+     "valor": "60 ksi [415] / 30 ksi [205] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "TP XM-27",
+     "valor": "65 ksi [450] / 40 ksi [275] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "26-3-3",
+     "valor": "85 ksi [585] / 65 ksi [450] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "29-4",
+     "valor": "80 ksi [550] / 60 ksi [415] / 20 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "10, 11, 19",
+   "texto": "Tração (1 por lote até 50 tubos); corrosão (SA-763) em amostra de 1 in [25 mm] da curva de menor raio tratada e de cada lote reto. Tubos marcados com a corrida."
+  }
+ ]
+}

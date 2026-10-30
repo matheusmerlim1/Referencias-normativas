@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 540" width="920" height="540" role="img" aria-label="Interface olhal × manilha × lingada — folgas e alinhamento">
+<title>Interface olhal × manilha × lingada — folgas e alinhamento (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Interface olhal × manilha × lingada — folgas e alinhamento</text>
+<rect class="s" x="178" y="250" width="44" height="200"/>
+<path class="g" d="M146,300 L146,100 A54,54 0 0 1 254,100 L254,300"/>
+<path class="g" d="M160,300 L160,100 A40,40 0 0 1 240,100 L240,300"/>
+<rect class="sl" x="130" y="240" width="140" height="40"/>
+<line class="g" x1="80" y1="450" x2="320" y2="450"/>
+<g id="cota-tp" class="cota"><line class="d" x1="178" y1="400" x2="222" y2="400" marker-start="url(#a)" marker-end="url(#a)"/><text x="252" y="405">tp</text></g>
+<g id="cota-ws" class="cota"><line class="e" x1="160" y1="113" x2="160" y2="156"/><line class="e" x1="240" y1="113" x2="240" y2="156"/><line class="d" x1="160" y1="150" x2="240" y2="150" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="200" y="143">ws</text></g>
+<g id="cota-d" class="cota"><line class="e" x1="277" y1="240" x2="304" y2="240"/><line class="e" x1="277" y1="280" x2="304" y2="280"/><line class="d" x1="298" y1="214" x2="298" y2="240" marker-end="url(#a)"/><line class="d" x1="298" y1="306" x2="298" y2="280" marker-end="url(#a)"/><line class="d" x1="298" y1="240" x2="298" y2="280"/><text x="305" y="265">d (pino)</text></g>
+<g id="cota-C" class="cota"><line class="e" x1="143" y1="280" x2="110" y2="280"/><line class="e" x1="143" y1="74" x2="110" y2="74"/><line class="d" x1="116" y1="280" x2="116" y2="74" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="109" y="182">C</text></g>
+<text class="b m" x="200" y="482">Vista lateral (C = comprimento interno da manilha)</text>
+<path class="s" d="M430,410 L430,380 L456.4,234.8 A85,85 0 0 1 623.6,234.8 L650,380 L650,410 z"/>
+<circle class="w" cx="540" cy="250" r="44"/>
+<circle class="sl" cx="540" cy="241" r="35"/>
+<g id="cota-dh" class="cota"><line class="e" x1="496" y1="247" x2="496" y2="184"/><line class="e" x1="584" y1="247" x2="584" y2="184"/><line class="d" x1="496" y1="190" x2="584" y2="190" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="540" y="183">dh (furo)</text></g>
+<g id="cota-folga" class="cota"><line class="d" x1="650" y1="345" x2="540" y2="294" marker-end="url(#a)"/><text x="654" y="350">folga furo − pino</text></g>
+<g id="cota-R" class="cota"><line class="d" x1="660" y1="135" x2="594.6" y2="184.9" marker-end="url(#a)"/><text x="664" y="140">R</text></g>
+<text class="b m" x="540" y="472">Vista frontal (pino no furo)</text>
+<rect class="s" x="802" y="160" width="16" height="200"/>
+<line class="c" x1="810" y1="110" x2="810" y2="390"/>
+<line class="g" x1="810" y1="260" x2="860" y2="120"/>
+<g id="cota-desvio-plano" class="cota"><path class="d" d="M810,120 A140,140 0 0,1 857.9,128.4" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="838.7" y="102.5">desvio</text></g>
+<g id="cota-fora-plano" class="cota"><path class="d" d="M776.3,176.6 A90,90 0 0,1 810,170" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="788.6" y="155.1">fora do plano</text></g>
+<text class="b m" x="810" y="420">Planta (plano do olhal)</text>
+<text class="n" x="20" y="528">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

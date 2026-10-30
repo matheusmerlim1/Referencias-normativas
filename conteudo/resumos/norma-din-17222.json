@@ -1,0 +1,56 @@
+{
+ "id": "DIN-17222",
+ "titulo": "DIN 17222:1979 — Fitas de aço laminadas a frio para molas — Condições técnicas de fornecimento",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Fitas laminadas a frio dos aços da Tabela 1 para molas. Não se aplica a aços laminados a quente para molas beneficiadas (DIN 17221), arames de mola (DIN 17223), inoxidáveis (DIN 17224) nem aços para alta temperatura (DIN 17225).",
+   "valores": [
+    {
+     "parametro": "Espessura",
+     "valor": "≤ 5 mm",
+     "item": "1.1",
+     "nota": "cópia OCR — conferir"
+    },
+    {
+     "parametro": "Largura",
+     "valor": "≤ 600 mm",
+     "item": "1.1",
+     "nota": "cópia OCR — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Aços",
+   "item": "Tab. 1",
+   "texto": "Aços não ligados (C…/Ck…) e ligados como 67SiCr5.",
+   "valores": [
+    {
+     "parametro": "Grades",
+     "valor": "Ck 55, Ck 60, Ck 67, Ck 75, Ck 85, 67SiCr5…",
+     "item": "Tab. 1",
+     "nota": "lista completa ilegível — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Estados de fornecimento",
+   "item": "3, 8",
+   "texto": "Laminado a frio + recozido (G), + recozido + laminado a frio (G + K), + temperado e revenido (H + A). Superfície cinza-azulada, brilhante, polida ou polida e colorida por revenido.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos",
+   "item": "8, Tab. 4–6",
+   "texto": "Classes de requisito combinam qualidade e condições; propriedades mecânicas e dureza mínima após têmpera por estado; massa calculada com densidade 7,85 kg/dm³.",
+   "valores": [
+    {
+     "parametro": "Densidade para cálculo de massa",
+     "valor": "7,85 kg/dm³",
+     "item": "5"
+    }
+   ]
+  }
+ ]
+}

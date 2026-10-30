@@ -1,0 +1,62 @@
+{
+ "id": "ISO-7040",
+ "titulo": "ISO 7040:2012 — Porcas sextavadas autotravantes normais (com inserto não metálico)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Porca sextavada de torque prevalecente com inserto não metálico, M3 a M36; dimensões da ISO 4032 mais o elemento de travamento.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M3 a M36",
+     "item": "1"
+    },
+    {
+     "parametro": "Grau de produto",
+     "valor": "A até M16; B acima de M16",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3",
+   "texto": "Por rosca: s, e, altura total h, altura útil m, diâmetro de apoio.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos e normas de referência",
+   "item": "4",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Material do corpo",
+     "valor": "aço",
+     "item": "4"
+    },
+    {
+     "parametro": "Tolerância de rosca",
+     "valor": "6H",
+     "item": "4"
+    },
+    {
+     "parametro": "Classes",
+     "valor": "D ≥ M5: 5, 8, 10; abaixo de M5 a combinar",
+     "item": "4"
+    },
+    {
+     "parametro": "Torque prevalecente e temperatura do inserto",
+     "valor": "ISO 2320",
+     "item": "4"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "5",
+   "texto": "Ex.: ISO 7040 – M12 – 8.",
+   "valores": []
+  }
+ ]
+}

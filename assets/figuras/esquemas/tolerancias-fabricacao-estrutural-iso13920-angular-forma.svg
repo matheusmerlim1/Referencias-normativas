@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="ISO 13920 — lado menor l do ângulo (Tab. 2), retilineidade e planicidade (Tab. 3)">
+<title>ISO 13920 — lado menor l do ângulo (Tab. 2), retilineidade e planicidade (Tab. 3) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">ISO 13920 — lado menor l do ângulo (Tab. 2), retilineidade e planicidade (Tab. 3)</text>
+<text class="b" x="40" y="70">(a) Ângulo: l = lado MENOR</text>
+<rect class="s" x="60" y="250" width="300" height="24"/>
+<rect class="s" x="60" y="110" width="24" height="140"/>
+<g id="cota-l-angulo" class="cota"><line class="e" x1="87" y1="110" x2="130" y2="110"/><line class="e" x1="87" y1="250" x2="130" y2="250"/><line class="d" x1="124" y1="110" x2="124" y2="250" marker-start="url(#a)" marker-end="url(#a)"/><text x="140" y="180">l (lado menor)</text></g>
+<g id="cota-lado-maior" class="cota"><line class="e" x1="60" y1="277" x2="60" y2="305"/><line class="e" x1="360" y1="277" x2="360" y2="305"/><line class="d" x1="60" y1="299" x2="360" y2="299" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="210" y="317">lado maior</text></g>
+<path class="e" d="M84,110 L104,110"/>
+<g id="cota-dalfa" class="cota"><path class="d" d="M84,130 A120,120 0 0,1 100.7,131.2" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="93.8" y="115.3">Δα</text></g>
+<line class="h" x1="84" y1="250" x2="103.5" y2="111.4"/>
+<text class="b" x="480" y="70">(b) Retilineidade — régua na borda</text>
+<rect class="w" x="480" y="120" width="380" height="10"/>
+<path class="s" d="M480,134 Q670,150 860,134 L860,170 Q670,186 480,170 z"/>
+<g id="cota-retilineidade" class="cota"><line class="d" x1="670" y1="104" x2="670" y2="130" marker-end="url(#a)"/><line class="d" x1="670" y1="168" x2="670" y2="142" marker-end="url(#a)"/><line class="d" x1="670" y1="130" x2="670" y2="142"/><text x="690" y="210">desvio</text></g>
+<g id="cota-l-forma" class="cota"><line class="e" x1="480" y1="173" x2="480" y2="226"/><line class="e" x1="860" y1="173" x2="860" y2="226"/><line class="d" x1="480" y1="220" x2="860" y2="220" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="670" y="238">l — lado maior da superfície</text></g>
+<text class="b" x="480" y="320">(c) Planicidade — plano de medição</text>
+<line class="h" x1="480" y1="380" x2="860" y2="380"/>
+<path class="s" d="M480,380 Q560,410 670,388 Q760,370 860,380 L860,430 L480,430 z"/>
+<g id="cota-planicidade" class="cota"><line class="d" x1="560" y1="354" x2="560" y2="380" marker-end="url(#a)"/><line class="d" x1="560" y1="427" x2="560" y2="401" marker-end="url(#a)"/><line class="d" x1="560" y1="380" x2="560" y2="401"/><text x="580" y="470">hm — desvio</text></g>
+<text class="n" x="20" y="508">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

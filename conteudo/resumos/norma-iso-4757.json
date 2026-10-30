@@ -1,0 +1,30 @@
+{
+ "id": "ISO-4757",
+ "titulo": "ISO 4757:1983 (BS EN ISO 4757:1995) — Fendas cruzadas para parafusos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Define dois tipos de fenda cruzada — tipo H e tipo Z — e o método de verificação por penetração de calibre.",
+   "valores": [
+    {
+     "parametro": "Números de fenda",
+     "valor": "0, 1, 2, 3, 4",
+     "item": "Tab. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Fenda tipo H",
+   "item": "2",
+   "texto": "Dimensões da fenda por número e calibre de profundidade; a profundidade mínima de penetração é dada em cada norma de produto.",
+   "valores": []
+  },
+  {
+   "titulo": "Fenda tipo Z",
+   "item": "3",
+   "texto": "Mesma estrutura para o tipo Z, com calibre próprio.",
+   "valores": []
+  }
+ ]
+}

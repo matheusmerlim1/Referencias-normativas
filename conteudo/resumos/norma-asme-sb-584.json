@@ -1,0 +1,43 @@
+{
+ "id": "ASME-SB-584",
+ "titulo": "SB-584 — Fundidos em areia de ligas de cobre para uso geral",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Peças fundidas em areia de ligas de cobre para uso geral (especificação composta que substitui várias antigas): bronzes ao estanho e chumbo, latões, bronzes de manganês, de alumínio, de silício etc."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "C83600 (85-5-5-5)",
+     "valor": "30 ksi (207) / 14 ksi (97) / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C83450",
+     "valor": "30 ksi (207) / 14 ksi (97) / 25 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C84400",
+     "valor": "29 ksi (200) / 13 ksi (90) / 18 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C85200",
+     "valor": "35 ksi (241) / 12 ksi (83) / 25 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C85700",
+     "valor": "40 ksi (276) / 14 ksi (97) / 15 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

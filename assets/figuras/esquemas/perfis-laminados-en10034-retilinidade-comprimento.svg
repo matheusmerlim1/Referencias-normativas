@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" role="img" aria-label="EN 10034 — retilinidade q (Tab. 3) e comprimento L (Fig. 1)">
+<title>EN 10034 — retilinidade q (Tab. 3) e comprimento L (Fig. 1) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">EN 10034 — retilinidade q (Tab. 3) e comprimento L (Fig. 1)</text>
+<path class="s" d="M80,150 Q450.0,90 820,150 L820,180 Q450.0,120 80,180 z"/>
+<line class="h" x1="80" y1="150" x2="820" y2="150"/>
+<g id="cota-q" class="cota"><line class="d" x1="450" y1="176" x2="450" y2="150" marker-end="url(#a)"/><line class="d" x1="450" y1="94" x2="450" y2="120" marker-end="url(#a)"/><line class="d" x1="450" y1="150" x2="450" y2="120"/><text x="480" y="110">q (flecha: qxx no plano da alma, qyy no da mesa)</text></g>
+<g id="cota-Lq" class="cota"><line class="e" x1="80" y1="183" x2="80" y2="226"/><line class="e" x1="820" y1="183" x2="820" y2="226"/><line class="d" x1="80" y1="220" x2="820" y2="220" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="450" y="238">L — comprimento sobre o qual se mede a flecha</text></g>
+<path class="s" d="M90,330 L790,330 L825,380 L60,380 z"/>
+<line class="h" x1="90" y1="310" x2="90" y2="400"/>
+<line class="h" x1="790" y1="310" x2="790" y2="400"/>
+<g id="cota-L" class="cota"><line class="e" x1="90" y1="327" x2="90" y2="284"/><line class="e" x1="790" y1="327" x2="790" y2="284"/><line class="d" x1="90" y1="290" x2="790" y2="290" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="440" y="283">L — maior comprimento utilizável (pontas consideradas cortadas em esquadro)</text></g>
+<text class="n" x="20" y="468">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SB-165",
+ "titulo": "SB-165 — Tubos sem costura de níquel-cobre (Monel 400)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe e tube) sem costura de liga níquel-cobre UNS N04400, trabalhados a frio, nas condições da Tabela 1."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela",
+   "texto": "N04400 (Monel 400); N04405 é a versão de usinagem facilitada (com S).",
+   "valores": [
+    {
+     "parametro": "Ni mín.",
+     "valor": "63,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "Cu",
+     "valor": "28,0 a 34,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "Fe máx. / Mn máx.",
+     "valor": "2,5 % / 2,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "C máx. / Si máx.",
+     "valor": "0,3 % / 0,5 %",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "Recozido, DE até 5 in (127 mm)",
+     "valor": "70 000 psi (480) / 28 000 psi (195) / 35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Recozido, DE acima de 5 in",
+     "valor": "70 000 psi (480) / 25 000 psi (170) / 35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Aliviado, todos os tamanhos",
+     "valor": "85 000 psi (585) / 55 000 psi (380) / 15 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "6",
+   "texto": "Tubos que vazarem no teste hidrostático são rejeitados."
+  }
+ ]
+}

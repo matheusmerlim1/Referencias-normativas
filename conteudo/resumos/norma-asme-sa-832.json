@@ -1,0 +1,92 @@
+{
+ "id": "ASME-SA-832",
+ "titulo": "SA-832 — Chapas de aço liga Cr-Mo-V normalizadas e revenidas para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço cromo-molibdênio-vanádio normalizadas e revenidas para vasos de pressão soldados (graus 21V, 22V, 23V). A versão temperada e revenida está na SA-542. Requisitos gerais pela SA-20."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "4, 5",
+   "texto": "Aço acalmado de grão fino.",
+   "valores": [
+    {
+     "parametro": "Normalização mín. — 22V",
+     "valor": "1650 °F [900 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Normalização mín. — 23V",
+     "valor": "1850 °F [1010 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Revenimento mín.",
+     "valor": "1250 °F [675 °C]",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "Análise de corrida.",
+   "valores": [
+    {
+     "parametro": "C — 21V / 22V / 23V",
+     "valor": "0,10–0,15 / 0,11–0,15 / 0,10–0,15 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Mn",
+     "valor": "0,30–0,60 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "P máx.",
+     "valor": "0,025 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1, 7.2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su",
+     "valor": "85–110 ksi [585–760 MPa]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "60 ksi [415 MPa]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm",
+     "valor": "18 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Redução de área mín. — redondo / retangular",
+     "valor": "45 % / 40 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Charpy transversal — média / individual",
+     "valor": "40 ft·lbf [54 J] / 35 ft·lbf [48 J]",
+     "item": "7.2.1"
+    },
+    {
+     "parametro": "Temperatura do Charpy",
+     "valor": "0 °F [−18 °C]",
+     "item": "7.2.2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-label="Chanfro composto para parede espessa (ASME B16.25) — dois ângulos, altura do 1º trecho, nariz e t">
+<title>Chanfro composto para parede espessa (ASME B16.25) — dois ângulos, altura do 1º trecho, nariz e t (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Chanfro composto para parede espessa (ASME B16.25) — dois ângulos, altura do 1º trecho, nariz e t</text>
+<path class="s" d="M100,140 L512,140 L528.9,236 L600,326 L600,340 L100,340 z"/>
+<line class="e" x1="600" y1="326" x2="600" y2="120"/>
+<line class="e" x1="528.9" y1="236" x2="528.9" y2="100"/>
+<g id="cota-angulo" class="cota"><path class="d" d="M600,246 A80,80 0 0,0 551.3,262.5" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="567.9" y="236.3">ângulo inferior</text></g>
+<g id="cota-angulo-sup" class="cota"><path class="d" d="M528.9,166 A70,70 0 0,0 516.8,167.1" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="520.7" y="146.4">ângulo superior</text></g>
+<g id="cota-altura-37" class="cota"><line class="e" x1="597" y1="326" x2="534" y2="326"/><line class="e" x1="597" y1="236" x2="534" y2="236"/><line class="d" x1="540" y1="326" x2="540" y2="236" marker-start="url(#a)" marker-end="url(#a)"/><text x="666" y="270">altura (trecho inferior)</text></g>
+<g id="cota-nariz" class="cota"><line class="d" x1="601" y1="300" x2="601" y2="326" marker-end="url(#a)"/><line class="d" x1="601" y1="366" x2="601" y2="340" marker-end="url(#a)"/><line class="d" x1="601" y1="326" x2="601" y2="340"/><text x="630" y="344">nariz</text></g>
+<g id="cota-t" class="cota"><line class="e" x1="97" y1="140" x2="64" y2="140"/><line class="e" x1="97" y1="340" x2="64" y2="340"/><line class="d" x1="70" y1="140" x2="70" y2="340" marker-start="url(#a)" marker-end="url(#a)"/><text x="77" y="245">t</text></g>
+<text class="n" x="20" y="428">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

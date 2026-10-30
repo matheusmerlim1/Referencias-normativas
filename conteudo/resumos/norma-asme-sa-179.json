@@ -1,0 +1,81 @@
+{
+ "id": "ASME-SA-179",
+ "titulo": "SA-179 — Tubos sem costura de aço baixo carbono trefilados a frio para trocadores de calor e condensadores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura, de espessura mínima, trefilados a frio, de aço baixo carbono, para trocadores de calor tubulares, condensadores e equipamentos similares. Requisitos gerais pela SA-450.",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo",
+     "valor": "1/8 a 3 in [3,2 a 76,2 mm]",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "5 a 7",
+   "texto": "Processo sem costura com trefilação a frio; tratamento térmico após o último passe; tubo acabado sem carepa (leve oxidação é aceita).",
+   "valores": [
+    {
+     "parametro": "Temperatura de tratamento",
+     "valor": "≥ 1200 °F [650 °C]",
+     "item": "6.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "8",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C",
+     "valor": "0,06–0,18 %",
+     "item": "8.1"
+    },
+    {
+     "parametro": "Mn",
+     "valor": "0,27–0,63 %",
+     "item": "8.1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "8.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "10",
+   "texto": "Não há requisito de tração; o controle é por dureza.",
+   "valores": [
+    {
+     "parametro": "Dureza máx.",
+     "valor": "72 HRB",
+     "item": "10.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "9, 11",
+   "texto": "Achatamento e alargamento (flaring) em 2 tubos por lote; ensaio de flange pode substituir o alargamento em tubos com parede < 10 % do diâmetro.",
+   "valores": [
+    {
+     "parametro": "Análise de produto (a pedido)",
+     "valor": "1 tubo por 250 peças",
+     "item": "9.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "12",
+   "texto": "Marcação da SA-450 acrescida do nome e nº do pedido do comprador."
+  }
+ ]
+}

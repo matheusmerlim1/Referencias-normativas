@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SFA-5.31",
+ "titulo": "SFA-5.31 — Fluxos para brasagem e solda-brasagem (AWS A5.31)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Fluxos para uso com os metais de adição de brasagem e solda-brasagem da A5.8."
+  },
+  {
+   "titulo": "Classificações",
+   "item": "Tabela 1",
+   "texto": "FBx-X: forma (pó, pasta, líquido), metal de adição associado e faixa de temperatura de atividade.",
+   "valores": [
+    {
+     "parametro": "FB1-A (pó, BAlSi)",
+     "valor": "1080–1140 °F (580–615 °C)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "FB1-B (pó, BAlSi)",
+     "valor": "1040–1140 °F (560–615 °C)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "FB1-C (pó, BAlSi)",
+     "valor": "1000–1140 °F (540–615 °C)",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabela 2",
+   "texto": "Conforme a classificação: teor de água, tamanho de partícula, aderência, brilho de sódio, fluidez, ação fluxante, escoamento e vida útil."
+  }
+ ]
+}

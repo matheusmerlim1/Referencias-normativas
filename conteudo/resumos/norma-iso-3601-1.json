@@ -1,0 +1,41 @@
+{
+ "id": "ISO-3601-1",
+ "titulo": "ISO 3601-1:2012 — Sistemas fluidomecânicos — O-rings — Parte 1: Diâmetros internos, seções, tolerâncias e códigos de designação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1–5",
+   "texto": "Diâmetros internos d1, seções d2, tolerâncias e códigos de O-rings para hidráulica e pneumática industrial e aeroespacial. Servem para qualquer elastômero com ferramental adequado (moldes usuais pensados na contração do NBR 70 IRHD; outros compostos podem exigir molde especial).",
+   "valores": []
+  },
+  {
+   "titulo": "Dimensões e tolerâncias",
+   "item": "6, Tab. 1–8, Anexo A",
+   "texto": "Série de seções em polegada (1,02 a 6,99 mm) e série métrica (1,80 a 7,00 mm). Duas classes de tolerância de diâmetro interno para uso industrial: A (mais justa) e B (fórmula do Anexo A). Tabelas 7–8 para aeroespacial; O-rings fora de tabela usam o Anexo A.",
+   "valores": [
+    {
+     "parametro": "Seções — série em polegada",
+     "valor": "1,02; 1,27; 1,52; 1,78 ± 0,08; 2,62 ± 0,08; 3,53 ± 0,10; 5,33 ± 0,13; 6,99 ± 0,15 mm",
+     "item": "Tab. 1–2"
+    },
+    {
+     "parametro": "Seções — série métrica",
+     "valor": "1,80 ± 0,08; 2,65 ± 0,09; 3,55 ± 0,10; 5,30 ± 0,13; 7,00 ± 0,15 mm",
+     "item": "Tab. 3–6"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação e inspeção",
+   "item": "7–9",
+   "texto": "Código: 'O-ring ISO 3601-1' – código de tamanho e classe de tolerância – d1 × d2 – grau de qualidade (ISO 3601-3). Métodos de medição no recebimento.",
+   "valores": [
+    {
+     "parametro": "Exemplos",
+     "valor": "O-ring-ISO 3601-1-011A-7,65×1,78-S; O-ring-ISO 3601-1-125B-32,99×2,62-N",
+     "item": "7"
+    }
+   ]
+  }
+ ]
+}

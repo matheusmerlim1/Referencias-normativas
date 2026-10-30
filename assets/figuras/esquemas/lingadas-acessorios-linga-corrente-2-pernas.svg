@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" width="760" height="520" role="img" aria-label="Linga de corrente de 2 pernas — componentes e comprimento da perna">
+<title>Linga de corrente de 2 pernas — componentes e comprimento da perna (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Linga de corrente de 2 pernas — componentes e comprimento da perna</text>
+<ellipse cx="380" cy="80" rx="22" ry="36" transform="rotate(0 380 80)" fill="none" stroke="#666" stroke-width="6"/>
+<text class="n" x="410" y="75">anel de carga principal</text>
+<rect class="s" x="342" y="116" width="16" height="22"/>
+<line x1="350" y1="138" x2="180" y2="380" stroke="#666" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4"/>
+<rect class="s" x="172" y="380" width="16" height="20"/>
+<path class="g" d="M190,405 L190,432 A12.6,12.6 0 1 1 166.6,426.6" style="stroke-width:5"/>
+<rect class="s" x="402" y="116" width="16" height="22"/>
+<line x1="410" y1="138" x2="580" y2="380" stroke="#666" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4"/>
+<rect class="s" x="572" y="380" width="16" height="20"/>
+<path class="g" d="M590,405 L590,432 A12.6,12.6 0 1 1 566.6,426.6" style="stroke-width:5"/>
+<text class="n" x="470" y="136">dispositivo de ligação</text>
+<g id="cota-comprimento" class="cota"><line class="e" x1="382.5" y1="114.3" x2="418.1" y2="90.2"/><line class="e" x1="582.5" y1="410.3" x2="618.1" y2="386.2"/><line class="d" x1="413.1" y1="93.6" x2="613.1" y2="389.6" marker-start="url(#a)" marker-end="url(#a)"/><text x="560" y="230">comprimento da perna</text></g>
+<text class="n m" x="380" y="485">comprimento medido entre as partes internas dos terminais</text>
+<text class="n" x="20" y="508">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

@@ -1,0 +1,646 @@
+{
+ "id": "NR-34",
+ "titulo": "NR-34 — Condições e meio ambiente de trabalho na indústria da construção, reparação e desmonte naval",
+ "secoes": [
+  {
+   "titulo": "Objetivo e campo de aplicação",
+   "item": "34.1",
+   "texto": "A NR-34 trata de segurança, saúde e meio ambiente de trabalho na construção, reparação e desmonte naval, tanto nas instalações do estaleiro quanto a bordo de navios, barcos, lanchas e plataformas fixas ou flutuantes.",
+   "valores": []
+  },
+  {
+   "titulo": "Responsabilidades",
+   "item": "34.2",
+   "texto": "O empregador nomeia formalmente um responsável pela NR, aplica as medidas antes de começar qualquer serviço, faz APR e, quando cabível, PT, e interrompe o trabalho se as condições ambientais ficarem perigosas. Antes das atividades há Diálogo Diário de Segurança registrado com lista de presença. O empregador acompanha as contratadas e permite que o trabalhador pare a tarefa diante de risco.",
+   "valores": [
+    {
+     "parametro": "Diálogo Diário de Segurança (DDS)",
+     "valor": "diário, antes das atividades, com tema registrado, rubricado e lista de presença",
+     "item": "34.2.1 e)"
+    }
+   ]
+  },
+  {
+   "titulo": "Capacitação",
+   "item": "34.3",
+   "texto": "Trabalhador qualificado tem curso específico em instituição oficial; profissional legalmente habilitado tem também registro no conselho; capacitado é quem recebeu treinamento sob orientação de profissional habilitado. A capacitação é feita no horário de trabalho e o material didático fica com o trabalhador.",
+   "valores": [
+    {
+     "parametro": "Treinamento admissional",
+     "valor": "≥ 6 h (riscos, ambiente, EPC, uso de EPI)",
+     "item": "34.3.4.1"
+    },
+    {
+     "parametro": "Treinamento periódico",
+     "valor": "≥ 4 h, anual ou no retorno de afastamento > 90 dias",
+     "item": "34.3.4.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Documentação, PT e APR",
+   "item": "34.4",
+   "texto": "Toda a documentação fica no estabelecimento à disposição da fiscalização, da CIPA e dos sindicatos. A PT reúne medidas de controle, emergência e resgate, é assinada pela equipe, chefia e profissional de segurança e vale só para a atividade no turno. A APR é feita por equipe multidisciplinar coordenada pelo profissional de segurança e assinada por todos.",
+   "valores": [
+    {
+     "parametro": "Guarda da documentação",
+     "valor": "≥ 5 anos",
+     "item": "34.4.1"
+    },
+    {
+     "parametro": "Vias da PT",
+     "valor": "3 (afixada no local, chefia imediata, arquivo)",
+     "item": "34.4.2 a)"
+    },
+    {
+     "parametro": "Validade da PT",
+     "valor": "duração da atividade, restrita ao turno; revalidável sem mudanças",
+     "item": "34.4.2 d)"
+    }
+   ]
+  },
+  {
+   "titulo": "Trabalho a quente",
+   "item": "34.5",
+   "texto": "Trabalho a quente é solda, goivagem, esmerilhamento, corte ou qualquer fonte de ignição. Antes, o local é inspecionado, limpo e sem inflamáveis, com proteção física contra fagulhas, combate a incêndio próximo e inspeção final. Há renovação de ar contra fumos; com revestimento ou gás desconhecido, usa-se proteção respiratória autônoma ou de linha de ar. Cilindros ficam em pé, fixados, longe de calor e nunca em espaço confinado; oxiacetileno tem válvula contra retrocesso de chama nas mangueiras e no maçarico. Fora de áreas destinadas, a APR define raio de abrangência, isolamento e a necessidade de observador contra incêndio.",
+   "valores": [
+    {
+     "parametro": "Adaptador entre cilindro e regulador",
+     "valor": "proibido",
+     "item": "34.5.5.2"
+    },
+    {
+     "parametro": "Emenda de mangueiras",
+     "valor": "só com conector do fabricante",
+     "item": "34.5.5.5"
+    },
+    {
+     "parametro": "Cilindros de gás em ambiente confinado",
+     "valor": "proibido",
+     "item": "34.5.5.7"
+    },
+    {
+     "parametro": "Curso do observador de trabalho a quente",
+     "valor": "≥ 8 h",
+     "item": "34.5.10.1 e Anexo I, 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Trabalho em altura — metodologia",
+   "item": "34.6.1 e 34.6.2",
+   "texto": "Vale a NR-35 mais as regras do estaleiro: isolar e sinalizar a área de baixo, evitar queda de ferramentas, desenergizar redes aéreas próximas (ou instalar barreiras) e parar com chuva, pouca luz ou vento forte. Acima do limite de vento, o trabalho só continua com justificativa anexada à APR e operação assistida.",
+   "valores": [
+    {
+     "parametro": "Vento que interrompe o trabalho em altura",
+     "valor": "> 40 km/h",
+     "item": "34.6.2.1 e)"
+    },
+    {
+     "parametro": "Faixa de vento com autorização especial",
+     "valor": "> 40 km/h e < 55 km/h (justificativa + operação assistida)",
+     "item": "34.6.2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Escadas, rampas e passarelas",
+   "item": "34.6.3",
+   "texto": "Desníveis acima do limite exigem escada ou rampa; escadas coletivas, rampas e passarelas têm construção sólida, corrimão e rodapé. A madeira é seca e sem nós, sem pintura que esconda defeitos, e escada de madeira é vedada em trabalho a quente. Escadas de mão só para acessos provisórios e serviços pequenos, fixadas, com degraus antiderrapantes, longe de portas, circulação e redes elétricas, e nunca de montante único.",
+   "valores": [
+    {
+     "parametro": "Desnível que exige escada ou rampa",
+     "valor": "> 0,30 m",
+     "item": "34.6.3.1",
+     "cota": "esquemas/escada-degraus-angulo-tipo.svg#desnivel"
+    },
+    {
+     "parametro": "Escada provisória coletiva — largura mínima",
+     "valor": "0,80 m",
+     "item": "34.6.3.5",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Escada provisória coletiva — patamar intermediário",
+     "valor": "a cada ≤ 2,90 m de altura, com largura e comprimento ≥ largura da escada",
+     "item": "34.6.3.5",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+     "parametro": "Escada de mão — comprimento máximo",
+     "valor": "7 m",
+     "item": "34.6.3.6 a)",
+     "cota": "esquemas/resumo-nr-18-escada-extensivel.svg#comprimento"
+    },
+    {
+     "parametro": "Escada de mão — espaçamento dos degraus",
+     "valor": "0,25 m a 0,30 m, uniforme",
+     "item": "34.6.3.6 a)"
+    },
+    {
+     "parametro": "Escada de mão — ultrapassar o piso superior",
+     "valor": "1 m",
+     "item": "34.6.3.6 b)",
+     "cota": "esquemas/resumo-nr-18-escada-extensivel.svg#ultrapassar"
+    },
+    {
+     "parametro": "Escada de abrir — comprimento máximo fechada",
+     "valor": "6 m",
+     "item": "34.6.3.9"
+    },
+    {
+     "parametro": "Escada extensível — limitador de curso",
+     "valor": "no 4º vão a partir da catraca",
+     "item": "34.6.3.10"
+    },
+    {
+     "parametro": "Escada extensível sem limitador — sobreposição mínima",
+     "valor": "1 m",
+     "item": "34.6.3.10",
+     "cota": "esquemas/resumo-nr-18-escada-extensivel.svg#sobreposicao"
+    },
+    {
+     "parametro": "Escada marinheiro com gaiola obrigatória",
+     "valor": "altura ≥ 6 m",
+     "item": "34.6.3.11"
+    },
+    {
+     "parametro": "Gaiola — início",
+     "valor": "a partir de 2 m acima da base",
+     "item": "34.6.3.11 a)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#gaiola-inicio"
+    },
+    {
+     "parametro": "Gaiola — término",
+     "valor": "1 m acima da última superfície de trabalho",
+     "item": "34.6.3.11 a)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#gaiola-saida"
+    },
+    {
+     "parametro": "Patamar de descanso da escada marinheiro",
+     "valor": "1 a cada lance de 9 m, com guarda-corpo e rodapé",
+     "item": "34.6.3.11 b)",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#lance"
+    },
+    {
+     "parametro": "Rampa provisória — inclinação máxima",
+     "valor": "30°",
+     "item": "34.6.3.13",
+     "cota": "esquemas/resumo-nr-12-rampa-pecas-transversais.svg#alfa"
+    },
+    {
+     "parametro": "Rampa > 18° — peças transversais para os pés",
+     "valor": "espaçamento ≤ 0,40 m",
+     "item": "34.6.3.14",
+     "cota": "esquemas/resumo-nr-12-rampa-pecas-transversais.svg#T"
+    }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-angulo-tipo.svg",
+    "esquemas/escada-degraus-largura-corte.svg",
+    "esquemas/escada-degraus-lance-patamar.svg",
+    "esquemas/resumo-nr-18-escada-extensivel.svg",
+    "esquemas/resumo-nr-12-escada-fixa-vertical.svg",
+    "esquemas/resumo-nr-12-rampa-pecas-transversais.svg"
+   ]
+  },
+  {
+   "titulo": "Plataformas fixas e elevatórias",
+   "item": "34.6.4 e 34.6.5",
+   "texto": "Plataformas fixas têm projeto e memória de cálculo de profissional habilitado e placa com a carga máxima; é proibido subir em qualquer coisa sobre elas. Plataformas elevatórias (cremalheira ou hidráulicas) seguem o fabricante, com manual em português, operação por capacitado, alarme sonoro na subida e descida, parada de emergência, nivelamento, descida manual em pane, último módulo da torre sem cremalheira, área de baixo isolada e acessos com intertravamento. Não transportam pessoas ou materiais alheios ao serviço, e guarda-corpo não pode ser de corda ou corrente.",
+   "valores": [
+    {
+     "parametro": "Capacidade mínima do piso da plataforma elevatória",
+     "valor": "150 kgf/m²",
+     "item": "34.6.5.8"
+    },
+    {
+     "parametro": "Ancoragem obrigatória da torre",
+     "valor": "altura > 9 m",
+     "item": "34.6.5.19"
+    }
+   ]
+  },
+  {
+   "titulo": "Acesso por corda (estaleiro)",
+   "item": "34.6.6",
+   "texto": "Usa técnicas de escalada industrial por norma técnica, com empresa e equipe certificadas, plano de resgate por local, equipamentos certificados e rádio na equipe. O trabalho para com chuva, pouca luz ou vento acima do limite, salvo autorização especial com operação assistida.",
+   "valores": [
+    {
+     "parametro": "Equipe mínima de acesso por corda",
+     "valor": "3 pessoas, uma delas supervisor",
+     "item": "34.6.6.3"
+    },
+    {
+     "parametro": "Pontos de ancoragem conectados",
+     "valor": "≥ 2",
+     "item": "34.6.6.5"
+    },
+    {
+     "parametro": "Vento que interrompe o acesso por corda",
+     "valor": "> 40 km/h",
+     "item": "34.6.6.9"
+    },
+    {
+     "parametro": "Faixa de vento com autorização especial",
+     "valor": "> 40 km/h e < 46 km/h",
+     "item": "34.6.6.9.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Plataformas para trabalho abaixo de 2 m",
+   "item": "34.6.7",
+   "texto": "Para serviços abaixo de 2 m podem ser usadas plataformas com capacidade marcada de forma permanente, acesso incorporado, guarda-corpo e rodapé; estrutura de madeira é proibida. Com rodízios, têm travas e só ficam em piso plano e horizontal.",
+   "valores": [
+    {
+     "parametro": "Guarda-corpo — altura mínima",
+     "valor": "1,00 m",
+     "item": "34.6.7.1 c)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#b"
+    },
+    {
+     "parametro": "Guarda-corpo — vãos",
+     "valor": "< 0,50 m",
+     "item": "34.6.7.1 c)"
+    },
+    {
+     "parametro": "Rodapé (piso acima de 1,00 m)",
+     "valor": "0,20 m de altura",
+     "item": "34.6.7.1 d)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#rodape"
+    }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-corrimao.svg"
+   ]
+  },
+  {
+   "titulo": "Radiações ionizantes",
+   "item": "34.7",
+   "texto": "Radiografia e gamagrafia têm Supervisor de Proteção Radiológica, PT específica e plano de radioproteção (fonte, equipamento, cálculo do balizamento, armazenamento, movimentação, emergência). No estabelecimento ficam o plano aprovado pela CNEN, autorização de operação, profissionais registrados, calibração dos monitores e certificados das fontes. A área controlada é isolada e sinalizada, e há monitoração individual e de área durante a exposição.",
+   "valores": [
+    {
+     "parametro": "Guarda dos registros de dose do IOE",
+     "valor": "até o trabalhador completar 75 anos e por ≥ 30 anos após o fim da ocupação",
+     "item": "34.7.9.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Jateamento e hidrojateamento",
+   "item": "34.8",
+   "texto": "Só trabalhadores capacitados, com cartão de emergência, PT, área isolada, máquina aterrada, mangueiras com malha de aço e trava contra chicoteamento, contato visual entre operador e jatista e revezamento. É proibido amarrar o gatilho, desviar o jato e usar areia ou abrasivo com sílica acima do permitido. No jateamento, proteção respiratória com linha de ar é obrigatória; no hidrojateamento, iluminação estanque em extrabaixa tensão e drenagem.",
+   "valores": [
+    {
+     "parametro": "Hidrojateamento de alta pressão — tempo contínuo",
+     "valor": "≤ 1 h, com pausa de igual duração",
+     "item": "34.8.5"
+    },
+    {
+     "parametro": "Hidrojateamento — jornada máxima",
+     "valor": "8 h",
+     "item": "34.8.5"
+    },
+    {
+     "parametro": "Faixas de pressão do hidrojateamento",
+     "valor": "baixa ≤ 5 000 psi; alta 5 000 a 20 000 psi; ultra-alta > 20 000 psi",
+     "item": "34.19 Glossário"
+    },
+    {
+     "parametro": "Extrabaixa tensão (definição)",
+     "valor": "≤ 50 V CA ou ≤ 120 V CC",
+     "item": "34.19 Glossário"
+    }
+   ]
+  },
+  {
+   "titulo": "Pintura",
+   "item": "34.9",
+   "texto": "Pintura é feita por capacitado, com PT (exceto em cabine), área isolada, equipamentos à prova de explosão em espaço confinado ou com airless, bomba aterrada e renovação de ar com monitoramento contínuo. Tinta é preparada em local ventilado com dique e só na quantidade de uso imediato. Em espaço confinado, quadros elétricos e bomba ficam do lado de fora e só se usa extrabaixa tensão. O trabalhador tem armário duplo, vestimenta lavada diariamente (ou descartável) e lava-olhos por perto.",
+   "valores": [
+    {
+     "parametro": "Contaminantes que obrigam a parar e evacuar",
+     "valor": "≥ 10 % do LIE",
+     "item": "34.9.4.1"
+    },
+    {
+     "parametro": "Quadros elétricos — distância da entrada do espaço confinado",
+     "valor": "≥ 2 m, do lado de fora",
+     "item": "34.9.10"
+    }
+   ]
+  },
+  {
+   "titulo": "Movimentação de cargas",
+   "item": "34.10",
+   "texto": "Equipamentos e acessórios são certificados, rastreáveis e têm prontuário (manual em português, especificações, programa e registros de inspeção e certificação). Operador e sinaleiro fazem check-list antes da jornada. A certificação é feita por profissional habilitado, com relatório que separa não conformidades impeditivas e não impeditivas. Durante o içamento não há objetos soltos nem pessoas sob a carga, o gancho fica sobre o centro de gravidade, usa-se guia não condutora e o operador só obedece ao sinaleiro. Cabos de fibra natural são proibidos.",
+   "valores": [
+    {
+     "parametro": "Rede elétrica aérea não desenergizada",
+     "valor": "manter o dobro da distância da zona controlada (NR-10, Anexo I) e o guindaste aterrado",
+     "item": "34.10.11 g)"
+    },
+    {
+     "parametro": "Grua — vento com trabalho assistido",
+     "valor": "> 42 km/h, limitado a 72 km/h",
+     "item": "34.10.16"
+    },
+    {
+     "parametro": "Curso de sinaleiro/movimentação de cargas",
+     "valor": "≥ 20 h",
+     "item": "Anexo I, 2"
+    },
+    {
+     "parametro": "Curso complementar de operador de equipamento de guindar",
+     "valor": "≥ 20 h",
+     "item": "Anexo I, 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Andaimes",
+   "item": "34.11",
+   "texto": "Andaimes seguem normas técnicas, com dimensionamento e memória de cálculo de profissional habilitado, fixação contra vento e cargas, montantes sobre sapatas e base nivelada. A plataforma tem guarda-corpo rígido de dois tubos e rodapé em todo o perímetro exceto a face de trabalho, piso completo e antiderrapante. A montagem exige PT, montador capacitado com cinto paraquedista de talabarte duplo, área isolada e placa vermelha (proibido) ou verde (liberado); o uso só começa com a Ficha de Liberação assinada.",
+   "valores": [
+    {
+     "parametro": "Torre dispensada de fixação",
+     "valor": "altura ≤ 3 × menor dimensão da base",
+     "item": "34.11.5.1"
+    },
+    {
+     "parametro": "Andaime móvel — altura máxima",
+     "valor": "6 m, rodízios travados em piso plano",
+     "item": "34.11.8"
+    },
+    {
+     "parametro": "Guarda-corpo — travessão intermediário",
+     "valor": "0,70 m do tablado",
+     "item": "34.11.12 a)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#intermediario"
+    },
+    {
+     "parametro": "Guarda-corpo — travessão superior",
+     "valor": "1,20 m do tablado",
+     "item": "34.11.12 a)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#b"
+    },
+    {
+     "parametro": "Rodapé",
+     "valor": "≥ 0,20 m",
+     "item": "34.11.12 b)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#rodape"
+    },
+    {
+     "parametro": "Piso acima do qual exige escada ou rampa",
+     "valor": "> 1 m",
+     "item": "34.11.13"
+    },
+    {
+     "parametro": "Prancha de madeira — espessura mínima",
+     "valor": "38 mm",
+     "item": "34.11.16.1"
+    },
+    {
+     "parametro": "Arame recozido de fixação das pranchas — Ø mínimo",
+     "valor": "2,77 mm",
+     "item": "34.11.16.2"
+    },
+    {
+     "parametro": "Fixação — saliência máxima sobre o piso",
+     "valor": "5 mm, sem cantos vivos",
+     "item": "34.11.16.2"
+    },
+    {
+     "parametro": "Emenda por justaposição — balanço sobre a travessa",
+     "valor": "0,15 m a 0,20 m",
+     "item": "34.11.17"
+    },
+    {
+     "parametro": "Emenda por sobreposição",
+     "valor": "≥ 0,20 m para cada lado (sobreposição ≥ 0,40 m), sinalizada",
+     "item": "34.11.18 c)"
+    },
+    {
+     "parametro": "Tubo de aço galvanizado — parede mínima",
+     "valor": "3,05 mm",
+     "item": "34.11.19"
+    },
+    {
+     "parametro": "Montantes — comprimento do tubo",
+     "valor": "< 4,50 m (exceto na base)",
+     "item": "34.11.20"
+    },
+    {
+     "parametro": "Multidirecional — guarda-corpo",
+     "valor": "tubos a ≥ 0,50 m e ≥ 1,00 m do tablado",
+     "item": "34.11.21 a)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#b"
+    },
+    {
+     "parametro": "Multidirecional — rodapé",
+     "valor": "≥ 0,15 m",
+     "item": "34.11.21 b)",
+     "cota": "esquemas/escada-degraus-corrimao.svg#rodape"
+    },
+    {
+     "parametro": "Montagem/desmontagem — vento que interrompe",
+     "valor": "> 40 km/h (até < 46 km/h com autorização especial)",
+     "item": "34.11.25.1 e 34.11.25.1.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-corrimao.svg"
+   ]
+  },
+  {
+   "titulo": "Equipamentos portáteis",
+   "item": "34.12",
+   "texto": "Ferramentas portáteis têm manutenção preventiva registrada, liga/desliga no corpo e pressão ou tensão máxima marcada. Só capacitados usam as rotativas; disco compatível com a rotação, coifa sempre no lugar, troca de acessório desligado da tomada e cabo de segurança em ferramenta pneumática. É proibido afiar ferramenta, desbastar com disco de corte, puxar pelo cabo ou usar a portátil como máquina de bancada.",
+   "valores": []
+  },
+  {
+   "titulo": "Instalações elétricas provisórias",
+   "item": "34.13",
+   "texto": "Cabos ficam em estruturas aéreas ou enterrados sem obstruir passagens, só bipolares/tripolares com isolação PP ou PB. Caixas de distribuição são de material incombustível, aterradas, com disjuntores, DR, porta e barreira. Emendas usam conector de cobre prensado ou soldado (split-bolt em cabo estacionário CA) com fita de autofusão.",
+   "valores": [
+    {
+     "parametro": "Cabos de solda — distância mínima entre emendas",
+     "valor": "3 m",
+     "item": "34.13.9"
+    }
+   ]
+  },
+  {
+   "titulo": "Testes de estanqueidade",
+   "item": "34.14",
+   "texto": "O teste de pressão para achar vazamentos tem procedimento e execução por capacitado, projeto e memória de cálculo de profissional habilitado, regulador, válvula de segurança, válvula de alívio e manômetro calibrado. Antes: PT, evacuação, isolamento e EPC. Não se repara nem se martela sistema pressurizado; a pressão sobe aos poucos, o sistema de teste é bloqueado ao atingir a pressão e a despressurização é só pela válvula de alívio.",
+   "valores": [
+    {
+     "parametro": "Curso de teste de estanqueidade",
+     "valor": "≥ 24 h (8 h teóricas + 16 h práticas)",
+     "item": "Anexo I, 5"
+    },
+    {
+     "parametro": "Reciclagem do executante",
+     "valor": "a cada 12 meses, ≥ 8 h",
+     "item": "34.14.2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Fixação e estabilização temporária de estruturas",
+   "item": "34.15 e Anexo II",
+   "texto": "Blocos, painéis, cavernas e hastilhas mantidos em posição por cachorros, pontos de solda, apoios ou guindaste ficam sob responsabilidade de profissional habilitado, que classifica cada peça por peso e área vélica (situação mais crítica) e escolhe procedimento Geral (G) ou Específico (E, com AR, PT, isolamento, desenhos e cálculo). Um responsável operacional supervisiona e só ele libera o guindaste ou a retirada dos dispositivos, que exige a peça já fixada, soldada provisoriamente ou suspensa.",
+   "valores": [
+    {
+     "parametro": "Faixas de peso (Tabelas 1 e 2)",
+     "valor": "P ≤ 0,3 t; 0,3 < P ≤ 10,0 t; P > 10,0 t",
+     "item": "Anexo II"
+    },
+    {
+     "parametro": "Faixas de área vélica — oficinas (Tab. 1)",
+     "valor": "A ≤ 4,0 m²; 4,0 < A ≤ 32,0 m²; A > 32,0 m²",
+     "item": "Anexo II, Tabela 1"
+    },
+    {
+     "parametro": "Faixas de área vélica — áreas descobertas (Tab. 2)",
+     "valor": "A < 2,0 m²; 2,0 < A ≤ 16,0 m²; A > 16,0 m²",
+     "item": "Anexo II, Tabela 2"
+    },
+    {
+     "parametro": "Peça APOIADA (cachorros/solda) — procedimento por faixa",
+     "valor": "faixa baixa: não se aplica; média: G; alta: E",
+     "item": "Anexo II, Tabelas 1 e 2"
+    },
+    {
+     "parametro": "Peça PENDURADA em cachorros — procedimento por faixa",
+     "valor": "faixa baixa: G; média: G; alta: E",
+     "item": "Anexo II, Tabelas 1 e 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Estruturas flutuantes de apoio",
+   "item": "34.16",
+   "texto": "Flutuantes de apoio são registrados na Autoridade Marítima e só operam em águas abrigadas; mar aberto é proibido. Têm guarda-corpo em todo o perímetro, piso antiderrapante e incombustível, coletes salva-vidas, extintores, banheiro, local de refeição e água potável dentro de distâncias fixadas.",
+   "valores": [
+    {
+     "parametro": "Interromper serviços a bordo",
+     "valor": "Beaufort 3 (vento 12 a 19 km/h, onda 0,5 a 1,25 m)",
+     "item": "34.16.5 a)"
+    },
+    {
+     "parametro": "Evacuar flutuante sem propulsão / deslocar o propelido",
+     "valor": "Beaufort 5 (vento 29 a 38 km/h, onda 2,5 a 4,0 m)",
+     "item": "34.16.5 b) e c)"
+    },
+    {
+     "parametro": "Guarda-corpo do flutuante",
+     "valor": "altura ≥ 1 m",
+     "item": "34.16.13",
+     "cota": "esquemas/escada-degraus-corrimao.svg#b"
+    },
+    {
+     "parametro": "Colete salva-vidas",
+     "valor": "Classe III para todos; Classe IV junto às bordas",
+     "item": "34.16.14 e 34.16.14.1"
+    },
+    {
+     "parametro": "Banheiro",
+     "valor": "≤ 50 m do posto; 1 por 20 trabalhadores, separado por sexo",
+     "item": "34.16.16"
+    },
+    {
+     "parametro": "Mesas e assentos a bordo",
+     "valor": "≥ 1/3 dos trabalhadores embarcados",
+     "item": "34.16.17.1 c)"
+    },
+    {
+     "parametro": "Distância até água potável",
+     "valor": "< 50 m na horizontal e < 5 m na vertical",
+     "item": "34.16.20.3"
+    },
+    {
+     "parametro": "Quantidade de água potável",
+     "valor": "> 0,25 L por hora-homem",
+     "item": "34.16.20.5"
+    },
+    {
+     "parametro": "Higienização dos reservatórios de água",
+     "valor": "quinzenal",
+     "item": "34.16.20.6 c)"
+    }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-corrimao.svg"
+   ]
+  },
+  {
+   "titulo": "Plano de Respostas às Emergências",
+   "item": "34.17",
+   "texto": "A empresa elabora o PRE a partir dos cenários de risco, por profissional habilitado em segurança, com matriz de atribuições, recursos, rotas de evacuação, comunicação com contratadas e autoridades e treinamento da brigada. Faz simulados no horário de trabalho, relata os resultados à CIPA e revisa o plano após mudanças ou simulados.",
+   "valores": [
+    {
+     "parametro": "Revisão periódica do PRE",
+     "valor": "a cada 2 anos",
+     "item": "34.17.5 c)"
+    }
+   ]
+  },
+  {
+   "titulo": "Disposições finais",
+   "item": "34.18",
+   "texto": "No estaleiro é proibido usar adornos, lente de contato em trabalho a quente, solvente ou ar comprimido para limpar pele e roupa, e ar comprimido para limpeza. Há proteção contra sol e intempéries, sinalização e iluminação de emergência a bordo, vestimenta gratuita, drenagem pluvial e área de lazer. Em acidente fatal, avisa-se polícia e MTE e o local fica isolado até liberação. Soluções alternativas exigem engenheiro habilitado, AR, PT e procedimento escrito.",
+   "valores": [
+    {
+     "parametro": "Bebedouro",
+     "valor": "1 para cada 25 trabalhadores ou fração",
+     "item": "34.18.8"
+    },
+    {
+     "parametro": "Distância máxima até o bebedouro",
+     "valor": "100 m na horizontal e 5 m na vertical",
+     "item": "34.18.8.1"
+    },
+    {
+     "parametro": "Prazo da investigação do MTE após acidente fatal",
+     "valor": "≤ 72 h",
+     "item": "34.18.9.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Capacitação — cursos do Anexo I",
+   "item": "Anexo I",
+   "texto": "O Anexo I fixa carga horária e conteúdo mínimo dos cursos de observador, movimentação de cargas, operador de guindar, trabalho a quente e teste de estanqueidade.",
+   "valores": [
+    {
+     "parametro": "Observador de trabalho a quente",
+     "valor": "≥ 8 h",
+     "item": "Anexo I, 1"
+    },
+    {
+     "parametro": "Segurança em trabalho a quente",
+     "valor": "≥ 8 h (4 h módulo geral + 4 h por modalidade específica)",
+     "item": "Anexo I, 4"
+    },
+    {
+     "parametro": "Movimentação de cargas (sinaleiro)",
+     "valor": "≥ 20 h",
+     "item": "Anexo I, 2"
+    },
+    {
+     "parametro": "Operador de equipamento de guindar (complementar)",
+     "valor": "≥ 20 h",
+     "item": "Anexo I, 3"
+    },
+    {
+     "parametro": "Teste de estanqueidade",
+     "valor": "≥ 24 h",
+     "item": "Anexo I, 5"
+    }
+   ]
+  }
+ ]
+}

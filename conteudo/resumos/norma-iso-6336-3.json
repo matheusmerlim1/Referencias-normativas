@@ -1,0 +1,49 @@
+{
+ "id": "ISO-6336-3",
+ "titulo": "ISO 6336-3:2006 (corr. 2008) — Capacidade de carga de engrenagens cilíndricas — Parte 3: Cálculo da resistência à flexão do dente",
+ "secoes": [
+  {
+   "titulo": "Princípio",
+   "item": "4–5",
+   "texto": "Compara a tensão no pé do dente σF (tensão nominal σF0 × fatores de carga) com a admissível σFP a partir do limite de flexão do material; coeficiente SF ≥ SF mín.",
+   "valores": []
+  },
+  {
+   "titulo": "Fatores",
+   "item": "6–15",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "YF",
+     "valor": "fator de forma (Método B por cálculo)",
+     "item": "6"
+    },
+    {
+     "parametro": "YS",
+     "valor": "fator de correção de tensão (concentração no pé)",
+     "item": "7"
+    },
+    {
+     "parametro": "Yβ",
+     "valor": "fator de ângulo de hélice",
+     "item": "8"
+    },
+    {
+     "parametro": "YB",
+     "valor": "fator de espessura do aro (aros finos)",
+     "item": "9"
+    },
+    {
+     "parametro": "YDT",
+     "valor": "fator de dente alto (razão de contato alta)",
+     "item": "10"
+    },
+    {
+     "parametro": "YNT, YδT, YRT, YX",
+     "valor": "vida, sensibilidade ao entalhe, rugosidade do pé e tamanho",
+     "item": "12–15"
+    }
+   ]
+  }
+ ]
+}

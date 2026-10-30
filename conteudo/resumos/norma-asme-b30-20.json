@@ -1,0 +1,47 @@
+{
+ "id": "ASME-B30.20",
+ "titulo": "ASME B30.20 — Dispositivos de içamento abaixo do gancho (segurança)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "20-1.1",
+   "texto": "Cobre dispositivos pendurados no gancho para pegar a carga: estruturais e mecânicos (balancins, vigas espaçadoras, pinças por atrito ou por indentação) no capítulo 20-1, e em capítulos próprios os de vácuo, os eletroímãs e as garras. Trata de classificação, marcação, construção, inspeção, ensaio, manutenção e operação.",
+   "valores": []
+  },
+  {
+   "titulo": "Projeto, construção e marcação",
+   "item": "20-1.2",
+   "texto": "Projeto por pessoa qualificada segundo a ASME BTH-1, considerando carga nominal mais peso próprio, com categoria de projeto e classe de serviço declaradas (a categoria menos conservadora só com justificativa). Solda pela AWS D14.1 e BTH-1; lingas, ganchos e acessórios pelas respectivas normas B30. Alteração ou reclassificação só com aprovação e novo ensaio. Placa com carga nominal e dados do fabricante.",
+   "valores": [
+    {"parametro": "Categoria de projeto padrão (BTH-1)", "valor": "Design Category B", "item": "20-1.2.2"},
+    {"parametro": "Marcar o peso do dispositivo", "valor": "quando > 45 kg (100 lb)", "item": "20-1.2.1"},
+    {"parametro": "Dados de placa", "valor": "carga nominal, fabricante, nº de série, peso, categoria e classe BTH-1", "item": "20-1.2.1"}
+   ]
+  },
+  {
+   "titulo": "Inspeção",
+   "item": "20-1.3",
+   "texto": "Inspeção frequente visual, sem registro, e periódica completa, com registro, em intervalos que encurtam com o regime de serviço. Dispositivo parado volta ao serviço com inspeção conforme o tempo parado.",
+   "valores": [
+    {"parametro": "Frequente — normal / pesado / severo", "valor": "mensal / semanal a mensal / diário a semanal", "item": "Tabela 20-1.3.3-1"},
+    {"parametro": "Periódica — normal / pesado / severo", "valor": "anual / semestral / trimestral", "item": "20-1.3.1 (b)(3)"},
+    {"parametro": "Parado 1 mês a 1 ano / ≥ 1 ano", "valor": "inspeção frequente / periódica antes de voltar", "item": "20-1.3.5"}
+   ]
+  },
+  {
+   "titulo": "Ensaio de carga",
+   "item": "20-1.3.8",
+   "texto": "Recomenda-se ensaiar antes do primeiro uso o dispositivo novo, alterado ou reparado, com inspeção visual depois e relatório da pessoa qualificada. A carga nominal não pode passar de uma fração da carga sustentada no ensaio.",
+   "valores": [
+    {"parametro": "Carga de ensaio", "valor": "≤ 125 % da nominal (salvo fabricante)", "item": "20-1.3.8"},
+    {"parametro": "Carga nominal em relação ao ensaio", "valor": "≤ 80 % da maior carga sustentada", "item": "20-1.3.8"}
+   ]
+  },
+  {
+   "titulo": "Operação",
+   "item": "20-1.4",
+   "texto": "Não passar da carga nominal do dispositivo nem da capacidade do equipamento somando carga, dispositivo e acessórios. Nada de puxão lateral ou arraste sem autorização, carga sobre pessoas ou carga deixada suspensa.",
+   "valores": []
+  }
+ ]
+}

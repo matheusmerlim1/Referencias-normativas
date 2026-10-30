@@ -1,0 +1,70 @@
+{
+ "id": "ASME-SA-564",
+ "titulo": "SA-564 — Barras e perfis de aço inoxidável endurecível por precipitação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras e perfis (redondos, quadrados, sextavados, cantoneiras, tês, canais), acabados a quente ou a frio, de aço inoxidável endurecível por precipitação (tipos 630 / 17-4PH, 631, 632, 634, XM-12, XM-16, XM-25…), inclusive tarugos para reforjamento. Requisitos gerais pela SA-484."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Fornecido solubilizado (ou equalizado e revenido, conforme o tipo); 630, XM-16 e XM-25 podem vir envelhecidos. O envelhecimento (H900 a H1150) define a resistência."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "630 (S17400)",
+     "valor": "C 0,07; Mn 1,00; P 0,040; S 0,030; Si 1,00; Cr 15,00–17,50; Ni 3,00–5,00; Cu 3,00–5,00 % (+ Nb)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "631 (S17700)",
+     "valor": "C 0,09; Cr 16,00–18,00; Ni 6,50–7,75; Al 0,75–1,50 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades após envelhecimento (tipo 630)",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento / redução de área / dureza mín.",
+   "valores": [
+    {
+     "parametro": "H900 — 900 °F [480 °C], 1 h",
+     "valor": "190 ksi [1310] / 170 ksi [1170] / 10 % / 40 % / 40 HRC, 388 HB",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "H1025 — 1025 °F [550 °C], 4 h",
+     "valor": "155 ksi [1070] / 145 ksi [1000] / 12 % / 45 % / 35 HRC; Charpy 15 ft·lbf [20 J]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "H1075",
+     "valor": "145 ksi [1000] / 125 ksi [860] / 13 % / 45 %; Charpy 20 ft·lbf [27 J]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "H1100",
+     "valor": "140 ksi [965] / 115 ksi [795] / 14 % / 45 %; Charpy 25 ft·lbf [34 J]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "H1150 — 1150 °F [620 °C], 4 h",
+     "valor": "135 ksi [930] / 105 ksi [725] / 16 % / 50 %; Charpy 30 ft·lbf [41 J]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "H1150M (1400 °F 2 h + 1150 °F 4 h)",
+     "valor": "115 ksi [795] / 75 ksi [520] / 18 % / 55 %; Charpy 55 ft·lbf [75 J]",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

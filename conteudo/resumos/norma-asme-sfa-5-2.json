@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SFA-5.2",
+ "titulo": "SFA-5.2 — Varetas de aço carbono e baixa liga para soldagem oxigás (AWS A5.2)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Varetas de aço carbono e baixa liga para soldagem oxicombustível (oxigás), classificadas pelas propriedades do metal de solda como soldado."
+  },
+  {
+   "titulo": "Classificações",
+   "item": "2, Tabela 1",
+   "texto": "R45, R60, R65, R100 e RXXX-G (o número indica o Su mínimo em ksi).",
+   "valores": [
+    {
+     "parametro": "R60 — Su mín. / alongamento mín. (25 mm)",
+     "valor": "60 ksi (410 MPa) / 20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "R65",
+     "valor": "65 ksi (450 MPa) / 16 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "R100",
+     "valor": "100 ksi (690 MPa) / 14 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "R45",
+     "valor": "não especificado",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química da vareta",
+   "item": "Tabela 4",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "R45 — C / Mn / Si máx.",
+     "valor": "0,08 / 0,50 / 0,10 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "R60 — C máx. / Mn / Si",
+     "valor": "0,15 % / 0,90–1,40 % / 0,10–0,35 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "P máx. / S máx. (R60)",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabela 2",
+   "texto": "Análise química exigida em todas, exceto RXXX-G; tração do metal de solda exigida em R60, R65, R100 e RXXX-G (não em R45)."
+  }
+ ]
+}

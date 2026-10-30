@@ -1,0 +1,64 @@
+{
+ "id": "ISO-898-2",
+ "titulo": "ISO 898-2:2012 — Propriedades mecânicas de porcas com classes especificadas (rosca grossa e fina)",
+ "secoes": [
+  {
+   "titulo": "Escopo e estilos",
+   "item": "1; 4",
+   "texto": "Porcas de aço carbono e ligado de rosca métrica, em três alturas: fina (estilo 0), normal (estilo 1) e alta (estilo 2).",
+   "valores": []
+  },
+  {
+   "titulo": "Designação",
+   "item": "4.2",
+   "texto": "Para porcas normais e altas a classe é um número igual ao do parafuso de maior classe com que trabalham (8 com 8.8). Porcas finas levam 04 ou 05: o zero indica capacidade reduzida e o segundo número, a tensão de prova dividida por 100.",
+   "valores": []
+  },
+  {
+   "titulo": "Combinação com parafusos",
+   "item": "Tab. 1–2",
+   "texto": "Cada classe de porca serve até a classe de parafuso correspondente; porca de classe maior pode substituir a menor. Algumas classes só existem em certos estilos e diâmetros.",
+   "valores": [
+    {
+     "parametro": "Porca 8 / 10 / 12",
+     "valor": "parafuso até 8.8 / 10.9 / 12.9",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Faixa usual",
+     "valor": "M5 a M39",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Classe 12 estilo 1",
+     "valor": "só até M16",
+     "item": "Tab. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Cargas de prova",
+   "item": "7; Tab. 4",
+   "texto": "A porca deve aguentar a carga de prova sem espanar nem trincar. Galvanização com rosca sobremedida reduz a resistência ao espanamento. Porca fina como contraporca: aperta-se primeiro a fina, depois a normal.",
+   "valores": [
+    {
+     "parametro": "M12 — classe 8 / 10 / 12",
+     "valor": "74 200 / 88 500 / 100 300 N",
+     "item": "Tab. 4",
+     "cota": "esquemas/parafusos-porcas-arruelas-porca-sextavada-iso.svg#m"
+    },
+    {
+     "parametro": "M20 — classe 8 / 10",
+     "valor": "225 400 / 259 700 N",
+     "item": "Tab. 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico e marcação",
+   "item": "6; 10",
+   "texto": "Temperadas e revenidas obrigatoriamente: 05, 8 estilo 1 acima de M16, 10 e 12. Marcação da classe em porcas a partir de certo tamanho.",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "ISO-724",
+ "titulo": "ISO 724:1993 — Roscas métricas ISO de uso geral — Dimensões básicas",
+ "secoes": [
+  {
+   "titulo": "Escopo e símbolos",
+   "item": "1–4",
+   "texto": "Dimensões básicas (em mm) das roscas métricas ISO de perfil ISO 68-1: diâmetro maior D/d, diâmetro de flanco D2/d2, diâmetro menor D1/d1, passo P e altura do triângulo fundamental H.",
+   "valores": []
+  },
+  {
+   "titulo": "Tabela de dimensões",
+   "item": "Tab. 1",
+   "texto": "Para cada diâmetro nominal e passo (grossos e finos da ISO 261) dá D2 = d2 e D1 = d1 arredondados à terceira casa decimal, calculados pelas fórmulas do perfil.",
+   "valores": [
+    {
+     "parametro": "Diâmetro menor",
+     "valor": "D1 = d1 = d − 1,0825·P",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Diâmetro de flanco",
+     "valor": "D2 = d2 = d − 0,6495·P",
+     "item": "Tab. 1",
+     "nota": "fórmula parcialmente ilegível no OCR — conferir"
+    },
+    {
+     "parametro": "Ex.: M10 × 1,5",
+     "valor": "d2 = 9,026; d1 = 8,376 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Ex.: M24 × 2",
+     "valor": "d2 = 22,701; d1 = 21,835 mm",
+     "item": "Tab. 1",
+     "nota": "valor da linha lido no OCR — conferir"
+    }
+   ]
+  }
+ ]
+}

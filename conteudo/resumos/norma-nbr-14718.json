@@ -1,0 +1,289 @@
+{
+ "id": "NBR-14718",
+ "titulo": "ABNT NBR 14718:2019 — Guarda-corpos para edificação: requisitos, procedimentos e métodos de ensaio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Vale para guarda-corpos de edificações — internos ou externos, de uso privativo ou coletivo — em prédios residenciais, comerciais, industriais, esportivos, culturais, religiosos, educacionais, de saúde e terminais de passageiros. A edição de 2019 substitui a de 2008.",
+   "valores": []
+  },
+  {
+   "titulo": "Termos e definições",
+   "item": "3",
+   "texto": "Guarda-corpo protege quem está perto de uma borda contra queda acidental, sem impedir passagem forçada. A altura de proteção H vai do topo do corrimão ao ponto mais alto da zona de estacionamento normal (ZEN, a superfície horizontal acessível junto ao guarda-corpo). A altura de proteção reduzida (APR) é medida a partir do topo de uma mureta estreita. A zona de estacionamento precário (ZEP) é um apoio onde a pessoa só fica um instante (rebordo baixo e estreito). Uso coletivo é dividido em médio e alto tráfego pelo número de pessoas por dia.",
+   "valores": [
+    {
+     "parametro": "Altura de proteção H",
+     "valor": "≥ 1,10 m",
+     "item": "3.1",
+     "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#H"
+    },
+    {
+     "parametro": "Mureta que define APR — largura interna",
+     "valor": "< 0,10 m",
+     "item": "3.2",
+     "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#APR"
+    },
+    {
+     "parametro": "ZEP — altura acima do nível de circulação",
+     "valor": "até 0,45 m",
+     "item": "3.17"
+    },
+    {
+     "parametro": "ZEP — largura transversal",
+     "valor": "entre 0,13 m e 0,30 m",
+     "item": "3.17"
+    },
+    {
+     "parametro": "Uso coletivo médio / alto tráfego",
+     "valor": "até 2 500 / acima de 2 500 pessoas por dia",
+     "item": "3"
+    }
+   ]
+  },
+  {
+   "titulo": "Quando instalar e classificação",
+   "item": "4.1–4.2",
+   "texto": "Todo local acessível com desnível acima do limite exige guarda-corpo. Os guarda-corpos são classificados pela Tabela 1, segundo o uso (privativo/técnico, coletivo de médio ou alto tráfego), o número de pavimentos e a região de vento; daí saem as cargas horizontais de uso e de segurança. Parapeito de janela com fechamento conta como guarda-corpo e é ensaiado; fechamento de varanda deve atender também à norma de envidraçamento de sacada.",
+   "valores": [
+    {
+     "parametro": "Desnível que exige guarda-corpo",
+     "valor": "> 1,0 m",
+     "item": "4.1",
+     "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#desnivel"
+    },
+    {
+     "parametro": "Carga de uso / segurança — privativo e áreas técnicas",
+     "valor": "400 a 1 000 N/m / 680 a 1 500 N/m (conforme pavimentos e região)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Carga de uso / segurança — coletivo, médio tráfego",
+     "valor": "1 000 N/m / 1 700 N/m",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Carga de uso / segurança — coletivo, alto tráfego",
+     "valor": "1 800 N/m / 3 000 N/m",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Materiais",
+   "item": "4.3",
+   "texto": "Ancoragens e pontaletes em alumínio, inox austenítico ou aço galvanizado a quente. Alumínio aparente anodizado ou pintado, com fixadores de inox. Aço-carbono com proteção que passe no ensaio cíclico de corrosão. Vidro laminado de segurança ou aramado, sem massa de vidraceiro; colagem estrutural conforme as normas próprias. Evitar par galvânico; junto ao alumínio, só inox austenítico.",
+   "valores": []
+  },
+  {
+   "titulo": "Alturas",
+   "item": "4.4.1",
+   "texto": "A altura mínima é medida da ZEN. Com mureta estreita junto ao guarda-corpo, exige-se também uma altura mínima acima da mureta; mureta alta dispensa esse critério. Se a zona de recepção muda de nível, o guarda-corpo continua um pouco além do degrau.",
+   "valores": [
+    {
+     "parametro": "Altura mínima acima da ZEN",
+     "valor": "≥ 1,10 m",
+     "item": "4.4.1.1",
+     "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#H"
+    },
+    {
+     "parametro": "APR acima de mureta com espaço interno ≤ 0,10 m",
+     "valor": "≥ 0,90 m (mantendo H ≥ 1,10 m)",
+     "item": "4.4.1.2",
+     "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#APR"
+    },
+    {
+     "parametro": "Mureta que dispensa a APR",
+     "valor": "altura > 0,70 m",
+     "item": "4.4.1.2",
+     "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#mureta"
+    },
+    {
+     "parametro": "Prolongamento após mudança de nível da zona de recepção (> 0,10 m)",
+     "valor": "≥ 0,30 m",
+     "item": "4.4.1.3",
+     "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#prolongamento"
+    }
+   ]
+  },
+  {
+   "titulo": "Vãos e escalada",
+   "item": "4.4.2",
+   "texto": "Os vãos entre barras verticais ou horizontais são pequenos para não passar a cabeça de criança. Elementos que sirvam de degrau até certa altura pedem fechamento interno. Desenhos ornamentais são verificados com um gabarito prismático. Guarda-corpo avançado em relação à borda tem afastamento limitado. Deve haver barreira para objetos rolarem para fora.",
+   "valores": [
+    {
+     "parametro": "Vão entre perfis verticais",
+     "valor": "≤ 0,11 m",
+     "item": "4.4.2.1",
+     "cota": "esquemas/guarda-corpo-edificacao-vaos.svg#vao-vertical"
+    },
+    {
+     "parametro": "Espaço entre elementos horizontais",
+     "valor": "≤ 0,11 m",
+     "item": "4.4.2.2",
+     "cota": "esquemas/guarda-corpo-edificacao-vaos.svg#vao-horizontal"
+    },
+    {
+     "parametro": "Faixa em que apoios escaláveis exigem fechamento",
+     "valor": "até 0,45 m de altura",
+     "item": "4.4.2.2",
+     "cota": "esquemas/guarda-corpo-edificacao-vaos.svg#faixa-escalavel"
+    },
+    {
+     "parametro": "Gabarito prismático (ornamentais)",
+     "valor": "0,255 m × 0,185 m, aresta 0,115 m, espessura 0,115 m",
+     "item": "4.4.2.3"
+    },
+    {
+     "parametro": "Avanço do guarda-corpo além da borda",
+     "valor": "≤ 0,05 m; abaixo, não passa esfera Ø 0,09 m",
+     "item": "4.4.2.4",
+     "cota": "esquemas/guarda-corpo-edificacao-vaos.svg#avanco"
+    },
+    {
+     "parametro": "Barreira contra queda de objetos",
+     "valor": "não passa esfera Ø 0,05 m",
+     "item": "4.4.2.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Ancoragem",
+   "item": "4.4.3",
+   "texto": "O projeto define tipo, espaçamento e detalhes das ancoragens, dimensionados para passar nos ensaios. Fixar só em estrutura ou parede capaz de resistir; mureta de alvenaria não conta como estrutura. Furos limpos para ancoragem química. Peças galvanizadas não podem ter o revestimento danificado por solda ou lixamento.",
+   "valores": [
+    {
+     "parametro": "Profundidade de ancoragem no concreto",
+     "valor": "≥ 70 mm (sem contar contrapiso/revestimento)",
+     "item": "4.4.3.3",
+     "cota": "esquemas/guarda-corpo-ancoragem.svg#profundidade"
+    },
+    {
+     "parametro": "Distância do furo às bordas",
+     "valor": "≥ 70 mm",
+     "item": "4.4.3.3",
+     "cota": "esquemas/guarda-corpo-ancoragem.svg#borda"
+    }
+   ]
+  },
+  {
+   "titulo": "Escadas",
+   "item": "4.4.4",
+   "texto": "Guarda-corpo de escada é ensaiado na horizontal num protótipo de dimensões iguais ou maiores. A distância entre corrimão e o elemento horizontal logo abaixo e o afastamento à aresta do degrau são limitados.",
+   "valores": [
+    {
+     "parametro": "Corrimão ao elemento horizontal abaixo",
+     "valor": "≤ 0,18 m (lido de figura)",
+     "item": "4.4.4.2",
+     "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#corrimao-travessa"
+    },
+    {
+     "parametro": "Afastamento do último elemento à aresta do degrau",
+     "valor": "≤ 0,05 m",
+     "item": "4.4.4.2",
+     "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#afastamento-aresta"
+    }
+   ]
+  },
+  {
+   "titulo": "Critérios de desempenho",
+   "item": "5",
+   "texto": "O protótipo passa, em sequência, por esforço horizontal, esforço vertical e impacto. Sob carga de uso não pode haver ruptura nem afrouxamento, e o deslocamento é pequeno e quase todo recuperado. Sob carga de segurança admite-se deslocamento maior, desde que o corpo continue retido. No impacto, as fixações não podem soltar nem o fechamento cair; trincas são aceitas se o gabarito não passar.",
+   "valores": [
+    {
+     "parametro": "Carga de uso — deslocamento sob carga / residual",
+     "valor": "≤ 25 mm / ≤ 3 mm",
+     "item": "5.1.1"
+    },
+    {
+     "parametro": "Carga de segurança — deslocamento sob carga",
+     "valor": "≤ 150 mm",
+     "item": "5.1.2",
+     "cota": "esquemas/guarda-corpo-ensaios-nbr14718.svg#deslocamento"
+    },
+    {
+     "parametro": "Carga de segurança em relação à de uso",
+     "valor": "≈ 1,7 × (valer o da Tabela 1)",
+     "item": "5.1.2"
+    },
+    {
+     "parametro": "Vertical — deformação sob carga / residual",
+     "valor": "≤ 20 mm / ≤ 8 mm",
+     "item": "5.2"
+    },
+    {
+     "parametro": "Energia de impacto",
+     "valor": "600 J",
+     "item": "5.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Métodos de ensaio",
+   "item": "Anexos A–C",
+   "texto": "Protótipo instalado como na obra, com a fixação real. Guarda-corpo longo é ensaiado com dois módulos; curto, no tamanho original. Carga horizontal aplicada a 1,10 m da ZEN, primeiro de fora para dentro e depois de dentro para fora, com pré-carga e patamares de tempo; deslocamentos lidos com resolução fina. Ensaio vertical com cutelos sobre o peitoril. Impacto com saco em gota cheio de esferas de vidro, em pêndulo.",
+   "valores": [
+    {
+     "parametro": "Comprimento acima do qual se ensaiam dois módulos",
+     "valor": "> 3 m",
+     "item": "A.4.2"
+    },
+    {
+     "parametro": "Altura de aplicação da carga",
+     "valor": "1,10 m da ZEN",
+     "item": "A.4.6",
+     "cota": "esquemas/guarda-corpo-ensaios-nbr14718.svg#altura-aplicacao"
+    },
+    {
+     "parametro": "Pré-carga horizontal",
+     "valor": "200 N/m",
+     "item": "A.4.7"
+    },
+    {
+     "parametro": "Tempo de carga",
+     "valor": "15 min; residual lido 3 min após alívio",
+     "item": "A.4.7–A.4.8"
+    },
+    {
+     "parametro": "Resolução do medidor de deslocamento",
+     "valor": "0,1 mm",
+     "item": "A.2"
+    },
+    {
+     "parametro": "Corpo de impacto",
+     "valor": "Ø ≈ 300 mm, 40 kg",
+     "item": "C"
+    },
+    {
+     "parametro": "Altura de queda do pêndulo",
+     "valor": "1 500 mm",
+     "item": "C",
+     "cota": "esquemas/guarda-corpo-ensaios-nbr14718.svg#queda"
+    }
+   ]
+  },
+  {
+   "titulo": "Aceitação, limpeza e manutenção",
+   "item": "6–7",
+   "texto": "Na entrega, o fornecedor dá a responsabilidade técnica do projeto e da execução; inspeciona-se a fixação e o conjunto. Limpeza com água e detergente neutro, sem abrasivos nem ácidos, com frequência maior em ambiente marinho ou industrial. Reapertar fixações após deformação grande, vibração, impacto ou quebra de vidro.",
+   "valores": [
+    {
+     "parametro": "Limpeza — zona urbana/rural",
+     "valor": "no mínimo a cada 3 meses",
+     "item": "7.1.1"
+    },
+    {
+     "parametro": "Limpeza — zona marítima/industrial",
+     "valor": "no mínimo a cada mês",
+     "item": "7.1.1"
+    },
+    {
+     "parametro": "Detergente neutro",
+     "valor": "5 %",
+     "item": "7.1.1"
+    }
+   ]
+  }
+ ]
+}

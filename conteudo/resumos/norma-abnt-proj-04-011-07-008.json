@@ -1,0 +1,31 @@
+{
+ "id": "ABNT-PROJ-04.011.07-008",
+ "titulo": "Projeto ABNT 04:011.07-008 (out/2004) — Vasos de pressão em serviço — Inspeção de segurança",
+ "secoes": [
+  {"titulo": "Escopo e definições", "item": "1, 3",
+   "texto": "Projeto de norma (não publicado como NBR nesta forma) para a inspeção de segurança de vasos de pressão enquadrados na NR-13: roteiro de inspeção externa, interna e geral, ensaios não destrutivos, testes de pressão e relatório. Definições: inspeção externa (vaso em operação), interna (fora de operação), geral (as duas, fora de operação); teste hidrostático e pneumático; profissional habilitado (PH); válvula de segurança (abertura instantânea, compressíveis), de alívio (abertura proporcional, incompressíveis) e de segurança e alívio; vida residual.",
+   "valores": []},
+  {"titulo": "Periodicidade e preparação", "item": "4",
+   "texto": "Prazos da NR-13 ou menores, a critério do PH, que monta o plano de inspeção a partir do histórico, recomendações pendentes, dados de projeto e operação. Antes de entrar: permissão de trabalho/APR, EPI/EPC, acessos e iluminação adequados, regras de espaço confinado (o texto cita a NBR 14707), isolamento por flanges cegos, drenagem, limpeza, purga e teste de gases.",
+   "valores": []},
+  {"titulo": "Inspeção externa e interna", "item": "5.1",
+   "texto": "Externa visual, sem remover pintura ou isolamento salvo em região suspeita: perda de espessura, deformação, falhas de revestimento, suportes, nivelamento. Interna: visual nos pontos listados, reavaliação dos pontos de controle, END nas regiões de maior tensão (bocais, cruzamento de soldas), avaliação de revestimentos internos, END volumétrico se houver suspeita de trinca, tubos de feixes tubulares. Dispositivos de alívio removidos para teste, inspeção e calibração conforme NR-13.",
+   "valores": [
+    {"parametro": "Intervalo máximo de medição de espessura", "valor": "menor de: metade da vida remanescente ou prazo da próxima inspeção interna", "item": "5.1.2.3, 5.3.3.2"},
+    {"parametro": "Acesso à solda suporte–vaso em região de alta umidade", "valor": "recomendado ao menos a cada 10 anos", "item": "5.1.3.1 g)"},
+    {"parametro": "Válvulas com alavanca de teste obrigatória", "valor": "ar, água acima de 60 °C e vapor", "item": "5.2.1, Nota"}
+   ]},
+  {"titulo": "Ensaios não destrutivos", "item": "5.3",
+   "texto": "END por inspetores certificados (ABENDE DC-01 ou ISO 9712) e equipamentos calibrados como no ASME V. Medição de espessura nos pontos do registro, ampliando a malha onde a taxa de corrosão for alta. PM (só ferromagnéticos, sem revestimento) ou ACFM, ultrassom e LP; amostragem de PM e US recomendada em vasos com NH3, H2S úmido ou risco de corrosão sob tensão.",
+   "valores": []},
+  {"titulo": "Testes de pressão", "item": "5.4",
+   "texto": "Teste hidrostático obrigatório após reparo estrutural ou quando a NR-13 exigir, com pressão, temperatura mínima da água e velocidade definidas pelo PH conforme o código de construção; checar se fundações aguentam o vaso cheio. Pneumático só em casos especiais com análise de risco. Para fluidos inflamáveis, recomenda-se teste de estanqueidade com fluido não inflamável nas condições máximas de operação.",
+   "valores": [
+    {"parametro": "Pressão de teste hidrostático para integridade na operação máxima", "valor": "pode ser a pressão de abertura da válvula + 20 %", "item": "5.4.4"},
+    {"parametro": "Pressão de teste pneumático (mesmo fim)", "valor": "pode ser a pressão de abertura da válvula + 10 %", "item": "5.4.10"}
+   ]},
+  {"titulo": "Relatório", "item": "6",
+   "texto": "Inspeção só vale com relatório por equipamento, atendendo à NR-13 (dados do vaso, eficiência de juntas, exames, resultados, recomendações, PMTA, próxima inspeção).",
+   "valores": []}
+ ]
+}

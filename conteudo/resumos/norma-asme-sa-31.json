@@ -1,0 +1,107 @@
+{
+ "id": "ASME-SA-31",
+ "titulo": "SA-31 — Rebites de aço e barras para rebites, vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Rebites de aço para caldeiras e vasos de pressão e as barras usadas para fabricá-los. Dois graus, A e B; o rebite é feito da barra do grau correspondente, por forjamento a quente ou a frio."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Análise de corrida (e de produto entre parênteses).",
+   "valores": [
+    {
+     "parametro": "Grau A — C",
+     "valor": "sem limite",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau B — C máx.",
+     "valor": "0,28 % (produto 0,31 %)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau A — Mn",
+     "valor": "0,30–0,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau B — Mn",
+     "valor": "0,30–0,80 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx. (corrida)",
+     "valor": "0,040 % / 0,050 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas (barras)",
+   "item": "Tabela 3",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau A — Su",
+     "valor": "45 000–55 000 psi (310–380 MPa)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau A — limite de escoamento mín.",
+     "valor": "23 000 psi (160 MPa)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau A — alongamento mín. 200 mm / 50 mm",
+     "valor": "27 % / 33 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau B — Su",
+     "valor": "58 000–68 000 psi (400–470 MPa)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau B — limite de escoamento mín.",
+     "valor": "29 000 psi (200 MPa)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau B — alongamento mín. 200 mm / 50 mm",
+     "valor": "22 % / 25 %",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "6, 9, Tabelas 2 e 4",
+   "texto": "Rebites: dobramento a frio de 180° da haste e achatamento da cabeça, sem trincas. Barras: tração e dobramento; dois ensaios de tração por corrida.",
+   "valores": [
+    {
+     "parametro": "Dobramento do rebite, Grau A",
+     "valor": "180° plano sobre si mesmo",
+     "item": "6.1.1"
+    },
+    {
+     "parametro": "Dobramento do rebite Grau B, haste ≤ 3/4 in",
+     "valor": "diâmetro do mandril = 1 × diâmetro",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Dobramento do rebite Grau B, haste > 3/4 in",
+     "valor": "1 1/2 × diâmetro",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "7",
+   "texto": "Dimensões dos rebites conforme ANSI B18.1.2 (diâmetros maiores) e B18.1.1 (até 7/16 in)."
+  }
+ ]
+}

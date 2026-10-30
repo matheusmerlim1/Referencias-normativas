@@ -1,0 +1,94 @@
+{
+ "id": "ASME-SA-662",
+ "titulo": "SA-662 — Chapas de aço C-Mn-Si para vasos de pressão em temperatura moderada e baixa",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço carbono-manganês-silício, graus A, B e C, para vasos de pressão soldados onde a tenacidade em baixa temperatura é importante. Requisitos gerais pela SA-20.",
+   "valores": [
+    {
+     "parametro": "Espessura máx. usual",
+     "valor": "2 in [50 mm]",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4, 5",
+   "texto": "Aço acalmado de grão fino. Grau A sempre normalizado; B e C normalizados acima de 1 1/2 in [40 mm]."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Análise de corrida.",
+   "valores": [
+    {
+     "parametro": "C máx. — A / B / C",
+     "valor": "0,14 / 0,19 / 0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn — A / B / C",
+     "valor": "0,90–1,35 / 0,85–1,50 / 1,00–1,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau A — Su / Sy mín.",
+     "valor": "58–78 ksi [400–540] / 40 ksi [275]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau B — Su / Sy mín.",
+     "valor": "65–85 ksi [450–585] / 40 ksi [275]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau C — Su / Sy mín.",
+     "valor": "70–90 ksi [485–620] / 43 ksi [295]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. 200 mm — A, B / C",
+     "valor": "20 % / 18 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. 50 mm — A, B / C",
+     "valor": "23 % / 22 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Tenacidade (informativo)",
+   "item": "Apêndice X1",
+   "texto": "O apêndice indica energias Charpy V esperadas por temperatura, para orientar pedidos com Charpy.",
+   "valores": [
+    {
+     "parametro": "Grau A, longitudinal, −75 °F [−60 °C]",
+     "valor": "20 ft·lbf [27 J]",
+     "item": "Tabela X1.1"
+    },
+    {
+     "parametro": "Graus B e C, longitudinal, −50 °F [−45 °C]",
+     "valor": "22 ft·lbf [30 J]",
+     "item": "Tabela X1.1"
+    }
+   ]
+  }
+ ]
+}

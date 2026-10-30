@@ -1,0 +1,102 @@
+{
+ "id": "ASME-SA-645",
+ "titulo": "SA-645 — Chapas de aço 5 % níquel com tratamento especial para baixa temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço liga 5 % Ni austenitizadas, temperadas, revenidas e com recozimento de reversão, para vasos de pressão soldados em baixa temperatura ou criogênica. Requisitos gerais pela SA-20."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "6",
+   "texto": "Aço acalmado de grão fino. Sequência: endurecimento (austenitização e têmpera), revenimento e recozimento de reversão. Peças aquecidas acima de 1125 °F [605 °C] para conformação são retratadas depois.",
+   "valores": [
+    {
+     "parametro": "Austenitização (endurecimento)",
+     "valor": "1575 a 1675 °F [855 a 915 °C]",
+     "item": "6.2.1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Análise de corrida.",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,13 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn",
+     "valor": "0,30–0,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,025 % / 0,025 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,20–0,40 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni",
+     "valor": "4,75–5,25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mo",
+     "valor": "0,20–0,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Al total",
+     "valor": "0,02–0,12 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N máx.",
+     "valor": "0,020 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2, S1, S2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Sy mín. (0,2 %)",
+     "valor": "65 ksi [450 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Su",
+     "valor": "95–115 ksi [655 a 795 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm",
+     "valor": "20,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Charpy longitudinal (10×10) — média / individual",
+     "valor": "25 ft·lbf [34 J] / 20 ft·lbf [27 J]",
+     "item": "Tabela S1"
+    },
+    {
+     "parametro": "Charpy transversal (10×10) — média / individual",
+     "valor": "20 ft·lbf [27 J] / 16 ft·lbf [22 J]",
+     "item": "Tabela S2"
+    }
+   ]
+  }
+ ]
+}

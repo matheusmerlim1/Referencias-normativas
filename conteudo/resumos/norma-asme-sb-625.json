@@ -1,0 +1,40 @@
+{
+ "id": "ASME-SB-625",
+ "titulo": "SB-625 — Chapas, folhas e tiras de ligas Ni-Fe-Cr-Mo-Cu baixo carbono (904L e similares)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras recozidas das ligas N08904 (904L), N08925, N08031, N08932, N08926 e R20033."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Aços inoxidáveis superausteníticos / ligas Ni-Fe-Cr-Mo-Cu(-N).",
+   "valores": [
+    {
+     "parametro": "C máx. — N08904 / N08031 / R20033",
+     "valor": "0,020 % / 0,015 % / 0,015 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni — N08904 / N08925 / N08031",
+     "valor": "23,00–28,00 % / 24,00–26,00 % / 30,0–32,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N08904 (folha, tira, chapa)",
+     "valor": "71 ksi (490) / 31 000 psi (215) / 35 %; 70–90 HRB",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

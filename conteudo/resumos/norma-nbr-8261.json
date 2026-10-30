@@ -1,0 +1,55 @@
+{
+ "id": "NBR-8261",
+ "titulo": "ABNT NBR 8261:1983 — Perfil tubular de aço-carbono formado a frio, com e sem costura, de seção circular, quadrada ou retangular, para uso estrutural",
+ "secoes": [
+  {"titulo": "Objetivo e designação", "item": "1, 4.1–4.2",
+   "texto": "Especificação de compra, fabricação e fornecimento de tubos estruturais de aço-carbono formados a frio, para estruturas soldadas, parafusadas ou rebitadas. Uso soldado com carga dinâmica em baixa temperatura deve ser combinado com o produtor. Quadrados e retangulares são designados RHS e circulares CHS (ex. RHS 80 × 80 × 6; CHS 500 × 12). Três graus de aço: A, B e C.",
+   "valores": []},
+  {"titulo": "Comprimentos e tolerâncias dimensionais", "item": "4.3–4.4",
+   "texto": "Fornecimento em comprimento normal, múltiplo ou fixo. Tolerâncias de dimensão externa, parede, esquadro, raio de canto, torção, retilinidade e massa.",
+   "valores": [
+    {"parametro": "Comprimento normal de fabricação", "valor": "4 a 8 m (até 10 % do lote entre 1,5 e 5,0 m)", "item": "4.3.1 a)"},
+    {"parametro": "Comprimento fixo/múltiplo — L ≤ 7 m / > 7 m", "valor": "+20 mm / +25 mm", "item": "Tab. 2"},
+    {"parametro": "Dimensão externa D ≤ 65 mm", "valor": "± 0,5 mm", "item": "Tab. 1", "nota": "medir a ≥ 100 mm das pontas; em retangular vale a maior dimensão"},
+    {"parametro": "65 < D ≤ 90 mm", "valor": "± 0,7 mm", "item": "Tab. 1"},
+    {"parametro": "90 < D ≤ 140 mm", "valor": "± 0,9 mm", "item": "Tab. 1"},
+    {"parametro": "D > 140 mm", "valor": "± 1 %", "item": "Tab. 1"},
+    {"parametro": "Espessura de parede", "valor": "± 10 %", "item": "4.4.2"},
+    {"parametro": "Esquadro dos lados (RHS)", "valor": "90° ± 2°", "item": "4.4.4"},
+    {"parametro": "Raio externo de canto (RHS)", "valor": "≤ 3 × espessura", "item": "4.4.5"},
+    {"parametro": "Torção máxima (RHS) — lado maior ≤ 38 / ≤ 63,5 / ≤ 101,6 mm", "valor": "1,4 / 1,7 / 2,1 mm/m", "item": "Tab. 3"},
+    {"parametro": "Torção máxima — ≤ 152,4 / ≤ 203,2 / > 203,2 mm", "valor": "2,4 / 2,8 / 3,1 mm/m", "item": "Tab. 3"},
+    {"parametro": "Retilinidade", "valor": "≤ 2,5 mm por metro", "item": "4.4.7"},
+    {"parametro": "Massa real", "valor": "± 10 % da teórica M = 7,85 × 10⁻³ × S (kg/m, S em mm²)", "item": "4.4.8"}
+   ]},
+  {"titulo": "Encomenda, marcação e acabamento", "item": "4.6–4.8",
+   "texto": "O pedido informa designação, norma, quantidade, comprimento, tipo de ponta, uso, certificados e requisitos extras. Tubos com maior dimensão acima de 100 mm são marcados um a um (produtor, norma, grau, com/sem costura, dimensões); menores podem ter etiqueta no amarrado. Acabamento decapado, fosfatizado, pintado ou zincado por acordo.",
+   "valores": []},
+  {"titulo": "Fabricação e composição química", "item": "5.1–5.3",
+   "texto": "Sem costura: trefilado a frio. Com costura: chapa laminada soldada automaticamente sem metal de adição.",
+   "valores": [
+    {"parametro": "C máx. — panela: graus A/B / C", "valor": "0,26 / 0,23 %", "item": "Tab. 4", "nota": "produto: 0,30 / 0,27 %"},
+    {"parametro": "P máx. (panela)", "valor": "0,04 %", "item": "Tab. 4"},
+    {"parametro": "S máx. (panela)", "valor": "0,05 %", "item": "Tab. 4"},
+    {"parametro": "Mn máx. — grau C (panela)", "valor": "1,35 %", "item": "Tab. 4"},
+    {"parametro": "Cu mín. (quando especificado)", "valor": "0,20 % (panela) / 0,18 % (produto)", "item": "Tab. 4"}
+   ]},
+  {"titulo": "Propriedades de tração", "item": "5.4",
+   "texto": "Limites mínimos por grau; o escoamento exigido é maior nos tubos quadrados/retangulares. Os circulares passam também por ensaio de achatamento sem fissuras.",
+   "valores": [
+    {"parametro": "Resistência à tração mín. — A / B / C", "valor": "310 / 400 / 427 MPa", "item": "Tab. 5"},
+    {"parametro": "Escoamento mín. circular — A / B / C", "valor": "228 / 290 / 317 MPa", "item": "Tab. 5"},
+    {"parametro": "Escoamento mín. quadrado/retangular — A / B / C", "valor": "269 / 317 / 345 MPa", "item": "Tab. 5"},
+    {"parametro": "Alongamento mín. (Lo = 50 mm) — A / B / C", "valor": "25 / 23 / 21 %", "item": "Tab. 5"},
+    {"parametro": "Alongamento para parede fina — grau A (e < 3,0 mm)", "valor": "A = 2,20·e + 17,50", "item": "Tab. 5, nota A"},
+    {"parametro": "Alongamento para parede fina — grau B (e < 4,6 mm)", "valor": "A = 2,40·e + 12,0", "item": "Tab. 5, nota B"}
+   ]},
+  {"titulo": "Inspeção e aceitação", "item": "6–7",
+   "texto": "Inspeção na fábrica antes do embarque. Corpo de prova de tração do tubo com costura a mais de 90° do cordão. Contraprova química com duas análises extras.",
+   "valores": [
+    {"parametro": "Lote de amostragem", "valor": "500 tubos ou fração", "item": "6.2.1"},
+    {"parametro": "Amostras para análise química", "valor": "2 por lote", "item": "6.2.2"},
+    {"parametro": "Comprimento do corpo de prova de achatamento — sem / com costura", "valor": "60 mm / > 100 mm", "item": "6.3.3"}
+   ]}
+ ]
+}

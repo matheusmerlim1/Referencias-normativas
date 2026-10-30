@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SFA-5.10",
+ "titulo": "SFA-5.10 — Eletrodos e varetas nus de alumínio e ligas de alumínio (AWS A5.10)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Eletrodos (ER) e varetas (R) nus de alumínio e ligas de alumínio para MIG, TIG, oxigás e plasma."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "ER1100 — Al mín. / Cu",
+     "valor": "99,0 % / 0,05–0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "ER4043 — Si / Fe máx. / Cu máx.",
+     "valor": "4,5–6,0 % / 0,8 % / 0,30 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "ER5356 — Mg / Mn / Cr / Ti",
+     "valor": "4,5–5,5 % / 0,05–0,20 % / 0,05–0,20 % / 0,06–0,20 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabela 2",
+   "texto": "Análise química para todos; radiografia de solda para eletrodos (ER) e ensaio de cordão sobre chapa para varetas (R)."
+  }
+ ]
+}

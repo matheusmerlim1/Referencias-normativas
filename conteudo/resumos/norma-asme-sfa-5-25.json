@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SFA-5.25",
+ "titulo": "SFA-5.25 — Arames e fluxos de aço carbono e baixa liga para eletroescória (AWS A5.25)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Eletrodos (sólidos e de alma metálica) e fluxos para soldagem por eletroescória de aços carbono e baixa liga; classificação da combinação fluxo-eletrodo pelas propriedades do metal de solda."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabelas 1 e 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "EM5K-EW (sólido) — C máx. / Mn / Si",
+     "valor": "0,07 % / 0,90–1,40 % / 0,40–0,70 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "EM5K-EW — Ti / Zr",
+     "valor": "0,05–0,15 % / 0,02–0,12 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "EWT1 (alma metálica, metal de solda) — C / Mn / Si máx.",
+     "valor": "0,13 / 2,00 / 0,60 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabela 5",
+   "texto": "Sólidos: análise química do eletrodo. Compostos: análise do metal de solda. Combinação fluxo-eletrodo: radiografia, tração e Charpy."
+  }
+ ]
+}

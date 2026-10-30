@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SB-658",
+ "titulo": "SB-658 — Tubos (pipe) sem costura e soldados de zircônio e ligas de zircônio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe) sem costura e soldados de zircônio em três graus (R60702, R60704, R60705)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Zircônio comercial (R60702) e ligas Zr-Sn (R60704) e Zr-Nb (R60705).",
+   "valores": [
+    {
+     "parametro": "R60702 — Zr+Hf mín. / Hf máx.",
+     "valor": "99,2 % / 4,5 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "R60704 — Zr+Hf mín. / Sn / Fe+Cr",
+     "valor": "97,5 % / 1,0–2,0 % / 0,2–0,4 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "R60705 — Zr+Hf mín. / Nb",
+     "valor": "95,5 % / 2,0–3,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "H máx. / N máx. / C máx.",
+     "valor": "0,005 % / 0,025 % / 0,05 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "O máx. — R60702 / R60704, R60705",
+     "valor": "0,16 % / 0,18 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "R60702",
+     "valor": "55 ksi (380) / 30 ksi (205) / 16 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "R60704",
+     "valor": "60 ksi (415) / 35 ksi (240) / 14 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "R60705",
+     "valor": "80 ksi (550) / 55 ksi (380) / 16 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

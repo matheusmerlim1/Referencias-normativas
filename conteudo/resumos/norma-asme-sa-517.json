@@ -1,0 +1,94 @@
+{
+ "id": "ASME-SA-517",
+ "titulo": "SA-517 — Chapas de aço liga de alta resistência temperadas e revenidas para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço liga temperadas e revenidas, de alta resistência, para caldeiras soldadas e vasos de pressão. Vários graus (A, B, E, F, J, P…) de produtores diferentes, com as mesmas propriedades. Requisitos gerais pela SA-20.",
+   "valores": [
+    {
+     "parametro": "Espessura máx. — A, B, J",
+     "valor": "1,25 in [32 mm]",
+     "item": "1.3"
+    },
+    {
+     "parametro": "— F",
+     "valor": "2,50 in [65 mm]",
+     "item": "1.3"
+    },
+    {
+     "parametro": "— P",
+     "valor": "4 in [100 mm]",
+     "item": "1.3"
+    },
+    {
+     "parametro": "— E",
+     "valor": "6 in [150 mm]",
+     "item": "1.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4, 5",
+   "texto": "Aço acalmado de grão fino; temperado em água ou óleo e revenido pelo fabricante da chapa.",
+   "valores": [
+    {
+     "parametro": "Austenitização mín.",
+     "valor": "1650 °F [900 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Revenimento mín.",
+     "valor": "1150 °F [620 °C] por ≥ 1/2 h",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Análise de corrida.",
+   "valores": [
+    {
+     "parametro": "C — A, B / E / F / J, P",
+     "valor": "0,15–0,21 / 0,12–0,20 / 0,10–0,20 / 0,12–0,21 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn — A / B / E / F / J, P",
+     "valor": "0,80–1,10 / 0,70–1,00 / 0,40–0,70 / 0,60–1,00 / 0,45–0,70 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Até 2,50 in [65 mm] — Su / Sy mín.",
+     "valor": "115–135 ksi [795–930] / 100 ksi [690]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "2,50 a 6 in [65 a 150 mm] — Su / Sy mín.",
+     "valor": "105–135 ksi [725–930] / 90 ksi [620]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm — até 2,50 in / acima",
+     "valor": "16 % / 14 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Redução de área mín. — corpo retangular / redondo",
+     "valor": "35 % / 45 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "id": "DIN-EN-ISO-7090",
+ "titulo": "DIN EN ISO 7090:2000 — Arruelas planas chanfradas — Série normal — Grau A",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Arruelas planas chanfradas no diâmetro externo, série normal, grau de produto A, classes de dureza 200 HV e 300 HV. Junto com a ISO 7089 substituiu a DIN 125-1 e 125-2.",
+   "valores": []
+  },
+  {
+   "titulo": "Dimensões e requisitos",
+   "item": "3–4",
+   "texto": "Tabela por tamanho nominal (rosca): diâmetro do furo, diâmetro externo, espessura. Aço, inox e outros; tolerâncias ISO 4759-3; revestimentos ISO 4042 ou ISO 10683.",
+   "valores": [
+    {
+     "parametro": "Classe 200 HV",
+     "valor": "dureza 200 a 300 HV",
+     "item": "4"
+    },
+    {
+     "parametro": "Classe 300 HV",
+     "valor": "dureza 300 a 370 HV",
+     "item": "4",
+     "nota": "aplicações recomendadas de cada classe na cláusula 1 — conferir"
+    }
+   ]
+  }
+ ]
+}

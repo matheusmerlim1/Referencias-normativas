@@ -1,0 +1,61 @@
+{
+ "id": "ISO-8434-2",
+ "titulo": "ISO 8434-2:2007 — Conexões metálicas de tubos — Parte 2: Conectores flangeados 37° (flare)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Conectores com tubo flangeado (alargado) a 37° e vedação metal-metal, tubos de 6 a 50,8 mm, baseados na SAE J514; roscas unificadas em polegada (ISO 263). Tubos métricos ou em polegada trocando a luva; para projetos novos, preferir tubo métrico.",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo do tubo",
+     "valor": "6 a 50,8 mm",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Pressões de trabalho",
+   "item": "5, Tab. 1",
+   "texto": "Por diâmetro do tubo, espessura mínima para o flangeamento e pressão em aço/inox e liga de cobre.",
+   "valores": [
+    {
+     "parametro": "Tubo 6 / 8 / 10 mm — aço/inox",
+     "valor": "35 MPa (350 bar)",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Tubo 12 mm — aço/inox",
+     "valor": "31 MPa",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Tubo 16 / 20 mm — aço/inox",
+     "valor": "24 MPa",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Tubo 25 mm — aço/inox",
+     "valor": "21 MPa",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Tubo 6 / 12 / 25 mm — liga de cobre",
+     "valor": "20 / 16 / 10 MPa",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Espessura de parede para flangear — tubo 6 / 12 / 25 mm métrico",
+     "valor": "1,5 / 2 / 3 mm",
+     "item": "Tab. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Estrutura comum da série",
+   "item": "3–14",
+   "texto": "Materiais (corpos, porcas, anéis, O-rings), requisitos de pressão/temperatura, designação dos conectores, requisitos dos tubos, aberturas de chave e tolerâncias, projeto (passagens, ângulos, contornos, pórticos e pontas roscadas com vedação), roscas, fabricação (acabamento, cantos), instruções de montagem, informações de compra e marcação. Inclui ensaio de desempenho e qualificação.",
+   "valores": []
+  }
+ ]
+}

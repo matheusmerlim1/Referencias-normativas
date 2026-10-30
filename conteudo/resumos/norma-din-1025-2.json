@@ -1,0 +1,45 @@
+{
+ "id": "DIN-1025-2",
+ "titulo": "DIN 1025-2:1995 — Perfis I e H laminados, série IPB (HEB)",
+ "secoes": [
+  {
+   "titulo": "Escopo e séries",
+   "item": "1",
+   "texto": "Perfis H de mesas paralelas largas, série IPB (= HE…B), de 100 a 1000 mm. A DIN 1025 tem outras partes: I de mesa inclinada (1), IPBl/HEA (3), IPBv/HEM (4) e IPE (5).",
+   "valores": [],
+   "figuras": [
+    "esquemas/perfis-laminados-perfil-h.svg"
+   ]
+  },
+  {
+   "titulo": "Designação, massa, tolerâncias e material",
+   "item": "3–6",
+   "texto": "Designação com produto, norma, aço e perfil (ex.: IPB 360 em S235JR). Massa calculada com densidade padrão; tolerâncias pela EN 10034; aço pela EN 10025.",
+   "valores": [
+    {
+     "parametro": "Densidade",
+     "valor": "7,85 kg/dm³",
+     "item": "4.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "Tab. 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "HEB 200 — h / b / s / t / r",
+     "valor": "200 / 200 / 9 / 15 / 18 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/perfis-laminados-perfil-h.svg#b"
+    },
+    {
+     "parametro": "HEB 200 — massa / Ix / Wx",
+     "valor": "61,3 kg/m / 5700 cm⁴ / 570 cm³",
+     "item": "Tab. 1"
+    }
+   ]
+  }
+ ]
+}

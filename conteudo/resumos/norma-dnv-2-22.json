@@ -1,0 +1,343 @@
+{
+ "id": "DNV-2.22",
+ "titulo": "DNV Standard for Certification No. 2.22 (2013) — Equipamentos de içamento (guindastes)",
+ "secoes": [
+  {
+   "titulo": "Escopo e certificação",
+   "item": "Ch.1",
+   "texto": "Certificação de guindastes de navio, offshore e industriais, paus de carga, guinchos, moitões e acessórios: documentação, aprovação de projeto, fabricação, ensaios e vistorias. Temperatura de projeto depende do tipo de serviço.",
+   "valores": [
+    {
+     "parametro": "Temperatura de projeto — navio/industrial",
+     "valor": "−10 °C (extrema −30 °C)",
+     "item": "Ch.1 Tab. 1-1"
+    },
+    {
+     "parametro": "Temperatura de projeto — offshore",
+     "valor": "−20 °C (extrema −40 °C)",
+     "item": "Ch.1 Tab. 1-1"
+    }
+   ]
+  },
+  {
+   "titulo": "Classificação e casos de carga",
+   "item": "Ch.2 Sec.2 (1–2)",
+   "texto": "Grupo de fadiga conforme FEM 1.001 (Tabela 2-4). Casos: I em serviço sem vento, II com vento, III excepcionais (para-choque, movimento da embarcação com vento fora de serviço). Inclui cargas em passadiços e plataformas, inclinação da embarcação (maior no caso com vento), inércia horizontal e variação térmica.",
+   "valores": [
+    {
+     "parametro": "Grupo — guindaste offshore / guincho principal",
+     "valor": "A5 / A3",
+     "item": "Tab. 2-4"
+    },
+    {
+     "parametro": "Grupo mínimo (SWL > 250 t)",
+     "valor": "A2",
+     "item": "Tab. 2-4"
+    },
+    {
+     "parametro": "Carga em passadiço com material / horizontal",
+     "valor": "3000 N / 300 N",
+     "item": "Ch.2 Sec.2"
+    },
+    {
+     "parametro": "Banda/trim mínimos — navio",
+     "valor": "5° / 2°",
+     "item": "Tab. 2-1",
+     "cota": "esquemas/guindaste-ponte-rolante-banda-trim.svg#banda"
+    },
+    {
+     "parametro": "Inclinação no Caso II",
+     "valor": "1,5 × Tab. 2-1",
+     "item": "2.3.2"
+    },
+    {
+     "parametro": "Inércia horizontal em unidade móvel",
+     "valor": "≤ 0,5 g",
+     "item": "1.5"
+    },
+    {
+     "parametro": "Variação térmica ao ar livre",
+     "valor": "≥ 65 °C",
+     "item": "1.6.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Fator dinâmico",
+   "item": "Ch.2 Sec.2 1.3; Sec.6",
+   "texto": "O fator dinâmico depende da rigidez no gancho, da carga e da velocidade relativa entre gancho e carga. Em guindastes offshore a velocidade relativa combina a velocidade de içamento com os movimentos do barco de apoio e da própria unidade, função da altura de onda; há mínimos de fator e de velocidade de içamento. Caçambas acrescem.",
+   "valores": [
+    {
+     "parametro": "Fórmula geral",
+     "valor": "ψ = 1 + VR·√(C/(W·g))",
+     "item": "1.3"
+    },
+    {
+     "parametro": "ψ mínimo offshore",
+     "valor": "1,3 (10 kN < W ≤ 2 500 kN); 1,1 (W > 5 000 kN)",
+     "item": "Ch.2 Sec.6"
+    },
+    {
+     "parametro": "Velocidade relativa",
+     "valor": "VR = 0,5 VL + √(Vin² + Vt²)",
+     "item": "Sec.6 2.2.1"
+    },
+    {
+     "parametro": "Velocidade mínima de içamento",
+     "valor": "VH = 0,1 (Hs + 1) m/s",
+     "item": "Sec.6 2.2.2"
+    },
+    {
+     "parametro": "Caçamba autofechante / motorizada",
+     "valor": "+20 % / +30 %",
+     "item": "1.3.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Cargas horizontais e vento",
+   "item": "Ch.2 Sec.2; Sec.6; App. A",
+   "texto": "Acelerações de translação e forças transversais ao trilho, para-choques, cargas laterais e radiais na ponta da lança (offshore). O vento usa pressão dinâmica, coeficiente de forma e área exposta, crescendo com a altura.",
+   "valores": [
+    {
+     "parametro": "Força de translação",
+     "valor": "15 % da carga vertical por roda motora",
+     "item": "1.4"
+    },
+    {
+     "parametro": "Força transversal ao trilho",
+     "valor": "10 % do peso da unidade",
+     "item": "1.4"
+    },
+    {
+     "parametro": "Para-choque",
+     "valor": "0,7 × velocidade nominal; desprezar < 0,7 m/s",
+     "item": "1.4.4"
+    },
+    {
+     "parametro": "Side lead offshore",
+     "valor": "(W/100)·(2,5 + 0,1·r·n + Hs)",
+     "item": "Sec.6 2.3",
+     "cota": "esquemas/guindaste-ponte-rolante-offlead-sidelead.svg#r"
+    },
+    {
+     "parametro": "Pressão de vento",
+     "valor": "P = A·q·C·sin α; q = ρv²/2",
+     "item": "A.1.2.1",
+     "cota": "esquemas/guindaste-ponte-rolante-vento-membros.svg#alfa"
+    },
+    {
+     "parametro": "q com a altura",
+     "valor": "q10·(0,9 + 0,01 H)",
+     "item": "A.1.5.1"
+    },
+    {
+     "parametro": "q10 em serviço — abrigado / offshore",
+     "valor": "250 / 360 N/m²",
+     "item": "Tab. A-2"
+    },
+    {
+     "parametro": "Coeficiente C — perfil plano / tubo < 0,3 m / tubo ≥ 0,3 m",
+     "valor": "2,0 / 1,2 / 0,7",
+     "item": "Tab. A-1"
+    }
+   ]
+  },
+  {
+   "titulo": "Resistência da estrutura",
+   "item": "Ch.2 Sec.2 (3–4)",
+   "texto": "Fatores de segurança ao escoamento e à flambagem por caso de carga; fadiga com amplitude reduzida. Rolamento de giro com parafusos protendidos, de comprimento útil mínimo e material de resistência limitada; capacidade última com margem; pedestal soldado com penetração total.",
+   "valores": [
+    {
+     "parametro": "Segurança ao escoamento — Casos I/II/III",
+     "valor": "1,50 / 1,33 / 1,10",
+     "item": "Tab. 2-2"
+    },
+    {
+     "parametro": "Flambagem elástica — I/II/III",
+     "valor": "1,86 / 1,66 / 1,38",
+     "item": "Tab. 2-3"
+    },
+    {
+     "parametro": "Fadiga — divisor da amplitude crítica",
+     "valor": "1,33",
+     "item": "3"
+    },
+    {
+     "parametro": "Comprimento útil dos parafusos do giro",
+     "valor": "≥ 4,5 × Ø",
+     "item": "4.3.4",
+     "cota": "esquemas/guindaste-ponte-rolante-anel-giro-medidas.svg#comprimento-parafuso"
+    },
+    {
+     "parametro": "Protensão dos parafusos",
+     "valor": "65 % a 80 % do escoamento",
+     "item": "4.3"
+    },
+    {
+     "parametro": "Capacidade última do rolamento",
+     "valor": "≥ 1,5 × carga",
+     "item": "4.3.8"
+    },
+    {
+     "parametro": "Parafusos de classe acima de 10.9",
+     "valor": "normalmente não aceitos",
+     "item": "4.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Mecanismos, cabos, tambores e polias",
+   "item": "Ch.2 Sec.3",
+   "texto": "Engrenagens com coeficientes de segurança; resposta mínima dos comandos. Cabo de aço com fator de segurança dependente da SWL e do fator dinâmico, construção mínima e terminais eficientes (grampo U proibido). Tambor e polias com relação diâmetro/cabo mínima, número de camadas limitado, borda do flange, ranhura com ângulos e raio definidos, voltas mortas mínimas.",
+   "valores": [
+    {
+     "parametro": "Fator de segurança do cabo",
+     "valor": "maior de 2,3ψ e 10⁴/(0,885 SWL + 1910)",
+     "item": "2.1"
+    },
+    {
+     "parametro": "Perda por polia — rolamento / bucha",
+     "valor": "1,5 % / 5 %",
+     "item": "2.1"
+    },
+    {
+     "parametro": "Construção mínima do cabo",
+     "valor": "≥ 114 fios",
+     "item": "2.1"
+    },
+    {
+     "parametro": "Grampos",
+     "valor": "≥ 3; ponta livre ≥ 5 d",
+     "item": "2.1",
+     "cota": "esquemas/guindaste-ponte-rolante-grampos-ponta-livre.svg#ponta-livre"
+    },
+    {
+     "parametro": "D/d — tambor / polia / equalizadora",
+     "valor": "≥ 18 / ≥ 18 / ≥ 10",
+     "item": "2.2.1; 2.6.1",
+     "cota": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg#Dp"
+    },
+    {
+     "parametro": "Camadas no tambor",
+     "valor": "≤ 3 (mais só com IWRC e guia)",
+     "item": "2.2"
+    },
+    {
+     "parametro": "Borda do flange acima da camada",
+     "valor": "≥ 2,5 d",
+     "item": "2.2",
+     "cota": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg#flange-dnv"
+    },
+    {
+     "parametro": "Ranhura — ângulos / raio",
+     "valor": "≤ 4° / 0,53 d (0,52–0,57 d)",
+     "item": "2.2.3",
+     "cota": "esquemas/guindaste-ponte-rolante-desvio-cabo-ranhura.svg#alfa1"
+    },
+    {
+     "parametro": "Voltas mínimas no tambor",
+     "valor": "3",
+     "item": "2.5.2"
+    },
+    {
+     "parametro": "Tensão circunferencial no tambor",
+     "valor": "≤ 85 % do escoamento",
+     "item": "2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Freios, ganchos e acessórios",
+   "item": "Ch.2 Sec.3 (2.3; 2.8–2.9)",
+   "texto": "Freio mecânico com folga grande sobre o torque estático e atrito de cálculo limitado, independente do freio operacional. Ganchos offshore pela DIN 15400 com trava. Acessórios e caçambas dimensionados pela carga dinâmica; correntes com fator 4.",
+   "valores": [
+    {
+     "parametro": "Torque do freio",
+     "valor": "≥ 1,8 × torque estático",
+     "item": "2.3.5"
+    },
+    {
+     "parametro": "Atrito de cálculo do freio",
+     "valor": "≤ 0,3",
+     "item": "2.3.5"
+    },
+    {
+     "parametro": "Carga de projeto de acessórios",
+     "valor": "maior de 0,75 ψ SWL e SWL",
+     "item": "2.8.4"
+    },
+    {
+     "parametro": "Fator de segurança de correntes",
+     "valor": "4 × (maior de 0,75 ψ SWL e SWL)",
+     "item": "2.9.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Içamento de pessoas",
+   "item": "Ch.2 Sec.9",
+   "texto": "Capacidade para pessoas é metade da de carga; cabos e correntes com fatores maiores; dois freios independentes; limites de vento e onda; luz do dia.",
+   "valores": [
+    {
+     "parametro": "Capacidade para pessoas",
+     "valor": "≤ 50 % da de carga",
+     "item": "4.1.1"
+    },
+    {
+     "parametro": "Fator do cabo / corrente",
+     "valor": "8 / 6",
+     "item": "5.2.1"
+    },
+    {
+     "parametro": "Limites",
+     "valor": "vento médio 10 m/s; Hs 2 m",
+     "item": "6.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios, vistorias e marcação",
+   "item": "Ch.2 Sec.12; Ch.3",
+   "texto": "Ensaio de carga antes do primeiro uso, após reparo estrutural e periodicamente, em vários raios, com pesos certificados ou dinamômetro preciso; teste de freios em paradas da velocidade máxima. Exame completo após o ensaio. Marcação de SWL e raios em letras grandes.",
+   "valores": [
+    {
+     "parametro": "Carga de ensaio — SWL ≤ 20 t / 20–50 t / > 50 t",
+     "valor": "+25 % / +5 t / +10 %",
+     "item": "Tab. 12-1"
+    },
+    {
+     "parametro": "Hidráulico limitado por válvula",
+     "valor": "≥ 10 % acima da SWL",
+     "item": "Sec.12"
+    },
+    {
+     "parametro": "Dinamômetro",
+     "valor": "precisão +2 %",
+     "item": "Sec.12"
+    },
+    {
+     "parametro": "Moitão manual de corrente",
+     "valor": "+50 % da SWL",
+     "item": "2.3.5"
+    },
+    {
+     "parametro": "Ensaio de carga periódico",
+     "valor": "≥ 1 vez a cada 5 anos",
+     "item": "Ch.3"
+    },
+    {
+     "parametro": "Isolamento elétrico",
+     "valor": "≥ 1 MΩ",
+     "item": "1.4.1"
+    },
+    {
+     "parametro": "Marcação SWL / raios",
+     "valor": "≥ 80 mm / ≥ 60 mm",
+     "item": "Ch.3",
+     "cota": "esquemas/guindaste-ponte-rolante-guindaste-pedestal.svg#caracteres"
+    }
+   ]
+  }
+ ]
+}

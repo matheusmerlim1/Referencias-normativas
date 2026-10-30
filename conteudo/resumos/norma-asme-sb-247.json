@@ -1,0 +1,33 @@
+{
+ "id": "ASME-SB-247",
+ "titulo": "SB-247 — Forjados de ligas de alumínio (matriz e livres)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Forjados em matriz e forjados livres de ligas de alumínio, nas ligas e espessuras máximas das Tabelas 2 e 3, e forjados de ligas tratáveis fornecidos na têmpera F. Ligas e têmperas pela ANSI H35.1."
+  },
+  {
+   "titulo": "Propriedades mecânicas (forjados livres)",
+   "item": "Tabela 3",
+   "texto": "Até 4 in de espessura — Su mín. / Sy mín. / alongamento.",
+   "valores": [
+    {
+     "parametro": "5083-H111 longitudinal",
+     "valor": "42,0 ksi / 22,0 ksi / 14 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "5083-H112 longitudinal",
+     "valor": "40,0 ksi / 18,0 ksi / 16 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "6061-T6 longitudinal",
+     "valor": "38,0 ksi / 35,0 ksi / 10 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

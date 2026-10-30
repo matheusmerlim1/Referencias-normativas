@@ -1,0 +1,94 @@
+{
+ "id": "ASME-SA-105",
+ "titulo": "SA-105 — Forjados de aço carbono para tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Componentes forjados de aço carbono para sistemas sob pressão, da temperatura ambiente a altas temperaturas: flanges, conexões, válvulas e peças similares, por desenho do comprador ou por padrões dimensionais (ASME, MSS, API). Não cobre espelhos (tubesheets) nem cilindros ocos de costado; peças maiores vão para a SA-266. Requisitos gerais pela SA-961.",
+   "valores": [
+    {
+     "parametro": "Massa máxima do forjado",
+     "valor": "10 000 lb [4540 kg]",
+     "item": "1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Não é obrigatório, salvo para: flanges acima da Classe 300; flanges especiais acima do rating Classe 300 Grupo 1.1 ou com condição de projeto desconhecida; demais componentes acima de NPS 4 e acima da Classe 300. Quando exigido: recozimento, normalização, normalização e revenimento ou têmpera e revenimento."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Aço com chumbo adicionado é proibido. Para cada 0,01 % de C abaixo de 0,35 %, admite-se +0,06 % de Mn acima de 1,05 %, até 1,35 %.",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn",
+     "valor": "0,60–1,05 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,040 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,10–0,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cu / Ni / Cr / Mo / V máx.",
+     "valor": "0,40 / 0,40 / 0,30 / 0,12 / 0,08 %",
+     "item": "Tabela 1",
+     "nota": "Cu+Ni+Cr+Mo+V ≤ 1,00 %; Cr+Mo ≤ 0,32 %"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 3",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su mín.",
+     "valor": "70 000 psi [485 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "36 000 psi [250 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm — tira, parede ≥ 5/16 in / corpo redondo 4D",
+     "valor": "30 % / 22 %",
+     "item": "Tabela 2",
+     "nota": "Tira: −1,50 ponto por 1/32 in abaixo de 5/16 in (Tabela 3)"
+    },
+    {
+     "parametro": "Redução de área mín. (corpo redondo)",
+     "valor": "30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Dureza máx.",
+     "valor": "187 HB",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios, reparo e marcação",
+   "item": "8 a 13",
+   "texto": "Teste hidrostático só se pedido (S8 da SA-961). Peças reprovadas podem ser retratadas e reensaiadas. Reparo por solda permitido em peças de padrão dimensional ou de estoque; nas demais, só com aprovação do comprador. Marcação 'QT' se temperado e revenido e 'W' se reparado por solda."
+  }
+ ]
+}

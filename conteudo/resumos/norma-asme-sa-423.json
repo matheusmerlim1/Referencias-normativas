@@ -1,0 +1,72 @@
+{
+ "id": "ASME-SA-423",
+ "titulo": "SA-423 — Tubos de aço baixa liga com e sem costura (resistentes à corrosão atmosférica)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de espessura mínima, sem costura ou ERW, de aço baixa liga para partes sob pressão como economizadores, onde a resistência à corrosão importa. Graus 1 e 2. Requisitos gerais pela SA-450.",
+   "valores": [
+    {
+     "parametro": "Faixa usual",
+     "valor": "1/2 a 5 in [12,7 a 127 mm] DE; parede 0,035 a 0,500 in [0,9 a 12,7 mm]",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4, 5",
+   "texto": "Sem costura acabado a quente ou a frio, ou soldado; todos normalizados (ou tratados conforme necessário)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau 1",
+     "valor": "C 0,15 máx.; Mn 0,55 máx.; P 0,06–0,16; S 0,060 máx.; Si 0,10 mín.; Cu 0,20–0,60; Cr 0,24–1,31; Ni 0,20–0,70 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 2",
+     "valor": "C 0,15 máx.; Mn 0,50–1,00; P 0,04 máx.; S 0,05 máx.; Cu 0,30–1,00; Ni 0,40–1,10; Mo 0,10 mín. %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3, 9",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su mín.",
+     "valor": "60 ksi [415 MPa]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "37 ksi [255 MPa]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm",
+     "valor": "25 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Dureza máx.",
+     "valor": "170 HB ou 87 HRB",
+     "item": "9.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "7, 10, 11",
+   "texto": "Análise de produto por corrida; tração (1 por lote até 50 tubos), achatamento, alargamento ou flangeamento; tubos devem aceitar mandrilagem e rebordeamento."
+  }
+ ]
+}

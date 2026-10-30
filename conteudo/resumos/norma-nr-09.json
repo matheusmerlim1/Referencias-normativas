@@ -1,0 +1,43 @@
+{
+ "id": "NR-09",
+ "titulo": "NR-09 — Avaliação e controle das exposições ocupacionais a agentes físicos, químicos e biológicos",
+ "secoes": [
+  {
+   "titulo": "Objetivo e campo de aplicação",
+   "item": "9.1–9.2",
+   "texto": "A NR-09 trata de como avaliar a exposição a agentes físicos, químicos e biológicos que o PGR (NR-01) tenha identificado e de como isso alimenta as medidas de prevenção. Vale onde houver essas exposições; a profundidade das medidas acompanha o tamanho do problema. Para caracterizar insalubridade ou periculosidade (adicional), valem a NR-15 e a NR-16, não a NR-09.",
+   "valores": [
+    {"parametro": "Insalubridade / periculosidade (caracterização)", "valor": "seguir NR-15 e NR-16", "item": "9.2.2.1"}
+   ]
+  },
+  {
+   "titulo": "Identificação das exposições",
+   "item": "9.3",
+   "texto": "A identificação reúne: o que se faz na atividade, qual o agente e como a pessoa se expõe, que danos à saúde ele pode causar, os fatores que determinam a exposição, as medidas já existentes e quais grupos de trabalhadores estão expostos.",
+   "valores": []
+  },
+  {
+   "titulo": "Avaliação das exposições",
+   "item": "9.4",
+   "texto": "Primeiro faz-se uma análise preliminar com os dados disponíveis, para decidir se basta adotar medidas diretamente ou se é preciso avaliação qualitativa ou quantitativa. A medição, quando necessária, serve para comprovar o controle, dimensionar a exposição dos grupos e orientar as medidas; precisa ser representativa das condições reais de trabalho. Os resultados entram no inventário de riscos do PGR e ficam registrados.",
+   "valores": []
+  },
+  {
+   "titulo": "Medidas de prevenção e controle",
+   "item": "9.5",
+   "texto": "As medidas para cada agente ficam nos anexos da NR-09. Elas eliminam ou controlam a exposição, fazem parte dos controles do PGR e entram no seu plano de ação.",
+   "valores": []
+  },
+  {
+   "titulo": "Disposições transitórias (agentes ainda sem anexo)",
+   "item": "9.6",
+   "texto": "Enquanto não houver anexo próprio para um agente, usam-se os limites de tolerância da NR-15. O nível de ação — a partir do qual se inicia controle sistemático para que a exposição não chegue ao limite — é uma fração do limite. Se a NR-15 não tiver limite para o agente, a referência passa a ser a ACGIH.",
+   "valores": [
+    {"parametro": "Limite de referência (agente sem anexo na NR-09)", "valor": "limites de tolerância da NR-15 e anexos", "item": "9.6.1 a)"},
+    {"parametro": "Nível de ação — agentes químicos", "valor": "metade do limite de tolerância", "item": "9.6.1 b)"},
+    {"parametro": "Nível de ação — ruído", "valor": "metade da dose", "item": "9.6.1 c)"},
+    {"parametro": "Agente sem limite na NR-15", "valor": "usar os limites da ACGIH como referência", "item": "9.6.1.1"}
+   ]
+  }
+ ]
+}

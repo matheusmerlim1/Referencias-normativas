@@ -1,0 +1,84 @@
+{
+ "id": "ASME-SA-693",
+ "titulo": "SA-693 — Chapas, folhas e tiras de aço inoxidável endurecível por precipitação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras de aço inoxidável endurecível por precipitação (630/17-4PH, 631/17-7PH, 632, 633, 634, XM-12…), cujas propriedades vêm de envelhecimento em baixa temperatura; para peças com resistência à corrosão e alta resistência mecânica. Requisitos gerais pela SA-480."
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4, 6, Tabelas 2 e 3",
+   "texto": "Forno elétrico ou a vácuo, com refusão opcional. Fornecido solubilizado; o comprador faz o envelhecimento.",
+   "valores": [
+    {
+     "parametro": "630 — solubilização",
+     "valor": "1925 ± 50 °F (1050 ± 25 °C)",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "630 — H900 / H1025 / H1150",
+     "valor": "900 ± 15 °F (482 °C) 1 h / 1025 °F (552 °C) 4 h / 1150 °F (621 °C) 4 h, ar",
+     "item": "Tabelas 2 e 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "630 (S17400)",
+     "valor": "C 0,07; Mn 1,00; P 0,040; S 0,030; Si 1,00; Cr 15,00–17,50; Ni 3,00–5,00; Cu 3,00–5,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "631 (S17700)",
+     "valor": "C 0,09; Cr 16,00–18,00; Ni 6,50–7,75; Al 0,75–1,50 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 4 e 5",
+   "texto": "630 envelhecido, espessura 0,626 a 4,0 in (Su / Sy / alongamento / redução de área / dureza):",
+   "valores": [
+    {
+     "parametro": "H900",
+     "valor": "190 ksi [1310] / 170 ksi [1170] / 10 % / 30 % / C40–C48",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "H925",
+     "valor": "170 ksi [1170] / 155 ksi [1070] / 10 % / 30 % / C38–C47",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "H1025",
+     "valor": "155 ksi [1070] / 145 ksi [1000] / 12 % / 35 % / C33–C42; Charpy 15 ft·lbf [20 J]",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "630 solubilizado — dureza máx.",
+     "valor": "C38 / 363 HB",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Dobramento",
+   "item": "8, Tabela 6",
+   "texto": "Amostras solubilizadas dobradas a frio sem trincas (630 não exige).",
+   "valores": [
+    {
+     "parametro": "631 até 0,187 in — dobramento",
+     "valor": "180°, mandril 1T",
+     "item": "Tabela 6"
+    }
+   ]
+  }
+ ]
+}

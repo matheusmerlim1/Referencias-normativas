@@ -1,0 +1,115 @@
+{
+ "id": "ASME-SA-533",
+ "titulo": "SA-533 — Chapas de aço liga Mn-Mo e Mn-Mo-Ni temperadas e revenidas para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço liga manganês-molibdênio e manganês-molibdênio-níquel, temperadas e revenidas, para vasos de pressão soldados. Quatro tipos de química (A, B, C, D) e três classes de resistência. Requisitos gerais pela SA-20.",
+   "valores": [
+    {
+     "parametro": "Tipo A — Mo / Ni nominais",
+     "valor": "0,50 % / —",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Tipo B",
+     "valor": "0,50 % / 0,55 %",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Tipo C",
+     "valor": "0,50 % / 0,85 %",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Tipo D",
+     "valor": "0,50 % / 0,30 %",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Aço acalmado de grão fino. Austenitização, têmpera em água e revenimento.",
+   "valores": [
+    {
+     "parametro": "Faixa de austenitização",
+     "valor": "1550 a 1800 °F [845 a 980 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Revenimento mín.",
+     "valor": "1100 °F [595 °C]",
+     "item": "5.1",
+     "nota": "limite lido do texto; conferir eventual diferença por classe"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn (corrida)",
+     "valor": "1,15–1,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si (corrida)",
+     "valor": "0,15–0,40 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mo (corrida)",
+     "valor": "0,45–0,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni (corrida) — B / C / D",
+     "valor": "0,40–0,70 / 0,70–1,00 / 0,20–0,40 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Classe 1 — Su / Sy mín. / along.",
+     "valor": "80–100 ksi [550–690] / 50 ksi [345] / 18 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 2",
+     "valor": "90–115 ksi [620–795] / 70 ksi [485] / 16 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 3",
+     "valor": "100–125 ksi [690–860] / 83 ksi [570] / 16 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "Suplementares",
+   "texto": "Opcionais padronizados da SA-20 (ensaios adicionais, Charpy, ultrassom etc.), só quando pedidos."
+  }
+ ]
+}

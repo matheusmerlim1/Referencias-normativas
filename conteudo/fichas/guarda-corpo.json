@@ -1,0 +1,3099 @@
+{
+  "id": "guarda-corpo",
+  "titulo": "Guarda-corpo, corrimão e rodapé",
+  "categoria": "Acessos e circulação",
+  "resumo": "Sistema de proteção contra quedas (guarda-corpo / balaustrada) em periferias, plataformas, passarelas, escadas e aberturas no piso: quando é obrigatório, alturas do travessão superior e intermediário, rodapé, corrimão (seção e diâmetro), espaçamento de montantes e vãos, cargas de projeto e ensaios de desempenho, ancoragem, materiais, fechamento com tela e corrimão de tempestade (storm rail), segundo NR-12, NR-18, NR-34, NR-37, ABS, ASTM F1166, ISO 14122-2, desenho padrão Equinor/Peregrino ABNT NBR 15708-2 (guarda-corpo em PRFV pultrudado para óleo e gás: geometria, fixações, ensaios de tipo e de recebimento, marcação) e, para edificações, ABNT NBR 14718:2019.",
+  "palavras_chave": [
+    "guarda-corpo",
+    "guarda corpo",
+    "guarda-corpos",
+    "corrimão",
+    "corrimãos",
+    "corrimao",
+    "rodapé",
+    "rodape",
+    "rodapé de guarda-corpo",
+    "balaustrada",
+    "parapeito",
+    "travessão",
+    "travessa",
+    "barra intermediária",
+    "montante",
+    "balaústre",
+    "proteção de periferia",
+    "proteção contra quedas",
+    "abertura no piso",
+    "handrail",
+    "guardrail",
+    "guard rail",
+    "railing",
+    "safety railing",
+    "toeboard",
+    "toe board",
+    "kick plate",
+    "kickplate",
+    "stanchion",
+    "top rail",
+    "intermediate rail",
+    "midrail",
+    "knee rail",
+    "storm rail",
+    "deck edge",
+    "bulwark",
+    "guarda-corpo de vidro",
+    "guarda-corpo de edificação",
+    "guarda-corpo de varanda",
+    "sacada",
+    "varanda",
+    "mezanino",
+    "peitoril",
+    "mureta",
+    "parapeito de janela",
+    "ZEN",
+    "zona de estacionamento normal",
+    "ZEP",
+    "APR",
+    "altura de proteção",
+    "vão-luz",
+    "vão luz",
+    "gabarito prismático",
+    "elemento escalável",
+    "escalada",
+    "ensaio de impacto",
+    "saco de couro",
+    "600 J",
+    "carga de uso",
+    "carga de segurança",
+    "pré-carga",
+    "chumbamento químico",
+    "ancoragem química",
+    "pontalete",
+    "balcony",
+    "glass balustrade",
+    "balustrade",
+    "glass railing",
+    "infill panel",
+    "building guard",
+    "parapet",
+    "impact test",
+    "chemical anchor",
+    "climbability",
+    "PRFV",
+    "plástico reforçado com fibra de vidro",
+    "fibra de vidro",
+    "compósito",
+    "pultrudado",
+    "perfil pultrudado",
+    "pultrusão",
+    "guarda-corpo de fibra",
+    "guarda-corpo PRFV",
+    "barra grega",
+    "rodapé barra grega",
+    "elemento de reforço interno",
+    "sapata",
+    "painel típico",
+    "flecha",
+    "dureza Barcol",
+    "Barcol",
+    "lacre",
+    "NBR 15708",
+    "15708-2",
+    "FRP",
+    "GRP",
+    "fiberglass",
+    "fiberglass handrail",
+    "FRP handrail",
+    "GRP handrail",
+    "fibreglass railing",
+    "pultruded",
+    "pultruded handrail",
+    "composite handrail",
+    "post",
+    "toprail",
+    "deflection test",
+    "type test",
+    "offshore",
+    "NR-35",
+    "trabalho em altura",
+    "SPQ",
+    "SPCQ",
+    "proteção coletiva",
+    "fall protection",
+    "DNV",
+    "DNV-OS-C101",
+    "C101",
+    "LRFD",
+    "fator de carga",
+    "load factor",
+    "γf",
+    "ICLL",
+    "load lines",
+    "linhas de carga",
+    "PMA",
+    "DNV-RU-SHIP",
+    "ISO 14122-3",
+    "kneerail",
+    "toe-plate",
+    "self-closing gate",
+    "portão autofechante"
+  ],
+  "relacionadas": [
+    "escada-degraus",
+    "escada-marinheiro",
+    "passarela-plataforma-rampa",
+    "escada-portatil",
+    "ancoragem-linha-de-vida"
+  ],
+  "figuras": [
+    {
+      "arquivo": "esquemas/guarda-corpo-elevacao.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — elevação de dois trechos: altura do travessão superior, travessão intermediário, vãos, rodapé e folga ao piso, rodapé reduzido junto a tubo, montantes, folga entre trechos.",
+      "norma": "ISO-14122-3",
+      "item": "Esquema",
+      "pagina": 11,
+      "grupo": [
+        "Alturas e travessões",
+        "Rodapé",
+        "Corrimão (seção, diâmetro, folgas)",
+        "Montantes e vãos"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (7.1, Figura 4). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/guarda-corpo-corte-borda.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — corte na borda da plataforma (Ø do corrimão, eixo → borda, fresta até a estrutura) e corrimão de tempestade junto à antepara (altura, folga).",
+      "norma": "NR-12",
+      "item": "Esquema",
+      "pagina": 36,
+      "grupo": [
+        "Corrimão (seção, diâmetro, folgas)",
+        "Montantes e vãos"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Anexo III, item 9 / Figura 3). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/guarda-corpo-edificacao-alturas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — edificação: H e APR com mureta, prolongamento na mudança de nível da zona de recepção, guarda-corpo de escada (corrimão, corrimão → travessa, elemento → aresta do degrau).",
+      "norma": "NBR-14718",
+      "item": "Esquema",
+      "pagina": 15,
+      "grupo": [
+        "Definições e escopo (edificação)",
+        "Alturas e travessões",
+        "Corrimão (seção, diâmetro, folgas)",
+        "Montantes e vãos"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (4.4.1.2, Figura 5). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/guarda-corpo-edificacao-vaos.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — edificação: vão entre balaústres, vão entre elementos horizontais, faixa escalável e avanço em relação à borda da laje.",
+      "norma": "NBR-14718",
+      "item": "Esquema",
+      "pagina": 17,
+      "grupo": [
+        "Montantes e vãos"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (4.4.2.2 e 4.4.2.3, Figuras 8 e 9). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/guarda-corpo-ensaios-nbr14718.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — ensaio horizontal (posição das cargas, altura de aplicação, deslocamento) e ensaio de impacto em pêndulo (altura de queda).",
+      "norma": "NBR-14718",
+      "item": "Esquema",
+      "pagina": 25,
+      "grupo": [
+        "Ensaios de desempenho (protótipo)"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Anexo A, Figuras A.2 e A.3). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/guarda-corpo-ensaios-prfv.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — PRFV: pontos de carga V1, V2, H1–H4 no painel típico, flechas medidas e ensaio do montante isolado na sapata.",
+      "norma": "NBR-15708-2",
+      "item": "Esquema",
+      "pagina": 12,
+      "grupo": [
+        "Ensaios de desempenho (protótipo)"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (6.1.1, Figura 4). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/guarda-corpo-ancoragem.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — montante chumbado na laje: profundidade da ancoragem no concreto (sem contrapiso) e distância do furo à borda.",
+      "norma": "NBR-14718",
+      "item": "Esquema",
+      "pagina": 18,
+      "grupo": [
+        "Ancoragem e fixação"
+      ],
+      "nota": "Desenho próprio. Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/guarda-corpo-fixacoes-prfv.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — cinco formas de fixação do montante de PRFV: a) lateral de viga U, b) abas de viga U ou I, c) base em concreto, d) sapata embutida, e) sapata de aço soldada.",
+      "norma": "NBR-15708-2",
+      "item": "Esquema",
+      "pagina": 10,
+      "grupo": [
+        "Ancoragem e fixação"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (5.2, Figura 3 a)–d)). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — desnível que exige guarda-corpo, vão lateral entre plataforma e máquina/parede, abertura em parede e abertura no piso.",
+      "norma": "ISO-14122-3",
+      "item": "Esquema",
+      "pagina": 11,
+      "grupo": [
+        "Quando é obrigatório"
+      ],
+      "nota": "Desenho próprio. Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/guarda-corpo-cargas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — corte com as cargas horizontais no travessão superior, no intermediário e no rodapé, e a deflexão do travessão superior.",
+      "norma": "NR-18",
+      "item": "Esquema",
+      "pagina": 19,
+      "grupo": [
+        "Cargas de projeto"
+      ],
+      "nota": "Desenho próprio. Sem valores: o site escreve o valor do requisito na cota destacada."
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Definições e escopo (edificação)",
+      "parametro": "Escopo da NBR 14718",
+      "valor": "Guarda-corpos para edificação, externos ou internos, de uso privativo ou coletivo, em edificações habitacionais, comerciais, industriais, esportivas, culturais, religiosas, turísticas, educacionais, de saúde e terminais de passageiros. NÃO aplicável à indústria do petróleo e gás natural, nem a obras de infraestrutura e viárias",
+      "norma": "NBR-14718",
+      "item": "1",
+      "pagina": 7
+    },
+    {
+      "grupo": "Definições e escopo (edificação)",
+      "parametro": "Guarda-corpos (definição)",
+      "valor": "Elemento destinado a proteger as pessoas que permaneçam ou circulem na sua proximidade contra o risco de queda fortuita, sem, no entanto, impedir sua passagem forçada ou voluntária. Externo = com incidência direta de pressão de vento; interno = sem",
+      "norma": "NBR-14718",
+      "item": "3.11, 3.11.1 e 3.11.2",
+      "pagina": 9
+    },
+    {
+      "grupo": "Definições e escopo (edificação)",
+      "parametro": "Altura de proteção (H)",
+      "valor": "Altura da parte superior do corrimão até o ponto mais alto da zona de estacionamento normal (ZEN), maior ou igual a 1,10 m",
+      "min": 1100,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "3.1 / Figura 1",
+      "pagina": 8,
+      "nota": "A Figura 1 também indica vão de luz ≤ 0,11 m e ZEN = NC (nível de circulação).",
+      "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#H"
+    },
+    {
+      "grupo": "Definições e escopo (edificação)",
+      "parametro": "Altura de proteção reduzida (APR)",
+      "valor": "Altura da parte superior do corrimão até o ponto mais alto de uma mureta com espaço interno (largura) com dimensão menor do que 0,10 m",
+      "norma": "NBR-14718",
+      "item": "3.2",
+      "pagina": 8,
+      "nota": "Mureta = elemento totalmente fechado sob o guarda-corpos (3.13).",
+      "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#APR"
+    },
+    {
+      "grupo": "Definições e escopo (edificação)",
+      "parametro": "Zona de estacionamento normal (ZEN)",
+      "valor": "Superfície acessível, horizontal e adjacente aos guarda-corpos",
+      "norma": "NBR-14718",
+      "item": "3.16",
+      "pagina": 10
+    },
+    {
+      "grupo": "Definições e escopo (edificação)",
+      "parametro": "Zona de estacionamento precário (ZEP)",
+      "valor": "Superfícies adjacentes, acessíveis, que só permitem a permanência momentânea de pessoas em equilíbrio: situada até 0,45 m acima do nível de circulação (NC), com dimensão < 0,30 m e > 0,13 m (transversal ao plano do guarda-corpo)",
+      "norma": "NBR-14718",
+      "item": "3.17, NOTA",
+      "pagina": 10,
+      "nota": "Ex. da norma: degrau de escada (Figura 11)."
+    },
+    {
+      "grupo": "Definições e escopo (edificação)",
+      "parametro": "Áreas de uso coletivo / privativo / técnica",
+      "valor": "Coletivo: áreas comuns de edificações residenciais, comerciais ou institucionais de médio (até 2 500 pessoas/dia) e alto tráfego (acima de 2 500 pessoas/dia). Privativo: varandas, mezaninos e escadas de unidades residenciais ou comerciais. Área técnica: acesso restrito a profissionais habilitados para manutenção (com EPI/EPC), exceto áreas mistas (ex.: varanda com equipamentos)",
+      "norma": "NBR-14718",
+      "item": "3.4, 3.5 e 3.6",
+      "pagina": 9,
+      "nota": "Define a linha da Tabela 1 (cargas de ensaio)."
+    },
+    {
+      "grupo": "Definições e escopo (edificação)",
+      "parametro": "Pontalete / montante / travessa / corrimão",
+      "valor": "Pontalete: elemento estrutural interno ao montante ou ao corrimão fixado à ancoragem. Montante: perfil vertical (estrutural ou de acabamento). Travessa: perfil horizontal ou inclinado. Corrimão: travessa superior (apoio, guia e/ou empunhadura)",
+      "norma": "NBR-14718",
+      "item": "3.9, 3.12, 3.14 e 3.15",
+      "pagina": 9
+    },
+    {
+      "grupo": "Definições e escopo (PRFV — óleo e gás)",
+      "parametro": "Escopo da NBR 15708-2",
+      "valor": "Principais características e métodos de ensaio para guarda-corpo em compósito moldado pelo processo de pultrusão (PRFV), para utilização na indústria do petróleo e gás natural; não contempla acessórios e métodos de fixação dos guarda-corpos pultrudados",
+      "norma": "NBR-15708-2",
+      "item": "1",
+      "pagina": 7,
+      "nota": "Apesar do item 1, a Seção 5.2 / Figura 3 prescreve cinco formas de fixação (ver grupo 'Ancoragem e fixação'). Materiais, ensaios de material, tolerâncias dimensionais e defeitos visuais ficam na NBR 15708-1:2014 (Parte 1), que não está no acervo."
+    },
+    {
+      "grupo": "Definições e escopo (PRFV — óleo e gás)",
+      "parametro": "Corrimão (toprail)",
+      "valor": "Perfil estrutural situado na parte superior do guarda-corpo",
+      "norma": "NBR-15708-2",
+      "item": "3.2",
+      "pagina": 8
+    },
+    {
+      "grupo": "Definições e escopo (PRFV — óleo e gás)",
+      "parametro": "Travessa (midrail)",
+      "valor": "Perfil estrutural que constitui os elementos intermediários horizontais ou inclinados de um guarda-corpo",
+      "norma": "NBR-15708-2",
+      "item": "3.7",
+      "pagina": 8
+    },
+    {
+      "grupo": "Definições e escopo (PRFV — óleo e gás)",
+      "parametro": "Montante (post)",
+      "valor": "Perfil estrutural que constitui os elementos verticais de um guarda-corpo",
+      "norma": "NBR-15708-2",
+      "item": "3.4",
+      "pagina": 8
+    },
+    {
+      "grupo": "Definições e escopo (PRFV — óleo e gás)",
+      "parametro": "Rodapé (kickplate)",
+      "valor": "Parte inteiriça do guarda-corpo, localizada próxima ao piso, com o objetivo de evitar a queda de objetos; também reduz o espaço livre entre a barra intermediária e o piso, de modo a evitar a passagem de um corpo",
+      "norma": "NBR-15708-2",
+      "item": "3.6 e NOTA",
+      "pagina": 8
+    },
+    {
+      "grupo": "Definições e escopo (PRFV — óleo e gás)",
+      "parametro": "Elemento de reforço",
+      "valor": "Elemento estrutural interno ao montante, com o objetivo de evitar seu esmagamento",
+      "norma": "NBR-15708-2",
+      "item": "3.3",
+      "pagina": 8
+    },
+    {
+      "grupo": "Definições e escopo (PRFV — óleo e gás)",
+      "parametro": "Conexão",
+      "valor": "Elemento de união entre partes ou componentes do guarda-corpo (Figura 1: conexões de seção em U — em L (90°), em ângulo inclinado (transição para escada) e retas (emenda))",
+      "norma": "NBR-15708-2",
+      "item": "3.1 e Figura 1",
+      "pagina": 7,
+      "nota": "Formas das conexões descritas a partir do desenho ilustrativo da Figura 1."
+    },
+    {
+      "grupo": "Definições e escopo (PRFV — óleo e gás)",
+      "parametro": "Painel típico",
+      "valor": "Menor conjunto representativo de um projeto de guarda-corpo, destinado especialmente aos ensaios de carga",
+      "norma": "NBR-15708-2",
+      "item": "3.5 e NOTA",
+      "pagina": 8
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Meios de acesso a máquinas e equipamentos",
+      "valor": "Devem possuir sistema de proteção contra quedas (guarda-corpo) conforme item 7",
+      "norma": "NR-12",
+      "item": "Anexo III, 7",
+      "pagina": 34,
+      "nota": "Escadas fixas tipo marinheiro e elevadores estão dispensados do item 7 (7.2)."
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Periferia da edificação (obra)",
+      "valor": "Proteção contra queda de trabalhadores e projeção de materiais a partir do início dos serviços de concretagem da primeira laje",
+      "norma": "NR-18",
+      "item": "18.9.4",
+      "pagina": 19
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Aberturas no piso (obra)",
+      "valor": "Fechamento provisório resistente travado/fixado OU sistema de proteção contra quedas conforme 18.9.4.1 ou 18.9.4.2",
+      "norma": "NR-18",
+      "item": "18.9.2",
+      "pagina": 19
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Escadas de uso coletivo, rampas e passarelas (obra)",
+      "valor": "Sistema de proteção contra quedas conforme 18.9.4.1 ou 18.9.4.2 (rampas e passarelas: em todo o perímetro)",
+      "norma": "NR-18",
+      "item": "18.8.6.1 b) e 18.8.7.1 b)",
+      "pagina": 16,
+      "nota": "A plataforma de descanso de escada fixa vertical (0,6 x 0,6 m) também exige proteção conforme 18.9.4.1/18.9.4.2 (18.8.6.2 f)."
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Andaimes (obra)",
+      "valor": "Sistema de proteção contra quedas em todo o perímetro conforme 18.9.4.1 ou 18.9.4.2, exceto no lado da face de trabalho",
+      "norma": "NR-18",
+      "item": "18.12.1 d)",
+      "pagina": 34
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Rampa de acesso à torre de elevador (obra)",
+      "valor": "Sistema de proteção contra quedas conforme 18.9.4.1 ou 18.9.4.2",
+      "norma": "NR-18",
+      "item": "18.11.15 a)",
+      "pagina": 32
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Plataforma flutuante (obra)",
+      "valor": "Guarda-corpo de proteção contra quedas (balaustrada) na periferia, conforme NORMAM-02/DPC; embarques, escadas e rampas com guarda-corpos e corrimão",
+      "norma": "NR-18",
+      "item": "18.15.2 e 18.15.4",
+      "pagina": 42
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Escadas de uso coletivo, rampas e passarelas (estaleiro)",
+      "valor": "Construção sólida, corrimão e rodapé",
+      "norma": "NR-34",
+      "item": "34.6.3.2",
+      "pagina": 8
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Patamar de escada marinheiro ≥ 6 m (estaleiro)",
+      "valor": "Patamar intermediário a cada 9 m, protegido por guarda-corpo e rodapé",
+      "norma": "NR-34",
+      "item": "34.6.3.11 b)",
+      "pagina": 9
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Aberturas nos pisos (andaimes — estaleiro)",
+      "valor": "Protegidas com guarda-corpo fixo e rodapé",
+      "norma": "NR-34",
+      "item": "34.11.11",
+      "pagina": 22,
+      "nota": "Possibilidade de queda para a face interna do andaime: prever guarda-corpo e rodapé (34.11.10)."
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Estrutura flutuante (estaleiro)",
+      "valor": "Guarda-corpos (balaustradas) ao redor de toda a estrutura, resistentes e firmemente fixados; podem ser removíveis durante o serviço, quando necessário",
+      "norma": "NR-34",
+      "item": "34.16.13",
+      "pagina": 31
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Passarela estabilizada (gangway) plataforma–embarcação",
+      "valor": "Via desobstruída, dotada de corrimãos e piso antiderrapante; passarela com fechamento lateral",
+      "norma": "NR-37",
+      "item": "37.11.7 a) e c)",
+      "pagina": 20,
+      "nota": "Rede de proteção contra quedas no entorno da base da passarela quando requerida na análise de riscos (37.11.7 d)."
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Desnível que exige guarda-corpo",
+      "valor": "Lado exposto de superfície de circulação/trabalho ≥ 600 mm acima da superfície adjacente, onde alguém possa cair",
+      "min": 600,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.1 i) e 4.1 i)",
+      "pagina": 19,
+      "nota": "Plataformas de trabalho > 600 mm também (Sec. 4, 6.1 ii)).",
+      "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#desnivel"
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Onde instalar balaustrada (railings)",
+      "valor": "Paralela ao convés, em bordas de convés, passarelas, escotilhas abertas, elevadores, plataformas: (i) queda ≥ 600 mm; (ii) risco de enredamento em máquinas; (iii) aberturas com braçola < 760 mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.3.1",
+      "pagina": 32,
+      "nota": "Guarda-corpo temporário pode ser usado em abertura desprotegida."
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Rodapé — onde exigir",
+      "valor": "Em passarelas elevadas, plataformas e rampas",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.1 v)",
+      "pagina": 19
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Desnível que exige guarda-corpo",
+      "valor": "Lado aberto de superfície ≥ 610 mm (24 in.) acima da adjacente, com risco de queda; 'lado aberto' = folga ≥ 76 mm (3 in.) até estrutura, equipamento ou parede",
+      "min": 610,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.11.1.1",
+      "pagina": 109,
+      "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#desnivel"
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Aberturas no piso/convés",
+      "valor": "Aberturas ≥ 305 mm (12 in.) deixadas abertas: guarda-corpo em volta enquanto existirem",
+      "min": 305,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.11.1.2",
+      "pagina": 109,
+      "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#abertura-piso"
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Aberturas em parede/antepara",
+      "valor": "> 762 mm (30 in.) de altura × 457 mm (18 in.) de largura, com queda possível ≥ 610 mm: guarda-corpo ou barreira equivalente",
+      "norma": "ASTM-F1166",
+      "item": "11.11.1.3",
+      "pagina": 110,
+      "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#abertura-parede"
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Junto a equipamentos perigosos",
+      "valor": "Qualquer altura: conveses, passarelas, plataformas ou rampas acima/ao lado de equipamentos, válvulas, tubulação ou outros perigos",
+      "norma": "ASTM-F1166",
+      "item": "11.11.1.4",
+      "pagina": 110
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Plataformas de trabalho",
+      "valor": "Lado exposto ≥ 610 mm (24 in.) acima da superfície adjacente; guarda-corpo conforme 11.11.2",
+      "min": 610,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.13.3",
+      "pagina": 114,
+      "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#desnivel"
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Desnível que exige guarda-corpo (máquinas)",
+      "valor": "Risco de queda de passarela ou plataforma de altura ≥ 500 mm: guarda-corpo conforme ISO 14122-3",
+      "min": 500,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.3",
+      "pagina": 15,
+      "nota": "Também onde houver risco de afundar ou de colapso de estrutura adjacente (ex.: tremonha de granel, telhado de vidro).",
+      "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#desnivel"
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Desnível que exige guarda-corpo (edificação)",
+      "valor": "Qualquer local de acesso livre a pessoas com desnível (D) maior do que 1,0 m entre o piso e o patamar abaixo",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "4.1 / Figura 2",
+      "pagina": 10,
+      "nota": "Figura 2 cota '> 1,00'. Rampa (talude) com ângulo ≤ 30°: guarda-corpo não obrigatório (Figura 3).",
+      "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#desnivel"
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Parapeito de esquadria com elemento de fechamento",
+      "valor": "É considerado guarda-corpo e deve ser ensaiado pela NBR 14718; ensaios horizontal e vertical com a largura total da esquadria; impacto no centro geométrico do elemento de fechamento (ex.: vidro) posicionado abaixo de 1,10 m",
+      "norma": "NBR-14718",
+      "item": "4.1",
+      "pagina": 12
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Fechamento de varandas / guarda-corpo + janela",
+      "valor": "O conjunto deve atender à NBR 14718 e à NBR 16259 (envidraçamento de sacada) ou NBR 10821-2; desempenho do conjunto é responsabilidade do projetista e do fornecedor do fechamento",
+      "norma": "NBR-14718",
+      "item": "4.2",
+      "pagina": 13
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Trabalho em altura — campo da NR-35",
+      "valor": "Atividade com diferença de nível acima de 2,0 m do nível inferior, onde haja risco de queda",
+      "min": 2000,
+      "unidade": "mm",
+      "norma": "NR-35",
+      "item": "35.2.1",
+      "pagina": 1,
+      "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#desnivel"
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Hierarquia de medidas (planejamento)",
+      "valor": "a) evitar o trabalho em altura; b) eliminar o risco de queda; c) minimizar as consequências da queda",
+      "norma": "NR-35",
+      "item": "35.5.2",
+      "pagina": 3
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Proteção coletiva × individual",
+      "valor": "SPQ obrigatório quando não for possível evitar o trabalho em altura; seleção: SPCQ, e SPIQ só se o SPCQ for impossível, não oferecer proteção completa ou para emergência",
+      "norma": "NR-35",
+      "item": "35.6.1 e 35.6.3",
+      "pagina": 5
+    },
+    {
+      "parametro": "Arranjo de corrimãos no projeto de acesso (PMA, offshore)",
+      "valor": "Arranjo de acesso e arranjo estrutural de stairs, ladders, platforms and handrails devem (should — recomendação) ser incorporados no início do projeto",
+      "item": "Ch.2 Sec.1 [3.1.3]",
+      "pagina": 20,
+      "nota": "PMA = Permanent Means of Access (SOLAS Ch.II-1 Reg.3-6; MODU code Ch.2 [2.2]).",
+      "grupo": "Quando é obrigatório",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "grupo": "Quando é obrigatório",
+      "parametro": "Desnível / vão que exige guarda-corpo (ISO 14122-3)",
+      "valor": "Queda possível > 500 mm; vão entre plataforma e máquina/parede > 200 mm (ou proteção da estrutura não equivalente); também junto a áreas com risco de afundar/atravessar",
+      "norma": "ISO-14122-3",
+      "item": "7.1.1; 7.1.2; 7.1.3",
+      "pagina": 11,
+      "nota": "Rodapé obrigatório quando o vão entre plataforma e estrutura adjacente > 30 mm (7.1.3).",
+      "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#vao-lateral"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Travessão superior",
+      "valor": "1,10 m a 1,20 m do piso, em toda a extensão, em ambos os lados",
+      "min": 1100,
+      "max": 1200,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 7 c)",
+      "pagina": 35,
+      "nota": "Meios de acesso anteriores à Portaria SIT 197/2010 (DOU 24/12/2010): mínimo 1,00 m (7.1).",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Travessão superior — forma",
+      "valor": "Não deve possuir superfície plana (evitar colocação de objetos)",
+      "norma": "NR-12",
+      "item": "Anexo III, 7 d)",
+      "pagina": 35
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Travessão intermediário",
+      "valor": "0,70 m do piso, entre o rodapé e o travessão superior",
+      "min": 700,
+      "max": 700,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 7 e)",
+      "pagina": 35,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#intermediario"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Barra superior — plataformas de abastecimento ou que acumulam sujidades (alternativa)",
+      "valor": "H entre 1000 mm e 1100 mm",
+      "min": 1000,
+      "max": 1100,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 9 / Figura 3",
+      "pagina": 37,
+      "nota": "Valor da legenda da Figura 3 (texto). Só para essas plataformas; nas demais vale 1,10–1,20 m (7 c).",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Barra intermediária — Figura 3",
+      "valor": "0,5 H; vão livre ≤ 500 mm entre barras (superior–intermediária e intermediária–rodapé)",
+      "max": 500,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, Figura 3",
+      "pagina": 37,
+      "nota": "Lido das cotas da Figura 3, não do texto.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#vao-barras"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Travessão superior (proteção com guarda-corpo e rodapé)",
+      "valor": "1,2 m de altura",
+      "min": 1200,
+      "max": 1200,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.9.4.2 a)",
+      "pagina": 19,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Travessão intermediário",
+      "valor": "0,7 m de altura",
+      "min": 700,
+      "max": 700,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.9.4.2 b)",
+      "pagina": 19,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#intermediario"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Anteparo rígido com fechamento total do vão",
+      "valor": "Altura mínima 1,2 m",
+      "min": 1200,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.9.4.1",
+      "pagina": 19,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Redes na periferia — sistema associado",
+      "valor": "Altura mínima 1,2 m, impedindo a queda de materiais e objetos",
+      "min": 1200,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.9.4.4.7",
+      "pagina": 20,
+      "nota": "Redes conforme EN 1263-1 e EN 1263-2 (18.9.4.4).",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Guarda-corpo de andaime (estaleiro)",
+      "valor": "Rígido, fixo, dois tubos metálicos horizontais a 0,70 m e 1,20 m do tablado",
+      "min": 1200,
+      "max": 1200,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.11.12 a)",
+      "pagina": 22,
+      "nota": "Travessão intermediário a 0,70 m do tablado. Em todo o perímetro, exceto na face de trabalho.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Guarda-corpo de andaime multidirecional (estaleiro)",
+      "valor": "Rígido, fixo, dois tubos metálicos horizontais a distância mínima de 0,50 m e 1,00 m do tablado",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.11.21 a)",
+      "pagina": 24,
+      "nota": "Travessão intermediário a no mínimo 0,50 m do tablado.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Plataforma para trabalho em altura < 2,00 m (estaleiro)",
+      "valor": "Guarda-corpo com altura mínima de 1,00 m e vãos inferiores a 50 cm",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.7.1 c)",
+      "pagina": 12,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Balaustrada de estrutura flutuante (estaleiro)",
+      "valor": "Altura mínima de um metro",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.16.13",
+      "pagina": 31,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Altura do guarda-corpo / corrimão de passarela",
+      "valor": "1070 mm (42 in.)",
+      "min": 1070,
+      "max": 1070,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 2 (F)",
+      "pagina": 20,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Altura da barra intermediária de passarela",
+      "valor": "500 mm (19.5 in.)",
+      "min": 500,
+      "max": 500,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 2 (G)",
+      "pagina": 20,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#intermediario"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Guarda-corpo com rodapé — altura",
+      "valor": "1070 mm (42.0 in.)",
+      "min": 1070,
+      "max": 1070,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.2 / Figura 11 (A)",
+      "pagina": 32,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Guarda-corpo com rodapé — barra intermediária acima do rodapé",
+      "valor": "425 mm (16.75 in.)",
+      "min": 425,
+      "max": 425,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.2 / Figura 11 (B)",
+      "pagina": 32,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#interm-rodape"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Borda de convés / passarela elevada — altura da balaustrada ou borda falsa",
+      "valor": "≥ 1070 mm (42 in.) do convés ao topo da barra",
+      "min": 1070,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.4 i) / Figura 12 (D)",
+      "pagina": 33,
+      "nota": "A cota da Figura 12 pressupõe corrimão de diâmetro 50 mm.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Borda de convés — vãos entre barras",
+      "valor": "Abertura abaixo da barra mais baixa ≤ 230 mm; demais barras com separação ≤ 380 mm",
+      "max": 380,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.4 ii) / Figura 12 (A, B)",
+      "pagina": 33,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#vao-inferior"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Plataforma de escada inclinada — altura do guarda-corpo",
+      "valor": "1070 mm (42.0 in.)",
+      "min": 1070,
+      "max": 1070,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 9 (I)",
+      "pagina": 30,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Guarda-corpo padrão FPSO Peregrino — altura e barras",
+      "valor": "1100 mm do topo do piso (T.O.S.); barras a 340 / 720 / 1100 mm (vãos 340 + 380 + 380)",
+      "min": 1100,
+      "max": 1100,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Desenho PE-FD-06-S-ST-20006-001 C3",
+      "pagina": 6,
+      "nota": "Lido das cotas do desenho padrão (não de texto). A spec (FPTS-31, 4.4) remete aos desenhos padrão de guarda-corpo, substituídos pelo 20006-001 na Rev. C1.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Altura do guarda-corpo fixo",
+      "valor": "1067 mm (42 in.) do piso ao EIXO do travessão superior",
+      "min": 1067,
+      "max": 1067,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.11.2",
+      "pagina": 110,
+      "nota": "A Fig. 107 cota 1066 mm.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Travessão intermediário",
+      "valor": "Um, a 457 mm (18 in.) abaixo do travessão superior (eixo a eixo)",
+      "min": 457,
+      "max": 457,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.11.2 / Fig. 107",
+      "pagina": 110,
+      "nota": "A Fig. 107 mostra 502 mm (19¾ in) do intermediário ao topo do rodapé — valor lido da figura.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#vao-barras"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Guarda-corpo especial (risco de ser levado pelo mar / gelo)",
+      "valor": "Topo 1067 mm (42 in.) do piso ao topo; 1º intermediário 394 mm (15.5 in.) abaixo; 2º intermediário 203 mm (8 in.) abaixo do 1º; rodapé 100 mm a 6 mm do piso",
+      "min": 1067,
+      "max": 1067,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.11.6.1 a 11.11.6.5",
+      "pagina": 111,
+      "nota": "Dimensões na Fig. 109.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Guarda-corpo de transição (mudança de nível)",
+      "valor": "Altura de 940 mm (37 in.) a 991 mm (39 in.) acima de cada degrau durante a transição",
+      "min": 940,
+      "max": 991,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.11.9",
+      "pagina": 111,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Locais sob a Convenção de Linhas de Carga (ICLL)",
+      "valor": "Três níveis; topo ≥ 1000 mm (39.5 in.) do convés; abertura abaixo do curso inferior ≤ 229 mm (9 in.); intermediário a ≤ 381 mm (15 in.) dos outros dois",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.11.10",
+      "pagina": 111,
+      "nota": "Requisitos estatutários prevalecem sobre a F1166.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Acesso à proa de petroleiros — balaustrada",
+      "valor": "≥ 3 cursos: inferior ≤ 229 mm (9 in.), superior ≥ 1016 mm (40 in.) acima da passarela, aberturas intermediárias ≤ 381 mm (15 in.); montantes a ≤ 1524 mm (60 in.); com rodapé",
+      "min": 1016,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.12.5.2",
+      "pagina": 113,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#vao-inferior"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Guarda-corpo junto a fresta de 120–180 mm (máquinas)",
+      "valor": "Rodapé + corrimão (ISO 14122-3) ou estrutura equivalente com altura de 900 mm a 1100 mm",
+      "min": 900,
+      "max": 1100,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.4.5.2 a)",
+      "pagina": 16,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Altura mínima em relação à ZEN",
+      "valor": "≥ 1,10 m",
+      "min": 1100,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "4.4.1.1 / Figura 4",
+      "pagina": 14,
+      "nota": "Figura 4: recuo da mureta > 0,10 m.",
+      "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#H"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Guarda-corpo sobre/ao lado de mureta com espaço interno ≤ 0,10 m",
+      "valor": "H ≥ 1,10 m em relação à ZEN e APR ≥ 0,90 m acima da face superior da mureta",
+      "min": 900,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "4.4.1.2 / Figura 5",
+      "pagina": 15,
+      "nota": "min = APR (900 mm). Espaço interno = entre a face do elemento de fechamento e a face interna da mureta.",
+      "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#APR"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Mureta com altura > 0,70 m",
+      "valor": "A APR mínima não existe; altura mínima requerida H > 1,10 m (Figura 5-a)",
+      "min": 1100,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "4.4.1.2",
+      "pagina": 15,
+      "nota": "O texto usa 'H > 1,10 m' aqui e '≥ 1,10 m' em 4.4.1.1 e 3.1.",
+      "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#mureta"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Prolongamento na mudança de nível da zona de recepção (ZR)",
+      "valor": "Se a ZR tiver desnível > 0,10 m: prolongar o guarda-corpo no mínimo 0,30 m após o término do nível superior (não aplicável a escadas ou rampas)",
+      "min": 300,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "4.4.1.3 / Figura 6",
+      "pagina": 16,
+      "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#prolongamento"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Escada — distância do corrimão ao elemento horizontal abaixo",
+      "valor": "≤ 0,18 m",
+      "max": 180,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "4.4.4.2 / Figura 11",
+      "pagina": 19,
+      "nota": "Lido da Figura 11 (cota sem texto correspondente). A figura também mostra H medido a partir da ZEP (degrau) e APR ao longo do lance.",
+      "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#corrimao-travessa"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Altura do corrimão (A) — guarda-corpo em PRFV (óleo e gás)",
+      "valor": "1 100 mm",
+      "min": 1100,
+      "max": 1100,
+      "unidade": "mm",
+      "norma": "NBR-15708-2",
+      "item": "5, Figura 2 (legenda A)",
+      "pagina": 9,
+      "nota": "Valor da legenda da Figura 2, sem tolerância nem indicação de mínimo; repetido nas cinco formas de fixação da Figura 3. Medido do piso ao topo do corrimão (cota da figura).",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Travessa (barra intermediária) — quantidade e posição",
+      "valor": "No mínimo uma travessa, a uma distância equivalente do corrimão e do rodapé (tipo barra grega)",
+      "norma": "NBR-15708-2",
+      "item": "5",
+      "pagina": 8,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#intermediario"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Altura da travessa em relação ao piso (B)",
+      "valor": "700 mm, localizada entre o rodapé tipo barra grega e o corrimão",
+      "min": 700,
+      "max": 700,
+      "unidade": "mm",
+      "norma": "NBR-15708-2",
+      "item": "5, Figura 2 (legenda B)",
+      "pagina": 9,
+      "nota": "C (altura da travessa em relação ao corrimão) não tem valor na legenda; por diferença, C = 1 100 − 700 = 400 mm (cálculo, não texto da norma). Ver nota de ambiguidades: 700 mm não é o ponto médio entre o topo do rodapé (200 mm) e o corrimão (1 100 mm). Nas Figuras 3 a)–c) e e) a seta de B parte de uma linha 10 mm acima da base da cota de 1 100 mm, embora a legenda da Figura 2 diga 'em relação ao piso'.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#intermediario"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Corrimão e travessa — forma da seção",
+      "valor": "Não podem possuir superfícies planas, a fim de evitar a colocação de objetos",
+      "norma": "NBR-15708-2",
+      "item": "5",
+      "pagina": 9,
+      "nota": "Texto incluído pela Emenda 1 (24.11.2015)."
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Altura mínima do guarda-corpo (ISO 14122-3)",
+      "valor": "1100 mm",
+      "min": 1100,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "7.1.4",
+      "pagina": 11,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+      "grupo": "Alturas e travessões",
+      "parametro": "Travessão intermediário (ISO 14122-3)",
+      "valor": "Pelo menos um travessão ou proteção equivalente; vão livre corrimão–travessão e travessão–rodapé ≤ 500 mm",
+      "max": 500,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "7.1.5",
+      "pagina": 11,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#intermediario"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé (meios de acesso a máquinas)",
+      "valor": "≥ 0,20 m de altura",
+      "min": 200,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 7 e)",
+      "pagina": 35,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Barra-rodapé — Figura 3 (plataformas de abastecimento/sujidades)",
+      "valor": "Altura do topo do rodapé ≥ 75 mm sobre a plataforma; folga entre plataforma e rodapé ≤ 50 mm; rodapé afastado ≤ 50 mm da borda",
+      "min": 75,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, Figura 3",
+      "pagina": 36,
+      "nota": "Lido das cotas da Figura 3 (≥75, ≤50). O rodapé pode ser chapa ou barra redonda (detalhe X). Leitura de figura: confirmar com o revisor.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé (proteção de periferia / guarda-corpo)",
+      "valor": "≥ 0,15 m, rente à superfície; resistência à carga horizontal de 22 kgf/m",
+      "min": 150,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.9.4.2 c)",
+      "pagina": 19,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé de plataforma de trabalho com piso > 1,00 m (estaleiro)",
+      "valor": "20 cm de altura",
+      "min": 200,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.7.1 d)",
+      "pagina": 12,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé de andaime (estaleiro)",
+      "valor": "≥ 20 cm, junto à prancha",
+      "min": 200,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.11.12 b)",
+      "pagina": 22,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé de andaime multidirecional (estaleiro)",
+      "valor": "≥ 15 cm, junto ao piso",
+      "min": 150,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.11.21 b)",
+      "pagina": 24,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé (toeboard) de passarelas",
+      "valor": "100 mm de altura; folga ao piso ≤ 6 mm",
+      "min": 100,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.3.2",
+      "pagina": 20,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé (toeboard) com guarda-corpo",
+      "valor": "100 mm de altura; folga ao piso 6 mm",
+      "min": 100,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.2 / Figura 11 (D, E)",
+      "pagina": 32,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé em borda de convés / passarela elevada",
+      "valor": "≥ 100 mm; folga ao piso ≤ 6 mm",
+      "min": 100,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.4 iii) / Figura 12 (E)",
+      "pagina": 33,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé (kick plate) padrão FPSO Peregrino",
+      "valor": "Barra chata FB 100 x 6, na linha de centro do tubo; dispensado se houver braçola (coaming)",
+      "min": 100,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Desenho PE-FD-06-S-ST-20006-001 C3",
+      "pagina": 6,
+      "nota": "Lido do desenho. Nas seções A-A/B-B o rodapé fica com folga de 20 mm acima do topo da chapa/grade.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé (toeboard)",
+      "valor": "102 mm (4 in.), a 6 mm (¼ in.) acima do piso",
+      "min": 102,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.11.2",
+      "pagina": 110,
+      "nota": "Em 11.11.6.5 (guarda-corpo especial) o rodapé é de 100 mm (4 in.) a 6 mm do piso.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé (toe-plate) — fresta entre plataforma e estrutura adjacente > 20 mm",
+      "valor": "Rodapé com altura ≥ 100 mm, ou reduzir a fresta a ≤ 20 mm com chapa de fechamento (baseboard)",
+      "min": 100,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.4.5.2",
+      "pagina": 16,
+      "nota": "Frestas > 20 mm e ≤ 120 mm: rodapé ≥ 100 mm, que pode ser reduzido localmente a ≥ 50 mm junto a obstrução (ex.: tubo — Figura 2). > 180 mm: guarda-corpo conforme ISO 14122-3:2016, cláusula 7.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé reduzido localmente junto a obstrução",
+      "valor": "≥ 50 mm",
+      "min": 50,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.4.5.2 / Figura 2",
+      "pagina": 16,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape-reduzido"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Barreira contra queda de objetos (rodapé ou mureta)",
+      "valor": "Barreira que impeça a passagem de uma esfera de Ø 0,05 m rolando pelo piso, em toda a extensão do guarda-corpo; sem mureta ou rodapé na edificação, o guarda-corpo deve ter um elemento que evite a passagem da esfera",
+      "max": 50,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "4.4.2.5",
+      "pagina": 18,
+      "nota": "A NBR 14718 não fixa altura de rodapé — o critério é a esfera de 50 mm junto ao piso. Abertura junto ao piso deve ser < 50 mm (a esfera não pode passar).",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé tipo barra grega — altura (D)",
+      "valor": "200 mm, altura mínima do rodapé tipo barra grega",
+      "min": 200,
+      "unidade": "mm",
+      "norma": "NBR-15708-2",
+      "item": "5, Figura 2 (legenda D)",
+      "pagina": 9,
+      "nota": "Na Figura 2 a cota '200' está no rodapé e a letra D aparece numa cota separada logo abaixo da linha do piso — leitura de figura ambígua; vale a legenda (D = 200 mm mínimo). A Figura 3 rotula 'Barra grega de 200 mm'.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Folga entre o piso e o rodapé (barra grega) — fixações a), b), c), e)",
+      "valor": "10 mm",
+      "min": 10,
+      "max": 10,
+      "unidade": "mm",
+      "norma": "NBR-15708-2",
+      "item": "5.2, Figura 3",
+      "pagina": 10,
+      "nota": "Lido das cotas da Figura 3, sem texto correspondente. 'Folga rodapé–piso' é interpretação do desenho (não há texto na norma). Em c) e e) a cota de 10 mm vai do piso até a base de B; em a) e b) o desenho é inconsistente (base de B no topo da grade, 1 100 mm partindo 10 mm abaixo).",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#folga-rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Folga entre o piso e o rodapé (barra grega) — fixação d) (sapata de fibra de vidro sobre concreto)",
+      "valor": "90 mm, do topo do concreto até a base do perfil da barra grega (acima da sapata e dos parafusos)",
+      "min": 90,
+      "max": 90,
+      "unidade": "mm",
+      "norma": "NBR-15708-2",
+      "item": "5.2, Figura 3",
+      "pagina": 10,
+      "nota": "Lido da Figura 3 d), sem texto correspondente; em d) as cotas de 1 100 mm e B partem do topo do concreto. 'Folga rodapé–piso' é interpretação do desenho.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#folga-rodape"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé — carga de ensaio (H4)",
+      "valor": "400 N, horizontal, ao centro do rodapé (ponto H4), por 10 min à temperatura ambiente; sem trincas ou delaminação nos perfis, insertos ou conexões após a retirada",
+      "norma": "NBR-15708-2",
+      "item": "6.1.2",
+      "pagina": 13,
+      "min": 400,
+      "max": 400,
+      "unidade": "N"
+    },
+    {
+      "grupo": "Rodapé",
+      "parametro": "Rodapé (toe-plate) (ISO 14122-3)",
+      "valor": "Altura ≥ 100 mm, a no máximo 10 mm do piso e da borda da plataforma",
+      "min": 100,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "7.1.7, Figura 4",
+      "pagina": 12,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Diâmetro da barra superior — Figura 3",
+      "valor": "25 mm ≤ x ≤ 38 mm",
+      "min": 25,
+      "max": 38,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, Figura 3",
+      "pagina": 36,
+      "nota": "Lido das cotas da Figura 3 (25 ≤ x ≤ 38).",
+      "cota": "esquemas/guarda-corpo-corte-borda.svg#diametro"
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Diâmetro externo do corrimão",
+      "valor": "40 mm a 50 mm",
+      "min": 40,
+      "max": 50,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 2 (E) e Figura 11 (C)",
+      "pagina": 20,
+      "nota": "Também na Figura 11 (C).",
+      "cota": "esquemas/guarda-corpo-corte-borda.svg#diametro"
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Seção do corrimão superior",
+      "valor": "Barra redonda ou tubo",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.1 iv)",
+      "pagina": 32,
+      "nota": "Em escadas: seção circular Ø 40–50 mm; quadrado/retangular proibido (1.6 i–ii)."
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Folga atrás do corrimão até antepara/obstáculo",
+      "valor": "≥ 75 mm",
+      "min": 75,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 2 (B)",
+      "pagina": 20,
+      "cota": "esquemas/guarda-corpo-corte-borda.svg#folga-obstaculo"
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Corrimão de escada — altura",
+      "valor": "915 mm a 1000 mm acima do piso do degrau (no bocel); two-tier: duas barras igualmente espaçadas",
+      "min": 915,
+      "max": 1000,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.6 iii) e iv)",
+      "pagina": 19,
+      "nota": "Escada com ≥ 3 degraus exige corrimão (1.5 / Tabela 1): lado com antepara corrimão simples; lado aberto corrimão de dois níveis. Detalhes na ficha escada-degraus.",
+      "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#corrimao-escada"
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Corrimão de tempestade (storm rail) — onde",
+      "valor": "Em todos os corredores internos com acesso normal; nos dois lados se o corredor tiver largura ≥ 1830 mm",
+      "min": 1830,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.3.2 i)",
+      "pagina": 33
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Corrimão de tempestade (storm rail) — altura",
+      "valor": "865 mm a 965 mm",
+      "min": 865,
+      "max": 965,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.3.2 ii)",
+      "pagina": 33,
+      "nota": "Folga até qualquer obstáculo ≥ 75 mm.",
+      "cota": "esquemas/guarda-corpo-corte-borda.svg#storm"
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Tubo do guarda-corpo padrão FPSO Peregrino",
+      "valor": "Tubo Ø 48 x 5 (montantes e barras); curvas R100",
+      "min": 48,
+      "max": 48,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Desenho PE-FD-06-S-ST-20006-001 C3",
+      "pagina": 6,
+      "nota": "Lido do desenho. Removível: montante Ø48 em luva Ø60 x 4 com 150 mm de encaixe e parafuso M12 (seção C-C).",
+      "cota": "esquemas/guarda-corpo-corte-borda.svg#diametro"
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Tubo do guarda-corpo",
+      "valor": "Tubo de aço NPS 38 mm (1½ in.) Schedule 40; não usar seção quadrada",
+      "norma": "ASTM-F1166",
+      "item": "11.11.1.6 / 11.11.1.7",
+      "pagina": 110,
+      "nota": "38 mm (1½ in.) é o diâmetro NOMINAL (NPS 1½ / DN 40): tubo Sch 40 = Ø externo 48,3 × 3,68 mm (1.90 in × 0.145 in, como cotado na Fig. 96).",
+      "cota": "esquemas/guarda-corpo-corte-borda.svg#diametro"
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Folga entre o travessão superior e obstrução",
+      "valor": "≥ 76 mm (3 in.)",
+      "min": 76,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 107",
+      "pagina": 119,
+      "nota": "Lido da figura (não do texto).",
+      "cota": "esquemas/guarda-corpo-corte-borda.svg#folga-obstaculo"
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Corrimão de escada — altura",
+      "valor": "914 mm a 991 mm (36 a 39 in.), preferida 940 mm, do eixo do corrimão ao degrau",
+      "min": 914,
+      "max": 991,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.11.1 (1)",
+      "pagina": 99,
+      "nota": "Ver ficha Escada de degraus.",
+      "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#corrimao-escada"
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Descontinuidade (folga) no corrimão — quando exigida pelo projeto",
+      "valor": "Não pode ser inferior a 75 mm nem superior a 120 mm",
+      "min": 75,
+      "max": 120,
+      "unidade": "mm",
+      "norma": "NBR-15708-2",
+      "item": "5 e Figura 2",
+      "pagina": 9,
+      "nota": "Se não for possível evitar descontinuidade > 120 mm, instalar peça de fechamento.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#folga-segmentos"
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Guarda-corpo de escada — descontinuidades",
+      "valor": "O guarda-corpo de escadas não pode apresentar descontinuidades",
+      "norma": "NBR-15708-2",
+      "item": "5",
+      "pagina": 9
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Corrimão — seção/diâmetro",
+      "valor": "Não especificado na NBR 15708-2 (apenas: sem superfícies planas); perfis conforme o projeto e a NBR 15708-1",
+      "norma": "NBR-15708-2",
+      "item": "5",
+      "pagina": 9
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Interrupção do corrimão (ISO 14122-3)",
+      "valor": "Vão entre segmentos: não menos de 75 mm nem mais de 120 mm (should); acima disso, portão de fechamento automático",
+      "min": 75,
+      "max": 120,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "7.1.9, Figura 5",
+      "pagina": 12,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#folga-segmentos"
+    },
+    {
+      "grupo": "Corrimão (seção, diâmetro, folgas)",
+      "parametro": "Pontas do corrimão (ISO 14122-3)",
+      "valor": "Sem arestas cortantes nem risco de prender a roupa",
+      "norma": "ISO-14122-3",
+      "item": "7.1.11",
+      "pagina": 12
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Afastamento horizontal entre barras e borda da plataforma — Figura 3",
+      "valor": "≤ 50 mm",
+      "max": 50,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, Figura 3",
+      "pagina": 36,
+      "nota": "Lido das cotas da Figura 3.",
+      "cota": "esquemas/guarda-corpo-corte-borda.svg#afastamento-borda"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Vão entre montantes (stanchions) — passarela",
+      "valor": "≤ 2,4 m (8 ft)",
+      "max": 2400,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 2 (D)",
+      "pagina": 20,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#montantes"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Espaçamento de montantes — borda de convés / passarela elevada",
+      "valor": "≤ 1525 mm (60 in.)",
+      "max": 1525,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.4 iv) / Figura 12 (C)",
+      "pagina": 33,
+      "nota": "Pelo menos a cada terceiro montante, um suporte (bracket ou escora) — 4.4 v).",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#montantes"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Folga entre trechos de corrimão / membros",
+      "valor": "≤ 50 mm",
+      "max": 50,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 2 (C)",
+      "pagina": 20,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#folga-segmentos"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Distância máxima entre montantes adjacentes através de uma folga do corrimão",
+      "valor": "≤ 350 mm",
+      "max": 350,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 2 (H)",
+      "pagina": 20,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#montantes-folga"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Montantes, escoras e suportes",
+      "valor": "Montante em barra chata ou redonda; escoras sem obstruir a passagem; suportes de fixação orientados para não causar tropeço (paralelos à passarela)",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.1 ii), iii) e v)",
+      "pagina": 31
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Montantes padrão FPSO Peregrino",
+      "valor": "Centros de montantes ≤ 1500 mm; painel duplo ≤ 3000 mm; folga entre painéis 150 mm; painel de asa (wing) ≤ 600 mm",
+      "max": 1500,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Desenho PE-FD-06-S-ST-20006-001 C3",
+      "pagina": 6,
+      "nota": "Lido do desenho. Montante fixado ao topo (seção A-A, solda 5 mm) ou lateral com chapa de reforço 9 mm e 150 mm abaixo do T.O.S. (seção B-B).",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#montantes"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Distância do eixo do guarda-corpo à borda externa do piso",
+      "valor": "≤ 64 mm (2.5 in.); face interna alinhada com a borda externa da plataforma/grating",
+      "max": 64,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.11.3 / 11.11.5",
+      "pagina": 110,
+      "cota": "esquemas/guarda-corpo-corte-borda.svg#afastamento-borda"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Vão entre montantes",
+      "valor": "≤ 2440 mm (96 in.)",
+      "max": 2440,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 107",
+      "pagina": 119,
+      "nota": "Lido da figura (não do texto).",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#montantes"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Abertura máxima desprotegida entre guarda-corpos adjacentes",
+      "valor": "≤ 152 mm (6 in.)",
+      "max": 152,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.11.8",
+      "pagina": 111,
+      "cota": "esquemas/guarda-corpo-elevacao.svg#folga-segmentos"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Guarda-corpo removível",
+      "valor": "Dimensões conforme Fig. 108",
+      "norma": "ASTM-F1166",
+      "item": "11.11.4",
+      "pagina": 110
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Vão-luz entre perfis verticais",
+      "valor": "Não deve ser superior a 0,11 m",
+      "max": 110,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "4.4.2.1 / Figura 7",
+      "pagina": 16,
+      "nota": "Figura 7 mostra também folga ≤ 0,11 m entre o piso e a travessa inferior (cota de figura).",
+      "cota": "esquemas/guarda-corpo-edificacao-vaos.svg#vao-vertical"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Espaçamento entre perfis ou elementos horizontais",
+      "valor": "Não pode exceder 0,11 m",
+      "max": 110,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "4.4.2.2 / Figura 8",
+      "pagina": 16,
+      "nota": "Ver Figura 8.",
+      "cota": "esquemas/guarda-corpo-edificacao-vaos.svg#vao-horizontal"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Elementos escaláveis (apoios para escalada)",
+      "valor": "Prever componente de fechamento no lado interno na medida em que haja apoios que permitam a escalada até a altura de 0,45 m, inclusive em desenhos ornamentais",
+      "norma": "NBR-14718",
+      "item": "4.4.2.2 / Figura 8",
+      "pagina": 16,
+      "nota": "Figura 8 mostra o fechamento cheio na faixa ≤ 0,45 m acima do piso, folga ≤ 0,11 m sob ele e barras horizontais com x ≤ 0,11 m acima (cotas de figura).",
+      "cota": "esquemas/guarda-corpo-edificacao-vaos.svg#faixa-escalavel"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Guarda-corpo com desenho ornamental — gabarito prismático",
+      "valor": "As folgas entre perfis não podem permitir a passagem do gabarito prismático (Figura 9-b): prisma hexagonal 0,255 m (altura) × 0,185 m (largura), aresta da base 0,115 m, espessura 0,115 m",
+      "norma": "NBR-14718",
+      "item": "4.4.2.3 / Figura 9",
+      "pagina": 17,
+      "nota": "Dimensões do gabarito lidas da Figura 9-b (não do texto). O mesmo gabarito avalia a ruptura no ensaio de impacto (5.3 e C.4.3).",
+      "cota": "esquemas/guarda-corpo-edificacao-vaos.svg#vao-vertical"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Guarda-corpo em plano avançado em relação à borda do pavimento",
+      "valor": "Avanço medido na horizontal a partir do limite exterior ≤ 0,05 m; o espaço entre o elemento horizontal inferior e a borda exterior do pavimento não pode deixar passar esfera de Ø 0,09 m",
+      "max": 50,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "4.4.2.4 / Figura 10",
+      "pagina": 17,
+      "nota": "Ver Figura 10. max = avanço (50 mm); esfera = 90 mm.",
+      "cota": "esquemas/guarda-corpo-edificacao-vaos.svg#avanco"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Escada — afastamento do último elemento horizontal à aresta exterior do piso (degraus)",
+      "valor": "≤ 0,05 m; demais afastamentos como em 4.4.2",
+      "max": 50,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "4.4.4.2 / Figura 11",
+      "pagina": 19,
+      "nota": "Figura 11 mostra também vão ≤ 0,11 m entre balaústres e ≤ 0,11 m entre a travessa inferior e o patamar (cotas de figura).",
+      "cota": "esquemas/guarda-corpo-edificacao-alturas.svg#afastamento-aresta"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Espaçamento entre montantes (E) — PRFV",
+      "valor": "1 500 mm (máximo)",
+      "max": 1500,
+      "unidade": "mm",
+      "norma": "NBR-15708-2",
+      "item": "5, Figura 2 (legenda E)",
+      "pagina": 9,
+      "nota": "Para o painel típico de ensaio, E = 1 000 mm (NOTA da Figura 2).",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#montantes"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Montante — elemento de reforço interno",
+      "valor": "Montantes com elemento de reforço interno (evita esmagamento na região da fixação); elementos de reforço interno e conexões devem ser em compósito",
+      "norma": "NBR-15708-2",
+      "item": "3.3 e 5.1",
+      "pagina": 9
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Guarda-corpo de escada — cota de 1 000 mm entre montantes",
+      "valor": "1 000",
+      "unidade": "mm",
+      "norma": "NBR-15708-2",
+      "item": "Figura 2",
+      "pagina": 9,
+      "nota": "Lido da Figura 2: cota de 1 000 mm entre dois montantes no trecho inclinado (escada), medida na horizontal. A legenda não define esta cota — tratar como indicativa.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#montantes"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Balaústres verticais em vez de travessão (ISO 14122-3)",
+      "valor": "Vão horizontal livre ≤ 180 mm",
+      "max": 180,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "7.1.6",
+      "pagina": 11,
+      "cota": "esquemas/guarda-corpo-edificacao-vaos.svg#vao-vertical"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Distância entre montantes (ISO 14122-3)",
+      "valor": "De preferência ≤ 1500 mm entre eixos; se maior, atenção à resistência da ancoragem e fixações",
+      "max": 1500,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "7.1.8",
+      "pagina": 12,
+      "nota": "Preferência, não limite obrigatório.",
+      "cota": "esquemas/guarda-corpo-elevacao.svg#montantes"
+    },
+    {
+      "grupo": "Montantes e vãos",
+      "parametro": "Portão (ISO 14122-3)",
+      "valor": "Acesso pelo guarda-corpo só com portão de fechamento automático, com corrimão e travessão no mesmo nível do guarda-corpo, abrindo para dentro da plataforma e fechando contra batente firme; mesmas cargas do guarda-corpo",
+      "norma": "ISO-14122-3",
+      "item": "7.1.10",
+      "pagina": 12
+    },
+    {
+      "grupo": "Fechamento / tela",
+      "parametro": "Risco de queda de objetos",
+      "valor": "Vão entre rodapé e travessão superior com proteção fixa, integral e resistente; pode ser tela cuja malha não deixe passar objeto que cause lesão",
+      "norma": "NR-12",
+      "item": "Anexo III, 8 e 8.1",
+      "pagina": 35
+    },
+    {
+      "grupo": "Fechamento / tela",
+      "parametro": "Vãos entre travessas (proteção de periferia)",
+      "valor": "Preenchidos com tela ou outro dispositivo que garanta o fechamento seguro da abertura",
+      "norma": "NR-18",
+      "item": "18.9.4.2 d)",
+      "pagina": 20
+    },
+    {
+      "grupo": "Fechamento / tela",
+      "parametro": "Andaime simplesmente apoiado em fachada (obra)",
+      "valor": "Revestido externamente por tela, da primeira plataforma de trabalho até 2 m acima da última",
+      "min": 2000,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.12.15 e 18.12.15.1",
+      "pagina": 36
+    },
+    {
+      "grupo": "Fechamento / tela",
+      "parametro": "Material do guarda-corpo de plataformas elevatórias (estaleiro)",
+      "valor": "Atender ao item 34.11.16 e às especificações do fabricante; não é permitido corda, cabo, corrente ou outro material flexível (inclusive nas extensões telescópicas)",
+      "norma": "NR-34",
+      "item": "34.6.5.22",
+      "pagina": 11,
+      "nota": "O 34.11.16 trata do piso do andaime — provável remissão desatualizada; ver 34.11.12 e 34.11.21."
+    },
+    {
+      "grupo": "Fechamento / tela",
+      "parametro": "Corrente ou cabo de aço como guarda-corpo",
+      "valor": "Não usar corrente ou cabo de aço em borda de convés ou passarela elevada",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.4 vi)",
+      "pagina": 33
+    },
+    {
+      "grupo": "Fechamento / tela",
+      "parametro": "Degelo",
+      "valor": "Prover meios de degelo de guarda-corpos e dispositivos de segurança de escalada",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 4.1 (último parágrafo)",
+      "pagina": 32
+    },
+    {
+      "grupo": "Fechamento / tela",
+      "parametro": "Material empilhado junto ao guarda-corpo",
+      "valor": "Se o material puder passar acima do rodapé: tela, malha expandida ou rede entre as barras até a altura do material",
+      "norma": "ASTM-F1166",
+      "item": "11.11.7",
+      "pagina": 111
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Resistência geral",
+      "valor": "Dimensionado, construído e fixado de modo seguro e resistente para os esforços solicitantes; material resistente a intempéries e corrosão",
+      "norma": "NR-12",
+      "item": "Anexo III, 7 a) e b)",
+      "pagina": 34,
+      "nota": "A NR-12 não fixa valor numérico de carga."
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Travessão superior — carga horizontal e deflexão",
+      "valor": "90 kgf/m; deflexão máxima 0,076 m",
+      "max": 76,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.9.4.2 a)",
+      "pagina": 19,
+      "nota": "max = deflexão (76 mm).",
+      "cota": "esquemas/guarda-corpo-cargas.svg#deflexao"
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Travessão intermediário — carga horizontal",
+      "valor": "66 kgf/m",
+      "norma": "NR-18",
+      "item": "18.9.4.2 b)",
+      "pagina": 19
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Rodapé — carga horizontal",
+      "valor": "22 kgf/m",
+      "norma": "NR-18",
+      "item": "18.9.4.2 c)",
+      "pagina": 19
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Guarda-corpo — carga na barra superior",
+      "valor": "Cargas previstas, mas não menos que 90 kg (200 lbs) em qualquer ponto e em qualquer direção",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.2.1",
+      "pagina": 19,
+      "nota": "Mesmo valor para plataformas de trabalho (6.2.1). Se bandeira/autoridade exigir mais, prevalece o maior (2.2)."
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Carga lateral no travessão superior",
+      "valor": "≥ 200 lb em qualquer ponto e em qualquer direção",
+      "norma": "ASTM-F1166",
+      "item": "11.11.1.5",
+      "pagina": 110,
+      "nota": "A norma só dá o valor em lb (200 lb ≈ 91 kg ≈ 0,89 kN — conversão nossa)."
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Cargas horizontais de ensaio (Tabela 1) — uso privativo e áreas técnicas",
+      "valor": "Carga de uso 400 a 1 000 N/m e carga de segurança 680 a 1 500 N/m, conforme nº de pavimentos (2 a 30; altura máx. 6 a 90 m) e região do país (I a V)",
+      "norma": "NBR-14718",
+      "item": "4.1, Tabela 1",
+      "pagina": 12,
+      "nota": "Tabela completa abaixo. Regiões I–V definidas na NBR 10821-2:2017, Figura 4."
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Cargas horizontais de ensaio (Tabela 1) — uso coletivo, médio tráfego (≤ 2 500 pessoas)",
+      "valor": "Carga de uso 1 000 N/m; carga de segurança 1 700 N/m (2 a 30 pavimentos, regiões I a V)",
+      "norma": "NBR-14718",
+      "item": "4.1, Tabela 1",
+      "pagina": 12
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Cargas horizontais de ensaio (Tabela 1) — uso coletivo, alto tráfego (> 2 500 pessoas)",
+      "valor": "Carga de uso 1 800 N/m; carga de segurança 3 000 N/m (2 a 30 pavimentos, regiões I a V)",
+      "norma": "NBR-14718",
+      "item": "4.1, Tabela 1",
+      "pagina": 12
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Carga de segurança × carga de uso",
+      "valor": "Carga de segurança equivalente a 1,7 vez a carga de uso, conforme a Tabela 1",
+      "norma": "NBR-14718",
+      "item": "5.1.2",
+      "pagina": 20,
+      "nota": "ATENÇÃO: várias linhas da Tabela 1 não são exatamente 1,7 × uso (ex.: 450 → 680; 600 → 800; 1 800 → 3 000). Usar o valor tabelado."
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Conversão adotada",
+      "valor": "10 N = 1 kgf",
+      "norma": "NBR-14718",
+      "item": "5.1.2, NOTA",
+      "pagina": 20,
+      "nota": "Mesma NOTA em 5.2."
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Guarda-corpo externo — vento",
+      "valor": "Considerar a pressão de vento do local: pressão de projeto (Pp) pela NBR 6123, pressão de ensaio (Pe) e de segurança (Ps), prevalecendo como mínimo a NBR 10821-2:2017, Tabela 1 — obrigatório para edifícios onde o guarda-corpo não pode ser vertical, de forma não retangular ou com condições especiais",
+      "norma": "NBR-14718",
+      "item": "4.1 a) a c)",
+      "pagina": 11,
+      "nota": "Edifícios ensaiados em túnel de vento: a pressão resultante é a Ps."
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Carga vertical de ensaio",
+      "valor": "Carga de segurança da Tabela 1, aplicada sobre o elemento superior (peitoril)",
+      "norma": "NBR-14718",
+      "item": "B.4.7",
+      "pagina": 29
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Requisitos do SPQ (inclui guarda-corpo)",
+      "valor": "Resistir à força máxima aplicável prevista numa queda; atender às normas técnicas nacionais (ou internacionais, na falta delas) vigentes na fabricação; elementos compatíveis e com inspeção sistemática",
+      "norma": "NR-35",
+      "item": "35.6.2 d), e) e f)",
+      "pagina": 5
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Projeto do SPCQ",
+      "valor": "Projetado por profissional legalmente habilitado",
+      "norma": "NR-35",
+      "item": "35.6.3.1",
+      "pagina": 5
+    },
+    {
+      "parametro": "Guarda-corpo / corrimão em unidade offshore (DNV-OS-C101)",
+      "valor": "Sem carga especificada; proteção da tripulação em gangways, walkways e passageways coberta pela International Convention on Load Lines (ICLL)",
+      "item": "Ch.2 Sec.6 [5.1.1]",
+      "pagina": 127,
+      "nota": "Guidance: requisitos também em DNV-RU-SHIP Pt.3 Ch.11 Sec.3 [3] (não disponível no acervo consultado). A edição 2019 também não traz carga de guarda-corpo.",
+      "grupo": "Cargas de projeto",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Fator parcial de carga γf para carga variável (LRFD, ULS)",
+      "valor": "Q: 1.2 na combinação a) (1.3 se a carga não for bem definida (em unidade flutuante G e Q são consideradas bem definidas → 1.2; guidance da nota 1)); 1.0 na combinação b); FLS/ALS 1.0",
+      "item": "Ch.2 Sec.1 [1.3.3.2], Table 1",
+      "pagina": 16,
+      "nota": "Fd = γf·Fk. Interpretação (não da norma): útil para converter cargas características de outras normas (ex. 90 kg do ABS) em carga de projeto LRFD. Edição 2019: 1.3.",
+      "grupo": "Cargas de projeto",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "grupo": "Cargas de projeto",
+      "parametro": "Carga de serviço (ISO 14122-3)",
+      "valor": "Carga pontual horizontal não fatorada F = 300 N/m × maior distância entre eixos de montantes (m), no topo do montante e no ponto mais desfavorável do corrimão; flecha sob carga ≤ 30 mm; sem deformação permanente perceptível",
+      "max": 30,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "7.3",
+      "pagina": 15,
+      "nota": "NOTA 1: aumentar F conforme o uso, sem exceder a flecha. Ex. (cálculo, não da norma): montantes a 1,5 m → F = 450 N."
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Protótipo e sequência de ensaios",
+      "valor": "No mínimo um protótipo representando a situação mais crítica (vãos e fixação), instalado como em projeto; sequência no mesmo protótipo: esforço estático horizontal → esforço estático vertical → impacto (Anexos A a C)",
+      "norma": "NBR-14718",
+      "item": "4.5.1, 4.5.2 e 5",
+      "pagina": 19,
+      "nota": "Ensaios destrutivos, em laboratório ou local definido pelo contratante. Reprovado em um ensaio: recomenda-se encerrar os demais."
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Guarda-corpo de escada — ensaio",
+      "valor": "Ensaiar em protótipo de dimensões maiores ou iguais, instalado na horizontal; projetista e responsável técnico avaliam a instalação na escada",
+      "norma": "NBR-14718",
+      "item": "4.4.4.1",
+      "pagina": 19
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Carga de uso (horizontal) — critério",
+      "valor": "Sem ruptura, afrouxamento ou destacamento; deslocamento horizontal do elemento superior sob carga ≤ 25 mm; deslocamento residual ≤ 3 mm após retirada da carga",
+      "max": 25,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "5.1.1",
+      "pagina": 20
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Carga de segurança (horizontal) — critério",
+      "valor": "Deslocamento horizontal sob carga ≤ 150 mm, preservando a retenção do corpo; deformação residual não avaliada",
+      "max": 150,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "5.1.2",
+      "pagina": 20,
+      "nota": "Ocorrendo sobrecarga real (tumulto, colisão), o guarda-corpo deve passar por avaliação estrutural e, se necessário, ser substituído.",
+      "cota": "esquemas/guarda-corpo-ensaios-nbr14718.svg#deslocamento"
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Esforço estático vertical — critério",
+      "valor": "Sem ruptura, afrouxamento ou destacamento; deformação vertical sob carga de segurança ≤ 20 mm; residual ≤ 8 mm",
+      "max": 20,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "5.2",
+      "pagina": 20,
+      "nota": "Guarda-corpo de vidro ou chapa inteira sem perfil no peitoril: não se medem deformações (B.4.8, NOTA)."
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Impacto — energia e critério",
+      "valor": "Impacto de 600 J; sem ruptura ou destacamento das fixações e sem queda do elemento de fechamento ou de suas partes. Admite-se afrouxamento de fixações e ruptura/deformação do fechamento desde que não passe o gabarito prismático (Figura 9-b)",
+      "norma": "NBR-14718",
+      "item": "5.3 / C.1",
+      "pagina": 20,
+      "nota": "Corrimão que se projeta para o lado interno: ensaiar sem o corrimão."
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Impacto — corpo percussor e queda",
+      "valor": "Saco de material resistente em forma de gota, Ø aprox. 300 mm, com esferas de vidro totalizando 40 kg; movimento pendular com queda de 1 500 mm em relação ao ponto de impacto; no centro geométrico de cada tipo de elemento de fechamento, de dentro para fora",
+      "norma": "NBR-14718",
+      "item": "C.2, C.4.1 e C.4.2",
+      "pagina": 31,
+      "nota": "Figura C.2: em repouso o saco fica a 5 mm a 15 mm do corpo de prova (texto da figura); cota '150' na figura sem descrição no texto.",
+      "cota": "esquemas/guarda-corpo-ensaios-nbr14718.svg#queda"
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Corpo de prova — guarda-corpo > 3 m na obra",
+      "valor": "Dois módulos (três montantes e dois elementos de fechamento), nas dimensões reais da obra, sem fixação nas laterais; vidro sem montante estrutural: um único módulo, sem fixação lateral",
+      "min": 3000,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "A.4.2",
+      "pagina": 25,
+      "nota": "min = comprimento na obra (3 m). No ensaio vertical (B.4.2) o texto diz protótipos 'com dimensões menores ou iguais a 3 m' representando dois módulos."
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Corpo de prova — guarda-corpo ≤ 3 m na obra",
+      "valor": "Tamanho original; se fixado nas laterais na obra, também fixado nas laterais no ensaio",
+      "max": 3000,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "A.4.3",
+      "pagina": 25
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Pontos de aplicação — ensaio horizontal",
+      "valor": "Dois módulos: F/4 a 0,4 L de cada extremo e F/2 no montante central (L = vão de um módulo); um módulo: F/2 a L/4 de cada extremidade; medidores a ≤ 30 mm das extremidades e no centro",
+      "norma": "NBR-14718",
+      "item": "A.4.4, A.4.5 / Figuras A.2 e A.3",
+      "pagina": 25,
+      "nota": "Distribuição lida das Figuras A.2 e A.3 (não do texto). Fig. A.2: L = vão de um módulo; na Fig. A.3 (um módulo), L = comprimento do corpo de prova. O comprimento entre faces externas dos montantes extremos (A.4.7.2) é o usado para aplicar a carga linear da Tabela 1. Com dois módulos, medidores nas 2 extremidades, a 0,5 L e no montante central (Fig. A.2).",
+      "cota": "esquemas/guarda-corpo-ensaios-nbr14718.svg#posicao"
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Altura de aplicação — guarda-corpo mais alto que 1,10 m",
+      "valor": "Carga aplicada e deslocamentos medidos a 1,10 m da ZEN, com ou sem corrimão",
+      "norma": "NBR-14718",
+      "item": "A.4.6",
+      "pagina": 26,
+      "cota": "esquemas/guarda-corpo-ensaios-nbr14718.svg#altura-aplicacao"
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Procedimento — horizontal, de fora para dentro",
+      "valor": "Pré-carga linear 200 N/m por 3 min (leitura l1); carga da Tabela 1 por 15 min (l2); residual 3 min após alívio (l3)",
+      "norma": "NBR-14718",
+      "item": "A.4.7",
+      "pagina": 26
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Procedimento — horizontal, de dentro para fora",
+      "valor": "Pré-carga 200 N/m por 15 min (l5); carga de uso por 15 min (l6), residual 3 min após alívio (l7); carga de segurança por 15 min (l8)",
+      "norma": "NBR-14718",
+      "item": "A.4.8",
+      "pagina": 26,
+      "nota": "A pré-carga de fora para dentro é mantida 3 min (A.4.7.1) e a de dentro para fora 15 min (A.4.8.1), como no texto. Resultados ao 0,1 mm, descontando (l3 – l0) (A.5)."
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Instrumentação",
+      "valor": "Massas com roldana e cabo de aço ou dinamômetro; medidor de deslocamento linear com resolução 0,1 mm",
+      "norma": "NBR-14718",
+      "item": "A.2",
+      "pagina": 24
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Ensaio vertical — aparelhagem e procedimento",
+      "valor": "Dois cutelos de aço com seção plana de 50 mm e comprimento mínimo igual à largura do peitoril; apoio (0,200 × 0,040 × 0,024) m (ex.: compensado); carga aplicada só no maior vão (dois módulos), em duas parcelas F/2; mantida 15 min; residual (l2) 3 min após alívio",
+      "norma": "NBR-14718",
+      "item": "B.2, B.4.4 e B.4.8",
+      "pagina": 28,
+      "nota": "Posição lida das Figuras B.1/B.2: cada F/2 a 0,15 m de cada lado do centro do vão (cargas 0,30 m afastadas, simétricas), medidor no centro."
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Relatório de ensaio — conteúdo",
+      "valor": "Identificação (dimensões, modelo, materiais, tipo e espessura do vidro, instalação, juntas de colagem, fabricante); desenhos (elevação em escala, cortes horizontais e verticais 1:1); manual de instalação; conformidade com o projeto; aparelhagem; cargas; deformações; observações; fotos; normas usadas",
+      "norma": "NBR-14718",
+      "item": "5.4",
+      "pagina": 21
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Ensaio de tipo (PRFV) — composição e validade",
+      "valor": "Ensaios da NBR 15708-1:2014, Seção 6, mais os de 6.1.1 a 6.1.3; validade de cinco anos; em laboratórios acreditados, ou independentes acompanhados de terceira parte acreditada; todos os resultados documentados",
+      "norma": "NBR-15708-2",
+      "item": "6.1",
+      "pagina": 11,
+      "nota": "Refazer os ensaios de tipo se houver modificação na composição, na tecnologia do processo de fabricação ou no projeto. Mantidas composição e tecnologia, a recertificação compreende só os ensaios de resistência às cargas estáticas."
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Ensaio de tipo (PRFV) — corpo de prova e sequência",
+      "valor": "Um único painel típico (E = 1 000 mm), na sequência: a) flecha do montante e corrimão; b) ruptura da travessa e do rodapé; c) ruptura do montante e do corrimão. H1–H4 horizontais; V1 e V2 verticais (Figura 4)",
+      "norma": "NBR-15708-2",
+      "item": "6.1",
+      "pagina": 12
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Flecha do montante e corrimão — pré-carga",
+      "valor": "50 N aplicados simultaneamente durante 1 min nos pontos V2, H1 e H2; retirar e marcar a nova posição como zero",
+      "min": 50,
+      "max": 50,
+      "unidade": "N",
+      "norma": "NBR-15708-2",
+      "item": "6.1.1",
+      "pagina": 12
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Flecha do montante e corrimão — carga de ensaio",
+      "valor": "900 N aplicados simultaneamente durante 10 min nos pontos V2, H1 e H2 (Figura 4); medir as flechas",
+      "min": 900,
+      "max": 900,
+      "unidade": "N",
+      "norma": "NBR-15708-2",
+      "item": "6.1.1",
+      "pagina": 12,
+      "nota": "H1 = topo do montante (no corrimão), H2/V2 = meio do vão do corrimão, conforme Figura 4."
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Flecha máxima sob 900 N — ponto V2 (vertical, meio do corrimão)",
+      "valor": "10 mm",
+      "max": 10,
+      "unidade": "mm",
+      "norma": "NBR-15708-2",
+      "item": "6.1.1 a)",
+      "pagina": 13,
+      "cota": "esquemas/guarda-corpo-ensaios-prfv.svg#flecha-v2"
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Flecha máxima sob 900 N — ponto H1 (horizontal, topo do montante)",
+      "valor": "44 mm",
+      "max": 44,
+      "unidade": "mm",
+      "norma": "NBR-15708-2",
+      "item": "6.1.1 b)",
+      "pagina": 13,
+      "cota": "esquemas/guarda-corpo-ensaios-prfv.svg#flecha-h1"
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Flecha máxima sob 900 N — ponto H2 (horizontal, meio do corrimão)",
+      "valor": "32 mm",
+      "max": 32,
+      "unidade": "mm",
+      "norma": "NBR-15708-2",
+      "item": "6.1.1 c)",
+      "pagina": 13,
+      "cota": "esquemas/guarda-corpo-ensaios-prfv.svg#flecha-h2"
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Flecha residual após o ensaio de flecha",
+      "valor": "'Após 15 min da retirada do carregamento do segundo ensaio', o painel deve voltar à posição original; flecha residual de no máximo 3 mm",
+      "max": 3,
+      "unidade": "mm",
+      "norma": "NBR-15708-2",
+      "item": "6.1.1",
+      "pagina": 13,
+      "nota": "Texto literal entre aspas. 'Segundo ensaio' = provavelmente a carga de 900 N (após a pré-carga de 50 N) — ambíguo na norma."
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Ruptura da travessa (H3)",
+      "valor": "900 N, horizontal, ao centro da travessa (ponto H3), por 10 min à temperatura ambiente; sem trincas ou delaminação nos perfis, insertos ou conexões",
+      "min": 900,
+      "max": 900,
+      "unidade": "N",
+      "norma": "NBR-15708-2",
+      "item": "6.1.2",
+      "pagina": 13
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Ruptura do montante e corrimão (V1, V2, H1, H2)",
+      "valor": "2 250 N durante 10 min à temperatura ambiente, individual e sequencialmente nos pontos V1, V2, H1 e H2; sem trincas ou delaminação nos perfis, insertos ou conexões",
+      "min": 2250,
+      "max": 2250,
+      "unidade": "N",
+      "norma": "NBR-15708-2",
+      "item": "6.1.3",
+      "pagina": 13
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Verificação do reforço interno após os ensaios",
+      "valor": "Após 6.1.1 a 6.1.3, o montante ensaiado deve ser serrado ao meio e as dimensões do elemento de reforço conferidas com o desenho de projeto",
+      "norma": "NBR-15708-2",
+      "item": "6.1 e 6.1.3",
+      "pagina": 12
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Flecha do montante isolado — montagem",
+      "valor": "Montante desmontado do guarda-corpo (só um dos laterais, se houver mais de dois), posicionado na sapata da Figura 3 e); carga horizontal em ponto a 840 mm do topo da sapata (Figura 5); temperatura ambiente",
+      "norma": "NBR-15708-2",
+      "item": "6.1.4",
+      "pagina": 14,
+      "nota": "Figura 5 (lida da figura): montante de 1 100 mm, cota de 170 mm na base (sapata) + 840 mm até o ponto de carga; dispositivo de aplicação com 190 mm de altura. O texto também diz 'carga ao topo do montante' — ver nota de ambiguidades.",
+      "cota": "esquemas/guarda-corpo-ensaios-prfv.svg#altura-carga"
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Flecha do montante isolado — carga",
+      "valor": "900 N, horizontal, por 1 min (Figura 5 a)",
+      "min": 900,
+      "max": 900,
+      "unidade": "N",
+      "norma": "NBR-15708-2",
+      "item": "6.1.4",
+      "pagina": 14
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Flecha do montante isolado — critério (Tabela 1, montante 1 100 mm)",
+      "valor": "Flecha máxima 30,0 mm; flecha residual 2,0 mm",
+      "max": 30,
+      "unidade": "mm",
+      "norma": "NBR-15708-2",
+      "item": "6.1.4, Tabela 1",
+      "pagina": 15,
+      "nota": "Residual máxima 2,0 mm. Mesmo ensaio usado no recebimento (6.2.5).",
+      "cota": "esquemas/guarda-corpo-ensaios-prfv.svg#flecha-montante"
+    },
+    {
+      "grupo": "Ensaios de desempenho (protótipo)",
+      "parametro": "Ensaio de guarda-corpo (ISO 14122-3)",
+      "valor": "Carga F horizontal, progressiva, sem choque, a 1100 mm de altura; pré-carga 0,25 F por 1 min e zerar; montante: F por 1 min, flecha f1 ≤ 30 mm; corrimão: flecha f2 ≤ 30 mm; sem deformação permanente",
+      "max": 30,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "8.2; 8.2.1; 8.2.2; 8.2.3",
+      "pagina": 16,
+      "cota": "esquemas/guarda-corpo-ensaios-nbr14718.svg#altura-aplicacao"
+    },
+    {
+      "grupo": "Ancoragem e fixação",
+      "parametro": "Projeto da ancoragem",
+      "valor": "Especificar em projeto tipos, espaçamento e demais detalhes, dimensionados para o desempenho nos ensaios dos Anexos A a C",
+      "norma": "NBR-14718",
+      "item": "4.4.3.1",
+      "pagina": 18
+    },
+    {
+      "grupo": "Ancoragem e fixação",
+      "parametro": "Onde ancorar",
+      "valor": "Em partes estruturais ou paredes dimensionadas para os esforços; mureta de alvenaria (qualquer tipo) NÃO pode ser considerada parte estrutural",
+      "norma": "NBR-14718",
+      "item": "4.4.3.2",
+      "pagina": 18
+    },
+    {
+      "grupo": "Ancoragem e fixação",
+      "parametro": "Profundidade da ancoragem no concreto (química ou mecânica)",
+      "valor": "Mínimo 70 mm no concreto, desconsiderando contrapisos e revestimentos",
+      "min": 70,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "4.4.3.3",
+      "pagina": 18,
+      "cota": "esquemas/guarda-corpo-ancoragem.svg#profundidade"
+    },
+    {
+      "grupo": "Ancoragem e fixação",
+      "parametro": "Distância do furo de ancoragem às bordas",
+      "valor": "Mínimo 70 mm das bordas verticais ou horizontais, desconsiderando contrapisos e revestimentos",
+      "min": 70,
+      "unidade": "mm",
+      "norma": "NBR-14718",
+      "item": "4.4.3.3",
+      "pagina": 18,
+      "nota": "Furos para fixação química totalmente isentos de poeira, umidade e oleosidade.",
+      "cota": "esquemas/guarda-corpo-ancoragem.svg#borda"
+    },
+    {
+      "grupo": "Ancoragem e fixação",
+      "parametro": "Fixação no ensaio",
+      "valor": "Reproduzir a fixação no elemento estrutural da edificação em que será instalado",
+      "norma": "NBR-14718",
+      "item": "A.3",
+      "pagina": 24
+    },
+    {
+      "grupo": "Ancoragem e fixação",
+      "parametro": "Formas de fixação admitidas (PRFV)",
+      "valor": "Uma das cinco formas distintas apresentadas e descritas na Figura 3: a) lateral de viga U; b) abas de viga U ou I com tubo-calço; c) chumbadores em concreto; d) sapata de fibra de vidro parafusada no concreto; e) sapata de aço-carbono soldada no piso",
+      "norma": "NBR-15708-2",
+      "item": "5.2 e Figura 3",
+      "pagina": 9
+    },
+    {
+      "grupo": "Ancoragem e fixação",
+      "parametro": "Fixação a) — lateral da viga U",
+      "valor": "Viga U em aço, com face plana da viga diretamente em contato com o montante do guarda-corpo, utilizando dois tirantes roscados M10 ou superior",
+      "norma": "NBR-15708-2",
+      "item": "5.2, Figura 3 a)",
+      "pagina": 10
+    },
+    {
+      "grupo": "Ancoragem e fixação",
+      "parametro": "Fixação b) — abas de viga U ou I",
+      "valor": "Montante diretamente apoiado nas abas da viga, fixado por dois tirantes roscados M10 ou superior, com um tubo como calço entre o montante e a parte plana da viga U (tubo Ø 25 mm)",
+      "norma": "NBR-15708-2",
+      "item": "5.2, Figura 3 b)",
+      "pagina": 10,
+      "nota": "Diâmetro do tubo-calço (Ø 25 mm) lido do rótulo da Figura 3 b). O texto remete a 'Figura 3-d)' para o calço, provavelmente querendo dizer 3-b)."
+    },
+    {
+      "grupo": "Ancoragem e fixação",
+      "parametro": "Fixação c) — concreto",
+      "valor": "Base de concreto, com no mínimo dois chumbadores com rosca M10 ou superior",
+      "norma": "NBR-15708-2",
+      "item": "5.2, Figura 3 c)",
+      "pagina": 10
+    },
+    {
+      "grupo": "Ancoragem e fixação",
+      "parametro": "Fixação d) — sapata de fibra de vidro no concreto",
+      "valor": "Sapata em fibra de vidro, no formato de tubo quadrado, fixada no piso por parafusos, conforme projeto acordado entre comprador e fornecedor; guarda-corpo encaixado e fixado com no mínimo dois parafusos M10 ou superior",
+      "norma": "NBR-15708-2",
+      "item": "5.2, Figura 3 d)",
+      "pagina": 10
+    },
+    {
+      "grupo": "Ancoragem e fixação",
+      "parametro": "Fixação e) — sapata de aço-carbono soldada",
+      "valor": "Sapata em aço, soldada no piso, no formato de tubo quadrado, conforme projeto acordado entre comprador e fornecedor; guarda-corpo encaixado e fixado com no mínimo dois parafusos M10 ou superior",
+      "norma": "NBR-15708-2",
+      "item": "5.2, Figura 3 e)",
+      "pagina": 11,
+      "nota": "A figura rotula o fixador como 'Tirante roscado M10'. É a sapata usada no ensaio de flecha do montante (6.1.4)."
+    },
+    {
+      "grupo": "Ancoragem e fixação",
+      "parametro": "Fixação incluída nos ensaios",
+      "valor": "Todos os ensaios devem ser realizados para cada projeto de guarda-corpo, incluindo sua fixação; o painel típico deve ser fixado simulando uma condição de campo",
+      "norma": "NBR-15708-2",
+      "item": "6.1",
+      "pagina": 11
+    },
+    {
+      "grupo": "Ancoragem e fixação",
+      "parametro": "Anexo II (sistemas de ancoragem) × proteção coletiva",
+      "valor": "O Anexo II NÃO se aplica a sistemas de ancoragem para equipamentos de proteção coletiva nem para fixação de equipamentos de acesso",
+      "norma": "NR-35",
+      "item": "Anexo II, 2.3 c) e d)",
+      "pagina": 13,
+      "nota": "A fixação do guarda-corpo segue o projeto do SPCQ (35.6.3.1) e as normas técnicas."
+    },
+    {
+      "grupo": "Materiais",
+      "parametro": "Ancoragens e pontaletes",
+      "valor": "Alumínio (NBR 6835), aço inoxidável austenítico (NBR 5601); ligas aço-cobre ou aço-carbono galvanizados a quente (NBR 6323)",
+      "norma": "NBR-14718",
+      "item": "4.3.1",
+      "pagina": 13
+    },
+    {
+      "grupo": "Materiais",
+      "parametro": "Guarda-corpo de alumínio",
+      "valor": "Perfis aparentes anodizados ou pintados (NBR 12609 / NBR 14125); fixadores (parafusos, porcas, arruelas) em aço inoxidável austenítico (NBR 5601)",
+      "norma": "NBR-14718",
+      "item": "4.3.2.1 e 4.3.2.2",
+      "pagina": 13
+    },
+    {
+      "grupo": "Materiais",
+      "parametro": "Guarda-corpo de aço-carbono",
+      "valor": "Tratamento de superfície (revestimento e/ou pintura) com desempenho mínimo no ensaio acelerado cíclico de corrosão (NBR 10821-3:2017, Anexo L) e NBR 10821-2:2017, 6.2.6 e Tabela 4; aço inox austenítico dispensa proteção adicional",
+      "norma": "NBR-14718",
+      "item": "4.3.3.1 e 4.3.3.2",
+      "pagina": 13
+    },
+    {
+      "grupo": "Materiais",
+      "parametro": "PVC e madeira",
+      "valor": "PVC: perfis conforme EN 12608-1 (com aço: como 4.3.3); madeira: NBR 7190",
+      "norma": "NBR-14718",
+      "item": "4.3.4 e 4.3.5",
+      "pagina": 13
+    },
+    {
+      "grupo": "Materiais",
+      "parametro": "Vidro",
+      "valor": "Conforme NBR 7199; laminado classe de segurança 1 (NBR 14697); aramado NBR NM 295; proibida massa à base de gesso e óleo (massa de vidraceiro); colagem estrutural conforme NBR 15737 e NBR 15919",
+      "norma": "NBR-14718",
+      "item": "4.3.6.1, 4.3.6.2 e 4.3.7",
+      "pagina": 14
+    },
+    {
+      "grupo": "Materiais",
+      "parametro": "Contato bimetálico",
+      "valor": "Evitar; se existir, usar isolantes ou materiais sem corrosão galvânica; em contato com alumínio usar aço inoxidável austenítico (NBR 5601)",
+      "norma": "NBR-14718",
+      "item": "4.3.8",
+      "pagina": 14
+    },
+    {
+      "grupo": "Materiais",
+      "parametro": "Material do guarda-corpo em PRFV",
+      "valor": "Compósito pultrudado; materiais em conformidade com a ABNT NBR 15708-1",
+      "norma": "NBR-15708-2",
+      "item": "1 e 4",
+      "pagina": 8,
+      "nota": "A NBR 15708-2 não traz requisitos próprios de resina, fibra, proteção UV, cor, dureza Barcol mínima ou reação ao fogo — tudo remete à NBR 15708-1 (não disponível no acervo)."
+    },
+    {
+      "grupo": "Materiais",
+      "parametro": "Elementos de reforço interno e conexões (PRFV)",
+      "valor": "Devem ser em compósito",
+      "norma": "NBR-15708-2",
+      "item": "5.1",
+      "pagina": 9
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Categoria de inspeção de solda (guarda-corpo / handrail)",
+      "valor": "Categoria III — Secundária (outfitting: escadas, escadas marinheiro, guarda-corpo, plataformas de acesso)",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Adendo, Tabela 2",
+      "pagina": 5,
+      "nota": "Extensão de ensaios na Tabela 1: visual 100%; MT/UT por amostragem (≈2–5%)."
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Desenho padrão de guarda-corpo",
+      "valor": "PE-FD-06-S-ST-20006-001 (substitui YYYY-01-00003/4)",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Adendo, Rev. C1 — seção 4.4",
+      "pagina": 3
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Elementos em aço galvanizado",
+      "valor": "Não podem sofrer danos no tratamento superficial (solda, lixamento e outros)",
+      "norma": "NBR-14718",
+      "item": "4.4.3.4",
+      "pagina": 18,
+      "nota": "Recomendação do projeto (não da NBR): soldar antes de galvanizar; montagem em campo aparafusada."
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Acabamento do guarda-corpo em PRFV",
+      "valor": "Fabricado conforme a Figura 2, evitando-se descontinuidades, cantos vivos na superfície ou qualquer outro fator que possa ocasionar danos à saúde e à integridade física dos usuários",
+      "norma": "NBR-15708-2",
+      "item": "5",
+      "pagina": 9
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Rastreabilidade (PRFV)",
+      "valor": "Fabricantes devem garantir rastreabilidade, assegurando que os guarda-corpos instalados possuam as mesmas características daqueles ensaiados e aprovados",
+      "norma": "NBR-15708-2",
+      "item": "6.1",
+      "pagina": 11
+    },
+    {
+      "grupo": "Inspeção de recebimento (lote)",
+      "parametro": "Inspeção de recebimento — escopo",
+      "valor": "Exame visual, dimensional e dureza Barcol; e ensaio de flecha do montante (6.1.4)",
+      "norma": "NBR-15708-2",
+      "item": "6.2 e 6.2.5",
+      "pagina": 15
+    },
+    {
+      "grupo": "Inspeção de recebimento (lote)",
+      "parametro": "Amostragem",
+      "valor": "Amostras escolhidas aleatoriamente por representante oficial do comprador, retiradas do lote fabricado, conforme Tabela 2 (salvo acordo entre comprador e fornecedor); acima de 3 200: ISO 2859-1, nível 1, NQA = 4 %",
+      "norma": "NBR-15708-2",
+      "item": "6.2.1 e Tabela 2",
+      "pagina": 15
+    },
+    {
+      "grupo": "Inspeção de recebimento (lote)",
+      "parametro": "Flecha do montante no recebimento — amostra",
+      "valor": "Uma única amostra, retirada aleatoriamente do lote; ensaio conforme 6.1.4 (900 N; flecha ≤ 30,0 mm, residual ≤ 2,0 mm)",
+      "norma": "NBR-15708-2",
+      "item": "6.2.1 e 6.2.5",
+      "pagina": 15
+    },
+    {
+      "grupo": "Inspeção de recebimento (lote)",
+      "parametro": "Inspeção do maciço (reforço) no recebimento",
+      "valor": "Um dos montantes não utilizados no ensaio de recebimento deve ser cortado ao meio para inspeção das dimensões do maciço utilizado",
+      "norma": "NBR-15708-2",
+      "item": "6.1.4",
+      "pagina": 14
+    },
+    {
+      "grupo": "Inspeção de recebimento (lote)",
+      "parametro": "Inspeção visual",
+      "valor": "Verificação dos requisitos da Seção 5 e de defeitos visuais conforme NBR 15708-1:2014, Seção 5, em amostras originais intactas",
+      "norma": "NBR-15708-2",
+      "item": "6.2.2",
+      "pagina": 15
+    },
+    {
+      "grupo": "Inspeção de recebimento (lote)",
+      "parametro": "Inspeção dimensional",
+      "valor": "Verificação dos requisitos da Seção 5 e das tolerâncias dimensionais da NBR 15708-1:2014, Seção 5, em amostras originais intactas",
+      "norma": "NBR-15708-2",
+      "item": "6.2.3",
+      "pagina": 15,
+      "nota": "As tolerâncias dimensionais numéricas estão na NBR 15708-1 (não disponível no acervo)."
+    },
+    {
+      "grupo": "Inspeção de recebimento (lote)",
+      "parametro": "Dureza Barcol",
+      "valor": "Ensaio realizado nas amostras conforme a NBR 15708-1",
+      "norma": "NBR-15708-2",
+      "item": "6.2.4",
+      "pagina": 15,
+      "nota": "Valor mínimo definido na NBR 15708-1 (não disponível)."
+    },
+    {
+      "grupo": "Inspeção de recebimento (lote)",
+      "parametro": "Lacre de segurança dos corpos de prova (recomendado)",
+      "valor": "Inspetor acompanha produção, corte, embalagem e lacre; para o lacre após a montagem, furo de aproximadamente 5 mm na união do montante com o corrimão (Figura A.1); amostragem mecânica no local e na presença do inspetor dispensa lacre se o ensaio for no mesmo dia",
+      "norma": "NBR-15708-2",
+      "item": "Anexo A (informativo)",
+      "pagina": 17,
+      "nota": "Anexo A informativo, recomendado nas NOTAS de 6.1 e 6.2.1. Para reação ao fogo (NBR 15708-1), um guarda-corpo é escolhido aleatoriamente e acompanhado até o corte dos corpos de prova."
+    },
+    {
+      "grupo": "Relatórios, designação e marcação",
+      "parametro": "Relatório do ensaio de tipo",
+      "valor": "Todos os relatórios dos ensaios requeridos na NBR 15708-1 e na NBR 15708-2; identificar nome do produto, do fabricante e o código do material composto, incluindo tipo de reforço e de matriz polimérica",
+      "norma": "NBR-15708-2",
+      "item": "7.1",
+      "pagina": 16
+    },
+    {
+      "grupo": "Relatórios, designação e marcação",
+      "parametro": "Liberação de produto final",
+      "valor": "Relatório de inspeção dos guarda-corpos fornecidos e cópia completa dos desenhos de montagem",
+      "norma": "NBR-15708-2",
+      "item": "7.2",
+      "pagina": 16
+    },
+    {
+      "grupo": "Relatórios, designação e marcação",
+      "parametro": "Designação",
+      "valor": "Nome; número da norma; desenho fornecido pelo cliente. Exemplo: 'Guarda-corpo, ABNT NBR 15708-2, desenho XYZ'",
+      "norma": "NBR-15708-2",
+      "item": "8",
+      "pagina": 16
+    },
+    {
+      "grupo": "Relatórios, designação e marcação",
+      "parametro": "Marcação e identificação",
+      "valor": "Identificação resistente às condições ambientais (NBR 15708-1), contendo no mínimo: nome ou logomarca do fabricante; número da NBR 15708-2; código de rastreabilidade e ano; tipo de resina",
+      "norma": "NBR-15708-2",
+      "item": "9",
+      "pagina": 16
+    },
+    {
+      "grupo": "Aceitação e manutenção",
+      "parametro": "Aceitação",
+      "valor": "Fornecedor entrega documentação de responsabilidade técnica (projeto e execução); modelo que não atende é rejeitado; inspecionar a fixação das ancoragens; verificação visual dos componentes e montagem; informar o uso (privativo ou coletivo); em uso, dano ou componente solto → usuário verifica e providencia manutenção corretiva ou substituição (6.6); projetista assegura a manutenibilidade e o fabricante informa limpeza e manutenção no manual (7)",
+      "norma": "NBR-14718",
+      "item": "6.1 a 6.6; 7",
+      "pagina": 22
+    },
+    {
+      "grupo": "Aceitação e manutenção",
+      "parametro": "Limpeza — frequência",
+      "valor": "Água + detergente neutro a 5 %, esponja ou pano macio: zona urbana ou rural no mínimo a cada três meses; zona marítima ou industrial no mínimo a cada um mês",
+      "norma": "NBR-14718",
+      "item": "7.1.1",
+      "pagina": 22,
+      "nota": "Proibidos (7.1.2): abrasivos/esponja de aço, ácidos ou alcalinos, objetos cortantes, derivados de petróleo."
+    },
+    {
+      "grupo": "Aceitação e manutenção",
+      "parametro": "Manutenção — reaperto de fixações",
+      "valor": "Reapertar parafusos e verificar fixações quando houver grandes deformações por vento, vibração/ruído ao encostar, dano/impacto ou quebra de vidro/fechamento",
+      "norma": "NBR-14718",
+      "item": "7.2.1",
+      "pagina": 23,
+      "nota": "Gestão da manutenção pela NBR 5674 e de reformas pela NBR 16280 (7.2). Repintura: tinta compatível, lixar pontos de corrosão, limpar, proteger vidros e vedações (7.2.2)."
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "atencao",
+      "texto": "ALTURA DO TRAVESSÃO SUPERIOR diverge entre normas: NR-12 1,10–1,20 m (acesso a máquinas; ≥ 1,00 m para instalações anteriores a 24/12/2010); NR-12 Figura 3 1000–1100 mm (só plataformas de abastecimento ou que acumulam sujidades); NR-18 1,20 m (obra) e NR-34 andaime 1,20 m; NR-34 plataforma < 2 m, andaime multidirecional e balaustrada de flutuante ≥ 1,00 m; ABS 1070 mm (unidades marítimas, notação ERGO); desenho Equinor/Peregrino 1100 mm. Em FPSO sob NR-37 com equipamento/máquina, 1100 mm atende NR-12 (7 c) e supera o ABS. ASTM F1166 (marítimo): 1067 mm ao eixo do travessão (1000 mm em locais sob a Convenção de Linhas de Carga); a ISO 14122-2 remete o guarda-corpo à ISO 14122-3 e só cita 900–1100 mm junto a frestas de 120–180 mm. NBR 14718 (edificações): H ≥ 1,10 m acima da ZEN; sobre mureta com recuo ≤ 0,10 m, APR ≥ 0,90 m acima da mureta (mureta > 0,70 m: só H > 1,10 m). Os 1067/1070 mm de ASTM/ABS NÃO atendem a NBR 14718 nem a NR-12 (7 c). NBR 15708-2 (guarda-corpo em PRFV, óleo e gás): corrimão a 1 100 mm (Figura 2, cota A) — igual ao padrão Equinor e dentro da faixa da NR-12."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "DESNÍVEL que exige guarda-corpo: ABS 600 mm; ASTM F1166 610 mm (e em qualquer altura junto a equipamentos perigosos); ISO 14122-2 500 mm (máquinas); NR-12 exige proteção em todos os meios de acesso a máquinas. NBR 14718 (edificações): desnível > 1,0 m (talude ≤ 30° dispensa) — critério mais brando que os industriais/marítimos. NR-35: trabalho em altura é a atividade com diferença de nível acima de 2,0 m com risco de queda (35.2.1) — isso define quando a NR-35 se aplica, não dispensa o guarda-corpo exigido pelas demais normas em desníveis menores."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "RODAPÉ diverge: NR-12 ≥ 0,20 m; NR-18 ≥ 0,15 m (rente ao piso); NR-34 0,20 m (andaime, 34.11.12, e plataforma < 2 m com piso > 1 m) ou 0,15 m (andaime multidirecional); NR-12 Figura 3 ≥ 75 mm; ABS 100 mm com folga ≤ 6 mm; Equinor FB 100x6. Um rodapé de 100 mm (ABS/Equinor) NÃO atende NR-12 (7 e) nem NR-18 — verificar qual regra se aplica ao equipamento. Folga ao piso também diverge: ABS ≤ 6 mm, NR-18 rente à superfície, NR-12 Figura 3 ≤ 50 mm; o desenho Equinor deixa 20 mm acima da chapa/grade (atende só a NR-12 Figura 3). ASTM F1166: 102 mm a 6 mm do piso; ISO 14122-2: ≥ 100 mm quando a fresta junto à borda passa de 20 mm (localmente ≥ 50 mm). NBR 14718 (edificações) não fixa altura de rodapé: exige barreira que não deixe passar esfera de Ø 50 mm rolando pelo piso (rodapé, mureta ou elemento do guarda-corpo). NBR 15708-2 (PRFV, óleo e gás): rodapé tipo barra grega com altura mínima de 200 mm (D) — a ALTURA atende NR-12 e NR-18 — mas, pelas cotas da Figura 3, fica 10 mm acima do piso (90 mm na fixação d): não é 'rente' como pede a NR-18, passa dos ≤ 6 mm do ABS/ASTM e, em d), dos ≤ 50 mm da NR-12 Figura 3."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "TRAVESSÃO INTERMEDIÁRIO: NR-12 e NR-18 fixam 0,70 m; ABS usa 500 mm (passarela, Fig. 2) ou 425 mm acima do rodapé (Fig. 11) e, em borda de convés, várias barras com vão ≤ 380 mm e ≤ 230 mm junto ao piso (Fig. 12); Equinor usa duas barras intermediárias (340 e 720 mm). O padrão Equinor/ABS de barras múltiplas não tem barra exatamente a 0,70 m. Equinor: barra inferior a 340 mm; verificar a abertura ≤ 230 mm do ABS 4.4 ii) quando não houver rodapé. ASTM F1166: um intermediário 457 mm abaixo do eixo do topo (≈ 610 mm do piso); guarda-corpo especial com dois (394 e 203 mm). NBR 15708-2 (PRFV): no mínimo uma travessa, a 700 mm do piso (B) — igual a NR-12/NR-18; vão livre resultante ≈ 400 mm entre travessa e corrimão e ≈ 490–500 mm entre travessa e topo do rodapé (por diferença de cotas) — no limite do vão livre ≤ 500 mm da NR-12 Figura 3 e acima dos 380 mm do ABS."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "DIÂMETRO DO CORRIMÃO: NR-12 Figura 3 indica 25–38 mm para a barra superior (plataformas do item 9); ABS exige 40–50 mm; Equinor usa tubo Ø48. Não há conflito prático fora do caso do item 9 da NR-12, mas Ø48 fica fora da faixa da Figura 3. A NBR 15708-2 (PRFV) não fixa diâmetro nem seção — só proíbe superfícies planas no corrimão e na travessa (como a NR-12, 7 d)."
+    },
+    {
+      "tipo": "info",
+      "texto": "Cargas: NR-18 dá cargas lineares (90 / 66 / 22 kgf/m e deflexão ≤ 76 mm); ABS dá carga pontual de 90 kg em qualquer ponto e direção na barra superior; NR-12 só exige 'resistir aos esforços solicitantes'. Na falta de critério específico, verificar os dois (linear e pontual). ASTM F1166 pede ≥ 200 lb (≈ 0,89 kN) em qualquer ponto e direção no travessão superior, equivalente à carga pontual do ABS. NBR 14718 (edificações) não dá carga pontual: usa cargas LINEARES de ensaio em protótipo (Tabela 1) — 400 a 1 000 N/m (uso privativo/áreas técnicas), 1 000 N/m (coletivo, médio tráfego) e 1 800 N/m (alto tráfego), com deslocamento ≤ 25 mm (residual ≤ 3 mm) e carga de segurança 680 a 3 000 N/m com deslocamento ≤ 150 mm; mais carga vertical e impacto de 600 J. NBR 15708-2 (PRFV, óleo e gás) também é norma de ENSAIO em painel típico (E = 1 000 mm), com cargas PONTUAIS: 900 N simultâneos em V2/H1/H2 com flecha ≤ 10 / 44 / 32 mm (residual ≤ 3 mm); 900 N na travessa e 400 N no rodapé; 2 250 N (ruptura, sem trincas/delaminação) em V1, V2, H1 e H2; montante isolado 900 N com flecha ≤ 30 mm. Os 900 N equivalem à carga pontual de 90 kg do ABS e às 200 lb da ASTM F1166, mas a NBR 15708-2 fixa limites de flecha que ABS/ASTM não dão. DNV-OS-C101 (2024/2025, unidades flutuantes) NÃO especifica carga de guarda-corpo: remete à ICLL e à DNV-RU-SHIP Pt.3 Ch.11 Sec.3 [3] (Ch.2 Sec.6 [5.1.1]). Interpretação (não da norma): se o projeto for LRFD pela DNV, a carga característica adotada (ex. 90 kg ABS / 200 lb ASTM / 900 N NBR 15708-2) entra como carga variável Q com γf = 1.2 (1.3 se mal definida) — Ch.2 Sec.1 Tabela 1; as cargas da NR-18 e NBR 14718 são de verificação/ensaio direto, sem fator. ISO 14122-3:2001 (7.3): F = 300 N/m × vão entre montantes (≈ 450 N com montantes a 1,5 m — cálculo), flecha ≤ 30 mm."
+    },
+    {
+      "tipo": "info",
+      "texto": "NR-30 Anexo II (Plataformas e instalações de apoio, Portaria SIT 183/2010, DOU 14/05/2010 — versão antiga, aparentemente substituída pela NR-37; confirmar situação) exigia cor AMARELA em corrimãos, parapeitos, guarda-corpos e rodapés, e nas bordas de aberturas no piso sem guarda-corpo ou com guarda-corpo removível (item 9.1.2.1 I e IV). Não incluído como requisito por não estar cadastrado e por ser versão superada; a NR-37 vigente não traz essa exigência de cor."
+    },
+    {
+      "tipo": "info",
+      "texto": "Guarda-corpos de chegada/topo de escada marinheiro (extensão vertical, vão ≤ 460 mm entre barras, continuação de 600 mm) estão no ABS Sec. 4, 5.2 — ver ficha escada-marinheiro."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Catálogo de fabricante no acervo: 02 - Brochures\\CATÁLOGOS FIBRA\\TA Guarda corpo_PDA_complete.pdf — PDA ABS nº 21-2106871-PDA de guarda-corpos em PRFV (GRANIHC), com padrões conforme NBR 15708-2 (2014/2015), padrão Petrobras e GC-NR12-2017. Apenas referência comercial, não norma. Os requisitos da NBR 15708-2 estão incorporados a esta ficha."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "ESCOPO DA NBR 14718:2019: aplica-se a guarda-corpos de EDIFICAÇÕES (inclusive edificações industriais, comerciais, escolas, hospitais, terminais) e declara expressamente que NÃO se aplica à indústria do petróleo e gás natural nem a obras de infraestrutura e viárias (item 1). Em FPSO/plataformas valem NR-37, NR-12, ABS/regras de classe e as specs do cliente (ex. Equinor); em acesso a máquinas, NR-12/ISO 14122; em obra, NR-18. Num prédio industrial com máquinas (ex.: mezanino de galpão) podem valer NBR 14718 e NR-12 ao mesmo tempo — sugestão: atender ao mais restritivo de cada parâmetro. Para guarda-corpo em PRFV (fibra de vidro pultrudada) em plataformas, FPSO e instalações de óleo e gás, a norma brasileira aplicável é a ABNT NBR 15708-2 — que trata do produto (geometria, fixação, ensaios de tipo/recebimento, marcação), mas não substitui NR-37/NR-12/regras de classe quanto à obrigatoriedade."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "VÃOS / ABERTURAS: a NBR 14718 (edificação, pensada para crianças e público) limita vão-luz vertical e horizontal a ≤ 0,11 m, exige fechamento onde houver apoio escalável até 0,45 m e limita o avanço sobre a borda a 0,05 m (esfera de 0,09 m). As normas industriais/marítimas admitem vãos muito maiores: NR-12 Figura 3 ≤ 500 mm, NR-34 < 50 cm, ABS ≤ 380 mm (≤ 230 mm junto ao piso), Equinor 340/380 mm, ASTM F1166 intermediário 457 mm abaixo do topo. Um guarda-corpo industrial de travessas horizontais (que são escaláveis) NÃO atende a NBR 14718 — em áreas de edificação com acesso de público, prever tela/painel ou balaústres a ≤ 0,11 m. NBR 15708-2 (PRFV): montantes a ≤ 1 500 mm, travessa a 700 mm, rodapé ≥ 200 mm; descontinuidade do corrimão 75–120 mm (acima disso, peça de fechamento) — INCOMPATÍVEL com o ABS Figura 2 (C), que limita a folga a ≤ 50 mm (a 15708-2 exige no mínimo 75 mm): nenhum valor atende às duas; compatível com a ASTM F1166 (≤ 152 mm). ISO 14122-3:2001: travessões com vão ≤ 500 mm, balaústres ≤ 180 mm, interrupção do corrimão 75–120 mm (igual à NBR 15708-2) — também incompatível com o ≤ 50 mm do ABS."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "CARGA × DESLOCAMENTO: NR-18 pede 90 kgf/m no travessão com deflexão ≤ 76 mm; NBR 14718 (convenção 10 N = 1 kgf, 5.1.2) pede 400 a 1 800 N/m (≈ 40 a 180 kgf/m) com deslocamento ≤ 25 mm sob carga de uso — critério de rigidez bem mais severo — e ainda carga de segurança (≤ 150 mm), carga vertical (≤ 20 mm; residual ≤ 8 mm) e impacto de 600 J. A NBR 14718 é norma de DESEMPENHO por ensaio de protótipo (Anexos A–C), não regra de dimensionamento; NR-18 e ABS/ASTM dão cargas de projeto."
+    },
+    {
+      "tipo": "info",
+      "texto": "Inconsistências do próprio texto da NBR 14718:2019: (1) 5.1.2 diz carga de segurança = 1,7 × carga de uso, mas várias linhas da Tabela 1 não seguem a razão (450 → 680; 500 → 800; 600 → 800; 1 800 → 3 000) — usar o valor tabelado; (2) pré-carga de fora para dentro mantida 3 min (A.4.7.1) e de dentro para fora 15 min (A.4.8.1); (3) A.4.2 pede corpo de prova de dois módulos 'nas dimensões reais da obra', B.4.2 diz 'dimensões menores ou iguais a 3 m'; (4) 4.4.1.2 usa 'H > 1,10 m' e o restante '≥ 1,10 m'; (5) o Anexo C chama o percussor de 'saco de material resistente' e depois de 'saco de couro'. (6) 3.2 define a APR com espaço interno da mureta 'menor do que 0,10 m', e 4.4.1.2 diz 'menor ou igual a 0,10 m'; (7) A.4.5 diz corpo de prova de um módulo 'menores ou iguais a 3 m' e B.4.5 'menores de 3 m'."
+    },
+    {
+      "tipo": "dica",
+      "texto": "NBR 14718 remete a outras normas não cadastradas: NBR 9050 (acessibilidade, corrimãos) e NBR 9077 (saídas de emergência) para escadas e rotas de fuga; NBR 6123 (vento) e NBR 10821-2 (pressões mínimas, regiões I–V) para guarda-corpos externos; NBR 7199 / 14697 (vidro). Para guarda-corpo em PRFV ver os requisitos da NBR 15708-2 nesta ficha."
+    },
+    {
+      "tipo": "info",
+      "texto": "EDIÇÃO DA NBR 15708-2 usada: o arquivo 'ABNT NBR 15708-2.pdf' é a 4ª edição, ABNT NBR 15708-2:2015 (válida a partir de 24.12.2015), que incorpora a Emenda 1 de 24.11.2015 e cancela a NBR 15708-2:2014; a data 2020 é só a da impressão (NTBNET/Petrobras, 07/12/2020). O outro arquivo ('NBR 15708-2-2015 … Emenda 1', escaneado, sem texto) é só a Emenda 1 (NBR 15708-2:2014/Em1:2015), que inclui a frase 'corrimão e travessa sem superfícies planas' e substitui as Figuras 2, 3, 4 e 5 — conferido visualmente: idênticas às da edição consolidada (só o título da Figura 4 difere: 'Exemplo de montante e corrimão'). Nenhuma divergência relevante; itens citados são da edição consolidada."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "AMBIGUIDADES DA NBR 15708-2:2015: (1) o escopo (item 1) diz que a norma não contempla métodos de fixação, mas 5.2/Figura 3 obriga uma de cinco formas de fixação, e 6.1 manda ensaiar a fixação; (2) Seção 5 pede travessa 'a uma distância equivalente do corrimão e do rodapé', mas a legenda fixa B = 700 mm (com corrimão a 1 100 e rodapé de 200 mm, o ponto médio seria 650 mm); (3) 6.1.4 manda aplicar a carga 'a 840 mm do topo da sapata' e, no parágrafo seguinte, '900 N ao topo do montante' — a Figura 5 mostra 170 mm + 840 mm (ponto de carga ≈ 90 mm abaixo do topo de 1 100 mm); (4) a Figura 3 e) rotula os dois trechos como 'B' (deveria ser B e C) e chama o fixador de 'tirante roscado M10' enquanto o texto diz 'parafusos M10'; (5) Figura 3 b) remete o tubo-calço à 'Figura 3-d)'; (6) na Figura 2 a letra D aparece numa cota abaixo do piso, enquanto a legenda define D como altura mínima do rodapé; (7) a cota de 1 000 mm no trecho de escada da Figura 2 não tem legenda; (8) a Figura 5 se chama 'ensaio de amostragem em lote' mas é usada também no ensaio de tipo (6.1.4); (9) erro de digitação 'Guarda-copo' na Figura A.1."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "A NBR 15708-2 NÃO traz valores de resina, proteção UV, cor, dureza Barcol mínima, reação ao fogo nem tolerâncias dimensionais: tudo remete à ABNT NBR 15708-1:2014 (Parte 1 — materiais, métodos de ensaio e tolerâncias), que NÃO está no acervo (só existem as Partes 2, 3 e 5 em referencias/extraido/ABNT). Para especificar/inspecionar PRFV, obter a NBR 15708-1. A cor amarela de guarda-corpos só aparecia na NR-30 Anexo II antiga (ver nota acima)."
+    },
+    {
+      "tipo": "info",
+      "texto": "A NR-35 (trabalho em altura, 2025) não traz cotas de guarda-corpo (altura, travessão, rodapé, carga): exige que o SPCQ seja projetado por profissional legalmente habilitado, resista à força máxima aplicável e atenda às normas técnicas nacionais (35.6.2, 35.6.3.1), e dá prioridade à proteção coletiva sobre o cinto (35.6.3). Para as cotas use a NR-12 (máquinas), NR-18 18.9.4 (obra), NR-34 (estaleiro) ou as normas técnicas desta ficha."
+    },
+    {
+      "tipo": "info",
+      "texto": "ISO 14122-3:2001 (DIN EN ISO 14122-3:2002, escaneada; texto por OCR em referencias/ocr/): superada pela ISO 14122-3:2016 (não está no acervo). Altura 1100 mm, desnível > 500 mm, rodapé ≥ 100 mm a ≤ 10 mm do piso."
+    }
+  ],
+  "tabelas": [
+    {
+      "id": "nbr14718-tab1-cargas",
+      "titulo": "NBR 14718 — Tabela 1: classificação dos guarda-corpos conforme a aplicação (cargas horizontais de ensaio)",
+      "norma": "NBR-14718",
+      "item": "Tabela 1",
+      "pagina": 12,
+      "unidade": "N/m (cargas) · mm (deslocamentos)",
+      "colunas": [
+        "Aplicação",
+        "Quantidade de pavimentos",
+        "Altura máxima (m)",
+        "Região do país",
+        "Carga de uso (N/m)",
+        "Deslocamento horizontal máximo — uso (mm)",
+        "Carga de segurança (N/m)",
+        "Deslocamento horizontal máximo — segurança (mm)"
+      ],
+      "linhas": [
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "2",
+          "6",
+          "I",
+          400,
+          25,
+          680,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "2",
+          "6",
+          "II",
+          400,
+          25,
+          680,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "2",
+          "6",
+          "III",
+          400,
+          25,
+          680,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "2",
+          "6",
+          "IV",
+          450,
+          25,
+          680,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "2",
+          "6",
+          "V",
+          500,
+          25,
+          800,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "5",
+          "15",
+          "I",
+          400,
+          25,
+          680,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "5",
+          "15",
+          "II",
+          400,
+          25,
+          680,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "5",
+          "15",
+          "III",
+          500,
+          25,
+          680,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "5",
+          "15",
+          "IV",
+          600,
+          25,
+          800,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "5",
+          "15",
+          "V",
+          800,
+          25,
+          1000,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "10",
+          "30",
+          "I",
+          400,
+          25,
+          680,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "10",
+          "30",
+          "II",
+          400,
+          25,
+          680,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "10",
+          "30",
+          "III",
+          500,
+          25,
+          750,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "10",
+          "30",
+          "IV",
+          600,
+          25,
+          950,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "10",
+          "30",
+          "V",
+          800,
+          25,
+          1150,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "20",
+          "60",
+          "I",
+          400,
+          25,
+          680,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "20",
+          "60",
+          "II",
+          450,
+          25,
+          680,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "20",
+          "60",
+          "III",
+          600,
+          25,
+          900,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "20",
+          "60",
+          "IV",
+          750,
+          25,
+          1100,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "20",
+          "60",
+          "V",
+          900,
+          25,
+          1400,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "30",
+          "90",
+          "I",
+          400,
+          25,
+          680,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "30",
+          "90",
+          "II",
+          500,
+          25,
+          750,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "30",
+          "90",
+          "III",
+          650,
+          25,
+          950,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "30",
+          "90",
+          "IV",
+          800,
+          25,
+          1200,
+          150
+        ],
+        [
+          "Residencial ou comercial de uso privativo e áreas técnicas",
+          "30",
+          "90",
+          "V",
+          1000,
+          25,
+          1500,
+          150
+        ],
+        [
+          "Residencial de uso coletivo, comercial ou institucional de médio tráfego (até 2 500 pessoas)",
+          "2 a 30",
+          "6 a 90",
+          "I a V",
+          1000,
+          25,
+          1700,
+          150
+        ],
+        [
+          "Edificações de uso coletivo de alto tráfego (acima de 2 500 pessoas)",
+          "2 a 30",
+          "6 a 90",
+          "I a V",
+          1800,
+          25,
+          3000,
+          150
+        ]
+      ],
+      "nota": "Regiões I a V definidas na NBR 10821-2:2017, Figura 4. Deslocamentos máximos (25 mm e 150 mm) são células únicas na norma, comuns a todas as linhas. Residual após a carga de uso ≤ 3 mm (5.1.1).",
+      "consulta": false
+    },
+    {
+      "id": "nbr15708-2-tab1-flecha-montante",
+      "titulo": "NBR 15708-2 — Tabela 1: valores de flecha para ensaio mecânico do montante (PRFV)",
+      "norma": "NBR-15708-2",
+      "item": "Tabela 1",
+      "pagina": 15,
+      "unidade": "mm",
+      "colunas": [
+        "Altura do montante (mm)",
+        "Flecha máxima (mm)",
+        "Flecha residual (mm)"
+      ],
+      "linhas": [
+        [
+          "1 100",
+          30.0,
+          2.0
+        ]
+      ],
+      "nota": "Carga de 900 N horizontal por 1 min, montante na sapata da Figura 3 e) (6.1.4).",
+      "consulta": false
+    },
+    {
+      "id": "nbr15708-2-tab2-amostragem",
+      "titulo": "NBR 15708-2 — Tabela 2: amostragem e critério de aceitação de produto acabado",
+      "norma": "NBR-15708-2",
+      "item": "Tabela 2",
+      "pagina": 15,
+      "unidade": "peças",
+      "colunas": [
+        "Lote",
+        "Amostra",
+        "Aceitação",
+        "Rejeição"
+      ],
+      "linhas": [
+        [
+          "Até 90",
+          3,
+          0,
+          1
+        ],
+        [
+          "91 – 280",
+          13,
+          1,
+          2
+        ],
+        [
+          "281 – 500",
+          20,
+          2,
+          3
+        ],
+        [
+          "501 – 1 200",
+          32,
+          3,
+          4
+        ],
+        [
+          "1 201 – 3 200",
+          50,
+          5,
+          6
+        ],
+        [
+          "> 3 200",
+          "ISO 2859-1, nível 1, NQA = 4 %",
+          "—",
+          "—"
+        ]
+      ],
+      "nota": "Inspeção visual, dimensional e dureza Barcol (6.2). Ensaio de flecha do montante: uma única amostra aleatória do lote.",
+      "consulta": false
+    }
+  ]
+}

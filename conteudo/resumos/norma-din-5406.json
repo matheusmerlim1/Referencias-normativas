@@ -1,0 +1,41 @@
+{
+ "id": "DIN-5406",
+ "titulo": "DIN 5406:1993 — Arruelas de trava e chapas de trava para porcas de rolamentos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Dimensões, símbolos e massas aproximadas de arruelas de trava e chapas de trava para porcas de fixação de rolamentos (DIN 981 e similares).",
+   "valores": []
+  },
+  {
+   "titulo": "Dimensões e designação",
+   "item": "2",
+   "texto": "Tabelas por tamanho; tolerâncias C11 e js17 para diâmetros d1 e d2.",
+   "valores": [
+    {
+     "parametro": "Designação de arruela",
+     "valor": "ex. d1 = 120 mm, d2 = 151 mm → MBL 24",
+     "item": "2"
+    },
+    {
+     "parametro": "Designação de chapa",
+     "valor": "ex. parafuso M8 e porca DIN 981 HM 3060 → MS 3060",
+     "item": "2"
+    }
+   ]
+  },
+  {
+   "titulo": "Material",
+   "item": "3",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Resistência mínima do aço",
+     "valor": "300 N/mm²",
+     "item": "3"
+    }
+   ]
+  }
+ ]
+}

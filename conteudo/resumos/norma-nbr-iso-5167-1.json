@@ -1,0 +1,95 @@
+{
+ "id": "NBR-ISO-5167-1",
+ "titulo": "ABNT NBR ISO 5167-1:1994 — Medição de vazão de fluidos por meio de instrumentos de pressão — Parte 1: Placas de orifício, bocais e tubos Venturi",
+ "secoes": [
+  {
+   "titulo": "Escopo e princípio",
+   "item": "1–6",
+   "texto": "Edição antiga, em volume único, que cobre placas de orifício, bocais (ISA 1932 e raio longo) e tubos Venturi clássicos e bocais Venturi instalados em condutos forçados cheios, com escoamento subsônico, estável e monofásico. O elemento cria uma pressão diferencial; a vazão vem do coeficiente de descarga, do fator de expansão (gases) e da pressão diferencial. A pressão estática é tomada a montante. Escoamento pulsante fica fora (ISO TR 3313). Substituída pela série NBR ISO 5167-1 a -4 (ver 5167-2:2011 para placas).",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos de instalação",
+   "item": "7",
+   "texto": "Trecho de medição reto e circular, com diâmetro medido como média de vários diâmetros perto do elemento; trechos retos mínimos a montante e a jusante por tipo de conexão (Tabelas 1 e 2), com coluna de incerteza adicional zero e de 0,5 % extra; condicionadores de escoamento (placas perfuradas, feixe de tubos); válvulas a montante totalmente abertas; drenos e purgas sem interferir; isolamento térmico quando necessário; elemento centrado e juntas que não invadam o tubo.",
+   "valores": [
+    {
+     "parametro": "Incerteza adicional se o trecho reto estiver entre as duas colunas da tabela",
+     "valor": "+0,5 % (soma aritmética)",
+     "item": "7.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Placas de orifício",
+   "item": "8",
+   "texto": "Mesma geometria básica da edição atual: placa plana e concêntrica, borda a montante viva, furo cilíndrico, chanfro a jusante quando a placa é mais grossa que o furo; tomadas de canto, D e D/2 ou de flange; equações de coeficiente de descarga, fator de expansão e perda de carga próprias desta edição.",
+   "valores": [
+    {
+     "parametro": "Diâmetro do orifício",
+     "valor": "d ≥ 12,5 mm",
+     "item": "8.1.7.1"
+    },
+    {
+     "parametro": "Espessura da placa E",
+     "valor": "entre e e 0,05D",
+     "item": "8.1.4.3"
+    },
+    {
+     "parametro": "Variação de e no furo",
+     "valor": "≤ 0,001D",
+     "item": "8.1.4.2"
+    },
+    {
+     "parametro": "Borda a montante viva",
+     "valor": "raio ≤ 0,0004d",
+     "item": "8.1.6.2"
+    },
+    {
+     "parametro": "Tomada D/2 — posição a jusante",
+     "valor": "0,48–0,52D (β ≤ 0,6) / 0,49–0,51D (β > 0,6)",
+     "item": "8.2.1.2"
+    },
+    {
+     "parametro": "Tomada de flange",
+     "valor": "25,4 mm (± 0,5 mm se β > 0,6 e D < 150 mm)",
+     "item": "8.2.1.3"
+    },
+    {
+     "parametro": "Diâmetro da tomada (fluidos limpos)",
+     "valor": "< 0,13D e < 13 mm",
+     "item": "8.2.1.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Bocais e tubos Venturi",
+   "item": "9–10",
+   "texto": "Bocal ISA 1932 (entrada com arcos de circunferência, garganta cilíndrica, tomadas de canto a montante), bocal de raio longo (entrada em quarto de elipse), tubo Venturi clássico (cone convergente, garganta, difusor) e bocal Venturi, cada um com perfil verificado por gabarito, limites de uso, coeficientes, incertezas e perda de carga.",
+   "valores": [
+    {
+     "parametro": "Bocal ISA 1932 — diâmetro da tubulação",
+     "valor": "50 mm ≤ D ≤ 500 mm",
+     "item": "9.1.6.1"
+    },
+    {
+     "parametro": "Bocal ISA 1932 — β e Reynolds",
+     "valor": "0,30 ≤ β < 0,44: 7 × 10⁴ ≤ ReD ≤ 10⁷; 0,44 ≤ β ≤ 0,80: 2 × 10⁴ ≤ ReD ≤ 10⁷",
+     "item": "9.1.6.1",
+     "nota": "leitura de OCR em colunas — conferir"
+    },
+    {
+     "parametro": "Bocal ISA 1932 — espessura H",
+     "valor": "≤ 0,1D",
+     "item": "9.1.3.1"
+    },
+    {
+     "parametro": "Centralização do Venturi clássico",
+     "valor": "dentro de ± 1 % do diâmetro",
+     "item": "7.5.2.3",
+     "nota": "conferir"
+    }
+   ]
+  }
+ ]
+}

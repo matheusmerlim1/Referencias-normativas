@@ -1,0 +1,31 @@
+{
+ "id": "ASME-SA-961",
+ "titulo": "SA-961 — Requisitos gerais para flanges, conexões forjadas, válvulas e peças de aço para tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns às especificações de flanges, conexões forjadas, válvulas e peças de tubulação (SA-105, 181, 182, 350, 694, 707 e outras): fusão, fabricação, tratamento térmico, química, ensaios, hidrostático, reparo, marcação e requisitos suplementares."
+  },
+  {
+   "titulo": "Fusão e fabricação",
+   "item": "5, 6",
+   "texto": "Aço totalmente acalmado, salvo indicação. A peça é feita de forjado próximo da forma final; usinagem de barra tem restrições (flanges, cotovelos, curvas de retorno, tês e tês de cabeçote não podem ser usinados de barra)."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "7",
+   "texto": "Quando exigido pelo produto: recozimento pleno, normalização, normalização e revenimento, têmpera e revenimento, solubilização, com os procedimentos definidos (terminologia da SA-941)."
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "8 a 12",
+   "texto": "Química (A751); ensaios mecânicos pela A370, com corpos de prova de forjados de produção ou blocos de prova separados; tração em corpo redondo padrão de 2 in [50 mm] quando possível; regras de reteste do Charpy quando um corpo fica abaixo do mínimo."
+  },
+  {
+   "titulo": "Hidrostático, reparo e marcação",
+   "item": "13, 16, 20",
+   "texto": "A peça deve suportar hidrostático compatível com o rating; o fornecedor só ensaia se o suplementar for pedido. Aprovação prévia de reparos por solda pode ser exigida. Marcação: especificação, grau e classe, organização certificadora, corrida."
+  }
+ ]
+}

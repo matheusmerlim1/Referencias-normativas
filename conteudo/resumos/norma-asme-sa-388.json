@@ -1,0 +1,40 @@
+{
+ "id": "ASME-SA-388",
+ "titulo": "SA-388 — Prática de exame por ultrassom de forjados pesados de aço",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimento de ultrassom por contato, pulso-eco, em forjados pesados de aço, por feixe reto (inclusive método DGS) e feixe angular. Aplica-se quando o pedido ou a especificação do produto o exige."
+  },
+  {
+   "titulo": "Equipamento, pessoal e preparação",
+   "item": "4 a 6",
+   "texto": "Aparelho pulso-eco de reflexão; inspetores qualificados por procedimento escrito. Forjados usinados com superfícies cilíndricas (exame radial) e topos perpendiculares ao eixo (exame axial); faces planas e paralelas em discos.",
+   "valores": [
+    {
+     "parametro": "Rugosidade máx. da superfície externa",
+     "valor": "250 µin [6 µm]",
+     "item": "6.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Procedimento e registro",
+   "item": "7, 8",
+   "texto": "Examinar todo o volume possível. Feixe reto: registrar indicações a partir de 10 % da reflexão de fundo de área sã (técnica da reflexão de fundo), entre outros critérios; os registros são informativos e só reprovam se acordado no pedido.",
+   "valores": [
+    {
+     "parametro": "Registro (feixe reto, reflexão de fundo)",
+     "valor": "indicação ≥ 10 % da reflexão de fundo adjacente",
+     "item": "8.1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Níveis de qualidade",
+   "item": "10",
+   "texto": "A prática não fixa nível de aceitação universal; os critérios devem ser acordados por forjado, considerando forma, tamanho e aplicação."
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "id": "EN-10034",
+ "titulo": "EN 10034:1993 — Perfis I e H de aço estrutural: tolerâncias de forma e dimensões",
+ "secoes": [
+  {
+   "titulo": "Escopo e medição",
+   "item": "1; 4",
+   "texto": "Perfis I e H de mesas paralelas (não inox, não mesa inclinada). Altura medida no eixo da alma, alma a meia altura e mesa a um quarto da largura.",
+   "valores": [
+    {
+     "parametro": "Espessura da mesa medida em",
+     "valor": "b/4",
+     "item": "4",
+     "cota": "esquemas/perfis-laminados-en10034-secao.svg#t"
+    }
+   ]
+  },
+  {
+   "titulo": "Tolerâncias da seção",
+   "item": "Tab. 1–2",
+   "texto": "Altura, largura, espessuras, falta de esquadro das mesas e descentralização da alma, por faixas.",
+   "valores": [
+    {
+     "parametro": "Altura 180 < h ≤ 400",
+     "valor": "+4,0 / −2,0 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/perfis-laminados-en10034-secao.svg#h"
+    },
+    {
+     "parametro": "Largura 110 < b ≤ 210",
+     "valor": "+4,0 / −2,0 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/perfis-laminados-en10034-secao.svg#b"
+    },
+    {
+     "parametro": "Alma 7 ≤ s < 10",
+     "valor": "± 1,0 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/perfis-laminados-en10034-secao.svg#s"
+    },
+    {
+     "parametro": "Mesa 10 ≤ t < 20",
+     "valor": "+2,5 / −1,5 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Esquadro k + k′ (b > 110)",
+     "valor": "2 % de b, máx. 6,5 mm",
+     "item": "Tab. 2",
+     "cota": "esquemas/perfis-laminados-en10034-secao.svg#k"
+    },
+    {
+     "parametro": "Descentralização da alma (110 < b ≤ 325, t < 40)",
+     "valor": "3,5 mm",
+     "item": "Tab. 2",
+     "cota": "esquemas/perfis-laminados-en10034-secao.svg#e"
+    }
+   ]
+  },
+  {
+   "titulo": "Retilinidade, massa e comprimento",
+   "item": "Tab. 3; 5–6",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Flecha — 180 < h ≤ 360 / h > 360",
+     "valor": "0,15 % L / 0,10 % L",
+     "item": "Tab. 3",
+     "cota": "esquemas/perfis-laminados-en10034-retilinidade-comprimento.svg#q"
+    },
+    {
+     "parametro": "Massa",
+     "valor": "± 4,0 %",
+     "item": "5"
+    },
+    {
+     "parametro": "Comprimento",
+     "valor": "± 50 mm (ou +100/0 com mínimo)",
+     "item": "6",
+     "cota": "esquemas/perfis-laminados-en10034-retilinidade-comprimento.svg#L"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,241 @@
+{
+ "id": "NBR-8400",
+ "titulo": "ABNT NBR 8400:1984 — Cálculo de equipamento para levantamento e movimentação de cargas",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1–4",
+   "texto": "Método de cálculo da estrutura e dos mecanismos de pontes rolantes, pórticos, guindastes com lança e equipamentos semelhantes, a partir da classificação pelo uso.",
+   "valores": []
+  },
+  {
+   "titulo": "Classificação da estrutura",
+   "item": "5.1–5.4",
+   "texto": "A estrutura recebe uma classe de utilização (número de ciclos de levantamento previstos) e um estado de carga (quanto da capacidade é usada em média). A combinação dá o grupo de 1 a 6 (Tabela 4), que fixa o coeficiente de majoração.",
+   "valores": [
+    {
+     "parametro": "Classe A / B (ciclos)",
+     "valor": "6,3 × 10⁴ / 2,0 × 10⁵",
+     "item": "5.1.1"
+    },
+    {
+     "parametro": "Estado de carga 0 / 1 / 2 / 3",
+     "valor": "P = 0 / 1/3 / 2/3 / 1",
+     "item": "5.1.2, Tab. 2"
+    },
+    {
+     "parametro": "Mx — grupos 1–3 / 4 / 5 / 6",
+     "valor": "1 / 1,06 / 1,12 / 1,20",
+     "item": "5.7.1, Tab. 10"
+    }
+   ]
+  },
+  {
+   "titulo": "Solicitações e casos de carga",
+   "item": "5.5–5.6",
+   "texto": "Peso próprio, carga içada com coeficiente dinâmico, efeitos horizontais (acelerações, choques em para-choques), vento e temperatura. Caso I sem vento, II com vento de serviço, III excepcional (vento máximo, choque, cargas de ensaio). Passadiços e plataformas têm cargas concentradas próprias.",
+   "valores": [
+    {
+     "parametro": "Caso I",
+     "valor": "Mx (SG + ψ SL + SH)",
+     "item": "5.6.1"
+    },
+    {
+     "parametro": "Caso II",
+     "valor": "Mx (SG + ψ SL + SH) + SW",
+     "item": "5.6.2"
+    },
+    {
+     "parametro": "ψ — pontes/pórticos",
+     "valor": "1,15 (vL ≤ 0,25 m/s) … 1 + 0,6 vL … 1,60 (vL ≥ 1)",
+     "item": "5.5.2, Tab. 5"
+    },
+    {
+     "parametro": "ψ — guindastes com lança",
+     "valor": "1,15 (vL ≤ 0,5) … 1 + 0,3 vL … 1,3 (vL ≥ 1)",
+     "item": "Tab. 5"
+    },
+    {
+     "parametro": "Esforço de aceleração/frenagem",
+     "valor": "1/30 a 1/4 da carga nas rodas motoras",
+     "item": "5.5.3.1"
+    },
+    {
+     "parametro": "Choque em para-choque desprezável",
+     "valor": "< 0,7 m/s",
+     "item": "5.5.3"
+    },
+    {
+     "parametro": "Carga em passadiço com material / só pessoas",
+     "valor": "3000 N / 1500 N",
+     "item": "5.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Vento e temperatura",
+   "item": "5.5.4",
+   "texto": "Pressão proporcional ao quadrado da velocidade, coeficiente aerodinâmico por forma e área exposta; velocidades de serviço e fora de serviço por faixa de altura. Vento na carga suspensa com área indicativa. Variação de temperatura para membros que não dilatam livremente; verificação de arrastamento pelo vento.",
+   "valores": [
+    {
+     "parametro": "Pressão",
+     "valor": "Pa = vw²/1,6 (N/m²)",
+     "item": "5.5.4.1"
+    },
+    {
+     "parametro": "Vento de serviço (0–20 m)",
+     "valor": "20 m/s → 250 N/m²",
+     "item": "Tab. 7"
+    },
+    {
+     "parametro": "Fora de serviço 0–20 / 20–100 / > 100 m",
+     "valor": "800 / 1100 / 1300 N/m²",
+     "item": "Tab. 7"
+    },
+    {
+     "parametro": "C — treliça de perfis / tubo",
+     "valor": "1,6 / 1,2 ou 0,7",
+     "item": "5.5.4.1",
+     "cota": "esquemas/guindaste-ponte-rolante-vento-membros.svg#D"
+    },
+    {
+     "parametro": "Área da carga suspensa (até 50 kN)",
+     "valor": "1 m² por 10 kN",
+     "item": "5.5.4.1"
+    },
+    {
+     "parametro": "Variação de temperatura",
+     "valor": "−10 °C a +50 °C",
+     "item": "5.5.4.2"
+    },
+    {
+     "parametro": "Atrito das rodas freadas (arrastamento)",
+     "valor": "0,14",
+     "item": "5.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Tensões admissíveis, fadiga e estabilidade",
+   "item": "5.8–5.14",
+   "texto": "Admissível = escoamento dividido por coeficiente que cai do caso I ao III; cisalhamento e tensão de comparação por von Mises. Fadiga com fração da tensão de ruptura a 90 % de sobrevivência. Estabilidade ao tombamento com majorações (Tabela 17).",
+   "valores": [
+    {
+     "parametro": "Admissível — Caso I / II / III",
+     "valor": "σe/1,5 / σe/1,33 / σe/1,1",
+     "item": "5.8.1.1, Tab. 12"
+    },
+    {
+     "parametro": "Cisalhamento",
+     "valor": "σa/√3",
+     "item": "5.8.1.2"
+    },
+    {
+     "parametro": "Fadiga",
+     "valor": "0,75 σ90%",
+     "item": "5.10"
+    },
+    {
+     "parametro": "Estabilidade estática",
+     "valor": "1,6 × carga nominal",
+     "item": "Tab. 17"
+    }
+   ]
+  },
+  {
+   "titulo": "Flecha, contraflecha e ensaios",
+   "item": "5.15",
+   "texto": "A contraflecha da viga compensa o peso próprio e metade do carro com a carga; a flecha só é limitada se o usuário pedir. Ensaio dinâmico com sobrecarga em todos os movimentos e ensaio estático com sobrecarga maior.",
+   "valores": [
+    {
+     "parametro": "Contraflecha",
+     "valor": "peso próprio + 50 % (carro + carga)",
+     "item": "5.15"
+    },
+    {
+     "parametro": "Ensaio dinâmico",
+     "valor": "120 % da carga nominal",
+     "item": "5.15.1"
+    },
+    {
+     "parametro": "Ensaio estático",
+     "valor": "140 % da carga nominal",
+     "item": "5.15.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Mecanismos",
+   "item": "6.1–6.6",
+   "texto": "Classe de funcionamento (horas médias por dia) e estado de solicitação (média cúbica da carga) dão o grupo do mecanismo (1Bm a 5m); tarefas perigosas sobem um grupo. Admissível dos elementos pela ruptura, com fator por grupo e caso; fadiga com coeficiente próprio.",
+   "valores": [
+    {
+     "parametro": "Classe V0,25 / V1 / V2",
+     "valor": "≤ 0,5 h / 1–2 h / 2–4 h por dia",
+     "item": "6.1"
+    },
+    {
+     "parametro": "Estado de solicitação 1 / 2 / 3",
+     "valor": "K ≤ 0,53 / ≤ 0,67 / ≤ 0,85",
+     "item": "6.1.3.3"
+    },
+    {
+     "parametro": "Caso III do levantamento",
+     "valor": "1,6 × (SML + SMF)",
+     "item": "6.5.1"
+    },
+    {
+     "parametro": "FSr — Casos I-II / III",
+     "valor": "2,8 / 2",
+     "item": "6.6.1, Tab. 25"
+    },
+    {
+     "parametro": "q — 1Bm … 5m",
+     "valor": "1 / 1 / 1,12 / 1,25 / 1,40 / 1,60",
+     "item": "Tab. 24"
+    }
+   ]
+  },
+  {
+   "titulo": "Cabos, tambores, polias e rodas",
+   "item": "6.7",
+   "texto": "O diâmetro mínimo do cabo sai da tração máxima e de um coeficiente por grupo (maior para cabo não rotativo). O diâmetro de enrolamento em tambor e polias é múltiplo do cabo, com coeficientes por grupo e pelo número de flexões. Ângulo de desvio na ranhura limitado. Rodas verificadas por pressão de contato.",
+   "valores": [
+    {
+     "parametro": "Diâmetro do cabo",
+     "valor": "dc = Q·√T",
+     "item": "6.7.2.1",
+     "cota": "esquemas/guindaste-ponte-rolante-nbr8400-de-dc.svg#dc"
+    },
+    {
+     "parametro": "Q — 1Am / 3m / 5m (cabo normal)",
+     "valor": "0,280 / 0,335 / 0,425",
+     "item": "Tab. 27"
+    },
+    {
+     "parametro": "Enrolamento",
+     "valor": "De ≥ H1·H2·dc",
+     "item": "6.7.3",
+     "cota": "esquemas/guindaste-ponte-rolante-nbr8400-de-dc.svg#De-tambor"
+    },
+    {
+     "parametro": "H2 — WT ≤ 5 / 6–9 / ≥ 10",
+     "valor": "1 / 1,12 / 1,25",
+     "item": "Tab. 29"
+    },
+    {
+     "parametro": "Desvio cabo–ranhura do tambor",
+     "valor": "≤ 3,5°",
+     "item": "6.7.2.2",
+     "cota": "esquemas/guindaste-ponte-rolante-desvio-cabo-ranhura.svg#alfa1"
+    },
+    {
+     "parametro": "Validade das fórmulas de roda",
+     "valor": "Dr ≤ 1,250 m",
+     "item": "6.7.4",
+     "cota": "esquemas/guindaste-ponte-rolante-roda-trilho.svg#Dr"
+    }
+   ]
+  }
+ ]
+}

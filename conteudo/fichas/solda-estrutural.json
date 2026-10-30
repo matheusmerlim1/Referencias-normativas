@@ -1,0 +1,480 @@
+{
+  "id": "solda-estrutural",
+  "titulo": "Solda estrutural (aço)",
+  "categoria": "Estruturas e fabricação",
+  "resumo": "Soldagem de estruturas de aço pela AWS D1.1/D1.1M:2020: condições (vento, temperatura), pré-aquecimento mínimo, filete mínimo, montagem e desalinhamento, tolerâncias de peças soldadas, perfil da solda (sobreespessura, convexidade) e critérios de aceitação visual e radiográfica.",
+  "palavras_chave": [
+    "solda",
+    "soldagem",
+    "welding",
+    "weld",
+    "AWS D1.1",
+    "D1.1",
+    "filete",
+    "fillet",
+    "pré-aquecimento",
+    "preheat",
+    "interpasse",
+    "interpass",
+    "mordedura",
+    "undercut",
+    "porosidade",
+    "porosity",
+    "sobreespessura",
+    "reforço",
+    "reinforcement",
+    "convexidade",
+    "convexity",
+    "desalinhamento",
+    "misalignment",
+    "hi-lo",
+    "folga de raiz",
+    "root opening",
+    "contraflecha",
+    "camber",
+    "sweep",
+    "inspeção visual",
+    "visual inspection",
+    "trinca",
+    "crack",
+    "eletrodo",
+    "E7018",
+    "baixo hidrogênio",
+    "low hydrogen"
+  ],
+  "relacionadas": [
+    "tolerancias-fabricacao-estrutural",
+    "norma-asme-ix-2007"
+  ],
+  "figuras": [
+    {
+      "arquivo": "esquemas/solda-estrutural-filete-minimo-espessura.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — solda de filete em junta T: tamanho do filete (perna), garganta teórica e espessuras T1 (mais fina) e T2 (mais grossa) usadas na Tabela 7.7",
+      "norma": "AWS-D1.1",
+      "item": "Esquema",
+      "pagina": 80,
+      "grupo": [
+        "Tamanho de filete",
+        "Aceitação visual (Tabela 8.1)"
+      ],
+      "nota": "Valores/símbolos transcritos desta ficha (notas a–c da Tabela 7.7); desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — viga/coluna soldada: empeno + inclinação da mesa, largura b, altura d, desvio entre eixos de alma e mesa, flecha (retilineidade) e sweep (desvio lateral) ao longo de L",
+      "norma": "AWS-D1.1",
+      "item": "Esquema",
+      "pagina": 230,
+      "grupo": "Tolerâncias dimensionais de peças soldadas",
+      "nota": "Valores/símbolos transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/solda-estrutural-aceitacao-visual.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — critérios visuais da Tabela 8.1: filete abaixo do nominal (perna real × L nominal), profundidade da mordedura e porosidade (Ø do poro por comprimento de solda)",
+      "norma": "AWS-D1.1",
+      "item": "Esquema",
+      "pagina": 268,
+      "grupo": "Aceitação visual (Tabela 8.1)",
+      "nota": "Valores/símbolos transcritos desta ficha; desenho feito para visualização."
+    },
+    {
+      "arquivo": "esquemas/solda-estrutural-montagem-junta.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — montagem de juntas: ângulo do chanfro, face de raiz e abertura de raiz (junta de topo), desalinhamento entre peças, correção por rampa e folga de raiz em filete / cobre-junta",
+      "norma": "AWS-D1.1",
+      "pagina": 240,
+      "grupo": "Montagem e tolerâncias de junta",
+      "item": "Esquema"
+    },
+    {
+      "arquivo": "esquemas/solda-estrutural-perfil-solda.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — perfil da solda: reforço R de solda de topo, convexidade C e largura da face W de filete, canto externo com chanfro (Schedules A a D)",
+      "norma": "AWS-D1.1",
+      "pagina": 241,
+      "grupo": "Perfil da solda",
+      "item": "Esquema"
+    },
+    {
+      "arquivo": "esquemas/solda-estrutural-planicidade-contraflecha.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — painel de alma entre enrijecedores (d = menor dimensão do painel), desvio de planicidade medido com régua, folga do enrijecedor até a mesa e contraflecha no meio do vão",
+      "norma": "AWS-D1.1",
+      "pagina": 584,
+      "grupo": "Tolerâncias dimensionais de peças soldadas",
+      "item": "Esquema"
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Condições de soldagem e pré-aquecimento",
+      "parametro": "Vento máximo junto à solda (processos com gás)",
+      "valor": "GMAW, GTAW, EGW ou FCAW-G só com abrigo que reduza o vento junto à solda a no máximo 8 km/h (5 mph)",
+      "max": 8,
+      "unidade": "km/h",
+      "norma": "AWS-D1.1",
+      "item": "7.11.1",
+      "pagina": 222
+    },
+    {
+      "grupo": "Condições de soldagem e pré-aquecimento",
+      "parametro": "Temperatura mínima / condições",
+      "valor": "Não soldar com temperatura (junto à solda) abaixo de −20 °C (0 °F), superfícies molhadas ou expostas a chuva/neve, vento forte ou soldador exposto ao tempo",
+      "min": -20,
+      "unidade": "°C",
+      "norma": "AWS-D1.1",
+      "item": "7.11.2",
+      "pagina": 222,
+      "nota": "A nota explica que vale a temperatura imediatamente junto à solda (abrigo aquecido permitido)."
+    },
+    {
+      "grupo": "Condições de soldagem e pré-aquecimento",
+      "parametro": "Pré-aquecimento mínimo — Categoria A (SMAW com eletrodo NÃO baixo hidrogênio; ex. ASTM A36, A53 B, A106 B, A516 55/60, API 5L B/X42)",
+      "valor": "Espessura do mais espesso: 3–20 mm: 0 °C (32 °F) ᵃ; >20–38 mm: 65 °C (150 °F); >38–65 mm: 110 °C (225 °F); >65 mm: 150 °C (300 °F)",
+      "norma": "AWS-D1.1",
+      "item": "5.7; Tabela 5.8",
+      "pagina": 107,
+      "nota": "ᵃ Metal de base abaixo de 0 °C: pré-aquecer a ≥ 20 °C (70 °F) e manter a interpasse mínima (nota a). Valores conferidos no texto da tabela (OCR)."
+    },
+    {
+      "grupo": "Condições de soldagem e pré-aquecimento",
+      "parametro": "Pré-aquecimento mínimo — Categoria B (SMAW baixo hidrogênio, SAW, GMAW, FCAW; ex. A36, A572 Gr 50, A992, A516 70, API 5L B/X42, ABS AH/DH/EH 32/36)",
+      "valor": "3–20 mm: 0 °C ᵃ; >20–38 mm: 10 °C (50 °F); >38–65 mm: 65 °C (150 °F); >65 mm: 110 °C (225 °F)",
+      "norma": "AWS-D1.1",
+      "item": "5.7; Tabela 5.8",
+      "pagina": 107,
+      "nota": "ᵃ Abaixo de 0 °C: pré-aquecer a ≥ 20 °C (nota a). Na continuação da tabela alguns aços da categoria B têm valores próprios — confira o aço específico na tabela."
+    },
+    {
+      "grupo": "Condições de soldagem e pré-aquecimento",
+      "parametro": "Exposição de eletrodos baixo hidrogênio (A5.1)",
+      "valor": "E70XX: até 4 h; E70XXR, E70XXHZR, E7018M: até 9 h (coluna A); depois disso, ressecar; A5.5 E80XX-X 2 h, E90XX-X 1 h, E100/E110XX-X 1/2 h",
+      "norma": "AWS-D1.1",
+      "item": "7.3.2; Tabela 7.1",
+      "pagina": 234,
+      "nota": "Tabela lida na imagem da página."
+    },
+    {
+      "grupo": "Tamanho de filete",
+      "parametro": "Filete mínimo (Tabela 7.7)",
+      "valor": "T ≤ 6 mm: 3 mm ᶜ; 6 < T ≤ 12: 5 mm; 12 < T ≤ 20: 6 mm; T > 20 mm: 8 mm",
+      "min": 3,
+      "unidade": "mm",
+      "norma": "AWS-D1.1",
+      "item": "7.13; Tabela 7.7",
+      "pagina": 236,
+      "nota": "Tabela lida na imagem. T = espessura do mais espesso (processo sem baixo hidrogênio sem pré-aquecimento calculado) ou do mais fino (baixo hidrogênio / procedimento contra trinca); a solda não precisa exceder a espessura da peça mais fina; ᶜ estrutura com carga cíclica: mínimo 5 mm. Desenho com filete maior prevalece.",
+      "cota": "esquemas/solda-estrutural-filete-minimo-espessura.svg#perna"
+    },
+    {
+      "grupo": "Montagem e tolerâncias de junta",
+      "parametro": "Folga de raiz em junta de filete",
+      "valor": "Peças em contato o mais próximo possível; folga ≤ 5 mm (3/16 in) — até 8 mm (5/16 in) com cobre-junta em peças ≥ 75 mm que não fecham; se a folga > 2 mm, aumentar a perna do filete pela folga ou demonstrar a garganta",
+      "max": 5,
+      "unidade": "mm",
+      "norma": "AWS-D1.1",
+      "item": "7.21.1",
+      "pagina": 227,
+      "nota": "PDF com texto de OCR (a numeração aparece como \"1.21\", \"Z.22\" etc. — é 7.21, 7.22).",
+      "cota": "esquemas/solda-estrutural-montagem-junta.svg#folga-filete"
+    },
+    {
+      "grupo": "Montagem e tolerâncias de junta",
+      "parametro": "Folga entre superfícies (plug/slot, junta sobre cobre-junta)",
+      "valor": "≤ 2 mm (1/16 in)",
+      "max": 2,
+      "unidade": "mm",
+      "norma": "AWS-D1.1",
+      "item": "7.21.1.1",
+      "pagina": 227,
+      "cota": "esquemas/solda-estrutural-montagem-junta.svg#folga-cobre-junta"
+    },
+    {
+      "grupo": "Montagem e tolerâncias de junta",
+      "parametro": "Desalinhamento em junta de topo",
+      "valor": "Desvio ≤ 10 % da espessura da peça mais fina ou 3 mm (1/8 in), o que for MENOR; na correção, inclinação ≤ 12 mm em 300 mm; medir pela linha de centro",
+      "max": 3,
+      "unidade": "mm",
+      "norma": "AWS-D1.1",
+      "item": "7.21.3",
+      "pagina": 227,
+      "cota": "esquemas/solda-estrutural-montagem-junta.svg#offset"
+    },
+    {
+      "grupo": "Montagem e tolerâncias de junta",
+      "parametro": "Correção de folga de raiz grande",
+      "valor": "Folga maior que a tolerância, até 2 × a espessura da mais fina ou 20 mm (o menor), pode ser corrigida por solda antes de unir as peças; acima disso só com aprovação do Engenheiro",
+      "norma": "AWS-D1.1",
+      "item": "7.21.4.2; 7.21.4.3",
+      "pagina": 227,
+      "cota": "esquemas/solda-estrutural-montagem-junta.svg#abertura"
+    },
+    {
+      "grupo": "Tolerâncias dimensionais de peças soldadas",
+      "parametro": "Retilineidade de colunas e treliças soldadas",
+      "valor": "L < 9 m: 1 mm × L(m) [1/8 in × L(ft)/10]; 9 m ≤ L ≤ 15 m: 10 mm; L > 15 m: 10 mm + 3 mm × (L − 15)/10",
+      "norma": "AWS-D1.1",
+      "item": "7.22.1",
+      "pagina": 228,
+      "nota": "PDF com texto de OCR (a numeração aparece como \"1.21\", \"Z.22\" etc. — é 7.21, 7.22).",
+      "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#flecha"
+    },
+    {
+      "grupo": "Tolerâncias dimensionais de peças soldadas",
+      "parametro": "Retilineidade de vigas sem contraflecha",
+      "valor": "1 mm × L(m) [1/8 in × L(ft)/10]",
+      "norma": "AWS-D1.1",
+      "item": "7.22.2",
+      "pagina": 228,
+      "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#flecha"
+    },
+    {
+      "grupo": "Tolerâncias dimensionais de peças soldadas",
+      "parametro": "Contraflecha de vigas (típica)",
+      "valor": "No meio do vão: −0 / +40 mm (vão ≥ 30 m) ou −0 / +20 mm (vão < 30 m); apoios de extremidade 0; apoios internos ± 3 mm; pontos intermediários pela fórmula 4(a)b(1 − a/S)/S",
+      "norma": "AWS-D1.1",
+      "item": "7.22.3",
+      "pagina": 228,
+      "nota": "Tabela 7.5 com valores tabulados. Sem carga ao medir.",
+      "cota": "esquemas/solda-estrutural-planicidade-contraflecha.svg#contraflecha"
+    },
+    {
+      "grupo": "Tolerâncias dimensionais de peças soldadas",
+      "parametro": "Desvio lateral (sweep) de vigas",
+      "valor": "± 1 mm × L(m) [± 1/8 in × L(ft)/10] no meio do vão",
+      "norma": "AWS-D1.1",
+      "item": "7.22.5",
+      "pagina": 229,
+      "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#sweep"
+    },
+    {
+      "grupo": "Tolerâncias dimensionais de peças soldadas",
+      "parametro": "Planicidade de alma — carga estática",
+      "valor": "Enrijecedores dos 2 lados: D/t < 150 → d/100; D/t ≥ 150 → d/80; enrijecedores de 1 lado: D/t < 100 → d/100; ≥ 100 → d/67; sem enrijecedores (D/t ≥ 100): D/150",
+      "norma": "AWS-D1.1",
+      "item": "7.22.6.2",
+      "pagina": 229,
+      "nota": "d = menor dimensão do painel; D = altura da alma; t = espessura. Carga cíclica tem limites mais severos (7.22.6.3).",
+      "cota": "esquemas/solda-estrutural-planicidade-contraflecha.svg#desvio-alma"
+    },
+    {
+      "grupo": "Tolerâncias dimensionais de peças soldadas",
+      "parametro": "Desvio entre eixos de alma e mesa (perfil H/I soldado)",
+      "valor": "≤ 6 mm (1/4 in)",
+      "max": 6,
+      "unidade": "mm",
+      "norma": "AWS-D1.1",
+      "item": "7.22.7",
+      "pagina": 230,
+      "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#desvio-alma-mesa"
+    },
+    {
+      "grupo": "Tolerâncias dimensionais de peças soldadas",
+      "parametro": "Empeno + inclinação da mesa",
+      "valor": "≤ 1 % da largura total da mesa ou 6 mm (1/4 in), o que for MAIOR",
+      "norma": "AWS-D1.1",
+      "item": "7.22.8",
+      "pagina": 230,
+      "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#empeno"
+    },
+    {
+      "grupo": "Tolerâncias dimensionais de peças soldadas",
+      "parametro": "Variação da altura da viga",
+      "valor": "Até 1 m: ± 3 mm; > 1 m a 2 m: ± 5 mm; > 2 m: +8 / −5 mm",
+      "norma": "AWS-D1.1",
+      "item": "7.22.9",
+      "pagina": 230,
+      "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#altura"
+    },
+    {
+      "grupo": "Tolerâncias dimensionais de peças soldadas",
+      "parametro": "Apoio nos pontos de carga",
+      "valor": "Enrijecedor de apoio com ≥ 75 % da área em contato; mesa sobre base: 0,25 mm em 75 % da área projetada e ≤ 1 mm no restante",
+      "norma": "AWS-D1.1",
+      "item": "7.22.10",
+      "pagina": 230
+    },
+    {
+      "grupo": "Tolerâncias dimensionais de peças soldadas",
+      "parametro": "Enrijecedores",
+      "valor": "Ajuste \"justo\" = folga ≤ 2 mm até a mesa; retilineidade de intermediários ≤ 12 mm (vigas até 1,8 m de altura) / 20 mm (> 1,8 m); de apoio ≤ 6 mm / 12 mm",
+      "norma": "AWS-D1.1",
+      "item": "7.22.11",
+      "pagina": 230,
+      "cota": "esquemas/solda-estrutural-planicidade-contraflecha.svg#folga-enrijecedor"
+    },
+    {
+      "grupo": "Perfil da solda",
+      "parametro": "Sobreespessura (reforço) de solda de topo — Schedule A",
+      "valor": "t ≤ 25 mm: R máx. 3 mm; 25 < t ≤ 50: 5 mm; t > 50: 6 mm (carga cíclica: 5 mm); R mín. 0",
+      "max": 6,
+      "unidade": "mm",
+      "norma": "AWS-D1.1",
+      "item": "7.23; Tabelas 7.8 e 7.9",
+      "pagina": 237,
+      "nota": "Tabela lida na imagem. t = espessura da mais espessa (CJP) ou tamanho da solda (PJP).",
+      "cota": "esquemas/solda-estrutural-perfil-solda.svg#R"
+    },
+    {
+      "grupo": "Perfil da solda",
+      "parametro": "Convexidade de filete — Schedule C",
+      "valor": "Largura da face W ≤ 8 mm: C máx. 2 mm; 8 < W < 25: 3 mm; W ≥ 25 mm: 5 mm; concavidade livre desde que perna e garganta mínimas sejam atingidas",
+      "max": 5,
+      "unidade": "mm",
+      "norma": "AWS-D1.1",
+      "item": "7.23; Tabela 7.9",
+      "pagina": 237,
+      "cota": "esquemas/solda-estrutural-perfil-solda.svg#C"
+    },
+    {
+      "grupo": "Perfil da solda",
+      "parametro": "Canto externo e groove de canto — Schedules B e D",
+      "valor": "B: R mín. 0, R máx. ilimitado, C máx. 3 mm (t < 25) / 5 mm (t ≥ 25); D: C máx. t/2",
+      "norma": "AWS-D1.1",
+      "item": "Tabela 7.9",
+      "pagina": 237,
+      "cota": "esquemas/solda-estrutural-perfil-solda.svg#C-canto"
+    },
+    {
+      "grupo": "Aceitação visual (Tabela 8.1)",
+      "parametro": "Trinca e fusão",
+      "valor": "Nenhuma trinca, de qualquer tamanho ou posição; fusão completa entre camadas e com o metal de base; crateras preenchidas",
+      "norma": "AWS-D1.1",
+      "item": "Tabela 8.1 (1)(2)(3)",
+      "pagina": 268
+    },
+    {
+      "grupo": "Aceitação visual (Tabela 8.1)",
+      "parametro": "Momento da inspeção visual",
+      "valor": "Logo após esfriar à temperatura ambiente; ASTM A514, A517 e A709 HPS 100W: ≥ 48 h após a solda",
+      "min": 48,
+      "unidade": "h",
+      "norma": "AWS-D1.1",
+      "item": "Tabela 8.1 (5)",
+      "pagina": 268
+    },
+    {
+      "grupo": "Aceitação visual (Tabela 8.1)",
+      "parametro": "Filete abaixo do nominal (underrun)",
+      "valor": "L ≤ 5 mm: até 2 mm a menos; L = 6 mm: 2,5 mm; L ≥ 8 mm: 3 mm; trecho subdimensionado ≤ 10 % do comprimento; proibido nas pontas de solda alma–mesa num comprimento de 2 × a largura da mesa",
+      "norma": "AWS-D1.1",
+      "item": "Tabela 8.1 (6)",
+      "pagina": 268,
+      "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#perna-real"
+    },
+    {
+      "grupo": "Aceitação visual (Tabela 8.1)",
+      "parametro": "Mordedura (undercut) — carga estática",
+      "valor": "Material < 25 mm: ≤ 1 mm (até 2 mm num total de 50 mm a cada 300 mm); material ≥ 25 mm: ≤ 2 mm em qualquer comprimento",
+      "max": 2,
+      "unidade": "mm",
+      "norma": "AWS-D1.1",
+      "item": "Tabela 8.1 (7)(A)",
+      "pagina": 268,
+      "nota": "Coluna (estática × cíclica) conferida na imagem.",
+      "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#mordedura"
+    },
+    {
+      "grupo": "Aceitação visual (Tabela 8.1)",
+      "parametro": "Mordedura — carga cíclica",
+      "valor": "Membros principais com solda transversal à tração: ≤ 0,25 mm; demais casos ≤ 1 mm",
+      "max": 1,
+      "unidade": "mm",
+      "norma": "AWS-D1.1",
+      "item": "Tabela 8.1 (7)(B)",
+      "pagina": 268,
+      "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#mordedura"
+    },
+    {
+      "grupo": "Aceitação visual (Tabela 8.1)",
+      "parametro": "Porosidade — carga estática",
+      "valor": "CJP de topo transversal à tração: sem porosidade visível; demais: soma dos poros ≥ 1 mm ≤ 10 mm em 25 mm de solda e ≤ 20 mm em 300 mm",
+      "norma": "AWS-D1.1",
+      "item": "Tabela 8.1 (8)(A)",
+      "pagina": 268,
+      "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#poro"
+    },
+    {
+      "grupo": "Aceitação visual (Tabela 8.1)",
+      "parametro": "Porosidade — carga cíclica",
+      "valor": "Filete: no máximo 1 poro a cada 100 mm, Ø ≤ 2,5 mm (filete de enrijecedor na alma: soma ≤ 10 mm/25 mm e ≤ 20 mm/300 mm); CJP de topo transversal à tração: nenhum; demais groove: 1 a cada 100 mm, Ø ≤ 2,5 mm",
+      "norma": "AWS-D1.1",
+      "item": "Tabela 8.1 (8)(B)(C)",
+      "pagina": 268,
+      "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#poro"
+    },
+    {
+      "grupo": "Aceitação visual (Tabela 8.1)",
+      "parametro": "Radiografia — carga estática (resumo)",
+      "valor": "Sem trincas; descontinuidade arredondada ≤ S/3 e ≤ 6 mm (≤ 10 mm se S > 50 mm); soma das < 2,5 mm ≤ 2S/3 ou 10 mm (o menor) em 25 mm; alinhadas: soma ≤ S em 6S",
+      "norma": "AWS-D1.1",
+      "item": "8.12.1",
+      "pagina": 249,
+      "nota": "Limites de alongadas pela Figura 8.1. S = tamanho da solda."
+    }
+  ],
+  "tabelas": [
+    {
+      "id": "awsd11-tab7-7-filete-min",
+      "titulo": "AWS D1.1 — Tabela 7.7: filete mínimo",
+      "norma": "AWS-D1.1",
+      "item": "Tabela 7.7",
+      "pagina": 236,
+      "unidade": "mm",
+      "colunas": [
+        "Espessura do metal de base T (mm)",
+        "T (in)",
+        "Filete mínimo (mm)",
+        "Filete mínimo (in)"
+      ],
+      "linhas": [
+        [
+          "T ≤ 6",
+          "T ≤ 1/4",
+          "3 (5 em carga cíclica)",
+          "1/8"
+        ],
+        [
+          "6 < T ≤ 12",
+          "1/4 < T ≤ 1/2",
+          "5",
+          "3/16"
+        ],
+        [
+          "12 < T ≤ 20",
+          "1/2 < T ≤ 3/4",
+          "6",
+          "1/4"
+        ],
+        [
+          "20 < T",
+          "3/4 < T",
+          "8",
+          "5/16"
+        ]
+      ],
+      "nota": "Lida na imagem da página. Ver notas a–c no requisito.",
+      "consulta": false,
+      "figuras": [
+        "esquemas/solda-estrutural-filete-minimo-espessura.svg"
+      ],
+      "cotas": {
+        "Espessura do metal de base T (mm)": "esquemas/solda-estrutural-filete-minimo-espessura.svg#T2",
+        "T (in)": "esquemas/solda-estrutural-filete-minimo-espessura.svg#T2",
+        "Filete mínimo (mm)": "esquemas/solda-estrutural-filete-minimo-espessura.svg#perna",
+        "Filete mínimo (in)": "esquemas/solda-estrutural-filete-minimo-espessura.svg#perna"
+      }
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "info",
+      "texto": "Fonte: AWS D1.1/D1.1M:2020 (24ª ed.) — no PDF de referencias/ parte das tabelas é imagem e o texto é de OCR; valores das Tabelas 7.1, 7.7, 7.9 e 8.1 conferidos na imagem. Há também a edição 2004 no acervo (numeração antiga: fabricação na Seção 5, inspeção na Seção 6). Para tubulares (cap. 10) há critérios próprios (ex. Tabela 10.15 de aceitação visual)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Desalinhamento de topo: AWS D1.1 ≤ 10 % da espessura da mais fina ou 3 mm (o menor) quando as peças estão restringidas; a API RP 2A (ficha de tolerâncias) e códigos de vaso/tubulação (ASME VIII UW-33, B31.3) têm limites próprios — use o código do equipamento."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Na inspeção visual: primeiro trincas e fusão, depois perfil (sobreespessura/convexidade pela Tabela 7.9), mordedura e porosidade pela coluna certa (estática × cíclica) da Tabela 8.1, e o filete abaixo do nominal (até 10 % do comprimento)."
+    }
+  ]
+}

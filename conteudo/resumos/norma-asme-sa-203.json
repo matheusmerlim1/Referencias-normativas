@@ -1,0 +1,114 @@
+{
+ "id": "ASME-SA-203",
+ "titulo": "SA-203 — Chapas de aço liga ao níquel para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço ao níquel para vasos de pressão soldados (serviço em baixa temperatura). Graus A e B com 2,25 % Ni; D, E e F com 3,50 % Ni. Requisitos gerais pela SA-20.",
+   "valores": [
+    {
+     "parametro": "Espessura máx. usual — A e B",
+     "valor": "6 in [150 mm]",
+     "item": "1.3"
+    },
+    {
+     "parametro": "Espessura máx. usual — D, E e F",
+     "valor": "4 in [100 mm]",
+     "item": "1.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4, 5",
+   "texto": "Aço acalmado de grão fino. Graus A, B, D e E normalizados (ou, com aprovação do comprador, resfriamento mais rápido seguido de revenimento). Grau F: austenitizado, temperado em água e revenido.",
+   "valores": [
+    {
+     "parametro": "Revenimento após resfriamento acelerado (A, B, D, E)",
+     "valor": "≥ 1100 °F [595 °C] por ≥ 1/2 h",
+     "item": "5.1.1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx. até 2 in [50 mm] — A / B / D / E e F",
+     "valor": "0,17 / 0,21 / 0,17 / 0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx. (corrida) — até 2 in / acima",
+     "valor": "0,70 % / 0,80 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,15–0,40 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni — A e B",
+     "valor": "2,10–2,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni — D, E e F",
+     "valor": "3,25–3,75 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "A e D — Su / Sy mín.",
+     "valor": "65–85 ksi [450–585 MPa] / 37 ksi [255 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "B e E — Su / Sy mín.",
+     "valor": "70–90 ksi [485–620 MPa] / 40 ksi [275 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "F até 2 in — Su / Sy mín.",
+     "valor": "80–100 ksi [550–690 MPa] / 55 ksi [380 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "F acima de 2 in — Su / Sy mín.",
+     "valor": "75–95 ksi [515–655 MPa] / 50 ksi [345 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. 50 mm — A,D / B,E / F",
+     "valor": "23 / 21 / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. 200 mm — A,D / B,E",
+     "valor": "19 / 17 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "Suplementares",
+   "texto": "Opcionais da SA-20, só quando pedidos: tratamento a vácuo, análise de produto, TTAT simulado nos corpos de prova, Charpy V, queda de peso (drop weight), tração a quente, ultrassom (A435, A577, A578), partículas magnéticas, dobramento e aço desoxidado ao carbono sob vácuo."
+  }
+ ]
+}

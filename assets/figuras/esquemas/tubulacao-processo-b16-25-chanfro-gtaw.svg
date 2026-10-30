@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 520" width="940" height="520" role="img" aria-label="Chanfros para raiz em GTAW (ASME B16.25) — ângulos, nariz (land), raio, altura e C">
+<title>Chanfros para raiz em GTAW (ASME B16.25) — ângulos, nariz (land), raio, altura e C (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Chanfros para raiz em GTAW (ASME B16.25) — ângulos, nariz (land), raio, altura e C</text>
+<text class="b" x="40" y="70">(a) Parede fina: chanfro reto</text>
+<path class="s" d="M60,240 L260,240 L300,288 L300,300 L60,300 z"/>
+<line class="e" x1="300" y1="288" x2="300" y2="210"/>
+<g id="cota-angulo-37" class="cota"><path class="d" d="M300,218 A70,70 0 0,0 257.4,232.5" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="271.1" y="207.8">ângulo</text></g>
+<g id="cota-t" class="cota"><line class="e" x1="57" y1="240" x2="29" y2="240"/><line class="e" x1="57" y1="300" x2="29" y2="300"/><line class="d" x1="35" y1="240" x2="35" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text x="42" y="275">t</text></g>
+<text class="b" x="420" y="70">(b) Parede média/espessa: chanfro em J</text>
+<path class="s" d="M420,150 L765.0080703390298,150 L774.8823812587038,180 L804,260 A26,26 0 0 0 830,286 L860,286 L860,300 L420,300 z"/>
+<line class="e" x1="804" y1="260" x2="804" y2="120"/>
+<g id="cota-angulo-20" class="cota"><path class="d" d="M804,190 A70,70 0 0,0 780.1,194.2" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="787.5" y="171.4">flanco inferior</text></g>
+<g id="cota-altura" class="cota"><line class="d" x1="880" y1="300" x2="880" y2="180" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="890" y="168">altura do flanco</text></g>
+<g id="cota-land" class="cota"><line class="d" x1="861" y1="260" x2="861" y2="286" marker-end="url(#a)"/><line class="d" x1="861" y1="326" x2="861" y2="300" marker-end="url(#a)"/><line class="d" x1="861" y1="286" x2="861" y2="300"/><text class="en" x="800" y="330">nariz (land)</text></g>
+<g id="cota-raio" class="cota"><line class="d" x1="810" y1="355" x2="811.8" y2="278.2" marker-end="url(#a)"/><text class="en" x="806" y="360">raio</text></g>
+<g id="cota-C" class="cota"><line class="d" x1="500" y1="300" x2="500" y2="390" marker-start="url(#a)" marker-end="url(#a)"/><text x="506" y="370">C/2 (Ø médio usinado)</text></g>
+<line class="c" x1="410" y1="390" x2="890" y2="390"/>
+<g id="cota-t-j" class="cota"><line class="e" x1="417" y1="150" x2="389" y2="150"/><line class="e" x1="417" y1="300" x2="389" y2="300"/><line class="d" x1="395" y1="150" x2="395" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text x="402" y="230">t</text></g>
+<text class="n" x="420" y="470">Tipo A: degrau no rebaixo; Tipo B: concordância com raio (ver ficha)</text>
+<text class="n" x="20" y="508">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

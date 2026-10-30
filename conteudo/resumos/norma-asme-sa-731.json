@@ -1,0 +1,83 @@
+{
+ "id": "ASME-SA-731",
+ "titulo": "SA-731 — Tubos de aço inoxidável ferrítico e martensítico com e sem costura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de aço inoxidável ferrítico e martensítico ('cromo puro', ferromagnéticos), com ou sem costura, para alta temperatura e serviço corrosivo geral. Os ferríticos de alto cromo são muito sensíveis à fragilidade ao entalhe se resfriados lentamente. Requisitos gerais pela SA-530."
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "5",
+   "texto": "Sem costura ou soldado automaticamente sem metal de adição; decapado sem carepa. Tratamento final por aquecimento e resfriamento adequado ao grau.",
+   "valores": [
+    {
+     "parametro": "Temperatura mín. do tratamento final",
+     "valor": "1400 °F [760 °C]",
+     "item": "5.2",
+     "nota": "limite geral lido no texto; o grau S41500 pode ter regra própria — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "18Cr-2Mo (S44400) — C máx.",
+     "valor": "0,025 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "TP439 (S43035) — C máx. / Mn máx.",
+     "valor": "0,07 % / 1,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "29-4 (S44700) — C máx.",
+     "valor": "0,010 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "18Cr-2Mo",
+     "valor": "60 000 psi [415] / 40 000 psi [275] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "TPXM-27, TPXM-33",
+     "valor": "65 000 psi [450] / 40 000 psi [275] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "TP439",
+     "valor": "60 000 psi [415] / 30 000 psi [205] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "S41500",
+     "valor": "115 ksi [795] / 90 ksi [620] / 15 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "29-4, 29-4-2",
+     "valor": "80 000 psi [550] / 60 000 psi [415] / 20 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "7, 9, 12",
+   "texto": "Análise de produto por corrida se pedida; tração em 1 % dos tubos do lote. Marcação da SA-530 + identificação do fabricante."
+  }
+ ]
+}

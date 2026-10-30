@@ -1,0 +1,23 @@
+{
+ "id": "NBR-ISO-3108",
+ "titulo": "ABNT NBR ISO 3108:1998 — Cabos de aço para uso geral — Determinação da carga de ruptura real",
+ "secoes": [
+  {"titulo": "Objetivo", "item": "1",
+   "texto": "Método de tração até a ruptura para obter a carga de ruptura real de cabos de aço de uso geral e de grande diâmetro (ISO 2408; no Brasil, à época, NBR 6327). Serve também para outros cabos quando a norma deles não indicar outro método.",
+   "valores": []},
+  {"titulo": "Comprimento e peça de ensaio", "item": "2–3",
+   "texto": "Distância mínima entre garras tabelada por diâmetro; a peça inclui ainda o comprimento de fixação. A peça deve representar o cabo e estar sem defeitos; as pontas (e o cabo de onde sai) são amarradas antes do corte para as pernas não abrirem. A fixação deve fazer todos os arames trabalharem — soquetes cônicos com boa penetração do material de fundição ajudam.",
+   "valores": [
+    {"parametro": "Comprimento mínimo de ensaio por diâmetro", "valor": "tabela do item 2", "item": "2", "nota": "valores da tabela não saíram no texto extraído — conferir"}
+   ]},
+  {"titulo": "Ensaio", "item": "4",
+   "texto": "Carga rápida só até 80 % da ruptura mínima; o restante, devagar. A ruptura real é a máxima força que não pode mais ser aumentada. Rupturas dentro ou junto das garras abaixo da mínima podem ser descartadas, a critério do fabricante.",
+   "valores": [
+    {"parametro": "Limite de aplicação rápida", "valor": "80 % da carga de ruptura mínima", "item": "4.1"},
+    {"parametro": "Taxa no restante do ensaio", "valor": "≈ 10 MPa/s", "item": "4.1"}
+   ]},
+  {"titulo": "Relatório", "item": "5",
+   "texto": "Citar o método, resultados com unidade, qualquer comportamento incomum e operações fora da norma ou opcionais.",
+   "valores": []}
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "id": "ASME-B31.3",
+ "titulo": "ASME B31.3 — Tubulação de processo",
+ "secoes": [
+  {
+   "titulo": "Escopo e categorias de serviço",
+   "item": "300; 300.2",
+   "texto": "Código para tubulação de refinarias, plantas químicas, farmacêuticas, de gás e similares, cobrindo projeto, materiais, fabricação, montagem, exame, inspeção e teste. O proprietário classifica cada linha por serviço de fluido: Normal (a maioria), Categoria D (fluido inofensivo, baixa pressão e temperatura moderada), Categoria M (fluido muito tóxico), alta pressão (Capítulo IX), alta temperatura e alta pureza. Cada categoria muda o rigor de projeto e de exame.",
+   "valores": [
+    {"parametro": "Categoria D — pressão de projeto", "valor": "≤ 1 035 kPa (150 psi)", "item": "300.2"},
+    {"parametro": "Categoria D — temperatura de projeto", "valor": "≤ 186 °C (366 °F)", "item": "300.2"},
+    {"parametro": "Categoria D — temperatura mínima do fluido (fora efeito atmosférico)", "valor": "≥ −29 °C (−20 °F)", "item": "300.2"},
+    {"parametro": "Categoria D — natureza do fluido", "valor": "não inflamável, não tóxico e não agressivo a tecidos humanos", "item": "300.2"}
+   ]
+  },
+  {
+   "titulo": "Condições e critérios de projeto",
+   "item": "301; 302",
+   "texto": "O projeto usa a combinação mais severa de pressão e temperatura coincidentes. Excursões ocasionais acima dessas condições são toleradas com aprovação do proprietário, dentro de limites de porcentagem e de duração, sem passar da pressão de teste e com no máximo um número fixo de ocorrências. A tensão admissível básica dos materiais (Tabela A-1) nasce de frações da resistência à tração e ao escoamento.",
+   "valores": [
+    {"parametro": "Excursão ocasional acima do rating/tensão — curta", "valor": "até +33 % por ≤ 10 h de cada vez e ≤ 100 h/ano", "item": "302.2.4 (f)(1)"},
+    {"parametro": "Excursão ocasional acima do rating/tensão — longa", "valor": "até +20 % por ≤ 50 h de cada vez e ≤ 500 h/ano", "item": "302.2.4 (f)(1)"},
+    {"parametro": "Número máximo de excursões acima do projeto na vida da linha", "valor": "1 000", "item": "302.2.4 (d)"},
+    {"parametro": "Tensão admissível básica (materiais comuns, não parafusos)", "valor": "menor entre ST/3, (tração a quente)/3, 2/3·SY e 2/3·(escoamento a quente)", "item": "302.3.2 (d)"},
+    {"parametro": "Inox austenítico e ligas de níquel", "valor": "pode chegar a 90 % do escoamento a quente (limitado a 2/3·SY)", "item": "302.3.2 (d)(3)"},
+    {"parametro": "Tensões sustentadas (pressão + peso) SL", "valor": "≤ Sh (tensão admissível na temperatura)", "item": "302.3.5 (c)"},
+    {"parametro": "Faixa admissível de tensões de deslocamento", "valor": "SA = f·(1,25·Sc + 0,25·Sh)", "item": "302.3.5 (d), eq. (1a)"},
+    {"parametro": "Fator de faixa f — máximo fm", "valor": "1,2 (aço com ST ≤ 517 MPa e T ≤ 371 °C); senão 1,0; f = 6,0·N^−0,2", "item": "302.3.5 (d), eq. (1c)"},
+    {"parametro": "Teto de Sc e Sh no cálculo de SA", "valor": "138 MPa (20 ksi)", "item": "302.3.5 (d)"},
+    {"parametro": "Cargas ocasionais (vento, sismo) somadas às sustentadas", "valor": "≤ 1,33 × tensão admissível básica; vento e sismo não simultâneos", "item": "302.3.6 (a)(1)"}
+   ]
+  },
+  {
+   "titulo": "Espessura de tubo reto",
+   "item": "304.1",
+   "texto": "A espessura mínima requerida soma a espessura de pressão às sobre-espessuras (corrosão, erosão, profundidade de rosca ou ranhura). O tubo escolhido, já descontada a tolerância negativa do fabricante, não pode ficar abaixo desse mínimo. A fórmula de parede fina vale enquanto t for menor que D/6; acima disso, ou com P/SE alto, o cálculo exige análise especial. Pressão externa segue as regras de vaso (Seção VIII-1, UG-28 a UG-30).",
+   "valores": [
+    {"parametro": "Espessura mínima requerida", "valor": "tm = t + c", "item": "304.1.1, eq. (2)"},
+    {"parametro": "Espessura de pressão (pressão interna, t < D/6)", "valor": "t = P·D / [2·(S·E·W + P·Y)]", "item": "304.1.2, eq. (3a)"},
+    {"parametro": "Coeficiente Y — aços ferríticos e austeníticos até 482 °C", "valor": "0,4", "item": "Tabela 304.1.1"},
+    {"parametro": "Coeficiente Y — ferro fundido cinzento", "valor": "0,0", "item": "Tabela 304.1.1"},
+    {"parametro": "Tolerância de usinagem/ranhura não especificada", "valor": "+0,5 mm além da profundidade do corte", "item": "304.1.1 (b)"},
+    {"parametro": "Limite da fórmula de parede fina", "valor": "t < D/6 e P/(S·E) ≤ 0,385", "item": "304.1.2 (b)"},
+    {"parametro": "Desvio angular dispensado de cálculo como curva em gomo", "valor": "≤ 3°", "item": "304.2.3"}
+   ]
+  },
+  {
+   "titulo": "Preparação, alinhamento e montagem de soldas",
+   "item": "328",
+   "texto": "As extremidades seguem a ASME B16.25 ou o chanfro da EPS, limpas e sem escória. Paredes muito diferentes pedem transição. Usinagem para alinhar não pode reduzir a parede abaixo do mínimo. Ponteamento é feito por soldador qualificado e incorporado à raiz. Não se martela a raiz nem o passe final e não se solda com chuva, vento forte ou peça molhada.",
+   "valores": [
+    {"parametro": "Paredes desiguais que exigem preparação especial", "valor": "uma parede > 1,5 × a outra", "item": "328.4.2 (b)(5)", "cota": "esquemas/tubulacao-processo-b31-3-desalinhamento.svg#t-espessa"},
+    {"parametro": "Ângulo máx. da transição de rebaixo", "valor": "30°", "item": "Fig. 328.4.3", "cota": "esquemas/tubulacao-processo-b31-3-desalinhamento.svg#transicao"},
+    {"parametro": "Desalinhamento interno (high-low)", "valor": "dentro da EPS/projeto; se as faces externas não coincidirem, chanfrar a solda", "item": "328.4.3 (a)", "cota": "esquemas/tubulacao-processo-b31-3-desalinhamento.svg#desalinhamento"},
+    {"parametro": "Abertura de raiz", "valor": "tolerância da EPS", "item": "328.4.3 (d)", "cota": "esquemas/tubulacao-processo-b31-3-preparacao-topo.svg#abertura"},
+    {"parametro": "Desvio angular por apara de conexão B16.9 sem qualificação", "valor": "≤ 3° no total", "item": "328.4.2 (b)(6)"},
+    {"parametro": "Anel de backing ferroso — enxofre", "valor": "≤ 0,05 %", "item": "328.3.2 (a)"},
+    {"parametro": "Martelamento (peening)", "valor": "proibido na raiz e no passe final", "item": "328.5.1 (d)"}
+   ]
+  },
+  {
+   "titulo": "Pré-aquecimento",
+   "item": "330",
+   "texto": "A temperatura mínima depende do P-No. e da espessura do componente mais grosso; a EPS pode pedir mais. Aquece-se uma faixa em volta da junta, verifica-se com lápis térmico ou termopar e vale também para ponteamento e reparo. Entre materiais diferentes, usa-se o maior valor. Ver tabela completa na ficha tubulacao-processo.",
+   "valores": [
+    {"parametro": "P-No. 1 — espessura ≤ 25 mm (ou > 25 mm com C ≤ 0,30 %)", "valor": "10 °C mín.", "item": "Tabela 330.1.1"},
+    {"parametro": "P-No. 1 — espessura > 25 mm e C > 0,30 %", "valor": "95 °C mín.", "item": "Tabela 330.1.1"},
+    {"parametro": "Zona pré-aquecida em volta da solda", "valor": "maior entre 75 mm e 1,5 × a maior espessura; ponteamento 25 mm", "item": "330.1.4", "cota": "esquemas/tubulacao-processo-b31-3-zonas-aquecimento.svg#preaquec"},
+    {"parametro": "Interrupção da solda (P-Nos. 3, 4, 5A, 5B, 6, 15E) sem manter pré-aquecimento", "valor": "só após ≥ 10 mm ou 25 % do chanfro (o menor) e resfriamento lento ou TT intermediário", "item": "330.2.2"}
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico após soldagem (TTAT)",
+   "item": "331",
+   "texto": "A tabela de TTAT dá temperatura de patamar e tempo por P-No.; a espessura de controle é a menor entre a da solda e a do material. Há isenções por espessura e pré-aquecimento. Taxas de aquecimento e resfriamento acima de 315 °C são limitadas. No aquecimento local, a faixa aquecida envolve toda a volta com folga para os dois lados.",
+   "valores": [
+    {"parametro": "P-No. 1 — temperatura de patamar", "valor": "595 a 650 °C", "item": "Tabela 331.1.1"},
+    {"parametro": "P-No. 1 — tempo de patamar", "valor": "1 h/25 mm, mín. 15 min (≤ 50 mm); > 50 mm: 2 h + 15 min por 25 mm adicional", "item": "Tabela 331.1.1"},
+    {"parametro": "P-No. 1 — isenção de TTAT", "valor": "qualquer espessura, se pré-aquecer a 95 °C quando > 25 mm e soldar multipasse quando > 5 mm", "item": "Tabela 331.1.3"},
+    {"parametro": "Taxa de aquecimento/resfriamento acima de 315 °C", "valor": "≤ 335 °C/h ÷ (meia espessura em pol), nunca > 335 °C/h", "item": "331.1.4"},
+    {"parametro": "Largura da faixa aquecida (TTAT local)", "valor": "≥ 3 × a espessura, solda no centro; bocais: ≥ 2 × espessura do tubo de cada lado", "item": "331.2.6", "cota": "esquemas/tubulacao-processo-b31-3-zonas-aquecimento.svg#faixa-ttat"},
+    {"parametro": "Sobreposição entre aquecimentos sucessivos em forno", "valor": "≥ 300 mm", "item": "331.2.5", "cota": "esquemas/tubulacao-processo-b31-3-zonas-aquecimento.svg#sobreposicao"},
+    {"parametro": "TTAT alternativo P-No. 1 e 3 (temperatura reduzida)", "valor": "−30 °C: 2 h; −55 °C: 4 h; −85 °C: 10 h; −110 °C: 20 h", "item": "Tabela 331.1.2"}
+   ]
+  },
+  {
+   "titulo": "Curvamento e montagem de flanges",
+   "item": "332; 335",
+   "texto": "Curvas têm ovalização limitada. Antes de apertar, as faces dos flanges devem estar paralelas e os furos alinhados. Os parafusos precisam engajar a porca inteira e só se usa uma junta entre faces. O aperto deve comprimir a junta por igual; a ASME PCC-1 orienta a montagem.",
+   "valores": [
+    {"parametro": "Ovalização em curva", "valor": "≤ 8 % do Ø externo (pressão interna); ≤ 3 % (pressão externa)", "item": "332.2.1", "cota": "esquemas/tubulacao-processo-b31-3-alinhamento-ovalizacao.svg#Dmax"},
+    {"parametro": "Paralelismo das faces de flange", "valor": "1 mm em 200 mm (1/16 in/ft)", "item": "335.1 (c)(1)", "cota": "esquemas/tubulacao-processo-b31-3-alinhamento-ovalizacao.svg#paralelismo"},
+    {"parametro": "Desalinhamento entre furos de parafuso", "valor": "≤ 3 mm", "item": "335.1 (c)(3)", "cota": "esquemas/tubulacao-processo-b31-3-alinhamento-ovalizacao.svg#furos"},
+    {"parametro": "Juntas entre faces", "valor": "no máximo 1", "item": "335.2.4"}
+   ]
+  },
+  {
+   "titulo": "Exame e inspeção",
+   "item": "341; 344",
+   "texto": "O exame é feito pelo fabricante ou montador; a inspeção, pelo representante do proprietário. Em fluido normal, todo visual de solda pronta e uma amostragem radiográfica ou ultrassônica; em condição cíclica severa, 100 %. Defeito em amostra dispara amostragem progressiva. A extensão mínima de cada radiografia por amostragem é fixada.",
+   "valores": [
+    {"parametro": "Visual — fluido normal", "valor": "100 % das soldas; ≥ 5 % da fabricação", "item": "341.4.1 (a)"},
+    {"parametro": "RT/UT — fluido normal", "valor": "≥ 5 % das soldas de topo circunferenciais, cobrindo cada soldador", "item": "341.4.1 (b)(1)"},
+    {"parametro": "RT/UT — condição cíclica severa", "valor": "100 %", "item": "341.4.3"},
+    {"parametro": "Amostragem progressiva", "valor": "+2 amostras por defeito; nova falha: +2; nova falha: 100 % do lote", "item": "341.3.4"},
+    {"parametro": "Radiografia spot — tubo > NPS 2½", "valor": "menor entre 25 % da circunferência e 152 mm", "item": "344.5.2 (c)"}
+   ]
+  },
+  {
+   "titulo": "Critérios de aceitação de solda",
+   "item": "Tabela 341.3.2; 344",
+   "texto": "A tabela de aceitação muda conforme o serviço (normal, cíclico severo, Categoria D) e o tipo de solda. Trinca e falta de fusão são sempre rejeitadas. Mordedura, reforço, indicações lineares e arredondadas têm limites ligados à parede nominal Tw. PM/LP e UT têm critérios próprios.",
+   "valores": [
+    {"parametro": "Trinca / falta de fusão", "valor": "zero", "item": "Tabela 341.3.2 (A)"},
+    {"parametro": "Penetração incompleta — topo circunferencial, fluido normal", "valor": "≤ 38 mm em 150 mm ou 25 % do comprimento (o menor)", "item": "Tabela 341.3.2 (B)", "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#penetracao"},
+    {"parametro": "Mordedura — fluido normal", "valor": "≤ 1 mm e ≤ Tw/4", "item": "Tabela 341.3.2 (H)", "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#mordedura"},
+    {"parametro": "Reforço máximo — fluido normal", "valor": "Tw ≤ 6: 1,5 mm; ≤ 13: 3 mm; ≤ 25: 4 mm; > 25: 5 mm", "item": "Tabela 341.3.2 (L)", "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#reforco"},
+    {"parametro": "Concavidade de raiz", "valor": "espessura total ≥ Tw", "item": "Tabela 341.3.2 (K)", "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#concavidade"},
+    {"parametro": "Indicação linear em RT — fluido normal", "valor": "comprimento ≤ Tw/2; largura ≤ 3 mm; soma ≤ 4·Tw em 150 mm", "item": "Tabela 341.3.2 (G)", "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#comprimento-indicacao"},
+    {"parametro": "Acabamento — cíclico severo", "valor": "≤ 12,5 µm Ra", "item": "Tabela 341.3.2 (J)"},
+    {"parametro": "PM/LP — indicação arredondada rejeitada", "valor": "> 5,0 mm; ou 4+ alinhadas a ≤ 1,5 mm", "item": "344.3.2; 344.4.2"},
+    {"parametro": "UT — comprimento máx. de descontinuidade", "valor": "6 mm (Tw ≤ 19); Tw/3 (19–57); 19 mm (Tw > 57)", "item": "344.6.2 (a)"}
+   ]
+  },
+  {
+   "titulo": "Teste de estanqueidade",
+   "item": "345",
+   "texto": "Todo sistema é testado antes de operar, depois de exames e de qualquer tratamento térmico. O padrão é o hidrostático; pneumático só quando o hidrostático for impraticável. As juntas ficam expostas. Linhas de Categoria D podem ser testadas em serviço. Solda de fechamento pode dispensar o teste com exame completo.",
+   "valores": [
+    {"parametro": "Pressão de teste hidrostático", "valor": "≥ 1,5 × P; corrigida por ST/S se a temperatura de projeto for maior", "item": "345.4.2, eq. (24)"},
+    {"parametro": "Duração mínima", "valor": "10 min", "item": "345.2.2 (a)"},
+    {"parametro": "Fluido inflamável no hidrostático — ponto de fulgor", "valor": "≥ 49 °C", "item": "345.4.1"},
+    {"parametro": "Teste pneumático preliminar", "valor": "≤ 170 kPa (25 psi)", "item": "345.2.1 (c)"},
+    {"parametro": "Pressão de teste pneumático", "valor": "≥ 1,1 × P e ≤ menor entre 1,33 × P e 90 % do limite", "item": "345.5.4"},
+    {"parametro": "Ajuste da válvula de alívio no pneumático", "valor": "≤ PT + menor entre 345 kPa e 10 % de PT", "item": "345.5.2"},
+    {"parametro": "Teste junto com vaso (pressão menor)", "valor": "aceito se ≥ 77 % da PT da tubulação", "item": "345.4.3"},
+    {"parametro": "Linha sob pressão externa", "valor": "1,5 × diferencial externo, mín. 105 kPa", "item": "345.2.4 (a)"},
+    {"parametro": "Teste sensível (bolha)", "valor": "≥ menor entre 105 kPa e 25 % de P; sensibilidade 10⁻³ mL/s", "item": "345.8"}
+   ]
+  }
+ ]
+}

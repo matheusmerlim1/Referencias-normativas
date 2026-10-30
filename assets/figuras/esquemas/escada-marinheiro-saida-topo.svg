@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580" role="img" aria-label="Escada vertical (marinheiro) — saída no topo">
+<title>Escada vertical (marinheiro) — saída no topo</title>
+<text x="12" y="22" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Escada vertical (marinheiro) — saída no topo</text>
+<line x1="60" y1="540" x2="250" y2="540" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="67" y1="541" x2="60" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="77" y1="541" x2="70" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="87" y1="541" x2="80" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="97" y1="541" x2="90" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="107" y1="541" x2="100" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="117" y1="541" x2="110" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="127" y1="541" x2="120" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="137" y1="541" x2="130" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="147" y1="541" x2="140" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="157" y1="541" x2="150" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="167" y1="541" x2="160" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="177" y1="541" x2="170" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="187" y1="541" x2="180" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="197" y1="541" x2="190" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="207" y1="541" x2="200" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="217" y1="541" x2="210" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="227" y1="541" x2="220" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="237" y1="541" x2="230" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="247" y1="541" x2="240" y2="548" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<rect x="320" y="200" width="220" height="12" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<line x1="540" y1="212" x2="540" y2="540" stroke="#666" stroke-width="2" stroke-linecap="round"/>
+<text x="430" y="236" text-anchor="middle" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">plataforma</text>
+<rect x="244" y="60" width="12" height="480" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<circle cx="256" cy="200" r="5" stroke="#666" stroke-width="2" fill="#999" fill-opacity="0.25"/>
+<circle cx="256" cy="270" r="5" stroke="#666" stroke-width="2" fill="#999" fill-opacity="0.25"/>
+<circle cx="256" cy="340" r="5" stroke="#666" stroke-width="2" fill="#999" fill-opacity="0.25"/>
+<circle cx="256" cy="410" r="5" stroke="#666" stroke-width="2" fill="#999" fill-opacity="0.25"/>
+<circle cx="256" cy="480" r="5" stroke="#666" stroke-width="2" fill="#999" fill-opacity="0.25"/>
+<rect x="322" y="115" width="8" height="85" rx="0" fill="none" stroke="#666" stroke-width="2"/>
+<text x="338" y="110" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">portão</text>
+<g id="cota-montantes-acima" class="cota"><line x1="241" y1="200" x2="195" y2="200" stroke="#666" stroke-width="1"/><line x1="241" y1="60" x2="195" y2="60" stroke="#666" stroke-width="1"/><line x1="200" y1="200" x2="200" y2="60" stroke="#666" stroke-width="1.2"/><polygon points="200,200 196.5,191 203.5,191" fill="#666"/><polygon points="200,60 203.5,69 196.5,69" fill="#666"/><text x="194" y="134" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">montantes acima do piso</text></g>
+<g id="cota-passagem" class="cota"><line x1="256" y1="203" x2="256" y2="241" stroke="#666" stroke-width="1"/><line x1="320" y1="215" x2="320" y2="241" stroke="#666" stroke-width="1"/><line x1="256" y1="236" x2="320" y2="236" stroke="#666" stroke-width="1.2"/><polygon points="256,236 265,232.5 265,239.5" fill="#666"/><polygon points="320,236 311,239.5 311,232.5" fill="#666"/><text x="288" y="230" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">passagem</text></g>
+<g id="cota-portao" class="cota"><line x1="333" y1="200" x2="365" y2="200" stroke="#666" stroke-width="1"/><line x1="333" y1="115" x2="365" y2="115" stroke="#666" stroke-width="1"/><line x1="360" y1="200" x2="360" y2="115" stroke="#666" stroke-width="1.2"/><polygon points="360,200 356.5,191 363.5,191" fill="#666"/><polygon points="360,115 363.5,124 356.5,124" fill="#666"/><text x="366" y="160" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">altura do portão</text></g>
+<text x="740" y="250" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">detalhe: escotilha</text>
+<line x1="600" y1="320" x2="700" y2="320" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="600" y1="319" x2="607" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="610" y1="319" x2="617" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="620" y1="319" x2="627" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="630" y1="319" x2="637" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="640" y1="319" x2="647" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="650" y1="319" x2="657" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="660" y1="319" x2="667" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="670" y1="319" x2="677" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="680" y1="319" x2="687" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="690" y1="319" x2="697" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="760" y1="320" x2="880" y2="320" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="760" y1="319" x2="767" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="770" y1="319" x2="777" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="780" y1="319" x2="787" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="790" y1="319" x2="797" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="800" y1="319" x2="807" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="810" y1="319" x2="817" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="820" y1="319" x2="827" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="830" y1="319" x2="837" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="840" y1="319" x2="847" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="850" y1="319" x2="857" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="860" y1="319" x2="867" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<line x1="870" y1="319" x2="877" y2="312" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+<rect x="626" y="300" width="8" height="240" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<circle cx="720" cy="300" r="6" stroke="#666" stroke-width="2" fill="#999" fill-opacity="0.25"/>
+<g id="cota-escotilha" class="cota"><line x1="700" y1="323" x2="700" y2="355" stroke="#666" stroke-width="1"/><line x1="634" y1="350" x2="700" y2="350" stroke="#666" stroke-width="1.2"/><polygon points="634,350 643,346.5 643,353.5" fill="#666"/><polygon points="700,350 691,353.5 691,346.5" fill="#666"/><text x="642" y="372" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">face → borda da abertura</text></g>
+<g id="cota-alca" class="cota"><line x1="790" y1="270" x2="726" y2="296" stroke="#666" stroke-width="1.2"/><polygon points="726,296 733,289.4 735.7,295.9" fill="#666"/><text x="794" y="274" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">alça (Ø)</text></g>
+<text x="12" y="572" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo, sem escala — não é desenho da norma.</text>
+</svg>

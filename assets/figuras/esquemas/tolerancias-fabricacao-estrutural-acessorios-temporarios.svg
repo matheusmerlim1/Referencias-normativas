@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-label="Remoção de acessórios temporários — altura de corte acima do metal de base / da solda">
+<title>Remoção de acessórios temporários — altura de corte acima do metal de base / da solda (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Remoção de acessórios temporários — altura de corte acima do metal de base / da solda</text>
+<text class="b" x="40" y="70">Áreas críticas e áreas a pintar</text>
+<rect class="s" x="40" y="250" width="360" height="40"/>
+<rect class="h" x="160" y="140" width="60" height="104"/>
+<path class="h" d="M150,250 L230,250 L220,242 L160,242 z"/>
+<line class="v" x1="130" y1="238" x2="250" y2="238"/>
+<g id="cota-corte-critico" class="cota"><line class="d" x1="271" y1="212" x2="271" y2="238" marker-end="url(#a)"/><line class="d" x1="271" y1="276" x2="271" y2="250" marker-end="url(#a)"/><line class="d" x1="271" y1="238" x2="271" y2="250"/><text x="280" y="215">corte acima do metal de base</text></g>
+<text class="n" x="40" y="330">depois: esmerilhar faceado (flush)</text>
+<text class="b" x="500" y="70">Demais áreas</text>
+<rect class="s" x="480" y="250" width="380" height="40"/>
+<path class="s" d="M590,250 L710,250 L690,220 L610,220 z"/>
+<rect class="h" x="610" y="130" width="80" height="90"/>
+<line class="v" x1="580" y1="214" x2="720" y2="214"/>
+<g id="cota-corte-demais" class="cota"><line class="d" x1="741" y1="188" x2="741" y2="214" marker-end="url(#a)"/><line class="d" x1="741" y1="246" x2="741" y2="220" marker-end="url(#a)"/><line class="d" x1="741" y1="214" x2="741" y2="220"/><text class="m" x="740" y="180">corte logo acima da solda (máx.)</text></g>
+<text class="n" x="480" y="330">solda remanescente lisa e selada</text>
+<text class="n" x="40" y="390">Tracejado = acessório removido; traço vermelho = linha de corte.</text>
+<text class="n" x="20" y="428">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

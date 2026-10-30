@@ -1,0 +1,311 @@
+{
+ "id": "ABS-LIFT-2021",
+ "titulo": "ABS Guide for Certification of Lifting Appliances (dez/2021)",
+ "secoes": [
+  {
+   "titulo": "Escopo e certificação",
+   "item": "Ch.1",
+   "texto": "Certificação de guindastes de bordo, offshore e de carga pesada, paus de carga, elevadores e acessórios em embarcações e unidades. O certificado vale alguns anos, com endossos anuais; deixar de fazer a vistoria anual o suspende.",
+   "valores": [
+    {
+     "parametro": "Validade do certificado",
+     "valor": "5 anos, endosso anual",
+     "item": "1-1/1"
+    },
+    {
+     "parametro": "Atraso que exige reteste",
+     "valor": "≥ 3 meses",
+     "item": "1-2/3"
+    }
+   ]
+  },
+  {
+   "titulo": "Tipos e condições de projeto",
+   "item": "2-2/1–5",
+   "texto": "Guindaste de bordo e de carga pesada separados pela capacidade; offshore quando há movimento relativo entre unidades. A estrutura é verificada em serviço e fora de serviço (lança apoiada ou não), com tolerância maior para sismo ou vento extremo. Tabela de carga com passo de raio pequeno.",
+   "valores": [
+    {
+     "parametro": "Limite bordo / carga pesada",
+     "valor": "SWL 1570 kN (160 tf)",
+     "item": "2-2/1"
+    },
+    {
+     "parametro": "Acréscimo de admissível (sismo/vento extremo)",
+     "valor": "até 33 %",
+     "item": "2-2/5.1.2"
+    },
+    {
+     "parametro": "Passo de raio da tabela de carga",
+     "valor": "≤ 1,5 m",
+     "item": "2-2"
+    }
+   ]
+  },
+  {
+   "titulo": "Tensões admissíveis",
+   "item": "2-2/5.5; Tab. 1",
+   "texto": "Admissível = escoamento × coeficiente por tipo de esforço; para aços comuns o escoamento usado é limitado a uma fração da resistência. Espessuras mínimas de membros.",
+   "valores": [
+    {
+     "parametro": "Sc — tração bruta / com pino / cisalhamento",
+     "valor": "0,60 / 0,45 / 0,40",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Sc — flexão seção compacta / barra maciça",
+     "valor": "0,66 / 0,75",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Fy usado (aço ≤ 355 MPa)",
+     "valor": "≤ 72 % de Rm",
+     "item": "2-2/5.5"
+    },
+    {
+     "parametro": "Espessura mínima — membros críticos maciços / vazados",
+     "valor": "6 mm / 4 mm",
+     "item": "2-2/3.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Fator de amplificação vertical (VAF)",
+   "item": "2-2/7–11",
+   "texto": "Guindaste de bordo com valor fixo para cargas menores e decrescente depois. Offshore: içamento a bordo por fórmula com a aceleração da unidade; içamento de barco por velocidade relativa e rigidez, com velocidade mínima de içamento função da onda. Carga pesada com valor baixo em condições amenas.",
+   "valores": [
+    {
+     "parametro": "Bordo, SWL < 392 kN",
+     "valor": "1,3",
+     "item": "2-2/7.3"
+    },
+    {
+     "parametro": "Bordo, 392–1570 kN",
+     "valor": "1,366 − SWL/5884",
+     "item": "2-2/7.3"
+    },
+    {
+     "parametro": "Offshore a bordo",
+     "valor": "1,373 − LL/5220 + av (1,1+av a 1,33+av)",
+     "item": "2-2/9.3.1"
+    },
+    {
+     "parametro": "Offshore de barco",
+     "valor": "1 + vr·√(K/(g·LL))",
+     "item": "2-2/9.3"
+    },
+    {
+     "parametro": "Velocidade mínima de içamento (Hs > 1,8 m)",
+     "valor": "0,067 (Hs + 1) m/s",
+     "item": "2-2/9.3.2"
+    },
+    {
+     "parametro": "Carga pesada",
+     "valor": "1,1",
+     "item": "2-2/11"
+    }
+   ]
+  },
+  {
+   "titulo": "Cargas horizontais, vento e inclinação",
+   "item": "2-2/5.17–5.19; Tab. 3–5",
+   "texto": "Offlead e sidelead na ponta da lança; carga lateral mínima. Vento com velocidades padrão em serviço e fora de serviço e coeficientes de forma. Banda e trim estáticos mínimos por tipo de unidade e inclinações maiores com a lança apoiada; acelerações da unidade.",
+   "valores": [
+    {
+     "parametro": "Carga lateral mínima",
+     "valor": "0,02 × VDL",
+     "item": "2-2/7.3",
+     "cota": "esquemas/guindaste-ponte-rolante-offlead-sidelead.svg#r"
+    },
+    {
+     "parametro": "Vento — em serviço / fora (lança livre) / apoiada",
+     "valor": "10,3 / 36 / 51,5 m/s",
+     "item": "2-2/5.19"
+    },
+    {
+     "parametro": "Pressão de vento",
+     "valor": "P = Vk²·Cs/1637 (kN/m²)",
+     "item": "2-2/5.19.2"
+    },
+    {
+     "parametro": "Cs — cilindro / plano / perfil isolado",
+     "valor": "0,5 / 1,0 / 1,5",
+     "item": "Tab. 4"
+    },
+    {
+     "parametro": "Banda/trim em serviço — navio",
+     "valor": "5° / 2°",
+     "item": "Tab. 5A",
+     "cota": "esquemas/guindaste-ponte-rolante-banda-trim.svg#banda"
+    },
+    {
+     "parametro": "Banda/trim — plataforma fixa / semissub",
+     "valor": "0,5°/0,5° / 1,5°",
+     "item": "Tab. 5A"
+    },
+    {
+     "parametro": "Lança no descanso — navio",
+     "valor": "15° banda + 5° trim",
+     "item": "Tab. 5B"
+    }
+   ]
+  },
+  {
+   "titulo": "Cabos, polias e tambores",
+   "item": "2-4; 2-5; 2-6",
+   "texto": "Fator de segurança do cabo decresce com a SWL em guindastes de bordo; offshore depende também do VAF; carga pesada tem valor fixo. Perdas nas polias pela eficiência. Emendas trançadas (grampos não). Relação D/d mínima, ranhura levemente maior que o cabo, voltas mortas, flange acima da última camada e tensão circunferencial do tambor por camadas.",
+   "valores": [
+    {
+     "parametro": "FS do cabo — bordo, SWL < 98 kN",
+     "valor": "5,0",
+     "item": "2-4, Tab. 1"
+    },
+    {
+     "parametro": "FS do cabo — offshore",
+     "valor": "maior de 10 000/(0,885 LL + 1910) e 2,25 × VAF",
+     "item": "2-4"
+    },
+    {
+     "parametro": "FS do cabo — carga pesada",
+     "valor": "3,0",
+     "item": "2-4"
+    },
+    {
+     "parametro": "Fator de atrito K — bucha / rolamento",
+     "valor": "≥ 1,045 / ≥ 1,02",
+     "item": "2-4"
+    },
+    {
+     "parametro": "D/d — movimento / compensação / estático",
+     "valor": "≥ 18 / ≥ 20 / ≥ 10",
+     "item": "2-5/3",
+     "cota": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg#Dp"
+    },
+    {
+     "parametro": "Ranhura da polia (aço)",
+     "valor": "6 % a 8 % maior que o cabo",
+     "item": "2-5/3",
+     "cota": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg#raio-ranhura"
+    },
+    {
+     "parametro": "Voltas no tambor",
+     "valor": "≥ 5",
+     "item": "2-6/19"
+    },
+    {
+     "parametro": "Flange acima da camada",
+     "valor": "≥ 2,5 d",
+     "item": "2-6/19.3.4",
+     "cota": "esquemas/guindaste-ponte-rolante-tambor-polia-desvio.svg#flange-abs"
+    },
+    {
+     "parametro": "KL do tambor — 1/2/3/4/5 camadas",
+     "valor": "1 / 1,8 / 2,3 / 2,7 / 3,0",
+     "item": "2-6/19"
+    }
+   ]
+  },
+  {
+   "titulo": "Freios e guinchos",
+   "item": "2-6/19.5–19.7",
+   "texto": "Ao menos um freio estático e um dinâmico, à prova de falha, sem contar catraca. Válvulas de bloqueio como freio só montadas no atuador. Base do guincho para o dobro da tração.",
+   "valores": [
+    {
+     "parametro": "Freio estático",
+     "valor": "1,5 × torque do cabo",
+     "item": "2-6/19.5.3"
+    },
+    {
+     "parametro": "Atrito de cálculo",
+     "valor": "≤ 0,3",
+     "item": "2-6/19.5.1"
+    },
+    {
+     "parametro": "Válvula de bloqueio — pressão nominal",
+     "valor": "≥ 1,5 × pressão de trabalho",
+     "item": "2-6/19.5"
+    },
+    {
+     "parametro": "Apoio do guincho",
+     "valor": "2 × tração máxima",
+     "item": "2-6/19.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Rolamento de giro e pedestal",
+   "item": "2-2/5.15; 2-7/3.3",
+   "texto": "Carga no parafuso mais solicitado com momento e cortante majorados; protensão limitada; parafusos em 360° ou em setores amplos. Fator de pedestal decresce com a carga. Dureza da pista medida em vários pontos.",
+   "valores": [
+    {
+     "parametro": "Majoração no cálculo dos parafusos",
+     "valor": "3,75 × carga vertical",
+     "item": "2-2"
+    },
+    {
+     "parametro": "Protensão — torque / tensionador",
+     "valor": "≤ 0,7 / ≤ 0,9 × escoamento",
+     "item": "2-2"
+    },
+    {
+     "parametro": "Setores de parafusos",
+     "valor": "≥ 140° cada",
+     "item": "2-2",
+     "cota": "esquemas/guindaste-ponte-rolante-parafusos-setores-giro.svg#setor"
+    },
+    {
+     "parametro": "Fator de pedestal",
+     "valor": "1,56 − LL/4000 (1,2 a 1,5 offshore)",
+     "item": "2-2/5.15"
+    },
+    {
+     "parametro": "Pontos de dureza da pista",
+     "valor": "≥ 8",
+     "item": "2-7/3.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios, vistorias e marcação",
+   "item": "2-7",
+   "texto": "Acessórios provados ao dobro da SWL. Guindaste provado com acréscimo que diminui em percentagem com a capacidade, mantido alguns minutos; paus de carga em ângulo baixo. END do pedestal antes e depois. Exame pós-ensaio de todos os componentes. Içamento de pessoas com metade da capacidade. SWL marcada em letras legíveis.",
+   "valores": [
+    {
+     "parametro": "Prova de acessórios",
+     "valor": "200 % da SWL",
+     "item": "2-7"
+    },
+    {
+     "parametro": "Prova do guindaste — ≤ 196 kN / 196–490 kN / > 490 kN",
+     "valor": "+25 % / +49 kN / +10 %",
+     "item": "2-7/5.1, Tab. 1"
+    },
+    {
+     "parametro": "Tempo sob carga de prova",
+     "valor": "≥ 5 min",
+     "item": "2-7/5.1"
+    },
+    {
+     "parametro": "Ângulo do pau de carga no ensaio",
+     "valor": "≤ 15° (até 10 t)",
+     "item": "2-7",
+     "cota": "esquemas/guindaste-ponte-rolante-pau-de-carga-ensaio.svg#angulo-ensaio"
+    },
+    {
+     "parametro": "Frenagem dinâmica",
+     "valor": "≥ 5 min com carga nominal",
+     "item": "2-7/7.2"
+    },
+    {
+     "parametro": "SWL para pessoas",
+     "valor": "≤ 50 % da de carga",
+     "item": "2-7"
+    },
+    {
+     "parametro": "Letras de marcação",
+     "valor": "≥ 25 mm",
+     "item": "2-7/5.11"
+    }
+   ]
+  }
+ ]
+}

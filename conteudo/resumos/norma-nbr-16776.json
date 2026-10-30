@@ -1,0 +1,63 @@
+{
+ "id": "NBR-16776",
+ "titulo": "ABNT NBR 16776:2019 — Plataformas elevatórias móveis de trabalho (PEMT) — Projeto, fabricação, manutenção, requisitos e ensaios",
+ "secoes": [
+  {"titulo": "Escopo", "item": "1",
+   "texto": "Requisitos de segurança, meios de verificação e critérios de estabilidade, cálculo estrutural, construção, manutenção e ensaios de PEMT destinadas a levar pessoas com ferramentas e materiais até a posição de trabalho, antes do primeiro uso. Cestos aéreos montados em veículo que trabalham estabilizados seguem a NBR 16092.",
+   "valores": []},
+  {"titulo": "Definições e tipos", "item": "3",
+   "texto": "PEMT = cesto com controles + estrutura extensível + chassi. Tipo 1: só se desloca recolhida. Tipo 2: desloca-se com o cesto elevado, comandada do chassi. Tipo 3: desloca-se elevada, comandada do cesto. Há ainda PEMT montada em veículo, PEMT sob pontes e PEMT totalmente manual. Material dúctil: alongamento na ruptura ≥ 10 % em base de 51 mm.",
+   "valores": []},
+  {"titulo": "Carga nominal e cargas de cálculo", "item": "5.2",
+   "texto": "Cálculos estruturais e de estabilidade cobrem posições, direções e combinações de carga e força mais desfavoráveis (exemplos na Tabela 1): carga nominal, peso próprio, vento, força manual, efeitos dinâmicos.",
+   "valores": [
+    {"parametro": "Carga nominal", "valor": "m = n·mp + me", "item": "5.2.1.2"},
+    {"parametro": "Massa por pessoa mp", "valor": "80 kg", "item": "5.2.1.2"},
+    {"parametro": "Ferramentas e materiais me", "valor": "40 kg ou mais", "item": "5.2.1.2"},
+    {"parametro": "Carga nominal mínima", "valor": "120 kg", "item": "5.2.1.3"},
+    {"parametro": "Vento para uso externo", "valor": "100 N/m² (12,5 m/s)", "item": "5.2.2.4.1.1"},
+    {"parametro": "Área exposta de uma pessoa atrás de proteção fechada de 1,1 m", "valor": "0,35 m² (centro a 1,45 m)", "item": "5.2.2.4.3.2", "nota": "pessoa inteira: 0,7 m²"},
+    {"parametro": "Força manual mínima — 1 pessoa / mais de 1", "valor": "200 N / 400 N, a 1,1 m de altura", "item": "5.2.2.5"}
+   ]},
+  {"titulo": "Chassi, estabilizadores e deslocamento", "item": "5.3",
+   "texto": "Dispositivos de estabilização, nivelamento, controle de eixos oscilantes, limites de velocidade e distância de frenagem na posição elevada.",
+   "valores": [
+    {"parametro": "Velocidade máx. elevada — PEMT em trilhos", "valor": "3,0 m/s", "item": "5.3.15.1", "nota": "OCR '30m/s' — conferir"},
+    {"parametro": "Velocidade máx. elevada — demais tipo 2/3", "valor": "0,7 m/s", "item": "5.3.15.1"}
+   ]},
+  {"titulo": "Estrutura extensível e acionamentos", "item": "5.4–5.5",
+   "texto": "Sistemas sensores de carga e de momento; acionamentos por cabo, corrente, cremalheira, fuso ou hidráulica com freios e retenção. Velocidades máximas dos movimentos do cesto e ensaio de sobrecarga com 150 % em certos sensores.",
+   "valores": [
+    {"parametro": "Subida/descida do cesto e telescopagem", "valor": "≤ 0,4 m/s", "item": "5.4"},
+    {"parametro": "Giro (borda externa do cesto, alcance máx.)", "valor": "≤ 0,7 m/s", "item": "5.4"},
+    {"parametro": "Freio deve parar e segurar o cesto com", "valor": "1,25 × carga nominal (energia) / 1,5 × (manual)", "item": "5.5.1.6.2"}
+   ]},
+  {"titulo": "Cesto, guarda-corpo e ancoragens", "item": "5.6",
+   "texto": "Proteção em todas as laterais do cesto, porta que fecha sozinha ou trava e não abre para fora, sistema de acesso quando o piso estiver alto, e pontos de ancoragem para EPI contra queda (Grupo B: trava-quedas obrigatório).",
+   "valores": [
+    {"parametro": "Altura do guarda-corpo", "valor": "≥ 1,1 m", "item": "5.6.3.1"},
+    {"parametro": "Rodapé", "valor": "≥ 0,1 m; frestas ≤ 15 mm", "item": "5.6.3.1–5.6.3.3"},
+    {"parametro": "Carga no guarda-corpo", "valor": "500 N por pessoa, a intervalos de 0,5 m, sem deformação permanente", "item": "5.6.3.4"},
+    {"parametro": "Carga de ensaio em cada barra", "valor": "1 340 N concentrada, sem ruptura", "item": "5.6.3.5"},
+    {"parametro": "Ancoragem de trava-quedas", "valor": "16 kN estáticos por pessoa", "item": "5.6.4.3"},
+    {"parametro": "Ancoragem de retenção", "valor": "3 kN por pessoa", "item": "5.6.4.4"},
+    {"parametro": "Nº de ancoragens", "valor": "≥ nº de pessoas permitido", "item": "5.6.4.2"},
+    {"parametro": "Largura mínima da abertura de acesso", "valor": "420 mm", "item": "5.6.4.8.1"},
+    {"parametro": "Sistema de acesso obrigatório", "valor": "piso do cesto > 0,5 m do nível de acesso; degraus a ≤ 0,3 m", "item": "5.6.5"},
+    {"parametro": "Cesto de 1 / 2 pessoas (área máx.)", "valor": "0,6 m² (lado ≤ 0,85 m) / 1,0 m² (lado ≤ 1,4 m)", "item": "5.4", "nota": "limite usado para dispensar sensor de carga — conferir contexto"},
+    {"parametro": "Nivelamento mecânico", "valor": "projetado para ≥ 2 × a carga imposta", "item": "5.6.1.5"}
+   ]},
+  {"titulo": "Controles, elétrica, hidráulica e dispositivos de segurança", "item": "5.7–5.11",
+   "texto": "Controles com retorno a neutro e proteção contra acionamento acidental; parada de emergência; requisitos de equipamento elétrico e hidráulico (válvulas de retenção nos cilindros, manômetros, ajuste de pressão); níveis de desempenho (PL) dos dispositivos de segurança na Tabela 3.",
+   "valores": []},
+  {"titulo": "Verificação e ensaios", "item": "6",
+   "texto": "Exames de projeto e ensaios de tipo (estabilidade, sobrecarga, funcional, freios, ancoragens) e ensaios em cada PEMT produzida.",
+   "valores": [
+    {"parametro": "Ensaio de sobrecarga", "valor": "125 % da carga nominal (energia) / 150 % (manual)", "item": "6.1.4.3.1"},
+    {"parametro": "PEMT suspensa — ensaio estático", "valor": "150 % da carga nominal + 150 % do acessório de elevação, com inclinação de 5° e 2°", "item": "6.1.4"}
+   ]},
+  {"titulo": "Informações de uso, marcação e anexos", "item": "7, Anexos",
+   "texto": "Manuais na máquina em local protegido, placas com carga nominal, nº de pessoas, força manual e vento admissíveis, inclinação máxima. Anexos com cálculo de cabos e polias (diâmetros mínimos, fatores por número de deflexões), efeitos dinâmicos e exemplos.",
+   "valores": []}
+ ]
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 500" width="780" height="500" role="img" aria-label="Soquete de cunha montado — corpo, cunha, parte viva e parte morta">
+<title>Soquete de cunha montado — corpo, cunha, parte viva e parte morta (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Soquete de cunha montado — corpo, cunha, parte viva e parte morta</text>
+<path class="s" d="M240,120 L420,120 L380,380 L280,380 Z"/>
+<path class="sl" d="M275,150 L385,150 L350,360 L310,360 Z"/>
+<circle class="g" cx="330" cy="90" r="26"/>
+<rect class="s" x="220" y="80" width="220" height="20"/>
+<line x1="325" y1="380" x2="325" y2="470" stroke="#666" stroke-width="9" stroke-linecap="round"/>
+<text class="n en" x="310" y="470">parte viva</text>
+<line x1="360" y1="380" x2="450" y2="470" stroke="#999" stroke-width="7" stroke-linecap="round"/>
+<text class="n" x="460" y="470">parte morta</text>
+<g id="cota-P" class="cota"><line class="e" x1="267" y1="150.4" x2="204.7" y2="159.3"/><line class="e" x1="297" y1="360.4" x2="234.7" y2="369.3"/><line class="d" x1="210.6" y1="158.5" x2="240.6" y2="368.5" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="218.6" y="268.5">P (contato cunha–corpo)</text></g>
+<text class="n" x="480" y="170">α = ângulo da cunha</text>
+<text class="n" x="480" y="190">β = ângulo do corpo</text>
+<g id="cota-alfa" class="cota"><line class="d" x1="480" y1="245" x2="368" y2="250" marker-end="url(#a)"/><text x="484" y="250">α</text></g>
+<g id="cota-beta" class="cota"><line class="d" x1="480" y1="285" x2="400" y2="250" marker-end="url(#a)"/><text x="484" y="290">β</text></g>
+<g id="cota-d" class="cota"><line class="d" x1="295" y1="430" x2="321" y2="430" marker-end="url(#a)"/><line class="d" x1="355" y1="430" x2="329" y2="430" marker-end="url(#a)"/><line class="d" x1="321" y1="430" x2="329" y2="430"/><text x="350" y="436">d</text></g>
+<text class="n m" x="330" y="70">pino</text>
+<text class="n" x="20" y="488">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

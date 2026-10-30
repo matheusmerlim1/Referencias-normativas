@@ -1,0 +1,116 @@
+{
+ "id": "API-RP-2A",
+ "titulo": "API RP 2A-WSD — Plataformas fixas offshore: planejamento, projeto e construção",
+ "secoes": [
+  {
+   "titulo": "Planejamento e categorias de exposição",
+   "item": "1; 4.5; 4.7",
+   "texto": "Prática para plataformas fixas de aço (jaquetas e torres) pelo método de tensões admissíveis. A plataforma recebe uma categoria de exposição (L-1, L-2, L-3) pela segurança da vida humana e pelas consequências de falha; ela define critérios ambientais, de fadiga e de convés. Unidades desabitadas ou evacuadas e de vida curta podem ter critérios mais brandos.",
+   "valores": [
+    {"parametro": "Período de retorno oceanográfico (guia)", "valor": "várias vezes a vida planejada; 100 anos para plataformas tripuladas no evento ou de alta consequência", "item": "4.5"},
+    {"parametro": "Vida de projeto típica (referência para critérios reduzidos)", "valor": "20 anos", "item": "4.5"},
+    {"parametro": "Evento sem aviso com plataforma tripulada", "valor": "critério oceanográfico de no mínimo 100 anos", "item": "4.5"}
+   ]
+  },
+  {
+   "titulo": "Cargas e folga do convés",
+   "item": "5",
+   "texto": "Considera cargas permanentes, operacionais, ambientais (onda, corrente, vento, sismo, gelo) e de construção (içamento, transporte, lançamento). O fundo do convés deve ficar acima da crista da onda de projeto com folga; no Golfo do México o critério é a crista de 1000 anos. No içamento em mar aberto, o olhal e o que chega ao seu nó recebem fator dinâmico maior que o resto da estrutura. Lingas têm tolerâncias de comprimento para que esses fatores valham.",
+   "valores": [
+    {"parametro": "Fundo do convés (Golfo do México, plataforma nova)", "valor": "≥ crista máxima de 1000 anos de retorno", "item": "5.3.4.3"},
+    {"parametro": "Fator dinâmico — olhal e membros do nó, içamento offshore", "valor": "≥ 2,0 sobre a carga estática", "item": "5.4.2.3"},
+    {"parametro": "Fator dinâmico — demais membros, içamento offshore", "valor": "≥ 1,35", "item": "5.4.2.3"},
+    {"parametro": "Fatores em local abrigado (loadout)", "valor": "≥ 1,5 e ≥ 1,15", "item": "5.4.2.3"},
+    {"parametro": "Comprimento de linga", "valor": "± 0,25 % do nominal ou 38 mm", "item": "5.4.2.5", "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#linga"},
+    {"parametro": "Diferença entre a linga mais longa e a mais curta", "valor": "≤ 0,5 % ou 75 mm", "item": "5.4.2.5", "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#diferenca-lingas"}
+   ]
+  },
+  {
+   "titulo": "Projeto de membros de aço",
+   "item": "6",
+   "texto": "Os membros seguem as tensões admissíveis da AISC 335-89 (a AISC 360 não é recomendada). Com cargas ambientais de projeto, as tensões admissíveis podem subir um terço. Membros tubulares têm regras próprias de flambagem local e pressão hidrostática. Transições cônicas sem anel têm ângulo limitado pela esbeltez D/t.",
+   "valores": [
+    {"parametro": "Aumento da admissível com cargas ambientais (inclusive transporte/lançamento)", "valor": "+1/3", "item": "6.1.2; 5.4.1"},
+    {"parametro": "Ângulo de cone sem anel — D/t = 60", "valor": "10,5° (normal) / 5,8° (extrema)", "item": "Tabela 6.3", "cota": "esquemas/tolerancias-fabricacao-estrutural-transicao-conica.svg#alfa"}
+   ]
+  },
+  {
+   "titulo": "Nós tubulares",
+   "item": "7",
+   "texto": "Nós com chord can e brace stub de parede maior ou aço especial, com extensões mínimas e transição 1:4. Folga mínima entre braces que chegam ao mesmo nó e sobreposição mínima quando se sobrepõem. Soldas longitudinais afastadas dos braces.",
+   "valores": [
+    {"parametro": "Extensão do chord can além do brace", "valor": "maior entre D/4 e 300 mm", "item": "7.2.5", "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#can"},
+    {"parametro": "Comprimento do brace stub", "valor": "maior entre d e 600 mm", "item": "7.2.5", "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#stub"},
+    {"parametro": "Transição de espessura", "valor": "1:4", "item": "7.2.5", "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#conicidade"},
+    {"parametro": "Gap mínimo entre braces", "valor": "50 mm", "item": "7.2.5", "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#gap"},
+    {"parametro": "Overlap preferido", "valor": "maior entre d/4 e 150 mm", "item": "7.2.5", "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#overlap"},
+    {"parametro": "Solda longitudinal do chord afastada dos braces", "valor": "≥ 300 mm", "item": "7.2.5", "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#defasagem-long"}
+   ]
+  },
+  {
+   "titulo": "Fadiga",
+   "item": "8",
+   "texto": "A vida à fadiga calculada deve superar a vida de serviço multiplicada por um fator de segurança que cresce se a ligação for crítica (falha leva à perda da plataforma) ou não puder ser inspecionada. Para L-2 e L-3 convencionais, os fatores podem cair pela metade.",
+   "valores": [
+    {"parametro": "FS — não crítica, inspecionável / não inspecionável", "valor": "2 / 5", "item": "Tabela 8.1"},
+    {"parametro": "FS — crítica, inspecionável / não inspecionável", "valor": "5 / 10", "item": "Tabela 8.1"},
+    {"parametro": "L-2 e L-3 com estrutura redundante inspecionável por ROV/mergulho", "valor": "FS = 1,0", "item": "8.2"}
+   ]
+  },
+  {
+   "titulo": "Fundações (estacas)",
+   "item": "9",
+   "texto": "Estacas são dimensionadas por tensões admissíveis e por capacidade axial com fatores de segurança que dependem da condição de carga. A espessura mínima de parede considera a cravação. Deixa-se sobra para cortar o trecho danificado pelo martelo.",
+   "valores": [
+    {"parametro": "FS de estaca — condição ambiental de projeto", "valor": "1,5", "item": "Tabela 9.1"},
+    {"parametro": "FS de estaca — condição operacional", "valor": "2,0", "item": "Tabela 9.1"},
+    {"parametro": "Parede mínima para cravação dura", "valor": "t = 6,35 + D/100 (mm)", "item": "9.10.6, Eq. (9.1)", "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#t"},
+    {"parametro": "Sobra para corte por seção", "valor": "0,5 a 1,5 m", "item": "9.11", "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#sobra"}
+   ]
+  },
+  {
+   "titulo": "Soldagem",
+   "item": "13",
+   "texto": "Soldagem pela AWS D1.1 com procedimentos escritos, mesmo pré-qualificados. Nós e topos são de penetração total. Aço de maior resistência ou soldas grossas pedem baixo hidrogênio. Passes descendentes de acabamento exigem aporte mínimo. Abertura de arco só dentro do chanfro.",
+   "valores": [
+    {"parametro": "Baixo hidrogênio obrigatório", "valor": "escoamento ≥ 280 MPa ou garganta > 13 mm", "item": "13.1.3.1"},
+    {"parametro": "Passe de acabamento descendente", "valor": "aporte ≥ 1000 kJ/m; ZTA ≤ 325 HV10", "item": "13.1.3.4"},
+    {"parametro": "Solda de selagem", "valor": "≥ 3 mm, não precisa passar de 5 mm", "item": "13.3.4", "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#selagem"}
+   ]
+  },
+  {
+   "titulo": "Fabricação e tolerâncias",
+   "item": "14",
+   "texto": "Fabricação pela AISC 335-89, emendas de tubo pela API 2B, vigas soldadas pela AWS D1.1. Chanfros de nós tubulares pela Figura 14.1. Tolerâncias finais de colunas, braces, vigas de convés, escadas e estacas; acessórios temporários removidos sem martelo nem goivagem. Valores completos na ficha tolerancias-fabricacao-estrutural.",
+   "valores": [
+    {"parametro": "Distância entre colunas — planos críticos", "valor": "± 10 mm", "item": "14.1.5.2.1", "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#dist-colunas"},
+    {"parametro": "Diagonais de planta retangular", "valor": "iguais dentro de 19 mm", "item": "14.1.5.2.1", "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#diagonais"},
+    {"parametro": "Retilineidade de colunas", "valor": "≤ 3 mm em 3 m; total < 10 mm", "item": "14.1.5.2.2", "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#retilineidade"},
+    {"parametro": "Braces horizontais — posição vertical", "valor": "± 13 mm", "item": "14.1.5.3", "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#brace-horizontal"},
+    {"parametro": "Vigas do convés — desalinhamento", "valor": "≤ 19 mm horiz. / 13 mm vert.", "item": "14.1.5.4", "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#out-of-line"},
+    {"parametro": "Patamares e escadas", "valor": "± 76 mm", "item": "14.1.5.8", "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#patamar"},
+    {"parametro": "Comprimento de seção de estaca", "valor": "± 0,5 %", "item": "14.1.5.9.5", "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#comprimento"},
+    {"parametro": "Tolerância do ângulo de chanfro em nó", "valor": "+5°", "item": "14.1.3.3", "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#angulo-chanfro"},
+    {"parametro": "Corte de acessório temporário em área crítica", "valor": "3 mm acima do metal de base + esmerilhar", "item": "14.1.7.2", "cota": "esquemas/tolerancias-fabricacao-estrutural-acessorios-temporarios.svg#corte-critico"}
+   ]
+  },
+  {
+   "titulo": "Instalação",
+   "item": "15",
+   "texto": "Jaqueta nivelada antes de cravar as estacas; convés montado na elevação de projeto e nivelado. Olhais de estaca removidos rente e esmerilhados.",
+   "valores": [
+    {"parametro": "Elevação do convés instalado", "valor": "± 76 mm", "item": "15.6.4", "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#elev-deck"},
+    {"parametro": "Nivelamento do convés", "valor": "≤ 13 mm", "item": "15.6.4", "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#nivelamento"}
+   ]
+  },
+  {
+   "titulo": "Inspeção",
+   "item": "16",
+   "texto": "Inspeção em todas as fases; montagem de junta 100 % visual antes de soldar; visual na raiz, segundo passe e acabamento. A extensão de END vem da Tabela 16.1; inspeção parcial é 10 % de cada peça.",
+   "valores": [
+    {"parametro": "END — nós tubulares", "valor": "100 % UT", "item": "Tabela 16.1"},
+    {"parametro": "END — solda longitudinal de tubular", "valor": "10 % (UT ou RT)", "item": "Tabela 16.1"}
+   ]
+  }
+ ]
+}

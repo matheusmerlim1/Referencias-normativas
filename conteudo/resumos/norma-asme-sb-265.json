@@ -1,0 +1,48 @@
+{
+ "id": "ASME-SB-265",
+ "titulo": "SB-265 — Tiras, folhas e chapas de titânio e ligas de titânio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tiras, folhas e chapas recozidas de titânio não ligado (Graus 1, 2, 2H, 3, 4) e ligas de titânio (Grau 5 = Ti-6Al-4V, Grau 7 = Ti-Pd, Grau 12 e muitos outros)."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1",
+   "texto": "Su mín. / Sy (0,2 %) mín.–máx. / alongamento mín.; dobramento em mandril de 3T a 5T conforme espessura.",
+   "valores": [
+    {
+     "parametro": "Grau 1 (Ti puro)",
+     "valor": "35 ksi (240) / 20–45 ksi (138–310) / 24 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 2 (Ti puro)",
+     "valor": "50 ksi (345) / 40–65 ksi (275–450) / 20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 3 (Ti puro)",
+     "valor": "65 ksi (450) / 55–80 ksi (380–550) / 18 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 4 (Ti puro)",
+     "valor": "80 ksi (550) / 70–95 ksi (483–655)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 2H — Su mín.",
+     "valor": "58 ksi (400)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Dobramento Grau 2 — até 0,070 in / 0,070–0,187 in",
+     "valor": "4T / 5T",
+     "item": "Tabela 1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "ISO-8839",
+ "titulo": "ISO 8839:1986 (BS EN 28839:1992) — Propriedades mecânicas de fixadores — Parafusos, prisioneiros e porcas de metais não ferrosos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Propriedades mecânicas de parafusos, prisioneiros e porcas de cobre e ligas de cobre ou de alumínio, ensaiados à temperatura ambiente. Não vale para requisitos especiais como condutividade elétrica.",
+   "valores": []
+  },
+  {
+   "titulo": "Designação e materiais",
+   "item": "3, Tab. 1",
+   "texto": "Símbolos de material para designação e marcação: CU1 a CU7 (cobre e latões, bronzes; ex. CuZn37, CuZn39Pb3) e AL1 a AL6 (ligas de alumínio; ex. AlMg3, AlCuMgSi), cada um ligado à norma do material (ISO 426, 427, 1337 etc.).",
+   "valores": [
+    {
+     "parametro": "Símbolos",
+     "valor": "CU1…CU7, AL1…AL6",
+     "item": "Tab. 1",
+     "nota": "lista de OCR ruim — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades e ensaios",
+   "item": "4–6, Tab. 2–4",
+   "texto": "Por símbolo e faixa de diâmetro: resistência à tração Rm mín., limite 0,2 % Rp0,2 mín. e alongamento A mín. (Tab. 2); ensaios exigidos (tração, torque de ruptura para pequenos diâmetros, carga de prova de porcas — Tab. 3); cargas mínimas de ruptura por rosca (Tab. 4). Ensaio de tração conforme ISO 898-1.",
+   "valores": [
+    {
+     "parametro": "Valores por material",
+     "valor": "Tabelas 2 e 4",
+     "item": "Tab. 2, 4",
+     "nota": "OCR ilegível — conferir"
+    }
+   ]
+  }
+ ]
+}

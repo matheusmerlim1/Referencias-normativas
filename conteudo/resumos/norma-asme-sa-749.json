@@ -1,0 +1,28 @@
+{
+ "id": "ASME-SA-749",
+ "titulo": "SA-749 — Requisitos gerais para tiras de aço carbono e ARBL laminadas a quente",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns a tiras (fitas) de aço carbono e de alta resistência e baixa liga laminadas a quente, em bobinas ou cortadas. Não se aplica a bobinas grossas (A635), laminados a frio e outros produtos com especificação própria."
+  },
+  {
+   "titulo": "Fabricação e química",
+   "item": "4, 5",
+   "texto": "Fornecido laminado a quente, sem recozimento nem decapagem, salvo pedido. Composição pela especificação do produto; para aço carbono fora dela, usar as faixas padronizadas do Apêndice X1. Para soldagem, escolher química/propriedades com cuidado.",
+   "valores": [
+    {
+     "parametro": "Faixa padronizada de C (máx. especificado até 0,15 %)",
+     "valor": "0,05 %",
+     "item": "Tabela X1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios, entrega e marcação",
+   "item": "6, 10, 15",
+   "texto": "Propriedades e corpos de prova pela especificação do produto (A370). Produto em espessura decimal. Marcação mínima: fabricante, designação ASTM, massa, pedido e identificação."
+  }
+ ]
+}

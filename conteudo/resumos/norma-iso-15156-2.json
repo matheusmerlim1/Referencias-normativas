@@ -1,0 +1,51 @@
+{
+ "id": "ISO-15156-2",
+ "titulo": "ISO 15156-2:2003 (NACE MR0175) — Petróleo e gás — Materiais para ambientes com H2S — Parte 2: Aços-carbono e de baixa liga resistentes a trincas e uso de ferros fundidos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Requisitos para aços-carbono e baixa liga (e ferros fundidos) em equipamentos de produção de óleo e gás e plantas de tratamento com H2S: resistência a trinca sob tensão por sulfeto (SSC), trinca induzida por hidrogênio orientada pela tensão (SOHIC), trinca de zona macia (SZC) e trinca induzida por hidrogênio (HIC) com sua evolução em degraus (SWC). Não trata perda de massa por corrosão geral ou localizada. Tabela 1 lista equipamentos abrangidos e exclusões.",
+   "valores": []
+  },
+  {
+   "titulo": "Informações de compra",
+   "item": "5, Anexos C–E",
+   "texto": "Usuário, fornecedor e fabricante do material trocam dados; aços fora do Anexo A podem ser aceitos por qualificação. Cálculo da pressão parcial de H2S no Anexo C, pH no Anexo D e folhas de dados no Anexo E.",
+   "valores": []
+  },
+  {
+   "titulo": "Seleção quanto ao SSC",
+   "item": "7, Anexo A",
+   "texto": "Opção 1: aços resistentes do Anexo A, válidos em qualquer severidade. Opção 2: seleção por regiões de severidade (pressão parcial de H2S × pH in situ, regiões 0 a 3). Qualificação por ensaio pelo Anexo B.",
+   "valores": [
+    {
+     "parametro": "Limite para precauções contra SSC",
+     "valor": "pH2S ≥ 0,3 kPa (0,05 psi) → usar aços resistentes (A.2)",
+     "item": "7.4.2"
+    },
+    {
+     "parametro": "Região 0",
+     "valor": "pH2S < 0,3 kPa — normalmente sem precauções especiais (atenção a aços com escoamento acima de ~965 MPa)",
+     "item": "7.2.1.3"
+    },
+    {
+     "parametro": "Aço-carbono e baixa liga aceitável",
+     "valor": "dureza ≤ 22 HRC, Ni < 1 %, sem aços de usinagem fácil, em condições de tratamento térmico especificadas",
+     "item": "A.2"
+    },
+    {
+     "parametro": "Consumíveis com Ni > 1 %",
+     "valor": "aceitos só após qualificação SSC de solda (Anexo B)",
+     "item": "A.2"
+    }
+   ]
+  },
+  {
+   "titulo": "HIC/SWC",
+   "item": "8",
+   "texto": "Avaliação de aços quanto a HIC/SWC por ensaio e critérios de aceitação.",
+   "valores": []
+  }
+ ]
+}

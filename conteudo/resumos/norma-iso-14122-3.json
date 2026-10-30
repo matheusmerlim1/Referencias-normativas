@@ -1,0 +1,285 @@
+{
+ "id": "ISO-14122-3",
+ "titulo": "ISO 14122-3:2001 — Acessos permanentes a máquinas: escadas, escadas de marinheiro inclinadas (step ladders) e guarda-corpos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Cobre escadas fixas, escadas muito inclinadas (step ladders) e guarda-corpos que fazem parte de máquinas; pode valer para a parte do prédio que existe para dar acesso à máquina. A escolha entre escada, step ladder e escada vertical, pelo ângulo, está na Parte 1. Edição de 2001, já substituída pela de 2016.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos gerais e materiais",
+   "item": "4.1–4.4",
+   "texto": "Materiais resistentes à corrosão do ambiente, por natureza ou proteção. Nada de cantos vivos, rebarbas de solda ou arestas ásperas. Degraus e patamares com superfície antiderrapante.",
+   "valores": []
+  },
+  {
+   "titulo": "Cargas de projeto e flecha",
+   "item": "4.7",
+   "texto": "A estrutura é dimensionada para uma carga distribuída que depende do movimento de pessoas e do transporte de carga; cada degrau recebe uma carga concentrada em pequena área. A flecha do degrau é limitada.",
+   "valores": [
+    {
+     "parametro": "Carga distribuída não fatorada na estrutura",
+     "valor": "1,5 kN/m² (pouco tráfego, sem carga) a 5 kN/m² (com carga ou tráfego intenso)",
+     "item": "4.7.1"
+    },
+    {
+     "parametro": "Carga no degrau, largura < 1200 mm",
+     "valor": "1,5 kN em 100 × 100 mm, no meio, junto ao bocel",
+     "item": "4.7.2",
+     "cota": "esquemas/escada-degraus-longarina.svg#area-carga"
+    },
+    {
+     "parametro": "Carga no degrau, largura ≥ 1200 mm",
+     "valor": "1,5 kN em cada 600 mm, nos pontos mais desfavoráveis",
+     "item": "4.7.2"
+    },
+    {
+     "parametro": "Flecha do degrau",
+     "valor": "≤ vão/300 ou 6 mm, o menor",
+     "item": "4.7.2",
+     "cota": "esquemas/escada-degraus-longarina.svg#flecha"
+    }
+   ]
+  },
+  {
+   "titulo": "Escadas: degrau, espelho e passo",
+   "item": "5.1–5.4",
+   "texto": "O piso e o espelho seguem a regra do passo (g + 2h). Degraus se sobrepõem um pouco, o espelho é constante no lance (o primeiro pode ser um pouco menor) e o último degrau fica no nível do patamar — mudança de piso no topo é causa conhecida de acidentes.",
+   "valores": [
+    {
+     "parametro": "Regra do passo",
+     "valor": "600 mm ≤ g + 2h ≤ 660 mm",
+     "item": "5.1",
+     "cota": "esquemas/escada-degraus-degrau.svg#passo"
+    },
+    {
+     "parametro": "Sobreposição r",
+     "valor": "≥ 10 mm",
+     "item": "5.2",
+     "cota": "esquemas/escada-degraus-degrau.svg#r"
+    },
+    {
+     "parametro": "Redução admitida no 1º espelho",
+     "valor": "até 15 %",
+     "item": "5.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Escadas: altura livre, largura e patamares",
+   "item": "5.5–5.8",
+   "texto": "Acima da linha de passo exige-se altura livre vertical e folga perpendicular mínimas. A largura tem mínimo e valor preferido; aumenta com cruzamento de pessoas. Lances altos são divididos por patamares de comprimento mínimo.",
+   "valores": [
+    {
+     "parametro": "Altura livre e acima da linha de passo",
+     "valor": "≥ 2300 mm",
+     "item": "5.5",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#e"
+    },
+    {
+     "parametro": "Folga c perpendicular à linha de passo",
+     "valor": "≥ 1900 mm",
+     "item": "5.6",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#c"
+    },
+    {
+     "parametro": "Largura livre",
+     "valor": "≥ 600 mm; preferível 800 mm; 1000 mm com cruzamento frequente",
+     "item": "5.7",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Altura máxima de um lance H",
+     "valor": "≤ 3000 mm (lance único: ≤ 4000 mm)",
+     "item": "5.8",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+     "parametro": "Comprimento do patamar l",
+     "valor": "≥ 800 mm e ≥ largura da escada",
+     "item": "5.8",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
+    }
+   ]
+  },
+  {
+   "titulo": "Step ladders (escadas muito inclinadas)",
+   "item": "6",
+   "texto": "Para inclinações altas, o degrau é estreito e o espelho maior; a largura fica numa faixa limitada e sempre há dois corrimãos.",
+   "valores": [
+    {
+     "parametro": "Profundidade do degrau t",
+     "valor": "≥ 80 mm",
+     "item": "6.1",
+     "cota": "esquemas/escada-degraus-degrau.svg#t"
+    },
+    {
+     "parametro": "Espelho h",
+     "valor": "≤ 250 mm",
+     "item": "6.2",
+     "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+     "parametro": "Sobreposição r",
+     "valor": "≥ 10 mm",
+     "item": "6.3",
+     "cota": "esquemas/escada-degraus-degrau.svg#r"
+    },
+    {
+     "parametro": "Largura livre",
+     "valor": "450 mm a 800 mm; preferível 600 mm",
+     "item": "6.4",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Altura livre e / folga c",
+     "valor": "≥ 2300 mm / ≥ 850 mm",
+     "item": "6.6–6.7",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#e"
+    },
+    {
+     "parametro": "Altura de lance único",
+     "valor": "≤ 3000 mm",
+     "item": "6.8",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    }
+   ]
+  },
+  {
+   "titulo": "Guarda-corpos",
+   "item": "7.1",
+   "texto": "Exigido quando a queda possível passa de um certo desnível ou quando a fresta até a máquina/parede é grande. Compõe-se de corrimão, travessão intermediário (ou balaústres) e rodapé. Montantes ficam preferencialmente pouco espaçados. Interrupções do corrimão têm vão limitado; passagens maiores pedem portão de fechamento automático que abre para dentro da plataforma. Pontas sem arestas e sem prender roupa.",
+   "valores": [
+    {
+     "parametro": "Queda que exige guarda-corpo",
+     "valor": "> 500 mm",
+     "item": "7.1.1",
+     "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#desnivel"
+    },
+    {
+     "parametro": "Fresta plataforma–máquina que exige guarda-corpo",
+     "valor": "> 200 mm",
+     "item": "7.1.2"
+    },
+    {
+     "parametro": "Altura mínima do guarda-corpo",
+     "valor": "1100 mm",
+     "item": "7.1.4",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+     "parametro": "Vão livre corrimão–travessão e travessão–rodapé",
+     "valor": "≤ 500 mm",
+     "item": "7.1.5",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#intermediario"
+    },
+    {
+     "parametro": "Vão entre balaústres verticais",
+     "valor": "≤ 180 mm",
+     "item": "7.1.6",
+     "cota": "esquemas/guarda-corpo-edificacao-vaos.svg#vao-vertical"
+    },
+    {
+     "parametro": "Rodapé",
+     "valor": "≥ 100 mm de altura, a ≤ 10 mm do piso",
+     "item": "7.1.7",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+     "parametro": "Distância entre montantes (preferência)",
+     "valor": "≤ 1500 mm entre eixos",
+     "item": "7.1.8",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#montantes"
+    },
+    {
+     "parametro": "Vão entre segmentos de corrimão",
+     "valor": "75 mm a 120 mm",
+     "item": "7.1.9",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#folga-segmentos"
+    }
+   ]
+  },
+  {
+   "titulo": "Corrimãos de escadas",
+   "item": "7.2",
+   "texto": "Escada tem ao menos um corrimão; larga, dois; step ladder, sempre dois. Guarda-corpo lateral é exigido quando a subida é alta e há vão lateral. Altura medida acima do bocel; seção que caiba na mão; espaço livre em volta. Em step ladders, a distância do corrimão à linha de passo depende do ângulo (Tabela 1).",
+   "valores": [
+    {
+     "parametro": "Escada com dois corrimãos",
+     "valor": "largura ≥ 1200 mm",
+     "item": "7.2.1"
+    },
+    {
+     "parametro": "Guarda-corpo na escada",
+     "valor": "subida > 500 mm e vão lateral > 200 mm",
+     "item": "7.2.2"
+    },
+    {
+     "parametro": "Altura do corrimão",
+     "valor": "900 mm a 1000 mm sobre o bocel; ≥ 1100 mm no patamar",
+     "item": "7.2.3",
+     "cota": "esquemas/escada-degraus-corrimao.svg#a"
+    },
+    {
+     "parametro": "Diâmetro do corrimão",
+     "valor": "25 mm a 50 mm",
+     "item": "7.2.3",
+     "cota": "esquemas/escada-degraus-corrimao.svg#diametro"
+    },
+    {
+     "parametro": "Step ladder — distância x a 60° / 65° / 70° / 75°",
+     "valor": "250 / 200 / 150 / 100 mm",
+     "item": "7.2.4, Tabela 1",
+     "cota": "esquemas/escada-degraus-corrimao.svg#x"
+    },
+    {
+     "parametro": "Step ladder — início do corrimão",
+     "valor": "≥ 1000 mm acima da base",
+     "item": "7.2.4"
+    },
+    {
+     "parametro": "Vãos do guarda-corpo da escada",
+     "valor": "≤ 500 mm",
+     "item": "7.2.5",
+     "cota": "esquemas/escada-degraus-corrimao.svg#travessoes"
+    },
+    {
+     "parametro": "Espaço livre ao redor do corrimão",
+     "valor": "100 mm (exceto por baixo)",
+     "item": "7.2.6",
+     "cota": "esquemas/escada-degraus-corrimao.svg#folga"
+    }
+   ]
+  },
+  {
+   "titulo": "Carga e ensaio do guarda-corpo",
+   "item": "7.3; 8.2",
+   "texto": "A carga horizontal de serviço é proporcional ao espaçamento dos montantes e é aplicada no topo do montante e no ponto pior do corrimão. No ensaio do protótipo aplica-se pré-carga, zera-se e carrega-se progressivamente; a flecha fica limitada e não pode restar deformação permanente.",
+   "valores": [
+    {
+     "parametro": "Carga horizontal F",
+     "valor": "300 N/m × maior distância entre montantes (m)",
+     "item": "7.3"
+    },
+    {
+     "parametro": "Flecha sob F",
+     "valor": "≤ 30 mm",
+     "item": "7.3; 8.2"
+    },
+    {
+     "parametro": "Altura de aplicação no ensaio",
+     "valor": "1100 mm",
+     "item": "8.2",
+     "cota": "esquemas/guarda-corpo-ensaios-nbr14718.svg#altura-aplicacao"
+    },
+    {
+     "parametro": "Pré-carga",
+     "valor": "0,25 F por 1 min",
+     "item": "8.2"
+    }
+   ]
+  }
+ ]
+}

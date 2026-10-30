@@ -1,0 +1,33 @@
+{
+ "id": "ASME-SA-705",
+ "titulo": "SA-705 — Forjados de aço inoxidável endurecível por precipitação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Forjados de aço inoxidável endurecível por precipitação (tipos 630, 631, 632, XM-12, XM-16, XM-25 e outros) para uso geral. Requisitos gerais pela SA-484; matéria-prima pode ser da SA-564."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "5, 8",
+   "texto": "Forjamento de tarugos, barras ou seções de lingote por martelo, prensa, laminação ou extrusão; com prolongamentos para ensaios, salvo indicação."
+  },
+  {
+   "titulo": "Propriedades após envelhecimento",
+   "item": "Tabela 3",
+   "texto": "Mesma tabela de condições da SA-564 (H900 a H1150 para o tipo 630).",
+   "valores": [
+    {
+     "parametro": "630 H900",
+     "valor": "900 °F [480 °C], 1 h, ar",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição e propriedades",
+   "item": "Tabelas 1 e 2",
+   "texto": "Composição por tipo (Tabela 1) e propriedades no estado de fornecimento (Tabela 2); as tabelas não saíram legíveis por coluna na extração do texto."
+  }
+ ]
+}

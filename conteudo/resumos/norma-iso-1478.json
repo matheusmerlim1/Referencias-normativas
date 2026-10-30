@@ -1,0 +1,46 @@
+{
+ "id": "ISO-1478",
+ "titulo": "ISO 1478:1999 (BS EN ISO 1478) — Rosca de parafuso autoatarraxante",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Rosca e pontas de parafusos autoatarraxantes (para chapa) de ST 1,5 a ST 9,5.",
+   "valores": [
+    {
+     "parametro": "Tamanhos",
+     "valor": "ST 1,5; 1,9; 2,2; 2,6; 2,9; 3,3; 3,5; 3,9; 4,2; 4,8; 5,5; 6,3; 8; 9,5",
+     "item": "Tab. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões e pontas",
+   "item": "2, Tab. 1",
+   "texto": "Diâmetros maior e menor, passo e comprimento da ponta por tipo: C (cônica), F (plana) e R (arredondada).",
+   "valores": [
+    {
+     "parametro": "d1 máx. — ST 3,5 / ST 4,2 / ST 4,8 / ST 6,3",
+     "valor": "3,53 / 4,22 / 4,80 / 6,25 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Comprimento de ponta y ref. ST 3,5 — tipo C / F / R",
+     "valor": "3,2 / 2,5 / 2,7 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Ponta tipo R",
+     "valor": "só de ST 3,5 a ST 8",
+     "item": "Tab. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "3",
+   "texto": "Ex.: rosca de parafuso autoatarraxante ISO 1478 – ST 3,5.",
+   "valores": []
+  }
+ ]
+}

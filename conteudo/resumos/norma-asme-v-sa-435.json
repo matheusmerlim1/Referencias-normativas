@@ -1,0 +1,18 @@
+{
+ "id": "ASME-V-SA-435",
+ "titulo": "Seção V, SA-435 — Ultrassom por feixe reto de chapas de aço",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimento e critério de aceitação do ultrassom pulso-eco por feixe reto em chapas de aço carbono e liga totalmente acalmado, para detectar descontinuidades grosseiras (rechupes, rupturas, dupla laminação). Artigo normativo adotado pela ASME Seção V (Ensaios Não Destrutivos), aplicável quando o Código ou o pedido o invoca.",
+   "valores": [
+    {
+     "parametro": "Espessura mínima coberta",
+     "valor": "1/2 in [12,5 mm]",
+     "item": "1.1"
+    }
+   ]
+  }
+ ]
+}

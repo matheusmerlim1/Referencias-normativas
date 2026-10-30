@@ -1,0 +1,89 @@
+{
+ "id": "ASME-SA-479",
+ "titulo": "SA-479 — Barras e perfis de aço inoxidável para caldeiras e vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras acabadas a quente e a frio (redondas, quadradas, sextavadas) e perfis laminados ou extrudados (cantoneiras, tês, canais) de aço inoxidável, para construção de caldeiras e vasos de pressão. Requisitos gerais pela SA-484."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "4",
+   "texto": "Austeníticos solubilizados (leve trefilação e desempeno posteriores permitidos), exceto graus encruados e laminados a quente; martensíticos devem endurecer conforme a Tabela 3.",
+   "valores": [
+    {
+     "parametro": "Solubilização mín. (graus em geral)",
+     "valor": "1900 °F [1040 °C], resfriamento rápido",
+     "item": "4.1.1"
+    },
+    {
+     "parametro": "410 — têmpera ao ar de 1750 °F [955 °C] → dureza mín.",
+     "valor": "35 HRC",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Ordem: C; Mn; P; S; Si; Cr; Ni; Mo.",
+   "valores": [
+    {
+     "parametro": "304 (S30400)",
+     "valor": "C 0,08; Mn 2,00; P 0,045; S 0,030; Si 1,00; Cr 18,0–20,0; Ni 8,0–10,5 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "304L (S30403)",
+     "valor": "C 0,030; Ni 8,0–12,0 %; demais como 304",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "316L (S31603)",
+     "valor": "C 0,030; Mn 2,00; Si 1,00; Cr 16,0–18,0; Ni 10,0–14,0; Mo 2,00–3,00 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "304, 304H, 316, 321, 347 e outros (recozido) — Su / Sy mín.",
+     "valor": "75 ksi [515] / 30 ksi [205]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento / redução de área mín.",
+     "valor": "30 % / 40 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "XM-19 recozido",
+     "valor": "100 ksi [690] / 55 ksi [380] / 35 % / 55 %; 293 HB máx.",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Grão, corrosão e marcação",
+   "item": "7, 9, 11",
+   "texto": "Todos os austeníticos têm o grão medido (E112); graus H com grão mínimo. Solubilizados pelo método alternativo devem passar no ensaio de corrosão intergranular (S2).",
+   "valores": [
+    {
+     "parametro": "Grão 304H, 309H, 310H, 316H",
+     "valor": "ASTM nº 6 ou mais grosso",
+     "item": "7.2.1"
+    },
+    {
+     "parametro": "Grão 321H, 347H, 348H",
+     "valor": "ASTM nº 7 ou mais grosso",
+     "item": "7.2.2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "id": "DIN-EN-ISO-2702",
+ "titulo": "DIN EN ISO 2702:2011 — Parafusos autoatarraxantes de aço tratado termicamente — Propriedades mecânicas (ISO 2702:2011)",
+ "secoes": [
+  {
+   "titulo": "Escopo e objetivo",
+   "item": "1",
+   "texto": "Propriedades e ensaios de parafusos para chapa de aço cementado, ST 2,2 a ST 9,5 (a edição de 2011 incluiu ST 9,5). Objetivo: que o parafuso abra a rosca no material sem deformar a própria rosca e sem quebrar.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos metalúrgicos e mecânicos",
+   "item": "4",
+   "texto": "Dureza superficial, profundidade de camada (por tamanho), dureza do núcleo e microestrutura; ensaios mecânicos de torção (torque mínimo) e de formação de rosca em chapa de ensaio.",
+   "valores": [
+    {
+     "parametro": "Dureza superficial mínima",
+     "valor": "450 HV 0,3",
+     "item": "4.1.1"
+    },
+    {
+     "parametro": "Dureza do núcleo — até ST3,9 / a partir de ST4,2",
+     "valor": "270 a 370 HV 5 / 270 a 370 HV 10",
+     "item": "4.1.3",
+     "nota": "máx. reduzido de 390 para 370 HV nesta edição"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "6",
+   "texto": "Dureza superficial, camada (micrografia), dureza do núcleo, microestrutura, torção (ISO 898-7) e aparafusamento em chapa.",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,1825 @@
+{
+  "id": "escada-degraus",
+  "titulo": "Escada de degraus (fixa)",
+  "categoria": "Acessos e circulação",
+  "resumo": "Escada fixa com degraus (com ou sem espelho) para acesso a máquinas, plataformas, módulos e áreas de trabalho. Reúne largura, altura e profundidade de degrau, fórmula de Blondel, patamares, ângulo e guarda-corpo exigidos por NR-12, NR-18, NR-34 e ABS.",
+  "palavras_chave": [
+    "escada",
+    "escadas",
+    "degrau",
+    "degraus",
+    "espelho",
+    "piso do degrau",
+    "pisada",
+    "patamar",
+    "lance",
+    "blondel",
+    "stair",
+    "stairs",
+    "stairway",
+    "riser",
+    "tread",
+    "nosing",
+    "landing",
+    "escada fixa",
+    "escada de acesso",
+    "NR-35",
+    "escada de inclinação elevada",
+    "escada de uso coletivo",
+    "trabalho em altura",
+    "DNV",
+    "DNV-OS-C101",
+    "C101",
+    "LRFD",
+    "fator de carga",
+    "load factor",
+    "carga de escada",
+    "staircase",
+    "staircase load",
+    "carga variável",
+    "escada de inspeção",
+    "PMA",
+    "offshore",
+    "FPSO",
+    "ISO 14122-3",
+    "step ladder",
+    "escada de inclinação",
+    "g+2h",
+    "headroom",
+    "clearance",
+    "overlap",
+    "sobreposição",
+    "going",
+    "rise"
+  ],
+  "relacionadas": [
+    "escada-marinheiro",
+    "guarda-corpo",
+    "passarela-plataforma-rampa",
+    "escada-portatil"
+  ],
+  "calculadora": "escada",
+  "figuras": [
+    {
+      "arquivo": "esquemas/escada-degraus-angulo-tipo.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — faixas de ângulo dos meios de acesso (rampa, escada com espelho, escada sem espelho, escada vertical) e lance com ângulo α e desnível H.",
+      "norma": "NR-12",
+      "item": "Esquema",
+      "pagina": 33,
+      "grupo": [
+        "Escolha do tipo / ângulo"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Anexo III, Figura 1). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-degraus-largura-corte.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — corte transversal: largura útil entre corrimãos e comprimento do degrau entre longarinas.",
+      "norma": "NR-12",
+      "item": "Esquema",
+      "pagina": 38,
+      "grupo": [
+        "Largura"
+      ],
+      "nota": "Desenho próprio. Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-degraus-degrau.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — perfil de três degraus: h (altura entre degraus), g (profundidade livre, de bocel a bocel), t (profundidade do piso), r (sobreposição), bocel, faixa de borda e passo g + 2h.",
+      "norma": "NR-12",
+      "item": "Esquema",
+      "pagina": 38,
+      "grupo": [
+        "Degrau (espelho e piso)"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Anexo III, Figura 4). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-degraus-lance-patamar.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — dois lances com patamar: H (altura do lance), l (comprimento do patamar), e (altura livre vertical acima da linha de passo), c (folga perpendicular à linha de passo) e elevação do patamar.",
+      "norma": "ISO-14122-3",
+      "item": "Esquema",
+      "pagina": 10,
+      "grupo": [
+        "Patamares",
+        "Altura livre",
+        "Fabricação"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (5.7 e 5.8). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-degraus-longarina.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — longarina biapoiada com vão S e flecha δ; chapa de fixação do degrau; área de aplicação da carga no degrau.",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Esquema",
+      "pagina": 7,
+      "grupo": [
+        "Longarina e fixação"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Des. PE-FD-06-S-ST-20007-001). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/escada-degraus-corrimao.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — vista lateral: a (corrimão acima do bocel), b (guarda-corpo do patamar), travessão intermediário, rodapé, montantes, travessões, raio da curva; corte do corrimão (Ø e folga até a antepara); step ladder (x = distância horizontal da linha de passo ao eixo do corrimão).",
+      "norma": "ISO-14122-3",
+      "item": "Esquema",
+      "pagina": 13,
+      "grupo": [
+        "Corrimão e guarda-corpo"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (7.2, Figura 6). Sem valores: o site escreve o valor do requisito na cota destacada."
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Escada com espelho — ângulo de lance",
+      "valor": "20° a 45° (preferencial 30° a 38°)",
+      "min": 20,
+      "max": 45,
+      "unidade": "°",
+      "norma": "NR-12",
+      "item": "Anexo III, item 2 / Figura 1",
+      "pagina": 33,
+      "nota": "Faixa preferencial lida na hachura da Figura 1 (ISO 14122).",
+      "calc": [
+        "nr12-ce:angulo"
+      ],
+      "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo-com-espelho"
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Escada sem espelho — ângulo de lance",
+      "valor": "45° a 75° (preferencial 45° a 60°)",
+      "min": 45,
+      "max": 75,
+      "unidade": "°",
+      "norma": "NR-12",
+      "item": "Anexo III, item 2 / Figura 1",
+      "pagina": 33,
+      "nota": "Faixa preferencial lida na hachura da Figura 1 (ISO 14122).",
+      "calc": [
+        "nr12-se:angulo"
+      ],
+      "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo-sem-espelho"
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Ângulo de inclinação da escada",
+      "valor": "38° a 45°",
+      "min": 38,
+      "max": 45,
+      "unidade": "°",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.1 iii) e 1.2.4",
+      "pagina": 16,
+      "calc": [
+        "abs:angulo"
+      ],
+      "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo"
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Escada móvel (construção) — ângulo",
+      "valor": "50° a 75° (ou conforme fabricante)",
+      "min": 50,
+      "max": 75,
+      "unidade": "°",
+      "norma": "NR-18",
+      "item": "18.8.2 b)",
+      "pagina": 16,
+      "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo"
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Desnível que obriga escada ou rampa",
+      "valor": "> 0,40 m",
+      "min": 400,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.1",
+      "pagina": 15,
+      "cota": "esquemas/escada-degraus-angulo-tipo.svg#desnivel"
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Desnível que obriga escada ou rampa",
+      "valor": "> 0,30 m",
+      "min": 300,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.3.1",
+      "pagina": 8,
+      "cota": "esquemas/escada-degraus-angulo-tipo.svg#desnivel"
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Desnível a partir do qual se usa escada (abaixo: rampa)",
+      "valor": "> 600 mm",
+      "min": 600,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.1 i) e 2.1 ii)",
+      "pagina": 16,
+      "cota": "esquemas/escada-degraus-angulo-tipo.svg#desnivel"
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Inclinação máxima — escada primária — FPSO Peregrino",
+      "valor": "≤ 36,5°",
+      "max": 36.5,
+      "unidade": "°",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Nota 1 e vista Principle dimensions of primary stairs",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino). Nota 1 atribui os requisitos da escada primária à NORSOK.",
+      "calc": [
+        "fpso:angulo"
+      ],
+      "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo"
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Inclinação máxima — escada secundária — FPSO Peregrino",
+      "valor": "≤ 45°",
+      "max": 45,
+      "unidade": "°",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Nota 2 e vista Principle dimensions of secondary stairs",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo"
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Desnível que obriga escada, escada vertical ou rampa",
+      "valor": "> 305 mm (12 in.)",
+      "min": 305,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.1.1",
+      "pagina": 92,
+      "cota": "esquemas/escada-degraus-angulo-tipo.svg#desnivel"
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Quando usar escada (e não escada vertical)",
+      "valor": "Trânsito regular entre níveis; acesso diário (ou 1× por turno) a plataforma elevada; possível fuga rápida; transporte manual de ferramentas/peças",
+      "norma": "ASTM-F1166",
+      "item": "11.1.2.1",
+      "pagina": 92
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Ângulo de inclinação da escada",
+      "valor": "30° a 50° (preferido 38°); 50° a 75° não devem ser usados",
+      "min": 30,
+      "max": 50,
+      "unidade": "°",
+      "norma": "ASTM-F1166",
+      "item": "11.2.1 / Tabela 22 / Tabela 23",
+      "pagina": 94,
+      "nota": "Tabela 22 e Tabela 23 repetem 30°–50°, preferido 38°; desvio só com aprovação do contratante.",
+      "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo"
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Escada como rota de fuga",
+      "valor": "Escada é o meio primário de fuga; escada vertical só como meio secundário",
+      "norma": "ASTM-F1166",
+      "item": "11.1.4.1",
+      "pagina": 93
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Degraus isolados fixados na estrutura",
+      "valor": "Só onde escada ou escada vertical não for prática; dimensões iguais às dos degraus de 11.2.3 / Fig. 89",
+      "norma": "ASTM-F1166",
+      "item": "11.2.12",
+      "pagina": 100
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Escada helicoidal (caracol)",
+      "valor": "Não usar, exceto em tanques/estruturas redondas de diâmetro > 2,44 m (8 ft) sem possibilidade de lance reto; subir no sentido horário",
+      "min": 2440,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.13.1 / 11.2.13.2",
+      "pagina": 101
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Escada removível",
+      "valor": "Pinada no topo e na base quando a remoção facilitar a manutenção; escada de rota de fuga deve ser permanente",
+      "norma": "ASTM-F1166",
+      "item": "11.2.14",
+      "pagina": 101
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Orientação (navio)",
+      "valor": "Preferível de proa a popa; transversal (athwartship) permitida",
+      "norma": "ASTM-F1166",
+      "item": "11.2.7",
+      "pagina": 96
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Hierarquia na escolha do meio de acesso fixo (trabalho em altura)",
+      "valor": "a) acesso direto do solo ou piso; b) rampa ou escada de uso coletivo; c) escada de inclinação elevada; d) escada fixa vertical",
+      "norma": "NR-35",
+      "item": "Anexo III, 4.1.2",
+      "pagina": 17,
+      "nota": "Item com 'linha de corte' (Portaria MTE 1.860/2025, art. 2º) — a regra de transição não está no texto da NR; consultar a Portaria."
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Escada de inclinação elevada — ângulo",
+      "valor": "Escada fixa com ângulo de mais de 60° a 75°, cujos elementos horizontais são degraus",
+      "min": 60,
+      "max": 75,
+      "unidade": "°",
+      "norma": "NR-35",
+      "item": "Anexo III, Glossário",
+      "pagina": 21,
+      "nota": "O Anexo III não traz requisitos específicos para ela (só os gerais do item 5.1, conforme 3.2). Limite exclusivo: 'mais de 60°' (60° exatos não entra).",
+      "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo-sem-espelho"
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Escada de uso coletivo — definição e escopo",
+      "valor": "Escadas de uso coletivo como meio de acesso e circulação em prédios, estruturas industriais e flutuantes e as de emergência; o Anexo III NÃO se aplica a elas",
+      "norma": "NR-35",
+      "item": "Glossário (pág. 8) e Anexo III, 2.1.1",
+      "pagina": 8
+    },
+    {
+      "parametro": "Arranjo de escadas no projeto (PMA, offshore)",
+      "valor": "Arranjo de acesso e arranjo estrutural de stairs, ladders, platforms and handrails devem (should — recomendação) ser incorporados no início do projeto; meios de acesso descritos no access manual",
+      "item": "Ch.2 Sec.1 [3.1.3] e [3.1.4]",
+      "pagina": 20,
+      "nota": "A DNV-OS-C101 não dá cotas de escada (ângulo, espelho, piso).",
+      "grupo": "Escolha do tipo / ângulo",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "grupo": "Escolha do tipo / ângulo",
+      "parametro": "Escopo (ISO 14122-3)",
+      "valor": "Escadas, step ladders e guarda-corpos que fazem parte da máquina; pode valer para a parte do prédio cuja função principal é dar acesso à máquina; inclui escadas específicas da máquina removíveis",
+      "norma": "ISO-14122-3",
+      "item": "1",
+      "pagina": 5,
+      "nota": "Faixas de ângulo para escolher entre escada, step ladder e escada vertical estão na ISO 14122-1 (não disponível no acervo)."
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura útil mínima",
+      "valor": "≥ 0,60 m",
+      "min": 600,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 11 a) e 12 a)",
+      "pagina": 37,
+      "nota": "Lance único com altura < 1,50 m: pode reduzir para 0,50 m (11.1 / 12.1). Escadas anteriores à Portaria SIT 197/2010: mínimo 0,50 m.",
+      "calc": [
+        "nr12-ce:largura",
+        "nr12-se:largura"
+      ],
+      "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura mínima (escada de uso coletivo)",
+      "valor": "≥ 0,80 m",
+      "min": 800,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.1 c)",
+      "pagina": 16,
+      "nota": "Dimensionar em função do fluxo de trabalhadores.",
+      "calc": [
+        "nr18:largura"
+      ],
+      "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura mínima (escada provisória de uso coletivo)",
+      "valor": "≥ 0,80 m",
+      "min": 800,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.3.5",
+      "pagina": 8,
+      "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura mínima do degrau — sentido único",
+      "valor": "≥ 700 mm",
+      "min": 700,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.3 iii)",
+      "pagina": 17,
+      "calc": [
+        "abs:largura"
+      ],
+      "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura mínima do degrau — dois sentidos",
+      "valor": "≥ 900 mm",
+      "min": 900,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.3 iv)",
+      "pagina": 17,
+      "nota": "A largura não pode diminuir no sentido de fuga (1.3 v).",
+      "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura mínima — escada de 1 ou 2 níveis (primária) — FPSO Peregrino",
+      "valor": "≥ 1000 mm",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Nota 1",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino). Na vista frontal a cota WIDTH é marcada entre os corrimãos.",
+      "calc": [
+        "fpso:largura"
+      ],
+      "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura mínima — escada de 3 ou mais níveis (primária) — FPSO Peregrino",
+      "valor": "≥ 1200 mm",
+      "min": 1200,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Nota 1",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Comprimento do degrau típico (entre longarinas) — FPSO Peregrino",
+      "valor": "1200 mm",
+      "min": 1200,
+      "max": 1200,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Typical treads",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino). Cota do degrau típico; a largura real segue a largura da escada.",
+      "cota": "esquemas/escada-degraus-largura-corte.svg#comprimento-degrau"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Acesso de maca — FPSO Peregrino",
+      "valor": "Passagem de maca 2200 × 650 mm possível em todo o percurso",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Nota 3",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino)."
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura — sentido único, área pouco usada ou acesso de manutenção",
+      "valor": "mín. 559 mm (22 in.); preferida 610 mm (24 in.)",
+      "min": 559,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.8 / Tabela 24",
+      "pagina": 105,
+      "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura — sentido único com ferramentas, peças, cargas volumosas",
+      "valor": "mín. 710 mm (28 in.); preferida 864 mm (34 in.)",
+      "min": 710,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.8 / Tabela 24",
+      "pagina": 105,
+      "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura — secundária / duas pessoas se cruzando de frente",
+      "valor": "mín. 965 mm (38 in.); preferida 1067 mm (42 in.)",
+      "min": 965,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.8 / Tabela 24",
+      "pagina": 105,
+      "nota": "A tabela escreve '965 (38 in.)' sem a unidade mm.",
+      "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura — escada primária de duas vias (maca, rota principal de fuga)",
+      "valor": "mín. 1219 mm (48 in.); preferida 1370 mm (54 in.)",
+      "min": 1219,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.8 / Tabela 24",
+      "pagina": 105,
+      "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Largura livre da escada (ISO 14122-3)",
+      "valor": "Mínimo 600 mm, de preferência 800 mm; 1000 mm quando houver passagem/cruzamento simultâneo de várias pessoas; rota de fuga conforme regulamentação",
+      "min": 600,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "5.7",
+      "pagina": 10,
+      "nota": "NOTA: com justificativa da análise de risco, pode cair para ≥ 500 mm se a escada for de uso ocasional e a redução for em trecho curto.",
+      "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+      "grupo": "Largura",
+      "parametro": "Step ladder (escada de inclinação acentuada) — largura livre",
+      "valor": "Entre longarinas ou guarda-corpos: 450 mm a 800 mm, de preferência 600 mm",
+      "min": 450,
+      "max": 800,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "6.4",
+      "pagina": 10,
+      "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Altura entre degraus (h) — escada COM espelho",
+      "valor": "0,20 m a 0,25 m",
+      "min": 200,
+      "max": 250,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 12 d)",
+      "pagina": 38,
+      "calc": [
+        "nr12-ce:h"
+      ],
+      "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Profundidade mínima do degrau — escada COM espelho",
+      "valor": "≥ 0,20 m",
+      "min": 200,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 12 b)",
+      "pagina": 38,
+      "calc": [
+        "nr12-ce:g"
+      ],
+      "cota": "esquemas/escada-degraus-degrau.svg#t"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Altura máxima entre degraus (h) — escada SEM espelho",
+      "valor": "≤ 0,25 m",
+      "max": 250,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 11 d)",
+      "pagina": 37,
+      "calc": [
+        "nr12-se:h"
+      ],
+      "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Profundidade mínima do degrau — escada SEM espelho",
+      "valor": "≥ 0,15 m",
+      "min": 150,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 11 b)",
+      "pagina": 37,
+      "calc": [
+        "nr12-se:g"
+      ],
+      "cota": "esquemas/escada-degraus-degrau.svg#t"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Fórmula de Blondel (escada sem espelho)",
+      "valor": "600 ≤ g + 2h ≤ 660 mm",
+      "min": 600,
+      "max": 660,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 11 g)",
+      "pagina": 38,
+      "nota": "g = profundidade livre do degrau; h = altura entre degraus. Boa prática aplicar também à escada com espelho.",
+      "calc": [
+        "nr12-se:blondel"
+      ],
+      "cota": "esquemas/escada-degraus-degrau.svg#passo"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Projeção de um degrau sobre o outro (r)",
+      "valor": "≥ 0 m",
+      "min": 0,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 11 f)",
+      "pagina": 38,
+      "cota": "esquemas/escada-degraus-degrau.svg#r"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Degraus e lances",
+      "valor": "Uniformes, nivelados e sem saliências",
+      "norma": "NR-12",
+      "item": "Anexo III, 11 c) e 12 c)",
+      "pagina": 37
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Altura máxima entre degraus (uso coletivo)",
+      "valor": "≤ 0,20 m, uniforme",
+      "max": 200,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.1 d)",
+      "pagina": 16,
+      "calc": [
+        "nr18:h"
+      ],
+      "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Altura do espelho (riser)",
+      "valor": "≤ 230 mm",
+      "max": 230,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.3 i) / Figura 1",
+      "pagina": 17,
+      "calc": [
+        "abs:h"
+      ],
+      "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Profundidade do piso (tread)",
+      "valor": "280 mm, incluindo bocel de 25 mm",
+      "min": 280,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.3 i) / Figura 1",
+      "pagina": 17,
+      "calc": [
+        "abs:g"
+      ],
+      "cota": "esquemas/escada-degraus-degrau.svg#t"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Bocel (nosing / avanço do degrau)",
+      "valor": "25 mm",
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 1 (C)",
+      "pagina": 17,
+      "cota": "esquemas/escada-degraus-degrau.svg#bocel"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Atrito do bocel (molhado)",
+      "valor": "COF ≥ 0,6",
+      "min": 0.6,
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.3 vi)",
+      "pagina": 17
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Piso dos degraus",
+      "valor": "Antiderrapante",
+      "norma": "NR-12",
+      "item": "Anexo III, 5 b)",
+      "pagina": 34
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Altura máxima do espelho (rise) — escada primária — FPSO Peregrino",
+      "valor": "≤ 190 mm",
+      "max": 190,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Nota 1",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "calc": [
+        "fpso:h"
+      ],
+      "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Fórmula do degrau (going + 2 × rise) — escada primária — FPSO Peregrino",
+      "valor": "620 mm ± 10 mm",
+      "min": 610,
+      "max": 630,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Nota 1",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino). Going = pisada (distância horizontal entre bocéis), conforme Definitions.",
+      "calc": [
+        "fpso:blondel"
+      ],
+      "cota": "esquemas/escada-degraus-degrau.svg#passo"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Desvio máximo do espelho num mesmo lance — FPSO Peregrino",
+      "valor": "± 5 mm",
+      "min": -5,
+      "max": 5,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Nota 1",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Profundidade do degrau (grating) — FPSO Peregrino",
+      "valor": "285 mm (276 mm só no degrau do topo)",
+      "min": 285,
+      "max": 285,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Typical treads",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino). É a profundidade da peça de grating, não a pisada (going).",
+      "cota": "esquemas/escada-degraus-degrau.svg#t"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Degrau de grating — FPSO Peregrino",
+      "valor": "Grating de barra serrilhada 35 × 4,5 mm, galvanizado; barra portante a 40 mm c.t.c.; twist rod a 50 mm c.t.c.; FB nas extremidades",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Typical treads",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino)."
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Bocel do degrau — FPSO Peregrino",
+      "valor": "Chapa xadrez (checkered PL) 50 × 25 × 3 mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Typical treads",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-degraus-degrau.svg#bocel"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Altura do espelho (riser, C)",
+      "valor": "178 mm (7 in.) a 230 mm (9 in.); preferida 203 mm (8 in.)",
+      "min": 178,
+      "max": 230,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.3 / Tabela 23",
+      "pagina": 105,
+      "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Profundidade do piso (tread, E)",
+      "valor": "230 mm (9 in.) a 277 mm (10.9 in.); preferida 277 mm",
+      "min": 230,
+      "max": 277,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.3 / Tabela 23",
+      "pagina": 105,
+      "cota": "esquemas/escada-degraus-degrau.svg#t"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Bocel (nosing, D)",
+      "valor": "22 mm (0.9 in.)",
+      "min": 22,
+      "max": 22,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.3 / Tabela 23",
+      "pagina": 105,
+      "cota": "esquemas/escada-degraus-degrau.svg#bocel"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Uniformidade",
+      "valor": "Num mesmo lance, todos os espelhos e pisos iguais, inclusive o primeiro e o último degrau",
+      "norma": "ASTM-F1166",
+      "item": "11.2.3.1",
+      "pagina": 95
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Faixa colorida na borda do degrau",
+      "valor": "≥ 38 mm (1½ in.), material antiderrapante; borda frontal na mesma cor (laranja internacional preferida, ou amarelo)",
+      "min": 38,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.3.2",
+      "pagina": 95,
+      "cota": "esquemas/escada-degraus-degrau.svg#faixa"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Piso do degrau (escada externa) e atrito",
+      "valor": "Grating de aço aberto ou chapa com antiderrapante; COF ≥ 0,6 medido molhado",
+      "min": 0.6,
+      "unidade": "COF",
+      "norma": "ASTM-F1166",
+      "item": "11.2.4",
+      "pagina": 95
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Degrau do topo",
+      "valor": "Nivelado com o piso de chegada; havendo braçola, nivelado com o topo da braçola e estendido até ela",
+      "norma": "ASTM-F1166",
+      "item": "11.2.5",
+      "pagina": 95
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Espelho vazado",
+      "valor": "Espelhos abertos, salvo se tela/chapa for necessária para proteger pessoas ou equipamentos sob a escada",
+      "norma": "ASTM-F1166",
+      "item": "11.2.6",
+      "pagina": 96
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Relação piso × espelho (ISO 14122-3)",
+      "valor": "600 ≤ g + 2h ≤ 660 (mm)",
+      "norma": "ISO-14122-3",
+      "item": "5.1, fórmula (1)",
+      "pagina": 9,
+      "nota": "g = piso (going), h = espelho (rise). Símbolos ≤ conferidos na imagem (o OCR lê '<').",
+      "cota": "esquemas/escada-degraus-degrau.svg#passo"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Sobreposição (overlap) r (ISO 14122-3)",
+      "valor": "r ≥ 10 mm; vale também para patamares e pisos",
+      "min": 10,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "5.2",
+      "pagina": 9,
+      "cota": "esquemas/escada-degraus-degrau.svg#r"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Espelho constante no lance (ISO 14122-3)",
+      "valor": "Constante sempre que possível; o primeiro (entre o nível de partida e o degrau inferior) pode ser reduzido em até 15 %; aumento só se justificado (ex. máquinas móveis)",
+      "norma": "ISO-14122-3",
+      "item": "5.3",
+      "pagina": 9
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Último degrau (ISO 14122-3)",
+      "valor": "O degrau superior deve ficar nivelado com o patamar (manter o piso até o topo)",
+      "norma": "ISO-14122-3",
+      "item": "5.4, Figura 3",
+      "pagina": 10,
+      "nota": "A NOTA da norma aponta a mudança de piso no último degrau como causa importante de acidentes."
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Step ladder (escada de inclinação acentuada) — profundidade do degrau",
+      "valor": "t ≥ 80 mm",
+      "min": 80,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "6.1",
+      "pagina": 10,
+      "cota": "esquemas/escada-degraus-degrau.svg#t"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Step ladder (escada de inclinação acentuada) — espelho",
+      "valor": "h ≤ 250 mm",
+      "max": 250,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "6.2",
+      "pagina": 10,
+      "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Step ladder (escada de inclinação acentuada) — sobreposição",
+      "valor": "r ≥ 10 mm (degrau ou patamar)",
+      "min": 10,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "6.3",
+      "pagina": 10,
+      "cota": "esquemas/escada-degraus-degrau.svg#r"
+    },
+    {
+      "grupo": "Degrau (espelho e piso)",
+      "parametro": "Step ladder (escada de inclinação acentuada) — espelho constante",
+      "valor": "Constante sempre que possível; o primeiro pode ser reduzido em até 15 %; aumento só se justificado",
+      "norma": "ISO-14122-3",
+      "item": "6.5",
+      "pagina": 11
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Patamar de descanso — intervalo máximo de altura",
+      "valor": "≤ 3,00 m",
+      "max": 3000,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 11 e) e 12 e)",
+      "pagina": 38,
+      "nota": "Largura útil mínima do patamar: 0,60 m.",
+      "calc": [
+        "nr12-ce:patamar",
+        "nr12-se:patamar"
+      ],
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Patamar intermediário — intervalo máximo de altura",
+      "valor": "≤ 2,90 m",
+      "max": 2900,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.6.1 e)",
+      "pagina": 16,
+      "nota": "Mesma largura da escada e comprimento mínimo igual à largura.",
+      "calc": [
+        "nr18:patamar"
+      ],
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Patamar intermediário — intervalo máximo de altura",
+      "valor": "≤ 2,90 m",
+      "max": 2900,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.3.5",
+      "pagina": 8,
+      "nota": "Largura e comprimento no mínimo iguais à largura da escada.",
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Patamar intermediário — intervalo máximo de altura",
+      "valor": "≤ 3500 mm (para subida de 6100 mm)",
+      "max": 3500,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.2.2",
+      "pagina": 16,
+      "nota": "Também obrigatório em cada convés atendido pela escada.",
+      "calc": [
+        "abs:patamar"
+      ],
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Patamar livre no topo e na base",
+      "valor": "Largura ≥ largura do degrau; comprimento ≥ 915 mm",
+      "min": 915,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.2.1",
+      "pagina": 16,
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Patamar em mudança de direção",
+      "valor": "Comprimento ≥ 915 mm",
+      "min": 915,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.2.3",
+      "pagina": 16,
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Patamar em rota de evacuação com maca",
+      "valor": "Comprimento ≥ 1525 mm",
+      "min": 1525,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.2.5",
+      "pagina": 17,
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Nº de espelhos por lance — FPSO Peregrino",
+      "valor": "16 espelhos (máx.); 2 espelhos (mín.)",
+      "min": 2,
+      "max": 16,
+      "unidade": "espelhos",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Definitions",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "calc": [
+        "fpso:espelhos_lance"
+      ]
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Altura máxima do lance (derivada: 16 espelhos × 190 mm) — FPSO Peregrino",
+      "valor": "≤ 3040 mm (16 × 190 mm)",
+      "max": 3040,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Definitions e Nota 1",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino). Valor DERIVADO (não cotado no desenho): nº máx. de espelhos por lance (16) × espelho máx. (190 mm); usado só pela calculadora.",
+      "calc": [
+        "fpso:patamar"
+      ],
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Profundidade do patamar — escada com até 36 espelhos — FPSO Peregrino",
+      "valor": "> largura da escada",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Stairs with 36 risers (max.)",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Profundidade do patamar — escada com mais de 36 espelhos — FPSO Peregrino",
+      "valor": "= 2000 mm, ou mudança de direção a cada 36 espelhos",
+      "min": 2000,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Stairs with more than 36 risers",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Patamar no topo e na base — comprimento",
+      "valor": "≥ largura da escada e ≥ 914 mm (36 in.); preferido 1118 mm (44 in.)",
+      "min": 914,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.10.1",
+      "pagina": 98,
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Patamar junto a porta que abre para fora",
+      "valor": "1524 mm (60 in.) de comprimento",
+      "min": 1524,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.10.2",
+      "pagina": 98,
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Patamar intermediário — intervalo máximo de altura",
+      "valor": "Em cada convés servido ou a cada 3,65 m (12 ft) de subida, para escadas com subida ≥ 6,1 m (20 ft); recomendável também entre 4,57 m e 6,1 m",
+      "max": 3650,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.10.3",
+      "pagina": 98,
+      "nota": "Mesmo tamanho dos patamares de topo/base, com corrimão de 11.2.11.1.",
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Patamar em mudança de direção — rota de maca",
+      "valor": "Recomendado 1778 mm (70 in.) de comprimento × 2900 mm (114 in.) de largura",
+      "min": 1778,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.10.3",
+      "pagina": 99,
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Patamar junto a porta",
+      "valor": "No mesmo nível do piso do outro lado da porta",
+      "norma": "ASTM-F1166",
+      "item": "11.2.10.4",
+      "pagina": 99
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Altura máxima de um lance H (ISO 14122-3)",
+      "valor": "H ≤ 3000 mm por lance (senão, patamar); lance único: H ≤ 4000 mm",
+      "max": 3000,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "5.8",
+      "pagina": 10,
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Comprimento do patamar l (ISO 14122-3)",
+      "valor": "≥ 800 mm e, em qualquer caso, ≥ largura da escada",
+      "min": 800,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "5.8",
+      "pagina": 10,
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
+    },
+    {
+      "grupo": "Patamares",
+      "parametro": "Step ladder (escada de inclinação acentuada) — altura de lance único",
+      "valor": "H ≤ 3000 mm",
+      "max": 3000,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "6.8",
+      "pagina": 11,
+      "nota": "NOTA: para vários lances, considerar medidas de segurança adicionais.",
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#H"
+    },
+    {
+      "grupo": "Altura livre",
+      "parametro": "Pé-direito livre sobre a escada",
+      "valor": "≥ 2130 mm",
+      "min": 2130,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.4",
+      "pagina": 18,
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#e"
+    },
+    {
+      "grupo": "Altura livre",
+      "parametro": "Pé-direito livre (head room) — FPSO Peregrino",
+      "valor": "≥ 2200 mm",
+      "min": 2200,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Stairs with 36 risers (max.)",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino). Medido na vertical a partir da linha de inclinação (pitch line)/patamar.",
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#e"
+    },
+    {
+      "grupo": "Altura livre",
+      "parametro": "Pé-direito livre sobre a escada (B)",
+      "valor": "≥ 2032 mm (80 in.); preferido 2134 mm (84 in.), medido perpendicular ao piso do degrau",
+      "min": 2032,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.9 / Tabela 23",
+      "pagina": 97,
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#e"
+    },
+    {
+      "grupo": "Altura livre",
+      "parametro": "Altura livre (headroom) e (ISO 14122-3)",
+      "valor": "e ≥ 2300 mm acima da linha de passo",
+      "min": 2300,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "5.5",
+      "pagina": 10,
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#e"
+    },
+    {
+      "grupo": "Altura livre",
+      "parametro": "Folga (clearance) c — perpendicular à linha de passo (ISO 14122-3)",
+      "valor": "c ≥ 1900 mm",
+      "min": 1900,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "5.6",
+      "pagina": 10,
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#c"
+    },
+    {
+      "grupo": "Altura livre",
+      "parametro": "Step ladder (escada de inclinação acentuada) — altura livre e folga",
+      "valor": "e ≥ 2300 mm; c ≥ 850 mm",
+      "min": 2300,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "6.6; 6.7",
+      "pagina": 11,
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#e"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Travessão superior (guarda-corpo)",
+      "valor": "1,10 m a 1,20 m, em ambos os lados",
+      "min": 1100,
+      "max": 1200,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 7 c)",
+      "pagina": 35,
+      "nota": "Travessão superior sem superfície plana. Instalações anteriores à Portaria SIT 197/2010: mínimo 1,00 m (7.1).",
+      "cota": "esquemas/escada-degraus-corrimao.svg#b"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Travessão intermediário",
+      "valor": "0,70 m",
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 7 e)",
+      "pagina": 35,
+      "cota": "esquemas/escada-degraus-corrimao.svg#intermediario"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Rodapé",
+      "valor": "≥ 0,20 m",
+      "min": 200,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 7 e)",
+      "pagina": 35,
+      "cota": "esquemas/escada-degraus-corrimao.svg#rodape"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Guarda-corpo (uso coletivo)",
+      "valor": "Conforme 18.9.4.1 ou 18.9.4.2 (superior 1,20 m; intermediário 0,70 m; rodapé ≥ 0,15 m)",
+      "norma": "NR-18",
+      "item": "18.8.6.1 b) / 18.9.4.2",
+      "pagina": 19,
+      "cota": "esquemas/escada-degraus-corrimao.svg#b"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Quando exigir corrimão",
+      "valor": "Escadas com 3 ou mais degraus",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.5 i) / Tabela 1",
+      "pagina": 18,
+      "nota": "Lado com antepara: corrimão simples. Lado aberto: corrimão de dois níveis (two-tier). Largura ≥ 1120 mm entre anteparas: corrimão nos dois lados."
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Altura do corrimão (medida no bocel)",
+      "valor": "915 mm a 1000 mm",
+      "min": 915,
+      "max": 1000,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.6 iii) e iv)",
+      "pagina": 19,
+      "cota": "esquemas/escada-degraus-corrimao.svg#a"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Diâmetro do corrimão",
+      "valor": "Ø 40 mm a 50 mm, seção circular",
+      "min": 40,
+      "max": 50,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.6 i) e ii)",
+      "pagina": 18,
+      "nota": "Corrimão quadrado ou retangular não é permitido em escadas.",
+      "cota": "esquemas/escada-degraus-corrimao.svg#diametro"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Folga entre corrimão e antepara/obstáculo",
+      "valor": "≥ 75 mm",
+      "min": 75,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 1.6 v)",
+      "pagina": 19,
+      "cota": "esquemas/escada-degraus-corrimao.svg#folga"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Altura do corrimão no lance (acima da pitch line) — FPSO Peregrino",
+      "valor": "1000 mm",
+      "min": 1000,
+      "max": 1000,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Stairs with 36 risers (max.)",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino). Cota vertical entre a linha de inclinação (bocéis) e o topo do corrimão.",
+      "cota": "esquemas/escada-degraus-corrimao.svg#a"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Altura do guarda-corpo no patamar/topo — FPSO Peregrino",
+      "valor": "1100 mm acima do topo da chapa ou grating",
+      "min": 1100,
+      "max": 1100,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Principle dimensions of primary/secondary stairs",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-degraus-corrimao.svg#b"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Tubo do corrimão e travessões — FPSO Peregrino",
+      "valor": "Ø 48 × 5 mm (típ.)",
+      "min": 48,
+      "max": 48,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Principle dimensions of primary stairs",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-degraus-corrimao.svg#diametro"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Espaçamento máximo dos montantes (ao longo da inclinação) — FPSO Peregrino",
+      "valor": "≤ 1300 mm",
+      "max": 1300,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Principle dimensions of primary/secondary stairs",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-degraus-corrimao.svg#montantes"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Raio de curvatura do corrimão nas extremidades — FPSO Peregrino",
+      "valor": "R 125 mm",
+      "min": 125,
+      "max": 125,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Principle dimensions of primary stairs",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-degraus-corrimao.svg#raio"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Espaçamento dos travessões (perpendicular à inclinação) — escada primária — FPSO Peregrino",
+      "valor": "285 / 285 mm entre travessões; 230 mm do inferior à longarina",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Principle dimensions of primary stairs",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino). Interpretação das cotas oblíquas 285, 285 e 230 (medidas perpendiculares à inclinação).",
+      "cota": "esquemas/escada-degraus-corrimao.svg#travessoes"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Espaçamento dos travessões (perpendicular à inclinação) — escada secundária — FPSO Peregrino",
+      "valor": "236 / 236 mm entre travessões; 228 mm do inferior à longarina",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Principle dimensions of secondary stairs",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino). Interpretação das cotas oblíquas 236, 236 e 228 (medidas perpendiculares à inclinação).",
+      "cota": "esquemas/escada-degraus-corrimao.svg#travessoes"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Folga do corrimão até antepara / até outro corrimão — FPSO Peregrino",
+      "valor": "≥ 50 mm até antepara; ≥ 100 mm até outro corrimão",
+      "min": 50,
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Principle dimensions of primary stairs (vista frontal)",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-degraus-corrimao.svg#folga"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Acabamento do corrimão — FPSO Peregrino",
+      "valor": "Liso, sem cantos vivos nem obstruções que prendam dedos ou partes do corpo",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Nota 6",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino)."
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Quando exigir corrimão",
+      "valor": "Até 3 degraus: balaustrada (railing) como a barra superior do corrimão; mais de 3 degraus: conforme Tabela 25",
+      "norma": "ASTM-F1166",
+      "item": "11.2.11 (1)",
+      "pagina": 99
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Arranjo de corrimãos (Tabela 25)",
+      "valor": "Lado exposto: corrimão de dois níveis (two-tier); lado de antepara: balaustrada simples; largura ≥ 1118 mm com anteparas dos dois lados: balaustrada nos dois lados; < 1118 mm: um lado (de preferência à direita descendo); > 2235 mm: balaustrada central adicional",
+      "norma": "ASTM-F1166",
+      "item": "Tabela 25",
+      "pagina": 105
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Altura do corrimão (A)",
+      "valor": "914 mm (36 in.) a 991 mm (39 in.); preferida 940 mm (37 in.), medida perpendicular do eixo do corrimão à superfície do degrau",
+      "min": 914,
+      "max": 991,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.11.1 (1) / Tabela 23",
+      "pagina": 99,
+      "cota": "esquemas/escada-degraus-corrimao.svg#a"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Diâmetro do corrimão",
+      "valor": "Seção circular, Ø nominal preferido 38 mm (1.5 in.); corrimão quadrado só com permissão do contratante",
+      "min": 38,
+      "max": 38,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.11 (2) / 11.2.11.1 (1)",
+      "pagina": 99,
+      "nota": "A Fig. 89 indica 'Handrail Nominal Diameter 40 mm (1½ in)' — diverge dos 38 mm do texto.",
+      "cota": "esquemas/escada-degraus-corrimao.svg#diametro"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Corrimão de dois níveis",
+      "valor": "Duas barras igualmente espaçadas, com o topo na mesma altura acima (914–991 mm)",
+      "norma": "ASTM-F1166",
+      "item": "11.2.11.1 (2)",
+      "pagina": 99,
+      "cota": "esquemas/escada-degraus-corrimao.svg#intermediario"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Folga atrás do corrimão até antepara/obstrução",
+      "valor": "≥ 75 mm (3 in.)",
+      "min": 75,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.2.11.1 (3)",
+      "pagina": 99,
+      "cota": "esquemas/escada-degraus-corrimao.svg#folga"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Raio interno da curva do corrimão no topo",
+      "valor": "127 mm (5 in.) máx., preferido",
+      "max": 127,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 89",
+      "pagina": 102,
+      "nota": "Lido da figura (não do texto).",
+      "cota": "esquemas/escada-degraus-corrimao.svg#raio"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Corrimão retrátil (escada sob escotilha / convoo)",
+      "valor": "Não usar correntes, cordas ou cabos como corrimão provisório; corrimão rígido retrátil, removível ou recolhível",
+      "norma": "ASTM-F1166",
+      "item": "11.2.11.3",
+      "pagina": 100
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Número de corrimãos (ISO 14122-3)",
+      "valor": "Escada: pelo menos 1; largura ≥ 1200 mm: 2; step ladder: sempre 2",
+      "norma": "ISO-14122-3",
+      "item": "7.2.1",
+      "pagina": 13
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Quando exige guarda-corpo na escada (ISO 14122-3)",
+      "valor": "Altura a subir > 500 mm e espaço lateral junto à longarina > 200 mm (no lado onde existe o vão)",
+      "norma": "ISO-14122-3",
+      "item": "7.2.2",
+      "pagina": 13,
+      "nota": "Limites 'exceeds' / 'greater than' (exclusivos)."
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Altura do corrimão (ISO 14122-3)",
+      "valor": "900 mm a 1000 mm acima do bocel do degrau; ≥ 1100 mm acima do piso do patamar",
+      "min": 900,
+      "max": 1000,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "7.2.3",
+      "pagina": 13,
+      "cota": "esquemas/escada-degraus-corrimao.svg#a"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Seção do corrimão (ISO 14122-3)",
+      "valor": "Diâmetro de 25 mm a 50 mm ou seção equivalente (recomendação, should)",
+      "min": 25,
+      "max": 50,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "7.2.3",
+      "pagina": 13,
+      "cota": "esquemas/escada-degraus-corrimao.svg#diametro"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Step ladder (escada de inclinação acentuada) — posição do corrimão",
+      "valor": "Distância x da linha de passo ao eixo do corrimão conforme Figura 7 / Tabela 1; corrimão começando a no mínimo 1000 mm (vertical) da base",
+      "norma": "ISO-14122-3",
+      "item": "7.2.4, Figura 7, Tabela 1",
+      "pagina": 14,
+      "nota": "Ver tabela 'ISO 14122-3 — Tabela 1'. Tabela e cota de 1000 mm conferidas na imagem.",
+      "cota": "esquemas/escada-degraus-corrimao.svg#x"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Travessão intermediário na escada (ISO 14122-3)",
+      "valor": "Pelo menos um travessão ou equivalente; vão livre corrimão–travessão e travessão–longarina ≤ 500 mm",
+      "max": 500,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "7.2.5",
+      "pagina": 15,
+      "cota": "esquemas/escada-degraus-corrimao.svg#travessoes"
+    },
+    {
+      "grupo": "Corrimão e guarda-corpo",
+      "parametro": "Espaço livre ao longo do corrimão (ISO 14122-3)",
+      "valor": "Livre de obstáculos a 100 mm, exceto por baixo (suportes dos montantes)",
+      "min": 100,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "7.2.6, Figura 8",
+      "pagina": 15,
+      "cota": "esquemas/escada-degraus-corrimao.svg#folga"
+    },
+    {
+      "grupo": "Longarina e fixação",
+      "parametro": "Longarina (stringer) — FPSO Peregrino",
+      "valor": "Perfil C10 (U)",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Principle dimensions of primary/secondary stairs",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino). Designação 'C10' conforme o desenho (não especifica a série do perfil)."
+    },
+    {
+      "grupo": "Longarina e fixação",
+      "parametro": "Chapa de fixação do degrau (eye plate) — FPSO Peregrino",
+      "valor": "FB 5 mm, 285 × 65 mm (276 mm no degrau do topo); furo Ø 14 a 25 mm da extremidade e 15 mm da base; oblongo Ø 14 × 28 a 140 mm do furo; chanfro 45° × 25 mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Detail of eye plate",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino).",
+      "cota": "esquemas/escada-degraus-longarina.svg#chapa"
+    },
+    {
+      "grupo": "Longarina e fixação",
+      "parametro": "Parafusos da escada externa — FPSO Peregrino",
+      "valor": "Aço inoxidável",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Nota 5",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino)."
+    },
+    {
+      "grupo": "Longarina e fixação",
+      "parametro": "Carga de projeto da escada",
+      "valor": "5 × a carga viva normal prevista, 'but less than a 544-kg (1000-lb) moving concentrated load'",
+      "norma": "ASTM-F1166",
+      "item": "11.2.2",
+      "pagina": 95,
+      "nota": "Redação literal do original ('but less than'), conferida no PDF; o sentido técnico provável é 'não menos que' 544 kg de carga concentrada móvel. Não usar como limite superior."
+    },
+    {
+      "parametro": "Carga mínima em escada (staircases) — unidade offshore",
+      "valor": "q = 0.35 t/m²; PU = 0.35 tonnes (walkways, staircases and platforms)",
+      "item": "Ch.2 Sec.2 Table 1 d)",
+      "pagina": 26,
+      "min": 0.35,
+      "unidade": "t/m²",
+      "nota": "Carga característica em massa: pdl = (av + g)·q e FU = (av + g)·PU (2.2.3/2.2.4; conservador 1,3·g) → ≈ 4,46 kN/m² e 4,46 kN (cálculo); PU sobre 100 × 100 mm (nota 2). Em LRFD × γf.",
+      "grupo": "Longarina e fixação",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Carga mínima em escada só de inspeção — unidade offshore",
+      "valor": "q = 0.25 t/m²; PU = 0.25 tonnes (walkways and staircases for inspection only)",
+      "item": "Ch.2 Sec.2 Table 1 f)",
+      "pagina": 26,
+      "min": 0.25,
+      "unidade": "t/m²",
+      "nota": "1,3·g·q ≈ 3,19 kN/m² (cálculo).",
+      "grupo": "Longarina e fixação",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Fator parcial de carga γf (LRFD, ULS)",
+      "valor": "Combinação a): G 1.2, Q 1.2 (1.3 se as cargas não forem bem definidas (em unidade flutuante G e Q são consideradas bem definidas → 1.2; guidance da nota 1)); combinação b): G 1.0, Q 1.0, E 1.2; FLS/ALS 1.0",
+      "item": "Ch.2 Sec.1 [1.3.3.2], Table 1",
+      "pagina": 16,
+      "nota": "Edição 2019: 1.3 em G e Q.",
+      "grupo": "Longarina e fixação",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Deflexão máxima de vigas (longarinas)",
+      "valor": "δmax = S/200 (S = vão, mm) — guidance",
+      "item": "Ch.2 Sec.4 [3.7]",
+      "pagina": 60,
+      "nota": "Fórmula lida da imagem da norma. Critério geral de vigas da norma; a C101 não fala especificamente de longarina de escada.",
+      "grupo": "Longarina e fixação",
+      "norma": "DNV-OS-C101",
+      "cota": "esquemas/escada-degraus-longarina.svg#flecha"
+    },
+    {
+      "grupo": "Longarina e fixação",
+      "parametro": "Carga na estrutura (ISO 14122-3)",
+      "valor": "Cargas não fatoradas de 1,5 kN/m² (baixa densidade de pedestres sem carga) a 5 kN/m² (com carga ou alta densidade)",
+      "norma": "ISO-14122-3",
+      "item": "4.7.1",
+      "pagina": 9,
+      "nota": "Expoente de kN/m² conferido na imagem (o OCR lê 'kN/m?')."
+    },
+    {
+      "grupo": "Longarina e fixação",
+      "parametro": "Carga nos degraus (ISO 14122-3)",
+      "valor": "w < 1200 mm: 1,5 kN em 100 × 100 mm no meio da largura, junto ao bocel; w ≥ 1200 mm: 1,5 kN simultâneos em áreas de 100 × 100 mm nos pontos mais desfavoráveis, a cada 600 mm",
+      "norma": "ISO-14122-3",
+      "item": "4.7.2",
+      "pagina": 9,
+      "cota": "esquemas/escada-degraus-longarina.svg#area-carga"
+    },
+    {
+      "grupo": "Longarina e fixação",
+      "parametro": "Flecha estrutura–degrau (ISO 14122-3)",
+      "valor": "≤ 1/300 do vão ou 6 mm, o que for menor (carga não fatorada)",
+      "max": 6,
+      "unidade": "mm",
+      "norma": "ISO-14122-3",
+      "item": "4.7.2",
+      "pagina": 9,
+      "nota": "'1/300' conferido na imagem (o OCR lê '4/300').",
+      "cota": "esquemas/escada-degraus-longarina.svg#flecha"
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Tolerância de elevação de patamares e posição da escada",
+      "valor": "± 10 mm do desenho",
+      "unidade": "mm",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "FPTS-31, 9.2.2",
+      "pagina": 23,
+      "nota": "Desenho padrão de escada do FPSO Peregrino: PE-FD-06-S-ST-20007-001.",
+      "cota": "esquemas/escada-degraus-lance-patamar.svg#elevacao-patamar"
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Categoria de inspeção de solda (escadas, escadas marinheiro, guarda-corpo)",
+      "valor": "Categoria III — Secundária (visual 100%; MT/UT por amostragem 2–5%)",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Adendo, Tabelas 1 e 2",
+      "pagina": 4
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Proteção da escada externa — FPSO Peregrino",
+      "valor": "Pintura conforme NORSOK M-501; degrau galvanizado a fogo (HDG)",
+      "norma": "EQN-PE-FD-00-S-SP-00001",
+      "item": "Des. PE-FD-06-S-ST-20007-001, Nota 4",
+      "pagina": 7,
+      "nota": "Lido do desenho PE-FD-06-S-ST-20007-001 rev. C3 (FPSO Peregrino)."
+    },
+    {
+      "grupo": "Fabricação",
+      "parametro": "Materiais e acabamento (ISO 14122-3)",
+      "valor": "Resistentes à corrosão do ambiente (por natureza ou tratamento); sem cantos vivos, rebarbas de solda ou arestas ásperas; degraus e patamares antiderrapantes",
+      "norma": "ISO-14122-3",
+      "item": "4.2; 4.3; 4.4",
+      "pagina": 9
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "atencao",
+      "texto": "Escolha a norma pelo contexto: NR-12 para acesso a máquinas e equipamentos; NR-18/NR-34 para escadas provisórias de obra e estaleiro; ABS para unidades marítimas/offshore (FPSO). Quando houver mais de uma aplicável, adote o valor mais restritivo. A NR-35 Anexo III (2025) não dimensiona escadas de degraus: só define a hierarquia de acessos e a 'escada de inclinação elevada' (60°–75°)."
+    },
+    {
+      "tipo": "info",
+      "texto": "A NR-12 dispensa do Anexo III as máquinas que atendam normas técnicas oficiais ou internacionais vigentes em 30/07/2019 (ex.: ISO 14122), conforme o item 1.6."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Para dimensionar: altura do espelho h = desnível ÷ número de degraus; escolha g para que g + 2h fique entre 600 e 660 mm (alvo ≈ 630 mm). Use a calculadora abaixo."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Não deixe nada invadir o espaço de subida nem os patamares (caixas elétricas, válvulas, atuadores, tubulação, braçolas) — ABS Sec. 4, 1.1 vi) e vii)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Padrão FPSO Peregrino (des. PE-FD-06-S-ST-20007-001, base NORSOK) × NR-12/ABS: (1) espelho ≤ 190 mm fica abaixo da faixa 200–250 mm da NR-12 para escada com espelho, e a inclinação ≤ 36,5° (primária) fica fora da faixa 45–75° da NR-12 para escada sem espelho (degrau de grating é vazado) — a NR-12 só é atendida pela dispensa do item 1.6 (norma internacional); (2) inclinação ≤ 36,5° da escada primária fica abaixo da faixa 38–45° do ABS; (3) corrimão a 1000 mm da pitch line e 1100 mm no patamar diferem do guarda-corpo NR-12 (1,10–1,20 m em ambos os lados do lance); (4) folga de 50 mm até antepara é menor que os 75 mm do ABS; (5) lance de até 16 espelhos × 190 mm = 3040 mm ultrapassa o patamar a cada 3,00 m da NR-12 se o espelho for o máximo. Em projeto para o Peregrino siga o desenho e o contrato; onde houver NR-12/ABS aplicável, adote o mais restritivo e registre o desvio."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "ASTM F1166 (projeto ergonômico marítimo) × demais: ângulo 30°–50° (pref. 38°) contra 20°–45° da NR-12 com espelho e 38°–45° do ABS; espelho 178–230 mm (pref. 203) — o ≤ 190 mm do FPSO Peregrino cabe aqui, mas não nos 200–250 mm da NR-12; bocel 22 mm (ABS 25 mm); corrimão a 914–991 mm medido perpendicular do eixo ao degrau (ABS 915–1000 mm; NR-12 1,10–1,20 m); Ø 38 mm no texto e 40 mm na Fig. 89 (ABS 40–50 mm); pé-direito ≥ 2032 mm, pref. 2134 (ABS 2130, FPSO 2200); patamar a cada ≤ 3,65 m em subidas ≥ 6,1 m (NR-12 3,00 m, NR-18 2,90 m). Larguras da Tabela 24 vão de 559 mm (manutenção) a 1219 mm (rota primária)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "NR-35 × NR-12/ASTM: a NR-35 chama de 'escada de inclinação elevada' a escada fixa de degraus entre mais de 60° e 75° e a coloca abaixo da rampa e da escada de uso coletivo na hierarquia (4.1.2). Essa faixa está dentro dos 45°–75° da escada sem espelho da NR-12, acima dos 38°–45° do ABS e na faixa 50°–75° que a ASTM F1166 manda não usar. Na prática: prefira escada de 30°–45°; acima de 60° documente na AR por que não coube outro acesso. Escadas de uso coletivo ficam fora do Anexo III da NR-35 (2.1.1) — dimensione pela NR-12, NR-18, NR-34 ou normas técnicas."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "CARGA DE ESCADA diverge: ASTM F1166 11.2.2 pede 5 × a carga viva prevista e menciona carga concentrada móvel de 544 kg (1000 lb) (texto ambíguo, 'less than'); ABS (escada inclinada) ≥ 3 × a carga normal; DNV-OS-C101 (2024/2025, unidade flutuante, LRFD) trata escada como área de convés: q ≥ 0.35 t/m² e PU ≥ 0.35 t em 100 × 100 mm (0.25 só para inspeção), × (av + g) (≈ 1,3·g) e × γf 1.2 (1.3 se mal definida; em unidade flutuante as cargas são consideradas bem definidas). Em FPSO classificado pela DNV, verifique a estrutura pela C101 e mantenha o maior requisito das demais. A edição 2019 dava 4.5 kN/m² e 4.5 kN (3.0 para inspeção) com γf 1.3."
+    },
+    {
+      "tipo": "info",
+      "texto": "ISO 14122-3:2001 (cópia DIN EN ISO 14122-3:2002, escaneada; texto por OCR): edição superada pela ISO 14122-3:2016, que não está no acervo — conferir a 2016 antes de usar em projeto novo. Corrimão 0,90–1,00 m acima do bocel e ≥ 1,10 m no patamar; headroom 2,30 m; lance ≤ 3,0 m (4,0 m em lance único); g + 2h entre 600 e 660 mm."
+    }
+  ],
+  "calculadora_perfis": {
+    "nr12-ce": "NR-12 — escada com espelho (máquinas)",
+    "nr12-se": "NR-12 — escada sem espelho (máquinas)",
+    "nr18": "NR-18 — escada de uso coletivo (obra)",
+    "abs": "ABS — escada offshore (ERGO)",
+    "fpso": "FPSO — padrão Equinor/Maersk Peregrino"
+  },
+  "tabelas": [
+    {
+      "id": "iso14122-3-tab1-corrimao-step-ladder",
+      "titulo": "ISO 14122-3 — Tabela 1: distância da linha de passo ao eixo do corrimão (step ladder)",
+      "norma": "ISO-14122-3",
+      "item": "7.2.4, Tabela 1",
+      "pagina": 14,
+      "unidade": "mm",
+      "colunas": [
+        "θ (graus)",
+        "x (mm)"
+      ],
+      "linhas": [
+        [
+          60,
+          250
+        ],
+        [
+          65,
+          200
+        ],
+        [
+          70,
+          150
+        ],
+        [
+          75,
+          100
+        ]
+      ],
+      "nota": "Dimensões indicativas (exemplo). Conferido na imagem.",
+      "consulta": false
+    }
+  ]
+}

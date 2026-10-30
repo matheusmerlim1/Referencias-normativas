@@ -1,0 +1,77 @@
+{
+ "id": "ASME-SA-738",
+ "titulo": "SA-738 — Chapas de aço C-Mn-Si tratadas termicamente para vasos de pressão em temperatura moderada e baixa",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço carbono-manganês-silício tratadas termicamente para vasos de pressão soldados em temperatura moderada e baixa. Graus A a E, com Su mínimo de 75 a 90 ksi [515 a 620 MPa]. Requisitos gerais pela SA-20."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Aço acalmado de grão fino. Grau A até 2,5 in [65 mm]: normalizado ou temperado e revenido; Grau A acima disso e Graus B a E: sempre temperados e revenidos.",
+   "valores": [
+    {
+     "parametro": "Revenimento mín.",
+     "valor": "1100 °F [595 °C]",
+     "item": "5.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx. — A / B, C / D / E",
+     "valor": "0,24 / 0,20 / 0,10 / 0,12 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn até 1,5 in — A / B / D",
+     "valor": "1,50 máx. / 0,90–1,50 / 1,00–1,60 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Até 1,5 in [40 mm]: Su / Sy mín. / alongamento mín. Graus D e E só até 1,5 in.",
+   "valores": [
+    {
+     "parametro": "Grau A",
+     "valor": "75–95 ksi [515–655] / 45 ksi [310] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau B",
+     "valor": "85–102 ksi [585–705] / 60 ksi [415] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau C",
+     "valor": "80–100 ksi [550–690] / 60 ksi [415] / 22 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau D",
+     "valor": "85–105 ksi [585–724] / 70 ksi [485] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau E",
+     "valor": "90–110 ksi [620–760] / 75 ksi [515] / 20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau C acima de 4 in [100 mm] — Sy mín.",
+     "valor": "46 ksi [315]",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

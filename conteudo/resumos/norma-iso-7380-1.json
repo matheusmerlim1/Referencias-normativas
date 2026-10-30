@@ -1,0 +1,58 @@
+{
+ "id": "ISO-7380-1",
+ "titulo": "ISO 7380-1:2011 — Parafusos de cabeça abaulada (botão) com sextavado interno",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafuso de cabeça abaulada baixa com sextavado interno, M3 a M16, grau A, com capacidade de carga reduzida pela forma da cabeça (cargas mínimas de ruptura na Tabela 3, menores que as da ISO 898-1).",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M3 a M16, grau A",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3",
+   "texto": "Diâmetro e altura da cabeça, sextavado, profundidade, comprimentos comerciais.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos e normas de referência",
+   "item": "4, Tab. 3",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Tolerância de rosca",
+     "valor": "5g6g para 12.9; 6g para as demais",
+     "item": "4"
+    },
+    {
+     "parametro": "Classes — aço",
+     "valor": "8.8, 10.9, 12.9 (marcação 08.8, 010.9, 012.9 — o '0' indica carga reduzida)",
+     "item": "4"
+    },
+    {
+     "parametro": "Classes — inox",
+     "valor": "A2/A3/A4/A5-70 e -80 (marcação A2-070 etc.)",
+     "item": "4"
+    },
+    {
+     "parametro": "Carga de ruptura",
+     "valor": "valores mínimos reduzidos da Tabela 3",
+     "item": "Tab. 3",
+     "nota": "valores não transcritos — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "5",
+   "texto": "Ex.: M12 × 40, classe 10.9 → ISO 7380-1 – M12 × 40 – 10.9; inox A2-70 → ISO 7380-1 – M12 × 40 – A2-70.",
+   "valores": []
+  }
+ ]
+}

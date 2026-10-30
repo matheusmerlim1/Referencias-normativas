@@ -1,0 +1,42 @@
+{
+ "id": "DIN-7504",
+ "titulo": "DIN 7504:1995 — Parafusos autobrocantes com rosca de parafuso para chapa — Dimensões, requisitos e ensaios",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafusos tratados termicamente com ponta de broca: furam a chapa, abrem a rosca e fixam numa só operação, sem quebrar nem deformar a própria rosca. Requisitos de dureza superficial, capacidade de furação e de formação de rosca.",
+   "valores": []
+  },
+  {
+   "titulo": "Tipos e dimensões",
+   "item": "3, Tab. 1–2",
+   "texto": "Tipos de cabeça (sextavada com colar, panela, escareada, etc., com fenda cruzada H ou Z), rosca conforme normas de parafuso para chapa (ISO 1478), diâmetro da ponta de broca, profundidade de furação e espessura de aperto por tamanho.",
+   "valores": [
+    {
+     "parametro": "Tamanho ST3,9",
+     "valor": "a evitar (entre parênteses)",
+     "item": "Tab. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Material e propriedades",
+   "item": "4",
+   "texto": "Aço de cementação (DIN 17210) ou de beneficiamento (DIN EN 10083); camada cementada mínima por tamanho (Tab. 3); revestimento eletrolítico pela ISO 4042 (com cuidado com fragilização por hidrogênio).",
+   "valores": [
+    {
+     "parametro": "Dureza do núcleo após tratamento",
+     "valor": "270 a 425 HV 5",
+     "item": "4.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "5",
+   "texto": "Dureza superficial e do núcleo, ensaio de furação e de formação de rosca em chapa de ensaio, torque de ruptura, fragilização.",
+   "valores": []
+  }
+ ]
+}

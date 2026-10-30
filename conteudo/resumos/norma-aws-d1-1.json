@@ -1,0 +1,131 @@
+{
+ "id": "AWS-D1.1",
+ "titulo": "AWS D1.1 — Código de soldagem estrutural (aço)",
+ "secoes": [
+  {
+   "titulo": "Escopo e limites",
+   "item": "1.1; 1.4",
+   "texto": "Regras para fabricar e montar estruturas de aço soldadas. Quando o contrato cita o código, tudo nele passa a valer, salvo o que o Engenheiro dispensar. Foi pensado para aços carbono e baixa liga a partir de uma espessura mínima e até um limite de escoamento. Fora disso, o Engenheiro avalia e ajusta os requisitos no contrato. Os capítulos tratam de projeto, pré-qualificação, qualificação, fabricação, inspeção, pinos soldados, estruturas tubulares e reforço de estruturas existentes.",
+   "valores": [
+    {"parametro": "Espessura mínima coberta", "valor": "3 mm (1/8 in)", "item": "1.4"},
+    {"parametro": "Escoamento mínimo especificado máximo", "valor": "690 MPa (100 ksi)", "item": "1.4"}
+   ]
+  },
+  {
+   "titulo": "Projeto de ligações soldadas",
+   "item": "Cláusula 4",
+   "texto": "Define comprimentos e áreas efetivas de soldas de chanfro e de filete. Filete curto demais perde eficácia; filete intermitente tem trecho mínimo; em juntas sobrepostas o filete na borda não pode igualar a chapa grossa. Juntas de topo entre espessuras ou larguras diferentes sob carga cíclica precisam de transição suave.",
+   "valores": [
+    {"parametro": "Comprimento mínimo de filete", "valor": "≥ 4 × o tamanho nominal (senão o tamanho efetivo ≤ 25 % do comprimento)", "item": "4.4.2.3"},
+    {"parametro": "Trecho mínimo de filete intermitente", "valor": "38 mm (1 1/2 in)", "item": "4.4.2.4"},
+    {"parametro": "Filete com carga na extremidade — comprimento efetivo = real", "valor": "até 100 × a perna; de 100 a 300 × aplicar fator de redução", "item": "4.4.2.5"},
+    {"parametro": "Filete máximo na borda de junta sobreposta", "valor": "chapa < 6 mm: a espessura; ≥ 6 mm: espessura − 2 mm", "item": "4.4.2.9"},
+    {"parametro": "Sobreposição mínima em junta sobreposta", "valor": "5 × a espessura da mais fina, ≥ 25 mm", "item": "4.9.1.2"},
+    {"parametro": "Transição de espessura/largura em topo com carga cíclica", "valor": "inclinação ≤ 1:2,5 (largura: ou raio ≥ 600 mm)", "item": "4.17.1.2; 10.6"}
+   ]
+  },
+  {
+   "titulo": "Pré-qualificação de procedimentos e pré-aquecimento",
+   "item": "Cláusula 5; Tabela 5.8",
+   "texto": "Uma EPS pré-qualificada dispensa ensaio se seguir todas as variáveis da Tabela 5.1, os detalhes de junta e os metais de base e de adição listados. O pré-aquecimento e a interpasse mínimos vêm da Tabela 5.8, por categoria (tipo de eletrodo e aço) e pela espessura da peça mais grossa. Soldagem vertical é ascendente, com exceções.",
+   "valores": [
+    {"parametro": "Categoria A (eletrodo SMAW não baixo hidrogênio) — 3 a 20 mm", "valor": "0 °C", "item": "Tabela 5.8"},
+    {"parametro": "Categoria A — > 20 a 38 / > 38 a 65 / > 65 mm", "valor": "65 / 110 / 150 °C", "item": "Tabela 5.8"},
+    {"parametro": "Categoria B (baixo hidrogênio, SAW, GMAW, FCAW) — 3 a 20 / > 20 a 38 mm", "valor": "0 / 10 °C", "item": "Tabela 5.8"},
+    {"parametro": "Categoria B — > 38 a 65 / > 65 mm", "valor": "65 / 110 °C", "item": "Tabela 5.8"},
+    {"parametro": "Metal de base abaixo de 0 °C", "valor": "pré-aquecer a ≥ 20 °C e manter a interpasse", "item": "Tabela 5.8, nota a"},
+    {"parametro": "Reparo de mordedura na vertical descendente", "valor": "permitido com pré-aquecimento da Tabela 5.8, mín. 20 °C", "item": "5.8.1.1"}
+   ]
+  },
+  {
+   "titulo": "Qualificação de procedimento e de soldador",
+   "item": "Cláusula 6",
+   "texto": "Procedimentos não pré-qualificados são qualificados por ensaio. Soldadores, operadores e ponteadores fazem testes próprios. A qualificação do soldador não vence sozinha: cai se ele ficar muito tempo sem usar o processo ou se houver motivo para duvidar da sua habilidade.",
+   "valores": [
+    {"parametro": "Validade da qualificação de soldador/operador", "valor": "indefinida; perde se ficar > 6 meses sem soldar no processo", "item": "6.2.3.1"}
+   ]
+  },
+  {
+   "titulo": "Fabricação — consumíveis e condições de soldagem",
+   "item": "7.3; 7.11",
+   "texto": "Eletrodos de baixo hidrogênio só podem ficar expostos ao ar por tempo limitado; depois, ressecagem. Fluxo de arco submerso deve estar seco e limpo. Não se solda com frio excessivo, peça molhada, chuva ou vento forte; processos com proteção gasosa precisam de abrigo contra vento.",
+   "valores": [
+    {"parametro": "Exposição de eletrodo E70XX", "valor": "até 4 h", "item": "7.3.2; Tabela 7.1"},
+    {"parametro": "Exposição de E70XXR / E70XXHZR / E7018M", "valor": "até 9 h", "item": "Tabela 7.1"},
+    {"parametro": "Fluxo de pacote danificado", "valor": "descartar ou secar ≥ 260 °C por 1 h", "item": "7.3.3.2"},
+    {"parametro": "Vento máximo junto à solda (GMAW, GTAW, EGW, FCAW-G)", "valor": "8 km/h (5 mph)", "item": "7.11.1"},
+    {"parametro": "Temperatura mínima junto à solda", "valor": "−20 °C (0 °F)", "item": "7.11.2"}
+   ]
+  },
+  {
+   "titulo": "Alívio de tensões (TTAT)",
+   "item": "7.8",
+   "texto": "A peça entra no forno ainda frio, aquece com taxa limitada acima de 315 °C, fica um tempo no patamar conforme a espessura da solda (Tabela 7.2) e resfria também com taxa limitada. Se o patamar normal for impraticável, pode-se usar temperatura menor por mais tempo. Aços temperados e revenidos de alta resistência em geral não devem ser aliviados.",
+   "valores": [
+    {"parametro": "Temperatura do forno na entrada da peça", "valor": "≤ 315 °C (600 °F)", "item": "7.8.1 (1)"},
+    {"parametro": "Taxa de aquecimento acima de 315 °C", "valor": "≤ 560 ÷ espessura (cm) °C/h, nunca > 220 °C/h", "item": "7.8.1 (2)"},
+    {"parametro": "Patamar — aços temperados e revenidos", "valor": "máx. 600 °C", "item": "7.8.1 (3)"},
+    {"parametro": "Patamar — demais aços", "valor": "600 a 650 °C", "item": "7.8.1 (3)"},
+    {"parametro": "Aços em que o TTAT não é recomendado", "valor": "A514, A517, A709 HPS 100W, A710", "item": "7.8.3"}
+   ]
+  },
+  {
+   "titulo": "Tamanho de filete e montagem da junta",
+   "item": "7.13; 7.21",
+   "texto": "O filete mínimo depende da espessura das peças. As peças de filete ficam o mais encostadas possível; folgas maiores aumentam a perna. Em topo, o desalinhamento é pequeno e corrigido com rampa suave. Folga de raiz grande pode ser recuperada com solda até um limite; além disso, só com o Engenheiro.",
+   "valores": [
+    {"parametro": "Filete mínimo", "valor": "T ≤ 6: 3 mm; ≤ 12: 5 mm; ≤ 20: 6 mm; > 20: 8 mm", "item": "Tabela 7.7", "cota": "esquemas/solda-estrutural-filete-minimo-espessura.svg#perna"},
+    {"parametro": "Folga em junta de filete", "valor": "≤ 5 mm (8 mm com cobre-junta em peças ≥ 75 mm); > 2 mm aumenta a perna", "item": "7.21.1", "cota": "esquemas/solda-estrutural-montagem-junta.svg#folga-filete"},
+    {"parametro": "Folga com cobre-junta / plug e slot", "valor": "≤ 2 mm", "item": "7.21.1.1", "cota": "esquemas/solda-estrutural-montagem-junta.svg#folga-cobre-junta"},
+    {"parametro": "Desalinhamento em topo", "valor": "≤ 10 % da mais fina ou 3 mm (o menor); rampa ≤ 12 mm em 300 mm", "item": "7.21.3", "cota": "esquemas/solda-estrutural-montagem-junta.svg#offset"},
+    {"parametro": "Correção de folga de raiz por solda", "valor": "até 2 × a mais fina ou 20 mm (o menor)", "item": "7.21.4.2", "cota": "esquemas/solda-estrutural-montagem-junta.svg#abertura"}
+   ]
+  },
+  {
+   "titulo": "Tolerâncias dimensionais de peças soldadas",
+   "item": "7.22",
+   "texto": "Colunas, vigas e perfis soldados têm limites de retilineidade, contraflecha, desvio lateral, planicidade de alma, alinhamento alma–mesa, empeno de mesa e altura. Os apoios de carga precisam de contato em boa parte da área.",
+   "valores": [
+    {"parametro": "Retilineidade de colunas (L < 9 m)", "valor": "1 mm × L(m)", "item": "7.22.1", "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#flecha"},
+    {"parametro": "Retilineidade de colunas (9 a 15 m / > 15 m)", "valor": "10 mm / 10 mm + 3 mm × (L − 15)/10", "item": "7.22.1"},
+    {"parametro": "Contraflecha no meio do vão", "valor": "−0/+40 mm (vão ≥ 30 m); −0/+20 mm (< 30 m)", "item": "7.22.3", "cota": "esquemas/solda-estrutural-planicidade-contraflecha.svg#contraflecha"},
+    {"parametro": "Desvio lateral (sweep)", "valor": "± 1 mm × L(m)", "item": "7.22.5", "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#sweep"},
+    {"parametro": "Desvio entre eixos de alma e mesa", "valor": "≤ 6 mm", "item": "7.22.7", "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#desvio-alma-mesa"},
+    {"parametro": "Empeno + inclinação de mesa", "valor": "≤ maior entre 1 % da largura e 6 mm", "item": "7.22.8", "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#empeno"},
+    {"parametro": "Altura da viga", "valor": "≤ 1 m: ± 3 mm; 1–2 m: ± 5 mm; > 2 m: +8/−5 mm", "item": "7.22.9", "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#altura"},
+    {"parametro": "Enrijecedor \"justo\" à mesa", "valor": "folga ≤ 2 mm", "item": "7.22.11", "cota": "esquemas/solda-estrutural-planicidade-contraflecha.svg#folga-enrijecedor"}
+   ]
+  },
+  {
+   "titulo": "Perfil da solda",
+   "item": "7.23; Tabela 7.9",
+   "texto": "O reforço das soldas de chanfro e a convexidade dos filetes têm limites por faixa de espessura ou largura de face. Concavidade é aceita desde que a perna e a garganta mínimas sejam atingidas.",
+   "valores": [
+    {"parametro": "Reforço de topo (Schedule A)", "valor": "t ≤ 25: 3 mm; ≤ 50: 5 mm; > 50: 6 mm", "item": "Tabela 7.9", "cota": "esquemas/solda-estrutural-perfil-solda.svg#R"},
+    {"parametro": "Convexidade de filete (Schedule C)", "valor": "W ≤ 8: 2 mm; 8–25: 3 mm; ≥ 25: 5 mm", "item": "Tabela 7.9", "cota": "esquemas/solda-estrutural-perfil-solda.svg#C"}
+   ]
+  },
+  {
+   "titulo": "Inspeção visual e END",
+   "item": "Cláusula 8; Tabela 8.1",
+   "texto": "A inspeção visual ocorre depois do resfriamento; em aços temperados de alta resistência, espera-se mais. Trincas nunca são aceitas. Filete abaixo do nominal, mordedura e porosidade têm limites diferentes para carga estática e cíclica. A radiografia tem critério próprio por tamanho de solda.",
+   "valores": [
+    {"parametro": "Espera para visual em A514, A517, A709 HPS 100W", "valor": "≥ 48 h após soldar", "item": "Tabela 8.1 (5)"},
+    {"parametro": "Filete abaixo do nominal", "valor": "L ≤ 5: −2 mm; L = 6: −2,5 mm; L ≥ 8: −3 mm; em ≤ 10 % do comprimento", "item": "Tabela 8.1 (6)", "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#perna-real"},
+    {"parametro": "Mordedura — carga estática", "valor": "< 25 mm: ≤ 1 mm (2 mm em 50 mm a cada 300 mm); ≥ 25 mm: ≤ 2 mm", "item": "Tabela 8.1 (7)(A)", "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#mordedura"},
+    {"parametro": "Mordedura — carga cíclica, membro principal tracionado", "valor": "≤ 0,25 mm", "item": "Tabela 8.1 (7)(B)"},
+    {"parametro": "Porosidade — estática (exceto CJP tracionada)", "valor": "soma ≤ 10 mm em 25 mm e ≤ 20 mm em 300 mm", "item": "Tabela 8.1 (8)(A)", "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#poro"},
+    {"parametro": "Porosidade — cíclica (filete)", "valor": "1 poro a cada 100 mm, Ø ≤ 2,5 mm", "item": "Tabela 8.1 (8)(B)"},
+    {"parametro": "RT carga estática — indicação arredondada", "valor": "≤ S/3 e ≤ 6 mm (10 mm se S > 50 mm)", "item": "8.12.1"}
+   ]
+  },
+  {
+   "titulo": "Reforço e reparo de estruturas existentes",
+   "item": "Cláusula 11",
+   "texto": "O Engenheiro prepara um plano completo (projeto, mão de obra, inspeção e registros). Antes, identifica o aço original por desenhos ou ensaios. A região a soldar é limpa, inclusive de tinta, numa faixa em volta da raiz. Descontinuidades são corrigidas antes de desempenar ou soldar.",
+   "valores": [
+    {"parametro": "Faixa limpa em volta da raiz", "valor": "≥ 50 mm (2 in)", "item": "11.6.1"}
+   ]
+  }
+ ]
+}

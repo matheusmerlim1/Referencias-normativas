@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SB-543",
+ "titulo": "SB-543 — Tubos soldados de cobre e ligas de cobre para condensadores e trocadores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos soldados de cobre e ligas de cobre, até 3 1/8 in de diâmetro, para condensadores, evaporadores, trocadores e engenharia geral (C12200, C19400, C23000, almirantados, C70400, C70600, C71500 e outros)."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. (0,5 % sob carga) em ksi.",
+   "valores": [
+    {
+     "parametro": "C12200 W061 (recozido)",
+     "valor": "30 / 9",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C12200 WC55 (levemente trabalhado a frio)",
+     "valor": "32 / 15",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C19400 W061",
+     "valor": "45 / 15",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C23000 W061",
+     "valor": "40 / 12",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

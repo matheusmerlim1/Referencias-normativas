@@ -1,0 +1,36 @@
+{
+ "id": "ISO-527-1",
+ "titulo": "ISO 527-1:2012 — Plásticos — Determinação das propriedades de tração — Parte 1: Princípios gerais",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Princípios gerais do ensaio de tração de plásticos e compósitos (termoplásticos e termofixos rígidos e semirrígidos, moldados, extrudados, placas, filmes, reforçados ou não). Corpos de prova e condições específicas nas demais partes da ISO 527.",
+   "valores": []
+  },
+  {
+   "titulo": "Definições e princípio",
+   "item": "3–4",
+   "texto": "Velocidade de ensaio = velocidade de separação das garras; tensão de escoamento, resistência à tração, deformações nominal e na ruptura, módulo de tração, coeficiente de Poisson. Corpo de prova tracionado ao longo do eixo a velocidade constante até romper ou atingir valores definidos.",
+   "valores": [
+    {
+     "parametro": "Módulo de tração Et",
+     "valor": "inclinação da curva σ(ε) entre ε1 = 0,05 % e ε2 = 0,25 %",
+     "item": "3.9"
+    }
+   ]
+  },
+  {
+   "titulo": "Equipamento e corpos de prova",
+   "item": "5–8",
+   "texto": "Máquina com velocidades recomendadas (Tab. 1), extensômetros, medição de largura e espessura; preparo e verificação dos corpos de prova, marcas, anisotropia; número mínimo por direção; condicionamento.",
+   "valores": []
+  },
+  {
+   "titulo": "Ensaio e resultados",
+   "item": "9–12",
+   "texto": "Atmosfera de ensaio, fixação sem escorregar, pré-tensão, extensômetro, velocidade, registro, cálculo de tensões, deformações, módulo (regressão ou corda) e Poisson, estatística e relatório.",
+   "valores": []
+  }
+ ]
+}

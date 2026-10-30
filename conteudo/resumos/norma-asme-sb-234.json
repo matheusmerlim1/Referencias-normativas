@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SB-234",
+ "titulo": "SB-234 — Tubos trefilados sem costura de ligas de alumínio para condensadores e trocadores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos redondos trefilados sem costura de ligas de alumínio, em barras retas, para condensadores de superfície, evaporadores e trocadores de calor. Ligas e têmperas pela ANSI H35.1 (têmpera O = recozido; H = encruado; T = tratado termicamente)."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín. (seção plena).",
+   "valores": [
+    {
+     "parametro": "1060-H14",
+     "valor": "12,0 ksi / 10,0 ksi",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "3003-H14 (0,050–0,200 in)",
+     "valor": "20,0 ksi / 17,0 ksi / 8 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "3003-H25",
+     "valor": "22,0 ksi / 19,0 ksi",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alclad 3003-H14",
+     "valor": "19,0 ksi / 16,0 ksi",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

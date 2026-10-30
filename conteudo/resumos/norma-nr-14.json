@@ -1,0 +1,20 @@
+{
+ "id": "NR-14",
+ "titulo": "NR-14 — Fornos",
+ "secoes": [
+  {
+   "titulo": "Construção e instalação",
+   "item": "14.1–14.2",
+   "texto": "Forno de qualquer uso deve ser robusto e ter revestimento refratário suficiente para que o calor irradiado fique dentro dos limites de tolerância de calor da NR-15. Deve ficar em local seguro, de modo a não acumular gases nocivos nem aquecer demais as áreas vizinhas; escadas e plataformas do forno devem permitir trabalho seguro.",
+   "valores": [
+    {"parametro": "Calor radiante no entorno", "valor": "dentro dos limites de tolerância da NR-15", "item": "14.1"}
+   ]
+  },
+  {
+   "titulo": "Fornos a gás ou combustível líquido",
+   "item": "14.3",
+   "texto": "Precisam de proteções contra explosão por falha da chama ou na partida do queimador e contra retorno de chama. Todo forno deve ter chaminé com seção suficiente para a saída livre dos gases de combustão, conforme as normas oficiais de poluição do ar.",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,343 @@
+{
+ "id": "DNV-ST-E271",
+ "titulo": "DNV-ST-E271 (2.7-1) — Contêineres offshore",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1",
+   "texto": "Contêineres de uso repetido, içados em mar aberto, com estrutura externa e olhais. Unidades de instalação ou sem estrutura própria vão para a E273. O rating R é a massa bruta máxima com carga, sem contar a lingada; carga útil é R menos a tara.",
+   "valores": [
+    {
+     "parametro": "Massa bruta máxima de um contêiner offshore",
+     "valor": "≤ 25 000 kg",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Materiais",
+   "item": "3",
+   "texto": "Aço acalmado, não envelhecível, sem aços de escoamento muito alto. Chapas tracionadas na espessura com propriedade Z. Tenacidade conforme a temperatura de projeto.",
+   "valores": [
+    {
+     "parametro": "Escoamento máximo do aço",
+     "valor": "Re ≤ 500 N/mm²",
+     "item": "3.1.1"
+    },
+    {
+     "parametro": "Chapa tracionada na espessura",
+     "valor": "EN 10164 Z25 ou melhor",
+     "item": "3.1.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos gerais de projeto",
+   "item": "4.1",
+   "texto": "O contêiner não pode tombar sob inclinação moderada. A temperatura de projeto é no máximo −20 °C (clima temperado: Apêndice J). Contêineres abertos ou com equipamentos internos precisam de proteção superior para o gancho não enganchar, com aberturas pequenas e capaz de suportar uma pessoa.",
+   "valores": [
+    {
+     "parametro": "Estabilidade",
+     "valor": "30° sem tombar",
+     "item": "4.1.2",
+     "cota": "esquemas/icamento-unidade-portatil-queda-estabilidade.svg#tombamento"
+    },
+    {
+     "parametro": "Temperatura de projeto",
+     "valor": "≤ −20 °C",
+     "item": "4.1.5"
+    },
+    {
+     "parametro": "Abertura da proteção superior rígida / rede",
+     "valor": "≤ 1 500 mm² / ≤ 50 × 50 mm",
+     "item": "4.1.4",
+     "cota": "esquemas/icamento-unidade-portatil-container-estrutura.svg#abertura-protecao"
+    },
+    {
+     "parametro": "Carga da proteção superior rígida",
+     "valor": "3 kN em 600 × 300 mm",
+     "item": "4.1.4",
+     "cota": "esquemas/icamento-unidade-portatil-container-estrutura.svg#area-carga"
+    },
+    {
+     "parametro": "Carga da proteção flexível",
+     "valor": "0,03·R·g, entre 1 kN e 3 kN",
+     "item": "4.1.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Cargas e tensões",
+   "item": "4.2",
+   "texto": "A estrutura é verificada para duas vezes e meia o rating; os olhais, para três vezes, repartidos como se um olhal estivesse frouxo. A força em cada olhal leva em conta o ângulo da perna (45° se nada for dito). Empilhadeira e impactos horizontal e vertical têm cargas próprias. Tensão equivalente limitada a uma fração do escoamento.",
+   "valores": [
+    {
+     "parametro": "Carga de projeto da estrutura",
+     "valor": "F_L = 2,5 × R × g",
+     "item": "4.2.3.1"
+    },
+    {
+     "parametro": "Carga total nos olhais",
+     "valor": "3 × R × g sobre (n − 1) olhais",
+     "item": "4.2.3.1"
+    },
+    {
+     "parametro": "Força por olhal (RSL)",
+     "valor": "3Rg / [(n − 1) cos v]",
+     "item": "4.2.3.1",
+     "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#nu"
+    },
+    {
+     "parametro": "Olhal único",
+     "valor": "5 × R × g (aprovação especial)",
+     "item": "4.2.3.1"
+    },
+    {
+     "parametro": "Empilhadeira",
+     "valor": "1,6 × (R + S) × g",
+     "item": "4.2.3.2"
+    },
+    {
+     "parametro": "Impacto horizontal — cantos e longarinas inferiores / demais",
+     "valor": "0,25 / 0,15 × R × g",
+     "item": "4.2.4.1"
+    },
+    {
+     "parametro": "Impacto vertical no meio da longarina inferior",
+     "valor": "0,25 × R × g; flecha ≤ ln/250",
+     "item": "4.2.4.2"
+    },
+    {
+     "parametro": "Tensão admissível",
+     "valor": "0,85 C (aço C = Re; alumínio Rp0,2 ≤ 0,7 Rm)",
+     "item": "4.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Espessuras mínimas",
+   "item": "4.2.5",
+   "texto": "Montantes de canto e longarinas inferiores têm a parede externa mais grossa; o resto da estrutura primária e a secundária, menos.",
+   "valores": [
+    {
+     "parametro": "Montantes de canto e longarinas inferiores",
+     "valor": "≥ 6 mm (4 mm se R < 1000 kg)",
+     "item": "4.2.5",
+     "cota": "esquemas/icamento-unidade-portatil-container-estrutura.svg#t-montante"
+    },
+    {
+     "parametro": "Demais estrutura primária",
+     "valor": "≥ 4 mm",
+     "item": "4.2.5",
+     "cota": "esquemas/icamento-unidade-portatil-container-estrutura.svg#t-primaria"
+    },
+    {
+     "parametro": "Estrutura secundária",
+     "valor": "2 mm",
+     "item": "4.2.5",
+     "cota": "esquemas/icamento-unidade-portatil-container-estrutura.svg#t-secundaria"
+    }
+   ]
+  },
+  {
+   "titulo": "Soldas e olhais",
+   "item": "4.3–4.4",
+   "texto": "Olhais soldados com penetração total, dentro das laterais do contêiner e apontados para o centro de içamento. Folga pino–furo pequena, espessura no furo proporcional à manilha (ou chapas de reforço), diagonais entre olhais com tolerância. Verificações de arrancamento e contato no Apêndice D; a manilha é escolhida antes de desenhar o olhal.",
+   "valores": [
+    {
+     "parametro": "Alinhamento do olhal com a lingada",
+     "valor": "± 2,5°",
+     "item": "4.4.1"
+    },
+    {
+     "parametro": "Diferença entre diagonais dos olhais",
+     "valor": "≤ 0,2 % ou 5 mm (o maior)",
+     "item": "4.4.1",
+     "cota": "esquemas/icamento-unidade-portatil-ponto-mais-carregado.svg#diagonal"
+    },
+    {
+     "parametro": "Folga pino–furo",
+     "valor": "≤ 6 % do Ø do pino",
+     "item": "4.4.1",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-container-e271.svg#folga"
+    },
+    {
+     "parametro": "Espessura no furo",
+     "valor": "≥ 75 % da largura interna da manilha",
+     "item": "4.4.1",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-container-e271.svg#t"
+    },
+    {
+     "parametro": "Tensão de pico na borda do furo",
+     "valor": "≤ 2 Re",
+     "item": "4.4.1"
+    },
+    {
+     "parametro": "Arrancamento",
+     "valor": "Re ≥ 3 RSL / (2Ht − DH·t)",
+     "item": "D.3",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-container-e271.svg#H"
+    },
+    {
+     "parametro": "Contato",
+     "valor": "Re ≥ 23,7 √(RSL / (DH·t))",
+     "item": "D.3",
+     "cota": "esquemas/icamento-unidade-portatil-olhal-container-e271.svg#DH"
+    }
+   ]
+  },
+  {
+   "titulo": "Convés intermediário, empilhamento, cantos ISO e bolsas de garfo",
+   "item": "4.4.2–4.4.6",
+   "texto": "Convés interno de carga tem fórmula própria. Empilhar no máximo dois níveis, com guias. Cantos ISO não servem para içar offshore. Bolsas de garfo com abertura e espaçamento mínimos.",
+   "valores": [
+    {
+     "parametro": "Convés intermediário",
+     "valor": "FT = 0,5 × P × ψ × g, ψ = 3,0",
+     "item": "4.4.2"
+    },
+    {
+     "parametro": "Empilhamento",
+     "valor": "máx. 2 níveis; considerar 15° e vento",
+     "item": "4.4.3"
+    },
+    {
+     "parametro": "Bolsas de garfo",
+     "valor": "abertura 200 × 90 mm; centros ≥ 900 mm (até 2 050 mm)",
+     "item": "4.4.6",
+     "cota": "esquemas/icamento-unidade-portatil-bolsas-empilhadeira.svg#abertura-largura"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios de protótipo",
+   "item": "4.6",
+   "texto": "Içamento por todos os olhais com massa interna que leva o total a 2,5 R, mantida alguns minutos; depois por dois olhais diagonais. Flecha limitada. Impacto vertical deixando cair o contêiner inclinado. Contêiner aberto longo é içado também pelas bolsas de garfo. Equipamento de medição calibrado.",
+   "valores": [
+    {
+     "parametro": "Teste por todos os pontos",
+     "valor": "2,5 × R; 5 min",
+     "item": "4.6.3.1"
+    },
+    {
+     "parametro": "Teste em 2 pontos diagonais",
+     "valor": "1,5 × R",
+     "item": "4.6.3.3"
+    },
+    {
+     "parametro": "Flecha no teste",
+     "valor": "≤ vão/300",
+     "item": "4.6.3.2",
+     "cota": "esquemas/icamento-unidade-portatil-container-estrutura.svg#flecha"
+    },
+    {
+     "parametro": "Impacto vertical — inclinação",
+     "valor": "≥ 5°",
+     "item": "4.6.5",
+     "cota": "esquemas/icamento-unidade-portatil-queda-estabilidade.svg#inclinacao"
+    },
+    {
+     "parametro": "Teste pelas bolsas (aberto ≥ 6,5 m)",
+     "valor": "1,6·(R + S)·g",
+     "item": "4.6"
+    },
+    {
+     "parametro": "Célula de carga",
+     "valor": "± 2 %, calibração anual",
+     "item": "4.6.2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação e placas",
+   "item": "6–7",
+   "texto": "Faixa de cor no perímetro do teto, identificação do proprietário em todos os lados e no teto, número de série soldado, aviso para bolsas de garfo só para vazio e indicação de alumínio. Placas de dados e de inspeção obrigatórias, presas por fora.",
+   "valores": [
+    {
+     "parametro": "Faixa no perímetro do teto",
+     "valor": "≥ 100 mm",
+     "item": "6.1",
+     "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#faixa-teto"
+    },
+    {
+     "parametro": "Número do contêiner nos lados / teto",
+     "valor": "≥ 75 mm / ≥ 300 mm",
+     "item": "6.2"
+    },
+    {
+     "parametro": "Demais marcações de segurança e nº de série",
+     "valor": "≥ 50 mm",
+     "item": "6.1–6.2",
+     "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#caracteres"
+    }
+   ]
+  },
+  {
+   "titulo": "Lingada",
+   "item": "8",
+   "texto": "Pernas a no máximo 45° da vertical; lingada de quatro pernas calculada como de três. WLL mínimo da lingada pela Tabela 8-1 conforme o rating; manilhas e componentes derivados dele. Manilhas de parafuso com porca e contrapino, cabos 6×19 ou 6×36 com sapatilha e luva prensada, corrente grau 8. Componentes com Charpy.",
+   "valores": [
+    {
+     "parametro": "Ângulo da perna",
+     "valor": "≤ 45° com a vertical",
+     "item": "8.3",
+     "cota": "esquemas/icamento-unidade-portatil-angulo-lingada-alcance.svg#nu"
+    },
+    {
+     "parametro": "WLL mínimo para rating até 2 000 kg",
+     "valor": "7,00 t",
+     "item": "8.3.1, Tab. 8-1"
+    },
+    {
+     "parametro": "WLL por perna — 4 / 2 pernas",
+     "valor": "WLLmin/(3 cos β) / WLLmin/(2 cos β)",
+     "item": "8.3.1.2"
+    },
+    {
+     "parametro": "Manilha — ruptura",
+     "valor": "≥ 5 × WLL; Ø do pino −1/+3 %",
+     "item": "8.3.2"
+    },
+    {
+     "parametro": "Charpy dos componentes",
+     "valor": "≥ 42 J a TD",
+     "item": "8"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção periódica da lingada",
+   "item": "9",
+   "texto": "Exame visual anual e, a cada quatro anos, ensaio não destrutivo ou prova; pernas de corrente testadas ao dobro do WLL.",
+   "valores": [
+    {
+     "parametro": "Intervalo",
+     "valor": "≤ 12 meses (visual); 48 meses (END ou prova)",
+     "item": "9.3.1, Tab. 9-2"
+    },
+    {
+     "parametro": "Prova de perna de corrente",
+     "valor": "2 × WLL, ≥ 2,5 min",
+     "item": "9"
+    }
+   ]
+  },
+  {
+   "titulo": "Clima temperado",
+   "item": "Apêndice J",
+   "texto": "Contêineres usados só entre 36° N e 36° S (e em águas australianas) podem ter temperatura de projeto mais alta, com marcação e placa específicas.",
+   "valores": [
+    {
+     "parametro": "Temperatura de projeto",
+     "valor": "≤ 0 °C (lingada continua −20 °C)",
+     "item": "J"
+    },
+    {
+     "parametro": "Aviso de clima temperado",
+     "valor": "caracteres ≥ 75 mm",
+     "item": "J"
+    }
+   ]
+  }
+ ]
+}

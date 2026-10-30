@@ -1,0 +1,303 @@
+{
+ "id": "NR-10",
+ "titulo": "NR-10 — Segurança em instalações e serviços em eletricidade",
+ "secoes": [
+  {
+   "titulo": "Objetivo e campo de aplicação",
+   "item": "10.1; 10.14.6",
+   "texto": "A NR-10 fixa os controles mínimos para quem lida, direta ou indiretamente, com instalações elétricas e serviços com eletricidade, em todas as fases (geração, transmissão, distribuição e consumo; projeto, construção, montagem, operação e manutenção) e também em trabalhos feitos perto delas. Seguem-se as normas técnicas oficiais e, na falta delas, as internacionais. Não se aplica a instalações em extrabaixa tensão.",
+   "valores": [
+    {
+     "parametro": "Instalações excluídas",
+     "valor": "alimentadas em extrabaixa tensão (EBT)",
+     "item": "10.14.6"
+    }
+   ]
+  },
+  {
+   "titulo": "Medidas de controle e prontuário",
+   "item": "10.2.1–10.2.7",
+   "texto": "Toda intervenção é precedida de análise de risco, cobrindo o risco elétrico e os adicionais. A empresa mantém diagramas unifilares atualizados com o aterramento e as proteções. Acima de certa carga instalada é obrigatório o Prontuário de Instalações Elétricas: procedimentos de segurança, inspeções e medições do SPDA e do aterramento, especificação de EPC/EPI e ferramentas, comprovantes de qualificação e treinamento, ensaios de isolação dos EPI/EPC, certificados de equipamentos em área classificada e relatório de inspeção com cronograma de adequação. Quem opera o SEP acrescenta procedimentos de emergência e certificados de EPC/EPI; quem trabalha perto do SEP monta prontuário reduzido. O prontuário é mantido pelo empregador (ou designado), fica à disposição dos trabalhadores e seus documentos técnicos são feitos por profissional habilitado.",
+   "valores": [
+    {
+     "parametro": "Carga instalada que obriga o Prontuário de Instalações Elétricas",
+     "valor": "> 75 kW",
+     "item": "10.2.4"
+    },
+    {
+     "parametro": "Diagrama unifilar atualizado (com aterramento e proteções)",
+     "valor": "obrigatório em todo estabelecimento",
+     "item": "10.2.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Proteção coletiva e individual",
+   "item": "10.2.8–10.2.9",
+   "texto": "A prioridade é a proteção coletiva: primeiro desenergizar; se impossível, usar tensão de segurança; não sendo possível, isolar partes vivas, usar obstáculos, barreiras, sinalização, seccionamento automático e bloqueio do religamento automático. O aterramento segue a regulamentação oficial ou, na falta, a internacional. EPI (NR-06) só quando a proteção coletiva for inviável ou insuficiente; a roupa de trabalho considera condutividade, inflamabilidade e efeitos eletromagnéticos. Adornos pessoais são proibidos no trabalho elétrico e nas proximidades.",
+   "valores": [
+    {
+     "parametro": "Ordem da proteção coletiva",
+     "valor": "1º desenergização; 2º tensão de segurança; 3º isolação, obstáculos, barreiras, sinalização, seccionamento automático, bloqueio de religamento",
+     "item": "10.2.8.2–10.2.8.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Segurança no projeto",
+   "item": "10.3",
+   "texto": "O projeto especifica dispositivos de desligamento que permitam travar contra religação e sinalizar o estado; sempre que possível, seccionamento de ação simultânea, e seccionadores com aterramento/equipotencialização fixos quando viável. Prevê espaço seguro para operação e manutenção, separa circuitos de finalidades diferentes (comunicação, sinalização, controle, tração), define o esquema de aterramento e a ligação neutro–proteção, e prevê pontos para aterramento temporário. É assinado por profissional habilitado, mantido atualizado e à disposição. O memorial descritivo traz proteção contra choque e queimadura, convenção de posição dos dispositivos de manobra, sistema de identificação de circuitos, restrições de acesso, influências externas e o funcionamento e compatibilidade das proteções. Iluminação e postura seguem a NR-17.",
+   "valores": [
+    {
+     "parametro": "Indicação de posição dos dispositivos de manobra (memorial)",
+     "valor": "verde \"D\" = desligado; vermelho \"L\" = ligado",
+     "item": "10.3.9 b)"
+    }
+   ]
+  },
+  {
+   "titulo": "Construção, montagem, operação e manutenção",
+   "item": "10.4",
+   "texto": "As instalações são executadas e mantidas em condição segura, sob supervisão de profissional autorizado, controlando riscos adicionais (altura, confinamento, campos, atmosfera explosiva, umidade, poeira, fauna e flora). Só se usam equipamentos e ferramentas compatíveis com a instalação; os isolados são adequados à tensão e inspecionados/ensaiados. Proteções são inspecionadas periodicamente. Salas elétricas e invólucros não podem servir de depósito. O trabalhador deve ter boa iluminação e posição que deixe os braços livres. Ensaios e comissionamento só por pessoal autorizado.",
+   "valores": []
+  },
+  {
+   "titulo": "Instalação desenergizada e reenergização",
+   "item": "10.5",
+   "texto": "Uma instalação só é considerada desenergizada depois de cumprida, na ordem, a sequência de liberação; e só volta a ser energizada após a sequência inversa. Mudanças nessas sequências exigem justificativa técnica formal de profissional habilitado e autorizado, mantendo o mesmo nível de segurança. Circuito desligado que possa ser energizado por qualquer meio é tratado como energizado.",
+   "valores": [
+    {
+     "parametro": "Sequência de desenergização",
+     "valor": "1 seccionar; 2 impedir reenergização; 3 constatar ausência de tensão; 4 aterramento temporário com equipotencialização; 5 proteger elementos energizados na zona controlada; 6 sinalizar o impedimento",
+     "item": "10.5.1"
+    },
+    {
+     "parametro": "Sequência de reenergização",
+     "valor": "1 retirar ferramentas e materiais; 2 retirar da zona controlada quem não participa; 3 remover aterramento temporário e proteções; 4 remover sinalização de impedimento; 5 destravar e religar",
+     "item": "10.5.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Instalação energizada",
+   "item": "10.6",
+   "texto": "Intervenção em instalação energizada acima do limite de tensão abaixo só por trabalhador que atenda ao item 10.8 e tenha o treinamento do Anexo III. Manobras simples de ligar e desligar em baixa tensão, com material em bom estado, podem ser feitas por qualquer pessoa. Entrar na zona controlada exige procedimento específico respeitando as distâncias do Anexo II. O serviço é suspenso diante de perigo iminente ou risco não previsto que não se consiga eliminar; tecnologia nova ou instalação nova exige análise de risco prévia.",
+   "valores": [
+    {
+     "parametro": "Tensão a partir da qual a intervenção exige trabalhador autorizado",
+     "valor": "≥ 50 V CA ou > 120 V CC",
+     "item": "10.6.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Alta tensão (AT) e Sistema Elétrico de Potência (SEP)",
+   "item": "10.7",
+   "texto": "Quem trabalha em AT energizada nas zonas controlada e de risco precisa do item 10.8 e do curso complementar SEP. Esses serviços nunca são feitos por uma pessoa só, exigem ordem de serviço específica (data e local) assinada pelo superior, planejamento prévio da equipe e procedimento detalhado assinado por profissional autorizado. Dentro da zona de risco é obrigatório bloquear o religamento automático e sinalizar o bloqueio. Ferramentas e equipamentos isolantes para AT são ensaiados periodicamente. Cada trabalhador tem comunicação permanente com a equipe ou o centro de operação.",
+   "valores": [
+    {
+     "parametro": "Trabalho em AT energizada / SEP",
+     "valor": "proibido individualmente (mínimo 2 trabalhadores)",
+     "item": "10.7.3",
+     "nota": "\"mínimo 2\" é inferência de \"não podem ser realizados individualmente\"."
+    },
+    {
+     "parametro": "Ensaio de ferramentas/equipamentos isolantes para AT",
+     "valor": "conforme fabricante ou procedimento da empresa; na falta, anual",
+     "item": "10.7.8"
+    }
+   ]
+  },
+  {
+   "titulo": "Qualificação, habilitação, capacitação e autorização",
+   "item": "10.8",
+   "texto": "Qualificado: tem curso da área elétrica reconhecido pelo sistema oficial de ensino. Habilitado: qualificado com registro no conselho de classe. Capacitado: treinado por profissional habilitado e autorizado e trabalhando sob a responsabilidade dele (vale só na empresa que capacitou). Autorizado: qualificado, capacitado ou habilitado com anuência formal da empresa, registrada e identificável; precisa de exame de saúde (NR-07) e dos cursos do Anexo III com aproveitamento. Trabalho em área classificada exige treinamento específico; quem só circula na zona livre perto da controlada recebe instrução formal.",
+   "valores": [
+    {
+     "parametro": "Reciclagem do treinamento",
+     "valor": "a cada 2 anos (bienal)",
+     "item": "10.8.8.2"
+    },
+    {
+     "parametro": "Reciclagem extra — gatilhos",
+     "valor": "troca de função ou de empresa; afastamento/inatividade > 3 meses; mudança significativa na instalação ou nos métodos",
+     "item": "10.8.8.2 a)–c)"
+    }
+   ]
+  },
+  {
+   "titulo": "Incêndio, explosão e eletricidade estática",
+   "item": "10.9",
+   "texto": "Áreas com instalações elétricas têm proteção contra incêndio e explosão (NR-23). Equipamentos para atmosfera explosiva têm certificação de conformidade no sistema brasileiro. Processos que geram eletricidade estática precisam de proteção e meios de descarga. Em áreas classificadas usam-se alarme e seccionamento automático contra sobretensão, sobrecorrente, falha de isolamento e aquecimento; serviço nessas áreas só com permissão de trabalho formal (liberação conforme 10.5) ou eliminando a causa da classificação.",
+   "valores": []
+  },
+  {
+   "titulo": "Sinalização, procedimentos e emergência",
+   "item": "10.10–10.12",
+   "texto": "A sinalização segue a NR-26 e cobre identificação de circuitos, travamentos e bloqueios, restrição de acesso, delimitação de áreas, circulação e cargas e o impedimento de energização. Serviços seguem procedimentos padronizados passo a passo (objetivo, campo, base técnica, responsabilidades, medidas de controle), assinados por profissional do item 10.8, e ordens de serviço com tipo, data, local e procedimento, com participação do SESMT. Toda equipe tem um responsável pela condução e planeja o serviço antes de começar. As emergências elétricas entram no plano de emergência; trabalhadores autorizados sabem resgatar, fazer reanimação cardiorrespiratória e usar os equipamentos de combate a incêndio.",
+   "valores": []
+  },
+  {
+   "titulo": "Responsabilidades e disposições finais",
+   "item": "10.13–10.14",
+   "texto": "O contratante informa e instrui os trabalhadores sobre os riscos elétricos; após acidente a empresa adota medidas corretivas. O trabalhador cuida de si e dos outros, cumpre os procedimentos e comunica situações de risco. A documentação da NR fica à disposição dos trabalhadores envolvidos.",
+   "valores": []
+  },
+  {
+   "titulo": "Glossário — faixas de tensão",
+   "item": "Glossário",
+   "texto": "As faixas valem entre fases ou entre fase e terra. Zona de risco: entorno da parte energizada não segregada onde só entram autorizados com técnica e ferramentas adequadas. Zona controlada: entorno onde só entram autorizados. Trabalho em proximidade: quando o trabalhador (ou ferramenta condutora) pode entrar na zona controlada. SEP: geração, transmissão e distribuição até a medição, inclusive.",
+   "valores": [
+    {
+     "parametro": "Extrabaixa tensão (EBT)",
+     "valor": "≤ 50 V CA ou ≤ 120 V CC",
+     "item": "Glossário 10"
+    },
+    {
+     "parametro": "Baixa tensão (BT)",
+     "valor": "> 50 V e ≤ 1000 V CA; > 120 V e ≤ 1500 V CC",
+     "item": "Glossário 5"
+    },
+    {
+     "parametro": "Alta tensão (AT)",
+     "valor": "> 1000 V CA ou > 1500 V CC",
+     "item": "Glossário 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo II — Zona de risco e zona controlada",
+   "item": "Anexo II",
+   "texto": "As zonas são delimitadas por raios medidos no ar, a partir da parte energizada, que crescem com a tensão nominal: Rr separa a zona de risco da controlada e Rc separa a controlada da livre. Com uma superfície isolante adequada interposta, a zona atrás dela é tratada como livre.",
+   "figuras": [
+    "esquemas/resumo-nr-10-zonas-eletricas.svg"
+   ],
+   "valores": [
+    {
+     "parametro": "Rr — raio entre zona de risco e zona controlada",
+     "valor": "de 0,20 m (< 1 kV) a 5,20 m (480–700 kV) — ver faixas abaixo",
+     "item": "Anexo II, Fig. 1",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr"
+    },
+    {
+     "parametro": "Rc — raio entre zona controlada e zona livre",
+     "valor": "de 0,70 m (< 1 kV) a 7,20 m (480–700 kV) — ver faixas abaixo",
+     "item": "Anexo II, Fig. 1",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rc"
+    },
+    {
+     "parametro": "Tensão nominal <1 kV",
+     "valor": "Rr = 0,20 m; Rc = 0,70 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥1 e <3 kV",
+     "valor": "Rr = 0,22 m; Rc = 1,22 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥3 e <6 kV",
+     "valor": "Rr = 0,25 m; Rc = 1,25 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥6 e <10 kV",
+     "valor": "Rr = 0,35 m; Rc = 1,35 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥10 e <15 kV",
+     "valor": "Rr = 0,38 m; Rc = 1,38 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥15 e <20 kV",
+     "valor": "Rr = 0,40 m; Rc = 1,40 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥20 e <30 kV",
+     "valor": "Rr = 0,56 m; Rc = 1,56 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥30 e <36 kV",
+     "valor": "Rr = 0,58 m; Rc = 1,58 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥36 e <45 kV",
+     "valor": "Rr = 0,63 m; Rc = 1,63 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥45 e <60 kV",
+     "valor": "Rr = 0,83 m; Rc = 1,83 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥60 e <70 kV",
+     "valor": "Rr = 0,90 m; Rc = 1,90 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥70 e <110 kV",
+     "valor": "Rr = 1,00 m; Rc = 2,00 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥110 e <132 kV",
+     "valor": "Rr = 1,10 m; Rc = 3,10 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥132 e <150 kV",
+     "valor": "Rr = 1,20 m; Rc = 3,20 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥150 e <220 kV",
+     "valor": "Rr = 1,60 m; Rc = 3,60 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥220 e <275 kV",
+     "valor": "Rr = 1,80 m; Rc = 3,80 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥275 e <380 kV",
+     "valor": "Rr = 2,50 m; Rc = 4,50 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥380 e <480 kV",
+     "valor": "Rr = 3,20 m; Rc = 5,20 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    },
+    {
+     "parametro": "Tensão nominal ≥480 e <700 kV",
+     "valor": "Rr = 5,20 m; Rc = 7,20 m",
+     "item": "Anexo II, Fig. 1 (tabela)"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo III — Treinamentos",
+   "item": "Anexo III",
+   "texto": "Curso básico para todo trabalhador autorizado: riscos (choque, arco, queimadura, campos), análise de risco, medidas de controle (desenergização, aterramento, equipotencialização, DR, EBT, barreiras, bloqueios, isolação), normas NBR 5410/14039, NRs, EPC e EPI, rotinas e liberação, documentação, riscos adicionais, incêndio, acidentes típicos e primeiros socorros com prática. Curso complementar SEP, com o básico como pré-requisito: organização do SEP e do trabalho, condições impeditivas, riscos típicos (indução, descargas, estática, campos), técnicas de trabalho sob tensão (linha viva, ao potencial, a distância), equipamentos, liberação de instalação e resgate.",
+   "valores": [
+    {
+     "parametro": "Curso básico (trabalhador autorizado)",
+     "valor": "≥ 40 h",
+     "item": "Anexo III, 1"
+    },
+    {
+     "parametro": "Curso complementar SEP",
+     "valor": "≥ 40 h (pré-requisito: básico com aproveitamento)",
+     "item": "Anexo III, 2"
+    }
+   ]
+  }
+ ]
+}

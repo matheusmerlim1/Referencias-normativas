@@ -1,0 +1,58 @@
+{
+ "id": "ASME-SA-723",
+ "titulo": "SA-723 — Forjados de aço liga Ni-Cr-Mo de alta resistência para componentes de alta pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Forjados de aço liga Ni-Cr-Mo temperados e revenidos, de alta resistência, para vasos de pressão, prensas isostáticas, tubos de choque e similares. NÃO se destinam a construção soldada. Três graus e seis classes de resistência."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4",
+   "texto": "Fusão pela SA-788 sem Siemens-Martin; aço desgaseificado a vácuo (remoção de hidrogênio); descarte suficiente do lingote."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 3",
+   "texto": "Su mín. / Sy mín. / alongamento / redução de área; Charpy a 40 °F [4,5 °C] (ou temperatura menor acordada).",
+   "valores": [
+    {
+     "parametro": "Classe 1",
+     "valor": "115 ksi [795] / 100 ksi [690] / 16 % / 50 %; Charpy média 35 ft·lbf [47 J]",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "Classe 2",
+     "valor": "135 ksi [930] / 120 ksi [825] / 14 % / 45 %; Charpy 30 [41 J]",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "Classe 2a",
+     "valor": "145 ksi [1000] / 130 ksi [895] / 12,5 % / 43 %; Charpy 28 [38 J]",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "Classe 3",
+     "valor": "155 ksi [1070] / 140 ksi [965] / 13 % / 40 %; Charpy 25 [34 J]",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "Classe 4",
+     "valor": "175 ksi [1205] / 160 ksi [1105] / 12 % / 35 %; Charpy 20 [27 J]",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "Classe 5",
+     "valor": "190 ksi [1310] / 180 ksi [1240] / 10 % / 30 %; Charpy 12 [16 J]",
+     "item": "Tabelas 2 e 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio não destrutivo",
+   "item": "7",
+   "texto": "Ultrassom conforme SA-388 (feixe reto com ajuste pela reflexão de fundo e feixe angular)."
+  }
+ ]
+}

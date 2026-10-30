@@ -1,0 +1,55 @@
+{
+ "id": "NBR-13541-2",
+ "titulo": "ABNT NBR 13541-2:2012 — Linga de cabo de aço — Parte 2: Utilização e inspeção",
+ "secoes": [
+  {"titulo": "Escopo e formas de amarração", "item": "1–4",
+   "texto": "Orienta o uso seguro, a inspeção e o descarte de lingas de cabo de aço fabricadas pela Parte 1. A linga pode prender a carga por fixação direta (terminal no olhal da carga, carga no assento do gancho, nunca na ponta), em forca (simples ou com duas voltas) ou em cesta (uma linga passando pela carga ou duas envolvendo-a; a segunda não serve se as lingas puderem escorregar).",
+   "valores": []},
+  {"titulo": "Antes do içamento", "item": "5.1",
+   "texto": "Conferir carga desobstruída, sem partes soltas e com massa conhecida; usar cabo-guia ou vara de manobra; evitar acelerações bruscas; prender a linga só nos pontos projetados para içamento; considerar a componente horizontal das lingas inclinadas. Lingas com trançado manual não servem para cargas que possam girar.",
+   "valores": [
+    {"parametro": "Ângulo de cada perna com a vertical (multiplas pernas)", "valor": "entre 15° e 60°; acima de 60° não usar", "item": "5.1.8", "nota": "abaixo de 15° há risco de desequilíbrio"},
+    {"parametro": "Ângulos das pernas", "valor": "recomendado todos iguais", "item": "5.1.9"}
+   ]},
+  {"titulo": "Fixação da linga", "item": "5.2",
+   "texto": "Terminais livres e alinhados com a força, bem assentados; proteger cantos vivos; laço sem fim com a emenda fora do contato com a carga e o gancho (região marcada em amarelo); na forca, deixar a perna tomar o ângulo natural (≈ 45° ou mais) sem forçar o olhal para baixo; usar sapatilho no olhal; ponta dos ganchos para fora. Forca não serve para girar ou arrastar carga sem cuidados especiais.",
+   "valores": [
+    {"parametro": "Canto vivo (definição)", "valor": "raio de curvatura menor que o diâmetro do cabo", "item": "5.2, Nota 1"},
+    {"parametro": "Cabo dobrado sobre o próprio diâmetro", "valor": "pode perder 50 % da resistência", "item": "5.2, Nota 2"}
+   ]},
+  {"titulo": "Movimentação, descarga e precauções", "item": "5.3–5.5, 5.8",
+   "texto": "Usar código de sinais conhecido (NBR 11436); nada prendendo a carga; pessoas afastadas e se comunicando; carga balanceada, subida e descida uniformes; linga não pode ficar presa sob a carga (usar calços). Proibido: pessoas sobre a carga, carga sobre pessoas, carga suspensa sem assistência, arrastar a linga no chão, dobrar junto da presilha. Guardar em suporte, fora do solo e do tempo. Planejamento de içamento conforme ISO 12480-1.",
+   "valores": []},
+  {"titulo": "Estabilidade e carregamento assimétrico", "item": "5.6–5.7",
+   "texto": "O centro de gravidade deve ficar sob o ponto principal do gancho; se a carga sair inclinada, baixar e corrigir com içamentos de teste. Com CG acima dos pontos de fixação, a linga deve formar com a horizontal ângulo bem maior que a linha CG–ponto de fixação. Em lingas assimétricas a perna mais carregada é a de menor ângulo com a vertical; se uma perna ficar vertical, ela leva tudo. Usando menos pernas que as existentes, reduzir a CMT pela Tabela 2 e prender as pernas livres no anel.",
+   "valores": [
+    {"parametro": "Carga para assumir carregamento simétrico", "valor": "≤ 80 % da CMT marcada", "item": "5.6.5", "nota": "e: ângulos com a vertical ≥ 15°, todos dentro de 15° entre si e, em 3 e 4 pernas, ângulos em planta dentro de 15°"}
+   ]},
+  {"titulo": "Inspeção", "item": "6.1–6.3, Anexo A",
+   "texto": "Inspeção visual pelo sinaleiro/amarrador antes de cada uso: retirar de serviço se a identificação estiver ilegível, houver arames rompidos, deformação severa (alma saltada, amassamento, nó) ou dano em trançado, presilha ou acessório. Inspeção completa por pessoa qualificada com registro (identificação, fabricante, série, não conformidades, laudo, recomendações, inspetor).",
+   "valores": [
+    {"parametro": "Intervalo máximo da inspeção completa", "valor": "12 meses (reduzir conforme o serviço)", "item": "6.3"},
+    {"parametro": "Ensaio não destrutivo ou carga de prova das pernas", "valor": "a cada ≤ 48 meses", "item": "Tab. A.1"},
+    {"parametro": "Marcação de ensaio na identificação", "valor": "V = visual; VN = END + visual; T = carga de prova + END + visual", "item": "Tab. A.1"}
+   ]},
+  {"titulo": "Critérios de descarte", "item": "6.4",
+   "texto": "Descartar com marcação ilegível (sem prova em contrário assumir cabo 1 770 MPa ao recalcular), arames rompidos acima dos limites, redução de diâmetro, corrosão, deformação, dano por calor e defeitos nos acessórios. Pequenos entalhes podem ser removidos por esmerilhamento com contorno suave.",
+   "valores": [
+    {"parametro": "Arames rompidos distribuídos", "valor": "6 em 6d ou 14 em 30d", "item": "6.4.2.2 a)"},
+    {"parametro": "Arames rompidos localizados", "valor": "3 ou mais adjacentes; na presilha, limites da Tab. 3", "item": "6.4.2.3"},
+    {"parametro": "Redução do diâmetro nominal", "valor": "7,5 %", "item": "6.4.3"},
+    {"parametro": "Gancho — torção / abertura da garganta", "valor": "> 10° / > 15 % da abertura original", "item": "6.4.7 a)"},
+    {"parametro": "Gancho — desgaste da seção ou do olhal", "valor": "> 10 %", "item": "6.4.7 a)"},
+    {"parametro": "Anel de carga — desgaste", "valor": "> 10 % (ou qualquer deformação/trinca)", "item": "6.4.7 b)"},
+    {"parametro": "Sapatilho — desgaste da coroa / abertura", "valor": "> 10 % / menor que o diâmetro do cabo", "item": "6.4.7 c)"},
+    {"parametro": "Manilha — corrosão, desgaste ou mossa no pino/corpo", "valor": "> 10 % do diâmetro nominal", "item": "6.4.7"}
+   ]},
+  {"titulo": "Massa da carga", "item": "Anexo B",
+   "texto": "Massa = volume × densidade, decompondo a peça em sólidos simples; em peças complexas, pesar com dinamômetro.",
+   "valores": [
+    {"parametro": "Densidade — aço-carbono / alumínio / cobre", "valor": "7,85 / 2,7 / 8,96 kg/dm³", "item": "Tab. B.2"},
+    {"parametro": "Densidade — concreto / madeira / vidro", "valor": "1,6–2,4 / 0,4–0,8 / 2,4–2,6 kg/dm³", "item": "Tab. B.2"},
+    {"parametro": "Densidade — bronze / mármore / solo seco", "valor": "8,4–9,2 / 2,8 / 1,3–1,9 kg/dm³", "item": "Tab. B.2"}
+   ]}
+ ]
+}

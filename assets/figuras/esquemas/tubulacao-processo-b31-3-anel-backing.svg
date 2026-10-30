@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img" aria-label="Anéis de backing e insertos consumíveis (ASME B31.3) — tipos">
+<title>Anéis de backing e insertos consumíveis (ASME B31.3) — tipos (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Anéis de backing e insertos consumíveis (ASME B31.3) — tipos</text>
+<text class="b" x="60" y="80">anel com furo cilíndrico</text>
+<rect class="s" x="60" y="160" width="110" height="60"/>
+<rect class="s" x="190" y="160" width="110" height="60"/>
+<rect class="r" x="140" y="220" width="80" height="16"/>
+<text class="b" x="350" y="80">anel com furo cônico</text>
+<rect class="s" x="350" y="160" width="110" height="60"/>
+<rect class="s" x="480" y="160" width="110" height="60"/>
+<path class="r" d="M430,220 L510,220 L500,236 L440,236 z"/>
+<text class="b" x="640" y="80">inserto consumível</text>
+<rect class="s" x="640" y="160" width="110" height="60"/>
+<rect class="s" x="770" y="160" width="110" height="60"/>
+<path class="r" d="M750,200 L770,200 L765,225 L755,225 z"/>
+<text class="n" x="60" y="320">Dimensões das extremidades e dos anéis: ver chanfros ASME B16.25 (ficha).</text>
+<text class="n" x="20" y="388">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

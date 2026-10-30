@@ -1,0 +1,43 @@
+{
+ "id": "ASME-SB-582",
+ "titulo": "SB-582 — Chapas, folhas e tiras de ligas Ni-Cr-Fe-Mo-Cu (G-3, G-30…)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras das ligas N06007, N06975, N06985 e N06030 para serviço corrosivo geral, solubilizadas e decapadas."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Ligas Ni-Cr-Fe-Mo-Cu (família 'Hastelloy G').",
+   "valores": [
+    {
+     "parametro": "N06007 — Cr / Fe / Mo / Cu",
+     "valor": "21,0–23,5 % / 18,0–21,0 % / 5,5–7,5 % / 1,5–2,5 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06975 — Ni / Cr / Mo",
+     "valor": "47,0–52,0 % / 23,0–26,0 % / 5,0–7,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06985 — Cr / Fe / Mo",
+     "valor": "21,0–23,5 % / 18,0–21,0 % / 6,0–8,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06030 — Cr / Fe / Mo",
+     "valor": "28,0–31,5 % / 13,0–17,0 % / 4,0–6,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela",
+   "texto": "Su, Sy e alongamento mínimos por liga e espessura na tabela de propriedades da especificação."
+  }
+ ]
+}

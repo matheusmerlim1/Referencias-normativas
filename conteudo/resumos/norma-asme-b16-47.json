@@ -1,0 +1,72 @@
+{
+ "id": "ASME-B16.47",
+ "titulo": "ASME B16.47 — Flanges de aço de grande diâmetro (NPS 26 a 60)",
+ "secoes": [
+  {
+   "titulo": "Escopo e séries",
+   "item": "1",
+   "texto": "Flanges de aço de NPS 26 a 60, fundidos ou forjados (chapa só para flange cego), com ratings, materiais, dimensões, tolerâncias, marcação e ensaios. Há duas séries de dimensões: a A, de uso geral (origem MSS SP-44), e a B, mais compacta (origem API 605), em geral com furação menor. As séries não se misturam; válvulas e equipamentos costumam casar só com uma. Tabelas completas por série, classe e NPS na ficha flange-asme-b16-5.",
+   "valores": [
+    {"parametro": "Faixa de diâmetros", "valor": "NPS 26 a NPS 60", "item": "1.1"},
+    {"parametro": "Classes", "valor": "75, 150, 300, 400, 600 e 900 (Classe 75 só na Série B)", "item": "1.1; 4.1"}
+   ]
+  },
+  {
+   "titulo": "Ratings de pressão–temperatura",
+   "item": "2",
+   "texto": "Os ratings seguem os grupos de material, como na B16.5. Junta entre flanges diferentes fica com o menor rating. Abaixo de −29 °C não se ganha pressão. Em temperatura alta há risco de vazamento com cargas externas ou gradientes, e o reaperto periódico pode ser necessário. O flange de pescoço em aço carbono supõe tubo de escoamento padrão.",
+   "valores": [
+    {"parametro": "Temperatura abaixo de −29 °C (−20 °F)", "valor": "rating ≤ o de −29 °C", "item": "2.3"},
+    {"parametro": "Atenção a vazamento — Classes 75 e 150", "valor": "acima de 204 °C (400 °F)", "item": "2.4.1"},
+    {"parametro": "Atenção a vazamento — demais classes", "valor": "acima de 399 °C (750 °F)", "item": "2.4.1"},
+    {"parametro": "Teste hidrostático do sistema", "valor": "até 1,5 × rating a 38 °C, arredondado aos 25 psi seguintes", "item": "2.5"},
+    {"parametro": "Base do pescoço WN de aço carbono", "valor": "tubo com escoamento mín. 40 ksi (276 MPa)", "item": "2.6"}
+   ]
+  },
+  {
+   "titulo": "Marcação, parafusos e juntas",
+   "item": "4; 5",
+   "texto": "Marcação com fabricante, material, classe, NPS e a série (B16/A ou B16/B); flange RTJ com R e o número do anel. Parafusos de alta resistência servem para qualquer junta; os de baixa, só para classes baixas, juntas brandas e faixa limitada de temperatura. Na Classe 75, só juntas muito macias.",
+   "valores": [
+    {"parametro": "Parafuso de alta resistência", "valor": "tensão admissível ≥ à do A193 B7 — qualquer junta", "item": "5.3.1"},
+    {"parametro": "Parafuso de baixa resistência (escoamento ≤ 30 ksi)", "valor": "só Classes 75, 150 e 300, juntas Grupo Ia; entre −29 °C e 204 °C", "item": "5.3.3"},
+    {"parametro": "Junta para Classe 75", "valor": "Grupo Ia com m ≤ 2 e y ≤ 1 600 psi", "item": "5.4.3"}
+   ]
+  },
+  {
+   "titulo": "Faces, acabamento e furação",
+   "item": "6",
+   "texto": "Diferente da B16.5 nas classes baixas: o ressalto de 0,06 in já está dentro da espessura tabelada. Nas classes altas, o ressalto de 0,25 in é somado. Face plana obtida retirando o ressalto não pode ficar abaixo do mínimo. Acabamento serrilhado avaliado por comparação. Furos em múltiplos de 4 e assento de porca paralelo à face.",
+   "valores": [
+    {"parametro": "Ressalto — Classes 75, 150, 300", "valor": "0,06 in (≈ 1,6 mm), incluído na espessura C", "item": "6.1.1", "cota": "esquemas/flange-asme-b16-5-flange-b16-47.svg#ressalto"},
+    {"parametro": "Ressalto — Classes 400, 600, 900", "valor": "0,25 in (≈ 6,4 mm), somado à espessura C", "item": "6.1.1", "cota": "esquemas/flange-asme-b16-5-flange-b16-47.svg#ressalto"},
+    {"parametro": "Face plana nas classes baixas", "valor": "espessura ≥ C − 0,06 in", "item": "6.1.3", "cota": "esquemas/flange-asme-b16-5-flange-b16-47.svg#C"},
+    {"parametro": "Acabamento serrilhado", "valor": "Ra 3,2 a 6,3 µm (125–250 µin); 45 a 55 ranhuras/in", "item": "6.1.4.2", "cota": "esquemas/flange-asme-b16-5-faces.svg#acabamento"},
+    {"parametro": "Parede da canaleta RTJ", "valor": "≤ 63 µin Ra", "item": "6.1.4.1"},
+    {"parametro": "Número de furos", "valor": "múltiplo de 4", "item": "6.2", "cota": "esquemas/flange-asme-b16-5-furacao-b16-47.svg#n"},
+    {"parametro": "Assento das porcas", "valor": "paralelo à face dentro de 1°", "item": "6.3"}
+   ]
+  },
+  {
+   "titulo": "Tolerâncias",
+   "item": "7",
+   "texto": "Tolerâncias em polegadas para ressalto, espessura (só positiva), pescoço WN, comprimento pelo cubo e furação.",
+   "valores": [
+    {"parametro": "Ø do ressalto", "valor": "RF 0,06 in: ± 0,08 in; RF 0,25 in: ± 0,04 in", "item": "7.2", "cota": "esquemas/flange-asme-b16-5-flange-b16-47.svg#R"},
+    {"parametro": "Espessura do flange", "valor": "≤ 1 in: +0,12; 1–2: +0,19; 2–3: +0,31; > 3 in: +0,38 (−0) in", "item": "7.3", "cota": "esquemas/flange-asme-b16-5-flange-b16-47.svg#C"},
+    {"parametro": "Ø externo na ponta de solda (A)", "valor": "+0,21 / −0,06 in", "item": "7.4", "cota": "esquemas/flange-asme-b16-5-flange-b16-47.svg#A"},
+    {"parametro": "Parede do pescoço", "valor": "≥ 87,5 % da parede nominal do tubo", "item": "7.4"},
+    {"parametro": "Comprimento pelo cubo (WN)", "valor": "± 0,19 in", "item": "7.5", "cota": "esquemas/flange-asme-b16-5-flange-b16-47.svg#Y"},
+    {"parametro": "Círculo de furação / furos adjacentes", "valor": "± 0,06 in / ± 0,03 in", "item": "7.6", "cota": "esquemas/flange-asme-b16-5-furacao-b16-47.svg#W"}
+   ]
+  },
+  {
+   "titulo": "Ensaio",
+   "item": "8",
+   "texto": "O flange isolado não precisa de teste hidrostático.",
+   "valores": [
+    {"parametro": "Teste hidrostático do flange", "valor": "não exigido", "item": "8.1"}
+   ]
+  }
+ ]
+}

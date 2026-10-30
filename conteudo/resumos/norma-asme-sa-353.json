@@ -1,0 +1,118 @@
+{
+ "id": "ASME-SA-353",
+ "titulo": "SA-353 — Chapas de aço 9 % níquel, duplamente normalizadas e revenidas, para serviço criogênico",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço 9 % Ni duplamente normalizadas e revenidas para vasos de pressão soldados em serviço criogênico. Ensaio de impacto a −320 °F [−195 °C] (ou outra temperatura acordada). O material magnetiza com facilidade — cuidado com ensaios por partícula magnética e soldagem. Requisitos gerais pela SA-20.",
+   "valores": [
+    {
+     "parametro": "Espessura máx. usual",
+     "valor": "2 in [50 mm]",
+     "item": "1.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Toda chapa (e peças aquecidas para conformação, depois da conformação) passa por: 1ª normalização, 2ª normalização e revenimento, com patamar mínimo de 1 h/in [2,4 min/mm], nunca menos de 15 min.",
+   "valores": [
+    {
+     "parametro": "1ª normalização",
+     "valor": "1650 ± 25 °F [900 ± 15 °C], resfriamento ao ar",
+     "item": "5.2.1"
+    },
+    {
+     "parametro": "2ª normalização",
+     "valor": "1450 ± 25 °F [790 ± 15 °C], resfriamento ao ar",
+     "item": "5.2.2"
+    },
+    {
+     "parametro": "Revenimento",
+     "valor": "1050 a 1125 °F [565 a 605 °C]",
+     "item": "5.2.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,13 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx.",
+     "valor": "0,90 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,15–0,40 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni",
+     "valor": "8,50–9,50 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su",
+     "valor": "100–120 ksi [690–825 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Sy mín. (0,2 %)",
+     "valor": "75 ksi [515 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm",
+     "valor": "20,0 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio de impacto",
+   "item": "7.2",
+   "texto": "Charpy V conforme SA-20, corpo de prova transversal à laminação, a −320 °F [−195 °C] salvo acordo; critério por expansão lateral.",
+   "valores": [
+    {
+     "parametro": "Expansão lateral mín.",
+     "valor": "0,015 in [0,381 mm]",
+     "item": "7.2.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Acabamento e suplementares",
+   "item": "8, Suplementares",
+   "texto": "Chapas decapadas após o tratamento (carepa esconde defeitos). Suplementar S55: energia Charpy longitudinal mín. 25 ft·lbf [34 J] (média de 3).",
+   "valores": [
+    {
+     "parametro": "S55 — energia média mín.",
+     "valor": "25 ft·lbf [34 J]",
+     "item": "S55.1"
+    }
+   ]
+  }
+ ]
+}

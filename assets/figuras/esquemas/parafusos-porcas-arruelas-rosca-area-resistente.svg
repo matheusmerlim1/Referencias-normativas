@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 870 494" width="870" height="494" role="img" aria-label="Perfil de rosca métrica ISO e área resistente As,nom (ISO 898-1)">
+<title>Perfil de rosca métrica ISO e área resistente As,nom (ISO 898-1)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2;stroke-linejoin:round}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2.2;stroke-linejoin:round}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2.4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:1}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.4;stroke-dasharray:7 5}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .p{font-size:14px}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+<path class="s" d="M120.0,90.0 L140.0,90.0 L196.7,188.1 L223.3,188.1 L280.0,90.0 L300.0,90.0 L356.7,188.1 L383.3,188.1 L440.0,90.0 L460.0,90.0 L516.7,188.1 L543.3,188.1 L600.0,90.0 L620.0,90.0 L676.7,188.1 L703.3,188.1 L760.0,90.0 L760.0,300 L120.0,300 Z"/>
+<path class="h" d="M210.0,211.2 L290.0,72.7 L370.0,211.2"/>
+<line class="c" x1="110.0" y1="300.0" x2="770.0" y2="300.0"/>
+<text class="p" x="104.0" y="305.0" text-anchor="end">eixo</text>
+<g id="cota-d" class="cota"><line class="e" x1="40.0" y1="90.0" x2="770.0" y2="90.0"/><text class="p b" x="36.0" y="95.0" text-anchor="end">d/2</text><line class="e" x1="770.0" y1="90.0" x2="789.0" y2="90.0"/><line class="d" x1="785.0" y1="300.0" x2="785.0" y2="90.0" marker-start="url(#a)" marker-end="url(#a)"/></g>
+<g id="cota-d2" class="cota"><line class="e" x1="40.0" y1="142.0" x2="770.0" y2="142.0"/><text class="p b" x="36.0" y="147.0" text-anchor="end">d2/2</text><line class="e" x1="770.0" y1="142.0" x2="809.0" y2="142.0"/><line class="d" x1="805.0" y1="300.0" x2="805.0" y2="142.0" marker-start="url(#a)" marker-end="url(#a)"/></g>
+<g id="cota-d1" class="cota"><line class="e" x1="40.0" y1="176.6" x2="770.0" y2="176.6"/><text class="p b" x="36.0" y="181.6" text-anchor="end">d1/2</text><line class="e" x1="770.0" y1="176.6" x2="829.0" y2="176.6"/><line class="d" x1="825.0" y1="300.0" x2="825.0" y2="176.6" marker-start="url(#a)" marker-end="url(#a)"/></g>
+<g id="cota-d3" class="cota"><line class="e" x1="40.0" y1="188.1" x2="770.0" y2="188.1"/><text class="p b" x="36.0" y="193.1" text-anchor="end">d3/2</text><line class="e" x1="770.0" y1="188.1" x2="849.0" y2="188.1"/><line class="d" x1="845.0" y1="300.0" x2="845.0" y2="188.1" marker-start="url(#a)" marker-end="url(#a)"/></g>
+<g id="cota-P" class="cota"><line class="e" x1="450.0" y1="86.0" x2="450.0" y2="30.0"/><line class="e" x1="610.0" y1="86.0" x2="610.0" y2="30.0"/><line class="d" x1="450.0" y1="38.0" x2="610.0" y2="38.0" marker-start="url(#a)" marker-end="url(#a)"/><text class="p" x="530.0" y="30.0" text-anchor="middle">P (passo)</text></g>
+<g id="cota-H" class="cota"><line class="e" x1="290.0" y1="72.7" x2="220.0" y2="72.7"/><line class="e" x1="210.0" y1="211.2" x2="195.0" y2="211.2"/><line class="d" x1="205.0" y1="72.7" x2="205.0" y2="211.2" marker-start="url(#a)" marker-end="url(#a)"/><text class="p" x="198.0" y="133.0" text-anchor="end">H</text></g>
+<text class="n" x="40.0" y="340.0" text-anchor="start">Fora de escala: o eixo foi aproximado do perfil (a distância real até o eixo é muito maior).</text>
+<g id="cota-As" class="cota"><text class="t" x="40.0" y="372.0" text-anchor="start">As,nom = (π/4) · ((d2 + d3)/2)²</text></g>
+<text class="t" x="520.0" y="372.0" text-anchor="start">Rm = Fm / As,nom</text>
+<text class="n" x="40.0" y="400.0" text-anchor="start">d = Ø nominal (maior); d2 = Ø primitivo básico; d1 = Ø menor básico (ISO 724); d3 = Ø de cálculo do núcleo;</text>
+<text class="n" x="40.0" y="418.0" text-anchor="start">H = altura do triângulo fundamental (ISO 68-1, tracejado); P = passo. As,nom tabelado nas Tabelas 4 a 7 da ISO 898-1</text>
+<text class="n" x="20" y="484">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores e fórmulas estão na ficha</text>
+</svg>

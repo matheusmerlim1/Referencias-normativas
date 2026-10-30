@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SA-395",
+ "titulo": "SA-395 — Fundidos de ferro nodular ferrítico para partes sob pressão em temperatura elevada",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Peças de ferro fundido dúctil (nodular) para partes que retêm pressão em temperatura elevada: válvulas, flanges, conexões, bombas e outros componentes de tubulação, em geral fabricados para estoque. Requisitos suplementares podem vir da A834."
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4",
+   "texto": "Fusão e nodulização a critério da fundição. Salvo pedido em contrário, toda peça recebe tratamento de ferritização, com estrutura essencialmente ferrítica e sem carbonetos maciços; fornecimento bruto de fusão só se pedido e atendidos os requisitos."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "5",
+   "texto": "A análise de carbono total é feita em amostras coquilhadas ou lâminas finas (cavacos perdem grafita).",
+   "valores": [
+    {
+     "parametro": "C total mín.",
+     "valor": "3,00 %",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Si máx.",
+     "valor": "2,50 %",
+     "item": "5.1"
+    },
+    {
+     "parametro": "P máx.",
+     "valor": "0,08 %",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "6",
+   "texto": "Microestrutura essencialmente ferrítica, com grafita nodular.",
+   "valores": [
+    {
+     "parametro": "Su mín.",
+     "valor": "60 000 psi",
+     "item": "6.1"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "40 000 psi",
+     "item": "6.1"
+    },
+    {
+     "parametro": "Dureza (3000 kgf)",
+     "valor": "143–187 HB",
+     "item": "6.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo e marcação",
+   "item": "8, 16",
+   "texto": "Componentes de tubulação feitos por normas ANSI não podem ser reparados por solda; reparo por plugues roscados tem limites de espessura, raio e ligamento (Tabelas 1 a 3). Marcação de válvulas, flanges e conexões conforme MSS SP-25."
+  }
+ ]
+}

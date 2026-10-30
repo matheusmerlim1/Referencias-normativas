@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" width="860" height="420" role="img" aria-label="Ponte rolante — vão p, base de rodas a e força lateral nas rodas">
+<title>Ponte rolante — vão p, base de rodas a e força lateral nas rodas (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Ponte rolante — vão p, base de rodas a e força lateral nas rodas</text>
+<line class="g" x1="60" y1="100" x2="420" y2="100"/>
+<line class="g" x1="60" y1="320" x2="420" y2="320"/>
+<rect class="sl" x="140" y="80" width="40" height="260"/>
+<rect class="sl" x="300" y="80" width="40" height="260"/>
+<circle class="s" cx="130" cy="100" r="10"/>
+<circle class="s" cx="130" cy="320" r="10"/>
+<circle class="s" cx="190" cy="100" r="10"/>
+<circle class="s" cx="190" cy="320" r="10"/>
+<g id="cota-p" class="cota"><line class="e" x1="63" y1="100" x2="86" y2="100"/><line class="e" x1="63" y1="320" x2="86" y2="320"/><line class="d" x1="80" y1="100" x2="80" y2="320" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="73" y="215">p (vão)</text></g>
+<g id="cota-a" class="cota"><line class="e" x1="130" y1="323" x2="130" y2="366"/><line class="e" x1="190" y1="323" x2="190" y2="366"/><line class="d" x1="130" y1="360" x2="190" y2="360" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="160" y="378">a (base de rodas)</text></g>
+<line class="d" x1="190" y1="100" x2="190" y2="60" marker-end="url(#a)"/>
+<text class="n" x="200" y="60">força lateral na roda</text>
+<line class="g" x1="520" y1="330" x2="820" y2="330"/>
+<line class="g" x1="520" y1="330" x2="520" y2="110"/>
+<path class="v" d="M520,290 L580,290 L760,150 L820,150"/>
+<text class="n en" x="820" y="355">p / a</text>
+<text class="n" x="505" y="220" transform="rotate(-90 505 220)" text-anchor="middle">λ (força lateral / carga da roda)</text>
+<text class="n" x="20" y="408">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

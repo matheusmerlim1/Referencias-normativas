@@ -1,0 +1,84 @@
+{
+ "id": "ASME-SA-727",
+ "titulo": "SA-727 — Forjados de aço carbono para tubulação com tenacidade intrínseca",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Componentes forjados de aço carbono para tubulação sob pressão onde se deseja tenacidade intrínseca, sem exigir ensaio de impacto: flanges forjados ou laminados em anel, conexões e válvulas, por desenho ou padrão dimensional.",
+   "valores": [
+    {
+     "parametro": "Faixa de temperatura de serviço",
+     "valor": "−20 a +650 °F [−30 a +345 °C]",
+     "item": "1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4, 5",
+   "texto": "Aço totalmente acalmado de grão fino. Após o trabalho plástico: normalização, normalização e revenimento ou têmpera e revenimento.",
+   "valores": [
+    {
+     "parametro": "Faixa de normalização",
+     "valor": "1550 a 1700 °F [845 a 925 °C]",
+     "item": "5.1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Aço com chumbo não é permitido.",
+   "valores": [
+    {
+     "parametro": "C máx. (corrida)",
+     "valor": "0,25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn (corrida)",
+     "valor": "0,90 a 1,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx. (corrida)",
+     "valor": "0,035 % / 0,025 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si (corrida)",
+     "valor": "0,15 a 0,30 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su",
+     "valor": "60,0 a 85,0 ksi [415 a 585 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "36,0 ksi [250 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento / redução de área mín.",
+     "valor": "22 % / 30 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Hidrostático, reparo e marcação",
+   "item": "10, 14, 18",
+   "texto": "Forjados devem suportar hidrostático compatível com o rating (ensaio só com o suplementar S6). Reparo por solda a critério do fabricante, com qualificação. Marcação: especificação, fabricante, corrida, classe e tamanho."
+  }
+ ]
+}

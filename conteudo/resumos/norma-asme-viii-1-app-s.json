@@ -1,0 +1,14 @@
+{
+ "id": "ASME-VIII-1-APP-S",
+ "titulo": "ASME VIII Div. 1 — Apêndice S (não obrigatório): aperto de parafusos de flanges",
+ "secoes": [
+  {
+   "titulo": "Tensão de aperto e pré-carga",
+   "item": "S-1",
+   "texto": "As tensões admissíveis de parafusos do código são de projeto; o aperto real costuma ficar acima delas, e precisa ficar, para a junta segurar o teste hidrostático e a operação sem vazar. O cuidado é não esmagar a junta nem deformar o flange. No aperto manual, parafusos finos tendem a passar do ponto e parafusos grossos não chegam à tensão desejada; para estes, usar chave de impacto, aquecimento ou tensionador, controlando pelo alongamento. Reaperto depois da relaxação da junta ou de fluência é prática comum.",
+   "valores": [
+    {"parametro": "Tensão provável no aperto manual com chave comum", "valor": "S = 45 000 / √d (psi; d = Ø nominal em pol.)", "item": "S-1", "cota": "esquemas/parafusos-porcas-arruelas-aperto-torque.svg#d"}
+   ]
+  }
+ ]
+}

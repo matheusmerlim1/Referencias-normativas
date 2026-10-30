@@ -1,0 +1,28 @@
+{
+ "id": "ASME-SA-748",
+ "titulo": "SA-748 — Rolos bimetálicos de ferro fundido coquilhado fundidos estaticamente para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Rolos fundidos estaticamente com camada externa de ferro branco coquilhado (química diferente) e núcleo e munhões de ferro fundido cinzento. Partes sob pressão cuja resistência de projeto vem da parte cinzenta."
+  },
+  {
+   "titulo": "Material",
+   "item": "4",
+   "texto": "Fusão a critério da fundição. A parte cinzenta segue a classe da SA-278 escolhida no projeto.",
+   "valores": [
+    {
+     "parametro": "Dureza mín. da camada coquilhada",
+     "valor": "60 Scleroscope 'C'",
+     "item": "4.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "5, 9, 12",
+   "texto": "Barras de tração retiradas de prolongamento numa ponta do munhão, carga axial no ensaio. Marcação com fabricante e especificação."
+  }
+ ]
+}

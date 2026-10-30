@@ -1,0 +1,82 @@
+{
+ "id": "ASME-SA-638",
+ "titulo": "SA-638 — Barras e forjados de superliga à base de ferro endurecível por precipitação para alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras, forjados e material para forjamento de superliga à base de ferro endurecível por precipitação (graus 660 / UNS S66286 e 662 / S66220), para alta temperatura; propriedades obtidas por solubilização e envelhecimento. Requisitos gerais pela SA-484."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "6, Tabela 3",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "660 Tipo 1 — solubilização / envelhecimento",
+     "valor": "1650 ± 25 °F [900 ± 15 °C], 2 h, óleo ou água / 1300 a 1400 °F [705 a 760 °C], 16 h",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "660 Tipo 2 — solubilização / envelhecimento",
+     "valor": "1800 ± 25 °F [980 ± 15 °C], 1 h / 1300 a 1400 °F, 16 h",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 4",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "660 — C / Mn / Si máx.",
+     "valor": "0,08 % / 2,00 % / 1,00 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "662 — C / Mn / Si máx.",
+     "valor": "0,08 % / 1,50 % / 1,00 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,040 % / 0,030 %",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 1 e 2",
+   "texto": "Su mín. / Sy mín.; ruptura por fluência a 1200 °F [650 °C].",
+   "valores": [
+    {
+     "parametro": "660 e 662 (barras)",
+     "valor": "130 000 psi [895] / 85 000 psi [585]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "662 (forjados)",
+     "valor": "125 000 psi [860] / 80 000 psi [550]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ruptura 660 — tensão / tempo mín. / alongamento",
+     "valor": "65 000 psi [450] / 23 h / 3 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Ruptura 662",
+     "valor": "60 000 psi [415] / 15 h / 3 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grão (quando especificado)",
+     "valor": "nº 1 ou mais fino",
+     "item": "9.1"
+    }
+   ]
+  }
+ ]
+}

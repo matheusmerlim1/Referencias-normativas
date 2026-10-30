@@ -1,0 +1,43 @@
+{
+ "id": "ASME-SFA-5.13",
+ "titulo": "SFA-5.13 — Eletrodos revestidos para revestimento duro/superficial (AWS A5.13)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos revestidos para revestimento superficial (hardfacing) por SMAW. Arames e varetas nus antes desta norma foram transferidos para a AWS A5.21."
+  },
+  {
+   "titulo": "Classificações e composição do depósito",
+   "item": "Tabelas 1 a 5",
+   "texto": "Famílias à base de ferro (EFe…), níquel e cobalto (ECoCr-A/B/C, ENiCr…), cobre (ECuAl, ECuSi…) e carboneto de tungstênio (grânulos WC1–WC3).",
+   "valores": [
+    {
+     "parametro": "EFe1 — C / Mn / Cr / Mo máx.",
+     "valor": "0,04–0,20 / 0,5–2,0 / 0,5–3,5 / 1,5 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "ECoCr-A — C / Cr / W",
+     "valor": "0,7–1,4 / 25–32 / 3,0–6,0 % (Co restante)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "ECuAl-A2 — Al / Fe",
+     "valor": "8,5–11,0 % / 0,5–5,0 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grânulos WC1 — C / W mín.",
+     "valor": "3,6–4,2 % / 94,0 %",
+     "item": "Tabela 5"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "—",
+   "texto": "Classificação pela composição do depósito não diluído; dureza e outras propriedades como informação no Anexo."
+  }
+ ]
+}

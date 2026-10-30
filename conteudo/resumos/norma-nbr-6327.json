@@ -1,0 +1,87 @@
+{
+ "id": "NBR-6327",
+ "titulo": "ABNT NBR 6327 (Projeto 2006) — Cabos de aço para uso geral: requisitos mínimos",
+ "secoes": [
+  {
+   "titulo": "Escopo e termos",
+   "item": "1–3",
+   "texto": "Requisitos mínimos de fabricação, ensaio e fornecimento de cabos de aço de uso geral, com definições de arame, perna, alma (fibra AF, aço AA, aço independente AACI), passo, torção e categorias de resistência.",
+   "valores": []
+  },
+  {
+   "titulo": "Materiais e fabricação",
+   "item": "4.1–4.2",
+   "texto": "Arames de uma perna torcidos no mesmo sentido, perna uniforme sem arames soltos; emendas de arame sem pontas salientes. Lubrificação adequada ao uso; cabo pré-formado salvo pedido contrário. Construções das classes 6×7, 6×24AF, 6×37M, 6×19, 6×36, 8×19, 8×36, cabos resistentes à rotação e outras do fabricante. Arame polido ou galvanizado (qualidades A ou B, admitindo Zn95/Al5).",
+   "valores": []
+  },
+  {
+   "titulo": "Torção e designação",
+   "item": "4.2.8; 4.3",
+   "texto": "Quatro combinações de sentido e tipo de torção (regular ou lang, à direita ou à esquerda). A designação cita diâmetro, construção, perna, alma, torção, acabamento e categoria de resistência.",
+   "valores": [
+    {
+     "parametro": "Torção",
+     "valor": "sZ (TRD), zS (TRE), zZ (TLD), sS (TLE)",
+     "item": "4.2.8"
+    },
+    {
+     "parametro": "Exemplo de designação",
+     "valor": "13,0 mm, 6 x 25F, AACI, TRD, polido, 1770 N/mm²",
+     "item": "4.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "4.4",
+   "texto": "O diâmetro medido fica só acima do nominal, com folga maior em cabos finos e com alma de fibra nas pernas; a diferença entre medições também é limitada. O passo do cabo tem teto em múltiplos do diâmetro. O comprimento entregue tem tolerância só positiva, menor em percentual para bobinas longas.",
+   "valores": [
+    {
+     "parametro": "Tolerância de Ø, d ≥ 8 mm",
+     "valor": "+5 % / 0 (+7 % com fibra nas pernas)",
+     "item": "4.4.1.2, Tab. 2",
+     "cota": "esquemas/lingadas-acessorios-diametro-cabo.svg#d"
+    },
+    {
+     "parametro": "Tolerância de Ø, 6 ≤ d < 8 mm",
+     "valor": "+6 % (+8 %)",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Diferença entre medições, d ≥ 8 mm",
+     "valor": "≤ 4 % (6 % com fibra)",
+     "item": "4.4.1.3, Tab. 3"
+    },
+    {
+     "parametro": "Passo — 6×7 / demais / pernas perfiladas",
+     "valor": "≤ 8 d / ≤ 7,25 d / ≤ 10 d",
+     "item": "4.4.2",
+     "cota": "esquemas/lingadas-acessorios-cabo-torcao-medicao.svg#passo"
+    },
+    {
+     "parametro": "Comprimento — até 400 m / 400–1000 m / > 1000 m",
+     "valor": "+5 % / +20 m / +2 %",
+     "item": "4.4.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Carga de ruptura",
+   "item": "4.5; Anexos C–D",
+   "texto": "A carga mínima de ruptura vem das Tabelas C.1 a C.14 (por classe, alma, diâmetro e categoria) ou do fabricante; diâmetros intermediários pela fórmula do Anexo D. A frequência do ensaio de ruptura depende de o cabo ser de série e de o fabricante ter sistema da qualidade certificado.",
+   "valores": [
+    {
+     "parametro": "Ensaio periódico em produção seriada",
+     "valor": "1 amostra a cada 20 seções de produção",
+     "item": "4.5.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e fornecimento",
+   "item": "5–6",
+   "texto": "Métodos de medição do diâmetro e de ruptura (e alternativos). O fornecimento traz certificado, embalagem e marcação.",
+   "valores": []
+  }
+ ]
+}

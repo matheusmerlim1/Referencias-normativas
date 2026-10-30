@@ -1,0 +1,62 @@
+{
+ "id": "ASME-SFA-5.28",
+ "titulo": "SFA-5.28 — Arames e varetas de aço baixa liga para soldagem com proteção gasosa (AWS A5.28)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos de aço baixa liga (sólidos, compostos encordoados e de alma metálica) e varetas sólidas para MIG/MAG, TIG e plasma."
+  },
+  {
+   "titulo": "Classificações e composição",
+   "item": "Tabelas 1 e 2",
+   "texto": "ERXXS-X (sólidos) e EXXC-X (alma metálica), com sufixos de liga A1 (C-Mo), B2, B3, B6, B8, B9 (Cr-Mo), Ni1–Ni3, D2, G.",
+   "valores": [
+    {
+     "parametro": "ER70S-A1 — C máx. / Mn máx. / Si",
+     "valor": "0,12 % / 1,30 % / 0,30–0,70 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "E80C-B2 (metal de solda) — C / Mn / Si",
+     "valor": "0,05–0,12 % / 0,40–1,00 % / 0,25–0,60 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,025 % / 0,025 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 3 e 4",
+   "texto": "Tração (com TTAT para Cr-Mo).",
+   "valores": [
+    {
+     "parametro": "ER70S-B2L, ER70S-A1 — Su / Sy mín. / along.",
+     "valor": "75 000 psi (515) / 58 000 psi (400) / 19 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Charpy — ER70S-A1, ER80S-B2, ER90S-B3 e outros Cr-Mo",
+     "valor": "não exigido",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabelas 5 e 8",
+   "texto": "Análise química, radiografia, tração e, conforme o caso, Charpy; hidrogênio difusível opcional.",
+   "valores": [
+    {
+     "parametro": "Hidrogênio difusível — H16 / H8 / H4 / H2",
+     "valor": "16,0 / 8,0 / 4,0 / 2,0 mL/100 g",
+     "item": "Tabela 8"
+    }
+   ]
+  }
+ ]
+}

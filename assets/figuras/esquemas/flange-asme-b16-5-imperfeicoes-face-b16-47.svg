@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 600" width="920" height="600" role="img" aria-label="ASME B16.47 Tabela 16 — projeção radial e profundidade de imperfeições na face">
+<title>ASME B16.47 Tabela 16 — imperfeições admissíveis no acabamento da face (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+
+<text class="t" x="20" y="28">ASME B16.47 Tabela 16 — como medir as imperfeições da face (6.1.5)</text>
+<text class="b" x="20" y="62">Face do flange (vista de frente, setor)</text>
+<path class="e" d="M282.2,500.5 A230,230 0 0,0 99.9,333.5"/>
+<path class="e" d="M293.8,497.4 A242,242 0 0,0 102.0,321.7"/>
+<path class="e" d="M305.3,494.3 A254,254 0 0,0 104.1,309.9"/>
+<path class="e" d="M316.9,491.2 A266,266 0 0,0 106.2,298.0"/>
+<path class="e" d="M328.5,488.0 A278,278 0 0,0 108.3,286.2"/>
+<path class="e" d="M340.1,484.9 A290,290 0 0,0 110.4,274.4"/>
+<path class="e" d="M351.7,481.8 A302,302 0 0,0 112.4,262.6"/>
+<path class="e" d="M363.3,478.7 A314,314 0 0,0 114.5,250.8"/>
+<path class="e" d="M374.9,475.6 A326,326 0 0,0 116.6,239.0"/>
+<path class="e" d="M386.5,472.5 A338,338 0 0,0 118.7,227.1"/>
+<path class="e" d="M398.1,469.4 A350,350 0 0,0 120.8,215.3"/>
+<path class="e" d="M409.7,466.3 A362,362 0 0,0 122.9,203.5"/>
+<path class="e" d="M421.3,463.2 A374,374 0 0,0 124.9,191.7"/>
+<path class="e" d="M432.8,460.1 A386,386 0 0,0 127.0,179.9"/>
+<path class="e" d="M444.4,457.0 A398,398 0 0,0 129.1,168.0"/>
+<path class="e" d="M456.0,453.9 A410,410 0 0,0 131.2,156.2"/>
+<path class="e" d="M467.6,450.8 A422,422 0 0,0 133.3,144.4"/>
+<path class="r" d="M270.0,357.2 L260.1,329.8 L279.6,324.5 L277.3,301.1 L296.2,323.8 L291.1,344.5 L286.4,363.2 z"/>
+<path class="h" d="M311.1,415.0 A290,290 0 0,0 168.6,291.1"/>
+<path class="h" d="M354.4,390.0 A340,340 0 0,0 187.4,244.8"/>
+<line class="c" x1="60.0" y1="560.0" x2="415.1" y2="355.0"/>
+<g id="cota-projecao" class="cota"><line class="d" x1="311.1" y1="415.0" x2="354.4" y2="390.0" marker-start="url(#a)" marker-end="url(#a)"/><line class="d" x1="250.0" y1="462.0" x2="332.8" y2="402.5" marker-end="url(#a)"/><text x="150" y="478">projeção radial = R ext. − R int.</text></g>
+<text class="n" x="153" y="290">R int.</text>
+<text class="n" x="169" y="242">R ext.</text>
+<text class="n" x="110" y="520">raios traçados a partir do centro do furo</text>
+<path class="s" d="M480.0,250.0 L480.0,190.0 L492.0,208.0 L504.0,190.0 L516.0,208.0 L528.0,190.0 L540.0,208.0 L552.0,190.0 L564.0,208.0 L576.0,190.0 L588.0,208.0 L600.0,190.0 L612.0,208.0 L624.0,190.0 L624.0,208.0 L648.0,208.0 L672.0,208.0 L696.0,208.0 L708.0,208.0 L720.0,190.0 L732.0,208.0 L744.0,190.0 L756.0,208.0 L768.0,190.0 L780.0,208.0 L792.0,190.0 L804.0,208.0 L816.0,190.0 L828.0,208.0 L840.0,190.0 L852.0,208.0 L864.0,190.0 L876.0,208.0 L888.0,190.0 L888.0,250.0 z"/>
+<line class="h" x1="475.0" y1="208.0" x2="893.0" y2="208.0"/>
+<text class="n" x="480" y="272">fundo da ranhura (linha tracejada)</text>
+<line class="e" x1="624.0" y1="208.0" x2="624.0" y2="152.0"/>
+<line class="e" x1="696.0" y1="208.0" x2="696.0" y2="152.0"/>
+<g id="cota-projecao-a" class="cota"><line class="d" x1="624.0" y1="158.0" x2="696.0" y2="158.0" marker-start="url(#a)" marker-end="url(#a)"/><text x="480" y="124">Projeção radial máx. —</text><text x="480" y="142">imperfeição não mais funda que o fundo da ranhura</text></g>
+<path class="s" d="M480.0,480.0 L480.0,420.0 L492.0,438.0 L504.0,420.0 L516.0,438.0 L528.0,420.0 L540.0,438.0 L552.0,420.0 L564.0,438.0 L576.0,420.0 L588.0,438.0 L600.0,420.0 L612.0,438.0 L624.0,420.0 L624.0,456.0 L648.0,456.0 L672.0,456.0 L696.0,456.0 L708.0,438.0 L720.0,420.0 L732.0,438.0 L744.0,420.0 L756.0,438.0 L768.0,420.0 L780.0,438.0 L792.0,420.0 L804.0,438.0 L816.0,420.0 L828.0,438.0 L840.0,420.0 L852.0,438.0 L864.0,420.0 L876.0,438.0 L888.0,420.0 L888.0,480.0 z"/>
+<line class="h" x1="475.0" y1="438.0" x2="893.0" y2="438.0"/>
+<text class="n" x="480" y="502">fundo da ranhura (linha tracejada)</text>
+<line class="e" x1="624.0" y1="456.0" x2="624.0" y2="382.0"/>
+<line class="e" x1="696.0" y1="456.0" x2="696.0" y2="382.0"/>
+<g id="cota-profundidade" class="cota"><line class="d" x1="624.0" y1="388.0" x2="696.0" y2="388.0" marker-start="url(#a)" marker-end="url(#a)"/><text x="480" y="354">Profundidade e projeção radial máx. —</text><text x="480" y="372">mais funda que o fundo da ranhura</text><line class="d" x1="758.0" y1="408.0" x2="758.0" y2="438.0" marker-end="url(#a)"/><line class="d" x1="758.0" y1="484.0" x2="758.0" y2="456.0" marker-end="url(#a)"/><text class="n" x="768" y="476">profundidade abaixo</text><text class="n" x="768" y="492">do fundo da ranhura</text></g>
+<line class="e" x1="696.0" y1="456.0" x2="766.0" y2="456.0"/>
+<text class="b" x="480" y="105">Corte radial das ranhuras (serrilhado)</text>
+<text class="n" x="20" y="582">Esquema ilustrativo, fora de escala (não é desenho da norma) — rótulos = colunas da Tabela 16 da ficha</text>
+</svg>

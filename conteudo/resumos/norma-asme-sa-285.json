@@ -1,0 +1,82 @@
+{
+ "id": "ASME-SA-285",
+ "titulo": "SA-285 — Chapas de aço carbono de baixa e média resistência para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço carbono para vasos de pressão soldados por fusão, em três graus (A, B, C). A desoxidação (acalmado, semiacalmado, capeado ou efervescente) fica a critério do produtor; para aço acalmado, ver SA-299, SA-515, SA-516 etc. Requisitos gerais pela SA-20.",
+   "valores": [
+    {
+     "parametro": "Espessura máx. (sanidade interna)",
+     "valor": "2 in [50 mm], todos os graus",
+     "item": "1.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "4",
+   "texto": "Fornecida em geral como laminada; pode ser pedida normalizada e/ou com alívio de tensões."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx. — A / B / C",
+     "valor": "0,17 / 0,22 / 0,28 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx. (corrida / produto)",
+     "valor": "0,90 % / 0,98 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau A — Su / Sy mín.",
+     "valor": "45–65 ksi [310–450 MPa] / 24 ksi [165 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau B — Su / Sy mín.",
+     "valor": "50–70 ksi [345–485 MPa] / 27 ksi [185 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau C — Su / Sy mín.",
+     "valor": "55–75 ksi [380–515 MPa] / 30 ksi [205 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 200 mm — A / B / C",
+     "valor": "27 / 25 / 23 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm — A / B / C",
+     "valor": "30 / 28 / 27 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "Suplementares",
+   "texto": "Opcionais padronizados da SA-20 (TTAT simulado, Charpy, tração a quente, ultrassom, partículas magnéticas etc.), só quando pedidos."
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "id": "DIN-EN-10089",
+ "titulo": "DIN EN 10089:2003 — Aços laminados a quente para molas beneficiadas — Condições técnicas de fornecimento",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras redondas e chatas, barras nervuradas e fio-máquina de aços-liga especiais para molas conformadas a quente e depois beneficiadas, ou conformadas a frio e beneficiadas. Substitui a DIN 17221:1988.",
+   "valores": []
+  },
+  {
+   "titulo": "Composição",
+   "item": "Tab. 3",
+   "texto": "Grades ao Si, Cr, SiCr, CrV, SiCrV, CrMo, SiCrNi.",
+   "valores": [
+    {
+     "parametro": "51CrV4 (1.8159)",
+     "valor": "C 0,47–0,55; Si ≤ 0,40; Mn 0,70–1,10; P ≤ 0,025; S ≤ 0,025; Cr 0,90–1,20; V 0,10–0,25 %",
+     "item": "Tab. 3",
+     "nota": "cópia OCR — conferir"
+    },
+    {
+     "parametro": "54SiCr6 (1.7102)",
+     "valor": "C 0,51–0,59; Si 1,20–1,60; Mn 0,50–0,80; Cr 0,50–0,80 %",
+     "item": "Tab. 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões máximas",
+   "item": "Tab. 5",
+   "texto": "Diâmetro/espessura máximos para atingir a dureza no núcleo, com base no terço superior da faixa de temperabilidade.",
+   "valores": []
+  },
+  {
+   "titulo": "Dureza de fornecimento",
+   "item": "Tab. 6",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Maioria das grades — +S / +A / +AC",
+     "valor": "280 / 248 / 230 HB máx.",
+     "item": "Tab. 6",
+     "nota": "38Si7: +A 217, +AC 200"
+    }
+   ]
+  },
+  {
+   "titulo": "Temperabilidade",
+   "item": "Tab. 7–8",
+   "texto": "Faixas Jominy para +H e +HH.",
+   "valores": []
+  },
+  {
+   "titulo": "Descarbonetação",
+   "item": "7.5, Tab. 9",
+   "texto": "Descarbonetação parcial admissível (estados +AR, +S, +A, +AC) por grupo de aço e dimensão; medida pelo método micrográfico.",
+   "valores": [
+    {
+     "parametro": "Grupo 55Cr3/51CrV4… — redondos",
+     "valor": "D ≤ 10: 0,10 mm; D > 10: 0,010·D",
+     "item": "Tab. 9",
+     "nota": "cópia OCR — conferir"
+    },
+    {
+     "parametro": "Grupo ao Si/SiCr — redondos",
+     "valor": "D ≤ 10: 0,15 mm; D > 10: 0,015·D",
+     "item": "Tab. 9",
+     "nota": "cópia OCR — conferir"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SB-599",
+ "titulo": "SB-599 — Chapas, folhas e tiras de liga Ni-Fe-Cr-Mo-Nb estabilizada (N08700)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras da liga N08700, solubilizadas."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Ni",
+     "valor": "24,0–26,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cr",
+     "valor": "19,0–23,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mo",
+     "valor": "4,3–5,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Nb",
+     "valor": "8 × C a 0,40 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C máx.",
+     "valor": "0,04 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Folha, tira e chapa.",
+   "valores": [
+    {
+     "parametro": "Su mín. / Sy mín. / alongamento",
+     "valor": "80 ksi (550) / 35 ksi (240) / 30 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Dureza (informativa)",
+     "valor": "75–90 HRB",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

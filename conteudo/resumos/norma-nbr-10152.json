@@ -1,0 +1,79 @@
+{
+ "id": "NBR-10152",
+ "titulo": "ABNT NBR 10152:2017 — Níveis de pressão sonora em ambientes internos a edificações",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimentos para medir e avaliar o som em ambientes internos e valores de referência por tipo de uso, para avaliação, estudo e projeto.",
+   "valores": []
+  },
+  {
+   "titulo": "Símbolos e instrumentos",
+   "item": "4–6",
+   "texto": "Os descritores levam a ponderação no símbolo (LAeq,T; LASmax), não no \"dB(A)\". Sonômetro integrador, calibrador e microfone com verificação antes e depois da série de medições.",
+   "valores": []
+  },
+  {
+   "titulo": "Medição",
+   "item": "7",
+   "texto": "Posições, tempos de integração e descritores definidos; os níveis representativos do ambiente combinam as medições dos pontos. Se o som total supera o residual em pouco, o som específico não pode ser separado com precisão.",
+   "valores": [
+    {
+     "parametro": "Diferença mínima som total × residual",
+     "valor": "3 dB",
+     "item": "9.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Avaliação",
+   "item": "9",
+   "texto": "Método simplificado compara LAeq e LASmax; o detalhado inclui também a curva NC (RLNC) por bandas de oitava. Anexos tratam de som tonal, incerteza e curvas NC interpoladas.",
+   "valores": []
+  },
+  {
+   "titulo": "Valores de referência",
+   "item": "10; Tab. 3",
+   "texto": "Para cada uso a Tabela 3 traz nível equivalente, máximo e NC de referência; o ambiente é adequado se não passar deles além de uma pequena tolerância.",
+   "valores": [
+    {
+     "parametro": "Dormitório (residência)",
+     "valor": "RLAeq 35 dB; RLASmax 40 dB; RLNC 30",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Quarto de hotel / enfermaria",
+     "valor": "RLAeq 40 dB; RLASmax 45 dB; RLNC 35",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Escritório privativo / sala de reunião",
+     "valor": "40 / 35 dB (RLAeq)",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Escritório coletivo / restaurante / academia",
+     "valor": "RLAeq 45 dB; RLNC 40",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Cozinha e lavanderia",
+     "valor": "RLAeq 50 dB; RLASmax 55 dB; RLNC 45",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Tolerância",
+     "valor": "até 5 dB (RLAeq, RLASmax) e 5 (RLNC)",
+     "item": "10"
+    }
+   ]
+  },
+  {
+   "titulo": "Relatório",
+   "item": "11",
+   "texto": "Registra ambiente, instrumentos, pontos, condições e resultados comparados à referência.",
+   "valores": []
+  }
+ ]
+}

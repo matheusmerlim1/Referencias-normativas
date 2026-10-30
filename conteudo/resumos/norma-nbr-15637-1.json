@@ -1,0 +1,95 @@
+{
+ "id": "NBR-15637-1",
+ "titulo": "ABNT NBR 15637-1:2008 — Cintas planas de fitas tecidas (PA, PES, PP) para elevação de cargas",
+ "secoes": [
+  {
+   "titulo": "Escopo e materiais",
+   "item": "1",
+   "texto": "Cintas planas de poliamida, poliéster e polipropileno com até quatro pernas; roundslings ficam em outra parte. Cada material tem faixa de temperatura e resistência química própria.",
+   "valores": [
+    {
+     "parametro": "Faixa de uso — PES / PA / PP",
+     "valor": "−40 a 100 °C / −20 a 100 °C / −20 a 80 °C",
+     "item": "1.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Capacidade e fatores de uso",
+   "item": "5.6; Tab. 3",
+   "texto": "A CMT nominal vale para elevação vertical; a efetiva multiplica pelo fator do modo de amarração e do ângulo. A cor da cinta indica a CMT.",
+   "valores": [
+    {
+     "parametro": "Fator — vertical / forca / cesto vertical",
+     "valor": "1 / 0,8 / 2",
+     "item": "5.6, Tab. 3",
+     "cota": "esquemas/lingadas-acessorios-cintas-modos-amarracao.svg#beta"
+    },
+    {
+     "parametro": "Fator — cesto ou 2 pernas, β 7–45° / 46–60°",
+     "valor": "1,4 / 1",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Fator — 3–4 pernas, β 7–45° / 46–60°",
+     "valor": "2,1 / 1,5",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Cores: 1/2/3/4/5/6/8/10 t",
+     "valor": "violeta/verde/amarela/cinza/vermelha/marrom/azul/laranja",
+     "item": "Tab. 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Resistência e ensaios",
+   "item": "5.8–5.9",
+   "texto": "A cinta deve suportar um múltiplo da CMT, maior quando não tem ferragens.",
+   "valores": [
+    {
+     "parametro": "Fator de segurança — sem / com acessórios metálicos",
+     "valor": "7 / 4 × CMT",
+     "item": "5.8.3; 5.9.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Etiqueta e documentação",
+   "item": "8",
+   "texto": "Etiqueta com parte interna de rastreabilidade e parte visível com material, comprimento, fabricante, CMT nos modos de uso e data; a cor da etiqueta identifica o material.",
+   "valores": [
+    {
+     "parametro": "Cor da etiqueta — PA / PES / PP",
+     "valor": "verde / azul / marrom",
+     "item": "8.2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Uso e inspeção",
+   "item": "Anexo A",
+   "texto": "Sem torção, nós ou emendas; costura fora do gancho; proteger de cantos vivos. Olhal suficientemente longo para o gancho e pouco aberto; apoio reto ou com raio adequado. Descartar com desfiamento, cortes, ataque químico, dano de calor ou etiqueta ilegível.",
+   "valores": [
+    {
+     "parametro": "Comprimento do olhal",
+     "valor": "≥ 3,5 × espessura do gancho",
+     "item": "A.1",
+     "cota": "esquemas/lingadas-acessorios-olhal-cinta-gancho.svg#comprimento-olhal"
+    },
+    {
+     "parametro": "Ângulo no olhal",
+     "valor": "≤ 20°",
+     "item": "A.1",
+     "cota": "esquemas/lingadas-acessorios-olhal-cinta-gancho.svg#angulo-olhal"
+    },
+    {
+     "parametro": "Raio de apoio (largura < 150 mm)",
+     "valor": "≥ 1,5 × largura",
+     "item": "A.1",
+     "cota": "esquemas/lingadas-acessorios-cinta-plana-largura-raio-gancho.svg#raio-gancho"
+    }
+   ]
+  }
+ ]
+}

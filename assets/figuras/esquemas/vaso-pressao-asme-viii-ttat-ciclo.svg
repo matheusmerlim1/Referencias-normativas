@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" role="img" aria-label="Ciclo de tratamento térmico após soldagem (UCS-56) — entrada, aquecimento, patamar e resfriamento">
+<title>Ciclo de tratamento térmico após soldagem (UCS-56) — entrada, aquecimento, patamar e resfriamento (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Ciclo de tratamento térmico após soldagem (UCS-56) — entrada, aquecimento, patamar e resfriamento</text>
+<line class="g" x1="80" y1="380" x2="860" y2="380"/>
+<line class="g" x1="80" y1="380" x2="80" y2="80"/>
+<text class="n en" x="860" y="400">tempo</text>
+<text class="n" x="90" y="80">temperatura</text>
+<path class="v" d="M80,380 L160,380 L160,290 L360,140 L600,140 L780,290 L860,290"/>
+<line class="h" x1="80" y1="290" x2="160" y2="290"/>
+<line class="h" x1="80" y1="140" x2="360" y2="140"/>
+<g id="cota-entrada" class="cota"><line class="d" x1="100" y1="275" x2="158" y2="290" marker-end="url(#a)"/><text x="100" y="280">temperatura de entrada no forno (máx.)</text></g>
+<g id="cota-taxa" class="cota"><line class="d" x1="300" y1="245" x2="260" y2="215" marker-end="url(#a)"/><text class="en" x="300" y="250">taxa de aquecimento (máx.)</text></g>
+<g id="cota-patamar" class="cota"><line class="e" x1="360" y1="137" x2="360" y2="109"/><line class="e" x1="600" y1="137" x2="600" y2="109"/><line class="d" x1="360" y1="115" x2="600" y2="115" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="480" y="108">patamar (tempo por espessura)</text></g>
+<g id="cota-temp" class="cota"><line class="d" x1="90" y1="125" x2="355" y2="140" marker-end="url(#a)"/><text x="90" y="130">temperatura mínima de patamar</text></g>
+<g id="cota-resfr" class="cota"><line class="d" x1="700" y1="245" x2="690" y2="215" marker-end="url(#a)"/><text x="700" y="250">taxa de resfriamento (máx.)</text></g>
+<text class="n" x="20" y="448">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

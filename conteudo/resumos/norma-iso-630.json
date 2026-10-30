@@ -1,0 +1,54 @@
+{
+ "id": "ISO-630",
+ "titulo": "ISO 630:1995 — Aços estruturais — Chapas, barras chatas largas, barras, seções e perfis",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Qualidades de aços estruturais não ligados laminados a quente (chapas, barras chatas largas, barras, perfis) para construções soldadas ou parafusadas, nas condições de fornecimento usuais.",
+   "valores": []
+  },
+  {
+   "titulo": "Graus e qualidades",
+   "item": "4–5, Tab.",
+   "texto": "Graus pelo escoamento mínimo — E 185 (Fe 310), E 235 (Fe 360), E 355 (Fe 510), entre outros — e qualidades A, B, C, D; desoxidação não especificada, acalmada (NE) ou acalmada e com grão fino (GF). Composição química por grau/qualidade e espessura; produtos planos D em duas categorias.",
+   "valores": [
+    {
+     "parametro": "E 235 B — C máx. (e ≤ 16 / 16–25 mm)",
+     "valor": "0,17 / 0,20 %; Mn ≤ 1,40 %; P, S ≤ 0,045 %",
+     "item": "Tab. (composição)",
+     "nota": "leitura de OCR — conferir"
+    },
+    {
+     "parametro": "E 355 C/D — C máx. (e ≤ 30 / > 30 mm)",
+     "valor": "0,20 / 0,22 %; Mn ≤ 1,60 %; Si ≤ 0,55 %",
+     "item": "Tab. (composição)",
+     "nota": "leitura de OCR — conferir"
+    },
+    {
+     "parametro": "Nota sobre E 355",
+     "valor": "a ISO 4950-2 tem grau equivalente com melhor soldabilidade",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção e ensaios",
+   "item": "6",
+   "texto": "Unidade de ensaio por corrida e faixa de espessura; ensaio de tração com corpo de prova transversal à laminação; ensaio de impacto; reensaios. Produtos (exceto E 185) marcados de forma legível.",
+   "valores": [
+    {
+     "parametro": "Unidade de ensaio",
+     "valor": "50 t ou fração, da mesma corrida",
+     "item": "6.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Soldabilidade",
+   "item": "Anexo",
+   "texto": "Os aços não têm aptidão ilimitada para todos os processos de soldagem; com o aumento da espessura e da resistência cresce o risco de trinca a frio na zona soldada. Para E 235 B preferir aços acalmados (NE ou GF).",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "id": "ASME-SFA-5.5",
+ "titulo": "SFA-5.5 — Eletrodos revestidos de aço baixa liga para SMAW (AWS A5.5)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos revestidos de aço baixa liga (nenhum elemento acima de 10,5 %) para soldagem SMAW de aços carbono e baixa liga."
+  },
+  {
+   "titulo": "Classificações",
+   "item": "Tabela 1",
+   "texto": "EXXXX-X (A5.5M: E49XX-X…): Su mínimo, posição, revestimento e sufixo de liga: A1 (C-Mo), B1–B9 (Cr-Mo), C1–C5 (Ni), NM (Ni-Mo), D1–D3 (Mn-Mo), W (intemperismo), P1 (tubulação), M (militar), G (geral).",
+   "valores": [
+    {
+     "parametro": "E7015-X — revestimento / posições / corrente",
+     "valor": "baixo hidrogênio sódico / todas / CC+",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "E7010-X",
+     "valor": "celulósico sódico / todas / CC+",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química do metal de solda",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "E7010-A1 (C-Mo) — C / Mn / Si / Mo",
+     "valor": "0,12 / 0,60 / 0,40 / 0,40–0,65 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "E8018-B2 (1 1/4Cr-1/2Mo) — C / Cr / Mo",
+     "valor": "0,05–0,12 / 1,00–1,50 / 0,40–0,65 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "E9018-B3 (2 1/4Cr-1Mo) — C / Cr / Mo",
+     "valor": "0,05–0,12 / 2,00–2,50 / 0,90–1,20 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,03 % / 0,03 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas do metal de solda",
+   "item": "Tabelas 3 e 4",
+   "texto": "Su mín. / Sy mín. / alongamento / condição (AW = como soldado; PWHT = com TTAT).",
+   "valores": [
+    {
+     "parametro": "E7010-P1",
+     "valor": "70 ksi (490) / 60 ksi (415) / 22 %, AW",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "E7010-A1",
+     "valor": "70 ksi (490) / 57 ksi (390) / 22 %, PWHT",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "E8018-C3",
+     "valor": "80 ksi (550) / 68 a 80 ksi (470 a 550) / 24 %, AW",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Charpy E7018-W1, E8018-W2",
+     "valor": "média 20 ft·lbf a 0 °F [27 J a −20 °C]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Charpy E12018M1",
+     "valor": "média 50 ft·lbf a 0 °F [67 J a −20 °C]",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabelas 5 e 12",
+   "texto": "Análise química, tração do metal depositado, impacto, sanidade, filete e umidade do revestimento conforme classificação e diâmetro; hidrogênio difusível opcional.",
+   "valores": [
+    {
+     "parametro": "Hidrogênio difusível — H16 / H8 / H4",
+     "valor": "16,0 / 8,0 / 4,0 mL/100 g",
+     "item": "Tabela 12"
+    }
+   ]
+  }
+ ]
+}

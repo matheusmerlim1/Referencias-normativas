@@ -1,0 +1,33 @@
+{
+ "id": "NBR-16577",
+ "titulo": "ABNT NBR 16577:2017 — Espaço confinado — Prevenção de acidentes, procedimentos e medidas de proteção",
+ "secoes": [
+  {"titulo": "Definições principais", "item": "3",
+   "texto": "Espaço confinado 'não perturbado' (sem alteração da atmosfera) e 'perturbado' (com atividade que gera riscos, ex. solda, pintura, inflamáveis); atmosfera IPVS (imediatamente perigosa à vida ou à saúde); abertura de linha; inertização (desloca a atmosfera explosiva com gás inerte, criando atmosfera pobre em O2); gerenciamento de mudança; espaço confinado simulado para treinamento; energia perigosa.",
+   "valores": [
+    {"parametro": "Atmosfera de risco — inflamáveis", "valor": "gás/vapor/névoa > 10 % do LIE; poeira acima do LIE", "item": "3"},
+    {"parametro": "Atmosfera pobre / rica em oxigênio", "valor": "< 19,5 % / > 23 % (v/v)", "item": "3"},
+    {"parametro": "Faixa aceitável de O2", "valor": "19,5 % a 23 %, desde que a causa da variação seja conhecida", "item": "3, Nota 6; 4.4"}
+   ]},
+  {"titulo": "Requisitos gerais e identificação", "item": "4",
+   "texto": "Eliminar condições inseguras antes de abrir tampas; controle de energias perigosas (bloqueio e sinalização); treino em EPI e EPR para atmosfera IPVS, seguindo o Programa de Proteção Respiratória; ventilação em todos os espaços (geral diluidora ou local exaustora); se surgir atmosfera perigosa, sair, investigar e só reentrar com PET revisada. Espaços sinalizados, isolados e cadastrados (volume, nº e geometria dos acessos, riscos, controles, plano de salvamento). Antes de entrar, o supervisor mede O2, inflamáveis e tóxicos com instrumento de leitura direta calibrado; equipamentos em área classificada certificados (INMETRO, NR-10).",
+   "valores": []},
+  {"titulo": "Programa de entrada", "item": "5",
+   "texto": "Programa escrito com PET arquivada, prevenção de entradas não autorizadas, avaliação prévia de riscos, treinamento periódico, deveres e nomes de supervisores, vigias e trabalhadores autorizados, serviço de emergência e salvamento disponível, exames médicos (ASO) e práticas de entrada segura: sinalização, bloqueios, teste de resposta do detector, medição de gases e poeiras, purga/inertização/lavagem/ventilação, avaliação de todos os riscos.",
+   "valores": []},
+  {"titulo": "Equipamentos", "item": "6",
+   "texto": "Detector de gases (sondagem inicial e monitoramento contínuo; multigás monitora quatro variáveis, como O2 e %LIE, com alarmes e TWA para tóxicos), ventilação mecânica, comunicação, EPC/EPI, movimentadores de pessoas, proteção respiratória, salvamento e iluminação, em perfeito estado e sem custo para o trabalhador.",
+   "valores": [
+    {"parametro": "Alarme de inflamáveis no detector", "valor": "considerar risco a partir de 10 % do LIE", "item": "6.2"},
+    {"parametro": "TWA dos sensores tóxicos", "valor": "média ponderada para jornada de 8 h", "item": "6.2"}
+   ]},
+  {"titulo": "Permissão de entrada (PET) e mudanças", "item": "7–9",
+   "texto": "PET preenchida antes da entrada e fixada na entrada; encerrada ao concluir, sair ou interromper o trabalho; cancelada diante de condição não prevista. Antes de emitir, o supervisor verifica mudanças e, havendo, exige nova análise preliminar de riscos. Modelo de PET no anexo (isolamento, teste inicial e após ventilação, bloqueios, purga, iluminação, comunicação, resgate, leituras de O2, %LIE e ppm).",
+   "valores": [
+    {"parametro": "Arquivamento de PET com gestão de mudanças", "valor": "≥ 5 anos", "item": "9.2.8"}
+   ]},
+  {"titulo": "Deveres, emergência, saúde e projeto", "item": "10–13",
+   "texto": "Deveres do empregador, supervisor de entrada, vigia e trabalhador autorizado; serviço de emergência e salvamento treinado e equipado; saúde ocupacional; e prevenção pelo projeto (acessos, aberturas, pontos de ancoragem e ventilação previstos já no projeto do equipamento ou instalação).",
+   "valores": []}
+ ]
+}

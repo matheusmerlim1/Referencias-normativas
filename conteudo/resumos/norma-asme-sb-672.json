@@ -1,0 +1,55 @@
+{
+ "id": "ASME-SB-672",
+ "titulo": "SB-672 — Barras e arames de liga Ni-Fe-Cr-Mo-Nb estabilizada (N08700)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras e arames da liga N08700."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Ni",
+     "valor": "24,0 a 26,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cr",
+     "valor": "19,0 a 23,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mo",
+     "valor": "4,3 a 5,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Nb",
+     "valor": "8 × C a 0,40 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C máx.",
+     "valor": "0,04 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Recozido, acabado a quente ou a frio (longitudinal).",
+   "valores": [
+    {
+     "parametro": "Su / Sy mín. / alongamento / redução de área",
+     "valor": "80 ksi (550) / 35 ksi (240) / 30,0 % / 50,0 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

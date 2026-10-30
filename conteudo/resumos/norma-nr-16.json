@@ -1,0 +1,119 @@
+{
+ "id": "NR-16",
+ "titulo": "NR-16 — Atividades e operações perigosas",
+ "secoes": [
+  {
+   "titulo": "Disposições gerais e adicional de periculosidade",
+   "item": "16.1–16.8",
+   "texto": "Só são perigosas as atividades listadas nos anexos. Quem trabalha nessas condições recebe adicional sobre o salário-base (sem gratificações, prêmios ou participação nos lucros), podendo optar pelo de insalubridade, se também tiver direito. Cabe ao empregador caracterizar ou descaracterizar a periculosidade por laudo de Médico do Trabalho ou Engenheiro de Segurança do Trabalho (art. 195 da CLT), sem prejuízo da fiscalização. As áreas de risco devem ser delimitadas pelo empregador.",
+   "valores": [
+    {"parametro": "Adicional de periculosidade", "valor": "30 % sobre o salário (sem gratificações, prêmios ou PLR)", "item": "16.2"},
+    {"parametro": "Laudo de caracterização", "valor": "Médico do Trabalho ou Engenheiro de Segurança do Trabalho", "item": "16.3"},
+    {"parametro": "Transporte de inflamáveis — não perigoso até", "valor": "200 L de inflamável líquido; 135 kg de inflamável gasoso liquefeito", "item": "16.6"},
+    {"parametro": "Combustível nos tanques do próprio veículo (originais ou suplementares certificados)", "valor": "não conta para o limite de transporte", "item": "16.6.1–16.6.1.1"},
+    {"parametro": "Líquido combustível (definição desta NR)", "valor": "ponto de fulgor > 60 °C e ≤ 93 °C", "item": "16.7"}
+   ]
+  },
+  {
+   "titulo": "Anexo 1 — Explosivos: atividades",
+   "item": "Anexo 1, 1–2 e Quadro 1",
+   "texto": "São perigosas as atividades com explosivos sujeitos a degradação química ou a agentes externos (calor, umidade, faísca, fogo, sismo, choque, atrito): armazenamento (inclusive quem permanece na área de risco), transporte, escorva de cartuchos, carregamento, detonação, verificação de tiros falhados, queima/destruição de explosivo deteriorado e manuseio. Todos os trabalhadores dessas atividades recebem o adicional.",
+   "valores": []
+  },
+  {
+   "titulo": "Anexo 1 — Explosivos: áreas de risco",
+   "item": "Anexo 1, 3 (Quadros 2–4)",
+   "texto": "A área de risco em torno de depósitos é uma faixa de terreno cuja largura depende da quantidade e do tipo armazenado. Depósitos com barricada ou entrincheirados podem ter as distâncias do Quadro 4 reduzidas à metade. A área de risco deve ter barreira física contra a entrada de pessoas não autorizadas.",
+   "valores": [
+    {"parametro": "Quadro 2 — pólvoras químicas, pirotécnicos e insumos: até 4 500 kg", "valor": "45 m", "item": "Anexo 1, Quadro 2"},
+    {"parametro": "Quadro 2 — > 4 500 até 45 000 kg", "valor": "90 m", "item": "Anexo 1, Quadro 2"},
+    {"parametro": "Quadro 2 — > 45 000 até 90 000 kg", "valor": "110 m", "item": "Anexo 1, Quadro 2"},
+    {"parametro": "Quadro 2 — > 90 000 até 225 000 kg (máximo permitido)", "valor": "180 m", "item": "Anexo 1, Quadro 2"},
+    {"parametro": "Quadro 3 — explosivos iniciadores: até 20 kg", "valor": "75 m", "item": "Anexo 1, Quadro 3"},
+    {"parametro": "Quadro 3 — > 20 até 200 kg", "valor": "220 m", "item": "Anexo 1, Quadro 3"},
+    {"parametro": "Quadro 3 — > 200 até 900 kg", "valor": "300 m", "item": "Anexo 1, Quadro 3"},
+    {"parametro": "Quadro 3 — > 900 até 2 200 kg", "valor": "370 m", "item": "Anexo 1, Quadro 3"},
+    {"parametro": "Quadro 3 — > 2 200 até 4 500 kg", "valor": "460 m", "item": "Anexo 1, Quadro 3"},
+    {"parametro": "Quadro 3 — > 4 500 até 6 800 kg", "valor": "500 m", "item": "Anexo 1, Quadro 3"},
+    {"parametro": "Quadro 3 — > 6 800 até 9 000 kg (máximo permitido)", "valor": "530 m", "item": "Anexo 1, Quadro 3"},
+    {"parametro": "Quadro 4 — explosivos de ruptura e pólvoras mecânicas (negra, chocolate): quantidade até (kg) → faixa (m)", "valor": "23 → 45; 45 → 75; 90 → 110; 135 → 160; 180 → 200; 225 → 220; 270 → 250; 300 → 265; 360 → 280; 400 → 300; 450 → 310; 680 → 345; 900 → 365; 1 300 → 405; 1 800 → 435; 2 200 → 460; 2 700 → 480; 3 100 → 490; 3 600 → 510; 4 000 → 520; 4 500 → 530; 6 800 → 570; 9 000 → 620; 11 300 → 660; 13 600 → 700; 18 100 → 780; 22 600 → 860; 34 000 → 1 000; 45 300 → 1 100; 68 000 → 1 150; 90 700 → 1 250; 113 300 → 1 350", "item": "Anexo 1, Quadro 4"},
+    {"parametro": "Quadro 4 — depósito barricado ou entrincheirado", "valor": "distâncias podem ser reduzidas à metade", "item": "Anexo 1, 3 d)"}
+   ]
+  },
+  {
+   "titulo": "Anexo 2 — Inflamáveis: atividades",
+   "item": "Anexo 2, 1–2",
+   "texto": "Dão adicional a quem faz ou atua na área de risco de: produção, transporte, processamento e armazenagem de gás liquefeito; transporte e armazenagem de inflamáveis líquidos e gasosos liquefeitos e de vasilhames vazios não desgaseificados; abastecimento de aeronaves; carga e descarga de navios, vagões e caminhões-tanque e enchimento de vasilhames; operação e manutenção de veículos-tanque, bombas e vasilhames; desgaseificação e reparo de vasilhames; testes de aparelhos a gás; transporte em caminhão-tanque (motorista e ajudantes); postos e bombas de abastecimento. O item 2 detalha o que conta como operação e manutenção, armazenagem e enchimento (inspeção, medição e amostragem em tanques cheios, vigilância, manutenção, pintura, lavagem, trabalho dentro da bacia de segurança, arrumação em depósito etc.).",
+   "valores": [
+    {"parametro": "Transporte de vasilhames de inflamável líquido em caminhão de carga — perigoso a partir de", "valor": "≥ 200 L no total (se não atendidos os itens 4.1 e 4.2)", "item": "Anexo 2, 1 j)"},
+    {"parametro": "Transporte de vasilhames de inflamável gasoso/líquido — perigoso a partir de", "valor": "≥ 135 kg no total", "item": "Anexo 2, 1 l)"}
+   ]
+  },
+  {
+   "titulo": "Anexo 2 — Inflamáveis: áreas de risco",
+   "item": "Anexo 2, 3",
+   "texto": "A área de risco é definida por círculos em torno do ponto de vazamento ou enchimento, por faixas em torno da área de operação ou pelo recinto inteiro, conforme a atividade.",
+   "valores": [
+    {"parametro": "a) Poço de petróleo produzindo gás", "valor": "círculo de raio ≥ 30 m centrado na boca do poço", "item": "Anexo 2, 3 a"},
+    {"parametro": "b) Unidade de processamento de refinaria", "valor": "faixa ≥ 30 m em torno da área de operação", "item": "Anexo 2, 3 b"},
+    {"parametro": "c) Outros locais de refinaria com inflamável volátil (ou que possa volatilizar por falha)", "valor": "faixa ≥ 15 m em torno da área de operação", "item": "Anexo 2, 3 c"},
+    {"parametro": "d) Tanques de inflamável líquido", "valor": "toda a bacia de segurança", "item": "Anexo 2, 3 d"},
+    {"parametro": "e) Tanques elevados de inflamável gasoso", "valor": "círculo de raio 3 m centrado nos pontos de vazamento eventual (válvulas, registros, medição por escape, gaxetas)", "item": "Anexo 2, 3 e"},
+    {"parametro": "f) Carga/descarga de inflamável líquido em navios, chatas e batelões", "valor": "15 m a partir da beira do cais, ao longo do comprimento da embarcação, durante a operação", "item": "Anexo 2, 3 f"},
+    {"parametro": "g) Abastecimento de aeronaves", "valor": "toda a área de operação", "item": "Anexo 2, 3 g"},
+    {"parametro": "h) Enchimento de vagão/caminhão-tanque com inflamável líquido", "valor": "círculo de raio 15 m centrado nas bocas de enchimento", "item": "Anexo 2, 3 h"},
+    {"parametro": "i) Enchimento de vagão/caminhão-tanque com inflamável gasoso liquefeito", "valor": "círculo de 7,5 m centrado nos pontos de vazamento eventual (válvulas e registros)", "item": "Anexo 2, 3 i"},
+    {"parametro": "j) Enchimento de vasilhames com inflamável gasoso liquefeito", "valor": "círculos de raio 15 m centrados nos bicos de enchimento", "item": "Anexo 2, 3 j"},
+    {"parametro": "l) Enchimento de vasilhames com inflamável líquido em local aberto", "valor": "círculo de raio 7,5 m centrado nos bicos de enchimento", "item": "Anexo 2, 3 l"},
+    {"parametro": "m) Enchimento de vasilhames com inflamável líquido em recinto fechado", "valor": "todo o recinto", "item": "Anexo 2, 3 m"},
+    {"parametro": "n) Manutenção de viaturas-tanque, bombas e vasilhames que continham inflamável líquido", "valor": "local da operação + faixa de 7,5 m em volta", "item": "Anexo 2, 3 n"},
+    {"parametro": "o) Desgaseificação, decantação e reparo de vasilhames de transporte de inflamáveis", "valor": "local da operação + faixa de 7,5 m em volta", "item": "Anexo 2, 3 o"},
+    {"parametro": "p) Testes em aparelhos de consumo de gás", "valor": "local da operação + faixa de 7,5 m em volta", "item": "Anexo 2, 3 p"},
+    {"parametro": "q) Abastecimento de inflamáveis (posto)", "valor": "toda a área de operação, no mínimo: círculo de 7,5 m no ponto de abastecimento, círculo de 7,5 m na bomba e faixa de 7,5 m para os dois lados da máquina", "item": "Anexo 2, 3 q"},
+    {"parametro": "r) Armazenagem de vasilhames de inflamável líquido (ou vazios não desgaseificados) em local aberto", "valor": "faixa de 3 m em volta", "item": "Anexo 2, 3 r"},
+    {"parametro": "s) Mesma armazenagem em recinto fechado", "valor": "todo o recinto", "item": "Anexo 2, 3 s"},
+    {"parametro": "t) Carga/descarga de vasilhames de inflamável líquido em navios, chatas e batelões", "valor": "3 m a partir da beira do cais, ao longo da embarcação, durante a operação", "item": "Anexo 2, 3 t"}
+   ]
+  },
+  {
+   "titulo": "Anexo 2 — Embalagens que não caracterizam periculosidade",
+   "item": "Anexo 2, 4 e Quadro I",
+   "texto": "Não geram adicional o manuseio, a armazenagem e o transporte de inflamáveis líquidos em embalagens certificadas (NBR 11564) dentro das capacidades do Quadro I, nem em recipientes lacrados de fábrica até um volume pequeno — em ambos os casos qualquer que seja o número de embalagens, desde que cumpridas as NRs e a legislação de transporte de produtos perigosos. O Quadro I separa os limites por grupo de embalagem (I alto, II médio, III baixo risco, conforme a classificação de produtos perigosos do Ministério dos Transportes).",
+   "valores": [
+    {"parametro": "Recipiente lacrado na fabricação", "valor": "até 5 L (qualquer quantidade de recipientes)", "item": "Anexo 2, 4.2"},
+    {"parametro": "Embalagem combinada — recipiente interno", "valor": "vidro > 5 até 10 L; plástico > 5 até 30 L; metal > 5 até 40 L", "item": "Anexo 2, Quadro I"},
+    {"parametro": "Embalagem combinada — embalagem externa, massa máx. (grupos I / II / III)", "valor": "tambor de metal ou plástico 250/400/400 kg; tambor de compensado 150/400/400 kg; tambor de fibra 75/400/400 kg; caixa de aço/alumínio 250/400/400 kg; caixa de madeira natural ou compensada 150/400/400 kg; caixa de aglomerado 75/400/400 kg; caixa de papelão 75/400/400 kg; caixa de plástico flexível 60/60/60 kg; caixa de plástico rígido 150/400/400 kg; bombona de aço/alumínio ou plástico 120/120/120 kg", "item": "Anexo 2, Quadro I"},
+    {"parametro": "Embalagem simples — tambores e bombonas", "valor": "tambores até 250 L ou 450 L e bombonas até 60 L, conforme material, tipo de tampa e grupo", "item": "Anexo 2, Quadro I", "nota": "Conferir: o alinhamento das colunas do Quadro I não saiu legível no texto extraído; tampa removível só para viscosidade > 200 mm²/s."},
+    {"parametro": "Embalagem composta — vidro com embalagem externa", "valor": "60 L (grupos I, II e III)", "item": "Anexo 2, Quadro I", "nota": "Demais embalagens compostas (120 L / 250 L): conferir alinhamento no quadro original."}
+   ]
+  },
+  {
+   "titulo": "Anexo 3 — Segurança pessoal e patrimonial",
+   "item": "Anexo 3",
+   "texto": "É perigosa a atividade de vigilantes expostos a roubo ou violência física, desde que sejam empregados de empresa de segurança privada autorizada (Lei 7.102/1983) ou serviço orgânico, ou contratados pela administração pública para instalações de transporte e bens públicos. Atividades abrangidas: vigilância patrimonial, segurança de eventos, de transporte coletivo, ambiental/florestal, transporte de valores, escolta armada, segurança pessoal, supervisão operacional e telemonitoramento.",
+   "valores": []
+  },
+  {
+   "titulo": "Anexo 4 — Energia elétrica",
+   "item": "Anexo 4",
+   "texto": "Têm adicional: quem trabalha em instalação energizada em alta tensão; quem faz trabalho em proximidade (NR-10); quem trabalha em baixa tensão energizada no sistema de consumo quando a proteção coletiva do item 10.2.8 da NR-10 não é cumprida; e empregados e contratados de empresas do SEP nas atividades e áreas do Quadro I (redes aéreas e subterrâneas, subestações, cabines, usinas, oficinas e laboratórios de ensaio, salas de controle, tração elétrica, áreas submersas, treinamento). Não há adicional em instalação desenergizada e liberada, em extrabaixa tensão e em manobras elementares em baixa tensão com material conforme norma. Exposição intermitente vale como permanente no mês em que ocorre; a eventual (fortuita, fora da rotina) não.",
+   "valores": [
+    {"parametro": "Exposição intermitente", "valor": "adicional integral nos meses com exposição (eventual não conta)", "item": "Anexo 4, 3"}
+   ]
+  },
+  {
+   "titulo": "Anexo 5 — Motocicleta",
+   "item": "Anexo 5",
+   "texto": "É perigoso o trabalho que usa motocicleta ou motoneta para deslocamento em via pública. Não conta: só o trajeto casa–trabalho, veículos que dispensam placa ou habilitação, uso em área privada e uso eventual ou por tempo muito curto.",
+   "valores": []
+  },
+  {
+   "titulo": "Anexo — Radiações ionizantes e substâncias radioativas",
+   "item": "Anexo (*)",
+   "texto": "Lista atividades e as áreas de risco correspondentes: mineração e beneficiamento de minerais radioativos, ciclo do combustível nuclear, produção de radioisótopos e fontes, calibração de detectores, descontaminação, reatores, aceleradores, operação de raios X e irradiadores (incluindo radiografia industrial e gamagrafia, com manuseio de fontes), medicina nuclear e descomissionamento. Raios X móveis para diagnóstico médico não tornam perigosas as áreas onde são usados (emergência, UTI, recuperação, leitos).",
+   "valores": [
+    {"parametro": "Radiografia industrial, gamagrafia, neutrongrafia", "valor": "atividade perigosa — área: manuseio de fontes e salas de irradiação/operação", "item": "Anexo (*), 4.3"}
+   ]
+  }
+ ]
+}

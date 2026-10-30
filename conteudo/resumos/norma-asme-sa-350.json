@@ -1,0 +1,137 @@
+{
+ "id": "ASME-SA-350",
+ "titulo": "SA-350 — Forjados de aço carbono e baixa liga com ensaio de tenacidade para tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Flanges forjados ou laminados em anel, conexões e válvulas forjadas de aço carbono e baixa liga, principalmente para baixa temperatura, com ensaio Charpy obrigatório. Graus LF1, LF2, LF3, LF5, LF6, LF9 e LF787. Requisitos gerais pela SA-961."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "5, 6",
+   "texto": "Aço totalmente acalmado de grão fino; proibido aço com chumbo."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "LF1 / LF2 — C máx. / Mn",
+     "valor": "0,30 % / 0,60–1,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LF3 — C máx. / Ni",
+     "valor": "0,20 % / 3,3–3,7 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LF5 — Ni",
+     "valor": "1,0–2,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LF6 — C máx. / Mn",
+     "valor": "0,22 % / 1,15–1,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LF9 — Ni",
+     "valor": "1,60–2,24 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx. (LF1, LF2, LF3)",
+     "valor": "0,035 % / 0,040 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si (LF1, LF2)",
+     "valor": "0,15–0,30 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su / Sy mín. / alongamento mín. (corpo redondo 4D).",
+   "valores": [
+    {
+     "parametro": "LF1",
+     "valor": "60–85 ksi [415–585] / 30 ksi [205] / 25 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "LF2 (classes 1 e 2)",
+     "valor": "70–95 ksi [485–655] / 36 ksi [250] / 22 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "LF3 (classes 1 e 2)",
+     "valor": "70–95 ksi [485–655] / 37,5 ksi [260] / 22 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "LF9",
+     "valor": "63–88 ksi [435–605] / 46 ksi [315] / 25 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio de impacto",
+   "item": "Tabelas 3 a 6",
+   "texto": "Charpy V obrigatório; média de 3 corpos de prova e mínimo individual. Corpo reduzido com largura < 80 % da espessura exige temperatura menor.",
+   "valores": [
+    {
+     "parametro": "LF1, LF9 — média / individual",
+     "valor": "13 ft·lbf [18 J] / 10 ft·lbf [14 J]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "LF2 Cl. 1, LF3 Cl. 1 — média / individual",
+     "valor": "15 ft·lbf [20 J] / 12 ft·lbf [16 J]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "LF2 Cl. 2, LF3 Cl. 2 — média / individual",
+     "valor": "20 ft·lbf [27 J] / 15 ft·lbf [20 J]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Temperatura — LF1",
+     "valor": "−20 °F [−29 °C]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "— LF2 Cl. 1",
+     "valor": "−50 °F [−46 °C]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "— LF2 Cl. 2",
+     "valor": "0 °F [−18 °C]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "— LF3",
+     "valor": "−150 °F [−101 °C]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "— LF9",
+     "valor": "−100 °F [−73 °C]",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Hidrostático e marcação",
+   "item": "8, 15",
+   "texto": "Forjados devem suportar hidrostático compatível com o rating; o fabricante só ensaia se pedido o suplementar S57 da SA-961. Marcação da SA-961 + fabricante, grau e classe."
+  }
+ ]
+}

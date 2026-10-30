@@ -1,0 +1,52 @@
+{
+ "id": "ASME-B18.2.6",
+ "titulo": "ASME B18.2.6 — Fixadores para estruturas metálicas (série polegada)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1.1",
+   "texto": "Dá as dimensões gerais de cinco produtos de ligação estrutural em polegadas: parafuso sextavado pesado (A325, A490), porca sextavada pesada (A563, A194), arruela endurecida circular, recortada e chanfrada (F436), indicador de tração por compressão (F959) e parafuso de controle de tração por ruptura (F1852, F2280). Estar listado não significa que o tamanho seja de estoque. Tabelas por diâmetro (1/2 a 1 1/2 in) na ficha parafusos-porcas-arruelas.",
+   "valores": [
+    {"parametro": "Faixa de diâmetros", "valor": "1/2 a 1 1/2 in", "item": "Tabelas 1, 3–5"}
+   ]
+  },
+  {
+   "titulo": "Parafuso sextavado pesado",
+   "item": "2.1",
+   "texto": "Cabeça cheia com chanfro ou arredondamento no topo, assento plano com face de arruela, cabeça posicionada em relação ao corpo dentro de uma zona de tolerância. O comprimento vai do assento da cabeça à ponta e é fornecido em passos de 1/4 in, só com tolerância negativa. Rosca UNC 2A, sem rebaixar o corpo para compensar revestimento grosso. O comprimento de rosca é controlado pela distância de aperto LG e pelo corpo LB.",
+   "valores": [
+    {"parametro": "Ø do chanfro do topo da cabeça", "valor": "= F máx., tolerância −15 %", "item": "2.1.1", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#F"},
+    {"parametro": "Posição da cabeça (zona de Ø)", "valor": "6 % do F máx.", "item": "2.1.5"},
+    {"parametro": "Ø da face de arruela", "valor": "= F máx., tolerância −10 %", "item": "2.1.6"},
+    {"parametro": "Espessura da face de arruela", "valor": "0,015–0,025 in (≤ 3/4 in); 0,015–0,035 in (> 3/4 in)", "item": "2.1.6"},
+    {"parametro": "Incremento de comprimento", "valor": "1/4 in", "item": "2.1.7", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#L"},
+    {"parametro": "Tolerância de comprimento (≤ 6 in / > 6 in)", "valor": "1/2: −0,12/−0,19; 5/8: −0,12/−0,25; 3/4–1: −0,19/−0,25; 1 1/8–1 1/2: −0,25 in", "item": "2.1.8"},
+    {"parametro": "Rosca", "valor": "UNC classe 2A (ASME B1.1); calibração sistema 21", "item": "2.1.9"},
+    {"parametro": "Parte lisa máx. em parafuso totalmente roscado", "valor": "2,5 passos (≤ 1 in); 3,5 passos (> 1 in)", "item": "2.1.9.2"},
+    {"parametro": "LG máx. (parafuso não totalmente roscado)", "valor": "L nominal − LT", "item": "2.1.9.2", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#LT"}
+   ]
+  },
+  {
+   "titulo": "Porca sextavada pesada",
+   "item": "3",
+   "texto": "Material A563 ou A194 2H, com carga de prova pelo menos igual à resistência do parafuso. Rosca 2B com escareado nas faces de assento e sem rosca saliente. Chanfros e faces de assento com diâmetros limitados; posição do sextavado e preenchimento dos cantos controlados. Galvanizada recebe sobremacho depois do revestimento.",
+   "valores": [
+    {"parametro": "Ø máximo do escareado", "valor": "1,08 × Ø nominal", "item": "3.1.6", "cota": "esquemas/parafusos-porcas-arruelas-porca-pesada-b18-2-6.svg#escareado"},
+    {"parametro": "Ø da face de assento", "valor": "entre F máx. e 95 % do F mín.", "item": "3.1.3", "cota": "esquemas/parafusos-porcas-arruelas-porca-pesada-b18-2-6.svg#dw"},
+    {"parametro": "Posição do sextavado (zona de Ø)", "valor": "4 % do F máx. (até 1 1/2 in)", "item": "3.1.4", "cota": "esquemas/parafusos-porcas-arruelas-porca-pesada-b18-2-6.svg#G"}
+   ]
+  },
+  {
+   "titulo": "Arruelas endurecidas F436",
+   "item": "4",
+   "texto": "Circular e circular recortada têm planicidade, batimento e rebarba limitados; a recortada não pode ter a borda cortada muito perto do centro. A chanfrada quadrada, para mesas inclinadas, tem conicidade 1:6.",
+   "valores": [
+    {"parametro": "Planicidade", "valor": "0,010 in por polegada", "item": "4.1.2", "cota": "esquemas/parafusos-porcas-arruelas-arruela-f436.svg#planicidade"},
+    {"parametro": "Batimento do Ø externo", "valor": "≤ 0,030 in FIM", "item": "4.1.2", "cota": "esquemas/parafusos-porcas-arruelas-arruela-f436.svg#OD"},
+    {"parametro": "Rebarba", "valor": "≤ 0,010 in (chanfrada 1–1 1/2 in: 0,015 in)", "item": "4.1.2; 4.2.2"},
+    {"parametro": "Inclinação da chanfrada", "valor": "0,98:6 a 1,02:6", "item": "4.2.2", "cota": "esquemas/parafusos-porcas-arruelas-arruela-f436.svg#inclinacao"},
+    {"parametro": "Borda recortada a partir do centro", "valor": "≥ 0,875 × Ø nominal", "item": "Tabela 4, nota (2)", "cota": "esquemas/parafusos-porcas-arruelas-arruela-f436.svg#E"}
+   ]
+  }
+ ]
+}

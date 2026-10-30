@@ -1,0 +1,116 @@
+{
+ "id": "ASME-SA-372",
+ "titulo": "SA-372 — Forjados de aço carbono e liga para vasos de pressão de parede fina",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Forjados de parede relativamente fina para vasos de pressão, inclusive cilindros de gás (garrafas): três tipos de aço carbono (A, B, C) e vários de liga (D, E, F, G, H, J, K, L, M, por classe de resistência). Admite forjar integralmente os fundos de corpos feitos de tubo sem costura. Fusão pela SA-788 (Grau M só com aço desgaseificado a vácuo)."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4",
+   "texto": "Cilindros de gás e vasos similares por embutimento de placas, perfuração de tarugos e estiramento; ensaios de aceitação após o tratamento térmico final."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau A — C / Mn máx.",
+     "valor": "0,30 % / 1,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau B — C / Mn máx.",
+     "valor": "0,35 % / 1,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau C — C / Mn máx.",
+     "valor": "0,48 % / 1,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau D — C / Mn / Mo",
+     "valor": "0,40–0,50 % / 1,40–1,80 % / 0,17–0,27 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,025 % / 0,025 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,15–0,35 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su / Sy mín. (0,2 %) / alongamento mín. / dureza mín.",
+   "valores": [
+    {
+     "parametro": "Grau A",
+     "valor": "60–85 ksi [415–585] / 35 ksi [240] / 20 % / 121 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau B",
+     "valor": "75–100 ksi [515–690] / 45 ksi [310] / 18 % / 156 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau C",
+     "valor": "90–115 ksi [620–795] / 55 ksi [380] / 15 % / 187 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau D",
+     "valor": "105–130 ksi [725–895] / 65 ksi [450] / 15 % / 217 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "E–J Classe 55",
+     "valor": "85–110 ksi / 55 ksi [380] / 20 % / 179 HB",
+     "item": "Tabela 2",
+     "nota": "a extração dá [545–760] MPa para 85–110 ksi; conferir"
+    },
+    {
+     "parametro": "E–J Classe 65",
+     "valor": "105–130 ksi [725–895] / 65 ksi [450] / 19 % / 217 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "E–J Classe 70",
+     "valor": "120–145 ksi [825–1000] / 70 ksi [485] / 18 % / 248 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "J Classe 110",
+     "valor": "135–160 ksi [930–1100] / 110 ksi [760] / 15 % / 277 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau L",
+     "valor": "155–180 ksi [1070–1240] / 135 ksi [930] / 12 % / 311 HB",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "6, 7",
+   "texto": "Dobramento ou achatamento conforme D e T do forjado oco. Todo forjado temperado e revenido passa por partículas magnéticas (SA-275, só corrente contínua ou retificada) após o tratamento, sem indicações lineares de trincas."
+  },
+  {
+   "titulo": "Reparo",
+   "item": "9",
+   "texto": "Reparo por solda só por acordo entre comprador e fabricante."
+  }
+ ]
+}

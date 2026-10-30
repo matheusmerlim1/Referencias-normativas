@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SB-536",
+ "titulo": "SB-536 — Chapas, folhas e tiras de ligas Ni-Fe-Cr-Si (N08330, N08332)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras das ligas N08330 e N08332 para aplicações resistentes ao calor e serviço corrosivo geral."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela de química",
+   "texto": "Ligas Ni-Fe-Cr-Si (tipo RA330).",
+   "valores": [
+    {
+     "parametro": "Ni",
+     "valor": "34,0–37,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "Cr",
+     "valor": "17,0–20,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,75–1,50 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "C — N08330 / N08332",
+     "valor": "0,08 % máx. / 0,05–0,10 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "Fe",
+     "valor": "restante",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N08330 recozida",
+     "valor": "70 000 psi (483) / 30 000 psi (207) / 30 %; 70–90 HRB (informativo)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N08332 recozida",
+     "valor": "67 000 psi (462) / 27 000 psi (186) / 30 %; 65–88 HRB (informativo)",
+     "item": "Tabela 1"
+    }
+   ]
+  }
+ ]
+}

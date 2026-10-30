@@ -1,0 +1,43 @@
+{
+ "id": "ASME-SB-241",
+ "titulo": "SB-241 — Tubos sem costura de alumínio e ligas de alumínio (pipe e tubo extrudado)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe) sem costura e tubos redondos extrudados sem costura de alumínio e ligas para aplicações sob pressão; tamanhos padronizados de pipe pela ANSI H35.2 (Tabela 16.7). Ligas e têmperas pela ANSI H35.1."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 1 a 4",
+   "texto": "Pipe — Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "3003-H18, abaixo de NPS 1",
+     "valor": "27,0 ksi (185) / 24,0 ksi (165) / 4 %",
+     "item": "Tabelas 1 e 2"
+    },
+    {
+     "parametro": "3003-H112, NPS 1 e acima",
+     "valor": "14,0 ksi (95) / 5,0 ksi (35) / 25 %",
+     "item": "Tabelas 1 e 2"
+    },
+    {
+     "parametro": "6061-T6 extrudado",
+     "valor": "38,0 ksi (260) / 35,0 ksi (240) / 8–10 %",
+     "item": "Tabelas 1 e 2"
+    },
+    {
+     "parametro": "6063-T6",
+     "valor": "30,0 ksi (205) / 25,0 ksi (170) / 8 %",
+     "item": "Tabelas 1 e 2"
+    },
+    {
+     "parametro": "Tubo extrudado 1060-O",
+     "valor": "8,5–14,0 ksi / 2,5 ksi / 25 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

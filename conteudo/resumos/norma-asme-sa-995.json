@@ -1,0 +1,99 @@
+{
+ "id": "ASME-SA-995",
+ "titulo": "SA-995 — Fundidos de aço inoxidável duplex para partes sob pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Fundidos de aço inoxidável austenítico-ferrítico (duplex) para válvulas, flanges, conexões e outras partes sob pressão; combinam propriedades mecânicas e resistência à corrosão quando a composição e o tratamento estão equilibrados. Graus 1B, 2A, 3A, 4A, 5A, 6A. Requisitos gerais pela SA-703."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "7, Tabela 1",
+   "texto": "Forno elétrico; solubilização e têmpera em água (ou resfriamento rápido).",
+   "valores": [
+    {
+     "parametro": "1B (CD4MCuN) — temperatura mín.",
+     "valor": "1900 °F [1040 °C]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "2A (CE8MN) — temperatura mín.",
+     "valor": "2050 °F [1120 °C]",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "1B (25Cr-5Ni-Mo-Cu-N) — C máx.",
+     "valor": "0,04 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "2A (24Cr-10Ni-Mo-N) — C máx.",
+     "valor": "0,08 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "4A (22Cr-5Ni-Mo-N, CD3MN) — C máx.",
+     "valor": "0,03 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "5A (CE3MN), 6A (CD3MWCuN) — C máx.",
+     "valor": "0,03 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "1B",
+     "valor": "100 ksi [690] / 70 ksi [485] / 16 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "2A, 3A",
+     "valor": "95 ksi [655] / 65 ksi [450] / 25 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "4A",
+     "valor": "90 ksi [620] / 60 ksi [415] / 25 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "5A",
+     "valor": "100 ksi [690] / 75 ksi [515] / 18 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "6A",
+     "valor": "100 ksi [690] / 65 ksi [450] / 25 %",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo por solda",
+   "item": "11, 12",
+   "texto": "Procedimentos e soldadores qualificados pela SA-488. Reparo é 'maior' (exige novo tratamento) se a peça vazou no hidrostático ou se a cavidade preparada passa de 20 % da espessura real ou 1 in [25 mm], o que for menor, entre outros casos.",
+   "valores": [
+    {
+     "parametro": "Limite da cavidade para reparo maior",
+     "valor": "20 % da espessura ou 1 in [25 mm], o menor",
+     "item": "12.1"
+    }
+   ]
+  }
+ ]
+}

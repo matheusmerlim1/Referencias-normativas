@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img" aria-label="Categoria do vaso de pressão — classe de fluido × grupo de potencial de risco">
+<title>Categoria do vaso de pressão — classe de fluido × grupo de potencial de risco (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Categoria do vaso de pressão — classe de fluido × grupo de potencial de risco</text>
+<rect class="w" x="40" y="120" width="230" height="120"/>
+<text class="b m" x="155" y="150">Classe de fluido</text>
+<text class="n" x="55" y="175">A — inflamável / tóxico …</text>
+<text class="n" x="55" y="193">B — combustível …</text>
+<text class="n" x="55" y="211">C — vapor, ar, asfixiante</text>
+<text class="n" x="55" y="229">D — outros</text>
+<rect class="w" x="330" y="120" width="230" height="120"/>
+<text class="b m" x="445" y="150">Grupo de risco</text>
+<text class="n" x="345" y="180">P·V (P em MPa, V em m³)</text>
+<text class="n" x="345" y="200">G1 (maior) … G5 (menor)</text>
+<rect class="w" x="620" y="120" width="240" height="120"/>
+<text class="b m" x="740" y="150">Categoria</text>
+<text class="n" x="635" y="180">I (maior risco) … V</text>
+<text class="n" x="635" y="200">→ tabela da ficha</text>
+<line class="d" x1="270" y1="180" x2="328" y2="180" marker-end="url(#a)"/>
+<line class="d" x1="560" y1="180" x2="618" y2="180" marker-end="url(#a)"/>
+<text class="n" x="40" y="300">A categoria define prazos de inspeção, exigências de instalação e documentação.</text>
+<text class="n" x="20" y="388">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SB-423",
+ "titulo": "SB-423 — Tubos sem costura de ligas Ni-Fe-Cr-Mo-Cu (Incoloy 825)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe e tube) sem costura, trabalhados a frio ou acabados a quente, das ligas N08825 e N08221, para serviço corrosivo geral. Requisitos gerais pela SB-829."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N08825 — Ni / Cr / Fe mín.",
+     "valor": "38,0–46,0 % / 19,5–23,5 % / 22,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N08825 — Mo / Cu / Ti",
+     "valor": "2,5–3,5 % / 1,5–3,0 % / 0,6–1,2 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N08825 — C máx.",
+     "valor": "0,05 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N08221 — Mo / C máx.",
+     "valor": "5,0–6,5 % / 0,025 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N08825 acabada a quente e recozida",
+     "valor": "75 ksi (517) / 25 ksi (172) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08825 trabalhada a frio e recozida",
+     "valor": "85 ksi (586) / 35 ksi (241) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Tubo de pequeno diâmetro recozido (informativo)",
+     "valor": "85–115 ksi (586–793) / 35 ksi (241) / 30 %",
+     "item": "Tabela X1.1"
+    }
+   ]
+  }
+ ]
+}

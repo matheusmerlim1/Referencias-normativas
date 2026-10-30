@@ -1,0 +1,47 @@
+{
+ "id": "ASME-SA-667",
+ "titulo": "SA-667 — Cilindros bimetálicos de ferro fundido branco e cinzento fundidos por centrifugação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Cilindros fundidos por centrifugação com camada externa de ferro fundido branco e o restante de ferro fundido cinzento, para partes sob pressão cuja resistência de projeto vem da parte cinzenta.",
+   "valores": [
+    {
+     "parametro": "Temperatura máx. de serviço",
+     "valor": "450 °F [230 °C]",
+     "item": "1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Material e fabricação",
+   "item": "3",
+   "texto": "Fusão a critério da fundição; processo controlado para ligação metalúrgica entre as camadas.",
+   "valores": [
+    {
+     "parametro": "Dureza mín. da camada branca",
+     "valor": "55 Scleroscope 'C'",
+     "item": "3.2"
+    },
+    {
+     "parametro": "Parte cinzenta",
+     "valor": "SA-278 Classe 20 [A278M Classe 150]",
+     "item": "3.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "4, 8, 11",
+   "texto": "Corpos de prova retirados da peça devem atingir fração mínima da resistência da classe do ferro cinzento; carga axial no ensaio. Marcação com fabricante e especificação.",
+   "valores": [
+    {
+     "parametro": "Su mín. de corpo retirado da peça",
+     "valor": "80 % do especificado para a classe",
+     "item": "4.1"
+    }
+   ]
+  }
+ ]
+}

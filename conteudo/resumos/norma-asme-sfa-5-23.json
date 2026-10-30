@@ -1,0 +1,45 @@
+{
+ "id": "ASME-SFA-5.23",
+ "titulo": "SFA-5.23 — Arames e fluxos de aço baixa liga para arco submerso (AWS A5.23)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Eletrodos (sólidos e compostos) e fluxos de aço baixa liga para arco submerso; classificação da combinação fluxo-arame pelo metal de solda (FXXX-EXXX-XX, com designador de liga do metal de solda: A1, A2, B2, B3, Ni1…, F, M, W, G)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabelas 1 e 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "EL12 (arame) — C / Mn / Si máx.",
+     "valor": "0,04–0,14 % / 0,25–0,60 % / 0,10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Metal de solda A1 (C-Mo) — C / Mn / Si máx. / Mo",
+     "valor": "0,12 / 1,00 / 0,80 % / 0,40–0,65 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,030 % / 0,030 %",
+     "item": "Tabelas 1 e 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabelas 3 e 8",
+   "texto": "Arames sólidos: análise química do arame. Combinação fluxo-arame: análise do metal de solda, radiografia, tração e Charpy. Hidrogênio difusível opcional.",
+   "valores": [
+    {
+     "parametro": "Hidrogênio difusível — H16 / H8 / H4 / H2",
+     "valor": "16,0 / 8,0 / 4,0 / 2,0 mL/100 g",
+     "item": "Tabela 8"
+    }
+   ]
+  }
+ ]
+}

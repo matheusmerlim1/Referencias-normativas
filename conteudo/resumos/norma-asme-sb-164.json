@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SB-164",
+ "titulo": "SB-164 — Barras, vergalhões e arames de níquel-cobre (Monel 400 / 405)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras trabalhadas a quente e a frio e arame trabalhado a frio de liga níquel-cobre UNS N04400 e N04405."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela",
+   "texto": "N04400 (Monel 400); N04405 é a versão de usinagem facilitada (com S).",
+   "valores": [
+    {
+     "parametro": "Ni mín.",
+     "valor": "63,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "Cu",
+     "valor": "28,0 a 34,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "Fe máx. / Mn máx.",
+     "valor": "2,5 % / 2,0 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "C máx. / Si máx.",
+     "valor": "0,3 % / 0,5 %",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas (arame)",
+   "item": "Tabela 3",
+   "texto": "Su do arame (mín.–máx.); o arame deve enrolar sobre barra do mesmo diâmetro sem trincar.",
+   "valores": [
+    {
+     "parametro": "Recozido, todas as bitolas",
+     "valor": "70 000–85 000 psi (483–586)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Têmpera nº 0, abaixo de 1/2 in",
+     "valor": "80 000–95 000 psi (552–655)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Têmpera nº 1, abaixo de 1/2 in",
+     "valor": "90 000–110 000 psi (621–758)",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Barras",
+   "item": "Tabela 2",
+   "texto": "Propriedades das barras por condição e bitola na Tabela 2 da especificação."
+  }
+ ]
+}

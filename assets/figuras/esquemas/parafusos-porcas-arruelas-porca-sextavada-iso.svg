@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-label="Porca sextavada (ISO 4032 / 4033) — m, mw, s, e, dw, da">
+<title>Porca sextavada (ISO 4032 / 4033) — m, mw, s, e, dw, da (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Porca sextavada (ISO 4032 / 4033) — m, mw, s, e, dw, da</text>
+<rect class="s" x="110" y="150" width="220" height="120"/>
+<line class="e" x1="165" y1="150" x2="165" y2="270"/>
+<line class="e" x1="275" y1="150" x2="275" y2="270"/>
+<rect class="h" x="165" y="150" width="110" height="120"/>
+<line class="c" x1="220" y1="100" x2="220" y2="320"/>
+<g id="cota-m" class="cota"><line class="e" x1="333" y1="150" x2="366" y2="150"/><line class="e" x1="333" y1="270" x2="366" y2="270"/><line class="d" x1="360" y1="150" x2="360" y2="270" marker-start="url(#a)" marker-end="url(#a)"/><text x="367" y="215">m</text></g>
+<g id="cota-mw" class="cota"><line class="e" x1="107" y1="180" x2="74" y2="180"/><line class="e" x1="107" y1="270" x2="74" y2="270"/><line class="d" x1="80" y1="180" x2="80" y2="270" marker-start="url(#a)" marker-end="url(#a)"/><text x="24" y="320">mw (altura útil p/ chave)</text></g>
+<g id="cota-dw" class="cota"><line class="e" x1="135" y1="273" x2="135" y2="306"/><line class="e" x1="305" y1="273" x2="305" y2="306"/><line class="d" x1="135" y1="300" x2="305" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="220" y="318">dw</text></g>
+<g id="cota-da" class="cota"><line class="e" x1="160" y1="147" x2="160" y2="119"/><line class="e" x1="280" y1="147" x2="280" y2="119"/><line class="d" x1="160" y1="125" x2="280" y2="125" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="220" y="118">da</text></g>
+<path class="s" d="M740,287.7 L640,345.5 L540,287.7 L540,172.3 L640,114.5 L740,172.3 z"/>
+<circle class="w" cx="640" cy="230" r="50"/>
+<g id="cota-s" class="cota"><line class="d" x1="540" y1="230" x2="740" y2="230" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="640" y="170">s</text></g>
+<g id="cota-e" class="cota"><line class="e" x1="643" y1="114.5" x2="786" y2="114.5"/><line class="e" x1="643" y1="345.5" x2="786" y2="345.5"/><line class="d" x1="780" y1="114.5" x2="780" y2="345.5" marker-start="url(#a)" marker-end="url(#a)"/><text x="787" y="235">e</text></g>
+<text class="n" x="560" y="400">β, θ — chanfros (ver ficha)</text>
+<text class="n" x="20" y="428">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

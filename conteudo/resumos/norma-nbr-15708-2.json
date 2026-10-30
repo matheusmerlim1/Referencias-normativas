@@ -1,0 +1,168 @@
+{
+ "id": "NBR-15708-2",
+ "titulo": "ABNT NBR 15708-2:2015 — Perfis pultrudados (PRFV) para petróleo e gás: guarda-corpo",
+ "secoes": [
+  {
+   "titulo": "Escopo e materiais",
+   "item": "1; 4",
+   "texto": "Define características e ensaios de guarda-corpos de compósito pultrudado (PRFV) para instalações de petróleo e gás. Os materiais, defeitos visuais, tolerâncias e dureza Barcol seguem a Parte 1 da série (NBR 15708-1). Edição 2015 com a Emenda 1.",
+   "valores": []
+  },
+  {
+   "titulo": "Termos",
+   "item": "3",
+   "texto": "Corrimão é o perfil superior; travessa, o elemento horizontal intermediário; montante, o vertical; rodapé, a peça junto ao piso que segura objetos. O elemento de reforço fica dentro do montante para ele não esmagar na fixação. Conexões unem as peças (em L, inclinadas na transição para escada, retas nas emendas). Painel típico é o menor conjunto representativo, usado nos ensaios.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos de projeto",
+   "item": "5",
+   "texto": "O guarda-corpo segue a geometria de referência da norma, sem descontinuidades nem cantos vivos. Há pelo menos uma travessa entre corrimão e rodapé (tipo barra grega). Corrimão e travessa não têm faces planas, para ninguém apoiar objetos. Interrupções do corrimão, quando o projeto pede, ficam numa faixa de vão; em escadas não pode haver interrupção. Reforços internos e conexões também em compósito.",
+   "valores": [
+    {
+     "parametro": "Altura do corrimão",
+     "valor": "1 100 mm",
+     "item": "5, Fig. 2",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+     "parametro": "Altura da travessa",
+     "valor": "700 mm",
+     "item": "5, Fig. 2",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#intermediario"
+    },
+    {
+     "parametro": "Altura mínima do rodapé (barra grega)",
+     "valor": "200 mm",
+     "item": "5, Fig. 2",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+     "parametro": "Espaçamento máximo entre montantes",
+     "valor": "1 500 mm (painel de ensaio: 1 000 mm)",
+     "item": "5, Fig. 2",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#montantes"
+    },
+    {
+     "parametro": "Vão de interrupção do corrimão",
+     "valor": "75 mm a 120 mm",
+     "item": "5",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#folga-segmentos"
+    }
+   ]
+  },
+  {
+   "titulo": "Fixação",
+   "item": "5.2",
+   "texto": "Cinco maneiras de fixar são admitidas: na alma de viga U, nas abas de viga U ou I com tubo-calço, com chumbadores em concreto, em sapata de fibra de vidro aparafusada ao concreto ou em sapata de aço soldada ao piso. Sempre ao menos dois tirantes ou parafusos de tamanho mínimo. A folga rodapé–piso vem das figuras.",
+   "valores": [
+    {
+     "parametro": "Tirantes/parafusos de fixação",
+     "valor": "≥ 2 por montante, M10 ou maior",
+     "item": "5.2"
+    },
+    {
+     "parametro": "Tubo-calço na fixação em abas de viga",
+     "valor": "Ø 25 mm",
+     "item": "5.2, Fig. 3 b)"
+    },
+    {
+     "parametro": "Folga piso–rodapé (fixações a, b, c, e)",
+     "valor": "10 mm (lido de figura)",
+     "item": "5.2, Fig. 3",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#folga-rodape"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio de tipo",
+   "item": "6.1",
+   "texto": "Feito para cada projeto, incluindo a fixação, num único painel típico simulando o campo, em laboratório acreditado; vale cinco anos. Sequência: flecha de montante e corrimão, ruptura de travessa e rodapé, ruptura de montante e corrimão. Depois, o montante é serrado para conferir o reforço. O montante isolado também é ensaiado à flexão. Os fabricantes garantem que o produto entregue é igual ao ensaiado.",
+   "valores": [
+    {
+     "parametro": "Validade do ensaio de tipo",
+     "valor": "5 anos",
+     "item": "6.1"
+    },
+    {
+     "parametro": "Pré-carga (V2, H1, H2)",
+     "valor": "50 N por 1 min",
+     "item": "6.1.1"
+    },
+    {
+     "parametro": "Carga de flecha (V2, H1, H2 simultâneos)",
+     "valor": "900 N por 10 min",
+     "item": "6.1.1"
+    },
+    {
+     "parametro": "Flecha máx. V2 — vertical no meio do corrimão",
+     "valor": "10 mm",
+     "item": "6.1.1 a)",
+     "cota": "esquemas/guarda-corpo-ensaios-prfv.svg#flecha-v2"
+    },
+    {
+     "parametro": "Flecha máx. H1 — horizontal no topo do montante",
+     "valor": "44 mm",
+     "item": "6.1.1 b)",
+     "cota": "esquemas/guarda-corpo-ensaios-prfv.svg#flecha-h1"
+    },
+    {
+     "parametro": "Flecha máx. H2 — horizontal no meio do corrimão",
+     "valor": "32 mm",
+     "item": "6.1.1 c)",
+     "cota": "esquemas/guarda-corpo-ensaios-prfv.svg#flecha-h2"
+    },
+    {
+     "parametro": "Flecha residual (15 min após descarregar)",
+     "valor": "≤ 3 mm",
+     "item": "6.1.1"
+    },
+    {
+     "parametro": "Ruptura da travessa (H3) / rodapé (H4)",
+     "valor": "900 N / 400 N, 10 min, sem trinca nem delaminação",
+     "item": "6.1.2"
+    },
+    {
+     "parametro": "Ruptura de montante e corrimão (V1, V2, H1, H2)",
+     "valor": "2 250 N, 10 min, um ponto por vez",
+     "item": "6.1.3"
+    },
+    {
+     "parametro": "Montante isolado — carga e ponto",
+     "valor": "900 N por 1 min, a 840 mm do topo da sapata",
+     "item": "6.1.4",
+     "cota": "esquemas/guarda-corpo-ensaios-prfv.svg#altura-carga"
+    },
+    {
+     "parametro": "Montante isolado de 1 100 mm — flecha máx. / residual",
+     "valor": "30,0 mm / 2,0 mm",
+     "item": "6.1.4, Tab. 1",
+     "cota": "esquemas/guarda-corpo-ensaios-prfv.svg#flecha-montante"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção de recebimento",
+   "item": "6.2",
+   "texto": "Por lote: exame visual, dimensional e Barcol (critérios da Parte 1) e ensaio de flecha do montante isolado em uma amostra; um montante não ensaiado é cortado para ver o reforço. O representante do comprador escolhe as amostras ao acaso pela Tabela 2; lotes muito grandes vão para a ISO 2859-1. Recomenda-se lacrar os corpos de prova (furo pequeno na união montante–corrimão).",
+   "valores": [
+    {
+     "parametro": "Lote acima do qual se usa a ISO 2859-1",
+     "valor": "> 3 200 (nível 1, NQA 4)",
+     "item": "6.2, Tab. 2"
+    },
+    {
+     "parametro": "Furo para lacre",
+     "valor": "≈ 5 mm",
+     "item": "Anexo A"
+    }
+   ]
+  },
+  {
+   "titulo": "Relatórios, designação e marcação",
+   "item": "7–9",
+   "texto": "O relatório de tipo reúne os ensaios das Partes 1 e 2 e identifica produto, fabricante e formulação. A liberação traz relatório de inspeção e desenhos de montagem. A designação cita nome, norma e desenho; a marcação, durável, traz fabricante, norma, rastreabilidade e ano, tipo de resina.",
+   "valores": []
+  }
+ ]
+}

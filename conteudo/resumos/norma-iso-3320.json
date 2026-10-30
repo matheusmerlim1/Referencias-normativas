@@ -1,0 +1,51 @@
+{
+ "id": "ISO-3320",
+ "titulo": "ISO 3320:2013 — Sistemas fluidomecânicos — Diâmetros de camisa e de haste de cilindros e relações de área — Série métrica",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Série métrica de diâmetros de camisa (AL) e de haste (MM) para cilindros hidráulicos e pneumáticos, e relação de áreas para cada par. Trata só de dimensões, não de funcionamento. Substitui a ISO 3320:1987 e a ISO 7181:1991.",
+   "valores": []
+  },
+  {
+   "titulo": "Diâmetros",
+   "item": "5, Tab. 2–3",
+   "texto": "Valores entre parênteses são não preferenciais (aplicações especiais). Extensão acima pela série de números preferenciais ISO 3 (R10 até 100 mm, R20 acima).",
+   "valores": [
+    {
+     "parametro": "Camisas AL (preferenciais)",
+     "valor": "8, 10, 12, 16, 20, 25, 32, 40, 50, 60, 63, 80, 100, 125, 160, 200, 250, 320, 400, 500 mm",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Camisas não preferenciais",
+     "valor": "90, 110, 140, 180, 220, 280, 360, 450 mm",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Hastes MM",
+     "valor": "4 a 450 mm (ex. 12, 14, 16, 18, 20, 22, 25, 28, 32, 36, 40, 45, 50, 56, 63, 70, 80, 90, 100…)",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Hastes não preferenciais",
+     "valor": "30, 60, 120 mm",
+     "item": "Tab. 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Relações de área",
+   "item": "6, Tab. 4",
+   "texto": "Para cada par camisa/haste, a Tabela 4 dá A1 (área do êmbolo), A2 (área da coroa) e a relação φ = A1/A2, próxima de um número preferencial.",
+   "valores": [
+    {
+     "parametro": "Relações preferenciais φ",
+     "valor": "1,06; 1,12; 1,25; 1,33; 1,4; 1,6; 2; 2,5; 5",
+     "item": "6.2"
+    }
+   ]
+  }
+ ]
+}

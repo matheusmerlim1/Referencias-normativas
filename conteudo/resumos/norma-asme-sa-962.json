@@ -1,0 +1,26 @@
+{
+ "id": "ASME-SA-962",
+ "titulo": "SA-962 — Requisitos gerais para fixadores e materiais de fixação de aço para qualquer temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns às especificações de parafusaria de aço carbono, liga e inoxidável (SA-193, 194, 320, 437, 453, 540 e outras): fusão, fabricação, química, propriedades mecânicas, dureza, impacto, descarbonetação e marcação."
+  },
+  {
+   "titulo": "Fusão e fabricação",
+   "item": "5, 6",
+   "texto": "Aço totalmente acalmado, salvo indicação; conversor a oxigênio só para graus com menos de 6 % Cr. Barras pela SA-29 ou SA-484; acabamento a critério do fabricante."
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "7 a 11",
+   "texto": "Química (A751), ensaios pela A370 com corpos de prova do material de produção. Em conflito sobre resistência mínima, a tração prevalece sobre a dureza. Charpy com o corpo de prova padrão da A370."
+  },
+  {
+   "titulo": "Descarbonetação e marcação",
+   "item": "13, 19",
+   "texto": "Profundidade de descarbonetação (total + parcial) medida após todo o tratamento, limitada pelos valores da SA-574, qualquer que seja o material. Marcação de grau e fabricante conforme a especificação do produto."
+  }
+ ]
+}

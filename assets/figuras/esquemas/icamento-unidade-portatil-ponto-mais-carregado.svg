@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="Ponto de içamento mais carregado — planta (distâncias ao CG) e elevação">
+<title>Ponto de içamento mais carregado — planta (distâncias ao CG) e elevação (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Ponto de içamento mais carregado — planta (distâncias ao CG) e elevação</text>
+<path class="sl" d="M60,330 L360,330 L360,150 L60,150 z"/>
+<circle class="s" cx="60" cy="330" r="6"/>
+<text class="b" x="44" y="348">A</text>
+<circle class="s" cx="360" cy="330" r="6"/>
+<text class="b" x="368" y="348">B</text>
+<circle class="s" cx="360" cy="150" r="6"/>
+<text class="b" x="368" y="142">C</text>
+<circle class="s" cx="60" cy="150" r="6"/>
+<text class="b" x="44" y="142">D</text>
+<circle class="wd" cx="250" cy="260" r="7"/>
+<text class="b en" x="238" y="250">CG</text>
+<line class="h" x1="250" y1="260" x2="250" y2="330"/>
+<line class="h" x1="250" y1="260" x2="360" y2="260"/>
+<g id="cota-a1" class="cota"><line class="e" x1="60" y1="333" x2="60" y2="364"/><line class="e" x1="250" y1="333" x2="250" y2="364"/><line class="d" x1="60" y1="358" x2="250" y2="358" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="155" y="376">a1</text></g>
+<g id="cota-a2" class="cota"><line class="e" x1="250" y1="333" x2="250" y2="364"/><line class="e" x1="360" y1="333" x2="360" y2="364"/><line class="d" x1="250" y1="358" x2="360" y2="358" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="305" y="376">a2</text></g>
+<g id="cota-LAB" class="cota"><line class="e" x1="60" y1="333" x2="60" y2="398"/><line class="e" x1="360" y1="333" x2="360" y2="398"/><line class="d" x1="60" y1="392" x2="360" y2="392" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="210" y="410">L A-B</text></g>
+<g id="cota-b1" class="cota"><line class="e" x1="363" y1="330" x2="396" y2="330"/><line class="e" x1="363" y1="260" x2="396" y2="260"/><line class="d" x1="390" y1="330" x2="390" y2="260" marker-start="url(#a)" marker-end="url(#a)"/><text x="397" y="300">b1</text></g>
+<g id="cota-b2" class="cota"><line class="e" x1="363" y1="260" x2="396" y2="260"/><line class="e" x1="363" y1="150" x2="396" y2="150"/><line class="d" x1="390" y1="260" x2="390" y2="150" marker-start="url(#a)" marker-end="url(#a)"/><text x="397" y="210">b2</text></g>
+<g id="cota-LBC" class="cota"><line class="e" x1="363" y1="330" x2="441" y2="330"/><line class="e" x1="363" y1="150" x2="441" y2="150"/><line class="d" x1="435" y1="330" x2="435" y2="150" marker-start="url(#a)" marker-end="url(#a)"/><text x="442" y="245">L B-C</text></g>
+<g id="cota-diagonal" class="cota"><line class="d" x1="60" y1="150" x2="360" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="150" y="200">diagonal entre olhais</text></g>
+<text class="b m" x="210" y="440">Planta — 4 pontos (B = ponto mais carregado)</text>
+<text class="n m" x="210" y="460">(3 pontos: mesmas grandezas com A, B e C)</text>
+<rect class="sl" x="560" y="340" width="280" height="60"/>
+<circle class="g" cx="700" cy="122" r="8"/>
+<line class="g" x1="700" y1="130" x2="560" y2="340"/>
+<line class="g" x1="700" y1="130" x2="840" y2="340"/>
+<line class="c" x1="700" y1="130" x2="700" y2="340"/>
+<g id="cota-h" class="cota"><line class="e" x1="837" y1="340" x2="794" y2="340"/><line class="e" x1="837" y1="130" x2="794" y2="130"/><line class="d" x1="800" y1="340" x2="800" y2="130" marker-start="url(#a)" marker-end="url(#a)"/><text x="807" y="240">h</text></g>
+<g id="cota-alfaB" class="cota"><path class="d" d="M749.9,204.9 A90,90 0 0,1 700,220" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="732.5" y="242.2">αB</text></g>
+<g id="cota-alfaA" class="cota"><path class="d" d="M700,220 A90,90 0 0,1 650.1,204.9" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="667.5" y="242.2">αA</text></g>
+<text class="b m" x="700" y="440">Elevação — α = ângulo da perna com a vertical</text>
+<text class="n" x="20" y="508">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

@@ -1,0 +1,48 @@
+{
+ "id": "ISO-8752",
+ "titulo": "ISO 8752:1997 — Pinos elásticos (fendidos) — Série pesada",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Pino elástico cilíndrico fendido, série pesada, em aço ou inox austenítico ou martensítico, d de 1 a 50 mm. Os diâmetros permitem encaixar pinos um dentro do outro ou combinar com pinos da série leve (ISO 13337).",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "d = 1 a 50 mm",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3",
+   "texto": "Por diâmetro: espessura da parede, diâmetro antes da montagem, chanfros, largura da fenda e comprimentos; carga mínima de cisalhamento duplo.",
+   "valores": []
+  },
+  {
+   "titulo": "Material",
+   "item": "4–5",
+   "texto": "Forma e largura da fenda a critério do fornecedor; pinos não intertraváveis marcados 'N'.",
+   "valores": [
+    {
+     "parametro": "Aço — dureza",
+     "valor": "temperado e revenido a 420–520 HV30 ou austemperado a 500–560 HV30",
+     "item": "4"
+    },
+    {
+     "parametro": "Inox martensítico (C) — dureza",
+     "valor": "temperado e revenido a 440–560 HV30",
+     "item": "4",
+     "nota": "OCR — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "6",
+   "texto": "Ex.: pino elástico ISO 8752 – 6 × 30 – St (aço); inox martensítico não intertravável: ISO 8752 – 6 × 30 – C – N.",
+   "valores": []
+  }
+ ]
+}

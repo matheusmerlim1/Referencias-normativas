@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SFA-5.15",
+ "titulo": "SFA-5.15 — Varetas e eletrodos para soldagem de ferro fundido (AWS A5.15)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Varetas para oxigás, eletrodos para MIG, eletrodos tubulares (FCAW) e eletrodos revestidos (SMAW) para soldar ferro fundido cinzento, maleável, nodular e ligado."
+  },
+  {
+   "titulo": "Classificações e composição",
+   "item": "Tabela 1",
+   "texto": "Ferro fundido (RCI, RCI-A…), níquel (ENi-CI), níquel-ferro (ENiFe-CI), níquel-ferro-manganês, níquel-cobre, entre outras.",
+   "valores": [
+    {
+     "parametro": "RCI (vareta) — C / Si / Mn",
+     "valor": "3,2–3,5 % / 2,7–3,0 % / 0,60–0,75 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "ENi-CI — Ni mín. / C máx. / Fe máx.",
+     "valor": "85 % / 2,0 % / 8,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "ENiFe-CI — Ni / C máx.",
+     "valor": "45–60 % / 2,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabela 2",
+   "texto": "Análise química do metal depositado (pad) ou do arame, conforme a classificação; tração quando exigida."
+  }
+ ]
+}

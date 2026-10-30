@@ -1,0 +1,111 @@
+{
+ "id": "NR-01",
+ "titulo": "NR-01 — Disposições gerais e gerenciamento de riscos ocupacionais",
+ "secoes": [
+  {
+   "titulo": "Objetivo e campo de aplicação",
+   "item": "1.1–1.2",
+   "texto": "A NR-01 é a norma de base das NRs: define o campo de aplicação, os termos comuns (Anexo I) e as regras para gerenciar riscos ocupacionais. As NRs obrigam empregadores e empregados urbanos e rurais, inclusive órgãos públicos com empregados CLT. Cumprir as NRs não dispensa códigos de obras, regulamentos sanitários estaduais/municipais nem acordos coletivos.",
+   "valores": []
+  },
+  {
+   "titulo": "Competências",
+   "item": "1.3",
+   "texto": "A Secretaria de Trabalho, por meio da Subsecretaria de Inspeção do Trabalho (SIT), formula as diretrizes de SST, promove a CANPAT, coordena o PAT e fiscaliza o cumprimento das normas em todo o país; os órgãos regionais fiscalizam e aplicam penalidades.",
+   "valores": []
+  },
+  {
+   "titulo": "Direitos e deveres",
+   "item": "1.4",
+   "texto": "O empregador cumpre e faz cumprir as normas, informa os riscos, as medidas de prevenção e os resultados de exames e avaliações ambientais, emite ordens de serviço de SST, define o que fazer em caso de acidente (com análise de causa) e implanta as medidas na ordem de prioridade abaixo. O trabalhador cumpre as normas e ordens de serviço, faz os exames, colabora e usa o EPI; recusar sem justificativa é falta. O trabalhador pode parar a atividade ao ver risco grave e iminente, avisando o superior; confirmado o risco, não pode ser obrigado a voltar antes da correção. Na admissão ou mudança de função com novo risco, ele recebe informação sobre riscos, prevenção, emergência e direito de recusa.",
+   "valores": [
+    {"parametro": "Hierarquia das medidas de prevenção", "valor": "1º eliminar o fator de risco; 2º proteção coletiva; 3º medidas administrativas/organização do trabalho; 4º EPI", "item": "1.4.1 g)"},
+    {"parametro": "Direito de recusa", "valor": "risco grave e iminente — parar e avisar o superior imediatamente", "item": "1.4.3"}
+   ]
+  },
+  {
+   "titulo": "Gerenciamento de riscos ocupacionais (GRO) e PGR",
+   "item": "1.5.1–1.5.3",
+   "texto": "Cada estabelecimento implanta o gerenciamento de riscos, que constitui o Programa de Gerenciamento de Riscos (PGR); a organização pode montá-lo por unidade, setor ou atividade, ou atendê-lo por um sistema de gestão que cumpra a NR. A organização evita riscos, identifica perigos, avalia e classifica os riscos pelo nível, implanta medidas pela hierarquia e acompanha o controle, considerando a ergonomia (NR-17). Os trabalhadores são consultados (inclusive via CIPA) e informados do inventário e do plano de ação. Insalubridade e periculosidade seguem NR-15 e NR-16.",
+   "valores": []
+  },
+  {
+   "titulo": "Identificação de perigos e avaliação de riscos",
+   "item": "1.5.4",
+   "texto": "O levantamento preliminar de perigos é feito antes de iniciar o estabelecimento ou nova instalação, para atividades existentes e em mudanças de processo; se o risco não puder ser evitado, segue-se a identificação de perigos (descrição, fontes, grupos expostos, perigos externos previsíveis) e a avaliação. O nível de risco combina a severidade (gravidade e número de afetados, inclusive acidentes ampliados) com a probabilidade (atendimento às NRs, medidas existentes, exigências da atividade e comparação com os valores de referência da NR-09). Depois os riscos são classificados para decidir as medidas e o plano de ação.",
+   "valores": [
+    {"parametro": "Nível de risco", "valor": "combinação de severidade × probabilidade", "item": "1.5.4.4.2"},
+    {"parametro": "Revisão da avaliação de riscos", "valor": "a cada 2 anos (e após medidas, mudanças, ineficácia, acidente/doença ou mudança legal)", "item": "1.5.4.4.6"},
+    {"parametro": "Revisão — organização com sistema de gestão de SST certificado", "valor": "até 3 anos", "item": "1.5.4.4.6.1"}
+   ]
+  },
+  {
+   "titulo": "Controle dos riscos, plano de ação e saúde",
+   "item": "1.5.5",
+   "texto": "Adotam-se medidas sempre que uma norma exigir, a classificação do risco indicar ou o controle médico ligar agravos à exposição. Se a proteção coletiva for inviável, insuficiente, provisória ou emergencial, usam-se medidas administrativas e, por último, EPI, informando os trabalhadores sobre seus limites. O plano de ação tem cronograma, acompanhamento e verificação de resultado; implantação e ajustes são registrados; o desempenho é acompanhado por verificação de ações, inspeções e monitoramento, e medidas ineficazes são corrigidas. O controle de saúde segue a NR-07. Acidentes e doenças do trabalho são analisados e documentados (situação real, fatores e lições para as medidas).",
+   "valores": []
+  },
+  {
+   "titulo": "Emergências",
+   "item": "1.5.6",
+   "texto": "A organização mantém procedimentos de resposta aos cenários de emergência compatíveis com seus riscos, prevendo primeiros socorros, remoção de acidentados, abandono e, se aplicável, cenários de grande porte.",
+   "valores": []
+  },
+  {
+   "titulo": "Documentação do PGR",
+   "item": "1.5.7",
+   "texto": "O PGR tem no mínimo o inventário de riscos e o plano de ação, datados e assinados, sempre à disposição dos trabalhadores e da fiscalização. O inventário consolida a caracterização de processos, ambientes e atividades, perigos e agravos possíveis, fontes, grupos expostos, medidas existentes, dados de exposição a agentes (NR-09) e de ergonomia (NR-17), a avaliação e classificação dos riscos e os critérios usados; deve ser mantido atualizado.",
+   "valores": [
+    {"parametro": "Documentos mínimos do PGR", "valor": "inventário de riscos + plano de ação", "item": "1.5.7.1"},
+    {"parametro": "Guarda do histórico de atualizações do inventário", "valor": "≥ 20 anos (ou o prazo de norma específica)", "item": "1.5.7.3.3.1"}
+   ]
+  },
+  {
+   "titulo": "Várias empresas no mesmo local (contratante × contratada)",
+   "item": "1.5.8",
+   "texto": "Empresas que trabalham ao mesmo tempo no mesmo local integram suas medidas de prevenção. O PGR da contratante pode incluir as contratadas ou referenciar os programas delas; a contratante informa os riscos que gerencia e a contratada entrega o inventário de riscos das atividades que faz nas instalações da contratante.",
+   "valores": []
+  },
+  {
+   "titulo": "Informação digital e documentos",
+   "item": "1.6",
+   "texto": "As informações de SST são prestadas em formato digital pelo modelo oficial. Documentos das NRs podem ser emitidos e guardados em meio digital com certificado ICP-Brasil; documentos em papel podem ser digitalizados preservando integridade e autenticidade (com certificado ICP-Brasil), mantidos os originais quando a lei exigir. A fiscalização tem acesso irrestrito aos documentos digitais.",
+   "valores": []
+  },
+  {
+   "titulo": "Capacitação e treinamento",
+   "item": "1.7",
+   "texto": "A capacitação prevista nas NRs compreende treinamento inicial (antes de começar a função ou no prazo da NR), periódico (prazo da NR ou, se omisso, do empregador) e eventual; pode incluir prática supervisionada, simulados ou habilitação. O tempo de treinamento é tempo de trabalho. Ao final emite-se certificado (nome e assinatura do trabalhador, conteúdo, carga horária, data, local, instrutores e responsável técnico), entregue ao trabalhador com cópia arquivada e anotação nos registros funcionais. Conteúdos de treinamentos anteriores podem ser aproveitados ou convalidados sob condições; a validade passa a contar do treinamento mais antigo aproveitado. EAD e semipresencial são permitidos conforme o Anexo II.",
+   "valores": [
+    {"parametro": "Treinamento eventual — gatilhos", "valor": "mudança que altere riscos; acidente grave ou fatal; retorno de afastamento > 180 dias", "item": "1.7.1.2.3"},
+    {"parametro": "Aproveitamento de conteúdo (mesma organização ou entre organizações) — idade do treinamento anterior", "valor": "dentro da periodicidade da NR ou, se não houver, < 2 anos", "item": "1.7.6 b); 1.7.7.1 e)"},
+    {"parametro": "Validade do treinamento com conteúdo aproveitado", "valor": "conta a partir da data do treinamento mais antigo aproveitado", "item": "1.7.6.1.1; 1.7.8.1"}
+   ]
+  },
+  {
+   "titulo": "MEI, microempresa (ME) e empresa de pequeno porte (EPP)",
+   "item": "1.8",
+   "texto": "O MEI não precisa elaborar PGR, mas a contratante deve incluí-lo no seu quando ele atua em suas dependências. ME e EPP sem SESMT podem estruturar o PGR com a ferramenta oficial de avaliação de risco. ME e EPP de grau de risco 1 ou 2 (NR-04) sem exposição a agentes físicos, químicos e biológicos, que façam a declaração digital, ficam dispensadas do PGR; se também não houver risco ergonômico, ficam dispensadas do PCMSO — sem dispensa dos exames e do ASO. As demais exigências das NRs continuam valendo.",
+   "valores": [
+    {"parametro": "Dispensa de PGR (ME/EPP)", "valor": "grau de risco 1 ou 2, sem exposição a agentes físicos/químicos/biológicos e com declaração digital", "item": "1.8.4"},
+    {"parametro": "Dispensa de PCMSO (MEI/ME/EPP)", "valor": "grau de risco 1 ou 2, sem agentes nem fatores ergonômicos e com declaração digital (exames e ASO continuam)", "item": "1.8.6–1.8.6.1"}
+   ]
+  },
+  {
+   "titulo": "Disposições finais e Anexo I — Termos e definições",
+   "item": "1.9; Anexo I",
+   "texto": "O descumprimento gera as penalidades da lei; casos omissos são decididos pela Secretaria de Trabalho. O Anexo I define, entre outros: agente físico (energia capaz de causar dano — ruído, vibração, pressões anormais, temperaturas extremas, radiações; iluminação e conforto térmico/acústico da NR-17 não contam como agente físico para a NR-09), agente químico, agente biológico, canteiro de obra (área fixa e temporária), frente de trabalho (área móvel e temporária), obra (qualquer serviço de engenharia de construção, montagem, instalação, manutenção ou reforma), perigo (fonte com potencial de dano) e risco ocupacional (probabilidade combinada com severidade).",
+   "valores": []
+  },
+  {
+   "titulo": "Anexo II — Ensino a distância e semipresencial",
+   "item": "Anexo II",
+   "texto": "O curso EAD/semipresencial (próprio ou contratado) tem pelo menos a mesma carga horária do presencial, projeto pedagógico completo (objetivos, estratégia, responsável técnico, conteúdo, carga horária, prazos, material, avaliação) disponível à fiscalização, ao sindicato e à CIPA, horário exclusivo para o curso (não concomitante com o trabalho), canal de dúvidas ativo, avaliação com resultado satisfatório/insatisfatório (presencial assinada ou digital com login individual e rastreabilidade, com situações práticas) e plataforma AVA adequada.",
+   "valores": [
+    {"parametro": "Carga horária EAD/semipresencial", "valor": "≥ a do curso presencial equivalente", "item": "Anexo II, 2.3"},
+    {"parametro": "Validação do projeto pedagógico", "valor": "a cada 2 anos ou quando a NR mudar", "item": "Anexo II, 3.2"},
+    {"parametro": "Guarda dos logs de acesso", "valor": "≥ 2 anos após o fim da validade do curso", "item": "Anexo II, 4.7.1"}
+   ]
+  }
+ ]
+}

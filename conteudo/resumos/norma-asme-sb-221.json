@@ -1,0 +1,33 @@
+{
+ "id": "ASME-SB-221",
+ "titulo": "SB-221 — Barras, vergalhões, tubos e perfis extrudados de alumínio e ligas de alumínio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras, vergalhões e perfis extrudados de alumínio e ligas nas ligas e têmperas da Tabela 2. Ligas e têmperas pela ANSI H35.1 (têmpera O = recozido; H = encruado; T = tratado termicamente)."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su (mín./máx.) / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "1060-O e H112",
+     "valor": "8,5 ksi mín. / 2,5 ksi / 25 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "1100-O",
+     "valor": "11,0–15,5 ksi / 3,0 ksi / 25 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "2024-T3 (até 0,249 in)",
+     "valor": "57,0 ksi / 42,0 ksi / 12 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

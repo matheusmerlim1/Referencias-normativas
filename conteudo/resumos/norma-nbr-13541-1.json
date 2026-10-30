@@ -1,0 +1,55 @@
+{
+ "id": "NBR-13541-1",
+ "titulo": "ABNT NBR 13541-1:2013 — Linga de cabo de aço — Parte 1: Requisitos e métodos de ensaio",
+ "secoes": [
+  {"titulo": "Escopo", "item": "1",
+   "texto": "Requisitos mínimos de fabricação, cálculo da carga máxima de trabalho (CMT), verificação, certificação e marcação de lingas de cabo de aço para içamento geral: uma a quatro pernas, olhais com presilha ou trançados (tipos 1 a 4) e laços sem fim, cabos de 6 ou 8 pernas de 8 mm a 83 mm. Uso e inspeção estão na Parte 2.",
+   "valores": [
+    {"parametro": "Faixa de diâmetros", "valor": "8 mm a 83 mm (cabos de 6 ou 8 pernas)", "item": "1"}
+   ]},
+  {"titulo": "Definições", "item": "3",
+   "texto": "CMT: massa máxima que a linga pode sustentar em serviço geral. Comprimento da linga: entre os pontos de apoio dos olhais. Método forca: a linga envolve a peça e um olhal passa pelo próprio corpo da linga; método cesta: a linga envolve a peça e os dois olhais vão ao equipamento. Anel de carga principal (no gancho) e intermediário (une pernas ao principal). Linga assimétrica: pernas de comprimentos diferentes.",
+   "valores": []},
+  {"titulo": "Cabo e olhais", "item": "4.1",
+   "texto": "Lingas só com cabo novo. Olhal com presilha conforme NBR 11900-3 com ensaio de tipo; olhal trançado conforme NBR ISO 8794. Anéis e terminais devem ter CMT pelo menos igual à da linga ou da perna. Sem sapatilho, o acessório deve ter diâmetro de pelo menos 2× o do cabo.",
+   "valores": [
+    {"parametro": "Categoria mínima do cabo — alma de fibra / alma de aço", "valor": "1 770 MPa / 1 960 MPa", "item": "4.1.1"},
+    {"parametro": "Comprimento livre mínimo entre presilhas", "valor": "20 × diâmetro do cabo", "item": "4.1.2.1"},
+    {"parametro": "Comprimento livre mínimo entre trançados", "valor": "15 × diâmetro do cabo", "item": "4.1.2.2"},
+    {"parametro": "Tolerância das dimensões do olhal (B e C)", "valor": "± 10 %", "item": "Tab. 1"},
+    {"parametro": "Diâmetro do acessório sem sapatilho", "valor": "≥ 2 × diâmetro do cabo", "item": "4.2.1"}
+   ]},
+  {"titulo": "Linga de uma perna", "item": "4.2",
+   "texto": "Comprimento entre apoios dos olhais com tolerância limitada; lingas usadas em conjunto (balancim) têm diferença de comprimento ainda menor. CMT pela carga de ruptura mínima do cabo, eficiência do terminal e coeficiente 5.",
+   "valores": [
+    {"parametro": "CMT (t) — uma perna", "valor": "CMT = Fmin·KT / (Zp·g), Fmin em kN, Zp = 5, g = 10", "item": "4.2.4, Eq. 1"},
+    {"parametro": "KT — presilha (olhal dobrado/flamengo) / trançado manual", "valor": "0,9 / 0,8", "item": "4.2.4"},
+    {"parametro": "Tolerância de comprimento — com presilha", "valor": "maior de 2d ou 1 % do comprimento", "item": "4.2.2"},
+    {"parametro": "Tolerância de comprimento — trançada", "valor": "maior de 4d ou 2 % do comprimento", "item": "4.2.2"},
+    {"parametro": "Carga de prova", "valor": "2 × CMT (em kN, g = 10); taxa ≤ 10 MPa/s", "item": "4.2.5"},
+    {"parametro": "Pino de apoio admitido nas Tabelas 3–5 (olhal sem sapatilho)", "valor": "≥ 2 × diâmetro do cabo", "item": "Tab. 3–5, Nota 1"}
+   ]},
+  {"titulo": "Laço sem fim", "item": "4.3",
+   "texto": "Formado com duas presilhas (NBR 11900-3) ou trançado (NBR ISO 8794). A CMT assume uso em forca, cujo efeito domina sobre a eficiência do terminal.",
+   "valores": [
+    {"parametro": "CMT (t) — laço sem fim", "valor": "CMT = Fmin·2·0,8 / (Zp·g)", "item": "4.3.4, Eq. 2"},
+    {"parametro": "Diâmetro do pino admitido", "valor": "≥ 6,25 × diâmetro do cabo", "item": "4.3.4, Nota 2"},
+    {"parametro": "Tolerância de comprimento do laço trançado", "valor": "maior de 4d ou 2 %", "item": "4.3.1"}
+   ]},
+  {"titulo": "Linga de múltiplas pernas", "item": "4.4",
+   "texto": "Duas, três ou quatro pernas iguais em diâmetro, construção e categoria, unidas por anel principal e anéis intermediários. A CMT inclui o fator KL do número de pernas e do ângulo com a vertical (simétrica).",
+   "valores": [
+    {"parametro": "CMT (t) — múltiplas pernas", "valor": "CMT = Fmin·KT·KL / (Zp·g)", "item": "4.4.4, Eq. 3"},
+    {"parametro": "KL — 1 perna / 2 pernas 0–45° / 2 pernas 45–60°", "valor": "1 / 1,4 / 1", "item": "Tab. 3–5"},
+    {"parametro": "KL — 3 e 4 pernas 0–45° / 45–60°", "valor": "2,1 / 1,5", "item": "Tab. 3–5"},
+    {"parametro": "Tolerância de cada perna", "valor": "maior de 2d ou 1 %", "item": "4.4.1.2"},
+    {"parametro": "Diferença entre pernas (sem carga)", "valor": "≤ maior de 1,5d ou 0,5 % do comprimento", "item": "4.4.1.3"},
+    {"parametro": "Lingas em conjunto (balancim)", "valor": "diferença ≤ maior de d ou 0,5 %", "item": "4.4.2"},
+    {"parametro": "Anel principal único — 3 / 4 pernas (abertura interna)", "valor": "> 3,75 / > 5 × largura do sapatilho", "item": "4.4.3.2–4.4.3.3"},
+    {"parametro": "Carga de prova", "valor": "por perna, 2 × CMT da perna", "item": "4.4.5"}
+   ]},
+  {"titulo": "Verificação, marcação e documentação", "item": "5–6, Anexos A–B",
+   "texto": "Registros do fabricante comprovam a conformidade de cabo, ganchos, manilhas, anéis e olhais. Marcação na linga (CMT, identificação) e certificado. Anexo A: dados para cotação; Anexo B: amostragem para inspeção, carga de prova e ruptura.",
+   "valores": []}
+ ]
+}

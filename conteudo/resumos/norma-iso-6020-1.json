@@ -1,0 +1,35 @@
+{
+ "id": "ISO-6020-1",
+ "titulo": "ISO 6020-1:2007 — Cilindros hidráulicos de haste simples, série média 16 MPa (160 bar) — Dimensões de montagem — Parte 1",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Dimensões de montagem para intercambiabilidade de cilindros hidráulicos de haste simples, série média 16 MPa (160 bar): cabeçote redondo para camisas de 25 a 200 mm e redondo ou quadrado acima de 200 mm. Não limita o projeto interno.",
+   "valores": [
+    {
+     "parametro": "Pressão nominal",
+     "valor": "16 MPa (160 bar)",
+     "item": "1"
+    },
+    {
+     "parametro": "Camisas",
+     "valor": "25 a 200 mm (cabeçote redondo); acima de 200 mm redondo ou quadrado",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões e montagens",
+   "item": "4–7, Tab. 1–7",
+   "texto": "Dimensões gerais (Tab. 1), flange retangular MF1/MF2, flange circular MF3/MF4, olhal traseiro MP3 a MP6 (fixo, removível, com rótula), patas laterais MS2, munhão intermediário MT4, tamanhos de pórticos e flanges (Tab. 7, ISO 6162/6164). Códigos de dimensão e montagem pela ISO 6099; tolerâncias de curso por tabela.",
+   "valores": []
+  },
+  {
+   "titulo": "Haste e identificação",
+   "item": "8–9",
+   "texto": "Haste com rosca macho com ressalto (tipos de ponta na ISO 4395; acessórios na ISO 8132). Frase de identificação para catálogos ao declarar conformidade.",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "id": "ASME-SA-765",
+ "titulo": "SA-765 — Forjados de aço carbono e baixa liga para vasos de pressão com requisitos obrigatórios de tenacidade",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Forjados de aço carbono e liga, tratados termicamente, com tenacidade obrigatória, para vasos de pressão, aquecedores de água de alimentação e usos similares: espelhos, tampas, carretéis, canais forjados, anéis, bocais, flanges. Graus I a V. Fusão e requisitos gerais pela SA-788."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "4",
+   "texto": "Normalização e revenimento, dupla normalização e revenimento ou têmpera e revenimento, a critério do fabricante."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx. — I, II, V / III, IV",
+     "valor": "0,30 % / 0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn — I / II, V / IV",
+     "valor": "0,60–1,05 / 0,60–1,35 / 1,00–1,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,020 % / 0,020 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su / Sy mín. / alongamento / redução de área.",
+   "valores": [
+    {
+     "parametro": "Grau I",
+     "valor": "60–85 ksi [415–585] / 30 ksi [205] / 25 % / 38 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau II",
+     "valor": "70–95 ksi [485–655] / 36 ksi [250] / 22 % / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau III",
+     "valor": "70–95 ksi [485–655] / 37,5 ksi [260] / 22 % / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau IV",
+     "valor": "80–105 ksi [550–725] / 50 ksi [345] / 22 % / 30 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio de impacto",
+   "item": "Tabela 3, 8",
+   "texto": "Charpy V obrigatório; temperatura diferente da padrão é marcada como sufixo do grau/classe.",
+   "valores": [
+    {
+     "parametro": "Grau I — média / individual / temperatura",
+     "valor": "13 ft·lbf [18 J] / 10 [14 J] / −20 °F [−30 °C]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau II",
+     "valor": "15 [20 J] / 12 [16 J] / −50 °F [−45 °C]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau III",
+     "valor": "15 [20 J] / 12 [16 J] / −150 °F [−100 °C]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau V",
+     "valor": "15 [20 J] / 12 [16 J] / −75 °F [−60 °C]",
+     "item": "Tabela 3",
+     "nota": "atribuição de temperaturas por posição de coluna; conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo",
+   "item": "7",
+   "texto": "Reparo por solda, se permitido pelo comprador, conforme o Código ASME."
+  }
+ ]
+}

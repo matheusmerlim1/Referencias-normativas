@@ -1,0 +1,95 @@
+{
+ "id": "ASME-SA-369",
+ "titulo": "SA-369 — Tubos de aço carbono e liga forjados e mandrilados para alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de parede grossa de aço carbono e liga ferrítica feitos de forjados torneados e mandrilados (furados), para alta temperatura; aptos a curvamento e solda. Graus FPA, FPB, FP1, FP2, FP5, FP9, FP11, FP12, FP21, FP22, FP91, FP92. Requisitos gerais pela SA-999."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "5",
+   "texto": "Lingotes, blocos ou barras forjados por martelo ou prensa, com descarte suficiente para eliminar defeitos; ensaios de aceitação após o tratamento térmico final."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "FPA — C máx. / Mn",
+     "valor": "0,25 % / 0,27–0,93 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "FPB — C máx. / Mn",
+     "valor": "0,30 % / 0,29–1,06 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "FP1 — C / Mo",
+     "valor": "0,10–0,20 % / 0,44–0,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "FP2 — Cr / Mo",
+     "valor": "0,50–0,81 % / 0,44–0,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "FP11 — C",
+     "valor": "0,05–0,15 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín.",
+   "valores": [
+    {
+     "parametro": "FPA",
+     "valor": "48 ksi [330] / 30 ksi [210]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "FPB",
+     "valor": "60 ksi [415] / 35 ksi [240]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "FP1, FP2",
+     "valor": "55 ksi [380] / 30 ksi [210]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "FP12",
+     "valor": "60 ksi [415] / 32 ksi [220]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "FP91",
+     "valor": "85 ksi [585] / 60 ksi [415]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "FP92",
+     "valor": "90 ksi [620] / 64 ksi [440]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Demais",
+     "valor": "60 ksi [415] / 30 ksi [210]",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "8, 10",
+   "texto": "Análise de produto por corrida, se pedida; tração em uma ponta de um tubo por corrida e lote de tratamento; achatamento em cada tubo até NPS 14 com D/t > 7,0; dobramento nos demais casos."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "id": "DIN-912",
+ "titulo": "DIN 912:1983 — Parafusos de cabeça cilíndrica com sextavado interno (ISO 4762 modificada)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafuso Allen de cabeça cilíndrica, grau de produto A, rosca métrica grossa (e algumas finas). Adota a ISO 4762:1977 com acréscimos nacionais. Substituída depois pela DIN EN ISO 4762.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M1,6 a M100 (inclui finas como M18×2, M20×2, M22×2)",
+     "item": "1, Nota",
+     "nota": "cópia OCR — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "2–3",
+   "texto": "Tabela de dimensões por rosca; comprimentos nominais acima de 300 mm em passos de 20 mm; parafusos acima da linha tracejada roscados até a cabeça. Até M4 a ponta pode não ser chanfrada.",
+   "valores": [
+    {
+     "parametro": "Comprimento de rosca (regra)",
+     "valor": "b = 2d + 12 mm",
+     "item": "Notas explicativas"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos e designação",
+   "item": "4–5",
+   "texto": "Requisitos técnicos de fornecimento pela DIN 267.",
+   "valores": [
+    {
+     "parametro": "Tolerância de rosca",
+     "valor": "5g6g para classe 12.9; 6g para as demais",
+     "item": "4"
+    },
+    {
+     "parametro": "Designação internacional",
+     "valor": "Parafuso Allen ISO 4762 – M12 × 60 – 12.9",
+     "item": "5"
+    }
+   ]
+  }
+ ]
+}

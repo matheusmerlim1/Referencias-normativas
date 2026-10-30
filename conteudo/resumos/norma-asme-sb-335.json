@@ -1,0 +1,67 @@
+{
+ "id": "ASME-SB-335",
+ "titulo": "SB-335 — Barras e vergalhões de ligas níquel-molibdênio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras de ligas Ni-Mo (N10001, N10665, N10675, N10629) para serviço corrosivo geral, solubilizadas e decapadas ou descascadas.",
+   "valores": [
+    {
+     "parametro": "Faixa de diâmetros",
+     "valor": "5/16 a 3 1/2 in (7,94 a 88,9 mm)",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Ligas níquel-molibdênio (família 'Hastelloy B').",
+   "valores": [
+    {
+     "parametro": "N10001 — Mo / Fe / C máx.",
+     "valor": "26,0–30,0 % / 4,0–6,0 % / 0,05 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N10665 — Mo / Fe máx. / C máx.",
+     "valor": "26,0–30,0 % / 2,0 % / 0,02 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N10675 — Ni mín. / Mo / Cr",
+     "valor": "65,0 % / 27,0–32,0 % / 1,0–3,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N10629 — Mo / Cr / C máx.",
+     "valor": "26,0–30,0 % / 0,5–1,5 % / 0,01 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N10001, 5/16 a 1 1/2 in",
+     "valor": "115 000 psi (795) / 46 000 psi (315) / 35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N10001, 1 1/2 a 3 1/2 in",
+     "valor": "100 000 psi (690) / 46 000 psi (315) / 30 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N10665 — Su mín.",
+     "valor": "110 000 psi (760)",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

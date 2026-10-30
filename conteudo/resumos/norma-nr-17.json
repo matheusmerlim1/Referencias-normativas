@@ -1,0 +1,333 @@
+{
+ "id": "NR-17",
+ "titulo": "NR-17 — Ergonomia",
+ "secoes": [
+  {
+   "titulo": "Objetivo e campo de aplicação",
+   "item": "17.1 e 17.2",
+   "texto": "A NR-17 trata de ajustar o trabalho às capacidades físicas e mentais de quem o executa, buscando conforto, segurança, saúde e bom desempenho. Cobre manuseio de cargas, mobiliário, uso de máquinas e ferramentas, conforto do ambiente e a forma como o trabalho é organizado. Vale para empregadores privados e órgãos públicos com empregados celetistas.",
+   "valores": []
+  },
+  {
+   "titulo": "Avaliação das situações de trabalho",
+   "item": "17.3",
+   "texto": "Toda organização faz uma avaliação ergonômica preliminar, registrada e levada ao inventário de riscos do PGR; o método pode ser qualitativo, semiquantitativo ou quantitativo. A Análise Ergonômica do Trabalho (AET) entra quando a avaliação preliminar não basta, quando as medidas se mostram insuficientes, quando o PCMSO a indica ou quando a análise de acidente ou doença aponta causa ergonômica. Os trabalhadores são ouvidos nas duas etapas, e as recomendações viram plano de ação no PGR.",
+   "valores": [
+    {
+     "parametro": "Gatilhos da AET",
+     "valor": "4 situações: aprofundamento necessário; medidas insuficientes; indicação do PCMSO; causa apontada em análise de acidente/doença",
+     "item": "17.3.2 a)–d)"
+    },
+    {
+     "parametro": "Etapas mínimas da AET",
+     "valor": "6: demanda; funcionamento da organização e da atividade; métodos justificados; diagnóstico; recomendações; restituição/validação com os trabalhadores",
+     "item": "17.3.3"
+    },
+    {
+     "parametro": "Dispensa de AET",
+     "valor": "ME/EPP de grau de risco 1 e 2 e MEI — exceto quando indicada pelo PCMSO ou por análise de acidente/doença",
+     "item": "17.3.4 e 17.3.4.1"
+    },
+    {
+     "parametro": "Guarda do relatório da AET",
+     "valor": "20 anos",
+     "item": "17.3.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Organização do trabalho",
+   "item": "17.4",
+   "texto": "A organização do trabalho considera normas de produção, modo operatório, exigência de tempo, ritmo, conteúdo das tarefas e carga cognitiva. Onde houver esforço repetitivo, postura extrema, força excessiva, vibração ou exigência mental elevada, adotam-se pelo menos duas medidas entre pausas (contadas como tempo de trabalho), rodízio de tarefas, mudança do modo de execução e outras medidas técnicas. Se não der para mudar a tarefa, pausas e rodízio passam a ser obrigatórios. As pausas são fora do posto e não podem vir com aumento de cadência.",
+   "valores": [
+    {
+     "parametro": "Medidas contra sobrecarga repetitiva/postural",
+     "valor": "no mínimo 2 alternativas (pausas, alternância, mudança da tarefa, outras medidas técnicas)",
+     "item": "17.4.3.1"
+    },
+    {
+     "parametro": "Pausas — condição",
+     "valor": "fora do posto de trabalho, sem aumento da cadência individual",
+     "item": "17.4.3.2"
+    },
+    {
+     "parametro": "Dispensa da orientação das chefias (17.4.7)",
+     "valor": "organização com até 10 empregados",
+     "item": "17.4.7.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Levantamento, transporte e descarga individual de cargas",
+   "item": "17.5",
+   "texto": "Ninguém deve carregar manualmente carga que ponha em risco a saúde; o limite é menor para mulheres e menores. Pega e depósito são organizados para evitar flexão, extensão e torção excessivas do tronco, com a carga perto do corpo. No transporte manual habitual aplica-se ao menos uma medida: meios auxiliares, adequar peso e tamanho, limitar frequência, encurtar trajetos ou alternar/pausar. Quem transporta carga habitualmente recebe orientação sobre o método. O capítulo não vale para movimentar pessoas.",
+   "valores": [
+    {
+     "parametro": "Alcance horizontal máximo da pega (levantamento não eventual)",
+     "valor": "≤ 60 cm do corpo",
+     "item": "17.5.2.1"
+    },
+    {
+     "parametro": "Intervalo máximo entre alternância/pausas no transporte manual",
+     "valor": "períodos ≤ 2 h",
+     "item": "17.5.4 e)"
+    }
+   ]
+  },
+  {
+   "titulo": "Mobiliário dos postos de trabalho",
+   "item": "17.6",
+   "texto": "O mobiliário deve ter alguma regulagem que atenda ao conjunto dos usuários e, sempre que possível, permitir alternar sentado e em pé. O plano de trabalho tem altura compatível com a tarefa, a visão e o assento, área de trabalho dentro do alcance manual e espaço livre para pernas e pés. Usa-se apoio para os pés quando a planta do pé não toca o piso. O assento tem altura ajustável, base quase plana, borda frontal arredondada e encosto lombar; quem trabalha em pé deve ter assentos com encosto para as pausas.",
+   "valores": [
+    {
+     "parametro": "Assento do posto — requisitos mínimos",
+     "valor": "altura ajustável; ajustes acessíveis; base com pouca conformação; borda frontal arredondada; encosto com apoio lombar",
+     "item": "17.6.6 a)–e)"
+    }
+   ]
+  },
+  {
+   "titulo": "Máquinas, equipamentos e ferramentas manuais",
+   "item": "17.7",
+   "texto": "Telas, sinais e comandos devem ser claros para evitar erro de leitura, em linha com a NR-12, e o painel fica em posição de fácil acesso e boa visibilidade. Terminais de vídeo e notebooks de uso habitual precisam de ajuste de tela, teclado e mouse. Ferramentas pesadas recebem dispositivo de sustentação ou outra medida; ferramentas manuais não podem comprimir palma ou dedos em quinas, e a empunhadura deve servir à tarefa e ao uso de luvas.",
+   "valores": []
+  },
+  {
+   "titulo": "Condições de conforto no ambiente",
+   "item": "17.8",
+   "texto": "A iluminação deve ser adequada à tarefa, sem ofuscamento, reflexos ou sombras, e nos ambientes internos segue os níveis da NHO 11 da Fundacentro (2018). Onde há atenção e esforço intelectual constantes, controlam-se ruído e clima. Correntes de ar diretas sobre o trabalhador devem ser evitadas.",
+   "valores": [
+    {
+     "parametro": "Iluminamento mínimo em ambiente interno",
+     "valor": "conforme NHO 11 (Fundacentro, versão 2018)",
+     "item": "17.8.3"
+    },
+    {
+     "parametro": "Ruído de fundo para conforto (sem norma técnica específica)",
+     "valor": "≤ 65 dB(A), Leq, resposta Slow",
+     "item": "17.8.4.1.2"
+    },
+    {
+     "parametro": "Temperatura do ar em ambiente climatizado",
+     "valor": "18 °C a 25 °C",
+     "item": "17.8.4.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo I — Operadores de checkout: posto de trabalho",
+   "item": "Anexo I, 3",
+   "texto": "O checkout deve servir a quase todos os operadores, permitir trabalhar sentado e em pé, evitar torção do tronco e ter cadeira ajustável com apoio lombar e apoio de pés separado. Checkouts longos exigem esteira motorizada. O mobiliário não pode ter quinas vivas nem fixadores salientes, e o ambiente protege contra correntes de ar e reflexos.",
+   "valores": [
+    {
+     "parametro": "Cobertura antropométrica do checkout",
+     "valor": "90 % dos trabalhadores",
+     "item": "Anexo I, 3.1 a)"
+    },
+    {
+     "parametro": "Comprimento de checkout que exige esteira eletromecânica",
+     "valor": "≥ 2,70 m",
+     "item": "Anexo I, 3.1 g)"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo I — Manipulação de mercadorias",
+   "item": "Anexo I, 4",
+   "texto": "A empresa reduz o esforço do operador com embalagens menores, tecnologia, leitura facilitada do código de barras ou pessoal de apoio. O ensacamento não deve virar rotina do operador. A pesagem pelo operador só é permitida com a balança à frente, nivelada e contínua com o balcão e o teclado próximo.",
+   "valores": [
+    {
+     "parametro": "Ensacadores",
+     "valor": "≥ 1 para cada 3 checkouts em funcionamento",
+     "item": "Anexo I, 4.3 a)"
+    },
+    {
+     "parametro": "Descontinuidade entre balança e superfície do checkout",
+     "valor": "≤ 2 cm de cada lado",
+     "item": "Anexo I, 4.4 c)"
+    },
+    {
+     "parametro": "Distância do teclado à borda interna do checkout",
+     "valor": "≤ 45 cm",
+     "item": "Anexo I, 4.4 d)"
+    },
+    {
+     "parametro": "Código de mercadoria pesada",
+     "valor": "≤ 8 dígitos",
+     "item": "Anexo I, 4.4 e)"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo I — Organização, aspectos psicossociais e treinamento",
+   "item": "Anexo I, 5 a 7",
+   "texto": "O número de caixas abertos acompanha o fluxo de clientes, com apoio, filas únicas, caixas especiais, pausas ou rodízio. A saída para necessidades fisiológicas é livre, mediante aviso, e é proibido premiar pelo número de itens. O operador usa crachá com o nome que escolher e não pode ser obrigado a vestimenta constrangedora. O treinamento sobre riscos e prevenção é dado na jornada.",
+   "valores": [
+    {
+     "parametro": "Treinamento inicial",
+     "valor": "≥ 2 h, até o 30º dia após a admissão",
+     "item": "Anexo I, 7.2.1"
+    },
+    {
+     "parametro": "Treinamento periódico",
+     "valor": "anual, ≥ 2 h",
+     "item": "Anexo I, 7.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo II — Teleatendimento: mobiliário",
+   "item": "Anexo II, 3",
+   "texto": "O posto de call center tem monitor e teclado com regulagens independentes, bancada de bordas arredondadas e altura regulável, mouse no mesmo plano do teclado e espaço livre para joelhos e pés. A cadeira tem cinco pés com rodízios, estofado respirável, altura, profundidade e encosto ajustáveis e apoio de braços regulável; fornece-se apoio de pés quando necessário.",
+   "valores": [
+    {
+     "parametro": "Superfície única teclado+monitor — regulagem vertical própria do monitor",
+     "valor": "≥ 26 cm",
+     "item": "Anexo II, 3.1 c)"
+    },
+    {
+     "parametro": "Bancada sem material de consulta — profundidade × largura",
+     "valor": "≥ 75 cm × 90 cm",
+     "item": "Anexo II, 3.1 d)"
+    },
+    {
+     "parametro": "Bancada com material de consulta — profundidade × largura",
+     "valor": "≥ 90 cm × 100 cm",
+     "item": "Anexo II, 3.1 e)"
+    },
+    {
+     "parametro": "Zona de alcance manual (raio centrado no ombro)",
+     "valor": "≤ 65 cm de cada lado",
+     "item": "Anexo II, 3.1 d) e e)"
+    },
+    {
+     "parametro": "Faixa de regulagem da altura da superfície de trabalho",
+     "valor": "≥ 13 cm",
+     "item": "Anexo II, 3.1 g)"
+    },
+    {
+     "parametro": "Espaço livre sob a bancada — nível dos joelhos",
+     "valor": "≥ 45 cm de profundidade",
+     "item": "Anexo II, 3.1 i)"
+    },
+    {
+     "parametro": "Espaço livre sob a bancada — nível dos pés",
+     "valor": "≥ 70 cm de profundidade",
+     "item": "Anexo II, 3.1 i)"
+    },
+    {
+     "parametro": "Base do assento",
+     "valor": "5 pés com rodízios",
+     "item": "Anexo II, 3.1 k) I"
+    },
+    {
+     "parametro": "Densidade da espuma do assento",
+     "valor": "40 a 50 kg/m³",
+     "item": "Anexo II, 3.1 k) III"
+    },
+    {
+     "parametro": "Altura do assento em relação ao piso",
+     "valor": "ajustável de 37 cm a 50 cm (até 3 modelos de cadeira)",
+     "item": "Anexo II, 3.1 k) IV"
+    },
+    {
+     "parametro": "Profundidade útil do assento",
+     "valor": "38 cm a 46 cm",
+     "item": "Anexo II, 3.1 k) V"
+    },
+    {
+     "parametro": "Largura do assento",
+     "valor": "≥ 40 cm",
+     "item": "Anexo II, 3.1 k) IX"
+    },
+    {
+     "parametro": "Largura do encosto",
+     "valor": "≥ 30,5 cm",
+     "item": "Anexo II, 3.1 k) IX"
+    },
+    {
+     "parametro": "Apoio de braço — altura sobre o assento",
+     "valor": "regulável de 20 cm a 25 cm",
+     "item": "Anexo II, 3.1 k) X"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo II — Equipamentos e ambiente",
+   "item": "Anexo II, 4 e 5",
+   "texto": "Cada operador recebe headset individual gratuito (ou um por posição, com as partes de contato individuais), com volume ajustável e proteção contra choque acústico, mantido e higienizado pela empresa. O monitor fica de frente e com ajuste contra reflexos. O ambiente segue os limites de ruído e clima da NR-17, com climatização homogênea e qualidade do ar conforme a Lei 13.589/2018 e a RE ANVISA 9/2003; o dreno de condensado não pode ir para o esgoto cloacal.",
+   "valores": []
+  },
+  {
+   "titulo": "Anexo II — Organização do trabalho e pausas",
+   "item": "Anexo II, 6",
+   "texto": "Em regra não há trabalho aos domingos e feriados, salvo autorização; nesse caso garante-se folga em domingo todo mês. O efetivo deve permitir que todos façam as pausas, que são registradas e acessíveis ao trabalhador. Após atendimento com agressão ou muito desgastante, há pausa extra. Monitoramento de produtividade não pode acelerar o trabalho, a escuta só ocorre com ciência do operador e são vedados script rígido, competição abusiva e exposição pública de resultados.",
+   "valores": [
+    {
+     "parametro": "Tempo efetivo de teleatendimento",
+     "valor": "≤ 6 h/dia, incluídas as pausas",
+     "item": "Anexo II, 6.3"
+    },
+    {
+     "parametro": "Limite semanal com prorrogação",
+     "valor": "36 h de tempo efetivo",
+     "item": "Anexo II, 6.3.1"
+    },
+    {
+     "parametro": "Pausas de descanso",
+     "valor": "2 pausas de 10 min contínuos, fora do posto",
+     "item": "Anexo II, 6.4.1 a) e b)"
+    },
+    {
+     "parametro": "Posição das pausas na jornada",
+     "valor": "após os primeiros 60 min e antes dos últimos 60 min",
+     "item": "Anexo II, 6.4.1 c)"
+    },
+    {
+     "parametro": "Intervalo para repouso e alimentação",
+     "valor": "20 min",
+     "item": "Anexo II, 6.4.2"
+    },
+    {
+     "parametro": "Jornada efetiva de até 4 h",
+     "valor": "1 pausa de 10 min contínuos",
+     "item": "Anexo II, 6.4.3"
+    },
+    {
+     "parametro": "Domingo de repouso (quando há trabalho autorizado aos domingos)",
+     "valor": "≥ 1 por mês",
+     "item": "Anexo II, 6.1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo II — Capacitação",
+   "item": "Anexo II, 7",
+   "texto": "Operadores e gestores, inclusive temporários, aprendem sobre riscos, sintomas de adoecimento (osteomuscular, mental, voz, audição, visão) e ajuste do posto, com material didático e dentro da jornada. Novos riscos exigem treinamento eventual.",
+   "valores": [
+    {
+     "parametro": "Treinamento inicial",
+     "valor": "4 h na admissão",
+     "item": "Anexo II, 7.1.2.1"
+    },
+    {
+     "parametro": "Treinamento periódico",
+     "valor": "a cada 6 meses",
+     "item": "Anexo II, 7.1.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexo II — Conforto, saúde e disposições transitórias",
+   "item": "Anexo II, 8 a 11",
+   "texto": "Exigem-se sanitários separados por sexo, local de lanche, armário com chave, água potável próxima e salas de descanso para as pausas. O PCMSO inclui vigilância epidemiológica ativa (voz, audição, visão, osteomuscular e saúde mental) e medidas de saúde vocal; a AET do setor descreve postos, metas, ciclos, horas extras e sobrecargas. O mobiliário é adaptado a pessoas com deficiência ou fora das medidas do anexo.",
+   "valores": [
+    {
+     "parametro": "Complemento para quem já tinha 15 min de intervalo (contratos em 02/04/2007)",
+     "valor": "+5 min remunerados, totalizando 20 min",
+     "item": "Anexo II, 11.1"
+    }
+   ]
+  }
+ ]
+}

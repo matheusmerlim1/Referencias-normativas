@@ -1,0 +1,127 @@
+{
+ "id": "ASME-SA-178",
+ "titulo": "SA-178 — Tubos de aço carbono e C-Mn soldados por resistência elétrica para caldeiras e superaquecedores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos ERW de espessura mínima, de aço carbono ou carbono-manganês, para tubos de caldeira, tubos de fumaça, tubos de superaquecedor e pontas (safe ends). Graus C e D não servem para pontas soldadas por forjamento. Requisitos gerais pela SA-450.",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo usual",
+     "valor": "1/2 a 5 in [12,7 a 127 mm]",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Espessura mínima usual",
+     "valor": "0,035 a 0,320 in [0,9 a 9,1 mm]",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4, 5",
+   "texto": "Grau D é acalmado. Após a solda, todo tubo é tratado termicamente e resfriado ao ar ou em câmara de atmosfera controlada; tubo trefilado a frio é tratado após o último passe.",
+   "valores": [
+    {
+     "parametro": "Tratamento após soldagem",
+     "valor": "≥ 1650 °F [900 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Tratamento após trefilação a frio",
+     "valor": "≥ 1200 °F [650 °C]",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau A (baixo C) — C / Mn",
+     "valor": "0,06–0,18 % / 0,27–0,63 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau C (médio C) — C máx. / Mn máx.",
+     "valor": "0,35 % / 0,80 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau D (C-Mn) — C máx. / Mn",
+     "valor": "0,27 % / 1,00–1,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx. — A e C",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx. — D",
+     "valor": "0,030 % / 0,015 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau D — Si mín.",
+     "valor": "0,10 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 3",
+   "texto": "Requisitos de tração só para os Graus C e D; para o Grau A a norma dá apenas valores para projeto (nota explicativa).",
+   "valores": [
+    {
+     "parametro": "Grau C — Su / Sy mín.",
+     "valor": "60 ksi [415 MPa] / 37 ksi [255 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau D — Su / Sy mín.",
+     "valor": "70 ksi [485 MPa] / 40 ksi [275 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm (C e D)",
+     "valor": "30 %",
+     "item": "Tabela 2",
+     "nota": "−1,50 ponto por 1/32 in abaixo de 5/16 in; E = 48t + 15,00 (Tabela 3)"
+    },
+    {
+     "parametro": "Grau A — Su mín. para projeto",
+     "valor": "47 ksi [325 MPa]",
+     "item": "9.1, Nota 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "10, 11, 12",
+   "texto": "Achatamento e flangeamento em 2 tubos por lote; esmagamento (crush) para o Grau A se pedido. Tubos devem aceitar mandrilagem e rebordeamento na caldeira sem trincar ou abrir a solda.",
+   "valores": [
+    {
+     "parametro": "Largura do flange — Graus C e D",
+     "valor": "≥ 75 % da exigida na SA-450",
+     "item": "11.2.2"
+    },
+    {
+     "parametro": "Análise de produto (a pedido)",
+     "valor": "1 tubo por 100 (> 3 in) ou por 250 (≤ 3 in)",
+     "item": "7.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação e suplementar",
+   "item": "13, S1",
+   "texto": "Além da marcação da SA-450, cada tubo ou feixe leva 'ERW'. O suplementar S1 exige ensaio não destrutivo adicional do cordão para requisitos ASME, com marcação 'S1'."
+  }
+ ]
+}

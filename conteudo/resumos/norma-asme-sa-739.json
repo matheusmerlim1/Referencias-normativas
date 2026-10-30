@@ -1,0 +1,70 @@
+{
+ "id": "ASME-SA-739",
+ "titulo": "SA-739 — Barras de aço liga Cr-Mo laminadas a quente para temperatura elevada ou partes sob pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras de aço liga ferrítico laminadas a quente para temperatura elevada e/ou partes sob pressão, soldáveis por fusão. Grau B11 (1,25 % Cr, 0,55 % Mo) e B22 (2,25 % Cr, 1,00 % Mo). Requisitos gerais pela SA-29."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "B11 — C / Mn / Si",
+     "valor": "0,05–0,20 % / 0,40–0,65 % / 0,50–0,80 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "B11 — Cr / Mo",
+     "valor": "1,00–1,50 % / 0,45–0,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "B22 — C / Mn / Si máx.",
+     "valor": "0,05–0,15 % / 0,30–0,60 % / 0,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "B22 — Cr / Mo",
+     "valor": "2,00–2,50 % / 0,90–1,10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,040 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Tração longitudinal (A370).",
+   "valores": [
+    {
+     "parametro": "B11 — Su / Sy mín.",
+     "valor": "70,0–95,0 ksi (483–655) / 45,0 ksi (310)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "B22 — Su / Sy mín.",
+     "valor": "75,0–95,0 ksi (517–655) / 45,0 ksi (310)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento / redução de área mín.",
+     "valor": "18 % / 45 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "10",
+   "texto": "Conforme SA-29 com acréscimos da própria norma."
+  }
+ ]
+}

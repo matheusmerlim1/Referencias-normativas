@@ -1,0 +1,129 @@
+{
+ "id": "ASME-SA-334",
+ "titulo": "SA-334 — Tubos (tubing) de aço carbono e liga com e sem costura para baixa temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de parede mínima, sem costura ou soldados automaticamente (sem metal de adição), de aço carbono e liga, para baixa temperatura (trocadores etc.). Requisitos gerais pela SA-1016."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "6",
+   "texto": "Exceto graus 8 e 11: normalização (com revenimento opcional) ou, no sem costura, acabamento a quente controlado.",
+   "valores": [
+    {
+     "parametro": "Temperatura mín. de normalização",
+     "valor": "1550 °F [845 °C]",
+     "item": "6.1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau 1 / 6 — C máx.",
+     "valor": "0,30 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 3 — C máx. / Ni",
+     "valor": "0,19 % / 3,18–3,82 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 8 — Ni",
+     "valor": "8,40–9,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 11 — Ni",
+     "valor": "35,0–37,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,025 % / 0,025 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 3 e 4",
+   "texto": "Su mín. / Sy mín. / dureza máx.",
+   "valores": [
+    {
+     "parametro": "Grau 1",
+     "valor": "55 ksi [380] / 30 ksi [205] / 85 HRB, 163 HB",
+     "item": "Tabelas 3 e 4"
+    },
+    {
+     "parametro": "Grau 6",
+     "valor": "60 ksi [415] / 35 ksi [240] / 90 HRB, 190 HB",
+     "item": "Tabelas 3 e 4"
+    },
+    {
+     "parametro": "Grau 3",
+     "valor": "65 ksi [450] / 35 ksi [240] / 90 HRB, 190 HB",
+     "item": "Tabelas 3 e 4"
+    },
+    {
+     "parametro": "Grau 8",
+     "valor": "100 ksi [690] / 75 ksi [520]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau 9",
+     "valor": "63 ksi [435] / 46 ksi [315]",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio de impacto",
+   "item": "12, 15, Tabelas 5 a 7",
+   "texto": "Charpy V nos graus 1, 3, 6, 7 e 9 (dispensado no 11), na temperatura do grau.",
+   "valores": [
+    {
+     "parametro": "Charpy — média mín. de 3 (10×10)",
+     "valor": "13 ft·lbf [18 J]",
+     "item": "Tab. impacto"
+    },
+    {
+     "parametro": "Charpy — individual mín. (10×10)",
+     "valor": "10 ft·lbf [14 J]",
+     "item": "Tab. impacto"
+    },
+    {
+     "parametro": "Charpy — média mín. (10×5)",
+     "valor": "7 ft·lbf [9 J]",
+     "item": "Tab. impacto"
+    },
+    {
+     "parametro": "Temperatura — Graus 1 e 6",
+     "valor": "−50 °F [−45 °C]",
+     "item": "Tabela 6"
+    },
+    {
+     "parametro": "— Grau 3",
+     "valor": "−150 °F [−100 °C]",
+     "item": "Tabela 6"
+    },
+    {
+     "parametro": "— Grau 8",
+     "valor": "−320 °F [−195 °C]",
+     "item": "Tabela 6"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "13, 16",
+   "texto": "Tração (1 por lote até 50; 2 acima), achatamento, alargamento ou flangeamento por lote; cada tubo com hidrostático ou ensaio elétrico não destrutivo."
+  }
+ ]
+}

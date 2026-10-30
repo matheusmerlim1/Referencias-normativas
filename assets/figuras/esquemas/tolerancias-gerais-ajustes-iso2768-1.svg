@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 370" width="960" height="370" role="img" aria-label="NBR ISO 2768-1 — dimensões lineares, cantos quebrados e ângulos">
+<title>NBR ISO 2768-1 — dimensões lineares, cantos quebrados e ângulos</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2;stroke-linejoin:round}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2.2;stroke-linejoin:round}
+  .w{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .z{fill:#2e86c1;fill-opacity:.18;stroke:#2e86c1;stroke-width:1.4;stroke-dasharray:6 4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:1}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.4;stroke-dasharray:7 5}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .p{font-size:14px}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .r{text-anchor:end}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+<text class="t m" x="480" y="30">NBR ISO 2768-1 — o que cada tabela tolera (classes f, m, c, v)</text>
+<text class="m b" x="150" y="62">Tabela 1 — dimensões lineares</text>
+<path class="s" d="M40,110 L130,110 L130,140 L170,140 L170,110 L260,110 L260,210 L40,210 Z"/>
+<g id="cota-linear" class="cota"><path class="e" d="M40,210 L40,250"/><path class="e" d="M260,210 L260,250"/><path class="d" d="M40,240 L260,240" marker-start="url(#a)" marker-end="url(#a)"/><text class="m p" x="150" y="262">dimensão nominal ± t</text></g>
+<g id="cota-linear2" class="cota"><path class="e" d="M130,110 L130,88"/><path class="e" d="M170,110 L170,88"/><path class="d" d="M100,94 L130,94" marker-end="url(#a)"/><path class="d" d="M200,94 L170,94" marker-end="url(#a)"/><text class="p" x="205" y="90">± t</text></g>
+<g id="cota-linear3" class="cota"><path class="e" d="M260,110 L290,110"/><path class="d" d="M285,110 L285,210" marker-start="url(#a)" marker-end="url(#a)"/><text class="p" x="292" y="165">± t</text></g>
+<text class="m b" x="480" y="62">Tabela 2 — cantos quebrados</text>
+<path class="s" d="M370,240 L370,140 L480,140 A40,40 0 0 1 520,180 L520,240 Z"/>
+<g id="cota-raio" class="cota"><path class="d" d="M480,180 L508,152" marker-end="url(#a)"/><text class="p" x="430" y="200">raio externo r</text></g>
+<path class="s" d="M550,240 L550,140 L600,140 L630,170 L630,240 Z"/>
+<g id="cota-chanfro" class="cota"><path class="e" d="M600,140 L600,112"/><path class="e" d="M630,170 L660,170"/><path class="h" d="M630,140 L660,140"/><path class="d" d="M652,140 L652,170" marker-start="url(#a)" marker-end="url(#a)"/><text class="p" x="560" y="270">altura do chanfro</text></g>
+<text class="p m" x="400" y="270">dimensão nominal = r</text>
+<text class="m b" x="820" y="62">Tabela 3 — dimensões angulares</text>
+<path class="g" d="M700,240 L940,240"/>
+<path class="g" d="M700,240 L790,110"/>
+<g id="cota-angulo" class="cota"><path class="d" d="M760,240 A60,60 0 0 0 734,191"/><text class="p b" x="765" y="225">α ± Δα</text></g>
+<g id="cota-lado-menor" class="cota"><path class="e" d="M700,240 L676,223"/><path class="e" d="M790,110 L766,93"/><path class="d" d="M681,226 L771,96" marker-start="url(#a)" marker-end="url(#a)"/><text class="p m" x="712" y="152" transform="rotate(-55.3 712 152)">comprimento do menor lado</text></g>
+<text class="p" x="40" y="310">Tabela 1: dimensões externas, internas, degraus, diâmetros, raios, distâncias, espessuras etc. sem tolerância individual.</text>
+<text class="p" x="40" y="330">Tabela 2: raios externos e alturas de chanfro (cantos quebrados).  Tabela 3: ângulo, em função do comprimento do lado MENOR.</text>
+
+<text class="n" x="480" y="358" text-anchor="middle">Esquema ilustrativo, fora de escala (não é desenho da norma) — rótulos = colunas da tabela</text>
+</svg>

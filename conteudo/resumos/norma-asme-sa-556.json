@@ -1,0 +1,102 @@
+{
+ "id": "ASME-SA-556",
+ "titulo": "SA-556 — Tubos sem costura de aço carbono trefilados a frio para aquecedores de água de alimentação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura de aço carbono, espessura mínima, trefilados a frio, inclusive curvados em U quando pedido, para aquecedores tubulares de água de alimentação. Graus A2, B2 e C2.",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo",
+     "valor": "5/8 a 1 1/4 in [15,9 a 31,8 mm]",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Espessura mínima",
+     "valor": "≥ 0,045 in [1,1 mm]",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Tratamento após o último passe a frio para garantir ductilidade na mandrilagem no espelho.",
+   "valores": [
+    {
+     "parametro": "Temperatura mín.",
+     "valor": "1200 °F [640 °C]",
+     "item": "5.2.1",
+     "nota": "a norma escreve 640 °C como equivalente de 1200 °F"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "A2 — C máx. / Mn",
+     "valor": "0,18 % / 0,27–0,63 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "B2 — C máx. / Mn",
+     "valor": "0,27 % / 0,29–0,93 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C2 — C máx. / Mn",
+     "valor": "0,30 % / 0,29–1,06 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín. (longitudinal) / dureza máx.",
+   "valores": [
+    {
+     "parametro": "A2",
+     "valor": "47 ksi [320] / 26 ksi [180] / 35 % / 72 HRB",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "B2",
+     "valor": "60 ksi [410] / 37 ksi [260] / 30 % / 79 HRB",
+     "item": "Tabelas 2 e 3"
+    },
+    {
+     "parametro": "C2",
+     "valor": "70 ksi [480] / 40 ksi [280] / 30 % / 89 HRB",
+     "item": "Tabelas 2 e 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e tolerâncias",
+   "item": "11, Tabelas 4 e 5",
+   "texto": "Tração (1 por lote até 50 tubos), achatamento e alargamento por lote. Tolerâncias de comprimento das pernas do U e esquadro das pontas.",
+   "valores": [
+    {
+     "parametro": "Tolerância do comprimento da perna — até 20 ft [6 m]",
+     "valor": "+1/8 in [3,2 mm]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "— 30 a 40 ft [9 a 12,2 m]",
+     "valor": "+3/16 in [4,8 mm]",
+     "item": "Tabela 4"
+    }
+   ]
+  }
+ ]
+}

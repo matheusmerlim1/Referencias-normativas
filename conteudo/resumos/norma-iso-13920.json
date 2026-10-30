@@ -1,0 +1,96 @@
+{
+ "id": "ISO-13920",
+ "titulo": "ISO 13920:2023 — Tolerâncias gerais de construções soldadas",
+ "secoes": [
+  {
+   "titulo": "Escopo e indicação",
+   "item": "1; 5",
+   "texto": "Tolerâncias gerais para peças soldadas quando o desenho não dá tolerância individual: dimensões lineares e angulares em quatro classes (A, mais fina, a D) e forma/posição (retilineidade, planicidade, paralelismo) em quatro classes (E a H). No desenho indica-se a norma com a classe, isolada ou combinada (ex.: ISO 13920-BE). Tabelas completas na ficha tolerancias-fabricacao-estrutural.",
+   "valores": [
+    {
+     "parametro": "Exemplo de indicação",
+     "valor": "ISO 13920-B ou ISO 13920-BE",
+     "item": "5"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões lineares",
+   "item": "4.1, Tab. 1",
+   "texto": "A tolerância cresce com a dimensão nominal e com a classe; até 30 mm é igual em todas as classes.",
+   "valores": [
+    {
+     "parametro": "2 < l ≤ 30 mm",
+     "valor": "± 1 mm (todas as classes)",
+     "item": "Tab. 1",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l"
+    },
+    {
+     "parametro": "1000 < l ≤ 2000 mm — A / B / C / D",
+     "valor": "± 3 / ± 4 / ± 8 / ± 12 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l"
+    },
+    {
+     "parametro": "4000 < l ≤ 8000 mm — A / B / C / D",
+     "valor": "± 5 / ± 8 / ± 14 / ± 21 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "l > 20 000 mm — A / B / C / D",
+     "valor": "± 9 / ± 16 / ± 27 / ± 40 mm",
+     "item": "Tab. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões angulares",
+   "item": "4.2, Tab. 2",
+   "texto": "A tolerância do ângulo é escolhida pelo lado MENOR que forma o ângulo e pode ser dada em minutos ou em mm por metro.",
+   "valores": [
+    {
+     "parametro": "Classe B — lado ≤ 400 / 400–1000 / > 1000 mm",
+     "valor": "± 45′ / ± 30′ / ± 20′",
+     "item": "Tab. 2",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#dalfa"
+    },
+    {
+     "parametro": "Classe B em mm/m",
+     "valor": "± 13 / ± 9 / ± 6",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Classe A — lado ≤ 400 mm",
+     "valor": "± 20′ (± 6 mm/m)",
+     "item": "Tab. 2",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#l-angulo"
+    }
+   ]
+  },
+  {
+   "titulo": "Retilineidade, planicidade e paralelismo",
+   "item": "4.3, Tab. 3",
+   "texto": "Escolhida pelo lado MAIOR da superfície.",
+   "valores": [
+    {
+     "parametro": "1000 < l ≤ 2000 mm — E / F / G / H",
+     "valor": "2 / 4,5 / 9 / 14 mm",
+     "item": "Tab. 3",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#planicidade"
+    },
+    {
+     "parametro": "4000 < l ≤ 8000 mm — E / F / G / H",
+     "valor": "4 / 8 / 16 / 26 mm",
+     "item": "Tab. 3",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#retilineidade"
+    }
+   ]
+  },
+  {
+   "titulo": "Medição",
+   "item": "6",
+   "texto": "Com instrumentos comuns (trenas, réguas, esquadros, paquímetros, relógios comparadores); o ângulo é medido tangente à peça, longe da zona de solda; a peça é medida no estado de entrega.",
+   "valores": []
+  }
+ ]
+}

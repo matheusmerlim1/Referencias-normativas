@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SB-815",
+ "titulo": "SB-815 — Barras de liga Co-Cr-Ni-Mo-W (R31233)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras da liga de cobalto R31233 para aplicações de desgaste e serviço corrosivo geral."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Cr",
+     "valor": "23,5–27,5 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Ni",
+     "valor": "7,0–11,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Mo / W",
+     "valor": "4,0–6,0 % / 1,0–3,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Fe / C / N",
+     "valor": "1,0–5,0 % / 0,02–0,10 % / 0,03–0,12 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Co",
+     "valor": "restante",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su mín.",
+     "valor": "130 ksi (896)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "55 ksi (379)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Alongamento mín.",
+     "valor": "15 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

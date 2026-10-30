@@ -1,0 +1,52 @@
+{
+ "id": "ASME-SB-573",
+ "titulo": "SB-573 — Barras e vergalhões de ligas Ni-Mo-Cr-Fe (N10003, N10242)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras das ligas N10003 e N10242 para serviço corrosivo geral, recozidas e decapadas ou descascadas.",
+   "valores": [
+    {
+     "parametro": "Faixa de diâmetros a partir de",
+     "valor": "5/16 in (7,94 mm)",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N10003 — Mo / Cr / Fe máx.",
+     "valor": "15,0–18,0 % / 6,0–8,0 % / 5,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N10242 — Mo / Cr / Fe máx.",
+     "valor": "24,0–26,0 % / 7,0–9,0 % / 2,0 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N10003",
+     "valor": "100 000 psi (690) / 40 000 psi (280) / 35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N10242",
+     "valor": "105 000 psi (725) / 45 000 psi (310) / 40 %",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

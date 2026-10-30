@@ -1,0 +1,99 @@
+{
+ "id": "ASME-SA-747",
+ "titulo": "SA-747 — Fundidos de aço inoxidável endurecível por precipitação (CB7Cu-1 e CB7Cu-2)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Fundidos de aço Fe-Cr-Ni-Cu resistentes à corrosão, endurecíveis por precipitação, para serviços que exigem resistência à corrosão e alta resistência mecânica; podem ser usinados solubilizados e envelhecidos depois. Requisitos gerais pela SA-781.",
+   "valores": [
+    {
+     "parametro": "Temperatura máx. de serviço",
+     "valor": "600 °F [315 °C]",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5, Tabela 2",
+   "texto": "Forno elétrico (AOD opcional). Homogeneização opcional, solubilização e envelhecimento.",
+   "valores": [
+    {
+     "parametro": "H900",
+     "valor": "900 °F [480 °C], 1,5 h, ar",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "H1025",
+     "valor": "1025 °F [550 °C], 4 h, ar",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "H1150",
+     "valor": "1150 °F [620 °C], 4 h, ar",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Valores máximos salvo faixas.",
+   "valores": [
+    {
+     "parametro": "C / Mn / Si máx.",
+     "valor": "0,07 % / 0,70 % / 1,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cr — CB7Cu-1 / CB7Cu-2",
+     "valor": "15,50–17,70 % / 14,0–15,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni — CB7Cu-1 / CB7Cu-2",
+     "valor": "3,60–4,60 % / 4,50–5,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cu",
+     "valor": "2,50–3,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Nb",
+     "valor": "0,15–0,35 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades (suplementar S14)",
+   "item": "Tabela S14.1",
+   "texto": "CB7Cu-1 envelhecido: dureza / Sy mín. / Su mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "H900",
+     "valor": "375 HB mín. / 145 ksi [1000] / 170 ksi [1170] / 5 %",
+     "item": "Tabela S14.1"
+    },
+    {
+     "parametro": "H1025",
+     "valor": "311 HB mín. / 140 ksi [965] / 150 ksi [1035] / 9 %",
+     "item": "Tabela S14.1"
+    },
+    {
+     "parametro": "H1075",
+     "valor": "277 HB mín. / 115 ksi [795] / 145 ksi [1000] / 9 %",
+     "item": "Tabela S14.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo",
+   "item": "7",
+   "texto": "Reparos só em condição homogeneizada, solubilizada, H1100, H1150, H1150M, H1150DBL ou aliviada."
+  }
+ ]
+}

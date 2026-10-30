@@ -1,0 +1,52 @@
+{
+ "id": "ASME-SB-674",
+ "titulo": "SB-674 — Tubos (tube) soldados de ligas N08904, N08925 e N08926",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos soldados das ligas N08904, N08925 e N08926 para serviço corrosivo geral.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "1/8 a 5 in (3,2 a 127 mm) DE; parede 0,015 a 0,320 in (0,38 a 8,13 mm)",
+     "item": "1.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,020 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N08904 solubilizada",
+     "valor": "71 ksi (490) / 31 ksi (220) / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08925 solubilizada",
+     "valor": "87 ksi (600) / 43 ksi (295) / 40 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08926 solubilizada",
+     "valor": "94 ksi (650) / 43 ksi (295) / 35 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

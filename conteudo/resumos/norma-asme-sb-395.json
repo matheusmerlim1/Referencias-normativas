@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SB-395",
+ "titulo": "SB-395 — Tubos sem costura de cobre e ligas de cobre curvados em U para trocadores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura de cobre e ligas de cobre curvados em U, até 2 in de diâmetro, para condensadores, evaporadores e trocadores de calor (C10200, C12000, C12200, C14200, C19200, C23000, almirantados, C60800, C68700, cupro-níquel…)."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. (0,5 % sob carga).",
+   "valores": [
+    {
+     "parametro": "Cobres C10200–C14200 H55",
+     "valor": "36 ksi / 30 ksi",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "C23000 O61",
+     "valor": "40 ksi / 12 ksi",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "C44300/400/500 O61",
+     "valor": "45 ksi / 15 ksi",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "C60800 O61",
+     "valor": "50 ksi / 19 ksi",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

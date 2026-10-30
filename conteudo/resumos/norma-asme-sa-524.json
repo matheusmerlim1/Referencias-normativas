@@ -1,0 +1,72 @@
+{
+ "id": "ASME-SA-524",
+ "titulo": "SA-524 — Tubos sem costura de aço carbono para temperatura ambiente e baixa",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura de aço carbono para serviço atmosférico e em baixa temperatura, NPS 1/8 a 26, espessuras da ANSI B36.10; aptos a solda e a curvamento/flangeamento. Graus I e II (por espessura). Requisitos gerais pela SA-530."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "5",
+   "texto": "Aço acalmado, de prática de grão fino (Siemens-Martin, forno elétrico ou conversor a oxigênio)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Graus I e II.",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,21 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn",
+     "valor": "0,90–1,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,10–0,40 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau I (parede até 0,375 in) — Su / Sy mín.",
+     "valor": "60 000–85 000 psi (414–586) / 35 000 psi (240)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau II (parede > 0,375 in) — Su / Sy mín.",
+     "valor": "55 000–80 000 psi (380–550) / 30 000 psi (205)",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "10, 11",
+   "texto": "Achatamento acima de NPS 2 (amostra ≥ 2 1/2 in [63,5 mm]) com constante 'e' própria; teste hidrostático em cada tubo, salvo pedido sem teste (marcação 'NH').",
+   "valores": [
+    {
+     "parametro": "Constante 'e' do achatamento — Grau I / II",
+     "valor": "0,07 / 0,08",
+     "item": "10.1"
+    }
+   ]
+  }
+ ]
+}

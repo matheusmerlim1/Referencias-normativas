@@ -1,0 +1,69 @@
+{
+ "id": "ISO-4042",
+ "titulo": "ISO 4042:2018 — Fixadores — Sistemas de revestimento eletrolítico",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Requisitos para fixadores de aço (e algumas ligas de cobre) com revestimento eletrodepositado — zinco e ligas de zinco (ZnFe, ZnNi), níquel, cádmio e outros — com passivação (com ou sem Cr VI), selante e acabamento superior; dimensões, corrosão, fragilização por hidrogênio, designação e pedido.",
+   "valores": []
+  },
+  {
+   "titulo": "Características e fragilização por hidrogênio",
+   "item": "4",
+   "texto": "Camadas do sistema (metal, passivação, selante, top coat). Risco de fragilização interna por hidrogênio (IHE) controlado pela dureza máxima especificada do fixador; desidrogenação (baking) com temperatura e tempo no Anexo B.",
+   "valores": [
+    {
+     "parametro": "Dureza máx. < 360 HV",
+     "valor": "sem verificação extra e sem baking",
+     "item": "4.4.2"
+    },
+    {
+     "parametro": "360 a 390 HV",
+     "valor": "baking dispensado se houver verificação suplementar do processo",
+     "item": "4.4.3"
+    },
+    {
+     "parametro": "> 390 HV",
+     "valor": "baking obrigatório (exceto peças sem tração por projeto, ex. ISO 898-5)",
+     "item": "4.4.4"
+    },
+    {
+     "parametro": "ZnNi alcalino (12–16 % Ni)",
+     "valor": "pode evitar baking pelo baixo risco de IHE, com base em verificação",
+     "item": "4.4.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Corrosão",
+   "item": "5",
+   "texto": "Névoa salina neutra (NSS, ISO 9227) para monitorar o processo; tempos mínimos por sistema e espessura (5, 8 ou 12 µm) até corrosão branca e vermelha (Tab. 8), testados ≥ 24 h após o revestimento; névoa branca não é corrosão branca. Kesternich (SO2) quando pedido. Manuseio a granel reduz a proteção.",
+   "valores": [
+    {
+     "parametro": "Espessuras de referência na Tab. 8",
+     "valor": "5 / 8 / 12 µm",
+     "item": "Tab. 8"
+    },
+    {
+     "parametro": "Tempos NSS por sistema",
+     "valor": "Tabela 8",
+     "item": "Tab. 8",
+     "nota": "valores não legíveis no texto — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões, propriedades e ensaios",
+   "item": "6–8",
+   "texto": "Espessura compatível com a folga da rosca (Anexo D); métodos de medição de espessura; aparência; resistência após aquecimento (ex. 1 h ou 24 h a 120 °C, se acordado); relação torque/força (ISO 16047); detecção de Cr(VI) (ISO 3613). Ensaios por lote, de processo e a pedido.",
+   "valores": []
+  },
+  {
+   "titulo": "Designação e pedido",
+   "item": "9–11",
+   "texto": "Código do sistema (ex. ZnFe//Cn/T2) acrescentado à designação do fixador; requisitos de pedido e armazenagem.",
+   "valores": []
+  }
+ ]
+}

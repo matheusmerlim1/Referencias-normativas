@@ -1,0 +1,149 @@
+{
+ "id": "ASME-SA-333",
+ "titulo": "SA-333 — Tubos de aço com e sem costura para serviço em baixa temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de aço carbono e liga ferrítico, parede nominal, sem costura ou soldados (sem metal de adição; com adição ver SA-671), para baixa temperatura. Paredes muito grossas podem não ser oferecidas por prejudicarem a tenacidade. Grau 4 só sem costura. Requisitos gerais pela SA-999."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "4.2",
+   "texto": "Exceto os graus 8 e 11, todo tubo tem a microestrutura controlada: normalização (com ou sem revenimento) ou, no sem costura, controle da temperatura de acabamento a quente seguido de resfriamento.",
+   "valores": [
+    {
+     "parametro": "Temperatura mín. de normalização",
+     "valor": "1500 °F [815 °C]",
+     "item": "4.2.1.1"
+    },
+    {
+     "parametro": "Faixa de acabamento a quente (sem costura)",
+     "valor": "1550 a 1750 °F [845 a 945 °C]",
+     "item": "4.2.1.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau 1 — C máx. / Mn",
+     "valor": "0,30 % / 0,40–1,06 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 6 — C máx. / Mn / Si",
+     "valor": "0,30 % / 0,29–1,06 % / 0,10 % mín.",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 3 — C máx. / Ni",
+     "valor": "0,19 % / 3,18–3,82 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 8 — C máx. / Ni",
+     "valor": "0,13 % / 8,40–9,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 10 — C máx. / Mn",
+     "valor": "0,20 % / 1,15–1,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx. (maioria)",
+     "valor": "0,025 % / 0,025 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín.",
+   "valores": [
+    {
+     "parametro": "Grau 1",
+     "valor": "55 000 psi [380 MPa] / 30 000 psi [205 MPa]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau 6",
+     "valor": "60 000 psi [415 MPa] / 35 000 psi [240 MPa]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau 3",
+     "valor": "65 000 psi [450 MPa] / 35 000 psi [240 MPa]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau 8",
+     "valor": "100 000 psi [690 MPa] / 75 000 psi [515 MPa]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau 10",
+     "valor": "80 000 psi [550 MPa] / 65 000 psi [450 MPa]",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio de impacto",
+   "item": "8, 14, Tabelas 4 a 6",
+   "texto": "Charpy V em 3 corpos de prova (incluindo a solda, em tubo soldado com parede ≥ 0,120 in [3 mm]) na temperatura mínima do grau; não exigido no Grau 11. Corpos reduzidos têm temperatura de ensaio rebaixada.",
+   "valores": [
+    {
+     "parametro": "Charpy — média mín. de 3 (10×10)",
+     "valor": "13 ft·lbf [18 J]",
+     "item": "Tab. impacto"
+    },
+    {
+     "parametro": "Charpy — individual mín. (10×10)",
+     "valor": "10 ft·lbf [14 J]",
+     "item": "Tab. impacto"
+    },
+    {
+     "parametro": "Charpy — média mín. (10×5)",
+     "valor": "7 ft·lbf [9 J]",
+     "item": "Tab. impacto"
+    },
+    {
+     "parametro": "Temperatura de ensaio — Graus 1 e 6",
+     "valor": "−50 °F [−45 °C]",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "— Graus 3 e 4",
+     "valor": "−150 °F [−100 °C]",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "— Graus 7 e 9",
+     "valor": "−100 °F [−75 °C]",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "— Grau 8",
+     "valor": "−320 °F [−195 °C]",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "— Grau 10",
+     "valor": "−75 °F [−60 °C]",
+     "item": "Tabela 5"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "12, 15",
+   "texto": "Tração e achatamento por lote; cada tubo passa por hidrostático ou ensaio elétrico não destrutivo (SA-999)."
+  }
+ ]
+}

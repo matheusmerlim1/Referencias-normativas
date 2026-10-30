@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" role="img" aria-label="Piso — abertura do grating e desnível entre pisos">
+<title>Piso — abertura do grating e desnível entre pisos</title>
+<text x="12" y="22" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Piso — abertura do grating e desnível entre pisos</text>
+<text x="220" y="60" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">planta do grating</text>
+<rect x="60" y="80" width="320" height="300" rx="0" fill="none" stroke="#666" stroke-width="2"/>
+<line x1="60" y1="80" x2="60" y2="380" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="100" y1="80" x2="100" y2="380" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="140" y1="80" x2="140" y2="380" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="180" y1="80" x2="180" y2="380" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="220" y1="80" x2="220" y2="380" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="260" y1="80" x2="260" y2="380" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="300" y1="80" x2="300" y2="380" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="340" y1="80" x2="340" y2="380" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="380" y1="80" x2="380" y2="380" stroke="#666" stroke-width="3" stroke-linecap="round"/>
+<line x1="60" y1="80" x2="380" y2="80" stroke="#666" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="60" y1="180" x2="380" y2="180" stroke="#666" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="60" y1="280" x2="380" y2="280" stroke="#666" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="60" y1="380" x2="380" y2="380" stroke="#666" stroke-width="1.5" stroke-linecap="round"/>
+<g id="cota-abertura" class="cota"><line x1="180" y1="230" x2="220" y2="230" stroke="#666" stroke-width="1.2"/><polygon points="180,230 189,226.5 189,233.5" fill="#666"/><polygon points="220,230 211,233.5 211,226.5" fill="#666"/><text x="200" y="222" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">abertura</text></g>
+<text x="660" y="60" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">corte: pisos vizinhos</text>
+<rect x="480" y="260" width="170" height="18" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<rect x="670" y="252" width="170" height="18" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<g id="cota-desnivel-pisos" class="cota"><line x1="843" y1="252" x2="865" y2="252" stroke="#666" stroke-width="1"/><line x1="860" y1="270" x2="860" y2="252" stroke="#666" stroke-width="1.2"/><polygon points="860,270 863.5,279 856.5,279" fill="#666"/><polygon points="860,252 856.5,243 863.5,243" fill="#666"/><line x1="860" y1="284" x2="860" y2="270" stroke="#666" stroke-width="1.2"/><line x1="860" y1="252" x2="860" y2="238" stroke="#666" stroke-width="1.2"/><text x="780" y="230" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">desnível entre topos</text></g>
+<g id="cota-fresta" class="cota"><line x1="650" y1="281" x2="650" y2="315" stroke="#666" stroke-width="1"/><line x1="670" y1="273" x2="670" y2="315" stroke="#666" stroke-width="1"/><line x1="650" y1="310" x2="670" y2="310" stroke="#666" stroke-width="1.2"/><polygon points="650,310 641,313.5 641,306.5" fill="#666"/><polygon points="670,310 679,306.5 679,313.5" fill="#666"/><line x1="636" y1="310" x2="650" y2="310" stroke="#666" stroke-width="1.2"/><line x1="670" y1="310" x2="684" y2="310" stroke="#666" stroke-width="1.2"/><text x="660" y="326" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">fresta</text></g>
+<text x="12" y="452" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo, sem escala — não é desenho da norma.</text>
+</svg>

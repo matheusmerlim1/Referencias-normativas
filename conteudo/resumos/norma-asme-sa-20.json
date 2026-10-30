@@ -1,0 +1,45 @@
+{
+ "id": "ASME-SA-20",
+ "titulo": "SA-20 — Requisitos gerais para chapas de aço para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Reúne as regras comuns às especificações de chapas para vasos de pressão (SA-202, 203, 204, 285, 299, 302, 387, 515, 516, 517, 533, 537, 542, 553, 612, 662, 737, 738, 841…): encomenda, fabricação, tratamento térmico, química, ensaios de tração e tenacidade, identificação, variações dimensionais, retestes e relatórios. A especificação do produto prevalece em caso de conflito. Os aços são adequados à soldagem por fusão.",
+   "valores": [
+    {
+     "parametro": "Raios mínimos sugeridos de dobramento a frio",
+     "valor": "Apêndice X4",
+     "item": "1.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "6",
+   "texto": "Quando exigido pela especificação do produto, pode ser feito pelo fabricante, processador ou fabricante do vaso. Chapas pedidas sem o tratamento exigido ficam sob responsabilidade do comprador para tratá-las depois."
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "10 a 12",
+   "texto": "Ensaios conforme A370; limite de escoamento pelo método 0,2 % de deformação permanente ou 0,5 % de extensão sob carga. Tração: em geral um corpo de prova por chapa como laminada (para temperadas e revenidas, por chapa tratada). Charpy V: um ensaio (3 corpos de prova) por orientação especificada, por chapa.",
+   "valores": [
+    {
+     "parametro": "Arredondamento de resistências",
+     "valor": "1 ksi [5 MPa]",
+     "item": "10.3"
+    },
+    {
+     "parametro": "Charpy V — nº de corpos de prova por ensaio",
+     "valor": "3",
+     "item": "12.1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Identificação e relatórios",
+   "item": "13, 19, 20",
+   "texto": "Cada chapa leva marcação com especificação, grau/classe, corrida e número da chapa; o relatório de ensaio informa análise de corrida, propriedades e tratamento térmico."
+  }
+ ]
+}

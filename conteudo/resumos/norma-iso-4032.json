@@ -1,0 +1,40 @@
+{
+ "id": "ISO-4032",
+ "titulo": "ISO 4032:2012 — Porcas sextavadas normais (estilo 1), graus A e B",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Porcas sextavadas normais, rosca grossa M1,6 a M64, grau A até M16 e B acima.",
+   "valores": [],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-porca-sextavada-iso.svg"
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "Tab. 1–2",
+   "texto": "Abertura de chave, altura (mín./máx.), diâmetro entre cantos, de assento e altura útil de aperto mw; tabela completa na ficha parafusos-porcas-arruelas.",
+   "valores": [
+    {
+     "parametro": "M12 — chave / altura máx.",
+     "valor": "18 / 10,8 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-porca-sextavada-iso.svg#m"
+    },
+    {
+     "parametro": "M20 — chave / altura máx.",
+     "valor": "30 / 18,0 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-porca-sextavada-iso.svg#s"
+    }
+   ]
+  },
+  {
+   "titulo": "Especificação",
+   "item": "4",
+   "texto": "Classes 6, 8, 10 (ISO 898-2), inox A2/A4-70 ou não ferrosos; rosca 6H.",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "id": "ISO-4762",
+ "titulo": "ISO 4762:2004 (DIN EN ISO 4762:2004) — Parafusos de cabeça cilíndrica com sextavado interno (Allen)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafuso Allen de cabeça cilíndrica, rosca métrica grossa M1,6 a M64, grau de produto A. Massas aproximadas no Anexo A.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M1,6 a M64, grau A",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3, Tab. 1",
+   "texto": "Tabela por rosca: comprimento de rosca b, diâmetro e altura da cabeça (dk, k), sextavado interno s com profundidade t, raio, comprimentos comerciais (entre linhas escalonadas; na área sombreada rosca até a cabeça), ls e lg. Ponta chanfrada (≤ M4 pode ser 'como laminada', ISO 4753).",
+   "valores": [
+    {
+     "parametro": "Diagonal do sextavado interno",
+     "valor": "e,mín = 1,14 s,mín",
+     "item": "Tab. 1, nota"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos e normas de referência",
+   "item": "4, Tab. 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Tolerância de rosca",
+     "valor": "5g6g para classe 12.9; 6g para as demais",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Classes — aço (M3 a M39)",
+     "valor": "8.8, 10.9, 12.9 (abaixo de M3 e acima de M39 a combinar)",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Classes — inox",
+     "valor": "≤ M24: A2-70, A3-70, A4-70, A5-70; > M24 a M39: A2-50, A3-50, A4-50, A5-50",
+     "item": "Tab. 2",
+     "nota": "OCR — conferir faixas"
+    },
+    {
+     "parametro": "Tolerâncias",
+     "valor": "ISO 4759-1, grau A",
+     "item": "Tab. 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "5",
+   "texto": "Ex.: ISO 4762 – M5 × 20 – 12.9.",
+   "valores": []
+  }
+ ]
+}

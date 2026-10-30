@@ -1,0 +1,67 @@
+{
+ "id": "ASME-SA-724",
+ "titulo": "SA-724 — Chapas de aço C-Mn-Si temperadas e revenidas para vasos de pressão de camadas soldadas",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas de aço carbono-manganês-silício, temperadas e revenidas, graus A, B e C (C pode ter boro), para vasos de pressão soldados de camadas múltiplas. Requisitos gerais pela SA-20."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "4, 5",
+   "texto": "Aço acalmado de grão fino.",
+   "valores": [
+    {
+     "parametro": "Têmpera a partir de",
+     "valor": "1600 a 1700 °F [870 a 925 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Revenimento mín. — A e B / C",
+     "valor": "1100 °F [595 °C] / 1150 °F [620 °C]",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Análise de corrida.",
+   "valores": [
+    {
+     "parametro": "C máx. — A / B / C",
+     "valor": "0,18 / 0,20 / 0,22 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn — A, B / C",
+     "valor": "1,00–1,60 % / 1,10–1,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Corpo de prova retangular de 1 1/2 in [40 mm].",
+   "valores": [
+    {
+     "parametro": "Graus A e C — Su / Sy mín. / along.",
+     "valor": "90–110 ksi [620–760] / 70 ksi [485] / 19 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau B — Su / Sy mín. / along.",
+     "valor": "95–115 ksi [655–795] / 75 ksi [515] / 17 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

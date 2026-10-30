@@ -1,0 +1,47 @@
+{
+ "id": "ISO-10511",
+ "titulo": "ISO 10511:2012 — Porcas sextavadas autotravantes finas (com inserto não metálico)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Versão baixa (dimensões da ISO 4035) da porca autotravante com inserto não metálico, M3 a M36, para uso como contraporca ou em aplicações de pouca carga.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M3 a M36; grau A até M16, B acima",
+     "item": "1"
+    },
+    {
+     "parametro": "Classes",
+     "valor": "04 e 05",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3",
+   "texto": "Por rosca: s, e, altura total, altura útil.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos e normas de referência",
+   "item": "4",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Material / rosca",
+     "valor": "aço / 6H",
+     "item": "4"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "5",
+   "texto": "Ex. da norma: rosca M12, classe 04 → ISO 10511 – M12 – 04.",
+   "valores": []
+  }
+ ]
+}

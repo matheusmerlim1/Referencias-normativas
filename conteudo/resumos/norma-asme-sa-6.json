@@ -1,0 +1,43 @@
+{
+ "id": "ASME-SA-6",
+ "titulo": "SA-6 — Requisitos gerais para barras, chapas, perfis e estacas-prancha de aço estrutural laminado",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Especificação 'guarda-chuva': reúne as regras comuns (encomenda, identificação, análise química, ensaios de tração, variações dimensionais e de massa, retestes, marcação) aplicáveis a chapas, perfis, estacas-prancha e barras laminadas cobertas por várias especificações estruturais (A36, A283, A572, A992 etc.). Se houver conflito, prevalece a especificação do produto.",
+   "valores": [
+    {
+     "parametro": "Tabelas de variações em unidades SI",
+     "valor": "Anexo A1",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Dimensões de perfis",
+     "valor": "Anexo A2",
+     "item": "1.3"
+    },
+    {
+     "parametro": "Raios mínimos sugeridos de dobramento a frio de chapas",
+     "valor": "Apêndice X4",
+     "item": "1.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "6 e 7",
+   "texto": "O tratamento térmico, quando exigido pela especificação do produto, pode ser feito pelo fabricante, pelo processador ou pelo fabricante da estrutura; se feito por terceiros, o pedido deve dizer. Sem exigência, o fabricante pode normalizar e/ou aliviar tensões para atender à especificação."
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "11 a 14",
+   "texto": "Ensaios conforme A370; a especificação fixa orientação e localização dos corpos de prova de tração, ajustes de alongamento, regras de reteste e as tabelas de variações permitidas de dimensões e massa."
+  },
+  {
+   "titulo": "Marcação",
+   "item": "5 e 18",
+   "texto": "Chapas e perfis são identificados com a designação ASTM, o número de corrida, o nome/marca do fabricante e dimensões; requisitos suplementares (Charpy, ultrassom etc.) valem só quando pedidos."
+  }
+ ]
+}

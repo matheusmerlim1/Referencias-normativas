@@ -1,0 +1,90 @@
+{
+ "id": "ASME-SA-414",
+ "titulo": "SA-414 — Folhas (chapas finas) de aço carbono laminadas a quente para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas finas de aço carbono laminadas a quente para vasos de pressão soldados por fusão ou brasados, em graus A a G; em geral fornecidas cortadas e com espessura decimal (bobinas admitidas com ensaios representativos)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Análise de corrida; elementos não especificados limitados pela Tabela 2.",
+   "valores": [
+    {
+     "parametro": "C máx. — A / B / C, D / E / F, G",
+     "valor": "0,15 / 0,22 / 0,25 / 0,27 / 0,31 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx. — A–C / D–F / G",
+     "valor": "0,90 / 1,20 / 1,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Al",
+     "valor": "0,02–0,08 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su (mín.–máx.) / Sy mín.; alongamento cai com a espessura.",
+   "valores": [
+    {
+     "parametro": "Grau A",
+     "valor": "45–60 ksi [310–415] / 25 ksi [170]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau B",
+     "valor": "50–65 ksi [345–450] / 30 ksi [205]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau C",
+     "valor": "55–70 ksi [380–485] / 33 ksi [230]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau D",
+     "valor": "60–75 ksi [415–515] / 35 ksi [240]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau E",
+     "valor": "65–85 ksi [450–585] / 38 ksi [260]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau F",
+     "valor": "70–90 ksi [485–620] / 42 ksi [290]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Grau G",
+     "valor": "75–95 ksi [515–655] / 45 ksi [310]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Alongamento mín. (0,145 a 0,270 in) — A / B / C / D / E / F, G",
+     "valor": "26 / 24 / 22 / 20 / 18 / 16 %",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "5, 10",
+   "texto": "Dois ensaios de tração por placa laminada (meio e extremidade traseira). Marcação: fabricante, corrida, placa, especificação e grau."
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "ASME-SB-162",
+ "titulo": "SB-162 — Chapas, folhas e tiras de níquel (Níquel 200 e 201)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras laminadas de níquel N02200 e N02201."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "N02200 (níquel 200) e N02201 (níquel 201, baixo carbono).",
+   "valores": [
+    {
+     "parametro": "Ni mín.",
+     "valor": "99,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Cu máx. / Fe máx. / Mn máx.",
+     "valor": "0,25 % / 0,40 % / 0,35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C máx. — N02200 / N02201",
+     "valor": "0,15 % / 0,02 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "N02200 — Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "Chapa laminada a quente, recozida",
+     "valor": "55 000 psi (380) / 15 000 psi (100) / 40 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Chapa como laminada",
+     "valor": "55 000 psi (380) / 20 000 psi (135) / 30 %",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Qualidade de estampagem",
+   "item": "6.2",
+   "texto": "Folhas e tiras para estampagem profunda e repuxo com limites de grão e dureza."
+  }
+ ]
+}

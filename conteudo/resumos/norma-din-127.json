@@ -1,0 +1,30 @@
+{
+ "id": "DIN-127",
+ "titulo": "DIN 127 B — Arruela de pressão média (tabela de fabricante)",
+ "secoes": [
+  {
+   "titulo": "Conteúdo",
+   "item": "—",
+   "texto": "Documento de fabricante (não é o texto da norma DIN 127): dimensões de arruelas de pressão (mola) DIN 127 forma B, em acabamento polido, zincado branco ou bicromatizado, com diâmetro nominal em polegadas de 1/8 a 1 1/2.",
+   "valores": [
+    {
+     "parametro": "Diâmetros nominais",
+     "valor": "1/8, 5/32, 3/16, 1/4, 5/16, 3/8, 7/16, 1/2, 9/16, 5/8, 3/4, 7/8, 1, 1 1/8, 1 1/4, 1 3/8, 1 1/2",
+     "item": "Tabela"
+    },
+    {
+     "parametro": "Diâmetro interno d1 — 1/4 / 1/2 / 1",
+     "valor": "6,48 / 12,93 / 25,83 mm",
+     "item": "Tabela",
+     "nota": "associação lida da sequência de valores — conferir"
+    },
+    {
+     "parametro": "Diâmetro externo — 1/4 / 1/2 / 1",
+     "valor": "11,83 / 21,03 / 40,03 mm",
+     "item": "Tabela",
+     "nota": "conferir"
+    }
+   ]
+  }
+ ]
+}

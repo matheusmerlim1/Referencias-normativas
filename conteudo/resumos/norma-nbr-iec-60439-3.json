@@ -1,0 +1,28 @@
+{
+ "id": "NBR-IEC-60439-3",
+ "titulo": "ABNT NBR IEC 60439-3:2004 — Conjuntos de manobra e controle de baixa tensão — Parte 3: Requisitos particulares para quadros de distribuição destinados a pessoas não qualificadas (QD)",
+ "secoes": [
+  {"titulo": "Objetivo e forma de uso", "item": "1–3",
+   "texto": "Complementa e altera item a item a Parte 1 para quadros de distribuição fixos, de uso interno, com ensaio de tipo completo (TTA), em residências e outros locais onde pessoas leigas manobram dispositivos e trocam fusíveis. Quadro de distribuição: conjunto com dispositivos de manobra/proteção (fusíveis, minidisjuntores) dos circuitos de saída, alimentados por um ou mais circuitos de entrada, com bornes de neutro e de proteção. Conjuntos abertos não são cobertos. Em sistema IT, a tensão fase-terra é a tensão nominal.",
+   "valores": [
+    {"parametro": "Tensão fase-terra máxima", "valor": "300 V", "item": "1.1"},
+    {"parametro": "Dispositivo de proteção de cada circuito de saída", "valor": "corrente nominal ≤ 125 A", "item": "1.1"},
+    {"parametro": "Corrente nominal total de entrada", "valor": "≤ 250 A", "item": "1.1"}
+   ]},
+  {"titulo": "Características e marcação", "item": "4–6",
+   "texto": "A corrente nominal do QD é a do(s) circuito(s) de entrada e deve estar marcada. Fator de diversidade próprio (número de circuitos de saída por fase). Placa pode ficar atrás de porta ou tampa removível; IP só é informado se maior que IP2XC. Grau de poluição normal: 2. Embutir na parede não é condição especial.",
+   "valores": [
+    {"parametro": "Fator de diversidade — 2 e 3 / 4 e 5 circuitos", "valor": "0,8 / 0,7", "item": "4.7"},
+    {"parametro": "Fator de diversidade — 6 a 9 / 10 ou mais", "valor": "0,6 / 0,5", "item": "4.7"},
+    {"parametro": "Grau de poluição normalizado", "valor": "2", "item": "6"}
+   ]},
+  {"titulo": "Construção", "item": "7",
+   "texto": "Para uso por leigos, o QD deve ser TTA. Partes metálicas ferrosas resistentes à ferrugem, partes isolantes resistentes a calor e fogo, invólucro resistente a impacto. Tampas removidas na instalação não podem sustentar componentes com condutores tensionados; portas com dobradiças dão acesso livre. Um borne de neutro e um de proteção para cada circuito de saída, na mesma sequência dos circuitos.",
+   "valores": [
+    {"parametro": "Grau de proteção mínimo", "valor": "IP2XC (IP00 eliminado)", "item": "7.2.1, 7.4.2.2.1"}
+   ]},
+  {"titulo": "Ensaios adicionais", "item": "8.2.10–8.2.14",
+   "texto": "Além dos ensaios da Parte 1: impacto mecânico com martelo de mola (IEC 60068-2-63, partes estéticas excluídas), resistência à ferrugem, resistência dos isolantes ao calor e ao calor anormal/fogo de origem elétrica, e outros específicos.",
+   "valores": []}
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "id": "NR-24",
+ "titulo": "NR-24 — Condições sanitárias e de conforto nos locais de trabalho",
+ "secoes": [
+  {
+   "titulo": "Objetivo e dimensionamento",
+   "item": "24.1",
+   "texto": "A NR-24 fixa as condições mínimas de higiene e conforto: sanitários, vestiários, refeitórios, cozinhas, alojamentos, vestimentas e água potável. Todas as instalações são dimensionadas pelo número de trabalhadores que as usam habitualmente no turno de maior contingente.",
+   "valores": [
+    {
+     "parametro": "Base de dimensionamento",
+     "valor": "nº de trabalhadores usuários no turno de maior contingente",
+     "item": "24.1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Instalações sanitárias",
+   "item": "24.2",
+   "texto": "Todo estabelecimento tem bacia sifonada com assento e tampa e lavatório; o masculino tem também mictório, salvo uso individual. As instalações são separadas por sexo, revestidas com material lavável, ventiladas, ligadas a água e esgoto e, se fora do prédio, ligadas a ele por passagem coberta.",
+   "valores": [
+    {
+     "parametro": "Instalação sanitária",
+     "valor": "1 para cada 20 trabalhadores ou fração, separadas por sexo",
+     "item": "24.2.2"
+    },
+    {
+     "parametro": "Mictórios — prédios a partir de 24/09/2019",
+     "valor": "1 por 20 trabalhadores (ou fração) até 100; acima disso, 1 por 50",
+     "item": "24.2.1.1 b)"
+    },
+    {
+     "parametro": "Lavatório em atividade com material infectante, tóxico, irritante ou poeira",
+     "valor": "1 para cada 10 trabalhadores",
+     "item": "24.2.2.1"
+    },
+    {
+     "parametro": "Sanitário único de uso comum aos sexos",
+     "valor": "permitido em estabelecimento comercial/administrativo com até 10 trabalhadores, com privacidade",
+     "item": "24.2.2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Componentes sanitários",
+   "item": "24.3",
+   "texto": "Cada bacia fica em compartimento individual com porta e fecho, divisórias que impeçam a visão e vão inferior para limpeza, papel e lixeira (com tampa no feminino). Mictórios podem ser individuais ou em calha, de material impermeável. Lavatórios têm meio de secagem das mãos, sem toalha coletiva. Chuveiros ficam em compartimentos individuais com água quente e fria, junto aos vestiários. Valem as dimensões do código de obras local; sem ele, as da NR.",
+   "valores": [
+    {
+     "parametro": "Área livre entre a bacia e a porta fechada",
+     "valor": "Ø ≥ 0,60 m",
+     "item": "24.3.1 e)",
+     "cota": "esquemas/resumo-nr-24-sanitarios-armarios.svg#area-livre"
+    },
+    {
+     "parametro": "Mictório em calha com anteparo — 1 unidade",
+     "valor": "segmento ≥ 0,60 m",
+     "item": "24.3.2.1",
+     "cota": "esquemas/resumo-nr-24-sanitarios-armarios.svg#calha-segmento"
+    },
+    {
+     "parametro": "Mictório em calha sem anteparo — 1 unidade",
+     "valor": "segmento ≥ 0,80 m",
+     "item": "24.3.2.2",
+     "cota": "esquemas/resumo-nr-24-sanitarios-armarios.svg#calha-segmento"
+    },
+    {
+     "parametro": "Lavatório em calha ou tampo coletivo — 1 unidade",
+     "valor": "segmento de 0,60 m",
+     "item": "24.3.3",
+     "cota": "esquemas/resumo-nr-24-sanitarios-armarios.svg#calha-segmento"
+    },
+    {
+     "parametro": "Chuveiro — exposição a material infectante, tóxico ou irritante",
+     "valor": "1 para cada 10 trabalhadores",
+     "item": "24.3.5 a)"
+    },
+    {
+     "parametro": "Chuveiro — poeira, esforço físico ou calor intenso",
+     "valor": "1 para cada 20 trabalhadores",
+     "item": "24.3.5 b)"
+    },
+    {
+     "parametro": "Box de chuveiro — largura mínima",
+     "valor": "0,80 m",
+     "item": "24.3.6 f)",
+     "cota": "esquemas/resumo-nr-24-sanitarios-armarios.svg#box-largura"
+    },
+    {
+     "parametro": "Box de chuveiro — profundidade mínima",
+     "valor": "0,80 m",
+     "item": "24.3.6 f)",
+     "cota": "esquemas/resumo-nr-24-sanitarios-armarios.svg#box-profundidade"
+    }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-24-sanitarios-armarios.svg"
+   ]
+  },
+  {
+   "titulo": "Vestiários e armários",
+   "item": "24.4",
+   "texto": "Há vestiário quando a troca de roupa de trabalho ou uniforme é feita no local ou quando há chuveiro exigido. A área por trabalhador diminui com o número de usuários até 750 pessoas e fica fixa acima disso. Os vestiários têm assentos laváveis e armários individuais com tranca. Em atividades com agentes tóxicos, infectantes ou poeira, o armário é duplo (ou dois simples), salvo se a empresa lava as roupas todo dia ou dá roupa descartável.",
+   "valores": [
+    {
+     "parametro": "Área mínima por trabalhador (até 750 usuários)",
+     "valor": "1,5 − (nº de trabalhadores / 1 000) m²",
+     "item": "24.4.2"
+    },
+    {
+     "parametro": "Área mínima por trabalhador (> 750 usuários)",
+     "valor": "0,75 m²",
+     "item": "24.4.2.1"
+    },
+    {
+     "parametro": "Armário simples — altura mínima",
+     "valor": "0,40 m",
+     "item": "24.4.6",
+     "cota": "esquemas/resumo-nr-24-sanitarios-armarios.svg#armario-altura"
+    },
+    {
+     "parametro": "Armário simples — largura mínima",
+     "valor": "0,30 m",
+     "item": "24.4.6",
+     "cota": "esquemas/resumo-nr-24-sanitarios-armarios.svg#armario-largura"
+    },
+    {
+     "parametro": "Armário simples — profundidade mínima",
+     "valor": "0,40 m",
+     "item": "24.4.6",
+     "cota": "esquemas/resumo-nr-24-sanitarios-armarios.svg#armario-profundidade"
+    },
+    {
+     "parametro": "Armário duplo com prateleira — dimensões mínimas",
+     "valor": "0,80 m (alt.) × 0,30 m (larg.) × 0,40 m (prof.)",
+     "item": "24.4.6.1 a)",
+     "cota": "esquemas/resumo-nr-24-sanitarios-armarios.svg#duplo-altura"
+    },
+    {
+     "parametro": "Armário duplo com prateleira — cada compartimento",
+     "valor": "altura 0,40 m (roupa comum / roupa de trabalho)",
+     "item": "24.4.6.1 a)",
+     "cota": "esquemas/resumo-nr-24-sanitarios-armarios.svg#duplo-altura-compartimento"
+    },
+    {
+     "parametro": "Armário duplo com divisão vertical — dimensões mínimas",
+     "valor": "0,80 m (alt.) × 0,50 m (larg.) × 0,40 m (prof.)",
+     "item": "24.4.6.1 b)"
+    },
+    {
+     "parametro": "Armário duplo com divisão vertical — cada compartimento",
+     "valor": "largura 0,25 m",
+     "item": "24.4.6.1 b)",
+     "cota": "esquemas/resumo-nr-24-sanitarios-armarios.svg#duplo-largura-compartimento"
+    }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-24-sanitarios-armarios.svg"
+   ]
+  },
+  {
+   "titulo": "Locais para refeições",
+   "item": "24.5",
+   "texto": "O empregador oferece local confortável e limpo para as refeições nos intervalos, podendo dividir o turno em grupos. Até 30 usuários basta um local adaptado e arejado com mesas e assentos, além de meios de conservar e aquecer a comida, lavar utensílios e água potável. Acima de 30, o refeitório é exclusivo, fora da área de trabalho, revestido com material lavável, ventilado, com lavatórios próximos e lixeiras com tampa. Bancos com pausa de 2 h, indústrias com vila operária e empresas com vale-refeição (com local para quem traz comida) ficam dispensados.",
+   "valores": [
+    {
+     "parametro": "Local simples para refeições",
+     "valor": "até 30 trabalhadores",
+     "item": "24.5.2"
+    },
+    {
+     "parametro": "Refeitório exclusivo, fora da área de trabalho",
+     "valor": "mais de 30 trabalhadores",
+     "item": "24.5.3"
+    },
+    {
+     "parametro": "Dispensa — bancos",
+     "valor": "pausa de 2 h para refeição",
+     "item": "24.5.4 a)"
+    }
+   ]
+  },
+  {
+   "titulo": "Cozinhas",
+   "item": "24.6",
+   "texto": "Cozinhas ficam junto ao refeitório, revestidas com material lavável, com ventilação telada ou exaustão, lavatório próprio e sanitário exclusivo para quem manipula alimentos, separado por sexo. Câmara frigorífica abre por dentro mesmo trancada por fora, e botijões de GLP ficam em área externa ventilada.",
+   "valores": []
+  },
+  {
+   "titulo": "Alojamento",
+   "item": "24.7",
+   "texto": "Alojamento reúne dormitórios, sanitários, refeitório, área de vivência e lavanderia para hospedagem temporária. Os quartos são separados por sexo, com camas para todos, colchões certificados pelo INMETRO, roupa de cama limpa, ventilação natural e artificial, armários com tranca e conforto acústico; beliche tem proteção lateral e escada fixa na cama de cima. É proibido cozinhar ou usar fogareiro nos quartos.",
+   "valores": [
+    {
+     "parametro": "Sanitário com chuveiro no alojamento",
+     "valor": "1 para cada 10 hospedados ou fração",
+     "item": "24.7.2 c)"
+    },
+    {
+     "parametro": "Distância máxima dormitório–sanitário (se separado)",
+     "valor": "50 m, por passagem coberta com piso lavável",
+     "item": "24.7.2.1"
+    },
+    {
+     "parametro": "Camas na mesma vertical",
+     "valor": "no máximo 2 (proibido 3 ou mais)",
+     "item": "24.7.3 a)"
+    },
+    {
+     "parametro": "Capacidade máxima do quarto",
+     "valor": "8 trabalhadores",
+     "item": "24.7.3 e)"
+    },
+    {
+     "parametro": "Área mínima por cama simples",
+     "valor": "3,00 m² (inclui circulação e armário)",
+     "item": "24.7.3 g)"
+    },
+    {
+     "parametro": "Área mínima por beliche",
+     "valor": "4,50 m² (inclui circulação e armário)",
+     "item": "24.7.3 g)"
+    },
+    {
+     "parametro": "Beliche — cama superior",
+     "valor": "proteção lateral e escada fixas à estrutura",
+     "item": "24.7.3.1",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#protecao-lateral"
+    }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-37-camarote.svg"
+   ]
+  },
+  {
+   "titulo": "Vestimenta de trabalho",
+   "item": "24.8",
+   "texto": "Vestimenta de trabalho é a roupa exigida pela atividade (sujeira, agentes, visibilidade), diferente de uniforme e de EPI, que ela não substitui. O empregador a fornece sem custo, no tamanho certo, em quantidade para troca, a repõe quando gasta e a lava quando a lavagem doméstica oferece risco. Peças de cabeça ou rosto não podem limitar a visão.",
+   "valores": []
+  },
+  {
+   "titulo": "Disposições gerais",
+   "item": "24.9",
+   "texto": "Água potável é obrigatória em todos os locais, sem copo coletivo; a água não potável é separada e sinalizada, e os reservatórios são limpos e analisados periodicamente. Os ambientes seguem o código de obras local, com cobertura, paredes resistentes, pisos adequados, iluminação e instalações elétricas protegidas. O trabalhador pode interromper a tarefa para ir ao sanitário; em edifícios com vários estabelecimentos as instalações podem ser comuns.",
+   "valores": [
+    {
+     "parametro": "Bebedouro",
+     "valor": "1 para cada 50 trabalhadores ou fração",
+     "item": "24.9.1.1"
+    },
+    {
+     "parametro": "Pé-direito mínimo (sem código de obras local)",
+     "valor": "2,50 m",
+     "item": "24.9.7.1",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#pe-direito"
+    },
+    {
+     "parametro": "Pé-direito mínimo em quarto com beliche",
+     "valor": "3,00 m",
+     "item": "24.9.7.1",
+     "cota": "esquemas/resumo-nr-37-camarote.svg#pe-direito"
+    }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-37-camarote.svg"
+   ]
+  },
+  {
+   "titulo": "Shopping center",
+   "item": "Anexo I",
+   "texto": "A administração do shopping oferece sanitários, vestiários e local de refeição aos seus empregados e aos das lojas sem espaço próprio; as lojas que usam essas instalações ficam dispensadas. Lanchonetes e restaurantes têm vestiário e sanitário com chuveiro próprios.",
+   "valores": [
+    {
+     "parametro": "Vestiário + sanitário com chuveiro — lanchonetes/restaurantes",
+     "valor": "1 conjunto para cada 20 trabalhadores ou fração",
+     "item": "Anexo I, 4"
+    },
+    {
+     "parametro": "Vestiário + sanitário com chuveiro — exposição a agentes tóxicos/infectantes/sujidade",
+     "valor": "1 conjunto para cada 10 trabalhadores ou fração",
+     "item": "Anexo I, 4.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Trabalho externo de prestação de serviços",
+   "item": "Anexo II",
+   "texto": "No estabelecimento do cliente, este garante a higiene e a alimentação. Em logradouro público, o empregador garante sanitário (pode ser químico com descarga ou isolamento dos dejetos, higienizado diariamente), local de refeição protegido ou custeio da alimentação e água fresca em recipiente térmico. O uso do sanitário é gratuito e pode haver convênio com estabelecimentos próximos.",
+   "valores": [
+    {
+     "parametro": "Sanitário em frente de trabalho externa",
+     "valor": "1 bacia + 1 lavatório para cada 20 trabalhadores ou fração",
+     "item": "Anexo II, 2.1 a)"
+    }
+   ]
+  },
+  {
+   "titulo": "Transporte coletivo urbano",
+   "item": "Anexo III",
+   "texto": "Para motoristas, cobradores e fiscais de ônibus urbano, quando nenhuma ponta da linha fica em terminal, o empregador garante sanitário, local de refeição e água potável perto de um dos pontos iniciais ou finais. O dimensionamento usa o maior número de trabalhadores presentes ao mesmo tempo pela programação oficial, e o uso é gratuito.",
+   "valores": [
+    {
+     "parametro": "Distância máxima a pé até sanitário/refeição/água",
+     "valor": "250 m",
+     "item": "Anexo III, 4.1"
+    },
+    {
+     "parametro": "Sanitário",
+     "valor": "1 bacia + 1 lavatório para cada 20 trabalhadores ou fração",
+     "item": "Anexo III, 4.1.1"
+    },
+    {
+     "parametro": "Dispensa de separação por sexo",
+     "valor": "grupo de até 10 trabalhadores, com privacidade",
+     "item": "Anexo III, 4.1.1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "id": "ASME-SA-522",
+ "titulo": "SA-522 — Flanges, conexões e válvulas forjados de aço 8 e 9 % Ni para baixa temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Flanges, conexões, válvulas e peças forjadas ou laminadas de aço 8 % e 9 % níquel para vasos de pressão soldados em baixa temperatura (Tipo I = 9 % Ni; Tipo II = 8 % Ni). Fusão pela SA-788.",
+   "valores": [
+    {
+     "parametro": "Seção máx. — duplamente normalizado e revenido",
+     "valor": "3 in [75 mm]",
+     "item": "1.1"
+    },
+    {
+     "parametro": "Seção máx. — temperado e revenido",
+     "valor": "5 in [125 mm]",
+     "item": "1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "6",
+   "texto": "Por acordo: têmpera e revenimento, ou dupla normalização e revenimento, com patamar mínimo de 1 h/in (2,4 min/mm), nunca menos de 30 min.",
+   "valores": [
+    {
+     "parametro": "Têmpera — austenitização",
+     "valor": "1475 ± 25 °F [800 ± 15 °C], têmpera em água circulante",
+     "item": "6.1.1"
+    },
+    {
+     "parametro": "Dupla normalização — 1ª / 2ª",
+     "valor": "1650 °F [900 °C] / 1450 °F [790 °C], resfriamento ao ar",
+     "item": "6.1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx. / Mn máx.",
+     "valor": "0,13 % / 0,90 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,025 % / 0,025 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,15–0,30 % (0,10 % máx. com desoxidação a vácuo)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni — Tipo I / Tipo II",
+     "valor": "8,5–9,5 % / 7,5–8,5 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 3",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su mín.",
+     "valor": "100 ksi [690 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "75 ksi [515 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento / redução de área mín.",
+     "valor": "22 % / 45 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Charpy — expansão lateral mín.",
+     "valor": "0,015 in [0,38 mm]",
+     "item": "Tabela 3",
+     "nota": "a extração mostra '0.15 in.'; o equivalente 0,38 mm corresponde a 0,015 in"
+    },
+    {
+     "parametro": "Temperatura de ensaio — Tipo 1 / Tipo 2",
+     "valor": "−320 °F [−195 °C] / −275 °F [−170 °C]",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio e marcação",
+   "item": "11, 15",
+   "texto": "Charpy conforme SA-370, rompido a ±3 °F [1,7 °C] da temperatura especificada; energia e % de cisalhamento registrados. Forjados estampados com corrida, fabricante, especificação e tipo."
+  }
+ ]
+}

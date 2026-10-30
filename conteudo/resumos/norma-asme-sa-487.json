@@ -1,0 +1,98 @@
+{
+ "id": "ASME-SA-487",
+ "titulo": "SA-487 — Fundidos de aço para partes sob pressão (temperados e revenidos / normalizados e revenidos)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Fundidos de aço baixa liga e inoxidável martensítico, normalizados e revenidos ou temperados e revenidos, para partes sob pressão. A soldabilidade varia de fácil a 'só com precauções'; deve ser avaliada antes da montagem por solda. Requisitos gerais pela SA-703."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5, Tabela 1",
+   "texto": "Tratamento após resfriamento abaixo da faixa de transformação; pré-tratamentos e revenimentos múltiplos permitidos; fornos com registro de temperatura.",
+   "valores": [
+    {
+     "parametro": "Grau 1 Classe A — austenitização / revenimento",
+     "valor": "1600 °F [870 °C], ar / 1100 °F [595 °C]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 1 Classe C",
+     "valor": "1600 °F [870 °C], ar ou líquido / 1150 °F [620 °C]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "CA15 Classe B",
+     "valor": "1750 °F [955 °C] / 1100 °F [595 °C]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "CA6NM Classe A",
+     "valor": "1850 °F [1010 °C] / 1050–1150 °F [565–620 °C]",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su / Sy mín. / alongamento / redução de área (algumas classes com dureza máx. 22 HRC).",
+   "valores": [
+    {
+     "parametro": "1 A (1N)",
+     "valor": "85–110 ksi [585–760] / 55 ksi [380] / 22 % / 40 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "2 B (2Q)",
+     "valor": "90–115 ksi [620–795] / 65 ksi [450] / 22 % / 40 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "4 B (4Q)",
+     "valor": "105–130 ksi [725–895] / 85 ksi [585] / 17 % / 35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "4 C",
+     "valor": "90 ksi [620] / 60 ksi [415] / 18 % / 35 %; dureza máx. 22 HRC",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "CA15 B",
+     "valor": "90–115 ksi [620–795] / 65 ksi [450] / 18 % / 30 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "CA6NM A",
+     "valor": "110–135 ksi [760–930] / 80 ksi / 15 % / 35 %",
+     "item": "Tabela 3",
+     "nota": "a extração dá [515] MPa para 80 ksi; conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo por solda",
+   "item": "9, Tabela 4",
+   "texto": "Reparos com pré-aquecimento e TTAT mínimos.",
+   "valores": [
+    {
+     "parametro": "Graus 1, 2, 4 — pré-aquec. / TTAT mín.",
+     "valor": "200 °F [95 °C] / 1100 °F [595 °C] (classes C, D: 1150 °F [620 °C])",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Grau 6 — pré-aquec.",
+     "valor": "300 °F [150 °C]",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "10",
+   "texto": "Marcação com grau e classe (ex.: 1-A, 4-C, CA15-A)."
+  }
+ ]
+}

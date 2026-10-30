@@ -1,0 +1,82 @@
+{
+ "id": "ASME-SA-354",
+ "titulo": "SA-354 — Parafusos, estojos e fixadores de aço liga temperado e revenido",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafusos, estojos e outros fixadores roscados externamente, de aço liga temperado e revenido, até 4 in de diâmetro, para alta resistência em temperatura ambiente (uso limitado em temperatura elevada). Graus BC e BD."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "4",
+   "texto": "Todos os fixadores são temperados em líquido (BD até 1 1/2 in, em óleo) a partir de acima da transformação e revenidos.",
+   "valores": [
+    {
+     "parametro": "Revenimento mín. — BC e BD",
+     "valor": "800 °F (427 °C)",
+     "item": "4.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Aço liga, com elementos suficientes para ser classificado como liga.",
+   "valores": [
+    {
+     "parametro": "C — até 1 1/2 in / acima",
+     "valor": "0,30–0,53 % / 0,35–0,53 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx. (corrida)",
+     "valor": "0,035 % / 0,040 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 a 5",
+   "texto": "Corpos de prova usinados: Su mín. / Sy mín. / alongamento / redução de área.",
+   "valores": [
+    {
+     "parametro": "BC, 1/4 a 2 1/2 in",
+     "valor": "125 000 psi (862) / 109 000 psi (752) / 16 % / 50 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "BC, acima de 2 1/2 in",
+     "valor": "115 000 psi (793) / 99 000 psi (683) / 16 % / 45 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "BD, 1/4 a 2 1/2 in",
+     "valor": "150 000 psi (1034) / 130 000 psi (896) / 14 % / 40 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "BD, acima de 2 1/2 in",
+     "valor": "140 000 psi (965) / 115 000 psi (793) / 14 % / 40 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Dureza BC (1/4 a 2 1/2 in)",
+     "valor": "255–331 HB (26–36 HRC)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Dureza BD (1/4 a 2 1/2 in)",
+     "valor": "311–363 HB (33–39 HRC)",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "6, 15",
+   "texto": "Fixadores curtos (< 3d; estojos < 4d) só por dureza; os demais até 1 3/8 in (BC) ou 1 1/4 in (BD) em tamanho natural, com carga de prova. Marcação com identificador do fabricante e grau."
+  }
+ ]
+}

@@ -1,0 +1,1689 @@
+{
+  "id": "passarela-plataforma-rampa",
+  "titulo": "Passarela, plataforma e rampa",
+  "categoria": "Acessos e circulação",
+  "resumo": "Passarelas (walkways), plataformas de trabalho/acesso e rampas. Reúne a escolha rampa x escada, inclinação máxima e peças transversais, larguras (uma pessoa, duas vias, rota de fuga), pé-direito livre, piso/grating (abertura máxima), cargas de projeto e deflexão, conforme NR-12, NR-18, NR-34, NR-37 e ABS, e cargas de convés offshore (LRFD) da DNV-OS-C101.",
+  "palavras_chave": [
+    "passarela",
+    "passarelas",
+    "plataforma",
+    "plataformas",
+    "plataforma de trabalho",
+    "plataforma de acesso",
+    "rampa",
+    "rampas",
+    "inclinação da rampa",
+    "peças transversais",
+    "travessas antiderrapantes",
+    "piso",
+    "grade de piso",
+    "piso gradeado",
+    "grating",
+    "grelha",
+    "abertura do grating",
+    "deflexão",
+    "carga de piso",
+    "sobrecarga",
+    "pé-direito",
+    "altura livre",
+    "headroom",
+    "largura",
+    "rota de fuga",
+    "corredor",
+    "circulação",
+    "walkway",
+    "walkways",
+    "platform",
+    "ramp",
+    "catwalk",
+    "gangway",
+    "egress",
+    "escape route",
+    "toeboard",
+    "rodapé",
+    "NR-35",
+    "trabalho em altura",
+    "SPCQ",
+    "proteção coletiva",
+    "DNV",
+    "DNV-OS-C101",
+    "OS-C101",
+    "C101",
+    "LRFD",
+    "WSD",
+    "fator de carga",
+    "fator parcial de carga",
+    "load factor",
+    "partial load factor",
+    "gamma f",
+    "γf",
+    "carga variável",
+    "variable load",
+    "variable functional load",
+    "deck load",
+    "carga de convés",
+    "carga distribuída",
+    "carga pontual",
+    "point load",
+    "wheel load",
+    "carga de roda",
+    "lay down",
+    "laydown",
+    "área de armazenagem",
+    "storage area",
+    "lifeboat platform",
+    "inspection walkway",
+    "passarela de inspeção",
+    "plataforma de máquinas",
+    "machinery space",
+    "flecha",
+    "deflection",
+    "S/200",
+    "L/200",
+    "espessura mínima",
+    "minimum thickness",
+    "estrutura secundária",
+    "secondary structure",
+    "categoria estrutural",
+    "structural category",
+    "PMA",
+    "permanent means of access",
+    "access manual",
+    "ICLL",
+    "offshore",
+    "FPSO",
+    "unidade flutuante"
+  ],
+  "relacionadas": [
+    "escada-degraus",
+    "escada-marinheiro",
+    "guarda-corpo",
+    "escada-portatil",
+    "grating-piso-grade"
+  ],
+  "figuras": [
+    {
+      "arquivo": "esquemas/passarela-rampa-angulo.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — faixa de ângulo da rampa no quadrante dos meios de acesso; rampa com ângulo α, desnível, distância T entre peças transversais e patamar.",
+      "norma": "NR-12",
+      "item": "Esquema",
+      "pagina": 34,
+      "grupo": [
+        "Escolha: rampa x escada",
+        "Rampas — inclinação e peças transversais"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Anexo III, Figura 2 (item 6)). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/passarela-gabarito.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — corte da passarela: w (largura livre), largura junto ao piso com bandeja, h (pé-direito) e pé-direito sob tubo que cruza a passarela.",
+      "norma": "ISO-14122-2",
+      "item": "Esquema",
+      "pagina": 14,
+      "grupo": [
+        "Larguras",
+        "Pé-direito"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Figura 1). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/passarela-plataforma-trabalho-cotas.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — pessoa na plataforma: altura piso → tarefa, alcance máximo, zona de trabalho; planta com largura e profundidade.",
+      "norma": "ABS-ERGO",
+      "item": "Esquema",
+      "pagina": 44,
+      "grupo": [
+        "Plataforma de trabalho — dimensões e altura"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Sec. 4, 6, Figura 19). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/passarela-piso-grating.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — planta do grating com a abertura entre barras; corte de dois pisos vizinhos com desnível entre topos e fresta.",
+      "norma": "ISO-14122-2",
+      "item": "Esquema",
+      "pagina": 15,
+      "grupo": [
+        "Piso e grating"
+      ],
+      "nota": "Desenho próprio. Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/passarela-protecao-queda.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — passarela elevada: desnível que exige guarda-corpo, altura do guarda-corpo, rodapé e fresta até a estrutura adjacente.",
+      "norma": "ABS-ERGO",
+      "item": "Esquema",
+      "pagina": 33,
+      "grupo": [
+        "Proteção contra queda"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Sec. 4, 4.4, Figura 12). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/passarela-cargas-flecha.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — piso biapoiado com flecha sob carga; planta com a área de aplicação da carga pontual e da carga de roda.",
+      "norma": "DNV-OS-C101",
+      "item": "Esquema",
+      "pagina": 26,
+      "grupo": [
+        "Cargas de projeto e deflexão"
+      ],
+      "nota": "Desenho próprio, feito do zero, no lugar da figura da norma (Ch.2 Sec.2, Table 1). Sem valores: o site escreve o valor do requisito na cota destacada."
+    },
+    {
+      "arquivo": "esquemas/passarela-espessuras-dnv.svg",
+      "legenda": "Esquema ilustrativo (não é desenho da norma) — corte de painel de piso em aço: espessura da chapa, do reforçador e da viga principal.",
+      "norma": "DNV-OS-C101",
+      "item": "Esquema",
+      "pagina": 56,
+      "grupo": [
+        "Estrutura de aço offshore (DNV) — categoria e espessuras mínimas"
+      ],
+      "nota": "Desenho próprio. Sem valores: o site escreve o valor do requisito na cota destacada."
+    }
+  ],
+  "requisitos": [
+    {
+      "grupo": "Escolha: rampa x escada",
+      "parametro": "Meios de acesso considerados (máquinas)",
+      "valor": "Elevadores, rampas, passarelas, plataformas ou escadas de degraus; escolha pelo ângulo de lance (Figura 1)",
+      "norma": "NR-12",
+      "item": "Anexo III, 1.1 e 2",
+      "pagina": 32,
+      "nota": "Ver item 2 e Figura 1. Não se aplica a prédios e estruturas fixas/flutuantes onde a máquina está instalada, salvo se a função principal for dar acesso à máquina (1.2)."
+    },
+    {
+      "grupo": "Escolha: rampa x escada",
+      "parametro": "Rampa — faixa de ângulo de lance",
+      "valor": "0° a 20° (rampa com peças transversais: 10° a 20°)",
+      "min": 0,
+      "max": 20,
+      "unidade": "°",
+      "norma": "NR-12",
+      "item": "Anexo III, 2 / Figura 1",
+      "pagina": 33,
+      "nota": "Lido na Figura 1 (ISO 14122): A (rampa) no setor 0°–10°, B (rampa com peças transversais) no setor 10°–20°; o máximo de 20° vem do item 6.1.",
+      "cota": "esquemas/passarela-rampa-angulo.svg#angulo-faixa"
+    },
+    {
+      "grupo": "Escolha: rampa x escada",
+      "parametro": "Posto de trabalho elevado (operação, ajuste, inspeção, limpeza, manutenção habituais)",
+      "valor": "Plataforma de trabalho estável e segura",
+      "norma": "NR-12",
+      "item": "Anexo III, 3",
+      "pagina": 33,
+      "nota": "Na impossibilidade técnica: plataformas móveis ou elevatórias (3.1), estáveis, sem movimentação ou tombamento (item 4)."
+    },
+    {
+      "grupo": "Escolha: rampa x escada",
+      "parametro": "Desnível que obriga escada ou rampa",
+      "valor": "> 0,4 m",
+      "min": 400,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.1",
+      "pagina": 15,
+      "cota": "esquemas/passarela-rampa-angulo.svg#desnivel"
+    },
+    {
+      "grupo": "Escolha: rampa x escada",
+      "parametro": "Desnível que obriga escada ou rampa",
+      "valor": "> 30 cm",
+      "min": 300,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.3.1",
+      "pagina": 8,
+      "cota": "esquemas/passarela-rampa-angulo.svg#desnivel"
+    },
+    {
+      "grupo": "Escolha: rampa x escada",
+      "parametro": "Desnível em que se usa rampa",
+      "valor": "< 600 mm",
+      "max": 600,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.1 ii)",
+      "pagina": 19,
+      "nota": "O texto não diz explicitamente o que usar acima de 600 mm; ver 3.1 (> 300 mm: escada vertical/inclinada ou rampa).",
+      "cota": "esquemas/passarela-rampa-angulo.svg#desnivel"
+    },
+    {
+      "grupo": "Escolha: rampa x escada",
+      "parametro": "Desnível abrupto que exige escada vertical/inclinada ou rampa",
+      "valor": "> 300 mm",
+      "min": 300,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 3.1",
+      "pagina": 21,
+      "nota": "Passagem sobre obstáculos baixos (tubos, cabos, ressaltos) também por essas estruturas ou um degrau simples.",
+      "cota": "esquemas/passarela-rampa-angulo.svg#desnivel"
+    },
+    {
+      "grupo": "Escolha: rampa x escada",
+      "parametro": "Passarela obrigatória",
+      "valor": "Quando houver trânsito de pessoas sobre vãos com risco de queda de altura",
+      "norma": "NR-18",
+      "item": "18.8.3",
+      "pagina": 16
+    },
+    {
+      "grupo": "Escolha: rampa x escada",
+      "parametro": "Desnível que obriga escada, escada vertical ou rampa",
+      "valor": "> 305 mm (12 in.)",
+      "min": 305,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.1.1",
+      "pagina": 92,
+      "cota": "esquemas/passarela-rampa-angulo.svg#desnivel"
+    },
+    {
+      "grupo": "Escolha: rampa x escada",
+      "parametro": "Quando usar rampa",
+      "valor": "Desnível < 610 mm (24 in.); movimentar pessoas, veículos ou materiais por um só meio; rota de fuga mais eficiente se a inclinação for ≤ 8°; transporte manual de cargas volumosas ou > 13,6 kg (30 lb)",
+      "max": 610,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.1.2.2",
+      "pagina": 93,
+      "cota": "esquemas/passarela-rampa-angulo.svg#desnivel"
+    },
+    {
+      "grupo": "Escolha: rampa x escada",
+      "parametro": "Seleção do tipo de acesso (Tabela 22)",
+      "valor": "Escada 30°–50° (pref. 38°); escada inclinada 50°–75° não usar; escada vertical 75°–90° (pref. 90°); rampa para pessoas 7°–15° (pref. 7°–8°); rampa para movimentação de materiais 4°–7° (pref. 4°)",
+      "norma": "ASTM-F1166",
+      "item": "11.1.3 / Tabela 22",
+      "pagina": 101
+    },
+    {
+      "grupo": "Escolha: rampa x escada",
+      "parametro": "Degrau isolado em passarela interrompida",
+      "valor": "Permitido se o desnível não puder ser vencido por escada ou rampa: altura de 150 mm a 300 mm, claramente visível (cor, guarda-corpo dobrado)",
+      "min": 150,
+      "max": 300,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.2",
+      "pagina": 13,
+      "cota": "esquemas/passarela-rampa-angulo.svg#desnivel"
+    },
+    {
+      "grupo": "Escolha: rampa x escada",
+      "parametro": "Hierarquia na escolha do meio de acesso fixo (trabalho em altura)",
+      "valor": "a) acesso direto do solo ou piso; b) rampa ou escada de uso coletivo; c) escada de inclinação elevada; d) escada fixa vertical",
+      "norma": "NR-35",
+      "item": "Anexo III, 4.1.2",
+      "pagina": 17,
+      "nota": "Item com 'linha de corte' (Portaria MTE 1.860/2025, art. 2º) — a regra de transição não está no texto da NR; consultar a Portaria."
+    },
+    {
+      "parametro": "Meios de acesso à estrutura",
+      "valor": "Todas as unidades com meios de acesso seguros e práticos a todas as partes estruturais; espaços de acesso limitado ou não acessíveis exigem medidas especiais de inspeção e manutenção",
+      "item": "Ch.2 Sec.1 [3.1.1]",
+      "pagina": 20,
+      "grupo": "Arranjo de acesso (unidade offshore)",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Arranjo de escadas, escadas verticais, plataformas e corrimãos (PMA)",
+      "valor": "Requisitos de PMA devem (should — recomendação) ser incorporados no início do projeto: arranjo de acesso e arranjo estrutural de stairs, ladders, platforms and handrails; nº, tipo, tamanho e posição de aberturas em relação a áreas críticas à fadiga; posição de reforços horizontais, vigas e longarinas para servirem de plataforma de acesso",
+      "item": "Ch.2 Sec.1 [3.1.3]",
+      "pagina": 20,
+      "nota": "PMA = Permanent Means of Access. Guidance: requisitos PMA em SOLAS Ch.II-1 Reg.3-6 (petroleiros e graneleiros) e MODU code Ch.2 [2.2].",
+      "grupo": "Arranjo de acesso (unidade offshore)",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Manual de acesso",
+      "valor": "Os meios de acesso devem ser descritos num access manual da unidade",
+      "item": "Ch.2 Sec.1 [3.1.4]",
+      "pagina": 20,
+      "grupo": "Arranjo de acesso (unidade offshore)",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Inclinação máxima da rampa",
+      "valor": "≤ 20° (proibido > 20°)",
+      "max": 20,
+      "unidade": "°",
+      "norma": "NR-12",
+      "item": "Anexo III, 6.1",
+      "pagina": 34,
+      "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Peças transversais (rampa 10° a 20°, quando necessária maior resistência ao escorregamento)",
+      "valor": "Espaçamento T = 0,40 m a 0,50 m; altura h = 0,01 m a 0,02 m",
+      "min": 400,
+      "max": 500,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 6 / Figura 2",
+      "pagina": 34,
+      "nota": "min/max referem-se ao espaçamento T. Altura da peça: 10 a 20 mm. Rampas anteriores a este subitem: dispensadas do item 6, com outra medida de mesma eficácia (6.2).",
+      "cota": "esquemas/passarela-rampa-angulo.svg#T"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Inclinação máxima da rampa (obra)",
+      "valor": "< 15°",
+      "max": 15,
+      "unidade": "°",
+      "norma": "NR-18",
+      "item": "18.8.2 a)",
+      "pagina": 15,
+      "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Peças transversais (rampa > 6°)",
+      "valor": "Espaçadas no máximo 0,4 m, ou outro dispositivo de apoio para os pés",
+      "max": 400,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.7.2",
+      "pagina": 19,
+      "cota": "esquemas/passarela-rampa-angulo.svg#T"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Rampa de acesso à torre de elevador (obra)",
+      "valor": "Piso resistente sem aberturas; sem inclinação descendente no sentido da torre; proteção contra quedas",
+      "norma": "NR-18",
+      "item": "18.11.15",
+      "pagina": 32
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Inclinação máxima da rampa provisória (estaleiro)",
+      "valor": "≤ 30°",
+      "max": 30,
+      "unidade": "°",
+      "norma": "NR-34",
+      "item": "34.6.3.13",
+      "pagina": 9,
+      "nota": "Rampa fixada no piso inferior e superior.",
+      "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Peças transversais (rampa provisória > 18°)",
+      "valor": "Espaçadas no máximo 40 cm, para apoio dos pés",
+      "max": 400,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.3.14",
+      "pagina": 9,
+      "cota": "esquemas/passarela-rampa-angulo.svg#T"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Escada ou rampa de acesso à passarela estabilizada (gangway)",
+      "valor": "≤ 30° em relação ao plano horizontal, com dispositivo rotativo",
+      "max": 30,
+      "unidade": "°",
+      "norma": "NR-37",
+      "item": "37.11.7 j)",
+      "pagina": 21,
+      "nota": "Vale só para o acesso à passarela estabilizada (gangway) entre a plataforma e a embarcação adjacente; não é limite geral de rampa. Gangway: via desobstruída, corrimãos, piso antiderrapante e fechamento lateral (37.11.7 a) e c)).",
+      "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Inclinação da rampa — passagem de pessoal",
+      "valor": "≤ 15°",
+      "max": 15,
+      "unidade": "°",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.3 / Figura 2 (θ)",
+      "pagina": 20,
+      "nota": "Valor da tabela de cotas da Figura 2 (θ); o desenho da Figura 2 está nas figuras desta ficha.",
+      "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Inclinação da rampa — movimentação manual de materiais sem auxílio",
+      "valor": "≤ 5°",
+      "max": 5,
+      "unidade": "°",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.3 / Figura 2 (θ)",
+      "pagina": 20,
+      "nota": "Valor da tabela de cotas da Figura 2.",
+      "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Inclinação da rampa — pedestres sem movimentação de materiais",
+      "valor": "8° (preferido) a 15° (máximo)",
+      "max": 15,
+      "unidade": "°",
+      "norma": "ASTM-F1166",
+      "item": "11.3.1 / Tabela 26",
+      "pagina": 105,
+      "nota": "A Tabela 22 dá 7°–15°, preferido 7°–8°; a Tabela 26 dá 8° preferido.",
+      "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Inclinação da rampa — pedestres com movimentação de materiais",
+      "valor": "4° (preferido) a 7° (máximo)",
+      "max": 7,
+      "unidade": "°",
+      "norma": "ASTM-F1166",
+      "item": "Tabela 26",
+      "pagina": 105,
+      "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Inclinação da rampa — só veículos",
+      "valor": "20° (máximo)",
+      "max": 20,
+      "unidade": "°",
+      "norma": "ASTM-F1166",
+      "item": "Tabela 26",
+      "pagina": 105,
+      "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Antiderrapante e ripas (cleats)",
+      "valor": "Rampas > 5°: superfície antiderrapante; > 10°: ripas transversais em toda a largura, espaçadas 356 mm (14 in.) preferido, 406 mm (16 in.) máx.",
+      "max": 406,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.3.5.1",
+      "pagina": 101,
+      "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Patamares da rampa",
+      "valor": "Patamares nivelados no topo e na base de cada rampa e intermediários (Figs. 90–92)",
+      "norma": "ASTM-F1166",
+      "item": "11.3.4",
+      "pagina": 101
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Rampa reta — patamares e lance (Fig. 90)",
+      "valor": "Patamar inferior ≥ 1,83 m (6 ft); patamares intermediário e superior ≥ 1,52 m (5 ft); lance entre patamares ≤ 15,2 m (50 ft); largura ≥ 0,91 m (3 ft), preferida 1,24 m (4 ft)",
+      "max": 15200,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Fig. 90",
+      "pagina": 102,
+      "nota": "Lido da figura (não do texto). O 2º lance aparece como '15.2 m (50 ft) min.' (conferido na imagem); o 1º é 'max.', erro de figura. A largura preferida da figura (1,24 m) difere dos 1219 mm de 11.3.2.",
+      "cota": "esquemas/passarela-rampa-angulo.svg#patamar"
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Tráfego misto (pedestres e veículos)",
+      "valor": "Faixa de veículos no centro, pedestres junto aos corrimãos; preferível rampa de veículos com escada de pedestres ao lado",
+      "norma": "ASTM-F1166",
+      "item": "11.3.6",
+      "pagina": 102
+    },
+    {
+      "grupo": "Rampas — inclinação e peças transversais",
+      "parametro": "Nervuras em rampa de 10° a 20° (máquinas)",
+      "valor": "Distância entre nervuras T = 400 mm a 500 mm; altura h = 10 mm a 20 mm; largura b = 10 mm a 20 mm",
+      "min": 400,
+      "max": 500,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.4.7 / Figura 3",
+      "pagina": 17,
+      "cota": "esquemas/passarela-rampa-angulo.svg#T"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura útil mínima de passarelas, plataformas e rampas",
+      "valor": "≥ 0,60 m",
+      "min": 600,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 10 a)",
+      "pagina": 37,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura útil reduzida",
+      "valor": "≥ 0,50 m",
+      "min": 500,
+      "unidade": "mm",
+      "norma": "NR-12",
+      "item": "Anexo III, 10.1 e 10.2",
+      "pagina": 37,
+      "nota": "Permitida se comprimento < 2,00 m, ou espaço restrito por tubulação, cabos ou razões construtivas da máquina (10.1); também para instalações anteriores à Portaria SIT 197/2010 (10.2).",
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura mínima de rampas e passarelas (obra)",
+      "valor": "≥ 0,8 m",
+      "min": 800,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.8.7.1 c)",
+      "pagina": 19,
+      "nota": "Dimensionar em função do comprimento e das cargas (18.8.7.1 a)).",
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura da passarela — uma pessoa",
+      "valor": "≥ 710 mm",
+      "min": 710,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 2 (A)",
+      "pagina": 20,
+      "nota": "Pode reduzir para ≥ 500 mm junto a cavernas/web frames da estrutura (nota 2 da Figura 2).",
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura da passarela — duas vias ou acesso/saída de uma entrada",
+      "valor": "≥ 915 mm",
+      "min": 915,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 2 (A)",
+      "pagina": 20,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura da passarela — rota de fuga (largura desobstruída)",
+      "valor": "≥ 1120 mm",
+      "min": 1120,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, Figura 2 (A)",
+      "pagina": 20,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura mínima de rota de fuga principal (plataforma de petróleo)",
+      "valor": "≥ 1,20 m",
+      "min": 1200,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.25.8.2 e)",
+      "pagina": 61,
+      "nota": "Além do estabelecido na NORMAM-01/DPC. Rotas contínuas, desobstruídas, sinalizadas e com iluminação de emergência. Portas de acesso a escadas com vão livre ≥ largura da rota atendida (37.25.8.4.4).",
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura mínima de rota de fuga secundária (plataforma de petróleo)",
+      "valor": "≥ 0,70 m",
+      "min": 700,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.25.8.2 e)",
+      "pagina": 61,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Circulação de acesso aos alojamentos (plataforma de petróleo)",
+      "valor": "≥ 1,20 m",
+      "min": 1200,
+      "unidade": "mm",
+      "norma": "NR-37",
+      "item": "37.12.7.1.4",
+      "pagina": 30,
+      "nota": "Seção 37.12.7 (Camarotes): aplica-se à circulação de acesso aos alojamentos/camarotes, não às passarelas de área de processo.",
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura da rampa (pessoas)",
+      "valor": "≥ 914 mm (36 in.); preferida 1219 mm (48 in.)",
+      "min": 914,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.3.2",
+      "pagina": 101,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Passarela — uma pessoa de lado em área restrita (casa de máquinas)",
+      "valor": "mín. 330 mm (13 in.) / 381 mm (15 in.)",
+      "min": 330,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.12.1.1 / Tabela 27",
+      "pagina": 122,
+      "nota": "A 2ª coluna da Tabela 27 é rotulada 'Maximum Dimension' (na prática, valor preferido).",
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Passarela — uma pessoa de lado em área restrita, com roupa volumosa",
+      "valor": "mín. 406 mm (16 in.) / 457 mm (18 in.)",
+      "min": 406,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Tabela 27",
+      "pagina": 122,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Passarela — duas pessoas se cruzando, uma de lado",
+      "valor": "mín. 864 mm (34 in.) / 914 mm (36 in.)",
+      "min": 864,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Tabela 27",
+      "pagina": 122,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Passarela — uma pessoa de frente em área de acesso limitado",
+      "valor": "mín. 508 mm (20 in.) / 610 mm (24 in.)",
+      "min": 508,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Tabela 27",
+      "pagina": 122,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Passarela — uma pessoa em área livre / carregando volumes",
+      "valor": "mín. 710 mm (28 in.) / 813 mm (32 in.)",
+      "min": 710,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Tabela 27",
+      "pagina": 122,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Passarela — duas pessoas se cruzando de frente",
+      "valor": "mín. 813 mm (32 in.) / 864 mm (34 in.)",
+      "min": 813,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Tabela 27",
+      "pagina": 122,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Passarela — tráfego normal em dois sentidos ou rota para entrada/saída",
+      "valor": "mín. 965 mm (38 in.) / 1067 mm (42 in.)",
+      "min": 965,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Tabela 27",
+      "pagina": 122,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Corredor que é saída obrigatória",
+      "valor": "mín. 1118 mm (44 in.) / 1370 mm (54 in.)",
+      "min": 1118,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Tabela 27",
+      "pagina": 122,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Rota de saída de emergência de espaços tripulados",
+      "valor": "mín. 1219 mm (48 in.) / 1370 mm (54 in.)",
+      "min": 1219,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "Tabela 27",
+      "pagina": 122,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura livre com fundações elevadas no piso (cabeços etc.)",
+      "valor": "Embutir no piso/grating quando a largura livre ficar < 914 mm (36 in.)",
+      "min": 914,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.12.4",
+      "pagina": 112,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Acesso à proa de petroleiros",
+      "valor": "≥ 1016 mm (40 in.), na linha de centro ou próximo; aberturas no guarda-corpo a ≤ 40 m; abrigos a cada ≤ 45 m se exposto > 70 m",
+      "min": 1016,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.12.5.1 / 11.12.5.4 / 11.12.5.5",
+      "pagina": 112,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura livre (w) da passarela (máquinas)",
+      "valor": "≥ 800 mm",
+      "min": 800,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.2 / Figura 1",
+      "pagina": 13,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura livre — passagem ou cruzamento frequente de várias pessoas",
+      "valor": "≥ 1000 mm",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.2",
+      "pagina": 13,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura livre reduzida — uso ocasional ou restrição da máquina",
+      "valor": "≥ 600 mm (ex.: uso < 30 dias/ano e < 2 h/dia)",
+      "min": 600,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.2",
+      "pagina": 13,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura livre — trecho curto (< 2000 mm)",
+      "valor": "≥ 500 mm",
+      "min": 500,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.2",
+      "pagina": 13,
+      "cota": "esquemas/passarela-gabarito.svg#largura"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Largura junto ao piso ou na altura da cabeça com tubos/bandejas",
+      "valor": "≥ 500 mm (no piso, redução até 200 mm de altura)",
+      "min": 500,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.2 / Figura 1",
+      "pagina": 13,
+      "cota": "esquemas/passarela-gabarito.svg#largura-reduzida"
+    },
+    {
+      "grupo": "Larguras",
+      "parametro": "Passarela que é rota de fuga (máquinas)",
+      "valor": "Largura conforme regulamentação aplicável",
+      "norma": "ISO-14122-2",
+      "item": "4.2.2",
+      "pagina": 13
+    },
+    {
+      "grupo": "Plataforma de trabalho — dimensões e altura",
+      "parametro": "Dimensões mínimas da plataforma de trabalho",
+      "valor": "≥ 762 mm (30 in.) de largura × 915 mm (36 in.) de profundidade; só para ficar em pé: ≥ 381 mm (15 in.) × 457 mm (18 in.)",
+      "min": 762,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.13.2",
+      "pagina": 113,
+      "cota": "esquemas/passarela-plataforma-trabalho-cotas.svg#plat-largura"
+    },
+    {
+      "grupo": "Plataforma de trabalho — dimensões e altura",
+      "parametro": "Altura do piso da plataforma abaixo da tarefa — levantamento / torque máximo",
+      "valor": "985 mm (38 in.) a 1270 mm (50 in.) abaixo da altura da tarefa",
+      "min": 985,
+      "max": 1270,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.13.4.1",
+      "pagina": 114,
+      "nota": "O original escreve '985 mm (38 in.)', conferido no PDF; 38 in = 965 mm. Adotado 985 mm como impresso; com 965 mm a faixa ficaria 965–1270 mm.",
+      "cota": "esquemas/passarela-plataforma-trabalho-cotas.svg#altura-tarefa"
+    },
+    {
+      "grupo": "Plataforma de trabalho — dimensões e altura",
+      "parametro": "Alcance máximo — tarefas leves",
+      "valor": "≤ 1905 mm (75 in.) acima do piso da plataforma",
+      "max": 1905,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.13.4.2",
+      "pagina": 114,
+      "cota": "esquemas/passarela-plataforma-trabalho-cotas.svg#alcance"
+    },
+    {
+      "grupo": "Plataforma de trabalho — dimensões e altura",
+      "parametro": "Zona de trabalho ergonômica (máquinas)",
+      "valor": "Entre 500 mm e 1700 mm acima do piso da plataforma, quando possível",
+      "min": 500,
+      "max": 1700,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.1",
+      "pagina": 12,
+      "cota": "esquemas/passarela-plataforma-trabalho-cotas.svg#zona-trabalho"
+    },
+    {
+      "grupo": "Pé-direito",
+      "parametro": "Pé-direito livre em passarelas",
+      "valor": "≥ 2130 mm",
+      "min": 2130,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.1 iv) e Figura 2 (I)",
+      "pagina": 19,
+      "nota": "Figura 2 (I): distância abaixo de qualquer estrutura ou obstrução superior ≥ 2130 mm.",
+      "cota": "esquemas/passarela-gabarito.svg#pe-direito"
+    },
+    {
+      "grupo": "Pé-direito",
+      "parametro": "Altura livre sobre rampa de acesso ao elevador (obra)",
+      "valor": "≥ 2 m",
+      "min": 2000,
+      "unidade": "mm",
+      "norma": "NR-18",
+      "item": "18.11.16",
+      "pagina": 32,
+      "cota": "esquemas/passarela-gabarito.svg#pe-direito"
+    },
+    {
+      "grupo": "Pé-direito",
+      "parametro": "Pé-direito livre em passarelas e corredores",
+      "valor": "≥ 2032 mm (80 in.); preferido 2134 mm (84 in.), em todo o comprimento e largura",
+      "min": 2032,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.12.1.1",
+      "pagina": 112,
+      "cota": "esquemas/passarela-gabarito.svg#pe-direito"
+    },
+    {
+      "grupo": "Pé-direito",
+      "parametro": "Pé-direito livre (h) sobre plataformas e passarelas (máquinas)",
+      "valor": "≥ 2100 mm",
+      "min": 2100,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.2 / Figura 1",
+      "pagina": 13,
+      "cota": "esquemas/passarela-gabarito.svg#pe-direito"
+    },
+    {
+      "grupo": "Pé-direito",
+      "parametro": "Pé-direito reduzido sob obstáculo que cruza a passarela (tubo)",
+      "valor": "≥ 1900 mm, com acolchoamento e sinalização",
+      "min": 1900,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.2 / Figura 1",
+      "pagina": 13,
+      "cota": "esquemas/passarela-gabarito.svg#pe-direito-reduzido"
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Piso de passarelas, plataformas e rampas",
+      "valor": "Antiderrapante; desobstruído; meios de drenagem, se necessário",
+      "norma": "NR-12",
+      "item": "Anexo III, 5 b), 5 c) e 10 b)",
+      "pagina": 34,
+      "nota": "10 b): drenagem."
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Piso de rampas e passarelas (obra)",
+      "valor": "Forração completa e antiderrapante; firmemente fixadas nas extremidades",
+      "norma": "NR-18",
+      "item": "18.8.7.1 d) e e)",
+      "pagina": 19
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Ressalto entre passarela e terreno",
+      "valor": "Não deve existir",
+      "norma": "NR-34",
+      "item": "34.6.3.15",
+      "pagina": 9
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Atrito da superfície da rampa (molhada)",
+      "valor": "COF ≥ 0,6",
+      "min": 0.6,
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.1 iii)",
+      "pagina": 19
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Abertura máxima do grating — com pessoas abaixo",
+      "valor": "< 22 mm",
+      "max": 22,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.3.1 i)",
+      "pagina": 20,
+      "cota": "esquemas/passarela-piso-grating.svg#abertura"
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Abertura máxima do grating — sem pessoas abaixo",
+      "valor": "< 35 mm",
+      "max": 35,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.3.1 ii)",
+      "pagina": 20,
+      "cota": "esquemas/passarela-piso-grating.svg#abertura"
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Obstáculos no espaço de passagem",
+      "valor": "Proibidos (caixas elétricas, válvulas, atuadores, tubulação, tampas, parafusos passantes, braçolas)",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.1 vi) e vii)",
+      "pagina": 19
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Atrito do piso (passarelas, rampas, conveses)",
+      "valor": "COF ≥ 0,6 medido molhado",
+      "min": 0.6,
+      "unidade": "COF",
+      "norma": "ASTM-F1166",
+      "item": "11.3.5.2 / 11.12.1.2",
+      "pagina": 112,
+      "nota": "11.3.5.2: rampas."
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Desnível e fresta entre pisos vizinhos (máquinas)",
+      "valor": "Desnível entre topos ≤ 4 mm; fresta entre pisos adjacentes < 20 mm",
+      "max": 4,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.4.4",
+      "pagina": 15,
+      "cota": "esquemas/passarela-piso-grating.svg#desnivel-pisos"
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Abertura do piso — passarela/plataforma",
+      "valor": "Não pode passar esfera de Ø 35 mm",
+      "max": 35,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.4.5.1",
+      "pagina": 15,
+      "cota": "esquemas/passarela-piso-grating.svg#abertura"
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Abertura do piso — acima de local com pessoas trabalhando",
+      "valor": "Não pode passar esfera de Ø 20 mm; comprimento máximo da abertura 100 mm (salvo segurança equivalente)",
+      "max": 20,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.4.5.1",
+      "pagina": 15,
+      "nota": "Se a avaliação de risco indicar que a queda de objetos é mais grave que escorregar/cair, o piso não deve ter aberturas.",
+      "cota": "esquemas/passarela-piso-grating.svg#abertura"
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Drenagem e acúmulo",
+      "valor": "Piso drena líquidos; evitar acúmulo de sujeira/neve/gelo — pisos permeáveis (grating, pranchas conformadas a frio) recomendados",
+      "norma": "ISO-14122-2",
+      "item": "4.2.4.2 / 4.2.4.3",
+      "pagina": 15
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Piso removível",
+      "valor": "Elementos removíveis travados (ex.: fixadores) e com fixações inspecionáveis",
+      "norma": "ISO-14122-2",
+      "item": "4.2.4.6",
+      "pagina": 17
+    },
+    {
+      "grupo": "Piso e grating",
+      "parametro": "Passagem de tubos pelo piso",
+      "valor": "Aberturas só sem rota alternativa; largura conforme 4.2.2 e 4.2.4.5.2",
+      "norma": "ISO-14122-2",
+      "item": "4.2.4.1",
+      "pagina": 15
+    },
+    {
+      "grupo": "Cargas de projeto e deflexão",
+      "parametro": "Dimensionamento estrutural",
+      "valor": "Seguro e resistente, suportando os esforços solicitantes",
+      "norma": "NR-12",
+      "item": "Anexo III, 5 a)",
+      "pagina": 34
+    },
+    {
+      "grupo": "Cargas de projeto e deflexão",
+      "parametro": "Dimensionamento (obra)",
+      "valor": "Em função das cargas a que estarão submetidas",
+      "norma": "NR-18",
+      "item": "18.8.4",
+      "pagina": 16
+    },
+    {
+      "grupo": "Cargas de projeto e deflexão",
+      "parametro": "Plataformas fixas (estaleiro)",
+      "valor": "Projeto por profissional legalmente habilitado; memória de cálculo mantida; placa visível e indelével com a carga máxima permitida",
+      "norma": "NR-34",
+      "item": "34.6.4.1 a 34.6.4.5",
+      "pagina": 9,
+      "nota": "Apoios das extremidades das passarelas dimensionados pelo comprimento total e cargas (34.6.3.16)."
+    },
+    {
+      "grupo": "Cargas de projeto e deflexão",
+      "parametro": "Carga uniforme mínima (estrutura de passarelas e rampas)",
+      "valor": "2,0 kN/m²",
+      "min": 2.0,
+      "unidade": "kN/m²",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.2.2 i)",
+      "pagina": 19,
+      "nota": "Carga de projeto = total incluindo pessoas, materiais, equipamentos e a própria estrutura. Prevalece exigência maior de bandeira/autoridade portuária."
+    },
+    {
+      "grupo": "Cargas de projeto e deflexão",
+      "parametro": "Carga concentrada mínima (piso)",
+      "valor": "1,5 kN na posição mais desfavorável, sobre área de 200 mm × 200 mm",
+      "min": 1.5,
+      "unidade": "kN",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.2.2 ii)",
+      "pagina": 19,
+      "cota": "esquemas/passarela-cargas-flecha.svg#area-pontual"
+    },
+    {
+      "grupo": "Cargas de projeto e deflexão",
+      "parametro": "Deflexão máxima do piso sob carga de projeto",
+      "valor": "≤ L/200 do vão; desnível entre painel carregado e adjacente ≤ 4 mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.2.2 iii)",
+      "pagina": 20,
+      "cota": "esquemas/passarela-cargas-flecha.svg#flecha"
+    },
+    {
+      "grupo": "Cargas de projeto e deflexão",
+      "parametro": "Carga uniforme mínima (máquinas)",
+      "valor": "2 kN/m²",
+      "min": 2,
+      "unidade": "kN/m²",
+      "norma": "ISO-14122-2",
+      "item": "4.2.5",
+      "pagina": 18
+    },
+    {
+      "grupo": "Cargas de projeto e deflexão",
+      "parametro": "Carga concentrada mínima (máquinas)",
+      "valor": "1,5 kN na posição mais desfavorável, sobre 200 mm × 200 mm",
+      "min": 1.5,
+      "unidade": "kN",
+      "norma": "ISO-14122-2",
+      "item": "4.2.5",
+      "pagina": 18,
+      "cota": "esquemas/passarela-cargas-flecha.svg#area-pontual"
+    },
+    {
+      "grupo": "Cargas de projeto e deflexão",
+      "parametro": "Deflexão do piso e desnível sob carga (máquinas)",
+      "valor": "≤ 1/200 do vão; desnível entre piso carregado e vizinho descarregado ≤ 4 mm; verificar por cálculo ou ensaio",
+      "norma": "ISO-14122-2",
+      "item": "4.2.5",
+      "pagina": 18,
+      "nota": "A especificação deve declarar a carga de projeto (pessoas, ferramentas, peças, impacto, gelo/fluidos).",
+      "cota": "esquemas/passarela-cargas-flecha.svg#flecha"
+    },
+    {
+      "grupo": "Cargas de projeto e deflexão",
+      "parametro": "Plataformas e passarelas móveis (dobráveis, deslizantes)",
+      "valor": "Presas ao acesso fixo; travadas em uso e guardadas; sem risco de esmagamento; força manual dentro de EN 1005-2/-3",
+      "norma": "ISO-14122-2",
+      "item": "4.2.6",
+      "pagina": 18
+    },
+    {
+      "parametro": "Carga variável em convés — regra geral (offshore)",
+      "valor": "q por convés e por área definida pelo projetista, não menor que a Tabela 1; tomar q máximo ou mínimo, o que for mais desfavorável ao elemento; incluir neve e gelo quando aplicável",
+      "item": "Ch.2 Sec.2 [2.2.2] a)",
+      "pagina": 25,
+      "nota": "Ver tabela 'DNV-OS-C101 — Tabela 1' nesta ficha.",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Carga mínima — walkways, staircases and platforms, wheelhouse deck",
+      "valor": "q = 0.35 t/m²; PU = 0.35 tonnes",
+      "item": "Ch.2 Sec.2 Table 1 d)",
+      "pagina": 26,
+      "min": 0.35,
+      "unidade": "t/m²",
+      "nota": "Carga característica em massa: × (av + g) → ≈ 3,43 kN/m² com av = 0; 1,3·g·q ≈ 4,46 kN/m² (conversões calculadas, não constam da norma). PU sobre 100 × 100 mm (nota 2).",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Carga mínima — walkways and staircases for inspection only",
+      "valor": "q = 0.25 t/m²; PU = 0.25 tonnes",
+      "item": "Ch.2 Sec.2 Table 1 f)",
+      "pagina": 26,
+      "min": 0.25,
+      "unidade": "t/m²",
+      "nota": "≈ 2,45 kN/m² × (1 + av/g); 1,3·g·q ≈ 3,19 kN/m² (conversões calculadas).",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Carga mínima — platforms in machinery spaces",
+      "valor": "q = 0.8 t/m²; PU = 0.8 tonnes",
+      "item": "Ch.2 Sec.2 Table 1 g)",
+      "pagina": 26,
+      "min": 0.8,
+      "unidade": "t/m²",
+      "nota": "Nota 3: para áreas onde peças pesadas de máquinas e/ou equipamentos podem ser colocadas durante manutenção e/ou reparo.",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Carga mínima — area between equipment",
+      "valor": "q = 0.4 t/m²; PU = 0.4 tonnes",
+      "item": "Ch.2 Sec.2 Table 1 c)",
+      "pagina": 26,
+      "min": 0.4,
+      "unidade": "t/m²",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Carga mínima — storage and lay down areas",
+      "valor": "q = 1.2 t/m²; PU = 1.8 tonnes",
+      "item": "Ch.2 Sec.2 Table 1 a)",
+      "pagina": 26,
+      "min": 1.2,
+      "unidade": "t/m²",
+      "nota": "Edição 2019: armazenagem ≥ 13 kN/m² e lay down ≥ 15 kN/m², com carga pontual 1,5 q (DNVGL-OS-C101 2019, Tabela 3).",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Área de aplicação da carga pontual PU",
+      "valor": "100 mm x 100 mm, na posição mais severa",
+      "item": "Ch.2 Sec.2 Table 1, nota 2)",
+      "pagina": 27,
+      "min": 100,
+      "max": 100,
+      "unidade": "mm",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101",
+      "cota": "esquemas/passarela-cargas-flecha.svg#area-pontual"
+    },
+    {
+      "parametro": "Cargas de roda (onde relevante)",
+      "valor": "Aplicar cargas de roda; podem ser supostas atuando em 300 mm x 300 mm",
+      "item": "Ch.2 Sec.2 Table 1, nota 1)",
+      "pagina": 27,
+      "min": 300,
+      "max": 300,
+      "unidade": "mm",
+      "nota": "Mais orientação em DNV-RU-SHIP Pt.3 Ch.10 Sec.5. Na edição 2019 a carga de roda era SOMADA à distribuída e a pontual NÃO era somada a roda nem distribuída (Tabela 3, notas).",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101",
+      "cota": "esquemas/passarela-cargas-flecha.svg#area-roda"
+    },
+    {
+      "parametro": "Pressão de projeto mínima por carga distribuída",
+      "valor": "pdl = (av + g)·q — q vezes a aceleração vertical resultante no local, não menor que essa expressão; guidance: usar Pdl = 1.3·g·q é, na maioria dos casos, conservador",
+      "item": "Ch.2 Sec.2 [2.2.3]",
+      "pagina": 27,
+      "nota": "Fórmula lida da imagem da norma (a equação não está na camada de texto do PDF). av = aceleração vertical calculada no convés.",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Força concentrada de projeto (chapa e reforços)",
+      "valor": "FU = (av + g)·PU, não menor que essa expressão; guidance: usar FU = 1.3·g·PU é, na maioria dos casos, conservador",
+      "item": "Ch.2 Sec.2 [2.2.4]",
+      "pagina": 27,
+      "nota": "Fórmula lida da imagem da norma (a equação não está na camada de texto do PDF). Verificar chapa e reforçadores do convés para FU.",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Carga variável global em convés de módulos e de topo de acomodação",
+      "valor": "Pode ser limitada às cargas das áreas de armazenagem e lay down (incluir neve e gelo)",
+      "item": "Ch.2 Sec.2 [2.2.2] b)",
+      "pagina": 25,
+      "nota": "Para acomodação em vários pavimentos, reações em pilares/anteparas podem ser reduzidas por kp-f = 0.9^(n−1), n = nº de conveses acima (2.2.2 c) — fórmula lida da imagem da norma).",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Fator parcial de carga γf — LRFD, ULS",
+      "valor": "Combinação a): G 1.2, Q 1.2, E 0.7, D 1.0; combinação b): G 1.0, Q 1.0, E 1.2, D 1.0; FLS e ALS: 1.0",
+      "item": "Ch.2 Sec.1 [1.3.3.2], Table 1",
+      "pagina": 16,
+      "nota": "Fd = γf·Fk. Notas: 1.3 em vez de 1.2 se as cargas não forem bem definidas (em unidade flutuante G e Q são consideradas bem definidas → 1.2; guidance da nota 1); γf = 1.0 em G e Q se der efeito maior; E pode ir a 1.15 em b) se a unidade for desguarnecida/evacuada. Edição 2019: 1.3 / 1.3 / 0.7 / 1.0 e 1.0 / 1.0 / 1.3 / 1.0. Ver tabela nesta ficha.",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Fator de resistência γm — LRFD",
+      "valor": "ULS 1.15; ALS 1.0",
+      "item": "Ch.2 Sec.1 [1.3.3.3], Table 2",
+      "pagina": 17,
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Alternativa WSD — fator de utilização básico η0",
+      "valor": "Fd = Fk; η0 = 0.70 (a) estática: permanentes + variáveis), 0.80 (b) estática + dinâmica), 1.0 (FLS e ALS)",
+      "item": "Ch.2 Sec.1 [1.3.4], Table 4",
+      "pagina": 18,
+      "nota": "η0 pode subir a 0.85 em b) se a unidade for desguarnecida/evacuada (nota 1). Usar um só método (LRFD ou WSD) no projeto global (1.3.2).",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Deflexão máxima de vigas (critério funcional)",
+      "valor": "δmax = S/200 (S = vão da viga, mm) — guidance: 'should normally be limited to'",
+      "item": "Ch.2 Sec.4 [3.7]",
+      "pagina": 60,
+      "nota": "Fórmula lida da imagem da norma (a equação não está na camada de texto do PDF). A edição 2024/2025 retirou o SLS do escopo (Ch.1 Sec.1 [3]; 'Changes July 2024'). Edição 2019 (Ch.2 Sec.7 Tabela 1 — usada na falta de critério no design brief, 1.2.2): vigas de convés δmax ≤ L/200 e δ2 ≤ L/300; com acabamento frágil/divisórias rígidas L/250 e L/350; em balanço L = 2 × projeção.",
+      "grupo": "Cargas de projeto e deflexão",
+      "norma": "DNV-OS-C101",
+      "cota": "esquemas/passarela-cargas-flecha.svg#flecha"
+    },
+    {
+      "parametro": "Categoria estrutural de passarelas, escadas e plataformas",
+      "valor": "Secondary — 'Other structures not categorized as special or primary' (falha sem consequência significativa)",
+      "item": "Ch.2 Sec.3 [2.2.2], Table 1 e Table 2",
+      "pagina": 37,
+      "nota": "Enquadramento por exclusão (a norma não cita walkways/stairs nominalmente). São PRIMARY, entre outras, as estruturas de suporte no casco de gangways 'walk to work', helidecks, turcos de baleeira/balsa e estações de offloading; a categoria se estende ≥ 500 mm a partir da interseção (nota 3). A categoria define grau do aço, inspeção de solda e fabricação (2.1.1). Para tipos de unidade não convencionais, deve ser feito um plano de categorização de membros específico do projeto (Ch.2 Sec.3 2.2.1).",
+      "grupo": "Estrutura de aço offshore (DNV) — categoria e espessuras mínimas",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "parametro": "Espessura líquida mínima de chapa",
+      "valor": "t = 15.3·t0/√ReH; t0 = 5 mm (secundária), 7 mm (primária e especial)",
+      "item": "Ch.2 Sec.4 [3.2.2]",
+      "pagina": 56,
+      "nota": "Fórmula lida da imagem da norma (a equação não está na camada de texto do PDF). ReH = limite de escoamento mínimo especificado (N/mm²). Espessura líquida (sem acréscimo de corrosão, 3.1.3). Chapa de convés com piso de chapa; não se aplica a grating.",
+      "grupo": "Estrutura de aço offshore (DNV) — categoria e espessuras mínimas",
+      "norma": "DNV-OS-C101",
+      "cota": "esquemas/passarela-espessuras-dnv.svg#t-chapa"
+    },
+    {
+      "parametro": "Espessura mínima de alma e mesa de reforçadores e borboletas",
+      "valor": "4.0 mm (secundária); 6.0 mm (primária e especial)",
+      "item": "Ch.2 Sec.4 [3.2.3]",
+      "pagina": 56,
+      "min": 4.0,
+      "unidade": "mm",
+      "grupo": "Estrutura de aço offshore (DNV) — categoria e espessuras mínimas",
+      "norma": "DNV-OS-C101",
+      "nota": "O min numérico é o da estrutura secundária (4.0 mm).",
+      "cota": "esquemas/passarela-espessuras-dnv.svg#t-reforcador"
+    },
+    {
+      "parametro": "Espessura mínima de alma e mesa de vigas principais (PSM)",
+      "valor": "7.0 mm (secundária); 8.0 mm (primária e especial)",
+      "item": "Ch.2 Sec.4 [3.2.4]",
+      "pagina": 56,
+      "min": 7.0,
+      "unidade": "mm",
+      "grupo": "Estrutura de aço offshore (DNV) — categoria e espessuras mínimas",
+      "norma": "DNV-OS-C101",
+      "nota": "O min numérico é o da estrutura secundária (7.0 mm).",
+      "cota": "esquemas/passarela-espessuras-dnv.svg#t-viga"
+    },
+    {
+      "parametro": "Pressão lateral mínima no dimensionamento de chapa",
+      "valor": "Pd conforme Sec.2 e método (LRFD/WSD), mas não menor que 2.5 kN/m²",
+      "item": "Ch.2 Sec.4 [3.3.1]",
+      "pagina": 56,
+      "min": 2.5,
+      "unidade": "kN/m²",
+      "nota": "Entra na fórmula t = 0.0158·αp·b·√(Pd/(fpp·Ca·ReHd)) (lida da imagem da norma).",
+      "grupo": "Estrutura de aço offshore (DNV) — categoria e espessuras mínimas",
+      "norma": "DNV-OS-C101"
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Guarda-corpo em passarelas, plataformas e rampas",
+      "valor": "Obrigatório (travessão superior 1,10–1,20 m, intermediário 0,70 m, rodapé ≥ 0,20 m)",
+      "norma": "NR-12",
+      "item": "Anexo III, 7",
+      "pagina": 34,
+      "nota": "Detalhes na ficha Guarda-corpo.",
+      "cota": "esquemas/passarela-protecao-queda.svg#altura-gc"
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Proteção contra quedas em rampas e passarelas (obra)",
+      "valor": "Em todo o perímetro (18.9.4.1: anteparo rígido ≥ 1,2 m; ou 18.9.4.2: travessão superior 1,2 m, intermediário 0,7 m, rodapé ≥ 0,15 m)",
+      "norma": "NR-18",
+      "item": "18.8.7.1 b)",
+      "pagina": 19,
+      "cota": "esquemas/passarela-protecao-queda.svg#altura-gc"
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Rampas e passarelas (estaleiro)",
+      "valor": "Construção sólida, corrimão e rodapé",
+      "norma": "NR-34",
+      "item": "34.6.3.2",
+      "pagina": 8
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Plataforma para trabalho em altura < 2,00 m (estaleiro)",
+      "valor": "Guarda-corpo ≥ 1,00 m com vãos < 50 cm; rodapé 20 cm se piso > 1,00 m; carga indicada; acesso incorporado",
+      "min": 1000,
+      "unidade": "mm",
+      "norma": "NR-34",
+      "item": "34.6.7.1",
+      "pagina": 12,
+      "nota": "Proibida estrutura de madeira (34.6.7.1.1). Sobre rodízios: travas e apoio só em superfície horizontal plana (34.6.7.1.2).",
+      "cota": "esquemas/passarela-protecao-queda.svg#altura-gc"
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Quando exigir guarda-corpo",
+      "valor": "Lado exposto de superfície ≥ 600 mm acima da superfície adjacente",
+      "min": 600,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.1 i)",
+      "pagina": 19,
+      "cota": "esquemas/passarela-protecao-queda.svg#desnivel-gc"
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Rodapé (toeboard) em passarelas, plataformas e rampas elevadas",
+      "valor": "Altura 100 mm; folga até o piso ≤ 6 mm",
+      "min": 100,
+      "unidade": "mm",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.1 v) e 2.3.2",
+      "pagina": 20,
+      "nota": "2.1 v): obrigatoriedade.",
+      "max": 100,
+      "cota": "esquemas/passarela-protecao-queda.svg#rodape"
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Guarda-corpo de passarela (cotas ABS)",
+      "valor": "Corrimão 1070 mm; intermediário 500 mm; vão entre montantes ≤ 2,4 m; Ø 40–50 mm; folga atrás do corrimão ≥ 75 mm; frestas entre seções ≤ 50 mm; montantes adjacentes em interrupções ≤ 350 mm; carga ≥ 90 kg no topo",
+      "norma": "ABS-ERGO",
+      "item": "Sec. 4, 2.2.1 e Figura 2 (B a H)",
+      "pagina": 20,
+      "nota": "Carga de 90 kg (2.2.1): detalhes na ficha Guarda-corpo.",
+      "cota": "esquemas/passarela-protecao-queda.svg#altura-gc"
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Quando exigir guarda-corpo e rodapé",
+      "valor": "Passarela elevada ≥ 610 mm (24 in.) acima da superfície adjacente; rampa com queda ≥ 610 mm ou inclinação > 5°",
+      "min": 610,
+      "unidade": "mm",
+      "norma": "ASTM-F1166",
+      "item": "11.12.1.1 / 11.3.3.1",
+      "pagina": 112,
+      "nota": "Guarda-corpo conforme 11.11.2 / Fig. 107.",
+      "cota": "esquemas/passarela-protecao-queda.svg#desnivel-gc"
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Guarda-corpo de passarela (cotas F1166)",
+      "valor": "Travessão 1067 mm (eixo); intermediário 457 mm abaixo; rodapé 102 mm a 6 mm do piso",
+      "norma": "ASTM-F1166",
+      "item": "11.11.2",
+      "pagina": 110,
+      "nota": "Ver ficha Guarda-corpo.",
+      "cota": "esquemas/passarela-protecao-queda.svg#altura-gc"
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Quando exigir guarda-corpo (máquinas)",
+      "valor": "Risco de queda ≥ 500 mm (guarda-corpo conforme ISO 14122-3)",
+      "min": 500,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.3",
+      "pagina": 15,
+      "cota": "esquemas/passarela-protecao-queda.svg#desnivel-gc"
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Fresta entre plataforma e estrutura adjacente (máquinas)",
+      "valor": "> 20 mm: rodapé ≥ 100 mm ou fechar a ≤ 20 mm; 120–180 mm: rodapé + corrimão 900–1100 mm; > 180 mm: guarda-corpo (ISO 14122-3)",
+      "norma": "ISO-14122-2",
+      "item": "4.2.4.5.2",
+      "pagina": 16,
+      "cota": "esquemas/passarela-protecao-queda.svg#fresta-estrutura"
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Fresta entre plataforma e estrutura adjacente > 20 mm e ≤ 120 mm — altura do rodapé",
+      "valor": "Rodapé com altura ≥ 100 mm; se uma obstrução não deixar espaço para o rodapé inteiro, a altura pode ser reduzida localmente a no mínimo 50 mm",
+      "min": 100,
+      "unidade": "mm",
+      "norma": "ISO-14122-2",
+      "item": "4.2.4.5.2",
+      "pagina": 16,
+      "nota": "Redução local a ≥ 50 mm só junto à obstrução (ex.: tubo que atravessa o piso — Figura 2 da norma).",
+      "cota": "esquemas/passarela-protecao-queda.svg#rodape"
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Trabalho em altura — campo da NR-35",
+      "valor": "Atividade com diferença de nível acima de 2,0 m do nível inferior, onde haja risco de queda",
+      "min": 2000,
+      "unidade": "mm",
+      "norma": "NR-35",
+      "item": "35.2.1",
+      "pagina": 1,
+      "cota": "esquemas/passarela-protecao-queda.svg#desnivel-gc"
+    },
+    {
+      "grupo": "Proteção contra queda",
+      "parametro": "Prioridade da proteção coletiva (NR-35)",
+      "valor": "SPQ obrigatório quando não for possível evitar o trabalho em altura; usar SPCQ e só recorrer ao SPIQ se o SPCQ for impossível, incompleto ou para emergência; SPCQ projetado por profissional legalmente habilitado",
+      "norma": "NR-35",
+      "item": "35.6.1, 35.6.3 e 35.6.3.1",
+      "pagina": 5
+    },
+    {
+      "parametro": "Proteção da tripulação em gangways, walkways e passageways (DNV)",
+      "valor": "Coberta por requisitos estatutários — International Convention on Load Lines (ICLL)",
+      "item": "Ch.2 Sec.6 [5.1.1]",
+      "pagina": 127,
+      "nota": "Guidance: requisitos também em DNV-RU-SHIP Pt.3 Ch.11 Sec.3 [3]. A C101 não dá cotas nem cargas de guarda-corpo.",
+      "grupo": "Proteção contra queda",
+      "norma": "DNV-OS-C101"
+    }
+  ],
+  "notas": [
+    {
+      "tipo": "atencao",
+      "texto": "Inclinação máxima de rampa diverge: NR-12 ≤ 20° (máquinas; peças transversais de 10° a 20°); NR-18 < 15° (obra; peças transversais acima de 6°); NR-34 ≤ 30° (rampa provisória de estaleiro; peças transversais acima de 18°); ABS ≤ 15° para pessoas e ≤ 5° para movimentação manual de materiais (offshore). Em FPSO, adote ABS; quando mais de uma se aplica, use a mais restritiva. NR-37 (37.11.7 j)) admite até 30° apenas na escada/rampa de acesso à passarela estabilizada (gangway) entre plataforma e embarcação. ASTM F1166 (marítimo): pedestres 8° pref.–15° máx., com materiais 4°–7°, veículos ≤ 20° (Tabela 26)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Largura diverge: NR-12 ≥ 0,60 m (0,50 m em casos restritos); NR-18 ≥ 0,80 m; ABS 710 mm (uma pessoa) / 915 mm (duas vias ou acesso a entrada) / 1120 mm (rota de fuga); NR-37 rota de fuga 1,20 m (principal) e 0,70 m (secundária). Em plataforma de petróleo, uma passarela que seja rota de fuga principal deve ter ≥ 1,20 m (NR-37), mais que os 1120 mm do ABS. ASTM F1166: rampa ≥ 914 mm (pref. 1219); passarelas de 330 mm (de lado, casa de máquinas) a 1219 mm (saída de emergência) — Tabela 27. ISO 14122-2 (máquinas): ≥ 800 mm (1000 mm com várias pessoas; 600 mm uso ocasional; 500 mm em trecho < 2 m)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Pé-direito: ABS 2130 mm; ASTM F1166 ≥ 2032 mm (pref. 2134); ISO 14122-2 2100 mm (1900 mm sob obstáculo pontual, com acolchoamento). Aberturas do piso: ABS < 22 mm com pessoas abaixo / < 35 mm; ISO 14122-2 esfera de 20 mm / 35 mm e comprimento ≤ 100 mm. Desnível que exige guarda-corpo: ABS 600, F1166 610, ISO 14122-2 500 mm."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Peças transversais: NR-12 espaça 0,40–0,50 m (altura 10–20 mm); NR-18 e NR-34 limitam a no máximo 0,40 m. Projetando para mais de uma norma, use 0,40 m. ASTM F1166: ripas acima de 10°, a 356 mm (pref.)–406 mm (máx.); ISO 14122-2: nervuras a 400–500 mm em rampas de 10° a 20° (igual à NR-12)."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "Rodapé diverge: NR-12 ≥ 0,20 m; NR-18 ≥ 0,15 m; NR-34 20 cm (plataformas < 2 m com piso > 1,00 m); ABS 100 mm. Altura do corrimão: ABS 1070 mm fica abaixo da faixa 1,10–1,20 m da NR-12 e de 1,2 m da NR-18. Quando mais de uma se aplica, use o mais restritivo (ver ficha Guarda-corpo). ASTM F1166: rodapé 102 mm e corrimão 1067 mm; ISO 14122-2: rodapé ≥ 100 mm conforme a fresta junto à borda. A NR-35 não dá cotas de guarda-corpo: exige SPCQ projetado por PLH e conforme normas técnicas (35.6.2 e), 35.6.3.1)."
+    },
+    {
+      "tipo": "info",
+      "texto": "Guarda-corpo (alturas, travessões, rodapé, cargas) tem ficha própria — veja Guarda-corpo. Aqui só se registra a exigência e as cotas principais."
+    },
+    {
+      "tipo": "info",
+      "texto": "NR-30 Anexo II (Plataformas e instalações de apoio, Portaria SIT 183/2010) — versão antiga, substituída na prática pela NR-37 (Portaria MTb 1.186/2018) para plataformas de petróleo. Previa rota de fuga principal com largura mínima de 1,20 m (item 15.3.2 V) e cor amarela para passarelas e plataformas (9.1.2.1 II). Use apenas como referência histórica; não é requisito desta ficha."
+    },
+    {
+      "tipo": "dica",
+      "texto": "Grating sobre área com pessoas embaixo: abertura < 22 mm (ABS). Verifique a deflexão do painel com 1,5 kN em 200 × 200 mm na posição mais desfavorável (L/200 e ≤ 4 mm de degrau entre painéis)."
+    },
+    {
+      "tipo": "info",
+      "texto": "A ISO 14122-2:2016 é a norma internacional de plataformas e passarelas de máquinas que a NR-12 Anexo III item 1.6 aceita como alternativa ao Anexo III (máquinas que atendam normas técnicas oficiais ou internacionais vigentes). Guarda-corpo e escadas da série estão na ISO 14122-3 (no acervo só a edição 2001, escaneada). Cargas da ISO 14122-2 (2 kN/m², 1,5 kN em 200 × 200 mm, L/200, 4 mm) coincidem com as do ABS."
+    },
+    {
+      "tipo": "atencao",
+      "texto": "CARGA DE PISO diverge — e as normas não são comparáveis diretamente: ABS e ISO 14122-2 pedem 2,0 kN/m² + 1,5 kN em 200 × 200 mm (carga total, verificação direta, flecha ≤ L/200 e ≤ 4 mm de degrau). A DNV-OS-C101 (2024/2025, unidade flutuante, LRFD) dá carga CARACTERÍSTICA em massa: walkways/staircases/platforms 0.35 t/m² e 0.35 t em 100 × 100 mm (só inspeção: 0.25; plataformas em casa de máquinas: 0.8; entre equipamentos: 0.4; armazenagem/lay down 1.2 t/m² e 1.8 t). Para virar carga de projeto: × (av + g) (ou 1,3·g, conservador) e × γf (1.2 em ULS a), 1.3 se as cargas não forem bem definidas (em unidade flutuante G e Q são consideradas bem definidas → 1.2; guidance da nota 1)). Ex. (cálculo, não da norma): 0.35 t/m² × 1,3 × 9,81 ≈ 4,46 kN/m² característico → × 1,2 ≈ 5,4 kN/m² de projeto (conservador: aplica γf 1,2 sobre toda a aceleração; o rigoroso separa γf,Q·g·q + γf,E·av·q — com av = 0,3 g, combinação a) ≈ 1,41·g·q ≈ 4,84 kN/m², por analogia com a Table 3 de tanques); pontual 0.35 t × 1,3 g ≈ 4,46 kN em 100 × 100 mm (≈ 3 × a carga pontual do ABS, em área 4 × menor). Em FPSO classificado pela DNV, a C101 governa a estrutura; ABS/ISO continuam valendo para o piso/grating como requisito ergonômico e de flecha. Use a mais restritiva."
+    },
+    {
+      "tipo": "info",
+      "texto": "DNV-OS-C101 — edições: a fonte usada é 'DNV-OS-C101 [2025] 1.pdf' = Edition July 2024, amended July 2025, título 'Structural design of offshore units' (escopo: unidades FLUTUANTES de aço; LRFD e WSD; a de julho/2023 fundiu a OS-C201 e mudou o título). A DNVGL-OS-C101 July 2019 ('Design of offshore steel structures, general — LRFD method') diverge: Tabela 3 em kN/m² com cargas locais — walkways, staircases, platforms, crew spaces 4.5 kN/m² e 4.5 kN; só inspeção 3.0; entre equipamentos 5.0; baleeira 9.0; áreas sem outras cargas 2.5; armazenagem q ≥ 13 kN/m² e lay down ≥ 15 kN/m² com pontual 1,5 q — e fator de área f = min{1.0; 0.5 + 3/√A} (A em m²) nas vigas (primary design) — no global design walkways/escadas podem ser ignoradas e f vale só para lay down; γf ULS a) 1.3 (1.2 se bem definidas) e b) E 1.3; SLS com flecha L/200 (δ2 ≤ L/300) em vigas de convés. Na 2024/2025 o fator f saiu (só kp-f = 0.9^(n−1) para acomodação em vários pavimentos), γf baixou para 1.2 e o SLS saiu do escopo (resta S/200 como guidance). Curiosidade numérica: 1,3·g × 0.35 t/m² ≈ 4,46 kN/m², próximo dos 4.5 kN/m² de 2019."
+    },
+    {
+      "tipo": "info",
+      "texto": "A DNV-OS-C101 não trata de cotas de passarela (largura, pé-direito, abertura de grating) nem de cargas de guarda-corpo: remete a proteção da tripulação em gangways/walkways/passageways à ICLL e à DNV-RU-SHIP Pt.3 Ch.11 Sec.3 [3] (Ch.2 Sec.6 [5.1.1]), e o arranjo de escadas, plataformas e corrimãos aos requisitos de PMA (SOLAS Ch.II-1 Reg.3-6 / MODU code Ch.2 [2.2]) — Ch.2 Sec.1 [3.1.3]."
+    },
+    {
+      "tipo": "info",
+      "texto": "A C101 pode ser substituída/esclarecida pela norma DNV específica do tipo de unidade (Ch.1 Sec.1 [1]); γf (Ch.2 Sec.1 1.3.3.2) e a categorização de membros (Ch.2 Sec.3 2.2.1) valem 'unless otherwise specified' nela. Em FPSO, verificar a DNV-OS-C102 (structural design of offshore ship-shaped and cylindrical units — não está no acervo de referências)."
+    }
+  ],
+  "tabelas": [
+    {
+      "id": "dnv-c101-tab1-cargas-conves",
+      "titulo": "DNV-OS-C101 (2024/2025) — Ch.2 Sec.2 Tabela 1: cargas variáveis mínimas em áreas de convés (características)",
+      "norma": "DNV-OS-C101",
+      "item": "Ch.2 Sec.2 [2.2.2] a), Table 1",
+      "pagina": 26,
+      "unidade": "q em t/m² · PU em toneladas (como na norma)",
+      "colunas": [
+        "Área",
+        "Descrição (texto da norma)",
+        "q — carga distribuída (t/m²)",
+        "PU — carga pontual (t)"
+      ],
+      "linhas": [
+        [
+          "a)",
+          "Storage and lay down areas",
+          1.2,
+          1.8
+        ],
+        [
+          "b)",
+          "Lifeboat platforms",
+          0.7,
+          0.7
+        ],
+        [
+          "c)",
+          "Area between equipment",
+          0.4,
+          0.4
+        ],
+        [
+          "d)",
+          "Walkways, staircases and platforms, wheelhouse deck",
+          0.35,
+          0.35
+        ],
+        [
+          "e)",
+          "Accommodation areas",
+          0.35,
+          0.35
+        ],
+        [
+          "f)",
+          "Walkways and staircases for inspection only",
+          0.25,
+          0.25
+        ],
+        [
+          "g)",
+          "Platforms in machinery spaces (nota 3)",
+          0.8,
+          0.8
+        ]
+      ],
+      "nota": "Notas da tabela: 1) cargas de roda onde relevante, sobre 300 mm × 300 mm (ver DNV-RU-SHIP Pt.3 Ch.10 Sec.5); 2) carga pontual sobre 100 mm × 100 mm na posição mais severa; 3) linha g) para áreas onde peças pesadas de máquinas/equipamentos podem ser colocadas em manutenção/reparo. Valores MÍNIMOS (o projetista define q e PU, 2.2.2 a)). São cargas características em massa: a pressão de projeto é pdl = (av + g)·q e a força FU = (av + g)·PU (2.2.3/2.2.4), simplificação conservadora 1,3·g·q e 1,3·g·PU; em LRFD multiplicar ainda pelo γf da Ch.2 Sec.1 Tabela 1. Edição 2019 (DNVGL-OS-C101, Tabela 3) dava valores em kN/m² — ver notas da ficha.",
+      "consulta": false
+    },
+    {
+      "id": "dnv-c101-gama-f",
+      "titulo": "DNV-OS-C101 (2024/2025) — Ch.2 Sec.1 Tabela 1: fatores parciais de carga γf (LRFD)",
+      "norma": "DNV-OS-C101",
+      "item": "Ch.2 Sec.1 [1.3.3.2], Table 1",
+      "pagina": 16,
+      "unidade": "adimensional",
+      "colunas": [
+        "Combinação",
+        "ULS — G (permanente)",
+        "ULS — Q (variável)",
+        "ULS — E (ambiental)",
+        "ULS — D (deformação)",
+        "FLS e ALS — G, Q, E, D"
+      ],
+      "linhas": [
+        [
+          "a)",
+          "1.2 (1)(2)",
+          "1.2 (1)(2)",
+          "0.7",
+          "1.0 (4)",
+          "1.0"
+        ],
+        [
+          "b)",
+          "1.0",
+          "1.0",
+          "1.2 (3)",
+          "1.0 (4)",
+          "1.0"
+        ]
+      ],
+      "nota": "Notas: (1) aumentar para 1.3 se as cargas não forem bem definidas (guidance: em unidades flutuantes, pesos e cargas permanentes/variáveis são considerados bem definidos); (2) usar γf = 1.0 para G e Q na combinação a) se isso der efeito maior; (3) γf de E pode cair para 1.15 na combinação b) se a unidade for desguarnecida ou evacuada em condições extremas pré-definidas; (4) carga de deformação oriunda de cargas variáveis/ambientais usa o mesmo γf delas. Fd = γf · Fk (1.3.3.2). Resistência: γm = 1.15 (ULS), 1.0 (ALS) — Tabela 2. Edição 2019: combinação a) 1.3 / 1.3 / 0.7 / 1.0 (1.2 admitido para G e Q bem definidos) e b) 1.0 / 1.0 / 1.3 / 1.0 (DNVGL-OS-C101 2019, Ch.2 Sec.1 Tabela 2 e 4.4.2).",
+      "consulta": false
+    }
+  ]
+}

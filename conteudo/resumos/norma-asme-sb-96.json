@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SB-96",
+ "titulo": "SB-96 — Chapas, folhas, tiras e barras laminadas de cobre-silício para uso geral e vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas, tiras e barras laminadas de ligas cobre-silício (UNS C65100, C65400, C65500) para estampagem, conformação, dobramento, engenharia geral e vasos de pressão. Requisitos gerais pela SB-248."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Cu (incl. Ag) = restante.",
+   "valores": [
+    {
+     "parametro": "C65100 — Si / Mn máx.",
+     "valor": "0,8–2,0 % / 0,7 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C65400 — Si / Sn / Cr",
+     "valor": "2,7–3,4 % / 1,2–1,9 % / 0,01–0,12 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C65500 — Si / Mn",
+     "valor": "2,8–3,8 % / 0,50–1,3 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 3",
+   "texto": "Têmperas recozida (O61) e encruadas. Para vasos de pressão (Tabela 3):",
+   "valores": [
+    {
+     "parametro": "C65500 O61 — Su / Sy mín.",
+     "valor": "50–67 ksi (345–460) / 18 ksi (125)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "C65500 O61 — alongamento mín. / grão máx.",
+     "valor": "40 % / 0,110 mm",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

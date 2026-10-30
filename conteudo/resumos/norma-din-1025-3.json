@@ -1,0 +1,33 @@
+{
+ "id": "DIN-1025-3",
+ "titulo": "DIN 1025-3:1994 — Perfis I e H laminados, série IPBl (HEA)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Série leve de perfis H de mesas paralelas (IPBl = HE…A), de 100 a 1000: mesas e alma mais finas e altura um pouco menor que a HEB do mesmo número.",
+   "valores": [],
+   "figuras": [
+    "esquemas/perfis-laminados-perfil-h.svg"
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "Tab. 1",
+   "texto": "Tabela completa na ficha perfis-laminados.",
+   "valores": [
+    {
+     "parametro": "HEA 200 — h / b / s / t",
+     "valor": "190 / 200 / 6,5 / 10 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/perfis-laminados-perfil-h.svg#h"
+    },
+    {
+     "parametro": "HEA 200 — massa / Ix / Wx",
+     "valor": "42,3 kg/m / 3690 cm⁴ / 389 cm³",
+     "item": "Tab. 1"
+    }
+   ]
+  }
+ ]
+}

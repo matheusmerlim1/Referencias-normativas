@@ -1,0 +1,53 @@
+{
+ "id": "ASME-SB-163",
+ "titulo": "SB-163 — Tubos sem costura de níquel e ligas de níquel para condensadores e trocadores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura de níquel e ligas de níquel (N02200, N02201, N04400, N06600, N06601, N06690, N08800, N08810, N08825 e outras) para condensadores e trocadores, em diâmetro e parede média ou mínima."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. (ksi e MPa) / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N02200 recozido",
+     "valor": "55 (379) / 15 (103) / 40 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N02200 aliviado",
+     "valor": "65 (448) / 40 (276) / 15 %; dureza máx. B65 nas pontas recozidas",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N02201 recozido",
+     "valor": "50 (345) / 12 (83) / 40 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N04400 recozido",
+     "valor": "70 (483) / 28 (193) / 35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N04400 aliviado",
+     "valor": "85 (586) / 55 (379) / 15 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N06600 recozido",
+     "valor": "80 (552) / 35 (241) / 30 %",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "6",
+   "texto": "Pontas recozidas em tubos aliviados têm dureza limitada; ensaios de achatamento, flangeamento, hidrostático ou elétrico conforme a norma; limitações de raio para tubos em U (Tabela 5)."
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "ASME-B36.10M",
+ "titulo": "ASME B36.10M — Tubos de aço com e sem costura: dimensões e massas",
+ "secoes": [
+  {
+   "titulo": "Escopo e designação de tamanho",
+   "item": "1; 2",
+   "texto": "Padroniza diâmetro externo, parede e massa de tubos de aço carbono e liga (com e sem costura) para qualquer pressão e temperatura. O tamanho é dado pelo NPS (ou DN). Até NPS 12 o diâmetro externo é fixo e maior que o número nominal (herança de quando o furo era próximo do nominal); de NPS 14 em diante o diâmetro externo é igual ao nominal em polegadas. Tabela completa por NPS na ficha tubulacao-processo.",
+   "valores": [
+    {"parametro": "Faixa coberta", "valor": "NPS 1/8 a NPS 80 (DN 6 a 2000)", "item": "1; Tabela 1"},
+    {"parametro": "Diâmetro externo = número nominal", "valor": "a partir de NPS 14 (DN 350)", "item": "2"},
+    {"parametro": "Exemplo — NPS 6: Ø externo / STD (= Sch 40)", "valor": "168,3 mm / 7,11 mm", "item": "Tabela 1", "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"}
+   ]
+  },
+  {
+   "titulo": "Massa do tubo",
+   "item": "2; 5",
+   "texto": "A massa por metro de tubo de ponta lisa sai de uma fórmula com o diâmetro externo e a parede, já arredondados; os valores da tabela foram calculados assim.",
+   "valores": [
+    {"parametro": "Massa de ponta lisa (SI)", "valor": "M = 0,0246615·(D − t)·t  [kg/m; D e t em mm]", "item": "2"},
+    {"parametro": "Peso de ponta lisa (US)", "valor": "W = 10,69·(D − t)·t  [lb/ft; D e t em in]", "item": "2"}
+   ]
+  },
+  {
+   "titulo": "Tolerâncias e roscas",
+   "item": "6; 7",
+   "texto": "A norma não fixa tolerâncias: elas vêm da especificação de fabricação do tubo (ASTM/API). Roscas seguem a ASME B1.20.1; paredes Sch 5 e 10 são finas demais para rosquear.",
+   "valores": [
+    {"parametro": "Rosca padrão", "valor": "ASME B1.20.1 (NPT)", "item": "7"},
+    {"parametro": "Schedules que não admitem rosca", "valor": "Sch 5 e Sch 10", "item": "7"}
+   ]
+  },
+  {
+   "titulo": "Designações de parede e escolha",
+   "item": "8; 9",
+   "texto": "STD, XS e XXS são nomes comerciais antigos; os números de schedule vieram depois. Eles coincidem só em parte da faixa. Paredes sem designação vieram da API 5L. A espessura é calculada pelo código de projeto aplicável (B31, Caldeiras e Vasos) e então se escolhe na tabela a parede comercial que atende.",
+   "valores": [
+    {"parametro": "STD = Sch 40", "valor": "até NPS 10; acima, STD = 9,53 mm (3/8 in)", "item": "8", "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#t"},
+    {"parametro": "XS = Sch 80", "valor": "até NPS 8; acima, XS = 12,70 mm (1/2 in)", "item": "8", "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#t"}
+   ]
+  }
+ ]
+}

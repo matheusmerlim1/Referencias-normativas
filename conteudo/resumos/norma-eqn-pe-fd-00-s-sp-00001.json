@@ -1,0 +1,278 @@
+{
+ "id": "EQN-PE-FD-00-S-SP-00001",
+ "titulo": "Especificação FPTS-31 (Maersk/Equinor, FPSO Peregrino) — Fabricação de estruturas de aço do topside",
+ "secoes": [
+  {
+   "titulo": "Escopo e normas",
+   "item": "1–3",
+   "texto": "Especificação de projeto para fabricar a estrutura de aço do topside do FPSO Peregrino. Vale a API RP 2A, com os acréscimos da especificação, e a soldagem segue outra especificação do projeto (FPTS-12). Anexos trazem os desenhos-padrão de escadas, escadas marinheiro, guarda-corpos, grating e olhais de andaime.",
+   "valores": []
+  },
+  {
+   "titulo": "Materiais",
+   "item": "4",
+   "texto": "Aço pela API RP 2A ou especificação do projetista, com carbono equivalente limitado. Tubos calandrados com expansão a frio limitada, distância mínima entre costuras circunferenciais e tratamento térmico em casos de parede grossa ou deformação alta. Tolerâncias de tubos por API 2B/5L com exigências extras de retilinidade, ovalização e comprimento. Parafusos classe 8.8, arruelas endurecidas, contrapinos inox.",
+   "valores": [
+    {
+     "parametro": "Carbono equivalente",
+     "valor": "≤ 0,43",
+     "item": "4.1"
+    },
+    {
+     "parametro": "Expansão a frio",
+     "valor": "≤ 2 %",
+     "item": "4.1.1"
+    },
+    {
+     "parametro": "Distância entre costuras circunferenciais",
+     "valor": "≥ 1200 mm",
+     "item": "4.1.1; 8.2.3"
+    },
+    {
+     "parametro": "Retilinidade (comprimento > 12 m)",
+     "valor": "≤ 12 mm (perfis: ≤ 10 mm)",
+     "item": "4.1.3"
+    },
+    {
+     "parametro": "Ovalização",
+     "valor": "≤ 1 % de D e ≤ máx.(6 mm; t/10)",
+     "item": "4.1.3"
+    },
+    {
+     "parametro": "Ovalização local (gabarito de 20°)",
+     "valor": "≤ 10 % da espessura",
+     "item": "4.1.3"
+    },
+    {
+     "parametro": "Tolerância de comprimento",
+     "valor": "+50 / 0 mm",
+     "item": "4.1.3"
+    },
+    {
+     "parametro": "Parafusos / arruelas / contrapinos",
+     "valor": "ISO 898 classe 8.8 / ISO 7090 HV 200 / inox A4",
+     "item": "4.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Soldagem e END",
+   "item": "6–7",
+   "texto": "Soldadores e procedimentos qualificados pela FPTS-12. END pela AWS D1.1 com extensão da API RP 2A e aceitação pela D1.1 (classe R para tubulares), após tempo mínimo de espera. Inspetores certificados EN 473; UT pelo Anexo K da D1.1.",
+   "valores": [
+    {
+     "parametro": "Espera antes do END",
+     "valor": "≥ 24 h após a solda",
+     "item": "7.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e montagem",
+   "item": "8",
+   "texto": "Chanfros e regiões tracionadas na espessura examinados por ultrassom quanto à laminação. Cortes no esquadro, costuras longitudinais defasadas, nós sem costura circunferencial, desalinhamento limitado. Soldas contínuas em ambiente corrosivo. Furos com folga pequena, parafusos protendidos, emendas de perfis distantes e fora do meio do vão. Acessórios temporários cortados e esmerilhados, afastados das soldas estruturais; recortes (rat holes) com raio mínimo.",
+   "valores": [
+    {
+     "parametro": "Desvio de perpendicularidade do corte",
+     "valor": "≤ 3 mm",
+     "item": "8.2.2"
+    },
+    {
+     "parametro": "Defasagem de costuras longitudinais",
+     "valor": "≥ 15° (preferível 180°)",
+     "item": "8.2.3"
+    },
+    {
+     "parametro": "Comprimento do stub do nó",
+     "valor": "≥ OD e ≥ 600 mm",
+     "item": "8.2.3"
+    },
+    {
+     "parametro": "Desalinhamento — um lado / dois lados",
+     "valor": "≤ 3 mm / ≤ t/4",
+     "item": "8.1.2"
+    },
+    {
+     "parametro": "Solda de vedação",
+     "valor": "≥ 3 mm",
+     "item": "8.3"
+    },
+    {
+     "parametro": "Folga do furo — até 18 mm / maior",
+     "valor": "+1 mm / +1,5 mm",
+     "item": "8.4"
+    },
+    {
+     "parametro": "Protensão de parafusos ≥ 12 mm",
+     "valor": "50 % do escoamento",
+     "item": "8.4"
+    },
+    {
+     "parametro": "Ponta do parafuso além da porca",
+     "valor": "≤ 6 mm",
+     "item": "8.4"
+    },
+    {
+     "parametro": "Distância entre emendas de perfis",
+     "valor": "≥ 1200 mm",
+     "item": "8.5"
+    },
+    {
+     "parametro": "Corte de acessório temporário",
+     "valor": "≥ 3 mm da estrutura, depois esmerilhar",
+     "item": "8.6"
+    },
+    {
+     "parametro": "Afastamento de solda temporária à estrutural",
+     "valor": "≥ 200 mm",
+     "item": "8.6"
+    },
+    {
+     "parametro": "Raio do rat hole",
+     "valor": "30 mm",
+     "item": "8.6"
+    }
+   ]
+  },
+  {
+   "titulo": "Tolerâncias dimensionais",
+   "item": "9",
+   "texto": "Acrescenta à API RP 2A tolerâncias de chapas e grating, escadas e patamares.",
+   "valores": [
+    {
+     "parametro": "Empeno do grating",
+     "valor": "≤ 2 mm",
+     "item": "9.2.1"
+    },
+    {
+     "parametro": "Inclinação de chapa/grating",
+     "valor": "± 6 mm em 3 m",
+     "item": "9.2.1"
+    },
+    {
+     "parametro": "Elevação de patamar e posição da escada",
+     "valor": "± 10 mm",
+     "item": "9.2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Olhais, munhões e orelhas",
+   "item": "10",
+   "texto": "Material com tenacidade a frio dependente da espessura; pré-aquecimento mínimo registrado continuamente.",
+   "valores": [
+    {
+     "parametro": "Temperatura de Charpy — 10 < t < 25 mm / t ≥ 25 mm",
+     "valor": "−20 °C / −40 °C",
+     "item": "10.1"
+    },
+    {
+     "parametro": "Pré-aquecimento",
+     "valor": "≥ 100 °C",
+     "item": "10.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Desenhos-padrão de acessos",
+   "item": "Adendo; 20006/20007/20008-001",
+   "texto": "Guarda-corpo padrão com três barras e rodapé de barra chata; escada primária pouco inclinada e larga, com passagem de maca, e secundária mais íngreme; escada marinheiro com gaiola em unidades imperiais convertidas. Acessos são estrutura secundária (inspeção categoria III).",
+   "valores": [
+    {
+     "parametro": "Guarda-corpo — altura / barras",
+     "valor": "1100 mm / 340, 720 e 1100 mm",
+     "item": "20006-001",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#altura"
+    },
+    {
+     "parametro": "Guarda-corpo — montantes",
+     "valor": "≤ 1500 mm; tubo Ø 48 × 5",
+     "item": "20006-001",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#montantes"
+    },
+    {
+     "parametro": "Rodapé",
+     "valor": "FB 100 × 6",
+     "item": "20006-001",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#rodape"
+    },
+    {
+     "parametro": "Escada primária / secundária — inclinação",
+     "valor": "≤ 36,5° / ≤ 45°",
+     "item": "20007-001",
+     "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo"
+    },
+    {
+     "parametro": "Largura — 1–2 níveis / ≥ 3 níveis",
+     "valor": "≥ 1000 / ≥ 1200 mm",
+     "item": "20007-001",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
+    },
+    {
+     "parametro": "Espelho máx. / regra do passo",
+     "valor": "190 mm / g + 2h = 620 ± 10 mm",
+     "item": "20007-001",
+     "cota": "esquemas/escada-degraus-degrau.svg#h"
+    },
+    {
+     "parametro": "Piso do degrau",
+     "valor": "285 mm",
+     "item": "20007-001",
+     "cota": "esquemas/escada-degraus-degrau.svg#g"
+    },
+    {
+     "parametro": "Espelhos por lance",
+     "valor": "2 a 16",
+     "item": "20007-001"
+    },
+    {
+     "parametro": "Pé-direito",
+     "valor": "≥ 2200 mm",
+     "item": "20007-001",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#e"
+    },
+    {
+     "parametro": "Corrimão no lance / patamar",
+     "valor": "1000 / 1100 mm",
+     "item": "20007-001",
+     "cota": "esquemas/escada-degraus-corrimao.svg#a"
+    },
+    {
+     "parametro": "Maca",
+     "valor": "2200 × 650 mm",
+     "item": "20007-001"
+    },
+    {
+     "parametro": "Escada marinheiro — barras",
+     "valor": "≤ 305 mm; barra quadrada 22 mm",
+     "item": "20008-001",
+     "cota": "esquemas/escada-marinheiro-vista-frontal.svg#espacamento"
+    },
+    {
+     "parametro": "Escada marinheiro — espaço à frente / atrás",
+     "valor": "762 mm / 178–203 mm",
+     "item": "20008-001",
+     "cota": "esquemas/escada-marinheiro-vista-lateral.svg#espaco-frente"
+    },
+    {
+     "parametro": "Suportes",
+     "valor": "2438 a 3658 mm",
+     "item": "20008-001",
+     "cota": "esquemas/escada-marinheiro-vista-frontal.svg#suportes"
+    },
+    {
+     "parametro": "Início da gaiola",
+     "valor": "2134 mm",
+     "item": "20008-001",
+     "cota": "esquemas/escada-marinheiro-gaiola.svg#inicio"
+    },
+    {
+     "parametro": "Montantes acima da chegada",
+     "valor": "1372 mm",
+     "item": "20008-001",
+     "cota": "esquemas/escada-marinheiro-saida-topo.svg#montantes-acima"
+    }
+   ]
+  }
+ ]
+}

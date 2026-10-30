@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 480" width="940" height="480" role="img" aria-label="Montagem de flanges e curvamento (ASME B31.3) — paralelismo, desvio entre furos e ovalização">
+<title>Montagem de flanges e curvamento (ASME B31.3) — paralelismo, desvio entre furos e ovalização (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Montagem de flanges e curvamento (ASME B31.3) — paralelismo, desvio entre furos e ovalização</text>
+<text class="b" x="40" y="70">(a) Paralelismo das faces</text>
+<rect class="s" x="80" y="120" width="40" height="220"/>
+<path class="s" d="M150,120 L190,120 L190,340 L150,340 z"/>
+<path class="r" d="M140,120 L150,120 L150,340 L130,340 z"/>
+<g id="cota-paralelismo" class="cota"><line class="e" x1="120" y1="117" x2="120" y2="89"/><line class="e" x1="140" y1="117" x2="140" y2="89"/><line class="d" x1="94" y1="95" x2="120" y2="95" marker-end="url(#a)"/><line class="d" x1="166" y1="95" x2="140" y2="95" marker-end="url(#a)"/><line class="d" x1="120" y1="95" x2="140" y2="95"/><text class="m" x="130" y="90">desvio entre faces</text></g>
+<g id="cota-ref-paralelismo" class="cota"><line class="e" x1="193" y1="120" x2="221" y2="120"/><line class="e" x1="193" y1="340" x2="221" y2="340"/><line class="d" x1="215" y1="120" x2="215" y2="340" marker-start="url(#a)" marker-end="url(#a)"/><text x="222" y="235">comprimento de referência</text></g>
+<text class="b" x="360" y="70">(b) Furos dos dois flanges</text>
+<circle class="g" cx="480" cy="230" r="100"/>
+<circle class="g" cx="480" cy="130" r="12"/>
+<circle class="h" cx="492" cy="132" r="12"/>
+<g id="cota-furos" class="cota"><line class="e" x1="480" y1="127" x2="480" y2="94"/><line class="e" x1="492" y1="127" x2="492" y2="94"/><line class="d" x1="454" y1="100" x2="480" y2="100" marker-end="url(#a)"/><line class="d" x1="518" y1="100" x2="492" y2="100" marker-end="url(#a)"/><line class="d" x1="480" y1="100" x2="492" y2="100"/><text class="m" x="490" y="90">desvio entre furos</text></g>
+<text class="b" x="660" y="70">(c) Ovalização em curva</text>
+<path class="g" d="M680,240 a110,80 0 1,0 220,0 a110,80 0 1,0 -220,0 z"/>
+<g id="cota-Dmax" class="cota"><line class="d" x1="680" y1="240" x2="900" y2="240" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="760" y="234">Dmáx</text></g>
+<g id="cota-Dmin" class="cota"><line class="d" x1="790" y1="160" x2="790" y2="320" marker-start="url(#a)" marker-end="url(#a)"/><text x="796" y="300">Dmín</text></g>
+<text class="n" x="20" y="468">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

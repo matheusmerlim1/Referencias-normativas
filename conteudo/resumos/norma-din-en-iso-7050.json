@@ -1,0 +1,24 @@
+{
+ "id": "DIN-EN-ISO-7050",
+ "titulo": "DIN EN ISO 7050:2011 — Parafusos autoatarraxantes escareados com fenda cruzada (ISO 7050:2011)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafuso autoatarraxante (para chapa) de cabeça escareada com fenda cruzada H ou Z, ST 2,2 a ST 9,5. Edição de 2011 acrescenta ponta tipo R (arredondada) e inox.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "ST 2,2 a ST 9,5",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos e designação",
+   "item": "3–5",
+   "texto": "Rosca pela ISO 1478; aço tratado pela ISO 2702 ou inox pela ISO 3506-4; fendas ISO 4757; tolerâncias ISO 4759-1; revestimento ISO 4042. Designação: ISO 7050 – ST … × l – material – ponta – fenda.",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "DIN-979",
+ "titulo": "DIN 979:1987 — Porcas castelo e entalhadas baixas com rosca métrica grossa e fina — Graus A e B",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Porcas sextavadas entalhadas e castelo, baixas, M6 a M52, grau A até M16 e B acima, para travamento com contrapino. Fundo dos entalhes arredondado ou chanfrado; parte entalhada roscada ou não.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M6 a M52",
+     "item": "1"
+    },
+    {
+     "parametro": "Aberturas novas (ISO 272) para M10/M12/M14/M22",
+     "valor": "16 / 18 / 21 / 34 mm (antes 17 / 19 / 22 / 32 mm)",
+     "item": "Nota inicial"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos",
+   "item": "3",
+   "texto": "Com revestimento (DIN 267-9) pode ser preciso ajustar a tolerância da rosca.",
+   "valores": [
+    {
+     "parametro": "Classes — aço",
+     "valor": "04 ou 05 (porcas baixas)",
+     "item": "3",
+     "nota": "cópia OCR — conferir"
+    },
+    {
+     "parametro": "Inox",
+     "valor": "até M20: A2-70; M20 a M39: A2-50",
+     "item": "3",
+     "nota": "cópia OCR — conferir"
+    },
+    {
+     "parametro": "Tolerâncias",
+     "valor": "ISO 4759-1",
+     "item": "3"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "4",
+   "texto": "Ex.: porca castelo M12 classe 05. Sem indicação, as aberturas são as antigas (17/19/22/32); para as novas da ISO 272, indicar na designação.",
+   "valores": []
+  }
+ ]
+}

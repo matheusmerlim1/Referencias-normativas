@@ -1,0 +1,23 @@
+{
+ "id": "ASME-V-SA-388",
+ "titulo": "Seção V, SA-388 — Ultrassom de forjados pesados de aço",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimento de ultrassom por contato, pulso-eco, em forjados pesados de aço, por feixe reto (inclusive método DGS) e angular. Artigo normativo adotado pela ASME Seção V (Ensaios Não Destrutivos), aplicável quando o Código ou o pedido o invoca."
+  },
+  {
+   "titulo": "Pontos principais",
+   "item": "6 a 10",
+   "texto": "Forjado usinado com superfícies adequadas ao exame radial e axial; exame de todo o volume possível; registro de indicações a partir de fração da reflexão de fundo; critérios de aceitação acordados por peça.",
+   "valores": [
+    {
+     "parametro": "Rugosidade máx. da superfície",
+     "valor": "250 µin [6 µm]",
+     "item": "6.2"
+    }
+   ]
+  }
+ ]
+}

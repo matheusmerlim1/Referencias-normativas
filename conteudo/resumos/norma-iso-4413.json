@@ -1,0 +1,76 @@
+{
+ "id": "ISO-4413",
+ "titulo": "ISO 4413:1998 — Sistemas hidráulicos — Regras gerais relativas a sistemas",
+ "secoes": [
+  {
+   "titulo": "Escopo e requisitos gerais",
+   "item": "1–4",
+   "texto": "Regras para projeto, instalação, comissionamento e manutenção de sistemas hidráulicos de máquinas industriais, com foco em segurança, operação sem interrupção e economia. Identificação de perigos, requisitos de segurança (falha de energia, movimentos inesperados), requisitos do sistema e condições do local a serem acordados entre comprador e fornecedor.",
+   "valores": []
+  },
+  {
+   "titulo": "Projeto do sistema",
+   "item": "5",
+   "texto": "Diagramas de circuito e identificação de componentes, instalação, uso e manutenção facilitados, peças padronizadas, vedações, dados de operação e manuais, pórticos e temperatura do sistema (geração de calor e faixas de operação de todos os componentes).",
+   "valores": [
+    {
+     "parametro": "Altura de instalação de componentes a manter",
+     "valor": "borda inferior ≥ 0,6 m e superior ≤ 1,8 m acima da plataforma de trabalho (recomendado)",
+     "item": "5.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Componentes de conversão de energia",
+   "item": "6",
+   "texto": "Bombas e motores (proteção, velocidade dentro do especificado, pré-enchimento da carcaça quando exigido), cilindros e acumuladores com gás (descarga automática da pressão ao desligar, salvo necessidade especial; vazão ≤ especificada pelo fabricante).",
+   "valores": []
+  },
+  {
+   "titulo": "Válvulas",
+   "item": "7",
+   "texto": "Seleção, montagem (preferir manifolds; passagens internas com área pelo menos igual à dos componentes), válvulas elétricas, placas de símbolos, ajustes protegidos e remoção sem drenar o sistema.",
+   "valores": []
+  },
+  {
+   "titulo": "Fluidos, reservatório e filtração",
+   "item": "8",
+   "texto": "Fluido especificado e compatível; sistemas hidráulico e de lubrificação separados salvo acordo; enchimento com filtragem igual ou melhor que a do sistema; aberturas de enchimento marcadas. Reservatório com indicadores de nível, drenos, acesso para limpeza; filtros com indicação de saturação; trocadores de calor.",
+   "valores": [
+    {
+     "parametro": "Base do reservatório",
+     "valor": "≥ 150 mm acima do piso",
+     "item": "8.2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Tubulação",
+   "item": "9",
+   "texto": "Requisitos de tubos e tubulações, suportes, limpeza de corpos estranhos e conjuntos de mangueira (só mangueiras novas, conforme normas, protegidas contra falha).",
+   "valores": [
+    {
+     "parametro": "Velocidade máxima — sucção",
+     "valor": "1,2 m/s",
+     "item": "9"
+    },
+    {
+     "parametro": "Velocidade máxima — pressão",
+     "valor": "5 m/s",
+     "item": "9"
+    },
+    {
+     "parametro": "Velocidade máxima — retorno",
+     "valor": "4 m/s",
+     "item": "9"
+    }
+   ]
+  },
+  {
+   "titulo": "Comandos, diagnóstico e entrega",
+   "item": "10–15",
+   "texto": "Proteção contra movimento não intencional e falha de energia; comandos acessíveis (0,6 a 1,8 m do piso) e em cada posto de operador; servo e proporcionais com filtragem adequada. Pontos de medição de pressão e amostragem de fluido. Limpeza e pintura, preparo para transporte (identificação de tubos, embalagem), comissionamento com ensaios de verificação, ruído, vazamentos e documentação final.",
+   "valores": []
+  }
+ ]
+}

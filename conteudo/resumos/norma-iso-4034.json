@@ -1,0 +1,69 @@
+{
+ "id": "ISO-4034",
+ "titulo": "ISO 4034:1999 — Porcas sextavadas — Grau de produto C",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Porca sextavada comum, de acabamento grosso (grau C), roscas M5 a M64, para uso com parafusos grau C (ISO 4016/4018).",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M5 a M64, grau C",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3, Tab. 1–2",
+   "texto": "Por rosca: abertura s, altura m, diâmetros de apoio e diagonal e; roscas preferenciais e não preferenciais.",
+   "valores": [
+    {
+     "parametro": "Abertura s (M6 / M8 / M10 / M12 / M16 / M20)",
+     "valor": "10 / 13 / 16 / 18 / 24 / 30 mm",
+     "item": "Tab. 1",
+     "nota": "leitura de OCR — conferir correspondência rosca × valor"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos e normas de referência",
+   "item": "4, Tab. 3",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Classe de propriedade — d ≤ M16",
+     "valor": "5",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Classe — M16 < d ≤ M39",
+     "valor": "4 ou 5",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Acima de M39",
+     "valor": "a combinar",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Rosca / tolerâncias",
+     "valor": "ISO 724, ISO 965-1 / ISO 4759-1",
+     "item": "Tab. 3"
+    },
+    {
+     "parametro": "Acabamento",
+     "valor": "como processado (revestimentos ISO 4042 ou ISO 10683 sob pedido)",
+     "item": "Tab. 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "5",
+   "texto": "Ex. da norma: porca M12 classe 5 → ISO 4034 – M12 – 5.",
+   "valores": []
+  }
+ ]
+}

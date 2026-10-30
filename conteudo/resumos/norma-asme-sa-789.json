@@ -1,0 +1,77 @@
+{
+ "id": "ASME-SA-789",
+ "titulo": "SA-789 — Tubos (tubing) de aço inoxidável ferrítico/austenítico (duplex) com e sem costura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de aço inoxidável duplex, parede nominal, com e sem costura, para serviço de corrosão geral com ênfase em resistência à corrosão sob tensão. Esses aços fragilizam se usados longamente em temperatura elevada. Requisitos gerais pela SA-1016."
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "5, 6, Tabela 2",
+   "texto": "Sem costura ou soldado sem metal de adição; sempre tratado (solubilização). Sem costura pode ser temperado direto da conformação a quente se a temperatura for adequada.",
+   "valores": [
+    {
+     "parametro": "S31803 e S32205 — solubilização",
+     "valor": "1870–2010 °F [1020–1100 °C], resfriamento rápido ao ar ou água",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "S32003",
+     "valor": "1850–2050 °F [1010–1120 °C]",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "S31803",
+     "valor": "C 0,030; Mn 2,00; P 0,030; S 0,020; Si 1,00; Ni 4,5–6,5; Cr 21,0–23,0; Mo 2,5–3,5; N 0,08–0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "S32205 (2205)",
+     "valor": "C 0,030; Mn 2,00; P 0,030; S 0,020; Si 1,00; Ni 4,5–6,5; Cr 22,0–23,0; Mo 3,0–3,5; N 0,14–0,20 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 4",
+   "texto": "Su mín. / Sy mín. / alongamento mín. / dureza máx.",
+   "valores": [
+    {
+     "parametro": "S31803",
+     "valor": "90 ksi [620] / 65 ksi [450] / 25 % / 290 HB, 30 HRC",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "S32205",
+     "valor": "95 ksi [655] / 70 ksi [485] / 25 % / 290 HB, 30 HRC",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "S31500",
+     "valor": "92 ksi [630] / 64 ksi [440] / 30 % / 290 HB",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "S32550",
+     "valor": "110 ksi [760] / 80 ksi [550] / 15 % / 297 HB, 31 HRC",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "8 a 10",
+   "texto": "Análise de produto por corrida; tração (1 por lote até 50 tubos), alargamento (sem costura) e flangeamento (soldado); cada tubo com ensaio elétrico não destrutivo ou hidrostático (SA-1016)."
+  }
+ ]
+}

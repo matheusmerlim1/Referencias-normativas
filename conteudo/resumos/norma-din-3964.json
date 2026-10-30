@@ -1,0 +1,41 @@
+{
+ "id": "DIN-3964",
+ "titulo": "DIN 3964:1980 — Afastamentos da distância entre eixos e tolerâncias de posição dos eixos em carcaças de engrenagens cilíndricas",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Afastamentos da distância entre eixos (superior e inferior) e tolerâncias de posição dos eixos (desvio de cruzamento e de inclinação) da carcaça, conforme conceitos da DIN 3960.",
+   "valores": []
+  },
+  {
+   "titulo": "Distância entre eixos",
+   "item": "3, Tab. 1",
+   "texto": "Usa as zonas ISO js5 a js11 (ISO/R 286), dependentes da distância nominal; a cada faixa de classe de precisão de posição corresponde uma zona. No desenho pode-se indicar a zona e/ou o valor.",
+   "valores": [
+    {
+     "parametro": "Zonas de tolerância",
+     "valor": "js5 a js11",
+     "item": "3"
+    }
+   ]
+  },
+  {
+   "titulo": "Posição dos eixos",
+   "item": "4, Tab. 2",
+   "texto": "Tolerâncias de cruzamento e de inclinação em 12 classes de precisão, em série R10, em função da distância entre mancais. A classe considera a qualidade dos dentes mas não precisa coincidir com ela. Indicação no desenho com quadro de tolerância citando a DIN 3964.",
+   "valores": [
+    {
+     "parametro": "Exemplo da norma (L = 196 mm)",
+     "valor": "cruzamento classe 5 = 20 µm; inclinação classe 7 = 32 µm",
+     "item": "4"
+    },
+    {
+     "parametro": "Classes",
+     "valor": "1 a 12",
+     "item": "4"
+    }
+   ]
+  }
+ ]
+}

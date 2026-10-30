@@ -1,0 +1,15 @@
+{
+  "_comentario": "Cada grupo é um conjunto de termos equivalentes na busca (sem acento, minúsculo). Buscar qualquer um encontra os outros.",
+  "grupos": [
+    ["escada", "stair", "stairs", "stairway", "escadaria"],
+    ["degrau", "step", "tread", "pisada", "piso do degrau"],
+    ["espelho", "riser"],
+    ["escada marinheiro", "marinheiro", "vertical ladder", "ladder", "escada vertical", "escada fixa vertical"],
+    ["gaiola", "cage", "safety cage", "guarda-costas"],
+    ["guarda-corpo", "guarda corpo", "guardrail", "handrail", "balaustrada", "corrimao", "parapeito"],
+    ["rodape", "toeboard", "toe board", "barra-rodape"],
+    ["passarela", "walkway", "plataforma", "platform", "acesso"],
+    ["rampa", "ramp"],
+    ["patamar", "landing", "descanso", "plataforma de descanso"]
+  ]
+}

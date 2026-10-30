@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SB-668",
+ "titulo": "SB-668 — Tubos sem costura de liga N08028 (Sanicro 28) acabados a frio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura acabados a frio da liga N08028 para serviço corrosivo geral. Requisitos gerais pela SB-829."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Cr",
+     "valor": "26,0–28,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ni",
+     "valor": "30,0–34,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mo / Cu",
+     "valor": "3,0–4,0 % / 0,6–1,4 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C máx. / Mn máx. / Si máx.",
+     "valor": "0,030 % / 2,50 % / 1,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su mín. / Sy mín. / alongamento",
+     "valor": "73 ksi (500) / 31 ksi (214) / 40 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

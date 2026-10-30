@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 610" width="900" height="610" role="img" aria-label="Estaca tubular — segmentos, soldas, retilineidade, esquadro, comprimento, D e t">
+<title>Estaca tubular — segmentos, soldas, retilineidade, esquadro, comprimento, D e t (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Estaca tubular — segmentos, soldas, retilineidade, esquadro, comprimento, D e t</text>
+<path class="s" d="M60,140 Q450,120 840,140 L840,200 Q450,180 60,200 z"/>
+<line class="c" x1="40" y1="170" x2="860" y2="170"/>
+<line class="g" x1="300" y1="128" x2="300" y2="196"/>
+<line class="g" x1="560" y1="128" x2="560" y2="196"/>
+<line class="v" x1="120" y1="135" x2="220" y2="133"/>
+<line class="v" x1="380" y1="186" x2="480" y2="186"/>
+<g id="cota-segmento" class="cota"><line class="e" x1="60" y1="203" x2="60" y2="236"/><line class="e" x1="300" y1="203" x2="300" y2="236"/><line class="d" x1="60" y1="230" x2="300" y2="230" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="180" y="248">segmento (mín.)</text></g>
+<g id="cota-comprimento" class="cota"><line class="e" x1="60" y1="203" x2="60" y2="281"/><line class="e" x1="840" y1="203" x2="840" y2="281"/><line class="d" x1="60" y1="275" x2="840" y2="275" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="450" y="293">comprimento da seção / do conjunto</text></g>
+<g id="cota-retilineidade" class="cota"><line class="d" x1="450" y1="196" x2="450" y2="170" marker-end="url(#a)"/><line class="d" x1="450" y1="134" x2="450" y2="160" marker-end="url(#a)"/><line class="d" x1="450" y1="170" x2="450" y2="160"/><text x="470" y="110">desvio (por trecho e total)</text></g>
+<g id="cota-sobra" class="cota"><line class="e" x1="760" y1="137" x2="760" y2="104"/><line class="e" x1="840" y1="137" x2="840" y2="104"/><line class="d" x1="760" y1="110" x2="840" y2="110" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="800" y="103">sobra para corte</text></g>
+<text class="b" x="60" y="380">Seção (soldas longitudinais</text>
+<text class="b" x="60" y="400">de segmentos vizinhos)</text>
+<circle class="s" cx="360" cy="430" r="80"/>
+<circle class="w" cx="360" cy="430" r="64"/>
+<line class="v" x1="360" y1="350" x2="360" y2="366"/>
+<line class="v" x1="440" y1="430" x2="424" y2="430"/>
+<g id="cota-defasagem" class="cota"><path class="d" d="M360,330 A100,100 0 0,1 460,430" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="442" y="353">defasagem</text></g>
+<g id="cota-D" class="cota"><line class="e" x1="280" y1="433" x2="280" y2="541"/><line class="e" x1="440" y1="433" x2="440" y2="541"/><line class="d" x1="280" y1="535" x2="440" y2="535" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="360" y="553">D</text></g>
+<g id="cota-t" class="cota"><line class="d" x1="254" y1="430" x2="280" y2="430" marker-end="url(#a)"/><line class="d" x1="322" y1="430" x2="296" y2="430" marker-end="url(#a)"/><line class="d" x1="280" y1="430" x2="296" y2="430"/><text class="en" x="250" y="410">t</text></g>
+<text class="b" x="560" y="330">Extremidade chanfrada (esquadro)</text>
+<path class="s" d="M560,360 L760,360 L772,440 L560,440 z"/>
+<line class="h" x1="760" y1="350" x2="760" y2="450"/>
+<g id="cota-esquadro" class="cota"><line class="d" x1="734" y1="440" x2="760" y2="440" marker-end="url(#a)"/><line class="d" x1="798" y1="440" x2="772" y2="440" marker-end="url(#a)"/><line class="d" x1="760" y1="440" x2="772" y2="440"/><text class="m" x="700" y="480">fora de esquadro da face de raiz</text></g>
+<text class="n" x="20" y="598">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

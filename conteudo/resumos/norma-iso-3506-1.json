@@ -1,0 +1,64 @@
+{
+ "id": "ISO-3506-1",
+ "titulo": "ISO 3506-1:2009 — Fixadores de aço inoxidável: parafusos e prisioneiros",
+ "secoes": [
+  {
+   "titulo": "Escopo e grupos de aço",
+   "item": "1; 4; Tab. 1",
+   "texto": "Parafusos até M39 de inox austenítico (A1 a A5), martensítico (C1, C3, C4) e ferrítico (F1), com propriedades medidas à temperatura ambiente. A descrição dos grupos e a composição química estão nos anexos.",
+   "valores": []
+  },
+  {
+   "titulo": "Designação",
+   "item": "3",
+   "texto": "Letra e número do grupo/grau, seguidos da resistência mínima dividida por 10 (ex.: A2-70, A4-80).",
+   "valores": [
+    {
+     "parametro": "A4-80",
+     "valor": "grupo austenítico A4, Rm ≥ 800 MPa",
+     "item": "3"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades",
+   "item": "Tab. 2–3",
+   "texto": "Classes 50 (recozido), 70 (encruado a frio) e 80 (muito encruado) nos austeníticos.",
+   "valores": [
+    {
+     "parametro": "A2/A4-70 — Rm / Rp0,2 / alongamento",
+     "valor": "700 / 450 MPa / 0,4 d",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "A2/A4-80 — Rm / Rp0,2 / alongamento",
+     "valor": "800 / 600 MPa / 0,3 d",
+     "item": "Tab. 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Torque de ruptura",
+   "item": "Tab. 4",
+   "texto": "Para parafusos pequenos, ensaio de torção com torque mínimo de ruptura.",
+   "valores": [
+    {
+     "parametro": "M10 — classe 50 / 70 / 80",
+     "valor": "46 / 65 / 74 N·m",
+     "item": "Tab. 4"
+    },
+    {
+     "parametro": "M12 — classe 50 / 70 / 80",
+     "valor": "80 / 110 / 130 N·m",
+     "item": "Tab. 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "6–9",
+   "texto": "Tração, escoamento, alongamento e dureza; marcação com grupo e classe e identificação do fabricante.",
+   "valores": []
+  }
+ ]
+}

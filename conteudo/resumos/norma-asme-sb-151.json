@@ -1,0 +1,40 @@
+{
+ "id": "ASME-SB-151",
+ "titulo": "SB-151 — Barras e vergalhões de cobre-níquel-zinco e cobre-níquel",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras de cobre-níquel (C70600, C70620, C71500, C71520) e cobre-níquel-zinco/alpacas (C74500, C75200, C75700, C76400, C77000, C79200) para uso geral. Requisitos gerais pela SB-249."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C70600 — Ni / Fe / Mn máx.",
+     "valor": "9,0–11,0 % / 1,0–1,8 % / 1,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C70600 — Pb / Zn / P / S máx.",
+     "valor": "0,05 / 1,0 / 0,02 / 0,02 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Têmperas e propriedades",
+   "item": "8 a 10",
+   "texto": "Recozidas (O60, OS por tamanho de grão) e encruadas. Cu-Ni pela Tabela 4/5 (Su, escoamento, alongamento); Cu-Ni-Zn pela Tabela 3.",
+   "valores": [
+    {
+     "parametro": "Grão OS035 — nominal / faixa",
+     "valor": "0,035 mm / 0,025–0,050 mm",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

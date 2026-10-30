@@ -1,0 +1,58 @@
+{
+ "id": "ISO-7053",
+ "titulo": "ISO 7053:2011 — Parafusos autoatarraxantes sextavados com flange (arruela)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafuso autoatarraxante de cabeça sextavada com colar (arruela integrada), ST 2,2 a ST 8.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "ST 2,2 a ST 8",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3",
+   "texto": "Por rosca: s, k, diâmetro do colar, comprimentos.",
+   "valores": [
+    {
+     "parametro": "Abertura s (ST 2,2 / 2,9 / 3,5 / 3,9 / 4,2 / 4,8 / 5,5 / 6,3 / 8)",
+     "valor": "3 / 4 / 5,5 / 5,5 / 7 / 8 / 8 / 10 / 13 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Altura k (mesma ordem)",
+     "valor": "2,0 / 2,8 / 3,4 / 3,4 / 4,1 / 4,3 / 5,4 / 5,9 / 7,0 mm",
+     "item": "Tab. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos e normas de referência",
+   "item": "4",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Material",
+     "valor": "aço ISO 2702 ou inox A2/A4/A5-20H (ISO 3506-4)",
+     "item": "4"
+    },
+    {
+     "parametro": "Tolerâncias",
+     "valor": "grau A",
+     "item": "4"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "5",
+   "texto": "Ex.: ISO 7053 – ST 3,5 × 16 – St – R (aço) ou – A4-20H – R.",
+   "valores": []
+  }
+ ]
+}

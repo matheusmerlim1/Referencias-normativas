@@ -1,0 +1,72 @@
+{
+ "id": "DIN-867",
+ "titulo": "DIN 867:1986 — Perfis de referência para dentes evolventes de engrenagens cilíndricas — Mecânica geral e pesada",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Perfil de cremalheira de referência preferido para engrenagens cilíndricas evolventes (DIN 3960) de mecânica geral e pesada. Para mecânica fina (módulo 0,1 a 1 mm) usa-se a DIN 58400. Corresponde em conteúdo à ISO 53, com diferenças listadas.",
+   "valores": [
+    {
+     "parametro": "Faixa de módulo",
+     "valor": "1 a 70 mm",
+     "item": "1",
+     "nota": "cópia OCR — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Perfil",
+   "item": "3–4",
+   "texto": "Flancos retos até a linha de cabeça e até o raio de pé; na linha de referência espessura do dente = vão = meio passo. Perfil de ferramenta deriva deste.",
+   "valores": [
+    {
+     "parametro": "Ângulo de pressão αP",
+     "valor": "20°",
+     "item": "4"
+    },
+    {
+     "parametro": "Altura de cabeça haP",
+     "valor": "1·m",
+     "item": "4.3"
+    },
+    {
+     "parametro": "Altura do dente hP",
+     "valor": "2·m + cP",
+     "item": "4.3",
+     "nota": "cópia OCR — conferir"
+    },
+    {
+     "parametro": "Folga de pé cP",
+     "valor": "em geral 0,25·m (faixa de 0,1·m a 0,4·m)",
+     "item": "4.4",
+     "nota": "cópia OCR — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Raio de pé",
+   "item": "4.5, Fig. 2",
+   "texto": "Raio máximo depende do coeficiente de folga (fórmulas 7 e 8); a ISO 53 especifica um só par.",
+   "valores": [
+    {
+     "parametro": "Par da ISO 53",
+     "valor": "cP = 0,25·m e ρfP = 0,38·m",
+     "item": "4.4"
+    },
+    {
+     "parametro": "ρfP máx. (cP* = 0,17 / 0,25 / 0,3 / 0,4)",
+     "valor": "0,25 / 0,38 / 0,45 / 0,39·m",
+     "item": "4.5",
+     "nota": "cópia OCR — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Exclusões",
+   "item": "4.7–5",
+   "texto": "Perfis com rebaixo de pé e correções de forma do flanco não são tratados aqui (ver DIN 3960 e DIN 3972).",
+   "valores": []
+  }
+ ]
+}

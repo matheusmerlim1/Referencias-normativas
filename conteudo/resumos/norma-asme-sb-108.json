@@ -1,0 +1,45 @@
+{
+ "id": "ASME-SB-108",
+ "titulo": "SB-108 — Fundidos de liga de alumínio em molde permanente (coquilha)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Peças de liga de alumínio fundidas em molde permanente, nas ligas e têmperas da Tabela 1 (ANSI H35.1 / UNS)."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "6, 17, 18",
+   "texto": "Fundidor responde por peças usináveis às dimensões. Tratamento térmico conforme B597, na peça inteira. Reparo só por processos acordados."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "356.0 — Si / Mg",
+     "valor": "6,5–7,5 % / 0,20–0,45 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Corpos de prova fundidos à parte: Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "356.0-T6",
+     "valor": "33,0 ksi (228) / 22,0 ksi (152) / 3,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "356.0-F",
+     "valor": "21,0 ksi (145) / 10,0 ksi (69) / 3,0 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

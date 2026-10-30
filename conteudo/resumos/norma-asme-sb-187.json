@@ -1,0 +1,38 @@
+{
+ "id": "ASME-SB-187",
+ "titulo": "SB-187 — Barras, vergalhões e perfis de cobre para condutores elétricos (barramentos) e uso geral",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras e perfis de cobre para barramentos elétricos e para uso geral, nos cobres C10100 (OFE), C10200 (OF), C10300, C10400–C10700 (OFS), C10920–C10940, C11000 (ETP), C11300–C11600 (STP) e outros."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C10100 — Cu mín.",
+     "valor": "99,99 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C10200 — Cu mín. / O máx.",
+     "valor": "99,95 % / 0,0010 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C10920 — Cu mín. / O máx.",
+     "valor": "99,90 % / 0,02 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades",
+   "item": "Tabelas",
+   "texto": "Têmperas e propriedades mecânicas e elétricas (resistividade) conforme as tabelas da especificação."
+  }
+ ]
+}

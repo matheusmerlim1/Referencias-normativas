@@ -1,0 +1,150 @@
+{
+ "id": "DNV-OS-H205",
+ "titulo": "DNV-OS-H205 (Abr/2014) — Operações de içamento (VMO)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Içamentos marítimos com guindastes de embarcação ou de plataforma, inclusive pesados e submarinos rasos; complementa as normas de operações marítimas (H101, H102, H206 para águas profundas).",
+   "valores": []
+  },
+  {
+   "titulo": "Planejamento e folgas",
+   "item": "2",
+   "texto": "Plano e documentação, capacidade do guindaste e posicionamento da embarcação. Critérios operacionais (vento, onda, movimento relativo) definidos antes. Folgas mínimas entre carga, lança e estruturas; maiores perto de elementos críticos; folga sob a quilha.",
+   "valores": [
+    {
+     "parametro": "Carga ↔ lança / entre objetos",
+     "valor": "≥ 3,0 m",
+     "item": "2.3.3.2"
+    },
+    {
+     "parametro": "Carga ↔ outras estruturas",
+     "valor": "≥ 5,0 m",
+     "item": "2.3.3.2"
+    },
+    {
+     "parametro": "Primeiro contato com elemento crítico (perda de posição)",
+     "valor": "≥ 10,0 m (não crítico 5,0 m)",
+     "item": "2.3.3.5"
+    },
+    {
+     "parametro": "Folga sob a quilha",
+     "valor": "≥ 3 m",
+     "item": "2.3.3.7"
+    },
+    {
+     "parametro": "Movimento vertical relativo gancho–objeto",
+     "valor": "≤ 2,0 m recomendado",
+     "item": "2.3.4.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Cargas dinâmicas",
+   "item": "3.2",
+   "texto": "Fator dinâmico (DAF) por faixa de carga no gancho e local (em terra, abrigado, offshore); objetos leves tratados como de 3 t.",
+   "valores": [
+    {
+     "parametro": "DAF ≤ 100 t — em terra / abrigado / offshore",
+     "valor": "1,10 / 1,07 + 0,05√(100/SHL) / 1 + 0,25√(100/SHL)",
+     "item": "3.2.2.4, Tab. 3-1"
+    },
+    {
+     "parametro": "DAF 100–300 t",
+     "valor": "1,05 / 1,12 / 1,25",
+     "item": "Tab. 3-1"
+    },
+    {
+     "parametro": "DAF > 2500 t",
+     "valor": "1,03 / 1,05 / 1,10",
+     "item": "Tab. 3-1"
+    },
+    {
+     "parametro": "Peso mínimo a considerar",
+     "valor": "3 t",
+     "item": "Tab. 3-1, nota 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Cargas de desvio (skew) e inclinação",
+   "item": "3.3",
+   "texto": "Tolerâncias de lingas e pontos criam carga desigual; com mais de quatro pontos num gancho calcula-se caso a caso. Valores padrão de fator de desvio para arranjos típicos. Lingas duplas e inclinação do objeto também alteram a divisão.",
+   "valores": [
+    {
+     "parametro": "SKL isostático (tolerância ± 0,5 %)",
+     "valor": "1,0",
+     "item": "3.3.2.3"
+    },
+    {
+     "parametro": "SKL 4 pontos com balancins flutuantes",
+     "valor": "1,1",
+     "item": "3.3.2.4"
+    },
+    {
+     "parametro": "SKL 4 pontos hiperestático com cable-laid",
+     "valor": "1,25 (diagonais ≤ 0,5 %; θ ≤ 60°)",
+     "item": "3.3.2.5"
+    },
+    {
+     "parametro": "Inclinação desprezável",
+     "valor": "< 2°",
+     "item": "3.3.8.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Fatores de consequência e verificação",
+   "item": "3.4",
+   "texto": "Cargas majoradas por fator de carga e de consequência, maior nos pontos de içamento e nas suas ligações.",
+   "valores": [
+    {
+     "parametro": "γc — pontos de içamento e fixações",
+     "valor": "1,3",
+     "item": "3.4"
+    },
+    {
+     "parametro": "γc — elementos principais de apoio / demais",
+     "valor": "1,15 / 1,0",
+     "item": "3.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Lingas, grommets e manilhas",
+   "item": "4",
+   "texto": "Lingas de aço ou fibra com carga de ruptura documentada; fibras ensaiadas até romper, com temperatura de uso e critérios de descarte definidos e prova antes do primeiro uso. Fator de segurança nominal é o produto de fatores parciais, com mínimo absoluto. Manilhas certificadas, com inspeção.",
+   "valores": [
+    {
+     "parametro": "Prova de linga de fibra",
+     "valor": "1,3 × SWL",
+     "item": "4.1.4.7"
+    },
+    {
+     "parametro": "Fator nominal mínimo",
+     "valor": "γsf ≥ 2,3·γr·γw·γtw",
+     "item": "4.1.5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Pontos de içamento",
+   "item": "5",
+   "texto": "Olhais alinhados com a força no plano da chapa; tração na espessura só com aço de propriedade garantida e tensão reduzida. Munhões com largura de apoio suficiente para a linga.",
+   "valores": [
+    {
+     "parametro": "Tensão na espessura",
+     "valor": "≤ 50 % da admissível",
+     "item": "5.1.4.6"
+    },
+    {
+     "parametro": "Largura do munhão",
+     "valor": "≥ 1,3 D (≤ 1,25 D + 25 mm)",
+     "item": "5.1.4.7",
+     "cota": "esquemas/icamento-unidade-portatil-munhao.svg#largura-apoio"
+    }
+   ]
+  }
+ ]
+}

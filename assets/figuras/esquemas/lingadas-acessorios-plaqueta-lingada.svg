@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 410" width="760" height="410" role="img" aria-label="Plaqueta de identificação da lingada — octogonal (corrente) e redonda (cabo)">
+<title>Plaqueta de identificação da lingada — octogonal (corrente) e redonda (cabo) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Plaqueta de identificação da lingada — octogonal (corrente) e redonda (cabo)</text>
+<path class="w" d="M320.1,249.7 L249.7,320.1 L150.3,320.1 L79.9,249.7 L79.9,150.3 L150.3,79.9 L249.7,79.9 L320.1,150.3 z"/>
+<text class="n m" x="200" y="130">nº do certificado / lingada</text>
+<text class="n m" x="200" y="158">marca e norma</text>
+<text class="n m" x="200" y="186">nº de pernas e Ø</text>
+<text class="n m" x="200" y="214">ângulo da lingada</text>
+<text class="n m" x="200" y="242">manilha e WLL</text>
+<text class="n m" x="200" y="270">proprietário</text>
+<g id="cota-caracteres" class="cota"><line class="e" x1="298" y1="118" x2="326" y2="118"/><line class="e" x1="298" y1="130" x2="326" y2="130"/><line class="d" x1="320" y1="92" x2="320" y2="118" marker-end="url(#a)"/><line class="d" x1="320" y1="156" x2="320" y2="130" marker-end="url(#a)"/><line class="d" x1="320" y1="118" x2="320" y2="130"/><text x="340" y="90">altura dos caracteres</text></g>
+<circle class="w" cx="560" cy="200" r="120"/>
+<text class="n m" x="560" y="205">mesmos campos (cabo de aço)</text>
+<text class="b m" x="200" y="360">corrente: octogonal</text>
+<text class="b m" x="560" y="360">cabo de aço: redonda</text>
+<text class="n" x="20" y="398">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

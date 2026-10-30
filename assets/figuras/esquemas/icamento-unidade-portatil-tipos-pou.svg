@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380" role="img" aria-label="Tipos de unidade portátil offshore (POU) — exemplos">
+<title>Tipos de unidade portátil offshore (POU) — exemplos (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Tipos de unidade portátil offshore (POU) — exemplos</text>
+<rect class="sl" x="40" y="200" width="140" height="80"/>
+<path class="g" d="M40,200 L40,150 L180,150 L180,200 M40,150 L180,200 M180,150 L40,200"/>
+<rect class="s" x="35" y="280" width="150" height="12"/>
+<line class="g" x1="110" y1="90" x2="65" y2="150"/>
+<line class="g" x1="110" y1="90" x2="155" y2="150"/>
+<circle class="g" cx="110" cy="84" r="6"/>
+<text class="n m" x="110" y="316">A — com estrutura primária</text>
+<text class="n m" x="110" y="332">(skid com crash frame)</text>
+<rect class="sl" x="250" y="210" width="110" height="70"/>
+<rect class="s" x="240" y="280" width="130" height="12"/>
+<line class="g" x1="305" y1="150" x2="260" y2="210"/>
+<line class="g" x1="305" y1="150" x2="350" y2="210"/>
+<circle class="g" cx="305" cy="144" r="6"/>
+<text class="n m" x="305" y="316">B — skid sem crash frame</text>
+<circle class="sl" cx="480" cy="240" r="45"/>
+<line class="g" x1="450" y1="274" x2="440" y2="300"/>
+<line class="g" x1="510" y1="274" x2="520" y2="300"/>
+<line class="g" x1="480" y1="135" x2="435" y2="195"/>
+<line class="g" x1="480" y1="135" x2="525" y2="195"/>
+<circle class="g" cx="480" cy="129" r="6"/>
+<text class="n m" x="480" y="316">C — sem skid (vaso, carretel)</text>
+<rect class="s" x="600" y="190" width="110" height="100"/>
+<rect class="w" x="640" y="230" width="30" height="60"/>
+<line class="g" x1="655" y1="130" x2="610" y2="190"/>
+<line class="g" x1="655" y1="130" x2="700" y2="190"/>
+<circle class="g" cx="655" cy="124" r="6"/>
+<text class="n m" x="655" y="316">D — caixa / cabine</text>
+<rect class="s" x="790" y="170" width="24" height="120"/>
+<circle class="g" cx="802" cy="160" r="12"/>
+<line class="g" x1="802" y1="148" x2="802" y2="110"/>
+<text class="n m" x="802" y="316">E — demais</text>
+<text class="n" x="20" y="368">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

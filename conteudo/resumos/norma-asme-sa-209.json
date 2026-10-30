@@ -1,0 +1,126 @@
+{
+ "id": "ASME-SA-209",
+ "titulo": "SA-209 — Tubos sem costura de aço C-Mo para caldeiras e superaquecedores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura de aço carbono-molibdênio, de espessura mínima, para caldeiras e superaquecedores. Graus T1, T1a e T1b. Requisitos gerais pela SA-1016.",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo",
+     "valor": "1/2 a 5 in [12,7 a 127 mm]",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Espessura mínima",
+     "valor": "0,035 a 0,500 in [0,9 a 12,7 mm]",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "4",
+   "texto": "Aço acalmado; sem costura, acabado a quente ou a frio. Tratamento térmico após o acabamento; alternativamente recozimento pleno, recozimento isotérmico ou normalização e revenimento.",
+   "valores": [
+    {
+     "parametro": "Temperatura mín. de tratamento",
+     "valor": "1200 °F [650 °C]",
+     "item": "4.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "T1 — C",
+     "valor": "0,10–0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "T1a — C",
+     "valor": "0,15–0,25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "T1b — C máx.",
+     "valor": "0,14 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn / Si",
+     "valor": "0,30–0,80 % / 0,10–0,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,025 % / 0,025 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mo",
+     "valor": "0,44–0,65 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 4",
+   "texto": "Alongamento mínimo de 30 % em 50 mm (tira), com dedução de 1,50 ponto por 1/32 in abaixo de 5/16 in (E = 48t + 15,00); 22 % com corpo de prova redondo 4D.",
+   "valores": [
+    {
+     "parametro": "T1 — Su / Sy mín.",
+     "valor": "55 ksi [380 MPa] / 30 ksi [205 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "T1a — Su / Sy mín.",
+     "valor": "60 ksi [415 MPa] / 32 ksi [220 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "T1b — Su / Sy mín.",
+     "valor": "53 ksi [365 MPa] / 28 ksi [195 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Dureza máx. T1 / T1a / T1b (parede ≥ 0,200 in)",
+     "valor": "146 / 153 / 137 HBW",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Dureza máx. T1 / T1a / T1b (parede < 0,200 in)",
+     "valor": "80 / 81 / 77 HRB",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "5.2, 8",
+   "texto": "Análise de produto de um tarugo ou tubo por corrida (falha → 2 retestes). Na caldeira, o tubo deve aceitar mandrilagem e rebordeamento sem trincas.",
+   "valores": [
+    {
+     "parametro": "Lote em tratamento contínuo — ≥ 2 in DE e parede ≥ 0,200 in",
+     "valor": "até 50 tubos",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Lote — DE ≤ 1 in",
+     "valor": "até 125 tubos",
+     "item": "Tabela 5"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação e suplementar",
+   "item": "9, S1",
+   "texto": "Marcação indica acabamento a quente ou a frio. Suplementar S1: condição de superfície (decapagem e/ou jateamento) quando pedida."
+  }
+ ]
+}

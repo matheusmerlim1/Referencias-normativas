@@ -1,0 +1,40 @@
+{
+ "id": "ISO-261",
+ "titulo": "ISO 261:1998 — Roscas métricas ISO de uso geral — Plano geral (diâmetros e passos)",
+ "secoes": [
+  {
+   "titulo": "Escopo e designação",
+   "item": "1–4",
+   "texto": "Combinações de diâmetro nominal e passo das roscas métricas M (perfil básico ISO 68-1). Dimensões básicas na ISO 724, tolerâncias na ISO 965-1, designação conforme ISO 965-1.",
+   "valores": []
+  },
+  {
+   "titulo": "Escolha de diâmetro e passo",
+   "item": "5, Tab. 1–2",
+   "texto": "Preferir diâmetros da coluna 1 da Tabela 2, depois coluna 2 e 3. Cada diâmetro tem um passo grosso e um ou mais finos. Passos finos muito pequenos em diâmetros grandes dificultam cumprir tolerâncias; a Tabela 1 limita o diâmetro máximo por passo fino. Diâmetro 35 mm e passo 1,25 em M14 só para aplicações especiais citadas na norma.",
+   "valores": [
+    {
+     "parametro": "Passos finos padronizados",
+     "valor": "3; 2; 1,5; 1; 0,75; 0,5; 0,35; 0,25; 0,2 mm",
+     "item": "5"
+    },
+    {
+     "parametro": "Diâmetro máximo por passo fino 0,5 / 0,75 / 1 / 1,5 / 2 / 3",
+     "valor": "22 / 33 / 80 / 150 / 200 / 300 mm",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Passo grosso M6 / M8 / M10 / M12",
+     "valor": "1 / 1,25 / 1,5 / 1,75 mm",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Passo grosso M16 / M20 / M24 / M30",
+     "valor": "2 / 2,5 / 3 / 3,5 mm",
+     "item": "Tab. 2",
+     "nota": "conferido também na ISO 4014"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "id": "ASME-SA-181",
+ "titulo": "SA-181 — Forjados de aço carbono para tubulação de uso geral",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Conexões, componentes de válvula e peças forjadas não padronizadas para serviço geral. Duas classes, 60 e 70 (antigos Graus I e II). Peças maiores vão para a SA-266.",
+   "valores": [
+    {
+     "parametro": "Massa máxima",
+     "valor": "10 000 lb [4540 kg]",
+     "item": "1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4",
+   "texto": "Peças cilíndricas ocas (exceto flanges) podem ser usinadas de barra laminada ou forjada com o eixo paralelo às linhas de fluxo; outras peças até NPS 4 também. Cotovelos, curvas de retorno e tês não podem ser usinados direto de barra."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Mn pode subir até 1,35 % reduzindo C em 0,01 % para cada 0,06 % de Mn acima de 1,10 %.",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx.",
+     "valor": "1,10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,05 % / 0,05 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,10–0,35 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Classe 60 — Su / Sy mín.",
+     "valor": "60 ksi [415 MPa] / 30 ksi [205 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 60 — alongamento / redução de área mín.",
+     "valor": "22 % / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 70 — Su / Sy mín.",
+     "valor": "70 ksi [485 MPa] / 36 ksi [250 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Classe 70 — alongamento / redução de área mín.",
+     "valor": "18 % / 24 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo e marcação",
+   "item": "10, 11",
+   "texto": "Reparo por solda pelo fabricante admitido em peças de padrão dimensional; marcação com fabricante, classe de pressão, especificação e classe."
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "S1",
+   "texto": "Carbono equivalente máximo, se pedido: CE = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15.",
+   "valores": [
+    {
+     "parametro": "CE máx. Classe 60 — seção ≤ 2 in / > 2 in",
+     "valor": "0,45 / 0,46",
+     "item": "S1.1"
+    },
+    {
+     "parametro": "CE máx. Classe 70 — seção ≤ 2 in / > 2 in",
+     "valor": "0,47 / 0,48",
+     "item": "S1.1"
+    }
+   ]
+  }
+ ]
+}

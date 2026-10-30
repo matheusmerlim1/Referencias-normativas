@@ -1,0 +1,52 @@
+{
+ "id": "NBR-ISO-5167-2",
+ "titulo": "ABNT NBR ISO 5167-2:2011 — Medição de vazão por dispositivos de pressão diferencial — Parte 2: Placas de orifício",
+ "secoes": [
+  {"titulo": "Escopo", "item": "1",
+   "texto": "Geometria, instalação e condições de operação de placas de orifício em condutos forçados cheios, e base para calcular a vazão (junto com a Parte 1). Vale para tomadas de flange, D e D/2 e de canto; tomadas de vena contracta e de tubulação não são cobertas.",
+   "valores": []},
+  {"titulo": "Placa de orifício — geometria", "item": "5.1",
+   "texto": "Parte interna da placa circular, concêntrica, faces planas e paralelas; placa não pode empenar sob a pressão diferencial. Face a montante plana e lisa; borda de entrada afiada, em ângulo reto, sem rebarba; se a placa for mais grossa que o furo, chanfro a jusante. Furo cilíndrico, d = média de ≥ 4 medidas.",
+   "valores": [
+    {"parametro": "Espessura do furo e", "valor": "0,005D a 0,02D (variação ≤ 0,001D)", "item": "5.1.5.1–5.1.5.2"},
+    {"parametro": "Espessura da placa E", "valor": "entre e e 0,05D (50 < D ≤ 64 mm: até 3,2 mm)", "item": "5.1.5.3"},
+    {"parametro": "Variação de E", "valor": "≤ 0,001D (D > 200 mm) / ≤ 0,2 mm (D ≤ 200 mm)", "item": "5.1.5.4"},
+    {"parametro": "Ângulo do chanfro", "valor": "45° ± 15°", "item": "5.1.6.2"},
+    {"parametro": "Borda a montante afiada", "valor": "raio ≤ 0,0004d", "item": "5.1.7.2"},
+    {"parametro": "Diâmetro do orifício", "valor": "d ≥ 12,5 mm", "item": "5.1.8.1"},
+    {"parametro": "Relação de diâmetros", "valor": "0,10 ≤ β = d/D ≤ 0,75", "item": "5.1.8.1"}
+   ]},
+  {"titulo": "Tomadas de pressão", "item": "5.2",
+   "texto": "Tomadas circulares, faceando a parede, perpendiculares ao eixo (dentro de 3°), em qualquer plano axial. Tomadas de canto podem ser furos simples ou fendas anulares em flanges ou anéis portadores.",
+   "valores": [
+    {"parametro": "Tomada D e D/2 — montante", "valor": "D (0,9D a 1,1D)", "item": "5.2.2.2"},
+    {"parametro": "Tomada D e D/2 — jusante", "valor": "0,5D (0,48–0,52D se β ≤ 0,6; 0,49–0,51D se β > 0,6)", "item": "5.2.2.2"},
+    {"parametro": "Tomada de flange (cada lado)", "valor": "25,4 mm (± 0,5 mm se β > 0,6 e D < 150 mm; ± 1 mm nos demais)", "item": "5.2.2.3"},
+    {"parametro": "Diâmetro da tomada", "valor": "< 0,13D e < 13 mm", "item": "5.2.2.7"},
+    {"parametro": "Trecho cilíndrico da tomada", "valor": "≥ 2,5 × diâmetro da tomada", "item": "5.2.2.8"}
+   ]},
+  {"titulo": "Limites de uso", "item": "5.3.1",
+   "texto": "A equação de C e as incertezas só valem dentro destes limites e com a rugosidade da tubulação (nos primeiros 10D a montante) dentro das Tabelas 1 e 2.",
+   "valores": [
+    {"parametro": "Canto e D–D/2", "valor": "d ≥ 12,5 mm; 50 ≤ D ≤ 1 000 mm; 0,1 ≤ β ≤ 0,75", "item": "5.3.1"},
+    {"parametro": "Canto e D–D/2 — Reynolds", "valor": "ReD ≥ 5 000 (0,1 ≤ β ≤ 0,56); ReD ≥ 16 000·β² (β > 0,56)", "item": "5.3.1"},
+    {"parametro": "Flange — Reynolds", "valor": "ReD ≥ 5 000 e ReD ≥ 170·β²·D (D em mm)", "item": "5.3.1"},
+    {"parametro": "Rugosidade que atende (exemplo)", "valor": "1 µm ≤ Ra ≤ 6 µm, D ≥ 150 mm, β ≤ 0,6, ReD ≤ 5 × 10⁷", "item": "5.3.1"}
+   ]},
+  {"titulo": "Coeficientes e incertezas", "item": "5.3.2–5.3.3",
+   "texto": "Coeficiente de descarga pela equação de Reader-Harris/Gallagher (1998), em função de β, ReD e das distâncias relativas das tomadas (L1, L'2), com termo extra para D < 71,12 mm. Fator de expansão empírico para gases, válido se p2/p1 ≥ 0,75. Tabelas A.1–A.12 dão C e ε só para consulta (sem interpolação exata nem extrapolação).",
+   "valores": [
+    {"parametro": "L1 / L'2 — canto", "valor": "0 / 0", "item": "5.3.2.1"},
+    {"parametro": "L1 / L'2 — D e D/2", "valor": "1 / 0,47", "item": "5.3.2.1"},
+    {"parametro": "L1 = L'2 — flange", "valor": "25,4 / D (D em mm)", "item": "5.3.2.1"},
+    {"parametro": "Equação de C (início)", "valor": "C = 0,5961 + 0,0261β² − 0,216β⁸ + … (termos de Reynolds e de tomadas)", "item": "Eq. 4", "nota": "equação completa ilegível no OCR — conferir na norma"},
+    {"parametro": "Fator de expansão", "valor": "ε = 1 − (0,351 + 0,256β⁴ + 0,93β⁸)·[1 − (p2/p1)^(1/κ)]", "item": "Eq. 5", "nota": "reconstruída de OCR parcial — conferir"},
+    {"parametro": "Incerteza de C — 0,1 ≤ β < 0,2 / 0,2 ≤ β ≤ 0,6 / 0,6 < β ≤ 0,75", "valor": "(0,7 − β) % / 0,5 % / (1,667β − 0,5) %", "item": "5.3.3.1"}
+   ]},
+  {"titulo": "Instalação", "item": "6",
+   "texto": "Trechos retos mínimos a montante e a jusante por tipo de conexão (curvas, tês, reduções, expansões, válvulas) na Tabela 3, com coluna de 'incerteza adicional zero' e coluna de 0,5 % adicional; válvula a montante totalmente aberta (controle de vazão a jusante). Condicionadores de escoamento (feixe de 19 tubos, Zanker, outros por ensaio de conformidade) reduzem os trechos. Requisitos de circularidade do tubo, centralização da placa e juntas que não invadam o tubo.",
+   "valores": [
+    {"parametro": "Comprimentos retos mínimos", "valor": "Tabela 3, em múltiplos de D conforme β e conexão", "item": "6.2", "nota": "tabela ilegível no OCR — conferir"}
+   ]}
+ ]
+}

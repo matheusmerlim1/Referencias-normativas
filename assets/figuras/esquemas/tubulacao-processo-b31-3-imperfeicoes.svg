@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 520" width="940" height="520" role="img" aria-label="Imperfeições de solda (ASME B31.3) — reforço, mordedura, concavidade, penetração incompleta, falta de fusão">
+<title>Imperfeições de solda (ASME B31.3) — reforço, mordedura, concavidade, penetração incompleta, falta de fusão (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Imperfeições de solda (ASME B31.3) — reforço, mordedura, concavidade, penetração incompleta, falta de fusão</text>
+<rect class="s" x="60" y="210" width="330" height="90"/>
+<rect class="s" x="470" y="210" width="330" height="90"/>
+<path class="r" d="M390,210 Q430,180 470,210 L455,300 Q430,318 405,300 z"/>
+<line class="h" x1="380" y1="210" x2="480" y2="210"/>
+<g id="cota-reforco" class="cota"><line class="d" x1="501" y1="162" x2="501" y2="188" marker-end="url(#a)"/><line class="d" x1="501" y1="236" x2="501" y2="210" marker-end="url(#a)"/><line class="d" x1="501" y1="188" x2="501" y2="210"/><text x="520" y="176">reforço</text></g>
+<g id="cota-protrusao" class="cota"><line class="d" x1="441" y1="274" x2="441" y2="300" marker-end="url(#a)"/><line class="d" x1="441" y1="344" x2="441" y2="318" marker-end="url(#a)"/><line class="d" x1="441" y1="300" x2="441" y2="318"/><text x="480" y="350">protrusão interna</text></g>
+<g id="cota-Tw" class="cota"><line class="e" x1="57" y1="210" x2="29" y2="210"/><line class="e" x1="57" y1="300" x2="29" y2="300"/><line class="d" x1="35" y1="210" x2="35" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text x="42" y="260">Tw</text></g>
+<path class="g" d="M380,210 L386,218 L392,210"/>
+<g id="cota-mordedura" class="cota"><line class="d" x1="387" y1="184" x2="387" y2="210" marker-end="url(#a)"/><line class="d" x1="387" y1="244" x2="387" y2="218" marker-end="url(#a)"/><line class="d" x1="387" y1="210" x2="387" y2="218"/><text x="250" y="170">mordedura (profundidade)</text></g>
+<g id="cota-concavidade" class="cota"><line class="d" x1="40" y1="375" x2="420" y2="304" marker-end="url(#a)"/><text x="40" y="380">concavidade na raiz: espessura total ≥ Tw</text></g>
+<g id="cota-penetracao" class="cota"><line class="d" x1="120" y1="435" x2="405" y2="294" marker-end="url(#a)"/><text x="120" y="440">penetração incompleta / falta de fusão (comprimento acumulado)</text></g>
+<g id="cota-comprimento-indicacao" class="cota"><line class="d" x1="560" y1="470" x2="760" y2="470" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="660" y="462">comprimento da indicação</text></g>
+<text class="n" x="20" y="508">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

@@ -1,0 +1,47 @@
+{
+ "id": "DIN-3967",
+ "titulo": "DIN 3967:1978 — Sistema de ajustes de engrenagens — Folga entre flancos, afastamentos e tolerâncias de espessura do dente",
+ "secoes": [
+  {
+   "titulo": "Princípio",
+   "item": "1",
+   "texto": "Sistema de ajuste por espessura do dente, definido na seção normal sobre o cilindro de referência (o esforço de fabricação independe da hélice); o cálculo dos afastamentos é feito na seção transversal, pois a folga é medida na circunferência. Considera variações por temperatura, carga e inchamento.",
+   "valores": []
+  },
+  {
+   "titulo": "Folgas",
+   "item": "2",
+   "texto": "Folga mínima definida pelos afastamentos superiores; folga de aceitação = medida sem carga, à temperatura de referência, normalmente menor que a teórica.",
+   "valores": []
+  },
+  {
+   "titulo": "Afastamentos superiores",
+   "item": "Tab. 1",
+   "texto": "Séries de afastamento por letras (ex. cd), escolhidas pela experiência, praticamente independentes da qualidade do dentado; pinhão e coroa podem usar séries diferentes.",
+   "valores": []
+  },
+  {
+   "titulo": "Tolerâncias de espessura",
+   "item": "Tab. 2",
+   "texto": "Séries de tolerância numeradas de 21 a 30 (para não confundir com as qualidades).",
+   "valores": [
+    {
+     "parametro": "Séries preferidas",
+     "valor": "24 a 27",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Designação",
+     "valor": "nº da série de tolerância + letra da série de afastamento, ex. 27cd",
+     "item": "Tab. 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Anexos",
+   "item": "A–B",
+   "texto": "Anexo A: cálculo dos afastamentos com exemplo (folga por temperatura e por não paralelismo); Anexo B: conversão para os métodos de medição.",
+   "valores": []
+  }
+ ]
+}

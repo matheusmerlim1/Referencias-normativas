@@ -1,0 +1,33 @@
+{
+ "id": "ASME-SB-210",
+ "titulo": "SB-210 — Tubos trefilados sem costura de alumínio e ligas de alumínio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos trefilados sem costura de alumínio e ligas, em barras ou bobinas, para uso geral e sob pressão. Tubos em bobina em geral só redondos, parede até 0,083 in e ligas não tratáveis. Ligas e têmperas pela ANSI H35.1 (têmpera O = recozido; H = encruado; T = tratado termicamente)."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su (mín./máx.) / Sy mín. por liga, têmpera e espessura.",
+   "valores": [
+    {
+     "parametro": "1060-O",
+     "valor": "8,5–13,5 ksi / 2,5 ksi",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "1060-H14",
+     "valor": "12,0 ksi / 10,0 ksi",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "3003-O (0,010–0,024 in)",
+     "valor": "14,0–19,0 ksi / 5,0 ksi",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

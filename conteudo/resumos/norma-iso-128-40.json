@@ -1,0 +1,24 @@
+{
+ "id": "ISO-128-40",
+ "titulo": "ISO 128-40:2001 — Desenho técnico — Princípios gerais de representação — Parte 40: Convenções básicas para cortes e seções",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1–3",
+   "texto": "Regras de cortes e seções em desenhos técnicos (mecânica e construção), adequadas à microcópia (ISO 6428). Plano de corte; linha de corte; corte (mostra também contornos além do plano); seção (só o que está no plano); meio-corte; corte local. Mecânica e construção usam 'corte' e 'seção' de modo diferente.",
+   "valores": []
+  },
+  {
+   "titulo": "Regras gerais",
+   "item": "4–5",
+   "texto": "Mesmas regras de disposição das vistas (ISO 128-30). Cada corte/seção identificado por duas letras maiúsculas iguais, nas setas de referência (linha contínua larga) e acima da vista resultante; pode ficar em qualquer lugar da folha. Linha de corte traço-ponto larga (tipo 04.2), desenhada só nas pontas e nas mudanças de direção (ou inteira em traço-ponto estreito se necessário). Hachuras pela ISO 128-50.",
+   "valores": []
+  },
+  {
+   "titulo": "Casos especiais",
+   "item": "6–7",
+   "texto": "Seções rebatidas na própria vista com contorno contínuo estreito (sentido de rotação indefinido); peças simétricas meio em vista, meio em corte; cortes locais.",
+   "valores": []
+  }
+ ]
+}

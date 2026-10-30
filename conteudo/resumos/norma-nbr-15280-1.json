@@ -1,0 +1,59 @@
+{
+ "id": "NBR-15280-1",
+ "titulo": "ABNT NBR 15280-1:2009 — Dutos terrestres — Parte 1: Projeto",
+ "secoes": [
+  {"titulo": "Escopo e categorias de produto", "item": "1",
+   "texto": "Requisitos mínimos de projeto, materiais, inspeção, teste hidrostático e controle de corrosão de dutos terrestres para líquidos e liquefeitos (petróleo, derivados, álcoois, GLP, amônia anidra etc.): dutos e ramais, terminais marítimos, ligações entre estações, refinarias e terminais, tubulações em bases, píeres, estações de pig e de redução. Construção e montagem estão na Parte 2.",
+   "valores": [
+    {"parametro": "Categoria I", "valor": "líquidos estáveis à pressão atmosférica (petróleo, derivados, etanol); pressão de vapor ≤ 1,10 bar abs a 38 °C", "item": "1.8 a)"},
+    {"parametro": "Categoria II", "valor": "gasosos à condição ambiente transportados liquefeitos (GLP, eteno…), maior risco", "item": "1.8 b)"}
+   ]},
+  {"titulo": "Pressão, temperatura e cargas", "item": "4.1–4.5",
+   "texto": "Pressão de projeto ≥ pressão máxima de operação (PMO) em todo ponto; partida e parada contam como regime permanente. Temperaturas de projeto mínima e máxima do metal. Cargas operacionais, ambientais, de construção, acidentais, térmicas e de deslocamento imposto, combinadas. Componentes flangeados limitados pelas classes de pressão-temperatura ASME B16.5 / MSS SP-44 (Tab. 1).",
+   "valores": [
+    {"parametro": "Sobrepressão transiente eventual", "valor": "até 10 % acima da PMOA", "item": "4.2.2"},
+    {"parametro": "Transiente sobre a classe P-T dos componentes", "valor": "até 10 %", "item": "4.5.3"},
+    {"parametro": "Válvula entre classes diferentes", "valor": "especificada para a classe mais alta", "item": "4.5.4"}
+   ]},
+  {"titulo": "Tensões admissíveis", "item": "4.6–4.8",
+   "texto": "Admissível à pressão = fator de junta × fator de projeto × SMYS. O fator de projeto cai em travessias, cruzamentos sem camisa, estações, lançadores e píer. Limites para dutos aéreos (não restringidos) e enterrados (restringidos).",
+   "valores": [
+    {"parametro": "Tensão admissível à pressão", "valor": "Sadm = Ej · F · SMYS", "item": "4.6.1"},
+    {"parametro": "Ej — sem costura, SAW/DSAW, ERW, EIW / EFW / topo em fornalha", "valor": "1,0 / 0,8 / 0,6", "item": "4.6.1.1"},
+    {"parametro": "F — geral e cruzamento com tubo-camisa (cat. I / cat. II)", "valor": "0,72 / 0,6", "item": "Tab. 2"},
+    {"parametro": "F — cruzamento sem camisa, travessia, estações/terminais, lançadores, píer", "valor": "0,6", "item": "Tab. 2", "nota": "píer: até ≥ 100 m da água"},
+    {"parametro": "Cisalhamento / compressão de contato", "valor": "≤ 45 % / ≤ 90 % da SMYS", "item": "4.6.3"},
+    {"parametro": "Tensão circunferencial de pressão", "valor": "SC ≤ Sadm", "item": "4.8.1.1, 4.8.2.1"},
+    {"parametro": "Duto enterrado — longitudinal (temperatura + pressão) e equivalente", "valor": "≤ 90 % da SMYS", "item": "4.8.2"}
+   ]},
+  {"titulo": "Espessura de parede", "item": "4.9, 5",
+   "texto": "Espessura nominal ≥ espessura total = calculada + acréscimos (rosca, corrosão). Sobreespessura ou mitigação obrigatória se o produto for corrosivo. Verificar pressão externa (vácuo, coluna d'água). Curvas a frio mantêm a espessura do tubo reto; curvas por indução exigem no extradorso a espessura total do reto.",
+   "valores": [
+    {"parametro": "Espessura calculada", "valor": "ec = P·D / (2·Sadm)", "item": "5.2.3"},
+    {"parametro": "Espessura total", "valor": "et = ec + A (rosca + corrosão)", "item": "5.2.2"},
+    {"parametro": "Mínima recomendada — duto, 3 a 12 pol", "valor": "5,2 mm", "item": "Tab. 3"},
+    {"parametro": "Mínima recomendada — duto, 14 e 16 pol", "valor": "5,6 mm", "item": "Tab. 3"},
+    {"parametro": "Mínima recomendada — estação/terminal, 4 pol / 6 pol / 8 a 16 pol", "valor": "6,0 / 7,1 / 6,4 mm", "item": "Tab. 3"},
+    {"parametro": "Mínima — estação/terminal, 1/2 / 3/4 / 1 / 1 1/2 / 2 pol", "valor": "3,7 / 3,9 / 4,6 / 5,1 / 3,9 mm", "item": "Tab. 3", "nota": "2 pol = 3,9 mm como na tabela — conferir"}
+   ]},
+  {"titulo": "Componentes", "item": "6",
+   "texto": "Tubos conforme Anexo E; curvas a frio, em gomos, forjadas e por indução; reduções; tês, derivações extrudadas e boca-de-lobo; tampos e flanges.",
+   "valores": [
+    {"parametro": "Curvamento a frio — D 323,9 mm (12 pol)", "valor": "9,8°/m; raio mín. 18D", "item": "Tab. 4"},
+    {"parametro": "Curvamento a frio — 355,6 / 406,4 / 457,2 / 508 mm", "valor": "raio mín. 21D / 24D / 27D / 30D", "item": "Tab. 4"}
+   ]},
+  {"titulo": "Teste hidrostático e PMOA", "item": "8",
+   "texto": "Todo duto passa por teste de resistência mecânica e de estanqueidade antes de operar; bases, terminais, píeres e estações têm teste simplificado. A pressão de teste não pode exceder a admissível de nenhum componente. A PMOA é a pressão de teste dividida pelo fator de teste, limitada à pressão de projeto.",
+   "valores": [
+    {"parametro": "Resistência — mínima cat. I / cat. II", "valor": "1,25 × PMO / 1,5 × PMO", "item": "Tab. 6"},
+    {"parametro": "Resistência — máxima", "valor": "pressão que gera 100 % da SMYS no ponto mais baixo", "item": "Tab. 6", "nota": "respeitar 0,2 % de desvio (ou 2V) no gráfico P × V"},
+    {"parametro": "Estanqueidade — mínima / máxima", "valor": "1,1 × PMO / 90 % da SMYS", "item": "Tab. 6"},
+    {"parametro": "PMOA — cat. I / cat. II", "valor": "menor de (P mín. de resistência ÷ 1,25 ou ÷ 1,5) e pressão de projeto", "item": "Tab. 6"},
+    {"parametro": "Instalações de 1.3 e) f) — teste / estanqueidade de trechos enterrados", "valor": "≥ 1,5 × PMO / ≥ 1,1 × PMO", "item": "8.2.3"},
+    {"parametro": "Correção por sobreespessura de corrosão", "valor": "Pteste × (enom + A)/enom", "item": "Tab. 6, Nota 2"}
+   ]},
+  {"titulo": "Flexibilidade, tensões, suportes e corrosão", "item": "9–12",
+   "texto": "Análise de flexibilidade e cálculo de tensões (circunferencial, longitudinal, equivalente) para dutos aéreos e enterrados, com dilatação entre temperatura de montagem e de operação; projeto de suportes; proteção externa por revestimento anticorrosivo mais proteção catódica (ISO 15589-1). Construção e montagem (cruzamentos, travessias) complementadas pela Parte 2.",
+   "valores": []}
+ ]
+}

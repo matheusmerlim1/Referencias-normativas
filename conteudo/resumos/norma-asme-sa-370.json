@@ -1,0 +1,57 @@
+{
+ "id": "ASME-SA-370",
+ "titulo": "SA-370 — Métodos de ensaio e definições para ensaios mecânicos de produtos de aço",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimentos e definições dos ensaios mecânicos de aços forjados/laminados e fundidos, inoxidáveis e ligas afins (tração, dobramento, dureza Brinell/Rockwell/portátil, Charpy V), usados pelas especificações de produto. Anexos tratam de barras, tubos, fixadores, fios e arredondamento de resultados."
+  },
+  {
+   "titulo": "Tração",
+   "item": "5 a 13",
+   "texto": "Corpos de prova chatos ou redondos (padrão 0,500 in de diâmetro, comprimento de medida 4D) medidos com precisão definida; limite de escoamento pelo patamar, pelo método do desvio (offset) ou da extensão sob carga; alongamento e redução de área pelas marcas de medida.",
+   "valores": [
+    {
+     "parametro": "Precisão do diâmetro do corpo redondo",
+     "valor": "0,001 in (0,025 mm)",
+     "item": "8.5"
+    },
+    {
+     "parametro": "Fatores para diâmetros não padronizados",
+     "valor": "Tabela 1",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dureza",
+   "item": "15 a 18",
+   "texto": "Brinell (esfera de 10 mm, 3000 kgf para aço), Rockwell (escalas B e C) e, quando o equipamento fixo não cabe, durômetro portátil (A833 / E110). Tabelas de conversão aproximada para aços não austeníticos e austeníticos.",
+   "valores": [
+    {
+     "parametro": "Conversões de dureza",
+     "valor": "Tabelas 2 a 5",
+     "item": "Tabelas 2–5"
+    }
+   ]
+  },
+  {
+   "titulo": "Charpy V",
+   "item": "19 a 27",
+   "texto": "Pêndulo rompe o corpo entalhado com um golpe; mede-se energia absorvida, expansão lateral e porcentagem de fratura por cisalhamento. Corpos reduzidos têm critérios de aceitação proporcionais.",
+   "valores": [
+    {
+     "parametro": "Tempo mín. na temperatura de ensaio — meio líquido / gasoso",
+     "valor": "5 min / 30 min",
+     "item": "25.1.1"
+    },
+    {
+     "parametro": "Critério reduzido — exemplo de linha da Tabela 9",
+     "valor": "10×10: 40 ft·lbf [54 J] → 3/4: 30 [41] → 2/3: 27 [37] → 1/2: 20 [27] → 1/3: 13 [18] → 1/4: 10 [14]",
+     "item": "Tabela 9"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "id": "ASME-SA-572",
+ "titulo": "SA-572 — Aço estrutural ARBL ao nióbio-vanádio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Perfis, chapas, estacas-prancha e barras de aço de alta resistência e baixa liga (Nb-V) em cinco graus. Graus 42, 50 e 55 para estruturas rebitadas, parafusadas ou soldadas; 60 e 65 para pontes rebitadas ou parafusadas e outras estruturas soldadas. Requisitos gerais pela SA-6."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4",
+   "texto": "Aço semiacalmado ou acalmado."
+  },
+  {
+   "titulo": "Espessuras máximas",
+   "item": "Tabela 1",
+   "texto": "Chapas e barras:",
+   "valores": [
+    {
+     "parametro": "Grau 42 [290]",
+     "valor": "6 in [150 mm]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 50 [345]",
+     "valor": "4 in [100 mm]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau 55 [380]",
+     "valor": "2 in [50 mm]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Graus 60 [415] e 65 [450]",
+     "valor": "1 1/4 in [32 mm]",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabelas 2 e 3",
+   "texto": "C, Mn, P, S, Si e elementos de microliga (Nb, V, N) por grau e espessura; ver tabelas da especificação."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 4",
+   "texto": "Limite de escoamento mín. / Su mín. / alongamento mín. em 200 mm / 50 mm.",
+   "valores": [
+    {
+     "parametro": "Grau 42",
+     "valor": "42 ksi [290] / 60 ksi [415] / 20 % / 24 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Grau 50",
+     "valor": "50 ksi [345] / 65 ksi [450] / 18 % / 21 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Grau 55",
+     "valor": "55 ksi [380] / 70 ksi [485] / 17 % / 20 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Grau 60",
+     "valor": "60 ksi [415] / 75 ksi [520] / 16 % / 18 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Grau 65",
+     "valor": "65 ksi [450] / 80 ksi [550] / 15 % / 17 %",
+     "item": "Tabela 4"
+    }
+   ]
+  }
+ ]
+}

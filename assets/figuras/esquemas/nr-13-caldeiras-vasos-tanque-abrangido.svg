@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" role="img" aria-label="Tanque metálico de armazenamento abrangido pela NR-13 (13.2.1 f)">
+<title>Tanque metálico de armazenamento abrangido pela NR-13 (13.2.1 f) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Tanque metálico de armazenamento abrangido pela NR-13 (13.2.1 f)</text>
+<rect class="s" x="140" y="150" width="320" height="200"/>
+<path class="s" d="M140,150 Q300,110 460,150"/>
+<line class="g" x1="60" y1="350" x2="560" y2="350"/>
+<rect class="sl" x="60" y="350" width="500" height="12"/>
+<g id="cota-D-tanque" class="cota"><line class="e" x1="140" y1="147" x2="140" y2="84"/><line class="e" x1="460" y1="147" x2="460" y2="84"/><line class="d" x1="140" y1="90" x2="460" y2="90" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="300" y="83">Ø externo</text></g>
+<g id="cota-capacidade" class="cota"><text class="m" x="300" y="260">capacidade nominal (volume)</text></g>
+<text class="n m" x="300" y="290">fluido classe A ou B</text>
+<text class="n" x="60" y="395">de superfície, não enterrado, fundo apoiado no solo</text>
+<text class="b" x="590" y="140">Não se enquadram (Perg. e Resp.):</text>
+<text class="n" x="600" y="170">• não metálicos</text>
+<text class="n" x="600" y="192">• fluidos classe C ou D</text>
+<text class="n" x="600" y="214">• enterrados</text>
+<text class="n" x="600" y="236">• de embarcações e plataformas marítimas</text>
+<text class="n" x="600" y="258">• suspensos por pernas</text>
+<text class="n" x="600" y="280">• instalados em plataformas</text>
+<text class="n" x="600" y="302">• de produtos intermediários de processo</text>
+<text class="n" x="20" y="448">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

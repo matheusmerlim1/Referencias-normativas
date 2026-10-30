@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" width="860" height="420" role="img" aria-label="IMCA M179 2.2 e Tabela 1 — medição do comprimento L1 da linga cable-laid sobre pinos">
+<title>IMCA M179 2.2 e Tabela 1 — medição do comprimento L1 da linga cable-laid sobre pinos</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2;stroke-linejoin:round}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2.2;stroke-linejoin:round}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2.4}
+  .w{fill:none;stroke:#8a6d3b;stroke-width:9;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:.55}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:1}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .p{font-size:14px}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+<text class="t" x="430" y="30" text-anchor="middle">Medição do comprimento nominal L1 sobre pinos (vista de cima)</text>
+<!-- olhal esquerdo em volta do pino -->
+<path class="w" d="M300,170 C260,150 220,135 170,135 A50,50 0 0 0 170,235 C220,235 260,220 300,200"/>
+<!-- corpo da linga -->
+<line class="w" x1="300" y1="185" x2="560" y2="185"/>
+<!-- olhal direito -->
+<path class="w" d="M560,170 C600,150 640,135 690,135 A50,50 0 0 1 690,235 C640,235 600,220 560,200"/>
+<!-- pinos -->
+<circle class="s" cx="170" cy="185" r="42"/>
+<circle class="s" cx="690" cy="185" r="42"/>
+<line class="c" x1="110" y1="185" x2="230" y2="185"/>
+<line class="c" x1="630" y1="185" x2="750" y2="185"/>
+<!-- Ø do pino -->
+<g id="cota-pino" class="cota"><line class="e" x1="170" y1="143" x2="85" y2="143"/><line class="e" x1="170" y1="227" x2="85" y2="227"/><line class="d" x1="92" y1="143" x2="92" y2="227" marker-start="url(#a)" marker-end="url(#a)"/><text class="p b" x="80" y="190" text-anchor="end">Ø pino</text></g>
+<!-- L1 entre pontos de apoio (lado interno dos olhais sobre os pinos) -->
+<g id="cota-L1" class="cota"><line class="e" x1="128" y1="185" x2="128" y2="285"/><line class="e" x1="732" y1="185" x2="732" y2="285"/><line class="d" x1="128" y1="278" x2="732" y2="278" marker-start="url(#a)" marker-end="url(#a)"/><text class="p b" x="430" y="270" text-anchor="middle">L1 — entre os lados internos dos olhais, nos pontos de apoio sobre os pinos</text></g>
+<!-- tração -->
+<line class="d" x1="560" y1="110" x2="680" y2="110" marker-end="url(#a)"/>
+<line class="d" x1="300" y1="110" x2="180" y2="110" marker-end="url(#a)"/>
+<text class="p" x="430" y="115" text-anchor="middle">tração de 3 % da CRBL</text>
+<!-- d -->
+<g id="cota-d" class="cota"><text class="p" x="430" y="172" text-anchor="middle">d (Ø da linga)</text></g>
+<text class="n" x="40" y="322" text-anchor="start">• Ø do pino conforme a Tabela 1, em função do Ø do cabo cable-laid (100–150 mm → 250 mm … 376–500 mm → 1 000 mm).</text>
+<text class="n" x="40" y="345" text-anchor="start">• Tolerância de fabricação no comprimento: ±1,5 d; pares casados: diferença ≤ 0,5 d (salvo especificação contrária).</text>
+<text class="n" x="40" y="368" text-anchor="start">• Medição em outras condições: o cliente especifica no pedido e o certificado de conformidade dimensional (Apêndice 3A) registra.</text>
+<text x="850" y="410" text-anchor="end" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-style:italic;font-weight:normal;fill:#333;stroke:#fff;stroke-width:3px;paint-order:stroke;stroke-linejoin:round">Esquema ilustrativo, fora de escala (não é desenho da norma) — valores transcritos da ficha</text>
+</svg>

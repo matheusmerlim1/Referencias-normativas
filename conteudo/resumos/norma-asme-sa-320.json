@@ -1,0 +1,109 @@
+{
+ "id": "ASME-SA-320",
+ "titulo": "SA-320 — Parafusos e estojos de aço liga para baixa temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Material para parafusaria (barras, parafusos, estojos) de aço liga ferrítico e inoxidável austenítico para vasos, válvulas, flanges e conexões em baixa temperatura. Barras trabalhadas a quente; austeníticos solubilizados ou solubilizados e encruados (ver Apêndice X1)."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "4.3",
+   "texto": "Graus ferríticos (L7, L7A, L7B, L7C, L7M, L43, L1, L70–L73) aquecidos acima da temperatura crítica superior, temperados em líquido e revenidos.",
+   "valores": [
+    {
+     "parametro": "Revenimento mín. L7M",
+     "valor": "1150 °F [620 °C]",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 3",
+   "texto": "Famílias: L7/L7M/L70 = Cr-Mo (AISI 4140/4142/4145); L7A/L71 = C-Mo (4037); L7B/L72 = Cr-Mo (4137); L7C/L73 = Ni-Cr-Mo (8740); L43 = Ni-Cr-Mo (4340); L1 = baixo C ao boro.",
+   "valores": [
+    {
+     "parametro": "L7 — C / Mn",
+     "valor": "0,38–0,48 % / 0,75–1,00 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "L43 — C / Mn",
+     "valor": "0,38–0,43 % / 0,60–0,85 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "L1 — C / Mn",
+     "valor": "0,17–0,24 % / 0,70–1,40 %",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1",
+   "texto": "Su mín. / Sy mín. / alongamento / redução de área.",
+   "valores": [
+    {
+     "parametro": "L7, L7A, L7B, L7C, L70–L73 (até 2 1/2 in [65 mm])",
+     "valor": "125 ksi [860] / 105 ksi [725] / 16 % / 50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "L43 (até 4 in [100 mm])",
+     "valor": "125 ksi [860] / 105 ksi [725] / 16 % / 50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "L7M (até 2 1/2 in)",
+     "valor": "100 ksi [690] / 80 ksi [550] / 18 % / 50 %; dureza máx. 235 HB ou 99 HRB",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "L1 (até 1 in [25 mm])",
+     "valor": "125 ksi [860] / 105 ksi [725] / 16 % / 50 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio de impacto",
+   "item": "6, Tabelas 2 e 4",
+   "texto": "Charpy V obrigatório nos ferríticos: um ensaio de tração e um de impacto (3 corpos de prova) por diâmetro, corrida e carga de revenimento.",
+   "valores": [
+    {
+     "parametro": "Energia média mín. (10×10, exceto L1)",
+     "valor": "20 ft·lbf [27 J]; individual mín. 15 ft·lbf [20 J]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Energia média mín. L1 (10×10)",
+     "valor": "40 ft·lbf [54 J]; individual 30 ft·lbf [41 J]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Temperatura de ensaio recomendada — L7, L7A, L7B, L7C, L43",
+     "valor": "−150 °F [−101 °C]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "— L7M, L70–L73, L1",
+     "valor": "−100 °F [−73 °C]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Carga em tratamento contínuo",
+     "valor": "6000 lb [2700 kg]",
+     "item": "6.1.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Porcas, roscas e marcação",
+   "item": "9, 10, 14",
+   "texto": "Parafusos e estojos ferríticos recebem porcas de aço liga compatíveis (SA-194). Roscas ANSI B1.1 classe 2A. Grau e símbolo do fabricante marcados na ponta de estojos ≥ 3/8 in [10 mm] e na cabeça dos parafusos."
+  }
+ ]
+}

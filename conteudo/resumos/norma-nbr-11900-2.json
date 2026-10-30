@@ -1,0 +1,85 @@
+{
+ "id": "NBR-11900-2",
+ "titulo": "ABNT NBR 11900-2:2019 — Terminais para cabo de aço: soquete tipo cunha",
+ "secoes": [
+  {
+   "titulo": "Construção",
+   "item": "4",
+   "texto": "A parte viva do cabo fica alinhada com o pino e perpendicular a ele. Ângulos da cunha e do corpo quase iguais, contato da cunha longo em relação ao cabo, pino com contrapino.",
+   "valores": [
+    {
+     "parametro": "Diferença entre ângulos da cunha e do corpo",
+     "valor": "≤ 2",
+     "item": "4.1",
+     "cota": "esquemas/lingadas-acessorios-soquete-cunha.svg#alfa"
+    },
+    {
+     "parametro": "Contato cunha–corpo P",
+     "valor": "≥ 4,3 × Ø do cabo",
+     "item": "4.1",
+     "cota": "esquemas/lingadas-acessorios-soquete-cunha.svg#P"
+    }
+   ]
+  },
+  {
+   "titulo": "Desempenho",
+   "item": "5",
+   "texto": "A cunha não pode escorregar logo após assentar; sob carga de prova o corpo e o pino quase não se deformam e o pino continua girando; resiste a muitos ciclos de fadiga; a eficiência e a tenacidade a frio têm mínimos.",
+   "valores": [
+    {
+     "parametro": "Escorregamento após assentar",
+     "valor": "nenhum em 2 min",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Deformação sob prova",
+     "valor": "≤ 2 % em qualquer dimensão",
+     "item": "5.2"
+    },
+    {
+     "parametro": "Fadiga",
+     "valor": "75 000 ciclos sem trinca",
+     "item": "5.3"
+    },
+    {
+     "parametro": "Eficiência",
+     "valor": "≥ 80 % da CRM do cabo",
+     "item": "5.4"
+    },
+    {
+     "parametro": "Charpy a −20 °C — aço (média/individual)",
+     "valor": "≥ 27 J / ≥ 18 J",
+     "item": "5.5"
+    },
+    {
+     "parametro": "Charpy a −20 °C — ferro nodular",
+     "valor": "≥ 12 J / ≥ 9 J",
+     "item": "5.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio de tipo e marcação",
+   "item": "6–7",
+   "texto": "Duas amostras por tamanho, no cabo mais resistente, na ordem: segurança da cunha, deformação, fadiga e eficiência. Corpo e cunha marcados com fabricante, faixa de tamanho e lote.",
+   "valores": []
+  },
+  {
+   "titulo": "Montagem, uso e inspeção",
+   "item": "Anexo C",
+   "texto": "Não misturar corpo e cunha de origens diferentes; reaproveitar só cortando o cabo; assentar a cunha com carga antes do serviço; prender a cauda com grampo pesado ou amarração. Inspecionar com o cabo; peça danificada → trocar o soquete.",
+   "valores": [
+    {
+     "parametro": "Carga de assentamento",
+     "valor": "≈ 10 % da CRM do cabo",
+     "item": "C.2"
+    },
+    {
+     "parametro": "Medida X da cauda",
+     "valor": "≤ 75 % do comprimento da cunha",
+     "item": "C.2"
+    }
+   ]
+  }
+ ]
+}

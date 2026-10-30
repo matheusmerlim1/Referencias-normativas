@@ -1,0 +1,57 @@
+{
+ "id": "ISO-1302",
+ "titulo": "ISO 1302:2002 — Especificações geométricas do produto (GPS) — Indicação da textura superficial em documentação técnica",
+ "secoes": [
+  {
+   "titulo": "Escopo e símbolos",
+   "item": "1–4",
+   "texto": "Regras de indicação da textura superficial em desenhos por símbolos gráficos e textos: símbolo básico (dois traços desiguais a 60°), símbolos expandidos (remoção de material exigida; ou proibida — com círculo), símbolo completo (com traço longo para requisitos) e símbolo 'todas as superfícies em volta do contorno' (círculo no vértice).",
+   "valores": []
+  },
+  {
+   "titulo": "Composição do símbolo completo",
+   "item": "5",
+   "texto": "Posições a–e em volta do símbolo: parâmetro e valor (a, b), processo de fabricação (c), direção das estrias/lay (d) e sobremetal de usinagem (e).",
+   "valores": []
+  },
+  {
+   "titulo": "Parâmetros e limites",
+   "item": "6",
+   "texto": "Parâmetro de perfil (R, W, P — ISO 4287), de motivo (ISO 12085) ou da curva de razão material (ISO 13565), comprimento de avaliação, banda de transmissão (filtros λs–λc), limites superior (U) e inferior (L), tolerância unilateral ou bilateral.",
+   "valores": [
+    {
+     "parametro": "Regra padrão de aceitação",
+     "valor": "'regra dos 16 %'",
+     "item": "6.4"
+    },
+    {
+     "parametro": "Regra alternativa",
+     "valor": "'regra do máximo' (max) — indicada por \"max\" no parâmetro",
+     "item": "6.4"
+    },
+    {
+     "parametro": "λs padrão quando não indicado",
+     "valor": "0,008 mm",
+     "item": "6.5"
+    },
+    {
+     "parametro": "Comprimento de avaliação padrão",
+     "valor": "5 comprimentos de amostragem (ISO 4288); se diferente, indicar junto ao parâmetro",
+     "item": "6.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Processo, estrias e sobremetal",
+   "item": "7–9",
+   "texto": "Indicação do processo de fabricação ou tratamento, símbolos de direção das estrias e sobremetal de usinagem.",
+   "valores": []
+  },
+  {
+   "titulo": "Posição no desenho",
+   "item": "10–11",
+   "texto": "Indicações simplificadas e resumidas (requisito geral na legenda com exceções entre parênteses), símbolo lido da base ou da direita, sobre a superfície, linha de chamada, linha de cota ou quadro de tolerância geométrica.",
+   "valores": []
+  }
+ ]
+}

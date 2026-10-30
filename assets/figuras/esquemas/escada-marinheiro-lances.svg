@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" aria-label="Escada marinheiro — altura do lance, plataformas de descanso e lances paralelos">
+<title>Escada marinheiro — altura do lance, plataformas de descanso e lances paralelos</title>
+<defs><pattern id="hz" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+<text x="12" y="22" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Escada marinheiro — altura do lance, plataformas de descanso e lances paralelos</text>
+<rect x="30" y="500" width="390" height="10" rx="0" fill="url(#hz)" stroke="#666" stroke-width="1.2"/>
+<line x1="30" y1="500" x2="420" y2="500" stroke="#666" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="110" y1="500" x2="110" y2="210" stroke="#666" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="150" y1="500" x2="150" y2="210" stroke="#666" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="110" y1="470" x2="150" y2="470" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="110" y1="440" x2="150" y2="440" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="110" y1="410" x2="150" y2="410" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="110" y1="380" x2="150" y2="380" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="110" y1="350" x2="150" y2="350" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="110" y1="320" x2="150" y2="320" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="110" y1="290" x2="150" y2="290" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="110" y1="260" x2="150" y2="260" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="110" y1="230" x2="150" y2="230" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<rect x="90" y="270" width="230" height="10" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<text x="245" y="296" text-anchor="middle" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">plataforma de descanso</text>
+<line x1="210" y1="270" x2="210" y2="70" stroke="#666" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="250" y1="270" x2="250" y2="70" stroke="#666" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="210" y1="240" x2="250" y2="240" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="210" y1="210" x2="250" y2="210" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="210" y1="180" x2="250" y2="180" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="210" y1="150" x2="250" y2="150" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="210" y1="120" x2="250" y2="120" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="210" y1="90" x2="250" y2="90" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="290" y1="90" x2="400" y2="90" stroke="#666" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="105" y1="500" x2="54" y2="500" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="105" y1="270" x2="54" y2="270" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="60" y1="500" x2="60" y2="270" stroke="#666" stroke-width="1.2" fill="none"/>
+<polygon points="60.0,270.0 63.5,279.0 56.5,279.0" fill="#666"/>
+<polygon points="60.0,500.0 56.5,491.0 63.5,491.0" fill="#666"/>
+<text x="54" y="389.0" text-anchor="end" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">h₁</text>
+<line x1="255" y1="270" x2="336" y2="270" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="255" y1="90" x2="336" y2="90" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="330" y1="270" x2="330" y2="90" stroke="#666" stroke-width="1.2" fill="none"/>
+<polygon points="330.0,90.0 333.5,99.0 326.5,99.0" fill="#666"/>
+<polygon points="330.0,270.0 326.5,261.0 333.5,261.0" fill="#666"/>
+<text x="336" y="184.0" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">h₂</text>
+<line x1="130" y1="210" x2="130" y2="184" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="230" y1="210" x2="230" y2="184" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="130" y1="190" x2="230" y2="190" stroke="#666" stroke-width="1.2" fill="none"/>
+<polygon points="230.0,190.0 221.0,193.5 221.0,186.5" fill="#666"/>
+<polygon points="130.0,190.0 139.0,186.5 139.0,193.5" fill="#666"/>
+<text x="180.0" y="184" text-anchor="middle" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">e</text>
+<text x="450" y="60" text-anchor="start" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">h₁, h₂ — altura máxima entre plataformas de descanso:</text>
+<text x="450" y="78" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">NR-12 e NR-18: 6,00 m (lance único ≤ 10,00 m)</text>
+<text x="450" y="96" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">NR-35: &gt; 10,00 m exige plataformas; no máx. 6,00 m</text>
+<text x="450" y="114" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">      entre elas (projetadas lateralmente ou basculantes)</text>
+<text x="450" y="132" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">NR-34 (escada ≥ 6 m): um patamar a cada lance de 9 m</text>
+<text x="450" y="150" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ABS: ≤ 6,0 m sem plataforma intermediária</text>
+<text x="450" y="168" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ASTM F1166: lance contínuo ≤ 9,14 m</text>
+<text x="450" y="186" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Peregrino II (desenho Equinor): lance único 9000 mm;</text>
+<text x="450" y="204" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">      com plataforma intermediária, 6000 mm</text>
+<text x="450" y="222" text-anchor="start" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">e — distância entre eixos de lances paralelos:</text>
+<text x="450" y="240" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">NR-12: ≥ 0,70 m; NR-18: ≥ 0,7 m</text>
+<text x="450" y="258" text-anchor="start" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Plataforma de descanso:</text>
+<text x="450" y="276" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">NR-18: mínimo 0,6 m × 0,6 m, com proteção contra quedas</text>
+<text x="450" y="294" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ABS: largura ≥ 925 mm; profundidade ≥ 750 mm;</text>
+<text x="450" y="312" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">      separação escada–plataforma 150 a 300 mm</text>
+<text x="450" y="330" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ASTM: área ≥ 762 mm à frente e ≥ 457 mm de cada lado</text>
+<text x="450" y="348" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">      do eixo; borda do montante à plataforma ≤ 305 mm</text>
+<text x="450" y="366" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">      (pref. 152 mm); entre escadas ≤ 457 mm</text>
+<text x="12" y="552" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo, sem escala — não é desenho da norma. Valores transcritos dos requisitos da ficha.</text>
+</svg>

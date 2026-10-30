@@ -1,0 +1,22 @@
+{
+ "id": "NBR-6146",
+ "titulo": "ABNT NBR 6146:1980 — Invólucros de equipamentos elétricos — Proteção",
+ "secoes": [
+  {"titulo": "Objetivo e limites", "item": "1",
+   "texto": "Edição antiga do sistema de graus de proteção IP para invólucros de equipamentos elétricos, com ensaios de tipo: proteção de pessoas contra partes vivas e móveis internas, entrada de sólidos e entrada prejudicial de água. Não trata de danos mecânicos, explosão, condensação, corrosão, fungos ou insetos; cercas e guarda-corpos externos não contam como invólucro. Cancelou as NBR 5374, 5408 e 5423.",
+   "valores": [
+    {"parametro": "Tensão nominal máxima abrangida", "valor": "72,5 kV", "item": "1.1"}
+   ]},
+  {"titulo": "Designação", "item": "2",
+   "texto": "IP + dois numerais (sólidos/contato e água). Se só um é exigido, o outro vira X (IPX5, IP2X). Letras suplementares, se a norma do equipamento permitir: S = ensaio de água com o equipamento parado; M = em funcionamento; W (logo após IP) = para condições atmosféricas específicas com medidas extras. Sem S/M, o grau vale em todas as condições normais. Se a montagem influir no grau, o fabricante informa no manual.",
+   "valores": []},
+  {"titulo": "Numerais característicos", "item": "3–4, Anexo A",
+   "texto": "O 1º numeral (Tab. 1 do Anexo A) lista os objetos que não podem penetrar (partes do corpo, ferramentas, fios) e o tamanho mínimo dos sólidos; o 2º (Tab. 2) o tipo de água suportado. Atender a um grau dispensa ensaiar os inferiores.",
+   "valores": [
+    {"parametro": "Exemplos de descrição", "valor": "sólidos de menor dimensão > 1,0 mm com projeções d'água; sólidos > 12 mm com aspersão (chuva), ensaio em repouso", "item": "2.3"}
+   ]},
+  {"titulo": "Marcação e ensaios", "item": "5–6",
+   "texto": "Marcação do código IP e requisitos gerais e específicos dos ensaios de tipo para cada numeral.",
+   "valores": []}
+ ]
+}

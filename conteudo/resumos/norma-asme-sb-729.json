@@ -1,0 +1,55 @@
+{
+ "id": "ASME-SB-729",
+ "titulo": "SB-729 — Tubos sem costura de ligas N08020, N08024 e N08026 (Alloy 20)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe e tube) sem costura, trabalhados a frio ou acabados a quente, das ligas N08020, N08026 e N08024 para serviço corrosivo geral; fornecidos recozidos."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Ligas da família 'Alloy 20'.",
+   "valores": [
+    {
+     "parametro": "N08020 — Ni / Cr / Mo",
+     "valor": "32,00–38,00 % / 19,00–21,00 % / 2,00–3,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N08020 — C máx.",
+     "valor": "0,07 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N08024 — Ni / Cr / Mo",
+     "valor": "35,00–40,00 % / 22,50–25,00 % / 3,50–5,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N08026 — Ni / Cr / Mo",
+     "valor": "33,00–37,20 % / 22,00–26,00 % / 5,00–6,70 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su mín. / Sy mín.",
+     "valor": "80 ksi (550) / 35 ksi (240)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín.",
+     "valor": "30,0 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

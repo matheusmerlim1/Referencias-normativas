@@ -1,0 +1,48 @@
+{
+ "id": "DIN-3961",
+ "titulo": "DIN 3961:1978 — Tolerâncias de dentes de engrenagens cilíndricas — Fundamentos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1.3",
+   "texto": "Base do sistema de tolerâncias de engrenagens cilíndricas evolventes até diâmetro de referência de 10 000 mm, válida para qualquer ângulo de pressão; vale também para cremalheiras com adaptação.",
+   "valores": [
+    {
+     "parametro": "Diâmetro de referência máximo",
+     "valor": "10 000 mm",
+     "item": "1.3"
+    },
+    {
+     "parametro": "Qualidades de dentado",
+     "valor": "12 (1 a 12)",
+     "item": "1.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Estrutura",
+   "item": "3",
+   "texto": "Tolerâncias de parâmetros individuais (perfil, passo, linha de flanco, batimento — DIN 3962), de engrenamento (DIN 3963), de folga pelo sistema de espessura do dente (DIN 3967) e da carcaça (DIN 3964). Valores calculados por fórmulas em função de módulo e diâmetro, escalonados por qualidade e arredondados a números preferenciais.",
+   "valores": [
+    {
+     "parametro": "Fator de escalonamento entre qualidades",
+     "valor": "≈ 1,4 até a qualidade 9; ≈ 1,6 a partir dela",
+     "item": "3.4",
+     "nota": "cópia OCR — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Famílias de tolerância e ensaios",
+   "item": "4–5",
+   "texto": "As tolerâncias podem ser combinadas em famílias (qualidades diferentes por parâmetro) conforme a função; grupos de ensaio A, B e C definem o que medir.",
+   "valores": []
+  },
+  {
+   "titulo": "Disposições adicionais",
+   "item": "6",
+   "texto": "Forma do perfil, linha de flanco (com abaulamento), ensaio de engrenamento para qualidades finas e desvios de passo sobre setores.",
+   "valores": []
+  }
+ ]
+}

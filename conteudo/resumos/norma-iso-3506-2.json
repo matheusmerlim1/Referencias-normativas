@@ -1,0 +1,64 @@
+{
+ "id": "ISO-3506-2",
+ "titulo": "ISO 3506-2:2009 — Propriedades mecânicas de fixadores de aço inoxidável — Parte 2: Porcas",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Propriedades mecânicas de porcas de inox austenítico, martensítico e ferrítico ensaiadas entre 10 °C e 35 °C (as propriedades mudam fora dessa faixa).",
+   "valores": [
+    {
+     "parametro": "Abrangência",
+     "valor": "D ≤ 39 mm; rosca métrica ISO (ISO 68-1, 261, 262); qualquer forma; abertura conforme ISO 272; altura m ≥ 0,5D",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação, marcação e acabamento",
+   "item": "4",
+   "texto": "Dois blocos separados por hífen: grupo do aço (A austenítico, C martensítico, F ferrítico + algarismo da composição) e classe de propriedade. Porca com m ≥ 0,8D: dois algarismos = 1/10 da tensão de prova em MPa; porca baixa (0,5D ≤ m < 0,8D): três algarismos começando por 0. 'L' indica baixo carbono; 'P' passivada (ISO 16048). Marcação por símbolo ou ranhuras; sem classe indicada vale 50 ou 025.",
+   "valores": [
+    {
+     "parametro": "A2-70",
+     "valor": "austenítico encruado, tensão de prova ≥ 700 MPa (m ≥ 0,8D)",
+     "item": "4.1"
+    },
+    {
+     "parametro": "C4-70",
+     "valor": "martensítico temperado e revenido, ≥ 700 MPa",
+     "item": "4.1"
+    },
+    {
+     "parametro": "A2-035",
+     "valor": "austenítico, porca baixa, ≥ 350 MPa",
+     "item": "4.1"
+    },
+    {
+     "parametro": "Marcação por ranhuras sem classe",
+     "valor": "classe 50 ou 025",
+     "item": "4.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição e propriedades",
+   "item": "5–6",
+   "texto": "Composição química por grupo de aço e tabelas de tensão de prova e dureza por classe (austeníticos 50/70/80, martensíticos e ferríticos), para porcas normais e baixas. Porcas que não atingem a carga de prova por rosca fina ou geometria recebem marcação própria.",
+   "valores": [
+    {
+     "parametro": "Tensões de prova e durezas por classe",
+     "valor": "Tabelas da seção 6",
+     "item": "6",
+     "nota": "valores não legíveis no texto extraído — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "7",
+   "texto": "Dureza (HB, HRC ou HV) e carga de prova com mandril roscado.",
+   "valores": []
+  }
+ ]
+}

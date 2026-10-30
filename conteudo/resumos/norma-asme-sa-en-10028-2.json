@@ -1,0 +1,23 @@
+{
+ "id": "ASME-SA-EN-10028-2",
+ "titulo": "SA/EN 10028-2 — Produtos planos de aço para fins de pressão: aços não ligados e ligados com propriedades em temperatura elevada",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "Capa ASME",
+   "texto": "Especificação estrangeira adotada pela ASME (Seção II Parte A) idêntica à BS EN 10028-2:1993, com os requisitos adicionais da folha de rosto; nenhuma outra edição é aprovada para uso ASME. O texto da norma de origem não está reproduzido no volume do acervo."
+  },
+  {
+   "titulo": "Requisitos adicionais ASME",
+   "item": "Capa ASME",
+   "texto": "Produtos identificados com a designação SA/EN. Material com o tratamento térmico completo (8.2.1 ou 8.2.2) marcado 'MT' por quem o fez; chapas não tratadas, qualificadas por corpos de prova tratados (8.2.3), marcadas 'G'. Propriedades acima de 150 mm iguais às de 100–150 mm.",
+   "valores": [
+    {
+     "parametro": "Propriedades para espessura > 150 mm",
+     "valor": "iguais às da faixa 100–150 mm (Tabela 3)",
+     "item": "Capa, item 2"
+    }
+   ]
+  }
+ ]
+}

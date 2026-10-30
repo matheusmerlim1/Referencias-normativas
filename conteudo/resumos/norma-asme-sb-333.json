@@ -1,0 +1,55 @@
+{
+ "id": "ASME-SB-333",
+ "titulo": "SB-333 — Chapas, folhas e tiras de ligas níquel-molibdênio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras de ligas Ni-Mo (N10001, N10665, N10675, N10629) para serviço corrosivo geral; laminadas a quente ou a frio, solubilizadas e decapadas (ou recozidas em atmosfera brilhante)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Ligas níquel-molibdênio (família 'Hastelloy B').",
+   "valores": [
+    {
+     "parametro": "N10001 — Mo / Fe / C máx.",
+     "valor": "26,0–30,0 % / 4,0–6,0 % / 0,05 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N10665 — Mo / Fe máx. / C máx.",
+     "valor": "26,0–30,0 % / 2,0 % / 0,02 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N10675 — Ni mín. / Mo / Cr",
+     "valor": "65,0 % / 27,0–32,0 % / 1,0–3,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N10629 — Mo / Cr / C máx.",
+     "valor": "26,0–30,0 % / 0,5–1,5 % / 0,01 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Folhas e tiras abaixo de 3/16 in (4,76 mm) — Su mín. / Sy mín. / alongamento / dureza máx.",
+   "valores": [
+    {
+     "parametro": "N10001",
+     "valor": "115 000 psi (795) / 50 000 psi (345) / 45 % / 100 HRB",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "N10665 e N10675",
+     "valor": "110 000 psi (760) / 51 000 psi (350) / 40 % / 100 HRB",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "ASME-SA-815",
+ "titulo": "SA-815 — Conexões de aço inoxidável ferrítico, duplex e martensítico para tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Conexões forjadas/conformadas de aço inoxidável ferrítico, ferrítico/austenítico (duplex) e martensítico, sem costura ou soldadas, classes WP (ANSI B16.9, B16.11, B16.28, MSS SP-79) e CR (MSS SP-43)."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4, 5",
+   "texto": "Matéria-prima: forjados, barras, chapas, tubos com ou sem costura; aço de forno elétrico ou a vácuo. Conformação sem descontinuidades superficiais acima de 5 % da espessura nominal.",
+   "valores": [
+    {
+     "parametro": "Profundidade máx. de descontinuidade da conformação",
+     "valor": "5 % da espessura",
+     "item": "5.1",
+     "nota": "conferir: frase truncada na extração"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "6",
+   "texto": "Ferríticos: reaquecidos e resfriados conforme o grau. Duplex: solubilização e resfriamento rápido.",
+   "valores": [
+    {
+     "parametro": "Ferríticos — temperatura mín.",
+     "valor": "1200 °F [650 °C]",
+     "item": "6.1"
+    },
+    {
+     "parametro": "S31803 e S32205",
+     "valor": "1870 a 2010 °F [1020 a 1100 °C], têmpera em água",
+     "item": "6.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Sy mín. / Su / alongamento mín. / dureza máx.",
+   "valores": [
+    {
+     "parametro": "WP430",
+     "valor": "35 ksi [240] / 65–90 ksi [450–620] / 20,0 % / 190 HB",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "WP446",
+     "valor": "40 ksi [275] / 70–95 ksi [485–655] / 18,0 % / 207 HB",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "S31803, S32205",
+     "valor": "65 ksi [450] / 90 ksi [620] / 20,0 % / 290 HB",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "S32750 (super duplex)",
+     "valor": "80 ksi [550] / 116–140 ksi [800–965] / 15,0 % / 310 HB",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "S32760",
+     "valor": "80 ksi [550] / 109–130 ksi [750–895] / 25,0 % / 270 HB",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "8, 12, 17",
+   "texto": "Pelo menos uma tração por corrida (incluindo metal de solda). Hidrostático não exigido, mas a conexão WP deve suportar a pressão do tubo equivalente. Marcação conforme MSS SP-25."
+  }
+ ]
+}

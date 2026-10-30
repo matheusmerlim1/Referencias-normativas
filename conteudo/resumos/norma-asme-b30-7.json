@@ -1,0 +1,58 @@
+{
+ "id": "ASME-B30.7",
+ "titulo": "ASME B30.7 — Guinchos (segurança)",
+ "secoes": [
+  {
+   "titulo": "Capacidade e marcação",
+   "item": "7-1.1",
+   "texto": "A capacidade do guincho é a tração total que o fabricante recomenda, numa velocidade, num tambor de dado tamanho e num número de camadas; o fabricante informa a tração por camada para um diâmetro de cabo. Cada tambor traz placa com capacidade, dimensões do tambor, diâmetro do cabo, velocidade e potência.",
+   "valores": [
+    {"parametro": "Dados de marcação por tambor", "valor": "capacidade; Ø e comprimento do barril, Ø da flange; Ø do cabo; velocidade na carga nominal; potência", "item": "7-1.1.3", "cota": "esquemas/guincho-tambor-dd-flange.svg#diametro-flange"}
+   ]
+  },
+  {
+   "titulo": "Projeto: tambor, freios, comandos e proteções",
+   "item": "7-1.2",
+   "texto": "Estrutura dimensionada para todas as condições até a capacidade; solda pela AWS D14.3. O tambor tem diâmetro mínimo em relação ao cabo e flange que sobra acima da última camada. Sempre ficam voltas mortas no tambor. Freio segura sobrecarga; guincho que fica carregado sem operador tem trava mecânica adicional. Comandos marcados, ao alcance e com esforços e cursos limitados; falta de energia ou de sinal para o movimento. Partes móveis protegidas.",
+   "valores": [
+    {"parametro": "Ø primitivo do tambor (1ª camada)", "valor": "≥ 15 × Ø do cabo de aço", "item": "7-1.2.2 (d)", "cota": "esquemas/guincho-tambor-dd-flange.svg#D"},
+    {"parametro": "Flange acima da camada superior", "valor": "≥ ½ Ø do cabo e ≥ 13 mm", "item": "7-1.2.2 (c)", "cota": "esquemas/guincho-tambor-dd-flange.svg#flange"},
+    {"parametro": "Voltas mínimas no tambor", "valor": "2 voltas completas", "item": "7-1.2.2 (b); 7-1.2.5 (c)"},
+    {"parametro": "Capacidade do freio", "valor": "≥ 125 % da carga nominal", "item": "7-1.2.3"},
+    {"parametro": "Proteção de partes móveis", "valor": "suporta 90 kg sem deformação permanente", "item": "7-1.2.4"},
+    {"parametro": "Força na alavanca manual", "valor": "≤ 156 N (35 lb)", "item": "7-1.2.7", "cota": "esquemas/guincho-comandos-forcas-cursos.svg#forca-alavanca"},
+    {"parametro": "Força no pedal", "valor": "36 a 222 N", "item": "7-1.2.7", "cota": "esquemas/guincho-comandos-forcas-cursos.svg#forca-pedal"},
+    {"parametro": "Curso da alavanca (dupla / simples ação)", "valor": "≤ 356 mm / ≤ 610 mm", "item": "7-1.2.7", "cota": "esquemas/guincho-comandos-forcas-cursos.svg#curso-alavanca"},
+    {"parametro": "Curso do pedal", "valor": "≤ 254 mm", "item": "7-1.2.7", "cota": "esquemas/guincho-comandos-forcas-cursos.svg#curso-pedal"}
+   ]
+  },
+  {
+   "titulo": "Cabo",
+   "item": "7-1.2.5",
+   "texto": "O cabo tem fator de projeto mínimo sobre a ruptura publicada, maior para cabo antigiratório. Em calor que danifique alma de fibra, usar alma de aço.",
+   "valores": [
+    {"parametro": "Fator de projeto — cabo comum", "valor": "≥ 3,5", "item": "7-1.2.5 (d)"},
+    {"parametro": "Fator de projeto — cabo antigiratório", "valor": "≥ 5", "item": "7-1.2.5 (e)"}
+   ]
+  },
+  {
+   "titulo": "Instalação, ensaios e inspeção",
+   "item": "7-1.3; 7-2",
+   "texto": "Ancoragem e base do guincho são do usuário e projetadas por pessoa qualificada. Guincho novo passa por ensaio operacional e por ensaio de carga com relatório. O cabo é olhado todo dia de uso e inspecionado com registro ao menos mensalmente; cabo parado volta só após inspeção.",
+   "valores": [
+    {"parametro": "Ensaio de carga de guincho novo", "valor": "110 % a 125 % da carga nominal, com ≥ 5 voltas no tambor", "item": "7-2.2.2 (a)"},
+    {"parametro": "Inspeção do cabo com relatório", "valor": "≥ mensal; parado ≥ 1 mês: antes de voltar", "item": "7-2.4.2"}
+   ]
+  },
+  {
+   "titulo": "Descarte do cabo",
+   "item": "7-2.4.3",
+   "texto": "O cabo sai de serviço por arames rompidos acima de um número num comprimento de referência, por deformações, dano de calor, perda de diâmetro ou alma saindo. Pode terminar o turno a critério da pessoa qualificada e é trocado por cabo equivalente.",
+   "valores": [
+    {"parametro": "Arames rompidos — cabo comum", "valor": "6 em 6 diâmetros, ou 3 numa perna em 6 diâmetros", "item": "7-2.4.3 (b)(1)", "cota": "esquemas/guincho-descarte-cabo-6d.svg#6d"},
+    {"parametro": "Arames rompidos — antigiratório", "valor": "2 em 6 diâmetros ou 4 em 30 diâmetros", "item": "7-2.4.3 (b)(1)"},
+    {"parametro": "Redução do Ø nominal", "valor": "> 5 %", "item": "7-2.4.3 (b)", "cota": "esquemas/guincho-descarte-cabo-6d.svg#d"}
+   ]
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "id": "NR-33",
+ "titulo": "NR-33 — Segurança e saúde nos trabalhos em espaços confinados",
+ "secoes": [
+  {
+   "titulo": "Objetivo e caracterização do espaço confinado",
+   "item": "33.1–33.2",
+   "texto": "A NR-33 define o que é espaço confinado, como gerenciar seus riscos e quais medidas adotar, para todas as organizações que possuem esses espaços ou trabalham neles. Espaço confinado é o que reúne as três condições ao mesmo tempo: não foi projetado para ocupação humana contínua, tem entrada e saída limitadas e tem (ou pode ter) atmosfera perigosa. Atmosfera perigosa é a com falta ou excesso de oxigênio, contaminantes nocivos ou atmosfera explosiva. Silos e depósitos de material que pode engolfar ou afogar, com acesso limitado, também são espaços confinados.",
+   "valores": [
+    {"parametro": "Condições do espaço confinado (todas simultâneas)", "valor": "não projetado para ocupação contínua + entrada/saída limitada + atmosfera perigosa existente ou possível", "item": "33.2.2"}
+   ]
+  },
+  {
+   "titulo": "Responsabilidades",
+   "item": "33.3",
+   "texto": "A organização nomeia formalmente um responsável técnico e lhe dá recursos, inclui os espaços confinados no PGR, sinaliza e bloqueia os acessos, capacita supervisores, vigias, autorizados e resgate, informa riscos, fornece equipamentos, garante resgate e simulados e supervisiona as contratadas. O responsável técnico faz o cadastro dos espaços, adapta o modelo de PET, escreve os procedimentos, indica equipamentos, elabora o plano de resgate e coordena a capacitação. O supervisor de entrada emite a PET, testa os equipamentos, aplica os procedimentos, garante o resgate disponível, cancela ou encerra a PET e pode atuar como vigia. O vigia fica fora, junto à entrada, controla quem entra e sai, mantém comunicação, aciona o resgate, opera os movimentadores de pessoas, ordena o abandono diante de qualquer sinal de perigo e não faz outra tarefa. A equipe de resgate mantém os meios operantes e faz simulado anual.",
+   "valores": [
+    {"parametro": "Vigia para mais de um espaço confinado — condições", "valor": "junto/próximo às entradas, todos os espaços no campo visual (sem eletrônica), mesma atividade em todos, até 2 trabalhadores dentro de cada espaço, trabalhadores visíveis pela abertura", "item": "33.3.4.1", "nota": "Com vigilância e comunicação eletrônicas previstas na análise de risco, podem ser dispensadas as condições de 2 trabalhadores por espaço e de visualização pela abertura (33.3.4.1.1)."},
+    {"parametro": "Simulado de salvamento da equipe de resgate", "valor": "anual", "item": "33.3.6 b)"}
+   ]
+  },
+  {
+   "titulo": "Gerenciamento de riscos e cadastro",
+   "item": "33.4",
+   "texto": "Além do GRO da NR-01, o levantamento de perigos considera espaços novos, mudança de geometria ou acesso e mudança de uso. Se a entrada não puder ser evitada, a avaliação inclui perigos vizinhos, formação de atmosfera perigosa e controle de energias perigosas. Quem possui espaços confinados mantém cadastro de cada um: identificação, volume, nº e dimensões das aberturas e bocas de visita, formas de acesso, situação ativo/inativo, croqui com pontos de bloqueio e raquetes, uso/produto e perigos antes da liberação. Com terceiros, a contratante entrega o cadastro e os riscos que gerencia, e a contratada entrega o inventário de riscos do seu trabalho — e cumpre a NR mesmo que a contratante não esteja obrigada.",
+   "valores": []
+  },
+  {
+   "titulo": "Medidas de prevenção e procedimentos",
+   "item": "33.5.1–33.5.4",
+   "texto": "Trabalho a quente (solda, corte, esmerilhamento, aquecimento) exige medidas contra incêndio e explosão. Quem executa o trabalho tem procedimentos para emitir, cancelar e encerrar a PET, para o trabalho seguro e para operar movimentadores de pessoas, revistos após mudança de risco, entrada não autorizada, acidente ou condição imprevista. Há procedimento de seleção e uso de respiradores para rotina e emergência.",
+   "valores": []
+  },
+  {
+   "titulo": "Permissão de Entrada e Trabalho (PET)",
+   "item": "33.5.5–33.5.12",
+   "texto": "Nenhuma entrada sem PET. Ela traz: identificação do espaço, objetivo, perigos e controles (inclusive energias perigosas) do PGR e os verificados na hora, medição da atmosfera imediatamente antes de entrar, nomes e funções de supervisores, vigias e autorizados, data e hora de emissão e encerramento e assinaturas de supervisores e vigias. Pode ser em papel (2 vias: supervisor e vigia) ou digital (sempre acessível ao vigia, assinatura certificada, dispositivo adequado à área). Deve ser rastreável e os trabalhadores são informados antes da entrada. É encerrada ao fim do serviço, em condição imprevista, quando todos saem ou se o vigia for trocado por outro não listado. Vale uma jornada; pode ser prorrogada para as mesmas atividades se forem registradas pausas e trocas de equipe, houver monitoramento contínuo (ou nova medição a cada entrada), vigia contínuo e reavaliação a cada entrada.",
+   "valores": [
+    {"parametro": "Arquivamento das PETs", "valor": "5 anos (disponíveis aos trabalhadores)", "item": "33.5.9"},
+    {"parametro": "Validade da PET", "valor": "1 jornada de trabalho", "item": "33.5.12"},
+    {"parametro": "Validade máxima com prorrogações", "valor": "24 h", "item": "33.5.12.1.1"}
+   ]
+  },
+  {
+   "titulo": "Sinalização",
+   "item": "33.5.13",
+   "texto": "Todo espaço confinado tem placa permanente junto à entrada no modelo do Anexo I, com sinalização complementar se a placa deixar de ser vista com a tampa aberta. Onde houver agentes agressivos ou circulação de pessoas e veículos, a placa é indelével (as tampas já existentes em vias públicas ficam dispensadas até serem trocadas, e sem exigência de cores). Durante a operação usa-se sinalização provisória indicando se a entrada está liberada.",
+   "valores": []
+  },
+  {
+   "titulo": "Controle de energias perigosas",
+   "item": "33.5.14",
+   "texto": "O controle segue etapas: avisar a todos, isolar sistemas que interfiram, isolar ou desenergizar as fontes, bloquear, etiquetar, liberar energias armazenadas, verificar o isolamento, liberar o trabalho e, ao fim, retirar pessoas e ferramentas, comunicar, retirar bloqueios e etiquetas, reenergizar e liberar a operação. Cada trabalhador tem seu próprio bloqueio e etiqueta (serviço, nome, data e hora), resistentes ao tempo e trocados na troca de turno ou de equipe. Só pessoa autorizada remove bloqueios. É proibido considerar a energia neutralizada só por desligar o circuito de comando ou de emergência.",
+   "valores": [
+    {"parametro": "Dispositivo de bloqueio", "valor": "individual e independente para cada trabalhador", "item": "33.5.14.2 a)"}
+   ]
+  },
+  {
+   "titulo": "Avaliação da atmosfera",
+   "item": "33.5.15",
+   "texto": "A medição inicial é feita com o supervisor do lado de fora, logo antes da entrada; durante a permanência, o monitoramento é contínuo (remoto ou presencial). O detector segue normas técnicas, tem leitura instantânea, é intrinsecamente seguro, imune a interferência de rádio, tem alarme sonoro, visual e vibratório simultâneos, grau de proteção adequado e manual em português. Auto-zero e teste de resposta (bump test), se usados, são diários antes das medições; a calibração é feita em laboratório acreditado pelo Inmetro.",
+   "valores": [
+    {"parametro": "Oxigênio — valor indicado para entrada", "valor": "20,9 % em volume", "item": "33.5.15.2"},
+    {"parametro": "Oxigênio — faixa aceitável", "valor": "19,5 % a 23 % em volume, com causa da variação conhecida e controlada", "item": "33.5.15.2"},
+    {"parametro": "Imunidade do detector a radiofrequência", "valor": "suportar campo de 10 V/m", "item": "33.5.15.4 d)"},
+    {"parametro": "Auto-zero e teste de resposta", "valor": "diariamente, antes das avaliações", "item": "33.5.15.5"},
+    {"parametro": "Inflamáveis — referência do modelo de PET após ventilação", "valor": "< 10 % do LIE", "item": "Anexo II, item 6", "nota": "Valor do modelo informativo de PET (Anexo II), não de item do corpo da norma."},
+    {"parametro": "Enriquecimento de oxigênio (glossário)", "valor": "> 23 % em volume", "item": "Glossário"}
+   ]
+  },
+  {
+   "titulo": "Ventilação e equipamentos",
+   "item": "33.5.16–33.5.17",
+   "texto": "Antes de entrar, as condições seguras são obtidas por ventilação, purga, lavagem ou inertização. Durante o trabalho, a ventilação é dimensionada pelas características do espaço segundo normas técnicas, e o conforto térmico segue o anexo de calor da NR-09. Ventilar com oxigênio puro é proibido. Em áreas classificadas, equipamentos elétricos e eletrônicos são certificados no Sinmetro. Em atmosfera IPVS, só com máscara autônoma de pressão positiva ou linha de ar comprimido com cilindro de escape.",
+   "valores": [
+    {"parametro": "Proteção respiratória em atmosfera IPVS", "valor": "autônoma de demanda com pressão positiva ou linha de ar com cilindro auxiliar de escape", "item": "33.5.17.2"}
+   ]
+  },
+  {
+   "titulo": "Saúde, emergência e documentação",
+   "item": "33.5.18–33.5.21",
+   "texto": "As medidas entram no plano de ação do PGR. Os trabalhadores designados passam por avaliação de aptidão física e mental (incluindo fatores psicossociais), registrada no ASO. A organização faz Plano de Resgate (podendo integrar o plano de emergência) com perigos do resgate, equipe dimensionada pela geometria e acessos, tempo de resposta garantido, técnicas e equipamentos que reduzam o tempo de suspensão inerte e simulados. Quem possui o espaço mantém cadastro, PETs e inventário de riscos da contratada; quem executa mantém o modelo de PET (baseado no Anexo II), procedimentos e plano de resgate, articulado com o plano de emergência do dono do espaço.",
+   "valores": []
+  },
+  {
+   "titulo": "Capacitação",
+   "item": "33.6 e Anexo III",
+   "texto": "A capacitação segue a NR-01 e o Anexo III: inicial, periódica e eventual, com avaliação, instrutores com proficiência e certificado que indica o tipo de espaço e as atividades, com anuência do responsável técnico. Supervisor: definições, identificação de espaços, riscos, equipamentos, PET, proteção respiratória, área classificada, primeiros socorros e salvamento. Vigia e autorizado: definições, riscos, equipamentos, PET, noções de resgate e primeiros socorros. Equipe de resgate: conteúdo das normas técnicas de resgate em espaço confinado. Equipamentos de treino semelhantes aos do local.",
+   "valores": [
+    {"parametro": "Supervisor de entrada — inicial", "valor": "40 h", "item": "Anexo III, Quadro 1"},
+    {"parametro": "Supervisor de entrada — periódico", "valor": "8 h, anual", "item": "Anexo III, Quadro 1"},
+    {"parametro": "Vigia e trabalhador autorizado — inicial", "valor": "16 h", "item": "Anexo III, Quadro 1"},
+    {"parametro": "Vigia e trabalhador autorizado — periódico", "valor": "8 h, anual", "item": "Anexo III, Quadro 1"},
+    {"parametro": "Equipe de emergência e salvamento — inicial e periódico", "valor": "24 h ou 32 h conforme o plano de emergência e o nível do resgatista; periódico \"bianual\"", "item": "Anexo III, Quadro 1", "nota": "A norma usa \"bianual\" — conferir se a intenção é a cada 2 anos."},
+    {"parametro": "Treinamento eventual", "valor": "casos da NR-01 ou desvios nos procedimentos de entrada / no resgate ou simulados", "item": "Anexo III, Quadro 1"},
+    {"parametro": "Parte prática (inicial e periódico)", "valor": "≥ 50 % da carga horária", "item": "Anexo III, 1.2"}
+   ]
+  },
+  {
+   "titulo": "Proibições e recomendações gerais",
+   "item": "33.7",
+   "texto": "É proibido entrar ou trabalhar em espaço confinado sem autorização prévia, sem medição antes e monitoramento contínuo, sem vigia ou com pessoal não capacitado — o direito de recusa da NR-01 continua valendo. Recomenda-se a ABNT NBR 16577 para detectores, serviço de salvamento e prevenção por projeto, no que não conflitar com a NR.",
+   "valores": [
+    {"parametro": "Norma técnica recomendada", "valor": "ABNT NBR 16577", "item": "33.7.2"}
+   ]
+  },
+  {
+   "titulo": "Anexos I e II — Sinalização e modelo de PET",
+   "item": "Anexos I e II",
+   "texto": "O Anexo I traz o modelo da placa obrigatória de espaço confinado (imagem, não reproduzida aqui). O Anexo II é um modelo informativo de PET: dados do espaço e da equipe; verificações antes da entrada (isolamento, medição inicial de O₂, inflamáveis, tóxicos e poeiras, bloqueio e etiquetagem, purga/lavagem, ventilação, nova medição, iluminação, comunicação, resgate, movimentação vertical, treinamento válido, equipamentos e EPI) e durante (permissão de trabalho a quente). Qualquer campo em branco ou marcado \"não\" impede a entrada; alarme, ordem do vigia ou falta de monitoramento implicam abandono imediato; se toda a equipe sair, emite-se nova PET (salvo prorrogação).",
+   "valores": [
+    {"parametro": "Teste após ventilação (modelo de PET) — oxigênio", "valor": "> 19,5 % e < 23,0 %", "item": "Anexo II, item 6"}
+   ]
+  }
+ ]
+}

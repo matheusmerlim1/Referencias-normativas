@@ -1,0 +1,37 @@
+{
+ "id": "ISO-TR-14121-2",
+ "titulo": "ISO/TR 14121-2:2012 — Segurança de máquinas — Apreciação de riscos — Parte 2: Guia prático e exemplos de métodos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Orientação prática para fazer a apreciação de riscos de máquinas conforme a ISO 12100, com métodos e ferramentas para cada etapa e exemplos; Anexo A traz um exemplo completo de apreciação e redução de riscos.",
+   "valores": []
+  },
+  {
+   "titulo": "Preparação e processo",
+   "item": "4–5",
+   "texto": "Trabalho em equipe multidisciplinar, coleta de informações, limites da máquina, identificação de perigos (listas, análise de tarefas), estimativa e avaliação do risco.",
+   "valores": []
+  },
+  {
+   "titulo": "Ferramentas de estimativa",
+   "item": "6",
+   "texto": "Matriz de risco, gráfico de risco e outras ferramentas, combinando gravidade, exposição, probabilidade de ocorrência do evento perigoso e possibilidade de evitar.",
+   "valores": [
+    {
+     "parametro": "Escala de probabilidade (exemplo)",
+     "valor": "1 desprezível; 2 raro; 3 possível…",
+     "item": "6",
+     "nota": "exemplo de um dos métodos — conferir escala completa"
+    }
+   ]
+  },
+  {
+   "titulo": "Avaliação e redução",
+   "item": "7–8",
+   "texto": "Decisão sobre necessidade de redução; medidas inerentes, proteções, medidas complementares, informação para uso (ISO 12100, 6.4) e procedimentos operacionais padrão; documentação.",
+   "valores": []
+  }
+ ]
+}

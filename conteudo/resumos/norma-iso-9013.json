@@ -1,0 +1,92 @@
+{
+ "id": "ISO-9013",
+ "titulo": "ISO 9013:2017 — Corte térmico: classificação, especificação geométrica e tolerâncias",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Classifica cortes por chama (oxicorte), plasma e laser, define a qualidade da face de corte e as tolerâncias dimensionais das peças cortadas.",
+   "valores": [
+    {
+     "parametro": "Espessuras — chama / plasma / laser",
+     "valor": "3–300 / 0,5–150 / 0,5–32 mm",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Qualidade da face de corte",
+   "item": "5; Tab. 4–5",
+   "texto": "Dois parâmetros: desvio de perpendicularidade ou angularidade u (5 faixas) e altura média do perfil Rz5 (4 faixas), ambos crescendo linearmente com a espessura a.",
+   "valores": [
+    {
+     "parametro": "u — faixa 1 / 2 / 3 / 4 / 5",
+     "valor": "0,05+0,003a / 0,15+0,007a / 0,4+0,01a / 0,8+0,02a / 1,2+0,035a mm",
+     "item": "Tab. 4",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#u"
+    },
+    {
+     "parametro": "Rz5 — faixa 1 / 2 / 3 / 4",
+     "valor": "10+0,6a / 40+0,8a / 70+1,2a / 110+1,8a µm",
+     "item": "Tab. 4",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#Rz5"
+    }
+   ]
+  },
+  {
+   "titulo": "Medição",
+   "item": "6",
+   "texto": "u é medido descontando uma faixa Δa junto às arestas, que cresce com a espessura; Rz5 é medido perto do início do corte, onde a superfície é pior. Sem exigência específica, quantidade de pontos por metro de corte.",
+   "valores": [
+    {
+     "parametro": "Δa — a = 10–20 / 40–100 mm",
+     "valor": "1 / 2 mm",
+     "item": "Tab. 3",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#delta-a"
+    },
+    {
+     "parametro": "Posição de medição de Rz5",
+     "valor": "15 mm do início do corte",
+     "item": "6.2",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#medicao-15"
+    },
+    {
+     "parametro": "Espaçamento das medições de u",
+     "valor": "20 mm, 2 × 3 por metro",
+     "item": "6.2",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso9013-u-rz5.svg#medicao-20"
+    }
+   ]
+  },
+  {
+   "titulo": "Tolerâncias dimensionais",
+   "item": "7; Tab. 6–7",
+   "texto": "Afastamentos limites em duas classes (1 mais fina, 2 mais larga) conforme espessura e dimensão nominal. Laser alcança a classe 1; oxicorte e plasma, a classe 2. Para peça que vai ser montada ou usinada, a dimensão nominal é ajustada pelo afastamento e há sobremetal de usinagem por face.",
+   "valores": [
+    {
+     "parametro": "Classe por processo",
+     "valor": "laser: 1; oxicorte e plasma: 2",
+     "item": "Anexo A, Tab. A.1"
+    },
+    {
+     "parametro": "Sobremetal Bz — a = 2–20 / 20–50 / 50–80 / > 80 mm",
+     "valor": "2 / 3 / 5 / 7 mm",
+     "item": "Tab. 8",
+     "cota": "esquemas/tolerancias-gerais-ajustes-iso9013-montagem-sobremetal.svg#Bz"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "9",
+   "texto": "A designação reúne faixa de u, faixa de Rz5 e classe dimensional (ex.: ISO 9013-312 = u faixa 3, Rz5 faixa 1, classe 2), no desenho ou no carimbo.",
+   "valores": [
+    {
+     "parametro": "Exemplo",
+     "valor": "ISO 9013-312:2017",
+     "item": "9"
+    }
+   ]
+  }
+ ]
+}

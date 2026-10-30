@@ -1,0 +1,110 @@
+{
+ "id": "ASME-SA-53",
+ "titulo": "SA-53 — Tubos de aço preto e galvanizado a quente, com e sem costura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de aço com e sem costura, pretos ou galvanizados por imersão a quente, NPS 1/8 a NPS 26 [DN 6 a DN 650], com espessuras das Tabelas X2.2 e X2.3. Uso mecânico e sob pressão, e também em linhas comuns de vapor, água, gás e ar; aptos a solda, curvamento e flangeamento (o Tipo F não serve para flangear)."
+  },
+  {
+   "titulo": "Tipos e graus",
+   "item": "1.2",
+   "texto": "Tipo F — soldado no forno (topo, contínuo), só Grau A. Tipo E — soldado por resistência elétrica (ERW), Graus A e B. Tipo S — sem costura, Graus A e B. Para curvar a frio ou enrolar apertado, prefere-se o Grau A."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4",
+   "texto": "No ERW Grau B, o cordão é tratado termicamente após a solda (ou processado de outro modo) para não restar martensita não revenida. Expansão a frio limitada.",
+   "valores": [
+    {
+     "parametro": "Tratamento do cordão ERW Grau B",
+     "valor": "≥ 1000 °F [540 °C]",
+     "item": "4.3"
+    },
+    {
+     "parametro": "Expansão a frio máx.",
+     "valor": "1 1/2 % do diâmetro externo",
+     "item": "4.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Valores máximos.",
+   "valores": [
+    {
+     "parametro": "Graus A (S e E) — C / Mn",
+     "valor": "0,25 % / 0,95 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Grau B (S e E) — C / Mn",
+     "valor": "0,30 % / 1,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Tipo F Grau A — C / Mn",
+     "valor": "0,30 % / 1,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P / S",
+     "valor": "0,05 % / 0,045 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cu, Ni, Cr / Mo / V",
+     "valor": "0,40 % cada / 0,15 % / 0,08 %",
+     "item": "Tabela 1",
+     "nota": "Soma dos cinco ≤ 1,00 %"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "O alongamento mínimo em 50 mm é calculado por e = 625 000 A^0,2 / U^0,9 (unid. pol.), com A limitado a 0,75 in².",
+   "valores": [
+    {
+     "parametro": "Grau A — Su mín. / Sy mín.",
+     "valor": "48 000 psi [330 MPa] / 30 000 psi [205 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Grau B — Su mín. / Sy mín.",
+     "valor": "60 000 psi [415 MPa] / 35 000 psi [240 MPa]",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e inspeção",
+   "item": "8 a 11",
+   "texto": "Dobramento a frio a 90° para NPS ≤ 2; achatamento acima de NPS 2 (paredes até extra-forte); teste hidrostático em cada tubo com as pressões das Tabelas X2.2/X2.3; no ERW a partir de NPS 2 o cordão de cada tubo passa por ensaio elétrico não destrutivo (E213, E309 ou E570).",
+   "valores": [
+    {
+     "parametro": "Mandril do dobramento (NPS ≤ 2)",
+     "valor": "12 × diâmetro externo",
+     "item": "8.1"
+    },
+    {
+     "parametro": "Variação de massa",
+     "valor": "± 10 %",
+     "item": "12.1"
+    },
+    {
+     "parametro": "Análise de produto pelo comprador",
+     "valor": "2 tubos por lote de 500 comprimentos",
+     "item": "6.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "Tabela 4",
+   "texto": "Tubo sem costura é marcado com a pressão de teste, com 'NDE' ou com ambos, conforme o ensaio feito."
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "DIN-961",
+ "titulo": "DIN 961:1990 — Parafusos sextavados com rosca fina até a cabeça, M8×1 a M52×3 — Graus A e B",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafuso sextavado roscado até a cabeça com rosca métrica fina, grau A até M24 e l ≤ 10d ou 150 mm, B acima. Usada junto com a ISO 8676, prevista para ser retirada.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M8×1 a M52×3",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos",
+   "item": "4",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Rosca",
+     "valor": "DIN 13-12 e -15 (6g)",
+     "item": "4",
+     "nota": "cópia OCR — conferir"
+    },
+    {
+     "parametro": "Classes — aço",
+     "valor": "até M39: 5.6, 8.8, 10.9; acima a combinar",
+     "item": "4"
+    },
+    {
+     "parametro": "Classes — inox",
+     "valor": "até M20: A2-70 ou A4-70; M20 a M39: A2-50 ou A4-50",
+     "item": "4"
+    },
+    {
+     "parametro": "Tolerâncias",
+     "valor": "ISO 4759-1",
+     "item": "4"
+    }
+   ]
+  }
+ ]
+}

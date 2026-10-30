@@ -1,0 +1,154 @@
+{
+ "id": "ASME-SA-352",
+ "titulo": "SA-352 — Fundidos de aço ferrítico e martensítico para baixa temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Peças fundidas para válvulas, flanges, conexões e outras partes sob pressão em baixa temperatura: graus ferríticos (LCA, LCB, LCC — carbono/C-Mn; LC1 — C-Mo; LC2, LC2-1, LC3, LC4, LC9 — ao níquel) e um martensítico (CA6NM). A temperatura indicada para cada grau é a mais baixa em que normalmente atende ao Charpy. Requisitos gerais pela SA-703."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Ferríticos normalizados e revenidos ou temperados em líquido e revenidos (LC9 sempre temperado e revenido). A têmpera líquida em geral é necessária para seções grossas e melhora a tenacidade das finas."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Valores máximos salvo faixas.",
+   "valores": [
+    {
+     "parametro": "LCB — C / Mn",
+     "valor": "0,30 % / 1,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LCC — C / Mn",
+     "valor": "0,25 % / 1,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LC2 — Ni",
+     "valor": "2,00–3,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LC3 — C / Ni",
+     "valor": "0,15 % / 3,00–4,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LC9 — C / Ni",
+     "valor": "0,13 % / 8,50–10,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "CA6NM — C / Ni / Cr",
+     "valor": "0,06 % / 3,5–4,5 % / 11,5–14,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P / S (ferríticos)",
+     "valor": "0,04 % / 0,045 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1",
+   "texto": "Su / Sy mín. / alongamento mín. / redução de área mín.",
+   "valores": [
+    {
+     "parametro": "LCA",
+     "valor": "60–85 ksi [415–585] / 30 ksi [205] / 24 % / 35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LCB",
+     "valor": "65–90 ksi [450–620] / 35 ksi [240] / 24 % / 35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LCC",
+     "valor": "70–95 ksi [485–655] / 40 ksi [275] / 22 % / 35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LC3",
+     "valor": "70–95 ksi [485–655] / 40 ksi [275] / 24 % / 35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LC9",
+     "valor": "85 ksi [585] mín. / 75 ksi [515] / 20 % / 30 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "CA6NM",
+     "valor": "110–135 ksi [760–930] / 80 ksi [550] / 15 % / 35 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio de impacto",
+   "item": "7.2, Tabela 1",
+   "texto": "Um jogo de 3 Charpy V por corrida, na temperatura padrão do grau; média e mínimo individual.",
+   "valores": [
+    {
+     "parametro": "LCA — média / individual / temperatura",
+     "valor": "13 ft·lbf [18 J] / 10 ft·lbf [14 J] / −25 °F [−32 °C]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LCB",
+     "valor": "13 [18 J] / 10 [14 J] / −50 °F [−46 °C]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LCC",
+     "valor": "15 [20 J] / 12 [16 J] / −50 °F [−46 °C]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LC3",
+     "valor": "15 [20 J] / 12 [16 J] / −150 °F [−101 °C]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "LC9",
+     "valor": "20 [27 J] / 15 [20 J] / −320 °F [−196 °C]",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "CA6NM",
+     "valor": "20 [27 J] / 15 [20 J] / −100 °F [−73 °C]",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo e marcação",
+   "item": "9, 10, Tabela 2",
+   "texto": "Reparo por solda com procedimento e soldadores qualificados pela ASME IX, com pré-aquecimento mínimo; marcação em ressalto com punções de baixa tensão.",
+   "valores": [
+    {
+     "parametro": "Pré-aquec. mín. LCA, LCB, LCC, CA6NM",
+     "valor": "50 °F [10 °C]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Pré-aquec. mín. LC2, LC3, LC4",
+     "valor": "300 °F [150 °C]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Pré-aquec. LC1 > 5/8 in",
+     "valor": "250 °F [120 °C]",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

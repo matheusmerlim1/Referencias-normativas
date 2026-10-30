@@ -1,0 +1,28 @@
+{
+ "id": "ASME-SB-152",
+ "titulo": "SB-152 — Chapas, folhas, tiras e barras laminadas de cobre",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas, tiras e barras laminadas de cobres (C10100 OFE, C10200 OF, C10300, C10400, C10500, C10700, C11000 ETP, C12200 DHP e outros). Requisitos gerais pela SB-248."
+  },
+  {
+   "titulo": "Têmperas e propriedades",
+   "item": "7, 8, 10",
+   "texto": "Laminado a quente (M20), laminado a quente e recozido (O25), encruados (H00 a H…) e recozidos com grão controlado; Su por têmpera nas Tabelas 2 e 3, grão na Tabela 4."
+  },
+  {
+   "titulo": "Ensaios físicos",
+   "item": "9, 11",
+   "texto": "Resistividade elétrica quando pedida; exame micrográfico para cobres sem oxigênio.",
+   "valores": [
+    {
+     "parametro": "Resistividade máx. — C10100 recozido",
+     "valor": "0,15176 Ω·g/m²",
+     "item": "Tabela 5"
+    }
+   ]
+  }
+ ]
+}

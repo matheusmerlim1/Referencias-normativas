@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 540" width="860" height="540" role="img" aria-label="Olhal tipo 0 — conexão direta, sem manilha (NORSOK R-002, Anexo J)">
+<title>Olhal tipo 0 — conexão direta, sem manilha (NORSOK R-002, Anexo J) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Olhal tipo 0 — conexão direta, sem manilha (NORSOK R-002, Anexo J)</text>
+<rect x="70" y="400" width="380" height="14" fill="url(#hach)" stroke="#666" stroke-width="1"/>
+<path class="s" d="M110,400 L110,350 L160.3,197.2 A105,105 0 0 1 359.7,197.2 L410,350 L410,400 z"/>
+<circle class="w" cx="260" cy="230" r="45"/>
+<line class="c" x1="130" y1="230" x2="390" y2="230"/>
+<line class="c" x1="260" y1="100" x2="260" y2="420"/>
+<g id="cota-L" class="cota"><line class="e" x1="110" y1="403" x2="110" y2="451"/><line class="e" x1="410" y1="403" x2="410" y2="451"/><line class="d" x1="110" y1="445" x2="410" y2="445" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="260" y="440">L</text></g>
+<g id="cota-h" class="cota"><line class="e" x1="413" y1="400" x2="461" y2="400"/><line class="e" x1="413" y1="230" x2="461" y2="230"/><line class="d" x1="455" y1="400" x2="455" y2="230" marker-start="url(#a)" marker-end="url(#a)"/><text x="462" y="320">h</text></g>
+<g id="cota-K" class="cota"><line class="e" x1="107" y1="400" x2="64" y2="400"/><line class="e" x1="107" y1="350" x2="64" y2="350"/><line class="d" x1="70" y1="400" x2="70" y2="350" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="63" y="380">K</text></g>
+<g id="cota-d" class="cota"><line class="d" x1="223.1" y1="255.8" x2="296.9" y2="204.2" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="242" y="262">d</text></g>
+<g id="cota-R" class="cota"><line class="d" x1="115" y1="125" x2="192.5" y2="149.6" marker-end="url(#a)"/><text class="en" x="111" y="130">R</text></g>
+<g id="cota-alfa" class="cota"><path class="d" d="M122.1,205.7 A140,140 0 0,1 397.9,205.7" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="260" y="83">α</text></g>
+<text class="n m" x="260" y="500">α = ângulo da carga (para os dois lados da vertical)</text>
+<rect class="s" x="660" y="125" width="40" height="275"/>
+<path class="wd" d="M660,400 L648,400 L660,388 z"/>
+<path class="wd" d="M700,400 L712,400 L700,388 z"/>
+<line class="g" x1="610" y1="400" x2="750" y2="400"/>
+<line class="h" x1="660" y1="185" x2="700" y2="185"/>
+<line class="h" x1="660" y1="275" x2="700" y2="275"/>
+<g id="cota-t" class="cota"><line class="e" x1="660" y1="122" x2="660" y2="84"/><line class="e" x1="700" y1="122" x2="700" y2="84"/><line class="d" x1="634" y1="90" x2="660" y2="90" marker-end="url(#a)"/><line class="d" x1="726" y1="90" x2="700" y2="90" marker-end="url(#a)"/><line class="d" x1="660" y1="90" x2="700" y2="90"/><text class="m" x="680" y="83">t</text></g>
+<g id="cota-raio-borda" class="cota"><line class="d" x1="630" y1="135" x2="660" y2="189" marker-end="url(#a)"/><text class="en" x="626" y="140">aresta do furo arredondada</text></g>
+<text class="b m" x="680" y="440">Vista lateral</text>
+<text class="b m" x="260" y="480">Vista frontal</text>
+<text class="n" x="20" y="528">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

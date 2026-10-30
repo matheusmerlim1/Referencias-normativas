@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" role="img" aria-label="Içamento em 2 pontos — ângulos das pernas e posição do CG">
+<title>Içamento em 2 pontos — ângulos das pernas e posição do CG (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Içamento em 2 pontos — ângulos das pernas e posição do CG</text>
+<rect class="sl" x="100" y="330" width="560" height="50"/>
+<circle class="g" cx="330" cy="102" r="8"/>
+<line class="g" x1="330" y1="110" x2="120" y2="330"/>
+<line class="g" x1="330" y1="110" x2="640" y2="330"/>
+<line class="c" x1="330" y1="110" x2="330" y2="330"/>
+<text class="b en" x="116" y="322">B</text>
+<text class="b" x="646" y="322">C</text>
+<circle class="wd" cx="300" cy="355" r="7"/>
+<text class="b en" x="288" y="362">CG (A)</text>
+<text class="n en" x="205" y="210">perna b1</text>
+<text class="n" x="500" y="210">perna b2</text>
+<g id="cota-h" class="cota"><line class="e" x1="103" y1="330" x2="146" y2="330"/><line class="e" x1="103" y1="110" x2="146" y2="110"/><line class="d" x1="140" y1="330" x2="140" y2="110" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="133" y="225">h</text></g>
+<g id="cota-L1" class="cota"><line class="e" x1="120" y1="377" x2="120" y2="339"/><line class="e" x1="300" y1="377" x2="300" y2="339"/><line class="d" x1="120" y1="345" x2="300" y2="345" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="210" y="363">L1</text></g>
+<g id="cota-L2" class="cota"><line class="e" x1="300" y1="377" x2="300" y2="339"/><line class="e" x1="640" y1="377" x2="640" y2="339"/><line class="d" x1="300" y1="345" x2="640" y2="345" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="470" y="363">L2</text></g>
+<g id="cota-alfaB" class="cota"><path class="d" d="M330,190 A80,80 0 0,1 274.8,167.9" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="292.8" y="207.8">αB</text></g>
+<g id="cota-alfaC" class="cota"><path class="d" d="M419.7,173.7 A110,110 0 0,1 330,220" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="389.7" y="230.5">αC</text></g>
+<text class="n" x="20" y="438">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

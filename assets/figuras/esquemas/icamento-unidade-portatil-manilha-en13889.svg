@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" role="img" aria-label="Manilha EN 13889 — cotas da Tabela D-1 da DNV-ST-E271">
+<title>Manilha EN 13889 — cotas da Tabela D-1 da DNV-ST-E271</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2;stroke-linejoin:round}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2.2;stroke-linejoin:round}
+  .w{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .z{fill:#2e86c1;fill-opacity:.18;stroke:#2e86c1;stroke-width:1.4;stroke-dasharray:6 4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:1}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.4;stroke-dasharray:7 5}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .p{font-size:14px}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .r{text-anchor:end}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+<text class="t m" x="400" y="30">Manilhas EN 13889 — cotas da Tabela D-1 (DNV-ST-E271, App. D.2)</text>
+<text class="m b" x="210" y="62">Manilha reta (dee)</text>
+<path class="s" d="M160,104 L160,270 A50,50 0 0 0 260,270 L260,104 L240,104 L240,270 A30,30 0 0 1 180,270 L180,104 Z"/>
+<rect class="g" x="135" y="80" width="150" height="24" rx="4"/>
+<circle class="g" cx="170" cy="92" r="24"/><circle class="g" cx="250" cy="92" r="24"/>
+<rect class="s" x="285" y="76" width="16" height="32"/>
+<g id="cota-pino" class="cota"><path class="e" d="M301,80 L330,80"/><path class="e" d="M301,104 L330,104"/><path class="d" d="M322,80 L322,104" marker-start="url(#a)" marker-end="url(#a)"/><text class="p" x="330" y="97">Ø do pino</text></g>
+<g id="cota-largura-interna" class="cota"><path class="d" d="M180,150 L240,150" marker-start="url(#a)" marker-end="url(#a)"/><text class="p" x="270" y="165">largura interna</text><text class="p" x="270" y="182">no pino</text><path class="e" d="M268,160 L232,150"/></g>
+<g id="cota-comprimento-dee" class="cota"><path class="e" d="M135,104 L105,104"/><path class="e" d="M210,300 L105,300"/><path class="d" d="M112,104 L112,300" marker-start="url(#a)" marker-end="url(#a)"/><text class="p" x="104" y="215" text-anchor="middle" transform="rotate(-90 104 215)">comprimento interno (dee)</text></g>
+<text class="m b" x="590" y="62">Manilha curva (bow)</text>
+<path class="s" d="M540,104 C465,170 470,330 590,335 C710,330 715,170 640,104 L620,104 C685,175 685,310 590,315 C495,310 495,175 560,104 Z"/>
+<rect class="g" x="515" y="80" width="150" height="24" rx="4"/>
+<circle class="g" cx="550" cy="92" r="24"/><circle class="g" cx="630" cy="92" r="24"/>
+<rect class="s" x="665" y="76" width="16" height="32"/>
+<g id="cota-largura-interna-bow" class="cota"><path class="d" d="M560,124 L620,124" marker-start="url(#a)" marker-end="url(#a)"/><path class="e" d="M590,124 L590,190"/><text class="m p" x="590" y="207">largura interna</text><text class="m p" x="590" y="224">no pino</text></g>
+<g id="cota-comprimento-bow" class="cota"><path class="e" d="M665,104 L750,104"/><path class="e" d="M590,315 L750,315"/><path class="d" d="M740,104 L740,315" marker-start="url(#a)" marker-end="url(#a)"/><text class="p" x="758" y="210" text-anchor="middle" transform="rotate(-90 758 210)">comprimento interno (bow)</text></g>
+<text class="p" x="40" y="380">Tabela D-1 por WLL nominal (t): Ø do pino, largura interna no pino, comprimento interno (dee) e (bow).</text>
+<text class="p" x="40" y="400">O furo e a espessura do olhal são dimensionados a partir dessas cotas (E271 4.4.1).</text>
+
+<text class="n" x="400" y="428" text-anchor="middle">Esquema ilustrativo, fora de escala (não é desenho da norma) — rótulos = colunas da tabela</text>
+</svg>

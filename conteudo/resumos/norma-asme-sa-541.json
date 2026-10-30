@@ -1,0 +1,61 @@
+{
+ "id": "ASME-SA-541",
+ "titulo": "SA-541 — Forjados de aço carbono e liga temperados e revenidos para componentes de vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Forjados de aço carbono e liga, temperados e revenidos, para componentes de vasos de pressão. Todos os graus são soldáveis em condições adequadas. Fusão e requisitos gerais pela SA-788."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5",
+   "texto": "Austenitização completa, têmpera em líquido (spray ou imersão) e revenimento subcrítico com patamar mínimo por espessura.",
+   "valores": [
+    {
+     "parametro": "Grau 22V — austenitização mín.",
+     "valor": "1650 °F [900 °C]",
+     "item": "5.1"
+    },
+    {
+     "parametro": "Patamar mín. de revenimento",
+     "valor": "1/2 h por in [25 mm] de espessura",
+     "item": "5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 3",
+   "texto": "Su / Sy mín.; Charpy a 40 °F (4 °C) salvo exceções.",
+   "valores": [
+    {
+     "parametro": "Graus 1 e 1A",
+     "valor": "70–95 ksi [485–660] / 36 ksi [250]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Graus 2 Cl. 1, 3 Cl. 1, 1C, 11 Cl. 4",
+     "valor": "80–105 ksi [550–720] / 50 ksi [340]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Graus 2 Cl. 2, 3 Cl. 2",
+     "valor": "90–115 ksi [620–790] / 65 ksi [450]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Charpy — média mín. Graus 1, 1A, 11 Cl. 4",
+     "valor": "15 ft·lbf [20 J]",
+     "item": "Tabela 3",
+     "nota": "atribuição de colunas da Tabela 3 por leitura do texto extraído; conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo e marcação",
+   "item": "7, 10",
+   "texto": "Reparo por solda só a critério do comprador, com qualificação. Marcação adicional definida pelo comprador; punções de ponta arredondada."
+  }
+ ]
+}

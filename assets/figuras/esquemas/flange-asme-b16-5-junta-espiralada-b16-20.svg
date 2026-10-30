@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="Junta espiralada ASME B16.20 — diâmetros das tabelas">
+<title>Junta espiralada ASME B16.20 — diâmetros das Tabelas 9 a 14 (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+<text class="t" x="20" y="28">Junta espiralada ASME B16.20 — os 4 diâmetros das tabelas (por NPS e classe)</text>
+<!-- vista de frente: anel centralizador (externo), espiral = elemento de vedação, anel interno -->
+<path class="s" fill-rule="evenodd" d="M70,195 a160,160 0 1,0 320,0 a160,160 0 1,0 -320,0 z M105,195 a125,125 0 1,0 250,0 a125,125 0 1,0 -250,0 z"/>
+<path class="r" fill-rule="evenodd" d="M105,195 a125,125 0 1,0 250,0 a125,125 0 1,0 -250,0 z M130,195 a100,100 0 1,0 200,0 a100,100 0 1,0 -200,0 z"/>
+<circle class="v" cx="230" cy="195" r="108"/><circle class="v" cx="230" cy="195" r="116"/>
+<path class="s" fill-rule="evenodd" d="M130,195 a100,100 0 1,0 200,0 a100,100 0 1,0 -200,0 z M150,195 a80,80 0 1,0 160,0 a80,80 0 1,0 -160,0 z"/>
+<line class="c" x1="50" y1="195" x2="410" y2="195"/><line class="c" x1="230" y1="20" x2="230" y2="370"/>
+<g id="cota-ID-interno" class="cota"><line class="e" x1="150" y1="195" x2="150" y2="375"/><line class="e" x1="310" y1="195" x2="310" y2="375"/><line class="d" x1="150" y1="370" x2="310" y2="370" marker-start="url(#a)" marker-end="url(#a)"/><text x="402" y="375">Ø int. do anel interno</text></g>
+<g id="cota-ID-vedacao" class="cota"><line class="e" x1="130" y1="195" x2="130" y2="405"/><line class="e" x1="330" y1="195" x2="330" y2="405"/><line class="d" x1="130" y1="400" x2="330" y2="400" marker-start="url(#a)" marker-end="url(#a)"/><text x="402" y="405">Ø int. do elemento de vedação</text></g>
+<g id="cota-OD-vedacao" class="cota"><line class="e" x1="105" y1="195" x2="105" y2="435"/><line class="e" x1="355" y1="195" x2="355" y2="435"/><line class="d" x1="105" y1="430" x2="355" y2="430" marker-start="url(#a)" marker-end="url(#a)"/><text x="402" y="435">Ø ext. do elemento de vedação</text></g>
+<g id="cota-OD-centralizador" class="cota"><line class="e" x1="70" y1="195" x2="70" y2="465"/><line class="e" x1="390" y1="195" x2="390" y2="465"/><line class="d" x1="70" y1="460" x2="390" y2="460" marker-start="url(#a)" marker-end="url(#a)"/><text x="402" y="465">Ø ext. do anel centralizador</text></g>
+<!-- corte radial (meia seção) -->
+<text class="b" x="640" y="110">Corte radial (meia seção)</text>
+<rect class="s" x="640" y="205" width="55" height="20"/>
+<rect class="r" x="695" y="196" width="65" height="38"/>
+<path class="v" d="M703,200 l8,15 l-8,15 M716,200 l8,15 l-8,15 M729,200 l8,15 l-8,15 M742,200 l8,15 l-8,15"/>
+<rect class="s" x="760" y="205" width="110" height="20"/>
+<line class="c" x1="620" y1="215" x2="885" y2="215"/>
+<g class="d">
+  <line x1="660" y1="160" x2="668" y2="203" marker-end="url(#a)"/>
+  <line x1="728" y1="140" x2="728" y2="194" marker-end="url(#a)"/>
+  <line x1="820" y1="160" x2="815" y2="203" marker-end="url(#a)"/>
+</g>
+<text class="n" x="625" y="155">anel interno</text>
+<text class="n" x="680" y="135">elemento de vedação (espiral)</text>
+<text class="n" x="790" y="155">anel centralizador</text>
+<text class="n" x="625" y="260">← lado do furo</text>
+<text class="n" x="760" y="260">lado dos estojos →</text>
+<text class="n" x="625" y="300">O anel centralizador fica por dentro dos</text>
+<text class="n" x="625" y="318">estojos e centra a junta; o anel interno</text>
+<text class="n" x="625" y="336">fica voltado para o furo do flange.</text>
+<text class="n" x="20" y="505">Esquema ilustrativo, fora de escala (não é desenho da norma) — rótulos = colunas das tabelas de junta espiralada da ficha</text>
+<g id="cota-anel-centralizador-esp" class="cota"><line class="e" x1="870" y1="205" x2="900" y2="205"/><line class="e" x1="870" y1="225" x2="900" y2="225"/><line class="d" x1="895" y1="185" x2="895" y2="205" marker-end="url(#a)"/><line class="d" x1="895" y1="245" x2="895" y2="225" marker-end="url(#a)"/><text class="n" x="625" y="420">espessura do anel centralizador</text><line class="d" x1="830" y1="410" x2="893" y2="250" marker-end="url(#a)"/></g>
+<g id="cota-compressao" class="cota"><line class="d" x1="770" y1="196" x2="770" y2="234" marker-start="url(#a)" marker-end="url(#a)"/><text class="n" x="625" y="390">espessura comprimida da espiral</text><line class="d" x1="780" y1="378" x2="772" y2="238" marker-end="url(#a)"/></g>
+<g id="cota-espiral" class="cota"><text class="n" x="625" y="450">fita metálica e voltas sem enchimento</text><line class="d" x1="700" y1="440" x2="712" y2="234" marker-end="url(#a)"/></g>
+</svg>

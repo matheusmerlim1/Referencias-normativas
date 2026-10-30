@@ -1,0 +1,82 @@
+{
+ "id": "ASME-SA-453",
+ "titulo": "SA-453 — Parafusos de liga endurecível para alta temperatura com coeficiente de dilatação semelhante ao do aço austenítico",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Material para parafusaria de alta temperatura (flanges de vasos e válvulas): quatro graus (660, 651, 662, 665) com nove classes de escoamento, de 50 a 120 ksi [345 a 827 MPa]. Exige processamento especial; não é para uso geral."
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "5, Tabela 3",
+   "texto": "Forno elétrico, de indução ou eletrodo consumível; acabado a quente ou a frio. Tratamento de solubilização seguido de envelhecimento (endurecimento), conforme grau e classe.",
+   "valores": [
+    {
+     "parametro": "660 Classe A — solubilização / envelhecimento",
+     "valor": "1650 ± 25 °F [900 ± 14 °C], 2 h, têmpera em líquido / 1325 ± 25 °F [720 ± 14 °C], 16 h, ar",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "660 Classe B — solubilização / envelhecimento",
+     "valor": "1800 ± 25 °F [980 ± 14 °C], 1 h, têmpera em líquido / 1325 ± 25 °F, 16 h, ar",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 4",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "660 — C / Mn / Ni",
+     "valor": "0,08 % máx. / 2,00 % máx. / 24,0–27,0 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "651 — C / Mn / Ni",
+     "valor": "0,28–0,35 % / 0,75–1,50 % / 8,0–11,0 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,040 % / 0,030 %",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 5 e 7",
+   "texto": "Su mín. / Sy mín. / alongamento / redução de área / dureza.",
+   "valores": [
+    {
+     "parametro": "660 (A, B, C)",
+     "valor": "130 ksi [895] / 85 ksi [585] / 15 % / 18 % / 248–341 HB",
+     "item": "Tabela 7"
+    },
+    {
+     "parametro": "651 A",
+     "valor": "100 ksi [690] / 70 ksi [485] (60 ksi acima de certo diâmetro) / 18 % / 35 % / 217–277 HB",
+     "item": "Tabela 7"
+    },
+    {
+     "parametro": "Ruptura por fluência — 660 a 1200 °F [650 °C]",
+     "valor": "56 ksi [385 MPa], ≥ 100 h, alongamento ≥ 5 %",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Ruptura — 651 a 1200 °F",
+     "valor": "40 ksi [275 MPa], ≥ 100 h, ≥ 5 %",
+     "item": "Tabela 5"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação",
+   "item": "14",
+   "texto": "Barras identificadas por etiqueta durável com corrida, grau e classe; parafusos marcados conforme a norma."
+  }
+ ]
+}

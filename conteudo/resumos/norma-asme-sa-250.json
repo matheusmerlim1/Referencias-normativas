@@ -1,0 +1,119 @@
+{
+ "id": "ASME-SA-250",
+ "titulo": "SA-250 — Tubos de aço liga C-Mo e Cr-Mo soldados por resistência elétrica para caldeiras e superaquecedores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos ERW de espessura mínima, aço C-Mo e Cr-Mo, graus T1, T1a, T1b, T2, T11, T12 e T22, para caldeiras e superaquecedores. Requisitos gerais pela SA-1016.",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo usual",
+     "valor": "1/2 a 5 in [12,7 a 127 mm]",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Espessura mínima usual",
+     "valor": "0,035 a 0,320 in [0,9 a 8,1 mm]",
+     "item": "1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação e tratamento térmico",
+   "item": "5",
+   "texto": "Aço acalmado, soldagem ERW. Após a solda (ou o último passe a frio), todo tubo é tratado: recozimento pleno, isotérmico, normalização ou normalização e revenimento.",
+   "valores": [
+    {
+     "parametro": "Revenimento mín. (normalizado e revenido)",
+     "valor": "1200 °F [650 °C]",
+     "item": "5.3.1"
+    },
+    {
+     "parametro": "Revenimento mín. — T22",
+     "valor": "1250 °F [676 °C]",
+     "item": "5.3.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "T1 / T1a / T1b — C",
+     "valor": "0,10–0,20 / 0,15–0,25 / 0,14 máx. %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "T2 — Cr / Mo",
+     "valor": "0,50–0,81 % / 0,44–0,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "T11 — C / Si / Cr / Mo",
+     "valor": "0,05–0,15 / 0,50–1,00 / 1,00–1,50 / 0,44–0,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "T12 — Cr / Mo",
+     "valor": "0,80–1,25 % / 0,44–0,65 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "T22 — C máx. / Cr / Mo",
+     "valor": "0,15 / 1,90–2,60 / 0,87–1,13 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx. (maioria)",
+     "valor": "0,025 % / 0,020–0,025 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 4",
+   "texto": "Alongamento mín. 30 % em 50 mm (−1,50 ponto por 1/32 in abaixo de 5/16 in; E = 48t + 15,00).",
+   "valores": [
+    {
+     "parametro": "T1 — Su / Sy mín.",
+     "valor": "55 ksi [380] / 30 ksi [205]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "T1a — Su / Sy mín.",
+     "valor": "60 ksi [415] / 32 ksi [220]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "T1b — Su / Sy mín.",
+     "valor": "53 ksi [365] / 28 ksi [195]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "T2, T11, T22 — Su / Sy mín.",
+     "valor": "60 ksi [415] / 30 ksi [205]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "T12 — Su / Sy mín.",
+     "valor": "60 ksi [415] / 32 ksi [220]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Dureza máx. T2, T11, T12, T22",
+     "valor": "163 HBW / 85 HRB",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "6, 9, 10",
+   "texto": "Análise de produto por corrida; tubos devem aceitar mandrilagem e rebordeamento. Marcação inclui 'Electric Resistance-Welded'. Suplementar opcional de ensaio não destrutivo."
+  }
+ ]
+}

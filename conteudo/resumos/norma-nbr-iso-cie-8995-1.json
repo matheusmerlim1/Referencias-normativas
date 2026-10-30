@@ -1,0 +1,129 @@
+{
+ "id": "NBR-ISO-CIE-8995-1",
+ "titulo": "ABNT NBR ISO/CIE 8995-1:2013 — Iluminação de ambientes de trabalho: interior",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1; 3",
+   "texto": "Requisitos de iluminação para que pessoas realizem tarefas visuais em ambientes internos com eficiência, conforto e segurança. Define área da tarefa, entorno imediato (faixa em volta dela) e o índice limite de ofuscamento unificado UGRL.",
+   "valores": [
+    {
+     "parametro": "Largura mínima do entorno imediato",
+     "valor": "0,5 m",
+     "item": "3.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Luminância e refletâncias",
+   "item": "4.2",
+   "texto": "Distribuição equilibrada de luminâncias no campo de visão, com refletâncias recomendadas das superfícies.",
+   "valores": [
+    {
+     "parametro": "Refletância — teto / paredes / plano de trabalho / piso",
+     "valor": "0,6–0,9 / 0,3–0,8 / 0,2–0,6 / 0,1–0,5",
+     "item": "4.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Iluminância",
+   "item": "4.3",
+   "texto": "Os valores da seção 5 são iluminâncias mantidas: a média na área da tarefa não pode cair abaixo deles durante a vida da instalação. Escala de valores com passos de 1,5 vez. Trabalho contínuo tem mínimo próprio. O entorno pode ter menos luz, com mínimo tabelado; a uniformidade na tarefa é limitada.",
+   "valores": [
+    {
+     "parametro": "Mínimo em trabalho contínuo",
+     "valor": "200 lux",
+     "item": "4.3.1"
+    },
+    {
+     "parametro": "Escala",
+     "valor": "20 – 30 – 50 – 75 – 100 – 150 – 200 – 300 – 500 – 750 – 1000 – … – 5000 lux",
+     "item": "4.3.2"
+    },
+    {
+     "parametro": "Uniformidade na tarefa (mín./média)",
+     "valor": "≥ 0,7",
+     "item": "4.3.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ofuscamento",
+   "item": "4.4",
+   "texto": "Ofuscamento desconfortável avaliado pelo método UGR da CIE; o valor da instalação não pode passar do UGRL do ambiente. Escala de passos significativos.",
+   "valores": [
+    {
+     "parametro": "Escala UGR",
+     "valor": "13 – 16 – 19 – 22 – 25 – 28",
+     "item": "4.4.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Cor, luz natural, manutenção e energia",
+   "item": "4.6–4.9",
+   "texto": "Aparência de cor classificada pela temperatura de cor; reprodução de cor pelo índice Ra mínimo de cada ambiente. Projeto com fator de manutenção calculado, preferencialmente não muito baixo.",
+   "valores": [
+    {
+     "parametro": "Aparência quente / intermediária / fria",
+     "valor": "< 3300 K / 3300–5300 K / > 5300 K",
+     "item": "4.6.1"
+    },
+    {
+     "parametro": "Fator de manutenção recomendado",
+     "valor": "≥ 0,70",
+     "item": "4.8"
+    }
+   ]
+  },
+  {
+   "titulo": "Monitores, cintilação e emergência",
+   "item": "4.10–4.12",
+   "texto": "Cuidados com reflexos em telas de computador, evitar cintilação e efeito estroboscópico em máquinas girantes, e iluminação de emergência pela norma própria.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos por ambiente",
+   "item": "5",
+   "texto": "Tabela extensa por tipo de ambiente e atividade com Em, UGRL e Ra (ver ficha habitabilidade-plataforma).",
+   "valores": [
+    {
+     "parametro": "Circulação e corredores",
+     "valor": "100 lux; UGRL 28; Ra 40",
+     "item": "5, item 1"
+    },
+    {
+     "parametro": "Escadas",
+     "valor": "150 lux; UGRL 25; Ra 40",
+     "item": "5, item 1"
+    },
+    {
+     "parametro": "Refeitório / banheiros",
+     "valor": "200 lux; Ra 80",
+     "item": "5, item 1"
+    },
+    {
+     "parametro": "Escritório — escrever, teclar, ler",
+     "valor": "500 lux; UGRL 19; Ra 80",
+     "item": "5, item 22"
+    },
+    {
+     "parametro": "Sala de controle",
+     "valor": "500 lux; UGRL 16; Ra 80",
+     "item": "5, item 16"
+    },
+    {
+     "parametro": "Sala de máquinas",
+     "valor": "200 lux; UGRL 25; Ra 80",
+     "item": "5, item 16"
+    },
+    {
+     "parametro": "Processo químico operado remotamente",
+     "valor": "50 lux; Ra 20",
+     "item": "5, item 6"
+    }
+   ]
+  }
+ ]
+}

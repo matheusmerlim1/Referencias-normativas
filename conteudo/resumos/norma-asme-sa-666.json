@@ -1,0 +1,77 @@
+{
+ "id": "ASME-SA-666",
+ "titulo": "SA-666 — Chapas, folhas, tiras e barras chatas de aço inoxidável austenítico recozido ou encruado",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Aços inoxidáveis austeníticos recozidos e nos estados encruados usuais (1/16, 1/8, 1/4, 1/2 duro etc.) para aplicações estruturais, arquitetônicas, vasos de pressão, magnéticas, criogênicas e resistentes ao calor. Substitui as antigas A412 e A177. Requisitos gerais pela SA-480."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Ordem: C; Mn; P; S; Si; Cr; Ni.",
+   "valores": [
+    {
+     "parametro": "201 (S20100)",
+     "valor": "C 0,15; Mn 5,5–7,5; P 0,060; S 0,030; Si 0,75; Cr 16,0–18,0; Ni 3,5–5,5; N 0,25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "304 (S30400)",
+     "valor": "C 0,08; Mn 2,00; P 0,045; S 0,030; Si 0,75; Cr 18,0–20,0; Ni 8,0–10,5; N 0,10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "316L (S31603)",
+     "valor": "C 0,030; Mn 2,00; Si 0,75; Cr 16,0–18,0; Ni 10,0–14,0; Mo 2,00–3,00 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas (recozido)",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín. / dureza máx.",
+   "valores": [
+    {
+     "parametro": "304, 316",
+     "valor": "75 000 psi [515] / 30 000 psi [205] / 40 % / 201–217 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "304L, 316L",
+     "valor": "70 000 psi [485] / 25 000 psi [170] / 40 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "304N",
+     "valor": "80 000 psi [550] / 35 000 psi [240] / 30 % / 217 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "201-1 (Classe 1)",
+     "valor": "75 000 psi [515] / 38 000 psi [260] / 40 % / 217 HB",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Dobramento",
+   "item": "Tabelas 3 e 4",
+   "texto": "Dobramento livre de 180° com fator 1 (recozido e 1/16, 1/8 duro) ou em bloco V a 135° com fator conforme o tipo e o encruamento.",
+   "valores": [
+    {
+     "parametro": "Dobramento livre 304 — recozido",
+     "valor": "180°, fator 1",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Bloco V 304 — recozido / 1/8 duro",
+     "valor": "135°, fator 2 / 3",
+     "item": "Tabela 4"
+    }
+   ]
+  }
+ ]
+}

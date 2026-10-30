@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uva — Normas</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="#/">Uva<span>normas com valores</span></a>
+    <form class="busca" id="form-busca" autocomplete="off">
+      <input id="q" type="search" placeholder="Buscar assunto, parâmetro ou valor — ex.: escada, rodapé, gaiola, blondel" aria-label="Buscar">
+    </form>
+    <button class="tema" id="btn-tema" type="button" title="Alternar tema claro/escuro" aria-label="Alternar tema">◐</button>
+  </header>
+  <main id="app"></main>
+  <footer class="rodape">
+    Valores e resumos tirados das normas citadas — não substituem a norma. Confirme sempre a revisão vigente antes de emitir documento.
+  </footer>
+  <script>
+    /* Carga dos dados (funciona em file://, sem fetch):
+       - camada LOCAL (dados/dados_local.js, fora do repositório) se existir — e então também o índice de títulos,
+         o texto completo e o índice de busca no texto;
+       - senão, a camada PÚBLICA (dados/dados.js). "?publico=1" força a pública (teste). */
+    (function () {
+      var publico = /[?&]publico=1(&|$)/.test(location.search);
+      function carregar(src, ok, falha) {
+        var s = document.createElement("script");
+        s.src = src; s.onload = ok; s.onerror = falha || ok;
+        document.body.appendChild(s);
+      }
+      function app() { carregar("assets/app.js"); }
+      function extrasLocais(lista) {
+        if (!lista.length) { app(); return; }
+        carregar(lista[0], function () { extrasLocais(lista.slice(1)); });
+      }
+      function publica() { carregar("dados/dados.js", app); }
+      if (publico) { publica(); return; }
+      carregar("dados/dados_local.js", function () {
+        extrasLocais(["dados/indice.js", "dados/textos/_lista.js", "dados/busca/_mapa.js"]);
+      }, publica);
+    })();
+  </script>
+</body>
+</html>

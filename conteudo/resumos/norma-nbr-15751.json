@@ -1,0 +1,41 @@
+{
+ "id": "NBR-15751",
+ "titulo": "ABNT NBR 15751:2009 — Sistemas de aterramento de subestações — Requisitos",
+ "secoes": [
+  {"titulo": "Escopo", "item": "1",
+   "texto": "Dimensionamento da malha de aterramento de subestações acima de 1 kV sob solicitações em frequência industrial, e segurança de pessoas e instalações dentro e fora da subestação. Complementam: NBR 13534, 13570, 5418.",
+   "valores": []},
+  {"titulo": "Geometria inicial e resistência", "item": "4–5",
+   "texto": "A malha cobre no mínimo o pátio da SE, com condutor periférico em volta das edificações. A resistência é estimada antes da geometria final pela área (círculo equivalente) e pelo comprimento de condutor; as fórmulas são conservativas com hastes.",
+   "valores": [
+    {"parametro": "Profundidade mínima da malha", "valor": "0,5 m (0,25 m sob piso concretado ou rocha rasa)", "item": "4"},
+    {"parametro": "Resistência pela área", "valor": "R = ρa / (4r) (r = raio do círculo de mesma área)", "item": "5.1, Eq. 1"},
+    {"parametro": "Resistência — malha até 0,25 m", "valor": "R = ρa/(4r) + ρa/Lt", "item": "5.1, Eq. 2"},
+    {"parametro": "Resistência — malha entre 0,25 e 2,5 m (Sverak)", "valor": "R = ρa·[1/Lt + 1/√(20A)·(1 + 1/(1 + H·√(20/A)))]", "item": "5.1, Eq. 3", "nota": "reconstruída do texto extraído — conferir"}
+   ]},
+  {"titulo": "Condutor da malha", "item": "6",
+   "texto": "Seção pelo maior entre o mínimo mecânico e o térmico (equação de Onderdonk: corrente de falta, duração, temperatura-limite da conexão e ambiente).",
+   "valores": [
+    {"parametro": "Seção mecânica mínima — cobre", "valor": "50 mm²", "item": "6.1"},
+    {"parametro": "Seção mecânica mínima — aço protegido", "valor": "38 mm² (5/16\")", "item": "6.1"}
+   ]},
+  {"titulo": "Limites de choque e tensões admissíveis", "item": "7",
+   "texto": "Corrente de choque de longa duração (limite de largar) e de curta duração (não fibrilação para 99,5 % das pessoas de 50 kg). Com religamento rápido somam-se os tempos. Tensões de passo e de toque admissíveis dependem da resistividade do recobrimento (brita) e do fator de correção Cs.",
+   "valores": [
+    {"parametro": "Corrente de largar (99,5 % da população) — homens / mulheres", "valor": "9 mA / 6 mA", "item": "Tab. 4"},
+    {"parametro": "Corrente de largar (50 %) — homens / mulheres", "valor": "16 mA / 10,6 mA", "item": "Tab. 4"},
+    {"parametro": "Corrente de curta duração (0,03 s ≤ t ≤ 3 s)", "valor": "Ichcd = 0,116 / √t (A)", "item": "7.2, Eq. 6"},
+    {"parametro": "Tempo com religamento ≤ 0,5 s / > 0,5 s", "valor": "t1 + t2 + t3 / máximo de (t1, t2, t3)", "item": "7.2"},
+    {"parametro": "Resistência do corpo humano", "valor": "1 000 Ω", "item": "7.3"},
+    {"parametro": "Pé humano (modelo)", "valor": "disco de raio 0,083 m; pés a 1 m", "item": "7.3"},
+    {"parametro": "Tensão de passo admissível", "valor": "Ep = (Rch + 6·Cs·ρs)·Ichcd", "item": "7.3, Eq. 10"},
+    {"parametro": "Tensão de toque admissível (curta / longa duração)", "valor": "Et = (Rch + 1,5·Cs·ρs)·Ichcd (ou ·Ichld)", "item": "7.4, Eq. 11–12"}
+   ]},
+  {"titulo": "Corrente de malha", "item": "8",
+   "texto": "Corrente simétrica eficaz que a malha dispersa: corrente de falta fase-terra, fator de decremento (assimetria), fator de projeção (crescimento do sistema) e fator de distribuição (parte da corrente que volta por cabos para-raios e neutros). Prever expansões futuras.",
+   "valores": []},
+  {"titulo": "Potenciais e recomendações", "item": "9–10",
+   "texto": "Cálculo dos potenciais no solo e verificação de toque e passo. Garantir corrente de falta suficiente para a proteção de retaguarda. Rabichos de para-raios e pés de torre ligados direto ao eletrodo; equipamentos com dois condutores de aterramento em pontos distintos; cabos frouxos sob tráfego de veículos pesados; cercas internas multiaterradas e cercas externas seccionadas.",
+   "valores": []}
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "id": "ASME-SA-249",
+ "titulo": "SA-249 — Tubos soldados de aço austenítico para caldeiras, superaquecedores, trocadores de calor e condensadores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos soldados de parede nominal (WLD) e tubos soldados fortemente trabalhados a frio (HCW) de aços austeníticos. Graus 'H' são variantes para alta temperatura (superaquecedores, reaquecedores). Requisitos gerais pela SA-1016.",
+   "valores": [
+    {
+     "parametro": "Faixa usual",
+     "valor": "1/8 in [3,2 mm] DI a 12 in [304,8 mm] DE; parede 0,015 a 0,320 in [0,4 a 8,1 mm]",
+     "item": "1.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "5",
+   "texto": "Tubo formado de laminado plano e soldado automaticamente sem metal de adição. Após a solda e antes do tratamento final, é trabalhado a frio (solda e metal-base, ou só a solda). HCW recebe redução a frio forte em solda e metal-base."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "6, Tabela 2",
+   "texto": "Sempre fornecido tratado (solubilização e resfriamento rápido). Solubilização acima de 1950 °F [1065 °C] pode prejudicar a resistência à corrosão intergranular dos graus estabilizados; o comprador pode pedir estabilização posterior.",
+   "valores": [
+    {
+     "parametro": "Solubilização mín. — graus em geral",
+     "valor": "1900 °F [1040 °C]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "TP321H, TP347H, TP348H",
+     "valor": "2000 °F [1100 °C]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "S31254",
+     "valor": "2100 °F [1150 °C]",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 4",
+   "texto": "Su mín. / Sy mín. / alongamento mín. em 50 mm / dureza Rockwell máx.",
+   "valores": [
+    {
+     "parametro": "TP304, TP304H",
+     "valor": "75 ksi [515] / 30 ksi [205] / 35 % / B90",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "TP304L",
+     "valor": "70 ksi [485] / 25 ksi [170] / 35 % / B90",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "TP201",
+     "valor": "95 ksi [655] / 38 ksi [260] / 35 % / B95",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "11, 13",
+   "texto": "Dobramento reverso da solda, achatamento e flangeamento por lote, tração (1 por lote até 50 tubos; 2 acima), análise de produto por corrida e teste hidrostático ou elétrico não destrutivo.",
+   "valores": [
+    {
+     "parametro": "Dobramento reverso — amostra / mandril máx.",
+     "valor": "≥ 4 in [100 mm] / 4 × espessura",
+     "item": "11.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Acabamento e marcação",
+   "item": "16, 18",
+   "texto": "Tubos decapados ou recozidos em atmosfera brilhante, sem carepa; devem aceitar mandrilagem e rebordeamento. Graus H recebem marcação própria."
+  }
+ ]
+}

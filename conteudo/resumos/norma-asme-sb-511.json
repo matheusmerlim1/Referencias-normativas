@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SB-511",
+ "titulo": "SB-511 — Barras e perfis de ligas Ni-Fe-Cr-Si (N08330, N08332)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras e perfis acabados a quente ou a frio das ligas N08330 e N08332 para aplicações resistentes ao calor e serviço corrosivo geral."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Ni",
+     "valor": "34,0–37,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cr",
+     "valor": "17,0–20,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si",
+     "valor": "0,75–1,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx. / Cu máx.",
+     "valor": "2,00 % / 1,00 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Fe",
+     "valor": "restante",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Recozidas — Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N08330",
+     "valor": "70 000 psi (483) / 30 000 psi (207) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08332",
+     "valor": "67 000 psi (462) / 27 000 psi (186) / 30 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

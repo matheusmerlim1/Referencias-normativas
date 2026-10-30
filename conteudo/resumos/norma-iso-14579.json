@@ -1,0 +1,52 @@
+{
+ "id": "ISO-14579",
+ "titulo": "ISO 14579:2011 — Parafusos de cabeça cilíndrica com encaixe hexalobular (Torx interno)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafuso de cabeça cilíndrica com encaixe hexalobular interno, rosca M2 a M20, grau de produto A. É a alternativa de encaixe à ISO 4762.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M2 a M20, grau A",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3",
+   "texto": "Tabela por rosca: b, diâmetro e altura da cabeça, número do encaixe hexalobular (ISO 10664) e profundidade, comprimentos comerciais, ls e lg.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos e normas de referência",
+   "item": "4",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Tolerância de rosca",
+     "valor": "5g6g para 12.9; 6g para as demais",
+     "item": "4"
+    },
+    {
+     "parametro": "Inox",
+     "valor": "A2-70, A4-70 (ISO 3506-1)",
+     "item": "4"
+    },
+    {
+     "parametro": "Tolerâncias",
+     "valor": "ISO 4759-1, grau A",
+     "item": "4"
+    }
+   ]
+  },
+  {
+   "titulo": "Designação",
+   "item": "5",
+   "texto": "Ex. da norma: rosca M5, l = 20 mm, classe 8.8 → ISO 14579 – M5 × 20 – 8.8.",
+   "valores": []
+  }
+ ]
+}

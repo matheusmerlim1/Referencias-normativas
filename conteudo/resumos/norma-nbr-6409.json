@@ -1,0 +1,72 @@
+{
+ "id": "NBR-6409",
+ "titulo": "ABNT NBR 6409:1997 — Tolerâncias geométricas — Tolerâncias de forma, orientação, posição e batimento — Generalidades, símbolos, definições e indicações em desenho",
+ "secoes": [
+  {
+   "titulo": "Objetivo e princípios",
+   "item": "1–4",
+   "texto": "Como indicar e interpretar tolerâncias geométricas. Elemento de referência: elemento real a partir do qual se medem orientação, posição ou batimento; elemento tolerado: o que recebe a tolerância. Indicar só quando necessário (função, intercambiabilidade, fabricação), sem que isso imponha processo de fabricação ou medição. A tolerância define a zona onde o elemento deve ficar; vale para todo o comprimento ou superfície salvo indicação; elementos de referência são tratados como perfeitos; posição teórica dada por cota básica; em roscas vale o diâmetro de flanco; sem o modificador de máximo material, a tolerância é independente da dimensão.",
+   "valores": [
+    {
+     "parametro": "Formas da zona de tolerância",
+     "valor": "círculo; coroa entre círculos concêntricos; entre duas linhas ou retas paralelas; cilindro ou entre cilindros coaxiais; entre dois planos ou superfícies; paralelepípedo",
+     "item": "4.5"
+    },
+    {
+     "parametro": "Planeza/retitude",
+     "valor": "duas retas ou planos paralelos envolvendo o perfil real, orientados para dar a menor distância",
+     "item": "4.10–4.11"
+    },
+    {
+     "parametro": "Circularidade/cilindricidade",
+     "valor": "dois círculos ou cilindros concêntricos com a menor diferença de raios",
+     "item": "4.12"
+    }
+   ]
+  },
+  {
+   "titulo": "Características toleradas",
+   "item": "5.1, Tab. 1",
+   "texto": "Grupos de características e seus símbolos.",
+   "valores": [
+    {
+     "parametro": "Forma (elemento isolado)",
+     "valor": "retitude, planeza, circularidade, cilindricidade",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Perfil (isolado ou associado)",
+     "valor": "perfil de linha qualquer, perfil de superfície qualquer",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Orientação (associado)",
+     "valor": "paralelismo, perpendicularidade, inclinação",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Posição (associado)",
+     "valor": "posição, concentricidade, coaxialidade, simetria",
+     "item": "Tab. 1"
+    },
+    {
+     "parametro": "Batimento (associado)",
+     "valor": "circular e total",
+     "item": "Tab. 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Quadro de tolerância e referências",
+   "item": "5.2–5.6",
+   "texto": "Quadro retangular dividido, da esquerda para a direita: símbolo da característica, valor (precedido de Ø se a zona for circular/cilíndrica) e letra(s) da(s) referência(s). Vários elementos: '×' ou nota. A seta da linha de chamada indica a direção (em geral perpendicular à superfície); seta no contorno = superfície, na linha de cota = eixo/plano médio. Referência = letra maiúscula enquadrada ligada a um triângulo; referência comum por duas letras com hífen; prioridade pela ordem dos compartimentos. Restrições: tolerância em comprimento parcial (ex. por 100 mm), tolerância menor sobreposta, referência em parte limitada.",
+   "valores": []
+  },
+  {
+   "titulo": "Modificadores",
+   "item": "5.7",
+   "texto": "Cota básica (enquadrada, sem tolerância) define a posição/forma teórica; zona de tolerância projetada; condição de máximo material (detalhada na NBR 14646). Definições ilustradas de cada característica em 5.9.",
+   "valores": []
+  }
+ ]
+}

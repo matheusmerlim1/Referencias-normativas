@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SB-166",
+ "titulo": "SB-166 — Barras, vergalhões e arames de ligas Ni-Cr-Fe e Ni-Cr-Co-Mo (Inconel 600, 601, 690, 617…)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras (redondas, quadradas, sextavadas, retangulares) trabalhadas a quente e a frio e arame de ligas níquel-cromo-ferro (N06600, N06601, N06603, N06690, N06693, N06025, N06045) e níquel-cromo-cobalto-molibdênio (N06617)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N06600 — Ni mín. / Cr / Fe",
+     "valor": "72,0 % / 14,0–17,0 % / 6,0–10,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06601 — Ni / Cr",
+     "valor": "58,0–63,0 % / 21,0–25,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06617 — Ni mín. / Cr / Co / Mo",
+     "valor": "44,5 % / 20,0–24,0 % / 10,0–15,0 % / 8,0–10,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06690 — Ni mín. / Cr / Fe",
+     "valor": "58,0 % / 27,0–31,0 % / 7,0–11,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 3",
+   "texto": "Barras N06600 trabalhadas a frio (Su / Sy mín. / alongamento):",
+   "valores": [
+    {
+     "parametro": "Redondo abaixo de 1/2 in",
+     "valor": "120 000 psi (825) / 90 000 psi (620) / 7 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Redondo 1/2 a 1 in",
+     "valor": "110 000 psi (760) / 85 000 psi (585) / 10 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Arame recozido N06600/N06690 abaixo de 0,032 in — Su",
+     "valor": "80 000–115 000 psi (552–793)",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

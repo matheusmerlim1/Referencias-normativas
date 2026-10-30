@@ -1,0 +1,70 @@
+{
+ "id": "ASME-SFA-5.6",
+ "titulo": "SFA-5.6 — Eletrodos revestidos de cobre e ligas de cobre (AWS A5.6)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Eletrodos revestidos de cobre e ligas de cobre para soldagem SMAW (cobre, bronze ao silício, bronze fosforoso, cupro-níquel, bronze de alumínio e outros)."
+  },
+  {
+   "titulo": "Classificações",
+   "item": "Tabela 1",
+   "texto": "ECu (cobre), ECuSi (bronze ao silício), ECuSn-A/C (bronze fosforoso), ECuNi (cupro-níquel), ECuAl-A2/B (bronze de alumínio), ECuNiAl, ECuMnNiAl.",
+   "valores": [
+    {
+     "parametro": "ECu — Mn máx. / Fe máx. / Si máx.",
+     "valor": "0,10 / 0,20 / 0,10 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas do metal depositado",
+   "item": "Tabela 3",
+   "texto": "Su mín. / alongamento mín. (4D).",
+   "valores": [
+    {
+     "parametro": "ECu",
+     "valor": "25 ksi (170) / 20 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "ECuSi",
+     "valor": "50 ksi (350) / 20 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "ECuSn-A",
+     "valor": "35 ksi (240) / 20 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "ECuNi",
+     "valor": "50 ksi (350) / 20 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "ECuAl-A2",
+     "valor": "60 ksi (410) / 20 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "ECuNiAl",
+     "valor": "72 ksi (500) / 10 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "ECuMnNiAl",
+     "valor": "75 ksi (520) / 15 %",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "10, 11",
+   "texto": "Análise química do metal depositado, tração e dobramento conforme classificação."
+  }
+ ]
+}

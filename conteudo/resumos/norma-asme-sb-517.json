@@ -1,0 +1,55 @@
+{
+ "id": "ASME-SB-517",
+ "titulo": "SB-517 — Tubos soldados de ligas Ni-Cr-Fe (pipe)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe) soldados, trabalhados a frio e recozidos, das ligas N06600, N06603, N06025 e N06045, para serviço corrosivo e resistente ao calor, nas dimensões da ANSI B36.19."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "N06600 — Ni mín. / Cr / Fe",
+     "valor": "72,0 % / 14,0–17,0 % / 6,0–10,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "N06045 — Ni mín. / Cr / Fe",
+     "valor": "45,0 % / 26,0–29,0 % / 21,0–25,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N06600",
+     "valor": "80 000 psi (550) / 35 000 psi (240) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N06603",
+     "valor": "94 000 psi (650) / 43 000 psi (300) / 25 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N06025",
+     "valor": "98 000 psi (680) / 39 000 psi (270) / 30 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N06045",
+     "valor": "90 000 psi (620) / 35 000 psi (240) / 30 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

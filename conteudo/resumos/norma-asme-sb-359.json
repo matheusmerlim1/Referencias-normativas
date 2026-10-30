@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SB-359",
+ "titulo": "SB-359 — Tubos sem costura de cobre e ligas de cobre com superfície aletada integral",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos sem costura de cobre e ligas de cobre cuja superfície externa e/ou interna é conformada a frio para formar aletas integrais (melhor troca térmica), para condensadores, evaporadores e trocadores."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C12200 — Cu mín. / P",
+     "valor": "99,9 % / 0,015–0,040 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C44300 (almirantado) — Cu / Sn / As",
+     "valor": "70,0–73,0 % / 0,9–1,2 % / 0,02–0,06 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. (0,5 % sob carga).",
+   "valores": [
+    {
+     "parametro": "C12200 O61",
+     "valor": "30 ksi / 9 ksi",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C12200 H55",
+     "valor": "36 ksi / 30 ksi",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C44300/400/500 O61",
+     "valor": "45 ksi / 15 ksi",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C70600 O61",
+     "valor": "40 ksi / 15 ksi",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C71500 O61",
+     "valor": "52 ksi / 18 ksi",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

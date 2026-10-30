@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SB-75",
+ "titulo": "SB-75 — Tubos (tube) de cobre sem costura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de cobre sem costura, redondos, retangulares e quadrados, para engenharia geral, nos cobres C10100, C10200, C10300, C10800, C12000, C12200 e C14200. Requisitos gerais pela SB-251."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C10100 — Cu mín.",
+     "valor": "99,99 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C10200 — Cu mín.",
+     "valor": "99,95 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C12200 — Cu mín. / P",
+     "valor": "99,9 % / 0,015–0,040 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C14200 — As",
+     "valor": "0,15–0,50 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Têmperas e propriedades",
+   "item": "7, 8, 10, Tabela 2",
+   "texto": "Trefilados H55, H58, H80 e recozidos O50 (leve) e O60 (mole), com tamanho de grão e propriedades por têmpera e espessura.",
+   "valores": [
+    {
+     "parametro": "O60 (parede ≥ 0,035 in) — Su / Sy mín.",
+     "valor": "30 ksi / 9 ksi",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "O60 — grão médio mín.",
+     "valor": "0,040 mm",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "11 a 15",
+   "texto": "Expansão de tubo redondo recozido (quando pedida), exame micrográfico dos cobres sem oxigênio, fragilização por hidrogênio (B577, quando pedida) e correntes parasitas em cada tubo."
+  }
+ ]
+}

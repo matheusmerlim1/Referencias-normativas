@@ -1,0 +1,26 @@
+{
+ "id": "ASME-SA-751",
+ "titulo": "SA-751 — Métodos, práticas e terminologia para análise química de produtos de aço",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Definições, métodos de referência, práticas e guias para a análise química de aço, aço inoxidável e ligas afins, por via úmida e instrumental: tratamento dos requisitos químicos, análise de produto, elementos residuais, padrões de referência e relatórios."
+  },
+  {
+   "titulo": "Especificação da composição",
+   "item": "4",
+   "texto": "Recomenda-se o Guia E1282; limites expressos com número de algarismos significativos coerente."
+  },
+  {
+   "titulo": "Análise de corrida e de produto",
+   "item": "5, 6",
+   "texto": "O produtor analisa os elementos especificados em cada corrida (em corridas múltiplas, individual ou média). Na análise de produto valem as tolerâncias de produto da especificação (faixa mais larga que a de corrida)."
+  },
+  {
+   "titulo": "Padrões, algarismos e arredondamento",
+   "item": "10 a 12",
+   "texto": "Arbitragem com padrões de referência reconhecidos (preferência NIST). Resultados com o mesmo número de algarismos da especificação e arredondados conforme a E29."
+  }
+ ]
+}

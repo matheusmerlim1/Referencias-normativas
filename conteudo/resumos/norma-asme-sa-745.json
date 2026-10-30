@@ -1,0 +1,26 @@
+{
+ "id": "ASME-SA-745",
+ "titulo": "SA-745 — Exame ultrassônico de forjados de aço austenítico",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimentos e padrões de ultrassom por contato, pulso-eco, em forjados de aço austenítico, por feixe reto e/ou angular, quando exigido pelo pedido ou especificação."
+  },
+  {
+   "titulo": "Condições e procedimento",
+   "item": "4 a 8",
+   "texto": "Forjado examinado após o tratamento térmico, já na configuração de ultrassom e antes de furos; superfícies limpas; frequência a mais alta praticável. Feixe reto calibrado em furo de fundo plano; anéis e ocos também por feixe angular, nas direções circunferencial e axial."
+  },
+  {
+   "titulo": "Avaliação",
+   "item": "11",
+   "texto": "Aços austeníticos de grão grosso geram ruído de varredura; indicações devem ser analisadas criticamente para separar defeitos de efeito de grão."
+  },
+  {
+   "titulo": "Níveis de qualidade",
+   "item": "12",
+   "texto": "O comprador escolhe um nível de qualidade (feixe reto e angular) definido na norma, com base no tamanho de furo de referência e na perda de eco de fundo."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "id": "ASME-SB-751",
+ "titulo": "SB-751 — Requisitos gerais para tubos (tube) sem costura e soldados de níquel e ligas de níquel",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns obrigatórias (exceto seções 4 e 7) às especificações de tubos sem costura e com costura longitudinal de níquel e ligas de níquel (SB-163, SB-516, SB-626, SB-704 e outras): química, ensaios, tolerâncias, END e marcação."
+  },
+  {
+   "titulo": "Análise química",
+   "item": "Tabela 1",
+   "texto": "Métodos de análise por família UNS.",
+   "valores": [
+    {
+     "parametro": "N02 / N04 / N06, N08",
+     "valor": "ASTM E39 / E76 / E38 e E354",
+     "item": "Tabela 1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "id": "ISO-4759-1",
+ "titulo": "ISO 4759-1:2000 (IS 1367-2:2002) — Tolerâncias para fixadores — Parte 1: Parafusos, prisioneiros e porcas — Graus de produto A, B e C",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Seleção de tolerâncias para parafusos, prisioneiros e porcas métricos dos graus A (mais preciso), B e C (menos preciso) e para parafusos autoatarraxantes grau A. Tolerâncias dimensionais tiradas da ISO 286 (exceto roscas, da ISO 965), de forma e posição pela ISO 1101/8015/2692. Valem antes do revestimento (ver ISO 4042). Desvios só em normas de produto com motivo técnico; recomendada também para fixadores não normalizados.",
+   "valores": []
+  },
+  {
+   "titulo": "Parafusos e prisioneiros",
+   "item": "3",
+   "texto": "Nível de tolerância 'fechado' ou 'largo' por grau; tabelas para rosca, encaixes de aperto, cabeça, haste, comprimento, ponta e tolerâncias geométricas (batimento, perpendicularidade, posição).",
+   "valores": [
+    {
+     "parametro": "Nível — haste e face de apoio (A / B / C)",
+     "valor": "fechado / fechado / largo",
+     "item": "3.1.1"
+    },
+    {
+     "parametro": "Nível — demais características (A / B / C)",
+     "valor": "fechado / largo / largo",
+     "item": "3.1.1"
+    },
+    {
+     "parametro": "Rosca externa (A / B / C)",
+     "valor": "6g / 6g / 8g (C usa 6g para classe 8.8 e acima)",
+     "item": "3.1.2"
+    },
+    {
+     "parametro": "Abertura s — graus A e B",
+     "valor": "s ≤ 30: h13; s > 30: h14",
+     "item": "3.1.3.1.1"
+    },
+    {
+     "parametro": "Abertura s — grau C",
+     "valor": "≤ 18: h14; 18–60: h15; 60–180: h16; > 180: h17",
+     "item": "3.1.3.1.1",
+     "nota": "leitura de OCR — conferir faixas"
+    }
+   ]
+  },
+  {
+   "titulo": "Porcas e autoatarraxantes",
+   "item": "4–5",
+   "texto": "Tabelas equivalentes para porcas (rosca interna, abertura, altura, face de apoio, perpendicularidade) e para parafusos autoatarraxantes grau A.",
+   "valores": []
+  },
+  {
+   "titulo": "Anexos",
+   "item": "A–C",
+   "texto": "A: valores numéricos das tolerâncias ISO; B: exemplos de fixadores cotados e tolerados; C: exemplos de calibres e dispositivos de medição.",
+   "valores": []
+  }
+ ]
+}

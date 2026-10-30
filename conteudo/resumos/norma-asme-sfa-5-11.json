@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SFA-5.11",
+ "titulo": "SFA-5.11 — Eletrodos revestidos de níquel e ligas de níquel (AWS A5.11)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos revestidos de níquel e ligas de níquel (Ni maior que qualquer outro elemento) para soldagem SMAW."
+  },
+  {
+   "titulo": "Classificações e composição",
+   "item": "Tabela 1",
+   "texto": "ENi (níquel), ENiCu (Monel), ENiCrFe (Inconel), ENiCrMo (Hastelloy/625), ENiMo e outras.",
+   "valores": [
+    {
+     "parametro": "ENi-1 — Ni mín. / Ti",
+     "valor": "92,0 % / 1,0–4,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "ENiCrMo-3 (tipo 625) — Ni mín. / Cr / Mo / Nb+Ta / Fe máx.",
+     "valor": "55,0 % / 20,0–23,0 % / 8,0–10,0 % / 3,15–4,15 % / 7,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "ENiCrMo-4 (tipo C-276) — Cr / Mo / W / Fe",
+     "valor": "14,5–16,5 % / 15,0–17,0 % / 3,0–4,5 % / 4,0–7,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas do metal depositado",
+   "item": "Tabela 4",
+   "texto": "Su mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "ENi-1",
+     "valor": "60 ksi (410) / 20 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "ENiCu-7",
+     "valor": "70 ksi (480) / 30 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "ENiCrFe-1, -2, -3, -7",
+     "valor": "80 ksi (550) / 30 %",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "ENiCr-4",
+     "valor": "110 ksi (760)",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabela 2",
+   "texto": "Análise química, tração, dobramento e radiografia em diâmetros e posições definidos."
+  }
+ ]
+}

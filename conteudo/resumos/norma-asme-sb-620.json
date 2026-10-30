@@ -1,0 +1,75 @@
+{
+ "id": "ASME-SB-620",
+ "titulo": "SB-620 — Chapas, folhas e tiras de liga Ni-Fe-Cr-Mo (N08320)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras laminadas da liga N08320 para serviço corrosivo geral, solubilizadas e decapadas."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Liga N08320.",
+   "valores": [
+    {
+     "parametro": "Ni",
+     "valor": "25,0–27,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cr",
+     "valor": "21,0–23,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mo",
+     "valor": "4,0–6,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C máx. / Mn máx.",
+     "valor": "0,05 % / 2,5 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ti mín.",
+     "valor": "4 × C",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Fe",
+     "valor": "restante",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su mín.",
+     "valor": "75 000 psi (517)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "28 000 psi (193)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Alongamento mín.",
+     "valor": "35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Dureza máx. (informativa)",
+     "valor": "95 HRB",
+     "item": "Tabela 3"
+    }
+   ]
+  }
+ ]
+}

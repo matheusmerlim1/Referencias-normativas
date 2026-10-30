@@ -1,0 +1,58 @@
+{
+ "id": "ISO-2230",
+ "titulo": "ISO 2230:2002 — Produtos de borracha — Diretrizes para armazenagem",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1–3",
+   "texto": "Inspeção, registros, embalagem e armazenagem de produtos de borracha vulcanizada ou termoplástica (maciça ou celular) antes do uso; não vale para borracha crua. Período inicial de armazenagem (desde a fabricação até a primeira reinspeção) e período de extensão (após reinspeção aprovada).",
+   "valores": []
+  },
+  {
+   "titulo": "Grupos de borracha",
+   "item": "Tab. 1–3",
+   "texto": "A (ex. NR, BR, poliuretanos), B (ex. NBR, HNBR, epicloridrina, acrílica, butílicas) e C (ex. EPDM, FKM, silicones). Períodos de armazenagem por grupo na Tabela 4.",
+   "valores": [
+    {
+     "parametro": "Períodos inicial/extensão por grupo",
+     "valor": "Tabela 4",
+     "item": "Tab. 4",
+     "nota": "valores não legíveis no texto — conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Embalagem e condições de armazenagem",
+   "item": "6",
+   "texto": "Embalar em atmosfera seca, sem deformar as peças. Armazém fresco, longe de fontes de calor e de sol direto; evitar condensação.",
+   "valores": [
+    {
+     "parametro": "Umidade na embalagem",
+     "valor": "≤ 65 % UR",
+     "item": "6"
+    },
+    {
+     "parametro": "Temperatura de armazenagem",
+     "valor": "abaixo de 25 °C; abaixo de 15 °C manusear com cuidado (peças rígidas)",
+     "item": "6.2"
+    },
+    {
+     "parametro": "Umidade do armazém",
+     "valor": "< 70 % UR (menor para poliuretanos)",
+     "item": "6.2"
+    },
+    {
+     "parametro": "Efeito da temperatura no prazo",
+     "valor": "+10 °C reduz o prazo em ~50 %; −10 °C aumenta em ~100 %",
+     "item": "Tab. 4, Nota"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção e reembalagem",
+   "item": "7–8, Anexo A",
+   "texto": "Ao fim de cada período, inspeção visual e ensaios por amostragem; produtos retirados e devolvidos devem ser reembalados. Anexo A lista normas de armazenagem de produtos específicos.",
+   "valores": []
+  }
+ ]
+}

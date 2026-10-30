@@ -1,0 +1,75 @@
+{
+ "id": "ASME-SA-836",
+ "titulo": "SA-836 — Forjados de aço carbono com titânio para tubulação e vasos com revestimento vitrificado",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Conexões, componentes de válvula e peças forjadas não padronizadas para tubulação e vasos com revestimento de vidro. Propriedades certificadas em material de teste submetido a tratamentos que simulam a queima do vidro."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4",
+   "texto": "Lingotes ou blocos/tarugos/placas/barras forjados, laminados ou de lingotamento contínuo; forjamento por martelo, prensa, laminação, extrusão ou recalque."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx.",
+     "valor": "0,90 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,05 % / 0,05 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Si máx.",
+     "valor": "0,35 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ti",
+     "valor": "mín. 4 × C; máx. 1,00 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Classe I.",
+   "valores": [
+    {
+     "parametro": "Su mín.",
+     "valor": "55 ksi [380 MPa]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "25 ksi [175 MPa]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Alongamento / redução de área mín.",
+     "valor": "22 % / 35 %",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Reparo e marcação",
+   "item": "10, 14",
+   "texto": "Reparo por solda só com aprovação do comprador e qualificação. Marcação: fabricante, classe de pressão, especificação e classe."
+  }
+ ]
+}

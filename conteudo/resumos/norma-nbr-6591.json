@@ -1,0 +1,38 @@
+{
+ "id": "NBR-6591",
+ "titulo": "ABNT NBR 6591:2008 — Tubos de aço-carbono com solda longitudinal de seção circular, quadrada, retangular e especial para fins industriais",
+ "secoes": [
+  {"titulo": "Escopo e definições", "item": "1, 3",
+   "texto": "Características e dimensões de tubos de aço-carbono soldados por resistência elétrica (ERW, sem metal de adição) de seção circular, quadrada, retangular ou especial, feitos de bobina laminada a quente, a frio ou revestida, para uso industrial geral (não estrutural de pressão). Ovalização = diferença entre maior e menor diâmetro numa seção; torção = deslocamento de uma aresta em relação ao plano de apoio.",
+   "valores": [
+    {"parametro": "Comprimento-padrão de fabricação", "valor": "6 m", "item": "3.3, 4.6.3"}
+   ]},
+  {"titulo": "Designação, aço e acabamento", "item": "4.1–4.4",
+   "texto": "Designação pela dimensão externa e espessura (Tabelas A.1 a A.4). Aço laminado a quente, a frio ou revestido. Acabamento sem revestimento, galvanizado a quente, ou pré-revestido (NBR 7008, NM 86, ASTM A792/A463) com ou sem metalização do cordão. Composição química limitada pela Tabela 1.",
+   "valores": [
+    {"parametro": "Composição química máxima", "valor": "Tabela 1", "item": "4.3", "nota": "valores ilegíveis na cópia OCR — conferir"}
+   ]},
+  {"titulo": "Dimensões e tolerâncias", "item": "4.6, Anexo A",
+   "texto": "Dimensões-padrão: circulares (ex. 25,40 a 177,80 mm), quadradas (15 × 15 a 160 × 160) e retangulares; espessuras-padrão por tipo de chapa; tolerâncias de dimensão externa (Tab. A.6, medir a ≥ 100 mm da ponta), espessura (A.5), comprimento (A.7) e torção (A.8).",
+   "valores": [
+    {"parametro": "Comprimento-padrão", "valor": "6 m, +50 mm / −0", "item": "Tab. A.7"},
+    {"parametro": "Comprimento fixo — < 2 m / 2–3 m / 3–12 m", "valor": "+2 / +6 / +12 mm (−0)", "item": "Tab. A.7"},
+    {"parametro": "Rebarba interna — altura normal", "valor": "≤ menor de espessura e 3,0 mm", "item": "4.6.4.1"},
+    {"parametro": "Rebarba interna limitada (D ≥ 25,40 mm)", "valor": "≤ 0,25 mm", "item": "4.6.4.2"},
+    {"parametro": "Rebarba removida (altura negativa)", "valor": "≤ menor de 10 % da espessura e 0,30 mm", "item": "4.6.4.3"},
+    {"parametro": "Raio externo de canto (quadrado/retangular)", "valor": "≤ 3 × espessura", "item": "4.6.6"},
+    {"parametro": "Retilinidade (D ≥ 25,40 mm)", "valor": "≤ 2,5 mm por metro", "item": "4.6.8"}
+   ]},
+  {"titulo": "Galvanização", "item": "5.1",
+   "texto": "Tubos de aço laminado a quente podem ser galvanizados por imersão; revestimento aderente (sem desplacar no achatamento) e uniforme.",
+   "valores": [
+    {"parametro": "Massa média mínima de zinco", "valor": "≥ 250 g/m² (áreas interna + externa)", "item": "5.1.1"}
+   ]},
+  {"titulo": "Ensaios, marcação e aceitação", "item": "6–7",
+   "texto": "Inspeção visual e dimensional; composição comprovada pelo fabricante do aço; achatamento só em tubos circulares (NBR 6154), em duas etapas; alargamento (NBR NM 168) opcional. Marcação com norma, fabricante, dimensões e comprimento. Reensaio com o dobro de amostras.",
+   "valores": [
+    {"parametro": "Achatamento — 1ª etapa", "valor": "até 2/3 do diâmetro sem trinca na solda", "item": "6.4.2 a)"},
+    {"parametro": "Alargamento mínimo", "valor": "15 % do diâmetro externo sem fissura", "item": "6.4.3"}
+   ]}
+ ]
+}

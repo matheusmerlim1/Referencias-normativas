@@ -1,0 +1,60 @@
+{
+ "id": "ASME-SFA-5.22",
+ "titulo": "SFA-5.22 — Eletrodos tubulares de aço inoxidável para FCAW e varetas tubulares para raiz TIG (AWS A5.22)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos tubulares de aço inoxidável para FCAW e varetas tubulares para passe de raiz com TIG, com núcleo contendo ingredientes não metálicos."
+  },
+  {
+   "titulo": "Classificações",
+   "item": "Tabela 3",
+   "texto": "EXXXTX-X: liga (308L, 309L, 316L…), T = tubular, posição (0 ou 1), e proteção (-1 CO2; -3 autoprotegido; -4 Ar/CO2). Dupla classificação possível (ex.: E308LTX-1 também E308TX-1)."
+  },
+  {
+   "titulo": "Composição química do metal depositado",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "E308TX-X — C máx. / Cr / Ni",
+     "valor": "0,08 % / 18,0–21,0 % / 9,0–11,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "E307TX-X — C máx. / Cr / Ni / Mn",
+     "valor": "0,13 % / 18,0–20,5 % / 9,0–10,5 % / 3,30–4,75 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 6",
+   "texto": "Su mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "E307TX-X",
+     "valor": "85 ksi (590) / 30 %",
+     "item": "Tabela 6"
+    },
+    {
+     "parametro": "E308TX-X, E308HTX-X",
+     "valor": "80 ksi (550) / 35 %",
+     "item": "Tabela 6"
+    },
+    {
+     "parametro": "E308LTX-X",
+     "valor": "75 ksi (520) / 35 %",
+     "item": "Tabela 6"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabela 4",
+   "texto": "Análise química, radiografia, tração e, para algumas classificações (ex.: E316LKT0-3), Charpy."
+  }
+ ]
+}

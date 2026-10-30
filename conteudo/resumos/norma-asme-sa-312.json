@@ -1,0 +1,94 @@
+{
+ "id": "ASME-SA-312",
+ "titulo": "SA-312 — Tubos de aço inoxidável austenítico com e sem costura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de aço inoxidável austenítico sem costura (SML), soldados com costura reta (WLD) e soldados fortemente trabalhados a frio (HCW), para alta temperatura e serviço corrosivo geral. Alguns graus (TP304, TP304L, TP347) são aceitos por códigos de vaso/tubulação em baixa temperatura sem ensaio Charpy. Requisitos gerais pela SA-999."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "6",
+   "texto": "SML sem nenhuma solda; WLD soldado automaticamente sem metal de adição; HCW com redução a frio mínima de espessura (parede e solda) antes do recozimento final.",
+   "valores": [
+    {
+     "parametro": "Redução a frio mín. do HCW",
+     "valor": "35 % da espessura",
+     "item": "6.1.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "Tabela 2",
+   "texto": "Solubilização seguida de resfriamento rápido.",
+   "valores": [
+    {
+     "parametro": "Graus em geral",
+     "valor": "1900 °F [1040 °C]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "TP321H, TP347H, TP348H — acabado a frio / a quente",
+     "valor": "2000 °F [1100 °C] / 1925 °F [1050 °C]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "S31254, S32654",
+     "valor": "2100 °F [1150 °C]",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Ordem: C; Mn; P; S; Si; Cr; Ni; Mo (máximos, salvo faixas).",
+   "valores": [
+    {
+     "parametro": "TP316L (S31603)",
+     "valor": "C 0,035; Mn 2,00; P 0,045; S 0,030; Si 1,00; Cr 16,0–18,0; Ni 10,0–14,0; Mo 2,00–3,00 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 4",
+   "texto": "Su mín. / Sy mín.",
+   "valores": [
+    {
+     "parametro": "TP304, TP304H, TP316H",
+     "valor": "75 ksi [515] / 30 ksi [205]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "TP304L, TP316L",
+     "valor": "70 ksi [485] / 25 ksi [170]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "TP304N, TP316N",
+     "valor": "80 ksi [550] / 35 ksi [240]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm — long. / transv. (maioria dos graus)",
+     "valor": "35 % / 25 %",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "11, 12",
+   "texto": "Tração: 1 por lote de até 100 tubos (2 acima). Cada tubo: teste hidrostático (SA-999) ou ensaio elétrico não destrutivo; a partir de NPS 10 o hidrostático pode ser dispensado por acordo."
+  },
+  {
+   "titulo": "Reparo e marcação",
+   "item": "15, 17",
+   "texto": "Reparo por solda admitido em tubo soldado ≥ NPS 6 com parede ≥ 0,200 in, nas condições da norma. Marcação da SA-999 + NPS ou diâmetro, schedule/parede e processo (SML, WLD, HCW)."
+  }
+ ]
+}

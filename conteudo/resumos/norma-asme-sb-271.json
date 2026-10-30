@@ -1,0 +1,33 @@
+{
+ "id": "ASME-SB-271",
+ "titulo": "SB-271 — Fundidos centrifugados de ligas à base de cobre",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Peças fundidas por centrifugação de ligas à base de cobre nas composições nominais da Tabela 1 (bronzes, bronzes de alumínio etc.)."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. (0,5 % sob carga) / alongamento / dureza Brinell mín.",
+   "valores": [
+    {
+     "parametro": "C95200",
+     "valor": "65 ksi (450) / 25 ksi (170) / 20 % / 110 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C95400",
+     "valor": "75 ksi (515) / 30 ksi (205) / 12 % / 150 HB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C95400 tratado (HT)",
+     "valor": "90 ksi (620) / 45 ksi (310) / 6 % / 190 HB",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

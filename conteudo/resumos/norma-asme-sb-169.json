@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SB-169",
+ "titulo": "SB-169 — Chapas, folhas, tiras e barras laminadas de bronze de alumínio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Folhas, tiras e barras laminadas de bronze de alumínio C61300 e C61400 para estampagem, conformação e dobramento (não para uso elétrico)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Cu = restante. Para soldagem posterior, o comprador pode exigir Cr, Cd e outros limitados a 0,05 %.",
+   "valores": [
+    {
+     "parametro": "C61300 — Al / Fe / Sn",
+     "valor": "6,0–7,5 % / 2,0–3,0 % / 0,20–0,50 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "C61400 — Al / Fe / Mn máx.",
+     "valor": "6,0–8,0 % / 1,5–3,5 % / 1,0 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 2 e 3",
+   "texto": "Têmpera mole (O25, O60, M20). Su mín. / escoamento a 0,5 % / 0,2 % / alongamento.",
+   "valores": [
+    {
+     "parametro": "C61300 até 1/2 in",
+     "valor": "75 / 36 / 34 ksi; 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C61300 1/2 a 2 in",
+     "valor": "72 / 32 / 30 ksi; 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C61400 até 1/2 in",
+     "valor": "72 / 32 / 30 ksi",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "id": "ASME-SA-420",
+ "titulo": "SA-420 — Conexões de aço carbono e liga para baixa temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Conexões de aço carbono e liga, sem costura ou soldadas, nas dimensões ASME B16.9, B16.11, MSS SP-79 e SP-95, para tubulação e vasos em baixa temperatura (graus WPL6, WPL9, WPL3, WPL8). Requisitos gerais pela SA-960."
+  },
+  {
+   "titulo": "Material e fabricação",
+   "item": "5, 6",
+   "texto": "Forjados, barras, chapas ou tubos (soldados com metal de adição) de aço feito para atender ao Charpy. Soldas feitas por soldadores e procedimentos qualificados (ASME IX); todas as juntas de topo soldadas por fusão são radiografadas em todo o comprimento (UW-51)."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "7, Tabela 2",
+   "texto": "Normalizado, normalizado e revenido, recozido ou temperado e revenido, com todas as soldas feitas antes da austenitização. TTAT por grau:",
+   "valores": [
+    {
+     "parametro": "WPL6 — temperatura / patamar",
+     "valor": "1100–1200 °F [595–650 °C]; 1 h/in, mín. 3/4 h",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WPL3",
+     "valor": "1100–1150 °F [540–620 °C]; 1/4 h/in, mín. 1 h",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WPL8",
+     "valor": "1050–1100 °F [565–595 °C]; 1/2 h/in, mín. 1 h",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Valores máximos salvo faixas.",
+   "valores": [
+    {
+     "parametro": "WPL6",
+     "valor": "C 0,30; Mn 0,50–1,35; P 0,035; S 0,040; Si 0,15–0,40; Ni 0,40; Cr 0,30; Mo 0,12; Cu 0,40; V 0,08 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "WPL9 — C / Ni / Cu",
+     "valor": "0,20 % / 1,60–2,24 % / 0,75–1,25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "WPL3 — C / Ni",
+     "valor": "0,20 % / 3,2–3,8 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "WPL8 — C / Ni",
+     "valor": "0,13 % / 8,4–9,6 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su / Sy mín.",
+   "valores": [
+    {
+     "parametro": "WPL6",
+     "valor": "60–85 ksi [415–585] / 35 ksi [240]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "WPL9",
+     "valor": "63–88 ksi [435–610] / 46 ksi [315]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "WPL3",
+     "valor": "65–90 ksi [450–620] / 35 ksi [240]",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "WPL8",
+     "valor": "100–125 ksi [690–865] / 75 ksi [515]",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio de impacto",
+   "item": "10, Tabelas 4 a 6",
+   "texto": "Charpy V no metal-base e na solda.",
+   "valores": [
+    {
+     "parametro": "WPL6, WPL9, WPL3 — média / individual (10×10)",
+     "valor": "13 ft·lbf [17,6 J] / 10 ft·lbf [13,6 J]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "WPL8 — média / individual (10×10)",
+     "valor": "25 ft·lbf [33,9 J] / 20 ft·lbf [27,1 J]",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Temperatura — WPL6 / WPL9 / WPL3 / WPL8",
+     "valor": "−50 °F [−45 °C] / −100 °F [−75 °C] / −150 °F [−100 °C] / −320 °F [−195 °C]",
+     "item": "Tabela 6"
+    }
+   ]
+  },
+  {
+   "titulo": "Hidrostático e marcação",
+   "item": "11, 18",
+   "texto": "Hidrostático não exigido, mas a conexão deve suportar a pressão de teste do tubo equivalente. Marcação conforme MSS SP-25."
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "id": "ASME-SA-403",
+ "titulo": "SA-403 — Conexões de aço inoxidável austenítico forjadas/conformadas para tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Conexões de aço inoxidável austenítico para tubulação sob pressão. Graus 'WP' (dimensões e ratings ASME B16.9/B16.11/B16.28) e 'CR' (MSS SP-43). Os WP têm classes conforme construção e exame.",
+   "valores": [
+    {
+     "parametro": "Classe S",
+     "valor": "sem costura, sem END",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Classe W",
+     "valor": "soldada; RT ou UT",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Classe WX",
+     "valor": "soldada; RT de todas as soldas",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Classe WU",
+     "valor": "soldada; UT de todas as soldas",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Material e fabricação",
+   "item": "4, 5",
+   "texto": "Matéria-prima: forjados, barras, chapas ou tubos com ou sem costura conformes à Tabela 2; aço de forno elétrico ou a vácuo (refusão opcional). Conformação por martelamento, prensagem, extrusão, curvamento, solda, usinagem etc."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "6, Tabela 4",
+   "texto": "Toda conexão é solubilizada (carbonetos de cromo em solução) e resfriada rapidamente; graus H com solubilização separada.",
+   "valores": [
+    {
+     "parametro": "Solubilização mín. — graus em geral",
+     "valor": "1900 °F [1040 °C]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "321, 347",
+     "valor": "1900–2100 °F [1040–1150 °C]",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "S31254",
+     "valor": "2100 °F [1150 °C]",
+     "item": "Tabela 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "Faixas ampliadas para cobrir as várias especificações de matéria-prima.",
+   "valores": [
+    {
+     "parametro": "WP304 / CR304 (S30400)",
+     "valor": "C 0,08; Mn 2,00; P 0,045; S 0,030; Si 1,00; Ni 8,0–11,0; Cr 18,0–20,0 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 5",
+   "texto": "Sy mín. / Su mín.",
+   "valores": [
+    {
+     "parametro": "304, 304H, 309, 310S, 316, 316H, 317, 321, 347 e outros",
+     "valor": "30 ksi [205] / 75 ksi [515]",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "304L, 316L",
+     "valor": "25 ksi [170] / 70 ksi [485]",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "304N, 316N",
+     "valor": "35 ksi [240] / 80 ksi [550]",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "XM-19",
+     "valor": "55 ksi [380] / 100 ksi [690]",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "S31254",
+     "valor": "44 ksi [300] / 94–119 ksi [650–820]",
+     "item": "Tabela 5"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "9, 10, 14",
+   "texto": "Teste hidrostático não é exigido, mas as conexões WP devem suportar a pressão de teste do tubo correspondente. Exame visual da superfície. Marcação conforme MSS SP-25 com grau e classe (ex.: WP304-W, WP304-WX)."
+  }
+ ]
+}

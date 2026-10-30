@@ -1,0 +1,121 @@
+{
+ "id": "EQN-VERTICAL-LADDER",
+ "titulo": "Desenho típico de escada vertical (Peregrino II, sonda) — Statoil C140-CS-N-XG-0160-01",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "Notas gerais",
+   "texto": "Desenho estrutural as-built de escada vertical de alumínio/aço com gaiola, portão e plataforma, usado como padrão na sonda do Peregrino II. Escada é aço secundário.",
+   "valores": [
+    {
+     "parametro": "Categoria de inspeção",
+     "valor": "III (II se soldada em aço primário)",
+     "item": "Nota 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Escada",
+   "item": "Vista frontal; Notas 6, 10–12",
+   "texto": "Montantes afastados de valor fixo (menor só localmente), barras de perfil de alumínio antiderrapante igualmente espaçadas, primeira barra próxima do piso e a última nivelada com a saída. Montante de cantoneira ou barra chata conforme o vão entre suportes. Espaços livres à frente e atrás.",
+   "valores": [
+    {
+     "parametro": "Largura entre montantes",
+     "valor": "400 mm (300–400 mm só localmente)",
+     "item": "Nota 12",
+     "cota": "esquemas/escada-marinheiro-vista-frontal.svg#largura"
+    },
+    {
+     "parametro": "Espaçamento entre barras",
+     "valor": "250 a 300 mm",
+     "item": "Vista frontal",
+     "cota": "esquemas/escada-marinheiro-vista-frontal.svg#espacamento"
+    },
+    {
+     "parametro": "Piso até a 1ª barra",
+     "valor": "180 a 290 mm",
+     "item": "Nota 11",
+     "cota": "esquemas/escada-marinheiro-vista-frontal.svg#primeira-barra"
+    },
+    {
+     "parametro": "Espaço à frente / atrás do eixo da barra",
+     "valor": "600 mm / 150 mm",
+     "item": "Nota 10",
+     "cota": "esquemas/escada-marinheiro-vista-lateral.svg#espaco-frente"
+    },
+    {
+     "parametro": "Montante — vão 2400–6000 mm / < 2400 mm",
+     "valor": "L 130 × 65 × 8 / FB 100 × 10",
+     "item": "Nota 6"
+    },
+    {
+     "parametro": "Eixo da escada à estrutura",
+     "valor": "≥ 200 mm",
+     "item": "Seção A-A",
+     "cota": "esquemas/escada-marinheiro-plataformas.svg#sep-plataforma"
+    }
+   ]
+  },
+  {
+   "titulo": "Alturas, gaiola e saída",
+   "item": "Nota 7; Vista frontal",
+   "texto": "Lance único tem altura máxima; com plataformas intermediárias, o trecho entre elas é menor. Gaiola acima de certa altura, começando numa faixa sobre o piso, com arcos espaçados e montantes a cada 45°. Corrimão de saída acima do piso; portão em toda abertura, abrindo para a plataforma.",
+   "valores": [
+    {
+     "parametro": "Lance único máximo",
+     "valor": "9000 mm",
+     "item": "Nota 7",
+     "cota": "esquemas/escada-marinheiro-plataformas.svg#lance-unico"
+    },
+    {
+     "parametro": "Entre plataformas",
+     "valor": "≤ 6000 mm",
+     "item": "Nota 7",
+     "cota": "esquemas/escada-marinheiro-plataformas.svg#entre-plataformas"
+    },
+    {
+     "parametro": "Gaiola exigida",
+     "valor": "escada > 3000 mm",
+     "item": "Nota 7",
+     "cota": "esquemas/escada-marinheiro-gaiola.svg#altura-exige"
+    },
+    {
+     "parametro": "Início da gaiola",
+     "valor": "2200 a 3000 mm",
+     "item": "Vista frontal",
+     "cota": "esquemas/escada-marinheiro-gaiola.svg#inicio"
+    },
+    {
+     "parametro": "Gaiola — raio / centro / arcos",
+     "valor": "360 mm / 350 mm / ≤ 1500 mm",
+     "item": "Vista frontal",
+     "cota": "esquemas/escada-marinheiro-gaiola.svg#raio"
+    },
+    {
+     "parametro": "Corrimão de saída e gaiola acima do piso",
+     "valor": "1100 mm",
+     "item": "Seção A-A",
+     "cota": "esquemas/escada-marinheiro-gaiola.svg#acima"
+    },
+    {
+     "parametro": "Portão",
+     "valor": "720 mm de largura",
+     "item": "Nota 5",
+     "cota": "esquemas/escada-marinheiro-saida-topo.svg#portao"
+    }
+   ]
+  },
+  {
+   "titulo": "Solda e grating",
+   "item": "Notas 2, 4, 8",
+   "texto": "Soldas de filete ou penetração parcial pequenas, esmerilhadas onde encostam no grating. Grating galvanizado com bocel antiderrapante, sem bocel na saída frontal.",
+   "valores": [
+    {
+     "parametro": "Solda",
+     "valor": "filete ou PJP de 4 mm",
+     "item": "Nota 2"
+    }
+   ]
+  }
+ ]
+}

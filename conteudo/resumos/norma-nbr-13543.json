@@ -1,0 +1,100 @@
+{
+ "id": "NBR-13543",
+ "titulo": "ABNT NBR 13543:1995 — Laços de cabo de aço: utilização e inspeção",
+ "secoes": [
+  {
+   "titulo": "Escopo e modos de uso",
+   "item": "1–3",
+   "texto": "Como usar e inspecionar laços (lingas) de cabo de aço: simples, em par e sem fim, nos modos de fixação direta, forca, forca com duas voltas, cesta e cesta com duas voltas.",
+   "valores": [],
+   "figuras": [
+    "esquemas/lingadas-acessorios-cintas-modos-amarracao.svg"
+   ]
+  },
+  {
+   "titulo": "Antes do içamento",
+   "item": "4.1",
+   "texto": "Conhecer a massa da carga, prender nos pontos previstos ou acima do centro de gravidade, com ganchos e manilhas acima dele e sem partes soltas. Laço com trançado manual não serve para carga que possa girar.",
+   "valores": []
+  },
+  {
+   "titulo": "Uso",
+   "item": "4.2–4.4",
+   "texto": "Não dobrar o laço em canto vivo — usar protetores, pois dobrar sobre o próprio diâmetro corta muito a resistência. Na forca, deixar o ângulo se formar sozinho, preferir sapatilho e gancho corrediço e não dobrar junto à presilha. Manilha e sapatilho devem ser compatíveis em tamanho. Em temperaturas altas, consultar o fabricante.",
+   "valores": [
+    {
+     "parametro": "Raio mínimo de dobra",
+     "valor": "≥ Ø do cabo (abaixo: canto vivo)",
+     "item": "4.2.1"
+    },
+    {
+     "parametro": "Perda ao dobrar sobre o próprio Ø",
+     "valor": "até 50 %",
+     "item": "4.2.1, Nota"
+    },
+    {
+     "parametro": "Ângulo natural da forca",
+     "valor": "≈ 45° ou maior",
+     "item": "4.2.1",
+     "cota": "esquemas/lingadas-acessorios-cintas-modos-amarracao.svg#angulo-forca"
+    },
+    {
+     "parametro": "Compatibilidade manilha × sapatilho",
+     "valor": "0,757 ds < dm < 1,27 ds",
+     "item": "4.2.2; A.1"
+    },
+    {
+     "parametro": "Temperatura que exige consulta",
+     "valor": "> 100 °C",
+     "item": "4.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção",
+   "item": "5.1–5.3",
+   "texto": "Exame visual antes e durante cada série de movimentações; inspeção completa periódica por pessoa qualificada, com intervalo menor em serviço severo.",
+   "valores": [
+    {
+     "parametro": "Inspeção completa",
+     "valor": "≤ 6 meses",
+     "item": "5.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Critérios de descarte",
+   "item": "5.4",
+   "texto": "Retirar o laço com arames partidos acima de limites (distribuídos ou agrupados, e na presilha), perda de diâmetro, nós, amassamento, colapso da alma, suspeita de corrosão interna, sinais de calor ou arco elétrico, e defeitos em gancho, sapatilho, presilha ou olhal.",
+   "valores": [
+    {
+     "parametro": "Arames partidos em 6 d que exigem inspeção completa",
+     "valor": "> 5 % dos arames",
+     "item": "5.4.1.2",
+     "cota": "esquemas/lingadas-acessorios-arames-partidos-6d.svg#6d"
+    },
+    {
+     "parametro": "Descarte — arames partidos em 6 d",
+     "valor": "10 no cabo ou 5 numa perna (exceto 6×7); > 1 interno",
+     "item": "5.4.1.2"
+    },
+    {
+     "parametro": "Arames agrupados",
+     "valor": "≥ 3 → descartar",
+     "item": "5.4.1.3"
+    },
+    {
+     "parametro": "Arames partidos junto à presilha — 6×19 / 6×37",
+     "valor": "> 1 / > 2",
+     "item": "Tab. 2"
+    },
+    {
+     "parametro": "Redução de diâmetro",
+     "valor": "10 % do nominal",
+     "item": "5.4.2",
+     "cota": "esquemas/lingadas-acessorios-diametro-cabo.svg#d"
+    }
+   ]
+  }
+ ]
+}

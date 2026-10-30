@@ -1,0 +1,24 @@
+{
+ "id": "NBR-5444",
+ "titulo": "ABNT NBR 5444:1989 — Símbolos gráficos para instalações elétricas prediais",
+ "secoes": [
+  {"titulo": "Objetivo e condições gerais", "item": "1–3",
+   "texto": "Símbolos gráficos para plantas de instalações elétricas prediais. A planta é feita sobre o desenho de arquitetura e estrutura (NBR 5984), com uma matriz por sistema: luz e força (podendo separar teto e piso), telefone interno/externo, e sinalização, som, detecção, segurança, supervisão e controle. Cada matriz mostra aparelhos e dutos com dados e dimensões. Circuitos de importância, tensão ou polaridade diferentes podem ter traço de espessura diferente; aparelhos de potência diferente, símbolos de tamanho diferente.",
+   "valores": []},
+  {"titulo": "Lógica dos símbolos", "item": "4.1",
+   "texto": "Símbolos montados a partir de figuras geométricas simples.",
+   "valores": [
+    {"parametro": "Segmento de reta", "valor": "eletroduto (diâmetros convertidos para mm, Tab. 1)", "item": "4.1.1"},
+    {"parametro": "Círculo", "valor": "ponto de luz (maior), interruptor (menor) e dispositivo no teto; arandela na parede", "item": "4.1.2"},
+    {"parametro": "Triângulo equilátero", "valor": "tomadas (variações indicam tipo e altura: baixa, média, alta)", "item": "4.1.3"},
+    {"parametro": "Quadrado", "valor": "elemento no piso ou conversor de energia (motor)", "item": "4.1.4"}
+   ]},
+  {"titulo": "Tabelas de símbolos", "item": "4.3, Tab. 2–8, Anexo",
+   "texto": "Dutos e distribuição (eletroduto no teto/parede e no piso, tubulação de campainha/som, condutores fase, neutro, retorno, terra, positivo e negativo — cada traço um condutor, com seção e nº do circuito; cordoalha de terra), quadros de distribuição (parcial/geral, aparente/embutido), interruptores, luminárias, tomadas, motores e outros. O anexo traz planta exemplo de uma casa.",
+   "valores": [
+    {"parametro": "Eletroduto no teto/parede", "valor": "indicar a seção se não for 15 mm", "item": "Tab. 2, 5.1"},
+    {"parametro": "Cordoalha de terra '50G'", "valor": "50 mm²", "item": "Tab. 2"},
+    {"parametro": "Quadro parcial/geral", "valor": "indicar cargas de luz em W e de força em W ou kW", "item": "Tab. 3, 6.2"}
+   ]}
+ ]
+}

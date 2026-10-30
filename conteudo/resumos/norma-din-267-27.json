@@ -1,0 +1,36 @@
+{
+ "id": "DIN-267-27",
+ "titulo": "DIN 267-27:2004 — Fixadores — Condições técnicas de fornecimento — Parte 27: Parafusos de aço com revestimento adesivo",
+ "secoes": [
+  {
+   "titulo": "Escopo e definição",
+   "item": "1–3",
+   "texto": "Requisitos e ensaios de parafusos e prisioneiros de aço M3 a M39 (rosca DIN ISO 261) com revestimento adesivo microencapsulado em toda a circunferência da rosca, ativado no aperto.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "M3 a M39",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Revestimento padrão",
+   "item": "4",
+   "texto": "Zona revestida medida a partir da ponta; as primeiras duas ou três voltas ficam livres. Para engajamento maior que 1d, classes abaixo de 8.8 ou cabeças de resistência reduzida, especificar o comprimento. Comprimento/posição diferentes vão na designação.",
+   "valores": [
+    {
+     "parametro": "Comprimento revestido padrão",
+     "valor": "1,5d ± 2P a partir da ponta",
+     "item": "4.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos e ensaios",
+   "item": "5–7",
+   "texto": "Requisitos de desempenho do adesivo e métodos de ensaio (com porcas ISO 4032/8673 e arruelas ISO 7089).",
+   "valores": []
+  }
+ ]
+}

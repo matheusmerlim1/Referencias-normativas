@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" width="980" height="520" role="img" aria-label="Plataforma de trabalho — altura da tarefa e dimensões mínimas">
+<title>Plataforma de trabalho — altura da tarefa e dimensões mínimas</title>
+<defs><pattern id="hz" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+<text x="12" y="22" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Plataforma de trabalho — altura da tarefa e dimensões mínimas</text>
+<rect x="60" y="440" width="300" height="12" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<text x="210" y="470" text-anchor="middle" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">piso da plataforma</text>
+<circle cx="150" cy="190" r="16" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="150" y1="206" x2="150" y2="320" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="150" y1="320" x2="130" y2="440" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="150" y1="320" x2="170" y2="440" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="150" y1="235" x2="220" y2="270" stroke="#666" stroke-width="2" fill="none" stroke-linecap="round"/>
+<rect x="200" y="237" width="60" height="45" rx="0" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<text x="230" y="230" text-anchor="middle" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">tarefa</text>
+<line x1="200" y1="260" x2="330" y2="260" stroke="#666" stroke-width="1.2" fill="none" stroke-dasharray="6 4"/>
+<text x="332" y="256" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">altura da tarefa</text>
+<line x1="262" y1="440" x2="291" y2="440" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="285" y1="440" x2="285" y2="260" stroke="#666" stroke-width="1.2" fill="none"/>
+<polygon points="285,260 288.5,269 281.5,269" fill="#666"/>
+<polygon points="285,440 281.5,431 288.5,431" fill="#666"/>
+<text x="291" y="336" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">985 a 1270 mm</text>
+<text x="291" y="350" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">piso → tarefa</text>
+<text x="291" y="364" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(levantamento/torque)</text>
+<line x1="362" y1="440" x2="516" y2="440" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="440" y1="360" x2="476" y2="360" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="440" y1="168" x2="516" y2="168" stroke="#666" stroke-width="1.2" fill="none"/>
+<rect x="444" y="168" width="14" height="192" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1"/>
+<line x1="470" y1="440" x2="470" y2="360" stroke="#666" stroke-width="1.2" fill="none"/>
+<polygon points="470,360 473.5,369 466.5,369" fill="#666"/>
+<polygon points="470,440 466.5,431 473.5,431" fill="#666"/>
+<text x="476" y="404" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">500</text>
+<line x1="510" y1="440" x2="510" y2="168" stroke="#666" stroke-width="1.2" fill="none"/>
+<polygon points="510,168 513.5,177 506.5,177" fill="#666"/>
+<polygon points="510,440 506.5,431 513.5,431" fill="#666"/>
+<text x="516" y="300" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">1700 mm</text>
+<text x="516" y="314" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(ISO,</text>
+<text x="516" y="328" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">a partir</text>
+<text x="516" y="342" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">do piso)</text>
+<text x="451" y="160" text-anchor="middle" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">zona ISO</text>
+<line x1="360" y1="440" x2="426" y2="440" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="360" y1="135" x2="426" y2="135" stroke="#666" stroke-width="1.2" fill="none"/>
+<line x1="420" y1="440" x2="420" y2="135" stroke="#666" stroke-width="1.2" fill="none"/>
+<polygon points="420.0,135.0 423.5,144.0 416.5,144.0" fill="#666"/>
+<polygon points="420.0,440.0 416.5,431.0 423.5,431.0" fill="#666"/>
+<text x="414" y="128" text-anchor="end" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">≤ 1905 mm (tarefas leves)</text>
+<text x="560" y="60" text-anchor="start" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Altura (ASTM F1166, 11.13.4):</text>
+<text x="560" y="78" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">levantamento / torque máximo: piso da plataforma</text>
+<text x="560" y="96" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">      985 mm a 1270 mm abaixo da altura da tarefa</text>
+<text x="560" y="114" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">      (impresso '985 mm (38 in.)'; 38 in = 965 mm)</text>
+<text x="560" y="132" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">tarefas leves: alcance ≤ 1905 mm acima do piso</text>
+<text x="560" y="150" text-anchor="start" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Zona de trabalho (ISO 14122-2, 4.2.1):</text>
+<text x="560" y="168" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">entre 500 mm e 1700 mm acima do piso, quando possível</text>
+<text x="560" y="186" text-anchor="start" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Planta — dimensões mínimas:</text>
+<text x="560" y="204" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ASTM F1166: ≥ 762 mm × 915 mm;</text>
+<text x="560" y="222" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">      só para ficar em pé: ≥ 381 mm × 457 mm</text>
+<text x="560" y="240" text-anchor="start" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ABS: ver Figura 19 (recorte da norma)</text>
+<text x="12" y="512" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo, sem escala — não é desenho da norma. Valores transcritos dos requisitos da ficha.</text>
+</svg>

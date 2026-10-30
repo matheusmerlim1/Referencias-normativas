@@ -1,0 +1,35 @@
+{
+ "id": "NBR-13444",
+ "titulo": "ABNT NBR 13444:1995 — Sistemas hidráulicos de potência — Cilindros hidráulicos de haste simples, série 250 bar (25 MPa) — Dimensões de montagem",
+ "secoes": [
+  {"titulo": "Objetivo", "item": "1",
+   "texto": "Padroniza dimensões básicas e acessórios de montagem de cilindros hidráulicos de haste simples, série 250 bar (ISO 3322), diâmetros de 40 a 500 mm, para intercambiabilidade. Não fixa desempenho nem restringe o projeto interno.",
+   "valores": [
+    {"parametro": "Pressão nominal da série", "valor": "250 bar (25 MPa)", "item": "1.1"},
+    {"parametro": "Faixa de diâmetros de camisa", "valor": "40 a 500 mm", "item": "1.1"}
+   ]},
+  {"titulo": "Terminologia, fluido e tipo", "item": "3–4.2",
+   "texto": "Partes do cilindro (camisa, haste, êmbolo, tubo de parada, gaxetas, raspador, fita-guia, cabeçotes). Código do fluido para escolher vedações compatíveis (NBR 12641). Ação simples = AS; ação dupla = AD.",
+   "valores": [
+    {"parametro": "Código de fluido — poliglicol / emulsão água em óleo / outros", "valor": "20 / 40 / 50", "item": "Tab. 1"}
+   ]},
+  {"titulo": "Dimensões", "item": "4.3–4.8",
+   "texto": "Dimensões básicas por camisa/haste (Tab. 2, inclui rosca da haste), diâmetros normalizados de camisa (Tab. 3) e haste (Tab. 4), relações de área (Tab. 5), cursos preferenciais (Tab. 6) e tolerância de curso (Tab. 7).",
+   "valores": [
+    {"parametro": "Camisas (mm)", "valor": "40, 50, 63, 80, 100, 125, 140, 150, 160, 180, 200, 220, 250, 280, 320, 360, 400, 450, 500", "item": "Tab. 3"},
+    {"parametro": "Hastes (mm)", "valor": "22, 28, 32, 36, 40, 45, 50, 56, 63, 70, 80, 90, 100, 110, 125, 140, 160, 180, 200, 220, 250, 280, 320, 360", "item": "Tab. 4"},
+    {"parametro": "Relações de área", "valor": "≈ 1,4:1 a 1,6:1 (haste fina) e 2:1 (haste grossa) — ex. 100/70 = 2:1, 100/63 = 1,6:1", "item": "Tab. 5"},
+    {"parametro": "Rosca da haste — camisa 40", "valor": "M16 × 1,5", "item": "Tab. 2"}
+   ]},
+  {"titulo": "Requisitos de funcionamento", "item": "4.9–4.12",
+   "texto": "Amortecimento ajustável, dispositivo de partida por desvio de fluxo recomendado e sangria obrigatória.",
+   "valores": [
+    {"parametro": "Velocidade máxima recomendada", "valor": "0,5 m/s (acima, consultar o fabricante)", "item": "4.9"},
+    {"parametro": "Amortecimento ajustável nos dois cabeçotes", "valor": "curso > 100 mm e/ou velocidade > 0,1 m/s", "item": "4.10"},
+    {"parametro": "Pressão na câmara de amortecimento", "valor": "≤ 250 bar", "item": "4.10, Nota"}
+   ]},
+  {"titulo": "Montagens e identificação", "item": "4.13, 5",
+   "texto": "Tipos de fixação (flanges, munhões, articulações com rótula ISO 6124-2, pés) com dimensões normalizadas e conexões por flange ISO 6162 ou rosca (NBR 12913). Código do cilindro: tipo, série, fixação, camisa, haste, curso, fluido.",
+   "valores": []}
+ ]
+}

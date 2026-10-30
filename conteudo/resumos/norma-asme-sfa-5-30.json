@@ -1,0 +1,43 @@
+{
+ "id": "ASME-SFA-5.30",
+ "titulo": "SFA-5.30 — Insertos consumíveis para soldagem TIG (AWS A5.30)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Insertos consumíveis de aço carbono, aços Cr-Mo, inoxidáveis, ligas de níquel e cupro-níquel, para o passe de raiz com TIG (ou outro processo em que funcionem)."
+  },
+  {
+   "titulo": "Classes e estilos",
+   "item": "10",
+   "texto": "Classe 1: seção em T invertido; Classe 2: seção em J; demais classes com outras seções. Estilos: A (bobina), B (anel pré-formado, junta sobreposta aberta), C (anel pré-formado, junta de topo aberta)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela de química",
+   "texto": "Insertos inoxidáveis (prefixo IN); ordem: C máx.; Cr; Ni; Mo máx.; Mn; Si.",
+   "valores": [
+    {
+     "parametro": "IN308",
+     "valor": "0,08; 19,5–22,0; 9,0–11,0; 0,75; 1,0–2,5; 0,30–0,65 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "IN308L",
+     "valor": "0,03; 19,5–22,0; 9,0–11,0; 0,75; 1,0–2,5; 0,30–0,65 %",
+     "item": "Tabela de química"
+    },
+    {
+     "parametro": "IN309",
+     "valor": "0,12; 23,0–25,0; 12,0–14,0; 0,75; 1,0–2,5; 0,30–0,65 %",
+     "item": "Tabela de química"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "—",
+   "texto": "Classificação pela composição química e conformidade dimensional da seção."
+  }
+ ]
+}

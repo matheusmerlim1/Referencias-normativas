@@ -1,0 +1,31 @@
+{
+ "id": "ASME-SA-985",
+ "titulo": "SA-985 — Requisitos gerais para fundidos de aço por microfusão (cera perdida) para partes sob pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns obrigatórias para fundidos de aço feitos por microfusão (investment casting) para partes sob pressão das especificações SA-216, 217, 351, 352, 487 e outras."
+  },
+  {
+   "titulo": "Fusão",
+   "item": "4",
+   "texto": "Corridas-mãe em forno elétrico, com refino opcional (AOD, VOD, VIM)."
+  },
+  {
+   "titulo": "Química e tração",
+   "item": "5, 7",
+   "texto": "Análise conforme A751 nas amostras definidas; corpos de prova tratados nos fornos de produção junto com as peças que representam."
+  },
+  {
+   "titulo": "Reparo, flanges e qualidade",
+   "item": "8 a 10",
+   "texto": "Reparo por solda conforme a especificação do produto, com qualificação. Descontinuidades reveladas ao retirar flange para fazer ponta de solda: decisão por acordo. Superfície livre de cerâmica aderida, carepa, trincas e rasgos a quente."
+  },
+  {
+   "titulo": "Hidrostático e marcação",
+   "item": "11, 17",
+   "texto": "Cada peça testada após a usinagem com a pressão de teste de corpo da ASME B16.5 para o rating; sem vazamentos. Marcação com símbolo do grau (WCB, WC9, CF8M…) e número da corrida-mãe."
+  }
+ ]
+}

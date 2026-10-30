@@ -1,0 +1,40 @@
+{
+ "id": "ISO-7089",
+ "titulo": "ISO 7089:2000 — Arruelas lisas, série normal, grau A",
+ "secoes": [
+  {
+   "titulo": "Escopo e escolha",
+   "item": "1",
+   "texto": "Arruelas lisas para parafusos e porcas de cabeça sextavada, M1,6 a M64, em duas durezas: 200 HV para parafusos até 8.8 e inox; 300 HV para até 10.9. Em peças macias ou furos largos, avaliar série larga.",
+   "valores": [
+    {
+     "parametro": "200 HV / 300 HV",
+     "valor": "parafuso até 8.8 / até 10.9",
+     "item": "1"
+    }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-arruela-lisa-iso.svg"
+   ]
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "Tab. 1–2",
+   "texto": "Furo, diâmetro externo e espessura com tolerâncias (tabela completa na ficha parafusos-porcas-arruelas).",
+   "valores": [
+    {
+     "parametro": "M12 — furo / Ø externo / espessura",
+     "valor": "13 / 24 / 2,5 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-arruela-lisa-iso.svg#d2"
+    },
+    {
+     "parametro": "M20 — furo / Ø externo / espessura",
+     "valor": "21 / 37 / 3 mm",
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-arruela-lisa-iso.svg#d1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 640" width="940" height="640" role="img" aria-label="ISO 9013 — perpendicularidade/angularidade u, zona Δa, Rz5 e onde medir">
+<title>ISO 9013 — perpendicularidade/angularidade u, zona Δa, Rz5 e onde medir (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">ISO 9013 — perpendicularidade/angularidade u, zona Δa, Rz5 e onde medir</text>
+<text class="b" x="40" y="70">(a) Corte vertical: u na face reduzida</text>
+<rect class="sl" x="60" y="120" width="260" height="180"/>
+<path class="s" d="M320,120 L346,120 L330,300 L320,300 z"/>
+<line class="h" x1="320" y1="120" x2="320" y2="300"/>
+<line class="e" x1="318" y1="140" x2="360" y2="140"/>
+<line class="e" x1="318" y1="280" x2="360" y2="280"/>
+<g id="cota-a" class="cota"><line class="e" x1="57" y1="120" x2="24" y2="120"/><line class="e" x1="57" y1="300" x2="24" y2="300"/><line class="d" x1="30" y1="120" x2="30" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text x="37" y="215">a — espessura</text></g>
+<g id="cota-delta-a" class="cota"><line class="d" x1="353" y1="94" x2="353" y2="120" marker-end="url(#a)"/><line class="d" x1="353" y1="166" x2="353" y2="140" marker-end="url(#a)"/><line class="d" x1="353" y1="120" x2="353" y2="140"/><text x="372" y="126">Δa</text></g>
+<g id="cota-delta-a2" class="cota"><line class="d" x1="353" y1="254" x2="353" y2="280" marker-end="url(#a)"/><line class="d" x1="353" y1="326" x2="353" y2="300" marker-end="url(#a)"/><line class="d" x1="353" y1="280" x2="353" y2="300"/><text x="372" y="300">Δa</text></g>
+<g id="cota-u" class="cota"><line class="d" x1="294" y1="209" x2="320" y2="209" marker-end="url(#a)"/><line class="d" x1="366" y1="209" x2="340" y2="209" marker-end="url(#a)"/><line class="d" x1="320" y1="209" x2="340" y2="209"/><text x="380" y="215">u — faixa entre dois planos paralelos</text></g>
+<text class="b" x="40" y="345">(b) Rugosidade: Rz5 = média de Zt1…Zt5</text>
+<path class="g" d="M60,416 L66,427 L72,431 L78,444 L84,428 L90,431 L96,416 L102,432 L108,425 L114,444 L120,424 L126,434 L132,416 L138,427 L144,427 L150,444 L156,436 L162,430 L168,416 L174,434 L180,430 L186,444 L192,432 L198,426 L204,416 L210,432 L216,434 L222,444 L228,430 L234,433 L240,416 L246,432 L252,425 L258,444 L264,433 L270,431 L276,416 L282,428 L288,424 L294,444 L300,434 L306,430 L312,416 L318,433 L324,435 L330,444 L336,433 L342,435 L348,416 L354,429 L360,434 L366,444 L372,429 L378,435 L384,416 L390,435 L396,425 L402,444 L408,426 L414,427 L420,416"/>
+<line class="e" x1="60" y1="400" x2="60" y2="460"/>
+<line class="e" x1="132" y1="400" x2="132" y2="460"/>
+<line class="e" x1="204" y1="400" x2="204" y2="460"/>
+<line class="e" x1="276" y1="400" x2="276" y2="460"/>
+<line class="e" x1="348" y1="400" x2="348" y2="460"/>
+<line class="e" x1="420" y1="400" x2="420" y2="460"/>
+<g id="cota-Rz5" class="cota"><line class="d" x1="140" y1="390" x2="140" y2="416" marker-end="url(#a)"/><line class="d" x1="140" y1="470" x2="140" y2="444" marker-end="url(#a)"/><line class="d" x1="140" y1="416" x2="140" y2="444"/><text x="150" y="395">Zt</text></g>
+<g id="cota-ln" class="cota"><line class="e" x1="60" y1="463" x2="60" y2="491"/><line class="e" x1="420" y1="463" x2="420" y2="491"/><line class="d" x1="60" y1="485" x2="420" y2="485" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="240" y="503">5 comprimentos de amostragem</text></g>
+<text class="b" x="560" y="70">(c) Onde medir</text>
+<rect class="sl" x="560" y="130" width="340" height="60"/>
+<line class="d" x1="560" y1="215" x2="900" y2="215" marker-end="url(#a)"/>
+<text class="n en" x="900" y="235">avanço do corte</text>
+<line class="v" x1="620" y1="120" x2="620" y2="200"/>
+<line class="v" x1="700" y1="120" x2="700" y2="200"/>
+<line class="v" x1="780" y1="120" x2="780" y2="200"/>
+<g id="cota-medicao-15" class="cota"><line class="e" x1="560" y1="127" x2="560" y2="102"/><line class="e" x1="620" y1="127" x2="620" y2="102"/><line class="d" x1="560" y1="108" x2="620" y2="108" marker-start="url(#a)" marker-end="url(#a)"/><text x="640" y="104">distância do início</text></g>
+<g id="cota-medicao-20" class="cota"><line class="e" x1="620" y1="193" x2="620" y2="241"/><line class="e" x1="700" y1="193" x2="700" y2="241"/><line class="d" x1="620" y1="235" x2="700" y2="235" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="660" y="253">espaçamento</text></g>
+<text class="b" x="560" y="330">(d) Faixas de u e de Rz5 × espessura a</text>
+<line class="g" x1="580" y1="560" x2="900" y2="560"/>
+<line class="g" x1="580" y1="560" x2="580" y2="360"/>
+<text class="n en" x="900" y="580">a</text>
+<text class="n" x="586" y="372">u</text>
+<path class="d" d="M580,546.0 L900,522.0"/>
+<text class="n" x="901" y="526">1</text>
+<path class="d" d="M580,535.5 L900,493.5"/>
+<text class="n" x="901" y="497.5">2</text>
+<path class="d" d="M580,523.25 L900,460.25"/>
+<text class="n" x="901" y="464.2">3</text>
+<path class="d" d="M580,509.25 L900,422.25"/>
+<text class="n" x="901" y="426.2">4</text>
+<path class="d" d="M580,493.5 L900,379.5"/>
+<text class="n" x="901" y="383.5">5</text>
+<text class="n" x="600" y="590">faixas 1 (melhor) … 5 — limites na tabela da ficha</text>
+<text class="n" x="20" y="628">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

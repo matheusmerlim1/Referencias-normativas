@@ -1,0 +1,72 @@
+{
+ "id": "ASME-SA-660",
+ "titulo": "SA-660 — Tubos de aço carbono fundidos por centrifugação para alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos de aço carbono fundidos por centrifugação para alta temperatura e pressão; aptos a solda, curvamento e conformação. Graus WCA, WCB e WCC. Requisitos gerais pela SA-530."
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "5, 6",
+   "texto": "Superfícies interna e externa usinadas; tratamento térmico adequado após a peça esfriar abaixo da transformação, com fornos controlados por pirômetro.",
+   "valores": [
+    {
+     "parametro": "Rugosidade máx. após usinagem",
+     "valor": "250 µin (6,35 µm) Ra",
+     "item": "5.1.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Valores máximos; trocas C × Mn permitidas (−0,01 % C → +0,04 % Mn).",
+   "valores": [
+    {
+     "parametro": "C máx. — WCA / WCB / WCC",
+     "valor": "0,25 / 0,30 / 0,25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx. — WCA / WCB / WCC",
+     "valor": "0,70 / 1,00 / 1,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P / S / Si máx.",
+     "valor": "0,035 / 0,035 / 0,60 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento / redução de área.",
+   "valores": [
+    {
+     "parametro": "WCA",
+     "valor": "60 ksi [414] / 30 ksi [207] / 24 % / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WCB",
+     "valor": "70 ksi [483] / 36 ksi [248] / 22 % / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WCC",
+     "valor": "70 ksi [483] / 40 ksi [276] / 22 % / 35 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios e marcação",
+   "item": "7, 8, 12",
+   "texto": "Análise de produto por corrida se pedida; tração em uma ponta de um tubo por corrida e lote; achatamento. Marcação da SA-530 + espessura, peça e comprimento."
+  }
+ ]
+}

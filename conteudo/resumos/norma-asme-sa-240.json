@@ -1,0 +1,122 @@
+{
+ "id": "ASME-SA-240",
+ "titulo": "SA-240 — Chapas, folhas e tiras de aço inoxidável Cr, Cr-Ni e Cr-Mn-Ni para vasos de pressão e uso geral",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas grossas, folhas e tiras de aço inoxidável (austeníticos, ferríticos, martensíticos e duplex) para vasos de pressão e aplicações gerais. Requisitos gerais pela SA-480."
+  },
+  {
+   "titulo": "Serviço em alta temperatura",
+   "item": "6",
+   "texto": "Graus 'H' austeníticos com grão médio ASTM nº 7 ou mais grosso. Para graus austeníticos não-H usados em código ASME acima de 1000 °F [540 °C], vale o suplementar S2.",
+   "valores": [
+    {
+     "parametro": "Temperatura acima da qual S2 é obrigatório (não-H)",
+     "valor": "1000 °F [540 °C]",
+     "item": "6.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química (tipos usuais)",
+   "item": "Tabela 1",
+   "texto": "Ordem: C; Mn; P; S; Si; Cr; Ni; Mo; N (máximos, salvo faixas).",
+   "valores": [
+    {
+     "parametro": "304 (S30400)",
+     "valor": "C 0,08; Mn 2,00; P 0,045; S 0,030; Si 0,75; Cr 18,0–20,0; Ni 8,0–10,5; N 0,10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "304L (S30403)",
+     "valor": "C 0,030; Mn 2,00; P 0,045; S 0,030; Si 0,75; Cr 18,0–20,0; Ni 8,0–12,0; N 0,10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "316 (S31600)",
+     "valor": "C 0,08; Mn 2,00; P 0,045; S 0,030; Si 0,75; Cr 16,0–18,0; Ni 10,0–14,0; Mo 2,00–3,00; N 0,10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "316L (S31603)",
+     "valor": "C 0,030; demais como 316",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Duplex S31803",
+     "valor": "C 0,030; Mn 2,00; P 0,030; S 0,020; Si 1,00; Cr 21,0–23,0; Ni 4,5–6,5; Mo 2,5–3,5; N 0,08–0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Duplex 2205 (S32205)",
+     "valor": "C 0,030; Mn 2,00; P 0,030; S 0,020; Si 1,00; Cr 22,0–23,0; Ni 4,5–6,5; Mo 3,0–3,5; N 0,14–0,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "410S (S41008)",
+     "valor": "C 0,08; Mn 1,00; P 0,040; S 0,030; Si 1,00; Cr 11,5–13,5; Ni 0,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "405 (S40500)",
+     "valor": "C 0,08; Mn 1,00; P 0,040; S 0,030; Si 1,00; Cr 11,5–14,5; Ni 0,60; Al 0,10–0,30 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas (tipos usuais)",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín. em 50 mm / dureza máx.",
+   "valores": [
+    {
+     "parametro": "304, 304H",
+     "valor": "75 ksi [515 MPa] / 30 ksi [205 MPa] / 40 % / 201 HB, 92 HRB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "304L",
+     "valor": "70 ksi [485 MPa] / 25 ksi [170 MPa] / 40 % / 201 HB, 92 HRB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "316, 316H",
+     "valor": "75 ksi [515 MPa] / 30 ksi [205 MPa] / 40 % / 217 HB, 95 HRB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "316L",
+     "valor": "70 ksi [485 MPa] / 25 ksi [170 MPa] / 40 % / 217 HB, 95 HRB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "S31803",
+     "valor": "90 ksi [620 MPa] / 65 ksi [450 MPa] / 25 % / 293 HB, 31 HRC",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "2205 (S32205)",
+     "valor": "95 ksi [655 MPa] / 65 ksi [450 MPa] / 25 % / 293 HB, 31 HRC",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "410S",
+     "valor": "60 ksi [415 MPa] / 30 ksi [205 MPa] / 22 % / 183 HB, 89 HRB; dobramento a frio 180°",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "405",
+     "valor": "60 ksi [415 MPa] / 25 ksi [170 MPa] / 20 % / 179 HB, 88 HRB; dobramento a frio 180°",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "S1, S2",
+   "texto": "Charpy (S1), quando pedido; S2 para serviço em alta temperatura de graus não-H."
+  }
+ ]
+}

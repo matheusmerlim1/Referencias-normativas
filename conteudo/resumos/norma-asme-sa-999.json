@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SA-999",
+ "titulo": "SA-999 — Requisitos gerais para tubos (pipe) de aço liga e inoxidável",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Regras comuns às especificações de tubos de aço liga e inoxidável (SA-312, 358, 376, 409, 790, 813, 814 e outras): fabricação, química, ensaios mecânicos, dimensões e massa, reparo, retratamento, achatamento, hidrostático/END e marcação; a especificação do produto prevalece."
+  },
+  {
+   "titulo": "Ensaios mecânicos",
+   "item": "7, 8",
+   "texto": "Ensaios pela A370 (Anexo A2) em temperatura ambiente; escoamento a 0,2 % de deformação permanente ou 0,5 % de extensão sob carga."
+  },
+  {
+   "titulo": "Achatamento",
+   "item": "21",
+   "texto": "Tubo sem costura ou centrifugado: amostra de pelo menos 2 1/2 in [60 mm] achatada a frio em duas etapas (ductilidade e sanidade).",
+   "valores": [
+    {
+     "parametro": "Comprimento mín. da amostra",
+     "valor": "2 1/2 in [60 mm]",
+     "item": "21.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Hidrostático / END",
+   "item": "22",
+   "texto": "Quando exigido: hidrostático em cada tubo com tensão de parede de pelo menos uma fração do Sy mínimo, ou ensaio elétrico não destrutivo.",
+   "valores": [
+    {
+     "parametro": "Tensão mín. de teste — ferrítico liga e inoxidável",
+     "valor": "60 % do Sy mín.",
+     "item": "22.2.1"
+    },
+    {
+     "parametro": "— austenítico e duplex",
+     "valor": "50 % do Sy mín.",
+     "item": "22.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Dimensões e marcação",
+   "item": "14, 26",
+   "texto": "Dimensões e massas pelas ANSI B36.10 e B36.19. Cada tubo marcado com fabricante, especificação, grau, dimensões e outras informações."
+  }
+ ]
+}

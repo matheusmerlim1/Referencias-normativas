@@ -1,0 +1,88 @@
+{
+ "id": "ASME-SA-276",
+ "titulo": "SA-276 — Barras e perfis de aço inoxidável",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras acabadas a quente ou a frio (redondas, quadradas, sextavadas) e perfis laminados a quente ou extrudados (cantoneiras, tês, canais) nos tipos de inoxidável mais comuns, para resistência à corrosão e alta temperatura. Barras para reforjamento (SA-314) e de usinagem livre (A582) ficam fora. Requisitos gerais pela SA-484."
+  },
+  {
+   "titulo": "Condições de fornecimento",
+   "item": "5",
+   "texto": "A — recozida; H — temperada e revenida em temperatura baixa; T — temperada e revenida em temperatura alta; S — levemente encruada; B — fortemente encruada."
+  },
+  {
+   "titulo": "Composição química (tipos usuais)",
+   "item": "Tabela 1",
+   "texto": "Ordem: C; Mn; P; S; Si; Cr; Ni; Mo; N (máximos, salvo faixas).",
+   "valores": [
+    {
+     "parametro": "304 (S30400)",
+     "valor": "C 0,08; Mn 2,00; P 0,045; S 0,030; Si 1,00; Cr 18,00–20,00; Ni 8,00–10,50; N 0,10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "316 (S31600)",
+     "valor": "C 0,08; Mn 2,00; P 0,045; S 0,030; Si 1,00; Cr 16,00–18,00; Ni 10,00–14,00; Mo 2,00–3,00; N 0,10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "316L (S31603)",
+     "valor": "C 0,030; demais como 316",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "410 (S41000)",
+     "valor": "C 0,15; Mn 1,00; P 0,040; S 0,030; Si 1,00; Cr 11,50–13,50 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2, Tabela 3",
+   "texto": "Austeníticos na condição A (304, 316, 321, 347 e outros): Su ≥ 75 ksi [515 MPa], Sy ≥ 30 ksi [205 MPa] (acabado a quente ou a frio acima de 1/2 in). Martensíticos devem atingir a dureza mínima após têmpera.",
+   "valores": [
+    {
+     "parametro": "Austeníticos, cond. A, acabado a frio até 1/2 in [12,70 mm] — Su / Sy mín.",
+     "valor": "90 ksi [620 MPa] / 45 ksi [310 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Austeníticos, cond. A, acabado a quente — alongamento / redução de área mín.",
+     "valor": "40 % / 50 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "410 — têmpera ao ar de 1750 °F (955 °C) → dureza mín.",
+     "valor": "35 HRC",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "420 — têmpera ao ar de 1825 °F (995 °C) → dureza mín.",
+     "valor": "50 HRC",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "440C — têmpera ao ar de 1875 °F (1020 °C) → dureza mín.",
+     "valor": "58 HRC",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Permeabilidade magnética",
+   "item": "8",
+   "texto": "Quando pedida, tipos 201 e 205 recozidos têm permeabilidade magnética limitada.",
+   "valores": [
+    {
+     "parametro": "Permeabilidade máx. (201, 205 recozidos)",
+     "valor": "1,2",
+     "item": "8.1",
+     "nota": "conferir: valor truncado na extração do texto"
+    }
+   ]
+  }
+ ]
+}

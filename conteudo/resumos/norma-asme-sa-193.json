@@ -1,0 +1,47 @@
+{
+ "id": "ASME-SA-193",
+ "titulo": "ASME SA-193 — Material de parafusos de aço liga e inox para alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Cobre barras, parafusos, estojos e arame de aço liga e inoxidável para vasos, válvulas, flanges e conexões em alta temperatura. Há graus ferríticos (B5, B6, B7, B7M, B16…) e austeníticos (B8 e variantes), escolhidos pelo projeto e serviço. Para faixa intermediária de temperatura existe a A354 e para baixa temperatura a A320. Sem a designação \"M\" no pedido, o fornecimento é em polegadas. Corresponde à ASTM A193.",
+   "valores": []
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "6",
+   "texto": "Os ferríticos são temperados e revenidos (ou normalizados e revenidos) com temperatura mínima de revenimento por grau; se forem trefilados depois, levam alívio de tensões um pouco abaixo dessa temperatura. Austeníticos são solubilizados (classe 1) ou solubilizados e encruados (classe 2).",
+   "valores": [
+    {"parametro": "Revenimento mín. — B7 / B7M / B16", "valor": "1100 / 1150 / 1200 °F", "item": "Tabela 2"},
+    {"parametro": "Alívio após trefilação", "valor": "≥ revenimento − 55 °C (100 °F)", "item": "6.1.1"},
+    {"parametro": "Permanência de B6 e B6X no revenimento", "valor": "≥ 1 h", "item": "6.2"}
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Resistência, escoamento, alongamento, estricção e dureza máxima por grau e faixa de diâmetro; os valores caem com o diâmetro. B7M tem dureza limitada (serviço com H2S) e precisa de verificação de dureza em todas as peças. Os austeníticos encruados também caem bastante com o diâmetro. Tabela completa na ficha parafusos-porcas-arruelas.",
+   "valores": [
+    {"parametro": "B7 até 2 1/2 in — Rm / escoamento", "valor": "125 / 105 ksi (≈ 862 / 724 MPa)", "item": "Tabela 2"},
+    {"parametro": "B7 até 2 1/2 in — dureza máx.", "valor": "321 HB / 35 HRC", "item": "Tabela 2"},
+    {"parametro": "B7 > 4 a 7 in — Rm / escoamento", "valor": "100 / 75 ksi", "item": "Tabela 2"},
+    {"parametro": "B7M — Rm / escoamento / dureza máx.", "valor": "100 / 80 ksi / 235 HB (99 HRB)", "item": "Tabela 2"},
+    {"parametro": "B16 até 2 1/2 in — Rm / escoamento", "valor": "125 / 105 ksi", "item": "Tabela 2"},
+    {"parametro": "B8 classe 1 — Rm / escoamento", "valor": "75 / 30 ksi; dureza ≤ 223 HB", "item": "Tabela 2"},
+    {"parametro": "B8 classe 2 até 3/4 in — Rm / escoamento", "valor": "125 / 100 ksi", "item": "Tabela 2"},
+    {"parametro": "B8M classe 2 até 3/4 in — Rm / escoamento", "valor": "110 / 95 ksi", "item": "Tabela 2"},
+    {"parametro": "B6X — dureza máx.", "valor": "26 HRC", "item": "Tabela 2; 6.2"}
+   ]
+  },
+  {
+   "titulo": "Porcas e marcação",
+   "item": "14; 19",
+   "texto": "Porcas, quando pedidas, seguem a seção própria (em geral SA-194). O símbolo do grau e do fabricante vai numa ponta dos estojos e na cabeça dos parafusos a partir de certo diâmetro. O B7M verificado 100 % leva um traço sob o símbolo.",
+   "valores": [
+    {"parametro": "Marcação obrigatória — estojos / parafusos", "valor": "Ø ≥ 3/8 in (10 mm) / Ø ≥ 1/4 in (6 mm)", "item": "19.1"},
+    {"parametro": "B7M com dureza 100 % verificada", "valor": "símbolo sublinhado", "item": "19.1"}
+   ]
+  }
+ ]
+}

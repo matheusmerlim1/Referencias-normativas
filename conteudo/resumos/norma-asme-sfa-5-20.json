@@ -1,0 +1,72 @@
+{
+ "id": "ASME-SFA-5.20",
+ "titulo": "SFA-5.20 — Eletrodos tubulares de aço carbono para soldagem com arame tubular (FCAW) (AWS A5.20)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Eletrodos tubulares (fluxados) de aço carbono para FCAW com ou sem gás de proteção. Eletrodos de alma metálica ficam na A5.18."
+  },
+  {
+   "titulo": "Classificações",
+   "item": "Tabela 2",
+   "texto": "E7XT-X (A5.20M: E49XT-X): 7 = Su mín. 70 ksi; X = posição (0 plana/horizontal; 1 todas); T = tubular; sufixo = usabilidade (1, 2, 4…14, G) e gás (C = CO2; M = 75–80 % Ar/CO2). Designadores opcionais J, D, Q e H.",
+   "valores": [
+    {
+     "parametro": "E71T-1C — posições / gás / polaridade",
+     "valor": "H, F, VU, OH / CO2 / CC+",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química do metal de solda",
+   "item": "Tabela 6",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "E7XT-1C/-1M, -5C/-5M — C / Mn / Si máx.",
+     "valor": "0,12 / 1,75 / 0,90 %",
+     "item": "Tabela 6"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabelas 1U e 1M",
+   "texto": "Su / Sy mín. / alongamento / Charpy V.",
+   "valores": [
+    {
+     "parametro": "E7XT-1C, -1M",
+     "valor": "70–95 ksi (490–670 MPa) / 58 ksi (390) / 22 %; 20 ft·lbf a 0 °F [27 J a −20 °C]",
+     "item": "Tabelas 1U/1M"
+    },
+    {
+     "parametro": "E7XT-5C, -5M, -6, -8, -9C/-9M",
+     "valor": "70–95 ksi / 58 ksi / 22 %; 20 ft·lbf a −20 °F",
+     "item": "Tabela 1U"
+    },
+    {
+     "parametro": "E7XT-4, -7",
+     "valor": "70–95 ksi / 58 ksi / 22 %; Charpy não especificado",
+     "item": "Tabela 1U"
+    },
+    {
+     "parametro": "E7XT-2, -3, -10 (monopasse)",
+     "valor": "Su mín. 70 ksi; demais não especificados",
+     "item": "Tabela 1U"
+    },
+    {
+     "parametro": "Designador 'D' (opcional)",
+     "valor": "Sy mín. 58 ksi [400 MPa], Su mín. 70 ksi [490 MPa]; 40 ft·lbf a +70 °F [54 J a +20 °C]",
+     "item": "Tabela 10"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "Tabela 3",
+   "texto": "Análise química, radiografia, tração, Charpy (quando exigido), dobramento (monopasse) e filete, por classificação."
+  }
+ ]
+}

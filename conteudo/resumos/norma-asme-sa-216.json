@@ -1,0 +1,94 @@
+{
+ "id": "ASME-SA-216",
+ "titulo": "SA-216 — Fundidos de aço carbono soldáveis para alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Peças fundidas de aço carbono para válvulas, flanges, conexões e outras partes sob pressão em alta temperatura, soldáveis por fusão a outros fundidos ou forjados. Graus WCA, WCB e WCC. Requisitos gerais pela SA-703."
+  },
+  {
+   "titulo": "Tratamento térmico",
+   "item": "5, 6",
+   "texto": "Fornecidos recozidos, normalizados ou normalizados e revenidos (têmpera e revenimento só pelo suplementar S15). O tratamento é feito depois que a peça esfria abaixo da faixa de transformação; fornos controlados por pirômetro."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "Valores máximos. Há regras de troca C × Mn (ex.: no WCA, −0,01 % C permite +0,04 % Mn, até 1,10 %).",
+   "valores": [
+    {
+     "parametro": "C máx. — WCA / WCB / WCC",
+     "valor": "0,25 / 0,30 / 0,25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx. — WCA / WCB / WCC",
+     "valor": "0,70 / 1,00 / 1,20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P / S / Si máx.",
+     "valor": "0,04 / 0,045 / 0,60 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Residuais máx. Cu / Ni / Cr / Mo / V",
+     "valor": "0,30 / 0,50 / 0,50 / 0,20 / 0,03 %",
+     "item": "Tabela 1",
+     "nota": "Soma dos residuais ≤ 1,00 %"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "WCA — Su / Sy mín.",
+     "valor": "60 a 85 ksi [415 a 585 MPa] / 30 ksi [205 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WCB — Su / Sy mín.",
+     "valor": "70 a 95 ksi [485 a 655 MPa] / 36 ksi [250 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "WCC — Su / Sy mín.",
+     "valor": "70 a 95 ksi [485 a 655 MPa] / 40 ksi [275 MPa]",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm — WCA / WCB / WCC",
+     "valor": "24 / 22 / 22 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Redução de área mín.",
+     "valor": "35 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Qualidade e reparo",
+   "item": "9, 10",
+   "texto": "Superfície examinada visualmente, livre de areia, carepa, trincas e rasgos a quente. Reparos por solda com procedimento e soldadores qualificados pela ASME IX e inspecionados como a peça."
+  },
+  {
+   "titulo": "Requisitos suplementares",
+   "item": "S1–S15",
+   "texto": "Opcionais da SA-703 (elementos não especificados, ensaios destrutivos, dobramento, PM, RT, LP, UT…), carbono equivalente (S11) e têmpera e revenimento (S15).",
+   "valores": [
+    {
+     "parametro": "CE máx. (S11) — WCA / WCB / WCC",
+     "valor": "0,50 / 0,50 / 0,55",
+     "item": "S11.1",
+     "nota": "CE = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15"
+    }
+   ]
+  }
+ ]
+}

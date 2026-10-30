@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="960" height="440" role="img" aria-label="Grampos de cabo — montagem (sela na parte viva, U na parte morta)">
+<title>Grampos de cabo — montagem (sela na parte viva, U na parte morta) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Grampos de cabo — montagem (sela na parte viva, U na parte morta)</text>
+<path d="M120,200 A60,60 0 0 0 120,290" fill="none" stroke="#666" stroke-width="8"/>
+<path d="M120,200 L900,200" stroke="#666" stroke-width="8"/>
+<path d="M120,290 C200,290 230,230 300,230 L700,230" fill="none" stroke="#666" stroke-width="8"/>
+<path d="M110,208 A52,52 0 0 0 110,282" fill="none" stroke="#999" stroke-width="10"/>
+<text class="n en" x="70" y="250">sapatilho</text>
+<rect class="s" x="308" y="182" width="44" height="14"/>
+<path d="M316,196 L316,234 A14,14 0 0 0 344,234 L344,196" fill="none" stroke="#666" stroke-width="4"/>
+<rect class="s" x="448" y="182" width="44" height="14"/>
+<path d="M456,196 L456,234 A14,14 0 0 0 484,234 L484,196" fill="none" stroke="#666" stroke-width="4"/>
+<rect class="s" x="588" y="182" width="44" height="14"/>
+<path d="M596,196 L596,234 A14,14 0 0 0 624,234 L624,196" fill="none" stroke="#666" stroke-width="4"/>
+<text class="n m" x="800" y="188">parte viva</text>
+<text class="n m" x="560" y="280">parte morta</text>
+<g id="cota-B" class="cota"><line class="e" x1="632" y1="233" x2="632" y2="296"/><line class="e" x1="700" y1="233" x2="700" y2="296"/><line class="d" x1="632" y1="290" x2="700" y2="290" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="666" y="308">B</text></g>
+<g id="cota-L" class="cota"><line class="e" x1="330" y1="197" x2="330" y2="139"/><line class="e" x1="470" y1="197" x2="470" y2="139"/><line class="d" x1="330" y1="145" x2="470" y2="145" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="400" y="138">L</text></g>
+<g id="cota-A" class="cota"><line class="e" x1="120" y1="253" x2="120" y2="326"/><line class="e" x1="700" y1="253" x2="700" y2="326"/><line class="d" x1="120" y1="320" x2="700" y2="320" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="410" y="338">A (comprimento da parte morta)</text></g>
+<g id="cota-d" class="cota"><line class="d" x1="860" y1="170" x2="860" y2="196" marker-end="url(#a)"/><line class="d" x1="860" y1="230" x2="860" y2="204" marker-end="url(#a)"/><line class="d" x1="860" y1="196" x2="860" y2="204"/><text class="en" x="850" y="240">d (Ø do cabo)</text></g>
+<text class="n m" x="480" y="400">1º grampo junto à ponta da parte morta; 2º junto ao sapatilho; demais igualmente espaçados</text>
+<text class="n" x="20" y="428">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

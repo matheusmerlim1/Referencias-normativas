@@ -1,0 +1,50 @@
+{
+ "id": "ASME-SA-574",
+ "titulo": "SA-574 — Parafusos de cabeça cilíndrica com sextavado interno (Allen) de aço liga",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Parafusos de cabeça cilíndrica com sextavado interno, de aço liga temperado e revenido, de 0,060 a 4 in de diâmetro, para alta resistência (versão métrica separada: A574M)."
+  },
+  {
+   "titulo": "Material",
+   "item": "5, 6, Tabela S1.1",
+   "texto": "Aço liga de grão fino (forno Siemens-Martin, oxigênio ou elétrico); graus como 4037, 4140, 4340, 8740, 5137M, 51B37M.",
+   "valores": [
+    {
+     "parametro": "4140 — C (corrida)",
+     "valor": "0,38–0,43 %",
+     "item": "Tabela S1.1"
+    },
+    {
+     "parametro": "4340 — C (corrida)",
+     "valor": "0,38–0,43 %",
+     "item": "Tabela S1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "7, Tabelas 2 a 4",
+   "texto": "Parafusos curtos (< 3d) ou sem rosca suficiente: só dureza. Demais: carga de tração com cunha sob a cabeça e carga de prova.",
+   "valores": [
+    {
+     "parametro": "Dureza — até 0,500 in",
+     "valor": "39 a 45 HRC",
+     "item": "7.1"
+    },
+    {
+     "parametro": "Dureza — 0,625 in e maiores",
+     "valor": "37 a 45 HRC",
+     "item": "7.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Metalurgia",
+   "item": "8, Tabela 5",
+   "texto": "Sem carburização nem descarbonetação total na superfície; descarbonetação parcial limitada pela Tabela 5."
+  }
+ ]
+}

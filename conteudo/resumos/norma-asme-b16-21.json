@@ -1,0 +1,25 @@
+{
+ "id": "ASME-B16.21",
+ "titulo": "ASME B16.21 — Juntas não metálicas planas para flanges",
+ "secoes": [
+  {
+   "titulo": "Escopo e tipos",
+   "item": "1; 2; Tabelas 1–9",
+   "texto": "Juntas planas não metálicas para flanges de ferro fundido (B16.1), de aço (B16.5, B16.47 Séries A e B), de liga de cobre (B16.24) e MSS SP-51: anel plano, que fica dentro do círculo de parafusos para flange com ressalto, e face plena, com furos, para flange de face plana. A espessura e o material são escolhidos pelo usuário conforme o serviço. As dimensões por classe e NPS estão na ficha flange-asme-b16-5.",
+   "valores": [
+    {"parametro": "Espessura", "valor": "escolha do usuário (material e serviço)", "item": "2.5; 4.1", "cota": "esquemas/flange-asme-b16-5-junta-plana-b16-21.svg#espessura"}
+   ]
+  },
+  {
+   "titulo": "Tolerâncias",
+   "item": "4.2",
+   "texto": "Os diâmetros externo e interno, o círculo de furação e a distância entre furos têm tolerâncias que dobram a partir de NPS 14.",
+   "valores": [
+    {"parametro": "Ø externo", "valor": "+0/−1,5 mm (≤ NPS 12); +0/−3,0 mm (≥ NPS 14)", "item": "4.2", "cota": "esquemas/flange-asme-b16-5-junta-plana-b16-21.svg#OD"},
+    {"parametro": "Ø interno", "valor": "± 1,5 mm (≤ NPS 12); ± 3,0 mm (≥ NPS 14)", "item": "4.2"},
+    {"parametro": "Círculo de furação (face plena)", "valor": "± 1,5 mm", "item": "4.2"},
+    {"parametro": "Entre furos adjacentes", "valor": "± 1,0 mm", "item": "4.2"}
+   ]
+  }
+ ]
+}

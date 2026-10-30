@@ -1,0 +1,86 @@
+{
+ "id": "DIN-3017-1",
+ "titulo": "DIN 3017-1:1998 — Abraçadeiras de mangueira — Parte 1: Com rosca sem-fim, forma A",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Abraçadeiras com parafuso sem-fim para fixar mangueiras em instalações móveis, fixas e em navios.",
+   "valores": []
+  },
+  {
+   "titulo": "Dimensões",
+   "item": "3, Tab. 1–5",
+   "texto": "Tabelas por largura de fita (5; 7,5; 9; 12; 13 mm) e faixa de aperto: espessura da fita, carcaça, cabeça do parafuso, torque de aperto estático AD, torque de ensaio PD e força de tração da fita BZK. Acima de 160 mm, faixas de 20 mm em passos de 10 mm.",
+   "valores": []
+  },
+  {
+   "titulo": "Designação",
+   "item": "3",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Exemplo",
+     "valor": "Abraçadeira DIN 3017-A-40-60 × 9-W2-2 (faixa, largura, material, proteção)",
+     "item": "3"
+    },
+    {
+     "parametro": "Cabeça opcional",
+     "valor": "C6 (s2 = 6 mm, fita de 9 mm) ou C8 (s2 = 8 mm, fita de 13 mm)",
+     "item": "3"
+    }
+   ]
+  },
+  {
+   "titulo": "Materiais",
+   "item": "4",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "W1",
+     "valor": "aço, Rm ≥ 400 N/mm²",
+     "item": "4"
+    },
+    {
+     "parametro": "W2",
+     "valor": "inox 1.4016 ou equivalente (tipo a critério do fabricante)",
+     "item": "4",
+     "nota": "a quais peças se aplica cada classe — conferir"
+    },
+    {
+     "parametro": "W3",
+     "valor": "1.4016 (ou equivalente)",
+     "item": "4",
+     "nota": "conferir"
+    },
+    {
+     "parametro": "W4",
+     "valor": "1.4301 (ou equivalente)",
+     "item": "4"
+    },
+    {
+     "parametro": "W5",
+     "valor": "1.4401, 1.4436 ou 1.4571 — adequado à água do mar",
+     "item": "4"
+    }
+   ]
+  },
+  {
+   "titulo": "Proteção superficial",
+   "item": "5",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Grau 2",
+     "valor": "fita zincada a quente (15 µm) ou eletrolítica ≥ 8 µm; demais peças ≥ 8 µm",
+     "item": "5"
+    },
+    {
+     "parametro": "Grau 3",
+     "valor": "fita e carcaça com Al-Zn (15 µm)",
+     "item": "5"
+    }
+   ]
+  }
+ ]
+}

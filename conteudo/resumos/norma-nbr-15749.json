@@ -1,0 +1,33 @@
+{
+ "id": "NBR-15749",
+ "titulo": "ABNT NBR 15749:2009 — Medição de resistência de aterramento e de potenciais na superfície do solo em sistemas de aterramento",
+ "secoes": [
+  {"titulo": "Escopo e definições", "item": "1, 3",
+   "texto": "Critérios e métodos de medição da resistência (ou impedância) de sistemas de aterramento e dos potenciais de passo e de toque na superfície do solo, em instalações desenergizadas ou energizadas. Resistência de aterramento: tensão entre eletrodo e terra remoto dividida pela corrente injetada. Tensão de toque: diferença entre estrutura aterrada e ponto do solo ao alcance do braço; tensão máxima do sistema de aterramento (GPR).",
+   "valores": []},
+  {"titulo": "Segurança", "item": "5",
+   "texto": "Durante a medição podem surgir tensões perigosas nos cabos e eletrodos (faltas no sistema, descargas atmosféricas): luvas, isolamento, comunicação entre equipes e suspensão do ensaio com tempestade.",
+   "valores": []},
+  {"titulo": "Método da queda de potencial", "item": "6.1",
+   "texto": "Injeta-se corrente entre a malha (E) e um eletrodo auxiliar de corrente (H) distante; desloca-se o eletrodo de potencial (S) e traça-se a curva R × distância. O valor verdadeiro é o patamar horizontal. Eletrodos alinhados, na mesma direção e sentido; atenção ao acoplamento entre cabos em malhas de baixa resistência e à frequência do instrumento diferente da industrial.",
+   "valores": [
+    {"parametro": "Verificação do patamar", "valor": "deslocar S e aceitar se a variação da leitura não passar de 10 %", "item": "6.1.5.4", "nota": "texto parcial — conferir as posições exatas"},
+    {"parametro": "Acoplamento indutivo entre cabos paralelos a 60 Hz", "valor": "até cerca de 0,1 Ω por 100 m", "item": "6.1.8.2"}
+   ]},
+  {"titulo": "Grandes sistemas e malhas interligadas", "item": "6.1.11–6.2",
+   "texto": "Em subestações e usinas grandes, a reatância pesa: medir impedância. Pode-se usar uma linha de transmissão desenergizada como circuito de corrente ou outra subestação como eletrodo remoto. Antes de medir, desconectar para-raios de LT, contrapesos, neutros de alimentadores e blindagens; ou medir as correntes que retornam por esses caminhos.",
+   "valores": [
+    {"parametro": "Subestação usada como eletrodo auxiliar de corrente", "valor": "distância > 20 km", "item": "6.2.4", "nota": "a figura cita também > 5 km para outro arranjo — conferir"}
+   ]},
+  {"titulo": "Potenciais de passo e toque", "item": "7",
+   "texto": "Fonte de tensão ajustável injetando corrente na malha; medir nos locais de operação e circulação. A 'pessoa' é simulada por resistência de 1 000 Ω e os pés por pesos sobre a brita.",
+   "valores": [
+    {"parametro": "Tensão de ensaio da fonte (regra prática)", "valor": "≈ 100 V", "item": "7.7.3"},
+    {"parametro": "Simulação dos pés", "valor": "2 pesos de 25 kg com base de contato de 200 cm² cada", "item": "7.9.2"},
+    {"parametro": "Resistências do ensaio", "valor": "1 000 Ω (corpo) e 3 000 Ω (para obter a resistência de contato)", "item": "7.9.2"}
+   ]},
+  {"titulo": "Instalações energizadas e anexos", "item": "8, Anexos",
+   "texto": "Métodos para medir com a instalação energizada (frequência diferente da industrial, método síncrono com inversão de polaridade), requisitos de instrumentos (tensões de interferência em modo série) e resistividade do solo.",
+   "valores": []}
+ ]
+}

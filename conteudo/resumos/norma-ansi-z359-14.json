@@ -1,0 +1,59 @@
+{
+ "id": "ANSI-Z359.14",
+ "titulo": "ANSI/ASSP Z359.14-2021 — Trava-quedas retráteis (SRD) para proteção e resgate",
+ "secoes": [
+  {
+   "titulo": "Escopo, tipos e classes",
+   "item": "1",
+   "texto": "Requisitos de desempenho, projeto, ensaios de qualificação, marcação, instruções, inspeção, manutenção e descarte de dispositivos retráteis: o trava-quedas retrátil comum (SRL), o pessoal, preso ao cinto (SRL-P), e o com resgate integrado (SRL-R). Só pode levar a marca da norma o que cumprir tudo, verificado pela Z359.7. A Classe 1 é para ancoragem acima da cabeça; a Classe 2 serve quando a ancoragem fica baixa, inclusive com queda sobre aresta, e precisa antes atender à Classe 1.",
+   "valores": [
+    {"parametro": "Faixa de massa do usuário", "valor": "59 a 141 kg (130–310 lb)", "item": "1.1"},
+    {"parametro": "Queda livre máx. — Classe 1", "valor": "610 mm (2 ft), só ancoragem acima", "item": "1.4.1", "cota": "esquemas/ancoragem-linha-de-vida-retratil.svg#queda-livre-srd"},
+    {"parametro": "Queda livre máx. — Classe 2", "valor": "1,8 m (6 ft), sobre aresta", "item": "1.4.2", "cota": "esquemas/ancoragem-linha-de-vida-retratil.svg#queda-livre-srd"}
+   ]
+  },
+  {
+   "titulo": "Resistência estática",
+   "item": "3.1; 3.2",
+   "texto": "O dispositivo inteiro, o mecanismo de travamento e a linha (fita ou cabo) têm resistências estáticas mínimas; a linha da Classe 2 pede mais, por causa da aresta.",
+   "valores": [
+    {"parametro": "SRD sem romper", "valor": "≥ 16 kN (3600 lb)", "item": "3.2.1"},
+    {"parametro": "Travamento (sem freio rotativo)", "valor": "≥ 8 kN", "item": "3.2.3"},
+    {"parametro": "Fita da linha — Classe 1 / Classe 2", "valor": "≥ 20 kN / ≥ 22,2 kN", "item": "3.1.6.1"}
+   ]
+  },
+  {
+   "titulo": "Desempenho dinâmico e resgate",
+   "item": "3.3",
+   "texto": "Na queda de ensaio, a força de pico e a força média de retenção são limitadas, e a distância de parada também; na Classe 2 a distância é medida e vai na etiqueta. O indicador de queda tem que atuar. O modelo com resgate integrado precisa içar, baixar e segurar com sobrecarga, parar logo ao soltar o comando e ter velocidade limitada.",
+   "valores": [
+    {"parametro": "Força máxima de retenção", "valor": "≤ 8 kN", "item": "3.3.1"},
+    {"parametro": "Força média — ambiente / quente, frio, úmido", "valor": "≤ 6 kN / ≤ 7 kN", "item": "3.3.1"},
+    {"parametro": "Distância de parada", "valor": "≤ 1067 mm (42 in)", "item": "3.3.1", "cota": "esquemas/ancoragem-linha-de-vida-retratil.svg#parada"},
+    {"parametro": "SRL-R — carga de içamento/retenção", "valor": "125 % da capacidade máxima", "item": "3.3.4"},
+    {"parametro": "SRL-R — parada ao soltar o comando", "valor": "≤ 102 mm", "item": "3.3.4"},
+    {"parametro": "SRL-R — velocidade", "valor": "≤ 0,6 m/s", "item": "3.3.4"},
+    {"parametro": "SRL-R motorizado — limite de içamento", "valor": "não pode içar 250 % da capacidade", "item": "3.3.4"}
+   ]
+  },
+  {
+   "titulo": "Retração",
+   "item": "3.5",
+   "texto": "A mola mantém a linha esticada com força dentro de uma faixa, e com o aparelho recolhido sobra pouca linha para fora.",
+   "valores": [
+    {"parametro": "Tensão de retração", "valor": "5,55 a 111,1 N", "item": "3.5.1"},
+    {"parametro": "Linha estendida com o SRD recolhido — SRL/SRL-R", "valor": "≤ 610 mm", "item": "3.5.2"},
+    {"parametro": "Linha estendida — Classe 2 e SRL-P", "valor": "≤ 1219 mm", "item": "3.5.2"}
+   ]
+  },
+  {
+   "titulo": "Marcação, instruções e inspeção",
+   "item": "5; 6",
+   "texto": "Etiquetas e manual trazem classe, capacidade, distâncias e cuidados. O usuário inspeciona antes de cada uso, incluindo o teste de travamento; uma pessoa competente, diferente do usuário, faz inspeções periódicas com registro (intervalos sugeridos no Anexo A). Sai de uso o dispositivo que reteve uma queda, com indicador atuado ou que não trava ao puxar rápido.",
+   "valores": [
+    {"parametro": "Inspeção pelo usuário", "valor": "antes de cada uso", "item": "6.1.1"},
+    {"parametro": "Retirada de uso", "valor": "após reter queda, indicador atuado ou falha no travamento", "item": "6.1"}
+   ]
+  }
+ ]
+}

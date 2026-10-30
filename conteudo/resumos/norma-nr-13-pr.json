@@ -1,0 +1,177 @@
+{
+ "id": "NR-13-PR",
+ "titulo": "NR-13 — Perguntas e respostas (MTE, fev/2019)",
+ "secoes": [
+  {
+   "titulo": "Pacotes de máquinas e equipamentos que não são vasos",
+   "item": "Perguntas 1, 2 e 14",
+   "texto": "Um vaso faz parte de pacote de máquina quando serve a um sistema auxiliar de arrefecimento, lubrificação ou selagem; nesse caso só precisa de inspeção sob responsabilidade de PH e manutenção (13.2.2 d). O reservatório de ar comprimido do compressor não entra nessa exceção. Vasos ligados ao fluido principal da máquina continuam enquadrados no 13.2.1. Câmaras de combustão, bombas, compressores, turbinas, geradores e motores não são vasos de pressão.",
+   "valores": [
+    {
+     "parametro": "Exceção de pacote de máquina — finalidades aceitas",
+     "valor": "arrefecimento, lubrificação ou selagem (exceto reservatório de ar do compressor)",
+     "item": "Pergunta 2"
+    },
+    {
+     "parametro": "Vasos junto a máquinas que SÃO enquadrados (13.2.1)",
+     "valor": "amortecedores de pulsação e separadores na sucção/descarga de compressores; amortecedores do fluido principal de bombas; vasos e permutadores interestágios; condensadores/evaporadores de chiller; separador ar-óleo; acumulador hidráulico",
+     "item": "Pergunta 2"
+    },
+    {
+     "parametro": "Não são vasos de pressão",
+     "valor": "câmaras de combustão, bombas, compressores, turbinas, geradores, motores",
+     "item": "Pergunta 14"
+    }
+   ]
+  },
+  {
+   "titulo": "Filtros",
+   "item": "Perguntas 3 a 5",
+   "texto": "Filtros feitos por norma de componente de tubulação (por exemplo ASME B16.34) podem ser tratados como tubulação. Filtro de pequeno diâmetro sustentado pela tubulação também pode, mesmo se construído por código de vaso. Já filtros e vasos de caminhões de abastecimento de aviação são enquadrados, como recipientes móveis.",
+   "valores": [
+    {
+     "parametro": "Filtro tratado como tubulação",
+     "valor": "fabricado por norma de componente de tubulação (ex. ASME B16.34), ou de pequeno diâmetro suportado pela tubulação",
+     "item": "Perguntas 3 e 4"
+    },
+    {
+     "parametro": "Filtros/vasos de caminhão de abastecimento de aviação",
+     "valor": "enquadrados na NR-13 (recipientes móveis)",
+     "item": "Pergunta 5"
+    }
+   ]
+  },
+  {
+   "titulo": "Placa, fabricante e categoria",
+   "item": "Perguntas 6 a 8",
+   "texto": "Em caldeiras e vasos seriados importados e certificados pelo INMETRO, a placa traz o nome do importador no campo do fabricante. Para definir a categoria da caldeira, usa-se a PMTA como pressão de operação.",
+   "valores": [
+    {
+     "parametro": "Pressão para categorizar caldeira",
+     "valor": "PMTA da caldeira",
+     "item": "Pergunta 8"
+    },
+    {
+     "parametro": "Campo \"fabricante\" de equipamento seriado importado",
+     "valor": "nome do importador",
+     "item": "Perguntas 6 e 7"
+    }
+   ]
+  },
+  {
+   "titulo": "Responsabilidade do PH nos equipamentos dispensados",
+   "item": "Perguntas 9 a 11",
+   "texto": "Reservatórios de ar do freio ferroviário são vasos tratados pelo 13.2.2 e pela regulação de transportes. A inspeção dos itens d, e, h, j, k, n e o do 13.2.2 é responsabilidade do PH da NR-13; nos demais itens, inspeção e manutenção podem ficar com outro profissional habilitado. Com SPIE certificado, o inspetor designado pelo PH pode assinar o Registro de Segurança liberando o vaso.",
+   "valores": [
+    {
+     "parametro": "Alíneas do 13.2.2 com inspeção obrigatoriamente pelo PH da NR-13",
+     "valor": "d, e, h, j, k, n, o (e f, se interligado a equipamento do 13.2.1)",
+     "item": "Pergunta 10"
+    }
+   ]
+  },
+  {
+   "titulo": "Teste hidrostático e proteção contra vácuo",
+   "item": "Perguntas 12, 13, 21, 22 e 26",
+   "texto": "Vaso fabricado no exterior refaz o TH ao chegar, salvo se for feito sob encomenda com especificação aprovada pelo responsável técnico do proprietário ou se for seriado certificado pelo INMETRO. Ensaio pneumático ou hidropneumático feito pelo código, na fabricação, equivale ao TH. A proteção de vasos a vácuo pode ser quebra-vácuo, disco de ruptura, sifão testado antes da instalação ou projeto para vácuo total/parcial. A metodologia da PMTA é a memória de cálculo (códigos por fórmula, como ASME I e VIII-1), a análise de tensões (VIII-2) ou o relatório do ensaio de prova (UG-101, UCD-101). O PH que assina o laudo do TH de fabricação é o engenheiro do fabricante (ou do importador).",
+   "valores": [
+    {
+     "parametro": "TH de fabricação — ensaio pneumático/hidropneumático",
+     "valor": "equivalente, se feito pelo código de projeto",
+     "item": "Pergunta 21"
+    },
+    {
+     "parametro": "Documento da PMTA — código por fórmula",
+     "valor": "memória de cálculo mecânica",
+     "item": "Pergunta 22"
+    },
+    {
+     "parametro": "Documento da PMTA — código por análise (VIII-2)",
+     "valor": "relatório de análise de tensões",
+     "item": "Pergunta 22"
+    },
+    {
+     "parametro": "Documento da PMTA — por ensaio destrutivo",
+     "valor": "relatório do ensaio de prova (ex. UG-101, UCD-101)",
+     "item": "Pergunta 22"
+    }
+   ]
+  },
+  {
+   "titulo": "Prática supervisionada de operadores",
+   "item": "Perguntas 15 a 18 e 33",
+   "texto": "O supervisor da prática é alguém que conhece a operação: chefe de operação, operador-chefe, engenheiro da planta, operador experiente ou PH. A empresa guarda os documentos e emite os certificados. Essa prática não é o estágio estudantil da Lei 11.788/2008. Recomenda-se reciclar operadores de processo após modificações, acidentes ou incidentes recorrentes.",
+   "valores": []
+  },
+  {
+   "titulo": "SPIE — inclusões e cancelamento",
+   "item": "Perguntas 19 e 20",
+   "texto": "Equipamentos novos só usam prazos estendidos depois de auditoria de alteração de perfil pelo organismo certificador. Se o SPIE for cancelado, os prazos já fixados valem até a próxima inspeção; depois passam a valer os prazos sem SPIE.",
+   "valores": []
+  },
+  {
+   "titulo": "Caldeiras de termelétricas e condição anormal",
+   "item": "Perguntas 23 e 24",
+   "texto": "Condição anormal (13.4.4.10 b) é a que pode travar a válvula de segurança, como arraste de espuma (carryover). Caldeira de termelétrica mantida em prontidão, com todas as condições de projeto preservadas, não é considerada inativa e não exige inspeção extraordinária após 6 meses parada.",
+   "valores": []
+  },
+  {
+   "titulo": "Vasos seriados certificados pelo INMETRO",
+   "item": "Perguntas 25 e 27 a 30",
+   "texto": "Vasos de PRFV fora das alíneas n e o do 13.2.2 ficam fora de toda a NR-13. O fabricante de vaso de compressor de pistão dispensado da inspeção inicial informa fixação no piso, drenagem, calibração dos instrumentos e válvula de segurança com instruções de manutenção. A certificação aparece pelo selo do INMETRO com o número de registro na placa, sempre juntos.",
+   "valores": [
+    {
+     "parametro": "Placa de vaso seriado — altura mínima da fonte",
+     "valor": "4 mm",
+     "item": "Pergunta 29",
+     "cota": "esquemas/nr-13-caldeiras-vasos-placa-identificacao.svg#letra"
+    },
+    {
+     "parametro": "Placa de vaso seriado — dados mínimos",
+     "valor": "fabricante/importador; nº de série; mês e ano; PMTA interna e/ou externa com temperatura; pressão do TH; temperaturas mín./máx. de projeto do metal; código e ano; nº de rastreabilidade do OCP",
+     "item": "Pergunta 29"
+    },
+    {
+     "parametro": "Fim da venda de vasos seriados não certificados — fabricantes",
+     "valor": "54 meses após a Portaria INMETRO 255/2014 (01/12/2018)",
+     "item": "Pergunta 28"
+    },
+    {
+     "parametro": "Fim da venda de vasos seriados não certificados — pontos de venda",
+     "valor": "66 meses após a Portaria INMETRO 255/2014 (01/12/2019)",
+     "item": "Pergunta 28"
+    }
+   ],
+   "figuras": [
+    "esquemas/nr-13-caldeiras-vasos-placa-identificacao.svg"
+   ]
+  },
+  {
+   "titulo": "Tanques e GLP a granel",
+   "item": "Perguntas 31 e 32",
+   "texto": "Não entram no 13.2.1 f): tanques não metálicos, com fluidos C ou D, enterrados, de embarcações e plataformas, suspensos por pernas, instalados em plataformas e de produtos intermediários. Reservatórios de caminhões de GLP a granel seguem o 13.2.2 a), com inspeção pelo regulamento do INMETRO.",
+   "valores": []
+  },
+  {
+   "titulo": "Tubos de instrumentação de 12,7 mm",
+   "item": "Pergunta 34",
+   "texto": "O limite de 12,7 mm do 13.2.2 l) depende do padrão do tubo.",
+   "valores": [
+    {
+     "parametro": "Equivalente a 12,7 mm — tubo schedule (ASME B36.10M)",
+     "valor": "NPS ½ (DN 15)",
+     "item": "Pergunta 34",
+     "cota": "esquemas/nr-13-caldeiras-vasos-dispensas-dimensao.svg#DN-instr"
+    },
+    {
+     "parametro": "Equivalente a 12,7 mm — tubo OD (ASTM A269/A270, DIN)",
+     "valor": "½ in de diâmetro externo",
+     "item": "Pergunta 34"
+    }
+   ],
+   "figuras": [
+    "esquemas/nr-13-caldeiras-vasos-dispensas-dimensao.svg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "ASME-SB-211",
+ "titulo": "SB-211 — Barras, vergalhões e arames de alumínio laminados ou acabados a frio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Barras, vergalhões e arames de alumínio e ligas, laminados ou acabados a frio (trefilados), nas ligas e têmperas da Tabela 1. Extrudados ficam na SB-221; tubos trefilados na SB-210. Ligas e têmperas pela ANSI H35.1 (têmpera O = recozido; H = encruado; T = tratado termicamente)."
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 1",
+   "texto": "Su / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "1060-O (≥ 0,125 in)",
+     "valor": "8,0 ksi mín. / 2,5 ksi / 25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "1100-O (≥ 0,125 in)",
+     "valor": "11,0–15,5 ksi / 3,0 ksi / 25 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "1060-H14 (≤ 0,374 in)",
+     "valor": "12,0 ksi / 10,0 ksi",
+     "item": "Tabela 1"
+    }
+   ]
+  }
+ ]
+}

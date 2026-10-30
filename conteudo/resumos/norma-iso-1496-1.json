@@ -1,0 +1,43 @@
+{
+ "id": "ISO-1496-1",
+ "titulo": "ISO 1496-1:1990 — Contêineres de carga série 1 — Especificação e ensaios — Parte 1: Contêineres de carga geral",
+ "secoes": [
+  {
+   "titulo": "Escopo e dimensões",
+   "item": "1–4",
+   "texto": "Especificação básica e ensaios de contêineres série 1 de carga geral (fechados, ventilados) para intercâmbio internacional rodoviário, ferroviário e marítimo. Dimensões externas, internas mínimas e classificação de massa bruta (rating R) conforme ISO 668 (tipos 1AAA/1AA/1A/1AX, 1B…, 1C…, 1D).",
+   "valores": [
+    {
+     "parametro": "Rating R",
+     "valor": "massa bruta máxima do contêiner, conforme ISO 668",
+     "item": "4.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Projeto",
+   "item": "5",
+   "texto": "Cantoneiras de canto, estrutura de base com áreas de transferência de carga, cabeceiras, laterais, paredes, abertura de porta (1AA, 1BB, 1CC com porta de preferência igual à seção interna). Fechos que possam criar risco devem ter travamento com indicação externa. Opcionais: bolsões de empilhadeira (1CC, 1C, 1CX; segundo par só para vazio) e túnel para pescoço de ganso (1AA, 1A, 1AX). As cargas dinâmicas em serviço devem só se aproximar, nunca exceder, as cargas de ensaio.",
+   "valores": []
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "6",
+   "texto": "Ensaios de tipo: 1 empilhamento; 2 içamento pelas quatro cantoneiras superiores; 3 içamento pelas quatro inferiores; 4 restrição longitudinal; 5 resistência das cabeceiras; 6 das laterais; 7 do teto; 8 do piso; e ensaios seguintes da norma.",
+   "valores": [
+    {
+     "parametro": "Empilhamento — tipos 1A, 1B, 1C",
+     "valor": "força de ensaio 3 392 kN no conjunto de 4 cantoneiras (1 696 kN por par), equivalente a 192 000 kg sobrepostos",
+     "item": "6.2",
+     "nota": "leitura de tabela OCR — conferir"
+    },
+    {
+     "parametro": "Empilhamento — tipo 1D",
+     "valor": "896 kN (448 kN por par)",
+     "item": "6.2",
+     "nota": "conferir"
+    }
+   ]
+  }
+ ]
+}

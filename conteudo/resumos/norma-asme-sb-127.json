@@ -1,0 +1,65 @@
+{
+ "id": "ASME-SB-127",
+ "titulo": "SB-127 — Chapas, folhas e tiras de liga níquel-cobre (Monel 400, UNS N04400)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Chapas, folhas e tiras laminadas de liga níquel-cobre UNS N04400."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Ni mín.",
+     "valor": "63,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Cu",
+     "valor": "28,0 a 34,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Fe máx. / Mn máx.",
+     "valor": "2,5 % / 2,0 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "C máx. / Si máx. / S máx.",
+     "valor": "0,3 % / 0,5 % / 0,024 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 3",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "Chapa laminada a quente, recozida",
+     "valor": "70 000 psi (485) / 28 000 psi (195) / 35 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Chapa como laminada",
+     "valor": "75 000 psi (515) / 40 000 psi (275) / 25 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Folha laminada a frio, recozida — Su",
+     "valor": "70 000 a 85 000 psi",
+     "item": "Tabela 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Qualidade de estampagem e marcação",
+   "item": "6.2, 16",
+   "texto": "Folhas e tiras para estampagem profunda e repuxo têm limites de grão e dureza (Tabela 4). Marcação com especificação, liga, condição e corrida."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "id": "NBR-10520",
+ "titulo": "ABNT NBR 10520:2002 — Informação e documentação — Citações em documentos — Apresentação",
+ "secoes": [
+  {"titulo": "Definições", "item": "3",
+   "texto": "Citação: menção de informação tirada de outra fonte. Direta: transcrição literal. Indireta: texto baseado na obra consultada. Citação de citação: quando não se teve acesso ao original (apud). Notas de referência (fontes), notas de rodapé e notas explicativas.",
+   "valores": []},
+  {"titulo": "Regras de apresentação", "item": "5",
+   "texto": "Na citação direta, indicar página (ou volume, seção) após a data. Supressões, interpolações e destaques marcados ([...], [ ], grifo nosso / grifo do autor). Informação verbal e trabalhos em elaboração indicados entre parênteses ou em nota. Tradução própria: 'tradução nossa'.",
+   "valores": [
+    {"parametro": "Citação direta até 3 linhas", "valor": "no texto, entre aspas duplas (aspas simples para citação dentro da citação)", "item": "5.2"},
+    {"parametro": "Citação direta com mais de 3 linhas", "valor": "recuo de 4 cm da margem esquerda, letra menor, sem aspas", "item": "5.3"}
+   ]},
+  {"titulo": "Sistemas de chamada", "item": "6",
+   "texto": "Um só sistema em todo o trabalho. Autor-data: sobrenome e ano (e página) — autor na frase com data entre parênteses; sobrenomes iguais desempatados pelas iniciais; mesmo autor e ano diferenciados por letras (2000a, 2000b); vários anos do mesmo autor separados por vírgula; vários autores por ponto e vírgula em ordem alfabética. Numérico: numeração única e consecutiva, entre parênteses ou sobrescrita; não usar se houver notas de rodapé.",
+   "valores": []},
+  {"titulo": "Notas de rodapé", "item": "7",
+   "texto": "Notas de referência: primeira citação completa; seguintes abreviadas com expressões latinas (Idem, Ibidem, op. cit., passim, loc. cit., cf., et seq., apud) — apud também pode ser usado no texto. Notas explicativas numeradas em algarismos arábicos, numeração única por capítulo ou parte.",
+   "valores": []}
+ ]
+}

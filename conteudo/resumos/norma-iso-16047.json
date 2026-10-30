@@ -1,0 +1,65 @@
+{
+ "id": "ISO-16047",
+ "titulo": "ISO 16047:2005 — Fixadores: ensaio de torque × força de aperto",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Método de ensaio para determinar a relação entre torque de aperto e força de aperto e, dela, os coeficientes de atrito na rosca e no assento, em parafusos e porcas de M3 a M39.",
+   "valores": []
+  },
+  {
+   "titulo": "Ensaio",
+   "item": "6–8",
+   "texto": "O parafuso é apertado numa célula que mede força, torque total e torque na rosca; a velocidade de rotação é limitada conforme o tamanho.",
+   "valores": [
+    {
+     "parametro": "Velocidade — M3 a M16 / acima até M39",
+     "valor": "10–40 rpm / 5–15 rpm",
+     "item": "8"
+    }
+   ]
+  },
+  {
+   "titulo": "Coeficientes calculados",
+   "item": "10",
+   "texto": "Coeficiente de torque K relaciona torque, força e diâmetro. O atrito total, na rosca e no assento saem da decomposição do torque em parcela de passo, de rosca e de assento (fórmula de Kellermann e Klein).",
+   "valores": [
+    {
+     "parametro": "Coeficiente de torque",
+     "valor": "K = T/(F·d)",
+     "item": "10.1",
+     "cota": "esquemas/parafusos-porcas-arruelas-aperto-torque.svg#T"
+    },
+    {
+     "parametro": "Atrito total",
+     "valor": "µtot = (T/F − P/2π)/(0,577 d2 + 0,5 Db)",
+     "item": "10.2",
+     "cota": "esquemas/parafusos-porcas-arruelas-aperto-torque.svg#F"
+    },
+    {
+     "parametro": "Diâmetro médio de assento",
+     "valor": "Db = (Do + dh)/2",
+     "item": "10.2",
+     "cota": "esquemas/parafusos-porcas-arruelas-aperto-torque.svg#Do"
+    },
+    {
+     "parametro": "Atrito na rosca",
+     "valor": "µth = (Tth/F − P/2π)/(0,577 d2)",
+     "item": "10.3"
+    },
+    {
+     "parametro": "Atrito no assento",
+     "valor": "µb = Tb/(0,5 Db F)",
+     "item": "10.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Relatório",
+   "item": "11",
+   "texto": "Registra fixador, revestimento, lubrificação, peças de assento, curvas e coeficientes. A norma não fornece torques de aperto tabelados.",
+   "valores": []
+  }
+ ]
+}

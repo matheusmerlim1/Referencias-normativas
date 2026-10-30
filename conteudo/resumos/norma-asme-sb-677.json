@@ -1,0 +1,45 @@
+{
+ "id": "ASME-SB-677",
+ "titulo": "SB-677 — Tubos sem costura de ligas N08904, N08925 e N08926",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos (pipe e tube) sem costura, trabalhados a frio ou acabados a quente, das ligas N08904 (904L), N08925 e N08926 para serviço corrosivo geral."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,020 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn máx. — N08904 / N08925 / N08926",
+     "valor": "2,0 / 1,0 / 2,00 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "Su mín. / Sy mín. / alongamento mín.",
+   "valores": [
+    {
+     "parametro": "N08904 solubilizada",
+     "valor": "71 ksi (490) / 31 ksi (220) / 35 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "N08925 solubilizada",
+     "valor": "87 ksi (600) / 43 ksi (300) / 40 %",
+     "item": "Tabela 2"
+    }
+   ]
+  }
+ ]
+}

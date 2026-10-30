@@ -1,0 +1,77 @@
+{
+ "id": "ASME-SA-587",
+ "titulo": "SA-587 — Tubos de aço baixo carbono soldados por resistência elétrica para a indústria química",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tubos ERW de aço baixo carbono para linhas de processo, aptos a conformação severa: flangeamento em todos os tamanhos e curvamento em raio pequeno até NPS 4.",
+   "valores": [
+    {
+     "parametro": "Faixa",
+     "valor": "NPS 1/2 a 10 (e tamanhos adicionais)",
+     "item": "1.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Fabricação",
+   "item": "4",
+   "texto": "Aço acalmado ao alumínio (Siemens-Martin, oxigênio ou forno elétrico)."
+  },
+  {
+   "titulo": "Composição química",
+   "item": "Tabela 1",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "C máx.",
+     "valor": "0,15 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Mn",
+     "valor": "0,27–0,63 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "P máx. / S máx.",
+     "valor": "0,035 % / 0,035 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Al",
+     "valor": "0,02–0,100 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Propriedades mecânicas",
+   "item": "Tabela 2",
+   "texto": "",
+   "valores": [
+    {
+     "parametro": "Su mín.",
+     "valor": "48 000 psi (331 MPa)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Sy mín.",
+     "valor": "30 000 psi (207 MPa)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Alongamento mín. em 50 mm",
+     "valor": "40 %",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio não destrutivo e marcação",
+   "item": "13, 16",
+   "texto": "O ensaio não destrutivo substitui o hidrostático: inspeção de 360° até 3 1/2 in (88,9 mm) de diâmetro; acima, da solda e da ZTA. Tubos NPS 1 1/2 e maiores marcados por estêncil; feixes com etiqueta (fabricante, tamanho, espessura, comprimento, especificação)."
+  }
+ ]
+}
