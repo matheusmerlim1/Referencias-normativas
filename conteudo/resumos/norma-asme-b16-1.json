@@ -1,0 +1,23 @@
+{
+ "id": "ASME-B16.1",
+ "titulo": "ASME B16.1 — Flanges e conexões flangeadas de ferro fundido cinzento",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Flanges e conexões flangeadas de ferro fundido cinzento para tubulação.",
+   "valores": [
+    {
+     "parametro": "Classes cobertas",
+     "valor": "25, 125 e 250",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Conteúdo",
+   "item": "2 a 10",
+   "texto": "Ratings pressão-temperatura, tamanhos, marcação, materiais, dimensões e tolerâncias das conexões, dimensões de parafusos, porcas e juntas, teste hidrostático e certificação; tabelas por classe com dimensões dos flanges e das conexões; designação de saídas de conexões de redução e conexões de dreno."
+  }
+ ]
+}

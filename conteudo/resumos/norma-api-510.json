@@ -1,0 +1,33 @@
+{
+ "id": "API-510",
+ "titulo": "API 510 — Código de inspeção de vasos de pressão: manutenção, inspeção, reparo, alteração e reclassificação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Inspeção em serviço, reparo, alteração e reclassificação (rerating) de vasos de pressão de refinarias e indústria química, com isenções específicas e qualificação do inspetor autorizado."
+  },
+  {
+   "titulo": "Intervalos de inspeção",
+   "item": "6.5",
+   "texto": "Sem avaliação RBI, o intervalo entre inspeções internas ou em operação é limitado pela vida remanescente; com vida restante curta, admite-se usar a vida inteira com teto.",
+   "valores": [
+    {
+     "parametro": "Intervalo máx. de inspeção interna/em operação",
+     "valor": "metade da vida remanescente ou 10 anos (o menor)",
+     "item": "6.5.1.1"
+    },
+    {
+     "parametro": "Vida remanescente < 4 anos",
+     "valor": "intervalo = vida remanescente, até 2 anos",
+     "item": "6.5.1.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Demais seções",
+   "item": "7 a 9, apêndices",
+   "texto": "Avaliação de corrosão e vida remanescente, reparos e alterações (soldagem, TTAT), reclassificação, teste de pressão, dispositivos de alívio, registros; apêndices com isenções do ASME, certificação de inspetores e formulários."
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "ASME-X-2007",
+ "titulo": "ASME BPVC Seção X (2007) — Vasos de pressão de plástico reforçado com fibra (PRFV)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "RG-100",
+   "texto": "Vasos de pressão de plástico reforçado com fibra para uso geral, em duas classes: Classe I (qualificação por ensaio destrutivo de protótipo) e Classe II (projeto obrigatório por regras e análise, com ensaio de aceitação não destrutivo)."
+  },
+  {
+   "titulo": "Limites de aplicação",
+   "item": "RG-111, RG-112",
+   "texto": "Pressão interna limitada conforme classe e processo; temperatura de projeto limitada pela resina.",
+   "valores": [
+    {
+     "parametro": "Classe I — moldagem a saco, centrifugação, contato",
+     "valor": "≤ 150 psi (1 MPa)",
+     "item": "RG-111(a)"
+    },
+    {
+     "parametro": "Classe I — enrolamento filamentar",
+     "valor": "≤ 1 500 psi (10 MPa)",
+     "item": "RG-111(a)"
+    },
+    {
+     "parametro": "Classe I — enrolamento filamentar com bocal polar",
+     "valor": "≤ 3 000 psi (20 MPa)",
+     "item": "RG-111(a)"
+    },
+    {
+     "parametro": "Temperatura de projeto máx.",
+     "valor": "menor de 250 °F (120 °C) e 35 °F (19 °C) abaixo da temperatura máx. de uso da resina",
+     "item": "RG-112"
+    },
+    {
+     "parametro": "Temperatura de projeto mín.",
+     "valor": "−65 °F (−54 °C)",
+     "item": "RG-112"
+    }
+   ]
+  },
+  {
+   "titulo": "Estrutura",
+   "item": "Partes RG, RM, RD, RF, RQ, RT, RI, RS",
+   "texto": "Geral; materiais; projeto (cascos, tampos, aberturas, bocais, flanges; regras obrigatórias da Classe II em RD-11); fabricação; qualificação de procedimentos e de laminadores; ensaios (protótipo Classe I, aceitação Classe II); inspeção; marcação.",
+   "valores": [
+    {
+     "parametro": "Fator de projeto em pressão externa (fórmulas RD)",
+     "valor": "F = 5",
+     "item": "RD (equações de pressão externa)"
+    }
+   ]
+  }
+ ]
+}

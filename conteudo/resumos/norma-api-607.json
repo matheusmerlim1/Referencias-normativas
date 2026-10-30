@@ -1,0 +1,33 @@
+{
+ "id": "API-607",
+ "titulo": "API 607 — Ensaio de fogo para válvulas de 1/4 de volta e válvulas com sedes não metálicas",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Requisitos e método para avaliar o desempenho de válvulas expostas a fogo definido: ensaio de tipo que confirma a capacidade de contenção de pressão de válvulas de 1/4 de volta e de válvulas com sede não metálica durante e após o fogo."
+  },
+  {
+   "titulo": "Ensaio de fogo",
+   "item": "5.6",
+   "texto": "A válvula fica envolta em chama durante o período de queima; mede-se o vazamento pela sede e o externo; depois do resfriamento, faz-se o ensaio de operação.",
+   "valores": [
+    {
+     "parametro": "Período de queima",
+     "valor": "30 min (+5, −0)",
+     "item": "5.6"
+    },
+    {
+     "parametro": "Temperatura média da chama",
+     "valor": "750 °C em até 2 min; mantida entre 750 °C e 1 000 °C, sem leitura < 700 °C",
+     "item": "5.6"
+    },
+    {
+     "parametro": "Calorímetros — média",
+     "valor": "650 °C em até 15 min",
+     "item": "5.6.9"
+    }
+   ]
+  }
+ ]
+}

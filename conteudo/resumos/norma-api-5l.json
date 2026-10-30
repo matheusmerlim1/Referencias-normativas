@@ -1,0 +1,35 @@
+{
+ "id": "API-5L",
+ "titulo": "API 5L / ISO 3183 — Tubos de aço para dutos (line pipe)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Fabricação de tubos de aço sem costura e com costura para dutos de petróleo e gás em dois níveis de especificação de produto (PSL 1 e PSL 2). Não se aplica a tubos fundidos.",
+   "valores": [
+    {
+     "parametro": "Níveis de especificação",
+     "valor": "PSL 1 e PSL 2",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Graus e condição de fornecimento",
+   "item": "Tabela 1",
+   "texto": "Graus designados por L + escoamento mínimo em MPa (ou A, B, X42… em psi): ex. L245 = grau B. A Tabela 1 associa cada grau à condição de entrega (laminado, normalizado, termomecânico, temperado e revenido).",
+   "valores": [
+    {
+     "parametro": "Equivalência",
+     "valor": "L245 = Grau B",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Conteúdo",
+   "item": "Seções 7 a 11",
+   "texto": "Informações de pedido, composição química e CE por PSL, propriedades de tração, Charpy e DWT (PSL 2), ensaio hidrostático, dimensões/massas/tolerâncias, END (Anexo E), marcação; anexos para serviço ácido (H), offshore (J) e outros."
+  }
+ ]
+}

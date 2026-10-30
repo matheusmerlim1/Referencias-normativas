@@ -1,0 +1,40 @@
+{
+ "id": "ASME-VIII-2-2007",
+ "titulo": "ASME BPVC Seção VIII, Divisão 2 (2007) — Regras alternativas para vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "Parte 1",
+   "texto": "Edição reescrita de 2007: regras alternativas à Divisão 1, com tensões admissíveis maiores mediante projeto mais detalhado (inclusive projeto por análise), requisitos de material, fabricação e inspeção mais rigorosos."
+  },
+  {
+   "titulo": "Estrutura",
+   "item": "Partes 1 a 9",
+   "texto": "1 geral; 2 responsabilidades e deveres; 3 materiais (tenacidade, tensões admissíveis); 4 projeto por regras; 5 projeto por análise (elástica, limite, plástica, fadiga, flambagem); 6 fabricação; 7 inspeção e exame; 8 teste de pressão; 9 dispositivos de alívio."
+  },
+  {
+   "titulo": "Teste hidrostático",
+   "item": "8.2.1",
+   "texto": "Pressão mínima de teste: a maior entre duas expressões.",
+   "valores": [
+    {
+     "parametro": "Pressão de teste hidrostático mín.",
+     "valor": "maior de 1,43 × PMTA e 1,25 × PMTA × (ST/S)",
+     "item": "8.2.1 (Eq. 8.1 e 8.2)"
+    }
+   ]
+  },
+  {
+   "titulo": "Projeto por regras — limites no teste",
+   "item": "4.1.6.2",
+   "texto": "No teste hidrostático a tensão de membrana primária geral calculada é limitada a 0,95 Sy; membrana + flexão a limites em função de Sy.",
+   "valores": [
+    {
+     "parametro": "Pm no teste hidrostático",
+     "valor": "≤ 0,95 Sy",
+     "item": "4.1.6.2 (Eq. 4.1.3)"
+    }
+   ]
+  }
+ ]
+}

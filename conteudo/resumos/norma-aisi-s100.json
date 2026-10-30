@@ -1,0 +1,23 @@
+{
+ "id": "AISI-S100",
+ "titulo": "AISI S100 — Especificação norte-americana para projeto de perfis de aço formados a frio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "A1",
+   "texto": "Tratamento integrado de projeto por tensões admissíveis (ASD), fatores de carga e resistência (LRFD) e estados-limite (LSD) para membros estruturais formados a frio de chapas, tiras, placas ou barras de aço carbono ou baixa liga com espessura até 1 in.",
+   "valores": [
+    {
+     "parametro": "Espessura máx. do material",
+     "valor": "1 in",
+     "item": "A1"
+    }
+   ]
+  },
+  {
+   "titulo": "Conteúdo",
+   "item": "Capítulos",
+   "texto": "Materiais, elementos (larguras efetivas), membros (tração, flexão, compressão, combinados), sistemas estruturais, ligações (solda, parafusos, parafusos autoatarraxantes) e ensaios para casos especiais."
+  }
+ ]
+}

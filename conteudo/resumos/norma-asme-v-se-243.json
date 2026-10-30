@@ -1,0 +1,23 @@
+{
+ "id": "ASME-V-SE-243",
+ "titulo": "Seção V, SE-243 — Correntes parasitas em tubos de cobre e ligas de cobre",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimentos de ensaio por correntes parasitas de tubos de cobre e ligas de cobre para detectar descontinuidades capazes de causar falha. Artigo normativo (padrão ASTM adotado) da ASME Seção V, aplicável quando o Código ou o pedido o invoca.",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo máx.",
+     "valor": "3 1/8 in (79,4 mm)",
+     "item": "1.1"
+    },
+    {
+     "parametro": "Espessura de parede",
+     "valor": "0,017 a 0,120 in (0,432 a 3,04 mm)",
+     "item": "1.1"
+    }
+   ]
+  }
+ ]
+}

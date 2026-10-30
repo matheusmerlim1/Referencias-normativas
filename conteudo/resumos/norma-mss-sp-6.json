@@ -1,0 +1,24 @@
+{
+ "id": "MSS-SP-6",
+ "titulo": "MSS SP-6-1996 — Acabamentos padronizados das faces de contato de flanges",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Acabamento das faces de contato de flanges de tubo e de válvulas e conexões (face plana, ressaltada, macho-fêmea, lingueta-ranhura, ring joint).",
+   "valores": [
+    {
+     "parametro": "Face serrilhada — ranhuras por polegada",
+     "valor": "45 a 55 (espiral ou concêntrica)",
+     "item": "Tabela",
+     "nota": "valor recomendado; o obrigatório é a rugosidade"
+    },
+    {
+     "parametro": "Rugosidade resultante",
+     "valor": "3,2 a 6,3 µm Ra (125 a 250 µin)",
+     "item": "Tabela"
+    }
+   ]
+  }
+ ]
+}

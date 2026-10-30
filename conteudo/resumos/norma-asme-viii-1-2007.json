@@ -1,0 +1,50 @@
+{
+ "id": "ASME-VIII-1-2007",
+ "titulo": "ASME BPVC Seção VIII, Divisão 1 (2007) — Regras para construção de vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo e isenções",
+   "item": "U-1",
+   "texto": "Projeto, fabricação, inspeção, teste e certificação de vasos de pressão; isenta, entre outros, vasos cuja pressão interna ou externa não passa de 15 psi (100 kPa).",
+   "valores": [
+    {
+     "parametro": "Pressão abaixo da qual o vaso fica fora do escopo",
+     "valor": "15 psi (100 kPa)",
+     "item": "U-1(c)"
+    }
+   ]
+  },
+  {
+   "titulo": "Subseção A — Parte UG (requisitos gerais)",
+   "item": "UG-1 a UG-136",
+   "texto": "Materiais, projeto (pressão interna UG-27, externa UG-28, tampos UG-32, aberturas e reforço UG-36 a UG-46), fabricação, inspeção, marcação e relatórios, testes de pressão e dispositivos de alívio.",
+   "valores": [
+    {
+     "parametro": "Teste hidrostático",
+     "valor": "≥ 1,3 × PMTA × (S teste / S projeto)",
+     "item": "UG-99(b)"
+    },
+    {
+     "parametro": "Teste pneumático",
+     "valor": "≥ 1,1 × PMTA × (S teste / S projeto)",
+     "item": "UG-100(b)"
+    }
+   ]
+  },
+  {
+   "titulo": "Subseção B — Métodos de fabricação",
+   "item": "UW, UF, UB",
+   "texto": "UW vasos soldados (categorias de junta, eficiência, radiografia, TTAT), UF forjados, UB brasados."
+  },
+  {
+   "titulo": "Subseção C — Classes de material",
+   "item": "UCS, UNF, UHA, UCI, UCL, UCD, UHT, ULW, ULT",
+   "texto": "Requisitos por material: aço carbono e baixa liga (UCS, inclusive tenacidade UCS-66 e TTAT UCS-56), não ferrosos, alta liga, ferro fundido, chapas cladeadas, ferro dúctil, aços temperados e revenidos, vasos multicamadas e de baixa temperatura."
+  },
+  {
+   "titulo": "Apêndices",
+   "item": "Obrigatórios (numerados) e não obrigatórios (letras)",
+   "texto": "Fórmulas complementares, flanges (Ap. 2), vasos retangulares (Ap. 13), espelhos de trocador (UHX), juntas de expansão, critérios de aceitação de END, guias de projeto."
+  }
+ ]
+}

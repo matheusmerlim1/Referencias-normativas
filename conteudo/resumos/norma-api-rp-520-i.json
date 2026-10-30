@@ -1,0 +1,43 @@
+{
+ "id": "API-RP-520-I",
+ "titulo": "API RP 520 Parte I — Dimensionamento e seleção de dispositivos de alívio de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Dimensionamento e seleção de dispositivos de alívio (válvulas e discos de ruptura) de equipamentos com PMTA ≥ 15 psig, para gás, vapor, líquido e bifásico."
+  },
+  {
+   "titulo": "Sobrepressão admissível (ASME VIII-1)",
+   "item": "3.5",
+   "texto": "Pressão acumulada máxima em relação à PMTA, conforme o caso.",
+   "valores": [
+    {
+     "parametro": "Um único dispositivo (não fogo)",
+     "valor": "110 % da PMTA",
+     "item": "3.5"
+    },
+    {
+     "parametro": "Vários dispositivos (não fogo)",
+     "valor": "116 % da PMTA",
+     "item": "3.5"
+    },
+    {
+     "parametro": "Caso de fogo",
+     "valor": "121 % da PMTA",
+     "item": "3.5"
+    },
+    {
+     "parametro": "Ajuste do último dispositivo a abrir (vários)",
+     "valor": "≤ 105 % da PMTA",
+     "item": "3.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Demais seções",
+   "item": "4 a 5, apêndices",
+   "texto": "Procedimentos de cálculo da área efetiva por fluido, coeficientes, contrapressão, discos de ruptura e exemplos."
+  }
+ ]
+}

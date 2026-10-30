@@ -1,0 +1,18 @@
+{
+ "id": "ASME-V-SE-797",
+ "titulo": "Seção V, SE-797 — Medição de espessura por ultrassom pulso-eco com contato",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Diretrizes para medir espessura de materiais por ultrassom pulso-eco com contato, em materiais com velocidade sônica constante e eco de fundo resolvível. Artigo normativo (padrão ASTM adotado) da ASME Seção V, aplicável quando o Código ou o pedido o invoca.",
+   "valores": [
+    {
+     "parametro": "Temperatura máx. da peça",
+     "valor": "200 °F (93 °C)",
+     "item": "1.1"
+    }
+   ]
+  }
+ ]
+}

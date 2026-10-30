@@ -1,0 +1,31 @@
+{
+ "id": "ASME-II-D-2019",
+ "titulo": "ASME BPVC Seção II, Parte D (2019, métrica) — Propriedades de materiais",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "—",
+   "texto": "Volume de propriedades de materiais referenciado pelas seções de construção do código (I, III, VIII, XII): tensões admissíveis, resistências de projeto, propriedades físicas e cartas de pressão externa. Edição métrica (MPa, °C)."
+  },
+  {
+   "titulo": "Subparte 1 — Tensões",
+   "item": "Tab. 1A, 1B, 2A, 2B, 3, 4, 5A, 5B, U, Y-1, Y-2",
+   "texto": "Tensão admissível máxima por temperatura: 1A aços ferrosos e 1B não ferrosos (Seção I, VIII-1, III classes 2/3), 2A/2B intensidade de tensão Sm (III classe 1, VIII-2 antiga), 3 parafusos, 4 parafusos de projeto por análise, 5A/5B VIII-2; U resistência à tração e Y-1/Y-2 escoamento em função da temperatura."
+  },
+  {
+   "titulo": "Subparte 2 — Propriedades físicas",
+   "item": "TE, TCD, TM, PRD",
+   "texto": "Coeficientes de dilatação térmica (TE-1 a TE-5), condutividade e difusividade térmicas (TCD), módulo de elasticidade (TM-1 a TM-5), coeficiente de Poisson e massa específica (PRD)."
+  },
+  {
+   "titulo": "Subparte 3 — Pressão externa",
+   "item": "Cartas CS, HT, HA, NFA…",
+   "texto": "Cartas e tabelas do fator B em função do fator A, por grupo de material, para cálculo de cascos e tampos sob pressão externa e de anéis de reforço."
+  },
+  {
+   "titulo": "Apêndices obrigatórios",
+   "item": "Ap. 1 a 10",
+   "texto": "Critérios de definição das tensões admissíveis (ex.: Ap. 1 para Seção I/VIII-1 com base em fração da resistência à tração e do escoamento, e em fluência acima de certa temperatura; Ap. 2 para parafusos) e procedimentos de inclusão de materiais. Valores e critérios detalhados estão nas fichas materiais-asme-ii-d e propriedades-fisicas-asme-ii-d."
+  }
+ ]
+}

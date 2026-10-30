@@ -1,0 +1,26 @@
+{
+ "id": "ASME-IX-2007",
+ "titulo": "ASME BPVC Seção IX (2007) — Qualificação de soldagem e brasagem",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "QG / QW-100",
+   "texto": "Qualificação de procedimentos (EPS/RQP) e de soldadores e operadores de soldagem e brasagem exigida pelas demais seções do código."
+  },
+  {
+   "titulo": "Parte QW — Soldagem",
+   "item": "Artigos I a V",
+   "texto": "I requisitos gerais e ensaios (tração, dobramento, tenacidade, filete); II qualificação de procedimento (variáveis essenciais, suplementares, não essenciais por processo — QW-250); III qualificação de desempenho de soldadores; IV dados (variáveis QW-400, números P e F, A-number, posições, faixas de espessura QW-451/452); V EPS padronizadas (SWPS)."
+  },
+  {
+   "titulo": "Faixas de espessura",
+   "item": "QW-451",
+   "texto": "As tabelas QW-451.1 e QW-451.2 dão a faixa de espessura de metal de base e de solda qualificada a partir da espessura do corpo de prova."
+  },
+  {
+   "titulo": "Parte QB — Brasagem",
+   "item": "QB-100 a QB-400",
+   "texto": "Requisitos análogos para brasagem: procedimentos, desempenho de brasadores e dados (variáveis, números P e F de brasagem)."
+  }
+ ]
+}

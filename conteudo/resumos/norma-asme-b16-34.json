@@ -1,0 +1,28 @@
+{
+ "id": "ASME-B16.34",
+ "titulo": "ASME B16.34 — Válvulas flangeadas, roscadas e de solda",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Construção nova de válvulas de aço, ligas à base de níquel e outras ligas (fundidas, forjadas e fabricadas), com extremidades flangeadas, roscadas, de solda ou wafer: ratings pressão-temperatura, dimensões, tolerâncias, materiais, END, ensaios e marcação."
+  },
+  {
+   "titulo": "Classes",
+   "item": "2, 8",
+   "texto": "Classe Padrão e Classe Especial (esta exige exames não destrutivos adicionais do corpo e do castelo após o tratamento térmico, com regras de remoção de defeitos e reparo), além de Classe Limitada para válvulas de extremidade de solda/rosca menores."
+  },
+  {
+   "titulo": "Ratings e ensaios",
+   "item": "2, 7",
+   "texto": "Tabelas de rating por grupo de material e classe; teste de corpo (casco) e teste de vedação de cada válvula.",
+   "valores": [
+    {
+     "parametro": "Designações de classe",
+     "valor": "150, 300, 600, 900, 1500, 2500 e 4500 (Padrão e Especial)",
+     "item": "2.1.1"
+    }
+   ]
+  }
+ ]
+}

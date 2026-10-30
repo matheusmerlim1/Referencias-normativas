@@ -1,0 +1,23 @@
+{
+ "id": "ASME-V-SE-2096",
+ "titulo": "Seção V, SE-2096 — Exame por campo remoto (RFT) de tubos ferromagnéticos de trocadores",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimentos de exame por campo remoto de tubos ferromagnéticos instalados em trocadores de calor, para descontinuidades de base e de serviço; não fixa critério de aceitação. Artigo normativo (padrão ASTM adotado) da ASME Seção V, aplicável quando o Código ou o pedido o invoca.",
+   "valores": [
+    {
+     "parametro": "Diâmetro externo dos tubos",
+     "valor": "0,500 a 2,000 in (12,70 a 50,80 mm)",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Espessura de parede",
+     "valor": "0,028 a 0,134 in (0,71 a 3,40 mm)",
+     "item": "1.2"
+    }
+   ]
+  }
+ ]
+}

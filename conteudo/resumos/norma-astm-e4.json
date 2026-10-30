@@ -1,0 +1,23 @@
+{
+ "id": "ASTM-E4",
+ "titulo": "ASTM E4-03 — Verificação de força de máquinas de ensaio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1.1",
+   "texto": "Procedimentos para verificar a força indicada por máquinas de ensaio de tração e/ou compressão estáticas ou quase estáticas, usando dispositivos de calibração padronizados; define faixa verificada e exatidão.",
+   "valores": [
+    {
+     "parametro": "Exatidão exigida das forças verificadas",
+     "valor": "±1 %",
+     "item": "1.1 / 3.1.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Conteúdo",
+   "item": "Seções 5 a 13",
+   "texto": "Dispositivos de calibração (massas, anéis/células de carga), seleção das forças de verificação, número de corridas, erro e repetibilidade, faixa verificada e relatório; intervalo de verificação."
+  }
+ ]
+}

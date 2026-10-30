@@ -1,0 +1,23 @@
+{
+ "id": "BS-EN-10025-2",
+ "titulo": "BS EN 10025-2 — Aços estruturais não ligados laminados a quente: condições técnicas de fornecimento",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Oito graus de aço estrutural não ligado: S185, S235, S275, S355, S450, E295, E335 e E360, com qualidades de tenacidade JR, J0, J2, K2. A norma não informa soldabilidade de S185, E295, E335 e E360 (química não especificada).",
+   "valores": [
+    {
+     "parametro": "Graus",
+     "valor": "S185, S235, S275, S355, S450, E295, E335, E360",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Composição química e propriedades",
+   "item": "Tabelas",
+   "texto": "A norma tabela, por grau e qualidade, C máx. por faixa de espessura, Mn, Si, P, S, N, Cu e CEV máximos, e as propriedades mecânicas (escoamento e resistência por espessura, alongamento, energia Charpy por temperatura). Valores não transcritos aqui: o texto extraído das tabelas tem ruído — consultar a ficha da norma."
+  }
+ ]
+}

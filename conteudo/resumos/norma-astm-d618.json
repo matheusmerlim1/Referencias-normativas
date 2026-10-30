@@ -1,0 +1,23 @@
+{
+ "id": "ASTM-D618",
+ "titulo": "ASTM D618-13 — Condicionamento de plásticos para ensaio",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Procedimentos de condicionamento de plásticos e materiais isolantes elétricos antes e durante o ensaio, pois temperatura e umidade alteram suas propriedades; define a atmosfera padrão de laboratório.",
+   "valores": [
+    {
+     "parametro": "Temperatura padrão de laboratório",
+     "valor": "23 °C (73,4 °F)",
+     "item": "3.1.3"
+    },
+    {
+     "parametro": "Umidade relativa padrão",
+     "valor": "50 %",
+     "item": "3.1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "id": "ASME-VIII-3-2007",
+ "titulo": "ASME BPVC Seção VIII, Divisão 3 (2007) — Regras alternativas para vasos de alta pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "KG-100",
+   "texto": "Projeto, construção, inspeção e proteção contra sobrepressão de vasos metálicos com pressões de projeto em geral acima de 10 ksi (70 MPa), sem limite máximo de pressão.",
+   "valores": [
+    {
+     "parametro": "Faixa típica de pressão de projeto",
+     "valor": "acima de 10 ksi (70 MPa)",
+     "item": "KG-100"
+    }
+   ]
+  },
+  {
+   "titulo": "Estrutura",
+   "item": "Partes KG, KM, KD, KF, KR, KE, KT, KS",
+   "texto": "KG geral; KM materiais (tenacidade, ensaios); KD projeto (análise elastoplástica, fadiga e mecânica da fratura, vasos multicamadas e autofretados, roscas); KF fabricação; KR alívio de pressão; KE exame; KT teste; KS marcação e relatórios."
+  }
+ ]
+}

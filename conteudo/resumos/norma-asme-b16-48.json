@@ -1,0 +1,23 @@
+{
+ "id": "ASME-B16.48",
+ "titulo": "ASME B16.48 — Raquetes e figuras '8' (line blanks)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Ratings, materiais, dimensões, tolerâncias, marcação e ensaios de raquetes de bloqueio (figura 8, raquete e espaçador) para instalação entre flanges ASME B16.5.",
+   "valores": [
+    {
+     "parametro": "Faixa de tamanhos",
+     "valor": "NPS 1/2 a NPS 24",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Conteúdo",
+   "item": "2 a 9",
+   "texto": "Projeto (espessura conforme rating), dimensões por classe para face com ressalto e junta de anel, materiais, identificação de raquete e espaçador e ensaios."
+  }
+ ]
+}

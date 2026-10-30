@@ -1,0 +1,23 @@
+{
+ "id": "API-TR-6AF",
+ "titulo": "API TR 6AF — Capacidade de flanges API sob combinações de carga",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Relatório técnico com cartas de capacidade de flanges API (6B e 6BX) sob combinação de pressão, tração e momento fletor, a partir de análises com a carga de montagem dos parafusos."
+  },
+  {
+   "titulo": "Conteúdo",
+   "item": "3, 4",
+   "texto": "Instruções de uso das cartas; discussão dos resultados com tensão de montagem dos parafusos de 40 000 psi; propriedades e tipos de material API; lista de flanges que não atendem às tensões admissíveis da ASME no caso de montagem.",
+   "valores": [
+    {
+     "parametro": "Tensão de montagem dos parafusos considerada",
+     "valor": "40 000 psi",
+     "item": "3.3"
+    }
+   ]
+  }
+ ]
+}

@@ -441,6 +441,9 @@ Backlog:
     regravaria o inglês: aplicar depois o mapa `ferramentas/notas_iid_pt.py` (PT["1a:G5"] etc.).
   - 29/out 10h: 89 resumos. Usuário pediu MENOS RAM → 1 agente por vez. Parados (retomar em sequência, pulando o que já tem arquivo):
     lote 3 (ISO/ABNT/DNV/outros citados nas temáticas), especificações ASME-SA (formato curto), NBR restantes. Rodando: lote 2 (ASME/API/AWS/ASTM).
+  - 30/out: REPOSITÓRIO PÚBLICO criado e enviado: https://github.com/matheusmerlim1/Referencias-normativas (branch main; 1º commit
+    c2d79d0 = camada pública; autor git matheusmerlim1). Antes de cada commit: build + `verificar_autossuficiente.py --publico` = 0.
+    Resumos: 714/779 (faltam ~65: ABS/BV/IACS/IOGP/ISA…, agente em curso). Depois: desenhos próprios com cotas nos resumos (só 78 têm cota).
   - PRÓXIMO: (a) terminar o que os 4 agentes não terminaram; (b) RESUMOS próprios por norma (conteudo/resumos/<slug>.json, texto
     REESCRITO + valores/itens + esquemas) — 779 normas, por lotes de ~2–4 agentes, prioridade: as 91 citadas nas temáticas
     (NRs, B16.5, B31.3, AWS D1.1, ISO 898…), depois por órgão; ler o texto em dados/textos (local) e escrever com palavras próprias;

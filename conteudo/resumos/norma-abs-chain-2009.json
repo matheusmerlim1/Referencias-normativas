@@ -1,0 +1,23 @@
+{
+ "id": "ABS-CHAIN-2009",
+ "titulo": "ABS — Guia para Certificação de Amarras de Ancoragem Offshore (2009)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Certificação de amarras de ancoragem offshore (com e sem malhete, soldadas por centelhamento), amarras de desgaste, acessórios e conectores submarinos especiais; introduz os graus R4S e R5 além de R3, R3S e R4 (a antiga letra 'Q' foi retirada). Cada grau de amarra ou acessório é aprovado individualmente; a aprovação de um grau maior não vale para o menor.",
+   "valores": [
+    {
+     "parametro": "Graus cobertos",
+     "valor": "R3, R3S, R4, R4S, R5",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Organização",
+   "item": "Seções 1 a 5",
+   "texto": "Requisitos gerais; materiais (barras laminadas: fabricação, química, ensaios mecânicos, tolerâncias, END, marcação, tratamento); projeto e fabricação; ensaios e inspeção da amarra acabada (carga de prova, carga de ruptura, dimensões, END); ensaios de acessórios. Propriedades mecânicas por grau na Tabela 1."
+  }
+ ]
+}

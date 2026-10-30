@@ -1,0 +1,40 @@
+{
+ "id": "API-1104",
+ "titulo": "API 1104 — Soldagem de dutos e instalações associadas",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Métodos para produzir soldas de qualidade com soldadores qualificados, procedimentos aprovados, materiais e equipamentos: soldagem a gás e a arco de juntas de topo, filete e encaixe em tubos de aço carbono e baixa liga para compressão, bombeamento e transporte de petróleo, gás e derivados; também ensaios não destrutivos e critérios de aceitação."
+  },
+  {
+   "titulo": "Qualificação",
+   "item": "5 e 6",
+   "texto": "Qualificação de procedimentos e de soldadores por ensaios de tração, nick-break e dobramento (raiz, face, lateral).",
+   "valores": [
+    {
+     "parametro": "Largura do corpo de prova de dobramento lateral",
+     "valor": "1/2 in (13 mm)",
+     "item": "5.6.5.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Aceitação por END",
+   "item": "9",
+   "texto": "Critérios por tipo de descontinuidade (falta de penetração, fusão incompleta, escória, porosidade, trincas, mordedura).",
+   "valores": [
+    {
+     "parametro": "Falta de penetração (IPD) — indicação individual máx.",
+     "valor": "2 in (50 mm)",
+     "item": "9.3.1"
+    },
+    {
+     "parametro": "IPD — soma em qualquer trecho de 12 in (300 mm) máx.",
+     "valor": "3 in (75 mm)",
+     "item": "9.3.1"
+    }
+   ]
+  }
+ ]
+}

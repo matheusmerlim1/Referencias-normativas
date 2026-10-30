@@ -1,0 +1,48 @@
+{
+ "id": "ASME-B31.8",
+ "titulo": "ASME B31.8 — Sistemas de transmissão e distribuição de gás por dutos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "801",
+   "texto": "Projeto, fabricação, montagem, inspeção e ensaio de instalações de dutos para transporte de gás, com foco na segurança do público e dos empregados, mais operação e manutenção."
+  },
+  {
+   "titulo": "Classes de locação e fator de projeto",
+   "item": "840, 841, Tabela 841.114A",
+   "texto": "A pressão de projeto do tubo de aço é P = (2St/D)·F·E·T; o fator F depende da classe de locação (densidade de edificações).",
+   "valores": [
+    {
+     "parametro": "Classe 1, Divisão 1",
+     "valor": "F = 0,80",
+     "item": "Tabela 841.114A"
+    },
+    {
+     "parametro": "Classe 1, Divisão 2",
+     "valor": "F = 0,72",
+     "item": "Tabela 841.114A"
+    },
+    {
+     "parametro": "Classe 2",
+     "valor": "F = 0,60",
+     "item": "Tabela 841.114A"
+    },
+    {
+     "parametro": "Classe 3",
+     "valor": "F = 0,50",
+     "item": "Tabela 841.114A"
+    },
+    {
+     "parametro": "Classe 4",
+     "valor": "F = 0,40",
+     "item": "Tabela 841.114A"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaio, operação e corrosão",
+   "item": "841.3, 850, 860",
+   "texto": "Requisitos de teste de pressão por classe de locação e tensão de operação (≥ 30 % SMYS), operação e manutenção, controle de corrosão; capítulos para offshore e serviço ácido."
+  }
+ ]
+}

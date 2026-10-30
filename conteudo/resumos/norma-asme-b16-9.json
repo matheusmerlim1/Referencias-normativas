@@ -1,0 +1,28 @@
+{
+ "id": "ASME-B16.9",
+ "titulo": "ASME B16.9 — Conexões de aço forjadas/conformadas para solda de topo",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Dimensões gerais, tolerâncias, ratings, ensaios e marcação de conexões de fábrica para solda de topo (curvas, tês, reduções, tampões, pontas para flange solto…). As extremidades de solda têm posição fixa em relação à linha de centro ou às dimensões totais.",
+   "valores": [
+    {
+     "parametro": "Faixa de tamanhos",
+     "valor": "NPS 1/2 a 48 (DN 15 a 1200)",
+     "item": "1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ratings e projeto",
+   "item": "2",
+   "texto": "A pressão admissível da conexão pode ser calculada como a de tubo reto sem costura de material equivalente e mesma espessura; o projeto da conexão pode ser comprovado por ensaio de prova."
+  },
+  {
+   "titulo": "Marcação, material e dimensões",
+   "item": "4 a 6",
+   "texto": "Marcação conforme a norma (fabricante, material, schedule, tamanho), material de especificações de conexões (SA-234, SA-403, SA-420 e outras) e tabelas de dimensões e tolerâncias por tipo de conexão."
+  }
+ ]
+}

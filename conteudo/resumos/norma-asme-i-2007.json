@@ -1,0 +1,28 @@
+{
+ "id": "ASME-I-2007",
+ "titulo": "ASME BPVC Seção I (2007) — Regras para construção de caldeiras de potência",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "PG-1, Preâmbulo",
+   "texto": "Caldeiras de potência, caldeiras elétricas, caldeiras miniatura e de alta temperatura de água, e partes associadas (tubulação externa da caldeira até as válvulas de bloqueio)."
+  },
+  {
+   "titulo": "Estrutura",
+   "item": "Partes PG, PW, PR, PB, PWT, PFT, PFH, PMB, PEB, PVG, PHRSG",
+   "texto": "PG requisitos gerais (materiais, projeto, aberturas, válvulas de segurança, testes); PW soldadas; PR rebitadas; PB brasadas; PWT aquatubulares; PFT flamotubulares; PFH aquecedores de água de alimentação; PMB miniatura; PEB elétricas; PVG vaporizadores orgânicos; PHRSG recuperadores de calor."
+  },
+  {
+   "titulo": "Teste hidrostático",
+   "item": "PW-54",
+   "texto": "Tambores e partes soldadas são testados hidrostaticamente.",
+   "valores": [
+    {
+     "parametro": "Pressão de teste hidrostático mín.",
+     "valor": "1,5 × PMTA",
+     "item": "PW-54.1 (salvo PG-99.3, PG-106.8, PW-54.3)"
+    }
+   ]
+  }
+ ]
+}

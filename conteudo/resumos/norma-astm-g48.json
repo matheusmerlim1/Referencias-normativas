@@ -1,0 +1,28 @@
+{
+ "id": "ASTM-G48",
+ "titulo": "ASTM G48-99 — Resistência à corrosão por pites e em frestas de aços inoxidáveis (cloreto férrico)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1.1",
+   "texto": "Métodos de ensaio para determinar a resistência de aços inoxidáveis e ligas relacionadas à corrosão por pites e em frestas em solução de cloreto férrico: Métodos A (pites) e B (frestas) e métodos de temperatura crítica (C a F)."
+  },
+  {
+   "titulo": "Solução e duração",
+   "item": "7, 9, 10",
+   "texto": "Solução de cloreto férrico (com HCl nos métodos de temperatura crítica); avaliação por perda de massa e exame dos pites.",
+   "valores": [
+    {
+     "parametro": "Concentração de FeCl3",
+     "valor": "≈ 6 % em massa",
+     "item": "7"
+    },
+    {
+     "parametro": "Duração razoável do ensaio",
+     "valor": "72 h (admitidas variações)",
+     "item": "9.1.4 / 10.1"
+    }
+   ]
+  }
+ ]
+}

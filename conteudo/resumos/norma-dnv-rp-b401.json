@@ -1,0 +1,23 @@
+{
+ "id": "DNV-RP-B401",
+ "titulo": "DNV-RP-B401 — Projeto de proteção catódica",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Projeto de proteção catódica (anodos galvânicos) de estruturas offshore instaladas permanentemente na produção de petróleo e gás."
+  },
+  {
+   "titulo": "Critérios",
+   "item": "Seções",
+   "texto": "Potencial de proteção, densidades de corrente de projeto por zona climática e profundidade, fatores de degradação do revestimento, cálculo de massa e número de anodos e requisitos de fabricação e instalação de anodos.",
+   "valores": [
+    {
+     "parametro": "Potencial de proteção de projeto — aço carbono e baixa liga",
+     "valor": "−0,80 V vs. Ag/AgCl/água do mar",
+     "item": "Seção de critérios"
+    }
+   ]
+  }
+ ]
+}

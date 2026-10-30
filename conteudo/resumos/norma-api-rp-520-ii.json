@@ -1,0 +1,24 @@
+{
+ "id": "API-RP-520-II",
+ "titulo": "API RP 520 Parte II — Instalação de dispositivos de alívio de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Métodos de instalação de dispositivos de alívio para equipamentos com PMTA ≥ 15 psig: tubulação de entrada e de saída, perdas de carga, suportes, isolamento, válvulas de bloqueio e drenos."
+  },
+  {
+   "titulo": "Perda na entrada",
+   "item": "2.2.1",
+   "texto": "A perda de pressão não recuperável entre o equipamento e a válvula de alívio é limitada para evitar batimento (chattering).",
+   "valores": [
+    {
+     "parametro": "Perda de pressão na entrada máx.",
+     "valor": "3 % da pressão de ajuste",
+     "item": "2.2.1",
+     "nota": "percentual da pressão de ajuste; conferir a base no texto"
+    }
+   ]
+  }
+ ]
+}

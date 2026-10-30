@@ -1,0 +1,34 @@
+{
+ "id": "API-653",
+ "titulo": "API 653 — Inspeção, reparo, alteração e reconstrução de tanques",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Tanques de armazenamento atmosféricos de aço já em serviço (construídos pela API 650/12C): inspeção, avaliação de adequação ao uso, reparo, alteração, relocação e reconstrução, com base na experiência de proprietários, fabricantes e reparadores."
+  },
+  {
+   "titulo": "Intervalos de inspeção interna",
+   "item": "6.4",
+   "texto": "Intervalo pela espessura mínima de chapa de fundo prevista na próxima inspeção.",
+   "valores": [
+    {
+     "parametro": "Intervalo interno sem taxa de corrosão conhecida",
+     "valor": "≤ 10 anos",
+     "item": "6.4.2.2"
+    },
+    {
+     "parametro": "Teto do intervalo interno sem RBI",
+     "valor": "20 anos",
+     "item": "6.4.2.2 / 6.4.3",
+     "nota": "confirmado em interpretação 653-1-03/02 incluída no documento"
+    }
+   ]
+  },
+  {
+   "titulo": "Demais seções",
+   "item": "4 a 13",
+   "texto": "Avaliação de costado, fundo e teto; fratura frágil; reparos e alterações; soldagem; ensaios; teste hidrostático; recalques; marcação e registros."
+  }
+ ]
+}

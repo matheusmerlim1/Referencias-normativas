@@ -1,0 +1,52 @@
+{
+ "id": "ASME-B31.4",
+ "titulo": "ASME B31.4 — Sistemas de transporte de líquidos e lamas por dutos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "400",
+   "texto": "Código de projeto, materiais, construção, montagem, inspeção, ensaio, operação e manutenção de dutos que transportam líquidos (petróleo cru, condensado, GLP, álcoois, CO2 líquido e outros) e lamas, entre instalações de produção, terminais e plantas."
+  },
+  {
+   "titulo": "Projeto",
+   "item": "401 a 404",
+   "texto": "Pressão de projeto pela fórmula de Barlow com tensão admissível baseada em fator de projeto × fator de junta × SMYS.",
+   "valores": [
+    {
+     "parametro": "Fator de projeto máximo",
+     "valor": "0,72",
+     "item": "403",
+     "nota": "o usuário pode adotar valor menor por serviço ou local"
+    },
+    {
+     "parametro": "Fator de junta E — API 5L / A333 sem costura",
+     "valor": "1,00",
+     "item": "Tabela 403.2.1-1"
+    },
+    {
+     "parametro": "Fator de junta E — A134, A139 (soldagem por fusão)",
+     "valor": "0,80",
+     "item": "Tabela 403.2.1-1"
+    }
+   ]
+  },
+  {
+   "titulo": "Construção e ensaio",
+   "item": "434 a 437",
+   "texto": "Soldagem e exame das soldas, curvamento, cobertura, travessias e teste hidrostático.",
+   "valores": [
+    {
+     "parametro": "Pressão de teste hidrostático",
+     "valor": "≥ 1,25 × pressão interna de projeto",
+     "item": "437.4",
+     "nota": "nº do subitem não confirmado no texto extraído; conferir"
+    }
+   ]
+  },
+  {
+   "titulo": "Operação e manutenção",
+   "item": "450 a 457",
+   "texto": "Planos de operação, inspeção, reparo de defeitos, controle de corrosão (Cap. VIII) e abandono."
+  }
+ ]
+}

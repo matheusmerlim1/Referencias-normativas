@@ -1,0 +1,16 @@
+{
+ "id": "ABS-GASDISP-2019",
+ "titulo": "ABS — Notas de orientação sobre estudos de dispersão de gás em embarcações a gás (2019)",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "Seção 1",
+   "texto": "Orientação para estudos de dispersão de gás em embarcações movidas a gás (GNL e outros combustíveis gasosos), para avaliar zonas perigosas e saídas de ventilação/alívio."
+  },
+  {
+   "titulo": "Modelagem CFD",
+   "item": "Seção 2",
+   "texto": "Diretrizes gerais de modelagem por dinâmica dos fluidos computacional: definição de cenários de vazamento, condições de vento, malha, critérios de concentração (limite inferior de inflamabilidade) e apresentação dos resultados."
+  }
+ ]
+}
