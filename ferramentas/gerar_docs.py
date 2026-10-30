@@ -196,7 +196,7 @@ def processar(f, gravar):
         com_item = {it["pagina"] for it in its}
         if d.get("sem_paginas_inteiras"):
             pass  # documento só de texto (caixas/faixas em volta de parágrafos contariam como "desenho")
-        elif (not its and len(pdf) <= 40 and (d["arq"].startswith(OCR) or d.get("orgao") == "ABNT")) or (len(pdf) <= 25 and d.get("orgao") not in ("ASME", "ABNT", "DIN")) or (len(pdf) <= 80 and d.get("orgao") == "DIN"):
+        elif (not its and len(pdf) <= 40 and (d["arq"].startswith(OCR) or d.get("orgao") == "ABNT")) or (len(pdf) <= 25 and d.get("orgao") not in ("ASME", "ABNT", "DIN", "Petrobras")) or (len(pdf) <= 80 and d.get("orgao") == "DIN"):
             # norma curta: páginas com desenho/grade que não renderam nenhum item viram imagem inteira (ex. tabelas de
             # dimensões de parafusos sem título localizável; escaneadas). Páginas só de texto corrido ficam de fora.
             its += [{"tipo": "pagina", "num": str(i + 1), "titulo": f"Página {i + 1} (página inteira)", "texto": "", "pagina_inteira": True,
