@@ -168,15 +168,19 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
 - Desenhos de engenharia (Equinor/Maersk) costumam ter cotas como vetor sem texto: `get_text()` volta vazio — renderize com crop.py a 200+ dpi e leia a imagem.
 
 ## ESTADO ATUAL (30/out/2026)
-- 802 fichas = 23 TEMÁTICAS (curadas, públicas) + 779 de NORMA (`norma-*.json`, geradas, locais); 22 839 requisitos; 779 normas.
-- 779/779 RESUMOS próprios (`conteudo/resumos/`), 6 543 valores; 902 valores ligados a cota.
+- 802 fichas = 23 TEMÁTICAS (curadas, públicas) + 779 de NORMA (`norma-*.json`, geradas, locais); 22 841 requisitos; 780 normas
+  (a 780ª = AISC Shapes Database v15.0, perfis americanos W/HP/S/M/C/MC/L/WT/HSS em perfis-laminados — outra sessão, commit 8c1463a).
+- 779/779 RESUMOS próprios (`conteudo/resumos/`), 6 543 valores; 1 570 ligados a cota; 0 valores geométricos sem cota (83 sem
+  geometria registrados em conteudo/cotas_dispensadas.json); 779/779 resumos com ≥ 1 desenho próprio.
 - 319 SVG próprios em `assets/figuras/esquemas/`; as 23 temáticas NÃO têm mais figura de norma (tudo trocado por SVG).
 - Catálogo do acervo T: 3 933 documentos únicos (`conteudo/catalogo.json`) → buscáveis no site como "Documentos no acervo".
 - Triagem de `referencias/`: 775/775 documentos relevantes incorporados (100 %). Auditoria de imagens encerrada (28/out).
 - `verificar_autossuficiente.py` = 0 erros → `referencias/` (6,7 GB) PODE ser removida — o usuário decide. Sem ela param as
   ferramentas que leem PDF (gerar_docs, recortes, info_normas, extrair_textos, crop, dump, ocr).
-- Tamanhos: dados/dados.js público 8,5 MB; dados_local.js 25 MB; assets/figuras 351 MB (quase tudo local); dados/ 122 MB.
-- Commits: c2d79d0 camada pública · 76007e2 resumos das 779 normas · aae2ef7 cotas lote 1 · depois: CLAUDE.md reorganizado.
+- Tamanhos: dados/dados.js público 9,3 MB; dados_local.js 25 MB; assets/figuras 351 MB (quase tudo local); dados/ 122 MB.
+- Commits: c2d79d0 camada pública · 76007e2 resumos · aae2ef7…e13b09c cotas lotes 1–6 · 770dafb lote 7 (desenho em todo resumo)
+  · 27c86dc lote 8 (desenhos específicos). Preferência do usuário (30/out): "quanto mais desenhos detalhados melhor" — sempre
+  preferir desenho específico da peça/ensaio da norma ao genérico da família.
 
 ## O QUE JÁ FOI FEITO (resumo; detalhes em HISTORICO.md)
 - **Site** (app.js/style.css/index.html): busca com sinônimos PT/EN e por prefixo no texto completo; home com temáticas + "Normas"
