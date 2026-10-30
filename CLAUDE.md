@@ -257,6 +257,9 @@ Lotes 1–7 feitos (30/out): todo valor geométrico tem cota e todo resumo tem d
      `… cotas_pendentes.py norma-nr-15` lista os valores com índice seção.valor; `--svg` lista esquemas que ninguém cita.
 2. **Figuras nos resumos** (baixa prioridade): só ~28 resumos têm `figuras`; normas sem valor dimensional podem ganhar esquema de conceito.
 3. **Decisão do usuário**: remover `referencias/` (pode; ver Estado).
+   **Acervo T: ainda NÃO analisado** (30/out): do catálogo (3 933 docs), 3 655 não estão em referencias/ → 2 648 não superados
+   (ASTM 881, Petrobras N-xxxx 517, ABNT 203, SSPC 175, ASME 133, specs SBM/MODEC/Equinor/Gran ~220, livros 58, MTE 37).
+   Só têm catálogo (título/código); incorporar = ler do T: (somente leitura) → fichas/resumos próprios, por lotes e prioridade.
 4. Backlog antigo (baixa prioridade; detalhes em HISTORICO.md): ficha vaso-pressao migrar de VIII-1 2001 para 2007; UCS-66, UG-37;
    B16.9/B16.11/B36.19M; NR-13 tubulações; ISO 4759/4042; MSS SP-44, API 6AF; NBR 6409/ISO 1302; IPE/W/cantoneiras; composição
    química das specs SA/SB; aba "Acervo" no site; fichas de pintura (N-xxxx/SSPC) e andaime.
