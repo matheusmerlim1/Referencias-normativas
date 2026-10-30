@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-label="Estabilidade e lastro — G, B, M, GM e integridade estanque">
+<title>Estabilidade e lastro — G, B, M, GM e integridade estanque (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Estabilidade e lastro — G, B, M, GM e integridade estanque</text>
+<line x1="0" y1="220" x2="1000" y2="220" stroke="#666" stroke-width="1" stroke-dasharray="8 5"/>
+<text x="990" y="214" text-anchor="end" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">linha d'água</text>
+<path d="M300,120 L700,120 L680,330 L320,330 Z" fill="#666" fill-opacity="0.1" stroke="#666" stroke-width="1.5"/>
+<rect x="330" y="280" width="150" height="45" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<rect x="520" y="280" width="150" height="45" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<text x="405" y="307" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">tanque de lastro</text>
+<text x="595" y="307" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">tanque de lastro</text>
+<circle cx="500" cy="190" r="6" fill="#666" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
+<text x="512" y="186" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">G (centro de gravidade)</text>
+<circle cx="500" cy="260" r="6" fill="#666" fill-opacity="0.0" stroke="#666" stroke-width="1.5"/>
+<text x="512" y="264" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">B (centro de carena)</text>
+<circle cx="500" cy="90" r="6" fill="#666" fill-opacity="0.0" stroke="#666" stroke-width="1.5"/>
+<text x="512" y="86" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">M (metacentro)</text>
+<g id="cota-GM" class="cota"><line x1="470" y1="90" x2="470" y2="190" stroke="#666" stroke-width="1.2"/><polygon points="470.0,90.0 473.5,99.0 466.5,99.0" fill="#666"/><polygon points="470.0,190.0 466.5,181.0 473.5,181.0" fill="#666"/><text x="464" y="144.0" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">GM</text></g>
+<line x1="500" y1="60" x2="500" y2="340" stroke="#666" stroke-width="1" stroke-dasharray="10 4 2 4"/>
+<rect x="700" y="140" width="14" height="60" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<text x="720" y="150" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">porta / escotilha estanque</text>
+<text x="500" y="390" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">subdivisão estanque, borda livre e estabilidade intacta / em avaria</text>
+<text x="12" y="412" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

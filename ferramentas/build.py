@@ -306,6 +306,18 @@ def svgs_das_cotas(cotas):
     return erros, svgs
 
 
+def svgs_invalidos():
+    """Erros de XML nos desenhos próprios (esquemas/*.svg) — um '<' ou '&' solto num rótulo quebra o SVG no navegador."""
+    import xml.dom.minidom
+    erros = []
+    for caminho in sorted((FIGURAS / "esquemas").glob("*.svg")):
+        try:
+            xml.dom.minidom.parse(str(caminho))
+        except Exception as e:  # ExpatError
+            erros.append(f"esquemas/{caminho.name}: SVG com XML inválido ({e}) — escape '<' como &lt; e '&' como &amp;")
+    return erros
+
+
 def figura_propria(arq):
     return isinstance(arq, str) and arq.startswith(PREFIXO_PROPRIO)
 
@@ -364,7 +376,7 @@ def main():
     erros = validar(normas, fichas) + validar_resumos(normas, resumos)
     erros_tab, avisos_tab, refs_tab = cotas_de_tabelas(fichas)
     erros_cota, svgs = svgs_das_cotas(cotas_citadas(fichas, resumos) + refs_tab)
-    erros += erros_tab + erros_cota
+    erros += erros_tab + erros_cota + svgs_invalidos()
     if avisos_tab:
         print(f"  aviso: {len(avisos_tab)} tabela(s) com esquema SVG têm coluna(s) sem cota (mapa 'cotas' ou id cota-<1ª palavra>):")
         for a in avisos_tab[:12]:

@@ -170,7 +170,7 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
 ## ESTADO ATUAL (30/out/2026)
 - 802 fichas = 23 TEMÁTICAS (curadas, públicas) + 779 de NORMA (`norma-*.json`, geradas, locais); 22 839 requisitos; 779 normas.
 - 779/779 RESUMOS próprios (`conteudo/resumos/`), 6 543 valores; 902 valores ligados a cota.
-- 302 SVG próprios em `assets/figuras/esquemas/`; as 23 temáticas NÃO têm mais figura de norma (tudo trocado por SVG).
+- 319 SVG próprios em `assets/figuras/esquemas/`; as 23 temáticas NÃO têm mais figura de norma (tudo trocado por SVG).
 - Catálogo do acervo T: 3 933 documentos únicos (`conteudo/catalogo.json`) → buscáveis no site como "Documentos no acervo".
 - Triagem de `referencias/`: 775/775 documentos relevantes incorporados (100 %). Auditoria de imagens encerrada (28/out).
 - `verificar_autossuficiente.py` = 0 erros → `referencias/` (6,7 GB) PODE ser removida — o usuário decide. Sem ela param as
@@ -228,6 +228,14 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
 ## PRÓXIMOS PASSOS (continuar daqui)
 Lotes 1–7 feitos (30/out): todo valor geométrico tem cota e todo resumo tem desenho. Próximo (opcional): revisar os
    encaixes aproximados (desenhos genéricos por família) e trocar por desenhos específicos nas normas mais consultadas. Commit + push ao fim de cada lote (pedido do usuário).
+   LOTE 8 (30/out, "quanto mais desenhos detalhados melhor"): genéricos trocados por ESPECÍFICOS — válvulas (alívio PSV → RP 520;
+   gaveta/esfera → API 600/608/6D, B16.10; ensaio de fogo → 607/6FA; controle + ensaio 2D/6D → ISA 75.x), RP 14C (vaso com
+   PSH/PSL/LSH/LSL/SDV), offshore (unidade-offshore-tipos → BV NR445 A/B/D, OS-C201; cargas-acidentais → RP-C204; estabilidade-lastro
+   → RP-H104/NR445-B; protecao-catodica → RP-B401; processo-offshore-layout → RP 14J, OS-E201, ABS gasdisp), END por método
+   (end-radiografia, end-ultrassom, end-superficie-pt-mt-acfm, end-emissao-acustica → Seção V SE/SD), poco-coluna-revestimento
+   (5CT, 5D, 7-1, 7K, 10D), ensaio-aderencia-corrosao (D4541, G48, SB-858, ISO 15156), ensaio-plasticos (D1238, D955, D618).
+   build.py agora RECUSA SVG com XML inválido ('<'/'&' solto em rótulo). 319 SVG. Próximo: seguir trocando genéricos
+   (asme-ii-chapa-espessura 118, tubo-diametros-parede 92, arame 68, fundido 32 — specs SA/SB: por tipo de produto/ensaio).
 1. **Cotas nos resumos** — faltam ~1 049 valores dimensionais sem cota em 316 resumos. Um agente por vez, por lote. O agente:
    reutiliza SVG existentes (acrescenta grupo `cota-<nome>` sem quebrar os que já existem), só cria SVG novo DO ZERO (só rótulos,
    nunca números; rodapé "Esquema ilustrativo (não é desenho da norma) — sem escala."), põe `"cota"` no valor e o SVG em `figuras`

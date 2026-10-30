@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 410" width="1000" height="410" role="img" aria-label="Válvula de controle — partes e montagem de ensaio (tomadas de pressão)">
+<title>Válvula de controle — partes e montagem de ensaio (tomadas de pressão) (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Válvula de controle — partes e montagem de ensaio (tomadas de pressão)</text>
+<text x="230" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) válvula de controle</text>
+<path d="M110,330 L110,260 L350,260 L350,330 Z" fill="#666" fill-opacity="0.1" stroke="#666" stroke-width="1.5"/>
+<rect x="80" y="270" width="30" height="50" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<rect x="350" y="270" width="30" height="50" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<rect x="215" y="270" width="30" height="40" fill="#666" fill-opacity="0.45" stroke="#666" stroke-width="1.5"/>
+<text x="260" y="300" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">obturador / sede</text>
+<line x1="230" y1="260" x2="230" y2="170" stroke="#666" stroke-width="3"/>
+<path d="M150,170 Q230,100 310,170 Z" fill="#666" fill-opacity="0.2" stroke="#666" stroke-width="1.5"/>
+<text x="330" y="150" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">atuador (diafragma)</text>
+<rect x="130" y="190" width="50" height="30" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<text x="125" y="205" text-anchor="end" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">posicionador</text>
+<text x="720" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) montagem de ensaio de vazão / ruído</text>
+<line x1="470" y1="280" x2="970" y2="280" stroke="#666" stroke-width="6"/>
+<path d="M698,264.6 L742,295.4 L742,264.6 L698,295.4 Z" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<line x1="620" y1="280" x2="620" y2="240" stroke="#666" stroke-width="1.5"/>
+<text x="620" y="232" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">P1</text>
+<line x1="800" y1="280" x2="800" y2="240" stroke="#666" stroke-width="1.5"/>
+<text x="800" y="232" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">P2</text>
+<g id="cota-montante" class="cota"><line x1="620" y1="286" x2="620" y2="320" stroke="#666" stroke-width="1"/><line x1="698" y1="286" x2="698" y2="320" stroke="#666" stroke-width="1"/><line x1="620" y1="320" x2="698" y2="320" stroke="#666" stroke-width="1.2"/><polygon points="620.0,320.0 629.0,316.5 629.0,323.5" fill="#666"/><polygon points="698.0,320.0 689.0,323.5 689.0,316.5" fill="#666"/><text x="659.0" y="314" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">2D</text></g>
+<g id="cota-jusante" class="cota"><line x1="742" y1="286" x2="742" y2="320" stroke="#666" stroke-width="1"/><line x1="800" y1="286" x2="800" y2="320" stroke="#666" stroke-width="1"/><line x1="742" y1="320" x2="800" y2="320" stroke="#666" stroke-width="1.2"/><polygon points="742.0,320.0 751.0,316.5 751.0,323.5" fill="#666"/><polygon points="800.0,320.0 791.0,323.5 791.0,316.5" fill="#666"/><text x="771.0" y="314" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">6D</text></g>
+<text x="520" y="270" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">vazão medida →</text>
+<text x="900" y="240" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">microfone (ruído)</text>
+<circle cx="900" cy="255" r="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<text x="720" y="370" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Cv / Kv a partir de vazão e ΔP; cavitação quando ΔP se aproxima do limite</text>
+<text x="12" y="402" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

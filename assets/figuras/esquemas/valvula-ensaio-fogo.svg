@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" role="img" aria-label="Ensaio de fogo de válvula — montagem">
+<title>Ensaio de fogo de válvula — montagem (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Ensaio de fogo de válvula — montagem</text>
+<rect x="300" y="120" width="400" height="220" fill="#666" fill-opacity="0.05" stroke="#666" stroke-width="1.5" stroke-dasharray="8 4"/>
+<text x="500" y="110" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">invólucro de chama</text>
+<line x1="80" y1="230" x2="920" y2="230" stroke="#666" stroke-width="6"/>
+<path d="M470,209.0 L530,251.0 L530,209.0 L470,251.0 Z" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<text x="500" y="285" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">válvula em ensaio (fechada, pressurizada)</text>
+<path d="M360,330 L350,300 L360,310 L370,290 L372,330 Z" fill="#666" fill-opacity="0.35" stroke="#666" stroke-width="1.5"/>
+<path d="M440,330 L430,300 L440,310 L450,290 L452,330 Z" fill="#666" fill-opacity="0.35" stroke="#666" stroke-width="1.5"/>
+<path d="M560,330 L550,300 L560,310 L570,290 L572,330 Z" fill="#666" fill-opacity="0.35" stroke="#666" stroke-width="1.5"/>
+<path d="M640,330 L630,300 L640,310 L650,290 L652,330 Z" fill="#666" fill-opacity="0.35" stroke="#666" stroke-width="1.5"/>
+<text x="500" y="360" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">queimadores</text>
+<circle cx="420" cy="170" r="5" fill="#666" fill-opacity="0.7" stroke="#666" stroke-width="1.5"/>
+<circle cx="580" cy="170" r="5" fill="#666" fill-opacity="0.7" stroke="#666" stroke-width="1.5"/>
+<circle cx="500" cy="200" r="5" fill="#666" fill-opacity="0.7" stroke="#666" stroke-width="1.5"/>
+<text x="600" y="160" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">termopares / cubos de calorímetro</text>
+<rect x="60" y="200" width="60" height="60" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<text x="90" y="280" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">fonte de pressão</text>
+<rect x="860" y="260" width="60" height="50" fill="#666" fill-opacity="0.2" stroke="#666" stroke-width="1.5"/>
+<line x1="890" y1="236" x2="890" y2="260" stroke="#666" stroke-width="2"/>
+<text x="890" y="330" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">coleta do vazamento</text>
+<text x="500" y="60" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">queima → resfriamento → medição de vazamento pela sede e para fora → operação</text>
+<text x="12" y="392" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

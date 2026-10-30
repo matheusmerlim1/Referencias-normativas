@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 390" width="1000" height="390" role="img" aria-label="Radiografia — arranjo fonte, peça, filme e indicadores de qualidade de imagem (IQI)">
+<title>Radiografia — arranjo fonte, peça, filme e indicadores de qualidade de imagem (IQI) (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Radiografia — arranjo fonte, peça, filme e indicadores de qualidade de imagem (IQI)</text>
+<text x="250" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) arranjo radiográfico</text>
+<path d="M240,80 L260,80 L250,100 Z" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<text x="270" y="90" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">fonte (ponto focal F)</text>
+<line x1="250" y1="100" x2="130" y2="290" stroke="#666" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="250" y1="100" x2="380" y2="300" stroke="#666" stroke-width="1" stroke-dasharray="5 4"/>
+<rect x="140" y="220" width="220" height="40" fill="#666" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<text x="250" y="245" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">peça / solda</text>
+<rect x="300" y="210" width="40" height="10" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<text x="345" y="205" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">IQI</text>
+<rect x="110" y="290" width="280" height="10" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<text x="250" y="320" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">filme / detector</text>
+<g id="cota-fonte-objeto" class="cota"><line x1="40" y1="100" x2="40" y2="220" stroke="#666" stroke-width="1.2"/><polygon points="40.0,100.0 43.5,109.0 36.5,109.0" fill="#666"/><polygon points="40.0,220.0 36.5,211.0 43.5,211.0" fill="#666"/><text x="46" y="150" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">fonte–objeto</text></g>
+<g id="cota-objeto-filme" class="cota"><line x1="40" y1="260" x2="40" y2="290" stroke="#666" stroke-width="1.2"/><polygon points="40.0,260.0 43.5,269.0 36.5,269.0" fill="#666"/><polygon points="40.0,290.0 36.5,281.0 43.5,281.0" fill="#666"/><text x="46" y="312" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">objeto–filme</text></g>
+<text x="250" y="360" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">penumbra geométrica Ug = F × (objeto–filme) / (fonte–objeto)</text>
+<text x="720" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) indicadores de qualidade de imagem</text>
+<rect x="560" y="90" width="300" height="70" fill="#666" fill-opacity="0.2" stroke="#666" stroke-width="1.5"/>
+<text x="710" y="80" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">IQI de furo (placa)</text>
+<circle cx="640" cy="125" r="5" fill="#666" fill-opacity="0.0" stroke="#666" stroke-width="1.5"/>
+<circle cx="720" cy="125" r="9" fill="#666" fill-opacity="0.0" stroke="#666" stroke-width="1.5"/>
+<circle cx="800" cy="125" r="15" fill="#666" fill-opacity="0.0" stroke="#666" stroke-width="1.5"/>
+<text x="640" y="178" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">1T</text>
+<text x="720" y="178" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">2T</text>
+<text x="800" y="178" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">4T</text>
+<g id="cota-espessura-iqi" class="cota"><line x1="860" y1="90" x2="880" y2="90" stroke="#666" stroke-width="1"/><line x1="860" y1="160" x2="880" y2="160" stroke="#666" stroke-width="1"/><line x1="880" y1="90" x2="880" y2="160" stroke="#666" stroke-width="1.2"/><polygon points="880.0,90.0 883.5,99.0 876.5,99.0" fill="#666"/><polygon points="880.0,160.0 876.5,151.0 883.5,151.0" fill="#666"/><text x="887" y="129.0" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">T (espessura)</text></g>
+<rect x="560" y="230" width="300" height="90" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.5"/>
+<text x="710" y="222" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">IQI de arame (fios de Ø decrescente)</text>
+<line x1="590" y1="240" x2="590" y2="310" stroke="#666" stroke-width="6.0"/>
+<line x1="635" y1="240" x2="635" y2="310" stroke="#666" stroke-width="5.2"/>
+<line x1="680" y1="240" x2="680" y2="310" stroke="#666" stroke-width="4.4"/>
+<line x1="725" y1="240" x2="725" y2="310" stroke="#666" stroke-width="3.5999999999999996"/>
+<line x1="770" y1="240" x2="770" y2="310" stroke="#666" stroke-width="2.8"/>
+<line x1="815" y1="240" x2="815" y2="310" stroke="#666" stroke-width="2.0"/>
+<text x="710" y="345" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">sensibilidade = menor furo / fio visível na imagem</text>
+<text x="12" y="382" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

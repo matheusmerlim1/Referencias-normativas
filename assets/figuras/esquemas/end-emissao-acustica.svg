@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 390" width="1000" height="390" role="img" aria-label="Emissão acústica — sensores em vaso pressurizado e localização da fonte">
+<title>Emissão acústica — sensores em vaso pressurizado e localização da fonte (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Emissão acústica — sensores em vaso pressurizado e localização da fonte</text>
+<path d="M200,140 Q200,90 260,90 L740,90 Q800,90 800,140 L800,260 Q800,310 740,310 L260,310 Q200,310 200,260 Z" fill="#666" fill-opacity="0.1" stroke="#666" stroke-width="1.5"/>
+<text x="500" y="205" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">vaso / cilindro pressurizado</text>
+<rect x="266" y="80" width="28" height="10" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="706" y="80" width="28" height="10" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="266" y="310" width="28" height="10" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="706" y="310" width="28" height="10" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<text x="720" y="75" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">sensor piezelétrico (acoplante + fixação)</text>
+<circle cx="560" cy="250" r="8" fill="#666" fill-opacity="0.0" stroke="#666" stroke-width="1.5"/>
+<line x1="553" y1="243" x2="567" y2="257" stroke="#c33" stroke-width="1.5"/>
+<text x="575" y="262" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">fonte (trinca / vazamento)</text>
+<path d="M560,250 m-30,0 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="720" y1="300" x2="570" y2="255" stroke="#666" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="280" y1="300" x2="552" y2="252" stroke="#666" stroke-width="1" stroke-dasharray="4 3"/>
+<rect x="880" y="160" width="90" height="70" fill="#666" fill-opacity="0.2" stroke="#666" stroke-width="1.5"/>
+<text x="925" y="200" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">aquisição</text>
+<text x="500" y="360" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">localização pela diferença de tempo de chegada entre sensores; verificação dos sensores antes do ensaio</text>
+<text x="12" y="382" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>
