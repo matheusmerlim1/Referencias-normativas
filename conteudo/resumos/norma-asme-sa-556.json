@@ -89,13 +89,18 @@
     {
      "parametro": "Tolerância do comprimento da perna — até 20 ft [6 m]",
      "valor": "+1/8 in [3,2 mm]",
-     "item": "Tabela 4"
+     "item": "Tabela 4",
+     "cota": "esquemas/asme-ii-tubo-u.svg#perna"
     },
     {
      "parametro": "— 30 a 40 ft [9 a 12,2 m]",
      "valor": "+3/16 in [4,8 mm]",
-     "item": "Tabela 4"
+     "item": "Tabela 4",
+     "cota": "esquemas/asme-ii-tubo-u.svg#perna"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-tubo-u.svg"
    ]
   }
  ]

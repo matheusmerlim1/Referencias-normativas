@@ -23,8 +23,12 @@
     {
      "parametro": "Comprimento de rosca (regra)",
      "valor": "b = 2d + 12 mm",
-     "item": "Notas explicativas"
+     "item": "Notas explicativas",
+     "cota": "esquemas/fixadores-pontas-rosca.svg#b"
     }
+   ],
+   "figuras": [
+    "esquemas/fixadores-pontas-rosca.svg"
    ]
   },
   {

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 490" width="1150" height="490" role="img" aria-label="Chapa — ultrassom: malha de varredura, círculo-limite e refletores de calibração">
+<title>Chapa — ultrassom: malha de varredura, círculo-limite e refletores de calibração (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .k{fill:none;stroke:#8c8c8c;stroke-opacity:.6;stroke-width:16;stroke-linecap:butt}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+
+<text class="t" x="20" y="28">Chapa — ultrassom: malha de varredura, círculo-limite e refletores de calibração</text>
+<text class="n b" x="40" y="62">chapa (vista de cima)</text>
+<rect class="sl" x="60" y="110" width="440" height="300"/>
+<line class="h" x1="140" y1="110" x2="140" y2="410"/><line class="h" x1="220" y1="110" x2="220" y2="410"/><line class="h" x1="300" y1="110" x2="300" y2="410"/><line class="h" x1="380" y1="110" x2="380" y2="410"/><line class="h" x1="460" y1="110" x2="460" y2="410"/>
+<line class="h" x1="60" y1="190" x2="500" y2="190"/><line class="h" x1="60" y1="270" x2="500" y2="270"/><line class="h" x1="60" y1="350" x2="500" y2="350"/>
+<g id="cota-malha" class="cota"><line class="e" x1="140" y1="108" x2="140" y2="88"/><line class="e" x1="220" y1="108" x2="220" y2="88"/><line class="d" x1="140" y1="96" x2="220" y2="96" marker-start="url(#a)" marker-end="url(#a)"/><text x="230" y="100">espaçamento da malha</text></g>
+<path class="r" d="M305,290 Q330,270 352,292 Q366,312 340,318 Q312,322 305,290 Z"/>
+<circle class="v" cx="333" cy="300" r="56"/>
+<g id="cota-circulo-limite" class="cota"><line class="d" x1="277" y1="300" x2="389" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="333" y="380">Ø do círculo-limite</text></g>
+<text class="n" x="70" y="432">vermelho = área de indicação (perda do eco de fundo)</text>
+
+<text class="n b" x="620" y="62">bloco de calibração (corte)</text>
+<rect class="sl" x="770" y="112" width="40" height="36"/><text class="n" x="818" y="132">cabeçote</text>
+<rect class="s" x="640" y="150" width="440" height="120"/>
+<rect class="w" x="700" y="215" width="16" height="55"/>
+<polygon class="w" points="835,271 845,246 855,271"/>
+<line class="e" x1="622" y1="150" x2="638" y2="150"/><line class="e" x1="622" y1="270" x2="638" y2="270"/><line class="d" x1="628" y1="150" x2="628" y2="270" marker-start="url(#a)" marker-end="url(#a)"/><text x="612" y="216">t</text>
+<g id="cota-entalhe-profundidade" class="cota"><line class="e" x1="857" y1="246" x2="892" y2="246"/><line class="e" x1="857" y1="270" x2="892" y2="270"/><line class="d" x1="886" y1="222" x2="886" y2="246" marker-end="url(#a)"/><line class="d" x1="886" y1="294" x2="886" y2="270" marker-end="url(#a)"/><text x="896" y="262">profundidade do entalhe</text></g>
+<g id="cota-furo-referencia" class="cota"><line class="e" x1="700" y1="272" x2="700" y2="300"/><line class="e" x1="716" y1="272" x2="716" y2="300"/><line class="d" x1="676" y1="294" x2="700" y2="294" marker-end="url(#a)"/><line class="d" x1="740" y1="294" x2="716" y2="294" marker-end="url(#a)"/><text x="646" y="320">Ø do furo de referência</text></g>
+<text class="n b" x="900" y="326">vista por baixo</text>
+<rect class="sl" x="640" y="340" width="440" height="60"/>
+<rect class="w" x="800" y="366" width="90" height="8"/>
+<circle class="w" cx="708" cy="370" r="8"/>
+<g id="cota-entalhe-comprimento" class="cota"><line class="e" x1="800" y1="376" x2="800" y2="430"/><line class="e" x1="890" y1="376" x2="890" y2="430"/><line class="d" x1="800" y1="424" x2="890" y2="424" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="845" y="446">comprimento do entalhe</text></g>
+<text class="n" x="20" y="478">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

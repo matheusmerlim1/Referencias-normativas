@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 410" width="1000" height="410" role="img" aria-label="Peça fundida — dimensão, letras de marcação e cavidade de reparo">
+<title>Peça fundida — dimensão, letras de marcação e cavidade de reparo (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .k{fill:none;stroke:#8c8c8c;stroke-opacity:.6;stroke-width:16;stroke-linecap:butt}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+
+<text class="t" x="20" y="28">Peça fundida — dimensão, letras de marcação e cavidade de reparo</text>
+<text class="n b" x="60" y="70">peça fundida</text>
+<polygon class="s" points="80,300 80,180 150,180 150,130 330,130 330,180 400,180 400,300"/>
+<text class="b" x="168" y="166" style="font-size:24px">ABC</text>
+<g id="cota-letras" class="cota"><line class="e" x1="230" y1="149" x2="300" y2="149"/><line class="e" x1="230" y1="166" x2="300" y2="166"/><line class="d" x1="294" y1="113" x2="294" y2="149" marker-end="url(#a)"/><line class="d" x1="294" y1="200" x2="294" y2="166" marker-end="url(#a)"/><text x="304" y="112">altura das letras</text></g>
+<g id="cota-dimensao" class="cota"><line class="e" x1="80" y1="302" x2="80" y2="340"/><line class="e" x1="400" y1="302" x2="400" y2="340"/><line class="d" x1="80" y1="334" x2="400" y2="334" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="240" y="360">dimensão nominal (± tolerância)</text></g>
+
+<text class="n b" x="540" y="70">reparo por solda — cavidade escavada</text>
+<rect class="s" x="560" y="150" width="380" height="110"/>
+<path class="w" d="M680,150 Q740,215 800,150 Z"/>
+<g id="cota-cavidade" class="cota"><line class="d" x1="740" y1="118" x2="740" y2="150" marker-end="url(#a)"/><line class="d" x1="740" y1="214" x2="740" y2="183" marker-end="url(#a)"/><line class="e" x1="726" y1="183" x2="754" y2="183"/><text x="760" y="128">profundidade da cavidade</text></g>
+<line class="e" x1="942" y1="150" x2="976" y2="150"/><line class="e" x1="942" y1="260" x2="976" y2="260"/><line class="d" x1="970" y1="150" x2="970" y2="260" marker-start="url(#a)" marker-end="url(#a)"/><text x="978" y="210">t</text>
+<text class="n" x="20" y="398">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

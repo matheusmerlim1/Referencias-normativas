@@ -15,13 +15,17 @@
     {
      "parametro": "Precisão do diâmetro do corpo redondo",
      "valor": "0,001 in (0,025 mm)",
-     "item": "8.5"
+     "item": "8.5",
+     "cota": "esquemas/ensaio-tracao-corpo-prova.svg#d"
     },
     {
      "parametro": "Fatores para diâmetros não padronizados",
      "valor": "Tabela 1",
      "item": "Tabela 1"
     }
+   ],
+   "figuras": [
+    "esquemas/ensaio-tracao-corpo-prova.svg"
    ]
   },
   {

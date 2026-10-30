@@ -76,8 +76,12 @@
     {
      "parametro": "631 até 0,187 in — dobramento",
      "valor": "180°, mandril 1T",
-     "item": "Tabela 6"
+     "item": "Tabela 6",
+     "cota": "esquemas/asme-ii-dobramento-cp.svg#mandril"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-dobramento-cp.svg"
    ]
   }
  ]

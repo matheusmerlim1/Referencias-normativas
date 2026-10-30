@@ -27,13 +27,17 @@
     {
      "parametro": "Círculo-limite (Níveis A e B)",
      "valor": "3 in [75 mm] ou metade da espessura, o maior",
-     "item": "7.1 / 8.1"
+     "item": "7.1 / 8.1",
+     "cota": "esquemas/asme-ii-chapa-ultrassom.svg#circulo-limite"
     },
     {
      "parametro": "Separação mínima no Nível B",
      "valor": "≥ maior diâmetro da descontinuidade maior",
      "item": "8.2"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-chapa-ultrassom.svg"
    ]
   },
   {

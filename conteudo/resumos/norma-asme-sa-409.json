@@ -44,13 +44,17 @@
     {
      "parametro": "Dobramento — defeito máx. admitido",
      "valor": "1/8 in [3 mm] em qualquer direção",
-     "item": "14.2"
+     "item": "14.2",
+     "cota": "esquemas/asme-ii-dobramento-cp.svg#defeito"
     },
     {
      "parametro": "Teste pneumático alternativo",
      "valor": "100 psi [700 kPa] + solução de bolhas",
      "item": "15.1"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-dobramento-cp.svg"
    ]
   },
   {

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 630" width="1250" height="630" role="img" aria-label="Tubo — ensaios de achatamento, alargamento, flangeamento e dobramento">
+<title>Tubo — ensaios de achatamento, alargamento, flangeamento e dobramento (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .k{fill:none;stroke:#8c8c8c;stroke-opacity:.6;stroke-width:16;stroke-linecap:butt}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+
+<text class="t" x="20" y="28">Tubo — ensaios de achatamento, alargamento, flangeamento e dobramento</text>
+<text class="n b" x="40" y="70">achatamento</text>
+<rect class="s" x="50" y="110" width="230" height="50"/>
+<g id="cota-achat-comprimento" class="cota"><line class="e" x1="50" y1="108" x2="50" y2="86"/><line class="e" x1="280" y1="108" x2="280" y2="86"/><line class="d" x1="50" y1="94" x2="280" y2="94" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="165" y="86">comprimento da amostra</text></g>
+<rect class="sl" x="60" y="200" width="210" height="12"/>
+<rect class="sl" x="60" y="262" width="210" height="12"/>
+<ellipse class="s" cx="165" cy="237" rx="80" ry="25"/>
+<ellipse class="w" cx="165" cy="237" rx="68" ry="13"/>
+<line class="d" x1="165" y1="176" x2="165" y2="198" marker-end="url(#a)"/><line class="d" x1="165" y1="298" x2="165" y2="276" marker-end="url(#a)"/>
+<text class="b" x="174" y="190">F</text>
+<g id="cota-achat-H" class="cota"><line class="e" x1="272" y1="212" x2="302" y2="212"/><line class="e" x1="272" y1="262" x2="302" y2="262"/><line class="d" x1="296" y1="212" x2="296" y2="262" marker-start="url(#a)" marker-end="url(#a)"/><text x="306" y="242">H</text><text x="60" y="322">H = distância entre placas</text></g>
+
+<text class="n b" x="450" y="70">alargamento (cone)</text>
+<polygon class="sl" points="630,250 543,100 717,100"/>
+<polygon class="s" points="570,300 582,300 582,167 558,125 546,125 570,167"/>
+<polygon class="s" points="690,300 678,300 678,167 702,125 714,125 690,167"/>
+<g id="cota-alarg-angulo" class="cota"><path class="d" d="M610,215.4 A40,40 0 0,1 650,215.4" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="698" y1="232" x2="652" y2="220"/><text x="700" y="238">ângulo do cone</text></g>
+<g id="cota-alarg-expansao" class="cota"><line class="e" x1="558" y1="123" x2="558" y2="86"/><line class="e" x1="702" y1="123" x2="702" y2="86"/><line class="d" x1="558" y1="92" x2="702" y2="92" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="630" y="84">DI após expansão</text><line class="d" x1="582" y1="280" x2="678" y2="280" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="630" y="272">DI original</text></g>
+
+<text class="n b" x="870" y="70">flangeamento</text>
+<polygon class="s" points="990,300 1002,300 1002,138 920,138 920,150 990,150"/>
+<polygon class="s" points="1090,300 1078,300 1078,138 1160,138 1160,150 1090,150"/>
+<line class="c" x1="1040" y1="110" x2="1040" y2="310"/>
+<g id="cota-flange-largura" class="cota"><line class="e" x1="1090" y1="136" x2="1090" y2="100"/><line class="e" x1="1160" y1="136" x2="1160" y2="100"/><line class="d" x1="1090" y1="106" x2="1160" y2="106" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="1110" y="94">largura do flange (desde o DE)</text></g>
+
+<text class="n b" x="40" y="370">dobramento reverso (tira cortada do tubo soldado)</text>
+<rect class="s" x="60" y="420" width="240" height="14"/>
+<rect class="r" x="174" y="420" width="12" height="14"/>
+<text class="n" x="196" y="456">solda</text>
+<g id="cota-dobra-reverso-amostra" class="cota"><line class="e" x1="60" y1="418" x2="60" y2="394"/><line class="e" x1="300" y1="418" x2="300" y2="394"/><line class="d" x1="60" y1="400" x2="300" y2="400" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="180" y="392">comprimento da amostra</text></g>
+<circle class="sl" cx="450" cy="470" r="40"/>
+<path class="s" d="M396,590 L396,470 A54,54 0 0,1 504,470 L504,590 L490,590 L490,470 A40,40 0 0,0 410,470 L410,590 Z"/>
+<g id="cota-dobra-reverso-mandril" class="cota"><line class="d" x1="410" y1="470" x2="490" y2="470" marker-start="url(#a)" marker-end="url(#a)"/><text x="514" y="476">Ø do mandril</text></g>
+
+<text class="n b" x="660" y="370">dobramento do tubo inteiro</text>
+<circle class="sl" cx="900" cy="500" r="60"/>
+<path class="s" d="M720,416 L900,416 A84,84 0 0,1 984,500 L984,590 L960,590 L960,500 A60,60 0 0,0 900,440 L720,440 Z"/>
+<g id="cota-dobra-tubo" class="cota"><line class="d" x1="840" y1="500" x2="960" y2="500" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="790" y1="552" x2="852" y2="504"/><text x="660" y="570">Ø do mandril (múltiplo do DE)</text></g>
+<text class="n" x="20" y="618">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

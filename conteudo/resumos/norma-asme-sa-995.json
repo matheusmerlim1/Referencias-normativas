@@ -91,8 +91,12 @@
     {
      "parametro": "Limite da cavidade para reparo maior",
      "valor": "20 % da espessura ou 1 in [25 mm], o menor",
-     "item": "12.1"
+     "item": "12.1",
+     "cota": "esquemas/asme-ii-fundido.svg#cavidade"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-fundido.svg"
    ]
   }
  ]

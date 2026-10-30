@@ -20,8 +20,12 @@
     {
      "parametro": "Comprimento mín. da amostra",
      "valor": "2 1/2 in [63 mm]",
-     "item": "19.1"
+     "item": "19.1",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#achat-comprimento"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-tubo-ensaios.svg"
    ]
   },
   {

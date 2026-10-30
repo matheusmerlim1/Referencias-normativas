@@ -16,8 +16,12 @@
     {
      "parametro": "Altura de instalação de componentes a manter",
      "valor": "borda inferior ≥ 0,6 m e superior ≤ 1,8 m acima da plataforma de trabalho (recomendado)",
-     "item": "5.3"
+     "item": "5.3",
+     "cota": "esquemas/hidraulica-cilindro-instalacao.svg#altura-componentes"
     }
+   ],
+   "figuras": [
+    "esquemas/hidraulica-cilindro-instalacao.svg"
    ]
   },
   {
@@ -40,8 +44,12 @@
     {
      "parametro": "Base do reservatório",
      "valor": "≥ 150 mm acima do piso",
-     "item": "8.2.2"
+     "item": "8.2.2",
+     "cota": "esquemas/hidraulica-cilindro-instalacao.svg#base-reservatorio"
     }
+   ],
+   "figuras": [
+    "esquemas/hidraulica-cilindro-instalacao.svg"
    ]
   },
   {

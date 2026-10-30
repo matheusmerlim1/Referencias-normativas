@@ -74,13 +74,18 @@
     {
      "parametro": "Tolerância de Ø — até 2,0 mm",
      "valor": "± 0,02 mm",
-     "item": "Tabela 3"
+     "item": "Tabela 3",
+     "cota": "esquemas/asme-ii-arame-diametro.svg#D"
     },
     {
      "parametro": "— acima de 9,00 mm",
      "valor": "± 0,05 mm",
-     "item": "Tabela 3"
+     "item": "Tabela 3",
+     "cota": "esquemas/asme-ii-arame-diametro.svg#D"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-arame-diametro.svg"
    ]
   }
  ]

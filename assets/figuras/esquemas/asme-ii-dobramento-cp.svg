@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 430" width="1100" height="430" role="img" aria-label="Ensaio de dobramento — mandril, ângulo e defeito admitido">
+<title>Ensaio de dobramento — mandril, ângulo e defeito admitido (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .k{fill:none;stroke:#8c8c8c;stroke-opacity:.6;stroke-width:16;stroke-linecap:butt}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+
+<text class="t" x="20" y="28">Ensaio de dobramento — mandril, ângulo e defeito admitido</text>
+<text class="n b" x="40" y="70">corpo de prova e mandril</text>
+<circle class="sl" cx="210" cy="120" r="28"/>
+<line class="d" x1="210" y1="60" x2="210" y2="90" marker-end="url(#a)"/><text class="b" x="218" y="78">F</text>
+<rect class="s" x="60" y="150" width="300" height="26"/>
+<circle class="sl" cx="110" cy="190" r="14"/><circle class="sl" cx="310" cy="190" r="14"/>
+<line class="e" x1="362" y1="150" x2="392" y2="150"/><line class="e" x1="362" y1="176" x2="392" y2="176"/><line class="d" x1="386" y1="126" x2="386" y2="150" marker-end="url(#a)"/><line class="d" x1="386" y1="200" x2="386" y2="176" marker-end="url(#a)"/><text x="396" y="168">t</text>
+<text class="n" x="60" y="240">apoios</text>
+
+<text class="n b" x="500" y="70">dobrado sobre o mandril</text>
+<circle class="sl" cx="600" cy="190" r="40"/>
+<path class="s" d="M534,330 L534,190 A66,66 0 0,1 666,190 L666,330 L640,330 L640,190 A40,40 0 0,0 560,190 L560,330 Z"/>
+<g id="cota-mandril" class="cota"><line class="d" x1="560" y1="190" x2="640" y2="190" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="600" y1="352" x2="600" y2="196"/><text class="m" x="600" y="370">Ø do mandril (fator × t)</text></g>
+<g id="cota-defeito" class="cota"><rect class="r" x="592" y="120" width="16" height="7"/><line class="d" x1="660" y1="104" x2="610" y2="120" marker-end="url(#a)"/><text x="664" y="104">defeito máx. na face tracionada</text></g>
+
+<text class="n b" x="780" y="150">ângulo de dobramento</text>
+<line class="k" x1="900" y1="300" x2="854" y2="189"/>
+<line class="k" x1="900" y1="300" x2="946" y2="189"/>
+<line class="h" x1="900" y1="300" x2="928" y2="368"/>
+<g id="cota-angulo" class="cota"><path class="d" d="M919.1,346.2 A50,50 0 0,0 919.1,253.8" marker-start="url(#a)" marker-end="url(#a)"/><text x="958" y="306">ângulo</text></g>
+<text class="n" x="20" y="418">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

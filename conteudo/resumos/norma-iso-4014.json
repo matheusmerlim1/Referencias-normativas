@@ -32,17 +32,20 @@
     {
      "parametro": "Abertura de chave s (M8 / M10 / M12 / M16)",
      "valor": "13 / 16 / 18 / 24 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg#s"
     },
     {
      "parametro": "Abertura de chave s (M20 / M24 / M30 / M36)",
      "valor": "30 / 36 / 46 / 55 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg#s"
     },
     {
      "parametro": "Altura da cabeça k nominal (M12 / M16 / M20 / M24)",
      "valor": "7,5 / 10 / 12,5 / 15 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg#k"
     },
     {
      "parametro": "Roscas não preferenciais",
@@ -54,6 +57,9 @@
      "valor": "lg,máx = l − b; ls,mín = lg,máx − 5P",
      "item": "Tab. 1, notas"
     }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg"
    ]
   },
   {

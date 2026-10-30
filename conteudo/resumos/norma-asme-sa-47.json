@@ -47,13 +47,18 @@
     {
      "parametro": "Tolerância dimensional — até 1 in [25 mm]",
      "valor": "± 0,03 in [0,8 mm]",
-     "item": "Tabela 3"
+     "item": "Tabela 3",
+     "cota": "esquemas/asme-ii-fundido.svg#dimensao"
     },
     {
      "parametro": "Tolerância dimensional — 1 a 6 in [25 a 150 mm]",
      "valor": "± 0,06 in [1,6 mm]",
-     "item": "Tabela 3"
+     "item": "Tabela 3",
+     "cota": "esquemas/asme-ii-fundido.svg#dimensao"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-fundido.svg"
    ]
   },
   {

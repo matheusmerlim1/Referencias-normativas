@@ -94,12 +94,14 @@
     {
      "parametro": "Achatamento — 1ª etapa sem trincas até",
      "valor": "2/3 do diâmetro externo",
-     "item": "9.1"
+     "item": "9.1",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#achat-H"
     },
     {
      "parametro": "Achatamento — 2ª etapa sem trincas até",
      "valor": "1/3 do diâmetro (não menos que 5 × espessura)",
-     "item": "9.1"
+     "item": "9.1",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#achat-H"
     },
     {
      "parametro": "Tensão S na pressão de teste",
@@ -111,6 +113,9 @@
      "valor": "2500 psi (17,24 MPa)",
      "item": "10.1"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-tubo-ensaios.svg"
    ]
   },
   {

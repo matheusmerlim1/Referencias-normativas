@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Charpy V — expansão lateral do corpo de prova rompido">
+<title>Charpy V — expansão lateral do corpo de prova rompido (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .k{fill:none;stroke:#8c8c8c;stroke-opacity:.6;stroke-width:16;stroke-linecap:butt}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+
+<text class="t" x="20" y="28">Charpy V — expansão lateral do corpo de prova rompido</text>
+<text class="n b" x="40" y="70">corpo de prova (antes do ensaio)</text>
+<rect class="s" x="60" y="120" width="360" height="60"/>
+<polygon class="w" points="230,181 240,160 250,181"/>
+<line class="d" x1="240" y1="84" x2="240" y2="118" marker-end="url(#a)"/><text class="n" x="250" y="100">martelo (face oposta ao entalhe)</text>
+<text class="n" x="200" y="206">entalhe V</text>
+
+<text class="n b" x="520" y="70">metade rompida — vista da fratura</text>
+<rect class="h" x="620" y="110" width="120" height="120"/>
+<path class="s" d="M620,230 L740,230 L740,170 Q748,130 754,110 L606,110 Q612,130 620,170 Z"/>
+<text class="n" x="636" y="256">lado do entalhe</text>
+<text class="n" x="520" y="100">lado comprimido</text>
+<g id="cota-expansao-lateral" class="cota"><line class="e" x1="740" y1="108" x2="740" y2="80"/><line class="e" x1="754" y1="108" x2="754" y2="80"/><line class="d" x1="716" y1="86" x2="740" y2="86" marker-end="url(#a)"/><line class="d" x1="778" y1="86" x2="754" y2="86" marker-end="url(#a)"/><text x="784" y="91">expansão lateral</text></g>
+<text class="n" x="770" y="200">tracejado = largura original</text>
+<text class="n" x="20" y="328">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

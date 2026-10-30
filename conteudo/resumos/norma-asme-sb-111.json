@@ -59,8 +59,12 @@
     {
      "parametro": "Expansão mín. — C23000 / C28000 / almirantado / C68700",
      "valor": "20 % / 15 % / 20 % / 20 % do diâmetro",
-     "item": "Tabela 4"
+     "item": "Tabela 4",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#alarg-expansao"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-tubo-ensaios.svg"
    ]
   }
  ]

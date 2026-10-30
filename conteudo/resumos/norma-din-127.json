@@ -16,14 +16,19 @@
      "parametro": "Diâmetro interno d1 — 1/4 / 1/2 / 1",
      "valor": "6,48 / 12,93 / 25,83 mm",
      "item": "Tabela",
-     "nota": "associação lida da sequência de valores — conferir"
+     "nota": "associação lida da sequência de valores — conferir",
+     "cota": "esquemas/parafusos-porcas-arruelas-arruela-lisa-iso.svg#d1"
     },
     {
      "parametro": "Diâmetro externo — 1/4 / 1/2 / 1",
      "valor": "11,83 / 21,03 / 40,03 mm",
      "item": "Tabela",
-     "nota": "conferir"
+     "nota": "conferir",
+     "cota": "esquemas/parafusos-porcas-arruelas-arruela-lisa-iso.svg#d2"
     }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-arruela-lisa-iso.svg"
    ]
   }
  ]

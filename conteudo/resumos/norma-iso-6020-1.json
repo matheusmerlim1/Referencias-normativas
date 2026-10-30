@@ -15,8 +15,12 @@
     {
      "parametro": "Camisas",
      "valor": "25 a 200 mm (cabeçote redondo); acima de 200 mm redondo ou quadrado",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/hidraulica-cilindro-instalacao.svg#AL"
     }
+   ],
+   "figuras": [
+    "esquemas/hidraulica-cilindro-instalacao.svg"
    ]
   },
   {

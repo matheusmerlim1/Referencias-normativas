@@ -16,24 +16,31 @@
     {
      "parametro": "Passos finos padronizados",
      "valor": "3; 2; 1,5; 1; 0,75; 0,5; 0,35; 0,25; 0,2 mm",
-     "item": "5"
+     "item": "5",
+     "cota": "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg#P"
     },
     {
      "parametro": "Diâmetro máximo por passo fino 0,5 / 0,75 / 1 / 1,5 / 2 / 3",
      "valor": "22 / 33 / 80 / 150 / 200 / 300 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg#d"
     },
     {
      "parametro": "Passo grosso M6 / M8 / M10 / M12",
      "valor": "1 / 1,25 / 1,5 / 1,75 mm",
-     "item": "Tab. 2"
+     "item": "Tab. 2",
+     "cota": "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg#P"
     },
     {
      "parametro": "Passo grosso M16 / M20 / M24 / M30",
      "valor": "2 / 2,5 / 3 / 3,5 mm",
      "item": "Tab. 2",
-     "nota": "conferido também na ISO 4014"
+     "nota": "conferido também na ISO 4014",
+     "cota": "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg#P"
     }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg"
    ]
   }
  ]

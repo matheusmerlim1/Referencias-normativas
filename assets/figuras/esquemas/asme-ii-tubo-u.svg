@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340" role="img" aria-label="Tubo em U — comprimento das pernas">
+<title>Tubo em U — comprimento das pernas (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .k{fill:none;stroke:#8c8c8c;stroke-opacity:.6;stroke-width:16;stroke-linecap:butt}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+
+<text class="t" x="20" y="28">Tubo em U — comprimento das pernas</text>
+<path class="s" d="M80,120 L520,120 A60,60 0 0,1 520,240 L80,240 L80,220 L520,220 A40,40 0 0,0 520,140 L80,140 Z"/>
+<line class="h" x1="520" y1="100" x2="520" y2="262"/>
+<text class="n" x="530" y="286">tangente da curva</text>
+<g id="cota-perna" class="cota"><line class="e" x1="80" y1="118" x2="80" y2="80"/><line class="e" x1="520" y1="118" x2="520" y2="80"/><line class="d" x1="80" y1="86" x2="520" y2="86" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="300" y="78">comprimento da perna</text></g>
+<text class="n" x="600" y="180">curva em U</text>
+<text class="n" x="20" y="328">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

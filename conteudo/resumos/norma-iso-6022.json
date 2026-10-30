@@ -15,8 +15,12 @@
     {
      "parametro": "Camisas cobertas",
      "valor": "50, 63, 80, 100, 125, 140, 160, 180, 200, 250, 320 mm",
-     "item": "4"
+     "item": "4",
+     "cota": "esquemas/hidraulica-cilindro-instalacao.svg#AL"
     }
+   ],
+   "figuras": [
+    "esquemas/hidraulica-cilindro-instalacao.svg"
    ]
   },
   {
@@ -33,18 +37,24 @@
     {
      "parametro": "Curso ≤ 1 250 mm",
      "valor": "+2 / 0 mm",
-     "item": "Tab. 7"
+     "item": "Tab. 7",
+     "cota": "esquemas/hidraulica-cilindro-instalacao.svg#curso"
     },
     {
      "parametro": "1 250 < curso ≤ 3 150 mm",
      "valor": "+5 / 0 mm",
-     "item": "Tab. 7"
+     "item": "Tab. 7",
+     "cota": "esquemas/hidraulica-cilindro-instalacao.svg#curso"
     },
     {
      "parametro": "3 150 < curso ≤ 8 000 mm",
      "valor": "+8 / 0 mm",
-     "item": "Tab. 7"
+     "item": "Tab. 7",
+     "cota": "esquemas/hidraulica-cilindro-instalacao.svg#curso"
     }
+   ],
+   "figuras": [
+    "esquemas/hidraulica-cilindro-instalacao.svg"
    ]
   },
   {

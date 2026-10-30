@@ -86,6 +86,7 @@ ferramentas/conferir.py    confere nº de cada requisito/tabela contra o texto d
 python ferramentas/build.py                                   # validar + gerar dados (rodar após qualquer mudança em conteudo/ ou esquemas/)
 python -P ferramentas/verificar_autossuficiente.py --publico  # tem de dar "0 pendência(s)" antes de todo commit
 python -P ferramentas/recursos.py 600                         # quantos processos de 600 MB cabem em 1/6 da RAM
+python -P ferramentas/cotas_pendentes.py [slug…|--svg]       # valores dimensionais dos resumos sem cota (guia dos lotes); --svg = esquemas sem uso
 python -P ferramentas/gerar_docs.py <ficha> --gravar ; python -P ferramentas/separar_normas.py --gravar   # mudar recortes (apagar antes assets/figuras/docs/<ficha>/)
 python -P ferramentas/dump.py <pasta_tmp> "<glob do pdf>"     # texto do PDF por página
 python -P ferramentas/crop.py "<glob do pdf>" <pág> "x0,y0,x1,y1" 200 assets/figuras/<nome>.png
@@ -169,7 +170,7 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
 ## ESTADO ATUAL (30/out/2026)
 - 802 fichas = 23 TEMÁTICAS (curadas, públicas) + 779 de NORMA (`norma-*.json`, geradas, locais); 22 839 requisitos; 779 normas.
 - 779/779 RESUMOS próprios (`conteudo/resumos/`), 6 543 valores; 902 valores ligados a cota.
-- 274 SVG próprios em `assets/figuras/esquemas/`; as 23 temáticas NÃO têm mais figura de norma (tudo trocado por SVG).
+- 268 SVG próprios em `assets/figuras/esquemas/`; as 23 temáticas NÃO têm mais figura de norma (tudo trocado por SVG).
 - Catálogo do acervo T: 3 933 documentos únicos (`conteudo/catalogo.json`) → buscáveis no site como "Documentos no acervo".
 - Triagem de `referencias/`: 775/775 documentos relevantes incorporados (100 %). Auditoria de imagens encerrada (28/out).
 - `verificar_autossuficiente.py` = 0 erros → `referencias/` (6,7 GB) PODE ser removida — o usuário decide. Sem ela param as
@@ -206,9 +207,14 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
   NR-10 ganhou cota-rr-rc) e 36 NBR/IEC (211 valores, +26 SVG: desenho técnico, SPDA, gás, esgoto, vento, IP, PEMT, tubos com
   costura, placa de orifício, ensaio de tração…). Agora: 1317 valores com cota; ~688 com unidade sem cota em 294 resumos; 274 SVG.
   Scripts reaproveitáveis (scratchpad da sessão, podem sumir): aplicar.py preserva o formato do JSON (indent 1, valores compactos).
+- **Cotas nos resumos — LOTE 5 FEITO** (30/out; coordenador + 1 agente): ISO/DIN (50 valores; +4 SVG: fixadores-pontas-rosca,
+  fixadores-rebite-anel-o-rosca-conica, hidraulica-cilindro-instalacao, engrenagem-perfil-referencia) e specs ASME II SA/SB
+  (54 valores; +7 SVG asme-ii-*: ensaios de tubo, dobramento, Charpy, UT de chapa, arame, fundido, tubo em U). A maioria dos
+  "pendentes" das specs era °F/%/ksi/escopo. Removidos 17 SVG da 1ª geração sem cota e sem uso. Ferramenta nova cotas_pendentes.py.
+  Agora: 1 421 valores com cota; 232 dimensionais sem cota em 155 resumos (pela ferramenta, que já ignora °C, m/s, m², m³); 268 SVG.
 
 ## PRÓXIMOS PASSOS (continuar daqui)
-Lotes 1–4 feitos (30/out). Próximo: LOTE 5 (specs ASME-SA/SB/SFA, ISO, DIN, API e demais). Commit + push ao fim de cada lote (pedido do usuário).
+Lotes 1–5 feitos (30/out). Próximo: LOTE 6 = sobras (rodar cotas_pendentes.py; muitas são faixa/condição — pular). Commit + push ao fim de cada lote (pedido do usuário).
 1. **Cotas nos resumos** — faltam ~1 049 valores dimensionais sem cota em 316 resumos. Um agente por vez, por lote. O agente:
    reutiliza SVG existentes (acrescenta grupo `cota-<nome>` sem quebrar os que já existem), só cria SVG novo DO ZERO (só rótulos,
    nunca números; rodapé "Esquema ilustrativo (não é desenho da norma) — sem escala."), põe `"cota"` no valor e o SVG em `figuras`
@@ -222,8 +228,8 @@ Lotes 1–4 feitos (30/out). Próximo: LOTE 5 (specs ASME-SA/SB/SFA, ISO, DIN, A
      DNV-OS-C101 (4).
    - ~~Lote 4~~ (FEITO: NRs + NBR). **Lote 5+**: resto por uso — NR-15 (23), NR-17 (17), NR-11 (12) e as demais.
    - Sobras do lote 1 (4 em F1166, 4 em NR-37, 9 em NR-12…): o agente julgou não-geométricas; não refazer.
-   - Contagem de pendentes: valor com `\d\s*(mm|cm|m|in\.?|pol|°|")` em `valores[].valor` de `conteudo/resumos/*.json` sem
-     "cota", ordenado pelo nº de requisitos da norma nas temáticas (os números entre parênteses acima vêm daí).
+   - Contagem de pendentes: `python -P ferramentas/cotas_pendentes.py` (ordem = uso nas temáticas; ignora °C, m/s, m², m³);
+     `… cotas_pendentes.py norma-nr-15` lista os valores com índice seção.valor; `--svg` lista esquemas que ninguém cita.
 2. **Figuras nos resumos** (baixa prioridade): só ~28 resumos têm `figuras`; normas sem valor dimensional podem ganhar esquema de conceito.
 3. **Decisão do usuário**: remover `referencias/` (pode; ver Estado).
 4. Backlog antigo (baixa prioridade; detalhes em HISTORICO.md): ficha vaso-pressao migrar de VIII-1 2001 para 2007; UCS-66, UG-37;

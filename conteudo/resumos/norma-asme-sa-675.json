@@ -69,8 +69,12 @@
     {
      "parametro": "Grau 45 — dobramento até 3/4 in",
      "valor": "plano (sobre si mesmo)",
-     "item": "Tabela 3"
+     "item": "Tabela 3",
+     "cota": "esquemas/asme-ii-dobramento-cp.svg#angulo"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-dobramento-cp.svg"
    ]
   }
  ]

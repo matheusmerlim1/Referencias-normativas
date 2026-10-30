@@ -40,8 +40,12 @@
     {
      "parametro": "Dobramento Grau 2 — até 0,070 in / 0,070–0,187 in",
      "valor": "4T / 5T",
-     "item": "Tabela 1"
+     "item": "Tabela 1",
+     "cota": "esquemas/asme-ii-dobramento-cp.svg#mandril"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-dobramento-cp.svg"
    ]
   }
  ]

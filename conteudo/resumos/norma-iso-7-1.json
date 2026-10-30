@@ -38,13 +38,18 @@
     {
      "parametro": "Diâmetro de calibre — 1/2 / 1 / 2",
      "valor": "20,955 / 33,249 / 59,614 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/fixadores-rebite-anel-o-rosca-conica.svg#diametro-calibre"
     },
     {
      "parametro": "Comprimento de calibre — 1/2 / 1 / 2",
      "valor": "8,2 / 10,4 / 15,9 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/fixadores-rebite-anel-o-rosca-conica.svg#comprimento-calibre"
     }
+   ],
+   "figuras": [
+    "esquemas/fixadores-rebite-anel-o-rosca-conica.svg"
    ]
   },
   {

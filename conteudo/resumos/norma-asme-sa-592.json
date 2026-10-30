@@ -96,8 +96,12 @@
     {
      "parametro": "Charpy — expansão lateral mín.",
      "valor": "0,015 in (15 mils) [0,38 mm]",
-     "item": "7.1"
+     "item": "7.1",
+     "cota": "esquemas/asme-ii-charpy-expansao-lateral.svg#expansao-lateral"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-charpy-expansao-lateral.svg"
    ]
   },
   {

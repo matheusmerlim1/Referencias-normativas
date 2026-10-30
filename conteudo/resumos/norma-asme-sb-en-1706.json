@@ -15,8 +15,12 @@
     {
      "parametro": "Altura mín. das letras de marcação",
      "valor": "5/16 in (8 mm)",
-     "item": "1.1"
+     "item": "1.1",
+     "cota": "esquemas/asme-ii-fundido.svg#letras"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-fundido.svg"
    ]
   }
  ]

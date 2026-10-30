@@ -109,13 +109,17 @@
     {
      "parametro": "Largura do flange — Graus C e D",
      "valor": "≥ 75 % da exigida na SA-450",
-     "item": "11.2.2"
+     "item": "11.2.2",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#flange-largura"
     },
     {
      "parametro": "Análise de produto (a pedido)",
      "valor": "1 tubo por 100 (> 3 in) ou por 250 (≤ 3 in)",
      "item": "7.1"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-tubo-ensaios.svg"
    ]
   },
   {

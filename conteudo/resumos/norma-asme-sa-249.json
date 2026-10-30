@@ -71,8 +71,12 @@
     {
      "parametro": "Dobramento reverso — amostra / mandril máx.",
      "valor": "≥ 4 in [100 mm] / 4 × espessura",
-     "item": "11.1"
+     "item": "11.1",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#dobra-reverso-mandril"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-tubo-ensaios.svg"
    ]
   },
   {

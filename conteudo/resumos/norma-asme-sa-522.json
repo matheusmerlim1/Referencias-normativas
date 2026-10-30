@@ -87,13 +87,17 @@
      "parametro": "Charpy — expansão lateral mín.",
      "valor": "0,015 in [0,38 mm]",
      "item": "Tabela 3",
-     "nota": "a extração mostra '0.15 in.'; o equivalente 0,38 mm corresponde a 0,015 in"
+     "nota": "a extração mostra '0.15 in.'; o equivalente 0,38 mm corresponde a 0,015 in",
+     "cota": "esquemas/asme-ii-charpy-expansao-lateral.svg#expansao-lateral"
     },
     {
      "parametro": "Temperatura de ensaio — Tipo 1 / Tipo 2",
      "valor": "−320 °F [−195 °C] / −275 °F [−170 °C]",
      "item": "Tabela 3"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-charpy-expansao-lateral.svg"
    ]
   },
   {

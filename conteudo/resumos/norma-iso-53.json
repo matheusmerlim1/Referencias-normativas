@@ -16,7 +16,8 @@
     {
      "parametro": "Ângulo de pressão",
      "valor": "20°",
-     "item": "Tab. 2"
+     "item": "Tab. 2",
+     "cota": "esquemas/engrenagem-perfil-referencia.svg#alfa"
     },
     {
      "parametro": "Passo",
@@ -32,13 +33,18 @@
      "parametro": "Folga c",
      "valor": "entre 0,25 m e 0,40 m conforme o tipo",
      "item": "5.9",
-     "nota": "valores da tabela — conferir"
+     "nota": "valores da tabela — conferir",
+     "cota": "esquemas/engrenagem-perfil-referencia.svg#c"
     },
     {
      "parametro": "Tipo D (pé com raio pleno)",
      "valor": "dedendo 1,4 m, raio do pé 0,39 m (permite retífica)",
-     "item": "Anexo A"
+     "item": "Anexo A",
+     "cota": "esquemas/engrenagem-perfil-referencia.svg#dedendo"
     }
+   ],
+   "figuras": [
+    "esquemas/engrenagem-perfil-referencia.svg"
    ]
   },
   {

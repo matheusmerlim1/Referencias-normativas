@@ -84,18 +84,24 @@
     {
      "parametro": "Tolerância de Ø e ovalização — até 0,70 mm",
      "valor": "± 0,02 mm",
-     "item": "Tabela 4"
+     "item": "Tabela 4",
+     "cota": "esquemas/asme-ii-arame-diametro.svg#D"
     },
     {
      "parametro": "— acima de 2,00 a 9,00 mm",
      "valor": "± 0,05 mm",
-     "item": "Tabela 4"
+     "item": "Tabela 4",
+     "cota": "esquemas/asme-ii-arame-diametro.svg#D"
     },
     {
      "parametro": "— acima de 9,00 mm",
      "valor": "± 0,08 mm",
-     "item": "Tabela 4"
+     "item": "Tabela 4",
+     "cota": "esquemas/asme-ii-arame-diametro.svg#D"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-arame-diametro.svg"
    ]
   }
  ]

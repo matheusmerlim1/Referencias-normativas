@@ -25,8 +25,12 @@
     {
      "parametro": "M20 — altura máx.",
      "valor": "20,3 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-porca-sextavada-iso.svg#m"
     }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-porca-sextavada-iso.svg"
    ]
   }
  ]

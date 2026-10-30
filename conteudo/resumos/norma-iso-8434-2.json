@@ -47,8 +47,12 @@
     {
      "parametro": "Espessura de parede para flangear — tubo 6 / 12 / 25 mm métrico",
      "valor": "1,5 / 2 / 3 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/tubo-costura-dimensoes.svg#e"
     }
+   ],
+   "figuras": [
+    "esquemas/tubo-costura-dimensoes.svg"
    ]
   },
   {

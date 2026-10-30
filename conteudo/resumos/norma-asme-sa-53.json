@@ -87,7 +87,8 @@
     {
      "parametro": "Mandril do dobramento (NPS ≤ 2)",
      "valor": "12 × diâmetro externo",
-     "item": "8.1"
+     "item": "8.1",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#dobra-tubo"
     },
     {
      "parametro": "Variação de massa",
@@ -99,6 +100,9 @@
      "valor": "2 tubos por lote de 500 comprimentos",
      "item": "6.1"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-tubo-ensaios.svg"
    ]
   },
   {

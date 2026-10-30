@@ -49,8 +49,12 @@
     {
      "parametro": "Tolerância de comprimento",
      "valor": "± 1/2 in (13 mm)",
-     "item": "13.1.1"
+     "item": "13.1.1",
+     "cota": "esquemas/tubo-costura-dimensoes.svg#L"
     }
+   ],
+   "figuras": [
+    "esquemas/tubo-costura-dimensoes.svg"
    ]
   }
  ]

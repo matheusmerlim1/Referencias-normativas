@@ -64,13 +64,18 @@
     {
      "parametro": "Dobramento livre 304 — recozido",
      "valor": "180°, fator 1",
-     "item": "Tabela 3"
+     "item": "Tabela 3",
+     "cota": "esquemas/asme-ii-dobramento-cp.svg#angulo"
     },
     {
      "parametro": "Bloco V 304 — recozido / 1/8 duro",
      "valor": "135°, fator 2 / 3",
-     "item": "Tabela 4"
+     "item": "Tabela 4",
+     "cota": "esquemas/asme-ii-dobramento-cp.svg#angulo"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-dobramento-cp.svg"
    ]
   }
  ]

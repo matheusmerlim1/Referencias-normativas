@@ -16,13 +16,18 @@
     {
      "parametro": "Seções — série em polegada",
      "valor": "1,02; 1,27; 1,52; 1,78 ± 0,08; 2,62 ± 0,08; 3,53 ± 0,10; 5,33 ± 0,13; 6,99 ± 0,15 mm",
-     "item": "Tab. 1–2"
+     "item": "Tab. 1–2",
+     "cota": "esquemas/fixadores-rebite-anel-o-rosca-conica.svg#d2"
     },
     {
      "parametro": "Seções — série métrica",
      "valor": "1,80 ± 0,08; 2,65 ± 0,09; 3,55 ± 0,10; 5,30 ± 0,13; 7,00 ± 0,15 mm",
-     "item": "Tab. 3–6"
+     "item": "Tab. 3–6",
+     "cota": "esquemas/fixadores-rebite-anel-o-rosca-conica.svg#d2"
     }
+   ],
+   "figuras": [
+    "esquemas/fixadores-rebite-anel-o-rosca-conica.svg"
    ]
   },
   {

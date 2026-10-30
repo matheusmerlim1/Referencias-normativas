@@ -20,29 +20,37 @@
     {
      "parametro": "Achatamento — amostra sem costura / soldado",
      "valor": "≥ 2 1/2 in [63 mm] / ≥ 4 in [100 mm]",
-     "item": "17.1"
+     "item": "17.1",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#achat-comprimento"
     },
     {
      "parametro": "Alargamento — ângulo da ferramenta",
      "valor": "60°",
-     "item": "19.1"
+     "item": "19.1",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#alarg-angulo"
     },
     {
      "parametro": "Alargamento — expansão mín. (DI/DE = 0,9) aço C e ferrítico / austenítico",
      "valor": "21 % / 15 %",
      "item": "Tabela 5",
-     "nota": "ordem das colunas lida do cabeçalho da SA-1016 (mesma tabela)"
+     "nota": "ordem das colunas lida do cabeçalho da SA-1016 (mesma tabela)",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#alarg-expansao"
     },
     {
      "parametro": "Alargamento — expansão mín. (DI/DE = 0,5) aço C e ferrítico / austenítico",
      "valor": "39 % / 28 %",
-     "item": "Tabela 5"
+     "item": "Tabela 5",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#alarg-expansao"
     },
     {
      "parametro": "Largura mín. do flange — DE até 2 1/2 in / 2 1/2 a 3 3/4 / 3 3/4 a 8 in",
      "valor": "15 % / 12 1/2 % / 10 % do DE",
-     "item": "Tabela 6"
+     "item": "Tabela 6",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#flange-largura"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-tubo-ensaios.svg"
    ]
   },
   {

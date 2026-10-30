@@ -15,8 +15,12 @@
     {
      "parametro": "Altura mínima de aperto",
      "valor": "m' ≥ 0,8 m",
-     "item": "2"
+     "item": "2",
+     "cota": "esquemas/parafusos-porcas-arruelas-porca-sextavada-iso.svg#m"
     }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-porca-sextavada-iso.svg"
    ]
   },
   {

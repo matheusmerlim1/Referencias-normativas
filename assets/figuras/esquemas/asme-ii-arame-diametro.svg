@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" width="900" height="330" role="img" aria-label="Arame / barra redonda — diâmetro e ovalização">
+<title>Arame / barra redonda — diâmetro e ovalização (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .k{fill:none;stroke:#8c8c8c;stroke-opacity:.6;stroke-width:16;stroke-linecap:butt}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker></defs>
+
+<text class="t" x="20" y="28">Arame / barra redonda — diâmetro e ovalização</text>
+<text class="n b" x="40" y="70">vista lateral</text>
+<rect class="s" x="60" y="120" width="420" height="50"/>
+<ellipse class="sl" cx="480" cy="145" rx="10" ry="25"/>
+<g id="cota-D" class="cota"><line class="e" x1="492" y1="120" x2="522" y2="120"/><line class="e" x1="492" y1="170" x2="522" y2="170"/><line class="d" x1="516" y1="120" x2="516" y2="170" marker-start="url(#a)" marker-end="url(#a)"/><text x="526" y="150">Ø d (± tolerância)</text></g>
+<text class="n b" x="720" y="70">seção</text>
+<circle class="h" cx="800" cy="180" r="66"/>
+<ellipse class="s" cx="800" cy="180" rx="74" ry="58"/>
+<g id="cota-ovalizacao" class="cota"><line class="d" x1="726" y1="180" x2="874" y2="180" marker-start="url(#a)" marker-end="url(#a)"/><line class="d" x1="800" y1="122" x2="800" y2="238" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="800" y="276">ovalização = Ø máx. − Ø mín.</text></g>
+<text class="n" x="20" y="318">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

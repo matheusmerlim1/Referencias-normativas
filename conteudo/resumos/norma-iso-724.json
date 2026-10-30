@@ -27,14 +27,19 @@
     {
      "parametro": "Ex.: M10 × 1,5",
      "valor": "d2 = 9,026; d1 = 8,376 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg#d2"
     },
     {
      "parametro": "Ex.: M24 × 2",
      "valor": "d2 = 22,701; d1 = 21,835 mm",
      "item": "Tab. 1",
-     "nota": "valor da linha lido no OCR — conferir"
+     "nota": "valor da linha lido no OCR — conferir",
+     "cota": "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg#d2"
     }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg"
    ]
   }
  ]

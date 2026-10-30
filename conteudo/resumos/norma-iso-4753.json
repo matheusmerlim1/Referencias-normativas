@@ -31,8 +31,12 @@
     {
      "parametro": "Cone de parafusos curtos",
      "valor": "120° ± 2° (ver ISO 4027)",
-     "item": "Fig. 1"
+     "item": "Fig. 1",
+     "cota": "esquemas/fixadores-pontas-rosca.svg#cone"
     }
+   ],
+   "figuras": [
+    "esquemas/fixadores-pontas-rosca.svg"
    ]
   },
   {
@@ -43,23 +47,30 @@
     {
      "parametro": "M6 — dp / dz / z1 / z2",
      "valor": "4 / 3 / 1,5 / 3 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/fixadores-pontas-rosca.svg#dp"
     },
     {
      "parametro": "M10 — dp / dz / z1 / z2",
      "valor": "7 / 6 / 2,5 / 5 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/fixadores-pontas-rosca.svg#dp"
     },
     {
      "parametro": "M12 — dp / dz / z1 / z2",
      "valor": "8,5 / 8 / 3 / 6 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/fixadores-pontas-rosca.svg#dp"
     },
     {
      "parametro": "M16 — dp / dz / z1 / z2",
      "valor": "12 / 10 / 4 / 8 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/fixadores-pontas-rosca.svg#dp"
     }
+   ],
+   "figuras": [
+    "esquemas/fixadores-pontas-rosca.svg"
    ]
   }
  ]

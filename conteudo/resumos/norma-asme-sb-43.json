@@ -54,8 +54,12 @@
     {
      "parametro": "Expansão mín. (O61)",
      "valor": "25 % do diâmetro externo",
-     "item": "8.1"
+     "item": "8.1",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#alarg-expansao"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-tubo-ensaios.svg"
    ]
   }
  ]

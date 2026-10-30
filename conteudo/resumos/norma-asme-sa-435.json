@@ -44,8 +44,12 @@
     {
      "parametro": "Círculo-limite da perda total do eco de fundo",
      "valor": "3 in [75 mm] ou metade da espessura, o maior",
-     "item": "6.1"
+     "item": "6.1",
+     "cota": "esquemas/asme-ii-chapa-ultrassom.svg#circulo-limite"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-chapa-ultrassom.svg"
    ]
   },
   {

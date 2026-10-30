@@ -60,14 +60,19 @@
      "parametro": "Grupo 55Cr3/51CrV4… — redondos",
      "valor": "D ≤ 10: 0,10 mm; D > 10: 0,010·D",
      "item": "Tab. 9",
-     "nota": "cópia OCR — conferir"
+     "nota": "cópia OCR — conferir",
+     "cota": "esquemas/fixadores-rebite-anel-o-rosca-conica.svg#descarbonetacao"
     },
     {
      "parametro": "Grupo ao Si/SiCr — redondos",
      "valor": "D ≤ 10: 0,15 mm; D > 10: 0,015·D",
      "item": "Tab. 9",
-     "nota": "cópia OCR — conferir"
+     "nota": "cópia OCR — conferir",
+     "cota": "esquemas/fixadores-rebite-anel-o-rosca-conica.svg#descarbonetacao"
     }
+   ],
+   "figuras": [
+    "esquemas/fixadores-rebite-anel-o-rosca-conica.svg"
    ]
   }
  ]

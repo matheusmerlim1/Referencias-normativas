@@ -69,8 +69,12 @@
     {
      "parametro": "Expansão mín. no alargamento",
      "valor": "10 % do diâmetro interno",
-     "item": "14.2"
+     "item": "14.2",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#alarg-expansao"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-tubo-ensaios.svg"
    ]
   },
   {

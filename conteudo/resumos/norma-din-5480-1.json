@@ -10,7 +10,8 @@
     {
      "parametro": "Ângulo de pressão",
      "valor": "30°",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/engrenagem-perfil-referencia.svg#alfa"
     },
     {
      "parametro": "Faixa de módulo",
@@ -22,6 +23,9 @@
      "valor": "6 a 82",
      "item": "Introdução"
     }
+   ],
+   "figuras": [
+    "esquemas/engrenagem-perfil-referencia.svg"
    ]
   },
   {

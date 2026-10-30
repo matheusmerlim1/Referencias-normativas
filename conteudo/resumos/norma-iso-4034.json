@@ -23,8 +23,12 @@
      "parametro": "Abertura s (M6 / M8 / M10 / M12 / M16 / M20)",
      "valor": "10 / 13 / 16 / 18 / 24 / 30 mm",
      "item": "Tab. 1",
-     "nota": "leitura de OCR — conferir correspondência rosca × valor"
+     "nota": "leitura de OCR — conferir correspondência rosca × valor",
+     "cota": "esquemas/parafusos-porcas-arruelas-porca-sextavada-iso.svg#s"
     }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-porca-sextavada-iso.svg"
    ]
   },
   {

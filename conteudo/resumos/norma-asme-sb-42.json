@@ -60,8 +60,12 @@
     {
      "parametro": "Expansão mín. (recozido)",
      "valor": "25 % do diâmetro externo",
-     "item": "7.1"
+     "item": "7.1",
+     "cota": "esquemas/asme-ii-tubo-ensaios.svg#alarg-expansao"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-tubo-ensaios.svg"
    ]
   }
  ]

@@ -32,8 +32,12 @@
     {
      "parametro": "Malha de varredura",
      "valor": "12 × 12 in [300 × 300 mm]",
-     "item": "16.1"
+     "item": "16.1",
+     "cota": "esquemas/asme-ii-chapa-ultrassom.svg#malha"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-chapa-ultrassom.svg"
    ]
   },
   {
@@ -45,8 +49,12 @@
      "parametro": "Linha de referência de rejeição",
      "valor": "furo de 0,5 in [13 mm]",
      "item": "18.1",
-     "nota": "conferir: leitura do texto de 18.1"
+     "nota": "conferir: leitura do texto de 18.1",
+     "cota": "esquemas/asme-ii-chapa-ultrassom.svg#furo-referencia"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-chapa-ultrassom.svg"
    ]
   }
  ]

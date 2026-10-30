@@ -84,18 +84,24 @@
     {
      "parametro": "Dobramento do rebite, Grau A",
      "valor": "180° plano sobre si mesmo",
-     "item": "6.1.1"
+     "item": "6.1.1",
+     "cota": "esquemas/asme-ii-dobramento-cp.svg#angulo"
     },
     {
      "parametro": "Dobramento do rebite Grau B, haste ≤ 3/4 in",
      "valor": "diâmetro do mandril = 1 × diâmetro",
-     "item": "Tabela 2"
+     "item": "Tabela 2",
+     "cota": "esquemas/asme-ii-dobramento-cp.svg#mandril"
     },
     {
      "parametro": "Dobramento do rebite Grau B, haste > 3/4 in",
      "valor": "1 1/2 × diâmetro",
-     "item": "Tabela 2"
+     "item": "Tabela 2",
+     "cota": "esquemas/asme-ii-dobramento-cp.svg#mandril"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-dobramento-cp.svg"
    ]
   },
   {

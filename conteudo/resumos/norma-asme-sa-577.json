@@ -15,13 +15,18 @@
     {
      "parametro": "Profundidade do entalhe",
      "valor": "3 % da espessura da chapa",
-     "item": "7.1"
+     "item": "7.1",
+     "cota": "esquemas/asme-ii-chapa-ultrassom.svg#entalhe-profundidade"
     },
     {
      "parametro": "Comprimento mín. do entalhe",
      "valor": "1 in [25 mm]",
-     "item": "7.1"
+     "item": "7.1",
+     "cota": "esquemas/asme-ii-chapa-ultrassom.svg#entalhe-comprimento"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-chapa-ultrassom.svg"
    ]
   },
   {
@@ -32,8 +37,12 @@
     {
      "parametro": "Espaçamento da malha",
      "valor": "9 in [225 mm]",
-     "item": "9.1"
+     "item": "9.1",
+     "cota": "esquemas/asme-ii-chapa-ultrassom.svg#malha"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-chapa-ultrassom.svg"
    ]
   },
   {
