@@ -34,13 +34,18 @@
     {
      "parametro": "4000 < l ≤ 8000 mm — A / B / C / D",
      "valor": "± 5 / ± 8 / ± 14 / ± 21 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l"
     },
     {
      "parametro": "l > 20 000 mm — A / B / C / D",
      "valor": "± 9 / ± 16 / ± 27 / ± 40 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg#l"
     }
+   ],
+   "figuras": [
+    "esquemas/tolerancias-fabricacao-estrutural-iso13920-linear.svg"
    ]
   },
   {
@@ -57,7 +62,8 @@
     {
      "parametro": "Classe B em mm/m",
      "valor": "± 13 / ± 9 / ± 6",
-     "item": "Tab. 2"
+     "item": "Tab. 2",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#dalfa"
     },
     {
      "parametro": "Classe A — lado ≤ 400 mm",
@@ -65,6 +71,9 @@
      "item": "Tab. 2",
      "cota": "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg#l-angulo"
     }
+   ],
+   "figuras": [
+    "esquemas/tolerancias-fabricacao-estrutural-iso13920-angular-forma.svg"
    ]
   },
   {

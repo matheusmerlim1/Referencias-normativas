@@ -27,13 +27,18 @@
     {
      "parametro": "Falta de penetração (IPD) — indicação individual máx.",
      "valor": "2 in (50 mm)",
-     "item": "9.3.1"
+     "item": "9.3.1",
+     "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#penetracao"
     },
     {
      "parametro": "IPD — soma em qualquer trecho de 12 in (300 mm) máx.",
      "valor": "3 in (75 mm)",
-     "item": "9.3.1"
+     "item": "9.3.1",
+     "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#penetracao"
     }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg"
    ]
   }
  ]

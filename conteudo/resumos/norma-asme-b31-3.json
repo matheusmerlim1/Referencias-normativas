@@ -35,14 +35,15 @@
    "item": "304.1",
    "texto": "A espessura mínima requerida soma a espessura de pressão às sobre-espessuras (corrosão, erosão, profundidade de rosca ou ranhura). O tubo escolhido, já descontada a tolerância negativa do fabricante, não pode ficar abaixo desse mínimo. A fórmula de parede fina vale enquanto t for menor que D/6; acima disso, ou com P/SE alto, o cálculo exige análise especial. Pressão externa segue as regras de vaso (Seção VIII-1, UG-28 a UG-30).",
    "valores": [
-    {"parametro": "Espessura mínima requerida", "valor": "tm = t + c", "item": "304.1.1, eq. (2)"},
-    {"parametro": "Espessura de pressão (pressão interna, t < D/6)", "valor": "t = P·D / [2·(S·E·W + P·Y)]", "item": "304.1.2, eq. (3a)"},
+    {"parametro": "Espessura mínima requerida", "valor": "tm = t + c", "item": "304.1.1, eq. (2)", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#tm"},
+    {"parametro": "Espessura de pressão (pressão interna, t < D/6)", "valor": "t = P·D / [2·(S·E·W + P·Y)]", "item": "304.1.2, eq. (3a)", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#t-pressao"},
     {"parametro": "Coeficiente Y — aços ferríticos e austeníticos até 482 °C", "valor": "0,4", "item": "Tabela 304.1.1"},
     {"parametro": "Coeficiente Y — ferro fundido cinzento", "valor": "0,0", "item": "Tabela 304.1.1"},
-    {"parametro": "Tolerância de usinagem/ranhura não especificada", "valor": "+0,5 mm além da profundidade do corte", "item": "304.1.1 (b)"},
+    {"parametro": "Tolerância de usinagem/ranhura não especificada", "valor": "+0,5 mm além da profundidade do corte", "item": "304.1.1 (b)", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#ranhura"},
     {"parametro": "Limite da fórmula de parede fina", "valor": "t < D/6 e P/(S·E) ≤ 0,385", "item": "304.1.2 (b)"},
-    {"parametro": "Desvio angular dispensado de cálculo como curva em gomo", "valor": "≤ 3°", "item": "304.2.3"}
-   ]
+    {"parametro": "Desvio angular dispensado de cálculo como curva em gomo", "valor": "≤ 3°", "item": "304.2.3", "cota": "esquemas/tubulacao-processo-b31-3-desvio-angular.svg#desvio"}
+   ],
+   "figuras": ["esquemas/tubulacao-processo-espessura-parede.svg", "esquemas/tubulacao-processo-b31-3-desvio-angular.svg"]
   },
   {
    "titulo": "Preparação, alinhamento e montagem de soldas",
@@ -53,10 +54,11 @@
     {"parametro": "Ângulo máx. da transição de rebaixo", "valor": "30°", "item": "Fig. 328.4.3", "cota": "esquemas/tubulacao-processo-b31-3-desalinhamento.svg#transicao"},
     {"parametro": "Desalinhamento interno (high-low)", "valor": "dentro da EPS/projeto; se as faces externas não coincidirem, chanfrar a solda", "item": "328.4.3 (a)", "cota": "esquemas/tubulacao-processo-b31-3-desalinhamento.svg#desalinhamento"},
     {"parametro": "Abertura de raiz", "valor": "tolerância da EPS", "item": "328.4.3 (d)", "cota": "esquemas/tubulacao-processo-b31-3-preparacao-topo.svg#abertura"},
-    {"parametro": "Desvio angular por apara de conexão B16.9 sem qualificação", "valor": "≤ 3° no total", "item": "328.4.2 (b)(6)"},
+    {"parametro": "Desvio angular por apara de conexão B16.9 sem qualificação", "valor": "≤ 3° no total", "item": "328.4.2 (b)(6)", "cota": "esquemas/tubulacao-processo-b31-3-desvio-angular.svg#apara"},
     {"parametro": "Anel de backing ferroso — enxofre", "valor": "≤ 0,05 %", "item": "328.3.2 (a)"},
     {"parametro": "Martelamento (peening)", "valor": "proibido na raiz e no passe final", "item": "328.5.1 (d)"}
-   ]
+   ],
+   "figuras": ["esquemas/tubulacao-processo-b31-3-desvio-angular.svg", "esquemas/tubulacao-processo-b31-3-desalinhamento.svg", "esquemas/tubulacao-processo-b31-3-preparacao-topo.svg"]
   },
   {
    "titulo": "Pré-aquecimento",
@@ -66,8 +68,9 @@
     {"parametro": "P-No. 1 — espessura ≤ 25 mm (ou > 25 mm com C ≤ 0,30 %)", "valor": "10 °C mín.", "item": "Tabela 330.1.1"},
     {"parametro": "P-No. 1 — espessura > 25 mm e C > 0,30 %", "valor": "95 °C mín.", "item": "Tabela 330.1.1"},
     {"parametro": "Zona pré-aquecida em volta da solda", "valor": "maior entre 75 mm e 1,5 × a maior espessura; ponteamento 25 mm", "item": "330.1.4", "cota": "esquemas/tubulacao-processo-b31-3-zonas-aquecimento.svg#preaquec"},
-    {"parametro": "Interrupção da solda (P-Nos. 3, 4, 5A, 5B, 6, 15E) sem manter pré-aquecimento", "valor": "só após ≥ 10 mm ou 25 % do chanfro (o menor) e resfriamento lento ou TT intermediário", "item": "330.2.2"}
-   ]
+    {"parametro": "Interrupção da solda (P-Nos. 3, 4, 5A, 5B, 6, 15E) sem manter pré-aquecimento", "valor": "só após ≥ 10 mm ou 25 % do chanfro (o menor) e resfriamento lento ou TT intermediário", "item": "330.2.2", "cota": "esquemas/tubulacao-processo-b31-3-preparacao-topo.svg#deposito"}
+   ],
+   "figuras": ["esquemas/tubulacao-processo-b31-3-preparacao-topo.svg", "esquemas/tubulacao-processo-b31-3-zonas-aquecimento.svg"]
   },
   {
    "titulo": "Tratamento térmico após soldagem (TTAT)",
@@ -118,9 +121,10 @@
     {"parametro": "Concavidade de raiz", "valor": "espessura total ≥ Tw", "item": "Tabela 341.3.2 (K)", "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#concavidade"},
     {"parametro": "Indicação linear em RT — fluido normal", "valor": "comprimento ≤ Tw/2; largura ≤ 3 mm; soma ≤ 4·Tw em 150 mm", "item": "Tabela 341.3.2 (G)", "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#comprimento-indicacao"},
     {"parametro": "Acabamento — cíclico severo", "valor": "≤ 12,5 µm Ra", "item": "Tabela 341.3.2 (J)"},
-    {"parametro": "PM/LP — indicação arredondada rejeitada", "valor": "> 5,0 mm; ou 4+ alinhadas a ≤ 1,5 mm", "item": "344.3.2; 344.4.2"},
-    {"parametro": "UT — comprimento máx. de descontinuidade", "valor": "6 mm (Tw ≤ 19); Tw/3 (19–57); 19 mm (Tw > 57)", "item": "344.6.2 (a)"}
-   ]
+    {"parametro": "PM/LP — indicação arredondada rejeitada", "valor": "> 5,0 mm; ou 4+ alinhadas a ≤ 1,5 mm", "item": "344.3.2; 344.4.2", "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#indicacao-arredondada"},
+    {"parametro": "UT — comprimento máx. de descontinuidade", "valor": "6 mm (Tw ≤ 19); Tw/3 (19–57); 19 mm (Tw > 57)", "item": "344.6.2 (a)", "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#comprimento-indicacao"}
+   ],
+   "figuras": ["esquemas/tubulacao-processo-b31-3-imperfeicoes.svg"]
   },
   {
    "titulo": "Teste de estanqueidade",

@@ -94,9 +94,10 @@
    "item": "Tabelas 7 a 22",
    "texto": "Para cada classe há uma tabela de furação (círculo de furos, nº e Ø de furos, Ø de estojo, comprimento) e uma de dimensões do flange (Ø externo, espessura mínima, cubo, comprimentos, furos). Dimensões de faces em tabela própria; canais RTJ em outra. Consulta completa na ficha flange-asme-b16-5.",
    "valores": [
-    {"parametro": "Exemplo — Classe 150, NPS 2: Ø externo / tf mín.", "valor": "150 mm / 17,5 mm", "item": "Tabela 8"},
-    {"parametro": "Exemplo — Classe 150, NPS 6: Ø externo / tf mín.", "valor": "280 mm / 23,9 mm", "item": "Tabela 8"}
-   ]
+    {"parametro": "Exemplo — Classe 150, NPS 2: Ø externo / tf mín.", "valor": "150 mm / 17,5 mm", "item": "Tabela 8", "cota": "esquemas/flange-asme-b16-5-tipos-flange.svg#O"},
+    {"parametro": "Exemplo — Classe 150, NPS 6: Ø externo / tf mín.", "valor": "280 mm / 23,9 mm", "item": "Tabela 8", "cota": "esquemas/flange-asme-b16-5-tipos-flange.svg#O"}
+   ],
+   "figuras": ["esquemas/flange-asme-b16-5-tipos-flange.svg"]
   }
  ]
 }

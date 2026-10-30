@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 500" width="940" height="500" role="img" aria-label="Filete intermitente, comprimento de filete, junta sobreposta e faixa limpa">
+<title>Filete intermitente, comprimento de filete, junta sobreposta e faixa limpa (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Filete intermitente, comprimento de filete, junta sobreposta e faixa limpa</text>
+<text class="b" x="40" y="70">(a) Filetes — vista ao longo da junta</text>
+<rect class="sl" x="50" y="120" width="440" height="110"/>
+<rect class="r" x="70" y="140" width="90" height="10"/><rect class="r" x="210" y="140" width="90" height="10"/><rect class="r" x="350" y="140" width="90" height="10"/>
+<text class="n" x="60" y="172">intermitente</text>
+<g id="cota-trecho" class="cota"><line class="e" x1="70" y1="137" x2="70" y2="98"/><line class="e" x1="160" y1="137" x2="160" y2="98"/><line class="d" x1="70" y1="104" x2="160" y2="104" marker-start="url(#a)" marker-end="url(#a)"/><text x="70" y="94">trecho do filete</text></g>
+<rect class="r" x="70" y="190" width="370" height="10"/>
+<text class="n" x="60" y="222">contínuo</text>
+<g id="cota-comprimento" class="cota"><line class="e" x1="70" y1="203" x2="70" y2="262"/><line class="e" x1="440" y1="203" x2="440" y2="262"/><line class="d" x1="70" y1="256" x2="440" y2="256" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="255" y="276">comprimento do filete</text></g>
+<text class="b" x="540" y="70">(b) Junta sobreposta (corte)</text>
+<rect class="s" x="560" y="180" width="250" height="22"/>
+<rect class="s" x="690" y="158" width="220" height="22"/>
+<path class="r" d="M690,158 L690,180 L668,180 z"/>
+<path class="r" d="M810,180 L810,202 L832,180 z"/>
+<g id="cota-sobreposicao" class="cota"><line class="e" x1="690" y1="155" x2="690" y2="114"/><line class="e" x1="810" y1="177" x2="810" y2="114"/><line class="d" x1="690" y1="120" x2="810" y2="120" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="750" y="110">sobreposição</text></g>
+<g id="cota-filete-borda" class="cota"><line class="d" x1="640" y1="226" x2="679" y2="174" marker-end="url(#a)"/><text x="560" y="240">perna do filete na borda da chapa</text></g>
+<text class="n" x="830" y="150">chapa de borda</text>
+<text class="b" x="40" y="330">(c) Reforço / reparo de estrutura existente — limpeza em volta da raiz</text>
+<rect x="320" y="388" width="110" height="7" fill="url(#hach)" stroke="#666" stroke-width="1"/>
+<rect x="470" y="388" width="110" height="7" fill="url(#hach)" stroke="#666" stroke-width="1"/>
+<path class="s" d="M150,395 L430,395 L445,425 L150,425 z"/>
+<path class="s" d="M750,395 L470,395 L455,425 L750,425 z"/>
+<g id="cota-faixa-limpa" class="cota"><line class="e" x1="320" y1="385" x2="320" y2="352"/><line class="e" x1="430" y1="385" x2="430" y2="352"/><line class="d" x1="320" y1="358" x2="430" y2="358" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="375" y="348">faixa limpa</text></g>
+<text class="n" x="600" y="380">raiz / chanfro ao centro</text>
+<text class="n" x="20" y="488">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

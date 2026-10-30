@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" role="img" aria-label="Choke e trecho reto a jusante antes de curva ou conexão">
+<title>Choke e trecho reto a jusante antes de curva ou conexão (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Choke e trecho reto a jusante antes de curva ou conexão</text>
+<rect class="s" x="60" y="150" width="100" height="40"/>
+<polygon class="s" points="160,140 200,170 160,200"/>
+<polygon class="s" points="240,140 200,170 240,200"/>
+<line class="g" x1="200" y1="170" x2="200" y2="120"/>
+<rect class="s" x="185" y="110" width="30" height="10"/>
+<rect class="s" x="240" y="150" width="380" height="40"/>
+<path class="s" d="M620,150 A60,60 0 0,1 680,210 L680,280 L640,280 L640,210 A20,20 0 0,0 620,190 z"/>
+<line class="c" x1="40" y1="170" x2="620" y2="170"/>
+<text class="n m" x="200" y="225">choke</text>
+<text class="n" x="700" y="250">curva / conexão</text>
+<text class="n" x="300" y="215">escoamento →</text>
+<g id="cota-trecho-reto" class="cota"><line class="e" x1="240" y1="137" x2="240" y2="96"/><line class="e" x1="620" y1="147" x2="620" y2="96"/><line class="d" x1="240" y1="102" x2="620" y2="102" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="430" y="92">trecho reto a jusante do choke</text></g>
+<text class="n" x="20" y="308">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

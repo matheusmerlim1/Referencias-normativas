@@ -16,10 +16,11 @@
    "texto": "Os diâmetros externo e interno, o círculo de furação e a distância entre furos têm tolerâncias que dobram a partir de NPS 14.",
    "valores": [
     {"parametro": "Ø externo", "valor": "+0/−1,5 mm (≤ NPS 12); +0/−3,0 mm (≥ NPS 14)", "item": "4.2", "cota": "esquemas/flange-asme-b16-5-junta-plana-b16-21.svg#OD"},
-    {"parametro": "Ø interno", "valor": "± 1,5 mm (≤ NPS 12); ± 3,0 mm (≥ NPS 14)", "item": "4.2"},
-    {"parametro": "Círculo de furação (face plena)", "valor": "± 1,5 mm", "item": "4.2"},
-    {"parametro": "Entre furos adjacentes", "valor": "± 1,0 mm", "item": "4.2"}
-   ]
+    {"parametro": "Ø interno", "valor": "± 1,5 mm (≤ NPS 12); ± 3,0 mm (≥ NPS 14)", "item": "4.2", "cota": "esquemas/flange-asme-b16-5-junta-plana-b16-21.svg#ID"},
+    {"parametro": "Círculo de furação (face plena)", "valor": "± 1,5 mm", "item": "4.2", "cota": "esquemas/flange-asme-b16-5-junta-plana-b16-21.svg#W"},
+    {"parametro": "Entre furos adjacentes", "valor": "± 1,0 mm", "item": "4.2", "cota": "esquemas/flange-asme-b16-5-junta-plana-b16-21.svg#furos-adjacentes"}
+   ],
+   "figuras": ["esquemas/flange-asme-b16-5-junta-plana-b16-21.svg"]
   }
  ]
 }

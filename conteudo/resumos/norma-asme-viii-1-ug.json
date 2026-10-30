@@ -14,9 +14,10 @@
    "texto": "Casco e tampo têm espessura mínima absoluta, sem contar corrosão. Chapa comprada pode vir um pouco mais fina que a encomenda dentro de limite fixo. O projeto considera temperatura e pressão coincidentes, as cargas da UG-22 (peso, vento, sismo, suportes, impactos) e a sobre-espessura de corrosão, que não conta como reforço. Vento ou sismo combinados com as demais cargas aceitam tensão de membrana um pouco acima da admissível; os dois não precisam ser somados.",
    "valores": [
     {"parametro": "Espessura mínima de casco e tampo (sem corrosão)", "valor": "1/16 in (1,6 mm)", "item": "UG-16(b)", "cota": "esquemas/vaso-pressao-asme-viii-casco-tampos.svg#t-casco"},
-    {"parametro": "Subtolerância de chapa aceita", "valor": "menor entre 0,3 mm (0,01 in) e 6 % da espessura encomendada", "item": "UG-16(c)"},
+    {"parametro": "Subtolerância de chapa aceita", "valor": "menor entre 0,3 mm (0,01 in) e 6 % da espessura encomendada", "item": "UG-16(c)", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#subtolerancia"},
     {"parametro": "Vento ou sismo + outras cargas — tensão de membrana primária", "valor": "≤ 1,2 × tensão admissível", "item": "UG-23(d)"}
-   ]
+   ],
+   "figuras": ["esquemas/tubulacao-processo-espessura-parede.svg", "esquemas/vaso-pressao-asme-viii-casco-tampos.svg"]
   },
   {
    "titulo": "Cascos e tampos sob pressão interna",
@@ -24,12 +25,13 @@
    "texto": "Fórmulas de parede fina para cilindro (tensão circunferencial e longitudinal), esfera e tampos conformados (elíptico 2:1, torisférico padrão e hemisférico). Cada fórmula tem limite de validade em função de t/R ou P/SE. E é a eficiência de junta da UW-12.",
    "valores": [
     {"parametro": "Cilindro — tensão circunferencial", "valor": "t = P·R / (S·E − 0,6·P); válido se t ≤ R/2 ou P ≤ 0,385·S·E", "item": "UG-27(c)(1)", "cota": "esquemas/vaso-pressao-asme-viii-casco-tampos.svg#t-casco"},
-    {"parametro": "Cilindro — tensão longitudinal", "valor": "t = P·R / (2·S·E + 0,4·P); válido se t ≤ R/2 ou P ≤ 1,25·S·E", "item": "UG-27(c)(2)"},
+    {"parametro": "Cilindro — tensão longitudinal", "valor": "t = P·R / (2·S·E + 0,4·P); válido se t ≤ R/2 ou P ≤ 1,25·S·E", "item": "UG-27(c)(2)", "cota": "esquemas/vaso-pressao-asme-viii-casco-tampos.svg#t-casco"},
     {"parametro": "Esfera / tampo hemisférico", "valor": "t = P·R / (2·S·E − 0,2·P); válido se t ≤ 0,356·R ou P ≤ 0,665·S·E", "item": "UG-27(d); UG-32(f)", "cota": "esquemas/vaso-pressao-asme-viii-casco-tampos.svg#t-hemi"},
     {"parametro": "Tampo elíptico 2:1", "valor": "t = P·D / (2·S·E − 0,2·P)", "item": "UG-32(d)", "cota": "esquemas/vaso-pressao-asme-viii-casco-tampos.svg#t-elip"},
     {"parametro": "Tampo torisférico (rebordo 6 % do raio da coroa)", "valor": "t = 0,885·P·L / (S·E − 0,1·P)", "item": "UG-32(e)", "cota": "esquemas/vaso-pressao-asme-viii-casco-tampos.svg#r-tori"},
     {"parametro": "Torisférico com material de Rm mín. > 483 MPa", "valor": "usar S = 138 MPa (20 000 psi)", "item": "UG-32(e)"}
-   ]
+   ],
+   "figuras": ["esquemas/vaso-pressao-asme-viii-casco-tampos.svg"]
   },
   {
    "titulo": "Pressão externa e anéis de reforço",
@@ -44,9 +46,10 @@
    "item": "UG-36 a UG-45",
    "texto": "Aberturas em casco e tampo conformado são reforçadas pela regra de áreas, avaliada em todos os planos que passam pelo centro do furo; corrosão não conta como reforço. Furos pequenos em vasos sem flutuação rápida de pressão dispensam cálculo. O pescoço do bocal tem espessura mínima pela maior de duas condições (pressão e espessura do casco/tubo padrão).",
    "valores": [
-    {"parametro": "Abertura sem cálculo de reforço — parede requerida ≤ 10 mm", "valor": "Ø acabado ≤ 89 mm (3 1/2 in)", "item": "UG-36(c)(3)(a)"},
-    {"parametro": "Abertura sem cálculo de reforço — parede requerida > 10 mm", "valor": "Ø acabado ≤ 60 mm (2 3/8 in)", "item": "UG-36(c)(3)(a)"}
-   ]
+    {"parametro": "Abertura sem cálculo de reforço — parede requerida ≤ 10 mm", "valor": "Ø acabado ≤ 89 mm (3 1/2 in)", "item": "UG-36(c)(3)(a)", "cota": "esquemas/vaso-pressao-asme-viii-casco-tampos.svg#d-abertura"},
+    {"parametro": "Abertura sem cálculo de reforço — parede requerida > 10 mm", "valor": "Ø acabado ≤ 60 mm (2 3/8 in)", "item": "UG-36(c)(3)(a)", "cota": "esquemas/vaso-pressao-asme-viii-casco-tampos.svg#d-abertura"}
+   ],
+   "figuras": ["esquemas/vaso-pressao-asme-viii-casco-tampos.svg"]
   },
   {
    "titulo": "Fabricação e tolerâncias",

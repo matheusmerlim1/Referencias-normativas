@@ -41,7 +41,8 @@
     {
      "parametro": "Mesa 10 ≤ t < 20",
      "valor": "+2,5 / −1,5 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/perfis-laminados-en10034-secao.svg#t"
     },
     {
      "parametro": "Esquadro k + k′ (b > 110)",
@@ -55,6 +56,9 @@
      "item": "Tab. 2",
      "cota": "esquemas/perfis-laminados-en10034-secao.svg#e"
     }
+   ],
+   "figuras": [
+    "esquemas/perfis-laminados-en10034-secao.svg"
    ]
   },
   {

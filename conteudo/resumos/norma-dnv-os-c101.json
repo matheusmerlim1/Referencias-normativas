@@ -107,13 +107,17 @@
     {
      "parametro": "Faixa junto ao costado tratada como externa",
      "valor": "600 mm",
-     "item": "Ch.2 Sec.3 [1.2.2]"
+     "item": "Ch.2 Sec.3 [1.2.2]",
+     "cota": "esquemas/estrutura-casco-faixa-costado.svg#faixa-costado"
     },
     {
      "parametro": "Abaixo de −20 °C",
      "valor": "limites de espessura avaliados à parte",
      "item": "Ch.2 Sec.3 Tab. 3"
     }
+   ],
+   "figuras": [
+    "esquemas/estrutura-casco-faixa-costado.svg"
    ]
   },
   {

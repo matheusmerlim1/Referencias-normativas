@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="Espessura de parede — espessura de pressão t, sobre-espessura c, mínima tm, subtolerância e nominal">
+<title>Espessura de parede — espessura de pressão t, sobre-espessura c, mínima tm, subtolerância e nominal (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Espessura de parede — espessura de pressão t, sobre-espessura c, mínima tm, subtolerância e nominal</text>
+<rect x="200" y="90" width="280" height="40" fill="url(#hach)" stroke="#666" stroke-width="1.2"/>
+<rect class="s" x="200" y="130" width="280" height="150"/>
+<rect class="r" x="200" y="280" width="280" height="50"/>
+<text class="n m" x="340" y="80">superfície externa</text>
+<text class="n m" x="340" y="348">superfície interna (fluido)</text>
+<g id="cota-subtolerancia" class="cota"><line class="e" x1="483" y1="90" x2="516" y2="90"/><line class="e" x1="483" y1="130" x2="516" y2="130"/><line class="d" x1="510" y1="90" x2="510" y2="130" marker-start="url(#a)" marker-end="url(#a)"/><text x="525" y="115">subtolerância de fabricação (−)</text></g>
+<g id="cota-t-pressao" class="cota"><line class="e" x1="483" y1="280" x2="516" y2="280"/><line class="d" x1="510" y1="130" x2="510" y2="280" marker-start="url(#a)" marker-end="url(#a)"/><text x="525" y="210">t — espessura de pressão</text></g>
+<g id="cota-c" class="cota"><line class="e" x1="483" y1="330" x2="516" y2="330"/><line class="d" x1="510" y1="280" x2="510" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text x="525" y="300">c — sobre-espessura</text><text class="n" x="525" y="318">(corrosão, erosão, rosca, ranhura)</text></g>
+<g id="cota-tm" class="cota"><line class="e" x1="197" y1="130" x2="164" y2="130"/><line class="e" x1="197" y1="330" x2="164" y2="330"/><line class="d" x1="170" y1="130" x2="170" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="162" y="235">tm</text></g>
+<g id="cota-tnom" class="cota"><line class="e" x1="197" y1="90" x2="104" y2="90"/><line class="e" x1="161" y1="330" x2="104" y2="330"/><line class="d" x1="110" y1="90" x2="110" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="102" y="200">nominal</text></g>
+<text class="n" x="20" y="372">tm = t + c (mínima requerida); a nominal encomendada cobre tm mais a subtolerância do material</text>
+<text class="b" x="200" y="398">detalhe: ranhura usinada (a profundidade entra em c)</text>
+<path class="s" d="M200,430 L320,430 L320,446 L360,446 L360,430 L480,430 L480,464 L200,464 z"/>
+<g id="cota-ranhura" class="cota"><line class="e" x1="363" y1="430" x2="400" y2="430"/><line class="e" x1="363" y1="446" x2="400" y2="446"/><line class="d" x1="394" y1="410" x2="394" y2="430" marker-end="url(#a)"/><line class="d" x1="394" y1="466" x2="394" y2="446" marker-end="url(#a)"/><line class="d" x1="394" y1="430" x2="394" y2="446"/><text x="500" y="452">profundidade da ranhura + folga de usinagem</text></g>
+<text class="n" x="20" y="508">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

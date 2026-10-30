@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380" role="img" aria-label="Faixa da estrutura interna junto ao costado tratada como externa">
+<title>Faixa da estrutura interna junto ao costado tratada como externa (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Faixa da estrutura interna junto ao costado tratada como externa</text>
+<rect x="600" y="70" width="100" height="270" fill="#c0392b" fill-opacity=".12" stroke="none"/>
+<rect class="s" x="700" y="60" width="12" height="280"/>
+<rect class="s" x="150" y="130" width="550" height="10"/>
+<rect class="s" x="150" y="260" width="550" height="10"/>
+<line class="h" x1="600" y1="70" x2="600" y2="340"/>
+<line class="c" x1="712" y1="200" x2="880" y2="200"/>
+<text class="n" x="730" y="192">linha d’água</text>
+<text class="n" x="730" y="110">exterior</text>
+<text class="n" x="300" y="200">estrutura interna</text>
+<text class="n" x="720" y="330">costado</text>
+<g id="cota-faixa-costado" class="cota"><line class="e" x1="600" y1="66" x2="600" y2="44"/><line class="e" x1="700" y1="57" x2="700" y2="44"/><line class="d" x1="600" y1="50" x2="700" y2="50" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="590" y="56">faixa junto ao costado</text></g>
+<text class="n" x="20" y="368">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

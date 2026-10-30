@@ -31,21 +31,23 @@
    "valores": [
     {"parametro": "Desalinhamento — t até 13 mm (todas as categorias)", "valor": "t/4", "item": "Tabela UW-33", "cota": "esquemas/vaso-pressao-asme-viii-desalinhamento-reforco.svg#offset"},
     {"parametro": "Desalinhamento — 19 a 38 mm: cat. A / cat. B, C, D", "valor": "3,2 mm / 4,8 mm", "item": "Tabela UW-33", "cota": "esquemas/vaso-pressao-asme-viii-desalinhamento-reforco.svg#offset"},
-    {"parametro": "Desalinhamento — t > 51 mm: cat. A / cat. B, C, D", "valor": "menor entre t/16 e 10 mm / menor entre t/8 e 19 mm", "item": "Tabela UW-33"},
-    {"parametro": "Concordância do desalinhamento", "valor": "rampa 3:1 na largura da solda", "item": "UW-33"},
-    {"parametro": "Redução da chapa pela soldagem", "valor": "≤ menor entre 0,8 mm (1/32 in) e 10 % da espessura", "item": "UW-35(b)"},
+    {"parametro": "Desalinhamento — t > 51 mm: cat. A / cat. B, C, D", "valor": "menor entre t/16 e 10 mm / menor entre t/8 e 19 mm", "item": "Tabela UW-33", "cota": "esquemas/vaso-pressao-asme-viii-desalinhamento-reforco.svg#offset"},
+    {"parametro": "Concordância do desalinhamento", "valor": "rampa 3:1 na largura da solda", "item": "UW-33", "cota": "esquemas/vaso-pressao-asme-viii-desalinhamento-reforco.svg#concordancia"},
+    {"parametro": "Redução da chapa pela soldagem", "valor": "≤ menor entre 0,8 mm (1/32 in) e 10 % da espessura", "item": "UW-35(b)", "cota": "esquemas/vaso-pressao-asme-viii-desalinhamento-reforco.svg#reducao"},
     {"parametro": "Reforço máx. topo cat. B/C — 13 a 25 mm", "valor": "4,8 mm", "item": "UW-35(d)", "cota": "esquemas/vaso-pressao-asme-viii-desalinhamento-reforco.svg#reforco"},
     {"parametro": "Reforço máx. topo cat. B/C — 25 a 51 mm", "valor": "5 mm", "item": "UW-35(d)", "cota": "esquemas/vaso-pressao-asme-viii-desalinhamento-reforco.svg#reforco"}
-   ]
+   ],
+   "figuras": ["esquemas/vaso-pressao-asme-viii-desalinhamento-reforco.svg"]
   },
   {
    "titulo": "TTAT e exame radiográfico",
    "item": "UW-40; UW-51; UW-52",
    "texto": "O tratamento térmico pode ser feito no forno com o vaso inteiro, em partes ou localmente. Na radiografia total, trincas e falta de fusão ou penetração são rejeitadas e indicações alongadas têm comprimento limitado pela espessura. Na radiografia por amostragem (spot), examina-se um ponto a cada trecho fixo de solda; um vaso aceito assim ainda pode conter defeitos.",
    "valores": [
-    {"parametro": "RT total — indicação alongada máx.", "valor": "6 mm (t ≤ 19 mm); t/3 (19 a 57 mm); 19 mm (t > 57 mm)", "item": "UW-51(b)(2)"},
+    {"parametro": "RT total — indicação alongada máx.", "valor": "6 mm (t ≤ 19 mm); t/3 (19 a 57 mm); 19 mm (t > 57 mm)", "item": "UW-51(b)(2)", "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#comprimento-indicacao"},
     {"parametro": "RT spot — extensão mínima", "valor": "1 ponto a cada 15,2 m (50 ft) de solda ou fração", "item": "UW-52(b)(1)"}
-   ]
+   ],
+   "figuras": ["esquemas/tubulacao-processo-b31-3-imperfeicoes.svg"]
   }
  ]
 }

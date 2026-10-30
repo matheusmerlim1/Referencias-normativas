@@ -58,5 +58,6 @@
 <rect class="sl" x="700" y="286" width="200" height="8"/>
 <g id="cota-nucleo" class="cota"><line class="e" x1="903" y1="300" x2="926" y2="300"/><line class="e" x1="903" y1="320" x2="926" y2="320"/><line class="d" x1="920" y1="300" x2="920" y2="320" marker-start="url(#a)" marker-end="url(#a)"/><text x="930" y="330">núcleo</text></g>
 <g id="cota-cobertura" class="cota"><line class="d" x1="881" y1="260" x2="881" y2="286" marker-end="url(#a)"/><line class="d" x1="881" y1="320" x2="881" y2="294" marker-end="url(#a)"/><line class="d" x1="881" y1="286" x2="881" y2="294"/><text class="en" x="960" y="286">cobertura</text></g>
+<g id="cota-furos-adjacentes" class="cota"><line class="d" x1="391" y1="300.7" x2="509" y2="300.7" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="450" y="324">entre furos adjacentes</text></g>
 <text class="n" x="20" y="508">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
 </svg>

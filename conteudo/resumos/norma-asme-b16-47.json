@@ -44,8 +44,9 @@
     {"parametro": "Acabamento serrilhado", "valor": "Ra 3,2 a 6,3 µm (125–250 µin); 45 a 55 ranhuras/in", "item": "6.1.4.2", "cota": "esquemas/flange-asme-b16-5-faces.svg#acabamento"},
     {"parametro": "Parede da canaleta RTJ", "valor": "≤ 63 µin Ra", "item": "6.1.4.1"},
     {"parametro": "Número de furos", "valor": "múltiplo de 4", "item": "6.2", "cota": "esquemas/flange-asme-b16-5-furacao-b16-47.svg#n"},
-    {"parametro": "Assento das porcas", "valor": "paralelo à face dentro de 1°", "item": "6.3"}
-   ]
+    {"parametro": "Assento das porcas", "valor": "paralelo à face dentro de 1°", "item": "6.3", "cota": "esquemas/flange-asme-b16-5-furacao-b16-47.svg#spot-face"}
+   ],
+   "figuras": ["esquemas/flange-asme-b16-5-furacao-b16-47.svg", "esquemas/flange-asme-b16-5-flange-b16-47.svg", "esquemas/flange-asme-b16-5-faces.svg"]
   },
   {
    "titulo": "Tolerâncias",
@@ -55,10 +56,11 @@
     {"parametro": "Ø do ressalto", "valor": "RF 0,06 in: ± 0,08 in; RF 0,25 in: ± 0,04 in", "item": "7.2", "cota": "esquemas/flange-asme-b16-5-flange-b16-47.svg#R"},
     {"parametro": "Espessura do flange", "valor": "≤ 1 in: +0,12; 1–2: +0,19; 2–3: +0,31; > 3 in: +0,38 (−0) in", "item": "7.3", "cota": "esquemas/flange-asme-b16-5-flange-b16-47.svg#C"},
     {"parametro": "Ø externo na ponta de solda (A)", "valor": "+0,21 / −0,06 in", "item": "7.4", "cota": "esquemas/flange-asme-b16-5-flange-b16-47.svg#A"},
-    {"parametro": "Parede do pescoço", "valor": "≥ 87,5 % da parede nominal do tubo", "item": "7.4"},
+    {"parametro": "Parede do pescoço", "valor": "≥ 87,5 % da parede nominal do tubo", "item": "7.4", "cota": "esquemas/flange-asme-b16-5-tipos-flange.svg#espessura-ponta"},
     {"parametro": "Comprimento pelo cubo (WN)", "valor": "± 0,19 in", "item": "7.5", "cota": "esquemas/flange-asme-b16-5-flange-b16-47.svg#Y"},
     {"parametro": "Círculo de furação / furos adjacentes", "valor": "± 0,06 in / ± 0,03 in", "item": "7.6", "cota": "esquemas/flange-asme-b16-5-furacao-b16-47.svg#W"}
-   ]
+   ],
+   "figuras": ["esquemas/flange-asme-b16-5-tipos-flange.svg", "esquemas/flange-asme-b16-5-flange-b16-47.svg", "esquemas/flange-asme-b16-5-furacao-b16-47.svg"]
   },
   {
    "titulo": "Ensaio",

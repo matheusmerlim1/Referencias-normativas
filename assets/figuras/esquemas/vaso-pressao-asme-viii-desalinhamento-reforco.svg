@@ -33,5 +33,13 @@
 <g id="cota-t" class="cota"><line class="e" x1="77" y1="170" x2="44" y2="170"/><line class="e" x1="77" y1="230" x2="44" y2="230"/><line class="d" x1="50" y1="170" x2="50" y2="230" marker-start="url(#a)" marker-end="url(#a)"/><text x="70" y="290">t — espessura nominal (mais fina)</text></g>
 <g id="cota-reforco" class="cota"><line class="d" x1="301" y1="126" x2="301" y2="152" marker-end="url(#a)"/><line class="d" x1="301" y1="196" x2="301" y2="170" marker-end="url(#a)"/><line class="d" x1="301" y1="152" x2="301" y2="170"/><text x="120" y="130">reforço (acima da superfície)</text></g>
 <line class="d" x1="290" y1="133" x2="425" y2="152" marker-end="url(#a)"/>
+<path d="M461,245 L468,238 L475,245 z" fill="#fff" stroke="none"/><path class="g" d="M461,245 L468,238 L475,245"/>
+<g id="cota-reducao" class="cota"><line class="d" x1="520" y1="282" x2="469" y2="242" marker-end="url(#a)"/><text x="490" y="298">redução da espessura junto à solda</text></g>
+<text class="n" x="560" y="62">detalhe: solda concordando o desalinhamento</text>
+<rect class="s" x="560" y="72" width="130" height="20"/>
+<rect class="s" x="740" y="82" width="130" height="20"/>
+<path class="r" d="M690,72 L740,82 L740,102 L705,99 L690,92 z"/>
+<line class="h" x1="690" y1="72" x2="760" y2="72"/>
+<g id="cota-concordancia" class="cota"><line class="d" x1="700" y1="114" x2="716" y2="79" marker-end="url(#a)"/><text x="580" y="120">rampa da concordância</text></g>
 <text class="n" x="20" y="408">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
 </svg>

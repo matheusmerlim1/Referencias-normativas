@@ -16,13 +16,14 @@
    "item": "Cláusula 4",
    "texto": "Define comprimentos e áreas efetivas de soldas de chanfro e de filete. Filete curto demais perde eficácia; filete intermitente tem trecho mínimo; em juntas sobrepostas o filete na borda não pode igualar a chapa grossa. Juntas de topo entre espessuras ou larguras diferentes sob carga cíclica precisam de transição suave.",
    "valores": [
-    {"parametro": "Comprimento mínimo de filete", "valor": "≥ 4 × o tamanho nominal (senão o tamanho efetivo ≤ 25 % do comprimento)", "item": "4.4.2.3"},
-    {"parametro": "Trecho mínimo de filete intermitente", "valor": "38 mm (1 1/2 in)", "item": "4.4.2.4"},
-    {"parametro": "Filete com carga na extremidade — comprimento efetivo = real", "valor": "até 100 × a perna; de 100 a 300 × aplicar fator de redução", "item": "4.4.2.5"},
-    {"parametro": "Filete máximo na borda de junta sobreposta", "valor": "chapa < 6 mm: a espessura; ≥ 6 mm: espessura − 2 mm", "item": "4.4.2.9"},
-    {"parametro": "Sobreposição mínima em junta sobreposta", "valor": "5 × a espessura da mais fina, ≥ 25 mm", "item": "4.9.1.2"},
-    {"parametro": "Transição de espessura/largura em topo com carga cíclica", "valor": "inclinação ≤ 1:2,5 (largura: ou raio ≥ 600 mm)", "item": "4.17.1.2; 10.6"}
-   ]
+    {"parametro": "Comprimento mínimo de filete", "valor": "≥ 4 × o tamanho nominal (senão o tamanho efetivo ≤ 25 % do comprimento)", "item": "4.4.2.3", "cota": "esquemas/solda-estrutural-filete-sobreposta-intermitente.svg#comprimento"},
+    {"parametro": "Trecho mínimo de filete intermitente", "valor": "38 mm (1 1/2 in)", "item": "4.4.2.4", "cota": "esquemas/solda-estrutural-filete-sobreposta-intermitente.svg#trecho"},
+    {"parametro": "Filete com carga na extremidade — comprimento efetivo = real", "valor": "até 100 × a perna; de 100 a 300 × aplicar fator de redução", "item": "4.4.2.5", "cota": "esquemas/solda-estrutural-filete-sobreposta-intermitente.svg#comprimento"},
+    {"parametro": "Filete máximo na borda de junta sobreposta", "valor": "chapa < 6 mm: a espessura; ≥ 6 mm: espessura − 2 mm", "item": "4.4.2.9", "cota": "esquemas/solda-estrutural-filete-sobreposta-intermitente.svg#filete-borda"},
+    {"parametro": "Sobreposição mínima em junta sobreposta", "valor": "5 × a espessura da mais fina, ≥ 25 mm", "item": "4.9.1.2", "cota": "esquemas/solda-estrutural-filete-sobreposta-intermitente.svg#sobreposicao"},
+    {"parametro": "Transição de espessura/largura em topo com carga cíclica", "valor": "inclinação ≤ 1:2,5 (largura: ou raio ≥ 600 mm)", "item": "4.17.1.2; 10.6", "cota": "esquemas/solda-estrutural-montagem-junta.svg#rampa"}
+   ],
+   "figuras": ["esquemas/solda-estrutural-filete-sobreposta-intermitente.svg", "esquemas/solda-estrutural-montagem-junta.svg"]
   },
   {
    "titulo": "Pré-qualificação de procedimentos e pré-aquecimento",
@@ -87,14 +88,15 @@
    "texto": "Colunas, vigas e perfis soldados têm limites de retilineidade, contraflecha, desvio lateral, planicidade de alma, alinhamento alma–mesa, empeno de mesa e altura. Os apoios de carga precisam de contato em boa parte da área.",
    "valores": [
     {"parametro": "Retilineidade de colunas (L < 9 m)", "valor": "1 mm × L(m)", "item": "7.22.1", "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#flecha"},
-    {"parametro": "Retilineidade de colunas (9 a 15 m / > 15 m)", "valor": "10 mm / 10 mm + 3 mm × (L − 15)/10", "item": "7.22.1"},
+    {"parametro": "Retilineidade de colunas (9 a 15 m / > 15 m)", "valor": "10 mm / 10 mm + 3 mm × (L − 15)/10", "item": "7.22.1", "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#flecha"},
     {"parametro": "Contraflecha no meio do vão", "valor": "−0/+40 mm (vão ≥ 30 m); −0/+20 mm (< 30 m)", "item": "7.22.3", "cota": "esquemas/solda-estrutural-planicidade-contraflecha.svg#contraflecha"},
     {"parametro": "Desvio lateral (sweep)", "valor": "± 1 mm × L(m)", "item": "7.22.5", "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#sweep"},
     {"parametro": "Desvio entre eixos de alma e mesa", "valor": "≤ 6 mm", "item": "7.22.7", "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#desvio-alma-mesa"},
     {"parametro": "Empeno + inclinação de mesa", "valor": "≤ maior entre 1 % da largura e 6 mm", "item": "7.22.8", "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#empeno"},
     {"parametro": "Altura da viga", "valor": "≤ 1 m: ± 3 mm; 1–2 m: ± 5 mm; > 2 m: +8/−5 mm", "item": "7.22.9", "cota": "esquemas/solda-estrutural-viga-soldada-tolerancias.svg#altura"},
     {"parametro": "Enrijecedor \"justo\" à mesa", "valor": "folga ≤ 2 mm", "item": "7.22.11", "cota": "esquemas/solda-estrutural-planicidade-contraflecha.svg#folga-enrijecedor"}
-   ]
+   ],
+   "figuras": ["esquemas/solda-estrutural-viga-soldada-tolerancias.svg", "esquemas/solda-estrutural-planicidade-contraflecha.svg"]
   },
   {
    "titulo": "Perfil da solda",
@@ -113,19 +115,21 @@
     {"parametro": "Espera para visual em A514, A517, A709 HPS 100W", "valor": "≥ 48 h após soldar", "item": "Tabela 8.1 (5)"},
     {"parametro": "Filete abaixo do nominal", "valor": "L ≤ 5: −2 mm; L = 6: −2,5 mm; L ≥ 8: −3 mm; em ≤ 10 % do comprimento", "item": "Tabela 8.1 (6)", "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#perna-real"},
     {"parametro": "Mordedura — carga estática", "valor": "< 25 mm: ≤ 1 mm (2 mm em 50 mm a cada 300 mm); ≥ 25 mm: ≤ 2 mm", "item": "Tabela 8.1 (7)(A)", "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#mordedura"},
-    {"parametro": "Mordedura — carga cíclica, membro principal tracionado", "valor": "≤ 0,25 mm", "item": "Tabela 8.1 (7)(B)"},
+    {"parametro": "Mordedura — carga cíclica, membro principal tracionado", "valor": "≤ 0,25 mm", "item": "Tabela 8.1 (7)(B)", "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#mordedura"},
     {"parametro": "Porosidade — estática (exceto CJP tracionada)", "valor": "soma ≤ 10 mm em 25 mm e ≤ 20 mm em 300 mm", "item": "Tabela 8.1 (8)(A)", "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#poro"},
-    {"parametro": "Porosidade — cíclica (filete)", "valor": "1 poro a cada 100 mm, Ø ≤ 2,5 mm", "item": "Tabela 8.1 (8)(B)"},
-    {"parametro": "RT carga estática — indicação arredondada", "valor": "≤ S/3 e ≤ 6 mm (10 mm se S > 50 mm)", "item": "8.12.1"}
-   ]
+    {"parametro": "Porosidade — cíclica (filete)", "valor": "1 poro a cada 100 mm, Ø ≤ 2,5 mm", "item": "Tabela 8.1 (8)(B)", "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#poro"},
+    {"parametro": "RT carga estática — indicação arredondada", "valor": "≤ S/3 e ≤ 6 mm (10 mm se S > 50 mm)", "item": "8.12.1", "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#indicacao-arredondada"}
+   ],
+   "figuras": ["esquemas/solda-estrutural-aceitacao-visual.svg", "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg"]
   },
   {
    "titulo": "Reforço e reparo de estruturas existentes",
    "item": "Cláusula 11",
    "texto": "O Engenheiro prepara um plano completo (projeto, mão de obra, inspeção e registros). Antes, identifica o aço original por desenhos ou ensaios. A região a soldar é limpa, inclusive de tinta, numa faixa em volta da raiz. Descontinuidades são corrigidas antes de desempenar ou soldar.",
    "valores": [
-    {"parametro": "Faixa limpa em volta da raiz", "valor": "≥ 50 mm (2 in)", "item": "11.6.1"}
-   ]
+    {"parametro": "Faixa limpa em volta da raiz", "valor": "≥ 50 mm (2 in)", "item": "11.6.1", "cota": "esquemas/solda-estrutural-filete-sobreposta-intermitente.svg#faixa-limpa"}
+   ],
+   "figuras": ["esquemas/solda-estrutural-filete-sobreposta-intermitente.svg"]
   }
  ]
 }

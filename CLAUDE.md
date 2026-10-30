@@ -198,9 +198,13 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
   Z359.14, NORSOK R-002, B30.7/10/26, ISO 3266, NBR 13543/6327/15516-1/-2/16325-2, guia padeye → 52 valores, +6 SVG, 3 SVG ampliados.
   Encaixes aproximados (rever se quiser): banda/inclinação → guindaste-ponte-rolante-banda-trim#banda; ISO 3266 ±5° →
   interface-olhal-manilha#desvio-plano. Sobraram p/ outros lotes: API 9A (ensaios), NBR 16776 (plataforma elevatória).
+- **Cotas nos resumos — LOTE 3 FEITO** (30/out, tubulação/flange/solda/vaso/estrutura): B31.3 (8), AWS D1.1 (11), B16.5/25/47/20/21,
+  API 14E, VIII-1 UG/UW, B18.2.6, ISO 13920, DNV-OS-C101, EN 10034, API 1104 → 59 valores, +5 SVG, 8 SVG ampliados. Sem pendência
+  dimensional: B16.9/11/34/48, B31.4/8, B36.10M, IX, VIII-2, ISO 4032. Agora: 1013 valores com cota; ~974 dimensionais sem cota em 312
+  resumos (muitos são faixa de aplicação/condição — o regex não distingue).
 
 ## PRÓXIMOS PASSOS (continuar daqui)
-Lotes 1 e 2 feitos (30/out). Próximo: LOTE 3. Commit + push ao fim de cada lote (pedido do usuário).
+Lotes 1, 2 e 3 feitos (30/out). Próximo: LOTE 4. Commit + push ao fim de cada lote (pedido do usuário).
 1. **Cotas nos resumos** — faltam ~1 049 valores dimensionais sem cota em 316 resumos. Um agente por vez, por lote. O agente:
    reutiliza SVG existentes (acrescenta grupo `cota-<nome>` sem quebrar os que já existem), só cria SVG novo DO ZERO (só rótulos,
    nunca números; rodapé "Esquema ilustrativo (não é desenho da norma) — sem escala."), põe `"cota"` no valor e o SVG em `figuras`
@@ -209,7 +213,7 @@ Lotes 1 e 2 feitos (30/out). Próximo: LOTE 3. Commit + push ao fim de cada lote
    - ~~Lote 2 — içamento~~ (FEITO): DNV-ST-E273 (3), DNV-ST-E271 (6), DNV-2.22 (5), ABS-LIFT-2021 (6), NBR-8400 (4), NORSOK-R-002 (5),
      ASME-B30.26 (5), B30.10 (2), B30.7, ISO-3266 (3), NBR-15637-1, 15516-1/-2, 13543, 6327, 11900-4, 16325-2, 14628,
      ANSI-Z359.14 (4), DNV-OS-H205 (7).
-   - **Lote 3 — tubulação/flange/solda/vaso**: ASME-B31.3 (18), AWS-D1.1 (22), B16.5 (8), B16.25 (6), B16.47 (6), B16.20 (4),
+   - ~~Lote 3 — tubulação/flange/solda/vaso~~ (FEITO): ASME-B31.3 (18), AWS-D1.1 (22), B16.5 (8), B16.25 (6), B16.47 (6), B16.20 (4),
      API-RP-14E (8), NORSOK-L-005, ASME-VIII-1-UG (4)/UW (6)/UCS (7), B18.2.6 (5), ISO-898-1, ISO-9013, ISO-13920, API-RP-2A,
      DNV-OS-C101 (4).
    - **Lote 4+**: resto por uso — NR-15 (23), NR-17 (17), NR-11 (12) e as demais.

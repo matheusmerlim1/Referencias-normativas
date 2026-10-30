@@ -47,5 +47,12 @@
 <path class="s" d="M320,560 A100,100 0 0 1 520,560 L534,560 A114,114 0 0 0 306,560 z"/>
 <g id="cota-L-hemi" class="cota"><line class="d" x1="420" y1="560" x2="490" y2="490" marker-start="url(#a)" marker-end="url(#a)"/><text x="510" y="540">L (R) — raio interno</text></g>
 <g id="cota-t-hemi" class="cota"><line class="d" x1="368.4" y1="508.4" x2="350" y2="490" marker-end="url(#a)"/><line class="d" x1="321.8" y1="461.8" x2="340.2" y2="480.2" marker-end="url(#a)"/><line class="d" x1="350" y1="490" x2="340.2" y2="480.2"/><text class="en" x="290" y="450">t</text></g>
+<text class="b" x="640" y="420">(e) Abertura no casco</text>
+<rect class="s" x="650" y="500" width="92" height="22"/>
+<rect class="s" x="818" y="500" width="92" height="22"/>
+<rect class="s" x="742" y="450" width="10" height="72"/>
+<rect class="s" x="808" y="450" width="10" height="72"/>
+<line class="c" x1="780" y1="440" x2="780" y2="540"/>
+<g id="cota-d-abertura" class="cota"><line class="e" x1="752" y1="525" x2="752" y2="566"/><line class="e" x1="808" y1="525" x2="808" y2="566"/><line class="d" x1="752" y1="560" x2="808" y2="560" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="780" y="585">d — Ø acabado da abertura</text></g>
 <text class="n" x="20" y="628">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
 </svg>

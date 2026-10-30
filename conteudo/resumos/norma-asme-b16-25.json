@@ -15,11 +15,12 @@
    "valores": [
     {"parametro": "Espessura mínima na extremidade", "valor": "1,0 × tmin", "item": "Fig. 2-1", "cota": "esquemas/tubulacao-processo-b16-25-envelope-transicao.svg#tmin"},
     {"parametro": "Espessura máxima (pedido por parede mínima)", "valor": "maior entre tmin + 4 mm e 1,15·tmin", "item": "5.4", "cota": "esquemas/tubulacao-processo-b16-25-envelope-transicao.svg#tmax"},
-    {"parametro": "Espessura máxima (pedido por parede nominal)", "valor": "maior entre tmin + 4 mm e 1,10 × parede nominal", "item": "5.4"},
-    {"parametro": "tmin de tubo com tolerância −12,5 %", "valor": "0,875 × parede nominal", "item": "Fig. 2-1, Nota (4)"},
+    {"parametro": "Espessura máxima (pedido por parede nominal)", "valor": "maior entre tmin + 4 mm e 1,10 × parede nominal", "item": "5.4", "cota": "esquemas/tubulacao-processo-b16-25-envelope-transicao.svg#tmax"},
+    {"parametro": "tmin de tubo com tolerância −12,5 %", "valor": "0,875 × parede nominal", "item": "Fig. 2-1, Nota (4)", "cota": "esquemas/tubulacao-processo-b16-25-envelope-transicao.svg#tmin"},
     {"parametro": "Inclinação externa", "valor": "≤ 30° numa faixa de 1,5·tmin; até 45° junto à superfície; raios ≥ 0,05·tmin", "item": "Fig. 2-1", "cota": "esquemas/tubulacao-processo-b16-25-envelope-transicao.svg#ext"},
     {"parametro": "Inclinação interna", "valor": "≤ 1:3 dentro de 2·tmin a partir da face de raiz", "item": "Fig. 2-1", "cota": "esquemas/tubulacao-processo-b16-25-envelope-transicao.svg#int"}
-   ]
+   ],
+   "figuras": ["esquemas/tubulacao-processo-b16-25-envelope-transicao.svg"]
   },
   {
    "titulo": "Chanfros para solda comum",
@@ -52,14 +53,15 @@
    "texto": "O furo C para anel contínuo é calculado a partir do diâmetro externo, descontando a tolerância negativa e duas paredes mínimas. A tabela 3.3-1 usa as tolerâncias típicas de A106/A335; para outro tubo, recalcular. Em tubo de schedule baixo pode faltar parede para usinar o assento.",
    "valores": [
     {"parametro": "Equação geral de C", "valor": "C = A − tol. negativa do Ø ext. − 2·tmin − 0,25 mm", "item": "4.2", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#C"},
-    {"parametro": "C para A106 (NPS 2–48) / A335 (NPS 2–12)", "valor": "C = A − 0,79 − 2 × 0,875·t − 0,25 mm", "item": "4.2"},
-    {"parametro": "Tolerância de C — anel contínuo", "valor": "+0,25 / −0 mm", "item": "5.2"},
+    {"parametro": "C para A106 (NPS 2–48) / A335 (NPS 2–12)", "valor": "C = A − 0,79 − 2 × 0,875·t − 0,25 mm", "item": "4.2", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#C"},
+    {"parametro": "Tolerância de C — anel contínuo", "valor": "+0,25 / −0 mm", "item": "5.2", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#C"},
     {"parametro": "Tolerância de C — chanfros GTAW", "valor": "+0,25 / −1,02 mm", "item": "5.2", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-gtaw.svg#C"},
     {"parametro": "Ø externo na ponta — NPS ≤ 1½", "valor": "± 0,4 mm", "item": "5.3", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#A"},
-    {"parametro": "Ø externo na ponta — NPS 2 a 5", "valor": "+2,5 / −0,79 mm", "item": "5.3"},
-    {"parametro": "Ø externo na ponta — NPS ≥ 6", "valor": "+4,0 / −0,79 mm", "item": "5.3"},
+    {"parametro": "Ø externo na ponta — NPS 2 a 5", "valor": "+2,5 / −0,79 mm", "item": "5.3", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#A"},
+    {"parametro": "Ø externo na ponta — NPS ≥ 6", "valor": "+4,0 / −0,79 mm", "item": "5.3", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#A"},
     {"parametro": "Usinagem para anel contínuo", "valor": "não prevista para parede ≤ 3,17 mm", "item": "Tabela 3.3-1, Nota (3)"}
-   ]
+   ],
+   "figuras": ["esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg", "esquemas/tubulacao-processo-b16-25-chanfro-gtaw.svg"]
   }
  ]
 }

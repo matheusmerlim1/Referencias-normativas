@@ -16,15 +16,16 @@
    "texto": "Cabeça cheia com chanfro ou arredondamento no topo, assento plano com face de arruela, cabeça posicionada em relação ao corpo dentro de uma zona de tolerância. O comprimento vai do assento da cabeça à ponta e é fornecido em passos de 1/4 in, só com tolerância negativa. Rosca UNC 2A, sem rebaixar o corpo para compensar revestimento grosso. O comprimento de rosca é controlado pela distância de aperto LG e pelo corpo LB.",
    "valores": [
     {"parametro": "Ø do chanfro do topo da cabeça", "valor": "= F máx., tolerância −15 %", "item": "2.1.1", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#F"},
-    {"parametro": "Posição da cabeça (zona de Ø)", "valor": "6 % do F máx.", "item": "2.1.5"},
-    {"parametro": "Ø da face de arruela", "valor": "= F máx., tolerância −10 %", "item": "2.1.6"},
-    {"parametro": "Espessura da face de arruela", "valor": "0,015–0,025 in (≤ 3/4 in); 0,015–0,035 in (> 3/4 in)", "item": "2.1.6"},
+    {"parametro": "Posição da cabeça (zona de Ø)", "valor": "6 % do F máx.", "item": "2.1.5", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#posicao-cabeca"},
+    {"parametro": "Ø da face de arruela", "valor": "= F máx., tolerância −10 %", "item": "2.1.6", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#D-face-arruela"},
+    {"parametro": "Espessura da face de arruela", "valor": "0,015–0,025 in (≤ 3/4 in); 0,015–0,035 in (> 3/4 in)", "item": "2.1.6", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#face-arruela"},
     {"parametro": "Incremento de comprimento", "valor": "1/4 in", "item": "2.1.7", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#L"},
-    {"parametro": "Tolerância de comprimento (≤ 6 in / > 6 in)", "valor": "1/2: −0,12/−0,19; 5/8: −0,12/−0,25; 3/4–1: −0,19/−0,25; 1 1/8–1 1/2: −0,25 in", "item": "2.1.8"},
+    {"parametro": "Tolerância de comprimento (≤ 6 in / > 6 in)", "valor": "1/2: −0,12/−0,19; 5/8: −0,12/−0,25; 3/4–1: −0,19/−0,25; 1 1/8–1 1/2: −0,25 in", "item": "2.1.8", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#L"},
     {"parametro": "Rosca", "valor": "UNC classe 2A (ASME B1.1); calibração sistema 21", "item": "2.1.9"},
-    {"parametro": "Parte lisa máx. em parafuso totalmente roscado", "valor": "2,5 passos (≤ 1 in); 3,5 passos (> 1 in)", "item": "2.1.9.2"},
+    {"parametro": "Parte lisa máx. em parafuso totalmente roscado", "valor": "2,5 passos (≤ 1 in); 3,5 passos (> 1 in)", "item": "2.1.9.2", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#parte-lisa"},
     {"parametro": "LG máx. (parafuso não totalmente roscado)", "valor": "L nominal − LT", "item": "2.1.9.2", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#LT"}
-   ]
+   ],
+   "figuras": ["esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg"]
   },
   {
    "titulo": "Porca sextavada pesada",
@@ -43,10 +44,11 @@
    "valores": [
     {"parametro": "Planicidade", "valor": "0,010 in por polegada", "item": "4.1.2", "cota": "esquemas/parafusos-porcas-arruelas-arruela-f436.svg#planicidade"},
     {"parametro": "Batimento do Ø externo", "valor": "≤ 0,030 in FIM", "item": "4.1.2", "cota": "esquemas/parafusos-porcas-arruelas-arruela-f436.svg#OD"},
-    {"parametro": "Rebarba", "valor": "≤ 0,010 in (chanfrada 1–1 1/2 in: 0,015 in)", "item": "4.1.2; 4.2.2"},
+    {"parametro": "Rebarba", "valor": "≤ 0,010 in (chanfrada 1–1 1/2 in: 0,015 in)", "item": "4.1.2; 4.2.2", "cota": "esquemas/parafusos-porcas-arruelas-arruela-f436.svg#rebarba"},
     {"parametro": "Inclinação da chanfrada", "valor": "0,98:6 a 1,02:6", "item": "4.2.2", "cota": "esquemas/parafusos-porcas-arruelas-arruela-f436.svg#inclinacao"},
     {"parametro": "Borda recortada a partir do centro", "valor": "≥ 0,875 × Ø nominal", "item": "Tabela 4, nota (2)", "cota": "esquemas/parafusos-porcas-arruelas-arruela-f436.svg#E"}
-   ]
+   ],
+   "figuras": ["esquemas/parafusos-porcas-arruelas-arruela-f436.svg"]
   }
  ]
 }

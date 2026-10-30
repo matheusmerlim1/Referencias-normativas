@@ -36,5 +36,10 @@
 <g id="cota-concavidade" class="cota"><line class="d" x1="40" y1="375" x2="420" y2="304" marker-end="url(#a)"/><text x="40" y="380">concavidade na raiz: espessura total ≥ Tw</text></g>
 <g id="cota-penetracao" class="cota"><line class="d" x1="120" y1="435" x2="405" y2="294" marker-end="url(#a)"/><text x="120" y="440">penetração incompleta / falta de fusão (comprimento acumulado)</text></g>
 <g id="cota-comprimento-indicacao" class="cota"><line class="d" x1="560" y1="470" x2="760" y2="470" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="660" y="462">comprimento da indicação</text></g>
+<circle class="r" cx="640" cy="405" r="10"/>
+<g id="cota-indicacao-arredondada" class="cota"><line class="e" x1="630" y1="400" x2="630" y2="383"/><line class="e" x1="650" y1="400" x2="650" y2="383"/><line class="d" x1="606" y1="388" x2="630" y2="388" marker-end="url(#a)"/><line class="d" x1="674" y1="388" x2="650" y2="388" marker-end="url(#a)"/><line class="d" x1="630" y1="388" x2="650" y2="388"/><text class="en" x="600" y="393">Ø da indicação arredondada</text></g>
+<circle class="r" cx="720" cy="405" r="5"/><circle class="r" cx="745" cy="405" r="5"/><circle class="r" cx="770" cy="405" r="5"/><circle class="r" cx="795" cy="405" r="5"/>
+<line class="h" x1="705" y1="405" x2="812" y2="405"/>
+<g id="cota-espacamento" class="cota"><line class="e" x1="725" y1="412" x2="725" y2="432"/><line class="e" x1="740" y1="412" x2="740" y2="432"/><line class="d" x1="703" y1="426" x2="725" y2="426" marker-end="url(#a)"/><line class="d" x1="762" y1="426" x2="740" y2="426" marker-end="url(#a)"/><line class="d" x1="725" y1="426" x2="740" y2="426"/><line class="d" x1="800" y1="384" x2="734" y2="424" marker-end="url(#a)"/><text class="en" x="932" y="380">espaçamento (alinhadas)</text></g>
 <text class="n" x="20" y="508">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
 </svg>

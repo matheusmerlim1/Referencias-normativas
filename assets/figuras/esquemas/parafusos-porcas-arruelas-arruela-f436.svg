@@ -42,5 +42,7 @@
 <g id="cota-T" class="cota"><line class="e" x1="903" y1="150" x2="926" y2="150"/><line class="e" x1="903" y1="300" x2="926" y2="300"/><line class="d" x1="920" y1="150" x2="920" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text x="927" y="230">T</text></g>
 <g id="cota-inclinacao" class="cota"><line class="d" x1="780" y1="125" x2="840" y2="156" marker-end="url(#a)"/><text class="m" x="780" y="130">inclinação da face</text></g>
 <g id="cota-planicidade" class="cota"><text x="520" y="420">planicidade / rebarbas / batimento: ver ficha</text></g>
+<path class="g" d="M812,300 L816,309 L820,300"/>
+<g id="cota-rebarba" class="cota"><line class="d" x1="840" y1="345" x2="817" y2="310" marker-end="url(#a)"/><text x="790" y="362">rebarba (altura)</text></g>
 <text class="n" x="20" y="448">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
 </svg>

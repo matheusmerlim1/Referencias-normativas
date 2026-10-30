@@ -45,6 +45,8 @@
 <text class="n" x="625" y="300">O anel centralizador fica por dentro dos</text>
 <text class="n" x="625" y="318">estojos e centra a junta; o anel interno</text>
 <text class="n" x="625" y="336">fica voltado para o furo do flange.</text>
+<line class="e" stroke-dasharray="6 4" x1="652" y1="178" x2="652" y2="250"/>
+<g id="cota-avanco-anel-interno" class="cota"><line class="e" x1="640" y1="227" x2="640" y2="250"/><line class="d" x1="616" y1="244" x2="640" y2="244" marker-end="url(#a)"/><line class="d" x1="676" y1="244" x2="652" y2="244" marker-end="url(#a)"/><line class="d" x1="640" y1="244" x2="652" y2="244"/><text class="n" text-anchor="end" x="612" y="248">avanço do anel interno no furo</text></g>
 <text class="n" x="20" y="505">Esquema ilustrativo, fora de escala (não é desenho da norma) — rótulos = colunas das tabelas de junta espiralada da ficha</text>
 <g id="cota-anel-centralizador-esp" class="cota"><line class="e" x1="870" y1="205" x2="900" y2="205"/><line class="e" x1="870" y1="225" x2="900" y2="225"/><line class="d" x1="895" y1="185" x2="895" y2="205" marker-end="url(#a)"/><line class="d" x1="895" y1="245" x2="895" y2="225" marker-end="url(#a)"/><text class="n" x="625" y="420">espessura do anel centralizador</text><line class="d" x1="830" y1="410" x2="893" y2="250" marker-end="url(#a)"/></g>
 <g id="cota-compressao" class="cota"><line class="d" x1="770" y1="196" x2="770" y2="234" marker-start="url(#a)" marker-end="url(#a)"/><text class="n" x="625" y="390">espessura comprimida da espiral</text><line class="d" x1="780" y1="378" x2="772" y2="238" marker-end="url(#a)"/></g>
