@@ -10,9 +10,10 @@
   {"titulo": "Materiais", "item": "5",
    "texto": "Tubos de aço-carbono (NBR 5580 classe média, NBR 5590 classe normal, API 5L grau A ≥ SCH 40), cobre rígido sem costura, cobre flexível, polietileno (enterrado) e multicamadas; conexões, válvulas, reguladores, medidores e dispositivos de segurança normalizados.",
    "valores": [
-    {"parametro": "Cobre rígido — espessura mínima", "valor": "0,8 mm (NBR 13206)", "item": "5.2 b)"},
+    {"parametro": "Cobre rígido — espessura mínima", "valor": "0,8 mm (NBR 13206)", "item": "5.2 b)", "cota": "esquemas/tubo-costura-dimensoes.svg#e"},
     {"parametro": "Faixa de trabalho dos manômetros", "valor": "20 % a 80 % do fundo de escala", "item": "5.9"}
-   ]},
+   ],
+   "figuras": ["esquemas/tubo-costura-dimensoes.svg"]},
   {"titulo": "Dimensionamento", "item": "6, Anexo B",
    "texto": "Levantamento das potências dos aparelhos (tabela com valores típicos de fogões etc.), fator de simultaneidade, cálculo da vazão e perda de carga por trecho com fórmulas próprias para pressões até 7,5 kPa e acima de 7,5 kPa.",
    "valores": [
@@ -24,12 +25,13 @@
   {"titulo": "Construção e montagem", "item": "7.1–7.4",
    "texto": "Traçado verificado antes da execução; tubulações aparentes, embutidas ou enterradas com afastamentos de instalações elétricas e outras utilidades (eletroduto de proteção nos cruzamentos); juntas roscadas, soldadas (aço, cobre por brasagem/solda capilar, PE por termofusão/eletrofusão) ou por compressão.",
    "valores": [
-    {"parametro": "Afastamento da tubulação enterrada de outras utilidades", "valor": "≥ 0,30 m", "item": "7.3.4"},
-    {"parametro": "Profundidade — sem tráfego / com tráfego de veículos", "valor": "≥ 0,30 m / ≥ 0,50 m acima da geratriz superior", "item": "7.3.4", "nota": "se não der, proteger com laje ou tubo-luva"},
-    {"parametro": "Afastamento de entrada de energia ≥ 15 kV (tubo metálico enterrado)", "valor": "≥ 5 m", "item": "7.3.4"},
-    {"parametro": "Proteção da instalação elétrica no cruzamento", "valor": "eletroduto por 500 mm para cada lado", "item": "7.3.2"},
+    {"parametro": "Afastamento da tubulação enterrada de outras utilidades", "valor": "≥ 0,30 m", "item": "7.3.4", "cota": "esquemas/gas-instalacao-afastamentos.svg#utilidades"},
+    {"parametro": "Profundidade — sem tráfego / com tráfego de veículos", "valor": "≥ 0,30 m / ≥ 0,50 m acima da geratriz superior", "item": "7.3.4", "nota": "se não der, proteger com laje ou tubo-luva", "cota": "esquemas/gas-instalacao-afastamentos.svg#profundidade"},
+    {"parametro": "Afastamento de entrada de energia ≥ 15 kV (tubo metálico enterrado)", "valor": "≥ 5 m", "item": "7.3.4", "cota": "esquemas/gas-instalacao-afastamentos.svg#utilidades"},
+    {"parametro": "Proteção da instalação elétrica no cruzamento", "valor": "eletroduto por 500 mm para cada lado", "item": "7.3.2", "cota": "esquemas/gas-instalacao-afastamentos.svg#cruzamento"},
     {"parametro": "Solda capilar em cobre", "valor": "só até 7,5 kPa; metal de adição com fusão > 200 °C", "item": "7.4.2.2 b)", "nota": "conferir o valor exato do ponto de fusão"}
-   ]},
+   ],
+   "figuras": ["esquemas/gas-instalacao-afastamentos.svg"]},
   {"titulo": "Reguladores e dispositivos de segurança", "item": "7.6–7.7",
    "texto": "Proteção contra sobrepressão escolhida pela pressão de entrada e vazão: alívio pleno, bloqueio por sobrepressão, limitador, regulador ativo + monitor ou duplo diafragma. Bloqueio por subpressão protege contra falta de gás.",
    "valores": [

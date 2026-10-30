@@ -61,8 +61,8 @@
     {"parametro": "Ligação de barra axial — resistência mínima", "valor": "50 % da força axial resistente da barra", "item": "10.1 a)"},
     {"parametro": "Solda de topo — tração/compressão", "valor": "FRd = L·tef·fy / 1,10", "item": "10.2.2 a)"},
     {"parametro": "Solda de topo — cisalhamento", "valor": "menor de L·tef·0,6fw/1,25 e L·tef·0,6fy/1,10", "item": "10.2.2 b)"},
-    {"parametro": "Furo-padrão — d < 12,5 mm / d ≥ 12,5 mm", "valor": "d + 0,8 / d + 1,5 mm", "item": "Tab. 15"},
-    {"parametro": "Furo alargado — d < 12,5 / ≥ 12,5", "valor": "d + 1,5 / d + 5 mm", "item": "Tab. 15"},
+    {"parametro": "Furo-padrão — d < 12,5 mm / d ≥ 12,5 mm", "valor": "d + 0,8 / d + 1,5 mm", "item": "Tab. 15", "cota": "esquemas/estrutura-aco-ligacoes.svg#furo"},
+    {"parametro": "Furo alargado — d < 12,5 / ≥ 12,5", "valor": "d + 1,5 / d + 5 mm", "item": "Tab. 15", "cota": "esquemas/estrutura-aco-ligacoes.svg#furo"},
     {"parametro": "Furo muito alongado", "valor": "(d + folga) × 2,5d", "item": "Tab. 15"},
     {"parametro": "Distância livre entre bordas de furos adjacentes", "valor": "≥ 2d", "item": "10.3.3.1"},
     {"parametro": "Distância livre da borda do furo à extremidade", "valor": "≥ d", "item": "10.3.3.1"},
@@ -70,7 +70,8 @@
     {"parametro": "Rasgamento entre furos ou até a borda", "valor": "FRd = t·e·fu / 1,45", "item": "10.3.4"},
     {"parametro": "Pressão de contato", "valor": "FRd = αe·d·t·fu / 1,55", "item": "10.3.5"},
     {"parametro": "Colapso por rasgamento (bloco)", "valor": "menor de (0,6Agv·fy + Ant·fu)/1,65 e (0,6Anv·fu + Ant·fu)/1,65", "item": "10.4"}
-   ]},
+   ],
+   "figuras": ["esquemas/estrutura-aco-ligacoes.svg"]},
   {"titulo": "Deslocamentos máximos", "item": "Anexo A",
    "texto": "Mesmos limites práticos da NBR 8800 para ELS. A contraflecha pode ser descontada até a flecha das permanentes. Em galpões com alvenaria, limitar a fissura na base da parede.",
    "valores": [

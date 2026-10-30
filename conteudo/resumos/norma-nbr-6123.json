@@ -17,30 +17,33 @@
   {"titulo": "Velocidade básica V0", "item": "5.1",
    "texto": "Rajada de 3 s com recorrência média de 50 anos, a 10 m de altura, em campo aberto e plano. Obtida do mapa de isopletas do Brasil (intervalos de 5 m/s); admite-se que possa vir de qualquer direção.",
    "valores": [
-    {"parametro": "Definição de V0", "valor": "rajada de 3 s, excedida 1 vez em 50 anos, a 10 m, terreno aberto", "item": "5.1"}
-   ]},
+    {"parametro": "Definição de V0", "valor": "rajada de 3 s, excedida 1 vez em 50 anos, a 10 m, terreno aberto", "item": "5.1", "cota": "esquemas/vento-perfil-topografia.svg#altura-ref"}
+   ],
+   "figuras": ["esquemas/vento-perfil-topografia.svg"]},
   {"titulo": "Fator topográfico S1", "item": "5.2",
    "texto": "Considera o relevo. No topo de taludes e morros (ponto B) o fator cresce com a inclinação e diminui com a altura z sobre o terreno; entre pontos, interpolar.",
    "valores": [
     {"parametro": "Terreno plano ou pouco acidentado", "valor": "S1 = 1,0", "item": "5.2 a)"},
     {"parametro": "Talude/morro — ponto B, θ ≤ 3°", "valor": "S1 = 1,0", "item": "5.2 b)"},
-    {"parametro": "Talude/morro — ponto B, 6° ≤ θ ≤ 17°", "valor": "S1(z) = 1,0 + (2,5 − z/d)·tg(θ − 3°) ≥ 1", "item": "5.2 b)"},
+    {"parametro": "Talude/morro — ponto B, 6° ≤ θ ≤ 17°", "valor": "S1(z) = 1,0 + (2,5 − z/d)·tg(θ − 3°) ≥ 1", "item": "5.2 b)", "cota": "esquemas/vento-perfil-topografia.svg#talude"},
     {"parametro": "Talude/morro — ponto B, θ ≥ 45°", "valor": "S1(z) = 1,0 + (2,5 − z/d)·0,31 ≥ 1", "item": "5.2 b)"},
     {"parametro": "Vales profundos protegidos", "valor": "S1 = 0,9", "item": "5.2 c)"}
-   ]},
+   ],
+   "figuras": ["esquemas/vento-perfil-topografia.svg"]},
   {"titulo": "Fator S2 — rugosidade, dimensão e altura", "item": "5.3",
    "texto": "Cinco categorias de terreno (I mar/lagos … V centros de grandes cidades) e três classes de edificação pela maior dimensão da superfície frontal (rajada de 3, 5 ou 10 s). S2 cresce com a altura até zg. Vedações usam S2 do topo, classe A.",
    "valores": [
     {"parametro": "Fórmula", "valor": "S2 = b · Fr · (z/10)^p (Fr sempre o da categoria II)", "item": "5.3.3"},
     {"parametro": "Classe A / B / C", "valor": "maior dimensão ≤ 20 m (e vedações) / 20 a 50 m / > 50 m", "item": "5.3.2"},
-    {"parametro": "Cota média dos obstáculos — cat. II / III / IV / V", "valor": "≤ 1,0 m / 3,0 m / 10 m / ≥ 25 m", "item": "5.3.1"},
-    {"parametro": "zg (cat. I a V)", "valor": "250 / 300 / 350 / 420 / 500 m", "item": "Tab. 1, 5.5.2"},
-    {"parametro": "z0 (cat. I a V)", "valor": "0,005 / 0,07 / 0,30 / 1,0 / 2,5 m", "item": "5.5.2"},
+    {"parametro": "Cota média dos obstáculos — cat. II / III / IV / V", "valor": "≤ 1,0 m / 3,0 m / 10 m / ≥ 25 m", "item": "5.3.1", "cota": "esquemas/vento-perfil-topografia.svg#obstaculos"},
+    {"parametro": "zg (cat. I a V)", "valor": "250 / 300 / 350 / 420 / 500 m", "item": "Tab. 1, 5.5.2", "cota": "esquemas/vento-perfil-topografia.svg#zg"},
+    {"parametro": "z0 (cat. I a V)", "valor": "0,005 / 0,07 / 0,30 / 1,0 / 2,5 m", "item": "5.5.2", "cota": "esquemas/vento-perfil-topografia.svg#z0"},
     {"parametro": "Cat. II — b / Fr / p (classe A)", "valor": "1,00 / 1,00 / 0,085", "item": "Tab. 1"},
     {"parametro": "Fr cat. II — classes A / B / C", "valor": "1,00 / 0,98 / 0,95", "item": "Tab. 1"},
     {"parametro": "S2 a 10 m, classe A — cat. I / II / III / IV / V", "valor": "1,10 / 1,00 / 0,94 / 0,86 / 0,74", "item": "Tab. 2"},
     {"parametro": "S2 até 5 m, classe A — cat. I / II / III / IV / V", "valor": "1,06 / 0,94 / 0,88 / 0,79 / 0,74", "item": "Tab. 2"}
-   ]},
+   ],
+   "figuras": ["esquemas/vento-perfil-topografia.svg"]},
   {"titulo": "Fator estatístico S3", "item": "5.4",
    "texto": "Ajusta a segurança à importância e à vida útil. V0 tem 63 % de chance de ser atingida em 50 anos. O Anexo B dá S3 para outras probabilidades e períodos.",
    "valores": [

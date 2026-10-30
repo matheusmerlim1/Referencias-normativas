@@ -9,36 +9,41 @@
    "texto": "Central em local de fácil acesso (sala de controle, segurança, portaria ou entrada), monitorada local ou remotamente em tempo integral; painéis repetidores e sinópticos onde necessário.",
    "valores": [
     {"parametro": "Monitoração da central", "valor": "24 h", "item": "5.3.1"},
-    {"parametro": "Altura da interface (operação em pé)", "valor": "1,40 m a 1,60 m do piso (recomendado)", "item": "5.3.13", "nota": "para operação sentado: 1,10 a 1,20 m"}
-   ]},
+    {"parametro": "Altura da interface (operação em pé)", "valor": "1,40 m a 1,60 m do piso (recomendado)", "item": "5.3.13", "nota": "para operação sentado: 1,10 a 1,20 m", "cota": "esquemas/alarme-incendio-instalacao.svg#central"}
+   ],
+   "figuras": ["esquemas/alarme-incendio-instalacao.svg"]},
   {"titulo": "Detectores", "item": "5.4",
    "texto": "Cobertura máxima por detector pontual em teto plano (ou vigas até 0,20 m); áreas retangulares devem caber no círculo de cobertura (ex.: corredor 3 × 25 m = 75 m² exige 2 detectores de fumaça); em áreas irregulares, nenhum ponto do teto além do raio de cobertura. Também detectores lineares, de chama, por aspiração e outros.",
    "valores": [
-    {"parametro": "Detector pontual de fumaça — área máxima", "valor": "81 m² (quadrado 9 m; raio 6,30 m), até 8 m de altura e 8 trocas de ar/h", "item": "5.4.1.1"},
-    {"parametro": "Detector pontual de temperatura — área máxima", "valor": "36 m² (quadrado 6 m; raio 4,20 m), até 5 m de altura", "item": "5.4.2.1"},
-    {"parametro": "Distância mínima do detector à parede ou viga", "valor": "0,15 m", "item": "5.4.1.2, 5.4.2.2"}
-   ]},
+    {"parametro": "Detector pontual de fumaça — área máxima", "valor": "81 m² (quadrado 9 m; raio 6,30 m), até 8 m de altura e 8 trocas de ar/h", "item": "5.4.1.1", "cota": "esquemas/alarme-incendio-instalacao.svg#cobertura"},
+    {"parametro": "Detector pontual de temperatura — área máxima", "valor": "36 m² (quadrado 6 m; raio 4,20 m), até 5 m de altura", "item": "5.4.2.1", "cota": "esquemas/alarme-incendio-instalacao.svg#cobertura"},
+    {"parametro": "Distância mínima do detector à parede ou viga", "valor": "0,15 m", "item": "5.4.1.2, 5.4.2.2", "cota": "esquemas/alarme-incendio-instalacao.svg#detector-parede"}
+   ],
+   "figuras": ["esquemas/alarme-incendio-instalacao.svg"]},
   {"titulo": "Acionadores manuais", "item": "5.5",
    "texto": "Pelo menos um por pavimento (mezaninos dispensados se perto), na cor vermelho segurança, embutido ou sobreposto.",
    "valores": [
-    {"parametro": "Altura de instalação", "valor": "0,90 m a 1,35 m do piso", "item": "5.5.2"},
-    {"parametro": "Caminhamento máximo até o acionador", "valor": "30 m", "item": "5.5.3"}
-   ]},
+    {"parametro": "Altura de instalação", "valor": "0,90 m a 1,35 m do piso", "item": "5.5.2", "cota": "esquemas/alarme-incendio-instalacao.svg#acionador"},
+    {"parametro": "Caminhamento máximo até o acionador", "valor": "30 m", "item": "5.5.3", "cota": "esquemas/alarme-incendio-instalacao.svg#caminhamento"}
+   ],
+   "figuras": ["esquemas/alarme-incendio-instalacao.svg"]},
   {"titulo": "Avisadores sonoros e visuais", "item": "5.6, 6.5",
    "texto": "Instalados de preferência na parede; ambientes muito ruidosos exigem avisador visual.",
    "valores": [
-    {"parametro": "Altura dos avisadores", "valor": "2,20 m a 3,50 m", "item": "5.6.3"},
+    {"parametro": "Altura dos avisadores", "valor": "2,20 m a 3,50 m", "item": "5.6.3", "cota": "esquemas/alarme-incendio-instalacao.svg#avisador"},
     {"parametro": "Ambiente com ruído > 105 dBA", "valor": "avisador visual além do sonoro", "item": "5.6.4"},
     {"parametro": "Nível sonoro do avisador (a 3 m)", "valor": "15 dBA acima da média ou 5 dBA acima do máximo do ambiente", "item": "6.5.7"},
     {"parametro": "Ensaio de visibilidade", "valor": "visível a 15 m de frente, na pior condição de luz", "item": "8.1.6.3"}
-   ]},
+   ],
+   "figuras": ["esquemas/alarme-incendio-instalacao.svg"]},
   {"titulo": "Combate automático, alimentação e circuitos", "item": "5.7, 6",
    "texto": "Interligação com sistemas automáticos de extinção (ventilar o ambiente após a descarga). Central com fonte de emergência; circuitos supervisionados classe A ou B; infraestrutura e fiação dedicadas.",
    "valores": [
     {"parametro": "Autonomia da bateria em supervisão", "valor": "≥ 24 h, e depois 5 min de alarme geral", "item": "6.1"},
     {"parametro": "Fonte principal — alarme com tudo acionado", "valor": "≥ 15 min sem a bateria", "item": "6.1"},
-    {"parametro": "Separação de circuitos classe A (recomendada)", "valor": "0,30 m na vertical e 1,20 m na horizontal", "item": "6.7.11"}
-   ]},
+    {"parametro": "Separação de circuitos classe A (recomendada)", "valor": "0,30 m na vertical e 1,20 m na horizontal", "item": "6.7.11", "cota": "esquemas/alarme-incendio-instalacao.svg#separacao"}
+   ],
+   "figuras": ["esquemas/alarme-incendio-instalacao.svg"]},
   {"titulo": "Comissionamento, manutenção e treinamento", "item": "7–9",
    "texto": "Comissionamento com ensaios de todos os dispositivos e entrega com documentação 'como construído'; manutenção preventiva e corretiva por profissional qualificado; treinamento dos usuários com diagrama de instalação e manual de operação.",
    "valores": []}

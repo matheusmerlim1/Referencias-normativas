@@ -30,12 +30,13 @@
   {"titulo": "Critérios de rejeição (Anexo C)", "item": "Anexo C",
    "texto": "Defeitos avaliados por profundidade e extensão em relação à espessura e ao diâmetro; dúvida resolvida por ultrassom, gamagrafia, LP etc.",
    "valores": [
-    {"parametro": "Mossa", "valor": "profundidade > 2 mm ou diâmetro < 30 × profundidade", "item": "Anexo C", "nota": "tabela de OCR — conferir"},
+    {"parametro": "Mossa", "valor": "profundidade > 2 mm ou diâmetro < 30 × profundidade", "item": "Anexo C", "nota": "tabela de OCR — conferir", "cota": "esquemas/tubo-costura-dimensoes.svg#amassamento"},
     {"parametro": "Corte/goivagem", "valor": "profundidade > 5 % da espessura da parede", "item": "Anexo C", "nota": "conferir"},
     {"parametro": "Corrosão generalizada ou localizada", "valor": "profundidade > 20 % da espessura original", "item": "Anexo C"},
     {"parametro": "Ponto de corrosão isolado de Ø > 5 mm", "valor": "profundidade > 40 % da espessura original", "item": "Anexo C"},
     {"parametro": "Corrosão em linha", "valor": "comprimento total maior que a circunferência do cilindro", "item": "Anexo C", "nota": "conferir"}
-   ]},
+   ],
+   "figuras": ["esquemas/tubo-costura-dimensoes.svg"]},
   {"titulo": "Ensaio hidrostático e relatório", "item": "5.7–5.8",
    "texto": "Pressão de ensaio = a marcada no cilindro ou na norma de fabricação. Cilindros que podem operar com sobrepressão de 10 % têm a expansão elástica registrada; se passar do limite do fabricante, perdem esse direito. Relatório (Anexo D) assinado, com 'aprovado' ou 'condenado' e o motivo da condenação.",
    "valores": [

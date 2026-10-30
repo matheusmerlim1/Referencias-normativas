@@ -42,8 +42,9 @@
    "texto": "Comportamento elastofrágil na tração e cisalhamento; compressão normal às fibras com fator de extensão da carga (αn). Verificações de tração, compressão, flexão, flexão oblíqua e composta, cisalhamento, estabilidade (instabilidade de peças comprimidas, estabilidade lateral, contraventamento) e peças compostas (inclusive lamelada colada).",
    "valores": [
     {"parametro": "Tração paralela (uso da Tab. 2)", "valor": "ft0,d = fc0,d", "item": "6.2.2"},
-    {"parametro": "Distribuição de carga em área reduzida", "valor": "a 45° até o eixo do elemento", "item": "6.1"}
-   ]},
+    {"parametro": "Distribuição de carga em área reduzida", "valor": "a 45° até o eixo do elemento", "item": "6.1", "cota": "esquemas/madeira-secao-minima.svg#45"}
+   ],
+   "figuras": ["esquemas/madeira-secao-minima.svg"]},
   {"titulo": "Ligações", "item": "7",
    "texto": "Ligações com pregos, parafusos, pinos e anéis metálicos e chapas de dentes estampados: modos de falha (Tab. 18–19), espaçamentos mínimos (Tab. 14–15), pré-furação (Tab. 16) e rigidez Kser (Tab. 17).",
    "valores": [
@@ -63,14 +64,15 @@
   {"titulo": "Disposições construtivas", "item": "9",
    "texto": "Seções mínimas, esbeltez máxima, cuidados nas ligações e na execução; peças sujeitas a deterioração devem ser substituíveis.",
    "valores": [
-    {"parametro": "Peça principal isolada — área / espessura mínimas", "valor": "50 cm² / 5 cm", "item": "9.2.1"},
-    {"parametro": "Peça secundária isolada — área / espessura", "valor": "18 cm² / 2,5 cm", "item": "9.2.1"},
-    {"parametro": "Peça principal múltipla (cada elemento) — área / espessura", "valor": "35 cm² / 2,5 cm", "item": "9.2.1"},
-    {"parametro": "Peça secundária múltipla — área / espessura", "valor": "18 cm² / 1,8 cm", "item": "9.2.1"},
+    {"parametro": "Peça principal isolada — área / espessura mínimas", "valor": "50 cm² / 5 cm", "item": "9.2.1", "cota": "esquemas/madeira-secao-minima.svg#secao"},
+    {"parametro": "Peça secundária isolada — área / espessura", "valor": "18 cm² / 2,5 cm", "item": "9.2.1", "cota": "esquemas/madeira-secao-minima.svg#secao"},
+    {"parametro": "Peça principal múltipla (cada elemento) — área / espessura", "valor": "35 cm² / 2,5 cm", "item": "9.2.1", "cota": "esquemas/madeira-secao-minima.svg#secao"},
+    {"parametro": "Peça secundária múltipla — área / espessura", "valor": "18 cm² / 1,8 cm", "item": "9.2.1", "cota": "esquemas/madeira-secao-minima.svg#secao"},
     {"parametro": "Esbeltez máxima — comprimidas / tracionadas", "valor": "L0 ≤ 40 / 50 × a dimensão transversal", "item": "9.3"},
-    {"parametro": "Camada de desgaste em ponte sem revestimento", "valor": "≥ 2 cm", "item": "9.1"},
+    {"parametro": "Camada de desgaste em ponte sem revestimento", "valor": "≥ 2 cm", "item": "9.1", "cota": "esquemas/madeira-secao-minima.svg#desgaste"},
     {"parametro": "Diâmetro equivalente de peça roliça", "valor": "deq = dmín + (dmáx − dmín)/3, com deq ≤ 1,5 dmín", "item": "9.7"}
-   ]},
+   ],
+   "figuras": ["esquemas/madeira-secao-minima.svg"]},
   {"titulo": "Treliças, incêndio e durabilidade", "item": "10–12",
    "texto": "Seção 10 trata de treliças com chapas de dentes estampados. Seção 11: dimensionamento em incêndio pela seção residual (taxas de carbonização, kfi). Seção 12: seis categorias de uso para escolher o tratamento preservativo.",
    "valores": [

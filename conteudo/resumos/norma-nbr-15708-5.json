@@ -23,17 +23,19 @@
   {"titulo": "Corpos de prova", "item": "6.3–6.5",
    "texto": "Corpos de prova cortados do próprio perfil; se as paredes não permitirem, de uma placa de ensaio fabricada nas mesmas condições da pultrusão. Corte por fresa CNC, serra com metal duro/diamante ou estampagem com sobra. O módulo efetivo vem do ensaio do perfil completo (Anexo B).",
    "valores": [
-    {"parametro": "Distância mínima do corpo de prova à borda ou mudança de seção", "valor": "10 mm", "item": "6.4.2"},
-    {"parametro": "Sobra mínima no corte por estampagem", "valor": "5 mm acima da largura", "item": "6.4.2.3"}
-   ]},
+    {"parametro": "Distância mínima do corpo de prova à borda ou mudança de seção", "valor": "10 mm", "item": "6.4.2", "cota": "esquemas/prfv-perfil-pultrudado-cp-mantas.svg#borda"},
+    {"parametro": "Sobra mínima no corte por estampagem", "valor": "5 mm acima da largura", "item": "6.4.2.3", "cota": "esquemas/prfv-perfil-pultrudado-cp-mantas.svg#sobra"}
+   ],
+   "figuras": ["esquemas/prfv-perfil-pultrudado-cp-mantas.svg"]},
   {"titulo": "Fabricação — reforço e emendas", "item": "Anexo A",
    "texto": "Limites de sobreposição de mantas e de emendas de mantas e rovings, sem reduzir as propriedades da classe.",
    "valores": [
-    {"parametro": "Sobreposição longitudinal mínima de mantas", "valor": "5 mm", "item": "A.1"},
-    {"parametro": "Sobreposição transversal mínima (emendas)", "valor": "50 mm", "item": "A.1"},
+    {"parametro": "Sobreposição longitudinal mínima de mantas", "valor": "5 mm", "item": "A.1", "cota": "esquemas/prfv-perfil-pultrudado-cp-mantas.svg#sobreposicao-long"},
+    {"parametro": "Sobreposição transversal mínima (emendas)", "valor": "50 mm", "item": "A.1", "cota": "esquemas/prfv-perfil-pultrudado-cp-mantas.svg#sobreposicao-transv"},
     {"parametro": "Emendas de manta por metro — máximo", "valor": "menor de: 1 por mm de espessura, 20 % do nº de mantas, 5 emendas", "item": "A.1.2"},
     {"parametro": "Pontas de roving emendadas por metro", "valor": "≤ 20 %", "item": "A.2"}
-   ]},
+   ],
+   "figuras": ["esquemas/prfv-perfil-pultrudado-cp-mantas.svg"]},
   {"titulo": "Métodos de ensaio", "item": "Anexos B–E",
    "texto": "B: módulo de flexão efetivo do perfil (perfis simétricos de parede fina; vão escolhido para limitar o erro do cisalhamento). C: rasgamento por pino. D: lista de ensaios das outras propriedades. E: carga estática na seção plena, Método A (viga biapoiada, flecha no meio do vão) e Método B (balanço a partir do fixador).",
    "valores": []}

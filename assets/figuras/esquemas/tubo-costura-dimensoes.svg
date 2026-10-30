@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 640" width="1250" height="640" role="img" aria-label="Tubo — comprimento, Ø externo, espessura, retilinidade, rebarba, amassamento, esquadro e torção">
+<title>Tubo — comprimento, Ø externo, espessura, retilinidade, rebarba, amassamento, esquadro e torção (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Tubo — comprimento, Ø externo, espessura, retilinidade, rebarba, amassamento, esquadro e torção</text>
+<rect class="s" x="80" y="120" width="700" height="70"/>
+<path class="w" d="M600,120 Q630,138 660,120"/>
+<g id="cota-L" class="cota"><line class="e" x1="80" y1="118" x2="80" y2="76"/><line class="e" x1="780" y1="118" x2="780" y2="76"/><line class="d" x1="80" y1="82" x2="780" y2="82" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="430" y="75">comprimento</text></g>
+<g id="cota-D" class="cota"><line class="e" x1="782" y1="120" x2="816" y2="120"/><line class="e" x1="782" y1="190" x2="816" y2="190"/><line class="d" x1="810" y1="120" x2="810" y2="190" marker-start="url(#a)" marker-end="url(#a)"/><text x="820" y="160">Ø externo D</text></g>
+<g id="cota-amassamento" class="cota"><line class="d" x1="630" y1="94" x2="630" y2="120" marker-end="url(#a)"/><line class="d" x1="630" y1="155" x2="630" y2="129" marker-end="url(#a)"/><line class="d" x1="630" y1="120" x2="630" y2="129"/><text x="670" y="112">amassamento (profundidade)</text></g>
+<path class="g" d="M80,300 Q430,340 780,300"/>
+<path class="g" d="M80,350 Q430,390 780,350"/>
+<line class="h" x1="70" y1="300" x2="790" y2="300"/>
+<text class="n" x="800" y="305">régua</text>
+<g id="cota-retilinidade" class="cota"><line class="d" x1="430" y1="274" x2="430" y2="300" marker-end="url(#a)"/><line class="d" x1="430" y1="346" x2="430" y2="320" marker-end="url(#a)"/><line class="d" x1="430" y1="300" x2="430" y2="320"/><text x="445" y="290">retilinidade (flecha por metro)</text></g>
+<text class="n b" x="60" y="388">seção circular</text>
+<circle class="s" cx="160" cy="490" r="60"/>
+<circle class="w" cx="160" cy="490" r="48"/>
+<path class="r" d="M150,442 Q160,456 170,442"/>
+<g id="cota-rebarba" class="cota"><line class="d" x1="120" y1="422" x2="160" y2="449" marker-end="url(#a)"/><text x="40" y="418">rebarba interna da solda (altura)</text></g>
+<g id="cota-e" class="cota"><line class="d" x1="182" y1="490" x2="208" y2="490" marker-end="url(#a)"/><line class="d" x1="246" y1="490" x2="220" y2="490" marker-end="url(#a)"/><line class="d" x1="208" y1="490" x2="220" y2="490"/><text x="252" y="478">espessura e</text></g>
+<text class="n b" x="540" y="400">seção quadrada / retangular</text>
+<rect class="s" x="540" y="430" width="130" height="110" rx="14"/>
+<rect class="w" x="552" y="442" width="106" height="86" rx="4"/>
+<g id="cota-raio-canto" class="cota"><line class="d" x1="470" y1="420" x2="545" y2="435" marker-end="url(#a)"/><text x="330" y="425">raio externo do canto</text></g>
+<g id="cota-esquadro" class="cota"><path class="d" d="M574.0,540.0 A34,34 0 0,0 540.0,506.0" marker-start="url(#a)" marker-end="url(#a)"/><text x="540" y="575">esquadro dos lados</text></g>
+<text class="n b" x="820" y="405">torção (vista de topo)</text>
+<rect class="h" x="825" y="430" width="110" height="110"/>
+<rect class="g" x="825" y="430" width="110" height="110" transform="rotate(-6 880 485)"/>
+<g id="cota-torcao" class="cota"><line class="e" x1="941" y1="534" x2="971" y2="534"/><line class="e" x1="937" y1="540" x2="971" y2="540"/><line class="d" x1="965" y1="508" x2="965" y2="534" marker-end="url(#a)"/><line class="d" x1="965" y1="566" x2="965" y2="540" marker-end="url(#a)"/><line class="d" x1="965" y1="534" x2="965" y2="540"/><text class="m" x="860" y="595">torção (desvio do canto por metro)</text></g>
+<text class="n" x="20" y="628">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

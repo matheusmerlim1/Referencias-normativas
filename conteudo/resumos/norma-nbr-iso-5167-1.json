@@ -28,12 +28,14 @@
     {
      "parametro": "Diâmetro do orifício",
      "valor": "d ≥ 12,5 mm",
-     "item": "8.1.7.1"
+     "item": "8.1.7.1",
+     "cota": "esquemas/orificio-placa-tomadas.svg#d"
     },
     {
      "parametro": "Espessura da placa E",
      "valor": "entre e e 0,05D",
-     "item": "8.1.4.3"
+     "item": "8.1.4.3",
+     "cota": "esquemas/orificio-placa-tomadas.svg#E"
     },
     {
      "parametro": "Variação de e no furo",
@@ -53,13 +55,18 @@
     {
      "parametro": "Tomada de flange",
      "valor": "25,4 mm (± 0,5 mm se β > 0,6 e D < 150 mm)",
-     "item": "8.2.1.3"
+     "item": "8.2.1.3",
+     "cota": "esquemas/orificio-placa-tomadas.svg#tomada-flange"
     },
     {
      "parametro": "Diâmetro da tomada (fluidos limpos)",
      "valor": "< 0,13D e < 13 mm",
-     "item": "8.2.1.7"
+     "item": "8.2.1.7",
+     "cota": "esquemas/orificio-placa-tomadas.svg#tomada-diametro"
     }
+   ],
+   "figuras": [
+    "esquemas/orificio-placa-tomadas.svg"
    ]
   },
   {

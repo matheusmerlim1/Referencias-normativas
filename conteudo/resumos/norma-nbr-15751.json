@@ -8,11 +8,12 @@
   {"titulo": "Geometria inicial e resistência", "item": "4–5",
    "texto": "A malha cobre no mínimo o pátio da SE, com condutor periférico em volta das edificações. A resistência é estimada antes da geometria final pela área (círculo equivalente) e pelo comprimento de condutor; as fórmulas são conservativas com hastes.",
    "valores": [
-    {"parametro": "Profundidade mínima da malha", "valor": "0,5 m (0,25 m sob piso concretado ou rocha rasa)", "item": "4"},
+    {"parametro": "Profundidade mínima da malha", "valor": "0,5 m (0,25 m sob piso concretado ou rocha rasa)", "item": "4", "cota": "esquemas/spda-captacao-descidas.svg#anel"},
     {"parametro": "Resistência pela área", "valor": "R = ρa / (4r) (r = raio do círculo de mesma área)", "item": "5.1, Eq. 1"},
     {"parametro": "Resistência — malha até 0,25 m", "valor": "R = ρa/(4r) + ρa/Lt", "item": "5.1, Eq. 2"},
     {"parametro": "Resistência — malha entre 0,25 e 2,5 m (Sverak)", "valor": "R = ρa·[1/Lt + 1/√(20A)·(1 + 1/(1 + H·√(20/A)))]", "item": "5.1, Eq. 3", "nota": "reconstruída do texto extraído — conferir"}
-   ]},
+   ],
+   "figuras": ["esquemas/spda-captacao-descidas.svg"]},
   {"titulo": "Condutor da malha", "item": "6",
    "texto": "Seção pelo maior entre o mínimo mecânico e o térmico (equação de Onderdonk: corrente de falta, duração, temperatura-limite da conexão e ambiente).",
    "valores": [

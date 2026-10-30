@@ -13,10 +13,13 @@
    "item": "21.6–21.14",
    "texto": "Moradia dada ao empregado e à família deve ser sanitariamente adequada; moradia coletiva de famílias é proibida. A casa é dimensionada pelo número de moradores, tem ventilação e luz natural, paredes caiadas e piso impermeável, fica em local arejado e longe de criação de animais, tem portas e janelas que fecham, poço protegido, cobertura impermeável e incombustível e pelo menos dormitório, cozinha e sanitário. Fossas negras ficam longe do poço e da casa, a jusante do poço e fora de área de enchente.",
    "valores": [
-    {"parametro": "Afastamento da casa a depósitos de feno/esterco, currais, estábulos, pocilgas e viveiros", "valor": "≥ 50 m", "item": "21.8"},
-    {"parametro": "Fossa negra — distância ao poço", "valor": "≥ 15 m", "item": "21.13"},
-    {"parametro": "Fossa negra — distância à casa", "valor": "≥ 10 m", "item": "21.13"},
+    {"parametro": "Afastamento da casa a depósitos de feno/esterco, currais, estábulos, pocilgas e viveiros", "valor": "≥ 50 m", "item": "21.8", "cota": "esquemas/resumo-nr-21-moradia.svg#casa-curral"},
+    {"parametro": "Fossa negra — distância ao poço", "valor": "≥ 15 m", "item": "21.13", "cota": "esquemas/resumo-nr-21-moradia.svg#fossa-poco"},
+    {"parametro": "Fossa negra — distância à casa", "valor": "≥ 10 m", "item": "21.13", "cota": "esquemas/resumo-nr-21-moradia.svg#fossa-casa"},
     {"parametro": "Compartimentos mínimos da moradia", "valor": "1 dormitório, 1 cozinha e 1 sanitário", "item": "21.12"}
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-21-moradia.svg"
    ]
   }
  ]

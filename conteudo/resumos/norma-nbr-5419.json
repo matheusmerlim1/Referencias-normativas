@@ -8,26 +8,29 @@
   {"titulo": "Captação", "item": "5.1.1",
    "texto": "Volume protegido definido por ângulo de proteção (Franklin), esfera rolante (eletrogeométrico) e/ou malha (gaiola de Faraday). Em topos com altura > 10 m recomenda-se anel captor no perímetro.",
    "valores": [
-    {"parametro": "Raio da esfera rolante — nível I / II / III / IV", "valor": "20 / 30 / 45 / 60 m", "item": "Tab. 1"},
-    {"parametro": "Largura máxima da malha — I / II / III / IV", "valor": "5 / 10 / 10 / 20 m", "item": "Tab. 1"},
-    {"parametro": "Ângulo Franklin, h ≤ 20 m — I / II / III / IV", "valor": "25° / 35° / 45° / 55°", "item": "Tab. 1"},
-    {"parametro": "Ângulo Franklin, h 21–30 m — II / III / IV", "valor": "25° / 35° / 45°", "item": "Tab. 1", "nota": "nível I só eletrogeométrico ou malha"},
-    {"parametro": "Ângulo Franklin, h 31–45 m — III / IV; h 46–60 m — IV", "valor": "25° / 35°; 25°", "item": "Tab. 1", "nota": "acima de 60 m só esfera rolante/malha"},
+    {"parametro": "Raio da esfera rolante — nível I / II / III / IV", "valor": "20 / 30 / 45 / 60 m", "item": "Tab. 1", "cota": "esquemas/spda-captacao-descidas.svg#raio-esfera"},
+    {"parametro": "Largura máxima da malha — I / II / III / IV", "valor": "5 / 10 / 10 / 20 m", "item": "Tab. 1", "cota": "esquemas/spda-captacao-descidas.svg#malha"},
+    {"parametro": "Ângulo Franklin, h ≤ 20 m — I / II / III / IV", "valor": "25° / 35° / 45° / 55°", "item": "Tab. 1", "cota": "esquemas/spda-captacao-descidas.svg#angulo-protecao"},
+    {"parametro": "Ângulo Franklin, h 21–30 m — II / III / IV", "valor": "25° / 35° / 45°", "item": "Tab. 1", "nota": "nível I só eletrogeométrico ou malha", "cota": "esquemas/spda-captacao-descidas.svg#angulo-protecao"},
+    {"parametro": "Ângulo Franklin, h 31–45 m — III / IV; h 46–60 m — IV", "valor": "25° / 35°; 25°", "item": "Tab. 1", "nota": "acima de 60 m só esfera rolante/malha", "cota": "esquemas/spda-captacao-descidas.svg#angulo-protecao"},
     {"parametro": "Espessura mínima de cobertura metálica usada como captor", "valor": "0,5 mm (ou Tab. 4 para evitar perfuração)", "item": "5.1.1.4.2 a)"}
-   ]},
+   ],
+   "figuras": ["esquemas/spda-captacao-descidas.svg"]},
   {"titulo": "Descidas", "item": "5.1.2",
    "texto": "Descidas espaçadas regularmente no perímetro, de preferência uma em cada canto; em estruturas com largura > 40 m, descidas internas. Anéis horizontais interligando as descidas.",
    "valores": [
-    {"parametro": "Espaçamento médio das descidas — I / II / III / IV", "valor": "10 / 15 / 20 / 25 m", "item": "Tab. 2"},
-    {"parametro": "Distância de descidas a portas e janelas", "valor": "≥ 0,5 m, fixadas a cada metro", "item": "5.1.2.3.3"},
-    {"parametro": "Equipotencialização de massas internas", "valor": "junto ao solo e a cada ≤ 20 m de altura", "item": "5.1.2.5.7"}
-   ]},
+    {"parametro": "Espaçamento médio das descidas — I / II / III / IV", "valor": "10 / 15 / 20 / 25 m", "item": "Tab. 2", "cota": "esquemas/spda-captacao-descidas.svg#descidas"},
+    {"parametro": "Distância de descidas a portas e janelas", "valor": "≥ 0,5 m, fixadas a cada metro", "item": "5.1.2.3.3", "cota": "esquemas/spda-captacao-descidas.svg#janela"},
+    {"parametro": "Equipotencialização de massas internas", "valor": "junto ao solo e a cada ≤ 20 m de altura", "item": "5.1.2.5.7", "cota": "esquemas/spda-captacao-descidas.svg#equipotencializacao"}
+   ],
+   "figuras": ["esquemas/spda-captacao-descidas.svg"]},
   {"titulo": "Aterramento", "item": "5.1.3",
    "texto": "O arranjo e as dimensões do eletrodo importam mais que o valor da resistência. Preferir fundações ou anel. Profundidade e tipo escolhidos contra corrosão e ressecamento.",
    "valores": [
     {"parametro": "Resistência < 10 Ω", "valor": "dispensa os comprimentos mínimos da Fig. 2 em solos ≤ 30 Ω·m", "item": "5.1.3"},
-    {"parametro": "Profundidade de anel/radiais", "valor": "≥ 0,5 m", "item": "5.1.3.5.2"}
-   ]},
+    {"parametro": "Profundidade de anel/radiais", "valor": "≥ 0,5 m", "item": "5.1.3.5.2", "cota": "esquemas/spda-captacao-descidas.svg#anel"}
+   ],
+   "figuras": ["esquemas/spda-captacao-descidas.svg"]},
   {"titulo": "Materiais", "item": "5.1.5, Tab. 3–5",
    "texto": "Seções e espessuras mínimas por material e função; condições de aplicação de cada material.",
    "valores": [
@@ -46,9 +49,10 @@
   {"titulo": "Estruturas especiais e seleção do nível", "item": "Anexos A–C",
    "texto": "A: chaminés, tanques, estruturas com explosivos etc. B: risco de exposição, frequência admissível e tabela de nível por tipo de estrutura. C: método da esfera rolante.",
    "valores": [
-    {"parametro": "Chaminé — altura dos captores acima do topo", "valor": "0,5 a 0,8 m; Ø ≥ 15 mm; espaçamento ≤ 2,5 m", "item": "A.1.2.1"},
+    {"parametro": "Chaminé — altura dos captores acima do topo", "valor": "0,5 a 0,8 m; Ø ≥ 15 mm; espaçamento ≤ 2,5 m", "item": "A.1.2.1", "cota": "esquemas/spda-captacao-descidas.svg#chamine"},
     {"parametro": "Nível típico — residências / fazendas", "valor": "III / III ou IV", "item": "Tab. B.6"},
     {"parametro": "Nível típico — teatros, escolas, lojas, bancos", "valor": "II", "item": "Tab. B.6"}
-   ]}
+   ],
+   "figuras": ["esquemas/spda-captacao-descidas.svg"]}
  ]
 }

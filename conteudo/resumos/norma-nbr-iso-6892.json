@@ -11,16 +11,18 @@
    "texto": "Lo: comprimento de medida inicial; Lu: final após ruptura; Lc: comprimento paralelo; Le: base do extensômetro. A: alongamento após ruptura (Lu − Lo em % de Lo); Agt/Ag: alongamento sob força máxima; Z: redução de área (So − Su)/So. Rm: tensão na força máxima; ReH e ReL: escoamento superior (primeira queda de força) e inferior (menor tensão durante o escoamento, sem o transitório); Rp: tensão para alongamento não proporcional especificado (ex. Rp0,2); Rt: para alongamento total especificado; Rr: para alongamento permanente após descarga.",
    "valores": [
     {"parametro": "Corpo de prova proporcional", "valor": "Lo = 5,65·√So (A sem sufixo)", "item": "4.4.2, 6.1"},
-    {"parametro": "Outra proporção ou não proporcional", "valor": "sufixo no símbolo: A11,3 (Lo = 11,3√So); A80mm (Lo = 80 mm)", "item": "4.4.2"},
+    {"parametro": "Outra proporção ou não proporcional", "valor": "sufixo no símbolo: A11,3 (Lo = 11,3√So); A80mm (Lo = 80 mm)", "item": "4.4.2", "cota": "esquemas/ensaio-tracao-corpo-prova.svg#Lo"},
     {"parametro": "Base do extensômetro recomendada", "valor": "Le > Lo/2 para escoamento; Le ≈ Lo para medições na/após força máxima", "item": "4.5"}
-   ]},
+   ],
+   "figuras": ["esquemas/ensaio-tracao-corpo-prova.svg"]},
   {"titulo": "Corpos de prova", "item": "6–8",
    "texto": "Forma e dimensões conforme o produto (Anexos A a D: chapas finas, fios/barras/perfis finos, chapas grossas e barras, tubos). Lo é marcado com traços leves que não iniciem ruptura.",
    "valores": [
-    {"parametro": "Lo mínimo", "valor": "20 mm (se menor, usar 11,3√So ou corpo não proporcional)", "item": "6.1"},
-    {"parametro": "Arredondamento de Lo proporcional", "valor": "múltiplo de 5 mm mais próximo, se a diferença < 10 % de Lo", "item": "8"},
-    {"parametro": "Barra usinada típica (Tab. C.1)", "valor": "d = 10 mm, Lo = 50 mm, So = 78,5 mm²", "item": "Anexo C", "nota": "leitura do texto OCR da tabela — conferir"}
-   ]},
+    {"parametro": "Lo mínimo", "valor": "20 mm (se menor, usar 11,3√So ou corpo não proporcional)", "item": "6.1", "cota": "esquemas/ensaio-tracao-corpo-prova.svg#Lo"},
+    {"parametro": "Arredondamento de Lo proporcional", "valor": "múltiplo de 5 mm mais próximo, se a diferença < 10 % de Lo", "item": "8", "cota": "esquemas/ensaio-tracao-corpo-prova.svg#Lo"},
+    {"parametro": "Barra usinada típica (Tab. C.1)", "valor": "d = 10 mm, Lo = 50 mm, So = 78,5 mm²", "item": "Anexo C", "nota": "leitura do texto OCR da tabela — conferir", "cota": "esquemas/ensaio-tracao-corpo-prova.svg#d"}
+   ],
+   "figuras": ["esquemas/ensaio-tracao-corpo-prova.svg"]},
   {"titulo": "Instrumentos", "item": "9",
    "texto": "Máquina calibrada pela ISO 7500-1, classe 1 ou melhor. Extensômetro classe 1 (ISO 9513) para escoamento e alongamentos pequenos; classe 2 permitida para grandes alongamentos.",
    "valores": []},

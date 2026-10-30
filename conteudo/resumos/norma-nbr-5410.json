@@ -21,9 +21,10 @@
   {"titulo": "Passagens de operação e manutenção", "item": "5.1, Tab. 28",
    "texto": "Locais de serviço elétrico com partes vivas sem proteção exigem passagens mínimas.",
    "valores": [
-    {"parametro": "Partes vivas de um lado — largura / frente a manípulos", "valor": "1 000 mm / 700 mm", "item": "Tab. 28"},
-    {"parametro": "Partes vivas dos dois lados — manutenção c/ barreiras / s/ barreiras", "valor": "1 000 / 1 500 mm", "item": "Tab. 28", "nota": "operação e manutenção: 1 200 / 1 500 mm — conferir pareamento"}
-   ]},
+    {"parametro": "Partes vivas de um lado — largura / frente a manípulos", "valor": "1 000 mm / 700 mm", "item": "Tab. 28", "cota": "esquemas/eletrica-passagens-tomadas.svg#um-lado"},
+    {"parametro": "Partes vivas dos dois lados — manutenção c/ barreiras / s/ barreiras", "valor": "1 000 / 1 500 mm", "item": "Tab. 28", "nota": "operação e manutenção: 1 200 / 1 500 mm — conferir pareamento", "cota": "esquemas/eletrica-passagens-tomadas.svg#dois-lados"}
+   ],
+   "figuras": ["esquemas/eletrica-passagens-tomadas.svg"]},
   {"titulo": "Efeitos térmicos, sobrecorrentes e sobretensões", "item": "5.2–5.5",
    "texto": "Prevenção de incêndio e queimaduras; proteção contra sobrecarga e curto-circuito com coordenação condutor–dispositivo; seccionamento; proteção contra sobretensões (DPS) e contra quedas e faltas de tensão.",
    "valores": []},
@@ -57,12 +58,13 @@
    "valores": [
     {"parametro": "Iluminação — cômodo ≤ 6 m²", "valor": "≥ 100 VA", "item": "9.5.2.1"},
     {"parametro": "Iluminação — cômodo > 6 m²", "valor": "100 VA nos primeiros 6 m² + 60 VA a cada 4 m² inteiros", "item": "9.5.2.1"},
-    {"parametro": "Tomadas — cozinha, área de serviço, lavanderia", "valor": "1 a cada 3,5 m de perímetro", "item": "9.5.2.2.1 b)"},
-    {"parametro": "Tomadas — salas e dormitórios / demais > 6 m²", "valor": "1 a cada 5 m de perímetro", "item": "9.5.2.2.1 d), e)"},
-    {"parametro": "Tomadas — cômodo ≤ 6 m²", "valor": "≥ 1 (≤ 2,25 m²: pode ficar até 0,80 m da porta)", "item": "9.5.2.2.1 e)"},
+    {"parametro": "Tomadas — cozinha, área de serviço, lavanderia", "valor": "1 a cada 3,5 m de perímetro", "item": "9.5.2.2.1 b)", "cota": "esquemas/eletrica-passagens-tomadas.svg#tomadas"},
+    {"parametro": "Tomadas — salas e dormitórios / demais > 6 m²", "valor": "1 a cada 5 m de perímetro", "item": "9.5.2.2.1 d), e)", "cota": "esquemas/eletrica-passagens-tomadas.svg#tomadas"},
+    {"parametro": "Tomadas — cômodo ≤ 6 m²", "valor": "≥ 1 (≤ 2,25 m²: pode ficar até 0,80 m da porta)", "item": "9.5.2.2.1 e)", "cota": "esquemas/eletrica-passagens-tomadas.svg#porta"},
     {"parametro": "Potência de tomada — áreas molhadas", "valor": "600 VA nas 3 primeiras, 100 VA nas demais", "item": "9.5.2.2.2 a)"},
     {"parametro": "Potência de tomada — demais cômodos", "valor": "≥ 100 VA", "item": "9.5.2.2.2 b)"},
     {"parametro": "Circuito independente", "valor": "equipamento com corrente nominal > 10 A", "item": "9.5.3.1"}
-   ]}
+   ],
+   "figuras": ["esquemas/eletrica-passagens-tomadas.svg"]}
  ]
 }

@@ -32,7 +32,8 @@
    "valores": [
     {"parametro": "Critério de aceitação", "valor": "EP% ≤ 10 %", "item": "6.1.1"},
     {"parametro": "Rejeição por expansão elástica", "valor": "EE ≥ valor indicado pelo fabricante", "item": "6.1.2"},
-    {"parametro": "Altura mínima das marcas estampadas", "valor": "6 mm", "item": "6.2.2"}
-   ]}
+    {"parametro": "Altura mínima das marcas estampadas", "valor": "6 mm", "item": "6.2.2", "cota": "esquemas/desenho-tecnico-escrita.svg#h"}
+   ],
+   "figuras": ["esquemas/desenho-tecnico-escrita.svg"]}
  ]
 }

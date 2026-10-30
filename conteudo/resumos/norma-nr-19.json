@@ -25,8 +25,11 @@
    "texto": "Depósitos de explosivos são incombustíveis, em terreno firme, seco e livre de enchente, ventilados e sinalizados por fora, com ocupação e empilhamento limitados. Não se guardam juntos iniciadores e explosivos, pólvoras e outros explosivos, ou fogos com pólvoras e explosivos; nem explosivos em casas, estábulos, silos, galpões, oficinas ou lojas.",
    "valores": [
     {"parametro": "Ocupação máxima da área do depósito", "valor": "60 %", "item": "19.3.1 c)"},
-    {"parametro": "Altura máxima de empilhamento", "valor": "2 m", "item": "19.3.1 c)"},
-    {"parametro": "Folga entre o topo da pilha e o teto", "valor": "1 m", "item": "19.3.1 c)", "nota": "O texto diz \"e uma entre o teto e o topo\"; lido como 1 metro."}
+    {"parametro": "Altura máxima de empilhamento", "valor": "2 m", "item": "19.3.1 c)", "cota": "esquemas/resumo-nr-19-explosivos.svg#altura-pilha"},
+    {"parametro": "Folga entre o topo da pilha e o teto", "valor": "1 m", "item": "19.3.1 c)", "nota": "O texto diz \"e uma entre o teto e o topo\"; lido como 1 metro.", "cota": "esquemas/resumo-nr-19-explosivos.svg#folga-teto"}
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-19-explosivos.svg"
    ]
   },
   {
@@ -40,11 +43,14 @@
    "item": "Anexo I, 1–4",
    "texto": "Vale para fábricas e comércio de fogos e artefatos pirotécnicos, incluindo produção de pólvora negra e alumínio pirotécnico. Instalações seguem a NR-08 e o R-105. Cercas aterradas, sinalizadas e separando administração, depósitos e fabricação. Pavilhões com conforto térmico e iluminação, placa com atividade, nº máximo de pessoas, encarregado e carga máxima de explosivo; pisos lisos, laváveis e antiestáticos, cantos arredondados, bancadas antiestáticas com bordas, mínimo de prateleiras. Instalação elétrica independente e à prova de explosão; máquinas aterradas. Projetos aprovados pelo Exército são comunicados ao MTE antes da obra.",
    "valores": [
-    {"parametro": "Placas de advertência na cerca", "valor": "a cada ≤ 100 m", "item": "Anexo I, 4.2 b)"},
-    {"parametro": "Largura das vias internas de transporte", "valor": "≥ 1,20 m", "item": "Anexo I, 4.3 a)"},
-    {"parametro": "Faixa sem vegetação rasteira em volta de depósitos e pavilhões", "valor": "≥ 20 m", "item": "Anexo I, 4.4"},
-    {"parametro": "Pavilhão de pólvora branca — lâmina d'água sobre o piso", "valor": "0,10 m", "item": "Anexo I, 4.7.1 d)"},
-    {"parametro": "Pavilhão de pólvora branca — cocho de alvenaria na entrada", "valor": "1 m de largura, com lâmina d'água de 0,10 m", "item": "Anexo I, 4.7.1 e)"}
+    {"parametro": "Placas de advertência na cerca", "valor": "a cada ≤ 100 m", "item": "Anexo I, 4.2 b)", "cota": "esquemas/resumo-nr-19-explosivos.svg#placas"},
+    {"parametro": "Largura das vias internas de transporte", "valor": "≥ 1,20 m", "item": "Anexo I, 4.3 a)", "cota": "esquemas/resumo-nr-19-explosivos.svg#via-interna"},
+    {"parametro": "Faixa sem vegetação rasteira em volta de depósitos e pavilhões", "valor": "≥ 20 m", "item": "Anexo I, 4.4", "cota": "esquemas/resumo-nr-19-explosivos.svg#faixa-vegetacao"},
+    {"parametro": "Pavilhão de pólvora branca — lâmina d'água sobre o piso", "valor": "0,10 m", "item": "Anexo I, 4.7.1 d)", "cota": "esquemas/resumo-nr-19-explosivos.svg#lamina"},
+    {"parametro": "Pavilhão de pólvora branca — cocho de alvenaria na entrada", "valor": "1 m de largura, com lâmina d'água de 0,10 m", "item": "Anexo I, 4.7.1 e)", "cota": "esquemas/resumo-nr-19-explosivos.svg#cocho"}
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-19-explosivos.svg"
    ]
   },
   {
@@ -73,8 +79,11 @@
    "item": "Anexo I, 11–13",
    "texto": "Portaria permanente com vigia treinado, que barra pessoas, veículos e materiais fora das regras; itinerário de veículos definido, escapamento com corta-chamas e não voltado para pavilhões, carga e descarga com motor desligado. Coleta seletiva de resíduos, guarda segura longe dos pavilhões e destruição conforme R-105 sob o responsável técnico. Sanitários por sexo (NR-24) distribuídos pela fábrica; vestiários com chuveiro e armário para entrar na área só de uniforme; vestiário próprio para quem lida com alumínio em pó e pólvora negra. Água potável em recipiente não metálico (bebedouro fora do pavilhão, à sombra), sem copo metálico ou coletivo. Refeitório fora da produção; proibido comer nos pavilhões.",
    "valores": [
-    {"parametro": "Distância máxima do posto de trabalho ao sanitário", "valor": "120 m", "item": "Anexo I, 13.1"},
-    {"parametro": "Vestiário de quem manuseia alumínio em pó e pólvora negra — distância ao pavilhão", "valor": "≤ 50 m", "item": "Anexo I, 13.2.1"}
+    {"parametro": "Distância máxima do posto de trabalho ao sanitário", "valor": "120 m", "item": "Anexo I, 13.1", "cota": "esquemas/resumo-nr-19-explosivos.svg#sanitario"},
+    {"parametro": "Vestiário de quem manuseia alumínio em pó e pólvora negra — distância ao pavilhão", "valor": "≤ 50 m", "item": "Anexo I, 13.2.1", "cota": "esquemas/resumo-nr-19-explosivos.svg#vestiario"}
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-19-explosivos.svg"
    ]
   },
   {

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 560" width="1250" height="560" role="img" aria-label="Plataforma elevatória móvel de trabalho (PEMT) — cesto, guarda-corpo e acesso">
+<title>Plataforma elevatória móvel de trabalho (PEMT) — cesto, guarda-corpo e acesso (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Plataforma elevatória móvel de trabalho (PEMT) — cesto, guarda-corpo e acesso</text>
+<text class="n b" x="60" y="95">planta do cesto</text>
+<rect class="sl" x="60" y="110" width="170" height="110"/>
+<g id="cota-lado" class="cota"><line class="e" x1="60" y1="220" x2="60" y2="246"/><line class="e" x1="230" y1="220" x2="230" y2="246"/><line class="d" x1="60" y1="240" x2="230" y2="240" marker-start="url(#a)" marker-end="url(#a)"/><text x="60" y="262">lado do cesto</text></g>
+<text class="n b" x="450" y="75">elevação (posição recolhida)</text>
+<line class="g" x1="300" y1="500" x2="1060" y2="500"/>
+<rect x="300" y="500" width="760" height="10" fill="url(#hach)" stroke="none"/>
+<rect class="s" x="470" y="440" width="300" height="40"/>
+<circle class="w" cx="510" cy="488" r="12"/>
+<circle class="w" cx="730" cy="488" r="12"/>
+<rect class="s" x="600" y="338" width="40" height="102"/>
+<rect class="s" x="440" y="330" width="360" height="8"/>
+<line class="g" x1="440" y1="200" x2="440" y2="330"/>
+<line class="g" x1="520" y1="200" x2="520" y2="330"/>
+<line class="g" x1="800" y1="200" x2="800" y2="330"/>
+<line class="g" x1="520" y1="200" x2="800" y2="200"/>
+<line class="g" x1="520" y1="265" x2="800" y2="265"/>
+<rect class="sl" x="520" y="312" width="280" height="18"/>
+<line class="g" x1="400" y1="500" x2="400" y2="330"/>
+<line class="g" x1="430" y1="500" x2="430" y2="330"/>
+<line class="g" x1="400" y1="458" x2="430" y2="458"/>
+<line class="g" x1="400" y1="416" x2="430" y2="416"/>
+<line class="g" x1="400" y1="374" x2="430" y2="374"/>
+<circle class="w" cx="740" cy="140" r="14"/>
+<line class="g" x1="740" y1="154" x2="740" y2="250"/>
+<line class="g" x1="740" y1="250" x2="725" y2="330"/>
+<line class="g" x1="740" y1="250" x2="755" y2="330"/>
+<line class="g" x1="740" y1="180" x2="712" y2="215"/>
+<line class="g" x1="740" y1="180" x2="768" y2="215"/>
+<g id="cota-abertura" class="cota"><line class="d" x1="440" y1="290" x2="520" y2="290" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="480" y="283">abertura</text></g>
+<g id="cota-altura-forca" class="cota"><line class="d" x1="650" y1="150" x2="650" y2="198" marker-end="url(#a)"/><text class="b" x="658" y="165">F</text><line class="d" x1="650" y1="200" x2="650" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text x="450" y="175">altura da força manual</text></g>
+<g id="cota-centro-vento" class="cota"><circle cx="740" cy="166" r="4" fill="#666"/><line class="e" x1="744" y1="166" x2="791" y2="166"/><line class="d" x1="785" y1="166" x2="785" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text x="600" y="100">centro da área exposta (vento)</text></g>
+<g id="cota-gc-altura" class="cota"><line class="e" x1="800" y1="200" x2="856" y2="200"/><line class="e" x1="800" y1="330" x2="856" y2="330"/><line class="d" x1="850" y1="200" x2="850" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text x="860" y="250">altura do guarda-corpo</text></g>
+<g id="cota-rodape" class="cota"><line class="e" x1="800" y1="312" x2="946" y2="312"/><line class="e" x1="800" y1="330" x2="946" y2="330"/><line class="d" x1="940" y1="286" x2="940" y2="312" marker-end="url(#a)"/><line class="d" x1="940" y1="356" x2="940" y2="330" marker-end="url(#a)"/><line class="d" x1="940" y1="312" x2="940" y2="330"/><text x="950" y="326">rodapé</text></g>
+<g id="cota-acesso" class="cota"><line class="e" x1="400" y1="330" x2="334" y2="330"/><line class="d" x1="340" y1="500" x2="340" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="330" y="420">desnível piso–acesso</text><line class="e" x1="430" y1="416" x2="461" y2="416"/><line class="e" x1="430" y1="458" x2="461" y2="458"/><line class="d" x1="455" y1="390" x2="455" y2="416" marker-end="url(#a)"/><line class="d" x1="455" y1="484" x2="455" y2="458" marker-end="url(#a)"/><line class="d" x1="455" y1="416" x2="455" y2="458"/><text x="463" y="400">degraus</text></g>
+<text class="n" x="20" y="548">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

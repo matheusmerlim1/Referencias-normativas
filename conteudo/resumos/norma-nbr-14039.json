@@ -29,9 +29,10 @@
    "texto": "Abrigadas (no nível do solo, acima ou subterrâneas) ou ao tempo, de construção definitiva e incombustível, com esquema geral disponível, placas em português, corredores de manobra amplos, aberturas de ventilação protegidas contra chuva e corpos estranhos, cabos subterrâneos em eletroduto metálico pesado no trecho exposto, anteparos nas partes vivas. Subterrâneas totalmente impermeáveis. Ao tempo: cerca/tela contra aproximação de pessoas e placas 'Perigo de morte'.",
    "valores": [
     {"parametro": "Líquido isolante inflamável — volume que exige medidas especiais", "valor": "> 100 L", "item": "9.1.12"},
-    {"parametro": "Tela de proteção externa (subestação ao tempo)", "valor": "malha ≤ 50 mm, aço zincado", "item": "9.3.2.2"},
-    {"parametro": "Folga da proteção ao solo", "valor": "≤ 10 cm", "item": "9.3.2.4"},
-    {"parametro": "Afastamento das partes vivas (equipamento em local acessível)", "valor": "≥ 40 cm", "item": "9.1.4 a)", "nota": "contexto do item ilegível — conferir"}
-   ]}
+    {"parametro": "Tela de proteção externa (subestação ao tempo)", "valor": "malha ≤ 50 mm, aço zincado", "item": "9.3.2.2", "cota": "esquemas/subestacao-protecao.svg#malha"},
+    {"parametro": "Folga da proteção ao solo", "valor": "≤ 10 cm", "item": "9.3.2.4", "cota": "esquemas/subestacao-protecao.svg#folga-solo"},
+    {"parametro": "Afastamento das partes vivas (equipamento em local acessível)", "valor": "≥ 40 cm", "item": "9.1.4 a)", "nota": "contexto do item ilegível — conferir", "cota": "esquemas/subestacao-protecao.svg#afastamento"}
+   ],
+   "figuras": ["esquemas/subestacao-protecao.svg"]}
  ]
 }

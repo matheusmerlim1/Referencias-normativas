@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 480" width="1350" height="480" role="img" aria-label="Desenho técnico — hachuras, larguras de linha e seções enegrecidas">
+<title>Desenho técnico — hachuras, larguras de linha e seções enegrecidas (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Desenho técnico — hachuras, larguras de linha e seções enegrecidas</text>
+<text class="n b" x="60" y="75">hachura de corte</text>
+<rect class="g" x="80" y="110" width="300" height="200"/>
+<clipPath id="ch"><rect x="80" y="110" width="300" height="200"/></clipPath>
+<g clip-path="url(#ch)"><line x1="-160" y1="310" x2="40" y2="110" stroke="#666" stroke-width="1.2"/><line x1="-136" y1="310" x2="64" y2="110" stroke="#666" stroke-width="1.2"/><line x1="-112" y1="310" x2="88" y2="110" stroke="#666" stroke-width="1.2"/><line x1="-88" y1="310" x2="112" y2="110" stroke="#666" stroke-width="1.2"/><line x1="-64" y1="310" x2="136" y2="110" stroke="#666" stroke-width="1.2"/><line x1="-40" y1="310" x2="160" y2="110" stroke="#666" stroke-width="1.2"/><line x1="-16" y1="310" x2="184" y2="110" stroke="#666" stroke-width="1.2"/><line x1="8" y1="310" x2="208" y2="110" stroke="#666" stroke-width="1.2"/><line x1="32" y1="310" x2="232" y2="110" stroke="#666" stroke-width="1.2"/><line x1="56" y1="310" x2="256" y2="110" stroke="#666" stroke-width="1.2"/><line x1="80" y1="310" x2="280" y2="110" stroke="#666" stroke-width="1.2"/><line x1="104" y1="310" x2="304" y2="110" stroke="#666" stroke-width="1.2"/><line x1="128" y1="310" x2="328" y2="110" stroke="#666" stroke-width="1.2"/><line x1="152" y1="310" x2="352" y2="110" stroke="#666" stroke-width="1.2"/><line x1="176" y1="310" x2="376" y2="110" stroke="#666" stroke-width="1.2"/><line x1="200" y1="310" x2="400" y2="110" stroke="#666" stroke-width="1.2"/><line x1="224" y1="310" x2="424" y2="110" stroke="#666" stroke-width="1.2"/><line x1="248" y1="310" x2="448" y2="110" stroke="#666" stroke-width="1.2"/><line x1="272" y1="310" x2="472" y2="110" stroke="#666" stroke-width="1.2"/><line x1="296" y1="310" x2="496" y2="110" stroke="#666" stroke-width="1.2"/><line x1="320" y1="310" x2="520" y2="110" stroke="#666" stroke-width="1.2"/><line x1="344" y1="310" x2="544" y2="110" stroke="#666" stroke-width="1.2"/><line x1="368" y1="310" x2="568" y2="110" stroke="#666" stroke-width="1.2"/><line x1="392" y1="310" x2="592" y2="110" stroke="#666" stroke-width="1.2"/><line x1="416" y1="310" x2="616" y2="110" stroke="#666" stroke-width="1.2"/><line x1="440" y1="310" x2="640" y2="110" stroke="#666" stroke-width="1.2"/><line x1="464" y1="310" x2="664" y2="110" stroke="#666" stroke-width="1.2"/><line x1="488" y1="310" x2="688" y2="110" stroke="#666" stroke-width="1.2"/><line x1="512" y1="310" x2="712" y2="110" stroke="#666" stroke-width="1.2"/><line x1="536" y1="310" x2="736" y2="110" stroke="#666" stroke-width="1.2"/><line x1="560" y1="310" x2="760" y2="110" stroke="#666" stroke-width="1.2"/><line x1="584" y1="310" x2="784" y2="110" stroke="#666" stroke-width="1.2"/><line x1="608" y1="310" x2="808" y2="110" stroke="#666" stroke-width="1.2"/><line x1="632" y1="310" x2="832" y2="110" stroke="#666" stroke-width="1.2"/><line x1="656" y1="310" x2="856" y2="110" stroke="#666" stroke-width="1.2"/><line x1="680" y1="310" x2="880" y2="110" stroke="#666" stroke-width="1.2"/></g>
+<g id="cota-angulo" class="cota"><path class="d" d="M140.0,310.0 A60,60 0 0,0 122.4,267.6" marker-start="url(#a)" marker-end="url(#a)"/><text x="150" y="345">ângulo da hachura</text></g>
+<g id="cota-espacamento" class="cota"><line class="d" x1="271" y1="189" x2="296" y2="214" marker-end="url(#a)"/><line class="d" x1="333" y1="251" x2="308" y2="226" marker-end="url(#a)"/><line class="e" x1="395" y1="282" x2="340" y2="256"/><text x="400" y="290">espaçamento entre linhas paralelas</text></g>
+<text class="n b" x="560" y="75">seções finas enegrecidas</text>
+<rect class="wd" x="580" y="140" width="260" height="14"/>
+<rect class="wd" x="580" y="162" width="260" height="14"/>
+<g id="cota-folga" class="cota"><line class="e" x1="842" y1="154" x2="876" y2="154"/><line class="e" x1="842" y1="162" x2="876" y2="162"/><line class="d" x1="870" y1="128" x2="870" y2="154" marker-end="url(#a)"/><line class="d" x1="870" y1="188" x2="870" y2="162" marker-end="url(#a)"/><line class="d" x1="870" y1="154" x2="870" y2="162"/><text x="880" y="166">folga entre seções adjacentes</text></g>
+<text class="n b" x="560" y="260">larguras de linha (série)</text>
+<line x1="580" y1="290" x2="800" y2="290" stroke="#444" stroke-width="1"/>
+<line x1="580" y1="312" x2="800" y2="312" stroke="#444" stroke-width="1.5"/>
+<line x1="580" y1="334" x2="800" y2="334" stroke="#444" stroke-width="2"/>
+<line x1="580" y1="356" x2="800" y2="356" stroke="#444" stroke-width="3"/>
+<line x1="580" y1="378" x2="800" y2="378" stroke="#444" stroke-width="4"/>
+<line x1="580" y1="400" x2="800" y2="400" stroke="#444" stroke-width="6"/>
+<g id="cota-largura" class="cota"><line class="e" x1="802" y1="397" x2="836" y2="397"/><line class="e" x1="802" y1="403" x2="836" y2="403"/><line class="d" x1="830" y1="371" x2="830" y2="397" marker-end="url(#a)"/><line class="d" x1="830" y1="429" x2="830" y2="403" marker-end="url(#a)"/><line class="d" x1="830" y1="397" x2="830" y2="403"/><text x="850" y="405">largura da linha</text></g>
+<text class="n" x="20" y="468">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

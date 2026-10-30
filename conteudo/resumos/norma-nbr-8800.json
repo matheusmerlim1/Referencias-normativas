@@ -231,28 +231,36 @@
      "parametro": "Perna mínima do filete — metal-base ≤ 6,35 mm",
      "valor": "3 mm",
      "item": "Tab. 10",
-     "nota": "filete executado em um passe"
+     "nota": "filete executado em um passe",
+     "cota": "esquemas/estrutura-aco-ligacoes.svg#perna"
     },
     {
      "parametro": "Perna mínima — > 6,35 até 12,5 mm",
      "valor": "5 mm",
-     "item": "Tab. 10"
+     "item": "Tab. 10",
+     "cota": "esquemas/estrutura-aco-ligacoes.svg#perna"
     },
     {
      "parametro": "Perna mínima — > 12,5 até 19 mm",
      "valor": "6 mm",
-     "item": "Tab. 10"
+     "item": "Tab. 10",
+     "cota": "esquemas/estrutura-aco-ligacoes.svg#perna"
     },
     {
      "parametro": "Perna mínima — > 19 mm",
      "valor": "8 mm",
-     "item": "Tab. 10"
+     "item": "Tab. 10",
+     "cota": "esquemas/estrutura-aco-ligacoes.svg#perna"
     },
     {
      "parametro": "Perna máxima ao longo de borda com t < 6,35 mm",
      "valor": "≤ espessura do material",
-     "item": "6.2.6.2.2 a)"
+     "item": "6.2.6.2.2 a)",
+     "cota": "esquemas/estrutura-aco-ligacoes.svg#perna"
     }
+   ],
+   "figuras": [
+    "esquemas/estrutura-aco-ligacoes.svg"
    ]
   },
   {
@@ -264,34 +272,43 @@
      "parametro": "Furo-padrão (db ≤ 24 mm)",
      "valor": "db + 1,5 mm",
      "item": "Tab. 12",
-     "nota": "texto da tabela sai embaralhado na extração — conferir os demais tipos de furo"
+     "nota": "texto da tabela sai embaralhado na extração — conferir os demais tipos de furo",
+     "cota": "esquemas/estrutura-aco-ligacoes.svg#furo"
     },
     {
      "parametro": "Espaçamento mínimo entre centros de furos",
      "valor": "2,7 db (preferível 3 db); distância livre entre furos ≥ db",
-     "item": "6.3.9"
+     "item": "6.3.9",
+     "cota": "esquemas/estrutura-aco-ligacoes.svg#espacamento"
     },
     {
      "parametro": "Espaçamento máximo — elementos pintados ou sem corrosão",
      "valor": "24 t (parte menos espessa) e ≤ 300 mm",
-     "item": "6.3.10 a)"
+     "item": "6.3.10 a)",
+     "cota": "esquemas/estrutura-aco-ligacoes.svg#espacamento"
     },
     {
      "parametro": "Espaçamento máximo — aço patinável sem pintura",
      "valor": "14 t e ≤ 180 mm",
-     "item": "6.3.10 b)"
+     "item": "6.3.10 b)",
+     "cota": "esquemas/estrutura-aco-ligacoes.svg#espacamento"
     },
     {
      "parametro": "Distância mínima furo-padrão à borda",
      "valor": "Tabela 14 por diâmetro (db de 1/2 a 1 1/4 pol e 16 a 36 mm); acima de 36 mm: 1,75 db (borda cortada com serra/tesoura) e 1,25 db (borda laminada ou a maçarico)",
      "item": "6.3.11.1, Tab. 14",
-     "nota": "valores por diâmetro não legíveis no texto extraído — conferir; borda laminada pode ser reduzida de 3 mm se a força ≤ 25 % da resistente"
+     "nota": "valores por diâmetro não legíveis no texto extraído — conferir; borda laminada pode ser reduzida de 3 mm se a força ≤ 25 % da resistente",
+     "cota": "esquemas/estrutura-aco-ligacoes.svg#borda-min"
     },
     {
      "parametro": "Distância máxima parafuso-borda",
      "valor": "12 t e ≤ 150 mm",
-     "item": "6.3.12"
+     "item": "6.3.12",
+     "cota": "esquemas/estrutura-aco-ligacoes.svg#borda-max"
     }
+   ],
+   "figuras": [
+    "esquemas/estrutura-aco-ligacoes.svg"
    ]
   },
   {
@@ -367,17 +384,20 @@
     {
      "parametro": "Pilar junto a poço de elevador (20 primeiros andares)",
      "valor": "≤ 25 mm",
-     "item": "12.3.3.1.1 a)"
+     "item": "12.3.3.1.1 a)",
+     "cota": "esquemas/estrutura-aco-montagem-pilares.svg#desvio-pilar"
     },
     {
      "parametro": "Pilar de fachada (20 primeiros andares)",
      "valor": "≤ 25 mm para fora e ≤ 50 mm para dentro; paralelo à fachada ≤ 50 mm",
-     "item": "12.3.3.1.1 b), d)"
+     "item": "12.3.3.1.1 b), d)",
+     "cota": "esquemas/estrutura-aco-montagem-pilares.svg#fachada"
     },
     {
      "parametro": "Elevação de barra ligada a pilar (vs. emenda usinada acima)",
      "valor": "+5 mm / −8 mm",
-     "item": "12.3.3.1.2 b)"
+     "item": "12.3.3.1.2 b)",
+     "cota": "esquemas/estrutura-aco-montagem-pilares.svg#elevacao-barra"
     },
     {
      "parametro": "Barra em balanço — variação angular da linha de trabalho",
@@ -387,8 +407,12 @@
     {
      "parametro": "Peças ajustáveis — posição em altura",
      "valor": "10 mm",
-     "item": "12.3.3.1.3 a)"
+     "item": "12.3.3.1.3 a)",
+     "cota": "esquemas/estrutura-aco-montagem-pilares.svg#ajustavel"
     }
+   ],
+   "figuras": [
+    "esquemas/estrutura-aco-montagem-pilares.svg"
    ]
   },
   {

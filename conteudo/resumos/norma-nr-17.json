@@ -65,13 +65,17 @@
     {
      "parametro": "Alcance horizontal máximo da pega (levantamento não eventual)",
      "valor": "≤ 60 cm do corpo",
-     "item": "17.5.2.1"
+     "item": "17.5.2.1",
+     "cota": "esquemas/resumo-nr-17-checkout-pega.svg#alcance-pega"
     },
     {
      "parametro": "Intervalo máximo entre alternância/pausas no transporte manual",
      "valor": "períodos ≤ 2 h",
      "item": "17.5.4 e)"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-17-checkout-pega.svg"
    ]
   },
   {
@@ -127,8 +131,12 @@
     {
      "parametro": "Comprimento de checkout que exige esteira eletromecânica",
      "valor": "≥ 2,70 m",
-     "item": "Anexo I, 3.1 g)"
+     "item": "Anexo I, 3.1 g)",
+     "cota": "esquemas/resumo-nr-17-checkout-pega.svg#comprimento-checkout"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-17-checkout-pega.svg"
    ]
   },
   {
@@ -144,18 +152,23 @@
     {
      "parametro": "Descontinuidade entre balança e superfície do checkout",
      "valor": "≤ 2 cm de cada lado",
-     "item": "Anexo I, 4.4 c)"
+     "item": "Anexo I, 4.4 c)",
+     "cota": "esquemas/resumo-nr-17-checkout-pega.svg#descontinuidade"
     },
     {
      "parametro": "Distância do teclado à borda interna do checkout",
      "valor": "≤ 45 cm",
-     "item": "Anexo I, 4.4 d)"
+     "item": "Anexo I, 4.4 d)",
+     "cota": "esquemas/resumo-nr-17-checkout-pega.svg#teclado-borda"
     },
     {
      "parametro": "Código de mercadoria pesada",
      "valor": "≤ 8 dígitos",
      "item": "Anexo I, 4.4 e)"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-17-checkout-pega.svg"
    ]
   },
   {
@@ -183,37 +196,44 @@
     {
      "parametro": "Superfície única teclado+monitor — regulagem vertical própria do monitor",
      "valor": "≥ 26 cm",
-     "item": "Anexo II, 3.1 c)"
+     "item": "Anexo II, 3.1 c)",
+     "cota": "esquemas/resumo-nr-17-teleatendimento.svg#regulagem-monitor"
     },
     {
      "parametro": "Bancada sem material de consulta — profundidade × largura",
      "valor": "≥ 75 cm × 90 cm",
-     "item": "Anexo II, 3.1 d)"
+     "item": "Anexo II, 3.1 d)",
+     "cota": "esquemas/resumo-nr-17-teleatendimento.svg#profundidade-bancada"
     },
     {
      "parametro": "Bancada com material de consulta — profundidade × largura",
      "valor": "≥ 90 cm × 100 cm",
-     "item": "Anexo II, 3.1 e)"
+     "item": "Anexo II, 3.1 e)",
+     "cota": "esquemas/resumo-nr-17-teleatendimento.svg#profundidade-bancada"
     },
     {
      "parametro": "Zona de alcance manual (raio centrado no ombro)",
      "valor": "≤ 65 cm de cada lado",
-     "item": "Anexo II, 3.1 d) e e)"
+     "item": "Anexo II, 3.1 d) e e)",
+     "cota": "esquemas/resumo-nr-17-teleatendimento.svg#alcance"
     },
     {
      "parametro": "Faixa de regulagem da altura da superfície de trabalho",
      "valor": "≥ 13 cm",
-     "item": "Anexo II, 3.1 g)"
+     "item": "Anexo II, 3.1 g)",
+     "cota": "esquemas/resumo-nr-17-teleatendimento.svg#regulagem-superficie"
     },
     {
      "parametro": "Espaço livre sob a bancada — nível dos joelhos",
      "valor": "≥ 45 cm de profundidade",
-     "item": "Anexo II, 3.1 i)"
+     "item": "Anexo II, 3.1 i)",
+     "cota": "esquemas/resumo-nr-17-teleatendimento.svg#joelhos"
     },
     {
      "parametro": "Espaço livre sob a bancada — nível dos pés",
      "valor": "≥ 70 cm de profundidade",
-     "item": "Anexo II, 3.1 i)"
+     "item": "Anexo II, 3.1 i)",
+     "cota": "esquemas/resumo-nr-17-teleatendimento.svg#pes"
     },
     {
      "parametro": "Base do assento",
@@ -228,28 +248,36 @@
     {
      "parametro": "Altura do assento em relação ao piso",
      "valor": "ajustável de 37 cm a 50 cm (até 3 modelos de cadeira)",
-     "item": "Anexo II, 3.1 k) IV"
+     "item": "Anexo II, 3.1 k) IV",
+     "cota": "esquemas/resumo-nr-17-teleatendimento.svg#altura-assento"
     },
     {
      "parametro": "Profundidade útil do assento",
      "valor": "38 cm a 46 cm",
-     "item": "Anexo II, 3.1 k) V"
+     "item": "Anexo II, 3.1 k) V",
+     "cota": "esquemas/resumo-nr-17-teleatendimento.svg#profundidade-assento"
     },
     {
      "parametro": "Largura do assento",
      "valor": "≥ 40 cm",
-     "item": "Anexo II, 3.1 k) IX"
+     "item": "Anexo II, 3.1 k) IX",
+     "cota": "esquemas/resumo-nr-17-teleatendimento.svg#largura-assento"
     },
     {
      "parametro": "Largura do encosto",
      "valor": "≥ 30,5 cm",
-     "item": "Anexo II, 3.1 k) IX"
+     "item": "Anexo II, 3.1 k) IX",
+     "cota": "esquemas/resumo-nr-17-teleatendimento.svg#largura-encosto"
     },
     {
      "parametro": "Apoio de braço — altura sobre o assento",
      "valor": "regulável de 20 cm a 25 cm",
-     "item": "Anexo II, 3.1 k) X"
+     "item": "Anexo II, 3.1 k) X",
+     "cota": "esquemas/resumo-nr-17-teleatendimento.svg#apoio-braco"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-17-teleatendimento.svg"
    ]
   },
   {

@@ -8,9 +8,10 @@
   {"titulo": "Antes do içamento", "item": "5.1",
    "texto": "Conferir carga desobstruída, sem partes soltas e com massa conhecida; usar cabo-guia ou vara de manobra; evitar acelerações bruscas; prender a linga só nos pontos projetados para içamento; considerar a componente horizontal das lingas inclinadas. Lingas com trançado manual não servem para cargas que possam girar.",
    "valores": [
-    {"parametro": "Ângulo de cada perna com a vertical (multiplas pernas)", "valor": "entre 15° e 60°; acima de 60° não usar", "item": "5.1.8", "nota": "abaixo de 15° há risco de desequilíbrio"},
+    {"parametro": "Ângulo de cada perna com a vertical (multiplas pernas)", "valor": "entre 15° e 60°; acima de 60° não usar", "item": "5.1.8", "nota": "abaixo de 15° há risco de desequilíbrio", "cota": "esquemas/lingadas-acessorios-angulo-perna-carga.svg#beta"},
     {"parametro": "Ângulos das pernas", "valor": "recomendado todos iguais", "item": "5.1.9"}
-   ]},
+   ],
+   "figuras": ["esquemas/lingadas-acessorios-angulo-perna-carga.svg"]},
   {"titulo": "Fixação da linga", "item": "5.2",
    "texto": "Terminais livres e alinhados com a força, bem assentados; proteger cantos vivos; laço sem fim com a emenda fora do contato com a carga e o gancho (região marcada em amarelo); na forca, deixar a perna tomar o ângulo natural (≈ 45° ou mais) sem forçar o olhal para baixo; usar sapatilho no olhal; ponta dos ganchos para fora. Forca não serve para girar ou arrastar carga sem cuidados especiais.",
    "valores": [
@@ -38,12 +39,13 @@
     {"parametro": "Arames rompidos distribuídos", "valor": "6 em 6d ou 14 em 30d", "item": "6.4.2.2 a)"},
     {"parametro": "Arames rompidos localizados", "valor": "3 ou mais adjacentes; na presilha, limites da Tab. 3", "item": "6.4.2.3"},
     {"parametro": "Redução do diâmetro nominal", "valor": "7,5 %", "item": "6.4.3"},
-    {"parametro": "Gancho — torção / abertura da garganta", "valor": "> 10° / > 15 % da abertura original", "item": "6.4.7 a)"},
+    {"parametro": "Gancho — torção / abertura da garganta", "valor": "> 10° / > 15 % da abertura original", "item": "6.4.7 a)", "cota": "esquemas/lingadas-acessorios-gancho-angulos-remocao.svg#abertura-garganta"},
     {"parametro": "Gancho — desgaste da seção ou do olhal", "valor": "> 10 %", "item": "6.4.7 a)"},
     {"parametro": "Anel de carga — desgaste", "valor": "> 10 % (ou qualquer deformação/trinca)", "item": "6.4.7 b)"},
     {"parametro": "Sapatilho — desgaste da coroa / abertura", "valor": "> 10 % / menor que o diâmetro do cabo", "item": "6.4.7 c)"},
     {"parametro": "Manilha — corrosão, desgaste ou mossa no pino/corpo", "valor": "> 10 % do diâmetro nominal", "item": "6.4.7"}
-   ]},
+   ],
+   "figuras": ["esquemas/lingadas-acessorios-gancho-angulos-remocao.svg"]},
   {"titulo": "Massa da carga", "item": "Anexo B",
    "texto": "Massa = volume × densidade, decompondo a peça em sólidos simples; em peças complexas, pesar com dinamômetro.",
    "valores": [

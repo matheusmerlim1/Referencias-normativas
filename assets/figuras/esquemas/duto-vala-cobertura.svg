@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 690" width="1250" height="690" role="img" aria-label="Duto enterrado — berço, cobertura, rocha, apoios, curvas e raio de curvamento">
+<title>Duto enterrado — berço, cobertura, rocha, apoios, curvas e raio de curvamento (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Duto enterrado — berço, cobertura, rocha, apoios, curvas e raio de curvamento</text>
+<text class="n b" x="40" y="80">corte da vala</text>
+<line class="g" x1="40" y1="150" x2="200" y2="150"/>
+<rect x="40" y="150" width="160" height="10" fill="url(#hach)" stroke="none"/>
+<line class="g" x1="480" y1="150" x2="640" y2="150"/>
+<rect x="480" y="150" width="160" height="10" fill="url(#hach)" stroke="none"/>
+<path class="g" d="M200,150 L220,420 L460,420 L480,150"/>
+<rect class="sl" x="220" y="390" width="240" height="30"/>
+<circle class="s" cx="340" cy="360" r="30"/>
+<line class="h" x1="210" y1="290" x2="470" y2="290"/>
+<rect x="180" y="420" width="320" height="40" fill="url(#hach)" stroke="none" opacity=".6"/>
+<text class="n" x="510" y="450">rocha</text>
+<g id="cota-berco" class="cota"><line class="e" x1="462" y1="390" x2="506" y2="390"/><line class="e" x1="462" y1="420" x2="506" y2="420"/><line class="d" x1="500" y1="390" x2="500" y2="420" marker-start="url(#a)" marker-end="url(#a)"/><text x="510" y="410">berço de material fino</text></g>
+<g id="cota-cobertura" class="cota"><line class="e" x1="472" y1="290" x2="506" y2="290"/><line class="e" x1="342" y1="330" x2="506" y2="330"/><line class="d" x1="500" y1="290" x2="500" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text x="510" y="316">1ª camada acima da geratriz superior</text></g>
+<g id="cota-rocha" class="cota"><line class="e" x1="110" y1="476" x2="186" y2="410"/><line class="e" x1="312" y1="390" x2="184" y2="390"/><line class="d" x1="190" y1="390" x2="190" y2="420" marker-start="url(#a)" marker-end="url(#a)"/><text x="40" y="490">abaixo do duto, em rocha</text></g>
+<text class="n b" x="40" y="540">apoios provisórios (vista lateral)</text>
+<rect class="s" x="60" y="560" width="500" height="26"/>
+<rect class="sl" x="90" y="586" width="40" height="20"/>
+<rect class="sl" x="260" y="586" width="40" height="20"/>
+<rect class="sl" x="430" y="586" width="40" height="20"/>
+<g id="cota-apoios" class="cota"><line class="e" x1="110" y1="608" x2="110" y2="631"/><line class="e" x1="280" y1="608" x2="280" y2="631"/><line class="d" x1="110" y1="625" x2="280" y2="625" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="195" y="652">espaçamento dos apoios</text></g>
+<text class="n b" x="680" y="80">planta da curva</text>
+<path class="g" d="M1190.0,190.0 A330,330 0 0,0 860.0,520.0"/>
+<path class="h" d="M1190.0,130.0 A390,390 0 0,0 800.0,520.0"/>
+<path class="g" d="M1083.9,124.0 A410,410 0 0,0 794.0,413.9"/>
+<path class="c" d="M1190.0,160.0 A360,360 0 0,0 830.0,520.0"/>
+<g id="cota-raio" class="cota"><line class="d" x1="1190" y1="520" x2="935.442" y2="265.442" marker-start="url(#a)" marker-end="url(#a)"/><text x="750" y="470">raio de curvamento do tubo</text></g>
+<g id="cota-sobrelargura" class="cota"><line class="d" x1="817.609" y1="305" x2="852.25" y2="325" marker-end="url(#a)"/><line class="d" x1="860.91" y1="330" x2="834.93" y2="315" marker-end="url(#a)"/><text x="700" y="200">sobrelargura na curva</text></g>
+<text class="n" x="20" y="678">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

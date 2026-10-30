@@ -188,97 +188,116 @@
     {
      "parametro": "Tensão nominal <1 kV",
      "valor": "Rr = 0,20 m; Rc = 0,70 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥1 e <3 kV",
      "valor": "Rr = 0,22 m; Rc = 1,22 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥3 e <6 kV",
      "valor": "Rr = 0,25 m; Rc = 1,25 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥6 e <10 kV",
      "valor": "Rr = 0,35 m; Rc = 1,35 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥10 e <15 kV",
      "valor": "Rr = 0,38 m; Rc = 1,38 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥15 e <20 kV",
      "valor": "Rr = 0,40 m; Rc = 1,40 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥20 e <30 kV",
      "valor": "Rr = 0,56 m; Rc = 1,56 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥30 e <36 kV",
      "valor": "Rr = 0,58 m; Rc = 1,58 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥36 e <45 kV",
      "valor": "Rr = 0,63 m; Rc = 1,63 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥45 e <60 kV",
      "valor": "Rr = 0,83 m; Rc = 1,83 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥60 e <70 kV",
      "valor": "Rr = 0,90 m; Rc = 1,90 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥70 e <110 kV",
      "valor": "Rr = 1,00 m; Rc = 2,00 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥110 e <132 kV",
      "valor": "Rr = 1,10 m; Rc = 3,10 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥132 e <150 kV",
      "valor": "Rr = 1,20 m; Rc = 3,20 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥150 e <220 kV",
      "valor": "Rr = 1,60 m; Rc = 3,60 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥220 e <275 kV",
      "valor": "Rr = 1,80 m; Rc = 3,80 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥275 e <380 kV",
      "valor": "Rr = 2,50 m; Rc = 4,50 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥380 e <480 kV",
      "valor": "Rr = 3,20 m; Rc = 5,20 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     },
     {
      "parametro": "Tensão nominal ≥480 e <700 kV",
      "valor": "Rr = 5,20 m; Rc = 7,20 m",
-     "item": "Anexo II, Fig. 1 (tabela)"
+     "item": "Anexo II, Fig. 1 (tabela)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rr-rc"
     }
    ]
   },

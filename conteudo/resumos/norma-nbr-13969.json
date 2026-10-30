@@ -9,23 +9,25 @@
    "texto": "Filtro anaeróbio de leito fixo com fluxo ascendente; filtro aeróbio submerso; valas de filtração e filtros de areia; lodo ativado por batelada (LAB); lagoa com plantas aquáticas; cloração.",
    "valores": [
     {"parametro": "Volume útil do filtro anaeróbio", "valor": "Vu = 1,6·N·C·T (litros), mínimo 1 000 L", "item": "4.1.1.1"},
-    {"parametro": "Altura do leito do filtro anaeróbio (com fundo falso)", "valor": "≤ 1,20 m", "item": "4.1"},
-    {"parametro": "Altura do fundo falso (com a laje)", "valor": "≤ 0,60 m", "item": "4.1"},
-    {"parametro": "LAB — altura para volume de lodo", "valor": "≥ 1,5 m", "item": "4.4"},
+    {"parametro": "Altura do leito do filtro anaeróbio (com fundo falso)", "valor": "≤ 1,20 m", "item": "4.1", "cota": "esquemas/esgoto-filtro-sumidouro.svg#leito"},
+    {"parametro": "Altura do fundo falso (com a laje)", "valor": "≤ 0,60 m", "item": "4.1", "cota": "esquemas/esgoto-filtro-sumidouro.svg#fundo-falso"},
+    {"parametro": "LAB — altura para volume de lodo", "valor": "≥ 1,5 m", "item": "4.4", "cota": "esquemas/esgoto-filtro-sumidouro.svg#lodo"},
     {"parametro": "Cloração — tempo mínimo de contato", "valor": "30 min", "item": "4.6"},
     {"parametro": "Cloro livre após o contato", "valor": "≥ 0,5 mg/L", "item": "4.6"}
-   ]},
+   ],
+   "figuras": ["esquemas/esgoto-filtro-sumidouro.svg"]},
   {"titulo": "Disposição final", "item": "5.1–5.5",
    "texto": "Vala de infiltração, canteiro de infiltração e evapotranspiração, sumidouro, lançamento em galeria pluvial ou corpo d'água (com limites de qualidade), conforme solo, aquífero e espaço. Taxa de percolação pelo ensaio do Anexo (rebaixamento do nível d'água na cava).",
    "valores": [
-    {"parametro": "Fundo da vala de infiltração ao nível máximo do aquífero", "valor": "≥ 1,5 m", "item": "5.1"},
-    {"parametro": "Fundo do sumidouro ao nível máximo do aquífero", "valor": "≥ 1,50 m", "item": "5.3"},
-    {"parametro": "Distância entre paredes de sumidouros múltiplos", "valor": "≥ 1,50 m", "item": "5.3"},
+    {"parametro": "Fundo da vala de infiltração ao nível máximo do aquífero", "valor": "≥ 1,5 m", "item": "5.1", "cota": "esquemas/esgoto-filtro-sumidouro.svg#vala"},
+    {"parametro": "Fundo do sumidouro ao nível máximo do aquífero", "valor": "≥ 1,50 m", "item": "5.3", "cota": "esquemas/esgoto-filtro-sumidouro.svg#sumidouro"},
+    {"parametro": "Distância entre paredes de sumidouros múltiplos", "valor": "≥ 1,50 m", "item": "5.3", "cota": "esquemas/esgoto-filtro-sumidouro.svg#entre-sumidouros"},
     {"parametro": "Lançamento em galeria pluvial — DBO5,20 / DQO", "valor": "< 60 mg/L / < 150 mg/L", "item": "Tab. 5"},
     {"parametro": "Galeria pluvial — pH / óleos e graxas", "valor": "6,0 a 9,0 / < 50 mg/L", "item": "Tab. 5"},
     {"parametro": "Galeria pluvial — sólidos sedimentáveis / não filtráveis", "valor": "< 0,5 mg/L / < 50 mg/L", "item": "Tab. 5"},
     {"parametro": "Galeria pluvial — OD / cloro residual livre", "valor": "> 1,0 mg/L / > 0,5 mg/L", "item": "Tab. 5"}
-   ]},
+   ],
+   "figuras": ["esquemas/esgoto-filtro-sumidouro.svg"]},
   {"titulo": "Reuso local", "item": "5.6",
    "texto": "Planejar usos, volumes, grau de tratamento (o do uso mais exigente), reservação, distribuição e manual de operação.",
    "valores": [

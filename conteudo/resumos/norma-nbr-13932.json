@@ -13,17 +13,19 @@
    "valores": [
     {"parametro": "Pressão máxima — rede primária / secundária", "valor": "150 kPa / 5 kPa", "item": "4.1.3"},
     {"parametro": "Cor da tubulação aparente", "valor": "amarela Munsell 5Y8/12 (NBR 12694)", "item": "4.1.2"},
-    {"parametro": "Afastamento de condutores elétricos — em conduíte / sem", "valor": "≥ 0,30 m / ≥ 0,50 m", "item": "4.1.8 a)"},
-    {"parametro": "Afastamento de para-raios e aterramento", "valor": "≥ 2 m (ou NBR 5419)", "item": "4.1.8 c)"},
-    {"parametro": "Folga tubo–parede interna do duto", "valor": "≥ 25 mm", "item": "4.1.9 c)"},
-    {"parametro": "Mangueira flexível do aparelho", "valor": "≤ 0,80 m", "item": "4.1.11 b)"}
-   ]},
+    {"parametro": "Afastamento de condutores elétricos — em conduíte / sem", "valor": "≥ 0,30 m / ≥ 0,50 m", "item": "4.1.8 a)", "cota": "esquemas/gas-instalacao-afastamentos.svg#eletrico"},
+    {"parametro": "Afastamento de para-raios e aterramento", "valor": "≥ 2 m (ou NBR 5419)", "item": "4.1.8 c)", "cota": "esquemas/gas-instalacao-afastamentos.svg#spda"},
+    {"parametro": "Folga tubo–parede interna do duto", "valor": "≥ 25 mm", "item": "4.1.9 c)", "cota": "esquemas/gas-instalacao-afastamentos.svg#folga-duto"},
+    {"parametro": "Mangueira flexível do aparelho", "valor": "≤ 0,80 m", "item": "4.1.11 b)", "cota": "esquemas/gas-instalacao-afastamentos.svg#mangueira"}
+   ],
+   "figuras": ["esquemas/gas-instalacao-afastamentos.svg"]},
   {"titulo": "Abrigo de medidores e reguladores", "item": "4.2",
    "texto": "Abrigo de material incombustível, só para medidores, registros e reguladores, em área comum, limpo, ventilado e iluminado; proibido em antecâmara ou escada de emergência.",
    "valores": [
     {"parametro": "Ventilação do abrigo", "valor": "≥ 10 % da área da planta", "item": "4.2.4"},
-    {"parametro": "Base do abrigo acima do piso", "valor": "≥ 0,30 m", "item": "4.2.4"}
-   ]},
+    {"parametro": "Base do abrigo acima do piso", "valor": "≥ 0,30 m", "item": "4.2.4", "cota": "esquemas/gas-instalacao-afastamentos.svg#abrigo"}
+   ],
+   "figuras": ["esquemas/gas-instalacao-afastamentos.svg"]},
   {"titulo": "Dimensionamento", "item": "5.1, Anexos C–E",
    "texto": "Potência computada (tabela de aparelhos), fator de simultaneidade, potência adotada, vazão = potência adotada ÷ PCI, comprimento equivalente de conexões, perda pela coluna de GLP nos trechos verticais e fórmulas de perda de carga (média e baixa pressão) ou tabelas do Anexo E.",
    "valores": [
@@ -31,27 +33,30 @@
     {"parametro": "Oscilação a verificar", "valor": "+15 % / −25 % da nominal", "item": "5.1.3"},
     {"parametro": "Perda de carga máxima na rede primária", "valor": "15 kPa", "item": "5.1.5.5 b)"},
     {"parametro": "Pressão mínima no ponto de utilização", "valor": "2,6 kPa", "item": "5.1.5.5 c)"},
-    {"parametro": "Diâmetro nominal mínimo", "valor": "15 mm (1/2\")", "item": "5.1.5.5 d)"},
+    {"parametro": "Diâmetro nominal mínimo", "valor": "15 mm (1/2\")", "item": "5.1.5.5 d)", "cota": "esquemas/tubo-costura-dimensoes.svg#D"},
     {"parametro": "Potência adotada", "valor": "A = F · C", "item": "5.1.5.3"},
     {"parametro": "Fator F — C1 < 24,43", "valor": "F = 100 %", "item": "Anexo D", "nota": "C1 = potência computada em unidades do anexo — conferir unidade"},
     {"parametro": "Fator F — 24,43 < C1 < 670,9", "valor": "F = 100 / [1 + 0,01016·(C1 − 24,37)^0,8712]", "item": "Anexo D"},
     {"parametro": "Fator F — 670,9 < C1 < 1 396", "valor": "F = 100 / [1 + 0,7997·(C1 − 73,67)^0,19931]", "item": "Anexo D"},
     {"parametro": "Fator F — C1 > 1 396", "valor": "F = 23 %", "item": "Anexo D"}
-   ]},
+   ],
+   "figuras": ["esquemas/tubo-costura-dimensoes.svg"]},
   {"titulo": "Materiais e juntas", "item": "5.2–5.4",
    "texto": "Tubos de aço NBR 5580 (classe média) ou NBR 5590 (classe normal), cobre rígido NBR 13206, cobre recozido 'dryseal' só para ligações de acessórios e aparelhos. Rosca NPT (com tubo NBR 5590) ou BSP (com NBR 5580) e vedante compatível — proibido tinta ou fibra vegetal. Tubos rígidos não podem ser dobrados.",
    "valores": [
-    {"parametro": "Cobre rígido — baixa pressão", "valor": "espessura ≥ 0,8 mm; média pressão classe A ou I", "item": "5.2.1 c)"},
-    {"parametro": "Cobre recozido dryseal", "valor": "espessura ≥ 0,79 mm (NBR 7541)", "item": "5.2.1 h)"},
+    {"parametro": "Cobre rígido — baixa pressão", "valor": "espessura ≥ 0,8 mm; média pressão classe A ou I", "item": "5.2.1 c)", "cota": "esquemas/tubo-costura-dimensoes.svg#e"},
+    {"parametro": "Cobre recozido dryseal", "valor": "espessura ≥ 0,79 mm (NBR 7541)", "item": "5.2.1 h)", "cota": "esquemas/tubo-costura-dimensoes.svg#e"},
     {"parametro": "Brasagem capilar — metal de adição", "valor": "ponto de fusão ≥ 450 °C", "item": "5.3.2.2 b)"},
     {"parametro": "Válvulas — rede primária / secundária", "valor": "≥ 1 000 kPa / ≥ 150 kPa", "item": "5.4.5"}
-   ]},
+   ],
+   "figuras": ["esquemas/tubo-costura-dimensoes.svg"]},
   {"titulo": "Dispositivos de segurança", "item": "5.5",
    "texto": "Reguladores com proteção contra sobrepressão e ruptura do diafragma; descargas de alívio para local ventilado, longe de aberturas, ralos e esgotos.",
    "valores": [
-    {"parametro": "Descarga de alívio — distância de aberturas", "valor": "> 1 m (horizontal e vertical)", "item": "5.5.3–5.5.4"},
-    {"parametro": "Descarga do regulador de 1º estágio — distância da fachada", "valor": "> 3 m", "item": "5.5.5"}
-   ]},
+    {"parametro": "Descarga de alívio — distância de aberturas", "valor": "> 1 m (horizontal e vertical)", "item": "5.5.3–5.5.4", "cota": "esquemas/gas-instalacao-afastamentos.svg#alivio-aberturas"},
+    {"parametro": "Descarga do regulador de 1º estágio — distância da fachada", "valor": "> 3 m", "item": "5.5.5", "cota": "esquemas/gas-instalacao-afastamentos.svg#regulador-fachada"}
+   ],
+   "figuras": ["esquemas/gas-instalacao-afastamentos.svg"]},
   {"titulo": "Ensaio de estanqueidade", "item": "5.6",
    "texto": "Dois ensaios com ar comprimido ou gás inerte: rede aparente após montagem e na liberação para GLP. Depois, purga do ar com ambiente ventilado; procurar vazamento sem chama.",
    "valores": [

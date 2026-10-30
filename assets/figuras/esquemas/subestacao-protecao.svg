@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 520" width="1250" height="520" role="img" aria-label="Subestação — tela de proteção, folga ao solo e afastamento das partes vivas">
+<title>Subestação — tela de proteção, folga ao solo e afastamento das partes vivas (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Subestação — tela de proteção, folga ao solo e afastamento das partes vivas</text>
+<line class="g" x1="240" y1="430" x2="760" y2="430"/>
+<rect x="240" y="430" width="520" height="10" fill="url(#hach)" stroke="none"/>
+<rect class="s" x="420" y="230" width="160" height="200"/>
+<text class="n m" x="500" y="220">equipamento (partes vivas)</text>
+<line x1="300" y1="150" x2="300" y2="410" stroke="#555" stroke-width="5" stroke-dasharray="4 3"/>
+<text class="n m" x="300" y="140">tela de proteção (corte)</text>
+<g id="cota-folga-solo" class="cota"><line class="e" x1="304" y1="410" x2="336" y2="410"/><line class="d" x1="330" y1="384" x2="330" y2="410" marker-end="url(#a)"/><line class="d" x1="330" y1="456" x2="330" y2="430" marker-end="url(#a)"/><line class="d" x1="330" y1="410" x2="330" y2="430"/><text x="340" y="475">folga da tela ao solo</text></g>
+<g id="cota-afastamento" class="cota"><line class="d" x1="303" y1="300" x2="420" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text x="320" y="290">afastamento das partes vivas</text></g>
+<text class="n b" x="40" y="150">detalhe da tela</text>
+<line x1="50" y1="170" x2="190" y2="170" stroke="#666" stroke-width="1"/><line x1="50" y1="190" x2="190" y2="190" stroke="#666" stroke-width="1"/><line x1="50" y1="210" x2="190" y2="210" stroke="#666" stroke-width="1"/><line x1="50" y1="230" x2="190" y2="230" stroke="#666" stroke-width="1"/><line x1="50" y1="250" x2="190" y2="250" stroke="#666" stroke-width="1"/><line x1="50" y1="270" x2="190" y2="270" stroke="#666" stroke-width="1"/><line x1="50" y1="290" x2="190" y2="290" stroke="#666" stroke-width="1"/><line x1="50" y1="170" x2="50" y2="290" stroke="#666" stroke-width="1"/><line x1="70" y1="170" x2="70" y2="290" stroke="#666" stroke-width="1"/><line x1="90" y1="170" x2="90" y2="290" stroke="#666" stroke-width="1"/><line x1="110" y1="170" x2="110" y2="290" stroke="#666" stroke-width="1"/><line x1="130" y1="170" x2="130" y2="290" stroke="#666" stroke-width="1"/><line x1="150" y1="170" x2="150" y2="290" stroke="#666" stroke-width="1"/><line x1="170" y1="170" x2="170" y2="290" stroke="#666" stroke-width="1"/><line x1="190" y1="170" x2="190" y2="290" stroke="#666" stroke-width="1"/>
+<g id="cota-malha" class="cota"><line class="d" x1="70" y1="315" x2="90" y2="315" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="70" y1="292" x2="70" y2="321"/><line class="e" x1="90" y1="292" x2="90" y2="321"/><text x="40" y="345">abertura da malha</text></g>
+<text class="n" x="20" y="508">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

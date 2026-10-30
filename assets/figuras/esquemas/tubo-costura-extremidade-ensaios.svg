@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 520" width="1150" height="520" role="img" aria-label="Tubo — bisel, corpo de prova de achatamento e dobramento">
+<title>Tubo — bisel, corpo de prova de achatamento e dobramento (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Tubo — bisel, corpo de prova de achatamento e dobramento</text>
+<text class="n b" x="60" y="120">bisel (corte da parede)</text>
+<path class="s" d="M80,200 L357,200 L380,240 L380,260 L80,260 z"/>
+<line class="h" x1="380" y1="150" x2="380" y2="280"/>
+<g id="cota-angulo-bisel" class="cota"><path class="d" d="M380.0,170.0 A70,70 0 0,0 345.0,179.4" marker-start="url(#a)" marker-end="url(#a)"/><text x="250" y="165">ângulo do bisel</text></g>
+<g id="cota-face-raiz" class="cota"><line class="e" x1="382" y1="240" x2="416" y2="240"/><line class="e" x1="382" y1="260" x2="416" y2="260"/><line class="d" x1="410" y1="214" x2="410" y2="240" marker-end="url(#a)"/><line class="d" x1="410" y1="286" x2="410" y2="260" marker-end="url(#a)"/><line class="d" x1="410" y1="240" x2="410" y2="260"/><text x="420" y="256">face da raiz</text></g>
+<text class="n" x="80" y="290">lado interno do tubo</text>
+<text class="n b" x="500" y="120">achatamento</text>
+<rect class="s" x="520" y="200" width="180" height="60"/>
+<rect class="sl" x="500" y="186" width="220" height="14"/>
+<rect class="sl" x="500" y="260" width="220" height="14"/>
+<line class="d" x1="610" y1="140" x2="610" y2="184"/>
+<line class="d" x1="610" y1="140" x2="610" y2="184" marker-end="url(#a)"/>
+<text class="b" x="618" y="160">F</text>
+<g id="cota-cp-achatamento" class="cota"><line class="e" x1="520" y1="276" x2="520" y2="326"/><line class="e" x1="700" y1="276" x2="700" y2="326"/><line class="d" x1="520" y1="320" x2="700" y2="320" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="610" y="313">comprimento do corpo de prova</text></g>
+<text class="n b" x="800" y="120">dobramento</text>
+<path d="M770,208 L900,208 A52,52 0 0,1 952,260 L952,390" fill="none" stroke="#8c8c8c" stroke-opacity=".6" stroke-width="22"/>
+<circle class="s" cx="900" cy="260" r="40"/>
+<g id="cota-dobramento" class="cota"><path class="d" d="M900,165 A95,95 0 0,1 995,260" marker-start="url(#a)" marker-end="url(#a)"/><line class="d" x1="860" y1="260" x2="940" y2="260" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="830" y="330">Ø do mandril</text><line class="e" x1="845" y1="316" x2="880" y2="262"/><text x="560" y="440">dobramento (ângulo e Ø do mandril)</text></g>
+<text class="n" x="1003" y="210">ângulo</text>
+<text class="n" x="20" y="508">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

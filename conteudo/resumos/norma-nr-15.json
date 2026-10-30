@@ -470,7 +470,8 @@
     {
      "parametro": "Dispensa do auxiliar de superfície",
      "valor": "águas abrigadas, até 12 m",
-     "item": "Anexo 6, 2.8.1.1"
+     "item": "Anexo 6, 2.8.1.1",
+     "cota": "esquemas/resumo-nr-15-mergulho.svg#profundidade"
     },
     {
      "parametro": "Saturação — equipe mínima",
@@ -485,32 +486,38 @@
     {
      "parametro": "Câmara de superfície obrigatória",
      "valor": "profundidade > 40 m ou descompressão > 20 min",
-     "item": "Anexo 6, 2.10.7.1"
+     "item": "Anexo 6, 2.10.7.1",
+     "cota": "esquemas/resumo-nr-15-mergulho.svg#profundidade"
     },
     {
      "parametro": "Após mergulho — voo proibido",
      "valor": "acima de 600 m de altitude, no período de observação",
-     "item": "Anexo 6, 2.10.12 b)"
+     "item": "Anexo 6, 2.10.12 b)",
+     "cota": "esquemas/resumo-nr-15-mergulho.svg#altitude-voo"
     },
     {
      "parametro": "Profundidade máx. — autônomo a ar",
      "valor": "40 m",
-     "item": "Anexo 6, 2.10.13 a)"
+     "item": "Anexo 6, 2.10.13 a)",
+     "cota": "esquemas/resumo-nr-15-mergulho.svg#profundidade"
     },
     {
      "parametro": "Profundidade máx. — ar suprido da superfície / sem sino aberto",
      "valor": "50 m",
-     "item": "Anexo 6, 2.10.13 b) e c)"
+     "item": "Anexo 6, 2.10.13 b) e c)",
+     "cota": "esquemas/resumo-nr-15-mergulho.svg#profundidade"
     },
     {
      "parametro": "Profundidade máx. — mistura artificial com sino aberto",
      "valor": "90 m",
-     "item": "Anexo 6, 2.10.13 d)"
+     "item": "Anexo 6, 2.10.13 d)",
+     "cota": "esquemas/resumo-nr-15-mergulho.svg#profundidade"
     },
     {
      "parametro": "Profundidade máx. — mistura artificial com sino de mergulho",
      "valor": "130 m",
-     "item": "Anexo 6, 2.10.13 e)"
+     "item": "Anexo 6, 2.10.13 e)",
+     "cota": "esquemas/resumo-nr-15-mergulho.svg#profundidade"
     },
     {
      "parametro": "Saturação obrigatória",
@@ -545,8 +552,12 @@
     {
      "parametro": "Umbilical a partir do sino",
      "valor": "> 33 m exige decisão do contratante e treinamento; percurso ≤ 60 m",
-     "item": "Anexo 6, 2.10.19"
+     "item": "Anexo 6, 2.10.19",
+     "cota": "esquemas/resumo-nr-15-mergulho.svg#umbilical"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-15-mergulho.svg"
    ]
   },
   {

@@ -5,19 +5,21 @@
   {"titulo": "Requisitos gerais", "item": "1–2",
    "texto": "A escrita em desenho técnico precisa ser legível, uniforme e adequada à microfilmagem: caracteres bem distintos, mesma largura de linha em maiúsculas e minúsculas, traços que se cruzam ou tocam em ângulo aproximadamente reto. As alturas seguem a razão √2 dos formatos de papel.",
    "valores": [
-    {"parametro": "Distância mínima entre caracteres", "valor": "≥ 2 × a largura da linha (a mais larga, se houver várias)", "item": "2.2.2"}
-   ]},
+    {"parametro": "Distância mínima entre caracteres", "valor": "≥ 2 × a largura da linha (a mais larga, se houver várias)", "item": "2.2.2", "cota": "esquemas/desenho-tecnico-escrita.svg#a"}
+   ],
+   "figuras": ["esquemas/desenho-tecnico-escrita.svg"]},
   {"titulo": "Dimensões", "item": "3, Tabela",
    "texto": "Tudo é proporcional à altura h das maiúsculas. Escrita vertical ou inclinada 15° para a direita.",
    "valores": [
-    {"parametro": "Alturas h de maiúsculas", "valor": "2,5; 3,5; 5; 7; 10; 14; 20 mm", "item": "Tabela"},
-    {"parametro": "Altura mínima h e c", "valor": "2,5 mm; com maiúsculas e minúsculas juntas, h ≥ 3,5 mm", "item": "3.2"},
+    {"parametro": "Alturas h de maiúsculas", "valor": "2,5; 3,5; 5; 7; 10; 14; 20 mm", "item": "Tabela", "cota": "esquemas/desenho-tecnico-escrita.svg#h"},
+    {"parametro": "Altura mínima h e c", "valor": "2,5 mm; com maiúsculas e minúsculas juntas, h ≥ 3,5 mm", "item": "3.2", "cota": "esquemas/desenho-tecnico-escrita.svg#h"},
     {"parametro": "Minúsculas c", "valor": "0,7 h", "item": "Tabela"},
-    {"parametro": "Distância entre caracteres a", "valor": "0,2 h (pode cair à metade em pares como LA, TV)", "item": "Tabela"},
-    {"parametro": "Distância entre linhas de base b", "valor": "1,4 h", "item": "Tabela"},
-    {"parametro": "Distância entre palavras e", "valor": "0,6 h", "item": "Tabela"},
-    {"parametro": "Largura da linha d", "valor": "0,1 h (ex. h = 3,5 → d = 0,35 mm)", "item": "Tabela"},
-    {"parametro": "Inclinação da escrita inclinada", "valor": "15° em relação à vertical", "item": "3.3"}
-   ]}
+    {"parametro": "Distância entre caracteres a", "valor": "0,2 h (pode cair à metade em pares como LA, TV)", "item": "Tabela", "cota": "esquemas/desenho-tecnico-escrita.svg#a"},
+    {"parametro": "Distância entre linhas de base b", "valor": "1,4 h", "item": "Tabela", "cota": "esquemas/desenho-tecnico-escrita.svg#b"},
+    {"parametro": "Distância entre palavras e", "valor": "0,6 h", "item": "Tabela", "cota": "esquemas/desenho-tecnico-escrita.svg#e"},
+    {"parametro": "Largura da linha d", "valor": "0,1 h (ex. h = 3,5 → d = 0,35 mm)", "item": "Tabela", "cota": "esquemas/desenho-tecnico-escrita.svg#d"},
+    {"parametro": "Inclinação da escrita inclinada", "valor": "15° em relação à vertical", "item": "3.3", "cota": "esquemas/desenho-tecnico-escrita.svg#inclinacao"}
+   ],
+   "figuras": ["esquemas/desenho-tecnico-escrita.svg"]}
  ]
 }

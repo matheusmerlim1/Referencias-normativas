@@ -8,25 +8,28 @@
   {"titulo": "Formatos", "item": "3.1",
    "texto": "Usar o menor formato que mantenha a clareza; folha na horizontal ou vertical. A série A parte do A0 (retângulo de 1 m² com lados na razão 1 : √2) por bipartições sucessivas. Formatos especiais: múltiplos ou submúltiplos dos lados da série A.",
    "valores": [
-    {"parametro": "A0", "valor": "841 × 1 189 mm", "item": "Tab. 1"},
-    {"parametro": "A1", "valor": "594 × 841 mm", "item": "Tab. 1"},
-    {"parametro": "A2", "valor": "420 × 594 mm", "item": "Tab. 1"},
-    {"parametro": "A3", "valor": "297 × 420 mm", "item": "Tab. 1", "nota": "o texto extraído traz '295 x 420' — provável erro de digitação; a série A dá 297"},
-    {"parametro": "A4", "valor": "210 × 297 mm", "item": "Tab. 1"},
-    {"parametro": "Folha pré-impressa não recortada", "valor": "excesso de 10 mm nos quatro lados", "item": "3.1.3, Nota"}
-   ]},
+    {"parametro": "A0", "valor": "841 × 1 189 mm", "item": "Tab. 1", "cota": "esquemas/desenho-tecnico-folha.svg#formato"},
+    {"parametro": "A1", "valor": "594 × 841 mm", "item": "Tab. 1", "cota": "esquemas/desenho-tecnico-folha.svg#formato"},
+    {"parametro": "A2", "valor": "420 × 594 mm", "item": "Tab. 1", "cota": "esquemas/desenho-tecnico-folha.svg#formato"},
+    {"parametro": "A3", "valor": "297 × 420 mm", "item": "Tab. 1", "nota": "o texto extraído traz '295 x 420' — provável erro de digitação; a série A dá 297", "cota": "esquemas/desenho-tecnico-folha.svg#formato"},
+    {"parametro": "A4", "valor": "210 × 297 mm", "item": "Tab. 1", "cota": "esquemas/desenho-tecnico-folha.svg#formato"},
+    {"parametro": "Folha pré-impressa não recortada", "valor": "excesso de 10 mm nos quatro lados", "item": "3.1.3, Nota", "cota": "esquemas/desenho-tecnico-folha.svg#excesso"}
+   ],
+   "figuras": ["esquemas/desenho-tecnico-folha.svg"]},
   {"titulo": "Legenda, margens e quadro", "item": "3.2–3.3",
    "texto": "Legenda dentro do quadro, no canto inferior direito, com identificação do desenho (número, título, origem etc.), lida no mesmo sentido do desenho. A margem esquerda é maior porque serve para furar e arquivar.",
    "valores": [
-    {"parametro": "Comprimento da legenda — A4, A3, A2 / A1, A0", "valor": "178 mm / 175 mm", "item": "3.2.3"},
-    {"parametro": "Margem esquerda (todos os formatos)", "valor": "25 mm", "item": "Tab. 2"},
-    {"parametro": "Margem direita — A0, A1 / A2, A3, A4", "valor": "10 mm / 7 mm", "item": "Tab. 2"},
-    {"parametro": "Linha do quadro — A0 / A1 / A2 / A3 e A4", "valor": "1,4 / 1,0 / 0,7 / 0,5 mm", "item": "Tab. 2"}
-   ]},
+    {"parametro": "Comprimento da legenda — A4, A3, A2 / A1, A0", "valor": "178 mm / 175 mm", "item": "3.2.3", "cota": "esquemas/desenho-tecnico-folha.svg#legenda"},
+    {"parametro": "Margem esquerda (todos os formatos)", "valor": "25 mm", "item": "Tab. 2", "cota": "esquemas/desenho-tecnico-folha.svg#margem-esq"},
+    {"parametro": "Margem direita — A0, A1 / A2, A3, A4", "valor": "10 mm / 7 mm", "item": "Tab. 2", "cota": "esquemas/desenho-tecnico-folha.svg#margem-dir"},
+    {"parametro": "Linha do quadro — A0 / A1 / A2 / A3 e A4", "valor": "1,4 / 1,0 / 0,7 / 0,5 mm", "item": "Tab. 2", "cota": "esquemas/desenho-tecnico-folha.svg#quadro"}
+   ],
+   "figuras": ["esquemas/desenho-tecnico-folha.svg"]},
   {"titulo": "Marcas e referências", "item": "3.4–3.7",
    "texto": "Quatro marcas de centro nas extremidades dos eixos de simetria; escala métrica de referência sem números na margem inferior, centrada; malha de referência (letras e números) para localizar detalhes e revisões; marcas de corte nos cantos.",
    "valores": [
-    {"parametro": "Escala métrica de referência", "valor": "≥ 100 mm, divisões de 10 mm, largura ≤ 5 mm", "item": "3.5"}
-   ]}
+    {"parametro": "Escala métrica de referência", "valor": "≥ 100 mm, divisões de 10 mm, largura ≤ 5 mm", "item": "3.5", "cota": "esquemas/desenho-tecnico-folha.svg#escala-ref"}
+   ],
+   "figuras": ["esquemas/desenho-tecnico-folha.svg"]}
  ]
 }

@@ -35,10 +35,11 @@
   {"titulo": "Solda de malhetes e elos de emenda", "item": "6.8–6.9",
    "texto": "Malhete soldado aceito em R3 e R3S (R4 só com aprovação especial), soldado antes do tratamento térmico, numa só ponta (lado oposto à solda de topo), por soldador qualificado com consumível de baixo hidrogênio. Elo de emenda feito por procedimento aprovado, com elo-gêmeo para ensaio, sem afetar os vizinhos.",
    "valores": [
-    {"parametro": "Mordedura máxima na solda do malhete", "valor": "1 mm", "item": "6.8.6"},
+    {"parametro": "Mordedura máxima na solda do malhete", "valor": "1 mm", "item": "6.8.6", "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#mordedura"},
     {"parametro": "Solda de malhete com LP/PM", "valor": "≥ 10 % por seção de amarra", "item": "6.8.7"},
     {"parametro": "Temperatura máxima dos elos adjacentes ao elo de emenda", "valor": "250 °C", "item": "6.9"}
-   ]},
+   ],
+   "figuras": ["esquemas/solda-estrutural-aceitacao-visual.svg"]},
   {"titulo": "Ensaios e inspeção", "item": "7",
    "texto": "Após o tratamento térmico final, na presença de vistoriador e sem carepa ou pintura: carga de prova em 100 % do comprimento, ruptura em amostra de ≥ 3 elos (frequência da Tab. 4), END em todos os elos e ensaios mecânicos (1 tração + 9 Charpy V por conjunto, propriedades da Parte 1).",
    "valores": [

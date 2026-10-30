@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 460" width="1150" height="460" role="img" aria-label="Perfil pultrudado — retirada de corpo de prova e sobreposição de mantas">
+<title>Perfil pultrudado — retirada de corpo de prova e sobreposição de mantas (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Perfil pultrudado — retirada de corpo de prova e sobreposição de mantas</text>
+<text class="n b" x="60" y="100">parede do perfil (vista)</text>
+<rect class="sl" x="60" y="120" width="420" height="220"/>
+<rect class="h" x="130" y="190" width="200" height="60"/>
+<rect class="w" x="140" y="200" width="180" height="40"/>
+<text class="n m" x="230" y="225">corpo de prova</text>
+<g id="cota-borda" class="cota"><line class="d" x1="360" y1="120" x2="360" y2="190" marker-start="url(#a)" marker-end="url(#a)"/><text x="370" y="160">distância à borda (mín.)</text></g>
+<g id="cota-sobra" class="cota"><line class="e" x1="130" y1="366" x2="106" y2="218"/><line class="d" x1="110" y1="164" x2="110" y2="190" marker-end="url(#a)"/><line class="d" x1="110" y1="226" x2="110" y2="200" marker-end="url(#a)"/><line class="d" x1="110" y1="190" x2="110" y2="200"/><text x="60" y="380">sobra de corte (estampagem)</text></g>
+<text class="n b" x="600" y="100">sobreposição de mantas</text>
+<rect class="s" x="600" y="170" width="280" height="14"/>
+<rect class="s" x="820" y="184" width="280" height="14"/>
+<g id="cota-sobreposicao-long" class="cota"><line class="e" x1="820" y1="168" x2="820" y2="144"/><line class="e" x1="880" y1="168" x2="880" y2="144"/><line class="d" x1="820" y1="150" x2="880" y2="150" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="850" y="143">longitudinal</text></g>
+<rect class="s" x="600" y="300" width="260" height="14"/>
+<rect class="s" x="780" y="314" width="300" height="14"/>
+<g id="cota-sobreposicao-transv" class="cota"><line class="e" x1="780" y1="298" x2="780" y2="274"/><line class="e" x1="860" y1="298" x2="860" y2="274"/><line class="d" x1="780" y1="280" x2="860" y2="280" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="820" y="273">transversal (emendas)</text></g>
+<text class="n" x="20" y="448">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

@@ -9,9 +9,10 @@
    "texto": "Formatos da série A; legenda (carimbo) com informações mínimas, outras informações e indicação do norte/ventos próximas dele. Cópias dobradas em A4 deixando o carimbo visível e a aba de fixação.",
    "valores": [
     {"parametro": "Formato final dobrado", "valor": "A4", "item": "4.4.1"},
-    {"parametro": "Dobras verticais (a partir da direita)", "valor": "de 185 mm; a parte final dobrada ao meio", "item": "4.4.3.1"},
-    {"parametro": "Dobras horizontais", "valor": "de 297 mm", "item": "4.4.3.2"}
-   ]},
+    {"parametro": "Dobras verticais (a partir da direita)", "valor": "de 185 mm; a parte final dobrada ao meio", "item": "4.4.3.1", "cota": "esquemas/desenho-tecnico-dobragem.svg#dobra-vertical"},
+    {"parametro": "Dobras horizontais", "valor": "de 297 mm", "item": "4.4.3.2", "cota": "esquemas/desenho-tecnico-dobragem.svg#dobra-horizontal"}
+   ],
+   "figuras": ["esquemas/desenho-tecnico-dobragem.svg"]},
   {"titulo": "Fases do projeto", "item": "5.1",
    "texto": "Levantamento/programa, estudo preliminar, anteprojeto e projeto executivo, cada fase com documentos típicos, eventuais e escala.",
    "valores": [
@@ -21,9 +22,10 @@
    "texto": "Peças gráficas (plantas, cortes, fachadas, planta de teto refletido, detalhes, esquadrias com nomenclatura P e J, quadro de acabamentos) e peças escritas. O anexo traz convenções de linhas, escrita, cotas, níveis, hachuras de materiais (alvenaria em corte etc.).",
    "valores": [
     {"parametro": "Unidade das cotas", "valor": "m para dimensões ≥ 1 m; cm abaixo de 1 m; mm escritos como expoente", "item": "Anexo A-9"},
-    {"parametro": "Algarismos das cotas", "valor": "altura 3 mm, a 1,5 mm da linha de cota", "item": "Anexo A-9"},
-    {"parametro": "Folga das linhas de chamada", "valor": "param a 2 mm do elemento", "item": "Anexo A-9", "nota": "texto parcial — conferir"},
-    {"parametro": "Entrelinhas mínimas / letras de coordenadas", "valor": "2 mm / altura 3 mm", "item": "Anexo"}
-   ]}
+    {"parametro": "Algarismos das cotas", "valor": "altura 3 mm, a 1,5 mm da linha de cota", "item": "Anexo A-9", "cota": "esquemas/desenho-tecnico-cotagem.svg#algarismos"},
+    {"parametro": "Folga das linhas de chamada", "valor": "param a 2 mm do elemento", "item": "Anexo A-9", "nota": "texto parcial — conferir", "cota": "esquemas/desenho-tecnico-cotagem.svg#folga"},
+    {"parametro": "Entrelinhas mínimas / letras de coordenadas", "valor": "2 mm / altura 3 mm", "item": "Anexo", "cota": "esquemas/desenho-tecnico-cotagem.svg#entrelinhas"}
+   ],
+   "figuras": ["esquemas/desenho-tecnico-cotagem.svg"]}
  ]
 }

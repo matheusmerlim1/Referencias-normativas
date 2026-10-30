@@ -47,23 +47,29 @@
     {
      "parametro": "Distância máxima de transporte manual de um saco",
      "valor": "60,00 m",
-     "item": "11.2.2"
+     "item": "11.2.2",
+     "cota": "esquemas/resumo-nr-11-armazenamento.svg#percurso"
     },
     {
      "parametro": "Vão máximo vencido por prancha com saco nas costas",
      "valor": "transporte proibido sobre vãos de 1,00 m ou mais",
-     "item": "11.2.3"
+     "item": "11.2.3",
+     "cota": "esquemas/resumo-nr-11-armazenamento.svg#vao"
     },
     {
      "parametro": "Largura mínima da prancha",
      "valor": "0,50 m",
-     "item": "11.2.3.1"
+     "item": "11.2.3.1",
+     "cota": "esquemas/resumo-nr-11-armazenamento.svg#largura-prancha"
     },
     {
      "parametro": "Carga/descarga manual em caminhão ou vagão",
      "valor": "com auxílio de ajudante",
      "item": "11.2.4"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-11-armazenamento.svg"
    ]
   },
   {
@@ -123,13 +129,17 @@
     {
      "parametro": "Afastamento do material empilhado às estruturas laterais do prédio",
      "valor": "≥ 0,50 m",
-     "item": "11.3.3"
+     "item": "11.3.3",
+     "cota": "esquemas/resumo-nr-11-armazenamento.svg#afastamento-pilha"
     },
     {
      "parametro": "Carga armazenada",
      "valor": "≤ capacidade de carga calculada do piso",
      "item": "11.3.1"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-11-armazenamento.svg"
    ]
   },
   {
@@ -184,38 +194,47 @@
     {
      "parametro": "Altura mínima do cavalete",
      "valor": "1,5 m",
-     "item": "Anexo I, 2.4.1 a)"
+     "item": "Anexo I, 2.4.1 a)",
+     "cota": "esquemas/resumo-nr-11-armazenamento.svg#altura-cavalete"
     },
     {
      "parametro": "Largura máxima das seções do cavalete vertical",
      "valor": "0,25 m",
-     "item": "Anexo I, 2.4.1 b)"
+     "item": "Anexo I, 2.4.1 b)",
+     "cota": "esquemas/resumo-nr-11-armazenamento.svg#largura-secao"
     },
     {
      "parametro": "Comprimento máximo do cavalete vertical",
      "valor": "6 m (peças das pontas mais reforçadas)",
-     "item": "Anexo I, 2.4.1 d)"
+     "item": "Anexo I, 2.4.1 d)",
+     "cota": "esquemas/resumo-nr-11-armazenamento.svg#comprimento-cavalete"
     },
     {
      "parametro": "Espaço sinalizado entre extremos e laterais dos cavaletes",
      "valor": "≥ 0,80 m",
-     "item": "Anexo I, 2.4.1 e)"
+     "item": "Anexo I, 2.4.1 e)",
+     "cota": "esquemas/resumo-nr-11-armazenamento.svg#entre-cavaletes"
     },
     {
      "parametro": "Distância cavalete–parede",
      "valor": "≥ 0,5 m",
-     "item": "Anexo I, 2.4.1 f)"
+     "item": "Anexo I, 2.4.1 f)",
+     "cota": "esquemas/resumo-nr-11-armazenamento.svg#cavalete-parede"
     },
     {
      "parametro": "Largura da circulação principal de pessoas (demarcada)",
      "valor": "≥ 1,20 m",
-     "item": "Anexo I, 2.4.1 g)"
+     "item": "Anexo I, 2.4.1 g)",
+     "cota": "esquemas/resumo-nr-11-armazenamento.svg#circulacao"
     },
     {
      "parametro": "Trabalhadores na colocação/retirada de chapa",
      "valor": "≥ 1 em cada extremidade da chapa",
      "item": "Anexo I, 2.4.1 j)"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-11-armazenamento.svg"
    ]
   },
   {
@@ -258,7 +277,8 @@
     {
      "parametro": "Largura mínima das vias de movimentação",
      "valor": "1,2 m",
-     "item": "Anexo I, 3.2"
+     "item": "Anexo I, 3.2",
+     "cota": "esquemas/resumo-nr-11-armazenamento.svg#via"
     },
     {
      "parametro": "Rodas do equipamento de chapas fracionadas",
@@ -268,8 +288,12 @@
     {
      "parametro": "Chapa fracionada (definição)",
      "valor": "altura máxima de 1 m",
-     "item": "Anexo I, Glossário"
+     "item": "Anexo I, Glossário",
+     "cota": "esquemas/resumo-nr-11-armazenamento.svg#altura-chapa"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-11-armazenamento.svg"
    ]
   },
   {

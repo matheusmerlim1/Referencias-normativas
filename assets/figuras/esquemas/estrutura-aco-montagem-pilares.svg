@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 540" width="1250" height="540" role="img" aria-label="Estrutura de aço — tolerâncias de montagem: prumo de pilares, elevação de barras">
+<title>Estrutura de aço — tolerâncias de montagem: prumo de pilares, elevação de barras (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Estrutura de aço — tolerâncias de montagem: prumo de pilares, elevação de barras</text>
+<line class="g" x1="30" y1="470" x2="1200" y2="470"/>
+<rect x="30" y="470" width="1170" height="10" fill="url(#hach)" stroke="none"/>
+<rect class="sl" x="40" y="130" width="90" height="340"/>
+<text class="n m" x="85" y="300">poço</text>
+<text class="n m" x="85" y="318">elevador</text>
+<line class="h" x1="160" y1="470" x2="160" y2="120"/>
+<path class="s" d="M150,470 L170,470 L192,130 L172,130 z"/>
+<g id="cota-desvio-pilar" class="cota"><line class="e" x1="160" y1="120" x2="160" y2="99"/><line class="e" x1="182" y1="130" x2="182" y2="99"/><line class="d" x1="134" y1="105" x2="160" y2="105" marker-end="url(#a)"/><line class="d" x1="208" y1="105" x2="182" y2="105" marker-end="url(#a)"/><line class="d" x1="160" y1="105" x2="182" y2="105"/><text x="140" y="92">desvio do pilar (junto ao poço)</text></g>
+<rect class="s" x="182" y="270" width="420" height="20"/>
+<line class="c" x1="170" y1="280" x2="640" y2="280"/>
+<line class="g" x1="160" y1="180" x2="205" y2="180"/>
+<text class="n" x="210" y="172">emenda usinada</text>
+<g id="cota-elevacao-barra" class="cota"><line class="e" x1="190" y1="180" x2="526" y2="180"/><line class="d" x1="520" y1="180" x2="520" y2="270" marker-start="url(#a)" marker-end="url(#a)"/><text x="210" y="230">elevação da barra em relação à emenda</text></g>
+<line class="h" x1="620" y1="470" x2="620" y2="120"/>
+<path class="s" d="M610,470 L630,470 L652,130 L632,130 z"/>
+<path class="sl" d="M610,470 L630,470 L598,130 L578,130 z"/>
+<line class="g" x1="760" y1="470" x2="760" y2="110"/>
+<text class="n" x="770" y="130">face da fachada</text>
+<text class="n" x="770" y="150">(exterior →)</text>
+<g id="cota-fachada" class="cota"><line class="e" x1="642" y1="125" x2="642" y2="98"/><line class="d" x1="620" y1="105" x2="642" y2="105" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="588" y1="125" x2="588" y2="150"/><line class="d" x1="620" y1="160" x2="588" y2="160" marker-start="url(#a)" marker-end="url(#a)"/><text x="660" y="102">para fora</text><text x="470" y="165">para dentro</text><text x="470" y="60">pilar de fachada (prumo)</text></g>
+<path class="s" d="M760,380 L820,380 L820,388 L768,388 L768,420 L760,420 z"/>
+<line class="h" x1="750" y1="368" x2="840" y2="368"/>
+<g id="cota-ajustavel" class="cota"><line class="e" x1="840" y1="368" x2="866" y2="368"/><line class="e" x1="820" y1="380" x2="866" y2="380"/><line class="d" x1="860" y1="342" x2="860" y2="368" marker-end="url(#a)"/><line class="d" x1="860" y1="406" x2="860" y2="380" marker-end="url(#a)"/><line class="d" x1="860" y1="368" x2="860" y2="380"/><text x="870" y="395">peça ajustável (posição em altura)</text></g>
+<text class="n" x="20" y="528">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

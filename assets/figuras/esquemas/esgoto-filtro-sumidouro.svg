@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 600" width="1320" height="600" role="img" aria-label="Tratamento complementar e disposição final — filtro anaeróbio, lodo, vala e sumidouro">
+<title>Tratamento complementar e disposição final — filtro anaeróbio, lodo, vala e sumidouro (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Tratamento complementar e disposição final — filtro anaeróbio, lodo, vala e sumidouro</text>
+<text class="n b" x="60" y="100">filtro anaeróbio</text>
+<rect class="s" x="80" y="140" width="300" height="340"/>
+<rect class="w" x="95" y="150" width="270" height="320"/>
+<rect class="sl" x="95" y="300" width="270" height="100"/>
+<line x1="95" y1="400" x2="365" y2="400" stroke="#666" stroke-width="3" stroke-dasharray="8 6"/>
+<text class="n m" x="230" y="355">leito</text>
+<text class="n m" x="230" y="440">fundo falso</text>
+<g id="cota-leito" class="cota"><line class="e" x1="367" y1="300" x2="406" y2="300"/><line class="e" x1="367" y1="400" x2="406" y2="400"/><line class="d" x1="400" y1="300" x2="400" y2="400" marker-start="url(#a)" marker-end="url(#a)"/><text x="410" y="355">altura do leito</text></g>
+<g id="cota-fundo-falso" class="cota"><line class="e" x1="382" y1="480" x2="406" y2="480"/><line class="d" x1="400" y1="400" x2="400" y2="480" marker-start="url(#a)" marker-end="url(#a)"/><text x="410" y="445">fundo falso (com laje)</text></g>
+<text class="n b" x="590" y="100">reator (lodo)</text>
+<rect class="s" x="590" y="140" width="160" height="340"/>
+<rect class="w" x="600" y="150" width="140" height="320"/>
+<rect class="sl" x="600" y="370" width="140" height="100"/>
+<g id="cota-lodo" class="cota"><line class="e" x1="742" y1="370" x2="776" y2="370"/><line class="e" x1="752" y1="470" x2="776" y2="470"/><line class="d" x1="770" y1="370" x2="770" y2="470" marker-start="url(#a)" marker-end="url(#a)"/><text x="780" y="425">altura para o lodo</text></g>
+<line class="g" x1="860" y1="160" x2="1230" y2="160"/>
+<rect x="860" y="160" width="370" height="10" fill="url(#hach)" stroke="none"/>
+<text class="n b" x="860" y="100">solo</text>
+<rect class="w" x="880" y="160" width="50" height="110"/>
+<text class="n m" x="905" y="150">vala</text>
+<rect class="w" x="1000" y="160" width="60" height="200"/>
+<rect class="w" x="1130" y="160" width="60" height="200"/>
+<line class="h" x1="860" y1="490" x2="1230" y2="490"/>
+<text class="n en" x="1230" y="510">nível máximo do aquífero</text>
+<g id="cota-vala" class="cota"><line class="e" x1="932" y1="270" x2="951" y2="270"/><line class="d" x1="945" y1="270" x2="945" y2="490" marker-start="url(#a)" marker-end="url(#a)"/><text x="870" y="530">vala – aquífero</text></g>
+<g id="cota-sumidouro" class="cota"><line class="e" x1="1062" y1="360" x2="1101" y2="360"/><line class="d" x1="1095" y1="360" x2="1095" y2="490" marker-start="url(#a)" marker-end="url(#a)"/><text x="1050" y="560">sumidouro – aquífero</text></g>
+<g id="cota-entre-sumidouros" class="cota"><line class="d" x1="1060" y1="200" x2="1130" y2="200" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="1095" y="135">entre sumidouros</text></g>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

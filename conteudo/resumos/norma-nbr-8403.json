@@ -5,12 +5,13 @@
   {"titulo": "Larguras", "item": "2–3.3",
    "texto": "Larguras de linha escalonadas na razão dos formatos de papel, para que reduções e ampliações mantenham o padrão. A mesma largura é mantida em todas as vistas de uma peça na mesma escala. Canetas técnicas identificadas por cor.",
    "valores": [
-    {"parametro": "Série de larguras", "valor": "0,13; 0,18; 0,25; 0,35; 0,50; 0,70; 1,00; 1,40; 2,00 mm", "item": "3.1.2", "nota": "0,13 e 0,18 só para originais reproduzidos em escala natural"},
+    {"parametro": "Série de larguras", "valor": "0,13; 0,18; 0,25; 0,35; 0,50; 0,70; 1,00; 1,40; 2,00 mm", "item": "3.1.2", "nota": "0,13 e 0,18 só para originais reproduzidos em escala natural", "cota": "esquemas/desenho-tecnico-hachuras.svg#largura"},
     {"parametro": "Relação larga / estreita", "valor": "≥ 2", "item": "3.1.1"},
-    {"parametro": "Espaçamento entre linhas paralelas (e hachuras)", "valor": "≥ 2 × a linha mais larga; recomendado ≥ 0,70 mm", "item": "3.2"},
+    {"parametro": "Espaçamento entre linhas paralelas (e hachuras)", "valor": "≥ 2 × a linha mais larga; recomendado ≥ 0,70 mm", "item": "3.2", "cota": "esquemas/desenho-tecnico-hachuras.svg#espacamento"},
     {"parametro": "Cores de caneta — 0,13 / 0,18 / 0,25 / 0,35", "valor": "lilás / vermelha / branca / amarela", "item": "3.3"},
     {"parametro": "Cores de caneta — 0,50 / 0,70 / 1,00 / 1,40 / 2,00", "valor": "marrom / azul / laranja / verde / cinza", "item": "3.3"}
-   ]},
+   ],
+   "figuras": ["esquemas/desenho-tecnico-hachuras.svg"]},
   {"titulo": "Tipos de linha e uso", "item": "3.4",
    "texto": "Cada tipo de linha tem uso definido.",
    "valores": [

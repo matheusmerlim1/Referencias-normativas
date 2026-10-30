@@ -25,19 +25,22 @@
    "item": "Anexo 1, 3 (Quadros 2–4)",
    "texto": "A área de risco em torno de depósitos é uma faixa de terreno cuja largura depende da quantidade e do tipo armazenado. Depósitos com barricada ou entrincheirados podem ter as distâncias do Quadro 4 reduzidas à metade. A área de risco deve ter barreira física contra a entrada de pessoas não autorizadas.",
    "valores": [
-    {"parametro": "Quadro 2 — pólvoras químicas, pirotécnicos e insumos: até 4 500 kg", "valor": "45 m", "item": "Anexo 1, Quadro 2"},
-    {"parametro": "Quadro 2 — > 4 500 até 45 000 kg", "valor": "90 m", "item": "Anexo 1, Quadro 2"},
-    {"parametro": "Quadro 2 — > 45 000 até 90 000 kg", "valor": "110 m", "item": "Anexo 1, Quadro 2"},
-    {"parametro": "Quadro 2 — > 90 000 até 225 000 kg (máximo permitido)", "valor": "180 m", "item": "Anexo 1, Quadro 2"},
-    {"parametro": "Quadro 3 — explosivos iniciadores: até 20 kg", "valor": "75 m", "item": "Anexo 1, Quadro 3"},
-    {"parametro": "Quadro 3 — > 20 até 200 kg", "valor": "220 m", "item": "Anexo 1, Quadro 3"},
-    {"parametro": "Quadro 3 — > 200 até 900 kg", "valor": "300 m", "item": "Anexo 1, Quadro 3"},
-    {"parametro": "Quadro 3 — > 900 até 2 200 kg", "valor": "370 m", "item": "Anexo 1, Quadro 3"},
-    {"parametro": "Quadro 3 — > 2 200 até 4 500 kg", "valor": "460 m", "item": "Anexo 1, Quadro 3"},
-    {"parametro": "Quadro 3 — > 4 500 até 6 800 kg", "valor": "500 m", "item": "Anexo 1, Quadro 3"},
-    {"parametro": "Quadro 3 — > 6 800 até 9 000 kg (máximo permitido)", "valor": "530 m", "item": "Anexo 1, Quadro 3"},
+    {"parametro": "Quadro 2 — pólvoras químicas, pirotécnicos e insumos: até 4 500 kg", "valor": "45 m", "item": "Anexo 1, Quadro 2", "cota": "esquemas/resumo-nr-16-areas-risco.svg#distancia-seguranca"},
+    {"parametro": "Quadro 2 — > 4 500 até 45 000 kg", "valor": "90 m", "item": "Anexo 1, Quadro 2", "cota": "esquemas/resumo-nr-16-areas-risco.svg#distancia-seguranca"},
+    {"parametro": "Quadro 2 — > 45 000 até 90 000 kg", "valor": "110 m", "item": "Anexo 1, Quadro 2", "cota": "esquemas/resumo-nr-16-areas-risco.svg#distancia-seguranca"},
+    {"parametro": "Quadro 2 — > 90 000 até 225 000 kg (máximo permitido)", "valor": "180 m", "item": "Anexo 1, Quadro 2", "cota": "esquemas/resumo-nr-16-areas-risco.svg#distancia-seguranca"},
+    {"parametro": "Quadro 3 — explosivos iniciadores: até 20 kg", "valor": "75 m", "item": "Anexo 1, Quadro 3", "cota": "esquemas/resumo-nr-16-areas-risco.svg#distancia-seguranca"},
+    {"parametro": "Quadro 3 — > 20 até 200 kg", "valor": "220 m", "item": "Anexo 1, Quadro 3", "cota": "esquemas/resumo-nr-16-areas-risco.svg#distancia-seguranca"},
+    {"parametro": "Quadro 3 — > 200 até 900 kg", "valor": "300 m", "item": "Anexo 1, Quadro 3", "cota": "esquemas/resumo-nr-16-areas-risco.svg#distancia-seguranca"},
+    {"parametro": "Quadro 3 — > 900 até 2 200 kg", "valor": "370 m", "item": "Anexo 1, Quadro 3", "cota": "esquemas/resumo-nr-16-areas-risco.svg#distancia-seguranca"},
+    {"parametro": "Quadro 3 — > 2 200 até 4 500 kg", "valor": "460 m", "item": "Anexo 1, Quadro 3", "cota": "esquemas/resumo-nr-16-areas-risco.svg#distancia-seguranca"},
+    {"parametro": "Quadro 3 — > 4 500 até 6 800 kg", "valor": "500 m", "item": "Anexo 1, Quadro 3", "cota": "esquemas/resumo-nr-16-areas-risco.svg#distancia-seguranca"},
+    {"parametro": "Quadro 3 — > 6 800 até 9 000 kg (máximo permitido)", "valor": "530 m", "item": "Anexo 1, Quadro 3", "cota": "esquemas/resumo-nr-16-areas-risco.svg#distancia-seguranca"},
     {"parametro": "Quadro 4 — explosivos de ruptura e pólvoras mecânicas (negra, chocolate): quantidade até (kg) → faixa (m)", "valor": "23 → 45; 45 → 75; 90 → 110; 135 → 160; 180 → 200; 225 → 220; 270 → 250; 300 → 265; 360 → 280; 400 → 300; 450 → 310; 680 → 345; 900 → 365; 1 300 → 405; 1 800 → 435; 2 200 → 460; 2 700 → 480; 3 100 → 490; 3 600 → 510; 4 000 → 520; 4 500 → 530; 6 800 → 570; 9 000 → 620; 11 300 → 660; 13 600 → 700; 18 100 → 780; 22 600 → 860; 34 000 → 1 000; 45 300 → 1 100; 68 000 → 1 150; 90 700 → 1 250; 113 300 → 1 350", "item": "Anexo 1, Quadro 4"},
     {"parametro": "Quadro 4 — depósito barricado ou entrincheirado", "valor": "distâncias podem ser reduzidas à metade", "item": "Anexo 1, 3 d)"}
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-16-areas-risco.svg"
    ]
   },
   {
@@ -54,25 +57,28 @@
    "item": "Anexo 2, 3",
    "texto": "A área de risco é definida por círculos em torno do ponto de vazamento ou enchimento, por faixas em torno da área de operação ou pelo recinto inteiro, conforme a atividade.",
    "valores": [
-    {"parametro": "a) Poço de petróleo produzindo gás", "valor": "círculo de raio ≥ 30 m centrado na boca do poço", "item": "Anexo 2, 3 a"},
-    {"parametro": "b) Unidade de processamento de refinaria", "valor": "faixa ≥ 30 m em torno da área de operação", "item": "Anexo 2, 3 b"},
-    {"parametro": "c) Outros locais de refinaria com inflamável volátil (ou que possa volatilizar por falha)", "valor": "faixa ≥ 15 m em torno da área de operação", "item": "Anexo 2, 3 c"},
+    {"parametro": "a) Poço de petróleo produzindo gás", "valor": "círculo de raio ≥ 30 m centrado na boca do poço", "item": "Anexo 2, 3 a", "cota": "esquemas/resumo-nr-16-areas-risco.svg#raio"},
+    {"parametro": "b) Unidade de processamento de refinaria", "valor": "faixa ≥ 30 m em torno da área de operação", "item": "Anexo 2, 3 b", "cota": "esquemas/resumo-nr-16-areas-risco.svg#faixa"},
+    {"parametro": "c) Outros locais de refinaria com inflamável volátil (ou que possa volatilizar por falha)", "valor": "faixa ≥ 15 m em torno da área de operação", "item": "Anexo 2, 3 c", "cota": "esquemas/resumo-nr-16-areas-risco.svg#faixa"},
     {"parametro": "d) Tanques de inflamável líquido", "valor": "toda a bacia de segurança", "item": "Anexo 2, 3 d"},
-    {"parametro": "e) Tanques elevados de inflamável gasoso", "valor": "círculo de raio 3 m centrado nos pontos de vazamento eventual (válvulas, registros, medição por escape, gaxetas)", "item": "Anexo 2, 3 e"},
-    {"parametro": "f) Carga/descarga de inflamável líquido em navios, chatas e batelões", "valor": "15 m a partir da beira do cais, ao longo do comprimento da embarcação, durante a operação", "item": "Anexo 2, 3 f"},
+    {"parametro": "e) Tanques elevados de inflamável gasoso", "valor": "círculo de raio 3 m centrado nos pontos de vazamento eventual (válvulas, registros, medição por escape, gaxetas)", "item": "Anexo 2, 3 e", "cota": "esquemas/resumo-nr-16-areas-risco.svg#raio"},
+    {"parametro": "f) Carga/descarga de inflamável líquido em navios, chatas e batelões", "valor": "15 m a partir da beira do cais, ao longo do comprimento da embarcação, durante a operação", "item": "Anexo 2, 3 f", "cota": "esquemas/resumo-nr-16-areas-risco.svg#cais"},
     {"parametro": "g) Abastecimento de aeronaves", "valor": "toda a área de operação", "item": "Anexo 2, 3 g"},
-    {"parametro": "h) Enchimento de vagão/caminhão-tanque com inflamável líquido", "valor": "círculo de raio 15 m centrado nas bocas de enchimento", "item": "Anexo 2, 3 h"},
-    {"parametro": "i) Enchimento de vagão/caminhão-tanque com inflamável gasoso liquefeito", "valor": "círculo de 7,5 m centrado nos pontos de vazamento eventual (válvulas e registros)", "item": "Anexo 2, 3 i"},
-    {"parametro": "j) Enchimento de vasilhames com inflamável gasoso liquefeito", "valor": "círculos de raio 15 m centrados nos bicos de enchimento", "item": "Anexo 2, 3 j"},
-    {"parametro": "l) Enchimento de vasilhames com inflamável líquido em local aberto", "valor": "círculo de raio 7,5 m centrado nos bicos de enchimento", "item": "Anexo 2, 3 l"},
+    {"parametro": "h) Enchimento de vagão/caminhão-tanque com inflamável líquido", "valor": "círculo de raio 15 m centrado nas bocas de enchimento", "item": "Anexo 2, 3 h", "cota": "esquemas/resumo-nr-16-areas-risco.svg#raio"},
+    {"parametro": "i) Enchimento de vagão/caminhão-tanque com inflamável gasoso liquefeito", "valor": "círculo de 7,5 m centrado nos pontos de vazamento eventual (válvulas e registros)", "item": "Anexo 2, 3 i", "cota": "esquemas/resumo-nr-16-areas-risco.svg#raio"},
+    {"parametro": "j) Enchimento de vasilhames com inflamável gasoso liquefeito", "valor": "círculos de raio 15 m centrados nos bicos de enchimento", "item": "Anexo 2, 3 j", "cota": "esquemas/resumo-nr-16-areas-risco.svg#raio"},
+    {"parametro": "l) Enchimento de vasilhames com inflamável líquido em local aberto", "valor": "círculo de raio 7,5 m centrado nos bicos de enchimento", "item": "Anexo 2, 3 l", "cota": "esquemas/resumo-nr-16-areas-risco.svg#raio"},
     {"parametro": "m) Enchimento de vasilhames com inflamável líquido em recinto fechado", "valor": "todo o recinto", "item": "Anexo 2, 3 m"},
-    {"parametro": "n) Manutenção de viaturas-tanque, bombas e vasilhames que continham inflamável líquido", "valor": "local da operação + faixa de 7,5 m em volta", "item": "Anexo 2, 3 n"},
-    {"parametro": "o) Desgaseificação, decantação e reparo de vasilhames de transporte de inflamáveis", "valor": "local da operação + faixa de 7,5 m em volta", "item": "Anexo 2, 3 o"},
-    {"parametro": "p) Testes em aparelhos de consumo de gás", "valor": "local da operação + faixa de 7,5 m em volta", "item": "Anexo 2, 3 p"},
-    {"parametro": "q) Abastecimento de inflamáveis (posto)", "valor": "toda a área de operação, no mínimo: círculo de 7,5 m no ponto de abastecimento, círculo de 7,5 m na bomba e faixa de 7,5 m para os dois lados da máquina", "item": "Anexo 2, 3 q"},
-    {"parametro": "r) Armazenagem de vasilhames de inflamável líquido (ou vazios não desgaseificados) em local aberto", "valor": "faixa de 3 m em volta", "item": "Anexo 2, 3 r"},
+    {"parametro": "n) Manutenção de viaturas-tanque, bombas e vasilhames que continham inflamável líquido", "valor": "local da operação + faixa de 7,5 m em volta", "item": "Anexo 2, 3 n", "cota": "esquemas/resumo-nr-16-areas-risco.svg#faixa"},
+    {"parametro": "o) Desgaseificação, decantação e reparo de vasilhames de transporte de inflamáveis", "valor": "local da operação + faixa de 7,5 m em volta", "item": "Anexo 2, 3 o", "cota": "esquemas/resumo-nr-16-areas-risco.svg#faixa"},
+    {"parametro": "p) Testes em aparelhos de consumo de gás", "valor": "local da operação + faixa de 7,5 m em volta", "item": "Anexo 2, 3 p", "cota": "esquemas/resumo-nr-16-areas-risco.svg#faixa"},
+    {"parametro": "q) Abastecimento de inflamáveis (posto)", "valor": "toda a área de operação, no mínimo: círculo de 7,5 m no ponto de abastecimento, círculo de 7,5 m na bomba e faixa de 7,5 m para os dois lados da máquina", "item": "Anexo 2, 3 q", "cota": "esquemas/resumo-nr-16-areas-risco.svg#raio"},
+    {"parametro": "r) Armazenagem de vasilhames de inflamável líquido (ou vazios não desgaseificados) em local aberto", "valor": "faixa de 3 m em volta", "item": "Anexo 2, 3 r", "cota": "esquemas/resumo-nr-16-areas-risco.svg#faixa"},
     {"parametro": "s) Mesma armazenagem em recinto fechado", "valor": "todo o recinto", "item": "Anexo 2, 3 s"},
-    {"parametro": "t) Carga/descarga de vasilhames de inflamável líquido em navios, chatas e batelões", "valor": "3 m a partir da beira do cais, ao longo da embarcação, durante a operação", "item": "Anexo 2, 3 t"}
+    {"parametro": "t) Carga/descarga de vasilhames de inflamável líquido em navios, chatas e batelões", "valor": "3 m a partir da beira do cais, ao longo da embarcação, durante a operação", "item": "Anexo 2, 3 t", "cota": "esquemas/resumo-nr-16-areas-risco.svg#cais"}
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-16-areas-risco.svg"
    ]
   },
   {

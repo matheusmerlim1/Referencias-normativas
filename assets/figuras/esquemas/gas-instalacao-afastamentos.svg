@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1450 680" width="1450" height="680" role="img" aria-label="Instalação de gás — afastamentos, abrigo, descargas e tubulação enterrada">
+<title>Instalação de gás — afastamentos, abrigo, descargas e tubulação enterrada (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Instalação de gás — afastamentos, abrigo, descargas e tubulação enterrada</text>
+<text class="n b" x="60" y="70">fachada (vista frontal)</text>
+<rect class="sl" x="60" y="110" width="440" height="400"/>
+<line class="g" x1="40" y1="510" x2="540" y2="510"/>
+<rect x="40" y="510" width="500" height="10" fill="url(#hach)" stroke="none"/>
+<rect class="w" x="330" y="160" width="80" height="90"/>
+<text class="n m" x="370" y="210">janela</text>
+<path class="g" d="M150,510 L150,200 L240,200"/>
+<path d="M150,510 L150,200 L240,200" fill="none" stroke="#8c8c8c" stroke-width="7"/>
+<text class="n" x="160" y="190">descarga do alívio</text>
+<g id="cota-alivio-aberturas" class="cota"><line class="d" x1="240" y1="220" x2="330" y2="220" marker-start="url(#a)" marker-end="url(#a)"/><text x="175" y="275">descarga – aberturas</text></g>
+<line x1="100" y1="510" x2="100" y2="300" stroke="#666" stroke-width="3" stroke-dasharray="10 5"/>
+<text class="n" x="70" y="292">eletroduto</text>
+<g id="cota-eletrico" class="cota"><line class="d" x1="100" y1="420" x2="150" y2="420" marker-start="url(#a)" marker-end="url(#a)"/><text x="160" y="405">afastamento de condutores elétricos</text></g>
+<line x1="480" y1="510" x2="480" y2="110" stroke="#444" stroke-width="3"/>
+<text class="n en" x="470" y="130">descida SPDA</text>
+<g id="cota-spda" class="cota"><line class="d" x1="150" y1="350" x2="480" y2="350" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="315" y="342">afastamento do SPDA / aterramento</text></g>
+<rect class="w" x="340" y="425" width="100" height="45"/>
+<text class="n m" x="390" y="453">abrigo</text>
+<g id="cota-abrigo" class="cota"><line class="e" x1="442" y1="470" x2="461" y2="470"/><line class="d" x1="455" y1="470" x2="455" y2="510" marker-start="url(#a)" marker-end="url(#a)"/><text x="300" y="548">base do abrigo acima do piso</text></g>
+<text class="n b" x="600" y="70">planta</text>
+<line class="g" x1="620" y1="90" x2="620" y2="290"/>
+<text class="n" x="630" y="285">fachada</text>
+<circle class="s" cx="900" cy="190" r="40"/>
+<text class="n m" x="900" y="250">recipiente / regulador</text>
+<g id="cota-regulador-fachada" class="cota"><line class="d" x1="620" y1="190" x2="860" y2="190" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="740" y="180">descarga do regulador – fachada</text></g>
+<rect class="sl" x="1080" y="140" width="90" height="60"/>
+<text class="n m" x="1125" y="175">aparelho</text>
+<path d="M1000,110 C1040,90 1030,200 1080,170" fill="none" stroke="#666" stroke-width="4"/>
+<circle class="s" cx="1000" cy="110" r="6"/>
+<g id="cota-mangueira" class="cota"><line class="d" x1="1000" y1="285" x2="1040" y2="140" marker-end="url(#a)"/><text x="870" y="300">mangueira do aparelho (comprimento)</text></g>
+<text class="n b" x="600" y="350">corte (tubulação enterrada)</text>
+<line class="g" x1="600" y1="380" x2="1220" y2="380"/>
+<rect x="600" y="380" width="620" height="10" fill="url(#hach)" stroke="none"/>
+<circle class="w" cx="700" cy="470" r="32"/>
+<circle class="s" cx="700" cy="488" r="14"/>
+<text class="n" x="640" y="530">tubo dentro de duto</text>
+<g id="cota-folga-duto" class="cota"><line class="e" x1="702" y1="438" x2="766" y2="438"/><line class="e" x1="702" y1="474" x2="766" y2="474"/><line class="d" x1="760" y1="438" x2="760" y2="474" marker-start="url(#a)" marker-end="url(#a)"/><text x="640" y="420">folga tubo – parede do duto</text></g>
+<circle class="s" cx="950" cy="470" r="14"/>
+<g id="cota-profundidade" class="cota"><line class="e" x1="952" y1="456" x2="996" y2="456"/><line class="d" x1="990" y1="380" x2="990" y2="456" marker-start="url(#a)" marker-end="url(#a)"/><text x="1000" y="400">recobrimento</text></g>
+<circle class="w" cx="1100" cy="470" r="14"/>
+<text class="n m" x="1100" y="500">outra utilidade</text>
+<g id="cota-utilidades" class="cota"><line class="e" x1="964" y1="472" x2="964" y2="536"/><line class="e" x1="1086" y1="472" x2="1086" y2="536"/><line class="d" x1="964" y1="530" x2="1086" y2="530" marker-start="url(#a)" marker-end="url(#a)"/><text x="964" y="523">afastamento de outras utilidades</text></g>
+<rect class="sl" x="620" y="600" width="280" height="16"/>
+<circle class="s" cx="760" cy="592" r="10"/>
+<text class="n" x="910" y="615">eletroduto cruzando o tubo de gás</text>
+<g id="cota-cruzamento" class="cota"><line class="e" x1="620" y1="598" x2="620" y2="574"/><line class="e" x1="900" y1="598" x2="900" y2="574"/><line class="e" x1="760" y1="580" x2="760" y2="574"/><line class="d" x1="620" y1="578" x2="760" y2="578" marker-start="url(#a)" marker-end="url(#a)"/><line class="d" x1="760" y1="578" x2="900" y2="578" marker-start="url(#a)" marker-end="url(#a)"/><text x="620" y="568">proteção (cada lado do cruzamento)</text></g>
+<text class="n" x="20" y="668">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

@@ -5,8 +5,9 @@
   {"titulo": "Requisitos", "item": "4–5",
    "texto": "Cópias de A0, A1, A2 e A3 (e formatos maiores ou especiais) são dobradas até ficar no tamanho A4 (NBR 10068), com a legenda visível. Dobras verticais começando pela direita, com as medidas das figuras de cada formato; para arquivar furado, dobra-se para trás o canto superior esquerdo de A0, A1 e A2.",
    "valores": [
-    {"parametro": "Formato final dobrado", "valor": "A4 (210 × 297 mm)", "item": "4.1"},
+    {"parametro": "Formato final dobrado", "valor": "A4 (210 × 297 mm)", "item": "4.1", "cota": "esquemas/desenho-tecnico-folha.svg#formato"},
     {"parametro": "Sequência", "valor": "dobras verticais a partir da direita, legenda à vista", "item": "5.1–5.2", "nota": "medidas de cada dobra nas Figuras 1–4 — conferir"}
-   ]}
+   ],
+   "figuras": ["esquemas/desenho-tecnico-folha.svg"]}
  ]
 }

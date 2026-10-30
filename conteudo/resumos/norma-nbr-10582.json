@@ -8,8 +8,9 @@
   {"titulo": "Espaço para texto", "item": "4.2",
    "texto": "À direita ou na margem inferior, com tudo o que é preciso para entender o desenho, escrito pela NBR 8402 e dividido em colunas compatíveis com o dobramento em A4. Conteúdo: explanação (símbolos, designações, abreviaturas, tipos de dimensão), instruções (lista de material, acabamento superficial, local de montagem, nº de peças), referências a outros documentos, planta de situação (visível após dobrar, com seta norte) e tábua de revisão (nº/letra, referência da malha, assunto, responsável e data).",
    "valores": [
-    {"parametro": "Largura do espaço para texto", "valor": "igual à da legenda ou ≥ 100 mm", "item": "4.2.3"}
-   ]},
+    {"parametro": "Largura do espaço para texto", "valor": "igual à da legenda ou ≥ 100 mm", "item": "4.2.3", "cota": "esquemas/desenho-tecnico-folha.svg#legenda"}
+   ],
+   "figuras": ["esquemas/desenho-tecnico-folha.svg"]},
   {"titulo": "Legenda", "item": "4.3",
    "texto": "Traçada conforme NBR 10068. Contém: empresa, responsável pelo conteúdo, local/data/assinatura, nome e local do projeto, conteúdo do desenho, escala (NBR 8196), número do desenho, revisão, método de projeção (NBR 10067) e unidade usada.",
    "valores": []}

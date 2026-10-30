@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 480" width="1150" height="480" role="img" aria-label="Transporte de produtos perigosos — rótulo de risco, painel de segurança e placa triangular">
+<title>Transporte de produtos perigosos — rótulo de risco, painel de segurança e placa triangular (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Transporte de produtos perigosos — rótulo de risco, painel de segurança e placa triangular</text>
+<path class="sl" d="M180,120 L290,230 L180,340 L70,230 z"/>
+<path class="e" d="M180,135 L275,230 L180,325 L85,230 z"/>
+<g id="cota-rotulo-lado" class="cota"><line class="d" x1="194" y1="106" x2="304" y2="216" marker-start="url(#a)" marker-end="url(#a)"/><text x="262" y="138">lado do rótulo</text></g>
+<rect class="s" x="168" y="285" width="24" height="32"/>
+<g id="cota-numero" class="cota"><line class="e" x1="200" y1="285" x2="226" y2="285"/><line class="e" x1="200" y1="317" x2="226" y2="317"/><line class="d" x1="220" y1="285" x2="220" y2="317" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="300" y1="362" x2="222" y2="305"/><text x="220" y="385">número da classe (altura e traço)</text></g>
+<rect x="430" y="170" width="250" height="130" fill="#e3a54a" fill-opacity=".35" stroke="#444" stroke-width="10"/>
+<line class="g" x1="430" y1="235" x2="680" y2="235"/>
+<g id="cota-painel-borda" class="cota"><line class="d" x1="399" y1="150" x2="425" y2="150" marker-end="url(#a)"/><line class="d" x1="461" y1="150" x2="435" y2="150" marker-end="url(#a)"/><line class="d" x1="425" y1="150" x2="435" y2="150"/><text x="450" y="145">borda do painel</text></g>
+<path class="sl" d="M770,330 L950,330 L860,174 z"/>
+<g id="cota-triangulo" class="cota"><line class="e" x1="770" y1="334" x2="770" y2="371"/><line class="e" x1="950" y1="334" x2="950" y2="371"/><line class="d" x1="770" y1="365" x2="950" y2="365" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="860" y="390">lado do triângulo</text></g>
+<text class="n" x="20" y="468">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

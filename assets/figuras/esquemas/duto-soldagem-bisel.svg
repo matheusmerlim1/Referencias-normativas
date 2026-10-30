@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 520" width="1250" height="520" role="img" aria-label="Duto — corte de solda, faixas limpas junto ao bisel, mossa, goivagem e solda longitudinal">
+<title>Duto — corte de solda, faixas limpas junto ao bisel, mossa, goivagem e solda longitudinal (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Duto — corte de solda, faixas limpas junto ao bisel, mossa, goivagem e solda longitudinal</text>
+<rect class="s" x="80" y="180" width="640" height="100"/>
+<rect class="r" x="396" y="176" width="8" height="108"/>
+<line class="h" x1="350" y1="160" x2="350" y2="300"/>
+<line class="h" x1="450" y1="160" x2="450" y2="300"/>
+<g id="cota-anel" class="cota"><line class="e" x1="350" y1="158" x2="350" y2="144"/><line class="e" x1="450" y1="158" x2="450" y2="144"/><line class="d" x1="350" y1="150" x2="450" y2="150" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="400" y="143">anel removido (solda no meio)</text></g>
+<path class="w" d="M396,176 L400,190 L404,176"/>
+<g id="cota-goivagem" class="cota"><line class="d" x1="430" y1="98" x2="400" y2="186" marker-end="url(#a)"/><text x="420" y="95">remoção após goivagem (profundidade)</text></g>
+<line class="g" x1="720" y1="175" x2="720" y2="285"/>
+<path class="w" d="M712,180 L720,180 L720,190 z"/>
+<g id="cota-faixa-esmerilhada" class="cota"><line class="e" x1="670" y1="282" x2="670" y2="321"/><line class="e" x1="720" y1="282" x2="720" y2="321"/><line class="d" x1="670" y1="315" x2="720" y2="315" marker-start="url(#a)" marker-end="url(#a)"/><text x="520" y="340">faixa esmerilhada junto ao bisel</text></g>
+<g id="cota-faixa-limpa" class="cota"><line class="e" x1="695" y1="282" x2="695" y2="376"/><line class="e" x1="720" y1="282" x2="720" y2="376"/><line class="d" x1="669" y1="370" x2="695" y2="370" marker-end="url(#a)"/><line class="d" x1="746" y1="370" x2="720" y2="370" marker-end="url(#a)"/><line class="d" x1="695" y1="370" x2="720" y2="370"/><text x="520" y="395">faixa limpa de cada lado da junta</text></g>
+<g id="cota-mossa" class="cota"><line class="e" x1="722" y1="180" x2="751" y2="180"/><line class="e" x1="722" y1="190" x2="751" y2="190"/><line class="d" x1="745" y1="154" x2="745" y2="180" marker-end="url(#a)"/><line class="d" x1="745" y1="216" x2="745" y2="190" marker-end="url(#a)"/><line class="d" x1="745" y1="180" x2="745" y2="190"/><text x="755" y="200">mossa / entalhe no bisel</text></g>
+<text class="n b" x="960" y="100">seção do tubo</text>
+<circle class="s" cx="1040" cy="260" r="80"/>
+<circle class="w" cx="1040" cy="260" r="66"/>
+<line class="c" x1="1040" y1="150" x2="1040" y2="380"/>
+<g id="cota-solda-longitudinal" class="cota"><path class="d" d="M1021.8,363.4 A105,105 0 0,0 1058.2,363.4" marker-start="url(#a)" marker-end="url(#a)"/><text x="640" y="430">faixa proibida (geratriz inferior)</text></g>
+<text class="n" x="20" y="508">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

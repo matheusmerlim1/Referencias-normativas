@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 480" width="1300" height="480" role="img" aria-label="Escrita em desenho técnico — altura h, largura de linha d, espaçamentos e inclinação">
+<title>Escrita em desenho técnico — altura h, largura de linha d, espaçamentos e inclinação (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Escrita em desenho técnico — altura h, largura de linha d, espaçamentos e inclinação</text>
+<path d="M80,220 L80.0,140 M130,220 L130.0,140 M80.0,180.0 L130.0,180.0 M150,220 L150.0,140 M200,220 L200.0,140 M150.0,180.0 L200.0,180.0 M250,220 L250.0,140 M300,220 L300.0,140 M250.0,180.0 L300.0,180.0 M80,332 L80.0,252 M130,332 L130.0,252 M80.0,292.0 L130.0,292.0 M150,332 L150.0,252 M200,332 L200.0,252 M150.0,292.0 L200.0,292.0" fill="none" stroke="#555" stroke-width="8"/>
+<text class="n b" x="60" y="75">escrita vertical</text>
+<g id="cota-h" class="cota"><line class="e" x1="306" y1="140" x2="346" y2="140"/><line class="e" x1="306" y1="220" x2="346" y2="220"/><line class="d" x1="340" y1="140" x2="340" y2="220" marker-start="url(#a)" marker-end="url(#a)"/><text x="350" y="185">altura h (maiúsculas)</text></g>
+<g id="cota-a" class="cota"><line class="d" x1="108" y1="120" x2="134" y2="120" marker-end="url(#a)"/><line class="d" x1="172" y1="120" x2="146" y2="120" marker-end="url(#a)"/><line class="d" x1="134" y1="120" x2="146" y2="120"/><text x="150" y="105">distância entre caracteres a</text></g>
+<g id="cota-e" class="cota"><line class="e" x1="240" y1="365" x2="225" y2="244"/><line class="d" x1="204" y1="238" x2="246" y2="238" marker-start="url(#a)" marker-end="url(#a)"/><text x="230" y="380">distância entre palavras e</text></g>
+<g id="cota-b" class="cota"><line class="e" x1="306" y1="220" x2="446" y2="220"/><line class="e" x1="206" y1="332" x2="446" y2="332"/><line class="d" x1="440" y1="220" x2="440" y2="332" marker-start="url(#a)" marker-end="url(#a)"/><text x="450" y="290">distância entre linhas de base b</text></g>
+<g id="cota-d" class="cota"><line class="e" x1="70" y1="405" x2="78" y2="206"/><line class="d" x1="50" y1="200" x2="76" y2="200" marker-end="url(#a)"/><line class="d" x1="110" y1="200" x2="84" y2="200" marker-end="url(#a)"/><line class="d" x1="76" y1="200" x2="84" y2="200"/><text x="40" y="420">largura da linha d</text></g>
+<path d="M800,320 L832.2,200 M860,320 L892.2,200 M816.1,260.0 L876.1,260.0 M900,320 L932.2,200 M960,320 L992.2,200 M916.1,260.0 L976.1,260.0" fill="none" stroke="#555" stroke-width="8"/>
+<text class="n b" x="780" y="75">escrita inclinada</text>
+<line class="h" x1="800" y1="330" x2="800" y2="150"/>
+<g id="cota-inclinacao" class="cota"><path class="d" d="M800.0,180.0 A140,140 0 0,1 836.2,184.8" marker-start="url(#a)" marker-end="url(#a)"/><text x="860" y="150">inclinação (da vertical)</text></g>
+<text class="n" x="20" y="468">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

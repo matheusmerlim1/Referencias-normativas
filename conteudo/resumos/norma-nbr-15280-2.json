@@ -8,33 +8,37 @@
   {"titulo": "Materiais, faixa e vala", "item": "5.1–5.6",
    "texto": "Inspeção de recebimento e armazenamento; locação da faixa; abertura da pista e da vala com levantamento topográfico do fundo, fundo regular e sem pontas de rocha; berço de solo selecionado ou sacos de areia; escoramento conforme NR-18; material escavado sem obstruir terceiros.",
    "valores": [
-    {"parametro": "Berço de material fino (D/e > 50)", "valor": "camada de 20 cm sem pedras e raízes", "item": "5.5.1 f)"},
-    {"parametro": "Sobrelargura/profundidade da vala em curvas (área rural)", "valor": "≥ 30 cm", "item": "5.5.8"},
-    {"parametro": "Apoios de sacos de areia (só D/e < 50)", "valor": "espaçamento ≤ 3 m", "item": "5.5.9.3 b)"},
-    {"parametro": "Corte de pontas de rocha abaixo do duto", "valor": "≥ 20 cm", "item": "5.5.9", "nota": "texto cortado — conferir condições"}
-   ]},
+    {"parametro": "Berço de material fino (D/e > 50)", "valor": "camada de 20 cm sem pedras e raízes", "item": "5.5.1 f)", "cota": "esquemas/duto-vala-cobertura.svg#berco"},
+    {"parametro": "Sobrelargura/profundidade da vala em curvas (área rural)", "valor": "≥ 30 cm", "item": "5.5.8", "cota": "esquemas/duto-vala-cobertura.svg#sobrelargura"},
+    {"parametro": "Apoios de sacos de areia (só D/e < 50)", "valor": "espaçamento ≤ 3 m", "item": "5.5.9.3 b)", "cota": "esquemas/duto-vala-cobertura.svg#apoios"},
+    {"parametro": "Corte de pontas de rocha abaixo do duto", "valor": "≥ 20 cm", "item": "5.5.9", "nota": "texto cortado — conferir condições", "cota": "esquemas/duto-vala-cobertura.svg#rocha"}
+   ],
+   "figuras": ["esquemas/duto-vala-cobertura.svg"]},
   {"titulo": "Curvamento de tubos", "item": "5.7",
    "texto": "Curva a frio conforme Parte 1 (oleodutos) ou NBR 12712 (gasodutos); por indução conforme NBR 15273. O raio mínimo é qualificado num tubo revestido com golpes progressivos até enrugamento ou dano ao revestimento; ovalização e enrugamento dentro dos limites (enrugamento pelo B31.4/B31.8).",
    "valores": [
     {"parametro": "Placa do pig calibrador", "valor": "DP = 0,975·D − 2e", "item": "5.7"},
-    {"parametro": "Redução de espessura no curvamento", "valor": "≤ 2,5 % abaixo do mínimo da norma do tubo", "item": "5.7.4 b)", "nota": "texto parcial — conferir"}
-   ]},
+    {"parametro": "Redução de espessura no curvamento", "valor": "≤ 2,5 % abaixo do mínimo da norma do tubo", "item": "5.7.4 b)", "nota": "texto parcial — conferir", "cota": "esquemas/tubo-costura-dimensoes.svg#e"}
+   ],
+   "figuras": ["esquemas/tubo-costura-dimensoes.svg"]},
   {"titulo": "Soldagem e inspeção", "item": "5.9–5.10",
    "texto": "Soldagem e bisel conforme ASME B31.4 (óleo) ou B31.8 (gás); procedimento qualificado pela API 1104 (componentes: ASME IX). Ajuste com gabarito, limpeza interna antes do acoplamento. END e aceitação pelo B31.4/B31.8 e API 1104; ultrassom mecanizado com registro digital (ASTM E1961); gamagrafia com aviso à comunidade e controle de radiação.",
    "valores": [
-    {"parametro": "Remoção de solda circunferencial", "valor": "corte de anel ≥ 100 mm com a solda no meio", "item": "5.9.5"},
-    {"parametro": "Faixa esmerilhada/escovada junto ao bisel", "valor": "≥ 50 mm, interna e externa", "item": "5.9.6"},
-    {"parametro": "Solda longitudinal do tubo", "valor": "fora de ± 10° da geratriz inferior", "item": "5.9.7"},
-    {"parametro": "Mossa ou entalhe no bisel", "valor": "≤ 2 mm (acima, remover)", "item": "5.9.9"},
-    {"parametro": "Faixa limpa de cada lado da junta", "valor": "≥ 20 mm", "item": "5.9.11"},
-    {"parametro": "Remoção após goivagem com eletrodo de carvão", "valor": "≥ 1 mm", "item": "5.9.13"}
-   ]},
+    {"parametro": "Remoção de solda circunferencial", "valor": "corte de anel ≥ 100 mm com a solda no meio", "item": "5.9.5", "cota": "esquemas/duto-soldagem-bisel.svg#anel"},
+    {"parametro": "Faixa esmerilhada/escovada junto ao bisel", "valor": "≥ 50 mm, interna e externa", "item": "5.9.6", "cota": "esquemas/duto-soldagem-bisel.svg#faixa-esmerilhada"},
+    {"parametro": "Solda longitudinal do tubo", "valor": "fora de ± 10° da geratriz inferior", "item": "5.9.7", "cota": "esquemas/duto-soldagem-bisel.svg#solda-longitudinal"},
+    {"parametro": "Mossa ou entalhe no bisel", "valor": "≤ 2 mm (acima, remover)", "item": "5.9.9", "cota": "esquemas/duto-soldagem-bisel.svg#mossa"},
+    {"parametro": "Faixa limpa de cada lado da junta", "valor": "≥ 20 mm", "item": "5.9.11", "cota": "esquemas/duto-soldagem-bisel.svg#faixa-limpa"},
+    {"parametro": "Remoção após goivagem com eletrodo de carvão", "valor": "≥ 1 mm", "item": "5.9.13", "cota": "esquemas/duto-soldagem-bisel.svg#goivagem"}
+   ],
+   "figuras": ["esquemas/duto-soldagem-bisel.svg"]},
   {"titulo": "Revestimento, abaixamento e cobertura", "item": "5.11–5.16",
    "texto": "Revestimento de juntas de campo e reparos; abaixamento sem danificar o revestimento; cobertura logo após o abaixamento; restauração da faixa, sinalização e cruzamentos/travessias.",
    "valores": [
-    {"parametro": "1ª camada de cobertura", "valor": "solo solto sem pedras até 30 cm acima da geratriz superior", "item": "5.13.2"},
+    {"parametro": "1ª camada de cobertura", "valor": "solo solto sem pedras até 30 cm acima da geratriz superior", "item": "5.13.2", "cota": "esquemas/duto-vala-cobertura.svg#cobertura"},
     {"parametro": "Pedras no restante do reaterro", "valor": "≤ 15 cm", "item": "5.13.2"}
-   ]},
+   ],
+   "figuras": ["esquemas/duto-vala-cobertura.svg"]},
   {"titulo": "Limpeza, enchimento e calibração", "item": "6",
    "texto": "Passagem de pigs para remover carepa e detritos, enchimento com água de qualidade controlada e pig calibrador com placa que não pode sair amassada.",
    "valores": []},

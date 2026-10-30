@@ -15,26 +15,29 @@
    "valores": [
     {"parametro": "Massa teórica", "valor": "m = 0,02466·e·(D − e) kg/m (mm)", "item": "4.5.2"},
     {"parametro": "Tolerância de massa", "valor": "± 10 % (por tubo acima de DN 100; por amarrado até DN 100)", "item": "4.5.3"},
-    {"parametro": "Diâmetro externo — DN ≤ 40 / DN ≥ 50", "valor": "± 0,40 mm / ± 1,0 %", "item": "4.6.1"},
-    {"parametro": "Espessura mínima", "valor": "nominal − 12,5 %", "item": "4.6.2"},
-    {"parametro": "Comprimento comercial / faixas", "valor": "6 m ou 12 m / 4–8 m ou 8–13 m", "item": "4.6.3"},
-    {"parametro": "Tolerância de comprimento comercial ou fixo", "valor": "± 50 mm", "item": "4.6.3"},
-    {"parametro": "Rebarba interna da solda (DN > 20) após remoção", "valor": "≤ +0,4 mm ou ≥ −12,5 % da espessura", "item": "4.6.4 b)"}
-   ]},
+    {"parametro": "Diâmetro externo — DN ≤ 40 / DN ≥ 50", "valor": "± 0,40 mm / ± 1,0 %", "item": "4.6.1", "cota": "esquemas/tubo-costura-dimensoes.svg#D"},
+    {"parametro": "Espessura mínima", "valor": "nominal − 12,5 %", "item": "4.6.2", "cota": "esquemas/tubo-costura-dimensoes.svg#e"},
+    {"parametro": "Comprimento comercial / faixas", "valor": "6 m ou 12 m / 4–8 m ou 8–13 m", "item": "4.6.3", "cota": "esquemas/tubo-costura-dimensoes.svg#L"},
+    {"parametro": "Tolerância de comprimento comercial ou fixo", "valor": "± 50 mm", "item": "4.6.3", "cota": "esquemas/tubo-costura-dimensoes.svg#L"},
+    {"parametro": "Rebarba interna da solda (DN > 20) após remoção", "valor": "≤ +0,4 mm ou ≥ −12,5 % da espessura", "item": "4.6.4 b)", "cota": "esquemas/tubo-costura-dimensoes.svg#rebarba"}
+   ],
+   "figuras": ["esquemas/tubo-costura-dimensoes.svg"]},
   {"titulo": "Extremidades", "item": "4.7",
    "texto": "Pontas biseladas, rosqueadas (ASME B1.20.1), rosqueadas com luva (aço ASTM A865 ou ferro maleável/nodular NBR 6925; rosca paralela até DN 50, duplo-cônica a partir de DN 65), lisas ou ranhuradas (AWWA C606).",
    "valores": [
-    {"parametro": "Bisel (DN > 40 e e ≥ 4,8 mm) — ângulo", "valor": "30° (+5°/−0°)", "item": "Fig. 1"},
-    {"parametro": "Bisel — face da raiz", "valor": "1,6 mm ± 0,8 mm", "item": "Fig. 1"}
-   ]},
+    {"parametro": "Bisel (DN > 40 e e ≥ 4,8 mm) — ângulo", "valor": "30° (+5°/−0°)", "item": "Fig. 1", "cota": "esquemas/tubo-costura-extremidade-ensaios.svg#angulo-bisel"},
+    {"parametro": "Bisel — face da raiz", "valor": "1,6 mm ± 0,8 mm", "item": "Fig. 1", "cota": "esquemas/tubo-costura-extremidade-ensaios.svg#face-raiz"}
+   ],
+   "figuras": ["esquemas/tubo-costura-extremidade-ensaios.svg"]},
   {"titulo": "Defeitos e acabamento", "item": "4.8",
    "texto": "Imperfeições avaliadas pelo fabricante; acima do limite são defeitos (reparo por esmerilhamento mantendo a espessura mínima, ou corte).",
    "valores": [
     {"parametro": "Imperfeição considerada defeito", "valor": "profundidade > 12,5 % da espessura nominal", "item": "4.8.2"},
-    {"parametro": "Retilinidade (> DN 20)", "valor": "≤ 0,25 % do comprimento", "item": "4.8.6"},
-    {"parametro": "Amassamento máximo", "valor": "menor de 6,0 mm ou 10 % do diâmetro externo", "item": "4.8.8"},
+    {"parametro": "Retilinidade (> DN 20)", "valor": "≤ 0,25 % do comprimento", "item": "4.8.6", "cota": "esquemas/tubo-costura-dimensoes.svg#retilinidade"},
+    {"parametro": "Amassamento máximo", "valor": "menor de 6,0 mm ou 10 % do diâmetro externo", "item": "4.8.8", "cota": "esquemas/tubo-costura-dimensoes.svg#amassamento"},
     {"parametro": "Marcas a frio > 3,0 mm", "valor": "sem arestas agudas", "item": "4.8.9"}
-   ]},
+   ],
+   "figuras": ["esquemas/tubo-costura-dimensoes.svg"]},
   {"titulo": "Composição e propriedades", "item": "5.1–5.4, Tab. A.1–A.3",
    "texto": "Grau B tipo E com solda tratada termicamente (ou processo que evite martensita não revenida).",
    "valores": [
@@ -49,14 +52,15 @@
   {"titulo": "Ensaios", "item": "5.5–5.9",
    "texto": "Dobramento (até DN 50) ou achatamento; achatamento em três etapas no tipo E (ductilidade da solda, do tubo e homogeneidade); teste hidrostático em cada tubo (tipo S pode trocar por END eletromagnético/ultrassom/eddy current); END da solda dos tubos tipo E a partir de DN 50 com padrão de referência (entalhes e furo de 3,2 mm). Lote = mesma corrida, diâmetro e espessura; tração em 1 tubo por lote.",
    "valores": [
-    {"parametro": "Dobramento a frio (DN ≤ 50)", "valor": "90° sobre mandril de 12 × DN", "item": "5.5.2"},
-    {"parametro": "Dobramento para serpentina", "valor": "180° sobre mandril de 8 × DN", "item": "5.5.4"},
+    {"parametro": "Dobramento a frio (DN ≤ 50)", "valor": "90° sobre mandril de 12 × DN", "item": "5.5.2", "cota": "esquemas/tubo-costura-extremidade-ensaios.svg#dobramento"},
+    {"parametro": "Dobramento para serpentina", "valor": "180° sobre mandril de 8 × DN", "item": "5.5.4", "cota": "esquemas/tubo-costura-extremidade-ensaios.svg#dobramento"},
     {"parametro": "Achatamento tipo E — 1ª etapa", "valor": "até 2/3 do diâmetro sem trinca na solda", "item": "5.6.2.2"},
     {"parametro": "Pressão hidrostática (fora da tabela)", "valor": "P = 2·S·t / D, com S = 0,60 × escoamento mínimo", "item": "5.7.2"},
     {"parametro": "Pressão de teste máxima exigida — DN ≤ 80 / > 80", "valor": "17 200 kPa / 19 300 kPa", "item": "5.7.5"},
     {"parametro": "Tempo de pressão", "valor": "≥ 5 s", "item": "5.7.6"},
     {"parametro": "Finalidade do hidrostático", "valor": "só estanqueidade — não serve de referência para pressão de trabalho", "item": "5.7.7"}
-   ]},
+   ],
+   "figuras": ["esquemas/tubo-costura-extremidade-ensaios.svg"]},
   {"titulo": "Marcação e inspeção", "item": "4.9, 6",
    "texto": "Cada tubo marcado (pintura/estêncil) com fabricante, norma, grau, tipo, dimensões, pressão de teste ou END; tipo E com marca em baixo-relevo; até 40 mm pode ser etiqueta no amarrado; código de barras opcional.",
    "valores": []}

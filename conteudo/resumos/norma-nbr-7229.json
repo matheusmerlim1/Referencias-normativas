@@ -8,10 +8,11 @@
   {"titulo": "Localização", "item": "5.1",
    "texto": "Distâncias horizontais mínimas medidas da face externa do tanque.",
    "valores": [
-    {"parametro": "De construções, limites do terreno, sumidouros, valas e ramal de água", "valor": "1,50 m", "item": "5.1 a)", "nota": "lista completa truncada no texto — conferir"},
-    {"parametro": "De árvores e da rede pública de água", "valor": "3,0 m", "item": "5.1 b)"},
-    {"parametro": "De poços freáticos e corpos d'água", "valor": "15,0 m", "item": "5.1 c)"}
-   ]},
+    {"parametro": "De construções, limites do terreno, sumidouros, valas e ramal de água", "valor": "1,50 m", "item": "5.1 a)", "nota": "lista completa truncada no texto — conferir", "cota": "esquemas/esgoto-tanque-septico.svg#dist-construcao"},
+    {"parametro": "De árvores e da rede pública de água", "valor": "3,0 m", "item": "5.1 b)", "cota": "esquemas/esgoto-tanque-septico.svg#dist-arvore"},
+    {"parametro": "De poços freáticos e corpos d'água", "valor": "15,0 m", "item": "5.1 c)", "cota": "esquemas/esgoto-tanque-septico.svg#dist-poco"}
+   ],
+   "figuras": ["esquemas/esgoto-tanque-septico.svg"]},
   {"titulo": "Dimensionamento", "item": "5.2–5.7",
    "texto": "Volume útil pela fórmula com contribuição diária C, período de detenção T e taxa de acumulação de lodo K (função do intervalo de limpeza e da temperatura do mês mais frio). Na falta de dados locais, usar a Tabela 1.",
    "valores": [
@@ -27,14 +28,15 @@
   {"titulo": "Geometria e detalhes", "item": "5.8–5.15",
    "texto": "Tanques cilíndricos (menos área, mais profundidade) ou prismáticos. Câmaras em série recomendadas para tanques pequenos e médios (até 30 pessoas). Dispositivos de entrada e saída, aberturas de inspeção e estabilidade estrutural.",
    "valores": [
-    {"parametro": "Profundidade útil — V ≤ 6 / 6–10 / > 10 m³", "valor": "1,20–2,20 / 1,50–2,50 / 1,80–2,80 m", "item": "Tab. 4"},
-    {"parametro": "Diâmetro interno mínimo", "valor": "1,10 m", "item": "5.9 b)"},
-    {"parametro": "Largura interna mínima", "valor": "0,80 m", "item": "5.9 c)"},
+    {"parametro": "Profundidade útil — V ≤ 6 / 6–10 / > 10 m³", "valor": "1,20–2,20 / 1,50–2,50 / 1,80–2,80 m", "item": "Tab. 4", "cota": "esquemas/esgoto-tanque-septico.svg#profundidade"},
+    {"parametro": "Diâmetro interno mínimo", "valor": "1,10 m", "item": "5.9 b)", "cota": "esquemas/esgoto-tanque-septico.svg#diametro"},
+    {"parametro": "Largura interna mínima", "valor": "0,80 m", "item": "5.9 c)", "cota": "esquemas/esgoto-tanque-septico.svg#largura"},
     {"parametro": "Relação comprimento/largura (prismático)", "valor": "2:1 a 4:1", "item": "5.9 d)"},
     {"parametro": "Câmaras em série — cilíndrico / prismático", "valor": "3 / 2", "item": "5.10"},
-    {"parametro": "Abertura de inspeção", "valor": "menor dimensão ≥ 0,60 m; raio de alcance para limpeza ≤ 1,50 m", "item": "5.14"},
-    {"parametro": "Folga dispositivos – laje de cobertura", "valor": "≥ 5 cm", "item": "5.12"}
-   ]},
+    {"parametro": "Abertura de inspeção", "valor": "menor dimensão ≥ 0,60 m; raio de alcance para limpeza ≤ 1,50 m", "item": "5.14", "cota": "esquemas/esgoto-tanque-septico.svg#abertura"},
+    {"parametro": "Folga dispositivos – laje de cobertura", "valor": "≥ 5 cm", "item": "5.12", "cota": "esquemas/esgoto-tanque-septico.svg#folga-laje"}
+   ],
+   "figuras": ["esquemas/esgoto-tanque-septico.svg"]},
   {"titulo": "Operação e manutenção", "item": "6",
    "texto": "Ensaio de estanqueidade antes de operar, com o tanque saturado há pelo menos 24 h. Remoção de lodo e escuma no intervalo de projeto (Tab. 3), por empresa especializada, sem contato direto das pessoas com o lodo e com EPI; destinação adequada do lodo.",
    "valores": [

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" width="1100" height="640" role="img" aria-label="Folha de desenho — formato, margens, quadro, legenda e escala de referência">
+<title>Folha de desenho — formato, margens, quadro, legenda e escala de referência (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Folha de desenho — formato, margens, quadro, legenda e escala de referência</text>
+<rect class="h" x="105" y="65" width="670" height="482"/>
+<rect class="sl" x="120" y="80" width="640" height="452"/>
+<rect x="160" y="92" width="588" height="428" fill="#fff" stroke="#444" stroke-width="3"/>
+<rect class="sl" x="548" y="450" width="200" height="70"/>
+<text class="n m" x="648" y="490">legenda</text>
+<line class="e" x1="180" y1="500" x2="180" y2="508"/>
+<line class="e" x1="192" y1="500" x2="192" y2="508"/>
+<line class="e" x1="204" y1="500" x2="204" y2="508"/>
+<line class="e" x1="216" y1="500" x2="216" y2="508"/>
+<line class="e" x1="228" y1="500" x2="228" y2="508"/>
+<line class="e" x1="240" y1="500" x2="240" y2="508"/>
+<line class="e" x1="252" y1="500" x2="252" y2="508"/>
+<line class="e" x1="264" y1="500" x2="264" y2="508"/>
+<line class="e" x1="276" y1="500" x2="276" y2="508"/>
+<line class="e" x1="288" y1="500" x2="288" y2="508"/>
+<line class="e" x1="300" y1="500" x2="300" y2="508"/>
+<rect class="e" x="180" y="500" width="120" height="8"/>
+<g id="cota-excesso" class="cota"><line class="d" x1="440" y1="39" x2="440" y2="65" marker-end="url(#a)"/><line class="d" x1="440" y1="106" x2="440" y2="80" marker-end="url(#a)"/><line class="d" x1="440" y1="65" x2="440" y2="80"/><text x="455" y="55">excesso (folha não recortada)</text></g>
+<g id="cota-formato" class="cota"><line class="e" x1="120" y1="534" x2="120" y2="581"/><line class="e" x1="760" y1="534" x2="760" y2="581"/><line class="d" x1="120" y1="575" x2="760" y2="575" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="762" y1="80" x2="806" y2="80"/><line class="e" x1="762" y1="532" x2="806" y2="532"/><line class="d" x1="800" y1="80" x2="800" y2="532" marker-start="url(#a)" marker-end="url(#a)"/><text x="810" y="310">altura</text><text class="m" x="440" y="568">formato (largura × altura)</text></g>
+<g id="cota-margem-esq" class="cota"><line class="d" x1="120" y1="150" x2="160" y2="150" marker-start="url(#a)" marker-end="url(#a)"/><text x="172" y="146">margem esq.</text></g>
+<g id="cota-margem-dir" class="cota"><line class="d" x1="722" y1="150" x2="748" y2="150" marker-end="url(#a)"/><line class="d" x1="786" y1="150" x2="760" y2="150" marker-end="url(#a)"/><line class="d" x1="748" y1="150" x2="760" y2="150"/><text class="en" x="716" y="146">margem dir.</text></g>
+<g id="cota-legenda" class="cota"><line class="d" x1="548" y1="438" x2="748" y2="438" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="648" y="430">comprimento da legenda</text></g>
+<g id="cota-quadro" class="cota"><line class="d" x1="330" y1="125" x2="400" y2="94" marker-end="url(#a)"/><text x="220" y="130">linha do quadro (espessura)</text></g>
+<g id="cota-escala-ref" class="cota"><line class="d" x1="180" y1="488" x2="300" y2="488" marker-start="url(#a)" marker-end="url(#a)"/><text x="180" y="478">escala métrica de referência</text></g>
+<text class="n" x="20" y="628">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

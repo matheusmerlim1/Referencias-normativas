@@ -169,7 +169,7 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
 ## ESTADO ATUAL (30/out/2026)
 - 802 fichas = 23 TEMÁTICAS (curadas, públicas) + 779 de NORMA (`norma-*.json`, geradas, locais); 22 839 requisitos; 779 normas.
 - 779/779 RESUMOS próprios (`conteudo/resumos/`), 6 543 valores; 902 valores ligados a cota.
-- 230 SVG próprios em `assets/figuras/esquemas/`; as 23 temáticas NÃO têm mais figura de norma (tudo trocado por SVG).
+- 274 SVG próprios em `assets/figuras/esquemas/`; as 23 temáticas NÃO têm mais figura de norma (tudo trocado por SVG).
 - Catálogo do acervo T: 3 933 documentos únicos (`conteudo/catalogo.json`) → buscáveis no site como "Documentos no acervo".
 - Triagem de `referencias/`: 775/775 documentos relevantes incorporados (100 %). Auditoria de imagens encerrada (28/out).
 - `verificar_autossuficiente.py` = 0 erros → `referencias/` (6,7 GB) PODE ser removida — o usuário decide. Sem ela param as
@@ -202,9 +202,13 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
   API 14E, VIII-1 UG/UW, B18.2.6, ISO 13920, DNV-OS-C101, EN 10034, API 1104 → 59 valores, +5 SVG, 8 SVG ampliados. Sem pendência
   dimensional: B16.9/11/34/48, B31.4/8, B36.10M, IX, VIII-2, ISO 4032. Agora: 1013 valores com cota; ~974 dimensionais sem cota em 312
   resumos (muitos são faixa de aplicação/condição — o regex não distingue).
+- **Cotas nos resumos — LOTE 4 FEITO** (30/out; coordenador + 1 agente): NRs 10/11/15/16/17/19/21 (93 valores, +7 SVG resumo-nr-*,
+  NR-10 ganhou cota-rr-rc) e 36 NBR/IEC (211 valores, +26 SVG: desenho técnico, SPDA, gás, esgoto, vento, IP, PEMT, tubos com
+  costura, placa de orifício, ensaio de tração…). Agora: 1317 valores com cota; ~688 com unidade sem cota em 294 resumos; 274 SVG.
+  Scripts reaproveitáveis (scratchpad da sessão, podem sumir): aplicar.py preserva o formato do JSON (indent 1, valores compactos).
 
 ## PRÓXIMOS PASSOS (continuar daqui)
-Lotes 1, 2 e 3 feitos (30/out). Próximo: LOTE 4. Commit + push ao fim de cada lote (pedido do usuário).
+Lotes 1–4 feitos (30/out). Próximo: LOTE 5 (specs ASME-SA/SB/SFA, ISO, DIN, API e demais). Commit + push ao fim de cada lote (pedido do usuário).
 1. **Cotas nos resumos** — faltam ~1 049 valores dimensionais sem cota em 316 resumos. Um agente por vez, por lote. O agente:
    reutiliza SVG existentes (acrescenta grupo `cota-<nome>` sem quebrar os que já existem), só cria SVG novo DO ZERO (só rótulos,
    nunca números; rodapé "Esquema ilustrativo (não é desenho da norma) — sem escala."), põe `"cota"` no valor e o SVG em `figuras`
@@ -216,7 +220,7 @@ Lotes 1, 2 e 3 feitos (30/out). Próximo: LOTE 4. Commit + push ao fim de cada l
    - ~~Lote 3 — tubulação/flange/solda/vaso~~ (FEITO): ASME-B31.3 (18), AWS-D1.1 (22), B16.5 (8), B16.25 (6), B16.47 (6), B16.20 (4),
      API-RP-14E (8), NORSOK-L-005, ASME-VIII-1-UG (4)/UW (6)/UCS (7), B18.2.6 (5), ISO-898-1, ISO-9013, ISO-13920, API-RP-2A,
      DNV-OS-C101 (4).
-   - **Lote 4+**: resto por uso — NR-15 (23), NR-17 (17), NR-11 (12) e as demais.
+   - ~~Lote 4~~ (FEITO: NRs + NBR). **Lote 5+**: resto por uso — NR-15 (23), NR-17 (17), NR-11 (12) e as demais.
    - Sobras do lote 1 (4 em F1166, 4 em NR-37, 9 em NR-12…): o agente julgou não-geométricas; não refazer.
    - Contagem de pendentes: valor com `\d\s*(mm|cm|m|in\.?|pol|°|")` em `valores[].valor` de `conteudo/resumos/*.json` sem
      "cota", ordenado pelo nº de requisitos da norma nas temáticas (os números entre parênteses acima vêm daí).

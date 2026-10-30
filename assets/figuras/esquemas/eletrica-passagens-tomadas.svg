@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 520" width="1250" height="520" role="img" aria-label="Instalações elétricas — passagens de operação/manutenção e tomadas ao longo do perímetro">
+<title>Instalações elétricas — passagens de operação/manutenção e tomadas ao longo do perímetro (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Instalações elétricas — passagens de operação/manutenção e tomadas ao longo do perímetro</text>
+<text class="n b" x="60" y="80">passagens (planta)</text>
+<rect class="s" x="80" y="120" width="60" height="280"/>
+<text class="n m" x="110" y="420">partes vivas</text>
+<line class="g" x1="300" y1="110" x2="300" y2="410"/>
+<g id="cota-um-lado" class="cota"><line class="d" x1="140" y1="260" x2="300" y2="260" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="220" y="252">um lado</text></g>
+<rect class="s" x="380" y="120" width="60" height="280"/>
+<rect class="s" x="600" y="120" width="60" height="280"/>
+<g id="cota-dois-lados" class="cota"><line class="d" x1="440" y1="260" x2="600" y2="260" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="520" y="252">dois lados</text></g>
+<text class="n" x="60" y="460">largura livre da passagem entre partes vivas / parede</text>
+<text class="n b" x="720" y="80">cômodo (planta)</text>
+<path class="g" d="M720,110 L1100,110 L1100,400 L800,400 M740,400 L720,400 L720,110"/>
+<path class="e" d="M740,400 A60,60 0 0,1 800,340"/>
+<circle class="s" cx="830" cy="110" r="7"/>
+<circle class="s" cx="960" cy="110" r="7"/>
+<circle class="s" cx="1100" cy="250" r="7"/>
+<circle class="s" cx="1100" cy="370" r="7"/>
+<circle class="s" cx="720" cy="260" r="7"/>
+<circle class="s" cx="850" cy="400" r="7"/>
+<g id="cota-tomadas" class="cota"><line class="e" x1="830" y1="117" x2="830" y2="136"/><line class="e" x1="960" y1="117" x2="960" y2="136"/><line class="d" x1="830" y1="130" x2="960" y2="130" marker-start="url(#a)" marker-end="url(#a)"/><text x="760" y="160">espaçamento das tomadas</text></g>
+<g id="cota-porta" class="cota"><line class="e" x1="800" y1="402" x2="800" y2="436"/><line class="e" x1="850" y1="407" x2="850" y2="436"/><line class="d" x1="800" y1="430" x2="850" y2="430" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="825" y="455">tomada junto à porta</text></g>
+<text class="n" x="20" y="508">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

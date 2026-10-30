@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 640" width="1350" height="640" role="img" aria-label="SPDA — esfera rolante, ângulo de proteção, malha, descidas e aterramento">
+<title>SPDA — esfera rolante, ângulo de proteção, malha, descidas e aterramento (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">SPDA — esfera rolante, ângulo de proteção, malha, descidas e aterramento</text>
+<line class="g" x1="30" y1="530" x2="840" y2="530"/>
+<rect x="30" y="530" width="810" height="10" fill="url(#hach)" stroke="none"/>
+<rect class="sl" x="400" y="250" width="360" height="280"/>
+<circle cx="217" cy="330" r="200" fill="none" stroke="#666" stroke-width="1.1" stroke-dasharray="6 4"/>
+<g id="cota-raio-esfera" class="cota"><line class="d" x1="217" y1="330" x2="76" y2="189" marker-start="url(#a)" marker-end="url(#a)"/><text x="40" y="110">raio da esfera rolante</text></g>
+<line class="e" x1="76" y1="189" x2="70" y2="120"/>
+<line class="g" x1="420" y1="250" x2="420" y2="530"/>
+<line class="g" x1="580" y1="250" x2="580" y2="530"/>
+<line class="g" x1="740" y1="250" x2="740" y2="530"/>
+<rect class="w" x="600" y="380" width="60" height="60"/>
+<g id="cota-descidas" class="cota"><line class="d" x1="420" y1="300" x2="580" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="500" y="293">espaçamento das descidas</text></g>
+<g id="cota-janela" class="cota"><line class="d" x1="660" y1="465" x2="740" y2="465" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="700" y="490">afastamento de janelas</text></g>
+<line class="h" x1="400" y1="390" x2="760" y2="390"/>
+<g id="cota-equipotencializacao" class="cota"><line class="e" x1="762" y1="390" x2="791" y2="390"/><line class="e" x1="762" y1="530" x2="791" y2="530"/><line class="d" x1="785" y1="390" x2="785" y2="530" marker-start="url(#a)" marker-end="url(#a)"/><text x="795" y="518">equipotencialização</text></g>
+<line class="g" x1="730" y1="250" x2="730" y2="170"/>
+<line class="h" x1="730" y1="170" x2="795" y2="250"/>
+<line class="h" x1="730" y1="170" x2="665" y2="250"/>
+<g id="cota-angulo-protecao" class="cota"><path class="d" d="M730.0,225.0 A55,55 0 0,0 764.6,212.7" marker-start="url(#a)" marker-end="url(#a)"/><text x="790" y="160">ângulo de proteção (Franklin)</text></g>
+<rect class="s" x="540" y="190" width="40" height="60"/>
+<line class="g" x1="545" y1="190" x2="545" y2="165"/>
+<line class="g" x1="575" y1="190" x2="575" y2="165"/>
+<g id="cota-chamine" class="cota"><line class="e" x1="547" y1="165" x2="610" y2="165"/><line class="e" x1="547" y1="190" x2="610" y2="190"/><line class="d" x1="604" y1="139" x2="604" y2="165" marker-end="url(#a)"/><line class="d" x1="604" y1="216" x2="604" y2="190" marker-end="url(#a)"/><line class="d" x1="604" y1="165" x2="604" y2="190"/><text x="470" y="130">captores na chaminé (altura e espaçamento)</text></g>
+<circle class="s" cx="420" cy="572" r="6"/>
+<g id="cota-anel" class="cota"><line class="e" x1="428" y1="572" x2="456" y2="572"/><line class="d" x1="450" y1="530" x2="450" y2="572" marker-start="url(#a)" marker-end="url(#a)"/><text x="460" y="580">profundidade do eletrodo em anel</text></g>
+<text class="n b" x="900" y="285">malha de captação (planta da cobertura)</text>
+<rect class="sl" x="900" y="300" width="300" height="120"/>
+<line class="g" x1="975" y1="300" x2="975" y2="420"/>
+<line class="g" x1="1050" y1="300" x2="1050" y2="420"/>
+<line class="g" x1="1125" y1="300" x2="1125" y2="420"/>
+<line class="g" x1="900" y1="360" x2="1200" y2="360"/>
+<g id="cota-malha" class="cota"><line class="e" x1="975" y1="422" x2="975" y2="446"/><line class="e" x1="1050" y1="422" x2="1050" y2="446"/><line class="d" x1="975" y1="440" x2="1050" y2="440" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="1012.5" y="465">largura da malha</text></g>
+<text class="n" x="20" y="628">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

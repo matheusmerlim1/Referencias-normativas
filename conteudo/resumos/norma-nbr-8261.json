@@ -8,20 +8,21 @@
   {"titulo": "Comprimentos e tolerâncias dimensionais", "item": "4.3–4.4",
    "texto": "Fornecimento em comprimento normal, múltiplo ou fixo. Tolerâncias de dimensão externa, parede, esquadro, raio de canto, torção, retilinidade e massa.",
    "valores": [
-    {"parametro": "Comprimento normal de fabricação", "valor": "4 a 8 m (até 10 % do lote entre 1,5 e 5,0 m)", "item": "4.3.1 a)"},
-    {"parametro": "Comprimento fixo/múltiplo — L ≤ 7 m / > 7 m", "valor": "+20 mm / +25 mm", "item": "Tab. 2"},
-    {"parametro": "Dimensão externa D ≤ 65 mm", "valor": "± 0,5 mm", "item": "Tab. 1", "nota": "medir a ≥ 100 mm das pontas; em retangular vale a maior dimensão"},
-    {"parametro": "65 < D ≤ 90 mm", "valor": "± 0,7 mm", "item": "Tab. 1"},
-    {"parametro": "90 < D ≤ 140 mm", "valor": "± 0,9 mm", "item": "Tab. 1"},
+    {"parametro": "Comprimento normal de fabricação", "valor": "4 a 8 m (até 10 % do lote entre 1,5 e 5,0 m)", "item": "4.3.1 a)", "cota": "esquemas/tubo-costura-dimensoes.svg#L"},
+    {"parametro": "Comprimento fixo/múltiplo — L ≤ 7 m / > 7 m", "valor": "+20 mm / +25 mm", "item": "Tab. 2", "cota": "esquemas/tubo-costura-dimensoes.svg#L"},
+    {"parametro": "Dimensão externa D ≤ 65 mm", "valor": "± 0,5 mm", "item": "Tab. 1", "nota": "medir a ≥ 100 mm das pontas; em retangular vale a maior dimensão", "cota": "esquemas/tubo-costura-dimensoes.svg#D"},
+    {"parametro": "65 < D ≤ 90 mm", "valor": "± 0,7 mm", "item": "Tab. 1", "cota": "esquemas/tubo-costura-dimensoes.svg#D"},
+    {"parametro": "90 < D ≤ 140 mm", "valor": "± 0,9 mm", "item": "Tab. 1", "cota": "esquemas/tubo-costura-dimensoes.svg#D"},
     {"parametro": "D > 140 mm", "valor": "± 1 %", "item": "Tab. 1"},
-    {"parametro": "Espessura de parede", "valor": "± 10 %", "item": "4.4.2"},
-    {"parametro": "Esquadro dos lados (RHS)", "valor": "90° ± 2°", "item": "4.4.4"},
-    {"parametro": "Raio externo de canto (RHS)", "valor": "≤ 3 × espessura", "item": "4.4.5"},
-    {"parametro": "Torção máxima (RHS) — lado maior ≤ 38 / ≤ 63,5 / ≤ 101,6 mm", "valor": "1,4 / 1,7 / 2,1 mm/m", "item": "Tab. 3"},
-    {"parametro": "Torção máxima — ≤ 152,4 / ≤ 203,2 / > 203,2 mm", "valor": "2,4 / 2,8 / 3,1 mm/m", "item": "Tab. 3"},
-    {"parametro": "Retilinidade", "valor": "≤ 2,5 mm por metro", "item": "4.4.7"},
+    {"parametro": "Espessura de parede", "valor": "± 10 %", "item": "4.4.2", "cota": "esquemas/tubo-costura-dimensoes.svg#e"},
+    {"parametro": "Esquadro dos lados (RHS)", "valor": "90° ± 2°", "item": "4.4.4", "cota": "esquemas/tubo-costura-dimensoes.svg#esquadro"},
+    {"parametro": "Raio externo de canto (RHS)", "valor": "≤ 3 × espessura", "item": "4.4.5", "cota": "esquemas/tubo-costura-dimensoes.svg#raio-canto"},
+    {"parametro": "Torção máxima (RHS) — lado maior ≤ 38 / ≤ 63,5 / ≤ 101,6 mm", "valor": "1,4 / 1,7 / 2,1 mm/m", "item": "Tab. 3", "cota": "esquemas/tubo-costura-dimensoes.svg#torcao"},
+    {"parametro": "Torção máxima — ≤ 152,4 / ≤ 203,2 / > 203,2 mm", "valor": "2,4 / 2,8 / 3,1 mm/m", "item": "Tab. 3", "cota": "esquemas/tubo-costura-dimensoes.svg#torcao"},
+    {"parametro": "Retilinidade", "valor": "≤ 2,5 mm por metro", "item": "4.4.7", "cota": "esquemas/tubo-costura-dimensoes.svg#retilinidade"},
     {"parametro": "Massa real", "valor": "± 10 % da teórica M = 7,85 × 10⁻³ × S (kg/m, S em mm²)", "item": "4.4.8"}
-   ]},
+   ],
+   "figuras": ["esquemas/tubo-costura-dimensoes.svg"]},
   {"titulo": "Encomenda, marcação e acabamento", "item": "4.6–4.8",
    "texto": "O pedido informa designação, norma, quantidade, comprimento, tipo de ponta, uso, certificados e requisitos extras. Tubos com maior dimensão acima de 100 mm são marcados um a um (produtor, norma, grau, com/sem costura, dimensões); menores podem ter etiqueta no amarrado. Acabamento decapado, fosfatizado, pintado ou zincado por acordo.",
    "valores": []},
@@ -49,7 +50,8 @@
    "valores": [
     {"parametro": "Lote de amostragem", "valor": "500 tubos ou fração", "item": "6.2.1"},
     {"parametro": "Amostras para análise química", "valor": "2 por lote", "item": "6.2.2"},
-    {"parametro": "Comprimento do corpo de prova de achatamento — sem / com costura", "valor": "60 mm / > 100 mm", "item": "6.3.3"}
-   ]}
+    {"parametro": "Comprimento do corpo de prova de achatamento — sem / com costura", "valor": "60 mm / > 100 mm", "item": "6.3.3", "cota": "esquemas/tubo-costura-extremidade-ensaios.svg#cp-achatamento"}
+   ],
+   "figuras": ["esquemas/tubo-costura-extremidade-ensaios.svg"]}
  ]
 }
