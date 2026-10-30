@@ -169,11 +169,12 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
 - Desenhos de engenharia (Equinor/Maersk) costumam ter cotas como vetor sem texto: `get_text()` volta vazio — renderize com crop.py a 200+ dpi e leia a imagem.
 
 ## ESTADO ATUAL (30/out/2026)
-- 802 fichas = 23 TEMÁTICAS (curadas, públicas) + 779 de NORMA (`norma-*.json`, geradas, locais); 22 841 requisitos; 780 normas
-  (a 780ª = AISC Shapes Database v15.0, perfis americanos W/HP/S/M/C/MC/L/WT/HSS em perfis-laminados — outra sessão, commit 8c1463a).
-- 779/779 RESUMOS próprios (`conteudo/resumos/`), 6 543 valores; 1 570 ligados a cota; 0 valores geométricos sem cota (83 sem
-  geometria registrados em conteudo/cotas_dispensadas.json); 779/779 resumos com ≥ 1 desenho próprio.
-- 319 SVG próprios em `assets/figuras/esquemas/`; as 23 temáticas NÃO têm mais figura de norma (tudo trocado por SVG).
+- 1 090 fichas = 23 TEMÁTICAS (curadas, públicas) + 1 067 de NORMA (`norma-*.json`, geradas, locais); 26 484 requisitos; 1 067 normas
+  = 779 de referencias/ + AISC Shapes Database v15.0 (perfis W/HP/S/M/C/MC/L/WT/HSS em perfis-laminados — outra sessão, 8c1463a;
+  sem texto completo → o verificador acusa 1 erro "norma sem texto completo") + 287 Petrobras N-xxxx do acervo T: (30/out).
+- RESUMOS próprios (`conteudo/resumos/`): as 779 normas de referencias/ (todas com desenho e cota em todo valor geométrico;
+  sem geometria → conteudo/cotas_dispensadas.json) + Petrobras em andamento (lote P1 pintura). Contagem: `cotas_pendentes.py`.
+- 327 SVG próprios em `assets/figuras/esquemas/`; as 23 temáticas NÃO têm mais figura de norma (tudo trocado por SVG).
 - Catálogo do acervo T: 3 933 documentos únicos (`conteudo/catalogo.json`) → buscáveis no site como "Documentos no acervo".
 - Triagem de `referencias/`: 775/775 documentos relevantes incorporados (100 %). Auditoria de imagens encerrada (28/out).
 - `verificar_autossuficiente.py` = 0 erros → `referencias/` (6,7 GB) PODE ser removida — o usuário decide. Sem ela param as
