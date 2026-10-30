@@ -161,7 +161,8 @@
     {
      "parametro": "Fresta plataforma–máquina que exige guarda-corpo",
      "valor": "> 200 mm",
-     "item": "7.1.2"
+     "item": "7.1.2",
+     "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#vao-lateral"
     },
     {
      "parametro": "Altura mínima do guarda-corpo",
@@ -199,6 +200,9 @@
      "item": "7.1.9",
      "cota": "esquemas/guarda-corpo-elevacao.svg#folga-segmentos"
     }
+   ],
+   "figuras": [
+    "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg"
    ]
   },
   {
@@ -209,12 +213,14 @@
     {
      "parametro": "Escada com dois corrimãos",
      "valor": "largura ≥ 1200 mm",
-     "item": "7.2.1"
+     "item": "7.2.1",
+     "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"
     },
     {
      "parametro": "Guarda-corpo na escada",
      "valor": "subida > 500 mm e vão lateral > 200 mm",
-     "item": "7.2.2"
+     "item": "7.2.2",
+     "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#vao-lateral"
     },
     {
      "parametro": "Altura do corrimão",
@@ -237,7 +243,8 @@
     {
      "parametro": "Step ladder — início do corrimão",
      "valor": "≥ 1000 mm acima da base",
-     "item": "7.2.4"
+     "item": "7.2.4",
+     "cota": "esquemas/escada-degraus-corrimao.svg#inicio-corrimao"
     },
     {
      "parametro": "Vãos do guarda-corpo da escada",
@@ -251,6 +258,11 @@
      "item": "7.2.6",
      "cota": "esquemas/escada-degraus-corrimao.svg#folga"
     }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-largura-corte.svg",
+    "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg",
+    "esquemas/escada-degraus-corrimao.svg"
    ]
   },
   {
@@ -266,7 +278,8 @@
     {
      "parametro": "Flecha sob F",
      "valor": "≤ 30 mm",
-     "item": "7.3; 8.2"
+     "item": "7.3; 8.2",
+     "cota": "esquemas/guarda-corpo-cargas.svg#deflexao"
     },
     {
      "parametro": "Altura de aplicação no ensaio",
@@ -279,6 +292,9 @@
      "valor": "0,25 F por 1 min",
      "item": "8.2"
     }
+   ],
+   "figuras": [
+    "esquemas/guarda-corpo-cargas.svg"
    ]
   }
  ]

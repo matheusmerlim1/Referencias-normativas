@@ -10,8 +10,12 @@
     {
      "parametro": "Trabalho em altura (gatilho da NR)",
      "valor": "diferença de nível > 2,0 m do nível inferior, com risco de queda",
-     "item": "35.2.1"
+     "item": "35.2.1",
+     "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#desnivel"
     }
+   ],
+   "figuras": [
+    "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg"
    ]
   },
   {
@@ -213,7 +217,8 @@
     {
      "parametro": "Escada fixa vertical (definição)",
      "valor": "fixa, mais de 75° até 90°, com degraus",
-     "item": "Anexo III, Glossário"
+     "item": "Anexo III, Glossário",
+     "cota": "esquemas/escada-marinheiro-angulo.svg#angulo"
     },
     {
      "parametro": "Contato de 3 pontos (definição)",
@@ -222,7 +227,8 @@
     }
    ],
    "figuras": [
-    "esquemas/escada-degraus-angulo-tipo.svg"
+    "esquemas/escada-degraus-angulo-tipo.svg",
+    "esquemas/escada-marinheiro-angulo.svg"
    ]
   },
   {
@@ -313,7 +319,8 @@
     {
      "parametro": "Extensível — limitador de curso",
      "valor": "no 4º vão a partir da catraca",
-     "item": "Anexo III, 5.2.2.8.2"
+     "item": "Anexo III, 5.2.2.8.2",
+     "cota": "esquemas/escada-portatil-encosto-cotas.svg#limitador"
     },
     {
      "parametro": "Extensível sem limitador — sobreposição mínima entre lances",
@@ -324,7 +331,8 @@
     {
      "parametro": "Autossustentável — comprimento máximo fechada",
      "valor": "6 m",
-     "item": "Anexo III, 5.2.2.9.3"
+     "item": "Anexo III, 5.2.2.9.3",
+     "cota": "esquemas/escada-portatil-autossustentavel-cotas.svg#comprimento-fechada"
     },
     {
      "parametro": "Autossustentável — uso",
@@ -333,7 +341,9 @@
     }
    ],
    "figuras": [
-    "esquemas/resumo-nr-18-escada-extensivel.svg"
+    "esquemas/resumo-nr-18-escada-extensivel.svg",
+    "esquemas/escada-portatil-encosto-cotas.svg",
+    "esquemas/escada-portatil-autossustentavel-cotas.svg"
    ]
   }
  ]

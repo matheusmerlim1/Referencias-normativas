@@ -15,13 +15,17 @@
     {
      "parametro": "Canteiro em que o PGR pode ser feito por profissional qualificado (e não habilitado)",
      "valor": "altura ≤ 7 m e no máximo 10 trabalhadores",
-     "item": "18.4.2.1"
+     "item": "18.4.2.1",
+     "cota": "esquemas/resumo-nr-18-elevador-tapume.svg#altura-edificacao"
     },
     {
      "parametro": "Comunicação prévia da obra",
      "valor": "antes do início das atividades, em sistema da SIT",
      "item": "18.3.1 b)"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-18-elevador-tapume.svg"
    ]
   },
   {
@@ -42,7 +46,8 @@
     {
      "parametro": "Deslocamento máximo do posto até a instalação sanitária",
      "valor": "≤ 150 m",
-     "item": "18.5.5"
+     "item": "18.5.5",
+     "cota": "esquemas/habitabilidade-distancias-percurso.svg#percurso"
     },
     {
      "parametro": "Bebedouro ou equivalente",
@@ -52,13 +57,17 @@
     {
      "parametro": "Distância máxima do posto ao bebedouro",
      "valor": "≤ 100 m na horizontal e ≤ 15 m na vertical",
-     "item": "18.5.6.1"
+     "item": "18.5.6.1",
+     "cota": "esquemas/habitabilidade-distancias-percurso.svg#horizontal"
     },
     {
      "parametro": "Frente de trabalho — bacia sifonada e lavatório",
      "valor": "1 conjunto para cada 20 trabalhadores ou fração",
      "item": "18.5.7 a)"
     }
+   ],
+   "figuras": [
+    "esquemas/habitabilidade-distancias-percurso.svg"
    ]
   },
   {
@@ -74,17 +83,20 @@
     {
      "parametro": "Profundidade de escavação que exige liberação do profissional habilitado",
      "valor": "> 1,25 m",
-     "item": "18.7.2.3"
+     "item": "18.7.2.3",
+     "cota": "esquemas/resumo-nr-18-escavacao-tubulao.svg#profundidade"
     },
     {
      "parametro": "Profundidade de escavação que exige talude/escoramento em projeto e escada ou rampa de fuga",
      "valor": "> 1,25 m",
-     "item": "18.7.2.8"
+     "item": "18.7.2.8",
+     "cota": "esquemas/resumo-nr-18-escavacao-tubulao.svg#profundidade"
     },
     {
      "parametro": "Faixa livre de cargas na borda da escavação",
      "valor": "≥ 1 m",
-     "item": "18.7.2.7"
+     "item": "18.7.2.7",
+     "cota": "esquemas/resumo-nr-18-escavacao-tubulao.svg#faixa-livre"
     },
     {
      "parametro": "Inspeção dos escoramentos",
@@ -94,27 +106,32 @@
     {
      "parametro": "Tubulão escavado manualmente — profundidade máxima",
      "valor": "15 m",
-     "item": "18.7.2.16"
+     "item": "18.7.2.16",
+     "cota": "esquemas/resumo-nr-18-escavacao-tubulao.svg#tubulao-profundidade"
     },
     {
      "parametro": "Tubulão manual — sondagem ou estudo geotécnico obrigatório",
      "valor": "profundidade > 3 m",
-     "item": "18.7.2.17 b)"
+     "item": "18.7.2.17 b)",
+     "cota": "esquemas/resumo-nr-18-escavacao-tubulao.svg#tubulao-profundidade"
     },
     {
      "parametro": "Tubulão manual — diâmetro mínimo",
      "valor": "0,9 m",
-     "item": "18.7.2.17 c)"
+     "item": "18.7.2.17 c)",
+     "cota": "esquemas/resumo-nr-18-escavacao-tubulao.svg#tubulao-diametro"
     },
     {
      "parametro": "Sarilho — rodapé na base",
      "valor": "0,2 m",
-     "item": "18.7.2.22 a)"
+     "item": "18.7.2.22 a)",
+     "cota": "esquemas/resumo-nr-18-escavacao-tubulao.svg#rodape"
     },
     {
      "parametro": "Sarilho — afastamento da borda do tubulão",
      "valor": "≥ 0,5 m",
-     "item": "18.7.2.22 a)"
+     "item": "18.7.2.22 a)",
+     "cota": "esquemas/resumo-nr-18-escavacao-tubulao.svg#sarilho-afastamento"
     },
     {
      "parametro": "Corda do balde — voltas mínimas no tambor",
@@ -126,6 +143,9 @@
      "valor": "proibida",
      "item": "18.7.2.23"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-18-escavacao-tubulao.svg"
    ]
   },
   {
@@ -151,7 +171,8 @@
     {
      "parametro": "Distância mínima cilindro–equipamento de aquecimento",
      "valor": "3 m",
-     "item": "18.7.7.5 b)"
+     "item": "18.7.7.5 b)",
+     "cota": "esquemas/seguranca-distancias-equipamentos.svg#distancia-cilindro"
     },
     {
      "parametro": "Cilindro que deve ficar sobre rodas",
@@ -161,13 +182,17 @@
     {
      "parametro": "Mangueira/tubo flexível — comprimento mínimo",
      "valor": "5 m",
-     "item": "18.7.7.5 d)"
+     "item": "18.7.7.5 d)",
+     "cota": "esquemas/seguranca-distancias-equipamentos.svg#mangueira"
     },
     {
      "parametro": "Inspeção de vazamento do sistema a gás",
      "valor": "a cada intervenção",
      "item": "18.7.7.6"
     }
+   ],
+   "figuras": [
+    "esquemas/seguranca-distancias-equipamentos.svg"
    ]
   },
   {
@@ -178,8 +203,12 @@
     {
      "parametro": "Altura a partir da qual vale a NR-35 em telhados",
      "valor": "> 2 m",
-     "item": "18.7.8.1"
+     "item": "18.7.8.1",
+     "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#desnivel"
     }
+   ],
+   "figuras": [
+    "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg"
    ]
   },
   {
@@ -187,7 +216,8 @@
    "item": "18.8.1–18.8.5",
    "texto": "Desníveis acima de um limite pedem escada ou rampa, e vãos com risco de queda pedem passarela. Todos são dimensionados para as cargas. Quando a escada exige as mãos para subir, o material vai por outro meio.",
    "figuras": [
-    "esquemas/escada-degraus-angulo-tipo.svg"
+    "esquemas/escada-degraus-angulo-tipo.svg",
+    "esquemas/passarela-rampa-angulo.svg"
    ],
    "valores": [
     {
@@ -199,7 +229,8 @@
     {
      "parametro": "Rampa — inclinação",
      "valor": "< 15°",
-     "item": "18.8.2 a)"
+     "item": "18.8.2 a)",
+     "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"
     },
     {
      "parametro": "Escada móvel — ângulo",
@@ -256,7 +287,9 @@
    "item": "18.8.6.2–18.8.6.3",
    "texto": "Escada tipo marinheiro deve resistir aos esforços, ter degraus uniformes e ser fixada na base, em intervalos e no topo. Lances longos são divididos por plataformas de descanso protegidas; lances paralelos ficam afastados entre eixos. Acima de uma altura, o uso de SPIQ é obrigatório.",
    "figuras": [
-    "esquemas/resumo-nr-12-escada-fixa-vertical.svg"
+    "esquemas/resumo-nr-12-escada-fixa-vertical.svg",
+    "esquemas/escada-marinheiro-plataformas.svg",
+    "esquemas/escada-marinheiro-vista-frontal.svg"
    ],
    "valores": [
     {
@@ -286,7 +319,8 @@
     {
      "parametro": "Plataforma de descanso — dimensões mínimas",
      "valor": "0,6 m × 0,6 m, com proteção contra quedas",
-     "item": "18.8.6.2 f)"
+     "item": "18.8.6.2 f)",
+     "cota": "esquemas/escada-marinheiro-plataformas.svg#plat-largura"
     },
     {
      "parametro": "Espaçamento uniforme dos degraus",
@@ -297,7 +331,8 @@
     {
      "parametro": "Fixação",
      "valor": "na base, a cada 3 m e no topo",
-     "item": "18.8.6.2 h)"
+     "item": "18.8.6.2 h)",
+     "cota": "esquemas/escada-marinheiro-vista-frontal.svg#suportes"
     },
     {
      "parametro": "Piso até a primeira barra",
@@ -320,7 +355,8 @@
     {
      "parametro": "Altura a partir da qual o SPIQ é obrigatório",
      "valor": "> 2 m",
-     "item": "18.8.6.3"
+     "item": "18.8.6.3",
+     "cota": "esquemas/resumo-nr-12-escada-fixa-vertical.svg#altura-total"
     }
    ]
   },
@@ -329,18 +365,22 @@
    "item": "18.8.6.4–18.8.6.19",
    "texto": "A escolha considera a carga, os esforços do sistema anti-queda e o resgate. Degraus antiderrapantes, apoio em piso firme e dispositivo contra escorregamento são obrigatórios; uma pessoa por vez, salvo indicação do fabricante, sempre com três pontos de apoio. Não se usa perto de portas ou passagens sem isolamento, em estrutura fraca ou junto a rede energizada. Escada de mão de montante único é proibida; escada dupla não serve para mudar de nível.",
    "figuras": [
-    "esquemas/resumo-nr-18-escada-extensivel.svg"
+    "esquemas/resumo-nr-18-escada-extensivel.svg",
+    "esquemas/escada-portatil-encosto-cotas.svg",
+    "esquemas/escada-portatil-autossustentavel-cotas.svg"
    ],
    "valores": [
     {
      "parametro": "Espaçamento uniforme entre degraus",
      "valor": "0,25 m a 0,3 m",
-     "item": "18.8.6.7 a)"
+     "item": "18.8.6.7 a)",
+     "cota": "esquemas/escada-portatil-encosto-cotas.svg#espacamento"
     },
     {
      "parametro": "Escada de mão — comprimento máximo",
      "valor": "7 m",
-     "item": "18.8.6.13 a)"
+     "item": "18.8.6.13 a)",
+     "cota": "esquemas/resumo-nr-18-escada-extensivel.svg#comprimento"
     },
     {
      "parametro": "Escada de mão — ultrapassar o piso superior",
@@ -351,12 +391,14 @@
     {
      "parametro": "Escada dupla (cavalete) — comprimento máximo fechada",
      "valor": "6 m",
-     "item": "18.8.6.16 a)"
+     "item": "18.8.6.16 a)",
+     "cota": "esquemas/escada-portatil-autossustentavel-cotas.svg#comprimento-fechada"
     },
     {
      "parametro": "Escada extensível — limitador de curso",
      "valor": "no 4º vão a partir da catraca (ou conforme o fabricante)",
-     "item": "18.8.6.18 a)"
+     "item": "18.8.6.18 a)",
+     "cota": "esquemas/escada-portatil-encosto-cotas.svg#limitador"
     },
     {
      "parametro": "Escada extensível sem limitador — sobreposição mínima",
@@ -389,7 +431,8 @@
    "item": "18.8.7",
    "texto": "São dimensionadas pelo vão e pela carga, têm proteção contra quedas em todo o contorno, piso completo antiderrapante e fixação firme nas pontas. Rampas mais inclinadas recebem travessas para apoio dos pés.",
    "figuras": [
-    "esquemas/escada-degraus-largura-corte.svg"
+    "esquemas/escada-degraus-largura-corte.svg",
+    "esquemas/resumo-nr-12-rampa-pecas-transversais.svg"
    ],
    "valores": [
     {
@@ -401,12 +444,14 @@
     {
      "parametro": "Inclinação que exige peças transversais",
      "valor": "> 6°",
-     "item": "18.8.7.2"
+     "item": "18.8.7.2",
+     "cota": "esquemas/resumo-nr-12-rampa-pecas-transversais.svg#alfa"
     },
     {
      "parametro": "Espaçamento máximo das peças transversais",
      "valor": "0,4 m",
-     "item": "18.8.7.2"
+     "item": "18.8.7.2",
+     "cota": "esquemas/resumo-nr-12-rampa-pecas-transversais.svg#T"
     }
    ]
   },
@@ -415,13 +460,15 @@
    "item": "18.9",
    "texto": "Onde houver risco de queda de pessoas ou de material, instala-se proteção coletiva projetada por habilitado. Aberturas no piso recebem tampa travada ou guarda-corpo; poços de elevador ficam fechados até as portas definitivas. A periferia é protegida desde a concretagem da primeira laje, com fechamento total ou com guarda-corpo, travessões, rodapé e tela. Plataformas de proteção e redes (EN 1263) seguem projeto.",
    "figuras": [
-    "esquemas/escada-degraus-corrimao.svg"
+    "esquemas/escada-degraus-corrimao.svg",
+    "esquemas/guarda-corpo-cargas.svg"
    ],
    "valores": [
     {
      "parametro": "Fechamento total da periferia — altura mínima",
      "valor": "1,2 m",
-     "item": "18.9.4.1"
+     "item": "18.9.4.1",
+     "cota": "esquemas/escada-degraus-corrimao.svg#b"
     },
     {
      "parametro": "Guarda-corpo — travessão superior",
@@ -432,7 +479,8 @@
     {
      "parametro": "Travessão superior — carga horizontal",
      "valor": "90 kgf/m, deflexão ≤ 0,076 m",
-     "item": "18.9.4.2 a)"
+     "item": "18.9.4.2 a)",
+     "cota": "esquemas/guarda-corpo-cargas.svg#deflexao"
     },
     {
      "parametro": "Travessão intermediário",
@@ -459,7 +507,8 @@
     {
      "parametro": "Rede na periferia — barreira associada contra queda de material",
      "valor": "altura ≥ 1,2 m",
-     "item": "18.9.4.4.7"
+     "item": "18.9.4.4.7",
+     "cota": "esquemas/escada-degraus-corrimao.svg#b"
     }
    ]
   },
@@ -471,7 +520,8 @@
     {
      "parametro": "Altura da obra que obriga transporte vertical motorizado de materiais",
      "valor": "≥ 10 m",
-     "item": "18.10.1.4"
+     "item": "18.10.1.4",
+     "cota": "esquemas/resumo-nr-18-elevador-tapume.svg#altura-edificacao"
     },
     {
      "parametro": "Máquina autopropelida que exige cabine climatizada e protegida",
@@ -488,6 +538,9 @@
      "valor": "tara ≤ 4 500 kg",
      "item": "18.10.1.14"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-18-elevador-tapume.svg"
    ]
   },
   {
@@ -523,7 +576,8 @@
     {
      "parametro": "Grua — distância mínima da lança e do cabo a obstáculos",
      "valor": "3 m (menos, só com análise de risco do habilitado)",
-     "item": "18.10.1.34 c)"
+     "item": "18.10.1.34 c)",
+     "cota": "esquemas/resumo-nr-18-grua.svg#obstaculo"
     },
     {
      "parametro": "Grua — laudo estrutural/operacional",
@@ -538,13 +592,18 @@
     {
      "parametro": "Sanitário para o operador da grua — distância máxima",
      "valor": "50 m do posto",
-     "item": "18.10.1.41"
+     "item": "18.10.1.41",
+     "cota": "esquemas/habitabilidade-distancias-percurso.svg#percurso"
     },
     {
      "parametro": "Sem sanitário próximo — pausas mínimas para o operador",
      "valor": "4 intervalos por turno",
      "item": "18.10.1.41.1"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-18-grua.svg",
+    "esquemas/habitabilidade-distancias-percurso.svg"
    ]
   },
   {
@@ -555,7 +614,8 @@
     {
      "parametro": "Grua de pequeno porte — raio máximo da lança",
      "valor": "6 m",
-     "item": "18.10.1.42 a)"
+     "item": "18.10.1.42 a)",
+     "cota": "esquemas/resumo-nr-18-grua.svg#raio"
     },
     {
      "parametro": "Grua de pequeno porte — capacidade máxima",
@@ -565,7 +625,8 @@
     {
      "parametro": "Grua de pequeno porte — altura máxima da torre acima da laje",
      "valor": "6 m",
-     "item": "18.10.1.42 c)"
+     "item": "18.10.1.42 c)",
+     "cota": "esquemas/resumo-nr-18-grua.svg#altura-torre"
     },
     {
      "parametro": "Grua de pequeno porte / guincho de coluna — tensão máxima do comando",
@@ -575,13 +636,17 @@
     {
      "parametro": "Grua de pequeno porte — giro mínimo da lança",
      "valor": "≥ 180° (motorizado)",
-     "item": "18.10.1.44"
+     "item": "18.10.1.44",
+     "cota": "esquemas/resumo-nr-18-grua.svg#giro"
     },
     {
      "parametro": "Guincho de coluna — capacidade máxima",
      "valor": "≤ 500 kg",
      "item": "18.10.1.45 a)"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-18-grua.svg"
    ]
   },
   {
@@ -602,38 +667,48 @@
     {
      "parametro": "Distância máxima entre face da cabine e face da edificação",
      "valor": "0,2 m",
-     "item": "18.11.12"
+     "item": "18.11.12",
+     "cota": "esquemas/resumo-nr-18-elevador-tapume.svg#cabine-face"
     },
     {
      "parametro": "Cancela de acesso à torre — altura mínima",
      "valor": "1,8 m",
-     "item": "18.11.13"
+     "item": "18.11.13",
+     "cota": "esquemas/resumo-nr-18-elevador-tapume.svg#cancela"
     },
     {
      "parametro": "Fechamento da base da torre — altura mínima",
      "valor": "2,0 m",
-     "item": "18.11.14"
+     "item": "18.11.14",
+     "cota": "esquemas/resumo-nr-18-elevador-tapume.svg#fechamento-base"
     },
     {
      "parametro": "Altura livre sobre a rampa de acesso",
      "valor": "≥ 2 m",
-     "item": "18.11.16"
+     "item": "18.11.16",
+     "cota": "esquemas/resumo-nr-18-elevador-tapume.svg#rampa-altura-livre"
     },
     {
      "parametro": "Barreira entre passageiros e carga — altura mínima",
      "valor": "1,8 m, com intertravamento",
-     "item": "18.11.17"
+     "item": "18.11.17",
+     "cota": "esquemas/resumo-nr-18-elevador-tapume.svg#barreira"
     },
     {
      "parametro": "Obra que exige elevador de passageiros",
      "valor": "altura ≥ 24 m",
-     "item": "18.11.21"
+     "item": "18.11.21",
+     "cota": "esquemas/resumo-nr-18-elevador-tapume.svg#altura-edificacao"
     },
     {
      "parametro": "Instalação do elevador de passageiros",
      "valor": "a partir de no máximo 15 m de deslocamento vertical",
-     "item": "18.11.21.1"
+     "item": "18.11.21.1",
+     "cota": "esquemas/resumo-nr-18-elevador-tapume.svg#inicio-passageiros"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-18-elevador-tapume.svg"
    ]
   },
   {
@@ -644,33 +719,42 @@
     {
      "parametro": "Altura que exige acesso seguro ao andaime",
      "valor": "> 0,4 m",
-     "item": "18.12.1 e)"
+     "item": "18.12.1 e)",
+     "cota": "esquemas/andaime-torre-cavalete.svg#piso-altura"
     },
     {
      "parametro": "Torre única dispensada de projeto de montagem",
      "valor": "altura < 4 × menor dimensão da base",
-     "item": "18.12.2.1"
+     "item": "18.12.2.1",
+     "cota": "esquemas/andaime-torre-cavalete.svg#torre-altura"
     },
     {
      "parametro": "Torre não estaiada nem fixada — altura máxima",
      "valor": "4 × menor dimensão da base",
-     "item": "18.12.3"
+     "item": "18.12.3",
+     "cota": "esquemas/andaime-torre-cavalete.svg#torre-altura"
     },
     {
      "parametro": "Plataforma sobre cavaletes — proibida quando",
      "valor": "altura > 1,5 m ou largura < 0,9 m",
-     "item": "18.12.11"
+     "item": "18.12.11",
+     "cota": "esquemas/andaime-torre-cavalete.svg#cavalete-altura"
     },
     {
      "parametro": "Edificação que exige ancoragens para manutenção de fachada",
      "valor": "altura ≥ 12 m a partir do térreo",
-     "item": "18.12.12"
+     "item": "18.12.12",
+     "cota": "esquemas/resumo-nr-18-elevador-tapume.svg#altura-edificacao"
     },
     {
      "parametro": "Dispositivo de ancoragem de fachada — carga de trabalho mínima",
      "valor": "1 500 kgf",
      "item": "18.12.12.2 b)"
     }
+   ],
+   "figuras": [
+    "esquemas/andaime-torre-cavalete.svg",
+    "esquemas/resumo-nr-18-elevador-tapume.svg"
    ]
   },
   {
@@ -681,28 +765,36 @@
     {
      "parametro": "Piso de trabalho que exige acesso por escada",
      "valor": "> 1 m de altura",
-     "item": "18.12.14"
+     "item": "18.12.14",
+     "cota": "esquemas/andaime-torre-cavalete.svg#piso-altura"
     },
     {
      "parametro": "Escada de mão incorporada — largura mínima",
      "valor": "0,4 m",
-     "item": "18.12.14 a)"
+     "item": "18.12.14 a)",
+     "cota": "esquemas/andaime-torre-cavalete.svg#escada-largura"
     },
     {
      "parametro": "Escada de mão incorporada — espaçamento entre degraus",
      "valor": "0,25 m a 0,3 m",
-     "item": "18.12.14 a)"
+     "item": "18.12.14 a)",
+     "cota": "esquemas/andaime-torre-cavalete.svg#escada-espacamento"
     },
     {
      "parametro": "Escada de uso coletivo incorporada — largura mínima",
      "valor": "0,6 m, com corrimão",
-     "item": "18.12.14 b)"
+     "item": "18.12.14 b)",
+     "cota": "esquemas/andaime-torre-cavalete.svg#escada-largura"
     },
     {
      "parametro": "Tela na fachada — extensão",
      "valor": "da 1ª plataforma até 2 m acima da última",
-     "item": "18.12.15.1"
+     "item": "18.12.15.1",
+     "cota": "esquemas/andaime-torre-cavalete.svg#tela-acima"
     }
+   ],
+   "figuras": [
+    "esquemas/andaime-torre-cavalete.svg"
    ]
   },
   {
@@ -723,18 +815,24 @@
     {
      "parametro": "Largura útil mínima da plataforma",
      "valor": "0,65 m",
-     "item": "18.12.21 f)"
+     "item": "18.12.21 f)",
+     "cota": "esquemas/andaime-suspenso-pranchas.svg#suspenso-largura"
     },
     {
      "parametro": "Andaime suspenso manual — comprimento máximo do piso",
      "valor": "8 m",
-     "item": "18.12.26"
+     "item": "18.12.26",
+     "cota": "esquemas/andaime-suspenso-pranchas.svg#suspenso-comprimento"
     },
     {
      "parametro": "Andaime motorizado — inclinação que bloqueia o movimento",
      "valor": "> 15°",
-     "item": "18.12.28 d)"
+     "item": "18.12.28 d)",
+     "cota": "esquemas/andaime-suspenso-pranchas.svg#suspenso-inclinacao"
     }
+   ],
+   "figuras": [
+    "esquemas/andaime-suspenso-pranchas.svg"
    ]
   },
   {
@@ -750,13 +848,17 @@
     {
      "parametro": "Cremalheira — ancoragem obrigatória",
      "valor": "a partir de 9 m de altura",
-     "item": "18.12.29 m)"
+     "item": "18.12.29 m)",
+     "cota": "esquemas/andaime-torre-cavalete.svg#ancoragem-altura"
     },
     {
      "parametro": "PEMT — inspeção visual e teste funcional",
      "valor": "antes do uso diário ou a cada turno",
      "item": "18.12.38"
     }
+   ],
+   "figuras": [
+    "esquemas/andaime-torre-cavalete.svg"
    ]
   },
   {
@@ -789,7 +891,8 @@
     {
      "parametro": "Tapume — altura mínima",
      "valor": "2 m",
-     "item": "18.16.18"
+     "item": "18.16.18",
+     "cota": "esquemas/resumo-nr-18-elevador-tapume.svg#tapume"
     },
     {
      "parametro": "Galeria sobre o passeio — obrigatória",
@@ -801,6 +904,9 @@
      "valor": "até 72 h após o protocolo da comunicação",
      "item": "18.16.23 c)"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-18-elevador-tapume.svg"
    ]
   },
   {

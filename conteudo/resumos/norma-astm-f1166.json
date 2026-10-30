@@ -21,10 +21,11 @@
    "valores": [
     {"parametro": "Desnível que exige escada, escada vertical ou rampa", "valor": "> 305 mm (12 in.)", "item": "11.1.1", "cota": "esquemas/escada-degraus-angulo-tipo.svg#desnivel"},
     {"parametro": "Escada de degraus", "valor": "30° a 50° (preferido 38°)", "item": "11.2.1; Tabela 22", "cota": "esquemas/escada-degraus-angulo-tipo.svg#angulo"},
-    {"parametro": "Escada inclinada", "valor": "50° a 75° — não usar", "item": "Tabela 22"},
+    {"parametro": "Escada inclinada", "valor": "50° a 75° — não usar", "item": "Tabela 22", "cota": "esquemas/escada-marinheiro-inclinada.svg#angulo"},
     {"parametro": "Escada vertical", "valor": "75° a 90° (preferido 90°)", "item": "11.4.1.5; Tabela 22", "cota": "esquemas/escada-marinheiro-angulo.svg#angulo"},
-    {"parametro": "Rampa para pessoas", "valor": "7° a 15° (preferido 7°–8°)", "item": "Tabela 22"}
-   ]
+    {"parametro": "Rampa para pessoas", "valor": "7° a 15° (preferido 7°–8°)", "item": "Tabela 22", "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"}
+   ],
+   "figuras": ["esquemas/escada-marinheiro-inclinada.svg", "esquemas/passarela-rampa-angulo.svg"]
   },
   {
    "titulo": "Escadas de degraus",
@@ -39,13 +40,14 @@
     {"parametro": "Largura — uso pouco frequente / manutenção", "valor": "mín. 559 mm (preferida 610 mm)", "item": "Tabela 24", "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"},
     {"parametro": "Largura — rota principal de duas vias (maca)", "valor": "mín. 1219 mm (preferida 1370 mm)", "item": "Tabela 24", "cota": "esquemas/escada-degraus-largura-corte.svg#largura-util"},
     {"parametro": "Patamar no topo e na base", "valor": "≥ largura da escada e ≥ 914 mm (preferido 1118 mm)", "item": "11.2.10.1", "cota": "esquemas/escada-degraus-lance-patamar.svg#l"},
-    {"parametro": "Patamar intermediário (subida ≥ 6,1 m)", "valor": "a cada 3,65 m de subida ou em cada convés", "item": "11.2.10.3"},
+    {"parametro": "Patamar intermediário (subida ≥ 6,1 m)", "valor": "a cada 3,65 m de subida ou em cada convés", "item": "11.2.10.3", "cota": "esquemas/escada-degraus-lance-patamar.svg#H"},
     {"parametro": "Altura livre sobre os degraus", "valor": "≥ 2032 mm (preferido 2134 mm)", "item": "11.2.9", "cota": "esquemas/escada-degraus-lance-patamar.svg#e"},
     {"parametro": "Altura do corrimão", "valor": "914 a 991 mm (preferido 940 mm)", "item": "11.2.11.1", "cota": "esquemas/escada-degraus-corrimao.svg#a"},
     {"parametro": "Ø do corrimão", "valor": "38 mm nominal, seção circular", "item": "11.2.11", "cota": "esquemas/escada-degraus-corrimao.svg#diametro"},
     {"parametro": "Folga atrás do corrimão", "valor": "≥ 75 mm", "item": "11.2.11.1 (3)", "cota": "esquemas/escada-degraus-corrimao.svg#folga"},
     {"parametro": "Escada helicoidal", "valor": "só em tanque/estrutura redonda com Ø > 2,44 m", "item": "11.2.13.1"}
-   ]
+   ],
+   "figuras": ["esquemas/escada-degraus-lance-patamar.svg"]
   },
   {
    "titulo": "Rampas",
@@ -54,10 +56,11 @@
    "valores": [
     {"parametro": "Pedestres sem material", "valor": "8° preferido; 15° máx.", "item": "Tabela 26", "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"},
     {"parametro": "Pedestres com material", "valor": "4° preferido; 7° máx.", "item": "Tabela 26", "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"},
-    {"parametro": "Só veículos", "valor": "20° máx.", "item": "Tabela 26"},
-    {"parametro": "Ripas transversais (rampa > 10°)", "valor": "a cada 356 mm (máx. 406 mm)", "item": "11.3.5.1"},
+    {"parametro": "Só veículos", "valor": "20° máx.", "item": "Tabela 26", "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"},
+    {"parametro": "Ripas transversais (rampa > 10°)", "valor": "a cada 356 mm (máx. 406 mm)", "item": "11.3.5.1", "cota": "esquemas/passarela-rampa-angulo.svg#T"},
     {"parametro": "Largura da rampa", "valor": "≥ 914 mm (preferida 1219 mm)", "item": "11.3.2", "cota": "esquemas/passarela-gabarito.svg#largura"}
-   ]
+   ],
+   "figuras": ["esquemas/passarela-rampa-angulo.svg"]
   },
   {
    "titulo": "Escadas verticais, gaiola e trava-quedas",
@@ -71,10 +74,11 @@
     {"parametro": "Montantes acima da chegada", "valor": "≥ 1067 mm (patamar intermediário: 1372 mm)", "item": "Fig. 93 (H); 11.4.4.4", "cota": "esquemas/escada-marinheiro-saida-topo.svg#montantes-acima"},
     {"parametro": "Lance contínuo máximo", "valor": "9,14 m", "item": "11.4.5", "cota": "esquemas/escada-marinheiro-plataformas.svg#lance-unico"},
     {"parametro": "Altura que exige gaiola", "valor": "> 4,57 m; gaiola começa a 2,13 m do piso", "item": "11.5.1.1", "cota": "esquemas/escada-marinheiro-gaiola.svg#altura-exige"},
-    {"parametro": "Altura que exige proteção positiva contra queda", "valor": "> 6,1 m (ou queda ao mar/sobre equipamento)", "item": "11.6.1"},
-    {"parametro": "Portão no topo — altura", "valor": "965 a 1041 mm; resiste a pessoa de 91 kg", "item": "11.4.6"},
-    {"parametro": "Degraus individuais", "valor": "só para desnível ≤ 3,66 m; Ø ≥ 25 mm", "item": "11.9.1"}
-   ]
+    {"parametro": "Altura que exige proteção positiva contra queda", "valor": "> 6,1 m (ou queda ao mar/sobre equipamento)", "item": "11.6.1", "cota": "esquemas/escada-marinheiro-trava-quedas.svg#altura-exige"},
+    {"parametro": "Portão no topo — altura", "valor": "965 a 1041 mm; resiste a pessoa de 91 kg", "item": "11.4.6", "cota": "esquemas/escada-marinheiro-saida-topo.svg#portao"},
+    {"parametro": "Degraus individuais", "valor": "só para desnível ≤ 3,66 m; Ø ≥ 25 mm", "item": "11.9.1", "cota": "esquemas/escada-marinheiro-degraus-individuais.svg#altura-max"}
+   ],
+   "figuras": ["esquemas/escada-marinheiro-trava-quedas.svg", "esquemas/escada-marinheiro-saida-topo.svg", "esquemas/escada-marinheiro-degraus-individuais.svg"]
   },
   {
    "titulo": "Guarda-corpos",
@@ -89,8 +93,9 @@
     {"parametro": "Vão entre montantes (figura)", "valor": "≤ 2440 mm", "item": "Fig. 107", "cota": "esquemas/guarda-corpo-elevacao.svg#montantes"},
     {"parametro": "Abertura entre segmentos", "valor": "≤ 152 mm", "item": "11.11.8", "cota": "esquemas/guarda-corpo-elevacao.svg#folga-segmentos"},
     {"parametro": "Carga no travessão superior", "valor": "200 lb em qualquer ponto e direção", "item": "11.11.1.5"},
-    {"parametro": "Áreas ICLL", "valor": "topo ≥ 1000 mm; vão inferior ≤ 229 mm; entre cursos ≤ 381 mm", "item": "11.11.10"}
-   ]
+    {"parametro": "Áreas ICLL", "valor": "topo ≥ 1000 mm; vão inferior ≤ 229 mm; entre cursos ≤ 381 mm", "item": "11.11.10", "cota": "esquemas/guarda-corpo-elevacao.svg#altura"}
+   ],
+   "figuras": ["esquemas/guarda-corpo-elevacao.svg"]
   },
   {
    "titulo": "Passarelas e plataformas de trabalho",
@@ -101,21 +106,23 @@
     {"parametro": "Passarela — tráfego normal em dois sentidos", "valor": "mín. 965 mm / 1067 mm", "item": "Tabela 27", "cota": "esquemas/passarela-gabarito.svg#largura"},
     {"parametro": "Rota de fuga de espaço tripulado", "valor": "mín. 1219 mm / 1370 mm", "item": "Tabela 27", "cota": "esquemas/passarela-gabarito.svg#largura"},
     {"parametro": "Altura livre em passarelas", "valor": "≥ 2032 mm (preferida 2134 mm)", "item": "11.12.1.1", "cota": "esquemas/passarela-gabarito.svg#pe-direito"},
-    {"parametro": "Plataforma de trabalho mínima", "valor": "762 × 915 mm (só em pé: 381 × 457 mm)", "item": "11.13.2"},
+    {"parametro": "Plataforma de trabalho mínima", "valor": "762 × 915 mm (só em pé: 381 × 457 mm)", "item": "11.13.2", "cota": "esquemas/passarela-plataforma-trabalho-cotas.svg#plat-largura"},
     {"parametro": "Alcance máximo de tarefa leve", "valor": "≤ 1905 mm acima do piso", "item": "11.13.4.2", "cota": "esquemas/passarela-plataforma-trabalho-cotas.svg#alcance"}
-   ]
+   ],
+   "figuras": ["esquemas/passarela-plataforma-trabalho-cotas.svg"]
   },
   {
    "titulo": "Escotilhas, portas e válvulas",
    "item": "11.14; 11.15; 12",
    "texto": "Escotilhas de vaso horizontal ficam inclinadas para baixo; dutos de HVAC têm portas de limpeza ao longo do percurso. Portas grandes de carga recebem uma porta de pessoa embutida. Volantes pequenos são para uma mão, grandes para duas; válvulas críticas ficam nas posições preferidas das figuras de altura de montagem.",
    "valores": [
-    {"parametro": "Ângulo de bocas de visita em vaso/tanque horizontal", "valor": "30° para baixo da horizontal", "item": "11.14.12"},
-    {"parametro": "Portas de limpeza em duto até 305 mm", "valor": "a cada 3 a 4 m", "item": "11.14.13"},
-    {"parametro": "Porta de pessoa embutida em porta de carga", "valor": "762 × 1829 mm", "item": "11.15.1.1"},
-    {"parametro": "Volante para operação com uma mão", "valor": "Ø < 152 mm (maiores: duas mãos)", "item": "12.3.1"},
-    {"parametro": "Válvula com volante/alavanca que pede posição preferida", "valor": "> 406 mm, ou operada mais de 1 vez em 6 meses", "item": "12.3.2.1"}
-   ]
+    {"parametro": "Ângulo de bocas de visita em vaso/tanque horizontal", "valor": "30° para baixo da horizontal", "item": "11.14.12", "cota": "esquemas/acessos-escotilhas-portas-dutos.svg#boca-angulo"},
+    {"parametro": "Portas de limpeza em duto até 305 mm", "valor": "a cada 3 a 4 m", "item": "11.14.13", "cota": "esquemas/acessos-escotilhas-portas-dutos.svg#porta-limpeza-esp"},
+    {"parametro": "Porta de pessoa embutida em porta de carga", "valor": "762 × 1829 mm", "item": "11.15.1.1", "cota": "esquemas/acessos-escotilhas-portas-dutos.svg#porta-pessoa-largura"},
+    {"parametro": "Volante para operação com uma mão", "valor": "Ø < 152 mm (maiores: duas mãos)", "item": "12.3.1", "cota": "esquemas/acessos-valvulas-volantes.svg#volante-d"},
+    {"parametro": "Válvula com volante/alavanca que pede posição preferida", "valor": "> 406 mm, ou operada mais de 1 vez em 6 meses", "item": "12.3.2.1", "cota": "esquemas/acessos-valvulas-volantes.svg#volante-d"}
+   ],
+   "figuras": ["esquemas/acessos-escotilhas-portas-dutos.svg", "esquemas/acessos-valvulas-volantes.svg"]
   },
   {
    "titulo": "Habitabilidade",

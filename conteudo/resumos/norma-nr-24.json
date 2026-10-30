@@ -105,12 +105,14 @@
     {
      "parametro": "Área mínima por trabalhador (até 750 usuários)",
      "valor": "1,5 − (nº de trabalhadores / 1 000) m²",
-     "item": "24.4.2"
+     "item": "24.4.2",
+     "cota": "esquemas/habitabilidade-armarios-refeitorio-cotas.svg#area-vestiario"
     },
     {
      "parametro": "Área mínima por trabalhador (> 750 usuários)",
      "valor": "0,75 m²",
-     "item": "24.4.2.1"
+     "item": "24.4.2.1",
+     "cota": "esquemas/habitabilidade-armarios-refeitorio-cotas.svg#area-vestiario"
     },
     {
      "parametro": "Armário simples — altura mínima",
@@ -145,7 +147,8 @@
     {
      "parametro": "Armário duplo com divisão vertical — dimensões mínimas",
      "valor": "0,80 m (alt.) × 0,50 m (larg.) × 0,40 m (prof.)",
-     "item": "24.4.6.1 b)"
+     "item": "24.4.6.1 b)",
+     "cota": "esquemas/resumo-nr-24-sanitarios-armarios.svg#duplo-altura"
     },
     {
      "parametro": "Armário duplo com divisão vertical — cada compartimento",
@@ -155,7 +158,8 @@
     }
    ],
    "figuras": [
-    "esquemas/resumo-nr-24-sanitarios-armarios.svg"
+    "esquemas/resumo-nr-24-sanitarios-armarios.svg",
+    "esquemas/habitabilidade-armarios-refeitorio-cotas.svg"
    ]
   },
   {
@@ -199,7 +203,8 @@
     {
      "parametro": "Distância máxima dormitório–sanitário (se separado)",
      "valor": "50 m, por passagem coberta com piso lavável",
-     "item": "24.7.2.1"
+     "item": "24.7.2.1",
+     "cota": "esquemas/habitabilidade-distancias-percurso.svg#percurso"
     },
     {
      "parametro": "Camas na mesma vertical",
@@ -214,12 +219,14 @@
     {
      "parametro": "Área mínima por cama simples",
      "valor": "3,00 m² (inclui circulação e armário)",
-     "item": "24.7.3 g)"
+     "item": "24.7.3 g)",
+     "cota": "esquemas/habitabilidade-camarote-cotas.svg#area"
     },
     {
      "parametro": "Área mínima por beliche",
      "valor": "4,50 m² (inclui circulação e armário)",
-     "item": "24.7.3 g)"
+     "item": "24.7.3 g)",
+     "cota": "esquemas/habitabilidade-camarote-cotas.svg#area"
     },
     {
      "parametro": "Beliche — cama superior",
@@ -229,7 +236,9 @@
     }
    ],
    "figuras": [
-    "esquemas/resumo-nr-37-camarote.svg"
+    "esquemas/resumo-nr-37-camarote.svg",
+    "esquemas/habitabilidade-distancias-percurso.svg",
+    "esquemas/habitabilidade-camarote-cotas.svg"
    ]
   },
   {
@@ -302,7 +311,8 @@
     {
      "parametro": "Distância máxima a pé até sanitário/refeição/água",
      "valor": "250 m",
-     "item": "Anexo III, 4.1"
+     "item": "Anexo III, 4.1",
+     "cota": "esquemas/habitabilidade-distancias-percurso.svg#percurso"
     },
     {
      "parametro": "Sanitário",
@@ -314,6 +324,9 @@
      "valor": "grupo de até 10 trabalhadores, com privacidade",
      "item": "Anexo III, 4.1.1"
     }
+   ],
+   "figuras": [
+    "esquemas/habitabilidade-distancias-percurso.svg"
    ]
   }
  ]

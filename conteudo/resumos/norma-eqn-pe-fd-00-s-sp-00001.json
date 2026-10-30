@@ -26,33 +26,42 @@
     {
      "parametro": "Distância entre costuras circunferenciais",
      "valor": "≥ 1200 mm",
-     "item": "4.1.1; 8.2.3"
+     "item": "4.1.1; 8.2.3",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#segmento"
     },
     {
      "parametro": "Retilinidade (comprimento > 12 m)",
      "valor": "≤ 12 mm (perfis: ≤ 10 mm)",
-     "item": "4.1.3"
+     "item": "4.1.3",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#retilineidade"
     },
     {
      "parametro": "Ovalização",
      "valor": "≤ 1 % de D e ≤ máx.(6 mm; t/10)",
-     "item": "4.1.3"
+     "item": "4.1.3",
+     "cota": "esquemas/vaso-pressao-asme-viii-ovalizacao.svg#Dmax"
     },
     {
      "parametro": "Ovalização local (gabarito de 20°)",
      "valor": "≤ 10 % da espessura",
-     "item": "4.1.3"
+     "item": "4.1.3",
+     "cota": "esquemas/vaso-pressao-asme-viii-ovalizacao.svg#e"
     },
     {
      "parametro": "Tolerância de comprimento",
      "valor": "+50 / 0 mm",
-     "item": "4.1.3"
+     "item": "4.1.3",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#comprimento"
     },
     {
      "parametro": "Parafusos / arruelas / contrapinos",
      "valor": "ISO 898 classe 8.8 / ISO 7090 HV 200 / inox A4",
      "item": "4.2"
     }
+   ],
+   "figuras": [
+    "esquemas/tolerancias-fabricacao-estrutural-estacas.svg",
+    "esquemas/vaso-pressao-asme-viii-ovalizacao.svg"
    ]
   },
   {
@@ -75,32 +84,38 @@
     {
      "parametro": "Desvio de perpendicularidade do corte",
      "valor": "≤ 3 mm",
-     "item": "8.2.2"
+     "item": "8.2.2",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#esquadro"
     },
     {
      "parametro": "Defasagem de costuras longitudinais",
      "valor": "≥ 15° (preferível 180°)",
-     "item": "8.2.3"
+     "item": "8.2.3",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#defasagem"
     },
     {
      "parametro": "Comprimento do stub do nó",
      "valor": "≥ OD e ≥ 600 mm",
-     "item": "8.2.3"
+     "item": "8.2.3",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#stub"
     },
     {
      "parametro": "Desalinhamento — um lado / dois lados",
      "valor": "≤ 3 mm / ≤ t/4",
-     "item": "8.1.2"
+     "item": "8.1.2",
+     "cota": "esquemas/solda-estrutural-montagem-junta.svg#offset"
     },
     {
      "parametro": "Solda de vedação",
      "valor": "≥ 3 mm",
-     "item": "8.3"
+     "item": "8.3",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#selagem"
     },
     {
      "parametro": "Folga do furo — até 18 mm / maior",
      "valor": "+1 mm / +1,5 mm",
-     "item": "8.4"
+     "item": "8.4",
+     "cota": "esquemas/parafusos-porcas-arruelas-aperto-torque.svg#dh"
     },
     {
      "parametro": "Protensão de parafusos ≥ 12 mm",
@@ -110,28 +125,43 @@
     {
      "parametro": "Ponta do parafuso além da porca",
      "valor": "≤ 6 mm",
-     "item": "8.4"
+     "item": "8.4",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-detalhes-montagem.svg#ponta-parafuso"
     },
     {
      "parametro": "Distância entre emendas de perfis",
      "valor": "≥ 1200 mm",
-     "item": "8.5"
+     "item": "8.5",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#emenda-vigas"
     },
     {
      "parametro": "Corte de acessório temporário",
      "valor": "≥ 3 mm da estrutura, depois esmerilhar",
-     "item": "8.6"
+     "item": "8.6",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-acessorios-temporarios.svg#corte-critico"
     },
     {
      "parametro": "Afastamento de solda temporária à estrutural",
      "valor": "≥ 200 mm",
-     "item": "8.6"
+     "item": "8.6",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-detalhes-montagem.svg#afastamento-solda"
     },
     {
      "parametro": "Raio do rat hole",
      "valor": "30 mm",
-     "item": "8.6"
+     "item": "8.6",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-detalhes-montagem.svg#rat-hole"
     }
+   ],
+   "figuras": [
+    "esquemas/tolerancias-fabricacao-estrutural-estacas.svg",
+    "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg",
+    "esquemas/solda-estrutural-montagem-junta.svg",
+    "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg",
+    "esquemas/parafusos-porcas-arruelas-aperto-torque.svg",
+    "esquemas/tolerancias-fabricacao-estrutural-detalhes-montagem.svg",
+    "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg",
+    "esquemas/tolerancias-fabricacao-estrutural-acessorios-temporarios.svg"
    ]
   },
   {
@@ -142,18 +172,25 @@
     {
      "parametro": "Empeno do grating",
      "valor": "≤ 2 mm",
-     "item": "9.2.1"
+     "item": "9.2.1",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-detalhes-montagem.svg#empeno"
     },
     {
      "parametro": "Inclinação de chapa/grating",
      "valor": "± 6 mm em 3 m",
-     "item": "9.2.1"
+     "item": "9.2.1",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-detalhes-montagem.svg#inclinacao"
     },
     {
      "parametro": "Elevação de patamar e posição da escada",
      "valor": "± 10 mm",
-     "item": "9.2.2"
+     "item": "9.2.2",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#patamar"
     }
+   ],
+   "figuras": [
+    "esquemas/tolerancias-fabricacao-estrutural-detalhes-montagem.svg",
+    "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg"
    ]
   },
   {

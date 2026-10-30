@@ -159,18 +159,24 @@
     {
      "parametro": "Correia alta dispensada de proteção (sem pessoas na zona de perigo)",
      "valor": "borda da correia > 2,70 m do piso",
-     "item": "12.8.1.1"
+     "item": "12.8.1.1",
+     "cota": "esquemas/resumo-nr-12-transportador-correia.svg#borda-altura"
     },
     {
      "parametro": "Correia alta — passarelas",
      "valor": "borda > 2,70 m do piso: passarelas nos dois lados, em toda a extensão",
-     "item": "12.8.2"
+     "item": "12.8.2",
+     "cota": "esquemas/resumo-nr-12-transportador-correia.svg#borda-altura"
     },
     {
      "parametro": "Passarela em um só lado",
      "valor": "correia com largura ≤ 762 mm (30 in), com plataforma móvel para intervenções",
-     "item": "12.8.2.1"
+     "item": "12.8.2.1",
+     "cota": "esquemas/resumo-nr-12-transportador-correia.svg#largura-correia"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-12-transportador-correia.svg"
    ]
   },
   {
@@ -395,7 +401,8 @@
     {
      "parametro": "Escada tipo marinheiro — ângulo de lance",
      "valor": "75° a 90°",
-     "item": "Anexo III, 2 e Figura 1; Anexo IV"
+     "item": "Anexo III, 2 e Figura 1; Anexo IV",
+     "cota": "esquemas/escada-marinheiro-angulo.svg#angulo"
     },
     {
      "parametro": "Dispensa por norma técnica de acesso",
@@ -404,7 +411,8 @@
     }
    ],
    "figuras": [
-    "esquemas/escada-degraus-angulo-tipo.svg"
+    "esquemas/escada-degraus-angulo-tipo.svg",
+    "esquemas/escada-marinheiro-angulo.svg"
    ]
   },
   {
@@ -497,11 +505,13 @@
     {
      "parametro": "Alternativa (Figura 3) — afastamento das barras à borda",
      "valor": "≤ 50 mm (leitura da figura)",
-     "item": "Anexo III, Figura 3"
+     "item": "Anexo III, Figura 3",
+     "cota": "esquemas/guarda-corpo-corte-borda.svg#afastamento-borda"
     }
    ],
    "figuras": [
-    "esquemas/escada-degraus-corrimao.svg"
+    "esquemas/escada-degraus-corrimao.svg",
+    "esquemas/guarda-corpo-corte-borda.svg"
    ]
   },
   {
@@ -843,8 +853,12 @@
     {
      "parametro": "Fatiadora — dispensa de proteção na descarga",
      "valor": "distância entre lâminas ≤ 12 mm",
-     "item": "Anexo VI, 8.2.2"
+     "item": "Anexo VI, 8.2.2",
+     "cota": "esquemas/resumo-nr-12-maquinas-diversas.svg#laminas"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-12-maquinas-diversas.svg"
    ]
   },
   {
@@ -855,13 +869,17 @@
     {
      "parametro": "Serra de fita — mesa móvel obrigatória (fabricadas desde 24/06/2011)",
      "valor": "exceto serras com altura de corte ≤ 250 mm",
-     "item": "Anexo VII, 2.5"
+     "item": "Anexo VII, 2.5",
+     "cota": "esquemas/resumo-nr-12-maquinas-diversas.svg#serra-altura"
     },
     {
      "parametro": "Serra de fita — tempo de parada ao abrir a proteção",
      "valor": "≤ 2 s",
      "item": "Anexo VII, 2.9"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-12-maquinas-diversas.svg"
    ]
   },
   {
@@ -887,7 +905,8 @@
     {
      "parametro": "Dobradeira — capacidade de detecção da AOPD multizona",
      "valor": "14 mm, até 2,5 mm atrás do plano de dobra e ≥ 15 mm à frente",
-     "item": "Anexo VIII, 4.1.2.1.1 e 4.1.2.1.1.2"
+     "item": "Anexo VIII, 4.1.2.1.1 e 4.1.2.1.1.2",
+     "cota": "esquemas/resumo-nr-12-dobradeira-prensa.svg#deteccao"
     },
     {
      "parametro": "Dobradeira — velocidade máxima em blanking/muting",
@@ -897,7 +916,8 @@
     {
      "parametro": "Dobradeira — muting permitido a partir de",
      "valor": "distância punção–chapa ≤ 10 mm",
-     "item": "Anexo VIII, 4.1.2.1.1.4"
+     "item": "Anexo VIII, 4.1.2.1.1.4",
+     "cota": "esquemas/resumo-nr-12-dobradeira-prensa.svg#muting"
     },
     {
      "parametro": "Dobradeira — modo especial (dobra de caixa) desativa sozinho",
@@ -907,12 +927,14 @@
     {
      "parametro": "Dobradeira — encosto traseiro mecanizado: zona de segurança",
      "valor": "≥ 50 mm entre encosto e ferramenta inferior",
-     "item": "Anexo VIII, 4.1.2.2"
+     "item": "Anexo VIII, 4.1.2.2",
+     "cota": "esquemas/resumo-nr-12-dobradeira-prensa.svg#encosto-zona"
     },
     {
      "parametro": "Dobradeira — encosto traseiro: alternativas",
      "valor": "velocidade ≤ 2 m/min; ou força ≤ 150 N; ou basculamento com aproximação ≥ 5 mm acima da ferramenta",
-     "item": "Anexo VIII, 4.1.2.2 a)–c)"
+     "item": "Anexo VIII, 4.1.2.2 a)–c)",
+     "cota": "esquemas/resumo-nr-12-dobradeira-prensa.svg#encosto-aproximacao"
     },
     {
      "parametro": "Dobradeira — teste de escorregamento",
@@ -927,8 +949,12 @@
     {
      "parametro": "Dispositivo pneumático com face frontal aberta",
      "valor": "abertura ≤ 50 cm em qualquer direção",
-     "item": "Anexo VIII, 5.3.1"
+     "item": "Anexo VIII, 5.3.1",
+     "cota": "esquemas/resumo-nr-12-dobradeira-prensa.svg#abertura"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-12-dobradeira-prensa.svg"
    ]
   },
   {
@@ -949,18 +975,23 @@
     {
      "parametro": "Injetora de grande porte (definição)",
      "valor": "distância entre tirantes (ou equivalente) > 1,2 m, ou pessoa cabe entre porta e zona perigosa",
-     "item": "Anexo IX, 1.2.6.1"
+     "item": "Anexo IX, 1.2.6.1",
+     "cota": "esquemas/resumo-nr-12-maquinas-diversas.svg#tirantes"
     },
     {
      "parametro": "Fechamento vertical — retenção mecânica obrigatória",
      "valor": "placa > 800 mm com curso de abertura > 500 mm",
-     "item": "Anexo IX, 1.2.7.2"
+     "item": "Anexo IX, 1.2.7.2",
+     "cota": "esquemas/resumo-nr-12-maquinas-diversas.svg#placa"
     },
     {
      "parametro": "Norma para injetoras fabricadas a partir de 01/06/2016",
      "valor": "ABNT NBR 13536:2016 (importadas: EN 201)",
      "item": "Anexo IX, 1.2.1.6.3.1 e 1.2.1.6.3.2"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-12-maquinas-diversas.svg"
    ]
   },
   {
@@ -981,18 +1012,24 @@
     {
      "parametro": "Balancim jacaré — altura do piso à superfície de corte",
      "valor": "1 000 mm ± 30 mm",
-     "item": "Anexo X, 2.1 c)"
+     "item": "Anexo X, 2.1 c)",
+     "cota": "esquemas/resumo-nr-12-maquinas-diversas.svg#altura-corte"
     },
     {
      "parametro": "Prato rotativo (dublar) — folga do dispositivo de restrição ao platô",
      "valor": "≤ 4 mm",
-     "item": "Anexo X, 10.1 d)"
+     "item": "Anexo X, 10.1 d)",
+     "cota": "esquemas/resumo-nr-12-maquinas-diversas.svg#folga-plato"
     },
     {
      "parametro": "Máquina de chanfrar cortes — espaçamento guia–matriz de corte",
      "valor": "≤ 4 mm",
-     "item": "Anexo X, 25.1 c)"
+     "item": "Anexo X, 25.1 c)",
+     "cota": "esquemas/resumo-nr-12-maquinas-diversas.svg#guia-matriz"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-12-maquinas-diversas.svg"
    ]
   },
   {
@@ -1003,17 +1040,20 @@
     {
      "parametro": "Acesso obrigatório ao posto de operação",
      "valor": "altura do solo ao posto > 0,55 m",
-     "item": "Anexo XI, 15.3"
+     "item": "Anexo XI, 15.3",
+     "cota": "esquemas/resumo-nr-12-maquina-agricola-acesso.svg#posto-altura"
     },
     {
      "parametro": "Acesso obrigatório — construção com aplicação agroflorestal",
      "valor": "> 0,60 m",
-     "item": "Anexo XI, 15.4"
+     "item": "Anexo XI, 15.4",
+     "cota": "esquemas/resumo-nr-12-maquina-agricola-acesso.svg#posto-altura"
     },
     {
      "parametro": "Acesso obrigatório — colhedoras de arroz, de esteira ou autonivelantes",
      "valor": "> 0,70 m",
-     "item": "Anexo XI, 15.5"
+     "item": "Anexo XI, 15.5",
+     "cota": "esquemas/resumo-nr-12-maquina-agricola-acesso.svg#posto-altura"
     },
     {
      "parametro": "Rampa 10° a 20° — espaçamento das peças transversais",
@@ -1024,7 +1064,8 @@
     {
      "parametro": "Plataforma de inspeção de plantadeira — largura útil",
      "valor": "≥ 0,3 m",
-     "item": "Anexo XI, 15.12.1"
+     "item": "Anexo XI, 15.12.1",
+     "cota": "esquemas/resumo-nr-12-maquina-agricola-acesso.svg#plataforma-largura"
     },
     {
      "parametro": "Escada de degraus sem espelho — projeção entre degraus",
@@ -1047,7 +1088,8 @@
     {
      "parametro": "Corrimão/manípulo — extremidade inferior",
      "valor": "≤ 1 600 mm do solo",
-     "item": "Anexo XI, 15.21 c)"
+     "item": "Anexo XI, 15.21 c)",
+     "cota": "esquemas/resumo-nr-12-maquina-agricola-acesso.svg#corrimao-inferior"
     },
     {
      "parametro": "Corrimão/manípulo — folga para a mão",
@@ -1058,37 +1100,44 @@
     {
      "parametro": "Manípulo no topo do acesso",
      "valor": "altura 0,85 m a 1,10 m; comprimento ≥ 0,15 m",
-     "item": "Anexo XI, 15.21 e) e f)"
+     "item": "Anexo XI, 15.21 e) e f)",
+     "cota": "esquemas/resumo-nr-12-maquina-agricola-acesso.svg#manipulo-altura"
     },
     {
      "parametro": "Apoio de mão — distância a articulações",
      "valor": "≥ 0,30 m",
-     "item": "Anexo XI, 15.21.1"
+     "item": "Anexo XI, 15.21.1",
+     "cota": "esquemas/resumo-nr-12-maquina-agricola-acesso.svg#articulacao"
     },
     {
      "parametro": "Escada de acesso ao posto — inclinação",
      "valor": "70° a 90°; abaixo de 70°: 2B + G ≤ 700 mm",
-     "item": "Anexo XI, 15.22 a) e b)"
+     "item": "Anexo XI, 15.22 a) e b)",
+     "cota": "esquemas/resumo-nr-12-maquina-agricola-acesso.svg#inclinacao"
     },
     {
      "parametro": "Primeiro degrau — colhedoras de arroz/esteira/autonivelantes",
      "valor": "≤ 700 mm do solo",
-     "item": "Anexo XI, 15.22.1 g)"
+     "item": "Anexo XI, 15.22.1 g)",
+     "cota": "esquemas/resumo-nr-12-maquina-agricola-acesso.svg#primeiro-degrau"
     },
     {
      "parametro": "Primeiro degrau — construção com aplicação agroflorestal",
      "valor": "≤ 600 mm do solo",
-     "item": "Anexo XI, 15.22.1 h)"
+     "item": "Anexo XI, 15.22.1 h)",
+     "cota": "esquemas/resumo-nr-12-maquina-agricola-acesso.svg#primeiro-degrau"
     },
     {
      "parametro": "Plataformas secundárias de colhedoras — barra superior",
      "valor": "1 m a 1,1 m (só com a máquina parada)",
-     "item": "Anexo XI, 15.23.1"
+     "item": "Anexo XI, 15.23.1",
+     "cota": "esquemas/resumo-nr-12-maquina-agricola-acesso.svg#barra-superior"
     },
     {
      "parametro": "Bocal de abastecimento",
      "valor": "≤ 1,5 m acima do apoio do operador",
-     "item": "Anexo XI, 15.25"
+     "item": "Anexo XI, 15.25",
+     "cota": "esquemas/resumo-nr-12-maquina-agricola-acesso.svg#bocal"
     },
     {
      "parametro": "Microtratores com exclusões do Quadro II",
@@ -1100,7 +1149,8 @@
     "esquemas/resumo-nr-12-rampa-pecas-transversais.svg",
     "esquemas/escada-degraus-degrau.svg",
     "esquemas/escada-degraus-lance-patamar.svg",
-    "esquemas/escada-degraus-corrimao.svg"
+    "esquemas/escada-degraus-corrimao.svg",
+    "esquemas/resumo-nr-12-maquina-agricola-acesso.svg"
    ]
   },
   {
@@ -1111,7 +1161,8 @@
     {
      "parametro": "Altura nominal de trabalho (definição)",
      "valor": "altura do fundo da caçamba ao solo na elevação máxima + 1,5 m",
-     "item": "Anexo XII, 1"
+     "item": "Anexo XII, 1",
+     "cota": "esquemas/resumo-nr-12-cesto-elevar-pessoas.svg#altura-trabalho"
     },
     {
      "parametro": "Plataforma metálica — altura do guarda-corpo",
@@ -1142,17 +1193,20 @@
     {
      "parametro": "Cesto acoplado — oscilação máxima do nível",
      "valor": "≤ 5° em relação à horizontal",
-     "item": "Anexo XII, 3.1 q)"
+     "item": "Anexo XII, 3.1 q)",
+     "cota": "esquemas/resumo-nr-12-cesto-elevar-pessoas.svg#inclinacao"
     },
     {
      "parametro": "Drenagem do piso — abertura máxima",
      "valor": "não passar esfera de Ø 15 mm",
-     "item": "Anexo XII, 3.2.2 c) e 4.18 c)"
+     "item": "Anexo XII, 3.2.2 c) e 4.18 c)",
+     "cota": "esquemas/resumo-nr-12-cesto-elevar-pessoas.svg#esfera"
     },
     {
      "parametro": "Degrau de entrada da plataforma",
      "valor": "quando o desnível de acesso > 0,55 m",
-     "item": "Anexo XII, 3.2.2 d)"
+     "item": "Anexo XII, 3.2.2 d)",
+     "cota": "esquemas/resumo-nr-12-cesto-elevar-pessoas.svg#degrau"
     },
     {
      "parametro": "Ensaio do conjunto guindaste + cesto acoplado",
@@ -1187,12 +1241,14 @@
     {
      "parametro": "Cesto suspenso — barra interna de apoio das mãos",
      "valor": "altura ≥ 990 mm; projeção interna ≥ 50 mm",
-     "item": "Anexo XII, 4.18 f)"
+     "item": "Anexo XII, 4.18 f)",
+     "cota": "esquemas/resumo-nr-12-cesto-elevar-pessoas.svg#barra-interna"
     },
     {
      "parametro": "Cesto suspenso — inclinação máxima da caçamba",
      "valor": "≤ 10° fora da horizontal",
-     "item": "Anexo XII, 4.23"
+     "item": "Anexo XII, 4.23",
+     "cota": "esquemas/resumo-nr-12-cesto-elevar-pessoas.svg#inclinacao"
     },
     {
      "parametro": "Alarme do anemômetro (guindaste e grua)",
@@ -1226,7 +1282,8 @@
     }
    ],
    "figuras": [
-    "esquemas/escada-degraus-corrimao.svg"
+    "esquemas/escada-degraus-corrimao.svg",
+    "esquemas/resumo-nr-12-cesto-elevar-pessoas.svg"
    ]
   }
  ]

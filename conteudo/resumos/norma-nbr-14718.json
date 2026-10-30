@@ -28,18 +28,23 @@
     {
      "parametro": "ZEP — altura acima do nível de circulação",
      "valor": "até 0,45 m",
-     "item": "3.17"
+     "item": "3.17",
+     "cota": "esquemas/guarda-corpo-edificacao-zep-gabaritos.svg#zep-altura"
     },
     {
      "parametro": "ZEP — largura transversal",
      "valor": "entre 0,13 m e 0,30 m",
-     "item": "3.17"
+     "item": "3.17",
+     "cota": "esquemas/guarda-corpo-edificacao-zep-gabaritos.svg#zep-largura"
     },
     {
      "parametro": "Uso coletivo médio / alto tráfego",
      "valor": "até 2 500 / acima de 2 500 pessoas por dia",
      "item": "3"
     }
+   ],
+   "figuras": [
+    "esquemas/guarda-corpo-edificacao-zep-gabaritos.svg"
    ]
   },
   {
@@ -133,7 +138,8 @@
     {
      "parametro": "Gabarito prismático (ornamentais)",
      "valor": "0,255 m × 0,185 m, aresta 0,115 m, espessura 0,115 m",
-     "item": "4.4.2.3"
+     "item": "4.4.2.3",
+     "cota": "esquemas/guarda-corpo-edificacao-zep-gabaritos.svg#gabarito"
     },
     {
      "parametro": "Avanço do guarda-corpo além da borda",
@@ -144,8 +150,12 @@
     {
      "parametro": "Barreira contra queda de objetos",
      "valor": "não passa esfera Ø 0,05 m",
-     "item": "4.4.2.5"
+     "item": "4.4.2.5",
+     "cota": "esquemas/guarda-corpo-edificacao-zep-gabaritos.svg#esfera"
     }
+   ],
+   "figuras": [
+    "esquemas/guarda-corpo-edificacao-zep-gabaritos.svg"
    ]
   },
   {
@@ -194,7 +204,8 @@
     {
      "parametro": "Carga de uso — deslocamento sob carga / residual",
      "valor": "≤ 25 mm / ≤ 3 mm",
-     "item": "5.1.1"
+     "item": "5.1.1",
+     "cota": "esquemas/guarda-corpo-ensaios-nbr14718.svg#deslocamento"
     },
     {
      "parametro": "Carga de segurança — deslocamento sob carga",
@@ -210,13 +221,17 @@
     {
      "parametro": "Vertical — deformação sob carga / residual",
      "valor": "≤ 20 mm / ≤ 8 mm",
-     "item": "5.2"
+     "item": "5.2",
+     "cota": "esquemas/guarda-corpo-ensaios-nbr14718.svg#deslocamento"
     },
     {
      "parametro": "Energia de impacto",
      "valor": "600 J",
      "item": "5.3"
     }
+   ],
+   "figuras": [
+    "esquemas/guarda-corpo-ensaios-nbr14718.svg"
    ]
   },
   {
@@ -253,7 +268,8 @@
     {
      "parametro": "Corpo de impacto",
      "valor": "Ø ≈ 300 mm, 40 kg",
-     "item": "C"
+     "item": "C",
+     "cota": "esquemas/guarda-corpo-edificacao-zep-gabaritos.svg#corpo-impacto"
     },
     {
      "parametro": "Altura de queda do pêndulo",
@@ -261,6 +277,9 @@
      "item": "C",
      "cota": "esquemas/guarda-corpo-ensaios-nbr14718.svg#queda"
     }
+   ],
+   "figuras": [
+    "esquemas/guarda-corpo-edificacao-zep-gabaritos.svg"
    ]
   },
   {

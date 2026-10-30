@@ -115,7 +115,8 @@
     {
      "parametro": "Fresta entre pisos adjacentes",
      "valor": "< 20 mm",
-     "item": "4.2.4.4"
+     "item": "4.2.4.4",
+     "cota": "esquemas/passarela-piso-grating.svg#fresta"
     },
     {
      "parametro": "Abertura do piso (passarela/plataforma)",
@@ -129,6 +130,9 @@
      "item": "4.2.4.5.1",
      "cota": "esquemas/passarela-piso-grating.svg#abertura"
     }
+   ],
+   "figuras": [
+    "esquemas/passarela-piso-grating.svg"
    ]
   },
   {
@@ -176,8 +180,12 @@
     {
      "parametro": "Nervuras — altura e largura",
      "valor": "10 mm a 20 mm cada",
-     "item": "4.2.4.7"
+     "item": "4.2.4.7",
+     "cota": "esquemas/resumo-nr-12-rampa-pecas-transversais.svg#h"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-12-rampa-pecas-transversais.svg"
    ]
   },
   {
@@ -205,8 +213,12 @@
     {
      "parametro": "Desnível entre piso carregado e vizinho descarregado",
      "valor": "≤ 4 mm",
-     "item": "4.2.5"
+     "item": "4.2.5",
+     "cota": "esquemas/passarela-piso-grating.svg#desnivel-pisos"
     }
+   ],
+   "figuras": [
+    "esquemas/passarela-piso-grating.svg"
    ]
   },
   {

@@ -135,7 +135,8 @@
     {
      "parametro": "Escada de mão — espaçamento dos degraus",
      "valor": "0,25 m a 0,30 m, uniforme",
-     "item": "34.6.3.6 a)"
+     "item": "34.6.3.6 a)",
+     "cota": "esquemas/escada-portatil-encosto-cotas.svg#espacamento"
     },
     {
      "parametro": "Escada de mão — ultrapassar o piso superior",
@@ -146,12 +147,14 @@
     {
      "parametro": "Escada de abrir — comprimento máximo fechada",
      "valor": "6 m",
-     "item": "34.6.3.9"
+     "item": "34.6.3.9",
+     "cota": "esquemas/escada-portatil-autossustentavel-cotas.svg#comprimento-fechada"
     },
     {
      "parametro": "Escada extensível — limitador de curso",
      "valor": "no 4º vão a partir da catraca",
-     "item": "34.6.3.10"
+     "item": "34.6.3.10",
+     "cota": "esquemas/escada-portatil-encosto-cotas.svg#limitador"
     },
     {
      "parametro": "Escada extensível sem limitador — sobreposição mínima",
@@ -162,7 +165,8 @@
     {
      "parametro": "Escada marinheiro com gaiola obrigatória",
      "valor": "altura ≥ 6 m",
-     "item": "34.6.3.11"
+     "item": "34.6.3.11",
+     "cota": "esquemas/escada-marinheiro-gaiola.svg#altura-exige"
     },
     {
      "parametro": "Gaiola — início",
@@ -201,7 +205,10 @@
     "esquemas/escada-degraus-lance-patamar.svg",
     "esquemas/resumo-nr-18-escada-extensivel.svg",
     "esquemas/resumo-nr-12-escada-fixa-vertical.svg",
-    "esquemas/resumo-nr-12-rampa-pecas-transversais.svg"
+    "esquemas/resumo-nr-12-rampa-pecas-transversais.svg",
+    "esquemas/escada-portatil-encosto-cotas.svg",
+    "esquemas/escada-portatil-autossustentavel-cotas.svg",
+    "esquemas/escada-marinheiro-gaiola.svg"
    ]
   },
   {
@@ -217,8 +224,12 @@
     {
      "parametro": "Ancoragem obrigatória da torre",
      "valor": "altura > 9 m",
-     "item": "34.6.5.19"
+     "item": "34.6.5.19",
+     "cota": "esquemas/andaime-torre-cavalete.svg#ancoragem-altura"
     }
+   ],
+   "figuras": [
+    "esquemas/andaime-torre-cavalete.svg"
    ]
   },
   {
@@ -262,7 +273,8 @@
     {
      "parametro": "Guarda-corpo — vãos",
      "valor": "< 0,50 m",
-     "item": "34.6.7.1 c)"
+     "item": "34.6.7.1 c)",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#vao-barras"
     },
     {
      "parametro": "Rodapé (piso acima de 1,00 m)",
@@ -272,7 +284,8 @@
     }
    ],
    "figuras": [
-    "esquemas/escada-degraus-corrimao.svg"
+    "esquemas/escada-degraus-corrimao.svg",
+    "esquemas/guarda-corpo-elevacao.svg"
    ]
   },
   {
@@ -327,8 +340,12 @@
     {
      "parametro": "Quadros elétricos — distância da entrada do espaço confinado",
      "valor": "≥ 2 m, do lado de fora",
-     "item": "34.9.10"
+     "item": "34.9.10",
+     "cota": "esquemas/seguranca-distancias-equipamentos.svg#quadro-entrada"
     }
+   ],
+   "figuras": [
+    "esquemas/seguranca-distancias-equipamentos.svg"
    ]
   },
   {
@@ -339,7 +356,8 @@
     {
      "parametro": "Rede elétrica aérea não desenergizada",
      "valor": "manter o dobro da distância da zona controlada (NR-10, Anexo I) e o guindaste aterrado",
-     "item": "34.10.11 g)"
+     "item": "34.10.11 g)",
+     "cota": "esquemas/resumo-nr-10-zonas-eletricas.svg#rc"
     },
     {
      "parametro": "Grua — vento com trabalho assistido",
@@ -356,6 +374,9 @@
      "valor": "≥ 20 h",
      "item": "Anexo I, 3"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-10-zonas-eletricas.svg"
    ]
   },
   {
@@ -366,12 +387,14 @@
     {
      "parametro": "Torre dispensada de fixação",
      "valor": "altura ≤ 3 × menor dimensão da base",
-     "item": "34.11.5.1"
+     "item": "34.11.5.1",
+     "cota": "esquemas/andaime-torre-cavalete.svg#torre-altura"
     },
     {
      "parametro": "Andaime móvel — altura máxima",
      "valor": "6 m, rodízios travados em piso plano",
-     "item": "34.11.8"
+     "item": "34.11.8",
+     "cota": "esquemas/andaime-torre-cavalete.svg#torre-altura"
     },
     {
      "parametro": "Guarda-corpo — travessão intermediário",
@@ -394,42 +417,50 @@
     {
      "parametro": "Piso acima do qual exige escada ou rampa",
      "valor": "> 1 m",
-     "item": "34.11.13"
+     "item": "34.11.13",
+     "cota": "esquemas/andaime-torre-cavalete.svg#piso-altura"
     },
     {
      "parametro": "Prancha de madeira — espessura mínima",
      "valor": "38 mm",
-     "item": "34.11.16.1"
+     "item": "34.11.16.1",
+     "cota": "esquemas/andaime-suspenso-pranchas.svg#prancha-espessura"
     },
     {
      "parametro": "Arame recozido de fixação das pranchas — Ø mínimo",
      "valor": "2,77 mm",
-     "item": "34.11.16.2"
+     "item": "34.11.16.2",
+     "cota": "esquemas/andaime-suspenso-pranchas.svg#arame"
     },
     {
      "parametro": "Fixação — saliência máxima sobre o piso",
      "valor": "5 mm, sem cantos vivos",
-     "item": "34.11.16.2"
+     "item": "34.11.16.2",
+     "cota": "esquemas/andaime-suspenso-pranchas.svg#saliencia"
     },
     {
      "parametro": "Emenda por justaposição — balanço sobre a travessa",
      "valor": "0,15 m a 0,20 m",
-     "item": "34.11.17"
+     "item": "34.11.17",
+     "cota": "esquemas/andaime-suspenso-pranchas.svg#balanco"
     },
     {
      "parametro": "Emenda por sobreposição",
      "valor": "≥ 0,20 m para cada lado (sobreposição ≥ 0,40 m), sinalizada",
-     "item": "34.11.18 c)"
+     "item": "34.11.18 c)",
+     "cota": "esquemas/andaime-suspenso-pranchas.svg#sobreposicao"
     },
     {
      "parametro": "Tubo de aço galvanizado — parede mínima",
      "valor": "3,05 mm",
-     "item": "34.11.19"
+     "item": "34.11.19",
+     "cota": "esquemas/andaime-torre-cavalete.svg#tubo-parede"
     },
     {
      "parametro": "Montantes — comprimento do tubo",
      "valor": "< 4,50 m (exceto na base)",
-     "item": "34.11.20"
+     "item": "34.11.20",
+     "cota": "esquemas/andaime-torre-cavalete.svg#montante-comprimento"
     },
     {
      "parametro": "Multidirecional — guarda-corpo",
@@ -450,7 +481,9 @@
     }
    ],
    "figuras": [
-    "esquemas/escada-degraus-corrimao.svg"
+    "esquemas/escada-degraus-corrimao.svg",
+    "esquemas/andaime-torre-cavalete.svg",
+    "esquemas/andaime-suspenso-pranchas.svg"
    ]
   },
   {
@@ -467,8 +500,12 @@
     {
      "parametro": "Cabos de solda — distância mínima entre emendas",
      "valor": "3 m",
-     "item": "34.13.9"
+     "item": "34.13.9",
+     "cota": "esquemas/seguranca-distancias-equipamentos.svg#emendas-cabo"
     }
+   ],
+   "figuras": [
+    "esquemas/seguranca-distancias-equipamentos.svg"
    ]
   },
   {
@@ -549,7 +586,8 @@
     {
      "parametro": "Banheiro",
      "valor": "≤ 50 m do posto; 1 por 20 trabalhadores, separado por sexo",
-     "item": "34.16.16"
+     "item": "34.16.16",
+     "cota": "esquemas/habitabilidade-distancias-percurso.svg#percurso"
     },
     {
      "parametro": "Mesas e assentos a bordo",
@@ -559,7 +597,8 @@
     {
      "parametro": "Distância até água potável",
      "valor": "< 50 m na horizontal e < 5 m na vertical",
-     "item": "34.16.20.3"
+     "item": "34.16.20.3",
+     "cota": "esquemas/habitabilidade-distancias-percurso.svg#horizontal"
     },
     {
      "parametro": "Quantidade de água potável",
@@ -573,7 +612,8 @@
     }
    ],
    "figuras": [
-    "esquemas/escada-degraus-corrimao.svg"
+    "esquemas/escada-degraus-corrimao.svg",
+    "esquemas/habitabilidade-distancias-percurso.svg"
    ]
   },
   {
@@ -601,13 +641,17 @@
     {
      "parametro": "Distância máxima até o bebedouro",
      "valor": "100 m na horizontal e 5 m na vertical",
-     "item": "34.18.8.1"
+     "item": "34.18.8.1",
+     "cota": "esquemas/habitabilidade-distancias-percurso.svg#horizontal"
     },
     {
      "parametro": "Prazo da investigação do MTE após acidente fatal",
      "valor": "≤ 72 h",
      "item": "34.18.9.1"
     }
+   ],
+   "figuras": [
+    "esquemas/habitabilidade-distancias-percurso.svg"
    ]
   },
   {

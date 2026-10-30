@@ -64,7 +64,8 @@
     {
      "parametro": "Tubo-calço na fixação em abas de viga",
      "valor": "Ø 25 mm",
-     "item": "5.2, Fig. 3 b)"
+     "item": "5.2, Fig. 3 b)",
+     "cota": "esquemas/guarda-corpo-prfv-calco-lacre.svg#tubo-calco"
     },
     {
      "parametro": "Folga piso–rodapé (fixações a, b, c, e)",
@@ -72,6 +73,9 @@
      "item": "5.2, Fig. 3",
      "cota": "esquemas/guarda-corpo-elevacao.svg#folga-rodape"
     }
+   ],
+   "figuras": [
+    "esquemas/guarda-corpo-prfv-calco-lacre.svg"
    ]
   },
   {
@@ -115,7 +119,8 @@
     {
      "parametro": "Flecha residual (15 min após descarregar)",
      "valor": "≤ 3 mm",
-     "item": "6.1.1"
+     "item": "6.1.1",
+     "cota": "esquemas/guarda-corpo-ensaios-prfv.svg#flecha-h1"
     },
     {
      "parametro": "Ruptura da travessa (H3) / rodapé (H4)",
@@ -139,6 +144,9 @@
      "item": "6.1.4, Tab. 1",
      "cota": "esquemas/guarda-corpo-ensaios-prfv.svg#flecha-montante"
     }
+   ],
+   "figuras": [
+    "esquemas/guarda-corpo-ensaios-prfv.svg"
    ]
   },
   {
@@ -154,8 +162,12 @@
     {
      "parametro": "Furo para lacre",
      "valor": "≈ 5 mm",
-     "item": "Anexo A"
+     "item": "Anexo A",
+     "cota": "esquemas/guarda-corpo-prfv-calco-lacre.svg#furo-lacre"
     }
+   ],
+   "figuras": [
+    "esquemas/guarda-corpo-prfv-calco-lacre.svg"
    ]
   },
   {

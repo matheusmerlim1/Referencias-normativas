@@ -57,7 +57,8 @@
     {
      "parametro": "Patamar em rota de maca",
      "valor": "≥ 1525 mm",
-     "item": "4/1.2.5"
+     "item": "4/1.2.5",
+     "cota": "esquemas/escada-degraus-lance-patamar.svg#l"
     },
     {
      "parametro": "Altura entre patamares",
@@ -89,6 +90,9 @@
      "item": "4/1.6",
      "cota": "esquemas/escada-degraus-corrimao.svg#folga"
     }
+   ],
+   "figuras": [
+    "esquemas/escada-degraus-lance-patamar.svg"
    ]
   },
   {
@@ -303,7 +307,8 @@
     {
      "parametro": "Borda de convés — vão inferior / entre barras",
      "valor": "≤ 230 mm / ≤ 380 mm",
-     "item": "4/4.4"
+     "item": "4/4.4",
+     "cota": "esquemas/guarda-corpo-elevacao.svg#vao-inferior"
     },
     {
      "parametro": "Corrimão de tempestade",
@@ -338,8 +343,13 @@
     {
      "parametro": "Cancela/portão exigido",
      "valor": "elevação ≥ 760 mm",
-     "item": "4/4.7"
+     "item": "4/4.7",
+     "cota": "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg#desnivel"
     }
+   ],
+   "figuras": [
+    "esquemas/guarda-corpo-elevacao.svg",
+    "esquemas/guarda-corpo-quando-obrigatorio-cotas.svg"
    ]
   },
   {
@@ -356,8 +366,12 @@
     {
      "parametro": "Guarda-corpo vertical — largura para cada lado",
      "valor": "≥ 1220 mm",
-     "item": "4/5.2"
+     "item": "4/5.2",
+     "cota": "esquemas/escada-marinheiro-protecao-borda.svg#gc-largura"
     }
+   ],
+   "figuras": [
+    "esquemas/escada-marinheiro-protecao-borda.svg"
    ]
   },
   {
@@ -381,7 +395,8 @@
     {
      "parametro": "Alça — largura / altura / Ø da barra",
      "valor": "300–350 mm / 100 mm / 25 mm",
-     "item": "4/7.2"
+     "item": "4/7.2",
+     "cota": "esquemas/escada-marinheiro-saida-topo.svg#alca"
     },
     {
      "parametro": "Alça de saída de escada acima da plataforma",
@@ -397,7 +412,8 @@
     {
      "parametro": "Escotilha vertical",
      "valor": "≥ 1000 mm × 800 mm; peitoril ≤ 600 mm",
-     "item": "4/8.3"
+     "item": "4/8.3",
+     "cota": "esquemas/acessos-escotilhas-portas-dutos.svg#escotilha-largura"
     },
     {
      "parametro": "Escotilha horizontal no convés",
@@ -417,6 +433,10 @@
      "item": "4/9.3",
      "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#escotilha"
     }
+   ],
+   "figuras": [
+    "esquemas/escada-marinheiro-saida-topo.svg",
+    "esquemas/acessos-escotilhas-portas-dutos.svg"
    ]
   },
   {
@@ -427,17 +447,20 @@
     {
      "parametro": "Folga em volta do volante",
      "valor": "≥ 75 mm",
-     "item": "4/10.3.5"
+     "item": "4/10.3.5",
+     "cota": "esquemas/acessos-valvulas-volantes.svg#folga-volante"
     },
     {
      "parametro": "Folga para chave em flange acessado de um lado",
      "valor": "≥ 300 mm",
-     "item": "4/10.3.5"
+     "item": "4/10.3.5",
+     "cota": "esquemas/acessos-valvulas-volantes.svg#folga-chave"
     },
     {
      "parametro": "Folga dos dois lados do tubo para trabalho",
      "valor": "≥ 760 mm",
-     "item": "4/10.3.5"
+     "item": "4/10.3.5",
+     "cota": "esquemas/acessos-valvulas-volantes.svg#folga-lados"
     },
     {
      "parametro": "Força para iniciar a abertura",
@@ -447,7 +470,8 @@
     {
      "parametro": "Diâmetro do aro do volante",
      "valor": "20 mm a 40 mm",
-     "item": "4/10.3.8"
+     "item": "4/10.3.8",
+     "cota": "esquemas/acessos-valvulas-volantes.svg#aro"
     },
     {
      "parametro": "Voltas para abrir/fechar",
@@ -457,7 +481,8 @@
     {
      "parametro": "Volante — uma mão / duas mãos",
      "valor": "< 100 mm / > 150 mm",
-     "item": "4/10.4.1"
+     "item": "4/10.4.1",
+     "cota": "esquemas/acessos-valvulas-volantes.svg#volante-d"
     },
     {
      "parametro": "Torque que exige auxílio",
@@ -467,23 +492,30 @@
     {
      "parametro": "Alavanca de haste vertical",
      "valor": "entre 760 mm e 1270 mm do piso",
-     "item": "4/10.4.2"
+     "item": "4/10.4.2",
+     "cota": "esquemas/acessos-valvulas-volantes.svg#alavanca-altura"
     },
     {
      "parametro": "Válvula acima da cabeça — torque / volante",
      "valor": "≤ 27 N·m / ≤ 510 mm",
-     "item": "4/10.5.1"
+     "item": "4/10.5.1",
+     "cota": "esquemas/acessos-valvulas-volantes.svg#volante-d"
     },
     {
      "parametro": "Válvula operada de escada — alcance",
      "valor": "≤ 610 mm à frente ou 1220 mm ao lado",
-     "item": "4/10.5.5"
+     "item": "4/10.5.5",
+     "cota": "esquemas/acessos-valvulas-volantes.svg#alcance-frente"
     },
     {
      "parametro": "Plataforma elevada",
      "valor": "≥ 1830 mm: volante dentro do guarda-corpo",
-     "item": "4/10.5.6"
+     "item": "4/10.5.6",
+     "cota": "esquemas/acessos-valvulas-volantes.svg#plataforma-elevacao"
     }
+   ],
+   "figuras": [
+    "esquemas/acessos-valvulas-volantes.svg"
    ]
   },
   {

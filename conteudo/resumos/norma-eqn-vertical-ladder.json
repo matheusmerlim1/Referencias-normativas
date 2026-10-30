@@ -46,7 +46,8 @@
     {
      "parametro": "Montante — vão 2400–6000 mm / < 2400 mm",
      "valor": "L 130 × 65 × 8 / FB 100 × 10",
-     "item": "Nota 6"
+     "item": "Nota 6",
+     "cota": "esquemas/escada-marinheiro-vista-frontal.svg#montante"
     },
     {
      "parametro": "Eixo da escada à estrutura",
@@ -54,6 +55,9 @@
      "item": "Seção A-A",
      "cota": "esquemas/escada-marinheiro-plataformas.svg#sep-plataforma"
     }
+   ],
+   "figuras": [
+    "esquemas/escada-marinheiro-vista-frontal.svg"
    ]
   },
   {
@@ -113,8 +117,12 @@
     {
      "parametro": "Solda",
      "valor": "filete ou PJP de 4 mm",
-     "item": "Nota 2"
+     "item": "Nota 2",
+     "cota": "esquemas/solda-estrutural-filete-minimo-espessura.svg#perna"
     }
+   ],
+   "figuras": [
+    "esquemas/solda-estrutural-filete-minimo-espessura.svg"
    ]
   }
  ]

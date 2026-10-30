@@ -271,8 +271,12 @@
     {
      "parametro": "Gangway — inclinação máxima da escada/rampa de acesso",
      "valor": "30° com a horizontal, com dispositivo rotativo",
-     "item": "37.11.7 j)"
+     "item": "37.11.7 j)",
+     "cota": "esquemas/passarela-rampa-angulo.svg#angulo-rampa"
     }
+   ],
+   "figuras": [
+    "esquemas/passarela-rampa-angulo.svg"
    ]
   },
   {
@@ -300,7 +304,8 @@
     {
      "parametro": "Área mínima por vaso sanitário",
      "valor": "1,00 m²",
-     "item": "37.12.4.1 a)"
+     "item": "37.12.4.1 a)",
+     "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#area-vaso"
     },
     {
      "parametro": "Plataforma que exige banheiro próximo à meia-nau",
@@ -325,17 +330,20 @@
     {
      "parametro": "Vaso — espaço frontal livre",
      "valor": "≥ 0,80 m de largura × 0,60 m de profundidade",
-     "item": "37.12.4.5 a)"
+     "item": "37.12.4.5 a)",
+     "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#espaco-frontal"
     },
     {
      "parametro": "Cabine de vaso — divisórias",
      "valor": "altura ≥ 1,90 m; bordo inferior ≤ 0,15 m do piso",
-     "item": "37.12.4.5.1 a)"
+     "item": "37.12.4.5.1 a)",
+     "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#divisoria"
     },
     {
      "parametro": "Mictórios — espaçamento entre divisórias",
      "valor": "0,60 m",
-     "item": "37.12.4.6 a)"
+     "item": "37.12.4.6 a)",
+     "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#mictorio"
     },
     {
      "parametro": "Lavatórios junto à retirada de EPI",
@@ -345,12 +353,14 @@
     {
      "parametro": "Box de chuveiro — rebaixo mínimo",
      "valor": "0,05 m",
-     "item": "37.12.4.8 c)"
+     "item": "37.12.4.8 c)",
+     "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#rebaixo"
     },
     {
      "parametro": "Crivo do chuveiro — altura mínima",
      "valor": "2 m do piso",
-     "item": "37.12.4.8 k)"
+     "item": "37.12.4.8 k)",
+     "cota": "esquemas/habitabilidade-sanitarios-cotas.svg#crivo"
     },
     {
      "parametro": "Água tratada para sanitários",
@@ -362,6 +372,9 @@
      "valor": "> 3 h sem restabelecer",
      "item": "37.12.4.10.1"
     }
+   ],
+   "figuras": [
+    "esquemas/habitabilidade-sanitarios-cotas.svg"
    ]
   },
   {
@@ -372,7 +385,8 @@
     {
      "parametro": "Área mínima do refeitório",
      "valor": "1,50 m² por usuário",
-     "item": "37.12.5.2 b)"
+     "item": "37.12.5.2 b)",
+     "cota": "esquemas/habitabilidade-armarios-refeitorio-cotas.svg#area-refeitorio"
     },
     {
      "parametro": "Mesas e assentos",
@@ -382,12 +396,14 @@
     {
      "parametro": "Corredor principal",
      "valor": "0,75 m de largura",
-     "item": "37.12.5.2 c)"
+     "item": "37.12.5.2 c)",
+     "cota": "esquemas/habitabilidade-armarios-refeitorio-cotas.svg#corredor-principal"
     },
     {
      "parametro": "Corredor secundário até os assentos",
      "valor": "0,55 m de largura",
-     "item": "37.12.5.2 c)"
+     "item": "37.12.5.2 c)",
+     "cota": "esquemas/habitabilidade-armarios-refeitorio-cotas.svg#corredor-secundario"
     },
     {
      "parametro": "Lavatório do refeitório",
@@ -399,6 +415,9 @@
      "valor": "≤ 4 h",
      "item": "37.12.5.5.1"
     }
+   ],
+   "figuras": [
+    "esquemas/habitabilidade-armarios-refeitorio-cotas.svg"
    ]
   },
   {
@@ -418,7 +437,8 @@
    "item": "37.12.7",
    "texto": "Camarotes usam materiais marítimos resistentes ao fogo e termoacústicos, são separados por sexo, têm sanitário privativo, tomadas identificadas, iluminação de emergência e vibração abaixo do nível de ação da NR-09. Não podem ter abertura direta para máquinas, cozinha ou lavanderia, nem tubulação de vapor passando por dentro. O dormitório tem armário individual, mesa, telefone, TV e guarda de coletes. Módulos temporários exigem autorização, classe A-60, apoios antivibração e saída alternativa; transbordo para dormir em outra plataforma é vedado.",
    "figuras": [
-    "esquemas/resumo-nr-37-camarote.svg"
+    "esquemas/resumo-nr-37-camarote.svg",
+    "esquemas/habitabilidade-camarote-cotas.svg"
    ],
    "valores": [
     {
@@ -441,17 +461,20 @@
     {
      "parametro": "Área do dormitório",
      "valor": "≥ 3,60 m² por pessoa",
-     "item": "37.12.7.1 h)"
+     "item": "37.12.7.1 h)",
+     "cota": "esquemas/habitabilidade-camarote-cotas.svg#area"
     },
     {
      "parametro": "Área no módulo de acomodação temporária",
      "valor": "≥ 3,00 m² por pessoa",
-     "item": "37.12.7.1 h)"
+     "item": "37.12.7.1 h)",
+     "cota": "esquemas/habitabilidade-camarote-cotas.svg#area"
     },
     {
      "parametro": "Área total de dormitório individual ou duplo",
      "valor": "≥ 7,50 m²",
-     "item": "37.12.7.1 h)"
+     "item": "37.12.7.1 h)",
+     "cota": "esquemas/habitabilidade-camarote-cotas.svg#area"
     },
     {
      "parametro": "Porta — altura mínima",
@@ -645,8 +668,12 @@
     {
      "parametro": "Faixas de identificação de tubulação — espaçamento máximo",
      "valor": "15 m",
-     "item": "37.15.4.1.1 c)"
+     "item": "37.15.4.1.1 c)",
+     "cota": "esquemas/resumo-nr-37-botoeiras-faixas.svg#faixa-espacamento"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-37-botoeiras-faixas.svg"
    ]
   },
   {
@@ -762,12 +789,14 @@
     {
      "parametro": "Botoeira de alarme — distância máxima a percorrer",
      "valor": "30 m",
-     "item": "37.23.3.1"
+     "item": "37.23.3.1",
+     "cota": "esquemas/resumo-nr-37-botoeiras-faixas.svg#botoeira-percurso"
     },
     {
      "parametro": "Sinalização das botoeiras nos corredores",
      "valor": "a cada 15 m ou desvio",
-     "item": "37.23.3.1"
+     "item": "37.23.3.1",
+     "cota": "esquemas/resumo-nr-37-botoeiras-faixas.svg#sinal-espacamento"
     },
     {
      "parametro": "Ruído que exige também sinal luminoso de alarme",
@@ -779,6 +808,9 @@
      "valor": "≥ 2 (CH₄, H₂S, O₂, CO e COV)",
      "item": "37.23.11"
     }
+   ],
+   "figuras": [
+    "esquemas/resumo-nr-37-botoeiras-faixas.svg"
    ]
   },
   {
@@ -821,17 +853,20 @@
     {
      "parametro": "Extintor portátil — altura máxima do topo",
      "valor": "1,60 m do piso",
-     "item": "37.25.7.4.4"
+     "item": "37.25.7.4.4",
+     "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#extintor"
     },
     {
      "parametro": "Rota de fuga principal — largura mínima",
      "valor": "1,20 m",
-     "item": "37.25.8.2 e)"
+     "item": "37.25.8.2 e)",
+     "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#rota"
     },
     {
      "parametro": "Rota de fuga secundária — largura mínima",
      "valor": "0,70 m",
-     "item": "37.25.8.2 e)"
+     "item": "37.25.8.2 e)",
+     "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#rota"
     },
     {
      "parametro": "Compartimento que admite porta ejetável no lugar de passagem de emergência",
@@ -841,8 +876,12 @@
     {
      "parametro": "Porta de acesso a escada — vão livre",
      "valor": "≥ largura da rota de fuga atendida",
-     "item": "37.25.8.4.4"
+     "item": "37.25.8.4.4",
+     "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#porta-largura"
     }
+   ],
+   "figuras": [
+    "esquemas/habitabilidade-portas-rotas-cotas.svg"
    ]
   },
   {
