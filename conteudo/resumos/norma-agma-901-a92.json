@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Folha informativa (não norma) com procedimento para o projeto preliminar de engrenagens de volume mínimo: variáveis de entrada (materiais, tratamento térmico, cargas), definições e símbolos, procedimento e exceções."
+   "texto": "Folha informativa (não norma) com procedimento para o projeto preliminar de engrenagens de volume mínimo: variáveis de entrada (materiais, tratamento térmico, cargas), definições e símbolos, procedimento e exceções.",
+   "figuras": [
+    "esquemas/engrenagem-perfil-referencia.svg"
+   ]
   }
  ]
 }

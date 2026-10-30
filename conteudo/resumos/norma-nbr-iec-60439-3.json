@@ -8,7 +8,7 @@
     {"parametro": "Tensão fase-terra máxima", "valor": "300 V", "item": "1.1"},
     {"parametro": "Dispositivo de proteção de cada circuito de saída", "valor": "corrente nominal ≤ 125 A", "item": "1.1"},
     {"parametro": "Corrente nominal total de entrada", "valor": "≤ 250 A", "item": "1.1"}
-   ]},
+   ], "figuras": ["esquemas/painel-baixa-tensao.svg"]},
   {"titulo": "Características e marcação", "item": "4–6",
    "texto": "A corrente nominal do QD é a do(s) circuito(s) de entrada e deve estar marcada. Fator de diversidade próprio (número de circuitos de saída por fase). Placa pode ficar atrás de porta ou tampa removível; IP só é informado se maior que IP2XC. Grau de poluição normal: 2. Embutir na parede não é condição especial.",
    "valores": [

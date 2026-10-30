@@ -4,7 +4,7 @@
  "secoes": [
   {"titulo": "Escopo e definições", "item": "1, 3",
    "texto": "Critérios e métodos de medição da resistência (ou impedância) de sistemas de aterramento e dos potenciais de passo e de toque na superfície do solo, em instalações desenergizadas ou energizadas. Resistência de aterramento: tensão entre eletrodo e terra remoto dividida pela corrente injetada. Tensão de toque: diferença entre estrutura aterrada e ponto do solo ao alcance do braço; tensão máxima do sistema de aterramento (GPR).",
-   "valores": []},
+   "valores": [], "figuras": ["esquemas/aterramento-queda-potencial.svg"]},
   {"titulo": "Segurança", "item": "5",
    "texto": "Durante a medição podem surgir tensões perigosas nos cabos e eletrodos (faltas no sistema, descargas atmosféricas): luvas, isolamento, comunicação entre equipes e suspensão do ensaio com tempestade.",
    "valores": []},

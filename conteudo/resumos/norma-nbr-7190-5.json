@@ -6,7 +6,10 @@
    "titulo": "Escopo",
    "item": "1",
    "texto": "Método de ensaio para obter a resistência e a rigidez (módulo de deslizamento) de ligações de madeira com conectores mecânicos — pinos metálicos, cavilhas, parafusos, pregos, chapas de dentes estampados e anéis. Não detalha o procedimento próprio de cada tipo de conector.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/madeira-secao-minima.svg"
+   ]
   },
   {
    "titulo": "Condicionamento e corpos de prova",

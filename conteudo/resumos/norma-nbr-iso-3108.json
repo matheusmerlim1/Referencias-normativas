@@ -4,7 +4,7 @@
  "secoes": [
   {"titulo": "Objetivo", "item": "1",
    "texto": "Método de tração até a ruptura para obter a carga de ruptura real de cabos de aço de uso geral e de grande diâmetro (ISO 2408; no Brasil, à época, NBR 6327). Serve também para outros cabos quando a norma deles não indicar outro método.",
-   "valores": []},
+   "valores": [], "figuras": ["esquemas/lingadas-acessorios-cabo-ensaio-ruptura.svg"]},
   {"titulo": "Comprimento e peça de ensaio", "item": "2–3",
    "texto": "Distância mínima entre garras tabelada por diâmetro; a peça inclui ainda o comprimento de fixação. A peça deve representar o cabo e estar sem defeitos; as pontas (e o cabo de onde sai) são amarradas antes do corte para as pernas não abrirem. A fixação deve fazer todos os arames trabalharem — soquetes cônicos com boa penetração do material de fundição ajudam.",
    "valores": [

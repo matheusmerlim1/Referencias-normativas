@@ -6,7 +6,10 @@
    "titulo": "Princípios",
    "item": "1–3",
    "texto": "Regras gerais de cotagem para todo desenho técnico. Cota = representação de uma característica do elemento por linhas, símbolos, notas e valor numérico. Toda dimensão necessária vai direto no desenho, na vista que mostra o elemento com mais clareza. Mesma unidade (mm) sem símbolo em todo o desenho. Cada elemento definido por uma só cota (exceto estágios intermediários de fabricação ou cotas auxiliares). Não especificar processos de fabricação ou inspeção, salvo quando indispensáveis. Cotas funcionais escritas diretamente; as não funcionais onde for mais prático para produção e inspeção.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/desenho-tecnico-cotagem.svg"
+   ]
   },
   {
    "titulo": "Execução",

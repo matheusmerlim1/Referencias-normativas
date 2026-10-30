@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Cálculo do fator de geometria I (resistência a pites) e J (resistência à flexão) de engrenagens cilíndricas retas e helicoidais, com tabelas, exceções e tensão de flexão em engrenagens internas. Revisão da AGMA 226.01 (abril de 1989)."
+   "texto": "Cálculo do fator de geometria I (resistência a pites) e J (resistência à flexão) de engrenagens cilíndricas retas e helicoidais, com tabelas, exceções e tensão de flexão em engrenagens internas. Revisão da AGMA 226.01 (abril de 1989).",
+   "figuras": [
+    "esquemas/engrenagem-perfil-referencia.svg"
+   ]
   },
   {
    "titulo": "Conteúdo",

@@ -4,7 +4,7 @@
  "secoes": [
   {"titulo": "Objetivo e condições gerais", "item": "1–3",
    "texto": "Símbolos gráficos para plantas de instalações elétricas prediais. A planta é feita sobre o desenho de arquitetura e estrutura (NBR 5984), com uma matriz por sistema: luz e força (podendo separar teto e piso), telefone interno/externo, e sinalização, som, detecção, segurança, supervisão e controle. Cada matriz mostra aparelhos e dutos com dados e dimensões. Circuitos de importância, tensão ou polaridade diferentes podem ter traço de espessura diferente; aparelhos de potência diferente, símbolos de tamanho diferente.",
-   "valores": []},
+   "valores": [], "figuras": ["esquemas/eletrica-passagens-tomadas.svg"]},
   {"titulo": "Lógica dos símbolos", "item": "4.1",
    "texto": "Símbolos montados a partir de figuras geométricas simples.",
    "valores": [

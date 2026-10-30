@@ -4,7 +4,7 @@
  "secoes": [
   {"titulo": "Escopo e estratégia", "item": "1–4",
    "texto": "Norma básica (tipo A) de segurança de máquinas: terminologia, princípios e método para o projetista chegar a uma máquina segura. Etapas: (a) limites da máquina, incluindo uso devido e mau uso razoavelmente previsível; (b) identificação de perigos e situações perigosas; (c) estimativa do risco; (d) avaliação e decisão sobre reduzir; (e) eliminação do perigo ou redução do risco. As etapas a–d formam a apreciação de riscos; a e, a redução; o ciclo se repete até risco adequado. Parte-se do pressuposto de que todo perigo presente acaba causando dano se nada for feito; medidas no projeto são preferíveis às do usuário.",
-   "valores": []},
+   "valores": [], "figuras": ["esquemas/seguranca-distancias-equipamentos.svg"]},
   {"titulo": "Apreciação de riscos", "item": "5",
    "texto": "Informações de entrada (especificação, normas, histórico de acidentes, ergonomia); limites de uso, espaço, tempo (vida útil) e outros; identificação sistemática dos perigos em todas as fases do ciclo de vida e tarefas (Anexo B: mecânicos, elétricos, térmicos, ruído, vibração, radiação, materiais/substâncias, ergonômicos, ambientais e combinações). Estimativa do risco pela gravidade do dano e pela probabilidade de ocorrência (exposição, ocorrência do evento perigoso, possibilidade de evitar), usando medições padronizadas para emissões quando houver. Avaliação: decidir se o risco foi adequadamente reduzido, comparando com máquinas semelhantes quando aplicável.",
    "valores": [

@@ -6,7 +6,10 @@
    "titulo": "Escopo",
    "item": "1",
    "texto": "Seleção de tolerâncias para parafusos, prisioneiros e porcas métricos dos graus A (mais preciso), B e C (menos preciso) e para parafusos autoatarraxantes grau A. Tolerâncias dimensionais tiradas da ISO 286 (exceto roscas, da ISO 965), de forma e posição pela ISO 1101/8015/2692. Valem antes do revestimento (ver ISO 4042). Desvios só em normas de produto com motivo técnico; recomendada também para fixadores não normalizados.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg"
+   ]
   },
   {
    "titulo": "Parafusos e prisioneiros",

@@ -6,7 +6,7 @@
    "texto": "Requisitos de painéis (conjuntos) de manobra e controle de baixa tensão, estacionários ou móveis, com ou sem invólucro, para geração, transmissão, distribuição e conversão de energia e comando de cargas; inclui condições especiais (navios, ferrovias, máquinas-ferramenta, içamento, atmosferas explosivas) com requisitos extras. TTA = conjunto que repete um tipo ensaiado; PTTA = contém arranjos não ensaiados, validados por cálculo/extrapolação. Substituída pela série IEC/NBR 61439.",
    "valores": [
     {"parametro": "Tensão nominal abrangida", "valor": "≤ 1 000 V CA (frequência ≤ 1 000 Hz) ou ≤ 1 500 V CC", "item": "1.1"}
-   ]},
+   ], "figuras": ["esquemas/painel-baixa-tensao.svg"]},
   {"titulo": "Características e informações", "item": "4–5",
    "texto": "Tensões nominais (operação, isolamento, impulso), correntes nominais, corrente suportável de curta duração e de crista, frequência e fator de diversidade. O fabricante informa tudo em placa e documentação.",
    "valores": [

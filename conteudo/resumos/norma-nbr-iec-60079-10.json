@@ -4,7 +4,7 @@
  "secoes": [
   {"titulo": "Objetivo", "item": "1",
    "texto": "Classificação de áreas com gases ou vapores inflamáveis misturados ao ar em condições atmosféricas normais, para escolher e instalar corretamente os equipamentos. Não cobre minas com grisu, fábricas de explosivos, poeiras e fibras combustíveis (outra parte da série), falhas catastróficas, ambientes médicos, névoas de risco imprevisível e residências.",
-   "valores": []},
+   "valores": [], "figuras": ["esquemas/area-classificada-zonas.svg"]},
   {"titulo": "Definições", "item": "2",
    "texto": "Atmosfera explosiva de gás; área classificada e não classificada; fonte de risco; taxa de liberação; operação normal (inclui partida e parada e pequenos vazamentos de selos — rupturas que exigem reparo urgente não são operação normal); limites inferior e superior de inflamabilidade (LII/LSI); ponto de fulgor; temperatura de ignição; extensão da zona (distância da fonte até a diluição abaixo do LII).",
    "valores": [

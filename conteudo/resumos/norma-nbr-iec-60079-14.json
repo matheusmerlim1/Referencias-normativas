@@ -4,7 +4,7 @@
  "secoes": [
   {"titulo": "Objetivo e definições", "item": "1, 3",
    "texto": "Requisitos de projeto, seleção e montagem de instalações elétricas em áreas classificadas por gás (tradução da IEC 60079-14:2002), complementando as regras de instalação comuns. Define os tipos de proteção: à prova de explosão 'd', segurança aumentada 'e', segurança intrínseca 'i' (ia/ib) com parâmetros de entidade, pressurização 'p', proteção de zona 2 'n', e o tempo tE de motores 'e'.",
-   "valores": []},
+   "valores": [], "figuras": ["esquemas/area-classificada-zonas.svg"]},
   {"titulo": "Requisitos gerais e documentação", "item": "4",
    "texto": "Instalação de acordo com a classificação de área (NBR IEC 60079-10), documentação de classificação, certificados e instruções dos equipamentos, e garantia de conformidade dos equipamentos.",
    "valores": []},

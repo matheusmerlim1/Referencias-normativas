@@ -8,7 +8,7 @@
     {"parametro": "Atmosfera de risco — inflamáveis", "valor": "gás/vapor/névoa > 10 % do LIE; poeira acima do LIE", "item": "3"},
     {"parametro": "Atmosfera pobre / rica em oxigênio", "valor": "< 19,5 % / > 23 % (v/v)", "item": "3"},
     {"parametro": "Faixa aceitável de O2", "valor": "19,5 % a 23 %, desde que a causa da variação seja conhecida", "item": "3, Nota 6; 4.4"}
-   ]},
+   ], "figuras": ["esquemas/espaco-confinado.svg"]},
   {"titulo": "Requisitos gerais e identificação", "item": "4",
    "texto": "Eliminar condições inseguras antes de abrir tampas; controle de energias perigosas (bloqueio e sinalização); treino em EPI e EPR para atmosfera IPVS, seguindo o Programa de Proteção Respiratória; ventilação em todos os espaços (geral diluidora ou local exaustora); se surgir atmosfera perigosa, sair, investigar e só reentrar com PET revisada. Espaços sinalizados, isolados e cadastrados (volume, nº e geometria dos acessos, riscos, controles, plano de salvamento). Antes de entrar, o supervisor mede O2, inflamáveis e tóxicos com instrumento de leitura direta calibrado; equipamentos em área classificada certificados (INMETRO, NR-10).",
    "valores": []},

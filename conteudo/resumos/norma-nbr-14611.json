@@ -4,7 +4,7 @@
  "secoes": [
   {"titulo": "Objetivo", "item": "1",
    "texto": "Regras complementares às NBR 10067 e 10126 (base ISO 5261 e ISO 5845-1) para desenhos de conjunto e de detalhe de estruturas metálicas de chapas e perfis (inclusive pontes e estacas), dispositivos de içamento e transporte, tanques e vasos de pressão, elevadores, escadas rolantes e transportadores.",
-   "valores": []},
+   "valores": [], "figuras": ["esquemas/estrutura-aco-ligacoes.svg"]},
   {"titulo": "Furos, parafusos e rebites", "item": "3",
    "texto": "Símbolos em linha larga, em vista normal ao eixo (Tab. 1–2) e paralela ao eixo (Tab. 3–4): furo sem ponto central; variações para escareado no lado próximo, oposto ou nos dois lados, e para furo/montagem executados no campo. Parafuso se distingue de rebite pelo prefixo da rosca na designação. Linhas de cota separadas dos símbolos; num grupo de elementos iguais basta designar um, precedido da quantidade.",
    "valores": [

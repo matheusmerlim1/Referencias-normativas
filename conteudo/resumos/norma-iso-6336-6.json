@@ -6,7 +6,10 @@
    "titulo": "Escopo",
    "item": "1–4",
    "texto": "Cálculo da vida (ou segurança) de engrenagens sob espectro de carga variável, a partir dos métodos das Partes 2 e 3 e da curva S-N do material. Determinação dos espectros de carga/tensão e uso adequado do fator de aplicação.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/engrenagem-par-folga.svg"
+   ]
   },
   {
    "titulo": "Cálculo",

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 370" width="1000" height="370" role="img" aria-label="Transmissões — correia sincronizada (polias) e corrente de rolos">
+<title>Transmissões — correia sincronizada (polias) e corrente de rolos (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Transmissões — correia sincronizada (polias) e corrente de rolos</text>
+<text x="250" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) correia sincronizada e polias</text>
+<circle cx="130" cy="200" r="70" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="1.5"/>
+<circle cx="380" cy="200" r="45" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="1.5"/>
+<line x1="130" y1="130" x2="380" y2="155" stroke="#666" stroke-width="2"/>
+<line x1="130" y1="270" x2="380" y2="245" stroke="#666" stroke-width="2"/>
+<rect x="193.0" y="197.0" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="189.01971297186995" y="219.57332945949415" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="177.55893324585256" y="239.42398223931158" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="160.0" y="254.15767664977295" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="138.4607797260174" y="261.99731169880573" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="115.53922027398261" y="261.99731169880573" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="94.00000000000001" y="254.15767664977295" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="76.44106675414746" y="239.4239822393116" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="64.98028702813005" y="219.57332945949415" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="61.0" y="197.0" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="64.98028702813005" y="174.42667054050588" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="76.44106675414744" y="154.57601776068842" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="93.99999999999997" y="139.84232335022705" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="115.5392202739826" y="132.00268830119427" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="138.4607797260174" y="132.00268830119427" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="160.0" y="139.84232335022705" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="177.55893324585253" y="154.5760177606884" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<rect x="189.01971297186995" y="174.42667054050588" width="6" height="6" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="0.5"/>
+<g id="cota-entre-centros" class="cota"><line x1="130" y1="208" x2="130" y2="320" stroke="#666" stroke-width="1"/><line x1="380" y1="208" x2="380" y2="320" stroke="#666" stroke-width="1"/><line x1="130" y1="320" x2="380" y2="320" stroke="#666" stroke-width="1.2"/><polygon points="130.0,320.0 139.0,316.5 139.0,323.5" fill="#666"/><polygon points="380.0,320.0 371.0,323.5 371.0,316.5" fill="#666"/><text x="255.0" y="314" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">distância entre centros</text></g>
+<text x="130" y="205" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">polia</text>
+<text x="250" y="125" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">dentes da correia</text>
+<text x="740" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) corrente de rolos</text>
+<circle cx="560" cy="200" r="22" fill="#666" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<circle cx="560" cy="200" r="8" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="560" y="180" width="80" height="40" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.5"/>
+<circle cx="640" cy="200" r="22" fill="#666" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<circle cx="640" cy="200" r="8" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="640" y="180" width="80" height="40" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.5"/>
+<circle cx="720" cy="200" r="22" fill="#666" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<circle cx="720" cy="200" r="8" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="720" y="180" width="80" height="40" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.5"/>
+<circle cx="800" cy="200" r="22" fill="#666" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<circle cx="800" cy="200" r="8" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="800" y="180" width="80" height="40" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.5"/>
+<circle cx="880" cy="200" r="22" fill="#666" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<circle cx="880" cy="200" r="8" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<g id="cota-passo" class="cota"><line x1="560" y1="222" x2="560" y2="260" stroke="#666" stroke-width="1"/><line x1="640" y1="222" x2="640" y2="260" stroke="#666" stroke-width="1"/><line x1="560" y1="260" x2="640" y2="260" stroke="#666" stroke-width="1.2"/><polygon points="560.0,260.0 569.0,256.5 569.0,263.5" fill="#666"/><polygon points="640.0,260.0 631.0,263.5 631.0,256.5" fill="#666"/><text x="600.0" y="254" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">p (passo)</text></g>
+<g id="cota-rolo" class="cota"><line x1="880" y1="178" x2="900" y2="178" stroke="#666" stroke-width="1"/><line x1="880" y1="222" x2="900" y2="222" stroke="#666" stroke-width="1"/><line x1="900" y1="178" x2="900" y2="222" stroke="#666" stroke-width="1.2"/><polygon points="900.0,178.0 903.5,187.0 896.5,187.0" fill="#666"/><polygon points="900.0,222.0 896.5,213.0 903.5,213.0" fill="#666"/><text x="907" y="204.0" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Ø do rolo</text></g>
+<text x="740" y="150" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">elos internos e externos</text>
+<text x="12" y="362" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

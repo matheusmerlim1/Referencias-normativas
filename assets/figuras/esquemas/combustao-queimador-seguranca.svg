@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 410" width="1000" height="410" role="img" aria-label="Combustão — linha de gás, queimador e segurança de chama">
+<title>Combustão — linha de gás, queimador e segurança de chama (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Combustão — linha de gás, queimador e segurança de chama</text>
+<rect x="560" y="90" width="380" height="250" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.5"/>
+<text x="750" y="110" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">câmara de combustão / forno</text>
+<path d="M560,200 L620,190 L760,215 L620,240 L560,230 Z" fill="#666" fill-opacity="0.35" stroke="#666" stroke-width="1.5"/>
+<text x="680" y="270" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">chama</text>
+<rect x="520" y="195" width="40" height="40" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<text x="540" y="260" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">queimador</text>
+<line x1="60" y1="215" x2="520" y2="215" stroke="#666" stroke-width="3"/>
+<text x="70" y="205" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">gás combustível</text>
+<path d="M166,203 L194,227 L194,203 L166,227 Z" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<text x="180" y="252" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">VB 1</text>
+<path d="M286,203 L314,227 L314,203 L286,227 Z" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<text x="300" y="252" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">VB 2</text>
+<text x="240" y="275" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">válvulas de bloqueio em série</text>
+<rect x="410" y="202" width="30" height="26" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<text x="425" y="252" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">regulação</text>
+<line x1="60" y1="150" x2="520" y2="150" stroke="#666" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="70" y="140" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ar de combustão</text>
+<line x1="500" y1="150" x2="535" y2="195" stroke="#666" stroke-width="1.5"/><polygon points="535.0,195.0 526.7,190.0 532.2,185.7" fill="#666"/>
+<circle cx="700" cy="160" r="10" fill="#666" fill-opacity="0.5" stroke="#666" stroke-width="1.5"/>
+<text x="715" y="150" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">detector de chama</text>
+<rect x="380" y="330" width="160" height="44" fill="#666" fill-opacity="0.2" stroke="#666" stroke-width="1.5"/><text x="460.0" y="349.0" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">controle de segurança</text><text x="460.0" y="363.0" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">de chama</text>
+<line x1="700" y1="170" x2="700" y2="352" stroke="#666" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="540" y1="352" x2="700" y2="352" stroke="#666" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="380" y1="352" x2="240" y2="352" stroke="#666" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="240" y1="352" x2="240" y2="280" stroke="#666" stroke-width="1"/><polygon points="240.0,280.0 243.5,289.0 236.5,289.0" fill="#666"/>
+<text x="250" y="300" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">fecha se a chama falhar</text>
+<line x1="940" y1="140" x2="980" y2="100" stroke="#666" stroke-width="1.5"/><polygon points="980.0,100.0 976.1,108.8 971.2,103.9" fill="#666"/>
+<text x="975" y="92" text-anchor="end" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">exaustão / alívio</text>
+<text x="12" y="402" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

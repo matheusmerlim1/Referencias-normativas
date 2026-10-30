@@ -4,7 +4,7 @@
  "secoes": [
   {"titulo": "Objetivo e campo", "item": "1",
    "texto": "Requisitos mínimos de segurança de sistemas de combustão a gás na partida, operação e parada de equipamentos comerciais e industriais (fornos, estufas, secadores) com chama parcial ou totalmente confinada. Gases: natural, manufaturado, GLP e mistura GLP/ar. Não especifica fabricação de queimadores nem alívio de explosão. Dispositivos de segurança devem ser próprios para gás, com atestado de desempenho, e mantidos funcionando pelo operador.",
-   "valores": []},
+   "valores": [], "figuras": ["esquemas/combustao-queimador-seguranca.svg"]},
   {"titulo": "Definições principais", "item": "2",
    "texto": "Bloqueio duplo e descarga (duas válvulas automáticas em série com válvula de descarga normalmente aberta entre elas); bloqueio de segurança (fecha o gás e corta a ignição); controle de proteção de chama; pilotos contínuo, interrompido e alternativo; pré-purga; comprovação de estanqueidade por desvio (by-pass) em equipamentos multiqueimador; controle alto/baixo e modulante.",
    "valores": [

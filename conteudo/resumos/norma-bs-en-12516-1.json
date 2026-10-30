@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Método tabular de espessura mínima de parede de carcaças de válvulas de aço por PN/Classe e DN, com grupos de materiais, limites de temperatura e classes de pressão e temperatura; inclui espessura mínima de válvulas de encaixe para solda (Tabela 4) e de extremidades para solda de topo."
+   "texto": "Método tabular de espessura mínima de parede de carcaças de válvulas de aço por PN/Classe e DN, com grupos de materiais, limites de temperatura e classes de pressão e temperatura; inclui espessura mínima de válvulas de encaixe para solda (Tabela 4) e de extremidades para solda de topo.",
+   "figuras": [
+    "esquemas/valvula-dimensoes.svg"
+   ]
   }
  ]
 }

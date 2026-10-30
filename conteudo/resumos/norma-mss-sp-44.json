@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1.1",
-   "texto": "Classes de pressão e temperatura, materiais, dimensões, tolerâncias (por referência à ASME B16.5), marcação e ensaio de flanges de pescoço (forjados) e cegos (forjados ou de chapa) para dutos; até NPS 10 as dimensões remetem à B16.5 e acima a norma traz as próprias tabelas."
+   "texto": "Classes de pressão e temperatura, materiais, dimensões, tolerâncias (por referência à ASME B16.5), marcação e ensaio de flanges de pescoço (forjados) e cegos (forjados ou de chapa) para dutos; até NPS 10 as dimensões remetem à B16.5 e acima a norma traz as próprias tabelas.",
+   "figuras": [
+    "esquemas/flange-asme-b16-5-tipos-flange.svg"
+   ]
   }
  ]
 }

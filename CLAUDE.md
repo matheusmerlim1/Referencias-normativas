@@ -170,7 +170,7 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
 ## ESTADO ATUAL (30/out/2026)
 - 802 fichas = 23 TEMÁTICAS (curadas, públicas) + 779 de NORMA (`norma-*.json`, geradas, locais); 22 839 requisitos; 779 normas.
 - 779/779 RESUMOS próprios (`conteudo/resumos/`), 6 543 valores; 902 valores ligados a cota.
-- 284 SVG próprios em `assets/figuras/esquemas/`; as 23 temáticas NÃO têm mais figura de norma (tudo trocado por SVG).
+- 302 SVG próprios em `assets/figuras/esquemas/`; as 23 temáticas NÃO têm mais figura de norma (tudo trocado por SVG).
 - Catálogo do acervo T: 3 933 documentos únicos (`conteudo/catalogo.json`) → buscáveis no site como "Documentos no acervo".
 - Triagem de `referencias/`: 775/775 documentos relevantes incorporados (100 %). Auditoria de imagens encerrada (28/out).
 - `verificar_autossuficiente.py` = 0 erros → `referencias/` (6,7 GB) PODE ser removida — o usuário decide. Sem ela param as
@@ -218,10 +218,16 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
   cotas_pendentes.py = 0 pendentes; 1 570 valores com cota. Todo resumo de asme/api/dnv/abs/bv/astm/isa… ganhou ≥ 1 esquema
   (genéricos por família: asme-ii-chapa-espessura, tubulacao-processo-tubo-diametros-parede, asme-ii-arame-diametro, end-metodos,
   valvula-dimensoes, poco-bop-arvore, bomba-centrifuga-selo, ensaios-laboratorio…). 284 SVG.
+- **LOTE 7 FEITO** (30/out): os 128 resumos sem desenho (ISO, DIN, NBR, NR, BS, AGMA, MSS…) ganharam esquema de conceito →
+  779/779 resumos com desenho (`cotas_pendentes.py --sem-desenho` vazio; `--svg` vazio). +18 SVG: area-classificada-zonas,
+  aterramento-queda-potencial, combustao-queimador-seguranca, documento-citacao-referencia, espaco-confinado, gestao-ciclo-melhoria
+  (ISO 9001/NR-01/NR-09/ISO TR 14121-2), instrumento-pressao-digital, obras-maritimas-defensas, painel-baixa-tensao, residuos-fluxo,
+  chavetas-aneis-travas, engrenagem-par-folga (ISO 6336, DIN 3960…), rugosidade-perfil-simbolo, transmissao-correia-corrente,
+  conteiner-iso, e do agente: parafusos-cabecas-tipos, fixadores-camadas-superficiais, abracadeira-mangueira. 302 SVG.
 
 ## PRÓXIMOS PASSOS (continuar daqui)
-Lotes 1–6 feitos (30/out): 0 valores dimensionais sem cota. Próximo: LOTE 7 = 128 resumos SEM NENHUM desenho (ISO 42, DIN 29,
-   NBR 25, NR 8, BS 8, AGMA 5, MSS 4…) → `cotas_pendentes.py --sem-desenho`; dar a cada um ≥ 1 esquema próprio (conceito da peça/ensaio). Commit + push ao fim de cada lote (pedido do usuário).
+Lotes 1–7 feitos (30/out): todo valor geométrico tem cota e todo resumo tem desenho. Próximo (opcional): revisar os
+   encaixes aproximados (desenhos genéricos por família) e trocar por desenhos específicos nas normas mais consultadas. Commit + push ao fim de cada lote (pedido do usuário).
 1. **Cotas nos resumos** — faltam ~1 049 valores dimensionais sem cota em 316 resumos. Um agente por vez, por lote. O agente:
    reutiliza SVG existentes (acrescenta grupo `cota-<nome>` sem quebrar os que já existem), só cria SVG novo DO ZERO (só rótulos,
    nunca números; rodapé "Esquema ilustrativo (não é desenho da norma) — sem escala."), põe `"cota"` no valor e o SVG em `figuras`

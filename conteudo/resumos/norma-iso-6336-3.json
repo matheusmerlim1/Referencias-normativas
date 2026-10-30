@@ -6,7 +6,10 @@
    "titulo": "Princípio",
    "item": "4–5",
    "texto": "Compara a tensão no pé do dente σF (tensão nominal σF0 × fatores de carga) com a admissível σFP a partir do limite de flexão do material; coeficiente SF ≥ SF mín.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/engrenagem-par-folga.svg"
+   ]
   },
   {
    "titulo": "Fatores",

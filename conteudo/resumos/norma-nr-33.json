@@ -8,6 +8,9 @@
    "texto": "A NR-33 define o que é espaço confinado, como gerenciar seus riscos e quais medidas adotar, para todas as organizações que possuem esses espaços ou trabalham neles. Espaço confinado é o que reúne as três condições ao mesmo tempo: não foi projetado para ocupação humana contínua, tem entrada e saída limitadas e tem (ou pode ter) atmosfera perigosa. Atmosfera perigosa é a com falta ou excesso de oxigênio, contaminantes nocivos ou atmosfera explosiva. Silos e depósitos de material que pode engolfar ou afogar, com acesso limitado, também são espaços confinados.",
    "valores": [
     {"parametro": "Condições do espaço confinado (todas simultâneas)", "valor": "não projetado para ocupação contínua + entrada/saída limitada + atmosfera perigosa existente ou possível", "item": "33.2.2"}
+   ],
+   "figuras": [
+    "esquemas/espaco-confinado.svg"
    ]
   },
   {

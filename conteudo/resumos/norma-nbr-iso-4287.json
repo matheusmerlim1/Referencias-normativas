@@ -6,7 +6,10 @@
    "titulo": "Objetivo",
    "item": "1",
    "texto": "Termos, definições e parâmetros para avaliar o acabamento superficial pelo método do perfil (instrumentos de contato). Parâmetros com prefixo P (perfil primário), R (rugosidade) e W (ondulação).",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/rugosidade-perfil-simbolo.svg"
+   ]
   },
   {
    "titulo": "Perfis e comprimentos",

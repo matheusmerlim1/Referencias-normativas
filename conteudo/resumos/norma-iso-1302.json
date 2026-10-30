@@ -6,7 +6,10 @@
    "titulo": "Escopo e símbolos",
    "item": "1–4",
    "texto": "Regras de indicação da textura superficial em desenhos por símbolos gráficos e textos: símbolo básico (dois traços desiguais a 60°), símbolos expandidos (remoção de material exigida; ou proibida — com círculo), símbolo completo (com traço longo para requisitos) e símbolo 'todas as superfícies em volta do contorno' (círculo no vértice).",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/rugosidade-perfil-simbolo.svg"
+   ]
   },
   {
    "titulo": "Composição do símbolo completo",

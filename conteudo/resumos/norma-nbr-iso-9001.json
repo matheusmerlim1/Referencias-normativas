@@ -4,7 +4,7 @@
  "secoes": [
   {"titulo": "Introdução e escopo", "item": "0–1",
    "texto": "Requisitos de um sistema de gestão da qualidade (SGQ) para demonstrar capacidade de fornecer produto que atenda ao cliente e aos requisitos legais, e aumentar a satisfação do cliente. Abordagem de processos e ciclo PDCA; par consistente com a NBR ISO 9004 (orientação para melhoria de desempenho). Requisitos genéricos; exclusões só na seção 7 quando não afetam a capacidade de atender o cliente. Edição substituída pela 9001:2015.",
-   "valores": []},
+   "valores": [], "figuras": ["esquemas/gestao-ciclo-melhoria.svg"]},
   {"titulo": "Sistema de gestão da qualidade", "item": "4",
    "texto": "Estabelecer, documentar, implementar, manter e melhorar continuamente o SGQ: determinar processos, sequência e interação, critérios, recursos, monitoramento e ações; controlar processos terceirizados. Documentação: política e objetivos, manual da qualidade, procedimentos documentados exigidos, documentos e registros necessários; controle de documentos e de registros por procedimento.",
    "valores": []},

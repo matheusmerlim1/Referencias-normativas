@@ -6,7 +6,10 @@
    "titulo": "Escopo",
    "item": "1",
    "texto": "Afastamentos da distância entre eixos (superior e inferior) e tolerâncias de posição dos eixos (desvio de cruzamento e de inclinação) da carcaça, conforme conceitos da DIN 3960.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/engrenagem-par-folga.svg"
+   ]
   },
   {
    "titulo": "Distância entre eixos",

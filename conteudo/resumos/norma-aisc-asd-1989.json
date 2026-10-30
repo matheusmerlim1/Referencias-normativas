@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "A1, A2",
-   "texto": "Especificação AISC de 1º de junho de 1989 (ASD) com comentários: projeto, fabricação e montagem de edifícios de aço estrutural pelo método das tensões admissíveis e projeto plástico."
+   "texto": "Especificação AISC de 1º de junho de 1989 (ASD) com comentários: projeto, fabricação e montagem de edifícios de aço estrutural pelo método das tensões admissíveis e projeto plástico.",
+   "figuras": [
+    "esquemas/estrutura-aco-ligacoes.svg"
+   ]
   },
   {
    "titulo": "Capítulos",

@@ -6,7 +6,10 @@
    "titulo": "Escopo",
    "item": "1",
    "texto": "Requisitos para aços-carbono e baixa liga (e ferros fundidos) em equipamentos de produção de óleo e gás e plantas de tratamento com H2S: resistência a trinca sob tensão por sulfeto (SSC), trinca induzida por hidrogênio orientada pela tensão (SOHIC), trinca de zona macia (SZC) e trinca induzida por hidrogênio (HIC) com sua evolução em degraus (SWC). Não trata perda de massa por corrosão geral ou localizada. Tabela 1 lista equipamentos abrangidos e exclusões.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/ensaios-laboratorio.svg"
+   ]
   },
   {
    "titulo": "Informações de compra",

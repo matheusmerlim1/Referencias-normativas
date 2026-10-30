@@ -6,7 +6,10 @@
    "titulo": "Escopo",
    "item": "1",
    "texto": "Parafusos tratados termicamente com ponta de broca: furam a chapa, abrem a rosca e fixam numa só operação, sem quebrar nem deformar a própria rosca. Requisitos de dureza superficial, capacidade de furação e de formação de rosca.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/parafusos-cabecas-tipos.svg"
+   ]
   },
   {
    "titulo": "Tipos e dimensões",

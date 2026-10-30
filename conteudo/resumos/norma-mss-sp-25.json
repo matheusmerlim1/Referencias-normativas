@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Marcação obrigatória e opcional de válvulas, conexões, flanges e uniões: fabricante, classe ou pressão, material, tamanho, identificação de rosca, sentido de fluxo, e onde e como aplicar as marcas. Cópia OCR — texto com ruído."
+   "texto": "Marcação obrigatória e opcional de válvulas, conexões, flanges e uniões: fabricante, classe ou pressão, material, tamanho, identificação de rosca, sentido de fluxo, e onde e como aplicar as marcas. Cópia OCR — texto com ruído.",
+   "figuras": [
+    "esquemas/valvula-dimensoes.svg"
+   ]
   }
  ]
 }

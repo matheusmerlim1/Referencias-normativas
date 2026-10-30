@@ -4,7 +4,7 @@
  "secoes": [
   {"titulo": "Definições", "item": "3",
    "texto": "Citação: menção de informação tirada de outra fonte. Direta: transcrição literal. Indireta: texto baseado na obra consultada. Citação de citação: quando não se teve acesso ao original (apud). Notas de referência (fontes), notas de rodapé e notas explicativas.",
-   "valores": []},
+   "valores": [], "figuras": ["esquemas/documento-citacao-referencia.svg"]},
   {"titulo": "Regras de apresentação", "item": "5",
    "texto": "Na citação direta, indicar página (ou volume, seção) após a data. Supressões, interpolações e destaques marcados ([...], [ ], grifo nosso / grifo do autor). Informação verbal e trabalhos em elaboração indicados entre parênteses ou em nota. Tradução própria: 'tradução nossa'.",
    "valores": [

@@ -6,7 +6,10 @@
    "titulo": "Escopo",
    "item": "1",
    "texto": "Método simplificado e uniforme, derivado da ISO 6336, para calcular resistência ao pitting e à flexão de engrenagens industriais retas e helicoidais, para comparar projetos. Não cobre deformação plástica, micropitting, scuffing, esmagamento de camada, desgaste, vibração severa, falhas de aro ou cubo, dentes forjados ou sinterizados, nem contato ruim. Resultados devem ser confirmados pela experiência.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/engrenagem-par-folga.svg"
+   ]
   },
   {
    "titulo": "Conteúdo",

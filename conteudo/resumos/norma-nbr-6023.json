@@ -4,7 +4,7 @@
  "secoes": [
   {"titulo": "Elementos e localização", "item": "3–5",
    "texto": "A referência tem elementos essenciais (indispensáveis para identificar o documento, variam com o tipo) e complementares (caracterizam melhor). Os dados vêm do próprio documento; o que vier de outra fonte vai entre colchetes. Pode aparecer em rodapé, no fim de textos ou seções, em lista de referências ou antes de resumos e resenhas (NBR 6028). Define DOI, ISBN, ISSN e outros termos.",
-   "valores": []},
+   "valores": [], "figuras": ["esquemas/documento-citacao-referencia.svg"]},
   {"titulo": "Regras gerais", "item": "6",
    "texto": "Sequência padronizada dos elementos; espaço simples, alinhadas à esquerda e separadas por uma linha em branco (em rodapé, a partir da 2ª linha alinhadas sob a primeira letra do autor); pontuação uniforme; mesmo destaque tipográfico do título (negrito, itálico ou sublinhado) em toda a lista; se usar elementos complementares, usar em todas do mesmo tipo; dados acrescentados no idioma do texto; casos omissos pelo código de catalogação.",
    "valores": [

@@ -4,7 +4,7 @@
  "secoes": [
   {"titulo": "Objetivo", "item": "1",
    "texto": "Regras gerais comuns a dispositivos de manobra e comando de baixa tensão (disjuntores, contatores, chaves seccionadoras, relés etc.), aplicadas quando a norma do produto (60947-2, -3, -4-1…) as invoca: definições, características, informações, condições de serviço, construção, desempenho e ensaios. Painéis (conjuntos) seguem a NBR IEC 60439.",
-   "valores": []},
+   "valores": [], "figuras": ["esquemas/painel-baixa-tensao.svg"]},
   {"titulo": "Características", "item": "4",
    "texto": "Tensões nominais (operação Ue, isolamento Ui, impulso Uimp), correntes (térmica convencional Ith, nominal de emprego Ie), capacidades de estabelecimento e interrupção, corrente suportável de curta duração, regimes de carga (8 h, contínuo, intermitente periódico, temporário, periódico) e categorias de emprego.",
    "valores": [

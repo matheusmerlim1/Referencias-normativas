@@ -6,7 +6,10 @@
    "titulo": "Princípio",
    "item": "1",
    "texto": "Sistema de ajuste por espessura do dente, definido na seção normal sobre o cilindro de referência (o esforço de fabricação independe da hélice); o cálculo dos afastamentos é feito na seção transversal, pois a folga é medida na circunferência. Considera variações por temperatura, carga e inchamento.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/engrenagem-par-folga.svg"
+   ]
   },
   {
    "titulo": "Folgas",

@@ -6,7 +6,10 @@
    "titulo": "Escopo",
    "item": "1",
    "texto": "Define conceitos e grandezas da condição nominal (sem desvios) e da condição acabada de dentes cujos flancos são superfícies evolventes (helicoides), com perfil de referência de flancos retos e mesmo ângulo nos dois flancos. Também trata dos pares de engrenagens.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/engrenagem-par-folga.svg"
+   ]
   },
   {
    "titulo": "Símbolos e unidades",

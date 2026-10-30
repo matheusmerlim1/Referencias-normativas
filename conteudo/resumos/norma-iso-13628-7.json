@@ -6,7 +6,10 @@
    "titulo": "Escopo",
    "item": "1",
    "texto": "Requisitos de projeto, análise, materiais, fabricação, ensaios e operação de risers de completação/workover (C/WO) operados a partir de unidade flutuante, de aço baixa liga (titânio, compósitos e flexíveis fora). Vale para sistemas novos e pode ser aplicada a modificações, operação e reutilização. A cláusula 1 lista os equipamentos abrangidos.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/poco-bop-arvore.svg"
+   ]
   },
   {
    "titulo": "Requisitos do sistema e funcionais",

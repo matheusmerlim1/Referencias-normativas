@@ -8,7 +8,7 @@
     {"parametro": "Natural", "valor": "ESCALA 1:1", "item": "4.1 a)"},
     {"parametro": "Ampliação", "valor": "ESCALA X:1 (X > 1)", "item": "4.1 b)"},
     {"parametro": "Redução", "valor": "ESCALA 1:X (X > 1)", "item": "4.1 c)"}
-   ]},
+   ], "figuras": ["esquemas/desenho-tecnico-folha.svg"]},
   {"titulo": "Escalas recomendadas", "item": "5",
    "texto": "A escala depende da complexidade do objeto e da finalidade; deve permitir interpretação fácil e clara.",
    "valores": [

@@ -6,7 +6,7 @@
    "texto": "Critérios de fabricação, classificação (faixa e classe de exatidão), ensaios, calibração, seleção, instalação e uso de manômetros, vacuômetros e manovacuômetros digitais.",
    "valores": [
     {"parametro": "Temperatura de referência (calibração)", "valor": "(20 ± 2) °C", "item": "3.13, 9.3.2"}
-   ]},
+   ], "figuras": ["esquemas/instrumento-pressao-digital.svg"]},
   {"titulo": "Classificação", "item": "4",
    "texto": "Por faixa de pressão e por classe de exatidão. O erro máximo pode ser expresso em % da amplitude da faixa (erro constante em toda a escala) ou em % da indicação (classes com sufixo R, erro proporcional à leitura). Ex.: faixa de 100 kPa e 0,10 % — da faixa, erro de 0,10 kPa em qualquer ponto; da indicação, 0,01 kPa a 10 kPa.",
    "valores": [

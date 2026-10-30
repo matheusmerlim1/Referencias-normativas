@@ -4,7 +4,7 @@
  "secoes": [
   {"titulo": "Escopo e definições", "item": "1, 3",
    "texto": "Projeto de norma (não publicado como NBR nesta forma) para a inspeção de segurança de vasos de pressão enquadrados na NR-13: roteiro de inspeção externa, interna e geral, ensaios não destrutivos, testes de pressão e relatório. Definições: inspeção externa (vaso em operação), interna (fora de operação), geral (as duas, fora de operação); teste hidrostático e pneumático; profissional habilitado (PH); válvula de segurança (abertura instantânea, compressíveis), de alívio (abertura proporcional, incompressíveis) e de segurança e alívio; vida residual.",
-   "valores": []},
+   "valores": [], "figuras": ["esquemas/vaso-pressao-asme-viii-casco-tampos.svg"]},
   {"titulo": "Periodicidade e preparação", "item": "4",
    "texto": "Prazos da NR-13 ou menores, a critério do PH, que monta o plano de inspeção a partir do histórico, recomendações pendentes, dados de projeto e operação. Antes de entrar: permissão de trabalho/APR, EPI/EPC, acessos e iluminação adequados, regras de espaço confinado (o texto cita a NBR 14707), isolamento por flanges cegos, drenagem, limpeza, purga e teste de gases.",
    "valores": []},

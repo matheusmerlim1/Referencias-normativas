@@ -8,6 +8,9 @@
    "texto": "Forno de qualquer uso deve ser robusto e ter revestimento refratário suficiente para que o calor irradiado fique dentro dos limites de tolerância de calor da NR-15. Deve ficar em local seguro, de modo a não acumular gases nocivos nem aquecer demais as áreas vizinhas; escadas e plataformas do forno devem permitir trabalho seguro.",
    "valores": [
     {"parametro": "Calor radiante no entorno", "valor": "dentro dos limites de tolerância da NR-15", "item": "14.1"}
+   ],
+   "figuras": [
+    "esquemas/combustao-queimador-seguranca.svg"
    ]
   },
   {

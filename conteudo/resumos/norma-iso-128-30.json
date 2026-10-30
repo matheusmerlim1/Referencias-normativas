@@ -6,7 +6,10 @@
    "titulo": "Escopo e regras gerais",
    "item": "1–4",
    "texto": "Convenções de vistas para desenhos técnicos (adequadas à microcópia). Vista principal = a mais informativa (posição de funcionamento, fabricação ou montagem). Demais vistas por projeção ou identificadas por letra maiúscula junto à seta de referência e repetida acima da vista; letras sempre na direção de leitura.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/desenho-tecnico-hachuras.svg"
+   ]
   },
   {
    "titulo": "Escolha de vistas",

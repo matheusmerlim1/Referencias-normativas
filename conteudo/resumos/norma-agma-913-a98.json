@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Descreve o efeito do deslocamento de perfil (correção) sobre a geometria e o desempenho de engrenagens, sem recomendações específicas de projeto; válido para a cremalheira básica de referência e outras que atendam aos critérios da Figura 1."
+   "texto": "Descreve o efeito do deslocamento de perfil (correção) sobre a geometria e o desempenho de engrenagens, sem recomendações específicas de projeto; válido para a cremalheira básica de referência e outras que atendam aos critérios da Figura 1.",
+   "figuras": [
+    "esquemas/engrenagem-perfil-referencia.svg"
+   ]
   }
  ]
 }

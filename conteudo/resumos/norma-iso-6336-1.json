@@ -6,7 +6,10 @@
    "titulo": "Escopo e princípios",
    "item": "1–4",
    "texto": "Base do método ISO de cálculo de engrenagens cilíndricas externas e internas: termos e símbolos, falhas cobertas (pitting na Parte 2, quebra do dente na Parte 3) e outras citadas (scuffing, desgaste, micropitting, deformação plástica). Métodos A (ensaio/medição completa), B (cálculo detalhado) e C/D (simplificados), em ordem decrescente de precisão.",
-   "valores": []
+   "valores": [],
+   "figuras": [
+    "esquemas/engrenagem-par-folga.svg"
+   ]
   },
   {
    "titulo": "Fatores de carga",
