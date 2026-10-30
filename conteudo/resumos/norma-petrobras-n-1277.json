@@ -1,0 +1,58 @@
+{
+ "id": "PETROBRAS-N-1277",
+ "titulo": "Petrobras N-1277 Rev. F (10/2024) — Tinta de fundo epóxi rica em zinco (especificação)",
+ "secoes": [
+  {
+   "titulo": "Escopo, embalagem e armazenamento",
+   "item": "1, 3",
+   "texto": "Especifica, para recebimento em laboratório, a tinta de fundo epóxi rica em zinco bicomponente: componente A = resina epóxi com pó de zinco; componente B = agente de cura. Os componentes chegam homogêneos e sem pele, em latas cilíndricas íntegras e com o conteúdo declarado (NBR 15442). O rótulo (não na tampa) traz a norma, o nome da tinta, o componente, o diluente, a quantidade em L e kg, o fabricante, o lote, a validade e a proporção de mistura. Diluição só conforme o fabricante.",
+   "valores": [
+    {"parametro": "Estabilidade em armazenagem (recipiente fechado)", "valor": "mín. 6 meses abaixo de 40 °C", "item": "3.4.1"},
+    {"parametro": "Revalidação", "valor": "até 2 períodos adicionais de 6 meses (refazendo os ensaios, conforme N-13)", "item": "3.4.2"}
+   ]
+  },
+  {
+   "titulo": "Produto pronto para aplicação (Tabela 1)",
+   "item": "4.1–4.2",
+   "texto": "Os componentes podem ter, no máximo, um sedimento fácil de homogeneizar à mão; a resina e o agente de cura podem ser identificados por análise em auditoria. Depois de misturada, a tinta precisa ter aparência e consistência uniformes e atender aos requisitos da Tabela 1, medidos com película seca de 100 µm.",
+   "valores": [
+    {"parametro": "Sólidos por volume mín.", "valor": "52 %", "item": "Tab. 1"},
+    {"parametro": "Secagem ao toque máx. (película 100 µm)", "valor": "30 min", "item": "Tab. 1", "cota": "esquemas/tinta-painel-ensaio.svg#pelicula"},
+    {"parametro": "Secagem para manuseio máx. (película 100 µm)", "valor": "8 h", "item": "Tab. 1", "cota": "esquemas/tinta-painel-ensaio.svg#pelicula"},
+    {"parametro": "Secagem para a demão seguinte (película 100 µm)", "valor": "18 h a 24 h", "item": "Tab. 1", "cota": "esquemas/tinta-painel-ensaio.svg#pelicula"},
+    {"parametro": "Pot life mín.", "valor": "4 h", "item": "Tab. 1"},
+    {"parametro": "Consistência", "valor": "75 a 110 KU", "item": "Tab. 1"},
+    {"parametro": "Cura para o ensaio de sólidos", "valor": "24 h a 25 ± 2 °C + 180 min a 105 ± 1 °C", "item": "4.2.3"}
+   ]
+  },
+  {
+   "titulo": "Película seca (Tabela 2)",
+   "item": "4.3",
+   "texto": "O desempenho é avaliado num esquema completo: fundo rico em zinco mais tinta de barreira compatível, submetido ao ensaio cíclico de corrosão para ambiente CX (ISO 12944-9). Mede-se a aderência do fundo sozinho, a do esquema antes e depois do ciclo e o avanço de corrosão a partir da incisão. A falha A/B reprova em qualquer pull-off.",
+   "valores": [
+    {"parametro": "Película do fundo nos ensaios", "valor": "100 µm", "item": "Tab. 2 Nota 1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Tinta de barreira sobre o fundo", "valor": "200 µm", "item": "Tab. 2 Nota 1", "cota": "esquemas/pintura-esquema-camadas.svg#intermediaria"},
+    {"parametro": "Esquema completo", "valor": "300 µm", "item": "Tab. 2 Nota 1", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Ensaio cíclico de corrosão (ageing test CX)", "valor": "4 200 h", "item": "Tab. 2"},
+    {"parametro": "Pull-off inicial do fundo (100 µm)", "valor": "≥ 7,0 MPa", "item": "Tab. 2"},
+    {"parametro": "Pull-off do esquema antes do ciclo (300 µm)", "valor": "≥ 7,0 MPa", "item": "Tab. 2"},
+    {"parametro": "Pull-off após o ciclo", "valor": "≥ 50 % do valor inicial, após 2 semanas de recondicionamento; sem falha A/B", "item": "Tab. 2 Nota 3"},
+    {"parametro": "Avanço de corrosão a partir da incisão", "valor": "≤ 3,0 mm", "item": "Tab. 2", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-largura"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Corpos de prova",
+   "item": "5.2",
+   "texto": "A tinta é aplicada (de preferência a pistola) direto sobre chapa de aço AISI 1020 jateada ao metal branco. São pelo menos três corpos de prova por ensaio, ensaiados 7 dias após a aplicação, em ambiente controlado e com bordas e verso protegidos. O ensaio cíclico usa uma única incisão, conforme a ISO 12944-9. A aderência é medida em dois pontos de pelo menos dois corpos de prova.",
+   "valores": [
+    {"parametro": "Preparo da chapa", "valor": "Sa 3", "item": "5.2.2.1"},
+    {"parametro": "Perfil de ancoragem", "valor": "50 µm a 70 µm", "item": "5.2.2.1", "cota": "esquemas/pintura-esquema-camadas.svg#perfil"},
+    {"parametro": "Chapa de ensaio — dimensões", "valor": "150 mm × 100 mm", "item": "5.2.2.1", "cota": "esquemas/tinta-painel-ensaio.svg#comprimento"},
+    {"parametro": "Chapa de ensaio — espessura mín.", "valor": "4 mm", "item": "5.2.2.1", "cota": "esquemas/tinta-painel-ensaio.svg#espessura"},
+    {"parametro": "Cura dos painéis", "valor": "7 dias a 25 ± 2 °C e UR 60 ± 5 %", "item": "5.2.2.4"}
+   ],
+   "figuras": ["esquemas/tinta-painel-ensaio.svg"]
+  }
+ ]
+}

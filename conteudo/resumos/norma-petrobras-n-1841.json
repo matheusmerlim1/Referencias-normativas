@@ -1,0 +1,59 @@
+{
+ "id": "PETROBRAS-N-1841",
+ "titulo": "Petrobras N-1841 Rev. E (10/2020) — Shop primer de zinco etil-silicato (especificação)",
+ "secoes": [
+  {
+   "titulo": "Escopo, embalagem e armazenamento",
+   "item": "1, 3",
+   "texto": "Especifica, para recebimento em laboratório, o shop primer de zinco etil-silicato bicomponente: componente A = pó de zinco; componente B = solução de etil-silicato. É uma película fina, aplicada na chapa ainda na fábrica. Os recipientes chegam íntegros (NBR 15442), com rótulo fora da tampa trazendo a norma, o nome do produto, o componente, o diluente, a quantidade, o fabricante, o lote, a validade e a proporção de mistura.",
+   "valores": [
+    {"parametro": "Estabilidade em armazenagem", "valor": "mín. 6 meses abaixo de 40 °C", "item": "3.4.1"},
+    {"parametro": "Revalidação", "valor": "até 2 períodos adicionais de 3 meses", "item": "3.4.2"}
+   ]
+  },
+  {
+   "titulo": "Produto pronto (Tabela 1)",
+   "item": "4.1–4.2",
+   "texto": "O sedimento tem de ser, no máximo, fácil de homogeneizar à mão. A mistura deve ter consistência e aparência uniformes e atender à Tabela 1, medida com película seca de 25 µm. Para calcular o rendimento teórico, considera-se o teor de sólidos por volume da Nota 2.",
+   "valores": [
+    {"parametro": "Retenção do pó de zinco na peneira de 45 µm (ASTM D185)", "valor": "≤ 3 %", "item": "4.1.2"},
+    {"parametro": "Massa específica mín.", "valor": "2,5 g/cm³", "item": "Tab. 1"},
+    {"parametro": "Sólidos por massa mín.", "valor": "70 %", "item": "Tab. 1"},
+    {"parametro": "Secagem ao toque / à pressão / completa máx. (25 µm)", "valor": "10 min / 30 min / 2 h", "item": "Tab. 1", "cota": "esquemas/tinta-painel-ensaio.svg#pelicula"},
+    {"parametro": "Secagem para repintura (25 µm)", "valor": "30 h a 48 h", "item": "Tab. 1", "cota": "esquemas/tinta-painel-ensaio.svg#pelicula"},
+    {"parametro": "Pot life mín.", "valor": "6 h", "item": "Tab. 1"},
+    {"parametro": "Viscosidade (copo Ford 4, 15 min após misturar)", "valor": "15 s a 20 s", "item": "Tab. 1", "nota": "unidade inferida (SCF4 = segundos no copo Ford 4) — conferir"},
+    {"parametro": "Sólidos por volume para rendimento teórico", "valor": "40 %", "item": "Tab. 1 Nota 2"}
+   ]
+  },
+  {
+   "titulo": "Película seca (Tabela 2) e potencial eletroquímico",
+   "item": "4.3",
+   "texto": "Os ensaios são feitos com película de 25 µm: névoa salina, umidade 100 %, imersão em salmoura e potencial eletroquímico. O potencial é medido numa célula de tubo inerte colado sobre a chapa, com NaCl 3,5 % e eletrodo de calomelano saturado. Há uma versão com um furo intencional no revestimento e outra com o revestimento íntegro.",
+   "valores": [
+    {"parametro": "Película dos ensaios", "valor": "25 µm", "item": "Tab. 2", "cota": "esquemas/tinta-painel-ensaio.svg#pelicula"},
+    {"parametro": "Névoa salina / umidade 100 %", "valor": "240 h cada", "item": "Tab. 2"},
+    {"parametro": "Imersão em NaCl 3,5 %", "valor": "480 h", "item": "Tab. 2"},
+    {"parametro": "Célula — tubo inerte colado", "valor": "Ø ≈ 75 mm, altura ≈ 100 mm; solução até ≈ 50 mm", "item": "4.3.1.3 / 4.3.1.4", "cota": "esquemas/tinta-painel-ensaio.svg#largura"},
+    {"parametro": "Falha intencional circular", "valor": "Ø ≈ 17 mm (5 % da área exposta)", "item": "4.3.2.1", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-largura"},
+    {"parametro": "Com falha — critério", "valor": "sem corrosão na falha após 7 dias; potencial vs ECS mais negativo que -800 mV", "item": "5.2.2.9", "nota": "4.3.2.2 fala em medições em 24 h e 30 dias — conferir"},
+    {"parametro": "Sem falha — critério", "valor": "sem falha após 10 dias de imersão; potencial mais negativo que -850 mV", "item": "5.2.2.10", "nota": "4.3.3.2 cita 1 000 h de imersão — conferir qual vale"}
+   ],
+   "figuras": ["esquemas/tinta-painel-ensaio.svg"]
+  },
+  {
+   "titulo": "Corpos de prova",
+   "item": "5.2",
+   "texto": "A tinta vai sobre chapa AISI 1020 fina, jateada ao metal branco com perfil baixo (próprio de shop primer). São pelo menos três corpos de prova por ensaio, ensaiados após 7 dias de cura controlada, com bordas protegidas. A névoa salina usa um entalhe central. Após os ensaios, não pode haver bolhas, corrosão do aço nem penetração no entalhe.",
+   "valores": [
+    {"parametro": "Preparo / perfil da chapa", "valor": "Sa 3; 20 µm a 30 µm", "item": "5.2.2.1", "cota": "esquemas/pintura-esquema-camadas.svg#perfil"},
+    {"parametro": "Chapa de ensaio", "valor": "150 mm × 100 mm", "item": "5.2.2.1", "cota": "esquemas/tinta-painel-ensaio.svg#comprimento"},
+    {"parametro": "Chapa de ensaio — espessura mín.", "valor": "2 mm", "item": "5.2.2.1", "cota": "esquemas/tinta-painel-ensaio.svg#espessura"},
+    {"parametro": "Cura dos painéis", "valor": "7 dias a 25 ± 2 °C e UR 60 ± 5 %", "item": "5.2.2.4"},
+    {"parametro": "Entalhe — largura", "valor": "0,5 mm a 2 mm", "item": "5.2.2.6", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-largura"},
+    {"parametro": "Entalhe — distância às bordas superior e inferior", "valor": "30 mm", "item": "5.2.2.6", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-distancia"}
+   ],
+   "figuras": ["esquemas/tinta-painel-ensaio.svg"]
+  }
+ ]
+}
