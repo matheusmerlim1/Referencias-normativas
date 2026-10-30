@@ -86,6 +86,7 @@ ferramentas/conferir.py    confere nº de cada requisito/tabela contra o texto d
 python ferramentas/build.py                                   # validar + gerar dados (rodar após qualquer mudança em conteudo/ ou esquemas/)
 python -P ferramentas/verificar_autossuficiente.py --publico  # tem de dar "0 pendência(s)" antes de todo commit
 python -P ferramentas/recursos.py 600                         # quantos processos de 600 MB cabem em 1/6 da RAM
+python -P ferramentas/texto_norma.py <ID> [pág-ini [pág-fim]]  # texto completo extraído (local) de uma norma, p/ escrever resumo
 python -P ferramentas/cotas_pendentes.py [slug…|--svg|--sem-desenho]  # pendências de cota; --svg = esquemas sem uso; --sem-desenho = resumos sem desenho
 python -P ferramentas/gerar_docs.py <ficha> --gravar ; python -P ferramentas/separar_normas.py --gravar   # mudar recortes (apagar antes assets/figuras/docs/<ficha>/)
 python -P ferramentas/dump.py <pasta_tmp> "<glob do pdf>"     # texto do PDF por página
@@ -260,6 +261,15 @@ Lotes 1–7 feitos (30/out): todo valor geométrico tem cota e todo resumo tem d
    **Acervo T: ainda NÃO analisado** (30/out): do catálogo (3 933 docs), 3 655 não estão em referencias/ → 2 648 não superados
    (ASTM 881, Petrobras N-xxxx 517, ABNT 203, SSPC 175, ASME 133, specs SBM/MODEC/Equinor/Gran ~220, livros 58, MTE 37).
    Só têm catálogo (título/código); incorporar = ler do T: (somente leitura) → fichas/resumos próprios, por lotes e prioridade.
+   **BLOCO PETROBRAS (iniciado 30/out):** 287 normas N-xxxx (edição mais nova; volumes 2025 quando há; todas com texto) →
+   ferramentas/docs_petrobras.py (7 fichas-fonte por assunto: pintura-isolamento 35, tubulacao-valvulas 30, solda-inspecao 43,
+   equipamentos 35, eletrica-instrumentacao 23, estruturas-civil-seguranca 22, desenho-geral 99) → gerar_docs --gravar (3 643
+   recortes, local) → separar_normas → info_normas → extrair_textos <ids> → indexar_textos → build. Commit 0ccaf88 (normas.json).
+   gerar_docs: Petrobras fora da regra "norma curta" (quadro de cabeçalho em toda página virava página inteira).
+   Limitação: 5 normas (N-1758, 1728, 2200, 0108, 1742) têm fonte subset deslocada nas FIGURAS ("9iOYXODV" = "Válvulas":
+   código = glifo; ASCII +29; acentos na ordem Mac: i→á, m→ã, o→ç…) — legendas/texto dessas figuras saem embaralhados.
+   FALTA: RESUMOS PRÓPRIOS (público) por lote de assunto, 1 agente por vez; ler texto com
+   `python -P ferramentas/texto_norma.py PETROBRAS-N-0013 [pág-ini pág-fim]` (--paginas = tamanho). Lote P1 = pintura (em curso).
 4. Backlog antigo (baixa prioridade; detalhes em HISTORICO.md): ficha vaso-pressao migrar de VIII-1 2001 para 2007; UCS-66, UG-37;
    B16.9/B16.11/B36.19M; NR-13 tubulações; ISO 4759/4042; MSS SP-44, API 6AF; NBR 6409/ISO 1302; IPE/W/cantoneiras; composição
    química das specs SA/SB; aba "Acervo" no site; fichas de pintura (N-xxxx/SSPC) e andaime.
