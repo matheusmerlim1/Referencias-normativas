@@ -244,5 +244,6 @@ Lotes 1–6 feitos (30/out): 0 valores dimensionais sem cota. Próximo: LOTE 7 =
    química das specs SA/SB; aba "Acervo" no site; fichas de pintura (N-xxxx/SSPC) e andaime.
 
 Rotina de commit: `python ferramentas/build.py` → `python -P ferramentas/verificar_autossuficiente.py --publico` (0) →
-`git status` (só camada pública) → commit terminando em "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" → `git push origin main`.
+`git status` (só camada pública; o usuário às vezes tem OUTRAS sessões editando o projeto ao mesmo tempo → `git add` só dos
+seus caminhos, nunca `git add -A`, e confira com ListAgents) → commit terminando em "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" → `git push origin main`.
 Agentes: no máximo 1 por vez (RAM); o usuário pede economia de créditos.
