@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Sistema de indicação em desenho de requisitos de soldagem, brasagem e END: representação gráfica, convenções de localização (lado da seta/outro lado), tipo, dimensões, acabamento e métodos de END. Substitui a edição anterior."
+   "texto": "Sistema de indicação em desenho de requisitos de soldagem, brasagem e END: representação gráfica, convenções de localização (lado da seta/outro lado), tipo, dimensões, acabamento e métodos de END. Substitui a edição anterior.",
+   "figuras": [
+    "esquemas/solda-estrutural-montagem-junta.svg"
+   ]
   },
   {
    "titulo": "Conteúdo",

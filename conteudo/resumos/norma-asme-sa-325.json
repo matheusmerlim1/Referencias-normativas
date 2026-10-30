@@ -7,10 +7,11 @@
    "item": "1",
    "texto": "Parafusos estruturais temperados e revenidos para ligações de estruturas de aço, usados conforme a especificação de juntas do RCSC. Tipo 1 é de aço médio carbono, carbono-boro ou baixa liga; o tipo 3 é de aço patinável, que pode ficar sem pintura. O tipo 2 foi retirado. Para uso geral ou diâmetros maiores existe a A449. Corresponde à ASTM A325; dimensões pela ASME B18.2.6.",
    "valores": [
-    {"parametro": "Faixa de diâmetros", "valor": "1/2 a 1 1/2 in", "item": "1.3"},
+    {"parametro": "Faixa de diâmetros", "valor": "1/2 a 1 1/2 in", "item": "1.3", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#E"},
     {"parametro": "Resistência à tração mín. — até 1 in", "valor": "120 ksi", "item": "1.1"},
     {"parametro": "Resistência à tração mín. — > 1 a 1 1/2 in", "valor": "105 ksi", "item": "1.1"}
-   ]
+   ],
+   "figuras": ["esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg"]
   },
   {
    "titulo": "Propriedades mecânicas",

@@ -72,8 +72,12 @@
     {
      "parametro": "Redução de área",
      "valor": "não se aplica abaixo de 0,092 in",
-     "item": "Tabela 2"
+     "item": "Tabela 2",
+     "cota": "esquemas/asme-ii-arame-diametro.svg#D"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-arame-diametro.svg"
    ]
   },
   {

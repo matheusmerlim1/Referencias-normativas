@@ -487,7 +487,8 @@
     {
      "parametro": "Torque que exige auxílio",
      "valor": "> 54 N·m (volante > 600 mm)",
-     "item": "4/10.4.1"
+     "item": "4/10.4.1",
+     "cota": "esquemas/acessos-valvulas-volantes.svg#volante-d"
     },
     {
      "parametro": "Alavanca de haste vertical",

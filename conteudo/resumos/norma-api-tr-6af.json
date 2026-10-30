@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Relatório técnico com cartas de capacidade de flanges API (6B e 6BX) sob combinação de pressão, tração e momento fletor, a partir de análises com a carga de montagem dos parafusos."
+   "texto": "Relatório técnico com cartas de capacidade de flanges API (6B e 6BX) sob combinação de pressão, tração e momento fletor, a partir de análises com a carga de montagem dos parafusos.",
+   "figuras": [
+    "esquemas/flange-asme-b16-5-faces.svg"
+   ]
   },
   {
    "titulo": "Conteúdo",

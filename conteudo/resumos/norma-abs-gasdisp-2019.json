@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "Seção 1",
-   "texto": "Orientação para estudos de dispersão de gás em embarcações movidas a gás (GNL e outros combustíveis gasosos), para avaliar zonas perigosas e saídas de ventilação/alívio."
+   "texto": "Orientação para estudos de dispersão de gás em embarcações movidas a gás (GNL e outros combustíveis gasosos), para avaliar zonas perigosas e saídas de ventilação/alívio.",
+   "figuras": [
+    "esquemas/gas-instalacao-afastamentos.svg"
+   ]
   },
   {
    "titulo": "Modelagem CFD",

@@ -10,13 +10,17 @@
     {
      "parametro": "Faixa de tamanhos",
      "valor": "1 a 8 in",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/valvula-dimensoes.svg#dn"
     },
     {
      "parametro": "Classes",
      "valor": "150, 300 e 600",
      "item": "1"
     }
+   ],
+   "figuras": [
+    "esquemas/valvula-dimensoes.svg"
    ]
   }
  ]

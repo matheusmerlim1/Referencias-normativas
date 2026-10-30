@@ -10,8 +10,12 @@
     {
      "parametro": "Faixa usual",
      "valor": "1/8 in [3,2 mm] DI a 12 in [304,8 mm] DE; parede 0,015 a 0,320 in [0,4 a 8,1 mm]",
-     "item": "1.3"
+     "item": "1.3",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
    ]
   },
   {

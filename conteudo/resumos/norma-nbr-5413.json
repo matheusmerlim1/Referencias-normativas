@@ -8,10 +8,10 @@
   {"titulo": "Condições gerais", "item": "4",
    "texto": "Mede-se a iluminância no campo de trabalho (verificação pela NBR 5382). Iluminação suplementar pode reforçar um campo limitado.",
    "valores": [
-    {"parametro": "Plano de trabalho quando não definido", "valor": "horizontal a 0,75 m do piso", "item": "4.1"},
+    {"parametro": "Plano de trabalho quando não definido", "valor": "horizontal a 0,75 m do piso", "item": "4.1", "cota": "esquemas/iluminacao-tarefa-entorno.svg#plano-trabalho"},
     {"parametro": "Iluminância no restante do ambiente", "valor": "≥ 1/10 da do campo de trabalho", "item": "4.3"},
     {"parametro": "Uniformidade no campo de trabalho (recomendada)", "valor": "nenhum ponto < 70 % da média", "item": "4.4"}
-   ]},
+   ], "figuras": ["esquemas/iluminacao-tarefa-entorno.svg"]},
   {"titulo": "Classes de tarefa (Tabela 1)", "item": "5.1",
    "texto": "Faixas de três valores (mínimo – médio – máximo) por tipo de atividade.",
    "valores": [

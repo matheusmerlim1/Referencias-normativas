@@ -59,7 +59,7 @@
     {"parametro": "Ø externo na ponta — NPS ≤ 1½", "valor": "± 0,4 mm", "item": "5.3", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#A"},
     {"parametro": "Ø externo na ponta — NPS 2 a 5", "valor": "+2,5 / −0,79 mm", "item": "5.3", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#A"},
     {"parametro": "Ø externo na ponta — NPS ≥ 6", "valor": "+4,0 / −0,79 mm", "item": "5.3", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#A"},
-    {"parametro": "Usinagem para anel contínuo", "valor": "não prevista para parede ≤ 3,17 mm", "item": "Tabela 3.3-1, Nota (3)"}
+    {"parametro": "Usinagem para anel contínuo", "valor": "não prevista para parede ≤ 3,17 mm", "item": "Tabela 3.3-1, Nota (3)", "cota": "esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg#t"}
    ],
    "figuras": ["esquemas/tubulacao-processo-b16-25-chanfro-ate-22mm.svg", "esquemas/tubulacao-processo-b16-25-chanfro-gtaw.svg"]
   }

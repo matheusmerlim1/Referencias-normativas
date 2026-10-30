@@ -11,14 +11,19 @@
      "parametro": "Espessura",
      "valor": "≤ 5 mm",
      "item": "1.1",
-     "nota": "cópia OCR — conferir"
+     "nota": "cópia OCR — conferir",
+     "cota": "esquemas/chapa-fita-dimensoes.svg#espessura"
     },
     {
      "parametro": "Largura",
      "valor": "≤ 600 mm",
      "item": "1.1",
-     "nota": "cópia OCR — conferir"
+     "nota": "cópia OCR — conferir",
+     "cota": "esquemas/chapa-fita-dimensoes.svg#largura"
     }
+   ],
+   "figuras": [
+    "esquemas/chapa-fita-dimensoes.svg"
    ]
   },
   {

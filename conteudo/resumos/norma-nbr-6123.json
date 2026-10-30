@@ -86,7 +86,7 @@
    "valores": [
     {"parametro": "Velocidade de projeto (média de 10 min, 10 m, cat. II)", "valor": "Vp = 0,69 · V0 · S1 · S3", "item": "9.2.1"},
     {"parametro": "Dispensa de análise dinâmica", "valor": "período fundamental T1 ≤ 1 s", "item": "9.1"},
-    {"parametro": "Modelo contínuo simplificado — limite de altura", "valor": "< 150 m, apoiada só na base", "item": "9.2.2.1"}
+    {"parametro": "Modelo contínuo simplificado — limite de altura", "valor": "< 150 m, apoiada só na base", "item": "9.2.2.1", "cota": "esquemas/vento-perfil-topografia.svg#altura-ref"}
    ]},
   {"titulo": "Anexos", "item": "Anexos A–I",
    "texto": "A: S2 para intervalos de 3 s a 1 h; B: S3 para outras probabilidades; C: isopletas; D: pressão interna em casos gerais; E e F: coeficientes para outras formas e casos especiais; G: efeitos de vizinhança; I: exemplos de cálculo dinâmico.",

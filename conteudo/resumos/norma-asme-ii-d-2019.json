@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "—",
-   "texto": "Volume de propriedades de materiais referenciado pelas seções de construção do código (I, III, VIII, XII): tensões admissíveis, resistências de projeto, propriedades físicas e cartas de pressão externa. Edição métrica (MPa, °C)."
+   "texto": "Volume de propriedades de materiais referenciado pelas seções de construção do código (I, III, VIII, XII): tensões admissíveis, resistências de projeto, propriedades físicas e cartas de pressão externa. Edição métrica (MPa, °C).",
+   "figuras": [
+    "esquemas/materiais-asme-ii-d-criterios-tensao.svg"
+   ]
   },
   {
    "titulo": "Subparte 1 — Tensões",

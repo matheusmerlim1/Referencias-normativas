@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "—",
-   "texto": "Documento que, junto com a especificação AWS do consumível, padroniza o pedido de metal de adição: classificação (da especificação AWS), classificação do lote (Seção 5), nível de ensaios (cronogramas de ensaio) e certificação."
+   "texto": "Documento que, junto com a especificação AWS do consumível, padroniza o pedido de metal de adição: classificação (da especificação AWS), classificação do lote (Seção 5), nível de ensaios (cronogramas de ensaio) e certificação.",
+   "figuras": [
+    "esquemas/asme-ii-arame-diametro.svg"
+   ]
   },
   {
    "titulo": "Classificação de lote e cronogramas",

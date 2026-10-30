@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 410" width="1050" height="410" role="img" aria-label="Válvulas — tamanho nominal, face a face e face à linha de centro">
+<title>Válvulas — tamanho nominal, face a face e face à linha de centro (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Válvulas — tamanho nominal, face a face e face à linha de centro</text>
+<text class="n b" x="130" y="70">válvula globo flangeada (vista lateral)</text>
+<line class="c" x1="90" y1="220" x2="430" y2="220"/>
+<rect class="s" x="120" y="165" width="16" height="110"/><rect class="s" x="384" y="165" width="16" height="110"/>
+<path class="s" d="M136,195 L190,195 Q200,165 260,165 Q320,165 330,195 L384,195 L384,245 L330,245 Q320,275 260,275 Q200,275 190,245 L136,245 Z"/>
+<rect class="s" x="240" y="120" width="40" height="45"/><line class="g" x1="260" y1="120" x2="260" y2="92"/><line class="g" x1="215" y1="92" x2="305" y2="92"/>
+<text class="n" x="312" y="96">volante</text>
+<line class="h" x1="100" y1="200" x2="136" y2="200"/><line class="h" x1="100" y1="240" x2="136" y2="240"/>
+<g id="cota-dn" class="cota"><line class="d" x1="106" y1="176" x2="106" y2="200" marker-end="url(#a)"/><line class="d" x1="106" y1="264" x2="106" y2="240" marker-end="url(#a)"/><text class="m" x="100" y="168">DN</text></g>
+<g id="cota-face-a-face" class="cota"><line class="e" x1="120" y1="278" x2="120" y2="321"/><line class="e" x1="400" y1="278" x2="400" y2="321"/><line class="d" x1="120" y1="315" x2="400" y2="315" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="260" y="337">face a face</text></g>
+<text class="n" x="120" y="372">DN = tamanho nominal (NPS)</text>
+<text class="n b" x="620" y="70">válvula globo angular</text>
+<line class="c" x1="740" y1="92" x2="740" y2="400"/><line class="c" x1="680" y1="230" x2="930" y2="230"/>
+<path class="s" d="M700,330 L700,270 Q690,200 740,190 Q800,185 820,210 L880,210 L880,250 L820,250 Q800,275 780,275 L780,330 Z"/>
+<rect class="s" x="880" y="175" width="16" height="110"/><rect class="s" x="685" y="330" width="110" height="16"/>
+<rect class="s" x="720" y="145" width="40" height="45"/><line class="g" x1="740" y1="145" x2="740" y2="118"/><line class="g" x1="700" y1="118" x2="780" y2="118"/>
+<text class="n" x="900" y="320">saída</text><text class="n" x="802" y="366">entrada</text>
+<g id="cota-face-centro" class="cota"><line class="e" x1="740" y1="172" x2="740" y2="106"/><line class="e" x1="896" y1="172" x2="896" y2="106"/><line class="d" x1="740" y1="100" x2="896" y2="100" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="818" y="90">face à linha de centro</text></g>
+<text class="n" x="20" y="398">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

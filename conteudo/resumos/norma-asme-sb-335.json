@@ -10,8 +10,12 @@
     {
      "parametro": "Faixa de diâmetros",
      "valor": "5/16 a 3 1/2 in (7,94 a 88,9 mm)",
-     "item": "1.2"
+     "item": "1.2",
+     "cota": "esquemas/asme-ii-arame-diametro.svg#D"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-arame-diametro.svg"
    ]
   },
   {

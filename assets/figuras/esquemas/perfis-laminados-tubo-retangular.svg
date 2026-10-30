@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" width="760" height="600" role="img" aria-label="Tubo estrutural retangular / quadrado — HSS (AISC) — H, B, t">
+<title>Tubo estrutural retangular / quadrado — HSS (AISC) — H, B, t (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Tubo estrutural retangular / quadrado — HSS (AISC) — H, B, t</text>
+<rect class="s" x="170" y="110" width="260" height="360" rx="36"/>
+<rect class="w" x="192" y="132" width="216" height="316" rx="16"/>
+<line class="c" x1="130" y1="290" x2="470" y2="290"/><line class="c" x1="300" y1="70" x2="300" y2="510"/>
+<text x="474" y="295">x</text><text x="116" y="295">x</text><text x="306" y="80">y</text><text x="306" y="516">y</text>
+<g id="cota-H" class="cota"><line class="e" x1="167" y1="110" x2="104" y2="110"/><line class="e" x1="167" y1="470" x2="104" y2="470"/><line class="d" x1="110" y1="110" x2="110" y2="470" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="103" y="380">H</text></g>
+<g id="cota-B" class="cota"><line class="e" x1="170" y1="473" x2="170" y2="521"/><line class="e" x1="430" y1="473" x2="430" y2="521"/><line class="d" x1="170" y1="515" x2="430" y2="515" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="236" y="533">B</text></g>
+<g id="cota-t" class="cota"><line class="d" x1="382" y1="200" x2="408" y2="200" marker-end="url(#a)"/><line class="d" x1="456" y1="200" x2="430" y2="200" marker-end="url(#a)"/><line class="d" x1="408" y1="200" x2="430" y2="200"/><text x="462" y="196">t</text></g>
+<text class="n" x="530" y="300">HSS altura × largura × parede</text>
+<text class="n" x="530" y="318">(ex. HSS152.4X101.6X6.4)</text>
+<text class="n" x="530" y="342">tabela: t nominal e t de projeto</text>
+<text class="n" x="530" y="360">(tdes, usado nas propriedades)</text>
+<text class="n" x="20" y="588">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

@@ -10,8 +10,12 @@
     {
      "parametro": "Faixa",
      "valor": "M8 × 1 a M36 × 3 (d de 8 a 36 mm)",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg#d"
     }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg"
    ]
   },
   {
@@ -33,7 +37,8 @@
     {
      "parametro": "Classes — inox",
      "valor": "d < 24 mm: A2-70, A3-70, A4-70, A5-70; 24 ≤ d ≤ 36 mm: A4-50, A5-50",
-     "item": "Tab. 2"
+     "item": "Tab. 2",
+     "cota": "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg#d"
     },
     {
      "parametro": "Classes — aço",
@@ -46,6 +51,9 @@
      "valor": "ISO 4759-1, grau A",
      "item": "Tab. 2"
     }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg"
    ]
   },
   {

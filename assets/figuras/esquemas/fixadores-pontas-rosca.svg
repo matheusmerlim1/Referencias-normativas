@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-label="Fixadores — pontas, comprimento de rosca e parafuso auto-atarraxante">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 595" width="1000" height="595" role="img" aria-label="Fixadores — pontas, comprimento de rosca e parafuso auto-atarraxante">
 <title>Fixadores — pontas, comprimento de rosca e parafuso auto-atarraxante (esquema ilustrativo)</title>
 <text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Fixadores — pontas, comprimento de rosca e parafuso auto-atarraxante</text>
 <text x="170" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) ponta em pino (curto / longo)</text>
@@ -75,5 +75,22 @@
 <line x1="750" y1="298" x2="757" y2="332" stroke="#666" stroke-width="0.8"/>
 <g id="cota-y" class="cota"><line x1="710" y1="330" x2="710" y2="365" stroke="#666" stroke-width="1"/><line x1="770" y1="318" x2="770" y2="365" stroke="#666" stroke-width="1"/><line x1="710" y1="365" x2="770" y2="365" stroke="#666" stroke-width="1.2"/><polygon points="710.0,365.0 719.0,361.5 719.0,368.5" fill="#666"/><polygon points="770.0,365.0 761.0,368.5 761.0,361.5" fill="#666"/><text x="740.0" y="359" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">y (comprimento da ponta)</text></g>
 <g id="cota-d1" class="cota"><line x1="712" y1="300" x2="800" y2="300" stroke="#666" stroke-width="1"/><line x1="712" y1="330" x2="800" y2="330" stroke="#666" stroke-width="1"/><line x1="800" y1="300" x2="800" y2="330" stroke="#666" stroke-width="1.2"/><polygon points="800.0,300.0 803.5,309.0 796.5,309.0" fill="#666"/><polygon points="800.0,330.0 796.5,321.0 803.5,321.0" fill="#666"/><text x="807" y="319.0" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">d1 (Ø maior da rosca)</text></g>
-<text x="12" y="412" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+<text x="170" y="440" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(e) parafuso com ressalto</text>
+<rect x="40" y="465" width="30" height="60" fill="#666" fill-opacity="0.35" stroke="#666" stroke-width="1.5"/>
+<rect x="70" y="475" width="120" height="40" fill="#666" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<rect x="190" y="482" width="90" height="26" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="1.5"/>
+<line x1="200" y1="482" x2="206" y2="508" stroke="#666" stroke-width="0.8"/>
+<line x1="212" y1="482" x2="218" y2="508" stroke="#666" stroke-width="0.8"/>
+<line x1="224" y1="482" x2="230" y2="508" stroke="#666" stroke-width="0.8"/>
+<line x1="236" y1="482" x2="242" y2="508" stroke="#666" stroke-width="0.8"/>
+<line x1="248" y1="482" x2="254" y2="508" stroke="#666" stroke-width="0.8"/>
+<line x1="260" y1="482" x2="266" y2="508" stroke="#666" stroke-width="0.8"/>
+<line x1="272" y1="482" x2="278" y2="508" stroke="#666" stroke-width="0.8"/>
+<g id="cota-ressalto" class="cota"><line x1="170" y1="475" x2="170" y2="515" stroke="#666" stroke-width="1.2"/><polygon points="170.0,475.0 173.5,484.0 166.5,484.0" fill="#666"/><polygon points="170.0,515.0 166.5,506.0 173.5,506.0" fill="#666"/><text x="120" y="545" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Ø do ressalto</text></g>
+<text x="620" y="440" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(f) pino elástico (fendido)</text>
+<rect x="470" y="470" width="300" height="50" fill="#666" fill-opacity="0.2" stroke="#666" stroke-width="1.5"/>
+<line x1="470" y1="495" x2="770" y2="495" stroke="#666" stroke-width="1" stroke-dasharray="5 4"/>
+<text x="620" y="489" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">fenda longitudinal</text>
+<g id="cota-d-pino" class="cota"><line x1="770" y1="470" x2="790" y2="470" stroke="#666" stroke-width="1"/><line x1="770" y1="520" x2="790" y2="520" stroke="#666" stroke-width="1"/><line x1="790" y1="470" x2="790" y2="520" stroke="#666" stroke-width="1.2"/><polygon points="790.0,470.0 793.5,479.0 786.5,479.0" fill="#666"/><polygon points="790.0,520.0 786.5,511.0 793.5,511.0" fill="#666"/><text x="797" y="499.0" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">d (Ø do pino)</text></g>
+<text x="12" y="587" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
 </svg>

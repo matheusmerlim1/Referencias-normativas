@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Tubos de parede mínima, sem costura ou soldados automaticamente (sem metal de adição), de aço carbono e liga, para baixa temperatura (trocadores etc.). Requisitos gerais pela SA-1016."
+   "texto": "Tubos de parede mínima, sem costura ou soldados automaticamente (sem metal de adição), de aço carbono e liga, para baixa temperatura (trocadores etc.). Requisitos gerais pela SA-1016.",
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
+   ]
   },
   {
    "titulo": "Tratamento térmico",

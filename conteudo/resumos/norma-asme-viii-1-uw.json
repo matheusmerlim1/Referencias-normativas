@@ -16,13 +16,14 @@
    "item": "UW-11; UW-12",
    "texto": "Algumas soldas exigem radiografia total: serviço letal, espessuras grandes, caldeiras não queimadas e juntas para as quais se adota E de radiografia total. A eficiência de junta E cai conforme o tipo de junta e o grau de exame (total, por amostragem ou nenhum).",
    "valores": [
-    {"parametro": "RT total por espessura (regra geral)", "valor": "soldas de topo > 38 mm (1 1/2 in), ou o limite menor da parte do material (ex. UCS-57)", "item": "UW-11(a)"},
-    {"parametro": "Dispensa de RT em bocais e câmaras (juntas B e C)", "valor": "≤ NPS 10 e parede ≤ 29 mm (1 1/8 in)", "item": "UW-11(a)"},
+    {"parametro": "RT total por espessura (regra geral)", "valor": "soldas de topo > 38 mm (1 1/2 in), ou o limite menor da parte do material (ex. UCS-57)", "item": "UW-11(a)", "cota": "esquemas/vaso-pressao-asme-viii-casco-tampos.svg#t-casco"},
+    {"parametro": "Dispensa de RT em bocais e câmaras (juntas B e C)", "valor": "≤ NPS 10 e parede ≤ 29 mm (1 1/8 in)", "item": "UW-11(a)", "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"},
     {"parametro": "E — topo com dupla solda: total / spot / nenhuma", "valor": "1,00 / 0,85 / 0,70", "item": "Tabela UW-12"},
     {"parametro": "E — topo com mata-junta permanente", "valor": "0,90 / 0,80 / 0,65", "item": "Tabela UW-12"},
     {"parametro": "E — topo solda simples sem mata-junta (só circ. ≤ 5/8 in e Ø ≤ 24 in)", "valor": "0,60 (sem RT)", "item": "Tabela UW-12"},
     {"parametro": "E — sobreposta com filete duplo total", "valor": "0,55 (sem RT)", "item": "Tabela UW-12"}
-   ]
+   ],
+   "figuras": ["esquemas/vaso-pressao-asme-viii-casco-tampos.svg", "esquemas/tubulacao-processo-tubo-diametros-parede.svg"]
   },
   {
    "titulo": "Fabricação: alinhamento e reforço",

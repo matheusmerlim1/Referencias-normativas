@@ -10,13 +10,17 @@
     {
      "parametro": "Diâmetro externo do tubo",
      "valor": "4 a 42 mm",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/tubo-costura-dimensoes.svg#D"
     },
     {
      "parametro": "Temperatura (fluido à base de petróleo)",
      "valor": "−40 °C a +120 °C",
      "item": "1"
     }
+   ],
+   "figuras": [
+    "esquemas/tubo-costura-dimensoes.svg"
    ]
   },
   {

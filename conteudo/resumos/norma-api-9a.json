@@ -16,7 +16,8 @@
     {
      "parametro": "Comprimento de referência no ensaio de torção",
      "valor": "203 mm (8 in)",
-     "item": "4.5.4"
+     "item": "4.5.4",
+     "cota": "esquemas/cabo-arame-ensaio-torcao.svg#entre-garras"
     },
     {
      "parametro": "Correção de voltas para outra distância entre garras",
@@ -36,8 +37,13 @@
     {
      "parametro": "Soquete do corpo de prova de ruptura",
      "valor": "6,35 mm (1/4 in) maior que o Ø do cabo (recomendado)",
-     "item": "4.6.6"
+     "item": "4.6.6",
+     "cota": "esquemas/lingadas-acessorios-cabo-ensaio-ruptura.svg#soquete"
     }
+   ],
+   "figuras": [
+    "esquemas/cabo-arame-ensaio-torcao.svg",
+    "esquemas/lingadas-acessorios-cabo-ensaio-ruptura.svg"
    ]
   },
   {

@@ -10,14 +10,19 @@
     {
      "parametro": "Espessura mínima",
      "valor": "≥ 0,045 in [1,1 mm]",
-     "item": "1.2"
+     "item": "1.2",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#t"
     },
     {
      "parametro": "Diâmetro externo (mm)",
      "valor": "15,9 a 31,8 mm",
      "item": "1.2",
-     "nota": "o texto extraído traz '1/8 to 1 1/4 in' com [15,9 a 31,8 mm]; em polegadas, 15,9 mm = 5/8 in — conferir"
+     "nota": "o texto extraído traz '1/8 to 1 1/4 in' com [15,9 a 31,8 mm]; em polegadas, 15,9 mm = 5/8 in — conferir",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
    ]
   },
   {

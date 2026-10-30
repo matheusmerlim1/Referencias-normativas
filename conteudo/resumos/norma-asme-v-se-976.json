@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Procedimentos simples para testar ou comparar sensores de emissão acústica (detectar degradação, formar conjuntos semelhantes); não é calibração absoluta. Artigo normativo (padrão ASTM adotado) da ASME Seção V, aplicável quando o Código ou o pedido o invoca."
+   "texto": "Procedimentos simples para testar ou comparar sensores de emissão acústica (detectar degradação, formar conjuntos semelhantes); não é calibração absoluta. Artigo normativo (padrão ASTM adotado) da ASME Seção V, aplicável quando o Código ou o pedido o invoca.",
+   "figuras": [
+    "esquemas/end-metodos.svg"
+   ]
   }
  ]
 }

@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Tubos de aço carbono e liga ferrítico, parede nominal, sem costura ou soldados (sem metal de adição; com adição ver SA-671), para baixa temperatura. Paredes muito grossas podem não ser oferecidas por prejudicarem a tenacidade. Grau 4 só sem costura. Requisitos gerais pela SA-999."
+   "texto": "Tubos de aço carbono e liga ferrítico, parede nominal, sem costura ou soldados (sem metal de adição; com adição ver SA-671), para baixa temperatura. Paredes muito grossas podem não ser oferecidas por prejudicarem a tenacidade. Grau 4 só sem costura. Requisitos gerais pela SA-999.",
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
+   ]
   },
   {
    "titulo": "Tratamento térmico",

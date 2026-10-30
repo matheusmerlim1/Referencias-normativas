@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Regras comuns às especificações de fundidos de aço para partes sob pressão (SA-216, 217, 351, 352, 487 e outras): fusão, tratamento, química, tração, reparo por solda, qualidade, teste hidrostático, marcação e um grande conjunto de requisitos suplementares (END, Charpy, CE etc.)."
+   "texto": "Regras comuns às especificações de fundidos de aço para partes sob pressão (SA-216, 217, 351, 352, 487 e outras): fusão, tratamento, química, tração, reparo por solda, qualidade, teste hidrostático, marcação e um grande conjunto de requisitos suplementares (END, Charpy, CE etc.).",
+   "figuras": [
+    "esquemas/asme-ii-fundido.svg"
+   ]
   },
   {
    "titulo": "Fabricação e química",

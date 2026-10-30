@@ -11,8 +11,12 @@
      "parametro": "Faixa de diâmetro do ressalto",
      "valor": "6,5 a 25 mm",
      "item": "1",
-     "nota": "OCR '65 to 25' — conferir o menor valor"
+     "nota": "OCR '65 to 25' — conferir o menor valor",
+     "cota": "esquemas/fixadores-pontas-rosca.svg#ressalto"
     }
+   ],
+   "figuras": [
+    "esquemas/fixadores-pontas-rosca.svg"
    ]
   },
   {

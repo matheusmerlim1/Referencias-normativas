@@ -10,7 +10,8 @@
     {
      "parametro": "Diâmetro externo do tubo",
      "valor": "6 a 50 mm",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/tubo-costura-dimensoes.svg#D"
     },
     {
      "parametro": "Pressões de trabalho",
@@ -18,6 +19,9 @@
      "item": "Tab. 1",
      "nota": "valores não extraídos — conferir"
     }
+   ],
+   "figuras": [
+    "esquemas/tubo-costura-dimensoes.svg"
    ]
   },
   {

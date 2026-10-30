@@ -7,9 +7,10 @@
    "item": "1; 3; 5",
    "texto": "Porcas de aço carbono, liga e inox martensítico, e também de inox austenítico, para serviço de alta pressão, alta temperatura ou ambos. Graus com prefixo 8 ou 9 são austeníticos; os demais (1, 2, 2H, 2HM, 3, 4, 6, 7, 7M, 16) são ferríticos. Não se troca de grau sem autorização do comprador. Requisitos comuns vêm da A962; revestimento só se pedido. Corresponde à ASTM A194.",
    "valores": [
-    {"parametro": "Faixa — carbono, liga, martensítico", "valor": "1/4 a 4 in; M6 a M100", "item": "1.1"},
-    {"parametro": "Faixa — austenítico", "valor": "a partir de 1/4 in / M6", "item": "1.1"}
-   ]
+    {"parametro": "Faixa — carbono, liga, martensítico", "valor": "1/4 a 4 in; M6 a M100", "item": "1.1", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg#d"},
+    {"parametro": "Faixa — austenítico", "valor": "a partir de 1/4 in / M6", "item": "1.1", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg#d"}
+   ],
+   "figuras": ["esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg"]
   },
   {
    "titulo": "Tratamento térmico",

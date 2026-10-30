@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Barras, vergalhões e arames de alumínio e ligas, laminados ou acabados a frio (trefilados), nas ligas e têmperas da Tabela 1. Extrudados ficam na SB-221; tubos trefilados na SB-210. Ligas e têmperas pela ANSI H35.1 (têmpera O = recozido; H = encruado; T = tratado termicamente)."
+   "texto": "Barras, vergalhões e arames de alumínio e ligas, laminados ou acabados a frio (trefilados), nas ligas e têmperas da Tabela 1. Extrudados ficam na SB-221; tubos trefilados na SB-210. Ligas e têmperas pela ANSI H35.1 (têmpera O = recozido; H = encruado; T = tratado termicamente).",
+   "figuras": [
+    "esquemas/asme-ii-arame-diametro.svg"
+   ]
   },
   {
    "titulo": "Propriedades mecânicas",

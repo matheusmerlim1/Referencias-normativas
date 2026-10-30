@@ -77,7 +77,8 @@
     {
      "parametro": "Bocal ISA 1932 — diâmetro da tubulação",
      "valor": "50 mm ≤ D ≤ 500 mm",
-     "item": "9.1.6.1"
+     "item": "9.1.6.1",
+     "cota": "esquemas/orificio-placa-tomadas.svg#D"
     },
     {
      "parametro": "Bocal ISA 1932 — β e Reynolds",
@@ -96,6 +97,9 @@
      "item": "7.5.2.3",
      "nota": "conferir"
     }
+   ],
+   "figuras": [
+    "esquemas/orificio-placa-tomadas.svg"
    ]
   }
  ]

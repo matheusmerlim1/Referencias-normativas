@@ -10,18 +10,23 @@
     {
      "parametro": "Faixa de tamanhos",
      "valor": "NPS 2 a NPS 30, parede até 0,500 in (12,70 mm)",
-     "item": "1.1"
+     "item": "1.1",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     },
     {
      "parametro": "Faixa leve",
      "valor": "NPS 3/4 a NPS 5, parede 0,083 a 0,134 in (2,11 a 3,40 mm)",
-     "item": "1.1"
+     "item": "1.1",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     },
     {
      "parametro": "Expansão a frio máx.",
      "valor": "1,5 % do diâmetro externo",
      "item": "1.1"
     }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
    ]
   },
   {

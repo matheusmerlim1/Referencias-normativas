@@ -10,8 +10,12 @@
     {
      "parametro": "Espessura máx. usual",
      "valor": "8 in [200 mm]",
-     "item": "1.3"
+     "item": "1.3",
+     "cota": "esquemas/asme-ii-chapa-espessura.svg#t"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-chapa-espessura.svg"
    ]
   },
   {

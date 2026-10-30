@@ -10,13 +10,17 @@
     {
      "parametro": "Faixa de tamanhos",
      "valor": "15 mm (1/2 in) a 450 mm (18 in)",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/valvula-dimensoes.svg#dn"
     },
     {
      "parametro": "Classes",
      "valor": "900, 1500 e 2500",
      "item": "1"
     }
+   ],
+   "figuras": [
+    "esquemas/valvula-dimensoes.svg"
    ]
   }
  ]

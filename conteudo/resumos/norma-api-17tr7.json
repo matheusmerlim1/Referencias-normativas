@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Relatório técnico com requisitos de verificação por análise (estrutural, fadiga) e validação por ensaio de conectores submarinos de cabeça de poço e árvore de natal, com descrição dos tipos de conectores e requisitos de desempenho."
+   "texto": "Relatório técnico com requisitos de verificação por análise (estrutural, fadiga) e validação por ensaio de conectores submarinos de cabeça de poço e árvore de natal, com descrição dos tipos de conectores e requisitos de desempenho.",
+   "figuras": [
+    "esquemas/poco-bop-arvore.svg"
+   ]
   }
  ]
 }

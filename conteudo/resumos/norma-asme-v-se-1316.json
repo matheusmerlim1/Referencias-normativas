@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Define a terminologia usada nas normas do comitê E-7: emissão acústica, eletromagnético, radiologia, estanqueidade, líquido penetrante, partículas magnéticas, nêutrons, ultrassom e outros. Artigo normativo (padrão ASTM adotado) da ASME Seção V, aplicável quando o Código ou o pedido o invoca."
+   "texto": "Define a terminologia usada nas normas do comitê E-7: emissão acústica, eletromagnético, radiologia, estanqueidade, líquido penetrante, partículas magnéticas, nêutrons, ultrassom e outros. Artigo normativo (padrão ASTM adotado) da ASME Seção V, aplicável quando o Código ou o pedido o invoca.",
+   "figuras": [
+    "esquemas/end-metodos.svg"
+   ]
   }
  ]
 }

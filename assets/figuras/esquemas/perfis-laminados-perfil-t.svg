@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" width="760" height="600" role="img" aria-label="Perfil T — WT / MT / ST (AISC) — d, bf, tw, tf, k, y">
+<title>Perfil T — WT / MT / ST (AISC) — d, bf, tw, tf, k, y (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Perfil T — WT / MT / ST (AISC) — d, bf, tw, tf, k, y</text>
+<path class="s" d="M150,140 L450,140 L450,172 L332,172 A22,22 0 0 0 310,194 L310,470 L290,470 L290,194 A22,22 0 0 0 268,172 L150,172 z"/>
+<line class="c" x1="110" y1="236" x2="490" y2="236"/><line class="c" x1="300" y1="100" x2="300" y2="510"/>
+<text x="494" y="241">x</text><text x="96" y="241">x</text><text x="306" y="110">y</text><text x="306" y="516">y</text>
+<g id="cota-d" class="cota"><line class="e" x1="147" y1="140" x2="84" y2="140"/><line class="e" x1="287" y1="470" x2="84" y2="470"/><line class="d" x1="90" y1="140" x2="90" y2="470" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="83" y="380">d</text></g>
+<g id="cota-bf" class="cota"><line class="e" x1="150" y1="137" x2="150" y2="84"/><line class="e" x1="450" y1="137" x2="450" y2="84"/><line class="d" x1="150" y1="90" x2="450" y2="90" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="230" y="82">bf</text></g>
+<g id="cota-tw" class="cota"><line class="d" x1="264" y1="420" x2="290" y2="420" marker-end="url(#a)"/><line class="d" x1="336" y1="420" x2="310" y2="420" marker-end="url(#a)"/><line class="d" x1="290" y1="420" x2="310" y2="420"/><text x="346" y="416">tw</text></g>
+<g id="cota-tf" class="cota"><line class="e" x1="453" y1="140" x2="506" y2="140"/><line class="e" x1="453" y1="172" x2="506" y2="172"/><line class="d" x1="500" y1="114" x2="500" y2="140" marker-end="url(#a)"/><line class="d" x1="500" y1="198" x2="500" y2="172" marker-end="url(#a)"/><line class="d" x1="500" y1="140" x2="500" y2="172"/><text x="510" y="162">tf</text></g>
+<g id="cota-k" class="cota"><line class="e" x1="135" y1="194" x2="287" y2="194"/><line class="d" x1="140" y1="140" x2="140" y2="194" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="133" y="176">k</text></g>
+<g id="cota-y" class="cota"><line class="e" x1="453" y1="236" x2="556" y2="236"/><line class="e" x1="509" y1="140" x2="556" y2="140"/><line class="d" x1="550" y1="140" x2="550" y2="236" marker-start="url(#a)" marker-end="url(#a)"/><text x="558" y="195">y</text></g>
+<text class="n" x="580" y="300">T = metade de um W, M ou S</text>
+<text class="n" x="580" y="318">(WT, MT, ST)</text>
+<text class="n" x="580" y="342">y = face externa da mesa</text>
+<text class="n" x="580" y="360">ao centroide (eixo x–x)</text>
+<text class="n" x="20" y="588">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="Ensaio de torção do arame — distância entre garras">
+<title>Ensaio de torção do arame — distância entre garras (esquema ilustrativo)</title>
+<style>
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Ensaio de torção do arame — distância entre garras</text>
+<rect x="100" y="120" width="80" height="60" fill="url(#hach)" stroke="#666" stroke-width="1.5"/>
+<rect x="720" y="120" width="80" height="60" fill="url(#hach)" stroke="#666" stroke-width="1.5"/>
+<text class="n m" x="140" y="200">garra fixa</text>
+<text class="n m" x="760" y="200">garra giratória</text>
+<line x1="120" y1="150" x2="780" y2="150" stroke="#666" stroke-width="5"/>
+<line class="h" x1="180" y1="150" x2="720" y2="150"/>
+<path class="d" d="M735,112 A32,14 0 0,1 785,112" marker-end="url(#a)"/>
+<text class="n m" x="760" y="91">giro</text>
+<line class="d" x1="800" y1="150" x2="860" y2="150" marker-end="url(#a)"/>
+<text class="n m" x="836" y="140">tração</text>
+<g id="cota-entre-garras" class="cota"><line class="e" x1="180" y1="117" x2="180" y2="80"/><line class="e" x1="720" y1="117" x2="720" y2="80"/><line class="d" x1="180" y1="90" x2="720" y2="90" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="450" y="80">distância entre garras (comprimento de referência)</text></g>
+<text class="n" x="20" y="288">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

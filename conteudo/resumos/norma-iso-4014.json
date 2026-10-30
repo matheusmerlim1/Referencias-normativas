@@ -15,13 +15,18 @@
     {
      "parametro": "Grau de produto A",
      "valor": "M1,6 a M24 e comprimento ≤ 10d ou 150 mm (o menor)",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg#l"
     },
     {
      "parametro": "Grau de produto B",
      "valor": "acima de M24 ou comprimento > 10d ou 150 mm",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg#l"
     }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-parafuso-sextavado-iso.svg"
    ]
   },
   {

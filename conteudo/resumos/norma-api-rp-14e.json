@@ -146,18 +146,24 @@
     {
      "parametro": "Solda de topo — hidrocarboneto",
      "valor": "Ø ≥ 2 in",
-     "item": "2.7"
+     "item": "2.7",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     },
     {
      "parametro": "Solda de topo — utilidades pressurizadas",
      "valor": "Ø ≥ 3 in",
-     "item": "2.7"
+     "item": "2.7",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     },
     {
      "parametro": "Encaixe soldado obrigatório (Ø ≤ 1½ in)",
      "valor": "acima de classe 600, acima de 200 °F, com vibração ou glicol",
-     "item": "2.7"
+     "item": "2.7",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
    ]
   },
   {

@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Procedimento para ensaiar, medir e relatar o ruído aerodinâmico gerado por uma válvula de controle e sua tubulação associada."
+   "texto": "Procedimento para ensaiar, medir e relatar o ruído aerodinâmico gerado por uma válvula de controle e sua tubulação associada.",
+   "figuras": [
+    "esquemas/valvula-dimensoes.svg"
+   ]
   }
  ]
 }

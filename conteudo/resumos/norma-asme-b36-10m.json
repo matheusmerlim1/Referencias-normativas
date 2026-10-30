@@ -10,7 +10,8 @@
     {"parametro": "Faixa coberta", "valor": "NPS 1/8 a NPS 80 (DN 6 a 2000)", "item": "1; Tabela 1"},
     {"parametro": "Diâmetro externo = número nominal", "valor": "a partir de NPS 14 (DN 350)", "item": "2"},
     {"parametro": "Exemplo — NPS 6: Ø externo / STD (= Sch 40)", "valor": "168,3 mm / 7,11 mm", "item": "Tabela 1", "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"}
-   ]
+   ],
+   "figuras": ["esquemas/tubulacao-processo-tubo-diametros-parede.svg"]
   },
   {
    "titulo": "Massa do tubo",

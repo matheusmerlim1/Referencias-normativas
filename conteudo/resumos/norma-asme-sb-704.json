@@ -10,8 +10,12 @@
     {
      "parametro": "Faixa",
      "valor": "1/8 a 5 in (3,18 a 127 mm) DE",
-     "item": "1.2"
+     "item": "1.2",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
    ]
   },
   {

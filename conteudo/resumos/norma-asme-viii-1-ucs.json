@@ -16,10 +16,11 @@
    "texto": "Além da UW-11, juntas de topo de aço carbono e baixa liga exigem radiografia total acima de uma espessura que depende do P-No.",
    "valores": [
     {"parametro": "P-No. 1 (grupos 1–3)", "valor": "> 32 mm (1 1/4 in)", "item": "Tabela UCS-57", "cota": "esquemas/vaso-pressao-asme-viii-desalinhamento-reforco.svg#t"},
-    {"parametro": "P-No. 3 / 10A / 10F", "valor": "> 19 mm (3/4 in)", "item": "Tabela UCS-57"},
-    {"parametro": "P-No. 4 / 9A, 9B / 10B, 10C", "valor": "> 16 mm (5/8 in)", "item": "Tabela UCS-57"},
+    {"parametro": "P-No. 3 / 10A / 10F", "valor": "> 19 mm (3/4 in)", "item": "Tabela UCS-57", "cota": "esquemas/vaso-pressao-asme-viii-casco-tampos.svg#t-casco"},
+    {"parametro": "P-No. 4 / 9A, 9B / 10B, 10C", "valor": "> 16 mm (5/8 in)", "item": "Tabela UCS-57", "cota": "esquemas/vaso-pressao-asme-viii-casco-tampos.svg#t-casco"},
     {"parametro": "P-No. 5A, 5B", "valor": "qualquer espessura", "item": "Tabela UCS-57"}
-   ]
+   ],
+   "figuras": ["esquemas/vaso-pressao-asme-viii-casco-tampos.svg"]
   },
   {
    "titulo": "Tratamento térmico após soldagem",
@@ -49,12 +50,13 @@
    "texto": "Peças conformadas a frio com alongamento de fibra alto precisam de tratamento térmico se houver condição agravante: serviço letal, material com ensaio de impacto, chapa grossa, grande redução de espessura ou conformação em temperatura intermediária.",
    "valores": [
     {"parametro": "Alongamento de fibra que pode exigir TT", "valor": "> 5 % do estado laminado", "item": "UCS-79(d)"},
-    {"parametro": "Espessura antes da conformação (agravante)", "valor": "> 16 mm (5/8 in)", "item": "UCS-79(d)(3)"},
+    {"parametro": "Espessura antes da conformação (agravante)", "valor": "> 16 mm (5/8 in)", "item": "UCS-79(d)(3)", "cota": "esquemas/asme-ii-chapa-espessura.svg#t"},
     {"parametro": "Redução de espessura pela conformação (agravante)", "valor": "> 10 %", "item": "UCS-79(d)(4)"},
     {"parametro": "Temperatura de conformação (agravante)", "valor": "121 a 482 °C (250 a 900 °F)", "item": "UCS-79(d)(5)"},
     {"parametro": "P-No. 1 grupos 1 e 2 sem nenhum agravante", "valor": "alongamento de fibra até 40 % sem TT", "item": "UCS-79(d)"},
     {"parametro": "Alongamento de fibra — dupla curvatura / curvatura simples", "valor": "75·t/Rf·(1 − Rf/Ro) / 50·t/Rf·(1 − Rf/Ro) (%)", "item": "UCS-79(d)"}
-   ]
+   ],
+   "figuras": ["esquemas/asme-ii-chapa-espessura.svg"]
   }
  ]
 }

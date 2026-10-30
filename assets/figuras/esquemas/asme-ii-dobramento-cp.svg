@@ -28,7 +28,8 @@
 <line class="d" x1="210" y1="60" x2="210" y2="90" marker-end="url(#a)"/><text class="b" x="218" y="78">F</text>
 <rect class="s" x="60" y="150" width="300" height="26"/>
 <circle class="sl" cx="110" cy="190" r="14"/><circle class="sl" cx="310" cy="190" r="14"/>
-<line class="e" x1="362" y1="150" x2="392" y2="150"/><line class="e" x1="362" y1="176" x2="392" y2="176"/><line class="d" x1="386" y1="126" x2="386" y2="150" marker-end="url(#a)"/><line class="d" x1="386" y1="200" x2="386" y2="176" marker-end="url(#a)"/><text x="396" y="168">t</text>
+<g id="cota-t" class="cota"><line class="e" x1="362" y1="150" x2="392" y2="150"/><line class="e" x1="362" y1="176" x2="392" y2="176"/><line class="d" x1="386" y1="126" x2="386" y2="150" marker-end="url(#a)"/><line class="d" x1="386" y1="200" x2="386" y2="176" marker-end="url(#a)"/><text x="396" y="168">t</text></g>
+<text class="n" x="396" y="186">(no dobramento lateral:</text><text class="n" x="396" y="201">largura do CP)</text>
 <text class="n" x="60" y="240">apoios</text>
 
 <text class="n b" x="500" y="70">dobrado sobre o mandril</text>

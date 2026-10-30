@@ -10,13 +10,18 @@
     {
      "parametro": "Diâmetro externo máx.",
      "valor": "3 1/8 in (79,4 mm)",
-     "item": "1.1"
+     "item": "1.1",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     },
     {
      "parametro": "Espessura de parede",
      "valor": "0,017 a 0,120 in (0,432 a 3,04 mm)",
-     "item": "1.1"
+     "item": "1.1",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#t"
     }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
    ]
   }
  ]

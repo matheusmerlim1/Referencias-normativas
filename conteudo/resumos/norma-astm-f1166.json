@@ -45,9 +45,9 @@
     {"parametro": "Altura do corrimão", "valor": "914 a 991 mm (preferido 940 mm)", "item": "11.2.11.1", "cota": "esquemas/escada-degraus-corrimao.svg#a"},
     {"parametro": "Ø do corrimão", "valor": "38 mm nominal, seção circular", "item": "11.2.11", "cota": "esquemas/escada-degraus-corrimao.svg#diametro"},
     {"parametro": "Folga atrás do corrimão", "valor": "≥ 75 mm", "item": "11.2.11.1 (3)", "cota": "esquemas/escada-degraus-corrimao.svg#folga"},
-    {"parametro": "Escada helicoidal", "valor": "só em tanque/estrutura redonda com Ø > 2,44 m", "item": "11.2.13.1"}
+    {"parametro": "Escada helicoidal", "valor": "só em tanque/estrutura redonda com Ø > 2,44 m", "item": "11.2.13.1", "cota": "esquemas/nr-13-caldeiras-vasos-tanque-abrangido.svg#D-tanque"}
    ],
-   "figuras": ["esquemas/escada-degraus-lance-patamar.svg"]
+   "figuras": ["esquemas/escada-degraus-lance-patamar.svg", "esquemas/nr-13-caldeiras-vasos-tanque-abrangido.svg"]
   },
   {
    "titulo": "Rampas",

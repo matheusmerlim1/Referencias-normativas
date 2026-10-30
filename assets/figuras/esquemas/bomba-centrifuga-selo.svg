@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 370" width="840" height="370" role="img" aria-label="Bomba centrífuga — carcaça, rotor, selo, mancais e acoplamento">
+<title>Bomba centrífuga — carcaça, rotor, selo, mancais e acoplamento (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Bomba centrífuga — carcaça, rotor, selo, mancais e acoplamento</text>
+<circle class="s" cx="200" cy="200" r="95"/><circle class="w" cx="200" cy="200" r="55"/>
+<path class="g" d="M200,200 L240,170 M200,200 L230,245 M200,200 L150,215 M200,200 L170,155"/>
+<text class="n" x="110" y="330">carcaça (voluta) com rotor interno</text>
+<rect class="s" x="185" y="70" width="30" height="40"/><text class="n" x="222" y="88">descarga</text>
+<rect class="s" x="60" y="185" width="45" height="30"/><text class="n" x="40" y="176">sucção</text>
+<line class="g" x1="295" y1="200" x2="700" y2="200"/>
+<rect class="r" x="310" y="178" width="40" height="44"/><text class="n m" x="330" y="160">selo mecânico</text>
+<rect class="s" x="400" y="170" width="120" height="60"/><text class="n m" x="460" y="255">mancais</text>
+<rect class="sl" x="560" y="182" width="30" height="36"/><text class="n m" x="575" y="168">acoplamento</text>
+<rect class="s" x="620" y="150" width="170" height="100" rx="10"/><text class="n m" x="705" y="275">acionador (motor)</text>
+<text class="n" x="20" y="358">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

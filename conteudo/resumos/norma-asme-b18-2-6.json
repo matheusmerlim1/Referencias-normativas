@@ -7,8 +7,9 @@
    "item": "1.1",
    "texto": "Dá as dimensões gerais de cinco produtos de ligação estrutural em polegadas: parafuso sextavado pesado (A325, A490), porca sextavada pesada (A563, A194), arruela endurecida circular, recortada e chanfrada (F436), indicador de tração por compressão (F959) e parafuso de controle de tração por ruptura (F1852, F2280). Estar listado não significa que o tamanho seja de estoque. Tabelas por diâmetro (1/2 a 1 1/2 in) na ficha parafusos-porcas-arruelas.",
    "valores": [
-    {"parametro": "Faixa de diâmetros", "valor": "1/2 a 1 1/2 in", "item": "Tabelas 1, 3–5"}
-   ]
+    {"parametro": "Faixa de diâmetros", "valor": "1/2 a 1 1/2 in", "item": "Tabelas 1, 3–5", "cota": "esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg#E"}
+   ],
+   "figuras": ["esquemas/parafusos-porcas-arruelas-parafuso-estrutural-b18-2-6.svg"]
   },
   {
    "titulo": "Parafuso sextavado pesado",

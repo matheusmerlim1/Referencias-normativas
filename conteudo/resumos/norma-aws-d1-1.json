@@ -7,9 +7,10 @@
    "item": "1.1; 1.4",
    "texto": "Regras para fabricar e montar estruturas de aço soldadas. Quando o contrato cita o código, tudo nele passa a valer, salvo o que o Engenheiro dispensar. Foi pensado para aços carbono e baixa liga a partir de uma espessura mínima e até um limite de escoamento. Fora disso, o Engenheiro avalia e ajusta os requisitos no contrato. Os capítulos tratam de projeto, pré-qualificação, qualificação, fabricação, inspeção, pinos soldados, estruturas tubulares e reforço de estruturas existentes.",
    "valores": [
-    {"parametro": "Espessura mínima coberta", "valor": "3 mm (1/8 in)", "item": "1.4"},
+    {"parametro": "Espessura mínima coberta", "valor": "3 mm (1/8 in)", "item": "1.4", "cota": "esquemas/asme-ii-chapa-espessura.svg#t"},
     {"parametro": "Escoamento mínimo especificado máximo", "valor": "690 MPa (100 ksi)", "item": "1.4"}
-   ]
+   ],
+   "figuras": ["esquemas/asme-ii-chapa-espessura.svg"]
   },
   {
    "titulo": "Projeto de ligações soldadas",

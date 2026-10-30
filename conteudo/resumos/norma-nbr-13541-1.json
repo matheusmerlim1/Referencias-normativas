@@ -5,7 +5,7 @@
   {"titulo": "Escopo", "item": "1",
    "texto": "Requisitos mínimos de fabricação, cálculo da carga máxima de trabalho (CMT), verificação, certificação e marcação de lingas de cabo de aço para içamento geral: uma a quatro pernas, olhais com presilha ou trançados (tipos 1 a 4) e laços sem fim, cabos de 6 ou 8 pernas de 8 mm a 83 mm. Uso e inspeção estão na Parte 2.",
    "valores": [
-    {"parametro": "Faixa de diâmetros", "valor": "8 mm a 83 mm (cabos de 6 ou 8 pernas)", "item": "1"}
+    {"parametro": "Faixa de diâmetros", "valor": "8 mm a 83 mm (cabos de 6 ou 8 pernas)", "item": "1", "cota": "esquemas/lingadas-acessorios-cabo-raio-dobra.svg#d"}
    ]},
   {"titulo": "Definições", "item": "3",
    "texto": "CMT: massa máxima que a linga pode sustentar em serviço geral. Comprimento da linga: entre os pontos de apoio dos olhais. Método forca: a linga envolve a peça e um olhal passa pelo próprio corpo da linga; método cesta: a linga envolve a peça e os dois olhais vão ao equipamento. Anel de carga principal (no gancho) e intermediário (une pernas ao principal). Linga assimétrica: pernas de comprimentos diferentes.",

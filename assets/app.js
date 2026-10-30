@@ -165,6 +165,8 @@
 
   // ---------- utilidades ----------
   const semAcento = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  // nome de linha de tabela sem espaços: "W 100 x 19,0" = "w100x19" (×/* = x, vírgula = ponto, ",0" final some)
+  const compacto = s => semAcento(s).replace(/\s+/g, "").replace(/[×*]/g, "x").replace(/,/g, ".").replace(/\.0+(?=x|$)/g, "");
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const fmt = (n, d = 0) => Number(n).toLocaleString("pt-BR", { minimumFractionDigits: d, maximumFractionDigits: d });
   const ordemNatural = (a, b) => String(a).localeCompare(String(b), "pt", { numeric: true, sensitivity: "base" });
@@ -359,13 +361,26 @@
   // textos normalizados guardados na 1ª busca (não recalcular a cada tecla)
   const TXT = new WeakMap();
   const txtReq = r => { let t = TXT.get(r); if (t == null) TXT.set(r, t = textoReq(r)); return t; };
+  const txtLinha = l => { let t = TXT.get(l); if (t == null) TXT.set(l, t = l.filter(v => typeof v === "string").map(compacto).join(" ")); return t; };
+  /** Linhas das tabelas de consulta cujo nome contém a consulta sem espaços ("W 100 x 19" → W100X19.3): [{f, t, l}], nome que começa com ela primeiro. */
+  function buscarLinhas(q) {
+    const qc = compacto(q);
+    if (qc.length < 3 || !/\d/.test(qc)) return [];
+    const out = [];
+    for (const f of D.fichas) {
+      if (f.calculadora !== "consulta-tabela") continue;
+      for (const t of f.tabelas || []) if (t.consulta !== false) for (const l of t.linhas) if (txtLinha(l).includes(qc)) out.push({ f, t, l });
+    }
+    const inicio = x => x.l.some(v => typeof v === "string" && compacto(v).startsWith(qc)) ? 0 : 1;
+    return out.sort((a, b) => inicio(a) - inicio(b));
+  }
   function txtFicha(f) {
     let t = TXT.get(f);
     if (!t) TXT.set(f, t = {
       titulo: semAcento(f.titulo + (f.norma ? " " + f.norma : "")),
       chaves: semAcento((f.palavras_chave || []).concat((f.tabelas || []).map(x => x.titulo), (f.definicoes || []).map(d => d.termo),
         // consulta-tabela: nomes das linhas sem espaços (ex. "w100x19.3 w4x13", "heb100") para achar o perfil pela busca geral
-        f.calculadora === "consulta-tabela" ? (f.tabelas || []).flatMap(t => t.linhas.map(l => l.filter(v => typeof v === "string").map(v => v.replace(/\s+/g, "").replace(/,/g, ".")).join(" "))) : []).join(" | ")),
+        f.calculadora === "consulta-tabela" ? (f.tabelas || []).flatMap(t => t.linhas.map(txtLinha)) : []).join(" | ")),
       resumo: semAcento([f.resumo, f.categoria, f.assunto, f.escopo].join(" ")),
     });
     return t;
@@ -874,6 +889,16 @@
         <span class="ref">${esc(e.orgao)}${e.assunto && e.assunto !== "Sem assunto" ? ` · ${esc(e.assunto)}` : ""}${achados.length ? ` · ${achados.length} achado${achados.length > 1 ? "s" : ""}: ` + achados.slice(0, 3).map(r =>
           marcar(esc(r.parametro.length > 90 ? r.parametro.slice(0, 89) + "…" : r.parametro), termos)).join(" · ") : ""}</span></li>`).join("")}</ul>
       ${normas.length > estadoBusca.limiteNormas ? `<p><button type="button" class="botao" id="mais-normas">Mostrar mais ${Math.min(30, normas.length - estadoBusca.limiteNormas)} de ${normas.length - estadoBusca.limiteNormas}</button></p>` : ""}</div>` : "";
+    const linhas = buscarLinhas(q);
+    const LIM_LINHAS = 15;
+    const blocoLinhas = linhas.length ? `<div class="cartao resultado"><h3>Perfis e linhas de tabela (${linhas.length})</h3>
+      <ul class="achados">${linhas.slice(0, LIM_LINHAS).map(({ f, t, l }) => {
+        const nums = t.colunas.map((c, k) => [c, l[k]]).filter(([, v], k) => k && typeof v === "number").slice(0, 4);
+        return `<li><span><a href="#/ficha/${f.id}?q=${encodeURIComponent(l[0])}"><b>${esc(l[0])}</b></a>${typeof l[1] === "string" ? ` <span class="meta">(${esc(l[1])})</span>` : ""}</span>
+          <span class="v">${nums.map(([c, v]) => `${esc(c)}: ${esc(v)}`).join(" · ")}</span>
+          <span class="ref">${esc(Object.values(t.chave || {}).join(" · ") || t.titulo)} · ${esc(f.titulo)}</span></li>`;
+      }).join("")}</ul>
+      ${linhas.length > LIM_LINHAS ? `<p class="meta"><a href="#/ficha/${linhas[0].f.id}?q=${qs}">+ ${linhas.length - LIM_LINHAS} na Consulta rápida da ficha →</a></p>` : ""}</div>` : "";
     const blocoFichas = res.map(({ f, achados }) => {
       const mostrar = achados.slice(0, 6);
       return `<div class="cartao resultado">
@@ -890,7 +915,7 @@
       : `<div class="cartao vazio">Nenhuma ficha temática para <b>${esc(q)}</b>${normas.length ? ` — veja as ${normas.length} norma(s) abaixo` : ""}.</div>`;
     // consulta que é um código de norma (ex. "B16.5", "NBR 5410"): normas antes das fichas temáticas
     const codigoPrimeiro = normas.length && normas[0].noCodigo && /\d/.test(q);
-    app.innerHTML = cab + (codigoPrimeiro ? blocoNormas + blocoFichas : blocoFichas + blocoNormas)
+    app.innerHTML = cab + blocoLinhas + (codigoPrimeiro ? blocoNormas + blocoFichas : blocoFichas + blocoNormas)
       + listaIndice(indice, termos, res.length ? 10 : 25) + (docs.length ? listaDocs(docs, termos, res.length ? 15 : 40) : "")
       + (temBuscaTexto() ? `<div class="cartao resultado bloco-texto-busca" id="busca-txt"><h3>No texto completo das normas</h3><p class="meta">Procurando no texto das normas…</p></div>` : "");
     const bt = document.getElementById("busca-txt");
@@ -1053,9 +1078,9 @@
       const secsAchado = rs ? (rs.secoes || []).map((s, i) => [s, i]).filter(([s]) => termos.some(alt => contem(txtSecao(s), alt))).map(([, i]) => i) : [];
       if (secsAchado.length) est.resAbertos = new Set(secsAchado);
       // consulta-tabela e a busca é o nome de uma linha (ex. "W4x13", "HEB 200"): abrir direto na Consulta rápida
-      const qc = semAcento(q).replace(/\s+/g, "").replace(/[×*]/g, "x").replace(/,/g, ".");
+      const qc = compacto(q);
       const nomeDeLinha = f.calculadora === "consulta-tabela" && /\d/.test(qc) && (f.tabelas || []).some(t => t.consulta !== false &&
-        t.linhas.some(l => l.some(v => typeof v === "string" && semAcento(v).replace(/\s+/g, "").replace(/,/g, ".").includes(qc))));
+        t.linhas.some(l => txtLinha(l).includes(qc)));
       if (nomeDeLinha) est.aba = "calc";
       else if (comAchado.length || !ehNorma) { est.aba = "req"; est.abertos = new Set(comAchado.map(g => g.id)); }
       else if (secsAchado.length) est.aba = "res";
@@ -1927,8 +1952,7 @@
       .sort((a, b) => String(a).localeCompare(String(b), "pt", { numeric: true }));
     const rotulo = k => cfg.rotulos?.[k] || k;
     // busca por nome ou medida em todas as tabelas (ignora os filtros): "w100x19" acha W100X19.3; "100" acha toda linha
-    // com alguma medida 100 (ou 100,x); nomes comparados sem espaços, "×"/"*" = "x", vírgula = ponto, "19,0" = "19"
-    const compacto = s => semAcento(s).replace(/\s+/g, "").replace(/[×*]/g, "x").replace(/,/g, ".").replace(/\.0+(?=x|$)/g, "");
+    // com alguma medida 100 (ou 100,x); nomes comparados com compacto()
     const termoBusca = qb => { const termo = compacto(qb); return { termo, n: /^\d+(\.\d+)?$/.test(termo) ? Number(termo) : null }; };
     // 3 = no nome/texto da célula; 2 = medida igual; 1 = mesma parte inteira (só se o termo não tem decimal)
     const nivelCel = (v, { termo, n }) => typeof v === "string" ? (compacto(v).includes(termo) ? 3 : 0)

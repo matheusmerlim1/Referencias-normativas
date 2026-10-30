@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Peças fundidas para válvulas, flanges, conexões e outras partes sob pressão em baixa temperatura: graus ferríticos (LCA, LCB, LCC — carbono/C-Mn; LC1 — C-Mo; LC2, LC2-1, LC3, LC4, LC9 — ao níquel) e um martensítico (CA6NM). A temperatura indicada para cada grau é a mais baixa em que normalmente atende ao Charpy. Requisitos gerais pela SA-703."
+   "texto": "Peças fundidas para válvulas, flanges, conexões e outras partes sob pressão em baixa temperatura: graus ferríticos (LCA, LCB, LCC — carbono/C-Mn; LC1 — C-Mo; LC2, LC2-1, LC3, LC4, LC9 — ao níquel) e um martensítico (CA6NM). A temperatura indicada para cada grau é a mais baixa em que normalmente atende ao Charpy. Requisitos gerais pela SA-703.",
+   "figuras": [
+    "esquemas/asme-ii-fundido.svg"
+   ]
   },
   {
    "titulo": "Tratamento térmico",

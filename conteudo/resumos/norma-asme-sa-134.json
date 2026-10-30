@@ -10,8 +10,12 @@
     {
      "parametro": "Espessura máx. de parede",
      "valor": "3/4 in (19,0 mm)",
-     "item": "1.1"
+     "item": "1.1",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#t"
     }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
    ]
   },
   {

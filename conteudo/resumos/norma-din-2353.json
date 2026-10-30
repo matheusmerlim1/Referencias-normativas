@@ -10,8 +10,12 @@
     {
      "parametro": "Diâmetro externo do tubo",
      "valor": "4 a 42 mm",
-     "item": "Capa"
+     "item": "Capa",
+     "cota": "esquemas/tubo-costura-dimensoes.svg#D"
     }
+   ],
+   "figuras": [
+    "esquemas/tubo-costura-dimensoes.svg"
    ]
   },
   {

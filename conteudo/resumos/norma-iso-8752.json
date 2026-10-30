@@ -10,8 +10,12 @@
     {
      "parametro": "Faixa",
      "valor": "d = 1 a 50 mm",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/fixadores-pontas-rosca.svg#d-pino"
     }
+   ],
+   "figuras": [
+    "esquemas/fixadores-pontas-rosca.svg"
    ]
   },
   {

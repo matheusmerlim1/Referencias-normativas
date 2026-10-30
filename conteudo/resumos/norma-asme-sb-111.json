@@ -10,8 +10,12 @@
     {
      "parametro": "Diâmetro máx.",
      "valor": "3 1/8 in (80 mm)",
-     "item": "1.1"
+     "item": "1.1",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
    ]
   },
   {

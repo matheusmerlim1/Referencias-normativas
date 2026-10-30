@@ -10,8 +10,12 @@
     {
      "parametro": "Diâmetro mínimo",
      "valor": "3,0 in [76 mm]",
-     "item": "3.1"
+     "item": "3.1",
+     "cota": "esquemas/asme-ii-arame-diametro.svg#D"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-arame-diametro.svg"
    ]
   },
   {

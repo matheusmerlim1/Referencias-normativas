@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Requisitos e método para avaliar o desempenho de válvulas expostas a fogo definido: ensaio de tipo que confirma a capacidade de contenção de pressão de válvulas de 1/4 de volta e de válvulas com sede não metálica durante e após o fogo."
+   "texto": "Requisitos e método para avaliar o desempenho de válvulas expostas a fogo definido: ensaio de tipo que confirma a capacidade de contenção de pressão de válvulas de 1/4 de volta e de válvulas com sede não metálica durante e após o fogo.",
+   "figuras": [
+    "esquemas/valvula-dimensoes.svg"
+   ]
   },
   {
    "titulo": "Ensaio de fogo",

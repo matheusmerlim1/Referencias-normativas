@@ -10,8 +10,12 @@
     {
      "parametro": "Espessura mínima da chapa",
      "valor": "1 in [25 mm]",
-     "item": "1.1"
+     "item": "1.1",
+     "cota": "esquemas/asme-ii-chapa-espessura.svg#t"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-chapa-espessura.svg"
    ]
   },
   {

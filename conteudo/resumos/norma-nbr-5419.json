@@ -13,7 +13,7 @@
     {"parametro": "Ângulo Franklin, h ≤ 20 m — I / II / III / IV", "valor": "25° / 35° / 45° / 55°", "item": "Tab. 1", "cota": "esquemas/spda-captacao-descidas.svg#angulo-protecao"},
     {"parametro": "Ângulo Franklin, h 21–30 m — II / III / IV", "valor": "25° / 35° / 45°", "item": "Tab. 1", "nota": "nível I só eletrogeométrico ou malha", "cota": "esquemas/spda-captacao-descidas.svg#angulo-protecao"},
     {"parametro": "Ângulo Franklin, h 31–45 m — III / IV; h 46–60 m — IV", "valor": "25° / 35°; 25°", "item": "Tab. 1", "nota": "acima de 60 m só esfera rolante/malha", "cota": "esquemas/spda-captacao-descidas.svg#angulo-protecao"},
-    {"parametro": "Espessura mínima de cobertura metálica usada como captor", "valor": "0,5 mm (ou Tab. 4 para evitar perfuração)", "item": "5.1.1.4.2 a)"}
+    {"parametro": "Espessura mínima de cobertura metálica usada como captor", "valor": "0,5 mm (ou Tab. 4 para evitar perfuração)", "item": "5.1.1.4.2 a)", "cota": "esquemas/chapa-fita-dimensoes.svg#espessura"}
    ],
    "figuras": ["esquemas/spda-captacao-descidas.svg"]},
   {"titulo": "Descidas", "item": "5.1.2",

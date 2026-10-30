@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Metodologia de análise de projeto e requisitos para a verificação de projeto de certos produtos e equipamentos que contêm pressão na indústria de petróleo e gás natural, baseada na análise de tensões por elementos finitos ou analítica com critérios de classificação de tensões."
+   "texto": "Metodologia de análise de projeto e requisitos para a verificação de projeto de certos produtos e equipamentos que contêm pressão na indústria de petróleo e gás natural, baseada na análise de tensões por elementos finitos ou analítica com critérios de classificação de tensões.",
+   "figuras": [
+    "esquemas/vaso-pressao-asme-viii-casco-tampos.svg"
+   ]
   }
  ]
 }

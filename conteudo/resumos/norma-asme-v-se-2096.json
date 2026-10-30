@@ -10,13 +10,18 @@
     {
      "parametro": "Diâmetro externo dos tubos",
      "valor": "0,500 a 2,000 in (12,70 a 50,80 mm)",
-     "item": "1.2"
+     "item": "1.2",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     },
     {
      "parametro": "Espessura de parede",
      "valor": "0,028 a 0,134 in (0,71 a 3,40 mm)",
-     "item": "1.2"
+     "item": "1.2",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#t"
     }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
    ]
   }
  ]

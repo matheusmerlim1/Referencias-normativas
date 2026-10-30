@@ -774,7 +774,8 @@
     {
      "parametro": "Graus de proteção IP — 1º dígito 1/2/3/4",
      "valor": "objetos sólidos > 50 mm / > 12 mm / > 2,5 mm / > 1 mm",
-     "item": "Anexo IV, Grau de proteção - IP"
+     "item": "Anexo IV, Grau de proteção - IP",
+     "cota": "esquemas/ip-involucro-calibres.svg#esfera"
     },
     {
      "parametro": "Trator agrícola (definição)",
@@ -786,6 +787,9 @@
      "valor": "bitola traseira ≤ 1 280 mm e peso bruto > 600 kg",
      "item": "Anexo IV, Trator agrícola estreito"
     }
+   ],
+   "figuras": [
+    "esquemas/ip-involucro-calibres.svg"
    ]
   },
   {

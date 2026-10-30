@@ -11,8 +11,12 @@
      "parametro": "Faixa de módulo",
      "valor": "1 a 70 mm",
      "item": "1",
-     "nota": "cópia OCR — conferir"
+     "nota": "cópia OCR — conferir",
+     "cota": "esquemas/engrenagem-perfil-referencia.svg#passo"
     }
+   ],
+   "figuras": [
+    "esquemas/engrenagem-perfil-referencia.svg"
    ]
   },
   {

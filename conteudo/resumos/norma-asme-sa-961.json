@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Regras comuns às especificações de flanges, conexões forjadas, válvulas e peças de tubulação (SA-105, 181, 182, 350, 694, 707 e outras): fusão, fabricação, tratamento térmico, química, ensaios, hidrostático, reparo, marcação e requisitos suplementares."
+   "texto": "Regras comuns às especificações de flanges, conexões forjadas, válvulas e peças de tubulação (SA-105, 181, 182, 350, 694, 707 e outras): fusão, fabricação, tratamento térmico, química, ensaios, hidrostático, reparo, marcação e requisitos suplementares.",
+   "figuras": [
+    "esquemas/flange-asme-b16-5-tipos-flange.svg"
+   ]
   },
   {
    "titulo": "Fusão e fabricação",

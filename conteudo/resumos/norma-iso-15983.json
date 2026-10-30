@@ -10,8 +10,12 @@
     {
      "parametro": "Diâmetros nominais",
      "valor": "3; 3,2; 4; 4,8; 5 mm",
-     "item": "Tab. 1"
+     "item": "Tab. 1",
+     "cota": "esquemas/fixadores-rebite-anel-o-rosca-conica.svg#d"
     }
+   ],
+   "figuras": [
+    "esquemas/fixadores-rebite-anel-o-rosca-conica.svg"
    ]
   },
   {

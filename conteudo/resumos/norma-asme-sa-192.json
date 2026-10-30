@@ -10,13 +10,18 @@
     {
      "parametro": "Diâmetro externo usual",
      "valor": "1/2 a 7 in [12,7 a 177,8 mm]",
-     "item": "1.2"
+     "item": "1.2",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     },
     {
      "parametro": "Espessura mínima usual",
      "valor": "0,085 a 1,000 in [2,2 a 25,4 mm]",
-     "item": "1.2"
+     "item": "1.2",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#t"
     }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
    ]
   },
   {

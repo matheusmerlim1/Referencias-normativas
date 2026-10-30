@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Fundidos de aço baixa liga e inoxidável martensítico, normalizados e revenidos ou temperados e revenidos, para partes sob pressão. A soldabilidade varia de fácil a 'só com precauções'; deve ser avaliada antes da montagem por solda. Requisitos gerais pela SA-703."
+   "texto": "Fundidos de aço baixa liga e inoxidável martensítico, normalizados e revenidos ou temperados e revenidos, para partes sob pressão. A soldabilidade varia de fácil a 'só com precauções'; deve ser avaliada antes da montagem por solda. Requisitos gerais pela SA-703.",
+   "figuras": [
+    "esquemas/asme-ii-fundido.svg"
+   ]
   },
   {
    "titulo": "Tratamento térmico",

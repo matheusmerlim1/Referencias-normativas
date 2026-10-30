@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Dimensionamento e seleção de dispositivos de alívio (válvulas e discos de ruptura) de equipamentos com PMTA ≥ 15 psig, para gás, vapor, líquido e bifásico."
+   "texto": "Dimensionamento e seleção de dispositivos de alívio (válvulas e discos de ruptura) de equipamentos com PMTA ≥ 15 psig, para gás, vapor, líquido e bifásico.",
+   "figuras": [
+    "esquemas/valvula-dimensoes.svg"
+   ]
   },
   {
    "titulo": "Sobrepressão admissível (ASME VIII-1)",

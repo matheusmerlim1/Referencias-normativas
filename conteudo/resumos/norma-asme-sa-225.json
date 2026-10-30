@@ -10,8 +10,12 @@
     {
      "parametro": "Espessura máx. usual — Grau C / D",
      "valor": "0,58 in [15 mm] / 6 in [150 mm]",
-     "item": "1.3"
+     "item": "1.3",
+     "cota": "esquemas/asme-ii-chapa-espessura.svg#t"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-chapa-espessura.svg"
    ]
   },
   {

@@ -10,8 +10,12 @@
     {
      "parametro": "Espessura máx. usual — Grau 55 / 60, 65, 70",
      "valor": "12 in [305 mm] / 8 in [205 mm]",
-     "item": "1.3"
+     "item": "1.3",
+     "cota": "esquemas/asme-ii-chapa-espessura.svg#t"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-chapa-espessura.svg"
    ]
   },
   {
@@ -22,13 +26,17 @@
     {
      "parametro": "Espessura acima da qual a normalização é obrigatória",
      "valor": "1,50 in [40 mm]",
-     "item": "5.2"
+     "item": "5.2",
+     "cota": "esquemas/asme-ii-chapa-espessura.svg#t"
     },
     {
      "parametro": "Revenimento após resfriamento acelerado",
      "valor": "1100 a 1300 °F [595 a 705 °C]",
      "item": "5.4"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-chapa-espessura.svg"
    ]
   },
   {

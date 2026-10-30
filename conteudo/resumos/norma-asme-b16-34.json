@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Construção nova de válvulas de aço, ligas à base de níquel e outras ligas (fundidas, forjadas e fabricadas), com extremidades flangeadas, roscadas, de solda ou wafer: ratings pressão-temperatura, dimensões, tolerâncias, materiais, END, ensaios e marcação."
+   "texto": "Construção nova de válvulas de aço, ligas à base de níquel e outras ligas (fundidas, forjadas e fabricadas), com extremidades flangeadas, roscadas, de solda ou wafer: ratings pressão-temperatura, dimensões, tolerâncias, materiais, END, ensaios e marcação.",
+   "figuras": [
+    "esquemas/valvula-dimensoes.svg"
+   ]
   },
   {
    "titulo": "Classes",

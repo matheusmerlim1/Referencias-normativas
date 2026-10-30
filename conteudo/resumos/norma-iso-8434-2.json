@@ -10,8 +10,12 @@
     {
      "parametro": "Diâmetro externo do tubo",
      "valor": "6 a 50,8 mm",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/tubo-costura-dimensoes.svg#D"
     }
+   ],
+   "figuras": [
+    "esquemas/tubo-costura-dimensoes.svg"
    ]
   },
   {

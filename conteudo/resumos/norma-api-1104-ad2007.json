@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "—",
-   "texto": "Errata e adendo à API 1104 de outubro de 2005: redefine 'solda de ramal' (inclui soldas de chanfro e/ou filete de ramais sobrepostos ou embutidos) e substitui integralmente o Apêndice A — critérios alternativos de aceitação de soldas circunferenciais baseados em mecânica da fratura (ECA), em vez dos critérios empíricos de comprimento de imperfeição da Seção 9."
+   "texto": "Errata e adendo à API 1104 de outubro de 2005: redefine 'solda de ramal' (inclui soldas de chanfro e/ou filete de ramais sobrepostos ou embutidos) e substitui integralmente o Apêndice A — critérios alternativos de aceitação de soldas circunferenciais baseados em mecânica da fratura (ECA), em vez dos critérios empíricos de comprimento de imperfeição da Seção 9.",
+   "figuras": [
+    "esquemas/duto-soldagem-bisel.svg"
+   ]
   }
  ]
 }

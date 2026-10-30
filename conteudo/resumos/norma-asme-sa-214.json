@@ -10,8 +10,12 @@
     {
      "parametro": "Diâmetro externo usual",
      "valor": "até 3 in [76,2 mm]",
-     "item": "1.2"
+     "item": "1.2",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
    ]
   },
   {

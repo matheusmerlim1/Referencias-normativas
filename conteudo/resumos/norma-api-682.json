@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Requisitos e recomendações para sistemas de vedação de bombas centrífugas e rotativas nas indústrias de petróleo, gás e química; vale também para peças sobressalentes e modernização. Classifica as configurações de selo em categorias, tipos, arranjos e orientações, e define os planos de selagem (piping plans)."
+   "texto": "Requisitos e recomendações para sistemas de vedação de bombas centrífugas e rotativas nas indústrias de petróleo, gás e química; vale também para peças sobressalentes e modernização. Classifica as configurações de selo em categorias, tipos, arranjos e orientações, e define os planos de selagem (piping plans).",
+   "figuras": [
+    "esquemas/bomba-centrifuga-selo.svg"
+   ]
   }
  ]
 }

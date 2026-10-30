@@ -30,10 +30,10 @@
   {"titulo": "Limites de uso", "item": "5.3.1",
    "texto": "A equação de C e as incertezas só valem dentro destes limites e com a rugosidade da tubulação (nos primeiros 10D a montante) dentro das Tabelas 1 e 2.",
    "valores": [
-    {"parametro": "Canto e D–D/2", "valor": "d ≥ 12,5 mm; 50 ≤ D ≤ 1 000 mm; 0,1 ≤ β ≤ 0,75", "item": "5.3.1"},
+    {"parametro": "Canto e D–D/2", "valor": "d ≥ 12,5 mm; 50 ≤ D ≤ 1 000 mm; 0,1 ≤ β ≤ 0,75", "item": "5.3.1", "cota": "esquemas/orificio-placa-tomadas.svg#D"},
     {"parametro": "Canto e D–D/2 — Reynolds", "valor": "ReD ≥ 5 000 (0,1 ≤ β ≤ 0,56); ReD ≥ 16 000·β² (β > 0,56)", "item": "5.3.1"},
     {"parametro": "Flange — Reynolds", "valor": "ReD ≥ 5 000 e ReD ≥ 170·β²·D (D em mm)", "item": "5.3.1"},
-    {"parametro": "Rugosidade que atende (exemplo)", "valor": "1 µm ≤ Ra ≤ 6 µm, D ≥ 150 mm, β ≤ 0,6, ReD ≤ 5 × 10⁷", "item": "5.3.1"}
+    {"parametro": "Rugosidade que atende (exemplo)", "valor": "1 µm ≤ Ra ≤ 6 µm, D ≥ 150 mm, β ≤ 0,6, ReD ≤ 5 × 10⁷", "item": "5.3.1", "cota": "esquemas/orificio-placa-tomadas.svg#D"}
    ]},
   {"titulo": "Coeficientes e incertezas", "item": "5.3.2–5.3.3",
    "texto": "Coeficiente de descarga pela equação de Reader-Harris/Gallagher (1998), em função de β, ReD e das distâncias relativas das tomadas (L1, L'2), com termo extra para D < 71,12 mm. Fator de expansão empírico para gases, válido se p2/p1 ≥ 0,75. Tabelas A.1–A.12 dão C e ε só para consulta (sem interpolação exata nem extrapolação).",

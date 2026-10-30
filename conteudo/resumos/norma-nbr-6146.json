@@ -13,8 +13,8 @@
   {"titulo": "Numerais característicos", "item": "3–4, Anexo A",
    "texto": "O 1º numeral (Tab. 1 do Anexo A) lista os objetos que não podem penetrar (partes do corpo, ferramentas, fios) e o tamanho mínimo dos sólidos; o 2º (Tab. 2) o tipo de água suportado. Atender a um grau dispensa ensaiar os inferiores.",
    "valores": [
-    {"parametro": "Exemplos de descrição", "valor": "sólidos de menor dimensão > 1,0 mm com projeções d'água; sólidos > 12 mm com aspersão (chuva), ensaio em repouso", "item": "2.3"}
-   ]},
+    {"parametro": "Exemplos de descrição", "valor": "sólidos de menor dimensão > 1,0 mm com projeções d'água; sólidos > 12 mm com aspersão (chuva), ensaio em repouso", "item": "2.3", "cota": "esquemas/ip-involucro-calibres.svg#esfera"}
+   ], "figuras": ["esquemas/ip-involucro-calibres.svg"]},
   {"titulo": "Marcação e ensaios", "item": "5–6",
    "texto": "Marcação do código IP e requisitos gerais e específicos dos ensaios de tipo para cada numeral.",
    "valores": []}

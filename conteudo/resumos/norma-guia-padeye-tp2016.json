@@ -34,7 +34,8 @@
     {
      "parametro": "Ângulo típico de carga (assimétrico)",
      "valor": "30°",
-     "item": "p. 1"
+     "item": "p. 1",
+     "cota": "esquemas/lingadas-acessorios-angulo-perna-carga.svg#beta"
     },
     {
      "parametro": "Capacidade que exige chapas de reforço",
@@ -43,7 +44,8 @@
     }
    ],
    "figuras": [
-    "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg"
+    "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg",
+    "esquemas/lingadas-acessorios-angulo-perna-carga.svg"
    ]
   },
   {

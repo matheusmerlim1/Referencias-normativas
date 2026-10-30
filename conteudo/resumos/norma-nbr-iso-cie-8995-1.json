@@ -10,8 +10,12 @@
     {
      "parametro": "Largura mínima do entorno imediato",
      "valor": "0,5 m",
-     "item": "3.3"
+     "item": "3.3",
+     "cota": "esquemas/iluminacao-tarefa-entorno.svg#entorno"
     }
+   ],
+   "figuras": [
+    "esquemas/iluminacao-tarefa-entorno.svg"
    ]
   },
   {

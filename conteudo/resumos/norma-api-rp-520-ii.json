@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Métodos de instalação de dispositivos de alívio para equipamentos com PMTA ≥ 15 psig: tubulação de entrada e de saída, perdas de carga, suportes, isolamento, válvulas de bloqueio e drenos."
+   "texto": "Métodos de instalação de dispositivos de alívio para equipamentos com PMTA ≥ 15 psig: tubulação de entrada e de saída, perdas de carga, suportes, isolamento, válvulas de bloqueio e drenos.",
+   "figuras": [
+    "esquemas/valvula-dimensoes.svg"
+   ]
   },
   {
    "titulo": "Perda na entrada",

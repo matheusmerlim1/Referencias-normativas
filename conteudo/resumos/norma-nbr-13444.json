@@ -6,7 +6,7 @@
    "texto": "Padroniza dimensões básicas e acessórios de montagem de cilindros hidráulicos de haste simples, série 250 bar (ISO 3322), diâmetros de 40 a 500 mm, para intercambiabilidade. Não fixa desempenho nem restringe o projeto interno.",
    "valores": [
     {"parametro": "Pressão nominal da série", "valor": "250 bar (25 MPa)", "item": "1.1"},
-    {"parametro": "Faixa de diâmetros de camisa", "valor": "40 a 500 mm", "item": "1.1"}
+    {"parametro": "Faixa de diâmetros de camisa", "valor": "40 a 500 mm", "item": "1.1", "cota": "esquemas/hidraulica-cilindro-instalacao.svg#AL"}
    ]},
   {"titulo": "Terminologia, fluido e tipo", "item": "3–4.2",
    "texto": "Partes do cilindro (camisa, haste, êmbolo, tubo de parada, gaxetas, raspador, fita-guia, cabeçotes). Código do fluido para escolher vedações compatíveis (NBR 12641). Ação simples = AS; ação dupla = AD.",

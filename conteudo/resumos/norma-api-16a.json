@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Requisitos de desempenho, projeto, materiais, ensaio, inspeção, solda, marcação, manuseio e envio de: preventores de gaveta (ram BOP) e seus blocos, vedações e top seals; preventores anulares e elementos de vedação; conectores hidráulicos; carretéis de perfuração; adaptadores; conexões avulsas; braçadeiras."
+   "texto": "Requisitos de desempenho, projeto, materiais, ensaio, inspeção, solda, marcação, manuseio e envio de: preventores de gaveta (ram BOP) e seus blocos, vedações e top seals; preventores anulares e elementos de vedação; conectores hidráulicos; carretéis de perfuração; adaptadores; conexões avulsas; braçadeiras.",
+   "figuras": [
+    "esquemas/poco-bop-arvore.svg"
+   ]
   }
  ]
 }

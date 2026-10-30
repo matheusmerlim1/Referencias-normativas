@@ -59,8 +59,12 @@
     {
      "parametro": "Limite mesa estreita/larga",
      "valor": "150 mm",
-     "item": "6.2"
+     "item": "6.2",
+     "cota": "esquemas/perfis-laminados-perfil-h.svg#b"
     }
+   ],
+   "figuras": [
+    "esquemas/perfis-laminados-perfil-h.svg"
    ]
   }
  ]

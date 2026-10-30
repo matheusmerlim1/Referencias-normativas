@@ -67,17 +67,20 @@
     {
      "parametro": "Largura livre de escadas e corredores de fuga",
      "valor": "≥ 700 mm, corrimão de um lado",
-     "item": "Sec. 8 [2.1.6]"
+     "item": "Sec. 8 [2.1.6]",
+     "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#rota"
     },
     {
      "parametro": "Corrimão dos dois lados",
      "valor": "largura ≥ 1800 mm",
-     "item": "Sec. 8 [2.1.6]"
+     "item": "Sec. 8 [2.1.6]",
+     "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#rota"
     },
     {
      "parametro": "Marcação baixa da rota",
      "valor": "≤ 300 mm acima do piso",
-     "item": "Sec. 8 [2.2.1] g)"
+     "item": "Sec. 8 [2.2.1] g)",
+     "cota": "esquemas/habitabilidade-portas-rotas-cotas.svg#marcacao-baixa"
     },
     {
      "parametro": "Radiação máxima na rota protegida (sonda)",

@@ -10,8 +10,12 @@
     {
      "parametro": "Espessura máx. do material",
      "valor": "1 in",
-     "item": "A1"
+     "item": "A1",
+     "cota": "esquemas/asme-ii-chapa-espessura.svg#t"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-chapa-espessura.svg"
    ]
   },
   {

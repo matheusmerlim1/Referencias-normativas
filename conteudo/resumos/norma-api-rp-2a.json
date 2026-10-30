@@ -73,10 +73,11 @@
    "item": "13",
    "texto": "Soldagem pela AWS D1.1 com procedimentos escritos, mesmo pré-qualificados. Nós e topos são de penetração total. Aço de maior resistência ou soldas grossas pedem baixo hidrogênio. Passes descendentes de acabamento exigem aporte mínimo. Abertura de arco só dentro do chanfro.",
    "valores": [
-    {"parametro": "Baixo hidrogênio obrigatório", "valor": "escoamento ≥ 280 MPa ou garganta > 13 mm", "item": "13.1.3.1"},
+    {"parametro": "Baixo hidrogênio obrigatório", "valor": "escoamento ≥ 280 MPa ou garganta > 13 mm", "item": "13.1.3.1", "cota": "esquemas/solda-estrutural-filete-minimo-espessura.svg#garganta"},
     {"parametro": "Passe de acabamento descendente", "valor": "aporte ≥ 1000 kJ/m; ZTA ≤ 325 HV10", "item": "13.1.3.4"},
     {"parametro": "Solda de selagem", "valor": "≥ 3 mm, não precisa passar de 5 mm", "item": "13.3.4", "cota": "esquemas/tolerancias-fabricacao-estrutural-junta-tubular-chanfro.svg#selagem"}
-   ]
+   ],
+   "figuras": ["esquemas/solda-estrutural-filete-minimo-espessura.svg"]
   },
   {
    "titulo": "Fabricação e tolerâncias",

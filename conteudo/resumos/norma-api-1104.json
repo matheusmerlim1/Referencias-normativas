@@ -15,8 +15,12 @@
     {
      "parametro": "Largura do corpo de prova de dobramento lateral",
      "valor": "1/2 in (13 mm)",
-     "item": "5.6.5.1"
+     "item": "5.6.5.1",
+     "cota": "esquemas/asme-ii-dobramento-cp.svg#t"
     }
+   ],
+   "figuras": [
+    "esquemas/asme-ii-dobramento-cp.svg"
    ]
   },
   {

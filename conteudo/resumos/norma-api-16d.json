@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Padrões de projeto para sistemas que comandam BOPs e válvulas associadas que controlam a pressão do poço na perfuração (unidades de acumuladores, painéis, bombas, linhas e controles submarinos). Não cobre seleção de materiais e processos de fabricação dos componentes."
+   "texto": "Padrões de projeto para sistemas que comandam BOPs e válvulas associadas que controlam a pressão do poço na perfuração (unidades de acumuladores, painéis, bombas, linhas e controles submarinos). Não cobre seleção de materiais e processos de fabricação dos componentes.",
+   "figuras": [
+    "esquemas/poco-bop-arvore.svg"
+   ]
   }
  ]
 }

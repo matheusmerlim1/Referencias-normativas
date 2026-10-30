@@ -10,13 +10,18 @@
     {
      "parametro": "Diâmetro externo",
      "valor": "5/8 a 1 in [15,9 a 25,4 mm]",
-     "item": "1.2"
+     "item": "1.2",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     },
     {
      "parametro": "Espessura mín. (média ou mínima)",
      "valor": "0,028 in [0,7 mm]",
-     "item": "1.2"
+     "item": "1.2",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#t"
     }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
    ]
   },
   {

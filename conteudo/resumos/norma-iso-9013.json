@@ -10,8 +10,12 @@
     {
      "parametro": "Espessuras — chama / plasma / laser",
      "valor": "3–300 / 0,5–150 / 0,5–32 mm",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/chapa-fita-dimensoes.svg#espessura"
     }
+   ],
+   "figuras": [
+    "esquemas/chapa-fita-dimensoes.svg"
    ]
   },
   {

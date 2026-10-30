@@ -10,8 +10,12 @@
     {
      "parametro": "Abrangência",
      "valor": "D ≤ 39 mm; rosca métrica ISO (ISO 68-1, 261, 262); qualquer forma; abertura conforme ISO 272; altura m ≥ 0,5D",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg#d"
     }
+   ],
+   "figuras": [
+    "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg"
    ]
   },
   {

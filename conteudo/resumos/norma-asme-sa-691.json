@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Tubos de aço carbono e liga soldados por fusão elétrica com metal de adição, feitos de chapa de qualidade para vaso de pressão (SA-204, 299, 387, 537 etc.), para alta pressão em alta temperatura. O grau indica a chapa (ex.: CM-65, CMSH-70, 1/2CR, 1CR, 1 1/4CR, 2 1/4CR, 5CR, 9CR, 91); a classe, o tratamento e os exames. Requisitos gerais pela SA-530."
+   "texto": "Tubos de aço carbono e liga soldados por fusão elétrica com metal de adição, feitos de chapa de qualidade para vaso de pressão (SA-204, 299, 387, 537 etc.), para alta pressão em alta temperatura. O grau indica a chapa (ex.: CM-65, CMSH-70, 1/2CR, 1CR, 1 1/4CR, 2 1/4CR, 5CR, 9CR, 91); a classe, o tratamento e os exames. Requisitos gerais pela SA-530.",
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
+   ]
   },
   {
    "titulo": "Classes",

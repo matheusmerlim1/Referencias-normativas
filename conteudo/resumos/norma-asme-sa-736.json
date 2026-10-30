@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Chapas de aço liga baixo carbono endurecível por envelhecimento para vasos de pressão soldados e componentes de tubulação: Grau A (Ni-Cu-Cr-Mo-Nb) e Grau C (Ni-Cu-Mn-Mo-Nb). Classe 1 = laminada e envelhecida (até 3/4 in [20 mm]); Classe 2 = normalizada e envelhecida (só Grau A); Classe 3 = temperada e envelhecida. Requisitos gerais pela SA-20."
+   "texto": "Chapas de aço liga baixo carbono endurecível por envelhecimento para vasos de pressão soldados e componentes de tubulação: Grau A (Ni-Cu-Cr-Mo-Nb) e Grau C (Ni-Cu-Mn-Mo-Nb). Classe 1 = laminada e envelhecida (até 3/4 in [20 mm]); Classe 2 = normalizada e envelhecida (só Grau A); Classe 3 = temperada e envelhecida. Requisitos gerais pela SA-20.",
+   "figuras": [
+    "esquemas/asme-ii-chapa-espessura.svg"
+   ]
   },
   {
    "titulo": "Tratamento térmico",

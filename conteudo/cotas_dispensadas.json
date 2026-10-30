@@ -1,0 +1,203 @@
+{
+ "norma-api-9a": {
+  "Comprimento crítico > 400 m": "tolerância de comprimento do cabo (sem desenho)",
+  "Correção de voltas para outra distância entre garras": "fórmula de correção/fator (não é cota)"
+ },
+ "norma-asme-b16-20": {
+  "Altura mínima das letras de marcação": "marcação (símbolo/letras), não é cota de peça"
+ },
+ "norma-asme-b31-3": {
+  "P-No. 1 — tempo de patamar": "tratamento térmico/tempo (não é cota)",
+  "Radiografia spot — tubo > NPS 2½": "extensão/frequência de ensaio ou exame (não é cota)"
+ },
+ "norma-asme-sa-134": {
+  "Lote para ensaio de solda": "extensão/frequência de ensaio ou exame (não é cota)"
+ },
+ "norma-asme-sa-178": {
+  "Análise de produto (a pedido)": "extensão/frequência de ensaio ou exame (não é cota)"
+ },
+ "norma-asme-sa-192": {
+  "Análise de produto (a pedido)": "extensão/frequência de ensaio ou exame (não é cota)"
+ },
+ "norma-asme-sa-193": {
+  "Revenimento mín. — B7 / B7M / B16": "tratamento térmico/tempo (não é cota)"
+ },
+ "norma-asme-sa-214": {
+  "Achatamento reverso": "extensão/frequência de ensaio ou exame (não é cota)"
+ },
+ "norma-asme-sa-240": {
+  "405": "propriedade mecânica/microestrutura (não é cota)",
+  "410S": "propriedade mecânica/microestrutura (não é cota)"
+ },
+ "norma-asme-sa-325": {
+  "Rotação — 4D < L ≤ 8D / 8D < L ≤ 12D": "extensão/frequência de ensaio ou exame (não é cota)",
+  "Tipo 1": "marcação (símbolo/letras), não é cota de peça",
+  "Tipo 3 (patinável)": "marcação (símbolo/letras), não é cota de peça"
+ },
+ "norma-asme-sa-358": {
+  "Análise de produto": "extensão/frequência de ensaio ou exame (não é cota)",
+  "Radiografia Classe 5 (spot)": "extensão/frequência de ensaio ou exame (não é cota)"
+ },
+ "norma-asme-sa-36": {
+  "Barras — C máx.": "composição química/propriedade por faixa de espessura",
+  "Chapas — C máx.": "composição química/propriedade por faixa de espessura",
+  "Chapas — Mn": "composição química/propriedade por faixa de espessura"
+ },
+ "norma-asme-sa-435": {
+  "Varredura na calibração": "extensão/frequência de ensaio ou exame (não é cota)"
+ },
+ "norma-asme-sa-541": {
+  "Patamar mín. de revenimento": "tratamento térmico/tempo (não é cota)"
+ },
+ "norma-asme-sa-543": {
+  "Tratamento prévio (> 4 in)": "tratamento térmico/tempo (não é cota)"
+ },
+ "norma-asme-sb-135": {
+  "O60, parede até 0,045 in — dureza máx. / grão": "propriedade mecânica/microestrutura (não é cota)"
+ },
+ "norma-asme-sb-148": {
+  "C95400 — solubilização": "tratamento térmico/tempo (não é cota)"
+ },
+ "norma-asme-sb-151": {
+  "Grão OS035 — nominal / faixa": "propriedade mecânica/microestrutura (não é cota)"
+ },
+ "norma-asme-sb-75": {
+  "O60 — grão médio mín.": "propriedade mecânica/microestrutura (não é cota)"
+ },
+ "norma-asme-sb-96": {
+  "C65500 O61 — alongamento mín. / grão máx.": "propriedade mecânica/microestrutura (não é cota)"
+ },
+ "norma-asme-sfa-5-1": {
+  "Charpy — E7018M (5 de 5)": "propriedade mecânica/microestrutura (não é cota)"
+ },
+ "norma-asme-sfa-5-20": {
+  "E7XT-5C, -5M, -6, -8, -9C/-9M": "propriedade mecânica/microestrutura (não é cota)"
+ },
+ "norma-asme-viii-1-uw": {
+  "RT spot — extensão mínima": "extensão/frequência de ensaio ou exame (não é cota)"
+ },
+ "norma-din-3017-1": {
+  "Cabeça opcional": "exemplo de designação"
+ },
+ "norma-din-5406": {
+  "Designação de arruela": "exemplo de designação"
+ },
+ "norma-dnv-os-h205": {
+  "SKL 4 pontos hiperestático com cable-laid": "fórmula de correção/fator (não é cota)"
+ },
+ "norma-dnv-st-e273": {
+  "R60 / R45 / R30": "altura de onda significativa (condição ambiental, não cota)"
+ },
+ "norma-eqn-pe-fd-00-s-sp-00001": {
+  "Maca": "tamanho de objeto/ambiente (não é cota de instalação)"
+ },
+ "norma-iso-1302": {
+  "λs padrão quando não indicado": "parâmetro de filtro de medição"
+ },
+ "norma-iso-14122-3": {
+  "Carga no degrau, largura ≥ 1200 mm": "carga"
+ },
+ "norma-iso-286-1": {
+  "Restrições": "regra de aplicação do sistema"
+ },
+ "norma-iso-898-1": {
+  "Charpy a −20 °C (5.6, 8.8, 9.8, 10.9)": "energia de impacto (limiar de Ø)"
+ },
+ "norma-nbr-10288": {
+  "Pino limitador do manômetro": "ajuste de instrumento"
+ },
+ "norma-nbr-10520": {
+  "Citação direta com mais de 3 linhas": "formatação de documento"
+ },
+ "norma-nbr-11900-4": {
+  "Carga do olhal com grampos pesados": "ensaio de carga (escorregamento)"
+ },
+ "norma-nbr-12274": {
+  "Broca para desobstruir válvula": "ferramenta de inspeção"
+ },
+ "norma-nbr-13715-2": {
+  "Elos comuns de emenda (substituição de defeituosos)": "contagem por comprimento"
+ },
+ "norma-nbr-13932": {
+  "Manômetro": "instrumento de ensaio"
+ },
+ "norma-nbr-14718": {
+  "Comprimento acima do qual se ensaiam dois módulos": "condição de ensaio",
+  "Resolução do medidor de deslocamento": "precisão de instrumento"
+ },
+ "norma-nbr-14762": {
+  "Fissura na base de parede de alvenaria": "limite de dano em alvenaria (defeito)"
+ },
+ "norma-nbr-15280-2": {
+  "Pedras no restante do reaterro": "tamanho de objeto (pedras do reaterro)"
+ },
+ "norma-nbr-15749": {
+  "Acoplamento indutivo entre cabos paralelos a 60 Hz": "valor elétrico por comprimento"
+ },
+ "norma-nbr-15751": {
+  "Pé humano (modelo)": "modelo de cálculo (pé humano)"
+ },
+ "norma-nbr-16776": {
+  "Carga no guarda-corpo": "carga / ensaio",
+  "PEMT suspensa — ensaio estático": "carga / ensaio"
+ },
+ "norma-nbr-17240": {
+  "Ensaio de visibilidade": "distância de ensaio de visibilidade"
+ },
+ "norma-nbr-5410": {
+  "Acréscimo para linhas principais > 100 m": "acréscimo percentual por comprimento"
+ },
+ "norma-nbr-5444": {
+  "Eletroduto no teto/parede": "convenção de desenho"
+ },
+ "norma-nbr-6123": {
+  "Alta turbulência — distância de vizinhança (altura até 40 / 55 / 70 / 80 m)": "condição de terreno/vizinhança",
+  "Classe A / B / C": "classificação por dimensão da edificação"
+ },
+ "norma-nbr-6327": {
+  "Comprimento — até 400 m / 400–1000 m / > 1000 m": "comprimento entregue (fornecimento)"
+ },
+ "norma-nbr-6492": {
+  "Unidade das cotas": "convenção de unidades"
+ },
+ "norma-nbr-7190-5": {
+  "Fim do ensaio / Fmáx": "critério de ensaio",
+  "Precisão das dimensões": "precisão de instrumento",
+  "Precisão do medidor de deslizamento": "precisão de instrumento"
+ },
+ "norma-nbr-7500": {
+  "Placa de área de explosivos (ferroviário)": "valor incompleto na norma"
+ },
+ "norma-nbr-iec-60947-1": {
+  "Altitude máxima": "altitude de serviço"
+ },
+ "norma-nbr-iso-2408": {
+  "Comprimento entregue — 400 a 1 000 m": "comprimento entregue (fornecimento)",
+  "Massa aproximada 6×19 AF, Ø 10 mm": "massa linear"
+ },
+ "norma-nbr-iso-6892": {
+  "Medição do alongamento após ruptura": "precisão de medição"
+ },
+ "norma-nr-12": {
+  "Cilindro sovador — tolerância das proteções": "tolerância genérica, sem cota única",
+  "Dobradeira — velocidade máxima em blanking/muting": "velocidade",
+  "K — cortina horizontal": "velocidade de aproximação (fórmula)",
+  "K — cortina vertical com S > 500 mm": "velocidade de aproximação (fórmula)",
+  "K — cortina vertical com S ≤ 500 mm": "velocidade de aproximação (fórmula)",
+  "Trator agrícola estreito (definição)": "definição (bitola como condição)",
+  "Velocidade vertical máxima do cesto suspenso": "velocidade"
+ },
+ "norma-nr-15": {
+  "Mistura artificial com sino — tempo de fundo": "tempo"
+ },
+ "norma-nr-34": {
+  "Evacuar flutuante sem propulsão / deslocar o propelido": "condição de mar/vento (Beaufort)",
+  "Interromper serviços a bordo": "condição de mar/vento (Beaufort)"
+ },
+ "norma-nr-37": {
+  "Cesta — balanço (roll) máximo em plataforma flutuante": "movimento da plataforma (ângulo de balanço)",
+  "Limites de mar e vento (embarcação, cesta e atracadouro)": "condição de mar/vento",
+  "Plataforma que exige banheiro próximo à meia-nau": "condição de aplicação (porte da plataforma)",
+  "Travesseiro — troca e dimensões mínimas": "tamanho de objeto"
+ }
+}

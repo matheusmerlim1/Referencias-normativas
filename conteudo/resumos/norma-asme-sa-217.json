@@ -5,7 +5,10 @@
   {
    "titulo": "Escopo",
    "item": "1",
-   "texto": "Peças fundidas para válvulas, flanges, conexões e outras partes sob pressão em alta temperatura e serviço corrosivo: um grau inoxidável martensítico (CA15) e nove graus de aço liga ferrítico (WC1, WC4, WC5, WC6, WC9, WC11, C5, C12, C12A). Os graus são soldáveis, mas não igualmente; o comprador define a técnica de soldagem. Fundidos de aço carbono ficam na SA-216. Requisitos gerais pela SA-703."
+   "texto": "Peças fundidas para válvulas, flanges, conexões e outras partes sob pressão em alta temperatura e serviço corrosivo: um grau inoxidável martensítico (CA15) e nove graus de aço liga ferrítico (WC1, WC4, WC5, WC6, WC9, WC11, C5, C12, C12A). Os graus são soldáveis, mas não igualmente; o comprador define a técnica de soldagem. Fundidos de aço carbono ficam na SA-216. Requisitos gerais pela SA-703.",
+   "figuras": [
+    "esquemas/asme-ii-fundido.svg"
+   ]
   },
   {
    "titulo": "Tratamento térmico",

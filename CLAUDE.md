@@ -86,7 +86,7 @@ ferramentas/conferir.py    confere nº de cada requisito/tabela contra o texto d
 python ferramentas/build.py                                   # validar + gerar dados (rodar após qualquer mudança em conteudo/ ou esquemas/)
 python -P ferramentas/verificar_autossuficiente.py --publico  # tem de dar "0 pendência(s)" antes de todo commit
 python -P ferramentas/recursos.py 600                         # quantos processos de 600 MB cabem em 1/6 da RAM
-python -P ferramentas/cotas_pendentes.py [slug…|--svg]       # valores dimensionais dos resumos sem cota (guia dos lotes); --svg = esquemas sem uso
+python -P ferramentas/cotas_pendentes.py [slug…|--svg|--sem-desenho]  # pendências de cota; --svg = esquemas sem uso; --sem-desenho = resumos sem desenho
 python -P ferramentas/gerar_docs.py <ficha> --gravar ; python -P ferramentas/separar_normas.py --gravar   # mudar recortes (apagar antes assets/figuras/docs/<ficha>/)
 python -P ferramentas/dump.py <pasta_tmp> "<glob do pdf>"     # texto do PDF por página
 python -P ferramentas/crop.py "<glob do pdf>" <pág> "x0,y0,x1,y1" 200 assets/figuras/<nome>.png
@@ -170,7 +170,7 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
 ## ESTADO ATUAL (30/out/2026)
 - 802 fichas = 23 TEMÁTICAS (curadas, públicas) + 779 de NORMA (`norma-*.json`, geradas, locais); 22 839 requisitos; 779 normas.
 - 779/779 RESUMOS próprios (`conteudo/resumos/`), 6 543 valores; 902 valores ligados a cota.
-- 268 SVG próprios em `assets/figuras/esquemas/`; as 23 temáticas NÃO têm mais figura de norma (tudo trocado por SVG).
+- 284 SVG próprios em `assets/figuras/esquemas/`; as 23 temáticas NÃO têm mais figura de norma (tudo trocado por SVG).
 - Catálogo do acervo T: 3 933 documentos únicos (`conteudo/catalogo.json`) → buscáveis no site como "Documentos no acervo".
 - Triagem de `referencias/`: 775/775 documentos relevantes incorporados (100 %). Auditoria de imagens encerrada (28/out).
 - `verificar_autossuficiente.py` = 0 erros → `referencias/` (6,7 GB) PODE ser removida — o usuário decide. Sem ela param as
@@ -212,9 +212,16 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
   (54 valores; +7 SVG asme-ii-*: ensaios de tubo, dobramento, Charpy, UT de chapa, arame, fundido, tubo em U). A maioria dos
   "pendentes" das specs era °F/%/ksi/escopo. Removidos 17 SVG da 1ª geração sem cota e sem uso. Ferramenta nova cotas_pendentes.py.
   Agora: 1 421 valores com cota; 232 dimensionais sem cota em 155 resumos (pela ferramenta, que já ignora °C, m/s, m², m³); 268 SVG.
+- **Cotas nos resumos — LOTE 6 FEITO = FECHAMENTO** (30/out; coordenador + 1 agente). Regra nova do usuário: "tente sempre botar
+  algum desenho para simplificar a norma" → FAIXAS/LIMIARES de grandeza geométrica também ganham cota (Ø 4–42 mm → cota no Ø);
+  só fica sem desenho o que não tem geometria (registrado com motivo em conteudo/cotas_dispensadas.json, 83 valores).
+  cotas_pendentes.py = 0 pendentes; 1 570 valores com cota. Todo resumo de asme/api/dnv/abs/bv/astm/isa… ganhou ≥ 1 esquema
+  (genéricos por família: asme-ii-chapa-espessura, tubulacao-processo-tubo-diametros-parede, asme-ii-arame-diametro, end-metodos,
+  valvula-dimensoes, poco-bop-arvore, bomba-centrifuga-selo, ensaios-laboratorio…). 284 SVG.
 
 ## PRÓXIMOS PASSOS (continuar daqui)
-Lotes 1–5 feitos (30/out). Próximo: LOTE 6 = sobras (rodar cotas_pendentes.py; muitas são faixa/condição — pular). Commit + push ao fim de cada lote (pedido do usuário).
+Lotes 1–6 feitos (30/out): 0 valores dimensionais sem cota. Próximo: LOTE 7 = 128 resumos SEM NENHUM desenho (ISO 42, DIN 29,
+   NBR 25, NR 8, BS 8, AGMA 5, MSS 4…) → `cotas_pendentes.py --sem-desenho`; dar a cada um ≥ 1 esquema próprio (conceito da peça/ensaio). Commit + push ao fim de cada lote (pedido do usuário).
 1. **Cotas nos resumos** — faltam ~1 049 valores dimensionais sem cota em 316 resumos. Um agente por vez, por lote. O agente:
    reutiliza SVG existentes (acrescenta grupo `cota-<nome>` sem quebrar os que já existem), só cria SVG novo DO ZERO (só rótulos,
    nunca números; rodapé "Esquema ilustrativo (não é desenho da norma) — sem escala."), põe `"cota"` no valor e o SVG em `figuras`
