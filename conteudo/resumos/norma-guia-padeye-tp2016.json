@@ -28,7 +28,8 @@
     {
      "parametro": "Desalinhamento admissível",
      "valor": "2,5°",
-     "item": "p. 1"
+     "item": "p. 1",
+     "cota": "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg#desvio-plano"
     },
     {
      "parametro": "Ângulo típico de carga (assimétrico)",
@@ -40,6 +41,9 @@
      "valor": "> 2 000 kg",
      "item": "p. 1"
     }
+   ],
+   "figuras": [
+    "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg"
    ]
   },
   {

@@ -194,15 +194,19 @@ Vários curadores podem rodar em paralelo (um tema cada); só o coordenador edit
   verificador, notas copiadas em inglês reescritas (II-D, B16.5), resumos reescritos, GitHub Pages no ar.
 - **Cotas nos resumos — LOTE 1 FEITO** (aae2ef7): acessos/ergonomia/NRs — ASTM F1166, ABS-ERGO, NR-12/13/18/24/34/35/37,
   EQN PE-FD-00-S-SP-00001, EQN vertical ladder, NBR 14718, NBR 15708-2, ISO 14122-2/-3 → 212 valores, +18 SVG.
+- **Cotas nos resumos — LOTE 2 FEITO** (30/out, içamento): DNV-OS-H205, ABS-LIFT, NBR 11900-2/-3, 13715-2, ISO 2408, E271,
+  Z359.14, NORSOK R-002, B30.7/10/26, ISO 3266, NBR 13543/6327/15516-1/-2/16325-2, guia padeye → 52 valores, +6 SVG, 3 SVG ampliados.
+  Encaixes aproximados (rever se quiser): banda/inclinação → guindaste-ponte-rolante-banda-trim#banda; ISO 3266 ±5° →
+  interface-olhal-manilha#desvio-plano. Sobraram p/ outros lotes: API 9A (ensaios), NBR 16776 (plataforma elevatória).
 
 ## PRÓXIMOS PASSOS (continuar daqui)
-Trabalho PAUSADO a pedido do usuário em 30/out após o lote 1. Retomar só quando ele mandar.
+Lotes 1 e 2 feitos (30/out). Próximo: LOTE 3. Commit + push ao fim de cada lote (pedido do usuário).
 1. **Cotas nos resumos** — faltam ~1 049 valores dimensionais sem cota em 316 resumos. Um agente por vez, por lote. O agente:
    reutiliza SVG existentes (acrescenta grupo `cota-<nome>` sem quebrar os que já existem), só cria SVG novo DO ZERO (só rótulos,
    nunca números; rodapé "Esquema ilustrativo (não é desenho da norma) — sem escala."), põe `"cota"` no valor e o SVG em `figuras`
    da seção; pula o que não é medida geométrica (carga, tempo, pressão, lux, faixa de aplicação, tamanho de objeto); não altera
    textos/valores. Coordenador: build + `--publico` = 0 → olhar os SVG novos (Edge headless --screenshot) → commit + push.
-   - **Lote 2 — içamento**: DNV-ST-E273 (3), DNV-ST-E271 (6), DNV-2.22 (5), ABS-LIFT-2021 (6), NBR-8400 (4), NORSOK-R-002 (5),
+   - ~~Lote 2 — içamento~~ (FEITO): DNV-ST-E273 (3), DNV-ST-E271 (6), DNV-2.22 (5), ABS-LIFT-2021 (6), NBR-8400 (4), NORSOK-R-002 (5),
      ASME-B30.26 (5), B30.10 (2), B30.7, ISO-3266 (3), NBR-15637-1, 15516-1/-2, 13543, 6327, 11900-4, 16325-2, 14628,
      ANSI-Z359.14 (4), DNV-OS-H205 (7).
    - **Lote 3 — tubulação/flange/solda/vaso**: ASME-B31.3 (18), AWS-D1.1 (22), B16.5 (8), B16.25 (6), B16.47 (6), B16.20 (4),

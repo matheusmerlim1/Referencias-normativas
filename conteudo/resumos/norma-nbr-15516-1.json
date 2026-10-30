@@ -23,13 +23,17 @@
     {
      "parametro": "Diferença de comprimento entre pernas",
      "valor": "≤ 10 mm até 2 m; +5 mm por metro acima",
-     "item": "6.5"
+     "item": "6.5",
+     "cota": "esquemas/lingadas-acessorios-linga-corrente-2-pernas.svg#comprimento"
     },
     {
      "parametro": "Temperatura que não altera as propriedades",
      "valor": "até 400 °C",
      "item": "7.2.2"
     }
+   ],
+   "figuras": [
+    "esquemas/lingadas-acessorios-linga-corrente-2-pernas.svg"
    ]
   },
   {

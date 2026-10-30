@@ -77,8 +77,12 @@
     {
      "parametro": "Medida X da cauda",
      "valor": "≤ 75 % do comprimento da cunha",
-     "item": "C.2"
+     "item": "C.2",
+     "cota": "esquemas/lingadas-acessorios-soquete-cunha.svg#X"
     }
+   ],
+   "figuras": [
+    "esquemas/lingadas-acessorios-soquete-cunha.svg"
    ]
   }
  ]

@@ -39,5 +39,9 @@
 <g id="cota-beta" class="cota"><line class="d" x1="480" y1="285" x2="400" y2="250" marker-end="url(#a)"/><text x="484" y="290">β</text></g>
 <g id="cota-d" class="cota"><line class="d" x1="295" y1="430" x2="321" y2="430" marker-end="url(#a)"/><line class="d" x1="355" y1="430" x2="329" y2="430" marker-end="url(#a)"/><line class="d" x1="321" y1="430" x2="329" y2="430"/><text x="350" y="436">d</text></g>
 <text class="n m" x="330" y="70">pino</text>
+<rect class="s" x="395" y="419" width="20" height="12" transform="rotate(45 405 425)"/>
+<text class="n" x="424" y="411">grampo</text>
+<g id="cota-X" class="cota"><line class="e" x1="383" y1="380" x2="530" y2="380"/><line class="e" x1="414" y1="425" x2="530" y2="425"/><line class="d" x1="520" y1="380" x2="520" y2="425" marker-start="url(#a)" marker-end="url(#a)"/><text x="527" y="408">X</text></g>
+<g id="cota-cunha" class="cota"><line class="e" x1="387" y1="150" x2="610" y2="150"/><line class="e" x1="352" y1="360" x2="610" y2="360"/><line class="d" x1="600" y1="150" x2="600" y2="360" marker-start="url(#a)" marker-end="url(#a)"/><text x="607" y="320">comprimento da cunha</text></g>
 <text class="n" x="20" y="488">Esquema ilustrativo, fora de escala (não é desenho da norma) — só rótulos; os valores estão na ficha</text>
 </svg>

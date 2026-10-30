@@ -77,13 +77,17 @@
     {
      "parametro": "Esmerilhamento de entalhes",
      "valor": "≤ 10 % da espessura",
-     "item": "A.2.3"
+     "item": "A.2.3",
+     "cota": "esquemas/lingadas-acessorios-desgaste-elos.svg#dn"
     },
     {
      "parametro": "Prova após reparo soldado",
      "valor": "2 × CMT",
      "item": "A.2.3"
     }
+   ],
+   "figuras": [
+    "esquemas/lingadas-acessorios-desgaste-elos.svg"
    ]
   }
  ]

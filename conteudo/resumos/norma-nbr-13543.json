@@ -25,7 +25,8 @@
     {
      "parametro": "Raio mínimo de dobra",
      "valor": "≥ Ø do cabo (abaixo: canto vivo)",
-     "item": "4.2.1"
+     "item": "4.2.1",
+     "cota": "esquemas/lingadas-acessorios-cabo-raio-dobra.svg#raio"
     },
     {
      "parametro": "Perda ao dobrar sobre o próprio Ø",
@@ -48,6 +49,9 @@
      "valor": "> 100 °C",
      "item": "4.4"
     }
+   ],
+   "figuras": [
+    "esquemas/lingadas-acessorios-cabo-raio-dobra.svg"
    ]
   },
   {
@@ -76,7 +80,8 @@
     {
      "parametro": "Descarte — arames partidos em 6 d",
      "valor": "10 no cabo ou 5 numa perna (exceto 6×7); > 1 interno",
-     "item": "5.4.1.2"
+     "item": "5.4.1.2",
+     "cota": "esquemas/lingadas-acessorios-arames-partidos-6d.svg#6d"
     },
     {
      "parametro": "Arames agrupados",
@@ -94,6 +99,9 @@
      "item": "5.4.2",
      "cota": "esquemas/lingadas-acessorios-diametro-cabo.svg#d"
     }
+   ],
+   "figuras": [
+    "esquemas/lingadas-acessorios-arames-partidos-6d.svg"
    ]
   }
  ]

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 400" width="980" height="400" role="img" aria-label="Amarra com malhete — diâmetro, comprimento de 5 elos e posição do malhete">
+<title>Amarra com malhete — diâmetro, comprimento de 5 elos e posição do malhete (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+
+<text class="t" x="20" y="28">Amarra com malhete — diâmetro, comprimento de 5 elos e posição do malhete</text>
+<rect x="55" y="182" width="70" height="36" rx="18" fill="none" stroke="#666" stroke-width="14"/><rect class="s" x="86" y="189" width="8" height="22"/>
+<rect x="167" y="182" width="70" height="36" rx="18" fill="none" stroke="#666" stroke-width="14"/><rect class="s" x="198" y="189" width="8" height="22"/>
+<rect x="279" y="182" width="70" height="36" rx="18" fill="none" stroke="#666" stroke-width="14"/><rect class="s" x="310" y="189" width="8" height="22"/>
+<rect x="391" y="182" width="70" height="36" rx="18" fill="none" stroke="#666" stroke-width="14"/><rect class="s" x="422" y="189" width="8" height="22"/>
+<rect class="s" x="104" y="193" width="84" height="14" rx="7" style="fill-opacity:.8"/>
+<rect class="s" x="216" y="193" width="84" height="14" rx="7" style="fill-opacity:.8"/>
+<rect class="s" x="328" y="193" width="84" height="14" rx="7" style="fill-opacity:.8"/>
+<text class="n" x="60" y="270">elo comum com malhete (vista do plano e de topo)</text>
+<g id="cota-cinco-elos" class="cota"><line class="e" x1="104" y1="190" x2="104" y2="112"/><line class="e" x1="412" y1="190" x2="412" y2="112"/><line class="d" x1="104" y1="120" x2="412" y2="120" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="258" y="110">comprimento de 5 elos</text></g>
+<g id="cota-d" class="cota"><line class="d" x1="300" y1="150" x2="300" y2="175" marker-end="url(#a)"/><line class="d" x1="300" y1="203" x2="300" y2="189" marker-end="url(#a)"/><text x="292" y="148" class="en">d</text></g>
+<g id="cota-d-curva" class="cota"><line class="d" x1="500" y1="200" x2="468" y2="200" marker-end="url(#a)"/><line class="d" x1="436" y1="200" x2="454" y2="200" marker-end="url(#a)"/><text x="505" y="205">d na curva</text></g>
+<rect x="590" y="204" width="100" height="52" rx="26" fill="none" stroke="#666" stroke-width="20"/>
+<line class="c" x1="640" y1="175" x2="640" y2="300"/>
+<rect class="s" x="647" y="214" width="10" height="32"/>
+<text class="n m" x="640" y="350">a) malhete fora do centro</text>
+<g id="cota-malhete-desc" class="cota"><line class="e" x1="652" y1="246" x2="652" y2="302"/><line class="d" x1="615" y1="295" x2="640" y2="295" marker-end="url(#a)"/><line class="d" x1="677" y1="295" x2="652" y2="295" marker-end="url(#a)"/><line class="d" x1="640" y1="295" x2="652" y2="295"/><text class="m" x="646" y="322">descentralização</text></g>
+<rect x="800" y="204" width="100" height="52" rx="26" fill="none" stroke="#666" stroke-width="20"/>
+<rect class="s" x="845" y="214" width="10" height="32" transform="rotate(12 850 230)"/>
+<line class="c" x1="850" y1="165" x2="850" y2="295"/>
+<line class="h" x1="863.5" y1="166.4" x2="836.5" y2="293.6"/>
+<text class="n m" x="850" y="350">b) malhete inclinado</text>
+<g id="cota-malhete-angulo" class="cota"><path class="d" d="M850,170 A60,60 0 0,1 862.5,171.3" marker-end="url(#a)"/><text class="m" x="856" y="152">desvio angular</text></g>
+<text class="n" x="590" y="160">detalhe do malhete</text>
+<text class="n" x="20" y="388">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

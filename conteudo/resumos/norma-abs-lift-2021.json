@@ -37,8 +37,12 @@
     {
      "parametro": "Passo de raio da tabela de carga",
      "valor": "≤ 1,5 m",
-     "item": "2-2"
+     "item": "2-2",
+     "cota": "esquemas/guindaste-ponte-rolante-guindaste-pedestal.svg#raio"
     }
+   ],
+   "figuras": [
+    "esquemas/guindaste-ponte-rolante-guindaste-pedestal.svg"
    ]
   },
   {
@@ -64,8 +68,12 @@
     {
      "parametro": "Espessura mínima — membros críticos maciços / vazados",
      "valor": "6 mm / 4 mm",
-     "item": "2-2/3.3"
+     "item": "2-2/3.3",
+     "cota": "esquemas/guindaste-ponte-rolante-guindaste-pedestal.svg#t-membro"
     }
+   ],
+   "figuras": [
+    "esquemas/guindaste-ponte-rolante-guindaste-pedestal.svg"
    ]
   },
   {
@@ -140,13 +148,18 @@
     {
      "parametro": "Banda/trim — plataforma fixa / semissub",
      "valor": "0,5°/0,5° / 1,5°",
-     "item": "Tab. 5A"
+     "item": "Tab. 5A",
+     "cota": "esquemas/guindaste-ponte-rolante-banda-trim.svg#banda"
     },
     {
      "parametro": "Lança no descanso — navio",
      "valor": "15° banda + 5° trim",
-     "item": "Tab. 5B"
+     "item": "Tab. 5B",
+     "cota": "esquemas/guindaste-ponte-rolante-banda-trim.svg#banda"
     }
+   ],
+   "figuras": [
+    "esquemas/guindaste-ponte-rolante-banda-trim.svg"
    ]
   },
   {
@@ -303,8 +316,12 @@
     {
      "parametro": "Letras de marcação",
      "valor": "≥ 25 mm",
-     "item": "2-7/5.11"
+     "item": "2-7/5.11",
+     "cota": "esquemas/guindaste-ponte-rolante-guindaste-pedestal.svg#caracteres"
     }
+   ],
+   "figuras": [
+    "esquemas/guindaste-ponte-rolante-guindaste-pedestal.svg"
    ]
   }
  ]

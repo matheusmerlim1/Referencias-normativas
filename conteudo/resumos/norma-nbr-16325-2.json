@@ -10,8 +10,12 @@
     {
      "parametro": "Desvio máximo do plano horizontal",
      "valor": "≤ 15°",
-     "item": "1"
+     "item": "1",
+     "cota": "esquemas/ancoragem-linha-de-vida-tipo-c.svg#inclinacao"
     }
+   ],
+   "figuras": [
+    "esquemas/ancoragem-linha-de-vida-tipo-c.svg"
    ]
   },
   {

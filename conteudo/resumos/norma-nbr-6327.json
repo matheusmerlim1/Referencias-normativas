@@ -45,12 +45,14 @@
     {
      "parametro": "Tolerância de Ø, 6 ≤ d < 8 mm",
      "valor": "+6 % (+8 %)",
-     "item": "Tab. 2"
+     "item": "Tab. 2",
+     "cota": "esquemas/lingadas-acessorios-diametro-cabo.svg#d"
     },
     {
      "parametro": "Diferença entre medições, d ≥ 8 mm",
      "valor": "≤ 4 % (6 % com fibra)",
-     "item": "4.4.1.3, Tab. 3"
+     "item": "4.4.1.3, Tab. 3",
+     "cota": "esquemas/lingadas-acessorios-diametro-cabo.svg#d"
     },
     {
      "parametro": "Passo — 6×7 / demais / pernas perfiladas",
@@ -63,6 +65,9 @@
      "valor": "+5 % / +20 m / +2 %",
      "item": "4.4.3"
     }
+   ],
+   "figuras": [
+    "esquemas/lingadas-acessorios-diametro-cabo.svg"
    ]
   },
   {

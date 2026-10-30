@@ -11,22 +11,24 @@
   {"titulo": "Formação do olhal", "item": "8–9",
    "texto": "Dobrado: a presilha contém toda a extremidade morta, visível após prensar, e se ajusta ao sapatilho. Flamengo: pernas uniformes dentro da presilha, nenhuma saliente. Prensagem conforme a entidade responsável; presilha sem vincos, sulcos ou trincas (Anexo A mostra defeitos).",
    "valores": [
-    {"parametro": "Distância mínima entre presilhas", "valor": "20 × diâmetro do cabo", "item": "8.2"},
-    {"parametro": "Distância presilha–base do sapatilho após prensar", "valor": "≈ 2 × diâmetro nominal", "item": "8.2"},
-    {"parametro": "Perímetro do olhal sem sapatilho — linga / cabo de guindaste", "valor": "≥ 4 / ≥ 6 passos do cabo", "item": "8.2"},
+    {"parametro": "Distância mínima entre presilhas", "valor": "20 × diâmetro do cabo", "item": "8.2", "cota": "esquemas/lingadas-acessorios-olhal-presilha.svg#entre-presilhas"},
+    {"parametro": "Distância presilha–base do sapatilho após prensar", "valor": "≈ 2 × diâmetro nominal", "item": "8.2", "cota": "esquemas/lingadas-acessorios-olhal-presilha.svg#presilha-sapatilho"},
+    {"parametro": "Perímetro do olhal sem sapatilho — linga / cabo de guindaste", "valor": "≥ 4 / ≥ 6 passos do cabo", "item": "8.2", "cota": "esquemas/lingadas-acessorios-olhal-presilha.svg#perimetro-olhal"},
     {"parametro": "Olhal dobrado (tipo 4) — proibido", "valor": "cargas sobre pessoas; > 80 °C (alma de fibra) ou > 100 °C (alma de aço); água salgada; superfícies abrasivas", "item": "8.1"},
     {"parametro": "Flamengo com presilha de alumínio (tipo 2) — proibido", "valor": "> 80 °C (AF) / > 100 °C (AA); água salgada; superfícies abrasivas", "item": "8.2"}
-   ]},
+   ],
+   "figuras": ["esquemas/lingadas-acessorios-olhal-presilha.svg"]},
   {"titulo": "Resistência e ensaios de tipo", "item": "10–11",
    "texto": "Ensaios de tipo de ruptura e de fadiga em amostras que cobrem a faixa de diâmetros (primeiro e último quartis quando a presilha segue progressão matemática), a maior categoria do cabo, alma de aço e de fibra e as classes de cabo.",
    "valores": [
     {"parametro": "Resistência mínima do olhal com presilha", "valor": "≥ 90 % da carga de ruptura mínima do cabo", "item": "10"},
-    {"parametro": "Ensaio de ruptura — pino de carga", "valor": "redondo, Ø = 4 × diâmetro do cabo; olhal sem sapatilho", "item": "11.2"},
+    {"parametro": "Ensaio de ruptura — pino de carga", "valor": "redondo, Ø = 4 × diâmetro do cabo; olhal sem sapatilho", "item": "11.2", "cota": "esquemas/lingadas-acessorios-olhal-presilha.svg#pino"},
     {"parametro": "Taxa após 50 % da ruptura mínima", "valor": "≤ 0,5 % da ruptura mínima por segundo", "item": "11.2"},
-    {"parametro": "Cabo livre entre presilhas no ensaio", "valor": "≥ 30 × diâmetro", "item": "11.2"},
+    {"parametro": "Cabo livre entre presilhas no ensaio", "valor": "≥ 30 × diâmetro", "item": "11.2", "cota": "esquemas/lingadas-acessorios-olhal-presilha.svg#cabo-livre"},
     {"parametro": "Fadiga (geral)", "valor": "15 % a 30 % da ruptura mínima, 75 000 ciclos, ≤ 5 Hz; depois resistir a ≥ 80 % da ruptura mínima", "item": "11.3"},
     {"parametro": "Fadiga em cabo de içamento de guindaste (flamengo)", "valor": "faixa cíclica e nº de ciclos sem romper perna", "item": "11.4", "nota": "texto OCR ilegível nos números — conferir"}
-   ]},
+   ],
+   "figuras": ["esquemas/lingadas-acessorios-olhal-presilha.svg"]},
   {"titulo": "Controle de qualidade e documentação", "item": "12–15",
    "texto": "Tubo das presilhas sem trincas ou dobras; por lote de presilhas de aço, uma amostra prensada a frio sem trincas visíveis. Inspeção visual após prensar e ensaio de tração por amostragem. Certificado do fabricante da presilha e documentação do terminal.",
    "valores": []}

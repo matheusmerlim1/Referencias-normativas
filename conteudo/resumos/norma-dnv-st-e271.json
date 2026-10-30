@@ -147,7 +147,8 @@
     {
      "parametro": "Alinhamento do olhal com a lingada",
      "valor": "± 2,5°",
-     "item": "4.4.1"
+     "item": "4.4.1",
+     "cota": "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg#desvio-plano"
     },
     {
      "parametro": "Diferença entre diagonais dos olhais",
@@ -184,6 +185,9 @@
      "item": "D.3",
      "cota": "esquemas/icamento-unidade-portatil-olhal-container-e271.svg#DH"
     }
+   ],
+   "figuras": [
+    "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg"
    ]
   },
   {
@@ -199,7 +203,8 @@
     {
      "parametro": "Empilhamento",
      "valor": "máx. 2 níveis; considerar 15° e vento",
-     "item": "4.4.3"
+     "item": "4.4.3",
+     "cota": "esquemas/guindaste-ponte-rolante-banda-trim.svg#banda"
     },
     {
      "parametro": "Bolsas de garfo",
@@ -207,6 +212,9 @@
      "item": "4.4.6",
      "cota": "esquemas/icamento-unidade-portatil-bolsas-empilhadeira.svg#abertura-largura"
     }
+   ],
+   "figuras": [
+    "esquemas/guindaste-ponte-rolante-banda-trim.svg"
    ]
   },
   {
@@ -262,7 +270,8 @@
     {
      "parametro": "Número do contêiner nos lados / teto",
      "valor": "≥ 75 mm / ≥ 300 mm",
-     "item": "6.2"
+     "item": "6.2",
+     "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#caracteres"
     },
     {
      "parametro": "Demais marcações de segurança e nº de série",
@@ -270,6 +279,9 @@
      "item": "6.1–6.2",
      "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#caracteres"
     }
+   ],
+   "figuras": [
+    "esquemas/icamento-unidade-portatil-placa-marcacao.svg"
    ]
   },
   {
@@ -335,8 +347,12 @@
     {
      "parametro": "Aviso de clima temperado",
      "valor": "caracteres ≥ 75 mm",
-     "item": "J"
+     "item": "J",
+     "cota": "esquemas/icamento-unidade-portatil-placa-marcacao.svg#caracteres"
     }
+   ],
+   "figuras": [
+    "esquemas/icamento-unidade-portatil-placa-marcacao.svg"
    ]
   }
  ]

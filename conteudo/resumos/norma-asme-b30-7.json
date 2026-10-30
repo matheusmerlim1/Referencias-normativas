@@ -50,9 +50,10 @@
    "texto": "O cabo sai de serviço por arames rompidos acima de um número num comprimento de referência, por deformações, dano de calor, perda de diâmetro ou alma saindo. Pode terminar o turno a critério da pessoa qualificada e é trocado por cabo equivalente.",
    "valores": [
     {"parametro": "Arames rompidos — cabo comum", "valor": "6 em 6 diâmetros, ou 3 numa perna em 6 diâmetros", "item": "7-2.4.3 (b)(1)", "cota": "esquemas/guincho-descarte-cabo-6d.svg#6d"},
-    {"parametro": "Arames rompidos — antigiratório", "valor": "2 em 6 diâmetros ou 4 em 30 diâmetros", "item": "7-2.4.3 (b)(1)"},
+    {"parametro": "Arames rompidos — antigiratório", "valor": "2 em 6 diâmetros ou 4 em 30 diâmetros", "item": "7-2.4.3 (b)(1)", "cota": "esquemas/guincho-descarte-cabo-6d.svg#6d"},
     {"parametro": "Redução do Ø nominal", "valor": "> 5 %", "item": "7-2.4.3 (b)", "cota": "esquemas/guincho-descarte-cabo-6d.svg#d"}
-   ]
+   ],
+   "figuras": ["esquemas/guincho-descarte-cabo-6d.svg"]
   }
  ]
 }

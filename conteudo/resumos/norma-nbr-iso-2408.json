@@ -22,13 +22,14 @@
   {"titulo": "Dimensões", "item": "4.4",
    "texto": "O cabo é designado pelo diâmetro nominal; o diâmetro medido fica numa faixa só positiva em relação ao nominal (Tabela 2, por faixa de diâmetro e tipo de perna/alma), e a diferença entre medições tem limite (Tabela 3). Passo e comprimento entregue também são limitados.",
    "valores": [
-    {"parametro": "Tolerância de diâmetro", "valor": "0 a +5 % … +9 % conforme diâmetro e tipo de alma", "item": "Tab. 2", "nota": "tabela de OCR parcial — conferir a faixa de cada diâmetro"},
-    {"parametro": "Passo do cabo 6×7", "valor": "≤ 8d", "item": "4.4.2"},
-    {"parametro": "Passo de cabos de pernas perfiladas (triangulares)", "valor": "≤ 10d", "item": "4.4.2"},
+    {"parametro": "Tolerância de diâmetro", "valor": "0 a +5 % … +9 % conforme diâmetro e tipo de alma", "item": "Tab. 2", "nota": "tabela de OCR parcial — conferir a faixa de cada diâmetro", "cota": "esquemas/lingadas-acessorios-diametro-cabo.svg#d"},
+    {"parametro": "Passo do cabo 6×7", "valor": "≤ 8d", "item": "4.4.2", "cota": "esquemas/lingadas-acessorios-cabo-torcao-medicao.svg#passo"},
+    {"parametro": "Passo de cabos de pernas perfiladas (triangulares)", "valor": "≤ 10d", "item": "4.4.2", "cota": "esquemas/lingadas-acessorios-cabo-torcao-medicao.svg#passo"},
     {"parametro": "Comprimento entregue — ≤ 400 m", "valor": "0 a +5 %", "item": "4.4.3"},
     {"parametro": "Comprimento entregue — 400 a 1 000 m", "valor": "0 a +20 m", "item": "4.4.3"},
     {"parametro": "Comprimento entregue — > 1 000 m", "valor": "0 a +2 %", "item": "4.4.3"}
-   ]},
+   ],
+   "figuras": ["esquemas/lingadas-acessorios-diametro-cabo.svg", "esquemas/lingadas-acessorios-cabo-torcao-medicao.svg"]},
   {"titulo": "Carga de ruptura", "item": "4.5, Tab. 4",
    "texto": "A carga de ruptura mínima Fmin vem das Tabelas C.1 a C.14 (ou é declarada pelo fabricante); diâmetros intermediários pela fórmula do Anexo D. O ensaio de ruptura deve dar Fm ≥ Fmin. Frequência de ensaio depende de o fabricante ter ISO 9001 certificada e de produzir em série; com ensaio de tipo, ensaio periódico a cada 20 lances de produção.",
    "valores": [
@@ -41,11 +42,12 @@
    "texto": "Diâmetro: em trecho reto, sem tração ou com menos de 5 % de Fmin, em duas posições a ≥ 1 m, duas leituras a 90° do círculo circunscrito. Ruptura: Método 1 (medida, NBR ISO 3108), Método 2 (soma dos arames retirados do cabo × fator de perda), Método 3 (soma dos arames antes do encablamento × fator total de perda do ensaio de tipo). Se os métodos 2/3 não atingirem Fmin, refazer pelo Método 1.",
    "valores": [
     {"parametro": "Tração máxima na medição do diâmetro", "valor": "< 5 % de Fmin", "item": "5.3"},
-    {"parametro": "Comprimento livre mínimo no ensaio de ruptura", "valor": "maior de 600 mm ou 30d", "item": "5.4.1 b)"},
+    {"parametro": "Comprimento livre mínimo no ensaio de ruptura", "valor": "maior de 600 mm ou 30d", "item": "5.4.1 b)", "cota": "esquemas/lingadas-acessorios-cabo-ensaio-ruptura.svg#comprimento-livre"},
     {"parametro": "Taxa de carga após 80 % de Fmin", "valor": "≤ 0,5 % de Fmin por segundo", "item": "5.4.1 c)"},
-    {"parametro": "Ensaio desconsiderado", "valor": "ruptura a até 6d da garra sem atingir Fmin", "item": "5.4.1 e)"},
+    {"parametro": "Ensaio desconsiderado", "valor": "ruptura a até 6d da garra sem atingir Fmin", "item": "5.4.1 e)", "cota": "esquemas/lingadas-acessorios-cabo-ensaio-ruptura.svg#zona-garra"},
     {"parametro": "Reensaio", "valor": "3 ensaios extras; um deve atingir Fmin", "item": "5.4.1 f)"}
-   ]},
+   ],
+   "figuras": ["esquemas/lingadas-acessorios-cabo-ensaio-ruptura.svg"]},
   {"titulo": "Certificado, embalagem e anexos", "item": "6, Anexos A–G",
    "texto": "Certificado com designação, Fmin e resultados; marcação na bobina/carretel. Anexos: A arames (tolerâncias, torções, zinco); B ensaio de tipo; C tabelas de Fmin e massa por classe; D fatores de carga de ruptura e de perda; E defeitos; F diâmetros métricos × polegadas; G comparação de categorias.",
    "valores": []}

@@ -9,9 +9,10 @@
    "valores": [
     {"parametro": "Carga de prova — até 50 t", "valor": "200 % da nominal", "item": "Tabela 10-1.7-1"},
     {"parametro": "Carga de prova — 150 t ou mais", "valor": "133 % da nominal", "item": "Tabela 10-1.7-1"},
-    {"parametro": "Aumento permanente da garganta após prova", "valor": "≤ maior entre 1 % e 0,5 mm", "item": "10-1.7"},
+    {"parametro": "Aumento permanente da garganta após prova", "valor": "≤ maior entre 1 % e 0,5 mm", "item": "10-1.7", "cota": "esquemas/lingadas-acessorios-gancho-angulos-remocao.svg#abertura-garganta"},
     {"parametro": "Temperatura que exige consulta ao fabricante", "valor": "> 204 °C ou < −40 °C", "item": "10-1.9.1"}
-   ]
+   ],
+   "figuras": ["esquemas/lingadas-acessorios-gancho-angulos-remocao.svg"]
   },
   {
    "titulo": "Inspeção e remoção",
@@ -31,8 +32,9 @@
    "valores": [
     {"parametro": "Ângulo incluído entre pernas no gancho", "valor": "≤ 90°", "item": "10-1.11.1", "cota": "esquemas/lingadas-acessorios-gancho-angulos-remocao.svg#angulo-incluido"},
     {"parametro": "Ângulo de cada perna com o eixo do gancho", "valor": "≤ 45°", "item": "10-1.11.1", "cota": "esquemas/lingadas-acessorios-gancho-angulos-remocao.svg#angulo-perna"},
-    {"parametro": "Mais de 2 pernas ou > 45°", "valor": "usar anel coletor (elo ou manilha)", "item": "10-1.11.1"}
-   ]
+    {"parametro": "Mais de 2 pernas ou > 45°", "valor": "usar anel coletor (elo ou manilha)", "item": "10-1.11.1", "cota": "esquemas/lingadas-acessorios-gancho-angulos-remocao.svg#angulo-perna"}
+   ],
+   "figuras": ["esquemas/lingadas-acessorios-gancho-angulos-remocao.svg"]
   }
  ]
 }

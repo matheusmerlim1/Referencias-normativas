@@ -31,10 +31,11 @@
     {"parametro": "Força média — ambiente / quente, frio, úmido", "valor": "≤ 6 kN / ≤ 7 kN", "item": "3.3.1"},
     {"parametro": "Distância de parada", "valor": "≤ 1067 mm (42 in)", "item": "3.3.1", "cota": "esquemas/ancoragem-linha-de-vida-retratil.svg#parada"},
     {"parametro": "SRL-R — carga de içamento/retenção", "valor": "125 % da capacidade máxima", "item": "3.3.4"},
-    {"parametro": "SRL-R — parada ao soltar o comando", "valor": "≤ 102 mm", "item": "3.3.4"},
+    {"parametro": "SRL-R — parada ao soltar o comando", "valor": "≤ 102 mm", "item": "3.3.4", "cota": "esquemas/ancoragem-linha-de-vida-retratil.svg#parada"},
     {"parametro": "SRL-R — velocidade", "valor": "≤ 0,6 m/s", "item": "3.3.4"},
     {"parametro": "SRL-R motorizado — limite de içamento", "valor": "não pode içar 250 % da capacidade", "item": "3.3.4"}
-   ]
+   ],
+   "figuras": ["esquemas/ancoragem-linha-de-vida-retratil.svg"]
   },
   {
    "titulo": "Retração",
@@ -42,9 +43,10 @@
    "texto": "A mola mantém a linha esticada com força dentro de uma faixa, e com o aparelho recolhido sobra pouca linha para fora.",
    "valores": [
     {"parametro": "Tensão de retração", "valor": "5,55 a 111,1 N", "item": "3.5.1"},
-    {"parametro": "Linha estendida com o SRD recolhido — SRL/SRL-R", "valor": "≤ 610 mm", "item": "3.5.2"},
-    {"parametro": "Linha estendida — Classe 2 e SRL-P", "valor": "≤ 1219 mm", "item": "3.5.2"}
-   ]
+    {"parametro": "Linha estendida com o SRD recolhido — SRL/SRL-R", "valor": "≤ 610 mm", "item": "3.5.2", "cota": "esquemas/ancoragem-linha-de-vida-retratil.svg#linha-recolhida"},
+    {"parametro": "Linha estendida — Classe 2 e SRL-P", "valor": "≤ 1219 mm", "item": "3.5.2", "cota": "esquemas/ancoragem-linha-de-vida-retratil.svg#linha-recolhida"}
+   ],
+   "figuras": ["esquemas/ancoragem-linha-de-vida-retratil.svg"]
   },
   {
    "titulo": "Marcação, instruções e inspeção",

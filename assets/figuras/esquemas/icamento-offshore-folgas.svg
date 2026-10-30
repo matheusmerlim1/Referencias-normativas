@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" aria-label="Içamento offshore — folgas, movimento relativo e inclinação da carga">
+<title>Içamento offshore — folgas, movimento relativo e inclinação da carga (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+
+<text class="t" x="20" y="28">Içamento offshore — folgas, movimento relativo e inclinação da carga</text>
+<rect x="20" y="500" width="960" height="20" fill="url(#hach)" stroke="#666" stroke-width="1"/>
+<text class="n" x="700" y="492">fundo do mar</text>
+<line class="h" x1="20" y1="330" x2="980" y2="330"/>
+<text class="n en" x="790" y="323">nível do mar</text>
+<path class="s" d="M60,300 L380,300 L360,380 L90,380 Z"/>
+<text class="n m" x="220" y="345">embarcação-guindaste</text>
+<rect class="s" x="300" y="240" width="30" height="60"/>
+<line x1="315" y1="245" x2="560" y2="90" stroke="#666" stroke-width="8" stroke-linecap="round"/>
+<text class="n" x="455" y="128">lança</text>
+<line class="g" x1="560" y1="90" x2="560" y2="176"/>
+<circle class="g" cx="560" cy="182" r="6"/>
+<line x1="560" y1="188" x2="510.8" y2="224.9" stroke="#666" stroke-width="2"/>
+<line x1="560" y1="188" x2="598.8" y2="206.2" stroke="#666" stroke-width="2"/>
+<rect class="s" x="515" y="215" width="90" height="50" transform="rotate(-12 560 240)"/>
+<text class="n m b" x="560" y="246">carga</text>
+<rect class="s" x="780" y="150" width="180" height="25"/>
+<line x1="810" y1="175" x2="810" y2="500" stroke="#666" stroke-width="7"/>
+<line x1="930" y1="175" x2="930" y2="500" stroke="#666" stroke-width="7"/>
+<line x1="810" y1="300" x2="930" y2="420" stroke="#666" stroke-width="3"/>
+<line x1="930" y1="300" x2="810" y2="420" stroke="#666" stroke-width="3"/>
+<text class="n m" x="870" y="125">estrutura existente</text>
+<text class="n m" x="870" y="142">(elemento crítico)</text>
+<g id="cota-carga-lanca" class="cota"><line class="e" x1="510.8" y1="224.9" x2="510.8" y2="192"/><line class="d" x1="386" y1="200" x2="510.8" y2="200" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="448" y="192">carga ↔ lança</text></g>
+<g id="cota-carga-estrutura" class="cota"><line class="e" x1="610" y1="232" x2="610" y2="262"/><line class="d" x1="610" y1="240" x2="806" y2="240" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="708" y="232">carga ↔ estrutura</text></g>
+<g id="cota-inclinacao" class="cota"><line class="h" x1="521.2" y1="273.8" x2="650" y2="273.8"/><line class="h" x1="609.2" y1="255.1" x2="638.6" y2="248.8"/><path class="d" d="M631.2,273.8 A110,110 0 0,0 628.8,250.9" marker-end="url(#a)"/><text x="640" y="268">inclinação</text></g>
+<g id="cota-movimento-vertical" class="cota"><line class="e" x1="478" y1="225" x2="508" y2="225"/><line class="h" x1="478" y1="285" x2="525" y2="285"/><line class="d" x1="488" y1="225" x2="488" y2="285" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="470" y="318">movimento vertical relativo</text></g>
+<g id="cota-contato-critico" class="cota"><line class="d" x1="366" y1="355" x2="806" y2="355" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="590" y="374">distância até o 1º contato (perda de posição)</text></g>
+<g id="cota-folga-quilha" class="cota"><line class="d" x1="225" y1="380" x2="225" y2="500" marker-start="url(#a)" marker-end="url(#a)"/><text x="235" y="445">folga sob a quilha</text></g>
+<text class="n" x="20" y="548">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

@@ -17,19 +17,21 @@
     {"parametro": "d = 100 mm — R3S: prova / ruptura", "valor": "6 480 / 8 964 kN", "item": "Tab. 1"},
     {"parametro": "d = 100 mm — R4: prova / ruptura", "valor": "7 776 / 9 864 kN", "item": "Tab. 1"},
     {"parametro": "Massa linear — com / sem malhete", "valor": "0,0219·d² / 0,0202·d² kg/m (d em mm)", "item": "Tab. 1"},
-    {"parametro": "Comprimento de 5 elos", "valor": "22·d (mín.) a 22,55·d (máx.)", "item": "Tab. 1"},
+    {"parametro": "Comprimento de 5 elos", "valor": "22·d (mín.) a 22,55·d (máx.)", "item": "Tab. 1", "cota": "esquemas/lingadas-acessorios-amarra-malhete.svg#cinco-elos"},
     {"parametro": "Carga de prova de amarra sem malhete", "valor": "70 % da carga de ruptura (todos os graus)", "item": "Tab. 1, nota a"}
-   ]},
+   ],
+   "figuras": ["esquemas/lingadas-acessorios-amarra-malhete.svg"]},
   {"titulo": "Dimensões e tolerâncias", "item": "6.7",
    "texto": "Forma conforme Figura 1 ou desenho aprovado. Tolerância de diâmetro só para menos na curva com área preservada; na região da solda, consideração especial.",
    "valores": [
-    {"parametro": "Diâmetro — tolerância para mais", "valor": "+5 % de d", "item": "Tab. 2"},
-    {"parametro": "Diâmetro — para menos na curva (40–84 / 84–122 mm)", "valor": "−2 / −3 mm", "item": "Tab. 2"},
-    {"parametro": "Diâmetro — para menos em outras regiões", "valor": "0", "item": "Tab. 2"},
-    {"parametro": "Comprimento de cinco elos", "valor": "+2,5 %, nunca negativo", "item": "6.7.3"},
+    {"parametro": "Diâmetro — tolerância para mais", "valor": "+5 % de d", "item": "Tab. 2", "cota": "esquemas/lingadas-acessorios-amarra-malhete.svg#d"},
+    {"parametro": "Diâmetro — para menos na curva (40–84 / 84–122 mm)", "valor": "−2 / −3 mm", "item": "Tab. 2", "cota": "esquemas/lingadas-acessorios-amarra-malhete.svg#d-curva"},
+    {"parametro": "Diâmetro — para menos em outras regiões", "valor": "0", "item": "Tab. 2", "cota": "esquemas/lingadas-acessorios-amarra-malhete.svg#d"},
+    {"parametro": "Comprimento de cinco elos", "valor": "+2,5 %, nunca negativo", "item": "6.7.3", "cota": "esquemas/lingadas-acessorios-amarra-malhete.svg#cinco-elos"},
     {"parametro": "Demais dimensões", "valor": "± 2,5 %", "item": "6.7.4"},
-    {"parametro": "Malhete — descentralização / desvio angular", "valor": "≤ 10 % de d / ≤ 4° de 90°", "item": "6.7.5"}
-   ]},
+    {"parametro": "Malhete — descentralização / desvio angular", "valor": "≤ 10 % de d / ≤ 4° de 90°", "item": "6.7.5", "cota": "esquemas/lingadas-acessorios-amarra-malhete.svg#malhete-desc"}
+   ],
+   "figuras": ["esquemas/lingadas-acessorios-amarra-malhete.svg"]},
   {"titulo": "Solda de malhetes e elos de emenda", "item": "6.8–6.9",
    "texto": "Malhete soldado aceito em R3 e R3S (R4 só com aprovação especial), soldado antes do tratamento térmico, numa só ponta (lado oposto à solda de topo), por soldador qualificado com consumível de baixo hidrogênio. Elo de emenda feito por procedimento aprovado, com elo-gêmeo para ensaio, sem afetar os vizinhos.",
    "valores": [

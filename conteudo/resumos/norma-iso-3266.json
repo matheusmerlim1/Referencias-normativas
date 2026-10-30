@@ -110,8 +110,12 @@
     {
      "parametro": "Alinhamento do olho com a lingada",
      "valor": "± 5°",
-     "item": "11"
+     "item": "11",
+     "cota": "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg#desvio-plano"
     }
+   ],
+   "figuras": [
+    "esquemas/icamento-unidade-portatil-interface-olhal-manilha.svg"
    ]
   },
   {
@@ -122,13 +126,17 @@
     {
      "parametro": "Deformação do diâmetro do olho no ensaio",
      "valor": "≤ 0,5 %",
-     "item": "12.2"
+     "item": "12.2",
+     "cota": "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg#E"
     },
     {
      "parametro": "Lote — M8–M20 / M24–M48 / M52–M100",
      "valor": "≤ 1000 / ≤ 500 / ≤ 200",
      "item": "13.3.1, Tab. 5"
     }
+   ],
+   "figuras": [
+    "esquemas/lingadas-acessorios-eyebolt-iso3266-dimensoes.svg"
    ]
   },
   {

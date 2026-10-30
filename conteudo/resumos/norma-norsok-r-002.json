@@ -243,12 +243,14 @@
     {
      "parametro": "Inclinação em terra",
      "valor": "1°",
-     "item": "H.4.2"
+     "item": "H.4.2",
+     "cota": "esquemas/guindaste-ponte-rolante-banda-trim.svg#banda"
     },
     {
      "parametro": "Inclinação — fixa / semissub / barcaça / navio",
      "valor": "1°/1°; 3°/3°; 3°/2°; 5°/2° (banda/trim)",
-     "item": "H.4.2, Tab. H.4"
+     "item": "H.4.2, Tab. H.4",
+     "cota": "esquemas/guindaste-ponte-rolante-banda-trim.svg#banda"
     },
     {
      "parametro": "DAF da monovia",
@@ -268,8 +270,13 @@
     {
      "parametro": "Flecha vertical — vão / balanço",
      "valor": "≤ L/500 / ≤ L/250",
-     "item": "H.5.3"
+     "item": "H.5.3",
+     "cota": "esquemas/icamento-monovia-flecha.svg#flecha-vao"
     }
+   ],
+   "figuras": [
+    "esquemas/guindaste-ponte-rolante-banda-trim.svg",
+    "esquemas/icamento-monovia-flecha.svg"
    ]
   }
  ]

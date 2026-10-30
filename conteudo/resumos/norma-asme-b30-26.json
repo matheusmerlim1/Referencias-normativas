@@ -52,8 +52,9 @@
    "texto": "Fator de projeto e prova mínimos; elos soldados e conjuntos de elo mestre são provados antes do primeiro uso. Ângulo das pernas limitado; carga assimétrica pede análise. Destorcedor só posiciona: não gira sob carga e só trabalha em linha.",
    "valores": [
     {"parametro": "Fator de projeto / prova", "valor": "≥ 5 / ≥ 2 × a nominal", "item": "26-4.2; 26-4.4"},
-    {"parametro": "Ângulo horizontal mínimo em elos e anéis", "valor": "≥ 30°", "item": "26-4.9.4"}
-   ]
+    {"parametro": "Ângulo horizontal mínimo em elos e anéis", "valor": "≥ 30°", "item": "26-4.9.4", "cota": "esquemas/lingadas-acessorios-angulo-carga-horizontal.svg#angulo-horizontal"}
+   ],
+   "figuras": ["esquemas/lingadas-acessorios-angulo-carga-horizontal.svg"]
   },
   {
    "titulo": "Moitões e dinamômetros",

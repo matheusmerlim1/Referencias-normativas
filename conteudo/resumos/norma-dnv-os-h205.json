@@ -16,28 +16,36 @@
     {
      "parametro": "Carga ↔ lança / entre objetos",
      "valor": "≥ 3,0 m",
-     "item": "2.3.3.2"
+     "item": "2.3.3.2",
+     "cota": "esquemas/icamento-offshore-folgas.svg#carga-lanca"
     },
     {
      "parametro": "Carga ↔ outras estruturas",
      "valor": "≥ 5,0 m",
-     "item": "2.3.3.2"
+     "item": "2.3.3.2",
+     "cota": "esquemas/icamento-offshore-folgas.svg#carga-estrutura"
     },
     {
      "parametro": "Primeiro contato com elemento crítico (perda de posição)",
      "valor": "≥ 10,0 m (não crítico 5,0 m)",
-     "item": "2.3.3.5"
+     "item": "2.3.3.5",
+     "cota": "esquemas/icamento-offshore-folgas.svg#contato-critico"
     },
     {
      "parametro": "Folga sob a quilha",
      "valor": "≥ 3 m",
-     "item": "2.3.3.7"
+     "item": "2.3.3.7",
+     "cota": "esquemas/icamento-offshore-folgas.svg#folga-quilha"
     },
     {
      "parametro": "Movimento vertical relativo gancho–objeto",
      "valor": "≤ 2,0 m recomendado",
-     "item": "2.3.4.1"
+     "item": "2.3.4.1",
+     "cota": "esquemas/icamento-offshore-folgas.svg#movimento-vertical"
     }
+   ],
+   "figuras": [
+    "esquemas/icamento-offshore-folgas.svg"
    ]
   },
   {
@@ -90,8 +98,12 @@
     {
      "parametro": "Inclinação desprezável",
      "valor": "< 2°",
-     "item": "3.3.8.1"
+     "item": "3.3.8.1",
+     "cota": "esquemas/icamento-offshore-folgas.svg#inclinacao"
     }
+   ],
+   "figuras": [
+    "esquemas/icamento-offshore-folgas.svg"
    ]
   },
   {
