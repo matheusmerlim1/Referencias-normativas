@@ -31,11 +31,11 @@
      "parametro": "Espessura mín. do revestimento p/ ensaio de cisalhamento",
      "valor": "0,075 in [1,9 mm]",
      "item": "7.2.1",
-     "cota": "esquemas/asme-ii-chapa-espessura.svg#revestimento"
+     "cota": "esquemas/asme-ii-chapa-cladeada.svg#revestimento"
     }
    ],
    "figuras": [
-    "esquemas/asme-ii-chapa-espessura.svg"
+    "esquemas/asme-ii-chapa-cladeada.svg"
    ]
   },
   {
@@ -47,11 +47,11 @@
      "parametro": "Espessura total a partir da qual o ultrassom é obrigatório",
      "valor": "3/8 in [10 mm]",
      "item": "13.2.2",
-     "cota": "esquemas/asme-ii-chapa-espessura.svg#t-total"
+     "cota": "esquemas/asme-ii-chapa-cladeada.svg#t-total"
     }
    ],
    "figuras": [
-    "esquemas/asme-ii-chapa-espessura.svg"
+    "esquemas/asme-ii-chapa-cladeada.svg"
    ]
   },
   {

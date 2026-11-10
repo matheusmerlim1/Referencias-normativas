@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 420" width="1150" height="420" role="img" aria-label="Forjados — flange ou conexão, anel ou casco e eixo: maior seção, espessura e corpo de prova">
+<title>Forjados — flange ou conexão, anel ou casco e eixo: maior seção, espessura e corpo de prova (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .k{fill:none;stroke:#8c8c8c;stroke-width:10;stroke-linejoin:round;stroke-linecap:butt}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Forjados — flange ou conexão, anel ou casco e eixo: maior seção, espessura e corpo de prova</text>
+<text class="n b" x="40" y="70">flange forjado (meia seção)</text>
+<line class="c" x1="80" y1="96" x2="80" y2="270"/><text class="n m" x="80" y="288">eixo</text>
+<polygon points="110,110 140,110 170,200 320,200 320,250 110,250" fill="url(#hach)" stroke="#666" stroke-width="2"/>
+<text class="n" x="148" y="104">pescoço</text><text class="n m" x="95" y="186">furo</text>
+<g id="cota-secao" class="cota"><line class="e" x1="322" y1="200" x2="350" y2="200"/><line class="e" x1="322" y1="250" x2="350" y2="250"/><line class="d" x1="344" y1="200" x2="344" y2="250" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="344" y="186">maior seção</text></g>
+<text class="n" x="110" y="320">maior seção no tratamento térmico:</text><text class="n" x="110" y="338">define os limites da norma</text>
+<text class="n b" x="440" y="70">anel ou casco forjado (corte)</text>
+<rect x="470" y="120" width="40" height="170" fill="url(#hach)" stroke="#666" stroke-width="2"/><rect x="650" y="120" width="40" height="170" fill="url(#hach)" stroke="#666" stroke-width="2"/>
+<line class="c" x1="580" y1="104" x2="580" y2="306"/>
+<rect class="r" x="483" y="200" width="14" height="44"/>
+<g id="cota-t" class="cota"><line class="e" x1="470" y1="118" x2="470" y2="95"/><line class="e" x1="510" y1="118" x2="510" y2="95"/><line class="d" x1="470" y1="101" x2="510" y2="101" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="520" y="98">espessura T</text></g>
+<text class="n" x="440" y="330">CP (vermelho) retirado na posição que a</text><text class="n" x="440" y="348">norma define a partir da superfície e da ponta</text>
+<text class="n b" x="800" y="70">eixo ou barra forjada</text>
+<rect x="830" y="170" width="260" height="70" fill="url(#hach)" stroke="#666" stroke-width="2"/><line class="c" x1="816" y1="205" x2="1104" y2="205"/>
+<line class="d" x1="850" y1="270" x2="1070" y2="270" marker-end="url(#a)"/><text class="n m" x="960" y="292">direção do forjamento (fibra)</text>
+<text class="n" x="20" y="406">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

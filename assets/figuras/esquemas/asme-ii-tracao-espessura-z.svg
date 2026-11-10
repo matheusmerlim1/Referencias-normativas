@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 450" width="1150" height="450" role="img" aria-label="Tração na direção da espessura (direção Z) — corpo de prova, prolongadores e redução de área">
+<title>Tração na direção da espessura (direção Z) — corpo de prova, prolongadores e redução de área (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .k{fill:none;stroke:#8c8c8c;stroke-width:10;stroke-linejoin:round;stroke-linecap:butt}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Tração na direção da espessura (direção Z) — corpo de prova, prolongadores e redução de área</text>
+<text class="n b" x="40" y="70">chapa (corte)</text>
+<rect class="s" x="80" y="180" width="380" height="70"/><rect class="r" x="252" y="180" width="26" height="70"/>
+<line class="e" x1="265" y1="178" x2="265" y2="140"/><text class="n m" x="265" y="132">CP com eixo perpendicular à superfície</text>
+<line class="d" style="stroke-width:2" x1="120" y1="300" x2="120" y2="262" marker-end="url(#a)"/><text class="b" x="130" y="290">Z</text><text class="n" x="146" y="290">(direção da espessura)</text>
+<g id="cota-t" class="cota"><line class="e" x1="462" y1="180" x2="490" y2="180"/><line class="e" x1="462" y1="250" x2="490" y2="250"/><line class="d" x1="484" y1="180" x2="484" y2="250" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="494" y="220">espessura t</text></g>
+<text class="n b" x="620" y="70">CP com prolongadores soldados</text>
+<g transform="translate(0,34)">
+<line class="d" style="stroke-width:2" x1="710" y1="80" x2="710" y2="50" marker-end="url(#a)"/><text class="b" x="720" y="62">P</text>
+<rect class="sl" x="690" y="82" width="40" height="88"/><rect class="s" x="696" y="170" width="28" height="80"/><rect class="sl" x="690" y="250" width="40" height="88"/>
+<polygon class="r" points="690,170 696,170 696,178"/><polygon class="r" points="730,170 724,170 724,178"/><polygon class="r" points="690,250 696,250 696,242"/><polygon class="r" points="730,250 724,250 724,242"/>
+<line class="d" style="stroke-width:2" x1="710" y1="340" x2="710" y2="370" marker-end="url(#a)"/><text class="b" x="720" y="368">P</text>
+<text class="n" x="742" y="126">prolongador</text><text class="n" x="742" y="174">solda</text><text class="n" x="742" y="214">material da chapa</text><text class="n" x="742" y="296">prolongador</text>
+</g>
+<text class="n b" x="900" y="70">redução de área</text>
+<polygon class="s" points="960,110 1020,110 1020,180 1004,215 1020,250 1020,320 960,320 960,250 976,215 960,180"/>
+<text class="n" x="1030" y="219">estricção</text>
+<text class="n" x="900" y="350">quanto a seção diminui na</text><text class="n" x="900" y="368">estricção até a ruptura</text>
+<text class="n" x="20" y="436">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

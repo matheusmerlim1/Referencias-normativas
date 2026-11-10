@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 400" width="1150" height="400" role="img" aria-label="Produtos de aço estrutural — chapa, perfil laminado, perfil formado a frio e barra">
+<title>Produtos de aço estrutural — chapa, perfil laminado, perfil formado a frio e barra (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .k{fill:none;stroke:#8c8c8c;stroke-width:10;stroke-linejoin:round;stroke-linecap:butt}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Produtos de aço estrutural — chapa, perfil laminado, perfil formado a frio e barra</text>
+<text class="n b" x="40" y="70">chapa (corte)</text>
+<rect class="s" x="60" y="170" width="170" height="40"/>
+<g id="cota-t" class="cota"><line class="e" x1="232" y1="170" x2="258" y2="170"/><line class="e" x1="232" y1="210" x2="258" y2="210"/><line class="d" x1="252" y1="170" x2="252" y2="210" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="262" y="195">t</text></g>
+<text class="n b" x="330" y="70">perfil I laminado</text>
+<polygon class="s" points="350,120 510,120 510,138 438,138 438,282 510,282 510,300 350,300 350,282 422,282 422,138 350,138"/>
+<g id="cota-tf" class="cota"><line class="e" x1="512" y1="120" x2="540" y2="120"/><line class="e" x1="512" y1="138" x2="540" y2="138"/><line class="d" x1="534" y1="96" x2="534" y2="120" marker-end="url(#a)"/><line class="d" x1="534" y1="162" x2="534" y2="138" marker-end="url(#a)"/><text class="" x="544" y="134">tf (mesa)</text></g>
+<text class="n" x="446" y="214">tw (alma)</text>
+<text class="n b" x="640" y="70">perfil U enrijecido formado a frio</text>
+<path class="k" d="M790,152 L790,120 L700,120 L700,300 L790,300 L790,268"/>
+<g id="cota-t-frio" class="cota"><line class="d" x1="666" y1="210" x2="695" y2="210" marker-end="url(#a)"/><line class="d" x1="734" y1="210" x2="705" y2="210" marker-end="url(#a)"/><text class="" x="716" y="200">t</text></g>
+<text class="n" x="640" y="330">chapa ou tira dobrada a frio</text>
+<text class="n b" x="940" y="70">barra chata</text>
+<rect x="950" y="180" width="140" height="30" fill="url(#hach)" stroke="#666" stroke-width="2"/><text class="n m" x="1020" y="240">largura × espessura</text>
+<text class="n" x="20" y="386">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

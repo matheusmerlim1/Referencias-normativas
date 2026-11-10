@@ -240,8 +240,13 @@ Lotes 1–7 feitos (30/out): todo valor geométrico tem cota e todo resumo tem d
    → RP-H104/NR445-B; protecao-catodica → RP-B401; processo-offshore-layout → RP 14J, OS-E201, ABS gasdisp), END por método
    (end-radiografia, end-ultrassom, end-superficie-pt-mt-acfm, end-emissao-acustica → Seção V SE/SD), poco-coluna-revestimento
    (5CT, 5D, 7-1, 7K, 10D), ensaio-aderencia-corrosao (D4541, G48, SB-858, ISO 15156), ensaio-plasticos (D1238, D955, D618).
-   build.py agora RECUSA SVG com XML inválido ('<'/'&' solto em rótulo). 319 SVG. Próximo: seguir trocando genéricos
-   (asme-ii-chapa-espessura 118, tubo-diametros-parede 92, arame 68, fundido 32 — specs SA/SB: por tipo de produto/ensaio).
+   build.py agora RECUSA SVG com XML inválido ('<'/'&' solto em rótulo). 319 SVG.
+   LOTE 9 (10/nov, feito em outra máquina SEM a camada local — só resumos públicos + SVG): asme-ii-chapa-espessura (118) trocado
+   e APAGADO → asme-ii-chapa-vaso (35; cotas t, t-max, t-normalizacao, largura, comprimento), asme-ii-chapa-folha-tira (36;
+   t, largura, abaulamento, planicidade), asme-ii-chapa-cladeada (3), asme-ii-forjado (28; secao, t), asme-ii-estrutural-produtos
+   (SA-6/572/283, AISI S100 #t-frio, AWS D1.1), asme-ii-tracao-espessura-z (SA-770), vaso-conformacao-frio (UCS-79); UT de chapa →
+   asme-ii-chapa-ultrassom (+cota-t), SA-388/745 → end-ultrassom, SA-275 → end-superficie-pt-mt-acfm.
+   Próximo: seguir trocando genéricos (tubo-diametros-parede 93, asme-ii-arame-diametro 68, asme-ii-fundido 32 — por tipo de produto/ensaio).
 1. **Cotas nos resumos** — faltam ~1 049 valores dimensionais sem cota em 316 resumos. Um agente por vez, por lote. O agente:
    reutiliza SVG existentes (acrescenta grupo `cota-<nome>` sem quebrar os que já existem), só cria SVG novo DO ZERO (só rótulos,
    nunca números; rodapé "Esquema ilustrativo (não é desenho da norma) — sem escala."), põe `"cota"` no valor e o SVG em `figuras`

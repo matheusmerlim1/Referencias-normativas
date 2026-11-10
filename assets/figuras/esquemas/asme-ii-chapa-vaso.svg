@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 600" width="1150" height="600" role="img" aria-label="Chapa grossa para vaso de pressão — espessura, dimensões, corpos de prova e limite de tratamento">
+<title>Chapa grossa para vaso de pressão — espessura, dimensões, corpos de prova e limite de tratamento (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .k{fill:none;stroke:#8c8c8c;stroke-width:10;stroke-linejoin:round;stroke-linecap:butt}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Chapa grossa para vaso de pressão — espessura, dimensões, corpos de prova e limite de tratamento</text>
+<text class="n b" x="40" y="70">chapa (vista de cima)</text>
+<rect class="s" x="80" y="100" width="380" height="200"/>
+<line class="d" x1="110" y1="276" x2="250" y2="276" marker-end="url(#a)"/><text class="n" x="110" y="266">direção de laminação</text>
+<rect class="r" x="420" y="112" width="16" height="64"/><text class="n en" x="410" y="134">corpo de prova</text><text class="n en" x="410" y="151">(local e direção pela SA-20)</text>
+<line class="c" x1="300" y1="88" x2="300" y2="312"/><text class="n b m" x="300" y="84">A</text><text class="n b m" x="300" y="327">A</text>
+<g id="cota-comprimento" class="cota"><line class="e" x1="80" y1="302" x2="80" y2="344"/><line class="e" x1="460" y1="302" x2="460" y2="344"/><line class="d" x1="80" y1="338" x2="460" y2="338" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="270" y="358">comprimento</text></g>
+<g id="cota-largura" class="cota"><line class="e" x1="78" y1="100" x2="50" y2="100"/><line class="e" x1="78" y1="300" x2="50" y2="300"/><line class="d" x1="56" y1="100" x2="56" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="42" y="200" transform="rotate(-90 42 200)">largura</text></g>
+<text class="n b" x="560" y="70">corte A-A (espessura)</text>
+<rect class="s" x="580" y="150" width="340" height="80"/>
+<rect class="w" x="610" y="166" width="54" height="12"/><rect class="w" x="680" y="166" width="54" height="12"/>
+<text class="n" x="580" y="258">CPs de tração e Charpy: posição na espessura pela SA-20</text>
+<g id="cota-t" class="cota"><line class="e" x1="922" y1="150" x2="950" y2="150"/><line class="e" x1="922" y1="230" x2="950" y2="230"/><line class="d" x1="944" y1="150" x2="944" y2="230" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="956" y="195">t (espessura nominal)</text></g>
+<text class="n b" x="40" y="420">quando a norma liga o tratamento térmico à espessura</text>
+<rect class="sl" x="80" y="440" width="420" height="30"/><text class="n m" x="290" y="460">abaixo do limite: fornecimento livre ou opcional</text>
+<rect class="s" x="500" y="440" width="480" height="30"/><text class="n m" x="740" y="460">acima do limite: tratamento térmico obrigatório</text>
+<line class="g" x1="80" y1="470" x2="1080" y2="470" marker-end="url(#a)"/><text class="b" x="1090" y="475">t</text>
+<line class="e" x1="80" y1="472" x2="80" y2="540"/>
+<g id="cota-t-normalizacao" class="cota"><line class="e" x1="500" y1="440" x2="500" y2="500"/><line class="d" x1="80" y1="494" x2="500" y2="494" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="290" y="514">espessura-limite do tratamento</text></g>
+<g id="cota-t-max" class="cota"><line class="e" x1="980" y1="440" x2="980" y2="540"/><line class="d" x1="80" y1="534" x2="980" y2="534" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="530" y="556">espessura máxima coberta (por grau)</text></g>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

@@ -38,7 +38,7 @@
 <rect class="s" x="640" y="150" width="440" height="120"/>
 <rect class="w" x="700" y="215" width="16" height="55"/>
 <polygon class="w" points="835,271 845,246 855,271"/>
-<line class="e" x1="622" y1="150" x2="638" y2="150"/><line class="e" x1="622" y1="270" x2="638" y2="270"/><line class="d" x1="628" y1="150" x2="628" y2="270" marker-start="url(#a)" marker-end="url(#a)"/><text x="612" y="216">t</text>
+<g id="cota-t" class="cota"><line class="e" x1="622" y1="150" x2="638" y2="150"/><line class="e" x1="622" y1="270" x2="638" y2="270"/><line class="d" x1="628" y1="150" x2="628" y2="270" marker-start="url(#a)" marker-end="url(#a)"/><text x="612" y="216">t</text></g>
 <g id="cota-entalhe-profundidade" class="cota"><line class="e" x1="857" y1="246" x2="892" y2="246"/><line class="e" x1="857" y1="270" x2="892" y2="270"/><line class="d" x1="886" y1="222" x2="886" y2="246" marker-end="url(#a)"/><line class="d" x1="886" y1="294" x2="886" y2="270" marker-end="url(#a)"/><text x="896" y="262">profundidade do entalhe</text></g>
 <g id="cota-furo-referencia" class="cota"><line class="e" x1="700" y1="272" x2="700" y2="300"/><line class="e" x1="716" y1="272" x2="716" y2="300"/><line class="d" x1="676" y1="294" x2="700" y2="294" marker-end="url(#a)"/><line class="d" x1="740" y1="294" x2="716" y2="294" marker-end="url(#a)"/><text x="646" y="320">Ø do furo de referência</text></g>
 <text class="n b" x="900" y="326">vista por baixo</text>

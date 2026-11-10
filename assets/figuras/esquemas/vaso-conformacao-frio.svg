@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 420" width="1150" height="420" role="img" aria-label="Conformação a frio de casco — espessura antes da conformação, raio final e alongamento da fibra">
+<title>Conformação a frio de casco — espessura antes da conformação, raio final e alongamento da fibra (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .k{fill:none;stroke:#8c8c8c;stroke-width:10;stroke-linejoin:round;stroke-linecap:butt}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Conformação a frio de casco — espessura antes da conformação, raio final e alongamento da fibra</text>
+<text class="n b" x="40" y="70">chapa plana (antes)</text>
+<rect class="s" x="70" y="190" width="300" height="36"/>
+<g id="cota-t" class="cota"><line class="e" x1="372" y1="190" x2="400" y2="190"/><line class="e" x1="372" y1="226" x2="400" y2="226"/><line class="d" x1="394" y1="166" x2="394" y2="190" marker-end="url(#a)"/><line class="d" x1="394" y1="250" x2="394" y2="226" marker-end="url(#a)"/><text class="m" x="394" y="282">t antes da conformação</text></g>
+<line class="d" style="stroke-width:2" x1="470" y1="208" x2="580" y2="208" marker-end="url(#a)"/><text class="n m" x="525" y="196">calandragem</text>
+<text class="n b" x="620" y="70">casco conformado (corte)</text>
+<path class="s" d="M660,330 A200,200 0 0 1 1060,330 L1030,330 A170,170 0 0 0 690,330 Z"/>
+<line class="e" x1="850" y1="330" x2="870" y2="330"/><line class="e" x1="860" y1="320" x2="860" y2="340"/>
+<g id="cota-Rf" class="cota"><line class="d" x1="860" y1="330" x2="952" y2="170" marker-end="url(#a)"/><text class="" x="918" y="262">Rf</text></g>
+<text class="n" x="985" y="140">fibra externa alonga</text>
+<text class="n" x="620" y="370">Rf = raio final na linha média; a fibra externa alonga e a interna encurta</text>
+<text class="n" x="20" y="406">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

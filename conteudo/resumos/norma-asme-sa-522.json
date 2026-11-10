@@ -11,17 +11,17 @@
      "parametro": "Seção máx. — duplamente normalizado e revenido",
      "valor": "3 in [75 mm]",
      "item": "1.1",
-     "cota": "esquemas/asme-ii-chapa-espessura.svg#secao"
+     "cota": "esquemas/asme-ii-forjado.svg#secao"
     },
     {
      "parametro": "Seção máx. — temperado e revenido",
      "valor": "5 in [125 mm]",
      "item": "1.1",
-     "cota": "esquemas/asme-ii-chapa-espessura.svg#secao"
+     "cota": "esquemas/asme-ii-forjado.svg#secao"
     }
    ],
    "figuras": [
-    "esquemas/asme-ii-chapa-espessura.svg"
+    "esquemas/asme-ii-forjado.svg"
    ]
   },
   {
