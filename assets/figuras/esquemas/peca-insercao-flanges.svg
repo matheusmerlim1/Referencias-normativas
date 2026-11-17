@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 640" width="920" height="640" role="img" aria-label="Peças de inserção entre flanges — figura 8, raquete e espaçador">
+<title>Peças de inserção entre flanges — figura 8, raquete e espaçador (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .bl{fill:#5d8fc9;fill-opacity:.25;stroke:#4a77a8;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .p{fill:none;stroke:#4a77a8;stroke-width:3}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Peças de inserção entre flanges — figura 8, raquete e espaçador</text>
+<text class="b" x="20" y="62">(a) Figura 8 (vista frontal)</text>
+<circle class="s" cx="150" cy="220" r="90"/>
+<circle class="s" cx="390" cy="220" r="90"/>
+<circle class="w" cx="390" cy="220" r="55"/>
+<rect class="s" x="240" y="205" width="60" height="30"/>
+<circle class="c" cx="150" cy="220" r="115"/>
+<circle class="h" cx="256.246" cy="175.991" r="9"/>
+<circle class="h" cx="194.009" cy="113.754" r="9"/>
+<circle class="h" cx="105.991" cy="113.754" r="9"/>
+<circle class="h" cx="43.7539" cy="175.991" r="9"/>
+<circle class="h" cx="43.7539" cy="264.009" r="9"/>
+<circle class="h" cx="105.991" cy="326.246" r="9"/>
+<circle class="h" cx="194.009" cy="326.246" r="9"/>
+<circle class="h" cx="256.246" cy="264.009" r="9"/>
+<g id="cota-A" class="cota"><line class="d" x1="60" y1="220" x2="240" y2="220" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="110" y="212">A (Ø externo)</text></g>
+<g id="cota-B" class="cota"><line class="d" x1="335" y1="220" x2="445" y2="220" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="342" y="212">B (Ø interno)</text></g>
+<g id="cota-D" class="cota"><line class="d" x1="69" y1="301" x2="231" y2="139" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="20" y="370">D (círculo de furação do flange)</text></g>
+<text class="n" x="90" y="328">cego</text>
+<text class="n" x="340" y="328">espaçador</text>
+<text class="b" x="560" y="62">(b) Raquete e anel espaçador</text>
+<circle class="s" cx="660" cy="180" r="70"/>
+<rect class="s" x="725" y="170" width="120" height="20"/>
+<circle class="w" cx="830" cy="180" r="6"/>
+<g id="cota-cabo" class="cota"><line class="d" x1="860" y1="170" x2="860" y2="190" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="845" y1="170" x2="866" y2="170"/><line class="e" x1="845" y1="190" x2="866" y2="190"/><text class="n b" x="760" y="160">cabo (largura)</text></g>
+<circle class="s" cx="660" cy="330" r="70"/>
+<circle class="w" cx="660" cy="330" r="42"/>
+<rect class="s" x="725" y="320" width="120" height="20"/>
+<g id="cota-furo-id" class="cota"><circle class="w" cx="800" cy="330" r="4"/><line class="e" x1="800" y1="330" x2="830" y2="370"/><text class="n b" x="760" y="390">furo de identificação</text></g>
+<text class="b" x="20" y="430">(c) Montagem entre flanges (corte)</text>
+<g transform="translate(0,40)">
+<rect class="sl" x="80" y="470" width="140" height="40"/>
+<rect class="wd" x="220" y="450" width="20" height="80"/>
+<rect class="r" x="246" y="445" width="10" height="90"/>
+<rect class="wd" x="262" y="450" width="20" height="80"/>
+<rect class="sl" x="282" y="470" width="140" height="40"/>
+<g id="cota-T" class="cota"><line class="e" x1="246" y1="445" x2="246" y2="420"/><line class="e" x1="256" y1="445" x2="256" y2="420"/><line class="d" x1="220" y1="428" x2="246" y2="428" marker-end="url(#a)"/><line class="d" x1="282" y1="428" x2="256" y2="428" marker-end="url(#a)"/><text class="n b" x="290" y="426">T (espessura)</text></g>
+<line class="g" x1="150" y1="445" x2="150" y2="555"/>
+<text class="n" x="160" y="560">estojo (comprimento L)</text>
+</g>
+<text class="n" x="20" y="628">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

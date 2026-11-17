@@ -1,0 +1,38 @@
+{
+ "id": "PETROBRAS-N-0118",
+ "titulo": "Petrobras N-0118 Rev. E (10/2015) — Filtro temporário e filtro gaveta para tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo e critérios gerais",
+   "item": "1, 3.1–3.6",
+   "texto": "Padroniza os filtros temporários (de partida, montados entre flanges) e os filtros tipo gaveta ('tee strainer') das tubulações industriais, alinhados com o API RP 686. A tela ou chapa perfurada é escolhida pela viscosidade e pelos sólidos do fluido e pela perda de carga admissível; material compatível com o da linha (sem par galvânico). O furo vem da maior partícula que a máquina tolera (consultar o fabricante) ou da proteção do equipamento a jusante. O filtro temporário sai depois do comissionamento, antes da partida, e é instalado no sentido de fluxo mostrado no Anexo A.",
+   "valores": [
+    {"parametro": "Área livre mínima da tela do filtro temporário", "valor": "150 % da área livre da tubulação", "item": "3.6", "cota": "esquemas/filtro-temporario-gaveta.svg#cone-comprimento", "nota": "o comprimento do cone que garante essa área é calculado pelos Anexos B e C"},
+    {"parametro": "Furo típico do elemento", "valor": "6 mm (1/4 pol)", "item": "3.6.1", "cota": "esquemas/filtro-temporario-gaveta.svg#furo"},
+    {"parametro": "Pontos de solda do anel oval (flange FJA) no filtro", "valor": "NPS 1 1/2–6: 4; NPS 8–12: 8; NPS 14–24: 14", "item": "3.5"}
+   ],
+   "figuras": ["esquemas/filtro-temporario-gaveta.svg"]
+  },
+  {
+   "titulo": "Filtros temporários (FT)",
+   "item": "3.7.1, 3.8.1, Anexos B–C",
+   "texto": "Dois tipos: FT-CO, cônico ('chapéu de bruxa'), e FT-CT, tronco de cone ou cesto. Assentam entre flanges de face com ressalto, plana ou para junta de anel (anel oval B16.20); sempre com orelha soldada que fica para fora da junta e mostra que há filtro. Espessuras de chapa conforme as figuras; quando preciso, tela inox 304 ponteada por fora do cone. A orelha é puncionada com NPS, classe e tipo. O comprimento do cone (ou cone truncado) é calculado para dar a área de passagem mínima, com a chapa perfurada sozinha ou com tela.",
+   "valores": [
+    {"parametro": "Identificação na orelha", "valor": "ex.: NPS 4.600.FT-CO", "item": "3.8.1", "cota": "esquemas/filtro-temporario-gaveta.svg#orelha"},
+    {"parametro": "Comprimento do cone (B) — chapa perfurada", "valor": "função do Ø da base (A), do Ø do furo (D) e do nº de furos por cm²", "item": "B.1", "cota": "esquemas/filtro-temporario-gaveta.svg#cone-comprimento"}
+   ]
+  },
+  {
+   "titulo": "Filtros gaveta (FG)",
+   "item": "3.7.2, 3.8.2, Tabelas A.1–A.2",
+   "texto": "Filtro em tê com elemento filtrante removível, para linhas de aço-carbono classes 150 e 300, de 2 a 20 pol, numerados FG-101 a FG-176 (corpo) e EF-101 em diante (elemento). As tabelas dão, por NPS, classe e schedule, as cotas W, X e Y e o comprimento total do corpo e J, K, L do elemento. Plaquetas no corpo e no flange com o número do filtro, o material e a malha (ex.: FG-123-2C).",
+   "valores": [
+    {"parametro": "FG-101 (NPS 2, classe 150, Sch 40) — W / X / Y / comprimento total", "valor": "152 mm / 1/4 pol / 51 mm / 438 mm", "item": "Tabela A.1", "cota": "esquemas/filtro-temporario-gaveta.svg#gaveta-W"},
+    {"parametro": "FG-123 (NPS 6, classe 150, Sch 40) — W / X / Y / comprimento total", "valor": "308 mm / 3/8 pol / 76 mm / 864 mm", "item": "Tabela A.1", "cota": "esquemas/filtro-temporario-gaveta.svg#gaveta-W"},
+    {"parametro": "FG-147 (NPS 12, classe 150, Sch 30) — W / X / Y / comprimento total", "valor": "521 mm / 3/8 pol / 102 mm / 1 422 mm", "item": "Tabela A.1", "cota": "esquemas/filtro-temporario-gaveta.svg#gaveta-W"},
+    {"parametro": "EF-101 (NPS 2, classe 150, Sch 40) — J / K / L", "valor": "149 mm / 49 mm / 32 mm", "item": "Tabela A.2", "cota": "esquemas/filtro-temporario-gaveta.svg#elemento"},
+    {"parametro": "EF-123 (NPS 6, classe 150, Sch 40) — J / K / L", "valor": "305 mm / 151 mm / 86 mm", "item": "Tabela A.2", "cota": "esquemas/filtro-temporario-gaveta.svg#elemento"}
+   ]
+  }
+ ]
+}

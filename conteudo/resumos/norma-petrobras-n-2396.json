@@ -1,0 +1,45 @@
+{
+ "id": "PETROBRAS-N-2396",
+ "titulo": "Petrobras N-2396 Rev. B (08/2002) — END: inspeção automatizada de tubos de perfuração e produção",
+ "secoes": [
+  {
+   "titulo": "Escopo e técnicas",
+   "item": "1, 3",
+   "texto": "Condições mínimas para inspecionar, com equipamento automatizado, tubos sem costura de perfuração, revestimento e produção (drill pipe, casing, tubing) e hastes de bombeio: detecção de descontinuidades longitudinais e transversais, verificação de espessura de parede e comparação de grau do material, juntas ou separadas. Técnicas: inspeção eletromagnética (campo de fuga registrado graficamente), espessura por raios gama ou por ultrassom automático e comparação de grau por correntes parasitas. 'Pulser' = dispositivo que simula um campo de fuga padrão para equalizar as sapatas.",
+   "valores": [],
+   "figuras": ["esquemas/end-tubo-inspecao-automatizada.svg"]
+  },
+  {
+   "titulo": "Procedimento e calibração",
+   "item": "4.1–4.4",
+   "texto": "Inspetor qualificado pela N-2294. Procedimento identificado e qualificado em teste simulado, com material, aparelhagem, corrente de magnetização, sensibilidade e calibração, velocidades do carro/tubo, das bobinas e do papel, preparo da superfície, desmagnetização, rastreabilidade e critérios; mudar variáveis essenciais exige requalificação. Calibração com padrões das API 5CT/5D (ou o padrão da Fig. A-1), nunca só com pulser, no início de cada jornada e ao trocar componentes; verificação periódica e reinspeção do último lote se houver descalibração. Espessura calibrada no corpo do tubo ou em padrão com duas espessuras; grau calibrado com padrão de mesmo grau ou com os primeiros tubos do lote.",
+   "valores": [
+    {"parametro": "Furo do padrão para descontinuidade transversal", "valor": "Ø 1/16 pol (ou entalhe transversal) no centro de cada sapata", "item": "4.4.1.5", "cota": "esquemas/end-tubo-inspecao-automatizada.svg#furo-padrao"},
+    {"parametro": "Relação mínima sinal/ruído", "valor": "3:1", "item": "4.4.1.6"},
+    {"parametro": "Verificação da calibração", "valor": "a cada 26 tubos, ao suspeitar de falha e no fim da jornada (reinspecionar os 26 anteriores se descalibrado)", "item": "4.4.1.8"},
+    {"parametro": "Desvio aceito do registro no padrão", "valor": "≤ 30 % da altura estabelecida", "item": "4.4.1.9"},
+    {"parametro": "Variação de espessura ao longo do perímetro do padrão", "valor": "± 1 mm", "item": "4.4.2.1", "cota": "esquemas/end-tubo-inspecao-automatizada.svg#espessura-padrao"},
+    {"parametro": "Conferência manual da espessura", "valor": "o tubo mais fino de cada 26, com medidor portátil de ultrassom", "item": "4.4.2.2"},
+    {"parametro": "Calibração de grau com tubos do lote", "valor": "pelo menos os 5 primeiros tubos", "item": "4.4.3.1"}
+   ]
+  },
+  {
+   "titulo": "Velocidades, superfície e desmagnetização",
+   "item": "4.5–4.12",
+   "texto": "Inspeção na mesma velocidade da calibração, conferida a cada recalibração. A rotação da bobina de magnetização transversal (e do dispositivo de espessura) é limitada em função do número de sapatas, da velocidade de avanço e do comprimento do sensor. Tubo novo inspecionado como laminado; tubo usado limpo de parafina, corrosão grossa, cimento e óleo.",
+   "valores": [
+    {"parametro": "Rotação máxima da bobina transversal", "valor": "N ≤ η × V1 ÷ L (η sapatas; V1 em m/min; L = comprimento do sensor em m)", "item": "4.6", "nota": "fórmula reconstituída do texto extraído — conferir"},
+    {"parametro": "Relação de velocidades carro (ou tubo) / papel de registro", "valor": "≤ 15", "item": "4.8"},
+    {"parametro": "Magnetismo residual após desmagnetizar", "valor": "0 a 10 gauss", "item": "4.12"}
+   ]
+  },
+  {
+   "titulo": "Condições específicas, aceitação e registro",
+   "item": "5–7",
+   "texto": "Instrumentos elétricos aferidos anualmente e após reparo. O procedimento define a zona morta nas extremidades de cada tipo de tubo, que é coberta por inspeção manual com sobreposição; PM (yoke, condutor central ou bobina, N-1598) completa as áreas não ensaiadas e ajuda a localizar defeitos; redução de espessura ou defeito interno é confirmado por ultrassom (N-1594). Aceitação pelas API RP 5A5, 5C1, 7G e API 5CT/5D. Relatório com tubo (tipo, grau, Ø, espessura, peso), procedimento, aparelho, resultados, referência, laudo, data e inspetor; rastreabilidade entre peça e relatório.",
+   "valores": [
+    {"parametro": "Zona morta nas extremidades", "valor": "definida no procedimento por tipo de tubo; coberta por inspeção manual com sobreposição", "item": "5.2–5.3", "cota": "esquemas/end-tubo-inspecao-automatizada.svg#zona-morta"}
+   ]
+  }
+ ]
+}

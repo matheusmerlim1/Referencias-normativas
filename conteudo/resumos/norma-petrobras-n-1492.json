@@ -1,0 +1,24 @@
+{
+ "id": "PETROBRAS-N-1492",
+ "titulo": "Petrobras N-1492 Rev. H (12/2024) — Trocador de calor cascos e tubos: folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso dos formulários",
+   "item": "1, 3",
+   "texto": "Padroniza a folha de dados (formulário A4 de duas folhas) do trocador casco e tubos: Anexo A em unidades do sistema de engenharia (kgf/cm², kgf, kg/h) e Anexo B em SI (kPa, N, kg/s, W/(m²·K)). Uma vez preenchida, registra os requisitos do comprador e o projeto do fornecedor e passa a ser documento permanente do equipamento. Cabeçalho e rodapé pela N-381; identificação do trocador e preenchimento pela N-466. A 1ª emenda (04/2025) corrigiu unidades e incluiu campo para bocais intermediários.",
+   "valores": [
+    {"parametro": "Prazo para implantar a revisão", "valor": "até 180 dias após a publicação (ou plano de implantação)", "item": "folha de rosto"}
+   ],
+   "figuras": ["esquemas/trocador-casco-tubos.svg"]
+  },
+  {
+   "titulo": "Conteúdo da folha de dados",
+   "item": "Anexos A e B",
+   "texto": "Folha 1: identificação, índice de revisões. Folha 2: serviço, tipo TEMA, arranjo (série/paralelo), área por unidade e por casco; dados de operação dos lados casco e tubos (fluido, vazões de vapor, líquido, água e incondensáveis, temperaturas de entrada e saída, propriedades físicas, pressão de operação, velocidade, perda de pressão admissível e calculada, resistência de depósito, calor trocado, coeficientes de transferência sujo e limpo, ρV² no bocal e na entrada/saída do feixe); construção (pressão de projeto e teste, temperatura mínima e máxima, passes, sobre-espessura de corrosão, bocais com diâmetro e classe, inclusive intermediários); tubos (número, DE, espessura, comprimento, passo e arranjo, tipo); casco (DI/DE), chicanas transversais (tipo, corte %, espaçamento) e longitudinais, suporte de tubos, curva U, chapa defletora, ligação tubo-espelho, junta de expansão, juntas de vedação; materiais de cada componente; código e classe TEMA; classificação NR-13 (categoria/classe/grupo); serviço especial (H2, H2S úmido); pesos vazio, cheio de água e do feixe.",
+   "valores": [
+    {"parametro": "Dimensões de tubo informadas", "valor": "número de tubos, DE, espessura, comprimento, passo e arranjo", "item": "Folha 02", "cota": "esquemas/trocador-casco-tubos.svg#comprimento-expandido", "nota": "campos do formulário; não há valores numéricos na norma"},
+    {"parametro": "Dimensões do casco informadas", "valor": "DI e DE do casco; chicanas: corte (%) e espaçamento centro a centro", "item": "Folha 02", "cota": "esquemas/trocador-casco-tubos.svg#espessura-casco", "nota": "campos do formulário"}
+   ]
+  }
+ ]
+}

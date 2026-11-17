@@ -1,0 +1,49 @@
+{
+ "id": "PETROBRAS-N-1758",
+ "titulo": "Petrobras N-1758 Rev. E (11/2014) — Suporte, apoio e restrição para tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Padroniza os tipos de suporte e de restrição de movimento das tubulações apoiadas em dormentes e outras estruturas de refinarias e unidades de processamento do ASME B31.3 (para outros tipos de instalação vale o código correspondente). Não se aplica a tubulação em baixa temperatura. Os critérios de cálculo e de posição dos suportes vêm da N-57.",
+   "valores": [],
+   "figuras": ["esquemas/tubulacao-suportes-vaos.svg"]
+  },
+  {
+   "titulo": "Definições — apoios, restrições e suportes",
+   "item": "3",
+   "texto": "Apoio simples: vergalhão transversal entre tubo e suporte. Berço: chapa com a forma do tubo, solidária a ele, para distribuir a carga na parede. Patim: perfil soldado ao tubo que o afasta do suporte (típico de linha isolada). Restrições: âncora (bloqueia todas as direções), batente (bloqueia um sentido longitudinal) e guia (só deixa o movimento longitudinal ou transversal, ou uma combinação). Suporte direto leva a carga ao solo (metálico ou de concreto, N-1644); indireto passa por outra estrutura; ajustável compensa folgas (ex. curvas junto a bocais de bombas e turbinas); de baixo atrito usa rolete ou PTFE.",
+   "valores": [
+    {"parametro": "Vergalhão do apoio simples (topo de todo suporte direto)", "valor": "Ø 3/4 pol", "item": "3.1; 3.5.3", "cota": "esquemas/tubulacao-suportes-vaos.svg#vergalhao"}
+   ]
+  },
+  {
+   "titulo": "Condições gerais e codificação",
+   "item": "4–4.1",
+   "texto": "Toda linha deve ser suportada, apoiada, guiada e ancorada para limitar tensões e deslocamentos e proteger os bocais. Junto a bocais de máquinas rotativas e bocais inferiores de equipamentos de caldeiraria os suportes são reguláveis (montagem, teste e manutenção). Código ZZ-XY-L-M-N: ZZ = classe do suporte (símbolos da N-59/N-75), X = número do tipo, Y = letra opcional para pequena variação, L/M/N = dimensões do suporte quando houver.",
+   "valores": [
+    {"parametro": "Formato do código de suporte", "valor": "ZZ – XY – L – M – N", "item": "4.1"}
+   ]
+  },
+  {
+   "titulo": "Materiais, baixo atrito, pintura e solda",
+   "item": "4.2–4.8, Tabela 1",
+   "texto": "Materiais padrão da Tabela 1; parte soldada direto a tubo de aço-liga ou inox é da mesma liga do tubo. Em instalações marítimas, parafusos e porcas com revestimento Zn-Ni (ASTM B841) com alívio de hidrogênio. Suporte de baixo atrito: chapa de PTFE entre suporte e apoio. Pintura pela N-442, com frestas vedadas por solda ou massa. Cordões contínuos (só a solda de vergalhão sobre viga/chapa pode ser intermitente). Proteção passiva contra fogo (N-1756) entra como carga no dimensionamento; esforços confirmados no detalhamento.",
+   "valores": [
+    {"parametro": "Perfis / chapas / tubos", "valor": "ASTM A36 / ASTM A283 Gr C / API 5L Gr B", "item": "Tabela 1"},
+    {"parametro": "Parafusos e porcas / barras e vergalhões / arruelas", "valor": "A307 Gr B + A563 Gr A / SAE 1020 / A283", "item": "Tabela 1"},
+    {"parametro": "Chapa de PTFE do suporte de baixo atrito", "valor": "espessura 3/8 pol", "item": "4.4", "cota": "esquemas/tubulacao-suportes-vaos.svg#ptfe"}
+   ]
+  },
+  {
+   "titulo": "Tipos padronizados (Anexo B)",
+   "item": "4.3, Figs. A.2 e B.1–B.34",
+   "texto": "O índice figurativo (Fig. A.2) remete aos desenhos detalhados por família e faixa de diâmetro: A-1 (até 4 pol, 6–14, 16–24, 26–48 pol), A-2, BE-1, BR-1 a BR-3, G-1 e G-2, GT-1 e GT-2, P-1 (até 48 pol), PU-1, SD-1/SD-2, SE-1 a SE-8, SI-1 a SI-11, SP-1 e SC-1 (base de concreto com inserto metálico). Cada desenho traz dimensões, materiais e carga admissível da família.",
+   "valores": [
+    {"parametro": "Faixas de diâmetro do tipo P-1", "valor": "até 8 pol; 10–12; 14–24; 26–48 pol", "item": "Figs. B.11.1–B.11.4", "cota": "esquemas/tubulacao-suportes-vaos.svg#diametro", "nota": "dimensões de cada tipo estão nos desenhos da norma (texto de figura com fonte embaralhada no arquivo — conferir no original)"},
+    {"parametro": "Faixas de diâmetro do tipo G-1", "valor": "até 4 pol; 6–14; 16–24; 26–48 pol", "item": "Figs. B.7.1–B.7.4", "cota": "esquemas/tubulacao-suportes-vaos.svg#diametro"},
+    {"parametro": "Faixas de diâmetro do tipo A-1", "valor": "até 4 pol; 6–14; 16–24; 26–48 pol", "item": "Figs. B.1.1–B.1.4", "cota": "esquemas/tubulacao-suportes-vaos.svg#diametro"}
+   ]
+  }
+ ]
+}

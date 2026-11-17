@@ -1,0 +1,53 @@
+{
+ "id": "PETROBRAS-N-0076",
+ "titulo": "Petrobras N-0076 Rev. J (06/2025) — Materiais de tubulação para instalações de refino e transporte",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Catálogo de padronizações (\"specs\") de material de tubulação metálica nas classes 125 a 2500, e de PVC, PEAD e PRFV, para refino e transporte (instalações listadas na N-57). Vale para projetos novos e para manutenção ou reforma de instalações existentes. As classes de pressão são as das ASME B16.1, B16.5, B16.11, B16.24 e B16.47. Cada folha define, para cada componente, tipo, norma dimensional, material, extremidade e o código de material (anexos A a G ligados ao SAP).",
+   "valores": [],
+   "figuras": ["esquemas/tubulacao-processo-espessura-parede.svg"]
+  },
+  {
+   "titulo": "Como as padronizações são nomeadas e escolhidas",
+   "item": "3, Tabela 1",
+   "texto": "Cada folha tem duas letras: a maiúscula indica material básico e classe de pressão; a minúscula é a sequência cronológica. Aço-carbono: A (125), B (150), C (300), D (400), E (600), F (900), G (1500), H (2500); aços-liga e inox: J, L, M, N, O, P, Q, R na mesma ordem; T e U para ferro fundido, X e Z para diversos. K, W e Y ficam para casos não previstos; I, S e V para instrumentação (N-1931). A projetista escolhe a folha pelo fluido e pelas condições de projeto (a coluna 'serviço' é só orientativa); se nenhuma servir, cria uma folha do projeto pela N-1693, com número no lugar da 2ª letra e o código do órgão de origem, citada como 'não padronizada pela N-76'.",
+   "valores": [
+    {"parametro": "Exemplo de designação de folha de projeto", "valor": "B1 (PPC) = padronização B1 do CENPES", "item": "3.3 b)"}
+   ]
+  },
+  {
+   "titulo": "Lista das padronizações — exemplos",
+   "item": "4, Tabela 2",
+   "texto": "A Tabela 2 dá, para cada folha: norma básica, classe e tipo de face, sobre-espessura de corrosão, temperaturas mínima e máxima, material do tubo, trim das válvulas e serviços típicos. Exemplos das classes 125 e 150 abaixo; as demais seguem o mesmo formato.",
+   "valores": [
+    {"parametro": "Aa — classe 125 FP, aço-carbono", "valor": "corrosão 1,6 mm; 0 °C a 80 °C; água clarificada, industrial e de incêndio, ar de serviço, espuma", "item": "Tabela 2", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#c"},
+    {"parametro": "Ab — classe 125 FP, aço-carbono", "valor": "corrosão 3,2 mm; 0 °C a 80 °C; água de resfriamento e bruta", "item": "Tabela 2", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#c"},
+    {"parametro": "Ac — classe 125 FP, aço galvanizado", "valor": "sem corrosão adicional; 0 °C a 65 °C; ar e N2 de instrumentos, água potável, dilúvio", "item": "Tabela 2"},
+    {"parametro": "Ad / Ae / Af / Ag — aço-carbono com revestimento interno", "valor": "concreto ou epóxi (água salgada, até 80 °C); ebonite ou epóxi (água desmineralizada, ácido diluído, até 38 °C)", "item": "Tabela 2"},
+    {"parametro": "Ba — classe 150 FR, aço-carbono", "valor": "corrosão 1,6 mm; 0 °C a 400 °C; processo geral com hidrocarbonetos, álcool, nitrogênio", "item": "Tabela 2", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#c"},
+    {"parametro": "Bb — classe 150 FR, aço-carbono", "valor": "corrosão 1,6 mm; 0 °C a 150 °C; gás combustível, GLP, gás natural, soda (até 80 °C)", "item": "Tabela 2", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#c"},
+    {"parametro": "Bc — classe 150 FR, aço-carbono", "valor": "corrosão 3,2 mm; 0 °C a 260 °C; hidrocarbonetos corrosivos, DEA abaixo de 60 °C", "item": "Tabela 2", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#c"},
+    {"parametro": "Maior sobre-espessura de corrosão que aparece nas folhas", "valor": "6,4 mm (classe 150, aço-carbono, até 260 °C)", "item": "Tabela 2", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#c"}
+   ]
+  },
+  {
+   "titulo": "Notas gerais das folhas",
+   "item": "Notas da Tabela 2",
+   "texto": "As notas numeradas complementam as folhas: códigos de conexões por anexo, quando usar válvula testada a fogo (N-2546/NBR 15827), TTAT em serviço com DEA, NACE MR0103, controle de dureza pela N-115, cor e inibidor UV nos tubos não metálicos, faixa econômica de baixa temperatura com Charpy em todas as corridas, juntas de grafite resistente à oxidação em alta temperatura. A espessura padronizada do tubo é a maior entre as normas básicas da folha.",
+   "valores": [
+    {"parametro": "Diâmetros mínimos de uso", "valor": "NPS 1/2 só em tomadas de flange de orifício; NPS 3/4 em drenos e suspiros; NPS ≥ 1 em processo crítico/perigoso (N-57)", "item": "Nota 70", "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"},
+    {"parametro": "DEA — TTAT de soldas e trabalho a frio", "valor": "temperatura de operação acima de 60 °C (API RP 945)", "item": "Nota 71"},
+    {"parametro": "Fatores da NBR 12712 adotados nas espessuras", "valor": "E = 1; F = 0,5; T = 1", "item": "Nota 74"},
+    {"parametro": "Tubo de chapa cladeada como alternativa (A516 Gr 60 + TP317L)", "valor": "Ø ≥ 30 pol; espessura mínima do revestimento 3 mm", "item": "Nota 93", "cota": "esquemas/vaso-revestimento-metalico.svg#clad"},
+    {"parametro": "PEAD (NBR 15561) — fatores de cálculo", "valor": "FS = 1,25; SDR = 9", "item": "Nota 94", "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#t"},
+    {"parametro": "Sede resiliente de válvula para hidrocarboneto/álcool", "valor": "trabalho até 150 °C; limpeza com vapor até 180 °C", "item": "Nota 90"},
+    {"parametro": "Faixa econômica de baixa temperatura (inox 317L)", "valor": "−45 °C a −29 °C, com Charpy em todas as corridas (metal base, solda e ZAC)", "item": "Nota 100"},
+    {"parametro": "Junta de grafite flexível HT", "valor": "acima de 450 °C; perda de massa < 10 % (FSA-G-604-7, método A)", "item": "Nota 115"},
+    {"parametro": "Radiografia da solda longitudinal de fabricação (quando a nota se aplica)", "valor": "100 % (B31.3 344.5.1 / Tab. 341.3.2)", "item": "Nota 91"}
+   ],
+   "figuras": ["esquemas/tubulacao-processo-tubo-diametros-parede.svg"]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 510" width="900" height="510" role="img" aria-label="Radiografia computadorizada — espessura em serviço e juntas soldadas">
+<title>Radiografia computadorizada — espessura em serviço e juntas soldadas (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .bl{fill:#5d8fc9;fill-opacity:.25;stroke:#4a77a8;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .p{fill:none;stroke:#4a77a8;stroke-width:3}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Radiografia computadorizada — espessura em serviço e juntas soldadas</text>
+<text class="b" x="20" y="62">(a) Espessura de parede por técnica tangencial</text>
+<circle class="r" cx="300" cy="90" r="10"/>
+<text class="n" x="316" y="94">fonte</text>
+<circle class="s" cx="300" cy="260" r="90"/>
+<circle class="w" cx="300" cy="260" r="70"/>
+<text class="n" x="270" y="265">tubo</text>
+<line class="e" x1="300" y1="90" x2="196" y2="380"/>
+<line class="e" x1="300" y1="90" x2="404" y2="380"/>
+<rect class="bl" x="170" y="380" width="280" height="14"/>
+<text class="n" x="460" y="392">placa de fósforo (detector)</text>
+<g id="cota-espessura-imagem" class="cota"><rect class="r" x="200" y="394" width="20" height="10"/><rect class="r" x="380" y="394" width="20" height="10"/><line class="d" x1="196" y1="414" x2="220" y2="414" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="150" y="438">parede projetada na imagem</text></g>
+<text class="n" x="40" y="470">o isolamento pode ficar no lugar</text>
+<text class="b" x="520" y="62">(b) Junta soldada — parede simples, vista simples</text>
+<circle class="r" cx="700" cy="110" r="8"/>
+<g id="cota-fonte" class="cota"><line class="d" x1="680" y1="92" x2="720" y2="92" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="726" y="96">tamanho da fonte</text></g>
+<line class="e" x1="700" y1="118" x2="640" y2="300"/>
+<line class="e" x1="700" y1="118" x2="760" y2="300"/>
+<rect class="sl" x="560" y="300" width="280" height="30"/>
+<polygon class="wd" points="690,300 710,300 706,330 694,330"/>
+<text class="n" x="714" y="292">solda</text>
+<rect class="bl" x="560" y="330" width="280" height="10"/>
+<text class="n" x="560" y="360">placa de fósforo</text>
+<rect class="s" x="600" y="290" width="40" height="8"/>
+<text class="n" x="520" y="286">IQI fio duplo</text>
+<g id="cota-iqi-afastamento" class="cota"><line class="e" x1="640" y1="290" x2="640" y2="270"/><line class="e" x1="690" y1="300" x2="690" y2="270"/><line class="d" x1="640" y1="276" x2="690" y2="276" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="600" y="240">afastamento da área de interesse</text></g>
+<text class="n" x="20" y="498">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

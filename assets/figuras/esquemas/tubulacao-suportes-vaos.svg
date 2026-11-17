@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 610" width="960" height="610" role="img" aria-label="Suportes de tubulação — vão, patim e apoios">
+<title>Suportes de tubulação — vão, patim e apoios (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .bl{fill:#5d8fc9;fill-opacity:.25;stroke:#4a77a8;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .p{fill:none;stroke:#4a77a8;stroke-width:3}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Suportes de tubulação — vão, patim e apoios</text>
+<text class="b" x="20" y="62">(a) Vão entre suportes e flecha</text>
+<rect class="sl" x="70" y="170" width="20" height="90"/>
+<rect class="s" x="50" y="260" width="60" height="10"/>
+<rect class="sl" x="450" y="170" width="20" height="90"/>
+<rect class="s" x="430" y="260" width="60" height="10"/>
+<path class="g" d="M40,150 Q270,190 500,150"/>
+<path class="g" d="M40,170 Q270,210 500,170"/>
+<line class="h" x1="30" y1="150" x2="520" y2="150"/>
+<g id="cota-vao" class="cota"><line class="e" x1="80" y1="272" x2="80" y2="300"/><line class="e" x1="460" y1="272" x2="460" y2="300"/><line class="d" x1="80" y1="292" x2="460" y2="292" marker-start="url(#a)" marker-end="url(#a)"/><text x="240" y="316">vão entre suportes</text></g>
+<g id="cota-flecha" class="cota"><line class="d" x1="300" y1="150" x2="300" y2="174" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="300" y1="174" x2="290" y2="206"/><text x="250" y="222">flecha no meio do vão</text></g>
+<g id="cota-diametro" class="cota"><line class="d" x1="520" y1="150" x2="520" y2="170" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="500" y1="150" x2="528" y2="150"/><line class="e" x1="500" y1="170" x2="528" y2="170"/><text x="530" y="166">Ø do tubo</text></g>
+<text class="b" x="620" y="62">(b) Patim sob tubo isolado</text>
+<circle class="bl" cx="760" cy="160" r="46"/>
+<circle class="s" cx="760" cy="160" r="30"/>
+<text class="n" x="815" y="130">isolamento</text>
+<rect class="r" x="748" y="190" width="24" height="50"/>
+<rect class="sl" x="680" y="240" width="160" height="14"/>
+<text class="n" x="680" y="272">viga de suporte</text>
+<g id="cota-patim-altura" class="cota"><line class="e" x1="772" y1="190" x2="810" y2="190"/><line class="d" x1="802" y1="190" x2="802" y2="240" marker-start="url(#a)" marker-end="url(#a)"/><text x="810" y="220">altura do patim</text></g>
+<text class="b" x="620" y="310">(c) Patim em elevação</text>
+<rect class="s" x="640" y="330" width="280" height="30"/>
+<rect class="r" x="720" y="360" width="110" height="30"/>
+<rect class="sl" x="700" y="390" width="150" height="12"/>
+<g id="cota-patim-comprimento" class="cota"><line class="e" x1="720" y1="390" x2="720" y2="420"/><line class="e" x1="830" y1="390" x2="830" y2="420"/><line class="d" x1="720" y1="414" x2="830" y2="414" marker-start="url(#a)" marker-end="url(#a)"/><text x="700" y="438">comprimento do patim</text></g>
+<text class="n" x="700" y="460">o patim desliza com a dilatação</text>
+<text class="b" x="20" y="370">(d) Apoio simples e apoio de baixo atrito</text>
+<circle class="s" cx="140" cy="450" r="40"/>
+<circle class="r" cx="140" cy="498" r="8"/>
+<rect class="sl" x="70" y="506" width="140" height="14"/>
+<g id="cota-vergalhao" class="cota"><line class="e" x1="134" y1="500" x2="70" y2="540"/><text x="20" y="556">vergalhão (Ø)</text></g>
+<circle class="s" cx="380" cy="450" r="40"/>
+<rect class="r" x="340" y="490" width="80" height="16"/>
+<rect class="sl" x="330" y="506" width="100" height="14"/>
+<g id="cota-ptfe" class="cota"><line class="d" x1="440" y1="490" x2="440" y2="506" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="420" y1="490" x2="448" y2="490"/><text x="450" y="504">chapa de PTFE</text></g>
+<g id="cota-guia" class="cota"><rect class="wd" x="300" y="470" width="8" height="36"/><rect class="wd" x="452" y="470" width="8" height="36"/></g>
+<text class="n" x="270" y="540">guias laterais (restringem o movimento transversal)</text>
+<text class="n" x="20" y="598">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

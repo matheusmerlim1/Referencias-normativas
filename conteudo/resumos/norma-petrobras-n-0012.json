@@ -1,0 +1,38 @@
+{
+ "id": "PETROBRAS-N-0012",
+ "titulo": "Petrobras N-0012 Rev. G (09/2015) — Embalagem e preservação de válvulas",
+ "secoes": [
+  {
+   "titulo": "Escopo e responsabilidades",
+   "item": "1, 3, 4",
+   "texto": "Como embalar e preservar válvulas compradas para a Petrobras: gaveta, globo, retenção, esfera, borboleta e macho; PSV, redutoras e de controle também, com requisitos extras do fabricante para atuadores e acessórios. Quem responde é o fornecedor (fabricante, distribuidor, representante ou revendedor). Compra direta segue o Anexo A (preservação curta, uso logo após a chegada); compra por montadora segue o Anexo B (preservação longa, com obrigações da montadora no canteiro). Só se embala depois de aprovados os testes de pressão e funcionamento, testemunhados por inspetor de fabricação IF-AT (NBR 16278), e após soprar com ar seco até secar (esfera e macho parcialmente abertas).",
+   "valores": [
+    {"parametro": "Válvula de pequeno diâmetro (definição)", "valor": "≤ NPS 1 1/2 (DN 40)", "item": "3.13", "cota": "esquemas/valvula-embalagem-preservacao.svg#dn"},
+    {"parametro": "Válvula de controle (definição)", "valor": "toda válvula com atuador", "item": "3.12"}
+   ],
+   "figuras": ["esquemas/valvula-embalagem-preservacao.svg"]
+  },
+  {
+   "titulo": "Compra direta (Anexo A)",
+   "item": "A.1–A.9",
+   "texto": "Depois de soprada, a válvula é fechada (esfera e macho ficam totalmente abertas) e recebe graxa antioxidante insolúvel em água nas superfícies internas e nas partes externas sem pintura (roscas, porcas, parafusos, faces de vedação, biséis); bronze, inox e ligas resistentes dispensam. Extremidades fechadas contra poeira e umidade: tampão plástico nas flangeadas pequenas (marcado em relevo com classe e diâmetro), placa de borracha/plástico ou filme de PVC nas grandes e nas wafer/lug, com proteção mecânica da face e tábuas aparafusadas para ficar em pé; tampão de encaixe interno nas roscadas e de encaixe para solda. Embalagem compatível com peso e volume.",
+   "valores": [
+    {"parametro": "Película alternativa à graxa (verniz protetor aprovado)", "valor": "recomendado até 100 micrometros", "item": "A.3 Nota 2", "cota": "esquemas/valvula-embalagem-preservacao.svg#pelicula"},
+    {"parametro": "Válvulas flangeadas com tampão plástico", "valor": "até NPS 4 (DN 100), dimensões da Tabela A.1 por classe", "item": "A.5.1, Tabela A.1", "cota": "esquemas/valvula-embalagem-preservacao.svg#tampao"},
+    {"parametro": "Tampões com marcação dupla (servem às classes 300 e 600)", "valor": "NPS 1/2 a 3", "item": "A.5.1", "cota": "esquemas/valvula-embalagem-preservacao.svg#tampao"},
+    {"parametro": "Válvulas flangeadas com placa/filme e tábuas", "valor": "NPS 6 (DN 150) e maiores; wafer e lug em qualquer diâmetro", "item": "A.5.2; A.7", "cota": "esquemas/valvula-embalagem-preservacao.svg#tabua"},
+    {"parametro": "Material e durabilidade dos tampões", "valor": "polietileno de baixa densidade (ou similar), resistência ao tempo ≥ 2 anos", "item": "A.8"}
+   ]
+  },
+  {
+   "titulo": "Compra por montadora (Anexo B)",
+   "item": "B.1–B.3",
+   "texto": "Embalagem projetada para proteger contra dano mecânico, intempérie e corrosão interna e externa durante todo o armazenamento, sem intervenção periódica — embalagem coletiva que permita estocar em prateleiras ou embalagem completa individual, aberta só na instalação. O fornecedor emite procedimento de embalagem e preservação junto com o PIT e relatório de condição antes do embarque; marcações de rastreio com tinta indelével e packing-list assinado pelo inspetor. A montadora guarda em área pavimentada, drenada e coberta, inspeciona periodicamente, examina ao abrir e emite RNC para dano ou divergência.",
+   "valores": [
+    {"parametro": "Período mínimo de preservação garantido pela embalagem", "valor": "12 meses (média de armazenamento acima de 6 meses)", "item": "B.1; B.2.2"},
+    {"parametro": "Relatório de condição antes do embarque", "valor": "todas as atuadas e as não atuadas maiores que 3 pol", "item": "B.2.4", "cota": "esquemas/valvula-embalagem-preservacao.svg#dn"},
+    {"parametro": "Afastamento mínimo do piso no armazenamento", "valor": "10 cm", "item": "B.3.2", "cota": "esquemas/valvula-embalagem-preservacao.svg#afastamento-piso"}
+   ]
+  }
+ ]
+}

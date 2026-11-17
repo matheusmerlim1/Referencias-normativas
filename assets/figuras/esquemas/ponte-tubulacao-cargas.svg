@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 710" width="900" height="710" role="img" aria-label="Ponte de tubulação — cargas de pré-dimensionamento">
+<title>Ponte de tubulação — cargas de pré-dimensionamento (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .bl{fill:#5d8fc9;fill-opacity:.25;stroke:#4a77a8;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .p{fill:none;stroke:#4a77a8;stroke-width:3}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Ponte de tubulação — cargas de pré-dimensionamento</text>
+<text class="b" x="20" y="62">(a) Pórtico transversal com cargas</text>
+<line class="g" x1="40" y1="420" x2="520" y2="420"/>
+<rect x="40" y="420" width="480" height="10" fill="url(#hach)"/>
+<rect class="s" x="80" y="160" width="16" height="260"/>
+<rect class="s" x="420" y="160" width="16" height="260"/>
+<rect class="s" x="70" y="150" width="376" height="14"/>
+<line class="v" x1="110" y1="110" x2="110" y2="148" marker-end="url(#a)"/>
+<line class="v" x1="136" y1="110" x2="136" y2="148" marker-end="url(#a)"/>
+<line class="v" x1="162" y1="110" x2="162" y2="148" marker-end="url(#a)"/>
+<line class="v" x1="188" y1="110" x2="188" y2="148" marker-end="url(#a)"/>
+<line class="v" x1="214" y1="110" x2="214" y2="148" marker-end="url(#a)"/>
+<line class="v" x1="240" y1="110" x2="240" y2="148" marker-end="url(#a)"/>
+<line class="v" x1="266" y1="110" x2="266" y2="148" marker-end="url(#a)"/>
+<line class="v" x1="292" y1="110" x2="292" y2="148" marker-end="url(#a)"/>
+<line class="v" x1="318" y1="110" x2="318" y2="148" marker-end="url(#a)"/>
+<line class="v" x1="344" y1="110" x2="344" y2="148" marker-end="url(#a)"/>
+<line class="v" x1="370" y1="110" x2="370" y2="148" marker-end="url(#a)"/>
+<line class="v" x1="396" y1="110" x2="396" y2="148" marker-end="url(#a)"/>
+<text class="n b" x="180" y="104">pl (distribuída)</text>
+<line class="v" x1="258" y1="90" x2="258" y2="148" marker-end="url(#a)" stroke-width="3"/>
+<text class="n b" x="266" y="90">Pc</text>
+<line class="v" x1="470" y1="156" x2="446" y2="156" marker-end="url(#a)"/>
+<text class="n b" x="474" y="160">Fh</text>
+<g id="cota-b" class="cota"><line class="e" x1="88" y1="164" x2="88" y2="200"/><line class="e" x1="428" y1="164" x2="428" y2="200"/><line class="d" x1="88" y1="190" x2="428" y2="190" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="220" y="210">b — largura do pórtico</text></g>
+<g id="cota-elevacao" class="cota"><line class="d" x1="480" y1="164" x2="480" y2="420" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="436" y1="164" x2="486" y2="164"/><line class="e" x1="436" y1="300" x2="476" y2="300"/><text class="n b" x="300" y="300">elevação dos tubos</text><text class="n" x="300" y="318">(tubovia × ponte)</text></g>
+<text class="b" x="560" y="62">(b) Vista longitudinal</text>
+<rect class="s" x="592" y="160" width="16" height="260"/>
+<rect class="s" x="832" y="160" width="16" height="260"/>
+<rect class="s" x="592" y="150" width="256" height="10"/>
+<rect class="sl" x="710" y="140" width="10" height="20"/>
+<text class="n" x="690" y="132">viga intermediária</text>
+<line class="g" x1="560" y1="420" x2="880" y2="420"/>
+<g id="cota-a" class="cota"><line class="e" x1="600" y1="164" x2="600" y2="200"/><line class="e" x1="840" y1="164" x2="840" y2="200"/><line class="d" x1="600" y1="190" x2="840" y2="190" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="640" y="210">a — distância entre pórticos</text></g>
+<text class="b" x="20" y="480">(c) Diâmetro para o vento e diâmetro médio</text>
+<circle class="bl" cx="140" cy="580" r="46"/>
+<circle class="s" cx="140" cy="580" r="30"/>
+<g id="cota-phi-max" class="cota"><line class="d" x1="94" y1="646" x2="186" y2="646" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="94" y1="580" x2="94" y2="652"/><line class="e" x1="186" y1="580" x2="186" y2="652"/><text class="n b" x="70" y="670">φ max (com isolamento)</text></g>
+<circle class="sl" cx="300" cy="600" r="10"/>
+<circle class="sl" cx="350" cy="600" r="14"/>
+<circle class="sl" cx="400" cy="600" r="8"/>
+<circle class="sl" cx="450" cy="600" r="18"/>
+<circle class="sl" cx="500" cy="600" r="12"/>
+<g id="cota-diametro" class="cota"><text class="n b" x="300" y="560">linhas menores → diâmetro médio</text><text class="n" x="300" y="640">linhas grandes → cargas individuais</text></g>
+<text class="n" x="20" y="698">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

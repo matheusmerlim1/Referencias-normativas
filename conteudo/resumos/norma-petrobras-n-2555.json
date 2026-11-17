@@ -1,0 +1,49 @@
+{
+ "id": "PETROBRAS-N-2555",
+ "titulo": "Petrobras N-2555 Rev. E (05/2025, 1ª errata) — Inspeção em serviço de tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1, 3",
+   "texto": "Inspeção em serviço de tubulações de processo, transferência e utilidades em aço-carbono, aço-liga, inox, ligas de níquel e PRFV. Espessura mínima requerida = sem tolerância de corrosão, pelo código de projeto (pressão, cargas mecânicas e estrutura); estrutural = a que resiste a cargas que não a pressão; de alerta = um pouco acima da requerida, a partir da qual a linha passa a ter inspeção reforçada. Isométrico de inspeção (sem escala, traço único) mostra norte, fluxo, linha, acessórios, pontos de medição de espessura e cupons; lista de linhas com dados de operação, projeto e teste.",
+   "valores": [],
+   "figuras": ["esquemas/tubulacao-inspecao-espessura.svg"]
+  },
+  {
+   "titulo": "Planos e periodicidade",
+   "item": "4",
+   "texto": "A inspeção define os sistemas do plano e, de preferência, os classifica por risco (API 570 na falta de critério próprio). O plano considera classe, mecanismos de dano, histórico, fluido, pressão, temperatura, consequências e efetividade da técnica. Periodicidade pelo histórico, taxa de corrosão, vida remanescente e NR-13; API 570 como referência e inspeção baseada em risco (API RP 580/581) permitida dentro dos limites da NR-13.",
+   "valores": []
+  },
+  {
+   "titulo": "Inspeção visual externa",
+   "item": "5.1.1",
+   "texto": "Revestimento e pintura (N-13, N-2911) e metalização; isolamento (amassados, infiltração, folha de alumínio, caixas de medição); aterramento; suportes e molas; juntas de expansão (fole, tirantes, vazamento; END específico se muito solicitadas); tubos e acessórios (amassados, trincas, corrosão no apoio, CSI); teste de martelo só com a linha liberada e nunca em PRFV; identificação de material duvidoso (teste por pontos, fluorescência de raios X); escavação por amostragem em trechos enterrados e na interface ar-solo; vibração em bocas-de-lobo; soldas de selagem de meias-canas.",
+   "valores": [
+    {"parametro": "Faixa de corrosão sob isolamento (CSI) — aço-carbono e aço-liga", "valor": "−12 °C a 177 °C (ou temperatura intermitente)", "item": "5.1.1.2.2 a)", "cota": "esquemas/tubulacao-inspecao-espessura.svg#csi"},
+    {"parametro": "Faixa de CSI — inox austenítico / duplex", "valor": "60 °C a 177 °C / 138 °C a 177 °C", "item": "5.1.1.2.2 b)–c)", "cota": "esquemas/tubulacao-inspecao-espessura.svg#csi"},
+    {"parametro": "Conexões e tubulações de pequeno diâmetro (atenção a vibração e corrosão localizada)", "valor": "Ø ≤ 1 1/2 pol", "item": "5.1.1.7", "cota": "esquemas/tubulacao-inspecao-espessura.svg#pequeno-diametro", "nota": "prática recomendada: teste de martelo ou gamagrafia digital"}
+   ]
+  },
+  {
+   "titulo": "Espessura, taxa de corrosão e vida remanescente",
+   "item": "5.1.2",
+   "texto": "Medição de espessura por ultrassom com procedimento NBR 15824 (outras técnicas para achar regiões finas). Taxa de corrosão atual = (espessura prévia − atual) ÷ intervalo; histórica = (inicial ou nominal − atual) ÷ tempo desde o início; o PLH escolhe a mais representativa. Espessura mínima requerida = maior entre a de pressão e a estrutural (código de projeto ou API RP 574), podendo ser elevada em serviços de alta consequência ou obtida por adequação ao uso (API 579). Vida remanescente = (espessura atual − mínima) ÷ taxa de corrosão.",
+   "valores": [
+    {"parametro": "Espessura de alerta — aço-carbono/baixa liga até 205 °C — NPS 1/2 a 1", "valor": "2,0 mm", "item": "Tabela 1", "cota": "esquemas/tubulacao-inspecao-espessura.svg#t-alerta", "nota": "prática recomendada (base API RP 574)"},
+    {"parametro": "Espessura de alerta — NPS 1 1/2 / 2 a 2 1/2 / 3 / 4", "valor": "2,3 / 2,5 / 2,8 / 3,1 mm", "item": "Tabela 1", "cota": "esquemas/tubulacao-inspecao-espessura.svg#t-alerta"},
+    {"parametro": "Espessura de alerta — NPS 6 a 18 / 20 a 24", "valor": "3,3 / 3,6 mm", "item": "Tabela 1", "cota": "esquemas/tubulacao-inspecao-espessura.svg#t-alerta"},
+    {"parametro": "Espessura mínima requerida", "valor": "maior entre a mínima de pressão e a mínima estrutural", "item": "5.1.2.2.1", "cota": "esquemas/tubulacao-inspecao-espessura.svg#t-minima"},
+    {"parametro": "Vida remanescente", "valor": "VR [anos] = (t atual − t mínima) ÷ taxa de corrosão [mm/ano]", "item": "5.1.2.3", "cota": "esquemas/tubulacao-inspecao-espessura.svg#t-atual"}
+   ]
+  },
+  {
+   "titulo": "Radiografia de conexões, inspeção interna e PRFV",
+   "item": "5.1.3–7",
+   "texto": "Radiografia (N-1595, N-2820, N-2821) recomendada nas conexões pequenas por amostragem calculada pela corrosão esperada na campanha frente à margem de espessura; acima de 100 % a vida do sistema não chega ao fim da campanha. Inspeção interna nos pontos acessíveis, em especial após placas de orifício, borboletas, injeção de químicos, pontos de estagnação e de perturbação do fluxo. PRFV com critérios do PLH (Tabela A.1 de defeitos: bolhas, blistering, queima, UV, ataque químico, lascas, trincas, crazing, rovings cortados) e aceitação pela ISO 14692-4. Perda uniforme julgada pelo critério de espessura; resultados registrados conforme NR-13.",
+   "valores": [
+    {"parametro": "% de conexões a radiografar", "valor": "100 × (taxa de corrosão × campanha) ÷ (espessura nominal − espessura mínima)", "item": "5.1.3", "cota": "esquemas/tubulacao-inspecao-espessura.svg#pequeno-diametro", "nota": "prática recomendada"}
+   ]
+  }
+ ]
+}

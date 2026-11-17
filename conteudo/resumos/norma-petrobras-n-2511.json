@@ -1,0 +1,58 @@
+{
+ "id": "PETROBRAS-N-2511",
+ "titulo": "Petrobras N-2511 Rev. E (01/2024) — Inspeção em serviço de trocadores de calor casco e tubo",
+ "secoes": [
+  {
+   "titulo": "Escopo, definições e periodicidade",
+   "item": "1, 3, 4.1",
+   "texto": "Condições e práticas de inspeção em serviço de trocadores casco e tubo (não sujeitos à chama). Espessura mínima dos tubos = a menor que ainda vence a campanha com a taxa de corrosão estimada; plugueamento = tamponar tubos com plugues cônicos, tirando-os de serviço; teste de estanqueidade = após manutenção, com pressão definida pelo PLH e não acima da PMTA. Trocadores enquadrados na NR-13 seguem os prazos dela (ou menores, a critério do PLH); os demais têm prazo do PLH. PSV conforme N-2368.",
+   "valores": [],
+   "figuras": ["esquemas/trocador-casco-tubos.svg"]
+  },
+  {
+   "titulo": "Preparação e segurança",
+   "item": "4.2–4.3",
+   "texto": "Reunir relatórios anteriores, recomendações da operação, mudanças de projeto e operação, normas de construção, não conformidades de montagem, anomalias e desenhos; montar o plano de inspeção e um resumo da vida do equipamento (pontos críticos, espessuras medidas e mínimas). Permissão de trabalho (N-2162), EPI, acessos, andaimes e iluminação. No hidrostático com espelho exposto e tubos plugueados, anteparos e área isolada maior contra projeção de plugues.",
+   "valores": []
+  },
+  {
+   "titulo": "Inspeção externa",
+   "item": "5.1",
+   "texto": "Identificação e categoria visíveis; pintura; isolamento; aterramento. Casco livre para dilatar: suportes móveis com furos oblongos (N-466), porcas dos chumbadores só encostadas e chumbadores bem posicionados no oblongo; placa de deslizamento sem atrito excessivo; trocadores sobrepostos com movimento relativo livre. Verificar cargas indevidas de tubulação, fundação, parafusos (martelo), vazamentos e juntas de expansão. Se a dilatação estiver restringida, PM (ou LP) nas soldas dos bocais de interligação dos cascos sobrepostos por fadiga térmica.",
+   "valores": [
+    {"parametro": "Faixa de temperatura para inspeção específica de corrosão sob isolamento", "valor": "−12 °C a 177 °C (contínua, cíclica ou intermitente)", "item": "5.1.2 Nota", "nota": "prática recomendada (API RP 583)"}
+   ]
+  },
+  {
+   "titulo": "Inspeção interna",
+   "item": "5.2",
+   "texto": "Na abertura, avaliar e amostrar resíduos e incrustações (análise química se a corrosão for anormal). Tubos limpos: empenos, mandrilagem excessiva ou perdida, corrosão, erosão junto às chicanas, ao espelho e aos bocais de entrada, corrosão galvânica, atrito com chicanas, trincas — com END ou remoção de tubos por amostragem (Anexo A). Espelhos (sedes de junta, clad, ranhuras, soldas tubo-espelho), chicanas (folga dos furos, empeno), tirantes, espaçadores, anel bipartido e quebra-jato, casco, carretel e tampas (drenos e vents desobstruídos, defletores, roscas e filetes, revestimento, troca de juntas).",
+   "valores": []
+  },
+  {
+   "titulo": "END, reparos e testes",
+   "item": "6–8",
+   "texto": "END por pessoal certificado (N-2941). Espessura (NBR 15824) nos pontos de controle definidos pelo PLH, com pontos extras se a perda for grande. PM por amostragem nas soldas do casco e conexões com histórico ou condições de risco (LP se não der); US em casco e conexões com H2S úmido ou risco de corrosão sob tensão; outros ensaios a critério (RX, metalografia de campo, dureza, termografia, IRIS, correntes parasitas). Reparos pelo código de projeto e pela NR-13. Hidrostático pela NR-13, N-2688 e N-269 (ar eliminado, vent aberto para drenar); tubos com vazamento podem ser remandrilados, trocados ou plugueados (plugueados furados para não pressurizar). Estanqueidade sempre que um flange principal for aberto.",
+   "valores": []
+  },
+  {
+   "titulo": "Critérios de aceitação",
+   "item": "9",
+   "texto": "Espessura mínima dos tubos considerando operação e hidrostático (pressão interna e externa), com valor mínimo arbitrário de segurança; casco, carretel, tampos e conexões pelo código de projeto. Recalque pela N-1807, pintura pela N-13, filetes de rosca pela ASME B1.1, vida remanescente pelo código ou por critério do PLH. Número máximo de tubos plugueados pela operação, eficiência térmica e campanha futura.",
+   "valores": [
+    {"parametro": "Espessura mínima de segurança dos tubos — calculada < 0,5 mm", "valor": "adotar 0,5 mm", "item": "9.1.1 Tabela 1", "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#t", "nota": "prática recomendada"},
+    {"parametro": "Espessura mínima de segurança — calculada de 0,5 a 0,7 mm / de 0,7 a 1,0 mm", "valor": "adotar 0,7 mm / 1,0 mm", "item": "9.1.1 Tabela 1", "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#t"},
+    {"parametro": "Aceitação do teste hidrostático", "valor": "≥ 30 min sem vazamento nem queda de pressão", "item": "9.7"}
+   ]
+  },
+  {
+   "titulo": "Remoção de tubos para inspeção (Anexo A)",
+   "item": "A",
+   "texto": "Histórico do feixe (retubulagens, furos, plugueamentos, estado do espelho) e taxa de corrosão = (espessura nominal − medida) ÷ tempo de operação. Tubos removidos escolhidos para representar o feixe — ao menos um por passe, perto de plugueados, nas regiões mais quentes —, numerados no mapa do espelho. De cada tubo, amostras das duas pontas e do centro, identificadas, serradas ao meio, jateadas e avaliadas (tipo de corrosão, espessura mínima, taxa e vida residual).",
+   "valores": [
+    {"parametro": "Amostras por tubo removido", "valor": "3 (duas extremidades + centro), cada uma com ≈ 400 mm", "item": "A.2.2.1", "cota": "esquemas/trocador-casco-tubos.svg#amostra-tubo"},
+    {"parametro": "Limpeza das amostras", "valor": "jato abrasivo Sa 2 1/2 (N-9)", "item": "A.2.2.4"}
+   ]
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "PETROBRAS-N-1931",
+ "titulo": "Petrobras N-1931 Rev. F (12/2024, 2ª emenda) — Material padronizado para instrumentação industrial",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Especifica os materiais padronizados de instrumentação para projeto e manutenção: tubos e conexões DE (de compressão com anilha dupla), válvulas e manifolds de instrumentação, manômetros de processo e miniatura (pneumáticos), transmissores de pressão, pressão diferencial e temperatura (uso geral e segurança, terra e sistemas de superfície) e cabos de extensão de termopar, de comando e de sinal. Vale para linhas de impulso, traço de vapor e sistemas pneumáticos de válvulas de controle em instalações terrestres e de superfície; não vale para condicionamento de amostras de analisadores nem para hidráulica.",
+   "valores": [
+    {"parametro": "Prazo para implantar a revisão", "valor": "até 180 dias após a publicação (ou plano de implantação)", "item": "folha de rosto"}
+   ],
+   "figuras": ["esquemas/instrumentacao-linha-impulso.svg"]
+  },
+  {
+   "titulo": "Definições",
+   "item": "3",
+   "texto": "Tomada de impulso = ponto do equipamento ou linha onde entra a válvula raiz; válvula raiz = bloqueio que separa a tomada da linha de impulso; linha de impulso = trecho da válvula raiz até a conexão do instrumento. Tubo DE ('tubing', OD) = tubo conformável, de pequeno diâmetro, dimensionado pelo diâmetro externo e ligado por conexões de compressão; tubo rígido = tubo com conexões soldadas, roscadas ou flangeadas da padronização N-76.",
+   "valores": [
+    {"parametro": "Diâmetro do tubo DE", "valor": "menor que 2 pol (diâmetro externo e espessura especificados em polegadas)", "item": "3.25; 5.7", "cota": "esquemas/instrumentacao-linha-impulso.svg#tubo-de"}
+   ]
+  },
+  {
+   "titulo": "Correspondência com a N-76 (Tabela 1)",
+   "item": "4",
+   "texto": "A padronização da linha de processo (N-76) de onde sai a tomada define a padronização da linha de impulso: classe de serviço A (instrumentos em classe ≤ 900, inclusive ar de instrumentos) → tubo DE padrão Vh; classe B (classe ≥ 1500, inclusive vapor e hidrogênio em alta pressão) → padrão Vi; classe C (condições que exigem material específico) → tubo rígido na mesma padronização da linha. Projeto com padronizações próprias precisa de especificação técnica com tabela equivalente aprovada; o detalhe da tomada é feito pela tubulação sob orientação da instrumentação.",
+   "valores": [
+    {"parametro": "Classe de serviço A (padrão Vh)", "valor": "classe de pressão ≤ 900", "item": "Tabela 1", "cota": "esquemas/instrumentacao-linha-impulso.svg#linha-impulso"},
+    {"parametro": "Classe de serviço B (padrão Vi)", "valor": "classe de pressão ≥ 1500", "item": "Tabela 1", "cota": "esquemas/instrumentacao-linha-impulso.svg#linha-impulso"}
+   ]
+  },
+  {
+   "titulo": "Critérios gerais",
+   "item": "5",
+   "texto": "Projeto das linhas de impulso pela N-1882 e critérios de tubulação de pequeno diâmetro da N-57; recebimento, montagem e comissionamento pelo Anexo H da N-115. Sempre que possível, linha de impulso só com tubo e conexões DE de anilha dupla, válvulas e manifolds padronizados; tubo rígido (mesma padronização da linha) só quando o DE não serve, como em fluidos que solidificam, com aprovação. Roscas NPT (ASME B1.20.1); acessórios roscados nas duas pontas em inox. SIS pela N-2595; cabos pela N-1882. Características de cada material nos Anexos A a U, atualizados por emendas.",
+   "valores": [
+    {"parametro": "Temperatura-limite das gaxetas de PTFE (válvula agulha e manifolds)", "valor": "180 °C", "item": "Anexos D e E (1ª emenda)"}
+   ]
+  }
+ ]
+}

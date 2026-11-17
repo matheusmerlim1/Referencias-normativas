@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 690" width="920" height="690" role="img" aria-label="Trocador casco e tubo — componentes e detalhes de projeto">
+<title>Trocador casco e tubo — componentes e detalhes de projeto (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .bl{fill:#5d8fc9;fill-opacity:.25;stroke:#4a77a8;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .p{fill:none;stroke:#4a77a8;stroke-width:3}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Trocador casco e tubo — componentes e detalhes de projeto</text>
+<text class="b" x="20" y="62">(a) Trocador casco e tubo — elevação</text>
+<g transform="translate(0,40)">
+<rect class="sl" x="200" y="120" width="440" height="110"/>
+<text class="n" x="380" y="180">casco</text>
+<rect class="s" x="110" y="115" width="70" height="120"/>
+<text class="n" x="118" y="180">carretel</text>
+<rect class="wd" x="180" y="105" width="10" height="140"/>
+<rect class="wd" x="190" y="105" width="10" height="140"/>
+<text class="n" x="60" y="262">flange principal</text>
+<rect class="s" x="640" y="112" width="40" height="126"/>
+<text class="n" x="684" y="180">tampo</text>
+<rect class="r" x="176" y="98" width="28" height="6"/>
+<g id="cota-estojo" class="cota"><line class="e" x1="204" y1="101" x2="240" y2="80"/><text x="244" y="80">estojo (Ø)</text></g>
+<g id="cota-assento-porca" class="cota"><line class="e" x1="176" y1="98" x2="140" y2="72"/><text x="20" y="70">assento da porca (rugosidade)</text></g>
+<rect class="s" x="520" y="80" width="40" height="40"/>
+<rect class="wd" x="512" y="72" width="56" height="10"/>
+<g id="cota-bocal" class="cota"><line class="d" x1="520" y1="64" x2="560" y2="64" marker-start="url(#a)" marker-end="url(#a)"/><text x="570" y="64">Ø do bocal</text></g>
+<g id="cota-espessura-casco" class="cota"><line class="d" x1="610" y1="120" x2="610" y2="134" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="600" y1="134" x2="630" y2="134"/><text class="n b" x="616" y="150">espessura do casco</text></g>
+<polygon class="s" points="230,230 290,230 300,280 220,280"/>
+<polygon class="s" points="490,230 550,230 560,280 480,280"/>
+<g id="cota-furo-sela" class="cota"><circle class="w" cx="260" cy="236" r="3"/><line class="e" x1="260" y1="236" x2="300" y2="256"/><text x="304" y="262">furo de suspiro da sela</text></g>
+<line class="g" x1="80" y1="280" x2="720" y2="280"/>
+</g>
+<text class="b" x="20" y="350">(b) Ligação tubo-espelho</text>
+<rect class="s" x="120" y="380" width="60" height="160"/>
+<text class="n" x="186" y="540">espelho</text>
+<rect class="w" x="104" y="440" width="156" height="30"/>
+<rect class="sl" x="104" y="440" width="156" height="6"/>
+<rect class="sl" x="104" y="464" width="156" height="6"/>
+<polygon class="wd" points="180,440 190,446 180,446"/>
+<polygon class="wd" points="180,470 190,464 180,464"/>
+<text class="n" x="196" y="436">tubo</text>
+<g id="cota-projecao-tubo" class="cota"><line class="e" x1="104" y1="440" x2="104" y2="404"/><line class="d" x1="80" y1="412" x2="104" y2="412" marker-end="url(#a)"/><line class="d" x1="144" y1="412" x2="120" y2="412" marker-end="url(#a)"/><text class="n b" x="20" y="398">projeção além da face</text></g>
+<g id="cota-afastamento-expansao" class="cota"><line class="e" x1="126" y1="476" x2="126" y2="510"/><line class="e" x1="146" y1="476" x2="146" y2="510"/><line class="d" x1="126" y1="500" x2="146" y2="500" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="136" y1="510" x2="100" y2="580"/><text class="n b" x="20" y="596">afastamento da expansão</text></g>
+<g id="cota-comprimento-expandido" class="cota"><line class="d" x1="146" y1="488" x2="180" y2="488" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="190" y="630">comprimento expandido</text><line class="e" x1="163" y1="490" x2="200" y2="616"/></g>
+<text class="n" x="20" y="436">lado dos tubos</text>
+<text class="b" x="330" y="350">(c) Tubo em U</text>
+<path class="p" d="M340,420 L520,420 A40,40 0 0,1 520,500 L340,500"/>
+<rect class="wd" x="430" y="414" width="4" height="12"/>
+<text class="n" x="410" y="408">emenda</text>
+<g id="cota-emenda-u" class="cota"><line class="e" x1="434" y1="428" x2="434" y2="456"/><line class="e" x1="520" y1="420" x2="520" y2="456"/><line class="d" x1="434" y1="448" x2="520" y2="448" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="420" y="476">distância ao início da curva</text></g>
+<text class="n" x="400" y="560">amostras de tubo removido</text>
+<rect class="sl" x="400" y="570" width="50" height="12"/>
+<rect class="sl" x="480" y="570" width="50" height="12"/>
+<rect class="sl" x="560" y="570" width="50" height="12"/>
+<g id="cota-amostra-tubo" class="cota"><line class="e" x1="400" y1="586" x2="400" y2="606"/><line class="e" x1="450" y1="586" x2="450" y2="606"/><line class="d" x1="400" y1="600" x2="450" y2="600" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="400" y="622">comprimento da amostra</text></g>
+<text class="b" x="640" y="350">(d) Cabeçote flutuante — anel bipartido</text>
+<path class="g" d="M700,450 A70,70 0 0,1 840,450"/>
+<path class="g" d="M700,450 A70,70 0 0,0 840,450"/>
+<path class="g" d="M712,450 A58,58 0 0,1 828,450"/>
+<path class="g" d="M712,450 A58,58 0 0,0 828,450"/>
+<rect class="r" x="690" y="442" width="36" height="16"/>
+<rect class="r" x="814" y="442" width="36" height="16"/>
+<g id="cota-atracacao" class="cota"><line class="e" x1="690" y1="458" x2="690" y2="560"/><line class="d" x1="670" y1="442" x2="670" y2="458" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="640" y="580">espessura da chapa de atracação</text></g>
+<text class="n" x="20" y="678">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

@@ -1,0 +1,54 @@
+{
+ "id": "PETROBRAS-N-2821",
+ "titulo": "Petrobras N-2821 Rev. D (10/2021) — Radiografia computadorizada em juntas soldadas",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 4",
+   "texto": "Requisitos para radiografar juntas soldadas com radiografia computadorizada (placa de fósforo), raios X ou gama, nas técnicas parede simples-vista simples, parede dupla-vista simples e parede dupla-vista dupla. Vale o que a norma de projeto/fabricação manda, com as modificações desta norma; a contratada entrega os programas de visualização com licença. Quando não especificado, técnica classe B da ISO 17636-2.",
+   "valores": [
+    {
+     "parametro": "Diâmetro máximo recomendado da fonte",
+     "valor": "1 mm (não se aplica a espessuras penetradas de aço acima de 40 mm)",
+     "item": "4.5",
+     "cota": "esquemas/radiografia-espessura-tubulacao.svg#fonte",
+     "nota": "prática recomendada"
+    }
+   ],
+   "figuras": [
+    "esquemas/radiografia-espessura-tubulacao.svg",
+    "esquemas/end-radiografia.svg"
+   ]
+  },
+  {
+   "titulo": "Pessoal, preparação e identificação",
+   "item": "5.1–5.4.3",
+   "texto": "Radiografistas certificados pela NBR NM ISO 9712 (no exterior, N-2941); procedimento qualificado e certificado por nível 3; aceitação pela especificação de projeto. Ferramentas de preparo exclusivas para inox, duplex, ligas de níquel e alumínio (inox ou revestidas; discos com alma de náilon). A identificação aparece na própria imagem sem cobrir a área de interesse: peça, junta, espessura, material, placa, data, operador e códigos de situação (NR, NE, NT, NX, RX, AM, EX); arquivos DICONDE com código único.",
+   "valores": []
+  },
+  {
+   "titulo": "Qualidade de imagem, qualificação e validação",
+   "item": "5.4.4–5.4.11",
+   "texto": "Resolução verificada na qualificação e a cada mudança de arranjo, exposição ou aquisição; SNRN suficiente para detectabilidade igual à do filme. Procedimento com variáveis essenciais (Tabela 1: fonte, faixa de espessura e diâmetro, tamanho máximo de fonte, escâner, placa, monitor, software, processamento, distância mínima fonte-objeto, IQI…). Qualificação: uma radiografia por faixa, IQI definido, fio essencial e duplo visíveis, SNRN atingida; PD-VD com 3 ou 4 exposições. Validação comparando com a radiografia convencional em corpos de prova com descontinuidades planares, aprovada pelo nível 3 da contratante; se alguma descontinuidade do filme não aparecer, a técnica não pode ser usada.",
+   "valores": [
+    {
+     "parametro": "Afastamento do IQI de fio duplo da área de interesse",
+     "valor": "≥ 3 mm",
+     "item": "5.4.4.2",
+     "cota": "esquemas/radiografia-espessura-tubulacao.svg#iqi-afastamento"
+    },
+    {
+     "parametro": "Descontinuidades planares mínimas no corpo de prova de validação",
+     "valor": "10",
+     "item": "5.4.10.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Estabilidade do sistema",
+   "item": "5.4.12",
+   "texto": "Avaliação periódica de longo prazo (ISO 16371-1, ASTM E2445, E2446): luminância do monitor, MTF, resolução espacial básica, sensibilidade ao contraste, faixa dinâmica, SNRN, distorção geométrica, feixe laser, blooming, slipping e shading; periodicidade definida pela contratada (ISO 10012). Relatório assinado pelo nível 3 entregue no início do serviço; falha em distorção, laser, blooming ou slipping proíbe o uso até calibrar ou reparar. Sistema novo vem com certificado de estabilidade do fabricante.",
+   "valores": []
+  }
+ ]
+}

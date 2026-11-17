@@ -1,0 +1,64 @@
+{
+ "id": "PETROBRAS-N-0116",
+ "titulo": "Petrobras N-0116 Rev. F (12/2024) — Sistemas de purga de vapor em tubulações e equipamentos",
+ "secoes": [
+  {
+   "titulo": "Escopo e identificação",
+   "item": "1, 4",
+   "texto": "Projeto e instalação dos sistemas de purga (remoção de condensado) de linhas de vapor e de equipamentos aquecidos a vapor: arranjo, materiais, cálculo do consumo e seleção do purgador. Cada purgador recebe TAG PG-unidade-sequencial, de preferência tirado da lista de controle da manutenção, e plaqueta no campo (Fig. A.12); todos entram na lista da N-1692.",
+   "valores": [
+    {"parametro": "Formato do TAG de purgador", "valor": "PG – unidade – sequencial", "item": "4.8"}
+   ],
+   "figuras": ["esquemas/purgador-vapor-estacao.svg"]
+  },
+  {
+   "titulo": "Instalação — requisitos gerais",
+   "item": "5.1",
+   "texto": "Sempre que for viável economicamente, o condensado volta ao sistema de condensado; senão, descarrega em canaleta e caixa de drenagem, com proteção contra jato de vapor em tubovias. Nº e posição dos pontos de purga pela Seção 11 da N-57, sem passar da capacidade do purgador. Manifolds acessíveis do solo ou de plataforma, arranjos pela N-108, ponto de descarga orientado para não atingir pessoas. Silenciador só onde o ruído exigir. Ramais de purga curtos (com retorno), isolados (N-250/N-550) e com caimento para o purgador.",
+   "valores": [
+    {"parametro": "Drenos com tampão roscado com manípulo e corrente/cabo", "valor": "até NPS 1 1/2", "item": "5.1.4.2", "cota": "esquemas/purgador-vapor-estacao.svg#dreno"},
+    {"parametro": "Caimento do ramal de purga", "valor": "no sentido do fluxo até o purgador", "item": "5.1.6", "cota": "esquemas/purgador-vapor-estacao.svg#caimento", "nota": "prática recomendada; a norma não fixa valor"}
+   ]
+  },
+  {
+   "titulo": "Purga de tubulações",
+   "item": "5.2",
+   "texto": "Padrão preferido com distribuidor de fluxo (DFU): duplo quando há retorno de condensado, simples quando descarrega para a atmosfera (Figs. A.1 a A.4); alternativa com válvulas gaveta convencionais (A.5). Estação compacta de coleta na Fig. A.6. Todo ponto de purga de linha de vapor tem acumulador (bota) de condensado, com materiais da padronização da linha de vapor (N-76); padrões nas Figs. A.7 a A.11, inclusive trecho vertical e posição junto a suporte. Alimentação e distribuição de vapor de traço: N-42.",
+   "valores": [
+    {"parametro": "Diâmetro recomendado das linhas de purga e coleta", "valor": "1/2 pol (o Anexo C prevê tubos DE de 1/2 e 3/4 pol)", "item": "5.2.1 Nota", "cota": "esquemas/purgador-vapor-estacao.svg#linha-purga"},
+    {"parametro": "Faixas de NPS dos padrões de acumulador", "valor": "NPS 2 a 14 (Fig. A.7); NPS 16 a 36 (Fig. A.8); saída de purga para NPS 1/2 a 1 1/2 (Fig. A.9)", "item": "5.2.5.1", "cota": "esquemas/purgador-vapor-estacao.svg#acumulador"}
+   ]
+  },
+  {
+   "titulo": "Purga de equipamentos",
+   "item": "5.3",
+   "texto": "Arranjos por aplicação nas Figs. A.13 e A.14. Purgador de boia leva filtro Y a montante e retenção a jusante quando retorna ao condensado. Serpentinas e aquecedores de tanque com caimento e um purgador por saída (nada de drenagem coletiva). Serpentina em tanque enterrado com saída para cima (enxofre): sifão ou tubo em U e purgador de boia com eliminador de vapor preso (SLR).",
+   "valores": [
+    {"parametro": "Inclinação máxima de instalação do purgador de boia livre", "valor": "< 5° em relação à horizontal, sobre base metálica", "item": "5.3.4", "cota": "esquemas/purgador-vapor-estacao.svg#inclinacao-boia"},
+    {"parametro": "Coluna de líquido antes do purgador termostático em final de coletor", "valor": "≥ 1 m", "item": "Fig. A.13.4 Nota", "cota": "esquemas/purgador-vapor-estacao.svg#coluna-termostatico", "nota": "nota de figura"}
+   ]
+  },
+  {
+   "titulo": "Materiais",
+   "item": "6",
+   "texto": "Duas opções: tubos DE (OD) com conexões de compressão de dupla anilha, DFU e conexões universais (Anexos C e D), ou válvulas e tubos convencionais da N-76; pode-se combinar. Purgadores, DFU e conexões universais só da lista qualificada pela Petrobras (Anexo B). Ligação do DFU de preferência roscada NPT, mas sem conexão roscada de aço-carbono: usa-se niple de transição inox. Classe de pressão compatível com o vapor.",
+   "valores": []
+  },
+  {
+   "titulo": "Consumo de vapor e capacidade",
+   "item": "7",
+   "texto": "Consumo de vapor = vazão de condensado. Para linhas em regime contínuo, gráficos do Anexo E por 100 m de linha; regime intermitente é calculado pelo projetista; traço e camisa pela N-42; equipamentos pela folha do fabricante. A capacidade vem da curva do fabricante para a pressão diferencial P1 − P2: P1 = pressão do vapor menos a perda de carga; P2 = 0 para atmosfera, ou pressão do condensado mais a coluna H até o coletor (quando ele está mais alto, na ponte).",
+   "valores": [
+    {"parametro": "Base dos gráficos de consumo", "valor": "por 100 m de tubulação de vapor saturado", "item": "7.3"},
+    {"parametro": "Contrapressão com retorno de condensado", "valor": "P2 = P condensado + H × peso específico da água", "item": "7.8.3", "cota": "esquemas/purgador-vapor-estacao.svg#coluna-H"},
+    {"parametro": "Fator de segurança sobre o consumo (purgador de boia)", "valor": "≥ 2", "item": "8.5 Nota 1"}
+   ]
+  },
+  {
+   "titulo": "Seleção do purgador",
+   "item": "8, Tabela 1",
+   "texto": "Tipos: boia (termostático, livre ou com SLR), termodinâmico, balde invertido e termostático (bimetálico ou pressão balanceada). Eliminação de ar é obrigatória em finais de coletor, permutadores sem risco de alagamento, serpentinas de tanque, vasos com camisa e serpentina com saída para cima — boia recomendada, termodinâmico proibido (balde invertido como alternativa nos três primeiros). Header de vapor superaquecido: termodinâmico (balde só com selo d'água). Golpe de aríete/vibração: evitar boia e termostático. Permutador com risco de estolagem e pré-aquecedor de ar com pouco diferencial: purgador-bomba de deslocamento positivo.",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 530" width="960" height="530" role="img" aria-label="Ligação flangeada — alinhamento antes do aperto">
+<title>Ligação flangeada — alinhamento antes do aperto (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .bl{fill:#5d8fc9;fill-opacity:.25;stroke:#4a77a8;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .p{fill:none;stroke:#4a77a8;stroke-width:3}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Ligação flangeada — alinhamento antes do aperto</text>
+<text class="b" x="20" y="62">(a) Linha de centro (desvio radial)</text>
+<rect class="s" x="40" y="130" width="70" height="40"/>
+<rect class="s" x="110" y="100" width="22" height="100"/>
+<rect class="s" x="142" y="120" width="22" height="100"/>
+<rect class="s" x="164" y="150" width="70" height="40"/>
+<rect class="bl" x="132" y="120" width="10" height="60"/>
+<line class="c" x1="20" y1="150" x2="140" y2="150"/>
+<line class="c" x1="130" y1="170" x2="290" y2="170"/>
+<g id="cota-centro" class="cota"><line class="e" x1="230" y1="150" x2="290" y2="150"/><line class="d" x1="280" y1="150" x2="280" y2="170" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="150" y="250">desvio de centro</text></g>
+<text class="n" x="132" y="90">junta</text>
+<text class="b" x="310" y="62">(b) Paralelismo das faces</text>
+<rect class="s" x="320" y="130" width="70" height="40"/>
+<rect class="s" x="390" y="100" width="22" height="100"/>
+<polygon class="s" points="416,100 438,100 452,200 430,200"/>
+<rect class="s" x="444" y="130" width="70" height="40"/>
+<g id="cota-paralelismo" class="cota"><line class="e" x1="412" y1="92" x2="412" y2="100"/><line class="e" x1="416" y1="86" x2="416" y2="100"/><text x="380" y="240">abertura maior − menor</text><line class="e" x1="412" y1="200" x2="412" y2="218"/><line class="e" x1="430" y1="200" x2="430" y2="218"/><line class="d" x1="412" y1="212" x2="430" y2="212" marker-start="url(#a)" marker-end="url(#a)"/></g>
+<text class="n" x="422" y="84">abertura menor</text>
+<text class="b" x="620" y="62">(c) Alinhamento dos furos</text>
+<circle class="s" cx="720" cy="150" r="70"/>
+<circle class="w" cx="720" cy="150" r="30"/>
+<circle class="w" cx="766.194" cy="130.866" r="7"/>
+<circle class="h" cx="764.4" cy="126.9" r="7"/>
+<circle class="w" cx="739.134" cy="103.806" r="7"/>
+<circle class="h" cx="735.0" cy="102.3" r="7"/>
+<circle class="w" cx="700.866" cy="103.806" r="7"/>
+<circle class="h" cx="696.9" cy="105.6" r="7"/>
+<circle class="w" cx="673.806" cy="130.866" r="7"/>
+<circle class="h" cx="672.3" cy="135.0" r="7"/>
+<circle class="w" cx="673.806" cy="169.134" r="7"/>
+<circle class="h" cx="675.6" cy="173.1" r="7"/>
+<circle class="w" cx="700.866" cy="196.194" r="7"/>
+<circle class="h" cx="705.0" cy="197.7" r="7"/>
+<circle class="w" cx="739.134" cy="196.194" r="7"/>
+<circle class="h" cx="743.1" cy="194.4" r="7"/>
+<circle class="w" cx="766.194" cy="169.134" r="7"/>
+<circle class="h" cx="767.7" cy="165.0" r="7"/>
+<g id="cota-furos" class="cota"><line class="d" x1="774.194" y1="130.866" x2="772.351" y2="125.913" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="778" y1="126" x2="830" y2="110"/><text x="810" y="104">desvio entre furos</text></g>
+<text class="n" x="610" y="250">tracejado = furos do flange oposto</text>
+<text class="b" x="20" y="290">(d) Folga excessiva entre faces</text>
+<rect class="s" x="40" y="360" width="70" height="40"/>
+<rect class="s" x="110" y="330" width="22" height="100"/>
+<rect class="s" x="190" y="330" width="22" height="100"/>
+<rect class="s" x="212" y="360" width="70" height="40"/>
+<rect class="bl" x="132" y="350" width="10" height="60"/>
+<text class="n" x="100" y="320">junta não comprimida</text>
+<g id="cota-folga" class="cota"><line class="d" x1="132" y1="450" x2="190" y2="450" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="132" y1="430" x2="132" y2="458"/><line class="e" x1="190" y1="430" x2="190" y2="458"/><text x="80" y="478">afastamento entre faces (comparar com a espessura da junta)</text></g>
+<text class="b" x="520" y="290">(e) Aperto em cruz (referência)</text>
+<circle class="s" cx="640" cy="400" r="70"/>
+<circle class="w" cx="640" cy="400" r="30"/>
+<circle class="w" cx="640" cy="350" r="9"/>
+<circle class="w" cx="675.355" cy="364.645" r="9"/>
+<circle class="w" cx="690" cy="400" r="9"/>
+<circle class="w" cx="675.355" cy="435.355" r="9"/>
+<circle class="w" cx="640" cy="450" r="9"/>
+<circle class="w" cx="604.645" cy="435.355" r="9"/>
+<circle class="w" cx="590" cy="400" r="9"/>
+<circle class="w" cx="604.645" cy="364.645" r="9"/>
+<text class="n" x="730" y="390">estágios crescentes de torque</text>
+<text class="n" x="730" y="410">em cruz, até a passada final</text>
+<text class="n" x="20" y="518">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

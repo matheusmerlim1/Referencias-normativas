@@ -1,0 +1,54 @@
+{
+ "id": "PETROBRAS-N-0108",
+ "titulo": "Petrobras N-0108 Rev. E (11/2014) — Suspiros e drenos para tubulações e equipamentos",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1, 3",
+   "texto": "Tipos e arranjos típicos de suspiros (respiros) e drenos de tubulações e equipamentos industriais. Não vale para GNL, manifolds e tubings de instrumentação nem conexões de anilha; parques de GLP também seguem a N-1645. Produto quente é o que passa de 60 °C; frio, até 60 °C. Uso frequente = manobra rotineira na campanha; pouco frequente = só em parada geral. 'Pump out' = linhas de esgotamento de equipamentos e linhas.",
+   "valores": [
+    {"parametro": "Limite entre produto frio e quente", "valor": "60 °C", "item": "3.3–3.4"}
+   ],
+   "figuras": ["esquemas/tubulacao-dreno-suspiro.svg"]
+  },
+  {
+   "titulo": "Condições gerais",
+   "item": "4",
+   "texto": "Drenos na geratriz inferior de todo ponto baixo (e logo acima de retenção vertical); suspiros na geratriz superior de todo ponto alto. Acesso fácil, posição que não interfira com suporte ou coluna quando o tronco dilatar, material igual ao da linha principal, suportação contra vibração e sobrecarga (protegendo colar e meia-luva). Em bombas, par de flanges perto da carcaça para tirar o equipamento. Drenos de visores e amostradores vão para a drenagem oleosa. O tampão roscado fica sempre instalado com a linha em operação, preso por corrente ou cabo com manípulo, destorcedor e abraçadeira, tudo pintado de amarelo segurança.",
+   "valores": [
+    {"parametro": "Diâmetro mínimo de todo dreno e suspiro", "valor": "NPS 3/4", "item": "4.1", "cota": "esquemas/tubulacao-dreno-suspiro.svg#dn-min"},
+    {"parametro": "Cor do tampão e acessórios", "valor": "amarelo segurança Munsell 8Y5/12 (cabo de aço sem pintura)", "item": "4.14"},
+    {"parametro": "Válvula em dreno/suspiro de hidrocarboneto líquido e de vapor d'água", "valor": "só gaveta (padronização N-76)", "item": "4.16"},
+    {"parametro": "Válvula em dreno/suspiro de GLP, propano e eteno", "valor": "esfera; gaveta se houver limpeza com vapor acima de 180 °C", "item": "4.10; 4.17"},
+    {"parametro": "Temperatura de operação acima da qual só se usa gaveta", "valor": "> 120 °C", "item": "4.18"}
+   ]
+  },
+  {
+   "titulo": "Bloqueio simples ou duplo",
+   "item": "5, Tabela 1, Figs. A.1–A.2",
+   "texto": "A Tabela 1 escolhe entre bloqueio simples (Fig. A.1) e duplo (Fig. A.2) pelo serviço, classe de pressão e frequência de uso. Bloqueio duplo: GLP e gases liquefeitos, vapor d'água e hidrogênio, H2S e categoria M do B31.3 (com os casos de classe ≥ 600 e de uso frequente). Bloqueio simples: gás natural não liquefeito, utilidades e hidrocarbonetos em geral nas situações menos severas. A ligação ao tronco é por tê/tê de redução, meia-luva ou colar, com niple e tampão roscado; em troncos grandes há arranjo preferencial e alternativo com joelho.",
+   "valores": [
+    {"parametro": "Bloqueio duplo — serviços típicos", "valor": "GLP/gases liquefeitos, vapor, H2, H2S, categoria M", "item": "Tabela 1", "cota": "esquemas/tubulacao-dreno-suspiro.svg#bloqueio-duplo"},
+    {"parametro": "Bloqueio simples — serviços típicos", "valor": "gás natural não liquefeito, utilidades, hidrocarbonetos em geral", "item": "Tabela 1", "cota": "esquemas/tubulacao-dreno-suspiro.svg#bloqueio-simples"}
+   ]
+  },
+  {
+   "titulo": "Equipamentos e sistemas",
+   "item": "6",
+   "texto": "Torres e vasos com dreno fechado: duplo bloqueio com figura 8 ou anel espaçador no meio; suspiro no flange do equipamento. Bombas: arranjos próprios para GLP, hidrocarboneto frio e quente, aminas e águas ácidas. Nafta corrosiva: suspiro para a tocha e injeção de N2 junto aos bloqueios, com retenção e figura 8. Permutadores com dreno e suspiro nos dois lados. Turbinas: dreno e purgador a montante do bloqueio geral na entrada e no exausto (carcaça só com bloqueio). Compressores: suspiros com prolongamento até o piso e drenos com engate rápido na sucção e na descarga, carcaça com duplo bloqueio e retenção para a tocha, injeção de N2. Cavalete de válvula de controle: dreno de cada lado da válvula. Pontas de linha com dreno grande para limpeza; suspiro entre PSV e seus bloqueios (API RP 520 II).",
+   "valores": [
+    {"parametro": "Linhas de suspiro para tocha e de injeção de N2 (nafta corrosiva)", "valor": "NPS 3/4", "item": "6.2.4", "cota": "esquemas/tubulacao-dreno-suspiro.svg#dn-min"},
+    {"parametro": "Drenos de sucção e descarga de compressor", "valor": "NPS 1, com bocal de engate rápido NPS 1 1/2", "item": "6.5.1–6.5.2", "cota": "esquemas/tubulacao-dreno-suspiro.svg#dn-min"},
+    {"parametro": "Suspiros da carcaça do 1º e 2º estágios do compressor", "valor": "NPS 1, duplo bloqueio e retenção para a tocha", "item": "6.5.3", "cota": "esquemas/tubulacao-dreno-suspiro.svg#bloqueio-duplo"}
+   ]
+  },
+  {
+   "titulo": "Tampão com corrente (Anexo C)",
+   "item": "Figs. C.1–C.2",
+   "texto": "O tampão roscado (ASME B16.11) é preso ao niple por corrente ou por cabo de aço inox com abraçadeira galvanizada e manípulo, para não se perder quando removido. Os desenhos trazem tabela dimensional de referência por NPS (1/2 a 1 1/2) e classe 3000/6000.",
+   "valores": [
+    {"parametro": "Comprimento do cabo de aço do tampão", "valor": "50 cm, ajustado no campo", "item": "Fig. C.2", "cota": "esquemas/tubulacao-dreno-suspiro.svg#cabo-tampao", "nota": "lido de desenho (legendas com fonte deslocada no arquivo; o número está legível)"}
+   ]
+  }
+ ]
+}

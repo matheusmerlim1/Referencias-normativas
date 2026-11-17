@@ -1,0 +1,68 @@
+{
+ "id": "PETROBRAS-N-0042",
+ "titulo": "Petrobras N-0042 Rev. F (11/2013) — Projeto de sistema de aquecimento externo de tubulação, equipamento e instrumentação, com vapor",
+ "secoes": [
+  {
+   "titulo": "Escopo, simbologia e identificação",
+   "item": "1, 4.1–4.2",
+   "texto": "Projeto do aquecimento externo com vapor ('steam tracing') de tubulações, vasos, bombas e instrumentos: tipos de sistema, número e comprimento de ramais, troncos de suprimento e de condensado, montagem, purga, consumo de vapor e materiais. Cada sistema é identificado (SA + número) nos desenhos, inclusive quando vários sistemas saem do mesmo suprimento ou quando um ramal também aquece uma derivação; há lista de sistemas em formulário (Anexo C, N-381).",
+   "valores": [],
+   "figuras": ["esquemas/aquecimento-vapor-tracing.svg"]
+  },
+  {
+   "titulo": "Requisitos gerais e isolamento",
+   "item": "4.3–4.4",
+   "texto": "Sem conexões roscadas: solda de topo TIG ou de encaixe, flange só onde houver desmontagem. Aço-carbono em todo o sistema, salvo quando o inox for mais conveniente, respeitando pressão × temperatura da padronização Xb (N-76). O traçado em volta de válvulas e bombas permite removê-las sem desmontar o aquecimento; suspiros nos pontos altos e drenos nos baixos sem purgador. Linha aquecida e ramal são isolados juntos (materiais N-1618, montagem N-250, espessura N-550), sem isolante entre o ramal e o tubo.",
+   "valores": [
+    {"parametro": "Raio mínimo de curvamento a quente (com areia) do tubo de aço-carbono", "valor": "5 × diâmetro externo do tubo", "item": "4.3.3", "cota": "esquemas/aquecimento-vapor-tracing.svg#raio-curva"}
+   ]
+  },
+  {
+   "titulo": "Ramais de aquecimento — tipos e diâmetros",
+   "item": "4.5.1–4.5.2, Tabela 1",
+   "texto": "Convencional com ramais retos (número e diâmetro pelo Anexo B ou ábaco A.30); helicoidal em linhas pequenas com muitas curvas e acessórios, em linhas grandes e em válvulas (passo pelo Anexo B); alta performance (fita ou perfil de alumínio que melhora o contato) para reduzir o número de ramais, sobretudo em produto muito viscoso — em primeira aproximação metade dos ramais do ábaco. Massa termocondutora não é usada (perde eficácia). Válvulas, filtros e potes de selagem: helicoidal ou fita.",
+   "valores": [
+    {"parametro": "Diâmetros de ramal", "valor": "3/8 pol (aço-carbono ou inox); 1/2 pol inox OD; 1/2 e 3/4 pol aço-carbono; alta performance: 1/2 pol", "item": "4.5.1; 4.5.2.3 Nota 5", "cota": "esquemas/aquecimento-vapor-tracing.svg#ramal"},
+    {"parametro": "Ramal helicoidal — faixa de uso", "valor": "linhas até 2 pol com muitas mudanças de direção; linhas ≥ 24 pol; válvulas", "item": "4.5.2.2", "cota": "esquemas/aquecimento-vapor-tracing.svg#passo-helice"},
+    {"parametro": "Alta performance — Ø da linha até 4 pol", "valor": "fita (trecho curto); fita ou perfil (trecho longo)", "item": "Tabela 1", "cota": "esquemas/aquecimento-vapor-tracing.svg#linha-aquecida"},
+    {"parametro": "Alta performance — Ø da linha ≥ 6 pol", "valor": "fita (curto e com muitas curvas); perfil (longo)", "item": "Tabela 1", "cota": "esquemas/aquecimento-vapor-tracing.svg#linha-aquecida"}
+   ]
+  },
+  {
+   "titulo": "Comprimento dos ramais, troncos e bolsas",
+   "item": "4.5.3–4.5.5, Tabelas 2–3",
+   "texto": "O comprimento contínuo máximo de cada ramal sai dos gráficos A.35 a A.38; em tubovias com várias linhas aquecidas usa-se o menor valor para padronizar e reduzir estações de purga. Com vapor de baixa pressão o comprimento é limitado pela capacidade do purgador (capacidade ÷ consumo por metro). Reduções de diâmetro só em instrumentos e equipamentos pequenos, encurtando o ramal. Troncos de suprimento e de condensado dimensionados pelo número de ramais e de purgadores. As 'bolsas' (trechos em que o ramal desce e sobe para contornar obstáculos) são limitadas pela pressão do vapor.",
+   "valores": [
+    {"parametro": "Redução do comprimento máximo por curva", "valor": "0,50 m por curva", "item": "4.5.3.3", "cota": "esquemas/aquecimento-vapor-tracing.svg#comprimento-ramal"},
+    {"parametro": "Pressão de vapor considerada baixa (limitar pelo purgador)", "valor": "< 3,0 kgf/cm²", "item": "4.5.3.2"},
+    {"parametro": "Tronco de suprimento (nº de ramais de 3/8 / 1/2 / 3/4 pol)", "valor": "1–2 / 1 / – → 1/2 pol; 3–5 / 2–4 / 1 → 3/4 pol; 6–8 / 5–6 / 2–3 → 1 pol; 9–18 / 7–12 / 4–7 → 1 1/2 pol; 19–28 / 13–16 / 8–11 → 2 pol; ramais de 3/4: 12–16 → 3 pol", "item": "Tabela 2", "cota": "esquemas/aquecimento-vapor-tracing.svg#tronco-vapor", "nota": "alta performance: entrar na tabela com o dobro do nº de ramais"},
+    {"parametro": "Tronco de recolhimento de condensado (nº de purgadores)", "valor": "1–2: 3/4 pol; 3–5: 1 pol; 6–15: 1 1/2 pol; 16: 2 pol", "item": "Tabela 3", "cota": "esquemas/aquecimento-vapor-tracing.svg#tronco-condensado"},
+    {"parametro": "Profundidade total das bolsas", "valor": "≤ 20 % da altura manométrica do vapor (PTB [m] < 2 × P vapor [kgf/cm²])", "item": "4.5.5.1", "cota": "esquemas/aquecimento-vapor-tracing.svg#bolsa"},
+    {"parametro": "Profundidade de cada bolsa", "valor": "≤ 5 % da altura manométrica do vapor (PB [m] < 0,5 × P vapor [kgf/cm²])", "item": "4.5.5.2", "cota": "esquemas/aquecimento-vapor-tracing.svg#bolsa"}
+   ]
+  },
+  {
+   "titulo": "Detalhes de instalação",
+   "item": "4.5.6",
+   "texto": "Válvula de bloqueio em cada ramal, junto ao tronco de vapor, e nos pontos de ligação com os troncos; manifolds compactos de preferência; tubos curvados em vez de conexões; dilatadores e restrições para a expansão do ramal, com folga onde o ramal sai do isolamento (aproveitando flanges e válvulas). Um só ramal fica na geratriz inferior do tubo. Linhas pequenas podem ser agrupadas num mesmo bloco isolado; as maiores são aquecidas uma a uma. Flange no ramal só junto a válvula e quando indispensável. Purga pela N-116.",
+   "valores": [
+    {"parametro": "Fixação dos ramais retos", "valor": "a cada 1 m, com fita de aço 12,7 mm × 0,5 mm ou arame BWG 16 galvanizado recozido (perfil de alumínio: sempre fita)", "item": "4.5.6.5", "cota": "esquemas/aquecimento-vapor-tracing.svg#fixacao"},
+    {"parametro": "Agrupamento de linhas num só bloco aquecido", "valor": "DN até 1 1/2 pol; DN ≥ 2 pol aquecidas individualmente", "item": "4.5.6.7", "cota": "esquemas/aquecimento-vapor-tracing.svg#linha-aquecida", "nota": "prática recomendada"}
+   ]
+  },
+  {
+   "titulo": "Equipamentos e instrumentos",
+   "item": "4.6–4.7",
+   "texto": "Vasos de preferência com serpentina helicoidal externa; diâmetro, área coberta e isolamento indicados na folha de dados e nos fluxogramas. Bombas: ramais independentes para sucção, descarga e carcaça, presos por arame ou clipes e com flanges que permitam tirar a bomba. Tanque de enxofre com detalhe próprio (Fig. A.42). Indicadores de nível e linhas de medidores de vazão aquecidos com tubo de aço ou inox; linhas finas de instrumento podem ser agrupadas.",
+   "valores": []
+  },
+  {
+   "titulo": "Consumo de vapor e purgador",
+   "item": "4.8–4.10",
+   "texto": "Consumo do ramal (kg/h) = consumo por metro (Figs. A.39 a A.41) × comprimento. Purgador escolhido pela curva do fabricante para a pressão diferencial: a montante, pressão do vapor menos a perda no ramal; a jusante, atmosfera ou retorno de condensado. Se a capacidade não basta, divide-se o ramal. Materiais pela N-116.",
+   "valores": [
+    {"parametro": "Perda de carga estimada no ramal (com comprimento e bolsas no limite)", "valor": "ΔP [kgf/cm²] = 0,286 × P vapor + 0,38", "item": "4.9.3", "nota": "fórmula reconstituída do texto extraído — conferir"}
+   ]
+  }
+ ]
+}

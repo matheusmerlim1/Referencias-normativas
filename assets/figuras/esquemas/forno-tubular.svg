@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620" role="img" aria-label="Forno tubular — zonas, superfície estendida e camadas">
+<title>Forno tubular — zonas, superfície estendida e camadas (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .bl{fill:#5d8fc9;fill-opacity:.25;stroke:#4a77a8;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .p{fill:none;stroke:#4a77a8;stroke-width:3}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Forno tubular — zonas, superfície estendida e camadas</text>
+<text class="b" x="20" y="62">(a) Forno cilíndrico vertical</text>
+<rect class="sl" x="100" y="300" width="200" height="240"/>
+<text class="n" x="150" y="420">radiação</text>
+<circle class="w" cx="115" cy="315" r="7"/>
+<circle class="w" cx="115" cy="337" r="7"/>
+<circle class="w" cx="115" cy="359" r="7"/>
+<circle class="w" cx="115" cy="381" r="7"/>
+<circle class="w" cx="115" cy="403" r="7"/>
+<circle class="w" cx="115" cy="425" r="7"/>
+<circle class="w" cx="115" cy="447" r="7"/>
+<circle class="w" cx="115" cy="469" r="7"/>
+<circle class="w" cx="115" cy="491" r="7"/>
+<circle class="w" cx="115" cy="513" r="7"/>
+<circle class="w" cx="285" cy="315" r="7"/>
+<circle class="w" cx="285" cy="337" r="7"/>
+<circle class="w" cx="285" cy="359" r="7"/>
+<circle class="w" cx="285" cy="381" r="7"/>
+<circle class="w" cx="285" cy="403" r="7"/>
+<circle class="w" cx="285" cy="425" r="7"/>
+<circle class="w" cx="285" cy="447" r="7"/>
+<circle class="w" cx="285" cy="469" r="7"/>
+<circle class="w" cx="285" cy="491" r="7"/>
+<circle class="w" cx="285" cy="513" r="7"/>
+<polygon class="sl" points="100,300 140,250 260,250 300,300"/>
+<rect class="sl" x="140" y="180" width="120" height="70"/>
+<text class="n" x="268" y="200">convecção</text>
+<circle class="w" cx="155" cy="195" r="6"/>
+<circle class="w" cx="177" cy="195" r="6"/>
+<circle class="w" cx="199" cy="195" r="6"/>
+<circle class="w" cx="221" cy="195" r="6"/>
+<circle class="w" cx="243" cy="195" r="6"/>
+<circle class="w" cx="155" cy="215" r="6"/>
+<circle class="w" cx="177" cy="215" r="6"/>
+<circle class="w" cx="199" cy="215" r="6"/>
+<circle class="w" cx="221" cy="215" r="6"/>
+<circle class="w" cx="243" cy="215" r="6"/>
+<circle class="w" cx="155" cy="235" r="6"/>
+<circle class="w" cx="177" cy="235" r="6"/>
+<circle class="w" cx="199" cy="235" r="6"/>
+<circle class="w" cx="221" cy="235" r="6"/>
+<circle class="w" cx="243" cy="235" r="6"/>
+<text class="n" x="270" y="272">tubos de proteção (shield)</text>
+<rect class="sl" x="180" y="90" width="40" height="90"/>
+<text class="n" x="228" y="110">chaminé</text>
+<polygon class="r" points="185,540 215,540 205,520 195,520"/>
+<text class="n" x="150" y="560">queimador</text>
+<g id="cota-refratario" class="cota"><rect class="bl" x="100" y="300" width="8" height="240"/><line class="e" x1="104" y1="380" x2="96" y2="380"/><text class="n b en" x="94" y="385">refratário</text></g>
+<text class="b" x="420" y="62">(b) Tubo com superfície estendida</text>
+<rect class="s" x="440" y="160" width="360" height="30"/>
+<rect class="wd" x="450" y="130" width="4" height="90"/>
+<rect class="wd" x="470" y="130" width="4" height="90"/>
+<rect class="wd" x="490" y="130" width="4" height="90"/>
+<rect class="wd" x="510" y="130" width="4" height="90"/>
+<rect class="wd" x="530" y="130" width="4" height="90"/>
+<rect class="wd" x="550" y="130" width="4" height="90"/>
+<rect class="wd" x="570" y="130" width="4" height="90"/>
+<rect class="wd" x="590" y="130" width="4" height="90"/>
+<rect class="wd" x="610" y="130" width="4" height="90"/>
+<rect class="wd" x="630" y="130" width="4" height="90"/>
+<rect class="wd" x="650" y="130" width="4" height="90"/>
+<rect class="wd" x="670" y="130" width="4" height="90"/>
+<rect class="wd" x="690" y="130" width="4" height="90"/>
+<rect class="wd" x="710" y="130" width="4" height="90"/>
+<rect class="wd" x="730" y="130" width="4" height="90"/>
+<rect class="wd" x="750" y="130" width="4" height="90"/>
+<rect class="wd" x="770" y="130" width="4" height="90"/>
+<rect class="wd" x="790" y="130" width="4" height="90"/>
+<g id="cota-aletas" class="cota"><line class="e" x1="450" y1="226" x2="450" y2="250"/><line class="e" x1="470" y1="226" x2="470" y2="250"/><line class="d" x1="450" y1="242" x2="470" y2="242" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="480" y="252">passo das aletas (densidade linear)</text></g>
+<text class="n" x="440" y="120">aletas ou pinos</text>
+<text class="b" x="420" y="320">(c) Corte do tubo da serpentina</text>
+<circle class="s" cx="560" cy="440" r="70"/>
+<circle class="bl" cx="560" cy="440" r="56"/>
+<circle class="w" cx="560" cy="440" r="44"/>
+<g id="cota-coque" class="cota"><line class="d" x1="604" y1="440" x2="616" y2="440" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="616" y1="440" x2="690" y2="400"/><text class="n b" x="694" y="396">camada de coque/incrustação</text></g>
+<text class="n" x="500" y="540">película interna do fluido</text>
+<text class="n" x="20" y="608">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

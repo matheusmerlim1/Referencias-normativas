@@ -1,0 +1,56 @@
+{
+ "id": "PETROBRAS-N-2891",
+ "titulo": "Petrobras N-2891 Rev. A (11/2022) — Carregamentos mínimos para pré-dimensionamento de pontes de tubulações e tubovias",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1, 3",
+   "texto": "Cargas para o pré-dimensionamento estrutural de pontes de tubulação (pipe racks) e tubovias no projeto básico, antes da análise de flexibilidade; definido o arranjo, valem os esforços da flexibilidade. Não define vinculação nem comportamento estrutural (escolha do projetista) e não cobre transiente hidráulico. Vigas longitudinais levam atrito e ancoragem aos pórticos e apoiam as intermediárias; vigas transversais principais formam os pórticos; intermediárias apoiam tubos que não vencem o vão entre pórticos.",
+   "valores": [
+    {"parametro": "Tubovia ('pipe-way')", "valor": "tubos até 1 m acima do greide das áreas vizinhas", "item": "3.1", "cota": "esquemas/ponte-tubulacao-cargas.svg#elevacao"},
+    {"parametro": "Ponte de tubulação ('pipe rack')", "valor": "tubos mais de 1 m acima do greide", "item": "3.2", "cota": "esquemas/ponte-tubulacao-cargas.svg#elevacao"},
+    {"parametro": "Prazo para implantar a revisão", "valor": "180 dias após a publicação (ou plano de implantação)", "item": "1.6"}
+   ],
+   "figuras": ["esquemas/ponte-tubulacao-cargas.svg"]
+  },
+  {
+   "titulo": "Critérios gerais e combinações",
+   "item": "4–5, Tabela 1",
+   "texto": "Traçado, vãos, larguras e elevações definidos no pré-dimensionamento a partir do arranjo geral, arranjo de equipamentos e fluxogramas (N-57, N-1692). Incluir o peso da proteção passiva contra fogo nas áreas da N-1756 e juntas de dilatação se necessário. Linhas menores que 14 pol entram por um diâmetro médio (raiz da média dos quadrados dos diâmetros); ancoragens pré-dimensionadas são verificadas depois com a flexibilidade. Combinações: 1,4 (Pp + Po + Pah + Pa); 1,4 (Pp + Po + Pa) + 1,4 V; 1,0 (Pp + Pv) + 1,2 V; 1,3 (Pp + Pt); 1,3 (Pp + Pt) + 1,2 Vp; 1,3 (Pp + Po + Pah) + E. Vento longitudinal pode ser dispensado (atrito e ancoragem governam); cargas dinâmicas e transientes são especiais (NBR 8681).",
+   "valores": [
+    {"parametro": "Limite entre linhas tratadas por diâmetro médio e individualmente", "valor": "< 14 pol pelo diâmetro médio; ≥ 14 pol como cargas concentradas individuais", "item": "4.4; 6.1.1.2", "cota": "esquemas/ponte-tubulacao-cargas.svg#diametro"},
+    {"parametro": "Peso da tubulação vazia (aproximação)", "valor": "Pv ≈ 0,6 Po", "item": "5.1"}
+   ]
+  },
+  {
+   "titulo": "Cargas verticais em operação (linhas < 14 pol)",
+   "item": "6.1.1–6.1.3",
+   "texto": "Na viga transversal principal: carga distribuída pl = coeficiente × a (a = distância entre pórticos), mais uma concentrada no meio do vão b (largura do pórtico) para válvulas, flanges e acessórios: Pc = 0,20 × pl × b. Vigas intermediárias com fração de pl; vigas longitudinais com uma concentrada no meio do vão a (nas entradas e saídas de áreas, critérios da viga principal).",
+   "valores": [
+    {"parametro": "Categoria I (φmed < 5 pol) / II (5 a 7,5 pol)", "valor": "pl = 2,0 × a / 3,0 × a (kN/m)", "item": "6.1.1.1 a)–b)", "cota": "esquemas/ponte-tubulacao-cargas.svg#a"},
+    {"parametro": "Categoria III (7,5 a 9 pol) / IV (9 a 12 pol) / V (12 a 14 pol)", "valor": "pl = 3,5 × a / 4,5 × a / 5,5 × a (kN/m)", "item": "6.1.1.1 c)–e)", "cota": "esquemas/ponte-tubulacao-cargas.svg#a"},
+    {"parametro": "Força concentrada no meio do vão b", "valor": "Pc = 0,20 × pl × b (kN)", "item": "6.1.1.1", "cota": "esquemas/ponte-tubulacao-cargas.svg#b"},
+    {"parametro": "Viga transversal intermediária", "valor": "p'l = 0,3 × pl, não menor que 1,0 × a (kN/m)", "item": "6.1.2", "cota": "esquemas/ponte-tubulacao-cargas.svg#a"},
+    {"parametro": "Viga longitudinal", "valor": "Rv = 0,2 × pl × b, concentrada no meio do vão a", "item": "6.1.3", "cota": "esquemas/ponte-tubulacao-cargas.svg#a"}
+   ]
+  },
+  {
+   "titulo": "Cargas horizontais",
+   "item": "6.1.4–6.1.5, Tabela 2",
+   "texto": "Ancoragem ou trava de linha sem análise de flexibilidade: horizontal igual à vertical no ponto; com análise, valor dado pela tubulação. Atrito de várias linhas no mesmo suporte reduzido por fator de simultaneidade. Longitudinal nas vigas transversais: ph = fs × 0,30 × pl e Ph = 0,30 × Pc (principais); p'h = fs × 0,30 × p'l (intermediárias). Transversal Fh por entrada e saída de linhas e falta de esquadro: pontes fs × (0,3 pl b) + 0,3 Pc; tubovias fs × (0,05 pl b) + 0,05 Pc. Longitudinal nas vigas longitudinais Rh = 0,30 × Rv. Linhas ≥ 14 pol: 30 % da vertical × fs.",
+   "valores": [
+    {"parametro": "Fator de simultaneidade fs (nº de tubos)", "valor": "1 a 3: 1,00; 4 a 7: 0,75; mais de 7: 0,5", "item": "Tabela 2"}
+   ]
+  },
+  {
+   "titulo": "Tubulação vazia, teste, vento, sismo e equipamentos",
+   "item": "6.2–6.6",
+   "texto": "Vazia (com vento): só o peso do tubo e acessórios, sem revestimento. Teste: tubo, revestimento, acessórios e fluido de teste (normalmente não se testam todas ao mesmo tempo). Vento pela NBR 6123 (ou norma local) com coeficientes de arrasto próprios para a estrutura e para a tubulação; pode ser aplicado no nível das vigas principais. Sismo pela NBR 15421. Air coolers e outros equipamentos sobre a ponte com cargas e fixações do fornecedor.",
+   "valores": [
+    {"parametro": "Peso específico do fluido de teste", "valor": "10 kN/m³ (salvo indicação da tubulação)", "item": "6.3"},
+    {"parametro": "Coeficiente de arrasto — elementos da ponte / tubulação", "valor": "Ca = 1,8 / Ca = 2,0", "item": "6.4.2 a)–b)"},
+    {"parametro": "Diâmetro para o vento na tubulação (φ max)", "valor": "maior tubo com isolamento, não menor que 25 cm; Fw = Ca × φ max × a × q", "item": "6.4.2 b)", "cota": "esquemas/ponte-tubulacao-cargas.svg#phi-max"}
+   ]
+  }
+ ]
+}

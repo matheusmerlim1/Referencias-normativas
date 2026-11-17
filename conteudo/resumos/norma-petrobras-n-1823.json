@@ -1,0 +1,73 @@
+{
+ "id": "PETROBRAS-N-1823",
+ "titulo": "Petrobras N-1823 Rev. D (12/2018) — Fabricação e montagem de caldeira aquotubular",
+ "secoes": [
+  {
+   "titulo": "Escopo, termos e END",
+   "item": "1, 3, 4",
+   "texto": "Requisitos de inspeção na fabricação, no recebimento, na montagem e no teste de caldeiras aquotubulares (tubulões, coletores, painéis de tubos, serpentinas, dutos e chaminé). Painel = tubos unidos por solda direta ou aletas, ou ligados a dois coletores. IPM = identificação positiva de material (API RP 578). END pelas normas Petrobras (LP N-1596, PM N-1598, US N-1594, RX N-1595, visual N-1597, estanqueidade N-1593) e teste por pontos pela NBR 16137; inspetores ISO 9712.",
+   "valores": [],
+   "figuras": ["esquemas/caldeira-aquotubular-montagem.svg"]
+  },
+  {
+   "titulo": "Fabricação — espessura, ajustagem e soldagem",
+   "item": "5",
+   "texto": "Espessura medida nas regiões mais conformadas (calotas, tubulão, curvas de tubos) nunca abaixo da mínima de projeto; ovalização dos tubos curvados dentro do projeto; IPM em aços-liga e inox testemunhada. Ajustagem de tubos e painéis com tolerâncias de alinhamento; desalinhamento de soldas pelo ASME I / B31.1 / B31.3. Mandrilagem com procedimento cobrindo as variáveis do Apêndice HH da VIII-1, furos e pontas sem riscos, mossas, corrosão ou arestas. Pré e pós-aquecimento abrangendo a junta e uma faixa de cada lado; por resistência elétrica nas juntas maiores (gás com anel envolvente admitido até certo diâmetro).",
+   "valores": [
+    {"parametro": "Desvio da linha de centro de tubo com um plano de simetria", "valor": "1/100 do comprimento total, no máximo 5 mm", "item": "5.8.1 a)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#desvio-tubo"},
+    {"parametro": "Desvio dos tubos extremos do painel", "valor": "1/200 da largura (mandrilado); 1/50 da largura (soldado)", "item": "5.8.1 b)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#desvio-painel"},
+    {"parametro": "Distância mínima de junta circunferencial ao suporte ou espaçador", "valor": "500 mm", "item": "5.8.2; 9.6.2", "cota": "esquemas/caldeira-aquotubular-montagem.svg#junta-suporte"},
+    {"parametro": "Faixa de pré/pós-aquecimento", "valor": "a solda + 75 mm de cada lado", "item": "5.12.2 a)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#preaquecimento"},
+    {"parametro": "Pré-aquecimento em solda de selagem de tubulão", "valor": "raio ≥ 2,5 × diâmetro do tubo soldado, de preferência por fora", "item": "5.12.2 b)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#raio-selagem"},
+    {"parametro": "Aquecimento por resistência elétrica", "valor": "juntas > 4 pol na fabricação (> 6 pol na montagem); gás com anel envolvente admitido até 12 pol", "item": "5.12.2 c); 9.9", "cota": "esquemas/caldeira-aquotubular-montagem.svg#raio-selagem", "nota": "conferir: a fabricação cita 4 pol e a montagem 6 pol"}
+   ]
+  },
+  {
+   "titulo": "Bocais",
+   "item": "5.13",
+   "texto": "Bocais locados e, depois de soldados, dentro de tolerâncias de projeção, orientação e perpendicularidade; furação dos flanges com os eixos principais passando entre dois furos (N-268).",
+   "valores": [
+    {"parametro": "Projeção do bocal", "valor": "± 3 mm em relação à superfície da peça", "item": "5.13.1 a)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#projecao-bocal"},
+    {"parametro": "Orientação do eixo do bocal", "valor": "± 3 mm", "item": "5.13.1 b)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#projecao-bocal"},
+    {"parametro": "Perpendicularidade da face do flange ao eixo / desvio angular do eixo", "valor": "± 1/2°", "item": "5.13.1 c); e)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#perpendicularidade"},
+    {"parametro": "Desvio da furação do flange", "valor": "1,5 mm em relação ao projeto (eixos principais entre dois furos)", "item": "5.13.1 d)", "cota": "esquemas/tubulacao-processo-b31-3-alinhamento-ovalizacao.svg#furos", "nota": "texto parcialmente cortado na extração — conferir"}
+   ]
+  },
+  {
+   "titulo": "Recebimento — tubos, mandrilagem e dutos",
+   "item": "6",
+   "texto": "Conferência de tubos e peças de pressão (sem defeito que gere transição aguda ou reduza a espessura abaixo da mínima). Superfícies de mandrilagem examinadas além da região mandrilada; extremidades protegidas com tampão plástico. Dutos conferidos quanto a reforços e deformação.",
+   "valores": [
+    {"parametro": "Extensão examinada nas pontas a mandrilar", "valor": "comprimento mandrilado + 50 mm", "item": "6.11 Nota 2", "cota": "esquemas/caldeira-aquotubular-montagem.svg#mandrilagem"},
+    {"parametro": "Duto circular — ovalização", "valor": "Dmáx − Dmín ≤ 1 % do diâmetro nominal", "item": "6.15 a)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#duto-gabarito"},
+    {"parametro": "Duto — afastamento da geratriz/face sob gabarito reto de 1 000 mm", "valor": "≤ 20 mm entre as extremidades do gabarito", "item": "6.15 a)–b)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#duto-gabarito"},
+    {"parametro": "Duto poligonal — diferença entre diagonais", "valor": "≤ 1 % da diagonal nominal", "item": "6.15 b)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#duto-gabarito"}
+   ]
+  },
+  {
+   "titulo": "Montagem — base e ajustagem no campo",
+   "item": "8.4, 9.6",
+   "texto": "Base de concreto nivelada com calços dimensionados para o peso, junto aos chumbadores (copos limpos, chumbadores engraxados e protegidos). Na montagem, além das tolerâncias de fabricação, controlam-se eixos de tubulão e coletor, empenamento de tubos e painéis, paredes horizontais e verticalidade; se o fabricante não der valores, valem os da norma.",
+   "valores": [
+    {"parametro": "Tolerância de elevação no calçamento", "valor": "+ 1 mm (chaminé: + 2 mm)", "item": "8.4 a)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#calco"},
+    {"parametro": "Posição dos calços", "valor": "dos dois lados de cada chumbador, ≈ 25 mm afastados dos copos", "item": "8.4 b)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#calco"},
+    {"parametro": "Altura máxima do calço (metal + argamassa)", "valor": "5 mm acima da altura de referência", "item": "8.4 c)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#calco", "nota": "texto truncado na extração — conferir a referência da altura"},
+    {"parametro": "Eixos coordenados de tubulão e coletor", "valor": "+ 2 mm da posição teórica", "item": "9.6.1 b)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#desvio-tubo"},
+    {"parametro": "Empenamento longitudinal de tubo ou painel", "valor": "1/75 da menor distância às extremidades, ≤ 50 mm", "item": "9.6.1 c)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#empenamento"},
+    {"parametro": "Empenamento transversal do painel", "valor": "1/100 da distância à extremidade mais próxima, ≤ 5 mm", "item": "9.6.1 d)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#desvio-painel"},
+    {"parametro": "Paredes horizontais", "valor": "diferença entre diagonais ≤ 12 mm; entre larguras nas extremidades ≤ 8 mm", "item": "9.6.1 e)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#diagonais"},
+    {"parametro": "Verticalidade de paredes verticais", "valor": "1/1 000 da altura ajustada", "item": "9.6.1 f)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#verticalidade"}
+   ]
+  },
+  {
+   "titulo": "Ensaios e teste hidrostático",
+   "item": "10–11, Anexo A",
+   "texto": "Tipo e extensão de END por junta no Anexo A (ex.: topo longitudinal com US computadorizado 100 % + PM 100 %; ângulos com LP; visual sempre 100 %). Cr-Mo, inox e ligas de níquel com PM ou LP numa faixa centrada na solda. No hidrostático, ao menos dois manômetros (um registrador) calibrados, sem soldar no equipamento cheio; após o patamar, baixar à PMTA e inspecionar.",
+   "valores": [
+    {"parametro": "Faixa de PM/LP em Cr-Mo, inox e ligas de níquel", "valor": "200 mm centrada na junta", "item": "10.5", "cota": "esquemas/caldeira-aquotubular-montagem.svg#faixa-end"},
+    {"parametro": "Escala do manômetro", "valor": "fundo de escala entre 1,5 e 4 × pressão de teste (de preferência 2 ×); menor divisão ≤ 5 % do fundo; calibração ≤ 3 meses", "item": "11.7.1"},
+    {"parametro": "Tempo mínimo na pressão de teste", "valor": "30 min, antes do visual (feito na PMTA)", "item": "11.11.1"}
+   ]
+  }
+ ]
+}

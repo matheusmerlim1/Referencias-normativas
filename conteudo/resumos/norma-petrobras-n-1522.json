@@ -1,0 +1,39 @@
+{
+ "id": "PETROBRAS-N-1522",
+ "titulo": "Petrobras N-1522 Rev. F (07/2024) — Identificação de tubulações industriais",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Sistema de codificação das tubulações de condução em refinarias, utilidades, parques de tanques, terminais, bases e estações de dutos. Não vale para projetos de E&P, ramais de aquecimento, sistemas hidráulicos e pneumáticos, instrumentação, skids e tubulação auxiliar de máquinas, nem para linhas acrescentadas em instalações existentes (caso a caso) ou para identificação por cores.",
+   "valores": [],
+   "figuras": ["esquemas/tubulacao-identificacao.svg"]
+  },
+  {
+   "titulo": "Código de identificação — seis grupos",
+   "item": "3.1–3.2",
+   "texto": "Código alfanumérico com seis grupos separados por hífen, usado em todos os documentos (fluxogramas, lista de linhas, plantas, isométricos) e pintado na linha: 1) diâmetro nominal (NPS, em polegadas, para tubos B36.10M/B36.19M/API 5L); 2) classe do fluido (símbolos do Anexo B; genérico como HC quando vários fluidos parecidos; gás natural, condensado e vapor seguidos da PMO arredondada em kgf/cm², ex. V11, G50); 3) área ou sistema (N-1710); 4) sequencial de 3 ou 4 algarismos, com reservas para futuras linhas; 5) padronização de material (N-76); 6) isolamento térmico (N-1692). Ex.: 8 pol-PE-2112-005-Ba-NI; 10 pol-HC-22A-025-Bc-PP; 6 pol-C4-2211-003-Bf-IQ.",
+   "valores": [
+    {"parametro": "Exemplo de símbolo com PMO", "valor": "vapor a 10,5 kgf/cm² → V11; gás natural a 49,7 kgf/cm² → G50", "item": "3.2.2 Nota 3"},
+    {"parametro": "Sequencial da linha", "valor": "3 a 4 algarismos", "item": "3.2.4", "cota": "esquemas/tubulacao-identificacao.svg#codigo"}
+   ]
+  },
+  {
+   "titulo": "Identificação no campo",
+   "item": "3.3",
+   "texto": "Placa retangular presa ao tubo com arame inox ou pintura direta na linha; em linhas isoladas, só placa. Em pontos de fácil visão: pontilhões, limites de bateria, passarelas.",
+   "valores": [
+    {"parametro": "Altura mínima das letras", "valor": "50 mm", "item": "3.3.3", "cota": "esquemas/tubulacao-identificacao.svg#altura-letra"},
+    {"parametro": "Arame de fixação da placa", "valor": "inox 17 BWG", "item": "3.3.1", "cota": "esquemas/tubulacao-identificacao.svg#placa"}
+   ]
+  },
+  {
+   "titulo": "Critérios de aplicação",
+   "item": "4",
+   "texto": "Muda o fluido, a unidade ou a padronização → nova identificação (nova linha); muda só o diâmetro → mantém o código e cada trecho mostra seu diâmetro (lista de linhas em ordem crescente). Código de linha cancelada não é reaproveitado. Toda derivação é outra linha; ramais da mesma linha para bocais do mesmo equipamento podem compartilhar o código (letras opcionais). Linha encamisada tem dois códigos (camisa recomendada = número interno + 1 000). Processo: um código entre dois equipamentos ou entre limite de unidade e equipamento; by-pass de válvula de controle pode manter o código; descargas de alívio, respiros e drenos a critério. Utilidades: um código por coletor principal e secundário, e um por derivação de consumo; prédios só até o bloqueio ou caixa coletora.",
+   "valores": [
+    {"parametro": "Número recomendado para a camisa de linha encamisada", "valor": "número da linha interna + 1 000", "item": "4.2.1.3", "nota": "prática recomendada"}
+   ]
+  }
+ ]
+}

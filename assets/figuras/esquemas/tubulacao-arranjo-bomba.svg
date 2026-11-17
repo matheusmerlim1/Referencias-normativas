@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 630" width="960" height="630" role="img" aria-label="Arranjo de tubulação junto a bombas e válvulas">
+<title>Arranjo de tubulação junto a bombas e válvulas (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .bl{fill:#5d8fc9;fill-opacity:.25;stroke:#4a77a8;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .p{fill:none;stroke:#4a77a8;stroke-width:3}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Arranjo de tubulação junto a bombas e válvulas</text>
+<text class="b" x="20" y="62">(a) Bomba centrífuga — planta</text>
+<rect class="sl" x="300" y="150" width="300" height="90"/>
+<rect class="s" x="320" y="165" width="90" height="60"/>
+<text class="n" x="330" y="200">bomba</text>
+<rect class="s" x="440" y="160" width="140" height="70"/>
+<text class="n" x="480" y="200">acionador</text>
+<line class="g" x1="410" y1="195" x2="440" y2="195"/>
+<line class="p" x1="60" y1="195" x2="320" y2="195"/>
+<rect class="wd" x="210" y="183" width="16" height="24"/>
+<text class="n" x="196" y="176">bloqueio</text>
+<g id="cota-trecho-reto" class="cota"><line class="e" x1="226" y1="210" x2="226" y2="250"/><line class="e" x1="320" y1="210" x2="320" y2="250"/><line class="d" x1="226" y1="242" x2="320" y2="242" marker-start="url(#a)" marker-end="url(#a)"/><text x="200" y="268">trecho reto na sucção</text></g>
+<text class="n" x="70" y="186">sucção</text>
+<line class="p" x1="365" y1="165" x2="365" y2="90"/>
+<rect class="wd" x="353" y="120" width="24" height="14"/>
+<rect class="r" x="353" y="96" width="24" height="14"/>
+<text class="n" x="384" y="110">retenção + bloqueio</text>
+<g id="cota-espaco-acionador" class="cota"><rect class="h" x="600" y="150" width="140" height="90"/><line class="e" x1="600" y1="126" x2="600" y2="150"/><line class="e" x1="740" y1="126" x2="740" y2="150"/><line class="d" x1="600" y1="134" x2="740" y2="134" marker-start="url(#a)" marker-end="url(#a)"/><text x="560" y="122">espaço livre do lado do acionador</text></g>
+<line class="g" x1="410" y1="225" x2="410" y2="300"/>
+<rect class="wd" x="400" y="262" width="20" height="4"/>
+<rect class="wd" x="400" y="296" width="20" height="4"/>
+<g id="cota-niple" class="cota"><line class="e" x1="420" y1="264" x2="450" y2="264"/><line class="e" x1="420" y1="298" x2="450" y2="298"/><line class="d" x1="444" y1="264" x2="444" y2="298" marker-start="url(#a)" marker-end="url(#a)"/><text x="454" y="288">niple flangeado (linha auxiliar)</text></g>
+<text class="b" x="20" y="350">(b) Altura de operação do volante</text>
+<line class="g" x1="40" y1="560" x2="360" y2="560"/>
+<rect x="40" y="560" width="320" height="10" fill="url(#hach)"/>
+<line class="p" x1="60" y1="520" x2="300" y2="520"/>
+<rect class="wd" x="150" y="505" width="24" height="30"/>
+<line class="g" x1="162" y1="505" x2="162" y2="440"/>
+<rect class="s" x="132" y="434" width="60" height="8"/>
+<g id="cota-altura-volante" class="cota"><line class="d" x1="230" y1="438" x2="230" y2="560" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="192" y1="438" x2="236" y2="438"/><text x="240" y="466">altura do volante</text></g>
+<text class="n" x="240" y="484">acima do piso</text>
+<text class="b" x="420" y="350">(c) Descarga de PSV para a atmosfera</text>
+<line class="p" x1="520" y1="560" x2="520" y2="500"/>
+<polygon class="s" points="500,500 540,500 545,470 495,470"/>
+<text class="n" x="552" y="490">PSV</text>
+<line class="p" x1="520" y1="470" x2="520" y2="440"/>
+<line class="p" x1="520" y1="440" x2="640" y2="440"/>
+<line class="p" x1="640" y1="440" x2="640" y2="380"/>
+<text class="n" x="650" y="390">tubo de descarga (sem capuz)</text>
+<g id="cota-dreno-psv" class="cota"><circle class="r" cx="640" cy="446" r="3"/><line class="e" x1="640" y1="450" x2="700" y2="490"/><text x="704" y="500">orifício de dreno (Ø)</text></g>
+<text class="n" x="470" y="580">linha de entrada</text>
+<text class="n" x="20" y="618">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

@@ -1,0 +1,74 @@
+{
+ "id": "PETROBRAS-N-2163",
+ "titulo": "Petrobras N-2163 Rev. G (11/2021) — Soldagem e trepanação em equipamentos, tubulações industriais e dutos em operação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Condições para instalar conexões e reparos estruturais soldados e para trepanar (hot tap), plugar e inserir tampão em equipamentos, tubulações e dutos em operação, em terra e no mar, incluindo tanques. Organiza responsabilidades (operação, SMS, inspeção, projeto da conexão, execução, trepanação, plugueamento) e exige avaliação de viabilidade térmica da soldagem.",
+   "valores": [
+    {"parametro": "Espessura mínima de parede coberta pela norma", "valor": "≥ 3,2 mm", "item": "1.3", "cota": "esquemas/trepanacao-hot-tap.svg#espessura"}
+   ],
+   "figuras": ["esquemas/trepanacao-hot-tap.svg"]
+  },
+  {
+   "titulo": "Projeto e inspeção inicial",
+   "item": "5.1–5.3",
+   "texto": "Projeto da conexão considera pressão, temperatura, fluido, materiais, flexibilidade e as novas cargas da derivação; evita instalar sobre curvas, reduções e acessórios e sobre solda longitudinal. O carbono equivalente do material (por equação conforme o teor de C) vem de certificado ou de ensaio no campo (análise de cavaco ou espectrometria). Antes de soldar, medição de espessura e varredura por ultrassom de laminação e corrosão interna numa faixa demarcada; o reforço da solda existente é removido além da área da conexão ou dupla-calha. Área de trabalho desimpedida e com acesso de fuga.",
+   "valores": [
+    {"parametro": "Distância a flange ou conexão soldada/roscada", "valor": "evitar soldar ou trepanar a menos de 460 mm", "item": "5.1 m)", "cota": "esquemas/trepanacao-hot-tap.svg#dist-flange", "nota": "prática recomendada"},
+    {"parametro": "Distância a junta soldada existente", "valor": "evitar a menos de 80 mm", "item": "5.1 m)", "cota": "esquemas/trepanacao-hot-tap.svg#dist-solda", "nota": "prática recomendada"},
+    {"parametro": "Faixa inspecionada por ultrassom", "valor": "150 mm de cada lado do centro da solda a executar", "item": "5.2 k)", "cota": "esquemas/trepanacao-hot-tap.svg#faixa-ut"},
+    {"parametro": "Afastamento de dupla laminação detectada", "valor": "≥ 200 mm da solda", "item": "5.2 Nota 1", "cota": "esquemas/trepanacao-hot-tap.svg#laminacao"},
+    {"parametro": "Amostra para análise de carbono", "valor": "≈ 20 g de cavaco retirado a 0,5 mm abaixo da superfície", "item": "5.2", "cota": "esquemas/trepanacao-hot-tap.svg#cavaco"},
+    {"parametro": "Região livre em volta da área de trabalho", "valor": "≥ 0,5 m", "item": "5.3", "cota": "esquemas/trepanacao-hot-tap.svg#regiao-livre"},
+    {"parametro": "Remoção do reforço da solda existente", "valor": "até ≥ 50 mm além da conexão ou dupla-calha", "item": "5.3 Nota", "cota": "esquemas/trepanacao-hot-tap.svg#reforco-removido"}
+   ]
+  },
+  {
+   "titulo": "Soldagem em operação — risco de perfuração",
+   "item": "6.2.1, Tabela 1",
+   "texto": "Processos TIG, MIG/MAG e eletrodo revestido (arame tubular só em casos previstos; pinos com análise). Arco aberto só no chanfro; as duas longitudinais da dupla-calha soldadas ao mesmo tempo e depois as circunferenciais, uma por vez; preferir a região mais grossa. Até 150 °C de operação, o risco de perfuração depende da espessura e da existência de fluxo; nas espessuras finas avalia-se mudar a operação e usar amanteigamento com passes estreitos. A EPS pode valer para CEq um pouco maior que o qualificado se o resfriamento no campo for mais favorável.",
+   "valores": [
+    {"parametro": "Sem risco de perfuração", "valor": "t ≥ 12,70 mm", "item": "Tabela 1", "cota": "esquemas/trepanacao-hot-tap.svg#espessura"},
+    {"parametro": "Avaliar risco (só amanteigamento/enchimento com fluxo; sempre sem fluxo)", "valor": "6,35 mm < t < 12,70 mm", "item": "Tabela 1", "cota": "esquemas/trepanacao-hot-tap.svg#espessura"},
+    {"parametro": "Avaliar risco e mudança de condição operacional", "valor": "5,00 mm ≤ t ≤ 6,35 mm", "item": "Tabela 1", "cota": "esquemas/trepanacao-hot-tap.svg#espessura"},
+    {"parametro": "Risco iminente de perfuração (avaliar amanteigamento)", "valor": "3,20 mm ≤ t < 5,00 mm", "item": "Tabela 1", "cota": "esquemas/trepanacao-hot-tap.svg#espessura"},
+    {"parametro": "Eletrodo revestido em parede de 3,2 a 6,35 mm", "valor": "só Ø 2,4 mm ou 2,0 mm", "item": "6.2.1.7 a)", "cota": "esquemas/trepanacao-hot-tap.svg#eletrodo"},
+    {"parametro": "Eletrodo em parede de 6,35 a 12,7 mm", "valor": "Ø ≤ 3,2 mm", "item": "6.2.1.8", "cota": "esquemas/trepanacao-hot-tap.svg#eletrodo"},
+    {"parametro": "Tolerância de CEq em relação à EPS qualificada", "valor": "até + 0,05 ponto percentual (ex.: EPS com 0,30 % aplicada até 0,35 %)", "item": "6.2.1"},
+    {"parametro": "Teste de fluxo com maçarico (marcas de giz)", "valor": "três círculos de ≈ 50 mm de Ø; pontos às 12 h afastados ≈ 300 mm", "item": "6.2.1", "cota": "esquemas/trepanacao-hot-tap.svg#marcas-giz", "nota": "conferir a descrição completa do ensaio no texto da norma"}
+   ]
+  },
+  {
+   "titulo": "Preparo da junta e inspeção",
+   "item": "6.3–6.4",
+   "texto": "Limpeza da superfície antes e no momento da soldagem; conexão posicionada e fixada com controle de paralelismo e perpendicularidade; mata-juntas das longitudinais além das extremidades. Inspeção visual 100 % durante e depois; PM (ou LP, se a temperatura permitir; LP em inox, duplex e superduplex) 100 % ao final.",
+   "valores": [
+    {"parametro": "Faixa de limpeza antes de soldar / no momento da soldagem", "valor": "≥ 150 mm de cada lado / ≥ 25 mm", "item": "6.3 a)–b)", "cota": "esquemas/trepanacao-hot-tap.svg#faixa-limpeza"},
+    {"parametro": "Prolongamento do mata-junta das longitudinais", "valor": "≥ 50 mm além das extremidades", "item": "6.3 g)", "cota": "esquemas/trepanacao-hot-tap.svg#mata-junta"},
+    {"parametro": "Abertura máxima da junta circunferencial da dupla-calha", "valor": "1,6 mm", "item": "6.3 i)", "cota": "esquemas/trepanacao-hot-tap.svg#abertura-calha"},
+    {"parametro": "Eficiência da solda longitudinal no cálculo da espessura", "valor": "0,8 (1,0 com US 100 %)", "item": "6.4.3"}
+   ]
+  },
+  {
+   "titulo": "Tanques em operação",
+   "item": "6.5, 9",
+   "texto": "Soldar ou trepanar no costado só com nível de líquido acima da área e sem manobra; medir o nível com trena manual. No teto, solda proibida, salvo em FPSO/FSO com chapa grossa, ultrassom prévio, tanque cheio e fase gasosa inertizada com O2 controlado, interpasse e energia de soldagem limitados e APR para retenção de faíscas.",
+   "valores": [
+    {"parametro": "Nível de líquido acima da área de trabalho", "valor": "≥ 1 m", "item": "6.5.2; 9.2", "cota": "esquemas/trepanacao-hot-tap.svg#nivel-tanque"},
+    {"parametro": "Teto de FPSO/FSO — espessura mínima da chapa", "valor": "≥ 12,7 mm (1/2 pol)", "item": "6.5.4", "cota": "esquemas/trepanacao-hot-tap.svg#espessura"},
+    {"parametro": "Teto de FPSO/FSO — condições", "valor": "volume ≥ 85 %; O2 ≤ 8 % em volume; interpasse ≤ 150 °C; energia ≤ 1,6 kJ/mm; US numa faixa de 150 mm de cada lado", "item": "6.5.4", "cota": "esquemas/trepanacao-hot-tap.svg#faixa-ut"}
+   ]
+  },
+  {
+   "titulo": "Conexões roscadas e trepanação",
+   "item": "7–8",
+   "texto": "Válvulas de injeção roscadas instaladas por furo cego com broca, limitador de profundidade e lubrificação. Trepanação e plugueamento com máquina adequada à pressão e ao fluido, equipe qualificada, verificação prévia de conexão e válvula (teste), instalação da máquina, corte do cupom e sua retenção, plugueamento com desvio e ventilação, inserção do tampão-plugue e término com teste.",
+   "valores": [
+    {"parametro": "Espessura mínima onde se faz o furo da conexão roscada", "valor": "9 mm", "item": "7.1", "cota": "esquemas/trepanacao-hot-tap.svg#espessura"},
+    {"parametro": "Profundidade do furo para válvula de injeção", "valor": "6 mm a 7 mm", "item": "7.3", "cota": "esquemas/trepanacao-hot-tap.svg#furo-cego"}
+   ]
+  }
+ ]
+}

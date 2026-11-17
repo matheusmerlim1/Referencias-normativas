@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" role="img" aria-label="Drenos e suspiros de tubulação — posição e bloqueio">
+<title>Drenos e suspiros de tubulação — posição e bloqueio (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .bl{fill:#5d8fc9;fill-opacity:.25;stroke:#4a77a8;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .p{fill:none;stroke:#4a77a8;stroke-width:3}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Drenos e suspiros de tubulação — posição e bloqueio</text>
+<text class="b" x="20" y="62">(a) Posição na tubulação</text>
+<g transform="translate(0,30)">
+<path class="p" d="M40,130 L200,130 L200,230 L420,230 L420,130 L520,130"/>
+<text class="n" x="140" y="118">ponto alto → suspiro (geratriz superior)</text>
+<line class="g" x1="80" y1="130" x2="80" y2="100"/>
+<polygon class="wd" points="70,90 90,90 70,110 90,110"/>
+<line class="g" x1="80" y1="90" x2="80" y2="76"/>
+<rect class="w" x="74" y="70" width="12" height="8"/>
+<line class="g" x1="310" y1="230" x2="310" y2="262"/>
+<polygon class="wd" points="300,262 320,262 300,282 320,282"/>
+<line class="g" x1="310" y1="282" x2="310" y2="296"/>
+<rect class="w" x="304" y="296" width="12" height="8"/>
+<text class="n" x="330" y="300">ponto baixo → dreno (geratriz inferior)</text>
+</g>
+<text class="b" x="20" y="370">(b) Bloqueio simples</text>
+<rect class="sl" x="40" y="400" width="200" height="30"/>
+<rect class="sl" x="133" y="430" width="14" height="40"/>
+<text class="n" x="180" y="452">meia-luva / colar</text>
+<g id="cota-bloqueio-simples" class="cota"><polygon class="wd" points="130,470 150,470 130,490 150,490"/></g>
+<line class="g" x1="140" y1="490" x2="140" y2="520"/>
+<rect class="w" x="132" y="520" width="16" height="10"/>
+<text class="n" x="156" y="530">tampão roscado</text>
+<g id="cota-dn-min" class="cota"><line class="d" x1="108" y1="445" x2="133" y2="445" marker-end="url(#a)"/><line class="d" x1="172" y1="445" x2="147" y2="445" marker-end="url(#a)"/><text class="en" x="104" y="450">Ø do ramal</text></g>
+<g id="cota-cabo-tampao" class="cota"><path class="e" d="M148,526 Q190,560 150,580 Q120,590 140,600"/><text x="170" y="600">cabo/corrente do tampão</text></g>
+<text class="b" x="420" y="370">(c) Bloqueio duplo</text>
+<rect class="sl" x="440" y="400" width="200" height="30"/>
+<line class="g" x1="540" y1="430" x2="540" y2="580"/>
+<g id="cota-bloqueio-duplo" class="cota"><polygon class="wd" points="530,460 550,460 530,480 550,480"/><polygon class="wd" points="530,520 550,520 530,540 550,540"/></g>
+<text class="n" x="560" y="474">1º bloqueio</text>
+<text class="n" x="560" y="534">2º bloqueio</text>
+<rect class="w" x="532" y="580" width="16" height="10"/>
+<text class="n" x="556" y="590">tampão roscado com corrente</text>
+<text class="n" x="420" y="640">serviços severos: gases liquefeitos, vapor, H2, H2S, categoria M</text>
+<text class="n" x="20" y="688">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

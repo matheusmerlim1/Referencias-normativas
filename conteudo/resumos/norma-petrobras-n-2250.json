@@ -1,0 +1,22 @@
+{
+ "id": "PETROBRAS-N-2250",
+ "titulo": "Petrobras N-2250 Rev. C (05/2011) — Caldeira flamotubular: folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso",
+   "item": "1, 3",
+   "texto": "Padroniza a folha de dados da caldeira flamotubular (5 folhas A4): Anexo A em unidades do sistema de engenharia e Anexo B em SI. Cabeçalho e rodapé pela N-381 (com folha de continuação quando faltar espaço); TAG pela N-1521 no campo do nome do equipamento. Complementa a N-2309, que traz os requisitos técnicos.",
+   "valores": [],
+   "figuras": ["esquemas/caldeira-flamotubular.svg"]
+  },
+  {
+   "titulo": "Conteúdo do formulário",
+   "item": "Anexos A e B",
+   "texto": "Dados gerais (produção, pressões e temperaturas normal e de projeto, pureza e umidade do vapor, faixa de controle, eficiência pelo PCI, normas de teste e de emissões); água de alimentação (pressão, temperatura, tipo — bruta, abrandada, desaerada — e análise); combustíveis de queima contínua e de partida (tipo, PCI, consumo, pressão e temperatura no queimador); vapor e ar de atomização; purga (frequência, diâmetro, válvula de descarga rápida); ar de combustão (excesso, vazão, pressão e temperatura na caixa de ar); queimador (fabricante, capacidades, turn-down, ruído, controle liga-desliga/2 estágios/modulante, piloto); gás de combustão e chaminé (material, espessura, Ø interno, altura, retentor de fuligem); válvulas de segurança; características construtivas (PMTA, teste hidrostático, superfície de aquecimento, passagens de gases, pesos, volume de água, dimensões externas; costado, fornalha, espelhos, tubos de gases e tubos tirantes com diâmetro, espessura e material); bomba de água e ventilador de ar.",
+   "valores": [
+    {"parametro": "Campos dimensionais do corpo", "valor": "Ø interno e espessura do costado, da fornalha e dos espelhos; Ø externo e espessura dos tubos de gases e tirantes", "item": "Folha 03, item 13", "cota": "esquemas/caldeira-flamotubular.svg#costado-di", "nota": "campos do formulário; a norma não fixa valores"},
+    {"parametro": "Campos da chaminé", "valor": "material, espessura da chapa, Ø interno e altura acima do chão", "item": "Folha 02, item 11", "cota": "esquemas/caldeira-flamotubular.svg#chamine-altura", "nota": "campos do formulário"}
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-label="Identificação de tubulações — código e placa">
+<title>Identificação de tubulações — código e placa (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .bl{fill:#5d8fc9;fill-opacity:.25;stroke:#4a77a8;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .p{fill:none;stroke:#4a77a8;stroke-width:3}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Identificação de tubulações — código e placa</text>
+<text class="b" x="20" y="62">(a) Código de identificação — seis grupos</text>
+<rect class="sl" x="40" y="90" width="120" height="44"/>
+<text class="n m" x="100" y="118">Ø nominal</text>
+<text class="b m" x="170" y="118">–</text>
+<rect class="sl" x="180" y="90" width="120" height="44"/>
+<text class="n m" x="240" y="118">fluido</text>
+<text class="b m" x="310" y="118">–</text>
+<rect class="sl" x="320" y="90" width="120" height="44"/>
+<text class="n m" x="380" y="118">área</text>
+<text class="b m" x="450" y="118">–</text>
+<rect class="sl" x="460" y="90" width="120" height="44"/>
+<text class="n m" x="520" y="118">sequencial</text>
+<text class="b m" x="590" y="118">–</text>
+<rect class="sl" x="600" y="90" width="120" height="44"/>
+<text class="n m" x="660" y="118">padronização</text>
+<text class="b m" x="730" y="118">–</text>
+<rect class="sl" x="740" y="90" width="120" height="44"/>
+<text class="n m" x="800" y="118">isolamento</text>
+<g id="cota-codigo" class="cota"><line class="e" x1="40" y1="144" x2="880" y2="144"/><text class="n b" x="330" y="166">um código por linha; muda fluido, área ou padronização → nova linha</text></g>
+<text class="b" x="20" y="220">(b) Identificação no campo</text>
+<rect class="s" x="40" y="300" width="500" height="60"/>
+<rect class="w" x="200" y="250" width="240" height="50"/>
+<text class="n" x="214" y="282">código da linha (letras)</text>
+<g id="cota-placa" class="cota"><line class="h" x1="220" y1="300" x2="220" y2="250"/><line class="h" x1="420" y1="300" x2="420" y2="250"/><text class="n b" x="560" y="280">placa presa por arame inox</text></g>
+<g id="cota-altura-letra" class="cota"><line class="d" x1="450" y1="262" x2="450" y2="290" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="436" y1="262" x2="456" y2="262"/><line class="e" x1="436" y1="290" x2="456" y2="290"/><text class="n b" x="560" y="300">altura mínima das letras</text></g>
+<text class="n" x="40" y="390">locais de fácil visão: pontilhões, limites de bateria, passarelas; linhas isoladas só com placa</text>
+<text class="n" x="20" y="428">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

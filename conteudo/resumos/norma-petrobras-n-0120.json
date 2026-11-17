@@ -1,0 +1,42 @@
+{
+ "id": "PETROBRAS-N-0120",
+ "titulo": "Petrobras N-0120 Rev. E (12/2013) — Peças de inserção entre flanges",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Padroniza as peças montadas entre flanges para bloqueio positivo e para tomada: figuras 8, raquetes e anéis espaçadores (flanges FR e FJA, classes 150 a 2500, NPS 1/2 a 42), anéis de tomada (FR e FJA, classes 150 a 600, NPS 2 a 6) e o comprimento dos estojos dos flanges onde essas peças entram.",
+   "valores": [
+    {"parametro": "Faixa das figuras 8, raquetes e espaçadores", "valor": "NPS 1/2 a 42; classes 150 a 2500", "item": "1.1 a)", "cota": "esquemas/peca-insercao-flanges.svg#A"},
+    {"parametro": "Faixa dos anéis de tomada", "valor": "NPS 2 a 6; classes 150, 300 e 600", "item": "1.1 b)", "cota": "esquemas/peca-insercao-flanges.svg#A"}
+   ],
+   "figuras": ["esquemas/peca-insercao-flanges.svg"]
+  },
+  {
+   "titulo": "Condições gerais",
+   "item": "3",
+   "texto": "Espessuras calculadas para os materiais da N-76 (A516 Gr 60; A203 Gr E; A387 Gr 5 e 11; inox 304L, 316L, 317L e 347) e sem sobre-espessura de corrosão; outros materiais ou diâmetros são calculados pela norma de projeto. Dimensões casadas com os flanges B16.5 (até 24 pol) e B16.47 série A (26, 30, 36 pol) e série B (42 pol); acabamento de face pelas mesmas normas. O olhal pode ter outro formato se aprovado; em ambiente salino pode-se pedir galvanização. Diâmetro interno do espaçador segue a padronização da linha.",
+   "valores": [
+    {"parametro": "Tolerância de espessura", "valor": "+3,0 / −0,0 mm", "item": "3.11 a)", "cota": "esquemas/peca-insercao-flanges.svg#T"},
+    {"parametro": "Tolerância do diâmetro externo A", "valor": "+0,0 / −1,0 mm", "item": "3.11 b)", "cota": "esquemas/peca-insercao-flanges.svg#A"},
+    {"parametro": "Tolerância do diâmetro interno B", "valor": "± 1,5 mm", "item": "3.11 c)", "cota": "esquemas/peca-insercao-flanges.svg#B"},
+    {"parametro": "Tolerância das dimensões C / D", "valor": "C: +0,0 / −1,5 mm; D: +1,0 / −0,0 mm", "item": "3.11 d)–e)", "cota": "esquemas/peca-insercao-flanges.svg#D"},
+    {"parametro": "Marcação (corpo ou cabo, visível montada)", "valor": "NPS e classe, ex.: 12 pol – 300", "item": "3.12"},
+    {"parametro": "Espessura abaixo da qual o olhal pode ser recortado da própria chapa", "valor": "< 12 mm", "item": "3.13 Nota", "cota": "esquemas/peca-insercao-flanges.svg#T"}
+   ]
+  },
+  {
+   "titulo": "Dimensões tabeladas (flanges FR)",
+   "item": "Tabelas A.1–A.4",
+   "texto": "Para cada classe e NPS: diâmetros A e B, dimensões C, D, G, H e R1 da Figura A.1, espessura T por grupo de material (AC, AL, AI) e diâmetro e comprimento L dos estojos. O anel espaçador tem furo de identificação; nos menores diâmetros o cabo é uma tira da mesma espessura com furo na ponta. Exemplos abaixo (aço-carbono).",
+   "valores": [
+    {"parametro": "Classe 150, NPS 2 — A / B / D / T (AC) / estojo", "valor": "102 / 56 / 120,7 / 4 mm; estojo 5/8 pol × 85 mm", "item": "Tabela A.1", "cota": "esquemas/peca-insercao-flanges.svg#A"},
+    {"parametro": "Classe 150, NPS 6 — A / B / D / T (AC) / estojo", "valor": "219 / 157 / 241,3 / 10 mm; estojo 3/4 pol × 110 mm", "item": "Tabela A.1", "cota": "esquemas/peca-insercao-flanges.svg#A"},
+    {"parametro": "Classe 150, NPS 12 — A / B / D / T (AC) / estojo", "valor": "406 / 318 / 431,8 / 18 mm; estojo 7/8 pol × 135 mm", "item": "Tabela A.1", "cota": "esquemas/peca-insercao-flanges.svg#A"},
+    {"parametro": "Classe 300, NPS 12 — A / B / D / T (AC) / estojo", "valor": "419 / 318 / 450,8 / 28 mm; estojo 1 1/8 pol × 235 mm", "item": "Tabela A.2", "cota": "esquemas/peca-insercao-flanges.svg#A"},
+    {"parametro": "Furo de identificação do anel espaçador", "valor": "Ø 6 mm", "item": "Tabela A.1, Nota 3", "cota": "esquemas/peca-insercao-flanges.svg#furo-id"},
+    {"parametro": "Cabo dos menores diâmetros", "valor": "mesma espessura da raquete, largura 25 mm, orifício de 5/8 pol na ponta", "item": "Tabela A.1, Nota 6", "cota": "esquemas/peca-insercao-flanges.svg#cabo"}
+   ]
+  }
+ ]
+}

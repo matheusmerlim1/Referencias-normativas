@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580" role="img" aria-label="Símbolos de tubulação — exemplos desenhados (não são os da norma)">
+<title>Símbolos de tubulação — exemplos desenhados (não são os da norma) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .bl{fill:#5d8fc9;fill-opacity:.25;stroke:#4a77a8;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .p{fill:none;stroke:#4a77a8;stroke-width:3}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Símbolos de tubulação — exemplos desenhados (não são os da norma)</text>
+<rect class="e" x="40" y="80" width="150" height="120" fill="none"/>
+<g transform="translate(115,135)"><line class="p" x1="-60" y1="0" x2="60" y2="0"/><polygon class="w" points="-14,-12 -14,12 14,-12 14,12"/></g>
+<text class="n m" x="115" y="188">válvula gaveta</text>
+<rect class="e" x="210" y="80" width="150" height="120" fill="none"/>
+<g transform="translate(285,135)"><line class="p" x1="-60" y1="0" x2="60" y2="0"/><polygon class="w" points="-14,-12 -14,12 14,-12 14,12"/><circle class="wd" cx="0" cy="0" r="5"/></g>
+<text class="n m" x="285" y="188">válvula globo</text>
+<rect class="e" x="380" y="80" width="150" height="120" fill="none"/>
+<g transform="translate(455,135)"><line class="p" x1="-60" y1="0" x2="60" y2="0"/><polygon class="w" points="-14,-12 -14,12 14,0"/><line class="g" x1="14" y1="-12" x2="14" y2="12"/></g>
+<text class="n m" x="455" y="188">válvula de retenção</text>
+<rect class="e" x="550" y="80" width="150" height="120" fill="none"/>
+<g transform="translate(625,135)"><line class="p" x1="-60" y1="0" x2="60" y2="0"/><polygon class="w" points="-14,-12 -14,12 14,-12 14,12"/><circle class="w" cx="0" cy="0" r="7"/></g>
+<text class="n m" x="625" y="188">válvula esfera</text>
+<rect class="e" x="720" y="80" width="150" height="120" fill="none"/>
+<g transform="translate(795,135)"><line class="p" x1="-60" y1="0" x2="60" y2="0"/><line class="g" x1="-10" y1="-14" x2="-10" y2="14"/><line class="g" x1="10" y1="-14" x2="10" y2="14"/><line class="g" x1="-10" y1="14" x2="10" y2="-14"/></g>
+<text class="n m" x="795" y="188">válvula borboleta</text>
+<rect class="e" x="40" y="230" width="150" height="120" fill="none"/>
+<g transform="translate(115,285)"><line class="p" x1="0" y1="30" x2="0" y2="0"/><line class="p" x1="0" y1="0" x2="40" y2="0"/><polygon class="w" points="-12,14 12,14 0,0"/><polygon class="w" points="0,0 14,-12 14,12"/></g>
+<text class="n m" x="115" y="338">válvula de segurança</text>
+<rect class="e" x="210" y="230" width="150" height="120" fill="none"/>
+<g transform="translate(285,285)"><line class="p" x1="-60" y1="0" x2="60" y2="0"/><line class="g" x1="-4" y1="-16" x2="-4" y2="16"/><line class="g" x1="4" y1="-16" x2="4" y2="16"/></g>
+<text class="n m" x="285" y="338">par de flanges</text>
+<rect class="e" x="380" y="230" width="150" height="120" fill="none"/>
+<g transform="translate(455,285)"><line class="p" x1="-60" y1="0" x2="60" y2="0"/><line class="g" x1="0" y1="-16" x2="0" y2="16"/><circle class="w" cx="0" cy="-26" r="8"/><line class="g" x1="0" y1="-18" x2="0" y2="-16"/></g>
+<text class="n m" x="455" y="338">figura 8</text>
+<rect class="e" x="550" y="230" width="150" height="120" fill="none"/>
+<g transform="translate(625,285)"><line class="p" x1="-60" y1="0" x2="-14" y2="0"/><polygon class="w" points="-14,-12 14,-6 14,6 -14,12"/><line class="p" x1="14" y1="0" x2="60" y2="0"/></g>
+<text class="n m" x="625" y="338">redução concêntrica</text>
+<rect class="e" x="720" y="230" width="150" height="120" fill="none"/>
+<g transform="translate(795,285)"><line class="p" x1="-60" y1="0" x2="-14" y2="0"/><polygon class="w" points="-14,-12 14,-12 14,0 -14,12"/><line class="p" x1="14" y1="-6" x2="60" y2="-6"/></g>
+<text class="n m" x="795" y="338">redução excêntrica</text>
+<rect class="e" x="40" y="380" width="150" height="120" fill="none"/>
+<g transform="translate(115,435)"><line class="p" x1="-60" y1="0" x2="0" y2="0"/><path class="g" d="M0,-12 A12,12 0 0,1 0,12"/></g>
+<text class="n m" x="115" y="488">tampão</text>
+<rect class="e" x="210" y="380" width="150" height="120" fill="none"/>
+<g transform="translate(285,435)"><line class="p" x1="-60" y1="0" x2="60" y2="0"/><line class="p" x1="0" y1="0" x2="0" y2="-40"/></g>
+<text class="n m" x="285" y="488">tê</text>
+<rect class="e" x="380" y="380" width="150" height="120" fill="none"/>
+<g transform="translate(455,435)"><path class="p" d="M-60,20 L-20,20 A20,20 0 0,0 0,0 L0,-40"/></g>
+<text class="n m" x="455" y="488">curva</text>
+<rect class="e" x="550" y="380" width="150" height="120" fill="none"/>
+<g transform="translate(625,435)"><line class="p" x1="-60" y1="0" x2="60" y2="0"/><line class="p" x1="0" y1="0" x2="22" y2="22"/><rect class="w" x="16" y="18" width="10" height="10"/></g>
+<text class="n m" x="625" y="488">filtro Y</text>
+<rect class="e" x="720" y="380" width="150" height="120" fill="none"/>
+<g transform="translate(795,435)"><line class="p" x1="-60" y1="0" x2="60" y2="0"/><circle class="w" cx="0" cy="0" r="12"/><text class="n m" x="0" y="5">T</text></g>
+<text class="n m" x="795" y="488">purgador</text>
+<text class="n" x="20" y="568">Esquema ilustrativo (não é desenho da norma) — sem escala. Consulte a norma para o símbolo oficial.</text>
+</svg>

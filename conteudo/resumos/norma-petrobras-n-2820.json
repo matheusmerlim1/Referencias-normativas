@@ -1,0 +1,34 @@
+{
+ "id": "PETROBRAS-N-2820",
+ "titulo": "Petrobras N-2820 Rev. C (11/2022) — Radiografia computadorizada para medição de espessura em serviço de tubulações e acessórios",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Método de radiografia computadorizada (placa de fósforo, com fonte de raios X ou gama) para medir a espessura de tubulações e acessórios em serviço — inclusive isolados, sem remover o isolamento — como ferramenta de avaliação de corrosão. A norma base do ensaio é a ABNT NBR 15783; esta norma só modifica, adiciona ou suprime itens dela.",
+   "valores": [
+    {
+     "parametro": "Prazo para implantar a revisão",
+     "valor": "180 dias após a publicação (ou plano de implantação)",
+     "item": "1.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/radiografia-espessura-tubulacao.svg"
+   ]
+  },
+  {
+   "titulo": "Alterações à NBR 15783",
+   "item": "3–4",
+   "texto": "Termos do VIM, NBR 16602 e NBR 15783. O procedimento escrito passa a declarar o erro máximo em relação à espessura nominal obtido na qualificação, por faixa de espessura; o relatório de ensaio informa o erro máximo de medição para cada faixa qualificada. Na técnica tangencial, a parede aparece projetada na imagem e é medida diretamente nela.",
+   "valores": [
+    {
+     "parametro": "Erro máximo de medição",
+     "valor": "declarado no procedimento e no relatório, por faixa de espessura qualificada",
+     "item": "4.1–4.2",
+     "cota": "esquemas/radiografia-espessura-tubulacao.svg#espessura-imagem"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "id": "PETROBRAS-N-1664",
+ "titulo": "Petrobras N-1664 Rev. E (12/2010) — Forno tubular: folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso",
+   "item": "1, 4",
+   "texto": "Padroniza a folha de dados de forno tubular (8 folhas A4), baseada na do API Std 560: Anexo A em unidades do sistema de engenharia (kcal/h, kgf/cm²) e Anexo B em SI. Registra os requisitos do comprador e o projeto do fornecedor e vira documento permanente. Cabeçalho pela N-381, TAG pela N-1521, preenchimento conforme N-1671 e NBR 10778. Até quatro colunas por folha para zonas, serviços e combustíveis (folhas suplementares se precisar de mais); campos que não se aplicam são riscados.",
+   "valores": [],
+   "figuras": ["esquemas/forno-tubular.svg"]
+  },
+  {
+   "titulo": "Termos — processo e combustão",
+   "item": "3.1–3.4",
+   "texto": "Serviço do forno (atmosférico, vácuo, reformador, vaporizador…) e tipo (cilíndrico vertical, cabine, caixa, dupla câmara). Caso de carga = condição de operação considerada; zona = radiação, convecção ou tubos de proteção ('shield'); serviço da serpentina em cada zona. Perda de carga calculada entre os terminais externos de cada passe. Fluxo médio de calor = carga absorvida ÷ área externa efetiva da zona (tubos de proteção à parte; com aletas, referido ao tubo base e informando a relação de extensão); fluxo máximo = pico pontual. Temperatura máxima de película interna só quando crítica para o fluido; fator de incrustação = resistência da camada depositada. Velocidade mássica dos gases na convecção pela menor área livre, descontando aletas, pinos e corbéis.",
+   "valores": [
+    {"parametro": "Espessura de coque considerada na serpentina", "valor": "campo da folha de dados (mm)", "item": "Folha 02", "cota": "esquemas/forno-tubular.svg#coque", "nota": "campo do formulário; a norma não fixa valor"}
+   ]
+  },
+  {
+   "titulo": "Termos — serpentina e refratário",
+   "item": "3.5–3.6",
+   "texto": "Pressão de projeto elástica (máxima de curta duração) e de ruptura (máxima contínua, em geral menor que a elástica). Temperatura de projeto do fluido = máxima média, base dos flanges e cabeçotes; temperatura máxima de parede considera o perfil do fluido, a incrustação e o fluxo máximo local. Superfície estendida: tipo (pinos, aletas helicoidais contínuas), distribuição (em linha ou alternada), densidade linear e relação de extensão. Refratário: temperatura de projeto da face quente (limite do material) e calculada (máxima prevista); a primeira camada é a que encosta na chapa do forno.",
+   "valores": [
+    {"parametro": "Densidade linear das aletas ou pinos", "valor": "quantidade por unidade de comprimento do tubo", "item": "3.5.5", "cota": "esquemas/forno-tubular.svg#aletas"},
+    {"parametro": "Ordem das camadas de refratário", "valor": "1ª camada = a junto à chapa do forno", "item": "3.6.2", "cota": "esquemas/forno-tubular.svg#refratario"}
+   ]
+  }
+ ]
+}

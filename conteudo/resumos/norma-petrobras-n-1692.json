@@ -1,0 +1,48 @@
+{
+ "id": "PETROBRAS-N-1692",
+ "titulo": "Petrobras N-1692 Rev. D (03/2021) — Apresentação de projetos de tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo e documentos do projeto",
+   "item": "1, 4",
+   "texto": "Define os documentos que formam o projeto de tubulação e como apresentá-los: fluxogramas de engenharia, folhas de dados de tubulação, plantas (básico e detalhamento) e seus índices, planta de interligações no limite de bateria, isométricos e índice de isométricos, locação e desenhos de suportes, diagramas de carga nos suportes, detalhes, instalações subterrâneas, plataformas de acesso, locação de aquecimento, listas de material, de linhas, de suportes, de purgadores e demais formulários.",
+   "valores": [],
+   "figuras": ["esquemas/tubulacao-isometrico-planta.svg"]
+  },
+  {
+   "titulo": "Fluxogramas de engenharia",
+   "item": "5",
+   "texto": "Mostram todos os equipamentos principais (estáticos e dinâmicos) com identificação e características básicas, os secundários (filtros, purgadores, figuras 8, raquetes), linhas com identificação completa, válvulas e instrumentos. Traçado só com linhas horizontais e verticais: as horizontais contínuas e as verticais interrompidas nos cruzamentos; linhas principais em traço mais forte.",
+   "valores": []
+  },
+  {
+   "titulo": "Plantas de tubulação",
+   "item": "7",
+   "texto": "No básico, feitas sobre o arranjo geral, com a linha de centro de cada tubo. No detalhamento, em escala padronizada, com coordenadas, elevações, identificação das linhas e dos sistemas de aquecimento (N-42), suportes com diagrama de cargas, plataformas, canaletas e acessos; tubos pequenos em traço único na linha de centro e tubos grandes em dois traços em escala, com a linha de centro como referência das cotas. Áreas de interligação em escalas reduzidas, com detalhes onde houver concentração.",
+   "valores": [
+    {"parametro": "Escalas das plantas de detalhamento", "valor": "1:500; 1:250; 1:100; 1:50; 1:33 1/3 ou 1:25 (interligações: 1:250 e 1:500)", "item": "7.1.2.2; 7.1.2.7"},
+    {"parametro": "Tubo representado por traço único", "valor": "diâmetro nominal até 12 pol (maiores: dois traços em escala)", "item": "7.3.2.1", "cota": "esquemas/tubulacao-isometrico-planta.svg#traco"}
+   ]
+  },
+  {
+   "titulo": "Isométricos",
+   "item": "10–11",
+   "texto": "Um isométrico por linha (duas só em casos como sucções de bombas A e B), nunca misturando padronizações de material; mostra cotas, materiais, soldas, suportes (tipo e código), condições de projeto e teste, pintura e isolamento e abreviaturas. Verticais em traço vertical; horizontais nas direções ortogonais em traços inclinados sobre a horizontal; outras direções com triângulo de referência. Com dez ou mais isométricos, recomenda-se índice.",
+   "valores": [
+    {"parametro": "Inclinação das horizontais no isométrico", "valor": "30° sobre a horizontal (para a direita ou a esquerda)", "item": "10.3.2", "cota": "esquemas/tubulacao-isometrico-planta.svg#angulo-iso"},
+    {"parametro": "Tomada tamponada para ligação futura incluída no isométrico do tronco", "valor": "comprimento até 1 000 mm", "item": "10.2.1 o)", "cota": "esquemas/tubulacao-isometrico-planta.svg#tomada"},
+    {"parametro": "Folha recomendada para isométrico", "valor": "A3 (420 mm × 297 mm); unidade linear recomendada: milímetro", "item": "10.4.2; 10.5.5", "cota": "esquemas/tubulacao-isometrico-planta.svg#folha", "nota": "prática recomendada"},
+    {"parametro": "Nº de isométricos a partir do qual se recomenda índice", "valor": "≥ 10", "item": "11.1.1"}
+   ]
+  },
+  {
+   "titulo": "Suportes, detalhes, subterrâneos e listas",
+   "item": "12–25",
+   "texto": "Locação de suportes em plantas próprias com os mesmos limites de coordenadas das plantas de tubulação (escala pode ser menor); desenhos de suportes especiais e diagramas de cargas; detalhes ampliados dos trechos congestionados (cortes, isométricos ou plantas); instalações subterrâneas; arranjo de plataformas de acesso (sem escala). Listas de material e demais formulários em tamanhos padronizados.",
+   "valores": [
+    {"parametro": "Formato das listas de material", "valor": "A4 (210 mm × 297 mm), de preferência", "item": "19.1.8", "cota": "esquemas/tubulacao-isometrico-planta.svg#folha"},
+    {"parametro": "Formato de outros formulários (item 25)", "valor": "A3 (420 mm × 297 mm), de preferência", "item": "25.1.3", "cota": "esquemas/tubulacao-isometrico-planta.svg#folha"}
+   ]
+  }
+ ]
+}

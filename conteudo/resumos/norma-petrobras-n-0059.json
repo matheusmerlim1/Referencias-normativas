@@ -1,0 +1,25 @@
+{
+ "id": "PETROBRAS-N-0059",
+ "titulo": "Petrobras N-0059 Rev. E (08/2010) — Símbolos gráficos para desenhos de tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Símbolos gráficos usados nas plantas e isométricos de tubulação da Petrobras. Instrumentos seguem a ANSI/ISA 5.1; fluxogramas de processo e de engenharia, a N-58; instalações prediais, as NBR 5626 e NBR 8160.",
+   "valores": [],
+   "figuras": ["esquemas/tubulacao-simbolos.svg"]
+  },
+  {
+   "titulo": "Regras de traçado",
+   "item": "3",
+   "texto": "Os símbolos são desenhados mantendo, sempre que possível, a proporção entre as dimensões reais. No isométrico, o símbolo é traçado pela vista lateral; válvulas de 3 e 4 vias, pela vista em planta. Linhas identificadas pela N-1522 e equipamentos pela N-1521; plantas pela N-381 e isométricos pela N-1692. Em planta, toda redução excêntrica leva a nota 'nivelada por cima' ou 'nivelada por baixo' com os dois diâmetros.",
+   "valores": []
+  },
+  {
+   "titulo": "Catálogo de símbolos (Anexo A)",
+   "item": "Figs. A.1–A.8",
+   "texto": "A.1 traçado de tubulação e acessórios: tubo, tubo com aquecimento a vapor, por resistência ou por indução, isolado, superposto, interrompido, flexível e dobrado; extremidades; curvas em gomos, curvas e joelhos de 90° e 45°; tês; bujão, tampão, união; derivações, anel de reforço, colares (elbolet, weldolet, sockolet, threadolet), luva e meia-luva; reduções concêntricas e excêntricas; sela. A.2 flanges (cego, de orifício, de pescoço, sobreposto, roscado, de encaixe, de virola). A.3 bloqueios especiais (adufas, figura 8, raquete). A.4 válvulas: agulha, angular, bloqueio e retenção, borboleta, boia, controle, gaveta (com e sem engrenagem), diafragma, esfera, fecho rápido, globo, guilhotina, macho (inclusive dupla sede), pé com filtro, retenção, segurança e alívio, 3 e 4 vias. A.5 estação de controle; A.6 suportes; A.7 ligações com bombas, compressores, turbinas, fornos, permutadores, vasos, tanques e esferas; A.8 equipamentos de linha (amortecedor de pulsação, corta-chama, disco de ruptura, ejetor, filtros T/Y/temporário/vertical/cesto, junta de expansão, purgadores com distribuidor de fluxo, separador, silenciador, ventosa, visor).",
+   "valores": []
+  }
+ ]
+}

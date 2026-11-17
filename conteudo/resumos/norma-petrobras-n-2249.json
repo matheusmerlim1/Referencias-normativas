@@ -1,0 +1,21 @@
+{
+ "id": "PETROBRAS-N-2249",
+ "titulo": "Petrobras N-2249 Rev. E (11/2022) — Caldeira aquotubular: folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso",
+   "item": "1, 3",
+   "texto": "Padroniza a folha de dados (formulário A4, Anexo A) da caldeira aquotubular para projetos da Petrobras. Registra os requisitos do comprador e o projeto do fornecedor e vira documento permanente; o fabricante a completa com os dados 'as built' e ela é revista sempre que o projeto mudar. Além dela, o projetista/fabricante entrega a folha de desempenho ('performance data sheet') com os casos operacionais, que esta norma não padroniza. Cabeçalho e continuação pela N-381, TAG pela N-1521; queimadores, sopradores de fuligem e ventiladores têm folhas próprias (N-1665, N-1666, N-2916). Campos que não se aplicam são riscados.",
+   "valores": [
+    {"parametro": "Prazo para implantar a revisão", "valor": "180 dias após a publicação (ou plano de implantação)", "item": "1.3"}
+   ],
+   "figuras": ["esquemas/caldeira-aquotubular-montagem.svg"]
+  },
+  {
+   "titulo": "Conteúdo do formulário (revisão E)",
+   "item": "Anexo A",
+   "texto": "Casos operacionais e carga; combustíveis (tipo, composição, peso molecular, densidade, PCI e PCS) e consumo; eficiências; liberação volumétrica e absorção de calor com unidades; turn-down; trocadores de calor da caldeira com temperaturas, pressões e vazões de entrada e saída; dimensões em milímetros; pesos; zonas de radiação e convecção; pressões manométricas identificadas com 'g'; ventilador centrífugo pela N-2916.",
+   "valores": []
+  }
+ ]
+}

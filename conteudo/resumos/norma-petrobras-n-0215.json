@@ -1,0 +1,37 @@
+{
+ "id": "PETROBRAS-N-0215",
+ "titulo": "Petrobras N-0215 (03/2023) — Requisitos de qualidade e inspeção de materiais de tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Requisitos mínimos de qualidade e de inspeção de fabricação no fornecimento de materiais de tubulação: válvulas industriais, tubos de condução, conexões e niples, flanges, estojos e porcas, e juntas de vedação. Componentes de ferro fundido, bronze, alumínio, latão e polímeros seguem os testes das suas próprias normas de fabricação; material 'padrão fabricante', sem norma de referência, fica fora. Complementa o Requisito Geral de Qualidade de Bens da Petrobras.",
+   "valores": [
+    {"parametro": "Prazo para implantar a norma", "valor": "180 dias após a publicação (ou plano de implantação registrado)", "item": "1.5"}
+   ],
+   "figuras": ["esquemas/valvula-dimensoes.svg", "esquemas/tubulacao-processo-tubo-diametros-parede.svg"]
+  },
+  {
+   "titulo": "Definições e organização",
+   "item": "3, 4",
+   "texto": "Termos do processo de inspeção: COD (comunicado de divergência ao fornecedor), IQF (índice de qualidade do fornecedor, de 0 a 100 %, por família de material e planta auditada), item crítico (cuja falha para a operação, agride o ambiente, a segurança ou a vida útil), OIA (organismo de inspeção acreditado ISO 17020 tipo A), RIF (responsável pela inspeção de fabricação — não pode ser quem fabrica), ponto de monitoramento, RNC e RI. Anexos específicos: A válvulas, B tubos, C conexões/flanges/niples, D juntas, E estojos e porcas, F modelos de PIT (válvulas, controle, segurança e alívio, acessórios).",
+   "valores": [
+    {"parametro": "Faixa do IQF", "valor": "0 a 100 %", "item": "3.6"}
+   ]
+  },
+  {
+   "titulo": "Pessoal, procedimentos e metrologia",
+   "item": "5–7",
+   "texto": "Inspeção feita pelo RIF ou por inspetores de OIA; inspeção de soldagem, END e pintura com competência certificada pela N-2941. Procedimentos de solda, END e pintura dos itens críticos aprovados por profissional certificado. Instrumentos com rastreabilidade calibrados em laboratório ISO 17025 acreditado (ILAC); calibração interna só contra padrão rastreado, em ambiente climatizado, por pessoal treinado e com certificado completo (incerteza, resultado, validade).",
+   "valores": []
+  },
+  {
+   "titulo": "Não conformidade, registros e PIT",
+   "item": "8–11",
+   "texto": "O fornecedor trata as não conformidades pelo próprio procedimento, com ação corretiva e prova de eficácia. Registros de inspeção rastreáveis, inclusive de subfornecedores. Atividades mínimas do RIF: aprovar o PIT, conferir documentos e certificados de matéria-prima, acompanhar processos e ensaios intermediários, testemunhar testes funcionais, fazer o visual e o dimensional final, conferir o data book, emitir registros e verificar identificação, preservação e embalagem. Na falta de definição contratual, vale a ordem: documentos da compradora (RM, ET, FD, desenhos) → esta norma → normas técnicas.",
+   "valores": [
+    {"parametro": "Tempo mínimo de arquivamento dos registros da qualidade", "valor": "5 anos", "item": "9"}
+   ]
+  }
+ ]
+}

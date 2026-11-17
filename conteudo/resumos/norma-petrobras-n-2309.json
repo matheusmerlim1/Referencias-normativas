@@ -1,0 +1,59 @@
+{
+ "id": "PETROBRAS-N-2309",
+ "titulo": "Petrobras N-2309 Rev. C (04/2011) — Caldeira flamotubular a vapor",
+ "secoes": [
+  {
+   "titulo": "Escopo e descrição geral",
+   "item": "1, 4",
+   "texto": "Condições para fornecer caldeira flamotubular a vapor automática, compacta e estacionária, com auxiliares, para instalações terrestres (refinarias, terminais, estações, centrais térmicas). A caldeira é cilíndrica, horizontal, montada em fábrica sobre um skid único com todos os auxiliares, pronta para ligar energia, combustível, água, dreno, vapor, chaminé e painel. Sistemas: corpo (costado, fornalha, espelhos, tubos, isolamento, refratário), partida, combustão, segurança e controle, água de alimentação, emergência, comando elétrico, tiragem forçada, escape de gases, acessórios.",
+   "valores": [],
+   "figuras": ["esquemas/caldeira-flamotubular.svg"]
+  },
+  {
+   "titulo": "Projeto, água e combustão",
+   "item": "5.1–5.4",
+   "texto": "Projeto pela NR-13 e ASME I, operação contínua, emissões dentro da legislação, segurança de chama pela NBR 12313 (gás). Refratário mínimo, de preferência câmara de retorno molhada ('wet-back'); visores de chama e acessos de limpeza; fornecedor informa eficiência e consumo de energia. Água de alimentação com limites informados pelo fabricante e pontos de monitoração de corrosão; duas bombas centrífugas iguais (principal e reserva, N-906), descarga de fundo rápida, amostrador com serpentina, vent no topo e limpeza da garrafa de nível. Partida automática com piloto e fogo mínimo. Queimador dual ou combinado (sem troca de queimador), atomização a ar na partida e a vapor com comutação automática; piloto a gás com fotocélula UV; controle de combustão que mantém a pressão de vapor e opera liga-desliga abaixo do fogo mínimo.",
+   "valores": [
+    {"parametro": "Faixa mínima de controle automático da produção de vapor", "valor": "33 % a 100 %", "item": "5.1.5"}
+   ]
+  },
+  {
+   "titulo": "Segurança, controle e emergência",
+   "item": "5.5–5.6",
+   "texto": "CLP com controle de combustão, nível (eletrodos, com emergência), pressão e intertravamento; pressostato de máxima ajustado no máximo na PMTA e válvulas de segurança no topo (ASME I). Trip por falha de chama do piloto ou principal, baixa pressão de ar, baixa ou alta pressão de combustível, alta pressão de vapor, falta de energia, nível muito baixo e falta de ar de instrumento; alarmes correspondentes (mais nível alto) com contato para a sala de controle; rearme manual. Sequência: pré-purga, ignição e chama do piloto, combustível principal, checagem da chama, modulação, pós-purga. Histórico de falhas em memória não volátil.",
+   "valores": [
+    {"parametro": "Comutação para atomização a ar quando falta vapor", "valor": "em no máximo 5 s, sem parar a caldeira", "item": "5.5.6"},
+    {"parametro": "Eletrodos de nível no sistema de emergência", "valor": "caldeiras com vapor ≤ 10,5 kgf/cm² man.", "item": "5.6"}
+   ]
+  },
+  {
+   "titulo": "Tiragem, escape de gases, elétrica e placa",
+   "item": "5.7–5.11",
+   "texto": "Ventilador centrífugo de ar de combustão com controle automático de vazão (borboleta ou variação de velocidade) e caixa de distribuição de ar em chapa soldada. Escape com dutos de chapa soldada e reforçada e chaminé autoportante individual com chapéu chinês, captador de fuligem se queimar óleo e tomada de amostra de gases. Painel conforme N-314, motores de indução N-313. Instrumentos mínimos: pressão de vapor, de atomização e de combustível, nível, temperatura dos gases e do óleo. Placa inox com os dados de projeto e a categoria NR-13.",
+   "valores": [
+    {"parametro": "Espessura mínima da caixa de distribuição de ar", "valor": "3 mm", "item": "5.7", "cota": "esquemas/caldeira-flamotubular.svg#caixa-ar"},
+    {"parametro": "Altura mínima da chaminé acima do chão", "valor": "6 m (ou mais, se a legislação ambiental exigir)", "item": "5.8.1", "cota": "esquemas/caldeira-flamotubular.svg#chamine-altura"}
+   ]
+  },
+  {
+   "titulo": "Materiais",
+   "item": "6",
+   "texto": "Construção reforçada em chapa soldada com fornalha pressurizada e materiais certificados; isolamento pela N-1618; conexões e faces de flange pela N-76. Chapas de pressão A285 Gr C; tubos A178 Gr A, A192 ou DIN EN 10220; estrutura A36.",
+   "valores": [
+    {"parametro": "Chapa de acabamento externo sobre o isolamento", "valor": "aço-carbono, espessura mínima 1,2 mm", "item": "6.2", "cota": "esquemas/caldeira-flamotubular.svg#acabamento"},
+    {"parametro": "Chapa de dutos e chaminé", "valor": "aço estrutural (A283 Gr C), mínimo 5 mm + sobre-espessura de corrosão ≥ 1,5 mm", "item": "6.7", "cota": "esquemas/caldeira-flamotubular.svg#chapa-chamine"},
+    {"parametro": "Temperatura máxima de projeto do metal da chaminé", "valor": "340 °C", "item": "6.7"}
+   ]
+  },
+  {
+   "titulo": "Fabricação, pintura, transporte e testes",
+   "item": "7–8",
+   "texto": "Soldas pela N-133; as de pressão com penetração total, 100 % radiografadas e com alívio de tensões. Pintura por faixa de temperatura (Tabela 1: N-2, N-442, N-1735, N-1550) e cores pela NR-26/N-1219. Embalagem protegida contra chuva por longo prazo; o fabricante fornece esquemas e supervisão de montagem. Após montagem, testes de controles, segurança e auxiliares e teste de desempenho (métodos do ASME I) contra as garantias: produção máxima contínua na PMTA, eficiência pelo PCI, temperatura dos gases, título do vapor e excesso de ar. Inspeção inicial pela NBR 12177-1 e NR-13.",
+   "valores": [
+    {"parametro": "Isolamento obrigatório de equipamentos e tubulações auxiliares", "valor": "acima de 60 °C (chapa de alumínio corrugado nos trechos retos)", "item": "7.1.2.2"},
+    {"parametro": "Pintura do gerador de vapor", "valor": "N-2 condição 2 até 120 °C; condição 5 de 120 °C a 600 °C", "item": "Tabela 1"},
+    {"parametro": "Preservação da embalagem contra intempéries", "valor": "mínimo 12 meses", "item": "7.2.2"}
+   ]
+  }
+ ]
+}

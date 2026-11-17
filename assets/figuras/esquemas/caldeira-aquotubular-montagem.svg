@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 900" width="1010" height="900" role="img" aria-label="Caldeira aquotubular — tolerâncias de fabricação e montagem">
+<title>Caldeira aquotubular — tolerâncias de fabricação e montagem (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .bl{fill:#5d8fc9;fill-opacity:.25;stroke:#4a77a8;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .p{fill:none;stroke:#4a77a8;stroke-width:3}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Caldeira aquotubular — tolerâncias de fabricação e montagem</text>
+<text class="b" x="20" y="62">(a) Desvio da linha de centro do tubo</text>
+<line class="c" x1="30" y1="200" x2="310" y2="200"/>
+<text class="n" x="30" y="220">posição teórica</text>
+<path class="p" d="M30,200 L310,172"/>
+<g id="cota-desvio-tubo" class="cota"><line class="d" x1="316" y1="200" x2="316" y2="172" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="170" y="150">desvio na extremidade</text></g>
+<g id="cota-comprimento-tubo" class="cota"><line class="d" x1="30" y1="250" x2="310" y2="250" marker-start="url(#a)" marker-end="url(#a)"/><text class="n" x="110" y="270">comprimento total</text></g>
+<text class="b" x="350" y="62">(b) Painel de tubos — desvios</text>
+<rect class="s" x="370" y="100" width="22" height="200"/>
+<rect class="s" x="414" y="100" width="22" height="200"/>
+<rect class="s" x="458" y="100" width="22" height="200"/>
+<rect class="s" x="502" y="100" width="22" height="200"/>
+<rect class="s" x="546" y="100" width="22" height="200"/>
+<rect class="s" x="590" y="100" width="22" height="200"/>
+<line class="h" x1="370" y1="200" x2="610" y2="200"/>
+<g id="cota-desvio-painel" class="cota"><line class="d" x1="640" y1="110" x2="640" y2="130" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="610" y1="110" x2="646" y2="110"/><line class="e" x1="610" y1="130" x2="646" y2="130"/><text class="n b" x="550" y="326">desvio dos tubos extremos</text></g>
+<g id="cota-empenamento" class="cota"><path class="v" d="M622,100 Q650,200 622,300"/><text class="n b" x="520" y="94">empenamento</text></g>
+<text class="b" x="680" y="62">(c) Paredes: diagonais e prumo</text>
+<rect class="sl" x="700" y="110" width="160" height="110"/>
+<line class="h" x1="700" y1="110" x2="860" y2="220"/>
+<line class="h" x1="860" y1="110" x2="700" y2="220"/>
+<g id="cota-diagonais" class="cota"><text class="n b" x="710" y="240">diagonais e larguras</text></g>
+<rect class="sl" x="900" y="100" width="40" height="200"/>
+<line class="c" x1="955" y1="100" x2="955" y2="300"/>
+<g id="cota-verticalidade" class="cota"><line class="d" x1="942" y1="100" x2="955" y2="100" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="880" y="326">desvio de prumo</text></g>
+<text class="b" x="20" y="342">(d) Junta, suporte e pré-aquecimento</text>
+<rect class="s" x="30" y="420" width="290" height="30"/>
+<rect class="wd" x="170" y="416" width="6" height="38"/>
+<rect class="sl" x="60" y="450" width="20" height="60"/>
+<text class="n" x="40" y="528">suporte/espaçador</text>
+<g id="cota-junta-suporte" class="cota"><line class="e" x1="70" y1="510" x2="70" y2="550"/><line class="e" x1="173" y1="454" x2="173" y2="550"/><line class="d" x1="70" y1="544" x2="173" y2="544" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="80" y="566">junta ↔ suporte</text></g>
+<g id="cota-preaquecimento" class="cota"><rect class="r" x="130" y="410" width="86" height="50" fill-opacity=".12"/><line class="d" x1="176" y1="400" x2="216" y2="400" marker-start="url(#a)" marker-end="url(#a)"/><line class="d" x1="170" y1="400" x2="130" y2="400" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="120" y="390">faixa aquecida de cada lado</text></g>
+<text class="b" x="350" y="342">(e) Solda de selagem no tubulão</text>
+<path class="g" d="M370,560 A160,160 0 0,1 650,560"/>
+<rect class="s" x="500" y="420" width="24" height="80"/>
+<circle class="h" cx="512" cy="430" r="60"/>
+<g id="cota-raio-selagem" class="cota"><line class="d" x1="512" y1="430" x2="572" y2="430" marker-end="url(#a)"/><text class="n b" x="530" y="424">raio aquecido</text></g>
+<text class="b" x="680" y="342">(f) Bocal: projeção e esquadro</text>
+<rect class="sl" x="700" y="510" width="280" height="30"/>
+<rect class="s" x="800" y="430" width="50" height="80"/>
+<rect class="wd" x="785" y="420" width="80" height="12"/>
+<g id="cota-projecao-bocal" class="cota"><line class="e" x1="865" y1="420" x2="920" y2="420"/><line class="d" x1="910" y1="420" x2="910" y2="510" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="916" y="470">projeção</text></g>
+<g id="cota-perpendicularidade" class="cota"><line class="v" x1="780" y1="426" x2="870" y2="416"/><text class="n b" x="700" y="410">desvio angular da face</text></g>
+<text class="b" x="20" y="622">(g) Ponta de tubo a mandrilar</text>
+<rect class="s" x="80" y="670" width="60" height="140"/>
+<rect class="w" x="40" y="720" width="220" height="24"/>
+<text class="n" x="82" y="830">tubulão/espelho</text>
+<g id="cota-mandrilagem" class="cota"><line class="d" x1="80" y1="760" x2="140" y2="760" marker-start="url(#a)" marker-end="url(#a)"/><line class="d" x1="140" y1="760" x2="190" y2="760" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="190" y1="744" x2="190" y2="768"/><text class="n b" x="80" y="790">zona mandrilada + extra</text></g>
+<text class="b" x="350" y="622">(h) Duto sob gabarito reto</text>
+<path class="g" d="M370,760 Q500,730 630,760"/>
+<line class="g" x1="370" y1="790" x2="630" y2="790"/>
+<rect class="sl" x="390" y="710" width="220" height="8"/>
+<text class="n" x="440" y="704">gabarito reto</text>
+<g id="cota-duto-gabarito" class="cota"><line class="d" x1="392" y1="718" x2="392" y2="756" marker-start="url(#a)" marker-end="url(#a)"/><text class="n b" x="406" y="744">afastamento</text></g>
+<text class="b" x="680" y="622">(i) Calços na base e faixa de END</text>
+<rect class="sl" x="700" y="760" width="200" height="50"/>
+<rect class="r" x="740" y="740" width="12" height="20"/>
+<rect class="r" x="790" y="740" width="12" height="20"/>
+<line class="g" x1="771" y1="700" x2="771" y2="770"/>
+<rect class="s" x="720" y="720" width="160" height="20"/>
+<g id="cota-calco" class="cota"><line class="d" x1="752" y1="820" x2="766" y2="820" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="752" y1="760" x2="752" y2="826"/><text class="n b" x="700" y="844">calço junto ao chumbador</text></g>
+<g id="cota-faixa-end" class="cota"><rect class="r" x="910" y="680" width="40" height="140" fill-opacity=".15"/><line class="v" x1="930" y1="680" x2="930" y2="820"/><text class="n b" x="902" y="670">faixa de PM/LP</text></g>
+<text class="n" x="20" y="888">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>

@@ -1,0 +1,23 @@
+{
+ "id": "PETROBRAS-N-1690",
+ "titulo": "Petrobras N-1690 Rev. C (12/2014) — Projeto de junta de dilatação para bacias de contenção em concreto armado",
+ "secoes": [
+  {
+   "titulo": "Escopo e requisitos da junta",
+   "item": "1, 3",
+   "texto": "Condições de projeto das juntas de dilatação de paredes e pisos de bacias de contenção (diques de tanques) em concreto armado, inclusive nos encontros com outras estruturas. Quantidade de juntas definida no projeto pela NBR 6118. A junta (um elemento ou um conjunto integrado) tem de acompanhar o movimento da estrutura, ser estanque, resistir ao fogo como o próprio concreto (NBR 15200, 14432, 5628), durar e resistir aos produtos que podem ficar na bacia (hidrocarbonetos, álcool, água ácida…). Partes expostas ao sol resistentes a UV; projeto indica vida útil e periodicidade de troca de cada elemento; a junta não pode ser travada por material incompressível acumulado.",
+   "valores": [
+    {"parametro": "Vida útil mínima de cada elemento da junta", "valor": "5 anos (elemento cuja troca exige demolir concreto: vida útil da estrutura)", "item": "3.3.1–3.3.2"}
+   ],
+   "figuras": ["esquemas/junta-dilatacao-bacia.svg"]
+  },
+  {
+   "titulo": "Tipos de junta aceitos",
+   "item": "4, Anexos A–B",
+   "texto": "Outros tipos são aceitos se provarem atender a Seção 3. (a) Junta composta: perfil extrudado de PVC estanque e elástico, limitador de profundidade (uso definido no projeto), selante corta-fogo e selante com resistência química equivalente ao produto armazenado, todos resistentes a UV. (b) Junta com chapa lisa de cobre recozido dobrada na geometria do Anexo B, sem contato com a armadura, e selante flexível na face superior do piso contra entrada de corpos estranhos. Posição e quantidade das juntas vêm do projeto específico.",
+   "valores": [
+    {"parametro": "Chapa da junta de cobre", "valor": "cobre recozido, L × 40 × 1/8 pol", "item": "Fig. B.1.2", "cota": "esquemas/junta-dilatacao-bacia.svg#chapa-cobre", "nota": "dimensão lida do desenho da norma"}
+   ]
+  }
+ ]
+}

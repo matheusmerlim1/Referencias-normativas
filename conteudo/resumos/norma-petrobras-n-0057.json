@@ -1,0 +1,96 @@
+{
+ "id": "PETROBRAS-N-0057",
+ "titulo": "Petrobras N-0057 Rev. H (07/2019) — Projeto mecânico de tubulações industriais",
+ "secoes": [
+  {
+   "titulo": "Escopo e campos de aplicação",
+   "item": "1, 4",
+   "texto": "Critérios para o projeto mecânico (cálculo, arranjo e detalhamento) de tubulações de refinarias, unidades de processo, terminais e estações. A norma de cálculo depende do local: ASME B31.3 (processo), B31.1 (vapor de caldeira), ABNT NBR 15280-1 e NBR 12712 (dutos de líquido e gás) — Tabela 1. Materiais pelas padronizações da N-76, identificação pela N-1522, isolamento e aquecimento pelas normas próprias, fabricação e montagem pela N-115.",
+   "valores": [],
+   "figuras": ["esquemas/tubulacao-ponte-tubovia.svg"]
+  },
+  {
+   "titulo": "Espessura de parede",
+   "item": "5.2",
+   "texto": "Espessura calculada pela norma de cada campo de aplicação para pressão interna ou externa, com pressão e temperatura de projeto definidas pelos códigos. Linhas abaixo da atmosférica são calculadas para vácuo total; tubos grandes e finos são verificados ao colapso por vácuo eventual. Somam-se sobre-espessura de corrosão e, nas roscas, a profundidade do filete; a espessura comercial considera a tolerância de fabricação. Há espessura mínima estrutural por NPS (Tabela 3). Linhas com camisa de vapor são calculadas para pressão interna e externa separadamente.",
+   "valores": [
+    {"parametro": "Sobre-espessura mínima de corrosão (aço-carbono e baixa liga)", "valor": "1,6 mm (maior se o serviço justificar; dispensável com corrosão nula ou revestimento)", "item": "5.2.4", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#c"},
+    {"parametro": "Sobre-espessura adicional em ligação roscada", "valor": "raio externo do tubo − raio mínimo da rosca na ponta", "item": "5.2.4", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#ranhura"},
+    {"parametro": "Vida útil para definir a sobre-espessura", "valor": "≥ 20 anos (instalações de produção: ≥ 25 anos)", "item": "5.2.4"},
+    {"parametro": "Tubos que exigem verificação de colapso por vácuo", "valor": "NPS > 48 com D/e > 100", "item": "5.2.3.4", "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"},
+    {"parametro": "Espessura mínima estrutural — aço-carbono/liga", "valor": "NPS 1/2–1 1/2 classe 125 e utilidades classe 150: Sch 80; NPS 1–1 1/2 processo e utilidades ≥ 300: Sch 160; NPS 2: Sch 40 (classe 125) ou Sch 80; NPS 3–6: Sch 40; 8–26: 0,250 pol; 28–30: 0,312 pol; 32–42: 0,375 pol", "item": "5.2.6 Tabela 3", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#tnom"},
+    {"parametro": "Espessura mínima estrutural — aço inoxidável", "valor": "NPS 1/2–1 1/2 classe 125/utilidades 150: Sch 40S; NPS 1–1 1/2 processo e utilidades ≥ 300: Sch 80S; NPS 2 a 10: Sch 40S; NPS 12–42: 0,250 pol", "item": "5.2.6 Tabela 3", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#tnom"}
+   ],
+   "figuras": ["esquemas/tubulacao-processo-espessura-parede.svg"]
+  },
+  {
+   "titulo": "Vão entre suportes e flexibilidade",
+   "item": "5.3–5.4, Anexo B",
+   "texto": "Vãos máximos tabelados no Anexo B para aço-carbono (base API 5L Gr B), com tubo cheio d'água, metade da tensão admissível, flecha limitada e corrosão de 1,6 ou 3,2 mm; para outros materiais ou cargas há expressões de cálculo. Cálculo de flexibilidade obrigatório em toda linha, salvo dispensas dos códigos e linhas frias (entre 5 °C e 40 °C, à sombra e sem steam-out). Sistemas da Tabela 4 (tanques, resfriadores a ar, máquinas rotativas e combinações de NPS × temperatura) exigem análise computacional; bombas e compressores alternativos, análise dinâmica.",
+   "valores": [
+    {"parametro": "Flecha admitida nas tabelas de vão", "valor": "6 mm (on site, Tab. B.1/B.2) ou 25 mm (Tab. B.3/B.4)", "item": "Anexo B", "cota": "esquemas/tubulacao-suportes-vaos.svg#flecha"},
+    {"parametro": "Sobre-espessura de corrosão das tabelas de vão", "valor": "1,6 mm ou 3,2 mm; tolerância de fabricação 12,5 %", "item": "B.2", "cota": "esquemas/tubulacao-processo-espessura-parede.svg#c"},
+    {"parametro": "Pesos específicos adotados", "valor": "isolamento (silicato de cálcio) 2 160 N/m³; aço 76 790 N/m³; água 9 807 N/m³", "item": "B.3"},
+    {"parametro": "Vão máximo entre suportes", "valor": "pelas Tabelas B.1 a B.4 (NPS × espessura × temperatura)", "item": "5.3", "cota": "esquemas/tubulacao-suportes-vaos.svg#vao"},
+    {"parametro": "Faixa de temperatura que dispensa flexibilidade (linha não exposta ao sol, sem steam-out)", "valor": "5 °C a 40 °C", "item": "5.4.2 b)"}
+   ],
+   "figuras": ["esquemas/tubulacao-suportes-vaos.svg"]
+  },
+  {
+   "titulo": "Disposição geral e tubovias",
+   "item": "6",
+   "texto": "Tubulações aéreas em grupos paralelos com mesma elevação de fundo, em direções ortogonais e com elevações diferentes para direções diferentes; as quentes por fora e no nível mais alto (para as liras), as pesadas no nível baixo e perto das colunas. Enterradas só drenagem e incêndio dentro das unidades; canaletas evitadas. Fora das unidades, suportes baixos e trincheiras sob ruas. Linhas finas entre linhas grossas para apoio 'carona'. Nada apoiado em plataformas. Flanges só onde necessário, com os furos fora dos eixos; derivação a 45° em linhas grandes de líquido. Isoladas sempre com patim ou berço.",
+   "valores": [
+    {"parametro": "Altura mínima da tubulação acima do solo ou piso (geratriz inferior)", "valor": "300 mm (aumentar para botas e drenos)", "item": "6.3", "cota": "esquemas/tubulacao-ponte-tubovia.svg#altura-solo"},
+    {"parametro": "Gabarito livre sob tubovia com tráfego de veículos", "valor": "4,5 m de altura × 3 m de largura", "item": "6.6", "cota": "esquemas/tubulacao-ponte-tubovia.svg#gabarito-veiculo"},
+    {"parametro": "Gabarito livre sob tubovia só com pessoas", "valor": "3 m de altura × 1 m de largura", "item": "6.6", "cota": "esquemas/tubulacao-ponte-tubovia.svg#gabarito-pessoas"},
+    {"parametro": "Espaço reservado na ponte para instrumentação", "valor": "800 mm × 300 mm", "item": "6.10 a)", "cota": "esquemas/tubulacao-ponte-tubovia.svg#bandeja-instr"},
+    {"parametro": "Espaço reservado na ponte para elétrica (iluminação e força)", "valor": "1 000 mm × 300 mm", "item": "6.10 b)", "cota": "esquemas/tubulacao-ponte-tubovia.svg#bandeja-eletr"},
+    {"parametro": "Reserva para ampliação futura", "valor": "25 % da largura da tubovia", "item": "6.10.1", "cota": "esquemas/tubulacao-ponte-tubovia.svg#reserva", "nota": "prática recomendada"},
+    {"parametro": "Derivação a 45° no sentido do fluxo", "valor": "linhas ≥ NPS 30 de líquido, com esforço dinâmico ou perda de carga crítica", "item": "6.21", "cota": "esquemas/tubulacao-ponte-tubovia.svg#derivacao-45", "nota": "prática recomendada"},
+    {"parametro": "Espaçamento entre tubos paralelos e cruzamentos a 45°", "valor": "conforme Figuras A.8.1/A.8.2 (somar os deslocamentos térmicos)", "item": "6.11", "cota": "esquemas/tubulacao-ponte-tubovia.svg#espacamento", "nota": "valores na figura da norma; conferir no original"}
+   ]
+  },
+  {
+   "titulo": "Tubulação ligada a bombas e turbinas",
+   "item": "7.1–7.3",
+   "texto": "Filtro temporário (N-118) na entrada de toda máquina sem filtro permanente; cargas nos bocais abaixo das admissíveis do fabricante (API 610/611/612/617 como indicação). Bloqueio de equipamentos com válvulas e figuras 8 acessíveis, com suportes reguláveis em bocais inferiores. Sucção curta, sem pontos altos ou baixos, com trecho livre de distúrbios; válvula de bloqueio na sucção afogada e na descarga, retenção 'non-slam' na descarga de bombas em paralelo ou com recalque para nível mais alto. Bomba reserva quente mantida aquecida por recirculação. Turbina: entrada de vapor descendente, purgador antes da válvula de controle, filtro permanente e alívio na descarga.",
+   "valores": [
+    {"parametro": "Espaço livre no lado do acionador da bomba", "valor": "≥ 1 500 mm", "item": "7.2.1", "cota": "esquemas/tubulacao-arranjo-bomba.svg#espaco-acionador"},
+    {"parametro": "Trecho reto na sucção sem tê, curva curta, filtro ou válvula de passagem reduzida", "valor": "≥ 5 × NPS (ou o que o fornecedor exigir)", "item": "7.2.4", "cota": "esquemas/tubulacao-arranjo-bomba.svg#trecho-reto"},
+    {"parametro": "Temperatura acima da qual a bomba reserva é mantida aquecida", "valor": "> 300 °C", "item": "7.2.10"},
+    {"parametro": "Niple flangeado nas linhas auxiliares junto à bomba", "valor": "150 mm de comprimento", "item": "8.2.3.6", "cota": "esquemas/tubulacao-arranjo-bomba.svg#niple"}
+   ],
+   "figuras": ["esquemas/tubulacao-arranjo-bomba.svg"]
+  },
+  {
+   "titulo": "Vasos, permutadores, compressores e tubulação de serviços críticos",
+   "item": "7.4–8",
+   "texto": "Bocas de visita e tampos desmontáveis livres; bocais de vasos verticais agrupados em um ou dois setores; válvulas acessíveis do piso ou plataforma; figuras 8 para testar permutadores sobrepostos separadamente. Compressores alternativos têm requisitos suplementares (Anexo E). Em serviços críticos/perigosos há regras para tubulação de pequeno diâmetro (TPD) de processo, de selagem e resfriamento de bombas e de instrumentos, com materiais e espessuras próprios.",
+   "valores": [
+    {"parametro": "Tubo de troca térmica dos sistemas auxiliares de bombas", "valor": "ASTM A269 316 recozido, ≤ 25 HRC, espessura mínima 1 mm (Cl ≤ 10 ppm)", "item": "8.2.4.3", "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#t"},
+    {"parametro": "Tubo de condução dos auxiliares conforme temperatura", "valor": "A106 B até 260 °C; acima de 260 °C: A335 P5 (Cl > 10 ppm) ou A312 TP316 (Cl ≤ 10 ppm)", "item": "8.2.4 Tabela 8"}
+   ]
+  },
+  {
+   "titulo": "Válvulas",
+   "item": "9",
+   "texto": "Válvulas de bloqueio nos limites de unidade e de propriedade, com figura 8 ou raquete com espaçador ao lado. Válvulas de manobra frequente operáveis do piso ou plataforma, sem corrente ou haste de extensão sempre que possível. Válvulas de segurança com descarga para a atmosfera em local seguro e dreno no tubo de descarga quando não houver capuz; válvulas de controle com bloqueios e by-pass conforme arranjo típico. Válvulas testadas a fogo pela N-2546.",
+   "valores": [
+    {"parametro": "Altura do volante ou haste de válvula de operação frequente", "valor": "1 100 mm a 1 400 mm (salvo estudo de ergonomia)", "item": "9.1.9", "cota": "esquemas/tubulacao-arranjo-bomba.svg#altura-volante"},
+    {"parametro": "Orifício de dreno no tubo de descarga de PSV para a atmosfera", "valor": "Ø 10 mm", "item": "9.2.3 Nota", "cota": "esquemas/tubulacao-arranjo-bomba.svg#dreno-psv", "nota": "prática recomendada"}
+   ]
+  },
+  {
+   "titulo": "Suportes, patins e diversos",
+   "item": "12–13",
+   "texto": "Suportes, apoios e restrições pela N-1758; linhas isoladas apoiadas em patins ou berços para o isolamento não tocar o suporte. Estações de utilidades (vapor, ar, água) espalhadas para cobrir toda a área com mangueira; nas estruturas, em plataformas alternadas. Trechos retos de placas de orifício pela API RP 551; acesso por escada móvel ou plataforma.",
+   "valores": [
+    {"parametro": "Patim/berço de aço para linha quente > NPS 3/4 — altura", "valor": "100 mm", "item": "12.7.4", "cota": "esquemas/tubulacao-suportes-vaos.svg#patim-altura"},
+    {"parametro": "Patim/berço — comprimento mínimo", "valor": "300 mm (e o suficiente para a dilatação)", "item": "12.7.4", "cota": "esquemas/tubulacao-suportes-vaos.svg#patim-comprimento"},
+    {"parametro": "Alcance das estações de utilidades ao nível do solo", "valor": "mangueira de 15 m cobre toda a área", "item": "13.6 a)", "cota": "esquemas/tubulacao-ponte-tubovia.svg#alcance-mangueira"},
+    {"parametro": "Flange de orifício acessível por escada móvel", "valor": "elevação ≤ 5 m do piso (acima: plataforma)", "item": "13.7", "cota": "esquemas/tubulacao-ponte-tubovia.svg#altura-orificio"}
+   ]
+  }
+ ]
+}

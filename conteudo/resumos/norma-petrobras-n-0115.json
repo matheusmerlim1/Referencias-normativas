@@ -1,0 +1,160 @@
+{
+ "id": "PETROBRAS-N-0115",
+ "titulo": "Petrobras N-0115 Rev. J (05/2019) — Fabricação e montagem de tubulações metálicas",
+ "secoes": [
+  {
+   "titulo": "Escopo e organização",
+   "item": "1, 4.1",
+   "texto": "Requisitos mínimos para fabricar, montar, manter, condicionar, inspecionar e testar tubulações metálicas de unidades industriais: plataformas, áreas de processo e utilidades, parques de tanques, terminais, estações de bombeamento/compressão, city-gates e instalações de superfície de dutos. Anexos: exames de solda por classe de inspeção (A), amostragem (B), procedimentos (C), cores de identificação de material (D), classificação das padronizações da N-76 (E), teste pneumático (F), ligações flangeadas (G) e tubings OD no lugar de tubo de pequeno diâmetro (H).",
+   "valores": [],
+   "figuras": ["esquemas/tubulacao-montagem-soldas.svg"]
+  },
+  {
+   "titulo": "Qualificação, reparos e rastreabilidade",
+   "item": "4.2–4.4",
+   "texto": "Inspetor de solda pela ABNT NBR 14842; pessoal de END pelo SNQC (NBR NM ISO 9712); controle dimensional pela NBR 15523. Reparo por solda só depois de remover todo o defeito, com LP ou PM na superfície e reexame volumétrico quando o Anexo A pedir; dispositivos provisórios são removidos sem arrancar material, esmerilhados e examinados antes do teste de pressão. Cada junta leva o código do soldador e a EPS/IEIS. Rastreabilidade total é obrigatória em aço-carbono para baixa temperatura, fluido categoria M e materiais ligados; nos demais casos basta a limitada.",
+   "valores": [
+    {"parametro": "Temperatura que caracteriza 'baixa temperatura' (rastreabilidade total do aço-carbono)", "valor": "< −29 °C", "item": "4.4.4 Tabela 1, Nota 1"}
+   ]
+  },
+  {
+   "titulo": "Recebimento, armazenamento e preservação",
+   "item": "5",
+   "texto": "Estrutura de almoxarifado com pessoal, arquivo, área coberta (ou acompanhamento da corrosão em atmosferas C5-I/C5-M) e controle de acesso com barreira física. Todo material é identificado com código de cores (Anexo D), menos tubings de instrumentação/traço e tubos de troca térmica. Ligas recebem teste de reconhecimento (API RP 578); duplex/superduplex, medição de ferrita; forjados inox 300, verificação de sensitização. Inox, níquel e titânio ficam segregados e nunca em contato com galvanizado. Amostragem pela NBR 5426 (nível II, QL10, risco do consumidor 5 %).",
+   "valores": [
+    {"parametro": "Plano de amostragem padrão no recebimento", "valor": "nível geral II, QL 10, amostragem simples, risco do consumidor 5 % (tubos A53: QL 15; juntas com enchimento e de anel: QL 4)", "item": "5.2.2"},
+    {"parametro": "Verificação da proteção de extremidades roscadas", "valor": "a cada 6 meses", "item": "5.3.6"},
+    {"parametro": "Renovação da proteção anticorrosiva de faces de flanges e peças de inserção", "valor": "no recebimento e a cada 90 dias", "item": "5.4.6 Nota; 5.11.5"},
+    {"parametro": "Repetição da preservação de válvulas com graxa", "valor": "no mínimo a cada 180 dias", "item": "5.6.3.5"},
+    {"parametro": "Dureza de estojo/porca abaixo do certificado que obriga a reensaiar a corrida", "valor": "diferença > 10 %", "item": "5.12.4"}
+   ]
+  },
+  {
+   "titulo": "Fabricação de spools e suportes",
+   "item": "6.1–6.7",
+   "texto": "Spools saem da oficina com solda, END e TT concluídos (exceto juntas só ponteadas indicadas no desenho para ajuste de campo) e com relatório dimensional. Soldas próximas demais entre si exigem aprovação e exame extra (A.3.3); longitudinais de peças vizinhas ficam defasadas. Suportes seguem a N-1758, com TAG individual; partes soldadas no tubo são da mesma liga. Curvamento a frio só com aprovação; por indução conforme NBR 16165; o spool curvado tem as mesmas tolerâncias do soldado e o revestimento é aplicado depois de curvar.",
+   "valores": [
+    {"parametro": "Distância mínima entre soldas de penetração (circunferenciais e de derivação)", "valor": "4 × espessura do tubo ou 100 mm, o que for maior", "item": "6.1.6", "cota": "esquemas/tubulacao-montagem-soldas.svg#dist-soldas"},
+    {"parametro": "Defasagem mínima entre soldas longitudinais de peças consecutivas", "valor": "2 × espessura do tubo ou 20 mm, o que for maior", "item": "6.1.10", "cota": "esquemas/tubulacao-montagem-soldas.svg#defasagem-long"},
+    {"parametro": "Exame das soldas de suportes", "valor": "aço-carbono: 100 % visual; aço-liga e inox: 100 % visual + 100 % LP ou PM", "item": "6.5.8"}
+   ]
+  },
+  {
+   "titulo": "Montagem — dispositivos auxiliares e correção de desalinhamento",
+   "item": "7.1",
+   "texto": "Montar dentro das tolerâncias de projeto (pré-tensionamento só com procedimento próprio). Conexões feitas no campo (gomos, bocas-de-lobo, reduções) só se o projeto previr. Na boca-de-lobo, o anel de reforço só entra depois de examinada a solda tubo-tubo e tem furo roscado para teste e desgaseificação. Pontear de preferência no chanfro; se usar 'cachorros', são do mesmo P-number do tubo, inclinados e soldados alternadamente, e removidos com disco (nunca talhadeira). 'Batoque' só em aço-carbono P-1 sem preaquecimento e parede grossa. Desalinhamento de eixo pequeno pode ser corrigido com aquecimento localizado por maçarico chuveiro, exceto em material com exigência de impacto, serviço com H2S/H2/NaOH/HF/aminas/categoria M, inox, ligas de níquel e aços normalizados ou temperados.",
+   "valores": [
+    {"parametro": "Furo do anel de reforço da boca-de-lobo", "valor": "1/4 pol NPT (preenchido com graxa após o teste)", "item": "7.1.11 a)", "cota": "esquemas/tubulacao-montagem-soldas.svg#furo-anel"},
+    {"parametro": "Desalinhamento de eixo corrigível por aquecimento localizado", "valor": "até 20 mm", "item": "7.1.13", "cota": "esquemas/tubulacao-montagem-soldas.svg#desalinhamento-eixo"},
+    {"parametro": "Temperatura máxima no aquecimento para correção", "valor": "600 °C", "item": "7.1.13.1"},
+    {"parametro": "Espessura máxima do 'cachorro'", "valor": "metade da espessura do tubo ou 5 mm, o que for maior", "item": "7.1.15.1", "cota": "esquemas/tubulacao-montagem-soldas.svg#cachorro-esp"},
+    {"parametro": "Inclinação do 'cachorro' em relação ao eixo da tubulação", "valor": "30°", "item": "7.1.15.3 / Fig. 4", "cota": "esquemas/tubulacao-montagem-soldas.svg#cachorro-angulo"},
+    {"parametro": "Espessura de parede a partir da qual se admite 'batoque'", "valor": "acima de 12,5 mm", "item": "7.1.16.1", "cota": "esquemas/tubulacao-montagem-soldas.svg#batoque"},
+    {"parametro": "Nº máximo de dispositivos/pontos por junta", "valor": "3 até 4 pol; 4 de 4 a 14 pol; 5 de 14 a 24 pol; acima de 24 pol: espaçados de 300 mm", "item": "7.1.17", "cota": "esquemas/tubulacao-montagem-soldas.svg#espac-dispositivos", "nota": "prática recomendada"}
+   ]
+  },
+  {
+   "titulo": "Suportes, flanges, válvulas e ligações",
+   "item": "7.2–7.10",
+   "texto": "Suportes provisórios evitam que a linha carregue bocais durante a montagem; ancoragens só depois de alinhar e nivelar, antes do teste; molas travadas até o fim do teste e da lavagem. Flanges são montados com os furos 'escarranchando' os planos vertical e horizontal; flange sobreposto é soldado por dentro e por fora com o tubo recuado da face. Não se acopla face com ressalto a face plana; aço com ferro fundido só com junta de face inteira. Válvulas entram depois da lavagem (ou protegidas por junta cega provisória); discos de ruptura só depois do teste e da limpeza.",
+   "valores": [
+    {"parametro": "Recuo da ponta do tubo em relação à face do flange sobreposto", "valor": "espessura da parede do tubo + 3 mm", "item": "7.3.3", "cota": "esquemas/tubulacao-processo-b31-3-filetes-slip-on-socket.svg#folga-slip"}
+   ]
+  },
+  {
+   "titulo": "Soldagem",
+   "item": "8",
+   "texto": "Soldagem pela N-133. Em solda de encaixe (socket) deixa-se folga axial entre a ponta do tubo e o fundo do encaixe antes de soldar; em linhas sujeitas a fadiga vale o detalhe reforçado da Figura 6.2. Em serviços críticos o excesso de penetração é limitado.",
+   "valores": [
+    {"parametro": "Folga entre tubo e fundo do encaixe antes de soldar", "valor": "≈ 1,5 mm", "item": "8.1.7 / Fig. 6", "cota": "esquemas/tubulacao-processo-b31-3-filetes-slip-on-socket.svg#folga-socket"},
+    {"parametro": "Excesso de penetração máximo (HF, H2, H2S, NaOH, MEA, DEA, categoria M)", "valor": "1,5 mm", "item": "8.1.8", "cota": "esquemas/tubulacao-processo-b31-3-imperfeicoes.svg#protrusao"}
+   ]
+  },
+  {
+   "titulo": "Inspeção — reconhecimento de liga, dureza e ferrita",
+   "item": "9",
+   "texto": "Teste de reconhecimento de liga em todos os tubos e acessórios não carbono, depois de montada a linha e antes do hidrostático. Dureza: em H2S e H2 em todas as soldas de aço-carbono; em aços Cr-Mo, por amostragem por soldador. Juntas acima do limite são rejeitadas ou retratadas (se o tempo total de TT couber no RQPS). Ferrita em duplex por amostragem, dentro da faixa do projeto.",
+   "valores": [
+    {"parametro": "Remoção máxima de metal no preparo da superfície para dureza", "valor": "0,5 mm", "item": "9.4.1.9", "cota": "esquemas/tubulacao-montagem-soldas.svg#dureza-preparo"},
+    {"parametro": "Posição do ponto de dureza na ZTA", "valor": "no máximo a 0,5 mm da linha de fusão", "item": "9.4.1.9", "cota": "esquemas/tubulacao-montagem-soldas.svg#dureza-zta"},
+    {"parametro": "Dureza em aço-carbono com H2S ou H2", "valor": "100 % das soldas (topo, derivação e ângulo)", "item": "9.4.2.1; 9.4.3.1"},
+    {"parametro": "Dureza em aços Cr-Mo (P-3/4/5/15E)", "valor": "10 % de cada soldador por processo; aceitação ±15 % do valor da qualificação", "item": "9.4.4.2"},
+    {"parametro": "Teor de ferrita (sem requisito de projeto)", "valor": "35 % a 65 %; amostragem de 10 %", "item": "9.5.2; 9.5.4"}
+   ]
+  },
+  {
+   "titulo": "Teste de pressão",
+   "item": "11",
+   "texto": "Toda linha é testada depois de pronta e antes de operar, de preferência com água; pneumático só quando o hidrostático for inviável e com o Anexo F. Dispensadas: categoria D (classe de inspeção I, que faz teste operacional) e linhas abertas para a atmosfera; categoria M ainda faz teste de estanqueidade sensível (Seção V, Art. 10). Limpeza química vem antes do teste. Pressurizar em etapas, sem martelar a linha, com o pessoal afastado; suspiros abertos para encher e esvaziar; linha identificada como 'testada'.",
+   "valores": [
+    {"parametro": "Temperatura do teste", "valor": "mín. 10 °C ou a mínima de projeto (a maior); máx. 40 °C hidrostático / 50 °C pneumático", "item": "11.3.1"},
+    {"parametro": "Água de teste", "valor": "doce, cloretos ≤ 50 ppm, com certificado", "item": "11.4.1"},
+    {"parametro": "Teste preliminar quando o fluido é hidrocarboneto", "valor": "ar ou gás inerte a no máx. 0,15 MPa", "item": "11.4.3.1"},
+    {"parametro": "Pressão de teste (na falta do projeto)", "valor": "hidrostático: 150 % da pressão de projeto corrigida pela tensão admissível; pneumático: 110 %", "item": "11.5.1"},
+    {"parametro": "Sistema sem pressão (≤ 0,02 MPa) de drenagem", "valor": "cheio de água por 24 h, sem pressurizar", "item": "11.5.3"},
+    {"parametro": "Etapas do hidrostático", "valor": "50 % → inspeção → 100 % por no mínimo 30 min (sem inspecionar) → baixar à pressão de projeto e inspecionar", "item": "11.6.1"},
+    {"parametro": "Taxa máxima de variação de pressão", "valor": "20 % da pressão de teste por minuto", "item": "11.6.1 Nota 2"},
+    {"parametro": "Manômetro de teste", "valor": "leitura entre 1/3 e 2/3 da escala; divisão ≤ 5 % da pressão de teste; mostrador com Ø ≥ 75 mm; aferição ≤ 3 meses", "item": "11.2.20", "cota": "esquemas/tubulacao-teste-pressao.svg#manometro"}
+   ],
+   "figuras": ["esquemas/tubulacao-teste-pressao.svg"]
+  },
+  {
+   "titulo": "Teste pneumático (Anexo F)",
+   "item": "F.5–F.8",
+   "texto": "Só em P-1 ou P-8, com ar ou nitrogênio, acima da temperatura mínima de projeto com folga, válvula de alívio ajustada um pouco acima da pressão de teste e cálculo da energia armazenada (ASME PCC-2, Art. 5.1). Define-se área de exclusão em volta do sistema. Pressurização com patamar preliminar para procurar vazamentos.",
+   "valores": [
+    {"parametro": "Temperatura do teste pneumático", "valor": "≥ mínima de projeto + 17 °C ou 16 °C, o que for maior", "item": "F.5.1 c)"},
+    {"parametro": "Energia armazenada sem análise de onda de choque", "valor": "até 1 677 kJ", "item": "F.5.1 e)"},
+    {"parametro": "Ajuste do dispositivo de alívio", "valor": "pressão de teste + 345 kPa ou + 10 %, o que for menor", "item": "F.5.1 f)"},
+    {"parametro": "Raio mínimo da área de exclusão", "valor": "30 m (energia < 135,5 MJ); 60 m (135,5 a 271 MJ)", "item": "F.5.3", "cota": "esquemas/tubulacao-teste-pressao.svg#raio-exclusao"},
+    {"parametro": "Patamar preliminar de vazamento", "valor": "170 kPa ou 1/2 da pressão de teste, o que for menor", "item": "F.8"}
+   ]
+  },
+  {
+   "titulo": "Comissionamento e limpeza",
+   "item": "12",
+   "texto": "Lavagem com água (molas travadas, filtros temporários na entrada dos equipamentos), sopragem com vapor do tronco para os ramais, limpeza química pela ASTM A380, flushing de óleo até o filtro sair limpo, secagem acompanhada pelo ponto de orvalho. Ensaios de continuidade elétrica e de juntas isolantes; estanqueidade após o teste de pressão quando se desmonta algo.",
+   "valores": [
+    {"parametro": "Secagem de linhas de vapor — gás e critério", "valor": "ar super seco (orvalho ≤ −50 °C) ou N2 (≤ −60 °C) até orvalho medido ≤ −39 °C", "item": "12.1.5"},
+    {"parametro": "Halogenetos na água de lavagem de inox", "valor": "≤ 50 ppm a 25 °C", "item": "12.2"},
+    {"parametro": "Vazão de sopragem com vapor", "valor": "≈ 10 % acima da vazão de operação", "item": "12.2.4", "nota": "prática recomendada"},
+    {"parametro": "Flushing de óleo — critério", "valor": "circulação mínima de 6 h a ≥ 3 m/s sem impurezas no filtro", "item": "12.2.6"}
+   ]
+  },
+  {
+   "titulo": "Ligações flangeadas (Anexo G)",
+   "item": "G",
+   "texto": "Gerenciamento de juntas aparafusadas no estilo ASME PCC-1: antes de apertar, conferir o alinhamento dos flanges; aperto em estágios crescentes com sequência cruzada ('legacy') e passadas finais a 100 % até nenhum estojo girar; registro do torque e teste de estanqueidade. Ligações flangeadas em geral não são isoladas sem consulta à Petrobras.",
+   "valores": [
+    {"parametro": "Desalinhamento de linha de centro entre flanges", "valor": "≤ 1,5 mm em qualquer ponto (4 medidas a 90°)", "item": "G Tabela G.1", "cota": "esquemas/ligacao-flangeada-alinhamento.svg#centro"},
+    {"parametro": "Falta de paralelismo das faces", "valor": "≤ 0,8 mm entre a maior e a menor abertura (no Ø externo da superfície de vedação), com força ≤ 10 % da carga do estojo", "item": "G Tabela G.1", "cota": "esquemas/ligacao-flangeada-alinhamento.svg#paralelismo"},
+    {"parametro": "Desalinhamento rotacional dos furos", "valor": "≤ 3 mm", "item": "G Tabela G.1", "cota": "esquemas/ligacao-flangeada-alinhamento.svg#furos"},
+    {"parametro": "Folga excessiva entre faces", "valor": "> 2 × espessura da junta (com flanges soltos) é inaceitável; para aproximar: < 10 % da carga total sem dispositivo, < 20 % com dispositivo externo; nenhum estojo isolado > 20 % do torque", "item": "G Tabela G.1", "cota": "esquemas/ligacao-flangeada-alinhamento.svg#folga"},
+    {"parametro": "Estágios de aperto", "valor": "manual ≤ 20 % → 30 % → 70 % → 100 % do torque final", "item": "G.10"}
+   ],
+   "figuras": ["esquemas/ligacao-flangeada-alinhamento.svg"]
+  },
+  {
+   "titulo": "Tubings OD no lugar de tubo de pequeno diâmetro (Anexo H)",
+   "item": "H",
+   "texto": "Quando o projeto autoriza tubing de diâmetro externo (OD) com conexões de compressão, o anexo trata de material, curvamento, montagem, suporte, testes e marcação antes de desmontar. Capilares abaixo de 1/4 pol vão protegidos (por exemplo dentro de perfilado). Tubings perto do piso com trânsito de pessoas são protegidos fisicamente.",
+   "valores": [
+    {"parametro": "Distância entre suportes de tubing", "valor": "1/4 e 3/8 pol: 1,0 m; 1/2 pol: 1,5 m; 3/4 pol: 2,0 m; ≥ 1 pol: 2,5 m", "item": "H Tabela H.1", "cota": "esquemas/tubulacao-suportes-vaos.svg#vao"},
+    {"parametro": "Suporte de perfilado que abriga capilares", "valor": "no máximo a cada 3 m", "item": "H.8", "cota": "esquemas/tubulacao-suportes-vaos.svg#vao"},
+    {"parametro": "Teste de estanqueidade após desmontar componente já testado", "valor": "≥ 110 % da pressão de projeto, qualquer fluido, ≥ 10 min", "item": "H.10.3"},
+    {"parametro": "Verificação de vazamento no teste em operação (categoria D)", "valor": "após 10 min na pressão de operação", "item": "H.9.1"}
+   ],
+   "figuras": ["esquemas/tubulacao-suportes-vaos.svg"]
+  },
+  {
+   "titulo": "Classes de inspeção e exames (Anexo A)",
+   "item": "A",
+   "texto": "A classe de inspeção (I a IV) sai da categoria de serviço do ASME B31.3, do P-number e da classe de pressão B16.5; ela define tipo e extensão de END (Tabela A.2). Categoria D = classe I; fluido normal até 600# = classe II e de 900# para cima = IV; hidrogênio = III até 300#; temperatura elevada, categoria M e condição cíclica severa = IV. Com H2S ou abaixo de −29 °C, aço-carbono passa à classe III de 150# a 900#. Acompanhamento do soldador não substitui END. Em classe IV, trinca, falta de fusão e falta de penetração são inaceitáveis no visual.",
+   "valores": [
+    {"parametro": "Soldas de juntas de diâmetro pequeno (exceto categoria D)", "valor": "≤ 1 1/2 pol: LP em 100 %", "item": "A.3.2", "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"},
+    {"parametro": "Soldas que não respeitam a distância mínima de 6.1.6", "valor": "100 % RX (topo) ou PM (derivação)", "item": "A.3.3", "cota": "esquemas/tubulacao-montagem-soldas.svg#dist-soldas"},
+    {"parametro": "Manutenção E&P sem exame volumétrico (só acompanhamento)", "valor": "fluido inofensivo, −29 °C < T < 186 °C, classe 150", "item": "A.3.6"}
+   ]
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700" width="960" height="700" role="img" aria-label="Purga de vapor — acumulador, estação de purga e contrapressão">
+<title>Purga de vapor — acumulador, estação de purga e contrapressão (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .bl{fill:#5d8fc9;fill-opacity:.25;stroke:#4a77a8;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .p{fill:none;stroke:#4a77a8;stroke-width:3}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Purga de vapor — acumulador, estação de purga e contrapressão</text>
+<text class="b" x="20" y="62">(a) Ponto de purga de linha de vapor com retorno de condensado</text>
+<rect class="sl" x="40" y="110" width="400" height="34"/>
+<text class="n" x="50" y="104">linha de vapor</text>
+<rect class="sl" x="200" y="144" width="40" height="90"/>
+<g id="cota-acumulador" class="cota"><line class="e" x1="200" y1="240" x2="200" y2="262"/><line class="e" x1="240" y1="240" x2="240" y2="262"/><line class="d" x1="200" y1="254" x2="240" y2="254" marker-start="url(#a)" marker-end="url(#a)"/><text x="150" y="280">acumulador (bota)</text></g>
+<line class="g" x1="220" y1="234" x2="220" y2="300"/>
+<rect class="w" x="212" y="300" width="16" height="8"/>
+<g id="cota-dreno" class="cota"><line class="e" x1="228" y1="304" x2="270" y2="320"/><text x="274" y="326">dreno com tampão</text></g>
+<path class="p" d="M240,200 L300,200 L520,240"/>
+<g id="cota-caimento" class="cota"><line class="h" x1="300" y1="200" x2="520" y2="200"/><path class="d" d="M420.0,200.0 A120,120 0 0,1 418.1,221.5" marker-start="url(#a)" marker-end="url(#a)"/><text x="380" y="192">caimento do ramal</text></g>
+<g id="cota-linha-purga" class="cota"><line class="d" x1="420" y1="212" x2="420" y2="232" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="420" y1="232" x2="400" y2="250"/><text x="330" y="264">Ø da linha de purga</text></g>
+<line class="p" x1="520" y1="240" x2="520" y2="320"/>
+<rect class="wd" x="508" y="270" width="24" height="14"/>
+<text class="n" x="540" y="282">bloqueio</text>
+<polygon class="s" points="510,300 530,300 536,316 504,316"/>
+<text class="n" x="540" y="312">filtro Y</text>
+<circle class="r" cx="520" cy="350" r="18"/>
+<text class="n" x="440" y="356">purgador</text>
+<g id="cota-inclinacao-boia" class="cota"><line class="h" x1="490" y1="372" x2="560" y2="372"/><path class="d" d="M550.0,372.0 A50,50 0 0,0 549.8,367.6" marker-start="url(#a)" marker-end="url(#a)"/><text x="560" y="396">inclinação (boia livre)</text></g>
+<line class="p" x1="538" y1="350" x2="620" y2="350"/>
+<rect class="wd" x="580" y="342" width="14" height="16"/>
+<text class="n" x="570" y="336">retenção</text>
+<line class="p" x1="620" y1="350" x2="620" y2="130"/>
+<rect class="bl" x="600" y="110" width="300" height="24"/>
+<text class="n" x="700" y="104">coletor de condensado (na ponte)</text>
+<g id="cota-coluna-H" class="cota"><line class="e" x1="630" y1="350" x2="700" y2="350"/><line class="d" x1="690" y1="134" x2="690" y2="350" marker-start="url(#a)" marker-end="url(#a)"/><text x="700" y="250">coluna H até o coletor</text></g>
+<text class="b" x="20" y="450">(b) Purgador termostático no final do coletor</text>
+<rect class="sl" x="40" y="480" width="300" height="26"/>
+<line class="p" x1="320" y1="506" x2="320" y2="620"/>
+<circle class="r" cx="320" cy="640" r="16"/>
+<g id="cota-coluna-termostatico" class="cota"><line class="e" x1="330" y1="506" x2="380" y2="506"/><line class="e" x1="330" y1="620" x2="380" y2="620"/><line class="d" x1="370" y1="506" x2="370" y2="620" marker-start="url(#a)" marker-end="url(#a)"/><text x="384" y="570">coluna de líquido mínima</text></g>
+<text class="n" x="344" y="646">termostático</text>
+<text class="n" x="20" y="688">Esquema ilustrativo (não é desenho da norma) — sem escala. Só rótulos; os valores estão na ficha.</text>
+</svg>
