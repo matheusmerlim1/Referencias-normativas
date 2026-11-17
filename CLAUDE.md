@@ -301,7 +301,7 @@ Lotes 1–7 feitos (30/out): todo valor geométrico tem cota e todo resumo tem d
    "conferir": N-0253 (Fig. A.3 classe × diâmetro), N-0270 (fórmula), N-0906 (30 % acima da vazão nominal, redação ambígua),
    N-1742 (Fig. A.2 fonte embaralhada), N-2054 (tabela de selas, colunas A–J não reproduzidas), N-2648 (texto em colunas fragmentado).
    LOTE P5 ELÉTRICA/INSTRUMENTAÇÃO EM ANDAMENTO (17/nov): 9/23 pelo coordenador — N-0898, 1493, 1711, 1973, 1996, 2201, 2791,
-   2802, 2833 (+8 SVG: diagrama-eletrico-simbolos, protecao-catodica-drenagem, caixa-enfiacao-manhole,
+   2802, 2833 (+7 SVG: diagrama-eletrico-simbolos, protecao-catodica-drenagem, caixa-enfiacao-manhole,
    documento-carimbo-retangulo-reservado, rede-eletrica-subterranea, instrumento-instalacao-processo, transformador-seco-iluminacao).
    >>> RETOMAR AQUI: P5 faltam 14 (as grandes): N-0858 1600 1614 1659 1882 1883 1997 2040 2547 2595 2830 2918 2919 2928
    (1 agente), depois P6 estruturas/segurança (22), P7 desenho/geral (99).
