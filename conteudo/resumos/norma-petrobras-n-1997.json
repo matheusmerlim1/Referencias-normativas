@@ -1,0 +1,235 @@
+{
+ "id": "PETROBRAS-N-1997",
+ "titulo": "Petrobras N-1997 Rev. B (04/2019) — Projeto de redes elétricas em sistemas de bandejamento para cabos",
+ "secoes": [
+  {
+   "titulo": "Escopo, tipos e usos",
+   "item": "1, 3, 5, 6",
+   "texto": "Projeto, instalação e inspeção de sistemas de bandejamento (eletrocalhas lisas ou perfuradas, com ou sem tampa, e leitos de cabos com degraus) em salas de controle, subestações, galerias e ao tempo, em área classificada ou não. Serve a alimentadores, ramais, auxiliares, controle, automação, instrumentação e sinalização, identificado no projeto e no campo. Proibido em áreas de içamento de cargas ou sujeitas a dano severo, dentro de dutos de ventilação/HVAC; fibra de vidro não vai ao sol nem acima da temperatura certificada e, offshore, nem em áreas internas.",
+   "valores": [
+    {
+     "parametro": "Eletrocalha perfurada — aberturas de ventilação",
+     "valor": "≥ 30 % da área plana de apoio dos cabos (para dimensionar cabos pela NBR 5410)",
+     "item": "3.5"
+    }
+   ],
+   "figuras": [
+    "esquemas/bandejamento-cabos.svg"
+   ]
+  },
+  {
+   "titulo": "Dimensões, tampas e materiais",
+   "item": "4, 7",
+   "texto": "Dimensões pela NBR IEC 61537 (metálicos) e NBR 15708-4 (fibra de vidro). Sem tampa, salvo risco de queda de objetos, respingo de solda, líquidos corrosivos, UV ou descargas atmosféricas; tampa do mesmo material, com cumeeira onde junta água, metálica perto de fontes de interferência, presa por cintas inox ou alumínio ao tempo, e só no nível de cima em bandejas sobrepostas. Ambiente corrosivo: inox, alumínio ou fibra de vidro (fibra quando o peso é crítico; alumínio proibido offshore). Aço-carbono SAE 1008 ou superior galvanizado a quente após fabricação (NBR 6323; offshore só interno); inox 316L em ambiente marinho e 304 ou superior nos demais; alumínio copper free 6063/1100 (ASTM B221); fibra de vidro pultrudada, com resistividade superficial e resistência para terra inferiores a 1 MΩ offshore.",
+   "valores": [
+    {
+     "parametro": "Raio interno de curvatura — cabo não armado / armado",
+     "valor": "> 8 × / > 12 × o diâmetro externo",
+     "item": "4.1.2",
+     "cota": "esquemas/bandejamento-cabos.svg#raio"
+    },
+    {
+     "parametro": "Altura da lateral",
+     "valor": "acima do topo do cabo mais alto",
+     "item": "4.1.3",
+     "cota": "esquemas/bandejamento-cabos.svg#lateral"
+    }
+   ]
+  },
+  {
+   "titulo": "Aterramento e continuidade",
+   "item": "8; Tabelas 1 e 2",
+   "texto": "Bandeja metálica pode ser condutor de proteção se tiver a área metálica da Tabela 1 para o ajuste de proteção do circuito, com cordoalhas (isoladas, nuas, trançadas ou laminadas, seção pela Tabela 2) nas duas laterais de cada junta; senão, condutor de proteção separado, ligado a cada trecho (aí as cordoalhas são dispensáveis). Leito aramado nunca é condutor de proteção. Extremidades sempre aterradas; pintura removida nos contatos. Fibra de vidro é aterrada só contra eletricidade estática (dispensado offshore), pelos suportes metálicos, nunca por suporte de fibra.",
+   "valores": [
+    {
+     "parametro": "Área metálica mínima — ajuste até 60 A (aço / alumínio)",
+     "valor": "130 / 130 mm²",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Área metálica mínima — ajuste 200 A (aço / alumínio)",
+     "valor": "450 / 130 mm²",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Área metálica mínima — ajuste 600 A (aço / alumínio)",
+     "valor": "970 / 260 mm²",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ajuste máximo de falta à terra com a bandeja como condutor — aço / alumínio",
+     "valor": "600 A / 2 000 A",
+     "item": "8.1.2–8.1.3"
+    },
+    {
+     "parametro": "Cordoalha de cobre — ajuste de 15 A a 300 A / 600 A / 1 000 A / 2 000 A",
+     "valor": "25 / 50 / 70 / 150 mm²",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Interligação à malha de aterramento",
+     "valor": "a cada 20 m (ou pela estrutura suporte condutora aterrada)",
+     "item": "8.2.4",
+     "cota": "esquemas/bandejamento-cabos.svg#aterramento"
+    },
+    {
+     "parametro": "Aterramento de bandeja de fibra de vidro",
+     "valor": "cobre nu ≥ 25 mm², em 1 de cada 2 suportes metálicos",
+     "item": "8.3.2–8.3.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Suportes",
+   "item": "9.1–9.2",
+   "texto": "Projetado para cargas estáticas distribuídas (cabos atuais mais a reserva totalmente ocupada) e concentradas, pela NEMA VE 1, com ensaios pela NBR IEC 61537; nunca como passarela. Considerar vento e interferências. Proibido apoiar bandeja diretamente no piso, usar ou apoiar suporte em tubulação de processo ou ocupar espaço de expansão em tubovias (N-0057). Em curvas, T, Y e X os suportes ficam junto a cada conexão, com suportes adicionais no meio do arco ou nas faces. Fixação por tirantes, perfilados ou mãos-francesas.",
+   "valores": [
+    {
+     "parametro": "Juntas de trechos retos",
+     "valor": "a ¼ do vão entre suportes",
+     "item": "9.2.5.1; Fig. 13",
+     "cota": "esquemas/bandejamento-cabos.svg#junta-posicao"
+    },
+    {
+     "parametro": "Vão máximo entre suportes em trecho reto horizontal",
+     "valor": "3 m",
+     "item": "9.2.5.3",
+     "cota": "esquemas/bandejamento-cabos.svg#vao-suportes"
+    },
+    {
+     "parametro": "Suporte em curva, T, Y, X horizontais e T vertical — distância a cada conexão",
+     "valor": "≤ 600 mm",
+     "item": "9.2.5.4–9.2.5.8",
+     "cota": "esquemas/bandejamento-cabos.svg#suporte-curva"
+    },
+    {
+     "parametro": "Suporte no arco da curva de 90° / 60° / 45° / 30°",
+     "valor": "no ponto de 45° / 30° / 22,5° / 15°",
+     "item": "9.2.5.4",
+     "cota": "esquemas/bandejamento-cabos.svg#suporte-curva"
+    }
+   ]
+  },
+  {
+   "titulo": "Fogo, dilatação e instalação dos cabos",
+   "item": "9.4–9.6",
+   "texto": "Em área de processo, bandejas com circuitos críticos ou de parada segura sujeitas a incêndio recebem proteção contra fogo de hidrocarboneto (mantas ou pintura corta-fogo, API 2218, ASTM E1725/E1529). Em subestações e salas, pintura corta-fogo e selagem das passagens (argamassa, bolsas, tijolos, selantes) pela NBR 13231. Para dilatação, trecho descontínuo ou junta ajustável (NEMA VE 2), cada trecho fixo num suporte e os demais como guia. Estudo de puxamento de todos os cabos; fixação com abraçadeiras; multipolares de força grossos fixados um a um, finos em até 2 camadas; unipolares trifásicos em trifólio; tag nas pontas. Sequência dos níveis de cima para baixo: automação, fibra óptica, detecção de fogo e gás, SIS, controle, baixa tensão/controle/alimentação de instrumentos e média tensão. MT e BT só juntos com septo divisor (nunca offshore); nada na face inferior; ocupação ≤ seção útil.",
+   "valores": [
+    {
+     "parametro": "Proteção contra fogo de hidrocarboneto",
+     "valor": "30 min na curva ASTM E1529",
+     "item": "9.4.1.3"
+    },
+    {
+     "parametro": "Folga de dilatação",
+     "valor": "trecho descontínuo de 25 mm a cada comprimento da Tabela 3",
+     "item": "9.5.1",
+     "cota": "esquemas/bandejamento-cabos.svg#dilatacao"
+    },
+    {
+     "parametro": "Comprimento máximo de trecho reto — ΔT 14 °C (aço / alumínio / fibra)",
+     "valor": "156 / 79 / 203 m",
+     "item": "Tabela 3",
+     "cota": "esquemas/bandejamento-cabos.svg#dilatacao"
+    },
+    {
+     "parametro": "Comprimento máximo de trecho reto — ΔT 42 °C (aço / alumínio / fibra)",
+     "valor": "52 / 27 / 68 m",
+     "item": "Tabela 3",
+     "cota": "esquemas/bandejamento-cabos.svg#dilatacao"
+    },
+    {
+     "parametro": "Comprimento máximo de trecho reto — ΔT 97 °C (aço / alumínio / fibra)",
+     "valor": "22 / 11 / 29 m",
+     "item": "Tabela 3",
+     "cota": "esquemas/bandejamento-cabos.svg#dilatacao"
+    },
+    {
+     "parametro": "Fixação de cabos em percurso vertical",
+     "valor": "a cada 450 mm",
+     "item": "9.6.4",
+     "cota": "esquemas/bandejamento-cabos.svg#fixacao-vertical"
+    },
+    {
+     "parametro": "Cabo multipolar de força fixado individualmente",
+     "valor": "diâmetro > 40 mm (abaixo, grupos de até 2 camadas)",
+     "item": "9.6.6",
+     "cota": "esquemas/bandejamento-cabos.svg#diametro-cabo"
+    },
+    {
+     "parametro": "Distância entre níveis de bandejamento",
+     "valor": "≥ 300 mm",
+     "item": "9.6.10",
+     "cota": "esquemas/bandejamento-cabos.svg#niveis"
+    },
+    {
+     "parametro": "Cabos de sinal a geradores de ruído (motores, geradores, trafos MT)",
+     "valor": "≥ 1,5 m (metade se em eletroduto metálico)",
+     "item": "9.6.11",
+     "cota": "esquemas/bandejamento-cabos.svg#ruido"
+    }
+   ]
+  },
+  {
+   "titulo": "Segregação força × sinal e encaminhamento",
+   "item": "9.7–9.8; Tabelas 4 e 5",
+   "texto": "Separação conforme a tensão do circuito de força e o tipo de sinal (API RP 552): baixo nível = termopar, strain gauge, pulsos digitais, rede, telefonia, CFTV; médio nível = 4–20 mA, 10–50 V, RTD, chaveamento ≤ 28 Vcc. Agrupar por tipo de sinal, do baixo nível (mais longe da força) para analógico, discreto 24 Vcc, discreto 120 V e alimentação de instrumentos. Traçado reto, longe de pátios de bombas, tubos quentes, vazamentos e equipamentos de manutenção frequente, seguindo os pipe-racks em nível diferente da tubulação e respeitando gabaritos de circulação.",
+   "valores": [
+    {
+     "parametro": "Bandeja de força × bandeja de sinal — força até 125 V/20 A (mV / 4–20 mA)",
+     "valor": "750 / 375 mm",
+     "item": "Tabela 4",
+     "cota": "esquemas/bandejamento-cabos.svg#separacao-sinal"
+    },
+    {
+     "parametro": "Bandeja de força × bandeja de sinal — 125 V a 500 V/200 A (mV / 4–20 mA)",
+     "valor": "1 500 / 750 mm",
+     "item": "Tabela 4",
+     "cota": "esquemas/bandejamento-cabos.svg#separacao-sinal"
+    },
+    {
+     "parametro": "Bandeja de força × bandeja de sinal — acima de 500 V (mV / 4–20 mA)",
+     "valor": "4 500 / 2 400 mm",
+     "item": "Tabela 4",
+     "cota": "esquemas/bandejamento-cabos.svg#separacao-sinal"
+    },
+    {
+     "parametro": "Bandeja × eletroduto — até 500 V (mV / 4–20 mA)",
+     "valor": "750 / 375 mm",
+     "item": "Tabela 5",
+     "cota": "esquemas/bandejamento-cabos.svg#separacao-sinal"
+    },
+    {
+     "parametro": "Bandeja × eletroduto — acima de 500 V (mV / 4–20 mA)",
+     "valor": "1 500 / 750 mm",
+     "item": "Tabela 5",
+     "cota": "esquemas/bandejamento-cabos.svg#separacao-sinal"
+    }
+   ]
+  },
+  {
+   "titulo": "Áreas classificadas e caixa de areia",
+   "item": "10; Tabelas 6–9",
+   "texto": "Documentação pela NBR IEC 60079-10 e N-2918; componentes adequados à zona (NBR IEC 60079-14); cabos sem cobertura não vão em bandeja (usar eletroduto); circuitos intrinsecamente seguros em bandeja exclusiva e sem usar reservas de multicabos IS para outros circuitos. A passagem de parede entre área classificada e não classificada é selada (caixa de areia, MCT), de preferência em ponto alto. A caixa de areia tem portinhola de dreno embaixo livre de cabos, cobertura contra chuva, cabos com caimento para pingar fora, partes metálicas aterradas e areia seca de quartzo preenchendo todos os vazios até a borda das laterais; dimensões das aberturas e da viga U conforme a largura da bandeja (200, 400, 800).",
+   "valores": [
+    {
+     "parametro": "Portinhola de drenagem/retirada de areia",
+     "valor": "cerca de 150 mm",
+     "item": "10.9.1",
+     "cota": "esquemas/bandejamento-cabos.svg#portinhola"
+    },
+    {
+     "parametro": "Afastamento dos cabos às paredes laterais da caixa",
+     "valor": "≥ 20 mm",
+     "item": "10.9.9",
+     "cota": "esquemas/bandejamento-cabos.svg#afastamento-cabo"
+    },
+    {
+     "parametro": "Granulometria da areia",
+     "valor": "quartzo fino < 0,5 mm, seco e limpo",
+     "item": "10.9.10"
+    }
+   ]
+  }
+ ]
+}
