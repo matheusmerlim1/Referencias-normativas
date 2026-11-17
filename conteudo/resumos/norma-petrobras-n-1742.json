@@ -1,0 +1,112 @@
+{
+ "id": "PETROBRAS-N-1742",
+ "titulo": "Petrobras N-1742 Rev. G (12/2014) — Tanque de teto flutuante — selo PW",
+ "secoes": [
+  {
+   "titulo": "Escopo e aplicação",
+   "item": "1; 4",
+   "texto": "Padroniza o selo PW (chapa-mola com lençol de vedação e perfil \"D\" de borracha) para a periferia de tetos flutuantes externos e internos de tanques de petróleo, derivados e álcoois, e fixa fabricação e montagem. É obrigatório em tanques novos de teto flutuante externo; em tanques antigos avalia-se a troca. Em teto flutuante interno o tipo de selo é definido no projeto do teto. Para tanques antigos com outro espaçamento costado–teto, usa-se uma chapa de ajuste da cantoneira da borda.",
+   "valores": [
+    {
+     "parametro": "Espaçamento costado–teto dos tanques novos",
+     "valor": "200 mm ± 12 mm (N-270)",
+     "item": "4.3",
+     "cota": "esquemas/tanque-selo-pw.svg#espaco-teto"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-selo-pw.svg"
+   ]
+  },
+  {
+   "titulo": "Fabricação e recebimento",
+   "item": "5; 6; 7",
+   "texto": "Chapas-mola de inox furadas e conformadas; cantoneira do perfil \"D\" em inox com parafusos soldados; barra de fixação de aço-carbono furada antes da galvanização ou pintura; lençol de vedação sem emendas; perfil \"D\" extrudado com emendas vulcanizadas só na fábrica. No recebimento, gabaritos e instrumentos conferem dimensões; a chapa-mola é comparada a um gabarito do perfil não tensionado; no perfil \"D\" conferem-se altura, largura máxima e paredes; no lençol, largura e espessura. Armazenagem abrigada, chapas-mola com a menor dimensão na vertical, borrachas sobre estrados.",
+   "valores": [
+    {
+     "parametro": "Largura das chapas-mola de fechamento",
+     "valor": "200 mm a 298 mm (com ao menos um furo)",
+     "item": "5.1",
+     "cota": "esquemas/tanque-selo-pw.svg#largura-chapa-mola"
+    },
+    {
+     "parametro": "Comprimento mínimo de fornecimento do lençol",
+     "valor": "lances de 50 m, sem emendas",
+     "item": "5.3",
+     "cota": "esquemas/tanque-selo-pw.svg#emenda-lencol"
+    },
+    {
+     "parametro": "Comprimento mínimo do perfil \"D\"",
+     "valor": "25 m",
+     "item": "5.5",
+     "cota": "esquemas/tanque-selo-pw.svg#emenda-perfil"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-selo-pw.svg"
+   ]
+  },
+  {
+   "titulo": "Montagem",
+   "item": "8",
+   "texto": "Antes de montar: levantamento das deformações do costado (de preferência com teodolito), procedimento aprovado com teste de funcionamento na subida e descida do teto, cantoneira da borda nivelada e teto centrado. Com teste hidrostático, o selo é montado antes dele. Lençol furado com gabarito e vazador. Sequência: lençol, chapa-mola, barra de fixação e parafusos (sem apertar), cantoneira do perfil \"D\" (sem apertar) e perfil \"D\"; aperto só após o ajuste final. Soldas internas do costado com arestas são esmerilhadas.",
+   "valores": [
+    {
+     "parametro": "Deformação do costado absorvida pela chapa-mola",
+     "valor": "+100 mm / −70 mm (acima disso, ajuste definido com a Petrobras)",
+     "item": "8.1.5",
+     "cota": "esquemas/tanque-selo-pw.svg#deformacao-costado"
+    },
+    {
+     "parametro": "Emenda do lençol — sobreposição",
+     "valor": "120 mm, entre os furos da barra de fixação, colada",
+     "item": "8.4.1",
+     "cota": "esquemas/tanque-selo-pw.svg#emenda-lencol"
+    },
+    {
+     "parametro": "Adoçamento das extremidades do lençol",
+     "valor": "≈ 50 mm",
+     "item": "8.4.1",
+     "cota": "esquemas/tanque-selo-pw.svg#adocamento"
+    },
+    {
+     "parametro": "Emenda do perfil \"D\" — corte",
+     "valor": "inclinação de 45°",
+     "item": "8.4.2",
+     "cota": "esquemas/tanque-selo-pw.svg#emenda-perfil"
+    },
+    {
+     "parametro": "Barras de reforço dentro da emenda do perfil \"D\"",
+     "valor": "2 barras de borracha Ø 12,5 mm × 200 mm",
+     "item": "8.4.2",
+     "cota": "esquemas/tanque-selo-pw.svg#barra-reforco"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-selo-pw.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção final",
+   "item": "9",
+   "texto": "Chapas-mola alinhadas e sem deformações; antes de instalar perfil \"D\" e lençol, verifica-se a força de cada chapa contra o costado e a reação nas chapas de maior e menor afastamento.",
+   "valores": [
+    {
+     "parametro": "Força individual da chapa-mola contra o costado",
+     "valor": "≈ 118 N (12 kgf)",
+     "item": "9.1.2"
+    },
+    {
+     "parametro": "Desenho do selo (Figura A.2)",
+     "valor": "dimensões não reproduzidas",
+     "item": "Figura A.2",
+     "cota": "esquemas/tanque-selo-pw.svg#largura-chapa-mola",
+     "nota": "conferir: legendas e cotas da Figura A.2 saem com fonte embaralhada no texto extraído; usar só o texto legível"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-selo-pw.svg"
+   ]
+  }
+ ]
+}

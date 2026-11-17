@@ -1,0 +1,414 @@
+{
+ "id": "PETROBRAS-N-0268",
+ "titulo": "Petrobras N-0268 Rev. H (04/2020) — Fabricação de vaso de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo e classes de equipamento",
+   "item": "1; 3",
+   "texto": "Requisitos de fabricação em fábrica de vasos projetados pela N-253 (vasos, torres, trocadores, esferas), complementando o ASME VIII. Define o \"equipamento classe B\": serviço menos crítico, que tem exigências de inspeção mais brandas em alguns itens.",
+   "valores": [
+    {
+     "parametro": "Classe B — fluido hidrocarboneto",
+     "valor": "ponto de fulgor acima de 60 °C, pressão de projeto entre a atmosférica e 196 kPa (2 kgf/cm²); ou água limpa, ar ou fluido não inflamável",
+     "item": "3.4"
+    },
+    {
+     "parametro": "Guarda do livro de documentação técnica pelo fabricante",
+     "valor": "5 anos após o embarque",
+     "item": "5.5"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-tolerancias-fabricacao.svg"
+   ]
+  },
+  {
+   "titulo": "Recebimento de materiais",
+   "item": "7",
+   "texto": "Materiais conferidos contra certificados. PMI (identificação positiva de liga) em todo componente pressurizado de liga e por amostragem em fixadores e internos de liga; dureza por amostragem em fixadores tratados termicamente; qualquer não conformidade amplia a amostragem a 100 %. Puncionamento só do tipo \"low stress\" e se o serviço não favorecer corrosão sob tensão.",
+   "valores": [
+    {
+     "parametro": "PMI no recebimento — componentes pressurizados de liga",
+     "valor": "100 % do lote",
+     "item": "7.3.3"
+    },
+    {
+     "parametro": "PMI e dureza no recebimento — estojos, porcas e internos de liga",
+     "valor": "amostragem de 20 % (100 % se houver falha)",
+     "item": "7.3.4 a 7.3.6"
+    },
+    {
+     "parametro": "Identificação por puncionamento — espessura nominal mínima",
+     "valor": "acima de 6,4 mm (aço-carbono e baixa liga)",
+     "item": "7.11",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#armazenagem",
+     "nota": "cota aproximada: o esquema não tem cota própria de espessura de marcação; usa-se a chapa armazenada"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-tolerancias-fabricacao.svg"
+   ]
+  },
+  {
+   "titulo": "Corte, chanfros, ajustagem e dispositivos",
+   "item": "8.1 a 8.5",
+   "texto": "Aberturas e soldas de acessórios perto de soldas de campo seguem regra própria conforme o vaso vá inteiro ou em seções. Dispositivos rígidos de montagem ficam espaçados; chanfros são inspecionados visual e dimensionalmente, e com LP/PM quando o material ou a espessura exigem. Antes de soldar, as seções são ajustadas às tolerâncias de abertura, desalinhamento, ovalização, perímetro, nivelamento de bordas, curvatura, prumo e embicamento. Acessórios internos e externos (bandejas, ciclones, plataformas) são pré-montados na fábrica.",
+   "valores": [
+    {
+     "parametro": "Regra especial para aberturas e soldas de acessórios",
+     "valor": "a menos de 150 mm de soldas de campo",
+     "item": "8.1.2",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#faixa-end"
+    },
+    {
+     "parametro": "Espaçamento entre dispositivos rígidos",
+     "valor": "≥ 500 mm (menos, só com justificativa aprovada)",
+     "item": "8.2.2",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#dispositivos-rigidos"
+    },
+    {
+     "parametro": "Descontinuidade paralela à superfície no chanfro que reprova",
+     "valor": "comprimento acima de 25 mm",
+     "item": "8.3.1 g)",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#chanfro"
+    },
+    {
+     "parametro": "Chanfros que exigem LP/PM (aço-carbono sem impacto)",
+     "valor": "espessura acima de 38 mm e aberturas de bocal ≥ 3″",
+     "item": "8.3.2 b)",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#chanfro"
+    },
+    {
+     "parametro": "Abertura das juntas",
+     "valor": "± 1,5 mm do projeto",
+     "item": "8.5.1 a)",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#abertura-junta"
+    },
+    {
+     "parametro": "Ovalização de esferas",
+     "valor": "ASME VIII, mas ≤ 50 mm",
+     "item": "8.5.1 c)",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#ovalizacao"
+    },
+    {
+     "parametro": "Nivelamento das bordas (máx. − mín.)",
+     "valor": "3 mm se o arco entre os pontos ≤ 3 000 mm; 4 mm se maior",
+     "item": "8.5.1 e)",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#nivelamento-borda"
+    },
+    {
+     "parametro": "Defasagem entre juntas longitudinais",
+     "valor": "± 10 mm do projeto",
+     "item": "8.5.1 j)",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#defasagem-longitudinal"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-tolerancias-fabricacao.svg"
+   ]
+  },
+  {
+   "titulo": "Soldagem e ensaios na fabricação",
+   "item": "8.6 a 8.13; 10",
+   "texto": "Soldagem pela N-133 e N-253; pré-aquecimento por gás, resistência ou indução (sem maçarico de chama única), com preferência pelos elétricos. Vasos para baixa temperatura têm teste de produção. Bocais grandes recebem ultrassom nas juntas de penetração total. PMI após fabricação em todas as juntas de liga. Soldas que sofrerão deformação severa são radiografadas antes; regiões de solda e reparos recebem PM/LP antes do teste hidrostático (exceto classe B). Chapas defletoras conferidas na posição.",
+   "valores": [
+    {
+     "parametro": "Dispositivo \"aranha\" para manter circularidade — distância da junta",
+     "valor": "≥ 250 mm",
+     "item": "8.6.6",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#dispositivo-aranha"
+    },
+    {
+     "parametro": "Ultrassom em bocais",
+     "valor": "DN ≥ 4″ ou auto-reforçados com abertura ≥ 100 mm",
+     "item": "8.8.4",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#bocal-min"
+    },
+    {
+     "parametro": "PMI após fabricação",
+     "valor": "100 % de materiais e juntas, ≥ 2 pontos por junta",
+     "item": "8.13.1"
+    },
+    {
+     "parametro": "Radiografia antes de deformação severa",
+     "valor": "100 % quando espessura/raio local > 5 %",
+     "item": "10.3"
+    },
+    {
+     "parametro": "Faixa de PM/LP centrada na junta antes do teste",
+     "valor": "200 mm de largura (interna e externa)",
+     "item": "10.8 a)",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#faixa-end"
+    },
+    {
+     "parametro": "Posição das chapas defletoras de fluxo",
+     "valor": "± 10 mm em qualquer direção",
+     "item": "10.14.3",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#chicana"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-tolerancias-fabricacao.svg",
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico e dureza",
+   "item": "9",
+   "texto": "Medições de dureza após o tratamento térmico em soldas longitudinais, circunferenciais (incluindo cruzamentos) e ligações de bocal e flange. O preparo da superfície para medir remove pouco metal.",
+   "valores": [
+    {
+     "parametro": "Frequência de dureza",
+     "valor": "1 medição a cada 6 m de solda; ≥ 2 por cordão longitudinal e circunferencial",
+     "item": "9.6.1",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#pontos-dureza"
+    },
+    {
+     "parametro": "Remoção máxima de metal no preparo",
+     "valor": "camada de 0,5 mm",
+     "item": "9.6.2",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#remocao-dureza"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-tolerancias-fabricacao.svg"
+   ]
+  },
+  {
+   "titulo": "Teste hidrostático",
+   "item": "11; Figura 1",
+   "texto": "Água com temperatura controlada para evitar fratura frágil, dois manômetros (mais registrador em teste longo) e pressurização em degraus: inspeção inicial a meio caminho, subida controlada até a pressão de teste, estabilização e inspeção final em patamar reduzido. Depois, drenar, secar e limpar sem deixar resíduo; inox austenítico não é seco por aquecimento.",
+   "valores": [
+    {
+     "parametro": "Temperatura da água (aço-carbono e baixa liga)",
+     "valor": "≥ MDMT + 17 °C e nunca abaixo de 15 °C",
+     "item": "11.3.2"
+    },
+    {
+     "parametro": "Manômetros",
+     "valor": "≥ 2, mais registrador se o teste passar de 6 h; menor divisão ≤ 5 % do fundo de escala",
+     "item": "11.5.1; 11.5.1.4"
+    },
+    {
+     "parametro": "Inspeção inicial",
+     "valor": "a 50 % da PT",
+     "item": "11.8.1"
+    },
+    {
+     "parametro": "Taxa de pressurização",
+     "valor": "≤ 20 % da PT por minuto",
+     "item": "11.8.2"
+    },
+    {
+     "parametro": "Estabilização sem inspeção",
+     "valor": "30 min (Figura 1)",
+     "item": "Figura 1"
+    },
+    {
+     "parametro": "Inspeção final",
+     "valor": "a 77 % da PT",
+     "item": "11.8.4"
+    },
+    {
+     "parametro": "Permanência máxima da água no equipamento",
+     "valor": "48 h",
+     "item": "11.9.1 Nota 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Marcação, preservação e embarque",
+   "item": "12",
+   "texto": "Peças entregues desmontadas levam marcação a tinta com identificação, fabricante e pedido. Inox austenítico exposto a atmosfera marinha é inertizado no transporte e na espera.",
+   "valores": [
+    {
+     "parametro": "Altura das letras da marcação de embarque",
+     "valor": "≥ 40 mm",
+     "item": "12.1.1",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#armazenagem",
+     "nota": "cota aproximada: o esquema não tem cota de letreiro; ver o rótulo da peça armazenada"
+    },
+    {
+     "parametro": "Inertização de inox em atmosfera marinha",
+     "valor": "nitrogênio a 0,5 kgf/cm² ou sílica-gel",
+     "item": "12.2.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-tolerancias-fabricacao.svg"
+   ]
+  },
+  {
+   "titulo": "Tolerâncias dimensionais de fabricação",
+   "item": "Anexo A, Figura A.1",
+   "texto": "A Figura A.1 reúne as tolerâncias dimensionais de vasos e torres; os eixos principais passam sempre pelo meio entre dois furos do flange (ref. 27).",
+   "valores": [
+    {
+     "parametro": "Prumo — desvio da perpendicular ao plano de referência",
+     "valor": "1 mm por metro, máximo 20 mm (entre soldas horizontais adjacentes: ± 3 mm)",
+     "item": "Figura A.1, ref. 1",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#verticalidade"
+    },
+    {
+     "parametro": "Distância entre linhas de tangência",
+     "valor": "± 0,5 mm por 300 mm, máximo 25 mm",
+     "item": "Figura A.1, ref. 2",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#tangentes"
+    },
+    {
+     "parametro": "Altura total, das seções ou das chapas",
+     "valor": "± 0,5 mm por 300 mm, máximo 25 mm",
+     "item": "Figura A.1, ref. 9",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#tangentes"
+    },
+    {
+     "parametro": "Altura do vertedor; distância vertedor–bandeja",
+     "valor": "± 3 mm",
+     "item": "Figura A.1, ref. 3, 7",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#vertedor"
+    },
+    {
+     "parametro": "Desnível máximo da bandeja e do vertedor — Ø < 1 200 / 1 200–2 800 / > 2 800 mm",
+     "valor": "3 / 5 / 7 mm (medir ao menos 6 pontos por bandeja)",
+     "item": "Figura A.1, ref. 4",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#bandeja-nivel"
+    },
+    {
+     "parametro": "Desnível do topo do anel suporte de bandeja",
+     "valor": "1 mm em qualquer corda de 300 mm",
+     "item": "Figura A.1, ref. 5",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#anel-suporte"
+    },
+    {
+     "parametro": "Distância entre anéis suporte consecutivos",
+     "valor": "± 3 mm",
+     "item": "Figura A.1, ref. 6",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#distancia-aneis"
+    },
+    {
+     "parametro": "Elevação do anel suporte acima da linha de tangência",
+     "valor": "± 6 mm",
+     "item": "Figura A.1, ref. 8",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#elevacao-anel"
+    },
+    {
+     "parametro": "Folga do flange sobreposto no pescoço — DN até 1 200 / 1 201–1 800 / acima de 1 800 mm",
+     "valor": "4 / 6 / 8 mm",
+     "item": "Figura A.1, ref. 10",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#projecao-bocal"
+    },
+    {
+     "parametro": "Projeção dos bocais (do lado externo do casco)",
+     "valor": "± 3 mm",
+     "item": "Figura A.1, ref. 11",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#projecao-bocal"
+    },
+    {
+     "parametro": "Perpendicularidade da face do flange — bocais / bocas de visita",
+     "valor": "± 1/2° / ± 1°",
+     "item": "Figura A.1, ref. 12, 14",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#perpendicularidade-flange"
+    },
+    {
+     "parametro": "Projeção das bocas de visita e de acesso manual",
+     "valor": "± 6 mm",
+     "item": "Figura A.1, ref. 13",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#projecao-bv"
+    },
+    {
+     "parametro": "Locação de bocais e bocas perto de bandejas (em relação aos anéis)",
+     "valor": "± 3 mm",
+     "item": "Figura A.1, ref. 15 a)",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#locacao-bocal"
+    },
+    {
+     "parametro": "Locação dos demais bocais em relação à tangência",
+     "valor": "± 6 mm",
+     "item": "Figura A.1, ref. 15 b)",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#locacao-bocal"
+    },
+    {
+     "parametro": "Locação das demais bocas de visita/acesso manual em relação à tangência",
+     "valor": "± 12 mm",
+     "item": "Figura A.1, ref. 16",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#locacao-bv"
+    },
+    {
+     "parametro": "Folga entre casco e anel de reforço ou de suporte de isolamento",
+     "valor": "≤ 4 mm",
+     "item": "Figura A.1, ref. 17",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#folga-anel"
+    },
+    {
+     "parametro": "Distância da tangência às sapatas",
+     "valor": "+6 / −0 mm",
+     "item": "Figura A.1, ref. 18",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#sapatas"
+    },
+    {
+     "parametro": "Ovalização nas bordas e no apoio da saia — DI ≤ 4 000 / 4 000–6 000 / > 6 000 mm",
+     "valor": "ASME VIII, mas no máximo 20 / 30 / 35 mm",
+     "item": "Figura A.1, ref. 19",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#ovalizacao"
+    },
+    {
+     "parametro": "Perímetro nas bordas — Ø ≤ 1 200 / ≤ 2 100 / ≤ 5 000 / > 5 000 mm",
+     "valor": "± 9 / ± 12 / ± 18 / ± 24 mm",
+     "item": "Figura A.1, ref. 20",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#perimetro"
+    },
+    {
+     "parametro": "Folga entre casco e saia antes de soldar",
+     "valor": "≤ 3 mm",
+     "item": "Figura A.1, ref. 21",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#folga-saia"
+    },
+    {
+     "parametro": "Afastamento anel da saia–linha de tangência",
+     "valor": "+0 / −6 mm",
+     "item": "Figura A.1, ref. 22",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#saia-tangente"
+    },
+    {
+     "parametro": "Face do flange de bocal até a tangência",
+     "valor": "± 3 mm",
+     "item": "Figura A.1, ref. 23",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#face-flange-tangente"
+    },
+    {
+     "parametro": "Altura do anel dos chumbadores; afastamento dos chumbadores aos eixos",
+     "valor": "± 3 mm",
+     "item": "Figura A.1, ref. 24, 25",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#anel-chumbadores"
+    },
+    {
+     "parametro": "Desvio entre centros do bocal e do tampo; desvio do eixo do bocal",
+     "valor": "± 3 mm",
+     "item": "Figura A.1, ref. 26, 32",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#locacao-bocal"
+    },
+    {
+     "parametro": "Rotação dos furos do flange; desvio angular do eixo do bocal",
+     "valor": "± 1,5 mm; ± 1/2°",
+     "item": "Figura A.1, ref. 28, 29",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#perpendicularidade-flange"
+    },
+    {
+     "parametro": "Distância entre centros de bocais de instrumento de nível",
+     "valor": "± 2 mm",
+     "item": "Figura A.1, ref. 30",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#bocais-nivel"
+    },
+    {
+     "parametro": "Embicamento (gabarito de 915 mm, por dentro e por fora)",
+     "valor": "≤ 6,4 mm",
+     "item": "Figura A.1, ref. 31",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#embicamento"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-tolerancias-fabricacao.svg"
+   ]
+  }
+ ]
+}

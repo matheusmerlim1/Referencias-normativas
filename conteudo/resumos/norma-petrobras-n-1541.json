@@ -1,0 +1,43 @@
+{
+ "id": "PETROBRAS-N-1541",
+ "titulo": "Petrobras N-1541 Rev. C (12/2010) — Tanque de armazenamento — folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso dos formulários",
+   "item": "1; 3",
+   "texto": "Padroniza a folha de dados A4 de tanque de armazenamento: Anexo A em unidades do sistema de engenharia e Anexo B em SI. Preenchida, registra requisitos do comprador e projeto do fornecedor e vira documento permanente do equipamento. Legenda e rodapé pela N-381 (que também dá folhas de continuação, notas e desenho de orientação de bocais); identificação do tanque pela N-1521; preenchimento conforme a N-270, riscando campos não aplicáveis.",
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo da folha de dados",
+   "item": "Anexos A e B",
+   "texto": "Dados gerais (serviço, quantidade, tipo de teto, selos primário e secundário, dreno do teto, capacidade nominal, diâmetro e altura nominais, fator de volume por mm); produto (densidade, viscosidade, pressão de vapor, ponto de fulgor, temperatura e pressão); projeto (norma, temperaturas de projeto e ambiente, pressão e vácuo de projeto em mm de coluna de água, vazões máximas de entrada e saída, dispositivo de emergência, sobrecarga no teto, declividades do teto e do fundo, tipo de fundação e recalques total e diferencial, chuva máxima, vento); materiais de cada parte (chapas de costado, fundo e teto, flanges, bocas de visita, portas de limpeza, pescoços, luvas, tubos internos, perfis, serpentina, parafusos, porcas, juntas); inspeção de materiais; aquecimento (serpentina ou aquecedores, carga térmica, tempo, coeficientes); isolamento e pintura; lista de bocais.",
+   "valores": [
+    {
+     "parametro": "Dimensões principais pedidas",
+     "valor": "diâmetro e altura nominais (m)",
+     "item": "Folha 02",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#diametro-tanque",
+     "nota": "campos do formulário; a norma não fixa valores"
+    },
+    {
+     "parametro": "Declividade do fundo e do teto",
+     "valor": "campos a preencher",
+     "item": "Folha 02",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#declividade",
+     "nota": "campos do formulário"
+    },
+    {
+     "parametro": "Pressão e vácuo de projeto",
+     "valor": "em mm de coluna de água",
+     "item": "Folha 02"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  }
+ ]
+}

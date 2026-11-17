@@ -1,0 +1,465 @@
+{
+ "id": "PETROBRAS-N-0253",
+ "titulo": "Petrobras N-0253 Rev. M (10/2023) — Projeto de vaso de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo e base de projeto",
+   "item": "1; 3",
+   "texto": "Requisitos Petrobras que complementam o ASME VIII Div. 1 (ou Div. 2 quando exigido) no projeto mecânico e de fabricação de vasos de refinarias, petroquímicas, terminais, estações e plataformas. Vaso que integra gerador de vapor segue o ASME Seção I; vasos seriados regidos por portaria do INMETRO ficam fora. Serviço com soda cáustica segue a NACE SP0403. Tensões por cargas localizadas podem vir de elementos finitos, do Anexo G da PD 5500 ou dos boletins WRC 537/297. Em caso de conflito vale: documentos do próprio vaso (desenho, folha de dados) > esta norma > normas citadas.",
+   "valores": [
+    {
+     "parametro": "Prazo para implantar a revisão",
+     "valor": "180 dias após a publicação (ou plano de implementação registrado nesse prazo)",
+     "item": "folha de rosto"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Tensões admissíveis e condições de projeto",
+   "item": "4.1; 4.2",
+   "texto": "Partes pressurizadas usam as tensões do ASME II-D; soldas de partes não pressurizadas ligadas ao casco usam as mesmas. Em flanges, espelhos e peças de inox austenítico sensíveis a pequena deformação permanente, adota-se a menor das duas tensões tabeladas. Quem pode sofrer vácuo (normal, anormal ou transitório) é dimensionado para vácuo total; limpeza com vapor (steam-out) não entra nesse dimensionamento e é tratada por procedimento.",
+   "valores": [
+    {
+     "parametro": "Chumbador de aço-carbono — tensão admissível básica (área da raiz)",
+     "valor": "98 MPa (1 000 kgf/cm²)",
+     "item": "4.1.3"
+    },
+    {
+     "parametro": "Chumbador — tensão admissível na condição de montagem",
+     "valor": "até 118 MPa (1 200 kgf/cm²)",
+     "item": "4.1.3"
+    },
+    {
+     "parametro": "Temperatura mínima de projeto (se o projeto básico não der)",
+     "valor": "o menor entre −2 °C e a menor média diária da região + 8 °C",
+     "item": "4.2.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Combinações de carregamento (Div. 1)",
+   "item": "4.3; Tabela 1",
+   "texto": "Vasos pela Div. 1 e suas estruturas de suporte são verificados em quatro condições: I montagem (peso próprio + vento ou sismo, espessura nominal), II teste (pressão de teste, vaso cheio de água e cargas permanentes, espessura nominal e corroída), III operação normal (pressão de projeto, fluido, pesos, vento ou sismo, espessura corroída) e IV parada (pesos + vento ou sismo, espessura corroída). Vento não governa o vaso horizontal, mas entra no cálculo de fundação e estrutura. Vento estático e dinâmico pela NBR 6123, incluindo vibração na direção do vento e transversal; offshore admite outra norma aprovada.",
+   "valores": [
+    {
+     "parametro": "Montagem e parada — tensão admissível",
+     "valor": "tabela do ASME VIII-1 à temperatura ambiente + 20 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Teste — tensão máxima",
+     "valor": "90 % do limite de escoamento à temperatura ambiente (partes não pressurizadas: básica + 33,3 %)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Compressão longitudinal admissível pelo WRC 443",
+     "valor": "temperatura de projeto acima de 482 °C (saia em aço-carbono/baixa liga) ou 649 °C (saia em inox austenítico)",
+     "item": "Tabela 1, Nota 7"
+    },
+    {
+     "parametro": "Flecha máxima do vaso vertical sob vento",
+     "valor": "1/200 da altura do vaso",
+     "item": "4.3.3.3",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#flecha-vento"
+    },
+    {
+     "parametro": "Partes não pressurizadas em condição eventual de curta duração",
+     "valor": "tensão básica + 33,3 %",
+     "item": "4.3.4.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Vida útil e materiais",
+   "item": "4.5; 5",
+   "texto": "A vida útil da Tabela 2 é a base para escolher material, sobre-espessura, fadiga e fluência. Aço com outros elementos de liga além de Mn e Si, com resistência nominal alta ou temperado e revenido depende de aprovação. A Tabela 3 limita a temperatura de serviço contínuo de alguns materiais abaixo do que o ASME II-D permite; a Tabela 4 classifica componentes em classes de exigência de material (classe III: internos soldados sem esforço principal e suportes externos como saias, colunas e berços). Em ambiente C5M (ISO 12944-2) aplica-se a ISO 21457.",
+   "valores": [
+    {
+     "parametro": "Vida útil — reatores, torres, vasos e trocadores (refinarias e terminais)",
+     "valor": "20 anos",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Vida útil — idem em unidades petroquímicas",
+     "valor": "15 anos",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Carbono recomendado — partes pressurizadas",
+     "valor": "≤ 0,30 %",
+     "item": "5.4"
+    },
+    {
+     "parametro": "Carbono recomendado — chapas de casco e tampos",
+     "valor": "≤ 0,26 %",
+     "item": "5.4"
+    },
+    {
+     "parametro": "Resistência nominal que exige aprovação prévia",
+     "valor": "acima de 485 MPa (70 kpsi)",
+     "item": "5.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Sobre-espessura de corrosão e espessura mínima",
+   "item": "6",
+   "texto": "A sobre-espessura sai da taxa de corrosão × vida útil; se a taxa for alta ou a sobre-espessura ficar grande, avalia-se material mais nobre. Há valores mínimos por tipo de vaso e uma espessura mínima após fabricação para cascos e tampos de aço-carbono e baixa liga, independentemente do cálculo.",
+   "valores": [
+    {
+     "parametro": "Avaliar material mais resistente quando",
+     "valor": "taxa > 0,3 mm/ano ou sobre-espessura > 6 mm",
+     "item": "6.5",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#corrosao"
+    },
+    {
+     "parametro": "Sobre-espessura mínima (aço-carbono e baixa liga)",
+     "valor": "1,5 mm",
+     "item": "6.6",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#corrosao"
+    },
+    {
+     "parametro": "Torres, vasos e trocadores com hidrocarboneto",
+     "valor": "3 mm",
+     "item": "6.7 a)",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#corrosao"
+    },
+    {
+     "parametro": "Potes de acumulação (botas) desses vasos",
+     "valor": "6 mm",
+     "item": "6.7 b)",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#corrosao"
+    },
+    {
+     "parametro": "Vasos de vapor e ar; esferas e vasos de gás liquefeito",
+     "valor": "1,5 mm",
+     "item": "6.7 c), d)",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#corrosao"
+    },
+    {
+     "parametro": "Espessura mínima após fabricação — casco e tampo (aço-carbono/baixa liga)",
+     "valor": "o maior entre 4,8 mm e 2,5 + 0,001·Di + C (mm)",
+     "item": "6.9",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#t-min",
+     "nota": "Di = diâmetro interno; C = sobre-espessura de corrosão"
+    },
+    {
+     "parametro": "Espessura mínima corroída — inox e não ferrosos",
+     "valor": "2 mm",
+     "item": "6.10",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#t-min"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Tampos",
+   "item": "7",
+   "texto": "Tampo elipsoidal ou torisférico de aço-carbono/baixa liga até certo diâmetro é inteiriço; acima disso (ou cladeado, ou de outro material) as soldas seguem as disposições da Figura A.1, sem solda inteiramente na região tórica (exceto radial). Na Div. 2 vale a figura 4.3.3 do código para qualquer diâmetro.",
+   "valores": [
+    {
+     "parametro": "Tampo inteiriço, sem solda (aço-carbono/baixa liga)",
+     "valor": "diâmetro interno até 1 800 mm",
+     "item": "7.4",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#tampo-inteirico"
+    },
+    {
+     "parametro": "Tampo em gomos radiais — raio da coroa central",
+     "valor": "≥ 20 % do raio do tampo",
+     "item": "7.4",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#tampo-inteirico"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Bocas de visita e de inspeção",
+   "item": "8.1; Tabelas 6 a 8",
+   "texto": "Cada compartimento pressurizado tem acesso conforme o diâmetro: vaso pequeno com tampo flangeado ou bocais de inspeção; acima de 815 mm, boca de visita. Em torres com bandejas o número mínimo de bocas cresce com o número de bandejas e pode subir em serviço sujo. Vaso vertical com uma só boca a tem no casco na posição mais baixa; com duas, a segunda acima da bandeja de topo. No horizontal, a boca preferencialmente fica num tampo; a segunda, no topo do casco perto da outra ponta.",
+   "valores": [
+    {
+     "parametro": "DI ≤ 10″ — com internos / sem internos",
+     "valor": "tampo superior flangeado / 2 bocais de inspeção de 2″",
+     "item": "Tabela 6",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#boca-visita"
+    },
+    {
+     "parametro": "10″ < DI ≤ 815 mm — com internos / sem internos",
+     "valor": "tampo superior flangeado / 2 bocais de inspeção de 4″",
+     "item": "Tabela 6",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#boca-visita"
+    },
+    {
+     "parametro": "DI > 815 mm",
+     "valor": "boca(s) de visita",
+     "item": "Tabela 6",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#boca-visita"
+    },
+    {
+     "parametro": "Diâmetro nominal mínimo da boca de visita — 815 ≤ DI ≤ 1 015 mm",
+     "valor": "18″",
+     "item": "Tabela 7",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#boca-visita"
+    },
+    {
+     "parametro": "Idem — 1 015 < DI ≤ 1 220 mm",
+     "valor": "20″",
+     "item": "Tabela 7",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#boca-visita"
+    },
+    {
+     "parametro": "Idem — DI > 1 220 mm",
+     "valor": "24″",
+     "item": "Tabela 7",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#boca-visita"
+    },
+    {
+     "parametro": "Número de bocas por bandejas: até 25 / 26–41 / 42–60 / acima de 60",
+     "valor": "2 / 3 / 4 / uma a cada 20 bandejas",
+     "item": "Tabela 8"
+    },
+    {
+     "parametro": "Máximo em serviço com limpeza frequente",
+     "valor": "uma boca a cada 6 bandejas",
+     "item": "8.1.5"
+    },
+    {
+     "parametro": "Vaso horizontal com 2 bocas de visita",
+     "valor": "comprimento acima de 10 m",
+     "item": "8.1.7",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#comprimento-horizontal"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Bocais e flanges",
+   "item": "8.2 a 8.5; Figuras A.2 a A.4",
+   "texto": "Bocais de entrada e saída afastados para evitar curto-circuito. Diâmetros pouco comerciais são vetados. Pescoço até 12″ em tubo sem costura (ou LWN/forjado); de 14″ para cima pode ser tubo com costura, forjado ou chapa calandrada com uma solda longitudinal. A projeção externa é a menor que permita separar as soldas, desmontar estojos sem estragar o isolamento e soldar o pescoço; projeção interna só por processo. Flange cego pesado ganha olhal, turco ou dobradiça. Flanges ficam com os eixos de projeto passando entre dois furos. Reforço por anel de chapa não é usado em parede grossa.",
+   "valores": [
+    {
+     "parametro": "Diâmetro nominal mínimo de bocal",
+     "valor": "3/4″ (1/2″ roscado só para poço de termômetro/instrumento em água, ar ou inerte sem teste de impacto)",
+     "item": "8.2.2",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#bocal-min"
+    },
+    {
+     "parametro": "Diâmetros nominais proibidos",
+     "valor": "1 1/4″, 2 1/2″, 3 1/2″, 5″ e 7″",
+     "item": "8.2.3",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#bocal-min"
+    },
+    {
+     "parametro": "Pescoço de tubo em aço-carbono/baixa liga — até 2″",
+     "valor": "série 80",
+     "item": "8.2.5 a)",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#pescoco-bocal"
+    },
+    {
+     "parametro": "Idem — 3″ a 10″",
+     "valor": "série 40",
+     "item": "8.2.5 b)",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#pescoco-bocal"
+    },
+    {
+     "parametro": "Reforço por anel de chapa — vetado se a parede do vaso tiver",
+     "valor": "espessura ≥ 50 mm",
+     "item": "8.2.15.1",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#t-min"
+    },
+    {
+     "parametro": "Flange cego que exige olhal, turco ou dobradiça",
+     "valor": "peso acima de 350 N (36 kgf)",
+     "item": "8.2.16"
+    },
+    {
+     "parametro": "Flange sobreposto (SO) em bocal de 2″ ou mais — condições",
+     "valor": "classes 150 e 300, sem teste de impacto, sobre-espessura até 3 mm, entre outras",
+     "item": "8.4.5.1",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#bocal-min"
+    },
+    {
+     "parametro": "Flange tipo anel (forjado ou de chapa)",
+     "valor": "diâmetro nominal de 14″ ou maior",
+     "item": "8.4.5.2",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#bocal-min"
+    },
+    {
+     "parametro": "Face RTJ — dureza acima da do anel",
+     "valor": "30 HB a mais",
+     "item": "8.5.2"
+    },
+    {
+     "parametro": "Flange solto (lap-joint) em inox/não ferroso",
+     "valor": "pressão de projeto < 400 kPa e temperatura < 250 °C, com aprovação",
+     "item": "8.5.5"
+    },
+    {
+     "parametro": "Projeção externa recomendada dos bocais",
+     "valor": "tabela da Figura A.3 por classe de pressão e diâmetro (valores entre 200 e 550 mm)",
+     "item": "Figura A.3",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#projecao-bocal",
+     "nota": "conferir: tabela da Figura A.3 lida do texto extraído; a correspondência classe × diâmetro não ficou clara"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Suportes",
+   "item": "9; Figura A.5",
+   "texto": "A Figura A.5 escolhe entre colunas e saia para o vaso vertical em função de altura total e diâmetro; torres e reatores são sempre apoiados em saia, que tem abertura de acesso reforçada e respiros conforme N-2054. Sob o vaso vertical tem de haver acesso. O horizontal usa duas selas metálicas simétricas em relação ao meio do comprimento; uma é móvel, com furos oblongos, e as chapas das selas são soldadas ao casco com cordão contínuo.",
+   "valores": [
+    {
+     "parametro": "Espessura mínima da saia",
+     "valor": "6,3 mm",
+     "item": "9.2.3",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#t-saia"
+    },
+    {
+     "parametro": "Ponto mais baixo do tampo inferior até o topo da base (vaso com D > 800 mm)",
+     "valor": "≥ 1 200 mm",
+     "item": "9.2.4 a)",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#altura-tampo-base"
+    },
+    {
+     "parametro": "Trecho horizontal da tubulação do tampo inferior até o topo da base",
+     "valor": "≥ 300 mm",
+     "item": "9.2.4 b)",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#altura-tubo-base"
+    },
+    {
+     "parametro": "Ângulo abraçado por cada sela",
+     "valor": "≥ 120°",
+     "item": "9.4.1",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#sela-angulo"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Internos e itens externos",
+   "item": "10; 11",
+   "texto": "Internos removíveis (exceto vigas principais de bandejas e grades) têm peso limitado e passam pela boca de visita. Tubos internos não pressurizados têm espessura mínima por material. Vaso vertical com internos removíveis e topo alto ganha turco no topo. Acesso seguro (permanente para bocas altas e instrumentos) a bocas de visita, válvulas de segurança e instrumentos de leitura local.",
+   "valores": [
+    {
+     "parametro": "Peso máximo de peça interna desmontável",
+     "valor": "250 N (25 kgf)",
+     "item": "10.2"
+    },
+    {
+     "parametro": "Tubo interno de aço-carbono/baixa liga — até 10″ / acima de 10″",
+     "valor": "série 40 / parede de 6 mm (roscados classe 2000)",
+     "item": "10.5",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#tubo-interno"
+    },
+    {
+     "parametro": "Tubo interno de alta liga (≥ 11–13 % Cr) — até 1 1/2″ / acima",
+     "valor": "série 40S / série 10S ou chapa bitola 12 USS",
+     "item": "10.6",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#tubo-interno",
+     "nota": "a norma converte a bitola 12 USS como 0,3708 mm — valor provavelmente com erro de unidade (a bitola 12 tem cerca de 2,7 mm)"
+    },
+    {
+     "parametro": "Turco no topo do vaso vertical",
+     "valor": "topo a mais de 3 000 mm do solo",
+     "item": "11.3",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#altura-topo"
+    },
+    {
+     "parametro": "Acesso permanente a boca de visita",
+     "valor": "linha de centro a mais de 3 000 mm do solo",
+     "item": "11.4 a)",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#altura-bv"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Projeto de fabricação (soldas)",
+   "item": "12",
+   "texto": "Soldas do pescoço de bocais em vasos de sistemas de compressores alternativos são projetadas para 100 % de radiografia ou ultrassom registrável (phased array). Anéis do casco: com diâmetro pequeno, uma só solda longitudinal; com diâmetro grande, chapas de comprimento comercial. Soldas em ângulo externas têm cordão contínuo de selagem; peças sobrepostas em vaso quente têm furo de respiro embaixo; peças internas têm cordão de selagem com uma interrupção embaixo.",
+   "valores": [
+    {
+     "parametro": "Uma única solda longitudinal por anel",
+     "valor": "diâmetro menor que 2 000 mm",
+     "item": "12.2.8",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#distancia-soldas"
+    },
+    {
+     "parametro": "Defasagem entre soldas longitudinais de anéis adjacentes",
+     "valor": "≥ 45°",
+     "item": "12.2.8",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#defasagem-soldas"
+    },
+    {
+     "parametro": "Furo de respiro em peça sobreposta (vaso a temperatura ≥ ambiente)",
+     "valor": "Ø 6 mm, na parte inferior",
+     "item": "12.2.10",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#respiro-reforco"
+    },
+    {
+     "parametro": "Interrupção no cordão de selagem de peças internas",
+     "valor": "10 mm, na parte inferior",
+     "item": "12.2.11",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#respiro-reforco",
+     "nota": "cota aproximada: o esquema mostra o furo de respiro; a interrupção fica no cordão interno equivalente"
+    },
+    {
+     "parametro": "Distância entre bordas de duas soldas de penetração total paralelas",
+     "valor": "≥ 3 × a espessura da chapa mais fina, mínimo 50 mm",
+     "item": "12.2.12",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#distancia-soldas"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção, teste e placa",
+   "item": "13 a 16; Figura A.6",
+   "texto": "PM e/ou LP em 100 % das juntas pressurizadas quando há serviço cíclico, corrosão sob tensão, requisito de tenacidade e casos semelhantes. Teste pneumático só excepcionalmente, com autorização e radiografia total das soldas. Placa de identificação em inox, caracteres gravados ou estampados, fixada por parafusos; em vaso isolado vai num suporte afastado.",
+   "valores": [
+    {
+     "parametro": "Altura mínima dos caracteres da placa",
+     "valor": "3 mm",
+     "item": "16.3",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#placa"
+    },
+    {
+     "parametro": "Espessura mínima da chapa da placa (inox)",
+     "valor": "1,5 mm",
+     "item": "16.4",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#placa"
+    },
+    {
+     "parametro": "Fixação da placa",
+     "valor": "parafusos Ø 5/16″ × 5/8″ (inox ou latão) em furos de Ø 8,5 mm",
+     "item": "16.5",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#placa"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  }
+ ]
+}

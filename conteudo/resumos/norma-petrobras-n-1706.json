@@ -1,0 +1,134 @@
+{
+ "id": "PETROBRAS-N-1706",
+ "titulo": "Petrobras N-1706 Rev. H (06/2024) — Requisitos adicionais para vaso de pressão em serviço com H2S úmido",
+ "secoes": [
+  {
+   "titulo": "Quando se aplica e categorias",
+   "item": "1; 6; Tabela 1",
+   "texto": "Complementa N-253/N-268/N-269 para vasos em H2S úmido. A classificação considera teor de H2S, água líquida, cianetos, pH, pressão, temperatura e eficiência de lavagem/inibição. Categoria 1 = aço resistente ao H2S úmido; Categoria 2 = aço resistente a trincamento induzido por hidrogênio (HIC). O projeto básico escolhe a categoria mínima pela Tabela 1 e pode subir por experiência.",
+   "valores": [
+    {
+     "parametro": "pH < 5,5 — H2S na água < 50 / 50–1 000 / 1 000–10 000 / > 10 000 ppm",
+     "valor": "não categorizado / Cat. 1 / Cat. 2 / Cat. 2",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "pH 5,5 a 8,3 — mesmas faixas",
+     "valor": "não categorizado / Cat. 1 / Cat. 1 / Cat. 1",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "pH > 8,3 — mesmas faixas",
+     "valor": "não categorizado / Cat. 1 (Cat. 2 se CN⁻ > 20 ppm) / idem / Cat. 2",
+     "item": "Tabela 1"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Requisitos gerais",
+   "item": "7",
+   "texto": "Soldas pressurizadas de penetração total, sem frestas nem espaço confinado em contato com o fluido (acessório interno com solda contínua em cima tem solda descontínua embaixo). Flanges pela N-253; tubo-espelho por mandrilagem quando a N-466 permite; tubos de troca sem costura; roscas proibidas; nenhuma solda após TTAT. NACE SP0472 e API RP 582 ajudam na soldagem.",
+   "valores": [
+    {
+     "parametro": "Furo de ventilação de espaço confinado por solda (acessório externo)",
+     "valor": "1 furo de Ø 1/8″",
+     "item": "7.4",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#furo-ventilacao"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Matéria-prima",
+   "item": "8",
+   "texto": "Categoria 1: SA-516 totalmente acalmado, preferencialmente normalizado (ou resfriado acelerado e revenido), CE limitado. Categoria 2: além disso, desgaseificado a vácuo, com S e P muito baixos (globulização de inclusões se S passar de certo teor) e ensaio HIC (NACE TM0284) por corrida e espessura; pode-se usar SA-516 cladeado/revestido em inox (N-1707) no lugar, e chapa TMCP quando não houver TTAT. Forjados, tubos e acessórios com carbono e CE limitados e UT nos forjados grandes.",
+   "valores": [
+    {
+     "parametro": "Revenimento após resfriamento acelerado",
+     "valor": "595 °C a 705 °C",
+     "item": "8.2.1.2"
+    },
+    {
+     "parametro": "Carbono equivalente máximo — espessura ≤ 25 mm / > 25 mm",
+     "valor": "0,43 / 0,45",
+     "item": "8.2.1.3; 8.3.1",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#t-min",
+     "nota": "CE = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15"
+    },
+    {
+     "parametro": "Nb + V",
+     "valor": "≤ 0,015 %",
+     "item": "8.2.1.3"
+    },
+    {
+     "parametro": "Categoria 2 — S e P máximos",
+     "valor": "S ≤ 0,003 %; P ≤ 0,010 % (globulizar inclusões se S > 0,002 %)",
+     "item": "8.2.2.1 b)"
+    },
+    {
+     "parametro": "Ensaio HIC — aceitação",
+     "valor": "CLR médio ≤ 5 % (individual < 10 %); CTR médio ≤ 1,5 % (individual < 3 %)",
+     "item": "8.2.2.1 c)"
+    },
+    {
+     "parametro": "Carbono em forjados, tubos e acessórios",
+     "valor": "≤ 0,30 %",
+     "item": "8.3.1"
+    },
+    {
+     "parametro": "Ultrassom 100 % em forjados",
+     "valor": "diâmetro interno nominal ≥ 12″",
+     "item": "8.3.4",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#bocal-min"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "TTAT e qualificação de soldagem",
+   "item": "9; 10",
+   "texto": "Vasos categoria 1 e 2 de aço-carbono sem clad recebem TTAT; cladeados não precisam por causa do H2S (salvo código ou projeto). Quando há TTAT, dois RQPS (TTAT mínimo e máximo).",
+   "valores": [
+    {
+     "parametro": "Temperatura de patamar do TTAT",
+     "valor": "620 °C a 640 °C",
+     "item": "9.4"
+    },
+    {
+     "parametro": "Dureza na qualificação — metal de solda",
+     "valor": "≤ 200 HB, ou média 210 HV5 com individual ≤ 248 HV5",
+     "item": "Tabela 1, Nota 2"
+    },
+    {
+     "parametro": "Dureza na qualificação — ZTA",
+     "valor": "média 210 HV5, individual ≤ 248 HV5",
+     "item": "Tabela 1, Nota 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios não destrutivos",
+   "item": "11",
+   "texto": "Mesma lógica da N-1704: radiografia total das soldas pressurizadas em contato com H2S, UT mecanizado e registrado, phased array nos bocais categoria D, UT no flange principal tipo anel e nas chapas cladeadas após conformação.",
+   "valores": [
+    {
+     "parametro": "Radiografia de soldas pressurizadas em contato com H2S",
+     "valor": "100 %",
+     "item": "11.2.1"
+    },
+    {
+     "parametro": "UT de chapa cladeada após conformação",
+     "valor": "SA-578 nível C + suplementar S1",
+     "item": "11.3.4"
+    }
+   ]
+  }
+ ]
+}

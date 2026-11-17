@@ -1,0 +1,90 @@
+{
+ "id": "PETROBRAS-N-2627",
+ "titulo": "Petrobras N-2627 Rev. B (07/2014) — Turbinas a vapor para serviços especiais",
+ "secoes": [
+  {
+   "titulo": "Escopo e forma da norma",
+   "item": "1; 5",
+   "texto": "Requisitos mínimos sobre a API 612 (2005) para turbinas a vapor de serviço especial e seus auxiliares; cada item acrescenta, modifica ou substitui um parágrafo da API. Peças semelhantes marcadas; estudo de limpeza da turbina pelo fornecedor.",
+   "valores": [
+    {
+     "parametro": "Reserva de potência",
+     "valor": "permitir alteração para 110 % da potência nominal original nas condições de vapor especificadas",
+     "item": "5.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/turbina-vapor.svg"
+   ]
+  },
+  {
+   "titulo": "Dinâmica do rotor",
+   "item": "6",
+   "texto": "Análise de resposta ao desbalanceamento amortecido por velocidade, com efeitos de pastilha; gráficos de Bode na direção dos sensores X-Y; teste de verificação com desbalanceamento colocado onde excita as críticas; análise torcional do trem completo pelo responsável do conjunto; limites de vibração acima da velocidade contínua máxima.",
+   "valores": [
+    {
+     "parametro": "Desvio admitido do fator de amplificação previsto × medido",
+     "valor": "± 20 %",
+     "item": "6.2.5"
+    },
+    {
+     "parametro": "Aumento de vibração acima da velocidade máxima contínua até o trip",
+     "valor": "≤ menor entre o limite da equação (7) e 12,7 μm (0,5 mil) acima do valor máximo na velocidade contínua",
+     "item": "6.4.1",
+     "cota": "esquemas/turbina-vapor.svg#sonda"
+    },
+    {
+     "parametro": "Runout elétrico/mecânico em blocos V",
+     "valor": "≤ maior entre 25 % do nível de teste e 6,3 μm (0,25 mil)",
+     "item": "6.4.2",
+     "cota": "esquemas/turbina-vapor.svg#runout"
+    }
+   ],
+   "figuras": [
+    "esquemas/turbina-vapor.svg"
+   ]
+  },
+  {
+   "titulo": "Mancais, controle e isolamento",
+   "item": "7 a 9",
+   "texto": "Portas de injeção de amortecedor; mancais radiais e de escora com sensores de temperatura de metal pela API 670; registrador de eventos no alarme/desligamento; isolamento térmico com jaquetas que resistam à remoção.",
+   "valores": [
+    {
+     "parametro": "Temperatura de superfície do isolamento em operação normal",
+     "valor": "≤ 60 °C",
+     "item": "9.3.2",
+     "cota": "esquemas/turbina-vapor.svg#isolamento"
+    }
+   ],
+   "figuras": [
+    "esquemas/turbina-vapor.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção e testes",
+   "item": "10",
+   "texto": "Dureza de peças, soldas e ZTA (exceto inox austenítico); contato dos mancais hidrodinâmicos conferido com azul da Prússia; cronograma do MRT e do URT pela figura da norma, com analisador em tempo real adicional; óleo variado durante a corrida de 4 h; governador testado com o painel; teste de estabilidade com decremento logarítmico medido; embalagem para exportação e armazenagem.",
+   "valores": [
+    {
+     "parametro": "Área de contato mancal–munhão",
+     "valor": "≥ 70 % da área de projeto",
+     "item": "10.2.2",
+     "cota": "esquemas/turbina-vapor.svg#contato-mancal"
+    },
+    {
+     "parametro": "Corrida mecânica",
+     "valor": "4 h na velocidade máxima contínua, leituras a cada 30 min",
+     "item": "10.3.1 (figura do cronograma do MRT)"
+    },
+    {
+     "parametro": "Temperatura máxima do metal do mancal no MRT",
+     "valor": "95 °C na velocidade máxima contínua",
+     "item": "10.3.3.5"
+    }
+   ],
+   "figuras": [
+    "esquemas/turbina-vapor.svg"
+   ]
+  }
+ ]
+}

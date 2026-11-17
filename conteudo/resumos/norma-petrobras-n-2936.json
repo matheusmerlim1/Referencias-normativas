@@ -1,0 +1,215 @@
+{
+ "id": "PETROBRAS-N-2936",
+ "titulo": "Petrobras N-2936 (04/2019) — Caldeiraria — tanques de armazenamento de baixa pressão (API 620)",
+ "secoes": [
+  {
+   "titulo": "Escopo e limites de projeto",
+   "item": "1; 4.2; 4.3",
+   "texto": "Projeto, fabricação e montagem de tanques cilíndricos verticais soldados de baixa pressão pela API 620. Produtos refrigerados de 5 °C a −51 °C seguem o Anexo R; gases liquefeitos até −198 °C, o Anexo Q.",
+   "valores": [
+    {
+     "parametro": "Pressão de projeto — corpo da norma / Anexos Q e R",
+     "valor": "≤ 15 psig (1,055 kgf/cm²) / ≤ 7 psig (0,492 kgf/cm²)",
+     "item": "4.3.1"
+    },
+    {
+     "parametro": "Vácuo de projeto — corpo / Anexos Q e R",
+     "valor": "até −1 oz/in² (−44 mm c.a.) / até −0,25 psig (−175,8 mm c.a.)",
+     "item": "4.3.2"
+    },
+    {
+     "parametro": "Temperatura mínima de projeto",
+     "valor": "menor entre a menor média diária local + 8 °C e a mínima do produto",
+     "item": "4.3.3.1"
+    },
+    {
+     "parametro": "Temperatura máxima de projeto (corpo da norma)",
+     "valor": "121 °C",
+     "item": "4.3.3.2"
+    },
+    {
+     "parametro": "Volume mínimo de vapor acima do nível máximo",
+     "valor": "2 % da capacidade de líquido",
+     "item": "4.4.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Chapas, corrosão e recalques",
+   "item": "4.4 a 4.7",
+   "texto": "Chapas nas dimensões comerciais (finas até 5 mm com bordas aparadas; grossas de 6,30 mm em diante). Regiões revestidas internamente têm sobre-espessura reduzida. Recalques diferenciais limitados entre pontos diametralmente opostos e outros pares.",
+   "valores": [
+    {
+     "parametro": "Chapas comerciais — até 5,00 mm / ≥ 6,30 mm",
+     "valor": "1 500 (ou 1 800) × 6 000 mm / 2 440 × 12 000 mm",
+     "item": "4.4.4",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-costado"
+    },
+    {
+     "parametro": "Sobre-espessura em regiões revestidas",
+     "valor": "1 mm",
+     "item": "4.6.3",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-costado"
+    },
+    {
+     "parametro": "Recalque diferencial entre pontos diametralmente opostos da periferia",
+     "valor": "≤ D/300",
+     "item": "4.7.2 a)",
+     "cota": "esquemas/recalque-pinos-tanque.svg#diametro-tanque"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg",
+    "esquemas/recalque-pinos-tanque.svg"
+   ]
+  },
+  {
+   "titulo": "Fundo",
+   "item": "4.8",
+   "texto": "Fundo plano em tanques pequenos e com caimento do centro para a periferia nos maiores. Contorno sempre com chapas anulares (largura pelo Anexo Q ou R). Chapas centrais sobrepostas às anulares com cordão interno; juntas e sobreposições triplas afastadas entre si e das juntas do 1º anel.",
+   "valores": [
+    {
+     "parametro": "Fundo plano / declividade centro→periferia",
+     "valor": "até 6,0 m / 1:120 acima",
+     "item": "4.8.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#declividade"
+    },
+    {
+     "parametro": "Projeção do fundo além da solda fundo–costado ou de reforço",
+     "valor": "≥ 50 mm",
+     "item": "4.8.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#projecao-fundo"
+    },
+    {
+     "parametro": "Largura mínima das chapas anulares",
+     "valor": "750 mm",
+     "item": "4.8.3",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#largura-anular"
+    },
+    {
+     "parametro": "Espessura mínima das chapas centrais",
+     "valor": "6,3 mm",
+     "item": "4.8.6",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-fundo"
+    },
+    {
+     "parametro": "Transpasse central–anular",
+     "valor": "≥ 60 mm",
+     "item": "4.8.8",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#transpasse-anular"
+    },
+    {
+     "parametro": "Juntas de topo das anulares × juntas verticais do 1º anel",
+     "valor": "≥ 300 mm",
+     "item": "4.8.12",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#juntas-verticais"
+    },
+    {
+     "parametro": "Entre sobreposições triplas e destas às juntas das anulares",
+     "valor": "≥ 300 mm",
+     "item": "4.8.13",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#transpasse-fundo"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Teto, acessórios e acessos",
+   "item": "4.10 a 4.16",
+   "texto": "Teto em domo dimensionado pela API 620 com sobrecarga mínima. Chapas de reforço de bocais e bocas com furo de teste; porta de limpeza não é admitida. Escada até plataforma no teto (helicoidal acima de certa altura); fixações permanentes por chapa de reforço afastada das juntas. Placa de identificação em inox (em tanque isolado, fixada ao isolamento).",
+   "valores": [
+    {
+     "parametro": "Sobrecarga mínima no teto",
+     "valor": "981 N/m² (100 kgf/m²)",
+     "item": "4.10.1"
+    },
+    {
+     "parametro": "Raio de curvatura do domo",
+     "valor": "80 % a 120 % do diâmetro do tanque",
+     "item": "4.10.3",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#diametro-tanque"
+    },
+    {
+     "parametro": "Espessura mínima estrutural das chapas do teto",
+     "valor": "5,00 mm",
+     "item": "4.10.4",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-teto"
+    },
+    {
+     "parametro": "Furo de teste nas chapas de reforço",
+     "valor": "≥ 1 furo de 1/4″ NPT",
+     "item": "4.11.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#boca-visita"
+    },
+    {
+     "parametro": "Escada helicoidal",
+     "valor": "altura acima de 6 m; inclinação de 45°",
+     "item": "4.13.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#altura-lance"
+    },
+    {
+     "parametro": "Largura útil das escadas",
+     "valor": "800 mm",
+     "item": "4.13.4",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#largura-escada"
+    },
+    {
+     "parametro": "Afastamento das fixações permanentes a qualquer junta",
+     "valor": "≥ 300 mm",
+     "item": "4.13.8",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#juntas-verticais"
+    },
+    {
+     "parametro": "Placa — caracteres / espessura / fixação",
+     "valor": "≥ 3 mm / inox ≥ 1,5 mm / parafusos Ø 5/16″ × 5/8″ em furos de 8,5 mm",
+     "item": "4.16.2 a 4.16.4",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#placa"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg",
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Fabricação e montagem",
+   "item": "6",
+   "texto": "Armazenagem de chapas afastadas do solo; cisalhamento limitado pela espessura; chapas conferidas pela ASTM A6. Dispositivos que travam a contração e pontos de solda espaçados (pontos incorporados à solda recebem LP). Nivelamento do 1º anel com instrumento óptico. Teste de drenagem dos anéis de contraventamento.",
+   "valores": [
+    {
+     "parametro": "Distância do solo na armazenagem",
+     "valor": "≥ 30 cm",
+     "item": "6.3",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#armazenagem"
+    },
+    {
+     "parametro": "Espaçamento de dispositivos e pontos de solda",
+     "valor": "≥ 500 mm",
+     "item": "6.5.1; 6.5.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#dispositivos"
+    },
+    {
+     "parametro": "Desnível do topo do 1º anel",
+     "valor": "≤ 3 mm a cada 9 000 mm; ≤ 6 mm entre não consecutivos",
+     "item": "6.7.6",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#nivel-primeiro-anel"
+    },
+    {
+     "parametro": "Furos de drenagem nos anéis de contraventamento",
+     "valor": "Ø ≤ 12 mm",
+     "item": "6.10.5",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#anel-contraventamento"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-tolerancias-fabricacao.svg",
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  }
+ ]
+}

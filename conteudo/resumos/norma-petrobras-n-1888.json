@@ -1,0 +1,59 @@
+{
+ "id": "PETROBRAS-N-1888",
+ "titulo": "Petrobras N-1888 Rev. C (10/2015) — Fabricação de tanque atmosférico",
+ "secoes": [
+  {
+   "titulo": "Escopo e documentação",
+   "item": "1; 4",
+   "texto": "Requisitos para fabricar em oficina tanques atmosféricos completos (API 650 e API 12F para tanques soldados em fábrica) ou componentes. O fabricante responde pela fabricação conforme desenhos aprovados e entrega livro de documentação técnica (procedimentos, soldagem, certificados, mapas de radiografia e de reparos, testes, tratamento térmico, pintura e não conformidades) para aprovação. END pelas normas Petrobras próprias.",
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Preparação e conformação",
+   "item": "6",
+   "texto": "Chapas armazenadas sobre berços (calandradas, com a mesma curvatura). Desempeno a frio antes da traçagem, sem aquecimento localizado nem martelamento. Corte por cisalhamento, oxicorte ou plasma; contornos do fundo e chapas de fechamento dos anéis ficam para corte no campo. Furos de teste das chapas de reforço feitos antes de soldá-las; aberturas tratadas termicamente recebem LP antes do reforço. Porta de limpeza e bocais com TTAT conforme API 650; selo PW pela N-1742.",
+   "valores": [
+    {
+     "parametro": "Distância mínima do solo na armazenagem",
+     "valor": "30 cm",
+     "item": "6.2.1",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#armazenagem"
+    },
+    {
+     "parametro": "Cisalhamento admitido — juntas de topo / sobrepostas",
+     "valor": "espessura até 10 mm / até 16 mm",
+     "item": "6.5.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-costado"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-tolerancias-fabricacao.svg",
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção de fabricação",
+   "item": "7",
+   "texto": "Só material identificado e aprovado. Chapas de fundo e teto conferidas em dimensões e bordas; de costado em dimensões e esquadro (ASTM A6). Bordas chanfradas com LP ou PM, sem dupla laminação, poros, trincas e amassamentos; curvatura das chapas calandradas pela norma de curvatura aplicável. Bocais do costado com radiografia e PM/LP; bocas de visita, portas de limpeza e acessórios permanentes com PM/LP; reforços com estanqueidade; componentes com TTAT com PM/LP antes e depois do tratamento."
+  },
+  {
+   "titulo": "Identificação e embarque",
+   "item": "8",
+   "texto": "Componentes e tanques soldados em oficina são marcados a tinta com identificação do tanque e do componente.",
+   "valores": [
+    {
+     "parametro": "Altura mínima das letras de identificação",
+     "valor": "40 mm",
+     "item": "8.2",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#armazenagem",
+     "nota": "cota aproximada: o esquema não tem cota de letreiro"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-tolerancias-fabricacao.svg"
+   ]
+  }
+ ]
+}

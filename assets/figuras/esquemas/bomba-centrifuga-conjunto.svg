@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 700" width="1180" height="700" role="img" aria-label="Bomba centrífuga — conjunto na base, impelidor, selo, acoplamento e NPSH">
+<title>Bomba centrífuga — conjunto na base, impelidor, selo, acoplamento e NPSH (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .cc{fill:#bbb;fill-opacity:.5;stroke:#777;stroke-width:1.4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .hc{fill:url(#hach);stroke:#666;stroke-width:1.2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Bomba centrífuga — conjunto na base, impelidor, selo, acoplamento e NPSH</text>
+<text class="b" x="20" y="58">(a) Conjunto bomba–acionador sobre a base</text>
+<rect class="s" x="40" y="300" width="560" height="22"/><rect class="b2" x="50" y="292" width="540" height="8"/>
+<circle class="sl" cx="150" cy="220" r="60"/><rect class="sl" x="110" y="270" width="80" height="22"/><rect class="w" x="135" y="110" width="30" height="50"/><rect class="s" x="125" y="104" width="50" height="8"/><rect class="w" x="40" y="205" width="50" height="30"/><rect class="s" x="32" y="198" width="8" height="44"/>
+<rect class="sl" x="210" y="200" width="80" height="40"/><line class="g" x1="290" y1="220" x2="330" y2="220"/><rect class="y" x="330" y="200" width="40" height="40"/><line class="g" x1="370" y1="220" x2="400" y2="220"/><rect class="sl" x="400" y="170" width="170" height="100" rx="10"/><rect class="sl" x="420" y="270" width="130" height="22"/>
+<rect class="w" x="580" y="300" width="20" height="14"/>
+<text class="n" x="420" y="165">motor ou turbina</text>
+<text class="n" x="330" y="192">acoplamento</text>
+<text class="n" x="60" y="345">base com bandeja coletora</text>
+<text class="n" x="100" y="95">descarga</text>
+<text class="n" x="20" y="190">sucção</text>
+<g id="cota-tampa-flange" class="cota"><line class="d" x1="230" y1="100" x2="176" y2="108" marker-end="url(#a)"/><text class="" x="190" y="92">tampa de flange (transporte)</text></g>
+<g id="cota-parafusos-alinhamento" class="cota"><line class="d" x1="640" y1="250" x2="560" y2="282" marker-end="url(#a)"/><text class="" x="600" y="245">parafusos de alinhamento</text></g>
+<g id="cota-planicidade-base" class="cota"><line class="d" x1="520" y1="343" x2="598" y2="312" marker-end="url(#a)"/><text class="" x="330" y="350">planicidade dos apoios da base</text></g>
+<g id="cota-dreno-base" class="cota"><line class="d" x1="560" y1="385" x2="592" y2="314" marker-end="url(#a)"/><text class="" x="420" y="398">dreno à frente da bomba</text></g>
+<text class="b" x="700" y="58">(b) Corte: impelidor, selo e cubo</text>
+<rect class="sl" x="720" y="100" width="120" height="200" rx="20"/><path class="wd" d="M770,130 L790,130 L800,200 L790,270 L770,270 L760,200 z"/><line class="g" x1="790" y1="200" x2="1060" y2="200"/>
+<rect class="w" x="850" y="180" width="40" height="40"/><rect class="sl" x="900" y="170" width="60" height="60"/><path class="y" d="M1000,182 L1040,178 L1040,222 L1000,218 z"/>
+<text class="n" x="850" y="172">selo</text>
+<text class="n" x="905" y="165">mancal</text>
+<text class="n" x="990" y="170">cubo</text>
+<g id="cota-diametro-impelidor" class="cota"><line class="d" x1="740" y1="130" x2="740" y2="270" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="726" y="320">Ø impelidor</text></g>
+<g id="cota-espessura-impelidor" class="cota"><line class="d" x1="700" y1="330" x2="780" y2="268" marker-end="url(#a)"/><text class="" x="700" y="345">parede do impelidor (balanceamento)</text></g>
+<g id="cota-diametro-eixo" class="cota"><line class="d" x1="940" y1="280" x2="940" y2="203" marker-end="url(#a)"/><text class="" x="910" y="295">Ø do eixo</text></g>
+<g id="cota-cubo-conico" class="cota"><line class="d" x1="1080" y1="260" x2="1040" y2="215" marker-end="url(#a)"/><text class="" x="980" y="275">cubo cônico (conicidade)</text></g>
+<g id="cota-dreno-selo" class="cota"><line class="d" x1="870" y1="140" x2="870" y2="178" marker-end="url(#a)"/><text class="" x="830" y="134">dreno da sobreposta</text></g>
+<g id="cota-vedacao-mancal" class="cota"><line class="d" x1="960" y1="140" x2="930" y2="170" marker-end="url(#a)"/><text class="" x="930" y="120">vedação da caixa de mancais</text></g>
+<text class="b" x="20" y="430">(c) NPSH disponível na sucção</text>
+<rect class="sl" x="40" y="460" width="160" height="200"/><rect class="b2" x="40" y="520" width="160" height="140"/><path class="g" d="M200,640 L360,640"/><circle class="sl" cx="390" cy="640" r="30"/>
+<line class="c" x1="30" y1="640" x2="440" y2="640"/>
+<g id="cota-npsh" class="cota"><line class="e" x1="200" y1="520" x2="274" y2="520"/><line class="e" x1="200" y1="640" x2="274" y2="640"/><line class="d" x1="270" y1="520" x2="270" y2="640" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="276" y="590">nível do líquido–eixo</text></g>
+<text class="n" x="60" y="505">vaso de sucção</text>
+<text class="b" x="560" y="430">(d) Bomba em balanço (limites de aplicação)</text>
+<circle class="sl" cx="700" cy="560" r="80"/><path class="wd" d="M690,500 L710,500 L720,560 L710,620 L690,620 L680,560 z"/><line class="g" x1="710" y1="560" x2="900" y2="560"/>
+<g id="cota-impelidor-balanco" class="cota"><line class="d" x1="800" y1="500" x2="800" y2="620" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="806" y="600">Ø do impelidor</text></g>
+<text class="n" x="20" y="688">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

@@ -1,0 +1,207 @@
+{
+ "id": "PETROBRAS-N-2683",
+ "titulo": "Petrobras N-2683 Rev. B (12/2010) — Estruturas oceânicas — olhal de içamento: dimensionamento",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1; 3; 4.1 a 4.5",
+   "texto": "Procedimento para dimensionar olhais de chapa de aço usados para içar e sustentar estruturas e equipamentos; são requisitos mínimos, sem dispensar outras verificações. O olhal é orientado para minimizar cargas fora do plano da chapa e da manilha. Manilha recomendada pela NBR 13545, com carga de trabalho ≥ força na linga e encaixe sem interferência, com espaço para o cabo. Anéis de reforço, quando usados, vão aos pares (um em cada face), soldados à chapa principal, com espessura não maior que a dela e furo usinado após a soldagem; chapas perpendiculares resistem a momentos no plano e fora dele. Material igual ou equivalente ao da estrutura içada; carga transmitida de preferência por cisalhamento, com material de propriedade na espessura (TTT) se houver tração na espessura.",
+   "valores": [
+    {
+     "parametro": "Folga recomendada entre a altura interna da manilha e a chapa (passagem do cabo)",
+     "valor": "6 mm",
+     "item": "4.2.3.1",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#folga-cabo"
+    },
+    {
+     "parametro": "Folga máxima entre a espessura do olhal no furo e a abertura da manilha",
+     "valor": "menor entre 25 % da abertura W e 12 mm",
+     "item": "4.2.3.2",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#folga-abertura"
+    },
+    {
+     "parametro": "Diâmetro interno do anel de reforço",
+     "valor": "igual ao diâmetro do furo",
+     "item": "4.3.2",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#d-anel"
+    },
+    {
+     "parametro": "Filete mínimo do anel — chapa mais grossa até 6,4 mm",
+     "valor": "3 mm",
+     "item": "Tabela 1",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#filete"
+    },
+    {
+     "parametro": "Idem — acima de 6,4 até 12,5 mm",
+     "valor": "5 mm",
+     "item": "Tabela 1",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#filete"
+    },
+    {
+     "parametro": "Idem — acima de 12,5 até 19,0 mm",
+     "valor": "6 mm",
+     "item": "Tabela 1",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#filete"
+    },
+    {
+     "parametro": "Idem — acima de 19,0 mm",
+     "valor": "8 mm",
+     "item": "Tabela 1",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#filete"
+    },
+    {
+     "parametro": "Soldagem preferencial de penetração total",
+     "valor": "chapa principal com espessura ≥ 12,7 mm (1/2″)",
+     "item": "4.5 Nota",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#t-olhal"
+    }
+   ],
+   "figuras": [
+    "esquemas/olhal-icamento-anel-reforco.svg"
+   ]
+  },
+  {
+   "titulo": "Força de projeto",
+   "item": "5.1; 5.2",
+   "texto": "Só as áreas efetivas da Figura 3 contam no cálculo, qualquer que seja o formato da base. A força na linga sai da ISO 19901-6 ou das regras do vistoriador marinho: a reação teórica no olhal é multiplicada pelos fatores de desvio de carga, contingência de peso, incerteza do centro de gravidade e amplificação dinâmica, e a força no pino ainda leva um fator de consequência.",
+   "valores": [
+    {
+     "parametro": "Fator de consequência na força do pino",
+     "valor": "Fpino = 1,30 × Flinga",
+     "item": "5.2 a), d)"
+    },
+    {
+     "parametro": "Flinga",
+     "valor": "fdc × fcp × fcg × FAD × reação teórica no olhal",
+     "item": "5.2 d)"
+    }
+   ]
+  },
+  {
+   "titulo": "Geometria do olhal",
+   "item": "5.3",
+   "texto": "Furo com folga pequena em relação ao pino; espessura total (chapa + anéis) pela pressão de contato, e menor que a abertura da manilha (senão trocar o aço ou a manilha); anel com diâmetro externo limitado para caber o filete.",
+   "valores": [
+    {
+     "parametro": "Folga furo–pino",
+     "valor": "1 mm para pino ≤ 33 mm; ≤ menor entre 0,03 × dpino e 6 mm para pino > 33 mm",
+     "item": "5.3.1",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#folga-furo",
+     "nota": "folgas maiores que 3 % do pino só com verificação das tensões de Hertz"
+    },
+    {
+     "parametro": "Diâmetro do furo",
+     "valor": "dfuro = dpino + folga",
+     "item": "5.3.1",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#d-furo"
+    },
+    {
+     "parametro": "Espessura total mínima",
+     "valor": "T = Fpino / (0,9 × Fy × dpino); T < abertura da manilha",
+     "item": "5.3.2",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#T"
+    },
+    {
+     "parametro": "Diâmetro externo do anel",
+     "valor": "danel ≤ 2 × (R − n × tanel), com n entre 1 e 1,5",
+     "item": "5.3.3",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#d-anel"
+    }
+   ],
+   "figuras": [
+    "esquemas/olhal-icamento-anel-reforco.svg"
+   ]
+  },
+  {
+   "titulo": "Verificações de tensão",
+   "item": "5.4",
+   "texto": "Contato pino–furo, cisalhamento na área efetiva à frente do furo, tração na área líquida no furo e logo abaixo do anel, arrancamento do conjunto anel + chapa pela seção crítica (ângulos γ1 e γ2), garganta e lado do filete do anel. Larguras efetivas b1, b2 e b3 limitadas por espessura, furo e distância à borda.",
+   "valores": [
+    {
+     "parametro": "Contato pino–olhal",
+     "valor": "fp ≤ 0,90 Fy",
+     "item": "5.4.1"
+    },
+    {
+     "parametro": "Cisalhamento na área efetiva",
+     "valor": "fv ≤ 0,40 Fy",
+     "item": "5.4.2"
+    },
+    {
+     "parametro": "Tração na área líquida no furo",
+     "valor": "fa ≤ 0,45 Fy",
+     "item": "5.4.3"
+    },
+    {
+     "parametro": "Escoamento da seção bruta abaixo do anel",
+     "valor": "fa ≤ 0,60 Fy",
+     "item": "5.4.4"
+    },
+    {
+     "parametro": "Tensão admissível do filete",
+     "valor": "menor entre 0,30 Fwu do eletrodo e 0,40 × Fy × √2",
+     "item": "5.4.6"
+    },
+    {
+     "parametro": "Fwu do eletrodo",
+     "valor": "415 MPa (E60xx); 485 MPa (E70xx)",
+     "item": "5.4.8"
+    },
+    {
+     "parametro": "Largura efetiva b1",
+     "valor": "menor entre 4T, 0,8 × dfuro e a distância real da borda do furo à borda do olhal",
+     "item": "5.4.8",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#b1"
+    },
+    {
+     "parametro": "Largura b3 com anel",
+     "valor": "menor entre 2R e 2b1 + dfuro + danel",
+     "item": "5.4.8",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#R"
+    },
+    {
+     "parametro": "Carga fora do plano na verificação da ligação",
+     "valor": "5 % de Fpino, horizontal e perpendicular ao plano, no centro do furo",
+     "item": "5.4.9",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#fora-plano"
+    }
+   ],
+   "figuras": [
+    "esquemas/olhal-icamento-anel-reforco.svg"
+   ]
+  },
+  {
+   "titulo": "Exemplo resolvido",
+   "item": "Anexo A",
+   "texto": "Equipamento de 40 t içado por 4 cabos no mar: com os fatores de desvio, contingência, CG e consequência obtém-se a força no pino; olhal de aço com Fy = 250 MPa, raio 125 mm, anel de raio 100 mm, pino de 63 mm, chapa de 16 mm e anéis de 8 mm, base de 400 mm; todas as verificações de contato, cisalhamento, tração, arrancamento, solda e base pelo AISC atendem.",
+   "valores": [
+    {
+     "parametro": "Exemplo — força no pino",
+     "valor": "≈ 276 400 N (28,2 t)",
+     "item": "A.2.2"
+    },
+    {
+     "parametro": "Exemplo — furo e espessuras",
+     "valor": "pino 63 mm, folga 2 mm, furo 65 mm; chapa 16 mm + 2 anéis de 8 mm (T = 32 mm)",
+     "item": "A.2.7 a A.2.14",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#d-furo"
+    },
+    {
+     "parametro": "Exemplo — filete adotado",
+     "valor": "6 mm (mínimo para chapa de 16 mm)",
+     "item": "A.3.9",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#filete"
+    },
+    {
+     "parametro": "Exemplo — base de apoio",
+     "valor": "400 mm × 16 mm",
+     "item": "A.2.10; A.3.10",
+     "cota": "esquemas/olhal-icamento-anel-reforco.svg#base"
+    }
+   ],
+   "figuras": [
+    "esquemas/olhal-icamento-anel-reforco.svg"
+   ]
+  }
+ ]
+}

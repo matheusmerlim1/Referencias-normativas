@@ -1,0 +1,126 @@
+{
+ "id": "PETROBRAS-N-2626",
+ "titulo": "Petrobras N-2626 Rev. D (06/2019) — Compressores axiais e centrífugos e compressores-expansores",
+ "secoes": [
+  {
+   "titulo": "Escopo e forma da norma",
+   "item": "1; 3; 4.2",
+   "texto": "Requisitos mínimos Petrobras (em inglês no original) sobre a API 617, 8ª edição (2014), para compressores axiais, centrífugos e compressores-expansores com seus sistemas auxiliares. Cada item é adição, modificação, substituição, novo, exclusão ou comentário a um parágrafo da API. Precedência: folhas de dados > especificações suplementares > esta norma > API 617. Define unidade responsável pelo trem e serviço perigoso.",
+   "figuras": [
+    "esquemas/compressor-centrifugo.svg"
+   ]
+  },
+  {
+   "titulo": "Projeto geral",
+   "item": "4.3.2 a 4.3.4",
+   "texto": "Vida útil e campanha longas; peças semelhantes marcadas de forma indelével; equipamento novo, sem recondicionados nem protótipos; ruído limitado; injeção de líquido completa quando especificada; o-rings compatíveis com a despressurização. Niples das conexões auxiliares curtos e de parede grossa; roscas só para ar, gás inerte ou água; flanges cegos para o teste hidrostático das conexões fora de padrão.",
+   "valores": [
+    {
+     "parametro": "Vida útil / campanha contínua mínima",
+     "valor": "20 anos / 5 anos sem interrupção",
+     "item": "4.3.2.1.1"
+    },
+    {
+     "parametro": "Nível de pressão sonora do trem",
+     "valor": "≤ 85 dBA, resposta lenta, a 1 m das superfícies",
+     "item": "4.3.2.1.4",
+     "cota": "esquemas/compressor-centrifugo.svg#distancia-ruido"
+    },
+    {
+     "parametro": "Experiência exigida",
+     "valor": "≥ 25 000 h contínuas em ≥ 15 máquinas do mesmo modelo e 10 do mesmo tamanho",
+     "item": "4.3.2.1.6"
+    },
+    {
+     "parametro": "Niples soldados ou roscados na carcaça",
+     "valor": "de preferência ≤ 150 mm de comprimento; ≥ Schedule 160 sem costura até DN 40",
+     "item": "4.3.4.2.3.1",
+     "cota": "esquemas/compressor-centrifugo.svg#niple"
+    }
+   ],
+   "figuras": [
+    "esquemas/compressor-centrifugo.svg"
+   ]
+  },
+  {
+   "titulo": "Dinâmica de rotores",
+   "item": "4.3.5",
+   "texto": "Análises lateral (com efeito de pastilhas, selos amortecedores), de estabilidade e torcional, auditáveis; teste de resposta ao desbalanceamento (URT) no teste mecânico; balanceamento em velocidade de operação de rotores flexíveis. Critérios de estabilidade por decremento logarítmico.",
+   "valores": [
+    {
+     "parametro": "Massa de desbalanceamento insuficiente no URT",
+     "valor": "variação de vibração na crítica ≤ 2,5 μm (0,1 mil) → aumentar a massa",
+     "item": "4.3.5.3.1.4",
+     "cota": "esquemas/compressor-centrifugo.svg#sonda"
+    },
+    {
+     "parametro": "Decremento logarítmico final (nível II)",
+     "valor": "> 0,2",
+     "item": "4.3.5.5.2"
+    },
+    {
+     "parametro": "Separação de frequências torcionais",
+     "valor": "de preferência ≥ 10 % acima ou abaixo de qualquer excitação na faixa de operação",
+     "item": "4.3.5.6.2"
+    },
+    {
+     "parametro": "Efeito do conjunto de acionamento no balanceamento em alta velocidade",
+     "valor": "< 25 % da tolerância de balanceamento",
+     "item": "4.3.5.7.3"
+    },
+    {
+     "parametro": "Runout elétrico/mecânico admitido no balanceamento",
+     "valor": "o maior entre a equação (13) e 6,35 μm (0,25 mil)",
+     "item": "4.3.5.7.4",
+     "cota": "esquemas/compressor-centrifugo.svg#runout"
+    },
+    {
+     "parametro": "Vibração acima da velocidade máxima contínua até o trip",
+     "valor": "≤ 12,7 μm (0,5 mil) acima do valor na velocidade máxima contínua",
+     "item": "4.3.5.7.5",
+     "cota": "esquemas/compressor-centrifugo.svg#sonda"
+    }
+   ],
+   "figuras": [
+    "esquemas/compressor-centrifugo.svg"
+   ]
+  },
+  {
+   "titulo": "Acessórios, testes e preparação",
+   "item": "4.4; 4.5",
+   "texto": "Graute definido pelo fornecedor; piso antiderrapante na base; controles externos com grau IP mínimo; sistema anti-surge fornecido. Testes testemunhados, com monitoração contínua de vibração, fase, espectros e órbitas; procedimento do teste mecânico (MRT) entregue com antecedência; gráficos polares e de Bode na aceleração e desaceleração; teste de estabilidade em fábrica (FST) com excitador (martelo, excitador de mancal ou mancal magnético). Preparação para armazenagem externa sem desmontagem.",
+   "valores": [
+    {
+     "parametro": "Procedimento do MRT",
+     "valor": "≥ 12 semanas antes do primeiro teste",
+     "item": "4.5.2.2.3"
+    },
+    {
+     "parametro": "Faixa dos gráficos de vibração",
+     "valor": "de 400 rpm ao trip e de volta a 400 rpm",
+     "item": "4.5.2.2.5"
+    },
+    {
+     "parametro": "Temperatura máxima do metal do mancal no MRT",
+     "valor": "100 °C na velocidade máxima contínua",
+     "item": "4.5.2.2.9"
+    },
+    {
+     "parametro": "Passo de frequência na varredura senoidal do FST",
+     "valor": "≤ 0,25 Hz",
+     "item": "4.5.2.4.3.5"
+    },
+    {
+     "parametro": "Armazenagem externa após o embarque",
+     "valor": "12 meses, sem desmontagem antes de operar",
+     "item": "4.5.3.1"
+    },
+    {
+     "parametro": "Grau de proteção de controles externos (terra)",
+     "valor": "IP 65",
+     "item": "4.4.3.1.1"
+    }
+   ]
+  }
+ ]
+}

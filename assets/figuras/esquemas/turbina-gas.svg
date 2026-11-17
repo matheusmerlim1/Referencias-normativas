@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 600" width="1150" height="600" role="img" aria-label="Turbina a gás — casa de filtros de ar (estágios), turbina, sondas e acionado">
+<title>Turbina a gás — casa de filtros de ar (estágios), turbina, sondas e acionado (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .cc{fill:#bbb;fill-opacity:.5;stroke:#777;stroke-width:1.4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .hc{fill:url(#hach);stroke:#666;stroke-width:1.2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Turbina a gás — casa de filtros de ar (estágios), turbina, sondas e acionado</text>
+<text class="b" x="20" y="58">(a) Casa de filtros da tomada de ar</text>
+<rect class="sl" x="40" y="110" width="520" height="200"/><rect class="w" x="20" y="110" width="20" height="200"/>
+<rect class="y" x="90" y="120" width="20" height="180"/>
+<text class="n" x="80" y="330">1º inercial</text>
+<rect class="y" x="190" y="120" width="20" height="180"/>
+<text class="n" x="180" y="330">2º F5</text>
+<rect class="y" x="290" y="120" width="20" height="180"/>
+<text class="n" x="280" y="330">3º inercial</text>
+<rect class="y" x="390" y="120" width="20" height="180"/>
+<text class="n" x="380" y="330">4º F9</text>
+<rect class="w" x="140" y="260" width="30" height="40"/><rect class="w" x="340" y="260" width="30" height="40"/><path class="g" d="M560,170 L640,190 L640,240 L560,260"/>
+<text class="n" x="20" y="100">tela de detritos + proteção de chuva (estágio zero)</text>
+<text class="n" x="460" y="100">silenciador e duto</text>
+<g id="cota-tela-entrada" class="cota"><line class="d" x1="90" y1="380" x2="30" y2="300" marker-end="url(#a)"/><text class="" x="20" y="398">malha da tela de entrada</text></g>
+<g id="cota-distancia-estagios" class="cota"><line class="e" x1="110" y1="300" x2="110" y2="364"/><line class="e" x1="190" y1="300" x2="190" y2="364"/><line class="d" x1="110" y1="360" x2="190" y2="360" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="150.0" y="355">1º–2º estágio</text></g>
+<g id="cota-portas-inspecao" class="cota"><line class="d" x1="300" y1="420" x2="355" y2="300" marker-end="url(#a)"/><text class="" x="260" y="440">portas de inspeção</text></g>
+<text class="b" x="660" y="58">(b) Turbina e acionado</text>
+<path class="sl" d="M680,170 L780,150 L780,290 L680,270 z"/><rect class="sl" x="780" y="160" width="60" height="120"/><path class="sl" d="M840,150 L940,130 L940,310 L840,290 z"/><line class="c" x1="660" y1="220" x2="1120" y2="220"/><rect class="sl" x="990" y="170" width="130" height="100" rx="8"/><line class="g" x1="940" y1="220" x2="990" y2="220"/>
+<text class="n" x="690" y="145">compressor</text>
+<text class="n" x="785" y="150">combustão</text>
+<text class="n" x="860" y="125">turbina</text>
+<text class="n" x="1000" y="165">acionado</text>
+<rect class="w" x="955" y="186" width="10" height="26"/>
+<g id="cota-sonda" class="cota"><line class="d" x1="900" y1="404" x2="960" y2="212" marker-end="url(#a)"/><text class="" x="900" y="400">sonda de vibração no eixo</text></g>
+<g id="cota-distancia-ruido" class="cota"><line class="e" x1="1120" y1="270" x2="1120" y2="324"/><line class="e" x1="1145" y1="270" x2="1145" y2="324"/><line class="d" x1="1120" y1="320" x2="1145" y2="320" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="1132" y="340">ruído</text></g>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

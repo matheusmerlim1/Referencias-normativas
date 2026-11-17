@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 790" width="1100" height="790" role="img" aria-label="Vaso de pressão — tolerâncias de fabricação e montagem">
+<title>Vaso de pressão — tolerâncias de fabricação e montagem (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .cc{fill:#bbb;fill-opacity:.5;stroke:#777;stroke-width:1.4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .hc{fill:url(#hach);stroke:#666;stroke-width:1.2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Vaso de pressão — tolerâncias de fabricação e montagem</text>
+<text class="b" x="20" y="55">(a) Torre: tangentes, bandejas e bocais</text>
+<rect class="sl" x="150" y="150" width="100" height="370"/><path class="g" d="M150,150 A50,30 0 0,1 250,150"/><path class="g" d="M150,520 A50,30 0 0,0 250,520"/>
+<line class="c" x1="120" y1="150" x2="270" y2="150"/><line class="c" x1="120" y1="520" x2="270" y2="520"/>
+<text class="n" x="262" y="145">LT</text>
+<text class="n" x="262" y="516">LT</text>
+<line class="g" x1="160" y1="540" x2="160" y2="640"/><line class="g" x1="240" y1="540" x2="240" y2="640"/><rect class="w" x="150" y="632" width="100" height="8"/><rect class="cc" x="130" y="640" width="140" height="20"/>
+<rect class="s" x="150" y="230" width="10" height="5"/><rect class="s" x="240" y="230" width="10" height="5"/><line class="g" x1="160" y1="230" x2="240" y2="230"/><line class="g" x1="225" y1="218" x2="225" y2="230"/>
+<rect class="s" x="150" y="330" width="10" height="5"/><rect class="s" x="240" y="330" width="10" height="5"/><line class="g" x1="160" y1="330" x2="240" y2="330"/><line class="g" x1="225" y1="318" x2="225" y2="330"/>
+<rect class="s" x="150" y="430" width="10" height="5"/><rect class="s" x="240" y="430" width="10" height="5"/><line class="g" x1="160" y1="430" x2="240" y2="430"/><line class="g" x1="225" y1="418" x2="225" y2="430"/>
+<line class="g" x1="165" y1="385" x2="205" y2="385"/>
+<line class="h" x1="200" y1="640" x2="200" y2="70"/><line class="v" x1="200" y1="640" x2="214" y2="80"/>
+<rect class="w" x="174" y="92" width="12" height="35"/><rect class="s" x="168" y="86" width="24" height="6"/>
+<rect class="w" x="250" y="273" width="30" height="14"/><rect class="s" x="280" y="266" width="6" height="28"/>
+<rect class="w" x="250" y="455" width="35" height="30"/><rect class="s" x="285" y="447" width="8" height="46"/>
+<rect class="w" x="250" y="345" width="15" height="10"/><rect class="w" x="250" y="405" width="15" height="10"/>
+<g id="cota-verticalidade" class="cota"><line class="d" x1="200" y1="70" x2="214" y2="70" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="194" y="74">prumo</text></g>
+<g id="cota-bandeja-nivel" class="cota"><line class="d" x1="60" y1="240" x2="175" y2="231" marker-end="url(#a)"/><text class="" x="20" y="236">desnível da bandeja</text></g>
+<g id="cota-distancia-aneis" class="cota"><line class="e" x1="150" y1="230" x2="136" y2="230"/><line class="e" x1="150" y1="330" x2="136" y2="330"/><line class="d" x1="140" y1="230" x2="140" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="134" y="285.0">entre anéis</text></g>
+<g id="cota-anel-suporte" class="cota"><line class="d" x1="60" y1="345" x2="154" y2="333" marker-end="url(#a)"/><text class="" x="20" y="352">desnível do anel</text></g>
+<g id="cota-chicana" class="cota"><line class="d" x1="60" y1="380" x2="175" y2="385" marker-end="url(#a)"/><text class="" x="20" y="386">chapa defletora</text></g>
+<g id="cota-vertedor" class="cota"><line class="d" x1="60" y1="415" x2="224" y2="423" marker-end="url(#a)"/><text class="" x="20" y="420">altura do vertedor</text></g>
+<g id="cota-elevacao-anel" class="cota"><line class="e" x1="150" y1="430" x2="136" y2="430"/><line class="e" x1="150" y1="520" x2="136" y2="520"/><line class="d" x1="140" y1="430" x2="140" y2="520" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="134" y="490">anel–LT</text></g>
+<g id="cota-projecao-bocal" class="cota"><line class="e" x1="250" y1="294" x2="250" y2="309"/><line class="e" x1="286" y1="294" x2="286" y2="309"/><line class="d" x1="250" y1="305" x2="286" y2="305" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="250" y="322">projeção do bocal</text></g>
+<g id="cota-perpendicularidade-flange" class="cota"><path class="d" d="M306.6,291.0 A26,26 0 0,0 306.6,269.0" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="300" y="343">esquadro da face</text></g>
+<g id="cota-locacao-bocal" class="cota"><line class="e" x1="290" y1="150" x2="334" y2="150"/><line class="e" x1="290" y1="280" x2="334" y2="280"/><line class="d" x1="330" y1="150" x2="330" y2="280" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="336" y="215">eixo do bocal–LT</text></g>
+<g id="cota-bocais-nivel" class="cota"><line class="d" x1="275" y1="350" x2="275" y2="410" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="281" y="385">bocais de nível</text></g>
+<g id="cota-projecao-bv" class="cota"><line class="e" x1="250" y1="447" x2="250" y2="434"/><line class="e" x1="293" y1="447" x2="293" y2="434"/><line class="d" x1="250" y1="438" x2="293" y2="438" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="252" y="432">projeção da BV</text></g>
+<g id="cota-locacao-bv" class="cota"><line class="e" x1="293" y1="470" x2="384" y2="470"/><line class="e" x1="293" y1="520" x2="384" y2="520"/><line class="d" x1="380" y1="470" x2="380" y2="520" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="386" y="500">eixo BV–LT</text></g>
+<g id="cota-tangentes" class="cota"><line class="e" x1="262" y1="150" x2="454" y2="150"/><line class="e" x1="262" y1="520" x2="454" y2="520"/><line class="d" x1="450" y1="150" x2="450" y2="520" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="456" y="340">LT–LT</text></g>
+<g id="cota-face-flange-tangente" class="cota"><line class="e" x1="192" y1="86" x2="494" y2="86"/><line class="e" x1="192" y1="150" x2="494" y2="150"/><line class="d" x1="490" y1="86" x2="490" y2="150" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="496" y="122">face–LT</text></g>
+<g id="cota-saia-tangente" class="cota"><line class="e" x1="250" y1="520" x2="334" y2="520"/><line class="e" x1="250" y1="540" x2="334" y2="540"/><line class="d" x1="330" y1="520" x2="330" y2="540" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="336" y="537">saia–LT</text></g>
+<g id="cota-folga-saia" class="cota"><line class="d" x1="300" y1="585" x2="242" y2="545" marker-end="url(#a)"/><text class="" x="300" y="600">folga casco–saia</text></g>
+<g id="cota-anel-chumbadores" class="cota"><line class="e" x1="250" y1="624" x2="304" y2="624"/><line class="e" x1="250" y1="640" x2="304" y2="640"/><line class="d" x1="300" y1="624" x2="300" y2="640" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="306" y="640">altura do anel</text></g>
+<text class="b" x="560" y="55">(b) Seção, bordas e juntas</text>
+<ellipse class="sl" cx="670" cy="190" rx="95" ry="80"/>
+<g id="cota-ovalizacao" class="cota"><line class="d" x1="575" y1="190" x2="765" y2="190" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="670.0" y="185">Dmáx − Dmín</text></g>
+<g id="cota-perimetro" class="cota"><path class="d" d="M756.0,129.8 A105,105 0 0,0 584.0,129.8" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="670" y="80">perímetro da borda</text></g>
+<path class="sl" d="M840,125 Q900,118 960,125 T1060,124 L1060,205 L840,205 z"/><line class="v" x1="840" y1="165" x2="1060" y2="165"/><line class="v" x1="900" y1="125" x2="900" y2="165"/><line class="v" x1="980" y1="165" x2="980" y2="205"/>
+<g id="cota-nivelamento-borda" class="cota"><line class="d" x1="1000" y1="95" x2="1000" y2="120" marker-end="url(#a)"/><text class="" x="880" y="92">nivelamento da borda</text></g>
+<g id="cota-defasagem-longitudinal" class="cota"><line class="d" x1="900" y1="222" x2="980" y2="222" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="950" y="240">defasagem das juntas longitudinais</text></g>
+<rect class="s" x="840" y="275" width="95" height="14"/><rect class="s" x="945" y="275" width="95" height="14"/>
+<g id="cota-abertura-junta" class="cota"><line class="d" x1="935" y1="268" x2="945" y2="268" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="940.0" y="262">abertura da junta</text></g>
+<g id="cota-chanfro" class="cota"><line class="d" x1="1000" y1="320" x2="946" y2="284" marker-end="url(#a)"/><text class="" x="880" y="336">chanfro (espessura e defeitos)</text></g>
+<path class="g" d="M590,330 Q680,292 770,330"/><line class="d" x1="590" y1="336" x2="770" y2="336"/>
+<text class="n" x="780" y="340">gabarito</text>
+<g id="cota-embicamento" class="cota"><line class="d" x1="680" y1="311" x2="680" y2="336" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="600" y="300">embicamento</text></g>
+<text class="b" x="560" y="390">(c) Base, montagem e soldagem</text>
+<circle class="g" cx="650" cy="480" r="55"/><circle class="g" cx="650" cy="480" r="38"/>
+<circle class="w" cx="692" cy="498" r="4"/>
+<circle class="w" cx="668" cy="522" r="4"/>
+<circle class="w" cx="632" cy="522" r="4"/>
+<circle class="w" cx="608" cy="498" r="4"/>
+<circle class="w" cx="608" cy="462" r="4"/>
+<circle class="w" cx="632" cy="438" r="4"/>
+<circle class="w" cx="668" cy="438" r="4"/>
+<circle class="w" cx="692" cy="462" r="4"/>
+<rect class="y" x="686" y="423" width="16" height="22" transform="rotate(35 694 434)"/>
+<g id="cota-chumbadores" class="cota"><line class="d" x1="600" y1="420" x2="640" y2="438" marker-end="url(#a)"/><text class="" x="580" y="416">locação dos chumbadores</text></g>
+<g id="cota-calco" class="cota"><line class="d" x1="640" y1="563" x2="697" y2="447" marker-end="url(#a)"/><text class="" x="580" y="577">calço (largura e comprimento)</text></g>
+<rect class="sl" x="820" y="440" width="220" height="60"/><path class="g" d="M820,440 A20,30 0 0,0 820,500"/><path class="g" d="M1040,440 A20,30 0 0,1 1040,500"/><rect class="s" x="930" y="436" width="8" height="68"/>
+<path class="s" d="M850,500 L870,500 L878,545 L842,545 z"/><path class="s" d="M990,500 L1010,500 L1018,545 L982,545 z"/><line class="g" x1="800" y1="545" x2="1080" y2="545"/><line class="c" x1="790" y1="470" x2="1075" y2="470"/>
+<line class="c" x1="830" y1="430" x2="830" y2="575"/>
+<g id="cota-sapatas" class="cota"><line class="e" x1="830" y1="545" x2="830" y2="572"/><line class="e" x1="860" y1="545" x2="860" y2="572"/><line class="d" x1="830" y1="568" x2="860" y2="568" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="845.0" y="585">LT–sela</text></g>
+<g id="cota-folga-anel" class="cota"><line class="d" x1="960" y1="412" x2="937" y2="437" marker-end="url(#a)"/><text class="" x="960" y="406">folga anel–casco</text></g>
+<g id="cota-nivel-horizontal" class="cota"><path class="d" d="M849.7,476.3 A60,60 0 0,0 850.0,470.0" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="760" y="525">nivelamento</text></g>
+<g id="cota-eixo-horizontal" class="cota"><line class="d" x1="1060" y1="462" x2="1060" y2="478" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="1075" y="428">desalinhamento do eixo</text></g>
+<rect class="s" x="570" y="590" width="70" height="7"/><rect class="w" x="575" y="597" width="10" height="20"/><rect class="w" x="625" y="597" width="10" height="20"/><line class="g" x1="560" y1="617" x2="660" y2="617"/>
+<g id="cota-armazenagem" class="cota"><line class="d" x1="650" y1="597" x2="650" y2="617" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="656" y="612">acima do solo</text></g>
+<rect class="sl" x="560" y="650" width="500" height="70"/><line class="v" x1="800" y1="650" x2="800" y2="720"/><rect class="b2" x="780" y="650" width="40" height="70"/><rect class="s" x="600" y="675" width="16" height="20"/><rect class="s" x="690" y="675" width="16" height="20"/><path class="g" d="M870,660 L870,710 M870,685 L900,685"/>
+<g id="cota-dispositivos-rigidos" class="cota"><line class="e" x1="608" y1="695" x2="608" y2="749"/><line class="e" x1="698" y1="695" x2="698" y2="749"/><line class="d" x1="608" y1="745" x2="698" y2="745" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="653.0" y="738">entre dispositivos rígidos</text></g>
+<g id="cota-faixa-end" class="cota"><line class="d" x1="780" y1="640" x2="820" y2="640" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="800.0" y="634">faixa de PM/LP</text></g>
+<circle class="w" cx="800" cy="662" r="3"/><circle class="w" cx="800" cy="708" r="3"/>
+<g id="cota-pontos-dureza" class="cota"><line class="d" x1="835" y1="662" x2="835" y2="708" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="930" y="672">pontos de dureza</text></g>
+<g id="cota-remocao-dureza" class="cota"><line class="d" x1="1000" y1="705" x2="804" y2="708" marker-end="url(#a)"/><text class="" x="900" y="700">preparo da superfície</text></g>
+<g id="cota-dispositivo-aranha" class="cota"><line class="e" x1="800" y1="720" x2="800" y2="749"/><line class="e" x1="870" y1="720" x2="870" y2="749"/><line class="d" x1="800" y1="745" x2="870" y2="745" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="900" y="750">aranha–junta</text></g>
+<text class="n" x="20" y="778">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

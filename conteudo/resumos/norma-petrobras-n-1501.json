@@ -1,0 +1,59 @@
+{
+ "id": "PETROBRAS-N-1501",
+ "titulo": "Petrobras N-1501 Rev. C (12/2014) — Misturador para tanque — folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso",
+   "item": "1; 2",
+   "texto": "Padroniza a folha de dados de misturadores de entrada lateral de tanques de petróleo e de misturadores verticais de tanques de preparo de soluções. Preenchida pelo projetista e anexada à RM, vira documento de compra; complementada pelo fabricante, documento do equipamento.",
+   "figuras": [
+    "esquemas/misturador-tanque.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo da folha de dados",
+   "item": "Anexo A, folhas 1 a 3",
+   "texto": "Identificação (aplicação: proposta, compra ou como construído; serviço; fabricante e modelo). Condições de operação: produto, temperatura, massa específica, viscosidade, pressão, serviço contínuo ou intermitente, operação no enchimento e na descarga, finalidade e tempo de mistura, vazão, reposições por hora, tamanho máximo de sólidos e velocidade de decantação; dados da mistura por componente. Dados do tanque: diâmetro, altura, capacidade, fundo e teto, bocal e flange de montagem, local (costado, teto ou fundo) e altura do eixo do bocal. Construção: posição (horizontal lateral, topo, fundo), tipo e número de impelidores e pás (Rushton, Smith, hélice naval, PBT, hydrofoil), diâmetro e passo do impelidor, rotação, potência, eixo (diâmetro e comprimento), selo ou gaxetas, mancais, lubrificação, redutor (fator de serviço AGMA), ajuste de ângulo, acoplamentos com proteção anticentelhante. Motor: potência, rotação, carcaça, tensão, isolamento, partida, área classificada e clima. Inspeção, testes (funcionamento mecânico, balanceamento dinâmico do impelidor) e embarque.",
+   "valores": [
+    {
+     "parametro": "Dimensões do impelidor",
+     "valor": "diâmetro (mm) e passo",
+     "item": "Folha 02",
+     "cota": "esquemas/misturador-tanque.svg#diametro-impelidor",
+     "nota": "campos do formulário; a norma não fixa valores"
+    },
+    {
+     "parametro": "Eixo",
+     "valor": "diâmetro (mm) e comprimento (m)",
+     "item": "Folha 02",
+     "cota": "esquemas/misturador-tanque.svg#comprimento-eixo",
+     "nota": "campos do formulário"
+    },
+    {
+     "parametro": "Montagem no tanque",
+     "valor": "dimensões do bocal e do flange (mm); altura da linha de centro do bocal (m)",
+     "item": "Folha 02",
+     "cota": "esquemas/misturador-tanque.svg#altura-bocal",
+     "nota": "campos do formulário"
+    },
+    {
+     "parametro": "Dados do tanque",
+     "valor": "diâmetro (mm) e altura (m)",
+     "item": "Folha 02",
+     "cota": "esquemas/misturador-tanque.svg#diametro-tanque",
+     "nota": "campos do formulário"
+    },
+    {
+     "parametro": "Ajuste de ângulo do misturador lateral",
+     "valor": "sim / não",
+     "item": "Folha 02",
+     "cota": "esquemas/misturador-tanque.svg#angulo-ajuste",
+     "nota": "campo do formulário"
+    }
+   ],
+   "figuras": [
+    "esquemas/misturador-tanque.svg"
+   ]
+  }
+ ]
+}

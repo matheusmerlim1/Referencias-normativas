@@ -1,0 +1,87 @@
+{
+ "id": "PETROBRAS-N-2922",
+ "titulo": "Petrobras N-2922 (11/2014) — Turbina a gás",
+ "secoes": [
+  {
+   "titulo": "Escopo e garantias",
+   "item": "1; 4.1 a 4.4",
+   "texto": "Requisitos mínimos sobre a API 616 (5ª edição, 2011) para turbinas a gás em refinarias, geração, produção de óleo e gás e estações de compressão e bombeamento. Os pontos de operação vêm da folha de dados; sem condição nominal definida, a contratada usa o caso mais severo de temperatura e pressão locais. Potência garantida sem tolerância negativa.",
+   "valores": [
+    {
+     "parametro": "Tolerância no heat rate (PCI) garantido",
+     "valor": "3 %",
+     "item": "4.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/turbina-gas.svg"
+   ]
+  },
+  {
+   "titulo": "Vibração",
+   "item": "4.10 a 4.13",
+   "texto": "Limites de vibração acima da velocidade contínua máxima, vibração não síncrona e limites para operação transiente (partida e parada) medidos no eixo, caixa de mancal e carcaça.",
+   "valores": [
+    {
+     "parametro": "Aumento de vibração relativa acima da velocidade máxima contínua",
+     "valor": "≤ 12,7 μm (0,5 mil)",
+     "item": "4.10",
+     "cota": "esquemas/turbina-gas.svg#sonda"
+    },
+    {
+     "parametro": "Vibração filtrada não síncrona",
+     "valor": "≤ 20 % da síncrona, em qualquer velocidade",
+     "item": "4.11"
+    }
+   ],
+   "figuras": [
+    "esquemas/turbina-gas.svg"
+   ]
+  },
+  {
+   "titulo": "Materiais e sistema de ar de entrada",
+   "item": "4.15 a 4.38",
+   "texto": "Em ambiente salino, fixadores de aço-carbono não pintados com zinco-níquel (ASTM B841, com alívio de hidrogênio). Entrada de ar com filtros, silenciador e dutos; toda a casa de filtros em inox 316L sem pintura, soldas contínuas e isolamento galvânico; drenagem da água captada; sem porta de implosão. Filtragem de baixa velocidade em quatro estágios após a proteção de chuva com tela (estágio zero): separador inercial de aletas horizontais, pré-filtro coalescente tipo bolsa F5, separador inercial de aletas verticais e filtro de alta eficiência F9 tipo V-cell; portas de inspeção em inox entre estágios.",
+   "valores": [
+    {
+     "parametro": "Tela na tomada de ar",
+     "valor": "inox, malha grossa reforçada de 6,4 mm a 12,7 mm (1/4″ a 1/2″)",
+     "item": "4.25",
+     "cota": "esquemas/turbina-gas.svg#tela-entrada"
+    },
+    {
+     "parametro": "Distância entre o 1º estágio (inercial) e o 2º (pré-filtro F5)",
+     "valor": "≥ 700 mm",
+     "item": "4.37",
+     "cota": "esquemas/turbina-gas.svg#distancia-estagios"
+    },
+    {
+     "parametro": "Portas de inspeção",
+     "valor": "2: entre o 1º e o 2º e entre o 3º e o 4º estágio",
+     "item": "4.38",
+     "cota": "esquemas/turbina-gas.svg#portas-inspecao"
+    }
+   ],
+   "figuras": [
+    "esquemas/turbina-gas.svg"
+   ]
+  },
+  {
+   "titulo": "Testes",
+   "item": "4.45 a 4.56",
+   "texto": "Acesso do representante aos procedimentos; óleo dentro das faixas recomendadas; gráficos de vibração síncrona antes e depois da corrida de 4 h; string test com potência e heat rate no ponto garantido; sobrevelocidade do rotor; preparação para armazenagem.",
+   "valores": [
+    {
+     "parametro": "Corrida contínua do teste mecânico",
+     "valor": "4 h",
+     "item": "4.51"
+    },
+    {
+     "parametro": "Sobrevelocidade do rotor",
+     "valor": "120 % da rotação nominal por 2 min",
+     "item": "4.54"
+    }
+   ]
+  }
+ ]
+}

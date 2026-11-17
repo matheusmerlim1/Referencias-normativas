@@ -1,0 +1,34 @@
+{
+ "id": "PETROBRAS-N-2648",
+ "titulo": "Petrobras N-2648 Rev. C (04/2014) — Turbinas a vapor de uso geral",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Requisitos Petrobras sobre a API 611 para turbinas a vapor de uso geral e seus auxiliares, no mesmo formato de adições, substituições e exclusões. Revalidada em 04/2020.",
+   "valores": [
+    {
+     "parametro": "Contato dos mancais (azul da Prússia)",
+     "valor": "≥ 70 % da área",
+     "item": "7.1",
+     "cota": "esquemas/turbina-vapor.svg#contato-mancal",
+     "nota": "conferir: o texto extraído está fragmentado (diagramação em colunas); valor lido de trecho parcial"
+    },
+    {
+     "parametro": "Teste de funcionamento",
+     "valor": "corrida de 4 h, variando a lubrificação",
+     "item": "7.6",
+     "nota": "conferir: texto extraído fragmentado; confirmar no original"
+    }
+   ],
+   "figuras": [
+    "esquemas/turbina-vapor.svg"
+   ]
+  },
+  {
+   "titulo": "Observação sobre o conteúdo",
+   "item": "—",
+   "texto": "O arquivo desta norma tem o texto embaralhado na extração (colunas cortadas); apenas a base (API 611) e alguns requisitos de mancais e de teste puderam ser lidos. Para detalhes, consultar o documento original."
+  }
+ ]
+}

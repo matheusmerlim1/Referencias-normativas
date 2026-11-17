@@ -1,0 +1,476 @@
+{
+ "id": "PETROBRAS-N-0270",
+ "titulo": "Petrobras N-0270 Rev. G (07/2020) — Projeto de tanque de armazenamento atmosférico",
+ "secoes": [
+  {
+   "titulo": "Escopo e limites de serviço",
+   "item": "1; 7.4",
+   "texto": "Requisitos Petrobras complementares à API 650 para tanques cilíndricos verticais soldados, de teto fixo, flutuante externo ou interno, ou sem teto, em serviço não refrigerado. A pressão no topo é praticamente atmosférica; pressões e vácuos maiores exigem os anexos F e V da API 650. Acima de 93 °C valem os requisitos adicionais do Anexo M.",
+   "valores": [
+    {
+     "parametro": "Temperatura máxima do produto",
+     "valor": "260 °C (acima de 93 °C, API 650 Anexo M)",
+     "item": "1.4; 7.4.1"
+    },
+    {
+     "parametro": "Pressão interna máxima admitida (Anexo F)",
+     "valor": "18,0 kPa (2,5 psi)",
+     "item": "1.5; 7.4.2.1"
+    },
+    {
+     "parametro": "Pressão de projeto limitada ao peso do teto — chapa de 5 mm",
+     "valor": "0,382 kPa (39 mm de coluna de água)",
+     "item": "7.4.2.1"
+    },
+    {
+     "parametro": "Vácuo de projeto usual / máximo (Anexo V)",
+     "valor": "0,25 kPa (25,4 mm c.a.) / 6,9 kPa (1,0 psi)",
+     "item": "7.4.2.2"
+    },
+    {
+     "parametro": "Temperatura máxima do produto em teto flutuante",
+     "valor": "93 °C",
+     "item": "7.5.1.1"
+    },
+    {
+     "parametro": "Temperatura mínima de projeto do metal",
+     "valor": "o menor entre a menor média diária local + 8 °C e a mínima do produto",
+     "item": "7.1.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Recalques da base no teste hidrostático",
+   "item": "5",
+   "texto": "Limites de recalque medidos na periferia (sob o costado) e entre periferia e centro, durante e após o teste hidrostático, controlados por pinos (N-1807).",
+   "valores": [
+    {
+     "parametro": "Recalque absoluto em qualquer ponto da periferia",
+     "valor": "300 mm",
+     "item": "5.1.1 a)",
+     "cota": "esquemas/recalque-pinos-tanque.svg#leitura"
+    },
+    {
+     "parametro": "Recalque diferencial entre pontos da periferia a 9 000 mm",
+     "valor": "38 mm (inclinação uniforme entre eles)",
+     "item": "5.1.1 b)",
+     "cota": "esquemas/recalque-pinos-tanque.svg#espacamento-pinos"
+    },
+    {
+     "parametro": "Recalque diferencial entre dois pontos quaisquer da periferia",
+     "valor": "50 mm",
+     "item": "5.1.1 c)",
+     "cota": "esquemas/recalque-pinos-tanque.svg#leitura"
+    },
+    {
+     "parametro": "Diferencial periferia–ponto interno a 1 150 mm (após o teste)",
+     "valor": "≤ 70 mm",
+     "item": "5.1.2",
+     "cota": "esquemas/recalque-pinos-tanque.svg#leitura"
+    },
+    {
+     "parametro": "Diferencial periferia–centro (Δ ≤ D/A, D em mm)",
+     "valor": "A = 250 (caimento até 2 %) ou 450 (2 % a 4 %)",
+     "item": "5.1.4.2",
+     "cota": "esquemas/recalque-pinos-tanque.svg#diametro-tanque",
+     "nota": "conferir: a fórmula aparece como \"Δ ≤ A D\" no texto extraído; lida como D dividido por A"
+    }
+   ],
+   "figuras": [
+    "esquemas/recalque-pinos-tanque.svg"
+   ]
+  },
+  {
+   "titulo": "Vida útil e corrosão",
+   "item": "6.3",
+   "texto": "A sobre-espessura sai da taxa de corrosão (Tabela A.2) para uma vida útil mínima. Com costado revestido internamente, reduz-se a sobre-espessura.",
+   "valores": [
+    {
+     "parametro": "Vida útil para a sobre-espessura",
+     "valor": "≥ 20 anos",
+     "item": "6.3.2"
+    },
+    {
+     "parametro": "Teto flutuante com costado revestido — sobre-espessura por anel",
+     "valor": "maior entre a calculada com metade da taxa e 1 mm",
+     "item": "6.3.3",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-costado"
+    },
+    {
+     "parametro": "Teto fixo com costado revestido; estrutura revestida em contato com o produto",
+     "valor": "1 mm",
+     "item": "6.3.4; 6.3.5",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-costado"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Fundo",
+   "item": "8; Tabela A.3",
+   "texto": "Fundo plano ou cônico (caimento para a periferia ou para o centro, a critério da Petrobras); diâmetro pequeno prefere fundo plano, maior prefere caimento para a periferia. Contorno com chapas anulares ou recortadas; chapas centrais em junta sobreposta.",
+   "valores": [
+    {
+     "parametro": "Declividade — para a periferia / para o centro",
+     "valor": "≥ 1:120 / de 1:100 a 1:25",
+     "item": "8.1.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#declividade"
+    },
+    {
+     "parametro": "Fundo plano recomendado",
+     "valor": "diâmetro ≤ 6 m",
+     "item": "8.1.1 Nota 1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#declividade"
+    },
+    {
+     "parametro": "Chapas anulares obrigatórias",
+     "valor": "diâmetro acima de 15 m",
+     "item": "8.2.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#largura-anular"
+    },
+    {
+     "parametro": "Chapas centrais — espessura e largura mínimas",
+     "valor": "6,30 mm; 1 800 mm",
+     "item": "8.2.3",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#largura-chapa-fundo"
+    },
+    {
+     "parametro": "Transpasse entre chapas centrais (após soldar)",
+     "valor": "≥ 5 × a espessura nominal",
+     "item": "8.4.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#transpasse-fundo"
+    },
+    {
+     "parametro": "Transpasse central–anular (após soldar)",
+     "valor": "≥ 60 mm",
+     "item": "8.4.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#transpasse-anular"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Costado",
+   "item": "9; Tabelas A.4 e A.5",
+   "texto": "Espessuras pelo Anexo A da API 650 (ponto fixo, E = 0,85); se passar de certo limite, corpo da norma pelo ponto variável. Não se usam aços muito resistentes; chapas nas dimensões comerciais nacionais. Juntas verticais de anéis adjacentes desencontradas e não acumuladas numa região.",
+   "valores": [
+    {
+     "parametro": "Passar ao método do ponto variável",
+     "valor": "espessura calculada acima de 13,0 mm (0,5″)",
+     "item": "9.1 b)",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-costado"
+    },
+    {
+     "parametro": "Adotar espessura menor que a calculada se a diferença for",
+     "valor": "< menor entre 0,1 mm e 1 % da espessura",
+     "item": "9.2.3",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-costado"
+    },
+    {
+     "parametro": "Espessura requerida menos a corrosão — mínimo",
+     "valor": "2,54 mm",
+     "item": "9.2.4",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-costado"
+    },
+    {
+     "parametro": "Resistência máxima recomendada do aço",
+     "valor": "481 MPa",
+     "item": "9.3.1 Nota 1"
+    },
+    {
+     "parametro": "Chapas comerciais — 4,75 mm / ≥ 6,30 mm",
+     "valor": "1 500 ou 1 800 × 6 000 mm / 2 440 × 12 000 mm",
+     "item": "9.3.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-costado"
+    },
+    {
+     "parametro": "Afastamento entre juntas verticais de anéis adjacentes",
+     "valor": "≥ 1/3 da chapa (sempre que possível) e ≥ 5 × a espessura da chapa mais grossa",
+     "item": "9.9.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#juntas-verticais"
+    },
+    {
+     "parametro": "Espessura mínima estrutural de montagem — D < 15 / 15–36 / 36–60 / > 60 m",
+     "valor": "4,75 / 6,30 / 8,00 / 9,50 mm",
+     "item": "Tabela A.4",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-costado"
+    },
+    {
+     "parametro": "Calandragem obrigatória — D ≤ 12 / ≤ 18 / ≤ 36 / > 36 m",
+     "valor": "a partir de 4,75 / 6,30 / 9,50 / 12,50 mm",
+     "item": "Tabela A.5",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-costado"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Teto fixo",
+   "item": "10",
+   "texto": "Teto autoportante recomendado em diâmetros pequenos. Chapas sobrepostas soldadas por fora. Tanques novos com teto em inox (Anexo SC da API 650 ou A240 TP 439); na troca de teto de tanque existente, inox de 3 ou 4 mm com alívio recalculado (ISO 28300) e proteção contra descargas se o produto for inflamável. Estrutura de sustentação com almas robustas e colunas sobre sapatas com chapa de reforço soldada ao fundo.",
+   "valores": [
+    {
+     "parametro": "Teto autoportante recomendado",
+     "valor": "até 6 m de diâmetro",
+     "item": "10.1.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#diametro-tanque"
+    },
+    {
+     "parametro": "Chapa de teto inox (tanque novo) — espessura e largura mínimas",
+     "valor": "5 mm; 1 500 mm",
+     "item": "10.3.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-teto"
+    },
+    {
+     "parametro": "Proteção contra descargas atmosféricas exigida",
+     "valor": "teto de 3 mm a < 5 mm com produto de ponto de fulgor < 60 °C",
+     "item": "10.3.3",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-teto"
+    },
+    {
+     "parametro": "Transpasse das chapas do teto",
+     "valor": "menor entre 5 × a chapa mais fina e 25 mm",
+     "item": "10.4.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-teto"
+    },
+    {
+     "parametro": "Sobrecarga no teto",
+     "valor": "981 N/m² (100 kgf/m²) + peso próprio",
+     "item": "10.6"
+    },
+    {
+     "parametro": "Espessura mínima de alma dos perfis da estrutura",
+     "valor": "6,35 mm",
+     "item": "10.7.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#coluna-sapata"
+    },
+    {
+     "parametro": "Chapa de reforço sob as sapatas das colunas",
+     "valor": "19 mm, soldada em toda a volta",
+     "item": "10.7.3",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#coluna-sapata"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Teto flutuante externo e interno",
+   "item": "11; 12",
+   "texto": "Teto duplo até um diâmetro e pontão acima (com lençol central reforçado em diâmetros grandes). Flutuabilidade verificada com chuva acumulada e com compartimentos furados; o nível de flutuação não passa de 80 % do compartimento externo. Duas posições de repouso por pernas ajustáveis; pernas dimensionadas à flambagem. Dique de espuma acima do selo, com recortes de drenagem.",
+   "valores": [
+    {
+     "parametro": "Teto duplo / pontão",
+     "valor": "até 20 m / acima de 20 m (lençol reforçado acima de 35 m)",
+     "item": "11.1.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#diametro-tanque"
+    },
+    {
+     "parametro": "Chapa do teto flutuante (A1011 Gr. 33, A283 C ou A36)",
+     "valor": "≥ 4,75 mm, largura ≥ 1 500 mm (≥ 6,30 mm: largura ≥ 2 440 mm)",
+     "item": "11.3.1; 11.3.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-teto"
+    },
+    {
+     "parametro": "Transpasse das chapas do teto flutuante",
+     "valor": "menor entre 5 × a chapa mais fina e 25 mm",
+     "item": "11.4.1; 12.4.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-teto"
+    },
+    {
+     "parametro": "Chuva na verificação de flutuabilidade (teto externo)",
+     "valor": "250 mm sobre toda a área, densidade 0,7 ou a do produto",
+     "item": "11.5.1 a)",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#lamina-agua"
+    },
+    {
+     "parametro": "Sobrecarga no teto apoiado nas pernas",
+     "valor": "981 N/m² (100 kgf/m²)",
+     "item": "11.6; 12.6"
+    },
+    {
+     "parametro": "Pé-direito na posição de manutenção",
+     "valor": "≥ 2 000 mm em qualquer ponto do fundo",
+     "item": "11.7.1; 12.7.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#pe-direito"
+    },
+    {
+     "parametro": "Chapa de apoio de cada perna no fundo",
+     "valor": "Ø ≥ 350 mm, espessura ≥ 9,50 mm, soldada em toda a volta",
+     "item": "11.7.4; 12.7.4",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#chapa-apoio-perna"
+    },
+    {
+     "parametro": "Espaço entre costado do tanque e do teto externo",
+     "valor": "200 mm ± 12 mm",
+     "item": "11.9",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espaco-teto"
+    },
+    {
+     "parametro": "Altura do dique acima do selo",
+     "valor": "≥ 51 mm (2″)",
+     "item": "11.10.2; 12.11.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#dique-altura"
+    },
+    {
+     "parametro": "Distância do dique ao costado",
+     "valor": "300 mm a 600 mm",
+     "item": "11.10.3; 12.11.3",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#dique-distancia"
+    },
+    {
+     "parametro": "Recortes de drenagem do dique",
+     "valor": "altura ≤ 10 mm; 278 mm² por m² da coroa entre dique e costado",
+     "item": "11.10.5; 12.11.5",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#recorte-dique"
+    },
+    {
+     "parametro": "Boca de visita por compartimento",
+     "valor": "≥ 1 de 600 mm (24″); 2 se o compartimento passar de 5 m",
+     "item": "14.3.5",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#boca-visita-pontao"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Escadas, passadiços e anel de contraventamento",
+   "item": "17 a 20",
+   "texto": "Cada tanque tem escada helicoidal própria com corrimão até plataforma no topo do costado. Passadiços entre tanques com guarda-corpo dos dois lados. Escada do teto flutuante articulada na plataforma e rolante sobre trilhos. Tanques de teto flutuante externo e sem teto têm anel de contraventamento que serve de passadiço.",
+   "valores": [
+    {
+     "parametro": "Altura máxima de cada lance",
+     "valor": "3 000 mm",
+     "item": "17.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#altura-lance"
+    },
+    {
+     "parametro": "Patamar intermediário — comprimento mínimo",
+     "valor": "1 000 mm",
+     "item": "17.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#plataforma-intermediaria"
+    },
+    {
+     "parametro": "Largura útil de escadas, plataformas e passadiços",
+     "valor": "≥ 800 mm",
+     "item": "17.3; 18.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#largura-escada"
+    },
+    {
+     "parametro": "Largura útil da escada rolante do teto flutuante",
+     "valor": "≥ 600 mm",
+     "item": "19.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#escada-rolante"
+    },
+    {
+     "parametro": "Anel de contraventamento — posição e largura",
+     "valor": "a 1 m do topo da cantoneira; largura ≥ 600 mm",
+     "item": "20.1",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#anel-contraventamento"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Medição, drenos e respiros",
+   "item": "21; 25; 26; Tabela A.7",
+   "texto": "Escotilhas de medição com pescoço e tampa à prova de centelha; tanques pequenos admitem visor de nível. Drenos do teto flutuante (articulados ou flexíveis revestidos) com capacidade para não acumular água; teto pontão grande com drenagem multiponto. Dispositivos de alívio conforme o ponto de fulgor (Tabela 1), com telas de inox.",
+   "valores": [
+    {
+     "parametro": "Escotilhas de medição",
+     "valor": "2 diametralmente opostas se D > 10 m; 1 se D ≤ 10 m",
+     "item": "21.1.1; 21.1.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#diametro-tanque"
+    },
+    {
+     "parametro": "Altura do pescoço da escotilha acima do teto",
+     "valor": "≈ 1 000 mm",
+     "item": "21.1.3",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#escotilha"
+    },
+    {
+     "parametro": "Visor de nível no costado admitido",
+     "valor": "diâmetro < 4 m",
+     "item": "21.1.6",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#diametro-tanque"
+    },
+    {
+     "parametro": "Dreno flexível — camada de resina",
+     "valor": "≥ 5 mm em todo o comprimento",
+     "item": "25.2.2.5",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#dreno-teto"
+    },
+    {
+     "parametro": "Dreno flexível — pressões de teste",
+     "valor": "externa ≥ 392 kPa; interna ≥ 350 kPa",
+     "item": "25.2.2.7"
+    },
+    {
+     "parametro": "Drenos primários",
+     "valor": "≥ 2 em tanques acima de 20 m; um no centro do teto",
+     "item": "25.2.4",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#dreno-teto"
+    },
+    {
+     "parametro": "Diâmetro mínimo do dreno do teto",
+     "valor": "Ø 4″ (recomendado Ø 6″ acima de 36 m)",
+     "item": "25.2.7",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#dreno-teto"
+    },
+    {
+     "parametro": "Acúmulo máximo de chuva no teto pontão — flutuando / apoiado",
+     "valor": "200 mm / 100 mm",
+     "item": "25.2.8",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#lamina-agua"
+    },
+    {
+     "parametro": "Drenagem multiponto no teto pontão",
+     "valor": "D ≥ 25 m, ≥ 4 pontos + bacia central",
+     "item": "25.2.10",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#diametro-tanque"
+    },
+    {
+     "parametro": "Tela dos respiros e válvulas de pressão e vácuo",
+     "valor": "inox AISI 304, abertura de 19 mm",
+     "item": "26.2.2.4",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-teto"
+    },
+    {
+     "parametro": "Chapa de reforço sob as pernas dos respiros automáticos",
+     "valor": "6,30 mm, soldada em toda a volta",
+     "item": "26.4.1.3",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#chapa-apoio-perna"
+    },
+    {
+     "parametro": "Drenos de fundo — produto claro / demais",
+     "valor": "1 a 6 drenos de 75 mm (3″) / de 150 mm (6″), conforme o diâmetro",
+     "item": "Tabela A.7",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#dreno-fundo"
+    },
+    {
+     "parametro": "Chapa de desgaste do aquecedor nos suportes",
+     "valor": "≥ 3 mm, soldada sob os tubos",
+     "item": "30.12",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-fundo"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  }
+ ]
+}

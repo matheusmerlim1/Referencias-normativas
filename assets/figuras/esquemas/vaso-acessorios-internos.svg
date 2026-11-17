@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 720" width="1060" height="720" role="img" aria-label="Vaso de pressão — acessórios internos (eliminador, desgaste, quebra-vórtice, chicana, degraus, bandejas)">
+<title>Vaso de pressão — acessórios internos (eliminador, desgaste, quebra-vórtice, chicana, degraus, bandejas) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .cc{fill:#bbb;fill-opacity:.5;stroke:#777;stroke-width:1.4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .hc{fill:url(#hach);stroke:#666;stroke-width:1.2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Vaso de pressão — acessórios internos (eliminador, desgaste, quebra-vórtice, chicana, degraus, bandejas)</text>
+<text class="b" x="20" y="58">(a) Eliminador de névoa (malha)</text>
+<rect class="sl" x="40" y="80" width="12" height="200"/><rect class="sl" x="380" y="80" width="12" height="200"/><rect class="y" x="52" y="140" width="328" height="50"/>
+<line class="g" x1="60" y1="136" x2="60" y2="140"/><line class="g" x1="60" y1="190" x2="60" y2="194"/>
+<line class="g" x1="86" y1="136" x2="86" y2="140"/><line class="g" x1="86" y1="190" x2="86" y2="194"/>
+<line class="g" x1="112" y1="136" x2="112" y2="140"/><line class="g" x1="112" y1="190" x2="112" y2="194"/>
+<line class="g" x1="138" y1="136" x2="138" y2="140"/><line class="g" x1="138" y1="190" x2="138" y2="194"/>
+<line class="g" x1="164" y1="136" x2="164" y2="140"/><line class="g" x1="164" y1="190" x2="164" y2="194"/>
+<line class="g" x1="190" y1="136" x2="190" y2="140"/><line class="g" x1="190" y1="190" x2="190" y2="194"/>
+<line class="g" x1="216" y1="136" x2="216" y2="140"/><line class="g" x1="216" y1="190" x2="216" y2="194"/>
+<line class="g" x1="242" y1="136" x2="242" y2="140"/><line class="g" x1="242" y1="190" x2="242" y2="194"/>
+<line class="g" x1="268" y1="136" x2="268" y2="140"/><line class="g" x1="268" y1="190" x2="268" y2="194"/>
+<line class="g" x1="294" y1="136" x2="294" y2="140"/><line class="g" x1="294" y1="190" x2="294" y2="194"/>
+<line class="g" x1="320" y1="136" x2="320" y2="140"/><line class="g" x1="320" y1="190" x2="320" y2="194"/>
+<line class="g" x1="346" y1="136" x2="346" y2="140"/><line class="g" x1="346" y1="190" x2="346" y2="194"/>
+<line class="g" x1="372" y1="136" x2="372" y2="140"/><line class="g" x1="372" y1="190" x2="372" y2="194"/>
+<line class="g" x1="52" y1="136" x2="380" y2="136"/><line class="g" x1="52" y1="194" x2="380" y2="194"/><rect class="s" x="200" y="194" width="20" height="16"/>
+<g id="cota-grade-barras" class="cota"><line class="d" x1="86" y1="122" x2="112" y2="122" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="86" y="115">barras da grade</text></g>
+<g id="cota-arame" class="cota"><line class="d" x1="300" y1="240" x2="290" y2="170" marker-end="url(#a)"/><text class="" x="260" y="258">Ø do arame da malha</text></g>
+<g id="cota-vergalhoes" class="cota"><line class="d" x1="120" y1="240" x2="140" y2="195" marker-end="url(#a)"/><text class="" x="60" y="258">vergalhões transversais</text></g>
+<g id="cota-vao-viga" class="cota"><line class="e" x1="52" y1="280" x2="52" y2="304"/><line class="e" x1="380" y1="280" x2="380" y2="304"/><line class="d" x1="52" y1="300" x2="380" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="216.0" y="293">vão livre (vigas acima de certo vão)</text></g>
+<text class="b" x="470" y="58">(b) Chapa de desgaste na entrada</text>
+<rect class="sl" x="480" y="90" width="14" height="230"/><rect class="w" x="440" y="190" width="40" height="30"/><path class="h" d="M494,190 L640,150 M494,220 L640,260"/><rect class="s" x="640" y="130" width="10" height="150"/>
+<g id="cota-cone-desgaste" class="cota"><path class="d" d="M561.6,223.1 A70,70 0 0,0 561.6,186.9" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="530" y="185">cone</text></g>
+<g id="cota-lado-chapa-desgaste" class="cota"><line class="e" x1="650" y1="130" x2="684" y2="130"/><line class="e" x1="650" y1="280" x2="684" y2="280"/><line class="d" x1="680" y1="130" x2="680" y2="280" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="686" y="205">lado da chapa de desgaste</text></g>
+<g id="cota-espessura-desgaste" class="cota"><line class="d" x1="720" y1="110" x2="650" y2="135" marker-end="url(#a)"/><text class="" x="700" y="100">espessura t</text></g>
+<circle class="w" cx="645" cy="160" r="3"/><circle class="w" cx="645" cy="250" r="3"/>
+<g id="cota-parafusos-desgaste" class="cota"><line class="d" x1="620" y1="160" x2="620" y2="250" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="614" y="230">parafusos</text></g>
+<text class="b" x="20" y="360">(c) Quebra-vórtice, chicana e retenção de recheio</text>
+<path class="g" d="M40,470 A170,60 0 0,0 380,470"/><rect class="w" x="195" y="530" width="30" height="50"/><rect class="s" x="170" y="510" width="80" height="8"/><rect class="s" x="206" y="490" width="8" height="20"/>
+<g id="cota-solda-quebra-vortice" class="cota"><line class="d" x1="300" y1="560" x2="250" y2="515" marker-end="url(#a)"/><text class="" x="260" y="580">solda mín. + corrosão</text></g>
+<rect class="s" x="60" y="380" width="8" height="70"/><line class="v" x1="68" y1="390" x2="68" y2="400"/><line class="v" x1="68" y1="415" x2="68" y2="425"/><line class="v" x1="68" y1="440" x2="68" y2="450"/>
+<g id="cota-cordao-intermitente" class="cota"><line class="d" x1="90" y1="390" x2="90" y2="400" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="96" y="400">cordão intermitente</text></g>
+<g id="cota-retencao-recheio" class="cota"><line class="d" x1="330" y1="420" x2="250" y2="450" marker-end="url(#a)"/><text class="" x="280" y="410">chapa de retenção (cota C)</text></g>
+<text class="b" x="470" y="360">(d) Degraus internos em vaso horizontal</text>
+<circle class="sl" cx="600" cy="520" r="110"/><rect class="w" x="490" y="500" width="10" height="40"/><path class="g" d="M500,505 L530,505 L530,515 M500,535 L530,535 L530,545"/>
+<g id="cota-diametro-vaso" class="cota"><line class="e" x1="600" y1="410" x2="744" y2="410"/><line class="e" x1="600" y1="630" x2="744" y2="630"/><line class="d" x1="740" y1="410" x2="740" y2="630" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="746" y="520">diâmetro interno</text></g>
+<g id="cota-filete-degrau" class="cota"><line class="d" x1="560" y1="600" x2="531" y2="540" marker-end="url(#a)"/><text class="" x="540" y="620">filete do degrau</text></g>
+<rect class="sl" x="820" y="390" width="10" height="290"/><rect class="sl" x="970" y="390" width="10" height="290"/>
+<rect class="s" x="830" y="440" width="10" height="6"/><rect class="s" x="960" y="440" width="10" height="6"/><line class="g" x1="840" y1="440" x2="960" y2="440"/>
+<rect class="s" x="830" y="540" width="10" height="6"/><rect class="s" x="960" y="540" width="10" height="6"/><line class="g" x1="840" y1="540" x2="960" y2="540"/>
+<rect class="s" x="830" y="640" width="10" height="6"/><rect class="s" x="960" y="640" width="10" height="6"/><line class="g" x1="840" y1="640" x2="960" y2="640"/>
+<g id="cota-espacamento-bandejas" class="cota"><line class="d" x1="900" y1="440" x2="900" y2="540" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="906" y="495">espaçamento</text></g>
+<path class="g" d="M840,600 L880,600 L900,620 L940,620"/>
+<g id="cota-emenda-perfil" class="cota"><path class="d" d="M898.4,618.4 A26,26 0 0,0 906.0,600.0" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="880" y="670">emenda a 45°</text></g>
+<text class="b" x="820" y="380">(e) Bandejas</text>
+<text class="n" x="20" y="708">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

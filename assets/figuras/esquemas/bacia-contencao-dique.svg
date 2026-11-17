@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" aria-label="Bacia de contenção de tanques — dique, piso, camada superior e revestimentos">
+<title>Bacia de contenção de tanques — dique, piso, camada superior e revestimentos (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .cc{fill:#bbb;fill-opacity:.5;stroke:#777;stroke-width:1.4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .hc{fill:url(#hach);stroke:#666;stroke-width:1.2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Bacia de contenção de tanques — dique, piso, camada superior e revestimentos</text>
+<text class="b" x="20" y="58">(a) Corte típico da bacia com dique de solo</text>
+<path class="sl" d="M640,330 L720,230 L790,230 L870,330 z"/><rect class="s" x="170" y="190" width="200" height="140"/><rect class="cc" x="150" y="330" width="240" height="14"/>
+<rect class="y" x="40" y="330" width="600" height="12"/><rect class="hc" x="40" y="342" width="600" height="60"/><line class="g" x1="20" y1="330" x2="980" y2="330"/>
+<rect class="s" x="400" y="312" width="8" height="18"/><rect class="s" x="132" y="312" width="8" height="18"/>
+<text class="n" x="220" y="265">tanque</text>
+<text class="n" x="720" y="220">crista</text>
+<text class="n" x="870" y="320">talude externo</text>
+<text class="n" x="520" y="320">piso</text>
+<g id="cota-camada-superior" class="cota"><line class="d" x1="30" y1="342" x2="30" y2="402" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="60" y="420">camada superior</text></g>
+<g id="cota-base-granular" class="cota"><line class="d" x1="560" y1="280" x2="560" y2="334" marker-end="url(#a)"/><text class="" x="500" y="275">revestimento do piso</text></g>
+<g id="cota-minidique" class="cota"><line class="d" x1="440" y1="280" x2="404" y2="314" marker-end="url(#a)"/><text class="" x="420" y="272">minidique</text></g>
+<g id="cota-revestimento-talude" class="cota"><line class="d" x1="620" y1="200" x2="680" y2="280" marker-end="url(#a)"/><text class="" x="560" y="195">revestimento do talude</text></g>
+<g id="cota-nivelamento" class="cota"><line class="d" x1="800" y1="226" x2="800" y2="234" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="806" y="222">nivelamento da crista</text></g>
+<text class="b" x="20" y="470">(b) Planta do dique</text>
+<rect class="g" x="60" y="490" width="380" height="40"/><line class="h" x1="60" y1="510" x2="440" y2="510"/><line class="v" x1="60" y1="514" x2="440" y2="506"/>
+<g id="cota-alinhamento" class="cota"><line class="d" x1="460" y1="506" x2="460" y2="514" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="466" y="514">alinhamento</text></g>
+<text class="n" x="20" y="548">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

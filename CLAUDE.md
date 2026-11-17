@@ -293,10 +293,16 @@ Lotes 1–7 feitos (30/out): todo valor geométrico tem cota e todo resumo tem d
    N-2163 (teste de fluxo com giz), N-2396 (fórmula da rotação da bobina). N-0118: cota W genérica (norma não define W no texto).
    LOTE P3 SOLDA E INSPEÇÃO FEITO (17/nov): 43/43 resumos (42 pelo agente, que parou no limite da API; N-2368 PSV pelo
    coordenador) + 34 SVG: acessorios-carga-descarte, automacao-eletrica-arquitetura, desaerador-inspecao, duto-faixa-interferencias, duto-submarino-inspecao, end-estanqueidade-bolha, end-identificacao-ligas-ima-pontos, end-liquido-penetrante-etapas, end-metalografia-replica, end-particulas-magneticas-yoke, end-radiografia-arranjo-filmes, end-termografia-camera-alvo, end-ultrassom-cabecote-angular, end-ultrassom-fundido-forjado, end-ultrassom-phased-array-tofd, end-visual-direto-remoto, flare-inspecao-drone, forno-serpentina-inspecao, guindaste-raio-cabo-guia, mangote-maritimo-inspecao, poco-teste-formacao, recalque-pinos-tanque, resfriador-ar-feixe, solda-consumiveis-estufa, solda-consumivel-chapa-teste, solda-descontinuidades-tipos, solda-desempenho-soldador, solda-preaquecimento-medicao, solda-raiz-purga-reparo, solda-seguranca-trabalho-quente, solda-subaquatica-camara-molhada, tanque-atmosferico-inspecao, turco-baleeira-teste-descida, vaso-teste-pressao-servico.
-   >>> RETOMAR AQUI: lote P4 EQUIPAMENTOS (35 normas: N-0253 0266 0268 0269 0270 0271 0553 0906 1500 1501 1541 1556 1704 1706
-   1712 1713 1742 1763 1822 1854 1888 1958 2054 2090 2091 2626 2627 2648 2649 2670 2673 2683 2728 2922 2936; N-1742 tem fonte
-   embaralhada nas figuras), depois P5 elétrica (23), P6 estruturas/segurança (22), P7 desenho/geral (99). Commit + push ao fim de cada lote.
-   P6 estruturas/segurança, P7 desenho/geral. Commit + push ao fim de cada lote (só caminhos próprios).
+   LOTE P4 EQUIPAMENTOS FEITO (17/nov): 35/35 resumos (579 valores, 371 com cota; 32 pelo agente, que parou no limite da API;
+   N-2670, N-2673, N-2728 pelo coordenador) + 18 SVG: bacia-contencao-dique, bomba-centrifuga-conjunto, bomba-dosadora-rotativa,
+   compressor-alternativo, compressor-centrifugo, misturador-tanque, olhal-icamento-anel-reforco, tanque-atmosferico-projeto,
+   tanque-base-tratamento, tanque-selo-pw, turbina-gas, turbina-vapor, vaso-acessorios-externos, vaso-acessorios-internos,
+   vaso-pressao-projeto-petrobras, vaso-tolerancias-fabricacao, navio-tanque-carga-medicao-limpeza, caldeira-recuperadora-hrsg.
+   "conferir": N-0253 (Fig. A.3 classe × diâmetro), N-0270 (fórmula), N-0906 (30 % acima da vazão nominal, redação ambígua),
+   N-1742 (Fig. A.2 fonte embaralhada), N-2054 (tabela de selas, colunas A–J não reproduzidas), N-2648 (texto em colunas fragmentado).
+   >>> RETOMAR AQUI: lote P5 ELÉTRICA/INSTRUMENTAÇÃO (23; lista em ferramentas/docs_petrobras.py, ficha
+   petrobras-eletrica-instrumentacao), depois P6 estruturas/segurança (22), P7 desenho/geral (99).
+   Commit + push ao fim de cada lote (só caminhos próprios).
 4. Backlog antigo (baixa prioridade; detalhes em HISTORICO.md): ficha vaso-pressao migrar de VIII-1 2001 para 2007; UCS-66, UG-37;
    B16.9/B16.11/B36.19M; NR-13 tubulações; ISO 4759/4042; MSS SP-44, API 6AF; NBR 6409/ISO 1302; IPE/W/cantoneiras; composição
    química das specs SA/SB; aba "Acervo" no site; fichas de pintura (N-xxxx/SSPC) e andaime.

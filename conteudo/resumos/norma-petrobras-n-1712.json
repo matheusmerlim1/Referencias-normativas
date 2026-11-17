@@ -1,0 +1,45 @@
+{
+ "id": "PETROBRAS-N-1712",
+ "titulo": "Petrobras N-1712 Rev. C (10/2013) — Bomba dosadora alternativa — folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso",
+   "item": "1; 3; 4",
+   "texto": "Padroniza a folha de dados de bombas dosadoras alternativas (base API 675, 3ª edição), em SI (Anexo A) e em SI modificado (Anexo B). Preenchida, é anexada à RM como documento de compra; completada pelo fabricante, torna-se documento permanente. Define serviço perigoso (H2S acima de 500 ppm, H2 com pressão parcial acima de 7 bar abs, hidrocarboneto acima da autoignição, substâncias letais).",
+   "figuras": [
+    "esquemas/bomba-dosadora-rotativa.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo da folha de dados",
+   "item": "Anexos A e B",
+   "texto": "Condições de operação (capacidade máxima, mínima e nominal em l/h; pressões de descarga, sucção e diferencial; NPSH disponível sem carga de aceleração; faixa operacional; serviço contínuo ou intermitente). Líquido (temperatura, densidade, calor específico, viscosidade, corrosão, cloretos, H2S, pressão de vapor, sólidos em suspensão). Linhas de sucção e descarga (diâmetro e comprimento). Desempenho (número de cabeçotes, NPSH requerido, carga de aceleração, potência, golpes por minuto, diâmetro e curso do êmbolo, eficiência volumétrica, PMTA, pressão de teste). Local, área classificada e utilidades; construção, acionador, redutor, materiais, testes e inspeção.",
+   "valores": [
+    {
+     "parametro": "Êmbolo",
+     "valor": "diâmetro (mm) e curso (mm)",
+     "item": "Folha 01",
+     "cota": "esquemas/bomba-dosadora-rotativa.svg#diametro-embolo",
+     "nota": "campos do formulário; a norma não fixa valores"
+    },
+    {
+     "parametro": "Linhas de sucção e descarga",
+     "valor": "diâmetro (pol) e comprimento (m)",
+     "item": "Folha 01",
+     "cota": "esquemas/bomba-dosadora-rotativa.svg#tubulacao-succao",
+     "nota": "campos do formulário"
+    },
+    {
+     "parametro": "Sólidos em suspensão",
+     "valor": "diâmetro máximo (mm) e concentração",
+     "item": "Folha 01",
+     "cota": "esquemas/bomba-dosadora-rotativa.svg#solidos",
+     "nota": "campo do formulário"
+    }
+   ],
+   "figuras": [
+    "esquemas/bomba-dosadora-rotativa.svg"
+   ]
+  }
+ ]
+}

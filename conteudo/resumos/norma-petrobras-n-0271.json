@@ -1,0 +1,147 @@
+{
+ "id": "PETROBRAS-N-0271",
+ "titulo": "Petrobras N-0271 Rev. C (10/2023) — Montagem de tanque de armazenamento",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Requisitos de montagem no campo de tanques de armazenamento projetados pela N-270 (API 650), do recebimento de materiais ao teste hidrostático, pintura e teste de flutuabilidade do teto.",
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Recebimento e armazenamento",
+   "item": "5; 6",
+   "texto": "Conferência de certificados e mapas de reparos por amostragem; espessura medida numa amostra de cada componente (tem de ficar acima da nominal menos a tolerância de fabricação). Chapas planas e componentes armazenados afastados do solo, com leve inclinação; chapas calandradas deitadas sobre berços com a mesma curvatura.",
+   "valores": [
+    {
+     "parametro": "Conferência do mapa de defeitos reparados",
+     "valor": "10 % das chapas reparadas (todas se houver discordância)",
+     "item": "5.5"
+    },
+    {
+     "parametro": "Medição de espessura no recebimento",
+     "valor": "10 % de cada componente das seções fabricadas",
+     "item": "5.6",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-costado"
+    },
+    {
+     "parametro": "Distância mínima do solo na armazenagem",
+     "valor": "200 mm",
+     "item": "6.3; 6.4",
+     "cota": "esquemas/vaso-tolerancias-fabricacao.svg#armazenagem"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg",
+    "esquemas/vaso-tolerancias-fabricacao.svg"
+   ]
+  },
+  {
+   "titulo": "Dispositivos, fundo e costado",
+   "item": "8.1 a 8.3",
+   "texto": "Dispositivos e pontos de solda distribuídos pelo procedimento. Fundo montado com a sobreposição de projeto (considerando a contração), solda do rodo (fundo–costado) com cordão interno, ensaio de estanqueidade e só então o externo, sem dispositivos que deformem; sobreposição tripla não começa nem termina no canto arredondado. Costado verificado em alinhamento, circularidade, prumo, barriga e embicamento pela API 650; nivelamento do 1º anel com nível óptico, sem cunhas; relatório dimensional de cada anel aprovado antes do seguinte; deformações não são corrigidas por impacto nem aquecimento localizado. Em teto flutuante, desbastam-se os reforços internos que interfiram no selo.",
+   "valores": [
+    {
+     "parametro": "Espaçamento de dispositivos que travam a contração e de pontos de solda",
+     "valor": "≥ 500 mm",
+     "item": "8.1.1.1; 8.1.1.2",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#dispositivos"
+    },
+    {
+     "parametro": "Barriga e embicamento fora das juntas — gabarito ou régua",
+     "valor": "comprimento de 1 000 mm; flecha no meio ≤ 15 mm",
+     "item": "8.3.1 Nota",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#gabarito-barriga"
+    },
+    {
+     "parametro": "Desnível do topo do 1º anel",
+     "valor": "≤ 3 mm entre pontos consecutivos a 9 000 mm; ≤ 6 mm entre não consecutivos",
+     "item": "8.3.8",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#nivel-primeiro-anel"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Teto",
+   "item": "8.5; 8.6",
+   "texto": "Vigas do teto fixo conferidas antes de montar. No teto flutuante, mede-se a distância costado do teto–costado do tanque antes e depois de soldar; chapas do lençol perto de elementos rígidos (pernas, anti-rotacional, bocas, drenos) também são soldadas por baixo.",
+   "valores": [
+    {
+     "parametro": "Flecha vertical das vigas do teto (apoiadas, peso próprio)",
+     "valor": "2 mm/m, máximo 10 mm",
+     "item": "8.5.9",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-teto"
+    },
+    {
+     "parametro": "Distância costado–teto flutuante",
+     "valor": "medida em ≥ 12 pontos; ± 12 mm do nominal",
+     "item": "8.6.6",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espaco-teto"
+    },
+    {
+     "parametro": "Solda inferior do lençol junto a elementos rígidos",
+     "valor": "raio de 300 mm a partir da abertura",
+     "item": "8.6.8",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#chapa-apoio-perna"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  },
+  {
+   "titulo": "Ensaios e testes",
+   "item": "9; 10",
+   "texto": "Soldas em ângulo das câmaras estanques do teto flutuante por capilaridade ou LP; boias por bolha com pressão positiva. Drenos primários testados hidrostaticamente com a retenção instalada. Teste de drenagem do anel de contraventamento. Teste hidrostático pela API 650 com pinos de recalque (N-1807), grauteamento reparado e água não muito fria.",
+   "valores": [
+    {
+     "parametro": "Pressão do ensaio de bolhas nas boias de flutuação",
+     "valor": "≥ 14 kPa",
+     "item": "9.2"
+    },
+    {
+     "parametro": "Furos de drenagem no anel de contraventamento",
+     "valor": "Ø ≤ 12 mm",
+     "item": "9.5",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#anel-contraventamento"
+    },
+    {
+     "parametro": "Número de pinos de recalque",
+     "valor": "N ≥ D/3 (D em metros)",
+     "item": "10.2",
+     "cota": "esquemas/recalque-pinos-tanque.svg#espacamento-pinos"
+    },
+    {
+     "parametro": "Temperatura mínima da água de teste",
+     "valor": "10 °C",
+     "item": "10.3 b)"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg",
+    "esquemas/recalque-pinos-tanque.svg"
+   ]
+  },
+  {
+   "titulo": "Pintura e flutuabilidade",
+   "item": "11; 12",
+   "texto": "Em teto fixo de inox, a pintura interna e externa avança sobre o inox junto à solda teto–costado. Teste de flutuabilidade com o teto perto do fundo e o nível abaixo do topo das camisas das pernas.",
+   "valores": [
+    {
+     "parametro": "Faixa de pintura sobre o inox junto à solda teto–costado",
+     "valor": "2″ (50 mm)",
+     "item": "11.1.4",
+     "cota": "esquemas/tanque-atmosferico-projeto.svg#espessura-teto"
+    }
+   ],
+   "figuras": [
+    "esquemas/tanque-atmosferico-projeto.svg"
+   ]
+  }
+ ]
+}

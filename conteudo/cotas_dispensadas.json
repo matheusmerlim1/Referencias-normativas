@@ -216,11 +216,18 @@
  "norma-petrobras-n-0250": {
   "Inclinação que exige anéis de sustentação": "faixa de aplicação (inclinação do trecho)"
  },
+ "norma-petrobras-n-0270": {
+  "Pressão de projeto limitada ao peso do teto — chapa de 5 mm": "pressão (kPa / mm de coluna de água) — não é cota",
+  "Vácuo de projeto usual / máximo (Anexo V)": "pressão (kPa / mm c.a.) — não é cota"
+ },
  "norma-petrobras-n-0442": {
   "Cond. 4 — faixa considerada agressiva": "distância geográfica ao mar (classificação de ambiente, não cota)"
  },
  "norma-petrobras-n-0550": {
   "Industrial de alta precipitação — chuva anual": "índice pluviométrico (mm de chuva/ano), não é cota"
+ },
+ "norma-petrobras-n-0906": {
+  "Rotação e altura manométrica nominal": "rotação e altura manométrica (energia do fluido) — não é cota"
  },
  "norma-petrobras-n-1487": {
   "Exatidão — ferramentas marinizadas (varredura)": "exatidão em % da espessura e produtividade em m/dia — não é cota"
@@ -278,5 +285,8 @@
  "norma-petrobras-n-2913": {
   "Esferas e cilindros — taxa de desgaste que exige revestimento interno": "taxa de corrosão (mm/ano), não é cota",
   "Orla marítima (cond. 17 e 20)": "distância geográfica à praia (classificação do ambiente), não é cota"
+ },
+ "norma-petrobras-n-2936": {
+  "Vácuo de projeto — corpo / Anexos Q e R": "pressão (oz/in², mm c.a.) — não é cota"
  }
 }

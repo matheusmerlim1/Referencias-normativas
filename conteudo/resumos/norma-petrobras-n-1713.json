@@ -1,0 +1,28 @@
+{
+ "id": "PETROBRAS-N-1713",
+ "titulo": "Petrobras N-1713 Rev. C (04/2013) — Bomba rotativa — folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso",
+   "item": "1; 3; 4; 5",
+   "texto": "Padroniza a folha de dados de bombas rotativas (base API 676; selos API 682, acoplamentos API 671, motores API 541/546/IEEE 841, materiais NACE MR0103/MR0175), em SI (Anexo A) e SI modificado (Anexo B). Anexada à RM, é documento de compra; completada pelo fabricante, documento permanente. Termos usados: fator de serviço, fração de gás (GVF), NPIP, NPSH, válvula limitadora de pressão (PLV), PMI, tratamento térmico, acionamento de velocidade variável (VSD). Serviço perigoso definido como na N-1712.",
+   "valores": [
+    {
+     "parametro": "Serviço perigoso — H2S / H2",
+     "valor": "H2S acima de 500 ppm; pressão parcial de H2 acima de 7 bar (abs)",
+     "item": "3.8 a), b)"
+    },
+    {
+     "parametro": "Dimensões construtivas",
+     "valor": "rotores, folgas e eixo informados no formulário",
+     "item": "Anexos A e B",
+     "cota": "esquemas/bomba-dosadora-rotativa.svg#rotor",
+     "nota": "campos do formulário; o texto das folhas não foi extraído (formulário em imagem)"
+    }
+   ],
+   "figuras": [
+    "esquemas/bomba-dosadora-rotativa.svg"
+   ]
+  }
+ ]
+}

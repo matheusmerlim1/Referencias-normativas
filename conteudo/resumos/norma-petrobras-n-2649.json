@@ -1,0 +1,101 @@
+{
+ "id": "PETROBRAS-N-2649",
+ "titulo": "Petrobras N-2649 Rev. B (06/2013) — Compressores de ar centrífugos do tipo \"integrally geared\"",
+ "secoes": [
+  {
+   "titulo": "Escopo e forma da norma",
+   "item": "1; 3; 4",
+   "texto": "Requisitos mínimos sobre a API 672 (2004) para compressores de ar centrífugos com engrenagem integral e seus auxiliares. Todos os equipamentos são do tipo \"special duty\", novos (sem recondicionados) e de modelo comprovado.",
+   "valores": [
+    {
+     "parametro": "Experiência exigida",
+     "valor": "≥ 25 000 h contínuas em 20 máquinas do mesmo modelo e 10 do mesmo tamanho",
+     "item": "4.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/compressor-centrifugo.svg"
+   ]
+  },
+  {
+   "titulo": "Projeto",
+   "item": "5; 6",
+   "texto": "Ruído limitado; peças semelhantes marcadas; projeto para operar no trip e na PMTA sem dano; meios de ajustar as folgas axiais impelidor–carcaça; óleo pressurizado pela ISO 10438-3, todo em inox (exceto carcaças de bomba e corpos de válvula); governador eletrônico; acoplamento com elementos de inox; guardas de chapa sólida; base de aço rígida; anti-surge; registro de dados antes de alarme ou trip; sensores de posição axial de engrenagens e pinhões e de temperatura de mancais pela API 670; resfriadores com casco de aço-carbono, espelhos de latão e tubos de latão almirantado.",
+   "valores": [
+    {
+     "parametro": "Nível de pressão sonora do conjunto",
+     "valor": "≤ 85 dBA, resposta lenta, a 1 m das superfícies",
+     "item": "5.2",
+     "cota": "esquemas/compressor-centrifugo.svg#distancia-ruido"
+    },
+    {
+     "parametro": "Runout total elétrico + mecânico",
+     "valor": "≤ maior entre 25 % da vibração pico a pico admitida e 6 μm (0,25 mil)",
+     "item": "5.9",
+     "cota": "esquemas/compressor-centrifugo.svg#runout"
+    },
+    {
+     "parametro": "Ajuste das folgas axiais",
+     "valor": "meios para ajustar a folga impelidor–carcaça",
+     "item": "5.14",
+     "cota": "esquemas/compressor-centrifugo.svg#folga-axial"
+    },
+    {
+     "parametro": "Potência de placa do acionador (sem fator de serviço)",
+     "valor": "≥ 110 % da máxima requerida",
+     "item": "6.19"
+    },
+    {
+     "parametro": "Sensores de posição axial",
+     "valor": "furos roscados e tamponados em engrenagens e pinhões",
+     "item": "6.26",
+     "cota": "esquemas/compressor-centrifugo.svg#sonda-pinhao"
+    }
+   ],
+   "figuras": [
+    "esquemas/compressor-centrifugo.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção, testes e embarque",
+   "item": "7; 8",
+   "texto": "Certificados de material de eixos, pinhões, engrenagens, impelidores, carcaças e mancais. Sobrevelocidade de cada impelidor com medição das dimensões críticas antes e depois e PM/LP. Teste combinado mecânico e de desempenho com o sistema de óleo do contrato, pontos de surge a capacidade máxima e varredura de vibração não síncrona. Inspeção final antes do embarque; preparação para armazenagem externa; rotores sobressalentes em contêiner de aço com nitrogênio. Tolerâncias de montagem mantidas pelo fornecedor por longo prazo; reunião de coordenação logo após o pedido.",
+   "valores": [
+    {
+     "parametro": "Teste de sobrevelocidade do impelidor",
+     "valor": "115 % da velocidade nominal, ≥ 1 min",
+     "item": "7.4",
+     "cota": "esquemas/compressor-centrifugo.svg#impelidor"
+    },
+    {
+     "parametro": "Duração do teste combinado",
+     "valor": "4 h contínuas",
+     "item": "7.15"
+    },
+    {
+     "parametro": "Pontos de teste",
+     "valor": "≥ 5, incluindo surge, nominal e capacidade máxima",
+     "item": "7.16"
+    },
+    {
+     "parametro": "Armazenagem externa",
+     "valor": "12 meses a partir do embarque, sem desmontagem",
+     "item": "7.11"
+    },
+    {
+     "parametro": "Manutenção das tolerâncias de montagem pelo fornecedor",
+     "valor": "≥ 20 anos",
+     "item": "7.14"
+    },
+    {
+     "parametro": "Reunião de coordenação",
+     "valor": "4 a 6 semanas após o pedido",
+     "item": "8.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/compressor-centrifugo.svg"
+   ]
+  }
+ ]
+}

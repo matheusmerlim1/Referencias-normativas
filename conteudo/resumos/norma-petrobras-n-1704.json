@@ -1,0 +1,168 @@
+{
+ "id": "PETROBRAS-N-1704",
+ "titulo": "Petrobras N-1704 Rev. E (06/2025) — Requisitos adicionais para vaso de pressão em serviço com hidrogênio",
+ "secoes": [
+  {
+   "titulo": "Quando se aplica",
+   "item": "1; 5; 6",
+   "texto": "Complementa N-253/N-268/N-269 para vasos em serviço com hidrogênio. Todos os documentos e a placa trazem a indicação \"SERVIÇO COM HIDROGÊNIO\" e a pressão parcial de H2. A classificação considera teor de H2, pressão total, pressão parcial e temperatura.",
+   "valores": [
+    {
+     "parametro": "Serviço com hidrogênio",
+     "valor": "pressão parcial absoluta de H2 ≥ 3,5 kgf/cm² (50 psi), qualquer temperatura",
+     "item": "5.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Requisitos gerais de projeto",
+   "item": "7",
+   "texto": "Partes pressurizadas no mínimo em aço-carbono totalmente acalmado (exceto tubos de troca térmica, que são sem costura). Acessórios soldados do mesmo material do casco (ou do clad, se cladeado). Soldas de partes pressurizadas e de acessórios internos de penetração total, sem frestas em contato com o fluido; acessório externo com solda parcial só se o espaço confinado for ventilado. Ligação tubo-espelho por solda de resistência total (algumas configurações vetadas). Proibidos roscas, flanges sobrepostos e qualquer solda após o TTAT. Bocais abertos para o exterior são flangeados e fechados com flange cego.",
+   "valores": [
+    {
+     "parametro": "Trecho da saia no mesmo material do casco",
+     "valor": "≥ 1 000 mm a partir da ligação com o vaso",
+     "item": "7.2 Nota 2",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#saia-trecho"
+    },
+    {
+     "parametro": "Revestimento ou parede maciça de inox austenítico",
+     "valor": "pressão parcial de H2 acima de 90 MPa (917 kgf/cm²)",
+     "item": "7.3"
+    },
+    {
+     "parametro": "Furo de ventilação de espaço confinado por solda (acessório externo)",
+     "valor": "1 furo de Ø 1/8″",
+     "item": "7.8",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#furo-ventilacao"
+    },
+    {
+     "parametro": "Flange tipo anel admitido",
+     "valor": "diâmetro de 14″ ou maior, com solda de penetração total",
+     "item": "7.12",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#bocal-min"
+    },
+    {
+     "parametro": "Bocais pequenos com flange de pescoço longo",
+     "valor": "D < 2″",
+     "item": "7.12",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#bocal-min"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Matéria-prima",
+   "item": "8",
+   "texto": "Chapas SA-516 totalmente acalmadas, normalizadas (ou com resfriamento acelerado seguido de revenimento), com carbono equivalente limitado e ultrassom pela EN 10160 S2/E4; cladeadas pela N-1707 com o metal base também para hidrogênio. Forjados, tubos e acessórios (SA-105, SA-106, SA-234, SA-266) com carbono e CE limitados, forjados a quente, dureza limitada e ultrassom nos forjados grandes. Consumíveis qualificados pela N-1859.",
+   "valores": [
+    {
+     "parametro": "Revenimento após resfriamento acelerado",
+     "valor": "595 °C a 705 °C",
+     "item": "8.2 b)"
+    },
+    {
+     "parametro": "Carbono equivalente máximo — espessura ≤ 25 mm / > 25 mm",
+     "valor": "0,43 / 0,45",
+     "item": "8.2 c); 8.3.1",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#t-min",
+     "nota": "CE = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15"
+    },
+    {
+     "parametro": "Nb + V",
+     "valor": "≤ 0,015 %",
+     "item": "8.2 c)"
+    },
+    {
+     "parametro": "Carbono em forjados, tubos e acessórios",
+     "valor": "≤ 0,30 %",
+     "item": "8.3.1 a)"
+    },
+    {
+     "parametro": "Dureza de forjados, tubos, acessórios e de parafusos/porcas em contato com H2",
+     "valor": "< 237 HB",
+     "item": "8.3.3; 8.4"
+    },
+    {
+     "parametro": "Ultrassom 100 % em forjados (feixe reto e angular, entalhe em V de 60°)",
+     "valor": "diâmetro interno nominal ≥ 12″",
+     "item": "8.3.4",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#bocal-min"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Tratamento térmico de alívio de tensões (TTAT)",
+   "item": "9",
+   "texto": "Categoria A (acima da curva de Nelson do aço-carbono sem TTAT, API RP 941): TTAT obrigatório. Categoria B (abaixo da curva): pode dispensar, salvo exigência do código, mantendo margens em relação à operação; os limites de dureza continuam valendo. Com clad, usar inox estabilizado ou de baixo carbono aprovado no ensaio de sensitização ASTM A262 Prática E.",
+   "valores": [
+    {
+     "parametro": "Margens para dispensar o TTAT (categoria B)",
+     "valor": "50 psia na pressão parcial de H2 e 30 °C na temperatura",
+     "item": "9.1.2.1"
+    },
+    {
+     "parametro": "Temperatura de patamar do TTAT",
+     "valor": "620 °C a 640 °C",
+     "item": "9.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Qualificação de soldagem",
+   "item": "10; Tabela 1",
+   "texto": "Pelo código de projeto, ASME IX e N-133, documentada pela N-2301. Dois RQPS: um com TTAT mínimo e outro com TTAT máximo (que inclui ao menos um TTAT a mais para uso futuro). Química, dureza, tração, dobramento, impacto (quando aplicável) e sensitização (clad) nas condições indicadas.",
+   "valores": [
+    {
+     "parametro": "Variação de CE do metal base tratada como variável essencial",
+     "valor": "acima de 0,03 % em relação ao qualificado",
+     "item": "10.4"
+    },
+    {
+     "parametro": "Dureza na qualificação — metal de solda",
+     "valor": "≤ 200 HB, ou média 210 HV5 com individual ≤ 248 HV5",
+     "item": "Tabela 1, Nota 2"
+    },
+    {
+     "parametro": "Dureza na qualificação — ZTA",
+     "valor": "média 210 HV5, individual ≤ 248 HV5",
+     "item": "Tabela 1, Nota 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Ensaios não destrutivos",
+   "item": "11",
+   "texto": "Soldas pressurizadas em contato com H2 com 100 % de radiografia (ou UT conforme Code Case 2235 com aprovação). UT sempre mecanizado e registrado (TOFD + pulso-eco ou phased array), entregando arquivos e visualizador. Soldas de bocais categoria D com phased array; solda do flange principal tipo anel com UT 100 %; chapas cladeadas com UT após conformação.",
+   "valores": [
+    {
+     "parametro": "Radiografia de soldas pressurizadas em contato com H2",
+     "valor": "100 %",
+     "item": "11.2.1"
+    },
+    {
+     "parametro": "Bocais com UT manual convencional permitido",
+     "valor": "diâmetro ≤ 4″",
+     "item": "11.3.2",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#bocal-min"
+    },
+    {
+     "parametro": "UT de chapa cladeada após conformação",
+     "valor": "SA-578 nível C + suplementar S1",
+     "item": "11.3.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  }
+ ]
+}

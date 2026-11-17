@@ -1,0 +1,68 @@
+{
+ "id": "PETROBRAS-N-0266",
+ "titulo": "Petrobras N-0266 Rev. G (07/2015) — Apresentação de projeto de vaso de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo e regras gerais",
+   "item": "1; 4",
+   "texto": "Define o que o projeto mecânico e o projeto de fabricação de um vaso (feito pela N-253) devem conter e como apresentá-los. Desenhos pela N-381, com o \"norte de projeto\" coincidindo com a direção 0° do vaso; abreviaturas da N-75 e terminologia de soldagem da N-1438. Unidades legais no Brasil (CONMETRO), admitindo polegadas só para diâmetros nominais de tubos e acessórios, perfis, parafusos e porcas.",
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Desenhos do projeto mecânico",
+   "item": "5.2",
+   "texto": "O desenho mecânico traz os dados de operação e projeto (pressões, temperaturas, pressão parcial de H2 quando houver, MDMT, ajuste da válvula de segurança, PMTA e o componente que a limita, pressão e local do teste hidrostático), códigos, revestimentos, pesos (vazio, operação, cheio de água, internos, isolamento) e o diagrama de cargas na fundação com forças e momentos em três eixos para operação, teste, montagem e manutenção — inclusive o teste de campo mesmo quando a NR-13 o dispensa. Inclui ainda condição de fornecimento (inteiro ou em seções) e especificação completa de materiais.",
+   "valores": [
+    {
+     "parametro": "Dimensões a indicar no desenho",
+     "valor": "diâmetro interno e comprimento de cada corpo, espessuras de cascos, tampos e pescoços, raios dos tampos, posição, elevação, orientação e projeção de bocais e bocas de visita",
+     "item": "6.2.1 a 6.2.5",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#projecao-bocal",
+     "nota": "campos obrigatórios; a norma não fixa valores"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Memórias de cálculo",
+   "item": "5.3",
+   "texto": "Mostram normas, critérios e fórmulas de forma conferível; se feitas em programa, informam nome, autor, métodos, entradas, saídas e relatório de validação. Cobrem espessuras de partes pressurizadas, saias, berços, anel de ancoragem e chumbadores, reforços de bocais e anéis de pressão externa, flanges não padronizados, suportes de internos, verificação das soldas de bocais, torque de aperto quando requerido, eficiência de junta, vento, período natural e flecha de torres, PMA (novo e frio), PMTA (corroído e quente), pressão de teste (inclusive na posição de operação), pesos, tensões em bocais por reações de tubulação e cargas localizadas, flambagem/fadiga e deslocamentos térmicos. Peças conformadas informam a espessura mínima após conformação.",
+   "valores": [
+    {
+     "parametro": "Espessura informada de peça conformada (tampos)",
+     "valor": "espessura mínima após conformação",
+     "item": "5.3.1 Nota",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#t-min"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Análise por elementos finitos",
+   "item": "5.4",
+   "texto": "O relatório descreve tipo de análise e programa, condições de projeto, materiais, modelo (simplificações, elementos, malha), propriedades, carregamentos e condições de contorno, e apresenta resultados comparados com os limites e validados por cálculo analítico, ensaio ou literatura. A análise segue a Parte 5 do ASME VIII-2; para componente de Div. 1, as tensões admissíveis vêm das Tabelas 1A/1B do ASME II-D."
+  },
+  {
+   "titulo": "Projeto de fabricação",
+   "item": "6",
+   "texto": "Reúne os documentos do projeto mecânico, o diagrama de cargas, as memórias e os desenhos de fabricação (vistas e cortes suficientes), além dos detalhes de soldagem e inspeção. Inclui, quando aplicável, escadas e plataformas, ferramentas para retirar feixe de trocadores especiais, gaiola de suporte de isolamento de reatores sem solda no costado, sistema de resfriamento de esfera e a placa de identificação padrão Petrobras.",
+   "valores": [
+    {
+     "parametro": "Flanges a especificar",
+     "valor": "diâmetro nominal, tipo, classe de pressão, faceamento e norma dimensional",
+     "item": "6.2.6",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#boca-visita"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  }
+ ]
+}

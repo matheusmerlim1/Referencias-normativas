@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620" role="img" aria-label="Teto flutuante — selo periférico com chapa-mola (tipo PW)">
+<title>Teto flutuante — selo periférico com chapa-mola (tipo PW) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .cc{fill:#bbb;fill-opacity:.5;stroke:#777;stroke-width:1.4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .hc{fill:url(#hach);stroke:#666;stroke-width:1.2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Teto flutuante — selo periférico com chapa-mola (tipo PW)</text>
+<text class="b" x="20" y="58">(a) Corte na periferia do teto</text>
+<rect class="s" x="600" y="70" width="12" height="440"/><rect class="sl" x="200" y="300" width="200" height="60"/><path class="s" d="M380,300 L400,300 L400,260 L392,260 L392,292 L380,292 z"/>
+<path class="g" d="M398,270 C470,230 560,250 590,300 C560,340 470,360 398,330"/><path class="y" d="M398,265 C480,215 575,240 598,300 C575,350 480,370 398,338 L398,330 C470,355 560,335 588,300 C560,252 470,240 398,276 z"/>
+<ellipse class="wd" cx="590" cy="300" rx="10" ry="18"/><rect class="s" x="392" y="262" width="20" height="8"/>
+<text class="n" x="210" y="330">teto flutuante</text>
+<text class="n" x="620" y="90">costado</text>
+<text class="n" x="450" y="215">lençol de vedação</text>
+<text class="n" x="470" y="390">chapa-mola</text>
+<text class="n" x="520" y="300">perfil D</text>
+<g id="cota-espaco-teto" class="cota"><line class="e" x1="400" y1="360" x2="400" y2="464"/><line class="e" x1="600" y1="360" x2="600" y2="464"/><line class="d" x1="400" y1="460" x2="600" y2="460" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="500.0" y="453">espaço costado–teto</text></g>
+<g id="cota-barra-fixacao" class="cota"><line class="d" x1="300" y1="240" x2="394" y2="266" marker-end="url(#a)"/><text class="" x="230" y="232">barra de fixação</text></g>
+<path class="h" d="M612,150 Q650,300 612,450"/><path class="h" d="M612,150 Q585,300 612,450"/>
+<g id="cota-deformacao-costado" class="cota"><line class="e" x1="612" y1="480" x2="612" y2="524"/><line class="e" x1="646" y1="480" x2="646" y2="524"/><line class="d" x1="612" y1="520" x2="646" y2="520" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="640" y="545">deformação do costado (+/−)</text></g>
+<text class="b" x="700" y="58">(b) Emendas</text>
+<rect class="y" x="720" y="100" width="150" height="16"/><rect class="y" x="810" y="112" width="150" height="16"/>
+<g id="cota-emenda-lencol" class="cota"><line class="e" x1="810" y1="128" x2="810" y2="154"/><line class="e" x1="870" y1="128" x2="870" y2="154"/><line class="d" x1="810" y1="150" x2="870" y2="150" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="840.0" y="143">sobreposição</text></g>
+<g id="cota-adocamento" class="cota"><line class="d" x1="930" y1="190" x2="950" y2="128" marker-end="url(#a)"/><text class="" x="840" y="200">extremidade adoçada</text></g>
+<path class="wd" d="M720,300 L840,300 L860,330 L720,330 z"/><path class="wd" d="M870,300 L990,300 L990,330 L890,330 z"/><line class="h" x1="760" y1="315" x2="950" y2="315"/>
+<g id="cota-emenda-perfil" class="cota"><path class="d" d="M862.4,333.2 A40,40 0 0,0 880.0,300.0" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="860" y="360">corte a 45°</text></g>
+<g id="cota-barra-reforco" class="cota"><line class="d" x1="760" y1="400" x2="800" y2="317" marker-end="url(#a)"/><text class="" x="700" y="420">barras de reforço</text></g>
+<text class="b" x="700" y="470">(c) Chapa-mola de fechamento</text>
+<rect class="sl" x="720" y="490" width="160" height="70"/><circle class="w" cx="800" cy="525" r="5"/>
+<g id="cota-largura-chapa-mola" class="cota"><line class="e" x1="720" y1="560" x2="720" y2="589"/><line class="e" x1="880" y1="560" x2="880" y2="589"/><line class="d" x1="720" y1="585" x2="880" y2="585" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="800.0" y="578">largura da chapa</text></g>
+<text class="n" x="20" y="608">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

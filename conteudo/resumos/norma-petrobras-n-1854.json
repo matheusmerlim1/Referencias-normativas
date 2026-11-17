@@ -1,0 +1,106 @@
+{
+ "id": "PETROBRAS-N-1854",
+ "titulo": "Petrobras N-1854 Rev. D (12/2012) — Compressores alternativos",
+ "secoes": [
+  {
+   "titulo": "Escopo e forma da norma",
+   "item": "1; 6.1 a 6.7",
+   "texto": "Requisitos Petrobras sobre a API 618 (2007): cada item adiciona, substitui, modifica ou exclui um parágrafo da API, com a numeração dela entre parênteses. Vasos do trem pelo ASME VIII Div. 1; equipamento elétrico pela classificação de área (IEC 60079); instalação ao tempo; verificação de alinhamento em temperatura de operação acordada. Modelos novos ou protótipos não são aceitos.",
+   "valores": [
+    {
+     "parametro": "Experiência exigida do modelo ofertado",
+     "valor": "≥ 25 000 h contínuas em condições parecidas, em 50 máquinas do mesmo modelo e 25 do mesmo tamanho",
+     "item": "6.7"
+    },
+    {
+     "parametro": "Nível de pressão sonora do trem",
+     "valor": "≤ 85 dB(A), resposta lenta, a 1 m das superfícies",
+     "item": "6.2",
+     "cota": "esquemas/compressor-centrifugo.svg#distancia-ruido"
+    }
+   ],
+   "figuras": [
+    "esquemas/compressor-alternativo.svg",
+    "esquemas/compressor-centrifugo.svg"
+   ]
+  },
+  {
+   "titulo": "Projeto do compressor",
+   "item": "6.9 a 6.40",
+   "texto": "Velocidade conservadora; cilindros e bolsões sem retenção de líquido; camisas com interferência e travadas por meio mecânico; anéis de sustentação inteiriços; haste sem cromo e com meio de despressurizar o gás preso; virabrequim forjado inteiriço, retificado e sem cantos vivos; bielas forjadas; cárter com alívio de pressão e fundo inclinado com dreno; mancais fixos com óleo individual; bombas de óleo com filtro de sucção e sem escorva manual; óleo mineral (sintético só aprovado); materiais de válvulas para longa campanha; parafusos de juntas pressurizadas em aço-liga (B7); tampas de válvula de aço; placas em português.",
+   "valores": [
+    {
+     "parametro": "Velocidade média máxima do pistão — sem lubrificação / lubrificado",
+     "valor": "3,3 m/s / 4,4 m/s",
+     "item": "6.9",
+     "cota": "esquemas/compressor-alternativo.svg#pistao"
+    },
+    {
+     "parametro": "Camisa do cilindro",
+     "valor": "ajuste por interferência + trava mecânica (só interferência não é aceita)",
+     "item": "6.12",
+     "cota": "esquemas/compressor-alternativo.svg#camisa"
+    },
+    {
+     "parametro": "Orifício de restrição dos vents",
+     "valor": "Ø 1/8″ (3 mm)",
+     "item": "6.27",
+     "cota": "esquemas/compressor-alternativo.svg#vent-orificio"
+    },
+    {
+     "parametro": "Filtro de sucção das bombas de óleo",
+     "valor": "malha inox ≥ 60 mesh; perda de carga ≤ 14 kPa",
+     "item": "6.30",
+     "cota": "esquemas/compressor-alternativo.svg#filtro-oleo"
+    },
+    {
+     "parametro": "Campanha mínima dos materiais das válvulas",
+     "valor": "8 000 h de funcionamento contínuo",
+     "item": "6.34"
+    }
+   ],
+   "figuras": [
+    "esquemas/compressor-alternativo.svg"
+   ]
+  },
+  {
+   "titulo": "Acessórios",
+   "item": "7",
+   "texto": "Bases de acionadores com macacos verticais; motor com folga de potência; acoplamento seco de membrana inox, torsionalmente rígido, com espaçador e troca de peças sem mover o acionador; óleo com filtros (plugues magnéticos) e resfriadores; chumbadores projetados pelo fornecedor; contatos de alarme e desligamento que abrem (desenergizam). Análise de pulsação feita e interpretada pelo fornecedor do compressor; garrafas e componentes com PMTA mínima e radiografia total em serviço perigoso.",
+   "valores": [
+    {
+     "parametro": "Potência de placa do motor (sem fator de serviço)",
+     "valor": "≥ 110 % da maior potência requerida (com perdas)",
+     "item": "7.2"
+    },
+    {
+     "parametro": "PMTA mínima de qualquer componente",
+     "valor": "pressão de ajuste da válvula de alívio + acúmulo, e nunca abaixo de 4 bar (60 psig)",
+     "item": "7.15"
+    },
+    {
+     "parametro": "Radiografia de soldas de topo em serviço perigoso",
+     "valor": "100 %",
+     "item": "7.16"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção e testes",
+   "item": "8",
+   "texto": "Procedimentos de inspeção e teste enviados com antecedência; cilindros com UT ou radiografia em serviço com H2S ou hidrogênio. Teste de fábrica com funcionamento sem carga, usando a roda volante do contrato; depois, boroscopia de cilindro, camisa, haste e pistão (abrindo todos se houver anomalia), inspeção da metade superior dos mancais principais e medição da deflexão das almas do virabrequim.",
+   "valores": [
+    {
+     "parametro": "Antecedência dos procedimentos de teste",
+     "valor": "≥ 6 semanas antes do primeiro teste",
+     "item": "8.3"
+    },
+    {
+     "parametro": "Teste mecânico sem carga",
+     "valor": "4 h",
+     "item": "8.6"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "id": "PETROBRAS-N-0553",
+ "titulo": "Petrobras N-0553 Rev. E (04/2015) — Bombas centrífugas para as indústrias petroquímica, de gás natural e de petróleo",
+ "secoes": [
+  {
+   "titulo": "Escopo e estrutura da norma",
+   "item": "1; 3; 4; 6",
+   "texto": "Complementa a API 610 (2010) item a item — cada requisito é marcado como adição, substituição, modificação, exclusão ou novo. A 1ª emenda (04/2015) trocou as referências ISO 13709/21049/10441 pelas API 610/682/671. Em conflito na proposta vale: folhas de dados > especificações suplementares > esta norma e as normas citadas. Define \"serviço perigoso\" para fins de selagem e construção.",
+   "valores": [
+    {
+     "parametro": "Serviço perigoso — H2S",
+     "valor": "acima de 500 ppm (massa)",
+     "item": "3.1 a)"
+    },
+    {
+     "parametro": "Serviço perigoso — hidrocarboneto com hidrogênio",
+     "valor": "pressão parcial de H2 acima de 700 kPa (abs)",
+     "item": "3.1 b)"
+    },
+    {
+     "parametro": "Serviço perigoso — temperatura",
+     "valor": "hidrocarboneto bombeado acima da autoignição",
+     "item": "3.1 c)"
+    }
+   ],
+   "figuras": [
+    "esquemas/bomba-centrifuga-conjunto.svg"
+   ]
+  },
+  {
+   "titulo": "Projeto hidráulico",
+   "item": "7.1 a 7.11",
+   "texto": "A bomba tem de permitir aumento futuro de altura com impelidor maior; curva estável (altura crescendo até o shutoff); NPSH com margem; dados de ruído por banda de oitava. Fixadores de aço baixa liga com revestimento de Zn-Ni quando não forem de inox. Certas configurações só com aprovação.",
+   "valores": [
+    {
+     "parametro": "Aumento de altura manométrica com troca de impelidor",
+     "valor": "≥ 5 % sobre a nominal",
+     "item": "7.1",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#diametro-impelidor"
+    },
+    {
+     "parametro": "Margem de NPSH na vazão nominal",
+     "valor": "NPSHd − NPSHr ≥ 0,8 m e NPSHd/NPSHr ≥ 1,15",
+     "item": "7.3",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#npsh"
+    },
+    {
+     "parametro": "Configurações que dependem de aprovação",
+     "valor": "acoplamento rígido/monobloco, 2 estágios em balanço, dupla sucção em balanço, multiestágio segmentada, vertical (exceto in-line) acima de 1 800 rpm, OH1",
+     "item": "7.11"
+    }
+   ],
+   "figuras": [
+    "esquemas/bomba-centrifuga-conjunto.svg"
+   ]
+  },
+  {
+   "titulo": "Selagem e mancais",
+   "item": "7.27 a 7.37",
+   "texto": "Selo arranjo 1 em serviço quente leva bucha de restrição de carbono. Selos resistem estaticamente à pressão máxima de descarga (limite acima do qual se negocia). Selagem dupla em hidrocarbonetos voláteis e em H2S conforme local e concentração (não pressurizada numa faixa, pressurizada acima). Correção de balanceamento só por remoção de massa, limitada. Na lubrificação por névoa, temperatura da caixa de mancais limitada no teste. Labirinto da caixa de mancais tipo \"U\" (tipo \"L\" só em VS e BB).",
+   "valores": [
+    {
+     "parametro": "Bucha de restrição no selo arranjo 1",
+     "valor": "temperatura de operação acima de 80 °C",
+     "item": "7.27"
+    },
+    {
+     "parametro": "Dreno da sobreposta (selo externo)",
+     "valor": "conexão ≥ 3/8″ NPT; furo ≥ 3/16″ no ponto mais baixo",
+     "item": "7.27",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#dreno-selo"
+    },
+    {
+     "parametro": "Pressão estática máxima de projeto do selo",
+     "valor": "4 200 kPa (abs); acima disso, por acordo",
+     "item": "7.28"
+    },
+    {
+     "parametro": "Selo duplo — hidrocarboneto",
+     "valor": "pressão de vapor na caixa de selagem acima de 400 kPa (abs) a 40 °C",
+     "item": "7.30 a)"
+    },
+    {
+     "parametro": "Selo duplo — H2S",
+     "valor": "> 10 ppm em local fechado; > 500 ppm em local aberto (pressurizado acima de 5 000 ppm)",
+     "item": "7.30 b)"
+    },
+    {
+     "parametro": "Redução de parede do impelidor no balanceamento",
+     "valor": "≤ 30 % (medida na periferia); acima disso, trocar o impelidor",
+     "item": "7.32",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#espessura-impelidor"
+    },
+    {
+     "parametro": "Caixa de mancais com névoa de óleo — superfície externa no teste",
+     "valor": "abaixo de 70 °C",
+     "item": "7.35 c)"
+    },
+    {
+     "parametro": "Fator ndm máximo de rolamento de esferas — óleo / graxa",
+     "valor": "350 000 / 150 000",
+     "item": "7.36"
+    }
+   ],
+   "figuras": [
+    "esquemas/bomba-centrifuga-conjunto.svg"
+   ]
+  },
+  {
+   "titulo": "Acoplamentos, base e tubulações auxiliares",
+   "item": "8",
+   "texto": "Acoplamentos balanceados e, em alta densidade de energia, pela API 671. Eixo grosso com cubo removível para manutenção do selo usa montagem cônica; furo cilíndrico sem interferência não é aceito; guarda-acoplamento de aço. Base testada apoiada só nos furos dos parafusos de fundação, com certificado de planicidade dos calços. Parafusos de alinhamento em componentes pesados. Flanges sobrepostos proibidos em contato com o bombeado; coletor e válvulas de dreno dentro da bandeja.",
+   "valores": [
+    {
+     "parametro": "Balanceamento dos acoplamentos",
+     "valor": "ISO 1940-1, grau G2.5",
+     "item": "8.3"
+    },
+    {
+     "parametro": "Acoplamento pela API 671",
+     "valor": "densidade de energia (kW × rpm) ≥ 4,0 × 10⁶",
+     "item": "8.4"
+    },
+    {
+     "parametro": "Cubo com ajuste cônico",
+     "valor": "eixo acima de 60 mm com cubo removível para o selo; conicidade 1/16 (60 mm/m) diametral em cubo chavetado",
+     "item": "8.5",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#cubo-conico"
+    },
+    {
+     "parametro": "Diferença de dureza eixo × cubo",
+     "valor": "≥ 50 HB",
+     "item": "8.6"
+    },
+    {
+     "parametro": "Parafusos de alinhamento transversal e axial",
+     "valor": "componentes com massa acima de 100 kg",
+     "item": "8.10",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#parafusos-alinhamento"
+    },
+    {
+     "parametro": "Planicidade da base",
+     "valor": "demonstrada na fábrica, base apoiada só nos furos dos chumbadores",
+     "item": "8.8",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#planicidade-base"
+    }
+   ],
+   "figuras": [
+    "esquemas/bomba-centrifuga-conjunto.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção e testes",
+   "item": "9; Tabelas 1 e 2",
+   "texto": "Classes de inspeção de material da carcaça por severidade (pressão e temperatura). Teste de desempenho com ao menos cinco pontos (shutoff, mínima contínua estável, intermediário, nominal e fim da faixa permitida), vibração em cada ponto; em bombas de alta potência, sem tolerância negativa de eficiência. Teste mecânico de 4 h quando a velocidade de rolamento ou a densidade de energia são altas; NPSHr medido em todos os pontos se a margem for pequena. Sem desmontar após o último teste; drenar e encher com inibidor. Tampas de flange rígidas no transporte; conjunto girante sobressalente preparado para armazenagem longa.",
+   "valores": [
+    {
+     "parametro": "Eficiência — bombas com acionador ≥ 1 MW",
+     "valor": "tolerância de −0 % na vazão nominal",
+     "item": "9.14"
+    },
+    {
+     "parametro": "Tolerância de vazão nos pontos de vibração",
+     "valor": "± 5 %",
+     "item": "9.15 a)"
+    },
+    {
+     "parametro": "Teste mecânico de 4 h",
+     "valor": "ndm ≥ 350 000 ou densidade de energia > 4,0 × 10⁶ kW/min",
+     "item": "9.21"
+    },
+    {
+     "parametro": "NPSHr em todos os pontos de teste",
+     "valor": "margem < 1 m ou razão < 1,20 na vazão nominal",
+     "item": "9.22",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#npsh"
+    },
+    {
+     "parametro": "Inibidor após o último teste",
+     "valor": "4 h, depois drenar",
+     "item": "9.17"
+    },
+    {
+     "parametro": "Espessura das tampas de flange no transporte",
+     "valor": "≥ 5 mm",
+     "item": "9.25",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#tampa-flange"
+    },
+    {
+     "parametro": "Conjunto girante sobressalente",
+     "valor": "preparado para ≥ 3 anos em armazém sem aquecimento",
+     "item": "9.28"
+    },
+    {
+     "parametro": "Mancal de deslizamento — temperatura calculada do babbitt",
+     "valor": "máximo 100 °C",
+     "item": "10.2"
+    },
+    {
+     "parametro": "Teste hidrostático de corpo e coluna (bombas verticais)",
+     "valor": "≥ 1,5 × a pressão diferencial máxima",
+     "item": "10.6"
+    }
+   ],
+   "figuras": [
+    "esquemas/bomba-centrifuga-conjunto.svg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "id": "PETROBRAS-N-1556",
+ "titulo": "Petrobras N-1556 Rev. E (01/2011) — Vaso de pressão — requisição de material",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso do formulário",
+   "item": "1; 3",
+   "texto": "Padroniza o formulário A4 de requisição de material (RM) para comprar qualquer vaso de pressão definido na N-253. Preenchido pelo projetista, é o documento inicial da compra; legenda e rodapé pela N-381, identificação pela N-1521. Uma RM pode cobrir vários vasos só se todos forem semelhantes, da mesma área e com os mesmos requisitos.",
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Extensão do fornecimento",
+   "item": "Anexo A, itens 1 a 3",
+   "texto": "Lista para marcar o que o fornecedor faz: projeto de processo, seleção de materiais, projeto mecânico e de fabricação (N-253), internos (N-1862), escadas e plataformas, serpentina, matéria-prima, fabricação e montagem (N-268/N-269), procedimentos e qualificações de soldagem (N-133) e de END, inspeções, tratamentos térmicos, teste hidrostático, orelhas para escadas, plataformas e suportes, suportes de isolamento e de proteção contra fogo, isolamento (N-250, N-550, N-894), revestimentos, pintura (N-2, N-13), embalagem, transporte, montagem ou supervisão no campo, manuais, sobressalentes, turco, olhais de içamento e placas de deslizamento de PTFE. Fornecimentos parciais são detalhados à parte (reforços de bocais, flanges de chapa, análises de tensões e fadiga pela Div. 2).",
+   "valores": [
+    {
+     "parametro": "Nível de inspeção (garantia da qualidade) se não especificado",
+     "valor": "nível 2",
+     "item": "Anexo A, item 3, nota"
+    }
+   ]
+  },
+  {
+   "titulo": "Sobressalentes, entrega e documentos",
+   "item": "Anexo A, itens 4 a 12",
+   "texto": "Sobressalentes padrão: juntas, parafusos e porcas para cada boca de visita, gabarito de chumbadores e uma reserva de fixadores. Entrega inteira ou em seções, com peso e dimensões máximas de transporte e gabarito de estrada. Documentos comentados e aprovados conforme a N-266; fabricação de cada parte só começa com os desenhos aprovados sem comentários.",
+   "valores": [
+    {
+     "parametro": "Juntas de reserva por boca de visita",
+     "valor": "2 jogos",
+     "item": "Anexo A, item 4"
+    },
+    {
+     "parametro": "Parafusos e porcas de reserva por boca de visita",
+     "valor": "1 jogo",
+     "item": "Anexo A, item 4"
+    },
+    {
+     "parametro": "Reserva geral de parafusos, porcas e arruelas",
+     "valor": "10 %",
+     "item": "Anexo A, item 4"
+    },
+    {
+     "parametro": "Dimensões máximas para transporte",
+     "valor": "campo a preencher (com gabarito de estrada)",
+     "item": "Anexo A, item 6",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#comprimento-horizontal",
+     "nota": "campo do formulário"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  }
+ ]
+}

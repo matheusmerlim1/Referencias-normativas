@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" width="1100" height="620" role="img" aria-label="Compressor alternativo — carcaça, cruzeta, cilindro, garrafas e lubrificação">
+<title>Compressor alternativo — carcaça, cruzeta, cilindro, garrafas e lubrificação (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .cc{fill:#bbb;fill-opacity:.5;stroke:#777;stroke-width:1.4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .hc{fill:url(#hach);stroke:#666;stroke-width:1.2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Compressor alternativo — carcaça, cruzeta, cilindro, garrafas e lubrificação</text>
+<rect class="sl" x="60" y="250" width="260" height="170" rx="10"/><circle class="w" cx="190" cy="335" r="45"/><line class="g" x1="190" y1="335" x2="215" y2="300"/>
+<line class="g" x1="215" y1="300" x2="420" y2="330"/><rect class="sl" x="320" y="300" width="200" height="70"/><rect class="w" x="410" y="315" width="40" height="40"/>
+<line class="g" x1="450" y1="335" x2="700" y2="335"/><rect class="s" x="560" y="250" width="300" height="170" rx="6"/><rect class="w" x="575" y="268" width="270" height="134"/><rect class="sl" x="680" y="280" width="40" height="110"/>
+<rect class="w" x="600" y="210" width="40" height="40"/><rect class="w" x="780" y="210" width="40" height="40"/><rect class="w" x="600" y="420" width="40" height="40"/><rect class="w" x="780" y="420" width="40" height="40"/>
+<rect class="sl" x="580" y="110" width="260" height="70" rx="35"/><rect class="sl" x="580" y="490" width="260" height="70" rx="35"/><line class="g" x1="620" y1="180" x2="620" y2="210"/><line class="g" x1="800" y1="180" x2="800" y2="210"/><line class="g" x1="620" y1="460" x2="620" y2="490"/><line class="g" x1="800" y1="460" x2="800" y2="490"/>
+<circle class="sl" cx="30" cy="335" r="0"/><rect class="sl" x="20" y="300" width="40" height="70"/><path class="g" d="M60,420 L80,440 L300,440 L320,420"/>
+<text class="n" x="70" y="245">carcaça (cárter) e virabrequim</text>
+<text class="n" x="330" y="295">cruzeta e peça distanciadora</text>
+<text class="n" x="870" y="300">cilindro com camisa</text>
+<text class="n" x="600" y="100">garrafa de pulsação (descarga)</text>
+<text class="n" x="600" y="585">garrafa de pulsação (sucção)</text>
+<text class="n" x="20" y="290">volante</text>
+<g id="cota-haste" class="cota"><line class="d" x1="520" y1="240" x2="560" y2="333" marker-end="url(#a)"/><text class="" x="430" y="230">haste do pistão (sem cromo)</text></g>
+<g id="cota-camisa" class="cota"><line class="d" x1="960" y1="360" x2="846" y2="350" marker-end="url(#a)"/><text class="" x="880" y="380">camisa com interferência</text></g>
+<g id="cota-vent-orificio" class="cota"><line class="d" x1="960" y1="180" x2="842" y2="145" marker-end="url(#a)"/><text class="" x="860" y="170">orifício de restrição do vent</text></g>
+<g id="cota-filtro-oleo" class="cota"><line class="d" x1="100" y1="520" x2="150" y2="442" marker-end="url(#a)"/><text class="" x="40" y="540">filtro de sucção da bomba de óleo (malha)</text></g>
+<g id="cota-carter-dreno" class="cota"><line class="d" x1="360" y1="480" x2="300" y2="442" marker-end="url(#a)"/><text class="" x="330" y="500">fundo inclinado com dreno</text></g>
+<g id="cota-pistao" class="cota"><line class="d" x1="700" y1="280" x2="700" y2="390" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="706" y="300">pistão</text></g>
+<text class="n" x="20" y="608">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

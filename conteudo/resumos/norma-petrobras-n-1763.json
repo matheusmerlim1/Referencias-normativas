@@ -1,0 +1,101 @@
+{
+ "id": "PETROBRAS-N-1763",
+ "titulo": "Petrobras N-1763 Rev. D (03/2015) — Projeto e execução de bacias de contenção de tanques de armazenamento",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1; 3",
+   "texto": "Condições para projetar e executar bacias de contenção de tanques (o solo sob o tanque segue a N-1822). Bacia = área deprimida ou cercada por diques para conter vazamentos; dique = maciço de terra, concreto ou outro material compatível, com taludes e crista; dique intermediário separa tanques ou contém pequenos derrames; minidique = piso com muretas em volta do tanque, incluindo canaletas e áreas de válvulas e amostradores. Dimensionamento pela NBR 17505-2; geometria do talude por estudo geotécnico (NBR 11682).",
+   "figuras": [
+    "esquemas/bacia-contencao-dique.svg"
+   ]
+  },
+  {
+   "titulo": "Tolerâncias e dados geotécnicos",
+   "item": "4.2; 5",
+   "texto": "Dique executado com tolerâncias de nível e de alinhamento. A camada superior do platô é caracterizada por ensaios (massa específica in situ, permeabilidade natural, compactação, permeabilidade e CBR compactados a 100 % do Proctor Normal, inclusive melhorados com cal ou cimento); se a permeabilidade natural já atende, os demais ensaios são dispensados. Sondagens à percussão avaliam suporte e recalques.",
+   "valores": [
+    {
+     "parametro": "Tolerância de nivelamento do dique",
+     "valor": "± 2,0 cm",
+     "item": "4.2 a)",
+     "cota": "esquemas/bacia-contencao-dique.svg#nivelamento"
+    },
+    {
+     "parametro": "Tolerância de alinhamento do dique",
+     "valor": "± 5,0 cm",
+     "item": "4.2 b)",
+     "cota": "esquemas/bacia-contencao-dique.svg#alinhamento"
+    },
+    {
+     "parametro": "Espessura da camada superior caracterizada",
+     "valor": "60 cm a partir do topo do platô",
+     "item": "5.1",
+     "cota": "esquemas/bacia-contencao-dique.svg#camada-superior"
+    },
+    {
+     "parametro": "Teor de cal ou cimento nos ensaios com solo melhorado",
+     "valor": "5 % em massa",
+     "item": "5.1 f), g)"
+    }
+   ],
+   "figuras": [
+    "esquemas/bacia-contencao-dique.svg"
+   ]
+  },
+  {
+   "titulo": "Permeabilidade e soluções de impermeabilização",
+   "item": "6; 7",
+   "texto": "Conforme a permeabilidade natural da camada superior: muito baixa dispensa impermeabilização; intermediária exige tratar ou substituir a camada, fazer minidique (N-38) ou revestir; alta exige tratar/substituir até a condição baixa, ou até a intermediária com minidique, ou revestir. A redução de permeabilidade pode ser por recompactação, aglomerante químico ou substituição. Bacia projetada para tráfego eventual de manutenção (rampas pela N-1674).",
+   "valores": [
+    {
+     "parametro": "Dispensa de impermeabilização",
+     "valor": "k ≤ 10⁻⁶ cm/s",
+     "item": "6.1"
+    },
+    {
+     "parametro": "Faixa intermediária",
+     "valor": "10⁻⁶ < k ≤ 10⁻⁴ cm/s",
+     "item": "6.2"
+    },
+    {
+     "parametro": "Espessura da camada tratada ou substituída",
+     "valor": "60 cm",
+     "item": "6.2 a); 6.3 a), b)",
+     "cota": "esquemas/bacia-contencao-dique.svg#camada-superior"
+    }
+   ],
+   "figuras": [
+    "esquemas/bacia-contencao-dique.svg"
+   ]
+  },
+  {
+   "titulo": "Revestimentos",
+   "item": "9",
+   "texto": "O revestimento protege ou impermeabiliza conforme a solução. Taludes de solo são sempre revestidos; solos expansivos pedem medidas contra fissuras. Opções: vegetal (taludes), base granular (piso), betuminoso (piso e talude, sobre superfície imprimada, passando sobre a borda das canaletas), geomembrana (piso e talude interno, com proteção se necessário), concreto (classe de agressividade III, juntas pela N-1690), solo-cimento ou solo-cal, e argamassa projetada com tela nos taludes.",
+   "valores": [
+    {
+     "parametro": "Base granular no piso — espessura mínima",
+     "valor": "10 cm",
+     "item": "9.4.2",
+     "cota": "esquemas/bacia-contencao-dique.svg#base-granular"
+    },
+    {
+     "parametro": "Revestimento betuminoso — espessura",
+     "valor": "≥ 4 cm",
+     "item": "9.4.3",
+     "cota": "esquemas/bacia-contencao-dique.svg#revestimento-talude"
+    },
+    {
+     "parametro": "Argamassa projetada nos taludes",
+     "valor": "≥ 3 cm, traço 1:3, com tela de arame grampeada",
+     "item": "9.4.7",
+     "cota": "esquemas/bacia-contencao-dique.svg#revestimento-talude"
+    }
+   ],
+   "figuras": [
+    "esquemas/bacia-contencao-dique.svg"
+   ]
+  }
+ ]
+}

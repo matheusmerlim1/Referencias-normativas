@@ -1,0 +1,45 @@
+{
+ "id": "PETROBRAS-N-1500",
+ "titulo": "Petrobras N-1500 Rev. E (05/2010) — Vasos de pressão — folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso dos formulários",
+   "item": "1; 3",
+   "texto": "Padroniza dois formulários A4 de folha de dados de vaso de pressão: Anexo A em unidades do sistema de engenharia e Anexo B em SI. Preenchida, registra os requisitos do comprador e o projeto do fornecedor e vira documento permanente do equipamento. Cabeçalho e rodapé pela N-381 (que também fornece folhas de continuação, notas e desenho de orientação de bocais); identificação do vaso pela N-1521; preenchimento conforme a N-253. Campos não aplicáveis são riscados; linhas em branco recebem dados complementares.",
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo da folha de dados",
+   "item": "Anexos A e B",
+   "texto": "Folha 1: identificação e índice de revisões. Folha 2: serviço e quantidade; dados de operação (fluido, densidade, pressão e temperaturas máxima e mínima de operação, pressão parcial de H2); dados de projeto (código e adenda, pressão e temperatura de projeto, diâmetro interno, comprimento entre tangentes, tipo de tampo, radiografia e eficiência de soldas de casco e tampos, categoria NR-13, sobre-espessura de corrosão); materiais de cada parte (casco, tampos, bocais, bocas de visita, reforços, tubos, acessórios soldados, internos removíveis, parafusos, juntas, suportes e chumbadores). Folha 3: lista de bocais (quantidade, diâmetro, classe, face, serviço, espessura), teste de impacto, tratamento térmico, isolamento, proteção contra fogo, pintura, revestimento interno, transporte, pressões máximas admissíveis (novo/corroído, vertical/horizontal) e de teste, e cargas na base (pesos vazio, montagem, operação, teste, parada, emergência e internos; momentos e cortante). Folha 4: notas.",
+   "valores": [
+    {
+     "parametro": "Dimensões principais pedidas",
+     "valor": "diâmetro interno e comprimento entre tangentes (mm)",
+     "item": "Folha 02",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#comprimento-horizontal",
+     "nota": "campos do formulário; a norma não fixa valores"
+    },
+    {
+     "parametro": "Sobre-espessura de corrosão",
+     "valor": "campo em mm",
+     "item": "Folha 02",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#corrosao",
+     "nota": "campo do formulário"
+    },
+    {
+     "parametro": "Bocais",
+     "valor": "quantidade, diâmetro, classe de pressão, face e espessura",
+     "item": "Folha 03",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#bocal-min",
+     "nota": "campos do formulário"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  }
+ ]
+}

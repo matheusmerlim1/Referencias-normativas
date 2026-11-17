@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-label="Base de tanque — anel de concreto, base drenante, revestimento e drenos de alerta">
+<title>Base de tanque — anel de concreto, base drenante, revestimento e drenos de alerta (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .cc{fill:#bbb;fill-opacity:.5;stroke:#777;stroke-width:1.4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .hc{fill:url(#hach);stroke:#666;stroke-width:1.2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Base de tanque — anel de concreto, base drenante, revestimento e drenos de alerta</text>
+<text class="b" x="20" y="58">(a) Corte na borda do tanque (produto não aquecido)</text>
+<rect class="cc" x="380" y="250" width="70" height="150"/><rect class="s" x="420" y="120" width="8" height="140"/><rect class="s" x="80" y="242" width="370" height="8"/>
+<rect class="sl" x="80" y="250" width="300" height="14"/><rect class="y" x="80" y="264" width="300" height="50"/><line class="v" x1="80" y1="316" x2="385" y2="316"/><rect class="hc" x="80" y="318" width="300" height="80"/>
+<line class="g" x1="450" y1="380" x2="620" y2="380"/><rect class="w" x="330" y="285" width="200" height="12" rx="6"/><rect class="s" x="600" y="350" width="12" height="30"/>
+<text class="n" x="460" y="140">costado</text>
+<text class="n" x="90" y="236">chapa do fundo</text>
+<text class="n" x="470" y="300">tubo dreno de alerta</text>
+<text class="n" x="470" y="370">minidique</text>
+<text class="n" x="90" y="410">solo compactado</text>
+<text class="n" x="395" y="420">anel de concreto</text>
+<g id="cota-revestimento" class="cota"><line class="d" x1="200" y1="215" x2="200" y2="255" marker-end="url(#a)"/><text class="" x="160" y="210">revestimento</text></g>
+<g id="cota-base-drenante" class="cota"><line class="d" x1="70" y1="264" x2="70" y2="314" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="76" y="285">base drenante</text></g>
+<g id="cota-agregado" class="cota"><line class="d" x1="260" y1="350" x2="240" y2="295" marker-end="url(#a)"/><text class="" x="180" y="368">agregado (dimensão máx.)</text></g>
+<g id="cota-geomembrana" class="cota"><line class="d" x1="470" y1="330" x2="384" y2="317" marker-end="url(#a)"/><text class="" x="470" y="345">geomembrana PEAD + geotêxtil</text></g>
+<g id="cota-caimento" class="cota"><line class="d" x1="320" y1="200" x2="300" y2="248" marker-end="url(#a)"/><text class="" x="290" y="195">caimento i %</text></g>
+<text class="b" x="660" y="58">(b) Planta: drenos de alerta</text>
+<circle class="sl" cx="800" cy="220" r="110"/>
+<line class="g" x1="902" y1="262" x2="929" y2="274"/>
+<line class="g" x1="842" y1="322" x2="854" y2="349"/>
+<line class="g" x1="758" y1="322" x2="746" y2="349"/>
+<line class="g" x1="698" y1="262" x2="671" y2="274"/>
+<line class="g" x1="698" y1="178" x2="671" y2="166"/>
+<line class="g" x1="758" y1="118" x2="746" y2="91"/>
+<line class="g" x1="842" y1="118" x2="854" y2="91"/>
+<line class="g" x1="902" y1="178" x2="929" y2="166"/>
+<g id="cota-espacamento-drenos" class="cota"><path class="d" d="M938.6,162.6 A150,150 0 0,0 857.4,81.4" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="960" y="90">espaçamento entre drenos</text></g>
+<text class="b" x="20" y="470">(c) Produto aquecido: isolamento sob o fundo</text>
+<rect class="s" x="80" y="490" width="370" height="8"/><rect class="b2" x="80" y="498" width="300" height="24"/><rect class="y" x="80" y="522" width="300" height="30"/><rect class="cc" x="380" y="498" width="70" height="60"/>
+<g id="cota-isolamento" class="cota"><line class="d" x1="520" y1="505" x2="382" y2="510" marker-end="url(#a)"/><text class="" x="460" y="498">camada de isolamento térmico</text></g>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

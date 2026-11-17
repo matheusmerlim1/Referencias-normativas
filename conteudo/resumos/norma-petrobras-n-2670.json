@@ -1,0 +1,142 @@
+{
+ "id": "PETROBRAS-N-2670",
+ "titulo": "Petrobras N-2670 Rev. C (09/2013) — Embarcações em terminais: liberação e medição de produtos em navios-tanque",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 4",
+   "texto": "Critérios para inspecionar e aceitar tanques de navios petroleiros e para medir cargas de petróleo, derivados e etanol no carregamento e na descarga em terminais aquaviários, incluindo a liberação inicial, intermediária e final do navio e a fiscalização das empresas inspetoras (surveyors). Não vale para navios químicos e de gás. A limpeza e adequação de tanques, bombas e redes é responsabilidade do navio; o terminal responde pela carga até o manifold e confere o cumprimento da N-2673.",
+   "valores": [],
+   "figuras": [
+    "esquemas/navio-tanque-carga-medicao-limpeza.svg"
+   ]
+  },
+  {
+   "titulo": "Amostragem e inspeção dos tanques de bordo",
+   "item": "4.1–4.3",
+   "texto": "Amostras no píer, no manifold e no primeiro nível de carga do primeiro tanque recebedor permitem apurar responsabilidade por contaminação. Só se entra no tanque (condição free for man, inspetor independente acompanhado pelo navio, ISGOTT e NR-33) em casos como QAV, lubrificantes, claro após escuro, etanol, produtos de especificação restrita (diesel S10) ou exigência contratual. Tanques e redes devem estar secos, drenados e limpos; o terminal não assina certificado de aptidão de terceiros (se pressionado, anota 'somente recebido') e confere as 3 últimas cargas do navio.",
+   "valores": [
+    {
+     "parametro": "Amostra representativa do início do carregamento",
+     "valor": "quando o produto atinge 1 m (ou 1 pé) de altura no 1º tanque recebedor (ou no mais crítico)",
+     "item": "4.1.3",
+     "cota": "esquemas/navio-tanque-carga-medicao-limpeza.svg#amostra-inicio"
+    },
+    {
+     "parametro": "Revestimento de tanque para QAV — corrosão máxima",
+     "valor": "20 % da área total do tanque",
+     "item": "4.3.1 a)"
+    },
+    {
+     "parametro": "Últimas cargas a avaliar",
+     "valor": "3",
+     "item": "4.3.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Liberação do navio e documentos",
+   "item": "5–7",
+   "texto": "Na chegada fazem-se reunião inicial, inspeção de segurança (ISGOTT), leitura do calado a vante, meia-nau e ré, troca de documentos e amostras de origem, medição de nível, água e temperatura em todos os tanques e cálculo das quantidades a bordo (RMQB). Sem aviso de pronto para operar (NOR), declaração de combustível seguro e plano de carga/descarga, a operação não é autorizada; falhas viram carta-protesto. Medição automática do navio só é aceita se calibrada e em casos específicos (terminal desabrigado com mar ruim, cabotagem de petróleo das plataformas); se a diferença sair da tolerância, mede-se com sonda UTI ou trena.",
+   "valores": [
+    {
+     "parametro": "Leitura de calado",
+     "valor": "a vante, a meia-nau (BB e BE) e a ré",
+     "item": "5.2 c); 10.2, Nota 2",
+     "cota": "esquemas/navio-tanque-carga-medicao-limpeza.svg#calado"
+    },
+    {
+     "parametro": "Medição de nível nos tanques de bordo",
+     "valor": "ulagem (espaço vazio) e inagem (altura de produto), água livre e temperatura em todos os tanques",
+     "item": "8.1",
+     "cota": "esquemas/navio-tanque-carga-medicao-limpeza.svg#ulagem"
+    },
+    {
+     "parametro": "Inagem — altura de líquido no tanque",
+     "valor": "medida com sonda UTI ou trena a partir do ponto de referência",
+     "item": "3.13; 5.6.3; 8.1",
+     "cota": "esquemas/navio-tanque-carga-medicao-limpeza.svg#inagem"
+    },
+    {
+     "parametro": "Combustível seguro — ponto de fulgor",
+     "valor": "acima de 60 °C",
+     "item": "6.2.2 b); 7.1"
+    },
+    {
+     "parametro": "Desconto de água e sedimentos em óleo combustível",
+     "valor": "o que exceder 1,0 % em volume (petróleo e demais derivados: desconto integral)",
+     "item": "5.7"
+    },
+    {
+     "parametro": "Temperatura de referência de volume",
+     "valor": "20 °C",
+     "item": "3.14; 8.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Cálculo e tolerâncias de quantidade",
+   "item": "6.6; 8.7; 9; 12",
+   "texto": "O volume carregado é o total a bordo depois menos o que já havia antes (OBQ); na descarga, o total antes menos o remanescente (ROB). O volume de bordo é corrigido pelo fator de experiência do navio (FEN, API MPMS 17.9, calculado com pelo menos os 5 últimos carregamentos) e comparado com o de terra. Na primeira hora a diferença terra × bordo pode ser enchimento de linha; depois mede-se a cada hora no máximo e, fora do limite, a operação é parada.",
+   "valores": [
+    {
+     "parametro": "Diferença terra × bordo corrigido pelo FEN",
+     "valor": "−0,3 % a +0,3 % do volume de terra",
+     "item": "8.7; 12.3"
+    },
+    {
+     "parametro": "Diferença terra × bordo — navio sem FEN",
+     "valor": "−0,5 % a +0,5 %",
+     "item": "8.7.2, Nota; 12.3"
+    },
+    {
+     "parametro": "Bordo origem × bordo destino",
+     "valor": "−0,2 % a +0,2 %",
+     "item": "12.1.1"
+    },
+    {
+     "parametro": "Terra origem × terra destino — derivados claros e escuros",
+     "valor": "−0,65 % a +0,15 %",
+     "item": "12.1.2 a)"
+    },
+    {
+     "parametro": "Terra origem × terra destino — petróleo nacional / importado",
+     "valor": "−0,50 % / −0,30 %",
+     "item": "12.1.2 b), c)"
+    },
+    {
+     "parametro": "Intervalo das medições intermediárias",
+     "valor": "≤ 1 h (após a primeira hora)",
+     "item": "9.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Empresa inspetora",
+   "item": "13",
+   "texto": "A inspetora só atua com ordem de serviço; acompanha medições e amostras com instrumentos calibrados, verifica limpeza de tanques (N-2673), slop, cargas em trânsito e as 3 últimas cargas, supervisiona aditivos, lacra amostras com rubrica das partes e analisa consistência entre linha, terra e bordo.",
+   "valores": [
+    {
+     "parametro": "Antecedência das informações ao terminal",
+     "valor": "≥ 24 h antes da operação",
+     "item": "13.2"
+    },
+    {
+     "parametro": "Guarda das amostras-testemunho",
+     "valor": "90 dias a partir da coleta",
+     "item": "13.7.9"
+    },
+    {
+     "parametro": "Produto aquecido — espera para medição inicial",
+     "valor": "≥ 2 h após desligar o aquecimento",
+     "item": "13.8.3"
+    },
+    {
+     "parametro": "Carregamentos mínimos para determinar o FEN",
+     "valor": "5 últimos",
+     "item": "13.8.5"
+    }
+   ]
+  }
+ ]
+}

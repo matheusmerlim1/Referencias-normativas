@@ -1,0 +1,165 @@
+{
+ "id": "PETROBRAS-N-0906",
+ "titulo": "Petrobras N-0906 Rev. D (10/2013) — Bombas centrífugas para serviços médios",
+ "secoes": [
+  {
+   "titulo": "Escopo — limites do serviço médio",
+   "item": "1",
+   "texto": "Requisitos mínimos para bombas centrífugas horizontais em serviços químicos, petroquímicos e outros de média severidade, sem líquidos perigosos e dentro de limites de pressão, temperatura, rotação, altura e tamanho. Bombas de combate a incêndio e de recirculação de torres de resfriamento seguem esta norma em qualquer caso.",
+   "valores": [
+    {
+     "parametro": "Pressão de descarga / de sucção (manométrica)",
+     "valor": "até 1 900 kPa / até 500 kPa",
+     "item": "1.1 a), b)"
+    },
+    {
+     "parametro": "Temperatura de bombeamento",
+     "valor": "até 150 °C (não hidrocarbonetos); até 50 °C (hidrocarbonetos)",
+     "item": "1.1 c)"
+    },
+    {
+     "parametro": "Rotação e altura manométrica nominal",
+     "valor": "até 3 600 rpm; até 120 m",
+     "item": "1.1 d), e)"
+    },
+    {
+     "parametro": "Diâmetro do impelidor em bombas em balanço",
+     "valor": "até 330 mm",
+     "item": "1.1 f)",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#impelidor-balanco"
+    }
+   ],
+   "figuras": [
+    "esquemas/bomba-centrifuga-conjunto.svg"
+   ]
+  },
+  {
+   "titulo": "Projeto hidráulico",
+   "item": "4.1",
+   "texto": "Curva estável; em paralelo, shutoff bem acima do ponto nominal (placa de orifício só com aprovação). Ponto nominal dentro de uma faixa em torno do ponto de máxima eficiência (PME). Margem de NPSH igual à da N-553.",
+   "valores": [
+    {
+     "parametro": "Shutoff em operação paralela",
+     "valor": "≥ 110 % da altura do ponto nominal",
+     "item": "4.1.1.2"
+    },
+    {
+     "parametro": "Margem de NPSH na vazão nominal",
+     "valor": "NPSHd − NPSHr ≥ 0,8 m e razão ≥ 1,15",
+     "item": "4.1.1.6",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#npsh"
+    },
+    {
+     "parametro": "Vazão nominal em relação ao PME",
+     "valor": "70 % a 120 % (bocal de descarga ≥ DN 100); demais: da mínima estável a 120 %",
+     "item": "4.1.2.2; 4.1.3.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/bomba-centrifuga-conjunto.svg"
+   ]
+  },
+  {
+   "titulo": "Construção",
+   "item": "4.2 a 4.5",
+   "texto": "Vedação da caixa de mancais por retentor bilabial só em eixo fino; acima, labirinto rotativo \"U\". Selo mecânico API 682 categoria 1 (selo padrão do fabricante só para água em eixo fino). Guarda-acoplamento de chapa de aço; em eixo grosso, com janela de inspeção. Mancais de deslizamento em munhões grandes. Turbina a vapor com folga de potência. Materiais pela Tabela 2 (classes 1 a 6). Base sem ferro fundido, com furos para grauteamento e bandeja coletora drenando à frente da bomba; tubulações de selagem, respiro e dreno em material igual ou superior ao da carcaça (mínimo aço-carbono).",
+   "valores": [
+    {
+     "parametro": "Retentor bilabial admitido",
+     "valor": "eixo até 30 mm na região de vedação",
+     "item": "4.2.1.4",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#diametro-eixo"
+    },
+    {
+     "parametro": "Selo padrão do fabricante (água)",
+     "valor": "eixo abaixo de 40 mm na região de vedação",
+     "item": "4.2.1.7",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#diametro-eixo"
+    },
+    {
+     "parametro": "Guarda-acoplamento — carga em qualquer direção",
+     "valor": "900 N",
+     "item": "4.2.1.9"
+    },
+    {
+     "parametro": "Janela de inspeção no guarda-acoplamento",
+     "valor": "eixo ≥ 40 mm na região do cubo",
+     "item": "4.2.1.9 Nota 1",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#diametro-eixo"
+    },
+    {
+     "parametro": "Mancais de deslizamento",
+     "valor": "munhão ≥ 80 mm",
+     "item": "4.2.3.1",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#diametro-eixo"
+    },
+    {
+     "parametro": "Potência contínua da turbina a vapor",
+     "valor": "≥ 110 % da absorvida no ponto nominal",
+     "item": "4.3.2"
+    },
+    {
+     "parametro": "Dreno da bandeja da base",
+     "valor": "à frente da bomba",
+     "item": "4.5.3",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#dreno-base"
+    }
+   ],
+   "figuras": [
+    "esquemas/bomba-centrifuga-conjunto.svg"
+   ]
+  },
+  {
+   "titulo": "Testes e embarque",
+   "item": "6; 7; Tabela 3",
+   "texto": "Teste de desempenho com ao menos cinco pontos e velocidade dentro de faixa; tolerâncias de vazão, altura e potência pela Tabela 3 conforme a potência. Vibração pela ANSI/HI 9.6.4; temperaturas de óleo e mancal limitadas; NPSHr sem tolerância positiva. Flanges protegidos por flange cego de aço com junta e parafusos; demais conexões plugadas.",
+   "valores": [
+    {
+     "parametro": "Velocidade no teste de desempenho",
+     "valor": "80 % a 120 % da nominal (teste mecânico: ± 3 %)",
+     "item": "6.3.3"
+    },
+    {
+     "parametro": "Tolerância de vazão / altura — 1 a 10 kW",
+     "valor": "± 10 % / ± 8 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Tolerância de vazão / altura — 10 a 500 kW",
+     "valor": "± 8 % / ± 5 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Tolerância de vazão / altura — ≥ 500 kW",
+     "valor": "± 5 % / ± 3 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Vibração na vazão mínima estável",
+     "valor": "critério da ANSI/HI 9.6.4; o texto diz \"não exceder 30 % do estabelecido para a vazão nominal\"",
+     "item": "6.4.4",
+     "nota": "conferir: redação ambígua — o sentido provável é até 30 % acima do limite da vazão nominal"
+    },
+    {
+     "parametro": "Temperaturas em sistema pressurizado",
+     "valor": "saída de óleo < 70 °C; metal do mancal < 93 °C",
+     "item": "6.4.5 a)"
+    },
+    {
+     "parametro": "NPSHr na vazão nominal",
+     "valor": "tolerância de −2 % a 0 %",
+     "item": "6.5.2 Nota"
+    },
+    {
+     "parametro": "Flange cego de proteção para embarque",
+     "valor": "aço ≥ 5 mm, junta de borracha, ≥ 4 parafusos",
+     "item": "7.3",
+     "cota": "esquemas/bomba-centrifuga-conjunto.svg#tampa-flange"
+    }
+   ],
+   "figuras": [
+    "esquemas/bomba-centrifuga-conjunto.svg"
+   ]
+  }
+ ]
+}

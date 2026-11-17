@@ -1,0 +1,277 @@
+{
+ "id": "PETROBRAS-N-2054",
+ "titulo": "Petrobras N-2054 Rev. E (07/2024) — Caldeiraria — acessórios internos e externos de vaso de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo e regras gerais",
+   "item": "1; 3",
+   "texto": "Padroniza detalhes construtivos de acessórios externos e internos de vasos feitos pela N-253 (bandejas e internos de torres e reatores ficam na N-1862). O fabricante pode usar padrões próprios aprovados; sem eles, usa os desta norma, citados nos desenhos mecânicos e incorporados aos de fabricação. A 1ª emenda (07/2024) acrescentou tabela à Figura A.8 (selas). Antes de soldar acessório externo em vaso de aço-liga, inox, não ferroso, material de baixa temperatura com impacto ou baixa liga de P-number diferente, solda-se primeiro uma chapa do mesmo material do vaso. Fixadores de acessórios aparafusados consideram o ambiente do local.",
+   "figuras": [
+    "esquemas/vaso-acessorios-externos.svg",
+    "esquemas/vaso-acessorios-internos.svg"
+   ]
+  },
+  {
+   "titulo": "Saia: bocal de fundo, aberturas e respiros",
+   "item": "Anexo A, Figuras A.1 a A.3",
+   "texto": "O bocal de fundo atravessa a saia por abertura reforçada; uma barra chata de proteção para o transporte é removida na montagem. O reforço das aberturas repõe toda a área retirada (pode ter chapa externa adicional para reduzir a espessura); o Tipo C pode substituir o Tipo B. Respiros têm as projeções interna e externa da Figura A.3.",
+   "valores": [
+    {
+     "parametro": "Barra chata de proteção do bocal de fundo no transporte",
+     "valor": "50 × 6,3 mm (removida na montagem)",
+     "item": "Figura A.1, Nota 2",
+     "cota": "esquemas/vaso-acessorios-externos.svg#reforco-saia"
+    },
+    {
+     "parametro": "Solda do reforço da abertura (S)",
+     "valor": "S = n/2, mínimo 6 mm",
+     "item": "Figura A.2, Nota 4",
+     "cota": "esquemas/vaso-acessorios-externos.svg#solda-reforco-saia"
+    },
+    {
+     "parametro": "Espessura n do reforço",
+     "valor": "repõe 100 % da área retirada",
+     "item": "Figura A.2, Nota 5",
+     "cota": "esquemas/vaso-acessorios-externos.svg#reforco-saia"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-acessorios-externos.svg"
+   ]
+  },
+  {
+   "titulo": "Colunas e anéis de ancoragem",
+   "item": "Figuras A.4 a A.7",
+   "texto": "Colunas padronizadas para vasos verticais baixos; carga acima da tabelada usa a seção do diâmetro seguinte; colunas longas recebem contraventamento diagonal. Anéis de ancoragem tipo A (chumbadores até Ø 1″), B a E (acima de Ø 1″) e F, com diâmetro e quantidade de chumbadores no desenho do vaso e arruela de chapa grossa instalada após a montagem.",
+   "valores": [
+    {
+     "parametro": "Altura total máxima do vaso sobre colunas padronizadas",
+     "valor": "6 m (incluindo as colunas)",
+     "item": "Figura A.4, Nota 2",
+     "cota": "esquemas/vaso-acessorios-externos.svg#altura-total"
+    },
+    {
+     "parametro": "Contraventamento diagonal das colunas",
+     "valor": "comprimento da coluna acima de 1 520 mm",
+     "item": "Figura A.4, Nota 4",
+     "cota": "esquemas/vaso-acessorios-externos.svg#comprimento-coluna"
+    },
+    {
+     "parametro": "Espessura da arruela de chapa por chumbador",
+     "valor": "3/4″ (19 mm)",
+     "item": "Figuras A.5 e A.6, Nota 3",
+     "cota": "esquemas/vaso-acessorios-externos.svg#arruela"
+    },
+    {
+     "parametro": "Tensão de compressão no concreto usada no cálculo da chapa de ancoragem",
+     "valor": "52,7 kgf/cm²",
+     "item": "Figuras A.5 e A.6, Nota 5"
+    },
+    {
+     "parametro": "Tensão máxima no chumbador (área da raiz)",
+     "valor": "1 054 kgf/cm²; material ASTM A307 Gr. B; rosca UNC classe 2A/2B",
+     "item": "Figuras A.5 e A.6, Notas 6 a 8",
+     "cota": "esquemas/vaso-acessorios-externos.svg#chumbador"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-acessorios-externos.svg"
+   ]
+  },
+  {
+   "titulo": "Selas de vaso horizontal",
+   "item": "Figura A.8 (1ª emenda)",
+   "texto": "Locação e reações das selas pela N-253. A tabela da figura dá as dimensões e a carga máxima por sela em função do diâmetro interno do vaso (aços ferríticos e austeníticos); fora da tabela, projeto especial. No berço móvel a porca só encosta e o aperto é feito na contraporca, deixando a sela deslizar.",
+   "valores": [
+    {
+     "parametro": "Furos de respiro na sela",
+     "valor": "1 furo de Ø 6 mm até diâmetro de 760 mm; 2 furos acima",
+     "item": "Figura A.8, Nota 2",
+     "cota": "esquemas/vaso-acessorios-externos.svg#furo-sela"
+    },
+    {
+     "parametro": "Ângulo abraçado pelos berços metálicos",
+     "valor": "≥ 120°",
+     "item": "Figura A.8, Nota 3",
+     "cota": "esquemas/vaso-acessorios-externos.svg#angulo-sela"
+    },
+    {
+     "parametro": "Placas de deslizamento de PTFE no berço móvel",
+     "valor": "peso em operação acima de 200 kN (20 t)",
+     "item": "Figura A.8, Nota 4",
+     "cota": "esquemas/vaso-acessorios-externos.svg#ptfe"
+    },
+    {
+     "parametro": "Faixa de diâmetros internos da tabela de selas",
+     "valor": "a partir de 610 mm",
+     "item": "Figura A.8 (tabela)",
+     "cota": "esquemas/vaso-acessorios-externos.svg#angulo-sela",
+     "nota": "conferir: tabela lida do texto extraído; colunas A a J e carga por sela não reproduzidas"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-acessorios-externos.svg"
+   ]
+  },
+  {
+   "titulo": "Turcos, dobradiças, olhais e orelhas",
+   "item": "Figuras A.9 a A.16",
+   "texto": "Turcos de boca de visita horizontal e vertical são ajustados e soldados depois do flange cego posicionado; peças em aço estrutural, barras de aço-carbono e tubo usinado para deslizar justo na barra. Dobradiças de bocal de inspeção lubrificadas. Dois olhais de içamento por vaso, com dimensões J e F mínimas conforme o tampo e chapa de reforço admitida para compensar desalinhamento tampo–casco. Orelhas de escada e de plataforma conforme N-279; espessura e chapa de reforço ou de contaminação definidas pelo projetista.",
+   "valores": [
+    {
+     "parametro": "Ângulo máximo entre o cabo de içamento e a vertical",
+     "valor": "5°",
+     "item": "Figura A.12, Nota 2",
+     "cota": "esquemas/vaso-acessorios-externos.svg#angulo-cabo"
+    },
+    {
+     "parametro": "Chanfro dos cantos do olhal",
+     "valor": "3 mm",
+     "item": "Figura A.12, Nota 4",
+     "cota": "esquemas/vaso-acessorios-externos.svg#chanfro-olhal"
+    },
+    {
+     "parametro": "Espaçamento máximo das orelhas de escada de marinheiro",
+     "valor": "3 000 mm",
+     "item": "Figura A.14, Nota 3",
+     "cota": "esquemas/vaso-acessorios-externos.svg#espacamento-orelhas"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-acessorios-externos.svg"
+   ]
+  },
+  {
+   "titulo": "Eliminador de líquido (demister)",
+   "item": "Anexo B, Figura B.1",
+   "texto": "Malha entre duas grades (superior e inferior), em seções removíveis que passam pela boca de visita; tipo A para maior velocidade do vapor, B com acesso por baixo, C por cima. Malha, arames e grampos em inox; o resto em aço-carbono salvo indicação.",
+   "valores": [
+    {
+     "parametro": "Vigas de apoio",
+     "valor": "quando o vão passar de 1 800 mm",
+     "item": "Figura B.1, Nota 6",
+     "cota": "esquemas/vaso-acessorios-internos.svg#vao-viga"
+    },
+    {
+     "parametro": "Malha",
+     "valor": "97 % a 98 % de vazios, arame de Ø 0,28 mm",
+     "item": "Figura B.1, Nota 8",
+     "cota": "esquemas/vaso-acessorios-internos.svg#arame"
+    },
+    {
+     "parametro": "Grades",
+     "valor": "barras de 25 × 3 mm a cada 130 mm, vergalhões de 6 mm a cada 150 mm; contorno em barra 25 × 3 mm",
+     "item": "Figura B.1, Nota 9",
+     "cota": "esquemas/vaso-acessorios-internos.svg#grade-barras"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-acessorios-internos.svg"
+   ]
+  },
+  {
+   "titulo": "Retenção de recheio, quebra-vórtice e chicanas",
+   "item": "Figuras B.2 a B.4",
+   "texto": "Chapa de retenção de recheio para bocais até 12″, com guias e batentes defasados. Quebra-vórtice removível e chicana defletora com soldas mínimas acrescidas da corrosão; a chicana não leva solda de selagem e usa cordão intermitente.",
+   "valores": [
+    {
+     "parametro": "Cota C da chapa de retenção — bocais de 4″ e 6″ / ≥ 8″",
+     "valor": "80 / 100 mm",
+     "item": "Figura B.2, Nota 2",
+     "cota": "esquemas/vaso-acessorios-internos.svg#retencao-recheio"
+    },
+    {
+     "parametro": "Defasagem entre guias e batentes",
+     "valor": "60°",
+     "item": "Figura B.2, Nota 2 (cont.)",
+     "cota": "esquemas/vaso-acessorios-internos.svg#retencao-recheio"
+    },
+    {
+     "parametro": "Somar a corrosão à cota C (quebra-vórtice)",
+     "valor": "se a sobre-espessura total do vaso passar de 6 mm",
+     "item": "Figura B.3, Nota 2",
+     "cota": "esquemas/vaso-acessorios-internos.svg#solda-quebra-vortice"
+    },
+    {
+     "parametro": "Solda do quebra-vórtice",
+     "valor": "mínimo 3 mm + sobre-espessura de corrosão",
+     "item": "Figura B.3, Nota 4",
+     "cota": "esquemas/vaso-acessorios-internos.svg#solda-quebra-vortice"
+    },
+    {
+     "parametro": "Comprimento mínimo do cordão intermitente da chicana",
+     "valor": "50 mm",
+     "item": "Figura B.4, Nota 3",
+     "cota": "esquemas/vaso-acessorios-internos.svg#cordao-intermitente"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-acessorios-internos.svg"
+   ]
+  },
+  {
+   "titulo": "Chapa de desgaste, flanges internos e degraus",
+   "item": "Figuras B.5 a B.7",
+   "texto": "Chapa de desgaste removível, quadrada, montada em partes que passam pela boca de visita, no corpo cilíndrico ou no vertedouro. Flanges de chapa para tubulação interna não pressurizada, com faces de contato usinadas. Degraus internos de boca de visita do mesmo material do vaso ou do revestimento.",
+   "valores": [
+    {
+     "parametro": "Lado da chapa de desgaste",
+     "valor": "diâmetro de um cone de 30° medido na chapa do costado + 460 mm",
+     "item": "Figura B.5, Nota 1",
+     "cota": "esquemas/vaso-acessorios-internos.svg#lado-chapa-desgaste"
+    },
+    {
+     "parametro": "Abertura do cone de projeção",
+     "valor": "30°",
+     "item": "Figura B.5, Nota 1",
+     "cota": "esquemas/vaso-acessorios-internos.svg#cone-desgaste"
+    },
+    {
+     "parametro": "Espaçamento máximo dos parafusos de fixação",
+     "valor": "305 mm",
+     "item": "Figura B.5, Nota 2",
+     "cota": "esquemas/vaso-acessorios-internos.svg#parafusos-desgaste"
+    },
+    {
+     "parametro": "Peso máximo de cada seção",
+     "valor": "250 N (25 kgf)",
+     "item": "Figura B.5, Nota 2"
+    },
+    {
+     "parametro": "Espessura — aço-carbono",
+     "valor": "12,5 mm se 3 < C ≤ 6; 9,5 mm se C ≤ 3",
+     "item": "Figura B.5, Nota 5",
+     "cota": "esquemas/vaso-acessorios-internos.svg#espessura-desgaste",
+     "nota": "C = sobre-espessura de corrosão"
+    },
+    {
+     "parametro": "Espessura — inox",
+     "valor": "6,0 mm + C (com corrosão) ou 6,0 mm",
+     "item": "Figura B.5, Nota 5",
+     "cota": "esquemas/vaso-acessorios-internos.svg#espessura-desgaste"
+    },
+    {
+     "parametro": "Flanges de chapa internos — somar corrosão",
+     "valor": "só se a sobre-espessura passar de 6 mm",
+     "item": "Figura B.6, Nota 2",
+     "cota": "esquemas/vaso-acessorios-internos.svg#espessura-desgaste"
+    },
+    {
+     "parametro": "Filete de solda dos degraus internos",
+     "valor": "6 mm + sobre-espessura de corrosão",
+     "item": "Figura B.7, Nota 3",
+     "cota": "esquemas/vaso-acessorios-internos.svg#filete-degrau"
+    },
+    {
+     "parametro": "Degraus internos só em vaso horizontal com",
+     "valor": "diâmetro acima de 1 600 mm",
+     "item": "Figura B.7, Nota 4",
+     "cota": "esquemas/vaso-acessorios-internos.svg#diametro-vaso"
+    }
+   ],
+   "figuras": [
+    "esquemas/vaso-acessorios-internos.svg"
+   ]
+  }
+ ]
+}

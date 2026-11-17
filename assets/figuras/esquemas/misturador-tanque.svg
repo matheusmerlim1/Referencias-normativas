@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-label="Misturador de tanque — entrada lateral e vertical">
+<title>Misturador de tanque — entrada lateral e vertical (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .cc{fill:#bbb;fill-opacity:.5;stroke:#777;stroke-width:1.4}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  .hc{fill:url(#hach);stroke:#666;stroke-width:1.2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Misturador de tanque — entrada lateral e vertical</text>
+<text class="b" x="20" y="58">(a) Misturador de entrada lateral (tanque de petróleo)</text>
+<rect class="s" x="340" y="80" width="12" height="430"/><rect class="sl" x="40" y="80" width="300" height="430"/><line class="g" x1="20" y1="510" x2="520" y2="510"/>
+<rect class="w" x="352" y="425" width="30" height="40"/><rect class="s" x="382" y="418" width="8" height="54"/><rect class="w" x="390" y="425" width="50" height="40"/><rect class="w" x="440" y="420" width="70" height="50" rx="8"/>
+<line class="g" x1="160" y1="445" x2="390" y2="445"/><path class="wd" d="M160,445 L140,405 L152,402 z M160,445 L140,485 L152,488 z"/>
+<text class="n" x="445" y="415">acionador</text>
+<text class="n" x="60" y="100">tanque</text>
+<g id="cota-diametro-impelidor" class="cota"><line class="d" x1="120" y1="402" x2="120" y2="488" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="114" y="450">Ø impelidor</text></g>
+<g id="cota-altura-bocal" class="cota"><line class="e" x1="510" y1="445" x2="534" y2="445"/><line class="e" x1="510" y1="510" x2="534" y2="510"/><line class="d" x1="530" y1="445" x2="530" y2="510" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="480" y="530">eixo do bocal–fundo</text></g>
+<g id="cota-comprimento-eixo" class="cota"><line class="e" x1="160" y1="445" x2="160" y2="504"/><line class="e" x1="390" y1="445" x2="390" y2="504"/><line class="d" x1="160" y1="500" x2="390" y2="500" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="275.0" y="495">comprimento do eixo</text></g>
+<g id="cota-bocal-tanque" class="cota"><line class="d" x1="420" y1="384" x2="372" y2="425" marker-end="url(#a)"/><text class="" x="400" y="378">bocal / flange de montagem</text></g>
+<g id="cota-angulo-ajuste" class="cota"><path class="d" d="M270.0,445.0 A120,120 0 0,0 274.1,476.1" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="230" y="482">ajuste de ângulo</text></g>
+<g id="cota-diametro-eixo" class="cota"><line class="d" x1="230" y1="400" x2="250" y2="443" marker-end="url(#a)"/><text class="" x="200" y="395">Ø do eixo</text></g>
+<text class="b" x="560" y="58">(b) Misturador vertical (tanque de solução)</text>
+<rect class="sl" x="620" y="160" width="260" height="330"/><rect class="w" x="720" y="100" width="60" height="50"/><rect class="s" x="700" y="150" width="100" height="10"/><line class="g" x1="750" y1="160" x2="750" y2="420"/><path class="wd" d="M750,420 L700,410 L700,430 z M750,420 L800,410 L800,430 z"/>
+<g id="cota-diametro-tanque" class="cota"><line class="e" x1="620" y1="490" x2="620" y2="524"/><line class="e" x1="880" y1="490" x2="880" y2="524"/><line class="d" x1="620" y1="520" x2="880" y2="520" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="750.0" y="513">diâmetro do tanque</text></g>
+<g id="cota-altura-tanque" class="cota"><line class="e" x1="880" y1="160" x2="914" y2="160"/><line class="e" x1="880" y1="490" x2="914" y2="490"/><line class="d" x1="910" y1="160" x2="910" y2="490" marker-start="url(#a)" marker-end="url(#a)"/><text class="" x="916" y="330">altura</text></g>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

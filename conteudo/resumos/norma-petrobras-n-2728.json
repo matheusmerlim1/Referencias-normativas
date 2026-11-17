@@ -1,0 +1,28 @@
+{
+ "id": "PETROBRAS-N-2728",
+ "titulo": "Petrobras N-2728 Rev. A (07/2011) — Caldeira recuperadora de calor: folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e preenchimento",
+   "item": "1, 3",
+   "texto": "Padroniza o formulário A4 de folha de dados da caldeira recuperadora de calor (gera vapor com os gases de exaustão, em geral de turbina a gás, com ou sem queima suplementar). Preenchida, registra os requisitos do comprador e o projeto do fornecedor e vira documento permanente do equipamento. Cabeçalho e rodapé pela N-381 (que também dá as folhas de continuação), identificação pela N-1521, preenchimento conforme a ABNT NBR 11096; desempenho de referência pelo ASME PTC 4.4. Só se preenchem os campos aplicáveis (os demais recebem traço horizontal) e as linhas em branco recebem dados complementares.",
+   "valores": [
+    {
+     "parametro": "Formato do formulário",
+     "valor": "A4 (Anexo A)",
+     "item": "3.2"
+    },
+    {
+     "parametro": "Dimensões gerais da caldeira",
+     "valor": "campos do formulário (sem valor fixado pela norma)",
+     "item": "Anexo A",
+     "nota": "o texto não fixa dimensões; o desenho só indica onde ficam as grandezas",
+     "cota": "esquemas/caldeira-recuperadora-hrsg.svg#comprimento"
+    }
+   ],
+   "figuras": [
+    "esquemas/caldeira-recuperadora-hrsg.svg"
+   ]
+  }
+ ]
+}

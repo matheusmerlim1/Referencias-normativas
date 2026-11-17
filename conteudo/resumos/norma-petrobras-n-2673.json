@@ -1,0 +1,114 @@
+{
+ "id": "PETROBRAS-N-2673",
+ "titulo": "Petrobras N-2673 Rev. D (12/2021) — Embarcações em terminais: limpeza de tanques",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 4",
+   "texto": "Procedimentos de limpeza dos tanques de carga de navios-tanque próprios e afretados conforme o produto a carregar e o último descarregado. Não vale para gaseiros nem químicos (salvo químicos levando derivados ou etanol). Antes de programar, verifica-se a compatibilidade da carga com o revestimento e com os materiais de bombas, redes, válvulas, serpentinas e elastômeros; a segurança segue o ISGOTT e o descarte da água de lavagem o Anexo I da MARPOL.",
+   "valores": [
+    {
+     "parametro": "Purga com gás inerte — objetivo",
+     "valor": "menos de 2 % de hidrocarbonetos em volume na atmosfera do tanque",
+     "item": "3.5"
+    }
+   ],
+   "figuras": [
+    "esquemas/navio-tanque-carga-medicao-limpeza.svg"
+   ]
+  },
+  {
+   "titulo": "Operações e tabelas de limpeza",
+   "item": "5; Tabela 1; Anexo A",
+   "texto": "Cada passagem 'de produto → para produto' recebe uma sequência de letras: F baldeação com água salgada fria, Q com água salgada quente, A adoçamento (água doce para tirar o sal), D drenagem de tanque, linhas e bombas, P purga com gás inerte, S secagem por ventilação, T trapeamento (retirada manual de resíduo). A Tabela A.1 cobre produtos claros (gasolinas, nafta, QAV, diesel, lubrificantes, etanol) e a A.2 os escuros (petróleo, óleos combustíveis, VLSFO, gasóleo, LCO, condensado, RARO). Navio sem água quente compensa com mais ciclos de água fria. Combinação fora das tabelas só com autorização da Programação/Qualidade. Barcaças com stripping e acesso para inspeção podem alternar gasolina A, etanol e diesel S10/S500 sem limpeza; outras dispensas exigem estudo técnico. COW (lavagem com o próprio cru) na frequência da MARPOL.",
+   "valores": [
+    {
+     "parametro": "QAV — restrição de tanque",
+     "valor": "não em revestimento de silicato inorgânico de zinco nem em contato com plástico, cobre, aço galvanizado, zinco, cádmio ou suas ligas",
+     "item": "Tabela A.1, Nota 5"
+    },
+    {
+     "parametro": "Petróleo/escuros para diesel ou claros",
+     "valor": "plano do Anexo B ou operação não recomendada (conforme a célula)",
+     "item": "Tabela A.2, Notas 1 e 6"
+    }
+   ]
+  },
+  {
+   "titulo": "Recuperação da dureza da tinta epóxi",
+   "item": "6",
+   "texto": "Depois de nafta ou etanol, quando aplicável: drenar bem, abrir domos e elipses, instalar dois exaustores portáteis (um a vante e um a ré) com dutos sanfonados descendo até perto do fundo, exaurir, medir gases antes de liberar a entrada e verificar a dureza da tinta em três alturas. Só depois de seco e com a dureza recuperada se baldeia ou carrega; as linhas também são limpas.",
+   "valores": [
+    {
+     "parametro": "Exaustores portáteis por tanque",
+     "valor": "2 (um a vante e um a ré)",
+     "item": "6 c)"
+    },
+    {
+     "parametro": "Boca do duto de exaustão",
+     "valor": "até 1,0 m acima do fundo do tanque",
+     "item": "6 c)",
+     "cota": "esquemas/navio-tanque-carga-medicao-limpeza.svg#duto-exaustao"
+    },
+    {
+     "parametro": "Tempo mínimo de exaustão",
+     "valor": "24 h (repetir até secar e recuperar a dureza)",
+     "item": "6 d), f)"
+    },
+    {
+     "parametro": "Pontos de verificação da dureza",
+     "valor": "3: perto do fundo, meia altura e perto do teto",
+     "item": "6 g)",
+     "cota": "esquemas/navio-tanque-carga-medicao-limpeza.svg#dureza-altura"
+    }
+   ],
+   "figuras": [
+    "esquemas/navio-tanque-carga-medicao-limpeza.svg"
+   ]
+  },
+  {
+   "titulo": "Plano de limpeza ex-petróleo/escuros para diesel",
+   "item": "Anexo B; Anexo C",
+   "texto": "Exige inspetor especializado nomeado pela Qualidade da Logística, produto químico e lista de materiais (Anexo C) cotada com a agência marítima; o plano se ajusta ao navio. Etapas: lavagem inicial com água do mar em circuito fechado a partir do slop; lavagem com água quente por máquinas fixas e portáteis em posição baixa, incluindo manifold, drenos, pontos de sondagem e válvulas; purga e ventilação até gas free e inspeção; se preciso, nova lavagem quente do fundo e limpeza manual (demucking); lavagem química do fundo; enxágue quente e flushing com água doce; drenagem de linhas e bombas; trapeamento e inspeção antes de inertizar.",
+   "valores": [
+    {
+     "parametro": "Água do mar no slop para a lavagem inicial",
+     "valor": "800 a 1 200 m³ (conforme o porte)",
+     "item": "Anexo B, 1)"
+    },
+    {
+     "parametro": "Lavagem inicial — pressão e ciclo",
+     "valor": "pressão máxima (10 bar); ciclo completo ≥ 4 h por par de tanques",
+     "item": "Anexo B, 1)"
+    },
+    {
+     "parametro": "Lavagem secundária — temperatura da água",
+     "valor": "75 °C",
+     "item": "Anexo B, 2)"
+    },
+    {
+     "parametro": "Máquinas portáteis em posição baixa",
+     "valor": "aprox. 4 a 5 m acima do fundo do tanque",
+     "item": "Anexo B, 2)",
+     "cota": "esquemas/navio-tanque-carga-medicao-limpeza.svg#maquina-portatil"
+    },
+    {
+     "parametro": "Enxágue após a lavagem química",
+     "valor": "água quente ≥ 60 °C, seguida de flushing com água doce",
+     "item": "Anexo B, 7)"
+    },
+    {
+     "parametro": "Duração típica da limpeza",
+     "valor": "10 a 14 dias",
+     "item": "Anexo B, Nota"
+    },
+    {
+     "parametro": "Tubo de ventilação da lista de materiais",
+     "valor": "espiral, Ø 300 mm, 20 m",
+     "item": "Anexo C, item 19",
+     "cota": "esquemas/navio-tanque-carga-medicao-limpeza.svg#duto-exaustao"
+    }
+   ]
+  }
+ ]
+}
