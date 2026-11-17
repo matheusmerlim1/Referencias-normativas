@@ -1,0 +1,142 @@
+{
+ "id": "PETROBRAS-N-1996",
+ "titulo": "Petrobras N-1996 Rev. C (05/2018) — Projeto de redes elétricas em envelopes de concreto e com cabos diretamente no solo",
+ "secoes": [
+  {
+   "titulo": "Tipos de infraestrutura e caminhamento",
+   "item": "4.1–4.2",
+   "texto": "Cinco soluções, cada uma com seu campo: cabos direto no solo (solo sem contaminação, fora das áreas de processo, espaço disponível, prevenção de furto); eletrodutos em envelope de concreto (travessias, ruas, interior de unidades, locais com impacto ou interferências); canaletas enterradas (sem tráfego, área não classificada, pátio e subestação sem sala de cabos); dutos corrugados de PEAD direto no solo; eletroduto de PVC (iluminação viária). Recomenda-se não passar por áreas de expansão futura, unidades de processo, diques, casas de bombas, áreas pavimentadas; evitar paralelismo com tubulações enterradas ou aparentes; minimizar comprimento, mudanças de direção e escavação; prever ampliação. Redes secundárias mantêm distância de linhas quentes e separam instrumentação dos demais sistemas.",
+   "valores": [],
+   "figuras": [
+    "esquemas/rede-eletrica-subterranea.svg"
+   ]
+  },
+  {
+   "titulo": "Detalhamento comum",
+   "item": "4.3",
+   "texto": "Face superior dos envelopes (e lajotas sobre cabos/dutos enterrados) pigmentada de vermelho para identificação. No afloramento o eletroduto embutido recebe luva perto da superfície, permitindo trocar a parte corroída (transição aço-alumínio também nessa luva); a ponta livre fica acima do piso com luva roscada. A profundidade no afloramento deve permitir a curva inteira abaixo do solo, com raio compatível com o raio mínimo do cabo. Ocupação dos eletrodutos pela NBR 5410 (BT) e NBR 14039 (MT); ampacidade pela IEC 60287-1-1.",
+   "valores": [
+    {
+     "parametro": "Luva no eletroduto aflorado",
+     "valor": "a 50 mm da superfície de afloramento",
+     "item": "4.3.2",
+     "cota": "esquemas/rede-eletrica-subterranea.svg#luva"
+    },
+    {
+     "parametro": "Ponta livre do eletroduto aflorado",
+     "valor": "300 mm acima do piso acabado, com luva roscada",
+     "item": "4.3.4",
+     "cota": "esquemas/rede-eletrica-subterranea.svg#afloramento"
+    },
+    {
+     "parametro": "Diâmetro mínimo — eletroduto de aço galvanizado / duto corrugado PEAD",
+     "valor": "25 mm (1\") / 50 mm (2\")",
+     "item": "4.3.7",
+     "cota": "esquemas/rede-eletrica-subterranea.svg#diametro-eletroduto"
+    }
+   ]
+  },
+  {
+   "titulo": "Cabos diretamente no solo",
+   "item": "5.1; Figs. A.1–A.5",
+   "texto": "Espaçamentos e profundidade do topo dos cabos pela NBR 5410/14039, considerando interferência eletromagnética entre força e controle (API RP 552). Cabos assentados em areia de alta compactação, cobertos por lajotas de concreto e depois solo original; cabos terra nos cantos inferiores da vala. Travessias de vias exigem envelope de concreto; cruzamentos e transpasses conforme as figuras. O traçado é marcado por marcos com número, tipo e tensão dos cabos (em área pavimentada, sinalização pigmentada no concreto).",
+   "valores": [
+    {
+     "parametro": "Raio de curvatura — cabo não armado / armado ou blindado",
+     "valor": "8 × / 12 × o diâmetro externo",
+     "item": "5.1.1",
+     "cota": "esquemas/rede-eletrica-subterranea.svg#raio-cabo"
+    },
+    {
+     "parametro": "Profundidade do topo dos cabos (h)",
+     "valor": "conforme NBR 5410 e NBR 14039",
+     "item": "5.1.3",
+     "cota": "esquemas/rede-eletrica-subterranea.svg#profundidade-cabo"
+    },
+    {
+     "parametro": "Marcos de identificação",
+     "valor": "em toda mudança de direção e a intervalos ≤ 30 m",
+     "item": "5.1.6",
+     "cota": "esquemas/rede-eletrica-subterranea.svg#marco-espacamento"
+    },
+    {
+     "parametro": "Areia ou terra peneirada de envolvimento",
+     "valor": "malha de 5 mm",
+     "item": "Fig. A.2, legenda 2",
+     "nota": "valor lido da legenda da figura"
+    },
+    {
+     "parametro": "Lajota de proteção",
+     "valor": "≤ 0,25 m², pigmentada com vermelhão",
+     "item": "Fig. A.2, legenda 3",
+     "nota": "valor lido da legenda da figura"
+    }
+   ]
+  },
+  {
+   "titulo": "Envelopes de concreto",
+   "item": "5.2; Fig. A.6",
+   "texto": "Eletrodutos de aço galvanizado pesado (PVC só em envelope exclusivo de iluminação viária). Sem pontos baixos entre extremidades e sem afloramento abaixo da caixa de origem, para não acumular água nem alagar caixas. Seção retangular, comunicação na parte de cima e força na periferia, sem recortes; instrumentação em envelope separado de força e controle. Distância entre caixas, deflexões acumuladas, tração e esforço lateral de puxamento por memória de cálculo. Em área classificada não há caixa enterrada (caixa acima do solo adequada ou caixa N-1711 com pescoço adequado); redes principais com 3 ou mais circuitos usam manhole (N-1711). Partes metálicas das caixas ligadas à malha de terra.",
+   "valores": [
+    {
+     "parametro": "Declividade do envelope — mínima / máxima",
+     "valor": "0,25 % / 20 %",
+     "item": "5.2.5",
+     "cota": "esquemas/rede-eletrica-subterranea.svg#declividade"
+    },
+    {
+     "parametro": "Caixa de passagem (não manhole) — janela de eletrodutos ao fundo",
+     "valor": "≥ 200 mm",
+     "item": "5.2.15 a); 5.3.10 a)",
+     "cota": "esquemas/rede-eletrica-subterranea.svg#janela-fundo"
+    },
+    {
+     "parametro": "Caixa de passagem — janela ao topo",
+     "valor": "≥ 300 mm",
+     "item": "5.2.15 b); 5.3.10 b)",
+     "cota": "esquemas/rede-eletrica-subterranea.svg#janela-topo"
+    },
+    {
+     "parametro": "Caixa de passagem — janela à parede adjacente",
+     "valor": "≥ 300 mm",
+     "item": "5.2.15 c); 5.3.10 c)",
+     "cota": "esquemas/rede-eletrica-subterranea.svg#janela-parede"
+    },
+    {
+     "parametro": "Eletrodutos reserva (seção com 3 ou mais)",
+     "valor": "≥ 20 %, distribuídos e levados até a subestação/unidade",
+     "item": "5.2.17; 5.3.12"
+    },
+    {
+     "parametro": "Cabo terra paralelo ao envelope — profundidade mínima",
+     "valor": "600 mm, direto no solo, ligado à caixa por haste",
+     "item": "5.2.21",
+     "cota": "esquemas/rede-eletrica-subterranea.svg#cabo-terra"
+    },
+    {
+     "parametro": "Topo do envelope — profundidade mínima",
+     "valor": "600 mm (excepcionalmente 450 mm para resolver interferência)",
+     "item": "5.2.24",
+     "cota": "esquemas/rede-eletrica-subterranea.svg#profundidade-envelope"
+    }
+   ],
+   "figuras": [
+    "esquemas/rede-eletrica-subterranea.svg",
+    "esquemas/caixa-enfiacao-manhole.svg"
+   ]
+  },
+  {
+   "titulo": "Dutos corrugados de PEAD direto no solo",
+   "item": "5.3",
+   "texto": "Mesmas regras de caixas, reservas, separação de instrumentação, deflexões e puxamento dos envelopes, com fio-guia dentro do duto. Em travessias, envelope de concreto armado ou solução do fabricante comprovada por cálculo; afastamentos de tubulações e canaletas justificados por cálculo. Dutos e acessórios pela NBR 15715 (tampões, emendas, subida lateral, vedação). Na chegada às caixas os dutos são envolvidos em concreto para entrar alinhados a 90° com a parede. Em sistema solidamente aterrado prever cabo de retorno da corrente de falta nos dutos.",
+   "valores": [
+    {
+     "parametro": "Chegada dos dutos à caixa",
+     "valor": "alinhados a 90° com a parede, com recobrimento de concreto",
+     "item": "5.3.24",
+     "cota": "esquemas/rede-eletrica-subterranea.svg#janela-parede"
+    }
+   ]
+  }
+ ]
+}

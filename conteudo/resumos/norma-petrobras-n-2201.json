@@ -1,0 +1,66 @@
+{
+ "id": "PETROBRAS-N-2201",
+ "titulo": "Petrobras N-2201 Rev. A (01/2003) — Transformador seco para sistemas de iluminação ou instrumentação",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 3",
+   "texto": "Requisitos de compra do transformador seco que alimenta principalmente iluminação ou instrumentação. Não cobre o transformador seco de potência (N-1911), reguladores de tensão nem transformadores de comando internos a painéis, salvo indicação na folha de dados. Projeto e fabricação pela ABNT NBR 10295 e NBR 5356-1 a -5 (1ª emenda, 08/2010, substituiu NBR 5356/5380/6146); ensaios de rotina, tipo e especiais pela NBR 5356-1; terminologia NBR 5458. A folha de dados (Anexo A, formulário pela N-381) é parcialmente preenchida pela Petrobras e completada pelo fabricante, uma por transformador, e prevalece sobre a norma.",
+   "valores": [],
+   "figuras": [
+    "esquemas/transformador-seco-iluminacao.svg"
+   ]
+  },
+  {
+   "titulo": "Características elétricas",
+   "item": "4.1",
+   "texto": "Resistente à corrosão de ambiente petroquímico (tratamento ao menos equivalente à N-1735). Monofásico com secundário a 3 fios (derivação central, V2/2 de cada lado) quando pedido. Blindagem eletrostática entre enrolamentos, quando especificada, para reduzir o acoplamento capacitivo (transformador isolador): dispensável em iluminação, obrigatória para instrumentação eletrônica sensível. Invólucro metálico com grau de proteção da folha de dados (NBR IEC 60529). Enrolamentos encapsulados (isolante aplicado sobre eles, acessíveis abrindo o invólucro) ou imersos (parte ativa num tanque cheio de isolante).",
+   "valores": [
+    {
+     "parametro": "Cor de acabamento",
+     "valor": "cinza claro, código 0065 (N-1219)",
+     "item": "4.1.2"
+    },
+    {
+     "parametro": "Ligação trifásica triângulo-estrela (padrão)",
+     "valor": "deslocamento angular 30°, estrela atrasada (Dyn1)",
+     "item": "4.1.5"
+    },
+    {
+     "parametro": "Derivações do primário (padrão)",
+     "valor": "≥ 4 além da principal: +2 × 2,5 % e −2 × 2,5 %, com potência nominal em todas",
+     "item": "4.1.6"
+    },
+    {
+     "parametro": "Elevação de temperatura dos enrolamentos (isolação classe B ou superior)",
+     "valor": "≤ 80 °C (ensaio pela NBR 5356-1)",
+     "item": "4.1.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Acessórios",
+   "item": "4.3",
+   "texto": "Caixas de proteção das buchas (quando pedidas) com tampas flangeadas e juntas de elastômero resistentes a produtos e sol, sem deformar ao abrir. Entrada de cabos por luvas soldadas embaixo das caixas, rosca NPT (ASME B1.20.1), para eletroduto rígido (NBR 5597), flexível ou prensa-cabos. Conectores para cabos de cobre com isolação termoplástica, seção da folha de dados; conector de aterramento na face lateral externa para cobre nu; prensa-cabos de cabos unipolares não magnéticos (NBR 10861) em placa não magnética; suportes para parede se pedidos. Placa de identificação em alumínio ou inox 316 com os dados da NBR 10295 mais identificação Petrobras, RM, PCM, AFM ou contrato.",
+   "valores": [
+    {
+     "parametro": "Grau de proteção mínimo das caixas de buchas",
+     "valor": "IP-54",
+     "item": "4.3.1.1"
+    },
+    {
+     "parametro": "Luva adicional para o cabo terra do sistema",
+     "valor": "40 mm (1 1/2\") NPT, soldada embaixo da caixa do lado aterrado, sob a bucha de neutro",
+     "item": "4.3.1.4",
+     "cota": "esquemas/transformador-seco-iluminacao.svg#luva-neutro"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção e documentação",
+   "item": "5, 6",
+   "texto": "Inspeção de fabricação recomendada por profissional qualificado (N-2033), verificando documentação aprovada, certificados dos instrumentos de ensaio, pintura (aderência e espessura), dimensões, interior das caixas e invólucro e ensaios de rotina, tipo e especiais (estes com preço separado na proposta). A proposta traz desenho preliminar, peso, folha de dados, corrente de magnetização inicial, normas complementares, ensaios e esquema de pintura; após a compra, desenho de arranjo, peso, detalhes das caixas, entradas de cabos, aterramento, apoio/içamento/fixação e placas; por fim manual de montagem, operação e manutenção com dados como construído e resultados de ensaio.",
+   "valores": []
+  }
+ ]
+}

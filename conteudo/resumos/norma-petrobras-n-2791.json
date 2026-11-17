@@ -1,0 +1,109 @@
+{
+ "id": "PETROBRAS-N-2791",
+ "titulo": "Petrobras N-2791 Rev. B (05/2023) — Detalhes de instalação de instrumentos ao processo",
+ "secoes": [
+  {
+   "titulo": "Escopo e organização",
+   "item": "1, 3, 4.1–4.3",
+   "texto": "Detalhes típicos de instalação ao processo de instrumentos de pressão, pressão diferencial e vazão por ΔP (nível, temperatura e outros princípios seguem a N-1882). O Anexo A é uma matriz que escolhe o típico pela montagem (direta/autossuportada ou remota), conexão à tubulação (rosca, solda de encaixe, flange), orientação da tomada, manifold, linha de impulso e acessórios (amortecedor de pulsação, protetor de sobrepressão, selo diafragma, sifão, tê de selagem); o Anexo B traz os desenhos (P-001 a P-016 pressão, F-001 a F-008 vazão). Vale também para manutenção ou reforma. Materiais pela N-1931/N-76; linhas de impulso testadas e inspecionadas como a linha de origem (N-858, N-115). Glossário: tomada de impulso, válvula raiz (bloqueio entre tomada e linha de impulso), linha de impulso, purga, flushing, vent e dreno.",
+   "valores": [],
+   "figuras": [
+    "esquemas/instrumento-instalacao-processo.svg"
+   ]
+  },
+  {
+   "titulo": "Montagem e linha de impulso",
+   "item": "4.4",
+   "texto": "Instrumento acessível do piso, plataforma ou escada fixa, com linha de impulso a mais curta possível, longe de fontes de calor e com o indicador voltado para o acesso. A orientação da tomada na linha horizontal depende do fluido (Figs. 1 a 3): vapor d'água pede sifão ou trecho descendente para selar; com sólidos em suspensão, tomada no plano horizontal; avaliar vácuo causado por coluna de líquido. Montagem direta só para instrumentos leves (manômetros); transmissores vão em suporte, removíveis sem desmontar o manifold nem girar o instrumento. Soldas de instrumentação pela N-115, Anexo H.",
+   "valores": [
+    {
+     "parametro": "Comprimento máximo da linha de impulso — resposta rápida / maior exatidão",
+     "valor": "o do fabricante (em pacote) ou 3 m",
+     "item": "4.4.6",
+     "cota": "esquemas/instrumento-instalacao-processo.svg#linha-impulso"
+    },
+    {
+     "parametro": "Comprimento máximo da linha de impulso — demais casos",
+     "valor": "6 m (mais que isso, jaquetada, isolada ou multitubo só com aprovação)",
+     "item": "4.4.7",
+     "cota": "esquemas/instrumento-instalacao-processo.svg#linha-impulso"
+    },
+    {
+     "parametro": "Inclinação mínima dos trechos horizontais",
+     "valor": "1:10 (indicar no típico)",
+     "item": "4.4.10",
+     "cota": "esquemas/instrumento-instalacao-processo.svg#inclinacao"
+    }
+   ],
+   "figuras": [
+    "esquemas/instrumento-instalacao-processo.svg",
+    "esquemas/instrumentacao-linha-impulso.svg"
+   ]
+  },
+  {
+   "titulo": "Suportes",
+   "item": "4.5",
+   "texto": "Suporte adequado à vibração e dilatação, nunca em corrimão ou pipe-rack. Linhas de impulso suportadas para o peso com fluido, sem forçar o instrumento e sem dano por vibração, com materiais que evitem atrito e corrosão galvânica, vãos pela N-115 e sem travar o tubing; pintura pela N-1735.",
+   "valores": [
+    {
+     "parametro": "Altura do instrumento montado sobre piso ou plataforma",
+     "valor": "1,45 m a 1,55 m, em suporte tubular de 2\" (coluna ou parede)",
+     "item": "4.5.1",
+     "cota": "esquemas/instrumento-instalacao-processo.svg#altura-instrumento"
+    }
+   ]
+  },
+  {
+   "titulo": "Fronteira, purga, selagem e selo remoto",
+   "item": "5.1–5.4",
+   "texto": "A fronteira de detalhamento entre tubulação e instrumentação é o primeiro flange (conexão flangeada) ou o primeiro niple (roscada) depois da válvula raiz. Purga e flushing com entrada permanente, a de flushing o mais perto possível da válvula raiz (API RP 551). Selagem quando não se quer junto ao instrumento líquido que congela ou endurece, corrosivo, viscoso, tóxico, com mudança de fase ou vapor condensável: tê de selagem em tubo rígido, perto da tomada, com fluido e densidade na folha de dados e enchimento de preferência por agulha pela parte de baixo; pote de selagem só em caso específico aprovado. Selo diafragma flangeado leva dual bleed ring com válvulas e bujões de vent e dreno em inox 316 ou superior.",
+   "valores": [
+    {
+     "parametro": "Fronteira tubulação × instrumentação",
+     "valor": "1º flange (flangeada) ou 1º niple (roscada) após a válvula raiz",
+     "item": "5.1",
+     "cota": "esquemas/instrumento-instalacao-processo.svg#fronteira"
+    }
+   ]
+  },
+  {
+   "titulo": "Vent, dreno, manifold e bloqueios",
+   "item": "5.5–5.7",
+   "texto": "Todo típico tem vent (gás/vapor) ou dreno (líquido) com válvula agulha de abertura gradual, dispensada se o manifold já tiver essa função; descargas para local seguro; ponta para atmosfera com bujão, tampão ou vent-screw (sem manopla, com trava contra ejeção do plugue, aberto com chave e abrindo em mais de um fio de rosca). Válvula raiz é o bloqueio principal e o manifold o bloqueio da instrumentação; bloqueio extra junto ao instrumento só em serviço crítico com raiz de difícil acesso; recomenda-se plaqueta inox com o TAG na válvula raiz.",
+   "valores": [
+    {
+     "parametro": "Válvula esfera no dreno (em vez de agulha)",
+     "valor": "só em flushing ou pressão < 1 kgf/cm² fora de serviço crítico/perigoso (N-57)",
+     "item": "5.5.3"
+    },
+    {
+     "parametro": "Dreno fechado — tubo do manifold ao coletor",
+     "valor": "tubo DE ½\" com válvula de bloqueio por instrumento",
+     "item": "5.5.6; Fig. 4",
+     "cota": "esquemas/instrumentacao-linha-impulso.svg#tubo-de"
+    },
+    {
+     "parametro": "Fita de grafite em roscas (flushing com vapor ou alta temperatura)",
+     "valor": "teor de carbono ≥ 98 %",
+     "item": "5.5.6, Nota 2"
+    },
+    {
+     "parametro": "Manifold — transmissor de ΔP, vazão e nível por ΔP",
+     "valor": "5 vias",
+     "item": "5.6.1"
+    },
+    {
+     "parametro": "Manifold — transmissor de pressão e manômetro",
+     "valor": "2 vias",
+     "item": "5.6.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Tubing, aquecimento e tubo rígido",
+   "item": "5.8–5.10",
+   "texto": "Conexões de compressão acessíveis à inspeção e à ferramenta de aperto; linhas aprovadas acima de 6 m usam união de compressão (com off-set), solda orbital ou solda de soquete. Isolamento e aquecimento (traço de vapor pela N-42; elétrico pela disciplina de elétrica) vão até o tê de selagem ou selo remoto, preferindo selagem para encurtar o traço. Sempre que a N-1931 permitir, usar tubing (tubo DE); tubo rígido só no menor trecho a partir da válvula raiz, com flange perto do instrumento, projetado como tubulação; aço-carbono roscado só em utilidades de baixa pressão.",
+   "valores": []
+  }
+ ]
+}
