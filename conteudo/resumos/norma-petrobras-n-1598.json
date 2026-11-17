@@ -1,0 +1,29 @@
+{
+ "id": "PETROBRAS-N-1598",
+ "titulo": "Petrobras N-1598 Rev. H (07/2021) — Ensaio não destrutivo: partículas magnéticas",
+ "secoes": [
+  {
+   "titulo": "Escopo e normas base",
+   "item": "1, 4",
+   "texto": "Partículas magnéticas como complemento do ASME V Art. 7, AWS D1.1, ASTM E709, ISO 9934/17638 e DNVGL-ST-F101 (onde esta pede ISO 17638 ou ASTM E1444, usa-se a ASTM E709 com as complementações da norma).",
+   "valores": [],
+   "figuras": ["esquemas/end-particulas-magneticas-yoke.svg"]
+  },
+  {
+   "titulo": "Pessoal, procedimento e calibração",
+   "item": "5.1–5.3",
+   "texto": "Pessoal conforme N-2941; procedimento qualificado por nível 3, com esquema da direção do fluxo, sobreposição e posicionamento. Se as linhas de fluxo não puderem se cruzar (geometria complexa), aplica-se técnica complementar de magnetização. Luxímetro, pirômetro de contato, medidor de película seca e demais instrumentos são calibrados periodicamente.",
+   "valores": []
+  },
+  {
+   "titulo": "Yoke e intensidade de campo",
+   "item": "5.6.1.3, 5.6.2.5–5.6.2.7, 5.6.3",
+   "texto": "Só é aceito yoke eletromagnético de corrente alternada. A força do yoke é comprovada no local, no início e periodicamente, levantando um bloco-padrão com o maior espaçamento entre polos que será usado. Na técnica multidirecional o campo resultante é comprovado com indicadores de campo. Para cada forma e dimensão de peça faz-se um desenho do esquema de magnetização e sobreposição.",
+   "valores": [
+    {"parametro": "Capacidade mínima de levantamento do yoke (CA)", "valor": "5,5 kg, com o espaçamento máximo entre polos", "item": "5.6.2.7", "cota": "esquemas/end-particulas-magneticas-yoke.svg#espacamento-polos"},
+    {"parametro": "Face de apoio do bloco-padrão no levantamento", "valor": "117 mm × 240 mm", "item": "5.6.2.7 (Fig. A.1)", "cota": "esquemas/end-particulas-magneticas-yoke.svg#face-bloco"},
+    {"parametro": "Intensidade de campo tangencial em toda a área útil", "valor": "17 A/cm a 65 A/cm", "item": "5.6.2.5"}
+   ]
+  }
+ ]
+}

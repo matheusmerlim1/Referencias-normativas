@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Forno de processo — deslocamento e folga de tubos da serpentina">
+<title>Forno de processo — deslocamento e folga de tubos da serpentina (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Forno de processo — deslocamento e folga de tubos da serpentina</text>
+<text class="b" x="30" y="62">Tubos da serpentina na câmara de radiação (elevação)</text>
+<rect class="s" x="40" y="100" width="30" height="400"/>
+<text class="n" x="30" y="520">parede refratária</text>
+<rect class="w" x="180" y="100" width="40" height="400"/>
+<rect class="w" x="300" y="100" width="40" height="400"/>
+<rect class="w" x="420" y="100" width="40" height="400"/>
+<path class="r" d="M540,100 L540,250 Q560,300 600,330 L600,500 L640,500 L640,330 Q600,300 580,250 L580,100 z" fill-opacity=".3"/>
+<line class="c" x1="560" y1="90" x2="560" y2="510"/>
+<g id="cota-deslocamento" class="cota"><line class="e" x1="560" y1="500" x2="560" y2="566"/><line class="e" x1="620" y1="500" x2="620" y2="566"/><line class="d" x1="560" y1="560" x2="620" y2="560" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="590.0" y="553">deslocamento</text></g>
+<g id="cota-comprimento-ref" class="cota"><line class="e" x1="640" y1="100" x2="706" y2="100"/><line class="e" x1="640" y1="500" x2="706" y2="500"/><line class="d" x1="700" y1="100" x2="700" y2="500" marker-start="url(#a)" marker-end="url(#a)"/><text x="708" y="300">comprimento de ref.</text></g>
+<g id="cota-folga-tubo" class="cota"><line class="d" x1="460" y1="200" x2="540" y2="200" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="500" y="190">folga ao vizinho</text></g>
+<g id="cota-diametro-tubo" class="cota"><line class="e" x1="420" y1="100" x2="420" y2="74"/><line class="e" x1="460" y1="100" x2="460" y2="74"/><line class="d" x1="420" y1="80" x2="460" y2="80" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="440.0" y="73">Ø ext.</text></g>
+<text class="n" x="180" y="560">tubo deformado × posição de projeto</text>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

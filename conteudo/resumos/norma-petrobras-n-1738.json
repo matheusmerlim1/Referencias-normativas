@@ -1,0 +1,31 @@
+{
+ "id": "PETROBRAS-N-1738",
+ "titulo": "Petrobras N-1738 Rev. D (10/2023) — Descontinuidades em componentes soldados, fundidos, forjados e laminados",
+ "secoes": [
+  {
+   "titulo": "Escopo e conceito",
+   "item": "1",
+   "texto": "Padroniza os nomes das descontinuidades de soldagem, fundição, forjamento e laminação. Descontinuidade é qualquer interrupção da homogeneidade física, mecânica ou metalúrgica da peça; só vira defeito quando, por tipo, tamanho ou efeito acumulado, deixa a peça fora do critério da norma aplicável.",
+   "valores": [],
+   "figuras": ["esquemas/solda-descontinuidades-tipos.svg"]
+  },
+  {
+   "titulo": "Em soldas — forma e perfil",
+   "item": "2.1.2–2.1.10, 2.1.17–2.1.21, 2.1.30, 2.1.32, 2.1.33",
+   "texto": "Ângulo excessivo de reforço, concavidade (central ou lateral na raiz), concavidade ou convexidade excessiva em filete, deposição insuficiente, desalinhamento (high-low) e embicamento em juntas de topo, deformação angular nas demais, mordedura na margem da face e na raiz, penetração excessiva, perfuração, reforço excessivo, sobreposição (metal sobre o metal de base sem fundir) e filete assimétrico.",
+   "valores": []
+  },
+  {
+   "titulo": "Em soldas — internas e trincas",
+   "item": "2.1.3, 2.1.11–2.1.16, 2.1.19, 2.1.22–2.1.29, 2.1.34–2.1.44",
+   "texto": "Falta de fusão (na zona de ligação, entre passes ou na raiz) e falta de penetração; inclusões de escória (alinhada, isolada, agrupada) e metálicas; poros, porosidade uniforme, agrupada, alinhada e vermiforme, passe oco, cavidade alongada, rechupe de cratera e interdendrítico. Trincas: longitudinal, transversal, de cratera, em estrela, irradiante, ramificada, na margem, na raiz, sob o cordão e interlamelar (em degraus, paralela à laminação, no metal de base junto à solda).",
+   "valores": []
+  },
+  {
+   "titulo": "Fundidos, forjados e laminados",
+   "item": "2.2, 2.3",
+   "texto": "Fundidos: chapelim, crosta, desencontro de caixas, enchimento incompleto, gota fria, inclusões de molde, escória e areia, metal frio, porosidade, queda de bolo, rabo de rato, rechupe, segregação, trinca de contração e veio. Forjados e laminados: carepa, casca de laranja, dobra, dupla laminação (paralela à superfície da chapa), lasca e segregação.",
+   "valores": []
+  }
+ ]
+}

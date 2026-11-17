@@ -1,0 +1,34 @@
+{
+ "id": "PETROBRAS-N-2939",
+ "titulo": "Petrobras N-2939 Rev. 0 (1ª emenda 06/2020) — Segurança de poço em projetos de teste de formação e de produção",
+ "secoes": [
+  {
+   "titulo": "Escopo e casos especiais",
+   "item": "1, 4.2",
+   "texto": "Requisitos de segurança de poço já na fase de projeto do teste de formação ou produção (a execução segue a N-2253). Recomendações extras para poço de gás, alta RGO, HPHT, H₂S, alto CO₂ e anular underbalance.",
+   "valores": [
+    {"parametro": "Alta RGO", "valor": "> 250 m³/m³", "item": "4.2"},
+    {"parametro": "Poço com H₂S", "valor": "> 0,0008 % mol (8 ppm)", "item": "7"},
+    {"parametro": "Alto CO₂", "valor": "> 3 % mol (30 000 ppm); requisitos adicionais acima de 40 % mol", "item": "8"}
+   ],
+   "figuras": ["esquemas/poco-teste-formacao.svg"]
+  },
+  {
+   "titulo": "Barreiras e sistema de sustentação",
+   "item": "4.3, 5",
+   "texto": "Dois CSBI em todas as operações do programa (também na desconexão para reparo de LMRP ou BOP). Margem operacional para prisão da coluna. Em poços com H₂S > 8 ppm e HPHT, válvula de segurança de subsuperfície de teste (TSSSV) abaixo da cabeça de teste em sondas terrestres, fixas e autoelevatórias.",
+   "valores": [
+    {"parametro": "Volume máximo retornado (backflow) — parcela da coluna", "valor": "câmara abaixo do packer + 80 m do interior da coluna acima do packer", "item": "4.3", "cota": "esquemas/poco-teste-formacao.svg#coluna-80m", "nota": "conferir o item exato"}
+   ]
+  },
+  {
+   "titulo": "Detecção de gases",
+   "item": "7.6, 8, Anexo",
+   "texto": "Detectores e proteção respiratória conforme a N-2253; pelo menos dois níveis de alarme e plano para vazamento de CO₂ para a atmosfera.",
+   "valores": [
+    {"parametro": "Alarmes de H₂S — inferior / superior", "valor": "≤ 8 ppm / > 8 e ≤ 50 ppm", "item": "8.4"},
+    {"parametro": "Alarmes de CO₂ — inferior / superior", "valor": "≤ 3 900 ppm / > 3 900 e ≤ 30 000 ppm", "item": "8.4", "nota": "conferir: valores recompostos do texto extraído"}
+   ]
+  }
+ ]
+}

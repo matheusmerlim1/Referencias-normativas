@@ -1,0 +1,36 @@
+{
+ "id": "PETROBRAS-N-2484",
+ "titulo": "Petrobras N-2484 Rev. D (01/2023) — Ensaio não destrutivo: metalografia de campo",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Metalografia não destrutiva em equipamentos de processo e estruturas, por microscópio portátil (in situ) ou por réplica metalográfica analisada depois em bancada (ou MEV).",
+   "valores": [],
+   "figuras": ["esquemas/end-metalografia-replica.svg"]
+  },
+  {
+   "titulo": "Instrumentos e condições",
+   "item": "4.1–4.3",
+   "texto": "Esmerilhadeira/microrretífica, lixadeira de rotação variável, lixas de grão 50 a 1 200, feltros e pastas (diamante ou alumina), polidor eletrolítico, reagentes, material de réplica, microscópios de bancada e de campo e câmara de metalização. Procedimento escrito, cuidados com soluções corrosivas, tóxicas e explosivas (FISPQ), ambiente sem poeira e protegido do vento. Pontos escolhidos pelo objetivo, de preferência onde histórico ou outros END indicam algo.",
+   "valores": []
+  },
+  {
+   "titulo": "Preparação da superfície e ataque",
+   "item": "4.4–4.6",
+   "texto": "Desbaste com grãos grossos (50, 80, 120) para tirar camada descarbonetada e óxido; lixamento com 150, 220, 320, 400 e 600, girando a direção a cada etapa e lavando entre elas; polimento mecânico (diamante 6–3–1 µm ou alumina 5–1–0,3–0,05 µm) ou eletrolítico testado antes em material similar (se mascarar a estrutura, voltar ao mecânico). Lavar com álcool ou acetona e secar com ar quente antes e depois do ataque (reagentes ASTM E407 micro ou E340 macro). Proibido HF e cianetos; ácido perclórico concentrado nunca direto com sua mistura orgânica.",
+   "valores": [
+    {"parametro": "Giro da direção de lixamento/polimento entre etapas", "valor": "90°", "item": "4.4.2, 4.4.3.1 b)", "cota": "esquemas/end-metalografia-replica.svg#rotacao-lixamento"},
+    {"parametro": "Controle do acabamento entre etapas (recomendado)", "valor": "microscópio de campo ≈ 100×", "item": "4.4.3.2 Nota 4"}
+   ]
+  },
+  {
+   "titulo": "Réplica, microscopia de campo e registro",
+   "item": "5",
+   "texto": "Réplicas pela ASTM E1351. Na microscopia de campo, observar logo após o ataque para não oxidar. Registro rastreável entre local ensaiado e relatório.",
+   "valores": [
+    {"parametro": "Área preparada para microscopia de campo", "valor": "≥ 1 cm² (satisfatória)", "item": "5.2.1", "cota": "esquemas/end-metalografia-replica.svg#area-preparada"}
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "PETROBRAS-N-2789",
+ "titulo": "Petrobras N-2789 Rev. B (06/2014) — Inspeção em serviço de reservatórios atmosféricos de uso geral",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1, 3",
+   "texto": "Inspeção em serviço de reservatórios que operam à pressão atmosférica para líquidos em geral (enterrados ou não, metálicos ou não). Barriga = afastamento do costado em relação à geratriz (ou à forma original, se não for circular); rodapé = faixa do 1º anel junto ao fundo.",
+   "valores": [
+    {"parametro": "Rodapé do costado", "valor": "do fundo até 300 mm de altura", "item": "3.10", "cota": "esquemas/tanque-atmosferico-inspecao.svg#rodape"}
+   ],
+   "figuras": ["esquemas/tanque-atmosferico-inspecao.svg"]
+  },
+  {
+   "titulo": "Periodicidade",
+   "item": "4.1",
+   "texto": "Intervalos por estudo do profissional habilitado (produto, inspeções e END anteriores, taxas de corrosão) ou, sem estudo, pelos máximos abaixo; água potável segue legislação específica.",
+   "valores": [
+    {"parametro": "Inspeção externa (sem estudo)", "valor": "≤ 5 anos; não enterrado: nunca além de 1/4 da vida remanescente", "item": "4.1.3"},
+    {"parametro": "Inspeção interna (sem estudo)", "valor": "≤ 10 anos", "item": "4.1.4"}
+   ]
+  },
+  {
+   "titulo": "Roteiros",
+   "item": "5, 6, 9.2",
+   "texto": "Espessura nos pontos definidos pelo profissional e onde houver corrosão localizada ou dano (não exigida em inox, fibra ou concreto). Plataformas sem corrosão e com furos de drenagem. Interno: chapas, soldas, conexões, bocas de visita e portas de limpeza, com atenção acima do nível de líquido e no rodapé; LP se houver suspeita de trinca. Enterrados: estanqueidade pela NBR 13784 na interna ou com suspeita de vazamento.",
+   "valores": []
+  },
+  {
+   "titulo": "Aceitação e vida remanescente",
+   "item": "10, 11",
+   "texto": "Espessura mínima: circulares pela API 653/API 12R1 (ou norma definida); retangulares pelo projeto original. Barriga e flecha pela N-271; pintura pela N-13; soldas pela API 653, API 12R1 ou AWS D1.1; recalques pela API 653/12R1. Anodos trocados se não houver consumo com corrosão na região ou se a massa residual não bastar para a próxima campanha. Taxa de corrosão e vida remanescente só para corrosão uniforme.",
+   "valores": [
+    {"parametro": "Barriga no costado", "valor": "avaliar conforme N-271", "item": "10.2.1", "cota": "esquemas/tanque-atmosferico-inspecao.svg#barriga"},
+    {"parametro": "Repintura total da região", "valor": "deterioração somando > 30 % da área da região", "item": "10.3 Nota"},
+    {"parametro": "Taxa de corrosão", "valor": "TC = (Ep − Ea)/t (mm/ano)", "item": "11.1", "cota": "esquemas/tanque-atmosferico-inspecao.svg#espessura"},
+    {"parametro": "Vida remanescente", "valor": "VR = (Ea − Emín)/TC (anos)", "item": "11.2", "cota": "esquemas/tanque-atmosferico-inspecao.svg#espessura"}
+   ]
+  }
+ ]
+}

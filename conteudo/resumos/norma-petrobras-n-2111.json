@@ -1,0 +1,40 @@
+{
+ "id": "PETROBRAS-N-2111",
+ "titulo": "Petrobras N-2111 Rev. D (11/2011) — Segurança na limpeza, inspeção e reparo de tanques e vasos de pressão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Segurança em limpeza, inspeção e reparo de tanques atmosféricos (inclusive enterrados), tanques de baixa pressão e vasos de pressão fora de operação. Não cobre tanques pressurizados, criogênicos, de navio, carros-tanque, tambores e cilindros.",
+   "valores": [],
+   "figuras": ["esquemas/espaco-confinado.svg"]
+  },
+  {
+   "titulo": "Preparação e permissões",
+   "item": "4.1–4.3.3",
+   "texto": "Planejamento multidisciplinar de todas as etapas e treinamento do pessoal. Retirada de operação, drenagem, despressurização, isolamento, desgaseificação e monitoração da atmosfera conforme N-2637 (espaço confinado), com PET; demais serviços com PT (N-2162). Limpeza química de vaso feita ainda na retirada de operação. Radiografia pela N-2344; solda e corte pela N-2349.",
+   "valores": []
+  },
+  {
+   "titulo": "Eletricidade, ferramentas e iluminação",
+   "item": "4.3.4–4.3.11",
+   "texto": "Equipamentos elétricos conforme NR-10 e certificados para área classificada; recomenda-se preferir ferramentas pneumáticas e iluminação SELV. Prever iluminação de emergência para evacuação. Cabos que cruzam a bacia ficam suspensos e sinalizados.",
+   "valores": [
+    {"parametro": "Tensão máxima de ferramentas elétricas manuais (recomendado)", "valor": "110 V, por transformador de segurança com dupla isolação", "item": "4.3.8"},
+    {"parametro": "Isolamento dos cabos de alimentação", "valor": "600 V", "item": "4.3.8 Nota 1"}
+   ]
+  },
+  {
+   "titulo": "Retorno à operação e resíduos",
+   "item": "4.4, 4.5",
+   "texto": "Inspeção final (serviço concluído, materiais removidos, integridade, drenos e vents), combate a incêndio operacional e dique fechado; monitorar vazamentos; vasos com inflamáveis são inertizados antes de receber produto. Resíduos líquidos drenados e destinados (N-38, N-2622), nunca deixados na bacia, com transporte simultâneo à limpeza.",
+   "valores": []
+  },
+  {
+   "titulo": "Riscos específicos",
+   "item": "5",
+   "texto": "Sulfeto de ferro (oxidação exotérmica), H₂S, benzeno e atmosfera IPVS; eletricidade estática (API RP 2003): jato d'água só em atmosfera inerte ou não inflamável, vapor com tudo aterrado, caminhão a vácuo com mangotes condutores. Portas de limpeza abertas com controle; agitar borra pode liberar vapores. Teto flutuante: compartimentos e selos; teto fixo: avaliar o teto antes de pisar (andaime recomendado). Atenção a produto sob o fundo, líquidos em pontos baixos e animais peçonhentos.",
+   "valores": []
+  }
+ ]
+}

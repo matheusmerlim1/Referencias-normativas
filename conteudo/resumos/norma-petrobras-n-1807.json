@@ -1,0 +1,49 @@
+{
+ "id": "PETROBRAS-N-1807",
+ "titulo": "Petrobras N-1807 Rev. E (07/2015) — Medição de recalque de fundações no teste hidrostático de equipamentos",
+ "secoes": [
+  {
+   "titulo": "Escopo e condição do teste",
+   "item": "1, 3",
+   "texto": "Como medir o recalque das fundações de tanques, esferas, torres, vasos e permutadores durante o teste hidrostático. O teste é feito com o equipamento montado e antes de ligar as tubulações externas, seguindo um procedimento executivo (pinos, referência de nível, nivelamento, estágios, leituras, registro).",
+   "valores": [],
+   "figuras": ["esquemas/recalque-pinos-tanque.svg"]
+  },
+  {
+   "titulo": "Pinos de referência",
+   "item": "4",
+   "texto": "Pinos chumbados no concreto ou soldados na estrutura de suporte, no equipamento ou na periferia da fundação; em tanque sobre fundação direta sem anel de concreto, soldados em cantoneira no costado. Numeração no sentido horário, com o pino 1 o mais ao norte.",
+   "valores": [
+    {"parametro": "Posição do pino em tanque com anel de concreto (recomendada)", "valor": "10 cm abaixo da face superior da fundação", "item": "4.1 Nota", "cota": "esquemas/recalque-pinos-tanque.svg#pino-fundacao"},
+    {"parametro": "Pino em cantoneira no costado (fundação direta sem ring wall)", "valor": "≈ 50 cm acima do fundo", "item": "4.2", "cota": "esquemas/recalque-pinos-tanque.svg#pino-cantoneira"},
+    {"parametro": "Tanque — fundação profunda (D < 30 m / 30–50 m / > 50 m)", "valor": "4 / 6 / 8 pinos", "item": "Tabela 1", "cota": "esquemas/recalque-pinos-tanque.svg#diametro-tanque"},
+    {"parametro": "Tanque — fundação superficial", "valor": "no mínimo 1 pino a cada 10 m de perímetro", "item": "Tabela 1", "cota": "esquemas/recalque-pinos-tanque.svg#espacamento-pinos"},
+    {"parametro": "Esfera / torre e vaso vertical", "valor": "1 pino por perna / no mínimo 4 pinos ortogonais", "item": "4.3.2, 4.3.3"},
+    {"parametro": "Vaso horizontal e permutador (por apoio)", "valor": "Ø até 1,50 m: 1 pino; Ø > 1,50 m: 2 pinos", "item": "Tabela 2", "cota": "esquemas/recalque-pinos-tanque.svg#diametro-vaso"}
+   ]
+  },
+  {
+   "titulo": "Referência de nível, nivelamento e leituras",
+   "item": "5, 6, 8",
+   "texto": "Leituras referidas a marco inercial acessível (marco topográfico da N-47, estrutura estável ou referência profunda). Em cada medição, duas sequências completas de nivelamento e média das duas; leituras sempre no mesmo horário, de preferência de manhã. Leitura inicial com o equipamento vazio (inclusive no centro do tanque), duas leituras por estágio e leitura final no centro do tanque.",
+   "valores": [
+    {"parametro": "Precisão das leituras", "valor": "≤ 1 mm", "item": "5.2", "cota": "esquemas/recalque-pinos-tanque.svg#leitura"},
+    {"parametro": "Erro de fechamento da RN / diferença entre os dois nivelamentos", "valor": "2 mm / ≤ 1 mm", "item": "6.2", "cota": "esquemas/recalque-pinos-tanque.svg#leitura"},
+    {"parametro": "Segunda leitura de cada estágio", "valor": "12 h após a primeira", "item": "8.2"},
+    {"parametro": "Recalque estabilizado", "valor": "diferença entre leituras ≤ 1 mm (senão, nova leitura a cada 12 h)", "item": "8.3", "cota": "esquemas/recalque-pinos-tanque.svg#leitura"},
+    {"parametro": "Manutenção da carga máxima", "valor": "≥ 48 h (fundação superficial) / ≥ 24 h (profunda)", "item": "8.4"}
+   ]
+  },
+  {
+   "titulo": "Estágios de enchimento e esvaziamento",
+   "item": "7",
+   "texto": "Tanque de teto flutuante é cheio até a elevação máxima do teto; de teto fixo, até o topo da cantoneira de reforço. O próximo estágio só começa com o anterior estabilizado; o esvaziamento repete os critérios.",
+   "valores": [
+    {"parametro": "Tanque D < 30 m (enchimento)", "valor": "0 % e 100 % (superficial e profunda)", "item": "Tabela 3", "cota": "esquemas/recalque-pinos-tanque.svg#diametro-tanque"},
+    {"parametro": "Tanque D ≥ 30 m — fundação superficial / profunda", "valor": "0–25–50–75–100 % / 0–50–100 %", "item": "Tabela 3", "cota": "esquemas/recalque-pinos-tanque.svg#diametro-tanque"},
+    {"parametro": "Esferas, torres e vasos — superficial / profunda", "valor": "enche 0–25–50–75–100 % e esvazia 75–50–25–0 % / enche 0–50–100 % e esvazia 50–0 %", "item": "Tabela 4"},
+    {"parametro": "Estágio único permitido", "valor": "equipamento novo com peso total < 300 kN, ou em uso com carga de operação igual à de teste", "item": "7.3"}
+   ]
+  }
+ ]
+}

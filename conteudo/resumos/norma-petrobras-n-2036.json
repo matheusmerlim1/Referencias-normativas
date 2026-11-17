@@ -1,0 +1,55 @@
+{
+ "id": "PETROBRAS-N-2036",
+ "titulo": "Petrobras N-2036 Rev. G (12/2023) — Soldagem subaquática",
+ "secoes": [
+  {
+   "titulo": "Escopo, métodos e classes de solda",
+   "item": "1, 3, 4.1, 4.2",
+   "texto": "Soldagem subaquática de estruturas marítimas e dutos, complementando a AWS D3.6M (dutos submarinos: ver também DNV-ST-F101). Dois métodos: câmara hiperbárica de fundo aberto (a água é deslocada e o mergulhador trabalha em ar respirável) e soldagem molhada (direto na água). Classe A (crítica), B (menos crítica, avaliada por adequação ao uso) e O (outras normas + Seção 11 da D3.6M), escolhida pela aplicação — fixação de anodos, reparo de estrutura ou de duto. Processos: SMAW, GMAW, GTAW, FCAW e atrito.",
+   "valores": [],
+   "figuras": ["esquemas/solda-subaquatica-camara-molhada.svg"]
+  },
+  {
+   "titulo": "Procedimento, controle e soldadores",
+   "item": "4.3–4.6, 4.10",
+   "texto": "Procedimento qualificado pela D3.6M em função da profundidade, com teste de confirmação no local antes de começar. Registra-se corrente, tensão, vazão de gás, temperaturas, tempo e comprimento do cordão, atmosfera da câmara e profundidade. A mistura de selagem é variável essencial: nunca inflamável ou explosiva, e respirável se o soldador estiver dentro.",
+   "valores": [
+    {"parametro": "Validade da qualificação do soldador", "valor": "até 3 anos; parado 3 meses → novo teste (D3.6M 7.20)", "item": "4.6.2"}
+   ]
+  },
+  {
+   "titulo": "Preparo da junta e soldas provisórias",
+   "item": "4.7, 4.8",
+   "texto": "Superfície sem carepa, tinta, organismos marinhos ou corrosão; marcas de abertura de arco esmerilhadas e verificadas por partículas magnéticas (NBR 16241). Soldas provisórias seguem os mesmos requisitos das de produção. Comunicação permanente com a superfície (NR-15 Anexo 6, IMCA D 045).",
+   "valores": [
+    {"parametro": "Faixa preparada de cada lado da junta", "valor": "25 mm", "item": "4.7.1", "cota": "esquemas/solda-subaquatica-camara-molhada.svg#faixa-preparada"}
+   ]
+  },
+  {
+   "titulo": "Câmara hiperbárica (prática recomendada)",
+   "item": "5.1",
+   "texto": "Câmara com espaço e acesso para o soldador, vigias, válvula de alívio no ponto mais alto, entrada do gás de selagem pelo topo, forma hidrodinâmica, flutuabilidade neutra e pouca área de água exposta; montagem testada antes em terra. Consumíveis descem em recipiente pressurizado com o próprio gás seco; eletrodos básicos baixo hidrogênio; sem acetileno ou gás combustível; atmosfera monitorada.",
+   "valores": [
+    {"parametro": "Pressão parcial mínima de O₂ no gás de selagem", "valor": "0,16 ATA", "item": "5.1.1 f)"},
+    {"parametro": "O₂ máximo — câmara a ≥ 30 m / < 30 m", "valor": "8 % / 21 %", "item": "5.1.1 f)", "cota": "esquemas/solda-subaquatica-camara-molhada.svg#profundidade"},
+    {"parametro": "Partículas e óleo no gás", "valor": "≤ 5 mg/m³ (CNTP)", "item": "5.1.1 f)"},
+    {"parametro": "Pressão do recipiente de consumíveis", "valor": "no máximo 0,5 atm acima da pressão local", "item": "5.1.6 b)"},
+    {"parametro": "Descarte de eletrodo exposto ao ambiente hiperbárico", "valor": "> 5 min", "item": "5.1.7 c)"},
+    {"parametro": "Eletrodo revestido recomendado", "valor": "básico, H8 máximo", "item": "5.1.8"},
+    {"parametro": "Faixa seca exigida antes de soldar", "valor": "150 mm centrada no eixo da solda", "item": "5.1.9", "cota": "esquemas/solda-subaquatica-camara-molhada.svg#faixa-seca"},
+    {"parametro": "Prevenção e combate a incêndio na câmara", "valor": "obrigatórios em profundidades < 30 m", "item": "5.1.12", "cota": "esquemas/solda-subaquatica-camara-molhada.svg#profundidade"}
+   ]
+  },
+  {
+   "titulo": "Soldagem molhada (prática recomendada)",
+   "item": "5.2",
+   "texto": "Qualificar em condições parecidas com as do local (temperatura, correnteza, visibilidade). Só corrente contínua com eletrodo negativo (CA expõe o mergulhador a choque); técnica de arraste, sem oscilar. Eletrodos descem pelo cabo-guia em recipiente pesado e são descartados se ficarem muito tempo na água. Preferir posição plana ou vertical descendente; sobrecabeça minimizada com luvas de geometria especial; nunca vertical ascendente. Equipamento com duas máquinas CC protegidas contra CA, cabos testados e identificados por cor, chave faca e instrumentos calibrados.",
+   "valores": [
+    {"parametro": "Inclinação do eletrodo em relação à peça", "valor": "45° a 60°", "item": "5.2.6 c)", "cota": "esquemas/solda-subaquatica-camara-molhada.svg#inclinacao"},
+    {"parametro": "Descarte de eletrodo exposto à água", "valor": "> 5 min", "item": "5.2.5 c)"},
+    {"parametro": "Metal de base com CE > 0,35 %", "valor": "eletrodo com H difusível < 30 mL/100 g, ou ensaio CTS sem trincas em 4 seções a 50×, ou passe de revenimento/amanteigamento qualificado", "item": "5.2.6 d), e)"},
+    {"parametro": "Treino do soldador-mergulhador antes de cada trabalho", "valor": "em profundidade até 10 m", "item": "5.2.6 f)", "cota": "esquemas/solda-subaquatica-camara-molhada.svg#profundidade"}
+   ]
+  }
+ ]
+}

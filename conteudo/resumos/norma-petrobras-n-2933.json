@@ -1,0 +1,41 @@
+{
+ "id": "PETROBRAS-N-2933",
+ "titulo": "Petrobras N-2933 (12/2019) — Automação de sistemas elétricos: projeto, equipamentos, testes e comissionamento",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 5",
+   "texto": "Requisitos mínimos para projeto, especificação, configuração, parametrização, testes (TAF e TAC) e comissionamento da automação de sistemas elétricos industriais (SSC-SE) em instalações terrestres e marítimas, baseada na série IEC 61850. Nenhuma falha simples pode deixar o sistema elétrico sem controle nem causar perda de função não detectada ou falhas em cascata.",
+   "valores": [
+    {"parametro": "Classe de disponibilidade", "valor": "A3 (IEC 60870-4)", "item": "5.3"},
+    {"parametro": "Surtos (IEC 61000-4-5)", "valor": "Classe 4, ondas 1,2/50 μs e 10/700 μs, até 4 kV", "item": "5.4"}
+   ],
+   "figuras": ["esquemas/automacao-eletrica-arquitetura.svg"]
+  },
+  {
+   "titulo": "Hardware e redes",
+   "item": "6, 7.3, 7.4",
+   "texto": "Servidores, estações de operação e engenharia, switches industriais gerenciáveis (modulares, duas fontes independentes), sensores LPIT e distribuidores ópticos. Redes Ethernet com topologias redundantes (IEC 62439), recomendando PRP sem tempo de recuperação em topologia radial; vias de comunicação dedicadas.",
+   "valores": [
+    {"parametro": "Alimentação dos switches", "valor": "125 Vcc (−20 % / +10 %), duas fontes independentes", "item": "6.5"}
+   ]
+  },
+  {
+   "titulo": "Desempenho e IHM",
+   "item": "7.7, 7.8",
+   "texto": "Critérios da IEC TR 61850-90-4; tráfego unicast reduzido por VLAN ou filtragem nos switches. Tempos de transmissão segundo a IEC 61850-5.",
+   "valores": [
+    {"parametro": "Atraso máximo — trip (intertravamento, transferência, seletividade lógica)", "valor": "≤ 3 ms", "item": "7.7.9.1"},
+    {"parametro": "Comandos de alta criticidade (Tipo 1)", "valor": "≤ 20 ms", "item": "7.7.9.2"},
+    {"parametro": "Comandos de velocidade média (Tipo 2)", "valor": "≤ 100 ms", "item": "7.7.9.3"},
+    {"parametro": "Atualização de tela da IHM / comando até início da manobra", "valor": "≤ 2 s / ≤ 2 s", "item": "7.8"}
+   ]
+  },
+  {
+   "titulo": "Demais requisitos de projeto, documentação e testes",
+   "item": "7.5–7.22, 8–11",
+   "texto": "Intertravamentos e automatismos, interface com o SSC de processo, gerenciamento de alarmes, segurança cibernética (DMZ entre redes), simulação em tempo real (RTDS), aterramento eletrônico, sinalização, sincronismo por GPS com PTP (IEC 61588) em rede redundante, históricos com estampa de tempo coerente com o processo, barramento de processo e merging units. Documentação de projeto e de fornecedores, montagem, condicionamento, TAF, TAC e treinamento.",
+   "valores": []
+  }
+ ]
+}

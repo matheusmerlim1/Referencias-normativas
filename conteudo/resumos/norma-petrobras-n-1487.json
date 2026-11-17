@@ -1,0 +1,58 @@
+{
+ "id": "PETROBRAS-N-1487",
+ "titulo": "Petrobras N-1487 Rev. H (06/2022) — Inspeção de dutos rígidos submarinos",
+ "secoes": [
+  {
+   "titulo": "Escopo e regiões do duto",
+   "item": "1, Anexos",
+   "texto": "Inspeção de dutos e risers rígidos submarinos em operação: visual externa (ROV/mergulho), assentamento e vãos livres, proteção catódica, pig instrumentado, medição de espessura e teste hidrostático. O duto é dividido em regiões: topside/tie-in, trecho até a profundidade de 20 m e trecho de 20 m até a zona de variação de maré (ZVM) ou o fundo, com técnicas escolhidas pela profundidade (0–5 m, arrebentação, 5–20 m, 20–1 000 m, > 1 000 m).",
+   "valores": [
+    {"parametro": "Limite entre região 2 e região 3", "valor": "profundidade de 20 m", "item": "Anexo (regiões)", "cota": "esquemas/duto-submarino-inspecao.svg#profundidade-20"}
+   ],
+   "figuras": ["esquemas/duto-submarino-inspecao.svg"]
+  },
+  {
+   "titulo": "Assentamento, vãos e estruturas",
+   "item": "7, Tabela 1",
+   "texto": "O nível de assentamento é classificado pela parte da geratriz inferior enterrada em relação ao diâmetro externo. Estruturas de controle de deslocamento (sleepers, boias distribuídas) têm inspeção periódica.",
+   "valores": [
+    {"parametro": "Assentamento I / II / III / IV", "valor": "geratriz inferior enterrada até 25 % / 25–50 % / 50–100 % / acima de 100 % do Ø externo", "item": "Tabela 1", "cota": "esquemas/duto-submarino-inspecao.svg#assentamento"},
+    {"parametro": "Inspeção de estruturas de controle de deslocamento", "valor": "no máximo a cada 5 anos", "item": "7.5.5.4"}
+   ]
+  },
+  {
+   "titulo": "Proteção catódica",
+   "item": "7.5.8",
+   "texto": "Potencial medido por contato ou por eletrodo remoto com ROV, calibrado por medições de contato.",
+   "valores": [
+    {"parametro": "Distância da semicélula remota à outra semicélula", "valor": "≥ 3 m", "item": "7.5.8.3", "cota": "esquemas/duto-submarino-inspecao.svg#semicelula"},
+    {"parametro": "Calibração do potencial remoto com ROV", "valor": "contato nos 2 primeiros e 2 últimos anodos e a cada 1 000 m", "item": "7.5.8.3", "cota": "esquemas/duto-submarino-inspecao.svg#anodos"}
+   ]
+  },
+  {
+   "titulo": "Pig instrumentado e medição de espessura",
+   "item": "7.2, Anexo C",
+   "texto": "Período de pig entre 3 e 10 anos para dutos sem revestimento interno resistente à corrosão, por análise de risco ou integridade. Requisitos de POD por faixa de tensão perto da perda de massa (80 % entre 30–85 % do SMYS; 60 % entre 5–30 %) e no máximo 30 % de falso positivo. Medição de espessura externa por ferramentas marinizadas (ROV/mergulhador) em pontos indicados pelo pig (≥ 50 % de perda ou redução da PMO).",
+   "valores": [
+    {"parametro": "Exatidão de dimensionamento — medição de espessura", "valor": "± 10 % da espessura", "item": "7.2.1"},
+    {"parametro": "Exatidão — ferramentas marinizadas (varredura)", "valor": "± 25 % da espessura; produtividade 100 m a 300 m de duto por dia", "item": "7.2.1"},
+    {"parametro": "Corrosão alveolar tipo I / II", "valor": "Ø < 4 mm ou perda ≤ 10 % / Ø 4–10 mm ou perda 10–20 %", "item": "C.1.3", "cota": "esquemas/duto-submarino-inspecao.svg#alveolo"},
+    {"parametro": "Corrosão alveolar tipo III / IV", "valor": "Ø 10–50 mm ou perda 20–50 % / Ø > 50 mm ou perda > 50 %", "item": "C.1.3", "cota": "esquemas/duto-submarino-inspecao.svg#alveolo"},
+    {"parametro": "Registro planimétrico das áreas corroídas", "valor": "perda > 10 % da espessura nominal", "item": "C.1.3"}
+   ]
+  },
+  {
+   "titulo": "Teste hidrostático",
+   "item": "8, Anexo E",
+   "texto": "Recomendado para dutos desativados ou operando muito abaixo da PMOA que voltarão a pressões maiores; obrigatório para trechos novos não testados ou soldas não 100 % inspecionadas. Pressão limitada (100 % do escoamento por Barlow, entre outros); acima de 90 % do SMYS evitar ciclar. Instrumentos calibrados há no máximo 6 meses; água do mar filtrada, desaerada, com biocida e corante; passagem de pigs e controle de ar.",
+   "valores": [
+    {"parametro": "Gasoduto desativado / duto sem critério de hibernação", "valor": "> 5 anos / > 3 anos", "item": "8.2 a), b)"},
+    {"parametro": "Duto > 10 anos sem TH a < 64 % da PMOA que vai a > 80 %", "valor": "TH recomendado (dispensado se a tensão nova ≤ 30 % do escoamento)", "item": "8.2 c)"},
+    {"parametro": "Sensor de pressão", "valor": "faixa ≥ 1,1 × a pressão de ensaio; acurácia melhor que ± 0,2 %; sensibilidade 0,1 %", "item": "E.4.2.1"},
+    {"parametro": "Alívio contra sobrepressão", "valor": "abre 5 % acima da pressão de ensaio", "item": "Anexo E"},
+    {"parametro": "Filtragem da água do mar", "valor": "remove 99 % das partículas ≥ 100 µm", "item": "Anexo E"},
+    {"parametro": "Ar no duto — nova corrida de pig", "valor": "volume de ar > 0,5 %", "item": "Anexo E"}
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "id": "PETROBRAS-N-1591",
+ "titulo": "Petrobras N-1591 Rev. G (08/2013) — Identificação de metais e ligas por ímã e por pontos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Método para reconhecer, no campo, os metais e ligas mais usados em refino e petroquímica com um ímã (resposta magnética) e com reações químicas na superfície (teste por pontos), que podem ser aceleradas por corrente elétrica (polarização eletroquímica). Serve para material recozido ou normalizado: têmpera, tratamento superficial ou alterações de serviço (carbonetação, descarbonetação, difusão) podem falsear o ataque químico simples e a polarização.",
+   "valores": [],
+   "figuras": ["esquemas/end-identificacao-ligas-ima-pontos.svg"]
+  },
+  {
+   "titulo": "Pessoal, procedimento e padrões",
+   "item": "4, 5",
+   "texto": "A norma completa a ABNT NBR 15693 (método) e a NBR 16137 (procedimento e registro). A certificação do pessoal no Brasil é feita pela própria Petrobras; no exterior, por organismo acreditado segundo a ISO/IEC 17024 e com aceite prévio da Petrobras. Antes de qualificar o procedimento, verifica-se se ele é compatível com a aplicação. Os padrões metálicos usados para comparação precisam ter certificado de análise química.",
+   "valores": []
+  }
+ ]
+}

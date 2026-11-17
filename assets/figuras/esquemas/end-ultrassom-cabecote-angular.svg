@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Ultrassom em solda — cabeçote angular, ângulo e espessura">
+<title>Ultrassom em solda — cabeçote angular, ângulo e espessura (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Ultrassom em solda — cabeçote angular, ângulo e espessura</text>
+<text class="b" x="30" y="62">(a) Junta de topo — cabeçote angular e percurso do feixe</text>
+<path class="s" d="M60,200 L420,200 L440,300 L60,300 z"/>
+<path class="s" d="M840,200 L480,200 L460,300 L840,300 z"/>
+<path class="r" d="M420,200 L480,200 L460,300 L440,300 z"/>
+<path class="w" d="M160,170 L240,170 L250,200 L150,200 z"/>
+<text class="m n" x="200" y="160">cabeçote</text>
+<path class="v" d="M210,200 L310,300 L410,200" />
+<line class="c" x1="210" y1="200" x2="210" y2="310"/>
+<g id="cota-angulo" class="cota"><path class="d" d="M210,260 A60,60 0 0,0 252,242" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="232" y="285">ângulo</text></g>
+<g id="cota-espessura" class="cota"><line class="e" x1="840" y1="200" x2="886" y2="200"/><line class="e" x1="840" y1="300" x2="886" y2="300"/><line class="d" x1="880" y1="200" x2="880" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="870" y="255">t</text></g>
+<g id="cota-salto" class="cota"><line class="d" x1="210" y1="330" x2="410" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><line class="e" x1="410" y1="205" x2="410" y2="336"/><text class="m" x="310" y="350">salto (skip)</text></g>
+<text class="n" x="500" y="175">feixe o mais perpendicular possível</text>
+<text class="n" x="500" y="193">à face do chanfro; todo o volume varrido</text>
+<text class="b" x="30" y="410">(b) Ângulo do cabeçote cresce com a espessura menor</text>
+<rect class="sl" x="90" y="460" width="200" height="40"/>
+<path class="v" d="M110,460 L220,500"/>
+<text class="m n" x="190" y="450">chapa fina</text>
+<rect class="sl" x="350" y="460" width="200" height="65"/>
+<path class="v" d="M370,460 L483,525"/>
+<text class="m n" x="450" y="450">intermediária</text>
+<rect class="sl" x="610" y="460" width="200" height="90"/>
+<path class="v" d="M630,460 L720,550"/>
+<text class="m n" x="710" y="450">chapa grossa</text>
+<text class="n" x="500" y="380">chanfro estreito: técnica tandem</text>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

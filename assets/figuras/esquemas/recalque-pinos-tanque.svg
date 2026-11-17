@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Recalque no teste hidrostático — pinos de referência e leituras">
+<title>Recalque no teste hidrostático — pinos de referência e leituras (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Recalque no teste hidrostático — pinos de referência e leituras</text>
+<text class="b" x="30" y="62">(a) Planta — pinos no perímetro do tanque</text>
+<circle class="sl" cx="200" cy="260" r="140"/>
+<circle class="r" cx="200" cy="120" r="6"/>
+<text class="m n" x="200" y="103">P-1</text>
+<circle class="r" cx="299" cy="161" r="6"/>
+<text class="m n" x="315" y="150">P-2</text>
+<circle class="r" cx="340" cy="260" r="6"/>
+<text class="m n" x="362" y="265">P-3</text>
+<circle class="r" cx="299" cy="359" r="6"/>
+<text class="m n" x="315" y="380">P-4</text>
+<circle class="r" cx="200" cy="400" r="6"/>
+<text class="m n" x="200" y="427">P-5</text>
+<circle class="r" cx="101" cy="359" r="6"/>
+<text class="m n" x="85" y="380">P-6</text>
+<circle class="r" cx="60" cy="260" r="6"/>
+<text class="m n" x="38" y="265">P-7</text>
+<circle class="r" cx="101" cy="161" r="6"/>
+<text class="m n" x="85" y="150">P-8</text>
+<path class="d" d="M400,140 l0,-30" marker-end="url(#a)"/>
+<text class="b" x="412" y="118">N</text>
+<g id="cota-diametro-tanque" class="cota"><line class="e" x1="60" y1="270" x2="60" y2="436"/><line class="e" x1="340" y1="270" x2="340" y2="436"/><line class="d" x1="60" y1="430" x2="340" y2="430" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="200.0" y="423">D (diâmetro do tanque)</text></g>
+<g id="cota-espacamento-pinos" class="cota"><path class="d" d="M200.0,112.0 A148,148 0 0,1 304.7,155.3" marker-start="url(#a)" marker-end="url(#a)"/><text x="300" y="100">espaçamento no perímetro</text></g>
+<text class="n" x="130" y="264">leitura também</text>
+<text class="n" x="130" y="282">no centro</text>
+<text class="b" x="470" y="62">(b) Corte — posição dos pinos</text>
+<path class="s" d="M470,300 L700,300 L700,350 L470,350 z"/>
+<rect class="sl" x="520" y="150" width="200" height="150"/>
+<text class="n" x="560" y="140">costado</text>
+<rect class="r" x="700" y="305" width="22" height="6"/>
+<g id="cota-pino-fundacao" class="cota"><line class="e" x1="722" y1="300" x2="756" y2="300"/><line class="e" x1="722" y1="308" x2="756" y2="308"/><line class="d" x1="750" y1="300" x2="750" y2="308" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="585" y="380">pino abaixo do topo da fundação</text></g>
+<path class="s" d="M780,300 L880,300 L880,330 L780,330 z"/><rect class="sl" x="780" y="150" width="20" height="150"/>
+<path class="g" d="M800,250 l25,0 l0,-8"/><rect class="r" x="818" y="236" width="6" height="6"/>
+<g id="cota-pino-cantoneira" class="cota"><line class="e" x1="825" y1="250" x2="866" y2="250"/><line class="e" x1="825" y1="300" x2="866" y2="300"/><line class="d" x1="860" y1="250" x2="860" y2="300" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="868" y="232">acima do fundo</text></g>
+<text class="n" x="780" y="140">sem ring wall</text>
+<text class="b" x="470" y="420">(c) Leitura com nível óptico</text>
+<path class="g" d="M500,520 l20,-60 l20,60 M520,460 l0,-10"/><rect class="w" x="505" y="440" width="40" height="14"/>
+<line class="h" x1="545" y1="447" x2="760" y2="447"/>
+<rect class="w" x="760" y="420" width="12" height="100"/>
+<g id="cota-leitura" class="cota"><line class="e" x1="772" y1="440" x2="796" y2="440"/><line class="e" x1="772" y1="454" x2="796" y2="454"/><line class="d" x1="790" y1="440" x2="790" y2="454" marker-start="url(#a)" marker-end="url(#a)"/><text x="798" y="452">precisão</text></g>
+<text class="b" x="40" y="470">(d) Vaso horizontal — pinos por apoio</text>
+<rect class="sl" x="60" y="490" width="260" height="50" rx="25"/>
+<rect class="s" x="100" y="540" width="20" height="20"/><rect class="s" x="260" y="540" width="20" height="20"/>
+<g id="cota-diametro-vaso" class="cota"><line class="e" x1="320" y1="490" x2="351" y2="490"/><line class="e" x1="320" y1="540" x2="351" y2="540"/><line class="d" x1="345" y1="490" x2="345" y2="540" marker-start="url(#a)" marker-end="url(#a)"/><text x="353" y="520">Ø do vaso</text></g>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

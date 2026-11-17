@@ -1,0 +1,34 @@
+{
+ "id": "PETROBRAS-N-1965",
+ "titulo": "Petrobras N-1965 Rev. F (12/2015) — Movimentação de carga: inspeção, manutenção e operação de equipamentos terrestres",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Operação, manutenção, inspeção e teste de equipamentos de movimentação de carga em terra (guindastes, pontes, pórticos etc.), exceto veículos de transporte. Movimentação de pessoas em cesto suspenso segue a NR-12. Raio de carga = distância do centro de giro à vertical do ponto de içamento.",
+   "valores": [],
+   "figuras": ["esquemas/guindaste-raio-cabo-guia.svg"]
+  },
+  {
+   "titulo": "Inspeção",
+   "item": "4",
+   "texto": "Estrutura (preservação, escamação de tinta, lança, cavalete, pinos e soldas), acionamento (motores, bombas, mangueiras), freios, embreagens, tambores, roldanas (marcas do cabo no sulco, desgaste lateral) e cabos. Inspeção para liberação após grande reparo ou modificação, transferência de órgão, acidente ou operação de risco.",
+   "valores": []
+  },
+  {
+   "titulo": "Testes",
+   "item": "6",
+   "texto": "Teste de capacidade nas mesmas situações da liberação, conforme o fabricante, com certificado (configuração, cargas e resultados). Teste funcional também após cada montagem (lança treliçada, contrapeso, jib, guinchos, trole) e após manutenção corretiva.",
+   "valores": []
+  },
+  {
+   "titulo": "Operação e movimentação crítica",
+   "item": "7",
+   "texto": "Listas de verificação diária e semanal específicas por equipamento; procedimento de movimentação com sequência, peso, dimensões e centro de gravidade, condições climáticas e acessórios. Não operar guindaste sobre caminhão com gente na cabine; com patolas, usar mats largos se a capacidade do solo for incerta. Sinaleiro identificado (sinais do Anexo A); segurança pela N-2869.",
+   "valores": [
+    {"parametro": "Movimentação crítica — fator de utilização", "valor": "entre 77 % e 95 % da tabela de carga (acima de 95 %: análise específica, avaliar trocar o equipamento)", "item": "7.2", "cota": "esquemas/guindaste-raio-cabo-guia.svg#raio"},
+    {"parametro": "Movimentação crítica — tandem", "valor": "carga no menor equipamento > 60 % da capacidade configurada", "item": "7.2 b)"}
+   ]
+  }
+ ]
+}

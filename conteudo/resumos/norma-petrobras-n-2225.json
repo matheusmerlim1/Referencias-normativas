@@ -1,0 +1,44 @@
+{
+ "id": "PETROBRAS-N-2225",
+ "titulo": "Petrobras N-2225 Rev. G (02/2017) — Inspeção em serviço de turco fixo de embarcações salva-vidas",
+ "secoes": [
+  {
+   "titulo": "Escopo e tipos de inspeção",
+   "item": "1, 4",
+   "texto": "Complementa a SOLAS 74 e a NORMAM-05 na inspeção de turcos fixos de baleeiras, botes de resgate e balsas. Itens marcados como anuais [A] ou quinquenais [5A]. Inspeção anual + teste com carga também após modificação estrutural, revisão geral, troca de órgão responsável, acidente ou reparo estrutural e após a instalação na unidade.",
+   "valores": [],
+   "figuras": ["esquemas/turco-baleeira-teste-descida.svg"]
+  },
+  {
+   "titulo": "Estrutura, guincho, freios e hidráulica",
+   "item": "5.3, 5.4",
+   "texto": "Estrutura e soldas críticas com END periódico (repintar onde removeu tinta). Guincho em funcionamento sem ruído ou vibração anormal; em guincho sem embreagem, descer a embarcação vazia alguns metros ouvindo o motor. Freios: primeira inspeção após instalar e antes de receber carga, depois anual (espessura de lonas/discos pelo fabricante, graxa ou óleo nas superfícies, danos, fixação, corrosão em pinos). Sistema hidráulico: mangueiras, certificados, acumuladores e tanque.",
+   "valores": [
+    {"parametro": "END das soldas críticas", "valor": "intervalo ≤ 5 anos", "item": "5.3.4"},
+    {"parametro": "Descida sem carga para ouvir o motor (guincho sem embreagem)", "valor": "≈ 3 m", "item": "5.4.1.1 Nota 1", "cota": "esquemas/turco-baleeira-teste-descida.svg#descida-sem-carga"}
+   ]
+  },
+  {
+   "titulo": "Tambor, cabos, roldanas e acessórios",
+   "item": "5.5, 5.9",
+   "texto": "Tambor limpo e sem cabo, verificando fixação, amassamentos e descontinuidades. Cabo de aço trocado por defeito ou no prazo da SOLAS, com registro da especificação e certificado. Roldanas por amostragem com END; acessórios pela N-2170. Placa de identificação com fabricante, número, ano, carga admissível, carga de teste e código de projeto.",
+   "valores": [
+    {"parametro": "Inspeção dos tambores", "valor": "≤ 5 anos ou na troca do cabo", "item": "5.5.1.1 Nota 1"},
+    {"parametro": "Folga entre a última camada de cabo e a borda do flange do tambor", "valor": "≥ 1,5 × diâmetro do cabo (ISO 15516)", "item": "5.5.1.3", "cota": "esquemas/turco-baleeira-teste-descida.svg#borda-tambor"},
+    {"parametro": "Troca do cabo de aço", "valor": "≤ 5 anos (SOLAS 74) ou por defeito", "item": "5.5.2.4"},
+    {"parametro": "Amostragem de roldanas para END", "valor": "20 % (reprovou → mais 20 % diferentes)", "item": "5.5.3.5 Nota 2"}
+   ]
+  },
+  {
+   "titulo": "Testes de desempenho e teste com carga",
+   "item": "6",
+   "texto": "O freio estático é acionado duas vezes em pontos marcados da descida. No teste com carga [5A] mede-se velocidade de descida e distância após acionar o freio; depois do teste os freios e as partes solicitadas são reinspecionados antes de liberar o turco, e faz-se uma descida sem carga para acomodar os freios.",
+   "valores": [
+    {"parametro": "Deslizamento máximo após acionar o freio", "valor": "1 m", "item": "6.4.7, 6.5.12", "cota": "esquemas/turco-baleeira-teste-descida.svg#parada-freio"},
+    {"parametro": "Distâncias usuais de acionamento no teste de freio", "valor": "2 m e 5 m", "item": "6.4.7 Nota", "cota": "esquemas/turco-baleeira-teste-descida.svg#distancia-descida"},
+    {"parametro": "Carga de teste dinâmico", "valor": "Pdin = 1,1 × (Pembarcação + Ppassageiros) — estiva + lotação máxima + 10 %", "item": "6.5.4"},
+    {"parametro": "Distância de descida no teste com carga (recomendada)", "valor": "10 m ou 50 % da altura de instalação", "item": "6.5.5", "cota": "esquemas/turco-baleeira-teste-descida.svg#distancia-descida"}
+   ]
+  }
+ ]
+}

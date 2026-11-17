@@ -1,0 +1,66 @@
+{
+ "id": "PETROBRAS-N-1859",
+ "titulo": "Petrobras N-1859 Rev. H (10/2021) — Qualificação de consumíveis de soldagem",
+ "secoes": [
+  {
+   "titulo": "Escopo e duas rotas",
+   "item": "1, 4",
+   "texto": "Ensaios para certificar ou aceitar consumíveis: (A) propriedade assegurada por lote, obrigatória em aplicações críticas — estruturas marítimas de unidades fixas (N-1852) e dutos submarinos; (B) uso geral, complementando as especificações AWS A5.x. Consumíveis de classificação genérica (sufixo G) ficam fora. Em uso geral, quando aplicados no Brasil, certificação por OCP acreditado pelo Inmetro, com ensaios em laboratórios da RBLE (ou ISO/IEC 17025 no exterior); consumíveis para vasos sujeitos a fragilização ao revenido seguem a N-133. O fabricante emite certificado por lote aprovado.",
+   "valores": [],
+   "figuras": ["esquemas/solda-consumivel-chapa-teste.svg"]
+  },
+  {
+   "titulo": "Propriedade assegurada — chapa de teste e soldagem",
+   "item": "A.1, A.2",
+   "texto": "Chapa de teste de material equivalente ao do projeto, com chanfro e localização dos corpos de prova conforme a figura da norma, sobrecomprimento recomendado para retestes. Raiz removida completamente para não haver diluição; soldagem acompanhada por inspetor SNQC (no exterior, sociedade classificadora). Corpos de prova na condição como soldado (CS) e como tratado (CT).",
+   "valores": [
+    {"parametro": "Espessura da chapa de teste (com CTOD)", "valor": "t ≥ 50 mm", "item": "A.1.2 (Fig. A.1)", "cota": "esquemas/solda-consumivel-chapa-teste.svg#espessura"},
+    {"parametro": "Abertura da raiz da chapa de teste", "valor": "0 mm a 6 mm", "item": "A.1.2 (Fig. A.1)", "cota": "esquemas/solda-consumivel-chapa-teste.svg#abertura-raiz"},
+    {"parametro": "Altura da face da raiz", "valor": "3 mm a 6 mm", "item": "A.1.2 (Fig. A.1)", "cota": "esquemas/solda-consumivel-chapa-teste.svg#face-raiz"},
+    {"parametro": "Preaquecimento / interpasse máximo", "valor": "100 °C / 250 °C", "item": "A.1.3"},
+    {"parametro": "Energia mínima de soldagem", "valor": "SAW 2,5 kJ/mm; demais processos 1,5 kJ/mm na vertical ascendente", "item": "A.1.4"}
+   ]
+  },
+  {
+   "titulo": "Propriedade assegurada — ensaios e aceitação",
+   "item": "A.3, A.4",
+   "texto": "CTOD do metal de solda pela ISO 15653 (seção quadrada B×B, entalhe NP, controle por deslocamento, menor de três resultados, pré-trinca com ao menos 10 % de grãos colunares), na temperatura mínima de projeto Tp. Tração (ASTM A370, dois corpos cilíndricos por condição) atende ao mínimo da AWS. Charpy V conforme Tabela A.1. Um resultado ruim admite reteste (3 CTOD, 2 trações ou 2 conjuntos Charpy); dois ruins na mesma condição reprovam o lote.",
+   "valores": [
+    {"parametro": "CTOD mínimo — como soldado (CS)", "valor": "0,35 mm na temperatura mínima de projeto", "item": "A.3.1.6", "cota": "esquemas/solda-consumivel-chapa-teste.svg#ctod"},
+    {"parametro": "CTOD mínimo — como tratado (CT)", "valor": "0,25 mm", "item": "A.3.1.6", "cota": "esquemas/solda-consumivel-chapa-teste.svg#ctod"},
+    {"parametro": "Velocidade de deslocamento no CTOD", "valor": "1 mm/min", "item": "A.3.1.3"},
+    {"parametro": "Charpy V — classe 70 ksi (média / individual)", "valor": "42 J / ≥ 30 J", "item": "Tabela A.1"},
+    {"parametro": "Charpy V — classe 80/90 ksi", "valor": "54 J / ≥ 38 J", "item": "Tabela A.1"},
+    {"parametro": "Temperatura do Charpy", "valor": "Tp − 40 °C (estruturas); Tp − 10 °C (equipamentos)", "item": "Tabela A.1 Nota"}
+   ]
+  },
+  {
+   "titulo": "Uso geral — recebimento e análise química",
+   "item": "B.2–B.4",
+   "texto": "Inspeção de identificação, acabamento e dimensões; varetas marcadas nas duas pontas. Excentricidade do revestimento: em três eletrodos, raspa-se o revestimento em três pontos a 90° e mede-se alma + uma espessura de revestimento (M1, M2, M3) com micrômetro. Análise química pela AWS (também na alma, exceto aço-carbono), com controle de impurezas para Cr-Mo (fator X de Bruscato) e limites de ferrita por microscopia.",
+   "valores": [
+    {"parametro": "Excentricidade do revestimento", "valor": "Mmáx − Mmín ≤ 5 % de M (média de M1, M2, M3)", "item": "B.2.3.4", "cota": "esquemas/solda-consumivel-chapa-teste.svg#revestimento"},
+    {"parametro": "Diâmetro preferencial para análise química", "valor": "eletrodo revestido 2,5 mm; vareta 2,4 mm; arame sólido/tubular 1,2 mm; SAW 4,0 mm", "item": "B.4.3", "cota": "esquemas/solda-consumivel-chapa-teste.svg#diametro-consumivel"},
+    {"parametro": "Fator X de Bruscato (B2, B2L, B3, B3L, B9/B91)", "valor": "(10P + 5Sb + 4Sn + As)/100 ≤ 15 (ppm)", "item": "B.4.7"},
+    {"parametro": "Impurezas adicionais B9/B91 (API TR 938-B)", "valor": "Ni + Mn ≤ 1,4 %; Mn/S > 50; S + P ≤ 0,015 %", "item": "B.4.7.2"},
+    {"parametro": "Bismuto — inox 308, 316, 317, 309, 321, 347", "valor": "≤ 0,002 %", "item": "B.4.7.3"},
+    {"parametro": "Ferrita delta — 308, 316, 317, 321 / 347 / 309 / 309LMo", "valor": "3–9 % / 5–9 % / 7,5–20 % / 7,5 a < 25 %", "item": "B.4.8"}
+   ]
+  },
+  {
+   "titulo": "Uso geral — hidrogênio, corrosão e ensaios mecânicos",
+   "item": "B.4.9–B.9",
+   "texto": "Hidrogênio difusível pela AWS A4.3. Corrosão: G48 A para superduplex (25XX); A262 A e B para 317L/385; A262 A e E para 347/321. Ensaios mecânicos do metal depositado pela AWS B4.0, sem envelhecimento para retirar hidrogênio. Eficiência e taxa de deposição medidas em chapa de aço-carbono pesando eletrodos, pontas e chapa. Dureza para revestimento duro (A5.13/A5.21) sobre camada de E309L.",
+   "valores": [
+    {"parametro": "H difusível — eletrodos A5.1/A5.5", "valor": "≤ 8 mL/100 g (≥ 90 ksi: ≤ 4 mL/100 g)", "item": "B.4.9"},
+    {"parametro": "H difusível — arames e fluxos (Tabela B.1)", "valor": "≤ 70 ksi: H16; 70–85 ksi: H8; > 85 ksi: H4", "item": "Tabela B.1"},
+    {"parametro": "Diâmetro do arame no ensaio de hidrogênio", "valor": "0,9 mm ou 1,2 mm (eletrodo 3,25 mm e 4 mm)", "item": "B.4.9", "cota": "esquemas/solda-consumivel-chapa-teste.svg#diametro-consumivel"},
+    {"parametro": "Charpy ER70S-3", "valor": "−45 °C: 20 J individual, 27 J média", "item": "Tabela B.2"},
+    {"parametro": "Charpy sufixo B9 após TTAT", "valor": "+20 °C: 22 J individual, 34 J média", "item": "Tabela B.3"},
+    {"parametro": "Charpy superduplex (25XX)", "valor": "−46 °C: 19 J individual, 27 J média", "item": "Tabela B.4"},
+    {"parametro": "Chapa para eficiência de deposição", "valor": "aço-carbono ≥ 300 mm × 80 mm × 12,7 mm; pontas de ~50 mm", "item": "B.8.2.2", "cota": "esquemas/solda-consumivel-chapa-teste.svg#chapa-deposicao"},
+    {"parametro": "Depósito mínimo no ensaio de dureza (CoCr)", "valor": "5,5 mm acima da 1ª camada", "item": "B.9.7", "cota": "esquemas/solda-consumivel-chapa-teste.svg#deposito-dureza"}
+   ]
+  }
+ ]
+}

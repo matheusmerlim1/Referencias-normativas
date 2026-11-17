@@ -1,0 +1,46 @@
+{
+ "id": "PETROBRAS-N-2073",
+ "titulo": "Petrobras N-2073 Rev. G (07/2025) — Inspeção, reparo e recertificação de mangotes marítimos",
+ "secoes": [
+  {
+   "titulo": "Escopo e danos visuais",
+   "item": "1, 4",
+   "texto": "Inspeção em operação, recertificação e reparo de mangotes flutuantes, de catenária e submarinos de terminais aquaviários e oceânicos, fabricados pelo guia GMPHOM (OCIMF). Danos típicos: abrasão, camada interna danificada, corrosão e dano em niple e flange, cortes, sinalizadores danificados, deformação por compressão, descolamento da flutuação.",
+   "valores": [],
+   "figuras": ["esquemas/mangote-maritimo-inspecao.svg"]
+  },
+  {
+   "titulo": "Inspeção no mar",
+   "item": "5.1",
+   "texto": "Ensaio de estanqueidade após instalação ou intervenção: linha cheia de água sem ar, pressurizada, estabilizada e verificada. Monitoramento visual periódico e também após submergir além do especificado ou antes de cada navio, se não houver ensaio.",
+   "valores": [
+    {"parametro": "Pressão do ensaio de estanqueidade", "valor": "1,0 a 1,5 × a pressão nominal do bombeio", "item": "5.1.2 b)"},
+    {"parametro": "Estabilização antes da leitura", "valor": "30 min", "item": "5.1.2 c)"}
+   ]
+  },
+  {
+   "titulo": "Inspeção e ensaios em terra",
+   "item": "5.2, Tabela 1",
+   "texto": "Retirada periódica para inspeção externa e interna, ensaio de pressão com medição de alongamento (comprimentos L1 a 0,7 bar, L2 na pressão de ensaio, L3 de novo a 0,7 bar), vácuo (flanges de acrílico, luz e espelho) e continuidade elétrica. Mangotes danificados vêm para terra a qualquer tempo.",
+   "valores": [
+    {"parametro": "Intervalo de retirada — flutuante e submarino", "valor": "12 a 36 meses (oceânico GMPHOM 2009: 12 a 60)", "item": "Tabela 1"},
+    {"parametro": "Intervalo — catenária (oceânico)", "valor": "36 a 60 meses", "item": "Tabela 1"},
+    {"parametro": "Mangote novo armazenado instalado sem ensaio em seco", "valor": "armazenado < 3 anos", "item": "5.2.1.3"},
+    {"parametro": "Golpe de aríete — levar para terra / descarte", "valor": "1,5 a 2,5 × a pressão nominal / > 2,5 × (inspeção e ensaio)", "item": "5.2.1.6, 5.2.1.7"},
+    {"parametro": "Alongamento temporário e permanente", "valor": "(L2 − L1)/L1 × 100 e (L3 − L1)/L1 × 100 (%)", "item": "5.2.4.3", "cota": "esquemas/mangote-maritimo-inspecao.svg#alongamento"},
+    {"parametro": "Descarte por alongamento", "valor": "exceder em 2 % o alongamento do ensaio de fábrica", "item": "5.2.4.7", "cota": "esquemas/mangote-maritimo-inspecao.svg#alongamento"},
+    {"parametro": "Extensão do condutor no ensaio de continuidade", "valor": "≈ 12 m de cobre isolado 2,5 mm²", "item": "5.2.6.1", "cota": "esquemas/mangote-maritimo-inspecao.svg#extensao-continuidade"}
+   ]
+  },
+  {
+   "titulo": "Critérios de uso (Anexo A) e transporte",
+   "item": "7.3, Anexo A",
+   "texto": "Catenária e submarino: abrasão, corte ou rasgo aceitos até expor a 1ª camada metálica ou sintética (acompanhar); além disso, troca imediata; espiral exposta, deslocada ou quebrada e qualquer dano na camada interna também são troca imediata. Montagem respeitando mangotes especiais (redutores, rail, tail, breakaway). Reboque a menos de 5 nós.",
+   "valores": [
+    {"parametro": "Alvéolos de corrosão na face do flange", "valor": "aceito até 3 mm de profundidade", "item": "Tabela A.1", "cota": "esquemas/mangote-maritimo-inspecao.svg#alveolo-flange"},
+    {"parametro": "Alvéolos de corrosão no flange (fora da face)", "valor": "aceito até 5 mm de profundidade", "item": "Tabela A.1", "cota": "esquemas/mangote-maritimo-inspecao.svg#alveolo-flange"},
+    {"parametro": "Dano na capa (flutuante)", "valor": "> 5 mm de profundidade ou com exposição de tecido, cabo ou flange interno → trocar antes da próxima utilização", "item": "Anexo A, A.4", "cota": "esquemas/mangote-maritimo-inspecao.svg#dano-capa"}
+   ]
+  }
+ ]
+}

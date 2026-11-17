@@ -1,0 +1,40 @@
+{
+ "id": "PETROBRAS-N-1596",
+ "titulo": "Petrobras N-1596 Rev. J (07/2021) — Ensaio não destrutivo: líquido penetrante",
+ "secoes": [
+  {
+   "titulo": "Escopo e normas base",
+   "item": "1, 4",
+   "texto": "Líquido penetrante (fluorescente ou colorido) como complemento do ASME V Art. 6, AWS D1.1, ISO 3452 e normas de dutos. Para inox austenítico, duplex/superduplex, titânio e ligas de níquel, os produtos têm teor de contaminantes analisado no resíduo.",
+   "valores": [
+    {"parametro": "Halogênios (Cl⁻ + F⁻) — titânio, inox austenítico, duplex, superduplex", "valor": "≤ 0,1 %", "item": "4.4"},
+    {"parametro": "Enxofre — ligas de níquel", "valor": "≤ 0,1 %", "item": "4.4"}
+   ],
+   "figuras": ["esquemas/end-liquido-penetrante-etapas.svg"]
+  },
+  {
+   "titulo": "Pessoal, procedimento e recebimento de material",
+   "item": "5.1, 5.2, 5.3.2.1",
+   "texto": "Pessoal conforme N-2941; procedimento qualificado por nível 3 com as variáveis da Tabela 1. No recebimento, confere-se a embalagem (tipo de penetrante, fabricante, composição, temperatura de aplicação, restrições de contaminantes) e faz-se o teste de sensibilidade de cada conjunto com bloco comparador da ISO 3452-3, dentro da faixa de temperatura qualificada.",
+   "valores": [
+    {"parametro": "Sensibilidade — penetrante fluorescente (tipo I)", "valor": "detectar 100 % das indicações do bloco comparador de 10 μm", "item": "5.3.2.1.2 a)", "cota": "esquemas/end-liquido-penetrante-etapas.svg#trinca-comparador"},
+    {"parametro": "Sensibilidade — penetrante colorido (tipo II)", "valor": "detectar 100 % das indicações do bloco comparador de 30 μm", "item": "5.3.2.4.1", "cota": "esquemas/end-liquido-penetrante-etapas.svg#trinca-comparador"}
+   ]
+  },
+  {
+   "titulo": "Tempo de penetração",
+   "item": "5.3.2.3",
+   "texto": "Usa-se o tempo mínimo do fabricante, mas sempre dentro de uma janela; tempos acima de 60 min só se demonstrados na qualificação. Acima de 52 °C o tempo vira variável essencial do procedimento.",
+   "valores": [
+    {"parametro": "Tempo de penetração entre 10 °C e 52 °C", "valor": "> 10 min e ≤ 60 min (mínimo do fabricante)", "item": "5.3.2.3.1", "nota": "conferir: no trecho da AWS D1.1 (5.3.3.3.1) a faixa aparece como 5 °C a 52 °C"},
+    {"parametro": "Tempo de penetração entre 5 °C e 10 °C", "valor": "2 × o tempo da faixa 10–52 °C", "item": "5.3.2.3.2"}
+   ]
+  },
+  {
+   "titulo": "Qualificação fora da faixa de temperatura",
+   "item": "5.3.2.4",
+   "texto": "Entre 5 °C e 52 °C basta o bloco comparador. Abaixo de 5 °C ou acima de 52 °C o procedimento é aplicado ao bloco 'B' na temperatura pretendida e comparado ao bloco 'A' ensaiado na faixa normal; se as indicações de trinca forem essencialmente iguais, fica qualificado (para faixa acima de 52 °C, demonstrar nos limites inferior e superior). Com penetrante colorido pode-se usar um único bloco e comparar por fotografia, limpando-o bem entre as etapas.",
+   "valores": []
+  }
+ ]
+}

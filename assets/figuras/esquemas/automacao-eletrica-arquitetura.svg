@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Automação de sistemas elétricos — arquitetura em camadas">
+<title>Automação de sistemas elétricos — arquitetura em camadas (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Automação de sistemas elétricos — arquitetura em camadas</text>
+<text class="b" x="30" y="62">Arquitetura típica de automação de sistemas elétricos (IEC 61850)</text>
+<rect class="w" x="80" y="100" width="150" height="50"/><rect class="w" x="280" y="100" width="150" height="50"/><rect class="w" x="480" y="100" width="150" height="50"/>
+<text class="m n" x="155" y="130">IHM / operação</text>
+<text class="m n" x="355" y="130">servidores</text>
+<text class="m n" x="555" y="130">engenharia</text>
+<rect class="y" x="700" y="100" width="150" height="50"/>
+<text class="m n" x="775" y="130">GPS / PTP</text>
+<rect class="b2" x="80" y="220" width="770" height="30"/><rect class="b2" x="80" y="270" width="770" height="30"/>
+<text class="n" x="90" y="240">rede A (redundante, PRP)</text>
+<text class="n" x="90" y="290">rede B</text>
+<rect class="sl" x="110" y="360" width="90" height="60"/>
+<text class="m n" x="155" y="395">IED</text>
+<line class="d" x1="140" y1="300" x2="140" y2="360"/><line class="d" x1="170" y1="250" x2="170" y2="360"/>
+<rect class="sl" x="235" y="360" width="90" height="60"/>
+<text class="m n" x="280" y="395">IED</text>
+<line class="d" x1="265" y1="300" x2="265" y2="360"/><line class="d" x1="295" y1="250" x2="295" y2="360"/>
+<rect class="sl" x="360" y="360" width="90" height="60"/>
+<text class="m n" x="405" y="395">IED</text>
+<line class="d" x1="390" y1="300" x2="390" y2="360"/><line class="d" x1="420" y1="250" x2="420" y2="360"/>
+<rect class="sl" x="485" y="360" width="90" height="60"/>
+<text class="m n" x="530" y="395">IED</text>
+<line class="d" x1="515" y1="300" x2="515" y2="360"/><line class="d" x1="545" y1="250" x2="545" y2="360"/>
+<rect class="sl" x="610" y="360" width="90" height="60"/>
+<text class="m n" x="655" y="395">IED</text>
+<line class="d" x1="640" y1="300" x2="640" y2="360"/><line class="d" x1="670" y1="250" x2="670" y2="360"/>
+<rect class="sl" x="735" y="360" width="90" height="60"/>
+<text class="m n" x="780" y="395">IED</text>
+<line class="d" x1="765" y1="300" x2="765" y2="360"/><line class="d" x1="795" y1="250" x2="795" y2="360"/>
+<rect class="s" x="80" y="470" width="770" height="40"/>
+<text class="m n" x="465" y="495">painéis / merging units / LPIT</text>
+<rect class="r" x="690" y="160" width="160" height="40"/>
+<text class="m n" x="770" y="185">DMZ</text>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

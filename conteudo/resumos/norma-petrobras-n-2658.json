@@ -1,0 +1,31 @@
+{
+ "id": "PETROBRAS-N-2658",
+ "titulo": "Petrobras N-2658 Rev. C (05/2024) — Inspeções periódicas de segurança e avaliação de integridade de caldeiras",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 5",
+   "texto": "Requisitos adicionais à NR-13 para inspeções periódicas e avaliação de integridade de caldeiras (o PLH pode usar métodos alternativos). A avaliação de integridade garante operação contínua e confiável por um período definido, com monitoração da evolução dos danos (Anexo A).",
+   "valores": [
+    {"parametro": "Avaliação com histórico de monitoração", "valor": "após 25 anos de operação", "item": "5.4"},
+    {"parametro": "Dois terços da vida de projeto (ASME I)", "valor": "≈ 15 anos", "item": "Nota"}
+   ],
+   "figuras": ["esquemas/caldeira-aquotubular-montagem.svg"]
+  },
+  {
+   "titulo": "Avaliação de integridade e vida remanescente",
+   "item": "6.1–6.5",
+   "texto": "Histórico (prontuário, registro de segurança, inspeções, operação), modos de falha e efeitos; vida residual por fadiga pela BS 7910 e por perda de espessura pelo API 579-1. Fluência em superaquecedores, reaquecedores, coletores e dessuperaquecedores: temperatura do metal (skinpoints ou estimada pela camada de óxido), pressão, espessuras, tensões pelo ASME I (MEF em geometrias complexas) e Larson-Miller. Microestrutura (esferoidização) e dureza estimam vida consumida e resistência (API 579 Tab. 2E.1).",
+   "valores": []
+  },
+  {
+   "titulo": "Ensaios e FAC",
+   "item": "6.6–6.8, Tabelas",
+   "texto": "UT e PM em soldas e concentradores de tensão; ensaio acelerado de fluência em amostras retiradas (tensão constante, ao menos três temperaturas, dois ensaios por temperatura, gráfico log tr × T). FAC no sistema de alimentação, do desaerador aos tubulões, sobretudo em caldeiras de recuperação — medição de espessura por UT nos pontos suscetíveis. Tabelas por componente indicam modo de falha, ensaio (EV, LP, PM, ACFM, UT, IRIS, medição de espessura, martelamento, estilete) e extensão (100 %, 50 % ou amostragem).",
+   "valores": [
+    {"parametro": "Faixa de END em curvas, tês, boca de lobo e derivações", "valor": "300 mm de largura nas geratrizes interna e externa (LP ou PM + UT)", "item": "Tabela (nota)", "cota": "esquemas/caldeira-aquotubular-montagem.svg#faixa-end"},
+    {"parametro": "Ensaio acelerado de fluência", "valor": "≥ 3 temperaturas, ≥ 2 ensaios por temperatura", "item": "6.7.2"}
+   ]
+  }
+ ]
+}

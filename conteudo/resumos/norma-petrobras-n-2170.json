@@ -1,0 +1,39 @@
+{
+ "id": "PETROBRAS-N-2170",
+ "titulo": "Petrobras N-2170 Rev. G (04/2020) — Inspeção de acessórios de movimentação de carga",
+ "secoes": [
+  {
+   "titulo": "Escopo e regras gerais",
+   "item": "1, 4",
+   "texto": "Inspeção em serviço de manilhas, ganchos, lingas, cintas, patescas, distorcedores, balancins, soquetes, olhais, anelões, esticadores, elos, grampos e correntes. Inspeção visual (N-1597) com LP complementar (N-1596), consultando registros e rastreabilidade; acessório novo ou transferido é inspecionado antes do 1º uso. Ganchos, manilhas, esticadores, elos, lingas, cintas, anéis, olhais, grampos, correntes e soquetes não são recuperados — se precisarem de reparo, são descartados; nunca soldar acessório forjado ou fundido. Olhais de cabo classificados pela NBR 11900-3. Inspeção e relatório por responsável com CREA ou CFT.",
+   "valores": [
+    {"parametro": "Intervalo máximo entre inspeções (acessórios em geral, recomendado)", "valor": "12 meses", "item": "4.3"},
+    {"parametro": "Lingas (NBR 13541-2) e cintas", "valor": "≤ 12 meses", "item": "4.4, 4.5"}
+   ],
+   "figuras": ["esquemas/acessorios-carga-descarte.svg"]
+  },
+  {
+   "titulo": "Manilhas e ganchos",
+   "item": "5.1, 5.2",
+   "texto": "Manilha com deformação plástica, trinca, mossa ou desgaste é substituída (trinca superficial pode ser removida dentro do limite). Gancho de haste giratória deve girar livre à mão.",
+   "valores": [
+    {"parametro": "Manilha — desgaste no pino ou corpo", "valor": "≥ 10 % do diâmetro de projeto → substituir", "item": "5.1", "cota": "esquemas/acessorios-carga-descarte.svg#manilha-diametro"},
+    {"parametro": "Gancho — torção", "valor": "> 10° → substituir", "item": "5.2 a)", "cota": "esquemas/acessorios-carga-descarte.svg#gancho-torcao"},
+    {"parametro": "Gancho — abertura da garganta", "valor": "> 15 % acima da abertura original d → substituir", "item": "5.2 b)", "cota": "esquemas/acessorios-carga-descarte.svg#gancho-abertura"},
+    {"parametro": "Gancho — desgaste da seção", "valor": "> 10 % de e → substituir", "item": "5.2 d)", "cota": "esquemas/acessorios-carga-descarte.svg#gancho-e"},
+    {"parametro": "Gancho — desgaste no olhal", "valor": "> 10 % do diâmetro do olhal → substituir", "item": "5.2 e)", "cota": "esquemas/acessorios-carga-descarte.svg#gancho-olhal"}
+   ]
+  },
+  {
+   "titulo": "Lingas, soquetes, olhais e cintas",
+   "item": "5.3–5.5",
+   "texto": "Lingas e anéis pela NBR 13541-2 (lingas de corrente, recomendado NBR 15516-2); cintas pela NBR 15637-1/-2. Soquete aberto ou fechado: descartar a linga com fios partidos acima da NBR 13541-2 ou com trinca/desgaste que reduza a peça. Soquete de cunha: descartar ou reposicionar o soquete; trocar se o pino gastar ou a cunha soltar. Parafuso olhal com rosca deformada, trinca ou deformação é substituído.",
+   "valores": [
+    {"parametro": "Soquete aberto/fechado — redução do corpo ou pino", "valor": "10 % da dimensão original → descartar", "item": "5.3.1.1", "cota": "esquemas/acessorios-carga-descarte.svg#soquete-pino"},
+    {"parametro": "Soquete de cunha — reposicionamento após fios partidos", "valor": "2 m da posição original", "item": "5.3.1.2", "cota": "esquemas/acessorios-carga-descarte.svg#soquete-reposicao"},
+    {"parametro": "Soquete de cunha — desgaste no pino", "valor": "> 10 % do diâmetro original → trocar soquete ou descartar", "item": "5.3.1.2", "cota": "esquemas/acessorios-carga-descarte.svg#soquete-pino"},
+    {"parametro": "Parafuso olhal — redução do diâmetro do corpo", "valor": "> 10 % do diâmetro nominal → substituir", "item": "5.4 b)", "cota": "esquemas/acessorios-carga-descarte.svg#olhal-corpo"}
+   ]
+  }
+ ]
+}

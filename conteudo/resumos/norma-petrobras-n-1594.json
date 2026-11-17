@@ -1,0 +1,46 @@
+{
+ "id": "PETROBRAS-N-1594",
+ "titulo": "Petrobras N-1594 Rev. J (04/2019) — Ensaio não destrutivo: ultrassom em solda",
+ "secoes": [
+  {
+   "titulo": "Escopo e normas base",
+   "item": "1, 4",
+   "texto": "Ultrassom manual em juntas soldadas, como complemento das normas de projeto e fabricação (ASME V Art. 4, AWS D1.1, API 1104; ISO 3183, API 620/650, DNVGL-ST-F101 e OS-C401 se aplicam integralmente). A norma acrescenta requisitos de pessoal, procedimento, calibração e escolha de cabeçote.",
+   "valores": [],
+   "figuras": ["esquemas/end-ultrassom-cabecote-angular.svg"]
+  },
+  {
+   "titulo": "Pessoal e procedimento",
+   "item": "5.1, 5.2",
+   "texto": "Inspetores certificados por entidade independente acreditada (ABNT NBR NM ISO 9712 / ISO 9712); autocertificação do empregador (tipo SNT-TC-1A) não é aceita. O procedimento é qualificado e certificado por nível 3, segundo a norma de projeto e a ABNT NBR 16616; se a norma não disser como, usa-se corpo de prova representativo que demonstre repetibilidade, incerteza e probabilidade de detecção. A Tabela 1 lista as variáveis — material e faixa de espessura, cabeçotes (ângulo, frequência, dimensões), técnica, ajuste de sensibilidade, blocos de referência, varredura, dimensionamento e critério de aceitação são essenciais.",
+   "valores": []
+  },
+  {
+   "titulo": "Calibração e critério de aceitação",
+   "item": "5.3, 5.4",
+   "texto": "Aparelho com certificado de calibração (instrumentos novos: BS EN 12668-1 e -2; verificação do conjunto em uso: BS EN 12668-3), por laboratório acreditado. O critério de aceitação vem da especificação de projeto.",
+   "valores": []
+  },
+  {
+   "titulo": "Escolha do cabeçote angular (juntas de topo)",
+   "item": "5.5.1, 5.6.1, 5.7.1",
+   "texto": "O mesmo critério vale para ASME V, AWS D1.1 e API 1104: o cabeçote tem de varrer todo o volume da solda e incidir o mais perpendicular possível à face do chanfro, e é escolhido pelo tipo de descontinuidade esperado. Em juntas que não são de topo, usam-se ao menos dois ângulos diferentes; em chanfro estreito (narrow gap), a técnica tandem.",
+   "valores": [
+    {"parametro": "Espessura até 15 mm", "valor": "cabeçotes de 60° e 70°", "item": "5.5.1.1 c)", "cota": "esquemas/end-ultrassom-cabecote-angular.svg#angulo"},
+    {"parametro": "Espessura de 15 mm a 25 mm", "valor": "60° e 70° ou 45° e 60°", "item": "5.5.1.1 d)", "cota": "esquemas/end-ultrassom-cabecote-angular.svg#angulo"},
+    {"parametro": "Espessura de 25 mm a 40 mm", "valor": "45° e 60° ou 45° e 70°", "item": "5.5.1.1 e)", "cota": "esquemas/end-ultrassom-cabecote-angular.svg#angulo"},
+    {"parametro": "Espessura acima de 40 mm", "valor": "45° e 60°", "item": "5.5.1.1 f)", "cota": "esquemas/end-ultrassom-cabecote-angular.svg#angulo"},
+    {"parametro": "Juntas que não são de topo", "valor": "no mínimo 2 cabeçotes de ângulos diferentes", "item": "5.5.1.2"}
+   ]
+  },
+  {
+   "titulo": "Perda por transferência e cobertura",
+   "item": "5.5.2, 5.5.3",
+   "texto": "A diferença de sinal entre o bloco de referência e a peça (perda por transferência, PT) corrige o ganho: GC = GP ± PT. Com cabeçote normal compara-se o eco de fundo; com cabeçotes angulares traça-se uma curva no bloco com dois cabeçotes iguais (emissor e receptor) e compara-se com a peça. O procedimento traz croquis da junta com ângulos, superfícies e lados de varredura que garantam todo o volume.",
+   "valores": [
+    {"parametro": "Altura de referência do sinal na tela", "valor": "80 % da altura total", "item": "5.5.2.1 a)"},
+    {"parametro": "Perda por transferência máxima", "valor": "6 dB (acima disso trocar blocos ou retrabalhar a superfície)", "item": "5.5.2.3"}
+   ]
+  }
+ ]
+}

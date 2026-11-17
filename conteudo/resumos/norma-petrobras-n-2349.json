@@ -1,0 +1,38 @@
+{
+ "id": "PETROBRAS-N-2349",
+ "titulo": "Petrobras N-2349 Rev. C (03/2016) — Segurança nos trabalhos de soldagem e corte",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 4",
+   "texto": "Segurança da força de trabalho e das instalações em soldagem e corte. PT conforme N-2162; execução conforme N-133; solda ou trepanação em equipamento em operação pela N-2163; ANSI Z49.1 complementar. Análise de riscos prévia com EPI/EPC definidos, equipamentos inspecionados e, em equipamentos classe A (e classe B ligados a eles) e áreas classificadas, avaliação/monitoração da inflamabilidade antes de começar.",
+   "valores": [],
+   "figuras": ["esquemas/solda-seguranca-trabalho-quente.svg"]
+  },
+  {
+   "titulo": "Solda e corte a arco elétrico",
+   "item": "5.1",
+   "texto": "Alimentação por chave blindada e aterrada ou disjuntor, instalada e aterrada por profissional autorizado (NR-10); emendas só blindadas; máquina seca, protegida, de preferência fora de área classificada e perto da frente de trabalho, com identificação máquina × soldador e redutor automático da tensão em vazio. Cabo terra isolado preso à peça; porta-eletrodo nunca no chão; nada de cabos em poças, sobre válvulas, linhas quentes ou de produtos perigosos, nem enrolados no corpo.",
+   "valores": [
+    {"parametro": "Altura mínima dos cabos aéreos — passagem de pessoas", "valor": "2,5 m do piso", "item": "5.1.3", "cota": "esquemas/solda-seguranca-trabalho-quente.svg#cabo-pedestres"},
+    {"parametro": "Altura mínima dos cabos aéreos — passagem de veículos", "valor": "4,5 m do piso", "item": "5.1.3", "cota": "esquemas/solda-seguranca-trabalho-quente.svg#cabo-veiculos"}
+   ]
+  },
+  {
+   "titulo": "Solda e corte a gás",
+   "item": "5.2",
+   "texto": "Cilindros com capacete quando desacoplados, vazios identificados e separados, movidos em carrinho, guardados em local limpo, ventilado e sinalizado por compatibilidade, sempre em pé e presos, sem óleo, dentro do prazo de inspeção (NBR 12274). Abrir primeiro o oxigênio e depois o acetileno (fechar na ordem inversa), com o parafuso do regulador frouxo e sem ficar na frente do manômetro. Mangueiras pela NBR 15959 com válvulas corta-chama no cilindro e no maçarico (NR-18, NR-34), protegidas e testadas com solução de bolhas; acender com centelhador.",
+   "valores": [
+    {"parametro": "Temperatura máxima no manuseio e estocagem do acetileno", "valor": "54 °C", "item": "5.2.4 Nota"}
+   ]
+  },
+  {
+   "titulo": "Fumos e proteção contra incêndio",
+   "item": "5.3, 5.4",
+   "texto": "Avaliar exposição a gases e fumos metálicos; ventilação ou exaustão em local confinado ou mal ventilado. Em trabalho a quente, além dos meios de combate, prever contenção de fagulhas e borra (habitáculo).",
+   "valores": [
+    {"parametro": "Observador de trabalho a quente (NFPA 51B, recomendado)", "valor": "permanece até 30 min após o término, vigiando um raio de 11 m", "item": "5.4.2", "cota": "esquemas/solda-seguranca-trabalho-quente.svg#raio-observador"}
+   ]
+  }
+ ]
+}

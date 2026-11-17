@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Soldagem — faixas junto ao chanfro, medição do preaquecimento e espessura da junta">
+<title>Soldagem — faixas junto ao chanfro, medição do preaquecimento e espessura da junta (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Soldagem — faixas junto ao chanfro, medição do preaquecimento e espessura da junta</text>
+<text class="b" x="30" y="62">(a) Junta de topo em corte — faixas medidas a partir da margem do chanfro</text>
+<path class="s" d="M60,220 L420,220 L440,262 L440,272 L60,272 z"/>
+<path class="s" d="M840,220 L480,220 L460,262 L460,272 L840,272 z"/>
+<path class="r" d="M420,220 L480,220 L460,262 L440,262 z"/>
+<rect class="y" x="395" y="214" width="25" height="6"/><rect class="y" x="395" y="272" width="25" height="6"/>
+<path class="wd" d="M335,220 L365,220 L365,170 L345,170 L335,190 z"/>
+<text class="m n" x="362" y="160">dispositivo auxiliar</text>
+<path class="r" d="M250,215 q-10,-25 0,-45 q10,20 0,45 z"/>
+<text class="m n" x="190" y="160">fonte (chama/resistência)</text>
+<rect class="w" x="243" y="285" width="14" height="40"/><circle class="w" cx="250" cy="332" r="9"/>
+<text class="n" x="270" y="335">medição no lado oposto à fonte</text>
+<circle class="wd" cx="556" cy="216" r="3"/>
+<circle class="wd" cx="568" cy="216" r="3"/>
+<circle class="wd" cx="580" cy="216" r="3"/>
+<circle class="wd" cx="592" cy="216" r="3"/>
+<text class="m n" x="580" y="200">marcação (punção)</text>
+<g id="cota-limpeza" class="cota"><line class="e" x1="395" y1="214" x2="395" y2="114"/><line class="e" x1="420" y1="214" x2="420" y2="114"/><line class="d" x1="395" y1="120" x2="420" y2="120" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="407" y="112">faixa limpa</text></g>
+<g id="cota-dispositivo" class="cota"><line class="e" x1="365" y1="170" x2="365" y2="134"/><line class="e" x1="420" y1="170" x2="420" y2="134"/><line class="d" x1="365" y1="140" x2="420" y2="140" marker-start="url(#a)" marker-end="url(#a)"/><text x="470" y="144">dispositivo × chanfro</text></g>
+<g id="cota-faixa-seca" class="cota"><line class="e" x1="100" y1="220" x2="100" y2="89"/><line class="e" x1="420" y1="220" x2="420" y2="89"/><line class="d" x1="100" y1="95" x2="420" y2="95" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="250" y="88">faixa seca e na temperatura de preaquecimento</text></g>
+<g id="cota-medicao" class="cota"><line class="e" x1="250" y1="272" x2="250" y2="366"/><line class="e" x1="420" y1="272" x2="420" y2="366"/><line class="d" x1="250" y1="360" x2="420" y2="360" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="335" y="378">ponto de medição</text></g>
+<g id="cota-puncao" class="cota"><line class="e" x1="480" y1="220" x2="480" y2="174"/><line class="e" x1="550" y1="220" x2="550" y2="174"/><line class="d" x1="480" y1="180" x2="550" y2="180" marker-start="url(#a)" marker-end="url(#a)"/><text x="600" y="176">punção × margem da solda</text></g>
+<text class="n" x="100" y="300">chapa A</text>
+<text class="n" x="760" y="300">chapa B</text>
+<text class="b" x="30" y="410">(b) Espessura calculada da junta (bocal × casco)</text>
+<rect class="s" x="60" y="500" width="380" height="34"/>
+<rect class="s" x="200" y="430" width="34" height="70"/>
+<rect class="s" x="290" y="430" width="34" height="70"/>
+<rect class="sl" x="324" y="486" width="90" height="14"/>
+<path class="r" d="M234,500 l14,0 l-14,-14 z"/><path class="r" d="M290,500 l-14,0 l14,-14 z"/>
+<g id="cota-espessura-junta" class="cota"><line class="e" x1="440" y1="500" x2="476" y2="500"/><line class="e" x1="440" y1="534" x2="476" y2="534"/><line class="d" x1="470" y1="500" x2="470" y2="534" marker-start="url(#a)" marker-end="url(#a)"/><text x="480" y="522">e (T1, T2, T3)</text></g>
+<text class="n" x="90" y="552">casco T1</text>
+<text class="n" x="330" y="476">reforço T3</text>
+<text class="n" x="150" y="450">bocal T2</text>
+<text class="n" x="610" y="440">e → escolhe a coluna da tabela de preaquecimento</text>
+<text class="n" x="610" y="460">(junto com o carbono equivalente ou a liga).</text>
+<text class="n" x="610" y="490">Também dá os limiares de espessura de DHT,</text>
+<text class="n" x="610" y="510">energia de soldagem e interpasse por material.</text>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

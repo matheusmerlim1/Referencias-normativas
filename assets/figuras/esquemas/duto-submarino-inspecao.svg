@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Duto rígido submarino — regiões, anodos, assentamento e alvéolos">
+<title>Duto rígido submarino — regiões, anodos, assentamento e alvéolos (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Duto rígido submarino — regiões, anodos, assentamento e alvéolos</text>
+<text class="b" x="30" y="62">(a) Regiões do duto</text>
+<line class="b2" x1="40" y1="130" x2="880" y2="130" stroke-width="3"/>
+<text class="n" x="45" y="122">nível do mar</text>
+<path class="g" d="M120,80 L120,330 Q120,360 160,360 L880,360"/>
+<line class="h" x1="40" y1="230" x2="880" y2="230"/>
+<g id="cota-profundidade-20" class="cota"><line class="e" x1="120" y1="130" x2="84" y2="130"/><line class="e" x1="120" y1="230" x2="84" y2="230"/><line class="d" x1="90" y1="130" x2="90" y2="230" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="82" y="185">20 m</text></g>
+<text class="n" x="140" y="200">região 2</text>
+<text class="n" x="140" y="300">região 3</text>
+<line class="g" x1="40" y1="380" x2="880" y2="380"/>
+<rect class="r" x="400" y="352" width="30" height="16"/>
+<rect class="r" x="580" y="352" width="30" height="16"/>
+<rect class="r" x="760" y="352" width="30" height="16"/>
+<g id="cota-anodos" class="cota"><line class="e" x1="400" y1="352" x2="400" y2="329"/><line class="e" x1="580" y1="352" x2="580" y2="329"/><line class="d" x1="400" y1="335" x2="580" y2="335" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="490.0" y="328">intervalo de calibração</text></g>
+<circle class="y" cx="680" cy="290" r="6"/><circle class="y" cx="750" cy="270" r="6"/>
+<text class="b" x="30" y="430">(b) Assentamento no leito (corte)</text>
+<rect class="s" x="60" y="490" width="300" height="60" fill-opacity=".2"/>
+<circle class="w" cx="210" cy="480" r="30"/>
+<g id="cota-assentamento" class="cota"><line class="e" x1="230" y1="490" x2="266" y2="490"/><line class="e" x1="230" y1="510" x2="266" y2="510"/><line class="d" x1="260" y1="490" x2="260" y2="510" marker-start="url(#a)" marker-end="url(#a)"/><text x="268" y="505">geratriz enterrada</text></g>
+<text class="b" x="460" y="430">(c) Alvéolo de corrosão</text>
+<rect class="sl" x="460" y="470" width="300" height="40"/>
+<path class="w" d="M590,470 q20,25 40,0 z"/>
+<g id="cota-alveolo" class="cota"><line class="e" x1="590" y1="490" x2="590" y2="541"/><line class="e" x1="630" y1="490" x2="630" y2="541"/><line class="d" x1="590" y1="535" x2="630" y2="535" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="610.0" y="528">Ø do alvéolo</text></g>
+<g id="cota-semicelula" class="cota"><line class="d" x1="680" y1="290" x2="750" y2="270" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="715" y="258">semicélulas</text></g>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

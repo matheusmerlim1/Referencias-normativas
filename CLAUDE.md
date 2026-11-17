@@ -291,10 +291,11 @@ Lotes 1–7 feitos (30/out): todo valor geométrico tem cota e todo resumo tem d
    "conferir": N-0042 (fórmula ΔP do ramal reconstituída), N-0057 (espaçamento entre tubos só nas Figs. A.8.1/A.8.2), N-1758
    (faixas do tipo P-1 vêm de legenda embaralhada), N-1823 (aquecimento > 4 pol × > 6 pol; furação 1,5 mm e calço 5 mm truncados),
    N-2163 (teste de fluxo com giz), N-2396 (fórmula da rotação da bobina). N-0118: cota W genérica (norma não define W no texto).
-   >>> RETOMAR AQUI: lote P3 SOLDA E INSPEÇÃO (43 normas: N-0133 1438 1487 1591 1593 1594 1595 1596 1597 1598 1738 1807 1859
-   1930 1965 2036 2073 2098 2111 2170 2225 2253 2301 2314 2315 2318 2322 2349 2368 2414 2472 2473 2484 2513 2655 2658 2665 2688
-   2775 2789 2803 2933 2939), depois P4 equipamentos (35), P5 elétrica (23), P6 estruturas/segurança (22), P7 desenho/geral (99).
-   Commit + push ao fim de cada lote.
+   LOTE P3 SOLDA E INSPEÇÃO FEITO (17/nov): 43/43 resumos (42 pelo agente, que parou no limite da API; N-2368 PSV pelo
+   coordenador) + 34 SVG: acessorios-carga-descarte, automacao-eletrica-arquitetura, desaerador-inspecao, duto-faixa-interferencias, duto-submarino-inspecao, end-estanqueidade-bolha, end-identificacao-ligas-ima-pontos, end-liquido-penetrante-etapas, end-metalografia-replica, end-particulas-magneticas-yoke, end-radiografia-arranjo-filmes, end-termografia-camera-alvo, end-ultrassom-cabecote-angular, end-ultrassom-fundido-forjado, end-ultrassom-phased-array-tofd, end-visual-direto-remoto, flare-inspecao-drone, forno-serpentina-inspecao, guindaste-raio-cabo-guia, mangote-maritimo-inspecao, poco-teste-formacao, recalque-pinos-tanque, resfriador-ar-feixe, solda-consumiveis-estufa, solda-consumivel-chapa-teste, solda-descontinuidades-tipos, solda-desempenho-soldador, solda-preaquecimento-medicao, solda-raiz-purga-reparo, solda-seguranca-trabalho-quente, solda-subaquatica-camara-molhada, tanque-atmosferico-inspecao, turco-baleeira-teste-descida, vaso-teste-pressao-servico.
+   >>> RETOMAR AQUI: lote P4 EQUIPAMENTOS (35 normas: N-0253 0266 0268 0269 0270 0271 0553 0906 1500 1501 1541 1556 1704 1706
+   1712 1713 1742 1763 1822 1854 1888 1958 2054 2090 2091 2626 2627 2648 2649 2670 2673 2683 2728 2922 2936; N-1742 tem fonte
+   embaralhada nas figuras), depois P5 elétrica (23), P6 estruturas/segurança (22), P7 desenho/geral (99). Commit + push ao fim de cada lote.
    P6 estruturas/segurança, P7 desenho/geral. Commit + push ao fim de cada lote (só caminhos próprios).
 4. Backlog antigo (baixa prioridade; detalhes em HISTORICO.md): ficha vaso-pressao migrar de VIII-1 2001 para 2007; UCS-66, UG-37;
    B16.9/B16.11/B36.19M; NR-13 tubulações; ISO 4759/4042; MSS SP-44, API 6AF; NBR 6409/ISO 1302; IPE/W/cantoneiras; composição

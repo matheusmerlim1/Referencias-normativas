@@ -1,0 +1,46 @@
+{
+ "id": "PETROBRAS-N-2803",
+ "titulo": "Petrobras N-2803 Rev. C (10/2021) — Ensaio não destrutivo: ultrassom computadorizado em soldas",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 4",
+   "texto": "Ultrassom computadorizado em juntas soldadas: multitransdutores, multicanal, inspeção automatizada (AUT), ToFD e phased array (PA), complementando ASME V Art. 4 e 14, API 1104 com ASTM E1961, API RP 934-A, AWS D1.1 e DNV-OS-C401 (NBR 16196, NBR 16339 e DNVGL-ST-F101 integralmente). Para dimensionar com precisão (mecânica da fratura) usar frequência maior, foco na profundidade e incremento angular menor; em grão grosseiro (inox austenítico, níquel) cabeçotes de baixa frequência e onda longitudinal (ISO 22825).",
+   "valores": [],
+   "figuras": ["esquemas/end-ultrassom-phased-array-tofd.svg"]
+  },
+  {
+   "titulo": "Pessoal, procedimento e qualificação do sistema",
+   "item": "5.1–5.3, 5.5.3",
+   "texto": "Pessoal ISO 9712. O procedimento é demonstrado pela contratada e aprovado pela Petrobras, comparado com radiografia e outros métodos quanto a detecção e dimensionamento. Para dutos (AUT) há programa de repetitividade (bloco varrido na horizontal e nas posições 12, 3 e 6 h), sensibilidade à temperatura, probabilidade de detecção e exatidão de dimensionamento.",
+   "valores": [
+    {"parametro": "Variação máxima de resposta entre refletores simétricos do bloco (AUT em dutos)", "valor": "3 dB", "item": "5.3.3"},
+    {"parametro": "Capacidade de detecção satisfatória", "valor": "POD 90 % com 95 % de confiança para a menor altura aceitável pela ECA", "item": "5.5.3.2"},
+    {"parametro": "Subdimensionamento", "valor": "probabilidade ≤ 5 %", "item": "5.5.3.3"}
+   ]
+  },
+  {
+   "titulo": "Blocos de calibração (dutos — discriminação por zonas)",
+   "item": "5.5.4, 5.6.3",
+   "texto": "Bloco do mesmo material do duto; entalhes para as zonas de acabamento e raiz e furos de fundo plano (FBH) para as zonas de enchimento e para detecção volumétrica. A varredura inclui a ZTA.",
+   "valores": [
+    {"parametro": "FBH por zona de enchimento", "valor": "Ø 2 mm a 3 mm ± 0,2 mm", "item": "5.6.3 a)", "cota": "esquemas/end-ultrassom-phased-array-tofd.svg#fbh"},
+    {"parametro": "FBH para descontinuidades volumétricas", "valor": "Ø 1,5 mm a 2 mm", "item": "5.5.4", "cota": "esquemas/end-ultrassom-phased-array-tofd.svg#fbh"},
+    {"parametro": "Entalhes longitudinais e transversais (superfície e raiz) — profundidade", "valor": "10 % da espessura ± 0,1 mm", "item": "5.6.3 a)", "cota": "esquemas/end-ultrassom-phased-array-tofd.svg#entalhe-profundidade"},
+    {"parametro": "Entalhes — largura", "valor": "3,2 mm ± 0,1 mm", "item": "5.6.3 a)", "cota": "esquemas/end-ultrassom-phased-array-tofd.svg#entalhe-largura"},
+    {"parametro": "Entalhes — comprimento mínimo", "valor": "25 mm ± 0,5 mm", "item": "5.6.3 a)", "cota": "esquemas/end-ultrassom-phased-array-tofd.svg#entalhe-comprimento"}
+   ]
+  },
+  {
+   "titulo": "ToFD e phased array (ASME V)",
+   "item": "5.7",
+   "texto": "Na varredura eletrônica linear usam-se dois ângulos, um deles o mais perpendicular possível à face do chanfro; na setorial, quando a qualificação exigir, dois grupos de leis focais com pontos de saída ou distâncias diferentes. Linear e setorial podem ser combinadas. O nível de rigor (a) do Art. 14 só com autorização prévia.",
+   "valores": [
+    {"parametro": "ToFD em solda longitudinal de cilindro com Ø < 300 mm", "valor": "Ø inspecionado entre 0,9 e 1,5 × o Ø do bloco (≥ 300 mm: bloco plano aceito)", "item": "5.7.1", "cota": "esquemas/end-ultrassom-phased-array-tofd.svg#diametro-bloco"},
+    {"parametro": "PA linear — diferença mínima entre os dois ângulos", "valor": "10°", "item": "5.7.2.1", "cota": "esquemas/end-ultrassom-phased-array-tofd.svg#diferenca-angulos"},
+    {"parametro": "PA linear — passo máximo", "valor": "1 elemento", "item": "5.7.2.1"},
+    {"parametro": "PA setorial — resolução angular máxima", "valor": "1°", "item": "5.7.2.2", "cota": "esquemas/end-ultrassom-phased-array-tofd.svg#resolucao-angular"}
+   ]
+  }
+ ]
+}

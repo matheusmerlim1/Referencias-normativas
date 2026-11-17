@@ -1,0 +1,35 @@
+{
+ "id": "PETROBRAS-N-2322",
+ "titulo": "Petrobras N-2322 Rev. D (06/2024) — Inspeção em serviço de fornos de processo",
+ "secoes": [
+  {
+   "titulo": "Escopo e plano",
+   "item": "1, 4",
+   "texto": "Inspeção de fornos horizontais e verticais de aquecimento/vaporização de hidrocarbonetos (tipos caixa, cilíndrico e cabine), com plano para o que pode ser verificado em operação e roteiro de inspeção geral.",
+   "valores": [],
+   "figuras": ["esquemas/forno-tubular.svg", "esquemas/forno-serpentina-inspecao.svg"]
+  },
+  {
+   "titulo": "Câmara de radiação e convecção",
+   "item": "5.2.6, 5.2.7",
+   "texto": "Serpentina: sulcos, trincas, corrosão e desgaste na passagem pelos espelhos, empenos, deformações locais e oxidação; martelar para achar óxido ou coque; espessura em pontos marcados para taxa de corrosão e vida remanescente, varredura nas curvas de retorno; diâmetro, dureza, flecha e metalografia quando preciso. Refratário pela N-1951 (fissuras, desprendimento, ancoragem). Chaparia, cone e camisa (trincas, perda de espessura, tirantes com LP), janelas de explosão, vapor de abafamento e aterramento.",
+   "valores": []
+  },
+  {
+   "titulo": "Critérios de aceitação da serpentina",
+   "item": "6.2, Anexo C",
+   "texto": "Espessura sempre acima da mínima de projeto (API 530; vapor pelo ASME I) mais a sobre-espessura da próxima campanha. Laranjas (abaulamentos): medir após remover o óxido e verificar depósito; se suspeitas de fluência, avaliar troca (metalografia do tubo retirado recomendada). Tubos horizontais que se afastam dos suportes são rejeitados; o tubo não pode se aproximar da chama. Soldas novas: 100 % volumétrico (RX ou UT pela B31.3).",
+   "valores": [
+    {"parametro": "Folga mínima entre tubo deformado e vizinho ou parede refratária (recomendado)", "valor": "20 % do diâmetro externo", "item": "6.2 d)", "cota": "esquemas/forno-serpentina-inspecao.svg#folga-tubo"},
+    {"parametro": "Deslocamento máximo do tubo em relação à posição de projeto", "valor": "1 diâmetro em um comprimento de 20 diâmetros", "item": "6.2 e) (Fig. C.1)", "cota": "esquemas/forno-serpentina-inspecao.svg#deslocamento"},
+    {"parametro": "Ensaio volumétrico de soldas novas na serpentina", "valor": "100 % (radiografia ou ultrassom)", "item": "6.2 h)"}
+   ]
+  },
+  {
+   "titulo": "Demais componentes",
+   "item": "6.3–6.8, Anexo B",
+   "texto": "Suportes e espelhos sem deformação, trinca ou perda de espessura crítica; queimadores alinhados, nivelados e regulados; ramonadores sem vazamento; termopares de parede testados antes da partida; abafadores atuando; tubos de vapor de abafamento desobstruídos. Ferramentas típicas: martelo de bola, medidor de espessura, durômetro portátil, paquímetro, estilete, calibres.",
+   "valores": []
+  }
+ ]
+}

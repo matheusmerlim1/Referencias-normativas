@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Resfriador a ar — feixe tubular e pontos de inspeção">
+<title>Resfriador a ar — feixe tubular e pontos de inspeção (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Resfriador a ar — feixe tubular e pontos de inspeção</text>
+<text class="b" x="30" y="62">Resfriador a ar — feixe aletado, cabeçotes e ventilador</text>
+<rect class="s" x="80" y="160" width="60" height="160"/><rect class="s" x="760" y="160" width="60" height="160"/>
+<line class="g" x1="140" y1="175" x2="760" y2="175"/>
+<path class="e" d="M150,167 M150,167 l0,16 M162,167 l0,16 M174,167 l0,16 M186,167 l0,16 M198,167 l0,16 M210,167 l0,16 M222,167 l0,16 M234,167 l0,16 M246,167 l0,16 M258,167 l0,16 M270,167 l0,16 M282,167 l0,16 M294,167 l0,16 M306,167 l0,16 M318,167 l0,16 M330,167 l0,16 M342,167 l0,16 M354,167 l0,16 M366,167 l0,16 M378,167 l0,16 M390,167 l0,16 M402,167 l0,16 M414,167 l0,16 M426,167 l0,16 M438,167 l0,16 M450,167 l0,16 M462,167 l0,16 M474,167 l0,16 M486,167 l0,16 M498,167 l0,16 M510,167 l0,16 M522,167 l0,16 M534,167 l0,16 M546,167 l0,16 M558,167 l0,16 M570,167 l0,16 M582,167 l0,16 M594,167 l0,16 M606,167 l0,16 M618,167 l0,16 M630,167 l0,16 M642,167 l0,16 M654,167 l0,16 M666,167 l0,16 M678,167 l0,16 M690,167 l0,16 M702,167 l0,16 M714,167 l0,16 M726,167 l0,16 M738,167 l0,16 M750,167 l0,16"/>
+<line class="g" x1="140" y1="199" x2="760" y2="199"/>
+<path class="e" d="M150,191 M150,191 l0,16 M162,191 l0,16 M174,191 l0,16 M186,191 l0,16 M198,191 l0,16 M210,191 l0,16 M222,191 l0,16 M234,191 l0,16 M246,191 l0,16 M258,191 l0,16 M270,191 l0,16 M282,191 l0,16 M294,191 l0,16 M306,191 l0,16 M318,191 l0,16 M330,191 l0,16 M342,191 l0,16 M354,191 l0,16 M366,191 l0,16 M378,191 l0,16 M390,191 l0,16 M402,191 l0,16 M414,191 l0,16 M426,191 l0,16 M438,191 l0,16 M450,191 l0,16 M462,191 l0,16 M474,191 l0,16 M486,191 l0,16 M498,191 l0,16 M510,191 l0,16 M522,191 l0,16 M534,191 l0,16 M546,191 l0,16 M558,191 l0,16 M570,191 l0,16 M582,191 l0,16 M594,191 l0,16 M606,191 l0,16 M618,191 l0,16 M630,191 l0,16 M642,191 l0,16 M654,191 l0,16 M666,191 l0,16 M678,191 l0,16 M690,191 l0,16 M702,191 l0,16 M714,191 l0,16 M726,191 l0,16 M738,191 l0,16 M750,191 l0,16"/>
+<line class="g" x1="140" y1="223" x2="760" y2="223"/>
+<path class="e" d="M150,215 M150,215 l0,16 M162,215 l0,16 M174,215 l0,16 M186,215 l0,16 M198,215 l0,16 M210,215 l0,16 M222,215 l0,16 M234,215 l0,16 M246,215 l0,16 M258,215 l0,16 M270,215 l0,16 M282,215 l0,16 M294,215 l0,16 M306,215 l0,16 M318,215 l0,16 M330,215 l0,16 M342,215 l0,16 M354,215 l0,16 M366,215 l0,16 M378,215 l0,16 M390,215 l0,16 M402,215 l0,16 M414,215 l0,16 M426,215 l0,16 M438,215 l0,16 M450,215 l0,16 M462,215 l0,16 M474,215 l0,16 M486,215 l0,16 M498,215 l0,16 M510,215 l0,16 M522,215 l0,16 M534,215 l0,16 M546,215 l0,16 M558,215 l0,16 M570,215 l0,16 M582,215 l0,16 M594,215 l0,16 M606,215 l0,16 M618,215 l0,16 M630,215 l0,16 M642,215 l0,16 M654,215 l0,16 M666,215 l0,16 M678,215 l0,16 M690,215 l0,16 M702,215 l0,16 M714,215 l0,16 M726,215 l0,16 M738,215 l0,16 M750,215 l0,16"/>
+<line class="g" x1="140" y1="247" x2="760" y2="247"/>
+<path class="e" d="M150,239 M150,239 l0,16 M162,239 l0,16 M174,239 l0,16 M186,239 l0,16 M198,239 l0,16 M210,239 l0,16 M222,239 l0,16 M234,239 l0,16 M246,239 l0,16 M258,239 l0,16 M270,239 l0,16 M282,239 l0,16 M294,239 l0,16 M306,239 l0,16 M318,239 l0,16 M330,239 l0,16 M342,239 l0,16 M354,239 l0,16 M366,239 l0,16 M378,239 l0,16 M390,239 l0,16 M402,239 l0,16 M414,239 l0,16 M426,239 l0,16 M438,239 l0,16 M450,239 l0,16 M462,239 l0,16 M474,239 l0,16 M486,239 l0,16 M498,239 l0,16 M510,239 l0,16 M522,239 l0,16 M534,239 l0,16 M546,239 l0,16 M558,239 l0,16 M570,239 l0,16 M582,239 l0,16 M594,239 l0,16 M606,239 l0,16 M618,239 l0,16 M630,239 l0,16 M642,239 l0,16 M654,239 l0,16 M666,239 l0,16 M678,239 l0,16 M690,239 l0,16 M702,239 l0,16 M714,239 l0,16 M726,239 l0,16 M738,239 l0,16 M750,239 l0,16"/>
+<line class="g" x1="140" y1="271" x2="760" y2="271"/>
+<path class="e" d="M150,263 M150,263 l0,16 M162,263 l0,16 M174,263 l0,16 M186,263 l0,16 M198,263 l0,16 M210,263 l0,16 M222,263 l0,16 M234,263 l0,16 M246,263 l0,16 M258,263 l0,16 M270,263 l0,16 M282,263 l0,16 M294,263 l0,16 M306,263 l0,16 M318,263 l0,16 M330,263 l0,16 M342,263 l0,16 M354,263 l0,16 M366,263 l0,16 M378,263 l0,16 M390,263 l0,16 M402,263 l0,16 M414,263 l0,16 M426,263 l0,16 M438,263 l0,16 M450,263 l0,16 M462,263 l0,16 M474,263 l0,16 M486,263 l0,16 M498,263 l0,16 M510,263 l0,16 M522,263 l0,16 M534,263 l0,16 M546,263 l0,16 M558,263 l0,16 M570,263 l0,16 M582,263 l0,16 M594,263 l0,16 M606,263 l0,16 M618,263 l0,16 M630,263 l0,16 M642,263 l0,16 M654,263 l0,16 M666,263 l0,16 M678,263 l0,16 M690,263 l0,16 M702,263 l0,16 M714,263 l0,16 M726,263 l0,16 M738,263 l0,16 M750,263 l0,16"/>
+<line class="g" x1="140" y1="295" x2="760" y2="295"/>
+<path class="e" d="M150,287 M150,287 l0,16 M162,287 l0,16 M174,287 l0,16 M186,287 l0,16 M198,287 l0,16 M210,287 l0,16 M222,287 l0,16 M234,287 l0,16 M246,287 l0,16 M258,287 l0,16 M270,287 l0,16 M282,287 l0,16 M294,287 l0,16 M306,287 l0,16 M318,287 l0,16 M330,287 l0,16 M342,287 l0,16 M354,287 l0,16 M366,287 l0,16 M378,287 l0,16 M390,287 l0,16 M402,287 l0,16 M414,287 l0,16 M426,287 l0,16 M438,287 l0,16 M450,287 l0,16 M462,287 l0,16 M474,287 l0,16 M486,287 l0,16 M498,287 l0,16 M510,287 l0,16 M522,287 l0,16 M534,287 l0,16 M546,287 l0,16 M558,287 l0,16 M570,287 l0,16 M582,287 l0,16 M594,287 l0,16 M606,287 l0,16 M618,287 l0,16 M630,287 l0,16 M642,287 l0,16 M654,287 l0,16 M666,287 l0,16 M678,287 l0,16 M690,287 l0,16 M702,287 l0,16 M714,287 l0,16 M726,287 l0,16 M738,287 l0,16 M750,287 l0,16"/>
+<circle class="w" cx="110" cy="175" r="6"/>
+<circle class="w" cx="110" cy="199" r="6"/>
+<circle class="w" cx="110" cy="223" r="6"/>
+<circle class="w" cx="110" cy="247" r="6"/>
+<circle class="w" cx="110" cy="271" r="6"/>
+<circle class="w" cx="110" cy="295" r="6"/>
+<text class="n" x="80" y="150">cabeçote (bujões)</text>
+<ellipse class="sl" cx="450" cy="420" rx="200" ry="20"/>
+<text class="m n" x="450" y="470">ventilador</text>
+<rect class="w" x="100" y="320" width="14" height="50"/>
+<g id="cota-conexao-pequena" class="cota"><line class="e" x1="100" y1="370" x2="100" y2="401"/><line class="e" x1="114" y1="370" x2="114" y2="401"/><line class="d" x1="100" y1="395" x2="114" y2="395" marker-start="url(#a)" marker-end="url(#a)"/><text x="130" y="400">conexão pequena (Ø)</text></g>
+<text class="n" x="300" y="140">tubos aletados: corrosão junto a cabeçotes e apoios</text>
+<text class="n" x="300" y="520">IRIS / correntes parasitas / campo remoto nos tubos</text>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

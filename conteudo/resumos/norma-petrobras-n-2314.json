@@ -1,0 +1,33 @@
+{
+ "id": "PETROBRAS-N-2314",
+ "titulo": "Petrobras N-2314 Rev. F (11/2022) — Ensaio não destrutivo: ultrassom em fundido",
+ "secoes": [
+  {
+   "titulo": "Escopo e normas base",
+   "item": "1, 4, 5.4, 5.6, 5.7",
+   "texto": "Ultrassom em peças fundidas pela ASTM A609 (procedimento A com o suplementar S1), também quando o ASME V remeter a ela, e pelo DNV-ST-F101 Ap. D. Pessoal certificado (ISO 9712), procedimento qualificado por nível 3, bloco-padrão calibrado em laboratório ISO/IEC 17025. Sem critério no projeto, aceita-se pelo nível de qualidade 1 da A609.",
+   "valores": [],
+   "figuras": ["esquemas/end-ultrassom-fundido-forjado.svg"]
+  },
+  {
+   "titulo": "Cabeçotes, ajuste e varredura",
+   "item": "5.6.1–5.6.5",
+   "texto": "Linearidade de tela e de amplitude verificadas a cada período longo de uso; blocos do mesmo material e tratamento. Usar frequências, ângulos e diâmetros diferentes para caracterizar indicações, e feixe angular onde o eco de fundo some no feixe reto. Escala, ângulo e ganho reconferidos periodicamente e no fim. Áreas de parede paralela com grande queda de eco de fundo são investigadas (acoplamento, acoplante ou descontinuidade sem forma).",
+   "valores": [
+    {"parametro": "Zona morta do cabeçote monocristal", "valor": "o menor entre 10 % da espessura e 15 mm", "item": "5.6.1", "cota": "esquemas/end-ultrassom-fundido-forjado.svg#zona-morta"},
+    {"parametro": "Verificação de linearidade", "valor": "início de cada período longo de uso ou a cada 3 meses (o menor)", "item": "5.6.2.1"},
+    {"parametro": "Perda por transferência admissível", "valor": "± 30 % da sensibilidade", "item": "5.6.2.5"},
+    {"parametro": "Reverificação de escala, ângulo e ganho", "valor": "a cada ~4 h e no fim do ensaio", "item": "5.6.3"},
+    {"parametro": "Ganho de varredura (sem aquisição computadorizada / com)", "valor": "+ 6 dB mínimo / + 4 dB (ganho de avaliação)", "item": "5.6.4"},
+    {"parametro": "Queda de eco de fundo a investigar", "valor": "≥ 50 % do eco de fundo", "item": "5.6.5"},
+    {"parametro": "Indicações a registrar", "valor": "≥ 50 % da curva DAC (posição, amplitude, área)", "item": "5.6.6"}
+   ]
+  },
+  {
+   "titulo": "Casos especiais",
+   "item": "5.8–5.10",
+   "texto": "Válvulas fundidas: extensão, método e aceitação pelo Anexo I (QSL) da API 6D conforme o nível pedido na compra. Duplex/superduplex sem regra de projeto: DNV-ST-F101 D.5.3 (método) e D.5.6 (aceitação). Inox austenítico fundido: MSS SP-94.",
+   "valores": []
+  }
+ ]
+}

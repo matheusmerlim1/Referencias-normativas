@@ -1,0 +1,42 @@
+{
+ "id": "PETROBRAS-N-1597",
+ "titulo": "Petrobras N-1597 Rev. H (07/2021) — Ensaio não destrutivo visual",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Ensaio visual direto ou remoto (com ou sem dispositivo óptico) de juntas preparadas e soldadas, fundidos, forjados, laminados, acabamento, preparo de superfície, revestimentos e evidências de vazamento, complementando a ISO 17637 e o ASME V Art. 9.",
+   "valores": [],
+   "figuras": ["esquemas/end-visual-direto-remoto.svg"]
+  },
+  {
+   "titulo": "Videoscopia (boroscopia)",
+   "item": "4.4",
+   "texto": "O equipamento de ensaio remoto é à prova d'água, permite testemunho remoto pela internet, grava vídeo e mede profundidade por estereoscopia.",
+   "valores": [
+    {"parametro": "Comprimento mínimo do cabo", "valor": "5 m (ou compatível com o objeto)", "item": "4.4 b)", "cota": "esquemas/end-visual-direto-remoto.svg#cabo"},
+    {"parametro": "Resolução mínima — câmera / tela", "valor": "640 × 480 (VGA) / 1280 × 720 (HD)", "item": "4.4 c), f)"},
+    {"parametro": "Tamanho mínimo da tela", "valor": "7\"", "item": "4.4 f)", "cota": "esquemas/end-visual-direto-remoto.svg#tela"},
+    {"parametro": "Autonomia de gravação", "valor": "≥ 4 h", "item": "4.4 e)"},
+    {"parametro": "Articulação mínima da ponta", "valor": "120°", "item": "4.4 h)", "cota": "esquemas/end-visual-direto-remoto.svg#articulacao"},
+    {"parametro": "Iluminância da fonte de luz (LED ou fibra) na superfície", "valor": "≥ 1 076 lux", "item": "4.4 g)"}
+   ]
+  },
+  {
+   "titulo": "Pessoal e procedimento",
+   "item": "5.1, 5.2",
+   "texto": "Pessoal conforme N-2941; procedimento qualificado por nível 3, demonstrando que detecta uma descontinuidade de referência (natural ou artificial) na área menos favorável. Variáveis essenciais: método, condição superficial, iluminamento, instrumentos e o que inspecionar.",
+   "valores": [
+    {"parametro": "Descontinuidade de referência para qualificar o procedimento", "valor": "risco de largura máxima 0,8 mm", "item": "5.2.4", "cota": "esquemas/end-visual-direto-remoto.svg#risco-referencia"}
+   ]
+  },
+  {
+   "titulo": "Iluminação e preparo da superfície",
+   "item": "5.3",
+   "texto": "Tanto no ensaio direto quanto no remoto o iluminamento é o mesmo. O preparo não pode piorar o acabamento original nem contaminar o material ou atrapalhar ensaios seguintes; em inox, duplex e ligas de níquel as ferramentas são exclusivas (inox ou revestidas; discos com alma de náilon).",
+   "valores": [
+    {"parametro": "Iluminamento mínimo (direto ou remoto)", "valor": "1 076 lux", "item": "5.3.1.1"}
+   ]
+  }
+ ]
+}

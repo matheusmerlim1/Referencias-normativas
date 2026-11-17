@@ -1,0 +1,44 @@
+{
+ "id": "PETROBRAS-N-2318",
+ "titulo": "Petrobras N-2318 Rev. J (03/2024) — Inspeção em serviço de tanque de armazenamento atmosférico",
+ "secoes": [
+  {
+   "titulo": "Escopo e periodicidade",
+   "item": "1, 4.3",
+   "texto": "Inspeção em serviço dos tanques atmosféricos da N-270 (teto fixo e flutuante), em operação e na parada.",
+   "valores": [
+    {"parametro": "Inspeção externa", "valor": "no máximo a cada 5 anos, nunca além de 1/4 da vida remanescente do costado", "item": "4.3.1"}
+   ],
+   "figuras": ["esquemas/tanque-atmosferico-inspecao.svg"]
+  },
+  {
+   "titulo": "Inspeção externa",
+   "item": "5",
+   "texto": "Dique e taludes (grama rasteira), recalques (prumo do costado ou topografia), costado, acessórios, teto e sustentação. Teto fixo: espessura em chapas distribuídas na periferia, meio e centro, de preferência onde empoça água. Teto flutuante: disco central, flutuadores do pontão e lençol do teto duplo, e travamento das pernas.",
+   "valores": [
+    {"parametro": "Pontos de levantamento topográfico do recalque", "valor": "N = D/3 (D em m), arredondado", "item": "5.2.1 Nota", "cota": "esquemas/tanque-atmosferico-inspecao.svg#pontos-perimetro"},
+    {"parametro": "Espessura do teto fixo", "valor": "≥ 5 % das chapas ou 20 chapas (o maior)", "item": "5.6.1.2"},
+    {"parametro": "Disco central do pontão / lençol do teto duplo — D < 20 m", "valor": "≥ 5 chapas (4 periferia + 1 centro)", "item": "5.6.2.2 a), 5.6.2.4 a)", "cota": "esquemas/tanque-atmosferico-inspecao.svg#diametro-teto"},
+    {"parametro": "Disco central / teto duplo — D > 20 m", "valor": "≥ 8 chapas (4 periferia + 3 intermediárias + 1 centro)", "item": "5.6.2.2 b), 5.6.2.4 b)", "cota": "esquemas/tanque-atmosferico-inspecao.svg#diametro-teto"},
+    {"parametro": "Flutuadores periféricos do pontão", "valor": "10 %, uniformemente defasados, mínimo 4", "item": "5.6.2.3"}
+   ]
+  },
+  {
+   "titulo": "Inspeção na parada",
+   "item": "6",
+   "texto": "Teto fixo: martelar todas as conexões; com isolamento, abrir faixas para exame. Teto flutuante: flutuadores, roletes e selo do tubo antirrotacional, drenos. Interno: trincas por corrosão sob tensão (ACFM recomendado), fundo com MFL em 100 % das chapas, potencial fundo/solo removendo discos se não houver semicélula, estrutura de sustentação do teto (corrosão, prumo, flecha), lençol inferior do teto flutuante e acessórios internos.",
+   "valores": [
+    {"parametro": "Teto com isolamento — faixas abertas (recomendado)", "valor": "2 faixas defasadas de 90°, 1 m de largura, comprimento = raio do teto", "item": "6.1.1.3", "cota": "esquemas/tanque-atmosferico-inspecao.svg#faixa-isolamento"},
+    {"parametro": "Fundo — MFL", "valor": "100 % das chapas", "item": "6.2.2.7"}
+   ]
+  },
+  {
+   "titulo": "Dispensa de teste hidrostático (Anexo A)",
+   "item": "A.2, A.3",
+   "texto": "Lista grandes reparos em que a API 653 não permite dispensar o TH só com requisitos adicionais (p.ex. trocar mais da metade da solda fundo-costado em trecho longo) e orienta estudos de adequação ao uso por modelagem numérica para tentar a dispensa.",
+   "valores": [
+    {"parametro": "Solda fundo-costado substituída (caso sem dispensa de TH)", "valor": "> 50 % da seção, com mais de 12\" de extensão", "item": "A.2 a)", "cota": "esquemas/tanque-atmosferico-inspecao.svg#solda-fundo-costado"}
+   ]
+  }
+ ]
+}

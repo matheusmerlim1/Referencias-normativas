@@ -1,0 +1,38 @@
+{
+ "id": "PETROBRAS-N-2472",
+ "titulo": "Petrobras N-2472 Rev. E (10/2021) — Ensaio não destrutivo: termografia em equipamentos de processo",
+ "secoes": [
+  {
+   "titulo": "Escopo e base",
+   "item": "1, 4",
+   "texto": "Termografia infravermelha em equipamentos de processo em operação (fornos, permutadores, vasos, reatores, caldeiras, dutos, chaminés, tubulações, máquinas), com termogramas e registro de temperatura. Verificação das câmeras pela ABNT NBR 16969; emissividade tirada dos manuais ou determinada experimentalmente (ou com indicadores de emissividade conhecida). MIFOV (resolução de medida) ≈ resolução espacial × 2 a 5 (em geral 3).",
+   "valores": [],
+   "figuras": ["esquemas/end-termografia-camera-alvo.svg"]
+  },
+  {
+   "titulo": "Limitações e contratação",
+   "item": "6.2–6.4",
+   "texto": "Inspeção interna de forno queimando óleo pode ser inconclusiva por depósitos nas serpentinas; temperatura sozinha não prevê falha — é complemento de inspeção e dados operacionais; não pode haver anteparo opaco ao infravermelho entre câmera e alvo. Contratado com formação técnica e experiência em inspeção, procedimento por termografista capacitado, fiscal com conhecimento no ensaio. Calibração da câmera em laboratório ISO/IEC 17025.",
+   "valores": []
+  },
+  {
+   "titulo": "Câmera e instrumentos",
+   "item": "6.5, 6.6",
+   "texto": "Câmera portátil com detector matricial (FPA), sem varredura mecânica; resolução espacial e de medida compatíveis com distância e tamanho do alvo (Anexo A calcula o MIFOV e o FOV). Termômetro, higrômetro e anemômetro para a inspeção externa; radiômetros e termopares calibrados; referência de temperatura (corpo negro) recomendada.",
+   "valores": [
+    {"parametro": "Lente padrão (na maioria dos casos)", "valor": "24° × 18°", "item": "6.5.2", "cota": "esquemas/end-termografia-camera-alvo.svg#fov"},
+    {"parametro": "Inspeção externa — sensibilidade / faixa / espectro", "valor": "≤ 0,1 °C / −10 °C a 500 °C / 8–14 μm (onda longa)", "item": "6.5.3"},
+    {"parametro": "Inspeção interna de forno — sensibilidade / limite / espectro", "valor": "≤ 0,6 °C / ≥ 1 000 °C / 3–5 μm (onda média)", "item": "6.5.4"}
+   ]
+  },
+  {
+   "titulo": "Execução",
+   "item": "6.7–6.10",
+   "texto": "Programar com relatórios anteriores, mudanças de projeto e pontos críticos. Ajustar emissividade, distância, umidade e temperaturas ambiente e refletida sempre que mudarem; aclimatar os instrumentos; evitar equipamentos de alta frequência perto da câmera. Externa: evitar sol (reflexo e carga solar). Interna em forno: pelas janelas de inspeção, abertas com cuidado depois de confirmar com a operação que não há pressão positiva. Anomalia: melhor imagem dentro da distância segura, repetir e tirar média. Pirômetro: FOV menor que o alvo. Drone conforme Anexo A da N-2665.",
+   "valores": [
+    {"parametro": "Ângulo de visada máximo em relação à normal da superfície", "valor": "60° (o mais perpendicular possível)", "item": "6.8.5", "cota": "esquemas/end-termografia-camera-alvo.svg#angulo-normal"},
+    {"parametro": "Inspeção externa inevitável de dia", "valor": "até 2 h após o nascer do sol ou em dia nublado", "item": "6.8.8 a)"}
+   ]
+  }
+ ]
+}

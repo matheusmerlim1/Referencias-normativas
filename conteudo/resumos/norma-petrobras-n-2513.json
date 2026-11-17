@@ -1,0 +1,33 @@
+{
+ "id": "PETROBRAS-N-2513",
+ "titulo": "Petrobras N-2513 Rev. E (07/2024) — Inspeção em serviço de resfriadores a ar (air coolers)",
+ "secoes": [
+  {
+   "titulo": "Escopo e periodicidade",
+   "item": "1, 4",
+   "texto": "Inspeção em serviço de resfriadores a ar. Inspeção de segurança pelos prazos da NR-13 (ou menores, a critério do PLH); fora da NR-13, prazo pelo histórico.",
+   "valores": [],
+   "figuras": ["esquemas/resfriador-ar-feixe.svg"]
+  },
+  {
+   "titulo": "Em operação",
+   "item": "5.1",
+   "texto": "Tubos aletados: deformação, aletas amassadas, corrosão externa junto aos cabeçotes e apoios, vazamentos na fixação dos tubos, limpeza. Também estrutura, ventiladores, venezianas e identificação da categoria.",
+   "valores": []
+  },
+  {
+   "titulo": "Inspeção geral",
+   "item": "5.2",
+   "texto": "Martelar as conexões pequenas. Feixe: corrosão e erosão na fixação dos tubos, avaliada por IRIS, correntes parasitas, campo remoto ou equivalente — ou retirando tubos marcados para medir espessura. Cabeçotes: corrosão, erosão nos passes de entrada e retorno, furos de tubos, soldas, roscas, bujões e sedes.",
+   "valores": [
+    {"parametro": "Teste de martelo nas conexões de pequeno diâmetro", "valor": "Ø nominal ≤ 2\"", "item": "5.2.1.1", "cota": "esquemas/resfriador-ar-feixe.svg#conexao-pequena"}
+   ]
+  },
+  {
+   "titulo": "Ensaios complementares",
+   "item": "6",
+   "texto": "Medição de espessura em pontos definidos (NBR 15824 ou N-2820). Ultrassom por amostragem em cabeçotes e conexões sujeitos a dano por hidrogênio (H₂S úmido) ou corrosão sob tensão. A critério do PLH: radiografia (N-1595/N-2821), réplica (N-2484), dureza (N-133), dimensional, termografia (N-2472), IRIS.",
+   "valores": []
+  }
+ ]
+}

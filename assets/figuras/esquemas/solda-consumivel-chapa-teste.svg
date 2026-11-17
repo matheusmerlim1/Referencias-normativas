@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Qualificação de consumíveis — chapa de teste, CTOD, excentricidade e chapas auxiliares">
+<title>Qualificação de consumíveis — chapa de teste, CTOD, excentricidade e chapas auxiliares (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Qualificação de consumíveis — chapa de teste, CTOD, excentricidade e chapas auxiliares</text>
+<text class="b" x="30" y="62">(a) Chapa de teste — chanfro (corte)</text>
+<path class="s" d="M60,120 L250,120 L300,230 L300,250 L60,250 z"/>
+<path class="s" d="M520,120 L370,120 L320,230 L320,250 L520,250 z"/>
+<path class="r" d="M250,120 L370,120 L320,230 L320,250 L300,250 L300,230 z"/>
+<g id="cota-espessura" class="cota"><line class="e" x1="60" y1="120" x2="34" y2="120"/><line class="e" x1="60" y1="250" x2="34" y2="250"/><line class="d" x1="40" y1="120" x2="40" y2="250" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="32" y="190">t</text></g>
+<g id="cota-abertura-raiz" class="cota"><line class="e" x1="300" y1="250" x2="300" y2="291"/><line class="e" x1="320" y1="250" x2="320" y2="291"/><line class="d" x1="300" y1="285" x2="320" y2="285" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="310" y="305">abertura da raiz</text></g>
+<g id="cota-face-raiz" class="cota"><line class="e" x1="320" y1="230" x2="546" y2="230"/><line class="e" x1="320" y1="250" x2="546" y2="250"/><line class="d" x1="540" y1="230" x2="540" y2="250" marker-start="url(#a)" marker-end="url(#a)"/><text x="548" y="245">face da raiz</text></g>
+<text class="n" x="110" y="150">raiz removida antes dos ensaios</text>
+<text class="b" x="650" y="62">(b) CTOD</text>
+<rect class="sl" x="650" y="110" width="200" height="120"/>
+<path class="w" d="M738,230 L742,170 L746,170 L750,230 z"/>
+<path class="v" d="M744,170 l0,-25"/>
+<g id="cota-ctod" class="cota"><line class="d" x1="720" y1="232" x2="740" y2="232" marker-end="url(#a)"/><line class="d" x1="770" y1="232" x2="748" y2="232" marker-end="url(#a)"/><text class="m" x="744" y="260">abertura na ponta da trinca</text></g>
+<text class="b" x="30" y="350">(c) Eletrodo revestido — excentricidade (3 pontos a 90°)</text>
+<rect class="sl" x="60" y="400" width="360" height="40" rx="4"/>
+<rect class="wd" x="60" y="413" width="360" height="14"/>
+<rect class="w" x="200" y="400" width="40" height="13"/>
+<g id="cota-revestimento" class="cota"><line class="e" x1="240" y1="413" x2="214" y2="413"/><line class="e" x1="240" y1="440" x2="214" y2="440"/><line class="d" x1="220" y1="413" x2="220" y2="440" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="260" y="475">M = alma + 1 revestimento</text></g>
+<g id="cota-diametro-consumivel" class="cota"><line class="e" x1="420" y1="413" x2="456" y2="413"/><line class="e" x1="420" y1="427" x2="456" y2="427"/><line class="d" x1="450" y1="413" x2="450" y2="427" marker-start="url(#a)" marker-end="url(#a)"/><text x="460" y="424">Ø alma / arame</text></g>
+<text class="b" x="620" y="350">(d) Chapas auxiliares</text>
+<rect class="s" x="620" y="395" width="230" height="30"/>
+<path class="r" d="M640,395 q100,-10 190,0 z"/>
+<g id="cota-chapa-deposicao" class="cota"><line class="e" x1="620" y1="425" x2="620" y2="456"/><line class="e" x1="850" y1="425" x2="850" y2="456"/><line class="d" x1="620" y1="450" x2="850" y2="450" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="735.0" y="443">chapa de deposição</text></g>
+<rect class="s" x="620" y="500" width="230" height="20"/><rect class="sl" x="650" y="490" width="170" height="10"/><rect class="r" x="650" y="470" width="170" height="20"/>
+<g id="cota-deposito-dureza" class="cota"><line class="e" x1="820" y1="470" x2="866" y2="470"/><line class="e" x1="820" y1="490" x2="866" y2="490"/><line class="d" x1="860" y1="470" x2="860" y2="490" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="850" y="462">depósito duro</text></g>
+<text class="n" x="620" y="545">1ª camada E309L + 2 camadas duras</text>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

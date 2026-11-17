@@ -1,0 +1,46 @@
+{
+ "id": "PETROBRAS-N-2473",
+ "titulo": "Petrobras N-2473 (10/2021) — Ensaio não destrutivo: termografia em sistemas eletromecânicos",
+ "secoes": [
+  {
+   "titulo": "Escopo e base",
+   "item": "1, 4",
+   "texto": "Termografia em sistemas elétricos e mecânicos, complementando a ABNT NBR 15572/15763/15866 e verificando câmeras pela NBR 16969. Emissividade dos manuais ou experimental; temperatura refletida e transmissividade pela NBR 16969.",
+   "valores": [],
+   "figuras": ["esquemas/end-termografia-camera-alvo.svg"]
+  },
+  {
+   "titulo": "Câmera, equipe e segurança",
+   "item": "5.1, 5.2.2–5.2.5, 5.2.8",
+   "texto": "Inspetor com curso na área elétrica e treinado em termografia; procedimento por termografista capacitado; fiscal com conhecimento do ensaio. Câmera portátil FPA de onda longa, lente adequada ao alvo (Anexo A), trena laser e ferramentas para abrir painéis. Mesmo com equipe própria, no mínimo duas pessoas (NR-10, 10.7.3). Em zona controlada ou de risco, extrair gavetas e abrir tampas só com planejamento específico; vestimenta conforme energia incidente (N-2830).",
+   "valores": [
+    {"parametro": "Faixa espectral da câmera", "valor": "8–14 μm (onda longa)", "item": "5.2.3 b)"},
+    {"parametro": "Lente padrão (maioria dos casos)", "valor": "24° × 18°", "item": "5.2.3 c)", "cota": "esquemas/end-termografia-camera-alvo.svg#fov"},
+    {"parametro": "Equipe mínima", "valor": "2 pessoas", "item": "5.2.5.1"}
+   ]
+  },
+  {
+   "titulo": "Execução",
+   "item": "5.2.6, 5.2.7",
+   "texto": "Obturador curto ao medir; sem essa função, correção de não uniformidade (NUC) manual periódica. Compensar janela infravermelha pela transmitância. Pintar conectores de cobre, alumínio ou aço (tinta acrílica ou óxido de zinco) para elevar a emissividade quando possível. Repetir medições e verificar reflexos.",
+   "valores": [
+    {"parametro": "NUC manual (câmeras sem ajuste automático)", "valor": "a cada 30 min de operação", "item": "5.2.6.1"},
+    {"parametro": "Carga recomendada no ensaio", "valor": "> 50 % da nominal (abaixo: acompanhar tendência / menor periodicidade)", "item": "5.2.6.7"}
+   ]
+  },
+  {
+   "titulo": "Periodicidade e classificação dos aquecimentos",
+   "item": "5.3, 5.4, Anexo B",
+   "texto": "Elevação máxima admissível ΔTmax = Tmax (do fabricante) − Ta. A elevação medida é corrigida para carga nominal e vento (ΔTC = (Tm − Ta) × FCVV × FCC) e o fator FET = ΔTC / ΔTmax classifica o ponto.",
+   "valores": [
+    {"parametro": "Intervalo entre inspeções (sistemas da NBR 15763)", "valor": "6 meses; nunca acima de 12 meses", "item": "5.3"},
+    {"parametro": "FET ≥ 0,9", "valor": "severamente aquecido — manutenção imediata", "item": "Tabela 1"},
+    {"parametro": "FET 0,6 a 0,9", "valor": "muito aquecido — manutenção programada", "item": "Tabela 1"},
+    {"parametro": "FET 0,3 a 0,6", "valor": "aquecido — em observação", "item": "Tabela 1"},
+    {"parametro": "FET até 0,3", "valor": "normal", "item": "Tabela 1"},
+    {"parametro": "Fator de correção de vento (FCVV)", "valor": "1,00 (até 1 m/s); 1,37; 1,64; 1,86; 2,06; 2,23 (5 a 6 m/s)", "item": "Tabela B.1"},
+    {"parametro": "Fator de correção de carga", "valor": "FCC = (In/Im)², válido para carga ≥ 50 % da nominal", "item": "B.2"}
+   ]
+  }
+ ]
+}

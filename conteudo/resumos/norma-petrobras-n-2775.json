@@ -1,0 +1,50 @@
+{
+ "id": "PETROBRAS-N-2775",
+ "titulo": "Petrobras N-2775 Rev. C (03/2020) — Inspeção e manutenção de faixas de dutos terrestres e relações com terceiros",
+ "secoes": [
+  {
+   "titulo": "Escopo e inspeções",
+   "item": "1, 5",
+   "texto": "Inspeção e manutenção das faixas de dutos terrestres e relação com comunidades, prefeituras e interferentes. Inspeção da faixa (irregularidades que esforcem os dutos ou ameacem as instalações), geológico-geotécnica (erosões, deslizamentos, recalques; periodicidade pela Tabela 3; risco iminente tratado como emergência) e de travessias. Traçado do duto levantado e georreferenciado por sondagem eletromagnética, pig inercial ou poço de inspeção.",
+   "valores": [
+    {"parametro": "Inspeção de travessias", "valor": "periodicidade máxima 5 anos (ampliar só com análise de risco)", "item": "5.3.2"}
+   ],
+   "figuras": ["esquemas/duto-faixa-interferencias.svg"]
+  },
+  {
+   "titulo": "Manutenção da faixa e cadastro",
+   "item": "6",
+   "texto": "Classe de locação dos gasodutos reavaliada periodicamente (Anexo B). Faixa roçada e visível em toda a largura; áreas cercadas capinadas. Posição dos dutos e instalações mantida atualizada.",
+   "valores": [
+    {"parametro": "Reavaliação da classe de locação de gasodutos", "valor": "no máximo a cada 5 anos", "item": "6.1.1"},
+    {"parametro": "Largura do mapeamento em áreas geotécnicas suscetíveis", "valor": "> 400 m", "item": "6.1.2", "cota": "esquemas/duto-faixa-interferencias.svg#largura-mapeamento"},
+    {"parametro": "Precisão da posição do duto", "valor": "0,5 m na horizontal e 10 % na profundidade", "item": "6.1.6", "cota": "esquemas/duto-faixa-interferencias.svg#precisao-posicao"},
+    {"parametro": "Plantio de árvores na faixa", "valor": "proibido, salvo cobertura do duto > 5 m", "item": "6.2.1.5", "cota": "esquemas/duto-faixa-interferencias.svg#cobertura"}
+   ]
+  },
+  {
+   "titulo": "Relação com terceiros e interferências",
+   "item": "7, 8",
+   "texto": "Programa de relacionamento comunitário por criticidade; comunicado às prefeituras com o mapa da faixa. Obras de terceiros só após análise técnica do projeto; sondagem para localizar cada duto antes de iniciar; linhas de energia cruzando a faixa com afastamentos mínimos e estudo de interferência elétrica.",
+   "valores": [
+    {"parametro": "Comunicação às prefeituras", "valor": "no máximo a cada 4 anos", "item": "7.3"},
+    {"parametro": "Espaçamento das sondagens de localização na interferência", "valor": "≤ 5 m ao longo do duto", "item": "8.1.2.2.3", "cota": "esquemas/duto-faixa-interferencias.svg#sondagem"},
+    {"parametro": "Linha de distribuição 220 V a 13,8 kV — altura sobre o solo", "valor": "≥ 6 m", "item": "8.1.2.3.2", "cota": "esquemas/duto-faixa-interferencias.svg#altura-linha"},
+    {"parametro": "Postes e estais", "valor": "fora da faixa, a ≥ 3 m dos limites", "item": "8.1.2.3.3", "cota": "esquemas/duto-faixa-interferencias.svg#poste-faixa"},
+    {"parametro": "Ângulo de cruzamento da fiação (recomendado)", "valor": "90°", "item": "8.1.2.3.4", "cota": "esquemas/duto-faixa-interferencias.svg#angulo-cruzamento"},
+    {"parametro": "Linha de transmissão — ângulo mínimo de cruzamento e torres", "valor": "≥ 60°; torres a ≥ 30 m dos limites da faixa", "item": "8.1.2.3.6", "cota": "esquemas/duto-faixa-interferencias.svg#torre-faixa"}
+   ]
+  },
+  {
+   "titulo": "Reclassificação de gasodutos (Anexo B)",
+   "item": "B.3",
+   "texto": "Três níveis: recontagem de edificações (nível 1), fatores de teste menos rigorosos com medidas mitigadoras e plano de integridade (nível 2) e densidade populacional em unidade de classe de largura variável com o diâmetro (nível 3). Medidas mitigadoras reduzem a frequência de falha (p.ex. enterramento mais profundo).",
+   "valores": [
+    {"parametro": "Classe 3R — edificações", "valor": "≥ 66 (salvo onde prevalecer 4R)", "item": "B.3.2.4 a)"},
+    {"parametro": "Classe 3R — edificação de reunião (escola, igreja, clube)", "valor": "a até 90 m do eixo da faixa", "item": "B.3.2.4 b)", "cota": "esquemas/duto-faixa-interferencias.svg#edificacao-eixo"},
+    {"parametro": "Unidade de classe de locação (níveis 1/2; nível 3)", "valor": "1 600 m × 400 m; nível 3: 1 600 m × w (w pelo diâmetro, Tabela B.7)", "item": "B.3.4.6, B.3.4.9", "cota": "esquemas/duto-faixa-interferencias.svg#unidade-classe"},
+    {"parametro": "Medida mitigadora M1", "valor": "enterramento de 1,5 m → redução de 20 % na frequência de falha", "item": "Tabela B.5", "cota": "esquemas/duto-faixa-interferencias.svg#cobertura"}
+   ]
+  }
+ ]
+}

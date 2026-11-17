@@ -1,0 +1,31 @@
+{
+ "id": "PETROBRAS-N-2414",
+ "titulo": "Petrobras N-2414 Rev. F (01/2024) — Inspeção em serviço de esfera de armazenamento",
+ "secoes": [
+  {
+   "titulo": "Escopo e dispositivos de segurança",
+   "item": "1, 4.1",
+   "texto": "Complementa a ABNT NBR 15417 para esferas em serviço. PSVs inspecionadas pela N-2368 com a periodicidade do plano de inspeção.",
+   "valores": [],
+   "figuras": ["esquemas/tanque-esfera-revestimento-interno.svg"]
+  },
+  {
+   "titulo": "Pernas de sustentação",
+   "item": "4.2.1",
+   "texto": "O concreto à prova de fogo das pernas é examinado visualmente (deterioração, fissuras, infiltração); só se quebra o revestimento se houver dano relevante. As colunas sem remoção do revestimento são avaliadas por correntes parasitas pulsadas (PEC), de preferência varrendo toda a circunferência.",
+   "valores": []
+  },
+  {
+   "titulo": "Prazos por RBI e inspeção não intrusiva",
+   "item": "4.6, 4.7",
+   "texto": "O intervalo da inspeção interna pode vir de uma análise de risco (RBI) documentada, dentro dos limites da NR-13, considerando histórico, contaminantes e materiais; mecanismos típicos: perda de espessura, corrosão externa, corrosão sob tensão cáustica e por H₂S, entre outros. A inspeção não intrusiva (ABNT NBR 16455) pode estender a inspeção visual interna, se o estabelecimento tiver SPIE homologado para INI e Avaliação do Risco de Corrosão; o planejamento é feito por equipe multidisciplinar liderada pela inspeção.",
+   "valores": []
+  },
+  {
+   "titulo": "Inspeção interna com drone",
+   "item": "4.8, Anexo B",
+   "texto": "A inspeção visual interna pode usar drone (prática recomendada), dispensando andaimes, gruas ou alpinismo, seguindo as orientações do Anexo B.",
+   "valores": []
+  }
+ ]
+}

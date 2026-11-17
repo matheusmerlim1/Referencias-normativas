@@ -1,0 +1,163 @@
+{
+ "id": "PETROBRAS-N-0133",
+ "titulo": "Petrobras N-0133 Rev. P (2ª emenda 04/2025) — Soldagem",
+ "secoes": [
+  {
+   "titulo": "Escopo e organização",
+   "item": "1",
+   "texto": "Exigências e boas práticas para soldagem por fusão de aços e ligas não ferrosas em óleo e gás. Soldagem ou trepanação em equipamento em operação segue a N-2163; soldagem subaquática, a N-2036. É usada junto com as normas de projeto, fabricação e materiais (conflitos se resolvem na licitação, valendo a decisão da Petrobras). A Seção 4 traz o que vale para todos os materiais; a Seção 5, o específico de cada família: aço-carbono/C-Mn, baixa liga de médio carbono, Cr-Mo, aços ao níquel, inox austenítico, superaustenítico, duplex/superduplex/hiperduplex, martensítico, ferrítico, níquel, cobre, alumínio, titânio, componentes revestidos e soldagem dissimilar.",
+   "valores": [],
+   "figuras": ["esquemas/solda-preaquecimento-medicao.svg", "esquemas/solda-raiz-purga-reparo.svg"]
+  },
+  {
+   "titulo": "Qualificação de procedimento e de pessoal",
+   "item": "4.3, 4.4",
+   "texto": "Procedimentos qualificados conforme o código de projeto; quando há requisito de tenacidade, o corpo de prova passa por TTPS que simule todos os ciclos de fabricação e montagem e mais um, reservado a reparo futuro. Consumíveis certificados; se qualificados pela N-1859, a marca comercial deixa de ser variável essencial (salvo exigência do código). Soldadores e operadores qualificados com inspeção visual das peças de teste; inspetores e profissionais de END conforme as normas Petrobras. O desempenho dos soldadores é acompanhado por formulário ou software rastreável (CDS, cálculo da N-2301), com limites que dependem do tipo de serviço.",
+   "valores": [
+    {"parametro": "CDS — manutenção de oficina", "valor": "RX: ≤ 5 % de filmes reprovados (1 em 20); UT: defeitos ≤ 2,0 % (60 mm) em ≥ 3,0 m de solda", "item": "4.4.1.8 a)", "cota": "esquemas/solda-desempenho-soldador.svg#comprimento-defeituoso"},
+    {"parametro": "CDS — manutenção de campo", "valor": "RX: ≤ 15 % (3 em 20); UT: ≤ 5,0 % (150 mm) em ≥ 3,0 m", "item": "4.4.1.8 b)", "cota": "esquemas/solda-desempenho-soldador.svg#comprimento-defeituoso"},
+    {"parametro": "CDS — construção e montagem", "valor": "RX: ≤ 10 % (2 em 20); UT: ≤ 2,5 % (75 mm) em ≥ 3 m", "item": "4.4.1.8 c)", "cota": "esquemas/solda-desempenho-soldador.svg#comprimento-defeituoso"},
+    {"parametro": "CDS — fabricação", "valor": "RX: ≤ 10 % (4 em 40); UT: ≤ 2,5 % (150 mm) em ≥ 6 m", "item": "4.4.1.8 d)", "cota": "esquemas/solda-desempenho-soldador.svg#comprimento-inspecionado"},
+    {"parametro": "Desqualificação imediata do soldador", "valor": "RX: 4 filmes reprovados (campo) ou 2 (oficina); UT: 150 mm de reparo (campo) ou 60 mm (oficina), mesmo antes de completar 20 filmes / 3,0 m", "item": "4.4.1.8 Notas 1 e 2", "cota": "esquemas/solda-desempenho-soldador.svg#comprimento-defeituoso"}
+   ],
+   "figuras": ["esquemas/solda-desempenho-soldador.svg"]
+  },
+  {
+   "titulo": "Equipamentos e consumíveis",
+   "item": "4.5, 4.7",
+   "texto": "Fornos de secagem e estufas de manutenção têm resistência elétrica, termostato, termômetro e respiro, e são calibrados; eletrodos básicos no campo ficam em estufas portáteis individuais. A embalagem do consumível identifica marca, especificação, classificação, diâmetro e lote. Eletrodos em camadas finas nas prateleiras; fluxos em bandejas ou forno com agitador.",
+   "valores": [
+    {"parametro": "Forno de secagem — temperatura controlável", "valor": "até 400 °C", "item": "4.5.6"},
+    {"parametro": "Diâmetro do respiro do forno", "valor": "> 10 mm", "item": "4.5.6", "cota": "esquemas/solda-consumiveis-estufa.svg#respiro"},
+    {"parametro": "Afastamento das prateleiras/bandejas às paredes do forno", "valor": "≥ 25 mm", "item": "4.5.6.1, 4.5.6.2", "cota": "esquemas/solda-consumiveis-estufa.svg#prateleira-parede"},
+    {"parametro": "Estufa de manutenção — temperatura controlável", "valor": "até 200 °C", "item": "4.5.7"},
+    {"parametro": "Estufa portátil (cochicho) do soldador", "valor": "80 °C a 150 °C", "item": "4.5.9, 4.7.25"},
+    {"parametro": "Camada de eletrodos — forno de secagem / estufa de manutenção", "valor": "≤ 50 mm / ≤ 150 mm", "item": "4.7.22", "cota": "esquemas/solda-consumiveis-estufa.svg#camada"},
+    {"parametro": "Camada de fluxo em bandeja", "valor": "≤ 50 mm", "item": "4.7.23", "cota": "esquemas/solda-consumiveis-estufa.svg#camada"},
+    {"parametro": "Secagem de eletrodo básico", "valor": "350 °C ± 30 °C por 1 h; manutenção 150 °C a 180 °C", "item": "4.7.24 a)"},
+    {"parametro": "Secagem de fluxo de baixo hidrogênio", "valor": "250 °C ± 20 °C por 2 h (bandeja) ou 1 h (agitador); manutenção 150 °C ± 15 °C", "item": "4.7.24 b)"},
+    {"parametro": "Estufa de armazenamento de consumíveis (sem recomendação do fabricante)", "valor": "≥ 20 °C e pelo menos 10 °C acima do ambiente (máx. 40 °C); umidade relativa ≤ 50 %", "item": "4.7.14"}
+   ],
+   "figuras": ["esquemas/solda-consumiveis-estufa.svg"]
+  },
+  {
+   "titulo": "Técnica geral de soldagem",
+   "item": "4.6",
+   "texto": "Chanfro limpo de carepa e óxido dos dois lados, irregularidades e escória de corte removidas. Purga com gás inerte pelo lado interno quando requerida. Soldas de encaixe (socket) só com GTAW, ao menos duas camadas e acabamento levemente côncavo, mantendo folga entre o tubo e o fundo do encaixe. GMAW não é usado em encaixe; em curto-circuito (GMAW-S) só faz raiz de tubulação se removida pelo lado oposto ou com curto controlado, e enchimento/acabamento só em peças finas.",
+   "valores": [
+    {"parametro": "Faixa limpa de carepa e óxido junto ao chanfro (interna e externa)", "valor": "≥ 10 mm", "item": "4.6.3", "cota": "esquemas/solda-preaquecimento-medicao.svg#limpeza"},
+    {"parametro": "Purga pelo lado interno — manter até", "valor": "o menor entre 6,4 mm depositados (raiz + enchimento) e a espessura da junta", "item": "4.6.8", "cota": "esquemas/solda-raiz-purga-reparo.svg#purga-deposito"},
+    {"parametro": "Folga tubo × fundo da conexão de encaixe", "valor": "1,5 mm", "item": "4.6.13 Nota 3", "cota": "esquemas/solda-raiz-purga-reparo.svg#folga-encaixe"},
+    {"parametro": "GMAW-S em filete — espessura máxima de qualquer elemento", "valor": "3/8\" (9,5 mm)", "item": "4.6.15 d)", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"}
+   ]
+  },
+  {
+   "titulo": "Condições ambientais, preaquecimento e pós-aquecimento",
+   "item": "4.8–4.10",
+   "texto": "Não se solda com chuva, vento ou poeira (p.ex. de jateamento) sem proteção. O preaquecimento, quando a Seção 5 pede, é feito por resistência, indução ou chama (maçarico tipo chuveiro, nunca bico de corte), com procedimento escrito; o gás fica do lado oposto ao soldador. A temperatura é medida no metal de base, do lado oposto à fonte; se só der para medir do lado da chama, interrompe-se o aquecimento antes de medir. Interpasse é medido no metal de solda onde vai o próximo passe.",
+   "valores": [
+    {"parametro": "Faixa que tem de estar seca e na temperatura de preaquecimento", "valor": "150 mm a partir da margem do chanfro", "item": "4.9.2", "cota": "esquemas/solda-preaquecimento-medicao.svg#faixa-seca"},
+    {"parametro": "Superfície abaixo de 10 °C", "valor": "aquecer a no mínimo 50 °C antes de soldar", "item": "4.9.3"},
+    {"parametro": "Ponto de medição do preaquecimento (recomendado)", "valor": "75 mm da margem do chanfro, no lado oposto à fonte", "item": "4.9.5, 4.10.4", "cota": "esquemas/solda-preaquecimento-medicao.svg#medicao"},
+    {"parametro": "Espera antes de medir quando só há acesso pelo lado da chama", "valor": "≥ 1 min por 25 mm de espessura", "item": "4.9.5 Nota, 4.10.5", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"}
+   ]
+  },
+  {
+   "titulo": "Reparos, TTPS, dispositivos e marcação",
+   "item": "4.12–4.15",
+   "texto": "Reparo com EPS/IEIS qualificada (N-2301), cavidade 100 % examinada antes de encher, mesmos requisitos de inspeção da junta original, registro em RRS; reparos além do previsto na Seção 5 dependem de consulta técnica. TTPS por resistência, indução ou forno, abrangendo também soldas provisórias de dispositivos, com registro RRTT e procedimento por profissional qualificado; TTPS localizado segue AWS D10.10 ou WRC 452 (fora de seção circunferencial completa, exige análise por elementos finitos aprovada). Dispositivos auxiliares contam como solda definitiva, não são arrancados a golpe e a área é examinada por LP ou PM; batoques soldados no chanfro têm o mesmo P-number do metal de base.",
+   "valores": [
+    {"parametro": "Distância mínima da solda de dispositivo auxiliar à margem do chanfro", "valor": "25 mm", "item": "4.14 d)", "cota": "esquemas/solda-preaquecimento-medicao.svg#dispositivo"},
+    {"parametro": "Marcação por puncionamento (aço-carbono, Mo e Cr-Mo)", "valor": "só com espessura > 6,4 mm e a ≥ 25 mm da margem da solda", "item": "4.15.3", "cota": "esquemas/solda-preaquecimento-medicao.svg#puncao"}
+   ]
+  },
+  {
+   "titulo": "Aço-carbono, C-Mn e microligados",
+   "item": "5.1",
+   "texto": "Risco principal: trinca a frio por hidrogênio, maior com C ou carbono equivalente altos e junta muito restrita; o preaquecimento reduz a velocidade de resfriamento e ajuda o hidrogênio a sair. Processos: SMAW, GTAW, GMAW, FCAW-G/S, SW e SAW. Quando há tenacidade, passes retilíneos e finos. Consumíveis básicos com no máximo H8. A Tabela 2 recomenda preaquecimento/interpasse mínimos por CE(IIW) e espessura calculada da junta — os valores entre parênteses valem para estruturas marítimas e aços de alta resistência; a norma de projeto, se definir, prevalece. Pós-aquecimento não é exigido; TTPS conforme o código. A mesma área, com tenacidade, não é reparada mais que duas vezes; reparo sempre multipasse.",
+   "valores": [
+    {"parametro": "Maior susceptibilidade à trinca a frio", "valor": "C > 0,20 % ou CE(IIW) > 0,44 %", "item": "5.1.2.1"},
+    {"parametro": "Oscilação máxima do passe (com requisito de impacto)", "valor": "3 × Ø da alma do eletrodo (SMAW) ou 12 mm (demais, exceto SAW)", "item": "5.1.3.2", "cota": "esquemas/solda-raiz-purga-reparo.svg#oscilacao"},
+    {"parametro": "Hidrogênio difusível dos consumíveis básicos", "valor": "≤ 8 mL/100 g (H8)", "item": "5.1.3.3"},
+    {"parametro": "Preaquecimento mín. — CE ≤ 0,41 % (e ≤ 20 / 20–30 / > 30 mm)", "valor": "— / — / (75 °C)", "item": "5.1.5 Tabela 2", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "Preaquecimento mín. — 0,41 % < CE ≤ 0,43 %", "valor": "— / (50 °C) / 100 °C", "item": "5.1.5 Tabela 2", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta", "nota": "valores entre parênteses = estruturas marítimas e aços de alta resistência"},
+    {"parametro": "Preaquecimento mín. — 0,43 % < CE ≤ 0,45 %", "valor": "(50 °C) / (100 °C) / 100 °C (125 °C)", "item": "5.1.5 Tabela 2", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta", "nota": "conferir: leitura da tabela feita do texto extraído"},
+    {"parametro": "Preaquecimento mín. — 0,45 % < CE ≤ 0,47 %", "valor": "(100 °C) / 100 °C (125 °C) / 125 °C (150 °C)", "item": "5.1.5 Tabela 2", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta", "nota": "conferir: leitura da tabela feita do texto extraído"},
+    {"parametro": "Preaquecimento mín. — 0,47 % < CE ≤ 0,50 %", "valor": "100 °C (125 °C) / 125 °C (150 °C) / 150 °C (175 °C)", "item": "5.1.5 Tabela 2", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "Espessura calculada da junta (bocal/derivação)", "valor": "e = 0,5 (T1 + T2) sem reforço; e = 0,5 (T1 + 2T2) com reforço, medindo dentro de 37,5 mm da solda", "item": "5.1.5 Figura 2", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta", "nota": "leitura de figura"},
+    {"parametro": "Interpasse máximo com requisito de tenacidade (se o código não fixar)", "valor": "315 °C; GMAW/GTAW mecanizado ou automatizado 400 °C", "item": "5.1.5.3"},
+    {"parametro": "Evitar aquecimento manual por chama (sem consulta técnica)", "valor": "tubos ou cascos com espessura > 25,4 mm e diâmetro > 10\"", "item": "5.1.5.4", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "Desidrogenação prévia em manutenção (equipamento encharcado de H)", "valor": "300 °C a 400 °C por ≥ 4 h; nunca acima de 480 °C", "item": "5.1.9.1"}
+   ]
+  },
+  {
+   "titulo": "Baixa liga de médio carbono (AISI 4130, 4140, 4340, 8630)",
+   "item": "5.2",
+   "texto": "Aços de alta temperabilidade: a ZTA do corte térmico é removida, o bisel de peça usada passa por LP, os consumíveis são H4 com resistência compatível e a junta recebe tratamento térmico para enquadrar a resistência. Chama manual só em tirantes e peças auxiliares sem pressão. Tabela 3 recomenda preaquecimento por faixa de espessura (< 12,7; 12,7–25,4; ≥ 25,4 mm) e interpasse máximo.",
+   "valores": [
+    {"parametro": "AISI 4130 — preaquecimento (t < 12,7 / 12,7–25,4 / ≥ 25,4 mm) e interpasse máx.", "valor": "150 / 200 / 230 °C; 315 °C", "item": "5.2.6 Tabela 3", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "AISI 4140", "valor": "175 / 230 / 250 °C; 350 °C", "item": "5.2.6 Tabela 3", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "AISI 4340", "valor": "230 / 250 / 300 °C; 350 °C", "item": "5.2.6 Tabela 3", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "AISI 8630", "valor": "100 / 120 / 150 °C; 250 °C", "item": "5.2.6 Tabela 3", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "Pós-aquecimento", "valor": "250 °C a 300 °C, 1 min/mm de espessura, mínimo 30 min (resfriar < 95 °C/h até 80 °C, recomendado)", "item": "5.2.7"},
+    {"parametro": "Faixa de resfriamento a vigiar no TTPS/revenimento", "valor": "343 °C a 577 °C", "item": "5.2.8.2"}
+   ]
+  },
+  {
+   "titulo": "Aços Mo e Cr-Mo",
+   "item": "5.3",
+   "texto": "Consumível do mesmo tipo e marca da qualificação; número de passes proporcional à área do chanfro. Se a junta tiver de esfriar abaixo do preaquecimento, faz-se antes desidrogenação (DHT) ou alívio intermediário (ISR). Purga com argônio controlada por oxímetro; solda contaminada é cortada e refeita. Dureza da ZF e ZTA após TTPS limitada pela Tabela 9 e um TTPS fica reservado para manutenção.",
+   "valores": [
+    {"parametro": "Preaquecimento mínimo — C-0,5Mo (P3)", "valor": "80 °C", "item": "5.3.5 Tabela 7"},
+    {"parametro": "Preaquecimento mínimo — 0,5Cr a 2Cr-0,5Mo (P3/P4)", "valor": "150 °C", "item": "5.3.5 Tabela 7", "nota": "conferir: agrupamento lido do texto extraído"},
+    {"parametro": "Preaquecimento mínimo — 2,25Cr-1Mo, 3Cr, 5Cr, 7Cr, 9Cr, Cr-Mo-V (P5A/5B/5C/15E)", "valor": "205 °C", "item": "5.3.5 Tabela 7", "nota": "conferir: agrupamento lido do texto extraído"},
+    {"parametro": "Interpasse máximo (Cr-Mo)", "valor": "300 °C", "item": "5.3.5 Tabela 7", "nota": "conferir na tabela se vale para todos os grupos"},
+    {"parametro": "Oxigênio na purga (GTAW/GMAW)", "valor": "≤ 1 000 ppm antes de iniciar", "item": "5.3.2.9"},
+    {"parametro": "DHT exigido quando esfriar abaixo do preaquecimento", "valor": "t ≥ 10 mm (t < 10 mm: proteger com manta)", "item": "5.3.6.1, 5.3.6.3", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "DHT — C-0,5Mo / demais Cr-Mo", "valor": "300 °C por 1 h / 350 °C por 4 h", "item": "5.3.6 Tabela 8"},
+    {"parametro": "ISR — Cr-Mo / Cr-Mo-V", "valor": "593 °C por 2 h / 650 °C por 4 h ou 680 °C por 2 h", "item": "5.3.7.3"},
+    {"parametro": "DHT no lugar do ISR (P5A, casco/casco e casco/tampo)", "valor": "espessura < 50 mm", "item": "5.3.7.2", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "Dureza máx. após TTPS (Tabela 9)", "valor": "225 HBW (até 1,25Cr); 235 HV10 (2Cr a 3Cr); 220 HBW (5Cr a 9Cr); 248 HV10 (Cr-Mo-V); 250 HBW (9Cr-1Mo-V)", "item": "5.3.9 Tabela 9", "nota": "conferir associação material × dureza na tabela"},
+    {"parametro": "Dureza após TTPS — equipamento de processo / utilidades", "valor": "190 HBW a 250 HBW / 190 HBW a 275 HBW", "item": "5.3.9 Tabela 9 Nota"}
+   ]
+  },
+  {
+   "titulo": "Aços ao níquel",
+   "item": "5.4",
+   "texto": "Soldagem homogênea (consumível de mesma composição) ou heterogênea (consumível de liga de níquel) com preaquecimento e interpasse pelas Tabelas 12 e 13, sempre respeitando o código de projeto. Com GTAW o preaquecimento pode ser 40 °C menor.",
+   "valores": [
+    {"parametro": "Homogênea 1,5 % Ni — t ≤ 19 mm e C ≤ 0,2 % / acima", "valor": "pré 100 °C / 100 °C; interpasse máx. 250 °C", "item": "5.4.5 Tabela 12", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "Homogênea 2,5 % Ni — t ≤ 12 mm e C ≤ 0,2 % / acima", "valor": "pré 100 °C / 150 °C; interpasse máx. 250 °C", "item": "5.4.5 Tabela 12", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "Homogênea 3,5 % Ni — t ≤ 10 mm e C ≤ 0,2 % / acima", "valor": "pré 100 °C / 150 °C; interpasse máx. 230 °C", "item": "5.4.5 Tabela 12", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "Heterogênea 3,5 / 5 / 9 % Ni — t < 50 mm / ≥ 50 mm", "valor": "pré 15 °C / 100 °C; interpasse máx. 150 °C", "item": "5.4.5 Tabela 13", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"}
+   ]
+  },
+  {
+   "titulo": "Inox austenítico",
+   "item": "5.5",
+   "texto": "Fabricação segregada, ferramentas exclusivas, corte por plasma ou laser (sem oxicorte); goivagem com grafite exige esmerilhar depois. Abertura de raiz um pouco maior que no aço-carbono (a raiz fecha mais). Passes retilíneos e baixa energia; escória e fluxo removidos; nada de contato com zinco, cobre, chumbo ou enxofre; sem lápis térmico. Purga com argônio monitorada (nitrogênio só em manutenção com controle de ferrita); solda com coloração acima do nível 4 é cortada e refeita.",
+   "valores": [
+    {"parametro": "Esmerilhar após goivagem com eletrodo de grafite", "valor": "3 mm da superfície", "item": "5.5.3.3", "cota": "esquemas/solda-raiz-purga-reparo.svg#reparo-profundidade"},
+    {"parametro": "Energia máxima de soldagem", "valor": "2,5 kJ/mm (SAW, GMAW, FCAW); 1,5 kJ/mm (GTAW, PAW, SMAW)", "item": "5.5.3.7"},
+    {"parametro": "Oxigênio na purga", "valor": "< 500 ppm (0,05 %), monitorado continuamente", "item": "5.5.3.13"},
+    {"parametro": "Manter a purga até", "valor": "3ª camada ou 6,4 mm, o que for maior", "item": "5.5.3.19", "cota": "esquemas/solda-raiz-purga-reparo.svg#purga-deposito"},
+    {"parametro": "Ferrita no depósito — 308, 316, 317, 321 / 347", "valor": "3 FN a 10 FN / 5 FN a 11 FN", "item": "5.5.5.2"},
+    {"parametro": "Ferrita máx. — serviço ≥ 370 °C ou com TTPS", "valor": "< 9 FN", "item": "5.5.5.3"},
+    {"parametro": "Preaquecimento", "valor": "não permitido (só secagem até 50 °C)", "item": "5.5.6.1"},
+    {"parametro": "Interpasse máximo", "valor": "150 °C (317L: 120 °C)", "item": "5.5.6.2"}
+   ]
+  },
+  {
+   "titulo": "Duplex, superduplex e hiperduplex",
+   "item": "5.7",
+   "texto": "O balanço ferrita/austenita depende da energia de soldagem: abaixo da faixa sobra pouca austenita e precipitam nitretos; acima, fases deletérias. Recomenda-se que o 2º passe tenha cerca de 85 % da energia do primeiro. Pós-aquecimento e TTPS não se aplicam. Reparos seguem zonas: perto da face, EPS original; profundo na raiz, procedimento próprio; passante ou com pouco ligamento, aprovação da Petrobras.",
+   "valores": [
+    {"parametro": "Energia — duplex (e ≤ 7 / 7–20 / > 20 mm)", "valor": "0,5–1,2 / 0,7–1,5 / 1,0–2,0 kJ/mm (GTAW × 1,2)", "item": "5.7.3 Tabela 17", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "Energia — superduplex e hiperduplex", "valor": "0,5–1,0 / 0,7–1,2 / 1,0–1,5 kJ/mm (GTAW × 1,2)", "item": "5.7.3 Tabela 17", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "Interpasse máx. duplex / superduplex (MB < 3; < 6; < 9,5; ≥ 9,5 mm)", "valor": "50 / 70 / 100 / 150 °C — superduplex 50 / 70 / 100 / 120 °C", "item": "5.7.6 Tabela 20", "cota": "esquemas/solda-preaquecimento-medicao.svg#espessura-junta"},
+    {"parametro": "Reparo parcial profundo (zona B)", "valor": "> 6 mm da superfície interna: procedimento específico, ligamento mínimo 3 mm", "item": "5.7.9.1 Nota 2", "cota": "esquemas/solda-raiz-purga-reparo.svg#ligamento"},
+    {"parametro": "Reparo passante ou ligamento < 3 mm (zona A)", "valor": "só com aprovação da Petrobras", "item": "5.7.9.1 Nota 3", "cota": "esquemas/solda-raiz-purga-reparo.svg#ligamento"}
+   ]
+  }
+ ]
+}

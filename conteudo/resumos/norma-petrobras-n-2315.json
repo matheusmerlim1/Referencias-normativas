@@ -1,0 +1,27 @@
+{
+ "id": "PETROBRAS-N-2315",
+ "titulo": "Petrobras N-2315 Rev. F (11/2022) — Ensaio não destrutivo: ultrassom em forjado",
+ "secoes": [
+  {
+   "titulo": "Escopo e normas base",
+   "item": "1, 4, 5.4, 5.6",
+   "texto": "Ultrassom em peças forjadas pela ASTM A388 (também quando o ASME V remeter a ela). Pessoal ISO 9712, procedimento qualificado por nível 3, bloco-padrão calibrado em laboratório ISO/IEC 17025. Sem critério no projeto, vale o da A388.",
+   "valores": [],
+   "figuras": ["esquemas/end-ultrassom-fundido-forjado.svg"]
+  },
+  {
+   "titulo": "Dimensionamento das indicações",
+   "item": "5.5.1",
+   "texto": "A técnica de queda de 6 dB só dimensiona bem descontinuidades maiores que o feixe; se a indicação for menor que o perfil do feixe (6 dB), a área medida na superfície fica superestimada e não representa o tamanho real.",
+   "valores": [
+    {"parametro": "Limite da técnica de queda de 6 dB", "valor": "indicação menor que o perfil do feixe (6 dB) → área superestimada", "item": "5.5.1", "cota": "esquemas/end-ultrassom-fundido-forjado.svg#indicacao"}
+   ]
+  },
+  {
+   "titulo": "Casos especiais",
+   "item": "5.5.2, 5.7–5.9",
+   "texto": "Duplex forjado: DNV-ST-F101 Ap. D (D.4.3 método, D.4.5 aceitação). Válvulas forjadas: extensão pelo Anexo I (QSL) da API 6D se o projeto não definir. Inox austenítico forjado: SA-745 (ASME V Art. 23), nível de qualidade pela prática geral da espessura (12.1.1.2).",
+   "valores": []
+  }
+ ]
+}

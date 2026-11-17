@@ -1,0 +1,31 @@
+{
+ "id": "PETROBRAS-N-2655",
+ "titulo": "Petrobras N-2655 Rev. B (01/2013) — Inspeção em serviço de desaeradores",
+ "secoes": [
+  {
+   "titulo": "Escopo e programação",
+   "item": "1, 4",
+   "texto": "Complementa a ABNT NBR 15417 para desaeradores. A inspeção externa é programada pelo histórico, data-limite da NR-13, mudanças operacionais e de qualidade da água; a geral, pela categoria do equipamento (NACE SP0590, seção 3), sempre dentro do prazo da NR-13. Antes de começar, PT conforme N-2162.",
+   "valores": [],
+   "figuras": ["esquemas/desaerador-inspecao.svg"]
+  },
+  {
+   "titulo": "Roteiros externo e geral",
+   "item": "5.1, 5.2.1",
+   "texto": "Externamente: condição geral, tubulações e PSVs, isolamento térmico, suportes, bases e soldas de fixação do vaso de armazenamento. Na geral, soma-se medição de espessura por ultrassom, pintura (N-13) e PSVs pela N-2368.",
+   "valores": []
+  },
+  {
+   "titulo": "Mecanismos de dano e técnicas",
+   "item": "5.2.2 Tabela 1",
+   "texto": "Corrosão pela água/condensado com O₂ e CO₂ (alveolar generalizada): qualidade da água, visual interno e medição de espessura. Corrosão-fadiga (trincas em solda, ZTA e metal adjacente): partículas magnéticas por dentro, ou ultrassom de onda transversal/phased array por fora. FAC e erosão junto a bocais e caminhos de fluxo: visual interno e espessura por ultrassom. Queda de bandejas e falha das válvulas de spray: acompanhar a eficiência do desaerador e programar inspeção interna. Também corrosão sob isolamento e atmosférica.",
+   "valores": []
+  },
+  {
+   "titulo": "Reparos e teste",
+   "item": "6, 7",
+   "texto": "Reparos conforme recomendação de inspeção e NR-13 (recomenda-se a NACE SP0590, seção 4); teste hidrostático conforme NR-13; tudo registrado.",
+   "valores": []
+  }
+ ]
+}

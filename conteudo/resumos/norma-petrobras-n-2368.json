@@ -1,0 +1,226 @@
+{
+ "id": "PETROBRAS-N-2368",
+ "titulo": "Petrobras N-2368 — Inspeção, manutenção, calibração e teste de dispositivos de alívio de pressão e/ou vácuo",
+ "secoes": [
+  {
+   "titulo": "Escopo e dispositivos abrangidos",
+   "item": "1",
+   "texto": "Complementa o API RP 576 e a ABNT NBR ISO 28300 com requisitos próprios para inspecionar, manter, calibrar e testar dispositivos de alívio: válvulas de segurança e/ou alívio de mola e piloto-operadas, válvulas de alívio de pressão e vácuo (VAPV) de tanques, discos de ruptura, tampas de emergência e válvulas com pino de dobramento (BPRV). A norma mistura requisitos obrigatórios e práticas recomendadas.",
+   "valores": [
+    {
+     "parametro": "Prazo para implantar esta revisão",
+     "valor": "até 180 dias após a publicação (ou plano de implementação registrado nesse prazo)",
+     "item": "1.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/valvula-alivio-psv.svg"
+   ]
+  },
+  {
+   "titulo": "Conceitos usados na norma",
+   "item": "3",
+   "texto": "Pressão de ajuste a frio (CDTP) é a pressão em que a válvula abre na bancada, à temperatura ambiente e sem contrapressão: parte-se da pressão de abertura, desconta-se a contrapressão superimposta (em PSV balanceada ou piloto-operada ela não é descontada) e aplica-se a correção de temperatura dada pelo fabricante. Diferencial de alívio (blowdown) é a diferença entre abrir e fechar, em % da pressão de abertura. As falhas são agrupadas em FAIL (não abre, abre parcialmente ou abre acima do ajuste) e LEAK (passagem abaixo do ajuste, abertura prematura ou fica travada aberta).",
+   "valores": [
+    {
+     "parametro": "Tampa de emergência de tanque — pressão do tanque protegido",
+     "valor": "até 15 psig (103,4 kPag), teto fixo",
+     "item": "3.27"
+    },
+    {
+     "parametro": "Tampa de emergência — tanques em que costuma existir",
+     "valor": "diâmetro inferior a 15 m",
+     "item": "3.27",
+     "cota": "esquemas/nr-13-caldeiras-vasos-tanque-abrangido.svg#D-tanque"
+    },
+    {
+     "parametro": "VAPV — faixa de pressão do tanque",
+     "valor": "±15 psig (±103,4 kPag)",
+     "item": "3.34"
+    }
+   ],
+   "figuras": [
+    "esquemas/nr-13-caldeiras-vasos-tanque-abrangido.svg"
+   ]
+  },
+  {
+   "titulo": "Programa e prazos de inspeção geral",
+   "item": "4.1; Tabelas 1 e 2",
+   "texto": "Todo dispositivo entra num programa com tipo de serviço, periodicidade e data da última inspeção, definido pelo histórico, pelas condições de operação, pelos mecanismos de dano e pela consequência da falha. Cada dispositivo é classificado em A (alta chance de falhar: incrustação, colagem, piloto-operadas, BPRV, primeira campanha sem histórico), B (baixa chance) ou C (bom histórico comprovado; discos de ruptura). O prazo máximo depende da classe e da categoria do equipamento protegido; na classe A o prazo é avaliado caso a caso. Inspeção baseada em risco (API RP 580/581) pode substituir as tabelas, sem passar dos prazos da NR-13. Queda, impacto, lacre violado ou dúvida sobre a calibração exigem nova verificação em bancada.",
+   "valores": [
+    {
+     "parametro": "Falha crítica de abertura (classificação)",
+     "valor": "travamento, abertura parcial ou abertura 20 % acima da pressão de ajuste",
+     "item": "Tabela 1, Nota 1"
+    },
+    {
+     "parametro": "Prazo máximo — vasos categoria I (classes B / C)",
+     "valor": "6 anos / 6 anos",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Prazo máximo — vasos categoria II (B / C)",
+     "valor": "6 anos / 8 anos",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Prazo máximo — vasos categoria III ou fluido classe A fora da NR-13 (B / C)",
+     "valor": "7 anos / 10 anos",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Prazo máximo — vasos categoria IV ou fluido classe B (B / C)",
+     "valor": "8 anos / 12 anos",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Prazo máximo — vasos categoria V ou fluido classe C/D (B / C)",
+     "valor": "10 anos / 14 anos",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Prazo máximo — VAPV, tampa de emergência e respiro aberto (B / C)",
+     "valor": "5 anos / 10 anos",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Prazo máximo — classe A",
+     "valor": "avaliar caso a caso",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Caldeiras",
+     "valor": "seguir a NR-13",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção externa e teste de recebimento",
+   "item": "6.1–6.2",
+   "texto": "Em operação verifica-se o estado externo, a placa (disco de ruptura) e as telas dos respiros abertos, que devem ficar limpas. Passagem detectada em campo pede avaliação técnica, financeira e ambiental para antecipar a calibração. Ao chegar à oficina, antes de desmontar, a PSV é testada como veio do campo, registrando-se a pressão em que abriu e a de vedação. Só se dispensa esse teste em casos excepcionais (incêndio, mola quebrada, bocal obstruído), por decisão do responsável pela inspeção. Pode-se testar com a válvula aquecida quando o fluido solidifica a frio.",
+   "valores": [
+    {
+     "parametro": "Teste de recebimento — limite de pressurização",
+     "valor": "interromper ao atingir 20 % acima da pressão de ajuste a frio",
+     "item": "6.2.2, Nota 2"
+    },
+    {
+     "parametro": "PSV que não abre até 20 % acima do ajuste a frio ou 5 MPa (50 bar) acima, o que for menor",
+     "valor": "considerada FAIL/FTO",
+     "item": "6.2.2, Nota 2"
+    },
+    {
+     "parametro": "Continuação opcional do teste (fluido incompressível)",
+     "valor": "de 20 % a 50 % acima do ajuste a frio, sem passar de 20 % acima da pressão máxima do flange; abrir nessa faixa = FAIL/OASP",
+     "item": "6.2.2, Nota 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção geral e manutenção",
+   "item": "6.3",
+   "texto": "Compreende inspeção externa, teste de recebimento, inspeção interna e manutenção em oficina; em válvula piloto-operada, piloto e válvula principal são inspecionados. Em serviço com H2S recomenda-se líquido penetrante ou partículas magnéticas no corpo, mola e castelo. Se o teste de recebimento mostrar abertura, vedação e fechamento dentro das tolerâncias, o profissional habilitado pode adiar a desmontagem, sem exceder o prazo da NR-13. Pintura segue N-0002, N-0009 e N-0013, sem pintar sedes e partes deslizantes.",
+   "valores": []
+  },
+  {
+   "titulo": "Bancada e calibração",
+   "item": "7.1–7.2",
+   "texto": "A bancada tem dois indicadores de pressão calibrados e rastreáveis, e a válvula é testada na posição de operação. Para ajustar a mola, reduz-se a pressão antes de mexer no parafuso, segurando a haste para o disco não girar. A calibração só é aceita com três aberturas seguidas dentro da tolerância; válvula de segurança deve abrir com disparo nítido (pop). A VAPV é calibrada em bancada com ar, ajustando a massa dos discos, e o ajuste depende da sobrepressão de projeto.",
+   "valores": [
+    {
+     "parametro": "Menor divisão da escala do indicador",
+     "valor": "≤ 1 % da indicação máxima",
+     "item": "7.1.1, Nota 3"
+    },
+    {
+     "parametro": "Fundo de escala do indicador analógico",
+     "valor": "entre 1,5 e 4 vezes a pressão de ajuste a frio",
+     "item": "7.1.1, Nota 4"
+    },
+    {
+     "parametro": "Pressão antes de mexer no ajuste da mola ou do anel",
+     "valor": "reduzir a 30 % da pressão da última abertura",
+     "item": "7.2.1.2; 7.4.3, Nota 2"
+    },
+    {
+     "parametro": "Aberturas consecutivas dentro da tolerância",
+     "valor": "3",
+     "item": "7.2.1.3"
+    },
+    {
+     "parametro": "Anel de ajuste inferior (válvula de segurança)",
+     "valor": "subir até o topo e recuar dois dentes",
+     "item": "7.2.1.4"
+    },
+    {
+     "parametro": "Ajuste da VAPV conforme sobrepressão",
+     "valor": "sobrepressão de 10 % → ajuste até 90 % da pressão/vácuo de projeto do tanque; 20 % → até 80 %, e assim por diante",
+     "item": "7.2.4.3, Fig. 1"
+    },
+    {
+     "parametro": "Tolerância de abertura da VAPV no recebimento",
+     "valor": "o menor entre a sobrepressão de projeto e 40 % do ajuste, sem passar da pressão mínima/máxima do tanque",
+     "item": "7.2.4.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Teste de campo e diferencial de alívio",
+   "item": "7.3–7.5",
+   "texto": "O teste de abertura no campo (célula de carga na haste, pressurização do spool de entrada ou do próprio equipamento) só verifica a pressão de abertura; serve para reprogramar a inspeção geral, sem passar o prazo da NR-13, e pode provocar passagem. O diferencial de alívio é regulado pelo anel conforme o fabricante, e as posições dos anéis no recebimento e no ajuste final são registradas. Ao final a válvula é lacrada, identificada, com as conexões protegidas, e embalada.",
+   "valores": [
+    {
+     "parametro": "Diferencial de alívio recomendado — convencional e balanceada",
+     "valor": "5 % da pressão de abertura (ou fabricante)",
+     "item": "7.4.1"
+    },
+    {
+     "parametro": "Diferencial de alívio recomendado — piloto-operada",
+     "valor": "2 % a 5 % da pressão de abertura (ou fabricante)",
+     "item": "7.4.1"
+    },
+    {
+     "parametro": "Posição do anel sem dados do fabricante",
+     "valor": "metade do número de dentes, ou a posição achada no recebimento",
+     "item": "7.4.2"
+    },
+    {
+     "parametro": "Disparo pouco nítido — limite de reposicionamento do anel",
+     "valor": "nunca menos de 2 dentes abaixo da posição máxima superior",
+     "item": "7.4.3, Nota 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Testes de estanqueidade, juntas, fole, corpo e mola",
+   "item": "8",
+   "texto": "A estanqueidade da sede segue o API STD 527 (de preferência ar ou nitrogênio); em fluido incompressível pode-se usar água; sede resiliente não admite vazamento. Toda válvula passa por teste pneumático pelo lado da descarga, procurando bolhas com espuma nas juntas do castelo, capacete, bocal, drenos e parafusos dos anéis; fole suspeito leva líquido penetrante. O corpo vai a teste hidrostático após reparo estrutural ou suspeita de vazamento. A mola é examinada (corrosão, esquadro e paralelismo) e trocada se falhar no visual, no dimensional ou na repetibilidade; o comprimento não roscado do parafuso de regulagem, medido no recebimento e após a calibração, indica perda de rigidez; depois do ajuste, o curso livre da mola deve superar o curso de abertura plena do disco.",
+   "valores": [
+    {
+     "parametro": "Estanqueidade com água (fluido incompressível)",
+     "valor": "sem vazamento durante 3 minutos",
+     "item": "8.1.1, Nota 2"
+    },
+    {
+     "parametro": "Alta pressão com fluido compressível — fluido de teste admitido",
+     "valor": "água ou híbrido (nitrogênio + água) a partir de 200 bar",
+     "item": "8.1.1, Nota 3"
+    },
+    {
+     "parametro": "Teste de juntas e fole — pressão",
+     "valor": "contrapressão ou 206 kPa, o que for maior, pela descarga",
+     "item": "8.2.1"
+    },
+    {
+     "parametro": "Teste de carga sólida da mola",
+     "valor": "conforme ASME VIII-1, UG-136",
+     "item": "8.4.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/valvula-alivio-psv.svg"
+   ]
+  }
+ ]
+}

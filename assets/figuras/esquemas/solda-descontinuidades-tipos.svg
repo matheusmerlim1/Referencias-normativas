@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 610" width="900" height="610" role="img" aria-label="Descontinuidades em soldas — principais tipos (corte transversal)">
+<title>Descontinuidades em soldas — principais tipos (corte transversal) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Descontinuidades em soldas — principais tipos (corte transversal)</text>
+<g transform="translate(20,50)"><text class="m n b" x="105.0" y="18">mordedura</text><path class="s" d="M10,60 L88,60 L100,95 L100,110 L10,110 z"/><path class="s" d="M200,60 L122,60 L110,95 L110,110 L200,110 z"/><path class="r" d="M88,60 Q105,48 122,60 L110,95 L110,110 L100,110 L100,95 z"/><path class="w" d="M80,60 q4,8 8,0 z"/></g>
+<g transform="translate(240,50)"><text class="m n b" x="105.0" y="18">sobreposição</text><path class="s" d="M10,60 L88,60 L100,95 L100,110 L10,110 z"/><path class="s" d="M200,60 L122,60 L110,95 L110,110 L200,110 z"/><path class="r" d="M88,60 Q105,48 122,60 L110,95 L110,110 L100,110 L100,95 z"/><path class="r" d="M88,60 Q70,52 62,60 z"/><path class="v" d="M62,60 L88,60"/></g>
+<g transform="translate(460,50)"><text class="m n b" x="105.0" y="18">reforço excessivo</text><path class="s" d="M10,60 L88,60 L100,95 L100,110 L10,110 z"/><path class="s" d="M200,60 L122,60 L110,95 L110,110 L200,110 z"/><path class="r" d="M88,60 Q105,25 122,60 L110,95 L110,110 L100,110 L100,95 z"/></g>
+<g transform="translate(680,50)"><text class="m n b" x="105.0" y="18">deposição insuficiente</text><path class="s" d="M10,60 L88,60 L100,95 L100,110 L10,110 z"/><path class="s" d="M200,60 L122,60 L110,95 L110,110 L200,110 z"/><path class="r" d="M92,72 Q105,78 118,72 L110,95 L110,110 L100,110 L100,95 z"/></g>
+<g transform="translate(20,225)"><text class="m n b" x="105.0" y="18">falta de penetração</text><path class="s" d="M10,60 L88,60 L100,95 L100,110 L10,110 z"/><path class="s" d="M200,60 L122,60 L110,95 L110,110 L200,110 z"/><path class="r" d="M88,60 Q105,48 122,60 L112,90 L98,90 z"/></g>
+<g transform="translate(240,225)"><text class="m n b" x="105.0" y="18">penetração excessiva</text><path class="s" d="M10,60 L88,60 L100,95 L100,110 L10,110 z"/><path class="s" d="M200,60 L122,60 L110,95 L110,110 L200,110 z"/><path class="r" d="M88,60 Q105,48 122,60 L110,95 L110,110 L100,110 L100,95 z"/><path class="r" d="M100,110 Q105,128 110,110 z"/></g>
+<g transform="translate(460,225)"><text class="m n b" x="105.0" y="18">falta de fusão (lateral)</text><path class="s" d="M10,60 L88,60 L100,95 L100,110 L10,110 z"/><path class="s" d="M200,60 L122,60 L110,95 L110,110 L200,110 z"/><path class="r" d="M88,60 Q105,48 122,60 L110,95 L110,110 L100,110 L100,95 z"/><path class="v" d="M91,64 L100,92" stroke-width="3"/></g>
+<g transform="translate(680,225)"><text class="m n b" x="105.0" y="18">porosidade</text><path class="s" d="M10,60 L88,60 L100,95 L100,110 L10,110 z"/><path class="s" d="M200,60 L122,60 L110,95 L110,110 L200,110 z"/><path class="r" d="M88,60 Q105,48 122,60 L110,95 L110,110 L100,110 L100,95 z"/><circle class="w" cx="100" cy="66" r="2.5"/><circle class="w" cx="108" cy="72" r="2.5"/><circle class="w" cx="104" cy="80" r="2.5"/><circle class="w" cx="112" cy="64" r="2.5"/><circle class="w" cx="98" cy="76" r="2.5"/></g>
+<g transform="translate(20,400)"><text class="m n b" x="105.0" y="18">inclusão de escória</text><path class="s" d="M10,60 L88,60 L100,95 L100,110 L10,110 z"/><path class="s" d="M200,60 L122,60 L110,95 L110,110 L200,110 z"/><path class="r" d="M88,60 Q105,48 122,60 L110,95 L110,110 L100,110 L100,95 z"/><path class="wd" d="M98,70 l12,2 l-3,5 l-10,-2 z"/></g>
+<g transform="translate(240,400)"><text class="m n b" x="105.0" y="18">trinca longitudinal / na raiz</text><path class="s" d="M10,60 L88,60 L100,95 L100,110 L10,110 z"/><path class="s" d="M200,60 L122,60 L110,95 L110,110 L200,110 z"/><path class="r" d="M88,60 Q105,48 122,60 L110,95 L110,110 L100,110 L100,95 z"/><path class="v" d="M105,110 l-2,-8 l3,-6 l-2,-6" stroke-width="2.2"/></g>
+<g transform="translate(460,400)"><text class="m n b" x="105.0" y="18">desalinhamento (high-low)</text><path class="s" d="M10,60 L95,60 L100,95 L10,95 z"/><path class="s" d="M200,72 L115,72 L110,107 L200,107 z"/><path class="r" d="M95,60 Q107,55 115,72 L110,107 L100,95 z"/></g>
+<g transform="translate(680,400)"><text class="m n b" x="105.0" y="18">embicamento (angular)</text><path class="s" d="M10,70 L95,60 L100,95 L14,104 z"/><path class="s" d="M200,70 L115,60 L110,95 L196,104 z"/><path class="r" d="M95,60 Q105,52 115,60 L110,95 L100,95 z"/></g>
+<text class="n" x="20" y="575">Corte transversal de junta de topo em V; vermelho = metal de solda. Descontinuidade só é defeito se reprovar no critério da norma aplicável.</text>
+<text class="n" x="20" y="598">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

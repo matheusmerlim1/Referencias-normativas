@@ -1,0 +1,30 @@
+{
+ "id": "PETROBRAS-N-2665",
+ "titulo": "Petrobras N-2665 Rev. D (02/2024) — Inspeção em serviço de sistema de tocha (flare)",
+ "secoes": [
+  {
+   "titulo": "Escopo e periodicidade",
+   "item": "1, 4",
+   "texto": "Inspeção de sistemas de tocha das unidades Petrobras (lança, tip, selo, vasos e tubulações associados), externa em operação e geral na parada.",
+   "valores": [
+    {"parametro": "Inspeção externa em operação (recomendado)", "valor": "onshore ≤ 36 meses; offshore ≤ 24 meses", "item": "4.1"},
+    {"parametro": "Inspeção geral (referência)", "valor": "≤ 72 meses", "item": "4.2"}
+   ],
+   "figuras": ["esquemas/flare-inspecao-drone.svg"]
+  },
+  {
+   "titulo": "Inspeção com drone (RPAS) — Anexo A",
+   "item": "Anexo A",
+   "texto": "Requisitos legais (ANAC, DECEA/SARPAS, princípio da sombra), técnicos e de SMS: voo em linha de visada (VLOS), fora das áreas de aproximação do heliponto, plano de voo validado no local, liberação pela autoridade de aviação da Petrobras. Câmera com resolução e zoom suficientes para ver detalhes do tip a distância segura.",
+   "valores": [
+    {"parametro": "Altura máxima de voo (Classe 3, VLOS)", "valor": "120 m (400 pés) acima da base do flare", "item": "Anexo A", "cota": "esquemas/flare-inspecao-drone.svg#altura-voo"},
+    {"parametro": "Distância máxima ao objeto (princípio da sombra)", "valor": "30 m", "item": "Anexo A", "cota": "esquemas/flare-inspecao-drone.svg#afastamento-objeto"},
+    {"parametro": "Afastamento horizontal máximo do piloto", "valor": "500 m", "item": "Anexo A h)", "cota": "esquemas/flare-inspecao-drone.svg#distancia-piloto"},
+    {"parametro": "Afastamento da projeção do RPA a áreas classificadas, pessoas, veículos", "valor": "≥ 30 m (salvo autorização)", "item": "Anexo A j)", "cota": "esquemas/flare-inspecao-drone.svg#afastamento-areas"},
+    {"parametro": "Afastamento recomendado ao tip", "valor": "10 m a 15 m", "item": "Anexo A", "cota": "esquemas/flare-inspecao-drone.svg#afastamento-tip"},
+    {"parametro": "Câmera — resolução / sensor", "valor": "≥ 16 Mpixel efetivos; sensor ≥ 4/3\"", "item": "Anexo A", "cota": "esquemas/flare-inspecao-drone.svg#camera"},
+    {"parametro": "Distância focal (full frame)", "valor": "≥ 200 mm (menor se a resolução a 10 m for equivalente; nunca < 90 mm)", "item": "Anexo A Notas", "cota": "esquemas/flare-inspecao-drone.svg#camera"}
+   ]
+  }
+ ]
+}

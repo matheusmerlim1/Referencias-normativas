@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Radiografia — distância fonte-filme, comprimento e sobreposição dos filmes">
+<title>Radiografia — distância fonte-filme, comprimento e sobreposição dos filmes (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Radiografia — distância fonte-filme, comprimento e sobreposição dos filmes</text>
+<text class="b" x="30" y="62">Exposição de topo — fonte, peça e filmes sobrepostos (corte)</text>
+<circle class="r" cx="450" cy="110" r="10"/>
+<text class="n" x="470" y="105">fonte</text>
+<path class="h" d="M450,110 L150,300 M450,110 L750,300"/>
+<rect class="s" x="80" y="300" width="740" height="50"/>
+<rect class="r" x="440" y="300" width="20" height="50"/>
+<rect class="b2" x="120" y="360" width="350" height="10"/>
+<rect class="b2" x="420" y="374" width="350" height="10"/>
+<g id="cota-dff" class="cota"><line class="e" x1="460" y1="110" x2="866" y2="110"/><line class="e" x1="460" y1="365" x2="866" y2="365"/><line class="d" x1="860" y1="110" x2="860" y2="365" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="852" y="200">Dff (fonte–filme)</text></g>
+<g id="cota-espessura" class="cota"><line class="e" x1="80" y1="300" x2="54" y2="300"/><line class="e" x1="80" y1="350" x2="54" y2="350"/><line class="d" x1="60" y1="300" x2="60" y2="350" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="52" y="330">e</text></g>
+<g id="cota-comprimento-filme" class="cota"><line class="e" x1="120" y1="370" x2="120" y2="426"/><line class="e" x1="470" y1="370" x2="470" y2="426"/><line class="d" x1="120" y1="420" x2="470" y2="420" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="295.0" y="413">C (comprimento do filme)</text></g>
+<g id="cota-sobreposicao" class="cota"><line class="e" x1="420" y1="384" x2="420" y2="466"/><line class="e" x1="470" y1="384" x2="470" y2="466"/><line class="d" x1="420" y1="460" x2="470" y2="460" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="445" y="485">S (sobreposição)</text></g>
+<text class="n" x="560" y="470">filmes vizinhos se sobrepõem</text>
+<text class="n" x="560" y="490">para não deixar trecho sem imagem</text>
+<text class="n" x="120" y="530">identificação (peça, junta, espessura, filme, data, siglas NR/NE/NT/RX…) aparece na imagem, fora da área de interesse</text>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

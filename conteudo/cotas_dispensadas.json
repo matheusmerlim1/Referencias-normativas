@@ -200,28 +200,33 @@
   "Plataforma que exige banheiro próximo à meia-nau": "condição de aplicação (porte da plataforma)",
   "Travesseiro — troca e dimensões mínimas": "tamanho de objeto"
  },
- "norma-petrobras-n-0013": {
-  "Teste da pintura antiga mantida — ângulo máximo da espátula": "ângulo de ensaio manual de aderência (não é cota de peça)"
- },
  "norma-petrobras-n-0002": {
   "Cond. 4 — faixa considerada agressiva": "distância geográfica ao mar (classificação de ambiente, não cota)",
   "Taxa de desgaste que caracteriza a condição 9": "taxa de corrosão (mm/ano), não cota"
  },
- "norma-petrobras-n-2568": {
-  "Arames grossos (passes paralelos recomendados)": "diâmetro do arame consumível (não cota da peça)",
-  "Tubos com pino curvo no pull-off": "faixa de aplicação (diâmetro do tubo)"
+ "norma-petrobras-n-0013": {
+  "Teste da pintura antiga mantida — ângulo máximo da espátula": "ângulo de ensaio manual de aderência (não é cota de peça)"
  },
- "norma-petrobras-n-0442": {
-  "Cond. 4 — faixa considerada agressiva": "distância geográfica ao mar (classificação de ambiente, não cota)"
+ "norma-petrobras-n-0116": {
+  "Base dos gráficos de consumo": "comprimento de referência dos gráficos de consumo de vapor (base de cálculo, não é cota)"
  },
- "norma-petrobras-n-1550": {
-  "Faixa considerada agressiva": "distância geográfica ao mar (classificação de ambiente, não cota)"
+ "norma-petrobras-n-0120": {
+  "Marcação (corpo ou cabo, visível montada)": "conteúdo da marcação (NPS e classe), não é cota de peça"
  },
  "norma-petrobras-n-0250": {
   "Inclinação que exige anéis de sustentação": "faixa de aplicação (inclinação do trecho)"
  },
+ "norma-petrobras-n-0442": {
+  "Cond. 4 — faixa considerada agressiva": "distância geográfica ao mar (classificação de ambiente, não cota)"
+ },
  "norma-petrobras-n-0550": {
   "Industrial de alta precipitação — chuva anual": "índice pluviométrico (mm de chuva/ano), não é cota"
+ },
+ "norma-petrobras-n-1487": {
+  "Exatidão — ferramentas marinizadas (varredura)": "exatidão em % da espessura e produtividade em m/dia — não é cota"
+ },
+ "norma-petrobras-n-1550": {
+  "Faixa considerada agressiva": "distância geográfica ao mar (classificação de ambiente, não cota)"
  },
  "norma-petrobras-n-1618": {
   "PRFV — extensão de queima": "resultado de ensaio de inflamabilidade, não é cota de peça",
@@ -230,31 +235,33 @@
  "norma-petrobras-n-1735": {
   "Condição 2 — faixa costeira agressiva": "distância geográfica à praia (classificação do ambiente), não é cota"
  },
+ "norma-petrobras-n-1859": {
+  "Velocidade de deslocamento no CTOD": "velocidade de ensaio (mm/min)"
+ },
  "norma-petrobras-n-2104": {
   "Orla marítima especialmente agressiva": "distância geográfica à praia (classificação do ambiente), não é cota"
  },
  "norma-petrobras-n-2238": {
-  "Tubo do ensaio de qualificação do reparo": "dimensão mínima do corpo de prova de qualificação, sem desenho",
-  "Sistema de fita polimérica — descolamento catódico 28 d (23 °C / máx. operação)": "resultado de ensaio de laboratório (raio de descolamento catódico), não é cota de peça",
   "Manta sobre coal tar/asfalto — descolamento catódico 28 d (23 °C / 60 °C)": "resultado de ensaio de laboratório (raio de descolamento catódico), não é cota de peça",
-  "Medição de espessura do epóxi — frequência": "frequência de inspeção ao longo do duto (não é cota)"
+  "Medição de espessura do epóxi — frequência": "frequência de inspeção ao longo do duto (não é cota)",
+  "Sistema de fita polimérica — descolamento catódico 28 d (23 °C / máx. operação)": "resultado de ensaio de laboratório (raio de descolamento catódico), não é cota de peça",
+  "Tubo do ensaio de qualificação do reparo": "dimensão mínima do corpo de prova de qualificação, sem desenho"
  },
  "norma-petrobras-n-2328": {
-  "Tubo que exige 2 maçaricos no pré-aquecimento": "faixa de diâmetro do tubo (condição de aplicação), não é cota do revestimento",
+  "FBE da junta — descolamento catódico máx.": "resultado de ensaio de laboratório (raio de descolamento catódico), não é cota de peça",
   "Propagação de corte (filme estruturado, 200 °C / 15 min)": "resultado de ensaio de material (propagação de corte), não é cota de peça",
   "Revestimento aplicado (PE até 60 °C) — descolamento catódico 28 d a 60 °C / 23 °C": "resultado de ensaio de laboratório (raio de descolamento catódico), não é cota de peça",
-  "FBE da junta — descolamento catódico máx.": "resultado de ensaio de laboratório (raio de descolamento catódico), não é cota de peça"
+  "Tubo que exige 2 maçaricos no pré-aquecimento": "faixa de diâmetro do tubo (condição de aplicação), não é cota do revestimento"
  },
  "norma-petrobras-n-2432": {
-  "Base de agregado sob as pilhas — espessura mín.": "estocagem de agregado (camada de apoio da pilha), não é cota do revestimento",
   "Altura máxima das pilhas de tela": "altura de pilha de estocagem, não é cota do revestimento",
+  "Base de agregado sob as pilhas — espessura mín.": "estocagem de agregado (camada de apoio da pilha), não é cota do revestimento",
   "Holiday no anticorrosivo — tripla camada / FBE": "parâmetro de ensaio (tensão e velocidade do detector), não é cota",
   "Impacto em escala real — energia": "parâmetro de ensaio de impacto (energia e cabeça do impactador), não é cota do revestimento"
  },
- "norma-petrobras-n-2911": {
-  "Reparo com barra — impacto mín.": "ensaio de impacto (espaçamento entre pontos de impacto), não é cota do reparo",
-  "Reparo com manchão de PE — impacto mín. / arrancamento máx. na aderência": "resultado de ensaio (impacto/arrancamento), não é cota de peça",
-  "Manchão — carga e arrancamento máximo": "resultado de ensaio de aderência (arrancamento), não é cota de peça"
+ "norma-petrobras-n-2568": {
+  "Arames grossos (passes paralelos recomendados)": "diâmetro do arame consumível (não cota da peça)",
+  "Tubos com pino curvo no pull-off": "faixa de aplicação (diâmetro do tubo)"
  },
  "norma-petrobras-n-2785": {
   "Transferência entre unidades excluída": "extensão do duto (critério de aplicação), não é cota"
@@ -263,14 +270,13 @@
   "Dobramento sem trincas": "parâmetro de ensaio de dobramento (deformação por diâmetro), não é cota do revestimento",
   "Holiday — descontinuidades pontuais aceitas (reparadas) / velocidade máx.": "critério de ensaio (quantidade e velocidade do detector), não é cota"
  },
+ "norma-petrobras-n-2911": {
+  "Manchão — carga e arrancamento máximo": "resultado de ensaio de aderência (arrancamento), não é cota de peça",
+  "Reparo com barra — impacto mín.": "ensaio de impacto (espaçamento entre pontos de impacto), não é cota do reparo",
+  "Reparo com manchão de PE — impacto mín. / arrancamento máx. na aderência": "resultado de ensaio (impacto/arrancamento), não é cota de peça"
+ },
  "norma-petrobras-n-2913": {
-  "Orla marítima (cond. 17 e 20)": "distância geográfica à praia (classificação do ambiente), não é cota",
-  "Esferas e cilindros — taxa de desgaste que exige revestimento interno": "taxa de corrosão (mm/ano), não é cota"
- },
- "norma-petrobras-n-0116": {
-  "Base dos gráficos de consumo": "comprimento de referência dos gráficos de consumo de vapor (base de cálculo, não é cota)"
- },
- "norma-petrobras-n-0120": {
-  "Marcação (corpo ou cabo, visível montada)": "conteúdo da marcação (NPS e classe), não é cota de peça"
+  "Esferas e cilindros — taxa de desgaste que exige revestimento interno": "taxa de corrosão (mm/ano), não é cota",
+  "Orla marítima (cond. 17 e 20)": "distância geográfica à praia (classificação do ambiente), não é cota"
  }
 }

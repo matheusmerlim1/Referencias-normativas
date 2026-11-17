@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Ensaio visual — direto (iluminação, risco de referência) e remoto (videoscópio)">
+<title>Ensaio visual — direto (iluminação, risco de referência) e remoto (videoscópio) (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Ensaio visual — direto (iluminação, risco de referência) e remoto (videoscópio)</text>
+<text class="b" x="30" y="62">(a) Ensaio visual direto</text>
+<rect class="s" x="60" y="280" width="340" height="40"/>
+<path class="r" d="M200,280 q30,-14 60,0 z"/>
+<ellipse class="w" cx="140" cy="150" rx="22" ry="12"/><circle class="wd" cx="140" cy="150" r="5"/>
+<path class="h" d="M150,160 L230,275"/>
+<path class="y" d="M330,120 l30,0 l-10,30 l-10,0 z"/><path class="h" d="M345,150 L260,270 M345,150 L300,275"/>
+<text class="m n" x="345" y="110">iluminação</text>
+<text class="n" x="60" y="360">risco de referência para qualificar o procedimento:</text>
+<rect class="sl" x="60" y="380" width="300" height="40"/><rect class="r" x="200" y="380" width="6" height="40"/>
+<g id="cota-risco-referencia" class="cota"><line class="e" x1="200" y1="420" x2="200" y2="445"/><line class="e" x1="206" y1="420" x2="206" y2="445"/><line class="d" x1="175" y1="440" x2="200" y2="440" marker-end="url(#a)"/><line class="d" x1="231" y1="440" x2="206" y2="440" marker-end="url(#a)"/><text class="m" x="203" y="465">largura do risco</text></g>
+<text class="b" x="470" y="62">(b) Ensaio remoto — videoscópio</text>
+<rect class="w" x="480" y="110" width="150" height="100" rx="8"/><rect class="b2" x="492" y="122" width="126" height="76"/>
+<g id="cota-tela" class="cota"><line class="d" x1="492" y1="198" x2="618" y2="122" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="555" y="232">tela (diagonal)</text></g>
+<path class="g" d="M630,160 C720,160 700,300 800,300 L820,300"/>
+<g id="cota-cabo" class="cota"><path class="d" d="M640,140 C720,140 720,270 820,270" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="760" y="250">cabo</text></g>
+<path class="g" d="M820,300 q30,0 40,-30"/>
+<path class="h" d="M820,300 q30,0 40,30"/>
+<g id="cota-articulacao" class="cota"><path class="d" d="M858,262 A45,45 0 0,1 858,338" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="830" y="365">articulação</text></g>
+<text class="n" x="480" y="420">ponta com LED/fibra, câmera e medição</text>
+<text class="n" x="480" y="440">por estereoscopia; grava vídeo</text>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

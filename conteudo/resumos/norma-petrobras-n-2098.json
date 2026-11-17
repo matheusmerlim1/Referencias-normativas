@@ -1,0 +1,46 @@
+{
+ "id": "PETROBRAS-N-2098",
+ "titulo": "Petrobras N-2098 Rev. F (04/2014) — Inspeção de dutos terrestres em operação",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Inspeção de oleodutos e gasodutos terrestres de aço-carbono em operação, no âmbito do Regulamento Técnico ANP nº 2/2011. Danos avaliados pela N-2786 e reparos pela N-2737.",
+   "valores": [],
+   "figuras": ["esquemas/duto-corrosao-interna-monitoracao.svg", "esquemas/tubulacao-teste-pressao.svg"]
+  },
+  {
+   "titulo": "Inspeções visuais e de instalações",
+   "item": "4.2",
+   "texto": "Trechos aéreos, transições aéreo/enterrado, suportes, plataformas, válvulas, instrumentos (calibração em dia) e lançadores/recebedores de pig (corrosão interna e externa, válvulas, aterramento) inspecionados visualmente pela N-1597.",
+   "valores": [
+    {"parametro": "Intervalo recomendado das inspeções visuais, de instrumentos e de lançadores/recebedores", "valor": "≤ 24 meses", "item": "4.2.1.2, 4.2.4.2, 4.2.5.5"}
+   ]
+  },
+  {
+   "titulo": "Pig instrumentado",
+   "item": "4.3",
+   "texto": "Resultados georreferenciados, incluindo a diretriz do duto.",
+   "valores": [
+    {"parametro": "Primeira corrida de pig de perda de espessura em duto novo", "valor": "até 2 anos após entrar em operação", "item": "4.3.1"},
+    {"parametro": "Pig geométrico e de perda de espessura", "valor": "a cada 5 anos (recomendado)", "item": "4.3.2"},
+    {"parametro": "Indicações a correlacionar em campo", "valor": "perda de espessura > 50 %", "item": "4.3.6"}
+   ]
+  },
+  {
+   "titulo": "Teste hidrostático",
+   "item": "4.6, Anexo A",
+   "texto": "Recomendado para duto desativado há muito tempo e obrigatório quando trechos novos não foram pré-testados. Planejamento e execução pela API RP 1110: duto limpo e cheio de água, área isolada, instrumentos calibrados, verificação de ar pelo gráfico pressão × volume, patamar a 50 %, pressurização lenta com incrementos lidos e aprovação após manter a pressão estável.",
+   "valores": [
+    {"parametro": "Duto desativado (recomenda TH)", "valor": "> 5 anos", "item": "4.6.1 a)"},
+    {"parametro": "Pressão máxima do teste de resistência", "valor": "≤ 1,5 × a pressão admissível da classe dos acessórios (B16.34/B16.5), entre outros limites", "item": "4.6.3"},
+    {"parametro": "Teste de estanqueidade", "valor": "o menor entre 88 % da pressão de resistência e a pressão que dá 80 % do escoamento", "item": "4.6.7"},
+    {"parametro": "Patamar inicial", "valor": "≥ 12 h a 50 % da pressão de teste", "item": "A.2.3.4"},
+    {"parametro": "Taxa de pressurização até 70 %", "valor": "≤ 1 kgf/cm² por minuto", "item": "A.2.3.5"},
+    {"parametro": "De 70 % a 95 %", "valor": "incrementos de 1 kgf/cm² a cada ≥ 3 min", "item": "A.2.3.6"},
+    {"parametro": "Aprovação da resistência mecânica", "valor": "4 h contínuas dentro de ± 1 % da pressão de teste", "item": "A.2.3.10"},
+    {"parametro": "Ar no duto (gráfico PV)", "valor": "volume injetado dobra para 1 kgf/cm² (2ΔV por ΔP) ou desvio de 0,2 % do volume de enchimento", "item": "A.2 (Fig. A.3)", "nota": "conferir o enunciado completo do critério"}
+   ]
+  }
+ ]
+}

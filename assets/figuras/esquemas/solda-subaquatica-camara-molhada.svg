@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Soldagem subaquática — câmara hiperbárica e soldagem molhada">
+<title>Soldagem subaquática — câmara hiperbárica e soldagem molhada (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Soldagem subaquática — câmara hiperbárica e soldagem molhada</text>
+<text class="b" x="30" y="62">(a) Câmara hiperbárica de fundo aberto (habitat)</text>
+<rect class="b2" x="30" y="80" width="420" height="440"/>
+<text class="n" x="40" y="100">mar</text>
+<path class="w" d="M90,140 L370,140 L370,330 L90,330 z"/>
+<rect class="b2" x="92" y="300" width="276" height="30"/>
+<text class="n" x="110" y="165">gás de selagem (respirável, não inflamável)</text>
+<rect class="w" x="220" y="122" width="20" height="18"/>
+<text class="n" x="250" y="120">válvula de alívio no topo</text>
+<rect class="s" x="60" y="330" width="340" height="40"/>
+<path class="r" d="M225,330 l10,0 l-5,10 z"/>
+<g id="cota-faixa-seca" class="cota"><line class="e" x1="155" y1="330" x2="155" y2="249"/><line class="e" x1="305" y1="330" x2="305" y2="249"/><line class="d" x1="155" y1="255" x2="305" y2="255" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="230.0" y="248">faixa seca centrada na solda</text></g>
+<text class="n" x="140" y="320">nível da água dentro da câmara</text>
+<g id="cota-profundidade" class="cota"><line class="d" x1="430" y1="80" x2="430" y2="330" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="422" y="205" transform="rotate(-90 422 205)">profundidade P</text></g>
+<text class="b" x="500" y="62">(b) Soldagem molhada</text>
+<rect class="b2" x="490" y="80" width="390" height="440"/>
+<rect class="s" x="520" y="330" width="330" height="40"/>
+<path class="r" d="M660,330 l40,0 l-20,-6 z"/>
+<line class="g" x1="680" y1="325" x2="780" y2="180" stroke-width="6"/>
+<g id="cota-inclinacao" class="cota"><path class="d" d="M760,330 A80,80 0 0,0 726,262" marker-start="url(#a)" marker-end="url(#a)"/><text x="780" y="312">inclinação</text></g>
+<g id="cota-faixa-preparada" class="cota"><line class="e" x1="620" y1="370" x2="620" y2="411"/><line class="e" x1="680" y1="370" x2="680" y2="411"/><line class="d" x1="620" y1="405" x2="680" y2="405" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="650" y="425">faixa limpa</text></g>
+<g id="cota-faixa-preparada-2" class="cota"><line class="e" x1="700" y1="370" x2="700" y2="411"/><line class="e" x1="760" y1="370" x2="760" y2="411"/><line class="d" x1="700" y1="405" x2="760" y2="405" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="730.0" y="398"></text></g>
+<text class="n" x="520" y="460">CC, eletrodo negativo; técnica de arraste, sem oscilar</text>
+<text class="n" x="520" y="480">preferir plana ou vertical descendente</text>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

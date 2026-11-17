@@ -1,0 +1,45 @@
+{
+ "id": "PETROBRAS-N-2253",
+ "titulo": "Petrobras N-2253 Rev. G (11/2019) — Segurança de poço em testes de formação e de produção",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1, 4",
+   "texto": "Procedimentos de segurança em testes de formação, de produção, de injeção, de identificação de fluidos e backflow com sondas e unidades de intervenção. Sempre dois conjuntos solidários de barreiras independentes (CSBI), salvo exceções da norma e da N-2939.",
+   "valores": [
+    {"parametro": "Poço com H₂S", "valor": "> 0,0008 % mol (8 ppm) no gás da amostra", "item": "4.2.1"},
+    {"parametro": "Poço com alto CO₂", "valor": "> 3 % mol (30 000 ppm)", "item": "4.2.2"}
+   ],
+   "figuras": ["esquemas/poco-teste-formacao.svg"]
+  },
+  {
+   "titulo": "Fluido de amortecimento e abertura",
+   "item": "6",
+   "texto": "Reserva de fluido de amortecimento e estoque de material para fabricá-lo. A primeira surgência deve ocorrer com luz do dia em poços marítimos de gás ou de alta RGO e em casos terrestres listados.",
+   "valores": [
+    {"parametro": "Reserva de fluido / estoque de material", "valor": "≥ 50 % da capacidade total do poço (com riser) cada", "item": "6.1"},
+    {"parametro": "Alta RGO", "valor": "> 250 m³/m³", "item": "6.3 a)"}
+   ]
+  },
+  {
+   "titulo": "Coluna e intervalo de teste",
+   "item": "10",
+   "texto": "Forças e diferencial de pressão na abertura da válvula testadora calculados; não testar zonas com perda de circulação e outras condições listadas. Testes seletivos com cauda de apoio de diâmetro externo o mais constante possível. Poço aberto extenso com obturador no revestimento exige análise de risco aprovada.",
+   "valores": [
+    {"parametro": "Extensão máxima do intervalo testado", "valor": "30 m", "item": "10.1 d)", "cota": "esquemas/poco-teste-formacao.svg#intervalo"},
+    {"parametro": "Cauda de apoio (teste seletivo)", "valor": "requisitos especiais entre 45 m e 60 m; nunca acima de 60 m", "item": "10.1", "cota": "esquemas/poco-teste-formacao.svg#cauda"},
+    {"parametro": "Poço aberto com obturador no revestimento", "valor": "> 50 m → análise de risco e aprovação gerencial", "item": "10.1", "cota": "esquemas/poco-teste-formacao.svg#poco-aberto"}
+   ]
+  },
+  {
+   "titulo": "Superfície, H₂S e CO₂",
+   "item": "12–14",
+   "texto": "Queimador ancorado no centro de área desmatada, com contenção para derrames. H₂S ≥ 8 ppm durante o teste: fechar o poço e só prosseguir abaixo disso, ou aplicar os requisitos de H₂S (detectores, proteção respiratória autônoma conforme a concentração).",
+   "valores": [
+    {"parametro": "Afastamento do queimador ao poço (terrestre, recomendado)", "valor": "≥ 30 m", "item": "12–13", "cota": "esquemas/poco-teste-formacao.svg#queimador", "nota": "conferir o item exato"},
+    {"parametro": "Proteção respiratória — H₂S 50 a 100 ppm / > 100 ppm", "valor": "equipamento conforme a faixa; > 100 ppm porte obrigatório de proteção respiratória", "item": "13"},
+    {"parametro": "Poço terrestre com H₂S > 100 ppm", "valor": "área controlada de raio ≥ 100 m a partir da cabeça do poço", "item": "13.4 a)", "cota": "esquemas/poco-teste-formacao.svg#area-controlada"}
+   ]
+  }
+ ]
+}

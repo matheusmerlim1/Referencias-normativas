@@ -1,0 +1,43 @@
+{
+ "id": "PETROBRAS-N-1595",
+ "titulo": "Petrobras N-1595 Rev. H (08/2019) — Ensaio não destrutivo: radiografia",
+ "secoes": [
+  {
+   "titulo": "Escopo e normas base",
+   "item": "1, 4",
+   "texto": "Radiografia convencional (filme) com raios X ou gama em juntas soldadas, fundidos, forjados e laminados, como complemento do ASME V Art. 2, API 1104 e AWS D1.1 (DNVGL-ST-F101 e OS-C401 aplicam-se integralmente). Se os filmes forem digitalizados depois, a densidade máxima respeita a faixa do escâner.",
+   "valores": [],
+   "figuras": ["esquemas/end-radiografia-arranjo-filmes.svg"]
+  },
+  {
+   "titulo": "Pessoal, procedimento e calibração",
+   "item": "5.1–5.3, 5.6.2",
+   "texto": "Pessoal certificado por entidade independente (NBR NM ISO 9712 / ISO 9712), sem autocertificação. Procedimento qualificado por nível 3 e demonstrado antes do serviço: densidade dentro da faixa, IQI identificável, furo ou arame essencial visível na área de interesse, sem manchas de revelação e identificação legível — ao menos uma radiografia por faixa de espessura (panorâmica: duas consecutivas). Calibrações por laboratório ISO/IEC 17025. Distâncias fonte-objeto e objeto-filme, tipo e tamanho da fonte, filme, faixa de densidade e IQI são variáveis do procedimento (Tabela 1).",
+   "valores": []
+  },
+  {
+   "titulo": "Identificação na imagem",
+   "item": "5.6.4",
+   "texto": "A identificação aparece como imagem radiográfica, sem cobrir a área de interesse: equipamento/peça, junta, espessura, material ou classe, número do filme, data, profissional nível 1 e siglas de situação — NR (reparo parcial), NE (após esmerilhar), NT (solda refeita), NX (repetição por erro), RX (confirmação de defeito), AM (aumento de amostragem) e EX (delimitação de defeito).",
+   "valores": []
+  },
+  {
+   "titulo": "Filmes, telas e arranjo",
+   "item": "5.6.5–5.6.9",
+   "texto": "Telas intensificadoras de chumbo, identificadas fora da área de interesse. O procedimento traz uma tabela de exposição (faixa de diâmetro e espessura, distância mínima fonte-filme, IQI e sensibilidade, técnica) e uma tabela de arranjo dos filmes (quantidade, tamanho, sobreposição nominal e mínima). Com IQI de fio, o arame essencial só conta como visível se aparecer em todo o comprimento dentro da área de interesse.",
+   "valores": [
+    {"parametro": "Comprimento do filme em radiografia por amostragem", "valor": "≥ 150 mm", "item": "5.6.5", "cota": "esquemas/end-radiografia-arranjo-filmes.svg#comprimento-filme"},
+    {"parametro": "Sobreposição mínima entre filmes (superfície plana, ou Dff ≤ raio de curvatura)", "valor": "S = e·C/Dff + 6 (mm; e = espessura, C = comprimento do filme, Dff = distância mínima fonte-filme)", "item": "5.6.8.2 Nota", "cota": "esquemas/end-radiografia-arranjo-filmes.svg#sobreposicao"},
+    {"parametro": "Sobreposição nominal em junta circunferencial 100 % radiografada", "valor": "≥ 30 mm", "item": "5.6.8.2 Nota", "cota": "esquemas/end-radiografia-arranjo-filmes.svg#sobreposicao"}
+   ]
+  },
+  {
+   "titulo": "API 1104 e AWS D1.1",
+   "item": "5.7, 5.8",
+   "texto": "Para dutos (API 1104) os requisitos valem só para radiografia com filme; para estruturas (AWS D1.1) as variações de procedimento da norma base são desconsideradas e é aceito o radioisótopo Se-75. Relatório com emitente, fonte e dimensões, procedimento, resultados com tipo e localização das descontinuidades e parecer de aceitação (com máscara do filme, quando houver).",
+   "valores": [
+    {"parametro": "Fonte adicional aceita em estruturas (AWS D1.1)", "valor": "Se-75", "item": "5.8.4"}
+   ]
+  }
+ ]
+}

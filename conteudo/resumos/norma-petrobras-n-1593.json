@@ -1,0 +1,43 @@
+{
+ "id": "PETROBRAS-N-1593",
+ "titulo": "Petrobras N-1593 Rev. H (07/2021) — Ensaio não destrutivo: estanqueidade",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Ensaio de estanqueidade por formação de bolhas (pressão positiva ou caixa de vácuo) ou por penetração de líquido por capilaridade, para achar defeitos passantes em juntas soldadas, chapas, fundidos e forjados. Só detecta vazamento — não avalia resistência, deformação nem recalque (isso é papel dos testes hidrostático e pneumático). Complementa a ABNT NBR 15571 e o ASME Seção V, Artigo 10.",
+   "valores": [],
+   "figuras": ["esquemas/end-estanqueidade-bolha.svg"]
+  },
+  {
+   "titulo": "Pessoal e procedimento",
+   "item": "5.1, 5.2, 5.3.4, 5.3.5",
+   "texto": "Pessoal certificado conforme a Petrobras N-2941. Recomenda-se que o procedimento seja qualificado por profissional nível 3. A Tabela 1 lista o conteúdo mínimo do procedimento e separa variáveis essenciais (que obrigam requalificar) das não essenciais — p.ex. pressão de ensaio, tempo de pressurização/penetração, faixa de temperatura da superfície, solução formadora de bolhas e critério de aceitação.",
+   "valores": []
+  },
+  {
+   "titulo": "Limpeza, sequência e materiais",
+   "item": "5.3.1, 5.3.2",
+   "texto": "Em inox austenítico, duplex/superduplex, titânio e ligas de níquel as ferramentas de preparo são exclusivas desses materiais (inox ou revestidas de inox; discos com alma de náilon) e os produtos de teste e limpeza têm teor de contaminantes controlado. O teste de estanqueidade só é feito depois de aprovado o ensaio visual (N-1597).",
+   "valores": [
+    {"parametro": "Halogênios (Cl⁻ + F⁻) nos produtos — titânio, inox austenítico, duplex, superduplex", "valor": "≤ 0,1 % em peso (no resíduo, ASME V Art. 6 Ap. II)", "item": "5.3.1.2"},
+    {"parametro": "Enxofre nos produtos — ligas de níquel", "valor": "≤ 0,1 % em peso", "item": "5.3.1.2"}
+   ]
+  },
+  {
+   "titulo": "Equipamento e execução",
+   "item": "5.3.6, 5.3.8",
+   "texto": "O niple ligado ao furo de ensaio (chapas de reforço, por exemplo) precisa ter um entalhe na ponta, para não bloquear o gás se encostar na chapa oposta, ou rosca bem mais curta que a espessura da peça. Com caixa de vácuo, cada nova posição da caixa cobre parte da região já ensaiada.",
+   "valores": [
+    {"parametro": "Comprimento de rosca do niple (alternativa ao entalhe)", "valor": "no mínimo 8 mm menor que a espessura da peça onde é conectado", "item": "5.3.6", "cota": "esquemas/end-estanqueidade-bolha.svg#rosca-niple"},
+    {"parametro": "Sobreposição mínima entre posições da caixa de vácuo", "valor": "100 mm", "item": "5.3.8", "cota": "esquemas/end-estanqueidade-bolha.svg#sobreposicao-caixa"}
+   ]
+  },
+  {
+   "titulo": "Relatório",
+   "item": "5.3.3",
+   "texto": "O relatório traz emitente, número, resultados e normas/valores de referência para interpretação, e o sistema de identificação permite ligar o relatório ao local ensaiado.",
+   "valores": []
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "PETROBRAS-N-2688",
+ "titulo": "Petrobras N-2688 Rev. C (01/2024) — Teste de pressão em serviço de vasos de pressão e caldeiras",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 4",
+   "texto": "Condições mínimas para o teste de pressão de vasos e caldeiras em serviço (hidrostático, hidropneumático ou pneumático), com a pressão definida pelo PLH considerando código de projeto, código de inspeção, condições de operação, risco, localização e histórico. Depois de solda ou tratamento térmico em parte pressurizada respeita-se um prazo antes do teste.",
+   "valores": [
+    {"parametro": "Prazo após solda/TT — aço-carbono baixa/média resistência e inox série 300", "valor": "imediatamente", "item": "4.3 a)"},
+    {"parametro": "Prazo após solda/TT — baixa liga com Cr < 5 %", "valor": "24 h", "item": "4.3 b)"},
+    {"parametro": "Prazo após solda/TT — alta resistência (C microligado)", "valor": "48 h", "item": "4.3 c)"},
+    {"parametro": "Fundo de escala do manômetro (analógico)", "valor": "de preferência 2× a pressão de teste, ou entre 1,5× e 4×", "item": "4.10", "cota": "esquemas/vaso-teste-pressao-servico.svg#manometro"},
+    {"parametro": "Menor divisão da escala", "valor": "≤ 5 % da indicação máxima", "item": "4.11"},
+    {"parametro": "Temperatura do metal — parede ≥ 50,8 mm (2\")", "valor": "≥ MDMT + 17 °C e no mínimo 15 °C (o maior)", "item": "4.12 a)", "cota": "esquemas/vaso-teste-pressao-servico.svg#espessura-parede"},
+    {"parametro": "Temperatura do metal — parede < 50,8 mm (2\")", "valor": "≥ MDMT + 6 °C e no mínimo 15 °C (o maior)", "item": "4.12 b)", "cota": "esquemas/vaso-teste-pressao-servico.svg#espessura-parede", "nota": "vale para aço-carbono e baixa liga"}
+   ],
+   "figuras": ["esquemas/vaso-teste-pressao-servico.svg"]
+  },
+  {
+   "titulo": "Grupos de risco e isolamento da área",
+   "item": "5.6–5.8",
+   "texto": "O grupo de risco do teste hidrostático sai de um gráfico pressão de teste (bar) × volume (m³). No teste pneumático, outro gráfico (volume em escala log × pressão) dá o raio mínimo de isolamento r, de poucos metros a centenas de metros.",
+   "valores": [
+    {"parametro": "Isolamento — grupo de risco 1", "valor": "raio mínimo 4 m durante todo o teste", "item": "5.7.1", "cota": "esquemas/vaso-teste-pressao-servico.svg#raio-isolamento"},
+    {"parametro": "Isolamento — grupo de risco 2", "valor": "raio mínimo 1 m", "item": "5.7.2", "cota": "esquemas/vaso-teste-pressao-servico.svg#raio-isolamento", "nota": "conferir: valor lido do texto extraído"},
+    {"parametro": "Isolamento — grupo de risco 3", "valor": "não requer isolamento", "item": "5.7.3"},
+    {"parametro": "Teste pneumático — raio r", "valor": "pelo gráfico (Figura 2), de 8 m a 256 m conforme pressão e volume", "item": "5.8", "cota": "esquemas/vaso-teste-pressao-servico.svg#raio-isolamento", "nota": "leitura de figura"}
+   ]
+  },
+  {
+   "titulo": "Execução",
+   "item": "6.2, 7.4",
+   "texto": "O hidrostático segue a sequência gráfica do grau de risco: pressurização em taxas decrescentes, patamares de estabilização, inspeção inicial e final e despressurização controlada. O pneumático sobe em degraus de 10 % da pressão de teste com estabilização a cada degrau, faz estabilização sem inspeção, inspeção final e despressuriza.",
+   "valores": [
+    {"parametro": "Pneumático — degraus de pressurização", "valor": "10 % da pressão de teste por degrau, estabilização de 5 min", "item": "7.4.1 (Fig. 6)", "nota": "leitura de figura"},
+    {"parametro": "Pneumático — estabilização sem inspeção / despressurização", "valor": "30 min / 20 % da pressão por minuto", "item": "7.4.1 (Fig. 6)", "nota": "leitura de figura"},
+    {"parametro": "Hidrostático — taxas de pressurização", "valor": "20 %/min, depois 10 %/min e 5 %/min, com estabilização de 5 min", "item": "6.2 (Fig. 3)", "nota": "leitura de figura; conferir a sequência por grau de risco"}
+   ]
+  }
+ ]
+}

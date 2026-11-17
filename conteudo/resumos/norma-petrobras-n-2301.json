@@ -1,0 +1,34 @@
+{
+ "id": "PETROBRAS-N-2301",
+ "titulo": "Petrobras N-2301 Rev. E (11/2016) — Elaboração da documentação técnica de soldagem",
+ "secoes": [
+  {
+   "titulo": "Escopo e aprovação",
+   "item": "1, 4",
+   "texto": "Define o conteúdo mínimo dos documentos de soldagem de equipamentos, tubulações, dutos e estruturas, usados junto com as normas de projeto e a N-133 (esta norma prevalece em conflito de documentação). Cada documento é feito quando a N-133, o código ou o contrato pedir, em unidades SI, e aprovado por inspetor de soldagem certificado (ABNT NBR 14842) ou por engenheiro/tecnólogo especialista (FBTS N-007); a IEIS de reparo em serviço pode ser aprovada pelo responsável técnico da unidade. No exterior, profissionais certificados por entidade ISO/IEC 17024, com aceite prévio. Soldagem em operação também segue a N-2163.",
+   "valores": [],
+   "figuras": ["esquemas/solda-desempenho-soldador.svg"]
+  },
+  {
+   "titulo": "Planejamento (antes de soldar)",
+   "item": "5.1, Anexos A–C",
+   "texto": "Plano de soldagem: folha de rosto, desenho com juntas numeradas, Lista de Juntas a Soldar (LJS: desenho, junta, metal de base, diâmetro e espessura, tipo de junta e chanfro, posição, processo, acesso à raiz, IEIS), EPS e RQPS. Plano de testes de produção com peças de teste, ensaios não destrutivos, mecânicos e macrográficos. A EPS traz croqui da junta e da sequência de passes, consumíveis (especificação, classificação e marca), controle de aporte térmico e faixa de preaquecimento por espessura; nasce preliminar (para qualificar) e é reemitida para produção com as faixas efetivamente usadas no RQPS.",
+   "valores": []
+  },
+  {
+   "titulo": "Relatórios de ensaio do RQPS/RETP",
+   "item": "Anexo C",
+   "texto": "Ao RQPS ou ao registro de teste de produção anexam-se o registro de soldagem, de tratamento térmico, END e ensaios mecânicos, assinados por profissional com registro no CREA ou CRQ. Cada relatório lista o mínimo: tração (máquina calibrada, dimensões da seção, local da fratura, resistência especificada e real), dobramento (diâmetro do cutelo, distância entre roletes, ângulo, descontinuidades), impacto (temperatura, tempo de imersão, entalhe, orientação, energia/expansão lateral), macrografia (ampliação, reagente), dureza e microdureza.",
+   "valores": []
+  },
+  {
+   "titulo": "Execução, controle e registro",
+   "item": "5.2, 5.3, Anexos D–J",
+   "texto": "Ficam à disposição de soldadores e inspetores a IEIS, a relação de soldadores qualificados, o registro de qualificação dos soldadores, o CDS e o controle de índice de reparo da obra (CIRO). Registros: relatório de soldagem (instrumentos calibrados, soldadores, parâmetros), de tratamento térmico (procedimento feito por especialista ou inspetor nível 2) e de execução do teste de produção. O CDS e o CIRO medem desempenho por filmes reprovados ou pela soma dos comprimentos defeituosos no ultrassom, com valores acumulados e do período.",
+   "valores": [
+    {"parametro": "Percentual de defeitos do CDS / CIRO", "valor": "(filmes reprovados ÷ filmes tirados) × 100 ou (Σ comprimentos defeituosos UT ÷ comprimento inspecionado) × 100", "item": "G.2 d), J.2 f)", "cota": "esquemas/solda-desempenho-soldador.svg#comprimento-defeituoso"},
+    {"parametro": "Índice aceitável de reparo da obra", "valor": "acordado previamente entre fabricante e Petrobras (inclusive o modo de cálculo)", "item": "J.1.1"}
+   ]
+  }
+ ]
+}

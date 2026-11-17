@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Ultrassom computadorizado — phased array, ToFD e bloco de calibração">
+<title>Ultrassom computadorizado — phased array, ToFD e bloco de calibração (esquema ilustrativo)</title>
+<style>
+  .g{fill:none;stroke:#666;stroke-width:2.2}
+  .s{fill:#8c8c8c;fill-opacity:.35;stroke:#666;stroke-width:2}
+  .sl{fill:#8c8c8c;fill-opacity:.18;stroke:#666;stroke-width:1.6}
+  .r{fill:#c0392b;fill-opacity:.25;stroke:#b03a2e;stroke-width:2}
+  .b2{fill:#2e86c1;fill-opacity:.22;stroke:#2e6f9e;stroke-width:1.6}
+  .y{fill:#f1c40f;fill-opacity:.35;stroke:#b7950b;stroke-width:1.6}
+  .wd{fill:#555;fill-opacity:.55;stroke:#444;stroke-width:1.6}
+  .d{fill:none;stroke:#666;stroke-width:1.2}
+  .e{fill:none;stroke:#666;stroke-width:.9}
+  .c{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:12 4 2 4}
+  .h{fill:none;stroke:#666;stroke-width:1.1;stroke-dasharray:6 4}
+  .v{fill:none;stroke:#b03a2e;stroke-width:1.6}
+  .w{fill:#fff;stroke:#666;stroke-width:2}
+  text{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333;stroke:#fff;stroke-width:3.5px;paint-order:stroke;stroke-linejoin:round}
+  .t{font-size:17px;font-weight:bold}
+  .n{font-size:13px}
+  .b{font-weight:bold}
+  .m{text-anchor:middle}
+  .en{text-anchor:end}
+  .cota text{font-weight:bold}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#666"/></marker>
+<pattern id="hach" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#666" stroke-width="1"/></pattern></defs>
+
+<text class="t" x="20" y="28">Ultrassom computadorizado — phased array, ToFD e bloco de calibração</text>
+<text class="b" x="30" y="62">(a) Phased array — varredura setorial e linear</text>
+<path class="s" d="M40,160 L190,160 L205,260 L40,260 z"/><path class="s" d="M400,160 L235,160 L220,260 L400,260 z"/><path class="r" d="M190,160 L235,160 L220,260 L205,260 z"/>
+<rect class="w" x="70" y="135" width="70" height="25"/>
+<line class="v" x1="105" y1="160" x2="175" y2="260" stroke-width="1"/>
+<line class="v" x1="105" y1="160" x2="192" y2="260" stroke-width="1"/>
+<line class="v" x1="105" y1="160" x2="212" y2="260" stroke-width="1"/>
+<line class="v" x1="105" y1="160" x2="238" y2="260" stroke-width="1"/>
+<line class="v" x1="105" y1="160" x2="271" y2="260" stroke-width="1"/>
+<line class="v" x1="105" y1="160" x2="319" y2="260" stroke-width="1"/>
+<line class="v" x1="105" y1="160" x2="395" y2="260" stroke-width="1"/>
+<g id="cota-diferenca-angulos" class="cota"><path class="d" d="M141.1,201.5 A55,55 0 0,0 154.8,183.2" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="70" y="300">Δ entre ângulos</text></g>
+<g id="cota-resolucao-angular" class="cota"><path class="d" d="M176.9,214.2 A90,90 0 0,0 182.1,206.4" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="300" y="300">passo angular</text></g>
+<text class="b" x="470" y="62">(b) ToFD — emissor e receptor</text>
+<rect class="s" x="470" y="160" width="400" height="100"/><path class="r" d="M650,160 L690,160 L675,260 L665,260 z"/>
+<rect class="w" x="520" y="135" width="40" height="25"/><rect class="w" x="780" y="135" width="40" height="25"/>
+<path class="h" d="M540,160 L800,160"/><path class="v" d="M540,160 L670,215 L800,160"/><path class="h" d="M540,160 L670,260 L800,160"/>
+<text class="n" x="545" y="300">onda lateral, difração na ponta e eco de fundo</text>
+<text class="b" x="30" y="360">(c) Bloco de calibração — discriminação por zonas (dutos)</text>
+<rect class="sl" x="60" y="400" width="500" height="110"/>
+<rect class="w" x="200" y="400" width="20" height="40"/>
+<g id="cota-entalhe-largura" class="cota"><line class="e" x1="200" y1="400" x2="200" y2="386"/><line class="e" x1="220" y1="400" x2="220" y2="386"/><line class="d" x1="200" y1="392" x2="220" y2="392" marker-start="url(#a)" marker-end="url(#a)"/><text class="en" x="175" y="388">largura</text></g>
+<g id="cota-entalhe-profundidade" class="cota"><line class="e" x1="220" y1="400" x2="246" y2="400"/><line class="e" x1="220" y1="440" x2="246" y2="440"/><line class="d" x1="240" y1="400" x2="240" y2="440" marker-start="url(#a)" marker-end="url(#a)"/><text x="248" y="430">profundidade</text></g>
+<line class="w" x1="400" y1="510" x2="400" y2="460"/><rect class="w" x="394" y="455" width="12" height="55"/>
+<g id="cota-fbh" class="cota"><line class="e" x1="394" y1="510" x2="394" y2="546"/><line class="e" x1="406" y1="510" x2="406" y2="546"/><line class="d" x1="394" y1="540" x2="406" y2="540" marker-start="url(#a)" marker-end="url(#a)"/><text x="430" y="545">FBH Ø</text></g>
+<text class="n" x="600" y="410">vista de topo do entalhe:</text>
+<rect class="w" x="600" y="430" width="200" height="16"/>
+<g id="cota-entalhe-comprimento" class="cota"><line class="e" x1="600" y1="446" x2="600" y2="476"/><line class="e" x1="800" y1="446" x2="800" y2="476"/><line class="d" x1="600" y1="470" x2="800" y2="470" marker-start="url(#a)" marker-end="url(#a)"/><text class="m" x="700.0" y="463">comprimento</text></g>
+<g id="cota-diametro-bloco" class="cota"><circle class="d" cx="760" cy="200" r="1"/><text x="600" y="540">ToFD: Ø do tubo ÷ Ø do bloco</text></g>
+<text class="n" x="20" y="588">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

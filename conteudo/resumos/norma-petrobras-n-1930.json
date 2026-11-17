@@ -1,0 +1,45 @@
+{
+ "id": "PETROBRAS-N-1930",
+ "titulo": "Petrobras N-1930 Rev. F (01/2022) — Inspeção, manutenção e operação de guindastes offshore",
+ "secoes": [
+  {
+   "titulo": "Escopo e tipos de inspeção",
+   "item": "1, 4, Tabela 1",
+   "texto": "Guindastes de plataformas fixas, semissubmersíveis, autoelevatórias e embarcações, até a ligação do pedestal adaptador ao pedestal. Registros de manutenção (5.1), inspeção de campo (5.2) e tarefas de manutenção preventiva por horas ou anos (6), que não são o conteúdo mínimo dos planos. T1 é a intermediária (uso moderado ou frequente) e T2 a anual completa, para todos.",
+   "valores": [
+    {"parametro": "Inspeção T1 — uso moderado (25–85 h/mês) / frequente (> 85 h/mês)", "valor": "6 meses / 4 meses (uso eventual: não exigida)", "item": "Tabela 1"},
+    {"parametro": "Inspeção T2", "valor": "12 meses, qualquer uso", "item": "Tabela 1"}
+   ],
+   "figuras": ["esquemas/guindaste-ponte-rolante-guindaste-pedestal.svg", "esquemas/guindaste-raio-cabo-guia.svg"]
+  },
+  {
+   "titulo": "Inspeção de campo (T1/T2)",
+   "item": "5.2",
+   "texto": "Pintura (escamação pode indicar deformação), lança (cordas, contraventamentos, empeno), cabine, pedestal, hidráulica, conversor, embreagens e freios (graxa, desgaste, fixação de lonas, folgas), indicador de ângulo da lança (conferir com a lança a 0°), desarme automático e batentes, guinchos, cabos (N-2170 e ISO 4309) e itens diversos (buzina, tanques).",
+   "valores": [
+    {"parametro": "Folga entre a última camada de cabo e a borda do flange do tambor", "valor": "≥ 2,5 × o diâmetro do cabo", "item": "5.2.7.1.1 b)", "cota": "esquemas/guincho-tambor-dd-flange.svg#flange"},
+    {"parametro": "Verificação do indicador de ângulo", "valor": "com a lança a 0°", "item": "5.2.5.3 b)", "cota": "esquemas/guindaste-raio-cabo-guia.svg#angulo-lanca"}
+   ]
+  },
+  {
+   "titulo": "Manutenção preventiva",
+   "item": "6",
+   "texto": "Nas paradas de 5 000 h ou 10 anos: END nas soldas críticas da lança, olhal de ancoragem do cabo, pedestal adaptador, olhais do chassi e cavalete; desmontagem e END de redutores, giro, eixos, embreagens e moitão; tambores por amostragem. Ferrografia do óleo das caixas e guinchos. Sistema de monitoramento de carga verificado com célula calibrada (NBR 8197).",
+   "valores": [
+    {"parametro": "Intervalo das tarefas maiores", "valor": "5 000 h ou 10 anos (o que vier antes)", "item": "6.1.2 e seguintes"},
+    {"parametro": "Ferrografia analítica / quantitativa (recomendado)", "valor": "≥ 1 amostra a cada 2 anos / a cada ≤ 6 meses", "item": "6.3.1.2"},
+    {"parametro": "Verificação do monitoramento de carga", "valor": "≤ 24 meses", "item": "6.5.3"}
+   ]
+  },
+  {
+   "titulo": "Operação, teste de carga e parafusos",
+   "item": "7–9",
+   "texto": "Vistoria pré e pós jornada pela NR-37. Teste de carga precedido de T2, comunicado ao responsável a bordo, comparando o indicador do guindaste com célula calibrada (bolsas d'água recomendadas). Parafusos estruturais identificados; amostragem de torque e END, estendida a 100 % se houver desvio (dispensa de END para parafusos sem tração cíclica relevante).",
+   "valores": [
+    {"parametro": "Cabo-guia (cabo de extensão) da carga", "valor": "comprimento mínimo 3 m, gancho com trava", "item": "7.3.10", "cota": "esquemas/guindaste-raio-cabo-guia.svg#cabo-guia"},
+    {"parametro": "Parafusos — verificação de torque/tensionamento", "valor": "20 % aleatórios (pista interna e externa do rolamento à parte)", "item": "9.2"},
+    {"parametro": "Parafusos — END", "valor": "10 %", "item": "9.3"}
+   ]
+  }
+ ]
+}
