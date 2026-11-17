@@ -300,8 +300,11 @@ Lotes 1–7 feitos (30/out): todo valor geométrico tem cota e todo resumo tem d
    vaso-pressao-projeto-petrobras, vaso-tolerancias-fabricacao, navio-tanque-carga-medicao-limpeza, caldeira-recuperadora-hrsg.
    "conferir": N-0253 (Fig. A.3 classe × diâmetro), N-0270 (fórmula), N-0906 (30 % acima da vazão nominal, redação ambígua),
    N-1742 (Fig. A.2 fonte embaralhada), N-2054 (tabela de selas, colunas A–J não reproduzidas), N-2648 (texto em colunas fragmentado).
-   >>> RETOMAR AQUI: lote P5 ELÉTRICA/INSTRUMENTAÇÃO (23; lista em ferramentas/docs_petrobras.py, ficha
-   petrobras-eletrica-instrumentacao), depois P6 estruturas/segurança (22), P7 desenho/geral (99).
+   LOTE P5 ELÉTRICA/INSTRUMENTAÇÃO EM ANDAMENTO (17/nov): 9/23 pelo coordenador — N-0898, 1493, 1711, 1973, 1996, 2201, 2791,
+   2802, 2833 (+8 SVG: diagrama-eletrico-simbolos, protecao-catodica-drenagem, caixa-enfiacao-manhole,
+   documento-carimbo-retangulo-reservado, rede-eletrica-subterranea, instrumento-instalacao-processo, transformador-seco-iluminacao).
+   >>> RETOMAR AQUI: P5 faltam 14 (as grandes): N-0858 1600 1614 1659 1882 1883 1997 2040 2547 2595 2830 2918 2919 2928
+   (1 agente), depois P6 estruturas/segurança (22), P7 desenho/geral (99).
    Commit + push ao fim de cada lote (só caminhos próprios).
 4. Backlog antigo (baixa prioridade; detalhes em HISTORICO.md): ficha vaso-pressao migrar de VIII-1 2001 para 2007; UCS-66, UG-37;
    B16.9/B16.11/B36.19M; NR-13 tubulações; ISO 4759/4042; MSS SP-44, API 6AF; NBR 6409/ISO 1302; IPE/W/cantoneiras; composição
