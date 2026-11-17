@@ -1,0 +1,30 @@
+{
+ "id": "PETROBRAS-N-1659",
+ "titulo": "Petrobras N-1659 (10/1982) — Redes e equipamentos elétricos: folhas de testes",
+ "secoes": [
+  {
+   "titulo": "Objetivo e regras de preenchimento",
+   "item": "1, 2",
+   "texto": "Padroniza as folhas de testes do controle de qualidade de construção e montagem de redes e equipamentos elétricos (norma de 1982, revalidada em 2012). Cada anexo pode ser omitido ou repetido conforme os equipamentos; preenchidas, as folhas viram documento permanente do equipamento. Ao lado de cada item verificado registram-se o valor obtido (VO) e o valor de comparação (VC), e as colunas A e R marcam aceitação ou rejeição.",
+   "valores": [],
+   "figuras": [
+    "esquemas/painel-baixa-tensao.svg"
+   ]
+  },
+  {
+   "titulo": "Formulários (Anexos I a XXI)",
+   "item": "3; Anexos",
+   "texto": "Bateria de acumuladores (fixação da estante, eletrólito, densidade e tensão por elemento antes e após carga, ensaio de capacidade com curva); cabos; carregador de bateria; CCM (uma folha por gaveta); chave seccionadora; contator; disjuntor (tempos de abertura e fechamento, registros oscilográficos); duto de barramento; eletrodutos e manholes (acabamento dos eletrodutos e tabela de inspeção das caixas EMH); gerador ou motor síncrono e motor de indução (inspeção antes de girar, mancais isolados, resistência de isolamento a frio e a quente); painel auxiliar; painel de média ou baixa tensão; reator; relé (faixa, valor ajustado × recomendado, simulação); resistor de aterramento; sistema de pressurização; transformadores de corrente e de potencial (relação de transformação, polaridade); transformador de transmissão e distribuição; unidade desligadora imersa em óleo. Resistência de isolamento (megger) nos pontos e procedimentos do fabricante; teste de tensão aplicada conduzido conforme a observação do formulário; componentes e acessórios registrados nas folhas próprias, complementadas pelos formulários do fabricante quando preciso.",
+   "valores": [
+    {
+     "parametro": "Contator que exige folha de testes específica",
+     "valor": "capacidade ≥ 100 A",
+     "item": "Anexo III, folha 3/3, Obs. 2", "nota": "conferir: a observação aparece na folha 3/3 do Anexo III (texto extraído); vale para contatores citados nesse formulário"
+    }
+   ],
+   "figuras": [
+    "esquemas/caixa-enfiacao-manhole.svg"
+   ]
+  }
+ ]
+}
