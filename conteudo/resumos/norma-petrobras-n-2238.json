@@ -1,0 +1,87 @@
+{
+ "id": "PETROBRAS-N-2238",
+ "titulo": "Petrobras N-2238 Rev. D (12/2018) — Reparo de revestimento anticorrosivo externo de dutos e tubulações enterrados em operação",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 3, 4",
+   "texto": "Reparo do revestimento externo de dutos e tubulações enterrados em operação (não vale para isolamento térmico). Sistemas admitidos: epóxi líquido; fita de petrolato ou de cera microcristalina; fitas poliméricas; manta termocontrátil de PE ou PP reticulado; mastique elastomérico ou hot melt com manchão. Proibido manta sobre manta ou aplicação em escama de peixe. Cada fabricante apresenta um procedimento de aplicação (PA) qualificado pela Petrobras (Anexo C) e treina os aplicadores; a escolha do reparo é técnico-econômica. Intervenção perto de blocos de ancoragem, caixas de válvula etc. exige análise específica.",
+   "valores": [],
+   "figuras": ["esquemas/duto-revestimento-junta-campo.svg"]
+  },
+  {
+   "titulo": "Epóxi líquido",
+   "item": "5.1, 7.4.1, Tab. 1",
+   "texto": "Aplicado como pintura (N-13) em demão única espessa, controlando a película úmida. Qualificação em painéis de aço jateados: aderência, névoa salina, umidade, imersão em água do mar sintética, descolamento catódico (ASTM G8 método B, 30 dias), abrasão e impacto, ensaiados até 7 dias após a pintura; névoa salina com entalhe central.",
+   "valores": [
+    {"parametro": "Espessura mínima do epóxi líquido (demão única)", "valor": "750 µm", "item": "5.1.1.1, 7.4.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Aderência mínima (pull-off)", "valor": "12 MPa (falha A/B abaixo disso reprova)", "item": "Tab. 1, 5.1.2.13"},
+    {"parametro": "Névoa salina / 100 % UR / imersão", "valor": "2 000 h cada", "item": "Tab. 1"},
+    {"parametro": "Descolamento catódico máx.", "valor": "10 mm", "item": "Tab. 1", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-distancia", "nota": "raio de descolamento a partir do furo de 6,35 mm; -1,45 a -1,55 V Cu/CuSO4"},
+    {"parametro": "Painel de ensaio — dimensões / espessura mín.", "valor": "150 mm × 100 mm / 4,0 mm", "item": "5.1.2.1", "cota": "esquemas/tinta-painel-ensaio.svg#comprimento"},
+    {"parametro": "Perfil do painel", "valor": "50 µm a 100 µm", "item": "5.1.2.1", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Espessura do revestimento nos painéis de qualificação", "valor": "450 µm a 630 µm", "item": "5.1.2.5", "cota": "esquemas/tinta-painel-ensaio.svg#pelicula"},
+    {"parametro": "Entalhe da névoa salina — distância das bordas / largura", "valor": "30 mm / 0,5 mm a 2 mm", "item": "5.1.2.8", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-distancia"},
+    {"parametro": "Penetração máxima no entalhe após 2 000 h", "valor": "3 mm", "item": "5.1.2.9", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-largura"},
+    {"parametro": "Furo para descolamento catódico", "valor": "Ø 6,35 mm", "item": "5.1.2.14", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-largura"}
+   ],
+   "figuras": ["esquemas/tinta-painel-ensaio.svg", "esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Fitas de petrolato/cera e fitas poliméricas",
+   "item": "5.2, 5.3, 7.4.2, 7.4.3",
+   "texto": "Fita de petrolato ou cera: primer (quando o PA pedir), fita e fita de proteção mecânica; pode ir sobre superfície úmida com primer. Fitas poliméricas: primer, fita anticorrosiva e proteção mecânica. O primer não vai sobre revestimento original de poliolefina tripla camada ou FBE; sobre betuminoso, avança sobre ele. Requisitos de materiais e do sistema aplicado nas Tabelas 2 a 9 (aderência, descolamento catódico, impacto, penetração, envelhecimento). Em afloramentos (transição solo/ar) o revestimento continua acima do solo.",
+   "valores": [
+    {"parametro": "Fita de petrolato/cera — espessura mín. (camada simples)", "valor": "1 mm", "item": "Tab. 3", "cota": "esquemas/duto-revestimento-junta-campo.svg#espessura-manta"},
+    {"parametro": "Fita anticorrosiva polimérica — espessura total mín.", "valor": "0,5 mm", "item": "Tab. 7", "cota": "esquemas/duto-revestimento-junta-campo.svg#espessura-manta"},
+    {"parametro": "Fita de proteção mecânica — espessura mín.", "valor": "0,2 mm", "item": "Tab. 4, Tab. 8", "cota": "esquemas/duto-revestimento-junta-campo.svg#espessura-manta"},
+    {"parametro": "Primer sobre revestimento betuminoso — avanço mín.", "valor": "100 mm em cada extremidade", "item": "7.4.2.2, 7.4.3.2", "cota": "esquemas/duto-revestimento-junta-campo.svg#sobreposicao-reparo"},
+    {"parametro": "Sobreposição entre voltas da fita — petrolato/cera / polimérica", "valor": "1 pol / 25 mm", "item": "7.4.2.3, 7.4.3.3", "cota": "esquemas/duto-revestimento-junta-campo.svg#sobreposicao-manta"},
+    {"parametro": "Sobreposição do reparo sobre o revestimento original", "valor": "≥ 100 mm em ambos os lados", "item": "7.4.2.4, 7.4.3.4", "cota": "esquemas/duto-revestimento-junta-campo.svg#sobreposicao-reparo"},
+    {"parametro": "Afloramento — revestimento acima do solo (duto novo / existente)", "valor": "até 50 cm do trecho enterrado / ≥ 50 cm no trecho aéreo", "item": "7.4.2.5, 7.4.2.6", "cota": "esquemas/duto-revestimento-junta-campo.svg#afloramento"},
+    {"parametro": "Sistema de fita polimérica — descolamento catódico 28 d (23 °C / máx. operação)", "valor": "≤ 15 mm / ≤ 20 mm", "item": "Tab. 9"},
+    {"parametro": "Sistema de fita polimérica — espessura residual na penetração", "valor": "≥ 0,6 mm", "item": "Tab. 9", "cota": "esquemas/duto-revestimento-junta-campo.svg#espessura-remanescente"}
+   ],
+   "figuras": ["esquemas/duto-revestimento-junta-campo.svg"]
+  },
+  {
+   "titulo": "Manta termocontrátil e manchão",
+   "item": "5.4, 5.5, 7.4.4, 7.4.5",
+   "texto": "Em dutos com 3LPE, 3LPP ou FBE a manta segue a N-2328. Em dutos com coal tar ou asfalto: primer epóxi (só no aço), adesivo mastique betuminoso e manta de PE reticulado, com requisitos das Tabelas 10 a 13. Mastique ou hot melt com manchão seguem a N-2911.",
+   "valores": [
+    {"parametro": "Manta sobre coal tar/asfalto — impacto mín. / aderência mín.", "valor": "8 J / 20 N/cm", "item": "Tab. 13"},
+    {"parametro": "Manta sobre coal tar/asfalto — descolamento catódico 28 d (23 °C / 60 °C)", "valor": "≤ 8 mm / ≤ 15 mm", "item": "Tab. 13"}
+   ]
+  },
+  {
+   "titulo": "Preparo e aplicação",
+   "item": "6, 7.1–7.3",
+   "texto": "Materiais armazenados cobertos, ventilados e afastados do solo; bobinas de fita em pé. Condições ambientais medidas a cada jornada. Demarcar e remover o revestimento solto; em coal tar/asfalto, tirar a proteção mecânica na faixa de sobreposição. Chanfrar a borda do revestimento original. Epóxi, fita de PE e manta: jato Sa 2½ com perfil angular; fitas de petrolato/cera e PVC: St 2. Revestimento original lixado em cruz na faixa de sobreposição (lixa grossa em poliolefina, fina em epóxi). Reparo na mesma jornada do preparo (se oxidar, repreparar).",
+   "valores": [
+    {"parametro": "Armazenagem — temperatura máx. / afastamento do solo", "valor": "45 °C / 10 cm", "item": "6.2.1"},
+    {"parametro": "Chanfro da borda do revestimento original", "valor": "< 30° em relação ao aço", "item": "7.2.3", "cota": "esquemas/duto-revestimento-junta-campo.svg#chanfro-revestimento"},
+    {"parametro": "Comprimento do chanfro em coal tar/asfalto", "valor": "≥ 25 mm", "item": "7.2.4", "cota": "esquemas/duto-revestimento-junta-campo.svg#chanfro-reparo"},
+    {"parametro": "Faixa de sobreposição lixada em volta do reparo", "valor": "120 mm a 150 mm", "item": "7.3.2, 7.3.4", "cota": "esquemas/duto-revestimento-junta-campo.svg#faixa-lixamento-reparo"},
+    {"parametro": "Perfil (epóxi, fita de PE, manta)", "valor": "60 µm a 100 µm Rz", "item": "7.3.4", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Lixa no revestimento original — poliolefina / epóxi", "valor": "grana máx. 36 / 120 a 180", "item": "7.3.4"},
+    {"parametro": "Sais solúveis máx. (recomendado)", "valor": "3 µg/cm²", "item": "7.3.7"}
+   ],
+   "figuras": ["esquemas/duto-revestimento-junta-campo.svg", "esquemas/pintura-preparo-superficie.svg"]
+  },
+  {
+   "titulo": "Inspeção e ensaios",
+   "item": "7.5, Anexos D e E",
+   "texto": "Visual em todo o reparo (sem bolhas, rugas, entalhes; manchão colado, com adesivo fluindo nas bordas e sem superaquecimento). Espessura do epóxi em 4 pontos da circunferência (3, 6, 9 e 12 h) a cada trecho, com calibração periódica. Detector de descontinuidade em 100 % do reparo; falha em manta implica trocar a manta inteira. Aderência de fitas e mantas em campo pelo método da tira com peso pendurado: o tempo para descolar até 45° deve ser pelo menos 0,4·D minutos (D em cm), com falha coesiva no adesivo.",
+   "valores": [
+    {"parametro": "Medição de espessura do epóxi — frequência", "valor": "4 pontos a cada 5 m (ou fração)", "item": "7.5.2.1", "nota": "aceita até +40 % da espessura por demão"},
+    {"parametro": "Recalibração do medidor de espessura", "valor": "pelo menos a cada 8 h", "item": "7.5.2.2"},
+    {"parametro": "Ensaio de aderência de fita polimérica — distância entre os cortes / comprimento", "valor": "50 mm / 125 mm", "item": "D.3", "cota": "esquemas/duto-revestimento-junta-campo.svg#tira-largura"},
+    {"parametro": "Ensaio de aderência de manta — tira", "valor": "25 mm × 125 mm", "item": "E.3", "cota": "esquemas/duto-revestimento-junta-campo.svg#tira-comprimento"},
+    {"parametro": "Peso pendurado na tira / tempo mínimo de descolamento", "valor": "4,0 kgf / 0,4·D min (D em cm)", "item": "D.5–D.6, E.6–E.7"},
+    {"parametro": "Temperatura da superfície no ensaio de aderência", "valor": "15 °C a 35 °C", "item": "D.2, E.1"},
+    {"parametro": "Tubo do ensaio de qualificação do reparo", "valor": "Ø ≥ 8 pol, comprimento ≥ 1 m", "item": "C.1.4 b)", "nota": "corpo de prova de qualificação"}
+   ],
+   "figuras": ["esquemas/duto-revestimento-junta-campo.svg"]
+  }
+ ]
+}

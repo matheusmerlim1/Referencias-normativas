@@ -1,0 +1,53 @@
+{
+ "id": "PETROBRAS-N-1707",
+ "titulo": "Petrobras N-1707 Rev. E (02/2023) — Projeto de vaso de pressão com revestimento metálico",
+ "secoes": [
+  {
+   "titulo": "Escopo e espessuras",
+   "item": "1, 3, 4.1, 4.2",
+   "texto": "Complementa o ASME VIII-1/VIII-2 e as N-253/N-268 para vasos de aço com revestimento interno de inox ou liga de níquel, por chapa cladeada ou por depósito de solda (weld overlay). Só o metal base conta para a resistência; o revestimento é sobre-espessura de corrosão/erosão ou proteção do fluido. As espessuras mínimas de base e revestimento valem depois de toda a fabricação. Chapa cladeada por explosão com metal base fino exige comprovação de experiência do fabricante e aprovação prévia por escrito da Petrobras.",
+   "valores": [
+    {"parametro": "Revestimento mínimo — chapa cladeada de inox ou de liga de níquel", "valor": "3,0 mm", "item": "4.1.3 a), b)", "cota": "esquemas/vaso-revestimento-metalico.svg#clad"},
+    {"parametro": "Revestimento mínimo — depósito de solda", "valor": "4,0 mm", "item": "4.1.3 c)", "cota": "esquemas/vaso-revestimento-metalico.svg#overlay"},
+    {"parametro": "Depósito sem diluição garantido (após usinagem)", "valor": "≥ 2,0 mm", "item": "4.1.3 c.1)", "cota": "esquemas/vaso-revestimento-metalico.svg#sem-diluicao", "nota": "reforço da solda limitado pelo UW-35 do VIII-1"},
+    {"parametro": "Chapa cladeada por explosão que exige aprovação prévia", "valor": "metal base < 19 mm", "item": "4.2", "cota": "esquemas/vaso-revestimento-metalico.svg#metal-base"}
+   ],
+   "figuras": ["esquemas/vaso-revestimento-metalico.svg"]
+  },
+  {
+   "titulo": "Materiais, chanfros e peças internas",
+   "item": "4.3–4.5",
+   "texto": "Chapas cladeadas pelas SA-263, SA-264 ou SA-265, com ensaio de cisalhamento obrigatório no certificado (co-laminação, explosão a vácuo ou convencional; não se aceita strip lining). Consumíveis pela N-133. Acessório interno segue o material da parte onde é soldado (no metal base, recebe depósito). Flanges revestidos por depósito no pescoço e na face. Com TTAT, usar inox austenítico estabilizado ou baixo carbono e ensaio de corrosão intergranular ASTM A262 prática E. Chanfros conforme a Figura A.1 da norma. Peças internas soldadas no revestimento, salvo carga local acima da resistência da ligação clad/base.",
+   "valores": []
+  },
+  {
+   "titulo": "Bocais",
+   "item": "4.6",
+   "texto": "Face de assentamento da junta revestida por depósito e usinada no acabamento de projeto. A construção depende do diâmetro nominal: bocais pequenos maciços em material compatível com o revestimento; intermediários maciços ou com depósito; médios com depósito de solda; grandes com pescoço em chapa cladeada ou depósito. Bocais austeníticos (compatíveis ou não) exigem avaliação de corrosão sob tensão pelo projetista. Projeção interna segue detalhes próprios.",
+   "valores": [
+    {"parametro": "Bocal maciço em material compatível", "valor": "DN até 1½ pol", "item": "4.6.2.1", "cota": "esquemas/vaso-revestimento-metalico.svg#diametro-bocal"},
+    {"parametro": "Bocal maciço ou com depósito de solda", "valor": "DN 2 pol a 4 pol", "item": "4.6.2.2", "cota": "esquemas/vaso-revestimento-metalico.svg#diametro-bocal"},
+    {"parametro": "Bocal com depósito de solda", "valor": "DN 6 pol a 12 pol", "item": "4.6.2.5", "cota": "esquemas/vaso-revestimento-metalico.svg#diametro-bocal"},
+    {"parametro": "Bocal com pescoço em chapa cladeada ou depósito", "valor": "DN ≥ 14 pol", "item": "4.6.2.6", "cota": "esquemas/vaso-revestimento-metalico.svg#diametro-bocal"},
+    {"parametro": "Revestimento ferrítico — bocal austenítico admitido", "valor": "DN até 4 pol, operação < 315 °C não cíclica", "item": "4.6.2.3", "cota": "esquemas/vaso-revestimento-metalico.svg#diametro-bocal"}
+   ],
+   "figuras": ["esquemas/vaso-revestimento-metalico.svg"]
+  },
+  {
+   "titulo": "Fabricação e soldagem",
+   "item": "5",
+   "texto": "TTAT de vaso com revestimento austenítico só com procedimento aprovado e qualificado com ensaio de corrosão intergranular. Depósito de liga de níquel em mais de uma camada, evitando contaminação por ferro (verificada com sulfato de cobre). Conformação não pode danificar nem afinar o revestimento abaixo do projeto. Remoção de revestimento só por meio mecânico (nada de eletrodo de grafite). Ferrita delta medida antes do TTAT e de trabalho mecânico. Em chapa cladeada, o clad das juntas é recomposto com pelo menos dois passes, o primeiro cobrindo toda a solda do metal base.",
+   "valores": [
+    {"parametro": "Remoção admitida de metal base no preparo da recomposição", "valor": "até 1,0 mm", "item": "5.2.4", "cota": "esquemas/vaso-revestimento-metalico.svg#remocao-base", "nota": "sem ficar abaixo da espessura mínima requerida local"},
+    {"parametro": "Passes na recomposição do clad", "valor": "≥ 2", "item": "5.2.4"}
+   ],
+   "figuras": ["esquemas/vaso-revestimento-metalico.svg"]
+  },
+  {
+   "titulo": "Inspeção e testes",
+   "item": "6",
+   "texto": "Ultrassom pela N-1594; chapas cladeadas e chapas com depósito inspecionadas por ultrassom SA-578 nível C; espessura do clad medida após conformação; líquido penetrante (N-1596) na superfície com depósito (também após usinagem) e em todas as soldas de recomposição; sulfato de cobre nas soldas de recobrimento com liga de níquel e antes do último passe.",
+   "valores": []
+  }
+ ]
+}

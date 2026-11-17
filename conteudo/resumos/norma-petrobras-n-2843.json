@@ -1,0 +1,55 @@
+{
+ "id": "PETROBRAS-N-2843",
+ "titulo": "Petrobras N-2843 Rev. C (07/2020) — Revestimento interno de tubos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 3",
+   "texto": "Seleção, aplicação e qualificação em fábrica de revestimento interno com tinta líquida em tubos de aço para instalações terrestres e marítimas e dutos terrestres e submarinos — para proteger contra corrosão, reduzir atrito e evitar contaminar o produto. Não cobre válvulas, conectores, drill pipe nem DPR, nem a integridade dos tubos. Vale do recebimento dos materiais e tubos nus até o data book de produção; o revestidor apresenta procedimento de aplicação (PA) e plano de inspeção e testes (PIT) e qualifica o procedimento. Colarinho = trecho sem revestimento entre o bisel e o início do revestimento.",
+   "valores": [
+    {"parametro": "Diâmetro abaixo do qual a Petrobras deve ser consultada", "valor": "< 3 pol", "item": "1.1 Nota 1", "cota": "esquemas/tubo-revestimento-interno.svg#diametro-tubo"}
+   ],
+   "figuras": ["esquemas/tubo-revestimento-interno.svg"]
+  },
+  {
+   "titulo": "Manuseio, armazenamento e preparo",
+   "item": "5, 6.1",
+   "texto": "Evitar contato dos acessórios de manuseio com o interior revestido; tubos no canteiro cobertos com lona e sem acumular água; estocagem longa exige reverificação (visual, espessura, aderência). Inspeções com boa iluminação. Imperfeições (cantos vivos, defeitos de solda) acabadas no grau P3; desengraxe se preciso; sais solúveis controlados; preaquecimento para tirar umidade; jato abrasivo seco Sa 2½ com perfil angular medido nas duas pontas; poeira até a classe 2; revestir logo após o jato. Abrasivo checado quanto a óleo, condutividade, impurezas, oxidação e granulometria.",
+   "valores": [
+    {"parametro": "Reverificação do revestimento de tubos estocados", "valor": "após mais de 1 ano", "item": "5.2.5"},
+    {"parametro": "Iluminação mínima nas inspeções", "valor": "1 000 lux", "item": "6"},
+    {"parametro": "Sais solúveis máx.", "valor": "2 μg/cm²", "item": "6.1.3"},
+    {"parametro": "Superfície no jato — acima do orvalho / máx. / UR", "valor": "≥ 3 °C / < 100 °C / UR < 85 %", "item": "6.1.2.1", "cota": "esquemas/pintura-condicoes-aplicacao.svg#margem-orvalho"},
+    {"parametro": "Perfil de rugosidade (3 medições a 120° em cada ponta)", "valor": "70 μm a 100 μm", "item": "6.1.2.3", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Prazo entre jato e revestimento", "valor": "≤ 2 h", "item": "6.1.2.5"},
+    {"parametro": "Abrasivo — condutividade máx.", "valor": "1 000 μmho/cm", "item": "6.1.2.6 b)"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg", "esquemas/pintura-condicoes-aplicacao.svg"]
+  },
+  {
+   "titulo": "Aplicação — condições de serviço",
+   "item": "6.2",
+   "texto": "Faces de vedação de flanges de spools (inclusive o groove) não são revestidas. Três condições, todas com uma demão de epóxi novolac N-2912 tipo I aplicada com airless: condição 1 — redução de atrito em gasodutos de gás natural não corrosivo e seco (pela N-2785), juntas de campo podem ficar sem revestimento; condição 2 — evitar contaminação de produtos claros (QAV, GAV, etanol, etileno glicol), juntas podem ficar sem revestimento; condição 3 — anticorrosiva em dutos e tubulações, exigindo proteger também juntas de campo e acessórios.",
+   "valores": [
+    {"parametro": "Colarinho (cutback) sem revestimento", "valor": "30 mm ± 3 mm", "item": "6.2.2", "cota": "esquemas/tubo-revestimento-interno.svg#colarinho", "nota": "ou outra dimensão acordada"},
+    {"parametro": "Condição 1 (atrito, -30 a 90 °C) — espessura seca mín.", "valor": "250 μm", "item": "6.2.3", "cota": "esquemas/tubo-revestimento-interno.svg#espessura-interna"},
+    {"parametro": "Condição 2 (produtos claros, -30 a 90 °C) — espessura seca mín.", "valor": "300 μm", "item": "6.2.4", "cota": "esquemas/tubo-revestimento-interno.svg#espessura-interna"},
+    {"parametro": "Condição 3 (anticorrosiva, -30 a 150 °C) — espessura seca mín.", "valor": "400 μm", "item": "6.2.5", "cota": "esquemas/tubo-revestimento-interno.svg#espessura-interna"}
+   ],
+   "figuras": ["esquemas/tubo-revestimento-interno.svg"]
+  },
+  {
+   "titulo": "Inspeção, ensaios e reparos",
+   "item": "7–10, Anexos A e B",
+   "texto": "Inspetores de pintura certificados; frequências da Tabela 1 (por turno, a cada 4 h ou a cada hora; espessura, visual e holiday em todos os tubos). Qualquer reprovação para a produção e exige dois retestes aprovados e investigação com segregação dos tubos afetados. Ensaios do sistema na Tabela 2 (com painéis de teste fixados dentro do tubo, depois reparados). Só se reparam falhas pontuais do holiday; os demais defeitos segregam o tubo. Identificação externa (revestidor, tipo, data, rastreabilidade). Qualificação com 5 tubos inteiros, repetida se mudarem marca, preparo, diâmetro interno, perfil ou equipamento; data book guardado por 5 anos.",
+   "valores": [
+    {"parametro": "Rugosidade da película (condição 1) — Rq máx.", "valor": "7 μm", "item": "Tab. 2", "cota": "esquemas/tubo-revestimento-interno.svg#posicoes-medicao", "nota": "3 medições a 120° em cada extremidade"},
+    {"parametro": "Dobramento sem trincas", "valor": "2,5° por comprimento de diâmetro (PDL), a 23 °C", "item": "Tab. 2", "nota": "ensaio ISO 21809-2 nos dois extremos de espessura"},
+    {"parametro": "Pull-off mínimo", "valor": "15 MPa sem falha A/B (15–20 MPa: B, -/Y, Y ou Y/Z; > 20 MPa qualquer)", "item": "Tab. 2 Nota 3"},
+    {"parametro": "Holiday — descontinuidades pontuais aceitas (reparadas) / velocidade máx.", "valor": "até 2 por tubo / 18 m/min", "item": "Tab. 2 Nota 2"},
+    {"parametro": "Pull-off na produção", "valor": "3 testes no início do turno e após mudança de processo", "item": "Tab. 1"}
+   ],
+   "figuras": ["esquemas/tubo-revestimento-interno.svg"]
+  }
+ ]
+}

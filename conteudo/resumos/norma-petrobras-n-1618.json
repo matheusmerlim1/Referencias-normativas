@@ -1,0 +1,104 @@
+{
+ "id": "PETROBRAS-N-1618",
+ "titulo": "Petrobras N-1618 Rev. H — Material para isolamento térmico",
+ "secoes": [
+  {
+   "titulo": "Escopo e isolantes rígidos",
+   "item": "1, 3, 4",
+   "texto": "Padroniza isolantes de alta e baixa temperatura, materiais complementares (cimentos, massas, selantes, revestimentos de proteção) e acessórios (arames, cintas, clips, selos, parafusos) para isolamento externo de equipamentos e tubulações. Rígidos = peças pré-moldadas (silicato de cálcio, PUR/PIR, perlita, vidro celular); flexíveis = feltros, painéis, tubos, mantas, flocos, cordas e módulos (lãs de vidro e de rocha, fibra cerâmica, aerogel, espuma elastomérica). Em inox 300/400 cada lote atende à ASTM C795. Silicato de cálcio pela NBR 10662 tipo I; perlita pela ASTM C610; vidro celular pela ASTM C552 (tipos I a IV); PIR pela ASTM C591 grade 2. Poliuretano com retardante de chama (exceto enterrado) e expansor sem CFC.",
+   "valores": [
+    {"parametro": "Silicato de cálcio — faixa de uso", "valor": "27 °C a 650 °C", "item": "4.1"},
+    {"parametro": "PUR pré-moldado/injetado — tipos 1 / 2 / 3 (faixa)", "valor": "-10 a 70 °C / -40 a 80 °C / -120 a 90 °C", "item": "Tab. 1"},
+    {"parametro": "PUR pré-moldado/injetado — massa específica tipos 1 / 2 / 3", "valor": "20–30 / >30–40 / >40–65 kg/m³", "item": "Tab. 1"},
+    {"parametro": "PUR pré-moldado/injetado — condutividade máx. a 23 °C", "valor": "0,023 W/m·K", "item": "Tab. 1"},
+    {"parametro": "PUR — células fechadas mín. (tipo 1 / tipos 2 e 3)", "valor": "85 % / 90 %", "item": "Tab. 1"},
+    {"parametro": "PUR pulverizado — condutividade máx. a 24 °C após 30 d", "valor": "0,015 a 0,020 W/m·K (conforme densidade 35–45, 48–60, 90–120 kg/m³)", "item": "Tab. 2"},
+    {"parametro": "PIR — faixa de uso", "valor": "-183 °C a 149 °C", "item": "4.2.3"},
+    {"parametro": "Perlita expandida — faixa de uso", "valor": "27 °C a 649 °C", "item": "4.3"},
+    {"parametro": "Vidro celular tipo I — resistência", "valor": "grade 6 (≥ 414 kPa) a grade 24 (≥ 1 655 kPa)", "item": "4.4"}
+   ],
+   "figuras": ["esquemas/isolamento-termico-tubulacao.svg"]
+  },
+  {
+   "titulo": "Isolantes flexíveis",
+   "item": "5",
+   "texto": "Lã de vidro (feltro de lamelas, painel, tubo, manta, flocos) e lã de rocha (feltro de lamelas, painel, tubo, manta com tela) seguem as NBR específicas, com temperatura máxima ligada à densidade. Feltro de lamelas de lã de rocha leva folha de alumínio de suporte. Fibra cerâmica em manta e painel (classe C) e em módulos ancorados (classe A); cordas de fibra cerâmica para vedação. Aerogel em manta pela ASTM C1728; espuma elastomérica em tubo e manta pela ASTM C534 (grade 3 sem cloretos, fluoretos ou PVC).",
+   "valores": [
+    {"parametro": "Lã de vidro painel/manta — temperatura máx. (40 / 60 kg/m³)", "valor": "350 °C / 450 °C", "item": "5.1.2, 5.1.4"},
+    {"parametro": "Lã de vidro em tubo", "valor": "60 a 100 kg/m³; até 450 °C", "item": "5.1.3"},
+    {"parametro": "Lã de rocha — temperatura máx. (64 / 96 / 128 kg/m³)", "valor": "175 °C / 350 °C / 600 °C", "item": "5.2"},
+    {"parametro": "Folha de alumínio de suporte do feltro de lamelas — espessura mín.", "valor": "0,015 mm", "item": "5.2.1", "cota": "esquemas/chapa-fita-dimensoes.svg#espessura"},
+    {"parametro": "Lã de rocha em tubo", "valor": "120 a 165 kg/m³; até 600 °C", "item": "5.2.3"},
+    {"parametro": "Fibra cerâmica manta/painel — classe C", "valor": "até 815 °C (64 ou 96 kg/m³)", "item": "5.3.1, 5.3.2"},
+    {"parametro": "Fibra cerâmica em módulos — classe A", "valor": "até 1 260 °C (96 ou 128 kg/m³)", "item": "5.3.3"},
+    {"parametro": "Corda de fibra cerâmica — diâmetro", "valor": "9 mm a 51 mm", "item": "5.3.4 d)", "cota": "esquemas/isolamento-acessorios-fixacao.svg#arame-diametro", "nota": "densidade 320–700 kg/m³; uso contínuo ≥ 1 090 °C"},
+    {"parametro": "Aerogel — type I / type III", "valor": "-196 a 125 °C / 24 a 649 °C", "item": "5.4"},
+    {"parametro": "Espuma elastomérica — grades 1 / 2 / 3 (máx.)", "valor": "104 °C / 150 °C / 120 °C (mín. -183 °C)", "item": "5.5"}
+   ]
+  },
+  {
+   "titulo": "Materiais complementares",
+   "item": "6.1–6.7, 6.9–6.11",
+   "texto": "Cimento isolante para silicato de cálcio sem amianto (NBR 11777). Massa de acabamento asfáltica com fibras, elástica e sem trincas, para uso de 18 a 93 °C, ensaiada pela Tabela 3. Selante não secativo de silicone; selante secativo asfáltico ou elastomérico, compatível com PUR. Impermeabilizante e adesivo asfáltico ou elastomérico compatíveis com o isolante; impermeabilizante autoextinguível, preto e de alta emissividade. Tela hexagonal de reforço em aço galvanizado ou inox. Feltro asfáltico liso; asfalto oxidado conforme Tabela 7; pedrisco para o acabamento de costado; papel kraft betumado.",
+   "valores": [
+    {"parametro": "Cimento isolante — condutividade máx. a 95 °C", "valor": "0,317 W/m·K", "item": "6.1.1"},
+    {"parametro": "Massa asfáltica — massa específica mín. / sólidos mín.", "valor": "1 200 kg/m³ / 70 %", "item": "Tab. 3"},
+    {"parametro": "Massa asfáltica — secagem ao toque máx. a 23 °C", "valor": "7 h", "item": "Tab. 3"},
+    {"parametro": "Selante não secativo (silicone) — faixa", "valor": "-65 °C a 260 °C", "item": "6.3.1"},
+    {"parametro": "Selante secativo — faixa elastomérico / asfáltico", "valor": "-70 a 60 °C / -2 a 60 °C", "item": "6.3.2"},
+    {"parametro": "Impermeabilizante — dobramento sem trinca", "valor": "película de 0,75 mm, 120° sobre mandril Ø 3 mm", "item": "6.4.4", "cota": "esquemas/isolamento-acessorios-fixacao.svg#cinta-espessura"},
+    {"parametro": "Impermeabilizante — sólidos mín. / secagem ao toque máx. / emissividade mín.", "valor": "50 % vol. / 4 h / 0,90", "item": "6.4"},
+    {"parametro": "Tela hexagonal — arame", "valor": "Ø 0,56 mm a 0,86 mm (BWG 24 a 20)", "item": "6.6", "cota": "esquemas/isolamento-acessorios-fixacao.svg#arame-diametro"},
+    {"parametro": "Tela hexagonal — malha", "valor": "12 mm ou 25 mm", "item": "6.6", "cota": "esquemas/isolamento-acessorios-fixacao.svg#tela-malha"},
+    {"parametro": "Asfalto oxidado — ponto de amolecimento / fulgor mín.", "valor": "75 a 100 °C / 220 °C", "item": "Tab. 7"},
+    {"parametro": "Pedrisco grosso — diâmetro", "valor": "2,00 mm a 4,80 mm", "item": "6.10", "cota": "esquemas/isolamento-acessorios-fixacao.svg#arame-diametro"}
+   ],
+   "figuras": ["esquemas/isolamento-acessorios-fixacao.svg"]
+  },
+  {
+   "titulo": "Revestimento de proteção (chapas, telhas, tubos rígidos)",
+   "item": "6.8",
+   "texto": "Chapa de alumínio lisa (classe A) ou corrugada (classe B), com (tipo I) ou sem (tipo II) barreira contra condensação de kraft asfaltado, ligas 3003/5005 H14 ou H16. Chapa de aço zincada pré-pintada (Z275) com sistema de pintura da Tabela 4 e face branca. Telhas de alumínio trapezoidal ou ondulada para tetos. Tubo rígido de alumínio extrudado, PEAD (Tabela 5) ou PRFV (Tabela 6). Curvas e tês bipartidos de alumínio conformado para NPS ½ a 12.",
+   "valores": [
+    {"parametro": "Chapa de alumínio lisa — largura / espessura", "valor": "1 000 ou 1 200 mm / 0,5, 0,8 ou 1 mm", "item": "6.8.1 a), b)", "cota": "esquemas/chapa-fita-dimensoes.svg#espessura"},
+    {"parametro": "Chapa de alumínio corrugada — largura / espessura", "valor": "910 mm / 0,15 ou 0,40 mm", "item": "6.8.1 c), d)", "cota": "esquemas/chapa-fita-dimensoes.svg#largura"},
+    {"parametro": "Chapa corrugada — amplitude de corrugação", "valor": "8 mm ± 10 %", "item": "6.8.1 c)", "cota": "esquemas/isolamento-acessorios-fixacao.svg#corrugacao-passo"},
+    {"parametro": "Chapa corrugada — altura de corrugação", "valor": "1,1 mm ± 10 %", "item": "6.8.1 c)", "cota": "esquemas/isolamento-acessorios-fixacao.svg#corrugacao-altura"},
+    {"parametro": "Chapa de aço zincada pré-pintada — espessura", "valor": "0,30 mm a 0,50 mm", "item": "6.8.2.1", "cota": "esquemas/chapa-fita-dimensoes.svg#espessura"},
+    {"parametro": "Sistema de pintura da chapa zincada — névoa salina / impacto", "valor": "1 000 h / 160 lbf·in", "item": "Tab. 4"},
+    {"parametro": "Telha trapezoidal — largura × comprimento × espessura", "valor": "1 056 × 3 140 × 0,8 mm", "item": "6.8.3.1", "cota": "esquemas/chapa-fita-dimensoes.svg#comprimento"},
+    {"parametro": "Telha ondulada — largura × comprimento × espessura; passo / altura de onda", "valor": "1 120 × 3 000 × 0,8 mm; 76 mm / 17 mm", "item": "6.8.3.2", "cota": "esquemas/isolamento-acessorios-fixacao.svg#corrugacao-altura"},
+    {"parametro": "PEAD — negro de fumo / alongamento", "valor": "2,0 a 2,8 % / > 500 %", "item": "Tab. 5"},
+    {"parametro": "PRFV — extensão de queima", "valor": "< 15 mm (tempo < 10 s)", "item": "Tab. 6", "nota": "ensaio ASTM D635; não é cota de peça"},
+    {"parametro": "Curva/tê bipartido de alumínio — espessura da chapa", "valor": "0,6 mm", "item": "6.8.5", "cota": "esquemas/chapa-fita-dimensoes.svg#espessura"}
+   ],
+   "figuras": ["esquemas/isolamento-acessorios-fixacao.svg", "esquemas/chapa-fita-dimensoes.svg"]
+  },
+  {
+   "titulo": "Acessórios de montagem",
+   "item": "7",
+   "texto": "Arame galvanizado ou inox; cintas de aço galvanizado, alumínio ou inox; fitas adesivas; molas senoidais e helicoidais (Figuras A.1 e A.2); selos (A.3); parafusos autoatarraxantes e arruelas; clips em S, J e de pressão; rebites pop; suportes de aço para tubulação vertical ou inclinada acima de 45° e suportes de madeira tratada, PUR/PIR denso ou plástico de engenharia para linhas frias; fechos de engate rápido; pinos de ancoragem; caixas e janelas de inspeção para medição de espessura (plug de silicone resistente a UV, uso contínuo a 250 °C).",
+   "valores": [
+    {"parametro": "Arame galvanizado / inox", "valor": "Ø 1,25 mm (BWG 18) / Ø 1,20 mm", "item": "7.1", "cota": "esquemas/isolamento-acessorios-fixacao.svg#arame-diametro"},
+    {"parametro": "Cinta de aço galvanizado — largura × espessura", "valor": "12,7 mm × 0,50 mm", "item": "7.2.1", "cota": "esquemas/isolamento-acessorios-fixacao.svg#cinta-largura", "nota": "zinco 50 μm (350 g/m²)"},
+    {"parametro": "Cinta de alumínio ou inox — largura / espessura", "valor": "12,7 ou 19 mm / 0,50 mm", "item": "7.2.2, 7.2.3", "cota": "esquemas/isolamento-acessorios-fixacao.svg#cinta-espessura"},
+    {"parametro": "Fita filamentosa de poliéster — largura × espessura", "valor": "25 mm × 0,24 mm", "item": "7.2.4", "cota": "esquemas/isolamento-acessorios-fixacao.svg#cinta-largura"},
+    {"parametro": "Mola senoidal — comprimento de onda / amplitude / fio", "valor": "45 mm / 25 mm / Ø 3 mm", "item": "7.3.1", "cota": "esquemas/isolamento-acessorios-fixacao.svg#onda-comprimento"},
+    {"parametro": "Mola senoidal — amplitude", "valor": "25 mm", "item": "7.3.1", "cota": "esquemas/isolamento-acessorios-fixacao.svg#onda-amplitude"},
+    {"parametro": "Mola helicoidal — Ø externo / fio", "valor": "12,7 mm / 2,5 mm", "item": "7.3.2", "cota": "esquemas/isolamento-acessorios-fixacao.svg#helicoidal-diametro"},
+    {"parametro": "Mola helicoidal — comprimento útil / total", "valor": "152 mm / ≈ 185 mm", "item": "7.3.2", "cota": "esquemas/isolamento-acessorios-fixacao.svg#helicoidal-comprimento"},
+    {"parametro": "Selo — largura × espessura", "valor": "12,7 mm (ou 19 mm) × 1,0 mm", "item": "7.4", "cota": "esquemas/isolamento-acessorios-fixacao.svg#cinta-largura"},
+    {"parametro": "Parafuso autoatarraxante — Ø × comprimento", "valor": "1/8 pol × 1/2 pol ou 3/16 pol × 3/4 pol", "item": "7.5", "cota": "esquemas/isolamento-acessorios-fixacao.svg#parafuso-comprimento"},
+    {"parametro": "Arruela para parafuso 3/16 pol — Ø ext. / Ø int. / espessura", "valor": "7/8 pol / 7/32 pol / 1/16 pol (borracha 1/8 pol)", "item": "7.6.1, 7.6.2", "cota": "esquemas/isolamento-acessorios-fixacao.svg#arruela-diametro-ext"},
+    {"parametro": "Arruela para parafuso 1/8 pol — Ø ext. / Ø int. / espessura", "valor": "5/8 pol / 5/32 pol / 3/64 pol", "item": "7.6.3", "cota": "esquemas/isolamento-acessorios-fixacao.svg#arruela-diametro-int"},
+    {"parametro": "Clip de pressão — espessura e lado (ou Ø)", "valor": "1 mm; 38 mm × 38 mm ou Ø 38 mm", "item": "7.7.3", "cota": "esquemas/isolamento-acessorios-fixacao.svg#clip-lado"},
+    {"parametro": "Clip em S ou J — espessura", "valor": "0,50 mm", "item": "7.7.1, 7.7.2", "cota": "esquemas/chapa-fita-dimensoes.svg#espessura"},
+    {"parametro": "Rebite pop de alumínio — Ø nominal", "valor": "3,2 mm ou 4,0 mm", "item": "7.8", "cota": "esquemas/isolamento-acessorios-fixacao.svg#parafuso-diametro"},
+    {"parametro": "Pino de ancoragem (SAE 1010)", "valor": "Ø 3/16 pol", "item": "7.11", "cota": "esquemas/isolamento-acessorios-fixacao.svg#pino-diametro"},
+    {"parametro": "Janela de inspeção — abertura mínima", "valor": "Ø 100 mm", "item": "7.12.2", "cota": "esquemas/isolamento-acessorios-fixacao.svg#janela-abertura"},
+    {"parametro": "Suporte metálico do isolamento — inclinação da tubulação", "valor": "vertical ou > 45°", "item": "7.9.1", "nota": "condição de uso, sem cota"}
+   ],
+   "figuras": ["esquemas/isolamento-acessorios-fixacao.svg"]
+  }
+ ]
+}

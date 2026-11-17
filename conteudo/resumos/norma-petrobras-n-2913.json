@@ -1,0 +1,75 @@
+{
+ "id": "PETROBRAS-N-2913",
+ "titulo": "Petrobras N-2913 Rev. D (12/2024) — Revestimentos anticorrosivos para tanque, esfera e cilindro de armazenamento",
+ "secoes": [
+  {
+   "titulo": "Condições gerais e preparo",
+   "item": "3.1, Tab. 1",
+   "texto": "Esquemas internos e externos para tanques de teto fixo ou flutuante, esferas e cilindros, considerando ambiente, perda por evaporação, temperatura, isolamento e produto. Chapa nova é lavada com água em alta pressão antes do jato (sais); shop primer removido salvo garantia do fabricante. Inspeção prévia (NBR 14847/15185, grau A–D, ASTM D610), desengraxe localizado e jato seco, úmido (WAB-2) ou hidrojato (WJ-2; em obra nova só com abrasivo). Em inox, abrasivo inerte. Manutenção externa aceita flash rust leve. Prazo de repintura obrigatório (interno vencido: brush off). Stripe coat obrigatório; escadas e plataformas pela N-1550; pull-off após o tempo de retorno à operação.",
+   "valores": [
+    {"parametro": "Lavagem de chapas novas antes do jato", "valor": "≥ 3 000 psi", "item": "3.1.2"},
+    {"parametro": "Perfil — condições internas e 11/18 (novolac, elastomérico)", "valor": "70 μm a 100 μm", "item": "Tab. 1", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Perfil — demais condições externas", "valor": "50 μm a 100 μm", "item": "Tab. 1", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Retoque com ferramenta rotativa (SP11) — perfil mínimo", "valor": "50 μm", "item": "3.2.3, 3.3.3", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg"]
+  },
+  {
+   "titulo": "Seleção do revestimento (Tabela 2)",
+   "item": "4, Tab. 2",
+   "texto": "Interno: produtos leves, água, álcool, diesel, QAV, soda, solventes etc. — novolac tipo II em toda a superfície (cond. 1); gasóleo, óleo combustível e lubrificante — tipo II no fundo, teto e duas faixas do costado e colunas (cond. 2 e 3); água ácida, água produzida, nafta de coque — tipo III em tudo (cond. 4); petróleo — tipo III em fundo, teto e faixas (cond. 5 e 6; teto flutuante só no rim); teto fixo de inox — tipo I (até 80 °C) ou III (até 150 °C). Externo: tanques sem isolamento — poliaspártico N-2943 Anexo G (cond. 9) ou, na orla, zinco N-1277 + poliaspártico (17); teto de inox — novolac I + PU (10), elastomérico (11), novolac III (12, 15) ou Anexo E acima de 200 °C (16); tanques isolados — N-2630/N-2680 (13) ou novolac II (14). Esferas: interno novolac II em equipamentos com desgaste alto (18, não em amônia); externo poliaspártico (19) ou zinco + poliaspártico na orla (20). Água potável com certificado de potabilidade; benzeno sem ácido furfurílico.",
+   "valores": [
+    {"parametro": "Faixas internas no costado e colunas (cond. 2, 3, 5, 6)", "valor": "primeiro anel a partir do fundo e último anel — 2,44 m cada", "item": "Tab. 2", "cota": "esquemas/tanque-esfera-revestimento-interno.svg#faixa-primeiro-anel"},
+    {"parametro": "Faixa do último anel", "valor": "2,44 m", "item": "Tab. 2", "cota": "esquemas/tanque-esfera-revestimento-interno.svg#faixa-ultimo-anel"},
+    {"parametro": "Teto flutuante (petróleo/gasóleo) — região pintada", "valor": "só o rim (espaço vapor do selo)", "item": "Tab. 2 Nota 5, Fig. A.1", "cota": "esquemas/tanque-esfera-revestimento-interno.svg#rim-teto"},
+    {"parametro": "Esferas e cilindros — taxa de desgaste que exige revestimento interno", "valor": "> 0,1 mm/ano", "item": "Tab. 2 cond. 18, 4.3 Nota 3"},
+    {"parametro": "Esfera — revestimento só na calota inferior (alternativa)", "valor": "até 2 m de altura", "item": "4.3 Nota 2", "cota": "esquemas/tanque-esfera-revestimento-interno.svg#calota-esfera"},
+    {"parametro": "Orla marítima (cond. 17 e 20)", "valor": "até 500 m da praia", "item": "4.2.9, 4.4.2"}
+   ],
+   "figuras": ["esquemas/tanque-esfera-revestimento-interno.svg"]
+  },
+  {
+   "titulo": "Esquemas internos (condições 1 a 8)",
+   "item": "4.1",
+   "texto": "Novolac aplicado com airless em passagens cruzadas, sobre até flash rust leve, com detector de descontinuidade. Tipo III em refinarias e terminais terrestres em demão única; em terminais aquaviários em duas demãos (ou uma única espessa se o fabricante recomendar); terminais podem usar o esquema de refinaria por análise técnica.",
+   "valores": [
+    {"parametro": "Novolac N-2912 tipo I (cond. 7)", "valor": "≥ 400 µm", "item": "4.1.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Novolac N-2912 tipo II", "valor": "≥ 450 µm, demão única", "item": "4.1.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Novolac tipo III — refinarias e terminais terrestres", "valor": "≥ 500 µm (cond. 8: 400 µm)", "item": "4.1.3.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Novolac tipo III — terminais aquaviários", "valor": "2 × 400 µm (ou 1 × 800 µm)", "item": "4.1.3.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Esferas e cilindros (cond. 18) — novolac tipo II", "valor": "≥ 400 µm", "item": "4.3", "cota": "esquemas/pintura-esquema-camadas.svg#eps"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Esquemas externos (condições 9 a 20)",
+   "item": "3.3, 4.2, 4.4",
+   "texto": "Colunas de esferas pintadas com N-2680; sobre proteção passiva contra fogo, PU acrílico (cimentício: 1ª demão diluída para selar + 2ª; intumescente: uma demão). Piso do anel de contraventamento de teto flutuante: jato e poliaspártico; o resto do anel como o costado. Na orla, lavar entre demãos. Retoque sem jato com epóxi-alumínio N-2288, exceto nas condições com esquema próprio, que repetem a tinta original. Identificação conforme manual de sinalização da Petrobras.",
+   "valores": [
+    {"parametro": "Colunas de esferas — N-2680", "valor": "≥ 150 μm", "item": "3.3.2", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "PU acrílico sobre proteção contra fogo", "valor": "≥ 70 μm (cimentício: 2 demãos, intervalo ≥ 8 h)", "item": "3.3.2 a), b)", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"},
+    {"parametro": "Piso do anel de contraventamento — poliaspártico", "valor": "≥ 300 μm", "item": "4.2 a)", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Cond. 9 e 19 — poliaspártico (costado ou vertical / teto ou horizontal)", "valor": "≥ 200 μm / ≥ 300 μm", "item": "4.2.1, 4.4.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Cond. 10 — novolac I + PU acrílico", "valor": "≥ 250 µm + ≥ 70 µm", "item": "4.2.2", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Cond. 11 — elastomérico (PU ou poliureia), demão única", "valor": "2,0 mm a 3,0 mm (perfil ≥ 70 µm)", "item": "4.2.3", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Cond. 12 e 15 — novolac III", "valor": "≥ 250 µm", "item": "4.2.4, 4.2.7", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Cond. 13 — N-2630 (ou N-2680)", "valor": "≥ 100 μm", "item": "4.2.5", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Cond. 14 — novolac II", "valor": "≥ 150 μm", "item": "4.2.6", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Cond. 16 — N-2943 Anexo E", "valor": "2 × ≥ 150 µm", "item": "4.2.8", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Cond. 17 e 20 — fundo N-1277 / acabamento poliaspártico", "valor": "≥ 100 µm / ≥ 200 µm", "item": "4.2.9, 4.4.2", "cota": "esquemas/pintura-esquema-camadas.svg#intermediaria", "nota": "acabamento entre 18 h e 24 h; lavagem entre demãos a 3 000 psi"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Aderência por tração (Anexo A)",
+   "item": "Tab. A.1",
+   "texto": "Valores referidos a Sa 2½, com equipamento e adesivo de folga ≥ 20 %; acima de 20 MPa qualquer falha é aceita.",
+   "valores": [
+    {"parametro": "Revestimentos internos de novolac", "valor": "≥ 15 MPa (exceto falha A/B)", "item": "Tab. A.1"},
+    {"parametro": "Esquemas externos — faixa dos mínimos", "valor": "7 a 15 MPa conforme o esquema", "item": "Tab. A.1", "nota": "conferir na tabela qual mínimo vale para cada condição"},
+    {"parametro": "Anexo E da N-2943 (2 demãos)", "valor": "≥ 2 MPa", "item": "Tab. A.1", "nota": "valor baixo, mas coerente com o requisito do próprio Anexo E da N-2943 (2,0 MPa)"},
+    {"parametro": "N-2677 na cor alumínio", "valor": "≥ 5 MPa", "item": "Tab. A.1 Nota 3"}
+   ]
+  }
+ ]
+}

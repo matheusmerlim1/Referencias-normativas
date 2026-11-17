@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" role="img" aria-label="Unidade marítima — zonas de proteção anticorrosiva e revestimentos">
+<title>Unidade marítima — zonas de proteção anticorrosiva e revestimentos (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Unidade marítima — zonas de proteção anticorrosiva e revestimentos</text>
+<text x="300" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) zonas ao longo da estrutura</text>
+<rect x="60" y="260" width="380" height="210" fill="#36c" fill-opacity="0.1" stroke="#36c" stroke-width="0"/>
+<line x1="60" y1="260" x2="440" y2="260" stroke="#36c" stroke-width="2"/>
+<text x="70" y="276" text-anchor="start" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">nível médio do mar</text>
+<path d="M60,240 Q120,225 180,240 T300,240 T420,240 L440,240 L440,285 Q400,295 340,285 T220,285 T100,285 L60,285 Z" fill="#36c" fill-opacity="0.12" stroke="#36c" stroke-width="0.8"/>
+<rect x="160" y="80" width="280" height="24" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<text x="300" y="74" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">convés / módulos</text>
+<rect x="200" y="104" width="24" height="376" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<rect x="380" y="104" width="24" height="376" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<line x1="212" y1="180" x2="392" y2="320" stroke="#666" stroke-width="3"/>
+<line x1="392" y1="180" x2="212" y2="320" stroke="#666" stroke-width="3"/>
+<g id="cota-zona-atmosferica" class="cota"><line x1="430" y1="80" x2="474" y2="80" stroke="#666" stroke-width="1"/><line x1="430" y1="220" x2="474" y2="220" stroke="#666" stroke-width="1"/><line x1="470" y1="80" x2="470" y2="220" stroke="#666" stroke-width="1.2"/><polygon points="470,80 473.5,89 466.5,89" fill="#666"/><polygon points="470,220 466.5,211 473.5,211" fill="#666"/><text x="478" y="154.0" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">zona atmosférica</text></g>
+<g id="cota-zona-transicao" class="cota"><line x1="430" y1="220" x2="474" y2="220" stroke="#666" stroke-width="1"/><line x1="430" y1="300" x2="474" y2="300" stroke="#666" stroke-width="1"/><line x1="470" y1="220" x2="470" y2="300" stroke="#666" stroke-width="1.2"/><polygon points="470,220 473.5,229 466.5,229" fill="#666"/><polygon points="470,300 466.5,291 473.5,291" fill="#666"/><text x="478" y="264.0" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">zona de transição</text></g>
+<g id="cota-zona-submersa" class="cota"><line x1="430" y1="300" x2="474" y2="300" stroke="#666" stroke-width="1"/><line x1="430" y1="465" x2="474" y2="465" stroke="#666" stroke-width="1"/><line x1="470" y1="300" x2="470" y2="465" stroke="#666" stroke-width="1.2"/><polygon points="470,300 473.5,309 466.5,309" fill="#666"/><polygon points="470,465 466.5,456 473.5,456" fill="#666"/><text x="478" y="386.5" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">zona submersa</text></g>
+<rect x="196" y="220" width="32" height="80" fill="#c93" fill-opacity="0.45" stroke="#c93" stroke-width="1"/>
+<rect x="376" y="220" width="32" height="80" fill="#c93" fill-opacity="0.45" stroke="#c93" stroke-width="1"/>
+<text x="110" y="210" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">revestimento</text>
+<text x="110" y="224" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">espesso</text>
+<line x1="140" y1="228" x2="196" y2="250" stroke="#666" stroke-width="1"/>
+<text x="250" y="486" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(proteção catódica em toda a parte submersa)</text>
+<text x="820" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) revestimento de alta espessura</text>
+<rect x="700" y="90" width="40" height="170" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<text x="720" y="280" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">aço</text>
+<rect x="740" y="90" width="70" height="170" fill="#c93" fill-opacity="0.35" stroke="#c93" stroke-width="1.5"/>
+<text x="775" y="180" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">massa ou</text>
+<text x="775" y="194" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">epóxi espesso</text>
+<g id="cota-espessura-revestimento" class="cota"><line x1="740" y1="90" x2="740" y2="76" stroke="#666" stroke-width="1"/><line x1="810" y1="90" x2="810" y2="76" stroke="#666" stroke-width="1"/><line x1="740" y1="80" x2="810" y2="80" stroke="#666" stroke-width="1.2"/><polygon points="740,80 749,83.5 749,76.5" fill="#666"/><polygon points="810,80 801,76.5 801,83.5" fill="#666"/><text x="775.0" y="72" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">espessura</text></g>
+<text x="820" y="330" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(c) piso de rota de fuga / heliponto</text>
+<rect x="680" y="430" width="280" height="24" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<rect x="680" y="405" width="280" height="25" fill="#c93" fill-opacity="0.3" stroke="#c93" stroke-width="1.5"/>
+<rect x="680" y="385" width="280" height="20" fill="#a33" fill-opacity="0.35" stroke="#a33" stroke-width="1.5"/>
+<circle cx="690" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="704" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="718" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="732" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="746" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="760" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="774" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="788" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="802" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="816" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="830" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="844" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="858" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="872" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="886" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="900" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="914" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="928" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="942" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<circle cx="956" cy="393" r="2.5" fill="#333" fill-opacity="0.6" stroke="#333" stroke-width="0.5"/>
+<g id="cota-fundo-piso" class="cota"><line x1="680" y1="405" x2="664" y2="405" stroke="#666" stroke-width="1"/><line x1="680" y1="430" x2="664" y2="430" stroke="#666" stroke-width="1"/><line x1="668" y1="405" x2="668" y2="430" stroke="#666" stroke-width="1.2"/><polygon points="668,405 671.5,414 664.5,414" fill="#666"/><polygon points="668,430 664.5,421 671.5,421" fill="#666"/><text x="662" y="421.5" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">fundo</text></g>
+<g id="cota-antiderrapante" class="cota"><line x1="680" y1="385" x2="664" y2="385" stroke="#666" stroke-width="1"/><line x1="680" y1="405" x2="664" y2="405" stroke="#666" stroke-width="1"/><line x1="668" y1="385" x2="668" y2="405" stroke="#666" stroke-width="1.2"/><polygon points="668,385 671.5,394 664.5,394" fill="#666"/><polygon points="668,405 664.5,396 671.5,396" fill="#666"/><text x="662" y="396" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">antiderrapante</text></g>
+<text x="820" y="474" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">chapa do piso</text>
+<text x="12" y="512" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

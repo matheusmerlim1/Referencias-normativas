@@ -1,0 +1,74 @@
+{
+ "id": "PETROBRAS-N-2911",
+ "titulo": "Petrobras N-2911 Rev. A (11/2017; revalidada 12/2022) — Inspeção e reparo em revestimento anticorrosivo externo de tubos durante a construção e montagem de dutos terrestres",
+ "secoes": [
+  {
+   "titulo": "Escopo e inspeção",
+   "item": "1, 4, 5",
+   "texto": "Reparo de danos no revestimento de fábrica (3LPE, 3LPP, FBE ou epóxi líquido) encontrados na obra — no recebimento no parque de tubos e durante a montagem — e não de defeitos de aplicação na planta do revestidor; não vale para isolamento térmico. Reparos possíveis: barra de PE ou PP de preenchimento; mastique elastomérico ou hot melt (3LPE) ou adesivo de PP (3LPP) com manchão; epóxi líquido; manta termocontrátil (N-2328). Proibido manta sobre manta. A montadora faz um procedimento de inspeção com plano de amostragem; inspeção visual em 100 % dos tubos (incluindo colarinhos), marcação dos danos e detector de descontinuidade conforme a Tabela 1; antes de baixar na vala, inspeção visual do tubo e da vala, e de novo depois de lançado.",
+   "valores": [
+    {"parametro": "Detector de descontinuidade — 3LPE/3LPP", "valor": "12 kV/mm (< 25 kV), corrente pulsante", "item": "Tab. 1"},
+    {"parametro": "Detector — FBE monocamada / dupla camada", "valor": "2,25 ± 0,2 kV / 4,0 ± 0,2 kV (CC)", "item": "Tab. 1"}
+   ],
+   "figuras": ["esquemas/duto-revestimento-junta-campo.svg"]
+  },
+  {
+   "titulo": "Materiais de reparo",
+   "item": "6",
+   "texto": "Barra de PE (até 80 °C) ou de PP (até 110 °C) para pequenos danos; mastique/hot melt de preenchimento com manchão de PE irradiado (3LPE, até 80 °C) ou adesivo de PP com manchão de PP (3LPP), para preencher e recompor espessura; epóxi líquido para tubos em epóxi, qualificado como na N-2238 (painéis, névoa salina, umidade, imersão, descolamento catódico, abrasão, impacto). Requisitos de cada material nas Tabelas 2 a 13.",
+   "valores": [
+    {"parametro": "Laminado de PE (manchão) — espessura total mín.", "valor": "1 mm", "item": "6.1.2.4", "cota": "esquemas/duto-revestimento-junta-campo.svg#espessura-manta"},
+    {"parametro": "Barra de PE — cisalhamento mín. / ponto de amolecimento mín.", "valor": "235 N/cm² / 100 °C", "item": "Tab. 2"},
+    {"parametro": "Barra de PP — cisalhamento mín. / ponto de amolecimento mín.", "valor": "240 N/cm² / 135 °C", "item": "Tab. 8"},
+    {"parametro": "Reparo com barra — impacto mín.", "valor": "15 J (pontos afastados 30 mm)", "item": "Tab. 3"},
+    {"parametro": "Reparo com manchão de PE — impacto mín. / arrancamento máx. na aderência", "valor": "4 J / 80 mm", "item": "Tab. 7, Anexo D"},
+    {"parametro": "Epóxi — aderência mín. / reprovação por falha A/B abaixo de", "valor": "12 MPa / 15 MPa", "item": "Tab. 13, 6.3.2.13", "nota": "conferir: a tabela pede 12 MPa e o 6.3.2.13 reprova falha A/B abaixo de 15 MPa (texto obtido por OCR)"},
+    {"parametro": "Epóxi — painel de qualificação / espessura do revestimento no painel", "valor": "150 × 100 × ≥ 4,0 mm / 450 a 630 µm", "item": "6.3.2.1, 6.3.2.5", "cota": "esquemas/tinta-painel-ensaio.svg#comprimento"},
+    {"parametro": "Epóxi — entalhe da névoa salina: distância das bordas / largura / penetração máx.", "valor": "30 mm / 0,5 a 2 mm / 3 mm", "item": "6.3.2.8, 6.3.2.9", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-distancia"}
+   ],
+   "figuras": ["esquemas/tinta-painel-ensaio.svg"]
+  },
+  {
+   "titulo": "Classificação dos danos em 3LPE/3LPP (Tabela 14)",
+   "item": "8, Tab. 14",
+   "texto": "O dano é classificado pela área A, comprimento c, largura l (comparada ao perímetro P = π·D) e pela profundidade (capa, adesivo, primer FBE, aço). Tipo I: superficial, não exige reparo. Tipo II: risco estreito de qualquer comprimento que não chega ao adesivo — barra de preenchimento. Tipo III: área pequena que não atinge o aço — mastique/adesivo + manchão. Tipo IV: área pequena que atinge o aço — limpeza St 2, mastique/adesivo + manchão. Tipo V: área média até o aço — jato Sa 2½, primer, adesivo + manchão. Tipo VI: dano grande (área, comprimento ou largura acima dos limites) — VI.a sem chegar ao aço: preenchimento + manta termocontrátil; VI.b até o aço: primer + manta. Antes do reparo, lixar com lixa grossa e limpar; após, detector em toda a área.",
+   "valores": [
+    {"parametro": "Tipo II — largura do risco", "valor": "< 5 mm (espessura remanescente 25 % a 75 %)", "item": "Tab. 14", "cota": "esquemas/duto-revestimento-junta-campo.svg#largura-dano", "nota": "conferir: tabela lida por OCR"},
+    {"parametro": "Tipos III a V — comprimento do dano", "valor": "c < 50 cm", "item": "Tab. 14", "cota": "esquemas/duto-revestimento-junta-campo.svg#comprimento-dano", "nota": "conferir: tabela lida por OCR"},
+    {"parametro": "Tipos III a V — largura do dano", "valor": "l < 1/4 do perímetro do tubo", "item": "Tab. 14", "cota": "esquemas/duto-revestimento-junta-campo.svg#largura-dano", "nota": "conferir: tabela lida por OCR"},
+    {"parametro": "Áreas-limite: tipo III / IV / V / VI", "valor": "< 100 cm² / < 25 cm² / 25 a 100 cm² / > 100 cm² (ou c > 50 cm ou l > 1/4 P)", "item": "Tab. 14", "nota": "conferir: tabela lida por OCR"},
+    {"parametro": "Espessura remanescente da capa — tipos II e III", "valor": "≥ 25 % e < 75 %", "item": "Tab. 14", "cota": "esquemas/duto-revestimento-junta-campo.svg#espessura-remanescente", "nota": "conferir: tabela lida por OCR"},
+    {"parametro": "Sobreposição mínima do reparo sobre o revestimento original", "valor": "75 mm", "item": "8.2", "cota": "esquemas/duto-revestimento-junta-campo.svg#sobreposicao-reparo"},
+    {"parametro": "Manchão — sobreposição além da região danificada", "valor": "≥ 100 mm de cada lado, cantos arredondados", "item": "11.2.3", "cota": "esquemas/duto-revestimento-junta-campo.svg#sobreposicao-reparo", "nota": "o 8.2 dá 75 mm como mínimo geral"},
+    {"parametro": "Máximo de reparos por tubo (total / II / III / IV / VI.a / VI.b)", "valor": "10 / 10 / 5 / 5 / 1 / 1", "item": "8.5"}
+   ],
+   "figuras": ["esquemas/duto-revestimento-junta-campo.svg"]
+  },
+  {
+   "titulo": "Danos em tubos revestidos em epóxi",
+   "item": "9",
+   "texto": "Tipo I: falha pontual detectada pelo holiday (escarear até o aço, limpar e lixar a oxidação). Tipo II: área maior, até um limite de área e de comprimento (remover o revestimento danificado, chanfrar uma faixa em volta e lixar a área de sobreposição). Reparo com epóxi bicomponente sem solvente ou bastão termoplástico compatível, com espessura ao menos igual à nominal do original; detector em toda a área após a cura. Tubos com danos demais ou maiores que o tipo II são rejeitados.",
+   "valores": [
+    {"parametro": "Tipo I / Tipo II — área", "valor": "< 1 cm² / 1 a 100 cm²", "item": "9.1.1"},
+    {"parametro": "Tipo II — maior comprimento", "valor": "≤ 30 cm", "item": "9.1.1 b)", "cota": "esquemas/duto-revestimento-junta-campo.svg#comprimento-dano"},
+    {"parametro": "Rejeição do tubo", "valor": "> 10 danos tipo I ou > 3 tipo II", "item": "9.1.2"},
+    {"parametro": "Faixa chanfrada em volta do reparo tipo II", "valor": "≥ 10 mm", "item": "9.3.2", "cota": "esquemas/duto-revestimento-junta-campo.svg#chanfro-reparo"},
+    {"parametro": "Faixa lixada (lixa 80) na sobreposição", "valor": "120 mm a 150 mm", "item": "9.3.3", "cota": "esquemas/duto-revestimento-junta-campo.svg#faixa-lixamento-reparo"},
+    {"parametro": "Espessura mínima do reparo em epóxi líquido", "valor": "400 µm", "item": "11.5.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao", "nota": "e não menos que a espessura nominal do revestimento original"}
+   ],
+   "figuras": ["esquemas/duto-revestimento-junta-campo.svg", "esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Aplicação e inspeção dos reparos",
+   "item": "10–12, Anexos D e E",
+   "texto": "Reparo na mesma jornada do preparo. Barra: pré-aquecer, fundir a ponta da barra com ar quente, preencher e alisar com espátula quente. Mastique/hot melt: aquecer, moldar, alisar e cobrir com manchão de adesivo pré-aquecido até brilhar, centralizado, pressionado sem bolhas, sem bordas levantadas e com adesivo escorrendo pelas bordas; não sobrepor manchões. Epóxi pela N-13. Espessura do epóxi em 4 pontos do reparo; visual em tudo; detector em 100 % (reparo com falha é refeito inteiro). Aderência do manchão por dinamômetro (carga crescente até 4 kgf mantida por 60 s) e da manta pelo método do peso.",
+   "valores": [
+    {"parametro": "Ensaio de aderência do manchão / manta — tira", "valor": "25 mm × 125 mm", "item": "Anexo D a), E.3", "cota": "esquemas/duto-revestimento-junta-campo.svg#tira-largura"},
+    {"parametro": "Manchão — carga e arrancamento máximo", "valor": "4,0 kgf por 60 s; ≤ 80 mm", "item": "Anexo D d)–f)"},
+    {"parametro": "Manta — peso / tempo mínimo de descolamento", "valor": "4,0 kgf / 0,4·D min (D em cm)", "item": "E.6–E.7"},
+    {"parametro": "Armazenagem — temperatura máx. / afastamento do solo", "valor": "45 °C / 10 cm", "item": "7.2.1"}
+   ],
+   "figuras": ["esquemas/duto-revestimento-junta-campo.svg"]
+  }
+ ]
+}

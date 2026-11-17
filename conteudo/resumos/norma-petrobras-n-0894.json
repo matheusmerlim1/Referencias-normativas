@@ -1,0 +1,65 @@
+{
+ "id": "PETROBRAS-N-0894",
+ "titulo": "Petrobras N-0894 Rev. E (06/2012) — Projeto de isolamento térmico a baixa temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo e critérios",
+   "item": "1, 3, 4.1",
+   "texto": "Projeto do isolamento de equipamentos e tubulações frios (temperatura de operação até a média das máximas ambientes dos dois meses mais quentes), sem cobrir serviço criogênico abaixo do limite inferior. Critérios: controle de condensação na face externa, conservação de energia (espessura econômica), estabilização de fases e proteção/conforto pessoal. O básico é combinar conservação de energia com controle de condensação; havendo vários critérios, adota-se a maior espessura.",
+   "valores": [
+    {"parametro": "Limite inferior de aplicação", "valor": "não se aplica abaixo de -100 °C", "item": "1.1"}
+   ],
+   "figuras": ["esquemas/isolamento-calculo-espessura.svg"]
+  },
+  {
+   "titulo": "Materiais e camadas",
+   "item": "4.2, Tab. 1",
+   "texto": "O isolante usual é poliuretano (pré-moldado, projetado ou injetado) ou poliisocianurato pré-moldado; perlita granular, espuma elastomérica (ASTM C534), vidro celular e aerogel (ASTM C1728) entram por projeto específico, todos conforme N-1618 e montados pela N-896. Isolante rígido leva juntas de expansão-contração (N-896). Em inox 300/400 o teor de cloretos e fluoretos segue a ASTM C795. Serviço que alterna quente e frio recebe primeiro uma camada rígida de alta temperatura, sem contar a condutividade dela no cálculo do frio. A Tabela 1 recomenda como dividir a espessura total de pré-moldados rígidos em 1ª e 2ª camada.",
+   "valores": [
+    {"parametro": "Espessura total em camada única", "valor": "25, 38 ou 51 mm", "item": "Tab. 1", "cota": "esquemas/isolamento-calculo-espessura.svg#espessura-total"},
+    {"parametro": "Espessura total 63 mm — 1ª / 2ª camada", "valor": "38 mm / 25 mm", "item": "Tab. 1", "cota": "esquemas/isolamento-calculo-espessura.svg#camada-1"},
+    {"parametro": "Espessura total 102 mm — 1ª / 2ª camada", "valor": "51 mm / 51 mm", "item": "Tab. 1", "cota": "esquemas/isolamento-calculo-espessura.svg#camada-2"},
+    {"parametro": "Espessura total 153 mm — 1ª / 2ª camada", "valor": "76 mm / 76 mm", "item": "Tab. 1", "cota": "esquemas/isolamento-calculo-espessura.svg#camada-2"},
+    {"parametro": "Espessura total 204 mm — 1ª / 2ª camada", "valor": "102 mm / 102 mm", "item": "Tab. 1", "cota": "esquemas/isolamento-calculo-espessura.svg#espessura-total", "nota": "maior linha da tabela"},
+    {"parametro": "Camada de alta temperatura (serviço quente e frio) — face externa", "valor": "< 80 °C", "item": "4.2.7", "cota": "esquemas/isolamento-calculo-espessura.svg#camada-alta"},
+    {"parametro": "Serviço quente e frio com proteção pessoal — face externa da última camada", "valor": "≤ 60 °C", "item": "4.2.7 Nota 2"}
+   ],
+   "figuras": ["esquemas/isolamento-calculo-espessura.svg"]
+  },
+  {
+   "titulo": "O que isolar e seleção por equipamento",
+   "item": "4.3, Tab. 2, Tab. 3",
+   "texto": "Salvo pedido do projetista ou risco de congelamento, não se isolam equipamentos que precisam ganhar calor, linhas resfriadas só de vez em quando (alívio, suspiros, drenos, tocha, drenagem) e mangueiras. Peças de interferência, volantes e hastes de válvulas seguem a N-896. A Tabela 2 indica o material aceito por aplicação (tubulação aérea/enterrada, teto/costado/fundo de tanque, torres, trocadores e vasos por porte, rotativos, esferas): poliuretano injetado em teto/costado de tanque e esfera só com fôrmas removíveis (para a barreira de vapor); cold box só com perlita granular; pré-moldados rígidos no fundo de tanque só nos blocos sob a chapa anular; poliuretano projetado é de responsabilidade do aplicador. O porte do equipamento sai do volume (Tabela 3).",
+   "valores": [
+    {"parametro": "Porte — permutador ou vaso pequeno / médio / grande", "valor": "≤ 2 m³ / 2 a 20 m³ / > 20 m³", "item": "Tab. 3"},
+    {"parametro": "Porte — torre pequena / média / grande", "valor": "≤ 5 m³ / 5 a 40 m³ / > 40 m³", "item": "Tab. 3"}
+   ]
+  },
+  {
+   "titulo": "Condensação, proteção pessoal e espessura econômica",
+   "item": "5",
+   "texto": "Espessura econômica por estudo de custos atualizados (roteiro do Anexo A; o Anexo G dá espessuras indicativas para linhas pequenas em poliuretano/poliisocianurato). Contra condensação, a face externa fica acima do ponto de orvalho (Tabela F.1, por temperatura ambiente e umidade relativa). Para proteção pessoal, a face externa não pode ficar abaixo de zero e superfícies frias perto de piso, escadas e plataformas são isoladas; se o isolamento não for possível, usam-se telas metálicas e sinalização.",
+   "valores": [
+    {"parametro": "Temperatura mínima da face externa (proteção pessoal)", "valor": "> 0 °C", "item": "5.3.1", "cota": "esquemas/isolamento-protecao-pessoal.svg#face-fria"},
+    {"parametro": "Zona de isolamento obrigatório — altura em relação ao piso", "valor": "< 2 m", "item": "5.3.2", "cota": "esquemas/isolamento-protecao-pessoal.svg#altura-piso"},
+    {"parametro": "Zona de isolamento obrigatório — afastamento lateral de escada ou plataforma", "valor": "< 1 m", "item": "5.3.2", "cota": "esquemas/isolamento-protecao-pessoal.svg#distancia-lateral"},
+    {"parametro": "Ponto de orvalho — ambiente 29 °C, UR 80 %", "valor": "25 °C", "item": "Tab. F.1", "nota": "exemplo de leitura da tabela"},
+    {"parametro": "Espessura econômica indicativa — linha de 8 pol a -25 °C (PU/PIR)", "valor": "38 mm", "item": "Tab. G.1 Nota 3", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante", "nota": "premissas do Anexo G: 25 °C, vento 10 km/h, ε 0,20, 15 anos, 8 250 h/ano; acima de 60 pol tratar como plano"}
+   ],
+   "figuras": ["esquemas/isolamento-protecao-pessoal.svg", "esquemas/isolamento-termico-tubulacao.svg"]
+  },
+  {
+   "titulo": "Roteiros de cálculo (Anexos A a D)",
+   "item": "Anexos A–D",
+   "texto": "Os roteiros são iterativos: arbitra-se a temperatura da face externa (ou o diâmetro externo), calculam-se os coeficientes de convecção (natural ou forçada) e radiação do Anexo D, a condutividade na temperatura média e a nova temperatura/espessura, repetindo até convergir; adota-se a espessura comercial imediatamente acima. O custo total soma energia absorvida, água de refrigeração, unidade de refrigeração, investimento e manutenção, trazidos a valor presente; o exemplo do tanque dá mínimo de custo em 89 mm, com 63–76 mm quase equivalentes. Emissividades típicas: alumínio 0,1–0,2, aço 0,94–0,97.",
+   "valores": [
+    {"parametro": "Estimativa inicial do diâmetro externo — D0 ≤ 150 mm", "valor": "De = 1,5 D0", "item": "B.3.1 a)", "cota": "esquemas/isolamento-calculo-espessura.svg#diametro-isolamento"},
+    {"parametro": "Estimativa inicial do diâmetro externo — 150 mm < D0 ≤ 300 mm", "valor": "De = 1,3 D0", "item": "B.3.1 b)", "cota": "esquemas/isolamento-calculo-espessura.svg#diametro-isolamento"},
+    {"parametro": "Estimativa inicial do diâmetro externo — D0 > 300 mm", "valor": "De = 1,1 D0", "item": "B.3.1 c)", "cota": "esquemas/isolamento-calculo-espessura.svg#diametro-isolamento"},
+    {"parametro": "Tolerância de convergência — temperatura / diâmetro", "valor": "2 °C / 5 %", "item": "A.2.6, B.3.5"},
+    {"parametro": "Exemplo — tubo 6 pol a -30 °C, face ≥ 12 °C (PU)", "valor": "25 mm", "item": "B.4", "cota": "esquemas/isolamento-calculo-espessura.svg#espessura-total", "nota": "exemplo de cálculo da norma"}
+   ],
+   "figuras": ["esquemas/isolamento-calculo-espessura.svg"]
+  }
+ ]
+}

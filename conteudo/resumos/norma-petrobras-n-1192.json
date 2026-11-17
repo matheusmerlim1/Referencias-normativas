@@ -1,0 +1,92 @@
+{
+ "id": "PETROBRAS-N-1192",
+ "titulo": "Petrobras N-1192 Rev. D (10/2019) — Pintura de embarcações",
+ "secoes": [
+  {
+   "titulo": "Regiões do casco e regras gerais",
+   "item": "3, 4",
+   "texto": "O casco externo divide-se em costado (acima da linha d'água de carga máxima), faixa de variação ou boottop (entre as linhas d'água de carga máxima e de lastro normal) e fundo (abaixo do lastro normal), este separado em fundo vertical e fundo chato pela altura das bolinas. Aplicação com pistola airless; retoques e stripe coat em quinas, furos e soldas a trincha (rolo só onde a trincha não alcança). Cores pela N-1503; intervalos entre demãos pelo boletim do fabricante; na manutenção, se os esquemas do Anexo A forem incompatíveis com o existente, repete-se o esquema antigo. Não se pintam telas, roscas, graxeiras, cabos de aço, borrachas e gaxetas de vedação, nem pinos/copos de lubrificação de equipamentos de carga; anodos são protegidos do jato e da tinta. Controle de qualidade pela N-13.",
+   "valores": [],
+   "figuras": ["esquemas/embarcacao-pintura-casco-tanques.svg"]
+  },
+  {
+   "titulo": "Navios em construção — preparo e qualificação",
+   "item": "5.1, Tab. 1",
+   "texto": "A pintura de construção tem três fases: antes da fabricação (shop primer), na construção de blocos e na edificação/prontificação. Tanques de lastro e de carga de petroleiros novos seguem a IMO PSPC (WBT e COT); a Tabela 1 traz os requisitos adicionais Petrobras/Transpetro, aplicados também às áreas externas. Shop primer à base de zinco sobre jato Sa 2½; na segunda preparação, aço em grau P2 (ISO 8501-3, com esmerilhamento das quinas), pré-lavagem obrigatória, Sa 2½ no shop primer danificado e Sa 1 no intacto. Após a edificação, soldas e pequenas áreas danificadas vão a ferramenta rotativa SSPC-SP11; danos maiores, jato Sa 2½. No fundo e no boottop os retoques são sempre a Sa 2½ (vacuum blast ou abrasivo envolto em espuma); no costado admite-se SP11 se o jato for inviável.",
+   "valores": [
+    {"parametro": "Sais solúveis na superfície (antes e depois do preparo)", "valor": "≤ 30 mg/m² (3 µg/cm²)", "item": "Tab. 1"},
+    {"parametro": "Passes de esmeril nas quinas (grau P2)", "valor": "3", "item": "Tab. 1"},
+    {"parametro": "Área danificada tratável com ferramenta rotativa após edificação", "valor": "até 2 % (acima: jato Sa 2½)", "item": "Tab. 1"},
+    {"parametro": "Perfil mínimo com ferramenta rotativa (SP11)", "valor": "50 µm", "item": "Tab. 1, 5.1.3.3", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Perfil de rugosidade requerido", "valor": "50 µm a 80 µm", "item": "Tab. 1", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Poeira após preparo", "valor": "rating 1 (ISO 8502-3)", "item": "Tab. 1"},
+    {"parametro": "Espessura seca — tolerância da tinta N-2680", "valor": "-10 % a +20 % da especificada", "item": "Tab. 1 Nota a)", "nota": "demais tintas: critério 90/10"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg"]
+  },
+  {
+   "titulo": "Construção de blocos — faixas sem pintura",
+   "item": "5.1.2",
+   "texto": "Antes de cada preparo e demão, inspeção visual dos blocos (NBR 14847, NBR 15185). Nas bordas de chapeamento que serão soldadas a outro bloco e nos reforços longitudinais (convés, costado, fundo, teto do duplo fundo, anteparas longitudinais) deixa-se uma faixa sem tinta, retocada depois da solda de edificação, verificando principalmente essas faixas e as áreas queimadas ou avariadas.",
+   "valores": [
+    {"parametro": "Faixa sem pintura no chapeamento junto à emenda do bloco", "valor": "200 mm", "item": "5.1.2.3, Fig. 1", "cota": "esquemas/embarcacao-pintura-casco-tanques.svg#faixa-chapeamento"},
+    {"parametro": "Faixa sem pintura nos reforços longitudinais", "valor": "300 mm", "item": "5.1.2.3, Fig. 1", "cota": "esquemas/embarcacao-pintura-casco-tanques.svg#faixa-longitudinal"}
+   ],
+   "figuras": ["esquemas/embarcacao-pintura-casco-tanques.svg"]
+  },
+  {
+   "titulo": "Pintura de manutenção (docagem)",
+   "item": "5.2",
+   "texto": "Logo após o esgotamento do dique, lavar fundo, boottop e costado com água doce em alta pressão para tirar incrustação e tinta solta; raspar onde preciso e lavar de novo. Desengraxar onde houver óleo; áreas corroídas vão a jato Sa 2 (mín.) ou hidrojato de ultra-alta pressão (N-9). Medir sais antes de pintar; depois da 1ª demão, lavar todo o casco e seguir com as demãos da Tabela A.1 e a anti-incrustante sem estanho aprovada, respeitando os intervalos e o alagamento do dique. Água de lavagem: doce, limpa, pH 6,5 a 7,5.",
+   "valores": [
+    {"parametro": "Pressão mínima da lavagem com água doce", "valor": "6 000 psi (414 bar)", "item": "5.2.1.1"},
+    {"parametro": "Hidrojato de ultra-alta pressão — pressão mínima", "valor": "30 000 psi (2 070 bar)", "item": "5.2.1.3"},
+    {"parametro": "Sais solúveis para liberar a pintura de manutenção", "valor": "≤ 50 mg/m² (5 µg/cm²)", "item": "5.2.1.4"},
+    {"parametro": "pH da água de lavagem e hidrojato", "valor": "6,5 a 7,5", "item": "Tab. A.1 Nota 1"}
+   ]
+  },
+  {
+   "titulo": "Tanques de carga",
+   "item": "5.4",
+   "texto": "O fabricante emite a lista de compatibilidade de cargas, que fica a bordo. Petroleiros de óleo cru e produtos escuros: pintura parcial (fundo, faixa sob o convés, topo das travessas, transversais de convés inteiras e rodapé em volta do pé delas); tanques slop pintados inteiros. Navios de produtos claros: tanques totalmente pintados — sem álcool/nafta, duas demãos de N-2680 (com resistência química comprovada); com álcool ou nafta, uma demão de novolac N-2912 tipo II sobre jato seco Sa 2½; para QAV, nunca fundo à base de zinco. Stripe coat por demão (ou um só se a 2ª demão for edge retentive).",
+   "valores": [
+    {"parametro": "Petroleiro — área pintada acima do fundo do tanque", "valor": "1,5 m", "item": "5.4.1 a), Fig. 2", "cota": "esquemas/embarcacao-pintura-casco-tanques.svg#fundo-tanque"},
+    {"parametro": "Petroleiro — área pintada abaixo do convés principal", "valor": "3,0 m", "item": "5.4.1 b), Fig. 2", "cota": "esquemas/embarcacao-pintura-casco-tanques.svg#conves-tanque", "nota": "medido nas anteparas longitudinais laterais"},
+    {"parametro": "Rodapé em volta do pé da transversal de convés", "valor": "cerca de 200 mm", "item": "Fig. 2 Nota, Fig. 3", "cota": "esquemas/embarcacao-pintura-casco-tanques.svg#rodape"},
+    {"parametro": "Travessas — faixa superior pintada", "valor": "até 300 mm de altura", "item": "Tab. A.3 Nota 2", "cota": "esquemas/embarcacao-pintura-casco-tanques.svg#travessa"},
+    {"parametro": "Produtos claros sem álcool/nafta — N-2680", "valor": "2 demãos de ≥ 160 µm", "item": "5.4.2.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Produtos claros com álcool ou nafta — novolac N-2912 tipo II", "valor": "1 demão de 450 µm", "item": "5.4.2.3", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"}
+   ],
+   "figuras": ["esquemas/embarcacao-pintura-casco-tanques.svg", "esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Esquemas do Anexo A",
+   "item": "Tab. A.1 a A.3",
+   "texto": "Áreas externas (A.1): construção com jato Sa 2½, shop primer de zinco, hidrojato WJ-2 e epóxi N-2680; no fundo e boottop, selante epóxi (tie coat) e anti-incrustante autopolível sem estanho; no costado, conveses e superestrutura, acabamento PU acrílico N-2677. Manutenção 1 (hidrojato) ou 2 (Sa 2 + holding primer epóxi + lavagem). Mastros e guindastes podem receber aspersão térmica de zinco + selante + PU (alumínio aspergido não é mais aceito no externo). Linhas de vapor e condensado: novolac tipo II. Áreas internas (A.2, A.3): N-2680 + N-2677 ou só N-2680 sob isolamento; pisos com antiderrapante; tanques de lastro, carga e coferdames com 1ª demão com aditivo para inspeção UV e última demão branca. Todas as espessuras são de película seca.",
+   "valores": [
+    {"parametro": "Shop primer de zinco (ZSP)", "valor": "15 µm", "item": "Tab. A.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Casco (fundo/boottop) — N-2680, 1ª e 2ª demãos", "valor": "160 µm cada", "item": "Tab. A.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Casco — selante epóxi (tie coat)", "valor": "80 µm", "item": "Tab. A.1", "cota": "esquemas/pintura-esquema-camadas.svg#intermediaria"},
+    {"parametro": "Casco — anti-incrustante sem estanho (AFTF)", "valor": "125 µm por demão", "item": "Tab. A.1", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"},
+    {"parametro": "Número de demãos AFTF — docagem a cada 60 meses / até 36 meses", "valor": "2 / 1", "item": "Tab. A.1 Nota 3"},
+    {"parametro": "Costado/conveses — acabamento N-2677 (construção / manutenção)", "valor": "2 × 60 µm / 1 × 70 µm", "item": "Tab. A.1", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"},
+    {"parametro": "Holding primer epóxi (manutenção 2)", "valor": "40 µm", "item": "Tab. A.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Linhas de vapor e condensado — novolac N-2912 tipo II", "valor": "2 × 225 µm ou 1 × 450 µm", "item": "Tab. A.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Praça de máquinas — N-2680", "valor": "150 µm por demão", "item": "Tab. A.3", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Tanque de produtos claros — novolac tipo II", "valor": "450 µm", "item": "Tab. A.3", "cota": "esquemas/pintura-esquema-camadas.svg#eps"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Aderência e qualificação (tanques de carga e lastro)",
+   "item": "Tab. A.3 Notas 7–8, Anexo A.2",
+   "texto": "Esquemas de tanques de lastro e de carga (produtos escuros) atendem à IMO PSPC (MSC 215(82) e MSC 288(87)) e aos requisitos adicionais, com ensaios em laboratório ISO/IEC 17025. Pull-off pela ASTM D4541 ou ISO 4624 com equipamento tipo IV ou V, até 14 dias depois da aplicação. Pontos críticos (válvulas, flanges, suportes, parafusos, frestas, áreas de empoçamento) recebem revestimento polimérico específico, fácil de aplicar e de remover.",
+   "valores": [
+    {"parametro": "Pull-off N-2680 (tanques, casco, portões)", "valor": "≥ 12 MPa, falha Y ou Z", "item": "Tab. A.3 Nota 7"},
+    {"parametro": "Pull-off N-2912 tipo II (tanques de carga)", "valor": "≥ 15 MPa, falha Y ou Z", "item": "Tab. A.3 Nota 8"},
+    {"parametro": "Qualificação — aderência mínima", "valor": "12,0 MPa (qualquer falha exceto A/B); > 20 MPa qualquer falha", "item": "A.2, Tab. A.1"},
+    {"parametro": "Prazo para o ensaio de aderência", "valor": "até 14 dias após a aplicação", "item": "A.2 Nota 2"}
+   ]
+  }
+ ]
+}

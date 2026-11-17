@@ -1,0 +1,69 @@
+{
+ "id": "PETROBRAS-N-2785",
+ "titulo": "Petrobras N-2785 Rev. E (03/2024) — Monitoração, interpretação e controle da corrosão interna em dutos",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 4",
+   "texto": "Critérios para monitorar, interpretar e controlar a corrosão interna de dutos de aço carbono que transportam gás natural, água, etanol, petróleo e derivados. Não se aplica a transferências curtas entre unidades, dutos pequenos, biodiesel, gases que não sejam gás natural, petroquímicos, água do mar ou tratada, dutos desativados ou com revestimento interno. Trechos submarinos não pigáveis são inspecionados, evita-se hibernar o duto com água não tratada e os trechos terrestres são monitorados com cupons e sondas. Com H2S, avaliar trincamento SSC pela ISO 15156-2. Os dados ficam em banco acessível; cada campanha gera parecer com conclusão sobre a corrosividade e recomendações com responsável e prazo, avaliadas na campanha seguinte.",
+   "valores": [
+    {"parametro": "Diâmetro mínimo de aplicação", "valor": "Ø ≥ 6 pol", "item": "1.1", "cota": "esquemas/duto-corrosao-interna-monitoracao.svg#diametro-duto"},
+    {"parametro": "Transferência entre unidades excluída", "valor": "comprimento ≤ 5 km", "item": "1.1 Nota 1"}
+   ],
+   "figuras": ["esquemas/duto-corrosao-interna-monitoracao.svg"]
+  },
+  {
+   "titulo": "Parâmetros monitorados e locais de monitoração",
+   "item": "5",
+   "texto": "Monitoram-se características dos fluidos (fase líquida e gás) e dos resíduos, com pontos de amostragem e rotinas analíticas tabelados e coleta pelo Anexo A; taxa de corrosão por técnicas intrusivas (cupom de perda de massa NACE SP0775 e sonda de resistência elétrica) ou não intrusivas aprovadas (Anexo K: campo elétrico, ultrassom, EMAT); e dados operacionais (temperatura, pressão, vazão, regime e padrão de escoamento). A escolha das técnicas usa o formulário de corrosividade × consequência do Anexo J, refeito a cada mudança. Dutos submarinos têm ponto de monitoração nas extremidades ligadas à superfície; dutos terrestres têm número mínimo de locais pela extensão e pelo produto.",
+   "valores": [
+    {"parametro": "Tomadas por local de monitoração (cupom + sonda) — afastamento mínimo", "valor": "500 mm", "item": "5.3.2", "cota": "esquemas/duto-corrosao-interna-monitoracao.svg#distancia-tomadas"},
+    {"parametro": "Oleoduto — locais mínimos por extensão L", "valor": "L ≤ 5 km: 0; até 50 km: 1; até 100 km: 2; até 200 km: 3; acima: 4", "item": "Tab. 7", "nota": "1 local se BSW > 1 % com perda > 20 % em 5 anos, ou se não pigável com L < 5 km"},
+    {"parametro": "Gasoduto — locais mínimos (processado / não processado)", "valor": "L ≤ 10 km: 0/1; até 50 km: 1/2; até 100 km: 1/3; até 200 km: 2/3; acima: 2/4", "item": "Tab. 8"}
+   ],
+   "figuras": ["esquemas/duto-corrosao-interna-monitoracao.svg"]
+  },
+  {
+   "titulo": "Classificação do potencial de corrosividade",
+   "item": "6",
+   "texto": "O potencial é baixo, moderado ou severo, valendo o pior entre os critérios: taxa por cupom/sonda; técnica não intrusiva (consumo da sobre-espessura dentro da vida útil, ou vida remanescente contra a estimativa de vida quando não há sobre-espessura); pig instrumentado (perda entre duas corridas, como referência combinada entre monitoração e integridade); histórico de falhas (descartado quando há monitoração ou pig); e análise de fluidos/resíduos quando há água livre, vazão abaixo da de arraste de água ou gás úmido. Baixo/moderado por cupom exige confirmação em três campanhas (ou concordância cupom-sonda em duas; só sonda: 2 meses); severo se a sonda ficar severa por 1 mês, for consumida em menos de 30 dias com cupom severo, ou o cupom der severo em duas campanhas seguidas. Com inibidor, reclassificar pela taxa e por bactérias.",
+   "valores": [
+    {"parametro": "Taxa uniforme (cupom/sonda) — baixo / moderado / severo", "valor": "< 0,05 / 0,05 a 0,2 / > 0,2 mm/ano", "item": "Tab. 13", "cota": "esquemas/duto-corrosao-interna-monitoracao.svg#perda-espessura"},
+    {"parametro": "Taxa de pites (cupom, só referência)", "valor": "< 0,13 / 0,13 a 0,3 / > 0,3 mm/ano", "item": "Tab. 13", "cota": "esquemas/duto-corrosao-interna-monitoracao.svg#perda-espessura"},
+    {"parametro": "Não intrusiva — vida da sobre-espessura VS (= SE/TC) × vida útil VU", "valor": "VS ≥ VU baixo; VS ≥ 2/3 VU moderado; VS < 2/3 VU severo", "item": "Tab. 14", "cota": "esquemas/duto-corrosao-interna-monitoracao.svg#sobre-espessura"},
+    {"parametro": "Não intrusiva sem sobre-espessura — VR = (t_atual − t_mín)/TC × estimativa de vida EV", "valor": "VR ≥ 1,5 EV baixo; EV ≤ VR < 1,5 EV moderado; VR < EV severo", "item": "Tab. 15", "cota": "esquemas/duto-corrosao-interna-monitoracao.svg#espessura-atual"},
+    {"parametro": "Perda de espessura entre duas corridas de pig", "valor": "< 20 % baixo; 20 % a 40 % moderado; > 40 % severo", "item": "Tab. 16", "cota": "esquemas/duto-corrosao-interna-monitoracao.svg#perda-espessura"},
+    {"parametro": "Histórico de falha por corrosão interna", "valor": "> 10 anos (causa eliminada) baixo; 5 a 10 anos moderado; últimos 5 anos ou causa não eliminada severo", "item": "Tab. 17"},
+    {"parametro": "Gás úmido — teor de água que ativa o critério de fluido", "valor": "> 4 lb/MMscf", "item": "6.2.5.1 c)"},
+    {"parametro": "Oxigênio dissolvido — severo / moderado / baixo", "valor": "> 50 ppb / 20 a 50 ppb / ≤ 20 ppb", "item": "Tab. 18"},
+    {"parametro": "pH simulado — severo / moderado / baixo", "valor": "< 5,6 / 5,6 a 6,9 / 7,0 a 12,0", "item": "Tab. 18"},
+    {"parametro": "Pressão parcial de H2S — severo / moderado / baixo", "valor": "> 0,75 psia / 0,01 a 0,75 psia / < 0,01 psia", "item": "Tab. 18"},
+    {"parametro": "Pressão parcial de CO2 (T < 60 °C) — severo", "valor": "> 15 psia (qualquer velocidade)", "item": "Tab. 18", "nota": "moderado/baixo dependem também da velocidade (5 e 10 m/s)"},
+    {"parametro": "Bactérias em resíduo/cupom — severo", "valor": "BRS > 10⁵ ou BANHT > 10⁷ NMP/g·cm² (ou crescimento em 1 a 6 dias)", "item": "Tab. 18"}
+   ],
+   "figuras": ["esquemas/duto-corrosao-interna-monitoracao.svg"]
+  },
+  {
+   "titulo": "Periodicidade de coleta",
+   "item": "7",
+   "texto": "Nas duas primeiras avaliações de um duto novo usam-se as periodicidades da Tabela 19; depois, conforme o potencial. Dados operacionais de preferência em tempo real; derivados caracterizados a cada batelada; gás conforme o agente (CO2 semestral; H2S anual ou semestral conforme histórico; umidade diária). Cupom com exposição ajustável até 12 meses em histórico de baixa corrosividade. Sonda passivada é limpa com álcool isopropílico e escova de náilon.",
+   "valores": [
+    {"parametro": "Início de operação — fluido / resíduo / cupom", "valor": "90 / 90 / 120 dias", "item": "Tab. 19"},
+    {"parametro": "Fluido e resíduo — severo / moderado / baixo", "valor": "3 / 6 / 6 meses", "item": "Tab. 21"},
+    {"parametro": "Retirada de cupom; coleta de dados de sonda e de técnica não intrusiva", "valor": "4 meses (ajustável até 12)", "item": "Tab. 21–23"},
+    {"parametro": "Exposição mínima do cupom", "valor": "30 dias", "item": "Tab. 21 Nota 2"},
+    {"parametro": "Intervalo máximo de aquisição — sonda ER / não intrusiva", "valor": "6 h / 24 h", "item": "7.4.1, 7.5.1"},
+    {"parametro": "H2S no gás — limite do histórico para análise semestral", "valor": "< 20 ppmv (28,8 mg/Nm³)", "item": "Tab. 20"}
+   ]
+  },
+  {
+   "titulo": "Medidas de controle",
+   "item": "8",
+   "texto": "Com potencial severo: achar a causa fundamental, passar pig para retirar líquido a cada partida em fluxo intermitente, estudar vazão acima da de arraste (exceto gás), pig de arraste de líquido em oleodutos laminares e gasodutos estratificados/intermitentes, pig de remoção de sólidos, e instalar monitoração onde a inspeção achou maior perda; dutos não pigáveis ganham plano de ação específico. As ações por tipo de duto (oleodutos, aquedutos, gasodutos, derivados/etanol) e a identificação da causa fundamental seguem as Tabelas 25 a 31 (inibidor, biocida, sequestrante de O2, desidratação, limpeza). Os anexos trazem coleta de amostras, uso de cupons e sondas, métodos de laboratório, deposição de água, oxigênio dissolvido e as técnicas não intrusivas.",
+   "valores": [
+    {"parametro": "Severo — pig de arraste de líquido / de remoção de sólidos", "valor": "quinzenal / mensal", "item": "Tab. 24", "nota": "sólidos com bactérias: pode passar a quinzenal"},
+    {"parametro": "Duto não pigável severo — prazo do plano de ação / avaliação", "valor": "6 meses / mais 6 meses", "item": "Tab. 24 Nota 1"}
+   ]
+  }
+ ]
+}

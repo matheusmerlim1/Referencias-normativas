@@ -1,0 +1,100 @@
+{
+ "id": "PETROBRAS-N-2432",
+ "titulo": "Petrobras N-2432 Rev. C (06/2020) — Revestimento externo de concreto para dutos submarinos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "Prefácio, 1, 3",
+   "texto": "Requisitos de materiais, processo e plano de qualidade para revestimento de concreto aplicado sobre tubos já com revestimento anticorrosivo, para dar peso (empuxo negativo) e proteção mecânica a dutos submarinos. Só processos por compressão e por projeção (impingement). FBE tail = trecho de FBE exposto nas pontas de tubos tripla camada; fita Pi = fita perimétrica para medir o diâmetro.",
+   "valores": [
+    {"parametro": "Espessura de concreto coberta pela norma", "valor": "≥ 40 mm", "item": "1.2", "cota": "esquemas/duto-concreto-lastro.svg#espessura-concreto"}
+   ],
+   "figuras": ["esquemas/duto-concreto-lastro.svg"]
+  },
+  {
+   "titulo": "Materiais",
+   "item": "5",
+   "texto": "O anticorrosivo precisa de uma camada rugosa de ancoragem (rough coat) para segurar o concreto. Cimento Portland resistente a sulfato, pozolânico ou de alto-forno; agregados pela NBR 7211 (minério de ferro para concretos pesados), sem sais; água pela NBR NM 137; concreto reciclado admitido pela ISO 21809-5. Tela de reforço contínua de arame de aço galvanizado (ASTM A810/A1064); filme de PE pela ASTM C171.",
+   "valores": [
+    {"parametro": "Teor de C3A do cimento pozolânico/alto-forno", "valor": "4 % a 8 %", "item": "5.2.1 b)"},
+    {"parametro": "Álcali — no cimento (agregado reativo) / no concreto", "valor": "≤ 0,6 % / ≤ 3 kg/m³", "item": "5.5.2"},
+    {"parametro": "Minério de ferro — densidade seca mín.", "valor": "4 410 kg/m³", "item": "5.3.5"},
+    {"parametro": "Água — sólidos dissolvidos / carbonatos e bicarbonatos alcalinos", "valor": "≤ 2 000 ppm / ≤ 1 000 ppm", "item": "5.4.2"},
+    {"parametro": "Tela — distância entre arames longitudinais", "valor": "67 mm ± 5 mm", "item": "5.5.2 a)", "cota": "esquemas/duto-concreto-lastro.svg#arame-longitudinal"},
+    {"parametro": "Tela — distância entre arames transversais", "valor": "25 mm ± 5 mm", "item": "5.5.2 b)", "cota": "esquemas/duto-concreto-lastro.svg#arame-transversal"},
+    {"parametro": "Sobreposição entre telas consecutivas", "valor": "≥ 25 mm", "item": "5.5.2 c), 7.2.17", "cota": "esquemas/duto-concreto-lastro.svg#sobreposicao-tela"},
+    {"parametro": "Taxa mínima de armadura circunferencial / longitudinal", "valor": "0,5 % / 0,1 %", "item": "5.5.2 d)–e), 7.2.16"}
+   ],
+   "figuras": ["esquemas/duto-concreto-lastro.svg"]
+  },
+  {
+   "titulo": "Processo de aplicação",
+   "item": "6",
+   "texto": "Tubos inspecionados antes (contaminantes, holiday, rugosidade do rough coat). Mistura mecânica, aplicada logo após o preparo; tubo umedecido; no processo por compressão, concreto, tela e filme de PE são comprimidos em hélice em volta do tubo girando e avançando sobre roletes. Filme de PE aplicado na mesma passada e mantido durante a cura. Colarinho (cutback) cortado com o concreto fresco, com fita protegendo o corte, extremidade a 90° com o eixo, comprimento pela ordem de compra, faces cortadas e pontas da tela pintadas com epóxi N-2680. Anodos montados pela N-1935 com o espaço anular preenchido com PU denso. Tubos identificados por dentro.",
+   "valores": [
+    {"parametro": "Temperatura do tubo, tela, água e mistura", "valor": "+3 °C a +35 °C", "item": "6.2.1 a)"},
+    {"parametro": "Temperatura do ar junto à planta", "valor": "+1 °C a +43 °C", "item": "6.2.1 b)"},
+    {"parametro": "Tempo mínimo de mistura / máximo até o fim do lançamento", "valor": "5 min / 1 h", "item": "6.4.3.1, 6.4.3.2"},
+    {"parametro": "Espaço anular entre anodo e concreto (preenchido com PU > 900 kg/m³)", "valor": "25 mm", "item": "6.6.2", "cota": "esquemas/duto-concreto-lastro.svg#anodo-folga"},
+    {"parametro": "Extremidade do concreto no colarinho", "valor": "90° com o eixo do tubo", "item": "6.5 d)", "cota": "esquemas/duto-concreto-lastro.svg#colarinho"}
+   ],
+   "figuras": ["esquemas/duto-concreto-lastro.svg"]
+  },
+  {
+   "titulo": "Estocagem, manuseio e transporte",
+   "item": "6.7",
+   "texto": "Agregados sobre base do próprio material e separados; telas sobre estrados, cobertas; tubos não curados em uma camada só e totalmente apoiados; tubos curados com leve inclinação longitudinal. Içar com cintas protegidas ou patolas revestidas apoiando parte da circunferência; garfos protegidos.",
+   "valores": [
+    {"parametro": "Base de agregado sob as pilhas — espessura mín.", "valor": "200 mm", "item": "6.7.1.4.2 a)", "nota": "camada de apoio da pilha de agregado"},
+    {"parametro": "Altura máxima das pilhas de tela", "valor": "2 m", "item": "6.7.1.4.3 a)", "nota": "estocagem"},
+    {"parametro": "Inclinação longitudinal mínima dos tubos curados estocados", "valor": "1 %", "item": "6.7.1.4.4 b)"},
+    {"parametro": "Patolas — apoio mínimo na circunferência", "valor": "1/8 da circunferência", "item": "6.7.2.2"},
+    {"parametro": "Resistência à compressão para manusear / para transportar à obra", "valor": "≥ 20 MPa / ≥ 34 MPa", "item": "6.7.2.5, 6.7.2.6"}
+   ]
+  },
+  {
+   "titulo": "Plano de qualidade — tubos e mistura",
+   "item": "7.1, Tab. 1–4",
+   "texto": "Qualificação com pelo menos cinco tubos de teste antes da produção, válida para um diâmetro, espessura e densidade; mudar variáveis essenciais (anticorrosivo, rugosidade, cimento, tela, agregado, equipamento) exige nova qualificação. Falha em produção para a linha e pede dois novos testes. Cada tubo é pesado e medido (perímetro em cinco seções) antes do concreto; rugosidade em 5 seções × 4 pontos.",
+   "valores": [
+    {"parametro": "Holiday no anticorrosivo — tripla camada / FBE", "valor": "12 kV/mm (máx. 25 kV) / 5 kV/mm; até 18 m/min", "item": "Tab. 2"},
+    {"parametro": "Rugosidade mínima do anticorrosivo (rough coat)", "valor": "75 µm", "item": "Tab. 2, 7.2.9", "nota": "área danificada < 3 % do tubo; reteste a 200 mm do ponto reprovado"},
+    {"parametro": "Fator água/cimento máx. / cimento mín.", "valor": "0,40 em massa / 400 kg/m³", "item": "Tab. 4, 7.2.13"}
+   ]
+  },
+  {
+   "titulo": "Plano de qualidade — concreto aplicado",
+   "item": "7.2, Tab. 5–6",
+   "texto": "Até 50 mm de espessura, uma tela no meio do concreto; acima disso, duas telas. Peso de cada tubo registrado; espessura medida em cinco pontos; excentricidade pela diferença entre a maior e a menor espessura em 8 posições a 45° nas duas pontas. Filme de PE só sai quando o concreto atinge a resistência mínima. Ensaios em escala real: absorção de água (tubo imerso 24 h), cisalhamento entre concreto e tubo, impacto (DNV-RP-F111) e ramp roller (6 m de tubo sobre roletes).",
+   "valores": [
+    {"parametro": "Espessura de concreto acima da qual são duas telas", "valor": "> 50 mm", "item": "7.2.15", "cota": "esquemas/duto-concreto-lastro.svg#distancia-telas"},
+    {"parametro": "Cobrimento mínimo da tela (ao anticorrosivo e à face externa)", "valor": "> 15 mm", "item": "Tab. 5, 7.2.15", "cota": "esquemas/duto-concreto-lastro.svg#cobrimento-tela"},
+    {"parametro": "Distância mínima entre duas telas", "valor": "10 mm", "item": "Tab. 5", "cota": "esquemas/duto-concreto-lastro.svg#distancia-telas"},
+    {"parametro": "Sobreposição do filme de PE", "valor": "≥ 25 mm", "item": "Tab. 5, 7.2.23", "cota": "esquemas/duto-concreto-lastro.svg#sobreposicao-tela"},
+    {"parametro": "Resistência para retirar o filme de PE", "valor": "> 15 MPa", "item": "Tab. 5, 7.2.24"},
+    {"parametro": "Peso no ar e submerso — tolerâncias", "valor": "média 12 h: -0/+4 %; 25 tubos: -1/+6 %; cada tubo: -3/+12 %", "item": "Tab. 5, Tab. 6"},
+    {"parametro": "Variação da espessura de concreto", "valor": "0 < Δtc < 0,1·tc", "item": "Tab. 5, 7.2.29", "cota": "esquemas/duto-concreto-lastro.svg#espessura-concreto"},
+    {"parametro": "Excentricidade máx.", "valor": "< 12 mm", "item": "Tab. 5, 7.2.30", "cota": "esquemas/duto-concreto-lastro.svg#excentricidade"},
+    {"parametro": "Resistência elétrica tela–tubo (500 V)", "valor": "> 10 kΩ", "item": "Tab. 5, 7.2.31"},
+    {"parametro": "Massa específica do concreto", "valor": "± 5 %", "item": "Tab. 6"},
+    {"parametro": "Compressão (cilindros 150 × 300 mm) — 7 d / 28 d", "valor": "> 24 MPa / > 34 MPa", "item": "Tab. 6"},
+    {"parametro": "Absorção de água em escala real", "valor": "< 5 % do peso (24 h imerso)", "item": "Tab. 6, 7.2.37"},
+    {"parametro": "Cisalhamento concreto–tubo (amostra de 1 m)", "valor": "≥ 0,35 N/mm²", "item": "Tab. 6, 7.2.38"},
+    {"parametro": "Impacto em escala real — energia", "valor": "6 000 J (Tab. 6) / ≥ 3 000 J com cabeça de 50 mm (7.2.39.2)", "item": "Tab. 6, 7.2.39", "nota": "conferir: a tabela e o texto da norma divergem; defeito local aceito < 625 cm² sem expor a tela"}
+   ],
+   "figuras": ["esquemas/duto-concreto-lastro.svg"]
+  },
+  {
+   "titulo": "Reparos",
+   "item": "7.2.41–7.2.43, Tab. 7",
+   "texto": "Anticorrosivo reparado pelo procedimento qualificado, até um limite de área somada por tubo (acima, tubo segregado). Concreto reparado antes ou depois da cura por procedimento do aplicador, removendo o filme, umedecendo e recolocando o filme, com mistura e cura equivalentes. Trincas finas dentro de certa largura e extensão são reparadas; danos acima dos critérios segregam o tubo.",
+   "valores": [
+    {"parametro": "Dano no anticorrosivo — soma máx. reparável por tubo", "valor": "30 cm²", "item": "Tab. 7, 7.2.41.2"},
+    {"parametro": "Concreto não curado — soma máx. de danos reparáveis", "valor": "≤ 50 cm² sem expor a tela", "item": "7.2.42.4"},
+    {"parametro": "Concreto curado — dispensa reparo", "valor": "soma < 10 cm² bem aderida; ou perda de espessura < 25 % em área < 50 cm²", "item": "7.2.43.4, 7.2.43.5"},
+    {"parametro": "Trincas a reparar — largura", "valor": "0,5 mm a 1,6 mm", "item": "7.2.42.5, 7.2.43.6", "cota": "esquemas/duto-concreto-lastro.svg#espessura-concreto", "nota": "circunferenciais com extensão < 180°; longitudinais < 300 mm"}
+   ],
+   "figuras": ["esquemas/duto-concreto-lastro.svg"]
+  }
+ ]
+}

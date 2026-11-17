@@ -1,0 +1,81 @@
+{
+ "id": "PETROBRAS-N-0550",
+ "titulo": "Petrobras N-0550 Rev. H (02/2024) — Projeto de isolamento térmico a alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo e critérios de dimensionamento",
+   "item": "1, 3, 4.1",
+   "texto": "Projeto (seleção de material e espessura) do isolamento de tubulações, vasos, torres, trocadores, caldeiras, tanques, bombas e turbinas operando acima da temperatura ambiente de referência; vale também para reformas. São quatro critérios: conservação de energia (o básico — espessura de menor custo total), proteção pessoal (evitar queimadura), manutenção de fluidez do produto e estabilização de fases (fluxo de calor máximo do processo). Os três últimos são sempre combinados com a proteção pessoal quando ela se aplica; havendo mais de um critério, vale a maior espessura. As tabelas do Anexo B servem para os isolantes tabelados; outros casos pedem cálculo (ASTM C680 ou ISO 12241). Pequenos reparos podem manter o projeto original; reparos extensos revisam o projeto.",
+   "valores": [
+    {"parametro": "Alta temperatura (definição)", "valor": "operação acima da média das máximas ambientes dos 2 meses mais quentes do ano", "item": "3.1"}
+   ],
+   "figuras": ["esquemas/isolamento-termico-tubulacao.svg"]
+  },
+  {
+   "titulo": "Seleção do isolante — categoria climática e grupos",
+   "item": "4.2, Tab. 1, Tab. 2, Anexo A",
+   "texto": "Materiais conforme N-1618 e montagem conforme N-250; em inox séries 300/400 o isolante atende à ASTM C795; serviço quente e frio consulta também a N-894. A seleção segue três passos: (1) enquadrar a instalação numa categoria climática/ambiental (abrigada, interiorana, industrial de alta precipitação, costeira, microclima agressivo ou muito agressivo, marítima); (2) pelos fluxogramas do Anexo A (temperatura de operação, NPS ou classe de criticidade do equipamento A/B/C, serviço cíclico ou intermitente, com ou sem traço de vapor, aço carbono ou inox) achar os grupos isolantes aceitáveis I a IV — quanto mais agressivo o ambiente e menor o diâmetro, mais o fluxograma restringe aos grupos III–IV (vidro celular, espumas) e IV (aerogel), pelo risco de corrosão sob isolamento; (3) escolher na Tabela 2 o isolante do grupo, respeitando a temperatura limite e o tipo de equipamento. Em microclima abrigado todos os grupos servem.",
+   "valores": [
+    {"parametro": "Categoria interiorana / costeira", "valor": "> 5 km do mar / < 5 km do mar", "item": "Tab. 1"},
+    {"parametro": "Industrial de alta precipitação — chuva anual", "valor": "> 2 000 mm/ano", "item": "Tab. 1", "nota": "índice pluviométrico médio; com > 5 km do mar"},
+    {"parametro": "Industrial de alta precipitação — deposição de cloretos", "valor": "> 30 mg Cl⁻/m²·dia", "item": "Tab. 1"},
+    {"parametro": "Temperatura limite — silicato de cálcio (comum ou WRG)", "valor": "650 °C", "item": "Tab. 2", "nota": "grupo I (comum) / II (WRG)"},
+    {"parametro": "Temperatura limite — lã de rocha (comum ou WRG)", "valor": "600 °C", "item": "Tab. 2", "nota": "não usar em vibração; tubos, calhas e feltro de lamelas não indicados"},
+    {"parametro": "Temperatura limite — fibra de vidro", "valor": "450 °C", "item": "Tab. 2"},
+    {"parametro": "Temperatura limite — fibra cerâmica (comum ou WRG)", "valor": "815 °C", "item": "Tab. 2"},
+    {"parametro": "Temperatura limite — perlita expandida", "valor": "649 °C", "item": "Tab. 2", "nota": "grupo II"},
+    {"parametro": "Temperatura limite — vidro celular", "valor": "121 °C a 427 °C", "item": "Tab. 2", "nota": "acima de 121 °C consultar o fabricante; não usar com aquecimento/resfriamento > 112 °C/min"},
+    {"parametro": "Temperatura limite — PUR / PIR", "valor": "90 °C / 110 °C a 149 °C", "item": "Tab. 2", "nota": "PIR: consultar fabricante fora de -51 °C a 110 °C"},
+    {"parametro": "Temperatura limite — espuma elastomérica", "valor": "85 °C a 150 °C", "item": "Tab. 2", "nota": "acima de 85 °C consultar o fabricante"},
+    {"parametro": "Temperatura limite — aerogel em manta", "valor": "649 °C", "item": "Tab. 2", "nota": "grupo IV"}
+   ]
+  },
+  {
+   "titulo": "O que não se isola e casos especiais",
+   "item": "4.3",
+   "texto": "Salvo indicação do projetista, não se isolam: equipamentos que precisam perder calor; bombas frias (exceto produto com ponto de fluidez acima do ambiente); ventiladores, sopradores e compressores; flanges e conexões flangeadas; sistemas aquecidos de forma intermitente (alívio, suspiros, drenos, tocha, drenagem); equipamentos com isolamento interno (refratário); uniões, purgadores, misturadores, foles, visores de fluxo, mangueiras, resfriadores/condensadores, placas de identificação, suportes e pescoços curtos de bocais. Isolamento removível (caixa bipartida, jaqueta) de preferência com isolante flexível; flexível não vai em linha vibrando (exceto rotativos) e leva proteção rígida onde há trânsito. Com proteção contra fogo, a camada base na área de incêndio é silicato de cálcio, fibra cerâmica, perlita, lã de rocha ou aerogel (sem PEAD nem PRFV).",
+   "valores": [
+    {"parametro": "Bomba que dispensa isolamento", "valor": "operação abaixo de 60 °C", "item": "4.3.1 b)", "nota": "exceto produto com ponto de fluidez acima do ambiente"},
+    {"parametro": "Pescoço de bocal flangeado que dispensa isolamento", "valor": "comprimento ≤ 300 mm", "item": "4.3.1 o)", "cota": "esquemas/isolamento-protecao-pessoal.svg#pescoco-bocal"}
+   ],
+   "figuras": ["esquemas/isolamento-protecao-pessoal.svg"]
+  },
+  {
+   "titulo": "Proteção pessoal",
+   "item": "5.2",
+   "texto": "Superfícies quentes em locais de acesso ou trânsito para operação rotineira são protegidas por isolamento ou por barreira física. Com isolamento, a espessura garante a face fria abaixo do limite. Equipamentos que precisam perder calor ou têm isolamento interno usam barreira física (N-250). Onde a proteção pessoal é o único critério e a temperatura é moderada, admite-se barreira física ou tinta isolante térmica (espessura dimensionada por ASTM C1055/C1057 método B ou NACE TM21423, comprovada por ensaio).",
+   "valores": [
+    {"parametro": "Temperatura máxima da face fria", "valor": "< 60 °C", "item": "5.2.2", "cota": "esquemas/isolamento-protecao-pessoal.svg#face-fria"},
+    {"parametro": "Zona de proteção — altura em relação ao piso", "valor": "< 2 m", "item": "5.2.3", "cota": "esquemas/isolamento-protecao-pessoal.svg#altura-piso"},
+    {"parametro": "Zona de proteção — afastamento lateral de escada ou plataforma", "valor": "< 1 m", "item": "5.2.3", "cota": "esquemas/isolamento-protecao-pessoal.svg#distancia-lateral"},
+    {"parametro": "Barreira física ou tinta isolante no lugar do isolamento", "valor": "operação até 150 °C", "item": "5.2.6", "nota": "prática recomendada; só quando a proteção pessoal é o único critério"},
+    {"parametro": "Tempo mínimo de contato no dimensionamento da tinta isolante", "valor": "5 s", "item": "5.2.6 Nota 1"},
+    {"parametro": "Tinta isolante em equipamento grande — avaliar conforto térmico", "valor": "operação acima de 115 °C", "item": "5.2.6 Nota 2"}
+   ],
+   "figuras": ["esquemas/isolamento-protecao-pessoal.svg"]
+  },
+  {
+   "titulo": "Estabilização de fases e fluidez do produto",
+   "item": "5.3, 5.4",
+   "texto": "Na estabilização de fases a espessura mantém o fluxo de calor abaixo do admissível pelo processo. Para manter a fluidez, ou o isolamento sozinho segura a temperatura do produto, ou um traço de vapor (N-42) ou elétrico (IEC/IEEE 60079-30-1/-2) repõe a perda — nesse caso o isolamento é dimensionado por conservação de energia.",
+   "valores": [
+    {"parametro": "Temperatura do produto no fim da linha", "valor": "≥ ponto de fluidez + 10 °C", "item": "5.4.1"}
+   ]
+  },
+  {
+   "titulo": "Espessuras tabeladas (Anexo B)",
+   "item": "Anexo B, Tab. B.1 a B.10",
+   "texto": "Para silicato de cálcio, perlita expandida, fibra cerâmica, lã de rocha e aerogel, o Anexo B traz duas tabelas cada: espessura econômica (conservação de energia, pela temperatura típica de operação) e espessura de proteção pessoal (pela temperatura máxima), por NPS de ½ a 42 e para equipamento e tanque, com o formato do isolante (calha, segmento, placa, tubo, manta, feltro de lamelas). As espessuras são as comerciais (25, 38, 51, 63, 76, 89, 102 mm…). Exemplos abaixo; usar a tabela completa no projeto.",
+   "valores": [
+    {"parametro": "Silicato de cálcio, NPS 2, conservação de energia — 50 °C / 300 °C / 650 °C", "valor": "25 mm / 51 mm / 76 mm", "item": "Tab. B.1", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante"},
+    {"parametro": "Silicato de cálcio, equipamento, conservação de energia — 650 °C", "valor": "140 mm", "item": "Tab. B.1", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante"},
+    {"parametro": "Silicato de cálcio, NPS 2, proteção pessoal — 650 °C", "valor": "89 mm", "item": "Tab. B.2", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante"},
+    {"parametro": "Silicato de cálcio, equipamento, proteção pessoal — 350 °C", "valor": "153 mm", "item": "Tab. B.2", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante", "nota": "a tabela chega a 204 mm nas temperaturas mais altas"},
+    {"parametro": "Perlita expandida, NPS 6, conservação de energia — 650 °C", "valor": "114 mm", "item": "Tab. B.3", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante"},
+    {"parametro": "Fibra cerâmica, NPS 2, conservação de energia — 650 °C", "valor": "89 mm", "item": "Tab. B.5", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante", "nota": "manta ou painel; densidade 64 ou 96 kg/m³ conforme a faixa"},
+    {"parametro": "Espessura mínima tabelada", "valor": "25 mm", "item": "Tab. B.1 a B.10", "cota": "esquemas/isolamento-termico-tubulacao.svg#espessura-isolante"}
+   ],
+   "figuras": ["esquemas/isolamento-termico-tubulacao.svg"]
+  }
+ ]
+}

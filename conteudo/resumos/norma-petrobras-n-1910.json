@@ -1,0 +1,57 @@
+{
+ "id": "PETROBRAS-N-1910",
+ "titulo": "Petrobras N-1910 Rev. H (10/2019; revalidada 03/2025) — Projeto de revestimento de concreto refratário",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 4",
+   "texto": "Projeto de revestimentos de concreto refratário de fornos e seus dutos, chaminés, vasos e equipamentos de craqueamento catalítico (UFCC/URFCC), incluindo materiais e ancoragem. Materiais pela N-1728, aplicação pela N-1617, solda das ancoragens pela N-133 e ASME IX (stud welding admitido em fornos, chaminés, regenerador e dutos de gás, exceto em curvas de gomos, vibração externa, regiões com vibração, choque térmico ou coque). Primeira camada de silicato de cálcio, placa de fibra cerâmica ou concreto isolante recebe pintura impermeabilizante PVA ou lona de polietileno. Peças metálicas que atravessam o refratário (bocais, tubos, suportes) levam junta de dilatação com papel de fibra cerâmica envolvendo toda a peça, com folha de alumínio ou lona na face do concreto; o projetista define as demais juntas. As pontas dos grampos V, Y e tridente recebem capa plástica para dilatar livremente. Agulhas metálicas ficam a critério do projetista, mas são obrigatórias onde há vibração e coque; não vão na 1ª camada de dupla camada, acima de 1 000 °C nem em antierosivo socado à mão. Chapa sujeita a condensação ácida recebe proteção anticorrosiva. Mudança de layout de dutos exige reavaliar vibração e flexibilidade.",
+   "valores": [
+    {"parametro": "Espessura mínima de qualquer camada de concreto", "valor": "50 mm", "item": "4.2", "cota": "esquemas/refratario-revestimento.svg#espessura-camada", "nota": "exceto concreto denso em malha ou grampos independentes, com até 25 mm"},
+    {"parametro": "Concreto denso em malha/grampos independentes (parede quente)", "valor": "até 25 mm", "item": "4.2", "cota": "esquemas/refratario-revestimento.svg#parede-quente"},
+    {"parametro": "Lona de polietileno sobre a 1ª camada — espessura / sobreposição", "valor": "0,10 mm / 50 mm", "item": "4.5", "cota": "esquemas/refratario-revestimento.svg#sobreposicao-lona"},
+    {"parametro": "Junta de dilatação em peça que atravessa o refratário — abertura mínima", "valor": "3 mm", "item": "4.6 c)", "cota": "esquemas/refratario-revestimento.svg#junta-dilatacao"},
+    {"parametro": "Folha de alumínio / lona na face da junta — espessura; sobreposição mín.", "valor": "0,05 mm / 0,10 mm; 50 mm", "item": "4.6 d)", "cota": "esquemas/refratario-revestimento.svg#folha-junta"},
+    {"parametro": "Capa plástica na ponta dos grampos V, Y e tridente", "valor": "1 mm de espessura × 30 mm de comprimento", "item": "4.8", "cota": "esquemas/refratario-revestimento.svg#capa-grampo"},
+    {"parametro": "Agulhas metálicas — regiões com coque", "valor": "4 % em massa (denso e isolante)", "item": "4.9.2"},
+    {"parametro": "Agulhas metálicas — regiões sem coque (máx. recomendado)", "valor": "3 % (denso) / 4 % (isolante)", "item": "4.9.3"},
+    {"parametro": "Emenda de campo (≥ 50 mm de espessura) — espaço entre faces que exige grampos", "valor": "> 80 mm", "item": "4.12 a)", "cota": "esquemas/refratario-revestimento.svg#emenda-campo", "nota": "bordas inclinadas para dentro (chanfro negativo) na socagem ou projeção"}
+   ],
+   "figuras": ["esquemas/refratario-revestimento.svg"]
+  },
+  {
+   "titulo": "Fornos e chaminés",
+   "item": "5.1, 5.2",
+   "texto": "Radiação até 1 000 °C de parede: camada única de concreto isolante classe A ou B com grampo V (até a espessura limite) ou dupla camada (1ª de isolante B/C, silicato de cálcio tipo III ou placa de fibra cerâmica; 2ª de isolante A/B) com grampo Y. Entre 1 000 e 1 200 °C: dupla camada com 2ª camada semi-isolante. Piso com tijolo denso sílico-aluminoso, concreto denso ou semi-isolante; silicato e fibra não vão como 1ª camada em tetos e quinas teto/convecção. Convecção: camada única (até a espessura limite) com grampo V ou dupla com grampo Y. Coifa, dutos de gás quente/frio e de ar quente: camada única isolante com grampo V. Corbéis com grampo tridente. Chaminé: isolante classe A ou semi-isolante com grampo V. A escolha do concreto considera temperatura e teores de enxofre, vanádio e fundentes do combustível. Encontros de paredes, tetos, pisos e módulos pré-fabricados têm junta de dilatação com manta de fibra cerâmica dobrada e compactada.",
+   "valores": [
+    {"parametro": "Radiação — camada única com grampo V: espessura total máx.", "valor": "200 mm", "item": "5.1.1 a)", "cota": "esquemas/refratario-revestimento.svg#espessura-camada"},
+    {"parametro": "Convecção — camada única com grampo V: espessura máx.", "valor": "150 mm", "item": "5.1.5 a)", "cota": "esquemas/refratario-revestimento.svg#espessura-camada"},
+    {"parametro": "Blocos de queimador — refratário aluminoso", "valor": "cone Orton ≥ 34 (1 763 °C)", "item": "5.1.3"},
+    {"parametro": "Junta de dilatação em paredes/tetos/pisos — abertura", "valor": "12 mm (até 20 mm entre módulos pré-fabricados)", "item": "5.1.8 b)", "cota": "esquemas/refratario-revestimento.svg#junta-dilatacao"}
+   ],
+   "figuras": ["esquemas/refratario-revestimento.svg"]
+  },
+  {
+   "titulo": "Unidade de craqueamento catalítico (UFCC)",
+   "item": "5.3",
+   "texto": "Regenerador: costado com isolante classe A e grampo V; distribuidor de ar com antierosivo ancorado por grampos C, coroa ou S ou malha; ciclones com antierosivo em malha hexagonal. Vaso separador: parede fria com semi-isolante/isolante e grampo V; parede quente e ciclones com antierosivo em malha hexagonal tipo II ou articulada. Riser de parede fria: antierosivo baixo cimento classe C com agulha, grampo V ondulado e vibração externa; parede quente com malha. Stripper, standpipes, cat cooler, válvula diverter, câmara de orifícios e potes de selagem seguem combinações análogas; stripper interno ganha chapa perfurada inox fixada por pinos roscados. Dutos de CO e de gás de combustão: antierosivo classe C em camada única ou dupla com espessura mínima da camada antierosiva. Onde a geometria impede a malha, usar grampos C, coroa ou S. Material da ancoragem: fornos pela API 560; UFCC pela Tabela 1 (AISI 304, 410S conforme o metal base e a temperatura).",
+   "valores": [
+    {"parametro": "Duto de CO / gás de combustão — camada antierosiva classe C", "valor": "≥ 75 mm", "item": "5.3.7", "cota": "esquemas/refratario-revestimento.svg#espessura-camada"},
+    {"parametro": "Chapa perfurada do stripper interno — furos / passo / espessura", "valor": "Ø 2 pol alternados / 3 pol entre centros / 1/8 pol", "item": "5.3.5 Nota 1", "cota": "esquemas/refratario-revestimento.svg#parede-quente", "nota": "chapa de 1 200 × 2 000 mm, inox 304"},
+    {"parametro": "Pinos roscados da chapa perfurada — espaçamento", "valor": "500 mm × 500 mm", "item": "5.3.5 Nota 2", "cota": "esquemas/refratario-revestimento.svg#espacamento-grampos", "nota": "altura = espessura do concreto + 50 mm; rosca ≥ 60 mm"}
+   ],
+   "figuras": ["esquemas/refratario-revestimento.svg"]
+  },
+  {
+   "titulo": "Ancoragens — malhas e grampos",
+   "item": "6",
+   "texto": "Malhas hexagonais ou articuladas fixadas conforme os detalhes da norma, com reforço onde há coque ou vibração; em dupla camada, grampos de fixação em quadrado centrado com a malha soldada de um lado de cada tira. As tiras devem ficar o mais perpendiculares possível ao fluxo. Peças revestidas em fábrica deixam a borda sem malha para a solda de campo; emendas longitudinais de malha são defasadas. Painéis independentes em reatores com coque e estufamento. Grampos V e Y em formação triangular; em tetos de dupla camada, grampos V auxiliares. Em superfícies cilíndricas internas o passo na base aumenta e nas externas diminui. Mudanças de direção com grampos L.",
+   "valores": [
+    {"parametro": "Grampos de fixação da malha (dupla camada) — espaçamento", "valor": "200 mm a 250 mm (150 mm com coque/vibração)", "item": "6.1.2 a)", "cota": "esquemas/refratario-revestimento.svg#espacamento-fixacao"},
+    {"parametro": "Faixa sem malha junto à borda de peças a soldar em campo", "valor": "≥ 100 mm", "item": "6.1.4", "cota": "esquemas/refratario-revestimento.svg#borda-sem-malha"},
+    {"parametro": "Defasagem da emenda longitudinal entre malhas", "valor": "≥ 100 mm", "item": "6.1.5", "cota": "esquemas/refratario-revestimento.svg#defasagem-malha"}
+   ],
+   "figuras": ["esquemas/refratario-revestimento.svg"]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "PETROBRAS-N-2037",
+ "titulo": "Petrobras N-2037 Rev. D (03/2016; 1ª emenda 04/2019; revalidada 03/2022) — Pintura de equipamentos submersos em água do mar",
+ "secoes": [
+  {
+   "titulo": "Escopo e regras gerais",
+   "item": "1, 3",
+   "texto": "Esquemas de pintura externa para equipamentos permanente ou temporariamente submersos em água do mar. Aplicação pela N-13, sem rolo. Retoque repete o esquema original (SSPC-SP11 se o jato for inviável); epóxi fora do prazo de repintura é lixado e limpo. Inspeção visual prévia (NBR 14847/15185, grau A–D, carepa removida), desengraxe localizado e jato Sa 2½ ou hidrojato WJ-2 — este só em repintura, pois não cria perfil (tinta compatível, até flash rust leve). Anodos (N-2838) instalados antes e protegidos com fita; plaquetas de identificação não são pintadas; continuidade da película verificada com detector de descontinuidade (NBR 16172).",
+   "valores": [
+    {"parametro": "Perfil de rugosidade", "valor": "50 µm a 100 µm", "item": "Tab. 1", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg", "esquemas/plataforma-zonas-revestimento.svg"]
+  },
+  {
+   "titulo": "Esquemas de pintura",
+   "item": "4",
+   "texto": "Alternativa A: 2 ou 3 demãos de epóxi sem solvente tolerante a superfície molhada (N-2680). Alternativa B: 2 ou 3 demãos de epóxi poliamida de alta espessura (N-2628), ou demão única com pistola airless se o fabricante recomendar. Para pré-qualificação, A e B passam pelo ensaio de descolamento catódico (ISO 20340, tabelas 4 e 5). Alternativa C: sistema NORSOK M-501 nº 7B ou 7C, pré-qualificado por laboratório independente.",
+   "valores": [
+    {"parametro": "Alternativas A e B — espessura seca total mínima", "valor": "450 µm", "item": "4.1, 4.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Alternativa B em demão única (airless)", "valor": "500 µm", "item": "4.2 Nota 1", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Aderência por tração",
+   "item": "Tab. A.1 (1ª emenda)",
+   "texto": "Mesma exigência para as três alternativas; valores referidos a preparo Sa 2½, com equipamento e adesivo capazes de pelo menos 20 % acima do mínimo. A página substituída pela emenda (que pedia mais) não vale.",
+   "valores": [
+    {"parametro": "Pull-off mínimo — alternativas A, B e C", "valor": "12 MPa (qualquer falha exceto A/B); > 20 MPa qualquer falha", "item": "Tab. A.1"}
+   ]
+  }
+ ]
+}

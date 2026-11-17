@@ -1,0 +1,50 @@
+{
+ "id": "PETROBRAS-N-1503",
+ "titulo": "Petrobras N-1503 Rev. F (12/2014; revalidada 03/2025) — Cores para pintura de embarcações",
+ "secoes": [
+  {
+   "titulo": "Escopo e paleta",
+   "item": "1, 3, Tab. 1",
+   "texto": "Uso da cor em petroleiros, navios de gás, rebocadores e barcos de apoio Petrobras/Transpetro. As cores vêm da N-1219, com notação Munsell para compra de tinta fora do país: preto (N 1), branco (N 9.5), alumínio, vermelho-segurança (5 R 4/14), óxido de ferro (10 R 3/6), marrom-canalizações (2.5 YR 2/4), alaranjado-segurança, amarelo-Petrobras (2.5 Y 8/12), cinza-claro (N 6.5), verde-Petrobras (2.5 G 5/10), verde-pastel (5 G 8/4), verde-emblema (2.5 G 3/4), azul-segurança (2.5 PB 4/10) e azul-pastel (2.5 PB 8/4).",
+   "valores": [],
+   "figuras": ["esquemas/embarcacao-pintura-casco-tanques.svg"]
+  },
+  {
+   "titulo": "Onde vai cada cor",
+   "item": "4.1",
+   "texto": "Preto: costado, topo da chaminé, âncoras, gatos e poleame com inscrições de SWL, tomadas de carga de óleo cru. Branco: marcas de casco (calado, borda-livre, nome), anteparas externas e portas da superestrutura, interiores de praça de máquinas e casa de bombas, mastros, turcos, guindastes, balaústres e corrimãos externos. Óxido de ferro: conveses principal, castelo e tombadilho, tubulação e equipamentos desses conveses, dispositivos de amarração e passarela de caminho seguro. Cinza-claro: conveses da superestrutura e pisos internos, porões até o estrado, painéis elétricos. Vermelho-segurança: todo o sistema de combate a incêndio (não usar vermelho para indicar perigo, salvo luzes de obstrução e botões de emergência). Alumínio: vapor e condensado, descarga de gases, interior da chaminé, escadas de portaló, condensadores/aquecedores quentes. Alaranjado-segurança: baleeiras, boias, bote de resgate, kit SOPEP, partes móveis perigosas. Amarelo-Petrobras ('cuidado'): chaminé, corrimãos internos, bordas de degraus, vigas baixas e obstáculos. Verde-Petrobras: suspiros e volantes de lastro. Verde-pastel: equipamentos internos e condensadores frios. Verde-emblema: primeiros socorros, chuveiros, EPI. Azul-segurança: ampolas de ar e instrumentos pneumáticos. Marrom-canalizações: redes de carga de produtos claros.",
+   "valores": [
+    {"parametro": "Rodapé nas anteparas de aço (cor do convés)", "valor": "150 mm de altura", "item": "4.1.2 Nota", "cota": "esquemas/embarcacao-cores-identificacao.svg#rodape"},
+    {"parametro": "Faixa antiderrapante óxido de ferro em volta de molinetes e guinchos", "valor": "cerca de 2,0 m de largura", "item": "4.1.3 Nota 1", "cota": "esquemas/embarcacao-cores-identificacao.svg#faixa-guincho"},
+    {"parametro": "Passarela de caminho seguro no convés principal — piso óxido de ferro antiderrapante", "valor": "800 mm", "item": "4.1.3 Nota 2", "cota": "esquemas/embarcacao-cores-identificacao.svg#passarela"},
+    {"parametro": "Passarela — faixas laterais amarelo-Petrobras", "valor": "2 × 100 mm", "item": "4.1.3 Nota 2", "cota": "esquemas/embarcacao-cores-identificacao.svg#faixa-lateral"},
+    {"parametro": "Passarela — largura total", "valor": "1 000 mm", "item": "4.1.3 Nota 2", "cota": "esquemas/embarcacao-cores-identificacao.svg#largura-total"},
+    {"parametro": "Faixa amarela na borda dos degraus de escadas inclinadas", "valor": "30 mm na horizontal (e a altura do flange na vertical)", "item": "4.1.8 c), Fig. 1", "cota": "esquemas/embarcacao-cores-identificacao.svg#faixa-degrau"},
+    {"parametro": "Cinta azul nas ampolas de ar de partida", "valor": "100 mm, a meio comprimento", "item": "4.1.12 a)", "cota": "esquemas/embarcacao-cores-identificacao.svg#cinta-ampola"},
+    {"parametro": "Condensadores e aquecedores — alumínio / verde-pastel", "valor": "≥ 80 °C / < 80 °C", "item": "4.1.6 g), 4.1.10 b)"}
+   ],
+   "figuras": ["esquemas/embarcacao-cores-identificacao.svg"]
+  },
+  {
+   "titulo": "Identificação de fluidos em tubulações e válvulas",
+   "item": "4.2–4.5, Tab. 2–4",
+   "texto": "A tubulação é pintada inteira na cor base do local (Tabela 2: incêndio vermelho, vapor alumínio, conveses abertos óxido de ferro, anteparas externas e interiores brancos, abaixo de estrados cinza-claro). Sobre ela, faixas na cor primária do fluido, com faixa central na cor secundária quando é preciso detalhar (Tabela 3: água salgada verde, água doce azul-pastel, ar azul-segurança, óleo pesado preto, produtos claros marrom, gases amarelo). Se a cor base coincide com a primária, usa-se só a faixa secundária. Gás liquefeito (GNL/GLP) ganha quarta faixa a jusante no sentido da descarga. Tubulação dentro de tanque não é identificada. Válvulas: volante na cor primária e raios na secundária (Tabela 4); GNL/GLP com centro do volante em alumínio.",
+   "valores": [
+    {"parametro": "Faixa de cor primária", "valor": "150 mm de largura", "item": "4.2.2, Fig. 2", "cota": "esquemas/embarcacao-cores-identificacao.svg#faixa-primaria"},
+    {"parametro": "Faixa de cor secundária (no centro da primária)", "valor": "50 mm de largura", "item": "4.2.2, Fig. 2", "cota": "esquemas/embarcacao-cores-identificacao.svg#faixa-secundaria"},
+    {"parametro": "Espaçamento máximo das identificações no convés principal", "valor": "10 m", "item": "4.2.2, Fig. 2", "cota": "esquemas/embarcacao-cores-identificacao.svg#espacamento-faixas"},
+    {"parametro": "Quarta faixa de gás liquefeito (GNL/GLP)", "valor": "50 mm", "item": "Tab. 3", "cota": "esquemas/embarcacao-cores-identificacao.svg#faixa-secundaria", "nota": "cores amarelo + preto + amarelo + alumínio"},
+    {"parametro": "Ar de partida / ar de controle (identificação)", "valor": "azul + vermelho (30 kgf/cm²) / azul + alaranjado (7 kgf/cm²)", "item": "Tab. 3"}
+   ],
+   "figuras": ["esquemas/embarcacao-cores-identificacao.svg"]
+  },
+  {
+   "titulo": "Chaminé, amarras e embarcações de combate à poluição",
+   "item": "4.6–4.8",
+   "texto": "Chaminé e logotipo conforme o Anexo A, com o logotipo proporcional à chaminé. Nas amarras, o elo Kenter entre quartéis é vermelho e, de cada lado dele, tantos elos brancos quanto o número do quartel que termina (1 elo no fim do 1º quartel, 2 no fim do 2º…); os elos são tratados a St 3, lavados com água doce, secos e pintados. Embarcações de combate à poluição: costado azul-segurança, conveses e superestrutura alaranjado-segurança, mastros brancos, obras vivas com anti-incrustante vermelho; interior com anteparas brancas e conveses cinza-claro.",
+   "valores": [
+    {"parametro": "Lavagem dos elos da amarra antes de pintar", "valor": "água doce a 6 000 psi (mín.)", "item": "4.7.3"}
+   ]
+  }
+ ]
+}

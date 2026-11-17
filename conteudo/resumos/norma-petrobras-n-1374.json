@@ -1,0 +1,107 @@
+{
+ "id": "PETROBRAS-N-1374",
+ "titulo": "Petrobras N-1374 Rev. J (08/2020) — Revestimentos anticorrosivos para manutenção de unidades marítimas de exploração e produção",
+ "secoes": [
+  {
+   "titulo": "Escopo, zonas e regras gerais",
+   "item": "1, 3",
+   "texto": "Esquemas de manutenção sobre aço carbono em plataformas fixas e flutuantes, navios de E&P e monoboias: conveses, zona de transição e acima, módulos, tubulações e equipamentos. A unidade é dividida em zona submersa, de transição (delimitada pela N-1993) e atmosférica; fixas pintam transição e atmosférica, móveis pintam as três, e toda a parte submersa tem proteção catódica. Shop primer é removido antes do esquema; heliponto com antiderrapante e demarcação da NORMAM 27; retoque repete de preferência o esquema original (ou fundo epóxi-alumínio N-2288), com SSPC-SP11 se jato/hidrojato forem inviáveis. Inspeção prévia (NBR 14847/15185) com grau de intemperismo A–D e grau de enferrujamento ASTM D610. Aplicação airless; stripe coat em cada demão nos pontos críticos (dispensável após o acabamento); cavidades e pites fundos são preenchidos antes. Epóxi que passou do prazo de repintura é lixado e limpo. Detector de descontinuidade (NBR 16172) quando o esquema pedir, exceto em acessórios forjados/fundidos.",
+   "valores": [
+    {"parametro": "Temperatura máxima da superfície para pintar", "valor": "52 °C", "item": "3.7", "cota": "esquemas/pintura-condicoes-aplicacao.svg#temp-sup-max", "nota": "salvo autorização do fabricante"}
+   ],
+   "figuras": ["esquemas/plataforma-zonas-revestimento.svg", "esquemas/pintura-condicoes-aplicacao.svg"]
+  },
+  {
+   "titulo": "Preparo de superfície",
+   "item": "3.8, 3.9, Tab. 1",
+   "texto": "Desengraxe químico onde houver contaminação e depois jato abrasivo seco (Sa 2½), jato úmido (WAB-2) ou hidrojato (WJ-2) conforme N-9; para zinco e aspersão térmica só jato seco. Hidrojato sem abrasivo não cria perfil. Superfície tratada a úmido aceita até flash rust leve, com tinta compatível; pintar molhado ou acima de 85 % de UR só com tinta aprovada. Medir sais solúveis imediatamente antes do primer. Monoboia na docagem: raspar organismos, lavar com água doce em leque, jatear as áreas corroídas e aplicar epóxi espesso.",
+   "valores": [
+    {"parametro": "Perfil de rugosidade — pintura interna", "valor": "70 μm a 100 μm", "item": "Tab. 1", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Perfil de rugosidade — pintura externa (e esquemas de zinco/aspersão)", "valor": "50 μm a 100 μm", "item": "Tab. 1", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Umidade relativa acima da qual a tinta precisa de aprovação prévia (tratamento úmido)", "valor": "85 %", "item": "Tab. 1 Nota 2", "cota": "esquemas/pintura-condicoes-aplicacao.svg#ur-max"},
+    {"parametro": "Monoboia — pressão mínima da lavagem com água doce", "valor": "5 000 psi", "item": "3.9"},
+    {"parametro": "Monoboia — epóxi N-2943 Anexo A", "valor": "≥ 1 000 μm (1 ou 2 demãos)", "item": "3.9", "cota": "esquemas/plataforma-zonas-revestimento.svg#espessura-revestimento"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg", "esquemas/pintura-condicoes-aplicacao.svg"]
+  },
+  {
+   "titulo": "Zona submersa e zona de transição",
+   "item": "4.1, 4.2",
+   "texto": "Na zona submersa o revestimento atende ao desempenho da ISO 12944-9 (CX e Im4), com detector de descontinuidade e pull-off; na manutenção usa-se o revestimento para condensação permanente (N-2943 Anexo D). Na zona de transição há duas alternativas: massa epóxi poliamida bicomponente em camada contínua (A) ou epóxi espesso do Anexo A da N-2943 (B); retoques com a mesma solução, após jato ou hidrojato localizado.",
+   "valores": [
+    {"parametro": "Zona submersa — espessura mínima total", "valor": "450 μm", "item": "4.1.1, 4.1.2", "cota": "esquemas/plataforma-zonas-revestimento.svg#zona-submersa"},
+    {"parametro": "Zona submersa — pull-off", "valor": "10 a 20 MPa (falhas B, -/Y, Y ou Y/Z); > 20 MPa qualquer", "item": "4.1.1 Nota 3"},
+    {"parametro": "Transição alternativa A — massa epóxi", "valor": "1 mm a 4 mm", "item": "4.2.1", "cota": "esquemas/plataforma-zonas-revestimento.svg#espessura-revestimento"},
+    {"parametro": "Transição alternativa B — epóxi N-2943 Anexo A", "valor": "≥ 1 000 μm", "item": "4.2.2", "cota": "esquemas/plataforma-zonas-revestimento.svg#zona-transicao"}
+   ],
+   "figuras": ["esquemas/plataforma-zonas-revestimento.svg"]
+  },
+  {
+   "titulo": "Zona atmosférica — sem isolamento",
+   "item": "4.3",
+   "texto": "De 0 a 80 °C há quatro opções: (1) três demãos de epóxi tolerante a superfície molhada N-2680 + PU acrílico; (2) epóxi espesso de alto sólidos (N-2943 Anexo A) + acabamento do Anexo B; (3) poliureia ou PU elastomérico de cura rápida por especificação aprovada; (4) fundo rico em zinco + acabamento do Anexo B, qualificado pela ISO 12944-9 (CX) em laboratório acreditado. De 80 a 150 °C, novolac tipo II. De 150 a 500 °C, etil-silicato de zinco-alumínio N-2231 (reparos pela opção 2), duas demãos do Anexo E da N-2943, ou aspersão térmica de alumínio sobre Sa 3 (N-2568). Áreas críticas: Anexo C da N-2943; tubulação com condensação permanente: Anexo D.",
+   "valores": [
+    {"parametro": "0–80 °C opção 1 — N-2680", "valor": "3 demãos de ≥ 150 μm", "item": "4.3.1.1.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "0–80 °C opção 1 — intervalo até o acabamento", "valor": "12 h a 120 h", "item": "4.3.1.1.1"},
+    {"parametro": "0–80 °C opção 1 — PU acrílico N-2677", "valor": "≥ 70 μm", "item": "4.3.1.1.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"},
+    {"parametro": "0–80 °C opção 2 — epóxi N-2943 Anexo A (sólidos ≥ 80 %)", "valor": "≥ 500 μm, demão única", "item": "4.3.1.2.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo", "nota": "cura total em até 24 h a 25 °C; acabamento após ≥ 8 h"},
+    {"parametro": "0–80 °C opção 2 — acabamento N-2943 Anexo B", "valor": "≥ 60 μm", "item": "4.3.1.2.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"},
+    {"parametro": "0–80 °C opção 4 — fundo rico em zinco / acabamento Anexo B", "valor": "≥ 100 μm / ≥ 200 μm", "item": "4.3.1.4.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "80–150 °C — novolac N-2912 tipo II", "valor": "≥ 400 μm", "item": "4.3.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "150–500 °C opção 1 — etil-silicato de zinco-alumínio N-2231", "valor": "≥ 100 μm", "item": "4.3.3.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "150–500 °C opção 2 — N-2943 Anexo E", "valor": "2 demãos de ≥ 150 µm", "item": "4.3.3.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Condensação permanente — N-2943 Anexo D", "valor": "≥ 300 μm, demão única", "item": "4.3.5", "cota": "esquemas/pintura-esquema-camadas.svg#eps"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Zona atmosférica — com isolamento térmico",
+   "item": "4.4",
+   "texto": "Sob isolamento, esquemas de uma demão de novolac tipo II ou duas do revestimento do Anexo E, conforme a faixa de temperatura.",
+   "valores": [
+    {"parametro": "-45 °C a 15 °C — novolac N-2912 tipo II", "valor": "≥ 300 μm", "item": "4.4.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "15 °C a 80 °C — novolac tipo II ou 2 demãos Anexo E", "valor": "≥ 300 μm / 2 × 150 µm", "item": "4.4.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "80 °C a 200 °C — novolac tipo II", "valor": "≥ 300 μm", "item": "4.4.3.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "80 °C a 500 °C — N-2943 Anexo E", "valor": "2 demãos de ≥ 150 µm", "item": "4.4.3.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Pisos",
+   "item": "4.5",
+   "texto": "Rotas de fuga e helipontos usam obrigatoriamente as opções 1, 2 ou 4 (antiderrapantes), recomendadas também onde há derramamento; os demais pisos usam a opção 3. Opção 1: fundo N-2680 + antiderrapante (N-2943 Anexo F). Opção 2: epóxi espesso Anexo A + antiderrapante. Opção 3: epóxi Anexo A + PU acrílico. Opção 4: poliureia/PU elastomérico. Heliponto recebe demarcação em PU acrílico por cima. Pull-off dos pisos 1 e 2 medido na 1ª demão.",
+   "valores": [
+    {"parametro": "Opção 1 — fundo N-2680", "valor": "≥ 150 µm", "item": "4.5.1.1", "cota": "esquemas/plataforma-zonas-revestimento.svg#fundo-piso", "nota": "acabamento entre 12 h e 120 h"},
+    {"parametro": "Opções 1 e 2 — antiderrapante N-2943 Anexo F", "valor": "≥ 500 µm", "item": "4.5.1.2, 4.5.2.2", "cota": "esquemas/plataforma-zonas-revestimento.svg#antiderrapante"},
+    {"parametro": "Opções 2 e 3 — fundo epóxi N-2943 Anexo A", "valor": "≥ 500 μm", "item": "4.5.2.1, 4.5.3.1", "cota": "esquemas/plataforma-zonas-revestimento.svg#fundo-piso"},
+    {"parametro": "Demarcação de heliponto / acabamento opção 3 — N-2677", "valor": "≥ 70 µm", "item": "4.5.1.2 Nota, 4.5.3.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"}
+   ],
+   "figuras": ["esquemas/plataforma-zonas-revestimento.svg"]
+  },
+  {
+   "titulo": "Pintura interna",
+   "item": "4.6",
+   "texto": "Tanque de lastro: IMO MSC 215(82), totalmente pintado. Tanque de carga: IMO MSC 288(87), áreas como na N-1192 (podendo subir as alturas conforme o BSW). Tanque slop e equipamentos de processo (separadores, dessalgadoras, tratadores): novolac tipo III espesso, com flocos de vidro (barreira) ou carga cerâmica (abrasão). Água potável: epóxi sem solvente certificado. Sempre stripe coat por demão, de preferência tinta edge retentive, e detector de descontinuidade (restrito às falhas reveladas se a tinta tiver pigmento fluorescente). Outros tanques: N-2913; materiais não carbono: N-1021.",
+   "valores": [
+    {"parametro": "Slop e equipamentos de processo — novolac N-2912 tipo III", "valor": "800 µm total (1 ou 2 demãos)", "item": "4.6.1.2, 4.6.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Água potável — epóxi certificado", "valor": "≥ 400 µm total", "item": "4.6.1.4", "cota": "esquemas/pintura-esquema-camadas.svg#eps", "nota": "intervalo entre demãos 12 h a 72 h"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Aderência por tração (Anexo A)",
+   "item": "Tab. A.1",
+   "texto": "Tensão mínima e falha aceita por esquema; acima de 20 MPa qualquer falha é aceita.",
+   "valores": [
+    {"parametro": "Transição alternativa B", "valor": "≥ 10 MPa", "item": "Tab. A.1"},
+    {"parametro": "0–80 °C opções 1 e 2; piso opção 3", "valor": "≥ 8 MPa", "item": "Tab. A.1"},
+    {"parametro": "Novolac (80–150 °C; isolados; slop; processo)", "valor": "≥ 15 MPa", "item": "Tab. A.1"},
+    {"parametro": "Etil-silicato de zinco-alumínio", "valor": "≥ 5 MPa", "item": "Tab. A.1"},
+    {"parametro": "Anexo E da N-2943 (2 demãos)", "valor": "≥ 2 MPa", "item": "Tab. A.1", "nota": "valor baixo, mas coerente com o requisito do próprio Anexo E da N-2943 (2,0 MPa)"},
+    {"parametro": "Pisos opção 1 / opção 2", "valor": "≥ 12 MPa / ≥ 10 MPa", "item": "Tab. A.1"},
+    {"parametro": "Tanques de lastro, carga e água potável", "valor": "≥ 12 MPa", "item": "Tab. A.1"},
+    {"parametro": "Condensação permanente", "valor": "8 a 10 MPa (falhas B, B/C, -/Y, Y, Y/Z); > 10 MPa qualquer", "item": "Tab. A.1"}
+   ]
+  }
+ ]
+}

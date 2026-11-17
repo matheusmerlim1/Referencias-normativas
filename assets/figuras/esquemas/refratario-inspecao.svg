@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" aria-label="Inspeção de refratário após operação — perda de espessura, trincas e ancoragens">
+<title>Inspeção de refratário após operação — perda de espessura, trincas e ancoragens (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Inspeção de refratário após operação — perda de espessura, trincas e ancoragens</text>
+<text x="200" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) seção do revestimento (parede fria)</text>
+<rect x="40" y="80" width="16" height="250" fill="#666" fill-opacity="0.5" stroke="#666" stroke-width="1.5"/>
+<path d="M56,80 L216,80 L216,150 L170,150 L170,230 L216,230 L216,330 L56,330 Z" fill="#c96" fill-opacity="0.35" stroke="#c96" stroke-width="1.5"/>
+<rect x="170" y="150" width="46" height="80" fill="#fff" fill-opacity="1.0" stroke="#fff" stroke-width="1" stroke-dasharray="4 3"/>
+<polyline points="56,190 196,165 56,190 140,205" fill="none" stroke="#555" stroke-width="2.5"/>
+<path d="M120,80 L126,80 L118,135 L114,135 Z" fill="#333" fill-opacity="0.9" stroke="#333" stroke-width="0.5"/>
+<g id="cota-espessura-projeto" class="cota"><line x1="56" y1="330" x2="56" y2="364" stroke="#666" stroke-width="1"/><line x1="216" y1="330" x2="216" y2="364" stroke="#666" stroke-width="1"/><line x1="56" y1="360" x2="216" y2="360" stroke="#666" stroke-width="1.2"/><polygon points="56,360 65,363.5 65,356.5" fill="#666"/><polygon points="216,360 207,356.5 207,363.5" fill="#666"/><text x="136.0" y="376" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">espessura de projeto</text></g>
+<g id="cota-perda-espessura" class="cota"><line x1="170" y1="230" x2="170" y2="254" stroke="#666" stroke-width="1"/><line x1="216" y1="230" x2="216" y2="254" stroke="#666" stroke-width="1"/><line x1="170" y1="250" x2="216" y2="250" stroke="#666" stroke-width="1.2"/><polygon points="170,250 179,253.5 179,246.5" fill="#666"/><polygon points="216,250 207,246.5 207,253.5" fill="#666"/><text x="224" y="262" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">perda</text></g>
+<g id="cota-extremidade-exposta" class="cota"><line x1="250" y1="140" x2="196" y2="165" stroke="#666" stroke-width="1.2"/><polygon points="196.0,165.0 205.6,164.4 202.7,158.0" fill="#666"/><text x="226" y="132" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ponta do grampo exposta</text></g>
+<g id="cota-largura-trinca" class="cota"><line x1="114" y1="80" x2="114" y2="64" stroke="#666" stroke-width="1"/><line x1="126" y1="80" x2="126" y2="64" stroke="#666" stroke-width="1"/><line x1="114" y1="68" x2="126" y2="68" stroke="#666" stroke-width="1.2"/><polygon points="114,68 123,71.5 123,64.5" fill="#666"/><polygon points="126,68 117,64.5 117,71.5" fill="#666"/><text x="132" y="74" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">largura da trinca</text></g>
+<text x="40" y="74" text-anchor="start" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">chapa</text>
+<text x="470" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) estilete (ataque químico)</text>
+<rect x="370" y="200" width="200" height="100" fill="#c96" fill-opacity="0.35" stroke="#c96" stroke-width="1.5"/>
+<rect x="370" y="300" width="200" height="12" fill="#666" fill-opacity="0.5" stroke="#666" stroke-width="1.5"/>
+<rect x="466" y="120" width="8" height="120" fill="#555" fill-opacity="0.7" stroke="#555" stroke-width="1.5"/>
+<path d="M466,240 L474,240 L470,252 Z" fill="#555" fill-opacity="0.7" stroke="#555" stroke-width="1.5"/>
+<g id="cota-penetracao-estilete" class="cota"><line x1="470" y1="200" x2="594" y2="200" stroke="#666" stroke-width="1"/><line x1="470" y1="252" x2="594" y2="252" stroke="#666" stroke-width="1"/><line x1="590" y1="200" x2="590" y2="252" stroke="#666" stroke-width="1.2"/><polygon points="590,200 593.5,209 586.5,209" fill="#666"/><polygon points="590,252 586.5,243 593.5,243" fill="#666"/><text x="596" y="230.0" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">penetração</text></g>
+<g id="cota-diametro-estilete" class="cota"><line x1="466" y1="110" x2="474" y2="110" stroke="#666" stroke-width="1.2"/><polygon points="466,110 475,113.5 475,106.5" fill="#666"/><polygon points="474,110 465,106.5 465,113.5" fill="#666"/><text x="482" y="104" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Ø do estilete</text></g>
+<text x="820" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(c) medição direta da espessura</text>
+<rect x="690" y="90" width="260" height="180" fill="#c96" fill-opacity="0.25" stroke="#c96" stroke-width="1.5"/>
+<rect x="740" y="120" width="120" height="120" fill="#fff" fill-opacity="0.9" stroke="#fff" stroke-width="1.5" stroke-dasharray="5 3"/>
+<circle cx="770" cy="150" r="4" fill="#333" fill-opacity="0.8" stroke="#333" stroke-width="1.5"/>
+<circle cx="830" cy="170" r="4" fill="#333" fill-opacity="0.8" stroke="#333" stroke-width="1.5"/>
+<circle cx="790" cy="215" r="4" fill="#333" fill-opacity="0.8" stroke="#333" stroke-width="1.5"/>
+<g id="cota-area-demolicao" class="cota"><line x1="740" y1="240" x2="740" y2="294" stroke="#666" stroke-width="1"/><line x1="860" y1="240" x2="860" y2="294" stroke="#666" stroke-width="1"/><line x1="740" y1="290" x2="860" y2="290" stroke="#666" stroke-width="1.2"/><polygon points="740,290 749,293.5 749,286.5" fill="#666"/><polygon points="860,290 851,286.5 851,293.5" fill="#666"/><text x="800.0" y="306" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">área de demolição (lado)</text></g>
+<circle cx="905" cy="130" r="6" fill="#333" fill-opacity="0.2" stroke="#333" stroke-width="1.5"/>
+<g id="cota-furo-medicao" class="cota"><line x1="930" y1="80" x2="909" y2="124" stroke="#666" stroke-width="1.2"/><polygon points="909.0,124.0 916.0,117.4 909.7,114.4" fill="#666"/><text x="900" y="76" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">furo de broca</text></g>
+<text x="230" y="430" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(d) teste de martelamento — malha de pontos</text>
+<circle cx="70" cy="450" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="70" cy="474" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="70" cy="498" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="130" cy="450" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="130" cy="474" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="130" cy="498" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="190" cy="450" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="190" cy="474" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="190" cy="498" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="250" cy="450" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="250" cy="474" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="250" cy="498" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="310" cy="450" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="310" cy="474" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="310" cy="498" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="370" cy="450" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="370" cy="474" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<circle cx="370" cy="498" r="5" fill="#c33" fill-opacity="0.5" stroke="#c33" stroke-width="1"/>
+<g id="cota-espacamento-martelamento" class="cota"><line x1="70" y1="498" x2="70" y2="526" stroke="#666" stroke-width="1"/><line x1="130" y1="498" x2="130" y2="526" stroke="#666" stroke-width="1"/><line x1="70" y1="522" x2="130" y2="522" stroke="#666" stroke-width="1.2"/><polygon points="70,522 79,525.5 79,518.5" fill="#666"/><polygon points="130,522 121,518.5 121,525.5" fill="#666"/><text x="140" y="526" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">espaçamento entre impactos</text></g>
+<text x="760" y="430" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(e) dobramento de grampo remanescente</text>
+<rect x="640" y="530" width="240" height="10" fill="#666" fill-opacity="0.5" stroke="#666" stroke-width="1.5"/>
+<line x1="700" y1="530" x2="700" y2="450" stroke="#555" stroke-width="3"/>
+<line x1="700" y1="530" x2="722" y2="448" stroke="#c33" stroke-width="2.5" stroke-dasharray="5 3"/>
+<path d="M700,470 A60,60 0 0 1 716,472" fill="none" stroke="#666" stroke-width="1.2"/>
+<g id="cota-dobramento-grampo" class="cota"><line x1="800" y1="470" x2="712" y2="468" stroke="#666" stroke-width="1.2"/><polygon points="712.0,468.0 720.9,471.7 721.1,464.7" fill="#666"/><text x="760" y="462" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ângulo de dobramento</text></g>
+<text x="12" y="552" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

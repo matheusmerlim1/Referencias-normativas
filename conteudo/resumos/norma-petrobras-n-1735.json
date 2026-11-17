@@ -1,0 +1,64 @@
+{
+ "id": "PETROBRAS-N-1735",
+ "titulo": "Petrobras N-1735 Rev. H (08/2023) — Pintura de máquinas, equipamentos elétricos e instrumentos",
+ "secoes": [
+  {
+   "titulo": "Escopo e regras gerais",
+   "item": "1, 3",
+   "texto": "Seleção de esquemas para máquinas e equipamentos de aço carbono: bombas, compressores, ventiladores, turbinas, misturadores, motores, equipamentos de movimentação de carga (guindastes, pontes rolantes), máquinas operatrizes, sopradores, geradores, redutores e variadores. Painéis e invólucros elétricos seguem a N-2841; manutenção em unidade marítima, a N-1374; galvanizado, inox e outros materiais, a N-1021. As máquinas já vêm pintadas de fábrica com o esquema certo. Retoque repete o esquema original (sem jato, com SP11 e fundo epóxi-alumínio N-2288, cuidando da compatibilidade); repintura grande usa os esquemas da norma. Hidrojato livre na manutenção, mas em obra nova só com abrasivo (para abrir perfil). Epóxi que passou do prazo de repintura é lixado (lixa 60 a 80, escova rotativa ou brush off) e limpo. Stripe coat em cada demão; pull-off após a cura do esquema completo.",
+   "valores": [],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Preparo de superfície",
+   "item": "3.5–3.7, Tab. 1",
+   "texto": "Inspeção visual (NBR 14847/15185, grau de intemperismo A–D; pintura existente por ASTM D610 e N-9), desengraxe só onde houver contaminação e jato Sa 2½, jato úmido WAB-2 ou hidrojato WJ-2 (condição 4 opção 1, de zinco inorgânico, só jato seco). Tratamento úmido aceita até flash rust leve com tinta compatível.",
+   "valores": [
+    {"parametro": "Perfil de rugosidade", "valor": "50 µm a 100 µm", "item": "Tab. 1", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg"]
+  },
+  {
+   "titulo": "Equipamentos sem isolamento térmico",
+   "item": "4.1",
+   "texto": "Condição 1 (ambiente comum, 0 a 80 °C): fundo epóxi-fosfato de zinco de alta espessura N-2630 ou epóxi tolerante N-2680, mais PU acrílico. Condição 2 (orla marítima, píer, área industrial muito úmida e agressiva, 0 a 80 °C): epóxi rico em zinco N-1277 + intermediária epóxi poliamida N-2628 + PU acrílico, ou N-1277 + poliaspártico (N-2943 Anexo B); lavar entre demãos com água doce. Condição 3 (80 a 150 °C): novolac tipo II. Condição 4 (150 a 500 °C): etil-silicato de zinco-alumínio N-2231 ou duas demãos do Anexo E da N-2943. Condição 5 (condensação permanente): Anexo D da N-2943.",
+   "valores": [
+    {"parametro": "Condição 2 — faixa costeira agressiva", "valor": "até 500 m da praia (ou área industrial muito úmida e agressiva)", "item": "4.1.2 Nota"},
+    {"parametro": "Condição 2 — lavagem entre demãos (água doce)", "valor": "≥ 3 000 psi", "item": "4.1.2 Nota"},
+    {"parametro": "Condição 1 — fundo N-2630 ou N-2680", "valor": "≥ 150 µm", "item": "4.1.1.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo", "nota": "acabamento após 16–48 h (N-2630) ou de seco ao toque até 120 h (N-2680)"},
+    {"parametro": "Condição 1 — acabamento PU acrílico N-2677", "valor": "≥ 70 µm", "item": "4.1.1.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"},
+    {"parametro": "Condição 2 — fundo epóxi rico em zinco N-1277", "valor": "≥ 100 µm", "item": "4.1.2.1, 4.1.2.2", "cota": "esquemas/pintura-esquema-camadas.svg#fundo", "nota": "próxima demão entre 18 h e 24 h"},
+    {"parametro": "Condição 2 opção 1 — intermediária epóxi poliamida N-2628", "valor": "≥ 200 µm", "item": "4.1.2.1", "cota": "esquemas/pintura-esquema-camadas.svg#intermediaria", "nota": "acabamento entre 16 h e 48 h"},
+    {"parametro": "Condição 2 opção 2 — poliaspártico N-2943 Anexo B", "valor": "≥ 200 µm", "item": "4.1.2.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"},
+    {"parametro": "Condição 3 (80–150 °C) — novolac N-2912 tipo II", "valor": "≥ 400 µm", "item": "4.1.3", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Condição 4 opção 1 — N-2231", "valor": "≥ 100 µm", "item": "4.1.4 a)", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Condição 4 opção 2 — N-2943 Anexo E", "valor": "2 × ≥ 150 µm", "item": "4.1.4 b)", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Condição 5 — N-2943 Anexo D", "valor": "≥ 300 µm, demão única", "item": "4.1.5", "cota": "esquemas/pintura-esquema-camadas.svg#eps"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Equipamentos com isolamento térmico",
+   "item": "4.2",
+   "texto": "Condição 6 (-45 a 150 °C): uma demão de novolac tipo I. Condição 7 (150 a 500 °C em serviço contínuo): dispensa pintura. Condição 8 (150 a 500 °C intermitente ou cíclico, com risco de corrosão sob isolamento): duas demãos do revestimento de alta temperatura/CUI do Anexo E da N-2943.",
+   "valores": [
+    {"parametro": "Condição 6 — novolac N-2912 tipo I", "valor": "≥ 300 µm", "item": "4.2.1.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Condição 8 — N-2943 Anexo E", "valor": "2 × ≥ 150 µm", "item": "4.2.3", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Aderência por tração (Anexo A)",
+   "item": "Tab. A.1",
+   "texto": "Tensão mínima e falhas aceitas por condição; acima de 20 MPa (10 MPa na condição 5) qualquer falha.",
+   "valores": [
+    {"parametro": "Condição 1", "valor": "≥ 8 MPa (falha B/C; acima de 10: B, -/Y, Y ou Y/Z)", "item": "Tab. A.1"},
+    {"parametro": "Condição 2 (fundo de zinco)", "valor": "≥ 7 MPa", "item": "Tab. A.1"},
+    {"parametro": "Condições 3 e 6 (novolac)", "valor": "≥ 15 MPa (exceto falha A/B)", "item": "Tab. A.1"},
+    {"parametro": "Condição 4 opção 1 (N-2231)", "valor": "≥ 5 MPa", "item": "Tab. A.1"},
+    {"parametro": "Condição 4 opção 2 e condição 8 (Anexo E)", "valor": "≥ 2 MPa", "item": "Tab. A.1", "nota": "valor baixo, mas coerente com o requisito do próprio Anexo E da N-2943 (2,0 MPa)"},
+    {"parametro": "Condição 5 (Anexo D)", "valor": "≥ 8 MPa", "item": "Tab. A.1"}
+   ]
+  }
+ ]
+}

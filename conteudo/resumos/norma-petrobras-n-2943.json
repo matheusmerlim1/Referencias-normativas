@@ -1,0 +1,84 @@
+{
+ "id": "PETROBRAS-N-2943",
+ "titulo": "Petrobras N-2943 (08/2022, até a 4ª emenda) — Revestimentos anticorrosivos (requisitos de laboratório)",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 3",
+   "texto": "Características verificáveis em laboratório, exigidas no recebimento dos revestimentos usados em obras e manutenção da Petrobras; os anexos especificam cada família (DTM, acabamento, áreas críticas, condensação permanente, alta temperatura/CUI, antiderrapante, poliaspártico), referenciados pelas normas de esquema (N-1021, N-1374, N-1735, N-2913…). O boletim técnico informa a temperatura de operação dizendo se vale imerso ou emerso (sem essa indicação, só emerso); revestimento sob isolamento é tratado como imerso. Rótulo com norma, tipo, componentes, diluente, quantidade, fabricante, lote, validade e proporção de mistura. Componentes homogêneos, latas cilíndricas, estabilidade em armazenagem.",
+   "valores": [
+    {"parametro": "Armazenagem — temperatura máx. / validade mínima", "valor": "< 40 °C / 6 meses (revalidável 2 × 3 meses)", "item": "3.3.4"}
+   ]
+  },
+  {
+   "titulo": "Preparo dos painéis de ensaio",
+   "item": "4.1",
+   "texto": "Ensaios em laboratório acreditado ISO/IEC 17025, com certificado de produto de terceira parte. Tintas aplicadas respeitando indução e pot life, de preferência a pistola com o painel na vertical, sobre aço AISI 1020 jateado Sa 2½ com perfil angular; ensaios em até 7 dias (o tempo de cura usado vira o tempo mínimo para o equipamento voltar a operar). Bordas protegidas; névoa salina com um entalhe central; pull-off só com equipamento pneumático ou hidráulico automático.",
+   "valores": [
+    {"parametro": "Perfil do painel", "valor": "50 μm a 100 μm", "item": "4.1.3.2", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Painel — dimensões", "valor": "150 mm × 100 mm", "item": "4.1.3.2", "cota": "esquemas/tinta-painel-ensaio.svg#comprimento"},
+    {"parametro": "Painel — espessura da chapa", "valor": "4 mm a 6,5 mm", "item": "4.1.3.2", "cota": "esquemas/tinta-painel-ensaio.svg#espessura"},
+    {"parametro": "Condicionamento até o ensaio", "valor": "≤ 7 dias a 25 ± 2 °C e UR 60 ± 5 %", "item": "4.1.3.3"},
+    {"parametro": "Entalhe da névoa salina — distância das bordas superior e inferior", "valor": "30 mm", "item": "4.1.3.5", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-distancia"}
+   ],
+   "figuras": ["esquemas/tinta-painel-ensaio.svg"]
+  },
+  {
+   "titulo": "Anexo A — esquemas DTM (direto no metal)",
+   "item": "Anexo A",
+   "texto": "No máximo duas demãos (demãos muito espessas por wet-on-wet). Fundo atende à ISO 12944-9 para CX e Im4, com abrasão e aderência inicial e após o ensaio cíclico; tintas de 1 mm por demão exigem ensaio de escorrimento e ageing na mesma espessura. Acabamento, quando houver, pelo Anexo B.",
+   "valores": [
+    {"parametro": "Aderência inicial", "valor": "10 a 20 MPa com falhas B, -/Y, Y ou Y/Z; > 20 MPa qualquer", "item": "Tab. A.1, A.2 Nota 3"},
+    {"parametro": "Aderência após ensaio cíclico", "valor": "5 a 20 MPa com falhas B, -/Y, Y ou Y/Z; > 20 MPa qualquer", "item": "Tab. A.2 Nota 4"},
+    {"parametro": "Tintas ricas em zinco — aderência", "valor": "≥ 5,0 MPa (falha B) / ≥ 8,0 MPa (demais, nunca A/B)", "item": "Tab. A.1 Nota 1"},
+    {"parametro": "Abrasão máx. (CS-17, 1 kg; não vale para zinco)", "valor": "100 mg / 1 000 ciclos", "item": "Tab. A.2"},
+    {"parametro": "Espessura por demão que exige ensaio de escorrimento", "valor": "1 mm", "item": "A.2.1 Nota", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Anexos B e G — acabamentos e poliaspártico",
+   "item": "Anexo B, Anexo G",
+   "texto": "Acabamentos para corrosão atmosférica (poliaspárticos, polissiloxanos, fluorpolímeros, poliuretanos) protegem do UV e dão cor; ensaiados sobre fundo N-2680 ou do Anexo A: aderência, brilho e UV-A com condensação (sem gizamento acima do grau 2 e perda de brilho limitada). O revestimento poliaspártico do Anexo G é monocamada, baixo VOC, semibrilhante.",
+   "valores": [
+    {"parametro": "Acabamento — aderência", "valor": "≥ 8,0 MPa (falha B/C, -/Y, Y ou Y/Z); 20 MPa qualquer", "item": "Tab. B.1"},
+    {"parametro": "Acabamento — UV-A + condensação / perda de brilho máx.", "valor": "1 440 h (ciclos 8 h UV + 4 h condensação) / 10 %", "item": "Tab. B.1"},
+    {"parametro": "Brilho inicial mínimo a 60° — poliaspártico / demais", "valor": "60 UB / 85 UB", "item": "Tab. B.1 Nota 2"},
+    {"parametro": "Fundo de referência para ensaiar acabamento (N-2680)", "valor": "150 µm", "item": "B.2.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Poliaspártico — película seca por demão", "valor": "200 µm a 300 µm", "item": "G.1.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Poliaspártico — sólidos / pot life / secagem ao toque / livre de pegajosidade", "valor": "≥ 70 % / ≥ 1 h / ≤ 60 min / ≤ 3 h", "item": "Tab. G.1"},
+    {"parametro": "Poliaspártico — escorrimento / aderência / avanço no entalhe (10 ciclos)", "valor": "240 µm / ≥ 8 MPa / ≤ 10 mm", "item": "Tab. G.1", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-largura"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg", "esquemas/tinta-painel-ensaio.svg"]
+  },
+  {
+   "titulo": "Anexos C e D — áreas críticas e condensação permanente",
+   "item": "Anexo C, Anexo D",
+   "texto": "Áreas críticas: flanges, válvulas, suportes, porcas, parafusos, frestas, drenos, vents e pontos de estagnação, protegidos com fitas de petrolato/cera, viscoelásticas ou elastoméricas, elastômeros, silicones ou massas — sem solvente, de fácil remoção e compatíveis com a pintura. Qualificação em painéis com intemperismo grau C limpos a St 3 (sem entalhe), 25 ciclos semanais de UV + névoa salina, reprovando qualquer trinca, bolha ou corrosão até o metal. Condensação permanente: painéis aplicados e mantidos frios com condensação por 14 dias; ensaio cíclico CX (ou IMO MSC.215), descolamento catódico, aderência e imersões a 40 °C.",
+   "valores": [
+    {"parametro": "Áreas críticas — painel de ensaio", "valor": "100 mm × 150 mm × 4 mm", "item": "C.2.1", "cota": "esquemas/tinta-painel-ensaio.svg#comprimento"},
+    {"parametro": "Áreas críticas — ensaio cíclico", "valor": "25 ciclos de 24 h UV + 144 h névoa salina", "item": "C.2.3"},
+    {"parametro": "Condensação permanente — espessura dos painéis", "valor": "300 µm a 450 µm", "item": "Tab. D.1", "cota": "esquemas/tinta-painel-ensaio.svg#pelicula"},
+    {"parametro": "Condensação permanente — cura dos painéis", "valor": "10 ± 3 °C com condensação por 14 dias", "item": "D.1.2"},
+    {"parametro": "Condensação permanente — avanço máx. no ensaio cíclico / descolamento catódico máx.", "valor": "10 mm / 10 mm", "item": "Tab. D.1", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-largura"},
+    {"parametro": "Condensação permanente — aderência inicial / final", "valor": "8 a 10 MPa (falhas B, B/C, -/Y, Y, Y/Z), ≥ 10 qualquer / final ≥ 7 MPa", "item": "Tab. D.1 Nota 2"},
+    {"parametro": "Imersão em água destilada e em água do mar sintética a 40 °C", "valor": "2 000 h cada", "item": "Tab. D.1"}
+   ],
+   "figuras": ["esquemas/tinta-painel-ensaio.svg"]
+  },
+  {
+   "titulo": "Anexos E e F — alta temperatura/CUI e antiderrapante",
+   "item": "Anexo E, Anexo F",
+   "texto": "Revestimento para alta temperatura e sob isolamento: sem falhas após aquecimento e resfriamento (ASTM D2485 método A) e com aderência mínima baixa, coerente com o uso em CUI. Antiderrapante: grãos de quartzo ou outro inerte dispersos na tinta; em demão única direto no aço, atende também ao Anexo A; corpos de prova sem texturização.",
+   "valores": [
+    {"parametro": "Anexo E — ciclo térmico", "valor": "aquecimento a 538 °C e resfriamento a 23 °C sem falhas", "item": "Tab. E.1"},
+    {"parametro": "Anexo E — aderência mínima", "valor": "2,0 MPa (sem falha A/B)", "item": "Tab. E.1"},
+    {"parametro": "Antiderrapante — granulometria do agregado", "valor": "2 mm a 4 mm (peneiras 10 e 5)", "item": "F.1.2", "cota": "esquemas/plataforma-zonas-revestimento.svg#antiderrapante"},
+    {"parametro": "Antiderrapante — espessura máx. nos corpos de prova", "valor": "2 mm", "item": "F.1.3", "cota": "esquemas/plataforma-zonas-revestimento.svg#antiderrapante"},
+    {"parametro": "Antiderrapante — névoa salina / NaOH 30 % / xileno", "valor": "4 000 h / 1 000 h / 2 000 h", "item": "Tab. F.1"},
+    {"parametro": "Antiderrapante — coeficiente de atrito (molhado) / impacto", "valor": "≥ 0,75 / ≥ 3,0 J", "item": "Tab. F.1"}
+   ],
+   "figuras": ["esquemas/plataforma-zonas-revestimento.svg"]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "id": "PETROBRAS-N-1021",
+ "titulo": "Petrobras N-1021 Rev. H (10/2023) — Pintura de aço galvanizado, inox, aço-liga, ferro fundido, não ferrosos, compósitos e termoplásticos",
+ "secoes": [
+  {
+   "titulo": "Escopo e regras gerais",
+   "item": "1, 3",
+   "texto": "Esquemas de pintura externa e interna para aço galvanizado, inox, aço-liga, ferro fundido, alumínio e outras ligas não ferrosas, compósitos (PRFV) e termoplásticos (PVC, RPVC, PEAD). Pintar ou não depende da corrosividade do meio e da operação. Pintura interna aqui só vale para inox (aço carbono interno: N-2 e N-2843); aço-liga e ferro fundido seguem os esquemas do aço carbono; invólucros elétricos seguem a N-2841. Aplicação e controle pela N-13; aderência por tração (pull-off) depois da cura do esquema completo, com o critério da Tabela A.1. Fundo a trincha em soldas, cantos vivos, cavidades e geometria complexa.",
+   "valores": [],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Aço galvanizado",
+   "item": "4.1",
+   "texto": "Três situações. Sem corrosão: desengraxe químico (NBR 15158), lavagem com água pressurizada e escovação para tirar sais, jateamento leve (ou ferramenta rotativa SSPC-SP11), controle de sais e pó (N-9) e uma demão de promotor de aderência epóxi antes do esquema. Corrosão localizada: tratar os pontos corroídos com ferramenta rotativa até metal com perfil angular, aplicar epóxi rico em zinco (N-1277) só nesses pontos, e depois tratar toda a superfície como no caso sem corrosão. Corrosão generalizada: jatear removendo toda a galvanização (Sa 2½ ou WAB-2, ou hidrojato WJ-2 com flash rust leve) e aplicar o esquema do aço carbono. Região de empoçamento recebe o esquema da condição 3.",
+   "valores": [
+    {"parametro": "Água doce de lavagem — condutividade máxima", "valor": "100 μS/cm", "item": "4.1.1.2"},
+    {"parametro": "Pressão máxima da água de lavagem / jato úmido", "valor": "5 000 psi", "item": "4.1.1.2, 4.1.2.2"},
+    {"parametro": "Perfil de rugosidade — galvanizado sem corrosão", "valor": "20 μm a 25 μm", "item": "4.1.1.3", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Promotor de aderência epóxi — película mínima", "valor": "20 µm", "item": "4.1.1.6", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Perfil nas regiões com corrosão localizada (ferramenta rotativa)", "valor": "40 μm a 60 μm", "item": "4.1.2.3", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Epóxi rico em zinco nos retoques — película seca mínima", "valor": "50 µm", "item": "4.1.2.6", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Intervalo antes da próxima demão (após o retoque com zinco)", "valor": "18 h a 24 h", "item": "4.1.2.7"},
+    {"parametro": "Perfil — corrosão generalizada (remoção total da galvanização)", "valor": "50 μm a 100 μm", "item": "4.1.3.2", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg", "esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Aço inoxidável — preparo e pintura externa",
+   "item": "4.2.1, 4.2.2",
+   "texto": "Desengraxe nas áreas contaminadas e jateamento com abrasivo inerte (inox, óxido de alumínio, microesfera de vidro, basalto, bauxita sinterizada) ou hidrojato com abrasivo WJ-2. Sem isolamento há quatro esquemas conforme a temperatura (condições 1 a 4); com isolamento, dois (condições 5 e 6). Região de empoçamento: condição 3.",
+   "valores": [
+    {"parametro": "Perfil de rugosidade — inox", "valor": "50 μm a 100 μm", "item": "4.2.1.2", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Condição 1 (até 150 °C, sem isolamento) — fundo epóxi novolac N-2912 tipo I", "valor": "≥ 250 µm", "item": "4.2.2.1.1.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Condição 1 — acabamento poliuretano acrílico N-2677", "valor": "≥ 70 µm", "item": "4.2.2.1.1.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"},
+    {"parametro": "Condição 2 (até 90 °C) — elastomérico (PU ou poliureia) em demão única", "valor": "2,0 mm a 3,0 mm", "item": "4.2.2.2.1.3", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Condição 2 — perfil mínimo do substrato", "valor": "70 µm", "item": "4.2.2.2.1.3", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Condição 3 (até 200 °C) — novolac N-2912 tipo III, demão única", "valor": "≥ 250 µm", "item": "4.2.2.2.1.4", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Condição 4 (acima de 200 °C) — multipolimérica N-2943 Anexo E, 2 demãos", "valor": "≥ 150 µm por demão", "item": "4.2.2.2.1.5", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Condição 5 (com isolamento, até 200 °C) — novolac tipo III", "valor": "≥ 250 µm", "item": "4.2.2.2.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Condição 6 (com isolamento, acima de 200 °C) — multipolimérica, 2 demãos", "valor": "≥ 150 µm por demão", "item": "4.2.2.2.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg", "esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Aço inoxidável — pintura interna",
+   "item": "4.2.3",
+   "texto": "Duas condições pela temperatura de operação, ambas com uma demão espessa de epóxi novolac.",
+   "valores": [
+    {"parametro": "Condição 7 (até 80 °C) — novolac N-2912 tipo I", "valor": "≥ 400 µm", "item": "4.2.3.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Condição 8 (acima de 80 °C até 150 °C) — novolac N-2912 tipo III", "valor": "≥ 400 µm", "item": "4.2.3.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Alumínio e ligas não ferrosas; heliponto de alumínio",
+   "item": "4.3, 4.4",
+   "texto": "Alumínio em geral: desengraxe, jato ligeiro com abrasivo inerte de perfil baixo, promotor de aderência epóxi e acabamento poliuretano acrílico (N-2677) ou o acabamento do Anexo B da N-2943. Heliponto de alumínio em unidade marítima: jato com perfil maior e duas opções — (1) fundo epóxi sem solvente tolerante a umidade (N-2680), camada intermediária de poliureia pura ou híbrida e acabamento poliaspártico antiderrapante (N-2943 Anexo F), mais PU acrílico para demarcação; (2) poliuretano elastomérico direto no metal com agregado antiderrapante aspergido e PU acrílico de sinalização. No heliponto o pull-off é feito logo após a camada elastomérica.",
+   "valores": [
+    {"parametro": "Perfil máximo — alumínio (jato ligeiro)", "valor": "15 µm", "item": "4.3.1.1.2", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Alumínio — promotor de aderência / acabamento", "valor": "≥ 20 µm / ≥ 70 µm", "item": "4.3.1.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"},
+    {"parametro": "Heliponto — perfil de rugosidade", "valor": "50 μm a 100 μm", "item": "4.4.1.2", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Heliponto opção 1 — fundo epóxi N-2680", "valor": "≥ 120 µm", "item": "4.4.2.1.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Heliponto opção 1 — poliureia intermediária", "valor": "3 mm a 5 mm", "item": "4.4.2.1.2", "cota": "esquemas/pintura-esquema-camadas.svg#intermediaria"},
+    {"parametro": "Heliponto opção 1 — poliaspártico antiderrapante", "valor": "≥ 500 µm", "item": "4.4.2.1.3", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"},
+    {"parametro": "Heliponto opção 2 — PU elastomérico direto no metal", "valor": "3 mm a 5 mm", "item": "4.4.2.2.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao", "nota": "perfil mínimo do substrato 70 µm"},
+    {"parametro": "Heliponto — PU acrílico de demarcação", "valor": "≥ 70 µm", "item": "4.4.2.1.3, 4.4.2.2.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg", "esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Compósitos e termoplásticos",
+   "item": "4.5, 4.6",
+   "texto": "Pinta-se para proteger contra UV e/ou para sinalização (NR-26, NR-37); peças já fornecidas com proteção UV em geral dispensam. Limpeza com detergente e água ou álcool isopropílico/heptano/hexano, quebra de brilho com lixa leve, nova limpeza. Compósito: só acabamento PU acrílico. Termoplástico: promotor de aderência epóxi e acabamento PU acrílico.",
+   "valores": [
+    {"parametro": "Lixa para quebra de brilho — compósito / termoplástico", "valor": "# 80 a # 120 / # 120", "item": "4.5.1.2, 4.6.1.2"},
+    {"parametro": "Acabamento PU acrílico N-2677", "valor": "≥ 70 µm", "item": "4.5.2, 4.6.3", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"},
+    {"parametro": "Termoplástico — promotor de aderência", "valor": "≥ 20 µm", "item": "4.6.2", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Aderência por tração (pull-off)",
+   "item": "Tab. A.1",
+   "texto": "A tabela dá a tensão mínima e o tipo de falha aceito por esquema. Os valores valem para preparo Sa 2½; o equipamento e o adesivo devem suportar pelo menos 20 % acima da tensão mínima. Para galvanizado, o critério vem da norma de procedimento do esquema aplicado.",
+   "valores": [
+    {"parametro": "Inox condição 1 e alumínio", "valor": "≥ 8 MPa (até 12 MPa: falhas B/C, -/Y, Y ou Y/Z; acima de 12: B, -/Y, Y ou Y/Z; acima de 20: qualquer)", "item": "Tab. A.1"},
+    {"parametro": "Inox condição 2 (elastomérico) e heliponto", "valor": "≥ 10 MPa (qualquer falha exceto A/B; acima de 20 MPa qualquer)", "item": "Tab. A.1"},
+    {"parametro": "Inox condições 3, 5, 7, 8 e empoçamento (novolac)", "valor": "≥ 15 MPa (qualquer falha exceto A/B; acima de 20 MPa qualquer)", "item": "Tab. A.1"},
+    {"parametro": "Inox condições 4 e 6 (multipolimérica)", "valor": "≥ 2 MPa", "item": "Tab. A.1", "nota": "valor baixo, mas coerente com o requisito do próprio Anexo E da N-2943 (2,0 MPa)"},
+    {"parametro": "Compósitos e termoplásticos", "valor": "≥ 3 MPa (qualquer falha)", "item": "Tab. A.1"}
+   ],
+   "figuras": ["esquemas/ensaio-aderencia-corrosao.svg"]
+  }
+ ]
+}

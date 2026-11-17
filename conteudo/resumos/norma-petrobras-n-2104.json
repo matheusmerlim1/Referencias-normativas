@@ -1,0 +1,48 @@
+{
+ "id": "PETROBRAS-N-2104",
+ "titulo": "Petrobras N-2104 Rev. E (10/2016) — Pintura de sonda terrestre",
+ "secoes": [
+  {
+   "titulo": "Escopo e grupos de componentes",
+   "item": "1, 3.1–3.3",
+   "texto": "Seleção de esquemas de pintura para sondas terrestres de perfuração e produção. Grupo I (só pintura externa): estaleiro de tubos, rampa, mastro, subestrutura, guincho, mesa rotativa, top drive, BOP e sua unidade de acionamento, choke manifold, linhas de lama e de água, catwalk, plataformas, escadas, geradores, motores, vasos de ar comprimido, desgaseificadores etc. Grupo II (pintura interna e externa): bombas e tanques de lama, bombas centrífugas, peneiras e desareadores, unidades de cimentação, catarina, gancho e bloco de coroamento. Equipamento não listado segue o esquema de outro no mesmo ambiente; tanques (exceto o de lama) seguem a N-2913, com tinta certificada para água potável quando for o caso. Ambientes: seco/úmido; industrial (enxofre, com ou sem sal); especialmente agressivo (orla marítima e a plataforma junto ao centro do poço, em contato com o fluido de perfuração). Esquema externo escolhido pelo plano de campanha da sonda (os locais variam).",
+   "valores": [
+    {"parametro": "Orla marítima especialmente agressiva", "valor": "até 500 m da praia (ventos do mar, areia, névoa salina)", "item": "3.3 c), 4.1.1 Nota"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Preparo de superfície",
+   "item": "3.4–3.10, Tab. 1",
+   "texto": "Inspeção visual (NBR 14847/15185, grau A–D; pintura existente pela ASTM D610), desengraxe só onde houver contaminação, jato Sa 2½ ou hidrojato WJ-2 (hidrojato apenas em manutenção, ou com abrasivo em obra nova). Retoque repete o esquema original; prazos de repintura e controle pela N-13; pull-off depois da cura do esquema completo.",
+   "valores": [
+    {"parametro": "Perfil de rugosidade", "valor": "50 µm a 100 µm", "item": "Tab. 1", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"}
+   ],
+   "figuras": ["esquemas/pintura-preparo-superficie.svg"]
+  },
+  {
+   "titulo": "Pintura externa (grupos I e II)",
+   "item": "4.1",
+   "texto": "Condição 1 (orla, píer ou plataforma junto ao poço, 0 a 80 °C): novolac tipo II em demão única, ou duas demãos de epóxi tolerante N-2680; lavar com água doce entre demãos. Condição 2 (seco, úmido ou industrial, 0 a 80 °C): epóxi-fosfato de zinco N-2630. Em ambas, acabamento de PU acrílico N-2677 só quando a sinalização de segurança exigir cor.",
+   "valores": [
+    {"parametro": "Condição 1 — novolac N-2912 tipo II", "valor": "≥ 300 µm, demão única", "item": "4.1.1.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"},
+    {"parametro": "Condição 1 (alternativa) — N-2680", "valor": "2 × ≥ 150 µm", "item": "4.1.1.1 Nota", "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao", "nota": "2ª demão de seco ao toque até 120 h"},
+    {"parametro": "Condição 1 — lavagem entre demãos", "valor": "água doce a 3 000 psi", "item": "4.1.1 Nota"},
+    {"parametro": "Condição 2 — epóxi-fosfato de zinco N-2630", "valor": "≥ 100 µm", "item": "4.1.2.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo", "nota": "acabamento entre 16 h e 48 h"},
+    {"parametro": "Acabamento PU acrílico N-2677 (quando exigido)", "valor": "≥ 70 µm", "item": "4.1.1.2, 4.1.2.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Pintura interna (grupo II) e aderência",
+   "item": "4.2, Tab. A.1",
+   "texto": "Condição 3: interior de equipamentos até 80 °C com novolac tipo II em demão única, aplicada só com pistola airless, e controle de continuidade com detector (NBR 16172). Pull-off referido a Sa 2½, com equipamento e adesivo de folga ≥ 20 %; acima de 20 MPa qualquer falha é aceita.",
+   "valores": [
+    {"parametro": "Condição 3 — novolac N-2912 tipo II", "valor": "≥ 400 µm, demão única", "item": "4.2.2", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Pull-off — condições 1 e 2", "valor": "≥ 8 MPa (falha B/C; C/D na alternativa com N-2680)", "item": "Tab. A.1"},
+    {"parametro": "Pull-off — condição 3", "valor": "≥ 15 MPa (exceto falha A/B)", "item": "Tab. A.1"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  }
+ ]
+}

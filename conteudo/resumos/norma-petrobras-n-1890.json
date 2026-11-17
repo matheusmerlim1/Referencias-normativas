@@ -1,0 +1,62 @@
+{
+ "id": "PETROBRAS-N-1890",
+ "titulo": "Petrobras N-1890 Rev. D (11/2016) — Revestimentos internos de fibra cerâmica para fornos",
+ "secoes": [
+  {
+   "titulo": "Escopo e materiais de fibra cerâmica",
+   "item": "1, 3, 4.2",
+   "texto": "Projeto, materiais e instalação de revestimentos internos de fibra cerâmica em fornos. Fibra de alumina-sílica serve até 1 260 °C e com zircônia até 1 427 °C. Produtos: manta (agulhada, sem ligante), manta úmida com enrijecedor, painel, módulos ancorados ou cimentados, placas e molduras moldadas a vácuo para janelas, massas moldável e bombeável, papel e corda. Mantas e painéis classe A ou B da NBR 9688 conforme a temperatura, com condutividade pela ASTM C892 (grade conforme densidade).",
+   "valores": [
+    {"parametro": "Densidades admitidas — classe A / classe B", "valor": "64, 96, 128, 160, 192 kg/m³ / 96 a 192 kg/m³", "item": "4.2.1, 4.2.2"},
+    {"parametro": "Manta úmida — densidade mín. após enrijecedor", "valor": "300 kg/m³", "item": "4.2.3"},
+    {"parametro": "Módulo ancorado / cimentado — densidade mín.", "valor": "128 kg/m³", "item": "4.2.4, 4.2.5"},
+    {"parametro": "Módulo cimentado — espessura máx.", "valor": "102 mm (4 pol)", "item": "4.2.5", "cota": "esquemas/fibra-ceramica-revestimento.svg#modulo-espessura"},
+    {"parametro": "Placas, molduras, massas e papel — limite de uso mín.", "valor": "1 260 °C ou 1 427 °C (conforme projeto)", "item": "4.2.6–4.2.8"},
+    {"parametro": "Massa moldável/bombeável — densidade úmida", "valor": "900 a 1 200 kg/m³", "item": "4.2.7"},
+    {"parametro": "Papel — densidade / tração mín. após queima", "valor": "160 a 250 kg/m³ / 69 kPa", "item": "4.2.8"},
+    {"parametro": "Corda — diâmetros", "valor": "6 mm a 51 mm", "item": "4.3.8", "cota": "esquemas/fibra-ceramica-revestimento.svg#corda-diametro", "nota": "320 kg/m³; ≥ 1 260 °C; alumina 47 % / sílica 53 %"}
+   ],
+   "figuras": ["esquemas/fibra-ceramica-revestimento.svg"]
+  },
+  {
+   "titulo": "Fixação e materiais complementares",
+   "item": "4.1, 4.3",
+   "texto": "Dispositivos de fixação pelo material da Tabela 12 da API 560: arruela auxiliar (camadas intermediárias), copo cerâmico, pino e arruela de fixação; ancoragem dos módulos conforme projetista/fabricante. Complementares: enrijecedor coloidal, cimento adesivo de módulos, cimento de proteção (coating) contra erosão e ataque de enxofre/vanádio/sódio, filmes de alumínio ou inox para barreira de vapor, massa anticorrosiva para a chapa e adesivo de silicato de sódio.",
+   "valores": [
+    {"parametro": "Pino de fixação dos módulos — Ø mín. recomendado (teto / paredes)", "valor": "3/8 pol / 5/16 pol", "item": "4.1.4", "cota": "esquemas/fibra-ceramica-revestimento.svg#pino-modulo"},
+    {"parametro": "Comprimento L do pino de manta", "valor": "= espessura do revestimento (com arruelas) ou espessura − 35 mm (com copo cerâmico)", "item": "Fig. A.3 Nota 5", "cota": "esquemas/fibra-ceramica-revestimento.svg#pino-comprimento"},
+    {"parametro": "Enrijecedor — densidade mín. / limite de uso", "valor": "1 000 kg/m³ / 1 260 °C", "item": "4.3.1"},
+    {"parametro": "Cimento adesivo / coating — limite de uso mín.", "valor": "1 350 °C / 1 520 °C", "item": "4.3.2, 4.3.3"},
+    {"parametro": "Filme de alumínio da barreira de vapor (recozido)", "valor": "0,1 mm a 0,2 mm", "item": "4.3.4", "cota": "esquemas/fibra-ceramica-revestimento.svg#barreira-vapor"},
+    {"parametro": "Filme de inox austenítico da barreira de vapor", "valor": "0,05 mm", "item": "4.3.5", "cota": "esquemas/fibra-ceramica-revestimento.svg#barreira-vapor"},
+    {"parametro": "Massa anticorrosiva — densidade / limite de uso", "valor": "0,9 a 1,6 g/cm³ / ≥ 160 °C", "item": "4.3.6"}
+   ],
+   "figuras": ["esquemas/fibra-ceramica-revestimento.svg"]
+  },
+  {
+   "titulo": "Projeto do forno",
+   "item": "5",
+   "texto": "Projeto pela API 560. Revestimento só de mantas não é aceito em radiação e convecção (só em header box); na radiação a manta entra apenas como camada complementar dos módulos (barreira de vapor ou sacrifício). Fibra não pode receber chama direta. Coating protege a face dos módulos; para gás em alta velocidade, enrijecedor ou manta úmida na última camada (nunca coating sobre manta) e, se preciso, placas rígidas como camada de sacrifício. Chapa sujeita a condensação ácida leva massa anticorrosiva; com combustível de enxofre alto, barreira de vapor.",
+   "valores": [
+    {"parametro": "Teor de enxofre que exige barreira de vapor", "valor": "≥ 500 ppm", "item": "5.7"}
+   ]
+  },
+  {
+   "titulo": "Instalação",
+   "item": "6",
+   "texto": "Solda dos pinos pela N-133 ou stud welding qualificado ASME IX; chapa limpa a Sa 2 ou St 2 e isenta de abrasivo, pó, óleo e carepa. Não dobrar mantas no campo para fazer módulos. Cada camada respeita o limite da sua classe; detalhes junto ao concreto, a tubos, ao piso e nos cantos conforme as figuras. Juntas internas defasadas e a da última camada sobreposta no sentido do fluxo de gás; pinos alinhados e pontas protegidas com massa moldável. Módulos ancorados pré-locados (pino soldado antes, permite massa anticorrosiva) ou de aplicação direta (stud welding com aperto da porca na mesma operação). Módulos cimentados só em manutenção, sobre revestimento existente limpo e umedecido, perfurados na face colada.",
+   "valores": []
+  },
+  {
+   "titulo": "Inspeção e reparo",
+   "item": "7–9",
+   "texto": "Durante a aplicação verificar massa anticorrosiva, continuidade da barreira de vapor, fixações, espessura, frestas, coating e juntas. Reparos: repor espessura trocando módulos ou mantas, recolocar arruelas, preencher frestas com manta compactada (ou massa bombeável), refazer coating, refixar regiões soltas. Após operação: mantas atacadas ou finas são trocadas em todas as camadas atingidas; em módulos, perda pequena é regularizada com coating e perda grande exige troca; frestas entre módulos não são aceitas; pinos rompidos são substituídos.",
+   "valores": [
+    {"parametro": "Tolerância de espessura do revestimento novo", "valor": "-10 mm / +20 mm", "item": "7.3 d)", "cota": "esquemas/fibra-ceramica-revestimento.svg#espessura-revestimento"},
+    {"parametro": "Módulo após operação — perda ≤ 1/4 da espessura", "valor": "regularizar e aplicar coating", "item": "9 b)", "cota": "esquemas/fibra-ceramica-revestimento.svg#perda-espessura"},
+    {"parametro": "Módulo após operação — perda > 1/4 da espessura", "valor": "substituir o módulo", "item": "9 b)", "cota": "esquemas/fibra-ceramica-revestimento.svg#perda-espessura"}
+   ],
+   "figuras": ["esquemas/fibra-ceramica-revestimento.svg"]
+  }
+ ]
+}

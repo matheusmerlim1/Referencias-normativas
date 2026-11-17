@@ -1,0 +1,61 @@
+{
+ "id": "PETROBRAS-N-1951",
+ "titulo": "Petrobras N-1951 Rev. D (11/2022) — Inspeção de revestimentos de concreto refratário submetidos à operação",
+ "secoes": [
+  {
+   "titulo": "Escopo, definições e modos de falha",
+   "item": "1, 3, 4",
+   "texto": "Inspeção de refratários de fornos, dutos, chaminés, vasos e equipamentos de craqueamento catalítico depois de operar (o recém-aplicado segue a N-1617). Parede fria: chapa bem mais fria que a face quente, com revestimento espesso; parede quente: chapa próxima da face quente, com concreto denso fino. Sobreaquecimento = chapa acima da média entre a temperatura de projeto e a de operação a plena carga. Falhas: perda de espessura (na parede fria aparece como aquecimento da chapa — medido por termômetro de contato, pirômetro, termografia, skin-points ou tinta indicadora N-1514; na parede quente só por perda de contenção ou distúrbio operacional), trincas, erosão, ataque químico (concreto friável que o estilete penetra), coque (escamação, estufamento de malha), falhas de ancoragem (som cavo, queda de blocos; ruptura junto à solda), vazios, vibração, choque térmico, fusão/amolecimento.",
+   "valores": [
+    {"parametro": "Parede fria — espessura típica do revestimento", "valor": "≥ 50 mm", "item": "3.1", "cota": "esquemas/refratario-inspecao.svg#espessura-projeto"},
+    {"parametro": "Parede quente — espessura típica do concreto denso", "valor": "até 25 mm", "item": "3.2", "cota": "esquemas/refratario-inspecao.svg#espessura-projeto"},
+    {"parametro": "Tinta indicadora N-1514 — viragem tipo 2 / tipo 1", "valor": "azul→branco a 260 °C / verde→branco a 400 °C", "item": "4.1.1 Nota 5"}
+   ],
+   "figuras": ["esquemas/refratario-inspecao.svg"]
+  },
+  {
+   "titulo": "Preparação e inspeção em operação",
+   "item": "5, 6.1",
+   "texto": "Inspetor com experiência em refratário (e, no conversor de FCC, de preferência com uma parada vivida). Critérios de aceitação podem ser ajustados por criticidade, histórico, taxa de desgaste, campanha e mudanças de projeto. Antes: analisar os dois últimos relatórios e recomendações, preparar croquis e levar lanterna, martelo de bola, estilete, trena e caderneta. Em campanha: inspeção visual externa (pintura, furos, deformações) e pelas janelas; termografia pela N-2472 (ou termômetro/pirômetro/skin-points), registrando pontos quentes; termografia também pouco antes da parada. Temperatura acima do projeto pede parecer de engenharia.",
+   "valores": [
+    {"parametro": "Experiência mínima do inspetor", "valor": "3 anos", "item": "5.1"},
+    {"parametro": "Martelo de bola de aço / estilete", "valor": "200 g / Ø 3 mm", "item": "5.4 d)", "cota": "esquemas/refratario-inspecao.svg#diametro-estilete"},
+    {"parametro": "Periodicidade de inspeção visual e de termografia em operação", "valor": "pelo menos a cada 6 meses", "item": "6.1.1.3, 6.1.2.1"},
+    {"parametro": "Termografia antes da parada programada", "valor": "até 3 semanas antes", "item": "6.1.2.2"}
+   ],
+   "figuras": ["esquemas/refratario-inspecao.svg"]
+  },
+  {
+   "titulo": "Inspeção na parada",
+   "item": "6.2",
+   "texto": "Visual em 100 % da superfície: linguetas ou furos de malha aparentes e pontas de grampos expostas indicam perda de espessura; regiões que sobreaqueceram merecem demolição exploratória mesmo com bom aspecto. Martelamento com a mão espalmada perto do impacto (som cavo = trinca interna, vazio ou ancoragem solta; não funciona com isolante classe C, silicato ou placa de fibra). Estilete em áreas suspeitas de ataque químico. Medição direta da espessura só quando não dá para estimar: na parede quente, removendo um hexágono ou uma pequena área com três grampos; na parede fria, por furo de broca (depois tampado) ou demolição de uma janela. Trincas medidas com escala ou paquímetro. Ancoragens remanescentes: visual em 100 %, martelamento e dobramento por amostragem. Mossas na chapa avaliadas antes de refratar.",
+   "valores": [
+    {"parametro": "Grampos V/Y — ponta longa exposta / as duas expostas", "valor": "perda de 1/3 a 1/2 / perda > 1/2 da espessura", "item": "6.2.1.3 Nota 1", "cota": "esquemas/refratario-inspecao.svg#extremidade-exposta"},
+    {"parametro": "Grampo V ondulado — duas pontas expostas", "valor": "perda ≥ 25 a 35 % da espessura", "item": "6.2.1.3 Nota 2", "cota": "esquemas/refratario-inspecao.svg#extremidade-exposta"},
+    {"parametro": "Martelamento no conjunto conversor — espaçamento / área", "valor": "≈ 1,0 m entre impactos / 100 %", "item": "6.2.2.2", "cota": "esquemas/refratario-inspecao.svg#espacamento-martelamento", "nota": "demais equipamentos: ≈ 30 % da área, nas regiões críticas"},
+    {"parametro": "Martelamento de ancoragens remanescentes", "valor": "≥ 20 % dos dispositivos", "item": "6.2.2.3"},
+    {"parametro": "Furo para medir espessura (parede fria) — broca de metal duro", "valor": "Ø 3/8 pol", "item": "6.2.4.2 a)", "cota": "esquemas/refratario-inspecao.svg#furo-medicao"},
+    {"parametro": "Demolição para medir espessura (parede fria) — área mín.", "valor": "300 mm × 300 mm, com ≥ 3 grampos", "item": "6.2.4.2 b)", "cota": "esquemas/refratario-inspecao.svg#area-demolicao"},
+    {"parametro": "Dobramento de ancoragens remanescentes", "valor": "15° e retorno, em ≥ 2 % dos dispositivos", "item": "6.2.7", "cota": "esquemas/refratario-inspecao.svg#dobramento-grampo"}
+   ],
+   "figuras": ["esquemas/refratario-inspecao.svg"]
+  },
+  {
+   "titulo": "Critérios de aceitação e rejeição",
+   "item": "7",
+   "texto": "Critérios cumulativos. Chapa acima da temperatura de projeto: análise de engenharia (resfriamento, capote ou parada; em região erosiva não basta resfriar). Sobreaquecimento abaixo do projeto: acompanhar com termografia mais frequente e fazer demolição exploratória na parada. Trincas aceitas pela largura ainda passam por martelamento nas bordas, checagem de sobreaquecimento e, se ficam abertas em operação, podem ser preenchidas com fibra; congruência de trincas é reparada. Ancoragem: nenhum defeito aceito — amplia-se a amostragem em volta; com metade reprovada, trocam-se todos os grampos da área. Malha encavalada ou estufada é reparada. Partes laminadas por coque são removidas (marreta leve ou calafate) e a espessura restante é julgada pelo critério de perda. Reparo pelas N-1617 e N-1910; todos os reparos mapeados em croquis em relação a referência fixa.",
+   "valores": [
+    {"parametro": "Perda de espessura que exige reparo", "valor": "≥ 1/3 da espessura de projeto", "item": "7.2", "cota": "esquemas/refratario-inspecao.svg#perda-espessura", "nota": "riser de FCC em antierosivo classe C: admite perda local de até 1/2 sem sobreaquecimento"},
+    {"parametro": "Trinca a reparar — regenerador", "valor": "largura ≥ 4 mm", "item": "7.3.1 a)", "cota": "esquemas/refratario-inspecao.svg#largura-trinca"},
+    {"parametro": "Trinca a reparar — demais componentes do conversor", "valor": "largura ≥ 6 mm", "item": "7.3.1 b)", "cota": "esquemas/refratario-inspecao.svg#largura-trinca"},
+    {"parametro": "Trinca a reparar — demais equipamentos", "valor": "largura ≥ 8 mm", "item": "7.3.1 c)", "cota": "esquemas/refratario-inspecao.svg#largura-trinca"},
+    {"parametro": "Trinca que exige avaliação complementar (termografia, coloração das faces)", "valor": "largura ≥ 2 mm", "item": "7.3.2 b), c)", "cota": "esquemas/refratario-inspecao.svg#largura-trinca"},
+    {"parametro": "Ataque químico — remover toda a área afetada", "valor": "penetração do estilete > 1/3 da espessura original", "item": "7.4", "cota": "esquemas/refratario-inspecao.svg#penetracao-estilete"},
+    {"parametro": "Vazios / compactação deficiente — remover", "valor": "área com som cavo > 300 mm × 300 mm", "item": "7.5", "cota": "esquemas/refratario-inspecao.svg#area-demolicao"},
+    {"parametro": "Ancoragens com defeito que levam à troca de todos os grampos da área", "valor": "50 % dos inspecionados", "item": "7.6.3"},
+    {"parametro": "Marreta para remover partes laminadas por coque", "valor": "1 kg", "item": "7.7.2"}
+   ],
+   "figuras": ["esquemas/refratario-inspecao.svg"]
+  }
+ ]
+}

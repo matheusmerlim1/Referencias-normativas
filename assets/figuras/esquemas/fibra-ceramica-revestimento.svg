@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500" role="img" aria-label="Revestimento interno de fibra cerâmica em fornos — mantas, módulos e fixação">
+<title>Revestimento interno de fibra cerâmica em fornos — mantas, módulos e fixação (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Revestimento interno de fibra cerâmica em fornos — mantas, módulos e fixação</text>
+<text x="170" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) camadas de manta fixadas por pino</text>
+<rect x="40" y="80" width="16" height="260" fill="#666" fill-opacity="0.5" stroke="#666" stroke-width="1.5"/>
+<rect x="56" y="80" width="5" height="260" fill="#888" fill-opacity="0.8" stroke="#888" stroke-width="0"/>
+<rect x="61" y="80" width="4" height="260" fill="#36c" fill-opacity="0.6" stroke="#36c" stroke-width="0"/>
+<rect x="65" y="80" width="60" height="260" fill="#d9a" fill-opacity="0.18" stroke="#d9a" stroke-width="1.5"/>
+<rect x="125" y="80" width="60" height="260" fill="#d9a" fill-opacity="0.3" stroke="#d9a" stroke-width="1.5"/>
+<rect x="185" y="80" width="60" height="260" fill="#d9a" fill-opacity="0.42" stroke="#d9a" stroke-width="1.5"/>
+<rect x="56" y="205" width="190" height="6" fill="#555" fill-opacity="0.6" stroke="#555" stroke-width="1.5"/>
+<rect x="240" y="190" width="8" height="36" fill="#555" fill-opacity="0.7" stroke="#555" stroke-width="1.5"/>
+<text x="155" y="350" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">mantas (juntas defasadas)</text>
+<g id="cota-espessura-revestimento" class="cota"><line x1="56" y1="340" x2="56" y2="384" stroke="#666" stroke-width="1"/><line x1="245" y1="340" x2="245" y2="384" stroke="#666" stroke-width="1"/><line x1="56" y1="380" x2="245" y2="380" stroke="#666" stroke-width="1.2"/><polygon points="56,380 65,383.5 65,376.5" fill="#666"/><polygon points="245,380 236,376.5 236,383.5" fill="#666"/><text x="150.5" y="396" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">espessura do revestimento</text></g>
+<g id="cota-pino-comprimento" class="cota"><line x1="56" y1="205" x2="56" y2="166" stroke="#666" stroke-width="1"/><line x1="246" y1="190" x2="246" y2="166" stroke="#666" stroke-width="1"/><line x1="56" y1="170" x2="246" y2="170" stroke="#666" stroke-width="1.2"/><polygon points="56,170 65,173.5 65,166.5" fill="#666"/><polygon points="246,170 237,166.5 237,173.5" fill="#666"/><text x="151.0" y="164" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">comprimento L do pino</text></g>
+<g id="cota-barreira-vapor" class="cota"><line x1="150" y1="440" x2="63" y2="330" stroke="#666" stroke-width="1.2"/><polygon points="63.0,330.0 65.8,339.2 71.3,334.9" fill="#666"/><text x="100" y="452" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">barreira de vapor (folha)</text></g>
+<g id="cota-massa-anticorrosiva" class="cota"><line x1="20" y1="440" x2="58" y2="300" stroke="#666" stroke-width="1.2"/><polygon points="58.0,300.0 52.3,307.8 59.0,309.6" fill="#666"/><text x="12" y="470" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">massa anticorrosiva na chapa</text></g>
+<text x="530" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) módulos ancorados</text>
+<rect x="400" y="80" width="16" height="260" fill="#666" fill-opacity="0.5" stroke="#666" stroke-width="1.5"/>
+<rect x="416" y="80" width="150" height="65" fill="#d9a" fill-opacity="0.35" stroke="#d9a" stroke-width="1.5"/>
+<line x1="441" y1="80" x2="441" y2="145" stroke="#b78" stroke-width="1"/>
+<line x1="466" y1="80" x2="466" y2="145" stroke="#b78" stroke-width="1"/>
+<line x1="491" y1="80" x2="491" y2="145" stroke="#b78" stroke-width="1"/>
+<line x1="516" y1="80" x2="516" y2="145" stroke="#b78" stroke-width="1"/>
+<line x1="541" y1="80" x2="541" y2="145" stroke="#b78" stroke-width="1"/>
+<rect x="416" y="110" width="40" height="5" fill="#555" fill-opacity="0.7" stroke="#555" stroke-width="1.5"/>
+<rect x="416" y="145" width="150" height="65" fill="#d9a" fill-opacity="0.35" stroke="#d9a" stroke-width="1.5"/>
+<line x1="441" y1="145" x2="441" y2="210" stroke="#b78" stroke-width="1"/>
+<line x1="466" y1="145" x2="466" y2="210" stroke="#b78" stroke-width="1"/>
+<line x1="491" y1="145" x2="491" y2="210" stroke="#b78" stroke-width="1"/>
+<line x1="516" y1="145" x2="516" y2="210" stroke="#b78" stroke-width="1"/>
+<line x1="541" y1="145" x2="541" y2="210" stroke="#b78" stroke-width="1"/>
+<rect x="416" y="175" width="40" height="5" fill="#555" fill-opacity="0.7" stroke="#555" stroke-width="1.5"/>
+<rect x="416" y="210" width="150" height="65" fill="#d9a" fill-opacity="0.35" stroke="#d9a" stroke-width="1.5"/>
+<line x1="441" y1="210" x2="441" y2="275" stroke="#b78" stroke-width="1"/>
+<line x1="466" y1="210" x2="466" y2="275" stroke="#b78" stroke-width="1"/>
+<line x1="491" y1="210" x2="491" y2="275" stroke="#b78" stroke-width="1"/>
+<line x1="516" y1="210" x2="516" y2="275" stroke="#b78" stroke-width="1"/>
+<line x1="541" y1="210" x2="541" y2="275" stroke="#b78" stroke-width="1"/>
+<rect x="416" y="240" width="40" height="5" fill="#555" fill-opacity="0.7" stroke="#555" stroke-width="1.5"/>
+<rect x="416" y="275" width="150" height="65" fill="#d9a" fill-opacity="0.35" stroke="#d9a" stroke-width="1.5"/>
+<line x1="441" y1="275" x2="441" y2="340" stroke="#b78" stroke-width="1"/>
+<line x1="466" y1="275" x2="466" y2="340" stroke="#b78" stroke-width="1"/>
+<line x1="491" y1="275" x2="491" y2="340" stroke="#b78" stroke-width="1"/>
+<line x1="516" y1="275" x2="516" y2="340" stroke="#b78" stroke-width="1"/>
+<line x1="541" y1="275" x2="541" y2="340" stroke="#b78" stroke-width="1"/>
+<rect x="416" y="305" width="40" height="5" fill="#555" fill-opacity="0.7" stroke="#555" stroke-width="1.5"/>
+<rect x="566" y="80" width="8" height="260" fill="#999" fill-opacity="0.5" stroke="#999" stroke-width="0"/>
+<text x="600" y="96" text-anchor="start" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">coating</text>
+<g id="cota-modulo-espessura" class="cota"><line x1="416" y1="340" x2="416" y2="374" stroke="#666" stroke-width="1"/><line x1="566" y1="340" x2="566" y2="374" stroke="#666" stroke-width="1"/><line x1="416" y1="370" x2="566" y2="370" stroke="#666" stroke-width="1.2"/><polygon points="416,370 425,373.5 425,366.5" fill="#666"/><polygon points="566,370 557,366.5 557,373.5" fill="#666"/><text x="491.0" y="386" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">espessura do módulo</text></g>
+<g id="cota-pino-modulo" class="cota"><line x1="470" y1="128" x2="440" y2="114" stroke="#666" stroke-width="1.2"/><polygon points="440.0,114.0 446.7,121.0 449.6,114.6" fill="#666"/><text x="474" y="134" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Ø do pino</text></g>
+<rect x="530" y="145" width="36" height="65" fill="#fff" fill-opacity="1.0" stroke="#fff" stroke-width="1" stroke-dasharray="3 3"/>
+<g id="cota-perda-espessura" class="cota"><line x1="530" y1="210" x2="530" y2="236" stroke="#666" stroke-width="1"/><line x1="566" y1="210" x2="566" y2="236" stroke="#666" stroke-width="1"/><line x1="530" y1="232" x2="566" y2="232" stroke="#666" stroke-width="1.2"/><polygon points="530,232 539,235.5 539,228.5" fill="#666"/><polygon points="566,232 557,228.5 557,235.5" fill="#666"/><text x="548" y="250" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">perda de espessura</text></g>
+<text x="830" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(c) junta da última camada</text>
+<rect x="700" y="120" width="260" height="40" fill="#d9a" fill-opacity="0.4" stroke="#d9a" stroke-width="1.5"/>
+<path d="M700,160 L820,160 L820,180 L960,180 L960,200 L700,200 Z" fill="#d9a" fill-opacity="0.55" stroke="#d9a" stroke-width="1.5"/>
+<line x1="700" y1="120" x2="700" y2="200" stroke="#555" stroke-width="1"/>
+<g id="cota-junta-sobreposta" class="cota"><line x1="780" y1="160" x2="780" y2="101" stroke="#666" stroke-width="1"/><line x1="820" y1="160" x2="820" y2="101" stroke="#666" stroke-width="1"/><line x1="780" y1="105" x2="820" y2="105" stroke="#666" stroke-width="1.2"/><polygon points="780,105 789,108.5 789,101.5" fill="#666"/><polygon points="820,105 811,101.5 811,108.5" fill="#666"/><text x="800.0" y="99" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">sobreposição</text></g>
+<line x1="760" y1="235" x2="900" y2="235" stroke="#36c" stroke-width="2" marker-end=""/>
+<polygon points="900,235 891,231.5 891,238.5" fill="#36c"/>
+<text x="830" y="252" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">sentido do fluxo de gás</text>
+<circle cx="830" cy="330" r="22" fill="#c96" fill-opacity="0.4" stroke="#c96" stroke-width="1.5"/>
+<g id="cota-corda-diametro" class="cota"><line x1="808" y1="330" x2="808" y2="384" stroke="#666" stroke-width="1"/><line x1="852" y1="330" x2="852" y2="384" stroke="#666" stroke-width="1"/><line x1="808" y1="380" x2="852" y2="380" stroke="#666" stroke-width="1.2"/><polygon points="808,380 817,383.5 817,376.5" fill="#666"/><polygon points="852,380 843,376.5 843,383.5" fill="#666"/><text x="830.0" y="396" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Ø da corda</text></g>
+<text x="830" y="300" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">corda de fibra cerâmica</text>
+<text x="12" y="492" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

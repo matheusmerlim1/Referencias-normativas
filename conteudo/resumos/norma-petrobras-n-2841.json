@@ -1,0 +1,57 @@
+{
+ "id": "PETROBRAS-N-2841",
+ "titulo": "Petrobras N-2841 Rev. C (01/2025) — Revestimentos anticorrosivos de invólucros (painéis elétricos, gabinetes, instrumentos, dutos e caixas de passagem)",
+ "secoes": [
+  {
+   "titulo": "Escopo e estrutura",
+   "item": "Prefácio, 1, 4",
+   "texto": "Norma escrita como complemento da ABNT NBR 16680:2018 (cada item diz se adota, modifica, substitui, acrescenta ou remove o texto da NBR). Vale para invólucros de conjuntos de manobra e controle — gabinetes, painéis, instrumentos, eletrodutos e caixas de passagem — de metais ferrosos e não ferrosos pintados com tinta líquida ou em pó. Revestimentos em pó precisam de homologação prévia (item 8); a pintura de fábrica repete exatamente o processo qualificado e o equipamento chega com relatório de controle de qualidade de todas as etapas.",
+   "valores": [],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Preparo e esquemas líquidos",
+   "item": "5.6, 6.7",
+   "texto": "Preparo pela NBR 16680 (jateamento, fosfatização ou conversão nanocerâmica conforme o substrato). Tipo V: fundo epóxi tolerante N-2680 + acabamento PU acrílico N-2677; sobre não ferrosos, inox e aço laminado a frio, o fundo é trocado por promotor de aderência indicado pelo fabricante da tinta. Tipo VI: fundo epóxi rico em zinco N-1277 (só sobre aço laminado a quente jateado) + PU acrílico.",
+   "valores": [
+    {"parametro": "Chapa de inox — espessura mínima para jatear", "valor": "3 mm", "item": "5.6.2 e)", "cota": "esquemas/chapa-fita-dimensoes.svg#espessura"},
+    {"parametro": "Tipo V — fundo N-2680", "valor": "≥ 100 μm", "item": "6.7.1.1.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Tipo VI — fundo N-1277 (pistola convencional com agitação)", "valor": "≥ 75 μm", "item": "6.7.2.1", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"},
+    {"parametro": "Tipos V e VI — acabamento N-2677", "valor": "≥ 50 μm", "item": "6.7.1.2, 6.7.2.2", "cota": "esquemas/pintura-esquema-camadas.svg#acabamento"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg", "esquemas/chapa-fita-dimensoes.svg"]
+  },
+  {
+   "titulo": "Escolha do revestimento por corrosividade (Tabela 2)",
+   "item": "6.8, Tab. 2",
+   "texto": "Para cada categoria de corrosividade (ISO 12944-2) e substrato (aço laminado a quente/frio, galvanizado descontínuo, galvanizado contínuo ou eletrolítico, aço com aspersão térmica, alumínio, inox) a tabela indica o preparo e o tipo de revestimento em pó ou líquido. C1/C2: pó tipo II ou III, líquido tipo V. C3/C4: pó tipo III (alumínio e inox tipo II), líquido tipo V. C5/CX: aço carbono com pó tipo IV ou líquido tipo VI; galvanizados, aspersão, alumínio e inox com pó tipo III ou líquido tipo V.",
+   "valores": []
+  },
+  {
+   "titulo": "Requisitos do revestimento e retoque",
+   "item": "7–9, Tab. A.1",
+   "texto": "Ensaios de homologação em laboratório ISO/IEC 17025 acreditado (IAF ou Inmetro): aderência, ensaio cíclico de corrosão ISO 12944-9, umidade 100 %, UV-A com condensação (sem gizamento e com perda de brilho limitada em acabamento liso) e cura por fricção com MEK. Retoque com substrato exposto: jato, ou ferramenta rotativa SP11 se o jato for inviável, fundo N-2680 (ou epóxi-alumínio N-2288 sem jato; promotor de aderência em não ferrosos/inox/laminado a frio) e acabamento N-2677.",
+   "valores": [
+    {"parametro": "Espessura de referência dos tipos II / III / IV / V / VI", "valor": "140 / 170 / 170 / 130 / 125 µm", "item": "Tab. A.1", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "Ensaio cíclico de corrosão — ciclos (tipo II / demais)", "valor": "10 / 25", "item": "Tab. A.1"},
+    {"parametro": "Umidade 100 % — horas (tipo II / demais)", "valor": "1 000 / 1 500 h", "item": "Tab. A.1"},
+    {"parametro": "Avanço máximo de corrosão no entalhe", "valor": "2 mm", "item": "Tab. A.1", "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-largura"},
+    {"parametro": "UV-A + condensação — abrigado / desabrigado", "valor": "960 h / 1 440 h", "item": "Tab. A.1 Notas 1–2"},
+    {"parametro": "Perda máxima de brilho a 60° (acabamento liso)", "valor": "20 % do inicial", "item": "Tab. A.1 Nota 3"},
+    {"parametro": "Cura — fricção com MEK", "valor": "30 s", "item": "Tab. A.1"},
+    {"parametro": "Retoque com ferramenta rotativa — perfil mínimo", "valor": "50 μm", "item": "9.3.1", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Retoque — fundo N-2680 ou N-2288 / acabamento N-2677", "valor": "≥ 100 μm / ≥ 50 μm", "item": "9.3.2, 9.4", "cota": "esquemas/pintura-esquema-camadas.svg#fundo"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg", "esquemas/pintura-preparo-superficie.svg", "esquemas/tinta-painel-ensaio.svg"]
+  },
+  {
+   "titulo": "Inspeção do revestimento aplicado",
+   "item": "10",
+   "texto": "Após a cura: visual, espessura seca e pull-off, com critérios de defeitos e espessura da N-13.",
+   "valores": [
+    {"parametro": "Pull-off mínimo — tipos V e VI (acabamento N-2677)", "valor": "7 MPa sem falha A/B (> 20 MPa qualquer)", "item": "10.2 b)"},
+    {"parametro": "Pull-off mínimo — tipos II, III e IV (pó)", "valor": "12 MPa sem falha A/B (> 20 MPa qualquer)", "item": "10.2 c)"}
+   ]
+  }
+ ]
+}

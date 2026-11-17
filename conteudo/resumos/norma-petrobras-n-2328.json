@@ -1,0 +1,76 @@
+{
+ "id": "PETROBRAS-N-2328",
+ "titulo": "Petrobras N-2328 Rev. D (04/2019) — Revestimento de junta de campo para duto enterrado",
+ "secoes": [
+  {
+   "titulo": "Escopo e sistemas",
+   "item": "1, 4",
+   "texto": "Revestimento externo das juntas soldadas de campo de dutos de aço enterrados, inclusive os lançados por furo direcional: manta termocontrátil (dutos em 3LPE, 3LPP, FBE ou betuminosos) ou epóxi líquido/FBE (dutos em epóxi). Manta sobre manta só em reparo. Procedimento de aplicação do fornecedor qualificado pela Petrobras e aplicadores treinados; mantas marcadas permanentemente com fornecedor e lote. Em furo direcional, o sistema resiste a abrasão e cisalhamento, cada junta leva manta de sacrifício na extremidade que vai à frente no puxamento, e o tipo de manta segue o solo (argila/silte ou areia/rocha; havendo trecho que exija manta estruturada, todas as juntas a usam).",
+   "valores": [],
+   "figuras": ["esquemas/duto-revestimento-junta-campo.svg"]
+  },
+  {
+   "titulo": "Materiais da manta (3LPE ou epóxi)",
+   "item": "5.1",
+   "texto": "Primer epóxi líquido 100 % sólidos (validade ≥ 2 anos) ou FBE, adesivo hot melt (até 60 °C ou até 80 °C), filme de PE reticulado com livre contração e baixa absorção; requisitos do revestimento aplicado (descolamento catódico, aderência, penetração, envelhecimento em água quente, impacto). Para furo direcional: adesivo e filme estruturados com tecido de fibra de vidro ou aditivados, e revestimento antiabrasivo.",
+   "valores": [
+    {"parametro": "Primer epóxi (líquido ou FBE) — película seca mín.", "valor": "150 µm", "item": "5.1.1.1, 7.3.1.3", "cota": "esquemas/duto-revestimento-junta-campo.svg#primer"},
+    {"parametro": "Manta PE (até 60/80 °C) — filme externo / adesivo", "valor": "≥ 0,75 mm / ≥ 0,90 mm", "item": "Tab. 9", "cota": "esquemas/duto-revestimento-junta-campo.svg#espessura-manta"},
+    {"parametro": "Furo direcional, não estruturada — filme / adesivo", "valor": "≥ 0,75 mm / ≥ 1,1 mm", "item": "Tab. 15", "cota": "esquemas/duto-revestimento-junta-campo.svg#espessura-manta"},
+    {"parametro": "Furo direcional, estruturada ou aditivada — filme / adesivo", "valor": "≥ 1,65 mm / ≥ 1,00 mm", "item": "Tab. 16", "cota": "esquemas/duto-revestimento-junta-campo.svg#espessura-manta"},
+    {"parametro": "Revestimento aplicado (PE até 60 °C) — descolamento catódico 28 d a 60 °C / 23 °C", "valor": "≤ 10 mm / ≤ 5 mm", "item": "Tab. 7"},
+    {"parametro": "Revestimento aplicado (PE até 60 °C) — aderência a 23 °C / 60 °C", "valor": "≥ 4 N/mm / ≥ 0,2 N/mm", "item": "Tab. 7"},
+    {"parametro": "Espessura residual na penetração", "valor": "≥ 0,6 mm", "item": "Tab. 7, 8, 13, 14, 19", "cota": "esquemas/duto-revestimento-junta-campo.svg#espessura-remanescente"},
+    {"parametro": "Impacto — PE até 60 °C / PE até 80 °C e estruturada / PP", "valor": "5 / 7 / 10 J/mm", "item": "Tab. 7, 8, 13, 14"}
+   ],
+   "figuras": ["esquemas/duto-revestimento-junta-campo.svg"]
+  },
+  {
+   "titulo": "Manta de PP (3LPP ou FBE) e juntas em epóxi",
+   "item": "5.2, 5.3",
+   "texto": "Manta de PP reticulado para projeto até 110 °C: primer como na manta de PE, adesivo hot melt de alto ponto de amolecimento e filme de PP; ensaios do revestimento aplicado a 95 °C. Juntas de dutos revestidos em epóxi: epóxi líquido pela N-2238 ou FBE pela Tabela 22 (pó com granulometria, tempo de gel, Tg e umidade controlados; corpo de prova com aderência, imersão, absorção, descolamento catódico, abrasão, impacto, grau de cura e porosidade). Epóxi em pó armazenado e transportado frio e seco.",
+   "valores": [
+    {"parametro": "Manta PP — filme externo / adesivo", "valor": "≥ 0,85 mm / ≥ 1,40 mm", "item": "Tab. 20, 21", "cota": "esquemas/duto-revestimento-junta-campo.svg#espessura-manta"},
+    {"parametro": "FBE da junta — aderência pull-off mín.", "valor": "12 MPa", "item": "Tab. 22"},
+    {"parametro": "FBE da junta — descolamento catódico máx.", "valor": "10 mm", "item": "Tab. 22"},
+    {"parametro": "FBE — espessura dos corpos de prova", "valor": "450 µm (+150 / -50 µm)", "item": "Tab. 22 Nota 6", "cota": "esquemas/pintura-esquema-camadas.svg#eps"},
+    {"parametro": "FBE — Tg2 em relação à operação", "valor": "5 °C acima da temperatura de operação", "item": "Tab. 22 Nota 5"},
+    {"parametro": "Epóxi em pó — temperatura máx. / UR máx. de armazenagem", "valor": "27 °C / 70 %", "item": "6.2.3"}
+   ],
+   "figuras": ["esquemas/pintura-esquema-camadas.svg"]
+  },
+  {
+   "titulo": "Aplicação",
+   "item": "7",
+   "texto": "Sem jateamento com UR alta ou superfície perto do orvalho; para aplicar manta nessas condições, aquecer a junta. Secar, limpar e jatear a junta (Sa 2½) com perfil angular; chanfrar a borda do revestimento original (exceto epóxi) e lixar ou escovar uma faixa dele em volta da junta (faixa maior em furo direcional para ancorar a manta de sacrifício). Pré-aquecimento por indução ou infravermelho (maçarico só se o fornecedor indicar; tubos grandes com maçaricos dos dois lados). Medir o primer, posicionar a manta com sobreposição sobre o revestimento original e contrair; epóxi pela N-13, também sobrepondo o revestimento de fábrica.",
+   "valores": [
+    {"parametro": "Jateamento — UR máx. / margem sobre o ponto de orvalho", "valor": "< 85 % / ≥ 3 °C", "item": "7.1.1", "cota": "esquemas/pintura-condicoes-aplicacao.svg#margem-orvalho"},
+    {"parametro": "Aquecimento mínimo da junta (UR > 85 % e superfície < orvalho + 3 °C)", "valor": "45 °C", "item": "7.1.2"},
+    {"parametro": "Perfil de rugosidade", "valor": "60 µm a 100 µm", "item": "7.2.3", "cota": "esquemas/pintura-preparo-superficie.svg#perfil"},
+    {"parametro": "Chanfro da borda do revestimento original", "valor": "< 30° com a superfície do tubo", "item": "7.2.4", "cota": "esquemas/duto-revestimento-junta-campo.svg#chanfro-revestimento"},
+    {"parametro": "Faixa lixada do revestimento original", "valor": "≥ 150 mm", "item": "7.2.5", "cota": "esquemas/duto-revestimento-junta-campo.svg#faixa-lixamento"},
+    {"parametro": "Faixa para a manta de sacrifício (furo direcional)", "valor": "250 mm", "item": "7.2.5", "cota": "esquemas/duto-revestimento-junta-campo.svg#faixa-sacrificio"},
+    {"parametro": "Tubo que exige 2 maçaricos no pré-aquecimento", "valor": "Ø > 14 pol", "item": "7.3.1.2", "nota": "condição de diâmetro do tubo"},
+    {"parametro": "Sobreposição da manta (antes de contrair) sobre o revestimento original", "valor": "≥ 90 mm em cada lado", "item": "7.3.1.4", "cota": "esquemas/duto-revestimento-junta-campo.svg#sobreposicao-manta"},
+    {"parametro": "Sobreposição do epóxi sobre o revestimento de fábrica", "valor": "≈ 90 mm", "item": "7.3.2.3", "cota": "esquemas/duto-revestimento-junta-campo.svg#sobreposicao-manta"}
+   ],
+   "figuras": ["esquemas/duto-revestimento-junta-campo.svg", "esquemas/pintura-preparo-superficie.svg"]
+  },
+  {
+   "titulo": "Inspeção, ensaios e reparo",
+   "item": "8–10, Anexos D e E",
+   "texto": "Visual: primer sem falhas, sem zona fria nem superaquecimento, manta lisa e conformada sobre colarinhos e soldas, adesivo fluindo nas bordas (pequenas bolhas no mata-junta são toleradas). Detector de descontinuidade em toda a junta. Aderência em campo por amostragem, com contraprova e investigação em cadeia se falhar; manta de PE ensaiada à temperatura ambiente após resfriar naturalmente, PP sobre 3LPP a quente. Espessura a cada lote de juntas (epóxi e primer). Reparo de manta com nova manta cobrindo toda a danificada (lixada, sem primer), ou removendo o filme e reaplicando sobre o adesivo; epóxi pela N-2911.",
+   "valores": [
+    {"parametro": "Detector de descontinuidade — manta", "valor": "12 kV/mm (máx. 25 kV)", "item": "8.2.1 Nota 1"},
+    {"parametro": "Detector — FBE monocamada / dupla camada", "valor": "2,25 ± 0,2 kV / 4,0 ± 0,2 kV", "item": "8.2.1 Notas 3–4"},
+    {"parametro": "Frequência do ensaio de aderência", "valor": "1 nas 10 primeiras juntas e 1 a cada 100 seguintes", "item": "8.3.1.1"},
+    {"parametro": "Aderência do epóxi na junta", "valor": "≥ 12 MPa sem falha A/B (> 20 MPa qualquer)", "item": "8.3.3.2"},
+    {"parametro": "Medição de espessura", "valor": "a cada 50 juntas", "item": "8.4.1"},
+    {"parametro": "Ensaio de aderência da manta — tira", "valor": "25 mm × 125 mm", "item": "D.1.1", "cota": "esquemas/duto-revestimento-junta-campo.svg#tira-largura"},
+    {"parametro": "Peso pendurado — manta sobre PE / sobre PP", "valor": "7,5 kgf / 10 kgf", "item": "D.1.3", "nota": "descolamento até 45° em ≥ 0,4·D min (D em cm)"},
+    {"parametro": "Propagação de corte (filme estruturado, 200 °C / 15 min)", "valor": "≤ 5 mm", "item": "Tab. 11, Anexo E", "nota": "ensaio de material; amostra de 180 × 50 mm com linhas a 5 e 10 mm da borda"}
+   ],
+   "figuras": ["esquemas/duto-revestimento-junta-campo.svg"]
+  }
+ ]
+}
