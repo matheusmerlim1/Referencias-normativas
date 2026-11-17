@@ -1,0 +1,21 @@
+{
+ "id": "PETROBRAS-N-0898",
+ "titulo": "Petrobras N-0898 Rev. B (12/2023) — Símbolos gráficos e designações para diagramas elétricos",
+ "secoes": [
+  {
+   "titulo": "Escopo e tipos de diagrama",
+   "item": "1, 3",
+   "texto": "Fixa os símbolos gráficos e as designações a usar em diagramas elétricos de controle, unifilares, multifilares, funcionais, de fiação e lógicos/digitais. No unifilar os condutores de um circuito viram uma só linha; no multifilar cada condutor aparece; o de fiação mostra cada conexão e componente; o funcional mostra como o circuito opera e interage com comando, proteção e sinalização; o lógico representa sequências, intertravamentos e fluxos de variáveis. Contatos são desenhados no estado de repouso: N.A. (normalmente aberto) e N.F. (normalmente fechado). A numeração das funções de proteção e manobra segue a ABNT NBR 5175 / IEEE C37.2 (ex. 52 disjuntor, 50/51 sobrecorrente) e os símbolos a IEC 60617; identificação de equipamentos pela N-1521 e documentos pela N-2040.",
+   "valores": [
+    {
+     "parametro": "Referências de símbolos e números de função",
+     "valor": "IEC 60617; ABNT NBR 5175 / IEEE C37.2; transformador de corrente pela ABNT NBR 6856",
+     "item": "2"
+    }
+   ],
+   "figuras": [
+    "esquemas/diagrama-eletrico-simbolos.svg"
+   ]
+  }
+ ]
+}

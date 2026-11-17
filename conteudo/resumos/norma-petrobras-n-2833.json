@@ -1,0 +1,36 @@
+{
+ "id": "PETROBRAS-N-2833",
+ "titulo": "Petrobras N-2833 Rev. A (06/2013) — Formulários e listas para projetos de instrumentação",
+ "secoes": [
+  {
+   "titulo": "Escopo e regras gerais",
+   "item": "1, 3",
+   "texto": "Junta numa norma os formulários e listas de projetos de instrumentação (capa, índice, listas de cabos e de instrumentos, detalhes de instalação, requisições de material), obtidos de arquivos editáveis. Cabeçalho e rodapé pela N-381; todo campo é preenchido e o não usado recebe um traço; versão eletrônica só muda a forma com aceite formal, nunca o conteúdo.",
+   "valores": [],
+   "figuras": [
+    "esquemas/documento-carimbo-retangulo-reservado.svg"
+   ]
+  },
+  {
+   "titulo": "Documentos e abreviaturas",
+   "item": "4, 5",
+   "texto": "Lista de cabos, lista de instrumentos e detalhes de instalação são precedidos de capa; o detalhe de instalação traz sumário de material obrigatório. A lista de instrumentos usa códigos de locação (BC bastidor central, BL local, IHM, L local, PC/PL painel central/local, PES, UC). Os detalhes de instalação ao processo usam abreviaturas de material e extremidade (AC, AI, AL, DE, DN, ESP, PC, PL, RO, S/C, CCT, válvulas VAG/VGA/VGL/VES/VDF…) e os elétricos de componentes à prova de explosão (uniões EU/EUF/EUM, selos SV/SH/SVD/SHD, eletrodutos flexíveis EF/EFF/EFM, bucha ERE). RMs seguem a N-1913.",
+   "valores": [
+    {
+     "parametro": "Folha índice dispensável",
+     "valor": "documento com até 15 folhas",
+     "item": "4.4.2"
+    },
+    {
+     "parametro": "Formatos dos formulários",
+     "valor": "capa, índice, listas de cabos e instrumentos e detalhes de instalação em A3; lista simplificada de cabos e RMs em A4",
+     "item": "5",
+     "cota": "esquemas/documento-carimbo-retangulo-reservado.svg#formato"
+    }
+   ],
+   "figuras": [
+    "esquemas/instrumentacao-linha-impulso.svg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "id": "PETROBRAS-N-1973",
+ "titulo": "Petrobras N-1973 Rev. D (06/2021) — Requisição de material para equipamentos elétricos",
+ "secoes": [
+  {
+   "titulo": "Escopo e preenchimento",
+   "item": "1, 3",
+   "texto": "Padroniza o formulário de requisição de material (RM) de equipamentos elétricos. Uma RM só junta vários equipamentos se forem do mesmo tipo e da mesma área/centro de custo. Folhas de dados, desenhos e diagramas são listados como anexos; cabeçalho e rodapé pela N-381, emissão e revisões pela N-1913; escopo, prazos e locais de entrega vêm da gerência do empreendimento. Ao pedir documentos, citar a seção da norma correspondente.",
+   "valores": [],
+   "figuras": [
+    "esquemas/documento-carimbo-retangulo-reservado.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo do formulário",
+   "item": "Anexo A",
+   "texto": "Objetivo (itens, identificação, quantidade), documentos anexos e de referência (Condições Gerais de Fornecimento de Material), observações (proposta atende integralmente; desvios em item próprio; fornecedor completa a folha de dados), escopo de fornecimento marcado sim/não (projeto, levantamento de campo, documentação, testes de fabricação e desempenho, pintura, transporte, embalagem, montagem, condicionamento, assistência, treinamento, sobressalentes), documentos a entregar com prazos e tipo de cópia, prazo e local de entrega e garantias.",
+   "valores": [
+    {
+     "parametro": "Formato mínimo dos documentos para aprovação",
+     "valor": "A3, legíveis, com órgão, unidade, nº do equipamento, nº da RM e do pedido",
+     "item": "Anexo A, 4.1",
+     "cota": "esquemas/documento-carimbo-retangulo-reservado.svg#formato"
+    },
+    {
+     "parametro": "Retângulo reservado ao cliente (ao lado e acima do carimbo do fabricante)",
+     "valor": "15 cm × 4 cm",
+     "item": "Anexo A, 4.2",
+     "cota": "esquemas/documento-carimbo-retangulo-reservado.svg#retangulo-largura"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "PETROBRAS-N-2802",
+ "titulo": "Petrobras N-2802 Rev. B (08/2022) — Folhas de dados de instrumentação (coletânea)",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 4",
+   "texto": "Reúne as folhas de dados de instrumentação e fixa o conteúdo mínimo das folhas de PROCESSO (projeto básico, Anexo A) e de INSTRUMENTOS (detalhamento, Anexo B), cada formulário seguido da instrução de preenchimento. Folha não coberta segue a ISA 20:1981; em sistemas CAE recomenda-se o formato da ISA 20 respeitando o conteúdo mínimo. Preenchida, a folha de instrumento é o documento técnico de compra e fica como documento permanente; exigências de certificação vão em campo próprio ou em NOTAS. Cabeçalho e rodapé pela N-381. Citar as folhas pelo título, não pela letra do anexo (podem mudar).",
+   "valores": [],
+   "figuras": [
+    "esquemas/valvula-controle-ensaio.svg"
+   ]
+  },
+  {
+   "titulo": "Folhas incluídas",
+   "item": "5",
+   "texto": "Processo: válvulas de controle; pressão e pressão diferencial; temperatura; nível; vazão; válvulas de segurança e alívio; válvula automática de bloqueio e alívio; instrumentação diversa. Instrumentos: poços para instrumentos de temperatura (ASME PTC 19.3 TW); válvulas de segurança e alívio; válvula automática de bloqueio e alívio; elemento primário de vazão tipo orifício calibrado; analisador de O2 (óxido de zircônio); analisador de pH.",
+   "valores": [
+    {
+     "parametro": "Dimensões informadas na folha do orifício calibrado",
+     "valor": "diâmetro interno da linha, diâmetro do orifício, espessura da placa e tipo de tomada (campos do formulário)",
+     "item": "Anexo B",
+     "nota": "campos do formulário; a norma não fixa valores",
+     "cota": "esquemas/orificio-placa-tomadas.svg#d"
+    }
+   ],
+   "figuras": [
+    "esquemas/orificio-placa-tomadas.svg",
+    "esquemas/valvula-alivio-psv.svg"
+   ]
+  }
+ ]
+}

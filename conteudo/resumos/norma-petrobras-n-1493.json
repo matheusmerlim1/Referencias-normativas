@@ -1,0 +1,69 @@
+{
+ "id": "PETROBRAS-N-1493",
+ "titulo": "Petrobras N-1493 Rev. D (11/2012) — Drenagem elétrica para proteção catódica",
+ "secoes": [
+  {
+   "titulo": "Função e escopo",
+   "item": "1, 3",
+   "texto": "Requisitos mínimos de projeto, fabricação e ensaio da drenagem elétrica simples: equipamento que devolve ao trilho as correntes de interferência vindas de sistemas de tração eletrificados, deixando passar corrente num só sentido (do duto para o trilho) por um diodo. A folha de dados do Anexo A prevalece sobre a norma e o fornecedor completa os campos em branco; toda ligação com estrutura de terceiros precisa ser formalizada e aprovada antes.",
+   "valores": [],
+   "figuras": [
+    "esquemas/protecao-catodica-drenagem.svg"
+   ]
+  },
+  {
+   "titulo": "Ambiente e gabinete",
+   "item": "4, 5",
+   "texto": "Preferência por local abrigado e área não classificada. O gabinete é resistente à corrosão, de fácil acesso para manutenção, com aviso de advertência, janela ou prensa-cabos, barra de equipotencialização (NBR 5410) e placa de identificação em inox ou acrílico (fabricante, modelo, corrente nominal, massa, data, série). Tamanho só o necessário para os componentes; os terminais de saída indicam a que estrutura se ligam.",
+   "valores": [
+    {
+     "parametro": "Temperatura ambiente",
+     "valor": "0 °C a 50 °C (ou folha de dados)",
+     "item": "4.2"
+    },
+    {
+     "parametro": "Umidade relativa máxima",
+     "valor": "95 % sem condensação",
+     "item": "4.3"
+    },
+    {
+     "parametro": "Grau de proteção mínimo",
+     "valor": "IP-23 abrigado; IP-43 ao tempo",
+     "item": "5.4.1"
+    },
+    {
+     "parametro": "Material e cor do gabinete",
+     "valor": "aço-carbono, inox ou alumínio pintado (N-1735/N-1021); cinza clara 0065 (Munsell N 6.5) da N-1219",
+     "item": "5.4.2–5.4.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Parte elétrica, ensaios e documentos",
+   "item": "6–8",
+   "texto": "Diodo e dissipador dimensionados pelo projeto, protegidos por fusível NH, DPS e circuito RC; medidores analógicos de corrente de saída e tensão tubo-trilho com chave e resistência shunt para aferição; sobressalentes das proteções; sinais para monitoração remota (corrente drenada, potencial estrutura-eletrólito, tensão tubo-trilho e porta aberta). Recomenda-se um leito de anodos em paralelo com a ligação ao trilho. Ensaios: visual, dimensional, pintura (cor, espessura, aderência), resistência de isolamento e tensão aplicada (NBR 5410). A proposta traz folha de dados, desenhos dimensionais e catálogos; o fornecimento traz certificado de garantia, manual e certificados de ensaio.",
+   "valores": [
+    {
+     "parametro": "DPS — tensão máxima de operação contínua (Uc)",
+     "valor": "275 V",
+     "item": "6.2.2 b)"
+    },
+    {
+     "parametro": "DPS — corrente nominal de descarga mínima (In, 8/20 μs)",
+     "valor": "30 kA",
+     "item": "6.2.2 c)"
+    },
+    {
+     "parametro": "Precisão dos medidores",
+     "valor": "1,5 % do fundo de escala",
+     "item": "6.3"
+    },
+    {
+     "parametro": "Garantia mínima",
+     "valor": "1 ano",
+     "item": "8.1 d)"
+    }
+   ]
+  }
+ ]
+}
