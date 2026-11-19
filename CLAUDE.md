@@ -303,8 +303,13 @@ Lotes 1–7 feitos (30/out): todo valor geométrico tem cota e todo resumo tem d
    LOTE P5 ELÉTRICA/INSTRUMENTAÇÃO EM ANDAMENTO (17/nov): 11/23 pelo coordenador — N-0898, 1493, 1659, 1711, 1973, 1996, 1997, 2201,
    2791, 2802, 2833 (+8 SVG: bandejamento-cabos, diagrama-eletrico-simbolos, protecao-catodica-drenagem, caixa-enfiacao-manhole,
    documento-carimbo-retangulo-reservado, rede-eletrica-subterranea, instrumento-instalacao-processo, transformador-seco-iluminacao).
-   >>> RETOMAR AQUI: P5 faltam 12 (as grandes): N-0858 1600 1614 1882 1883 2040 2547 2595 2830 2918 2919 2928
-   (1 agente), depois P6 estruturas/segurança (22), P7 desenho/geral (99).
+   19/nov: 4 agentes em paralelo (pedido do usuário) → P5 COMPLETO 23/23; P6 19/22; P7 49/99 (+69 SVG, commit ea217bf).
+   Todos pararam no limite da API. Paralelo sem conflito: só 1 agente mexe em SVG existente/cotas_dispensadas.json; os outros
+   criam SVG novo e gravam dispensas em scratchpad/dispensas/<lote>.json (coordenador junta).
+   >>> RETOMAR AQUI: P6 faltam N-1812 1852 2869 + 16 cotas pendentes (N-0293, 1617, 1644, 0047, 0134, 0279, 1203, 2768);
+   P7 faltam 50: N-0316 0317 0319 0329 0332 0464 0845 0862 1380 1514 1601 1602 1693 1756 1855 1862 1897 1921 1935 1955 2000
+   2006 2039 2169 2634 2652 2653 2671 2689 2698 2724 2726 2727 2737 2760 2779 2784 2786 2838 2860 2896 2900 2915 2916 2921
+   2931 2932 2934 2935 2941.
    Commit + push ao fim de cada lote (só caminhos próprios).
 4. Backlog antigo (baixa prioridade; detalhes em HISTORICO.md): ficha vaso-pressao migrar de VIII-1 2001 para 2007; UCS-66, UG-37;
    B16.9/B16.11/B36.19M; NR-13 tubulações; ISO 4759/4042; MSS SP-44, API 6AF; NBR 6409/ISO 1302; IPE/W/cantoneiras; composição
