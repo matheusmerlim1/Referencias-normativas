@@ -86,7 +86,7 @@
      "parametro": "Poder de cobertura — azul-Petrobras, azul-segurança, cinza-escuro, marrom, óxido de ferro, preto",
      "valor": "≤ 10 mm",
      "item": "Tabela A-1",
-     "nota": "Agrupamento lido de tabela com células mescladas — conferir.",
+     "nota": "Agrupamento conferido na Tabela A-1.",
      "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#leitura-pfund"
     }
    ],
@@ -97,7 +97,7 @@
   {
    "titulo": "Película seca (Tabela 3)",
    "item": "4.3",
-   "texto": "Sem bolhas nem corrosão após névoa salina, umidade, SO₂ e imersões. No ensaio UV-A com condensação (ciclos de 8 h UV + 4 h condensação) a película não pode gizar e a perda de brilho é limitada a um percentual do inicial (conferir o valor na norma).",
+   "texto": "Sem bolhas nem corrosão após névoa salina, umidade, SO₂ e imersões. No ensaio UV-A com condensação (ciclos de 8 h UV + 4 h condensação) a película não pode gizar e a redução de brilho não pode passar de 10 % do valor inicial (Tabela 3, Nota 3).",
    "valores": [
     {
      "parametro": "Aderência — falha A/B",

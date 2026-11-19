@@ -87,10 +87,10 @@
     },
     {
      "parametro": "Solo coesivo — escavação conforme Figuras 1 e 2",
-     "valor": "até 1,75 m (trecho vertical de 1,25 m + talude 45°, ou escoras)",
+     "valor": "profundidade < 1,75 m: sem escora, parede vertical de 1,25 m e talude de 45° acima (Fig. 1); ou com escoras na parte superior, 1,25 m abaixo delas, total 1,75 m (Fig. 2)",
      "item": "5.3.2; Fig. 1 e 2",
      "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#parede-vertical",
-     "nota": "conferir: cotas lidas das Figuras 1 e 2"
+     "nota": "Lido das Figuras 1 e 2 (conferidas no PDF; o sinal antes de 1,25 m e 1,75 m sai como \"=\" na figura)."
     },
     {
      "parametro": "Talude até 5,00 m — solo não coesivo ou coesivo médio",
@@ -112,10 +112,10 @@
     },
     {
      "parametro": "Profundidade acima da qual se usam patamares",
-     "valor": "> 5,0 m (Figura 3)",
+     "valor": "> 5,0 m: patamares a cada 5,00 m de altura, com 1,50 m de largura; faixa de 1,00 m livre junto à crista",
      "item": "5.3.4",
      "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#patamar-altura",
-     "nota": "conferir: a Figura 3 traz cotas de patamar (1,00 m e 1,50 m) e trechos de 5,00 m — leitura da figura"
+     "nota": "Lido da Figura 3 (conferida no PDF); inclinação β de cada talude conforme 5.3.3."
     }
    ],
    "figuras": [

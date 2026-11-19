@@ -9,15 +9,14 @@
    "valores": [
     {
      "parametro": "Primeira letra — aço-carbono",
-     "valor": "classe 150: B; 300: C; 400: D; 600: E; 900: F; 1 500: G (classes 25 a 125: A)",
-     "item": "Tabela de identificação",
-     "nota": "conferir: tabela extraída em colunas; confirmar a correspondência letra × classe no original."
+     "valor": "classes 25/50/125: A; 150/175: B; 250/300: C; 400: D; 600: E; 800/900: F; 1 500: G; 2 000 a 6 000: H",
+     "item": "5.4, Tabela 1"
     },
     {
      "parametro": "Primeira letra — aços liga e inox",
-     "valor": "150: L; 300: M; 400: N; 600: O; 900: P; 1 500: Q (até 125: J)",
-     "item": "Tabela de identificação",
-     "nota": "conferir: idem."
+     "valor": "25/50/125: J; 150/175: L; 250/300: M; 400: N; 600: O; 800/900: P; 1 500: Q; 2 000 a 6 000: R",
+     "item": "5.4, Tabela 1",
+     "nota": "Ferro fundido: T (até 175) e U (250 a 400); diversos: X (até 175) e Z (250 a 400). K, W e Y para casos não previstos; I, S e V reservadas à instalação de instrumentos (N-1931)."
     }
    ],
    "figuras": [
@@ -77,10 +76,9 @@
      "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
     },
     {
-     "parametro": "Flanges para junta anel (RTJ) limitados",
-     "valor": "classe 300 e até 150 °C",
-     "item": "10.2",
-     "nota": "conferir contexto (limitação aplicada a um caso específico de flange no item 4.2 da seção de flanges)."
+     "parametro": "Flanges sobrepostos (slip-on) limitados",
+     "valor": "classe 300 e até 150 °C; só fluidos não tóxicos e não inflamáveis, e nunca soldados direto em curva",
+     "item": "8.5.7.3"
     },
     {
      "parametro": "Rosca dos estojos",

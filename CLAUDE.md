@@ -314,7 +314,13 @@ Lotes 1–7 feitos (30/out): todo valor geométrico tem cota e todo resumo tem d
    N-2628/2677 (secagem, cores, brilho UV), N-2630 (pot-life), N-2912 (Atlas/autoclave), N-2377 (rampa "18 °C"),
    N-2737 (margem 2√(D·t)), N-2786 (d/tn de fluxograma), N-2931 (0,7 mm), N-2860 (6 medidas dispensadas → podem ganhar cota),
    N-2934/2935 (rpm, tolerâncias do molde, "4 in² (50,8 mm²)" errado na norma, remissões trocadas na 2935).
-   Próximo: revisar os "conferir"; acervo T: restante (ASTM, ABNT, SSPC…) por lotes.
+   19/nov 16h45: "conferir" REVISADOS contra o PDF (agente) — corrigidos N-0134 (graute ≤ 50 mm, chumbadores Fig. A.2.2),
+   N-1514 (tipos 1×2 trocados), N-1693 (tabela de letras; limite era do slip-on), N-2162, N-2931, N-2628, N-2912, N-0293,
+   N-1644, N-1852, N-2860 (+6 cotas em mobiliario-recepcao-bancadas), N-2200 (marco, +3 cotas). Erros da própria norma anotados
+   (N-2377 18 °C, N-2934 1200 rpm e 50,8 mm², N-2935 10.2.3 g). EM ABERTO: N-2001 "20 °C" sem sinal (provável −20 °C),
+   N-2200 demais placas do Anexo A, N-1728 altura da tela 19/25 mm; não vistos N-2911, 2913, 2918, 2939.
+   ACERVO T: BLOCO A EM ANDAMENTO (19/nov): ABNT/MTE/API/ISO/NORSOK/DNV → ferramentas/docs_acervo_a.py + normas.json
+   (+92 até agora); depois resumos por lote (agentes em paralelo). Depois: SSPC (175), ASME restante (~95), ASTM (~880).
    Commit + push ao fim de cada lote (só caminhos próprios).
 4. Backlog antigo (baixa prioridade; detalhes em HISTORICO.md): ficha vaso-pressao migrar de VIII-1 2001 para 2007; UCS-66, UG-37;
    B16.9/B16.11/B36.19M; NR-13 tubulações; ISO 4759/4042; MSS SP-44, API 6AF; NBR 6409/ISO 1302; IPE/W/cantoneiras; composição

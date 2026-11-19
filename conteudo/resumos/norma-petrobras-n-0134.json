@@ -75,31 +75,31 @@
    "valores": [
     {
      "parametro": "Graute sob a placa de base",
-     "valor": "≥ 50 mm",
+     "valor": "≤ 50 mm e ≤ 0,15 × B (B = menor dimensão da placa em planta)",
      "item": "Fig. A.2.1",
      "cota": "esquemas/chumbador-base-concreto-petrobras.svg#graute",
-     "nota": "conferir: leitura da figura"
+     "nota": "Lido da Figura A.2.1 (conferida no PDF): a espessura do graute é limitada (máximo), não mínima."
     },
     {
      "parametro": "Borda da placa ↔ borda da base de concreto",
-     "valor": "≥ 50 mm e ≥ 0,15 × B (B = menor dimensão da placa em planta); espraiamento a 45°",
+     "valor": "≥ 50 mm; chanfro/espraiamento da base ≤ 45°",
      "item": "Fig. A.2.1",
      "cota": "esquemas/chumbador-base-concreto-petrobras.svg#borda-placa",
-     "nota": "conferir: leitura da figura"
+     "nota": "Lido da figura (conferida no PDF)."
     },
     {
      "parametro": "Chumbador ↔ borda da base e entre chumbadores",
-     "valor": "mínimos do tipo ≥ 75 mm / ≥ 100 mm combinados com múltiplos de Ø (≥ Ø, ≥ 2Ø, ≥ 3Ø, ≥ 4Ø) conforme a posição",
+     "valor": "eixo à borda ≥ 100 mm e ≥ 4Ø; entre eixos ≥ 100 mm e ≥ 3Ø; luva à borda ≥ 75 mm; entre luvas ≥ 75 mm e ≥ Ø; gancho/chapa de ancoragem à borda ≥ 75 mm; entre ancoragens ≥ 50 mm e ≥ 2Ø; ancoragem ao fundo da base ≥ 100 mm",
      "item": "Fig. A.2.2",
      "cota": "esquemas/chumbador-base-concreto-petrobras.svg#borda-chumbador",
-     "nota": "conferir: a associação de cada mínimo à sua posição só é legível na figura"
+     "nota": "Lido da Figura A.2.2 (chumbadores tipo A a M; conferida no PDF)."
     },
     {
      "parametro": "Nicho de concretagem (blockout)",
-     "valor": "largura A + 80 mm (A = gancho/chapa em planta), folgas ≥ 100 mm até a borda e ≥ 20 mm sob a ancoragem; tubo corrugado com Ø interno 80 mm maior que o círculo que circunscreve a chapa",
+     "valor": "largura A + 20 mm no topo e A + 80 mm no fundo (A = gancho/chapa em planta; nicho tronco-cônico); ≥ 100 mm até a borda e entre nichos; ≥ 20 mm entre a ancoragem e o fundo do nicho; ≥ 100 mm do fundo do nicho à face inferior da base; tubo corrugado galvanizado: Ø interno 80 mm maior que o círculo que circunscreve a chapa/gancho",
      "item": "Fig. A.3",
      "cota": "esquemas/chumbador-base-concreto-petrobras.svg#nicho",
-     "nota": "conferir: leitura da figura (cotas A + 20 mm e A + 80 mm)"
+     "nota": "Lido da Figura A.3 (revisada na Rev. F; conferida no PDF)."
     }
    ],
    "figuras": [

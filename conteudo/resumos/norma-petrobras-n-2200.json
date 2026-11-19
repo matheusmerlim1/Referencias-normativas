@@ -65,10 +65,35 @@
    ]
   },
   {
-   "titulo": "Observação sobre as figuras",
-   "item": "Anexo A",
-   "texto": "As figuras do Anexo A (marcos e placas cotados) têm texto com fonte embaralhada na extração; as dimensões dos marcos e placas não foram transcritas aqui — consultar os modelos padronizados da norma.",
-   "valores": []
+   "titulo": "Marco delimitador (modelo do Anexo A)",
+   "item": "Anexo A, Figura A.1",
+   "texto": "Marco de concreto amarelo (pintado nas quatro faces), com o símbolo da Petrobras em uma só face, voltada para o lado de melhor visualização. Duas versões: seção maciça (armada) e seção vazada. Fica 1 m acima do solo e é chumbado num bloco de concreto. As demais figuras do Anexo A (placas e outros marcos) não foram transcritas — a fonte das cotas sai embaralhada na extração.",
+   "valores": [
+    {
+     "parametro": "Altura acima do solo",
+     "valor": "1 000 mm",
+     "item": "Fig. A.1.1 / A.1.2",
+     "nota": "Lido da figura (imagem conferida).",
+     "cota": "esquemas/duto-faixa-sinalizacao-marcos.svg#marco-acima-solo"
+    },
+    {
+     "parametro": "Seção do marco",
+     "valor": "150 mm × 150 mm (vazada: furo 80 mm × 80 mm no corte, 100 mm × 100 mm na base)",
+     "item": "Fig. A.1.1 / A.1.2",
+     "nota": "Lido da figura. Faixa do símbolo no topo: 150 mm (símbolo de 90 mm, a 30 mm das bordas).",
+     "cota": "esquemas/duto-faixa-sinalizacao-marcos.svg#marco-secao"
+    },
+    {
+     "parametro": "Embutimento e fundação",
+     "valor": "800 mm abaixo do solo: 300 mm em bloco de concreto Ø 500 mm (traço 1:3:5) + 500 mm no solo",
+     "item": "Fig. A.1.1 / A.1.2",
+     "nota": "Lido da figura. Vazado: concreto fck28 ≥ 8 MPa (Nota 5).",
+     "cota": "esquemas/duto-faixa-sinalizacao-marcos.svg#marco-embutimento"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-faixa-sinalizacao-marcos.svg"
+   ]
   }
  ]
 }

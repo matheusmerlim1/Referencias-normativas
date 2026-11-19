@@ -20,7 +20,7 @@
   {
    "titulo": "Produto pronto para aplicação (Tabela 1)",
    "item": "4.2, Anexo A",
-   "texto": "Mistura com aparência e consistência uniformes. Sólidos por massa e volume com secagem 24 h a (25 ± 2) °C + 180 min a (105 ± 1) °C (a nota da tabela cita 24 h ao ambiente + 2 h a 60 °C — conferir qual vale). Na cor alumínio: massa específica 1,0–1,4, sólidos por massa ≥ 80 % e por volume ≥ 70 %. Poder de cobertura pelo criptômetro de Pfund (placa nº 7, NBR 9676), por grupo de cor da N-1219.",
+   "texto": "Mistura com aparência e consistência uniformes. Sólidos por massa e volume com secagem 24 h a (25 ± 2) °C + 180 min a (105 ± 1) °C (4.2.3); a Nota 2 da Tabela 1, acrescentada pela emenda de 11/2020, pede 24 h ao ambiente + 2 h a 60 °C — a própria norma é contraditória; a Nota 2 é a redação mais recente. Na cor alumínio: massa específica 1,0–1,4, sólidos por massa ≥ 80 % e por volume ≥ 70 %. Poder de cobertura pelo criptômetro de Pfund (placa nº 7, NBR 9676), por grupo de cor da N-1219.",
    "valores": [
     {
      "parametro": "Massa específica (ASTM D 1475)",
@@ -72,16 +72,16 @@
      "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#leitura-pfund"
     },
     {
-     "parametro": "Poder de cobertura — azul-pastel, branca, cinzas, cremes, verdes, azul-Petrobras",
+     "parametro": "Poder de cobertura — azul-pastel, branca, cinza-claro, cinza-gelo, cremes, verdes (Petrobras, segurança, pastel)",
      "valor": "15 mm",
      "item": "Tabela A.1",
      "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#leitura-pfund"
     },
     {
-     "parametro": "Poder de cobertura — azul-segurança, cinza-escuro, marrom, óxido de ferro, preto",
+     "parametro": "Poder de cobertura — azul-Petrobras, azul-segurança, cinza-escuro, marrom-canalizações, óxido de ferro, preto",
      "valor": "10 mm",
      "item": "Tabela A.1",
-     "nota": "Alumínio (0170) sem requisito. Agrupamento das cores lido de tabela com células mescladas — conferir.",
+     "nota": "Alumínio (0170) sem requisito. Agrupamento conferido na Tabela A.1 do PDF (azul-Petrobras 5134 está no grupo de 10 mm).",
      "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#leitura-pfund"
     }
    ],

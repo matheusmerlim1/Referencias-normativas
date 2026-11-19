@@ -61,36 +61,31 @@
      "parametro": "Largura livre mínima de plataforma e passadiço",
      "valor": "75 cm",
      "item": "4.1.1",
-     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#plat-largura",
-     "nota": "texto da página em colunas fragmentadas — conferir"
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#plat-largura"
     },
     {
      "parametro": "Largura livre em frente a boca de visita de torre/vaso",
      "valor": "90 cm",
      "item": "4.1.1",
-     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#frente-boca",
-     "nota": "conferir: texto em colunas fragmentadas"
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#frente-boca"
     },
     {
      "parametro": "Largura livre em frente a carretel de permutador",
      "valor": "120 cm",
      "item": "4.1.1",
-     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#frente-boca",
-     "nota": "conferir: texto em colunas fragmentadas"
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#frente-boca"
     },
     {
      "parametro": "Altura livre de obstáculos acima de pisos",
      "valor": "2 m",
      "item": "4.1.1",
-     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#livre-altura",
-     "nota": "conferir: texto em colunas fragmentadas"
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#livre-altura"
     },
     {
      "parametro": "Espessura mínima da chapa de piso",
      "valor": "1/4\" (6,35 mm)",
      "item": "4.1.1",
-     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#chapa",
-     "nota": "conferir: texto em colunas fragmentadas"
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#chapa"
     },
     {
      "parametro": "Painel removível de chapa de piso",
@@ -148,8 +143,7 @@
      "parametro": "Escada inclinada — largura mínima",
      "valor": "75 cm",
      "item": "4.1.2 a)",
-     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#esc-largura",
-     "nota": "conferir: texto em colunas fragmentadas"
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#esc-largura"
     },
     {
      "parametro": "Escada inclinada — altura máxima do lance",
@@ -241,17 +235,17 @@
     },
     {
      "parametro": "Zonas onde evitar emenda — viga biapoiada e coluna",
-     "valor": "faixas de L/8 e trecho central conforme Figura 1",
+     "valor": "L/8 junto a cada apoio (ou extremidade da coluna) e L/8 para cada lado do meio do vão (L/4 centrado em L/2)",
      "item": "4.3.2; Fig. 1",
      "cota": "esquemas/estrutura-metalica-emendas-zonas.svg#apoio",
-     "nota": "conferir: posição exata das zonas hachuradas só na Figura 1"
+     "nota": "Lido da Figura 1 (conferida no PDF)."
     },
     {
      "parametro": "Zona onde evitar emenda — viga em balanço",
-     "valor": "metade L/2 conforme Figura 1",
+     "valor": "L/2 a partir do engaste",
      "item": "4.3.2; Fig. 1",
      "cota": "esquemas/estrutura-metalica-emendas-zonas.svg#engaste",
-     "nota": "conferir: leitura da Figura 1"
+     "nota": "Lido da Figura 1 (conferida no PDF)."
     }
    ],
    "figuras": [

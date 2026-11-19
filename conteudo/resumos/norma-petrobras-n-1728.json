@@ -60,35 +60,35 @@
      "valor": "19 mm ou 25 mm",
      "item": "Anexo B (notas das Figuras B.1, B.3, B.11–B.13)",
      "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#malha-altura",
-     "nota": "lido das notas das figuras (fonte embaralhada; texto legível)"
+     "nota": "Lido das notas das figuras (fonte embaralhada na extração; texto legível)."
     },
     {
      "parametro": "Grampo V (Fig. B.8) — revestimento E = 50 / 75 mm",
      "valor": "arame Ø 3/16\"; A = 33 / 50 mm; B = 25 / 38 mm; C = 15 mm",
-     "item": "Fig. B.8 (tabela)",
+     "item": "Fig. B.8.1 (tabela)",
      "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#A",
-     "nota": "conferir: tabela lida de figura (colunas E, D, A, B, C)"
+     "nota": "Tabela da Figura B.8.1 (tipo I; conferida na imagem do PDF). Tipo II (B.8.2, stud welding com cerâmica): mesmos A, B, C; o arame passa a ser a coluna F e D = 16 mm (E ≤ 75) ou 19 mm (E ≥ 90). Tolerância geral ± 5 %."
     },
     {
      "parametro": "Grampo V (Fig. B.8) — revestimento E = 100 / 125 / 150 mm",
      "valor": "Ø 1/4\" / 5/16\" / 5/16\"; A = 66 / 83 / 100 mm; B = 50 / 63 / 75 mm; C = 20 mm",
-     "item": "Fig. B.8 (tabela)",
+     "item": "Fig. B.8.1 (tabela)",
      "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#B",
-     "nota": "conferir: tabela lida de figura"
+     "nota": "Conferido na tabela da Figura B.8.1 (tipo I)."
     },
     {
      "parametro": "Grampo V — revestimento E > 150 mm",
      "valor": "Ø 5/16\"; A = 2/3 E; B = 1/2 E; C = 20 mm",
-     "item": "Fig. B.8 (tabela)",
+     "item": "Fig. B.8.1 (tabela)",
      "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#E",
-     "nota": "conferir: tabela lida de figura"
+     "nota": "Conferido na tabela da Figura B.8.1 (tipo I)."
     },
     {
      "parametro": "Grampo V — diâmetro do arame por faixa de E",
      "valor": "3/16\" até 75 mm; 1/4\" de 90 a 113 mm; 5/16\" a partir de 125 mm",
-     "item": "Fig. B.8 (tabela)",
+     "item": "Fig. B.8.1 (tabela)",
      "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#D",
-     "nota": "conferir: tabela lida de figura"
+     "nota": "Conferido na tabela da Figura B.8.1 (tipo I)."
     },
     {
      "parametro": "Grampo estrela — comprimento",

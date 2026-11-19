@@ -47,17 +47,24 @@
    "texto": "Plano de isolamento de energias feito no planejamento, específico de um equipamento: fontes de energia, manobras e travas, dispositivos de isolamento e seus locais, dissipação da energia residual e pontos das etiquetas; aprovado por empregados indicados. Responsável pelo Isolamento (de preferência diferente do emitente, para dupla checagem) confere e autoriza instalação e remoção. Travamento elétrico pela NR-10; sem recurso de trava, só etiqueta, se a condição segura for garantida. Etiquetas sempre, com ou sem trava: amarela afixada pelo emitente, azul pelo requisitante/executante (azul opcional com trava individual azul); material resistente ao tempo; número da primeira PT ou da matriz de isolamento. Só quem instalou (ou substituto) remove, após avisar os expostos.",
    "valores": [
     {
-     "parametro": "Dimensões da etiqueta de advertência (modelo)",
-     "valor": "cotas de 80 mm e 160 mm no modelo; furo a 10 mm das bordas",
+     "parametro": "Altura da etiqueta de advertência (modelo)",
+     "valor": "160 mm",
      "item": "Anexo A, Figuras A.2 e A.4",
-     "nota": "Lido do modelo (dimensões em mm); conferir a orientação largura × altura no desenho da norma.",
+     "nota": "Lido da figura (dimensões em mm).",
      "cota": "esquemas/permissao-trabalho-bloqueio-etiqueta.svg#etiqueta-altura"
     },
     {
-     "parametro": "Furo de fixação da etiqueta",
-     "valor": "a 10 mm das bordas no modelo",
+     "parametro": "Largura da etiqueta de advertência (modelo)",
+     "valor": "80 mm",
      "item": "Anexo A, Figuras A.2 e A.4",
-     "nota": "Lido do modelo; conferir.",
+     "nota": "Lido da figura (dimensões em mm).",
+     "cota": "esquemas/permissao-trabalho-bloqueio-etiqueta.svg#etiqueta-largura"
+    },
+    {
+     "parametro": "Furo de fixação da etiqueta",
+     "valor": "no eixo vertical da etiqueta (40 mm de cada borda lateral); cantos superiores chanfrados 10 mm × 10 mm",
+     "item": "Anexo A, Figuras A.2 e A.4",
+     "nota": "Lido da figura; a posição vertical do furo não é cotada (os \"10\" do desenho são os chanfros dos cantos).",
      "cota": "esquemas/permissao-trabalho-bloqueio-etiqueta.svg#etiqueta-furo"
     },
     {

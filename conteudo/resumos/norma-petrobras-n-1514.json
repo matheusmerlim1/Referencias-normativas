@@ -9,19 +9,19 @@
    "valores": [
     {
      "parametro": "Tipo 1 — cor estável",
-     "valor": "azul-escura até 180 °C",
-     "item": "3, tabela"
+     "valor": "verde-escura até 260 °C",
+     "item": "3, Tabela 1"
     },
     {
      "parametro": "Tipo 2 — cor estável",
-     "valor": "verde-escura até 260 °C",
-     "item": "3, tabela"
+     "valor": "azul-escura até 180 °C",
+     "item": "3, Tabela 1"
     },
     {
      "parametro": "Mudanças de cor de referência",
-     "valor": "azul-claro esverdeado em 36 h a 60 h a 260 °C; clareia em horas e fica branca em 24 h a 290 °C; descoloração após 3 semanas a 315 °C e após 18 h (perceptível) a 400 °C; branca após 3 h",
-     "item": "3, tabela",
-     "nota": "conferir: a tabela extraída mistura as colunas dos tipos 1 e 2; ver a norma para atribuir cada linha ao tipo."
+     "valor": "Tipo 1: descoloração após 3 semanas a 290 °C, perceptível após 18 h a 315 °C, branca após 3 h a 400 °C. Tipo 2: azul-claro esverdeado em 36 h a 60 h entre 20 °C e 230 °C; clareia em algumas horas e fica branca em 24 h a 260 °C",
+     "item": "3, Tabela 1",
+     "nota": "Atribuição por tipo conferida na Tabela 1 do PDF (a norma escreve \"deslocação\" — leia-se descoloração)."
     }
    ],
    "figuras": [

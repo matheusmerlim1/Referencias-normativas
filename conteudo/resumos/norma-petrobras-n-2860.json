@@ -10,7 +10,8 @@
     {
      "parametro": "Mobiliário offshore — compensado naval de portas, laterais, tampos e fundos (ou aço)",
      "valor": "espessura ≥ 15 mm, revestido fogo retardante",
-     "item": "3.5"
+     "item": "3.5",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#espessura-painel"
     }
    ],
    "figuras": [
@@ -121,12 +122,14 @@
     {
      "parametro": "Laboratório — altura mínima das gavetas",
      "valor": "15 cm",
-     "item": "4.4.2"
+     "item": "4.4.2",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#gaveta-altura"
     },
     {
      "parametro": "Laboratório — tampo de granito / de compensado duplo",
      "valor": "≥ 30 mm / chapas ≥ 25 mm (total 50 mm)",
-     "item": "4.4.2 e), f)"
+     "item": "4.4.2 e), f)",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#tampo-laboratorio"
     },
     {
      "parametro": "Laboratório — carga distribuída resistida pela bancada",
@@ -158,7 +161,8 @@
     {
      "parametro": "Distância mínima entre braços pivotados para dentro",
      "valor": "300 mm",
-     "item": "4.5"
+     "item": "4.5",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#bracos-distancia"
     },
     {
      "parametro": "Banco alto para bancadas acima de 75 cm (~90 cm)",
@@ -208,7 +212,8 @@
     {
      "parametro": "Estrutura da cama — chapa galvanizada / madeira",
      "valor": "≥ 0,80 mm / ≥ 15 mm",
-     "item": "4.13.3"
+     "item": "4.13.3",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#espessura-estrutura-cama"
     },
     {
      "parametro": "Estante — altura máxima da prateleira",
@@ -231,7 +236,8 @@
     {
      "parametro": "Estação de trabalho — espessura do MDF",
      "valor": "≥ 25 mm ± 0,5 mm",
-     "item": "4.18.3 a)"
+     "item": "4.18.3 a)",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#espessura-mdf"
     },
     {
      "parametro": "Bancada de manutenção em pé — faixa geral",

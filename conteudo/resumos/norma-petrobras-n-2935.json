@@ -362,7 +362,8 @@
     {
      "parametro": "Área de cálculo",
      "valor": "nominal 2 580,6 mm², salvo se a medida diferir mais de 3,0 %",
-     "item": "9.3.1 c)"
+     "item": "9.3.1 c)",
+     "nota": "Área nominal de face de 2 in (50,8 mm) de aresta = 4 in² = 2 580,6 mm² (a N-2934, C.1.5, escreve por engano '4 pol2 (50,8 mm2)')."
     },
     {
      "parametro": "Altura mínima do corpo de prova (abaixo, descartar)",
@@ -388,7 +389,8 @@
     {
      "parametro": "Condição do ensaio (Tabela 7)",
      "valor": "34 500 kPa (5 000 psi) e 27 °C (80 °F), constantes",
-     "item": "Tabela 7 / 10.2.4"
+     "item": "Tabela 7 / 10.2.4",
+     "nota": "10.2.3 g) diz que temperatura e pressão 'devem ser aumentadas conforme a Tabela 7' (redação herdada da N-2934, que tem rampa); a Tabela 7 e 10.2.4 a)–c) mandam manter constantes — vale a condição constante."
     },
     {
      "parametro": "Tolerância",

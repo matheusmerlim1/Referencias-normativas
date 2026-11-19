@@ -109,7 +109,7 @@
      "valor": "> 6 até 13 mm em até 10 % do perímetro; > 6 até 19 mm em até 5 % do perímetro",
      "item": "7.5.2.4",
      "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#gap",
-     "nota": "conferir: condições completas de cada faixa no texto"
+     "nota": "Sem remoção da ramificação, só se a abertura não satisfizer a AWS D1.1 e a junta não for crítica (vida à fadiga < 100 anos, sobreposição, anéis internos ou perfil controlado — nesses casos amanteigamento é proibido); acima dessas faixas, a Petrobras decide entre janela, remoção e reinstalação ou enchimento controlado (Fig. 6)."
     },
     {
      "parametro": "Solda circunferencial dentro do comprimento mínimo da ramificação",
@@ -131,10 +131,10 @@
     },
     {
      "parametro": "Regiões proibidas para juntas soldadas em perfis",
-     "valor": "faixas de L/8 e L/2 conforme Figura 11",
-     "item": "Fig. 11",
+     "valor": "viga biapoiada: L/8 junto a cada apoio e L/8 para cada lado do meio do vão; viga em balanço: L/2 a partir do engaste",
+     "item": "7.6.2.3; Fig. 11",
      "cota": "esquemas/estrutura-metalica-emendas-zonas.svg#apoio",
-     "nota": "conferir: posição das faixas na figura"
+     "nota": "Lido da Figura 11 (conferida no PDF)."
     },
     {
      "parametro": "Montagem integral (boca-de-lobo) — folga dos pontos de trabalho",
@@ -172,11 +172,11 @@
      "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#ponto"
     },
     {
-     "parametro": "Pontos (caso de 8.1.8.2)",
+     "parametro": "Pontos de fechamento da virola (logo após calandrar)",
      "valor": "≥ 80 mm de comprimento, espaçados ≤ 40 mm",
      "item": "8.1.8.2",
      "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#intervalo",
-     "nota": "conferir: aplicação de 8.1.8.2 no texto"
+     "nota": "8.1.8.2 vale para o ponteamento imediato da virola após o fechamento na calandra ou dispositivo; para os demais pontos em membros principais (níveis I e II), o mínimo é 50 mm (8.1.8.1)."
     },
     {
      "parametro": "Mordedura admitida na qualificação",

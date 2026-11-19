@@ -97,10 +97,10 @@
    "valores": [
     {
      "parametro": "Constante da equação — Ir-192 / Co-60 / Se-75",
-     "valor": "0,50 / 1,32 / 0,20 (× A × t)",
-     "item": "Tabela 1",
+     "valor": "k = 0,50 / 1,32 / 0,20 em d = √[ k·A·(t/2) / (0,004·FRc) + k·A·(t/2) / (0,004·FRb) ]",
+     "item": "14.2.1.1, Tabela 1 (14.2.1.2, Tabela 2)",
      "cota": "esquemas/radiografia-industrial-isolamento-area.svg#raio-isolamento",
-     "nota": "conferir: fórmula extraída do PDF com a fração desalinhada; denominador 0,004 (Tabela 1, dose diária) ou 0,002 (Tabela 2, dose semanal) multiplicado por FRc ou FRb"
+     "nota": "Fórmula conferida no PDF: d em m, A em Ci, t em h (máx. 8 h/dia); FRc e FRb = 1 sem colimador ou blindagem. Pela dose semanal (Tabela 2), 0,004 vira 0,002 e o local fica 7 dias sem outra radiografia."
     },
     {
      "parametro": "Distância de isolamento com colimador e blindagem",

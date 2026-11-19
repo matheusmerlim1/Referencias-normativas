@@ -39,10 +39,10 @@
     },
     {
      "parametro": "Geometria do defeito de corrosão — profundidade máxima",
-     "valor": "d (relativa a tn: faixas d/tn ≤ 0,10 e > 0,80 tratadas à parte nos fluxogramas)",
+     "valor": "d/tn ≤ 0,10: sem cálculo (controlar a corrosão e operar); d/tn > 0,80: reparo obrigatório (4.2); entre os dois, avaliar pelo método",
      "item": "5.1.6, Figuras 3–10",
      "cota": "esquemas/duto-defeito-corrosao-mossa.svg#corrosao-profundidade",
-     "nota": "Limiares lidos das fórmulas dos fluxogramas — conferir."
+     "nota": "Limiares lidos no topo dos fluxogramas (conferido na Figura 3, método RPA)."
     }
    ],
    "figuras": [

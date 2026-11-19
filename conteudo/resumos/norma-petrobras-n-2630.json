@@ -46,9 +46,8 @@
     },
     {
      "parametro": "Vida útil da mistura (NBR 15742)",
-     "valor": "2 h",
-     "item": "Tabela 1",
-     "nota": "Coluna mín./máx. ilegível na extração — conferir se é mínimo."
+     "valor": "≥ 2 h",
+     "item": "Tabela 1"
     },
     {
      "parametro": "Finura de moagem (ASTM D 1210)",
@@ -108,7 +107,7 @@
      "parametro": "Imersão em xileno / metil-isobutil-cetona",
      "valor": "≥ 1 000 h / ≥ 1 h",
      "item": "Tabela 2",
-     "nota": "Valor de 1 h para MIBK como lido na tabela — conferir."
+     "nota": "O 1 h para MIBK é o que a Tabela 2 traz (conferido no PDF); sem empolamento nem alteração de cor do solvente (4.3.3)."
     },
     {
      "parametro": "Penetração no entalhe após 1 500 h de névoa salina",

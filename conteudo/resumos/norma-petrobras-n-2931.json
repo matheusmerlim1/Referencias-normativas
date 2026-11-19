@@ -78,20 +78,19 @@
     {
      "parametro": "Espessura mínima da placa — hidrocarboneto",
      "valor": "0,8 mm",
-     "item": "6",
+     "item": "6.12",
      "cota": "esquemas/permutador-placas-gaxetado.svg#placa-espessura"
     },
     {
-     "parametro": "Espessura mínima — pacote com mais de 200 placas ou titânio",
+     "parametro": "Espessura mínima — outros serviços (não hidrocarboneto) com mais de 200 placas ou placas de titânio",
      "valor": "0,7 mm",
-     "item": "6",
-     "cota": "esquemas/permutador-placas-gaxetado.svg#placa-espessura",
-     "nota": "Redação ambígua quanto à combinação com o caso hidrocarboneto — conferir."
+     "item": "6.12",
+     "cota": "esquemas/permutador-placas-gaxetado.svg#placa-espessura"
     },
     {
      "parametro": "Espessura mínima — sistemas auxiliares de pacotes (resfriador de óleo lubrificante)",
      "valor": "0,6 mm",
-     "item": "6",
+     "item": "6.12",
      "cota": "esquemas/permutador-placas-gaxetado.svg#placa-espessura"
     },
     {

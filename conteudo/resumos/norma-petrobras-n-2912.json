@@ -86,15 +86,15 @@
     },
     {
      "parametro": "Célula Atlas a 40, 60 ou 80 °C (ASTM C868)",
-     "valor": "≥ 2 000 h",
+     "valor": "≥ 2 000 h — tipo I (300 μm) a 40 °C, tipo II (450 μm) a 60 °C, tipo III (800 μm) a 80 °C",
      "item": "Tabela 4",
-     "nota": "Temperatura de célula por tipo não legível na extração — conferir."
+     "nota": "Solução da Nota 1: 70 000 ppm de cloreto, 21,0 g/L de acetato de sódio trihidratado, pH inicial 5,0."
     },
     {
      "parametro": "Autoclave a 150 °C (NACE TM0185)",
-     "valor": "≥ 1 000 h ou ≥ 2 000 h conforme o tipo",
+     "valor": "tipo I ≥ 1 000 h; tipo III ≥ 2 000 h (tipo II não exige)",
      "item": "Tabela 4",
-     "nota": "Conferir qual tipo exige 1 000 h e qual 2 000 h."
+     "nota": "Fase gasosa 96 % CO₂ + 4 % H₂S, pressão acima da de vapor da água a 150 °C (Nota 2)."
     },
     {
      "parametro": "Abrasão (ASTM D4060, rebolo CS-17, 1 kg)",
