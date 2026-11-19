@@ -1,0 +1,46 @@
+{
+ "id": "PETROBRAS-N-2784",
+ "titulo": "Petrobras N-2784 Rev. C (07/2025) — Confiabilidade e análise de riscos industriais",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 2",
+   "texto": "Terminologia de confiabilidade e análise de riscos industriais do Sistema Petrobras, para riscos de operação e segurança de plantas de processo, alinhada à IEC 31010, IEC 61508-4, IEC 61511-1, ISO 14224 e ISO 16901 e às normas N-2595 (sistemas instrumentados de segurança) e N-2782 (técnicas de análise de risco).",
+   "valores": [],
+   "figuras": [
+    "esquemas/risco-bowtie-camadas-protecao.svg"
+   ]
+  },
+  {
+   "titulo": "Termos de análise de risco",
+   "item": "3",
+   "texto": "Acidente, perigo, causa (básica e imediata), evento (iniciador, topo), cenário, consequência, efeito dominó/escalonamento, severidade, frequência (em geral eventos por ano) e probabilidade, risco (atual — só com as camadas existentes supostas plenamente eficazes —, individual e social), critério de tolerabilidade e ALARP, salvaguardas e camadas de proteção independentes. Técnicas: análise histórica, APR/APP, HAZID, HAZOP, what-if, lista de verificação, FMEA/FMECA, árvore de falhas (FTA), árvore de eventos (ETA), LOPA, análise de confiabilidade humana (HRA), análise quantitativa de risco, Markov, diagrama de blocos (RBD). Fenômenos: incêndio em poça e em jato, bola de fogo, BLEVE, explosão (deflagração e detonação), nuvem tóxica.",
+   "valores": [
+    {
+     "parametro": "Unidade usual da frequência esperada",
+     "valor": "eventos por ano",
+     "item": "3 (frequência, nota 2)",
+     "cota": "esquemas/risco-bowtie-camadas-protecao.svg#frequencia"
+    }
+   ],
+   "figuras": [
+    "esquemas/risco-bowtie-camadas-protecao.svg"
+   ]
+  },
+  {
+   "titulo": "Termos de confiabilidade e manutenção",
+   "item": "3",
+   "texto": "Confiabilidade, disponibilidade (inerente, operacional), mantenabilidade, item e equipamento, falha × falta (fault), modos e mecanismos de falha, falha perigosa, segura, detectada, crítica de segurança (perigosa não detectada, ISO 14224), de causa comum (CCF, múltiplos itens por uma única causa), taxa de falhas, MTTF, MTTR, METBF, tempos (de reparo, de parada, de teste), RAM, RBI, RCM (manutenção centrada em confiabilidade), tipos de manutenção (corretiva, preventiva, preditiva, evolutiva/improvement), redundância e tolerância a falhas, sistema instrumentado de segurança, função instrumentada, nível de integridade (SIL), demanda, trip espúrio, teste de prova e taxonomia de dados.",
+   "valores": [
+    {
+     "parametro": "Arquitetura de votação típica para tolerar falha na demanda e trip espúrio",
+     "valor": "2 de 3 (2oo3)",
+     "item": "3 (nota 2)"
+    }
+   ],
+   "figuras": [
+    "esquemas/risco-bowtie-camadas-protecao.svg"
+   ]
+  }
+ ]
+}

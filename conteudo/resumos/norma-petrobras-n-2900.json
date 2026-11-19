@@ -1,0 +1,135 @@
+{
+ "id": "PETROBRAS-N-2900",
+ "titulo": "Petrobras N-2900 Rev. B (05/2021) — Gerenciamento de alarmes",
+ "secoes": [
+  {
+   "titulo": "Escopo e filosofia",
+   "item": "1, 5.1–5.2",
+   "texto": "Define a filosofia de gerenciamento de alarmes da Petrobras (complementável por filosofias de cada segmento), para projeto, operação e manutenção de sistemas de alarmes. Alarme é o aviso que exige ação do operador num tempo definido; sinalização sem ação imediata vira alerta (tratamento visual e sonoro diferente). A falta de camadas de proteção adequadas tende a elevar a prioridade. Ciclo: filosofia, identificação, racionalização, projeto detalhado, implantação, operação, manutenção, monitoração e avaliação, gestão de mudanças e auditoria.",
+   "valores": [],
+   "figuras": [
+    "esquemas/alarme-gerenciamento-banda-morta.svg"
+   ]
+  },
+  {
+   "titulo": "Tempo de resposta e prioridade",
+   "item": "5.3, Tabelas 1–4",
+   "texto": "Prioridade pelo maior valor entre as tabelas de consequência (patrimônio/continuidade, meio ambiente, pessoas), cruzando a severidade (I desprezível a V catastrófica, alinhada à N-2782) com o tempo de resposta disponível (TRD). Exemplo (patrimônio): V → crítica em qualquer TRD; IV → alta (longo/médio) ou crítica (curto); III → média ou alta (curto); II → baixa ou média (curto); I → baixa. Dimensão sem impacto não eleva a prioridade. Classes de alarme priorizadas pelo mesmo critério.",
+   "valores": [
+    {
+     "parametro": "TRD longo / médio / curto",
+     "valor": "> 10 min e < 1 h / 3 a 10 min / < 3 min",
+     "item": "Tabela 1",
+     "cota": "esquemas/alarme-gerenciamento-banda-morta.svg#trd"
+    },
+    {
+     "parametro": "TRD acima do qual a sinalização é alerta",
+     "valor": "> 1 h",
+     "item": "5.3.5.2.2"
+    },
+    {
+     "parametro": "TRD que exige avaliar atuação automática",
+     "valor": "< 1 min",
+     "item": "5.3.5.2.3"
+    },
+    {
+     "parametro": "TRD que exige anunciação especial e treinamento",
+     "valor": "< 3 min",
+     "item": "5.3.5.2.3"
+    }
+   ],
+   "figuras": [
+    "esquemas/alarme-gerenciamento-banda-morta.svg"
+   ]
+  },
+  {
+   "titulo": "Métricas de desempenho",
+   "item": "Tabela 5",
+   "texto": "Métricas medidas em período de pelo menos 30 dias, por console de operação. Supressão e mudança de atributos só com autorização e gestão de mudanças; cada unidade tem procedimento de controle de alarmes suprimidos (justificativa, prazo, níveis de autorização, mitigação).",
+   "valores": [
+    {
+     "parametro": "Alarmes por dia — aceitável / máximo gerenciável",
+     "valor": "~144 / ~288",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Alarmes por hora — aceitável / máximo",
+     "valor": "~6 / ~12 (média)",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Alarmes por 10 min — aceitável / máximo",
+     "valor": "~1 / ~2 (média)",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Horas com mais de 30 alarmes; períodos de 10 min com mais de 10; tempo em avalanche",
+     "valor": "< 1 % cada",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Máximo de alarmes em 10 min",
+     "valor": "≤ 10",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Participação dos 10 alarmes mais frequentes",
+     "valor": "~< 1 %, no máximo 5 % com plano de ação",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Alarmes intermitentes / obsoletos",
+     "valor": "zero / menos de 5 por dia, com plano de ação",
+     "item": "Tabela 5"
+    },
+    {
+     "parametro": "Distribuição de prioridade dos anunciados",
+     "valor": "~80 % baixa, ~15 % média, ~5 % alta, ~1 % crítica",
+     "item": "Tabela 5"
+    }
+   ],
+   "figuras": [
+    "esquemas/alarme-gerenciamento-banda-morta.svg"
+   ]
+  },
+  {
+   "titulo": "Racionalização, projeto, operação e manutenção",
+   "item": "6, Anexos",
+   "texto": "Todo alarme racionalizado e documentado na Lista de Alarmes e Pontos de Ajuste (Tabela 6, formulário do Anexo G: causa, consequência, ação do operador, TRD, prioridade, classe, estratégia de supressão, valor de ajuste, temporizador, banda morta), atualizada pela gestão de mudanças. Falha de instrumento como alarme ou alerta conforme a urgência; supressão por estado do equipamento (partida, parada) recomendada. Alarmes críticos podem ter anunciação extra e painel anunciador ligado direto à saída dos controladores; lista de alarmes separada da de eventos; descrição com localização e serviço. Análise estatística ao menos mensal, com atenção a bad actors, avalanches e alarmes sem reconhecimento; responsabilidade do desempenho com a operação.",
+   "valores": [
+    {
+     "parametro": "Banda morta / temporizador de referência — nível",
+     "valor": "5 % da faixa / 10 s",
+     "item": "Anexo F",
+     "cota": "esquemas/alarme-gerenciamento-banda-morta.svg#banda-morta"
+    },
+    {
+     "parametro": "Banda morta / temporizador de referência — pressão",
+     "valor": "2 % / 5 s",
+     "item": "Anexo F",
+     "cota": "esquemas/alarme-gerenciamento-banda-morta.svg#banda-morta"
+    },
+    {
+     "parametro": "Banda morta / temporizador de referência — temperatura",
+     "valor": "1 % / 10 s",
+     "item": "Anexo F",
+     "cota": "esquemas/alarme-gerenciamento-banda-morta.svg#temporizador"
+    },
+    {
+     "parametro": "Banda morta / temporizador de referência — vazão",
+     "valor": "5 % / 5 s",
+     "item": "Anexo F",
+     "cota": "esquemas/alarme-gerenciamento-banda-morta.svg#temporizador"
+    },
+    {
+     "parametro": "Frequência mínima da análise estatística de alarmes",
+     "valor": "mensal",
+     "item": "6.4.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/alarme-gerenciamento-banda-morta.svg"
+   ]
+  }
+ ]
+}

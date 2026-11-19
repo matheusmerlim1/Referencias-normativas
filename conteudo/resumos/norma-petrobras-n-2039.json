@@ -1,0 +1,167 @@
+{
+ "id": "PETROBRAS-N-2039",
+ "titulo": "Petrobras N-2039 Rev. D (06/2021) — Projeto de subestações em instalações terrestres",
+ "secoes": [
+  {
+   "titulo": "Escopo e gerais",
+   "item": "1, 4, 5",
+   "texto": "Condições mínimas para projetar subestações ao tempo ou abrigadas em terra (não em plataformas), novas ou ampliações, sem dispensar exigências de órgãos públicos. Subestação ao tempo de alta tensão: acima de 36,2 kV, isolada a ar; abaixo disso, ao tempo, segue a concessionária. Localização pela N-1674. Transformadores com óleo em bacia de contenção ligada a caixa separadora água-óleo (vários tanques podem usar a mesma; saída por selo hídrico; retirada de óleo pela boca de visita).",
+   "valores": [
+    {
+     "parametro": "Volume da bacia de contenção de óleo",
+     "valor": "no mínimo 20 % do volume de óleo do equipamento (NBR 13231)",
+     "item": "5.x, Figura A-11"
+    },
+    {
+     "parametro": "Bacia de contenção além da projeção do equipamento",
+     "valor": "0,5 m",
+     "item": "5.x",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#bacia-excesso"
+    }
+   ],
+   "figuras": [
+    "esquemas/subestacao-arranjo-distancias.svg",
+    "esquemas/bacia-contencao-dique.svg"
+   ]
+  },
+  {
+   "titulo": "Subestação ao tempo de alta tensão",
+   "item": "6.1",
+   "texto": "Malha de terra da subestação de entrada pela IEEE 80; linha de transmissão entra de preferência perpendicular; cerca e portão; isoladores para poluição pela IEC/TS 60815; conexões aéreas com conectores aparafusados. Disjuntores até 138 kV com estrutura única para os três polos.",
+   "valores": [
+    {
+     "parametro": "Entre fases — barras rígidas",
+     "valor": "69 kV: 2,15 m; 138 kV: 2,40 m; 230 kV: 3,60 m",
+     "item": "Tabela 1",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#fase-fase"
+    },
+    {
+     "parametro": "Entre fases — barras flexíveis (e chaves)",
+     "valor": "2,50 m; 3,00 m; 4,50 m",
+     "item": "Tabela 1",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#fase-fase"
+    },
+    {
+     "parametro": "Fase-terra — rígidas / flexíveis",
+     "valor": "1,50/2,00 m (69 kV); 1,50/2,20 m (138 kV); 2,50/3,40 m (230 kV)",
+     "item": "Tabela 1",
+     "cota": "esquemas/subestacao-protecao.svg#afastamento"
+    },
+    {
+     "parametro": "Altura mínima das partes vivas ao solo",
+     "valor": "4,00 m; 4,50 m; 5,00 m (barras flexíveis: no ponto de flecha máxima)",
+     "item": "Tabela 1, Nota 2",
+     "cota": "esquemas/subestacao-protecao.svg#folga-solo"
+    },
+    {
+     "parametro": "Altura mínima de isoladores/porcelanas ao solo",
+     "valor": "2,50 m; 2,50 m; 3,00 m",
+     "item": "Tabela 1",
+     "cota": "esquemas/subestacao-protecao.svg#folga-solo"
+    },
+    {
+     "parametro": "Livre entre equipamentos no sentido do fluxo (69 a 230 kV)",
+     "valor": "2 m (seccionadoras, TC, TP); 2,5 m (disjuntores)",
+     "item": "6.1.11",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#entre-equipamentos"
+    },
+    {
+     "parametro": "Transformador × parede corta-fogo",
+     "valor": "afastamento livre mínimo 1 m",
+     "item": "6.1.x",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#trafo-parede"
+    },
+    {
+     "parametro": "Alavanca de operação da seccionadora",
+     "valor": "a 1,2 m do solo",
+     "item": "6.1.13",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#alavanca"
+    },
+    {
+     "parametro": "Mecanismo de operação do disjuntor",
+     "valor": "de preferência a 1,5 m do piso",
+     "item": "6.1.15",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#alavanca"
+    },
+    {
+     "parametro": "Bucha do neutro e do resistor de aterramento",
+     "valor": "base a no mínimo 2,5 m de altura",
+     "item": "6.1.18",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#alavanca"
+    },
+    {
+     "parametro": "Anel de aterramento",
+     "valor": "cabo de cobre nu enterrado a no mínimo 60 cm",
+     "item": "6.x",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#malha-profundidade"
+    }
+   ],
+   "figuras": [
+    "esquemas/subestacao-arranjo-distancias.svg",
+    "esquemas/subestacao-protecao.svg"
+   ]
+  },
+  {
+   "titulo": "Subestação abrigada (sala de painéis)",
+   "item": "5, 6.2",
+   "texto": "Entrada de energia de preferência por cabo subterrâneo; portas que levem a qualquer ponto de trabalho com percurso curto; porta de duas folhas para retirada de equipamentos; em área classificada, piso elevado e pressurização; temperatura interna limitada (NBR IEC 61439-1, 60947-1, 62271-200).",
+   "valores": [
+    {
+     "parametro": "Livre à frente dos painéis",
+     "valor": "700 mm + largura da maior porta aberta ou profundidade do equipamento extraído",
+     "item": "5.x a)",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#frente-painel"
+    },
+    {
+     "parametro": "Traseira com tampa removível × parede",
+     "valor": "1 000 mm",
+     "item": "5.x b)",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#traseira-parede"
+    },
+    {
+     "parametro": "Entre faces laterais de painéis",
+     "valor": "700 mm",
+     "item": "5.x c)",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#lateral-painel"
+    },
+    {
+     "parametro": "Largura das rotas de fuga",
+     "valor": "mín. 1,10 m (NBR 9077)",
+     "item": "5.11",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#rota-fuga"
+    },
+    {
+     "parametro": "Percurso até a porta",
+     "valor": "no máximo 30 m de qualquer local de trabalho",
+     "item": "6.2",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#rota-fuga"
+    },
+    {
+     "parametro": "Porta de retirada de equipamentos",
+     "valor": "aço, 2 folhas abrindo para fora, altura mínima 2,70 m",
+     "item": "6.2",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#porta-altura"
+    },
+    {
+     "parametro": "Piso em extensão de área classificada",
+     "valor": "no mínimo 1 m acima do terreno",
+     "item": "6.2 g)",
+     "cota": "esquemas/subestacao-arranjo-distancias.svg#piso-elevado"
+    },
+    {
+     "parametro": "Pressurização",
+     "valor": "mín. 2,5 mm de coluna d'água (NBR IEC 60079-13)",
+     "item": "6.2 e)"
+    },
+    {
+     "parametro": "Temperatura na sala de painéis",
+     "valor": "máx. 40 °C; média diária ≤ 35 °C",
+     "item": "6.2 h)"
+    }
+   ],
+   "figuras": [
+    "esquemas/subestacao-arranjo-distancias.svg"
+   ]
+  }
+ ]
+}

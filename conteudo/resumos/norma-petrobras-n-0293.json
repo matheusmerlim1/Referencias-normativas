@@ -99,7 +99,8 @@
     {
      "parametro": "Reparo após tratamento térmico",
      "valor": "repetir o tratamento se a profundidade de reparo passar de 51 mm",
-     "item": "5.6.4"
+     "item": "5.6.4",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#reparo-profundidade"
     },
     {
      "parametro": "Tratamento local — faixa aquecida",
@@ -125,13 +126,17 @@
     {
      "parametro": "Abertura de raiz máxima para enchimento adicional (buildup)",
      "valor": "20 mm ou 2 × a chapa mais fina, o menor",
-     "item": "5.7.9"
+     "item": "5.7.9",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#abertura-raiz"
     },
     {
      "parametro": "Aquecimento localizado em reparo dimensional",
      "valor": "temperatura ≤ 550 °C",
      "item": "5.7.16, Nota"
     }
+   ],
+   "figuras": [
+    "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg"
    ]
   },
   {
@@ -206,13 +211,17 @@
     {
      "parametro": "Extensão do END após reparo",
      "valor": "toda a região reparada + 25 mm de cada lado",
-     "item": "6.3.1.3; 6.3.2.5"
+     "item": "6.3.1.3; 6.3.2.5",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#end-reparo"
     },
     {
      "parametro": "Prazo para END após soldagem (módulos/navais)",
      "valor": "24 h após concluir as soldas",
      "item": "Tabela A.1, Nota 14"
     }
+   ],
+   "figuras": [
+    "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg"
    ]
   }
  ]

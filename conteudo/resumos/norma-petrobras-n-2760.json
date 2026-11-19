@@ -1,0 +1,135 @@
+{
+ "id": "PETROBRAS-N-2760",
+ "titulo": "Petrobras N-2760 Rev. B (08/2024) — Sistema ininterrupto de energia para uso industrial",
+ "secoes": [
+  {
+   "titulo": "Escopo e requisitos gerais",
+   "item": "1, 3, 4",
+   "texto": "Requisitos de projeto, fabricação, ensaios e documentação de sistemas ininterruptos de energia (UPS) CA e CC para uso industrial (substitui a N-332); obrigatória para projetos novos. UPS = conversores, chaves e acumuladores (baterias) mantendo a alimentação contínua da carga. Distorção harmônica de tensão pela IEC 62040-3; tecnologia de baterias na folha de dados, com ripple pela N-329; eficiência mínima pela IEC 62040-3. Gabinete na cor da folha de dados (N-1219), resistores de aquecimento com termostato e alimentáveis no transporte; ventilação forçada redundante (mesmo sem a redundância, semicondutores dentro dos limites); cabos internos não propagantes de chama; distâncias de isolação pela NBR IEC 61439 (480 V, categoria III, poluição 3); proteções de sobrecorrente na entrada, saídas e bateria; alarmes por contatos secos SPDT (IEC 60947-5-1); placa de identificação externa em inox série 300.",
+   "valores": [
+    {
+     "parametro": "Variação mínima de frequência tolerada na entrada do ramo principal (modo normal)",
+     "valor": "2 % da nominal",
+     "item": "4.1.19"
+    },
+    {
+     "parametro": "Faixa máxima do termostato dos resistores de aquecimento",
+     "valor": "60 °C",
+     "item": "4.2.9"
+    }
+   ],
+   "figuras": [
+    "esquemas/ups-industrial-diagrama.svg"
+   ]
+  },
+  {
+   "titulo": "Retificador, inversor e chave estática",
+   "item": "5–7",
+   "texto": "Carga do inversor tipicamente não linear (fontes chaveadas). Inversor comutado em alta frequência por PWM. Chave estática transfere o inversor para a fonte alternativa sem interrupção em sobrecarga, tensão fora dos limites, bateria no mínimo etc., e volta ao normal também sem interrupção; o inversor pode fazer a transferência se o projeto permitir.",
+   "valores": [
+    {
+     "parametro": "Regulação estática da tensão de saída",
+     "valor": "± 1 %",
+     "item": "5.15, 8.1.5"
+    },
+    {
+     "parametro": "Regulação dinâmica",
+     "valor": "< 10 % em < 100 ms",
+     "item": "5.16"
+    },
+    {
+     "parametro": "Fator de crista mínimo da carga / fator de potência típico",
+     "valor": "3 / 0,6 a 1",
+     "item": "6.4"
+    },
+    {
+     "parametro": "Tempo máximo de transferência da chave estática (nos dois sentidos)",
+     "valor": "4 ms",
+     "item": "7.2, 7.4",
+     "cota": "esquemas/ups-industrial-diagrama.svg#transferencia"
+    },
+    {
+     "parametro": "Sobrecarga da chave estática",
+     "valor": "125 % contínuo; 150 % por 60 s; 1 000 % por 100 ms",
+     "item": "7.5",
+     "cota": "esquemas/ups-industrial-diagrama.svg#sobrecarga"
+    }
+   ],
+   "figuras": [
+    "esquemas/ups-industrial-diagrama.svg"
+   ]
+  },
+  {
+   "titulo": "Configurações CA e CC",
+   "item": "8–10",
+   "texto": "UPS CA simples, barramento dual (intertravamento entre as chaves de isolamento de saída) e paralelo com compartilhamento ativo de corrente; bypass manual de manutenção (MBP) monitorado por contato seco; ramo alternativo capaz de alimentar a carga e suportar o curto de todo o conjunto; total de N + R unidades pela folha de dados. UPS CC paralelo com diodos de separação em blocos isolados; variação de tensão sob degraus de carga classificada pela IEC 62040-5-3 conforme bateria e cargas. Sistemas distribuídos montados com equipamentos autônomos.",
+   "valores": [
+    {
+     "parametro": "Frequência de saída",
+     "valor": "60 Hz ± 2 % sincronizada com a alternativa; ± 0,1 % pelo oscilador interno",
+     "item": "8.1.2"
+    },
+    {
+     "parametro": "Taxa mínima de variação de frequência mantendo sincronismo",
+     "valor": "1 Hz/s",
+     "item": "8.1.3"
+    },
+    {
+     "parametro": "Capacidade de operar em paralelo",
+     "valor": "no mínimo 5 UPS",
+     "item": "8.3.5"
+    },
+    {
+     "parametro": "Configuração paralela recomendada",
+     "valor": "UPS simples 100 % redundantes, N = 2 e R = 1",
+     "item": "9.3.2"
+    },
+    {
+     "parametro": "Diodos de separação (UPS CC paralelo)",
+     "valor": "tensão reversa 1 200 V; corrente = 2 × a nominal do disjuntor a montante",
+     "item": "9.3.3"
+    },
+    {
+     "parametro": "Contato do MBP",
+     "valor": "SPDT 0,5 A, 250 V ca / 125 V cc, L/R = 0,04 s",
+     "item": "8.2.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/ups-industrial-diagrama.svg"
+   ]
+  },
+  {
+   "titulo": "Documentação e ensaios",
+   "item": "11–13, Anexos",
+   "texto": "Documentos pela N-381, legíveis, com folha de rosto e total de páginas antes de converter para PDF; proposta com lista de fornecimentos similares, arranjo interno preliminar e memória de cálculo da bateria (IEEE 485 e 1115) pelo perfil de descarga da folha de dados. Fornecedor com programa de qualidade para ensaios de tipo. Critérios de ensaio: sobrecarga sem transferência para o alternativo, sincronização, defasamento, falha de uma unidade em paralelo assumida pelas demais com alarme e tempo de transferência.",
+   "valores": [
+    {
+     "parametro": "Formato mínimo dos documentos técnicos",
+     "valor": "210 mm × 297 mm (A4)",
+     "item": "11.1",
+     "cota": "esquemas/documento-carimbo-retangulo-reservado.svg#formato"
+    },
+    {
+     "parametro": "Tempo de sincronização no ensaio",
+     "valor": "< 30 s",
+     "item": "13.2.2.8.3"
+    },
+    {
+     "parametro": "Defasamento no ensaio (tensão de saída ± 1 %)",
+     "valor": "< 8°",
+     "item": "13.2.2.9.1"
+    },
+    {
+     "parametro": "Experiência mínima dos fornecimentos similares",
+     "valor": "3 anos de operação",
+     "item": "Anexo D, 1.1.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/ups-industrial-diagrama.svg",
+    "esquemas/documento-carimbo-retangulo-reservado.svg"
+   ]
+  }
+ ]
+}

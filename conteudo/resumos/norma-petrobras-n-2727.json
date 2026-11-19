@@ -1,0 +1,83 @@
+{
+ "id": "PETROBRAS-N-2727",
+ "titulo": "Petrobras N-2727 Rev. A (11/2013) — Manutenção de dutos rígidos submarinos",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1, 3",
+   "texto": "Condições para reparos em dutos rígidos submarinos e risers rígidos de aço-carbono, incluindo zona de variação de maré, terminais marítimos e trechos submersos de dutos terrestres (travessias), projetados pela DNV-OS-F101, ASME B31.4/B31.8 ou API RP 1111; não cobre proteção catódica, automação, manifolds, válvulas, PLEM, PLAEM, PLET e árvores de natal. Reparo é de contingência, temporário ou permanente; pode ser assistido por mergulhador ou por operação remota (ROV); luva de compósito = fibra de vidro ou carbono em matriz polimérica envolvendo o defeito.",
+   "valores": [
+    {
+     "parametro": "Temperatura máxima de operação para reparo com compósito",
+     "valor": "90 °C",
+     "item": "3.5"
+    },
+    {
+     "parametro": "Profundidade máxima de reparo assistido por mergulhador",
+     "valor": "300 m",
+     "item": "3.6"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-reparo-bracadeira-calcamento.svg"
+   ]
+  },
+  {
+   "titulo": "Planejamento e registros",
+   "item": "4.1–4.4",
+   "texto": "Procedimentos pela segurança e legislação; planejamento considerando clima, cargas ambientais, produto, topografia, população, mananciais e áreas protegidas: lista de verificação, procedimentos de bloqueio, despressurização e limpeza, equipe mínima com revezamento, logística, acessos, comunicações, avisos a órgãos e autoridades, avaliar desligar a proteção catódica com jumper, permissão de trabalho (N-2162), APR, bloqueios de derivações, segurança patrimonial, licenças, plano de emergência, treinamento em produtos perigosos, N-2163 para solda e trepanação em operação, N-2349 para corte e preparo de spool, e procedimento de abandono de trecho. Recomenda-se manual de manutenção e registros das intervenções.",
+   "valores": [],
+   "figuras": [
+    "esquemas/duto-reparo-bracadeira-calcamento.svg"
+   ]
+  },
+  {
+   "titulo": "Reparos",
+   "item": "4.5",
+   "texto": "Defeitos avaliados pela N-2786; trepanação pela N-2163. Contingência: só conter o vazamento e preparar o duto. Temporário (por prazo do projeto do reparo): braçadeira mecânica (com ou sem vazamento; limitada em curvas e ovalizações; remover o reforço da solda longitudinal; com vent e vedação de Viton ou similar) ou luva de compósito para sulcos, cavas, mossas, abrasão e perda de espessura, com projeto pela ISO/TS 24817 ou ASME PCC-2 e data book (vazamento bloqueado antes). Permanente (vida útil): esmerilhamento de sulcos, cavas e trincas superficiais (área avaliada como corroída), troca de trecho com conector mecânico ou hidráulico quando não há solda seca, para ovalização que impede o pig ou furo maior que o diâmetro (spool testado na pressão de projeto, N-1487), trepanação do defeito com braçadeira aparafusada com derivação; trecho emerso pela N-2737. Segurança: APR, pessoal treinado, corte só após liberação e PT, dados de projeto e do solo, levantamento de obstáculos, cuidado com gás inerte acumulado em pontos altos, respeitar vãos livres máximos na dragagem (inclusive dutos vizinhos), avaliar a proteção catódica ao final.",
+   "valores": [
+    {
+     "parametro": "TOG do efluente descartado em reparo com troca de trecho",
+     "valor": "< 15 ppm",
+     "item": "4.5.1.2"
+    },
+    {
+     "parametro": "Comprimento da braçadeira além de cada extremidade do defeito",
+     "valor": "≥ 50 mm",
+     "item": "4.5.2.2.1 a)",
+     "cota": "esquemas/duto-reparo-bracadeira-calcamento.svg#bracadeira-folga"
+    },
+    {
+     "parametro": "Perda de espessura externa admitida para luva de compósito",
+     "valor": "≤ 80 % da espessura nominal",
+     "item": "4.5.2.2.1 b)",
+     "cota": "esquemas/duto-reparo-bracadeira-calcamento.svg#perda-espessura"
+    },
+    {
+     "parametro": "Troca de trecho com conector — defeito",
+     "valor": "≥ diâmetro nominal do duto (ou ovalização que impeça braçadeira/pig)",
+     "item": "4.5.2.3 b), Tabela 1",
+     "cota": "esquemas/duto-reparo-bracadeira-calcamento.svg#defeito-troca"
+    },
+    {
+     "parametro": "Trepanação do defeito — tamanho do defeito",
+     "valor": "≤ 50 % do diâmetro nominal",
+     "item": "Tabela 1",
+     "cota": "esquemas/duto-reparo-bracadeira-calcamento.svg#defeito-trepanacao"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-reparo-bracadeira-calcamento.svg"
+   ]
+  },
+  {
+   "titulo": "Testes, revestimento e calçamento",
+   "item": "4.6–4.8",
+   "texto": "Trecho novo testado hidrostaticamente na fabricação; após o reparo, teste de estanqueidade das conexões e braçadeiras; hidrostático pela norma de projeto do duto. Revestimento removido ou danificado com metal exposto deve ser isolado do meio. Calçamento com apoios estáveis e permanentes recomendado em vão livre crítico e cruzamento de dutos, analisando antes o perfil dos vãos (morfologia, extensão, revestimento, solapamento, apoios existentes) e definindo os pontos de apoio.",
+   "valores": [],
+   "figuras": [
+    "esquemas/duto-reparo-bracadeira-calcamento.svg"
+   ]
+  }
+ ]
+}

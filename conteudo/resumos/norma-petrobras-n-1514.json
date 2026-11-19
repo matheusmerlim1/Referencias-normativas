@@ -1,0 +1,65 @@
+{
+ "id": "PETROBRAS-N-1514",
+ "titulo": "Petrobras N-1514 Rev. B (03/2025) — Tinta indicadora de alta temperatura",
+ "secoes": [
+  {
+   "titulo": "Escopo e aplicação",
+   "item": "1, 3",
+   "texto": "Características verificáveis em laboratório para receber tinta indicadora de alta temperatura, usada para revelar aquecimento localizado (pontos quentes) em superfícies pela mudança de cor. Dois tipos com faixas de variação de cor distintas. Amostragem pela NBR 5839 e inspeção de recipientes pela NBR 15442.",
+   "valores": [
+    {
+     "parametro": "Tipo 1 — cor estável",
+     "valor": "azul-escura até 180 °C",
+     "item": "3, tabela"
+    },
+    {
+     "parametro": "Tipo 2 — cor estável",
+     "valor": "verde-escura até 260 °C",
+     "item": "3, tabela"
+    },
+    {
+     "parametro": "Mudanças de cor de referência",
+     "valor": "azul-claro esverdeado em 36 h a 60 h a 260 °C; clareia em horas e fica branca em 24 h a 290 °C; descoloração após 3 semanas a 315 °C e após 18 h (perceptível) a 400 °C; branca após 3 h",
+     "item": "3, tabela",
+     "nota": "conferir: a tabela extraída mistura as colunas dos tipos 1 e 2; ver a norma para atribuir cada linha ao tipo."
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-painel-ensaio.svg"
+   ]
+  },
+  {
+   "titulo": "Requisitos e ensaios",
+   "item": "4, 5",
+   "texto": "A tinta é ensaiada aplicada diretamente sobre chapa de aço laminada a frio sem fosfatização e em painéis de aço-carbono; verifica-se a mudança de cor nas temperaturas e tempos de referência, além dos requisitos de sólidos (ISO 3233) e estabilidade em estoque.",
+   "valores": [
+    {
+     "parametro": "Estabilidade em armazenagem",
+     "valor": "utilizável até 10 meses após o fornecimento, em lata fechada a no máximo 35 °C",
+     "item": "4"
+    },
+    {
+     "parametro": "Painéis de ensaio",
+     "valor": "aço-carbono AISI 1020, 150 mm × 100 mm × 4 mm",
+     "item": "5.2",
+     "cota": "esquemas/tinta-painel-ensaio.svg#comprimento"
+    },
+    {
+     "parametro": "Espessura do painel",
+     "valor": "4 mm",
+     "item": "5.2",
+     "cota": "esquemas/tinta-painel-ensaio.svg#espessura"
+    },
+    {
+     "parametro": "Chapa laminada a frio (aplicação direta)",
+     "valor": "superfície A, acabamento f, 1 mm de espessura (NBR 5915), sem fosfatização",
+     "item": "5.2.2",
+     "cota": "esquemas/tinta-painel-ensaio.svg#espessura"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-painel-ensaio.svg"
+   ]
+  }
+ ]
+}

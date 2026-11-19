@@ -1,0 +1,111 @@
+{
+ "id": "PETROBRAS-N-1601",
+ "titulo": "Petrobras N-1601 Rev. C (12/2014) — Construção de drenagem e de despejos líquidos em unidades industriais",
+ "secoes": [
+  {
+   "titulo": "Escopo e serviços gerais",
+   "item": "1, 4, 8",
+   "texto": "Construção dos sistemas de drenagem e destino final de efluentes líquidos de unidades terrestres (critérios de projeto na N-38). Aterros sobre tubos, galerias e placas compactados em camadas; escavações e desmonte de rocha conduzidos por responsável habilitado, com cuidado onde houver outras tubulações enterradas; segurança pela NR-18.",
+   "valores": [
+    {
+     "parametro": "Caimento do greide de bacias de tanques",
+     "valor": "mín. 1,0 % nos primeiros 15 m rumo ao ponto de coleta e 0,5 % daí em diante (se o projeto não indicar outro)",
+     "item": "4.8",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#greide"
+    }
+   ],
+   "figuras": [
+    "esquemas/drenagem-vala-pavimento.svg",
+    "esquemas/terraplenagem-aterro-camadas.svg"
+   ]
+  },
+  {
+   "titulo": "Tubos, canaletas, caixas e galerias",
+   "item": "5, Anexo A",
+   "texto": "Tubos assentados sobre colchão arenoso; em vala com rocha ou pedras, envolver o tubo com material sem pedras. Canaletas pré-moldadas sobre colchão de areia e moldadas in loco sobre concreto magro. Caixas de escavação conforme as Figuras A.1 a A.4 (largura da vala em função do diâmetro, escoramento e taludes ≤ 45° acima de 1,25 m). Drenos com material drenante envolvido em manta geotêxtil e selo argiloso.",
+   "valores": [
+    {
+     "parametro": "Colchão sob tubos e canaletas pré-moldadas",
+     "valor": "mín. 5 cm de material arenoso (canaleta in loco: 5 cm de concreto magro)",
+     "item": "5",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#berco"
+    },
+    {
+     "parametro": "Ponta do tubo nas caixas",
+     "valor": "ultrapassa 25 mm a face interna da parede",
+     "item": "5",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#tubo-caixa"
+    },
+    {
+     "parametro": "Largura da vala (prof. até 1,25 m)",
+     "valor": "D ≤ 0,40 m: L = 0,80 m; 0,40 < D ≤ 0,80 m: L = D + 0,60 m; D > 0,80 m: L = D + 0,40 m",
+     "item": "Anexo A, Figura A.1",
+     "nota": "Lido da figura.",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#vala-largura"
+    },
+    {
+     "parametro": "Sobrelargura com rejuntamento",
+     "valor": "0,50 m até 1,50 m de escavação; 0,70 m acima",
+     "item": "Anexo A, Notas",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#vala-largura"
+    },
+    {
+     "parametro": "Limite de profundidade da caixa simples de escavação",
+     "valor": "1,25 m (acima: escoras ou talude ≤ 45°)",
+     "item": "Anexo A, Figuras A.1 a A.4",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#profundidade-escoramento"
+    },
+    {
+     "parametro": "Recobrimento sobre galerias em cruzamento de ruas",
+     "valor": "mín. 60 cm",
+     "item": "5, Anexo A Nota 1",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#recobrimento"
+    },
+    {
+     "parametro": "Envolvimento sem pedras em vala rochosa",
+     "valor": "até cerca de 25 cm acima da geratriz superior",
+     "item": "Anexo A",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#recobrimento"
+    },
+    {
+     "parametro": "Manta geotêxtil do dreno",
+     "valor": "emendas longitudinais com 20 cm costuradas ou 50 cm sem costura; dobra transversal ≥ 20 cm; vala L = B + 10 cm",
+     "item": "Anexo A",
+     "nota": "Lido da figura.",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#manta-sobreposicao"
+    }
+   ],
+   "figuras": [
+    "esquemas/drenagem-vala-pavimento.svg"
+   ]
+  },
+  {
+   "titulo": "Tolerâncias",
+   "item": "7",
+   "texto": "Desvios máximos em relação ao projeto.",
+   "valores": [
+    {
+     "parametro": "Locação",
+     "valor": "1 cm",
+     "item": "7.1 a)",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#tubo-caixa"
+    },
+    {
+     "parametro": "Nivelamento",
+     "valor": "0,5 cm",
+     "item": "7.1 b)",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#tolerancia-nivel"
+    },
+    {
+     "parametro": "Alinhamento",
+     "valor": "5 % do diâmetro do tubo ou da largura da canaleta",
+     "item": "7.1 c)",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#tubo-d"
+    }
+   ],
+   "figuras": [
+    "esquemas/drenagem-vala-pavimento.svg"
+   ]
+  }
+ ]
+}

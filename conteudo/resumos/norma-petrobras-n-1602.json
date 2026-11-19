@@ -1,0 +1,120 @@
+{
+ "id": "PETROBRAS-N-1602",
+ "titulo": "Petrobras N-1602 Rev. C (11/2013) — Construção de pavimentos",
+ "secoes": [
+  {
+   "titulo": "Escopo e camadas",
+   "item": "1, 3, 5.1 a 5.5",
+   "texto": "Execução de pavimentos: regularização do subleito, sub-base e base (estabilizadas granulometricamente ou de solo melhorado com cimento ou cal), imprimação e revestimentos asfálticos pelas especificações DNIT e resoluções ANP/CNP dos ligantes.",
+   "valores": [
+    {
+     "parametro": "Regularização do subleito",
+     "valor": "cortes ou aterros até 20 cm; acima disso é terraplenagem",
+     "item": "3.4",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#camada-compactada"
+    }
+   ],
+   "figuras": [
+    "esquemas/drenagem-vala-pavimento.svg",
+    "esquemas/terraplenagem-aterro-camadas.svg"
+   ]
+  },
+  {
+   "titulo": "Calçamentos e revestimento primário",
+   "item": "5.6, 5.7",
+   "texto": "Paralelepípedos de granito ou rocha sã assentados em fiadas normais ao eixo, juntas alternadas, sobre camada solta de areia/pó de pedra, batidos até ficarem pouco acima dos cordéis de referência e rejuntados com areia ou com pedrisco e betume. Blocos pré-moldados de concreto vibroprensados sobre colchão. Revestimento primário de solo em toda a pista e acostamentos.",
+   "valores": [
+    {
+     "parametro": "Paralelepípedo — resistência e peso específico",
+     "valor": "≥ 98 MPa (1 000 kgf/cm²); ≥ 23,5 kN/m³",
+     "item": "5.6.2"
+    },
+    {
+     "parametro": "Dimensões aproximadas do paralelepípedo",
+     "valor": "10 cm × 20 cm × 15 cm",
+     "item": "5.6.2 a)",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#bloco"
+    },
+    {
+     "parametro": "Colchão sob paralelepípedos",
+     "valor": "5 cm de areia ou pó de pedra (blocos de concreto: 4 cm)",
+     "item": "5.6.2 c), 5.6.3 d)",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#colchao"
+    },
+    {
+     "parametro": "Junta entre paralelepípedos",
+     "valor": "1,5 cm, alternadas",
+     "item": "5.6.2 d)",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#junta-blocos"
+    },
+    {
+     "parametro": "Ponteiros de alinhamento e nível",
+     "valor": "afastamento máximo 10 m",
+     "item": "5.6.2 e)",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#ponteiros"
+    },
+    {
+     "parametro": "Face superior antes da compactação",
+     "valor": "cerca de 1 cm acima das linhas de referência",
+     "item": "5.6.2 h)",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#tolerancia-nivel"
+    },
+    {
+     "parametro": "Rejuntamento",
+     "valor": "camada de 2 cm de areia/pó de pedra ou 1 cm de pedrisco (betuminoso)",
+     "item": "5.6.2",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#junta-blocos"
+    },
+    {
+     "parametro": "Blocos pré-moldados de concreto",
+     "valor": "resistência ≥ 24,50 MPa; peso específico 15,7 kN/m³",
+     "item": "5.6.3 a)"
+    },
+    {
+     "parametro": "Revestimento primário",
+     "valor": "espessura mínima 20 cm em toda a largura",
+     "item": "5.7 b)",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#camada-compactada"
+    },
+    {
+     "parametro": "Aterro sob guias e reaterro",
+     "valor": "camadas de no máximo 15 cm (GC 100 % no aterro de assentamento)",
+     "item": "5.8",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#camada-solta"
+    }
+   ],
+   "figuras": [
+    "esquemas/drenagem-vala-pavimento.svg",
+    "esquemas/terraplenagem-aterro-camadas.svg"
+   ]
+  },
+  {
+   "titulo": "Guias, sarjetas, passeios e tolerâncias",
+   "item": "5.8, 6",
+   "texto": "Guias de concreto (pré-moldado ou in loco) ou de rocha; sarjetas de concreto ou do mesmo revestimento; passeios em placas, concreto ou blocos; peças rejuntadas com argamassa 1:4 sobre terreno compactado. Demais serviços seguem as tolerâncias das normas DNIT.",
+   "valores": [
+    {
+     "parametro": "Paralelepípedos — alinhamento / nivelamento",
+     "valor": "± 1,5 cm / ± 1,0 cm",
+     "item": "6.1.1",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#tolerancia-nivel"
+    },
+    {
+     "parametro": "Blocos de concreto — alinhamento / nivelamento",
+     "valor": "± 0,5 cm / ± 0,5 cm",
+     "item": "6.1.2",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#tolerancia-nivel"
+    },
+    {
+     "parametro": "Guias, sarjetas e passeios",
+     "valor": "dimensões ± 5 cm; nivelamento 0,5 %; alinhamento de cada peça ± 1,0 %; escavação no máximo 5 cm além da cota",
+     "item": "6.1.3",
+     "cota": "esquemas/drenagem-vala-pavimento.svg#tolerancia-nivel"
+    }
+   ],
+   "figuras": [
+    "esquemas/drenagem-vala-pavimento.svg"
+   ]
+  }
+ ]
+}

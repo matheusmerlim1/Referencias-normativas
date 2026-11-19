@@ -1,0 +1,103 @@
+{
+ "id": "PETROBRAS-N-1693",
+ "titulo": "Petrobras N-1693 Rev. G (01/2025) — Diretrizes para seleção e elaboração de padronizações de material de tubulação",
+ "secoes": [
+  {
+   "titulo": "Escopo e identificação das padronizações",
+   "item": "1, 3",
+   "texto": "Diretrizes para selecionar e montar as padronizações (specs) de material de tubulação de refino, transporte, gás e energia — processo, utilidades, parques, ETE, estações de bombeamento/compressão/medição, terminais, termoelétricas e UPGN — em projetos novos e em manutenção ou reforma; revisada junto com a N-76, que traz as specs prontas. O código da spec começa por uma letra que indica a classe de pressão e o grupo de material (aço-carbono, ligas e inox, ferro fundido, diversos), seguida de sequencial (a letra minúscula \"l\" não é usada).",
+   "valores": [
+    {
+     "parametro": "Primeira letra — aço-carbono",
+     "valor": "classe 150: B; 300: C; 400: D; 600: E; 900: F; 1 500: G (classes 25 a 125: A)",
+     "item": "Tabela de identificação",
+     "nota": "conferir: tabela extraída em colunas; confirmar a correspondência letra × classe no original."
+    },
+    {
+     "parametro": "Primeira letra — aços liga e inox",
+     "valor": "150: L; 300: M; 400: N; 600: O; 900: P; 1 500: Q (até 125: J)",
+     "item": "Tabela de identificação",
+     "nota": "conferir: idem."
+    }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-espessura-parede.svg"
+   ]
+  },
+  {
+   "titulo": "Corrosão admissível e espessuras",
+   "item": "8",
+   "texto": "A sobre-espessura de corrosão depende do fluido, do material e da temperatura. A espessura calculada é arredondada para a série do ASME B36.10/B36.19 ou, acima dela, para múltiplos de 1/16\".",
+   "valores": [
+    {
+     "parametro": "Corrosão nula ou desprezível",
+     "valor": "0 mm",
+     "item": "8.1 a)",
+     "cota": "esquemas/tubulacao-processo-espessura-parede.svg#c"
+    },
+    {
+     "parametro": "AC, baixa liga ou inox com hidrocarbonetos (geral)",
+     "valor": "mín. 1,6 mm",
+     "item": "8.1 b)",
+     "cota": "esquemas/tubulacao-processo-espessura-parede.svg#c"
+    },
+    {
+     "parametro": "AC com hidrocarbonetos corrosivos ou químicos sujeitos a corrosão sob tensão (até 260 °C); 5Cr-½Mo muito corrosivo de 260 °C a 540 °C",
+     "valor": "mín. 3,2 mm",
+     "item": "8.1 c), d)",
+     "cota": "esquemas/tubulacao-processo-espessura-parede.svg#c"
+    },
+    {
+     "parametro": "AC com hidrocarbonetos muito corrosivos (até 260 °C), enxofre líquido (até 180 °C) ou H2SO4 98 % (até 100 °C)",
+     "valor": "mín. 6,4 mm",
+     "item": "8.1 e)",
+     "cota": "esquemas/tubulacao-processo-espessura-parede.svg#c"
+    },
+    {
+     "parametro": "Espessuras além da série do B36",
+     "valor": "múltiplos de 1/16\"",
+     "item": "8.3",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#t"
+    }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-espessura-parede.svg",
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg"
+   ]
+  },
+  {
+   "titulo": "Válvulas, flanges, juntas e parafusos",
+   "item": "9 a 11",
+   "texto": "Tabelas de seleção de materiais de corpo, sede, haste e trim de válvulas por tipo e material da linha; gaxetas por serviço (PTFE para químicos e água até 150 °C; grafite flexível para vapor, hidrocarbonetos e outros até 540 °C). Estojos e porcas por material do flange e faixa de temperatura (B7/2H de −29 °C a 400 °C; L7/7L até −60 °C; B16/7 recomendado acima de 400 °C). Roscas UNC-2A até 1\" e 8UN-2A de 1 1/8\" para cima. Juntas metálicas pela ASME B16.20/API 6A; acima de 450 °C, grafite flexível resistente à oxidação.",
+   "valores": [
+    {
+     "parametro": "Válvula FFU wafer dupla portinhola",
+     "valor": "permitida em NPS 26 e acima, sede BUNA-N até 80 °C",
+     "item": "9, Nota 3",
+     "cota": "esquemas/tubulacao-processo-tubo-diametros-parede.svg#OD"
+    },
+    {
+     "parametro": "Flanges para junta anel (RTJ) limitados",
+     "valor": "classe 300 e até 150 °C",
+     "item": "10.2",
+     "nota": "conferir contexto (limitação aplicada a um caso específico de flange no item 4.2 da seção de flanges)."
+    },
+    {
+     "parametro": "Rosca dos estojos",
+     "valor": "UNC-2A até Ø 1\"; 8UN-2A de Ø 1 1/8\" em diante",
+     "item": "11.1",
+     "cota": "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg#d"
+    },
+    {
+     "parametro": "Grafite flexível HT (> 450 °C)",
+     "valor": "perda de massa < 13 % em 5 h a 700 °C (TGA)",
+     "item": "11.x"
+    }
+   ],
+   "figuras": [
+    "esquemas/tubulacao-processo-tubo-diametros-parede.svg",
+    "esquemas/parafusos-porcas-arruelas-rosca-area-resistente.svg"
+   ]
+  }
+ ]
+}

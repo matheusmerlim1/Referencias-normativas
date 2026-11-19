@@ -306,10 +306,15 @@ Lotes 1–7 feitos (30/out): todo valor geométrico tem cota e todo resumo tem d
    19/nov: 4 agentes em paralelo (pedido do usuário) → P5 COMPLETO 23/23; P6 19/22; P7 49/99 (+69 SVG, commit ea217bf).
    Todos pararam no limite da API. Paralelo sem conflito: só 1 agente mexe em SVG existente/cotas_dispensadas.json; os outros
    criam SVG novo e gravam dispensas em scratchpad/dispensas/<lote>.json (coordenador junta).
-   >>> RETOMAR AQUI: P6 faltam N-1812 1852 2869 + 16 cotas pendentes (N-0293, 1617, 1644, 0047, 0134, 0279, 1203, 2768);
-   P7 faltam 50: N-0316 0317 0319 0329 0332 0464 0845 0862 1380 1514 1601 1602 1693 1756 1855 1862 1897 1921 1935 1955 2000
-   2006 2039 2169 2634 2652 2653 2671 2689 2698 2724 2726 2727 2737 2760 2779 2784 2786 2838 2860 2896 2900 2915 2916 2921
-   2931 2932 2934 2935 2941.
+   19/nov tarde: BLOCO PETROBRAS COMPLETO — 287/287 resumos (P6 22/22, P7 99/99; 4 agentes P6/P7A/P7B/P7C). 1066 resumos,
+   462 SVG, 3957 valores com cota, 168 dispensados, cotas_pendentes = 0.
+   "conferir" (fonte/figura duvidosa): N-0279 (4.1.1 em colunas), N-0293 (Fig. 3), N-0134 (Figs. A.2/A.3), N-1644 (Figs. 1–3),
+   N-1728 (Fig. B.8 embaralhada), N-2344 (fórmula), N-2001 (Charpy "20 °C" → −20?), N-1852 (7.5.2.4, 8.1.8.2, Fig. 11),
+   N-1514 (cores tipo 1×2), N-1693 (letra × classe; RTJ), N-2162 (etiqueta 80×160), N-2200 (figuras embaralhadas),
+   N-2628/2677 (secagem, cores, brilho UV), N-2630 (pot-life), N-2912 (Atlas/autoclave), N-2377 (rampa "18 °C"),
+   N-2737 (margem 2√(D·t)), N-2786 (d/tn de fluxograma), N-2931 (0,7 mm), N-2860 (6 medidas dispensadas → podem ganhar cota),
+   N-2934/2935 (rpm, tolerâncias do molde, "4 in² (50,8 mm²)" errado na norma, remissões trocadas na 2935).
+   Próximo: revisar os "conferir"; acervo T: restante (ASTM, ABNT, SSPC…) por lotes.
    Commit + push ao fim de cada lote (só caminhos próprios).
 4. Backlog antigo (baixa prioridade; detalhes em HISTORICO.md): ficha vaso-pressao migrar de VIII-1 2001 para 2007; UCS-66, UG-37;
    B16.9/B16.11/B36.19M; NR-13 tubulações; ISO 4759/4042; MSS SP-44, API 6AF; NBR 6409/ISO 1302; IPE/W/cantoneiras; composição

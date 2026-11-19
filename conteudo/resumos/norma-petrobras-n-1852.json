@@ -1,0 +1,300 @@
+{
+ "id": "PETROBRAS-N-1852",
+ "titulo": "Petrobras N-1852 Rev. G (01/2011) — Estruturas oceânicas: fabricação e montagem de unidades fixas",
+ "secoes": [
+  {
+   "titulo": "Escopo, materiais e identificação",
+   "item": "1–6",
+   "texto": "Fabricação e montagem de estruturas oceânicas fixas de aço (jaqueta, convés, estacas), com errata da Figura 9 e 1ª emenda (8.2.14 g). Materiais classes A, B e C conforme a criticidade, rastreados por certificados; chapas com direção de laminação indicada e UT de laminação onde houver risco de decoesão lamelar. Cada componente leva faixa de cor por tipo de material e identificação legível.",
+   "valores": [
+    {
+     "parametro": "Faixa de cor por material (grupos I e II)",
+     "valor": "50 mm de largura ao longo do eixo do componente",
+     "item": "6.14"
+    },
+    {
+     "parametro": "Retângulo da identificação",
+     "valor": "máximo 250 × 300 mm; mínimo 120 × 200 mm",
+     "item": "6.15",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#identificacao"
+    },
+    {
+     "parametro": "Altura dos dígitos de identificação",
+     "valor": "13 mm a 25 mm",
+     "item": "6.15",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#identificacao"
+    }
+   ],
+   "figuras": [
+    "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg",
+    "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Conformação e virolas",
+   "item": "7.1–7.4",
+   "texto": "Calandragem com fechamento em dispositivo admitido se a folga entre bordas for pequena. Conformação a frio (< 200 °C) limitada pelo tipo de aço, com ensaio de envelhecimento quando exceder; a quente sem passar de 550 °C salvo qualificação na mesma corrida. Virolas com juntas longitudinais defasadas; tolerâncias de comprimento, flecha, alinhamento, ovalização e esquadro dos biséis; tronco examinado por UT antes de soldar anéis enrijecedores.",
+   "valores": [
+    {
+     "parametro": "Folga circunferencial ao fechar a virola fora da calandra",
+     "valor": "≤ 50 mm (recomendado)",
+     "item": "7.1.10"
+    },
+    {
+     "parametro": "Conformação a frio máxima — acalmado ao Al / ao Si",
+     "valor": "5 % / 4 %",
+     "item": "7.2.1"
+    },
+    {
+     "parametro": "Defasagem entre juntas longitudinais",
+     "valor": "≥ 90° (no tronco: 90° ou 600 mm, o menor)",
+     "item": "7.4.1.2",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#defasagem"
+    },
+    {
+     "parametro": "Comprimento mínimo de virola",
+     "valor": "1,0 m em estacas; nos demais, o menor entre 1 m e 1 diâmetro externo",
+     "item": "7.4.2.3",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#segmento"
+    },
+    {
+     "parametro": "Flecha de tubulares",
+     "valor": "≤ 3 mm em 3 m; ≤ 12 mm em 12 m; ≤ 13 mm no total acima de 12 m (3 planos a 120°)",
+     "item": "7.4.2.4",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#retilineidade"
+    },
+    {
+     "parametro": "Desalinhamento em junta de topo circunferencial",
+     "valor": "≤ 10 % da parede, máximo 6 mm",
+     "item": "7.4.2.5 a)",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#t"
+    },
+    {
+     "parametro": "Desalinhamento em junta de topo longitudinal",
+     "valor": "≤ 3 mm ou 10 % da parede, o menor",
+     "item": "7.4.2.5 b)",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#t"
+    },
+    {
+     "parametro": "Ovalização na extremidade da virola",
+     "valor": "≤ 1 % do diâmetro nominal ou 6 mm, o menor (2 posições a 90°)",
+     "item": "7.4.2.6",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#D"
+    },
+    {
+     "parametro": "Esquadro dos biséis",
+     "valor": "≤ 0,5 % do diâmetro externo, máximo 4 mm",
+     "item": "7.4.2.7",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-estacas.svg#esquadro"
+    },
+    {
+     "parametro": "Área do tronco examinada antes do anel enrijecedor",
+     "valor": "até 100 mm de cada lado do anel",
+     "item": "7.4.3",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#can"
+    }
+   ],
+   "figuras": [
+    "esquemas/tolerancias-fabricacao-estrutural-estacas.svg",
+    "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg"
+   ]
+  },
+  {
+   "titulo": "Nós tubulares, perfis e montagem integral",
+   "item": "7.5–7.8; Figuras 10 e 11; Tabelas 2–4",
+   "texto": "Ramificações montadas com ângulos de chanfro registrados a 0°, 90°, 180° e 270°; aberturas de raiz excessivas só corrigidas por amanteigamento nos limites abaixo. Perfis de larguras diferentes com transição suave; juntas soldadas fora das regiões de L/8 e L/2 da Figura 11; tolerâncias de flecha, rotação e desvio de reforços pelas Tabelas 2–4.",
+   "valores": [
+    {
+     "parametro": "Abertura de raiz corrigível por amanteigamento (nó)",
+     "valor": "> 6 até 13 mm em até 10 % do perímetro; > 6 até 19 mm em até 5 % do perímetro",
+     "item": "7.5.2.4",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#gap",
+     "nota": "conferir: condições completas de cada faixa no texto"
+    },
+    {
+     "parametro": "Solda circunferencial dentro do comprimento mínimo da ramificação",
+     "valor": "a ≥ 300 mm da interseção",
+     "item": "7.5.2.6; 7.5.2.11",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#stub"
+    },
+    {
+     "parametro": "Folga em solda de filete",
+     "valor": "≤ 3,0 mm; a partir de 1,5 mm aumentar a perna da diferença",
+     "item": "7.6.1.2",
+     "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#perna-real"
+    },
+    {
+     "parametro": "Transição entre larguras diferentes",
+     "valor": "inclinação ≤ 1:4 ou raio de 600 mm",
+     "item": "7.6.2.1; Fig. 10",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-detalhes-montagem.svg#inclinacao"
+    },
+    {
+     "parametro": "Regiões proibidas para juntas soldadas em perfis",
+     "valor": "faixas de L/8 e L/2 conforme Figura 11",
+     "item": "Fig. 11",
+     "cota": "esquemas/estrutura-metalica-emendas-zonas.svg#apoio",
+     "nota": "conferir: posição das faixas na figura"
+    },
+    {
+     "parametro": "Montagem integral (boca-de-lobo) — folga dos pontos de trabalho",
+     "valor": "1 % do diâmetro do tronco; derivações com soldas a ≥ 51 mm",
+     "item": "7.7",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#gap"
+    },
+    {
+     "parametro": "Remoção de metal de base em reparo",
+     "valor": "até 20 % da espessura",
+     "item": "7.8.5; 8.6"
+    }
+   ],
+   "figuras": [
+    "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg",
+    "esquemas/solda-estrutural-aceitacao-visual.svg",
+    "esquemas/tolerancias-fabricacao-estrutural-detalhes-montagem.svg",
+    "esquemas/estrutura-metalica-emendas-zonas.svg"
+   ]
+  },
+  {
+   "titulo": "Soldagem e qualificação",
+   "item": "8; Tabela 5; Figuras 16–20",
+   "texto": "Soldagem pela N-133; temperatura de ensaio de impacto por classe e espessura (Tp − 20 °C a Tp − 40 °C para espessuras maiores; classe C < 25,4 mm dispensa). Corpos de prova a 2 mm da superfície, entalhes no metal de solda, linha de fusão e ZTA a 2 e 5 mm; peças de teste de chapa, tubo e nó com dimensões mínimas nas figuras. Soldador requalificado se o índice de reparo por UT passar de 2,5 %. Testes de produção por extensão soldada.",
+   "valores": [
+    {
+     "parametro": "Interrupção da soldagem",
+     "valor": "só após ≥ 25 % da seção da junta",
+     "item": "8.1.6"
+    },
+    {
+     "parametro": "Ponto de solda — estrutura principal (nível I e II)",
+     "valor": "≥ 50 mm de comprimento",
+     "item": "8.1.8.1",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#ponto"
+    },
+    {
+     "parametro": "Pontos (caso de 8.1.8.2)",
+     "valor": "≥ 80 mm de comprimento, espaçados ≤ 40 mm",
+     "item": "8.1.8.2",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#intervalo",
+     "nota": "conferir: aplicação de 8.1.8.2 no texto"
+    },
+    {
+     "parametro": "Mordedura admitida na qualificação",
+     "valor": "≤ 1 mm",
+     "item": "8.3.2 c)",
+     "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#mordedura"
+    },
+    {
+     "parametro": "Inclusão de escória / poro (qualificação)",
+     "valor": "escória ≤ 2,5 mm (soma ≤ 6,0 mm); poro ≤ 1,6 mm (soma dos > 1,0 mm ≤ 6,0 mm)",
+     "item": "8.3.2 d)–g)",
+     "cota": "esquemas/solda-estrutural-aceitacao-visual.svg#poro"
+    },
+    {
+     "parametro": "Teste de produção (espessura > 20 mm)",
+     "valor": "a cada 200 m (classe A) ou 400 m (classes B, C) de solda por procedimento",
+     "item": "8.5.2, 8.5.3"
+    }
+   ],
+   "figuras": [
+    "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg",
+    "esquemas/solda-estrutural-aceitacao-visual.svg"
+   ]
+  },
+  {
+   "titulo": "END e tratamento térmico",
+   "item": "9, 10; Tabela 6",
+   "texto": "Extensão de ER, US e PM por nível de inspeção e região (convés, jaqueta, estacas) pela Tabela 6; visual 100 %; juntas de um lado sem cobre-junta complementadas (JTPT 100 % ER). Defeitos repetidos ≥ 10 % → 100 % US + 100 % PM até a taxa cair a ≤ 2,5 %. Alívio de tensões em nós T, K, Y com membro principal > 38 mm e juntas de penetração total > 63 mm, com faixa aquecida e borda do isolamento ≤ 300 °C.",
+   "valores": [
+    {
+     "parametro": "Faixa mantida na temperatura (tubulares)",
+     "valor": "≥ 50 mm ou a maior espessura da junta, o menor",
+     "item": "10.5 b)",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#ttat-faixa"
+    }
+   ],
+   "figuras": [
+    "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Tolerâncias de montagem",
+   "item": "11; Tabelas 8–12; Figuras 25–31",
+   "texto": "Painéis, vigas, colunas, treliças e conjuntos de convés com tolerâncias em % da cota de referência e valor máximo; juntas cruciformes D = E/4 (máx. 4 mm); anéis de transição com raio ± 6 mm e esquadro da face superior ≤ 6 mm.",
+   "valores": [
+    {
+     "parametro": "Painel — comprimento e largura",
+     "valor": "± 0,10 %, máximo 10 mm",
+     "item": "Tabela 8",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#extremidade"
+    },
+    {
+     "parametro": "Coluna ou viga — inclinação",
+     "valor": "± 0,15 %, máximo 30 mm",
+     "item": "Tabela 10",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#out-of-line"
+    },
+    {
+     "parametro": "Conjunto de treliças do convés",
+     "valor": "apoios ± 15 mm; vigas paralelas ± 10 mm; total ± 20 mm; altura ± 15 mm",
+     "item": "Tabela 12",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg#elev-deck"
+    },
+    {
+     "parametro": "Junta cruciforme",
+     "valor": "D = E/4, máximo 4 mm",
+     "item": "11.7; Fig. 30",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#cruciforme"
+    },
+    {
+     "parametro": "Distância entre soldas longitudinais na montagem",
+     "valor": "≥ 300 mm ou 90°, o menor",
+     "item": "11.9 a)",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg#defasagem-long"
+    },
+    {
+     "parametro": "Distância entre colunas/pernas — plano crítico / não crítico",
+     "valor": "± 6 mm / ± 20 mm",
+     "item": "11.9 b), c)",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#dist-colunas"
+    },
+    {
+     "parametro": "Diagonais — plano crítico / não crítico",
+     "valor": "± 19 mm / ± 50 mm",
+     "item": "11.9 d)",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#diagonais"
+    },
+    {
+     "parametro": "Alinhamento de pernas e colunas",
+     "valor": "± 6 mm (estacas por dentro das pernas); ± 13 mm nos demais",
+     "item": "11.9 e)",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#retilineidade"
+    },
+    {
+     "parametro": "Topo das pernas da jaqueta",
+     "valor": "± 6 mm da elevação de projeto",
+     "item": "11.9 f)",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#elev-topo"
+    },
+    {
+     "parametro": "Elevação dos contraventamentos",
+     "valor": "± 13 mm",
+     "item": "11.9 g)",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#brace-horizontal"
+    },
+    {
+     "parametro": "Guias de condutores e estacas",
+     "valor": "desvio ≤ 12 mm da linha de centro teórica",
+     "item": "11.9 h)",
+     "cota": "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg#pontos-brace"
+    }
+   ],
+   "figuras": [
+    "esquemas/tolerancias-fabricacao-estrutural-deck-vigas.svg",
+    "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg",
+    "esquemas/tolerancias-fabricacao-estrutural-no-tubular.svg",
+    "esquemas/tolerancias-fabricacao-estrutural-jaqueta.svg"
+   ]
+  }
+ ]
+}

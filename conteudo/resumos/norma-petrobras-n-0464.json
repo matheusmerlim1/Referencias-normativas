@@ -1,0 +1,113 @@
+{
+ "id": "PETROBRAS-N-0464",
+ "titulo": "Petrobras N-0464 Rev. K (06/2016) — Construção, montagem e condicionamento de duto terrestre",
+ "secoes": [
+  {
+   "titulo": "Natureza do documento",
+   "item": "1, 2",
+   "texto": "A norma é escrita como emenda da ABNT NBR 15280-2: cada item indica \"substituição\", \"modificação\" ou \"novo\" em relação ao texto da NBR, que segue valendo no restante. Cobre construção, montagem, condicionamento, teste e aceitação de dutos terrestres, apoiada nas normas Petrobras de soldagem (N-133), END (N-1595, N-1597, N-2803), isolamento (N-250) e pintura.",
+   "valores": [],
+   "figuras": [
+    "esquemas/duto-vala-cobertura.svg",
+    "esquemas/duto-faixa-interferencias.svg"
+   ]
+  },
+  {
+   "titulo": "Recebimento, armazenamento e soldagem",
+   "item": "seções de materiais e soldagem",
+   "texto": "Tubos próximos a linhas de transmissão aterrados durante a estocagem. Qualificação de soldagem com Charpy em corpos de prova integrais retirados de cada quadrante logo abaixo da superfície; consumível sem requisito AWS de impacto é ensaiado a 0 °C. Com acoplador externo, o passe de raiz cobre parte da circunferência antes de retirá-lo. Tubo com isolamento de poliuretano montado pela N-250.",
+   "valores": [
+    {
+     "parametro": "Aterramento de tubos estocados",
+     "valor": "a menos de 100 m de linhas de transmissão de 69 kV ou mais",
+     "item": "novo, armazenamento",
+     "cota": "esquemas/duto-faixa-interferencias.svg#torre-faixa"
+    },
+    {
+     "parametro": "Retirada dos corpos de prova Charpy",
+     "valor": "2 mm abaixo da superfície, em cada quadrante; CP integrais de 10 mm (menores: critério proporcional à espessura)",
+     "item": "soldagem, qualificação",
+     "cota": "esquemas/asme-ii-charpy-expansao-lateral.svg#expansao-lateral"
+    },
+    {
+     "parametro": "Passe de raiz antes de remover o acoplador externo",
+     "valor": "pelo menos 50 % da circunferência, distribuído simetricamente",
+     "item": "soldagem",
+     "cota": "esquemas/duto-soldagem-bisel.svg#anel"
+    },
+    {
+     "parametro": "Temperatura na superfície do isolamento de PU",
+     "valor": "abaixo de 60 °C",
+     "item": "isolamento"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-soldagem-bisel.svg",
+    "esquemas/asme-ii-charpy-expansao-lateral.svg",
+    "esquemas/duto-faixa-interferencias.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção das soldas, vala e curvas",
+   "item": "END, vala, curvamento",
+   "texto": "Em oleodutos e gasodutos: visual em 100 % das juntas e radiografia (N-1595) ou ultrassom automatizado (N-2803) em 100 % das juntas, em toda a circunferência; UT manual só se gerar registro digital permanente de todo o volume. Escavação com pessoas dentro verificada por cálculo de estabilidade. Curvas a frio com ovalização limitada.",
+   "valores": [
+    {
+     "parametro": "Estabilidade de vala com pessoas dentro",
+     "valor": "fator de segurança mínimo 1,2 (lateral e fundo), por cálculo",
+     "item": "novo, vala"
+    },
+    {
+     "parametro": "Ovalização inaceitável em curvas",
+     "valor": "> 5 % (diferença entre maior e menor diâmetro externo)",
+     "item": "curvamento",
+     "cota": "esquemas/tubulacao-processo-b31-3-alinhamento-ovalizacao.svg#Dmax"
+    },
+    {
+     "parametro": "Diques de contenção na vala",
+     "valor": "onde a inclinação longitudinal final da pista passar de 20 %",
+     "item": "novo, recomposição"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-vala-cobertura.svg",
+    "esquemas/tubulacao-processo-b31-3-alinhamento-ovalizacao.svg"
+   ]
+  },
+  {
+   "titulo": "Localização do duto e recomposição",
+   "item": "cadastro as built, recomposição",
+   "texto": "O levantamento as built do duto enterrado (localizador) registra posição horizontal e profundidade em pontos de verificação ao longo de cada seção. A recomposição da faixa escarifica áreas compactadas por máquinas e usa gramíneas de porte baixo.",
+   "valores": [
+    {
+     "parametro": "Precisão da localização do duto",
+     "valor": "melhor que 10 cm na horizontal e 10 % da profundidade na vertical",
+     "item": "novo, localização d)",
+     "cota": "esquemas/duto-faixa-interferencias.svg#precisao-posicao"
+    },
+    {
+     "parametro": "Afastamento entre pontos de verificação",
+     "valor": "máximo 5 m na seção",
+     "item": "novo, localização e)",
+     "cota": "esquemas/duto-faixa-interferencias.svg#precisao-posicao"
+    },
+    {
+     "parametro": "Escarificação antes da recomposição vegetal",
+     "valor": "pelo menos 30 cm de profundidade onde houve tráfego pesado",
+     "item": "recomposição a)",
+     "cota": "esquemas/duto-vala-cobertura.svg#cobertura"
+    },
+    {
+     "parametro": "Altura das gramíneas na faixa (recomendação)",
+     "valor": "que não passem de 80 cm quando maduras",
+     "item": "recomposição, Nota 2",
+     "cota": "esquemas/duto-faixa-interferencias.svg#largura-mapeamento"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-faixa-interferencias.svg",
+    "esquemas/duto-vala-cobertura.svg"
+   ]
+  }
+ ]
+}

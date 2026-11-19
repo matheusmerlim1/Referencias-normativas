@@ -1,0 +1,206 @@
+{
+ "id": "PETROBRAS-N-1862",
+ "titulo": "Petrobras N-1862 Rev. E (12/2018) — Projeto e fabricação de acessórios internos de vasos, torres e reatores",
+ "secoes": [
+  {
+   "titulo": "Escopo e cargas de projeto",
+   "item": "1, 4, 5.1 a 5.3",
+   "texto": "Projeto e fabricação de internos (bandejas, downcomers, vertedores, vigas, panelas, potes, grades) de vasos, torres e reatores, complementando N-253, N-268 e N-269. Suportes soldados ao casco são do material do casco, salvo indicação. Bandejas, potes e panelas dimensionados para peso próprio mais a maior entre sobrecarga e fluido de operação acima do nível máximo.",
+   "valores": [
+    {
+     "parametro": "Carga de projeto da bandeja",
+     "valor": "peso próprio + maior entre 294 N/m² (30 kgf/m²) e o fluido até 50 mm acima do nível máximo",
+     "item": "5.2",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#vertedor"
+    },
+    {
+     "parametro": "Potes de retirada e panelas de selagem",
+     "valor": "fluido até 50 mm acima da face superior do pote/panela",
+     "item": "5.3",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#vertedor"
+    },
+    {
+     "parametro": "Flecha máxima de panela em operação",
+     "valor": "3,0 mm (fluido até 50 mm acima do nível máximo)",
+     "item": "5.3.1",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#flecha"
+    },
+    {
+     "parametro": "Carga concentrada em viga",
+     "valor": "2 640 N (270 kgf) se o vão > 3 000 mm ou a viga apoiar outras",
+     "item": "5.4",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#viga-folga"
+    }
+   ],
+   "figuras": [
+    "esquemas/torre-bandejas-tolerancias.svg",
+    "esquemas/vaso-acessorios-internos.svg"
+   ]
+  },
+  {
+   "titulo": "Espessuras mínimas e dimensões de suportes",
+   "item": "Tabelas 3 a 6, 5.5",
+   "texto": "Espessuras mínimas por componente e material; alturas de vigas limitadas pelo diâmetro da torre e pelo espaçamento das bandejas; vigas e treliças com folga para manutenção.",
+   "valores": [
+    {
+     "parametro": "Bandejas, chicanas, downcomers, grampos, borbulhadores, chaminés",
+     "valor": "3,42 mm (aço-carbono); 1,90 mm (liga, inox, não ferrosos)",
+     "item": "Tabela 3",
+     "cota": "esquemas/vaso-acessorios-internos.svg#espessura-desgaste"
+    },
+    {
+     "parametro": "Panelas, potes de selagem, caixas de drenagem e grades",
+     "valor": "4,76 mm (AC); 3,42 mm (liga/inox)",
+     "item": "Tabela 3",
+     "cota": "esquemas/vaso-acessorios-internos.svg#espessura-desgaste"
+    },
+    {
+     "parametro": "Vigas de suporte",
+     "valor": "4,76 mm (AC); 1,90 mm (liga/inox)",
+     "item": "Tabela 3",
+     "cota": "esquemas/vaso-acessorios-internos.svg#espessura-desgaste"
+    },
+    {
+     "parametro": "Anéis de suporte e suportes de vigas",
+     "valor": "6,0 mm",
+     "item": "Tabela 3",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#anel-desnivel"
+    },
+    {
+     "parametro": "Parafusos / válvulas",
+     "valor": "Ø 3/8\" mínimo; válvulas 1,52 mm (só liga/inox)",
+     "item": "Tabela 3",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#furo-dreno"
+    },
+    {
+     "parametro": "Altura de vigas × Ø da torre (h/DI máx.)",
+     "valor": "principais e secundárias na direção do fluxo: 1/20; secundárias perpendiculares: 1/35",
+     "item": "Tabela 4",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#diametro-torre"
+    },
+    {
+     "parametro": "Altura de vigas × espaçamento das bandejas (h/e máx.)",
+     "valor": "perpendiculares ao fluxo: 1/5; na direção do fluxo: 1/2",
+     "item": "Tabela 5",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#espacamento"
+    },
+    {
+     "parametro": "Folga sob vigas e treliças principais",
+     "valor": "mín. 400 mm até o topo dos borbulhadores ou a bandeja inferior",
+     "item": "5.5.1.4",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#viga-folga"
+    },
+    {
+     "parametro": "Largura do anel de suporte",
+     "valor": "Ø ≤ 900: 40 mm; 901–1 800: 50; 1 801–3 950: 65; 3 951–5 400: 75; > 5 400: 90 mín.",
+     "item": "Tabela 6",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#anel-desnivel"
+    },
+    {
+     "parametro": "Barras de suporte de vertedores",
+     "valor": "largura ≤ 50 mm; altura = altura do vertedor + 50 mm",
+     "item": "5.5.2.2",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#vertedor"
+    }
+   ],
+   "figuras": [
+    "esquemas/torre-bandejas-tolerancias.svg",
+    "esquemas/vaso-acessorios-internos.svg"
+   ]
+  },
+  {
+   "titulo": "Ligações, drenagem e materiais",
+   "item": "5.6, 5.7, Tabela 7",
+   "texto": "Bandejas fixadas por uniões aparafusadas com porcas (sem furos roscados nos grampos), com mínimo de tipos de parafuso. Bandejas com furos de drenagem; estanqueidade testada enchendo de água com furos tampados. Panelas com chaminé, potes e seções sob downcomers projetados para máxima estanqueidade. Materiais por tipo (AC A-36, 12 % Cr 405/410, inox 304/304L/321/347/316/316L/317L, Monel, níquel) com parafusos A-193 e porcas A-194 correspondentes.",
+   "valores": [
+    {
+     "parametro": "Furos de drenagem",
+     "valor": "Ø 6 mm a 19 mm",
+     "item": "5.7",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#furo-dreno"
+    },
+    {
+     "parametro": "Espaçamento entre uniões",
+     "valor": "no máximo 200 mm",
+     "item": "5.6",
+     "cota": "esquemas/vaso-acessorios-internos.svg#parafusos-desgaste"
+    },
+    {
+     "parametro": "Teste de estanqueidade — queda de 25 mm de água",
+     "valor": "≥ 10 min (destilação atmosférica/vácuo, fracionadora de FCC e coque); ≥ 5 min (outras)",
+     "item": "5.7.4",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#vertedor"
+    }
+   ],
+   "figuras": [
+    "esquemas/torre-bandejas-tolerancias.svg",
+    "esquemas/vaso-acessorios-internos.svg"
+   ]
+  },
+  {
+   "titulo": "Montagem e tolerâncias",
+   "item": "7",
+   "texto": "Internos passam pelas bocas de visita (Ø interno menos 10 mm), exceto treliças grandes montadas por partes. Alçapões alinhados com tampas leves; vertedores ajustáveis.",
+   "valores": [
+    {
+     "parametro": "Alçapões de bandejas",
+     "valor": "mín. 450 mm × 450 mm, tampa ≤ 245 N (25 kgf)",
+     "item": "7.2",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#alcapao"
+    },
+    {
+     "parametro": "Alçapões de reatores de hidrorrefino",
+     "valor": "mín. 700 mm × 700 mm, alinhados ao centro",
+     "item": "7.3",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#alcapao"
+    },
+    {
+     "parametro": "Ajuste dos vertedores",
+     "valor": "± 12,5 mm da altura especificada; desnível ≤ 3 mm",
+     "item": "7.4",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#vertedor"
+    },
+    {
+     "parametro": "Diâmetro de bandeja, chicana ou panela",
+     "valor": "torre até 1 800 mm: +0/−3 mm; acima: +0/−6 mm",
+     "item": "Tabela 8",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#diametro-torre"
+    },
+    {
+     "parametro": "Desnivelamento do anel de suporte (A)",
+     "valor": "3 mm (torre até 4 500 mm); 5 mm (maior)",
+     "item": "7.x a)",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#anel-desnivel"
+    },
+    {
+     "parametro": "Espaçamento entre bandejas (B)",
+     "valor": "± 3 mm",
+     "item": "7.x b)",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#espacamento"
+    },
+    {
+     "parametro": "Folga sob o downcomer (C) e folga downcomer-vertedor (F)",
+     "valor": "± 3 mm",
+     "item": "7.x c), f)",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#folga-downcomer"
+    },
+    {
+     "parametro": "Altura do vertedor (D)",
+     "valor": "± 3 mm",
+     "item": "7.x d)",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#vertedor"
+    },
+    {
+     "parametro": "Distância do downcomer ao centro (E)",
+     "valor": "± 3 mm",
+     "item": "7.x e)",
+     "cota": "esquemas/torre-bandejas-tolerancias.svg#downcomer-centro"
+    }
+   ],
+   "figuras": [
+    "esquemas/torre-bandejas-tolerancias.svg",
+    "esquemas/vaso-acessorios-internos.svg"
+   ]
+  }
+ ]
+}

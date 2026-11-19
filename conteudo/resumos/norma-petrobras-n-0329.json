@@ -1,0 +1,82 @@
+{
+ "id": "PETROBRAS-N-0329",
+ "titulo": "Petrobras N-0329 Rev. F (07/2023) — Acumuladores para uso industrial",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Aquisição de acumuladores estacionários (chumbo-ácido ventilados ou VRLA e alcalinos) para instalações da Petrobras, em projetos novos e em manutenção ou reforma; não se aplica a baterias de arranque e de tração. Características na folha de dados do Anexo A, onde se informa a temperatura média anual da sala, base da capacidade (Ah) e da corrente de descarga.",
+   "valores": [],
+   "figuras": [
+    "esquemas/bateria-estante-ups-cc.svg"
+   ]
+  },
+  {
+   "titulo": "Instalação e construção",
+   "item": "5",
+   "texto": "Placas de identificação principal (NBR 14197/14201/14204 ou IEC 60623) e suplementar presas na estante com parafusos de inox AISI 300. Saída de cabos e montagem conforme a folha de dados. Baterias ventiladas com válvulas sobressalentes.",
+   "valores": [
+    {
+     "parametro": "Temperatura da sala para VRLA",
+     "valor": "climatizada entre 20 °C e 25 °C",
+     "item": "5.1.8"
+    },
+    {
+     "parametro": "Espaçamento entre acumuladores adjacentes",
+     "valor": "mínimo 10 mm, para ventilação",
+     "item": "5.1.9",
+     "cota": "esquemas/bateria-estante-ups-cc.svg#espacamento-adjacente"
+    },
+    {
+     "parametro": "Espaçamento vertical entre níveis (ventilados, estante vertical)",
+     "valor": "mínimo 400 mm, para manutenção (reposição de água, medições)",
+     "item": "5.1.10",
+     "cota": "esquemas/bateria-estante-ups-cc.svg#espacamento-vertical"
+    },
+    {
+     "parametro": "Válvulas sobressalentes (ventiladas)",
+     "valor": "para 2 anos, + 10 % de válvulas anti-explosão",
+     "item": "5.x, Nota"
+    }
+   ],
+   "figuras": [
+    "esquemas/bateria-estante-ups-cc.svg"
+   ]
+  },
+  {
+   "titulo": "Desempenho, ensaios e garantia",
+   "item": "6 a 11",
+   "texto": "Curvas de capacidade e de vida útil em função da temperatura (10 °C a 45 °C para chumbo-ácido; −20 °C a 55 °C para alcalinos). Inspeção em fábrica na aquisição; entrega de chumbo-ácido não condicionada a certos ensaios. Garantia pelo prazo da folha de dados.",
+   "valores": [
+    {
+     "parametro": "Vida útil projetada — chumbo-ácido",
+     "valor": "> 12 anos a 25 °C (NBR 14197/14204)",
+     "item": "6.x d)"
+    },
+    {
+     "parametro": "Vida útil projetada — alcalinos",
+     "valor": "> 20 anos a 25 °C",
+     "item": "6.x c)"
+    },
+    {
+     "parametro": "Ripple suportado",
+     "valor": "até 2 A (RMS) por 100 Ah de C10 e 1 % da tensão de flutuação",
+     "item": "6.x e)"
+    },
+    {
+     "parametro": "Capacidade após 90 dias em circuito aberto a 25 °C",
+     "valor": "≥ 82 % de Cr10",
+     "item": "6.x g)"
+    },
+    {
+     "parametro": "Tensão de circuito aberto por elemento no recebimento",
+     "valor": "VRLA 2,12 V a 2,18 V; ventilado 2,05 V a 2,10 V",
+     "item": "7.x"
+    }
+   ],
+   "figuras": [
+    "esquemas/bateria-estante-ups-cc.svg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "PETROBRAS-N-1897",
+ "titulo": "Petrobras N-1897 Rev. E (03/2024) — Querosene e nafta — determinação de traços de Cu, Fe, Na, Pb e Zn por FAAS, GFAAS e ICP-AES",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 5",
+   "texto": "Métodos para traços (µg/kg) de cobre, ferro, sódio, chumbo e zinco em querosene e nafta: procedimento A por absorção atômica de chama (FAAS) ou ICP-AES após extração ácida com bromo; procedimento B por forno de grafite (GFAAS). Segurança de laboratório pela N-2549.",
+   "valores": [],
+   "figuras": [
+    "esquemas/laboratorio-amostra-coluna-titulacao.svg"
+   ]
+  },
+  {
+   "titulo": "Preparo e extração",
+   "item": "Procedimentos A e B, Figuras 1 a 3",
+   "texto": "Conjunto extrator com balão, condensador de refluxo e reservatório de bromo (juntas 24/40); refluxo da amostra com o reagente e separação da fase aquosa para leitura. Quando prevista, a percolação em coluna de bauxita ativada remove interferentes, sem deixar o leito secar. Temperatura de secagem do forno de grafite em torno de 95 % do ponto de ebulição do solvente.",
+   "valores": [
+    {
+     "parametro": "Tempo de refluxo",
+     "valor": "1 h",
+     "item": "procedimento A, 5"
+    },
+    {
+     "parametro": "Ativação da bauxita",
+     "valor": "2 h a 350 °C em mufla, depois 2 h no dessecador",
+     "item": "preparo, 2"
+    },
+    {
+     "parametro": "Coluna de percolação (recomendada)",
+     "valor": "diâmetro 55 mm a 65 mm, comprimento mínimo 1 m",
+     "item": "preparo, Nota",
+     "cota": "esquemas/laboratorio-amostra-coluna-titulacao.svg#coluna-diametro"
+    },
+    {
+     "parametro": "Comprimento mínimo da coluna",
+     "valor": "1 m",
+     "item": "preparo, Nota",
+     "cota": "esquemas/laboratorio-amostra-coluna-titulacao.svg#coluna-comprimento"
+    },
+    {
+     "parametro": "Nível de querosene sobre a bauxita",
+     "valor": "no mínimo 10 cm acima do leito durante a percolação",
+     "item": "preparo, Nota",
+     "cota": "esquemas/laboratorio-amostra-coluna-titulacao.svg#nivel-acima"
+    }
+   ],
+   "figuras": [
+    "esquemas/laboratorio-amostra-coluna-titulacao.svg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "id": "PETROBRAS-N-0845",
+ "titulo": "Petrobras N-0845 Rev. F (05/2015) — Investigação geotécnica terrestre",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 4",
+   "texto": "Condições para investigações geotécnicas terrestres que alimentam projetos e obras. Equipamentos calibrados, equipe capacitada e procedimento escrito (objetivo, normas, equipamentos, metodologia de execução e locação, boletim, resultados, SMS). Furos locados no sistema de coordenadas informado pela Petrobras e cota de boca referida à RN indicada por ela.",
+   "valores": [],
+   "figuras": [
+    "esquemas/geotecnia-sondagens-investigacao.svg"
+   ]
+  },
+  {
+   "titulo": "Sondagens",
+   "item": "5",
+   "texto": "Trado pela NBR 9603, identificando granulometria, plasticidade, cor e origem e o motivo do impenetrável. Percussão (SPT) pela NBR 6484: proibido avanço por lavagem acima do nível d'água (salvo solos muito resistentes); relatório com critério de parada, métodos de perfuração (TC, TH, CA), nível d'água em cada parada, classificação de cada camada e foto da boca. Rotativa pelo manual da ABGE, com barrilete duplo giratório de alta recuperação; registrar RQD, recuperação, sanidade, fraturas e xistosidade (testemunho orientado quando pedido); ao achar solo, passar a percussão (sondagem mista); fotografar as caixas de testemunho.",
+   "valores": [
+    {
+     "parametro": "SPT mecanizado — validação",
+     "valor": "ensaio de energia (Anexo 1 da NBR 6484) ou no mínimo 3 pares de sondagens mecanizada e convencional espaçadas de 1,0 m",
+     "item": "5.2.1",
+     "cota": "esquemas/geotecnia-sondagens-investigacao.svg#pares-espacamento"
+    },
+    {
+     "parametro": "Argila mole (NSPT ≤ 3) — amostragem",
+     "valor": "no mínimo a cada 1,0 m, com umidade natural determinada em menos de 48 h",
+     "item": "5.2.3",
+     "cota": "esquemas/geotecnia-sondagens-investigacao.svg#amostra-intervalo"
+    }
+   ],
+   "figuras": [
+    "esquemas/geotecnia-sondagens-investigacao.svg"
+   ]
+  },
+  {
+   "titulo": "Ensaios in situ, amostras e laboratório",
+   "item": "6 a 8",
+   "texto": "Piezocone (CPTU, ASTM D5778) referenciado a uma sondagem SPT; em trecho não saturado, primeira etapa em furo estável e segunda com pedra porosa saturada protegida por membrana até o nível d'água; ensaios de dissipação. Palheta (D2573), dilatômetro (D6635), pressiômetro (D4719), placa (NBR 6489), crosshole (D4428). Amostras de poços e trincheiras pela NBR 9604, indeformadas com Denison (solos resistentes) ou pistão estacionário (NBR 9820, solos moles). Caracterização (granulometria, umidade, LL, LP, densidade real, compactação, ISC, índices de vazios, curva de retenção), cisalhamento, adensamento e expansão com critérios de estabilização; originais guardados com as amostras.",
+   "valores": [
+    {
+     "parametro": "Primeiro estágio do adensamento (setting load)",
+     "valor": "3,125 kPa, no mínimo 24 h",
+     "item": "8"
+    },
+    {
+     "parametro": "Estabilização da expansão livre",
+     "valor": "deformação ≤ 0,05 % da altura da amostra em 24 h; 5 amostras de −15 % a +15 % da umidade ótima",
+     "item": "8",
+     "cota": "esquemas/geotecnia-sondagens-investigacao.svg#amostra-intervalo"
+    },
+    {
+     "parametro": "Guarda dos originais com as amostras",
+     "valor": "90 dias após a entrega do relatório",
+     "item": "7/8"
+    }
+   ],
+   "figuras": [
+    "esquemas/geotecnia-sondagens-investigacao.svg"
+   ]
+  }
+ ]
+}

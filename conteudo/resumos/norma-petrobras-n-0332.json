@@ -1,0 +1,76 @@
+{
+ "id": "PETROBRAS-N-0332",
+ "titulo": "Petrobras N-0332 Rev. E (12/2012) — Sistema ininterrupto de energia corrente contínua para uso industrial (UPS-CC)",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições de serviço",
+   "item": "1, 4, 5",
+   "texto": "Aquisição de UPS-CC (retificador/carregador que alimenta consumidores CC e mantém a bateria) para instalações industriais; não cobre telecomunicações nem proteção catódica, e a bateria segue a N-329 (folha de dados do banco acompanha a do UPS-CC, Anexo B).",
+   "valores": [
+    {
+     "parametro": "Temperatura ambiente",
+     "valor": "−10 °C a 40 °C com 100 % de carga até 1 000 m",
+     "item": "5.2"
+    },
+    {
+     "parametro": "Umidade relativa",
+     "valor": "30 % a 95 % sem condensação, a 25 °C",
+     "item": "5.3"
+    },
+    {
+     "parametro": "Altitude máxima",
+     "valor": "1 000 m, salvo indicação",
+     "item": "5.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/bateria-estante-ups-cc.svg"
+   ]
+  },
+  {
+   "titulo": "Construção e desempenho",
+   "item": "6, 7",
+   "texto": "Pintura pela N-2841, ventilação forçada com ventiladores substituíveis, placa de identificação externa. Recarga manual (iniciada pelo operador e encerrada automaticamente após tempo definido) e automática (encerrada pela queda da corrente da bateria, voltando à flutuação). Display, proteções na entrada e nas saídas para consumidor e bateria; aquecimento controlado por termostato ajustável.",
+   "valores": [
+    {
+     "parametro": "Regulação estática da tensão de saída",
+     "valor": "± 1 %",
+     "item": "7.3"
+    },
+    {
+     "parametro": "Regulação dinâmica",
+     "valor": "< 10 %, recuperação em < 100 ms",
+     "item": "7.4"
+    },
+    {
+     "parametro": "Eficiência",
+     "valor": "> 90 % a 100 % de carga",
+     "item": "7.8"
+    },
+    {
+     "parametro": "Ajuste máximo do termostato",
+     "valor": "60 °C",
+     "item": "7.x"
+    }
+   ],
+   "figuras": [
+    "esquemas/bateria-estante-ups-cc.svg"
+   ]
+  },
+  {
+   "titulo": "Ensaios e documentação",
+   "item": "8, 9",
+   "texto": "Ensaios de tipo e de rotina (elevação de temperatura, isolação, ambientais, choque e vibração, ruído, compatibilidade eletromagnética pela IEC 62040-2 com receptores CISPR 16), com instrumentação especificada. Fabricante comprova fornecimentos similares em operação.",
+   "valores": [
+    {
+     "parametro": "Experiência exigida do fabricante",
+     "valor": "equipamentos similares com no mínimo 3 anos de operação",
+     "item": "9.x m)"
+    }
+   ],
+   "figuras": [
+    "esquemas/bateria-estante-ups-cc.svg"
+   ]
+  }
+ ]
+}

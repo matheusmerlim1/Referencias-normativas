@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" width="1000" height="660" role="img" aria-label="Investigação geotécnica — sondagens em terra (SPT, rotativa) e no mar (box corer, jack-up, geofísica)">
+<!--P7A-->
+<title>Investigação geotécnica — sondagens em terra (SPT, rotativa) e no mar (box corer, jack-up, geofísica) (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Investigação geotécnica — sondagens em terra (SPT, rotativa) e no mar (box corer, jack-up, geofísica)</text>
+<text x="240" y="48" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) terra — sondagens</text>
+<line x1="30" y1="120" x2="450" y2="120" stroke="#666" stroke-width="1.5"/>
+<text x="35" y="114" text-anchor="start" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">cota de boca (referida à RN)</text>
+<line x1="30" y1="230" x2="450" y2="230" stroke="#666" stroke-width="1" stroke-dasharray="6 3"/>
+<text x="440" y="224" text-anchor="end" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">nível d'água</text>
+<line x1="90" y1="120" x2="90" y2="420" stroke="#666" stroke-width="4"/>
+<rect x="85" y="150" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="85" y="190" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="85" y="230" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="85" y="270" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="85" y="310" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="85" y="350" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="85" y="390" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<line x1="130" y1="120" x2="130" y2="420" stroke="#666" stroke-width="4"/>
+<rect x="125" y="150" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="125" y="190" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="125" y="230" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="125" y="270" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="125" y="310" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="125" y="350" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="125" y="390" width="10" height="14" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<g id="cota-pares-espacamento" class="cota"><line x1="90" y1="100" x2="130" y2="100" stroke="#666" stroke-width="1.2"/><polygon points="90.0,100.0 99.0,103.5 99.0,96.5" fill="#666"/><polygon points="130.0,100.0 121.0,96.5 121.0,103.5" fill="#666"/><text x="135" y="96" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">pares mecanizada × convencional</text></g>
+<g id="cota-amostra-intervalo" class="cota"><line x1="60" y1="150" x2="60" y2="190" stroke="#666" stroke-width="1.2"/><polygon points="60.0,150.0 56.5,159.0 63.5,159.0" fill="#666"/><polygon points="60.0,190.0 63.5,181.0 56.5,181.0" fill="#666"/><text x="140" y="180" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">intervalo de amostragem</text></g>
+<text x="110" y="440" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">SPT (amostrador)</text>
+<rect x="300" y="120" width="30" height="280" rx="0" fill="#666" fill-opacity="0.1" stroke="#666" stroke-width="1.5"/>
+<rect x="305" y="250" width="20" height="150" rx="0" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<g id="cota-manobra" class="cota"><line x1="350" y1="250" x2="350" y2="320" stroke="#666" stroke-width="1.2"/><polygon points="350.0,250.0 346.5,259.0 353.5,259.0" fill="#666"/><polygon points="350.0,320.0 353.5,311.0 346.5,311.0" fill="#666"/><text x="356" y="290" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">manobra / recuperação</text></g>
+<path d="M30,250 Q240,270 450,245" fill="#666" fill-opacity="0.0" stroke="#666" stroke-width="1.5" stroke-dasharray="3 2"/>
+<text x="240" y="262" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">topo rochoso</text>
+<text x="315" y="440" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">rotativa (testemunho, RQD)</text>
+<text x="740" y="48" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) mar — investigações</text>
+<line x1="520" y1="130" x2="980" y2="130" stroke="#666" stroke-width="1.5"/>
+<text x="525" y="124" text-anchor="start" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">nível do mar</text>
+<path d="M520,330 Q750,310 980,335" fill="#666" fill-opacity="0.0" stroke="#666" stroke-width="2"/>
+<text x="980" y="350" text-anchor="end" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">fundo marinho</text>
+<rect x="560" y="100" width="80" height="30" rx="0" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<text x="600" y="95" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">balsa</text>
+<g id="cota-lamina-balsa" class="cota"><line x1="545" y1="130" x2="545" y2="326" stroke="#666" stroke-width="1.2"/><polygon points="545.0,130.0 541.5,139.0 548.5,139.0" fill="#666"/><polygon points="545.0,326.0 548.5,317.0 541.5,317.0" fill="#666"/><text x="551" y="230" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">lâmina d'água (balsa)</text></g>
+<rect x="680" y="300" width="40" height="40" rx="0" fill="#666" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<text x="700" y="355" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">box corer</text>
+<g id="cota-box-corer" class="cota"><line x1="680" y1="290" x2="720" y2="290" stroke="#666" stroke-width="1.2"/><polygon points="680.0,290.0 689.0,293.5 689.0,286.5" fill="#666"/><polygon points="720.0,290.0 711.0,286.5 711.0,293.5" fill="#666"/><text x="700.0" y="284.0" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">caixa</text></g>
+<rect x="800" y="90" width="100" height="25" rx="0" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<line x1="815" y1="115" x2="815" y2="380" stroke="#666" stroke-width="4"/>
+<line x1="885" y1="115" x2="885" y2="380" stroke="#666" stroke-width="4"/>
+<circle cx="815" cy="385" r="10" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<g id="cota-penetracao-jackup" class="cota"><line x1="930" y1="320" x2="930" y2="470" stroke="#666" stroke-width="1.2"/><polygon points="930.0,320.0 926.5,329.0 933.5,329.0" fill="#666"/><polygon points="930.0,470.0 933.5,461.0 926.5,461.0" fill="#666"/><text x="925" y="490" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">penetração + nº de diâmetros da sapata</text></g>
+<line x1="815" y1="470" x2="935" y2="470" stroke="#666" stroke-width="0.8" stroke-dasharray="3 2"/>
+<g id="cota-subfundo-raso" class="cota"><line x1="620" y1="330" x2="620" y2="520" stroke="#666" stroke-width="1.2"/><polygon points="620.0,330.0 616.5,339.0 623.5,339.0" fill="#666"/><polygon points="620.0,520.0 623.5,511.0 616.5,511.0" fill="#666"/><text x="626" y="440" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">subfundo raso (sísmica)</text></g>
+<line x1="520" y1="560" x2="980" y2="560" stroke="#666" stroke-width="1.5" stroke-dasharray="10 4"/>
+<line x1="700" y1="575" x2="980" y2="575" stroke="#666" stroke-width="1.5" stroke-dasharray="10 4"/>
+<g id="cota-recobrimento-linha" class="cota"><line x1="700" y1="600" x2="760" y2="600" stroke="#666" stroke-width="1.2"/><polygon points="700.0,600.0 709.0,603.5 709.0,596.5" fill="#666"/><polygon points="760.0,600.0 751.0,596.5 751.0,603.5" fill="#666"/><text x="770" y="610" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">recobrimento ao refazer linha</text></g>
+<text x="12" y="652" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

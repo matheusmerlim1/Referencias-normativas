@@ -1,0 +1,46 @@
+{
+ "id": "PETROBRAS-N-0317",
+ "titulo": "Petrobras N-0317 Rev. E (03/2021) — Painéis de média tensão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Aquisição de painéis de média tensão isolados a ar (1 kV a 52 kV) para distribuição e controle de motores e cargas; o Apêndice A trata do painel compacto com seccionamento isolado a gás e o Apêndice B do painel isolado a gás até 34,5 kV. Não cobre painéis de conversores de frequência. Folha de dados no Anexo A.",
+   "valores": [],
+   "figuras": [
+    "esquemas/painel-compartimentos-duto-barramento.svg"
+   ]
+  },
+  {
+   "titulo": "Construção e segurança",
+   "item": "5",
+   "texto": "Painel autoportante de chapa de aço, ampliável, em seções verticais com compartimentos segregados: barramento, manobra, transformadores de instrumento e terminais de cabos, e baixa tensão (proteção, medição, controle); em unidades de partida de motor, contator e cabos podem dividir compartimento. Disjuntores e contatores extraíveis, com inserção/extração manual de reserva quando motorizada. Intertravamentos: aterramento dos cabos só com o contator extraído, bloqueio por cadeado, porta não abre com o contator inserido; chave de aterramento intertravada nos alimentadores de motores, capacitores e painéis. Portas travadas quando abertas; em unidades flutuantes, corrimãos isolantes. Classificação de arco interno mínima IAC AFLR (NBR IEC 62271-200); monitoramento de temperatura dos terminais (sem sensores a bateria); energia incidente pela N-2830 e sensores de arco quando pedidos.",
+   "valores": [
+    {
+     "parametro": "Classificação de arco interno mínima",
+     "valor": "IAC AFLR (frente, laterais e traseira; acesso restrito)",
+     "item": "5.27"
+    },
+    {
+     "parametro": "Retângulo reservado nos documentos",
+     "valor": "15 cm × 4 cm, à direita e acima do carimbo do fabricante",
+     "item": "Anexo, Nota 1",
+     "cota": "esquemas/documento-carimbo-retangulo-reservado.svg#retangulo-largura"
+    }
+   ],
+   "figuras": [
+    "esquemas/painel-compartimentos-duto-barramento.svg",
+    "esquemas/documento-carimbo-retangulo-reservado.svg"
+   ]
+  },
+  {
+   "titulo": "Ensaios e transporte",
+   "item": "7, 8",
+   "texto": "Inspeção e ensaios pelas normas da seção 2 e pela folha de dados. Embalagem adequada ao transporte, com cada volume identificado (posição de armazenamento, órgão e endereço, unidade, empreendimento, RM, número do painel, fornecedor, massa, pedido ou contrato); compartimentos de baixa tensão com eletrônicos protegidos contra umidade no transporte.",
+   "valores": [],
+   "figuras": [
+    "esquemas/painel-compartimentos-duto-barramento.svg"
+   ]
+  }
+ ]
+}

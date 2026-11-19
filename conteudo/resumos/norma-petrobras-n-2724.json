@@ -1,0 +1,165 @@
+{
+ "id": "PETROBRAS-N-2724",
+ "titulo": "Petrobras N-2724 Rev. B (02/2022) — Projeto de arruamento e pavimentação",
+ "secoes": [
+  {
+   "titulo": "Escopo e ruas",
+   "item": "1, 5.1, 5.2",
+   "texto": "Premissas para projetar arruamento e pavimentação de acessos rodoviários, avenidas e ruas, estacionamentos, áreas de carga e descarga, áreas administrativas, pátios de estocagem, áreas de esferas, tubovias e faixas de dutos, heliportos, unidades de processo e áreas de scraper (1ª emenda 04/2014 e 1ª errata 02/2022). Acesso à via pública conforme o órgão responsável (DNIT, DER). Ruas de acesso pavimentadas para o tráfego de operação e manutenção; projeto geométrico pelo plano diretor (coordenadas de eixo, cotas, centros e raios, transições, rampas) e dimensões pela seção 6 da N-1674. Interseções em nível recomendadas; defensas ao longo de tubovias e desníveis sem atrapalhar combate a incêndio e manutenção; drenagem pela N-38 e DNIT; toda quadra de unidade de processo com rua em todos os lados; acessos a hidrantes, canhões e tomadas de espuma sem bloquear o tráfego.",
+   "valores": [
+    {
+     "parametro": "Raio interno mínimo de curva — avenidas e ruas principais",
+     "valor": "10,0 m",
+     "item": "5.2.4",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#raio-interno"
+    },
+    {
+     "parametro": "Caimento lateral para a sarjeta",
+     "valor": "2 %",
+     "item": "5.2.5",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#caimento"
+    },
+    {
+     "parametro": "Raio mínimo de curva para admitir rampa",
+     "valor": "50,0 m",
+     "item": "5.2.7",
+     "nota": "Prática recomendada.",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#rampa-curva"
+    },
+    {
+     "parametro": "Desnível mínimo do meio-fio",
+     "valor": "0,15 m",
+     "item": "5.2.9",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#meio-fio"
+    },
+    {
+     "parametro": "Raio interno mínimo — ruas de acesso a carga/descarga de caminhões",
+     "valor": "13,0 m",
+     "item": "5.2.11",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#raio-interno"
+    },
+    {
+     "parametro": "Distância mínima de ruas principais à margem de tubovias, bases de diques e desníveis",
+     "valor": "2,50 m (senão, defensas)",
+     "item": "5.2.14",
+     "nota": "Prática recomendada.",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#afastamento-tubovia"
+    }
+   ],
+   "figuras": [
+    "esquemas/arruamento-pavimentacao-industrial.svg"
+   ]
+  },
+  {
+   "titulo": "Estacionamentos, carga e descarga, outras áreas",
+   "item": "5.3–5.10",
+   "texto": "Estacionamento transversal ou oblíquo, com entrada, saída e retorno sem atrapalhar o fluxo; caminhões sem manobras de ré na entrada ou saída. Baias de carga em pavimento rígido, em paralelo, com drenagem; ilhas de válvulas e braços elevadas e em pavimento rígido (no coque admite-se asfalto ou intertravado). Pátios de estocagem com pavimento conforme o material (Tabela 1: tubos e equipamentos — base compactada; resíduos perigosos — concreto ou base que impeça lixiviação; classes II e III — base impermeável), com caimento para drenagem. Esferas pela N-1645; vazamentos em tubovias contidos pela N-38; helipontos pelas portarias COMAER com acesso para caminhão de incêndio; unidades de processo com pisos e ruas em concreto com declividade e áreas livres limpas com brita; área de scraper em concreto com drenagem.",
+   "valores": [
+    {
+     "parametro": "Estacionamento de carros transversal — corredor central",
+     "valor": "6,0 m",
+     "item": "5.3.1 a)",
+     "nota": "Prática recomendada.",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#corredor"
+    },
+    {
+     "parametro": "Estacionamento de carros oblíquo — corredor central",
+     "valor": "4,5 m",
+     "item": "5.3.1 a)",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#corredor"
+    },
+    {
+     "parametro": "Vaga de carro — largura",
+     "valor": "2,50 m",
+     "item": "5.3.1 a)",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#vaga-largura"
+    },
+    {
+     "parametro": "Vaga de carro — comprimento",
+     "valor": "5,0 m",
+     "item": "5.3.1 a)",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#vaga-comprimento"
+    },
+    {
+     "parametro": "Vaga mínima de caminhão — largura (comprimento para tirar o veículo do fluxo)",
+     "valor": "4,0 m",
+     "item": "5.3.2 b)",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#vaga-largura"
+    },
+    {
+     "parametro": "Baia de carga/descarga — largura mínima",
+     "valor": "3,5 m",
+     "item": "5.3.3.1",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#baia-largura"
+    },
+    {
+     "parametro": "Ilha de carregamento — largura mínima",
+     "valor": "2,5 m",
+     "item": "5.3.3.2",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#ilha-largura"
+    },
+    {
+     "parametro": "Ilha de carregamento — altura acima da baia",
+     "valor": "0,20 m",
+     "item": "5.3.3.2",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#ilha-altura"
+    },
+    {
+     "parametro": "Largura dos passeios nas áreas administrativas",
+     "valor": "> 1,0 m",
+     "item": "5.4",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#passeio"
+    },
+    {
+     "parametro": "Camada de agregado graúdo no leito das tubovias",
+     "valor": "10,0 cm (ou concreto simples)",
+     "item": "5.7.1",
+     "cota": "esquemas/arruamento-pavimentacao-industrial.svg#leito-tubovia"
+    }
+   ],
+   "figuras": [
+    "esquemas/arruamento-pavimentacao-industrial.svg"
+   ]
+  },
+  {
+   "titulo": "Dimensionamento, sinalização e projeto",
+   "item": "6, 7, 8",
+   "texto": "Dimensionamento por metodologia consagrada; intertravados e flexíveis pela NBR 9781. Sinalização vertical e horizontal pela segurança interna e manual de identidade visual. Projeto com dados básicos, especificação de materiais, metodologia, memória de cálculo, plantas de arruamento e de pavimentação, especificação técnica (serviços, materiais, execução e controle), quantidades e notas de serviço.",
+   "valores": [
+    {
+     "parametro": "Carga-padrão por eixo (ruas)",
+     "valor": "82 kN",
+     "item": "6.1.1 a)"
+    },
+    {
+     "parametro": "Pressão de contato pneu-pavimento",
+     "valor": "0,56 MPa",
+     "item": "6.1.1 b)"
+    },
+    {
+     "parametro": "Número N mínimo de repetições do eixo-padrão",
+     "valor": "1 × 10⁶",
+     "item": "6.1.1 c)"
+    },
+    {
+     "parametro": "Eixo simples nas ilhas de carregamento (concreto)",
+     "valor": "150 kN",
+     "item": "6.1.2"
+    },
+    {
+     "parametro": "Tensão admissível mínima da base de pilha de tubos",
+     "valor": "1 kgf/cm²",
+     "item": "6.1.3"
+    },
+    {
+     "parametro": "Carga mínima por roda em áreas de processo",
+     "valor": "22 kN",
+     "item": "6.1.5 (errata 02/2022)"
+    }
+   ],
+   "figuras": [
+    "esquemas/arruamento-pavimentacao-industrial.svg"
+   ]
+  }
+ ]
+}

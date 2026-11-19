@@ -1,0 +1,73 @@
+{
+ "id": "PETROBRAS-N-0316",
+ "titulo": "Petrobras N-0316 Rev. E (11/2020) — Painéis de baixa tensão",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 4",
+   "texto": "Condições de aquisição de painéis de baixa tensão (até 1 000 V) para distribuição e controle de cargas motóricas e estáticas, conforme a série NBR IEC 61439 e a folha de dados do Anexo A (que prevalece sobre a norma; desvios declarados). Não vale para painéis em áreas classificadas, painéis de iluminação e tomadas até 10 kA nem painéis de skids.",
+   "valores": [],
+   "figuras": [
+    "esquemas/painel-compartimentos-duto-barramento.svg",
+    "esquemas/painel-baixa-tensao.svg"
+   ]
+  },
+  {
+   "titulo": "Construção",
+   "item": "5",
+   "texto": "Estrutura de chapa de aço autoportante, ampliável nas duas extremidades. Unidades funcionais extraíveis (tipo WWW), cada uma em parte extraível própria sobre trilhos, com posições inserida, teste, extraída e removida, mantendo o grau IP sem a unidade; bloqueio contra intercambiar disjuntores diferentes; proteção contra contato direto por barreiras e isolação. Forma de separação interna 4b, ambiente EMC A, ensaio de arco interno pela NBR IEC/TR 61641 quando aplicável (janelas de inspeção incluídas no certificado). Placa de identificação com dados nominais, IP, forma de separação e arco interno, e placa suplementar com RM e folha de dados.",
+   "valores": [
+    {
+     "parametro": "Forma de separação interna (padrão)",
+     "valor": "4b (NBR IEC 61439-2)",
+     "item": "5.1.11"
+    },
+    {
+     "parametro": "Grau de proteção — terra (abrigado em sala de painéis / sala de máquinas / ao tempo coberto / descoberto)",
+     "valor": "IP21 / IP31 / IP43 / IP54 SW",
+     "item": "Tabela 1",
+     "cota": "esquemas/ip-involucro-calibres.svg#dedo"
+    },
+    {
+     "parametro": "Grau de proteção — unidades marítimas",
+     "valor": "IP22 / IP32 / IP56 SW / IP56 SW",
+     "item": "Tabela 1",
+     "cota": "esquemas/ip-involucro-calibres.svg#dedo"
+    },
+    {
+     "parametro": "Entre compartimentos adjacentes",
+     "valor": "no mínimo IP21B",
+     "item": "5.x.2",
+     "cota": "esquemas/ip-involucro-calibres.svg#dedo"
+    }
+   ],
+   "figuras": [
+    "esquemas/painel-compartimentos-duto-barramento.svg",
+    "esquemas/ip-involucro-calibres.svg"
+   ]
+  },
+  {
+   "titulo": "Instrumentos e documentação",
+   "item": "6, Anexos",
+   "texto": "Amperímetros de motores e bancos de capacitores com escala de amortecimento; mostradores com brilho e contraste conforme a ASTM F1166. Na documentação do fabricante, retângulo livre ao lado do carimbo para uso da Petrobras.",
+   "valores": [
+    {
+     "parametro": "Altura máxima de instrumentos lidos ou acessados pelo operador",
+     "valor": "1,80 m do piso",
+     "item": "6.5.8",
+     "cota": "esquemas/painel-compartimentos-duto-barramento.svg#instrumentos-altura"
+    },
+    {
+     "parametro": "Retângulo reservado nos documentos",
+     "valor": "15 cm × 4 cm, à direita e acima do carimbo do fabricante",
+     "item": "Anexo, Nota 1",
+     "cota": "esquemas/documento-carimbo-retangulo-reservado.svg#retangulo-largura"
+    }
+   ],
+   "figuras": [
+    "esquemas/painel-compartimentos-duto-barramento.svg",
+    "esquemas/documento-carimbo-retangulo-reservado.svg"
+   ]
+  }
+ ]
+}

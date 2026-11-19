@@ -119,7 +119,8 @@
     {
      "parametro": "Derramamento — altura de lance com teste específico",
      "valor": "acima de 2,5 m",
-     "item": "6.1.3"
+     "item": "6.1.3",
+     "cota": "esquemas/refratario-aplicacao-solda-projecao.svg#lance-altura"
     },
     {
      "parametro": "Degrau máximo das formas nas emendas",
@@ -210,7 +211,8 @@
     {
      "parametro": "Socagem manual — folga refratário/hexágono",
      "valor": "largura ≤ 1 mm, profundidade ≤ 1 mm ou comprimento ≤ 10 mm; no máximo 1 folga por célula",
-     "item": "7.6.2"
+     "item": "7.6.2",
+     "cota": "esquemas/refratario-aplicacao-solda-projecao.svg#folga-celula"
     },
     {
      "parametro": "Martelamento do concreto",

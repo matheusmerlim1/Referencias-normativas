@@ -1,0 +1,57 @@
+{
+ "id": "PETROBRAS-N-1855",
+ "titulo": "Petrobras N-1855 Rev. E (08/2022) — Projeto de terraplenagem",
+ "secoes": [
+  {
+   "titulo": "Escopo e premissas",
+   "item": "1, 4",
+   "texto": "Condições para elaborar projetos de terraplenagem: documentos claros pela N-381 e N-1710, com códigos e normas citados e assinatura do responsável, atendendo legislação federal, estadual e municipal. Taludes de corte e aterro definidos a partir de sondagens e ensaios; material de aterro escolhido considerando o tipo de fundação. Estudo de inundação a partir da topografia e do arranjo, com influência de jusante e contribuições laterais. Prazo de implantação da revisão: 180 dias.",
+   "valores": [
+    {
+     "parametro": "Cota de inundação",
+     "valor": "para TR = 50 e 100 anos, com chuva conjugada à maré máxima dos mesmos TR",
+     "item": "4/5"
+    }
+   ],
+   "figuras": [
+    "esquemas/terraplenagem-aterro-camadas.svg"
+   ]
+  },
+  {
+   "titulo": "Drenagem provisória e final",
+   "item": "8 a 10",
+   "texto": "Canais externos dimensionados com as contribuições de áreas externas e internas não terraplenadas e lançados no corpo receptor mais próximo capaz de recebê-las. Drenagem provisória acompanha o avanço da obra; a final reduz retrabalho e se integra à drenagem pluvial.",
+   "valores": [
+    {
+     "parametro": "Canais externos à área industrial",
+     "valor": "TR = 20 anos",
+     "item": "8.3"
+    },
+    {
+     "parametro": "Drenagem pluvial limpa",
+     "valor": "TR = 20 anos",
+     "item": "10.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/terraplenagem-aterro-camadas.svg"
+   ]
+  },
+  {
+   "titulo": "Volumes e desenhos",
+   "item": "11",
+   "texto": "Movimentação de volumes com compensação entre cortes e aterros, depósitos de excedentes e empréstimos previstos. Planta geral (coordenadas do projeto, offsets, cotas), planta de greides, seções transversais e planta de bota-fora, empréstimos e caminhos de serviço.",
+   "valores": [
+    {
+     "parametro": "Espaçamento das seções transversais para cálculo de volume",
+     "valor": "no máximo 20,00 m",
+     "item": "11.4",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#secao-espacamento"
+    }
+   ],
+   "figuras": [
+    "esquemas/terraplenagem-aterro-camadas.svg"
+   ]
+  }
+ ]
+}

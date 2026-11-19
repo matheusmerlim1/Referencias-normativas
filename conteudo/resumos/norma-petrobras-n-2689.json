@@ -1,0 +1,70 @@
+{
+ "id": "PETROBRAS-N-2689",
+ "titulo": "Petrobras N-2689 Rev. B (10/2017) — Operação de oleoduto terrestre e submarino",
+ "secoes": [
+  {
+   "titulo": "Documentação",
+   "item": "5",
+   "texto": "Manual de operação, protocolo de responsabilidades, PMO (ou procedimento específico quando há uma só UO) e PRE disponíveis e atualizados; elaboração e revisão do PMO com todos os envolvidos; versão vigente acessível a todo o pessoal.",
+   "valores": [
+    {
+     "parametro": "Arquivamento de versões anteriores do manual de operação",
+     "valor": "mínimo 5 anos após revisão, substituição ou cancelamento",
+     "item": "5.1.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/gasoduto-pre-operacao-purga.svg"
+   ]
+  },
+  {
+   "titulo": "Pré-operação",
+   "item": "6",
+   "texto": "Conjunto de atividades da UO com o órgão de projeto/construção (IBE pela N-2632): avaliação técnica de documentos e instalações, enchimento com o fluido de operação, eliminação de pendências e treinamento; precedida do condicionamento (N-464, terrestre) ou pré-comissionamento (N-462, submarino); equipe multidisciplinar (operação, manutenção, projeto, SMS, integridade). Coordenador geral nomeado pela UO. Planejamento: manual, licenças, data book, protocolos assinados, PRE, recursos (equipes, acessos, telecomunicação, pigs, gases inertes), treinamento, aviso às comunidades, matriz de responsabilidade, APR, fluido disponível e procedimento com simulações hidráulicas (vazões, pressões, tempos de enchimento, controle de pressão na chegada), pigs pela N-2634, descarte provisório e lista de verificação de alinhamentos. No enchimento, usar pig separador na interface com gás inerte ou água (exceto oleodutos não pigáveis); para produto aquecido, recomenda-se começar com produto de baixa viscosidade e baixo ponto de fluidez, aquecido. Relatório detalhado da pré-operação divulgado e arquivado.",
+   "valores": [],
+   "figuras": [
+    "esquemas/gasoduto-pre-operacao-purga.svg"
+   ]
+  },
+  {
+   "titulo": "Operação, delegação e PMOA",
+   "item": "7, 8",
+   "texto": "A operação vai do fim da pré-operação à desativação. Registros operacionais guardados por prazo mínimo (e durante toda a análise de ocorrências anormais). Operar sem monitorar uma variável crítica é exceção temporária, sob delegação formal. A PMOA, fixada após construção e teste, pode ser reduzida por perda de integridade, restrição temporária, mudança de projeto ou necessidade operacional; é reavaliada pelo responsável pela integridade (N-1487, N-2098, N-2786, N-2727, N-2737) e as proteções reajustadas. Elevar a PMOA exige verificar projeto, testes e integridade, pesquisar vazamentos, corrigir não conformidades, relatório técnico liberando e teste hidrostático pela NBR 15280-1.",
+   "valores": [
+    {
+     "parametro": "Guarda mínima dos registros operacionais",
+     "valor": "90 dias após o fechamento da operação",
+     "item": "7.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/gasoduto-pre-operacao-purga.svg"
+   ]
+  },
+  {
+   "titulo": "Produtos químicos, pigs, intervenção e desativação",
+   "item": "9–14",
+   "texto": "Injeção de inibidor, redutor de atrito, marcadores e aditivos por procedimento; redutor de atrito precedido de avaliação hidráulica e mecânica (PMOA, potência dos motores, ajustes de instrumentos). Pigs pela N-2634. Intervenção com retirada de operação: planejamento pelas N-2727/N-2737, cronograma, análise de risco, equipe, plano de raqueteamento, comunicação e procedimento de condicionamento (pressões, vazões, pigs, responsabilidades); depois condicionamento de retorno e liberação. Desativação temporária ou permanente precedida do deslocamento completo do produto e limpeza. Treinamento por padrões críticos, com sistemática registrada, contratadas qualificadas pelo mesmo critério e pelo RTDT.",
+   "valores": [
+    {
+     "parametro": "Guarda dos documentos de desativação permanente",
+     "valor": "5 anos após a desativação (trechos removidos) ou enquanto o duto permanecer no local",
+     "item": "12.2.6.2"
+    },
+    {
+     "parametro": "Treinamento de atualização recomendado",
+     "valor": "a cada 2 anos",
+     "item": "13.1"
+    },
+    {
+     "parametro": "Periodicidade máxima da auditoria",
+     "valor": "5 anos",
+     "item": "14.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/gasoduto-pre-operacao-purga.svg"
+   ]
+  }
+ ]
+}

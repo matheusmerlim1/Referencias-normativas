@@ -1,0 +1,113 @@
+{
+ "id": "PETROBRAS-N-0862",
+ "titulo": "Petrobras N-0862 Rev. H (08/2022) — Execução de terraplenagem",
+ "secoes": [
+  {
+   "titulo": "Escopo e serviços preliminares",
+   "item": "1, 4",
+   "texto": "Condições para executar terraplenagem, começando por serviços preliminares (supressão vegetal, destocamento, limpeza e raspagem do solo vegetal) com meios mecânicos ou manuais. Taludes, bermas e plataformas revestidos conforme o projeto; bota-fora espalhado com caimento para drenar e ficar estável. Prazo de implantação da revisão: 180 dias.",
+   "valores": [
+    {
+     "parametro": "Extensão da limpeza além dos offsets",
+     "valor": "mínimo 5,0 m (faixa de dutos: 2,0 m)",
+     "item": "4.5",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#limpeza-offset"
+    }
+   ],
+   "figuras": [
+    "esquemas/terraplenagem-aterro-camadas.svg"
+   ]
+  },
+  {
+   "titulo": "Aterros",
+   "item": "5.3",
+   "texto": "Base do aterro com grau de compactação e umidade do projeto; materiais distribuídos por zonas em camadas horizontais de espessura uniforme, a primeira preenchendo depressões. Em encostas íngremes, a fundação é escarificada em degraus seguindo as curvas de nível. Juntas entre etapas de aterro preparadas removendo material compactado.",
+   "valores": [
+    {
+     "parametro": "Espessura das camadas (geral)",
+     "valor": "máx. 30,0 cm soltas e 20,0 cm compactadas (maior só com comprovação)",
+     "item": "5.3.9 a)",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#camada-solta"
+    },
+    {
+     "parametro": "Espessura compactada",
+     "valor": "máx. 20,0 cm",
+     "item": "5.3.9 a)",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#camada-compactada"
+    },
+    {
+     "parametro": "Compactação manual (áreas restritas)",
+     "valor": "camada solta ≤ 15,0 cm",
+     "item": "5.3.9 b)",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#camada-solta"
+    },
+    {
+     "parametro": "Rolo pé-de-carneiro",
+     "valor": "camada ≤ 25,0 cm antes da compactação; nova camada só quando a pata deixar sulcos ≤ 5,0 cm",
+     "item": "5.3.9 c)",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#camada-solta"
+    },
+    {
+     "parametro": "Material granular com rolo liso vibratório",
+     "valor": "camada ≤ 15,0 cm antes da compactação",
+     "item": "5.3.9 d)",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#camada-solta"
+    },
+    {
+     "parametro": "Recobrimento entre passadas adjacentes do rolo",
+     "valor": "mínimo 30,0 cm",
+     "item": "5.3.9 h)",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#recobrimento-rolo"
+    },
+    {
+     "parametro": "Degraus em encosta",
+     "valor": "inclinação de 1 % no sentido inverso ao talude",
+     "item": "5.3.5",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#degrau-inclinacao"
+    },
+    {
+     "parametro": "Junta entre etapas de aterro",
+     "valor": "remover no mínimo 40 cm de material, medidos na normal ao plano da junta",
+     "item": "5.3.x a)",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#junta-remocao"
+    },
+    {
+     "parametro": "Grau de compactação",
+     "valor": "o do projeto ou 98 % do Proctor normal; até 5 % dos ensaios abaixo, mas ≥ 95 %",
+     "item": "5.3.x c)"
+    }
+   ],
+   "figuras": [
+    "esquemas/terraplenagem-aterro-camadas.svg"
+   ]
+  },
+  {
+   "titulo": "Tolerâncias de acabamento",
+   "item": "5.x",
+   "texto": "Conferência geométrica da plataforma terraplenada contra o projeto.",
+   "valores": [
+    {
+     "parametro": "Variação do greide",
+     "valor": "máx. 3 cm",
+     "item": "5.x d)",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#greide"
+    },
+    {
+     "parametro": "Variação da largura da plataforma",
+     "valor": "máx. 30 cm, nunca para menos",
+     "item": "5.x e)",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#largura-plataforma"
+    },
+    {
+     "parametro": "Inclinação do coroamento",
+     "valor": "no máximo 1 % diferente do projeto",
+     "item": "5.x c)",
+     "cota": "esquemas/terraplenagem-aterro-camadas.svg#greide"
+    }
+   ],
+   "figuras": [
+    "esquemas/terraplenagem-aterro-camadas.svg"
+   ]
+  }
+ ]
+}

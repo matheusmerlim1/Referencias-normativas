@@ -1,0 +1,97 @@
+{
+ "id": "PETROBRAS-N-2006",
+ "titulo": "Petrobras N-2006 Rev. C (10/2017) — Projeto de sistemas de iluminação",
+ "secoes": [
+  {
+   "titulo": "Escopo e critérios gerais",
+   "item": "1, 4",
+   "texto": "Condições mínimas para projetar iluminação interna e externa e níveis mínimos de iluminância em instalações terrestres (não vale para marítimas), incluindo alimentação de tomadas. Pontos de luz locados para facilitar manutenção; reatores de lâmpadas de descarga sobre superfície não combustível; condutores pela NBR 5410 (distâncias e deflexões entre pontos de puxamento); transformadores e painéis de iluminação perto da carga e em locais de fácil acesso. Projeto apresentado pela N-2040.",
+   "valores": [
+    {
+     "parametro": "Tomadas abrangidas",
+     "valor": "equipamentos de até 4,4 kVA",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Troca de tipo de fonte por altura (opção)",
+     "valor": "fluorescentes até 4 m; vapor de sódio de alta pressão ou vapor metálico acima de 4 m",
+     "item": "4.x",
+     "cota": "esquemas/iluminacao-industrial-pontos.svg#altura-montagem"
+    },
+    {
+     "parametro": "Afastamento do reator",
+     "valor": "mín. 80 mm de objetos ou partes do prédio",
+     "item": "4.x",
+     "cota": "esquemas/iluminacao-industrial-pontos.svg#reator-distancia"
+    }
+   ],
+   "figuras": [
+    "esquemas/iluminacao-industrial-pontos.svg"
+   ]
+  },
+  {
+   "titulo": "Iluminação predial, industrial, viária e de emergência",
+   "item": "5",
+   "texto": "Predial e industrial interna pelo método dos lúmens; viária ponto a ponto; postes autônomos (solar/eólica) admitidos. Mastros elevados podem reduzir o número de pontos. Emergência pela NBR 10898, circuitos exclusivos e encaminhamento segregado; a essencial opera junto com a normal (entra no cálculo) e a crítica usa luminárias autônomas com bateria nas rotas de fuga.",
+   "valores": [
+    {
+     "parametro": "Luminárias sobre o piso em pátios de bombas",
+     "valor": "perfis engastados em bases de concreto com cerca de 300 mm de elevação",
+     "item": "5.2.x",
+     "cota": "esquemas/iluminacao-industrial-pontos.svg#base-perfil"
+    },
+    {
+     "parametro": "Mastros elevados (high mast)",
+     "valor": "acima de 25 m de altura, quando viável",
+     "item": "5.2.13",
+     "cota": "esquemas/iluminacao-industrial-pontos.svg#mastro"
+    },
+    {
+     "parametro": "Raio de ação das tomadas em unidades de processo",
+     "valor": "≤ 25 m",
+     "item": "5.2.15 a)",
+     "cota": "esquemas/iluminacao-industrial-pontos.svg#raio-tomada"
+    }
+   ],
+   "figuras": [
+    "esquemas/iluminacao-industrial-pontos.svg"
+   ]
+  },
+  {
+   "titulo": "Níveis mínimos de iluminância",
+   "item": "6, Tabela 1",
+   "texto": "A iluminação geral do ambiente segue a linha \"áreas de circulação\" da Tabela 1 e o posto de trabalho tem nível próprio; a medição é no piso ou no plano de trabalho. Iluminação suplementar fixa pode completar o nível do posto.",
+   "valores": [
+    {
+     "parametro": "Plano de trabalho quando o posto não é definido",
+     "valor": "plano horizontal a 75 cm do piso",
+     "item": "6.3",
+     "cota": "esquemas/iluminacao-tarefa-entorno.svg#plano-trabalho"
+    },
+    {
+     "parametro": "Casa de controle local (CCL) — circulação, painéis e console",
+     "valor": "300 lux",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Centro integrado de controle (CIC) — circulação, painéis e console",
+     "valor": "500 lux",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Pátios de bombas de transferência / caldeiras",
+     "valor": "50 lux",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Sala de operadores / sala de painéis de controle",
+     "valor": "150 lux / 200 lux",
+     "item": "Tabela 1"
+    }
+   ],
+   "figuras": [
+    "esquemas/iluminacao-tarefa-entorno.svg"
+   ]
+  }
+ ]
+}

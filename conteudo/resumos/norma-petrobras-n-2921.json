@@ -1,0 +1,24 @@
+{
+ "id": "PETROBRAS-N-2921",
+ "titulo": "Petrobras N-2921 Rev. A (12/2012) — Caixa de engrenagens para uso geral: folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso",
+   "item": "1–3",
+   "texto": "Folhas de dados de caixas de engrenagens de uso geral pelo API STD 677:2006: Anexo A para eixos paralelos e Anexo B para engrenagens angulares. Anexadas à RM, são documentos de aquisição e, preenchidas como construído pelo fabricante ou engenharia, documento final do equipamento; cabeçalho e rodapé pela N-381 e identificação pela N-1521. Os números entre parênteses no formulário remetem aos parágrafos da API 677; há marcação do que o comprador preenche, do que o fabricante preenche e do que exige decisão do comprador.",
+   "valores": [],
+   "figuras": [
+    "esquemas/maquinas-folha-dados-motor-ventilador-redutor.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo do formulário",
+   "item": "Anexos A e B",
+   "texto": "Potências do equipamento acionado e do acionador (normal, nominal, máxima), classe mecânica e térmica, potência nominal da engrenagem, torques (velocidade máxima contínua e máximo), velocidades de entrada e saída (especificada e nominal), variação permitida da razão, velocidade máxima contínua e de desarme, fator de serviço, durezas pinhão/coroa, sentido de rotação dos eixos de alta e baixa, extremidades de eixo (cilíndrica, cônica, cônica hidráulica, chavetas, flange integral), cargas externas; perdas, eficiência mecânica, velocidade periférica, índice K, carga tangencial Wt, tensão de flexão St, ruído, pesos, WR², torque de ruptura; construção (redutor ou multiplicador, estágios, helicoidal simples/duplo, número de dentes) e dados de instalação.",
+   "valores": [],
+   "figuras": [
+    "esquemas/maquinas-folha-dados-motor-ventilador-redutor.svg"
+   ]
+  }
+ ]
+}

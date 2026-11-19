@@ -1,0 +1,83 @@
+{
+ "id": "PETROBRAS-N-2000",
+ "titulo": "Petrobras N-2000 Rev. C (11/2015) — Investigações geofísicas, geológicas e geotécnicas no mar",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 3",
+   "texto": "Critérios de execução e apresentação de investigações geofísicas, geológicas e geotécnicas para projetos costeiros e marítimos, feitas de balsas, flutuantes, jack-ups, semissubmersíveis, sistemas submarinos, navios sonda e geotécnicos e embarcações de levantamento. Subfundo raso: investigação limitada a 50 m abaixo do fundo.",
+   "valores": [
+    {
+     "parametro": "Subfundo raso",
+     "valor": "até 50 m de profundidade a partir do fundo marinho",
+     "item": "3",
+     "cota": "esquemas/geotecnia-sondagens-investigacao.svg#subfundo-raso"
+    }
+   ],
+   "figuras": [
+    "esquemas/geotecnia-sondagens-investigacao.svg"
+   ]
+  },
+  {
+   "titulo": "Geofísica",
+   "item": "4",
+   "texto": "Batimetria, sonar de varredura lateral (altura do peixe conforme a escala), perfiladores sísmicos, magnetometria e eletrorresistividade, com posicionamento e registros contínuos. Linhas interrompidas são refeitas com recobrimento; perdas em linhas curtas obrigam refazer a linha toda.",
+   "valores": [
+    {
+     "parametro": "Recobrimento ao refazer trecho de linha",
+     "valor": "cerca de 200 m",
+     "item": "4.x.8",
+     "cota": "esquemas/geotecnia-sondagens-investigacao.svg#recobrimento-linha"
+    },
+    {
+     "parametro": "Perda de registro em linha curta",
+     "valor": "linhas < 2 km são refeitas por inteiro",
+     "item": "4.x.9",
+     "cota": "esquemas/geotecnia-sondagens-investigacao.svg#recobrimento-linha"
+    },
+    {
+     "parametro": "Posicionamento acústico do sensor",
+     "valor": "obrigatório em lâmina d'água > 10 m",
+     "item": "4",
+     "cota": "esquemas/geotecnia-sondagens-investigacao.svg#lamina-balsa"
+    },
+    {
+     "parametro": "Relação sinal/ruído mínima (eletrorresistividade)",
+     "valor": "da ordem de 15:1",
+     "item": "4.5.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/geotecnia-sondagens-investigacao.svg"
+   ]
+  },
+  {
+   "titulo": "Amostragem, ensaios e plataformas de trabalho",
+   "item": "5 a 7",
+   "texto": "Amostradores e ensaios in situ (CPTU, palheta) escolhidos conforme o solo; laboratório de bordo programado com a Petrobras. Unidades de trabalho com limites de operação: balsas só em áreas abrigadas; jack-ups com investigação que cubra a penetração das pernas.",
+   "valores": [
+    {
+     "parametro": "Box corer",
+     "valor": "amostras indeformadas até 1,0 m abaixo do fundo; caixa mínima 50 cm × 50 cm × 50 cm",
+     "item": "5",
+     "cota": "esquemas/geotecnia-sondagens-investigacao.svg#box-corer"
+    },
+    {
+     "parametro": "Balsas e flutuantes",
+     "valor": "áreas abrigadas com lâmina d'água até 25 m",
+     "item": "7.1 a)",
+     "cota": "esquemas/geotecnia-sondagens-investigacao.svg#lamina-balsa"
+    },
+    {
+     "parametro": "Profundidade mínima para penetração de jack-up",
+     "valor": "penetração mínima esperada + 2 × diâmetro da fundação (sapata)",
+     "item": "7, Nota 2",
+     "cota": "esquemas/geotecnia-sondagens-investigacao.svg#penetracao-jackup"
+    }
+   ],
+   "figuras": [
+    "esquemas/geotecnia-sondagens-investigacao.svg"
+   ]
+  }
+ ]
+}

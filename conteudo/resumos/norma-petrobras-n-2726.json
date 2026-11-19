@@ -1,0 +1,61 @@
+{
+ "id": "PETROBRAS-N-2726",
+ "titulo": "Petrobras N-2726 Rev. B (06/2017) — Terminologia de dutos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Define os termos fundamentais para projeto, construção e montagem, operação, inspeção e manutenção de dutos terrestres e submarinos, a serem usados nas normas de dutos emitidas ou revisadas a partir desta edição. Soldagem pela N-1438, descontinuidades pela N-1738, estruturas oceânicas pela N-1812 e confiabilidade/risco pela N-2784; várias definições remetem à NBR 12712, NBR 15280-1/-2, NBR 16381 (câmara de pig) e NBR ISO 15589-1 (proteção catódica).",
+   "valores": [],
+   "figuras": [
+    "esquemas/duto-terminologia-elementos.svg"
+   ]
+  },
+  {
+   "titulo": "Termos — traçado, faixa e instalação",
+   "item": "3",
+   "texto": "Cerca de 280 termos. Exemplos: cobertura (distância, perpendicular ao duto, da geratriz superior ao terreno), classe de locação (NBR 12712; no mar, pela atividade humana), faixa de dutos/de domínio e faixa de trabalho (NBR 15280), diretriz, traçado, variante e ramal, comprimento desenvolvido (soma real de tubos e componentes, quilômetro desenvolvido/kp), curva vertical côncava (sag bend) ou convexa (over bend), curvamento natural (mudança de direção sem deformação permanente), tubo-camisa (casing) em travessias, cruzamento e travessia, vala, leira, bota-fora, ensecadeira (cofferdam), estaqueamento, sinalização, marcos, interligação (tie-in), spool, stalk (trecho pré-fabricado em terra), riser e TDP, vão livre (free span: trecho sem apoio no fundo por assentamento, erosão ou correnteza), sand waves, rock dumping e enterramento.",
+   "valores": [
+    {
+     "parametro": "Cobertura (definição)",
+     "valor": "distância perpendicular entre a geratriz superior do duto e o nível do terreno",
+     "item": "3.46",
+     "cota": "esquemas/duto-terminologia-elementos.svg#cobertura",
+     "nota": "Definição, sem valor numérico."
+    },
+    {
+     "parametro": "Vão livre (definição)",
+     "valor": "trecho do duto não apoiado no leito marinho, de rio, lago ou igarapé",
+     "item": "3.279",
+     "cota": "esquemas/duto-terminologia-elementos.svg#vao-livre",
+     "nota": "Definição, sem valor numérico."
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-terminologia-elementos.svg"
+   ]
+  },
+  {
+   "titulo": "Termos — defeitos, operação e manutenção",
+   "item": "3, 4",
+   "texto": "Defeitos e anomalias: mossa/amassamento (dent), ovalização (desvio da circularidade da seção), enrugamento (wrinkle), flambagem local (buckle) e global, sulco (groove), cava (gouge), out-of-straightness, descontinuidade × defeito, holiday no revestimento. Componentes e acessórios: bacalhau/patch, braçadeira, colar (outlet), niple, válvula through-conduit, Y convergente (interliga dois dutos a um terceiro e deixa passar pig), lançador, recebedor e câmara de pig, cesta, tipos de pig. Operação: batelada, carregador, expedidor, gaseificação, purga, sangria, pré-operação, pronto a operar, regimes permanente e transitório, PMOA e demais pressões, temperaturas e tensões de projeto, quebra de coluna líquida, estoque. Manutenção: reparos de contingência, temporário e permanente; trepanação (hot tap); desativação e descomissionamento. Siglas na seção 4 (ex.: ADCP, APV).",
+   "valores": [
+    {
+     "parametro": "Produto de alta pressão de vapor (APV)",
+     "valor": "pressão de vapor > 1,1 bar abs (1,12 kgf/cm²) a 38 °C",
+     "item": "4.2"
+    },
+    {
+     "parametro": "Ovalização (definição)",
+     "valor": "desvio da circularidade da seção transversal do tubo",
+     "item": "3.160",
+     "cota": "esquemas/duto-terminologia-elementos.svg#ovalizacao",
+     "nota": "Definição, sem valor numérico."
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-terminologia-elementos.svg"
+   ]
+  }
+ ]
+}

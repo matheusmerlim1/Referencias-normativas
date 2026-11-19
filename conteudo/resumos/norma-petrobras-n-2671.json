@@ -1,0 +1,57 @@
+{
+ "id": "PETROBRAS-N-2671",
+ "titulo": "Petrobras N-2671 Rev. D (11/2022) — Operações de barcaças em terminais",
+ "secoes": [
+  {
+   "titulo": "Escopo e responsabilidades",
+   "item": "1, 3, 4",
+   "texto": "Procedimentos de carga e descarga de petróleo, derivados e biocombustíveis em barcaças nos terminais e em operações ship-to-ship ou ship-to-barge (o navio que carrega a barcaça faz papel de órgão abastecedor). Implantação em até 180 dias (ou plano registrado). Representante do terminal, representante da barcaça e inspetor de segurança de bunker fazem juntos as liberações inicial e final (medições e amostragens), aprovam a conexão terra/bordo e os alinhamentos, e cada um pode parar a operação diante de risco iminente ou descumprimento, avisando a supervisão. A barcaça mantém a contenção do convés estanque (embornais tampados; abertura para chuva só com vigia). Todos habilitados em operação de embarcações, medição, amostragem, arqueação, segurança e NRs.",
+   "valores": [],
+   "figuras": [
+    "esquemas/bunker-barcaca-medicao.svg"
+   ]
+  },
+  {
+   "titulo": "Segurança e prevenção da poluição",
+   "item": "5",
+   "texto": "Cumprir NORMAM-1 e 2; plano de resposta a emergência e poluição divulgado; pessoal treinado. Kit SOPEP com lista e quantidades afixadas. Linhas, braços e mangotes fora de uso flangeados e aparafusados. Combate a incêndio do terminal disponível e alcançando toda a barcaça, mangueiras junto ao manifold, rede pressurizada ou bomba pronta. Bocas de visita e de medição fechadas (exceção só com análise de risco aprovada). Amarração com cabos sintéticos (polipropileno ou poliamida) em bom estado; empurradores e rebocadores a contrabordo seguem as mesmas regras. Equipamentos a bordo intrinsecamente seguros; proibidos celulares, rádios portáteis, câmeras e similares no convés. Comunicação testada antes, com sistema secundário e canal UHF/VHF dedicado. Ventilação forçada em praças de máquinas e casas de bombas abaixo do convés. Primeira operação só após aceite de vetting e inspeção.",
+   "valores": [
+    {
+     "parametro": "Ponto de fulgor abaixo do qual nenhuma embarcação pode atracar a contrabordo durante a operação",
+     "valor": "60 °C (acima disso, só com autorização do terminal)",
+     "item": "5.1.12"
+    }
+   ],
+   "figuras": [
+    "esquemas/bunker-barcaca-medicao.svg"
+   ]
+  },
+  {
+   "titulo": "Atracação, liberação, carga e descarga",
+   "item": "6",
+   "texto": "Atracar só com o representante do terminal no píer, conforme tempo e correntes locais; amarração aprovada. Após atracar, inspecionar e medir todos os tanques e registrar na carta inicial com o plano de carga; lista de verificação do Anexo A conforme e assinada (não conformidade → decisão do supervisor e medidas de contorno). Alinhamento conferido duas vezes; MSDS entregue; pressão e vazão acordadas, com manômetro após a bomba do terminal e manômetro de ponteiro de arrasto logo após a válvula do manifold do píer. Carga e descarga só pelo manifold da barcaça; abrir a válvula do manifold na descarga só após pressurizar a rede de bordo. Recomenda-se parada de emergência da bomba no píer/barcaça (ship-shore link) e procedimento de parada no carregamento por gravidade; tanques já completos verificados até o fim; vazamento → parar. Drenagem de linhas e mangotes conforme a carta inicial; medição e amostragem final de todos os tanques; quantidade a bordo pela N-2653.",
+   "valores": [
+    {
+     "parametro": "Condição de trim recomendada no carregamento",
+     "valor": "águas parelhas (trim nulo)",
+     "item": "6.4.6",
+     "cota": "esquemas/bunker-barcaca-medicao.svg#trim"
+    },
+    {
+     "parametro": "Alarme de nível alto dos tanques de carga (sensores independentes, ligado sempre)",
+     "valor": "95 %",
+     "item": "6.4.7",
+     "cota": "esquemas/bunker-barcaca-medicao.svg#sondagem"
+    },
+    {
+     "parametro": "Prazo do relatório de investigação de ocorrência no carregamento",
+     "valor": "até 15 dias úteis",
+     "item": "6.4.15.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/bunker-barcaca-medicao.svg"
+   ]
+  }
+ ]
+}

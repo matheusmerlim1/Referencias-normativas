@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620" role="img" aria-label="Serviços georreferenciados — cobertura aerofotogramétrica, sobreposição, GSD, atitude da câmara e posicionamento submarino">
+<title>Serviços georreferenciados — cobertura aerofotogramétrica, sobreposição, GSD, atitude da câmara e posicionamento submarino (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Serviços georreferenciados — cobertura aerofotogramétrica, sobreposição, GSD, atitude da câmara e posicionamento submarino</text>
+<text x="260" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) planta: faixas de voo e fotos</text>
+<rect x="60" y="90" width="140" height="120" fill="#36c" fill-opacity="0.12" stroke="#666" stroke-width="1"/>
+<rect x="150" y="90" width="140" height="120" fill="#36c" fill-opacity="0.12" stroke="#666" stroke-width="1"/>
+<rect x="240" y="90" width="140" height="120" fill="#36c" fill-opacity="0.12" stroke="#666" stroke-width="1"/>
+<rect x="330" y="90" width="140" height="120" fill="#36c" fill-opacity="0.12" stroke="#666" stroke-width="1"/>
+<rect x="60" y="190" width="140" height="120" fill="#3a6" fill-opacity="0.12" stroke="#666" stroke-width="1"/>
+<rect x="150" y="190" width="140" height="120" fill="#3a6" fill-opacity="0.12" stroke="#666" stroke-width="1"/>
+<rect x="240" y="190" width="140" height="120" fill="#3a6" fill-opacity="0.12" stroke="#666" stroke-width="1"/>
+<rect x="330" y="190" width="140" height="120" fill="#3a6" fill-opacity="0.12" stroke="#666" stroke-width="1"/>
+<line x1="40" y1="150" x2="470" y2="150" stroke="#666" stroke-width="1.5"/>
+<polygon points="470.0,150.0 461.0,146.5 461.0,153.5" fill="#666"/>
+<text x="470" y="142" text-anchor="end" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">faixa 1</text>
+<g id="cota-sobreposicao-longitudinal" class="cota"><line x1="150" y1="95" x2="150" y2="81" stroke="#666" stroke-width="1"/><line x1="200" y1="95" x2="200" y2="81" stroke="#666" stroke-width="1"/><line x1="150" y1="81" x2="200" y2="81" stroke="#666" stroke-width="1.2"/><polygon points="150.0,81.0 159.0,84.5 159.0,77.5" fill="#666"/><polygon points="200.0,81.0 191.0,77.5 191.0,84.5" fill="#666"/><text x="175" y="74" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">sobrep. longitudinal</text></g>
+<g id="cota-sobreposicao-lateral" class="cota"><line x1="480" y1="190" x2="480" y2="190" stroke="#666" stroke-width="1"/><line x1="480" y1="210" x2="480" y2="210" stroke="#666" stroke-width="1"/><line x1="480" y1="190" x2="480" y2="210" stroke="#666" stroke-width="1.2"/><polygon points="480.0,190.0 476.5,199.0 483.5,199.0" fill="#666"/><polygon points="480.0,210.0 483.5,201.0 476.5,201.0" fill="#666"/><text x="486" y="204" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">sobrep. lateral</text></g>
+<g id="cota-rotacao-horizontal" class="cota"><path d="M390.0,330.0 A60,60 0 0 0 389.4,321.6" fill="none" stroke="#666" stroke-width="1.2"/><text x="340" y="345" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">rotação entre exposições</text></g>
+<line x1="330" y1="330" x2="420" y2="330" stroke="#666" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="330" y1="330" x2="420" y2="318" stroke="#666" stroke-width="1.5"/>
+<text x="760" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) elevação: câmara e GSD</text>
+<rect x="730" y="90" width="60" height="24" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<text x="800" y="96" text-anchor="start" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">aeronave / UA</text>
+<line x1="760" y1="114" x2="760" y2="300" stroke="#666" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="760" y1="114" x2="790" y2="300" stroke="#666" stroke-width="1.2"/>
+<g id="cota-inclinacao-eixo" class="cota"><path d="M760.0,174.0 A60,60 0 0 0 769.4,173.3" fill="none" stroke="#666" stroke-width="1.2"/><text x="800" y="190" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">inclinação do eixo ótico</text></g>
+<path d="M760,114 L640,300 L880,300 Z" fill="#ffd" fill-opacity="0.3" stroke="#666" stroke-width="0.8"/>
+<line x1="600" y1="300" x2="960" y2="300" stroke="#666" stroke-width="2"/>
+<text x="950" y="316" text-anchor="end" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">terreno</text>
+<line x1="640" y1="300" x2="640" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="652" y1="300" x2="652" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="664" y1="300" x2="664" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="676" y1="300" x2="676" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="688" y1="300" x2="688" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="700" y1="300" x2="700" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="712" y1="300" x2="712" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="724" y1="300" x2="724" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="736" y1="300" x2="736" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="748" y1="300" x2="748" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="760" y1="300" x2="760" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="772" y1="300" x2="772" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="784" y1="300" x2="784" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="796" y1="300" x2="796" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="808" y1="300" x2="808" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="820" y1="300" x2="820" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="832" y1="300" x2="832" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="844" y1="300" x2="844" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="856" y1="300" x2="856" y2="306" stroke="#666" stroke-width="0.6"/>
+<line x1="868" y1="300" x2="868" y2="306" stroke="#666" stroke-width="0.6"/>
+<g id="cota-gsd" class="cota"><line x1="760" y1="306" x2="760" y2="320" stroke="#666" stroke-width="1"/><line x1="772" y1="306" x2="772" y2="320" stroke="#666" stroke-width="1"/><line x1="760" y1="320" x2="772" y2="320" stroke="#666" stroke-width="1.2"/><polygon points="760.0,320.0 769.0,323.5 769.0,316.5" fill="#666"/><polygon points="772.0,320.0 763.0,316.5 763.0,323.5" fill="#666"/><text x="790" y="340" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">GSD (pixel no terreno)</text></g>
+<text x="700" y="390" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(c) posicionamento hidroacústico (USBL / LBL)</text>
+<rect x="0" y="420" width="1000" height="140" fill="#9cf" fill-opacity="0.2" stroke="#666" stroke-width="0"/>
+<line x1="0" y1="420" x2="1000" y2="420" stroke="#666" stroke-width="1"/>
+<rect x="200" y="404" width="120" height="16" fill="#666" fill-opacity="0.5" stroke="#666" stroke-width="1.5"/>
+<text x="260" y="398" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">embarcação (transdutor USBL)</text>
+<circle cx="600" cy="540" r="8" fill="#e5c000" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
+<text x="615" y="544" text-anchor="start" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">alvo / ROV</text>
+<line x1="260" y1="420" x2="600" y2="540" stroke="#666" stroke-width="1" stroke-dasharray="4 3"/>
+<g id="cota-lamina-dagua" class="cota"><line x1="120" y1="420" x2="120" y2="420" stroke="#666" stroke-width="1"/><line x1="120" y1="560" x2="120" y2="560" stroke="#666" stroke-width="1"/><line x1="120" y1="420" x2="120" y2="560" stroke="#666" stroke-width="1.2"/><polygon points="120.0,420.0 116.5,429.0 123.5,429.0" fill="#666"/><polygon points="120.0,560.0 123.5,551.0 116.5,551.0" fill="#666"/><text x="126" y="500" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">lâmina d'água</text></g>
+<g id="cota-acuracia-usbl" class="cota"><line x1="604" y1="532" x2="780" y2="476" stroke="#666" stroke-width="1"/><circle cx="604" cy="532" r="3" fill="#666"/><text x="780" y="480" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">acurácia: fração da lâmina / valor fixo (LBL)</text></g>
+<text x="12" y="612" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

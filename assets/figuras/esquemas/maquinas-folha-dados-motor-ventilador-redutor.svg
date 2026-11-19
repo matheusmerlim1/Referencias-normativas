@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500" role="img" aria-label="Folhas de dados de máquinas — motor de combustão interna, ventilador centrífugo e caixa de engrenagens">
+<title>Folhas de dados de máquinas — motor de combustão interna, ventilador centrífugo e caixa de engrenagens (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Folhas de dados de máquinas — motor de combustão interna, ventilador centrífugo e caixa de engrenagens</text>
+<text x="170" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) motor de combustão interna</text>
+<rect x="60" y="120" width="200" height="120" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="2"/>
+<rect x="90" y="90" width="30" height="30" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<rect x="140" y="90" width="30" height="30" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<rect x="190" y="90" width="30" height="30" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<text x="160" y="185" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">motor (cilindros)</text>
+<line x1="260" y1="180" x2="320" y2="180" stroke="#666" stroke-width="4"/>
+<text x="300" y="170" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">eixo</text>
+<rect x="30" y="140" width="30" height="80" fill="#9cf" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<text x="45" y="260" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">radiador</text>
+<text x="160" y="290" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">potência, rotação, combustível, partida,</text>
+<text x="160" y="304" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">arrefecimento, emissões, governador</text>
+<text x="500" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) ventilador centrífugo</text>
+<circle cx="500" cy="200" r="80" fill="#666" fill-opacity="0.12" stroke="#666" stroke-width="2"/>
+<circle cx="500" cy="200" r="45" fill="#999" fill-opacity="0.25" stroke="#666" stroke-width="1.5"/>
+<line x1="520.0" y1="200.0" x2="545.0" y2="200.0" stroke="#666" stroke-width="1.5"/>
+<line x1="517.3205080756887" y1="210.0" x2="538.9711431702997" y2="222.5" stroke="#666" stroke-width="1.5"/>
+<line x1="510.0" y1="217.32050807568876" x2="522.5" y2="238.97114317029974" stroke="#666" stroke-width="1.5"/>
+<line x1="500.0" y1="220.0" x2="500.0" y2="245.0" stroke="#666" stroke-width="1.5"/>
+<line x1="490.0" y1="217.32050807568876" x2="477.5" y2="238.97114317029974" stroke="#666" stroke-width="1.5"/>
+<line x1="482.6794919243112" y1="210.0" x2="461.02885682970026" y2="222.5" stroke="#666" stroke-width="1.5"/>
+<line x1="480.0" y1="200.0" x2="455.0" y2="200.0" stroke="#666" stroke-width="1.5"/>
+<line x1="482.6794919243112" y1="190.0" x2="461.02885682970026" y2="177.5" stroke="#666" stroke-width="1.5"/>
+<line x1="490.0" y1="182.67949192431124" x2="477.5" y2="161.02885682970026" stroke="#666" stroke-width="1.5"/>
+<line x1="500.0" y1="180.0" x2="500.0" y2="155.0" stroke="#666" stroke-width="1.5"/>
+<line x1="510.0" y1="182.67949192431124" x2="522.5" y2="161.02885682970026" stroke="#666" stroke-width="1.5"/>
+<line x1="517.3205080756887" y1="190.0" x2="538.9711431702997" y2="177.49999999999997" stroke="#666" stroke-width="1.5"/>
+<rect x="560" y="110" width="80" height="40" fill="#666" fill-opacity="0.2" stroke="#666" stroke-width="1.5"/>
+<text x="600" y="104" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">descarga + damper</text>
+<rect x="380" y="185" width="40" height="30" fill="#666" fill-opacity="0.2" stroke="#666" stroke-width="1.5"/>
+<text x="400" y="240" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">sucção / silencioso</text>
+<g id="cota-rotor-ventilador" class="cota"><line x1="500" y1="200" x2="500" y2="316" stroke="#666" stroke-width="1"/><circle cx="500" cy="200" r="3" fill="#666"/><text x="500" y="320" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">rotor (Ø, rotação, pressão estática)</text></g>
+<text x="830" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(c) caixa de engrenagens</text>
+<rect x="740" y="110" width="180" height="150" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="2"/>
+<circle cx="790" cy="160" r="25" fill="#c96" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<circle cx="860" cy="210" r="45" fill="#c96" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<line x1="700" y1="160" x2="790" y2="160" stroke="#666" stroke-width="4"/>
+<text x="700" y="150" text-anchor="start" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">eixo de alta</text>
+<line x1="860" y1="210" x2="960" y2="210" stroke="#666" stroke-width="4"/>
+<text x="960" y="200" text-anchor="end" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">eixo de baixa</text>
+<text x="790" y="198" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">pinhão</text>
+<text x="860" y="262" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">coroa</text>
+<g id="cota-engrenagem-fatores" class="cota"><line x1="830" y1="230" x2="830" y2="316" stroke="#666" stroke-width="1"/><circle cx="830" cy="230" r="3" fill="#666"/><text x="830" y="320" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">potência, razão, fator de serviço, K, St</text></g>
+<text x="500" y="420" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Folha de dados anexada à RM; preenchida pelo projetista e completada pelo fabricante → documento permanente (como construído)</text>
+<text x="12" y="492" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

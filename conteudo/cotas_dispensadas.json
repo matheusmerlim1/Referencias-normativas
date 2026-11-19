@@ -207,11 +207,19 @@
  "norma-petrobras-n-0013": {
   "Teste da pintura antiga mantida — ângulo máximo da espátula": "ângulo de ensaio manual de aderência (não é cota de peça)"
  },
+ "norma-petrobras-n-0047": {
+  "Fechamento angular": "tolerância angular de fechamento de poligonal (segundos de arco), não é cota de peça",
+  "Picadas": "largura de abertura de vegetação para o serviço de campo; condição de execução, sem objeto a cotar"
+ },
  "norma-petrobras-n-0116": {
   "Base dos gráficos de consumo": "comprimento de referência dos gráficos de consumo de vapor (base de cálculo, não é cota)"
  },
  "norma-petrobras-n-0120": {
   "Marcação (corpo ou cabo, visível montada)": "conteúdo da marcação (NPS e classe), não é cota de peça"
+ },
+ "norma-petrobras-n-0134": {
+  "Matriz de uso — guarda-corpos, escadas, plataformas de carregamento": "faixa de aplicação da matriz (tamanho do objeto)",
+  "Matriz de uso — tubulações e bandejas leves (pós-concretagem)": "faixa de aplicação da matriz (tamanho do objeto)"
  },
  "norma-petrobras-n-0250": {
   "Inclinação que exige anéis de sustentação": "faixa de aplicação (inclinação do trecho)"
@@ -219,6 +227,9 @@
  "norma-petrobras-n-0270": {
   "Pressão de projeto limitada ao peso do teto — chapa de 5 mm": "pressão (kPa / mm de coluna de água) — não é cota",
   "Vácuo de projeto usual / máximo (Anexo V)": "pressão (kPa / mm c.a.) — não é cota"
+ },
+ "norma-petrobras-n-0332": {
+  "Altitude máxima": "condição ambiental de serviço (altitude), não é medida do equipamento"
  },
  "norma-petrobras-n-0442": {
   "Cond. 4 — faixa considerada agressiva": "distância geográfica ao mar (classificação de ambiente, não cota)"
@@ -238,15 +249,31 @@
  "norma-petrobras-n-1586": {
   "Nível de ruído do ventilador (referência do formulário)": "nível de ruído; 1 m é só a distância de medição"
  },
+ "norma-petrobras-n-1617": {
+  "Projeção — diâmetro do equipamento (preferência)": "faixa de aplicação do método (tamanho do equipamento), não é cota de execução"
+ },
  "norma-petrobras-n-1618": {
   "PRFV — extensão de queima": "resultado de ensaio de inflamabilidade, não é cota de peça",
   "Suporte metálico do isolamento — inclinação da tubulação": "condição de aplicação (inclinação da linha), não é cota do acessório"
+ },
+ "norma-petrobras-n-1644": {
+  "Carga admissível sem levar à ruptura": "critério de carga em prova de carga (recalque medido no ensaio), sem geometria de peça",
+  "Carga mínima de ensaio": "critério de carga/recalque de ensaio, sem geometria de peça",
+  "Prova de carga horizontal — limite de deslocamento": "deslocamento medido em ensaio, sem geometria de peça"
  },
  "norma-petrobras-n-1671": {
   "Porta de alívio — pressão de abertura": "pressão (mm de coluna d'água), não geométrica"
  },
  "norma-petrobras-n-1735": {
   "Condição 2 — faixa costeira agressiva": "distância geográfica à praia (classificação do ambiente), não é cota"
+ },
+ "norma-petrobras-n-1756": {
+  "Areia da argamassa": "granulometria do agregado, não é cota geométrica"
+ },
+ "norma-petrobras-n-1852": {
+  "Faixa de cor por material (grupos I e II)": "largura de faixa de marcação/identificação, sem geometria estrutural",
+  "Folga circunferencial ao fechar a virola fora da calandra": "condição de processo durante a calandragem (folga provisória), não tolerância final",
+  "Teste de produção (espessura > 20 mm)": "frequência de ensaio por extensão de solda; espessura é só limiar de aplicação"
  },
  "norma-petrobras-n-1858": {
   "Alarme de vibração (recomendado)": "velocidade de vibração (mm/s), não é medida geométrica",
@@ -264,8 +291,14 @@
  "norma-petrobras-n-1997": {
   "Granulometria da areia": "tamanho de grão do material de enchimento — não é cota"
  },
+ "norma-petrobras-n-2039": {
+  "Pressurização": "pressão (mm de coluna d'água), não geométrica"
+ },
  "norma-petrobras-n-2104": {
   "Orla marítima especialmente agressiva": "distância geográfica à praia (classificação do ambiente), não é cota"
+ },
+ "norma-petrobras-n-2169": {
+  "Comprimento de referência das tabelas de peso": "base de referência da tabela de pesos, não medida a desenhar"
  },
  "norma-petrobras-n-2201": {
   "Ligação trifásica triângulo-estrela (padrão)": "defasagem elétrica entre tensões (fasorial), não ângulo geométrico"
@@ -295,12 +328,44 @@
   "Arames grossos (passes paralelos recomendados)": "diâmetro do arame consumível (não cota da peça)",
   "Tubos com pino curvo no pull-off": "faixa de aplicação (diâmetro do tubo)"
  },
+ "norma-petrobras-n-2727": {
+  "Profundidade máxima de reparo assistido por mergulhador": "limite de aplicação da modalidade (profundidade de mergulho), não é medida da peça"
+ },
+ "norma-petrobras-n-2760": {
+  "Defasamento no ensaio (tensão de saída ± 1 %)": "ângulo de fase elétrico, não geométrico"
+ },
+ "norma-petrobras-n-2768": {
+  "Início da condição de alerta de H₂S (poço sem previsão)": "gatilho operacional por profundidade de perfuração, sem geometria de peça"
+ },
+ "norma-petrobras-n-2779": {
+  "Condições ambientais padrão — altitude": "condição ambiental de instalação (altitude), não é medida a desenhar"
+ },
  "norma-petrobras-n-2785": {
   "Transferência entre unidades excluída": "extensão do duto (critério de aplicação), não é cota"
+ },
+ "norma-petrobras-n-2786": {
+  "Charpy da solda que invalida os métodos de corrosão (CP 10 mm × 10 mm, temperatura mínima de projeto)": "seção padrão do corpo de prova Charpy citada só como condição; critério é energia"
+ },
+ "norma-petrobras-n-2838": {
+  "Extensão de amarras/cabos não isolados incluída na área": "comprimento convencional para cálculo de área, não geometria a desenhar",
+  "Temperatura ambiente de cálculo por profundidade": "faixas de lâmina d'água só definem temperatura de cálculo"
  },
  "norma-petrobras-n-2843": {
   "Dobramento sem trincas": "parâmetro de ensaio de dobramento (deformação por diâmetro), não é cota do revestimento",
   "Holiday — descontinuidades pontuais aceitas (reparadas) / velocidade máx.": "critério de ensaio (quantidade e velocidade do detector), não é cota"
+ },
+ "norma-petrobras-n-2860": {
+  "Distância mínima entre braços pivotados para dentro": "espessura/medida de material de fabricação do móvel (especificação de painel), sem desenho próprio",
+  "Estação de trabalho — espessura do MDF": "espessura/medida de material de fabricação do móvel (especificação de painel), sem desenho próprio",
+  "Estrutura da cama — chapa galvanizada / madeira": "espessura/medida de material de fabricação do móvel (especificação de painel), sem desenho próprio",
+  "Laboratório — altura mínima das gavetas": "espessura/medida de material de fabricação do móvel (especificação de painel), sem desenho próprio",
+  "Laboratório — tampo de granito / de compensado duplo": "espessura/medida de material de fabricação do móvel (especificação de painel), sem desenho próprio",
+  "Mobiliário offshore — compensado naval de portas, laterais, tampos e fundos (ou aço)": "espessura/medida de material de fabricação do móvel (especificação de painel), sem desenho próprio"
+ },
+ "norma-petrobras-n-2869": {
+  "Eletroímã — antes de elevar a carga": "condição operacional (altura de teste), sem geometria de peça",
+  "Pegador de tubos (proteção das mãos)": "faixa de aplicação do dispositivo (tamanho de objeto)",
+  "Transpaleteira motorizada que eleva acima de": "critério de classificação do equipamento, sem geometria de peça"
  },
  "norma-petrobras-n-2911": {
   "Manchão — carga e arrancamento máximo": "resultado de ensaio de aderência (arrancamento), não é cota de peça",
@@ -316,6 +381,10 @@
  },
  "norma-petrobras-n-2928": {
   "Deslocamento angular — primário triângulo / secundário estrela": "ângulo de fase elétrico entre enrolamentos (não é cota geométrica)"
+ },
+ "norma-petrobras-n-2931": {
+  "Comprimento do trecho de gaxeta nos ensaios": "tamanho de corpo de prova de ensaio de material",
+  "Dispensa de cola na gaxeta (permutador pequeno, com acordo)": "limiar de aplicação (diâmetro do bocal), não medida a desenhar"
  },
  "norma-petrobras-n-2936": {
   "Vácuo de projeto — corpo / Anexos Q e R": "pressão (oz/in², mm c.a.) — não é cota"

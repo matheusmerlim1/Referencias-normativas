@@ -1,0 +1,112 @@
+{
+ "id": "PETROBRAS-N-1756",
+ "titulo": "Petrobras N-1756 Rev. D (07/2012) — Projeto e aplicação de proteção passiva contra fogo em instalações terrestres",
+ "secoes": [
+  {
+   "titulo": "Escopo e área sujeita a incêndio",
+   "item": "1, 3",
+   "texto": "Define quais elementos estruturais metálicos em áreas sujeitas a incêndio recebem proteção passiva, a extensão do revestimento, os materiais e a qualificação; não cobre elementos elétricos e de instrumentação. Vale para projetos novos e para instalações existentes em manutenção ou reforma. A área sujeita a incêndio é a projeção do equipamento capaz de gerar fogo ampliada radialmente, sobre o solo ou o pavimento contínuo mais alto, até uma altura limite.",
+   "valores": [
+    {
+     "parametro": "Ampliação radial da projeção do equipamento",
+     "valor": "6 m dentro de unidades de processo; 3 m fora",
+     "item": "3.4",
+     "cota": "esquemas/protecao-passiva-fogo-estruturas.svg#area-raio"
+    },
+    {
+     "parametro": "Altura abrangida pela área sujeita a incêndio",
+     "valor": "8 m a partir do piso de referência",
+     "item": "3.4",
+     "cota": "esquemas/protecao-passiva-fogo-estruturas.svg#altura-limite"
+    }
+   ],
+   "figuras": [
+    "esquemas/protecao-passiva-fogo-estruturas.svg"
+   ]
+  },
+  {
+   "titulo": "Extensão da proteção",
+   "item": "5",
+   "texto": "Suportes elevados de tubulação, estruturas de resfriadores a ar, de equipamentos, de fornos e caldeiras, saias de vasos, vasos de parede seca, chaminés e dutos autoportantes e pernas de esferas, conforme as Figuras do Anexo A. Saias protegidas por fora e por dentro, com concreto refratário ou intumescente.",
+   "valores": [
+    {
+     "parametro": "Suporte elevado de tubulação",
+     "valor": "h < 8 000 mm: toda a extensão; h > 8 000 mm: até 8 000 mm",
+     "item": "5.1, Tabela 1",
+     "cota": "esquemas/protecao-passiva-fogo-estruturas.svg#altura-limite"
+    },
+    {
+     "parametro": "Estruturas de resfriadores a ar e de equipamentos",
+     "valor": "até 200 mm acima da última viga horizontal, limitado a 8 000 mm",
+     "item": "5.2, 5.3",
+     "cota": "esquemas/protecao-passiva-fogo-estruturas.svg#acima-viga"
+    },
+    {
+     "parametro": "Estrutura de forno e caldeira",
+     "valor": "até 300 mm abaixo da primeira viga horizontal, limitado a 8 000 mm",
+     "item": "5.4",
+     "cota": "esquemas/protecao-passiva-fogo-estruturas.svg#acima-viga"
+    },
+    {
+     "parametro": "Saia de vaso sem proteção interna",
+     "valor": "Ø interno < 1 500 mm, salvo flanges/válvulas internos ou aberturas não seladas > 24\" (600 mm)",
+     "item": "5.5.1",
+     "cota": "esquemas/protecao-passiva-fogo-estruturas.svg#saia-diametro"
+    },
+    {
+     "parametro": "Extensão na saia",
+     "valor": "do anel da base ao topo da saia, limitado a 8 000 mm",
+     "item": "5.5.2",
+     "cota": "esquemas/protecao-passiva-fogo-estruturas.svg#altura-limite"
+    },
+    {
+     "parametro": "Perna de esfera",
+     "valor": "até 200 mm abaixo da solda da perna com a chapa de reforço do costado",
+     "item": "5.8",
+     "cota": "esquemas/esfera-armazenamento-geometria.svg#fundo-solo"
+    }
+   ],
+   "figuras": [
+    "esquemas/protecao-passiva-fogo-estruturas.svg",
+    "esquemas/esfera-armazenamento-geometria.svg"
+   ]
+  },
+  {
+   "titulo": "Materiais, espessura e aplicação",
+   "item": "6 a 8",
+   "texto": "Argamassa, concreto refratário ou outros materiais (intumescentes etc.) qualificados por ensaio UL 1709, com memória de cálculo de espessura. Tela de aço-carbono presa por grampos soldados (stud welding ou convencional, N-133/ASME IX). Aplicação pela N-1617, sem secagem aquecida nem ancoragens dela; arestas chanfradas, topos inclinados para escoar água e juntas impermeabilizadas.",
+   "valores": [
+    {
+     "parametro": "Areia da argamassa",
+     "valor": "agregado miúdo NBR 7211, grão máximo 4,8 mm",
+     "item": "6.1.3"
+    },
+    {
+     "parametro": "Resistência mínima à compressão (argamassa e concreto refratário)",
+     "valor": "5,0 MPa (51 kgf/cm²)",
+     "item": "6.1.5, 6.2.3"
+    },
+    {
+     "parametro": "Outros materiais — ensaio de qualificação",
+     "valor": "UL 1709, proteção mínima 1,5 h, perfil W10x49",
+     "item": "6.3.2 a)"
+    },
+    {
+     "parametro": "Tela de reforço",
+     "valor": "aço-carbono C ≤ 0,3 %, fio BWG 14 (2,1 mm), malha 50 mm × 50 mm",
+     "item": "6.4.1",
+     "cota": "esquemas/protecao-passiva-fogo-estruturas.svg#tela-malha"
+    },
+    {
+     "parametro": "Espessura com argamassa ou concreto refratário",
+     "valor": "50 mm",
+     "item": "7.1",
+     "cota": "esquemas/protecao-passiva-fogo-estruturas.svg#revestimento-espessura"
+    }
+   ],
+   "figuras": [
+    "esquemas/protecao-passiva-fogo-estruturas.svg"
+   ]
+  }
+ ]
+}

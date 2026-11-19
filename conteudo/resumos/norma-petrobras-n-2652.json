@@ -1,0 +1,99 @@
+{
+ "id": "PETROBRAS-N-2652",
+ "titulo": "Petrobras N-2652 Rev. F (02/2025) — Combustíveis marítimos: controle operacional",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1, 3",
+   "texto": "Controle operacional das movimentações de combustíveis marítimos (bunker, destilados e residuais) — carregamento de barcaças, fornecimento a navios por barcaça, duto ou caminhão e debunker. Termos: águas parelhas (trim zero), banda (adernamento permanente), barcaça (inclui navio-tanque usado para entrega), calado (quilha à linha d'água), CACL (quantidades de tanques de terra), CFN/BDN (comprovante de entrega ao navio), CCB (controle de carregamento da barcaça), medição por trena e por fluxômetro, GTC, inspetor de segurança, inspetora de quantidade/qualidade, órgão operacional abastecedor, remanescente e trim (diferença de calados a ré e a vante).",
+   "valores": [],
+   "figuras": [
+    "esquemas/bunker-barcaca-medicao.svg"
+   ]
+  },
+  {
+   "titulo": "Condições gerais de medição",
+   "item": "4",
+   "texto": "O órgão abastecedor faz instruções internas para todos os modais. Só se aceitam nomeações com especificação e quantidade claras, com aviso ao porto e à Receita e atendimento à NORMAM 8, ISGOTT e ISGINTT; barcaças pela N-2653. Medir com linhas drenadas e válvulas dos flanges fechadas; tabelas de arqueação a bordo. Converter volumes e densidades para 20 °C pelas tabelas nacionais (15 °C pela ASTM D1250), com densidade média ponderada de tanque de terra, linha e barcaça. Tanques de terra com arqueação INMETRO válida e instrumentos calibrados rastreáveis (medidores automáticos validados pela API MPMS 3.1B). Inspetora independente pode ser contratada; toda operação tem inspetor de segurança.",
+   "valores": [
+    {
+     "parametro": "Temperatura de referência da conversão",
+     "valor": "20 °C",
+     "item": "4.6"
+    },
+    {
+     "parametro": "Medição de nível em tanque: repetir até que três medições difiram no máximo",
+     "valor": "3 mm (resultado = média das três; duas iguais valem direto)",
+     "item": "4.7",
+     "cota": "esquemas/bunker-barcaca-medicao.svg#repetibilidade"
+    },
+    {
+     "parametro": "Arredondamento da temperatura dos tanques da barcaça",
+     "valor": "múltiplos de 0,5 °C",
+     "item": "4.8"
+    },
+    {
+     "parametro": "Leitura de nível dos tanques da barcaça",
+     "valor": "em milímetros (tabela de arqueação em mm)",
+     "item": "4.9",
+     "cota": "esquemas/bunker-barcaca-medicao.svg#sondagem"
+    }
+   ],
+   "figuras": [
+    "esquemas/bunker-barcaca-medicao.svg"
+   ]
+  },
+  {
+   "titulo": "Carregamento da barcaça e diferença terra/bordo",
+   "item": "5",
+   "texto": "Documentos: carta inicial, medição da barcaça e do tanque de terra (ou CACL/CCB), lista de verificação de segurança, carta protesto e anexo do convênio ICMS 05. Antes de carregar, medir remanescente e água de cada tanque (temperatura ambiente do tanque se não der para medir), garantir que a mistura atenda à qualidade (N-2651) e guardar amostra testemunho (N-2732); variações de qualidade pedem explicação formal da transportadora. Entregar a FISPQ; iniciar só após a lista de segurança sem pendências; ao final, medir e amostrar todos os tanques e comparar com terra. Diferenças acima do limite: verificar drenagem do tanque de terra, enchimento de linhas, alinhamentos e válvulas passando, medições, trim/banda e temperaturas; persistindo, liberar com carta protesto e comunicar; análise mensal das diferenças com tratamento de anomalias.",
+   "valores": [
+    {
+     "parametro": "Diferença terra × bordo que exige registro e verificação",
+     "valor": "> 0,5 % (em kg)",
+     "item": "5.4.1, 5.4.3"
+    },
+    {
+     "parametro": "Diferença absoluta que o supervisor pode liberar com carta protesto",
+     "valor": "< 10 t",
+     "item": "5.4.2"
+    },
+    {
+     "parametro": "Erro máximo do medidor dinâmico no píer para operações simultâneas",
+     "valor": "± 0,5 %",
+     "item": "5.4.6",
+     "nota": "Prática recomendada."
+    },
+    {
+     "parametro": "Verificação de trim e banda ao fim do carregamento",
+     "valor": "barcaça trimada e sem banda, ou correções aplicadas",
+     "item": "5.4.3 f)",
+     "cota": "esquemas/bunker-barcaca-medicao.svg#trim"
+    }
+   ],
+   "figuras": [
+    "esquemas/bunker-barcaca-medicao.svg"
+   ]
+  },
+  {
+   "titulo": "Fornecimento ao navio e debunker",
+   "item": "6, 7",
+   "texto": "Antes: requisição de bunker assinada pelas partes, medição, lista de segurança, documentos aduaneiros e time sheet; depois: medição, CFN (sem rasura, enxofre com duas casas), pesquisa pós-venda, etiqueta de amostra (N-2651), cartas de protesto/correção e ticket do medidor mássico. Por duto, o inspetor pode ser do GIAONT ou o operador do píer e mede-se o tanque de terra. Representante do navio convidado a acompanhar medições e amostragem; início só após a lista de segurança e autorização do navio. Comunicação por rádio limitada a manobras e segurança. Proibido retirar slop do navio durante bunker por barcaça e proibidas conexões de engate rápido: tudo flangeado e aparafusado. Ao fim, drenar a linha do navio e os mangotes para a barcaça e descontar do fluxômetro o volume dos mangotes; desconectar só após a documentação assinada. Documentos ficam a bordo (só o tripulante manuseia). Debunker autorizado pela área de bunker, em tanque segregado com mínimo remanescente, com inspetora independente.",
+   "valores": [
+    {
+     "parametro": "Prazo para emitir a nota fiscal mãe após o anexo único",
+     "valor": "24 h da saída da embarcação",
+     "item": "6.3.4"
+    },
+    {
+     "parametro": "Prazo de aceite de reclamações (formulários)",
+     "valor": "21 dias corridos da entrega",
+     "item": "Anexos"
+    }
+   ],
+   "figuras": [
+    "esquemas/bunker-barcaca-medicao.svg"
+   ]
+  }
+ ]
+}

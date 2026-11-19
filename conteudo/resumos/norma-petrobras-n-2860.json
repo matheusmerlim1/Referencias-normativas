@@ -1,0 +1,254 @@
+{
+ "id": "PETROBRAS-N-2860",
+ "titulo": "Petrobras N-2860 Rev. B (04/2021) — Critérios ergonômicos básicos para mobiliários",
+ "secoes": [
+  {
+   "titulo": "Escopo e requisitos gerais",
+   "item": "1, 3",
+   "texto": "Critérios ergonômicos para especificar e comprar mobiliário (acessórios de mesa, suportes de monitor e notebook, armários, arquivos, bancadas de recepção e laboratório, cadeiras de escritório, treinamento, diálogo, refeitório, monitoramento contínuo e laboratório, poltronas, rodízios, camas, estantes, prateleiras, gaveteiros, mesas, estações de trabalho e bancadas de manutenção), observando SMS, responsabilidade socioambiental e a NR-17; no exterior, a legislação local. Recomenda-se prever peças de reposição e teste de desempenho na compra. Offshore: materiais fogo retardantes.",
+   "valores": [
+    {
+     "parametro": "Mobiliário offshore — compensado naval de portas, laterais, tampos e fundos (ou aço)",
+     "valor": "espessura ≥ 15 mm, revestido fogo retardante",
+     "item": "3.5"
+    }
+   ],
+   "figuras": [
+    "esquemas/mobiliario-recepcao-bancadas.svg"
+   ]
+  },
+  {
+   "titulo": "Bancadas de recepção e laboratório",
+   "item": "4.4",
+   "texto": "Bancadas de recepção lineares, de canto ou curvas protegem o recepcionista e seu material, com passagem de cabos; na circular, o tamanho depende do raio interno para a recepcionista e do perímetro externo para os visitantes. Bancadas de laboratório com prateleiras reguláveis em compensado naval revestido, gavetas e rodapés com recuo para os pés selados com silicone; tampo de granito ou compensado duplo com bordas arredondadas, resistindo à carga distribuída indicada. As letras abaixo seguem as figuras da norma; o esquema é próprio.",
+   "valores": [
+    {
+     "parametro": "Recepção linear — A: espaço de movimentação da cadeira",
+     "valor": "≥ 900 mm",
+     "item": "Figura 3",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#a-movimentacao-cadeira"
+    },
+    {
+     "parametro": "Recepção linear — B: balanço interno da superfície de suporte",
+     "valor": "50 mm a 100 mm",
+     "item": "Figura 3",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#b-balanco-interno"
+    },
+    {
+     "parametro": "Recepção linear — C: altura do recuo para pés",
+     "valor": "100 mm",
+     "item": "Figura 3",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#c-recuo-altura"
+    },
+    {
+     "parametro": "Recepção linear — D: espaço para pessoa em pé",
+     "valor": "600 mm",
+     "item": "Figura 3",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#d-espaco-em-pe"
+    },
+    {
+     "parametro": "Recepção linear — E: altura da escrivaninha",
+     "valor": "700 mm",
+     "item": "Figura 3",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#e-altura-escrivaninha"
+    },
+    {
+     "parametro": "Recepção linear — F: profundidade do recuo para pés",
+     "valor": "≥ 73 mm",
+     "item": "Figura 3",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#f-recuo-profundidade"
+    },
+    {
+     "parametro": "Recepção linear — G: do tampo de trabalho ao topo da superfície de suporte",
+     "valor": "250 mm a 300 mm",
+     "item": "Figura 3",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#g-suporte-trabalho"
+    },
+    {
+     "parametro": "Recepção linear — H: balanço externo da superfície de suporte",
+     "valor": "150 mm a 230 mm",
+     "item": "Figura 3",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#h-balanco-externo"
+    },
+    {
+     "parametro": "Recepção linear — I: altura da superfície de suporte",
+     "valor": "970 mm a 1 030 mm",
+     "item": "Figura 3",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#i-altura-suporte"
+    },
+    {
+     "parametro": "Recepção linear — J: área livre da borda do tampo à projeção do suporte",
+     "valor": "≥ 600 mm",
+     "item": "Figura 3",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#j-area-livre"
+    },
+    {
+     "parametro": "Recepção circular — A: distância livre para movimentação",
+     "valor": "750 mm",
+     "item": "Figura 4",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#a-movimentacao-cadeira"
+    },
+    {
+     "parametro": "Recepção circular — B: alcance máximo",
+     "valor": "600 mm",
+     "item": "Figura 4",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#c-profundidade-tampo"
+    },
+    {
+     "parametro": "Recepção circular — C: profundidade mínima do tampo",
+     "valor": "750 mm",
+     "item": "Figura 4",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#c-profundidade-tampo"
+    },
+    {
+     "parametro": "Recepção circular — D: diâmetro interno mínimo",
+     "valor": "1 500 mm",
+     "item": "Figura 4",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#d-diametro-interno"
+    },
+    {
+     "parametro": "Recepção circular — E: diâmetro externo mínimo",
+     "valor": "3 000 mm",
+     "item": "Figura 4",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#e-diametro-externo"
+    },
+    {
+     "parametro": "Laboratório — tampo de trabalho / prateleiras / rodapé",
+     "valor": "tampo ≥ 18 mm; prateleiras de compensado naval 18 mm; rodapé 18 mm com recuo ≥ 10 cm de altura e profundidade",
+     "item": "4.4.2",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#c-recuo-altura"
+    },
+    {
+     "parametro": "Laboratório — altura mínima das gavetas",
+     "valor": "15 cm",
+     "item": "4.4.2"
+    },
+    {
+     "parametro": "Laboratório — tampo de granito / de compensado duplo",
+     "valor": "≥ 30 mm / chapas ≥ 25 mm (total 50 mm)",
+     "item": "4.4.2 e), f)"
+    },
+    {
+     "parametro": "Laboratório — carga distribuída resistida pela bancada",
+     "valor": "200 kg/m²",
+     "item": "4.4.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/mobiliario-recepcao-bancadas.svg"
+   ]
+  },
+  {
+   "titulo": "Cadeiras e bancos",
+   "item": "4.5–4.12",
+   "texto": "Cadeira giratória operacional com regulagens (altura, encosto, braços), estofado de espuma de poliuretano; cadeiras de treinamento, diálogo, refeitório e monitoramento contínuo (24 h) com requisitos próprios; cadeiras e bancos de laboratório giratórios, com rodízios, reguláveis e impermeáveis, e bancos de descanso para pausas (NR-17); poltronas de auditório; rodízios dimensionados em altura e raio de giro para a movimentação.",
+   "valores": [
+    {
+     "parametro": "Exemplo de conjugação mesa × cadeira (mesa fixa de 740 mm)",
+     "valor": "assento regulável de 470 mm a 570 mm + apoio de pés até 200 mm",
+     "item": "4.5",
+     "nota": "Prática recomendada.",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#e-altura-escrivaninha"
+    },
+    {
+     "parametro": "Densidade mínima da espuma do assento estofado",
+     "valor": "50 kg/m³",
+     "item": "4.5.3.2"
+    },
+    {
+     "parametro": "Distância mínima entre braços pivotados para dentro",
+     "valor": "300 mm",
+     "item": "4.5"
+    },
+    {
+     "parametro": "Banco alto para bancadas acima de 75 cm (~90 cm)",
+     "valor": "com regulagem de altura",
+     "item": "4.10.2.2.1",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#bancada-precisao"
+    },
+    {
+     "parametro": "Poltronas — densidade mínima da espuma assento / encosto (NBR 8537)",
+     "valor": "40 kg/m³ / 26 kg/m³",
+     "item": "4.11.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/mobiliario-recepcao-bancadas.svg"
+   ]
+  },
+  {
+   "titulo": "Camas, estantes, prateleiras, estações e bancadas de manutenção",
+   "item": "4.13–4.19",
+   "texto": "Camas de madeira ou aço com trilho para cortina fogo retardante na cama superior, colchões firmes laváveis (NBR 13579), beliches pela NR-37. Estantes e prateleiras com alturas limitadas pelo alcance; estações de trabalho em MDF revestido. Bancadas de manutenção em pé com altura conforme o tipo de tarefa.",
+   "valores": [
+    {
+     "parametro": "Cama — comprimento interno mínimo",
+     "valor": "2 020 mm",
+     "item": "4.13.2 a)",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#cama-comprimento"
+    },
+    {
+     "parametro": "Cama — largura interna mínima",
+     "valor": "840 mm (recomendado 920 mm)",
+     "item": "4.13.2 a)",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#cama-comprimento"
+    },
+    {
+     "parametro": "Cama — altura mínima do topo do colchão ao piso (NR-37)",
+     "valor": "400 mm",
+     "item": "4.13.2 a)",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#cama-altura"
+    },
+    {
+     "parametro": "Colchão — comprimento / largura mínimos",
+     "valor": "1 980 mm / 800 mm (recomendado 880 mm); densidade ≥ 33 kg/m³",
+     "item": "4.13.2 c)",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#cama-comprimento"
+    },
+    {
+     "parametro": "Estrutura da cama — chapa galvanizada / madeira",
+     "valor": "≥ 0,80 mm / ≥ 15 mm",
+     "item": "4.13.3"
+    },
+    {
+     "parametro": "Estante — altura máxima da prateleira",
+     "valor": "1 750 mm (ajuste recomendado a cada 25 mm)",
+     "item": "4.14.2",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#prateleira-altura"
+    },
+    {
+     "parametro": "Prateleiras de parede — profundidade recomendada / altura máxima",
+     "valor": "200 mm a 300 mm / 1 800 mm",
+     "item": "4.15.2",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#prateleira-altura"
+    },
+    {
+     "parametro": "Prateleira mais alta em estação de trabalho sentada",
+     "valor": "até 1 350 mm do piso",
+     "item": "4.15.2 c)",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#prateleira-altura"
+    },
+    {
+     "parametro": "Estação de trabalho — espessura do MDF",
+     "valor": "≥ 25 mm ± 0,5 mm",
+     "item": "4.18.3 a)"
+    },
+    {
+     "parametro": "Bancada de manutenção em pé — faixa geral",
+     "valor": "70 cm a 110 cm",
+     "item": "4.19",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#bancada-precisao"
+    },
+    {
+     "parametro": "Bancada — trabalho pesado / leve / precisão",
+     "valor": "70–90 cm / 85–95 cm / 95–110 cm",
+     "item": "4.19 a)–c)",
+     "cota": "esquemas/mobiliario-recepcao-bancadas.svg#bancada-pesada"
+    }
+   ],
+   "figuras": [
+    "esquemas/mobiliario-recepcao-bancadas.svg"
+   ]
+  }
+ ]
+}

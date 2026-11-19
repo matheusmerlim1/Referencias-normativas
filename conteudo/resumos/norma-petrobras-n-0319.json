@@ -1,0 +1,55 @@
+{
+ "id": "PETROBRAS-N-0319",
+ "titulo": "Petrobras N-0319 Rev. E (04/2020) — Duto de barramento",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 3, 4",
+   "texto": "Aquisição de dutos de barramento de fases não segregadas, segregadas ou isoladas (e o tipo compacto/blindado, com isolante entre barras, até 1 kV). Características na folha de dados do Anexo B, preenchida pelo fornecedor e que prevalece sobre a norma; o que a ABNT não cobrir segue IEC/ISO; desvios em item próprio.",
+   "valores": [],
+   "figuras": [
+    "esquemas/painel-compartimentos-duto-barramento.svg"
+   ]
+  },
+  {
+   "titulo": "Construção",
+   "item": "5",
+   "texto": "Caminhamento e flanges conforme o arranjo da subestação e as caixas de ligação dos equipamentos; grau IP da folha de dados; resistência à corrosão do local; trechos ao tempo sem acúmulo de água no topo; anteparo isolante interno onde passa entre ambientes; alívio de pressão de curto-circuito no tipo blindado. Junções com contato de alta pressão e alinhamento perfeito, sem solda e sem afrouxar; ligações aos equipamentos admitindo dilatação e pequenos desalinhamentos; parafusos isolados contra corrosão galvânica entre materiais diferentes. Isoladores anti-higroscópicos, não inflamáveis e resistentes a arborização. Opcionais: drenos, aberturas de inspeção e sensores ópticos (inviáveis no compacto) e resistores de aquecimento.",
+   "valores": [
+    {
+     "parametro": "Cor de acabamento (padrão)",
+     "valor": "cinza-claro Munsell N 6.5 ou RAL 7042",
+     "item": "5.3"
+    },
+    {
+     "parametro": "Temperatura final máxima de barras e conexões",
+     "valor": "105 °C, sem oxidação das conexões",
+     "item": "5.7"
+    },
+    {
+     "parametro": "Identificação das fases",
+     "valor": "A vermelho, B branco, C marrom; neutro azul-claro; terra verde-amarelo; CC: + vermelho, − preto",
+     "item": "5.8"
+    },
+    {
+     "parametro": "Invólucro não magnético (recomendado)",
+     "valor": "corrente nominal ≥ 2 000 A; ambiente muito salino: liga de alumínio",
+     "item": "5.10, Notas"
+    },
+    {
+     "parametro": "Cabo de continuidade entre seções",
+     "valor": "cobre 95 mm² (unidades marítimas); 70 mm² (industriais e prediais)",
+     "item": "5.15"
+    },
+    {
+     "parametro": "Resistores de aquecimento",
+     "valor": "127 V ou 220 V CA, fonte externa",
+     "item": "5.18"
+    }
+   ],
+   "figuras": [
+    "esquemas/painel-compartimentos-duto-barramento.svg"
+   ]
+  }
+ ]
+}

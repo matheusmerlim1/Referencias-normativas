@@ -1,0 +1,94 @@
+{
+ "id": "PETROBRAS-N-2779",
+ "titulo": "Petrobras N-2779 Rev. B (09/2020) — Relés digitais",
+ "secoes": [
+  {
+   "titulo": "Escopo e sistema protegido",
+   "item": "1, 5",
+   "texto": "Condições para relés digitais de instalações de processo, pelas séries IEC 60255 e IEC 61850: hardware, software, medição, supervisão, proteção, comunicação em rede, desempenho e testes de aceitação em fábrica. Frequência do sistema de 60 Hz no Brasil (ou a da folha de dados). Local de instalação classificado pela IEC 60721-3-3 (prevalece a condição mais rigorosa).",
+   "valores": [
+    {
+     "parametro": "Tensão nominal de alimentação (salvo folha de dados)",
+     "valor": "125 V cc",
+     "item": "5.4.1",
+     "cota": "esquemas/rele-digital-protecao.svg#alimentacao"
+    },
+    {
+     "parametro": "Variação contínua admitida na alimentação",
+     "valor": "−20 % a +15 % da nominal",
+     "item": "5.4.2",
+     "cota": "esquemas/rele-digital-protecao.svg#alimentacao"
+    },
+    {
+     "parametro": "Ripple admitido na alimentação (IEC 60255-1)",
+     "valor": "até 12 %, com efeito combinado ≤ 20 %",
+     "item": "5.4.3"
+    },
+    {
+     "parametro": "Condições ambientais padrão — temperatura no cubículo",
+     "valor": "0 °C a 60 °C",
+     "item": "5.5.3 a)"
+    },
+    {
+     "parametro": "Condições ambientais padrão — umidade",
+     "valor": "até 90 % sem condensação a 40 °C",
+     "item": "5.5.3 b)"
+    },
+    {
+     "parametro": "Condições ambientais padrão — altitude",
+     "valor": "< 1 000 m",
+     "item": "5.5.3 c)"
+    }
+   ],
+   "figuras": [
+    "esquemas/rele-digital-protecao.svg"
+   ]
+  },
+  {
+   "titulo": "Hardware e entradas/saídas",
+   "item": "6",
+   "texto": "Grau de proteção frontal e traseiro pela folha de dados (NBR IEC 60529); entradas discretas opto-acopladas quando pedido; supervisão das bobinas de abertura e fechamento do disjuntor; IHM frontal ou na porta (em CCM pode ser compartilhada), sem que sua falha impeça o acesso local/remoto; relés IEC 61850 com hardware pela IEC 61850-3 e compatibilidade eletromagnética pelas IEC 61000-4; contatos de saída com capacidade definida.",
+   "valores": [
+    {
+     "parametro": "Vida útil mínima",
+     "valor": "10 anos",
+     "item": "6.1.9"
+    },
+    {
+     "parametro": "Entradas analógicas",
+     "valor": "4 mA a 20 mA ou 1 V a 5 V, exatidão ± 1 % do fundo de escala",
+     "item": "6.4.1"
+    },
+    {
+     "parametro": "Saídas analógicas",
+     "valor": "4,0 mA a 20 mA, ± 1 % do fundo de escala",
+     "item": "6.4.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/rele-digital-protecao.svg"
+   ]
+  },
+  {
+   "titulo": "Comunicação, funções e ensaios",
+   "item": "7–13",
+   "texto": "Comunicação em rede IEC 61850 (cliente/servidor com número mínimo de acessos simultâneos pela folha de dados); opcionalmente sem fio para configuração e parametrização. Funções de medição, supervisão, registro de eventos e oscilografia; proteções de sobrecorrente (50/51, 50N/51N, com seletividade lógica por sinais de bloqueio para reduzir tempos), tensão, distância (21/21N) e bloqueio por oscilação de potência (68) quando especificadas. Ensaios de aceitação em fábrica, incluindo tensão aplicada nas entradas analógicas e interfaces isoladas.",
+   "valores": [
+    {
+     "parametro": "Alcance mínimo da comunicação sem fio (visada direta)",
+     "valor": "10 m",
+     "item": "7.3.10",
+     "cota": "esquemas/rele-digital-protecao.svg#alcance-sem-fio"
+    },
+    {
+     "parametro": "Ensaio de tensão — entradas analógicas e interfaces de comunicação/sincronismo",
+     "valor": "500 V cc",
+     "item": "Ensaios"
+    }
+   ],
+   "figuras": [
+    "esquemas/rele-digital-protecao.svg"
+   ]
+  }
+ ]
+}

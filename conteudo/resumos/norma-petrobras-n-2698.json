@@ -1,0 +1,132 @@
+{
+ "id": "PETROBRAS-N-2698",
+ "titulo": "Petrobras N-2698 Rev. B (08/2023) — Elaboração de serviços georreferenciados",
+ "secoes": [
+  {
+   "titulo": "Escopo e referências",
+   "item": "1, 4",
+   "texto": "Procedimentos para serviços georreferenciados (levantamentos GNSS, topografia, aerofotogrametria, perfilamento laser, aeronaves não tripuladas, hidrografia e posicionamento submarino) e seus produtos, no sistema geodésico brasileiro vigente; no exterior, respeitando a legislação local. Implantação em até 180 dias. Em levantamentos a mais de 50 km da costa, a referência vertical é o nível médio do mar obtido por monitoramento local da maré ou modelo preditivo.",
+   "valores": [
+    {
+     "parametro": "Distância da costa a partir da qual se usa o nível médio do mar local",
+     "valor": "> 50 km",
+     "item": "4",
+     "cota": "esquemas/aerofotogrametria-cobertura-voo.svg#lamina-dagua",
+     "nota": "Limiar de aplicação; esquema mostra a referência vertical no mar."
+    }
+   ],
+   "figuras": [
+    "esquemas/aerofotogrametria-cobertura-voo.svg"
+   ]
+  },
+  {
+   "titulo": "Aerofotogrametria",
+   "item": "5.4.1",
+   "texto": "A técnica GNSS é escolhida pela precisão de cada projeto. Definir precisão, acurácia, menor objeto a mapear e faixa espectral. Câmeras de grande ou médio formato com calibração da orientação interna; pequeno formato só para ortofotos sobre MDT existente ou com laser simultâneo, nunca para vetorização ou MDT de projeto executivo. Escala de voo e GSD conforme a Tabela 1 (escala do produto × resolução do scanner/câmara). Definir nuvens aceitáveis, horário, época e direção das faixas. Apoio de campo para aerotriangulação por GNSS a partir da rede do IBGE (altimetria por GNSS só com modelo geoidal adequado). Restituição em estações fotogramétricas digitais.",
+   "valores": [
+    {
+     "parametro": "Escala da cobertura em relação à do mapeamento",
+     "valor": "3 a 5 vezes menor",
+     "item": "5.4.1.1.2"
+    },
+    {
+     "parametro": "GSD — produto 1:1 000 (voo 1:5 000)",
+     "valor": "10 cm / 7,5 cm / 5 cm / 3 cm para resolução de 20 / 15 / 10 / 6 μm",
+     "item": "Tabela 1",
+     "cota": "esquemas/aerofotogrametria-cobertura-voo.svg#gsd"
+    },
+    {
+     "parametro": "GSD — produto 1:2 000 a 1:3 500 (voo 1:10 000)",
+     "valor": "20 / 15 / 10 / 6 cm",
+     "item": "Tabela 1",
+     "cota": "esquemas/aerofotogrametria-cobertura-voo.svg#gsd"
+    },
+    {
+     "parametro": "GSD — produto 1:3 000 a 1:5 000 (voo 1:15 000)",
+     "valor": "30 / 22,5 / 15 / 9 cm",
+     "item": "Tabela 1",
+     "cota": "esquemas/aerofotogrametria-cobertura-voo.svg#gsd"
+    },
+    {
+     "parametro": "GSD — produto 1:5 000 a 1:8 000 (voo 1:25 000)",
+     "valor": "50 / 38 / 25 / 15 cm",
+     "item": "Tabela 1",
+     "cota": "esquemas/aerofotogrametria-cobertura-voo.svg#gsd"
+    },
+    {
+     "parametro": "GSD — produto 1:10 000 a 1:15 000 (voo 1:50 000)",
+     "valor": "1 m / 75 cm / 50 cm / 30 cm",
+     "item": "Tabela 1",
+     "cota": "esquemas/aerofotogrametria-cobertura-voo.svg#gsd"
+    },
+    {
+     "parametro": "Superposição longitudinal mínima",
+     "valor": "60 % (± 5 %)",
+     "item": "5.4.1.1.7",
+     "nota": "Prática recomendada.",
+     "cota": "esquemas/aerofotogrametria-cobertura-voo.svg#sobreposicao-longitudinal"
+    },
+    {
+     "parametro": "Superposição lateral mínima",
+     "valor": "30 % (± 5 %)",
+     "item": "5.4.1.1.7",
+     "nota": "Prática recomendada.",
+     "cota": "esquemas/aerofotogrametria-cobertura-voo.svg#sobreposicao-lateral"
+    },
+    {
+     "parametro": "Rotação horizontal entre exposições consecutivas",
+     "valor": "média por faixa ≤ 3°; casos isolados ≤ 8°",
+     "item": "5.4.1.1.8",
+     "cota": "esquemas/aerofotogrametria-cobertura-voo.svg#rotacao-horizontal"
+    },
+    {
+     "parametro": "Inclinação do eixo ótico da câmara",
+     "valor": "< 3° por foto; < 2° na média da faixa",
+     "item": "5.4.1.1.9",
+     "cota": "esquemas/aerofotogrametria-cobertura-voo.svg#inclinacao-eixo"
+    },
+    {
+     "parametro": "Poder resolutivo mínimo do filme (câmeras analógicas)",
+     "valor": "50 linhas/mm",
+     "item": "5.4.1.1.10"
+    }
+   ],
+   "figuras": [
+    "esquemas/aerofotogrametria-cobertura-voo.svg"
+   ]
+  },
+  {
+   "titulo": "Laser, aeronaves não tripuladas, hidrografia e produtos",
+   "item": "5.4.2–7",
+   "texto": "Perfilamento laser com densidade de pontos definida pela resolução das feições. Aeronaves não tripuladas: segurança das pessoas acima de tudo; lista de verificação pré-voo (distâncias a pessoas, casas, linhas e árvores, local de pouso alternativo, vento, iluminação, baterias, enlace de telemetria, sinal GNSS e limites do plano); voo de teste e voo automático recomendados; acompanhar todo o voo com o piloto pronto para assumir; coleta ideal entre 10 h e 14 h em dia claro. Hidroacústica: velocidade do som na água depende de temperatura, salinidade e pressão; USBL dispensa estações no fundo, LBL exige; instalação e uso pela IMCA S 013; feições menores que 10 cm só por câmeras posicionadas acusticamente; ecobatimetria pela IHO S-44 (ordem conforme o serviço: dutos rígidos, jaquetas, autoelevatórias). Produtos: mosaicos, ortofotos e referência planialtimétrica conforme a seção 4; avaliação da qualidade do produto final por critérios definidos.",
+   "valores": [
+    {
+     "parametro": "Acurácia do USBL",
+     "valor": "até 2,5 % da lâmina d'água até 100 m; ≤ 0,3 % a partir disso",
+     "item": "5.5.1",
+     "cota": "esquemas/aerofotogrametria-cobertura-voo.svg#acuracia-usbl"
+    },
+    {
+     "parametro": "Acurácia do LBL",
+     "valor": "0,5 m + incerteza dos métodos de superfície",
+     "item": "5.5.1",
+     "cota": "esquemas/aerofotogrametria-cobertura-voo.svg#acuracia-usbl"
+    },
+    {
+     "parametro": "Feições submarinas que exigem levantamento visual",
+     "valor": "< 10 cm",
+     "item": "5.5.1.9",
+     "cota": "esquemas/aerofotogrametria-cobertura-voo.svg#acuracia-usbl"
+    },
+    {
+     "parametro": "Horário ideal de coleta com aeronave não tripulada",
+     "valor": "10 h às 14 h, dia claro",
+     "item": "5.4.3"
+    }
+   ],
+   "figuras": [
+    "esquemas/aerofotogrametria-cobertura-voo.svg"
+   ]
+  }
+ ]
+}

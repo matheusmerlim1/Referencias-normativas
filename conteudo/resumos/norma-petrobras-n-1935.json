@@ -1,0 +1,75 @@
+{
+ "id": "PETROBRAS-N-1935",
+ "titulo": "Petrobras N-1935 Rev. D (09/2013) — Projeto de sistema de proteção catódica por corrente galvânica — duto submarino",
+ "secoes": [
+  {
+   "titulo": "Escopo e critérios gerais",
+   "item": "1, 4",
+   "texto": "Requisitos adicionais à ISO 15589-2 para projeto e instalação da proteção catódica galvânica de dutos rígidos submarinos. Considerar interligações com trechos terrestres, píeres e plataformas; dimensionamento por todo o duto ou por comprimento padrão repetitivo. Anodos tipo braçadeira de liga de alumínio ou zinco, sem misturar materiais no mesmo duto ou em estruturas interligadas.",
+   "valores": [],
+   "figuras": [
+    "esquemas/duto-anodo-bracelete.svg"
+   ]
+  },
+  {
+   "titulo": "Parâmetros de projeto",
+   "item": "5, Tabela 1",
+   "texto": "Densidade de corrente média mínima conforme lâmina d'água e condição (corrigida pela temperatura do fluido); capacidade do anodo pela ISO 15589-2 em função da temperatura. Dimensões finais do anodo com o mesmo comprimento e a espessura reduzida pelo fator de utilização.",
+   "valores": [
+    {
+     "parametro": "Densidade de corrente — duto submerso",
+     "valor": "LDA < 100 m: 55 mA/m²; 100–300 m: 120; 300–1 000 m: 130; > 1 000 m: 143",
+     "item": "5.2, Tabela 1"
+    },
+    {
+     "parametro": "Densidade de corrente — duto enterrado",
+     "valor": "LDA < 100 m: 20 mA/m²; 100–300 m: 60; 300–1 000 m: 60; > 1 000 m: 66",
+     "item": "5.2, Tabela 1"
+    },
+    {
+     "parametro": "Diâmetro interno do anodo",
+     "valor": "Ø externo do tubo + 2 × espessura do revestimento anticorrosivo + tolerâncias superiores",
+     "item": "5.4",
+     "cota": "esquemas/duto-anodo-bracelete.svg#anodo-di"
+    },
+    {
+     "parametro": "Massa específica",
+     "valor": "zinco 7,13 g/cm³; alumínio 2,66 g/cm³",
+     "item": "5.5"
+    },
+    {
+     "parametro": "Espessura final do anodo",
+     "valor": "inicial reduzida pelo fator de utilização (comprimento igual)",
+     "item": "5.6",
+     "cota": "esquemas/duto-anodo-bracelete.svg#anodo-espessura"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-anodo-bracelete.svg"
+   ]
+  },
+  {
+   "titulo": "Fabricação, manuseio, distribuição e instalação",
+   "item": "6 a 9",
+   "texto": "Pelo menos um anodo completo nos testes de pré-produção, com amostra química de cada metade e cortes transversal e longitudinal; falhas tratadas pela DNV RP F103; anodo reprovado não é reparado. Armazenar limpo, coberto, sobre madeira; nunca pegar pelas barras ou cabos. Montagem sem movimento relativo ao tubo; soldagem da conexão elétrica qualificada pela AWS D1.1; cabos com isolamento de PE de alto peso molecular; remover o mínimo de revestimento.",
+   "valores": [
+    {
+     "parametro": "Espaçamento entre anodos",
+     "valor": "nunca superior a 300 m (risers e furo direcional: verificar atenuação)",
+     "item": "8.1, 8.2",
+     "cota": "esquemas/duto-anodo-bracelete.svg#anodo-espacamento"
+    },
+    {
+     "parametro": "Anodo adicional",
+     "valor": "1 junto a cada tubo extremo com ligação flangeada",
+     "item": "8.3",
+     "cota": "esquemas/duto-anodo-bracelete.svg#anodo-espacamento"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-anodo-bracelete.svg",
+    "esquemas/protecao-catodica-anodos.svg"
+   ]
+  }
+ ]
+}

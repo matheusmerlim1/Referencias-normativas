@@ -1,0 +1,200 @@
+{
+ "id": "PETROBRAS-N-2931",
+ "titulo": "Petrobras N-2931 Rev. A (10/2023) — Projeto de permutador de calor de placas gaxetado",
+ "secoes": [
+  {
+   "titulo": "Escopo e responsabilidades",
+   "item": "1, 5.1, 5.2",
+   "texto": "Complementa a API STD 667 para projeto mecânico, materiais, fabricação, inspeção e condicionamento de permutadores de placas gaxetados em processo e utilidades. Vida útil de placas e gaxetas pelas condições de cada projeto; sobrespessuras de corrosão na folha de dados. Proposta e projeto com desenhos de dimensões totais e pesos (pacote, pedestal, cheio e vazio); o projetista responde pelo dimensionamento térmico e mecânico.",
+   "valores": [
+    {
+     "parametro": "Vida útil do equipamento",
+     "valor": "20 anos",
+     "item": "1.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/permutador-placas-gaxetado.svg"
+   ]
+  },
+  {
+   "titulo": "Requisitos de projeto e construção",
+   "item": "5.3, 5.4",
+   "texto": "Margem de área para incrustação especificada pela Petrobras; estrutura que permita mover e instalar o permutador seco montado sem reforço temporário; capa de proteção com bandeja coletora em todo o comprimento; gaxetas coladas com adesivo (dispensável só em permutadores pequenos, com acordo); bocais com projeção mínima, região de entrada revestida com metal resistente à corrosão (detalhes da API 667), olhais de içamento, terminais de aterramento e suportes.",
+   "valores": [
+    {
+     "parametro": "Bandeja coletora maior que a capa de proteção",
+     "valor": "25 mm (1\")",
+     "item": "5.3",
+     "cota": "esquemas/permutador-placas-gaxetado.svg#bandeja-sobra"
+    },
+    {
+     "parametro": "Tensão admissível básica dos chumbadores de aço-carbono (área da raiz)",
+     "valor": "110 MPa",
+     "item": "5.3.16"
+    },
+    {
+     "parametro": "Dispensa de cola na gaxeta (permutador pequeno, com acordo)",
+     "valor": "bocal < 80 mm",
+     "item": "5.4"
+    },
+    {
+     "parametro": "Distância entre extremidades de soldas de penetração total e soldas paralelas",
+     "valor": "≥ 3 × a chapa mais fina e ≥ 50 mm",
+     "item": "5.4.2.7 a)",
+     "cota": "esquemas/permutador-placas-gaxetado.svg#soldas-distancia"
+    }
+   ],
+   "figuras": [
+    "esquemas/permutador-placas-gaxetado.svg"
+   ]
+  },
+  {
+   "titulo": "Critérios de projeto",
+   "item": "6",
+   "texto": "Temperatura máxima de projeto considera o fluido mais quente. Fabricante escolhe a gaxeta para durar nas condições de operação; documentação com o arranjo das placas e simbologia para montar e desmontar no campo.",
+   "valores": [
+    {
+     "parametro": "Velocidade máxima na entrada e saída dos fluidos",
+     "valor": "7,5 m/s",
+     "item": "6.3"
+    },
+    {
+     "parametro": "Pressão máxima de projeto (ambos os lados, toda a faixa de temperatura)",
+     "valor": "20 bar(g)",
+     "item": "6.4"
+    },
+    {
+     "parametro": "Temperatura máxima de projeto",
+     "valor": "150 °C",
+     "item": "6.5"
+    },
+    {
+     "parametro": "Dimensão máxima da placa (centro a centro dos bocais)",
+     "valor": "770 mm de largura × 2 500 mm de altura",
+     "item": "6 (Figura 3)",
+     "cota": "esquemas/permutador-placas-gaxetado.svg#placa-altura"
+    },
+    {
+     "parametro": "Espessura mínima da placa — hidrocarboneto",
+     "valor": "0,8 mm",
+     "item": "6",
+     "cota": "esquemas/permutador-placas-gaxetado.svg#placa-espessura"
+    },
+    {
+     "parametro": "Espessura mínima — pacote com mais de 200 placas ou titânio",
+     "valor": "0,7 mm",
+     "item": "6",
+     "cota": "esquemas/permutador-placas-gaxetado.svg#placa-espessura",
+     "nota": "Redação ambígua quanto à combinação com o caso hidrocarboneto — conferir."
+    },
+    {
+     "parametro": "Espessura mínima — sistemas auxiliares de pacotes (resfriador de óleo lubrificante)",
+     "valor": "0,6 mm",
+     "item": "6",
+     "cota": "esquemas/permutador-placas-gaxetado.svg#placa-espessura"
+    },
+    {
+     "parametro": "Vida mínima da gaxeta nas condições de operação",
+     "valor": "3 anos",
+     "item": "6.14"
+    },
+    {
+     "parametro": "Pressão mínima de projeto",
+     "valor": "20 % acima da pressão máxima de operação (com flutuações)",
+     "item": "6.18"
+    }
+   ],
+   "figuras": [
+    "esquemas/permutador-placas-gaxetado.svg"
+   ]
+  },
+  {
+   "titulo": "Materiais e ensaios de gaxeta",
+   "item": "7, Tabela 1, Anexo A",
+   "texto": "Gaxetas de NBR, HNBR ou EPDM qualificadas pela Tabela 1, com ensaios do Anexo A: massa específica, dureza IRHD, tração e alongamento (ISO 37), compression set com compressão de 25 %, rasgamento e imersão em líquidos (variação de dureza e volume após 72 h).",
+   "valores": [
+    {
+     "parametro": "Dureza da gaxeta",
+     "valor": "75 a 85 IRHD (EPDM, HNBR); 72 a 85 IRHD (NBR)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Resistência à tração / alongamento na ruptura",
+     "valor": "> 15 MPa / > 150 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Compression set",
+     "valor": "< 25 % (a 150 °C com hidrocarbonetos; senão ao maior entre 100 °C e a temperatura de projeto)",
+     "item": "Tabela 1, A.4"
+    },
+    {
+     "parametro": "Resistência ao rasgamento",
+     "valor": "> 20 kN/m",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Imersão — dureza / volume",
+     "valor": "+3/−12 unidades; volume ≤ +18 % em óleo IRM903 (72 h, 100 °C) e ≤ +5 % em água destilada",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Comprimento do trecho de gaxeta nos ensaios",
+     "valor": "50 mm",
+     "item": "A.4, A.6"
+    },
+    {
+     "parametro": "Temperatura máxima de projeto para gaxeta NBR",
+     "valor": "80 °C",
+     "item": "7.12"
+    },
+    {
+     "parametro": "Operação contínua garantida — HNBR / NBR (hidrocarbonetos)",
+     "valor": "160 °C / 140 °C",
+     "item": "7.13, 7.14"
+    }
+   ],
+   "figuras": [
+    "esquemas/permutador-placas-gaxetado.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção, testes, comissionamento e transporte",
+   "item": "8–13",
+   "texto": "Pintura e placas de identificação conforme a norma; dimensão do pacote comprimido conferida com o projeto; após o teste, pintar uma faixa diagonal cruzando o pacote para remontagem na ordem; hidrostático pelo código de projeto com água doce aquecida se preciso; estanqueidade após reparo não acima da PMTA; folha de dados com as informações da Tabela 2. Na partida, limitar variações de pressão. Pintura de transporte definida pela Petrobras; preparo para armazenagem ao tempo; roscas dos parafusos com antigripante.",
+   "valores": [
+    {
+     "parametro": "Largura da faixa diagonal pintada no pacote",
+     "valor": "≈ 50 mm (2 in)",
+     "item": "11.4",
+     "cota": "esquemas/permutador-placas-gaxetado.svg#faixa-pintada"
+    },
+    {
+     "parametro": "Pacote comprimido",
+     "valor": "dimensão conferida contra a do projeto do fabricante",
+     "item": "11.3",
+     "cota": "esquemas/permutador-placas-gaxetado.svg#pacote-comprimido"
+    },
+    {
+     "parametro": "Água do teste hidrostático",
+     "valor": "cloretos ≤ 50 ppm; temperatura mínima 7 °C",
+     "item": "11.11"
+    },
+    {
+     "parametro": "Variação máxima de pressão na partida",
+     "valor": "5 bar(g) por minuto",
+     "item": "12.4"
+    },
+    {
+     "parametro": "Preparo para armazenagem ao ar livre após transporte",
+     "valor": "12 meses",
+     "item": "13"
+    }
+   ],
+   "figuras": [
+    "esquemas/permutador-placas-gaxetado.svg"
+   ]
+  }
+ ]
+}

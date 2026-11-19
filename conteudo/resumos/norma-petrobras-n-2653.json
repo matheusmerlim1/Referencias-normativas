@@ -1,0 +1,77 @@
+{
+ "id": "PETROBRAS-N-2653",
+ "titulo": "Petrobras N-2653 Rev. E (10/2020) — Fornecimento de bunker: contratação e fiscalização do transporte por barcaça",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1, 3",
+   "texto": "Condições para contratar e fiscalizar o transporte de bunker por barcaça. Termos: barcaça (inclui navio-tanque com essa função), ciclo de barcaça (do fim do carregamento até a medição do remanescente real antes do próximo), CFN/BDN, debunker, embarcação auxiliar (lança barreira de contenção) e de apoio (guarda material antipoluição), empurrador, rebocador, inspetor de segurança de bunker, relatório de medição (RM), transportadora (barger) e trena (fita, prumo e suporte).",
+   "valores": [
+    {
+     "parametro": "Teor máximo de enxofre — VLSFO",
+     "valor": "0,5 % m/m",
+     "item": "3.18"
+    },
+    {
+     "parametro": "Teor máximo de enxofre — ULSFO",
+     "valor": "0,1 % m/m",
+     "item": "3.19"
+    }
+   ],
+   "figuras": [
+    "esquemas/bunker-barcaca-medicao.svg"
+   ]
+  },
+  {
+   "titulo": "Obrigações da transportadora e da fiscalização",
+   "item": "4, 5",
+   "texto": "A transportadora mantém a habilitação do contrato, responde por mão de obra, supervisão e equipamentos, pela quantidade e qualidade do produto sob sua guarda e pela conservação e navegabilidade das barcaças; a fiscalização pode exigir troca de pessoas ou equipamentos. Barcaças com kit antipoluição definido pelo terminal conforme a autoridade marítima; durante a transferência, embarcações de auxílio e apoio com barreiras, pessoal e comunicação. A transportadora avisa o navio da chegada (sem resposta → carta protesto), entrega os documentos nos horários, mantém tabelas de arqueação com correção de trim atualizadas (nova arqueação após obras ou diferenças sistemáticas), calcula as quantidades e emite o CFN logo após o fornecimento, acompanha as medições de todos os tanques antes e depois do carregamento e mede por trena antes e depois mesmo quando usa fluxômetro ou medidor mássico; instrumentos calibrados por órgão oficial e amostragem pela ASTM D4057, convidando o representante do navio. A fiscalização controla quantidades e remanescentes, cobra perdas, pede circulação do produto quando preciso, exige o RDO, mede os serviços, analisa as listas de verificação (N-2652) e audita as embarcações com critérios de vetting.",
+   "valores": [
+    {
+     "parametro": "Prazo para comunicar acidentes à fiscalização",
+     "valor": "no máximo 10 min",
+     "item": "5.15"
+    },
+    {
+     "parametro": "Auditoria/inspeção de vetting das embarcações",
+     "valor": "no mínimo 1 por ano",
+     "item": "5.16"
+    },
+    {
+     "parametro": "Medição por trena antes e depois do fornecimento",
+     "valor": "obrigatória mesmo com fluxômetro/medidor mássico",
+     "item": "5.8",
+     "cota": "esquemas/bunker-barcaca-medicao.svg#sondagem"
+    }
+   ],
+   "figuras": [
+    "esquemas/bunker-barcaca-medicao.svg"
+   ]
+  },
+  {
+   "titulo": "Perdas, sobras e controle de ciclo",
+   "item": "6, 7",
+   "texto": "Diferenças controladas por ciclo de cada barcaça, separadas por produto e mistura; produto não movimentado no ciclo mantém a medição inicial no seguinte; carregamento por transbordo conta como carregamento no terminal. Remanescente teórico = remanescente inicial (ou saldo) + expedição de terra (ou bordo) − abastecimentos − transferências para outra barcaça e para terra + recebimentos de outras barcaças + gradações − degradações (em massa); diferença = remanescente final − teórico, em % sobre o inicial + expedição (ou saldo); também acumulado mensal. Cobranças de ressarcimento são informadas à área de comercialização.",
+   "valores": [
+    {
+     "parametro": "Falta por ciclo que gera ressarcimento",
+     "valor": "> 0,5 % da quantidade total a bordo após o carregamento",
+     "item": "6.5"
+    },
+    {
+     "parametro": "Falta total mensal admitida — produtos claros / escuros",
+     "valor": "0,3 % / 0,2 % da carga movimentada",
+     "item": "6.6"
+    },
+    {
+     "parametro": "Diferença terra × bordo no fechamento do ciclo que exige revisão (N-2652, 5.4)",
+     "valor": "> 0,5 %",
+     "item": "6.8"
+    }
+   ],
+   "figuras": [
+    "esquemas/bunker-barcaca-medicao.svg"
+   ]
+  }
+ ]
+}

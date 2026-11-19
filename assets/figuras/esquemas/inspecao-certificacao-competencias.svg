@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" width="1000" height="540" role="img" aria-label="Inspeção — certificação de competências pessoais por atividade">
+<!--P7C-->
+<title>Inspeção — certificação de competências pessoais por atividade (esquema ilustrativo)</title>
+<rect x="0" y="0" width="1000" height="540" fill="#fff"/>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Inspeção — certificação de competências pessoais por atividade</text>
+<text x="140" y="52" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">atividade de inspeção</text>
+<text x="470" y="52" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">esquema de referência / equivalentes</text>
+<text x="820" y="52" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">certificado aceito</text>
+<rect x="30" y="66" width="220" height="32" rx="5" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.2"/>
+<text x="140" y="86" text-anchor="middle" font-size="10.5" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Soldagem</text>
+<line x1="250" y1="82" x2="300" y2="82" stroke="#666" stroke-width="1.2"/>
+<polygon points="300.0,82.0 291.0,78.5 291.0,85.5" fill="#666"/>
+<rect x="305" y="66" width="330" height="32" rx="5" fill="#666" fill-opacity="0.04" stroke="#666" stroke-width="1.2"/>
+<text x="470" y="86" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">NBR 14842 · OPC Inmetro</text>
+<line x1="635" y1="82" x2="690" y2="260" stroke="#666" stroke-width="0.8" stroke-dasharray="3,2"/>
+<rect x="30" y="110" width="220" height="32" rx="5" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.2"/>
+<text x="140" y="130" text-anchor="middle" font-size="10.5" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Ensaios não destrutivos</text>
+<line x1="250" y1="126" x2="300" y2="126" stroke="#666" stroke-width="1.2"/>
+<polygon points="300.0,126.0 291.0,122.5 291.0,129.5" fill="#666"/>
+<rect x="305" y="110" width="330" height="32" rx="5" fill="#666" fill-opacity="0.04" stroke="#666" stroke-width="1.2"/>
+<text x="470" y="130" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ISO 9712 (sem autocertificação)</text>
+<line x1="635" y1="126" x2="690" y2="260" stroke="#666" stroke-width="0.8" stroke-dasharray="3,2"/>
+<rect x="30" y="154" width="220" height="32" rx="5" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.2"/>
+<text x="140" y="174" text-anchor="middle" font-size="10.5" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Fabricação</text>
+<line x1="250" y1="170" x2="300" y2="170" stroke="#666" stroke-width="1.2"/>
+<polygon points="300.0,170.0 291.0,166.5 291.0,173.5" fill="#666"/>
+<rect x="305" y="154" width="330" height="32" rx="5" fill="#666" fill-opacity="0.04" stroke="#666" stroke-width="1.2"/>
+<text x="470" y="174" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">NBR 16278 · API SI</text>
+<line x1="635" y1="170" x2="690" y2="260" stroke="#666" stroke-width="0.8" stroke-dasharray="3,2"/>
+<rect x="30" y="198" width="220" height="32" rx="5" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.2"/>
+<text x="140" y="218" text-anchor="middle" font-size="10.5" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Atmosferas explosivas (Ex)</text>
+<line x1="250" y1="214" x2="300" y2="214" stroke="#666" stroke-width="1.2"/>
+<polygon points="300.0,214.0 291.0,210.5 291.0,217.5" fill="#666"/>
+<rect x="305" y="198" width="330" height="32" rx="5" fill="#666" fill-opacity="0.04" stroke="#666" stroke-width="1.2"/>
+<text x="470" y="218" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">IECEx OD 504 · Ex 007 / Ex 008</text>
+<line x1="635" y1="214" x2="690" y2="260" stroke="#666" stroke-width="0.8" stroke-dasharray="3,2"/>
+<rect x="30" y="242" width="220" height="32" rx="5" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.2"/>
+<text x="140" y="262" text-anchor="middle" font-size="10.5" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Pintura industrial</text>
+<line x1="250" y1="258" x2="300" y2="258" stroke="#666" stroke-width="1.2"/>
+<polygon points="300.0,258.0 291.0,254.5 291.0,261.5" fill="#666"/>
+<rect x="305" y="242" width="330" height="32" rx="5" fill="#666" fill-opacity="0.04" stroke="#666" stroke-width="1.2"/>
+<text x="470" y="262" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">NBR 15218 · NACE, SSPC, FROSIO…</text>
+<line x1="635" y1="258" x2="690" y2="260" stroke="#666" stroke-width="0.8" stroke-dasharray="3,2"/>
+<rect x="30" y="286" width="220" height="32" rx="5" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.2"/>
+<text x="140" y="306" text-anchor="middle" font-size="10.5" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Automação de processos</text>
+<line x1="250" y1="302" x2="300" y2="302" stroke="#666" stroke-width="1.2"/>
+<polygon points="300.0,302.0 291.0,298.5 291.0,305.5" fill="#666"/>
+<rect x="305" y="286" width="330" height="32" rx="5" fill="#666" fill-opacity="0.04" stroke="#666" stroke-width="1.2"/>
+<text x="470" y="306" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">NBR IEC 62381/62382 · FIRJAN, ISA, NCCER</text>
+<line x1="635" y1="302" x2="690" y2="300" stroke="#666" stroke-width="0.8" stroke-dasharray="3,2"/>
+<rect x="30" y="330" width="220" height="32" rx="5" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.2"/>
+<text x="140" y="350" text-anchor="middle" font-size="10.5" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Automação elétrica</text>
+<line x1="250" y1="346" x2="300" y2="346" stroke="#666" stroke-width="1.2"/>
+<polygon points="300.0,346.0 291.0,342.5 291.0,349.5" fill="#666"/>
+<rect x="305" y="330" width="330" height="32" rx="5" fill="#666" fill-opacity="0.04" stroke="#666" stroke-width="1.2"/>
+<text x="470" y="350" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">NBR IEC 62381/62337 · FIRJAN, NCCER</text>
+<line x1="635" y1="346" x2="690" y2="300" stroke="#666" stroke-width="0.8" stroke-dasharray="3,2"/>
+<rect x="30" y="374" width="220" height="32" rx="5" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.2"/>
+<text x="140" y="394" text-anchor="middle" font-size="10.5" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Dutos terrestres</text>
+<line x1="250" y1="390" x2="300" y2="390" stroke="#666" stroke-width="1.2"/>
+<polygon points="300.0,390.0 291.0,386.5 291.0,393.5" fill="#666"/>
+<rect x="305" y="374" width="330" height="32" rx="5" fill="#666" fill-opacity="0.04" stroke="#666" stroke-width="1.2"/>
+<text x="470" y="394" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">NBR 16049</text>
+<line x1="635" y1="390" x2="690" y2="300" stroke="#666" stroke-width="0.8" stroke-dasharray="3,2"/>
+<rect x="30" y="418" width="220" height="32" rx="5" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.2"/>
+<text x="140" y="438" text-anchor="middle" font-size="10.5" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Inspeção subaquática</text>
+<line x1="250" y1="434" x2="300" y2="434" stroke="#666" stroke-width="1.2"/>
+<polygon points="300.0,434.0 291.0,430.5 291.0,437.5" fill="#666"/>
+<rect x="305" y="418" width="330" height="32" rx="5" fill="#666" fill-opacity="0.04" stroke="#666" stroke-width="1.2"/>
+<text x="470" y="438" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ABENDI NA-003 ou ISO 9712</text>
+<line x1="635" y1="434" x2="690" y2="300" stroke="#666" stroke-width="0.8" stroke-dasharray="3,2"/>
+<rect x="690" y="220" width="260" height="120" rx="8" fill="#666" fill-opacity="0.12" stroke="#666" stroke-width="1.5"/>
+<text x="820" y="245" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">OPC acreditado no escopo</text>
+<text x="820" y="262" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(ISO/IEC 17024)</text>
+<text x="820" y="285" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ou entidade listada nas</text>
+<text x="820" y="300" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">tabelas de equivalência</text>
+<text x="820" y="322" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">outros: aprovação prévia</text>
+<text x="820" y="380" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">níveis equivalentes (ex.: soldagem)</text>
+<rect x="700" y="460" width="80" height="40" rx="0" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.2"/>
+<text x="740" y="476" text-anchor="middle" font-size="10" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">N1 / visual</text>
+<text x="740" y="490" text-anchor="middle" font-size="8.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">CAWI · Level 1</text>
+<rect x="782" y="430" width="80" height="70" rx="0" fill="#666" fill-opacity="0.16" stroke="#666" stroke-width="1.2"/>
+<text x="822" y="446" text-anchor="middle" font-size="10" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">N2</text>
+<text x="822" y="460" text-anchor="middle" font-size="8.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">CWI · Level 2</text>
+<rect x="864" y="400" width="80" height="100" rx="0" fill="#666" fill-opacity="0.24" stroke="#666" stroke-width="1.2"/>
+<text x="904" y="416" text-anchor="middle" font-size="10" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">sênior</text>
+<text x="904" y="430" text-anchor="middle" font-size="8.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">SCWI · Level 3</text>
+<text x="500" y="490" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Vale só para prestadores de serviço quando o contrato exigir a certificação.</text>
+<text x="12" y="532" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

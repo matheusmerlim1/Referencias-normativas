@@ -1,0 +1,134 @@
+{
+ "id": "PETROBRAS-N-2169",
+ "titulo": "Petrobras N-2169 Rev. E (02/2016) — Mangotes marítimos: manuseio, embalagem, transporte e armazenamento",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1, 3",
+   "texto": "Procedimentos para manusear, embalar, transportar e armazenar mangotes marítimos (catenária, flutuante, lanterna chinesa, submarino, dupla carcaça), da fabricação até a instalação e o descomissionamento; inspeção e manutenção pela N-2073. Termos: desacoplador rápido (marine breakaway coupling, que rompe e fecha as pontas sob tração excessiva), estrado (skid), flange cego, flutuador e tampão de madeira ou PVC com furos de ventilação.",
+   "valores": [],
+   "figuras": [
+    "esquemas/mangote-maritimo-manuseio-armazenagem.svg"
+   ]
+  },
+  {
+   "titulo": "Manuseio",
+   "item": "4",
+   "texto": "Evitar atrito, choques e objetos cortantes na capa (há espuma de flutuação por baixo) e dobramento excessivo, que rompe a carcaça, amassa, ovaliza ou quebra o arame helicoidal. Sem peso do fabricante, usar as Tabelas 1 e 2 (pesos vazios no ar por tipo e diâmetro, mangote de 10 670 mm). Içar com balança e no mínimo 4 pontos, cintas sintéticas largas; nunca só pelos flanges ou por 2 pontos (exceto para pôr calços, sem tirar o mangote do chão). Não arrastar nem rolar em piso abrasivo; mangote que volta de operação com resíduo oleoso recebe proteção estanque nas pontas ou estrado com contenção.",
+   "valores": [
+    {
+     "parametro": "Peso aproximado — 150 psi, catenária DN 250/400/500",
+     "valor": "1 670 / 2 818 / 3 660 kg",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Peso aproximado — 150 psi, flutuante DN 250/400/500",
+     "valor": "1 117 / 2 927 / 3 706 kg",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Peso aproximado — 150 psi, lanterna chinesa DN 250/400/500",
+     "valor": "1 585 / 2 682 / 3 490 kg",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Peso aproximado — 150 psi, submarino DN 250/400/500",
+     "valor": "1 590 / 2 814 / 3 546 kg",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Peso aproximado — 300 psi, catenária DN 250/400/500",
+     "valor": "2 210 / 3 682 / 4 740 kg",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Comprimento de referência das tabelas de peso",
+     "valor": "10 670 mm (35 pés)",
+     "item": "Tabelas 1 e 2 (nota 2)"
+    },
+    {
+     "parametro": "Número mínimo de pontos de içamento",
+     "valor": "4",
+     "item": "4.3.1"
+    },
+    {
+     "parametro": "Largura mínima das cintas sintéticas",
+     "valor": "60 mm",
+     "item": "4.3.3",
+     "cota": "esquemas/mangote-maritimo-manuseio-armazenagem.svg#cinta-largura"
+    },
+    {
+     "parametro": "Elevação máxima pelas pontas para colocar calços",
+     "valor": "1 m",
+     "item": "4.3.4",
+     "cota": "esquemas/mangote-maritimo-manuseio-armazenagem.svg#elevacao-calco"
+    }
+   ],
+   "figuras": [
+    "esquemas/mangote-maritimo-manuseio-armazenagem.svg"
+   ]
+  },
+  {
+   "titulo": "Embalagem e armazenamento",
+   "item": "5, 6",
+   "texto": "Flanges tamponados com material resistente a impacto, com furos de ventilação; mangotes com colares guardados com os flutuadores desmontados. Armazenar sobre estrados ou suportes, longe de umidade, ozônio, solventes e gases ácidos, de preferência coberto e ventilado, sem flange de um tocar o corpo de outro; lavar e secar por dentro antes de tamponar; cuidado com os sinalizadores de rompimento da 1ª carcaça. Estrado em berço com apoio nas pontas e 3 intermediários, sobre o solo (de preferência concreto), perto de vias para guindaste ou empilhadeira. Suportes no solo compridos o bastante para vários mangotes, com espaço para ventilação e cintas; empilhar em suportes só na triagem, com espaçadores e mangotes de baixo calçados.",
+   "valores": [
+    {
+     "parametro": "Empilhamento máximo de mangotes / de estrados",
+     "valor": "3 níveis",
+     "item": "6, 6.1.2, 6.2.2",
+     "cota": "esquemas/mangote-maritimo-manuseio-armazenagem.svg#empilhamento"
+    },
+    {
+     "parametro": "Altura do estrado",
+     "valor": "410 mm (apoios de 50 mm, para 5 t)",
+     "item": "Figura 22",
+     "nota": "Lido da figura esquemática do estrado.",
+     "cota": "esquemas/mangote-maritimo-manuseio-armazenagem.svg#altura-estrado"
+    },
+    {
+     "parametro": "Altura dos apoios do estrado",
+     "valor": "50 mm",
+     "item": "Figura 22",
+     "nota": "Lido da figura.",
+     "cota": "esquemas/mangote-maritimo-manuseio-armazenagem.svg#apoio-estrado"
+    },
+    {
+     "parametro": "Largura mínima dos suportes no solo",
+     "valor": "0,7 m",
+     "item": "6.2.1",
+     "cota": "esquemas/mangote-maritimo-manuseio-armazenagem.svg#largura-suporte"
+    },
+    {
+     "parametro": "Espaçadores de madeira entre mangotes empilhados",
+     "valor": "pranchões de 200 mm × 50 mm",
+     "item": "6.2.2",
+     "cota": "esquemas/mangote-maritimo-manuseio-armazenagem.svg#espacador"
+    }
+   ],
+   "figuras": [
+    "esquemas/mangote-maritimo-manuseio-armazenagem.svg"
+   ]
+  },
+  {
+   "titulo": "Transporte e reboque",
+   "item": "7, 8",
+   "texto": "Transporte em estrados empilhados até 2, com os mesmos cuidados. Reboque de preferência com a linha vazia, por flange cego com olhal, sem submergir abaixo do limite do fabricante, pela ponta mais distante do desacoplador; em canal de navegação, segunda embarcação para manter o alinhamento.",
+   "valores": [
+    {
+     "parametro": "Estrados empilhados no transporte",
+     "valor": "até 2",
+     "item": "7"
+    },
+    {
+     "parametro": "Velocidade máxima de reboque",
+     "valor": "5 nós",
+     "item": "8.6"
+    }
+   ],
+   "figuras": [
+    "esquemas/mangote-maritimo-manuseio-armazenagem.svg"
+   ]
+  }
+ ]
+}

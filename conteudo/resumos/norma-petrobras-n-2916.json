@@ -1,0 +1,24 @@
+{
+ "id": "PETROBRAS-N-2916",
+ "titulo": "Petrobras N-2916 Rev. A (12/2012) — Ventilador centrífugo: folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso da folha de dados",
+   "item": "1, 3",
+   "texto": "Padroniza a folha de dados (Anexo A, 10 folhas) de ventiladores centrífugos (API STD 673 / ISO 13705 Anexo E). Preenchida, é anexada à RM como documento de compra e, complementada pelo fabricante, torna-se documento permanente; campo em branco ao lado do nº da página para referência interna.",
+   "valores": [],
+   "figuras": [
+    "esquemas/maquinas-folha-dados-motor-ventilador-redutor.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo do formulário",
+   "item": "Anexo A",
+   "texto": "Identificação (fabricante, tamanho, arranjo, acionador, transmissão, sentido de rotação, acoplamento). Condições de operação normal, nominal e outras: gás, massa específica, vazões normalizada, mássica e volumétrica (úmido/seco), temperatura e umidade de sucção, massa molar, Cp/Cv, compressibilidade, pressões estáticas e perdas de carga em silencioso, transição e dampers (mmH₂O), potência consumida, rotação, ponto garantido e curva, ΔP estático, posição de dampers/palhetas, eficiência estática. Controle (damper de sucção ou descarga, pás-guia, variação de rotação; modo de falha), partida e restrições. Análise do gás (fração molar e massa molar de ar, O₂, N₂, H₂O, CO, CO₂, H₂S, HCl, SO₂), corrosão/erosão e materiais NACE. Dados de campo (local, clima, elevação, vento, temperaturas, área classificada, ruído, pintura, embarque e içamento). Construção: velocidades máxima e de trip, críticas laterais e torsionais com análises, carcaça (classe AMCA), isolamento, drenos, bocas de visita, pás e rotor (diâmetros, material, cubo, WK²), mancais e caixas (detectores API 670, lubrificação, resfriamento), selos, luvas de eixo, vibração admissível.",
+   "valores": [],
+   "figuras": [
+    "esquemas/maquinas-folha-dados-motor-ventilador-redutor.svg"
+   ]
+  }
+ ]
+}

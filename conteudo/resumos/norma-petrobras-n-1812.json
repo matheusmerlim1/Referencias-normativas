@@ -1,0 +1,53 @@
+{
+ "id": "PETROBRAS-N-1812",
+ "titulo": "Petrobras N-1812 Rev. C (01/2006) — Estruturas oceânicas (terminologia)",
+ "secoes": [
+  {
+   "titulo": "Objetivo e organização",
+   "item": "1, 2",
+   "texto": "Glossário inglês–português dos termos de projeto, fabricação, montagem, instalação e operação de estruturas oceânicas de perfuração e produção. Parte I: termos em inglês em ordem alfabética, com a tradução e o significado; Parte II: índice português → inglês. Termos de uso geral na engenharia entram com o sentido próprio da área offshore; termos sem definição são considerados autoexplicativos. Figuras ilustram tipos de plataforma, convés e jaqueta.",
+   "figuras": [
+    "esquemas/estrutura-oceanica-vocabulario.svg",
+    "esquemas/unidade-offshore-tipos.svg"
+   ]
+  },
+  {
+   "titulo": "Plataforma fixa",
+   "item": "3 (Parte I)",
+   "texto": "Jaqueta: estrutura que vai da fundação até pouco acima do mar e recebe o convés e os módulos; pernas e contraventamentos formam a treliça; estaca auxiliar (skirt pile) é cravada por fora das pernas; sapata (mud mat) apoia a jaqueta no fundo até o estaqueamento; gabarito (template) guia a perfuração dos poços e a instalação da plataforma; atracadouro (boat landing) é o pequeno cais preso à jaqueta. Zona de transição (splash zone): faixa molhada de tempos em tempos por onda, maré e respingo. Espaço livre (air gap): folga entre o ponto mais baixo do convés inferior e a crista mais alta da água em condição extrema.",
+   "valores": [
+    {
+     "parametro": "Espaço livre (air gap) — definição",
+     "valor": "do fundo do convés inferior ao nível mais alto da água em condição extrema",
+     "item": "3 \"Air Gap\"",
+     "cota": "esquemas/estrutura-oceanica-vocabulario.svg#air-gap"
+    },
+    {
+     "parametro": "Lâmina d’água — referência",
+     "valor": "do nível do mar ao leito marinho",
+     "item": "3",
+     "cota": "esquemas/estrutura-oceanica-vocabulario.svg#lamina"
+    }
+   ],
+   "figuras": [
+    "esquemas/estrutura-oceanica-vocabulario.svg"
+   ]
+  },
+  {
+   "titulo": "Unidades flutuantes e ancoragem",
+   "item": "3 (Parte I)",
+   "texto": "Semissubmersível: convés sobre colunas estabilizadoras ligadas a flutuadores (pontoons); caixão (caisson) pode ser a base celular de estrutura por gravidade ou o tanque na base da coluna. Calado: distância vertical da linha d’água ao ponto mais baixo do casco, medida a vante, a meia-nau e a ré. Âncora, estaca de ancoragem e berço de âncora; riser (duto de interligação) liga a unidade ao duto submarino; massa adicionada = massa de água acelerada junto com o corpo, somada na análise dinâmica. Escada de portaló, alojamentos e plataformas de acesso também são definidos.",
+   "valores": [
+    {
+     "parametro": "Calado (draft) — definição",
+     "valor": "da superfície da água ao ponto mais baixo da embarcação, medido a vante, meia-nau e ré",
+     "item": "3 \"Draft\"",
+     "cota": "esquemas/estrutura-oceanica-vocabulario.svg#calado"
+    }
+   ],
+   "figuras": [
+    "esquemas/estrutura-oceanica-vocabulario.svg"
+   ]
+  }
+ ]
+}

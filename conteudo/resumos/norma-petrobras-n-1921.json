@@ -1,0 +1,43 @@
+{
+ "id": "PETROBRAS-N-1921",
+ "titulo": "Petrobras N-1921 Rev. C (08/2013) — Caixa de engrenagens para serviço especial — folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e preenchimento",
+   "item": "1, 3",
+   "texto": "Folha de dados (Anexo A, unidades de engenharia, e Anexo B, SI) da caixa de engrenagens de serviço especial conforme a API 613. Legenda pela N-381 e TAG pela N-1521.",
+   "valores": [],
+   "figuras": [
+    "esquemas/engrenagem-par-folga.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo do formulário",
+   "item": "Anexos A e B",
+   "texto": "Condições de operação (potência, rotações de entrada e saída, relação, fator de serviço), dados das engrenagens (tipo, hélice, módulo, número de dentes, larguras, fatores de serviço e de durabilidade), mancais e sensores de vibração X-Y e de posição axial, lubrificação (óleo, viscosidades a 40 °C e 100 °C), carcaça, acoplamentos (furo do cubo, chaveta ou cônico), testes e inspeção.",
+   "valores": [
+    {
+     "parametro": "Distância entre centros",
+     "valor": "campo da folha, em mm",
+     "item": "Anexo A",
+     "cota": "esquemas/engrenagem-par-folga.svg#a"
+    },
+    {
+     "parametro": "Diâmetros primitivo, externo e de raiz; largura",
+     "valor": "campos da folha, em mm",
+     "item": "Anexo A",
+     "cota": "esquemas/engrenagem-par-folga.svg#a"
+    },
+    {
+     "parametro": "Folga entre dentes (mín./máx.) e folga de funcionamento",
+     "valor": "campos da folha, em mm",
+     "item": "Anexo A",
+     "cota": "esquemas/engrenagem-par-folga.svg#folga"
+    }
+   ],
+   "figuras": [
+    "esquemas/engrenagem-par-folga.svg"
+   ]
+  }
+ ]
+}

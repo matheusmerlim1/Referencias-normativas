@@ -1,0 +1,154 @@
+{
+ "id": "PETROBRAS-N-2869",
+ "titulo": "Petrobras N-2869 Rev. B (06/2025) — Segurança em movimentação de carga",
+ "secoes": [
+  {
+   "titulo": "Escopo, responsabilidades e planejamento",
+   "item": "1–7",
+   "texto": "Segurança na movimentação manual e mecanizada de cargas em terra e no mar: elevação (motorizada e não motorizada), estruturas e acessórios de içamento, amarração, transporte, contentores e cargas específicas. Define atribuições da empresa, do suporte técnico e da equipe (sinaleiro/amarrador, operador, supervisor), comunicação por sinais e rádio, planejamento com contingência, análise de risco e plano de movimentação. Classifica as operações em rotineira, não rotineira e crítica; içamentos críticos de guindastes e pontes cobertos pelas N-1965/N-1930 seguem essas normas.",
+   "valores": [
+    {
+     "parametro": "Movimentação crítica (equipamentos fora das N-1965/N-1930)",
+     "valor": "utilização > 90 % da capacidade nominal; tandem; pessoas; operação sem retorno; espaço restrito; técnica inovadora",
+     "item": "7.4.3.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/movimentacao-carga-angulos-lingas.svg",
+    "esquemas/lingadas-acessorios-angulo-perna-carga.svg"
+   ]
+  },
+  {
+   "titulo": "Equipamentos de elevação",
+   "item": "8–12",
+   "texto": "Disposições para guinchos, talhas, pontes rolantes, pórticos, turcos de serviço e de salvatagem, empilhadeiras, poliguindastes, gruas (anticolisão entre gruas do mesmo canteiro), guindastes terrestres, articulados e offshore (tabelas de carga estática e dinâmica), talhas e guinchos de alavanca manuais, macacos e girafas; estruturas de elevação (pórticos móveis, monovias, olhais fixos, paus-de-carga, estruturas tubulares temporárias).",
+   "valores": [
+    {
+     "parametro": "Talha manual — inclinação máxima",
+     "valor": "a do fabricante, nunca acima de 60° da vertical",
+     "item": "11.2.1.5",
+     "cota": "esquemas/movimentacao-carga-angulos-lingas.svg#talha-vertical"
+    },
+    {
+     "parametro": "Teste de turco de salvatagem — descida da baleeira",
+     "valor": "até 10 m ou 50 % da altura de instalação (recomendado)",
+     "item": "10.7.13",
+     "cota": "esquemas/turco-baleeira-teste-descida.svg#distancia-descida"
+    },
+    {
+     "parametro": "Transpaleteira motorizada que eleva acima de",
+     "valor": "30 cm do solo → tratada como empilhadeira",
+     "item": "15.4.17"
+    }
+   ],
+   "figuras": [
+    "esquemas/movimentacao-carga-angulos-lingas.svg",
+    "esquemas/turco-baleeira-teste-descida.svg"
+   ]
+  },
+  {
+   "titulo": "Acessórios de elevação e amarração",
+   "item": "13, 14",
+   "texto": "Anéis, cintas têxteis e metálicas, destorcedores, esticadores, ganchos, grampos U, lingas de cabo e corrente, manilhas, moitões, olhais roscados, beam clamps, soquetes, garras, redes, dispositivos e eletroímãs, absorvedores de choque e acessórios sob medida, todos inspecionados e dentro da carga máxima de trabalho, considerando o efeito do ângulo; carga estável e amarrada.",
+   "valores": [
+    {
+     "parametro": "Ângulo horizontal de carregamento (anel)",
+     "valor": "≥ 30° (salvo aprovação de profissional qualificado)",
+     "item": "13.2.2; Fig. 10",
+     "cota": "esquemas/movimentacao-carga-angulos-lingas.svg#angulo-horizontal"
+    },
+    {
+     "parametro": "Lingas reunidas num anel — ângulo",
+     "valor": "≤ 120°",
+     "item": "13.2.3",
+     "cota": "esquemas/movimentacao-carga-angulos-lingas.svg#angulo-anel"
+    },
+    {
+     "parametro": "Cinta de malha metálica — ângulo de estrangulamento",
+     "valor": "≥ 120°",
+     "item": "13.4.6; Fig. 11",
+     "cota": "esquemas/movimentacao-carga-angulos-lingas.svg#estrangulamento"
+    },
+    {
+     "parametro": "Duas lingas no gancho — ângulo entre pernas",
+     "valor": "≤ 90° (ou o do fabricante)",
+     "item": "13.7.3",
+     "cota": "esquemas/movimentacao-carga-angulos-lingas.svg#gancho-entre-pernas"
+    },
+    {
+     "parametro": "Perna da linga ↔ linha de centro do gancho",
+     "valor": "≤ 45°; acima disso ou com mais de 2 pernas, usar elo ou manilha coletora",
+     "item": "13.7.3, 13.7.4",
+     "cota": "esquemas/movimentacao-carga-angulos-lingas.svg#gancho-perna-eixo"
+    },
+    {
+     "parametro": "Várias lingas no corpo da manilha",
+     "valor": "ângulo interno ≤ 120°",
+     "item": "13.11.6 d); Fig. 15",
+     "cota": "esquemas/movimentacao-carga-angulos-lingas.svg#manilha-angulo"
+    },
+    {
+     "parametro": "Lingas (cinta, cabo, corrente) com o plano horizontal",
+     "valor": "proibido abaixo de 30°",
+     "item": "14.1.11",
+     "cota": "esquemas/movimentacao-carga-angulos-lingas.svg#angulo-horizontal"
+    },
+    {
+     "parametro": "Eletroímã — antes de elevar a carga",
+     "valor": "controle na posição de carga máxima antes de subir mais de 50 mm",
+     "item": "13.20.1.8"
+    }
+   ],
+   "figuras": [
+    "esquemas/movimentacao-carga-angulos-lingas.svg"
+   ]
+  },
+  {
+   "titulo": "Transporte, contentores e cargas específicas",
+   "item": "15–21",
+   "texto": "Carros transportadores e linhas de eixos (trajeto avaliado quanto a pipe racks e curvas), paleteiras, carros plataforma e roletes; amarração em veículos e contentores com cintas-catraca, correntes, redes e fitas; contêineres, caixas e cestas metálicas, skids, caçambas, FIBC e tanques intermediários de produtos perigosos (Portaria INMETRO 320/2021); tubos, perfis, chapas, bobinas, flanges e válvulas. Dispositivos de proteção das mãos (Tabela 4) evitam contato direto com a carga.",
+   "valores": [
+    {
+     "parametro": "Ângulo entre alças de FIBC (big bag)",
+     "valor": "30° recomendado",
+     "item": "18.7.10",
+     "cota": "esquemas/movimentacao-carga-angulos-lingas.svg#fibc-alcas"
+    },
+    {
+     "parametro": "Pegador de tubos (proteção das mãos)",
+     "valor": "tubos e spools de 2\" a 13\"",
+     "item": "Tabela 4"
+    }
+   ],
+   "figuras": [
+    "esquemas/movimentacao-carga-angulos-lingas.svg"
+   ]
+  },
+  {
+   "titulo": "Movimentação de pessoas — transbordo",
+   "item": "22.8",
+   "texto": "Transbordo entre embarcações e plataformas com cesta homologada pela DPC, revisada anualmente (NORMAM-321), com cabo guia e conectada direto ao gancho (sem linga de extensão); passageiros com calçado, óculos, capacete, colete classe I e cinto; guincho próprio para pessoas quando existir; condições ambientais registradas; ninguém transbordado contra a vontade.",
+   "valores": [
+    {
+     "parametro": "Revisão da cesta de transferência",
+     "valor": "a cada 12 meses",
+     "item": "22.8.3"
+    },
+    {
+     "parametro": "Transbordo — vento máximo",
+     "valor": "27 nós (50 km/h), de dia e com boa visibilidade",
+     "item": "22.8.6 a)"
+    },
+    {
+     "parametro": "Transbordo — altura máxima de onda",
+     "valor": "2,7 m (independente do vento)",
+     "item": "22.8.6 b)",
+     "cota": "esquemas/movimentacao-carga-angulos-lingas.svg#onda"
+    }
+   ],
+   "figuras": [
+    "esquemas/movimentacao-carga-angulos-lingas.svg"
+   ]
+  }
+ ]
+}

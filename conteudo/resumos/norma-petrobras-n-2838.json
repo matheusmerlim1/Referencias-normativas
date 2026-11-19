@@ -1,0 +1,144 @@
+{
+ "id": "PETROBRAS-N-2838",
+ "titulo": "Petrobras N-2838 Rev. C (05/2020) — Proteção catódica para instalações marítimas flutuantes/fixas e equipamentos submarinos",
+ "secoes": [
+  {
+   "titulo": "Escopo e critério de proteção",
+   "item": "1, 4.1–4.5",
+   "texto": "Requisitos adicionais à DNVGL-RP-B401 (plataformas fixas e equipamentos submarinos: ANM, manifolds, PLEM, PLET, SCM, BAP) e à DNVGL-RP-B101 (unidades flutuantes: semissubmersíveis, FPSO, navios, boias e monoboias) para projeto, fabricação, montagem e pré-operação de proteção catódica; dutos submarinos pela N-1935. Conversão entre eletrodos: P(Ag/AgCl) = P(Zn) − 1 050 mV. Martensíticos, duplex e superduplex sofrem fragilização por hidrogênio abaixo de −800 mV (Ag/AgCl). Recomenda-se retificadores idênticos numa mesma instalação.",
+   "valores": [
+    {
+     "parametro": "Faixa de potencial de proteção do aço-carbono",
+     "valor": "−800 mV a −1 150 mV (Ag/AgCl) ou +250 mV a −100 mV (Zn)",
+     "item": "4.2.1",
+     "cota": "esquemas/protecao-catodica-casco-flutuante.svg#potencial"
+    }
+   ],
+   "figuras": [
+    "esquemas/protecao-catodica-casco-flutuante.svg"
+   ]
+  },
+  {
+   "titulo": "Embarcações e equipamentos submarinos",
+   "item": "4.6–4.10",
+   "texto": "A área de cálculo é toda a superfície submersa no calado máximo com continuidade metálica (exceto dutos com SPC próprio). Retificadores em local abrigado, acessível e não classificado; todos os eletrodos ligados ao retificador para controle automático. Anodos na proa e na popa para distribuição uniforme, fora das anteparas de tanques de carga; em navios de transporte, mais anodos para hélice e leme. Estruturas complexas somam as demandas de cada material; anodos distribuídos sem atrapalhar a operação; compartimentos fechados não estanques recebem anodos com saída para produtos de corrosão; pintura de equipamento submarino pela RP-B401 e N-2037. Tanques: corrente impressa proibida com atmosfera explosiva; galvânico permitido com restrições; não se aplica a tanque de água potável.",
+   "valores": [
+    {
+     "parametro": "Comprimento total que exige no mínimo dois sistemas de corrente impressa (cada um com retificador, anodos e ≥ 2 eletrodos)",
+     "valor": "> 150 m",
+     "item": "4.6.1",
+     "cota": "esquemas/protecao-catodica-casco-flutuante.svg#comprimento-total"
+    },
+    {
+     "parametro": "Extensão de amarras/cabos não isolados incluída na área",
+     "valor": "30 m",
+     "item": "4.6.2 (nota)"
+    },
+    {
+     "parametro": "Profundidade mínima de anodos e eletrodos abaixo do calado mínimo",
+     "valor": "1 m",
+     "item": "4.6.3",
+     "cota": "esquemas/protecao-catodica-casco-flutuante.svg#profundidade-anodo"
+    },
+    {
+     "parametro": "Distância mínima dos anodos a caixas de mar, embornais, sensores",
+     "valor": "3 m",
+     "item": "4.6.3 b)",
+     "cota": "esquemas/protecao-catodica-casco-flutuante.svg#anodo-acessorio"
+    },
+    {
+     "parametro": "Distância mínima dos eletrodos de referência aos anodos inertes",
+     "valor": "9 m",
+     "item": "4.6.3 d)",
+     "cota": "esquemas/protecao-catodica-casco-flutuante.svg#eletrodo-anodo"
+    },
+    {
+     "parametro": "Anodos na região da popa (navios de transporte)",
+     "valor": "20 % a 30 % do total",
+     "item": "4.6.4",
+     "nota": "Prática recomendada."
+    },
+    {
+     "parametro": "Acréscimo de densidade de corrente em componentes aquecidos",
+     "valor": "+1 mA/m² por °C da parede acima da temperatura ambiente",
+     "item": "4.9.4"
+    },
+    {
+     "parametro": "Temperatura ambiente de cálculo por profundidade",
+     "valor": "18 °C até 100 m; 12 °C de 100 m a 300 m; 4 °C acima de 300 m",
+     "item": "4.9.4 (nota)"
+    },
+    {
+     "parametro": "Anodo de alumínio em tanque com atmosfera explosiva",
+     "valor": "proibido se altura (m) × peso bruto (kgf) > 28 kgf·m",
+     "item": "4.10.4"
+    },
+    {
+     "parametro": "Temperatura máxima dos anodos — alumínio / zinco",
+     "valor": "80 °C / 50 °C",
+     "item": "4.10 (notas 2 e 3)"
+    }
+   ],
+   "figuras": [
+    "esquemas/protecao-catodica-casco-flutuante.svg"
+   ]
+  },
+  {
+   "titulo": "Vida útil, cálculo e instalação",
+   "item": "5–8",
+   "texto": "Corrente impressa do casco com a vida útil da embarcação; galvânico pela Tabela 2 (boias: entre docagens; caixas de mar, tanques, turret e cascos: vida útil ou intervalo entre docagens/inspeções definido pela Petrobras; jaqueta: vida útil da unidade). Número de anodos e retificadores pela maior das correntes inicial, média e final. Distribuição conforme desenhos, atualizados como construído. Cabos de anodos e eletrodos por fora do casco só em revitalização aprovada.",
+   "valores": [
+    {
+     "parametro": "Vida útil de projeto em caixas de mar com acesso para repor anodos",
+     "valor": "até 5 anos",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Continuidade metálica anodo–estrutura",
+     "valor": "< 0,1 Ω",
+     "item": "8.2.3"
+    },
+    {
+     "parametro": "Blindagem dielétrica em volta do anodo inerte",
+     "valor": "≥ 2 m ao redor (estruturas nesse raio também revestidas)",
+     "item": "8.3.1",
+     "cota": "esquemas/protecao-catodica-casco-flutuante.svg#blindagem-raio"
+    }
+   ],
+   "figuras": [
+    "esquemas/protecao-catodica-casco-flutuante.svg"
+   ]
+  },
+  {
+   "titulo": "Pré-operação, operação e manutenção",
+   "item": "9–11",
+   "texto": "Após instalar anodos galvânicos, aguardar a polarização e medir potenciais em toda a estrutura (mergulho raso ou ROV); em corrente impressa, acompanhar os parâmetros na polarização. Medições priorizadas em regiões críticas (amassamentos, corrosão, revestimento gasto, soldas, anodos muito consumidos). Registros periódicos dos retificadores; manutenção de anodo inerte ou eletrodo fixo quando falharem; limpar sal em volta de anodos e eletrodos. Documentação como construído com todas as mudanças.",
+   "valores": [
+    {
+     "parametro": "Espera para polarização antes das medições (galvânico)",
+     "valor": "≥ 14 dias",
+     "item": "9.2.2"
+    },
+    {
+     "parametro": "Afastamento máximo do eletrodo portátil à estrutura (meia altura do calado)",
+     "valor": "5 m",
+     "item": "9 (nota 1)",
+     "cota": "esquemas/protecao-catodica-casco-flutuante.svg#profundidade-anodo"
+    },
+    {
+     "parametro": "Monitoração da polarização (corrente impressa)",
+     "valor": "≥ 10 dias",
+     "item": "9.5.3"
+    },
+    {
+     "parametro": "Intervalo máximo dos registros de operação",
+     "valor": "15 dias",
+     "item": "10.3.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/protecao-catodica-casco-flutuante.svg"
+   ]
+  }
+ ]
+}

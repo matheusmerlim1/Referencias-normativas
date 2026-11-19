@@ -1,0 +1,15 @@
+{
+ "id": "PETROBRAS-N-2915",
+ "titulo": "Petrobras N-2915 Rev. A (11/2012) — Motor de combustão interna: folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e uso da folha de dados",
+   "item": "1, 2",
+   "texto": "Padroniza a folha de dados (Anexo A) de motores de combustão interna para projetos da Petrobras. Preenchida, é anexada à requisição de materiais (RM) e passa a ser documento de compra; completada pelo fabricante quando for o caso, torna-se documento permanente do equipamento. O campo em branco à direita do número da página pode receber referência interna do emissor. O formulário em si (potência, rotação, combustível, sistemas de partida, arrefecimento, governador, emissões, acessórios) não tem texto extraível na cópia disponível.",
+   "valores": [],
+   "figuras": [
+    "esquemas/maquinas-folha-dados-motor-ventilador-redutor.svg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "id": "PETROBRAS-N-2737",
+ "titulo": "Petrobras N-2737 Rev. B (10/2014) — Manutenção de oleoduto e gasoduto terrestre",
+ "secoes": [
+  {
+   "titulo": "Escopo, planejamento e registros",
+   "item": "1, 4.1–4.4",
+   "texto": "Condições para manter dutos terrestres de aço-carbono da Petrobras (inclusive operados por terceiros) projetados pela NBR 15280-1, NBR 12712, ASME B31.4 ou B31.8, novos ou em reforma. Planejamento conforme clima, produto, topografia, população, mananciais e áreas protegidas: lista de verificação, procedimentos de bloqueio, despressurização e limpeza, equipe com revezamento, logística, acessos, comunicação testada, aviso a órgãos e autoridades, avaliar desligar a proteção catódica com jumper, permissão de trabalho (N-2162), APR, bloqueio de derivações, segurança patrimonial, licenças, plano de emergência, treinamento em produtos perigosos, N-2163 (solda e trepanação em operação) e N-2349 (corte). Recomenda-se manual de manutenção (produtos, dados de projeto, procedimentos de rotina e emergência), revisado periodicamente, e registros das intervenções.",
+   "valores": [],
+   "figuras": [
+    "esquemas/duto-reparo-bacalhau-dupla-calha.svg"
+   ]
+  },
+  {
+   "titulo": "Classes e métodos de reparo",
+   "item": "4.5",
+   "texto": "Contingência: conter ou prevenir vazamento para condicionar o duto. Temporário: reforço que deve virar permanente em prazo limitado (no compósito contra corrosão externa, prazo do projeto). Permanente: recompõe toda a resistência. Escolha pelo Tabela B.1 (defeito × reparo). Braçadeira com grampos (batoque/remendo de borracha, chapa e no mínimo dois grampos; mossa ou corrosão preenchida com massa epóxi), braçadeira com pino centralizador para furos pequenos, braçadeira mecânica parafusada para defeitos curtos em trecho reto (retirar o reforço da solda longitudinal; vent se não estancar). Enchimento com solda pela N-2163, com exame de trincas. Luva de compósito pela ISO TS 24817/ASME PCC-2 com executante qualificado e prazo definido (cintas metálicas nas pontas recomendadas para o pig MFL); não serve para perda > 70 %, defeitos circunferenciais ou por carga axial. Bacalhau acima de 20 % do SMYS pela ASME PCC-2; até 20 %, chapa de resistência ≥ à do tubo e mesma curvatura. Dupla calha com espessura calculada para o projeto, solda longitudinal de topo com mata-junta, materiais certificados e inspecionados (visual, dimensional, PM e US); 'pumpkin' com epóxi no anular para geometria especial. Troca de trecho com seção de pressão de projeto ≥ à do duto, testada (N-2098), sem reparo de raiz na solda de tie-in; sem parada, bloqueio e derivação por trepanação. Outros: escavação para alívio de tensão, calçamento, rebaixamento, recobrimento. Soldagem qualificada pela N-133 e API 1104.",
+   "valores": [
+    {
+     "parametro": "Prazo máximo do reparo temporário",
+     "valor": "2 anos",
+     "item": "4.5.1.2"
+    },
+    {
+     "parametro": "Redução de pressão recomendada durante o reparo",
+     "valor": "80 % da pressão de operação",
+     "item": "4.5.2",
+     "nota": "Prática recomendada."
+    },
+    {
+     "parametro": "Massa epóxi de preenchimento (braçadeira com grampos)",
+     "valor": "resistência à compressão ≥ 15 ksi; cura de 45 min a 60 min",
+     "item": "4.5.2.1 (nota 1)"
+    },
+    {
+     "parametro": "Profundidade máxima de esmerilhamento",
+     "valor": "40 % da espessura do duto",
+     "item": "4.5.2.4",
+     "cota": "esquemas/duto-reparo-bacalhau-dupla-calha.svg#esmerilhamento-prof"
+    },
+    {
+     "parametro": "Perda de espessura máxima para luva de compósito",
+     "valor": "70 %",
+     "item": "4.5.2.6.1",
+     "cota": "esquemas/duto-reparo-bracadeira-calcamento.svg#perda-espessura"
+    },
+    {
+     "parametro": "Luva de compósito — margem além de cada extremidade do defeito",
+     "valor": "o maior entre 50 mm e 2·√(D·t)",
+     "item": "4.5.2.6.2",
+     "nota": "Fórmula reconstituída do texto extraído ('2 t . D'); conferir.",
+     "cota": "esquemas/duto-reparo-bracadeira-calcamento.svg#bracadeira-folga"
+    },
+    {
+     "parametro": "Bacalhau (≤ 20 % SMYS) — abertura máxima",
+     "valor": "180°",
+     "item": "4.5.2.7.2 c)",
+     "cota": "esquemas/duto-reparo-bacalhau-dupla-calha.svg#bacalhau-angulo"
+    },
+    {
+     "parametro": "Bacalhau — raio mínimo dos cantos",
+     "valor": "3\"",
+     "item": "4.5.2.7.2 c)",
+     "cota": "esquemas/duto-reparo-bacalhau-dupla-calha.svg#bacalhau-raio-canto"
+    },
+    {
+     "parametro": "Bacalhau — distância mínima do defeito à solda do reparo",
+     "valor": "25 mm",
+     "item": "4.5.2.7.2 d)",
+     "cota": "esquemas/duto-reparo-bacalhau-dupla-calha.svg#bacalhau-solda-defeito"
+    },
+    {
+     "parametro": "Dupla calha — margem além de cada extremidade do defeito",
+     "valor": "50 mm (sem limite máximo)",
+     "item": "4.5.2.8 a)",
+     "cota": "esquemas/duto-reparo-bacalhau-dupla-calha.svg#dupla-calha-margem"
+    },
+    {
+     "parametro": "Troca de trecho — comprimento mínimo removido",
+     "valor": "igual ao diâmetro do duto",
+     "item": "4.5.2.9",
+     "cota": "esquemas/duto-reparo-bracadeira-calcamento.svg#defeito-troca"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-reparo-bacalhau-dupla-calha.svg",
+    "esquemas/duto-reparo-bracadeira-calcamento.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção, revestimento, faixa e componentes",
+   "item": "4.6–4.10",
+   "texto": "Inspeção dos reparos por END (N-1594 a N-1598); revestimento recomposto pela BS EN 253 e N-2238 (isolamento térmico de trechos enterrados também); restauração da faixa de domínio e sinalização (N-2200); plano de manutenção preventiva dos componentes conforme fabricantes e experiência, válvulas de segurança pela N-2368; pré-operação e operação após o reparo pelas N-2246 e N-2689.",
+   "valores": [],
+   "figuras": [
+    "esquemas/duto-reparo-bacalhau-dupla-calha.svg"
+   ]
+  }
+ ]
+}

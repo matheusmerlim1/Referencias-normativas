@@ -1,0 +1,79 @@
+{
+ "id": "PETROBRAS-N-2941",
+ "titulo": "Petrobras N-2941 4ª Emenda (03/2023) — Competências pessoais em atividades de inspeção",
+ "secoes": [
+  {
+   "titulo": "Escopo e aplicação",
+   "item": "1, 5.1, 5.3",
+   "texto": "Define que certificação de pessoal se exige dos profissionais de empresas contratadas (não de empregados Petrobras) em atividades de inspeção — e só quando o contrato pede alguma das certificações listadas. Vale onde não houver lei nacional específica. Na decisão de exigir, pesar no mínimo análise de risco, diretrizes de SMS, requisitos dos códigos de projeto e disponibilidade de profissionais certificados. Atividades cobertas: soldagem, END, fabricação, atmosferas explosivas, pintura industrial, automação de processos, automação elétrica, dutos terrestres e inspeção subaquática. Aceitam-se certificados de organismos de certificação de pessoas acreditados no escopo (ISO/IEC 17024) ou das entidades citadas nas tabelas de equivalência. Páginas emendadas no fim do documento são versões antigas e não valem.",
+   "valores": [
+    {
+     "parametro": "Prazo de implementação em substituição à revisão anterior",
+     "valor": "180 dias da publicação (senão, registrar plano de implementação)",
+     "item": "1.6"
+    }
+   ],
+   "figuras": [
+    "esquemas/inspecao-certificacao-competencias.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção de soldagem (Tabela 1)",
+   "item": "6.1",
+   "texto": "No Brasil, inspetor de soldagem certificado por OPC acreditado pelo Inmetro conforme NBR 14842. No exterior ou offshore, vale sistema equivalente da Tabela 1; outro OPC que cumpra a ISO/IEC 17024 pode ser aceito com aprovação prévia da Petrobras. Equivalências: visual/N1/N2 da NBR 14842 ↔ IRAM-IAS U500-169 níveis II e III, CWB WI-L1/L2/L3, CSWIP visual/WI/senior, AWS CAWI/CWI/SCWI, IIW IWI-B/S/C (e IWP, IWS, IWT/IWE).",
+   "valores": [
+    {
+     "parametro": "Inspetor nível 2 (ou equivalente) atuando no exterior",
+     "valor": "certificado na norma principal aplicável ou ≥ 1 ano de experiência com ela",
+     "item": "6.1.2, Nota"
+    },
+    {
+     "parametro": "IRAM-IAS nível I",
+     "valor": "não aceito para inspeção visual",
+     "item": "Tabela 1, Nota 2"
+    }
+   ],
+   "figuras": [
+    "esquemas/inspecao-certificacao-competencias.svg"
+   ]
+  },
+  {
+   "titulo": "Ensaios não destrutivos e inspeção subaquática",
+   "item": "6.2, 6.9",
+   "texto": "Pessoal de END, no Brasil ou fora, certificado por entidade independente acreditada no seu país conforme ISO 9712 (ou NBR NM ISO 9712). Autocertificação pelo empregador, como a SNT-TC-1A, não é aceita em nenhum nível. END subaquático: ABENDI NA-003, ou ISO 9712 quando o esquema prevê formalmente o meio subaquático.",
+   "valores": [
+    {
+     "parametro": "Sistemas de autocertificação (ex.: ASNT SNT-TC-1A)",
+     "valor": "não aceitos (níveis 1, 2 e 3)",
+     "item": "6.2, Nota"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção de fabricação (Tabela 2)",
+   "item": "6.3",
+   "texto": "Inspetor de fabricação certificado pela NBR 16278 ou equivalente API Source Inspector: acessórios de tubulação, caldeiraria/tubulação e equipamentos de perfuração e produção ↔ API SIFE (equipamento fixo); eletricidade e instrumentação ↔ API SIEE; mecânica ↔ API SIRE (rotativos); dutos flexíveis e umbilicais não têm equivalente. Outras certificações independentes precisam de aprovação prévia.",
+   "valores": []
+  },
+  {
+   "titulo": "Pintura, automação, Ex e dutos (Tabelas 3 a 6)",
+   "item": "6.4 a 6.8",
+   "texto": "Pintura: NBR 15218 ou equivalentes (ABRACO, CEBRAPI, NACE CIP níveis 2/3, BGAS, SSPC PCI, FROSIO, ICORR). Automação de processos (TAF, TAC, TIC, montagem e comissionamento): seguir NBR IEC 62381, 62382 e 62337 e certificação FIRJAN, ISA (CCST, CAP) ou NCCER conforme a atividade. Automação elétrica: NBR IEC 62381/62337 e FIRJAN ou NCCER. Atmosferas explosivas: inspeções visuais e apuradas exigem a unidade de competência Ex 007 e inspeções detalhadas a Ex 008 (IECEx OD 504, FIRJAN/SENAI MC-0001 ou ABENDI NA-017), conforme NBR IEC 60079-17. Dutos terrestres: NBR 16049.",
+   "valores": [
+    {
+     "parametro": "Inspeção Ex visual ou apurada",
+     "valor": "unidade de competência Ex 007",
+     "item": "6.7.2 a)"
+    },
+    {
+     "parametro": "Inspeção Ex detalhada",
+     "valor": "unidade de competência Ex 008",
+     "item": "6.7.2 b)"
+    }
+   ],
+   "figuras": [
+    "esquemas/inspecao-certificacao-competencias.svg"
+   ]
+  }
+ ]
+}

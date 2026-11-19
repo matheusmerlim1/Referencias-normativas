@@ -1,0 +1,451 @@
+{
+ "id": "PETROBRAS-N-2935",
+ "titulo": "Petrobras N-2935 (04/2017) — Cimento Portland para cimentação de poços de petróleo em baixa temperatura (CPP-BT)",
+ "secoes": [
+  {
+   "titulo": "Escopo e produto",
+   "item": "1, 3.5",
+   "texto": "Requisitos físicos e químicos, amostragem na produção e ensaios em pasta pura (cimento + água destilada no FAC otimizado) para classificar e aceitar o CPP-BT. O produto vem da moagem de clínquer com gesso e adições ou da mistura seca de cimentos Portland (NBR 5732, 5733, 5735, 5736, 5737, 9831, 11578) com adições minerais, feito em fábrica com qualidade certificada (ISO 9001 ou API Spec Q1). Uso típico: estacas de ancoragem de plataformas e revestimentos condutor e de superfície em poços marítimos frios.",
+   "valores": [
+    {
+     "parametro": "Aplicação típica",
+     "valor": "poços marítimos com temperatura abaixo de 27 °C (80 °F)",
+     "item": "3.5, Nota 1"
+    },
+    {
+     "parametro": "Lote",
+     "valor": "≈ capacidade de um graneleiro ou 30 t, o que for menor",
+     "item": "3.12"
+    },
+    {
+     "parametro": "Saco equivalente",
+     "valor": "100 lb de cimento CPP-BT",
+     "item": "3.18"
+    }
+   ],
+   "figuras": [
+    "esquemas/cimento-poco-ensaios-pasta.svg"
+   ]
+  },
+  {
+   "titulo": "Embalagem, marcação e armazenagem",
+   "item": "4",
+   "texto": "Sacos com o nome 'cimento Portland CPP-BT' e a marca bem visíveis e número da batelada na frente; granel com documento (denominação, marca, batelada, data e massa líquida). Pilhas sobre estrado em local seco; graneleiro inspecionado e lacrado; ar de transferência com desumidificador.",
+   "valores": [
+    {
+     "parametro": "Altura das letras da denominação e marca",
+     "valor": "≥ 60 mm",
+     "item": "4.1.1",
+     "cota": "esquemas/cimento-poco-embalagem-amostragem.svg#letra-denominacao"
+    },
+    {
+     "parametro": "Altura do número da batelada (frente do saco)",
+     "valor": "≥ 50 mm",
+     "item": "4.1.1",
+     "cota": "esquemas/cimento-poco-embalagem-amostragem.svg#letra-batelada"
+    },
+    {
+     "parametro": "Folhas de papel kraft do saco",
+     "valor": "≥ 3 (regiões remotas: ≥ 5, uma de polietileno ou plastificada)",
+     "item": "4.1.2"
+    },
+    {
+     "parametro": "Massa líquida do saco",
+     "valor": "50 kg ± 1 %",
+     "item": "4.1.3"
+    },
+    {
+     "parametro": "Massa líquida do big bag",
+     "valor": "≥ 800 kg ± 1 %",
+     "item": "4.1.4"
+    },
+    {
+     "parametro": "Altura máxima da pilha",
+     "valor": "10 sacos",
+     "item": "4.2.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/cimento-poco-embalagem-amostragem.svg"
+   ]
+  },
+  {
+   "titulo": "Requisitos químicos (Tabela 1)",
+   "item": "5.1, 5.2, Tabela 1",
+   "texto": "O fornecedor informa os métodos de controle dos componentes e envia gráficos dos parâmetros ao longo do lote/batelada que provem a homogeneidade (mistura seca ou moagem conjunta). A amostra média da batelada cumpre os limites químicos e físicos e cada batelada tem certificado.",
+   "valores": [
+    {
+     "parametro": "Óxido de magnésio (MgO)",
+     "valor": "≤ 6,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Perda ao fogo",
+     "valor": "≤ 3,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cal livre",
+     "valor": "≤ 2,0 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Equivalente alcalino (Na2O + 0,658 K2O)",
+     "valor": "≤ 0,75 %",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Requisitos físicos em pasta pura (Tabela 2)",
+   "item": "Tabela 2",
+   "texto": "Ensaios com a pasta no FAC otimizado fixado pelo fornecedor (Anexo A). O CPP-BT é verificado no frio: resistência a 4 °C à pressão atmosférica e sob 3 000 psi, além de 38 °C; espessamento a 27 °C no consistômetro atmosférico e no pressurizado; reologia só a 27 °C.",
+   "valores": [
+    {
+     "parametro": "Massa específica da pasta",
+     "valor": "12,5 a 13,5 lb/gal",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Água livre (AL)",
+     "valor": "≤ 5,90 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "RC mínima — 8 h a 38 °C, pressão atmosférica",
+     "valor": "≥ 2,1 MPa (300 psi)",
+     "item": "Tabela 2, Nota 1"
+    },
+    {
+     "parametro": "RC mínima — 24 h a 4 °C, pressão atmosférica",
+     "valor": "≥ 0,7 MPa (100 psi)",
+     "item": "Tabela 2, Nota 2"
+    },
+    {
+     "parametro": "RC mínima — 28 dias a 4 °C sob 3 000 psi",
+     "valor": "≥ 17,2 MPa (2 500 psi)",
+     "item": "Tabela 2, Nota 3"
+    },
+    {
+     "parametro": "Tempo de espessamento — consistômetro atmosférico, 27 °C",
+     "valor": "≥ 5 h 30 min",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Tempo de espessamento — consistômetro pressurizado, 5 000 psi e 27 °C",
+     "valor": "4 h 00 a 5 h 00",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Consistência máxima entre 15 min e 30 min (ambos os consistômetros)",
+     "valor": "≤ 30 Bc",
+     "item": "Tabela 2, Nota 4"
+    },
+    {
+     "parametro": "Gel inicial a 27 °C (3 rpm após 10 s)",
+     "valor": "≤ 12 Pa (≤ 25 lbf/100 pé²)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Gel final a 27 °C (3 rpm após 10 min)",
+     "valor": "≤ 16,8 Pa (≤ 35 lbf/100 pé²)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Viscosidade plástica a 27 °C",
+     "valor": "≤ 0,070 Pa·s (≤ 70 cP)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Limite de escoamento a 27 °C",
+     "valor": "14,4 a 33,5 Pa (30 a 70 lbf/100 pé²)",
+     "item": "Tabela 2"
+    }
+   ],
+   "figuras": [
+    "esquemas/cimento-poco-ensaios-pasta.svg"
+   ]
+  },
+  {
+   "titulo": "Acompanhamento, homologação e aceitação",
+   "item": "5.3, 5.4, 5.5",
+   "texto": "Ensaios físicos na expedição apenas acompanham a qualidade (não reprovam) e geram relatório por batelada. Na homologação, o fornecedor cumpre 5.1/5.2 e fixa o FAC otimizado. A batelada é aceita quando os lotes cumprem os critérios do fornecedor e a amostra média cumpre as Tabelas 1 e 2; divergência vai à contraprova em laboratório de comum acordo. Rejeitam-se sacos rasgados, molhados, avariados e granel contaminado.",
+   "valores": [
+    {
+     "parametro": "Frequência dos ensaios de expedição",
+     "valor": "no mínimo 1 a cada 5 graneleiros",
+     "item": "5.3.1"
+    },
+    {
+     "parametro": "Rejeição de saco",
+     "valor": "falta de massa maior que 1 % dos 50 kg",
+     "item": "5.5.4"
+    },
+    {
+     "parametro": "Rejeição do carregamento",
+     "valor": "média de 100 sacos ao acaso abaixo de 50 kg",
+     "item": "5.5.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Amostragem",
+   "item": "6",
+   "texto": "Amostras pontuais com amostrador automático na saída do misturador ou da moagem; amostra média ponderada pelas vazões, homogeneizada em misturador tipo V e dividida em três (consumidor, produtor, contraprova) em saco plástico dentro de balde fechado; amostra de expedição com tubo pela janela do graneleiro (NBR 5741); identificação completa na embalagem.",
+   "valores": [
+    {
+     "parametro": "Espessura do saco plástico da amostra",
+     "valor": "≥ 0,20 mm",
+     "item": "6.2 e)",
+     "cota": "esquemas/cimento-poco-embalagem-amostragem.svg#saco-plastico"
+    },
+    {
+     "parametro": "Massa da amostra média da batelada",
+     "valor": "≥ 80 kg",
+     "item": "6.3.2"
+    },
+    {
+     "parametro": "Homogeneização da amostra média",
+     "valor": "≈ 80 kg em 30 min (misturador tipo V)",
+     "item": "6.5.1"
+    },
+    {
+     "parametro": "Guarda da contraprova",
+     "valor": "≥ 1 ano",
+     "item": "6.5.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/cimento-poco-embalagem-amostragem.svg"
+   ]
+  },
+  {
+   "titulo": "Preparo e homogeneização da pasta",
+   "item": "7",
+   "texto": "Cimento homogeneizado e peneirado; água recém-destilada; massas de água e cimento fixas pelo FAC otimizado (Tabela 3). Mistura no misturador de palhetas (cimento em baixa rotação, depois alta rotação tampado). Condicionamento no consistômetro atmosférico a 27 °C por 20 min, iniciado no máximo 1 min após a mistura; calibração com massas de 50 g a 400 g (9 a 100 ABc).",
+   "valores": [
+    {
+     "parametro": "Abertura da peneira de recebimento da amostra",
+     "valor": "850 µm (nº 20)",
+     "item": "7.1.2.1",
+     "cota": "esquemas/cimento-poco-embalagem-amostragem.svg#peneira-recebimento"
+    },
+    {
+     "parametro": "Temperatura da água e do cimento",
+     "valor": "(23 ± 1) °C",
+     "item": "7.1.2.2"
+    },
+    {
+     "parametro": "Tolerância das massas de água e cimento",
+     "valor": "± 0,5 g",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Lançamento do cimento",
+     "valor": "(4 000 ± 200) rpm, em até 15 s",
+     "item": "7.1.2.6"
+    },
+    {
+     "parametro": "Agitação em alta rotação",
+     "valor": "(12 000 ± 500) rpm por 35 s",
+     "item": "7.1.2.7"
+    },
+    {
+     "parametro": "Condicionamento",
+     "valor": "banho a (27 ± 1) °C por 20 min",
+     "item": "7.2.2.1.8"
+    }
+   ],
+   "figuras": [
+    "esquemas/cimento-poco-ensaios-pasta.svg"
+   ]
+  },
+  {
+   "titulo": "Água livre",
+   "item": "8",
+   "texto": "Mesmo arranjo da N-2934: Erlenmeyer de 500 mL vedado, sobre placa de aço e espuma, sem vibração; água superficial retirada após 2 h e medida em proveta.",
+   "valores": [
+    {
+     "parametro": "Placa de aço — dimensões mínimas",
+     "valor": "200 mm × 300 mm",
+     "item": "8.1 c)",
+     "cota": "esquemas/cimento-poco-ensaios-pasta.svg#placa-dimensoes"
+    },
+    {
+     "parametro": "Placa de aço — espessura mínima",
+     "valor": "6,4 mm",
+     "item": "8.1 c)",
+     "cota": "esquemas/cimento-poco-ensaios-pasta.svg#placa-espessura"
+    },
+    {
+     "parametro": "Espuma de poliuretano (20 kg/m³) — espessura mínima",
+     "valor": "20 mm (planta mín. 200 mm × 300 mm)",
+     "item": "8.1 d)",
+     "cota": "esquemas/cimento-poco-ensaios-pasta.svg#espuma-espessura"
+    },
+    {
+     "parametro": "Massa de pasta no frasco",
+     "valor": "(625 ± 5) g, transferida em até 1 min",
+     "item": "8.2.2",
+     "nota": "Diferente da N-2934 (760 g) por causa da pasta mais leve."
+    },
+    {
+     "parametro": "Tempo de repouso",
+     "valor": "2 h ± 5 min",
+     "item": "8.2.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/cimento-poco-ensaios-pasta.svg"
+   ]
+  },
+  {
+   "titulo": "Resistência à compressão",
+   "item": "9",
+   "texto": "Cubos de pasta moldados em duas camadas adensadas com bastão. Três curas: 8 h a 38 °C (banho aquecido), 24 h a 4 °C (banho resfriado) — ambas à pressão atmosférica — e 28 dias a 4 °C em câmara pressurizada a 3 000 psi, despressurizada devagar. Depois: desmoldar, estabilizar em água a 27 °C, medir as faces de contato e romper numa face perpendicular à de moldagem. Média de 3 CP; repetir se o desvio relativo máximo passar de 10 %.",
+   "valores": [
+    {
+     "parametro": "Aresta do molde cúbico",
+     "valor": "50,8 mm",
+     "item": "9.1.1.1",
+     "cota": "esquemas/cimento-poco-ensaios-pasta.svg#aresta"
+    },
+    {
+     "parametro": "Ângulo entre faces adjacentes",
+     "valor": "(90 ± 0,5)°",
+     "item": "9.1.1.1",
+     "cota": "esquemas/cimento-poco-ensaios-pasta.svg#angulo"
+    },
+    {
+     "parametro": "Desvio de planeza das faces internas",
+     "valor": "0,025 mm (novo) / 0,050 mm (usado)",
+     "item": "9.1.1.3",
+     "cota": "esquemas/cimento-poco-ensaios-pasta.svg#planeza"
+    },
+    {
+     "parametro": "Distância entre faces opostas",
+     "valor": "(50,8 ± 0,13) mm novo / (50,8 ± 0,50) mm usado",
+     "item": "9.1.1.4",
+     "cota": "esquemas/cimento-poco-ensaios-pasta.svg#aresta"
+    },
+    {
+     "parametro": "Bastão de adensamento",
+     "valor": "200 mm de comprimento, Ø 6 mm, pontas planas",
+     "item": "9.1.5",
+     "cota": "esquemas/cimento-poco-ensaios-pasta.svg#bastao-comprimento"
+    },
+    {
+     "parametro": "Banhos de cura",
+     "valor": "(38 ± 1,5) °C e (4 ± 1,5) °C",
+     "item": "9.1.2.1 / 9.1.2.2"
+    },
+    {
+     "parametro": "Cura pressurizada",
+     "valor": "3 000 psi a 4 °C por 28 dias",
+     "item": "9.2.4"
+    },
+    {
+     "parametro": "Estabilização antes da ruptura",
+     "valor": "retirar (45 ± 5) min antes; ≥ 35 min em água a (27 ± 3) °C",
+     "item": "9.2.3 / 9.2.4"
+    },
+    {
+     "parametro": "Taxa de carga — RC < 3,45 MPa (500 psi)",
+     "valor": "(4 000 ± 400) lbf/min ≈ 6,9 MPa/min ± 10 %",
+     "item": "9.2.6 b)"
+    },
+    {
+     "parametro": "Taxa de carga — RC > 500 psi",
+     "valor": "(16 000 ± 1 600) lbf/min (72 ± 7 kN/min)",
+     "item": "9.1.6.2 / 9.2.6 b)"
+    },
+    {
+     "parametro": "Área de cálculo",
+     "valor": "nominal 2 580,6 mm², salvo se a medida diferir mais de 3,0 %",
+     "item": "9.3.1 c)"
+    },
+    {
+     "parametro": "Altura mínima do corpo de prova (abaixo, descartar)",
+     "valor": "48 mm (1,9 in)",
+     "item": "9.3.1 c)",
+     "cota": "esquemas/cimento-poco-ensaios-pasta.svg#altura-cp"
+    },
+    {
+     "parametro": "Desvio relativo máximo entre CP",
+     "valor": "≤ 10 % (acima, repetir)",
+     "item": "9.3.2, Nota 2"
+    }
+   ],
+   "figuras": [
+    "esquemas/cimento-poco-ensaios-pasta.svg"
+   ]
+  },
+  {
+   "titulo": "Tempo de espessamento",
+   "item": "10",
+   "texto": "Consistômetro pressurizado com a célula girando a 150 rpm; diferentemente do CPP-AT, não há rampa: a pressão e a temperatura são aplicadas e mantidas constantes desde o início (Tabela 7) até 100 Bc. Relatar Bc no início, a 25 %, 50 % e 75 % do tempo e o máximo entre 15 e 30 min, com a curva.",
+   "valores": [
+    {
+     "parametro": "Condição do ensaio (Tabela 7)",
+     "valor": "34 500 kPa (5 000 psi) e 27 °C (80 °F), constantes",
+     "item": "Tabela 7 / 10.2.4"
+    },
+    {
+     "parametro": "Tolerância",
+     "valor": "± 2 °C e ± 700 kPa (± 100 psi)",
+     "item": "10.2.4 c)"
+    },
+    {
+     "parametro": "1º ensaio aceito sem repetição",
+     "valor": "entre 240 min e 300 min (senão até 2 repetições)",
+     "item": "10.2.6 b) / c)"
+    },
+    {
+     "parametro": "Critério de média",
+     "valor": "diferença < 10 min entre 1º e 2º → média; senão 3º ensaio e descarta o mais afastado",
+     "item": "10.2.6 d) / e)"
+    }
+   ],
+   "figuras": [
+    "esquemas/cimento-poco-ensaios-pasta.svg"
+   ]
+  },
+  {
+   "titulo": "Propriedades reológicas",
+   "item": "11",
+   "texto": "Mesmo viscosímetro e sequência da N-2934 (R1B1, mola 1; 300-200-100 rpm a cada 20 s, 600 rpm, géis a 3 rpm após 10 s e 10 min), só a 27 °C. Tensão (Pa) = 0,511 × leitura; LE e VP pela reta de Bingham.",
+   "valores": [
+    {
+     "parametro": "Temperatura de ensaio",
+     "valor": "27 °C (80 °F)",
+     "item": "11.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/cimento-poco-ensaios-pasta.svg"
+   ]
+  },
+  {
+   "titulo": "Anexo A — fator água/cimento otimizado",
+   "item": "Anexo A",
+   "texto": "Aqui o FAC parte da faixa de massa específica da pasta (12,5 a 13,5 lb/gal): calculam-se FAC e massas para cada massa específica, testam-se pastas (mistura fácil, sem decantação), mede-se a consistência após 20 min a 27 °C e conferem-se reologia e AL; escolhe-se o FAC com consistência na faixa-alvo e as massas ficam fixas. Exemplo da norma (cimento com 3,121 g/cm³, água 0,9977 g/cm³): pasta de 12,5 lb/gal → FAC 103,7 %, 441,08 g de cimento e 457,61 g de água.",
+   "valores": [
+    {
+     "parametro": "Volume de pasta em laboratório",
+     "valor": "600 cm³",
+     "item": "A.3.1"
+    },
+    {
+     "parametro": "Consistência-alvo após 20 min (consistômetro atmosférico)",
+     "valor": "15 a 20 ABc",
+     "item": "A.6.1"
+    },
+    {
+     "parametro": "Alternativa no consistômetro pressurizado",
+     "valor": "27 °C e 250 psi por 20 min",
+     "item": "A.5.2"
+    }
+   ]
+  }
+ ]
+}

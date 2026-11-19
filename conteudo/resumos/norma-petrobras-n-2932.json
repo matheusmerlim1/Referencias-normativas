@@ -1,0 +1,148 @@
+{
+ "id": "PETROBRAS-N-2932",
+ "titulo": "Petrobras N-2932 (04/2018) — Qualidade de produtos: determinação de aminas livre e total (MEA, DEA e MDEA)",
+ "secoes": [
+  {
+   "titulo": "Escopo, conceitos e uso",
+   "item": "1, 3, 4, 6",
+   "texto": "Método para medir MEA, DEA e MDEA em solução aquosa de aminas usada no tratamento de gás (remoção de H2S e CO2). A titulação potenciométrica dá amina livre, total e fixa; a titulação com indicador dá só a total. Amina livre é a parcela que ainda absorve gás ácido; amina fixa é a que ficou presa em sais de ácidos fortes (fórmico, oxálico, acético, sulfuroso…) que não se regeneram pelo calor, só com álcali forte — mede o grau de contaminação; total = livre + fixa. Revalidada em 05/2025.",
+   "valores": [
+    {
+     "parametro": "Teor mínimo de amina total na amostra para aplicar o método",
+     "valor": "1 % em massa",
+     "item": "4"
+    }
+   ],
+   "figuras": [
+    "esquemas/amina-titulacao-livre-total.svg"
+   ]
+  },
+  {
+   "titulo": "Interferentes e cor da solução",
+   "item": "7",
+   "texto": "Sólidos em suspensão saem por filtração ou centrifugação antes do ensaio. Na titulação com indicador a cor da solução atrapalha, mas ela própria é um diagnóstico rápido da unidade: amarelo claro é o normal; amarelo escuro sugere sais de ferro; verde ou azul, cobre e/ou níquel; marrom, oxidação por O2 dissolvido na água de diluição ou no gás; violeta, degradação forte; preta, corrosão intensa de equipamentos e tubulações.",
+   "valores": [
+    {
+     "parametro": "Remoção de sólidos — centrifugação",
+     "valor": "50 mL de amostra a (1 500 ± 100) rpm por 10 min",
+     "item": "7.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/amina-titulacao-livre-total.svg"
+   ]
+  },
+  {
+   "titulo": "Segurança, amostragem e aparelhagem",
+   "item": "8, 9, 11",
+   "texto": "Trabalhar em capela com exaustão (libera H2S), seguir a N-2549 (segurança de laboratório) e descartar resíduos pela N-2622. Coletar a amostra refrigerada em frasco de vidro, sem turbulência. Potenciometria: titulador ou pHmetro, eletrodo combinado de pH, agitador magnético, centrífuga, béquer de 250 mL, buretas e pipetas; titulação com indicador: bureta fina, proveta, chapa de aquecimento.",
+   "valores": [
+    {
+     "parametro": "Sensibilidade mínima do titulador / pHmetro",
+     "valor": "0,1 pH",
+     "item": "9.1.5"
+    },
+    {
+     "parametro": "Sensibilidade mínima da balança",
+     "valor": "0,1 mg",
+     "item": "9.1.10 / 9.2.10"
+    },
+    {
+     "parametro": "Subdivisão da bureta (titulação com indicador)",
+     "valor": "0,05 mL",
+     "item": "9.2.2"
+    },
+    {
+     "parametro": "Proveta (titulação com indicador)",
+     "valor": "100 mL, subdivisão de 1 mL",
+     "item": "9.2.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Reagentes",
+   "item": "10",
+   "texto": "Reagentes grau p.a. (especificação ACS) e água reagente pela ASTM D1193; soluções-padrão preparadas e padronizadas pela ASTM E200. Tampões de pH 7,0 e 9,0 podem ser comerciais em ampola.",
+   "valores": [
+    {
+     "parametro": "Titulantes da potenciometria",
+     "valor": "HCl 0,1 mol/L e NaOH 0,1 mol/L",
+     "item": "10.1.2 / 10.1.3"
+    },
+    {
+     "parametro": "Titulante da titulação com indicador",
+     "valor": "H2SO4 0,05 mol/L",
+     "item": "10.2.2"
+    },
+    {
+     "parametro": "Indicador",
+     "valor": "vermelho de metila 0,1 % (0,1 g em 100 mL de água)",
+     "item": "10.2.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Procedimento — titulação potenciométrica",
+   "item": "12.1",
+   "texto": "Depois de tirar interferentes e conhecer a densidade (ou pesar 1 mL), dilui-se a amostra em água no béquer e titula-se com HCl até pH 7,0 (volume VA → amina livre). Na mesma solução adiciona-se NaOH até pH 10,5 e mais um excesso, anotando o total (VB); depois volta-se com HCl até pH 10,5 (VC). VB e VC dão a amina total.",
+   "valores": [
+    {
+     "parametro": "Alíquota de amostra",
+     "valor": "1,0 mL (ou massa equivalente)",
+     "item": "12.1.4"
+    },
+    {
+     "parametro": "Ponto final da amina livre",
+     "valor": "pH 7,0 com HCl 0,1 mol/L → VA",
+     "item": "12.1.4"
+    },
+    {
+     "parametro": "Amina total — NaOH",
+     "valor": "até pH 10,5 + 25 % de excesso → VB; retorno com HCl até pH 10,5 → VC",
+     "item": "12.1.5"
+    }
+   ],
+   "figuras": [
+    "esquemas/amina-titulacao-livre-total.svg"
+   ]
+  },
+  {
+   "titulo": "Procedimento — titulação com indicador",
+   "item": "12.2",
+   "texto": "Alíquota diluída em água, gotas de vermelho de metila e titulação com H2SO4 até cor rósea persistente. Ferve-se então a solução: se continuar rósea, o ponto vale; se ficar amarela (H2S liberado), esfria-se e titula-se de novo até rósea persistente. Com H2S, se o indicador sumir, acrescentar mais gotas; uma titulação prévia com amina regenerada ajuda a reconhecer a viragem. Volume total = VL.",
+   "valores": [
+    {
+     "parametro": "Diluição",
+     "valor": "1,0 mL de amostra em 100 mL de água, béquer de 250 mL",
+     "item": "12.2.3"
+    },
+    {
+     "parametro": "Fervura de verificação da viragem",
+     "valor": "1 min",
+     "item": "12.2.6"
+    }
+   ],
+   "figuras": [
+    "esquemas/amina-titulacao-livre-total.svg"
+   ]
+  },
+  {
+   "titulo": "Cálculos e precisão",
+   "item": "13",
+   "texto": "Resultado em % massa = F × P × volume ÷ (d × V), onde P é o valor de padronização (concentração × fator de correção) da solução usada e d × V a massa da amostra (se o ensaio for em massa, usa-se a massa direto). Potenciometria: livre com VA e P1; total com (P2·VB − P1·VC); fixa = total − livre. Indicador: total com VL e P3.",
+   "valores": [
+    {
+     "parametro": "Fator de conversão F",
+     "valor": "MEA 6,11 · DEA 10,5 · MDEA 11,9",
+     "item": "13.1.1 / 13.1.2"
+    },
+    {
+     "parametro": "Repetitividade — titulação com indicador",
+     "valor": "duplicatas diferem no máximo 0,1 % em massa",
+     "item": "13.2.1",
+     "nota": "Dado tirado da UOP 824 e UOP 825."
+    }
+   ]
+  }
+ ]
+}

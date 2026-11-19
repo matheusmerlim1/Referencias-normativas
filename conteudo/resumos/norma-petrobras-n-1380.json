@@ -1,0 +1,47 @@
+{
+ "id": "PETROBRAS-N-1380",
+ "titulo": "Petrobras N-1380 Rev. F (03/2023) — Determinação de gás sulfídrico e enxofre mercaptídico em petróleo — método potenciométrico",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Requisitos complementares à UOP 163 para medir H2S e mercaptanas (RSH) em petróleo por titulação potenciométrica com nitrato de prata, a partir de 1 mg/kg ou 1 mg/L (expressos como S). Derivados líquidos seguem a UOP 163 ou a ASTM D3227. Prazo de implantação da revisão: 180 dias.",
+   "valores": [
+    {
+     "parametro": "Concentração mínima aplicável",
+     "valor": "1 mg/kg ou 1 mg/L de H2S/RSH (como S)",
+     "item": "1.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/laboratorio-amostra-coluna-titulacao.svg"
+   ]
+  },
+  {
+   "titulo": "Amostragem e ensaio",
+   "item": "Seções de execução, Anexos",
+   "texto": "Amostra em frasco de boca estreita, vedado com batoque e tampa rosqueada, quase cheio, e ensaiada logo. Petróleos muito viscosos dissolvem melhor em xilol. A curva potencial × volume identifica os casos: só H2S, só RSH, H2S + RSH, com polissulfetos (RSSH). O eletrodo de prata é condicionado em solução de sulfeto de sódio 1 % ligado ao polo positivo de uma pilha de 1,5 V; a concentração do AgNO3 é padronizada com cloreto de potássio.",
+   "valores": [
+    {
+     "parametro": "Enchimento do frasco de amostra",
+     "valor": "até cerca de 1 cm abaixo da borda",
+     "item": "coleta, 1",
+     "cota": "esquemas/laboratorio-amostra-coluna-titulacao.svg#frasco-folga"
+    },
+    {
+     "parametro": "Prazo máximo entre coleta e ensaio",
+     "valor": "24 h",
+     "item": "coleta, Nota 2"
+    },
+    {
+     "parametro": "Uso de xilol como solvente",
+     "valor": "petróleos com viscosidade a 50 °C acima de 2 000 cSt",
+     "item": "Nota 3"
+    }
+   ],
+   "figuras": [
+    "esquemas/laboratorio-amostra-coluna-titulacao.svg"
+   ]
+  }
+ ]
+}

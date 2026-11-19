@@ -1,0 +1,116 @@
+{
+ "id": "PETROBRAS-N-2786",
+ "titulo": "Petrobras N-2786 Rev. B (08/2019) — Avaliação de defeitos em oleodutos e gasodutos terrestres e submarinos rígidos em operação",
+ "secoes": [
+  {
+   "titulo": "Escopo e relatório",
+   "item": "1, 4",
+   "texto": "Critérios para avaliar defeitos em oleodutos e gasodutos rígidos de aço, terrestres e submarinos, em operação sob cargas estáticas: corrosão (perda de espessura), defeitos geométricos (amassamento, curva de campo, flambagem local), de fabricação (inclusão, dupla laminação, empolamento), sulcos e cavas, defeitos planares, trincas assistidas pelo ambiente e outros. Cada avaliação gera relatório com dados do duto, do defeito, método e resultado.",
+   "valores": [],
+   "figuras": [
+    "esquemas/duto-defeito-corrosao-mossa.svg"
+   ]
+  },
+  {
+   "titulo": "Defeitos de corrosão",
+   "item": "5",
+   "texto": "Avaliação a partir de inspeção com ferramentas de medição de espessura; geometria por pelo menos profundidade máxima d, comprimento longitudinal L e largura circunferencial w; considerar a interação entre defeitos (regra da Figura 2). Risers rígidos: pressão combinada com tração externa. Só pressão: métodos RPA, Original B31G, DNVGL-RP-F101, com fatores e tensão de fluxo indicados nos fluxogramas; com carregamentos combinados: Kastner, RPA-PLLC (plastificação) e TPLB (flambagem local), que não valem para trecho sem restrição contra flambagem global. Os métodos não se aplicam a corrosão que pega a solda/ZTA com cantos vivos (V-notch), trincas, defeitos de fabricação, baixa tenacidade, solda sub-resistente, soldas antigas sem norma ou dos tipos ERW de baixa frequência, indução, centelhamento ou oxiacetilênica — nesses casos avaliar como defeito planar.",
+   "valores": [
+    {
+     "parametro": "Charpy da solda que invalida os métodos de corrosão (CP 10 mm × 10 mm, temperatura mínima de projeto)",
+     "valor": "mínimo individual < 30 J ou média < 40 J",
+     "item": "5.1.9 f)"
+    },
+    {
+     "parametro": "Espessura remanescente que exige atenção especial (parede fina)",
+     "valor": "< 2 mm",
+     "item": "5.1.11",
+     "cota": "esquemas/duto-defeito-corrosao-mossa.svg#espessura-remanescente"
+    },
+    {
+     "parametro": "Limite de uso do Original B31G",
+     "valor": "não usar com SMYS > 65 000 psi",
+     "item": "5.2.5.1, 5.3.3.1"
+    },
+    {
+     "parametro": "Limite de uso do DNVGL-RP-F101 (single defects e combined loadings)",
+     "valor": "não usar com SMYS < 46 000 psi",
+     "item": "5.2.5.2, 5.3.3.2, 5.4"
+    },
+    {
+     "parametro": "Geometria do defeito de corrosão — profundidade máxima",
+     "valor": "d (relativa a tn: faixas d/tn ≤ 0,10 e > 0,80 tratadas à parte nos fluxogramas)",
+     "item": "5.1.6, Figuras 3–10",
+     "cota": "esquemas/duto-defeito-corrosao-mossa.svg#corrosao-profundidade",
+     "nota": "Limiares lidos das fórmulas dos fluxogramas — conferir."
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-defeito-corrosao-mossa.svg"
+   ]
+  },
+  {
+   "titulo": "Defeitos geométricos",
+   "item": "6",
+   "texto": "Profundidade da mossa = distância do ponto mais baixo ao prolongamento do contorno original. Oleodutos: remover ou reparar mossas que alterem a curvatura em qualquer cordão de solda, com ranhuras, trincas, arcos, sulcos ou cavas, simples acima do limite, com perda de espessura acima do limite e mossas com quebra abrupta (kinked). Gasodutos: idem, com limites próprios para soldas dúcteis e frágeis e corrosão associada avaliada pelo B31G. Enrugamentos suaves de curvas a frio têm altura admissível pela Figura 12 (h = do topo à base).",
+   "valores": [
+    {
+     "parametro": "Mossa simples em oleoduto — DN ≤ 4 (Ø ext. 4,5\")",
+     "valor": "remover/reparar se profundidade > 6,4 mm",
+     "item": "6.2.2 c)",
+     "cota": "esquemas/duto-defeito-corrosao-mossa.svg#mossa-profundidade"
+    },
+    {
+     "parametro": "Mossa simples em oleoduto — DN > 4; em gasoduto (qualquer DN)",
+     "valor": "remover/reparar se profundidade > 6 % do Ø externo nominal",
+     "item": "6.2.2 c), 6.2.3 d)",
+     "cota": "esquemas/duto-defeito-corrosao-mossa.svg#mossa-profundidade"
+    },
+    {
+     "parametro": "Mossa com perda de espessura em oleoduto",
+     "valor": "reparar se espessura remanescente < 87,5 % da nominal (ou profundidade acima dos limites acima)",
+     "item": "6.2.2 d)",
+     "cota": "esquemas/duto-defeito-corrosao-mossa.svg#espessura-remanescente"
+    },
+    {
+     "parametro": "Mossa em gasoduto que altera a curvatura em solda dúctil",
+     "valor": "reparar se profundidade > 2 % do Ø externo nominal",
+     "item": "6.2.3 b)",
+     "cota": "esquemas/duto-defeito-corrosao-mossa.svg#mossa-profundidade"
+    },
+    {
+     "parametro": "Distância entre bordas para que duas mossas não interajam",
+     "valor": "> 30\" (762 mm), com trecho circular entre elas",
+     "item": "6.2",
+     "cota": "esquemas/duto-defeito-corrosao-mossa.svg#mossas-distancia"
+    },
+    {
+     "parametro": "Altura de enrugamento de curva a frio",
+     "valor": "admissível pela Figura 12 (h do topo à base)",
+     "item": "6.3.1",
+     "nota": "Valores só no gráfico da norma.",
+     "cota": "esquemas/duto-defeito-corrosao-mossa.svg#enrugamento-altura"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-defeito-corrosao-mossa.svg"
+   ]
+  },
+  {
+   "titulo": "Planares, fabricação, sulcos e vãos livres",
+   "item": "7–10",
+   "texto": "Defeitos planares (de fabricação, montagem ou operação) exigem estudo específico por especialistas. Inclusões, dupla laminação e empolamento por hidrogênio têm critérios próprios (empolamento com trincas ou em evolução exige ação). Sulcos e cavas avaliados conforme a seção 9. Vãos livres submarinos: falha por carregamento máximo e fadiga por VIV (modelos empíricos que exigem dados de cenário, correntes de fundo e solo), sempre com avaliação específica por especialista; em dutos terrestres, intervenção definida por análise considerando a NBR 15280-2.",
+   "valores": [
+    {
+     "parametro": "Dupla laminação considerada próxima da solda",
+     "valor": "distância < 25 mm ou < 2 × espessura nominal, o que for maior",
+     "item": "8.2 (nota 3)",
+     "cota": "esquemas/duto-defeito-corrosao-mossa.svg#laminacao-solda"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-defeito-corrosao-mossa.svg"
+   ]
+  }
+ ]
+}

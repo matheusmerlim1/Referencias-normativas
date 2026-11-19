@@ -1,0 +1,103 @@
+{
+ "id": "PETROBRAS-N-1955",
+ "titulo": "Petrobras N-1955 Rev. B (04/2021) — Gerador síncrono",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 4",
+   "texto": "Requisitos de aquisição de geradores síncronos para instalações terrestres e marítimas, com folha de dados: características elétricas, mecânicas e térmicas, pintura, grau IP, resfriamento (códigos IC), ruído, caixas de terminais, aquecimento anticondensação, mancais, sensores, ensaios e documentação.",
+   "valores": [
+    {
+     "parametro": "Condições ambientais em unidades marítimas",
+     "valor": "média anual, média do mês mais quente e máxima de 45 °C; mínima de 10 °C",
+     "item": "4.9"
+    },
+    {
+     "parametro": "Componentes dentro de painéis",
+     "valor": "40 °C contínuos, umidade 15 % a 95 %, altitude < 1 000 m",
+     "item": "4.9"
+    },
+    {
+     "parametro": "Vida útil de projeto",
+     "valor": "mínimo 25 anos",
+     "item": "4.x"
+    },
+    {
+     "parametro": "TC para proteção diferencial",
+     "valor": "geradores com tensão ≥ 6,0 kV",
+     "item": "4.7"
+    }
+   ],
+   "figuras": [
+    "esquemas/gerador-sincrono-arranjo.svg"
+   ]
+  },
+  {
+   "titulo": "Construção",
+   "item": "6",
+   "texto": "Caixa de terminais de força resistente à sobrepressão de curto-circuito trifásico interno (valor da folha de dados, 0,1 s); barreiras isolantes entre fases recomendadas em tensões altas; até 1 kV, cabos em terminais sobre placa. Resistores de aquecimento mantêm o interior, desligado, acima do ponto de orvalho. Terminais externos de aterramento. Sensores RTD Pt-100 a 3 fios (IEC 60751). Resfriamento a água com velocidade limitada contra erosão. Placa de advertência de alta tensão; inscrições iniciadas por \"ATENÇÃO\".",
+   "valores": [
+    {
+     "parametro": "Temperatura interna com o gerador desligado",
+     "valor": "acima do orvalho e pelo menos 30 °C abaixo da temperatura da classe de isolamento",
+     "item": "6.9"
+    },
+    {
+     "parametro": "Terminais externos de aterramento",
+     "valor": "pelo menos 1 (até 1 kV); pelo menos 2 em extremidades opostas da carcaça (acima de 1 kV)",
+     "item": "6.10"
+    },
+    {
+     "parametro": "Mancais hidrodinâmicos",
+     "valor": "L10h ≥ 50 000 h (ISO 281)",
+     "item": "6.11.1"
+    },
+    {
+     "parametro": "Mancais de rolamento",
+     "valor": "L10h ≥ 25 000 h em carga nominal e ≥ 16 000 h com cargas máximas",
+     "item": "6.11.2"
+    },
+    {
+     "parametro": "Velocidade máxima da água de resfriamento",
+     "valor": "2,5 m/s",
+     "item": "6.6"
+    },
+    {
+     "parametro": "Altura das letras das inscrições de advertência",
+     "valor": "mínimo 15 mm",
+     "item": "6.x",
+     "cota": "esquemas/gerador-sincrono-arranjo.svg#letra-aviso"
+    },
+    {
+     "parametro": "Aberturas para boroscopia",
+     "valor": "tampas removíveis nos dois lados em geradores com altura de eixo ≥ 500 mm",
+     "item": "6.19",
+     "cota": "esquemas/gerador-sincrono-arranjo.svg#altura-eixo"
+    }
+   ],
+   "figuras": [
+    "esquemas/gerador-sincrono-arranjo.svg"
+   ]
+  },
+  {
+   "titulo": "Desempenho elétrico e ensaios",
+   "item": "5, 7",
+   "texto": "Suporte a sobrecorrentes de curta duração; capacitor de acoplamento para monitorar descargas parciais em tensões altas; método de impregnação definido por faixa de tensão e potência; geradores marítimos de média tensão aprovados em teste de conformidade. Ensaios de rotina e de tipo pela IEC 60034, incluindo descargas parciais (IEC 60034-27-1) a partir de 11 kV.",
+   "valores": [
+    {
+     "parametro": "Sobrecorrente no estator",
+     "valor": "300 % da nominal (fp zero) por 2 s; 150 % (fp nominal) por 30 s",
+     "item": "5.x"
+    },
+    {
+     "parametro": "Capacitor de acoplamento",
+     "valor": "80 pF por fase em geradores ≥ 6,0 kV",
+     "item": "7.x.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/gerador-sincrono-arranjo.svg"
+   ]
+  }
+ ]
+}

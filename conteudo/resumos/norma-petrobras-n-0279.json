@@ -218,7 +218,8 @@
     {
      "parametro": "Folga entre coluna e viga",
      "valor": "≤ 15 mm (salvo dilatação térmica)",
-     "item": "4.2.2"
+     "item": "4.2.2",
+     "cota": "esquemas/estrutura-metalica-emendas-zonas.svg#folga-coluna-viga"
     },
     {
      "parametro": "Distância entre soldas circunferenciais adjacentes (tubos)",

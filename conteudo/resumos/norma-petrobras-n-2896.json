@@ -1,0 +1,46 @@
+{
+ "id": "PETROBRAS-N-2896",
+ "titulo": "Petrobras N-2896 Rev. C (11/2022) — Digitalização de filmes radiográficos industriais",
+ "secoes": [
+  {
+   "titulo": "Escopo e base normativa",
+   "item": "1–4",
+   "texto": "Condições para digitalizar filmes radiográficos industriais com escâneres (sem tratar processamento de sinais). Implantação em até 180 dias. A digitalização segue as normas base — NBR 15782, ISO 14096-1/-2 (aplicadas integralmente) e ASME V art. 2 apêndice VI — com as modificações, adições e supressões da seção 5.",
+   "valores": [],
+   "figuras": [
+    "esquemas/radiografia-digitalizacao-filme.svg"
+   ]
+  },
+  {
+   "titulo": "Procedimento escrito e pessoal",
+   "item": "5.1–5.4",
+   "texto": "Onde o ASME cita o inspetor nuclear autorizado (ANI), vale a Petrobras. Procedimento escrito com as variáveis da Tabela 1: emitente e revisão, objetivo, normas, fonte de radiação; escâner (fabricante, modelo, tamanho do pixel e do foco em μm, faixa dinâmica, resolução espacial em pl/mm, faixa de densidade, sensibilidade ao contraste, linearidade, tamanho máximo de filme); monitor (luminância, razão de luminância, resolução, pixel, faixa dinâmica, área útil — trocar por outro igual não é variável essencial); software e versão; etapas de processamento (realce de contraste, zoom); armazenamento (identificação, formato, mídia); filme de referência (série, certificação e validade); periodicidade da verificação do escâner; identificação da radiografia digitalizada. Pessoal certificado por programa central (ex.: ACCP); digitalização sob responsabilidade de nível 2 em radiografia, com treinamento específico dado por nível 3.",
+   "valores": [
+    {
+     "parametro": "Tamanho do pixel do escâner (variável do procedimento)",
+     "valor": "declarado em μm",
+     "item": "Tabela 1",
+     "cota": "esquemas/radiografia-digitalizacao-filme.svg#pixel-escaner"
+    }
+   ],
+   "figuras": [
+    "esquemas/radiografia-digitalizacao-filme.svg"
+   ]
+  },
+  {
+   "titulo": "Demonstração do procedimento",
+   "item": "5.5, 5.6",
+   "texto": "A qualificação usa radiografias com densidades representativas do procedimento de radiografia, obrigatoriamente uma na densidade mínima e outra na máxima; todas as imagens digitalizadas devem mostrar os indicadores de qualidade de imagem tão bem definidos quanto na radiografia original. Mudou qualquer variável da Tabela 1 → revisar o procedimento; mudou variável essencial → requalificar.",
+   "valores": [
+    {
+     "parametro": "Número mínimo de radiografias na qualificação",
+     "valor": "5",
+     "item": "5.6"
+    }
+   ],
+   "figuras": [
+    "esquemas/radiografia-digitalizacao-filme.svg"
+   ]
+  }
+ ]
+}
