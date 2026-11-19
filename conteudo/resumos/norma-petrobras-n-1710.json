@@ -1,0 +1,65 @@
+{
+ "id": "PETROBRAS-N-1710",
+ "titulo": "Petrobras N-1710 (03/2024) — Codificação de documentos técnicos de engenharia — Anexo B (identificação das instalações)",
+ "secoes": [
+  {
+   "titulo": "O que é o Anexo B",
+   "item": "Anexo B",
+   "texto": "O documento disponível é o Anexo B da N-1710: a tabela de códigos das instalações do Sistema Petrobras, usada no número dos documentos técnicos (campo 15 da N-381) e na parte de área/unidade do TAG de equipamentos (N-1521, alternativa b). Cada instalação tem um código de 4 caracteres + ponto + 2 caracteres; \".00\" designa a instalação como um todo e os sufixos .01, .02… suas partes (prédios, plataformas, dutos, estações). Há códigos alfanuméricos (ex. grupo 3A, sufixos com letra). Códigos desativados ficam na lista com a indicação \"cancelado, usar …\" ou \"desmontada/desativada\".",
+   "valores": [],
+   "figuras": [
+    "esquemas/documento-codigo-instalacao.svg"
+   ]
+  },
+  {
+   "titulo": "Grupos de primeiro nível",
+   "item": "Anexo B, sumário",
+   "texto": "O primeiro algarismo agrupa as instalações por área de negócio.",
+   "valores": [
+    {
+     "parametro": "0000.00",
+     "valor": "instalações da administração central (sedes, CENPES, telecomunicações…)",
+     "item": "Anexo B"
+    },
+    {
+     "parametro": "1000.00 / 2000.00 / 3000.00",
+     "valor": "exploração / perfuração / produção (E&P), por unidade de negócio, campo e plataforma",
+     "item": "Anexo B"
+    },
+    {
+     "parametro": "4000.00",
+     "valor": "logística — dutos e terminais",
+     "item": "Anexo B"
+    },
+    {
+     "parametro": "5000.00",
+     "valor": "refino",
+     "item": "Anexo B"
+    },
+    {
+     "parametro": "6000.00",
+     "valor": "empreendimentos para subsidiárias, controladas e coligadas",
+     "item": "Anexo B"
+    },
+    {
+     "parametro": "7000.00",
+     "valor": "empreendimentos no exterior",
+     "item": "Anexo B"
+    },
+    {
+     "parametro": "8000.00",
+     "valor": "empreendimentos no país fora do Sistema Petrobras",
+     "item": "Anexo B"
+    },
+    {
+     "parametro": "9000.00",
+     "valor": "energia e gás natural",
+     "item": "Anexo B"
+    }
+   ],
+   "figuras": [
+    "esquemas/documento-codigo-instalacao.svg"
+   ]
+  }
+ ]
+}

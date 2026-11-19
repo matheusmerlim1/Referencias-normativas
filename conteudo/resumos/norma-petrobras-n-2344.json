@@ -1,0 +1,145 @@
+{
+ "id": "PETROBRAS-N-2344",
+ "titulo": "Petrobras N-2344 Rev. C (08/2022) — Segurança em trabalho de radiografia industrial",
+ "secoes": [
+  {
+   "titulo": "Escopo, princípios e documentos",
+   "item": "1, 4, 5, 6",
+   "texto": "Radiografia industrial (gama ou raios X) para inspeção e para identificação positiva de material (PMI) em áreas Petrobras; não cobre medidores nucleares de processo, perfilagem de poço, uso médico/laboratorial nem rejeitos. Princípios da CNEN: justificação (sem alternativa melhor), otimização (dose tão baixa quanto exequível) e limitação de dose (CNEN-NN-3.01; em plataformas, NR-37 seção 26). Antes: análise de alternativas, reunião de planejamento com SMS e inspeção da área (Anexo A). A contratada entrega PPR e plano de transporte aprovados pela CNEN, supervisor de radioproteção certificado (NN-7.01), registro dos operadores (NN-7.02) e a programação (exposições, tempos, raio de balizamento, horários e locais). Operação tipo IV (CNEN-NN-6.04) exige PPR específico aprovado pela CNEN; tipo III, procedimento específico do supervisor após visitar o local.",
+   "figuras": [
+    "esquemas/radiografia-industrial-isolamento-area.svg"
+   ]
+  },
+  {
+   "titulo": "Fontes: atividade, transporte e armazenamento",
+   "item": "7, 8, 9",
+   "texto": "Operação tipo IV sempre com colimador (e blindagem se preciso; em duto terrestre, com o tubo na vala); colimador recomendado no tipo III. Fontes acima do limite só com análise da fiscalização/SMS (ex. radiografia submarina). Transporte pelas normas CNEN, Decreto 96.044, ANTT 5232, IATA DGR, IMDG, RBAC 175 e NORMAM 01; raios X desligado dispensa autorização. Armazenamento tipo I/II pela CNEN-NN-6.04; o dono da fonte fica no local enquanto ela estiver na instalação. Em intervenção curta: local fechado com chave controlada e placa (símbolo, empresa, endereço, telefone) ou caixa trancada no veículo sinalizado, com levantamento radiométrico; longe de outros materiais perigosos.",
+   "valores": [
+    {
+     "parametro": "Atividade máxima — Ir-192",
+     "valor": "1 480 GBq (40 Ci)",
+     "item": "7.1 a)"
+    },
+    {
+     "parametro": "Atividade máxima — Co-60",
+     "valor": "259 GBq (7 Ci)",
+     "item": "7.1 b)"
+    },
+    {
+     "parametro": "Atividade máxima — Se-75",
+     "valor": "2 220 GBq (60 Ci)",
+     "item": "7.1 c)"
+    },
+    {
+     "parametro": "Taxa máxima no limite do isolamento do armazenamento",
+     "valor": "0,5 µSv/h",
+     "item": "9.1.5",
+     "cota": "esquemas/radiografia-industrial-isolamento-area.svg#isolamento-armazem"
+    }
+   ],
+   "figuras": [
+    "esquemas/radiografia-industrial-isolamento-area.svg"
+   ]
+  },
+  {
+   "titulo": "Irradiador, controle da fonte e permissão",
+   "item": "10, 11, 12",
+   "texto": "Na chegada, SMS ou fiscalização medem a carcaça; cabo do manipulador sem amassamento, dobra ou engate gasto; engates da fonte e do cabo conferidos com gabarito antes do início. SMS e fiscalização guardam a tabela de decaimento e conferem a presença da fonte na saída. Permissão para Trabalho e RAS obrigatórias (N-2162), mesmo em área dispensada de PT; fichas dos Anexos A a D; operadores credenciados no SMS. Preferir horários com pouca gente na vizinhança, ou reduzir a área com colimação e blindagem.",
+   "valores": [
+    {
+     "parametro": "Irradiador recusado — taxa na superfície da carcaça",
+     "valor": "≥ 2 mSv/h",
+     "item": "10.1",
+     "cota": "esquemas/radiografia-industrial-isolamento-area.svg#superficie"
+    },
+    {
+     "parametro": "Irradiador recusado — taxa a 1 m de distância",
+     "valor": "≥ 0,1 mSv/h",
+     "item": "10.1",
+     "cota": "esquemas/radiografia-industrial-isolamento-area.svg#irradiador-1m"
+    }
+   ],
+   "figuras": [
+    "esquemas/radiografia-industrial-isolamento-area.svg"
+   ]
+  },
+  {
+   "titulo": "Dosimetria e níveis de referência",
+   "item": "13, 14.1",
+   "texto": "Todo exposto usa dosímetro de tórax com registro (filme, TLD ou superior), monitor individual com alarme sonoro e, conforme a tarefa, dosímetro de extremidade; resumo da dosimetria fica na frente de trabalho. Cada fonte em uso tem monitor de área calibrado por órgão autorizado pela CNEN.",
+   "valores": [
+    {
+     "parametro": "Troca do dosímetro individual",
+     "valor": "a cada 30 dias (tolerância 10 dias)",
+     "item": "13.1.1, Nota"
+    },
+    {
+     "parametro": "Monitor de área — faixas de medição",
+     "valor": "1 µSv/h a 10 mSv/h (rotina); 10 a 100 mSv/h (emergência)",
+     "item": "13.2.2"
+    },
+    {
+     "parametro": "Nível de referência — trabalhadores de radiografia",
+     "valor": "0,4 mSv/semana, 0,08 mSv/dia ou 10 µSv/h (semana de 40 h)",
+     "item": "14.1.2 a)"
+    },
+    {
+     "parametro": "Nível de referência — indivíduos do público",
+     "valor": "0,02 mSv/semana, 4 µSv/dia ou 0,5 µSv/h",
+     "item": "14.1.2 b)"
+    }
+   ]
+  },
+  {
+   "titulo": "Distância de isolamento",
+   "item": "14.2; Tabelas 1 e 2",
+   "texto": "Raios gama: d (m) = raiz da soma de duas parcelas do tipo k·A·t dividido pelo limite de dose e pelo fator de redução do colimador (FRc) e da blindagem (FRb), com A em Ci, t em horas (máx. 8 h por dia) e FR = 1 se não houver colimador ou blindagem; a blindagem cobre todo o feixe. Tabela 2 usa o limite semanal — aí não se repete radiografia no local por 7 dias. Ao expor a fonte, medir: taxa × tempo ≤ 4 µSv/dia (ou 20 µSv/semana com um só trabalho); se menor, o raio pode ser reduzido. Distância impraticável: fixar o isolamento pelo monitor, expondo a fonte antes. Raios X: o operador estima d₁ pela tensão e corrente, mede a taxa x₁ e corrige d = d₁·√(x₁/0,5); depois não aumentar kV nem mA.",
+   "valores": [
+    {
+     "parametro": "Constante da equação — Ir-192 / Co-60 / Se-75",
+     "valor": "0,50 / 1,32 / 0,20 (× A × t)",
+     "item": "Tabela 1",
+     "cota": "esquemas/radiografia-industrial-isolamento-area.svg#raio-isolamento",
+     "nota": "conferir: fórmula extraída do PDF com a fração desalinhada; denominador 0,004 (Tabela 1, dose diária) ou 0,002 (Tabela 2, dose semanal) multiplicado por FRc ou FRb"
+    },
+    {
+     "parametro": "Distância de isolamento com colimador e blindagem",
+     "valor": "reduzida pelos fatores FRc e FRb (= 1 quando não usados)",
+     "item": "14.2.1.1, Notas 2 e 3",
+     "cota": "esquemas/radiografia-industrial-isolamento-area.svg#raio-colimado"
+    },
+    {
+     "parametro": "Raios X — distância real de isolamento",
+     "valor": "d = d₁ × √(x₁ / 0,5), ajustada para 0,5 µSv/h no limite",
+     "item": "14.2.2.3, 14.2.2.4",
+     "cota": "esquemas/radiografia-industrial-isolamento-area.svg#raio-isolamento"
+    },
+    {
+     "parametro": "Uso da Tabela 2 (dose semanal)",
+     "valor": "sem nova radiografia no local por 7 dias",
+     "item": "14.2.1.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/radiografia-industrial-isolamento-area.svg"
+   ]
+  },
+  {
+   "titulo": "Sinalização, equipe, acidentes e PMI",
+   "item": "15–18",
+   "texto": "Isolamento com cordas/fitas e placas com o símbolo e os dizeres \"RADIAÇÃO IONIZANTE - PERIGO\"; à noite, luz intermitente no ponto da fonte e nas áreas de fluxo. Equipe mínima de dois operadores registrados na CNEN, um deles nível II (responsável pela instalação aberta), mais inspetores ISO 9712 conforme as frentes. Kit de emergência na frente (recipiente, pinças, garras, cordas, placas, blindagens, medidor 10–100 mSv/h); acidente comunicado de imediato ao SMS, à fiscalização e à CNEN. PMI com fonte ou gerador: ofício CNEN de isenção ou PPR com distâncias de isolamento, transporte, calibração, doses e cenários.",
+   "valores": [
+    {
+     "parametro": "Equipe mínima",
+     "valor": "2 operadores registrados na CNEN (1 nível II)",
+     "item": "16.1"
+    },
+    {
+     "parametro": "Relatório preliminar de acidente",
+     "valor": "em até 72 h",
+     "item": "17.4"
+    }
+   ]
+  }
+ ]
+}

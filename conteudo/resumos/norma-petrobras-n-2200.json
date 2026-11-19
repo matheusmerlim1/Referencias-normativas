@@ -1,0 +1,74 @@
+{
+ "id": "PETROBRAS-N-2200",
+ "titulo": "Petrobras N-2200 Rev. F (12/2020) — Sinalização de dutos, faixa e área de domínio de duto e instalação terrestre de produção",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 4",
+   "texto": "Padroniza a sinalização visual (acima do solo) de dutos, de faixas e áreas de domínio e de instalações terrestres de produção, inclusive dutos sem faixa; a sinalização enterrada segue a NBR 15280-2. Atende ao RTDT (ANP nº 2/2011) e vale também para sinalização existente quando for recuperada. Faixas e áreas de domínio são marcadas com marcos e placas padronizados (Anexo A), nas cores da N-1219 (preto, amarelo, branco, verde, vermelho). Marcos de concreto pintados com tinta acrílica (N-2677); placas, suportes e partes metálicas com preparo e pintura pela N-1550. A marca pode ser a da subsidiária. Áreas alagadas, culturas altas, áreas urbanas ou com histórico de derivação clandestina podem ter projeto específico. Materiais alternativos ao aço e ao concreto são aceitos se comprovados. Cruzamento com linha de transmissão segue a NBR 7276. Marcos delimitador e sinalizador têm versão de seção maciça ou vazada.",
+   "valores": [
+    {
+     "parametro": "Laje de concreto em volta da base dos marcos (visualização aérea) — lado",
+     "valor": "750 mm × 750 mm",
+     "item": "4.12",
+     "nota": "Prática recomendada.",
+     "cota": "esquemas/duto-faixa-sinalizacao-marcos.svg#laje-lado"
+    },
+    {
+     "parametro": "Laje de concreto em volta da base dos marcos — espessura",
+     "valor": "50 mm",
+     "item": "4.12",
+     "nota": "Prática recomendada.",
+     "cota": "esquemas/duto-faixa-sinalizacao-marcos.svg#laje-espessura"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-faixa-sinalizacao-marcos.svg"
+   ]
+  },
+  {
+   "titulo": "Marcos",
+   "item": "5.1",
+   "texto": "Delimitadores: instalados aos pares nas laterais da faixa, de modo que de qualquer ponto da lateral se vejam o marco anterior e o seguinte (salvo obstáculos do terreno); também em todo vértice de inflexão horizontal, um par de cada lado de cruzamentos e travessias e nas seções de entrada/saída de áreas industriais. O mesmo critério delimita a área de domínio dos leitos de anodos (marcos nas pontas dos cabos e inflexões). Quilométricos: um a cada quilômetro desenvolvido da faixa. Sinalizadores: sobre a diretriz dos dutos e cabos de comunicação, junto às margens de cruzamentos (rodovias, ferrovias, estradas, carreadores), em cruzamentos com outros dutos ou cabos, nas margens de travessias de rios, lagos e canais e nas entradas/saídas de áreas industriais.",
+   "valores": [
+    {
+     "parametro": "Espaçamento máximo entre marcos delimitadores — área rural",
+     "valor": "200 m",
+     "item": "5.1.1.1 c)",
+     "cota": "esquemas/duto-faixa-sinalizacao-marcos.svg#espacamento-marcos"
+    },
+    {
+     "parametro": "Espaçamento máximo entre marcos delimitadores — área urbana",
+     "valor": "50 m",
+     "item": "5.1.1.1 c)",
+     "cota": "esquemas/duto-faixa-sinalizacao-marcos.svg#espacamento-marcos"
+    },
+    {
+     "parametro": "Intervalo entre marcos quilométricos",
+     "valor": "1 km desenvolvido de faixa",
+     "item": "5.1.2",
+     "cota": "esquemas/duto-faixa-sinalizacao-marcos.svg#marco-sinalizador",
+     "nota": "A cota destacada mostra a posição dos marcos sobre a diretriz; o quilométrico aparece no mesmo eixo."
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-faixa-sinalizacao-marcos.svg"
+   ]
+  },
+  {
+   "titulo": "Placas",
+   "item": "5.2, 5.3",
+   "texto": "Placas tipo I, II ou III (Anexo A); a tipo I substitui a II quando é preciso destacar ou ampliar o texto. Sinalização (I/II): cruzamentos com estradas, ruas e ferrovias ('duto enterrado — não escavar', e 'não transitar com veículo' onde houver acesso de veículos), cruzamento com outros dutos/cabos, travessias de rios e lagos não navegáveis ('não dragar'), acessos a áreas de válvulas, lançadores/recebedores, retificadoras, estações e caixas de provadores, e leitos de anodos. Travessias navegáveis: tipo III nas duas margens, mensagem nos dois lados ('não dragar, não fundear'). Identificação: áreas de válvulas e de lançador/recebedor de pig (podem ir na cerca), início e mudança de trecho da faixa (nome, km e dutos contidos), ramais/variantes no entroncamento, estações (tipo III ao lado da entrada) e área de domínio. Advertência: 'perigo — não fume / inflamável / alta pressão' em válvulas e lançadores; 'perigo — queimador' no acesso a queimadores. Placas especiais opcionais (proibido construir, não jogar lixo, não acender fogueira). Em trechos aéreos pintar setas de sentido de fluxo, nome e diâmetro do duto; recomenda-se numerar os complementos com letras visíveis em inspeção aérea.",
+   "valores": [],
+   "figuras": [
+    "esquemas/duto-faixa-sinalizacao-marcos.svg"
+   ]
+  },
+  {
+   "titulo": "Observação sobre as figuras",
+   "item": "Anexo A",
+   "texto": "As figuras do Anexo A (marcos e placas cotados) têm texto com fonte embaralhada na extração; as dimensões dos marcos e placas não foram transcritas aqui — consultar os modelos padronizados da norma.",
+   "valores": []
+  }
+ ]
+}

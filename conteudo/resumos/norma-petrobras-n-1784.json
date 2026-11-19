@@ -1,0 +1,38 @@
+{
+ "id": "PETROBRAS-N-1784",
+ "titulo": "Petrobras N-1784 Rev. C (04/2014) — Apresentação de projetos de fundações e estruturas de concreto",
+ "secoes": [
+  {
+   "titulo": "Escopo e documentos do projeto",
+   "item": "1, 4.1, 4.2",
+   "texto": "Como apresentar projetos de fundações diretas e profundas e de estruturas de concreto armado e protendido (em terra e no mar; fundação no mar fica com a N-2001). O projeto é formado por memorial descritivo, memória de cálculo, desenhos e especificação técnica, em unidades SI. O memorial traz sumário, descrição e justificativa das soluções (estética, estrutura, custo, durabilidade), materiais, recomendações de execução e controle, proteção em meio agressivo e lista de documentos; para fundações, inclui a programação de provas de carga.",
+   "figuras": [
+    "esquemas/concreto-fundacao-projeto-apresentacao.svg"
+   ]
+  },
+  {
+   "titulo": "Memória de cálculo",
+   "item": "4.3",
+   "texto": "Descreve tipo de fundação e estrutura, método de análise e programas, normas, propriedades de materiais e seções. Fundações: cargas (peso próprio, estrutura, empuxo, atrito negativo, dinâmicas, tubulações), combinações, dimensionamento geotécnico (pressão admissível, método, comprimento das estacas, coeficientes de segurança), momentos nas estacas, recalques (NBR 6122) e vibração. Estruturas: cargas incluindo vento e temperatura, esquema estrutural com apoios, nós, rótulas, vãos e eixos, envoltórias de esforços, deslocamentos, efeitos dinâmicos; dimensionamento de armação, peças provisórias (escoramentos, estais), acessórios (chumbadores, aparelhos de apoio, defensas), fissuração, equilíbrio, ressonância e fadiga (obrigatória em pontes de áreas de carga/descarga e vigas de pórtico rolante).",
+   "figuras": [
+    "esquemas/concreto-fundacao-projeto-apresentacao.svg"
+   ]
+  },
+  {
+   "titulo": "Desenhos de fundação",
+   "item": "4.4.1",
+   "texto": "Locação, formas e armação (podem se juntar se a clareza permitir; planta de escavação se necessária). Locação referida às coordenadas do empreendimento ou a um marco, níveis pela RN Petrobras e greide sempre indicado. Fundação profunda: tipo, seção, armação, emendas, cotas de arrasamento e de ponta prevista (zoneadas se variáveis), capacidade e cargas (inclusive horizontais e de tração), atrito negativo, numeração, sondagens e ensaios de integridade/desempenho. Fundação direta: cargas, pressão admissível e cota de assentamento. Formas: fck, a/c máximo, consumo de cimento, espessura do lastro de concreto magro, volumes, escavação/reaterro, plano de concretagem, juntas e chumbadores. Armação: aço, emendas, tabela e cobrimento.",
+   "figuras": [
+    "esquemas/concreto-fundacao-projeto-apresentacao.svg"
+   ]
+  },
+  {
+   "titulo": "Desenhos de estrutura e especificação técnica",
+   "item": "4.4.2, 4.5",
+   "texto": "Formas: norte verdadeiro e de projeto, RN, locação dos pilares, plantas/cortes/elevações, chanfros em arestas aparentes, juntas de dilatação/retração/construção, contraflechas, acessórios com lista de materiais, fck, a/c, cimento e agregado máximo. Armação: aços, emendas, tabela e quadro-resumo, cobrimentos e raios mínimos de dobramento. Pré-moldados: fases de concretagem, içamento, travamento, escoramento e protensão. A especificação técnica de fundações traz tipos, tolerâncias dimensionais e de locação, reaterro, controle, arrasamento e verificação de integridade e desempenho das estacas; a de estruturas inclui módulo de elasticidade, aditivos, graute, juntas, acabamento, formas, aço e cordoalhas.",
+   "figuras": [
+    "esquemas/concreto-fundacao-projeto-apresentacao.svg"
+   ]
+  }
+ ]
+}

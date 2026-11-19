@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" role="img" aria-label="Fundações de estruturas marítimas — estaca cravada, perfurada, torpedo, sucção e fundação rasa">
+<title>Fundações de estruturas marítimas — estaca cravada, perfurada, torpedo, sucção e fundação rasa (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Fundações de estruturas marítimas — estaca cravada, perfurada, torpedo, sucção e fundação rasa</text>
+<line x1="20" y1="330" x2="980" y2="330" stroke="#666" stroke-width="3"/>
+<text x="660" y="322" text-anchor="end" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">leito marinho</text>
+<line x1="30" y1="336" x2="20" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="70" y1="336" x2="60" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="110" y1="336" x2="100" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="150" y1="336" x2="140" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="190" y1="336" x2="180" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="230" y1="336" x2="220" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="270" y1="336" x2="260" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="310" y1="336" x2="300" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="350" y1="336" x2="340" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="390" y1="336" x2="380" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="430" y1="336" x2="420" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="470" y1="336" x2="460" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="510" y1="336" x2="500" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="550" y1="336" x2="540" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="590" y1="336" x2="580" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="630" y1="336" x2="620" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="670" y1="336" x2="660" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="710" y1="336" x2="700" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="750" y1="336" x2="740" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="790" y1="336" x2="780" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="830" y1="336" x2="820" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="870" y1="336" x2="860" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="910" y1="336" x2="900" y2="346" stroke="#666" stroke-width="1"/>
+<line x1="950" y1="336" x2="940" y2="346" stroke="#666" stroke-width="1"/>
+<text x="130" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) estaca cravada (jaqueta)</text>
+<rect x="80" y="100" width="22" height="380" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="1.5"/>
+<text x="70" y="500" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">estaca</text>
+<rect x="70" y="250" width="42" height="80" fill="#666" fill-opacity="0.0" stroke="#666" stroke-width="2"/>
+<text x="120" y="270" text-anchor="start" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">luva</text>
+<g id="cota-anular" class="cota"><line x1="112" y1="290" x2="170" y2="300" stroke="#666" stroke-width="1.2"/><polygon points="170.0,300.0 161.7,295.0 160.5,301.9" fill="#666"/><text x="118" y="318" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">espaço anular (cimentado)</text></g>
+<rect x="76" y="80" width="30" height="20" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1"/>
+<text x="110" y="94" text-anchor="start" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">martelo</text>
+<circle cx="78" cy="170" r="4" fill="#666" fill-opacity="0.8" stroke="#666" stroke-width="1"/>
+<circle cx="104" cy="170" r="4" fill="#666" fill-opacity="0.8" stroke="#666" stroke-width="1"/>
+<text x="112" y="174" text-anchor="start" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">sensores DPT (pares)</text>
+<g id="cota-sensores-topo" class="cota"><line x1="106" y1="100" x2="150" y2="100" stroke="#666" stroke-width="1"/><line x1="150" y1="100" x2="150" y2="170" stroke="#666" stroke-width="1.2"/><polygon points="150.0,100.0 146.5,109.0 153.5,109.0" fill="#666"/><polygon points="150.0,170.0 153.5,161.0 146.5,161.0" fill="#666"/><text x="156" y="139.0" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">distância ao topo</text></g>
+<g id="cota-diametro-estaca" class="cota"><line x1="80" y1="480" x2="80" y2="500" stroke="#666" stroke-width="1"/><line x1="102" y1="480" x2="102" y2="500" stroke="#666" stroke-width="1"/><line x1="80" y1="500" x2="102" y2="500" stroke="#666" stroke-width="1.2"/><polygon points="80.0,500.0 89.0,503.5 89.0,496.5" fill="#666"/><polygon points="102.0,500.0 93.0,496.5 93.0,503.5" fill="#666"/><text x="91.0" y="518" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Ø</text></g>
+<text x="330" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) perfurada e cimentada</text>
+<rect x="300" y="330" width="60" height="200" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1" stroke-dasharray="4 3"/>
+<rect x="316" y="100" width="28" height="430" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="1.5"/>
+<g id="cota-broca" class="cota"><line x1="300" y1="530" x2="300" y2="560" stroke="#666" stroke-width="1"/><line x1="360" y1="530" x2="360" y2="560" stroke="#666" stroke-width="1"/><line x1="300" y1="560" x2="360" y2="560" stroke="#666" stroke-width="1.2"/><polygon points="300.0,560.0 309.0,563.5 309.0,556.5" fill="#666"/><polygon points="360.0,560.0 351.0,556.5 351.0,563.5" fill="#666"/><text x="330.0" y="554" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Ø broca &gt; Ø elemento</text></g>
+<text x="380" y="450" text-anchor="start" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">pasta / argamassa</text>
+<text x="530" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(c) estaca torpedo</text>
+<path d="M520,350 L540,350 L540,560 L530,590 L520,560 Z" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<path d="M520,370 L500,400 L500,520 L520,540 Z" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="1"/>
+<path d="M540,370 L560,400 L560,520 L540,540 Z" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="1"/>
+<line x1="530" y1="350" x2="530" y2="200" stroke="#666" stroke-width="1.5" stroke-dasharray="6 3"/>
+<text x="540" y="220" text-anchor="start" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">linha de ancoragem</text>
+<g id="cota-torpedo-penetracao" class="cota"><line x1="540" y1="330" x2="590" y2="330" stroke="#666" stroke-width="1"/><line x1="590" y1="330" x2="590" y2="350" stroke="#666" stroke-width="1.2"/><polygon points="590.0,330.0 586.5,339.0 593.5,339.0" fill="#666"/><polygon points="590.0,350.0 593.5,341.0 586.5,341.0" fill="#666"/><text x="596" y="344.0" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round"></text></g>
+<text x="596" y="345" text-anchor="start" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">topo enterrado</text>
+<text x="470" y="470" text-anchor="end" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">aletas</text>
+<text x="740" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(d) estaca de sucção</text>
+<rect x="690" y="240" width="110" height="240" fill="#666" fill-opacity="0.1" stroke="#666" stroke-width="1.5"/>
+<rect x="690" y="230" width="110" height="12" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<line x1="745" y1="230" x2="745" y2="180" stroke="#666" stroke-width="3"/>
+<text x="755" y="190" text-anchor="start" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">bomba de sucção</text>
+<g id="cota-succao-diametro" class="cota"><line x1="690" y1="480" x2="690" y2="520" stroke="#666" stroke-width="1"/><line x1="800" y1="480" x2="800" y2="520" stroke="#666" stroke-width="1"/><line x1="690" y1="520" x2="800" y2="520" stroke="#666" stroke-width="1.2"/><polygon points="690.0,520.0 699.0,523.5 699.0,516.5" fill="#666"/><polygon points="800.0,520.0 791.0,516.5 791.0,523.5" fill="#666"/><text x="745.0" y="514" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">diâmetro</text></g>
+<g id="cota-succao-penetracao" class="cota"><line x1="800" y1="330" x2="820" y2="330" stroke="#666" stroke-width="1"/><line x1="820" y1="330" x2="820" y2="480" stroke="#666" stroke-width="1.2"/><polygon points="820.0,330.0 816.5,339.0 823.5,339.0" fill="#666"/><polygon points="820.0,480.0 823.5,471.0 816.5,471.0" fill="#666"/><text x="826" y="409.0" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">penetração</text></g>
+<text x="915" y="215" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(e) fundação rasa</text>
+<rect x="860" y="290" width="110" height="40" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<line x1="860" y1="330" x2="860" y2="360" stroke="#666" stroke-width="4"/>
+<line x1="970" y1="330" x2="970" y2="360" stroke="#666" stroke-width="4"/>
+<rect x="890" y="260" width="50" height="30" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="1.5"/>
+<text x="915" y="252" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">equipamento</text>
+<g id="cota-saia" class="cota"><line x1="970" y1="330" x2="990" y2="330" stroke="#666" stroke-width="1"/><line x1="990" y1="330" x2="990" y2="360" stroke="#666" stroke-width="1.2"/><polygon points="990.0,330.0 986.5,339.0 993.5,339.0" fill="#666"/><polygon points="990.0,360.0 993.5,351.0 986.5,351.0" fill="#666"/><text x="982" y="349.0" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">saia</text></g>
+<text x="12" y="692" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

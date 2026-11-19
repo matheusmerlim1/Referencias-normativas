@@ -1,0 +1,136 @@
+{
+ "id": "PETROBRAS-N-1219",
+ "titulo": "Petrobras N-1219 Rev. H (11/2024) — Cores",
+ "secoes": [
+  {
+   "titulo": "Escopo e restrições",
+   "item": "1",
+   "texto": "Padroniza as cores da pintura de identificação visual de equipamentos, estruturas, tubulações e instrumentos, em terra e no mar, alinhada à NR-26 e NR-37 e às NBR 6493 (tubulações), 7195 (segurança), 9541 (obstáculos aéreos), 13193 (gases) e 16820 (sinalização de emergência). Percursos, espaços e alertas seguem o Manual de Sinalização da Petrobras. Tintas não podem ter pigmentos com cromo VI nem qualquer composto de chumbo.",
+   "valores": [],
+   "figuras": [
+    "esquemas/cores-padrao-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Padrões fundamentais de cores",
+   "item": "3.1, Tabela 1",
+   "texto": "A cor é definida pela notação Munsell (preferencial) e, quando houver, pela RAL. Púrpura em documento técnico significa violeta (2.5 RP 4/10); \"marrom canalizações\" e \"creme canalizações\" das NBR equivalem ao marrom e ao creme desta norma.",
+   "valores": [
+    {
+     "parametro": "Preto",
+     "valor": "Munsell N 1; RAL 9004",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cinza-escuro / cinza-claro",
+     "valor": "N 3.5 / N 6.5",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cinza-gelo",
+     "valor": "N 8; RAL 7047",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Branco",
+     "valor": "N 9.5; RAL 9003",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Branco-gelo",
+     "valor": "N 8.5",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Cor-de-alumínio",
+     "valor": "RAL 9006 (sem Munsell); alumínio leafing sem notação",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Vinho",
+     "valor": "5 R 2/6; RAL 3007",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Vermelho-segurança",
+     "valor": "5 R 4/14; RAL 3001",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Óxido de ferro",
+     "valor": "10 R 3/6; RAL 8012",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Marrom",
+     "valor": "2.5 YR 2/4",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Laranja-segurança",
+     "valor": "2.5 YR 6/14",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Creme / creme-claro",
+     "valor": "10 YR 7/6 / 2.5 Y 9/4",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Amarelo-Petrobras",
+     "valor": "2.5 Y 8/12; RAL 1023",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Amarelo-segurança",
+     "valor": "5 Y 8/12",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Verde-segurança",
+     "valor": "10 GY 6/6",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Verde-Petrobras",
+     "valor": "2.5 G 5/10; RAL 6037",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Verde-pastel",
+     "valor": "5 G 8/4; RAL 6019",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Verde-emblema",
+     "valor": "2.5 G 3/4",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Azul-segurança / azul-pastel",
+     "valor": "2.5 PB 4/10 / 2.5 PB 8/4",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Violeta",
+     "valor": "10 P 4/10 ou 2.5 RP 4/10 (NBR 7195) ou 2.5 P 3/8 (NBR 13193)",
+     "item": "Tabela 1, Nota"
+    },
+    {
+     "parametro": "Azul-marinho / bordô / rosa-seco",
+     "valor": "5 PB 2/4 / 7.5 R 3/8 / 2.5 R 8/4",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Turquesa / lilás",
+     "valor": "7.5 BG 6/8 / 2.5 P 6/18",
+     "item": "Tabela 1"
+    }
+   ],
+   "figuras": [
+    "esquemas/cores-padrao-petrobras.svg",
+    "esquemas/embarcacao-cores-identificacao.svg"
+   ]
+  }
+ ]
+}

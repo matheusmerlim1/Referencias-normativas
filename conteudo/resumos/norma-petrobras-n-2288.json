@@ -1,0 +1,150 @@
+{
+ "id": "PETROBRAS-N-2288",
+ "titulo": "Petrobras N-2288 Rev. E (12/2017) — Tinta de fundo epóxi pigmentada com alumínio",
+ "secoes": [
+  {
+   "titulo": "Escopo, embalagem e marcação",
+   "item": "1, 3",
+   "texto": "Características verificáveis em laboratório para receber tinta de fundo epóxi com alumínio, bicomponente: A = resina epóxi + pasta de alumínio; B = agente de cura de poliamina. Componentes homogêneos, sem pele nem espessamento; latas cilíndricas, vedação que não contamine, recipientes em bom estado e rotulados na lateral (NBR 15442), com no mínimo a quantidade indicada. Pode ser diluída conforme o fabricante. Rótulo (nunca na tampa): N-2288, 'tinta epóxi para superfícies não jateadas', componente A ou B, diluente, quantidade em L e kg, fabricante, lote, validade e proporção de mistura em massa e volume. Sedimento só se for facilmente homogeneizável à mão.",
+   "valores": [
+    {
+     "parametro": "Estabilidade em armazenagem (recipiente fechado, < 40 °C)",
+     "valor": "≥ 12 meses após a fabricação; revalidável por 2 períodos de 6 meses repetindo os ensaios (N-13)",
+     "item": "3.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Produto pronto para aplicação (Tabela 1)",
+   "item": "4.2",
+   "texto": "Requisitos da mistura A+B, com consistência uniforme. Para sólidos por massa e por volume a película seca/cura 24 h ao ambiente + 2 h a 60 °C.",
+   "valores": [
+    {
+     "parametro": "Massa específica (ASTM D 1475)",
+     "valor": "1,20 a 1,40 g/cm³",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Sólidos por massa (ASTM D 2369)",
+     "valor": "≥ 80 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Sólidos por volume (NBR 11617)",
+     "valor": "≥ 70 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Secagem para manuseio (ASTM D 1640), película 120–130 μm",
+     "valor": "≤ 16 h",
+     "item": "Tabela 1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    },
+    {
+     "parametro": "Secagem para repintura (ASTM D 1640), película 120–130 μm",
+     "valor": "16 h a 48 h",
+     "item": "Tabela 1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    },
+    {
+     "parametro": "Vida útil da mistura (pot-life, NBR 15742)",
+     "valor": "≥ 3 h",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Consistência (ASTM D 562)",
+     "valor": "80 a 130 UK",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Descaimento (NBR 12103), película seca",
+     "valor": "≥ 150 μm",
+     "item": "Tabela 1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#descaimento"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Película seca (Tabela 2)",
+   "item": "4.3",
+   "texto": "Após 1 500 h de névoa salina: sem bolhas nem pontos de corrosão na face; após 1 500 h a 100 % de umidade: sem corrosão nem bolhas. Depois de cada exposição, secar 24 h e repetir a aderência por tração.",
+   "valores": [
+    {
+     "parametro": "Aderência à tração — superfície St 3, película 120–130 μm (NBR 15877 / ASTM D 4541 D e E)",
+     "valor": "≥ 10 MPa",
+     "item": "Tabela 2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#tensao-arrancamento"
+    },
+    {
+     "parametro": "Aderência à tração — superfície SP-11, película 120–130 μm",
+     "valor": "≥ 12 MPa",
+     "item": "Tabela 2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#tensao-arrancamento"
+    },
+    {
+     "parametro": "Névoa salina (NBR 8094) e 100 % UR (ASTM D 2247), película 240–260 μm",
+     "valor": "≥ 1 500 h",
+     "item": "Tabela 2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    },
+    {
+     "parametro": "Penetração da corrosão a partir do entalhe após 1 500 h de névoa salina",
+     "valor": "≤ 2 mm",
+     "item": "4.3.1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#avanco-entalhe"
+    },
+    {
+     "parametro": "Aderência à tração após as exposições",
+     "valor": "≥ 6,0 MPa",
+     "item": "4.3.3",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#tensao-arrancamento"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção e preparo dos painéis",
+   "item": "5",
+   "texto": "Rejeitar o fornecimento que falhar na inspeção visual (aparência, embalagem, recipientes, marcação). Painéis de aço AISI 1020 com grau de enferrujamento C (ISO 8501-1), lavados com água e escova de náilon antes e depois do preparo: para aderência, preparo mecânico até CSt 3 ou mecânico-rotativo até SP-11; demais ensaios, SP-11. Aplicar preferencialmente a trincha, ao menos 15 min após misturar; ensaios da Tabela 2 só 10 dias após a última demão, a (25 ± 2) °C e (60 ± 5) % UR. Névoa salina com um único entalhe no centro, paralelo ao lado maior; bordas protegidas.",
+   "valores": [
+    {
+     "parametro": "Perfil de ancoragem dos painéis",
+     "valor": "50 μm a 100 μm",
+     "item": "5.2.2.2, 5.2.2.3",
+     "cota": "esquemas/pintura-preparo-superficie.svg#perfil"
+    },
+    {
+     "parametro": "Dimensões da chapa de ensaio",
+     "valor": "150 mm × 80 mm",
+     "item": "5.2.2.2, 5.2.2.3",
+     "cota": "esquemas/tinta-painel-ensaio.svg#comprimento"
+    },
+    {
+     "parametro": "Espessura mínima da chapa de ensaio",
+     "valor": "4,0 mm",
+     "item": "5.2.2.2, 5.2.2.3",
+     "cota": "esquemas/tinta-painel-ensaio.svg#espessura"
+    },
+    {
+     "parametro": "Distância do entalhe às bordas superior e inferior",
+     "valor": "30 mm",
+     "item": "5.2.2.6",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#entalhe-borda"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-painel-ensaio.svg",
+    "esquemas/pintura-preparo-superficie.svg",
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  }
+ ]
+}

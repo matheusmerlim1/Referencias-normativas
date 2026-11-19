@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" role="img" aria-label="Código de instalação (N-1710, Anexo B) — estrutura do número">
+<!--P7A-->
+<title>Código de instalação (N-1710, Anexo B) — estrutura do número (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Código de instalação (N-1710, Anexo B) — estrutura do número</text>
+<text x="500" y="55" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) composição</text>
+<text x="300" y="140" text-anchor="middle" font-size="44" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">G</text>
+<text x="390" y="140" text-anchor="middle" font-size="44" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">III</text>
+<text x="470" y="140" text-anchor="middle" font-size="44" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">.</text>
+<text x="540" y="140" text-anchor="middle" font-size="44" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">SS</text>
+<line x1="280" y1="152" x2="320" y2="152" stroke="#666" stroke-width="1.2"/>
+<line x1="350" y1="152" x2="430" y2="152" stroke="#666" stroke-width="1.2"/>
+<line x1="510" y1="152" x2="570" y2="152" stroke="#666" stroke-width="1.2"/>
+<text x="300" y="175" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">grupo (milhar)</text>
+<text x="390" y="175" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">instalação</text>
+<text x="540" y="175" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">subinstalação</text>
+<text x="540" y="192" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(.00 = instalação toda)</text>
+<text x="780" y="110" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">caracteres podem ser alfanuméricos</text>
+<text x="780" y="128" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(ex.: grupos e subdivisões com letra)</text>
+<text x="780" y="150" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">"cancelado, usar …" remete ao código novo</text>
+<text x="500" y="240" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) grupos de primeiro nível</text>
+<rect x="70" y="270" width="170" height="60" rx="6" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.5"/>
+<text x="155" y="295" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">grupo 0</text>
+<text x="155" y="314" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">administração central / sedes</text>
+<rect x="255" y="270" width="170" height="60" rx="6" fill="#666" fill-opacity="0.11" stroke="#666" stroke-width="1.5"/>
+<text x="340" y="295" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">grupo 1</text>
+<text x="340" y="314" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">exploração</text>
+<rect x="440" y="270" width="170" height="60" rx="6" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.5"/>
+<text x="525" y="295" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">grupo 2</text>
+<text x="525" y="314" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">perfuração</text>
+<rect x="625" y="270" width="170" height="60" rx="6" fill="#666" fill-opacity="0.11" stroke="#666" stroke-width="1.5"/>
+<text x="710" y="295" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">grupo 3</text>
+<text x="710" y="314" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">produção</text>
+<rect x="810" y="270" width="170" height="60" rx="6" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.5"/>
+<text x="895" y="295" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">grupo 4</text>
+<text x="895" y="314" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">logística (dutos, terminais)</text>
+<rect x="70" y="360" width="170" height="60" rx="6" fill="#666" fill-opacity="0.11" stroke="#666" stroke-width="1.5"/>
+<text x="155" y="385" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">grupo 5</text>
+<text x="155" y="404" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">refino</text>
+<rect x="255" y="360" width="170" height="60" rx="6" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.5"/>
+<text x="340" y="385" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">grupo 6</text>
+<text x="340" y="404" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">subsidiárias e coligadas</text>
+<rect x="440" y="360" width="170" height="60" rx="6" fill="#666" fill-opacity="0.11" stroke="#666" stroke-width="1.5"/>
+<text x="525" y="385" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">grupo 7</text>
+<text x="525" y="404" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">exterior</text>
+<rect x="625" y="360" width="170" height="60" rx="6" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.5"/>
+<text x="710" y="385" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">grupo 8</text>
+<text x="710" y="404" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">no país, fora do sistema</text>
+<rect x="810" y="360" width="170" height="60" rx="6" fill="#666" fill-opacity="0.11" stroke="#666" stroke-width="1.5"/>
+<text x="895" y="385" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">grupo 9</text>
+<text x="895" y="404" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">energia e gás natural</text>
+<text x="500" y="470" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">o código também alimenta o campo de área/unidade do TAG (N-1521) e do número do documento</text>
+<text x="12" y="512" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

@@ -1,0 +1,202 @@
+{
+ "id": "PETROBRAS-N-2928",
+ "titulo": "Petrobras N-2928 Rev. 0 (06/2014) — Eletricidade: transformadores de potência (com a 1ª emenda)",
+ "secoes": [
+  {
+   "titulo": "Escopo e requisitos gerais",
+   "item": "1, 3.1 (1ª emenda)",
+   "texto": "Requisitos para compra de transformadores de potência secos ou imersos em líquido isolante, monofásicos a partir de 1 kVA e trifásicos a partir de 5 kVA. Ficam de fora os secos de iluminação/instrumentação (N-2201) e os dedicados a conversores de frequência (N-2547). Projeto e ensaios pela série IEC 60076 (isolamento e afastamentos no ar, impulso, curto-circuito, ruído, autoprotegidos), comutadores pela IEC 60214-1, aplicação com conversores pela IEC 61378-1 / IEEE C57.110 e IEC 60146-1-3, unidades marítimas pela IEC 61892-3 e ligação direta a GIS ≥ 72,5 kV pela IEC TS 61639. Valores do texto da 1ª emenda (06/2014), que substitui as páginas indicadas.",
+   "valores": [
+    {
+     "parametro": "Potência mínima abrangida — monofásico / trifásico",
+     "valor": "1 kVA / 5 kVA",
+     "item": "1.1"
+    },
+    {
+     "parametro": "Meio de resfriamento — qualquer tempo / média do mês mais quente / média anual",
+     "valor": "40 / 35 / 25 °C",
+     "item": "3.1.15"
+    }
+   ],
+   "figuras": [
+    "esquemas/transformador-potencia-imerso.svg"
+   ]
+  },
+  {
+   "titulo": "Construção e acessórios comuns",
+   "item": "3.2",
+   "texto": "Capacidade de sobrecarga contínua com ventilação forçada; terminais com conectores e ferragens para os cabos ou barramentos da Folha de Dados; ligação padrão triângulo-estrela com estrela atrasada (Dyn1). Todas as partes metálicas interligadas ao tanque por cordoalha de cobre, com conector de aterramento perto do fundo. Roscas de eletroduto NPT (ASME B1.20.1); prensa-cabos e placas não magnéticos para cabos unipolares. Placa em inox AISI 300 com dados da IEC 60076-1 e da compra, mais placa adicional com o número Petrobras. Cabos dos acessórios em eletroduto até um painel auxiliar acessível, com sinais incompatíveis separados; contatos reversíveis; pontos de içamento.",
+   "valores": [
+    {
+     "parametro": "Acréscimo contínuo de potência com ventilação forçada",
+     "valor": "≥ 25 %",
+     "item": "3.2.1"
+    },
+    {
+     "parametro": "Deslocamento angular — primário triângulo / secundário estrela",
+     "valor": "30°, estrela atrasada (Dyn1)",
+     "item": "3.2.3"
+    },
+    {
+     "parametro": "Luvas na parte inferior do painel auxiliar",
+     "valor": "≥ 2 luvas de 40 mm (1 1/2\") NPT, soldadas",
+     "item": "3.2.10",
+     "cota": "esquemas/transformador-potencia-imerso.svg#luva-painel"
+    },
+    {
+     "parametro": "Grau de proteção do painel auxiliar e acessórios — seco / imerso",
+     "valor": "IP 21 / IP 54",
+     "item": "3.2.14"
+    }
+   ],
+   "figuras": [
+    "esquemas/transformador-potencia-imerso.svg"
+   ]
+  },
+  {
+   "titulo": "Cargas não senoidais e pintura",
+   "item": "3.3, 3.4",
+   "texto": "Com carga de alto conteúdo harmônico, a potência e a construção seguem a IEC 61378-1 ou IEEE C57.110, com estudo do aumento de perdas e ensaio de elevação de temperatura correspondente; a Petrobras informa o tipo de carga na Folha de Dados. Pintura para ambiente industrial ou marítimo agressivo (C5-I / C5-M da ISO 12944-2), preparação pela ISO 12944-4, sistema e espessuras pela ISO 12944-5, durabilidade média e, offshore, também ISO 20340; ensaios de desempenho pela ISO 12944-6 (aderência ISO 4624, empolamento, ferrugem, trincas, descamação, corrosão no risco). Vale também para painéis, radiadores, motores e tanques acessórios.",
+   "valores": [
+    {
+     "parametro": "Fator harmônico de corrente que caracteriza condição especial",
+     "valor": "> 0,05 pu (IEC 60076-1)",
+     "item": "3.3.1, Nota"
+    },
+    {
+     "parametro": "Durabilidade do sistema de pintura (classe M da ISO 12944-5)",
+     "valor": "5 a 15 anos",
+     "item": "3.4.6"
+    },
+    {
+     "parametro": "Cor de acabamento",
+     "valor": "Munsell N 6.5",
+     "item": "3.4.8"
+    }
+   ]
+  },
+  {
+   "titulo": "IED de controle e monitoramento",
+   "item": "3.5 (1ª emenda), Anexo A",
+   "texto": "O IED é feito para pátio de subestação: suporta, instalado e ligado, os ensaios dielétricos do transformador, atende à imunidade das IEC 60068 e 61000-4, tem memória não volátil e alimentação em faixa larga. Monitoramento e diagnóstico on-line (Anexo A), quando pedido: software com banco histórico aberto, algoritmos de engenharia, sistema especialista (diagnóstico, prognóstico e ação sugerida) e acesso remoto multiusuário; sensores para buchas, gases e umidade no óleo e correntes de carga.",
+   "valores": [
+    {
+     "parametro": "Temperatura máxima de operação do IED",
+     "valor": "85 °C (classe industrial, IEC 60068-2-14)",
+     "item": "3.5.4"
+    },
+    {
+     "parametro": "Alimentação do IED",
+     "valor": "90 Vca/Vcc a 240 Vca/Vcc",
+     "item": "3.5.6"
+    },
+    {
+     "parametro": "Monitoramento de buchas",
+     "valor": "classe ≥ 145 kV; erro ±0,5 % na capacitância e ±0,05 % (absoluto) na tangente delta",
+     "item": "A.4.7"
+    },
+    {
+     "parametro": "Sensor no óleo — pressão positiva suportada",
+     "valor": "0,1 MPa (e vácuo pleno)",
+     "item": "A.6.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Transformadores imersos em líquido isolante",
+   "item": "4; Tabela 1",
+   "texto": "Elevação de temperatura pela IEC 60076-2. Caixas de buchas com tampa aparafusada ou com chave e dobradiça de eixo vertical, vedação em elastômero resistente ao óleo e ao sol; com cabos acima de 1 kV, espaço para muflas, suportes e conector para blindagens; entrada dos cabos por baixo, por luvas em flange removível ou meia-cana, de modo a retirar o trafo sem desfazer as terminações. Óleo mineral naftênico de referência ou equivalente, com análise de gases (IEC 60567/61181). A Tabela 1 lista os acessórios por tensão (Um ≤ ou > 36 kV) e potência (< ou ≥ 5 000 kVA): nível e temperatura do óleo, temperatura do enrolamento, alívio de pressão (com retorno por mola e defletor quando pedido), Buchholz, painel auxiliar, válvulas, conservador com secador de ar, olhais, rodas, apoios de macaco e inspeção.",
+   "valores": [
+    {
+     "parametro": "Grau de proteção das caixas de buchas",
+     "valor": "IP 54",
+     "item": "4.1.6.1"
+    },
+    {
+     "parametro": "Luva para o cabo de aterramento do sistema (lado aterrado)",
+     "valor": "40 mm (1 1/2\") NPT no fundo da caixa, sob a bucha de neutro em ligação estrela",
+     "item": "4.1.6.5",
+     "cota": "esquemas/transformador-potencia-imerso.svg#luva-neutro"
+    },
+    {
+     "parametro": "Tensão que exige espaço para muflas na caixa de buchas",
+     "valor": "> 1 000 V",
+     "item": "4.1.6.6.1"
+    },
+    {
+     "parametro": "Derivações no enrolamento de AT (Um ≤ 36 kV)",
+     "valor": "pelo menos 4 além da principal: ± 2 × 2,5 %, à potência nominal",
+     "item": "4.4"
+    },
+    {
+     "parametro": "Limites da Tabela 1 de acessórios",
+     "valor": "Um ≤ 36 kV ou > 36 kV; Sn < 5 000 kVA ou ≥ 5 000 kVA",
+     "item": "Tabela 1"
+    }
+   ],
+   "figuras": [
+    "esquemas/transformador-potencia-imerso.svg"
+   ]
+  },
+  {
+   "titulo": "Transformadores acima de 36 kV e OLTC",
+   "item": "4.5",
+   "texto": "Ligação conforme projeto e concessionária; rendimento mínimo por faixa de potência no último estágio de resfriamento com fator de potência unitário. Supervisão local por IED (ventilação forçada, temperaturas, alarmes e trips das proteções próprias), em comando local ou remoto, com comunicação à sala de controle em IEC 61850. Comutador sob carga (OLTC) pela IEC 60214-1, com chave local/remoto e manual/automático, operação em paralelo mestre/escravo, comutação em ampola a vácuo imersa e IED próprio (função ANSI 90) com posição de tap, tensão, corrente e contador de operações.",
+   "valores": [
+    {
+     "parametro": "Rendimento mínimo — 5 < Sn < 30 MVA",
+     "valor": "99,30 %",
+     "item": "4.5.2 a)"
+    },
+    {
+     "parametro": "Rendimento mínimo — 30 ≤ Sn < 50 MVA",
+     "valor": "99,40 %",
+     "item": "4.5.2 b)"
+    },
+    {
+     "parametro": "Rendimento mínimo — 50 ≤ Sn < 100 MVA",
+     "valor": "99,50 %",
+     "item": "4.5.2 c)"
+    },
+    {
+     "parametro": "Rendimento mínimo — 100 ≤ Sn < 200 MVA",
+     "valor": "99,60 %",
+     "item": "4.5.2 d)"
+    },
+    {
+     "parametro": "Rendimento mínimo — Sn ≥ 200 MVA",
+     "valor": "99,70 %",
+     "item": "4.5.2 e)"
+    },
+    {
+     "parametro": "Vida dos contatos do OLTC",
+     "valor": "≥ 600 000 operações a plena carga; 300 000 no intervalo de manutenção",
+     "item": "4.5.4.5"
+    }
+   ]
+  },
+  {
+   "titulo": "Transformadores secos",
+   "item": "5",
+   "texto": "Projeto e ensaios pela IEC 60076-11; mesmas derivações dos imersos. Instalação externa em caixa metálica quando pedido; interna pode ser IP00 com tela (atenção às classificadoras offshore). Resina retardante de chama, autoextinguível e de baixa toxicidade; conexões cobre-alumínio encapsuladas ou bimetálicas; núcleo desmontável no local; fixação de cabos singelos não magnética. Classes padrão C1, E2 e F1; um sensor por fase no ponto mais quente da BT. Acessórios: indicador/controlador de temperatura, painel auxiliar, aterramento identificado, rodas, apoios para macaco, suspensão do conjunto e da parte ativa, comutador sem tensão.",
+   "valores": [
+    {
+     "parametro": "Classes padrão — climática / ambiental / fogo",
+     "valor": "C1 / E2 / F1 (IEC 60076-11)",
+     "item": "5.8"
+    },
+    {
+     "parametro": "Sensores de temperatura do enrolamento",
+     "valor": "1 por fase, no ponto mais quente da BT, Pt100 se não especificado",
+     "item": "5.9"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção, TAF/TAC e documentação",
+   "item": "6, 7",
+   "texto": "O fabricante apresenta o Plano de Inspeção e Testes com todos os ensaios de fábrica (TAF) e de campo (TAC), normas e faixas de aceitação, aprovado antes da inspeção. Verificam-se documentação aprovada, certificados de calibração válidos (RBC), dimensões internas das caixas de terminais e do painel, acessórios e relatórios de pintura. Ensaios de tipo em uma unidade de cada lote idêntico; especiais em todas; relatórios de tipo de unidades idênticas aceitos quando previsto. A Folha de Dados prevalece sobre a norma; a proposta traz desenho preliminar, massa e curva de corrente de magnetização; após o pedido, documentação para aprovação e manuais.",
+   "valores": []
+  }
+ ]
+}

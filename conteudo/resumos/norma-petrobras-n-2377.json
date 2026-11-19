@@ -1,0 +1,94 @@
+{
+ "id": "PETROBRAS-N-2377",
+ "titulo": "Petrobras N-2377 Rev. B (04/2014) — Nafta: determinação da composição pelo método PIANO",
+ "secoes": [
+  {
+   "titulo": "Escopo e princípio",
+   "item": "1, 3, 4",
+   "texto": "Determina n-parafinas, isoparafinas, aromáticos, naftênicos, iso-olefinas e n-olefinas em naftas e gasolinas de craqueamento catalítico fluido (FCC) por cromatografia gasosa de alta resolução. A amostra passa por coluna capilar que separa por ponto de ebulição; os picos são identificados pelo tempo de retenção (Anexo B, cromatograma típico no Anexo C) e somados por grupo e número de carbonos. Segurança de laboratório pela N-2549.",
+   "valores": [],
+   "figuras": [
+    "esquemas/cromatografia-gasosa-coluna-capilar.svg"
+   ]
+  },
+  {
+   "titulo": "Aparelhagem e reagentes",
+   "item": "6, 7, Anexo A",
+   "texto": "Cromatógrafo com detector de ionização de chama, injetor com divisor de fluxo, forno com 3 rampas e válvula criogênica; injetor automático; sistema de dados; microsseringa de 5 μL ou 10 μL. Gases N₂, H₂ e ar sintético de alta pureza (comerciais aceitos se filtrados por 1/3 de sílica-gel e 2/3 de peneira molecular 5 Å de 4 a 8 mesh); dissulfeto de carbono PA nos frascos de lavagem; N₂ ou CO₂ líquido para o criogênico; solução de n-pentano 5 % v/v em CS₂ como referência.",
+   "valores": [
+    {
+     "parametro": "Coluna capilar (metilsilicone) — comprimento",
+     "valor": "50 m (alternativa do Anexo A: 60 m)",
+     "item": "6.4, A.1",
+     "cota": "esquemas/cromatografia-gasosa-coluna-capilar.svg#comprimento-coluna"
+    },
+    {
+     "parametro": "Coluna capilar — diâmetro interno",
+     "valor": "0,20 mm (alternativa: 0,2 mm)",
+     "item": "6.4, A.1",
+     "cota": "esquemas/cromatografia-gasosa-coluna-capilar.svg#diametro-interno"
+    },
+    {
+     "parametro": "Coluna capilar — espessura da fase",
+     "valor": "0,5 μm (alternativa: 1,0 μm)",
+     "item": "6.4, A.1",
+     "cota": "esquemas/cromatografia-gasosa-coluna-capilar.svg#espessura-fase"
+    },
+    {
+     "parametro": "Grânulo da sílica-gel do filtro de gases",
+     "valor": "1 mm a 4 mm",
+     "item": "7 (nota)",
+     "cota": "esquemas/cromatografia-gasosa-coluna-capilar.svg#granulo-silica"
+    },
+    {
+     "parametro": "Pureza mínima de N₂, H₂ e ar sintético",
+     "valor": "99,997 %",
+     "item": "7.1–7.3"
+    }
+   ],
+   "figuras": [
+    "esquemas/cromatografia-gasosa-coluna-capilar.svg"
+   ]
+  },
+  {
+   "titulo": "Condições de operação e cálculo",
+   "item": "8, 9",
+   "texto": "Instalar e testar vazamentos na coluna; pressão na cabeça com H₂ de arraste ajustável para o n-pentano sair no tempo de referência. Programa: 0 °C por 15 min; rampa 1 a 4 °C/min até 25 °C; rampa 2 a 14 °C/min com espera de 10 min; rampa 3 a 2,5 °C/min até 180 °C com 5 min de espera (o texto dá 18 °C como final da rampa 2 — conferir). Vazões do fabricante prevalecem se divergirem. Amostra refrigerada no frasco do injetor automático. Identificar os picos, calibrar por normalização com fator de resposta igual para todos e somar os grupos da Tabela 1 (parafinas normal, monorramificada e multirramificada; olefinas idem; naftênicos olefínicos e parafínicos; aromáticos; não identificados — de até C5 a C13) em % massa (ou % volume pelas densidades); co-eluições pelo Anexo D. Precisão ainda não estabelecida.",
+   "valores": [
+    {
+     "parametro": "Pressão na cabeça da coluna (H₂)",
+     "valor": "12 psi (ou a que dê 10,93 min para o n-pentano)",
+     "item": "8.1.2"
+    },
+    {
+     "parametro": "Vazão do divisor de fluxo",
+     "valor": "200 mL/min",
+     "item": "8.1.4 f)"
+    },
+    {
+     "parametro": "Temperatura do injetor / detector",
+     "valor": "250 °C / 300 °C",
+     "item": "8.1.4 g), h)"
+    },
+    {
+     "parametro": "Vazões no detector — make-up N₂ / H₂ / ar",
+     "valor": "30 / 35 / 350 mL/min",
+     "item": "8.1.4 i)–k)"
+    },
+    {
+     "parametro": "Volume injetado",
+     "valor": "1 μL",
+     "item": "8.1.4 l)"
+    },
+    {
+     "parametro": "Tempo de análise",
+     "valor": "110 min",
+     "item": "8.1.4 m)"
+    }
+   ],
+   "figuras": [
+    "esquemas/cromatografia-gasosa-coluna-capilar.svg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "PETROBRAS-N-2914",
+ "titulo": "Petrobras N-2914 Rev. B (01/2023) — Critérios de segurança para projeto de sistema de detecção e alarme de incêndio e gás em instalações terrestres",
+ "secoes": [
+  {
+   "titulo": "Condições gerais",
+   "item": "3, 4",
+   "texto": "Sistema fixo de detectores (chama, fumaça, temperatura, gás), controle, alarmes e atuadores para alertar a tempo incêndios e perdas de contenção de gases inflamáveis e tóxicos. Não gera intertravamento, salvo quando a norma ou o projeto pedem. Alarmes sonoros e visuais no local e na tela do CIC (prédios fora da área de processo não mandam alarme ao CIC; podem ir à sala do SMS); área administrativa com central de alarme em local sempre ocupado. Botoeiras, disparos de CO₂/agente limpo, detectores e avisadores com supervisão contínua de circuito aberto, curto e falta de energia. Especificação considera compatibilidade com o sistema de supervisão, estratégia, faixa, tempo de resposta, confiabilidade, vida do sensor, padronização, IP (NBR IEC 60529) e alarmes espúrios; tipo de detector pela composição das correntes e pelo combustível (Anexo A). Facilidades de teste e calibração (de preferência autoteste e calibração não intrusiva); cabos pela N-1997 e instrumentação pela N-1882.",
+   "valores": [
+    {
+     "parametro": "Autonomia da alimentação de emergência",
+     "valor": "≥ 2 h ininterruptas (a autonomia de 24 h da NBR 17240 não se aplica a edificações operacionais terrestres)",
+     "item": "4.9"
+    }
+   ],
+   "figuras": [
+    "esquemas/deteccao-incendio-gas-terrestre.svg",
+    "esquemas/alarme-incendio-instalacao.svg"
+   ]
+  },
+  {
+   "titulo": "Detecção de incêndio",
+   "item": "5",
+   "texto": "Detectores que voltam ao normal sem trocar peça; fumaça e temperatura endereçáveis, com indicação local e na tela até rearme manual; chama com indicação gráfica do local e do TAG. Recomendados detectores de chama (UV+IR ou triplo IR, especificados distintamente para hidrocarboneto e hidrogênio) para incêndio em poça e jato em áreas de processo e parques de bombas de gases liquefeitos e inflamáveis, cuidando de alarmes falsos. Localização pelos fabricantes, NBR 17240, ISO 7240-1 e NFPA 72, considerando geometria, ventilação, obstáculos e interferência eletromagnética. Termovelocimétrico só em área fechada.",
+   "valores": [
+    {
+     "parametro": "Detector de chama — cobertura",
+     "valor": "campo de visão do detector sobre bombas e fontes de poça/jato",
+     "item": "5.2",
+     "cota": "esquemas/deteccao-incendio-gas-terrestre.svg#cone-chama"
+    }
+   ],
+   "figuras": [
+    "esquemas/deteccao-incendio-gas-terrestre.svg"
+   ]
+  },
+  {
+   "titulo": "Detecção de gás",
+   "item": "6; Tabela 1",
+   "texto": "Monitoramento contínuo das áreas do projeto/análise de risco (pode incluir vapores de líquidos muito voláteis). Gás inflamável: detectores IR pontuais ou de visada (considerar bloqueio do feixe e vibração); quantidade e posição por estudo de dispersão, densidade do gás, fontes, ventilação, acúmulo, frequência e vazão de vazamentos, proteção mecânica e contra inibidores. Tóxicos de preferência eletroquímicos. Salas de baterias com detector de H₂ posicionado pela densidade e ventilação. Captação de ar de HVAC de salas de controle e subestações próximas a processo com detector pontual que, em nível muito alto, dispara alarme local, desliga ventilação/ar-condicionado, fecha dampers e corta a pressurização dos painéis.",
+   "valores": [
+    {
+     "parametro": "Gás inflamável — detector pontual",
+     "valor": "alarme alto 20 % LII; muito alto 60 % LII",
+     "item": "6.8"
+    },
+    {
+     "parametro": "Gás inflamável — detector de visada",
+     "valor": "alarme alto 1 LII·m; muito alto 3 LII·m (distância emissor-receptor pelo fabricante)",
+     "item": "6.8, Nota",
+     "cota": "esquemas/deteccao-incendio-gas-terrestre.svg#visada"
+    },
+    {
+     "parametro": "H₂ em sala de baterias",
+     "valor": "alarme no CIC a 20 % LII",
+     "item": "6.9; B.5"
+    },
+    {
+     "parametro": "Cloro (Cl₂)",
+     "valor": "alto 1 ppm; muito alto 3 ppm",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Sulfeto de hidrogênio (H₂S)",
+     "valor": "alto 8 ppm; muito alto 20 ppm",
+     "item": "6.7; Tabela 1"
+    },
+    {
+     "parametro": "Amônia (NH₃)",
+     "valor": "alto 20 ppm; muito alto 40 ppm",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Monóxido de carbono (CO)",
+     "valor": "alto 20 ppm; muito alto 50 ppm",
+     "item": "Tabela 1"
+    }
+   ],
+   "figuras": [
+    "esquemas/deteccao-incendio-gas-terrestre.svg"
+   ]
+  },
+  {
+   "titulo": "Certificação e matriz de detectores",
+   "item": "7; Anexos A e B",
+   "texto": "Dispositivos com certificação Ex para a zona da área classificada e selo INMETRO (Portaria 115), inclusive calibradores de campo; detectores de gás pela NBR IEC 60079-29-2/-3/-4. Anexo A recomenda o tipo por local: GLP/LGN e bombas de GLP — gás HC; bombas de inflamáveis — chama; cloração — cloro; caldeira de CO — CO; turbogeradores — gás inflamável; subestações e CIC — fumaça (inclusive entreforro e entrepiso), temperatura em painéis e transformadores internos, H₂ em baterias, temperatura na copa. Anexo B lista as ações de cada nível (alarme no CIC e no SMS, avisadores locais e vizinhos, intertravamentos de HVAC)."
+  }
+ ]
+}

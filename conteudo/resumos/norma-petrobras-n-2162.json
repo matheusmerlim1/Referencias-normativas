@@ -1,0 +1,90 @@
+{
+ "id": "PETROBRAS-N-2162",
+ "titulo": "Petrobras N-2162 Rev. G (12/2020) — Permissão para trabalho",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1, 3",
+   "texto": "Diretrizes para autorizar intervenções (manutenção, montagem, desmontagem, construção, inspeção e reparo) em áreas operacionais por meio da Permissão para Trabalho (PT). Dispensada quando o próprio responsável pelo equipamento executa em sua área, ou em atividade rotineira e de baixo risco, desde que haja procedimento baseado em análise de risco e a lei permita. Termos-chave: área operacional, área liberada, área remota; equipamento classe A (contém ou conteve substância tóxica, asfixiante, corrosiva ou inflamável) e classe B (purgado ou nunca a conteve); dispositivos de manobra (válvulas, disjuntores), de isolamento (raquete, flange cego, figura 8) e de travamento (cadeado, corrente, lacre); PTT; RAS; trabalho a quente com chama aberta (N-2349) ou com possível fonte de ignição (monitorar em área classificada).",
+   "valores": [],
+   "figuras": [
+    "esquemas/permissao-trabalho-bloqueio-etiqueta.svg"
+   ]
+  },
+  {
+   "titulo": "Sistemática da intervenção e validade da PT",
+   "item": "4.3 a 4.7",
+   "texto": "Etapas: autorização da intervenção pelo responsável da instalação, planejamento multidisciplinar (trabalhos, planejamento operacional, análises de risco da liberação do equipamento, da área e da execução, retorno à operação e resíduos, gestão de mudanças) e emissão da PT com as medidas de controle, após verificação no local. A PT vale para um trabalho, uma área e um único equipamento/sistema, sem rasuras (ressalvas assinadas antes do início); trabalho em área de outra gerência exige co-emissão. Registra data, hora de emissão, validade e prazo limite para início; pode ser revalidada após reavaliação. Fica afixada no local. Suspensa se uma recomendação não for cumprida, surgir risco novo, houver atraso ou interrupção acima do previsto ou emergência próxima; cancelada em emergência no local — então só com nova PT. No encerramento, requisitante e emitente (e co-emitente) verificam o local e removem advertências e bloqueios.",
+   "valores": [
+    {
+     "parametro": "Conclusão do planejamento da intervenção",
+     "valor": "no mínimo no dia anterior à execução",
+     "item": "4.3.2.2, Nota 1"
+    },
+    {
+     "parametro": "Validade da PT",
+     "valor": "a jornada de trabalho do requisitante",
+     "item": "4.4.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/permissao-trabalho-bloqueio-etiqueta.svg"
+   ]
+  },
+  {
+   "titulo": "Requisitante, emitente, co-emitente e RAS",
+   "item": "4.8 a 4.11",
+   "texto": "Requisitante: empregado Petrobras capacitado ou de contratada capacitado e credenciado na sua especialidade; instrui os executantes e mantém as condições de segurança; se também executa, não requisita outra PT ao mesmo tempo. Emitente: empregado Petrobras responsável pelo equipamento (ou contratado credenciado quando a contratada opera a instalação); inspeciona o local com o requisitante, garante as recomendações e define acompanhamento. Co-emitente: mesmos requisitos, cuida da área sob sua responsabilidade. Recomendações Adicionais de Segurança (RAS) do profissional de segurança obrigatórias em radiação ionizante, espaço confinado, trabalho a quente com chama aberta em equipamento classe A (ou B ligado a A) e outros casos definidos pela unidade.",
+   "valores": [],
+   "figuras": [
+    "esquemas/permissao-trabalho-bloqueio-etiqueta.svg",
+    "esquemas/espaco-confinado.svg"
+   ]
+  },
+  {
+   "titulo": "Isolamento, travamento e etiquetas",
+   "item": "4.12, Anexo A",
+   "texto": "Plano de isolamento de energias feito no planejamento, específico de um equipamento: fontes de energia, manobras e travas, dispositivos de isolamento e seus locais, dissipação da energia residual e pontos das etiquetas; aprovado por empregados indicados. Responsável pelo Isolamento (de preferência diferente do emitente, para dupla checagem) confere e autoriza instalação e remoção. Travamento elétrico pela NR-10; sem recurso de trava, só etiqueta, se a condição segura for garantida. Etiquetas sempre, com ou sem trava: amarela afixada pelo emitente, azul pelo requisitante/executante (azul opcional com trava individual azul); material resistente ao tempo; número da primeira PT ou da matriz de isolamento. Só quem instalou (ou substituto) remove, após avisar os expostos.",
+   "valores": [
+    {
+     "parametro": "Dimensões da etiqueta de advertência (modelo)",
+     "valor": "cotas de 80 mm e 160 mm no modelo; furo a 10 mm das bordas",
+     "item": "Anexo A, Figuras A.2 e A.4",
+     "nota": "Lido do modelo (dimensões em mm); conferir a orientação largura × altura no desenho da norma.",
+     "cota": "esquemas/permissao-trabalho-bloqueio-etiqueta.svg#etiqueta-altura"
+    },
+    {
+     "parametro": "Furo de fixação da etiqueta",
+     "valor": "a 10 mm das bordas no modelo",
+     "item": "Anexo A, Figuras A.2 e A.4",
+     "nota": "Lido do modelo; conferir.",
+     "cota": "esquemas/permissao-trabalho-bloqueio-etiqueta.svg#etiqueta-furo"
+    },
+    {
+     "parametro": "Cores das etiquetas",
+     "valor": "fundo amarelo-segurança (emitente) ou azul-segurança (executante); \"PERIGO\" em vermelho-segurança; letras brancas na elipse; contornos pretos (N-1219)",
+     "item": "4.12.5.1, Anexo A"
+    }
+   ],
+   "figuras": [
+    "esquemas/permissao-trabalho-bloqueio-etiqueta.svg",
+    "esquemas/cores-padrao-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "PT temporária, área liberada e auditoria",
+   "item": "5, 6",
+   "texto": "PTT (com autorização do nível competente): começa pela PT comum até haver condição segura estável (ou direto, se a análise de risco comprovar barreiras suficientes), para paradas ou obras; não vale para radiação ionizante; verificação diária registrada; serviço diferente exige PT específica. Área liberada: pedida por escrito, sem interferência com o processo nem equipamentos interligados a ele, emitida após inspeção conjunta (operação, C&M, manutenção, SMS) e análise de risco; não dispensa PT para radiação ionizante e outros casos. Programa de auditoria contínua, arquivo da documentação e tratamento dos desvios.",
+   "valores": [
+    {
+     "parametro": "Duração máxima da PTT",
+     "valor": "30 dias, renováveis",
+     "item": "5.1.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/permissao-trabalho-bloqueio-etiqueta.svg"
+   ]
+  }
+ ]
+}

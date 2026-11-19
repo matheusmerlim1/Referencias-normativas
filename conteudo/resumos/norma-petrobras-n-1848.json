@@ -1,0 +1,122 @@
+{
+ "id": "PETROBRAS-N-1848",
+ "titulo": "Petrobras N-1848 Rev. D (03/2023) — Projeto de fundações de máquinas",
+ "secoes": [
+  {
+   "titulo": "Dados básicos",
+   "item": "4",
+   "texto": "Solo: camadas, lençol freático máximo, SPT ou outra resistência, massa específica, módulo de cisalhamento G, Poisson e amortecimento histerético. Equipamento (documentos do fabricante): forças e momentos dinâmicos em partida, regime e transientes (amplitude, harmônica, rotação, fase, ponto de aplicação, desbalanceamento admissível), forças estáticas (torque do acionador nos chumbadores, empuxo axial, efeitos térmicos), massas do conjunto, rotor, acionador e acessórios, CGs, dimensões e rigidez do skid e limites de vibração na interface. Fundação: centroide e inércia da base, CG e momento de massa do conjunto.",
+   "figuras": [
+    "esquemas/fundacao-maquina-bloco-vibracao.svg"
+   ]
+  },
+  {
+   "titulo": "Requisitos de projeto",
+   "item": "5",
+   "texto": "Atender N-1644, N-1784, NBR 6118/6122/6123/6489/8681/13208/15928/16315/16903, API RP 686 e ISO 2631-1. Fundação de máquina separada das vizinhas (ou com cuidados contra transmissão). Solo tratado como meio elástico (G, ν, ρ). Deslocamentos menores que os admitidos pelas tubulações ligadas. Fundação profunda recomendada com baixa tensão admissível, recalque alto, lençol alto ou vizinhas próximas. Evitar base em lençol alto (vibração amplificada em areia saturada). Máquinas elevadas: modelo matemático aprovado pela Petrobras, de preferência por elementos finitos.",
+   "valores": [
+    {
+     "parametro": "Separação entre frequências naturais e de operação",
+     "valor": "≥ 20 % (recomendado)",
+     "item": "5.1.4"
+    },
+    {
+     "parametro": "Excentricidade CG do conjunto ↔ centroide da base (rasa) ou do estaqueamento",
+     "valor": "≤ 5 % da dimensão da base/bloco na direção considerada",
+     "item": "5.2.1; 5.3",
+     "cota": "esquemas/fundacao-maquina-bloco-vibracao.svg#excentricidade"
+    },
+    {
+     "parametro": "Tensão no solo — só cargas estáticas",
+     "valor": "≤ 50 % da tensão admissível",
+     "item": "5.2.2"
+    },
+    {
+     "parametro": "Tensão no solo — estática + dinâmica",
+     "valor": "≤ 75 % da tensão admissível",
+     "item": "5.2.2"
+    },
+    {
+     "parametro": "Altura mínima da base",
+     "valor": "≥ 1/5 da menor dimensão e ≥ 1/10 da maior dimensão em planta",
+     "item": "5.2.3",
+     "cota": "esquemas/fundacao-maquina-bloco-vibracao.svg#altura-base"
+    },
+    {
+     "parametro": "Dimensão da base na direção de rotação",
+     "valor": "≥ 1,5 × a distância vertical da linha de centro da máquina à base",
+     "item": "5.2.5",
+     "cota": "esquemas/fundacao-maquina-bloco-vibracao.svg#dimensao-base"
+    },
+    {
+     "parametro": "Fundação vibrante vizinha a não vibrante",
+     "valor": "assentada mais baixa e afastada, no mínimo na relação 1:3 (V:H)",
+     "item": "5.2.6",
+     "cota": "esquemas/fundacao-maquina-bloco-vibracao.svg#relacao-vh"
+    },
+    {
+     "parametro": "Razão massa da fundação / massa da máquina (recomendada)",
+     "valor": "> 3 (rotativas); > 5 (alternativas)",
+     "item": "5.2.7"
+    }
+   ],
+   "figuras": [
+    "esquemas/fundacao-maquina-bloco-vibracao.svg"
+   ]
+  },
+  {
+   "titulo": "Parâmetros do solo e geometria do sistema",
+   "item": "6.1, 6.2; Tabela 1",
+   "texto": "Na falta de ensaios: massa específica recomendada e G pelo SPT (cross-hole preferido); Poisson pela Tabela 1; E = 2G(1 + ν). Centroide, CG, momentos de inércia e de massa e raios equivalentes calculados para a base rasa ou o bloco sobre estacas (x, y horizontais; z vertical).",
+   "valores": [
+    {
+     "parametro": "Massa específica do solo (sem ensaio)",
+     "valor": "1,8 t/m³ (recomendado)",
+     "item": "6.1.1"
+    },
+    {
+     "parametro": "Módulo de cisalhamento dinâmico (sem ensaio)",
+     "valor": "G = 12 000 · N^0,8 kPa (N = golpes SPT)",
+     "item": "6.1.2, Nota"
+    },
+    {
+     "parametro": "Poisson — argila saturada / parcialmente saturada",
+     "valor": "0,45–0,50 / 0,35–0,45",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Poisson — areia densa ou pedregulho / medianamente densa; silte",
+     "valor": "0,40–0,50 / 0,30–0,40; 0,30–0,40",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Análise dinâmica",
+   "item": "6.3–6.11",
+   "texto": "Fundações rasas pela teoria clássica da constante de mola (coeficientes Cu e Cτ) ou pela teoria do semiespaço elástico; profundas com coeficientes de rigidez e amortecimento das estacas (vertical, flexão, cruzado) e efeito de grupo. Frequências naturais desacopladas e acopladas, com e sem amortecimento; forças dinâmicas de máquinas alternativas e desbalanceamento de rotativas (peso do rotor e excentricidade efetiva); amplitudes no CG e em qualquer ponto; velocidade de pico = ω·A e velocidade efetiva = ω·A/√2."
+  },
+  {
+   "titulo": "Severidade de vibração e modelagem",
+   "item": "6.12, 6.13; Tabelas 13 e 14",
+   "texto": "Limites da ISO 2631-1 e ISO 20816-1. Máquinas rotativas em classes I (pequenas, motores até 15 kW), II (médias, 15–75 kW, ou até 300 kW sobre fundação especial), III (grandes em fundação rígida) e IV (grandes em fundação flexível, ex. turbogeradores); faixas de velocidade efetiva de 0,28 a 71 mm/s classificam o comportamento em A (bom), B (satisfatório), C (pouco satisfatório) e D (ruim). Elementos finitos aceitos: análise modal, transiente e harmônica com todos os subsistemas; singularidades (colunas, plataformas) analisadas também isoladamente; em compressores alternativos, margem entre frequências acústicas (estudo de pulsação) e naturais.",
+   "valores": [
+    {
+     "parametro": "Faixa de comportamento exigida no projeto",
+     "valor": "A ou B (Tabela 14)",
+     "item": "6.12.1.2, Nota"
+    },
+    {
+     "parametro": "Frequências naturais mínimas no modelo — com singularidades",
+     "valor": "as 20 primeiras (capturando as das singularidades)",
+     "item": "6.13.5"
+    },
+    {
+     "parametro": "Frequências naturais mínimas — fundação rígida sem singularidades",
+     "valor": "as 6 primeiras",
+     "item": "6.13.6"
+    }
+   ]
+  }
+ ]
+}

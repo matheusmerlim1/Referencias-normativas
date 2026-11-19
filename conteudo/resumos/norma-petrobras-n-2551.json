@@ -1,0 +1,86 @@
+{
+ "id": "PETROBRAS-N-2551",
+ "titulo": "Petrobras N-2551 Rev. C (05/2025) — Enxofre produto: determinação de umidade, cinzas, acidez e pureza",
+ "secoes": [
+  {
+   "titulo": "Escopo, segurança e aparelhagem",
+   "item": "1, 3, 5, 6, 7",
+   "texto": "Método para umidade, cinzas, acidez e pureza do enxofre do processo Claus, sólido (pilhas), líquido (solidifica em tarugo ou pedra na amostra) ou em pastilhas. Preparo e queima em capela com boa exaustão e EPI; descarte pela N-2622; reagentes PA/ACS rotulados pela NBR 14725. Reagentes: álcool isopropílico, fenolftaleína, NaOH padronizado 0,020 mol/L (ou 0,025 mol/L), água destilada. Aparelhagem: balança de 0,1 mg calibrada, bureta ou titulador potenciométrico, cápsulas resistentes a 800 °C (quartzo, platina, porcelana), pistilo e gral, chapa ou bico de Bunsen, estufa com circulação de ar, mufla, peneiras, placa de Petri ou pesa-filtro, dessecador e, opcionalmente, balança termogravimétrica.",
+   "valores": [
+    {
+     "parametro": "Bureta (titulação manual)",
+     "valor": "5 mL, subdivisões de 0,02 mL",
+     "item": "7.2",
+     "cota": "esquemas/laboratorio-calcinacao-mufla-titulacao.svg#bureta-subdivisao"
+    },
+    {
+     "parametro": "Temperatura da estufa",
+     "valor": "100 °C a 105 °C",
+     "item": "7.7"
+    },
+    {
+     "parametro": "Temperatura da mufla",
+     "valor": "(775 ± 25) °C",
+     "item": "7.9",
+     "cota": "esquemas/laboratorio-calcinacao-mufla-titulacao.svg#temperatura-mufla"
+    },
+    {
+     "parametro": "Placa de Petri — diâmetro × altura",
+     "valor": "100 mm × 15 mm",
+     "item": "7.12 (nota)",
+     "cota": "esquemas/laboratorio-calcinacao-mufla-titulacao.svg#placa-diametro"
+    },
+    {
+     "parametro": "Pesa-filtro — diâmetro × altura",
+     "valor": "60 mm × 20 mm",
+     "item": "7.12 (nota)",
+     "cota": "esquemas/laboratorio-calcinacao-mufla-titulacao.svg#pesafiltro-diametro"
+    }
+   ],
+   "figuras": [
+    "esquemas/laboratorio-calcinacao-mufla-titulacao.svg"
+   ]
+  },
+  {
+   "titulo": "Preparo da amostra",
+   "item": "8",
+   "texto": "Enxofre líquido em frasco inerte resistente à temperatura (ex. teflon), sólido e pastilhas em saco de polietileno. Partir a pedra, triturar cerca de 200 g em gral (quartear se preciso; máscara contra pó recomendada), passar cerca de 150 g na peneira grossa (umidade e cinzas) e o resto na fina (acidez) — dispensável se moído em moinho de discos. Guardar as duas frações em dessecador e trabalhar rápido para não contaminar. Amostra líquida: esfriar ao ambiente e seguir igual.",
+   "valores": [
+    {
+     "parametro": "Peneira para umidade e cinzas / para acidez",
+     "valor": "10 mesh / 60 mesh",
+     "item": "8.2.4, 8.2.5",
+     "cota": "esquemas/laboratorio-calcinacao-mufla-titulacao.svg#peneira"
+    }
+   ],
+   "figuras": [
+    "esquemas/laboratorio-calcinacao-mufla-titulacao.svg"
+   ]
+  },
+  {
+   "titulo": "Umidade, cinzas, acidez e pureza",
+   "item": "9",
+   "texto": "Umidade (dispensada para quem vende enxofre líquido direto): cerca de 50 g na estufa por 1 h, esfriar 1 h no dessecador e pesar (ou balança termogravimétrica); % = 100·(M1 − M2)/M1, com 2 casas (< 0,01 % se menor). Cinzas: cerca de 50 g (pode ser a amostra seca) aquecidos brandamente até a ignição; desligar o calor e não mexer na cápsula até o enxofre queimar todo; calcinar na mufla, esfriar 1 h e pesar; no sólido corrige-se pela umidade; 3 casas (< 0,001 %). Acidez: cerca de 20 g da fração fina + 25 mL de isopropanol + 50 mL de água, agitar 1–2 min, repousar 20 min, filtrar e lavar até ~150 mL, titular com NaOH e fenolftaleína (ou potenciometricamente — eletrodo 5 min em água antes, guardado em HCl pH 4,5–5,5), com branco; acidez como H₂SO₄ = (Va − Vb)·N·f·4,904/M (no sólido, sobre a massa seca); 3 casas. Pureza = 100 − (% cinzas + % acidez), 3 casas; se algum contaminante der < 0,001 %, informar como 'maior que' o calculado.",
+   "valores": [
+    {
+     "parametro": "Massa para umidade / cinzas / acidez",
+     "valor": "≈ 50 g / ≈ 50 g / ≈ 20 g",
+     "item": "9.1.1, 9.2.1, 9.3.1.1"
+    },
+    {
+     "parametro": "Secagem na estufa e esfriamento",
+     "valor": "1 h a 100–105 °C; 1 h no dessecador",
+     "item": "9.1.2, 9.1.3"
+    },
+    {
+     "parametro": "Repouso da suspensão para acidez",
+     "valor": "20 min",
+     "item": "9.3.1.3"
+    }
+   ],
+   "figuras": [
+    "esquemas/laboratorio-calcinacao-mufla-titulacao.svg"
+   ]
+  }
+ ]
+}

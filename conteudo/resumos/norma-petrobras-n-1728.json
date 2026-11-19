@@ -1,0 +1,165 @@
+{
+ "id": "PETROBRAS-N-1728",
+ "titulo": "Petrobras N-1728 Rev. L (10/2015) — Concreto refratário",
+ "secoes": [
+  {
+   "titulo": "Classes de concreto e plásticos",
+   "item": "3, 4.1; Tabela A.1",
+   "texto": "Especifica concretos refratários (agregados refratários com ligante de pega hidráulica ou química), plásticos refratários e os dispositivos de ancoragem e materiais complementares. A classe pela massa específica aparente após secagem a 110 °C define isolante, semi-isolante ou denso; a Tabela A.1 fixa propriedades por família (antierosivos, regulares, alta alumina, classes A–C): análise química (Al₂O₃ mínimo etc.), massa específica, resistência à compressão a 110 °C e 815 °C, variação dimensional, erosão e condutividade térmica. Também valem NBR 10237 e ASTM C401. Plásticos: AL-70, AL-80 e AL-90 (NBR 10237). Concreto agulhado = concreto com fibras metálicas para evitar lascamento.",
+   "valores": [
+    {
+     "parametro": "Concreto isolante — massa específica aparente (110 °C)",
+     "valor": "≤ 1 300 kg/m³",
+     "item": "3.2"
+    },
+    {
+     "parametro": "Concreto semi-isolante",
+     "valor": "> 1 300 e ≤ 1 700 kg/m³",
+     "item": "3.3"
+    },
+    {
+     "parametro": "Concreto denso",
+     "valor": "> 1 700 kg/m³",
+     "item": "3.4"
+    },
+    {
+     "parametro": "Temperatura máxima de utilização (critério)",
+     "valor": "a que dá variação dimensional linear de 1,5 % após 5 h de queima",
+     "item": "Tabela A.1, Nota 6"
+    },
+    {
+     "parametro": "Concreto de fluência livre — fluidez",
+     "valor": "> 75 % após 20 min da mistura",
+     "item": "Tabela A.1, Nota 7"
+    }
+   ],
+   "figuras": [
+    "esquemas/refratario-ancoragens-grampos-malha.svg",
+    "esquemas/refratario-revestimento.svg"
+   ]
+  },
+  {
+   "titulo": "Dispositivos de ancoragem e materiais complementares",
+   "item": "4.2; Anexo B",
+   "texto": "Malhas hexagonais e articuladas, pinos roscados e soldados, grampos V, V ondulado, tridente, Y, S, L, coroa, C, rabo de andorinha, U e estrela (Anexo B), em inox ASTM A240 (chapa) ou A479 (barra) tipos 304, 304L, 310, 316, 316L ou 410S (grampos V/tridente/Y também 330 ou Inconel; série 300 dobrada em região com vibração pode exigir recozimento). Âncoras cerâmicas exigem projeto: material conformado e sinterizado similar à face quente, cantos arredondados, sem vazios na interface, fixação metálica em inox 304. Massa anticorrosiva pela N-1890.",
+   "valores": [
+    {
+     "parametro": "Âncora cerâmica — altura",
+     "valor": "igual à espessura total do revestimento",
+     "item": "4.2.3 c)",
+     "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#ancora-ceramica"
+    },
+    {
+     "parametro": "Barra terminal — espessura",
+     "valor": "6 mm (1/4\"), seção retangular; largura conforme a espessura do revestimento",
+     "item": "4.2.4",
+     "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#barra-terminal"
+    },
+    {
+     "parametro": "Malha hexagonal/articulada e grampos S, L, coroa — altura A",
+     "valor": "19 mm ou 25 mm",
+     "item": "Anexo B (notas das Figuras B.1, B.3, B.11–B.13)",
+     "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#malha-altura",
+     "nota": "lido das notas das figuras (fonte embaralhada; texto legível)"
+    },
+    {
+     "parametro": "Grampo V (Fig. B.8) — revestimento E = 50 / 75 mm",
+     "valor": "arame Ø 3/16\"; A = 33 / 50 mm; B = 25 / 38 mm; C = 15 mm",
+     "item": "Fig. B.8 (tabela)",
+     "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#A",
+     "nota": "conferir: tabela lida de figura (colunas E, D, A, B, C)"
+    },
+    {
+     "parametro": "Grampo V (Fig. B.8) — revestimento E = 100 / 125 / 150 mm",
+     "valor": "Ø 1/4\" / 5/16\" / 5/16\"; A = 66 / 83 / 100 mm; B = 50 / 63 / 75 mm; C = 20 mm",
+     "item": "Fig. B.8 (tabela)",
+     "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#B",
+     "nota": "conferir: tabela lida de figura"
+    },
+    {
+     "parametro": "Grampo V — revestimento E > 150 mm",
+     "valor": "Ø 5/16\"; A = 2/3 E; B = 1/2 E; C = 20 mm",
+     "item": "Fig. B.8 (tabela)",
+     "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#E",
+     "nota": "conferir: tabela lida de figura"
+    },
+    {
+     "parametro": "Grampo V — diâmetro do arame por faixa de E",
+     "valor": "3/16\" até 75 mm; 1/4\" de 90 a 113 mm; 5/16\" a partir de 125 mm",
+     "item": "Fig. B.8 (tabela)",
+     "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#D",
+     "nota": "conferir: tabela lida de figura"
+    },
+    {
+     "parametro": "Grampo estrela — comprimento",
+     "valor": "1 m (para revestimento de 19 ou 25 mm)",
+     "item": "Fig. B.17, Notas 3 e 4",
+     "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#malha-altura"
+    },
+    {
+     "parametro": "Agulhas — seção reta",
+     "valor": "0,13 a 0,28 mm² (diâmetro efetivo 0,5 ± 0,1 mm), inox 304, ASTM A820",
+     "item": "4.2.5.3, 4.2.5.4",
+     "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#agulha-diametro"
+    },
+    {
+     "parametro": "Agulhas — comprimento",
+     "valor": "22 mm a 25 mm",
+     "item": "4.2.5.5",
+     "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#agulha-comprimento"
+    }
+   ],
+   "figuras": [
+    "esquemas/refratario-ancoragens-grampos-malha.svg"
+   ]
+  },
+  {
+   "titulo": "Fornecimento",
+   "item": "4.3",
+   "texto": "Concretos e plásticos pela NBR 12856, com folha de dados técnicos (fabricante, ligante e agregados, classe, métodos de aplicação, temperatura máxima, química com limites, propriedades físicas e térmicas, água de mistura, pega, validade, embalagem), certificado de lote (MEA a 110 °C, compressão a 110 e 815 °C, variação dimensional 110→815 °C, erosão a 815 °C nos antierosivos, fluidez na fluência livre, pega), embalagem identificada, folha de dados de aplicação (mistura, cura e curva de secagem) e FISPQ. Agulhas recomendadas em separado.",
+   "valores": [
+    {
+     "parametro": "Painel de malha fornecido",
+     "valor": "2 m × 1 m",
+     "item": "4.3.2.1",
+     "cota": "esquemas/refratario-ancoragens-grampos-malha.svg#painel-malha"
+    },
+    {
+     "parametro": "Embalagem de agulhas — massa líquida máxima",
+     "valor": "25 kg",
+     "item": "4.3.2.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/refratario-ancoragens-grampos-malha.svg"
+   ]
+  },
+  {
+   "titulo": "Recebimento e ensaios",
+   "item": "5; Tabela 1; Anexo C",
+   "texto": "Comparar o certificado do lote com a folha de dados e a Tabela A.1 (divergência → parecer do fabricante antes de testar) e ensaiar amostras conforme Anexo C (corpos de prova de compressão seco a 110 °C e queimado a 815 °C, erosão, variação dimensional, massa específica). Plásticos aceitos pela folha de dados. Ancoragens: visual, dimensional e verificação de material contra o certificado.",
+   "valores": [
+    {
+     "parametro": "Tolerância sobre valor típico — perda por erosão",
+     "valor": "até +10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Tolerância — resistência à compressão a temperatura ambiente",
+     "valor": "até −10 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Tolerância — massa específica aparente",
+     "valor": "± 80 kg/m³",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Tolerância — variação dimensional linear",
+     "valor": "zero a +10 %",
+     "item": "Tabela 1"
+    }
+   ]
+  }
+ ]
+}

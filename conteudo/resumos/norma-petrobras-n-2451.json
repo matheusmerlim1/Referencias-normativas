@@ -1,0 +1,80 @@
+{
+ "id": "PETROBRAS-N-2451",
+ "titulo": "Petrobras N-2451 Rev. D (04/2016) — Embarcações em terminais: braço de carregamento marítimo",
+ "secoes": [
+  {
+   "titulo": "Escopo, definições e projeto",
+   "item": "1, 3, 4, 5",
+   "texto": "Requisitos para fornecer braços de carregamento marítimo e seus sistemas auxiliares, complementando a especificação OCIMF de 1999. Diâmetro nominal é o do flange que acopla à tomada de carga do navio; envelope operacional é o espaço de todas as posições possíveis do manifold no bordo de atracação (corrente, maré, borda livre, movimentos do navio); braço geminado une as fases líquida e vapor (GLP). Exceções declaradas na proposta; folha de dados do Anexo A completada pelo fabricante (dados operacionais, geometria do cais e da defensa, níveis de maré, dados dos navios menor e maior, flanges, ventos de projeto, configurações da junta tripla/estilo 80, central, console e limites de alarme). Cálculo com o braço cheio e vazio, peso do fluido, cargas acidentais, térmicas, pressão (com transientes) e vento. Todo braço tem trava de repouso, drenos com válvula, escada com proteção contra queda e plataformas até o topo da coluna, e suporte apoiado na bandeja do manifold ou no convés; produtos claros (exceto GLP) e escuros sem injeção de N₂ levam válvula quebra-vácuo acionável junto ao flange.",
+   "valores": [],
+   "figuras": [
+    "esquemas/braco-carregamento-maritimo.svg"
+   ]
+  },
+  {
+   "titulo": "Acionamento, acoplamento e comando",
+   "item": "6, 7, 8",
+   "texto": "Hidráulico: unidade com 2 bombas elétricas (operação e reserva), bomba manual de emergência, quadro de comando com regulagem de velocidade, duas velocidades (aproximação e acoplamento), acumulador para desengate rápido, bloqueio hidráulico e trava mecânica em repouso, central compacta em cabine. Acoplamento rápido manual ou hidráulico. Comando duplo: console principal (sempre predominante, libera o portátil por chave seletora com sinalização; tampa com visor se ao tempo; proibidas válvulas gaveta no circuito hidráulico) e comando portátil junto à ponta do braço, leve, para um só operador, podendo ser sem fio se não interferir em outros sistemas.",
+   "valores": [
+    {
+     "parametro": "Acionamento manual admitido",
+     "valor": "diâmetro nominal até 6\", até 2 operadores, carga total de 60 kgf (588 N)",
+     "item": "6.1",
+     "nota": "Prática recomendada.",
+     "cota": "esquemas/braco-carregamento-maritimo.svg#diametro-nominal"
+    },
+    {
+     "parametro": "Acionamento hidráulico obrigatório",
+     "valor": "diâmetro nominal ≥ 8\" (berço com um só braço: manual até 8\")",
+     "item": "6.2.1",
+     "cota": "esquemas/braco-carregamento-maritimo.svg#diametro-nominal"
+    },
+    {
+     "parametro": "Desengate de emergência com acionamento hidráulico",
+     "valor": "braços acima de 6\"",
+     "item": "7.2",
+     "cota": "esquemas/braco-carregamento-maritimo.svg#diametro-nominal"
+    }
+   ],
+   "figuras": [
+    "esquemas/braco-carregamento-maritimo.svg"
+   ]
+  },
+  {
+   "titulo": "Elétrica, materiais, solda e pintura",
+   "item": "9–12",
+   "texto": "Instalações adequadas à classificação de área (N-2167) com certificado Ex do INMETRO; dispositivos que precisam de rearme fora da área classificada; painel próprio ao lado do console; no-break para comando, sinalização e alarmes; flange isolante entre braço e navio (ISGOTT), com continuidade de tudo a montante com o aterramento do píer; transformador seco em epóxi; chaves de fim de curso estáticas encapsuladas; equipamentos resistentes ao ambiente marinho. Materiais pela OCIMF: hastes de cilindros com cromo duro, tubos hidráulicos e de lubrificação em inox, mangueiras hidráulicas com trança inox (não condutoras onde aplicável); alumínio proibido. Chumbadores dimensionados e fornecidos pelo fornecedor, zinco-níquel (adaptador em aço para bases existentes). Soldagem pela N-133; pintura pela N-2, acabamento amarelo-segurança Munsell 5Y 8/12.",
+   "valores": [
+    {
+     "parametro": "Conector de cabo de aterramento em motores, painéis e caixas",
+     "valor": "25 mm²",
+     "item": "9.10"
+    },
+    {
+     "parametro": "Faixas pretas (Munsell N-1) no braço externo — largura",
+     "valor": "140 mm",
+     "item": "12.2",
+     "cota": "esquemas/braco-carregamento-maritimo.svg#faixa-largura"
+    },
+    {
+     "parametro": "Faixas pretas no braço externo — espaçamento",
+     "valor": "140 mm",
+     "item": "12.2",
+     "cota": "esquemas/braco-carregamento-maritimo.svg#faixa-espacamento"
+    }
+   ],
+   "figuras": [
+    "esquemas/braco-carregamento-maritimo.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção, documentação e montagem",
+   "item": "13, 14, 15, Anexo A",
+   "texto": "Inspeção de liberação conforme o fabricante (mecanismos, dispositivos de segurança, estanqueidade), com relatório de tudo o que foi verificado; ensaios previstos na folha de dados: válvulas, desengate manual e de emergência (inclusive sob forças e momentos), alarmes e intertravamentos, bloqueio contra abertura por falha hidráulica, movimentos. Data book com desenhos, certificados, memórias e ensaios; vendor-list da Petrobras atendido. Supervisão de montagem, comissionamento e treinamento no local. Na folha de dados, as distâncias do cais (A eixo dos braços–borda, B borda–face da defensa, C nível do cais × maré, D variação da água, E/F flange de entrada–piso) e do navio (K/L flange–costado, M/N flange × marés, O/P movimentos, Q espaçamento entre flanges, S balaustrada, T/U flange–convés) definem o envelope.",
+   "valores": [],
+   "figuras": [
+    "esquemas/braco-carregamento-maritimo.svg"
+   ]
+  }
+ ]
+}

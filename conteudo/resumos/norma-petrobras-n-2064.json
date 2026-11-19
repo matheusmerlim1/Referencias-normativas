@@ -1,0 +1,69 @@
+{
+ "id": "PETROBRAS-N-2064",
+ "titulo": "Petrobras N-2064 Rev. D (10/2017) — Emissão e revisão de documentos de projeto",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1, 3",
+   "texto": "Regras para emitir e revisar documentos técnicos de projeto, de uso interno ou externo; não trata das rotinas gerenciais de controle, distribuição e arquivo. Emissão = documento verificado, aprovado e cadastrado no GED, ficando acessível. Tipos: original (emissão e revisões controladas pelo GED), preliminar (versões intermediárias para troca entre disciplinas) e com marcas de campo (preliminar com alterações de obra, montagem, comissionamento). Revisões especiais: como construído (as built), como comprado/fabricado e certificado (do fornecedor, com carimbo de \"Aceite de Certificado\").",
+   "valores": [],
+   "figuras": [
+    "esquemas/documento-revisoes-sequencia.svg"
+   ]
+  },
+  {
+   "titulo": "Identificação das revisões",
+   "item": "4.1, 4.2",
+   "texto": "Emissão eletrônica no padrão da N-381 e com código da N-1710. A primeira emissão é a revisão 0; as seguintes recebem letras maiúsculas em ordem alfabética, usando também K, W e Y, mas evitando I e O; depois de Z vêm AA, AB… AZ, BA. Versões preliminares antes da Rev. 0 levam \"#\" e número (#1, #2…); depois dela, um algarismo após a última revisão (01 = 1ª preliminar da A; A3 = 3ª preliminar da B).",
+   "valores": [
+    {
+     "parametro": "Emissão original",
+     "valor": "Rev. 0",
+     "item": "4.1.2"
+    },
+    {
+     "parametro": "Letras evitadas",
+     "valor": "I e O (prática recomendada)",
+     "item": "4.2.3"
+    },
+    {
+     "parametro": "Após a revisão Z",
+     "valor": "AA, AB, …, AZ, BA …",
+     "item": "4.2.4"
+    },
+    {
+     "parametro": "Preliminar antes da emissão original",
+     "valor": "Rev. #1, #2, #3 …",
+     "item": "4.2.5"
+    },
+    {
+     "parametro": "Preliminar depois da emissão original",
+     "valor": "última revisão + algarismo (01, A3, C2 …)",
+     "item": "4.2.6"
+    }
+   ],
+   "figuras": [
+    "esquemas/documento-revisoes-sequencia.svg"
+   ]
+  },
+  {
+   "titulo": "Execução de revisões",
+   "item": "4.3",
+   "texto": "Mudar uma folha de documento com aprovação única revisa o documento inteiro, e todas as folhas mostram a revisão da capa; exceção para documentos com índice de revisão por folha (detalhes típicos, diagramas lógicos, listas de material, catálogo de spec), em que cada folha indica a revisão em que mudou e folha cancelada recebe a faixa \"CANCELADA\" sem perder a numeração. A descrição da revisão é sucinta (nada de \"revisão geral\") e indica a finalidade (para projeto, cotação, compra, construção); mudar só a finalidade já é revisão. Se faltar espaço, apagam-se as descrições mais antigas, nunca a da Rev. 0. Trechos alterados são marcados com nuvem (desenho) ou realce (texto), e as marcas da revisão anterior são retiradas. Item excluído vira \"CANCELADO\" ou é removido com renumeração, registrado na descrição. Revisão feita por outra empresa identifica quem alterou, empresa e contrato, mantendo a legenda original. Documentos de uma fase não são cancelados ao passar para a seguinte.",
+   "valores": [],
+   "figuras": [
+    "esquemas/documento-revisoes-sequencia.svg",
+    "esquemas/documento-petrobras-folha-legenda.svg"
+   ]
+  },
+  {
+   "titulo": "Transcrição, cancelamento, substituição, renumeração e tradução",
+   "item": "5",
+   "texto": "Transcrição para formato editável não é revisão: registra quem e quando transcreveu, sem mudar executor, verificador e aprovador. Cancelar, substituir e renumerar são revisões. O cancelado mantém só a 1ª folha (sem conteúdo técnico), traz \"Cancelado\" + justificativa e a faixa \"CANCELADO\"; cancelamento é definitivo e só se cancela o que já foi emitido. Substituído: \"Cancelado. Substituído pelo documento nº…\"; substituinte novo ou revisado: \"Este documento cancela e substitui…\". Renumerar = cancelar e emitir novo em Rev. 0, só quando indispensável. Tradução é documento novo que informa a revisão do original traduzido.",
+   "valores": [],
+   "figuras": [
+    "esquemas/documento-revisoes-sequencia.svg"
+   ]
+  }
+ ]
+}

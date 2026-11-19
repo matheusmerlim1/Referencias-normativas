@@ -1,0 +1,186 @@
+{
+ "id": "PETROBRAS-N-2680",
+ "titulo": "Petrobras N-2680 Rev. A (09/2020) — Tinta epóxi, sem solventes, tolerante a superfícies molhadas",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 3, 4.1",
+   "texto": "Características verificáveis em laboratório da tinta epóxi sem solventes, tolerante a superfícies molhadas, bicomponente (A = resina epóxi; B = agente de cura de poliamina). Para aço, aplicável em superfície seca, com umidade residual ou molhada, sem restrição de umidade relativa ou ponto de orvalho; prevalece sobre normas citadas em caso de conflito. Não pode ser diluída; mistura na proporção do fabricante; deve curar totalmente em 7 dias a cerca de 25 °C. Pode ser fornecida em qualquer cor da N-1219. Rótulo: N-2680, nome, componente, quantidade (L e kg), fabricante com telefone, lote, validade, proporção e notação Munsell.",
+   "valores": [
+    {
+     "parametro": "Estabilidade em armazenagem (fechado, < 40 °C)",
+     "valor": "≥ 12 meses; revalidável por 2 períodos de 6 meses (N-13)",
+     "item": "3.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-ciclico-descolamento-catodico.svg"
+   ]
+  },
+  {
+   "titulo": "Produto pronto para aplicação (Tabela 1, ensaios a 23 ± 2 °C)",
+   "item": "4.2",
+   "texto": "A formulação não pode ter solvente orgânico (os voláteis medidos são de outra natureza). Sólidos por massa: cura 24 h a (23 ± 2) °C + 2 h a 60 °C. Ponto de fulgor pela ASTM D56 (> 55 °C) ou ISO 3679 procedimento A a 55 °C.",
+   "valores": [
+    {
+     "parametro": "Massa específica",
+     "valor": "≤ 1,35 g/cm³",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Sólidos por massa",
+     "valor": "≥ 85 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Vida útil da mistura",
+     "valor": "≥ 3 h",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Consistência",
+     "valor": "90 a 110 UK",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Ponto de fulgor dos componentes A e B",
+     "valor": "≥ 55 °C",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Descaimento",
+     "valor": "≥ 150 μm",
+     "item": "Tabela 1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#descaimento"
+    },
+    {
+     "parametro": "Secagem ao toque / à pressão, película 100–150 μm",
+     "valor": "≤ 6 h / ≤ 16 h",
+     "item": "Tabela 1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    },
+    {
+     "parametro": "Secagem para repintura, película 100–150 μm",
+     "valor": "12 h a 120 h",
+     "item": "Tabela 1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Película seca (Tabela 2) e ensaio cíclico",
+   "item": "4.3, 5.2.2.8",
+   "texto": "Película de 425 a 475 μm para todos os ensaios. Ensaio cíclico (ageing test para ambiente CX, ISO 12944-9) com ciclos semanais de 168 h: 72 h de UV-A/condensação (ISO 16474-3, 4 h de UVA-340 a 60 °C alternando com 4 h de condensação a 50 °C), 72 h de névoa salina neutra (ISO 9227) e 24 h a (−20 ± 2) °C, começando por UV e terminando na condensação; enxaguar com água deionizada antes do frio e atingir −20 °C em 30 min. Após 25 ciclos: sem bolhas nem corrosão, avanço sob o entalhe limitado e gizamento no máximo grau 4 (ASTM D4214). Após imersões em xileno e água do mar sintética: sem bolhas, corrosão ou falhas. Descolamento catódico pela ASTM G8 método B, entre −1,45 V e −1,55 V (Cu/CuSO₄), eletrólito a 21–25 °C com 1 % de NaCl, Na₂SO₄ e Na₂CO₃, por 30 dias, a partir de um furo central na espessura do revestimento.",
+   "valores": [
+    {
+     "parametro": "Ensaio cíclico de corrosão",
+     "valor": "≥ 25 ciclos de 168 h (4 200 h)",
+     "item": "Tabela 2, 5.2.2.8",
+     "cota": "esquemas/tinta-ensaio-ciclico-descolamento-catodico.svg#ciclo"
+    },
+    {
+     "parametro": "Avanço de corrosão sob o entalhe após os 25 ciclos",
+     "valor": "≤ 8 mm",
+     "item": "4.3.3",
+     "cota": "esquemas/tinta-ensaio-ciclico-descolamento-catodico.svg#avanco-corrosao"
+    },
+    {
+     "parametro": "Descolamento catódico em 30 dias (ASTM G8)",
+     "valor": "≤ 10 mm",
+     "item": "Tabela 2",
+     "cota": "esquemas/tinta-ensaio-ciclico-descolamento-catodico.svg#raio-descolamento"
+    },
+    {
+     "parametro": "Diâmetro do furo no revestimento (descolamento catódico)",
+     "valor": "6,35 mm",
+     "item": "5.2.2.8.5",
+     "cota": "esquemas/tinta-ensaio-ciclico-descolamento-catodico.svg#furo-descolamento"
+    },
+    {
+     "parametro": "Célula Atlas a 40 °C (ASTM D6943); imersão em xileno; imersão em água do mar sintética a 40 °C",
+     "valor": "≥ 2 000 h cada",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Aderência à tração inicial — preparo CSt 3 (aceita falha A/B) e Sa 2 1/2 (falhas B, -/Y, Y ou Y/Z)",
+     "valor": "≥ 12 MPa",
+     "item": "Tabela 2, nota 2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#tensao-arrancamento"
+    },
+    {
+     "parametro": "Aderência após o ensaio cíclico (2 semanas depois; Sa 2 1/2)",
+     "valor": "≥ 6 MPa",
+     "item": "Tabela 2, nota 3",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#tensao-arrancamento"
+    },
+    {
+     "parametro": "Entalhe do ensaio cíclico — comprimento",
+     "valor": "50 mm",
+     "item": "4.3.1",
+     "cota": "esquemas/tinta-ensaio-ciclico-descolamento-catodico.svg#entalhe-comprimento"
+    },
+    {
+     "parametro": "Entalhe do ensaio cíclico — largura (ferramenta que corta direto 2 mm)",
+     "valor": "2 mm",
+     "item": "4.3.1, 4.3.2",
+     "cota": "esquemas/tinta-ensaio-ciclico-descolamento-catodico.svg#entalhe-largura"
+    },
+    {
+     "parametro": "Distância mínima do entalhe às bordas menores",
+     "valor": "12,5 mm",
+     "item": "4.3.1",
+     "cota": "esquemas/tinta-ensaio-ciclico-descolamento-catodico.svg#entalhe-borda-menor"
+    },
+    {
+     "parametro": "Distância mínima do entalhe a uma das bordas maiores",
+     "valor": "25 mm",
+     "item": "4.3.1",
+     "cota": "esquemas/tinta-ensaio-ciclico-descolamento-catodico.svg#entalhe-borda-maior"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-ciclico-descolamento-catodico.svg",
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Painéis e inspeção",
+   "item": "5",
+   "texto": "Rejeitar o lote que falhar na inspeção visual. Painéis de AISI 1020 jateados Sa 2 1/2 com perfil angular; 3 painéis por ensaio; 3 demãos medidas uma a uma (ISO 2808 método 10), aplicadas ≥ 15 min após a mistura, de preferência a pistola; bordas e verso protegidos; ensaios da Tabela 2 após ≥ 10 dias a (25 ± 2) °C e (60 ± 5) % UR.",
+   "valores": [
+    {
+     "parametro": "Dimensões do painel",
+     "valor": "150 mm × 100 mm",
+     "item": "5.2.2.2",
+     "cota": "esquemas/tinta-painel-ensaio.svg#comprimento"
+    },
+    {
+     "parametro": "Espessura do painel",
+     "valor": "4 mm",
+     "item": "5.2.2.2",
+     "cota": "esquemas/tinta-painel-ensaio.svg#espessura"
+    },
+    {
+     "parametro": "Perfil de ancoragem (angular)",
+     "valor": "50 μm a 70 μm",
+     "item": "5.2.2.2",
+     "cota": "esquemas/pintura-preparo-superficie.svg#perfil"
+    },
+    {
+     "parametro": "Película seca por demão (3 demãos)",
+     "valor": "150 μm",
+     "item": "5.2.2.4",
+     "cota": "esquemas/pintura-esquema-camadas.svg#eps-demao"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-painel-ensaio.svg",
+    "esquemas/pintura-preparo-superficie.svg",
+    "esquemas/pintura-esquema-camadas.svg"
+   ]
+  }
+ ]
+}

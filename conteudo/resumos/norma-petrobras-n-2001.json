@@ -1,0 +1,149 @@
+{
+ "id": "PETROBRAS-N-2001",
+ "titulo": "Petrobras N-2001 Rev. F (03/2022) — Projeto e instalação de fundação para estrutura marítima",
+ "secoes": [
+  {
+   "titulo": "Documentos e premissas de projeto",
+   "item": "1, 4.1, 4.2",
+   "texto": "Projeto e instalação de fundações de plataformas fixas, unidades de produção ancoradas e equipamentos submarinos: premissas (dados ambientais e geotécnicos, tecnologias, materiais), memória de cálculo, desenhos, recomendações de execução e plano de contingência. Aço estrutural no mínimo pela API RP 2A-WSD; armadura pela NBR 6118/7480; materiais de enchimento com trabalhabilidade, resistência e durabilidade definidas. Capacidade de carga por métodos analíticos, numéricos ou experimentais (API RP 2A/2GEO, ISO 19901-4, DNV). Modelo geotécnico pela interpretação integrada das investigações; cargas de todas as fases (transporte, içamento, instalação, operação, recuperação, descomissionamento); procedimento de instalação com janelas de operação (onda, vento, corrente), embarcação, controles e critérios de aceitação; mudança de campo avaliada pelo projetista.",
+   "figuras": [
+    "esquemas/fundacao-maritima-estacas-tipos.svg"
+   ]
+  },
+  {
+   "titulo": "Fundação rasa",
+   "item": "4.2.1",
+   "texto": "Dimensionada pela API RP 2GEO ou ISO 19901-4 (torção pela DNVGL-ST-0126; ISO com fatores parciais para otimizar equipamentos submarinos), verificando capacidade, tombamento, escorregamento, arrancamento e limites de recalque e inclinação. Em argila mole superficial, saias laterais com penetração total garantida; em areia, avaliar erosão. Posição, aproamento e nivelamento medidos na instalação; assentamento lento e controlado; réguas para medir recalque ao longo da vida; condição inicial registrada em as built. Fabricação de PLEM/PLET pelo Anexo A.",
+   "valores": [
+    {
+     "parametro": "Saia lateral em argila mole",
+     "valor": "penetração total da saia no leito garantida",
+     "item": "4.2.1.4",
+     "cota": "esquemas/fundacao-maritima-estacas-tipos.svg#saia"
+    }
+   ],
+   "figuras": [
+    "esquemas/fundacao-maritima-estacas-tipos.svg"
+   ]
+  },
+  {
+   "titulo": "Estacas cravadas com martelo",
+   "item": "4.2.2",
+   "texto": "ISO 19901-4 ou API RP 2GEO; análise de cravabilidade com limite superior de resistência do solo; sequência de cravação que mantenha nível e estabilidade da jaqueta; primeira estaca como teste; martelo e ferramentas especificados; marcação das estacas e luvas (Anexo B) e registro em formulários (Anexo C); fabricação pela N-1852. Ponta aberta que não atinge a cota: remover plugue, jatear ou perfurar alívio; medir o plugue a cada tramo. Solo carbonático: plano de energia para evitar queda livre por puncionamento. Controle por nega e repique (NBR 6122), prova estática (NBR 16903, sem romper estaca definitiva) ou dinâmica (NBR 13208) com sensores em pares diametralmente opostos; CASE só como avaliação preliminar em estacas longas; recravação instrumentada em solos com ganho/perda de capacidade.",
+   "valores": [
+    {
+     "parametro": "Prova dinâmica (DPT) — posição dos sensores",
+     "valor": "a mais de 2 diâmetros do topo da estaca ou prolongador",
+     "item": "4.2.2.11 c)",
+     "cota": "esquemas/fundacao-maritima-estacas-tipos.svg#sensores-topo"
+    }
+   ],
+   "figuras": [
+    "esquemas/fundacao-maritima-estacas-tipos.svg"
+   ]
+  },
+  {
+   "titulo": "Estacas perfuradas, cimentadas e mistas",
+   "item": "4.2.3, 4.2.4; Anexos D e E",
+   "texto": "Usadas quando o solo impede cravação (com ou sem lama); API RP 2GEO, 2A-WSD ou ISO 19901-4. Informar perfuratriz, coluna, brocas, air-lift e planta de cimentação. Parede estabilizada pelo fluido controlado (densidade, pH, sal, sólidos, bentonita, viscosidade, reboco). Cimento classe G ou H (ISO 10426-1) com certificado e corpos de prova por silo; mistura aprovada; aditivos só testados e do mesmo fabricante; sistema testado e instrumentos calibrados. Estaca mista = cravada com trecho perfurado abaixo da ponta.",
+   "valores": [
+    {
+     "parametro": "Diâmetro da broca",
+     "valor": "≥ 150 mm maior que o elemento estrutural inserido",
+     "item": "4.2.3.1.6 b)",
+     "cota": "esquemas/fundacao-maritima-estacas-tipos.svg#broca"
+    },
+    {
+     "parametro": "Amostras da pasta na saída do misturador",
+     "valor": "início, metade do volume e fim (mais 1 no retorno)",
+     "item": "4.2.3.2.5 a)"
+    },
+    {
+     "parametro": "Extravasamento sem amostragem/acompanhamento do retorno",
+     "valor": "≥ 25 % do volume teórico",
+     "item": "4.2.3.2.5 c)"
+    },
+    {
+     "parametro": "Corpos de prova por amostra",
+     "valor": "≥ 3 para ≥ 3 idades, a última aos 28 dias",
+     "item": "4.2.3.2.5 f)"
+    },
+    {
+     "parametro": "Temperatura da água do tanque de cura",
+     "valor": "a cada 6 h durante a moldagem; diária após 24 h do último CP",
+     "item": "4.2.3.2.8"
+    }
+   ],
+   "figuras": [
+    "esquemas/fundacao-maritima-estacas-tipos.svg"
+   ]
+  },
+  {
+   "titulo": "Estaca torpedo, sucção, atirantadas e âncoras",
+   "item": "4.2.5–4.2.9",
+   "texto": "Torpedo: perfil geotécnico, cargas da linha com catenária invertida no topo da estaca, várias penetrações e inclinações, aletas a 45° da carga na análise geotécnica e paralelas na estrutural; cravabilidade com as energias de lançamento; estrutura pela API RP 2A-WSD; geometria, massa e CG medidos no canteiro; velocidade terminal de projeto e tempo de set-up antes de carregar. Sucção (DNVGL-RP-E303, só argila normalmente adensada): monitorar posição, pressão, penetração, velocidade, plugue, inclinação e olhal. Atirantadas pela NBR 5629. Âncora de arraste (DNVGL-RP-E301) e VLA/placas (DNVGL-RP-E302, só argila).",
+   "valores": [
+    {
+     "parametro": "Torpedo de unidade de produção — fator de segurança geotécnico",
+     "valor": "2,0 intacta; 1,5 com avaria de uma linha (ISO 19901-7)",
+     "item": "4.2.5.1 h)",
+     "cota": "esquemas/fundacao-maritima-estacas-tipos.svg#torpedo-penetracao"
+    },
+    {
+     "parametro": "Torpedo de equipamento submarino — fator de segurança geotécnico",
+     "valor": "1,6 intacta; 1,2 com avaria da linha (API RP 2SK)",
+     "item": "4.2.5.2 g)",
+     "cota": "esquemas/fundacao-maritima-estacas-tipos.svg#torpedo-penetracao"
+    },
+    {
+     "parametro": "Estaca de sucção — controle de penetração",
+     "valor": "penetração, velocidade e inclinação monitoradas na instalação",
+     "item": "4.2.6.4",
+     "cota": "esquemas/fundacao-maritima-estacas-tipos.svg#succao-penetracao"
+    }
+   ],
+   "figuras": [
+    "esquemas/fundacao-maritima-estacas-tipos.svg"
+   ]
+  },
+  {
+   "titulo": "Interligação estaca-jaqueta e fabricação submarina",
+   "item": "5; Anexo A",
+   "texto": "Interligação por cimentação do anular estaca/luva (atrito pela API RP 2A-WSD), por soldagem ou por conformação mecânica (swaged, deformação plástica do tubo contra a luva). Estruturas de equipamentos submarinos pela ISO 13628-15, API RP 2A-WSD, N-1852 e AWS D1.1, com aços da API RP 2A conforme a espessura e a criticidade.",
+   "valores": [
+    {
+     "parametro": "Interligação por cimentação",
+     "valor": "preenchimento do espaço anular entre estaca e luva",
+     "item": "5.1",
+     "cota": "esquemas/fundacao-maritima-estacas-tipos.svg#anular"
+    },
+    {
+     "parametro": "Aço de estrutura submarina — enxofre",
+     "valor": "≤ 0,035 %",
+     "item": "Anexo A, A.2 a)"
+    },
+    {
+     "parametro": "Aço até 50 mm de espessura",
+     "valor": "classe B (API RP 2A), Charpy 34 J a 0 °C",
+     "item": "Anexo A, A.2 b)",
+     "cota": "esquemas/fundacao-maritima-estacas-tipos.svg#diametro-estaca"
+    },
+    {
+     "parametro": "Aço acima de 50 mm de espessura",
+     "valor": "classe A, Charpy 34 J a 0 °C",
+     "item": "Anexo A, A.2 c)",
+     "cota": "esquemas/fundacao-maritima-estacas-tipos.svg#diametro-estaca"
+    },
+    {
+     "parametro": "Componente com alta concentração de tensão cíclica sem redundância",
+     "valor": "classe A, Charpy 34 J a 20 °C (como no texto extraído)",
+     "item": "Anexo A, A.2 d)",
+     "nota": "conferir: o sinal da temperatura pode ter se perdido na extração (provável −20 °C)"
+    }
+   ],
+   "figuras": [
+    "esquemas/fundacao-maritima-estacas-tipos.svg"
+   ]
+  }
+ ]
+}

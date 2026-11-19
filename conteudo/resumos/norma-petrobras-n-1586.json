@@ -1,0 +1,78 @@
+{
+ "id": "PETROBRAS-N-1586",
+ "titulo": "Petrobras N-1586 Rev. D (05/2025) — Resfriador a ar — folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e preenchimento",
+   "item": "1, 3",
+   "texto": "Padroniza a folha de dados do resfriador a ar: Anexo A em unidades do sistema de engenharia e Anexo B em SI, A4, 3 folhas cada. Registra requisitos do comprador e projeto do fornecedor e vira documento permanente. Cabeçalho e rodapé pela N-381 (também para continuação, notas e desenho de orientação dos bocais); TAG pela N-1521 no canto direito; preenchimento conforme a N-1858. Campos não aplicáveis riscados; linhas vazias para dados complementares.",
+   "valores": [],
+   "figuras": [
+    "esquemas/resfriador-ar-geometria.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo do formulário",
+   "item": "Anexos A e B",
+   "texto": "Folha 2: calor trocado, tiragem induzida/forçada, áreas e coeficientes (aletado e liso), código de projeto e estrutural, estampa, serviço inflamável ou letal, classificação NR-13; operação do lado dos tubos (vazões L/V, pontos de orvalho, fluidez, calor latente, pressões, perdas e velocidades admissível/calculada, propriedades) e do lado do ar (temperaturas, vazões, velocidade frontal, altitude, pressão estática); projeto e materiais (pressão/temperatura de projeto e teste, feixes em série ou paralelo, montagem no chão ou no pipe rack, venezianas, serpentina de aquecimento, cabeçote, plugue e gaxeta). Folha 3: bocais, aletas, tubos, ventilador (rpm, pás, ângulo, ajuste de passo, potência, ruído), acionador e redutor, controles do lado do ar e ação na falha, área ocupada e pesos.",
+   "valores": [
+    {
+     "parametro": "Dimensão da seção (W × L) e do feixe",
+     "valor": "em mm (A) ou m (B)",
+     "item": "Anexo A, folha 2, linhas 3 e 35",
+     "cota": "esquemas/resfriador-ar-geometria.svg#feixe-comprimento"
+    },
+    {
+     "parametro": "Viga do pipe rack (distância centro a centro)",
+     "valor": "campo da folha",
+     "item": "Anexo A, folha 2, linha 39",
+     "cota": "esquemas/resfriador-ar-geometria.svg#separacao-secoes"
+    },
+    {
+     "parametro": "Inclinação dos tubos",
+     "valor": "em mm/m",
+     "item": "Anexo A, folha 2, linha 47",
+     "cota": "esquemas/resfriador-ar-geometria.svg#feixe-comprimento"
+    },
+    {
+     "parametro": "Espessura da aleta / fita",
+     "valor": "em mm",
+     "item": "Anexo A, folhas 2 e 3",
+     "cota": "esquemas/resfriador-ar-geometria.svg#aleta"
+    },
+    {
+     "parametro": "Diâmetro externo da aleta e nº de aletas por metro",
+     "valor": "em mm e nº/m",
+     "item": "Anexo A, folha 3, linha 7",
+     "cota": "esquemas/resfriador-ar-geometria.svg#passo-aletas"
+    },
+    {
+     "parametro": "Tubo: Ø externo, espessura mínima, comprimento, passo e arranjo",
+     "valor": "em mm",
+     "item": "Anexo A, folha 3, linhas 12 a 15",
+     "cota": "esquemas/resfriador-ar-geometria.svg#diametro-tubo"
+    },
+    {
+     "parametro": "Diâmetro do ventilador",
+     "valor": "em mm",
+     "item": "Anexo A, folha 3, linha 20",
+     "cota": "esquemas/resfriador-ar-geometria.svg#ventilador"
+    },
+    {
+     "parametro": "Nível de ruído do ventilador (referência do formulário)",
+     "valor": "85 dB(A) a 1 m",
+     "item": "Anexo A, folha 3, linha 20"
+    },
+    {
+     "parametro": "Área ocupada (W × L)",
+     "valor": "em mm",
+     "item": "Anexo A, folha 3, linha 41",
+     "cota": "esquemas/resfriador-ar-geometria.svg#feixe-comprimento"
+    }
+   ],
+   "figuras": [
+    "esquemas/resfriador-ar-geometria.svg"
+   ]
+  }
+ ]
+}

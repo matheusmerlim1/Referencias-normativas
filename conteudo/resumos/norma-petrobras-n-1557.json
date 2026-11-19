@@ -1,0 +1,30 @@
+{
+ "id": "PETROBRAS-N-1557",
+ "titulo": "Petrobras N-1557 Rev. E (12/2010) — Trocador de calor — requisição de material",
+ "secoes": [
+  {
+   "titulo": "Escopo e preenchimento",
+   "item": "1, 3",
+   "texto": "Padroniza a requisição de material (RM, A4, Anexo A de 10 folhas) para comprar trocadores de calor da N-466 (casco e tubo). Preenchida pelo projetista, é o documento inicial da compra; legenda e rodapé pela N-381. Uma RM só agrupa trocadores semelhantes da mesma unidade e área; TAGs (N-1521) em destaque no campo \"identificação\".",
+   "valores": [],
+   "figuras": [
+    "esquemas/trocador-casco-tubos.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo da RM",
+   "item": "Anexo A",
+   "texto": "Extensão do fornecimento: projeto térmico, materiais, projeto mecânico e de fabricação (N-466), matéria-prima, fabricação e montagem (N-268/N-269), consumíveis, qualificação de soldagem (N-133) e de END (N-1590 a N-1598), condicionamento, testes de produção, tratamentos térmicos, teste hidrostático com flanges cegos e anéis de teste, feixes sobressalentes, isolamento térmico (N-250, N-550, N-894), revestimentos internos, pintura (N-2, N-13), embalagem, transporte, montagem, pré-operação, manuais, data book e placas de deslizamento de teflon. Fornecimentos parciais detalhados (reforços, flanges de chapa, análise de tensões e de fadiga pela Div. 2, nível de inspeção — nível 2 se omitido). Condições de entrega: peso e dimensões máximas de transporte e gabarito de estrada. Fabricação só após aprovação dos documentos; legenda com espaço para renumeração pela Petrobras. Lista de documentos com prazos: cronograma, matéria-prima, cargas nas fundações, desenhos certificados, soldagem, tratamentos térmicos, END, radiografias, testes, gabarito de chumbadores, cálculos térmico, de espessura, de cargas nos bocais, de dilatação, tensões e fadiga.",
+   "valores": [
+    {
+     "parametro": "Sobressalentes",
+     "valor": "2 jogos de juntas e 1 jogo de parafusos/porcas dos flanges principais, gabarito de chumbadores e 10 % dos parafusos/porcas/arruelas",
+     "item": "Anexo A, item 4"
+    }
+   ],
+   "figuras": [
+    "esquemas/trocador-casco-tubos.svg"
+   ]
+  }
+ ]
+}

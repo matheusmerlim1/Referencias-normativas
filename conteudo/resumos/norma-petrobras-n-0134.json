@@ -1,0 +1,185 @@
+{
+ "id": "PETROBRAS-N-0134",
+ "titulo": "Petrobras N-0134 Rev. F (04/2023) — Chumbadores para concreto",
+ "secoes": [
+  {
+   "titulo": "Notação, tipos e subtipos",
+   "item": "5; Tabela 1; Figura 1; Anexo B",
+   "texto": "Chumbadores de pré-concretagem (tipos A a M: gancho, barra transversal, chapa de ancoragem, com ou sem luva) e de pós-concretagem (expansão, adesão química, fixação à pólvora). O subtipo (1 a 8) indica luva, arruela lisa, arruela de pressão e uma ou duas porcas. A notação no desenho de formas segue o modelo \"quantidade-tipo/subtipo-M(diâmetro)-L(embutimento)-PR(projeção)-massa kg\", com L e PR inteiros em mm e massa com 2 decimais (haste, chapa, luva — sem porcas e arruelas de fixação). PR e L são definidos pelo projeto de detalhamento; o Anexo B traz dimensões padronizadas e L mínimo por diâmetro.",
+   "valores": [
+    {
+     "parametro": "Notação — embutimento L e projeção PR",
+     "valor": "valores inteiros em mm na notação (ex. L850, PR125)",
+     "item": "5.1, Nota 1",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#L"
+    }
+   ],
+   "figuras": [
+    "esquemas/chumbador-base-concreto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Seleção e uso",
+   "item": "6.1; Tabela 2",
+   "texto": "Procedimento de fixação com gabarito, locação, nivelamento, proteção, tolerâncias e registro. Tabela 2 diz que tipo serve a cada aplicação (bombas por faixa de potência, máquinas acima de 1 000 CV, vasos, torres, trilhos, suportes, estruturas, guarda-corpos, bandejas leves). Base nova de equipamento: proibido chumbador de pós-concretagem. Duas porcas em vasos verticais, suportes deslizantes e equipamentos com esforço dinâmico. Chumbador, porca e arruela galvanizados a fogo (NBR 6323, ASTM A143); pintura das pontas só após graute curado e aperto final. Nicho de concretagem pela Figura A.3 (pode ser tubo corrugado galvanizado). Adesão química com parâmetros de ensaio (NBR 14827, 15049) ou ETA.",
+   "valores": [
+    {
+     "parametro": "Matriz de uso — guarda-corpos, escadas, plataformas de carregamento",
+     "valor": "plataformas com altura < 2 500 mm",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Matriz de uso — tubulações e bandejas leves (pós-concretagem)",
+     "valor": "tubos < 100 mm de diâmetro; bandejas < 400 mm de largura",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Matriz de uso — bombas centrífugas",
+     "valor": "faixas: até 60 CV; 60 a 1 000 CV; acima de 1 000 CV (com turbinas, compressores, geradores)",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Cálculo e dimensionamento",
+   "item": "6.2",
+   "texto": "Escolha do tipo, L e PR são do projeto de detalhamento. Haste pela NBR 6118/8800; ancoragem (L) pela NBR 6118 nos tipos A, B, C, D, G, H, I, J e na adesão química, sem contar a luva e considerando a perda de resistência com temperatura na adesão química. Verificar arrancamento do concreto em todos (cone a partir da ponta; na expansão, a partir da jaqueta); tipos com chapa (E, F, K, L, M) só o arrancamento, com a chapa dimensionada para toda a tração; considerar sobreposição de cones vizinhos, ruptura de borda sob cisalhamento e fadiga sob carga dinâmica. Recomendado ensaio de arrancamento num chumbador de sacrifício (NBR 14918/15049). Adesão química calculada pela ACI 355.3R ou EN 1992-4.",
+   "valores": [
+    {
+     "parametro": "Embutimento mínimo — expansão e adesão química",
+     "valor": "L ≥ 5 × o diâmetro nominal",
+     "item": "6.2.6",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#L"
+    },
+    {
+     "parametro": "Cone de arrancamento",
+     "valor": "pode ser tomado a 45° com a vertical, a partir da ponta do chumbador",
+     "item": "6.2.7",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#cone"
+    },
+    {
+     "parametro": "Sobrespessura de corrosão (equipamentos e suportes de tubulação)",
+     "valor": "3 mm no diâmetro: área resistente = menor entre a de raiz da rosca e a do diâmetro externo menos 3 mm; dimensionar e somar 3 mm ao diâmetro",
+     "item": "6.2.15",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#diametro"
+    }
+   ],
+   "figuras": [
+    "esquemas/chumbador-base-concreto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Disposições construtivas",
+   "item": "6.1.4, 6.1.5; Anexo A (Figuras A.2 e A.3)",
+   "texto": "Placa de base, chumbadores e nichos obedecem às distâncias mínimas do Anexo A, em função do diâmetro Ø do chumbador e da menor dimensão B da placa.",
+   "valores": [
+    {
+     "parametro": "Graute sob a placa de base",
+     "valor": "≥ 50 mm",
+     "item": "Fig. A.2.1",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#graute",
+     "nota": "conferir: leitura da figura"
+    },
+    {
+     "parametro": "Borda da placa ↔ borda da base de concreto",
+     "valor": "≥ 50 mm e ≥ 0,15 × B (B = menor dimensão da placa em planta); espraiamento a 45°",
+     "item": "Fig. A.2.1",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#borda-placa",
+     "nota": "conferir: leitura da figura"
+    },
+    {
+     "parametro": "Chumbador ↔ borda da base e entre chumbadores",
+     "valor": "mínimos do tipo ≥ 75 mm / ≥ 100 mm combinados com múltiplos de Ø (≥ Ø, ≥ 2Ø, ≥ 3Ø, ≥ 4Ø) conforme a posição",
+     "item": "Fig. A.2.2",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#borda-chumbador",
+     "nota": "conferir: a associação de cada mínimo à sua posição só é legível na figura"
+    },
+    {
+     "parametro": "Nicho de concretagem (blockout)",
+     "valor": "largura A + 80 mm (A = gancho/chapa em planta), folgas ≥ 100 mm até a borda e ≥ 20 mm sob a ancoragem; tubo corrugado com Ø interno 80 mm maior que o círculo que circunscreve a chapa",
+     "item": "Fig. A.3",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#nicho",
+     "nota": "conferir: leitura da figura (cotas A + 20 mm e A + 80 mm)"
+    }
+   ],
+   "figuras": [
+    "esquemas/chumbador-base-concreto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Recebimento, instalação e tolerâncias",
+   "item": "6.3",
+   "texto": "Sem corrosão ou rosca amassada. Pré-concretagem com gabarito preso na forma (metálico e topografia rigorosa para equipamentos pesados), nunca soldado à armadura; proteção mecânica antes e anticorrosiva depois da concretagem. Nicho: limpar, apicoar, encher com água por 24 h, esvaziar e grautear com superfície úmida (salvo instrução do fabricante). Pós-concretagem: furo longe da armadura (corte de barra exige reavaliação estrutural), dimensional rigoroso, limpo e seco. Proteger a rosca com cap de PVC e graxa, limpando antes da montagem. Luva em equipamento dinâmico preenchida só com material elástico (API RP 686); nos demais, graute após fixar. Instalar perpendicular à superfície de apoio.",
+   "valores": [
+    {
+     "parametro": "Uso de luva/nicho quando não dá para usar gabarito",
+     "valor": "chumbadores de diâmetro > 33 mm (permite pequenos ajustes)",
+     "item": "6.3.3, Nota",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#diametro"
+    },
+    {
+     "parametro": "Conferência topográfica pós-concretagem",
+     "valor": "após 24 h do fim da concretagem",
+     "item": "6.3.6"
+    },
+    {
+     "parametro": "Tolerância de locação em base de equipamento (sem dado do fabricante)",
+     "valor": "2 mm",
+     "item": "6.3.12",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#grupo"
+    },
+    {
+     "parametro": "Tolerância de elevação em base de equipamento (sem dado do fabricante)",
+     "valor": "2,5 mm ou 0,1 % da altura da base sobre o piso, o menor",
+     "item": "6.3.12",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#PR"
+    },
+    {
+     "parametro": "Centro a centro de 2 chumbadores do mesmo grupo",
+     "valor": "3 mm",
+     "item": "6.3.13 a)",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#grupo"
+    },
+    {
+     "parametro": "Centro a centro de grupos adjacentes",
+     "valor": "6 mm",
+     "item": "6.3.13 a)",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#entre-grupos"
+    },
+    {
+     "parametro": "Acumulado entre grupos ao longo da linha de pilares",
+     "valor": "≤ 6 mm a cada 30 m; total ≤ 25 mm",
+     "item": "6.3.13 a)",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#acumulado"
+    },
+    {
+     "parametro": "Centro do grupo ↔ eixo estabelecido",
+     "valor": "6 mm",
+     "item": "6.3.13 a)",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#eixo-grupo"
+    },
+    {
+     "parametro": "Projeção dos chumbadores",
+     "valor": "± 5 mm",
+     "item": "6.3.13 a)",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#PR"
+    },
+    {
+     "parametro": "Base de esfera — eixos de chumbadores alternados de bases vizinhas",
+     "valor": "± 5 mm",
+     "item": "6.3.13 b)",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#entre-grupos"
+    },
+    {
+     "parametro": "Base de esfera — diâmetro do círculo dos grupos de bases opostas",
+     "valor": "± 10 mm",
+     "item": "6.3.13 b)",
+     "cota": "esquemas/chumbador-base-concreto-petrobras.svg#acumulado"
+    }
+   ],
+   "figuras": [
+    "esquemas/chumbador-base-concreto-petrobras.svg"
+   ]
+  }
+ ]
+}

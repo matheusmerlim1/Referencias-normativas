@@ -1,0 +1,416 @@
+{
+ "id": "PETROBRAS-N-1882",
+ "titulo": "Petrobras N-1882 Rev. F (11/2023) — Critérios para elaboração de projetos de instrumentação",
+ "secoes": [
+  {
+   "titulo": "Escopo, documentação e sistemas",
+   "item": "1, 5, 6",
+   "texto": "Critérios básicos de projeto de instrumentação para unidades de processo, terminais, dutos, produção, termelétricas e afins, em instalações novas ou reformas. Documentos pela N-1883, unidades do SI, simbologia e identificação pela ISA 5.1. Arquitetura de supervisão e controle (SDCD, SCADA, CP, CP do SIS) definida em documento próprio; alarmes pela N-2900 (anunciadores ISA 18.1), SIS pela N-2595 e N-2782, detecção de incêndio e gás pela N-2914 e NBR 17240.",
+   "valores": []
+  },
+  {
+   "titulo": "Sala de controle",
+   "item": "7",
+   "texto": "Para salas que abrigam painéis e gabinetes de interface com o campo: de preferência em área não classificada (senão NBR IEC 60079-13), com reserva de área, piso falso, pressurização e ar-condicionado com alarmes, detecção de gás na tomada de ar com fechamento de dampers. Arranjo com abertura livre das portas, vias e distâncias de fuga pela NR-23, cabos curtos e equipamentos sensíveis (vibração, termopar, pulso) longe de geradores de ruído. Bandejas segregadas pela API RP 552; aterramento com malha de terra de referência (MTR) ligada à malha geral, com barras TE, TSI e TP isoladas da estrutura.",
+   "valores": [
+    {
+     "parametro": "Área livre para expansão",
+     "valor": "≥ 10 % da área usada pelos equipamentos",
+     "item": "7.1.4"
+    },
+    {
+     "parametro": "Porta de acesso — folga sobre o maior equipamento",
+     "valor": "≥ 30 cm em altura, largura e profundidade",
+     "item": "7.1.5",
+     "cota": "esquemas/sala-controle-instrumentacao.svg#porta-folga"
+    },
+    {
+     "parametro": "Condicionamento de ar",
+     "valor": "24 °C ± 1 °C; UR 50 % ± 5 %",
+     "item": "7.2.3"
+    },
+    {
+     "parametro": "Sobrepressão — área não classificada / classificada",
+     "valor": "4 mmH2O / 6 mmH2O",
+     "item": "7.2.4"
+    },
+    {
+     "parametro": "Malha de terra de referência",
+     "valor": "cobre nu ≥ 16 mm², retículos de 60 cm de lado",
+     "item": "7.5.4",
+     "cota": "esquemas/sala-controle-instrumentacao.svg#mtr-reticulo"
+    }
+   ],
+   "figuras": [
+    "esquemas/sala-controle-instrumentacao.svg"
+   ]
+  },
+  {
+   "titulo": "Alimentação pneumática e elétrica",
+   "item": "8",
+   "texto": "Ar de instrumento dimensionado pela API RP 552, com qualidade ISO 8573-1 (partículas e óleo classe 3; ponto de orvalho bem abaixo da mínima ambiente), medição de vazão no alimentador e alarme de pressão baixa; tomadas pelo topo do header com bloqueio individual e reservas; drenos nos pontos baixos. Gás natural como fluido pneumático só com filtragem e cuidados de área classificada. Alimentação elétrica dos instrumentos por UPS (N-332) com DPS na entrada dos quadros e painéis de campo.",
+   "valores": [
+    {
+     "parametro": "Pressão do ar de instrumento — alimentador principal / extremidades",
+     "valor": "≥ 7 kgf/cm² / ≥ 5 kgf/cm²",
+     "item": "8.1.1.2"
+    },
+    {
+     "parametro": "Velocidade máxima na rede de ar",
+     "valor": "20 m/s",
+     "item": "8.1.2.4"
+    },
+    {
+     "parametro": "Linha de alimentação do header ao instrumento",
+     "valor": "≥ 1/2\"",
+     "item": "8.1.2.5",
+     "cota": "esquemas/sala-controle-instrumentacao.svg#ar-ramal"
+    },
+    {
+     "parametro": "Reserva de tomadas de ar no header",
+     "valor": "≥ 10 %",
+     "item": "8.1.2.7"
+    }
+   ],
+   "figuras": [
+    "esquemas/sala-controle-instrumentacao.svg"
+   ]
+  },
+  {
+   "titulo": "Seleção geral e temperatura",
+   "item": "9.1, 9.2; Anexo A",
+   "texto": "Sinais padronizados, invólucros com IP mínimo e certificado Ex quando em atmosfera explosiva, conexão elétrica NPT. Termorresistência Pt100 classe A (3 ou 4 fios) quando o erro exigido é pequeno; bimetálicos para termômetros abaixo de certa temperatura, sistemas de expansão acima; cabeçotes em alumínio (terra) ou AISI 316 (mar) com corrente na tampa. Todo sensor em poço fornecido junto com ele, cônico (ou step-shank se a análise da ASME PTC 19.3 TW pedir), nunca com colar, usinado de barra AISI 316; flangeado em vasos e torres. Imersão pela Tabela A.1 (tubulação) e A.2 (vasos); cabeçote e união sempre fora do isolamento.",
+   "valores": [
+    {
+     "parametro": "Sinal pneumático / eletrônico analógico",
+     "valor": "0,2 a 1 kgf/cm² / 4 mA a 20 mA",
+     "item": "9.1.2"
+    },
+    {
+     "parametro": "Grau de proteção no campo — terrestre / marítimo",
+     "valor": "IP65 / IP56",
+     "item": "9.1.13"
+    },
+    {
+     "parametro": "Conexão elétrica dos instrumentos",
+     "valor": "1/2\" NPT",
+     "item": "9.1.16",
+     "cota": "esquemas/instrumentacao-montagem-campo.svg#conexao-eletrica"
+    },
+    {
+     "parametro": "Termorresistência obrigatória",
+     "valor": "erro < ±3 °C, até 500 °C",
+     "item": "9.2.1.3"
+    },
+    {
+     "parametro": "Termômetro — mostrador / haste",
+     "valor": "Ø ≥ 100 mm / haste AISI 304 ou 316 de Ø 6 mm",
+     "item": "9.2.2",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#mostrador"
+    },
+    {
+     "parametro": "Bainha do termoelemento e furo do poço (exemplo)",
+     "valor": "bainha Ø 6 mm → poço com Ø interno 6,6 mm",
+     "item": "9.2.3.5, 9.2.5.3",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#poco-furo"
+    },
+    {
+     "parametro": "Flange do poço / rosca permitida",
+     "valor": "≥ 1 1/2\" / 3/4\" NPT",
+     "item": "9.2.5.8, 9.2.5.10",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#flange-poco"
+    },
+    {
+     "parametro": "Linha com poço — diâmetro mínimo",
+     "valor": "4\" (linhas menores só com expansão para 4\")",
+     "item": "A.1",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#linha-diametro"
+    },
+    {
+     "parametro": "Imersão em tubulação — 4\" / 6\" a 10\" / ≥ 12\"",
+     "valor": "2\" / 1/3 a 1/2 do Ø interno / 1/4 a 1/3 do Ø interno",
+     "item": "Tabela A.1",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#imersao"
+    },
+    {
+     "parametro": "Imersão em vaso ou torre — líquido / gás (Ø < 800 mm; 800–1 200 mm; ≥ 1 200 mm)",
+     "valor": "300 mm / 200, 300, 400 mm (máx. metade do Ø interno)",
+     "item": "Tabela A.2",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#imersao"
+    },
+    {
+     "parametro": "Distância \"A\" (flange ao cabeçote)",
+     "valor": "152 mm (6\"), maior se o isolamento passar disso",
+     "item": "A.4",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#distancia-a"
+    }
+   ],
+   "figuras": [
+    "esquemas/instrumentacao-poco-orificio-visor.svg",
+    "esquemas/instrumentacao-montagem-campo.svg"
+   ]
+  },
+  {
+   "titulo": "Pressão e vazão",
+   "item": "9.3, 9.4",
+   "texto": "Manômetros bourdon (fole só para baixas pressões), com mostrador grande e frente sólida acima de certa escala; selos diafragma evitados em ΔP pequenos. Vazão: em linhas pequenas, orifício integral ou rotâmetro. Placa de orifício concêntrica de bordo reto (ISO 5167, NBR 13225 ou API MPMS 14.3) em AISI 316, com tomadas nos flanges (B16.36), face de vedação com o acabamento do flange, beta e diâmetro arredondados e trechos retos da ISO 5167-2 (coluna de incerteza adicional de 0,5 %); quarto de círculo/entrada cônica para Reynolds baixo e excêntrica com sólidos. Vórtice, Venturi, ultrassônico, Coriolis, turbina e magnético conforme fabricante.",
+   "valores": [
+    {
+     "parametro": "Manômetro — mostrador",
+     "valor": "Ø ≥ 100 mm",
+     "item": "9.3.2",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#mostrador"
+    },
+    {
+     "parametro": "Selo diafragma evitado — ΔP pequeno",
+     "valor": "tipicamente < 300 mmH2O",
+     "item": "9.3.3.5 b)"
+    },
+    {
+     "parametro": "Linha com instrumentos especiais de vazão (orifício integral, rotâmetro)",
+     "valor": "Ø interno < 50 mm",
+     "item": "9.4.1.3, 9.4.1.4",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#linha-diametro"
+    },
+    {
+     "parametro": "Rangeabilidade típica com um transmissor",
+     "valor": "até 5:1",
+     "item": "9.4.2.3 b)"
+    },
+    {
+     "parametro": "Vazão máxima / mínima de operação",
+     "valor": "≤ 95 % / ≥ 20 % da vazão máxima de cálculo",
+     "item": "9.4.2.3 d), e)"
+    },
+    {
+     "parametro": "ΔP de cálculo da placa",
+     "valor": "em torno de 2 500 mmH2O [prática recomendada]",
+     "item": "9.4.2.4 b)"
+    },
+    {
+     "parametro": "Espessura da placa de bordo reto — DN 2–6\" / 8–12\" / 14–20\" / 22–36\"",
+     "valor": "1/8\" / 1/4\" / 3/8\" / 1/2\" (ΔP até 2,5 kgf/cm²)",
+     "item": "Tabela 1",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#placa-espessura"
+    },
+    {
+     "parametro": "Trechos retos a montante e a jusante da placa",
+     "valor": "ISO 5167-2, Tabela 3, coluna de incerteza adicional 0,5 %",
+     "item": "9.4.2.7",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#trecho-montante"
+    }
+   ],
+   "figuras": [
+    "esquemas/instrumentacao-poco-orificio-visor.svg"
+   ]
+  },
+  {
+   "titulo": "Nível",
+   "item": "9.5",
+   "texto": "Visores de vidro reflexivos (líquido limpo) ou transparentes (escuros, interface, que atacam o vidro, com mica), com esferas de segurança, dreno e alívio, sobrepostos sem perder a continuidade; tubulares só em vasos atmosféricos com produto inócuo e frio. Visor magnético para tóxicos e interfaces de cores próximas, com flutuador selado e amortecedor, nunca com sólidos ou parafina. ΔP para uso geral (atenção à densidade e ao fluido de selagem), radar de onda guiada ou sem contato, ultrassônico, deslocador e capacitivo; telemedição de tanques pela API MPMS.",
+   "valores": [
+    {
+     "parametro": "Visor tubular — temperatura / comprimento das varetas de proteção",
+     "valor": "< 90 °C / ≤ 760 mm",
+     "item": "9.5.2.5",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#visor-secao"
+    },
+    {
+     "parametro": "Amplitude que leva a visores só nos pontos de controle",
+     "valor": "> 3 400 mm, com seção visível ≥ 500 mm por visor [prática recomendada]",
+     "item": "9.5.2.7",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#visor-amplitude"
+    },
+    {
+     "parametro": "Visor de vidro plano",
+     "valor": "seções de tamanho nominal 7 e 9, no máximo 5 seções",
+     "item": "9.5.2.8",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#visor-secao"
+    },
+    {
+     "parametro": "Coluna do visor magnético — diâmetro mínimo",
+     "valor": "2\" (maior com sólidos)",
+     "item": "9.5.3.6",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#coluna-diametro"
+    },
+    {
+     "parametro": "Interface no visor magnético",
+     "valor": "densidade do fluido superior < 85 % da do inferior",
+     "item": "9.5.3.8"
+    },
+    {
+     "parametro": "Nível por ΔP evitado",
+     "valor": "amplitude < 300 mmH2O",
+     "item": "9.5.4.2",
+     "cota": "esquemas/nivel-pressao-diferencial-croqui.svg#nivel-100"
+    },
+    {
+     "parametro": "Deslocador (displacer) — amplitude máxima",
+     "valor": "1 220 mm (48\")",
+     "item": "9.5.8.2",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#visor-amplitude"
+    },
+    {
+     "parametro": "Transmissor capacitivo com haste rígida",
+     "valor": "faixas < 2 m",
+     "item": "9.5.9.3",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#visor-amplitude"
+    },
+    {
+     "parametro": "Extensão da eletrônica",
+     "valor": "serviço > 200 °C ou < 0 °C",
+     "item": "9.5.1.8"
+    }
+   ],
+   "figuras": [
+    "esquemas/instrumentacao-poco-orificio-visor.svg",
+    "esquemas/nivel-pressao-diferencial-croqui.svg"
+   ]
+  },
+  {
+   "titulo": "Válvulas de controle e on-off",
+   "item": "9.6, 9.7; Tabelas 2 e 3",
+   "texto": "Dimensionamento pela ISA 75 com CV normal no meio do curso, válvulas em paralelo para alta rangeabilidade, borboleta com limites de abertura do disco, ΔP nunca muito pequeno, cavitação tratada (trim, estágios, material), ruído limitado e velocidade de entrada controlada. Atuador dimensionado para o ar mínimo e o ΔP máximo; posicionador digital; desempenho ao degrau pela Tabela 3. On-off de intertravamento esfera ou borboleta tripla excentricidade, com tempo de acionamento limitado.",
+   "valores": [
+    {
+     "parametro": "CV na condição normal",
+     "valor": "30 % a 70 % da abertura (20 % a 80 % em válvulas em paralelo) [prática recomendada]",
+     "item": "9.6.2.3, 9.6.2.4"
+    },
+    {
+     "parametro": "Válvula borboleta — CV máximo / mínimo",
+     "valor": "limitado a 70° / 10° de abertura do disco",
+     "item": "9.6.2.5",
+     "cota": "esquemas/sala-controle-instrumentacao.svg#borboleta-abertura"
+    },
+    {
+     "parametro": "ΔP mínimo típico de operação",
+     "valor": "0,1 kgf/cm² [prática recomendada]",
+     "item": "9.6.2.6"
+    },
+    {
+     "parametro": "Ruído máximo",
+     "valor": "85 dB(A) a 1 m da válvula",
+     "item": "9.6.2.9",
+     "cota": "esquemas/sala-controle-instrumentacao.svg#valvula-ruido"
+    },
+    {
+     "parametro": "Velocidade na entrada — gases / líquidos",
+     "valor": "< 0,3 Mach (máx. 0,5) / < 7 m/s (máx. 10)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Ar mínimo para dimensionar o atuador",
+     "valor": "4,5 kgf/cm²",
+     "item": "9.6.5.2"
+    },
+    {
+     "parametro": "Resposta ao degrau — válvula 0–2\" (tempo morto / T63 / T86)",
+     "valor": "0,25 / 0,5 / 0,75 s",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Resposta ao degrau — válvula 3–6\"",
+     "valor": "0,5 / 1,0 / 1,5 s",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Banda morta / resolução / sobrevalor",
+     "valor": "≤ 1 % / ≤ 0,5 % (curso ≥ 1\"; ≤ 1 % abaixo) / ≤ 10 %",
+     "item": "9.6.9.4–9.6.9.6",
+     "cota": "esquemas/sala-controle-instrumentacao.svg#curso"
+    }
+   ],
+   "figuras": [
+    "esquemas/sala-controle-instrumentacao.svg"
+   ]
+  },
+  {
+   "titulo": "Alívio, analisadores e detectores",
+   "item": "9.8–9.13",
+   "texto": "Válvulas de alívio e segurança pela API 520 Parte I (estanqueidade API 527), flangeadas (rosca só em alívio térmico ou bocais pequenos), castelo conforme serviço; válvulas de pressão e vácuo, discos de ruptura, analisadores, sensores de chama e detectores de fogo e gás com critérios próprios.",
+   "valores": [
+    {
+     "parametro": "PSV roscada admitida",
+     "valor": "alívio térmico ou bocal de entrada ≤ 1\"",
+     "item": "9.8.2.1",
+     "cota": "esquemas/sala-controle-instrumentacao.svg#psv-bocal"
+    }
+   ],
+   "figuras": [
+    "esquemas/sala-controle-instrumentacao.svg"
+   ]
+  },
+  {
+   "titulo": "Cabos, rede sem fio e painéis",
+   "item": "10–12; Tabela 4",
+   "texto": "Cabos de instrumentação terrestres com seções mínimas, blindagens individuais e coletivas, cabos especiais para vibração e velocidade; redes Foundation Fieldbus/Profibus com bitolas próprias; cabos marítimos com blindagem de fita alumínio/poliéster por unidade. Rede sem fio com salto de canais, autenticação, criptografia, monitoração de sinal e bateria, site survey e homologação Anatel. Painéis autoportantes com olhais, IP pela Tabela 4, reservas, fiação CA e CC separadas e DPS na alimentação.",
+   "valores": [
+    {
+     "parametro": "Seção mínima — cabos singelos (par/terna/quadra) / múltiplos",
+     "valor": "1,0 mm² / 0,5 mm²",
+     "item": "10.1.2.2, 10.1.2.3"
+    },
+    {
+     "parametro": "Fieldbus — tronco / derivações",
+     "valor": "1,3 mm² (16 AWG) / 0,8 mm² (18 AWG)",
+     "item": "10.1.3.5"
+    },
+    {
+     "parametro": "Cabo marítimo — seção por função",
+     "valor": "1 mm² sinais; 1,5 mm² solenoides e alarmes; 2,5 mm² disparo de CO2 e sinalizadores",
+     "item": "10.2.2.13"
+    },
+    {
+     "parametro": "Grau de proteção de painéis — abrigado / ao tempo (terra; mar)",
+     "valor": "IP31; IP32 / IP55; IP56",
+     "item": "Tabela 4"
+    },
+    {
+     "parametro": "Aterramento das colunas de painel",
+     "valor": "conectores para cabo de 50 mm² a 70 mm²",
+     "item": "12.2.7"
+    },
+    {
+     "parametro": "Reserva em painéis",
+     "valor": "20 % instalada + 10 % de espaço [prática recomendada]",
+     "item": "12.2.8"
+    }
+   ]
+  },
+  {
+   "titulo": "Instalação de instrumentos e transmissão de sinais",
+   "item": "13–15; Anexos D e E",
+   "texto": "Unidades pacote com limites de responsabilidade definidos. Instalação ao processo pela N-2791 e API RP 551: suporte dedicado, longe de calor, tomadas pelo Anexo D, segregação do SIS, tomadas aquecidas para fluidos que solidificam e com purga para sujos. Válvulas de controle perto do piso, linear com corpo horizontal e atuador vertical acima da linha; filtro regulador por instrumento pneumático; ΔP de gás acima das tomadas com caimento para o processo; nível conectado direto ao equipamento, controle e intertravamento na mesma cota, interface com tomada superior sempre no líquido leve; stand pipe só em casos especiais. Descarga de PSV para atmosfera em local seguro com furo de dreno; com coletor, bloqueio travado aberto. Sinais: eletrodutos com dreno nos pontos baixos, segregação pela API RP 552, fibra para enlaces longos, evitar zonas de fogo (API RP 2218).",
+   "valores": [
+    {
+     "parametro": "Stand pipe (quando aprovado) — diâmetro",
+     "valor": "4\" recomendado (mínimo 2\")",
+     "item": "14.7.7",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#stand-pipe"
+    },
+    {
+     "parametro": "Visor roscado admitido",
+     "valor": "linha de centro a menos de 350 mm do vaso",
+     "item": "Tabela D.3, Nota 2",
+     "cota": "esquemas/instrumentacao-poco-orificio-visor.svg#visor-distancia"
+    },
+    {
+     "parametro": "Tomada de pressão na tubulação / no instrumento",
+     "valor": "3/4\" / 1/2\"",
+     "item": "Tabela D.2",
+     "cota": "esquemas/instrumentacao-linha-impulso.svg#tubo-de"
+    },
+    {
+     "parametro": "Enlace digital que pede avaliação de fibra óptica",
+     "valor": "> 50 m [prática recomendada]",
+     "item": "15.3.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/instrumentacao-poco-orificio-visor.svg",
+    "esquemas/instrumentacao-linha-impulso.svg"
+   ]
+  }
+ ]
+}

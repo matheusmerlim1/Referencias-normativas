@@ -1,0 +1,30 @@
+{
+ "id": "PETROBRAS-N-1959",
+ "titulo": "Petrobras N-1959 Rev. C (03/2008) — Apresentação de projetos de estruturas em concreto",
+ "secoes": [
+  {
+   "titulo": "Documentos e memorial",
+   "item": "4.1, 4.2",
+   "texto": "Padroniza a apresentação de projetos de estruturas de concreto: memorial descritivo, memória de cálculo, desenhos e especificação técnica, em unidades SI (NBR 12230). O memorial traz sumário, descrição com justificativa das soluções (estética, estrutura, custo e durabilidade), fluxograma de execução quando couber, lista de documentos e normas.",
+   "figuras": [
+    "esquemas/concreto-fundacao-projeto-apresentacao.svg"
+   ]
+  },
+  {
+   "titulo": "Memória de cálculo",
+   "item": "4.3",
+   "texto": "Objetivo (estrutura, análise manual ou numérica, normas), documentos de referência, materiais e propriedades das seções, cargas (peso próprio, sobrecargas, vento, tubulações, temperatura) e combinações. Esquema estrutural com apoios, nós e elementos numerados, rótulas, vãos, eixos e cargas. Diagramas e envoltórias de esforços (com coeficientes de majoração/minoração), deslocamentos e, sob carga dinâmica, amplitudes e modos de vibração. Dimensionamento de armaduras, peças provisórias e acessórios; verificações de resistência, fissuração, equilíbrio, flecha, ressonância e fadiga das armaduras — obrigatória em pontes/pontilhões de áreas de carga e descarga e vigas de pórtico rolante. Anexos com ábacos, equações não normalizadas, programas e licenças. Pode englobar a fundação.",
+   "figuras": [
+    "esquemas/concreto-fundacao-projeto-apresentacao.svg"
+   ]
+  },
+  {
+   "titulo": "Desenhos e especificação técnica",
+   "item": "4.4, 4.5",
+   "texto": "Desenhos de formas, armação e montagem (formas e armação podem se juntar; reforço/recuperação num só desenho). Formas: norte verdadeiro e de projeto, RN, locação e orientação dos pilares, plantas/cortes/elevações, chanfros, juntas, contraflechas, acessórios com lista de materiais, fck, a/c máximo, consumo de cimento, agregado máximo, volumes de concreto e área de formas. Armação: aço, emendas, tabela e quadro-resumo, cobrimentos e raios mínimos de dobramento. Pré-moldados: fases de concretagem, sequência de içamento, travamentos, escoramentos e protensão. A especificação técnica traz fck, a/c, cimento, aditivos, agregados, adesivos, graute, mastiques, acabamento, formas, aço e cordoalhas e acessórios — uma especificação por grupo de estruturas semelhantes.",
+   "figuras": [
+    "esquemas/concreto-fundacao-projeto-apresentacao.svg"
+   ]
+  }
+ ]
+}

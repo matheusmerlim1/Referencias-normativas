@@ -1,0 +1,37 @@
+{
+ "id": "PETROBRAS-N-2508",
+ "titulo": "Petrobras N-2508 Rev. A (05/2003) — Ligas metálicas e metais: identificação — padrões fotográficos",
+ "secoes": [
+  {
+   "titulo": "Escopo e testes ilustrados",
+   "item": "1, 4",
+   "texto": "Padroniza registros fotográficos dos testes de identificação de ligas e metais pelo ímã e por pontos (classes de material e definições pelas N-1591 e N-1592). Testes de ataque químico simples (QS): QS.01 passividade ao ácido nítrico, QS.02 ligas ferrosas, QS.03 ferro fundido, QS.04 molibdênio, QS.05 níquel, QS.06 cromo, QS.07 baixo molibdênio, QS.08 baixo níquel, QS.09 sulfato de cobre, QS.10 cobre, QS.11 classificação de Monel, QS.12 alto cromo, QS.13 estabilizante de inox 321 (Ti) e 347 (Nb), QS.14 inibidor do latão (Sb, P ou As). Testes de polarização eletroquímica (PE): PE.01 cromo, PE.02 molibdênio, PE.03 níquel, PE.04 cobre, PE.05 cobalto, PE.06 teor de carbono, PE.07 ligas ferrosas.",
+   "valores": [],
+   "figuras": [
+    "esquemas/end-padrao-fotografico-ligas.svg",
+    "esquemas/end-identificacao-ligas-ima-pontos.svg"
+   ]
+  },
+  {
+   "titulo": "Registros fotográficos (Anexo A)",
+   "item": "5, Anexo A",
+   "texto": "52 fotos coloridas, feitas em câmera reflex com lente macro, cada uma com número, teste, material e descrição da reação. Exemplos de leitura: QS-01 em aço-carbono e ferro fundido reage na hora (violeta → verde-escuro ou marrom), em aço 1,25Cr-0,5Mo e AISI 4140 reage fraco; QS-03 deposita cobre no ferro fundido (azul → preto) e não reage no aço-carbono; QS-04 e QS-05 dão cor rósea em 316 e aço-níquel; QS-11 dá mancha preta no Monel K500 e verde-azulada no Monel 400; QS-12 distingue 316 (verde-claro + gás), 317 (sem reação), 304 (verde-escuro) e 310 (verde-azulado); QS-13 mostra mancha acinzentada no centro para 321/347; QS-14 separa latão com e sem inibidor; PE-05 dá cor de tijolo ou verde no Stellite; PE-06 dá cinza-escuro a preto no AISI 1045 e cinza-claro no 1020.",
+   "valores": [
+    {
+     "parametro": "Tamanho de cada registro fotográfico",
+     "valor": "3,00 cm × 2,00 cm",
+     "item": "5.2",
+     "cota": "esquemas/end-padrao-fotografico-ligas.svg#foto-largura"
+    },
+    {
+     "parametro": "Filme usado nos registros",
+     "valor": "ISO (ASA) 64 ou 100, a cores",
+     "item": "5.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/end-padrao-fotografico-ligas.svg"
+   ]
+  }
+ ]
+}

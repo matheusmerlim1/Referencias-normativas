@@ -1,0 +1,182 @@
+{
+ "id": "PETROBRAS-N-2624",
+ "titulo": "Petrobras N-2624 Rev. C (12/2014) — Implantação de faixas de dutos terrestres",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 5.1, 5.2",
+   "texto": "Condições para definir o traçado e fazer o aerolevantamento e demais atividades de implantação de faixas de dutos terrestres (também em reformas). Tudo parte de base cartográfica de aerolevantamento: o cadastro físico sai das imagens ortorretificadas e o campo complementa o físico e levanta o jurídico (N-1041). Textos em editor tipo Word, desenhos editáveis em AutoCAD Map ou equivalente, imagens ECW com compressão de 10 %, malha UTM no Sistema Geodésico Brasileiro com 4 pontos em coordenadas geográficas, um layer por item com legenda. Imagens sem arraste, com ajuste radiométrico, contraste, tonalidade, homogeneização e mosaico.",
+   "valores": [
+    {
+     "parametro": "Padrão de exatidão cartográfica (Decreto 89.817/84)",
+     "valor": "escala 1:1 000 → PEC A; 1:10 000 → PEC B",
+     "item": "5.1.2.7"
+    },
+    {
+     "parametro": "Resolução espacial mínima (pixel) — produtos 1:10 000 / 1:1 000",
+     "valor": "1 m / 15 cm",
+     "item": "5.2.4",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#curvas-nivel"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-faixa-implantacao-tracado.svg"
+   ]
+  },
+  {
+   "titulo": "Critérios para escolher o traçado",
+   "item": "5.3, 5.4",
+   "texto": "Traçado preliminar sobre cartografia e imagens existentes; imagens estereoscópicas para o traçado básico; imagens detalhadas para ortofotos 1:1 000 (campo com imagens de no mínimo 1:5 000; faixas curtas e simples podem usar só ortofotos 1:5 000). Práticas recomendadas: evitar mata nativa (preferir suprimir reflorestamento e, antes, silvicultura, nas áreas menos densas), mínimo movimento de terra, menor comprimento, menos interferências e propriedades, aproveitar estradas, lateral da faixa junto às divisas, evitar domínio público, rocha, encostas instáveis, brejos (atravessar sem curvas), cruzamentos ortogonais em locais planos e longe de casas, travessias ortogonais sem rocha nem erosão, distância de edificações, áreas minerárias, ambientais, indígenas, nascentes e de expansão urbana, e evitar paralelismo com linhas acima de 69 kV e ferrovias eletrificadas.",
+   "valores": [],
+   "figuras": [
+    "esquemas/duto-faixa-implantacao-tracado.svg"
+   ]
+  },
+  {
+   "titulo": "Fases do projeto e produtos cartográficos",
+   "item": "6, 7.1",
+   "texto": "Traçado preliminar: base de dados (cursos d'água, divisas, rodovias, ferrovias, cidades, LTs, faixas existentes, relevo, unidades de conservação, terras indígenas e quilombolas) e no mínimo 3 alternativas viáveis, com vistoria aérea e relatório conclusivo. Traçado básico: aerofotogrametria ao longo da alternativa escolhida, diretriz por estereoscopia ou MDT e ortofotos. Produtos 1:10 000: restituição, modelo digital de superfície e perfil automático com cruzamentos e travessias. Mapeamento geológico-geotécnico (rocha, erosão, alagamento, movimentos de massa, tálus) para definir as investigações. Detalhamento: imagens 1:5 000, apoio terrestre por GPS diferencial a partir da rede do IBGE (2 receptores L1+L2 simultâneos), ortofotos e MDT com break-lines.",
+   "valores": [
+    {
+     "parametro": "Largura do levantamento do traçado básico (voo 1:20 000)",
+     "valor": "≥ 15 km",
+     "item": "6.2.1",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#largura-voo-alto"
+    },
+    {
+     "parametro": "Largura da emissão definitiva 1:10 000",
+     "valor": "1,5 km",
+     "item": "6.3.1 c)",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#largura-1-10000"
+    },
+    {
+     "parametro": "Curvas de nível dos produtos 1:10 000",
+     "valor": "de 5 m em 5 m",
+     "item": "6.3.2 l)",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#curvas-nivel"
+    },
+    {
+     "parametro": "Largura das ortofotos 1:5 000 e do MDT",
+     "valor": "1 200 m (MDT ≥ 1 200 m)",
+     "item": "7.1.4.1, 7.1.4.2",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#largura-ortofoto"
+    },
+    {
+     "parametro": "Curvas de nível do MDT e do traçado detalhado",
+     "valor": "equidistância de 1 m",
+     "item": "5.3.5, 7.1.4.2, 7.5.6",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#curvas-nivel"
+    },
+    {
+     "parametro": "Ocupação mínima dos rastreadores (pontos transportados do IBGE)",
+     "valor": "30 min",
+     "item": "7.1.2.3"
+    },
+    {
+     "parametro": "Precisão do GPS",
+     "valor": "10 cm nas coordenadas finais ou 1:100 000 no fechamento",
+     "item": "7.1.2.4",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#precisao"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-faixa-implantacao-tracado.svg"
+   ]
+  },
+  {
+   "titulo": "Traçado detalhado, planta e perfil e largura da faixa",
+   "item": "7.2–7.6",
+   "texto": "O traçado detalhado liga os pontos do básico evitando áreas inadequadas e pode ser ajustado à terraplenagem; sai em ortofotocartas de planta e perfil (edição automatizada recomendada), com cadastro pela N-1041, levantamento de campo pela N-47 em loteamentos, layers separados e compatibilização com faixas de rodovias e LTs vizinhas. Faixa para um só duto pode ser mais estreita, em casos excepcionais, se comprovado que não haverá outros dutos, que cabe a construção e que a terraplenagem não reduzirá a largura. Levantamento de áreas com vértices nas ortofotocartas.",
+   "valores": [
+    {
+     "parametro": "Ângulo máximo em cada PI",
+     "valor": "15° (acima disso, distribuir em várias seções)",
+     "item": "7.2.2",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#angulo-pi"
+    },
+    {
+     "parametro": "Espaçamento mínimo entre PIs",
+     "valor": "12 m",
+     "item": "7.2.2",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#espacamento-pi"
+    },
+    {
+     "parametro": "Folhas de planta e perfil 1:1 000",
+     "valor": "400 m de largura × 1 km de comprimento",
+     "item": "7.5.2",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#largura-planta"
+    },
+    {
+     "parametro": "Largura mínima da faixa",
+     "valor": "20 m",
+     "item": "7.5.4",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#largura-faixa"
+    },
+    {
+     "parametro": "Afastamento lateral adicional (áreas antropizadas ou de expansão urbana)",
+     "valor": "15 m de cada lado",
+     "item": "7.5.4",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#afastamento-lateral"
+    },
+    {
+     "parametro": "Curvas de nível no levantamento de áreas",
+     "valor": "a cada 1 m, de preferência em planta 1:500",
+     "item": "7.6.3",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#curvas-nivel"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-faixa-implantacao-tracado.svg"
+   ]
+  },
+  {
+   "titulo": "Sondagens, classe de locação, marcos e travessias",
+   "item": "7.7–9",
+   "texto": "Sondagens georreferenciadas; a trado conforme o mapeamento geotécnico (NBR 9603), furos fechados logo após; geofísica em travessias, onde houver rocha rasa ou o trado não avançar (picadas só com autorização ambiental); resultado no perfil e em relatório. Classe de locação pela NBR 12712, nos desenhos e em relatório. Marcos tipo C nas pontas do trecho, fora da faixa. Travessias: calhas e áreas inundáveis por sensoriamento e campo, amostras de solo, consulta a órgãos gestores, mapeamento de extração de areia. Travessias especiais: riscos de instabilidade fluvial e método construtivo, perfil-limite de erosão, topobatimetria (estação total, ecobatímetro com DGPS), sedimentologia, curva de descarga e vazão de maior velocidade, sondagens geofísicas, a percussão e rotativas nas margens e no leito.",
+   "valores": [
+    {
+     "parametro": "Profundidade mínima da sondagem a trado",
+     "valor": "2 m (ou até o impenetrável)",
+     "item": "7.7.3",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#sondagem-trado"
+    },
+    {
+     "parametro": "Marcos da poligonal principal",
+     "valor": "em média a cada 10 km, 2 marcos tipo C intervisíveis, o de rastreio a até 200 m da faixa",
+     "item": "7.9 a)",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#marco-distancia"
+    },
+    {
+     "parametro": "Horizonte do perfil-limite de erosão em travessias especiais",
+     "valor": "≥ 20 anos",
+     "item": "9.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-faixa-implantacao-tracado.svg"
+   ]
+  },
+  {
+   "titulo": "GIS e aceitação do aerolevantamento",
+   "item": "10, 11",
+   "texto": "Recomenda-se carregar todos os produtos num GIS, georreferenciados e com identificador único (documentos pela N-1710). Pontos testados em campo com GPS geodésico L1+L2 corrigido e pós-processado.",
+   "valores": [
+    {
+     "parametro": "Erro máximo planimétrico das ortofotocartas 1:1 000",
+     "valor": "< 1 m",
+     "item": "11 (10.1)",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#precisao"
+    },
+    {
+     "parametro": "Erro máximo altimétrico",
+     "valor": "1 m",
+     "item": "11 (10.2)",
+     "cota": "esquemas/duto-faixa-implantacao-tracado.svg#precisao"
+    }
+   ],
+   "figuras": [
+    "esquemas/duto-faixa-implantacao-tracado.svg"
+   ]
+  }
+ ]
+}

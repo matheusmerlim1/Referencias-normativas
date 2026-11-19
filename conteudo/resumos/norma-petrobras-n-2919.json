@@ -1,0 +1,312 @@
+{
+ "id": "PETROBRAS-N-2919",
+ "titulo": "Petrobras N-2919 Rev. A (04/2015) — Motores elétricos trifásicos de indução ou síncronos",
+ "secoes": [
+  {
+   "titulo": "Escopo e regras gerais",
+   "item": "1, 4",
+   "texto": "Requisitos mínimos para compra de motores trifásicos de indução ou síncronos, com formulários de folha de dados nos anexos. A folha de dados é preenchida em parte pela Petrobras e completada pelo fabricante; o que ele certifica vira valor garantido (com tolerâncias da IEC 60034-1) e a versão final traz os valores medidos nos testes; se divergir da norma, prevalece a folha de dados; desvios da proposta são listados explicitamente. Unidades marítimas também pela NBR IEC 61892-3.",
+   "valores": [],
+   "figuras": [
+    "esquemas/motor-eletrico-inducao.svg"
+   ]
+  },
+  {
+   "titulo": "Características elétricas e de partida",
+   "item": "5.1–5.3",
+   "texto": "Operação contínua na Zona A de tensão e frequência da IEC 60034-1 sem perda de vida do isolamento, e satisfatória na Zona B; potência nominal já incluindo acréscimos do processo. Partidas consecutivas a frio e a quente, com tempo de espera informado pelo fabricante. Em toda a partida até o torque máximo, o torque do motor supera o da carga com folga, na tensão nominal e na menor tensão de partida. Rendimento pela IEC 60034-30-1 / TS 60034-31 (motores BT até 1 000 kW, inclusive Ex nA, e, t, de).",
+   "valores": [
+    {
+     "parametro": "Vida útil / campanha contínua",
+     "valor": "20 anos / ≥ 3 anos",
+     "item": "5.1.2"
+    },
+    {
+     "parametro": "Partidas consecutivas",
+     "valor": "2 a frio (com retorno ao repouso) ou 1 a quente",
+     "item": "5.2.2"
+    },
+    {
+     "parametro": "IA/IN — BT partida direta até 55 kW / 55–150 kW / 150–375 kW",
+     "valor": "≤ 8,0 / ≤ 7,5 / ≤ 7,0",
+     "item": "5.2.4"
+    },
+    {
+     "parametro": "IA/IN — acima de 1,0 kV, partida direta",
+     "valor": "≤ 6,0",
+     "item": "5.2.5"
+    },
+    {
+     "parametro": "Tempo de rotor bloqueado a quente (tensão nominal)",
+     "valor": "≥ 1,5 × tempo de partida ou tempo de partida + 5 s, o maior",
+     "item": "5.2.6"
+    },
+    {
+     "parametro": "Tempo de rotor bloqueado / tE (menor tensão de partida)",
+     "valor": "≥ tempo de partida + 2 s",
+     "item": "5.2.6.1, 5.2.6.2"
+    },
+    {
+     "parametro": "Excesso de torque sobre a carga na partida",
+     "valor": "≥ 10 % do torque nominal",
+     "item": "5.2.8"
+    },
+    {
+     "parametro": "Eficiência mínima (BT, inclusive Ex nA/e/t/de)",
+     "valor": "IE3",
+     "item": "5.3.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Motor com conversor de frequência",
+   "item": "5.4",
+   "texto": "Elevação de temperatura dentro dos limites em toda a faixa de rotação; isolamento e mancais preparados para a forma de onda do conversor; RTD no estator acima de certa potência; para cargas de torque quadrático e motores médios, especificação simplificada; para torque constante em BT, motor dimensionado para a faixa de rotação. Motores Ex com conversor certificados para o conjunto ensaiado.",
+   "valores": [
+    {
+     "parametro": "RTD Pt100 a 3 fios no estator — motor com conversor",
+     "valor": "potência > 37 kW",
+     "item": "5.4.4"
+    },
+    {
+     "parametro": "Faixa da especificação simplificada (torque quadrático)",
+     "valor": "até 1 200 kW, até 6,0 kV e até 6 polos",
+     "item": "5.4.8"
+    }
+   ]
+  },
+  {
+   "titulo": "Pintura, proteção e resfriamento",
+   "item": "6.1–6.4",
+   "texto": "Pintura para C5-I/C5-M (ISO 12944), jateamento Sa 2½, durabilidade classe M, com ensaios de aderência, empolamento, ferrugem, trincas, descamação e corrosão no risco; cor pela folha de dados (cinza N 6.5/RAL 7042 em geral; vermelho segurança em sistemas de segurança). Ao tempo, carcaça e caixas no mínimo IP55. Resfriamento IC 411 com carcaça aletada nos motores médios; ventiladores de motores acima de 1 kV metálicos, anticentelhantes e de alumínio sem cobre; rotor balanceado dinamicamente (ISO 1940-1). Ruído pela NBR IEC 60034-9, sem carga; com conversor, medido em duas frequências.",
+   "valores": [
+    {
+     "parametro": "Grau de proteção mínimo ao tempo",
+     "valor": "IP55 (carcaça e caixas de terminais)",
+     "item": "6.2.2"
+    },
+    {
+     "parametro": "Resfriamento padrão (até 1 200 kW, 6,0 kV e 6 polos)",
+     "valor": "IC 411, carcaça aletada",
+     "item": "6.3, Nota"
+    },
+    {
+     "parametro": "Teor máximo de cobre no alumínio de ventiladores e tubos IC611",
+     "valor": "0,2 %",
+     "item": "6.3.2, 6.12.1.2"
+    },
+    {
+     "parametro": "Frequências de medição de ruído com conversor",
+     "valor": "15 Hz e 60 Hz (registrar o maior)",
+     "item": "6.4.6"
+    }
+   ]
+  },
+  {
+   "titulo": "Caixas de terminais, aterramento e placas",
+   "item": "6.5–6.8",
+   "texto": "Entradas de cabo por rosca NPT ou prensa-cabos na quantidade da folha de dados; posição pela NBR IEC 60034-7 (código IM); caixas separadas de força e controle nas carcaças maiores; caixa de força de média tensão com espaço para cones de alívio e placa removível. Aquecimento anticondensação mantendo o interior acima do ponto de orvalho com o motor parado. Terminais de terra externos e, acima de 1 kV, também dentro da caixa de força; BT com três terminais de força em placa isolante. Placa de dados completa e, acima de 1 kV, placa de advertência.",
+   "valores": [
+    {
+     "parametro": "Caixas de força e de controle independentes",
+     "valor": "carcaça 160 ou maior",
+     "item": "6.5.4"
+    },
+    {
+     "parametro": "Posições de montagem da caixa de força",
+     "valor": "4 posições, giro de 90° em 90°",
+     "item": "6.5.7",
+     "cota": "esquemas/motor-eletrico-inducao.svg#caixa-posicao"
+    }
+   ],
+   "figuras": [
+    "esquemas/motor-eletrico-inducao.svg"
+   ]
+  },
+  {
+   "titulo": "Vibração e mancais",
+   "item": "6.9–6.11",
+   "texto": "Vibração em fábrica pela NBR IEC 60034-14; no campo, motor desacoplado, limites por classe da ISO 10816-1; motores IC611 com acesso aos mancais nas três direções; pés maciços em BT horizontal. Mancais de rolamento são aceitos salvo quando a velocidade, a vida L10h ou o produto potência × rotação exigem mancais hidrodinâmicos. RTD nos mancais a óleo; previsão para oil-mist se pedido; lubrificação nunca compartilhada com o óleo de selagem de compressores de gás inflamável. Vedação: V-ring só nos pequenos, labirinto rotativo tipo U nas carcaças médias (tipo L só com antecâmara de graxa).",
+   "valores": [
+    {
+     "parametro": "Vibração no campo, motor desacoplado — classe I (≤ 15 kW) / II e III",
+     "valor": "2,8 mm/s / 4,5 mm/s",
+     "item": "6.9.2"
+    },
+    {
+     "parametro": "Mancal hidrodinâmico obrigatório",
+     "valor": "N × dm > 500 000 (rpm × mm) ou potência × rotação ≥ 4 000 000 (kW × rpm)",
+     "item": "6.10.2"
+    },
+    {
+     "parametro": "Vida L10h mínima dos rolamentos",
+     "valor": "25 000 h em carga nominal; 16 000 h com cargas máximas",
+     "item": "6.10.2, Nota"
+    },
+    {
+     "parametro": "Folga axial ventilador–tampa (mancal hidrodinâmico, área não classificada)",
+     "valor": "≥ 6,35 mm em corrente nominal",
+     "item": "6.10.3",
+     "cota": "esquemas/motor-eletrico-inducao.svg#folga-ventilador"
+    },
+    {
+     "parametro": "Vedação por V-ring ou retentor",
+     "valor": "BT, carcaça até 90",
+     "item": "6.11.10.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/motor-eletrico-inducao.svg"
+   ]
+  },
+  {
+   "titulo": "Trocadores de calor",
+   "item": "6.12",
+   "texto": "Acima de certa potência ao tempo, trocador ar/ar (IC51X/IC61X), com olhais se pesado. Trocador ar/água de tubo duplo em cupro-níquel 90-10, com detecção de vazamento, termômetros e transmissor de ΔP opcionais, conexões NPT com plugues metálicos e parafusos inox A193 B8M; ensaio de pressão pelo fabricante.",
+   "valores": [
+    {
+     "parametro": "Trocador ar/ar ao tempo obrigatório",
+     "valor": "potência > 1 200 kW",
+     "item": "6.12.1.4"
+    },
+    {
+     "parametro": "Olhais de içamento — trocador ou motor",
+     "valor": "massa ≥ 25 kg (trocador > 25 kg)",
+     "item": "6.12.1.5, 6.17.2"
+    },
+    {
+     "parametro": "Tubo interno do tubo duplo — Ø externo mínimo",
+     "valor": "15 mm",
+     "item": "6.12.2.9",
+     "cota": "esquemas/motor-eletrico-inducao.svg#tubo-diametro"
+    },
+    {
+     "parametro": "Espessura mínima — tubo interno / externo",
+     "valor": "1,25 mm / 1,05 mm",
+     "item": "6.12.2.9",
+     "cota": "esquemas/motor-eletrico-inducao.svg#tubo-parede"
+    },
+    {
+     "parametro": "Perda de carga máxima na água",
+     "valor": "0,7 kgf/cm² (84 kPa)",
+     "item": "6.12.2.10"
+    },
+    {
+     "parametro": "Conexões de vent, dreno, termômetros e ΔP",
+     "valor": "rosca NPT 3/4\"",
+     "item": "6.12.2.11–6.12.2.13",
+     "cota": "esquemas/motor-eletrico-inducao.svg#conexao-vent"
+    },
+    {
+     "parametro": "Ensaio de pressão do trocador ar/água",
+     "valor": "≥ 1,5 × pressão de projeto, 30 min sem vazamento",
+     "item": "9.12"
+    }
+   ],
+   "figuras": [
+    "esquemas/motor-eletrico-inducao.svg"
+   ]
+  },
+  {
+   "titulo": "Térmica, instrumentação e isolamento",
+   "item": "6.13–6.17",
+   "texto": "Isolação classe F com elevação de classe B a 40 °C de ambiente (ou referência na água de entrada em motores ICW); proteção térmica pela IEC 60034-11, com constantes de tempo de aquecimento e resfriamento para ajustar as funções 49 e 66 do IED e curvas de limite térmico de estator e rotor. Termômetros de duplo estágio sem contato centelhante; sensores de vibração por mancal quando a máquina acionada também tiver. Monitoração on-line de descargas parciais em média tensão alta. Impregnação a vácuo nos motores BT; selagem do estator para spray-test em motores offshore de média tensão; TC diferencial, capacitores de surto e para-raios nos maiores.",
+   "valores": [
+    {
+     "parametro": "Classe de isolação / elevação de temperatura",
+     "valor": "F, com elevação limitada à classe B, ambiente de 40 °C",
+     "item": "6.13.1.1"
+    },
+    {
+     "parametro": "Curvas de limite térmico — potência",
+     "valor": "> 55 kW; estator 1 a 3 × IN, rotor 3 a 8 × IN",
+     "item": "6.13.4"
+    },
+    {
+     "parametro": "RTD Pt100 a 3 fios nos enrolamentos",
+     "valor": "≥ 150 kW: 2 por fase",
+     "item": "6.14.4"
+    },
+    {
+     "parametro": "Capacitor de acoplamento para descargas parciais",
+     "valor": "≥ 6,0 kV: 80 pF por fase",
+     "item": "6.14.6"
+    },
+    {
+     "parametro": "Selagem do estator para spray-test (offshore)",
+     "valor": "≥ 4,0 kV",
+     "item": "6.16.3"
+    },
+    {
+     "parametro": "TC diferencial, capacitor de surto e para-raios",
+     "valor": "≥ 11,0 kV",
+     "item": "6.17.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Motores em áreas classificadas",
+   "item": "7; Tabelas 1 a 3",
+   "texto": "Tipo de proteção e EPL escolhidos pela tensão e pela zona. Partida direta, gases: até 1 kV, Ex e (ou de) em Zona 1 e Ex e/nA em Zona 2; entre 1 kV e 11 kV, Ex e ou pxb em Zona 1 e Ex nA em geral na Zona 2; a partir de 11 kV, pressurizado (pxb / pzc). Poeiras: Ex tb/tc ou pressurizados conforme a tensão. Motores Ex e e Ex nA acima de 1 kV exigem avaliação do risco de ignição por descargas no estator e centelhamento no entreferro, com protótipo ensaiado em gás. Com conversor, a certificação cobre a faixa de rotação, o torque e o conversor usados no ensaio.",
+   "valores": [
+    {
+     "parametro": "Zona 1, grupo IIC, até 1,0 kV",
+     "valor": "Ex \"e\"",
+     "item": "7.2.3, Tabela 1"
+    },
+    {
+     "parametro": "Zona 2, 1,0 kV < UN < 11,0 kV",
+     "valor": "Ex \"nA\" (EPL Gc)",
+     "item": "7.2.4, Tabela 1"
+    },
+    {
+     "parametro": "Zona 22, 1,0 kV < UN < 11,0 kV",
+     "valor": "Ex \"tc\" (EPL Dc)",
+     "item": "7.2.5, Tabela 2"
+    }
+   ],
+   "figuras": [
+    "esquemas/area-classificada-zonas.svg"
+   ]
+  },
+  {
+   "titulo": "Motores síncronos e de ímã permanente",
+   "item": "8",
+   "texto": "Projeto para fator de potência unitário, excitação brushless ou digital com diagrama de blocos de força, medição, proteção e comunicação; capacidade de suportar sobretorque sem perder sincronismo. Motores de ímã permanente: ensaio de envelhecimento térmico do rotor antes da sobrevelocidade, rolamentos de vida longa, partida com torque nominal e operação em baixa rotação sem ventilação forçada, eficiência IE4, operação sensorless e advertência para abrir a caixa só com rotor parado.",
+   "valores": [
+    {
+     "parametro": "Sobretorque por 15 s sem sair de sincronismo — rotor cilíndrico / polos salientes",
+     "valor": "35 % / 50 %",
+     "item": "8.4"
+    },
+    {
+     "parametro": "Ímã permanente — vida dos rolamentos",
+     "valor": "≥ 100 000 h",
+     "item": "8.8.5"
+    },
+    {
+     "parametro": "Ímã permanente — eficiência mínima",
+     "valor": "IE4",
+     "item": "8.8.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Inspeção, testes e documentação",
+   "item": "9, 10",
+   "texto": "PIT aprovado com normas e faixas de aceitação; verificações de documentação, calibração (RBC), dimensões, espaço interno da caixa de força e acessórios; testes de rotina, tipo e especiais pelas IEC 60034 (rendimento pela IEC 60034-2-1; elevação de temperatura por dupla frequência nos grandes), descargas parciais em média tensão, spray-test pela NEMA MG-1, string-test com a máquina acionada (Tabela 7). Documentação de proposta e pós-pedido (Tabelas 8 a 11) e manual em sete seções com data-book.",
+   "valores": [
+    {
+     "parametro": "Elevação de temperatura por superposição de frequências",
+     "valor": "permitida acima de 1 500 kW",
+     "item": "9.9.1"
+    },
+    {
+     "parametro": "Testes de descargas parciais",
+     "valor": "motores ≥ 6,0 kV",
+     "item": "9.11.1"
+    }
+   ]
+  }
+ ]
+}

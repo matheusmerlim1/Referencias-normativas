@@ -1,0 +1,70 @@
+{
+ "id": "PETROBRAS-N-1521",
+ "titulo": "Petrobras N-1521 Rev. F (06/2016) — Identificação de equipamentos industriais",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1, 3.1",
+   "texto": "Regra de identificação (TAG) dos equipamentos do fluxo industrial: processo, utilidades, interligações, bombeamento/compressão, parques de armazenagem, terminais, estações coletoras e unidades marítimas. Instrumentos seguem a ISA 5.1 e tubulações a N-1522. O TAG aparece em todo documento que cite o equipamento e, quando possível, no próprio equipamento (N-1018 e N-1278).",
+   "valores": [],
+   "figuras": [
+    "esquemas/equipamento-identificacao-tag.svg"
+   ]
+  },
+  {
+   "titulo": "Composição do TAG",
+   "item": "3.2, 4, 5.1",
+   "texto": "Ordem: símbolo do equipamento, traço de união, área/unidade, sequencial e, se houver equipamentos iguais, letra individual — o resto sem separadores. A área segue o Anexo C (área de atividade) ou o Anexo B (instalação) da N-1710, ou o sistema já usado na instalação. Exceção na área de abastecimento: tanques, cilindros e esferas de gás recebem números diferentes em vez da letra. Para citar um grupo: \"/\" entre o primeiro e o último (…001A/H) e \"#\" quando faltam intermediários (…001A#C#F/H).",
+   "valores": [
+    {
+     "parametro": "Símbolo do equipamento",
+     "valor": "1 a 3 letras maiúsculas (lista do Anexo A; símbolo novo pedido à CONTEC)",
+     "item": "4.1.1",
+     "cota": "esquemas/equipamento-identificacao-tag.svg#simbolo"
+    },
+    {
+     "parametro": "Símbolos proibidos (Sistema Cadastral)",
+     "valor": "BA, BD, BF, BG, BO, BS, CA, CC, EI, LE, ME, MS",
+     "item": "3.2, Nota"
+    },
+    {
+     "parametro": "Sequencial dentro da área/unidade",
+     "valor": "3 algarismos, de 001 a 999",
+     "item": "4.3",
+     "cota": "esquemas/equipamento-identificacao-tag.svg#sequencial"
+    },
+    {
+     "parametro": "Letra individual",
+     "valor": "maiúscula a partir de A, colada ao número, só para 2 ou mais equipamentos de mesma função na mesma área",
+     "item": "4.4"
+    },
+    {
+     "parametro": "Exemplo",
+     "valor": "TQ-6300005 = 5º tanque da área 6300; P-2211002A/B = dois permutadores idênticos",
+     "item": "4.3.1, 4.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/equipamento-identificacao-tag.svg"
+   ]
+  },
+  {
+   "titulo": "Acionadores, subestações, auxiliares e pacotes",
+   "item": "5.2 a 5.5",
+   "texto": "Acionador: símbolo do acionador + traço + TAG do acionado (M-B-6210002 = motor da 2ª bomba da área 6210). Subestação: SE + área própria ou a preponderante entre as que atende; seus equipamentos usam o símbolo + área da SE + sequencial (TF-5310001). Auxiliar: símbolo + traço + TAG completo do principal (VE-F-2211002); auxiliares idênticos recebem letra após traço (-A, -B) e diferentes recebem número após traço (-01, -02); pode-se resumir (B-C-5134001A/B). Unidade pacote é identificada como equipamento (símbolos da Tabela A-2) e seus componentes como auxiliares dela (C-UC-1231001A-A).",
+   "valores": [],
+   "figuras": [
+    "esquemas/equipamento-identificacao-tag.svg"
+   ]
+  },
+  {
+   "titulo": "Símbolos (Anexo A — amostra)",
+   "item": "Anexo A, Tabelas A-1 a A-3",
+   "texto": "Exemplos da lista: B bomba, C compressor, D desaerador, EF esfera, F forno, FT filtro, GD guindaste, M motor elétrico, MC motor de combustão interna, P permutador/trocador (incl. resfriador a ar), PN painel elétrico, PR para-raios, Q/QU queimador, R reator, SE subestação, TF transformador, TN ponte rolante/talha, TQ tanque, TS turbina a gás, V vaso, VE ventilador, UC unidade compressora (pacote).",
+   "valores": [],
+   "figuras": [
+    "esquemas/equipamento-identificacao-tag.svg"
+   ]
+  }
+ ]
+}

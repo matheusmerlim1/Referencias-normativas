@@ -1,0 +1,256 @@
+{
+ "id": "PETROBRAS-N-1617",
+ "titulo": "Petrobras N-1617 Rev. G (06/2016) — Aplicação de concreto refratário",
+ "secoes": [
+  {
+   "titulo": "Procedimento e refratamento",
+   "item": "4.1–4.4; Tabelas 1 e 2",
+   "texto": "Aplicação de concreto refratário (derramamento com ou sem vibração externa ou bombeamento, projeção pneumática, socagem manual) por procedimento qualificado, que define materiais, água, mistura, ancoragens, método, lances, compactação e cura; mudar variável essencial exige requalificar. Interromper o revestimento junto às soldas de montagem conforme o projeto (ou Tabela 1); camada dupla com a solda de emenda dos painéis de malha sobre uma fileira de grampos e concreto só até dois hexágonos antes dela. Pré-ajustar peças para não forçar o revestimento na montagem e evitar flexão de peças longas. Tratamento térmico, testes de pressão e inspeção da chaparia antes do concreto (teste pneumático pode vir depois, com as juntas descobertas; teste após refratamento só com procedimento aprovado). Juntas de dilatação pela N-1910.",
+   "valores": [
+    {
+     "parametro": "Recuo do revestimento ao cordão — malha hexagonal ou grampo S",
+     "valor": "100 mm (soldagem pelo lado do revestimento e pelo lado oposto)",
+     "item": "Tabela 1",
+     "cota": "esquemas/refratario-aplicacao-solda-projecao.svg#recuo-solda"
+    },
+    {
+     "parametro": "Recuo do revestimento ao cordão — monolítico",
+     "valor": "100 mm (lado do revestimento); 35 mm (lado oposto)",
+     "item": "Tabela 1",
+     "cota": "esquemas/refratario-aplicacao-solda-projecao.svg#recuo-oposto"
+    },
+    {
+     "parametro": "Recuo — camada dupla, 1ª camada",
+     "valor": "100 mm / 50 mm (lado do revestimento / oposto)",
+     "item": "Tabela 1",
+     "cota": "esquemas/refratario-aplicacao-solda-projecao.svg#primeira-camada"
+    },
+    {
+     "parametro": "Recuo — camada dupla, 2ª camada",
+     "valor": "200 mm / 100 mm (lado do revestimento / oposto)",
+     "item": "Tabela 1",
+     "cota": "esquemas/refratario-aplicacao-solda-projecao.svg#segunda-camada"
+    },
+    {
+     "parametro": "Tempo mínimo para mover peça — pega química até 1\"",
+     "valor": "12 h (mudança de posição); 24 h (transporte e montagem)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Tempo mínimo para mover peça — pega hidráulica ou química > 1\"",
+     "valor": "24 h / 48 h",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Temperatura da chaparia na aplicação e cura hidráulica",
+     "valor": "manter abaixo de 30 °C em dia quente e acima de 10 °C em dia frio",
+     "item": "4.4.8, 4.4.9"
+    }
+   ],
+   "figuras": [
+    "esquemas/refratario-aplicacao-solda-projecao.svg",
+    "esquemas/refratario-revestimento.svg"
+   ]
+  },
+  {
+   "titulo": "Secagem ao ar e com aquecimento",
+   "item": "4.5, 4.6; Tabela 3",
+   "texto": "Após a cura, secagem ao ar com ventilação; depois, curva de aquecimento do fabricante/projetista ou da Tabela 3, com as partes que dilatam livres. Interrupção: voltar à temperatura de parada a no máximo 50 °C/h. Operação abaixo de 600 °C: o 2º ou 3º patamar é feito na temperatura de operação. Revestimento já seco entra em serviço a ≤ 50 °C/h nas 2 primeiras horas; encharcado na parada refaz o 1º patamar.",
+   "valores": [
+    {
+     "parametro": "Secagem ao ar após a cura",
+     "valor": "≥ 24 h",
+     "item": "4.5"
+    },
+    {
+     "parametro": "Taxa de aquecimento — isolante/semi-isolante / denso",
+     "valor": "50 °C/h / 30 °C/h (até a operação: 50 °C/h)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "1º patamar",
+     "valor": "120 °C a 150 °C: 8 h para 50 mm + 2 h a cada 25 mm adicionais (6 h se < 50 mm)",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "2º e 3º patamares",
+     "valor": "320–380 °C e 540–600 °C: 1 h a cada 25 mm, mínimo 5 h cada",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Reparos — área somada",
+     "valor": "< 0,5 m²: serviço após cura inicial; 0,5–3,0 m²: secar a ≤ 50 °C/h; > 3,0 m² ou > 20 % do total: como revestimento novo",
+     "item": "4.6.8"
+    }
+   ]
+  },
+  {
+   "titulo": "Preparo, malha e barreamento",
+   "item": "4.7, 4.8, 5",
+   "texto": "Superfície por jato abrasivo Sa 2 (N-9) ou ferramenta mecânica St 2 (NBR 15239); malha hexagonal calandrada no sentido longitudinal das tiras. Em dia quente, recomenda-se resfriar a água de mistura para retardar a pega. Recomposição de espessura (barreamento) só em manutenção após operação.",
+   "valores": [
+    {
+     "parametro": "Água de mistura resfriada (dia > 30 °C)",
+     "valor": "2 °C a 10 °C",
+     "item": "5.2.1.3 a)"
+    },
+    {
+     "parametro": "Barreamento em revestimento fino com ancoragem aparente",
+     "valor": "espessura até 25 mm: preencher o vazio da ancoragem; > 25 mm: só se a ancoragem remanescente sustentar",
+     "item": "5.2.2.3, 5.2.2.4",
+     "cota": "esquemas/refratario-inspecao.svg#perda-espessura"
+    }
+   ],
+   "figuras": [
+    "esquemas/refratario-inspecao.svg"
+   ]
+  },
+  {
+   "titulo": "Métodos de aplicação",
+   "item": "6; Tabela de qualificação",
+   "texto": "Derramamento: formas estanques, desmoldante compatível, superfície defeituosa após desforma reparada; altura de lance acima do limite pede teste específico contra segregação. Vibração externa: qualificação em protótipo com grampos em 50 % da superfície. Projeção pneumática: preferida em equipamentos de grande diâmetro, nunca a favor da gravidade, lances contínuos e ascendentes fechados antes da pega. Socagem manual: preencher cada hexágono/trapézio ou espaço entre grampos e socar com martelo de borracha/plástico. De cada painel saem corpos de prova para os ensaios de 7.5.6.",
+   "valores": [
+    {
+     "parametro": "Painel de qualificação — derramamento",
+     "valor": "≥ 600 × 600 mm, horizontal, 100 mm de espessura",
+     "item": "6.1.2.1",
+     "cota": "esquemas/refratario-aplicacao-solda-projecao.svg#painel"
+    },
+    {
+     "parametro": "Derramamento — altura de lance com teste específico",
+     "valor": "acima de 2,5 m",
+     "item": "6.1.3"
+    },
+    {
+     "parametro": "Degrau máximo das formas nas emendas",
+     "valor": "5 mm",
+     "item": "6.1.3.6",
+     "cota": "esquemas/refratario-aplicacao-solda-projecao.svg#degrau-forma"
+    },
+    {
+     "parametro": "Projeção — diâmetro do equipamento (preferência)",
+     "valor": "> 2 m",
+     "item": "6.2.1.1"
+    },
+    {
+     "parametro": "Painel de qualificação — projeção",
+     "valor": "≥ 600 × 1 200 mm, refratamento de 100 mm",
+     "item": "6.2.2",
+     "cota": "esquemas/refratario-aplicacao-solda-projecao.svg#painel-espessura"
+    },
+    {
+     "parametro": "Projeção — inclinação máxima do jato em relação à perpendicular",
+     "valor": "30°",
+     "item": "6.2.4",
+     "cota": "esquemas/refratario-aplicacao-solda-projecao.svg#angulo-jato"
+    },
+    {
+     "parametro": "Painel de qualificação — socagem manual",
+     "valor": "300 × 300 mm",
+     "item": "6.3.2",
+     "cota": "esquemas/refratario-aplicacao-solda-projecao.svg#painel"
+    }
+   ],
+   "figuras": [
+    "esquemas/refratario-aplicacao-solda-projecao.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção",
+   "item": "7; Tabela de ensaios de CP",
+   "texto": "Ancoragens: visual 100 % (espaçamento e distribuição pela N-1910 ou projeto), dimensões e solda dos grampos 100 %, martelamento e dobramento por amostragem, remoção da escória em 100 %; grampos soldados por stud: martelamento com quebra do ferrule em 100 %. Espessura conforme projeto. Corpos de prova para compressão, erosão e variação dimensional, queimados a 815 °C (150 °C/h até 110 °C, massa constante, 150 °C/h até 815 °C, 5 h, resfriar a ≤ 150 °C/h). Após cura e após secagem: trincas, friabilidade, folgas e martelamento; áreas defeituosas reparadas.",
+   "valores": [
+    {
+     "parametro": "Dobramento de grampos (ancoragem soldada convencional)",
+     "valor": "15° e retorno em 2 % dos grampos, sem romper a solda (20 % na outra modalidade)",
+     "item": "7.4 d); 7.4.2 d)",
+     "cota": "esquemas/refratario-inspecao.svg#dobramento-grampo"
+    },
+    {
+     "parametro": "Martelamento das ancoragens",
+     "valor": "20 % dos dispositivos, aleatórios",
+     "item": "7.4 c)"
+    },
+    {
+     "parametro": "Tolerância de espessura (sem especificação) — projeto até 75 mm",
+     "valor": "0 a +5 mm (1 medida a cada 10 m²)",
+     "item": "7.5.3 a)",
+     "cota": "esquemas/refratario-inspecao.svg#espessura-projeto"
+    },
+    {
+     "parametro": "Tolerância de espessura — projeto até 200 mm",
+     "valor": "−5 a +10 mm",
+     "item": "7.5.3 b)",
+     "cota": "esquemas/refratario-inspecao.svg#espessura-projeto"
+    },
+    {
+     "parametro": "Tolerância de espessura — projeto acima de 200 mm",
+     "valor": "−10 a +20 mm",
+     "item": "7.5.3 c)",
+     "cota": "esquemas/refratario-inspecao.svg#espessura-projeto"
+    },
+    {
+     "parametro": "Degrau no refratário em emendas",
+     "valor": "adoçar se > 15 mm",
+     "item": "7.5.4",
+     "cota": "esquemas/refratario-aplicacao-solda-projecao.svg#degrau-forma"
+    },
+    {
+     "parametro": "Após cura — trincas admitidas",
+     "valor": "largura ≤ 1 mm ou profundidade ≤ 1/3 da camada; espaçamento entre trincas ≥ 300 mm",
+     "item": "7.6 a)",
+     "cota": "esquemas/refratario-inspecao.svg#largura-trinca"
+    },
+    {
+     "parametro": "Após cura — teste do estilete (friabilidade)",
+     "valor": "estilete Ø 3 mm a cada 10 m²; penetração ≤ 1/10 da espessura",
+     "item": "7.6 b)",
+     "cota": "esquemas/refratario-inspecao.svg#penetracao-estilete"
+    },
+    {
+     "parametro": "Socagem manual — folga refratário/hexágono",
+     "valor": "largura ≤ 1 mm, profundidade ≤ 1 mm ou comprimento ≤ 10 mm; no máximo 1 folga por célula",
+     "item": "7.6.2"
+    },
+    {
+     "parametro": "Martelamento do concreto",
+     "valor": "martelo de bola de 250 g, ≥ 24 h após aplicar, impactos a cada 1 000 mm em 100 % da área; vazio > 300 × 300 mm é rejeitado",
+     "item": "7.6.3",
+     "cota": "esquemas/refratario-inspecao.svg#espacamento-martelamento"
+    },
+    {
+     "parametro": "Após secagem — trincas admitidas",
+     "valor": "largura ≤ 2 mm ou profundidade ≤ 1/3 da camada; espaçamento ≥ 300 mm",
+     "item": "7.7.1 a)",
+     "cota": "esquemas/refratario-inspecao.svg#largura-trinca"
+    },
+    {
+     "parametro": "Após secagem — queda de material",
+     "valor": "≤ 1/5 da espessura da camada, em até 10 % da área",
+     "item": "7.7.1 b)",
+     "cota": "esquemas/refratario-inspecao.svg#perda-espessura"
+    }
+   ],
+   "figuras": [
+    "esquemas/refratario-inspecao.svg",
+    "esquemas/refratario-aplicacao-solda-projecao.svg"
+   ]
+  },
+  {
+   "titulo": "Reparo",
+   "item": "8",
+   "texto": "Remover todo o revestimento danificado na espessura total da camada; chanfro periférico inclinado para dentro do concreto antigo, picotado e umedecido com água de qualidade igual à da mistura; secar o reparo conforme 4.6. Alternativas só com aprovação da Petrobras.",
+   "valores": [
+    {
+     "parametro": "Área mínima de reparo",
+     "valor": "abranger pelo menos 3 dispositivos de ancoragem",
+     "item": "8.2",
+     "cota": "esquemas/refratario-inspecao.svg#area-demolicao"
+    }
+   ],
+   "figuras": [
+    "esquemas/refratario-inspecao.svg"
+   ]
+  }
+ ]
+}

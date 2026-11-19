@@ -1,0 +1,275 @@
+{
+ "id": "PETROBRAS-N-1637",
+ "titulo": "Petrobras N-1637 Rev. D (10/2023) — Montagem de forno",
+ "secoes": [
+  {
+   "titulo": "Escopo e inspeção de recebimento",
+   "item": "1, 5",
+   "texto": "Recebimento, armazenamento, montagem e condicionamento de fornos tubulares (API 560) e auxiliares. O montador confere os itens contra os documentos aprovados, verifica reforços e olhais antes de descarregar e comunica danos por escrito. Inspeção visual de tudo; refratários e ancoragens pela N-250/N-1890; faces de flange sem dano; queimadores conferidos item a item (embalagem, marcação, virolas e registros livres, roscas, cabeçotes eletrônicos, barras de ignição, blocos refratários sem trincas passantes, bicos limpos, conformidade com a folha de dados); abafadores com teste de liga; tubos sem defeitos que reduzam a espessura abaixo da nominal menos a tolerância, corrosão até grau C da ISO 8501-1 no aço-carbono/baixa liga e nenhuma no inox e ligas de níquel; tubos aletados sem aletas soltas por mais de uma volta.",
+   "valores": [
+    {
+     "parametro": "Extensão examinada na ponta de tubo a mandrilar",
+     "valor": "comprimento mandrilado + 50 mm em cada extremidade",
+     "item": "5.8.2.2",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#limpeza-mandrilagem"
+    },
+    {
+     "parametro": "Duto circular — circularidade",
+     "valor": "Dmáx − Dmín ≤ 1 % do diâmetro nominal",
+     "item": "5.16 a)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#circularidade"
+    },
+    {
+     "parametro": "Duto — afastamento da geratriz/face com gabarito reto de 1 000 mm",
+     "valor": "≤ 20 mm entre as extremidades do gabarito",
+     "item": "5.16 a) e b)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#gabarito-flecha"
+    },
+    {
+     "parametro": "Duto — embicamento (gabarito de 1 000 mm)",
+     "valor": "≤ 5 mm",
+     "item": "5.16 a) e b)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#gabarito-flecha"
+    },
+    {
+     "parametro": "Duto retangular — diferença entre diagonais",
+     "valor": "≤ 1 % da diagonal nominal",
+     "item": "5.16 b)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#diagonais"
+    }
+   ],
+   "figuras": [
+    "esquemas/forno-montagem-tolerancias.svg"
+   ]
+  },
+  {
+   "titulo": "Armazenamento",
+   "item": "6",
+   "texto": "Superfícies de vedação, chanfros, usinados e roscas protegidos; peças pequenas em caixas ou tambores; elétricos, rotativos, instrumentos, abafadores, sopradores, queimadores, silenciadores, molas, juntas de expansão e preaquecedores abrigados. Refratários pela N-1617; partes refratadas protegidas da chuva; chaminés armazenadas sem perder circularidade.",
+   "valores": [
+    {
+     "parametro": "Afastamento das peças em relação ao solo",
+     "valor": "calços de no mínimo 30 cm",
+     "item": "6.8",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#calco-solo"
+    }
+   ],
+   "figuras": [
+    "esquemas/forno-montagem-tolerancias.svg"
+   ]
+  },
+  {
+   "titulo": "Serpentina e mandrilagem",
+   "item": "8.3, 8.4",
+   "texto": "Juntas de campo pelo ASME I (vapor) ou B31.3 (demais), salvo especificação do projetista. Com tratamento térmico, medir dureza na zona fundida e adjacente (mínimo duas medições completas por junta); peças galvanizadas longe das partes aquecidas; soldas de termopares removidas e examinadas por LP/PM. Furos e pontas de tubo limpos de óleo, óxido e sujeira, sem riscos ou amassamentos; mandrilagem logo após limpeza e ajuste, com procedimento (equipamento, mandris, sequência, lubrificação, controle e cálculo da expansão) e expansão gradual.",
+   "valores": [
+    {
+     "parametro": "Dureza — Cr-Mo com Cr ≤ 2 %",
+     "valor": "225 HB máx.",
+     "item": "8.3.2 a)"
+    },
+    {
+     "parametro": "Dureza — Cr-Mo com Cr > 2 %",
+     "valor": "241 HB máx.",
+     "item": "8.3.2 b)"
+    },
+    {
+     "parametro": "Dureza — 9Cr-1Mo-V",
+     "valor": "200 a 270 HB",
+     "item": "8.3.2 c)"
+    },
+    {
+     "parametro": "Dureza — aço-carbono com H2S",
+     "valor": "200 HB máx.",
+     "item": "8.3.2 d)"
+    },
+    {
+     "parametro": "Limpeza externa para mandrilagem",
+     "valor": "≥ 2,5 × a extensão da região mandrilada (interna: 1,5 ×)",
+     "item": "8.4.1",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#limpeza-mandrilagem"
+    },
+    {
+     "parametro": "Projeção do tubo dentro do cabeçote",
+     "valor": "± 2 mm da medida de projeto (excesso cortado a frio)",
+     "item": "8.4.3 a)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#projecao-tubo"
+    },
+    {
+     "parametro": "Afastamento da linha de centro do tubo",
+     "valor": "± 2 mm da posição teórica",
+     "item": "8.4.3 b)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#afastamento-lc"
+    }
+   ],
+   "figuras": [
+    "esquemas/forno-montagem-tolerancias.svg"
+   ]
+  },
+  {
+   "titulo": "Ajustagem, refratário, suportes e conexões",
+   "item": "8.6 a 8.11",
+   "texto": "Juntas circunferenciais afastadas de suportes e guias para não interferir na dilatação; desalinhamento pelo ASME I ou B31.3; identificação de liga em 10 % de tubos, cabeçotes, curvas e flanges antes de soldar ou mandrilar. Refratário e isolamento pelas N-250, N-1617, N-1890; vãos de dilatação dos suportes da convecção limpos e preenchidos com papelão corrugado; travas das juntas de expansão só retiradas com os dutos completos; skin-points pelo projetista ou API RP 551.",
+   "valores": [
+    {
+     "parametro": "Empenamento longitudinal do tubo",
+     "valor": "1/75 da menor distância do ponto às extremidades, máximo 50 mm",
+     "item": "8.6.1 a)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#empenamento"
+    },
+    {
+     "parametro": "Paredes horizontais — diferença entre diagonais",
+     "valor": "12 mm máx.",
+     "item": "8.6.1 b)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#diagonais"
+    },
+    {
+     "parametro": "Paredes horizontais — diferença entre larguras nas extremidades",
+     "valor": "8 mm máx.",
+     "item": "8.6.1 b)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#larguras"
+    },
+    {
+     "parametro": "Paredes verticais — prumo",
+     "valor": "1/1000 da altura ajustada",
+     "item": "8.6.1 c)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#prumo-parede"
+    },
+    {
+     "parametro": "Abertura de junta para soldagem (exceto chaminé, dutos e estrutura)",
+     "valor": "1,0 mm do especificado (TIG); 1,5 mm (demais processos)",
+     "item": "8.6.1 e)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#projecao-tubo"
+    },
+    {
+     "parametro": "Identificação de material de ancoragens de campo (não carbono)",
+     "valor": "1 % dos pinos e 5 % das telas",
+     "item": "8.7.1"
+    },
+    {
+     "parametro": "Nivelamento e alinhamento dos suportes de tubos",
+     "valor": "± 3 mm",
+     "item": "8.8.1",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#afastamento-lc"
+    },
+    {
+     "parametro": "Conexões — projeção e orientação do eixo",
+     "valor": "± 3 mm",
+     "item": "8.10.1 a), b)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#projecao-conexao"
+    },
+    {
+     "parametro": "Conexões — perpendicularidade da face e desvio angular do eixo",
+     "valor": "± 1/2°",
+     "item": "8.10.1 c), e)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#perpendicularidade"
+    },
+    {
+     "parametro": "Conexões — rotação dos furos do flange",
+     "valor": "± 1,5 mm; eixos principais passam entre dois furos",
+     "item": "8.10.1 d)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#furos"
+    }
+   ],
+   "figuras": [
+    "esquemas/forno-montagem-tolerancias.svg"
+   ]
+  },
+  {
+   "titulo": "Estruturas metálicas e chaparia",
+   "item": "8.12, 8.13",
+   "texto": "Chaminé e dutos pelas tolerâncias da norma de projeto. Estruturas furadas onde puder empoçar água; porcas sem contraporca ponteadas após o aperto.",
+   "valores": [
+    {
+     "parametro": "Desalinhamento na ajustagem e na montagem",
+     "valor": "10 % da espessura do elemento mais fino, máx. 3 mm",
+     "item": "8.13.1 a), 8.13.2 a)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#prumo-coluna"
+    },
+    {
+     "parametro": "Abertura das juntas (estrutura)",
+     "valor": "± 1,5 mm",
+     "item": "8.13.1 b)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#prumo-coluna"
+    },
+    {
+     "parametro": "Reforço de solda",
+     "valor": "máx. 3 mm",
+     "item": "8.13.2 b)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#prumo-coluna"
+    },
+    {
+     "parametro": "Prumo das colunas",
+     "valor": "1/1000 da altura",
+     "item": "8.13.1 c), 8.13.2 c)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#prumo-coluna"
+    },
+    {
+     "parametro": "Distância entre colunas",
+     "valor": "± 5 mm",
+     "item": "8.13.2 d)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#distancia-colunas"
+    },
+    {
+     "parametro": "Nivelamento dos apoios das vigas",
+     "valor": "1/1000 da distância entre apoios",
+     "item": "8.13.2 e)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#distancia-colunas"
+    },
+    {
+     "parametro": "Calços sob colunas",
+     "valor": "latão ou inox, total máx. 3 mm por apoio em até 5 calços",
+     "item": "8.13.3",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#calcos"
+    },
+    {
+     "parametro": "Deformação da chaparia",
+     "valor": "flecha máx. 20 mm com gabarito de 1 000 mm",
+     "item": "8.13.4",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#gabarito-flecha"
+    },
+    {
+     "parametro": "Furos oblongos de dilatação",
+     "valor": "folga maior que a dilatação máxima em pelo menos 10 mm",
+     "item": "8.13.5 a)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#oblongo"
+    }
+   ],
+   "figuras": [
+    "esquemas/forno-montagem-tolerancias.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção de montagem e testes",
+   "item": "9 a 11",
+   "texto": "Além do RX/UT do ASME I e B31.3: 100 % das juntas de topo sem acesso para reparo após o hidrostático, das juntas em tubos que também são suporte e das sem acesso durante o teste; cada defeito em ensaio parcial estende o exame a mais duas juntas. LP em Cr-Mo, inox e ligas de níquel (antes e depois do TTAT) em faixa centrada na junta, reparos, remoção de dispositivos e soldas de acessórios; selagens de cabeçote com LP/PM; trincas e falta de fusão reprovam. Hidrostático pela N-115: um manômetro registrador e um visível ao inspetor, juntas definitivas nos bocais que não serão abertos; depois, limpar e secar (inox e ligas de Ni sem secagem por aquecimento). Fornecedores de queimadores e auxiliares inspecionam a instalação antes do comissionamento.",
+   "valores": [
+    {
+     "parametro": "Faixa de LP centrada na junta (Cr-Mo, inox, ligas de Ni)",
+     "valor": "200 mm de largura",
+     "item": "9.3 a)",
+     "cota": "esquemas/forno-montagem-tolerancias.svg#limpeza-mandrilagem"
+    },
+    {
+     "parametro": "Temperatura mínima da água de teste",
+     "valor": "20 °C (sistema de vapor); 15 °C (demais)",
+     "item": "10.2.2"
+    },
+    {
+     "parametro": "Duração mínima do teste hidrostático",
+     "valor": "1 h",
+     "item": "10.4"
+    },
+    {
+     "parametro": "Intervalo mínimo entre a última solda e o teste",
+     "valor": "48 h",
+     "item": "10.5.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/forno-montagem-tolerancias.svg",
+    "esquemas/tubulacao-teste-pressao.svg"
+   ]
+  }
+ ]
+}

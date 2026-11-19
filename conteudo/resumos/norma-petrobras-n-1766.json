@@ -1,0 +1,67 @@
+{
+ "id": "PETROBRAS-N-1766",
+ "titulo": "Petrobras N-1766 Rev. D (01/2011) — Torre de resfriamento — folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e preenchimento",
+   "item": "1, 3; 1ª Emenda",
+   "texto": "Padroniza a folha de dados (A4, Anexo A, 4 folhas) da torre de resfriamento; continuação na última folha do anexo, legenda e rodapé pela N-381, TAG pela N-1521 ao lado do título na folha 1. A 1ª emenda (04/2017) trocou o campo 57 \"velocidade\" por \"velocidade na extremidade da pá\".",
+   "valores": [],
+   "figuras": [
+    "esquemas/torre-resfriamento-celula.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo do formulário",
+   "item": "Anexo A",
+   "texto": "Tipo (tiragem forçada ou induzida, contra-fluxo ou fluxo cruzado, fluxo simples/duplo, nº de células, enchimento de barra, grade ou filme); condições de operação (vazão, carga térmica, temperaturas de água quente e fria, bulbo úmido, umidade, altitude, proximidade do mar); dados da torre (perdas por arraste e evaporação, superfícies efetivas, carga hidráulica, volume, água de reposição e de incêndio); projeto estrutural e materiais; ventilador (diâmetro, rpm, potência, pás, passo e inclinação, travamento do eixo), motor, redutor (fator de serviço AGMA), eixos e luvas, válvulas de regulagem, chaves de vibração; qualidade da água circulante e de reposição; enchimento (tipo, densidade, dimensões, área molhada, L/G, KaV/L); sistema de distribuição de água.",
+   "valores": [
+    {
+     "parametro": "Dimensões da célula (campo 28)",
+     "valor": "largura e comprimento, em m",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/torre-resfriamento-celula.svg#celula"
+    },
+    {
+     "parametro": "Altura do enchimento (campo 20)",
+     "valor": "em m",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/torre-resfriamento-celula.svg#altura-enchimento"
+    },
+    {
+     "parametro": "Profundidade da bacia (campo 30)",
+     "valor": "em m",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/torre-resfriamento-celula.svg#bacia"
+    },
+    {
+     "parametro": "Altura até a plataforma (campo 31)",
+     "valor": "em m",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/torre-resfriamento-celula.svg#plataforma"
+    },
+    {
+     "parametro": "Altura da entrada de água quente (campos 33 e 146)",
+     "valor": "em m",
+     "item": "Anexo A, folhas 2 e 4",
+     "cota": "esquemas/torre-resfriamento-celula.svg#entrada-agua"
+    },
+    {
+     "parametro": "Diâmetro do ventilador (campo 54)",
+     "valor": "em m",
+     "item": "Anexo A, folha 3",
+     "cota": "esquemas/torre-resfriamento-celula.svg#ventilador"
+    },
+    {
+     "parametro": "Folga entre pá e difusor (campo 62)",
+     "valor": "em mm",
+     "item": "Anexo A, folha 3",
+     "cota": "esquemas/torre-resfriamento-celula.svg#folga-pa"
+    }
+   ],
+   "figuras": [
+    "esquemas/torre-resfriamento-celula.svg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "PETROBRAS-N-1665",
+ "titulo": "Petrobras N-1665 Rev. F (06/2023) — Queimador — folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e preenchimento",
+   "item": "1, 3",
+   "texto": "Padroniza a folha de dados de queimadores de forno, baseada na da API 560, em três versões A4: Anexo A em unidades americanas (USC), Anexo B no sistema de engenharia e Anexo C em SI. Preenchida, vira documento permanente. Legenda e rodapé pela N-381; o TAG do forno (N-1521) vai à direita do título \"Queimador\"; preenchimento conforme N-1671 e NBR 10778; campos não aplicáveis riscados. Prazo de implantação da revisão: 180 dias (ou plano registrado).",
+   "valores": [],
+   "figuras": [
+    "esquemas/forno-queimador-soprador.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo do formulário",
+   "item": "Anexos A a C",
+   "texto": "Dados gerais (tipo de forno, altitude, umidade, tiragem forçada/natural/induzida, ar ambiente, preaquecido ou gás de exaustão de turbina); dados do queimador (fabricante, tipo, modelo, direção da chama, localização no teto/piso/parede, quantidade, pilotos e ignição); operação (calor liberado por queimador máximo/normal/mínimo, excesso de ar, turndown, tiragem disponível, pressões de ar e combustível, perdas de carga, razão de atomização, formato da chama); combustíveis gasoso (PCI, massa molecular, densidade, composição) e líquido (densidade, PCI, h/c, viscosidade, metais, enxofre, nitrogênio, água, cinzas, destilação, meio de atomização).",
+   "valores": [
+    {
+     "parametro": "Diâmetro do círculo de queimadores",
+     "valor": "campo da folha (in no Anexo A)",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/forno-queimador-soprador.svg#circulo-queimadores"
+    },
+    {
+     "parametro": "Diâmetro do círculo de tubos",
+     "valor": "campo da folha (ft no Anexo A)",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/forno-queimador-soprador.svg#circulo-tubos"
+    },
+    {
+     "parametro": "Distância mínima da LC do queimador ao tubo / refratário desprotegido",
+     "valor": "campo da folha, horizontal e vertical",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/forno-queimador-soprador.svg#queimador-tubo"
+    },
+    {
+     "parametro": "Altura da câmara de radiação",
+     "valor": "campo da folha",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/forno-queimador-soprador.svg#camara-altura"
+    },
+    {
+     "parametro": "Comprimento da chama na liberação de projeto",
+     "valor": "campo da folha",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/forno-queimador-soprador.svg#chama-comprimento"
+    },
+    {
+     "parametro": "Espessuras da chaparia e do revestimento da parede",
+     "valor": "campos da folha",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/forno-queimador-soprador.svg#revestimento"
+    }
+   ],
+   "figuras": [
+    "esquemas/forno-queimador-soprador.svg"
+   ]
+  }
+ ]
+}

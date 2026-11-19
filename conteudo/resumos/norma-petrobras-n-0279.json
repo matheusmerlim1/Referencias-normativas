@@ -1,0 +1,278 @@
+{
+ "id": "PETROBRAS-N-0279",
+ "titulo": "Petrobras N-0279 Rev. G (06/2014) — Projeto de estruturas metálicas",
+ "secoes": [
+  {
+   "titulo": "Escopo e cargas",
+   "item": "1, 3.1",
+   "texto": "Projeto de estruturas de aço-carbono e C-Mn em instalações industriais: estruturas, escadas, plataformas de acesso, turcos, suportes e bases de coluna (vale também para anteprojeto). Cargas permanentes: peso próprio com acessórios e proteção contra fogo, equipamentos com internos e isolamento, tubulações sem fluido. Acidentais: fluido de teste, sobrecargas, vento (NBR 6123), vibração de máquinas e tubulações, golpe de aríete, temperatura (NBR 8800), calor e dilatação de vasos e tubos. Casos não previstos: NBR 6120.",
+   "valores": [
+    {
+     "parametro": "Peso estimado de estrutura de plataforma + chapa de piso",
+     "valor": "1 kN/m² de área projetada (exceto vigas maiores que as do Anexo A)",
+     "item": "3.1.1.5"
+    },
+    {
+     "parametro": "Tubulações > 12\" em suportes",
+     "valor": "cargas concentradas individuais nos apoios",
+     "item": "3.1.1.6 a)"
+    },
+    {
+     "parametro": "Tubulações ≤ 12\" em suportes",
+     "valor": "carga distribuída ≥ 0,5 kN/m² na faixa ocupada",
+     "item": "3.1.1.6 b)"
+    },
+    {
+     "parametro": "Sobrecarga — estrutura de plataforma / escadas e patamares",
+     "valor": "2,5 kN/m² / 2,5 kN/m²",
+     "item": "3.1.2.2"
+    },
+    {
+     "parametro": "Sobrecarga para dimensionar o piso da plataforma",
+     "valor": "5 kN/m²",
+     "item": "3.1.2.2, Nota"
+    },
+    {
+     "parametro": "Estrutura para remoção de feixe tubular",
+     "valor": "horizontal = peso do maior feixe; vertical = 1,25 × esse peso",
+     "item": "3.1.2.6"
+    },
+    {
+     "parametro": "Turcos de montagem/desmontagem",
+     "valor": "impacto 1,25 na carga vertical (mínimo 5 kN) + horizontal de 20 % do peso da maior peça",
+     "item": "3.1.2.7"
+    }
+   ],
+   "figuras": [
+    "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Combinações e materiais",
+   "item": "3.1.3, 3.2",
+   "texto": "Combinar montagem (estrutura sem proteção contra fogo, equipamento sem internos, vento), teste (tudo montado com fluido de teste, vento) e operação (com fluidos, sobrecargas, aríete, vibração, temperatura, vento). Aços, rebites e parafusos com tensões admissíveis das normas da Seção 2; recomendado perfil de abas paralelas no lugar de abas inclinadas."
+  },
+  {
+   "titulo": "Plataformas, pisos e guarda-corpos",
+   "item": "4.1.1, 4.1.4–4.1.11",
+   "texto": "Piso de chapa xadrez, expandida, grade ou outro antiderrapante, conferido quanto a deslocamento e vibração (estados de serviço da NBR 8800). Chapa fixa pode ser soldada ao vigamento; removível é aparafusada. Guarda-corpo em todos os lados abertos de plataformas, patamares, pisos e escadas inclinadas, corrimão no lado protegido (não se aplica a escadas presas em equipamentos). Furos de drenagem onde acumular água; espaços fechados (interior de colunas tubulares) selados com solda. Acessos de máquinas também pela NR-12.",
+   "valores": [
+    {
+     "parametro": "Largura livre mínima de plataforma e passadiço",
+     "valor": "75 cm",
+     "item": "4.1.1",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#plat-largura",
+     "nota": "texto da página em colunas fragmentadas — conferir"
+    },
+    {
+     "parametro": "Largura livre em frente a boca de visita de torre/vaso",
+     "valor": "90 cm",
+     "item": "4.1.1",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#frente-boca",
+     "nota": "conferir: texto em colunas fragmentadas"
+    },
+    {
+     "parametro": "Largura livre em frente a carretel de permutador",
+     "valor": "120 cm",
+     "item": "4.1.1",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#frente-boca",
+     "nota": "conferir: texto em colunas fragmentadas"
+    },
+    {
+     "parametro": "Altura livre de obstáculos acima de pisos",
+     "valor": "2 m",
+     "item": "4.1.1",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#livre-altura",
+     "nota": "conferir: texto em colunas fragmentadas"
+    },
+    {
+     "parametro": "Espessura mínima da chapa de piso",
+     "valor": "1/4\" (6,35 mm)",
+     "item": "4.1.1",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#chapa",
+     "nota": "conferir: texto em colunas fragmentadas"
+    },
+    {
+     "parametro": "Painel removível de chapa de piso",
+     "valor": "peso ≤ 0,5 kN; 2 furos de 3 cm para içar",
+     "item": "4.1.4",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#chapa"
+    },
+    {
+     "parametro": "Furos de drenagem na chapa de piso",
+     "valor": "Ø 1,2 cm, 1 furo por m²",
+     "item": "4.1.4",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#chapa"
+    },
+    {
+     "parametro": "Altura do guarda-corpo (plataformas, pisos, escadas)",
+     "valor": "1,10 m",
+     "item": "4.1.7",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#gc-altura"
+    },
+    {
+     "parametro": "Espaçamento máximo dos montantes do guarda-corpo",
+     "valor": "1,10 m (na escada, medido na horizontal)",
+     "item": "4.1.7",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#balaustre"
+    },
+    {
+     "parametro": "Folga do piso em volta de torres, tanques e vasos",
+     "valor": "≥ 15 cm (com ou sem isolamento)",
+     "item": "4.1.8",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#folga-vaso"
+    },
+    {
+     "parametro": "Folga em furo de piso para tubo vertical",
+     "valor": "5 cm além do tubo ou do isolamento",
+     "item": "4.1.8",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#folga-tubo"
+    },
+    {
+     "parametro": "Rodapé",
+     "valor": "barra chata 4\" × 1/4\" (100 × 6 mm) onde há guarda-corpo ou vão > 5 cm a parede/obstáculo e em volta de aberturas",
+     "item": "4.1.9",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#rodape"
+    }
+   ],
+   "figuras": [
+    "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Escadas inclinadas e verticais",
+   "item": "4.1.2, 4.1.3, 4.1.5; Figuras A.1–A.4",
+   "texto": "Escadas verticais com corrente de segurança no topo; Anexo A padroniza saída frontal e lateral e a fixação em equipamentos e em concreto.",
+   "valores": [
+    {
+     "parametro": "Escada inclinada — largura mínima",
+     "valor": "75 cm",
+     "item": "4.1.2 a)",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#esc-largura",
+     "nota": "conferir: texto em colunas fragmentadas"
+    },
+    {
+     "parametro": "Escada inclinada — altura máxima do lance",
+     "valor": "3,00 m",
+     "item": "4.1.2 b)",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#lance"
+    },
+    {
+     "parametro": "Escada inclinada — comprimento mínimo do patamar",
+     "valor": "75 cm",
+     "item": "4.1.2 c)",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#esc-largura"
+    },
+    {
+     "parametro": "Escada inclinada com espelho — ângulo com a horizontal",
+     "valor": "30° a 38°",
+     "item": "4.1.2 d)",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#angulo"
+    },
+    {
+     "parametro": "Escada inclinada sem espelho — ângulo com a horizontal",
+     "valor": "45° a 50°",
+     "item": "4.1.2 e)",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#angulo"
+    },
+    {
+     "parametro": "Escada vertical — largura mínima",
+     "valor": "45 cm",
+     "item": "4.1.3 a)",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#vert-largura"
+    },
+    {
+     "parametro": "Escada vertical — altura máxima do lance",
+     "valor": "6,00 m (plataforma de descanso ≥ 75 cm entre lances)",
+     "item": "4.1.3 b), c); Fig. A.1 Nota 4",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#vert-lance"
+    },
+    {
+     "parametro": "Escada vertical — degrau",
+     "valor": "barra redonda nervurada CA-50, Ø 1\" (25 mm)",
+     "item": "4.1.3 d)",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#degrau"
+    },
+    {
+     "parametro": "Escada vertical > 3 m — gaiola (guarda-corpo)",
+     "valor": "de 2 m acima da base até 1,10 m acima do último nível de trabalho",
+     "item": "4.1.5",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#gc-inicio"
+    },
+    {
+     "parametro": "Escada vertical — gaiola dispensável",
+     "valor": "comprimento ≤ 3 000 mm",
+     "item": "Fig. A.1, Nota 3",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#vert-lance"
+    }
+   ],
+   "figuras": [
+    "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Ligações e emendas",
+   "item": "4.2, 4.3; Figura 1",
+   "texto": "Sem desenho básico, a projetista escolhe ligação soldada, aparafusada ou rebitada; ligação viga-coluna permite montar sem tirar a coluna de prumo; apoio em cantoneira na mesa inferior e alma ligada à coluna; em coluna com proteção contra fogo, cantoneira do topo à alma. Oficina: solda ou rebite. Emendas de topo fora das zonas hachuradas da Figura 1 (trechos de L/8 e L/2 conforme viga biapoiada, em balanço ou coluna). Proteção anticorrosiva pela NBR 8800 e N-1550.",
+   "valores": [
+    {
+     "parametro": "Folga entre coluna e viga",
+     "valor": "≤ 15 mm (salvo dilatação térmica)",
+     "item": "4.2.2"
+    },
+    {
+     "parametro": "Distância entre soldas circunferenciais adjacentes (tubos)",
+     "valor": "≥ diâmetro do elemento e ≥ 1 000 mm; no máximo 2 juntas em qualquer 3 m",
+     "item": "4.3.1",
+     "cota": "esquemas/estrutura-metalica-emendas-zonas.svg#circunferenciais"
+    },
+    {
+     "parametro": "Distância entre cordões longitudinais",
+     "valor": "30° ou 300 mm, o menor",
+     "item": "4.3.1",
+     "cota": "esquemas/estrutura-metalica-emendas-zonas.svg#longitudinais"
+    },
+    {
+     "parametro": "Distância entre duas emendas de topo em perfis",
+     "valor": "≥ altura do elemento e ≥ 1 000 mm",
+     "item": "4.3.2",
+     "cota": "esquemas/estrutura-metalica-emendas-zonas.svg#entre-emendas"
+    },
+    {
+     "parametro": "Zonas onde evitar emenda — viga biapoiada e coluna",
+     "valor": "faixas de L/8 e trecho central conforme Figura 1",
+     "item": "4.3.2; Fig. 1",
+     "cota": "esquemas/estrutura-metalica-emendas-zonas.svg#apoio",
+     "nota": "conferir: posição exata das zonas hachuradas só na Figura 1"
+    },
+    {
+     "parametro": "Zona onde evitar emenda — viga em balanço",
+     "valor": "metade L/2 conforme Figura 1",
+     "item": "4.3.2; Fig. 1",
+     "cota": "esquemas/estrutura-metalica-emendas-zonas.svg#engaste",
+     "nota": "conferir: leitura da Figura 1"
+    }
+   ],
+   "figuras": [
+    "esquemas/estrutura-metalica-emendas-zonas.svg"
+   ]
+  },
+  {
+   "titulo": "Apresentação do projeto e padrões",
+   "item": "4.5, 5; Anexo A",
+   "texto": "Projeto pela N-381 e codificação pela N-1710: lista de documentos, memorial, memória de cálculo (esquema, cargas, envoltória, dimensionamento, ligações, chumbadores pela N-134, combinações de montagem/teste/operação, programas), desenhos dimensionais (planta-chave, cotas, perfis e pesos, ligações, contraflechas, apoios, lista de materiais, proteção contra fogo) e de fabricação/montagem (arranjo, detalhes, ligações, chumbadores, içamento e sequência), e recomendações de construção (N-293). Anexo A padroniza escadas verticais, plataformas circulares e retas, bases de coluna I e L e turcos.",
+   "valores": [
+    {
+     "parametro": "Furos no piso para chumbadores da escada vertical",
+     "valor": "15/16\" para chumbadores de 3/4\"",
+     "item": "Fig. A.1, Nota 1",
+     "cota": "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg#degrau",
+     "nota": "lido da nota da Figura A.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/estrutura-metalica-plataforma-escada-petrobras.svg"
+   ]
+  }
+ ]
+}

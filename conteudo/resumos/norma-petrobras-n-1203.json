@@ -1,0 +1,301 @@
+{
+ "id": "PETROBRAS-N-1203",
+ "titulo": "Petrobras N-1203 Rev. G (09/2022) — Projeto de sistemas fixos de proteção contra incêndio em instalações industriais terrestres",
+ "secoes": [
+  {
+   "titulo": "Escopo, água e cenários",
+   "item": "1, 4, 5",
+   "texto": "Projeto de sistemas fixos de combate a incêndio (hidrantes e canhões, aspersão de água, espuma e rede de água) em instalações industriais terrestres. Água de qualidade compatível com os equipamentos. O dimensionamento parte do maior risco isolado (equipamentos que podem se envolver no mesmo incêndio), somando os sistemas que atuam juntos; o suprimento cobre essa vazão pelo tempo mínimo.",
+   "valores": [
+    {
+     "parametro": "Tempo de suprimento — refino",
+     "valor": "4 h (recomendado 6 h se a vazão do risco isolado ≥ 45 000 L/min)",
+     "item": "5.4 a); Nota 1"
+    },
+    {
+     "parametro": "Tempo de suprimento — GLP, LGN, amônia; UPGN e utilidades com inflamável",
+     "valor": "3 h",
+     "item": "5.4 b), c)"
+    },
+    {
+     "parametro": "Tempo de suprimento — estação de bombeamento sem tancagem / demais",
+     "valor": "1 h",
+     "item": "5.4 d); Nota 2"
+    }
+   ],
+   "figuras": [
+    "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg",
+    "esquemas/hidrante-industrial-valvula-angular.svg"
+   ]
+  },
+  {
+   "titulo": "Demanda de hidrantes e canhões",
+   "item": "6.1",
+   "texto": "Vazão = área do limite de bateria × taxa, entre mínimo e máximo, somada à aspersão (com o mesmo teto). Tanques, esferas, amônia, subestações (Corpo de Bombeiros + aspersão de transformador), estações de carregamento e áreas administrativas (Corpo de Bombeiros ou NBR 13714, o mais restritivo) têm critérios próprios.",
+   "valores": [
+    {
+     "parametro": "Refino — taxa e limites",
+     "valor": "8,2 L/min·m² (API RP 2001); mínimo 15 000 e máximo 60 000 L/min (teto incluindo aspersão)",
+     "item": "6.1.1.2, 6.1.1.4"
+    },
+    {
+     "parametro": "Processamento de gás natural — taxa e limites",
+     "valor": "3 L/min·m²; 10 000 a 30 000 L/min",
+     "item": "6.1.2.2, 6.1.2.4"
+    },
+    {
+     "parametro": "Utilidades — taxa e limites",
+     "valor": "3 L/min·m²; 4 000 a 20 000 L/min",
+     "item": "6.1.3.2"
+    },
+    {
+     "parametro": "Estação de carregamento — hidrantes/canhões",
+     "valor": "≥ 500 gpm (≈ 2 000 L/min) além da aspersão; extinção com espuma",
+     "item": "6.1.9"
+    }
+   ]
+  },
+  {
+   "titulo": "Projeto de hidrantes e canhões monitores",
+   "item": "6.2",
+   "texto": "Hidrantes N-111 em pontos de livre acesso perto das ruas; 4 saídas como regra, 6 saídas para 4 000–6 000 L/min por hidrante, combinação de 4 e 6 acima disso, 2 saídas em instalação de até 2 000 L/min e em áreas administrativas; horizontais onde há caminhão de incêndio; conexões de 6\" recomendadas na tancagem; abrigos de mangueira recomendados. Tancagem atmosférica pela NBR 17505-7. Canhões com esguicho regulável jato/neblina; no parque de esferas devem alcançar a válvula do bocal de saída por duas direções.",
+   "valores": [
+    {
+     "parametro": "Vazão estimada por saída de 2 1/2\"",
+     "valor": "1 000 L/min (máximo por saída)",
+     "item": "6.2.4, 6.2.1 b)"
+    },
+    {
+     "parametro": "Distância máxima entre hidrantes (áreas operacionais)",
+     "valor": "60 m",
+     "item": "6.2.6",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#hidrantes"
+    },
+    {
+     "parametro": "Comprimento máximo de mangueira até o ponto protegido",
+     "valor": "90 m",
+     "item": "6.2.6",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#mangueira"
+    },
+    {
+     "parametro": "Canhão monitor — vazão mínima",
+     "valor": "500 gpm (≈ 2 000 L/min) a 690 kPa (7 kgf/cm²)",
+     "item": "6.2.9"
+    },
+    {
+     "parametro": "Canhão monitor — alcance horizontal de projeto (jato)",
+     "valor": "45 m",
+     "item": "6.2.9",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#alcance"
+    },
+    {
+     "parametro": "Canhão monitor — giro e curso recomendados",
+     "valor": "360° horizontal; 80° para cima e 15° para baixo",
+     "item": "6.2.10",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#alcance"
+    },
+    {
+     "parametro": "Canhão fixo — altura máxima do flange de entrada ao piso",
+     "valor": "1,5 m (acima disso, plataforma de operação)",
+     "item": "6.2.11",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#altura-canhao"
+    },
+    {
+     "parametro": "Distância canhão ↔ esfera",
+     "valor": "≥ 1 diâmetro da esfera (conforme alcance); cilindros: 15 m",
+     "item": "6.2.13",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#canhao-esfera"
+    }
+   ],
+   "figuras": [
+    "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg"
+   ]
+  },
+  {
+   "titulo": "Aspersão de água (dilúvio)",
+   "item": "7",
+   "texto": "Em unidades de alto e médio potencial de incêndio, aspersão para estáticos sujeitos a radiação/jato de fogo e para bombas com produto acima do ponto de fulgor (as três condições de 7.1.1.2.1). Vasos e torres com inflamável de ponto de fulgor < 37,8 °C ou gás: filme de água em toda a superfície (verticais e torres só até certa altura acima da poça); pode substituir proteção passiva em saias/pernas altas. Esferas: soma de resfriamento do casco, anel de aspersores e vizinhas; cilindros de GLP agrupados como risco isolado. Amônia resfriada quando exposta a fogo próximo. Transformadores a óleo e estações de carregamento com aspersão. Balanceamento hidráulico no bico mais desfavorável; válvula de dilúvio de abertura rápida, manual ou automática.",
+   "valores": [
+    {
+     "parametro": "Taxas de projeto (unidades de processo)",
+     "valor": "20,4 L/min·m² para extinção; 10,2 L/min·m² para resfriamento",
+     "item": "7.1.1.1.2"
+    },
+    {
+     "parametro": "Vasos e torres — taxa de aspersão",
+     "valor": "10,2 L/min·m² em toda a superfície",
+     "item": "7.1.1.3.6"
+    },
+    {
+     "parametro": "Vasos verticais e torres — altura protegida",
+     "valor": "até 12,5 m acima do nível da possível poça",
+     "item": "7.1.1.3.3",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#aspersao-altura"
+    },
+    {
+     "parametro": "Aspersão em suporte (pernas/saia) como alternativa à proteção passiva",
+     "valor": "estruturas com mais de 300 mm de altura no ponto mais baixo",
+     "item": "7.1.1.3.7",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#aspersao-altura"
+    },
+    {
+     "parametro": "Bombas — condição de temperatura",
+     "valor": "fluido 5 °C ou mais acima do ponto de fulgor (taxa de 10,2 recomendada se fulgor < 37,8 °C)",
+     "item": "7.1.1.2"
+    },
+    {
+     "parametro": "Esferas vizinhas a resfriar",
+     "valor": "costado a costado < 30 m da esfera em chamas",
+     "item": "7.1.2.1.2",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#entre-esferas"
+    },
+    {
+     "parametro": "Anel de aspersores da esfera",
+     "valor": "10 % da vazão de resfriamento do casco",
+     "item": "7.1.2.1.1"
+    },
+    {
+     "parametro": "Válvula de bloqueio da aspersão de esfera",
+     "valor": "junto à rede, a ≥ 1 diâmetro ou 15 m do costado (o maior)",
+     "item": "7.1.2.1.4",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#valvula-esfera"
+    },
+    {
+     "parametro": "Cilindros de GLP — risco isolado / vizinhos",
+     "valor": "grupos com espaçamento < 7,5 m; resfriar vizinhos a < 7,5 m",
+     "item": "7.1.2.2.2, 7.1.2.2.4",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#entre-esferas"
+    },
+    {
+     "parametro": "Válvula de bloqueio da aspersão de cilindros",
+     "valor": "no limite do parque, a ≥ 15 m do costado",
+     "item": "7.1.2.2.6",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#valvula-esfera"
+    },
+    {
+     "parametro": "Vasos de amônia — resfriamento",
+     "valor": "se a < 30 m de fonte de incêndio; 5 L/min·m² na superfície total",
+     "item": "7.1.3.1, 7.1.3.2"
+    },
+    {
+     "parametro": "Transformadores e estações de carregamento — taxa",
+     "valor": "10,2 L/min·m² (superfície / projeção do tanque); dispensa entre 20 000 e 38 000 L de óleo classe K (combustão ≥ 300 °C)",
+     "item": "7.1.4, 7.1.5"
+    },
+    {
+     "parametro": "Pressão no bico aspersor",
+     "valor": "mínimo 1,4 kgf/cm² no mais desfavorável; máximo 5 kgf/cm² (ou fabricante)",
+     "item": "7.2.2"
+    },
+    {
+     "parametro": "Válvula de dilúvio e acionamento — distância das áreas de risco",
+     "valor": "≥ 15 m",
+     "item": "7.2.5",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#valvula-esfera"
+    }
+   ],
+   "figuras": [
+    "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg"
+   ]
+  },
+  {
+   "titulo": "Espuma",
+   "item": "8",
+   "texto": "LGE dosado na concentração do fabricante, dosador e estoque conforme 8.2; reservatório de LGE protegido do sol. Tancagem com sistemas fixos ou semifixos (câmaras de espuma, Figuras A.6–A.8), alimentação fora da bacia; semifixo por caminhão com conexões de rua (Figura A.5). Bombas de LGE pela NFPA 11. Sem espuma em tanque com produto a 100 °C ou mais.",
+   "valores": [
+    {
+     "parametro": "Temperatura do LGE no reservatório",
+     "valor": "< 45 °C (isolamento ou abrigo)",
+     "item": "8.2.2.7 g)"
+    },
+    {
+     "parametro": "Pontos de alimentação de espuma ↔ costado do tanque",
+     "valor": "fora da bacia e a > 1 diâmetro do tanque ou 15 m (o maior)",
+     "item": "8.2.4.2",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#espuma-alimentacao"
+    },
+    {
+     "parametro": "Conexões de rua para caminhão — altura",
+     "valor": "0,80 m a 1 m",
+     "item": "8.2.4.2 a); Fig. A.5",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#conexao-rua"
+    },
+    {
+     "parametro": "Linha de solução para câmara de espuma — diâmetro mínimo",
+     "valor": "63,5 mm (2 1/2\")",
+     "item": "8.2.4.6 a)"
+    },
+    {
+     "parametro": "Pressão a montante da placa de orifício da câmara",
+     "valor": "207 a 690 kPa (2,1 a 7 kgf/cm²)",
+     "item": "8.2.4.6 b)"
+    },
+    {
+     "parametro": "Alcance das linhas manuais na bacia",
+     "valor": "qualquer ponto com até 6 lances de 15 m",
+     "item": "8.2.4.12",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#mangueira"
+    }
+   ],
+   "figuras": [
+    "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg"
+   ]
+  },
+  {
+   "titulo": "Bombas e rede de água de incêndio",
+   "item": "9; Tabela 4",
+   "texto": "Suprimento de fonte natural ou reservatório. Bombas principais (BCI) com vazão dividida igualmente, NFPA 20/NBR 16704, diesel com tanque próprio, partida automática por queda de pressão, manual local e remota; válvula de alívio de recirculação antes da retenção, ajustada no shut-off, para dreno aberto. Duas bombas jóquei (uma reserva) no anel principal (N-906). Rede independente, em malhas completas contornando quadras de processo e tancagem, de preferência aérea seguindo as ruas (não metálica sempre enterrada), N-57/N-76, válvulas de aço em trechos sujeitos a fogo e bloqueios que mantenham dois lados de cada malha em operação. Interligação com outra unidade só com aprovação do SMS e do Corpo de Bombeiros.",
+   "valores": [
+    {
+     "parametro": "Diesel das BCI — autonomia",
+     "valor": "≥ 8 h à potência nominal",
+     "item": "9.2.1.2.2 b)"
+    },
+    {
+     "parametro": "Acionador da BCI",
+     "valor": "potência 10 % acima da necessária a 150 % da vazão de projeto",
+     "item": "9.2.1.2.3"
+    },
+    {
+     "parametro": "Partida escalonada recomendada",
+     "valor": "1ª BCI 0,35 kgf/cm² abaixo da partida da jóquei; demais a cada 0,7 kgf/cm²",
+     "item": "9.2.1.2.5"
+    },
+    {
+     "parametro": "Válvula de alívio de recirculação — diâmetro",
+     "valor": "3/4\" até 567,8 m³/h; 1\" acima",
+     "item": "9.2.1.3.2"
+    },
+    {
+     "parametro": "Bomba jóquei",
+     "valor": "vazão 10–20 % de uma BCI (recomendado); partida ≥ 0,70 kgf/cm² abaixo da pressão estática",
+     "item": "9.2.2.3, 9.2.2.4"
+    },
+    {
+     "parametro": "Pressão residual de projeto",
+     "valor": "690 kPa (7 kgf/cm²) no hidrante (com caminhão) ou no esguicho (demais)",
+     "item": "9.3.4"
+    },
+    {
+     "parametro": "Mangueiras no cálculo de perda de carga",
+     "valor": "múltiplos de 15 m, total ≤ 90 m; 38 mm → 350 L/min e 65 mm → 650 L/min a 690 kPa",
+     "item": "9.3.4.2",
+     "cota": "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg#mangueira"
+    },
+    {
+     "parametro": "Pressão de projeto da rede — limite",
+     "valor": "1 370 kPa (14 kgf/cm²)",
+     "item": "9.3.4.4"
+    },
+    {
+     "parametro": "Velocidade máxima na rede",
+     "valor": "5 m/s (sucção das bombas 1 a 4 m/s)",
+     "item": "9.3.5.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/combate-incendio-hidrantes-aspersao-espuma.svg"
+   ]
+  }
+ ]
+}

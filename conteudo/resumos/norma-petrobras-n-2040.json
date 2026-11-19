@@ -1,0 +1,110 @@
+{
+ "id": "PETROBRAS-N-2040",
+ "titulo": "Petrobras N-2040 Rev. F (12/2023) — Elaboração, apresentação e gerenciamento de documentos de projetos de eletricidade",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 5.1; Anexos A a C",
+   "texto": "Condições mínimas para elaborar, apresentar e gerenciar documentos de projeto de eletricidade, em instalações novas ou em ampliações. A norma parte de um sistema elétrico grande e completo: o usuário define quais práticas recomendadas viram obrigatórias (Anexo A), quais etapas se aplicam — conceitual, básico, pré-detalhamento (FEED), detalhamento, as built (Anexo B) — e quais documentos a projetista emite (Anexo C). Na falta de norma Petrobras vale ABNT e, depois, IEC/ISO. Diagramas funcionais e de interligação com hyperlinks de referência cruzada entre bobinas e contatos (relés, IEDs, contatores, disjuntores), navegáveis também no PDF.",
+   "valores": [],
+   "figuras": [
+    "esquemas/diagrama-eletrico-simbolos.svg"
+   ]
+  },
+  {
+   "titulo": "Fases e documentos por etapa",
+   "item": "5.2–5.5",
+   "texto": "Cada etapa tem fases de emissão (preliminar, para comentários, para aprovação, para outras especialidades e, no detalhamento, também lista de precedência, compra, construção e conforme construído). Conceitual: listas de cargas, estudos de viabilidade, filosofias. Básico: cargas, curto-circuito, fluxo de potência, memoriais, classificação de áreas, unifilares, diagramas funcionais típicos. FEED: lista de equipamentos com dados de fabricantes ou típicos em banco de dados integrado, instalações físicas preliminares (subestações, salas de cabos, iluminação, aterramento, encaminhamentos) e pré-detalhamento da proteção e automação pela IEC 61850. Detalhamento: todos os documentos de construção e compra.",
+   "valores": []
+  },
+  {
+   "titulo": "CAD, CAE, revisões e simulação",
+   "item": "6",
+   "texto": "Desenhos em CAD 2D/3D ou CAE; recomenda-se modelar o sistema em CAE com banco de dados que gere unifilares, funcionais, interligações, folhas de dados, listas de cargas, cabos e materiais, e representar em 3D subestações, casas de controle, salas de cabos e baterias, painéis, transformadores, motores e painéis de campo Ex. Revisões indicadas e controladas automaticamente; sistema de gerenciamento de documentação. Quando previsto, simulação digital em tempo real dos transitórios do sistema de potência injetando sinais nos IEDs por amplificadores, para validar ajustes de sobrecorrente, sub/sobretensão, direcional, potência reversa e subfrequência e corrigir especificações.",
+   "valores": []
+  },
+  {
+   "titulo": "Estudos e memoriais do projeto básico",
+   "item": "7.1",
+   "texto": "Listas de cargas por painel, processo ou subestação (normal, essencial e emergência), estudos técnico-econômicos, curto-circuito, fluxo de potência, filosofias e características básicas das instalações. Classificação de áreas por equipe multidisciplinar coordenada por processo/segurança (NBR IEC 60079-10-1/-10-2, API RP 505, NFPA 497/499), com listas de dados de processo, extensões, grupos e classes de temperatura, e seleção de proteção Ex e EPL. Unifilares gerados das listas de cargas, com fontes, nível de curto em cada barra, capacidades e proteção; funcionais típicos e lógicas para equipamentos digitais; data-book do básico.",
+   "valores": [],
+   "figuras": [
+    "esquemas/area-classificada-zonas.svg"
+   ]
+  },
+  {
+   "titulo": "Memoriais de cálculo do detalhamento",
+   "item": "7.2.1–7.2.8",
+   "texto": "Listas de documentos (número, título, tamanho, escalas, revisão, fase), cargas, cabos, eletrodutos/bandejas, I/O e materiais. Memoriais: dimensionamento de equipamentos (manobra de média tensão com classificação IAC pela NBR IEC 62271-200), distribuição normal/essencial/emergência, esforço de puxamento de cabos entre pull-points e manholes, aterramento (IEEE 80 e 142), iluminação normal e de emergência, coordenação e seletividade, intertravamentos, sinalização, SPDA (NBR 5419, IEC 62305, NFPA 780), curto-circuito, fluxo de potência, traçamento elétrico, detecção de fumaça em salas elétricas, energia incidente de arco e serviços de montagem e comissionamento.",
+   "valores": [
+    {
+     "parametro": "Malha de aterramento calculada pelas IEEE 80 / 142",
+     "valor": "malhas com lado não superior a 100 m",
+     "item": "7.2.8.4.3",
+     "cota": "esquemas/eletricidade-projeto-documentos.svg#malha-lado"
+    }
+   ],
+   "figuras": [
+    "esquemas/eletricidade-projeto-documentos.svg"
+   ]
+  },
+  {
+   "titulo": "Desenhos do detalhamento",
+   "item": "7.2.9",
+   "texto": "Classificação de áreas revisada a cada mudança de fluido ou arranjo (de preferência em CAD 3D ligado às folhas de dados); unifilares, multifilares, funcionais, interligações e blocos; arranjos de subestações e casas de controle (norte, escala, ventos, ampliações tracejadas), estruturas externas, bases, esforços; rede principal; redes subterrâneas em planta (N-1996, de preferência em 3D com as demais disciplinas), perfil e seções, caixas de enfiação (N-1711) e pull-points; redes aéreas; instalações aparentes; canaletas; detalhes típicos de montagem; plantas de força, iluminação, SPDA e aterramento.",
+   "valores": [
+    {
+     "parametro": "Perfis de redes subterrâneas — escalas mínimas H / V",
+     "valor": "1:500 / 1:50 [prática recomendada]",
+     "item": "7.2.9.13.4"
+    },
+    {
+     "parametro": "Plantas de SPDA — região segura para trabalho",
+     "valor": "3 m abaixo da altura protegida com nível de proteção 1 [prática recomendada]",
+     "item": "7.2.9.24.5",
+     "cota": "esquemas/eletricidade-projeto-documentos.svg#spda-distancia"
+    }
+   ],
+   "figuras": [
+    "esquemas/eletricidade-projeto-documentos.svg",
+    "esquemas/rede-eletrica-subterranea.svg"
+   ]
+  },
+  {
+   "titulo": "Compras, fornecedores, as built e data-books",
+   "item": "7.2.10–7.2.24",
+   "texto": "Estimativa de custos, especificações técnicas, folhas de dados, requisições, pareceres, cronogramas, documentos e desenhos de fabricantes, relatórios de testes e manuais; verificação da documentação de fornecedores; laudo técnico de conformidade com as normas e a NR-10 assinado por engenheiro eletricista com ART; atualização as built de todos os documentos; cadastramento no sistema eletrônico do usuário. Data-books impressos em pastas padronizadas, com índice cruzado, meios digitais na 1ª pasta, separados por unidade, e com os arquivos de modelagem e parametrização.",
+   "valores": [
+    {
+     "parametro": "Pasta do data-book impresso (altura × largura × lombada)",
+     "valor": "340 mm × 240 mm × 70 mm, papelão prensado revestido de plástico azul",
+     "item": "7.2.24.1 b)",
+     "cota": "esquemas/eletricidade-projeto-documentos.svg#pasta-altura"
+    },
+    {
+     "parametro": "Documentos maiores que A3 no data-book",
+     "valor": "em envelopes plásticos transparentes",
+     "item": "7.2.24.1 c)",
+     "cota": "esquemas/eletricidade-projeto-documentos.svg#pasta-largura"
+    },
+    {
+     "parametro": "Vias impressas dos manuais",
+     "valor": "≥ 3",
+     "item": "7.2.24.2 a)"
+    }
+   ],
+   "figuras": [
+    "esquemas/eletricidade-projeto-documentos.svg"
+   ]
+  },
+  {
+   "titulo": "Documentação da automação elétrica",
+   "item": "8",
+   "texto": "Arquitetura e interligação entre a rede de automação industrial e a rede corporativa com DMZ e requisitos de cibersegurança (IEC/TS 62351-6 para IEC 61850); arquivos de configuração e parametrização de relés, IEDs, merging units, conversores, soft-starters, UPS, GPS e switches; fluxo de configuração da subestação pela IEC 61850-6 (Figura 1); especificações, folhas de dados e requisições próprias do sistema de automação.",
+   "valores": [],
+   "figuras": [
+    "esquemas/automacao-eletrica-arquitetura.svg"
+   ]
+  }
+ ]
+}

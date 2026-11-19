@@ -1,0 +1,97 @@
+{
+ "id": "PETROBRAS-N-2608",
+ "titulo": "Petrobras N-2608 Rev. B (12/2011) — Retificadores para proteção catódica",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 3, 4",
+   "texto": "Condições mínimas de projeto, fabricação e ensaio de retificadores para proteção catódica de instalações terrestres e marítimas. A folha de dados (Anexo A) prevalece sobre a norma e é completada pelo fornecedor (dados técnicos, normas e ensaios). Retificação em ponte de onda completa para plena carga contínua; terrestres conforme NR-10, marítimos conforme as sociedades classificadoras. Recomenda-se local abrigado e não classificado.",
+   "valores": [
+    {
+     "parametro": "Faixa de temperatura ambiente",
+     "valor": "0 °C a 50 °C (ou a da folha de dados)",
+     "item": "4.2"
+    },
+    {
+     "parametro": "Umidade relativa máxima sem condensação",
+     "valor": "95 %",
+     "item": "4.3"
+    }
+   ],
+   "figuras": [
+    "esquemas/retificador-protecao-catodica.svg"
+   ]
+  },
+  {
+   "titulo": "Construção",
+   "item": "5",
+   "texto": "Fácil manutenção e acesso; resistente à corrosão (em atmosfera corrosiva, circuitos eletrônicos tropicalizados com verniz); aviso de acesso a partes internas. Gabinete de aço-carbono, inox ou alumínio pintado (N-1735, N-1021), cinza-claro 0065, chassi removível, para poste, parede ou autossustentado; passagem de cabos por colar ou prensa-cabos (ou tampa flangeada removível para furação no campo). Isoladores não higroscópicos e não inflamáveis. Barramento de equipotencialização na parte inferior (NBR 5410) com todas as partes metálicas ligadas individualmente e conectores para proteções, medição, terra da concessionária e malha local. Placa externa em inox ou acrílico com Petrobras, fabricante, modelo, dados elétricos nominais, massa, data e série; componentes identificados de forma indelével; saída marcada (+ anodos, − estrutura); cópia dos esquemas num escaninho da porta.",
+   "valores": [
+    {
+     "parametro": "Grau de proteção mínimo do gabinete (NBR IEC 60529)",
+     "valor": "IP-23 abrigado; IP-43 ao tempo",
+     "item": "5.4.1",
+     "cota": "esquemas/retificador-protecao-catodica.svg#grau-protecao"
+    },
+    {
+     "parametro": "Cabo de interligação do barramento com a malha de terra",
+     "valor": "seção nominal até 25 mm²",
+     "item": "5.7.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/retificador-protecao-catodica.svg"
+   ]
+  },
+  {
+   "titulo": "Características elétricas",
+   "item": "6",
+   "texto": "Partes vivas protegidas contra toque; componentes suportam o ensaio de isolamento. Transformador seco, classe de temperatura até B. Tensão de saída por taps grosso e fino (manual) ou circuito de controle (automático); tomada frontal 127/220 V CA opcional; sinalização de 'equipamento energizado'. Proteções: disjuntor termomagnético, fusíveis NH na entrada, saída e coluna retificadora, fusíveis cilíndricos nos instrumentos, DPS na entrada (fase–terra) e saída (+/− e −/terra) dos terrestres, circuito RC em cada componente da coluna. Indicação local de tensão e corrente de saída e horímetro (que para sem corrente de saída), shunt para aferição; sobressalentes: um jogo de proteções e de diodos/tiristores. Automático: modos manual e automático, controle do potencial estrutura-eletrólito por referência ajustável indicada no painel, limitação de tensão e corrente. Telemetria de corrente, tensão, potencial e presença de alimentação (terrestre: também porta aberta); marítimo com alarmes de sub/superproteção, sub/sobrecorrente e falta de alimentação, com registro.",
+   "valores": [
+    {
+     "parametro": "Rendimento mínimo (carga de 50 % a 100 %)",
+     "valor": "60 % monofásico; 80 % trifásico",
+     "item": "6.3"
+    },
+    {
+     "parametro": "DPS — tensão máxima de operação contínua Uc",
+     "valor": "275 V",
+     "item": "6.8.4 b)"
+    },
+    {
+     "parametro": "DPS — corrente nominal de descarga mínima In (8/20 μs)",
+     "valor": "30 kA",
+     "item": "6.8.4 c)"
+    },
+    {
+     "parametro": "Precisão dos instrumentos de medição",
+     "valor": "1,5 % do fundo de escala",
+     "item": "6.9"
+    },
+    {
+     "parametro": "Horímetro",
+     "valor": "no mínimo 5 dígitos inteiros",
+     "item": "6.9.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/retificador-protecao-catodica.svg"
+   ]
+  },
+  {
+   "titulo": "Ensaios e documentação",
+   "item": "7, 8",
+   "texto": "Inspeção visual e dimensional, partes móveis e pintura (cor, espessura, aderência); ensaios de rotina de isolamento, tensão aplicada e funcionamento pela NBR 5410; ensaios de tipo conforme a folha de dados. Proposta com folha de dados, desenhos dimensionais, catálogo, sobressalentes, assistência técnica, garantia e referências. Entrega com certificado de garantia, manual (especificações, desenhos, esquemas, lista de componentes, armazenamento, instalação e manutenção, sobressalentes) e certificados de ensaio.",
+   "valores": [
+    {
+     "parametro": "Prazo mínimo de garantia",
+     "valor": "1 ano",
+     "item": "8.1 f)"
+    }
+   ],
+   "figuras": [
+    "esquemas/retificador-protecao-catodica.svg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "id": "PETROBRAS-N-1041",
+ "titulo": "Petrobras N-1041 Rev. J (04/2022) — Cadastramento de propriedades",
+ "secoes": [
+  {
+   "titulo": "Escopo e serviços",
+   "item": "1, 4, 5",
+   "texto": "Cadastro de propriedades nas áreas de interesse da Petrobras, para decreto de utilidade pública, avaliação de imóveis, licenciamento, convênios, servidão de passagem, desapropriação e escrituras. Compreende identificar imóvel (RI) e proprietários/ocupantes e seus vínculos (posse, arrendamento, espólio…), localizar o imóvel e a área de interesse em UTM-SIRGAS 2000 com equipamento geodésico e quantificar construções, culturas e vegetação. Levantamento em campo e/ou restituição aerofotogramétrica com apoio de campo, conforme a N-47, com responsável técnico; tudo registrado no CADPROP WEB. O levantamento cadastral colhe divisas, reserva legal, geomorfologia, clima, destinação da região, solos, atividades econômicas com comprovação, serviços públicos e interferências enterradas, benfeitorias, plano diretor, IPTU e ITR, comparando com cartórios, prefeituras e INCRA. Prazo de implantação da revisão: 180 dias.",
+   "valores": [
+    {
+     "parametro": "Imóvel rural até 2 000 m²",
+     "valor": "cadastrado inteiro se atingido em qualquer percentual (> 0 %)",
+     "item": "5.2.1, Tabela 1"
+    },
+    {
+     "parametro": "Imóvel rural de 2 001 a 5 000 m²",
+     "valor": "cadastrado inteiro se atingido em > 20 %",
+     "item": "5.2.1, Tabela 1"
+    },
+    {
+     "parametro": "Imóvel rural de 5 001 a 10 000 m²",
+     "valor": "cadastrado inteiro se atingido em > 50 %",
+     "item": "5.2.1, Tabela 1"
+    },
+    {
+     "parametro": "Validade da certidão de registro anexada à FC",
+     "valor": "emitida no máximo 60 dias corridos antes da aprovação da FC",
+     "item": "5.2.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/topografia-faixa-levantamento.svg"
+   ]
+  },
+  {
+   "titulo": "Documentos do cadastro e ficha de cadastro",
+   "item": "6 a 6.2",
+   "texto": "Cadastro = fichas de cadastro (FC), plantas de cadastro físico, relação de áreas públicas atingidas, relatório de divisas municipais, memoriais descritivos geral e individuais, relação de municípios e prefeitos e relação de órgãos responsáveis por interferências, com a terminologia dos Anexos B e C. Uma FC por matrícula no RI; fichas vinculadas para possuidores, locatários, arrendatários e meeiros (ou incluídos na do proprietário); uma única FC para imóvel transferido por inteiro ou atingido em vários segmentos; FC própria para cada interferência com órgão público ou concessionária; lote urbano cadastrado inteiro como aquisição; em alargamento de faixa, separar área existente e nova. Sem titularidade identificável: \"registro de imóvel não encontrado\" e campos de matrícula com 000.",
+   "valores": [
+    {
+     "parametro": "Numeração da FC em faixa de servidão",
+     "valor": "FC-UUU-VVVV.VV-WWW-XXX-YYY-ZZZ-R (UUU = 000; VVVV.VV instalação e WWW órgão pela N-1710; XXX município, YYY ficha no município e ZZZ interpolação, no sentido da faixa; R revisão: 0 e depois A, B…)",
+     "item": "6.2 m)"
+    }
+   ],
+   "figuras": [
+    "esquemas/documento-codigo-instalacao.svg"
+   ]
+  },
+  {
+   "titulo": "Croquis e fotografias",
+   "item": "6.3, 6.4",
+   "texto": "Para cada FC, croqui de acesso (em CAD, trajeto em UTM desde via pública notória) e croqui do imóvel (norte verdadeiro, limites, área de interesse destacada, acidentes, construções, benfeitorias atingidas, interferências e pontos das fotos com setas numeradas). Fotografias coloridas e datadas, da época do cadastro, cobrindo cada construção e vegetação da área de interesse e vistas gerais; edificações com frente, laterais, fundos e interior.",
+   "valores": [
+    {
+     "parametro": "Formato das fotografias",
+     "valor": "18 cm × 12 cm (paisagem), 120 dpi",
+     "item": "6.4 a)",
+     "cota": "esquemas/cadastro-planta-foto.svg#foto"
+    },
+    {
+     "parametro": "Quadro de identificação da foto",
+     "valor": "canto inferior direito, no máximo 1/9 da área da foto (obra, nº da FC, data, nº da foto)",
+     "item": "6.4 b)",
+     "cota": "esquemas/cadastro-planta-foto.svg#quadro-foto"
+    }
+   ],
+   "figuras": [
+    "esquemas/cadastro-planta-foto.svg"
+   ]
+  },
+  {
+   "titulo": "Plantas de cadastro físico e memoriais",
+   "item": "6.6 a 6.8",
+   "texto": "Relação de órgãos e concessionárias interceptados (nome, endereço, responsáveis, telefone, e-mail) no formulário da N-381. Plantas (N-381, numeradas pela N-1710) com norte, ventos predominantes, quadrícula UTM, limites da área de interesse, benfeitorias e interferências restituídas das ortofotos, cursos d'água (nome, largura, fluxo), divisas de imóveis, municípios e estados, vegetação, nomes de imóveis e proprietários, nº das FCs, articulação, marcos, vias (órgão, largura da faixa de domínio, km, pavimento), dutos de terceiros (diâmetro, fluido, profundidade, fluxo, proteção catódica) e linhas de transmissão (torres, tensão, altura mínima). Vértices numerados \"V0000-000\" (5 dígitos da planta + nº do vértice em sentido horário) com coordenadas em tabela. Faixas: eixo, azimutes, distâncias entre inflexões, km das divisas e quadro-resumo das FCs (extensão e área por imóvel). Memorial geral (extensão e largura da faixa ou perímetro, coordenadas, rumos e azimutes) e memoriais individuais por imóvel gerados só no módulo MD do CADPROP WEB.",
+   "valores": [
+    {
+     "parametro": "Escala das plantas de faixa de servidão",
+     "valor": "1:1 000 (outras áreas: melhor escala possível, mínimo 1:1 000)",
+     "item": "6.7",
+     "cota": "esquemas/cadastro-planta-foto.svg#planta-extensao"
+    },
+    {
+     "parametro": "Extensão de faixa por planta",
+     "valor": "1 000 m de diretriz",
+     "item": "6.7",
+     "cota": "esquemas/cadastro-planta-foto.svg#planta-extensao"
+    },
+    {
+     "parametro": "Largura da faixa de servidão (no memorial geral)",
+     "valor": "informada com a extensão total da diretriz",
+     "item": "6.8.1",
+     "cota": "esquemas/cadastro-planta-foto.svg#largura-faixa"
+    }
+   ],
+   "figuras": [
+    "esquemas/cadastro-planta-foto.svg",
+    "esquemas/topografia-faixa-levantamento.svg"
+   ]
+  }
+ ]
+}

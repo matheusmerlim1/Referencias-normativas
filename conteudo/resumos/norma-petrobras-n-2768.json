@@ -1,0 +1,138 @@
+{
+ "id": "PETROBRAS-N-2768",
+ "titulo": "Petrobras N-2768 Rev. A (12/2018) — Segurança em operações de perfuração de poços",
+ "secoes": [
+  {
+   "titulo": "Requisitos gerais",
+   "item": "3, 4; Figura 1",
+   "texto": "Requisitos de segurança para perfuração em terra e no mar: análise de riscos da sonda e operações; tabela de pressões do preventor anular para stripping na cabine do sondador; detecção de kick (N-2753) com registrador de taxa de penetração, pressão e cursos das bombas, detector de gases inclusive H₂S e balança densimétrica; eficiência volumétrica das bombas medida a cada mudança de locação; detecção fixa de H₂S (no mar: plataforma, peneiras, tanques e bombas de lama, bell nipple, moon pool, tomadas de ar das acomodações e dos compressores; em terra: plataforma, peneiras e subestrutura); testes de pressão válidos, planilha de controle de poço, plano de emergência alinhado ao local, riser monitorado pelo tanque de manobra com BOP fechado e procedimento para gás residual sob o BOP. Em template ou trajetórias próximas, zona de segurança em volta de toda a trajetória, sem operações simultâneas dentro dela e com os poços produtores nela fechados.",
+   "valores": [
+    {
+     "parametro": "Zona de segurança — do piso da sonda ao leito marinho",
+     "valor": "raio maior que o espaçamento entre poços (o maior, se diferente nas duas direções)",
+     "item": "4.8 a); Fig. 1",
+     "cota": "esquemas/perfuracao-poco-zona-seguranca-h2s-fonte.svg#raio-superficie"
+    },
+    {
+     "parametro": "Zona de segurança — abaixo do leito marinho",
+     "valor": "raio maior que o espaçamento entre poços ou 1,5 % da profundidade vertical abaixo do leito, o maior",
+     "item": "4.8 b)",
+     "cota": "esquemas/perfuracao-poco-zona-seguranca-h2s-fonte.svg#raio-subsolo"
+    }
+   ],
+   "figuras": [
+    "esquemas/perfuracao-poco-zona-seguranca-h2s-fonte.svg",
+    "esquemas/poco-bop-arvore.svg"
+   ]
+  },
+  {
+   "titulo": "Locações com H₂S",
+   "item": "5; Anexos A, B e C",
+   "texto": "Materiais e equipamentos pela N-2752. Posicionar a unidade para que o vento predominante leve os gases da cabeça de poço, choke manifold, queimadores, separadores, tanques e peneiras para longe de ignição e de áreas habitadas. Locação não confinada: barreiras com sinalização nos limites da área controlada, birutas visíveis (topo da torre, áreas de reunião, acessos), ventilação forçada em plataforma, peneiras e tanques nas fases com H₂S. Confinada (marítima): heliponto, recreação, restaurante e proa podem ser pontos de reunião; sinalização visível de embarcações e aeronaves; ventilação forçada obrigatória em peneiras, tanques e mud logging. Anexos tratam propriedades e toxidez do H₂S e procedimentos por condição (I a IV), com máscara de fuga até o ponto de reunião.",
+   "valores": [
+    {
+     "parametro": "Rotas de fuga em locação não confinada",
+     "valor": "≥ 2 distintas, posicionadas em relação ao vento",
+     "item": "5.3.1"
+    },
+    {
+     "parametro": "Áreas de proteção (pontos de reunião)",
+     "valor": "≥ 2: uma contra o vento predominante e outra perpendicular",
+     "item": "5.3.3"
+    },
+    {
+     "parametro": "Birutas iluminadas",
+     "valor": "≥ 2",
+     "item": "5.3.4"
+    },
+    {
+     "parametro": "Início da condição de alerta de H₂S (poço sem previsão)",
+     "valor": "perfuração a 300 m acima da formação/zona prevista com H₂S",
+     "item": "Anexo B, 1.2.1 a)",
+     "nota": "conferir: item do anexo de procedimentos operacionais"
+    },
+    {
+     "parametro": "Toxidez do H₂S",
+     "valor": "8–50 ppm: perda do olfato em até 1 h; 100–150 ppm: perda do olfato em 15 min, risco de morte a partir de 8 h",
+     "item": "Anexo A, 1.2.4"
+    },
+    {
+     "parametro": "Equipamento médico na locação com H₂S",
+     "valor": "ressuscitador e cilindro de oxigênio reserva",
+     "item": "24.5.8"
+    }
+   ]
+  },
+  {
+   "titulo": "Barreiras, perfuração, manobras, revestimento e cimentação",
+   "item": "6–14",
+   "texto": "Conjunto solidário de barreiras (CSB) pela N-2752: elementos instalados, verificados e mantidos; não surgência confirmada por estudo; perda de uma barreira obriga reavaliar as demais. Início de poço e testes do sistema de controle de poço conforme a operação. Nova fase só com fluido nos parâmetros previstos; fluido contaminado com H₂S tratado e armazenado com segurança. Planilha da coluna atualizada; margem de manobra dispensável só se a vazão de bombeio superar a taxa de retirada de aço. Pasta de cimento que impeça migração de gás e colchão lavador que não reduza a hidrostática abaixo da pressão de poros."
+  },
+  {
+   "titulo": "Gás de riser, hidratos, stripping e pescaria com fonte radioativa",
+   "item": "16–20",
+   "texto": "Gás de riser circulado com BOP fechado, pelo separador de gás do riser, com prioridade sobre o controle do poço e planilha preenchida na instalação do diverter; gás preso sob a gaveta removido circulando fluido de matar pela kill com retorno pela choke; sem água para remover gás sob o BOP (hidratos). Pescaria com fonte radioativa segue o plano de proteção radiológica: reuniões de segurança, distâncias à fonte e, se o encapsulamento for duvidoso, perfil de raios gama; com mudança de radiação, fonte mantida em condição estática.",
+   "valores": [
+    {
+     "parametro": "Ferramenta cortante perto de fonte (só em prisão de LWD)",
+     "valor": "sem se aproximar a menos de 20 m da fonte",
+     "item": "20.2.10",
+     "cota": "esquemas/perfuracao-poco-zona-seguranca-h2s-fonte.svg#fonte-cortante"
+    },
+    {
+     "parametro": "Corte ou desconexão com explosivo",
+     "valor": "distância mínima de 60 m da fonte",
+     "item": "20.2.11",
+     "cota": "esquemas/perfuracao-poco-zona-seguranca-h2s-fonte.svg#fonte-explosivo"
+    },
+    {
+     "parametro": "Parada para reunião na retirada da pescaria",
+     "valor": "BHA a 100 m abaixo da mesa rotativa",
+     "item": "20.2.13",
+     "cota": "esquemas/perfuracao-poco-zona-seguranca-h2s-fonte.svg#parada-bha"
+    }
+   ],
+   "figuras": [
+    "esquemas/perfuracao-poco-zona-seguranca-h2s-fonte.svg"
+   ]
+  },
+  {
+   "titulo": "Abandono com fonte radioativa",
+   "item": "21",
+   "texto": "Abandono pelas diretrizes ANP/SGIP e IBP, com gestão de mudança (presença da gerência do bloco/campo) e dados direcionais antes de isolar. Poço terrestre ou de completação seca com fonte abandonada recebe placa permanente na cabeça do poço (\"PERIGO\", símbolo, data do abandono, sigla do poço, logomarca, profundidade e dados da fonte); submarino só na documentação. Registro dos poços com fonte abandonada mantido pela unidade de negócio.",
+   "valores": [
+    {
+     "parametro": "Poço adjacente ou sidetrack",
+     "valor": "elipse de incerteza afastada ≥ 10 m da elipse do poço abandonado na posição da fonte (reavaliar para canhoneio/fraturamento)",
+     "item": "21.1.3",
+     "cota": "esquemas/perfuracao-poco-zona-seguranca-h2s-fonte.svg#elipse-afastamento"
+    },
+    {
+     "parametro": "Placa de identificação",
+     "valor": "aço inoxidável, quadrada de 17 cm de lado e 3 mm de espessura",
+     "item": "21.1.5",
+     "cota": "esquemas/perfuracao-poco-zona-seguranca-h2s-fonte.svg#placa-lado"
+    }
+   ],
+   "figuras": [
+    "esquemas/perfuracao-poco-zona-seguranca-h2s-fonte.svg"
+   ]
+  },
+  {
+   "titulo": "Poço de alívio, DP, HTHP e shallow hazards",
+   "item": "22–26",
+   "texto": "Embarcação de posicionamento dinâmico: verificações antes e durante as operações no poço. Poços com H₂S: EPI, treinamento. HTHP, super e ultra HTHP: seguir à risca o programa (gás de retorno, conexões, quebras de taxa de penetração definidas com a sonda, flow checks, tanques ativos, parâmetros de fluido e ambientais, kick drills, velocidade de manobra), comunicar transferências de fluido e fazer fingerprint com poço revestido. Zona rasa pressurizada prevista: monitorar com PWD, bombear fluido de amortecimento se houver influxo (pump and dump), confirmar ausência de influxo por ROV antes de cimentar e inspecionar a cabeça durante a cura.",
+   "valores": [
+    {
+     "parametro": "Shallow hazard previsto — perfuração das fases iniciais",
+     "valor": "até 10 m abaixo da zona sobrepressurizada",
+     "item": "26.1 a)",
+     "cota": "esquemas/perfuracao-poco-zona-seguranca-h2s-fonte.svg#profundidade-vertical"
+    }
+   ],
+   "figuras": [
+    "esquemas/perfuracao-poco-zona-seguranca-h2s-fonte.svg"
+   ]
+  }
+ ]
+}

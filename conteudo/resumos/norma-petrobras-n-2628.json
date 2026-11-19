@@ -1,0 +1,178 @@
+{
+ "id": "PETROBRAS-N-2628",
+ "titulo": "Petrobras N-2628 Rev. B (03/2017) — Tinta epóxi poliamida de alta espessura",
+ "secoes": [
+  {
+   "titulo": "Escopo, embalagem e marcação",
+   "item": "1, 3, 4.1",
+   "texto": "Características verificáveis em laboratório da tinta epóxi poliamida de alta espessura e baixo teor de voláteis, bicomponente: A = resina epóxi + pigmentos; B = agente de cura à base de amida. Componentes homogêneos, sem pele; na cor alumínio (0170) a pasta de alumínio pode vir separada e deve chegar homogênea. Latas cilíndricas, vedação inerte, rotulagem lateral pela NBR 15442; diluição para pistola convencional conforme o fabricante. Rótulo: N-2628, nome da tinta, componente A/B, diluente, quantidade (L e kg), fabricante, lote, validade e proporção de mistura. A resina e o agente de cura podem ser identificados por análise em auditoria.",
+   "valores": [
+    {
+     "parametro": "Estabilidade em armazenagem (fechado, < 40 °C)",
+     "valor": "≥ 12 meses; revalidável por 2 períodos de 6 meses (N-13)",
+     "item": "3.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Produto pronto para aplicação (Tabela 1)",
+   "item": "4.2, Anexo A",
+   "texto": "Mistura com aparência e consistência uniformes. Sólidos por massa e volume com secagem 24 h a (25 ± 2) °C + 180 min a (105 ± 1) °C (a nota da tabela cita 24 h ao ambiente + 2 h a 60 °C — conferir qual vale). Na cor alumínio: massa específica 1,0–1,4, sólidos por massa ≥ 80 % e por volume ≥ 70 %. Poder de cobertura pelo criptômetro de Pfund (placa nº 7, NBR 9676), por grupo de cor da N-1219.",
+   "valores": [
+    {
+     "parametro": "Massa específica (ASTM D 1475)",
+     "valor": "1,4 a 1,6",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Sólidos por massa / por volume",
+     "valor": "≥ 85 % / ≥ 80 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Consistência (ASTM D 562)",
+     "valor": "≤ 110 UK",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Descaimento (NBR 12103), película seca",
+     "valor": "≥ 240 μm",
+     "item": "Tabela 1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#descaimento"
+    },
+    {
+     "parametro": "Vida útil da mistura (NBR 15742)",
+     "valor": "≥ 2 h",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Secagem ao toque / para manuseio, película 200–240 μm (ASTM D 1640)",
+     "valor": "≤ 4 h / ≤ 16 h",
+     "item": "Tabela 1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    },
+    {
+     "parametro": "Secagem para repintura, película 200–240 μm",
+     "valor": "16 h a 48 h",
+     "item": "Tabela 1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    },
+    {
+     "parametro": "Finura de moagem (ASTM D 1210)",
+     "valor": "≤ 50 μm",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Poder de cobertura — leitura máxima no criptômetro: alaranjado/amarelos/vermelho de segurança",
+     "valor": "20 mm",
+     "item": "Tabela A.1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#leitura-pfund"
+    },
+    {
+     "parametro": "Poder de cobertura — azul-pastel, branca, cinzas, cremes, verdes, azul-Petrobras",
+     "valor": "15 mm",
+     "item": "Tabela A.1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#leitura-pfund"
+    },
+    {
+     "parametro": "Poder de cobertura — azul-segurança, cinza-escuro, marrom, óxido de ferro, preto",
+     "valor": "10 mm",
+     "item": "Tabela A.1",
+     "nota": "Alumínio (0170) sem requisito. Agrupamento das cores lido de tabela com células mescladas — conferir.",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#leitura-pfund"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Película seca (Tabela 2)",
+   "item": "4.3, 5.2.2.12–5.2.2.15",
+   "texto": "Sem bolhas nem pontos de corrosão após névoa salina, umidade e imersões (mudança de cor tolerada nas imersões e na umidade); no xileno, sem empolamento e sem alterar a cor do solvente. Reprova a aderência com falha A/B (substrato/primeira demão) abaixo de 15 MPa. Na cor alumínio não se faz imersão em água salgada.",
+   "valores": [
+    {
+     "parametro": "Aderência à tração, película 200–240 μm",
+     "valor": "≥ 12 MPa",
+     "item": "Tabela 2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#tensao-arrancamento"
+    },
+    {
+     "parametro": "Brilho a 60° (ASTM D 523)",
+     "valor": "≥ 60 UB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Névoa salina / 100 % UR, película 400–450 μm",
+     "valor": "≥ 2 000 h",
+     "item": "Tabela 2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    },
+    {
+     "parametro": "Imersão em xileno",
+     "valor": "≥ 1 000 h",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Imersão em água destilada e em água salgada 3,5 % NaCl a 40 °C; NaOH 10 %",
+     "valor": "≥ 2 000 h",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Penetração no entalhe após 2 000 h de névoa salina",
+     "valor": "≤ 3 mm (avanço pela ISO 4628-8)",
+     "item": "5.2.2.13",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#avanco-entalhe"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Preparo dos painéis e inspeção",
+   "item": "5",
+   "texto": "Rejeitar o lote que falhar na inspeção visual. Aplicar ≥ 15 min após a mistura, de preferência a pistola; com 2 demãos, repintar em até 24 h respeitando o mínimo da Tabela 1. No mínimo 3 corpos de prova por ensaio; aço AISI 1020 jateado ao metal quase branco Sa 2 1/2. Ensaios da Tabela 2 após 10 dias a (25 ± 2) °C e (60 ± 5) % UR. Névoa salina com um entalhe central paralelo ao lado maior; bordas e verso protegidos (pode ser outra tinta). Aderência em 2 pontos por corpo de prova, em pelo menos 2 corpos.",
+   "valores": [
+    {
+     "parametro": "Perfil de ancoragem",
+     "valor": "30 μm a 70 μm",
+     "item": "5.2.2.5",
+     "cota": "esquemas/pintura-preparo-superficie.svg#perfil"
+    },
+    {
+     "parametro": "Dimensões da chapa de ensaio",
+     "valor": "150 mm × 100 mm",
+     "item": "5.2.2.5",
+     "cota": "esquemas/tinta-painel-ensaio.svg#comprimento"
+    },
+    {
+     "parametro": "Espessura mínima da chapa",
+     "valor": "4,0 mm",
+     "item": "5.2.2.5",
+     "cota": "esquemas/tinta-painel-ensaio.svg#espessura"
+    },
+    {
+     "parametro": "Distância do entalhe às bordas superior e inferior",
+     "valor": "30 mm",
+     "item": "5.2.2.8",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#entalhe-borda"
+    },
+    {
+     "parametro": "Largura do entalhe",
+     "valor": "0,5 mm a 2 mm",
+     "item": "5.2.2.8",
+     "cota": "esquemas/tinta-painel-ensaio.svg#entalhe-largura"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-painel-ensaio.svg",
+    "esquemas/pintura-preparo-superficie.svg",
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  }
+ ]
+}

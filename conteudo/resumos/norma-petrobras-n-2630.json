@@ -1,0 +1,161 @@
+{
+ "id": "PETROBRAS-N-2630",
+ "titulo": "Petrobras N-2630 Rev. B (12/2017) — Tinta de fundo epóxi de alta espessura",
+ "secoes": [
+  {
+   "titulo": "Escopo, embalagem, marcação e cor",
+   "item": "1, 3, 4.1",
+   "texto": "Características verificáveis em laboratório da tinta de fundo epóxi de alta espessura com baixo teor de voláteis, curada com poliamida ou poliamina, bicomponente (A = resina epóxi; B = agente de cura). Componentes homogêneos, sem pele; sedimento só se homogeneizável à mão. Latas cilíndricas, vedação inerte, rotulagem lateral (NBR 15442); diluição conforme o fabricante. Rótulo: N-2630, nome da tinta, componente A/B, diluente, quantidade (L e kg), fabricante, lote, validade e proporção. Fornecida nas cores branca (0095), cinza-claro (0065) e óxido de ferro (1733) da N-1219.",
+   "valores": [
+    {
+     "parametro": "Estabilidade em armazenagem (fechado, < 40 °C)",
+     "valor": "≥ 12 meses; revalidável por 2 períodos de 6 meses (N-13)",
+     "item": "3.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Produto pronto para aplicação (Tabela 1)",
+   "item": "4.2",
+   "texto": "Mistura de consistência uniforme. Sólidos por massa e volume com secagem 24 h ao ambiente + 2 h a 60 °C.",
+   "valores": [
+    {
+     "parametro": "Massa específica (ASTM D 1475)",
+     "valor": "≤ 1,6 g/cm³",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Sólidos por massa / por volume",
+     "valor": "≥ 85 % / ≥ 80 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Secagem ao toque / para manuseio, película 140–160 μm (ASTM D 1640)",
+     "valor": "≤ 3 h / ≤ 16 h",
+     "item": "Tabela 1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    },
+    {
+     "parametro": "Secagem para repintura, película 140–160 μm",
+     "valor": "16 h a 48 h",
+     "item": "Tabela 1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    },
+    {
+     "parametro": "Vida útil da mistura (NBR 15742)",
+     "valor": "2 h",
+     "item": "Tabela 1",
+     "nota": "Coluna mín./máx. ilegível na extração — conferir se é mínimo."
+    },
+    {
+     "parametro": "Finura de moagem (ASTM D 1210)",
+     "valor": "≤ 50 μm",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Consistência (ASTM D 562)",
+     "valor": "≤ 110 UK",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Descaimento (NBR 12103)",
+     "valor": "≥ 250 μm",
+     "item": "Tabela 1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#descaimento"
+    },
+    {
+     "parametro": "Poder de cobertura (NBR 9676) — branco / cinza-claro / óxido de ferro",
+     "valor": "≤ 20 / ≤ 15 / ≤ 10 (leitura no criptômetro, mm)",
+     "item": "Tabela 1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#leitura-pfund"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Película seca (Tabela 2)",
+   "item": "4.3",
+   "texto": "Sem bolhas nem corrosão após névoa salina, umidade, SO₂ e imersões (mudança de cor tolerada); nos solventes xileno e metil-isobutil-cetona, sem empolamento e sem alterar a cor do solvente.",
+   "valores": [
+    {
+     "parametro": "Aderência à tração, película 140–160 μm — preparo CSt 3 / Sa 2 1/2",
+     "valor": "≥ 10 MPa / ≥ 15 MPa",
+     "item": "Tabela 2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#tensao-arrancamento"
+    },
+    {
+     "parametro": "Brilho (ASTM D 523)",
+     "valor": "≤ 50 UB",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Névoa salina, 100 % UR, água salgada 3,5 % a 40 °C, água destilada a 40 °C, NaOH 40 % a 25 °C — película 280–320 μm",
+     "valor": "≥ 1 500 h",
+     "item": "Tabela 2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    },
+    {
+     "parametro": "SO₂ (2,0 L, NBR 8096)",
+     "valor": "≥ 5 rondas",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Imersão em xileno / metil-isobutil-cetona",
+     "valor": "≥ 1 000 h / ≥ 1 h",
+     "item": "Tabela 2",
+     "nota": "Valor de 1 h para MIBK como lido na tabela — conferir."
+    },
+    {
+     "parametro": "Penetração no entalhe após 1 500 h de névoa salina",
+     "valor": "≤ 2 mm",
+     "item": "4.3.1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#avanco-entalhe"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Preparo dos painéis e inspeção",
+   "item": "5",
+   "texto": "Rejeitar o lote que falhar na inspeção visual. Aplicar ≥ 15 min após a mistura, de preferência a pistola. Aderência sobre AISI 1020 com enferrujamento C, preparo CSt 3 (mecânico) ou CSa 2 1/2 (jato), lavado com água e escova de náilon; demais ensaios sobre aço jateado Sa 2 1/2. Ensaios da Tabela 2 após 10 dias a (25 ± 2) °C e (60 ± 5) % UR. Névoa salina com um entalhe central paralelo ao lado maior; bordas protegidas.",
+   "valores": [
+    {
+     "parametro": "Perfil de ancoragem",
+     "valor": "50 μm a 100 μm",
+     "item": "5.2.2.2, 5.2.2.3",
+     "cota": "esquemas/pintura-preparo-superficie.svg#perfil"
+    },
+    {
+     "parametro": "Dimensões da chapa de ensaio",
+     "valor": "150 mm × 80 mm",
+     "item": "5.2.2.2, 5.2.2.3",
+     "cota": "esquemas/tinta-painel-ensaio.svg#comprimento"
+    },
+    {
+     "parametro": "Espessura mínima da chapa",
+     "valor": "4,0 mm",
+     "item": "5.2.2.2, 5.2.2.3",
+     "cota": "esquemas/tinta-painel-ensaio.svg#espessura"
+    },
+    {
+     "parametro": "Distância do entalhe às bordas superior e inferior",
+     "valor": "30 mm",
+     "item": "5.2.2.6",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#entalhe-borda"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-painel-ensaio.svg",
+    "esquemas/pintura-preparo-superficie.svg",
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "id": "PETROBRAS-N-0300",
+ "titulo": "Petrobras N-0300 Rev. D (06/2013) — Detalhes de aterramento empregando-se conectores mecânicos",
+ "secoes": [
+  {
+   "titulo": "Escopo e desenhos",
+   "item": "1, 3",
+   "texto": "Padroniza, em 10 desenhos (Anexo A), os detalhes de aterramento com conectores mecânicos: poço de inspeção (A.1); barra de terra de distribuição em parede/coluna de concreto ou alvenaria (A.2) e em coluna metálica (A.3); aterramento de estruturas e equipamentos (A.4); cerca típica de subestação de unidade industrial, seu portão e módulo removível (A.5 a A.7); cerca de arame farpado (A.8); cerca e portão de subestação de alta tensão (A.9 e A.10). Recomenda-se conferir a N-2039 e a NBR 5419.",
+   "valores": [],
+   "figuras": [
+    "esquemas/aterramento-poco-inspecao.svg",
+    "esquemas/subestacao-protecao.svg"
+   ]
+  },
+  {
+   "titulo": "Poço de inspeção de aterramento",
+   "item": "Anexo A, Figura A.1",
+   "texto": "Caixa de concreto quadrada, sem fundo, com tampa de concreto e alça de levantamento de ferro feita no campo. Dentro, a haste de terra recebe os cabos por conectores; o fundo da caixa leva camada de areia limpa. A caixa pode ser trocada por manilha de barro vidrado ou tubo de PVC, e a haste por barra de terra (Figs. A.2/A.3). Dimensões em mm.",
+   "valores": [
+    {
+     "parametro": "Lado externo da caixa",
+     "valor": "450 mm × 450 mm",
+     "item": "Figura A.1",
+     "nota": "Lido da figura.",
+     "cota": "esquemas/aterramento-poco-inspecao.svg#caixa-lado"
+    },
+    {
+     "parametro": "Abertura interna sob a tampa",
+     "valor": "350 mm",
+     "item": "Figura A.1",
+     "nota": "Lido da figura (paredes de 45 mm no topo e 75 mm na base, conforme o corte).",
+     "cota": "esquemas/aterramento-poco-inspecao.svg#abertura"
+    },
+    {
+     "parametro": "Profundidade da caixa",
+     "valor": "550 mm (tampa 50 + 100 + 300 + 100 de areia)",
+     "item": "Figura A.1",
+     "nota": "Lido da figura.",
+     "cota": "esquemas/aterramento-poco-inspecao.svg#profundidade"
+    },
+    {
+     "parametro": "Espessura da tampa",
+     "valor": "50 mm",
+     "item": "Figura A.1",
+     "nota": "Lido da figura.",
+     "cota": "esquemas/aterramento-poco-inspecao.svg#tampa"
+    },
+    {
+     "parametro": "Camada de areia limpa no fundo",
+     "valor": "100 mm",
+     "item": "Figura A.1",
+     "nota": "Lido da figura.",
+     "cota": "esquemas/aterramento-poco-inspecao.svg#areia"
+    },
+    {
+     "parametro": "Diâmetro da haste de terra",
+     "valor": "3/4\" ou 5/8\"",
+     "item": "Figura A.1",
+     "cota": "esquemas/aterramento-poco-inspecao.svg#haste-diametro"
+    },
+    {
+     "parametro": "Manilha ou tubo alternativo",
+     "valor": "diâmetro 300 mm",
+     "item": "Figura A.1, Nota 1",
+     "cota": "esquemas/aterramento-poco-inspecao.svg#abertura"
+    },
+    {
+     "parametro": "Conectores por haste",
+     "valor": "máximo 5",
+     "item": "Figura A.1, Nota 2"
+    },
+    {
+     "parametro": "Alça de levantamento",
+     "valor": "barra Ø 3/4\" dobrada, 100 mm × 130 mm",
+     "item": "Figura A.1, detalhe",
+     "nota": "Lido da figura.",
+     "cota": "esquemas/aterramento-poco-inspecao.svg#haste-diametro"
+    }
+   ],
+   "figuras": [
+    "esquemas/aterramento-poco-inspecao.svg"
+   ]
+  }
+ ]
+}

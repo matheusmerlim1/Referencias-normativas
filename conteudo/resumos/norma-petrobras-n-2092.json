@@ -1,0 +1,30 @@
+{
+ "id": "PETROBRAS-N-2092",
+ "titulo": "Petrobras N-2092 Rev. B (12/2010) — Esfera de armazenamento — requisição de material",
+ "secoes": [
+  {
+   "titulo": "Escopo e preenchimento",
+   "item": "1, 3",
+   "texto": "Padroniza a requisição de material (RM) para comprar esferas de armazenamento: formulário A4 de 7 folhas (Anexo A), preenchido pelo projetista como documento inicial da compra. Legenda e rodapé pela N-381; continuação nos anexos da N-381. Uma RM só junta várias esferas da mesma área e com todas as exigências comuns; TAGs (N-1521) em destaque no campo \"identificação\" (ou \"ver item 1\").",
+   "valores": [],
+   "figuras": [
+    "esquemas/esfera-armazenamento-geometria.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo da RM",
+   "item": "Anexo A",
+   "texto": "Extensão do fornecimento marcada item a item: materiais e projeto mecânico (N-1281, N-266), projeto de fabricação, internos, bases e fundações, escadas e plataformas, matéria-prima, fabricação (N-268) e montagem (N-269), instrumentos e válvulas de segurança com instalação e aferição, inspeções, condicionamento, testes de produção, tratamento térmico e seus materiais, suportes externos para escadas, fireproofing e tubulações, tubulação até o pé da esfera, sistema de resfriamento, embalagem e transporte, supervisão, fundações e piso, teste hidrostático com flanges cegos e juntas, placas de deslizamento sob as colunas, pintura (N-2, N-13, N-1550 e Manual de Sinalização), proteção contra fogo (N-1756) e limpeza final. Sobressalentes: dois jogos de juntas e um de parafusos por boca de visita, 10 % dos parafusos/porcas/arruelas, tubo perfurado do bocal de instrumentação, aspergidor. Proposta técnica só com declaração de atendimento integral e plano de entrega; fabricação só após liberação dos documentos (lista do item 8: cargas nas fundações, projetos, memórias, fabricação, escadas e plataformas pela N-279/N-293, soldagem pela N-2301, pintura, montagem e data book).",
+   "valores": [
+    {
+     "parametro": "Parafusos, porcas e arruelas sobressalentes",
+     "valor": "10 % do total",
+     "item": "Anexo A, item 3"
+    }
+   ],
+   "figuras": [
+    "esquemas/esfera-armazenamento-geometria.svg"
+   ]
+  }
+ ]
+}

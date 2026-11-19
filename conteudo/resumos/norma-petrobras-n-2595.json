@@ -1,0 +1,143 @@
+{
+ "id": "PETROBRAS-N-2595",
+ "titulo": "Petrobras N-2595 Rev. D (03/2015) — Critérios de projeto, operação e manutenção de sistemas instrumentados de segurança em unidades industriais",
+ "secoes": [
+  {
+   "titulo": "Escopo, risco e camadas de proteção",
+   "item": "1, 5",
+   "texto": "Diretrizes para projetar, operar e manter sistemas instrumentados de segurança (SIS) em instalações terrestres; não trata de detecção de fogo e gás nem de funções só manuais (ex.: despressurização manual). Quando a frequência de um cenário passa do tolerável, aplicam-se camadas de proteção: projeto inerentemente seguro, controle (SSC), alarme com ação do operador, SIS, alívio mecânico (PSV, disco, retenção), mitigação física e planos de emergência. Recomenda-se SIS só se, depois das demais camadas, o risco residual continuar acima do tolerável. O ciclo de vida vai da análise de riscos à desativação; a documentação do SIS é separada e destacada (ISA 84.91.01).",
+   "valores": [],
+   "figuras": [
+    "esquemas/sis-camadas-sif.svg"
+   ]
+  },
+  {
+   "titulo": "Avaliação das SIFs (projeto básico)",
+   "item": "6; Tabelas 1 e 2; Anexos A e B",
+   "texto": "Feita na fase de projeto básico, pela mesma equipe multidisciplinar da análise de riscos (HAZOP), complementando-a. Cada SIF recebe um SIL pela redução de risco necessária, por gráfico de risco (Anexo A: pessoas, ambiente, patrimônio) ou LOPA (Anexo B: frequência tolerável, frequência da causa iniciadora, condição habilitadora, fatores modificadores de ignição e presença, IPLs com PFD típica). Também se fixa o tempo médio aceitável até trip espúrio (MTTFS) pelo custo de uma parada indevida, registrado na folha de dados da SIF.",
+   "valores": [
+    {
+     "parametro": "SIL 1 / 2 / 3 / 4 — fator de redução de risco (modo demanda)",
+     "valor": "> 10–100 / > 100–1 000 / > 1 000–10 000 / > 10 000–100 000",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "SIL 1 / 2 / 3 / 4 — PFDavg",
+     "valor": "10⁻² a < 10⁻¹ / 10⁻³ a < 10⁻² / 10⁻⁴ a < 10⁻³ / 10⁻⁵ a < 10⁻⁴",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "MTTFS aceitável por custo do trip espúrio",
+     "valor": "≤ US$ 10 000: sem exigência; até 100 000: 25 anos; até 1 000 000: 50 anos; acima: reavaliar a SIF",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Gráfico de risco — parâmetro de ocupação F1 / F2",
+     "valor": "< 10 % / ≥ 10 % do tempo na zona perigosa",
+     "item": "Tabela A.2"
+    },
+    {
+     "parametro": "LOPA — frequência típica da causa iniciadora: falha do SSC / selo de bomba / vaso de pressão",
+     "valor": "10⁻¹ / 10⁻¹ / 10⁻⁶ por ano",
+     "item": "Tabela B.2"
+    },
+    {
+     "parametro": "LOPA — PFDavg típica de IPL: SIF SIL 1/2/3; PSV; resposta do operador ao alarme",
+     "valor": "10⁻¹ / 10⁻² / 10⁻³; 10⁻²; 10⁻¹",
+     "item": "Tabela B.8"
+    }
+   ]
+  },
+  {
+   "titulo": "Segregação e alimentação",
+   "item": "7.1–7.5",
+   "texto": "SIFs fisicamente separadas das malhas do SSC (tomadas, linhas de impulso, iniciadores, cabos, caixas, bornes, painéis, fusíveis, executor da lógica e elementos finais); podem ser compartilhados elementos primários de vazão, rodas dentadas, poços e ramais de ar; válvula de controle como segundo elemento final só sob condições estritas. Plantas que param independentemente têm SIS distintos; canais redundantes também segregados. Alimentação de um sistema CC redundante com carregadores, baterias e quadros duplicados (N-329, N-332), fontes do executor redundantes. Sinais de processo nunca por protocolo digital; HART só para diagnóstico; evitar elementos intermediários (barreiras, isoladores), e se houver, no painel do executor e contados no cálculo.",
+   "valores": [],
+   "figuras": [
+    "esquemas/sis-camadas-sif.svg"
+   ]
+  },
+  {
+   "titulo": "Iniciadores, elementos finais e executor da lógica",
+   "item": "7.6–7.8",
+   "texto": "Iniciadores são transmissores analógicos alimentados pelo painel do executor; o diagnóstico leva o sinal para fora da faixa no sentido que evita trip espúrio; mesma faixa dos sensores do SSC para comparação; pintados de laranja segurança. Atuadores de válvula normalmente energizados/pressurizados e com retorno por mola ou acumulador; sem volante; especificar estanqueidade, modo de falha, tempos e chave de posição; teste de curso parcial só com dispositivo certificado; laranja segurança (N-1219). Executor certificado pela IEC 61508 para o maior SIL alocado; sem trip espúrio por falha singela e com troca a quente; programação em blocos de função.",
+   "valores": [
+    {
+     "parametro": "Sinal dos iniciadores",
+     "valor": "4 mA a 20 mA",
+     "item": "7.6.1"
+    },
+    {
+     "parametro": "Sinal de falha do transmissor — trip por aumento / por diminuição",
+     "valor": "< 3,6 mA / > 21 mA [prática recomendada]",
+     "item": "7.6.3"
+    },
+    {
+     "parametro": "Executor da lógica obrigatoriamente em CP de segurança",
+     "valor": "≥ 20 iniciadores + elementos finais",
+     "item": "7.8.3"
+    },
+    {
+     "parametro": "Elementos finais SIL 3",
+     "valor": "redundância diversa [prática recomendada]; confirmação do motor por rotação ou corrente",
+     "item": "7.7.6, 7.7.13"
+    }
+   ],
+   "figuras": [
+    "esquemas/sis-camadas-sif.svg",
+    "esquemas/sistema-seguranca-vaso-sensores.svg"
+   ]
+  },
+  {
+   "titulo": "Trip manual, rearme, contorno e interfaces",
+   "item": "7.9–7.15",
+   "texto": "Comandos manuais de trip definidos no projeto de processo e nunca contornáveis. Rearme sempre manual, por pulso, com a saída mantida acionada até lá (botoeira de campo só se pedido). Contorno por telas pré-configuradas do SSC com confirmação, nunca nas saídas do executor nem por forçamento de variáveis; contorno de partida só para SIFs que impedem a partida, com retorno automático; em manutenção, uma SIF por vez por equipamento e não partir com SIF contornada. Interface de operação destaca o primeiro evento; estação de engenharia em PC industrial com senha; comunicação com o SSC redundante e sem permitir comandos não previstos.",
+   "valores": [
+    {
+     "parametro": "Tempo de resposta da SIF",
+     "valor": "≤ metade do tempo de segurança do processo [prática recomendada]",
+     "item": "7.15.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/sis-camadas-sif.svg"
+   ]
+  },
+  {
+   "titulo": "Verificação de SIL e MTTFS",
+   "item": "8",
+   "texto": "Cálculos de confiabilidade (ex.: ISO TR 12489) começando com votação 1 de 1 e componentes comuns, subindo para redundância, componentes melhores ou teste parcial se necessário; SIL 3 exige tolerância a falha em todos os componentes. A memória registra votação, taxas de falha (base única da unidade, com fator de instalação), coberturas de diagnóstico e de teste, causa comum, MTTR (inclui notificação, reparo, teste e retorno), intervalo de teste e premissas.",
+   "valores": [
+    {
+     "parametro": "Intervalo entre testes periódicos",
+     "valor": "≥ período de campanha; sem campanha definida, não menor que 6 meses",
+     "item": "8.5, Nota"
+    }
+   ]
+  },
+  {
+   "titulo": "Detalhamento, TAF e comissionamento",
+   "item": "9–12",
+   "texto": "Detalhamento cumpre a Seção 7 e repete os cálculos; documentos: lista de SIFs e instrumentos, folhas de dados de SIF, diagrama lógico, cargas elétricas se a alimentação for exclusiva. TAF exaustivo de todas as SIFs e combinações lógicas (IEC 62381), com testes de interface em todos os canais e diagnósticos; preservação do executor. Instalação e condicionamento dispositivo a dispositivo; pré-operação valida o conjunto com simulações sem excesso de demandas nos elementos finais; Declaração de Aceitação do SIS com versão do programa, resultados e assinaturas.",
+   "valores": [
+    {
+     "parametro": "Pontos de teste analógico no TAF (exemplo)",
+     "valor": "0, 25, 50, 75 e 100 %",
+     "item": "10.3.2"
+    }
+   ]
+  },
+  {
+   "titulo": "Operação, manutenção, testes periódicos e modificações",
+   "item": "13",
+   "texto": "Registros codificados de falhas, atuações e reparos para estatística; documentação sob controle de revisão e auditorias periódicas. Testes por procedimento escrito para cada SIF (ISA TR 84.00.03), na periodicidade que mantém o SIL; nas paradas programadas, todas as SIFs testadas com cobertura total, simulando o processo real nos iniciadores e forçando as saídas para os elementos finais, com contingência se a válvula falhar na posição segura. Trips reais podem contar como teste sob condições. Modificações passam pelo ciclo de vida e verificam que outras SIFs não foram afetadas.",
+   "valores": [
+    {
+     "parametro": "Cobertura dos testes nas paradas programadas",
+     "valor": "fator de cobertura = 1 para todas as SIFs",
+     "item": "13.3.4"
+    }
+   ]
+  }
+ ]
+}

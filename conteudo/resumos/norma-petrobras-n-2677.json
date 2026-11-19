@@ -1,0 +1,190 @@
+{
+ "id": "PETROBRAS-N-2677",
+ "titulo": "Petrobras N-2677 Rev. B (12/2017) — Tinta de poliuretano acrílico",
+ "secoes": [
+  {
+   "titulo": "Escopo, embalagem e marcação",
+   "item": "1, 3, 4.1",
+   "texto": "Características verificáveis em laboratório no recebimento de tinta de poliuretano acrílico alifático (acabamento), bicomponente: A = resina acrílica poli-hidroxilada; B = agente de cura de poli-isocianato alifático. Na cor alumínio (0170) pode vir em 3 componentes, sendo C a pasta de alumínio tipo leafing, homogênea e sem ressecamento (1ª emenda, 11/2020). Latas cilíndricas, vedação inerte, rotulagem lateral; diluição conforme o fabricante. Rótulo: N-2677, nome, componente A/B/C, diluente, quantidade (L e kg), fabricante, lote, validade e proporção.",
+   "valores": [
+    {
+     "parametro": "Estabilidade em armazenagem (fechado, < 40 °C)",
+     "valor": "≥ 6 meses; revalidável por 2 períodos de 3 meses (N-13)",
+     "item": "3.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Produto pronto para aplicação (Tabelas 1 e 2)",
+   "item": "4.2, Anexo A",
+   "texto": "Mistura de consistência uniforme. A cor alumínio tem requisitos próprios (Tabela 2). Poder de cobertura pelo criptômetro de Pfund (placa nº 7), por grupo de cor.",
+   "valores": [
+    {
+     "parametro": "Massa específica — cores / alumínio",
+     "valor": "≤ 1,35 / ≤ 1,15 g/cm³",
+     "item": "Tabelas 1 e 2"
+    },
+    {
+     "parametro": "Sólidos por massa — cores / alumínio",
+     "valor": "≥ 70 % / ≥ 55 %",
+     "item": "Tabelas 1 e 2"
+    },
+    {
+     "parametro": "Sólidos por volume — cores / alumínio",
+     "valor": "≥ 63 % / ≥ 50 %",
+     "item": "Tabelas 1 e 2"
+    },
+    {
+     "parametro": "Consistência — cores / alumínio",
+     "valor": "≤ 90 / ≤ 70 UK",
+     "item": "Tabelas 1 e 2"
+    },
+    {
+     "parametro": "Descaimento (película seca)",
+     "valor": "≥ 70 μm",
+     "item": "Tabelas 1 e 2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#descaimento"
+    },
+    {
+     "parametro": "Vida útil da mistura (NBR 15742)",
+     "valor": "≥ 2 h",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Secagem ao toque / livre de pegajosidade, película 60–70 μm",
+     "valor": "≤ 4 h / ≤ 8 h",
+     "item": "Tabelas 1 e 2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    },
+    {
+     "parametro": "Secagem para repintura, película 60–70 μm",
+     "valor": "8 h a 48 h (alumínio: ≥ 8 h)",
+     "item": "Tabelas 1 e 2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    },
+    {
+     "parametro": "Finura de moagem (ASTM D 1210)",
+     "valor": "≤ 25 μm",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Poder de cobertura — alaranjado, amarelos e vermelho de segurança",
+     "valor": "≤ 20 mm",
+     "item": "Tabela A-1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#leitura-pfund"
+    },
+    {
+     "parametro": "Poder de cobertura — azul-pastel, branco, cinzas claro/gelo, cremes, verdes",
+     "valor": "≤ 15 mm",
+     "item": "Tabela A-1",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#leitura-pfund"
+    },
+    {
+     "parametro": "Poder de cobertura — azul-Petrobras, azul-segurança, cinza-escuro, marrom, óxido de ferro, preto",
+     "valor": "≤ 10 mm",
+     "item": "Tabela A-1",
+     "nota": "Agrupamento lido de tabela com células mescladas — conferir.",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#leitura-pfund"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Película seca (Tabela 3)",
+   "item": "4.3",
+   "texto": "Sem bolhas nem corrosão após névoa salina, umidade, SO₂ e imersões. No ensaio UV-A com condensação (ciclos de 8 h UV + 4 h condensação) a película não pode gizar e a perda de brilho é limitada a um percentual do inicial (conferir o valor na norma).",
+   "valores": [
+    {
+     "parametro": "Aderência — falha A/B",
+     "valor": "> 15 MPa",
+     "item": "Tabela 3, notas 1 e 2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#tensao-arrancamento"
+    },
+    {
+     "parametro": "Aderência — falhas B/C, C, C/Y, Y",
+     "valor": "> 10 MPa (cor alumínio: > 5 MPa)",
+     "item": "Tabela 3, notas 1 e 2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#tensao-arrancamento"
+    },
+    {
+     "parametro": "Brilho a 60°, película 120–140 μm",
+     "valor": "≥ 85 UB",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Névoa salina, 100 % UR, água destilada e salgada a 40 °C — película 120–140 μm",
+     "valor": "≥ 720 h",
+     "item": "Tabela 3",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#pelicula-seca"
+    },
+    {
+     "parametro": "SO₂ (2,0 L)",
+     "valor": "≥ 5 rondas",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "UV-A e condensação (ASTM G 154)",
+     "valor": "≥ 1 440 h",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Penetração no entalhe após 720 h de névoa salina",
+     "valor": "≤ 1 mm",
+     "item": "4.3.2",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#avanco-entalhe"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  },
+  {
+   "titulo": "Preparo dos painéis e inspeção",
+   "item": "5",
+   "texto": "Rejeitar o lote que falhar na inspeção visual. Aplicar ≥ 15 min após a mistura, de preferência a pistola. Aderência medida sobre um esquema: aço jateado Sa 2 1/2, uma demão de N-2680, após 24 h uma demão de N-2677, cura mínima de 7 dias e ensaio pela NBR 15877/ASTM D 4541. Demais ensaios com a tinta direto sobre AISI 1020 jateado Sa 2 1/2. Ensaios da Tabela 3 após 7 dias a (25 ± 2) °C e (60 ± 5) % UR; névoa salina com um entalhe central; bordas protegidas.",
+   "valores": [
+    {
+     "parametro": "Perfil de ancoragem — painel de aderência / demais ensaios",
+     "valor": "50–100 μm / 20–40 μm",
+     "item": "5.2.2.2 a), 5.2.2.3",
+     "cota": "esquemas/pintura-preparo-superficie.svg#perfil"
+    },
+    {
+     "parametro": "Película seca mínima no painel de aderência — fundo N-2680 / acabamento N-2677",
+     "valor": "150 μm / 70 μm",
+     "item": "5.2.2.2 b), c)",
+     "cota": "esquemas/pintura-esquema-camadas.svg#fundo"
+    },
+    {
+     "parametro": "Dimensões da chapa de ensaio",
+     "valor": "150 mm × 100 mm",
+     "item": "5.2.2.2, 5.2.2.3",
+     "cota": "esquemas/tinta-painel-ensaio.svg#comprimento"
+    },
+    {
+     "parametro": "Espessura mínima da chapa",
+     "valor": "4 mm",
+     "item": "5.2.2.2, 5.2.2.3",
+     "cota": "esquemas/tinta-painel-ensaio.svg#espessura"
+    },
+    {
+     "parametro": "Distância do entalhe às bordas superior e inferior",
+     "valor": "30 mm",
+     "item": "5.2.2.6",
+     "cota": "esquemas/tinta-ensaio-entalhe-aderencia.svg#entalhe-borda"
+    }
+   ],
+   "figuras": [
+    "esquemas/tinta-painel-ensaio.svg",
+    "esquemas/pintura-preparo-superficie.svg",
+    "esquemas/pintura-esquema-camadas.svg",
+    "esquemas/tinta-ensaio-entalhe-aderencia.svg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "id": "PETROBRAS-N-0058",
+ "titulo": "Petrobras N-0058 Rev. C (02/1999) — Símbolos gráficos para fluxogramas de processo e de engenharia",
+ "secoes": [
+  {
+   "titulo": "Escopo e regras gerais",
+   "item": "1, 3",
+   "texto": "Define os símbolos dos fluxogramas de processo e de engenharia; instrumentos seguem a ISA 5.1. Os símbolos são desenhados mantendo, quando possível, a proporção entre as dimensões reais; equipamentos com acionador (bomba, agitador) combinam o símbolo do equipamento com o do acionador (nos anexos aparece o motor elétrico como exemplo). Equipamentos identificados pela N-1521 e folhas pela N-381.",
+   "valores": [],
+   "figuras": [
+    "esquemas/fluxograma-equipamentos-simbolos.svg"
+   ]
+  },
+  {
+   "titulo": "Grupos de símbolos (Anexos A a H)",
+   "item": "4",
+   "texto": "A — itens de tubulação: válvulas, flanges e conexões, reduções, figura oito e raquete, filtros de linha, purgador, junta de expansão, disco de ruptura, respiro, sifão, silenciador, visor de fluxo, hidrante, chuveiro e lava-olhos, mangote, aquecimento e isolamento de linha. B — transferência de fluidos: acionadores, bombas, compressores e sopradores, ejetor, ventilador. C — troca térmica: permutadores (feixe tubular, tubos concêntricos, placas), resfriador a ar, refervedor, caldeira, forno, torre de resfriamento, serpentina. D — caldeiraria: vasos, torres de destilação, tanques, tocha (inclusive multiponto), chaminé, desaerador, filtros, coalescedor, misturador estático, cabeça de poço. E — internos: eliminador de névoa e quebra-vórtice. F — mecânicos: balança, braço de carregamento, agitador. G — manuseio de sólidos: correias, britadores, moinhos, peneiras, silos, ensacadeira, ponte rolante, talha. H — diversos: comportas, caixa de mar, câmara de espuma, lançador/recebedor de pig, precipitador eletrostático, separador água-óleo, retentor de chama e símbolos de condição de operação.",
+   "valores": [],
+   "figuras": [
+    "esquemas/fluxograma-equipamentos-simbolos.svg",
+    "esquemas/tubulacao-simbolos.svg"
+   ]
+  }
+ ]
+}

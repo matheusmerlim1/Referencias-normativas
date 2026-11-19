@@ -1,0 +1,195 @@
+{
+ "id": "PETROBRAS-N-2549",
+ "titulo": "Petrobras N-2549 Rev. C (08/2019) — Critérios de projeto e segurança para laboratórios químicos",
+ "secoes": [
+  {
+   "titulo": "Operação segura e equipamentos de segurança",
+   "item": "3, 4, 5",
+   "texto": "Visitantes sempre acompanhados; procedimento de desocupação ligado ao plano de emergência; correção imediata de piso molhado ou irregular, ralos soltos e portas obstruídas; tubulações de gás nas cores da N-1219/NBR 13193; extintores, chuveiros e lava-olhos visíveis, livres e sinalizados; EPI pela NR-6, definido pelo SMS e sinalizado na porta; óculos de grau só com óculos de segurança próprios ou de sobreposição. Mudança que altere a função de um equipamento passa por gestão de mudança.",
+   "valores": [
+    {
+     "parametro": "Teste do lava-olhos",
+     "valor": "diário, antes do início das atividades",
+     "item": "3.17, Nota 1"
+    },
+    {
+     "parametro": "Teste do chuveiro de emergência",
+     "valor": "intervalo inferior a 3 meses",
+     "item": "3.17, Nota 2"
+    },
+    {
+     "parametro": "Avaliação periódica da capela",
+     "valor": "no máximo a cada 12 meses (e após incidente ou manutenção)",
+     "item": "5.6"
+    },
+    {
+     "parametro": "Capela — velocidade de face mínima",
+     "valor": "0,50 m/s (alarme de velocidade de face obrigatório)",
+     "item": "5.6 a); 8.15.1"
+    },
+    {
+     "parametro": "Capela — iluminância no tampo",
+     "valor": "≥ 500 lux",
+     "item": "5.6 b)"
+    },
+    {
+     "parametro": "Capela — ruído para conforto",
+     "valor": "até 65 dB",
+     "item": "5.6 c)"
+    }
+   ],
+   "figuras": [
+    "esquemas/laboratorio-quimico-capela-bancada.svg"
+   ]
+  },
+  {
+   "titulo": "Armazenamento, cilindros e descarte",
+   "item": "6, 7",
+   "texto": "Produtos químicos em área ventilada, longe de calor e ignição, segregados por incompatibilidade, na quantidade mínima, pesados e líquidos mais perigosos embaixo; inflamáveis em armário com exaustão ou próprio, com contenção e prateleira metálica; corrosivos, oxidantes e tóxicos em armário com contenção; nenhum frasco guardado sobre bancada; armários das capelas exaustos. Refrigerador comercial só sem fontes de centelha (termostato, lâmpada); frost-free proibido; recomendado refrigerador próprio para inflamáveis com no-break. Cilindros de gás cobertos, ventilados, em pé e presos, identificados mesmo vazios, com capacete, separados de eletricidade, óleo, calor e corrosão, levados em carrinho; dentro do laboratório só com autorização do SMS e nunca inflamáveis. Cilindros de amostragem: estanqueidade conferida mensalmente, pressão máxima visível, transporte segregado. Resíduos pela N-2645.",
+   "valores": [
+    {
+     "parametro": "Parecer técnico dos cilindros de amostragem",
+     "valor": "no máximo a cada 5 anos (ou conforme fabricante)",
+     "item": "6.6.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Projeto: arquitetura, utilidades e mobiliário",
+   "item": "8.1–8.3, 8.4.1, 8.4.2, 8.7–8.14; Figuras 1–4",
+   "texto": "Levantar ensaios, áreas, ocupação, equipamentos, substâncias, circulação e apoio (copa, sanitário e vestiário segregados). Contêiner metálico aterrado, com proteção de portas e janelas e conforto térmico. Forro só se funcional, modulado, autoextinguível, fixado independentemente e sem luminárias. Laboratório conforme a norma pode ser área não classificada (exceto o interior de refrigeradores de inflamáveis, com EPL certificado). Chave geral fora do laboratório, tomadas fora da capela. Esgoto oleoso independente com ralos sifonados, drenagem do chuveiro de emergência, dique e valetas em salas de amostras, caixa de sedimentação para mercúrio; chuveiros e lava-olhos pela NBR 16291. Portas abrindo para fora, com visor, nunca trancadas em operação; vidro laminado; antecâmara pressurizada se a porta dá para área classificada. Mobiliário com recuo para os pés, sem cantos vivos, gavetas com batente e armários com contenção.",
+   "valores": [
+    {
+     "parametro": "Pé-direito livre mínimo",
+     "valor": "2,7 m (sem dutos ou vigas abaixo disso)",
+     "item": "8.2.7",
+     "cota": "esquemas/laboratorio-quimico-capela-bancada.svg#pe-direito"
+    },
+    {
+     "parametro": "Pia — profundidade mínima da cuba",
+     "valor": "30 cm",
+     "item": "8.4.2.7",
+     "cota": "esquemas/laboratorio-quimico-capela-bancada.svg#cuba-profundidade"
+    },
+    {
+     "parametro": "Pia — altura da torneira acima da borda da cuba",
+     "valor": "30 cm a 35 cm (acionamento rápido, não giratório)",
+     "item": "8.4.2.7",
+     "cota": "esquemas/laboratorio-quimico-capela-bancada.svg#torneira-altura"
+    },
+    {
+     "parametro": "Porta de acesso de pessoas (recomendada)",
+     "valor": "0,90 m × 2,10 m",
+     "item": "8.7.7",
+     "cota": "esquemas/laboratorio-quimico-capela-bancada.svg#porta"
+    },
+    {
+     "parametro": "Porta de acesso de equipamentos",
+     "valor": "mínimo 1,20 m × 2,10 m (porta mista: a maior)",
+     "item": "8.8.1",
+     "cota": "esquemas/laboratorio-quimico-capela-bancada.svg#porta"
+    },
+    {
+     "parametro": "Circulação principal até a saída",
+     "valor": "largura ≥ 1,20 m, sinalizada e desobstruída",
+     "item": "8.10.2",
+     "cota": "esquemas/laboratorio-quimico-capela-bancada.svg#circulacao"
+    },
+    {
+     "parametro": "Bancada de pé — trabalho de precisão",
+     "valor": "100–110 cm (mulheres 95–105 cm)",
+     "item": "Figura 3",
+     "cota": "esquemas/laboratorio-quimico-capela-bancada.svg#bancada-altura",
+     "nota": "lido da Figura 3"
+    },
+    {
+     "parametro": "Bancada de pé — trabalho leve",
+     "valor": "90–95 cm (mulheres 85–90 cm)",
+     "item": "Figura 3",
+     "cota": "esquemas/laboratorio-quimico-capela-bancada.svg#bancada-altura",
+     "nota": "lido da Figura 3"
+    },
+    {
+     "parametro": "Bancada de pé — trabalho pesado",
+     "valor": "75–90 cm (mulheres 70–85 cm)",
+     "item": "Figura 3",
+     "cota": "esquemas/laboratorio-quimico-capela-bancada.svg#bancada-altura",
+     "nota": "lido da Figura 3"
+    },
+    {
+     "parametro": "Altura do cotovelo de referência",
+     "valor": "105 cm homens; 98 cm mulheres",
+     "item": "Figura 3",
+     "cota": "esquemas/laboratorio-quimico-capela-bancada.svg#cotovelo",
+     "nota": "lido da Figura 3"
+    },
+    {
+     "parametro": "Largura livre sob o plano de trabalho (sentado)",
+     "valor": "≥ 70 cm",
+     "item": "8.14.5",
+     "cota": "esquemas/laboratorio-quimico-capela-bancada.svg#pernas"
+    },
+    {
+     "parametro": "Prateleiras de armários de vidraria e químicos",
+     "valor": "removíveis e ajustáveis, até no máximo 1,50 m de altura",
+     "item": "8.14.8",
+     "cota": "esquemas/laboratorio-quimico-capela-bancada.svg#prateleira"
+    }
+   ],
+   "figuras": [
+    "esquemas/laboratorio-quimico-capela-bancada.svg"
+   ]
+  },
+  {
+   "titulo": "HVAC, exaustão e capela",
+   "item": "8.4.3, 8.15",
+   "texto": "Sem recirculação de ar; HVAC exclusivo e redundante se for caminho crítico ou se a exposição for letal; laboratório em pressão negativa (sala limpa positiva), com planta de vazões e sentidos de fluxo; antecâmaras recomendadas. Exaustão pontual onde não cabe capela e sobre fontes de calor; ventiladores de exaustão fora do laboratório; volume variável recomendado nas capelas; descarga longe de tomadas de ar e considerando os ventos, com estudo de dispersão recomendado. Alarmes de falha de HVAC, velocidade de face, temperatura, umidade e pressão diferencial. Ensaios pela NBR 16401-1 a 75/50/25 % de carga. Capela testada pela ANSI/ASHRAE 110 ao menos anualmente e compatível com chama/aquecimento.",
+   "valores": [
+    {
+     "parametro": "Temperatura operativa das áreas técnicas",
+     "valor": "21 °C a 23 °C; PMV entre ± 0,5 (ISO 7730)",
+     "item": "8.4.3.1 a)"
+    },
+    {
+     "parametro": "Umidade relativa das áreas técnicas",
+     "valor": "40 % a 60 %",
+     "item": "8.4.3.1 b)"
+    },
+    {
+     "parametro": "Velocidade do ar insuflado perto de capelas e coifas",
+     "valor": "< 0,20 m/s",
+     "item": "8.4.3.1 c)"
+    },
+    {
+     "parametro": "Renovação de ar mínima",
+     "valor": "8 trocas por hora (NFPA 45), ou mais se a carga térmica/exaustão exigir",
+     "item": "8.4.3.1 f)"
+    },
+    {
+     "parametro": "Filtragem (sem definição Petrobras)",
+     "valor": "F5 em laboratório típico; G3 + F7 + HEPA em sala limpa",
+     "item": "8.4.3.1 g)"
+    },
+    {
+     "parametro": "Velocidade de descarga da exaustão",
+     "valor": "10 m/s a 15 m/s (acima de 15 m/s, atenuar ruído)",
+     "item": "8.4.3.9.4 a); 8.4.3.1 e)"
+    },
+    {
+     "parametro": "Afastamento de equipamentos e vidraria da face da capela",
+     "valor": "> 15 cm para dentro",
+     "item": "8.15.2 a)",
+     "cota": "esquemas/laboratorio-quimico-capela-bancada.svg#capela-afastamento"
+    }
+   ],
+   "figuras": [
+    "esquemas/laboratorio-quimico-capela-bancada.svg"
+   ]
+  },
+  {
+   "titulo": "Rotulagem e identificação",
+   "item": "Anexo A",
+   "texto": "Modelos de rótulo de produtos químicos, etiqueta de amostra (independente ou integrada ao rótulo) e etiqueta de cilindro de gás, cuja condição (cheio, em uso, vazio) pode ser indicada por cores, picotes ou ambos."
+  }
+ ]
+}

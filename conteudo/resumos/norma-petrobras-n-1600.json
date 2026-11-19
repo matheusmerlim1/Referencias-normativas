@@ -1,0 +1,200 @@
+{
+ "id": "PETROBRAS-N-1600",
+ "titulo": "Petrobras N-1600 Rev. C (10/2013) — Construção, montagem e comissionamento de redes elétricas",
+ "secoes": [
+  {
+   "titulo": "Escopo e inspeção de recebimento",
+   "item": "1, 5",
+   "texto": "Condições mínimas para construir, montar e comissionar redes de força, controle, iluminação, automação elétrica e comunicação de dados, além de aterramento e SPDA. No recebimento conferem-se acabamento e galvanização, roscas NPT (ASME B1.20.1) de eletrodutos, conexões e caixas, espessura de parede de eletroduto de aço pela NBR 5597, botoeiras, tomadas (com plugues), luminárias, transformadores de iluminação (caixas de buchas em lados opostos, N-2201), materiais de solda exotérmica secos e na validade, bobinas de cabo identificadas dos dois lados, postes, cruzetas, isoladores, chaves e para-raios com as classes de projeto. Amostragem por atributos pela NBR 5426.",
+   "valores": [
+    {
+     "parametro": "Amostragem — qualidade limite / risco do consumidor",
+     "valor": "10 % / 5 %",
+     "item": "5.2.6.6"
+    }
+   ]
+  },
+  {
+   "titulo": "Armazenamento e preservação",
+   "item": "6",
+   "texto": "Preservar desde antes do recebimento seguindo o fabricante (poeira, umidade, corrosão). Eletrodutos metálicos, leitos e perfilados apoiados em dormentes; PVC empilhado no limite do fabricante, adesivos ao abrigo do calor; hastes de terra sobre dormentes e verificadas mensalmente; painéis de iluminação com aquecimento ligado; bobinas fechadas com réguas, pontas seladas com capuz termocontrátil e carretéis tratados (NBR 6236); inspeções periódicas por amostragem.",
+   "valores": [
+    {
+     "parametro": "Espaçamento dos apoios — eletrodutos metálicos, leitos e perfilados estocados",
+     "valor": "≤ 1,00 m (salvo fabricante)",
+     "item": "6.2.1.2",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#apoio-estoque"
+    },
+    {
+     "parametro": "Espaçamento dos apoios — hastes de aterramento estocadas",
+     "valor": "≤ 0,80 m (salvo fabricante)",
+     "item": "6.2.2.1",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#apoio-estoque"
+    },
+    {
+     "parametro": "Termostato dos resistores de aquecimento de painéis estocados",
+     "valor": "40 °C",
+     "item": "6.2.5.4"
+    },
+    {
+     "parametro": "Inspeção periódica de materiais estocados",
+     "valor": "intervalo ≤ 3 meses; lotes > 10 peças: 10 % (mínimo 10 peças)",
+     "item": "6.2.6.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/rede-eletrica-montagem-eletrodutos.svg"
+   ]
+  },
+  {
+   "titulo": "Eletrodutos envelopados e enterrados",
+   "item": "7.2",
+   "texto": "Eletrodutos alinhados na vala com espaçadores (concreto, aço ou plástico, sem queimar a galvanização), posições e afastamentos conforme projeto, N-1996 e API RP 552. Emendas metálicas só com luvas roscadas (nada soldado), luvas defasadas, sem niples, uniões ou reduções enterradas; curvas pela recomendação do fabricante, roscas abertas com tarraxa e nunca curva acima de 90°. Concretagem e identificação do topo do envelope conforme projeto; eletrodutos reserva obturados.",
+   "valores": [
+    {
+     "parametro": "Distância máxima entre espaçadores",
+     "valor": "2,50 m [prática recomendada]",
+     "item": "7.2.1.2",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#espacadores"
+    },
+    {
+     "parametro": "Deflexão máxima de trecho reto sem curva pré-fabricada",
+     "valor": "5°",
+     "item": "7.2.1.6.3",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#deflexao"
+    },
+    {
+     "parametro": "Soma das deflexões entre dois pontos de puxamento",
+     "valor": "≤ 270° (nenhuma curva > 90°)",
+     "item": "7.2.1.8",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#curvas"
+    },
+    {
+     "parametro": "Eletroduto que aflora no piso — do início da rosca ao afloramento",
+     "valor": "≥ 30 cm",
+     "item": "7.2.1.16",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#afloramento"
+    }
+   ],
+   "figuras": [
+    "esquemas/rede-eletrica-montagem-eletrodutos.svg"
+   ]
+  },
+  {
+   "titulo": "Instalações aparentes",
+   "item": "7.3",
+   "texto": "Eletrodutos rígidos fixados em suportes; com seções diferentes no mesmo suporte vale o vão da menor. Rosca com o número mínimo de fios dentro do acoplamento (ASME B1.20.1). Afastamento de linhas e equipamentos quentes pela API RP 540 quando o projeto não define. Uniões com a parte móvel para cima em trechos verticais. Unidades seladoras pela NBR IEC 60079-14, rente ao invólucro à prova de explosão. Bandejas e leitos em vários níveis seguem a ordem de segregação da N-1997.",
+   "valores": [
+    {
+     "parametro": "Vão máximo entre suportes — eletroduto 3/4\" / demais",
+     "valor": "2,50 m / 3,00 m",
+     "item": "7.3.1.1",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#suporte-eletroduto"
+    },
+    {
+     "parametro": "Afastamento de linha/equipamento a 45–65 °C",
+     "valor": "≥ 152 mm",
+     "item": "7.3.1.5 a)",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#afastamento-quente"
+    },
+    {
+     "parametro": "Afastamento de linha/equipamento acima de 65 °C",
+     "valor": "≥ 305 mm",
+     "item": "7.3.1.5 b)",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#afastamento-quente"
+    },
+    {
+     "parametro": "Folga da unidade seladora para interferências",
+     "valor": "≥ 1,5 × diâmetro externo do tubo",
+     "item": "7.3.3.4 a)",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#seladora"
+    },
+    {
+     "parametro": "Distância da unidade seladora ao invólucro Ex d",
+     "valor": "o menor entre 50 mm e o diâmetro do eletroduto (NBR IEC 60079-1)",
+     "item": "7.3.3.4 b)",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#seladora"
+    },
+    {
+     "parametro": "Distância entre níveis consecutivos de bandejamento",
+     "valor": "≥ 300 mm (N-1997)",
+     "item": "7.3.4.8",
+     "cota": "esquemas/bandejamento-cabos.svg#niveis"
+    }
+   ],
+   "figuras": [
+    "esquemas/rede-eletrica-montagem-eletrodutos.svg",
+    "esquemas/bandejamento-cabos.svg"
+   ]
+  },
+  {
+   "titulo": "Aterramento",
+   "item": "7.4",
+   "texto": "Rede de terra de cobre nu trançado ligando hastes e barras; cabo isolado só se previsto. Conexões enterradas por solda exotérmica ou compressão, nas caixas de inspeção por conectores de pressão (N-300). Superfícies limpas e ponto protegido contra oxidação após o aperto. Aterrar toda parte metálica que possa ser energizada (painéis, carcaças, eletrodutos, bandejas, cercas); motores e skids em dois pontos diametralmente opostos; cabo de terra lançado ao lado do envelope.",
+   "valores": [
+    {
+     "parametro": "Profundidade mínima do cabo de aterramento enterrado",
+     "valor": "50 cm (se o projeto não indicar)",
+     "item": "7.4.1",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#terra-profundidade"
+    },
+    {
+     "parametro": "Seção mínima do cabo de cobre nu da rede de terra",
+     "valor": "70 mm²",
+     "item": "7.4.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/rede-eletrica-montagem-eletrodutos.svg"
+   ]
+  },
+  {
+   "titulo": "Enfiação e lançamento de cabos",
+   "item": "7.5",
+   "texto": "Ponto de início escolhido para reduzir esforço; puxar lento e uniforme com dinamômetro, sem passar do limite do fabricante e com elo fusível no puxamento mecânico; vários cabos no mesmo duto puxados juntos e com a ocupação da NBR 5410/14039; destorcedor e funil limitador de raio na boca do duto; talco industrial como lubrificante. Cabos singelos em paralelo agrupados com um condutor de cada fase por grupo. Identificação permanente nos bornes, caixas de passagem e ao longo dos leitos.",
+   "valores": [
+    {
+     "parametro": "Identificação dos circuitos ao longo de leitos de cabos",
+     "valor": "no máximo de 20,00 m em 20,00 m",
+     "item": "7.5.20 c)",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#identificacao"
+    }
+   ],
+   "figuras": [
+    "esquemas/rede-eletrica-montagem-eletrodutos.svg"
+   ]
+  },
+  {
+   "titulo": "Redes aéreas, iluminação e sistemas especiais",
+   "item": "7.6–7.10",
+   "texto": "Postes locados e engastados conforme projeto, com verticalidade registrada; cruzetas, isoladores e chaves pela NBR 15688 até 15 kV; tração ou flecha dos cabos igual dentro do vão (CAA perto de rede energizada pela NBR 7430). Postes metálicos de iluminação em base com chumbadores protegidos e tubo de espera para terra. Traçamento elétrico por fitas em superfície limpa; cabos e umbilicais submarinos com faixa de domínio sinalizada; fibra óptica desenrolada por baixo da bobina.",
+   "valores": []
+  },
+  {
+   "titulo": "Testes e comissionamento",
+   "item": "9, 10",
+   "texto": "Folhas de teste dos Anexos com valor obtido, valor de comparação e aceitação. Rede de dutos verificada com gabarito; aterramento: inspeção visual, resistência de terra (NBR 15749) e continuidade entre malhas (IEEE 81); cabos: continuidade, resistência de isolamento (NBR 6813) e tensão aplicada (NBR 6881) acima de 1 kV; iluminância (NBR ISO/CIE 8995 e NBR 5101); tensão nas tomadas; teste de malha dos circuitos de comando; transformadores de iluminação: isolamento e rigidez do óleo; painéis: isolamento dos barramentos; campos elétricos e magnéticos de 60 Hz (NBR 15415); atenuação de fibra (NBR 13491). Antes de energizar: limpeza geral e reaperto das conexões.",
+   "valores": [
+    {
+     "parametro": "Gabarito do teste de dutos",
+     "valor": "90 % do diâmetro interno, puxado por guia ou ar comprimido",
+     "item": "9.1",
+     "cota": "esquemas/rede-eletrica-montagem-eletrodutos.svg#gabarito"
+    },
+    {
+     "parametro": "Tensão que exige ensaio de tensão aplicada nos cabos",
+     "valor": "> 1 000 V",
+     "item": "9.3.3"
+    },
+    {
+     "parametro": "Resistência de isolamento mínima — trafo imerso em óleo",
+     "valor": "70 MΩ por kV da classe, a 20 °C",
+     "item": "9.7.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/rede-eletrica-montagem-eletrodutos.svg"
+   ]
+  }
+ ]
+}

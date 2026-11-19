@@ -1,0 +1,178 @@
+{
+ "id": "PETROBRAS-N-1671",
+ "titulo": "Petrobras N-1671 Rev. G (10/2023) — Projeto e fabricação de forno",
+ "secoes": [
+  {
+   "titulo": "Escopo e códigos",
+   "item": "1, 3",
+   "texto": "Projeto, materiais, fabricação, inspeção, teste e preparação para transporte de fornos tubulares sujeitos à chama e auxiliares de refinaria, pela API 560 complementada por esta norma; terminologia da NBR 10778. Tolerâncias sem indicação pela NBR ISO 2768-1. Serpentinas internas com hidrocarboneto pela API 530; manifolds e tubulação externa pela ASME B31.3; outros fluidos pelo ASME I. Atender CONAMA 382/436 e NR-12, NR-14 e NR-15.",
+   "valores": [],
+   "figuras": [
+    "esquemas/forno-projeto-conveccao-janelas.svg",
+    "esquemas/forno-tubular.svg"
+   ]
+  },
+  {
+   "titulo": "Projeto térmico e mecânico",
+   "item": "4",
+   "texto": "Distribuidor/coletor de multipasses monofásico dimensionado para equilibrar as vazões; distribuidor em escoamento bifásico não é recomendado. Sem aletas serrilhadas; drenos e vents fora do forno, perto dos terminais ou crossovers. Estruturas pela AISC 360 ou NBR 8800, para todas as cargas (transporte, montagem, operação, andaimes); espaço para lançadores de pig quando houver descoqueamento por pig. Em reformadores, nada de Al, Zn (galvanizado), Pb, Sn ou Cd acima do teto da radiação. Caixas de cabeçotes com painéis aparafusados; pisos de grade ou chapa expandida.",
+   "valores": [
+    {
+     "parametro": "Diferença máxima de vazão entre passes (manifold monofásico)",
+     "valor": "< 10 % (recomendado)",
+     "item": "4.1.1"
+    },
+    {
+     "parametro": "Cobertura de cada janela de limpeza da convecção",
+     "valor": "3 filas de tubos acima e 3 abaixo",
+     "item": "4.1.3 a)",
+     "cota": "esquemas/forno-projeto-conveccao-janelas.svg#janela-limpeza"
+    },
+    {
+     "parametro": "Espaçamento das janelas de limpeza",
+     "valor": "uma a cada 4,5 m de comprimento reto de tubo",
+     "item": "4.1.3 b)",
+     "cota": "esquemas/forno-projeto-conveccao-janelas.svg#janela-limpeza"
+    },
+    {
+     "parametro": "Vão vertical livre na convecção",
+     "valor": "≥ 450 mm entre pontas de aletas, a cada vão entre suportes intermediários ou no máximo a cada 8 filas",
+     "item": "4.1.4",
+     "cota": "esquemas/forno-projeto-conveccao-janelas.svg#vao-conveccao"
+    },
+    {
+     "parametro": "Porta de inspeção em cada vão",
+     "valor": "600 mm × 600 mm",
+     "item": "4.1.4",
+     "cota": "esquemas/forno-projeto-conveccao-janelas.svg#porta-inspecao"
+    },
+    {
+     "parametro": "Chapas defletoras na caixa de cabeçotes",
+     "valor": "no máximo a cada 1,5 m na vertical",
+     "item": "4.2.6",
+     "cota": "esquemas/forno-projeto-conveccao-janelas.svg#defletoras"
+    }
+   ],
+   "figuras": [
+    "esquemas/forno-projeto-conveccao-janelas.svg"
+   ]
+  },
+  {
+   "titulo": "Tubos e suportes",
+   "item": "5, 6",
+   "texto": "Serpentina de inox austenítico só com pinos/aletas 18Cr-8Ni ou 25Cr-20Ni; AISI 321 e 347 solubilizados e estabilizados. Juntas circunferenciais longe de suportes e guias após a dilatação. Material de suporte fora dos gráficos da API 560 exige fonte da tensão admissível; ASTM A217 C5 proibido. Sem guias soldadas às curvas inferiores em serpentinas verticais suspensas; sem suportes extremos soldados à estrutura do módulo de convecção; partes desmontáveis evitadas (pinos travados com arruela soldada).",
+   "valores": [
+    {
+     "parametro": "Deflexão do tubo por fluência de longo prazo",
+     "valor": "≤ 1 diâmetro nominal na condição máxima de projeto",
+     "item": "6.1",
+     "cota": "esquemas/forno-projeto-conveccao-janelas.svg#deflexao"
+    },
+    {
+     "parametro": "Tensão nos suportes da convecção no teste hidrostático",
+     "valor": "≤ 90 % do escoamento especificado",
+     "item": "6.5"
+    },
+    {
+     "parametro": "Suportes com combustível > 100 ppm Na+V e > 650 °C — até 980 °C e espessura < 51 mm",
+     "valor": "ASTM A560 Gr 50Cr-50Ni-Cb",
+     "item": "6.8 a)",
+     "cota": "esquemas/forno-projeto-conveccao-janelas.svg#concreto-suporte"
+    },
+    {
+     "parametro": "Demais casos (Na+V)",
+     "valor": "ASTM A351 HK40 revestido com 50 mm de concreto refratário de densidade > 2 300 kg/m³",
+     "item": "6.8 b)",
+     "cota": "esquemas/forno-projeto-conveccao-janelas.svg#concreto-suporte"
+    }
+   ],
+   "figuras": [
+    "esquemas/forno-projeto-conveccao-janelas.svg"
+   ]
+  },
+  {
+   "titulo": "Chaminé, portas de alívio e janela de observação",
+   "item": "7 a 9, 12",
+   "texto": "Chaminé pelo ASME STS-1 com vento da NBR 6123 e facilidades de amostragem pela ISO 15259; quebra-vórtice só helicoidal. Forno cilíndrico de tubos helicoidais com topo da radiação removível; porta no teto que passe ao menos um \"grampo\" (dois tubos + curva). Portas de alívio de pressão com área mínima A = 5,1×10⁻⁷ · M · √(Tg + 273) (A em m², M vazão de gases em kg/h, Tg em °C), posicionadas sem risco a pessoas. Janela de observação que mostre queimadores, pilotos e serpentinas (e suportes em fornos double-fired), pivotada e removível, com portinhola interna travável. Membrana de cura de concreto refratário só à base de parafina.",
+   "valores": [
+    {
+     "parametro": "Uniões flangeadas na chaminé",
+     "valor": "aceitas com H2S no gás combustível < 100 ppm",
+     "item": "7.5"
+    },
+    {
+     "parametro": "Porta de alívio — pressão de abertura",
+     "valor": "1 245 Pa (127 mm de coluna d'água)",
+     "item": "8.1, Nota a)"
+    },
+    {
+     "parametro": "Área máxima de cada porta de explosão (recomendada)",
+     "valor": "0,4 m²",
+     "item": "8.1, Nota c)",
+     "cota": "esquemas/forno-projeto-conveccao-janelas.svg#porta-alivio"
+    },
+    {
+     "parametro": "Espessura mínima do vidro da janela de observação",
+     "valor": "10 mm, temperado, transparente e incolor",
+     "item": "9.3",
+     "cota": "esquemas/forno-projeto-conveccao-janelas.svg#vidro"
+    },
+    {
+     "parametro": "Temperatura máxima do vidro em operação normal",
+     "valor": "60 °C",
+     "item": "9.5"
+    },
+    {
+     "parametro": "Temperatura externa da chapa da chaminé",
+     "valor": "≤ 82 °C até 2 m acima da plataforma de amostragem (ambiente 27 °C, sem vento)",
+     "item": "12.1",
+     "cota": "esquemas/forno-projeto-conveccao-janelas.svg#chamine-temperatura"
+    }
+   ],
+   "figuras": [
+    "esquemas/forno-projeto-conveccao-janelas.svg"
+   ]
+  },
+  {
+   "titulo": "Conexões e equipamentos auxiliares",
+   "item": "10, 11",
+   "texto": "Medição de temperatura nas curvas de retorno dentro das caixas de cabeçotes. Bocais da carcaça padronizados nas Figs. A.1 a A.7 e Tabela A.1 (vapor de abafamento, teste/amostragem, pressão, temperatura, termopar de parede, analisador de O2; tubos e flanges de inox 18-8 ou AISI 310 acima de 1 000 °C). Queimadores: mangote flexível nas ligações, isolado em óleo e vapor; documentação completa do fornecedor; corpo em inox série 300 com ar preaquecido ≥ 350 °C; sem reguladores de ar de cilindros rotativos; sem flame rod em óleo; atomizador e spud nunca de latão; placa frontal acessível do piso. Sopradores de fuligem retráteis com retorno manual, painel local ligado ao SDCD e operação sequencial automática. Ventiladores pela API 673 (arranjo 3), mancais com provisão de névoa de óleo, acelerômetros (API 670), controle por rotação, pás aerofólio, tela na admissão, carcaça ≥ A242, acoplamento flexível inox com guarda não centelhante.",
+   "valores": [
+    {
+     "parametro": "Teste de performance do queimador em planta de teste",
+     "valor": "queimador novo no sistema, NOx < 75 ppm @ 3 % O2 base seca, ou arranjo fora da API 560",
+     "item": "11.1.2"
+    },
+    {
+     "parametro": "Espessura mínima da placa frontal do queimador",
+     "valor": "9 mm",
+     "item": "11.1.5",
+     "cota": "esquemas/forno-projeto-conveccao-janelas.svg#front-plate"
+    },
+    {
+     "parametro": "Ventilador acionado por turbina abaixo de 1 800 rpm",
+     "valor": "exige caixa redutora",
+     "item": "11.3.5"
+    },
+    {
+     "parametro": "Ventilador acima de 60 °C",
+     "valor": "jaqueta/manta térmica removível",
+     "item": "11.3.10"
+    }
+   ],
+   "figuras": [
+    "esquemas/forno-projeto-conveccao-janelas.svg",
+    "esquemas/forno-queimador-soprador.svg"
+   ]
+  },
+  {
+   "titulo": "Fabricação e teste de performance",
+   "item": "13, 14",
+   "texto": "Fabricação inclui materiais, inspeção, testes e preparação para transporte; inox protegido de maresia. Forno pré-fabricado e pré-montado no maior tamanho que os limites acordados de largura, altura, comprimento e peso permitirem; convecção em módulos completos; mínimo de soldas de campo; reforços e dispositivos de içamento indicados com dimensões, pesos e CG. Teste de performance após a montagem: estabilidade de queimadores e pilotos, ignição e detecção de chama, interferência e incidência de chamas, ventiladores, pontos quentes na serpentina e na chaparia, emissões (NOx, CO, particulados), tiragem e capacidade nominal.",
+   "valores": [],
+   "figuras": [
+    "esquemas/forno-projeto-conveccao-janelas.svg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "PETROBRAS-N-2227",
+ "titulo": "Petrobras N-2227 Rev. F (05/2019) — Queimador: requisição de material",
+ "secoes": [
+  {
+   "titulo": "Escopo e regras de uso",
+   "item": "1, 3",
+   "texto": "Padroniza a requisição de material (RM, formulário A4 do Anexo A) para compra de queimadores de fornos. Depois de preenchida, a RM é o documento inicial da compra e fica como registro permanente do equipamento. Uma RM pode cobrir vários queimadores só se todas as informações valerem para todos (e, pelo formulário, se forem do mesmo equipamento). Cabeçalho/rodapé e continuação pela N-381; identificação pela N-1521 (se não couber, escrever 'ver seção 1'); preenchimento conforme N-1671 e NBR 10778.",
+   "valores": [],
+   "figuras": [
+    "esquemas/queimador-forno-componentes.svg"
+   ]
+  },
+  {
+   "titulo": "Objetivo, escopo e sobressalentes",
+   "item": "Anexo A, seções 1–3",
+   "texto": "Só valem propostas que atendam integralmente à RM; desvios vão numa Lista de Desvios separada e, aprovados, passam a integrar a RM; o fornecimento só se completa com toda a documentação. Escopo assinalável: queimador e blocos refratários, ignitor, piloto, abafador de ruído, ligações elétricas, detecção de chama, montagem (N-1637), embalagem, supervisão de montagem, condicionamento e pré-operação, sobressalentes, estudos e garantias de adequação do envelope de chama à câmara, da distribuição de ar e da vibração mecânica/termoacústica, projeto de modificação da chaparia, garantia de emissões e treinamento. O fornecedor lista com a proposta os sobressalentes para 2 anos de operação contínua (quantidade e preço) e entrega os de partida.",
+   "valores": [
+    {
+     "parametro": "Sobressalentes mínimos (2 anos) — bloco refratário do queimador",
+     "valor": "5 % (ou 1 conjunto, o que for maior)",
+     "item": "Anexo A, 3.5"
+    },
+    {
+     "parametro": "Sobressalentes mínimos (2 anos) — bico de gás",
+     "valor": "10 % (ou 1 conjunto, o que for maior)",
+     "item": "Anexo A, 3.5"
+    },
+    {
+     "parametro": "Sobressalentes mínimos (2 anos) — lança de óleo",
+     "valor": "10 % (ou 1 conjunto, o que for maior)",
+     "item": "Anexo A, 3.5"
+    },
+    {
+     "parametro": "Sobressalentes mínimos (2 anos) — piloto",
+     "valor": "5 % (ou 1 conjunto, o que for maior)",
+     "item": "Anexo A, 3.5"
+    },
+    {
+     "parametro": "Sobressalentes mínimos (2 anos) — sistema de ignição; queimador",
+     "valor": "1 conjunto cada",
+     "item": "Anexo A, 3.5"
+    }
+   ],
+   "figuras": [
+    "esquemas/queimador-forno-componentes.svg"
+   ]
+  },
+  {
+   "titulo": "Documentos, proposta e garantias",
+   "item": "Anexo A, seções 4–9",
+   "texto": "Anexos e referências (API STD 560, API RP 535, ISA 5.1, normas Petrobras de pintura, isolamento, soldagem, END, instrumentação; NR-10/13/14; CONAMA). Todo documento traz a identificação do queimador e o número do pedido; a fabricação de cada parte só começa após aprovação (com comentários atendidos). Tabela de documentos com prazos: declaração de atendimento, lista de documentos, cronograma, subfornecedores, lista de desvios, folha de dados (N-1665) preenchida, procedimento de teste de desempenho, curvas de desempenho, nível de ruído, desenhos dimensionais com pesos, consumo de utilidades, manual, procedimentos de soldagem, plano de inspeção, data book, memórias de cálculo do envelope de chama, da distribuição de ar e da vibração. Desenhos em AutoCAD, textos em Word e planilhas em Excel (ou equivalentes); 'como construído' em mídia sem compactação. A proposta declara atendimento integral ou atendimento com Lista de Desvios; informação não pedida é desconsiderada. Só subfornecedores aprovados. Corrosão, erosão e desgaste natural não são defeito, salvo material diferente do especificado ou falha de projeto/fabricação; falhas de desempenho obrigam o fornecedor a modificar ou trocar o queimador sem ônus.",
+   "valores": [
+    {
+     "parametro": "Prazo de garantia do queimador, componentes e acessórios",
+     "valor": "12 meses a partir do início de operação",
+     "item": "Anexo A, 9.2.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/queimador-forno-componentes.svg"
+   ]
+  }
+ ]
+}

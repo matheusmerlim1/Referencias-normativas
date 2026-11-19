@@ -1,0 +1,275 @@
+{
+ "id": "PETROBRAS-N-1858",
+ "titulo": "Petrobras N-1858 Rev. C (11/2022) — Projeto e fabricação de resfriador a ar",
+ "secoes": [
+  {
+   "titulo": "Escopo, fornecimento e dados de projeto",
+   "item": "1, 5",
+   "texto": "Complementa a ISO 13706 / API 661 (e a N-253) no projeto mecânico, materiais, fabricação, inspeção e condicionamento de resfriadores a ar de tubos aletados ou lisos, tiragem forçada ou induzida, feixe normalmente horizontal. Fornecimento padrão: feixes completos com cabeçotes e bocais, venezianas (se pedidas), estrutura, controles, escadas e plataformas, motores, transmissão, ventiladores e apoios para dilatação. A folha de dados traz fator de depósito (TEMA se omitido), tipo de controle, serpentina de vapor/recirculação para produtos de alto ponto de fluidez e nível de ruído. O projeto considera o máximo resfriamento no inverno e o arranjo da N-1674 (sem recircular ar quente nem aspirar poeira).",
+   "valores": [
+    {
+     "parametro": "Pressão de projeto",
+     "valor": "maior entre pressão máxima de operação + 10 % e pressão de operação + 98 kPa (1,0 kgf/cm²)",
+     "item": "5.3.2"
+    },
+    {
+     "parametro": "Temperatura de projeto",
+     "valor": "temperatura máxima de operação + 15 °C, no mínimo",
+     "item": "5.3.4"
+    },
+    {
+     "parametro": "Altura do ventilador sobre laje (recomendada)",
+     "valor": "2,0 m acima do piso",
+     "item": "5.4.5",
+     "cota": "esquemas/resfriador-ar-geometria.svg#ventilador-altura"
+    }
+   ],
+   "figuras": [
+    "esquemas/resfriador-ar-geometria.svg"
+   ]
+  },
+  {
+   "titulo": "Materiais e cabeçotes",
+   "item": "6, 7",
+   "texto": "Partes pressurizadas pelo ASME II e VIII-1; inox austenítico e não ferrosos dispensam sobrespessura de corrosão. Papelão hidráulico proibido em juntas de tampo removível com hidrocarboneto; juntas de plugue metálicas sólidas (aceita kammprofile). Tampo removível: pressões menores, limpeza mecânica, fator de depósito alto. Bujões (plugues): pressões maiores ou H2/H2S. Manifold e pipe: altas pressões, fluido limpo. Bonnet só com aprovação. Um cabeçote pode ser flutuante para a dilatação; analisar diferença de temperatura entre fileiras e passes (congelamento, purga a vapor, perda de ventilador). Juntas de tampo removível confinadas.",
+   "valores": [
+    {
+     "parametro": "Cabeçote de tampo removível (recomendação)",
+     "valor": "pressão < 30 kgf/cm² (3 000 kPa); indicado se fator de depósito > 0,00034 m²·K/W",
+     "item": "7.1.2, Tabela 1"
+    },
+    {
+     "parametro": "Cabeçote com plugues (recomendação)",
+     "valor": "pressão > 30 kgf/cm² ou serviço com H2/H2S",
+     "item": "7.1.2, Tabela 1"
+    },
+    {
+     "parametro": "Cabeçote tipo pipe",
+     "valor": "pressão > 175 kgf/cm² (17 200 kPa), tubos sem costura; acima de 20 600 kPa exige capacitação comprovada",
+     "item": "7.1.2, 7.2.2"
+    },
+    {
+     "parametro": "Solda de resistência tubo-espelho (gás tóxico ou H2)",
+     "valor": "recomendada acima de 3 000 kPa; selagem só abaixo disso e com aprovação",
+     "item": "7.2.3"
+    },
+    {
+     "parametro": "Espessura mínima de divisores de passe e reforços",
+     "valor": "esforço aplicado + 2 × sobrespessura de corrosão (e Tabela 1 da ISO 13706)",
+     "item": "7.1.6"
+    },
+    {
+     "parametro": "Rebaixo no tampo para desmontagem",
+     "valor": "5 mm (ou parafusos de afastamento)",
+     "item": "7.2.6",
+     "cota": "esquemas/resfriador-ar-geometria.svg#rebaixo"
+    }
+   ],
+   "figuras": [
+    "esquemas/resfriador-ar-geometria.svg"
+   ]
+  },
+  {
+   "titulo": "Tubos, feixes e bocais",
+   "item": "8, 9",
+   "texto": "Tubos pela ASTM A450 antes de aletar; mesmo comprimento em unidades da mesma estrutura. Aletas incrustadas mecanicamente (tipo G); aletas enroladas L ou LL proibidas. Tubos mandrilados ao espelho; bimetálicos com a camisa aletada interrompida junto ao espelho. Feixes empilhados pré-montados na fábrica; feixes em paralelo com deslocamento lateral para simplificar a tubulação. Bocais sem projeção interna, de pescoço forjado (só os tipos a, b e c da ISO 13706).",
+   "valores": [
+    {
+     "parametro": "Comprimento máximo do feixe",
+     "valor": "12 190 mm (40 ft), salvo indicação",
+     "item": "8.3",
+     "cota": "esquemas/resfriador-ar-geometria.svg#feixe-comprimento"
+    },
+    {
+     "parametro": "Espelho com ranhura única (condições)",
+     "valor": "pressão < 980 kPa, espelho < 25,4 mm, temperatura ≤ 120 °C, líquido abaixo do ponto de fulgor, com aprovação; gás tóxico/H2 exige 2 ranhuras + selagem",
+     "item": "8.7",
+     "cota": "esquemas/resfriador-ar-geometria.svg#espelho"
+    },
+    {
+     "parametro": "Conexões flangeadas",
+     "valor": "DN 40 (NPS 1½) e maiores",
+     "item": "9.4",
+     "cota": "esquemas/resfriador-ar-geometria.svg#diametro-tubo"
+    },
+    {
+     "parametro": "Dreno/respiro roscado direto na chapa",
+     "valor": "permitido em chapa > 20 mm (condensador: tarugo)",
+     "item": "9.6",
+     "cota": "esquemas/resfriador-ar-geometria.svg#espelho"
+    },
+    {
+     "parametro": "Paralelismo tampo removível × cabeçote",
+     "valor": "0,8 mm em toda a vedação, após carga de 10 % do torque final",
+     "item": "9.8",
+     "cota": "esquemas/resfriador-ar-geometria.svg#paralelismo"
+    }
+   ],
+   "figuras": [
+    "esquemas/resfriador-ar-geometria.svg",
+    "esquemas/ligacao-flangeada-alinhamento.svg"
+   ]
+  },
+  {
+   "titulo": "Câmara plena, ventiladores e acionamento",
+   "item": "10, 11, 13",
+   "texto": "Câmara plena piramidal/cônica. Pás de alumínio ou plástico reforçado autoextinguível (com experiência comprovada em tiragem induzida quente); falta de ar no controle de passo leva as pás à vazão máxima. Cubos balanceados dinamicamente e pás estaticamente, no campo e na fábrica; lubrificação mínima e acessível. Cada ventilador com chave de vibração (SPDT) e medição de rotação por estroboscópio. Correias em V não centelhantes e antiestáticas; acoplamentos flexíveis de aço forjado; chave local de bloqueio para manutenção; VSDS definido na folha de dados.",
+   "valores": [
+    {
+     "parametro": "Ângulo de dispersão da câmara plena",
+     "valor": "≤ 45° em relação à linha de centro do feixe",
+     "item": "10.1, Figura 4",
+     "cota": "esquemas/resfriador-ar-geometria.svg#camara-angulo"
+    },
+    {
+     "parametro": "Espessura mínima dos painéis sem reforço",
+     "valor": "3 mm (recomendada)",
+     "item": "10.2",
+     "cota": "esquemas/resfriador-ar-geometria.svg#painel"
+    },
+    {
+     "parametro": "Diâmetro do ventilador",
+     "valor": "780 mm (2,5 ft) a 4 877 mm (16 ft), salvo aprovação",
+     "item": "11.2",
+     "cota": "esquemas/resfriador-ar-geometria.svg#ventilador"
+    },
+    {
+     "parametro": "Alarme de vibração (recomendado)",
+     "valor": "< 8 mm/s",
+     "item": "11.7"
+    },
+    {
+     "parametro": "Vazão de ar em operação",
+     "valor": "vazão de projeto ± 10 %, com vento até 16 km/h (4,4 m/s)",
+     "item": "11.9"
+    },
+    {
+     "parametro": "Engrenagem cônica em pedestal",
+     "valor": "motores > 45 kW (60 HP) e qualquer turbina; dentes espirais, fator de serviço 2,0 (AGMA 6001/6101)",
+     "item": "13.2.3"
+    },
+    {
+     "parametro": "Motor acoplado diretamente ao ventilador",
+     "valor": "só com ventilador de diâmetro < 1,5 m",
+     "item": "13.2.4",
+     "cota": "esquemas/resfriador-ar-geometria.svg#ventilador"
+    },
+    {
+     "parametro": "Histerese do sistema de atuação do controle",
+     "valor": "< 0,5 %",
+     "item": "16.2.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/resfriador-ar-geometria.svg"
+   ]
+  },
+  {
+   "titulo": "Estruturas",
+   "item": "14",
+   "texto": "Estrutura pela NBR 8800 e N-279, contraventada contra vento, aço A36, galvanizada a fogo (ISO 1461) sem solda depois da galvanização (ligações aparafusadas). Telas contra partes móveis e superfícies quentes; câmaras independentes em unidades de dois ventiladores; selagem contra bypass de ar. Sobre pipe rack com acionador no topo: feixes em duas vigas longitudinais contínuas na largura do rack; com acionador embaixo: colunas sobre vigas transversais contínuas e plataformas em todo o comprimento.",
+   "valores": [
+    {
+     "parametro": "Plataformas",
+     "valor": "pé-direito mínimo 2,10 m e largura mínima 0,75 m, com guarda-corpo e rodapé",
+     "item": "14.5",
+     "cota": "esquemas/resfriador-ar-geometria.svg#plataforma-pe-direito"
+    },
+    {
+     "parametro": "Largura mínima de plataforma",
+     "valor": "0,75 m",
+     "item": "14.5",
+     "cota": "esquemas/resfriador-ar-geometria.svg#plataforma-largura"
+    },
+    {
+     "parametro": "Separação entre seções em paralelo sobre pipe rack (avaliar)",
+     "valor": "300 mm a 700 mm",
+     "item": "14.13",
+     "cota": "esquemas/resfriador-ar-geometria.svg#separacao-secoes"
+    },
+    {
+     "parametro": "Base das colunas (unidade no piso)",
+     "valor": "no mínimo 150 mm acima do piso",
+     "item": "14.14.3",
+     "cota": "esquemas/resfriador-ar-geometria.svg#coluna-base"
+    },
+    {
+     "parametro": "Pé-direito sob o feixe (unidade no piso)",
+     "valor": "2,1 m acima do piso",
+     "item": "14.14.3",
+     "cota": "esquemas/resfriador-ar-geometria.svg#pe-direito-feixe"
+    }
+   ],
+   "figuras": [
+    "esquemas/resfriador-ar-geometria.svg"
+   ]
+  },
+  {
+   "titulo": "Fabricação, inspeção e testes",
+   "item": "17 a 19",
+   "texto": "Qualquer processo do ASME IX qualificado, exceto oxiacetileno; mata-junta removido. Ligação tubo-espelho de preferência por mandrilagem (ISO 13706, 9.3), conferindo o novo diâmetro interno: d_im = d_i + (D_f − d_e) + 2·f·s_p. Só mandrilagem não basta em classe ≥ 600 ou pressão > 7 000 kPa (usar solda de resistência, UW-20), fluido letal ou vazamento inadmissível (mandrilagem + selagem). TTAT após curvar tubo de aço-carbono com deformação da fibra externa > 5 %. Dureza Vickers 5 kgf (limites da N-133). Teste hidrostático pela N-253 com pelo menos 1 h, antes de pintar; teste pneumático extra em serviço com gás.",
+   "valores": [
+    {
+     "parametro": "Distância entre soldas do bocal e do cabeçote",
+     "valor": "pode ser menor que 50 mm ou 3 × a espessura, com UT e PM rigorosos",
+     "item": "17.1.2, Figura 8",
+     "cota": "esquemas/vaso-pressao-projeto-petrobras.svg#distancia-soldas"
+    },
+    {
+     "parametro": "Amostra para verificar aletas",
+     "valor": "1 % dos tubos aletados, mínimo 3 e máximo 10, da primeira corrida de cada lote",
+     "item": "18.4"
+    },
+    {
+     "parametro": "Ferritoscópio (inox austenítico/duplex)",
+     "valor": "mínimo 3 medições a cada 1,5 m de solda e 3 por solda longitudinal, de chapa e de bocal",
+     "item": "18.7"
+    },
+    {
+     "parametro": "Teste de vazamento do cabeçote (antes da expansão final)",
+     "valor": "solução de sabão com ar a 1,7 kgf/cm² ou submersão total",
+     "item": "19.3"
+    }
+   ],
+   "figuras": [
+    "esquemas/resfriador-ar-geometria.svg",
+    "esquemas/vaso-pressao-projeto-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Placa de identificação",
+   "item": "21, Anexo A",
+   "texto": "Placa no cabeçote de entrada de cada célula, visível, não removível, saliente quando houver isolamento; unidades SI. Conteúdo mínimo: TAG, código de projeto com edição e adenda, nº de série, PMTA (corroído e quente) e temperatura, MDMT, sobrespessura de corrosão, fabricante, ano, pressão de teste hidrostático e categoria NR-13.",
+   "valores": [
+    {
+     "parametro": "Material e espessura da placa",
+     "valor": "aço inoxidável ≥ 1,5 mm ou bronze 3,0 mm",
+     "item": "Anexo A, Nota 5",
+     "cota": "esquemas/resfriador-ar-geometria.svg#placa"
+    },
+    {
+     "parametro": "Dimensões da placa",
+     "valor": "cotas de 150 e 190 mm no modelo",
+     "item": "Anexo A",
+     "nota": "Lido do modelo da placa (dimensões em mm).",
+     "cota": "esquemas/resfriador-ar-geometria.svg#placa"
+    },
+    {
+     "parametro": "Furos de fixação",
+     "valor": "Ø 8,5 mm, parafusos 5/16\" × 5/8\" inox ou latão com porca e arruela",
+     "item": "Anexo A, Nota 6",
+     "cota": "esquemas/resfriador-ar-geometria.svg#placa-furo"
+    },
+    {
+     "parametro": "Altura mínima dos caracteres",
+     "valor": "3,0 mm, gravados ou estampados",
+     "item": "Anexo A, Nota 7",
+     "cota": "esquemas/resfriador-ar-geometria.svg#placa-caractere"
+    }
+   ],
+   "figuras": [
+    "esquemas/resfriador-ar-geometria.svg"
+   ]
+  }
+ ]
+}

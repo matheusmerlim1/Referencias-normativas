@@ -1,0 +1,94 @@
+{
+ "id": "PETROBRAS-N-2440",
+ "titulo": "Petrobras N-2440 Rev. D (10/2022) — Petróleo e derivados: determinação de metais e silício pelas técnicas de FAAS e ICP-AES",
+ "secoes": [
+  {
+   "titulo": "Escopo e princípio",
+   "item": "1, 3, 4",
+   "texto": "Determina Si, Al, Fe, Cu, Ni, V, Na e Zn (e também Ba, Mo, Pb, Ca, Cr, Mg, K, Sb, Ti, Mn, Sn, Sr e Li) em petróleo, óleo leve de reciclo, óleo desasfaltado, gasóleo, lubrificante e resíduos, por absorção atômica com chama (FAAS) ou emissão atômica por plasma (ICP-AES, também chamada ICP-OES), em meio aquoso. A matéria orgânica é calcinada (com HNO₃ ou H₂SO₄ em mufla elétrica — procedimento A — ou sem ácido em mufla de micro-ondas — procedimento B); as cinzas são solubilizadas em HNO₃ ou, para Si e Al, fundidas com tetraborato + metaborato de lítio. Si vindo de aditivos (antiespumante) pode se perder na queima. Não se aplica a produtos especificados pela ANP, a bunker e óleo combustível industrial (NBR 16480 e ISO 8217) nem a Si volátil. Implantação em até 180 dias (ou plano registrado).",
+   "valores": [
+    {
+     "parametro": "Faixa de aplicação (todos os elementos)",
+     "valor": "> 1 mg/kg",
+     "item": "1.3"
+    },
+    {
+     "parametro": "Al e Si por FAAS abaixo de",
+     "valor": "5 mg/kg e 10 mg/kg — exige avaliar massa de amostra e fundente",
+     "item": "1.3 (nota 2)"
+    }
+   ],
+   "figuras": [
+    "esquemas/laboratorio-calcinacao-mufla-titulacao.svg"
+   ]
+  },
+  {
+   "titulo": "Aparelhagem, reagentes e amostra",
+   "item": "5–8",
+   "texto": "Balões de vidro/polietileno ou tubos de polipropileno, béqueres de PTFE e de vidro termorresistente, bico de Bunsen/Meker, cápsulas e pinça de platina, chapa, FAAS com chamas ar-acetileno e óxido nitroso-acetileno, ICP-AES com nebulizador para alto teor de sólidos (ASTM D 7260 como referência), mufla de micro-ondas e mufla elétrica. Reagentes PA e água tipo I/II (ASTM D 1193): HF, HNO₃, H₂SO₄, fundente (1 parte de metaborato : 2 de tetraborato de lítio), supressores para FAAS (La₂O₃ para Ca e Mg, CsCl para Na e K, nitrato de Al para V), padrões de 1 g/L em frascos de PEAD ou PTFE e solução de correção de fundo (48 g de fundente + 240 mL de HNO₃ por litro). Não usar frasco de vidro para Na e Si; aquecer a amostra até ficar fluida e homogeneizar; amostras com muita água devem ser desidratadas. Material lavado com HNO₃ 1:1.",
+   "valores": [
+    {
+     "parametro": "Precisão da balança",
+     "valor": "0,1 g",
+     "item": "6.2"
+    },
+    {
+     "parametro": "Temperatura máxima da mufla elétrica",
+     "valor": "1 000 °C",
+     "item": "6.12",
+     "cota": "esquemas/laboratorio-calcinacao-mufla-titulacao.svg#temperatura-mufla"
+    }
+   ],
+   "figuras": [
+    "esquemas/laboratorio-calcinacao-mufla-titulacao.svg"
+   ]
+  },
+  {
+   "titulo": "Procedimentos A (mufla elétrica) e B (micro-ondas)",
+   "item": "9",
+   "texto": "Ensaio em branco com os mesmos reagentes. A: pesar a amostra (cápsula de Pt se houver Si/Al), adicionar 3 mL de HNO₃ ou H₂SO₄ (só HNO₃ para Pb, Ca, Ba, Sr, Mg), aquecer brandamente, queimar na chama até eliminar o combustível, calcinar em mufla e esfriar em dessecador sem dessecante; cone de papel de filtro sem cinzas evita projeções. B: rampa de micro-ondas (exemplo 150 °C, 250 °C, 400 °C e 550 °C por 180 min), cápsula coberta com vidro de relógio. Solubilizar as cinzas com 0,5 mL a 3,0 mL de HNO₃ até fumos nitrosos; se houver sílica precipitada, HF + HNO₃ em Pt ou PTFE; avolumar a 25 mL. Para Si e Al: 0,3 g a 0,6 g de fundente, mufla fria subindo até a fusão completa, retomar com água quente e HNO₃ sem secar; padrões com os mesmos reagentes (ex.: 0,3 g de fundente em 25 mL → solução de fundo diluída 4 vezes). Verificar a curva a cada 5 amostras.",
+   "valores": [
+    {
+     "parametro": "Massa de amostra — procedimento A / B",
+     "valor": "5,0 g a 50,0 g / 1 g a 25 g",
+     "item": "9.1.1, 9.2.1"
+    },
+    {
+     "parametro": "Temperatura de calcinação",
+     "valor": "550 °C",
+     "item": "9.1.3, 9.2.2",
+     "cota": "esquemas/laboratorio-calcinacao-mufla-titulacao.svg#temperatura-mufla"
+    },
+    {
+     "parametro": "Temperatura de fusão das cinzas (Si e Al)",
+     "valor": "até 1 000 °C, subindo gradualmente a partir da mufla fria",
+     "item": "9.1.7, 9.2.7",
+     "cota": "esquemas/laboratorio-calcinacao-mufla-titulacao.svg#temperatura-mufla"
+    },
+    {
+     "parametro": "Desvio máximo do padrão de verificação",
+     "valor": "10 % do nominal (senão reler / refazer a curva)",
+     "item": "9.1.9, 9.2.9"
+    }
+   ],
+   "figuras": [
+    "esquemas/laboratorio-calcinacao-mufla-titulacao.svg"
+   ]
+  },
+  {
+   "titulo": "Cálculo e expressão",
+   "item": "10",
+   "texto": "Concentração (mg/kg) = (C_A − C_B) · V · F / M, com C_A e C_B as leituras da amostra e do branco (mg/L), V o volume do balão (mL), M a massa (g) e F o fator de diluição. Avaliar o branco com cuidado: Na, Si, Fe, Zn e Cu contaminam pelo ambiente, água, reagentes, luvas e tubulações.",
+   "valores": [
+    {
+     "parametro": "Expressão do resultado",
+     "valor": "mg/kg sem casa decimal acima de 1 mg/kg; com uma casa abaixo de 1 mg/kg",
+     "item": "10.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/laboratorio-calcinacao-mufla-titulacao.svg"
+   ]
+  }
+ ]
+}

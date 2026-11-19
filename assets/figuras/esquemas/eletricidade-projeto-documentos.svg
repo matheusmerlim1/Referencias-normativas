@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 690" width="1000" height="690" role="img" aria-label="Projeto de eletricidade — perfil de rede, SPDA, malha de terra e data-book">
+<title>Projeto de eletricidade — perfil de rede, SPDA, malha de terra e data-book (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Projeto de eletricidade — perfil de rede, SPDA, malha de terra e data-book</text>
+<text x="250" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) perfil de rede subterrânea (escalas H e V)</text>
+<path d="M40,140 L120,130 L200,145 L280,125 L360,138 L440,128" fill="none" fill-opacity="0" stroke="#666" stroke-width="2"/>
+<text x="445" y="128" text-anchor="start" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">terreno</text>
+<path d="M40,190 L120,182 L200,196 L280,178 L360,190 L440,182" fill="none" fill-opacity="0" stroke="#666" stroke-width="4"/>
+<text x="445" y="184" text-anchor="start" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">envelope</text>
+<rect x="272" y="160" width="16" height="40" fill="#666" fill-opacity="0.0" stroke="#666" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="280" y="215" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">interferência (tubovia, canaleta)</text>
+<line x1="40" y1="240" x2="440" y2="240" stroke="#666" stroke-width="1.5"/>
+<text x="240" y="256" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">escala horizontal</text>
+<line x1="500" y1="120" x2="500" y2="200" stroke="#666" stroke-width="1.5"/>
+<text x="506" y="164" text-anchor="start" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">escala vertical</text>
+<text x="250" y="300" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) SPDA — região segura para trabalho</text>
+<line x1="120" y1="560" x2="120" y2="360" stroke="#666" stroke-width="4"/>
+<text x="120" y="350" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">captor / mastro</text>
+<path d="M120,360 Q190,470 300,560" fill="none" fill-opacity="0" stroke="#666" stroke-width="1.5" stroke-dasharray="7 4"/>
+<path d="M120,420 Q170,500 250,560" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="1"/>
+<text x="255" y="470" text-anchor="start" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">zona protegida</text>
+<text x="200" y="545" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">região segura</text>
+<line x1="40" y1="560" x2="440" y2="560" stroke="#666" stroke-width="3"/>
+<g id="cota-spda-distancia" class="cota"><line x1="120" y1="360" x2="140" y2="360" stroke="#666" stroke-width="1"/><line x1="120" y1="420" x2="140" y2="420" stroke="#666" stroke-width="1"/><line x1="140" y1="360" x2="140" y2="420" stroke="#666" stroke-width="1.2"/><polygon points="140.0,360.0 136.5,369.0 143.5,369.0" fill="#666"/><polygon points="140.0,420.0 143.5,411.0 136.5,411.0" fill="#666"/><text x="146" y="394.0" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">distância de segurança abaixo do limite protegido</text></g>
+<text x="740" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(c) malha de aterramento</text>
+<line x1="620" y1="90" x2="620" y2="330" stroke="#666" stroke-width="1.5"/>
+<line x1="620" y1="90" x2="860" y2="90" stroke="#666" stroke-width="1.5"/>
+<line x1="680" y1="90" x2="680" y2="330" stroke="#666" stroke-width="1.5"/>
+<line x1="620" y1="150" x2="860" y2="150" stroke="#666" stroke-width="1.5"/>
+<line x1="740" y1="90" x2="740" y2="330" stroke="#666" stroke-width="1.5"/>
+<line x1="620" y1="210" x2="860" y2="210" stroke="#666" stroke-width="1.5"/>
+<line x1="800" y1="90" x2="800" y2="330" stroke="#666" stroke-width="1.5"/>
+<line x1="620" y1="270" x2="860" y2="270" stroke="#666" stroke-width="1.5"/>
+<line x1="860" y1="90" x2="860" y2="330" stroke="#666" stroke-width="1.5"/>
+<line x1="620" y1="330" x2="860" y2="330" stroke="#666" stroke-width="1.5"/>
+<circle cx="620" cy="90" r="5" fill="#666" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
+<circle cx="620" cy="330" r="5" fill="#666" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
+<circle cx="860" cy="90" r="5" fill="#666" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
+<circle cx="860" cy="330" r="5" fill="#666" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
+<text x="740" y="350" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">hastes nos cantos da malha</text>
+<g id="cota-malha-lado" class="cota"><line x1="620" y1="335" x2="620" y2="380" stroke="#666" stroke-width="1"/><line x1="860" y1="335" x2="860" y2="380" stroke="#666" stroke-width="1"/><line x1="620" y1="380" x2="860" y2="380" stroke="#666" stroke-width="1.2"/><polygon points="620.0,380.0 629.0,383.5 629.0,376.5" fill="#666"/><polygon points="860.0,380.0 851.0,376.5 851.0,383.5" fill="#666"/><text x="740.0" y="396" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">lado da malha</text></g>
+<text x="740" y="415" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(d) pasta do data-book</text>
+<rect x="680" y="460" width="120" height="170" fill="#666" fill-opacity="0.2" stroke="#666" stroke-width="2"/>
+<rect x="800" y="460" width="24" height="170" fill="#666" fill-opacity="0.45" stroke="#666" stroke-width="2"/>
+<text x="740" y="540" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">pasta azul</text>
+<text x="740" y="553" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">porta-etiqueta</text>
+<g id="cota-pasta-altura" class="cota"><line x1="680" y1="460" x2="660" y2="460" stroke="#666" stroke-width="1"/><line x1="680" y1="630" x2="660" y2="630" stroke="#666" stroke-width="1"/><line x1="660" y1="460" x2="660" y2="630" stroke="#666" stroke-width="1.2"/><polygon points="660.0,460.0 656.5,469.0 663.5,469.0" fill="#666"/><polygon points="660.0,630.0 663.5,621.0 656.5,621.0" fill="#666"/><text x="654" y="549.0" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">altura</text></g>
+<g id="cota-pasta-largura" class="cota"><line x1="680" y1="630" x2="680" y2="648" stroke="#666" stroke-width="1"/><line x1="800" y1="630" x2="800" y2="648" stroke="#666" stroke-width="1"/><line x1="680" y1="648" x2="800" y2="648" stroke="#666" stroke-width="1.2"/><polygon points="680.0,648.0 689.0,651.5 689.0,644.5" fill="#666"/><polygon points="800.0,648.0 791.0,644.5 791.0,651.5" fill="#666"/><text x="740.0" y="664" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">largura</text></g>
+<g id="cota-pasta-lombada" class="cota"><line x1="800" y1="460" x2="800" y2="447" stroke="#666" stroke-width="1"/><line x1="824" y1="460" x2="824" y2="447" stroke="#666" stroke-width="1"/><line x1="800" y1="447" x2="824" y2="447" stroke="#666" stroke-width="1.2"/><polygon points="800.0,447.0 809.0,450.5 809.0,443.5" fill="#666"/><polygon points="824.0,447.0 815.0,443.5 815.0,450.5" fill="#666"/><text x="860.0" y="441" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">lombada</text></g>
+<text x="12" y="682" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

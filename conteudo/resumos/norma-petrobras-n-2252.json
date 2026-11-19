@@ -1,0 +1,137 @@
+{
+ "id": "PETROBRAS-N-2252",
+ "titulo": "Petrobras N-2252 Rev. D (03/2016) — Gerador de vapor para injeção em poço de petróleo",
+ "secoes": [
+  {
+   "titulo": "Escopo, documentos e condições de projeto",
+   "item": "1, 3, 4, 5",
+   "texto": "Requisitos mínimos para fornecer gerador de vapor para injeção em poços terrestres: aquotubular, de passe único, com uma ou mais serpentinas, circulação forçada de água e ar, um ou mais queimadores, sobre skid móvel ou estacionário. Projeto pelo ASME BPVC Seção I. Documentos codificados pela N-1710; proposta técnica com peças nacionais/importadas e subfornecedores qualificados (ISO/TS 29001); para aprovação: folhas de dados (gerador, queimador N-1665, motores N-2919, conversores N-2547, instrumentos N-2802), fluxogramas, classificação de áreas, plantas, set-points, memórias, desenhos de tubos aletados e refratários, lógica e causa-efeito, unifilar e CCM. Livro de projeto 'as built', livro de fabricação (certificados, Ex, END, refratário, pintura, soldagem) e manuais. Capacidade, pressão, qualidade do vapor, combustível, água e regime vêm da especificação técnica. O conjunto (zonas de convecção e radiação, auxiliares, painéis) vai sobre skid no mínimo bipartido quando estacionário, com olhais e tubulações pelo lado de fora.",
+   "valores": [
+    {
+     "parametro": "Capacidades padronizadas",
+     "valor": "4,4 MW (15 MMBtu/h); 7,3 MW (25 MMBtu/h); 14,6 MW (50 MMBtu/h); 29,2 MW (100 MMBtu/h)",
+     "item": "4.1"
+    },
+    {
+     "parametro": "Pressões máximas de trabalho padronizadas (manométricas)",
+     "valor": "10 340 kPa (1 500 psi); 17 230 kPa (2 500 psi)",
+     "item": "4.2"
+    },
+    {
+     "parametro": "Eficiência térmica mínima (ASME PTC 4)",
+     "valor": "88 %",
+     "item": "4.3"
+    },
+    {
+     "parametro": "Vida útil mínima",
+     "valor": "25 anos",
+     "item": "4.4"
+    },
+    {
+     "parametro": "Capacidade mínima de operação",
+     "valor": "25 % a 30 % da capacidade nominal",
+     "item": "4.5 (nota)"
+    }
+   ],
+   "figuras": [
+    "esquemas/gerador-vapor-injecao-poco.svg"
+   ]
+  },
+  {
+   "titulo": "Zonas de convecção, radiação e transição",
+   "item": "6, 7, 8",
+   "texto": "Convecção com gases em fluxo vertical ou horizontal e água em contracorrente, entrada e saída flangeadas por serpentina; recomenda-se lançador/recebedor de pig em cada serpentina (T com câmara de sobrediâmetro fechada por flange cego) e tubos horizontais lisos e aletados ligados por curvas de 180° (A 234 WPB), com aletas inox nas três fileiras mais quentes. Temperatura externa da câmara pela N-550, NBR 12177-2 e NBR 13970. Convecção vertical tem duas portas laterais retráteis revestidas de fibra cerâmica; as curvas ficam fora do fluxo de gases, com portas aparafusadas nas extremidades. Radiação: recomenda-se bloco do queimador segmentado em concreto refratário, dois visores de chama frontais, dreno com cap e drenagem da serpentina com válvula globo; trocar um tubo não deve exigir tirar o queimador nem o feixe. Transição (duto de interligação), quando houver: dreno com gaveta de bronze de abertura rápida e boca de visita isolada com fibra cerâmica, aparafusada e com turco.",
+   "valores": [
+    {
+     "parametro": "Contato entre cada aleta e o tubo",
+     "valor": "≥ 95 %",
+     "item": "6.3.2",
+     "cota": "esquemas/gerador-vapor-injecao-poco.svg#aletas-contato"
+    },
+    {
+     "parametro": "Bujão para inspeção interna nas curvas (uma por grupo de camadas; mínimo 4 pontos)",
+     "valor": "Ø 3/4\"",
+     "item": "6.6",
+     "cota": "esquemas/gerador-vapor-injecao-poco.svg#bujao-inspecao"
+    },
+    {
+     "parametro": "Boca de visita da zona de transição — dimensão mínima",
+     "valor": "500 mm",
+     "item": "8.7",
+     "nota": "Prática recomendada.",
+     "cota": "esquemas/gerador-vapor-injecao-poco.svg#boca-visita"
+    }
+   ],
+   "figuras": [
+    "esquemas/gerador-vapor-injecao-poco.svg"
+   ]
+  },
+  {
+   "titulo": "Sistemas auxiliares e queimador",
+   "item": "9",
+   "texto": "Água de alimentação entregue no limite do skid, vencendo a pressão máxima de vapor mais as perdas; bomba recomendada de deslocamento positivo alternativa, correias, amortecedores de pulsação, PSV, cabeçote de bronze-alumínio e êmbolos cerâmicos; retenção em série com bloqueio automático contra retorno de vapor. Pré-aquecedor (bitubular recomendado) quando for preciso manter os tubos acima do ponto de orvalho dos gases. Saída de vapor com bloqueio, retenção, no mínimo duas PSV pelo ASME I, blow-down com globo, amostragem resfriada e medição on-line da qualidade. Óleo: filtro cesta dupla, bomba de engrenagens, aquecimento (vapor/elétrico, traço pela N-1857), duas válvulas de bloqueio automático (NFPA 85) e medição fiscal. Gás pela NBR 12313: reguladora, filtro, medição (placa de orifício recomendada), piloto e chama principal com duas válvulas de bloqueio automático e vent com borbulhador; scrubber corta o gás por nível alto. Ar comprimido autossuficiente (ISA 7.0.01). Queimador sem chama atingindo os tubos em qualquer carga, piloto a gás, detecção UV com auto-teste e sequenciador SIL 3 (IEC 61508); ventilador acoplado ao queimador até 7,3 MW e separado acima de 14,6 MW (recomendado). Tubos A 106 Gr. B e conexões A 234 WPB; válvulas manuais a partir de 1 1/2\" flangeadas; flanges de alta pressão com junta anel.",
+   "valores": [
+    {
+     "parametro": "Pressão mínima de combustível líquido na sucção da bomba",
+     "valor": "9,8 kPa (0,1 kgf/cm²)",
+     "item": "9.4.5"
+    },
+    {
+     "parametro": "Pressão do gás combustível recebido",
+     "valor": "138 kPa a 242 kPa (20 psi a 35 psi)",
+     "item": "9.5.1"
+    },
+    {
+     "parametro": "Motor do soprador (recomendado)",
+     "valor": "4 polos, 1 800 rpm síncrona",
+     "item": "9.8.11"
+    }
+   ],
+   "figuras": [
+    "esquemas/gerador-vapor-injecao-poco.svg"
+   ]
+  },
+  {
+   "titulo": "Instrumentação, intertravamento e painéis",
+   "item": "10, 11",
+   "texto": "Instrumentação pela N-1882, eletrônica com sinais padrão, tag em placa à parte (ISA 5.1), sem instrumentos sobre skid vibrante. Controles automáticos: pressão de vapor, vazão de água (individual por serpentina), pressão de combustível, qualidade do vapor (dosando combustível pela vazão de água), excesso de O₂ (analisador pela API RP 555) e temperaturas da água pré-aquecida e do óleo. Totalizadores de água, combustível e ar na IHM; 31 indicadores mínimos (Tabela 1), locais legíveis do solo. Válvulas de segurança e sistema de chama SIL 3 (NFPA 85): pré-purga no programador de chama, pós-purga no CLP. Falhas que param o queimador com alarme: falta de chama, alta temperatura dos tubos/vapor/queimador/gases, alta e baixa pressão de vapor, baixa vazão de água, baixa pressão de ar, gás, atomização e ar de instrumentos, queimador aberto, falta de energia, vibração do ventilador, alta qualidade do vapor, baixo O₂ e outras. Nova partida só após reconhecimento; nunca partida automática após falta de energia. Alarmes ISA 18.1, com registro dos últimos 20. CLP pela IEC 61131; painel e CCM autoportantes, independentes e sem ligação rígida ao skid; CCM em 480 V, 60 Hz.",
+   "valores": [
+    {
+     "parametro": "Grau de proteção recomendado do painel",
+     "valor": "IP-55W",
+     "item": "11.1.2"
+    },
+    {
+     "parametro": "Espessura mínima do vidro do visor do painel",
+     "valor": "6 mm",
+     "item": "11.1.19",
+     "nota": "Prática recomendada.",
+     "cota": "esquemas/gerador-vapor-injecao-poco.svg#visor-painel"
+    },
+    {
+     "parametro": "Instrumento de indicação de grandezas elétricas no CCM",
+     "valor": "digital, 96 mm × 96 mm, precisão 0,5 %",
+     "item": "11.2.4.9",
+     "cota": "esquemas/gerador-vapor-injecao-poco.svg#indicador-painel"
+    },
+    {
+     "parametro": "Instrumentos fora do painel / motores e caixas de ligação",
+     "valor": "IP 65 / IP 55W",
+     "item": "13.3, 13.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/gerador-vapor-injecao-poco.svg"
+   ]
+  },
+  {
+   "titulo": "Estrutura, pintura, testes e partida",
+   "item": "12–18",
+   "texto": "Estrutura pelas N-279/N-293, calculada para içamento pelos olhais e transportada totalmente apoiada; dimensões e pesos na placa. Unidade para operar ao tempo em área não classificada, com proteção contra chuva. Pintura pela Tabela 2: partes frias (até 120 °C) condição 2 e quentes (120 °C a 600 °C) condição 5 da N-2; tubulações N-442; máquinas e painéis N-1735; estruturas N-1550. Equipamentos e tubulações acima de 60 °C isolados e protegidos com alumínio corrugado. Testes de fábrica: visual, dimensional, hidrostático, estanqueidade, isolação, tensão aplicada, continuidade, funcionais (cargas, ar, painéis, água, queimador), desempenho da bomba, software do CLP e malhas. No campo, testes com supervisão do fabricante, inspeção pela NBR 12177-2 e NR-13, e teste de desempenho pela ASME PTC 4 comprovando a capacidade.",
+   "valores": [],
+   "figuras": [
+    "esquemas/gerador-vapor-injecao-poco.svg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "id": "PETROBRAS-N-2910",
+ "titulo": "Petrobras N-2910 Rev. C (11/2021) — Segurança nos trabalhos em altura",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1, 3, 4",
+   "texto": "Requisitos que complementam a NR-35 (e NR-18/NR-34 no seu campo). Sistema de proteção contra quedas (SPQ): primeiro o coletivo (SPCQ, ex. guarda-corpo); o individual (SPIQ) = cinturão paraquedista + elemento de ligação + ancoragem, escolhido pela NBR 16489. Zona livre de queda (ZLQ) = do ponto de ancoragem ao obstáculo mais próximo abaixo; o valor do pictograma do absorvedor corresponde ao fator de queda 2. Piso de referência = superfície logo abaixo do trabalho.",
+   "figuras": [
+    "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg",
+    "esquemas/ancoragem-linha-de-vida-zlq.svg"
+   ]
+  },
+  {
+   "titulo": "Escadas fixas e portáteis",
+   "item": "4.1, 4.2",
+   "texto": "Preferir escada convencional (com espelho) e guarda-corpo. Escada marinheiro que leva a patamar com guarda-corpo precisa de SPIQ ou gaiola a partir da altura indicada; em acesso operacional rotineiro (ISO 14122-4) não se recomenda combinar SPIQ e gaiola, mas quem trabalha posicionado na escada com gaiola usa SPIQ; se o patamar expõe a queda, já se sobe com SPIQ. Escada portátil: uso planejado com análise de risco, seleção pela NBR 16308, carga e inclinação do fabricante, apoio antiderrapante; perto de borda de piso elevado ou de guarda-corpo com desnível, só fixada e com SPIQ, em qualquer altura.",
+   "valores": [
+    {
+     "parametro": "Escada marinheiro — altura a partir da qual exige SPIQ ou gaiola",
+     "valor": "3,5 m",
+     "item": "4.1.2",
+     "cota": "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg#altura-escada"
+    },
+    {
+     "parametro": "Escada marinheiro — faixa com análise de risco para definir a proteção",
+     "valor": "entre 2,0 m e 3,5 m",
+     "item": "4.1.2, Nota 1",
+     "cota": "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg#altura-escada"
+    }
+   ],
+   "figuras": [
+    "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Planejamento, ancoragem e vento",
+   "item": "4.3; Tabela 1",
+   "texto": "O planejamento define rotina × não rotina (não rotina com PT pela N-2162), acesso e rota de resgate, cargas e ancoragens, estabilidade da estrutura, perigos (rede elétrica, escavação, gases, mar, trabalhos simultâneos), isolamento da área abaixo, zona de queda, limites ambientais, comunicação e compatibilidade química dos EPIs. Ancoragem escolhida por profissional legalmente habilitado, inspecionada antes do uso, detalhada e conforme NBR 16325-1/-2; linhas flexíveis (NBR 14626) e rígidas (NBR 14627) avaliadas. Proibido trabalhar em altura sozinho (exceto acesso operacional rotineiro).",
+   "valores": [
+    {
+     "parametro": "Distância mínima de rede de alta tensão — até 50 kV",
+     "valor": "3,1 m",
+     "item": "Tabela 1",
+     "cota": "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg#distancia-rede",
+     "nota": "tabela baseada na ASME B30.5"
+    },
+    {
+     "parametro": "Distância mínima — 51 a 200 kV",
+     "valor": "4,6 m",
+     "item": "Tabela 1",
+     "cota": "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg#distancia-rede"
+    },
+    {
+     "parametro": "Distância mínima — 201 a 350 kV",
+     "valor": "6,1 m",
+     "item": "Tabela 1",
+     "cota": "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg#distancia-rede"
+    },
+    {
+     "parametro": "Distância mínima — 351 a 500 kV",
+     "valor": "7,7 m",
+     "item": "Tabela 1",
+     "cota": "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg#distancia-rede"
+    },
+    {
+     "parametro": "Distância mínima — 501 a 750 kV",
+     "valor": "10,7 m",
+     "item": "Tabela 1",
+     "cota": "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg#distancia-rede"
+    },
+    {
+     "parametro": "Distância mínima — 751 a 1 000 kV",
+     "valor": "13,8 m",
+     "item": "Tabela 1",
+     "cota": "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg#distancia-rede"
+    },
+    {
+     "parametro": "Vento entre 40 e 55 km/h",
+     "valor": "trabalho só com justificativa escrita (segurança + responsável) e acompanhamento de ambos; em sondas com procedimento, dispensa a autorização mas respeita o teto de 55 km/h",
+     "item": "4.3.6"
+    }
+   ],
+   "figuras": [
+    "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Acesso por cordas",
+   "item": "5.1",
+   "texto": "NR-35, NBR 15475 e 15595. Plano de ancoragem por local, feito pela contratada (PLH, supervisor N3, acesso simples ou complexo, pontos, métodos, roteiro e croquis nos complexos), aprovado conforme regra da área, e plano de resgate. Cordas e acessórios novos (reuso só na unidade que os guardou, com rastreabilidade), com certificados, identificados, guardados com acesso restrito e descartados se degradados. Corda de trabalho e de segurança distintas, de cores diferentes e em ancoragens independentes. Em parada, montar só após liberação da operação; com unidade operando, mapear pontos quentes/frios, vents e descargas de PSV. Recolher ao fim do dia.",
+   "valores": [
+    {
+     "parametro": "Inspeção de cordas e acessórios",
+     "valor": "no mínimo a cada 6 meses (NBR 15595)",
+     "item": "5.1.9"
+    },
+    {
+     "parametro": "Carga de ruptura mínima de cordas e acessórios",
+     "valor": "22 kN",
+     "item": "5.1.10"
+    }
+   ]
+  },
+  {
+   "titulo": "Andaimes, elevação de pessoas e proteção contra queda",
+   "item": "5.2–5.5",
+   "texto": "Cestas aéreas, cestos acoplados e suspensos pela NR-12/18/34 com análise de risco; andaimes pela NR-18/34, com etiqueta de liberado/proibido. EPIs e ancoragens só para trabalho em altura, certificados, inspecionados na compra, periodicamente e antes do uso; após ocorrência imprevista, retirar e analisar; reprovado é inutilizado. Talabarte com absorvedor escolhido pela abertura total frente à ZLQ; limitar o ângulo com a vertical para evitar pêndulo; ganchos e mosquetões com dupla trava; pontos de ancoragem identificados no local. Materiais descidos/subidos por corda ou içamento, nunca lançados.",
+   "valores": [
+    {
+     "parametro": "Andaime montado há muito tempo — cronograma de inspeção",
+     "valor": "a partir de 30 dias montado",
+     "item": "5.3.2"
+    },
+    {
+     "parametro": "Distância de segurança ao piso de referência",
+     "valor": "≥ 1 m, abaixo do ponto mais baixo do trabalhador, somando talabarte + absorvedor aberto + engate",
+     "item": "5.4.8; Fig. 1",
+     "cota": "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg#altura-seguranca"
+    },
+    {
+     "parametro": "Distância pé do usuário ↔ ponto de engate do cinturão",
+     "valor": "aprox. 1,5 m",
+     "item": "Fig. 1",
+     "cota": "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg#pe-ancoragem",
+     "nota": "lido da Figura 1"
+    }
+   ],
+   "figuras": [
+    "esquemas/trabalho-altura-zlq-escada-rede-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Capacitação e resgate",
+   "item": "6, 7",
+   "texto": "Capacitação pela NR-35; certificado de acesso por corda só de organismo acreditado pelo INMETRO (válido a partir da acreditação). Equipe de resgate dimensionada para o pior cenário e qualificada pela NBR 16710-1; plano de resgate por ambiente (plano padrão para rotina). Trabalho em altura dentro de espaço confinado: simulado de resgate logo após a primeira avaliação local (pode ser em ambiente controlado se a atmosfera for inerte). Verificar periodicamente equipamentos, conhecimento da equipe e tempo estimado de resgate."
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "id": "PETROBRAS-N-1883",
+ "titulo": "Petrobras N-1883 Rev. F (05/2024) — Apresentação de projeto de instrumentação, controle e automação",
+ "secoes": [
+  {
+   "titulo": "Escopo e regras gerais",
+   "item": "1, 4, 5",
+   "texto": "Lista os documentos de um projeto de instrumentação, controle e automação de processo e o conteúdo mínimo de cada um para aceitação pela Petrobras (não cobre automação elétrica, predial nem de HVAC). Insumos de outras disciplinas: padronização de material de tubulação, planta de classificação de área, planta de drenagem, planta de HVAC, memorial do processo e análises de risco (APR/HAZOP). A lista de documentos é acordada com a Petrobras e pode ser enxugada ou ampliada conforme o porte; documentos seguem a N-381, todo documento cita suas referências, campo de formulário não usado recebe um traço, formulário digital mantém o conteúdo do de papel e ferramentas CAE/CAD baseadas em banco de dados precisam de aprovação e controle de revisão. Siglas de documento (FD, DE, MD, ET, LI, MC, LD, CR, RM, PT) seguem a N-1710.",
+   "valores": [
+    {
+     "parametro": "Campo de formulário não utilizado",
+     "valor": "preencher com traço \"-\"",
+     "item": "5.6"
+    }
+   ],
+   "figuras": [
+    "esquemas/desenho-tecnico-folha.svg"
+   ]
+  },
+  {
+   "titulo": "Projeto básico",
+   "item": "6.1",
+   "texto": "Folhas de dados de processo nos formulários da N-2802. Matriz de causa e efeito por sistema (SIS, SDCD, SDAIG, CP de pacote): causas nas linhas com tag do iniciador e fluxograma, efeitos nas colunas com tag do atuador, interseções marcadas e sequências em documento complementar. Fluxograma de engenharia (N-1692) com malhas, IPLs, tipo de sinal e de sistema, posição de falha das válvulas de controle e bocais das PSVs. Memoriais descritivos, arquitetura dos sistemas (SDCD, CPs, SIS, SDAIG, STVM, STT, IHM, EMED, analisadores) com redes e protocolos, diagrama de interligação de redes com topologia e redundâncias, especificação de segurança cibernética (zonas e conduítes, SL-T pela ISA/IEC 62443-3-2 e matriz da N-2782; firewalls, DMZ, hardening, backup, acesso remoto), memorial de malhas com lógicas em SFC, diagrama de estados ou fluxograma, blocos típicos de lógica, lista preliminar de alarmes (N-2900) e de pontos de ajuste.",
+   "valores": [
+    {
+     "parametro": "Formato — memoriais, especificações técnicas e memórias de cálculo",
+     "valor": "A4",
+     "item": "6.1.8, 6.1.12, 6.2.14–6.2.23",
+     "cota": "esquemas/desenho-tecnico-folha.svg#formato"
+    },
+    {
+     "parametro": "Formato — arquitetura dos sistemas de controle e automação",
+     "valor": "A2 ou maior",
+     "item": "6.1.9.1",
+     "cota": "esquemas/desenho-tecnico-folha.svg#formato"
+    },
+    {
+     "parametro": "Formato — blocos típicos de diagrama lógico",
+     "valor": "A3",
+     "item": "6.1.14.1",
+     "cota": "esquemas/desenho-tecnico-folha.svg#formato"
+    },
+    {
+     "parametro": "Formato — listas preliminares de alarmes e de pontos de ajuste",
+     "valor": "A4 ou A3",
+     "item": "6.1.15.1, 6.2.8.1",
+     "cota": "esquemas/desenho-tecnico-folha.svg#formato"
+    }
+   ],
+   "figuras": [
+    "esquemas/desenho-tecnico-folha.svg"
+   ]
+  },
+  {
+   "titulo": "Projeto executivo — listas",
+   "item": "6.2.1–6.2.13",
+   "texto": "Cronograma, lista de documentos (número, título, formato, revisão, propósito e data), lista de instrumentos (N-2833; físicos e lógicos, por malha, viva durante o projeto), lista de cabos de instrumentação por caixa de junção ou painel com pares e bornes reserva (cabos de rede em lista separada), listas de material completas para compra quando não houver requisição, lista de alarmes (N-2900, inclusive alarmes de sistema e de pacotes), pontos de ajuste e entradas/saídas por sistema, mapa de carregamento (painel, rack, slot, tipo e modelo do cartão, instrumentos alocados), lista de comunicação (origem, destino, protocolo, tag, função, endereço) e especificação do sistema de supervisão. A documentação do SIS é separada e destacada (N-2595).",
+   "valores": []
+  },
+  {
+   "titulo": "Memórias de cálculo",
+   "item": "6.2.14–6.2.23",
+   "texto": "Elementos primários de vazão (dimensões, vazão máxima, ΔP), válvulas de controle (CV, ruído, velocidade de saída, curso, com FL, XT, FD etc.), válvulas de alívio (orifício), poço de temperatura (N-1882 e ASME PTC 19.3 TW), nível por pressão diferencial, tempo de transporte de amostra de analisadores (ASTM D7278), elevação de temperatura em painéis (IEC TR 60890 / IEC 61439-1: dissipação, área, aumento a meia-altura e no topo), enlace óptico (ISO/IEC 14763-3), circuitos intrinsecamente seguros (parâmetros de entidade pela NBR IEC 60079-14/-25) e infraestrutura eletromecânica (ocupação de eletrodutos e bandejas, raios de curvatura, prensa-cabos por painel). Sempre informar software e versão.",
+   "valores": [
+    {
+     "parametro": "Nível por ΔP — croqui de cada malha",
+     "valor": "cotas de 0 % e 100 % do nível medido",
+     "item": "6.2.18.3",
+     "cota": "esquemas/nivel-pressao-diferencial-croqui.svg#nivel-100"
+    },
+    {
+     "parametro": "Nível por ΔP — dados do cálculo",
+     "valor": "distâncias entre bocais, ΔP, fluido de selagem e densidade, range, partida e operação, fluido único ou interface",
+     "item": "6.2.18.2",
+     "cota": "esquemas/nivel-pressao-diferencial-croqui.svg#distancia-bocais"
+    },
+    {
+     "parametro": "Nível por ΔP — posição do transmissor",
+     "valor": "cota exata medida em campo; memorial reemitido \"as built\"",
+     "item": "6.2.18.3",
+     "cota": "esquemas/nivel-pressao-diferencial-croqui.svg#elevacao-transmissor"
+    }
+   ],
+   "figuras": [
+    "esquemas/nivel-pressao-diferencial-croqui.svg"
+   ]
+  },
+  {
+   "titulo": "Projeto executivo — desenhos",
+   "item": "6.2.24–6.2.41",
+   "texto": "Diagrama de interligação elétrica (borne, fio, cabo, eletroduto, alimentação e terra, do campo ao supervisório); diagrama de rede de campo (origem, cabos inclusive fibra, comprimento dos segmentos, terminadores); arranjo da sala de controle em escala com alturas dos painéis, cortes de chegada de cabos, espaço de circulação, manutenção e rota de fuga; encaminhamento de cabos na sala com pontos de terra; plantas de instrumentação pneumática e elétrica na escala da planta de tubulação, com elevações, larguras de bandeja, bitolas de eletroduto, seta norte e planta-chave; diagrama de malha (ISA 5.4) com todos os terminais, fusíveis e barras de terra; diagrama lógico (ISA 5.1 ou FBD/SFC da IEC 61131-3) com temporizadores visíveis; detalhes de instalação ao processo (N-2791/N-2833: tomadas, inclinação, elevações, selagem), pneumática e elétrica (classificação de área atendida); detalhes gerais de montagem; arquitetura, lista e diagrama de interligações de rede (IP, VLAN, zonas e conduítes).",
+   "valores": [
+    {
+     "parametro": "Formato — diagrama de interligação elétrica",
+     "valor": "A2 ou A1",
+     "item": "6.2.26.1",
+     "cota": "esquemas/desenho-tecnico-folha.svg#formato"
+    },
+    {
+     "parametro": "Formato — diagrama de rede de campo e diagrama de malha",
+     "valor": "A3",
+     "item": "6.2.27.1, 6.2.32.1",
+     "cota": "esquemas/desenho-tecnico-folha.svg#formato"
+    },
+    {
+     "parametro": "Formato — arranjo e encaminhamento na sala de controle, plantas de instrumentação",
+     "valor": "A1 ou A0",
+     "item": "6.2.28–6.2.31",
+     "cota": "esquemas/desenho-tecnico-folha.svg#formato"
+    },
+    {
+     "parametro": "Formato — diagrama lógico",
+     "valor": "A3, A2 ou A1",
+     "item": "6.2.33.1",
+     "cota": "esquemas/desenho-tecnico-folha.svg#formato"
+    },
+    {
+     "parametro": "Malhas por folha no diagrama de malha",
+     "valor": "1 (até 3 se forem só de indicação)",
+     "item": "6.2.32.5"
+    },
+    {
+     "parametro": "Índice de tags em ordem alfabética",
+     "valor": "quando o documento tiver mais de 5 folhas",
+     "item": "6.2.32.6, 6.2.34.5"
+    }
+   ],
+   "figuras": [
+    "esquemas/desenho-tecnico-folha.svg"
+   ]
+  },
+  {
+   "titulo": "Folhas de dados, compra e documentos do fabricante",
+   "item": "6.2.42–6.2.46",
+   "texto": "Folhas de dados de instrumentos na N-2802 (com selagem e fluido nos de pressão/ΔP), memorial de construção e montagem, requisição de material (N-1913, N-2833) e parecer técnico com mapa de atendimento item a item. Do fabricante: cronograma de fabricação (PERT/Gantt com caminho crítico), desenhos e telas de IHM para aprovação e depois certificados, lista de documentos com datas, relatórios de ensaio de tipo, manuais de montagem, operação e manutenção e certificados de entidades credenciadas.",
+   "valores": [
+    {
+     "parametro": "Lista de sobressalentes no manual do fabricante",
+     "valor": "para 2 anos de operação",
+     "item": "6.2.46 e)"
+    }
+   ]
+  },
+  {
+   "titulo": "Procedimentos de testes dos sistemas de automação",
+   "item": "6.2.47",
+   "texto": "Procedimentos de teste dos sistemas de controle (inclusive pacotes e skids) feitos no projeto executivo, conforme IEC 62381, API RP 554 Parte 3 e N-858: TAF (fábrica), TAC (campo), TIC (integração de campo) e TASC (segurança cibernética). Cada procedimento traz objetivo, escopo, normas, requisitos de cibersegurança, ferramentas e softwares com versão, ambiente de teste, sequência e cronograma, responsabilidades e critérios; SIS segue o plano de testes da N-2595; TASC verifica os FRs/SRs/REs da ISA/IEC 62443-3-3 e define a duração mínima do monitoramento de tráfego.",
+   "valores": []
+  }
+ ]
+}

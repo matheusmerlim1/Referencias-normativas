@@ -1,0 +1,31 @@
+{
+ "id": "PETROBRAS-N-1817",
+ "titulo": "Petrobras N-1817 Rev. A (12/2010) — Resfriador a ar — requisição de material",
+ "secoes": [
+  {
+   "titulo": "Escopo e preenchimento",
+   "item": "1, 3",
+   "texto": "Padroniza o formulário de requisição de material (RM, A4, Anexo A) para comprar resfriadores a ar da N-1858. Preenchida pelo projetista, é o documento inicial da compra. Legenda e rodapé pela N-381; continuação nos anexos da N-381. Uma RM pode cobrir vários resfriadores só se todos forem semelhantes, da mesma unidade e área e todas as exigências valerem para todos; o TAG (N-1521) vai em destaque no campo \"identificação\" (ou \"ver item 1\").",
+   "valores": [],
+   "figuras": [
+    "esquemas/resfriador-ar-geometria.svg",
+    "esquemas/documento-carimbo-retangulo-reservado.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo da RM",
+   "item": "Anexo A",
+   "texto": "1 objetivo (identificação e serviço). 2 extensão do fornecimento marcada item a item: projeto térmico e escolha justificada da tiragem, materiais, projeto mecânico/elétrico/fabricação (N-1858), fabricação e inspeção (N-268), montagem (N-269), estruturas acima das vigas do pipe rack ou até o piso, plataformas dos cabeçotes, placas, controladores, chave de vibração, balanceamento e teste mecânico dos ventiladores na fábrica, teste hidrostático e de desempenho, proteção contra fogo (N-1756), pintura (N-2, N-13, N-1735, N-1550), embalagem, transporte, supervisão e montagem, manuais. 3 sobressalentes: dois jogos de juntas e um de parafusos dos flanges principais, 10 % dos parafusos/porcas/arruelas e conjunto do acoplamento ventilador-acionador. 4 proposta técnica: só a declaração de atendimento integral (desvios só se aprovados antes, por carta circular) e o plano de entrega. 5 a 8 entrega e liberação de documentos (fabricação só após liberação). 9 lista de documentos com prazos: arranjo geral, folhas de dados do resfriador, ventiladores, motores, redutores, inversores e chaves de vibração, cargas nas fundações, memórias de cálculo térmico e mecânico, documentos de fabricação, soldagem (N-2301), pintura, montagem e curvas dos ventiladores.",
+   "valores": [
+    {
+     "parametro": "Parafusos, porcas e arruelas sobressalentes",
+     "valor": "10 % do total",
+     "item": "Anexo A, item 3"
+    }
+   ],
+   "figuras": [
+    "esquemas/resfriador-ar-geometria.svg"
+   ]
+  }
+ ]
+}

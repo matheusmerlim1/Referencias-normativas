@@ -1,0 +1,141 @@
+{
+ "id": "PETROBRAS-N-1614",
+ "titulo": "Petrobras N-1614 Rev. B (02/2014) — Construção, montagem e condicionamento de equipamentos elétricos",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Condições mínimas para recebimento, armazenamento, montagem, preservação e condicionamento (testes antes da operação) de transformadores de potência, reatores, resistores de aterramento, dutos de barramento, painéis de comando/proteção/sinalização e auxiliares, retificadores e inversores, baterias, disjuntores e transformadores de medição externos, chaves seccionadoras secas, unidades desligadoras a óleo, capacitores, geradores e motores. Os resultados vão para as folhas de teste da N-1659.",
+   "valores": [],
+   "figuras": [
+    "esquemas/motor-eletrico-inducao.svg",
+    "esquemas/transformador-potencia-imerso.svg"
+   ]
+  },
+  {
+   "titulo": "Recebimento e armazenamento",
+   "item": "4",
+   "texto": "Inspeção na chegada e preservação até a montagem conforme fabricante. Transformadores e reatores: pressão de gás inerte quando vierem pressurizados, boia do nível de óleo liberada, sílica-gel e resistores de aquecimento acompanhados, isolamento medido na chegada e periodicamente. Disjuntores: lubrificação das partes móveis e acompanhamento do gás isolante. Motores e geradores: aquecimento ligado, isolamento dos enrolamentos medido periodicamente (IEEE 43) com secagem se abaixo do mínimo, e rotor girado à mão para mudar a posição de repouso dos mancais (com pré-lubrificação nos mancais a óleo ou de bucha).",
+   "valores": [
+    {
+     "parametro": "Pressão de gás inerte — trafos/reatores pressurizados",
+     "valor": "verificação semanal",
+     "item": "4.2.1.9"
+    },
+    {
+     "parametro": "Isolamento mínimo — transformadores e reatores a óleo (armazenagem)",
+     "valor": "15 MΩ/kV da classe, a 40 °C (correção pela NBR 7036)",
+     "item": "4.2.1.12, 4.2.6.2"
+    },
+    {
+     "parametro": "Sílica-gel — verificação da cor",
+     "valor": "mensal",
+     "item": "4.2.3.4, 7.2.1.1"
+    },
+    {
+     "parametro": "Termostato dos resistores de aquecimento",
+     "valor": "40 °C",
+     "item": "4.2.3.5, 7.2.2, 7.2.3.1"
+    },
+    {
+     "parametro": "Lubrificação do mecanismo de disjuntores",
+     "valor": "no recebimento e a cada 6 meses",
+     "item": "4.2.5.4"
+    },
+    {
+     "parametro": "Isolamento dos enrolamentos de motores e geradores armazenados",
+     "valor": "medição a cada 3 meses; mínimo (kV + 1) MΩ a 40 °C",
+     "item": "4.2.10.8"
+    },
+    {
+     "parametro": "Giro manual do rotor armazenado",
+     "valor": "a cada 15 dias, cerca de 10 voltas, parando em posição diferente",
+     "item": "4.2.10.9"
+    }
+   ],
+   "figuras": [
+    "esquemas/motor-eletrico-inducao.svg"
+   ]
+  },
+  {
+   "titulo": "Bases e montagem",
+   "item": "5, 6",
+   "texto": "Antes de assentar o equipamento, checar interferências com cabos e eletrodutos; locação, chumbadores, nivelamento e eletrodutos de espera conforme projeto. Montagem por procedimento aprovado e específico (objetivo, escopo, normas, método, ferramental, critérios de aceitação), cobrindo suportação, alinhamento, travamento, nivelamento, fixação, conexões e identificação de circuitos; fixações de cabos singelos em CA não magnéticas; aterramento e continuidade entre as partes; reaperto final. Óleo de trafos completado e com rigidez medida; chaves seccionadoras alinhadas (IEEE C37.35); capacitores com circulação de ar. Motores e geradores: montagem mecânica pela norma da máquina acionada, rotor de mancal de bucha travado no transporte e, quando o rotor vem separado, inspeção e limpeza antes de inserir e medição do entreferro em várias posições.",
+   "valores": [
+    {
+     "parametro": "Rigidez dielétrica mínima do óleo isolante (NBR 6869)",
+     "valor": "30 kV",
+     "item": "6.2.1.8"
+    },
+    {
+     "parametro": "Medição do entreferro — rotor separado do estator",
+     "valor": "≥ 4 posições igualmente espaçadas, nas duas extremidades do estator e em várias posições do rotor",
+     "item": "6.2.11.3 b)",
+     "cota": "esquemas/motor-eletrico-inducao.svg#entreferro"
+    }
+   ],
+   "figuras": [
+    "esquemas/motor-eletrico-inducao.svg"
+   ]
+  },
+  {
+   "titulo": "Preservação após a montagem",
+   "item": "7",
+   "texto": "Mantêm-se os cuidados do armazenamento até a partida: sílica-gel e selo líquido do respirador verificados, partes metálicas de buchas e terminais com vaselina neutra, instrumentos e capilares protegidos por caixa de madeira, aquecimentos ligados, lubrificação periódica, vaselina nos terminais de baterias e capacitores, isolamento e rigidez do óleo de transformadores de medição medidos semestralmente, rotor girado periodicamente.",
+   "valores": [
+    {
+     "parametro": "Vaselina nos terminais de baterias e capacitores",
+     "valor": "a cada 3 meses",
+     "item": "7.2.4.2, 7.2.10.3"
+    },
+    {
+     "parametro": "Isolamento mínimo — disjuntores, TP/TC e unidades desligadoras",
+     "valor": "2 MΩ/kV a 40 °C (semestral)",
+     "item": "7.2.8.4, 7.2.9.3"
+    },
+    {
+     "parametro": "Isolamento mínimo — motores e geradores montados",
+     "valor": "(kV + 1) MΩ a 40 °C",
+     "item": "7.2.11.7"
+    }
+   ]
+  },
+  {
+   "titulo": "Testes de condicionamento",
+   "item": "8, 9",
+   "texto": "Procedimentos específicos por equipamento, com normas, instrumentos, critérios e parâmetros; temperatura ambiente registrada nos ensaios de isolamento, resistência ôhmica e tensão aplicada, e umidade nos de tensão aplicada; certificado com a folha da N-1659. Transformadores: relação em todos os tapes (TTR), resistência ôhmica dos enrolamentos, aferição de termômetros, curva de saturação de TCs de bucha, simulação de Buchholz/súbita pressão e de todas as proteções, sentido de giro dos ventiladores. Painéis: isolamento e tensão aplicada no barramento, alinhamento e simultaneidade de contatos, resistência de contato. Capacitores com 70 % da tensão da NBR 5282. Motores ≥ 2 300 V: resistência ôhmica por ponte, oscilografia da partida e vibração; geradores > 500 kW: curva de saturação em vazio e forma de onda.",
+   "valores": [
+    {
+     "parametro": "Isolamento mínimo — resistores de aterramento, barramentos, isoladores e para-raios",
+     "valor": "2 MΩ/kV",
+     "item": "8.2.2 b), 8.2.4, 8.2.7"
+    },
+    {
+     "parametro": "Tensão aplicada em barramento de painel",
+     "valor": "classe ≥ 5 kV (IEEE C37.20.1)",
+     "item": "8.2.4 h)"
+    },
+    {
+     "parametro": "Alinhamento e resistência de contatos",
+     "valor": "contatores > 100 A ou > 480 V e disjuntores (exceto caixa moldada)",
+     "item": "8.2.4 m)–o)"
+    },
+    {
+     "parametro": "Ensaio de capacitores",
+     "valor": "70 % da tensão de ensaio da NBR 5282",
+     "item": "8.2.10 b)"
+    },
+    {
+     "parametro": "Oscilografia da corrente de partida",
+     "valor": "motores ≥ 2 300 V ou BT com partida em carga > 5 s",
+     "item": "9.2.10 j)"
+    },
+    {
+     "parametro": "Ensaio de elevação de temperatura de gerador a turbina sem carga plena",
+     "valor": "30 % da carga nominal (entrega final a 100 %); diesel sempre a 100 %",
+     "item": "9.2.12, Nota"
+    }
+   ]
+  }
+ ]
+}

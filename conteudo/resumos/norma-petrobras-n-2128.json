@@ -1,0 +1,25 @@
+{
+ "id": "PETROBRAS-N-2128",
+ "titulo": "Petrobras N-2128 Rev. C (12/2014) — Apresentação de projetos de instalações prediais hidrossanitárias",
+ "secoes": [
+  {
+   "titulo": "Escopo e documentos do projeto",
+   "item": "1, 4, 5.1 a 5.3",
+   "texto": "Define como apresentar projetos prediais de água fria, água quente, água de reuso, esgoto sanitário e águas pluviais. Desenhos e formulários pela N-381, codificação pela N-1710. O projeto reúne memorial descritivo (descrição e justificativa das soluções, especificação dos materiais, lista de documentos), memória de cálculo (critérios, normas e posturas municipais, planilhas com os parâmetros hidráulicos de cada trecho), desenhos, lista de materiais com quantidades e recomendações para construção e montagem (objetivo, âmbito, especificação dos serviços, ensaios e testes, referências).",
+   "valores": [],
+   "figuras": [
+    "esquemas/tubulacao-isometrico-planta.svg"
+   ]
+  },
+  {
+   "titulo": "Desenhos exigidos",
+   "item": "5.4",
+   "texto": "Plantas dos pavimentos, esquemas verticais, isométricos, detalhes e simbologia; pluvial e esgoto também com planta de cobertura. Água fria/quente/reuso: localizar e dimensionar aparelhos, colunas de sucção/recalque e distribuição, ramais, rede horizontal, válvulas, barrilete e suspiros, elevatórias, reservatórios e medidores; isométricos de sanitários, copas, cozinhas, laboratórios, casas de bombas e barriletes; detalhes de fixação, isolamento térmico, entradas/saídas de reservatório, caixas de medidor e proteção de tubos enterrados. Esgoto e pluvial: aparelhos, ralos e desconectores, caixas e poços de visita, traçado dos ramais, tubos de queda, subcoletores e coletores com declividades, inspeções, ventilação, recalque, calhas e condutores, tratamento de esgoto e destino do efluente; detalhes de caixas (inspeção, neutralizadora, retentora, separadora água-óleo, sifonada, de areia), fossa séptica e sistemas de tratamento.",
+   "valores": [],
+   "figuras": [
+    "esquemas/tubulacao-isometrico-planta.svg",
+    "esquemas/esgoto-tanque-septico.svg"
+   ]
+  }
+ ]
+}

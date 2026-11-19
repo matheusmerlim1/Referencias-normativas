@@ -1,0 +1,176 @@
+{
+ "id": "PETROBRAS-N-0111",
+ "titulo": "Petrobras N-0111 Rev. H (09/2024) — Hidrantes industriais e acessórios para conexões do tipo \"Storz\"",
+ "secoes": [
+  {
+   "titulo": "Tipos de hidrante e diâmetros",
+   "item": "3.1, 3.2; Tabela 1; Figuras 1–10",
+   "texto": "Padroniza hidrantes externos, adaptadores, tampões, uniões e mangueiras de incêndio para instalações terrestres, aquaviárias e marítimas. Nove tipos: I, II e III verticais de 2, 4 e 6 saídas; IV vertical de 4 saídas com saída para canhão; V, VI e VII horizontais de 2, 4 e 6 saídas; VIII e IX verticais de 2 saídas para instalações marítimas. Tipos I e IX podem ser alimentados pelo topo do tubo NPS 4 (tê e derivações a 90°, sem pontos baixos). Recomendado hidrante horizontal com válvulas voltadas para a via junto a canaletas e tubovias. Hidrantes prediais seguem o Corpo de Bombeiros e a NBR 13714; internos marítimos têm saída simples ou dupla DN 40 com válvula angular flangeada.",
+   "valores": [
+    {
+     "parametro": "Entrada — tipos I, V, VIII e IX",
+     "valor": "DN 100 (NPS 4)",
+     "item": "Tabela 1",
+     "cota": "esquemas/hidrante-industrial-valvula-angular.svg#entrada"
+    },
+    {
+     "parametro": "Entrada — tipos II, III, IV, VI e VII",
+     "valor": "DN 150 (NPS 6)",
+     "item": "Tabela 1",
+     "cota": "esquemas/hidrante-industrial-valvula-angular.svg#entrada"
+    },
+    {
+     "parametro": "Saída para mangueira — tipos I, VIII e IX",
+     "valor": "DN 40 e DN 65 (NPS 1 1/2 e 2 1/2); 2 saídas",
+     "item": "Tabela 1",
+     "cota": "esquemas/hidrante-industrial-valvula-angular.svg#saida"
+    },
+    {
+     "parametro": "Saída para mangueira — tipos II a VII",
+     "valor": "DN 65 (NPS 2 1/2); 2, 4 ou 6 saídas conforme o tipo",
+     "item": "Tabela 1",
+     "cota": "esquemas/hidrante-industrial-valvula-angular.svg#saida"
+    },
+    {
+     "parametro": "Saída superior para canhão — tipo IV",
+     "valor": "DN 80 (NPS 3)",
+     "item": "Tabela 1",
+     "cota": "esquemas/hidrante-industrial-valvula-angular.svg#saida"
+    }
+   ],
+   "figuras": [
+    "esquemas/hidrante-industrial-valvula-angular.svg"
+   ]
+  },
+  {
+   "titulo": "Materiais e válvula angular",
+   "item": "3.3, 3.4",
+   "texto": "Tubos, flanges e válvulas pela especificação de tubulação do projeto (N-76 em terra; DR-ENGP no mar, com cobre-níquel 90/10 se a rede for de água do mar). Válvula angular DN 65 ou DN 40 em bronze ASTM B62, disco solto da haste com anel de neoprene subindo acima da boca de descarga. Em terra, entrada com rosca NPT e saída com rosca NH (NFPA 1963); no mar, entrada flangeada EEMUA 234 classe 20 bar com estojos de bronze-alumínio C63000. Volante em ferro nodular A536, latão B36 ou duralumínio, preso por arruela e parafuso de 1/4\". Extremidade do hidrante chanfrada para solda em terra e flangeada no mar. Mangueira pela NBR 11861 (NFPA 1961 aceita no mar).",
+   "valores": [
+    {
+     "parametro": "Válvula angular — pressão de trabalho",
+     "valor": "1 400 kPa (14,5 kgf/cm²)",
+     "item": "3.3.2.1 a)"
+    },
+    {
+     "parametro": "Válvula angular — teste de vedação (fechada)",
+     "valor": "1 724 kPa (17,5 kgf/cm²)",
+     "item": "3.3.2.1 b)"
+    },
+    {
+     "parametro": "Válvula angular — teste hidrostático do corpo",
+     "valor": "2 800 kPa (29 kgf/cm²)",
+     "item": "3.3.2.1 c)"
+    },
+    {
+     "parametro": "Haste — diâmetro do núcleo",
+     "valor": "19,0 mm (3/4\"), rosca ACME de 6 fios por polegada",
+     "item": "3.3.2.1 f)",
+     "cota": "esquemas/hidrante-industrial-valvula-angular.svg#haste"
+    },
+    {
+     "parametro": "Encaixe do volante",
+     "valor": "seção quadrada de 12,7 mm (1/2\") de lado",
+     "item": "3.3.2.1 f)",
+     "cota": "esquemas/hidrante-industrial-valvula-angular.svg#haste"
+    },
+    {
+     "parametro": "Volante — diâmetro",
+     "valor": "152,4 mm (6\")",
+     "item": "3.3.2.1 g)",
+     "cota": "esquemas/hidrante-industrial-valvula-angular.svg#volante"
+    },
+    {
+     "parametro": "Volante — torque sem deformar",
+     "valor": "90 N·m (900 kgf·cm) no aro ou raios",
+     "item": "3.3.2.1 g)"
+    },
+    {
+     "parametro": "Roscas da válvula (terra)",
+     "valor": "entrada NPS 2 1/2-8 NPT ou NPS 1 1/2-11,5 NPT; saída 2,5-7,5 NH ou 1,5-9,0 NH",
+     "item": "3.3.2.1 e)",
+     "cota": "esquemas/hidrante-industrial-valvula-angular.svg#saida"
+    },
+    {
+     "parametro": "Ângulo da conexão de saída (mar)",
+     "valor": "90° no tipo VIII; 45° no tipo IX",
+     "item": "3.3.2.2 f)",
+     "cota": "esquemas/hidrante-industrial-valvula-angular.svg#angulo-saida"
+    },
+    {
+     "parametro": "Gaxeta não metálica sem grafite (mar)",
+     "valor": "espessura 1,5 mm",
+     "item": "3.3.2.2 h)",
+     "cota": "esquemas/hidrante-industrial-valvula-angular.svg#gaxeta"
+    }
+   ],
+   "figuras": [
+    "esquemas/hidrante-industrial-valvula-angular.svg"
+   ]
+  },
+  {
+   "titulo": "Conexão de alta vazão e qualidade",
+   "item": "4, 5",
+   "texto": "Conexões de alta vazão ligadas direto à rede de incêndio terrestre, com válvula de bloqueio, vent ou dreno e engate storz com tampão (trava recomendada), materiais pela N-76. Soldas por procedimentos e soldadores qualificados pela N-115, todas de penetração total, 100 % visual e líquido penetrante (weldolets dos tipos VIII/IX podem ter radiografia 100 %). Tipos I a VII testados já ligados à rede. Documentação: procedimentos, END, testes, certificados, desenho cotado e catálogo da válvula.",
+   "valores": [
+    {
+     "parametro": "Conexão de alta vazão — diâmetro",
+     "valor": "NPS 6",
+     "item": "4.1",
+     "cota": "esquemas/hidrante-industrial-valvula-angular.svg#alta-vazao"
+    },
+    {
+     "parametro": "Teste hidrostático — hidrantes VIII e IX com válvulas",
+     "valor": "2 800 kPa (29 kgf/cm²)",
+     "item": "5.5"
+    }
+   ],
+   "figuras": [
+    "esquemas/hidrante-industrial-valvula-angular.svg"
+   ]
+  },
+  {
+   "titulo": "Adaptador, tampão e união storz",
+   "item": "Anexos A, B, C",
+   "texto": "Engate rápido storz DN 40 e DN 65 (base NBR 14349). Adaptador: flange adaptador forjado, anel e arruela de vedação (rosca NPT/BSPT conforme a linha; NH em hidrante). Tampão: flange de engate e tampa forjados, anel de travamento de arame de aço tratado e anel de vedação; o da válvula do hidrante vem com corrente de latão. União: duas semi-uniões iguais (flange, luva de empatamento forjados, anel de vedação, arruela de encosto, anel de expansão de cobre recozido C12200, anel de travamento). Metal: latão CuZnPb CW617N (ASTM B124 ou EN 12420) ou bronze-manganês/alumínio equivalente; borracha ASTM D2000 R-515A1B. Marcação do fabricante e DN em relevo.",
+   "valores": [
+    {
+     "parametro": "Tolerância não indicada — DN 40 / DN 65",
+     "valor": "± 0,3 mm / ± 0,5 mm",
+     "item": "A.3.3, B.3.3, C.3.3",
+     "cota": "esquemas/hidrante-industrial-valvula-angular.svg#saida"
+    },
+    {
+     "parametro": "Elastômero alternativo — dureza / ruptura / alongamento",
+     "valor": "40–50 Shore A; ≥ 9 MPa; 200–600 %",
+     "item": "Tabela A.1, Nota 2"
+    },
+    {
+     "parametro": "Elastômero alternativo — deformação permanente à compressão",
+     "valor": "≤ 25 %; serviço contínuo acima de 100 °C; resistente a UV",
+     "item": "Tabela A.1, Nota 2"
+    }
+   ],
+   "figuras": [
+    "esquemas/hidrante-industrial-valvula-angular.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção e aceitação",
+   "item": "Anexo D",
+   "texto": "Inspeção por amostragem (NBR 5426/5425) ou 100 % conforme a compra; cada não conformidade (material, dimensão, rosca, acabamento, pressão, marcação) conta como defeituoso. Superfícies brutas lisas, sem depressões ou rebarbas; borracha sem rasgos, bolhas ou trincas. Lote rejeitado pode ser reinspecionado 100 % pelo fabricante e reapresentado.",
+   "valores": [
+    {
+     "parametro": "Amostragem",
+     "valor": "nível normal II; NQA 1,5 %",
+     "item": "D.1.2.2"
+    },
+    {
+     "parametro": "Ensaio hidrostático de adaptador, tampão e união",
+     "valor": "2 800 kPa (29 kgf/cm²) mantidos 2 min",
+     "item": "D.1.3.2.1"
+    }
+   ]
+  }
+ ]
+}

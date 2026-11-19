@@ -1,0 +1,68 @@
+{
+ "id": "PETROBRAS-N-2370",
+ "titulo": "Petrobras N-2370 Rev. F (07/2021) — Materiais penetrantes",
+ "secoes": [
+  {
+   "titulo": "Escopo, rotulagem e compra",
+   "item": "1, 4",
+   "texto": "Condições mínimas para fabricar e aceitar materiais de ensaio por líquido penetrante (penetrante, removedor, emulsificante, revelador, solvente); termos pela NBR NM ISO 12706 e ASME V. O rótulo (Tabela 1) traz lote, fabricação, validade, código, normas, segurança e toxidez, conteúdo mínimo sem propelente, instruções de uso e armazenagem, inflamabilidade, propelente, fabricante, composição, temperatura de aplicação e restrições de contaminantes; além disso, tipo de penetrante (iluminação e remoção) e nível de sensibilidade no penetrante, tipo e tempo de emulsificação no emulsificante e tipo de revelador. Na compra vêm a FISPQ (NBR 14725-4 no Brasil, legislação local no exterior) e o certificado de análise química.",
+   "valores": [],
+   "figuras": [
+    "esquemas/end-liquido-penetrante-etapas.svg"
+   ]
+  },
+  {
+   "titulo": "Propriedades gerais",
+   "item": "5.1",
+   "texto": "Corrosividade, estabilidade na estocagem, remoção e redispersibilidade dos reveladores pela ISO 3452-2 ou SAE AMS2644. Para níquel, inox austenítico, duplex, superduplex ou titânio, teor de enxofre, cloro e flúor pela ASME V art. 6 ap. II (II-641/642) ou ISO 3452-2. Viscosidade de cada lote pela ASTM D445. Sensibilidade do conjunto de materiais medida no bloco comparador tipo 1 da ISO 3452-3, comparando com amostra de referência aplicada na outra metade do bloco (ou com padrão fotográfico) — tem de ser igual ou melhor, inclusive nos limites de temperatura do fabricante; bloco e materiais na mesma temperatura (acima de 40 °C, só o bloco). Fornecimento mínimo à Petrobras: tipo I nível 2 e tipo II nível 2.",
+   "valores": [
+    {
+     "parametro": "Ponto de fulgor mínimo (ASTM D93) — penetrantes e emulsificadores lipofílicos",
+     "valor": "93 °C",
+     "item": "5.1.1",
+     "nota": "Exceto aerossóis com propelente de hidrocarboneto."
+    },
+    {
+     "parametro": "Temperatura do ensaio de viscosidade",
+     "valor": "38 °C ± 3 °C",
+     "item": "5.1.5"
+    },
+    {
+     "parametro": "Sensibilidade elevada nível 2 — fluorescente (tipo I)",
+     "valor": "detectar 100 % das indicações da trinca de 10 μm",
+     "item": "Tabela 2",
+     "cota": "esquemas/end-liquido-penetrante-etapas.svg#trinca-comparador"
+    },
+    {
+     "parametro": "Sensibilidade elevada nível 2 — colorido (tipo II)",
+     "valor": "detectar 100 % das indicações da trinca de 30 μm",
+     "item": "Tabela 2",
+     "cota": "esquemas/end-liquido-penetrante-etapas.svg#trinca-comparador"
+    }
+   ],
+   "figuras": [
+    "esquemas/end-liquido-penetrante-etapas.svg"
+   ]
+  },
+  {
+   "titulo": "Propriedades específicas e aceitação",
+   "item": "5.2, 6",
+   "texto": "Penetrante molha a superfície do padrão tipo 1 de forma uniforme, sem retrair nem formar gotas; fluorescente comparado ao penetrante de referência FP-4PE. Emulsificador com cor bem diferente da do penetrante sob luz branca e UV. Reveladores pela ISO 3452-2 ou AMS2644. Todos os certificados vêm com a entrega; o lote é aceito só se passar em todos os testes.",
+   "valores": [
+    {
+     "parametro": "Molhabilidade — tempo sem retração do filme",
+     "valor": "10 min",
+     "item": "5.2.1.1"
+    },
+    {
+     "parametro": "Brilho fluorescente mínimo (equivalente ao nível 3 vs. FP-4PE)",
+     "valor": "90 %",
+     "item": "5.2.1.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/end-liquido-penetrante-etapas.svg"
+   ]
+  }
+ ]
+}

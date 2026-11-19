@@ -1,0 +1,286 @@
+{
+ "id": "PETROBRAS-N-2547",
+ "titulo": "Petrobras N-2547 Rev. A (07/2017) — Conversor de frequência para controle de rotação de motor elétrico",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições de serviço",
+   "item": "1, 6.1; Tabela 1",
+   "texto": "Especificação de conversores de frequência (retificador + barramento CC + inversor a semicondutores, com controle e filtros) que variam a rotação de motores de corrente alternada. Não vale para saída acima de 15 kV nem define a configuração do sistema elétrico. Salvo indicação na Folha de Dados, opera continuamente sem perda de vida útil nas temperaturas da Tabela 1, suporta armazenagem e transporte em faixa larga e umidade alta sem condensação. Conflitos entre esta norma e outros documentos vão à Petrobras antes de qualquer ação.",
+   "valores": [
+    {
+     "parametro": "Tensão de saída — limite de aplicação",
+     "valor": "até 15 kV",
+     "item": "1.2"
+    },
+    {
+     "parametro": "Temperatura ambiente — unidades terrestres (mín. / média anual / mensal / diária / máx.)",
+     "valor": "5 / 30 / 32 / 35 / 40 °C",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Temperatura ambiente — unidades marítimas (mín. / média anual / mensal / diária / máx.)",
+     "valor": "5 / 30 / 35 / 40 / 45 °C",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Armazenagem e transporte",
+     "valor": "−25 °C a 55 °C",
+     "item": "6.1.3"
+    },
+    {
+     "parametro": "Umidade relativa de operação contínua",
+     "valor": "15 % a 90 %, sem condensação",
+     "item": "6.1.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/conversor-frequencia-motor.svg"
+   ]
+  },
+  {
+   "titulo": "Construção, invólucro e manutenção",
+   "item": "6.2, 6.3, 6.7, 6.9",
+   "texto": "Construção modular, com módulos de mesma função intercambiáveis; a partir de 150 kW, módulos separados de potência, comando e controle. Peças pesadas no alto precisam de meios de extração para duas pessoas. Painel com resistor de aquecimento por seção (alimentação externa, disjuntor e termostato), estrutura e portas em chapa de aço com pintura eletrostática a pó (cinza claro N-1219 0065 se não especificado; placas e barreiras internas em laranja segurança 1867), partes metálicas ligadas à barra de terra na parte inferior. Placa de identificação em inox série 300 (316 em unidade marítima) e textos em português. Fiação interna não propagante de chama, cobre encordoado, controle separado da força e CA separada de CC.",
+   "valores": [
+    {
+     "parametro": "Espessura mínima da chapa da estrutura — média tensão",
+     "valor": "2,65 mm (12 USG)",
+     "item": "6.3.3 a)",
+     "cota": "esquemas/conversor-frequencia-motor.svg#chapa-estrutura"
+    },
+    {
+     "parametro": "Espessura mínima da chapa da estrutura — baixa tensão",
+     "valor": "1,90 mm (14 USG) [prática recomendada]",
+     "item": "6.3.3 b)",
+     "cota": "esquemas/conversor-frequencia-motor.svg#chapa-estrutura"
+    },
+    {
+     "parametro": "Espessura mínima de portas e tampas",
+     "valor": "1,50 mm (16 USG) [prática recomendada]",
+     "item": "6.3.3 d)",
+     "cota": "esquemas/conversor-frequencia-motor.svg#chapa-porta"
+    },
+    {
+     "parametro": "Módulo que exige meio de extração para duas pessoas",
+     "valor": "massa > 40 kg e a mais de 1,20 m do piso",
+     "item": "6.2.2.2",
+     "cota": "esquemas/conversor-frequencia-motor.svg#altura-modulo"
+    },
+    {
+     "parametro": "Troca de módulo/célula de potência (375 kW a 5 000 kW)",
+     "valor": "≤ 2 h [prática recomendada]",
+     "item": "6.2.6, Nota 1"
+    },
+    {
+     "parametro": "Termostato do resistor de aquecimento — graduação máxima",
+     "valor": "60 °C",
+     "item": "6.2.11"
+    },
+    {
+     "parametro": "Seção mínima — condutores de força internos",
+     "valor": "2,5 mm², isolação ≥ 70 °C",
+     "item": "6.9.6"
+    },
+    {
+     "parametro": "Seção mínima — condutores de controle (interno / externo)",
+     "valor": "0,5 / 1,5 mm², isolação ≥ 70 °C",
+     "item": "6.9.10"
+    }
+   ],
+   "figuras": [
+    "esquemas/conversor-frequencia-motor.svg"
+   ]
+  },
+  {
+   "titulo": "Arco interno, transformador e reator",
+   "item": "6.4, 6.5, 6.6",
+   "texto": "Se a energia incidente calculada pela IEEE 1584 passar do limite, recomenda-se monitor de arco no cubículo de entrada (ou, em baixa tensão, cubículo com proteção contra ignição de arco). Transformador e reator: tipo seco, isolação classe F com elevação de temperatura de classe B, vida útil longa e proteção de sobretemperatura nos enrolamentos acima de certa potência; o fabricante do conversor define a especificação mínima do transformador.",
+   "valores": [
+    {
+     "parametro": "Energia incidente que recomenda monitor de arco",
+     "valor": "> 33,47 J/cm² (8 cal/cm²)",
+     "item": "6.4"
+    },
+    {
+     "parametro": "Vida útil mínima — transformador e reator",
+     "valor": "20 anos",
+     "item": "6.5.3, 6.6.2"
+    },
+    {
+     "parametro": "Proteção de sobretemperatura nos enrolamentos — transformador",
+     "valor": "≥ 300 kVA",
+     "item": "6.5.5"
+    },
+    {
+     "parametro": "Proteção de sobretemperatura nos enrolamentos — reator",
+     "valor": "conversor ≥ 1 000 kVA",
+     "item": "6.6.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Sinais, comunicação e IHM",
+   "item": "6.10, 7",
+   "texto": "IHM com seleção local/remoto, liga/desliga, programação de parâmetros e indicação alfanumérica (rotação, frequência, corrente, tensão, potência, falhas e alarmes), mostrando ao mesmo tempo frequência e corrente de saída; cópia de parametrização. Entradas e saídas com isolação galvânica (IEC 61800-5-1 / 60146-1-1), saídas digitais a relé com contato seco, sinais analógicos 4–20 mA e porta serial (RS 232/485, USB ou ethernet) com protocolo aberto.",
+   "valores": [
+    {
+     "parametro": "Saídas digitais — capacidade mínima do contato",
+     "valor": "1 A em 240 Vca",
+     "item": "7.3"
+    },
+    {
+     "parametro": "Sinais analógicos de entrada/saída",
+     "valor": "4 mA a 20 mA",
+     "item": "7.7, 8.27"
+    }
+   ]
+  },
+  {
+   "titulo": "Desempenho, proteções e harmônicos",
+   "item": "8",
+   "texto": "Operação contínua sem manutenção que exija parada durante a campanha, vida útil longa e capacitores dimensionados para a pior temperatura interna. Tolera variações de tensão e frequência da rede e afundamentos (ride-through); categoria de sobretensão III abaixo de 750 V. Ajustes mínimos: rampas, frequências mín./máx., bloqueio de faixas de ressonância, repartida após subtensão, limite de torque. Proteções mínimas: defeito interno, sobrecarga, falta de fase, temperatura dos semicondutores, sobre e subtensão, sobrecarga térmica do motor, falta à terra e curto a jusante. Harmônicos pela IEC 61000-3-2/-3-12 nos pequenos e por estudo específico nos grandes; limites de distorção total de tensão na Tabela 3.",
+   "valores": [
+    {
+     "parametro": "Campanha sem manutenção que exija desligamento",
+     "valor": "2 anos",
+     "item": "8.1"
+    },
+    {
+     "parametro": "Vida útil — conversor / capacitores",
+     "valor": "20 / 10 anos",
+     "item": "8.2, 8.3"
+    },
+    {
+     "parametro": "Operação contínua em potência nominal — tensão e frequência",
+     "valor": "90 % a 110 % da tensão; 57 Hz a 63 Hz",
+     "item": "8.4"
+    },
+    {
+     "parametro": "Variação transitória sem desligamento",
+     "valor": "até 1,5 s, 80 % a 120 % da tensão (480 V: 80 % a 115 %)",
+     "item": "8.5"
+    },
+    {
+     "parametro": "Afundamento suportado — conversor ≥ 375 kW",
+     "valor": "até 20 % em uma ou mais fases por até 3 s",
+     "item": "8.5.1"
+    },
+    {
+     "parametro": "Afundamento 20 % a 100 % sem desligar",
+     "valor": "500 ms [prática recomendada]",
+     "item": "8.5.2"
+    },
+    {
+     "parametro": "Rendimento — 37,5 kW a 150 kW",
+     "valor": "≥ 96 % sem transformador; ≥ 95 % com transformador",
+     "item": "8.12.1"
+    },
+    {
+     "parametro": "Rendimento — baixa tensão 150 kW a 1 000 kW",
+     "valor": "≥ 97 % sem transformador; ≥ 95 % com transformador",
+     "item": "8.12.2"
+    },
+    {
+     "parametro": "Rendimento — média tensão (com perdas de trafo, ventilação e controle)",
+     "valor": "≥ 96 %",
+     "item": "8.12.3"
+    },
+    {
+     "parametro": "Sobrecarga",
+     "valor": "110 % da corrente nominal por 60 s a cada 10 min",
+     "item": "8.15"
+    },
+    {
+     "parametro": "Monitoração de temperatura do estator do motor",
+     "valor": "a partir de 150 kW, por RTD Pt100 (100 Ω a 0 °C)",
+     "item": "8.24"
+    },
+    {
+     "parametro": "Distorção harmônica total de tensão DTT — Vn ≤ 1 kV / 1–69 kV / 69–230 kV",
+     "valor": "10 / 8 / 5 %",
+     "item": "Tabela 3"
+    },
+    {
+     "parametro": "Distorção harmônica da corrente de entrada",
+     "valor": "≤ 15 % em qualquer situação",
+     "item": "8.33, Nota 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Ruído, refrigeração e cabo longo",
+   "item": "8.37–8.44",
+   "texto": "Ruído medido a uma distância fixa de qualquer face do invólucro, com limite que cresce com a potência. A refrigeração dos pequenos é alimentada internamente; ventilação forçada ou água projetada para vida longa com paradas programadas; acima de 375 kW sistema de refrigeração obrigatório. Para BCS ou motores ligados por cabo muito longo, recomenda-se que o conversor estime a tensão nos terminais do motor considerando filtro e cabo.",
+   "valores": [
+    {
+     "parametro": "Ponto de medição do ruído audível",
+     "valor": "1 m de qualquer superfície do invólucro",
+     "item": "8.37",
+     "cota": "esquemas/conversor-frequencia-motor.svg#ruido"
+    },
+    {
+     "parametro": "Ruído máximo — < 150 kW / 150–375 kW / > 375 kW",
+     "valor": "75 / 80 / 85 dB(A)",
+     "item": "8.37"
+    },
+    {
+     "parametro": "Vida útil da ventilação forçada ou água",
+     "valor": "10 anos, com paradas a cada 5 anos",
+     "item": "8.42"
+    },
+    {
+     "parametro": "Cabo ao motor que pede cálculo da tensão nos terminais",
+     "valor": "> 1 000 m (ou BCS) [prática recomendada]",
+     "item": "8.44",
+     "cota": "esquemas/conversor-frequencia-motor.svg#cabo-motor"
+    }
+   ],
+   "figuras": [
+    "esquemas/conversor-frequencia-motor.svg"
+   ]
+  },
+  {
+   "titulo": "Ensaios",
+   "item": "9; Tabela 4",
+   "texto": "Ensaios de rotina, tipo e especiais da Tabela 4 (média tensão) ou IEC 61800-2 / 61800-5-1 (baixa tensão). Todos os semicondutores e placas são 100 % ensaiados; placas passam por burn-in e ciclos térmicos (alternativa para conversores menores: ensaio com carga a 50 °C ou placas operando a 45 °C). Elevação de temperatura à plena carga até o equilíbrio térmico. Acima de 375 kW, transformadores incluem elevação de temperatura com harmônicos e suportabilidade a picos de tensão (N-2928).",
+   "valores": [
+    {
+     "parametro": "Burn-in de placas de circuito impresso",
+     "valor": "≥ 16 h a 65 °C ou 48 h a 60 °C",
+     "item": "9.7"
+    },
+    {
+     "parametro": "Alternativa — placas de média tensão ≤ 375 kW",
+     "valor": "48 h a 45 °C ambiente",
+     "item": "9.7, Nota 2"
+    },
+    {
+     "parametro": "Ensaio de elevação de temperatura",
+     "valor": "plena carga, ≥ 4 h em regime após equilíbrio térmico, ambiente de 40 °C",
+     "item": "9.10"
+    }
+   ]
+  },
+  {
+   "titulo": "Documentação e embalagem",
+   "item": "10, 11",
+   "texto": "Documentos com curvas de harmônicos na entrada em várias cargas, dissipação térmica e vazão de ar, manuais e desenhos em meio eletrônico e papel A4 no mínimo, com área livre junto ao carimbo para registro da Petrobras; embalagem que proteja todas as partes no transporte e armazenagem.",
+   "valores": [
+    {
+     "parametro": "Curvas de harmônicos de entrada",
+     "valor": "50 %, 75 % e 100 % da corrente nominal",
+     "item": "10.1.9"
+    },
+    {
+     "parametro": "Retângulo livre junto ao carimbo",
+     "valor": "15 cm × 4 cm",
+     "item": "10.4, Nota",
+     "cota": "esquemas/documento-carimbo-retangulo-reservado.svg#retangulo-largura"
+    }
+   ],
+   "figuras": [
+    "esquemas/documento-carimbo-retangulo-reservado.svg"
+   ]
+  }
+ ]
+}

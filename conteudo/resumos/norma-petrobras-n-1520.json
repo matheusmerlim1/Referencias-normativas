@@ -1,0 +1,49 @@
+{
+ "id": "PETROBRAS-N-1520",
+ "titulo": "Petrobras N-1520 Rev. C (12/2010) — Esfera de armazenamento — folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e preenchimento",
+   "item": "1, 3",
+   "texto": "Padroniza a folha de dados da esfera de armazenamento: registra os requisitos do comprador e o projeto do fornecedor e, preenchida, vira documento permanente do equipamento. Dois formulários A4: Anexo A em unidades do sistema de engenharia (kgf/cm², kgf.m) e Anexo B em SI. Cabeçalho e rodapé pela N-381, TAG pela N-1521 ao lado do nome do equipamento, preenchimento conforme a N-1281 (projeto de esfera).",
+   "valores": [],
+   "figuras": [
+    "esquemas/esfera-armazenamento-geometria.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo do formulário",
+   "item": "Anexos A e B",
+   "texto": "Dados gerais e de operação (produto, densidade, capacidades nominal e de líquido, vazões de enchimento e esvaziamento, pressões e temperaturas, classe do fluido pela NR-13, dados de ciclos para análise de fadiga); dados de projeto (código e edição, pressão e temperaturas de projeto, vácuo total, pressões de abertura das válvulas de segurança para condição anormal e para fogo, vento, vida útil, eficiência de solda e radiografia); materiais do casco, bocais, colunas, contraventamento, escadas e grade das plataformas; fabricação e montagem (tratamento térmico, impacto, eletrodos, peças de campo ou fábrica); pesos e cargas na base, pressões máximas admissíveis novo/corroído e de teste hidrostático; lista de bocais (bocas de visita superior com turco e inferior com dobradiça, válvulas de segurança de operação e de fogo, respiro, instrumentos, equalização, amostradores).",
+   "valores": [
+    {
+     "parametro": "Diâmetro interno (campo de projeto)",
+     "valor": "em m",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/esfera-armazenamento-geometria.svg#diametro"
+    },
+    {
+     "parametro": "Nível máximo de produto (campo de operação)",
+     "valor": "em m",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/esfera-armazenamento-geometria.svg#nivel-maximo"
+    },
+    {
+     "parametro": "Sobrespessura para corrosão (casco, bocais)",
+     "valor": "em mm",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/esfera-armazenamento-geometria.svg#espessura"
+    },
+    {
+     "parametro": "Espessura do isolamento térmico",
+     "valor": "em mm",
+     "item": "Anexo A, folha 3",
+     "cota": "esquemas/esfera-armazenamento-geometria.svg#espessura"
+    }
+   ],
+   "figuras": [
+    "esquemas/esfera-armazenamento-geometria.svg"
+   ]
+  }
+ ]
+}

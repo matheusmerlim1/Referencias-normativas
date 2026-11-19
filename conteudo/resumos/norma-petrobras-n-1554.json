@@ -1,0 +1,67 @@
+{
+ "id": "PETROBRAS-N-1554",
+ "titulo": "Petrobras N-1554 Rev. F (06/2010) — Preaquecedor de ar — folha de dados",
+ "secoes": [
+  {
+   "titulo": "Escopo e preenchimento",
+   "item": "1, 3",
+   "texto": "Padroniza a folha de dados do preaquecedor de ar de fornos, baseada na folha da API 560: Anexo A em unidades do sistema de engenharia e Anexo B em SI, ambos A4. Vira documento permanente do equipamento. Cabeçalho e rodapé pela N-381; o TAG do equipamento em que o preaquecedor está instalado (N-1521) vai à direita do título; preenchimento conforme N-1671 e NBR 10778. Campos não aplicáveis são riscados com traço e as linhas vazias recebem dados complementares.",
+   "valores": [],
+   "figuras": [
+    "esquemas/preaquecedor-ar-tipos.svg"
+   ]
+  },
+  {
+   "titulo": "Conteúdo do formulário",
+   "item": "Anexos A e B",
+   "texto": "Desempenho: lados do ar e do gás de combustão (vazões, temperaturas, calor trocado, perdas de carga admissível/calculada, composição e ponto de orvalho do gás, temperatura mínima do metal), ar desviado, umidade, área de troca, vazamento de ar máximo garantido. Projeto mecânico: pressão diferencial, temperatura dos gases da chaminé, vento, sismo, isolamento, portas de acesso, termopares no lado frio, meio de limpeza, pintura e teste de vazamento. Construção por tipo: I tubular, II placas, III heat pipe e IV regenerativo (rotor, acionamentos principal e auxiliar, cestas por zona quente/intermediária/fria, sensor de rotação, proteção contra incêndio).",
+   "valores": [
+    {
+     "parametro": "Dimensões aproximadas (a × l × c)",
+     "valor": "em m",
+     "item": "Anexo A, folha 2",
+     "cota": "esquemas/preaquecedor-ar-tipos.svg#comprimento-tubo"
+    },
+    {
+     "parametro": "Espaçamento entre placas, lado do ar e lado do gás",
+     "valor": "em mm",
+     "item": "Anexo A, folha 3 (II)",
+     "cota": "esquemas/preaquecedor-ar-tipos.svg#espacamento-placas"
+    },
+    {
+     "parametro": "Espessura da placa",
+     "valor": "em mm",
+     "item": "Anexo A, folha 3 (II)",
+     "cota": "esquemas/preaquecedor-ar-tipos.svg#espessura-placa"
+    },
+    {
+     "parametro": "Diâmetro externo e espessura de parede do tubo",
+     "valor": "em mm",
+     "item": "Anexo A, folha 3 (I e III)",
+     "cota": "esquemas/preaquecedor-ar-tipos.svg#diametro-tubo"
+    },
+    {
+     "parametro": "Passo dos tubos (arranjo quadrado/triangular)",
+     "valor": "em mm",
+     "item": "Anexo A, folha 3 (I e III)",
+     "cota": "esquemas/preaquecedor-ar-tipos.svg#passo-tubos"
+    },
+    {
+     "parametro": "Comprimento efetivo do tubo",
+     "valor": "em m",
+     "item": "Anexo A, folha 3",
+     "cota": "esquemas/preaquecedor-ar-tipos.svg#comprimento-tubo"
+    },
+    {
+     "parametro": "Diâmetro do rotor (regenerativo)",
+     "valor": "em mm",
+     "item": "Anexo A, folha 4 (IV)",
+     "cota": "esquemas/preaquecedor-ar-tipos.svg#rotor"
+    }
+   ],
+   "figuras": [
+    "esquemas/preaquecedor-ar-tipos.svg"
+   ]
+  }
+ ]
+}

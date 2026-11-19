@@ -1,0 +1,123 @@
+{
+ "id": "PETROBRAS-N-0381",
+ "titulo": "Petrobras N-0381 Rev. M (04/2023) — Formulários para emissão de documentos técnicos de engenharia",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Define os formulários (capa, folhas seguintes, legenda) dos documentos técnicos de engenharia e como preencher cada campo. Usa-se junto com as NBR de desenho (NBR 16752 folhas, NBR 16861 linhas e escrita, NBR 12298 hachuras, NBR 6492); havendo conflito, vale esta norma. Abreviaturas pela N-75, codificação pela N-1710, emissão e revisão pela N-2064. Vale para projetos iniciados após a edição.",
+   "valores": [
+    {
+     "parametro": "Prazo para implantar a revisão",
+     "valor": "180 dias após a publicação (ou plano de implementação registrado nesse prazo)",
+     "item": "1.4"
+    }
+   ],
+   "figuras": [
+    "esquemas/documento-petrobras-folha-legenda.svg"
+   ]
+  },
+  {
+   "titulo": "Formatos, escalas, letras e linhas",
+   "item": "3.1 a 3.4",
+   "texto": "Folhas da série A da NBR 16752, com o A4 como menor formato; formatos compostos de A4 são admitidos. Desenhos A3 ou maiores são divididos em campos virtuais iguais identificados por letras a partir do canto inferior esquerdo. A escala vai na legenda (\"INDICADAS\" se houver várias, \"SEM ESCALA\" se não houver) e, se preciso, também como escala gráfica junto ao traço inferior do quadro. Fontes de uso universal: família Helvetica/Arial sem serifa, Times com serifa, Courier monoespaçada. Impressão final só em preto, salvo quando a cor é indispensável (mapas, topografia); se a cor indicar espessura, o documento traz tabela cor × espessura.",
+   "valores": [
+    {
+     "parametro": "Formato mínimo de folha",
+     "valor": "A4 (série A da NBR 16752)",
+     "item": "3.1.2",
+     "cota": "esquemas/desenho-tecnico-folha.svg#formato"
+    },
+    {
+     "parametro": "Campos de referência em desenhos A3 ou maiores",
+     "valor": "campos iguais de 100 mm, identificados por letras a partir do canto inferior esquerdo",
+     "item": "3.1.4",
+     "cota": "esquemas/documento-petrobras-folha-legenda.svg#campo"
+    },
+    {
+     "parametro": "Escala gráfica (quando desenhada)",
+     "valor": "comprimento mínimo 150 mm, junto ao traço inferior do quadro",
+     "item": "3.2.2",
+     "cota": "esquemas/documento-petrobras-folha-legenda.svg#escala-grafica"
+    },
+    {
+     "parametro": "Altura mínima de letras, algarismos e símbolos",
+     "valor": "2,5 mm",
+     "item": "3.3.1",
+     "nota": "Fonte menor só com aprovação do cliente ou da fiscalização.",
+     "cota": "esquemas/documento-petrobras-folha-legenda.svg#altura-letra"
+    },
+    {
+     "parametro": "Espessura mínima da linha normal do desenho",
+     "valor": "0,35 mm (recomendado)",
+     "item": "3.4.4",
+     "cota": "esquemas/documento-petrobras-folha-legenda.svg#espessura-linha"
+    },
+    {
+     "parametro": "Espessura mínima das linhas de chamada, de cota e secundárias",
+     "valor": "0,13 mm (recomendado)",
+     "item": "3.4.4",
+     "cota": "esquemas/documento-petrobras-folha-legenda.svg#espessura-secundaria"
+    },
+    {
+     "parametro": "Espaçamento entre linhas paralelas do desenho",
+     "valor": "nunca menor que 3 × a espessura da linha",
+     "item": "3.4.5",
+     "cota": "esquemas/documento-petrobras-folha-legenda.svg#espacamento-linhas"
+    }
+   ],
+   "figuras": [
+    "esquemas/documento-petrobras-folha-legenda.svg",
+    "esquemas/desenho-tecnico-folha.svg"
+   ]
+  },
+  {
+   "titulo": "Legenda e campos",
+   "item": "3.5",
+   "texto": "Toda folha tem quadro de legenda; A4 segue as Figuras A.1 a A.3 (capa com índice de revisões, folhas seguintes vertical/horizontal), A3 as Figuras A.4/A.5 ou A.6/A.7 (catálogo) e A2–A0 as Figuras A.4/A.5. Não usar marcas de revisão (nuvens, realces) na legenda. Campos principais: 1 marca (só PETROBRAS quando o conteúdo é, mesmo em parte, da empresa); 2 cliente, 3 programa, 4 área (traço se o documento for geral); 5 título com o TAG do equipamento; 6 sigla da gerência executante; 8/9/10 execução, verificação e aprovação (um nome cada, verificador diferente do executor, documento sempre assinado — física, digital ou eletronicamente); 11 escala; 12 categoria (Anexo A da N-1710); 13 data; 14 folha; 15 número (N-1710 obrigatória em empreendimentos novos); 16 revisão; 17 SEP/gestão de mudança (opcional); 18 dados da contratada (razão social, contrato, responsável técnico e registro no conselho); 19 descrição das revisões; 20 notas gerais e 21 documentos de referência (fora do A4); 22–25 dados da emissão original (REV. 0), sempre mantidos; 26 formato; 27 grau de sigilo (só texto; dispensável se classificado no AIP); 29 software CAE; 30 uso livre; 31 QR Code só com o número do campo 15.",
+   "valores": [
+    {
+     "parametro": "Margem do lado de arquivamento (A3 ou maior)",
+     "valor": "20 mm",
+     "item": "Anexo A, Figura A.4",
+     "nota": "Lido da figura (cotas em mm).",
+     "cota": "esquemas/documento-petrobras-folha-legenda.svg#margem-arquivamento"
+    },
+    {
+     "parametro": "Margem dos demais lados (A3 ou maior)",
+     "valor": "10 mm",
+     "item": "Anexo A, Figura A.4",
+     "nota": "Lido da figura (cotas em mm).",
+     "cota": "esquemas/documento-petrobras-folha-legenda.svg#margem"
+    },
+    {
+     "parametro": "Exemplo de campo 26 (formato)",
+     "valor": "A0 1189 × 841",
+     "item": "3.5.4, campo 26",
+     "cota": "esquemas/desenho-tecnico-folha.svg#formato"
+    }
+   ],
+   "figuras": [
+    "esquemas/documento-petrobras-folha-legenda.svg",
+    "esquemas/desenho-tecnico-folha.svg",
+    "esquemas/documento-carimbo-retangulo-reservado.svg"
+   ]
+  },
+  {
+   "titulo": "Revisões, manuseio, arquivo e rodapé",
+   "item": "3.6 a 4.3",
+   "texto": "Em A4 e documentos de texto as revisões ficam ao pé da página; em A3 ou maiores, acima da legenda. Só cópias são dobradas (dobramento da NBR 16752, Tabela 1); originais não se dobram nem enrolam — se indispensável, enrolar em canudo impermeável. Arquivos guardados no formato nativo (DOCX, DWG, DGN…) e também em PDF. Desenho preferencialmente em folha única. Formulários de outras normas Petrobras adotam formato e legenda desta. O rodapé da capa traz a frase de propriedade e sigilo (Petrobras: DI-1PBR-00337; Transpetro: PE-1TP-00365) e \"Formulário pertencente à N-381\"; repete-se nas folhas quando o documento mistura formulários de normas diferentes.",
+   "valores": [
+    {
+     "parametro": "Formatos e dobramento (Tabela 1)",
+     "valor": "A0 841 × 1189; A1 594 × 841; A2 420 × 594; A3 297 × 420 (mm)",
+     "item": "3.7.2, Tabela 1",
+     "cota": "esquemas/desenho-tecnico-folha.svg#formato"
+    }
+   ],
+   "figuras": [
+    "esquemas/desenho-tecnico-folha.svg"
+   ]
+  }
+ ]
+}

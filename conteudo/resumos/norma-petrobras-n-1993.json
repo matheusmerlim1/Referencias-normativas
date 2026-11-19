@@ -1,0 +1,76 @@
+{
+ "id": "PETROBRAS-N-1993",
+ "titulo": "Petrobras N-1993 Rev. C (12/2010) — Estruturas oceânicas: delimitação da zona de transição",
+ "secoes": [
+  {
+   "titulo": "Escopo e definições",
+   "item": "1, 2",
+   "texto": "Procedimento para fixar os limites entre a parte sempre submersa e a parte que fica ora molhada, ora ao ar (zona de transição, ZDT ou \"splash zone\") de estruturas oceânicas fixas, flutuantes e complacentes — usado, por exemplo, para especificar a proteção anticorrosiva dessa faixa. A ZDT soma a zona de variação de maré, a zona das ondas (galgamento) e a zona de respingos. O nível de referência (Nre) pode ser o NR, \"datum\" das cartas náuticas (média das baixa-mares de sizígia). MHWS/MLWS = médias das preamares/baixa-mares de sizígia; Hs = altura significativa (média do terço superior das ondas).",
+   "figuras": [
+    "esquemas/zona-transicao-splash-zone-niveis.svg"
+   ]
+  },
+  {
+   "titulo": "Limite superior da ZDT",
+   "item": "3; Anexo A",
+   "texto": "Partindo do Nre, somam-se em sequência: o erro positivo de medição da lâmina d'água (NreMax), a preamar média de sizígia MHWS (NMaxMast), a maior sobrelevação por maré atmosférica (NMax), o recalque previsto (NMaxRec, quando houver), a subsidência do solo (NMaxSub), o calado máximo operacional e o maior movimento vertical positivo (flutuantes/complacentes) e, por fim, a parcela de onda.",
+   "valores": [
+    {
+     "parametro": "Parcela de onda no limite superior",
+     "valor": "2/3 × Hs10 (altura significativa com período de retorno de 10 anos), somada ao nível NMaxMov",
+     "item": "3 i)",
+     "cota": "esquemas/zona-transicao-splash-zone-niveis.svg#sup-onda"
+    },
+    {
+     "parametro": "Erro de medição da lâmina d'água (subida)",
+     "valor": "erro positivo somado ao Nre → NreMax",
+     "item": "3 b)",
+     "cota": "esquemas/zona-transicao-splash-zone-niveis.svg#erro-lda"
+    },
+    {
+     "parametro": "Maré astronômica (subida)",
+     "valor": "preamar média de sizígia (MHWS) somada ao NreMax",
+     "item": "3 c)",
+     "cota": "esquemas/zona-transicao-splash-zone-niveis.svg#mhws"
+    },
+    {
+     "parametro": "Recalque e subsidência",
+     "valor": "somados quando aplicáveis (estruturas apoiadas no fundo)",
+     "item": "3 e), f)",
+     "cota": "esquemas/zona-transicao-splash-zone-niveis.svg#recalque-subsidencia"
+    }
+   ],
+   "figuras": [
+    "esquemas/zona-transicao-splash-zone-niveis.svg"
+   ]
+  },
+  {
+   "titulo": "Limite inferior da ZDT",
+   "item": "4; Anexo A",
+   "texto": "Partindo do Nre, aplicam-se para baixo: o erro negativo de medição da lâmina d'água (NreMin), a baixa-mar média de sizígia MLWS (NMinMast), a maior descida por maré atmosférica (NMin), a subtração do calado mínimo operacional e o maior movimento vertical negativo (flutuantes) e, por fim, a parcela de onda. Figuras A.1–A.3 mostram o empilhamento para flutuantes, fixas e complacentes.",
+   "valores": [
+    {
+     "parametro": "Parcela de onda no limite inferior",
+     "valor": "1/3 × Hs10, subtraído do nível NMinMov",
+     "item": "4 g)",
+     "cota": "esquemas/zona-transicao-splash-zone-niveis.svg#inf-onda"
+    },
+    {
+     "parametro": "Maré astronômica (descida)",
+     "valor": "baixa-mar média de sizígia (MLWS) aplicada ao NreMin",
+     "item": "4 c)",
+     "cota": "esquemas/zona-transicao-splash-zone-niveis.svg#mlws"
+    },
+    {
+     "parametro": "Extensão da zona de transição",
+     "valor": "do LIZDT ao LSZDT",
+     "item": "3, 4; Fig. A.1–A.3",
+     "cota": "esquemas/zona-transicao-splash-zone-niveis.svg#zdt"
+    }
+   ],
+   "figuras": [
+    "esquemas/zona-transicao-splash-zone-niveis.svg"
+   ]
+  }
+ ]
+}

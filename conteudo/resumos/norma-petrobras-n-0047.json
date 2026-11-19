@@ -1,0 +1,257 @@
+{
+ "id": "PETROBRAS-N-0047",
+ "titulo": "Petrobras N-0047 Rev. K (07/2023) — Levantamento topográfico georreferenciado",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 4.1 a 4.3",
+   "texto": "Complementa a NBR 13133 nos levantamentos topográficos georreferenciados e define a instalação de referências de nível profundas (benchmark); serviços com GNSS pela N-2698. Procedimento de execução com objetivo, normas, equipamentos, apoio básico, referências, tolerâncias, metodologia, resultados, SMS e equipe. Equipamentos calibrados (exceto GNSS, sem certificado). Levantamento referido ao Sistema Geodésico Brasileiro (SIRGAS 2000), salvo outro datum aprovado.",
+   "valores": [],
+   "figuras": [
+    "esquemas/topografia-faixa-levantamento.svg",
+    "esquemas/topografia-marcos-rnp.svg"
+   ]
+  },
+  {
+   "titulo": "Marcos, RNP, piquetes e estacas",
+   "item": "4.4",
+   "texto": "Marcos de concreto tipo A (projeto básico, traçado e intermediários de faixa), B (projeto definitivo de áreas, extremidades e derivações), C (pré-moldado, opção mais leve ao B) e RNP (locais com recalque). Marcos identificados com placa de bronze ou inox; monografias pela NBR 13133; RNP com relatório (descrição, locação com coordenadas e cota da cabeça, perfil com as cotas dos tubos ao lado da sondagem). Marcos em locais acessíveis e seguros, em todos os vértices comuns às poligonais e extremidades; em faixa de duto, dentro da faixa de domínio, de preferência na lateral. RNP: dois tubos galvanizados concêntricos, haste assentada no impenetrável (ou SPT ≥ 30/30 nos últimos 4 m), espaço anelar com graxa grafitada, calda de cimento a/c 0,5 injetada formando base alargada, cabeça em semiesfera de latão protegida por caixa. Marcos sinalizados por três mourões amarelos (N-2200). Junto a cada piquete e estaca, estaca testemunha branca.",
+   "valores": [
+    {
+     "parametro": "Massa dos marcos",
+     "valor": "tipo A 40 kg; tipo B 750 kg; tipo C 200 kg",
+     "item": "4.4.1.1"
+    },
+    {
+     "parametro": "Marcos intermediários tipo A em faixas",
+     "valor": "a cada 5 km",
+     "item": "4.4.1.2",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#poligonal-lado"
+    },
+    {
+     "parametro": "Revestimento e haste da RNP",
+     "valor": "revestimento Ø 2 1/2\" ou 3\" (furo de sondagem pela NBR 6484/N-845); haste Ø 1\"",
+     "item": "4.4.1.5.2, 4.4.1.5.3",
+     "cota": "esquemas/topografia-marcos-rnp.svg#rnp-diametros"
+    },
+    {
+     "parametro": "Ponta inferior do revestimento da RNP",
+     "valor": "no mínimo 1,50 m acima da cota de assentamento da haste",
+     "item": "4.4.1.5.5",
+     "cota": "esquemas/topografia-marcos-rnp.svg#revestimento-folga"
+    },
+    {
+     "parametro": "Marcos A, B e C enterrados (preservação)",
+     "valor": "20 cm abaixo do terreno — obrigatório em faixas",
+     "item": "4.4.1.6 a)",
+     "cota": "esquemas/topografia-marcos-rnp.svg#marco-enterrado"
+    },
+    {
+     "parametro": "Piquete de madeira",
+     "valor": "seção 3 cm × 3 cm, comprimento mínimo 25 cm, com ponta",
+     "item": "4.4.2",
+     "cota": "esquemas/topografia-marcos-rnp.svg#piquete-secao"
+    },
+    {
+     "parametro": "Comprimento mínimo do piquete",
+     "valor": "25 cm",
+     "item": "4.4.2",
+     "cota": "esquemas/topografia-marcos-rnp.svg#piquete-comprimento"
+    },
+    {
+     "parametro": "Estaca testemunha em locais alagados",
+     "valor": "altura mínima 1,5 m",
+     "item": "4.4.3",
+     "cota": "esquemas/topografia-marcos-rnp.svg#estaca-altura"
+    }
+   ],
+   "figuras": [
+    "esquemas/topografia-marcos-rnp.svg",
+    "esquemas/topografia-faixa-levantamento.svg"
+   ]
+  },
+  {
+   "titulo": "Poligonais e tolerâncias",
+   "item": "4.5 a 4.8",
+   "texto": "Poligonal principal amarrada ao apoio básico em UTM, com vértices intervisíveis; poligonal secundária com coordenadas topográficas locais de origem UTM. Medições com estação total; altimetria por nivelamento e contranivelamento geométrico ou trigonométrico. A Petrobras pode exigir tolerâncias mais restritas.",
+   "valores": [
+    {
+     "parametro": "Precisão dos instrumentos da poligonal principal e de apoio",
+     "valor": "angular ≤ 5\"; linear 5 mm + 5 ppm",
+     "item": "4.5.2",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#poligonal-lado"
+    },
+    {
+     "parametro": "Fechamento linear — poligonal principal de áreas",
+     "valor": "1/20 000",
+     "item": "4.8.1",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#poligonal-lado"
+    },
+    {
+     "parametro": "Fechamento linear — poligonais de faixas",
+     "valor": "1/30 000",
+     "item": "4.8.2",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#poligonal-lado"
+    },
+    {
+     "parametro": "Fechamento angular",
+     "valor": "15\" × √N (N = nº de vértices)",
+     "item": "4.8.3"
+    },
+    {
+     "parametro": "Fechamento altimétrico (nivelamento geométrico)",
+     "valor": "10 mm × √L (L em km)",
+     "item": "4.8.4",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#poligonal-lado"
+    }
+   ],
+   "figuras": [
+    "esquemas/topografia-faixa-levantamento.svg"
+   ]
+  },
+  {
+   "titulo": "Levantamento de áreas",
+   "item": "5.1",
+   "texto": "Poligonal principal fechada com marcos B, C ou RNP. Topobatimetria de áreas com água por nivelamento geométrico, régua com prumo e trena/estação total. Plantas planialtimétricas e batimétricas com curvas de nível, pontos de interesse, edificações, interferências enterradas, vegetação, malha de coordenadas e lista de marcos; também desenho de macrolocalização, planta de situação, áreas especiais e esquema das poligonais.",
+   "valores": [
+    {
+     "parametro": "Topobatimetria — linha base nas margens",
+     "valor": "trechos de 10 m, com cotas de fundo a cada 10 m nas seções transversais",
+     "item": "5.1.1.2 a) e c)",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#travessia-secoes"
+    },
+    {
+     "parametro": "Faixa de georreferenciamento de benfeitorias ao redor da área",
+     "valor": "15 m, se o projeto não definir maior",
+     "item": "5.1.1.4",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#cadastro-faixa"
+    },
+    {
+     "parametro": "Escala e curvas de nível das plantas de áreas",
+     "valor": "1:1 000 ou maior; curvas a cada 1 m, destacando as múltiplas de 5 m; malha de coordenadas a cada 10 cm",
+     "item": "5.1.2.3",
+     "cota": "esquemas/documento-petrobras-folha-legenda.svg#escala-grafica"
+    }
+   ],
+   "figuras": [
+    "esquemas/topografia-faixa-levantamento.svg",
+    "esquemas/documento-petrobras-folha-legenda.svg"
+   ]
+  },
+  {
+   "titulo": "Levantamento de faixas",
+   "item": "5.2",
+   "texto": "Poligonal principal fechada (retorno por fora do caminhamento ou chegada em ponto conhecido) com marcos A nos vértices intermediários; poligonal secundária acompanhando a diretriz, com PIs sinalizados por bandeirolas laranja numeradas e área roçada com cal; locação e estaqueamento progressivo a partir da estaca zero; nivelamento geométrico do eixo e das laterais quando o terreno for muito inclinado. Cruzamentos (rodovias, ferrovias) e travessias (rios, alagados) têm levantamento completo; cadastro físico e georreferenciado. Entregas: macrolocalização, planta-chave, articulação, planta e perfil geral, plantas e perfis, levantamentos especiais, relatório final, coordenadas dos PIs e cadernetas.",
+   "valores": [
+    {
+     "parametro": "Lados da poligonal principal da faixa",
+     "valor": "≈ 5 km, máximo 7 km",
+     "item": "5.2.2.1 a)",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#poligonal-lado"
+    },
+    {
+     "parametro": "Verificação com o apoio básico",
+     "valor": "pelo menos a cada 50 km",
+     "item": "5.2.2.1 c)"
+    },
+    {
+     "parametro": "Picadas",
+     "valor": "largura mínima 1 m, o mínimo possível em culturas",
+     "item": "5.2.2.2 a)"
+    },
+    {
+     "parametro": "Bandeirolas dos PIs",
+     "valor": "altura mínima 2,50 m",
+     "item": "5.2.2.2 b)",
+     "cota": "esquemas/topografia-marcos-rnp.svg#bandeirola"
+    },
+    {
+     "parametro": "Área roçada com cal no PI",
+     "valor": "1 m de diâmetro",
+     "item": "5.2.2.2 c)",
+     "cota": "esquemas/topografia-marcos-rnp.svg#rocado"
+    },
+    {
+     "parametro": "Estaqueamento progressivo",
+     "valor": "a cada 50 m",
+     "item": "5.2.3.2",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#estaqueamento"
+    },
+    {
+     "parametro": "Visada máxima da estação total",
+     "valor": "120 m",
+     "item": "5.2.3.3",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#visada"
+    },
+    {
+     "parametro": "Nivelamento das laterais da faixa",
+     "valor": "quando a inclinação transversal passar de 15 %",
+     "item": "5.2.4"
+    },
+    {
+     "parametro": "Cruzamentos — extensão",
+     "valor": "início e fim 50 m antes e depois da faixa de domínio",
+     "item": "5.2.6",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#cruzamento-extensao"
+    },
+    {
+     "parametro": "Cruzamentos — largura levantada",
+     "valor": "25 m para cada lado da diretriz, a cada 10 m do eixo",
+     "item": "5.2.6",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#cruzamento-lateral"
+    },
+    {
+     "parametro": "Travessias — seções longitudinais",
+     "valor": "a cada 5 m, até 25 m para cada lado, cotas de fundo a cada 5 m",
+     "item": "5.2.6",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#travessia-secoes"
+    },
+    {
+     "parametro": "Travessias — trecho em terra",
+     "valor": "seções a cada 10 m com 25 m para cada lado; início e fim a 50 m das margens",
+     "item": "5.2.6 g)",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#travessia-margem"
+    },
+    {
+     "parametro": "Seções de interferências cruzadas",
+     "valor": "início e fim 20 m antes e depois da faixa de domínio, nivelamento a cada 5 m",
+     "item": "5.2.7",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#cruzamento-secoes"
+    },
+    {
+     "parametro": "Folhas de planta e perfil",
+     "valor": "1 000 m de faixa por desenho, com sobreposição de 2,5 cm entre desenhos adjacentes",
+     "item": "5.2.8.6",
+     "cota": "esquemas/documento-petrobras-folha-legenda.svg#campo"
+    },
+    {
+     "parametro": "Quadriculado do perfil",
+     "valor": "linhas horizontais finas a cada 1 cm e verticais a cada 5 cm",
+     "item": "5.2.8",
+     "cota": "esquemas/documento-petrobras-folha-legenda.svg#campo"
+    }
+   ],
+   "figuras": [
+    "esquemas/topografia-faixa-levantamento.svg",
+    "esquemas/topografia-marcos-rnp.svg",
+    "esquemas/documento-petrobras-folha-legenda.svg"
+   ]
+  },
+  {
+   "titulo": "Levantamentos especiais e aceitação",
+   "item": "5.3, 5.4, 6",
+   "texto": "Levantamento com coordenadas arbitrárias: malha ortogonal com pontos a cada 20 m, levantada por estação total. Levantamentos topográfico-cadastrais seguem também a N-1041. Serviços inspecionados e aceitos ou rejeitados pela Petrobras conforme as tolerâncias desta norma.",
+   "valores": [
+    {
+     "parametro": "Malha de eixos ortogonais (coordenadas arbitrárias)",
+     "valor": "pontos a cada 20 m",
+     "item": "5.3",
+     "cota": "esquemas/topografia-faixa-levantamento.svg#estaqueamento"
+    }
+   ],
+   "figuras": [
+    "esquemas/topografia-faixa-levantamento.svg"
+   ]
+  }
+ ]
+}

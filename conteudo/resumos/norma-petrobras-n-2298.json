@@ -1,0 +1,212 @@
+{
+ "id": "PETROBRAS-N-2298",
+ "titulo": "Petrobras N-2298 Rev. D (06/2017) — Proteção catódica de dutos terrestres",
+ "secoes": [
+  {
+   "titulo": "Escopo e critérios de proteção",
+   "item": "1, 3",
+   "texto": "Complementa a NBR ISO 15589-1:2016 (que vale integralmente no que não for citado; em divergência prevalece esta norma) para levantamentos, projeto, materiais, instalação, pré-operação, operação, inspeção e manutenção de proteção catódica (PC) de dutos terrestres enterrados de aço-carbono e inox, incluindo chegadas em terra de dutos submarinos e reformas de sistemas existentes. Interferência c.a. pela NBR 16563-1.",
+   "valores": [
+    {
+     "parametro": "Potencial médio tubo-solo ON em regiões com interferência c.c. (além do OFF nos cupons)",
+     "valor": "≤ −850 mV vs. Cu/CuSO₄ saturado, com registro contínuo",
+     "item": "3.1.1",
+     "nota": "Prática recomendada."
+    }
+   ],
+   "figuras": [
+    "esquemas/protecao-catodica-duto-terrestre.svg"
+   ]
+  },
+  {
+   "titulo": "Pré-requisitos: juntas isolantes, aterramento, surtos, revestimento",
+   "item": "4",
+   "texto": "Juntas isolantes monobloco (par de flanges só em linhas de surgência finas — vedação recomendada de PTFE sobre núcleo inox; existentes não precisam trocar), com terminais soldados, ensaios elétricos do Anexo F da ISO 15589-1 (monobloco classe 1, flanges classe 2) e certificados; recomenda-se instalá-las acima do solo, logo após o afloramento. Aterramento pela NBR 5410, usando o da concessionária/unidade e aterrando todas as partes metálicas expostas. Juntas protegidas por supressor tipo centelhador ou diodo de avalanche (varistor não), com falha em curto. Revestimento pela NBR 12712/15280-1; em furo direcional, ensaiar o revestimento em até uma semana após o puxamento. Desacoplador c.c. recomendado em todos os afloramentos. Drenagens pela N-1493.",
+   "valores": [
+    {
+     "parametro": "Junta em par de flanges admitida (linhas de surgência)",
+     "valor": "diâmetro < 4 pol",
+     "item": "4.1.1 (nota 1)"
+    },
+    {
+     "parametro": "Teste hidrostático da junta isolante",
+     "valor": "≥ 1,5 × pressão de projeto por ≥ 1 h, sem vazamento",
+     "item": "4.1.4.2"
+    },
+    {
+     "parametro": "Resistência de aterramento recomendada",
+     "valor": "≤ 10 Ω",
+     "item": "4.2 a)"
+    },
+    {
+     "parametro": "Cabo de fixação do supressor",
+     "valor": "rígido, seção ≥ 16 mm², o mais curto possível",
+     "item": "4.3.1"
+    },
+    {
+     "parametro": "Proteção de surtos opcional onde a densidade de descargas for",
+     "valor": "< 5 descargas/km²/ano",
+     "item": "4.3.1 (nota)"
+    },
+    {
+     "parametro": "Desacoplador c.c.: tensão de bloqueio / corrente de regime / falta (30 ciclos) / impulso (8/20 μs)",
+     "valor": "−3; +1 V / 45 A RMS / 3,7 kA / 100 kA (60 Hz)",
+     "item": "4.6.2"
+    }
+   ],
+   "figuras": [
+    "esquemas/protecao-catodica-duto-terrestre.svg"
+   ]
+  },
+  {
+   "titulo": "Levantamentos e projeto",
+   "item": "5",
+   "texto": "Resistividade pela NBR 7117 ao longo da faixa e nos cruzamentos/aproximações com linhas de transmissão ≥ 69 kV. Levantar sistemas de PC existentes nas proximidades (dados do duto, equipamentos com fotos, potenciais). Potenciais ON em registros de até 24 h; OFF (chaveamento ou cupom) em registros de até 5 min, todos na mesma escala; potencial c.a. sempre levantado, com registro de 24 h se o instantâneo passar de 15 V RMS. Densidade de corrente do aço nu pela fórmula j = 73,73 − 13,35 log ρ (mA/m², ρ em Ω·cm). Cabo do leito de anodos com capa de HMWPE; evitar emendas (se houver, com muflas); evitar solda exotérmica direto no duto; conexões aéreas revestidas pela N-442. Duto recém-lançado recebe PC provisória (magnésio ou pilhas em estacas) ou é ligado ao sistema existente da faixa; durante a obra, potenciais mensais e equipamentos semanais. Todos os dutos da faixa comum interligados aos pontos de teste, retificadores e drenagens (com terceiros, só após estudo de interferência).",
+   "valores": [
+    {
+     "parametro": "Espaçamento das medições de resistividade na faixa",
+     "valor": "a cada 500 m, a 1,5 m de profundidade",
+     "item": "5.1.2 a)",
+     "cota": "esquemas/protecao-catodica-duto-terrestre.svg#espacamento-resistividade"
+    },
+    {
+     "parametro": "Profundidade básica da medição de resistividade",
+     "valor": "1,5 m",
+     "item": "5.1.2 a)",
+     "cota": "esquemas/protecao-catodica-duto-terrestre.svg#profundidade-basica"
+    },
+    {
+     "parametro": "Profundidades adicionais (a cada 10 medições e em cruzamentos com LT ≥ 69 kV)",
+     "valor": "1,5 m, 3,0 m, 4,5 m e 6,0 m",
+     "item": "5.1.2",
+     "cota": "esquemas/protecao-catodica-duto-terrestre.svg#profundidade-resistividade"
+    },
+    {
+     "parametro": "Raio de levantamento de sistemas de PC existentes",
+     "valor": "até 10 km do traçado",
+     "item": "5.1.3.1",
+     "nota": "Prática recomendada.",
+     "cota": "esquemas/protecao-catodica-duto-terrestre.svg#aproximacao-lt"
+    },
+    {
+     "parametro": "Aproximação de LT ≥ 69 kV que exige simulação de interferência c.a. em curto-circuito",
+     "valor": "< 200 m",
+     "item": "5.1.4",
+     "cota": "esquemas/protecao-catodica-duto-terrestre.svg#aproximacao-lt"
+    },
+    {
+     "parametro": "Seção mínima de cabo — retificador ao duto e ao leito; drenagem ao duto e ao trilho",
+     "valor": "16 mm²",
+     "item": "5.4.1"
+    },
+    {
+     "parametro": "Seção mínima de cabo — anodo galvânico ao duto; medição de potencial e de corrente",
+     "valor": "6 mm²",
+     "item": "5.4.1"
+    },
+    {
+     "parametro": "Seção mínima de cabo — continuidade elétrica / cupom de PC",
+     "valor": "10 mm² / 4 mm²",
+     "item": "5.4.1"
+    },
+    {
+     "parametro": "Potencial aceitável em sistema provisório",
+     "valor": "ON ≤ −850 mV vs. ECS",
+     "item": "5.6.3"
+    }
+   ],
+   "figuras": [
+    "esquemas/protecao-catodica-duto-terrestre.svg"
+   ]
+  },
+  {
+   "titulo": "Corrente impressa, anodos galvânicos e pontos de teste",
+   "item": "6, 7, 8",
+   "texto": "Estações de corrente impressa em local não alagável com acesso por carro (preferir dentro das unidades), com abrigo contra intempéries e vandalismo (tela, alvenaria, concreto); retificadores pela N-2608. Anodos georreferenciados, faixa do leito sinalizada; caixa de passagem junto a cada anodo superficial para medir sua corrente. Enchimento condutor de coque metalúrgico ou calcinado; anodos FeSiCr (NBR 9240), grafite (NBR 9241), titânio tubular (NBR 16294), zinco (NBR 9358), magnésio (NBR 16460). Enchimento dos galvânicos a seco, vibrado, em saco de aniagem. Ponto de teste com um cabo de cada duto da faixa e folga para mais um duto, cerca de arame farpado em área rural, cupom recomendado em todos (ligado por conector, nunca soldado). Em tubo-camisa, cabo do duto e da camisa (camisa fora da PC); em junta isolante, cabo de cada lado, fora da área classificada.",
+   "valores": [
+    {
+     "parametro": "Afastamento do 1º anodo ao duto",
+     "valor": "60 m",
+     "item": "6.3.1.1",
+     "nota": "Prática recomendada.",
+     "cota": "esquemas/protecao-catodica-duto-terrestre.svg#afastamento-anodo"
+    },
+    {
+     "parametro": "Enchimento condutor — resistividade máx. / compactação mín.",
+     "valor": "50 Ω·cm / 1 000 kg/m³",
+     "item": "6.3.3.1 a)"
+    },
+    {
+     "parametro": "Enchimento condutor — carbono mínimo",
+     "valor": "75 % (coque metalúrgico); 90 % (coque calcinado)",
+     "item": "6.3.3.1 b)"
+    },
+    {
+     "parametro": "Enchimento condutor — umidade máxima",
+     "valor": "5 %",
+     "item": "6.3.3.1 c)"
+    },
+    {
+     "parametro": "Enchimento condutor — granulometria",
+     "valor": "100 % passando na peneira de 1/2\"",
+     "item": "6.3.3.1 d)",
+     "cota": "esquemas/protecao-catodica-duto-terrestre.svg#granulometria-coque"
+    },
+    {
+     "parametro": "Enchimento para anodo de magnésio",
+     "valor": "75 % gesso hidratado, 20 % bentonita, 5 % sulfato de sódio",
+     "item": "7.3 a)"
+    },
+    {
+     "parametro": "Enchimento para anodo de zinco",
+     "valor": "50 % gesso hidratado, 50 % bentonita",
+     "item": "7.3 b)"
+    }
+   ],
+   "figuras": [
+    "esquemas/protecao-catodica-duto-terrestre.svg"
+   ]
+  },
+  {
+   "titulo": "Pré-operação, inspeção e documentação",
+   "item": "9, 10, 11, Anexo A",
+   "texto": "Não despolarizar o duto antes dos ensaios preliminares; potencial natural só quando pedido; relatório com fotos. Inspeções de rotina pela Tabela 9 da ISO 15589-1, com alterações (Tabela 1). Inspeção específica em todo o duto após a construção e em trechos reparados; durante a operação, quando o pig instrumentado mostrar corrosão externa ativa ou perda de espessura > 50 % não inspecionada antes. Disponibilidade de cada retificador calculada mensalmente (horas de operação / tempo decorrido). Projeto executivo pela N-381/N-1710/N-2064 com memorial, cálculos, relatórios, listas, procedimentos e desenhos (mapa geral, topografia de retificadores e leitos, plantas das estações). Anexo A lista o que inspecionar em retificadores (inclusive rigidez do óleo), leitos, drenagens e pontos de teste.",
+   "valores": [
+    {
+     "parametro": "Aferição do eletrodo de referência permanente",
+     "valor": "1 a 3 anos (nos ensaios abrangentes)",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Potencial OFF nos pontos de teste críticos",
+     "valor": "anual",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Prazo para a inspeção específica após o pig",
+     "valor": "até 3 anos",
+     "item": "10.1.4 (nota 1)"
+    },
+    {
+     "parametro": "Extensão mínima da inspeção específica",
+     "valor": "2 km (1 km a montante e 1 km a jusante do defeito)",
+     "item": "10.1.4 (nota 2)",
+     "cota": "esquemas/protecao-catodica-duto-terrestre.svg#extensao-inspecao"
+    },
+    {
+     "parametro": "Disponibilidade operacional recomendada do retificador",
+     "valor": "≥ 80 %",
+     "item": "10.2"
+    },
+    {
+     "parametro": "Rigidez dielétrica do óleo de retificador",
+     "valor": "≥ 1,5 kV, 60 Hz, por ≥ 1 min",
+     "item": "A.1 i)"
+    }
+   ],
+   "figuras": [
+    "esquemas/protecao-catodica-duto-terrestre.svg"
+   ]
+  }
+ ]
+}

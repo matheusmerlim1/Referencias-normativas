@@ -1,0 +1,25 @@
+{
+ "id": "PETROBRAS-N-2105",
+ "titulo": "Petrobras N-2105 Rev. F (04/2016) — Forno — requisição de material",
+ "secoes": [
+  {
+   "titulo": "Escopo e preenchimento",
+   "item": "1, 3",
+   "texto": "Padroniza a requisição de material (RM) para comprar fornos: formulário A4 (Anexo A, 39 folhas), emitido pelo executante como documento inicial da compra; cabeçalho e rodapé pela N-381; TAG (N-1521) no campo do nome do equipamento; uma RM só para fornos iguais. Traz dois anexos-modelo a substituir pelos do projeto: Anexo 1 (documentos de referência de projeto) e Anexo 2 (limites de bateria marcados nos P&ID e no plot plan).",
+   "valores": [],
+   "figuras": [
+    "esquemas/forno-tubular.svg",
+    "esquemas/forno-projeto-conveccao-janelas.svg"
+   ]
+  },
+  {
+   "titulo": "Estrutura e escopo da RM",
+   "item": "Anexo A",
+   "texto": "Índice: 1 objetivo (fornecimento completo só com toda a documentação); 2 escopo; 3 componentes e auxiliares; 4 instrumentos, acessórios e sistemas auxiliares; 5 sobressalentes; 6 documentos de referência; 7 normas, códigos e legislação (NR-10, 12, 13, 14, 26, COMAER, CONAMA, INMETRO, normas Petrobras, API 530/535/556/560/936, ASME, NFPA 85…); 8 comentários e aprovação; 9 documentação; 10 requisitos complementares; 11 responsabilidades do fornecedor; 12 anexos. O escopo de projeto inclui projeto térmico e sua validação, materiais, projeto mecânico e de fabricação, flexibilidade de serpentinas, skin-points, dutos e tubulações, controle de combustão e intertravamento, instrumentação e fieldbus, elétrica dentro dos limites de bateria (força, iluminação normal e de emergência, aterramento, tomadas), descoqueamento ar/vapor (com vaso knock-out) e por pig, spalling on-line, sistemas de combustível e de vapor de abafamento, refratários e isolantes, dampers e seu controle manual, preaquecimento do ar e modelo 3D (PDMS) aprovado antes da montagem.",
+   "valores": [],
+   "figuras": [
+    "esquemas/forno-tubular.svg"
+   ]
+  }
+ ]
+}

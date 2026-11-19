@@ -1,0 +1,95 @@
+{
+ "id": "PETROBRAS-N-2637",
+ "titulo": "Petrobras N-2637 Rev. B (07/2018) — Segurança no trabalho em espaço confinado",
+ "secoes": [
+  {
+   "titulo": "Definições e critérios gerais",
+   "item": "3, 4, 5",
+   "texto": "Espaço confinado = local não projetado para ocupação contínua, com acesso limitado de entrada/saída/resgate e sem ventilação natural que garanta ar respirável (as três condições juntas; havendo só uma ou duas, adotam-se medidas específicas para elas). Equipamento de processo (vaso, torre) só é sinalizado como espaço confinado quando aberto para intervenção; tanques que abrem à mão sem ferramenta não entram nessa exceção. Entrada só com PET e trabalho com PT (N-2162). Cada unidade indica formalmente o responsável técnico pela NR-33, mantém cadastro com riscos de todos os espaços confinados (inclusive desativados), programa de capacitação e procedimento escrito por cenário acidental. Resgatistas treinados pela NBR 16577.",
+   "valores": [
+    {
+     "parametro": "Validade da PET",
+     "valor": "o dia da emissão; saída de toda a equipe exige nova PET",
+     "item": "4.2"
+    },
+    {
+     "parametro": "Curso inicial do responsável técnico",
+     "valor": "40 h (conteúdo do supervisor de entrada)",
+     "item": "4.4.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/espaco-confinado-preparacao-petrobras.svg",
+    "esquemas/espaco-confinado.svg"
+   ]
+  },
+  {
+   "titulo": "Preparação do equipamento de processo",
+   "item": "6",
+   "texto": "Retirada de operação: controlar energias perigosas, desenergizar pela NR-10, remover fontes de ignição próximas, desconectar e pluguear dispositivos de alívio, blindar ou retirar fontes radioativas. Drenar e despressurizar. Isolar todas as linhas com flange cego ou raquete o mais perto possível do equipamento, com plano de raqueteamento (sem ponto para raquete → procedimento por análise de risco). Limpar e descontaminar; depois garantir isolamento de água, vapor, gás inerte e energias. Após vaporização, admitir ar atmosférico para evitar vácuo pela condensação.",
+   "figuras": [
+    "esquemas/espaco-confinado-preparacao-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Atmosfera: avaliação, monitoramento e ventilação",
+   "item": "7, 8; Tabela 1",
+   "texto": "Antes da entrada, medir O₂ e contaminantes em pontos representativos de todo o espaço, depois da limpeza, com ventilação forçada desligada e após estabilizar. Monitoramento contínuo durante o trabalho. Acima do limite de tolerância de agentes químicos, proteção respiratória (IN SSST/MTb nº 1); recomendada também para odor desconfortável. Conexões de ar mandado diferentes das demais e cilindros/manifolds de gás tóxico sinalizados. Ventilação/exaustão forçada contínua, de local seguro e aterrada (N-2918 em área classificada); se parar, suspender e retirar todos.",
+   "valores": [
+    {
+     "parametro": "Inflamáveis — entrada livre",
+     "valor": "0 % do LII",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Inflamáveis — entrada com restrições",
+     "valor": "de 0 % até 10 % do LII (só trabalho a frio, API 2015, com precauções especiais)",
+     "item": "Tabela 1, Nota 1"
+    },
+    {
+     "parametro": "Inflamáveis — entrada proibida",
+     "valor": "acima de 10 % do LII",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Oxigênio — entrada sem proteção respiratória",
+     "valor": "19,5 % a 23 %",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Oxigênio — abaixo de 19,5 %",
+     "valor": "só com máscara autônoma de pressão positiva ou linha de ar com cilindro de escape",
+     "item": "Tabela 1, Nota 2"
+    },
+    {
+     "parametro": "Oxigênio — entrada proibida",
+     "valor": "acima de 23 %",
+     "item": "Tabela 1"
+    }
+   ],
+   "figuras": [
+    "esquemas/espaco-confinado-preparacao-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Equipamentos elétricos",
+   "item": "9",
+   "texto": "Aparelhos, iluminação e cabos conforme análise de risco e classificação de área, certificados quando aplicável; iluminação de emergência para evacuação (portátil Ex aceita). Recomenda-se transformador isolador e desligamento instantâneo por falta à terra. Em compartimento condutivo, ferramentas e luminárias portáteis com isolação dupla, alimentadas em extrabaixa tensão (NR-10) ou por transformador separador (IEC 61558-2-4, um equipamento por secundário). Pintura e hidrojateamento (NR-34) e atmosferas explosivas/condutivas: só extrabaixa tensão.",
+   "valores": [
+    {
+     "parametro": "Ferramenta portátil sem EBT nem transformador separador",
+     "valor": "tensão máxima 220 V com DR (proteção instantânea contra fuga à terra)",
+     "item": "9.4, Nota"
+    }
+   ]
+  },
+  {
+   "titulo": "Liberação, vigia, resgate e comunicação",
+   "item": "10 a 14",
+   "texto": "Entrada após cumprir NR-33 e esta norma; atmosfera IPVS exige avaliação diária da saúde dos autorizados. Equipamento de resgate próximo e pronto; equipe de resgate avisada, dimensionada por cenário e nunca formada por quem trabalha dentro; acionada a equipe, param as outras frentes que dependem dela. Vigia permanente em todo acesso até a saída do último, com controle e registro de quem está dentro. Comunicação eficaz (de preferência rádio) entre interior, vigia e resgate — caiu a comunicação, todos saem. Auditoria interna periódica.",
+   "figuras": [
+    "esquemas/espaco-confinado-preparacao-petrobras.svg"
+   ]
+  }
+ ]
+}

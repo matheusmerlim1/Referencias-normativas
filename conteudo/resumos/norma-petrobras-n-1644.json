@@ -1,0 +1,255 @@
+{
+ "id": "PETROBRAS-N-1644",
+ "titulo": "Petrobras N-1644 Rev. G (09/2022) — Construção de fundações e de estruturas de concreto armado",
+ "secoes": [
+  {
+   "titulo": "Escopo e documentação",
+   "item": "1, 4, 5.1",
+   "texto": "Execução de fundações rasas e profundas e de estruturas de concreto armado em instalações Petrobras. Antes da obra emitem-se procedimentos (topografia pela N-47; escavação/reaterro; armadura; formas e cimbramento; insertos e chumbadores pela N-134; controle tecnológico; concretagem; grauteamento; pré-moldados; fundações pela NBR 6122; provas de carga; ensaio PIT), cada um com objetivo, normas, método, tolerâncias e segurança. Concretagens especiais (grandes volumes, juntas especiais, controle de temperatura) exigem plano de concretagem. Controle tecnológico por profissionais qualificados (NBR 15146-1) com rastreabilidade corpo de prova ↔ peça.",
+   "figuras": [
+    "esquemas/fundacao-concreto-execucao-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Tolerâncias topográficas de base de tanque",
+   "item": "5.2.2; Tabela 1",
+   "texto": "Estruturas de concreto seguem NBR 9062, 14931 e 15696; bases de tanque seguem as tolerâncias de elevação abaixo (critério API 650).",
+   "valores": [
+    {
+     "parametro": "Anel de concreto — elevação em qualquer arco de 9,0 m",
+     "valor": "± 3,0 mm",
+     "item": "5.2.2 a)",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#arco"
+    },
+    {
+     "parametro": "Anel de concreto — elevação em qualquer ponto do perímetro",
+     "valor": "± 6 mm em relação à elevação de projeto",
+     "item": "5.2.2 a)",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#elevacao"
+    },
+    {
+     "parametro": "Laje de concreto — coroa externa com as tolerâncias do anel",
+     "valor": "faixa de 0,30 m medida radialmente de fora para dentro; resto da laje ± 13 mm",
+     "item": "5.2.2 b)",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#coroa"
+    },
+    {
+     "parametro": "Sem anel de concreto — nivelamento",
+     "valor": "± 3 mm em qualquer arco de 3 m; ± 13 mm em toda a circunferência (a partir da elevação média)",
+     "item": "5.2.2 c)",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#arco"
+    },
+    {
+     "parametro": "Raio do anel/fundação no costado — tanque Ø ≤ 12 m",
+     "valor": "± 13 mm",
+     "item": "Tabela 1",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#raio"
+    },
+    {
+     "parametro": "Raio do anel/fundação — tanque Ø 12 a 45 m",
+     "valor": "± 19 mm",
+     "item": "Tabela 1",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#raio"
+    },
+    {
+     "parametro": "Raio do anel/fundação — tanque Ø 45 a 75 m",
+     "valor": "± 25 mm",
+     "item": "Tabela 1",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#raio"
+    },
+    {
+     "parametro": "Raio do anel/fundação — tanque Ø > 75 m",
+     "valor": "± 32 mm",
+     "item": "Tabela 1",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#raio"
+    }
+   ],
+   "figuras": [
+    "esquemas/fundacao-concreto-execucao-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Escavação, reaterro e lastro",
+   "item": "5.3, 5.4; Figuras 1–3",
+   "texto": "Escavação rasa pode ter parede vertical sem proteção se o terreno vizinho for pouco inclinado; em solo coesivo, até a profundidade intermediária segue as Figuras 1 e 2 (trecho vertical e talude de 45° ou escoras). Acima de 5 m, patamares (Figura 3). Cava junto a fundação existente exige procedimento e plano de escoramento próprios, com memória de cálculo. Estaca-prancha: ficha definida pelo limite inferior da camada mole, com sondagens próximas. Reaterro com material da própria cava se sem torrões, pedras e matéria orgânica, ou de empréstimo selecionado; só após corrigir falhas de concretagem. Lastro conforme NBR 6122.",
+   "valores": [
+    {
+     "parametro": "Parede vertical sem proteção",
+     "valor": "até 1,25 m de profundidade, se o terreno adjacente tiver inclinação ≤ 1:10 (solo não coesivo) ou ≤ 1:2 (solo coesivo)",
+     "item": "5.3.1",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#parede-vertical"
+    },
+    {
+     "parametro": "Inclinação do terreno adjacente",
+     "valor": "≤ 1:10 (não coesivo) / ≤ 1:2 (coesivo)",
+     "item": "5.3.1",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#terreno-adjacente"
+    },
+    {
+     "parametro": "Solo coesivo — escavação conforme Figuras 1 e 2",
+     "valor": "até 1,75 m (trecho vertical de 1,25 m + talude 45°, ou escoras)",
+     "item": "5.3.2; Fig. 1 e 2",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#parede-vertical",
+     "nota": "conferir: cotas lidas das Figuras 1 e 2"
+    },
+    {
+     "parametro": "Talude até 5,00 m — solo não coesivo ou coesivo médio",
+     "valor": "β ≤ 45° com a horizontal",
+     "item": "5.3.3 a)",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#beta"
+    },
+    {
+     "parametro": "Talude até 5,00 m — solo coesivo resistente",
+     "valor": "β ≤ 60°",
+     "item": "5.3.3 b)",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#beta"
+    },
+    {
+     "parametro": "Talude até 5,00 m — rocha",
+     "valor": "β ≤ 80°",
+     "item": "5.3.3 c)",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#beta"
+    },
+    {
+     "parametro": "Profundidade acima da qual se usam patamares",
+     "valor": "> 5,0 m (Figura 3)",
+     "item": "5.3.4",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#patamar-altura",
+     "nota": "conferir: a Figura 3 traz cotas de patamar (1,00 m e 1,50 m) e trechos de 5,00 m — leitura da figura"
+    }
+   ],
+   "figuras": [
+    "esquemas/fundacao-concreto-execucao-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Concreto: lançamento, adensamento, cura e graute",
+   "item": "5.5, 5.6",
+   "texto": "Dosagem NBR 12655; preparo, transporte, lançamento e juntas NBR 14931/7212. Proibido tráfego e estocagem sobre peça recém-concretada (só com parecer do projetista). Vibrador vertical, entra e sai devagar, sem arrastar na horizontal; espalhar com enxada, nunca com o vibrador. Cura úmida, por membrana (sem trânsito até o fim) ou a vapor. Graute (cimentício preferido) com resistência ≥ à do concreto, superfície apicoada e limpa, forma estanque com saída de ar, aplicação ininterrupta; cimentício em substrato saturado sem excesso de água, epóxi em substrato seco; não reduzir agregado para ganhar fluidez.",
+   "valores": [
+    {
+     "parametro": "Distância entre pontos de vibração",
+     "valor": "1,5 × o raio de ação do vibrador",
+     "item": "5.5.7 a)",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#vibrador-espacamento"
+    },
+    {
+     "parametro": "Penetração da agulha na camada anterior (não endurecida)",
+     "valor": "cerca de 10 cm",
+     "item": "5.5.7 d)",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#vibrador-penetracao"
+    },
+    {
+     "parametro": "Tempo máximo do vibrador no mesmo ponto",
+     "valor": "30 s",
+     "item": "5.5.7 e)"
+    },
+    {
+     "parametro": "Cura úmida — CP-I e CP-V / CP-II e CP-III / CP-IV",
+     "valor": "7 / 10 / 20 dias",
+     "item": "5.5.8 a)"
+    },
+    {
+     "parametro": "Cura a vapor",
+     "valor": "início ≥ 2 h após a concretagem; ciclo ≥ 10 h",
+     "item": "5.5.8 c)"
+    }
+   ],
+   "figuras": [
+    "esquemas/fundacao-concreto-execucao-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Fundações profundas: cravação e estacas moldadas",
+   "item": "6, 7.1–7.5",
+   "texto": "Terreno de fundação rasa liberado por especialista antes do lastro; terreno diferente da sondagem → consultar projetista; rebaixar lençol em solo granular quando recomendado. Estaqueamento começa pela estaca-prova. Estaca cravada: gabarito vazado além do piquete, prumo da torre e da estaca, coxim de madeira, golpes axiais, diagrama de cravação; se a nega não vem no comprimento previsto, emenda-se novo elemento; arrasamento só após aprovar o diagrama. Estaca de aço sem nióbio (quebra na cravação). Pré-moldada pela NBR 16258; trincada ou esmagada é rejeitada; manter ancoragem da armadura no arrasamento. Moldada in loco: controle de inclinação obrigatório; raiz com injeção ascendente e completagem a cada segmento sacado; hélice contínua só com todo o concreto na obra, monitoramento contínuo e sobreconsumo até o arrasamento.",
+   "valores": [
+    {
+     "parametro": "Confirmação da nega e do repique",
+     "valor": "3 séries de 10 golpes",
+     "item": "7.3.1.1, 7.3.1.5"
+    },
+    {
+     "parametro": "Nega com suplemento abaixo do terreno",
+     "valor": "reduzir 30 % do valor calculado",
+     "item": "7.3.1.1, 7.3.1.7"
+    },
+    {
+     "parametro": "Ar comprimido no saque do revestimento (estaca raiz)",
+     "valor": "golpes com pressão < 0,5 MPa",
+     "item": "7.4.2.3"
+    }
+   ]
+  },
+  {
+   "titulo": "Provas de carga e integridade",
+   "item": "7.6; Tabela 2",
+   "texto": "Prova estática (NBR 12131) não pode ser trocada por ensaio dinâmico (NBR 13208); estáticas do tipo lenta. Estacas com tração ou carga horizontal relevantes ganham provas adicionais na mesma proporção. Sistema de reação com capacidade ≥ resistência estrutural da estaca. PIT pela ASTM D5882: estaca comprometida é abandonada ou investigada.",
+   "valores": [
+    {
+     "parametro": "Fator de segurança à ruptura (carga admissível)",
+     "valor": "2",
+     "item": "7.6.1.3"
+    },
+    {
+     "parametro": "Carga admissível sem levar à ruptura",
+     "valor": "1/1,5 da carga que dá recalque total de 15 mm",
+     "item": "7.6.1.3"
+    },
+    {
+     "parametro": "Carga mínima de ensaio",
+     "valor": "≥ 2 × a carga de trabalho; continuar até recalque de 20 mm ou capacidade estrutural",
+     "item": "7.6.1.4"
+    },
+    {
+     "parametro": "Prova de carga horizontal — limite de deslocamento",
+     "valor": "10 mm",
+     "item": "7.6.1.5"
+    },
+    {
+     "parametro": "Quantidade mínima — pré-moldada de concreto ou metálica",
+     "valor": "dinâmico 3 % ou 2; estática 1 % ou 1 (a maior quantidade)",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Quantidade mínima — escavada, hélice contínua, ômega",
+     "valor": "estática 1 % ou 1; PIT 100 %",
+     "item": "Tabela 2"
+    },
+    {
+     "parametro": "Quantidade mínima — estaca raiz",
+     "valor": "estática 1 % ou 1",
+     "item": "Tabela 2"
+    }
+   ]
+  },
+  {
+   "titulo": "Estruturas de concreto, insertos e suportes de tubulação",
+   "item": "8; Figuras 4–6",
+   "texto": "Execução pela NBR 9062 e 14931 com controle tecnológico. Pré-moldado: preferir tubo passante para içamento a alças metálicas. Concreto aparente uniforme, juntas planejadas e superfície protegida. Insertos e chumbadores pelas N-134 e N-1550, pintados até a profundidade do cobrimento; nicho preenchido com argamassa expansiva autonivelante. Suporte de concreto para tubulação (dormentes, vigas de pipe rack): topo inclinado em terreno com desnível, chapa de aço-carbono contínua no topo presa por chumbadores CA-25 soldados (Fig. 6) e barra de apoio sobre a chapa.",
+   "valores": [
+    {
+     "parametro": "Espessura mínima do suporte de concreto armado",
+     "valor": "25 cm",
+     "item": "8.4 a); Fig. 4",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#suporte-espessura"
+    },
+    {
+     "parametro": "Chanfro de acabamento nas arestas do topo",
+     "valor": "25 × 25 mm",
+     "item": "8.4 b); Fig. 4",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#chanfro"
+    },
+    {
+     "parametro": "Barra de apoio sobre a chapa (ASTM A36)",
+     "valor": "Ø 3/4\"",
+     "item": "8.4 f)",
+     "cota": "esquemas/fundacao-concreto-execucao-petrobras.svg#barra"
+    }
+   ],
+   "figuras": [
+    "esquemas/fundacao-concreto-execucao-petrobras.svg"
+   ]
+  }
+ ]
+}

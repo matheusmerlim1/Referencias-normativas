@@ -1,0 +1,89 @@
+{
+ "id": "PETROBRAS-N-0075",
+ "titulo": "Petrobras N-0075 Rev. E (03/2012) — Abreviaturas para os projetos industriais",
+ "secoes": [
+  {
+   "titulo": "Escopo",
+   "item": "1",
+   "texto": "Lista as abreviaturas padronizadas dos projetos industriais, com duas entradas: por abreviatura (3.1) e por termo (3.2). Não cobre TAG de equipamentos (N-1521), identificação de tubulações (N-1522) nem instrumentos (ISA 5.1). Só requisitos técnicos.",
+   "valores": [],
+   "figuras": [
+    "esquemas/desenho-abreviaturas-tubulacao.svg"
+   ]
+  },
+  {
+   "titulo": "Abreviaturas de geometria e tubulação (amostra)",
+   "item": "3.1",
+   "texto": "Amostra das mais usadas em desenho; várias têm dois sentidos e o contexto decide (CA = castelo aparafusado ou corrente alternada; CC = com costura ou corrente contínua; DE = diâmetro externo ou desenho).",
+   "valores": [
+    {
+     "parametro": "DE / DI",
+     "valor": "diâmetro externo / diâmetro interno",
+     "item": "3.1",
+     "cota": "esquemas/desenho-abreviaturas-tubulacao.svg#de"
+    },
+    {
+     "parametro": "ESP",
+     "valor": "espessura",
+     "item": "3.1",
+     "cota": "esquemas/desenho-abreviaturas-tubulacao.svg#esp"
+    },
+    {
+     "parametro": "EL",
+     "valor": "elevação",
+     "item": "3.1",
+     "cota": "esquemas/desenho-abreviaturas-tubulacao.svg#el"
+    },
+    {
+     "parametro": "BOP",
+     "valor": "bottom of pipe — geratriz externa inferior do tubo",
+     "item": "3.1",
+     "cota": "esquemas/desenho-abreviaturas-tubulacao.svg#bop"
+    },
+    {
+     "parametro": "LC / FIT",
+     "valor": "linha de centro / face inferior do tubo",
+     "item": "3.1"
+    },
+    {
+     "parametro": "DN / NPS / SCH",
+     "valor": "diâmetro nominal / nominal pipe size / schedule",
+     "item": "3.1"
+    },
+    {
+     "parametro": "EXC, EXP, EXR (AEC, AEP, AER)",
+     "valor": "extremidade chanfrada, plana, roscada (ambas as extremidades …)",
+     "item": "3.1"
+    },
+    {
+     "parametro": "FF / RF / FCE / FPE / FSO / FRO",
+     "valor": "face plana / face com ressalto / flange cego / de pescoço / sobreposto / roscado",
+     "item": "3.1"
+    },
+    {
+     "parametro": "CRL / CRC / CGM",
+     "valor": "curva de raio longo / curto / em gomos",
+     "item": "3.1"
+    },
+    {
+     "parametro": "AC / AI / AL / AFO / AFU / FFU",
+     "valor": "aço-carbono / inoxidável / liga / forjado / fundido / ferro fundido",
+     "item": "3.1"
+    },
+    {
+     "parametro": "A / B / BE / BR / G / GT",
+     "valor": "âncora / batente / berço / braçadeira / guia longitudinal / guia transversal (suportes)",
+     "item": "3.1"
+    },
+    {
+     "parametro": "FD / TIP / DET / ESPEC",
+     "valor": "folha de dados / típico / detalhe / especificação",
+     "item": "3.1"
+    }
+   ],
+   "figuras": [
+    "esquemas/desenho-abreviaturas-tubulacao.svg"
+   ]
+  }
+ ]
+}

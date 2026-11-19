@@ -1,0 +1,65 @@
+{
+ "id": "PETROBRAS-N-2415",
+ "titulo": "Petrobras N-2415 Rev. C (06/2010) — Produção de petróleo: ambiente de poços produtores e injetores — classificação de agressividade ao aço-carbono e suas ligas",
+ "secoes": [
+  {
+   "titulo": "Escopo e agentes agressivos",
+   "item": "1, 3, 4",
+   "texto": "Classifica a agressividade das condições de poços produtores (óleo, gás natural, água) e injetores (gás, água doce, do mar ou produzida, vapor e descarte) ao aço-carbono da ISO 11960 e suas ligas. 'Água livre' é a parte da água que escoa com o óleo em fase separada. Gás: H₂S, CO₂, cloretos, ácidos orgânicos, enxofre elementar, sólidos e mercúrio (com umidade). Óleo: os mesmos com água livre, considerando o gás de gas lift. Produtor de água: O₂, CO₂, H₂S, cloreto, ácidos orgânicos, sólidos; injetor de água: idem mais bactérias redutoras de sulfato (BRS) — na água do mar, O₂ dissolvido, BRS e sólidos. Vapor: O₂ e sais dissolvidos. Injetor de gás abaixo do orvalho: CO₂, H₂S e ácidos orgânicos.",
+   "valores": [],
+   "figuras": [
+    "esquemas/poco-ambiente-agressividade.svg"
+   ]
+  },
+  {
+   "titulo": "Caracterização do ambiente",
+   "item": "5",
+   "texto": "Temperatura, pH, sólidos em suspensão e oxigênio medidos logo após a coleta, no ponto de amostragem. Dados do poço: pressões e temperaturas estáticas e de fluxo no fundo e na cabeça, RGO, RAO, RAG, vazões e velocidade erosional, diâmetros interno e externo da coluna e acessórios, geometria e esquema da coluna, pressão de saturação e método de elevação (poços direcionais e horizontais são mais críticos pela segregação). Água: cloretos (NBR 5759), sulfatos (potencial de H₂S por BRS), bicarbonatos, ácidos orgânicos (ASTM D 4327), sólidos (filtrados sem ar e caracterizados por fluorescência e difração de raios X) e pH — o pH real é calculado pela ISO 15156-2 ou software, pois o medido à pressão atmosférica não vale; para incrustação, também Na, K, Ca, Mg, Sr, Fe e Ba. CO₂ e H₂S na fase gás (amostrador de material que não reaja com H₂S); O₂ dissolvido na água (ASTM D 888); presença de BRS.",
+   "valores": [],
+   "figuras": [
+    "esquemas/poco-ambiente-agressividade.svg"
+   ]
+  },
+  {
+   "titulo": "Critérios de agressividade",
+   "item": "6, 7",
+   "texto": "Vale a classificação mais severa entre os critérios. Oxidantes (cloro, peróxido) na água de injeção tornam o meio de alta agressividade; ácidos orgânicos em poços de gás a aumentam; incrustações influem na corrosão. CO₂ (produtores): pela pressão parcial e o pH (Tabela 1) — acima de 120 °C e abaixo de 10 m/s pode formar-se filme de carbonato de ferro protetor. H₂S: corrosão localizada e sob tensão por sulfetos pela ISO 15156-1/-2 (o filme de sulfeto pode reduzir a corrosão uniforme, mas H₂S e cloretos favorecem a localizada). Sólidos em suspensão com velocidade aceleram a corrosão — classificar por ensaio ou software (críticos em poços de gás). Com BRS, dosar biocida em estagnação; se o biocida baixar o pH, classificar pelo pH.",
+   "valores": [
+    {
+     "parametro": "CO₂ — pCO₂ < 4 psia",
+     "valor": "pH < 4,5 alta; 4,5–5,5 média; 5,5–6,5 baixa; > 6,5 baixa",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "CO₂ — 4 psia < pCO₂ < 15 psia",
+     "valor": "pH < 4,5 alta; 4,5–5,5 alta; 5,5–6,5 média; > 6,5 baixa",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "CO₂ — pCO₂ > 15 psia",
+     "valor": "pH < 4,5 alta; 4,5–5,5 alta; 5,5–6,5 alta; > 6,5 média",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "O₂ dissolvido em injetores de água",
+     "valor": "< 10 ppb baixa; 10–50 ppb média; > 50 ppb alta",
+     "item": "7.3",
+     "nota": "Considerar o efeito conjunto com CO₂ e H₂S."
+    },
+    {
+     "parametro": "pH da água de injeção com biocida (BRS)",
+     "valor": "> 6,5 baixa; 5,5–6,5 média; < 5,5 alta",
+     "item": "7.4"
+    },
+    {
+     "parametro": "Enxofre elementar",
+     "valor": "sem água livre: baixa; com água livre: alta",
+     "item": "7.6"
+    }
+   ],
+   "figuras": [
+    "esquemas/poco-ambiente-agressividade.svg"
+   ]
+  }
+ ]
+}

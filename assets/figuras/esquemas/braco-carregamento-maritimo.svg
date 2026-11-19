@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-label="Braço de carregamento marítimo — coluna, braços interno/externo, junta tripla, desengate e envelope">
+<title>Braço de carregamento marítimo — coluna, braços interno/externo, junta tripla, desengate e envelope (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Braço de carregamento marítimo — coluna, braços interno/externo, junta tripla, desengate e envelope</text>
+<rect x="0" y="470" width="1000" height="100" fill="#9cf" fill-opacity="0.25" stroke="#666" stroke-width="0"/>
+<line x1="0" y1="470" x2="1000" y2="470" stroke="#666" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="990" y="464" text-anchor="end" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">nível d'água (maré)</text>
+<rect x="40" y="330" width="330" height="240" fill="#999" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<text x="120" y="350" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">cais / píer</text>
+<rect x="370" y="360" width="22" height="110" fill="#333" fill-opacity="0.5" stroke="#666" stroke-width="1.5"/>
+<text x="381" y="352" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">defensa</text>
+<rect x="180" y="170" width="30" height="160" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<text x="216" y="300" text-anchor="start" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">coluna</text>
+<line x1="150" y1="330" x2="150" y2="345" stroke="#666" stroke-width="0"/>
+<line x1="195" y1="180" x2="420" y2="90" stroke="#c9a400" stroke-width="10"/>
+<text x="300" y="120" text-anchor="middle" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">braço interno</text>
+<line x1="195" y1="180" x2="120" y2="210" stroke="#c9a400" stroke-width="6"/>
+<rect x="90" y="200" width="40" height="30" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<text x="110" y="250" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">contrapeso</text>
+<line x1="420" y1="90" x2="600" y2="330" stroke="#c9a400" stroke-width="10"/>
+<line x1="448.4" y1="128.2" x2="456.4" y2="138.2" stroke="#222" stroke-width="10"/>
+<line x1="470.0" y1="157.0" x2="478.0" y2="167.0" stroke="#222" stroke-width="10"/>
+<line x1="491.6" y1="185.8" x2="499.6" y2="195.8" stroke="#222" stroke-width="10"/>
+<line x1="513.2" y1="214.60000000000002" x2="521.2" y2="224.60000000000002" stroke="#222" stroke-width="10"/>
+<line x1="534.8" y1="243.39999999999998" x2="542.8" y2="253.39999999999998" stroke="#222" stroke-width="10"/>
+<line x1="556.4" y1="272.20000000000005" x2="564.4" y2="282.20000000000005" stroke="#222" stroke-width="10"/>
+<text x="560" y="190" text-anchor="start" font-size="10" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">braço externo (faixas pretas)</text>
+<circle cx="600" cy="330" r="9" fill="#333" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<rect x="592" y="338" width="16" height="24" fill="#e33" fill-opacity="0.5" stroke="#666" stroke-width="1.5"/>
+<text x="620" y="352" text-anchor="start" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">desengate de emergência (ERS)</text>
+<rect x="592" y="362" width="16" height="14" fill="#666" fill-opacity="0.4" stroke="#666" stroke-width="1.5"/>
+<text x="620" y="372" text-anchor="start" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">acoplamento rápido</text>
+<g id="cota-diametro-nominal" class="cota"><line x1="600" y1="376" x2="820" y2="296" stroke="#666" stroke-width="1"/><circle cx="600" cy="376" r="3" fill="#666"/><text x="820" y="300" text-anchor="start" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">diâmetro nominal (flange do braço)</text></g>
+<path d="M640,470 L640,380 L980,380 L980,470" fill="#666" fill-opacity="0.2" stroke="#666" stroke-width="2"/>
+<text x="900" y="400" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">navio</text>
+<rect x="590" y="376" width="60" height="10" fill="#666" fill-opacity="0.5" stroke="#666" stroke-width="1.5"/>
+<text x="700" y="398" text-anchor="start" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">manifold / bandeja</text>
+<line x1="640" y1="380" x2="640" y2="330" stroke="#666" stroke-width="1.2"/>
+<text x="646" y="325" text-anchor="start" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">balaustrada</text>
+<g id="cota-borda-cais" class="cota"><line x1="195" y1="560" x2="370" y2="560" stroke="#666" stroke-width="1.2"/><polygon points="195.0,560.0 204.0,563.5 204.0,556.5" fill="#666"/><polygon points="370.0,560.0 361.0,556.5 361.0,563.5" fill="#666"/><text x="280" y="552" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">A — eixo dos braços à borda do cais</text></g>
+<g id="cota-defensa" class="cota"><line x1="370" y1="520" x2="392" y2="520" stroke="#666" stroke-width="1.2"/><polygon points="370.0,520.0 379.0,523.5 379.0,516.5" fill="#666"/><polygon points="392.0,520.0 383.0,516.5 383.0,523.5" fill="#666"/><text x="381" y="512" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">B</text></g>
+<g id="cota-flange-costado" class="cota"><line x1="600" y1="430" x2="640" y2="430" stroke="#666" stroke-width="1.2"/><polygon points="600.0,430.0 609.0,433.5 609.0,426.5" fill="#666"/><polygon points="640.0,430.0 631.0,426.5 631.0,433.5" fill="#666"/><text x="620" y="448" text-anchor="middle" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">K/L</text></g>
+<g id="cota-altura-cais" class="cota"><line x1="30" y1="330" x2="30" y2="470" stroke="#666" stroke-width="1.2"/><polygon points="30.0,330.0 26.5,339.0 33.5,339.0" fill="#666"/><polygon points="30.0,470.0 33.5,461.0 26.5,461.0" fill="#666"/><text x="36" y="420" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">C — cais × maré</text></g>
+<g id="cota-movimento-navio" class="cota"><line x1="660" y1="500" x2="960" y2="500" stroke="#666" stroke-width="1.2"/><polygon points="660.0,500.0 669.0,503.5 669.0,496.5" fill="#666"/><polygon points="960.0,500.0 951.0,496.5 951.0,503.5" fill="#666"/><text x="810" y="492" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">O/P — movimentos do navio</text></g>
+<g id="cota-envelope" class="cota"><line x1="600" y1="300" x2="700" y2="58" stroke="#666" stroke-width="1"/><circle cx="600" cy="300" r="3" fill="#666"/><text x="700" y="62" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">envelope operacional: todas as posições possíveis do manifold</text></g>
+<text x="840" y="90" text-anchor="middle" font-size="10" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">detalhe das faixas</text>
+<rect x="800" y="110" width="40" height="140" fill="#e5c000" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
+<rect x="800" y="125" width="40" height="20" fill="#222" fill-opacity="0.9" stroke="#666" stroke-width="0.5"/>
+<rect x="800" y="165" width="40" height="20" fill="#222" fill-opacity="0.9" stroke="#666" stroke-width="0.5"/>
+<rect x="800" y="205" width="40" height="20" fill="#222" fill-opacity="0.9" stroke="#666" stroke-width="0.5"/>
+<g id="cota-faixa-largura" class="cota"><line x1="840" y1="125" x2="860" y2="125" stroke="#666" stroke-width="1"/><line x1="840" y1="145" x2="860" y2="145" stroke="#666" stroke-width="1"/><line x1="860" y1="125" x2="860" y2="145" stroke="#666" stroke-width="1.2"/><polygon points="860.0,125.0 856.5,134.0 863.5,134.0" fill="#666"/><polygon points="860.0,145.0 863.5,136.0 856.5,136.0" fill="#666"/><text x="866" y="140" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">largura</text></g>
+<g id="cota-faixa-espacamento" class="cota"><line x1="840" y1="145" x2="900" y2="145" stroke="#666" stroke-width="1"/><line x1="840" y1="165" x2="900" y2="165" stroke="#666" stroke-width="1"/><line x1="900" y1="145" x2="900" y2="165" stroke="#666" stroke-width="1.2"/><polygon points="900.0,145.0 896.5,154.0 903.5,154.0" fill="#666"/><polygon points="900.0,165.0 903.5,156.0 896.5,156.0" fill="#666"/><text x="906" y="160" text-anchor="start" font-size="10.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">espaçamento</text></g>
+<text x="12" y="592" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

@@ -1,0 +1,171 @@
+{
+ "id": "PETROBRAS-N-0858",
+ "titulo": "Petrobras N-0858 Rev. F (07/2023) — Construção, montagem e condicionamento de instrumentação e automação",
+ "secoes": [
+  {
+   "titulo": "Escopo e condições gerais",
+   "item": "1, 5",
+   "texto": "Requisitos para receber, armazenar, preservar, calibrar, montar, condicionar e testar em malha instrumentos, materiais e sistemas de automação. Cada etapa tem procedimento próprio no sistema de gestão da obra, com planejamento, qualificação do pessoal, relatórios padronizados e registros. Detecção e alarme de incêndio pela NBR 17240; válvulas de segurança pela N-2368, N-1882 e NR-13; atividades com agentes físicos de risco (fontes radioativas, fluidos quentes ou pressurizados) com análise de risco e controle de SMS.",
+   "valores": [],
+   "figuras": [
+    "esquemas/instrumentacao-montagem-campo.svg"
+   ]
+  },
+  {
+   "titulo": "Recebimento e armazenamento",
+   "item": "6",
+   "texto": "Inspeção na chegada quanto a danos de transporte, certificados de liberação de material e não conformidades segregadas e sinalizadas. Locais de armazenamento definidos pela recomendação do fabricante: tipo A fechado e climatizado, tipo B abrigado sem controle, tipo C ao ar livre sobre dormentes ou estrados. Tubings em prateleiras abrigadas, separados por diâmetro e espessura.",
+   "valores": [
+    {
+     "parametro": "Armazém tipo A — temperatura / umidade controladas",
+     "valor": "20 °C a 30 °C / 40 % a 80 %",
+     "item": "6.1.8.1"
+    }
+   ]
+  },
+  {
+   "titulo": "Preservação",
+   "item": "7",
+   "texto": "Instrumentos de campo, painéis, caixas de junção e analisadores com inibidor de corrosão volátil (VCI) dentro do invólucro e aquecimento ligado conforme o fabricante; sem essa informação, termostato pouco acima da média mensal do local.",
+   "valores": [
+    {
+     "parametro": "VCI em instrumentos de campo",
+     "valor": "sachê de 2,5 cm × 2,5 cm no interior do invólucro [prática recomendada]",
+     "item": "7.2.3.1",
+     "cota": "esquemas/instrumentacao-montagem-campo.svg#vci-tamanho"
+    },
+    {
+     "parametro": "VCI em painéis, caixas de junção e analisadores",
+     "valor": "8 pedaços de 10 cm × 10 cm por metro cúbico [prática recomendada]",
+     "item": "7.2.3.2",
+     "cota": "esquemas/instrumentacao-montagem-campo.svg#vci-tamanho"
+    },
+    {
+     "parametro": "Termostato de aquecimento sem dado do fabricante",
+     "valor": "5 °C acima da média mensal da temperatura ambiente",
+     "item": "7.2.3"
+    }
+   ],
+   "figuras": [
+    "esquemas/instrumentacao-montagem-campo.svg"
+   ]
+  },
+  {
+   "titulo": "Calibração",
+   "item": "8",
+   "texto": "Calibração individual de cada instrumento (avulso ou em pacote/skid), com rastreabilidade, exatidão e repetibilidade do projeto. Transmissores de nível ou interface (ΔP com selo remoto, capacitivo, deslocador) têm a faixa configurada depois de montados, usando o croqui de cotas da N-1883. Válvulas de controle e on-off calibradas com todos os acessórios montados e conforme a folha de dados.",
+   "valores": [
+    {
+     "parametro": "Pontos do certificado de calibração",
+     "valor": "0, 25, 50, 75 e 100 % da faixa, subindo e descendo",
+     "item": "8.1.4"
+    },
+    {
+     "parametro": "Cota do transmissor de nível/interface",
+     "valor": "tirada do croqui da malha (N-1883) e da medição em campo",
+     "item": "8.3.1.3.1",
+     "cota": "esquemas/nivel-pressao-diferencial-croqui.svg#elevacao-transmissor"
+    }
+   ],
+   "figuras": [
+    "esquemas/nivel-pressao-diferencial-croqui.svg"
+   ]
+  },
+  {
+   "titulo": "Montagem de infraestrutura e cabos",
+   "item": "9.3.2, 9.3.3",
+   "texto": "Eletrodutos, eletrocalhas e bandejas pelo caminho mais curto, longe de calor, fogo, interferência eletromagnética, colisão e vazamentos; buchas ou borrachas de acabamento nas saídas de cabos; entradas em invólucros só pelas laterais ou por baixo, flexíveis com sifão e rígidos com drenos nos pontos baixos; montagem Ex pela NBR IEC 60079-14; juntas de expansão com ligação à terra. Cabos com raio mínimo do fabricante, sem entrelaçar, segregados por sinal e tensão, blindagens tratadas como o projeto define, prensa-cabo compatível com o diâmetro e certificado, redes digitais sem passar dos comprimentos de projeto, polaridade de termopares conferida.",
+   "valores": [
+    {
+     "parametro": "Prensa-cabos e entradas de cabo",
+     "valor": "pelas laterais ou por baixo, nunca voltadas para cima; cabo com sifão (1 ou 2 voltas de sobra)",
+     "item": "9.3.3.5, Nota 1"
+    },
+    {
+     "parametro": "Abraçadeira plástica em área externa",
+     "valor": "resistente a UV e a 105 °C (preferência: inox revestida)",
+     "item": "9.3.3.7 a)"
+    }
+   ],
+   "figuras": [
+    "esquemas/instrumentacao-montagem-campo.svg"
+   ]
+  },
+  {
+   "titulo": "Tubings, instrumentos, caixas e painéis",
+   "item": "9.3.4, 9.3.5",
+   "texto": "Tubings só depois dos suportes, montados por pessoal treinado (N-115), linhas de impulso paralelas e alinhadas, conexões do mesmo fabricante e modelo, solda orbital só se prevista, sem bolsões de gás em líquido ou de líquido em gás (N-2791), evitando o piso. Instrumentos em local sem interferir com rotas de fuga, com indicador visível e espaço para manutenção, altura acessível (N-2791); roscas paralelas só com aprovação; caixas e painéis aterrados, portas livres, canaletas tampadas; PSV na vertical; instrumentos intrusivos montados após a limpeza das linhas; conexões reserva tamponadas conforme a classificação de área.",
+   "valores": [
+    {
+     "parametro": "Tubings e capilares que exigem proteção adicional",
+     "valor": "diâmetro inferior a 1/4\"",
+     "item": "9.3.4.7",
+     "cota": "esquemas/instrumentacao-montagem-campo.svg#tubing-diametro"
+    },
+    {
+     "parametro": "Posição de montagem de válvulas de segurança e alívio",
+     "valor": "vertical",
+     "item": "9.3.5.7"
+    }
+   ],
+   "figuras": [
+    "esquemas/instrumentacao-montagem-campo.svg"
+   ]
+  },
+  {
+   "titulo": "Identificação",
+   "item": "9.3.7",
+   "texto": "Cabos com tag nas duas pontas e em pontos intermediários, condutores identificados pela N-1882; instrumentos com plaqueta de tag visível em inox fixada com arame inox; caixas e painéis com placa permanente no frontal e identificação interna; instrumentos pneumáticos também identificados no manifold de ar. Antes de energizar em área classificada, inspeção inicial detalhada (NR-10, NBR IEC 60079-14/-17).",
+   "valores": []
+  },
+  {
+   "titulo": "Testes de condicionamento",
+   "item": "10",
+   "texto": "Tubings: exame visual e teste hidrostático ou pneumático (N-115) das válvulas raiz, linhas e conexões, secas por fora antes do teste e sopradas com ar seco ou N2 depois. Antes do teste e limpeza das tubulações, retirar válvulas de controle, on-off (salvo passagem plena), placas de orifício, poços e intrusivos; PSV e discos podem ser isolados com raquete; raízes bloqueadas. Cabos: visual, crimpagem, isolamento e continuidade com cabos soltos nas duas pontas, aterramento. Fibra óptica: todas as fibras nos dois sentidos com LSPM e OTDR (NBR 16869-2). Redes de campo: validação física (equipamentos por segmento, terminadores, separação, cabo e comprimento) e testes dinâmicos com certificação.",
+   "valores": [
+    {
+     "parametro": "Megôhmetro para isolamento de cabos de instrumentação",
+     "valor": "300 V a 500 Vcc (não exceder)",
+     "item": "10.3.2.2"
+    },
+    {
+     "parametro": "Tempo de aplicação no teste de isolamento",
+     "valor": "1 min, depois a leitura",
+     "item": "10.3.2.5"
+    },
+    {
+     "parametro": "Perda óptica admissível (LSPM)",
+     "valor": "P = L × Af + C × 0,75 dB + E × 0,3 dB (conectores e emendas)",
+     "item": "10.3.4.3.1"
+    },
+    {
+     "parametro": "Coeficiente de atenuação Af — multimodo 850 nm / 1300 nm",
+     "valor": "3,5 / 1,5 dB/km",
+     "item": "Tabela 1"
+    },
+    {
+     "parametro": "Coeficiente de atenuação Af — monomodo interna / externa",
+     "valor": "1,0 / 0,5 dB/km",
+     "item": "Tabela 1"
+    }
+   ]
+  },
+  {
+   "titulo": "Teste de malha",
+   "item": "11",
+   "texto": "Teste de malha e teste lógico são independentes e complementares (SIS segue a N-2595). Procedimento verifica endereço, faixa, unidade e alarmes configurados em campo e na operação; o sinal vai do campo à interface e o comando da interface ao elemento final, registrando também o visor local e as IHMs. Variável aplicada (calibrador com bomba, banho ou forno seco, gases padrão, lanterna de chama, soprador térmico) ou simulada (hand-held, sistema de ativos). Onde pode haver atmosfera explosiva, energizar só após comprovar ausência, fechar o invólucro e selar as unidades seladoras logo após.",
+   "valores": [
+    {
+     "parametro": "Pontos do teste de malha — instrumento",
+     "valor": "0, 50 e 100 % da faixa, um ciclo (de preferência subindo)",
+     "item": "11.1.1 b)"
+    },
+    {
+     "parametro": "Pontos do teste de malha — válvula de controle",
+     "valor": "0, 25, 50, 75 e 100 % de abertura, subindo e descendo",
+     "item": "11.1.1 c)"
+    }
+   ]
+  }
+ ]
+}

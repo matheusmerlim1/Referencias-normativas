@@ -235,15 +235,28 @@
  "norma-petrobras-n-1550": {
   "Faixa considerada agressiva": "distância geográfica ao mar (classificação de ambiente, não cota)"
  },
+ "norma-petrobras-n-1586": {
+  "Nível de ruído do ventilador (referência do formulário)": "nível de ruído; 1 m é só a distância de medição"
+ },
  "norma-petrobras-n-1618": {
   "PRFV — extensão de queima": "resultado de ensaio de inflamabilidade, não é cota de peça",
   "Suporte metálico do isolamento — inclinação da tubulação": "condição de aplicação (inclinação da linha), não é cota do acessório"
  },
+ "norma-petrobras-n-1671": {
+  "Porta de alívio — pressão de abertura": "pressão (mm de coluna d'água), não geométrica"
+ },
  "norma-petrobras-n-1735": {
   "Condição 2 — faixa costeira agressiva": "distância geográfica à praia (classificação do ambiente), não é cota"
  },
+ "norma-petrobras-n-1858": {
+  "Alarme de vibração (recomendado)": "velocidade de vibração (mm/s), não é medida geométrica",
+  "Ferritoscópio (inox austenítico/duplex)": "frequência de medições por comprimento de solda (amostragem), não é cota"
+ },
  "norma-petrobras-n-1859": {
   "Velocidade de deslocamento no CTOD": "velocidade de ensaio (mm/min)"
+ },
+ "norma-petrobras-n-1882": {
+  "Enlace digital que pede avaliação de fibra óptica": "distância de comunicação de rede (comprimento de enlace, não cota de montagem)"
  },
  "norma-petrobras-n-1996": {
   "Areia ou terra peneirada de envolvimento": "abertura de peneira (granulometria do material) — não é cota da vala"
@@ -262,6 +275,9 @@
   "Medição de espessura do epóxi — frequência": "frequência de inspeção ao longo do duto (não é cota)",
   "Sistema de fita polimérica — descolamento catódico 28 d (23 °C / máx. operação)": "resultado de ensaio de laboratório (raio de descolamento catódico), não é cota de peça",
   "Tubo do ensaio de qualificação do reparo": "dimensão mínima do corpo de prova de qualificação, sem desenho"
+ },
+ "norma-petrobras-n-2298": {
+  "Junta em par de flanges admitida (linhas de surgência)": "faixa de aplicação (diâmetro nominal da linha), não é medida a desenhar"
  },
  "norma-petrobras-n-2328": {
   "FBE da junta — descolamento catódico máx.": "resultado de ensaio de laboratório (raio de descolamento catódico), não é cota de peça",
@@ -294,6 +310,12 @@
  "norma-petrobras-n-2913": {
   "Esferas e cilindros — taxa de desgaste que exige revestimento interno": "taxa de corrosão (mm/ano), não é cota",
   "Orla marítima (cond. 17 e 20)": "distância geográfica à praia (classificação do ambiente), não é cota"
+ },
+ "norma-petrobras-n-2919": {
+  "Vibração no campo, motor desacoplado — classe I (≤ 15 kW) / II e III": "velocidade de vibração (mm/s), não é cota geométrica"
+ },
+ "norma-petrobras-n-2928": {
+  "Deslocamento angular — primário triângulo / secundário estrela": "ângulo de fase elétrico entre enrolamentos (não é cota geométrica)"
  },
  "norma-petrobras-n-2936": {
   "Vácuo de projeto — corpo / Anexos Q e R": "pressão (oz/in², mm c.a.) — não é cota"

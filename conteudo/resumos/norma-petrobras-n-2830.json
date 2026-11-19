@@ -1,0 +1,232 @@
+{
+ "id": "PETROBRAS-N-2830",
+ "titulo": "Petrobras N-2830 Rev. B (08/2018) — Critérios de segurança para ambientes e serviços em painéis elétricos com risco de arco elétrico",
+ "secoes": [
+  {
+   "titulo": "Escopo e conceitos",
+   "item": "1, 3",
+   "texto": "Critérios de projeto, operação e manutenção para salas de painéis e serviços com risco de arco elétrico, complementando a NR-10. Conceitos-chave: ATPV (energia que, atravessando o tecido, causaria queimadura de 2º grau), nível de proteção da vestimenta (substitui \"categoria de risco\"), distância de trabalho (do corpo à fonte de arco na tarefa), distância segura de aproximação (limite além do qual a energia incidente não causa queimadura de 2º grau), monitor de arco (sensores de luz e corrente que abrem disjuntores), vestimentas FR (fogo repentino, proteção nos primeiros segundos) e FR&AE.",
+   "valores": [
+    {
+     "parametro": "Energia incidente que define a distância segura de aproximação",
+     "valor": "≤ 5 J/cm² (1,2 cal/cm²)",
+     "item": "3.6",
+     "cota": "esquemas/painel-arco-eletrico-distancias.svg#distancia-segura"
+    },
+    {
+     "parametro": "Distância de trabalho",
+     "valor": "menor distância do corpo do trabalhador à fonte de arco na tarefa (porta aberta ou tampa retirada)",
+     "item": "3.7",
+     "cota": "esquemas/painel-arco-eletrico-distancias.svg#distancia-trabalho"
+    },
+    {
+     "parametro": "Vestimenta FR — duração da proteção térmica",
+     "valor": "primeiros 3 s",
+     "item": "3.19"
+    }
+   ],
+   "figuras": [
+    "esquemas/painel-arco-eletrico-distancias.svg"
+   ]
+  },
+  {
+   "titulo": "Requisitos de projeto",
+   "item": "4",
+   "texto": "Painéis novos devem ficar, durante intervenções, abaixo do nível AE-2; ampliações de painéis existentes e instalações existentes nunca acima de AE-4 (faixas da NFPA 70E). Medidas mitigadoras: reduzir a corrente de arco ou o tempo de atuação da proteção, ajuste temporário de pick-up, monitor de arco, dispositivos de curto proposital e manobra remota. O prontuário da NR-10 traz o estudo de arco pela IEEE 1584.1 (fora da faixa de validade, NFPA 70E Anexo D). Painéis de 24 kV e 36 kV com acessibilidade LSC2A, partição PM e resistência a arco; MT e BT com classificação de arco interno (N-317/N-2817, N-314/N-316). Painel certificado deixa de ser protegido com porta aberta. Plaquetas com tensão, energia incidente e distância segura; portas de gavetas travam com cadeado em \"extraído\" e não abrem com o dispositivo inserido.",
+   "valores": [
+    {
+     "parametro": "Energia incidente máxima — painéis novos (até 24 kV e acima)",
+     "valor": "abaixo do nível AE-2: 33,47 J/cm² (8 cal/cm²)",
+     "item": "4.1.1, 4.1.2"
+    },
+    {
+     "parametro": "Energia incidente máxima — ampliações e instalações existentes",
+     "valor": "nível AE-4: 167,36 J/cm² (40 cal/cm²)",
+     "item": "4.1.1, 4.1.3"
+    },
+    {
+     "parametro": "Painéis dispensados da avaliação de arco",
+     "valor": "≤ 240 V, salvo alimentados por transformador > 125 kVA",
+     "item": "4.1.7"
+    },
+    {
+     "parametro": "Acessibilidade de painéis 24 kV e 36 kV",
+     "valor": "categoria LSC2A",
+     "item": "4.1.6"
+    },
+    {
+     "parametro": "Interdição/liberação com portas fechadas (alavancas, manoplas, cadeados)",
+     "valor": "vestimenta mínima AE-2",
+     "item": "4.2.5"
+    }
+   ],
+   "figuras": [
+    "esquemas/painel-arco-eletrico-distancias.svg"
+   ]
+  },
+  {
+   "titulo": "Operação e manutenção",
+   "item": "5.1, 5.2",
+   "texto": "Exemplos de tarefas com risco de arco: trabalhos em CCM/CDC de baixa tensão, CCM de 2,3 kV a 7,2 kV e painéis metal-clad acima de 1 kV (operação com porta aberta, partes expostas, teste de tensão, extração e inserção) e circuitos CC de bateria. Compartimentos só de baixa tensão segregados da força: EPI AE-2 com as portas de força fechadas. Acima do limite não se intervém energizado: reduzir a energia (grupo de ajuste do relé, monitor de arco portátil) ou desenergizar. Só pessoas autorizadas e vestidas na área de risco; salas de painéis sem PT, bebedouros ou objetos estranhos; mesa do operador fora da frente ou de trás dos painéis. Tarefas de maior energia nunca sozinho; PT específica (N-2162); desenergização na sequência da NR-10 (seccionar, bloquear, constatar ausência de tensão, aterrar, proteger, sinalizar) e reenergização na ordem inversa; reavaliar o estudo de arco a cada mudança de rede ou ajuste.",
+   "valores": [
+    {
+     "parametro": "Energia incidente máxima para intervir energizado",
+     "valor": "167,36 J/cm² (40 cal/cm²)",
+     "item": "5.2.2"
+    },
+    {
+     "parametro": "Serviço energizado que não pode ser individual",
+     "valor": "≥ 8 cal/cm²",
+     "item": "5.2.5"
+    },
+    {
+     "parametro": "Inspeção de conformidade à NR-10 sem prazo legal",
+     "valor": "a cada 3 anos",
+     "item": "5.2.14"
+    },
+    {
+     "parametro": "Extra baixa tensão CC com risco de arco (luvas isolantes)",
+     "valor": "até 125 Vcc",
+     "item": "5.1.1 i), 5.2.15"
+    }
+   ]
+  },
+  {
+   "titulo": "Sala de painéis e manobras",
+   "item": "5.3–5.10; Tabelas 1 e 2",
+   "texto": "Tabela 1: em painel ensaiado a arco, se a folga entre o flap de exaustão e o teto for menor que a do fabricante, instalar duto de gases quentes para área segura; cabos na área de escape são realocados ou protegidos (fireproofing). Tabela 2: extração/inserção de disjuntor, contator ou gaveta com porta fechada em painel ensaiado pede AE-2; com porta aberta, o nível da energia calculada; em painel não ensaiado, não se faz com o painel energizado. Manobra completa só com o dispositivo aberto; identificação traseira dos cubículos igual à frontal; geradores e motores de ímã permanente só com máquina parada, excitação desligada, disjuntor extraído e aterramento temporário.",
+   "valores": [
+    {
+     "parametro": "Folga entre flap de exaustão e teto",
+     "valor": "a recomendada pelo fabricante; se menor, duto de gases quentes",
+     "item": "Tabela 1",
+     "cota": "esquemas/painel-arco-eletrico-distancias.svg#flap-teto"
+    },
+    {
+     "parametro": "Protetor facial AE-2 obrigatório",
+     "valor": "compartimento de controle ≥ 440 V, mesmo abaixo de 8 cal/cm²; dispensado até 220 V",
+     "item": "5.5, Tabela 3 Nota 5"
+    }
+   ],
+   "figuras": [
+    "esquemas/painel-arco-eletrico-distancias.svg"
+   ]
+  },
+  {
+   "titulo": "Ferramentas e EPI",
+   "item": "6, 7; Tabela 3",
+   "texto": "Todo profissional de elétrica, instrumentação e automação porta detector de baixa tensão testado antes do uso (ponto vivo, morto, vivo). Ferramentas manuais isoladas classe 1 000 V (NBR 9699), com norma e classe gravadas; multímetros categoria III ou IV com pontas compatíveis. Vestimenta com ATPV acima da maior energia calculada da subestação; Tabela 3 lista o kit por nível (AE-1/AE-2: roupa diária FR&AE, luva isolante com cobertura de couro, balaclava, capacete, protetor facial; AE-3/AE-4: conjunto de manobra, capuz carrasco).",
+   "valores": [
+    {
+     "parametro": "Detector de tensão portátil recomendado",
+     "valor": "90 V a 1 000 V ca; IP40; categoria IV 1 000 V; −10 °C a 50 °C",
+     "item": "6.1, Nota 3"
+    },
+    {
+     "parametro": "Isolamento mínimo das ferramentas manuais",
+     "valor": "classe 1 000 V",
+     "item": "6.2"
+    },
+    {
+     "parametro": "Multímetro",
+     "valor": "categoria III ou IV (IEC 61010-1), isolação ≥ 1 000 V",
+     "item": "6.5"
+    },
+    {
+     "parametro": "Luva de couro de cobertura — ATPV",
+     "valor": "> 10 cal/cm²",
+     "item": "B.12.3"
+    },
+    {
+     "parametro": "Reensaio de luvas isolantes (em uso ou estoque)",
+     "valor": "a cada 12 meses (IEC 60903)",
+     "item": "B.12.4"
+    }
+   ]
+  },
+  {
+   "titulo": "Emergência e sinalização",
+   "item": "8, 9, Anexo A",
+   "texto": "Procedimentos de emergência e resgate para choque e arco, com desfibrilador portátil recomendado. Sinalização da NR-10 com pictograma de choque elétrico. O Anexo A dá a sequência: calcular a energia incidente e a distância segura (IEEE 1584.1), escolher vestimenta e EPI, listar as tarefas que os exigem e afixar plaqueta legível em cada painel com os valores para porta aberta ou tampa retirada.",
+   "valores": [
+    {
+     "parametro": "Dimensões mínimas recomendadas da plaqueta de arco",
+     "valor": "200 mm × 250 mm [prática recomendada]",
+     "item": "A.2, Nota 2",
+     "cota": "esquemas/painel-arco-eletrico-distancias.svg#plaqueta-largura"
+    }
+   ],
+   "figuras": [
+    "esquemas/painel-arco-eletrico-distancias.svg"
+   ]
+  },
+  {
+   "titulo": "Equipamentos de proteção coletiva (Anexo B)",
+   "item": "B.1–B.8",
+   "texto": "Varas de manobra telescópicas (última seção colorida), detectores de tensão por aproximação e por contato (BT amarelo e AT), conjuntos de aterramento temporário (ligar primeiro à malha), escadas protegidas ou isoladas de fibra de vidro, andaimes isolantes, bastões de resgate, ensaiador portátil de isolação e tapetes isolantes — cada um com inspeção antes do uso e ensaio periódico.",
+   "valores": [
+    {
+     "parametro": "Vara de manobra estendida — isolamento permanente",
+     "valor": "≥ 30 kV ca da ponta à pingadeira",
+     "item": "B.1.1.2"
+    },
+    {
+     "parametro": "Ensaios periódicos — varas, escadas, andaimes e bastões",
+     "valor": "máximo 24 meses",
+     "item": "B.1.6.1, B.4.3.2, B.5.4, B.6.4"
+    },
+    {
+     "parametro": "Detector por aproximação — faixa de atuação",
+     "valor": "100 V a 15 000 V ca, 58 Hz a 61,8 Hz",
+     "item": "B.2.1.2, B.2.1.4"
+    },
+    {
+     "parametro": "Detector — sinal sonoro",
+     "valor": "75 dB a 90 dB",
+     "item": "B.2.1.6 e)"
+    },
+    {
+     "parametro": "Detector por contato de baixa tensão",
+     "valor": "50 V a 1 000 V ca (cor amarela)",
+     "item": "B.2.2.2"
+    },
+    {
+     "parametro": "Escada de fibra — carga por degrau (extrapesada)",
+     "valor": "136 kg",
+     "item": "B.4.2.2"
+    },
+    {
+     "parametro": "Escada isolada / bastão — isolação por trecho de tubo",
+     "valor": "100 kV por 30 cm por minuto",
+     "item": "B.4.2.1 b), B.6.2 c)",
+     "cota": "esquemas/painel-arco-eletrico-distancias.svg#bastao-isolacao"
+    },
+    {
+     "parametro": "Bastão de resgate — diâmetro do tubo",
+     "valor": "32 mm (fibra de vidro com epóxi, ASTM F711 / IEC 60855-1)",
+     "item": "B.6.2 a)",
+     "cota": "esquemas/painel-arco-eletrico-distancias.svg#bastao-diametro"
+    },
+    {
+     "parametro": "Bastão de resgate curto (salas apertadas)",
+     "valor": "2,0 m, com ≥ 30 kV da pingadeira ao gancho",
+     "item": "B.6.2, Nota",
+     "cota": "esquemas/painel-arco-eletrico-distancias.svg#bastao-comprimento"
+    },
+    {
+     "parametro": "Ensaiador portátil de isolação",
+     "valor": "≈ 2 000 V ca entre placas; alimentação 110 V ou 220 V",
+     "item": "B.7.2.3, B.7.2.4"
+    },
+    {
+     "parametro": "Tapete isolante — uso e ensaio",
+     "valor": "painéis acima de 440 V; acima de 1 kV ensaio dielétrico a cada 12 meses",
+     "item": "B.8.2, B.8.3"
+    }
+   ],
+   "figuras": [
+    "esquemas/painel-arco-eletrico-distancias.svg"
+   ]
+  }
+ ]
+}

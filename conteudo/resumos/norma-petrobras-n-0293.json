@@ -1,0 +1,219 @@
+{
+ "id": "PETROBRAS-N-0293",
+ "titulo": "Petrobras N-0293 Rev. H (12/2013) — Fabricação e montagem de estruturas metálicas",
+ "secoes": [
+  {
+   "titulo": "Escopo, procedimentos e fundações",
+   "item": "1, 5.1–5.3",
+   "texto": "Fabricação e montagem de estruturas de aço-carbono e C-Mn (convencionais de acesso e suporte, módulos, auxiliares de plataforma e navais). Procedimentos de fabricação, montagem, END, enchimento e reparo (N-133). Fundações de montagem pela NBR 6118/6122/9062 e N-1644, com controle de recalque. Chumbadores pela N-134 (rosca ASME B1.1, comprimento de rosca ≥ projeto, sem trinca/amassamento, proteção temporária) e posição pelas N-134/N-1644. Bases com eixos e elevação marcados, certificado de conformidade (coordenadas, elevação, dimensões, chumbadores, nivelamento) e graute (N-1644) só depois de prumo, alinhamento e aperto final.",
+   "valores": [
+    {
+     "parametro": "Elevação da base nivelada por calços",
+     "valor": "± 1 mm da elevação de projeto",
+     "item": "5.3.5 a)",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#elevacao-base"
+    },
+    {
+     "parametro": "Altura do calço (metal + argamassa) acima do projeto",
+     "valor": "no máximo 5 mm",
+     "item": "5.3.5 c)",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#calco-altura"
+    },
+    {
+     "parametro": "Largura mínima do calço",
+     "valor": "50 mm (todo dentro da região de apoio)",
+     "item": "5.3.5 b), d)",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#calco-largura"
+    },
+    {
+     "parametro": "Comprimento mínimo do calço",
+     "valor": "100 mm",
+     "item": "5.3.5 e)",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#calco-largura"
+    }
+   ],
+   "figuras": [
+    "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Recebimento, identificação e armazenagem",
+   "item": "5.4",
+   "texto": "Recebimento por inspetores de controle dimensional (caldeiraria, NBR 15523): material, dimensões, chanfros, soldas de fábrica e END; sem mossas, rebarbas ou bordas trincadas. Identificação por punção de ponta arredondada, protegida com verniz e marcada com tinta contrastante, igual à dos certificados e desenhos. Aços com escoamento ≥ 345 MPa (ex. A131 AH36) só da usina ou representante oficial, com certificado rastreável à nota fiscal. Galvanizado pela ASTM A143, sem contato com cabo de aço; pintura conforme N-13; consumíveis pela N-133; certificados aceitos por inspetor de soldagem nível 2. Chapas empilhadas com bordas defasadas e caimento, sobre brita; tubos ao tempo pela N-2719.",
+   "valores": [
+    {
+     "parametro": "Retângulo que contém a identificação da peça",
+     "valor": "máximo 250 × 300 mm; mínimo 120 × 200 mm",
+     "item": "5.4.4.3",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#identificacao"
+    },
+    {
+     "parametro": "Armazenagem ao tempo por mais de",
+     "valor": "3 meses → abrigar ou pintar/revestir",
+     "item": "5.4.9, Nota"
+    },
+    {
+     "parametro": "Altura mínima dos calços de armazenagem sobre o solo",
+     "valor": "300 mm",
+     "item": "5.4.10",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#armazenagem"
+    }
+   ],
+   "figuras": [
+    "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Soldagem e tratamento térmico",
+   "item": "5.5, 5.6; Figura 1",
+   "texto": "Requisitos não cobertos seguem AWS D1.1; procedimentos e soldadores qualificados pela N-133 e D1.1 com testemunho do inspetor N2; inspetores pela NBR 14842; pré-aquecimento pela N-133; goivagem sempre esmerilhada e inspecionada por LP ou PM; ponteamento e soldagem só após a IEIS (N-2301). Ponto removido por goivagem → LP/PM no local; dispositivos auxiliares removidos ao fim. Alívio de tensões pela D1.1, de preferência em forno e aquecendo os dois lados, com termopares calibrados e registro contínuo; END antes e partículas magnéticas depois; proibido em peças que não possam ter o peso aliviado (torres, colunas).",
+   "valores": [
+    {
+     "parametro": "Ponto de solda — comprimento mínimo",
+     "valor": "50 mm",
+     "item": "5.5.6 a)",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#ponto"
+    },
+    {
+     "parametro": "Ponto de solda — intervalo máximo entre pontos",
+     "valor": "400 mm",
+     "item": "5.5.6 a)",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#intervalo"
+    },
+    {
+     "parametro": "Interrupção da soldagem",
+     "valor": "só após ≥ 25 % da seção da junta",
+     "item": "5.5.8"
+    },
+    {
+     "parametro": "Alívio de tensões — deformação a frio",
+     "valor": "> 5 % (acalmado ao Al, Al > 0,015 %); > 4 % (acalmado ao Si, Si > 0,15 %); > 2 % (semiacalmado)",
+     "item": "5.6.1 a)"
+    },
+    {
+     "parametro": "Alívio de tensões — espessura de referência tr",
+     "valor": "junta de topo ou ângulo com penetração total tr > 63 mm; nós tubulares T, K, Y tr > 38 mm",
+     "item": "5.6.1 b); Fig. 1",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#ttat-faixa"
+    },
+    {
+     "parametro": "Reparo após tratamento térmico",
+     "valor": "repetir o tratamento se a profundidade de reparo passar de 51 mm",
+     "item": "5.6.4"
+    },
+    {
+     "parametro": "Tratamento local — faixa aquecida",
+     "valor": "≥ 5 × tr de cada lado da solda",
+     "item": "5.6.5 g)",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#ttat-faixa"
+    },
+    {
+     "parametro": "Tratamento local — temperatura na borda do isolamento",
+     "valor": "≤ 300 °C",
+     "item": "5.6.5 h)"
+    }
+   ],
+   "figuras": [
+    "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Fabricação e montagem",
+   "item": "5.7, 5.8",
+   "texto": "Transferir identificação e sentido de laminação após o corte; chanfros, transições de espessura e alinhamento pela D1.1; peças acopladas só depois de aprovadas no END (Tabela 5); dispositivos de ajuste sem tensionar a estrutura; sequência de montagem e soldagem que reduza deformações. Emenda de topo só as do projeto (sobras só pela N-279, inspeção nível 1). Somar a folga de raiz à perna do filete. Indicar eixo, norte de projeto e topo das peças; prumo ajustado com calços metálicos e topografia; correção dimensional de preferência a frio. END por N-1594/1595/1596/1597/1598 e D1.1; tubos < 400 mm pela A500/A501, ≥ 400 mm pela API 2B.",
+   "valores": [
+    {
+     "parametro": "Abertura de raiz máxima para enchimento adicional (buildup)",
+     "valor": "20 mm ou 2 × a chapa mais fina, o menor",
+     "item": "5.7.9"
+    },
+    {
+     "parametro": "Aquecimento localizado em reparo dimensional",
+     "valor": "temperatura ≤ 550 °C",
+     "item": "5.7.16, Nota"
+    }
+   ]
+  },
+  {
+   "titulo": "Controle dimensional",
+   "item": "5.9; Figuras 2–6; Tabelas 1 e 2",
+   "texto": "Valem as tolerâncias do projeto; na falta, estas. Nós tubulares pré-fabricados pela Figura 3 (perímetro e ovalização medidos na extremidade de cada membro); nós feitos no canteiro: só os pontos de trabalho. Reforços longitudinais e transversais pelas Tabelas 1 e 2 (flecha ± 0,30 %, rotação ± 1,5 %, desvio de posição ± 1,0 % da cota de referência; nos transversais, máx. 15 mm).",
+   "valores": [
+    {
+     "parametro": "Dimensões de painéis (planta, elevação, diagonais)",
+     "valor": "± 0,1 % de D ou ± 20 mm, o menor",
+     "item": "5.9.1; Fig. 2",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#painel-d"
+    },
+    {
+     "parametro": "Nivelamento de pisos",
+     "valor": "diferença máxima de 12 mm entre pontos medidos nos cruzamentos das vigas principais",
+     "item": "5.9.3; Fig. 4",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#plataforma-elev"
+    },
+    {
+     "parametro": "Elevação de plataformas de acesso",
+     "valor": "± 12 mm",
+     "item": "5.9.5 a)",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#plataforma-elev"
+    },
+    {
+     "parametro": "Degraus de escada — cota vertical e horizontal",
+     "valor": "± 12 mm",
+     "item": "5.9.5 b); Fig. 6",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#degrau-v"
+    },
+    {
+     "parametro": "Desnível do chapeamento/gradeamento nas emendas",
+     "valor": "≤ 2 mm",
+     "item": "5.9.5 c)",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#plataforma-elev"
+    },
+    {
+     "parametro": "Desalinhamento em junta cruciforme",
+     "valor": "m = t/2, máximo 8 mm (t = chapa não contínua mais fina)",
+     "item": "5.9.5 d)",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#cruciforme"
+    },
+    {
+     "parametro": "Flecha da chaparia",
+     "valor": "≤ 20 mm medida com gabarito de 1 000 mm",
+     "item": "5.9.5 e)",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#flecha-chapa"
+    },
+    {
+     "parametro": "Nó tubular — tolerâncias típicas",
+     "valor": "± 5 mm em posições; comprimentos de membro +10/−0 mm; ovalização 0,25–0,5 % D (máx. 5 mm)",
+     "item": "Fig. 3",
+     "cota": "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg#painel-d",
+     "nota": "conferir: valores lidos da Figura 3 (texto da figura fragmentado)"
+    }
+   ],
+   "figuras": [
+    "esquemas/estrutura-metalica-fabricacao-tolerancias-petrobras.svg"
+   ]
+  },
+  {
+   "titulo": "Inspeção de soldas e parafusos",
+   "item": "6.1–6.3; Tabelas 3–5; Anexo A",
+   "texto": "Toda solda 100 % visual (D1.1, critério estático em estruturas de acesso). Acesso (Tabela 3): PM ou LP em 5 % por lote. Suporte (Tabela 4): topo penetração total RX (ou US se ≥ 6 mm) 10 % + PM 20 %; ângulo sem penetração PM 20 %; ângulo com penetração total US 20 % + PM 50 %; defeito em amostra → duas regiões extras, e assim por diante. Parafusos: lote identificado, certificados ASTM, amostragem NBR 5426 (simples, nível II, risco do consumidor e qualidade limite 10 %), guardados cobertos e engraxados; furação pela NBR 8800; sem ovalizar furo (furo errado é soldado e refeito), sem trocar por diâmetro menor; arruela chanfrada em aba inclinada; alta resistência pela NBR 8800/AISC 348, sem reuso e com torque determinado diariamente em ensaio; aperto do mais rígido para o livre. Módulos, plataformas e navais: juntas numeradas, até 2 reparos no mesmo local se houver impacto, testes de produção pela N-1852, níveis de inspeção I a III (Tabela 5) com extensões do Anexo A; END só 24 h após a solda.",
+   "valores": [
+    {
+     "parametro": "Inclinação máxima da superfície sob cabeça/porca",
+     "valor": "1:20 (acima disso, arruela chanfrada ou em cunha)",
+     "item": "6.2.3.1"
+    },
+    {
+     "parametro": "Extensão do END após reparo",
+     "valor": "toda a região reparada + 25 mm de cada lado",
+     "item": "6.3.1.3; 6.3.2.5"
+    },
+    {
+     "parametro": "Prazo para END após soldagem (módulos/navais)",
+     "valor": "24 h após concluir as soldas",
+     "item": "Tabela A.1, Nota 14"
+    }
+   ]
+  }
+ ]
+}

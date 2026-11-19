@@ -1,0 +1,83 @@
+{
+ "id": "PETROBRAS-N-2331",
+ "titulo": "Petrobras N-2331 Rev. C (07/2025) — Delta cor: estabilidade à oxidação de querosene de aviação",
+ "secoes": [
+  {
+   "titulo": "Escopo e princípio",
+   "item": "1, 3, 5",
+   "texto": "Método para avaliar a estabilidade à oxidação do querosene de aviação pela variação da cor Saybolt antes e depois de envelhecimento em oxigênio; serve também para triagem de aditivos antioxidantes. Escurecimento e sedimentos na estocagem costumam vir de compostos nitrogenados e sulfurados. Uma alíquota é aquecida em bomba de oxidação (ASTM D525) com O₂ sob pressão, e a cor Saybolt (ASTM D156 ou D6045) é lida antes e depois. Segurança de laboratório pela N-2549.",
+   "valores": [
+    {
+     "parametro": "Temperatura do envelhecimento",
+     "valor": "(100 ± 0,5) °C",
+     "item": "5, 8.2.8",
+     "cota": "esquemas/querosene-delta-cor-oxidacao.svg#pressao-oxigenio"
+    },
+    {
+     "parametro": "Pressão de oxigênio na bomba",
+     "valor": "690 kPa a 705 kPa (100 psi a 102 psi)",
+     "item": "5, 8.2.5",
+     "cota": "esquemas/querosene-delta-cor-oxidacao.svg#pressao-oxigenio"
+    },
+    {
+     "parametro": "Duração do envelhecimento",
+     "valor": "2 h",
+     "item": "5, 8.2.8"
+    }
+   ],
+   "figuras": [
+    "esquemas/querosene-delta-cor-oxidacao.svg"
+   ]
+  },
+  {
+   "titulo": "Aparelhagem, reagentes e preparo",
+   "item": "6, 7, 8.1",
+   "texto": "Banho e bomba de oxidação, disco de ruptura, válvula de agulha (ou de batente com fluxômetro de corpo cromado e esfera inox), manômetro e recipiente de vidro com tampa conforme ASTM D525; colorímetro Saybolt automático ou manual; estufa de 70 °C a 150 °C; termômetro ASTM 22C/IP 24C (95 °C a 103 °C). Reagentes: acetona PA, oxigênio extra seco, solução de limpeza (alcalina ou oxidante-ácida, de preferência sem cromo) e solvente de goma (tolueno:acetona 1:1). Bombas limpas com acetona/solvente de goma (sem tocar a gaxeta) e secas ao ar; recipiente lavado com solvente e acetona, imerso na solução de limpeza, enxaguado com água destilada e seco em estufa, manuseado só com pinça.",
+   "valores": [
+    {
+     "parametro": "Pureza mínima do oxigênio",
+     "valor": "99,6 %",
+     "item": "7.2"
+    },
+    {
+     "parametro": "Imersão do recipiente na solução de limpeza",
+     "valor": "≥ 6 h",
+     "item": "8.1.2.3"
+    }
+   ],
+   "figuras": [
+    "esquemas/querosene-delta-cor-oxidacao.svg"
+   ]
+  },
+  {
+   "titulo": "Execução e resultado",
+   "item": "8.2, 9",
+   "texto": "A amostra deve estar límpida (se turva, filtrar e informar 'amostra filtrada'). Ler a cor Saybolt inicial (número inteiro), colocar 120 mL no recipiente dentro da bomba, pressurizar com O₂, aliviar e repressurizar para purgar, checar vazamento, imergir no banho pelo tempo do ensaio, resfriar em água, aliviar devagar, agitar para tirar o O₂ dissolvido (filtrar se continuar turva) e ler a cor final. Delta cor = cor inicial − cor final; cor inicial acima de +30 conta +30 e final abaixo de −16 conta −16. Informar as três cores como inteiros.",
+   "valores": [
+    {
+     "parametro": "Volume de amostra",
+     "valor": "120 mL",
+     "item": "8.2.3"
+    },
+    {
+     "parametro": "Taxa máxima de alívio de pressão",
+     "valor": "345 kPa/min (50 psi/min)",
+     "item": "8.2.6, 8.2.10"
+    },
+    {
+     "parametro": "Critério de estanqueidade da bomba",
+     "valor": "queda ≤ 15 kPa (2 psi) em 10 min",
+     "item": "8.2.7 (nota)"
+    },
+    {
+     "parametro": "Resfriamento após o banho",
+     "valor": "até a temperatura ambiente em no máximo 30 min",
+     "item": "8.2.9"
+    }
+   ],
+   "figuras": [
+    "esquemas/querosene-delta-cor-oxidacao.svg"
+   ]
+  }
+ ]
+}

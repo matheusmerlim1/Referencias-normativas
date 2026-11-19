@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 690" width="1000" height="690" role="img" aria-label="Sistema instrumentado de segurança — camadas de proteção, arquitetura de uma SIF e tempos">
+<title>Sistema instrumentado de segurança — camadas de proteção, arquitetura de uma SIF e tempos (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Sistema instrumentado de segurança — camadas de proteção, arquitetura de uma SIF e tempos</text>
+<text x="220" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) camadas de proteção (de dentro para fora)</text>
+<circle cx="220" cy="330" r="198" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.5"/>
+<circle cx="220" cy="330" r="174" fill="#666" fill-opacity="0.11" stroke="#666" stroke-width="1.5"/>
+<circle cx="220" cy="330" r="150" fill="#666" fill-opacity="0.14" stroke="#666" stroke-width="1.5"/>
+<circle cx="220" cy="330" r="126" fill="#666" fill-opacity="0.16999999999999998" stroke="#666" stroke-width="1.5"/>
+<circle cx="220" cy="330" r="102" fill="#666" fill-opacity="0.2" stroke="#666" stroke-width="1.5"/>
+<circle cx="220" cy="330" r="78" fill="#666" fill-opacity="0.22999999999999998" stroke="#666" stroke-width="1.5"/>
+<circle cx="220" cy="330" r="54" fill="#666" fill-opacity="0.26" stroke="#666" stroke-width="1.5"/>
+<circle cx="220" cy="330" r="30" fill="#666" fill-opacity="0.29" stroke="#666" stroke-width="1.5"/>
+<text x="220" y="334" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">processo / projeto inerente</text>
+<text x="220" y="290" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">controle (SSC)</text>
+<text x="220" y="266" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">alarme + ação do operador</text>
+<text x="220" y="242" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">SIS (SIFs)</text>
+<text x="220" y="218" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">alívio mecânico (PSV, tocha)</text>
+<text x="220" y="194" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">mitigação física (diques)</text>
+<text x="220" y="170" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">emergência da unidade</text>
+<text x="220" y="146" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">emergência da comunidade</text>
+<text x="700" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) arquitetura de uma SIF (segregada do SSC)</text>
+<rect x="480" y="100" width="70" height="34" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<text x="515" y="121" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">PT-A</text>
+<line x1="550" y1="117" x2="620" y2="180" stroke="#666" stroke-width="1.5"/>
+<rect x="480" y="150" width="70" height="34" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<text x="515" y="171" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">PT-B</text>
+<line x1="550" y1="167" x2="620" y2="180" stroke="#666" stroke-width="1.5"/>
+<rect x="480" y="200" width="70" height="34" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<text x="515" y="221" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">PT-C</text>
+<line x1="550" y1="217" x2="620" y2="180" stroke="#666" stroke-width="1.5"/>
+<text x="515" y="250" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">iniciadores analógicos</text>
+<text x="515" y="263" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(votação redundante)</text>
+<rect x="620" y="130" width="140" height="100" fill="#666" fill-opacity="0.25" stroke="#666" stroke-width="2.5"/>
+<text x="690" y="170" text-anchor="middle" font-size="10" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">executor da lógica</text>
+<text x="690" y="186" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">CP de segurança</text>
+<text x="690" y="200" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(certificado p/ o SIL)</text>
+<line x1="760" y1="180" x2="830" y2="180" stroke="#666" stroke-width="2"/>
+<rect x="830" y="160" width="40" height="40" fill="#666" fill-opacity="0.5" stroke="#666" stroke-width="1.5"/>
+<text x="850" y="150" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">solenoide</text>
+<path d="M870,180 L930,180 L930,250" fill="none" fill-opacity="0" stroke="#666" stroke-width="2"/>
+<path d="M905,250 L955,250 L930,280 Z" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<path d="M905,310 L955,310 L930,280 Z" fill="#666" fill-opacity="0.3" stroke="#666" stroke-width="1.5"/>
+<rect x="915" y="215" width="30" height="30" fill="#666" fill-opacity="0.5" stroke="#666" stroke-width="1.5"/>
+<text x="905" y="236" text-anchor="end" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">atuador com mola</text>
+<line x1="860" y1="280" x2="1000" y2="280" stroke="#666" stroke-width="4"/>
+<text x="930" y="330" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">SDV (falha segura,</text>
+<text x="930" y="343" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">sem volante, laranja)</text>
+<rect x="620" y="280" width="140" height="60" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="1.5"/>
+<text x="690" y="302" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">alimentação CC redundante</text>
+<text x="690" y="316" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">carregadores, baterias</text>
+<text x="690" y="330" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">e PCC duplicados</text>
+<line x1="690" y1="280" x2="690" y2="230" stroke="#666" stroke-width="1.5" stroke-dasharray="4 3"/>
+<rect x="620" y="380" width="140" height="46" fill="#666" fill-opacity="0.1" stroke="#666" stroke-width="1.5"/>
+<text x="690" y="400" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">interface de operação:</text>
+<text x="690" y="414" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">primeiro evento, contornos, rearme</text>
+<text x="700" y="470" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(c) tempos de uma SIF</text>
+<line x1="480" y1="560" x2="940" y2="560" stroke="#666" stroke-width="2"/>
+<rect x="480" y="530" width="200" height="30" fill="#666" fill-opacity="0.45" stroke="#666" stroke-width="1"/>
+<text x="580" y="550" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">tempo de resposta da SIF</text>
+<rect x="480" y="500" width="420" height="30" fill="#666" fill-opacity="0.12" stroke="#666" stroke-width="1"/>
+<text x="690" y="520" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">tempo de segurança do processo</text>
+<line x1="690" y1="495" x2="690" y2="600" stroke="#666" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="690" y="615" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">metade do tempo de segurança</text>
+<text x="220" y="620" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">risco residual ≤ tolerável: SIS só se as outras camadas não bastarem</text>
+<text x="12" y="682" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

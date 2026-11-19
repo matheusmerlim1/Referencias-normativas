@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 690" width="1000" height="690" role="img" aria-label="Documento técnico de engenharia — folha A3 ou maior, campos, legenda e escrita">
+<!--P7A-->
+<title>Documento técnico de engenharia — folha A3 ou maior, campos, legenda e escrita (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Documento técnico de engenharia — folha A3 ou maior, campos, legenda e escrita</text>
+<text x="330" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) folha de desenho A3 ou maior</text>
+<rect x="40" y="80" width="600" height="400" rx="0" fill="#666" fill-opacity="0.03" stroke="#666" stroke-width="1.5"/>
+<rect x="80" y="95" width="545" height="370" rx="0" fill="#666" fill-opacity="0.0" stroke="#666" stroke-width="2"/>
+<line x1="80.0" y1="465" x2="80.0" y2="474" stroke="#666" stroke-width="1"/>
+<text x="125.0" y="476" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">A</text>
+<line x1="170.8" y1="465" x2="170.8" y2="474" stroke="#666" stroke-width="1"/>
+<text x="215.8" y="476" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">B</text>
+<line x1="261.6" y1="465" x2="261.6" y2="474" stroke="#666" stroke-width="1"/>
+<text x="306.6" y="476" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">C</text>
+<line x1="352.4" y1="465" x2="352.4" y2="474" stroke="#666" stroke-width="1"/>
+<text x="397.4" y="476" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">D</text>
+<line x1="443.2" y1="465" x2="443.2" y2="474" stroke="#666" stroke-width="1"/>
+<text x="488.2" y="476" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">E</text>
+<line x1="534.0" y1="465" x2="534.0" y2="474" stroke="#666" stroke-width="1"/>
+<text x="579.0" y="476" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">F</text>
+<line x1="630" y1="465.0" x2="640" y2="465.0" stroke="#666" stroke-width="1"/>
+<text x="634" y="421.0" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">1</text>
+<line x1="630" y1="372.5" x2="640" y2="372.5" stroke="#666" stroke-width="1"/>
+<text x="634" y="328.5" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">2</text>
+<line x1="630" y1="280.0" x2="640" y2="280.0" stroke="#666" stroke-width="1"/>
+<text x="634" y="236.0" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">3</text>
+<line x1="630" y1="187.5" x2="640" y2="187.5" stroke="#666" stroke-width="1"/>
+<text x="634" y="143.5" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">4</text>
+<g id="cota-campo" class="cota"><line x1="80" y1="476" x2="80" y2="490" stroke="#666" stroke-width="1"/><line x1="170.8" y1="476" x2="170.8" y2="490" stroke="#666" stroke-width="1"/><line x1="80" y1="490" x2="170.8" y2="490" stroke="#666" stroke-width="1.2"/><polygon points="80.0,490.0 89.0,493.5 89.0,486.5" fill="#666"/><polygon points="170.8,490.0 161.8,486.5 161.8,493.5" fill="#666"/><text x="125.4" y="484.0" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">campo</text></g>
+<g id="cota-margem-arquivamento" class="cota"><line x1="40" y1="80" x2="40" y2="70" stroke="#666" stroke-width="1"/><line x1="80" y1="95" x2="80" y2="70" stroke="#666" stroke-width="1"/><line x1="40" y1="70" x2="80" y2="70" stroke="#666" stroke-width="1.2"/><polygon points="40.0,70.0 49.0,73.5 49.0,66.5" fill="#666"/><polygon points="80.0,70.0 71.0,66.5 71.0,73.5" fill="#666"/><text x="42" y="64" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">margem (arquivamento)</text></g>
+<g id="cota-margem" class="cota"><line x1="625" y1="95" x2="625" y2="70" stroke="#666" stroke-width="1"/><line x1="640" y1="80" x2="640" y2="70" stroke="#666" stroke-width="1"/><line x1="625" y1="70" x2="640" y2="70" stroke="#666" stroke-width="1.2"/><polygon points="625.0,70.0 634.0,73.5 634.0,66.5" fill="#666"/><polygon points="640.0,70.0 631.0,66.5 631.0,73.5" fill="#666"/><text x="655" y="66" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">margem</text></g>
+<rect x="445" y="385" width="180" height="80" rx="0" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="1.5"/>
+<text x="535" y="405" text-anchor="middle" font-size="10" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">legenda (carimbo)</text>
+<line x1="445" y1="413" x2="625" y2="413" stroke="#666" stroke-width="0.8"/>
+<text x="535" y="423" text-anchor="middle" font-size="8.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">cliente / programa / área</text>
+<line x1="445" y1="426" x2="625" y2="426" stroke="#666" stroke-width="0.8"/>
+<text x="535" y="436" text-anchor="middle" font-size="8.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">título + TAG</text>
+<line x1="445" y1="439" x2="625" y2="439" stroke="#666" stroke-width="0.8"/>
+<text x="535" y="449" text-anchor="middle" font-size="8.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">nº do documento · rev. · folha</text>
+<line x1="445" y1="452" x2="625" y2="452" stroke="#666" stroke-width="0.8"/>
+<text x="535" y="462" text-anchor="middle" font-size="8.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">escala · categoria · sigilo</text>
+<g id="cota-legenda" class="cota"><line x1="445" y1="465" x2="445" y2="505" stroke="#666" stroke-width="1"/><line x1="625" y1="465" x2="625" y2="505" stroke="#666" stroke-width="1"/><line x1="445" y1="505" x2="625" y2="505" stroke="#666" stroke-width="1.2"/><polygon points="445.0,505.0 454.0,508.5 454.0,501.5" fill="#666"/><polygon points="625.0,505.0 616.0,501.5 616.0,508.5" fill="#666"/><text x="535.0" y="499.0" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">largura da legenda</text></g>
+<rect x="445" y="335" width="180" height="40" rx="0" fill="#666" fill-opacity="0.06" stroke="#666" stroke-width="1.5" stroke-dasharray="4 2"/>
+<text x="535" y="350" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">revisões (acima da legenda)</text>
+<text x="535" y="364" text-anchor="middle" font-size="7.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">REV · descrição · data · exec · verif · aprov</text>
+<rect x="445" y="110" width="180" height="100" rx="0" fill="#666" fill-opacity="0.04" stroke="#666" stroke-width="1.5" stroke-dasharray="4 2"/>
+<text x="535" y="128" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">notas gerais</text>
+<rect x="445" y="215" width="180" height="110" rx="0" fill="#666" fill-opacity="0.04" stroke="#666" stroke-width="1.5" stroke-dasharray="4 2"/>
+<text x="535" y="233" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">documentos de referência</text>
+<rect x="120" y="140" width="250" height="170" rx="0" fill="#666" fill-opacity="0.08" stroke="#666" stroke-width="1.5"/>
+<text x="245" y="230" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">área do desenho</text>
+<rect x="120" y="440" width="30" height="8" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1"/>
+<rect x="150" y="440" width="30" height="8" rx="0" fill="#666" fill-opacity="0.05" stroke="#666" stroke-width="1"/>
+<rect x="180" y="440" width="30" height="8" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1"/>
+<rect x="210" y="440" width="30" height="8" rx="0" fill="#666" fill-opacity="0.05" stroke="#666" stroke-width="1"/>
+<rect x="240" y="440" width="30" height="8" rx="0" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1"/>
+<text x="195" y="435" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">escala gráfica (junto ao traço inferior)</text>
+<g id="cota-escala-grafica" class="cota"><line x1="120" y1="448" x2="120" y2="540" stroke="#666" stroke-width="1"/><line x1="270" y1="448" x2="270" y2="540" stroke="#666" stroke-width="1"/><line x1="120" y1="540" x2="270" y2="540" stroke="#666" stroke-width="1.2"/><polygon points="120.0,540.0 129.0,543.5 129.0,536.5" fill="#666"/><polygon points="270.0,540.0 261.0,536.5 261.0,543.5" fill="#666"/><text x="195.0" y="534.0" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">comprimento mínimo da escala gráfica</text></g>
+<text x="830" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) letras, linhas e espaçamento</text>
+<text x="760" y="140" text-anchor="middle" font-size="40" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ABC 123</text>
+<g id="cota-altura-letra" class="cota"><line x1="845" y1="140" x2="870" y2="140" stroke="#666" stroke-width="1"/><line x1="845" y1="111" x2="870" y2="111" stroke="#666" stroke-width="1"/><line x1="870" y1="140" x2="870" y2="111" stroke="#666" stroke-width="1.2"/><polygon points="870.0,140.0 873.5,131.0 866.5,131.0" fill="#666"/><polygon points="870.0,111.0 866.5,120.0 873.5,120.0" fill="#666"/><text x="878" y="130" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">altura mínima</text></g>
+<line x1="700" y1="220" x2="960" y2="220" stroke="#666" stroke-width="4"/>
+<line x1="700" y1="250" x2="960" y2="250" stroke="#666" stroke-width="1"/>
+<text x="700" y="210" text-anchor="start" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">linha normal (contorno)</text>
+<text x="700" y="268" text-anchor="start" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">linha de cota / chamada / secundária</text>
+<g id="cota-espessura-linha" class="cota"><line x1="900" y1="190" x2="930" y2="218" stroke="#666" stroke-width="1.2"/><polygon points="930.0,218.0 925.8,209.3 921.0,214.4" fill="#666"/><text x="882" y="186" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">espessura mín.</text></g>
+<g id="cota-espessura-secundaria" class="cota"><line x1="900" y1="285" x2="930" y2="252" stroke="#666" stroke-width="1.2"/><polygon points="930.0,252.0 921.4,256.3 926.5,261.0" fill="#666"/><text x="820" y="298" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">espessura mín. (secundária)</text></g>
+<line x1="700" y1="340" x2="960" y2="340" stroke="#666" stroke-width="3"/>
+<line x1="700" y1="358" x2="960" y2="358" stroke="#666" stroke-width="3"/>
+<g id="cota-espacamento-linhas" class="cota"><line x1="980" y1="340" x2="980" y2="358" stroke="#666" stroke-width="1.2"/><polygon points="980.0,340.0 976.5,349.0 983.5,349.0" fill="#666"/><polygon points="980.0,358.0 983.5,349.0 976.5,349.0" fill="#666"/><text x="955" y="385" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">espaçamento ≥ múltiplo da espessura</text></g>
+<text x="830" y="430" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(c) documento A4 (texto)</text>
+<rect x="745" y="450" width="170" height="200" rx="0" fill="#666" fill-opacity="0.03" stroke="#666" stroke-width="1.5"/>
+<rect x="755" y="460" width="150" height="50" rx="0" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="1.5"/>
+<text x="830" y="488" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">cabeçalho / legenda</text>
+<rect x="755" y="560" width="150" height="80" rx="0" fill="#666" fill-opacity="0.06" stroke="#666" stroke-width="1.5" stroke-dasharray="4 2"/>
+<text x="830" y="595" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">índice de revisões</text>
+<text x="830" y="610" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(ao pé da folha)</text>
+<text x="830" y="535" text-anchor="middle" font-size="9" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">capa = 1ª folha</text>
+<text x="12" y="682" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" role="img" aria-label="Levantamento de faixa de duto — poligonais, estaqueamento, cruzamentos, travessias e plantas">
+<!--P7A-->
+<title>Levantamento de faixa de duto — poligonais, estaqueamento, cruzamentos, travessias e plantas (esquema ilustrativo)</title>
+<text x="12" y="22" text-anchor="start" font-size="15" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Levantamento de faixa de duto — poligonais, estaqueamento, cruzamentos, travessias e plantas</text>
+<text x="500" y="50" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(a) planta da faixa</text>
+<line x1="40" y1="200" x2="960" y2="200" stroke="#666" stroke-width="1" stroke-dasharray="10 3 2 3"/>
+<text x="45" y="192" text-anchor="start" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">diretriz</text>
+<rect x="40" y="170" width="920" height="60" rx="0" fill="#666" fill-opacity="0.06" stroke="#666" stroke-width="1.5"/>
+<polygon points="52,150 68,150 60,136" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<polygon points="492,150 508,150 500,136" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<polygon points="932,150 948,150 940,136" fill="#666" fill-opacity="0.6" stroke="#666" stroke-width="1.5"/>
+<g id="cota-poligonal-lado" class="cota"><line x1="60" y1="140" x2="60" y2="120" stroke="#666" stroke-width="1"/><line x1="500" y1="140" x2="500" y2="120" stroke="#666" stroke-width="1"/><line x1="60" y1="120" x2="500" y2="120" stroke="#666" stroke-width="1.2"/><polygon points="60.0,120.0 69.0,123.5 69.0,116.5" fill="#666"/><polygon points="500.0,120.0 491.0,116.5 491.0,123.5" fill="#666"/><text x="280.0" y="114.0" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">lado da poligonal principal (marcos tipo A)</text></g>
+<line x1="60" y1="196" x2="60" y2="204" stroke="#666" stroke-width="1.2"/>
+<line x1="85" y1="196" x2="85" y2="204" stroke="#666" stroke-width="1.2"/>
+<line x1="110" y1="196" x2="110" y2="204" stroke="#666" stroke-width="1.2"/>
+<line x1="135" y1="196" x2="135" y2="204" stroke="#666" stroke-width="1.2"/>
+<line x1="160" y1="196" x2="160" y2="204" stroke="#666" stroke-width="1.2"/>
+<line x1="185" y1="196" x2="185" y2="204" stroke="#666" stroke-width="1.2"/>
+<line x1="210" y1="196" x2="210" y2="204" stroke="#666" stroke-width="1.2"/>
+<line x1="235" y1="196" x2="235" y2="204" stroke="#666" stroke-width="1.2"/>
+<line x1="260" y1="196" x2="260" y2="204" stroke="#666" stroke-width="1.2"/>
+<g id="cota-estaqueamento" class="cota"><line x1="60" y1="250" x2="85" y2="250" stroke="#666" stroke-width="1.2"/><polygon points="60.0,250.0 69.0,253.5 69.0,246.5" fill="#666"/><polygon points="85.0,250.0 76.0,246.5 76.0,253.5" fill="#666"/><text x="95" y="262" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">estaqueamento</text></g>
+<g id="cota-visada" class="cota"><line x1="300" y1="215" x2="420" y2="215" stroke="#666" stroke-width="1.2"/><polygon points="300.0,215.0 309.0,218.5 309.0,211.5" fill="#666"/><polygon points="420.0,215.0 411.0,211.5 411.0,218.5" fill="#666"/><text x="360" y="246" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">visada máx. da estação total</text></g>
+<circle cx="300" cy="200" r="4" fill="#666" fill-opacity="0.8" stroke="#666" stroke-width="1.5"/>
+<g id="cota-cadastro-faixa" class="cota"><line x1="980" y1="170" x2="980" y2="140" stroke="#666" stroke-width="1.2"/><polygon points="980.0,170.0 983.5,161.0 976.5,161.0" fill="#666"/><polygon points="980.0,140.0 976.5,149.0 983.5,149.0" fill="#666"/><text x="975" y="128" text-anchor="end" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">faixa de benfeitorias</text></g>
+<line x1="960" y1="140" x2="985" y2="140" stroke="#666" stroke-width="0.8" stroke-dasharray="3 2"/>
+<text x="250" y="320" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(b) cruzamento com rodovia</text>
+<rect x="200" y="340" width="100" height="200" rx="0" fill="#666" fill-opacity="0.2" stroke="#666" stroke-width="1.5"/>
+<text x="250" y="560" text-anchor="middle" font-size="9.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">faixa de domínio</text>
+<line x1="60" y1="440" x2="440" y2="440" stroke="#666" stroke-width="3"/>
+<line x1="90" y1="400" x2="410" y2="400" stroke="#666" stroke-width="0.8" stroke-dasharray="2 3"/>
+<line x1="90" y1="420" x2="410" y2="420" stroke="#666" stroke-width="0.8" stroke-dasharray="2 3"/>
+<line x1="90" y1="440" x2="410" y2="440" stroke="#666" stroke-width="0.8" stroke-dasharray="2 3"/>
+<line x1="90" y1="460" x2="410" y2="460" stroke="#666" stroke-width="0.8" stroke-dasharray="2 3"/>
+<line x1="90" y1="480" x2="410" y2="480" stroke="#666" stroke-width="0.8" stroke-dasharray="2 3"/>
+<g id="cota-cruzamento-extensao" class="cota"><line x1="90" y1="480" x2="90" y2="600" stroke="#666" stroke-width="1"/><line x1="200" y1="540" x2="200" y2="600" stroke="#666" stroke-width="1"/><line x1="90" y1="600" x2="200" y2="600" stroke="#666" stroke-width="1.2"/><polygon points="90.0,600.0 99.0,603.5 99.0,596.5" fill="#666"/><polygon points="200.0,600.0 191.0,596.5 191.0,603.5" fill="#666"/><text x="145.0" y="594.0" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">início antes da faixa de domínio</text></g>
+<g id="cota-cruzamento-lateral" class="cota"><line x1="430" y1="440" x2="430" y2="400" stroke="#666" stroke-width="1.2"/><polygon points="430.0,440.0 433.5,431.0 426.5,431.0" fill="#666"/><polygon points="430.0,400.0 426.5,409.0 433.5,409.0" fill="#666"/><text x="436" y="420" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">cada lado da diretriz</text></g>
+<g id="cota-cruzamento-secoes" class="cota"><line x1="420" y1="440" x2="420" y2="460" stroke="#666" stroke-width="1.2"/><polygon points="420.0,440.0 416.5,449.0 423.5,449.0" fill="#666"/><polygon points="420.0,460.0 423.5,451.0 416.5,451.0" fill="#666"/><text x="436" y="458" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">seções</text></g>
+<text x="740" y="320" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">(c) travessia de curso d'água</text>
+<path d="M600,420 Q740,380 880,420 L880,500 Q740,540 600,500 z" fill="#666" fill-opacity="0.15" stroke="#666" stroke-width="1.5"/>
+<line x1="610" y1="380" x2="610" y2="540" stroke="#666" stroke-width="0.6" stroke-dasharray="2 3"/>
+<line x1="632" y1="380" x2="632" y2="540" stroke="#666" stroke-width="0.6" stroke-dasharray="2 3"/>
+<line x1="654" y1="380" x2="654" y2="540" stroke="#666" stroke-width="0.6" stroke-dasharray="2 3"/>
+<line x1="676" y1="380" x2="676" y2="540" stroke="#666" stroke-width="0.6" stroke-dasharray="2 3"/>
+<line x1="698" y1="380" x2="698" y2="540" stroke="#666" stroke-width="0.6" stroke-dasharray="2 3"/>
+<line x1="720" y1="380" x2="720" y2="540" stroke="#666" stroke-width="0.6" stroke-dasharray="2 3"/>
+<line x1="742" y1="380" x2="742" y2="540" stroke="#666" stroke-width="0.6" stroke-dasharray="2 3"/>
+<line x1="764" y1="380" x2="764" y2="540" stroke="#666" stroke-width="0.6" stroke-dasharray="2 3"/>
+<line x1="786" y1="380" x2="786" y2="540" stroke="#666" stroke-width="0.6" stroke-dasharray="2 3"/>
+<line x1="808" y1="380" x2="808" y2="540" stroke="#666" stroke-width="0.6" stroke-dasharray="2 3"/>
+<line x1="830" y1="380" x2="830" y2="540" stroke="#666" stroke-width="0.6" stroke-dasharray="2 3"/>
+<line x1="852" y1="380" x2="852" y2="540" stroke="#666" stroke-width="0.6" stroke-dasharray="2 3"/>
+<line x1="874" y1="380" x2="874" y2="540" stroke="#666" stroke-width="0.6" stroke-dasharray="2 3"/>
+<line x1="560" y1="460" x2="920" y2="460" stroke="#666" stroke-width="3"/>
+<g id="cota-travessia-secoes" class="cota"><line x1="610" y1="560" x2="632" y2="560" stroke="#666" stroke-width="1.2"/><polygon points="610.0,560.0 619.0,563.5 619.0,556.5" fill="#666"/><polygon points="632.0,560.0 623.0,556.5 623.0,563.5" fill="#666"/><text x="650" y="572" text-anchor="start" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">seções longitudinais</text></g>
+<g id="cota-travessia-margem" class="cota"><line x1="880" y1="500" x2="880" y2="600" stroke="#666" stroke-width="1"/><line x1="940" y1="500" x2="940" y2="600" stroke="#666" stroke-width="1"/><line x1="880" y1="600" x2="940" y2="600" stroke="#666" stroke-width="1.2"/><polygon points="880.0,600.0 889.0,603.5 889.0,596.5" fill="#666"/><polygon points="940.0,600.0 931.0,596.5 931.0,603.5" fill="#666"/><text x="910.0" y="594.0" text-anchor="middle" font-size="12.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">além da margem</text></g>
+<text x="12" y="692" text-anchor="start" font-size="11.5" font-family="Arial, Helvetica, sans-serif" fill="#333" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Esquema ilustrativo (não é desenho da norma) — sem escala.</text>
+</svg>
